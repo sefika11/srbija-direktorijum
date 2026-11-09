@@ -12,10 +12,10 @@ export function Header({ locale, path }: { locale: Locale; path: string }) {
       <div className="tricolor" aria-hidden />
       <div className="shell flex items-center gap-4 py-2.5">
         <Link href={href(locale, "/")} className="no-underline text-ink flex items-center gap-2.5 shrink-0">
-          <span aria-hidden className="brand-mark">A</span>
+          <span aria-hidden className="brand-mark">G</span>
           <span className="leading-tight">
             <span className="block font-serif font-semibold text-[17px]">{d.siteName}</span>
-            <span className="hidden md:block text-[11px] text-muted tracking-[.08em] uppercase">Republika Srbija · 145 gradova i opština</span>
+            <span className="hidden md:block text-[11px] text-muted tracking-[.08em] uppercase">{locale === "sr" ? "Sve institucije Srbije" : locale === "en" ? "Every institution in Serbia" : locale === "ru" ? "Все учреждения Сербии" : "Alle Einrichtungen Serbiens"}</span>
           </span>
         </Link>
         <div className="flex-1 min-w-[200px] hidden sm:flex justify-center"><SearchBox locale={locale} placeholder={d.searchPlaceholder} submitLabel={d.search} /></div>
@@ -37,7 +37,7 @@ export function Footer({ locale }: { locale: Locale }) {
       <div className="shell pt-12 overflow-hidden"><div className="wordmark whitespace-nowrap">{d.siteName}</div></div>
       <div className="shell py-10 grid gap-8 md:grid-cols-[1.4fr_1fr_1fr] text-[13.5px]">
         <div>
-          <div className="flex items-center gap-2.5"><span aria-hidden className="brand-mark">A</span><span className="font-serif font-semibold text-[17px] text-white">{d.siteName}</span></div>
+          <div className="flex items-center gap-2.5"><span aria-hidden className="brand-mark">G</span><span className="font-serif font-semibold text-[17px] text-white">{d.siteName}</span></div>
           <p className="mt-3 max-w-md leading-relaxed">{d.tagline}</p>
         </div>
         <div>

@@ -4,6 +4,7 @@ import { Header, Footer } from "@/components/chrome";
 import { Home, OkrugHub, UnitHub, OrgTypeHub, OrgPage, SearchPage, ForForeigners, StaticPage, tuLabel } from "@/components/pages";
 import { GuidesHub, GuidePage, GUIDE_LABELS, content as guideContent } from "@/components/guides";
 import { SmartSearchPage } from "@/components/search";
+import { PartnersPage } from "@/components/partners";
 import { cookies } from "next/headers";
 import * as db from "@/lib/db";
 import { LOCALES, HREFLANG, href, splitLocale, t, type Locale } from "@/lib/i18n";
@@ -58,7 +59,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     case "home": return { ...base, title: `${d.siteName}`, description: d.tagline };
     case "search": return { ...base, title: d.search, robots: { index: false } };
     case "foreigners": return { ...base, title: d.forForeigners, description: d.forForeignersLead };
-    case "static": return { ...base, title: r.slug };
+    case "static": return { ...base, title: r.slug === "partneri" ? (locale === "en" ? "Partnership and advertising" : "Partnerstvo i oglašavanje") : r.slug === "o-sajtu" ? d.aboutSite : d.privacy };
     case "guides": return { ...base, title: GUIDE_LABELS[locale].guides, description: GUIDE_LABELS[locale].guidesLead };
     case "guide": { const c = guideContent(r.guide, locale).c; return { ...base, title: `${c.title ?? r.guide.name_lat} – ${GUIDE_LABELS[locale].documents.toLowerCase()}, ${GUIDE_LABELS[locale].fees.toLowerCase()}, ${GUIDE_LABELS[locale].whereToGo.toLowerCase()}`, description: c.summary ?? r.guide.summary ?? undefined }; }
     case "okrug": return { ...base, title: `${r.unit.name_lat} – ${locale === "sr" ? "gradovi, opštine i institucije" : d.institutions}`, description: `${d.allInstitutionsIn} ${r.unit.name_lat}: ${d.tagline}` };
@@ -81,7 +82,7 @@ export default async function Page({ params, searchParams }: Props) {
     case "home": body = <Home locale={locale} />; break;
     case "search": body = <SmartSearchPage locale={locale} q={typeof sp.q === "string" ? sp.q : ""} />; break;
     case "foreigners": body = <ForForeigners locale={locale} />; break;
-    case "static": body = <StaticPage locale={locale} slug={r.slug} />; break;
+    case "static": body = r.slug === "partneri" ? <PartnersPage locale={locale} path={href(locale, plain)} /> : <StaticPage locale={locale} slug={r.slug} />; break;
     case "guides": body = <GuidesHub locale={locale} />; break;
     case "guide": { const fromQuery = typeof sp.opstina === "string" ? sp.opstina : null; const fromCookie = fromQuery ? null : ((await cookies()).get("opstina")?.value ?? null);
       body = <GuidePage locale={locale} guide={r.guide} jlsSlug={fromQuery ?? fromCookie} path={href(locale, plain)} />; break; }

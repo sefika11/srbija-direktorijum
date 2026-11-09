@@ -11,7 +11,7 @@ import Motion from "@/components/Motion";
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3100"),
-  title: { default: "Adresar uprave", template: "%s · Adresar uprave" },
+  title: { default: "Gde da idem? – sve institucije Srbije", template: "%s · Gde da idem?" },
   description: "Sve institucije Srbije na jednom mestu: adresa, telefon, radno vreme i nadležnost.",
 };
 
