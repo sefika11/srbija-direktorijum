@@ -17,7 +17,7 @@ export type OrgType = { id: number; slug: string; group: Group; name_lat: string
   description_md: string | null; faq_md: string | null; icon: string | null; sort_order: number; one_per_jls: boolean; national_network: boolean };
 export type OrgRow = { id: number; slug: string; name_lat: string; name_cyr: string | null; official_name_lat: string | null; type_slug: string; type_name: string;
   group: Group; jurisdiction: string; founder_slug: string | null; founder_name: string | null; place_name: string | null; place_slug: string | null; verification: string;
-  mb: string | null; pib: string | null; jbkjs: string | null; website: string | null; parent_id: number | null; parent_name: string | null; parent_slug: string | null; parent_type_slug: string | null; last_seen_at: string | null };
+  mb: string | null; pib: string | null; jbkjs: string | null; website: string | null; parent_id: number | null; parent_name: string | null; parent_slug: string | null; parent_type_slug: string | null; last_seen_at: string | null; is_private?: boolean };
 
 export const getTU = (slug: string, level: "jls" | "okrug" | "gradska_opstina") =>
   sql<TU[]>`select id, slug, level, name_lat, name_cyr, official_name_lat, jls_kind, parent_id, path::text, seat_name_lat, okrug_seat, population_2022, website, in_kosovo
@@ -65,7 +65,7 @@ export const getOrgType = (slug: string) =>
 const ORG_SELECT = sql`
   select o.id, o.slug, o.name_lat, o.name_cyr, o.official_name_lat, t.slug as type_slug, t.name_lat as type_name, t."group" as group, o.jurisdiction,
          f.slug as founder_slug, f.name_lat as founder_name, p.name_lat as place_name, p.slug as place_slug, o.verification, o.mb, o.pib, o.jbkjs, o.website,
-         o.parent_org_id as parent_id, par.name_lat as parent_name, par.slug as parent_slug, pt.slug as parent_type_slug, o.last_seen_at::text
+         o.parent_org_id as parent_id, par.name_lat as parent_name, par.slug as parent_slug, pt.slug as parent_type_slug, o.last_seen_at::text, o.is_private
   from organizations o
   join org_types t on t.id = o.org_type_id
   left join territorial_units f on f.id = o.founder_unit_id

@@ -172,3 +172,44 @@ class PoliteClient:
 
     def close(self) -> None:
         self._client.close()
+
+
+# -- headless rendering (JS-driven pages: MUP portal, some JKP sites) -------------------------
+RENDER_CACHE_DIR = CACHE_DIR / "rendered"
+
+
+def get_rendered(client: "PoliteClient", url: str, *, wait_selector: str | None = None, wait_ms: int = 1500,
+                 cache_days: int = 30, force: bool = False) -> str:
+    """Fetch a page with headless Chromium (Playwright) and return the rendered HTML.
+
+    Same rules as PoliteClient.get: robots.txt, per-host delay, on-disk cache. Use only when the plain GET
+    does not contain the content (client-rendered portals). Requires `pip install playwright` and
+    `python -m playwright install chromium`.
+    """
+    from playwright.sync_api import sync_playwright  # imported lazily: optional dependency
+
+    if not client.allowed(url):
+        raise HostBlocked(f"robots.txt disallows {url}")
+    RENDER_CACHE_DIR.mkdir(parents=True, exist_ok=True)
+    key = hashlib.sha256(("render:" + url + (wait_selector or "")).encode()).hexdigest()
+    p = RENDER_CACHE_DIR / f"{key}.html"
+    if p.exists() and not force and time.time() - p.stat().st_mtime < cache_days * 86400:
+        return p.read_text(encoding="utf-8")
+    st = client._host(url)
+    wait = client.delay - (time.time() - st.last_request_at)
+    if wait > 0:
+        time.sleep(wait)
+    with sync_playwright() as pw:
+        browser = pw.chromium.launch()
+        page = browser.new_page(user_agent=UA, locale="sr-RS")
+        try:
+            page.goto(url, wait_until="networkidle", timeout=60000)
+            if wait_selector:
+                page.wait_for_selector(wait_selector, timeout=20000)
+            page.wait_for_timeout(wait_ms)
+            html = page.content()
+        finally:
+            browser.close()
+    st.last_request_at = time.time()
+    p.write_text(html, encoding="utf-8")
+    return html
