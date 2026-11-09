@@ -8,7 +8,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import * as THREE from "three";
-import { OKRUG_SHAPES, MAP_W, MAP_H } from "@/lib/serbia-map";
+import { OKRUG_SHAPES, MAP_W, MAP_H, MAP_VIEWBOX } from "@/lib/serbia-map";
 import type { Locale } from "@/lib/i18n";
 import { href } from "@/lib/i18n";
 import type { MapOkrug, MapLabels } from "./SerbiaMap";
@@ -86,7 +86,7 @@ export default function SerbiaMap3D({ okruzi, locale, labels, onUnavailable, cla
 
     const scene = new THREE.Scene();
     const camera = new THREE.PerspectiveCamera(27, 1, 1, 600);
-    const camFinal = new THREE.Vector3(0, 88, 72), camStart = new THREE.Vector3(0, 150, 150), look = new THREE.Vector3(0, 0, 5);
+    const camFinal = new THREE.Vector3(0, 94, 78), camStart = new THREE.Vector3(0, 150, 150), look = new THREE.Vector3(0, 0, 3);
     camera.position.copy(reduced ? camFinal : camStart); camera.lookAt(look);
 
     scene.add(new THREE.HemisphereLight(0xffffff, 0xd8d4c8, 1.15));
@@ -148,7 +148,7 @@ export default function SerbiaMap3D({ okruzi, locale, labels, onUnavailable, cla
       const w = el.clientWidth, h = el.clientHeight; if (!w || !h) return;
       renderer.setSize(w, h, false); camera.aspect = w / h; camera.updateProjectionMatrix();
       // keep the whole country in frame on narrow stages
-      const fit = Math.max(1, 0.95 / camera.aspect); camFinal.set(0, 88 * fit, 72 * fit);
+      const fit = Math.max(1, 0.95 / camera.aspect); camFinal.set(0, 94 * fit, 78 * fit);
     };
     const ro = new ResizeObserver(resize); ro.observe(el); resize();
 
@@ -215,6 +215,9 @@ export default function SerbiaMap3D({ okruzi, locale, labels, onUnavailable, cla
   const o = hover ? okrugBy[hover] : null;
   return (
     <div ref={wrap} className={`m3-stage ${ready ? "is-ready" : ""} ${className ?? ""}`}>
+      <svg viewBox={MAP_VIEWBOX} className="m3-poster-svg absolute inset-0 w-full h-full p-8" preserveAspectRatio="xMidYMid meet" aria-hidden>
+        {OKRUG_SHAPES.map((s) => <path key={s.slug} d={s.d} fill="var(--surface-2)" stroke="var(--line-strong)" strokeWidth="1" />)}
+      </svg>
       <canvas ref={canvasRef} className="absolute inset-0 w-full h-full block" aria-label={labels.serbia} role="img" />
       <div ref={labelsRef} className="absolute inset-0 pointer-events-none" aria-hidden />
       <div className={`m3-tip ${o ? "is-on" : ""}`} aria-live="polite">

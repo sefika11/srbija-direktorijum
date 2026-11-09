@@ -4,8 +4,18 @@ import { useEffect, useState } from "react";
 import dynamic from "next/dynamic";
 import SerbiaMap, { type MapOkrug, type MapJls, type MapLabels } from "./SerbiaMap";
 import type { Locale } from "@/lib/i18n";
+import { OKRUG_SHAPES, MAP_VIEWBOX } from "@/lib/serbia-map";
 
-const SerbiaMap3D = dynamic(() => import("./SerbiaMap3D"), { ssr: false, loading: () => <div className="m3-stage" aria-hidden /> });
+function Poster() {
+  return (
+    <div className="m3-stage m3-poster" aria-hidden>
+      <svg viewBox={MAP_VIEWBOX} className="absolute inset-0 w-full h-full p-8" preserveAspectRatio="xMidYMid meet">
+        {OKRUG_SHAPES.map((s) => <path key={s.slug} d={s.d} fill="var(--surface-2)" stroke="var(--line-strong)" strokeWidth="1" />)}
+      </svg>
+    </div>
+  );
+}
+const SerbiaMap3D = dynamic(() => import("./SerbiaMap3D"), { ssr: false, loading: () => <Poster /> });
 
 function webglOk() {
   try { const c = document.createElement("canvas"); return !!(c.getContext("webgl2") || c.getContext("webgl")); } catch { return false; }
@@ -18,7 +28,7 @@ export default function MapStage({ okruzi, jls, locale, labels }: { okruzi: MapO
     setMode(wide && webglOk() ? "3d" : "2d");
   }, []);
   const L = { sr: { d3: "3D", d2: "2D", hint3: "Pređite preko okruga. Klik otvara okrug. Visina = broj institucija." }, en: { d3: "3D", d2: "2D", hint3: "Hover a district. Click opens it. Height = number of institutions." }, ru: { d3: "3D", d2: "2D", hint3: "Наведите на округ. Клик открывает его. Высота = число учреждений." }, de: { d3: "3D", d2: "2D", hint3: "Bezirk überfahren. Klick öffnet ihn. Höhe = Zahl der Einrichtungen." } }[locale];
-  if (mode === null) return <div className="m3-stage" aria-hidden />;
+  if (mode === null) return <Poster />;
   return (
     <div className="relative">
       {mode === "3d" ? (
