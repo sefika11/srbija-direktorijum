@@ -32,7 +32,7 @@ export default function SerbiaMap({ okruzi, jls, locale, labels }: { okruzi: Map
   const svgRef = useRef<SVGSVGElement>(null);
   const [size, setSize] = useState({ w: 600, h: 787 });
   const aspect = size.w / size.h;
-  const base = useMemo(() => fitBox([0, 0, MAP_W, MAP_H], aspect, 0.02), [aspect]);
+  const base = useMemo(() => fitBox([0, 0, MAP_W, MAP_H], aspect, 0.05), [aspect]);
   const [view, setView] = useState<View>(base);
   const viewRef = useRef(view); viewRef.current = view;
   const [focused, setFocused] = useState<string | null>(null);
@@ -134,7 +134,7 @@ export default function SerbiaMap({ okruzi, jls, locale, labels }: { okruzi: Map
   const scale = size.w / view.w;                 // px per map unit
   const zoom = base.w / view.w;                  // 1 = whole country
   const showJls = !!shapes && (!!focused || zoom >= 1.7);
-  const okrugLabelPx = 12.5, jlsLabelPx = 11.5;
+  const okrugLabelPx = size.w < 520 ? 11 : 12.5, jlsLabelPx = size.w < 520 ? 10.5 : 11.5;
   const f = (px: number) => px / scale;
   const a = focused ? okrugBy[focused] : hoverOkrug ? okrugBy[hoverOkrug] : null;
   const hj = hoverJls ? jlsBy[hoverJls] : null;
@@ -186,6 +186,8 @@ export default function SerbiaMap({ okruzi, jls, locale, labels }: { okruzi: Map
           {!showJls && OKRUG_SHAPES.map((s) => {
             const o = okrugBy[s.slug]; if (!o) return null;
             const txt = (o.seat_name_lat ?? o.name_lat).replace("Sremska Mitrovica", "S. Mitrovica");
+            // label must fit inside its okrug at this scale (0.56em average glyph width), else drop it
+            if ((s.bbox[2] - s.bbox[0]) * scale < txt.length * okrugLabelPx * 0.56 + 6) return null;
             return (
               <text key={`l-${s.slug}`} x={s.cx} y={s.cy} textAnchor="middle" dominantBaseline="middle" pointerEvents="none"
                     style={{ fontSize: f(okrugLabelPx), fontFamily: "var(--font-sans)", fontWeight: 600, fill: hoverOkrug === s.slug ? "#fff" : "var(--ink)",
@@ -222,7 +224,7 @@ export default function SerbiaMap({ okruzi, jls, locale, labels }: { okruzi: Map
           <button type="button" aria-label={labels.zoomOut} onClick={() => zoomAt(1 / 1.6, size.w / 2, size.h / 2, true)} className="map-btn">−</button>
           <button type="button" aria-label={labels.reset} onClick={reset} className="map-btn text-[13px]">⌂</button>
         </div>
-        <div className="absolute left-3 bottom-3 map-chip text-[11.5px] text-muted hidden sm:block">{showJls ? labels.hintZoomed : labels.hint}</div>
+        <div className="absolute left-3 bottom-3 hidden sm:block"><div className="map-chip text-[11.5px] text-muted">{showJls ? labels.hintZoomed : labels.hint}</div></div>
       </div>
 
       {/* side panel */}
