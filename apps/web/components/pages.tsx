@@ -78,15 +78,15 @@ export async function Home({ locale }: { locale: Locale }) {
   return (
     <main>
       {/* Opening */}
-      <section className="hero-dark border-b border-white/10 -mt-[57px] pt-[57px]" data-hero>
+      <section className="hero-open border-b border-line">
         <div className="shell pt-10 pb-14 sm:pt-14 sm:pb-20 grid gap-10 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.05fr)] items-center">
           <div data-reveal>
             <div className="eyebrow mb-5">Republika Srbija · {d.siteName}</div>
             <h1 className="display text-[40px] sm:text-[56px] xl:text-[64px] max-w-[14ch]">{d.tagline.split(":")[0]}.</h1>
-            <p className="lede text-white/70 mt-5 max-w-[48ch]">{d.tagline.includes(":") ? d.tagline.split(":")[1].trim().replace(/^./, (c) => c.toUpperCase()) : ""}</p>
+            <p className="lede text-muted mt-5 max-w-[48ch]">{d.tagline.includes(":") ? d.tagline.split(":")[1].trim().replace(/^./, (c) => c.toUpperCase()) : ""}</p>
             <div className="mt-8"><SearchBox locale={locale} large placeholder={d.searchPlaceholder} submitLabel={d.search} /></div>
             <div className="mt-4 flex flex-wrap items-center gap-2 text-[13px]">
-              <span className="text-white/55 mr-1">{popular}:</span>
+              <span className="text-muted mr-1">{popular}:</span>
               {QUICK[locale].map((x) => <Link key={x.q} href={href(locale, x.q)} className="quick-chip">{x.label}</Link>)}
             </div>
             <div className="stat-strip mt-9">
@@ -98,7 +98,7 @@ export async function Home({ locale }: { locale: Locale }) {
           <div data-reveal style={{ "--d": "120ms" } as React.CSSProperties}>
             <SerbiaMap okruzi={okruzi.map((o) => ({ slug: o.slug, name_lat: o.name_lat, seat_name_lat: o.seat_name_lat, jls_count: o.jls_count, go_count: o.go_count, org_count: o.org_count }))}
                        jls={allJls.map((j) => ({ slug: j.slug, name_lat: j.name_lat, okrug_slug: j.okrug_slug, org_count: j.org_count, jls_kind: j.jls_kind, level: j.level, parent_slug: j.parent_slug }))}
-                       locale={locale} labels={mapLabels} variant="dark" height="hero" />
+                       locale={locale} labels={mapLabels} variant="light" height="hero" />
           </div>
         </div>
       </section>
@@ -160,10 +160,10 @@ export async function Home({ locale }: { locale: Locale }) {
       </section>
 
       {/* Languages */}
-      <section className="hero-dark"><div className="shell py-16 sm:py-20" data-reveal>
+      <section className="band-primary"><div className="shell py-16 sm:py-20" data-reveal>
         <div className="eyebrow mb-3">04 · {d.forForeigners}</div>
-        <h2 className="display-sm text-white max-w-[20ch]">{T.langsTitle}</h2>
-        <p className="lede text-white/70 mt-3 max-w-[52ch]">{T.langsLead}</p>
+        <h2 className="display-sm max-w-[20ch]">{T.langsTitle}</h2>
+        <p className="lede mt-3 max-w-[52ch]">{T.langsLead}</p>
         <div className="lang-tiles mt-8">
           {LANGS.map((x) => <Link key={x.l} href={href(x.l, "/za-strance")} hrefLang={x.l} className="lang-tile"><span className="big">{x.name}</span><span className="text-white/60 text-[13px]">{x.sub}</span></Link>)}
         </div>
@@ -178,7 +178,7 @@ export async function OkrugHub({ locale, okrug }: { locale: Locale; okrug: db.TU
   const jls = await db.getJlsInOkrug(okrug.id);
   return (
     <main>
-      <section className="hero-dark border-b border-white/10"><div className="shell py-8 sm:py-10">
+      <section className="hero-light border-b border-line"><div className="shell py-8 sm:py-10">
         <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, { label: okrug.name_lat }]} />
         <div className="eyebrow mt-4">{d.okrug}</div>
         <h1 className="font-serif text-[30px] sm:text-[38px] font-semibold leading-tight">{okrug.official_name_lat ?? okrug.name_lat}</h1>
@@ -210,7 +210,7 @@ export async function UnitHub({ locale, unit, parent }: { locale: Locale; unit: 
   const path = unit.level === "gradska_opstina" && parent ? `/${parent.slug}/${unit.slug}` : `/${unit.slug}`;
   return (
     <main>
-      <section className="hero-dark border-b border-white/10"><div className="shell py-8 sm:py-10">
+      <section className="hero-light border-b border-line"><div className="shell py-8 sm:py-10">
       <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, ...(okrug ? [{ href: href(locale, `/okrug/${okrug.slug}`), label: okrug.name_lat }] : []), ...(parent ? [{ href: href(locale, `/${parent.slug}`), label: parent.name_lat }] : []), { label: unit.name_lat }]} />
       <div className="eyebrow mt-4">{unit.level === "gradska_opstina" ? d.gradskaOpstina : unit.jls_kind === "grad" ? d.city : d.municipality}{okrug && unit.level === "jls" ? ` · ${okrug.name_lat}` : ""}</div>
       <h1 className="font-serif text-[30px] sm:text-[38px] font-semibold leading-tight">{tuLabel(unit)}</h1>
@@ -290,7 +290,7 @@ export async function OrgTypeHub({ locale, type }: { locale: Locale; type: db.Or
   try { const parsed = type.faq_md ? JSON.parse(type.faq_md) : []; if (Array.isArray(parsed)) faq = parsed.filter((x) => x && x.q && x.a); } catch { faq = []; }
   return (
     <main>
-      <section className="hero-dark border-b border-white/10"><div className="shell py-8 sm:py-10">
+      <section className="hero-light border-b border-line"><div className="shell py-8 sm:py-10">
         <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, { label: d.groups[type.group] }, { label: type.name_plural_lat ?? type.name_lat }]} />
         <div className="eyebrow mt-4">{d.groups[type.group]}</div>
         <h1 className="font-serif text-[30px] sm:text-[38px] font-semibold leading-tight">{type.name_plural_lat ?? type.name_lat}</h1>
@@ -367,7 +367,7 @@ export async function OrgPage({ locale, org, locSlug, path }: { locale: Locale; 
   const regLine = [org.mb && `MB ${org.mb}`, org.pib && `PIB ${org.pib}`, org.jbkjs && `JBKJS ${org.jbkjs}`].filter(Boolean).join(" · ");
   return (
     <main>
-      <section className="hero-dark border-b border-white/10"><div className="shell py-7 sm:py-9">
+      <section className="hero-light border-b border-line"><div className="shell py-7 sm:py-9">
       <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, ...(jls ? [{ href: href(locale, `/${jls.slug}`), label: jls.name_lat }] : []), { href: href(locale, `/${org.type_slug}`), label: type.name_lat }, ...(loc && !loc.is_primary ? [{ href: orgHref(locale, org), label: org.name_lat }, { label: loc.unit_name_lat }] : [{ label: org.name_lat }])]} />
       <div className="eyebrow mt-4">{type.name_lat}{jls ? ` · ${jls.name_lat}` : ""}</div>
       <h1 className="font-serif text-[28px] sm:text-[36px] font-semibold leading-[1.12] mt-1">{title}</h1>
@@ -455,7 +455,7 @@ export async function SearchPage({ locale, q }: { locale: Locale; q: string }) {
   const hits = q.trim().length >= 2 ? await db.search(q.trim()) : [];
   return (
     <main>
-      <section className="hero-dark border-b border-white/10"><div className="shell py-8 sm:py-10">
+      <section className="hero-light border-b border-line"><div className="shell py-8 sm:py-10">
         <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, { label: d.search }]} />
         <h1 className="font-serif text-[26px] sm:text-[32px] font-semibold mt-4">{q ? <>{d.results} „{q}“</> : d.search}</h1>
         <div className="mt-4"><SearchBox locale={locale} defaultValue={q} large placeholder={d.searchPlaceholder} submitLabel={d.search} /></div>
@@ -486,11 +486,11 @@ export async function ForForeigners({ locale }: { locale: Locale }) {
   const newcomer = ["privremeni-boravak-stranci", "prijava-prebivalista", "licna-karta", "zdravstvena-knjizica", "pib-za-strance", "otvaranje-firme-preduzetnik"].map((s) => guides.find((x) => x.slug === s)).filter(Boolean) as db.GuideRow[];
   return (
     <main>
-      <section className="foreigners-band border-b border-line"><div className="shell py-10 sm:py-14">
+      <section className="band-primary border-b border-line"><div className="shell py-10 sm:py-14">
         <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, { label: d.forForeigners }]} />
-        <div className="eyebrow plain !text-white/70 mt-4">{d.forForeigners} · English · Русский · Deutsch</div>
-        <h1 className="font-serif text-[30px] sm:text-[40px] font-semibold mt-1 max-w-3xl text-white leading-[1.1]">{g.title}</h1>
-        <p className="mt-3 max-w-3xl text-[16px] text-white/85">{g.lead}</p>
+        <div className="eyebrow plain mt-4">{d.forForeigners} · English · Русский · Deutsch</div>
+        <h1 className="font-serif text-[30px] sm:text-[40px] font-semibold mt-1 max-w-3xl leading-[1.1]">{g.title}</h1>
+        <p className="mt-3 max-w-3xl text-[16px]">{g.lead}</p>
         {newcomer.length > 0 && <div className="mt-6 flex flex-wrap gap-2">{newcomer.map((x) => { const c = x.guide[locale] ?? x.guide.en ?? x.guide.sr ?? {}; return <Link key={x.id} href={href(locale, `/vodic/${x.slug}`)} className="inline-flex items-center rounded-full bg-white/12 hover:bg-white/22 border border-white/25 text-white px-3.5 py-1.5 text-[13.5px] no-underline">{c.title ?? x.name_lat} →</Link>; })}</div>}
       </div></section>
       <div className="shell py-10">
@@ -527,7 +527,7 @@ export function StaticPage({ locale, slug }: { locale: Locale; slug: string }) {
   if (!p) return null;
   return (
     <main>
-      <section className="hero-dark border-b border-white/10"><div className="shell py-8 sm:py-10">
+      <section className="hero-light border-b border-line"><div className="shell py-8 sm:py-10">
         <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, { label: p.title }]} />
         <h1 className="font-serif text-[30px] sm:text-[38px] font-semibold mt-4">{p.title}</h1>
       </div></section>

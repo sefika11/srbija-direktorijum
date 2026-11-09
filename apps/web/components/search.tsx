@@ -49,7 +49,7 @@ export async function SmartSearchPage({ locale, q }: { locale: Locale; q: string
   const placeQ = r?.place && r.place.level !== "okrug" ? `?opstina=${r.place.level === "gradska_opstina" ? r.place.parent_slug : r.place.slug}` : "";
   return (
     <main>
-      <section className="hero-dark border-b border-white/10"><div className="shell py-8 sm:py-10">
+      <section className="hero-light border-b border-line"><div className="shell py-8 sm:py-10">
         <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, { label: d.search }]} />
         <h1 className="font-serif text-[26px] sm:text-[32px] font-semibold mt-4">{q ? <>{d.results} „{q}“</> : d.search}</h1>
         <div className="mt-4"><SearchBox locale={locale} defaultValue={q} large placeholder={d.searchPlaceholder} submitLabel={d.search} /></div>

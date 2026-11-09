@@ -28,11 +28,11 @@ export async function PartnersPage({ locale, path }: { locale: Locale; path: str
   const fmt = (n: number) => n.toLocaleString("sr-Latn");
   return (
     <main>
-      <section className="hero-dark border-b border-white/10"><div className="shell py-10 sm:py-14">
+      <section className="hero-light border-b border-line"><div className="shell py-10 sm:py-14">
         <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, { label: s.title }]} />
         <div className="eyebrow mt-4">{d.becomePartner}</div>
         <h1 className="display-sm text-[34px] sm:text-[44px] mt-2 max-w-[18ch]">{s.title}</h1>
-        <p className="lede text-white/75 mt-4 max-w-[60ch]">{s.lead}</p>
+        <p className="lede text-muted mt-4 max-w-[60ch]">{s.lead}</p>
       </div></section>
 
       <div className="shell py-12 grid gap-14">
