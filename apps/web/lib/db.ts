@@ -37,9 +37,10 @@ export const getJlsInOkrug = (okrugId: number) =>
     from territorial_units j where j.level = 'jls' and j.parent_id = ${okrugId} order by j.okrug_seat desc, j.name_lat`;
 
 export const getAllJls = () =>
-  sql<(TU & { okrug_slug: string; okrug_name: string })[]>`
+  sql<(TU & { okrug_slug: string; okrug_name: string; org_count: number })[]>`
     select j.id, j.slug, j.level, j.name_lat, j.name_cyr, j.official_name_lat, j.jls_kind, j.parent_id, j.path::text, j.seat_name_lat, j.okrug_seat, j.population_2022, j.website, j.in_kosovo,
-           o.slug as okrug_slug, o.name_lat as okrug_name
+           o.slug as okrug_slug, o.name_lat as okrug_name,
+           (select count(*) from organizations x join territorial_units f on f.id = x.founder_unit_id where f.path <@ j.path and x.status = 'active')::int as org_count
     from territorial_units j join territorial_units o on o.id = j.parent_id where j.level = 'jls' and not j.in_kosovo order by j.name_lat`;
 
 export const getChildrenGO = (jlsId: number) =>

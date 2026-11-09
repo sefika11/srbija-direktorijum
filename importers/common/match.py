@@ -79,3 +79,17 @@ def add_contact(cur: psycopg.Cursor, location_id: int, kind: str, value: str, di
            where not exists (select 1 from location_contacts where location_id = %s and value = %s)""",
         (location_id, kind, value, display, label, location_id, value),
     )
+
+
+def add_hours(cur: psycopg.Cursor, location_id: int, rows, hours_text: str | None = None) -> None:
+    """Replace a location's opening_hours with parsed HoursRow objects; keep the raw text as fallback."""
+    cur.execute("delete from opening_hours where location_id = %s and department_id is null", (location_id,))
+    for r in rows:
+        for day in range(r.day_from, r.day_to + 1):
+            cur.execute(
+                """insert into opening_hours (location_id, hours_type, day_of_week, opens, closes)
+                   values (%s, %s::hours_type, %s, %s::time, %s::time)""",
+                (location_id, r.hours_type, day, r.opens, r.closes),
+            )
+    if hours_text:
+        cur.execute("update locations set hours_text = %s where id = %s", (hours_text[:300], location_id))

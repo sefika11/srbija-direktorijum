@@ -22,8 +22,8 @@ from ..common.normalize import clean_ws, cyr_to_lat
 SOURCE = "rfzo_filijale"
 URL = "https://rfzo.rs/index.php/filijale"
 ENTRY = re.compile(
-    r"(?P<n>\d{1,2})\.\s*(?P<name>Филијала[^;.]*?)\s+са седиштем у\s+(?P<seat>[^,;]+?)"
-    r"(?:\s+са испоставама у:\s*(?P<isp>[^;.]+))?[;.]",
+    r"(?P<n>\d{1,2})\.\s*(?P<name>Филијала[^;.]*?)\s+са седиштем у\s+(?P<seat>.+?)"
+    r"(?:\s+(?:са|и)\s+испостав(?:ама|ом)\s+у:?\s*(?P<isp>[^;.]+))?\s*(?:[;.]|$)",
     re.S,
 )
 
@@ -33,21 +33,67 @@ def parse(html: str) -> list[dict]:
     out = []
     for m in ENTRY.finditer(text):
         isp = m.group("isp") or ""
-        ispostave = [clean_ws(x) for x in re.split(r",|\s+и\s+", isp) if clean_ws(x)]
+        ispostave = [clean_ws(x) for x in re.split(r",|\s+и\s+", isp) if clean_ws(x) and len(clean_ws(x)) > 2]
         out.append({"n": int(m.group("n")), "name": clean_ws(m.group("name")),
                     "seat": clean_ws(m.group("seat")), "ispostave": ispostave})
     return out
 
 
+_UNITS: list[tuple[int, list[str]]] | None = None
+
+
+def _fold(s: str) -> str:
+    lat = cyr_to_lat(s).lower()
+    for a, b in (("č", "c"), ("ć", "c"), ("š", "s"), ("ž", "z"), ("đ", "dj")):
+        lat = lat.replace(a, b)
+    return lat
+
+
+def _common_prefix(a: str, b: str) -> int:
+    n = 0
+    for x, y in zip(a, b):
+        if x != y:
+            break
+        n += 1
+    return n
+
+
 def resolve_jls(cur, name_locative_cyr: str) -> int | None:
-    """'Суботици' → Subotica. Trigram on Cyrillic names, threshold 0.45 (locative changes 1-3 letters)."""
-    cur.execute(
-        """select id, similarity(name_cyr, %(n)s) s from territorial_units
-           where level = 'jls' and name_cyr is not null order by s desc limit 1""",
-        {"n": name_locative_cyr},
-    )
-    row = cur.fetchone()
-    return row["id"] if row and row["s"] >= 0.45 else None
+    """'Суботици' → Subotica, 'Новом Пазару' → Novi Pazar, 'Чукарици' → Čukarica (gradska opština).
+
+    pg_trgm yields 0 for Cyrillic under the C locale, so this runs in Python: transliterate, fold
+    diacritics, then compare word prefixes. Serbian locative changes only the last 1-3 letters of a
+    word, so every word must share a prefix that reaches within 3 letters of BOTH forms' ends; the
+    candidate with the longest total shared prefix wins, ties broken by closest length.
+    Units: JLS first, then gradske opštine (Belgrade's RFZO ispostave are districts).
+    """
+    global _UNITS
+    if _UNITS is None:
+        cur.execute("""select id, name_lat from territorial_units
+                       where level in ('jls', 'gradska_opstina') order by level = 'jls' desc, id""")
+        _UNITS = [(r["id"], _fold(r["name_lat"]).split()) for r in cur.fetchall()]
+    words = _fold(name_locative_cyr).split()
+    best, best_key = None, (-1, 0)
+    for uid, cand in _UNITS:
+        if len(cand) != len(words):
+            continue
+        total, diff = 0, 0
+        for w, c in zip(words, cand):
+            cp = _common_prefix(w, c)
+            # a locative form always ends in a case vowel, so it is never a plain prefix of a longer
+            # nominative ('Peći' must not match 'Pećinci'); otherwise prefixes must reach within 3
+            # letters of both ends.
+            if cp < max(2, len(w) - 3) or cp < len(c) - 3 or (cp == len(w) and len(c) > len(w)):
+                total = -1
+                break
+            total += cp
+            diff += abs(len(w) - len(c))
+        if total < 0:
+            continue
+        key = (total, -diff)
+        if key > best_key:
+            best, best_key = uid, key
+    return best
 
 
 def main() -> None:

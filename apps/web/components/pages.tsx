@@ -4,7 +4,8 @@ import { t, href } from "@/lib/i18n";
 import * as db from "@/lib/db";
 import { Breadcrumbs, Chip, VerificationChip, SectionTitle, AdSlot, SponsorCard } from "./ui";
 import { SearchBox } from "./chrome";
-import SerbiaMap from "./SerbiaMap";
+import SerbiaMap, { type MapLabels } from "./SerbiaMap";
+import { Icon, GROUP_ICON } from "./icons";
 import { LeadForm, CorrectionBlock } from "./forms";
 import { GUIDE } from "@/lib/guide";
 
@@ -32,50 +33,102 @@ function OrgList({ orgs, locale, dense = false }: { orgs: db.OrgRow[]; locale: L
 }
 
 // ---------------------------------------------------------------- Home
+const MAP_LABELS: Record<Locale, MapLabels> = {
+  sr: { institutions: "Institucije", municipalities: "Gradovi i opštine", hint: "Pređite preko okruga za podatke. Klik na okrug uvećava mapu i prikazuje opštine; točkić miša ili dva prsta za zum.",
+        hintZoomed: "Klik na opštinu otvara njene institucije. Prevucite za pomeranje, točkić ili dva prsta za zum.", zoomIn: "Uvećaj", zoomOut: "Umanji", reset: "Cela Srbija",
+        back: "Cela Srbija", openOkrug: "Otvori okrug", openUnit: "Otvori", city: "Grad", municipality: "Opština", serbia: "Srbija", okrug: "Okrug", seat: "Sedište" },
+  en: { institutions: "Institutions", municipalities: "Cities and municipalities", hint: "Hover a district for figures. Click a district to zoom in and see its municipalities; scroll or pinch to zoom.",
+        hintZoomed: "Click a municipality to open its institutions. Drag to pan, scroll or pinch to zoom.", zoomIn: "Zoom in", zoomOut: "Zoom out", reset: "Whole country",
+        back: "Whole country", openOkrug: "Open district", openUnit: "Open", city: "City", municipality: "Municipality", serbia: "Serbia", okrug: "District", seat: "Seat" },
+  ru: { institutions: "Учреждения", municipalities: "Города и общины", hint: "Наведите на округ. Клик по округу увеличивает карту и показывает общины; колесо мыши или два пальца для масштаба.",
+        hintZoomed: "Клик по общине открывает её учреждения. Перетаскивайте для прокрутки, колесо или два пальца для масштаба.", zoomIn: "Увеличить", zoomOut: "Уменьшить", reset: "Вся Сербия",
+        back: "Вся Сербия", openOkrug: "Открыть округ", openUnit: "Открыть", city: "Город", municipality: "Община", serbia: "Сербия", okrug: "Округ", seat: "Центр" },
+  de: { institutions: "Einrichtungen", municipalities: "Städte und Gemeinden", hint: "Bezirk überfahren für Zahlen. Klick auf einen Bezirk zoomt hinein und zeigt die Gemeinden; Scrollen oder Pinch zum Zoomen.",
+        hintZoomed: "Klick auf eine Gemeinde öffnet ihre Einrichtungen. Ziehen zum Verschieben, Scrollen oder Pinch zum Zoomen.", zoomIn: "Vergrößern", zoomOut: "Verkleinern", reset: "Ganz Serbien",
+        back: "Ganz Serbien", openOkrug: "Bezirk öffnen", openUnit: "Öffnen", city: "Stadt", municipality: "Gemeinde", serbia: "Serbien", okrug: "Bezirk", seat: "Sitz" },
+};
+
 export async function Home({ locale }: { locale: Locale }) {
   const d = t(locale);
-  const [okruzi, types, stats] = await Promise.all([db.getOkruzi(), db.getOrgTypes(), db.getStats()]);
+  const [okruzi, allJls, types, stats] = await Promise.all([db.getOkruzi(), db.getAllJls(), db.getOrgTypes(), db.getStats()]);
+  const mapLabels = MAP_LABELS[locale];
   const byGroup = GROUPS.map((g) => ({ g, types: types.filter((x) => x.group === g && x.org_count > 0) }));
+  const QUICK: Record<Locale, { q: string; label: string }[]> = {
+    sr: [{ q: "lična karta", label: "Lična karta" }, { q: "pasoš", label: "Pasoš" }, { q: "vozačka dozvola", label: "Vozačka dozvola" }, { q: "zdravstveno osiguranje", label: "Zdravstvena knjižica" }, { q: "katastar", label: "Katastar" }, { q: "poreska uprava", label: "Poreska uprava" }],
+    en: [{ q: "lična karta", label: "ID card" }, { q: "pasoš", label: "Passport" }, { q: "vozačka dozvola", label: "Driving licence" }, { q: "zdravstveno osiguranje", label: "Health insurance" }, { q: "katastar", label: "Cadastre" }, { q: "poreska uprava", label: "Tax office" }],
+    ru: [{ q: "lična karta", label: "Личная карта" }, { q: "pasoš", label: "Паспорт" }, { q: "vozačka dozvola", label: "Водительские права" }, { q: "zdravstveno osiguranje", label: "Мед. страхование" }, { q: "katastar", label: "Кадастр" }, { q: "poreska uprava", label: "Налоговая" }],
+    de: [{ q: "lična karta", label: "Personalausweis" }, { q: "pasoš", label: "Reisepass" }, { q: "vozačka dozvola", label: "Führerschein" }, { q: "zdravstveno osiguranje", label: "Krankenversicherung" }, { q: "katastar", label: "Kataster" }, { q: "poreska uprava", label: "Finanzamt" }],
+  };
+  const typesLabel = locale === "sr" ? "vrsta institucija" : locale === "en" ? "institution types" : locale === "ru" ? "типов учреждений" : "Einrichtungsarten";
+  const mapTitle = locale === "sr" ? "25 okruga, 145 gradova i opština" : locale === "en" ? "25 districts, 145 cities and municipalities" : locale === "ru" ? "25 округов, 145 городов и общин" : "25 Bezirke, 145 Städte und Gemeinden";
+  const popular = locale === "sr" ? "Najčešće traženo" : locale === "en" ? "Most searched" : locale === "ru" ? "Часто ищут" : "Häufig gesucht";
   return (
     <main>
-      <section className="bg-surface border-b border-line">
-        <div className="shell py-10 sm:py-14">
-          <h1 className="font-serif text-[30px] sm:text-[40px] font-semibold leading-[1.1] max-w-3xl">{d.tagline}</h1>
-          <p className="text-muted mt-3 text-[15px] tabular">{stats.orgs.toLocaleString("sr-Latn")} {d.institutions} · {stats.jls} {d.municipalities} · {stats.types} {locale === "sr" ? "vrsta institucija" : locale === "en" ? "institution types" : locale === "ru" ? "типов учреждений" : "Einrichtungsarten"}</p>
-          <div className="mt-6"><SearchBox locale={locale} large /></div>
-        </div>
-      </section>
-      <section className="shell py-10">
-        <div className="eyebrow">{d.browseByRegion}</div>
-        <h2 className="font-serif text-[24px] font-semibold mt-1 mb-5">{locale === "sr" ? "25 okruga, 145 gradova i opština" : locale === "en" ? "25 districts, 145 cities and municipalities" : locale === "ru" ? "25 округов, 145 городов и общин" : "25 Bezirke, 145 Städte und Gemeinden"}</h2>
-        <SerbiaMap okruzi={okruzi.map((o) => ({ slug: o.slug, name_lat: o.name_lat, seat_name_lat: o.seat_name_lat, jls_count: o.jls_count, org_count: o.org_count }))}
-                   locale={locale} labels={{ institutions: d.institutions, municipalities: d.municipalities, hint: d.mapHint }} />
-        <ul className="mt-6 flex flex-wrap gap-x-4 gap-y-1.5 text-[13px]">
-          {okruzi.map((o) => <li key={o.id}><Link href={href(locale, `/okrug/${o.slug}`)}>{o.name_lat}</Link> <span className="text-muted tabular">{o.org_count}</span></li>)}
-        </ul>
-      </section>
-      <section className="bg-surface border-y border-line">
-        <div className="shell py-10">
-          <div className="eyebrow">{d.browseByCategory}</div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-4">
-            {byGroup.map(({ g, types }) => (
-              <div key={g}>
-                <h3 className="font-semibold text-[15px] mb-2">{d.groups[g]}</h3>
-                <ul className="text-[13.5px] grid gap-1">
-                  {types.map((x) => <li key={x.id} className="flex justify-between gap-3"><Link href={href(locale, `/${x.slug}`)}>{x.name_plural_lat ?? x.name_lat}</Link><span className="text-muted tabular">{x.org_count.toLocaleString("sr-Latn")}</span></li>)}
-                </ul>
-              </div>
+      {/* Hero */}
+      <section className="hero border-b border-line">
+        <div className="shell py-12 sm:py-16 grid gap-10 lg:grid-cols-[minmax(0,1.5fr)_minmax(0,1fr)] items-center">
+          <div>
+            <div className="eyebrow text-accent-ink mb-3">Republika Srbija · {d.siteName}</div>
+            <h1 className="font-serif text-[32px] sm:text-[44px] font-semibold leading-[1.08] max-w-2xl">{d.tagline}</h1>
+            <div className="mt-7"><SearchBox locale={locale} large /></div>
+            <div className="mt-4 flex flex-wrap items-center gap-2 text-[13px]">
+              <span className="text-muted mr-1">{popular}:</span>
+              {QUICK[locale].map((x) => <Link key={x.q} href={href(locale, `/pretraga?q=${encodeURIComponent(x.q)}`)} className="quick-chip">{x.label}</Link>)}
+            </div>
+          </div>
+          <div className="grid grid-cols-3 lg:grid-cols-1 gap-3">
+            {[{ n: stats.orgs, l: d.institutions }, { n: stats.jls, l: d.municipalities }, { n: stats.types, l: typesLabel }].map((x) => (
+              <div key={x.l} className="stat-tile"><div className="tabular font-serif font-semibold text-[26px] sm:text-[32px] leading-none">{x.n.toLocaleString("sr-Latn")}</div><div className="text-muted text-[12.5px] sm:text-[13px] mt-1.5">{x.l}</div></div>
             ))}
           </div>
         </div>
       </section>
-      <section className="shell py-10">
-        <div className="card p-6 sm:p-8 grid sm:grid-cols-[1fr_auto] gap-4 items-center" style={{ background: "var(--accent-soft)", borderColor: "transparent" }}>
-          <div>
-            <div className="eyebrow text-accent-ink">{d.forForeigners}</div>
-            <h2 className="font-serif text-[22px] font-semibold mt-1">{d.forForeignersLead}</h2>
+
+      {/* Map */}
+      <section className="shell py-12">
+        <div className="flex flex-wrap items-end justify-between gap-3 mb-5">
+          <div><div className="eyebrow">{d.browseByRegion}</div><h2 className="font-serif text-[26px] font-semibold mt-1">{mapTitle}</h2></div>
+        </div>
+        <SerbiaMap okruzi={okruzi.map((o) => ({ slug: o.slug, name_lat: o.name_lat, seat_name_lat: o.seat_name_lat, jls_count: o.jls_count, org_count: o.org_count }))}
+                   jls={allJls.map((j) => ({ slug: j.slug, name_lat: j.name_lat, okrug_slug: j.okrug_slug, org_count: j.org_count, jls_kind: j.jls_kind }))}
+                   locale={locale} labels={mapLabels} />
+        <ul className="mt-5 flex flex-wrap gap-2 text-[13px]">
+          {okruzi.map((o) => <li key={o.id}><Link href={href(locale, `/okrug/${o.slug}`)} className="quick-chip">{o.name_lat}<span className="text-muted tabular ml-1.5">{o.org_count}</span></Link></li>)}
+        </ul>
+      </section>
+
+      {/* Categories */}
+      <section className="bg-surface border-y border-line">
+        <div className="shell py-12">
+          <div className="eyebrow">{d.browseByCategory}</div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
+            {byGroup.map(({ g, types }) => {
+              const I = Icon[GROUP_ICON[g] ?? "landmark"]; const total = types.reduce((n, x) => n + x.org_count, 0);
+              return (
+                <div key={g} className="card card-hover p-5">
+                  <div className="flex items-center justify-between gap-3">
+                    <div className="flex items-center gap-2.5"><span className="icon-badge"><I /></span><h3 className="font-semibold text-[15.5px]">{d.groups[g]}</h3></div>
+                    <span className="text-muted tabular text-[13px]">{total.toLocaleString("sr-Latn")}</span>
+                  </div>
+                  <ul className="text-[13.5px] grid gap-1.5 mt-4">
+                    {types.slice(0, 7).map((x) => <li key={x.id} className="flex justify-between gap-3"><Link href={href(locale, `/${x.slug}`)} className="no-underline text-ink hover:text-accent">{x.name_plural_lat ?? x.name_lat}</Link><span className="text-muted tabular">{x.org_count.toLocaleString("sr-Latn")}</span></li>)}
+                  </ul>
+                  {types.length > 7 && <div className="mt-3 text-[12.5px] text-muted">+{types.length - 7} {locale === "sr" ? "vrsta" : locale === "en" ? "more types" : locale === "ru" ? "ещё" : "weitere"}</div>}
+                </div>
+              );
+            })}
           </div>
-          <Link href={href(locale, "/za-strance")} className="rounded-md bg-accent text-white px-4 py-2.5 no-underline font-medium text-[14px] justify-self-start">{d.forForeigners} →</Link>
+        </div>
+      </section>
+
+      {/* Foreigners */}
+      <section className="shell py-12">
+        <div className="foreigners-band rounded-2xl p-7 sm:p-9 grid lg:grid-cols-[1fr_auto] gap-6 items-center">
+          <div>
+            <div className="eyebrow !text-white/70">{d.forForeigners} · English · Русский · Deutsch</div>
+            <h2 className="font-serif text-[24px] sm:text-[28px] font-semibold mt-2 text-white max-w-2xl">{d.forForeignersLead}</h2>
+          </div>
+          <Link href={href(locale, "/za-strance")} className="inline-flex items-center gap-2 rounded-xl bg-white text-accent-ink px-5 py-3 no-underline font-medium text-[14px] justify-self-start hover:bg-accent-soft">{d.forForeigners} <Icon.arrow /></Link>
         </div>
       </section>
     </main>

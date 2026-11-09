@@ -13,8 +13,8 @@ from bs4 import BeautifulSoup
 
 from ..common import db
 from ..common.http import PoliteClient
-from ..common.match import add_contact, add_coverage, upsert_location
-from ..common.normalize import clean_ws, cyr_to_lat, phones_in, split_address
+from ..common.match import add_contact, add_coverage, add_hours, upsert_location
+from ..common.normalize import clean_ws, cyr_to_lat, parse_hours, phones_in, split_address
 
 SOURCE = "beleznik_kancelarije"
 BASE = "https://beleznik.org"
@@ -40,17 +40,45 @@ def parse_list(html: str) -> list[dict]:
     return uniq
 
 
+LABELS = {"Javni beležnik": "name", "email": "email", "Telefon": "phone", "Adresa": "address",
+          "Grad/Gradska opština/Opština": "city", "Područje osnovnog suda": "court", "Radno vreme": "hours"}
+
+
 def parse_detail(html: str) -> dict:
+    """Detail page is a flat 'Label: | value | value' list; split on the separator and bucket values under
+    the last label seen. Phones are parsed per segment so '037 35 55 771 | 037 35 55 772' stays two numbers."""
     soup = BeautifulSoup(html, "lxml")
-    text = clean_ws(soup.get_text(" ")) or ""
-    h1 = soup.find("h1")
-    emails = re.findall(r"[\w.+-]+@[\w-]+\.[\w.]+", text)
-    addr = re.search(r"(?:Adresa|Адреса)[:\s]+([^|]+?)(?:Telefon|Телефон|E-mail|Емаил|$)", text)
-    city = re.search(r"(?:Grad|Град|Opština|Општина)[:\s]+([^\s|]+)", text)
-    return {"name": clean_ws(h1.get_text()) if h1 else None, "emails": emails,
-            "phones": [p.__dict__ for p in phones_in(text)],
-            "address": clean_ws(addr.group(1)) if addr else None,
-            "city": clean_ws(city.group(1)) if city else None, "text": text[:2000]}
+    root = soup.find("main") or soup.body or soup
+    parts = [clean_ws(x) for x in root.get_text(" | ").split("|")]
+    parts = [x for x in parts if x]
+    out: dict = {k: [] for k in LABELS.values()}
+    key = None
+    for seg in parts:
+        label = seg.rstrip(":").strip()
+        if label in LABELS:
+            key = LABELS[label]
+            continue
+        if seg in ("Vrati se nazad",) or key is None:
+            continue
+        out[key].append(seg)
+    phones = []
+    for seg in out["phone"]:
+        phones += phones_in(seg)
+    name = clean_ws(" ".join(out["name"])) or None
+    emails = [m for seg in out["email"] for m in re.findall(r"[\w.+-]+@[\w-]+\.[\w.]+", seg)]
+    hours_text = clean_ws(" ".join(out["hours"])) or None
+    return {"name": name, "emails": emails, "phones": [p.__dict__ for p in phones],
+            "address": clean_ws(" ".join(out["address"])) or None, "city": clean_ws(" ".join(out["city"])) or None,
+            "court": clean_ws(" ".join(out["court"])) or None, "hours_text": hours_text,
+            "hours": [h.__dict__ for h in parse_hours(hours_text)] if hours_text else []}
+
+
+def _belgrade_if_go(cur, name: str) -> int | None:
+    cur.execute("""select p.id from territorial_units g join territorial_units p on p.id = g.parent_id
+                   where g.level = 'gradska_opstina' and (f_unaccent(lower(g.name_lat)) = f_unaccent(lower(%s)) or g.name_cyr = %s) limit 1""",
+                (name, name))
+    r = cur.fetchone()
+    return r["id"] if r else None
 
 
 def main() -> None:
@@ -67,9 +95,9 @@ def main() -> None:
         made = 0
         for e in entries:
             d = parse_detail(client.get(e["url"]).text)
-            parts = [p for p in e["text"].split("|") if p.strip()]
-            city = d.get("city") or (parts[-1].strip() if parts else None)
-            jls = db.jls_id_by_name(cur, city) if city else None
+            city = d.get("city")
+            # Belgrade list entries name the gradska opština (Zemun, Palilula...) - resolve to the city of Belgrade
+            jls = (db.jls_id_by_name(cur, city) or _belgrade_if_go(cur, city)) if city else None
             if not (d.get("name") and jls):
                 print("skip:", e["url"], city)
                 continue
@@ -83,7 +111,7 @@ def main() -> None:
                 (f"javni beleznik {name_lat} {city}", jls, f"Javni beležnik {name_lat}", e["url"]),
             )
             org_id = cur.fetchone()["id"]
-            street, number = split_address(d["address"] or (parts[1] if len(parts) > 1 else "")) if (d.get("address") or len(parts) > 1) else (None, None)
+            street, number = split_address(d["address"]) if d.get("address") else (None, None)
             loc_id = upsert_location(cur, org_id=org_id, slug="kancelarija", unit_name_lat="Javnobeležnička kancelarija",
                                      unit_kind="sediste", territorial_unit_id=jls, street=street, street_number=number,
                                      is_primary=True)
@@ -91,6 +119,9 @@ def main() -> None:
                 add_contact(cur, loc_id, p["kind"], p["e164"], p["display"])
             for em in d["emails"][:2]:
                 add_contact(cur, loc_id, "email", em, None)
+            if d.get("hours_text"):
+                from ..common.normalize import HoursRow
+                add_hours(cur, loc_id, [HoursRow(**h) for h in d["hours"]], d["hours_text"])
             add_coverage(cur, loc_id, jls, SOURCE)
             db.provenance(cur, "location", loc_id, None, SOURCE, e["url"], 0.85, {"list": e, "detail": d})
             made += 1

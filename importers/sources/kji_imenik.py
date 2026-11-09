@@ -25,34 +25,37 @@ FIELD = re.compile(r"(Извршитељ|Заменик|Датум именов�
 
 
 def parse_html(html: str) -> list[dict]:
+    """Document order: div.addressbook-title carries the court area; the following div.addressbook-item
+    holds one <p> per izvršitelj with 'Label: value' lines separated by <br>."""
     soup = BeautifulSoup(html, "lxml")
-    area, cur, out = None, {}, []
-    for el in soup.find_all(["h2", "h3", "h4", "p", "li", "div"]):
-        t = clean_ws(el.get_text(" "))
-        if not t:
+    area, out = None, []
+    for el in soup.find_all("div", class_=["addressbook-title", "addressbook-item"]):
+        classes = el.get("class") or []
+        if "addressbook-title" in classes:
+            area = clean_ws(el.get_text(" "))
             continue
-        if t.startswith("Подручје"):
-            area = t
-            continue
-        m = FIELD.match(t)
-        if not m:
-            continue
-        k, v = m.groups()
-        if k in ("Извршитељ", "Заменик"):
-            if cur.get("name"):
+        for p in el.find_all("p"):
+            cur: dict = {"area": area}
+            for line in p.get_text("\n").split("\n"):
+                m = FIELD.match(clean_ws(line) or "")
+                if not m:
+                    continue
+                key, v = m.groups()
+                v = clean_ws(v) or ""
+                if key in ("Извршитељ", "Заменик"):
+                    cur["name"], cur["role"] = v, key
+                elif key == "Седиште":
+                    cur["seat"] = v
+                elif key == "Контакт телефон":
+                    cur["phone"] = v
+                elif key == "Електронска адреса":
+                    cur["email"] = v.rstrip(";")
+                elif key == "Датум именовања":
+                    cur["appointment"] = v
+            if cur.get("name") and len(cur["name"]) < 120:
                 out.append(cur)
-            cur = {"name": clean_ws(v), "role": k, "area": area}
-        elif k == "Седиште":
-            cur["seat"] = clean_ws(v)
-        elif k == "Контакт телефон":
-            cur["phone"] = clean_ws(v)
-        elif k == "Електронска адреса":
-            cur["email"] = clean_ws(v).rstrip(";")
-        elif k == "Датум именовања":
-            cur["appointment"] = clean_ws(v)
-    if cur.get("name"):
-        out.append(cur)
-    return [e for e in out if e["role"] == "Извршитељ" and "престанак" not in (e.get("appointment") or "").lower()]
+    return [e for e in out if e.get("role") == "Извршитељ"
+            and "престанак" not in (e.get("appointment") or "").lower()]
 
 
 def main() -> None:
@@ -65,7 +68,9 @@ def main() -> None:
         made = 0
         for e in entries:
             seat_city, _, rest = (e.get("seat") or "").partition(",")
-            jls = db.jls_id_by_name(cur, seat_city.strip()) if seat_city else None
+            # 'Београд – Нови Београд' / 'Београд-Вождовац' → the city is the part before the dash
+            seat_city = re.split(r"\s*[-–—]\s*", seat_city.strip())[0] if seat_city else ""
+            jls = db.jls_id_by_name(cur, seat_city) if seat_city else None
             if not jls:
                 print("unresolved seat:", e.get("seat"))
                 continue

@@ -12,6 +12,8 @@ export CRAWLER_CONTACT_URL=https://<domain>/o-sajtu   # goes into the User-Agent
 export ANTHROPIC_API_KEY=...         # only for crawler/extract.py
 ```
 
+Apply `db/seed_patch_006_sources.sql` once per database (adds the `data_sources` rows the importers write provenance against).
+
 Run order (see docs/03_data_sourcing_and_scraping.md §6):
 
 ```bash
