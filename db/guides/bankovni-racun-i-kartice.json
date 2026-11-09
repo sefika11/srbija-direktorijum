@@ -1,0 +1,246 @@
+{
+ "slug": "bankovni-racun-i-kartice",
+ "category": "banke-i-novac",
+ "org_types": [
+  "banka"
+ ],
+ "lead_vertical": null,
+ "status": "full",
+ "sort_order": 40,
+ "name_lat": "Bankovni račun, debitna i kreditna kartica",
+ "name_cyr": "Банковни рачун, дебитна и кредитна картица",
+ "summary": "Kako da otvorite tekući račun u bilo kojoj od 18 banaka u Srbiji, šta vam treba kao državljaninu ili strancu, kada debitna kartica ide uz račun i koji su uslovi za kreditnu karticu.",
+ "typical_duration": "Račun se otvara odmah u ekspozituri ili istog dana online (video-identifikacija); o zahtevu za osnovni platni račun banka odlučuje u roku od 10 radnih dana.",
+ "legal_basis": "Zakon o platnim uslugama; Odluka NBS o uslovima i načinu vođenja osnovnog platnog računa; tarife naknada pojedinačnih banaka.",
+ "euprava_url": null,
+ "online_available": true,
+ "checked_at": "2026-11-10",
+ "fees": [
+  {
+   "item": "Osnovni platni račun (obavezna ponuda svake banke) – najviša mesečna naknada",
+   "amount_rsd": 150,
+   "basis": "Odluka Narodne banke Srbije; uključuje debitnu karticu i e-bankarstvo bez dodatne naknade.",
+   "source_url": "https://nbs.rs/sr/scripts/showcontent/index.html?id=19181 ; https://tvojnovac.nbs.rs/sr-Latn-RS/finansijski_proizvodi/tekuci_platni_racun ; NBS Odluka o platnom racunu sa osnovnim uslugama (Sluzbeni glasnik RS 89/2022) - PDF nije mogao biti procitan",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "item": "Otvaranje standardnog tekućeg računa",
+   "amount_rsd": 0,
+   "basis": "Tarife Raiffeisen (2024) i UniCredit (od 1. 1. 2026): otvaranje je besplatno; mesečno vođenje zavisi od paketa.",
+   "source_url": "https://www.unicreditbank.rs/content/dam/cee2020-pws-rs/DocumentePDF/2025/oup25/oktobar/pi,-preduzetnici-i-poljoprivrednici/sprski/Tarifa%20za%20op%C5%A1te%20bankarske%20usluge%20fizi%C4%8Dkim%20licima%20i%20poljoprivrednicima%20u%20primeni%20od%201.1.2026..pdf",
+   "checked_at": "2026-11-10",
+   "note": "Primeri mesečnog vođenja: Erste standardni račun 290 RSD posle prvih 12 meseci; AIK Start 150 RSD; UniCredit osnovni platni račun 150 RSD. Proverite tarifu banke pre potpisivanja."
+  },
+  {
+   "item": "Izveštaj Kreditnog biroa (za kreditnu karticu ili kredit)",
+   "amount_rsd": 246,
+   "basis": "Tarifa UniCredit banke od 1. 1. 2026 (stavka uz Mastercard karticu); kod drugih banaka se naplaćuje slično.",
+   "source_url": "https://www.unicreditbank.rs/content/dam/cee2020-pws-rs/DocumentePDF/2025/oup25/oktobar/pi,-preduzetnici-i-poljoprivrednici/sprski/Tarifa%20za%20op%C5%A1te%20bankarske%20usluge%20fizi%C4%8Dkim%20licima%20i%20poljoprivrednicima%20u%20primeni%20od%201.1.2026..pdf",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "item": "Debitna kartica uz račun",
+   "amount_rsd": null,
+   "basis": "Kod većine banaka DinaCard ili Visa debitna kartica ide bez naknade uz račun (Erste, Intesa, OTP, AIK, UniCredit paketi); zamena ili hitna izrada se naplaćuju (Intesa: 300 odnosno 600 RSD).",
+   "source_url": "https://www.bancaintesa.rs",
+   "checked_at": "2026-11-10"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://nbs.rs/sr/scripts/showcontent/index.html?id=19181 ; https://tvojnovac.nbs.rs/sr-Latn-RS/finansijski_proizvodi/tekuci_platni_racun ; NBS Odluka o platnom racunu sa osnovnim uslugama (Sluzbeni glasnik RS 89/2022) - PDF nije mogao biti procitan",
+   "title": "NBS – osnovni platni račun",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "url": "https://www.raiffeisenbank.rs/sr/stanovnistvo/racuni.html",
+   "title": "Raiffeisen – računi",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "url": "https://www.unicreditbank.rs/content/dam/cee2020-pws-rs/DocumentePDF/2025/oup25/oktobar/pi,-preduzetnici-i-poljoprivrednici/sprski/Tarifa%20za%20op%C5%A1te%20bankarske%20usluge%20fizi%C4%8Dkim%20licima%20i%20poljoprivrednicima%20u%20primeni%20od%201.1.2026..pdf",
+   "title": "UniCredit – tarifa za fizička lica od 1. 1. 2026",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "url": "https://www.erstebank.rs/sr/Stanovnistvo/racuni/Dinarski-tekuci-racun",
+   "title": "Erste – dinarski tekući račun",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "url": "https://www.otpbanka.rs/online-otvaranje-racuna/",
+   "title": "OTP – online otvaranje računa",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "url": "https://www.aikbank.rs/stanovnistvo/racuni/",
+   "title": "AIK – računi",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "url": "https://www.nlb.rs/stanovnistvo/racuni/online-racun",
+   "title": "NLB – online račun",
+   "checked_at": "2026-11-10"
+  }
+ ],
+ "guide": {
+  "sr": {
+   "title": "Bankovni račun, debitna i kreditna kartica",
+   "summary": "Kako da otvorite tekući račun u bilo kojoj od 18 banaka u Srbiji, šta vam treba kao državljaninu ili strancu, kada debitna kartica ide uz račun i koji su uslovi za kreditnu karticu.",
+   "who": [
+    "Svako punoletno lice sa važećom ličnom kartom ili pasošem.",
+    "Osnovni platni račun: svako fizičko lice sa zakonitim boravkom u Srbiji koje kod te banke nema račun; banka ga mora ponuditi.",
+    "Kreditna kartica: zaposleni ili penzioneri sa redovnim primanjima u Srbiji, uz proveru u Kreditnom birou."
+   ],
+   "where_note": "Bilo koja ekspozitura licencirane banke; sve veće banke (OTP, NLB, AIK, Raiffeisen) otvaraju račun i potpuno online uz video-identifikaciju. Spisak ekspozitura po gradovima je na stranici tipa „Banke”.",
+   "documents": [
+    {
+     "name": "Važeća lična karta ili pasoš",
+     "note": "Jedini obavezan dokument kod većine banaka za državljane."
+    },
+    {
+     "name": "Zahtev za otvaranje računa i okvirni ugovor",
+     "note": "Obrazac banke; potpisuje se u ekspozituri ili elektronski.",
+     "variants": [
+      "Online: mobilni telefon sa kamerom, e-mail i stabilan internet za video-razgovor (OTP, NLB, AIK, Raiffeisen iRačun)."
+     ]
+    },
+    {
+     "name": "Za strance: pasoš i dokaz o boravku",
+     "note": "Pasoš je obavezan; većina banaka traži i dokaz o adresi ili odobrenom boravku (beli karton, dozvola boravka). Tačan spisak zavisi od banke i nije jedinstveno propisan.",
+     "variants": [
+      "Osnovni platni račun otvara se uz zakonit boravak, bez posebnih uslova o primanjima.",
+      "PIB za nerezidente može zatrebati pri određenim transakcijama, ne za samo otvaranje računa."
+     ]
+    },
+    {
+     "name": "Za kreditnu karticu: dokaz o primanjima",
+     "note": "Potvrda poslodavca ili uplata plate/penzije na račun; banka pribavlja izveštaj Kreditnog biroa uz vašu saglasnost.",
+     "variants": [
+      "Primeri uslova banaka: Raiffeisen online kartica – primanja preko 20.000 RSD mesečno, najmanje 3 meseca kod poslodavca, 18–70 godina; UniCredit – stalno zaposlenje ili penzija, limit do 4 mesečne zarade."
+     ]
+    }
+   ],
+   "steps": [
+    "Izaberite banku i paket; otvorite njenu tarifu naknada i uporedite mesečno vođenje i naknade za karticu.",
+    "Otvorite račun u ekspozituri ili online (video-identifikacija).",
+    "Potpišite okvirni ugovor i zahtev; dobijate broj računa, a debitna kartica obično stiže uz račun ili u roku od nekoliko dana.",
+    "Aktivirajte karticu i mobilno bankarstvo prema uputstvu banke.",
+    "Za kreditnu karticu podnesite zahtev sa dokazom o primanjima; banka proverava Kreditni biro i određuje limit."
+   ],
+   "faq": [
+    {
+     "q": "Koliko košta najjeftiniji račun?",
+     "a": "Osnovni platni račun, koji svaka banka mora da ponudi, košta najviše 150 RSD mesečno i uključuje debitnu karticu i e-bankarstvo (odluka NBS)."
+    },
+    {
+     "q": "Ide li debitna kartica automatski uz račun?",
+     "a": "Kod većine banaka da, bez naknade za izdavanje (DinaCard ili Visa): Erste, Intesa, OTP, AIK, UniCredit paketi. Zamena i hitna izrada se naplaćuju."
+    },
+    {
+     "q": "Mogu li kao stranac da otvorim račun?",
+     "a": "Da. Sa pasošem i dokazom o boravku možete otvoriti račun; osnovni platni račun pripada svakome sa zakonitim boravkom. Spisak dokumenata se razlikuje po bankama, pa pozovite ekspozituru pre dolaska."
+    },
+    {
+     "q": "Koji su uslovi za kreditnu karticu?",
+     "a": "Redovna primanja u Srbiji (zaposlenje ili penzija) i pozitivan izveštaj Kreditnog biroa; banke često traže minimalna primanja (npr. 20.000 RSD) i nekoliko meseci staža kod poslodavca."
+    },
+    {
+     "q": "Koje banke postoje u Srbiji?",
+     "a": "Narodna banka Srbije licencira 18 banaka: Addiko Bank, AIK banka, Adriatic Bank, API Bank, Banca Intesa, Postanska stedionica, Bank of China Srbija, Erste Bank, Halkbank, NLB Banka, Mirabank, 3 Banka, OTP banka Srbija, ProCredit Bank, Raiffeisen banka, Srpska banka, UniCredit Bank Srbija, Yettel Bank."
+    }
+   ],
+   "for_foreigners": "Stranci otvaraju račun sa pasošem i dokazom o boravku (beli karton ili dozvola boravka); osnovni platni račun se ne sme uskratiti nikome sa zakonitim boravkom. Kreditne kartice i krediti traže primanja u Srbiji i obično odobren privremeni boravak. Za dinarske račune nerezidenata pojedine banke traže PIB za nerezidente (vidi vodič o PIB-u)."
+  },
+  "en": {
+   "title": "Bank account, debit and credit cards",
+   "summary": "How to open a current account at any of Serbia's 18 banks, what citizens and foreigners need, when a debit card comes with the account, and the conditions for a credit card.",
+   "who": [
+    "Any adult with a valid ID card or passport.",
+    "Basic payment account: any individual lawfully resident in Serbia without an account at that bank; the bank must offer it.",
+    "Credit card: employees or pensioners with regular income in Serbia, subject to a Credit Bureau check."
+   ],
+   "where_note": "Any branch of a licensed bank; the larger banks (OTP, NLB, AIK, Raiffeisen) also open accounts fully online with video identification. Branches by city are listed under the 'Banks' type.",
+   "documents": [
+    {
+     "name": "Valid ID card or passport",
+     "note": "The only mandatory document at most banks for citizens."
+    },
+    {
+     "name": "Account application and framework agreement",
+     "note": "The bank's form; signed at the branch or electronically.",
+     "variants": [
+      "Online: a phone with a camera, email and a stable connection for the video call (OTP, NLB, AIK, Raiffeisen iRačun)."
+     ]
+    },
+    {
+     "name": "Foreigners: passport and proof of stay",
+     "note": "The passport is mandatory; most banks also ask for proof of address or approved residence (white card, residence permit). The exact list is bank-specific, not prescribed by law.",
+     "variants": [
+      "The basic payment account is opened on lawful stay alone, with no income conditions.",
+      "A non-resident PIB may be needed for certain transactions, not for opening the account."
+     ]
+    },
+    {
+     "name": "Credit card: proof of income",
+     "note": "Employer certificate or salary/pension paid into the account; the bank pulls a Credit Bureau report with your consent.",
+     "variants": [
+      "Bank examples: Raiffeisen online card – income over RSD 20,000 a month, 3 months with the employer, age 18–70; UniCredit – permanent employment or pension, limit up to 4 monthly salaries."
+     ]
+    }
+   ],
+   "steps": [
+    "Pick a bank and package; open its fee tariff and compare monthly maintenance and card fees.",
+    "Open the account at a branch or online (video identification).",
+    "Sign the framework agreement and application; you get an account number and the debit card usually comes with it or within days.",
+    "Activate the card and mobile banking as instructed.",
+    "For a credit card, apply with proof of income; the bank checks the Credit Bureau and sets the limit."
+   ],
+   "faq": [
+    {
+     "q": "What is the cheapest account?",
+     "a": "The basic payment account every bank must offer costs at most RSD 150 a month and includes a debit card and e-banking (NBS decision)."
+    },
+    {
+     "q": "Does a debit card come automatically?",
+     "a": "At most banks yes, with no issuance fee (DinaCard or Visa): Erste, Intesa, OTP, AIK, UniCredit packages. Replacement and urgent issue are charged."
+    },
+    {
+     "q": "Can I open an account as a foreigner?",
+     "a": "Yes. With a passport and proof of stay; the basic payment account is a right for anyone lawfully resident. Document lists differ by bank, so call the branch first."
+    },
+    {
+     "q": "What are the credit-card conditions?",
+     "a": "Regular income in Serbia (employment or pension) and a clean Credit Bureau report; banks often require a minimum income (e.g. RSD 20,000) and a few months with the employer."
+    },
+    {
+     "q": "Which banks exist in Serbia?",
+     "a": "The National Bank of Serbia licenses 18 banks: Addiko Bank, AIK banka, Adriatic Bank, API Bank, Banca Intesa, Postanska stedionica, Bank of China Srbija, Erste Bank, Halkbank, NLB Banka, Mirabank, 3 Banka, OTP banka Srbija, ProCredit Bank, Raiffeisen banka, Srpska banka, UniCredit Bank Srbija, Yettel Bank."
+    }
+   ],
+   "for_foreigners": "Foreigners open accounts with a passport and proof of stay (white card or residence permit); the basic payment account cannot be refused to anyone lawfully resident. Credit cards and loans require income in Serbia and usually approved temporary residence. Some banks ask for a non-resident PIB for dinar accounts of non-residents (see the PIB guide)."
+  },
+  "ru": {
+   "title": "Банковский счёт, дебетовая и кредитная карта",
+   "summary": "Как открыть счёт в любом из 18 банков Сербии, что нужно гражданам и иностранцам, когда дебетовая карта выдаётся вместе со счётом и каковы условия кредитной карты.",
+   "steps": [
+    "Выберите банк и пакет; сравните тарифы.",
+    "Откройте счёт в отделении или онлайн (видеоидентификация).",
+    "Подпишите договор; дебетовая карта обычно выдаётся вместе со счётом.",
+    "Для кредитной карты подайте заявление с подтверждением дохода; банк проверит Кредитное бюро."
+   ],
+   "for_foreigners": "Иностранцы открывают счёт по паспорту и подтверждению пребывания (белый картон или ВНЖ); базовый платёжный счёт (до 150 RSD в месяц) обязаны открыть каждому с законным пребыванием."
+  },
+  "de": {
+   "title": "Bankkonto, Debit- und Kreditkarte",
+   "summary": "So eröffnen Sie ein Girokonto bei einer der 18 Banken Serbiens, was Bürger und Ausländer brauchen, wann die Debitkarte zum Konto gehört und welche Bedingungen für eine Kreditkarte gelten.",
+   "steps": [
+    "Bank und Paket wählen; Gebührentarife vergleichen.",
+    "Konto in der Filiale oder online (Videoidentifikation) eröffnen.",
+    "Rahmenvertrag unterschreiben; die Debitkarte kommt meist mit dem Konto.",
+    "Für eine Kreditkarte Einkommensnachweis einreichen; die Bank prüft das Kreditbüro."
+   ],
+   "for_foreigners": "Ausländer eröffnen ein Konto mit Pass und Aufenthaltsnachweis (weiße Karte oder Aufenthaltstitel); das Basiskonto (max. 150 RSD/Monat) muss jedem mit rechtmäßigem Aufenthalt gewährt werden."
+  }
+ }
+}
