@@ -175,7 +175,8 @@ export default function SerbiaMap3D({ features, context = [], fit, labels, onUna
     const v3 = new THREE.Vector3();
     const frame = (now: number) => {
       if (!running) return; raf = requestAnimationFrame(frame);
-      if (!visible || document.hidden) return;
+      // pause only once the intro has finished; never leave the stage stuck before its first frames
+      if (document.hidden || (!visible && t0 && now - t0 > 4000)) return;
       if (!t0) {
         // hold the rise while the opener curtain covers the page
         const rc = document.documentElement.classList;

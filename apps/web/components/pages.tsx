@@ -317,7 +317,8 @@ export async function OrgTypeHub({ locale, type }: { locale: Locale; type: db.Or
   const d = t(locale);
   const orgs = await db.getOrgsOfType(type.slug, 5000);
   // National networks (RFZO, PIO, Poreska uprava...) are one organization with many branches: list the branches by okrug.
-  const branchMode = type.national_network && orgs.length <= 3;
+  // Chains (national networks, banks, insurers) are few organisations with many branches and no primary seat: list the branches by district.
+  const branchMode = type.national_network || (orgs.length > 0 && orgs.every((o) => !o.place_name));
   const branches = branchMode ? await db.getLocationsOfType(type.slug) : [];
   const groups = new Map<string, db.OrgRow[]>();
   for (const o of orgs) { const k = o.founder_name ?? o.place_name ?? "—"; groups.set(k, [...(groups.get(k) ?? []), o]); }
@@ -355,8 +356,8 @@ export async function OrgTypeHub({ locale, type }: { locale: Locale; type: db.Or
               <ul className="grid sm:grid-cols-2 gap-3">
                 {byOkrug.get(k)!.map((b) => (
                   <li key={b.location_id} className="card card-hover p-4">
-                    <div className="eyebrow">{b.unit_kind === "filijala" ? (locale === "sr" ? "Filijala" : "Branch") : b.unit_kind === "ispostava" ? (locale === "sr" ? "Ispostava" : "Sub-office") : b.unit_kind}</div>
-                    <Link href={href(locale, `/${b.org_type_slug}/${b.org_slug}/${b.location_slug}`)} className="font-serif text-[17px] font-semibold no-underline text-ink hover:text-accent">{b.unit_name_lat}</Link>
+                    <div className="eyebrow">{orgs.length > 1 ? b.org_name_lat : b.unit_kind === "filijala" ? (locale === "sr" ? "Filijala" : "Branch") : b.unit_kind === "ispostava" ? (locale === "sr" ? "Ispostava" : "Sub-office") : b.unit_kind}</div>
+                    <Link href={href(locale, `/${b.org_type_slug}/${b.org_slug}/${b.location_slug}`)} className="font-serif text-[17px] font-semibold no-underline text-ink hover:text-accent">{orgs.length > 1 && /^(ekspozitura|poslovnica|filijala|ispostava)$/i.test(b.unit_name_lat) ? `${b.org_name_lat} · ${b.settlement_name_lat ?? b.unit_name_lat}` : b.unit_name_lat}</Link>
                     <div className="text-[13px] text-muted mt-1">{b.address_display ? `${b.address_display}, ` : ""}{b.jls_name_lat}</div>
                   </li>
                 ))}
