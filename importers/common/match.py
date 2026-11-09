@@ -85,6 +85,8 @@ def add_hours(cur: psycopg.Cursor, location_id: int, rows, hours_text: str | Non
     """Replace a location's opening_hours with parsed HoursRow objects; keep the raw text as fallback."""
     cur.execute("delete from opening_hours where location_id = %s and department_id is null", (location_id,))
     for r in rows:
+        if r.closes <= r.opens:   # '24/7' or malformed ranges would violate hours_order; keep them as hours_text only
+            continue
         for day in range(r.day_from, r.day_to + 1):
             cur.execute(
                 """insert into opening_hours (location_id, hours_type, day_of_week, opens, closes)
