@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+/* Design plan
+   Color: cool paper background, ink text, Danube blue accent for links/actions, brick for sponsor surfaces,
+          moss green for "verified"/"open now". Neutrals carry a slight blue bias.
+   Type:  IBM Plex Serif for page titles (institutional, serious, excellent Latin-ext + Cyrillic),
+          IBM Plex Sans for everything else, Plex Mono for codes (JBKJS, PIB).
+   Layout: 1120px shell, two columns on desktop (main 1fr + 300px rail), one column under 1024px. */
+:root {
+  --bg: #f3f5f7;
+  --surface: #ffffff;
+  --surface-2: #e9edf1;
+  --ink: #15202b;
+  --muted: #5d6b78;
+  --line: #d6dde4;
+  --accent: #0f5c8c;
+  --accent-ink: #0a4469;
+  --accent-soft: #e3eef6;
+  --brick: #a2441a;
+  --brick-soft: #f6e9e1;
+  --moss: #1f6f4a;
+  --moss-soft: #e2f1e8;
+  --ad: #6b7a8a;
+  --ad-soft: #eef1f4;
+  --font-sans: var(--font-plex-sans), system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-serif: var(--font-plex-serif), Georgia, "Times New Roman", serif;
+  --font-mono: var(--font-plex-mono), ui-monospace, SFMono-Regular, Menlo, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #111519; --surface: #1a2027; --surface-2: #222a33; --ink: #e8edf2; --muted: #9aa7b4; --line: #2e3842;
+    --accent: #6fb3e0; --accent-ink: #9ccdf0; --accent-soft: #1b2e3d; --brick: #e39a74; --brick-soft: #3a2619;
+    --moss: #7cc9a0; --moss-soft: #1b3327; --ad: #8e9cab; --ad-soft: #1f262e; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #111519; --surface: #1a2027; --surface-2: #222a33; --ink: #e8edf2; --muted: #9aa7b4; --line: #2e3842;
+  --accent: #6fb3e0; --accent-ink: #9ccdf0; --accent-soft: #1b2e3d; --brick: #e39a74; --brick-soft: #3a2619;
+  --moss: #7cc9a0; --moss-soft: #1b3327; --ad: #8e9cab; --ad-soft: #1f262e; color-scheme: dark;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+  --color-accent-soft: var(--accent-soft);
+  --color-brick: var(--brick);
+  --color-brick-soft: var(--brick-soft);
+  --color-moss: var(--moss);
+  --color-moss-soft: var(--moss-soft);
+  --color-ad: var(--ad);
+  --color-ad-soft: var(--ad-soft);
+  --font-sans: var(--font-sans);
+  --font-serif: var(--font-serif);
+  --font-mono: var(--font-mono);
+}
+
+html { background: var(--bg); }
+body { background: var(--bg); color: var(--ink); font-family: var(--font-sans); font-size: 15px; line-height: 1.5; }
+h1, h2, h3 { text-wrap: balance; }
+a { color: var(--accent); text-underline-offset: 3px; }
+a:hover { color: var(--accent-ink); }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+.shell { max-width: 1120px; margin-inline: auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.tabular { font-variant-numeric: tabular-nums; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; }
+.eyebrow { font-size: 11.5px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.prose p { margin-block: .6em; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }

@@ -1,0 +1,25 @@
+[project]
+name = "srbdir-importers"
+version = "0.1.0"
+description = "Importers and crawler for Srbija Direktorijum javne uprave"
+requires-python = ">=3.12"
+dependencies = [
+  "httpx>=0.27",
+  "pydantic>=2.7",
+  "psycopg[binary]>=3.2",
+  "beautifulsoup4>=4.12",
+  "lxml>=5.2",
+  "xlrd>=2.0",            # legacy .xls (Trezor, KJI)
+  "openpyxl>=3.1",        # .xlsx (CSR, MPN)
+  "phonenumbers>=8.13",
+  "tenacity>=8.3",
+  "pyyaml>=6.0",
+  "anthropic>=0.60",      # crawler/extract.py only
+]
+
+[tool.setuptools]
+packages = ["importers", "importers.common", "importers.sources", "importers.crawler", "importers.jobs"]
+package-dir = {"importers" = "."}
+
+[tool.ruff]
+line-length = 110

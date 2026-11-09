@@ -1,0 +1,275 @@
+<title>Šablon stranice institucije</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: control bar on top, then a horizontally scrollable stage holding a fixed-width page frame
+   (1056 desktop / 390 phone). Zones are flat content blocks; monetized slots are dashed, tinted boxes. */
+:root{
+  --bg:#f6f4ef; --fg:#1d1c1a; --muted:#6b675f; --line:#d9d4ca; --surface:#ffffff;
+  --content:#e9e5dc;
+  --prog:#2b6cb0; --prog-bg:#e3edf8;
+  --spons:#b23a74; --spons-bg:#f8e4ee;
+  --lead:#2f7d4f; --lead-bg:#e2f1e7;
+  --aff:#b7651a; --aff-bg:#f9ead9;
+  --font-body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --font-mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#17171a; --fg:#ecebe6; --muted:#a39f95; --line:#34343a; --surface:#202024; --content:#2a2a30;
+  --prog:#7fb0ea; --prog-bg:#1b2a3d; --spons:#ea8ab8; --spons-bg:#3a1f2d; --lead:#7cc99a; --lead-bg:#1c3326; --aff:#e8a362; --aff-bg:#3b2a1a; color-scheme:dark } }
+:root[data-theme="dark"]{
+  --bg:#17171a; --fg:#ecebe6; --muted:#a39f95; --line:#34343a; --surface:#202024; --content:#2a2a30;
+  --prog:#7fb0ea; --prog-bg:#1b2a3d; --spons:#ea8ab8; --spons-bg:#3a1f2d; --lead:#7cc99a; --lead-bg:#1c3326; --aff:#e8a362; --aff-bg:#3b2a1a; color-scheme:dark }
+
+body{background:var(--bg);color:var(--fg);font-family:var(--font-body);font-size:14px;line-height:1.45;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 40px}
+h1,h2,h3{text-wrap:balance;margin:0}
+.bar{max-width:1120px;margin:0 auto 16px;display:flex;flex-wrap:wrap;gap:12px 20px;align-items:center;justify-content:space-between}
+.bar h1{font-size:18px;font-weight:600}
+.bar p{margin:2px 0 0;color:var(--muted);max-width:60ch}
+.controls{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:var(--surface)}
+.seg button{font:inherit;font-weight:500;padding:8px 14px;border:0;background:transparent;color:var(--fg);cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--fg);color:var(--bg)}
+.seg button:focus-visible{outline:2px solid var(--prog);outline-offset:-2px}
+.legend{display:flex;gap:6px 14px;flex-wrap:wrap;font-family:var(--font-mono);font-size:11.5px;color:var(--muted)}
+.legend span::before{content:"";display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:-1px;border:1.5px dashed currentColor}
+.legend .l-c::before{background:var(--content);border-style:solid;border-color:var(--line)}
+.legend .l-p{color:var(--prog)} .legend .l-s{color:var(--spons)} .legend .l-l{color:var(--lead)} .legend .l-a{color:var(--aff)}
+
+.stage{overflow-x:auto;padding-bottom:8px}
+.frame{position:relative;margin:0 auto;background:var(--surface);border:1px solid var(--line);border-radius:10px;
+  box-shadow:0 1px 0 var(--line);transition:width .25s}
+.frame.desktop{width:1056px;padding:20px 24px 24px}
+.frame.mobile{width:390px;padding:12px 16px 72px}
+.cols{display:grid;gap:36px}
+.desktop .cols{grid-template-columns:minmax(0,1fr) 300px}
+.mobile .cols{grid-template-columns:minmax(0,1fr)}
+.main,.rail{min-width:0;display:flex;flex-direction:column;gap:18px}
+.mobile .rail{display:none}
+.mobile-only{display:none}.mobile .mobile-only{display:block}.mobile .desktop-only{display:none}
+
+/* content zones */
+.zone{background:var(--content);border-radius:6px;padding:12px 14px;position:relative}
+.zone .zn{position:absolute;top:8px;right:10px;font-family:var(--font-mono);font-size:10.5px;color:var(--muted)}
+.crumb{color:var(--muted);font-size:12.5px}
+.h1{font-size:26px;font-weight:600;line-height:1.15}.mobile .h1{font-size:22px}
+.sub{color:var(--muted);margin-top:2px}
+.chip{display:inline-block;font-size:11.5px;padding:2px 8px;border-radius:999px;background:var(--lead-bg);color:var(--lead);font-weight:500;margin-top:8px}
+.chip + a{font-size:12px;color:var(--muted);margin-left:10px}
+.actions{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.btn{display:inline-block;padding:9px 14px;border-radius:8px;border:1px solid var(--line);background:var(--surface);font-weight:500;font-size:13px}
+.btn.primary{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.today{margin-left:auto;font-size:12.5px;color:var(--lead);font-weight:500}
+.mobile .today{margin-left:0;width:100%}
+.mobile .sticky-actions{position:sticky;top:0;z-index:3;background:var(--surface);padding:10px 0;border-bottom:1px solid var(--line)}
+.kv{display:grid;grid-template-columns:96px minmax(0,1fr);gap:6px 12px;font-size:13.5px}
+.kv dt{color:var(--muted)}.kv dd{margin:0;font-variant-numeric:tabular-nums}
+.map{height:160px;border-radius:6px;background:repeating-linear-gradient(45deg,var(--line) 0 2px,transparent 2px 14px);display:grid;place-items:center;color:var(--muted);font-size:12px;margin-top:12px}
+.mobile .map{height:120px}
+table{border-collapse:collapse;width:100%;font-size:13.5px;font-variant-numeric:tabular-nums}
+td,th{text-align:left;padding:5px 8px 5px 0;border-bottom:1px solid var(--line)}
+th{font-weight:500;color:var(--muted)}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chips span{border:1px solid var(--line);border-radius:999px;padding:2px 10px;font-size:12.5px;background:var(--surface)}
+h2.t{font-size:16px;font-weight:600;margin-bottom:8px}
+h3.t{font-size:14px;font-weight:600}
+.svc{padding:10px 0;border-top:1px solid var(--line);font-size:13.5px}
+.svc:first-of-type{border-top:0}
+.svc .meta{color:var(--muted);font-size:12.5px;margin-top:3px}
+.faq p{margin:4px 0;font-size:13.5px}
+.faq b{font-weight:600}
+.rel p{margin:3px 0;font-size:13px}
+.fix{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
+.foot{color:var(--muted);font-size:12px;text-align:center;padding-top:6px}
+
+/* monetized slots */
+.slot{border:1.5px dashed;border-radius:6px;display:grid;place-items:center;text-align:center;font-family:var(--font-mono);font-size:11.5px;line-height:1.4;padding:8px;position:relative;box-sizing:border-box}
+.slot .lbl{position:absolute;top:-9px;left:10px;background:var(--surface);padding:0 6px;font-size:10px;letter-spacing:.06em;text-transform:uppercase}
+.slot b{font-weight:500;font-size:12px}
+.slot.prog{border-color:var(--prog);background:var(--prog-bg);color:var(--prog)}
+.slot.spons{border-color:var(--spons);background:var(--spons-bg);color:var(--spons)}
+.slot.lead{border-color:var(--lead);background:var(--lead-bg);color:var(--lead)}
+.slot.aff{border-color:var(--aff);background:var(--aff-bg);color:var(--aff);display:block;text-align:left;padding:6px 10px}
+.leader{height:90px;width:728px;max-width:100%;margin:0 auto}
+.mobile .leader{height:100px;width:320px}
+.rect336{height:280px;width:336px;max-width:100%;margin:0 auto}
+.rect300{height:250px;width:300px;max-width:100%;margin:0 auto}
+.half{height:600px;width:300px}
+.native{height:120px;text-align:left;display:block;padding:12px 14px}
+.mobile .native{height:140px}
+.native .row{display:flex;gap:12px;align-items:flex-start;font-family:var(--font-body);color:var(--fg)}
+.native .logo{width:44px;height:44px;border-radius:8px;background:var(--surface);border:1px solid var(--line);flex:0 0 auto}
+.native .name{font-weight:600}
+.native .desc{color:var(--muted);font-size:13px}
+.native .cta{display:flex;gap:8px;margin-top:8px}
+.native .cta span{border:1px solid currentColor;border-radius:6px;padding:4px 10px;font-size:12.5px;color:var(--spons)}
+.leadform{display:block;text-align:left;padding:14px 16px;font-family:var(--font-body);color:var(--fg)}
+.leadform .eyebrow{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--lead)}
+.leadform h3{font-size:16px;margin:4px 0 2px}
+.leadform .re{color:var(--muted);font-size:12.5px}
+.leadform .fields{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:10px}
+.leadform .fields div{border:1px solid var(--line);border-radius:6px;padding:9px 10px;background:var(--surface);color:var(--muted);font-size:13px}
+.leadform .fields .wide{grid-column:1 / -1}
+.leadform .cb{font-size:12.5px;color:var(--muted);margin-top:8px}
+.leadform .send{display:inline-block;margin-top:10px;background:var(--lead);color:#fff;border-radius:8px;padding:9px 16px;font-weight:500;font-size:13px}
+.leadform .who{font-size:12px;color:var(--muted);margin-top:8px}
+.mobile .leadform .fields,.mobile .leadform .cb,.mobile .leadform .who,.mobile .leadform .re{display:none}
+.mobile .leadform .send{width:100%;text-align:center;box-sizing:border-box}
+.rail .sticky{position:sticky;top:12px;display:flex;flex-direction:column;gap:18px}
+.anchor{position:sticky;bottom:0;margin:12px -16px -72px;height:50px;border-radius:0;border-left:0;border-right:0;border-bottom:0;z-index:4}
+.anchor .lbl{top:-9px}
+.fold{position:absolute;left:0;right:0;border-top:2px dashed var(--aff);pointer-events:none}
+.fold span{position:absolute;right:8px;top:-20px;font-family:var(--font-mono);font-size:10.5px;color:var(--aff);background:var(--surface);padding:0 4px}
+.desktop .fold{display:none}
+@media (prefers-reduced-motion: reduce){.frame{transition:none}}
+</style>
+
+<div class="bar">
+  <div>
+    <h1>Šablon stranice institucije · Poreska uprava – Filijala Niš</h1>
+    <p>Zone u redosledu prikaza. Isprekidani okviri su monetizovani slotovi u rezervisanim dimenzijama; oznaka je <code>ad_slots.code</code>. Sadržaj je primer.</p>
+  </div>
+  <div class="controls">
+    <div class="seg" role="group" aria-label="Širina prikaza">
+      <button id="btn-desktop" type="button" aria-pressed="true">Desktop 1056</button>
+      <button id="btn-mobile" type="button" aria-pressed="false">Telefon 390</button>
+    </div>
+    <div class="legend">
+      <span class="l-c">sadržaj</span><span class="l-p">programatski oglas</span><span class="l-s">sponzor</span><span class="l-l">lead forma</span><span class="l-a">affiliate</span>
+    </div>
+  </div>
+</div>
+
+<div class="stage">
+<div class="frame desktop" id="frame">
+  <div class="fold" style="top:720px"><span>≈ prvi ekran telefona (390×844)</span></div>
+  <div class="cols">
+  <div class="main">
+
+    <div class="zone"><span class="zn">1</span><div class="crumb">Početna › Niš › Poreska uprava › Filijala Niš</div></div>
+
+    <div class="slot prog leader"><span class="lbl">Oglas</span><div><b>loc_top_leaderboard</b><br>728×90 · telefon 320×100</div></div>
+
+    <div class="zone"><span class="zn">3</span>
+      <div class="h1">Poreska uprava – Filijala Niš</div>
+      <div class="sub">Ministarstvo finansija, Poreska uprava Republike Srbije</div>
+      <span class="chip">✓ Provereno 12. okt 2026</span><a href="#izmeni">Prijavi grešku</a>
+    </div>
+
+    <div class="zone sticky-actions"><span class="zn">4</span>
+      <div class="actions"><span class="btn primary">📞 Pozovi 018 ···</span><span class="btn">Uputstva</span><span class="btn">Sajt ↗</span><span class="today">● Danas otvoreno do 15:00</span></div>
+    </div>
+
+    <div class="zone"><span class="zn">5</span>
+      <h2 class="t">Kontakt i adresa</h2>
+      <dl class="kv">
+        <dt>Adresa</dt><dd>[ulica i broj], 18000 Niš · <u>Kopiraj</u></dd>
+        <dt>Telefon</dt><dd>018 ··· ··· (centrala) · 0700 ··· ··· (Kontakt centar PU)</dd>
+        <dt>Email</dt><dd>···@purs.gov.rs</dd>
+        <dt>Sajt</dt><dd>purs.gov.rs</dd>
+        <dt>Danas</dt><dd>08:00–15:00, rad sa strankama</dd>
+      </dl>
+      <div class="map">statična mapa · klik otvara uputstva</div>
+    </div>
+
+    <div class="slot spons native"><span class="lbl">Sponzor stranice</span>
+      <div class="row"><div class="logo"></div><div><div class="name">Knjigovodstvo Kontić · Niš</div><div class="desc">Otvaranje firme, paušal, DOO. Prva konsultacija besplatna.</div><div class="cta"><span>Pozovi 018 ···</span><span>Sajt ↗</span></div></div></div>
+      <div style="position:absolute;right:12px;bottom:8px"><b>loc_after_address_native</b> · 120px · fallback 336×280</div>
+    </div>
+
+    <div class="zone"><span class="zn">7</span>
+      <h2 class="t">Radno vreme</h2>
+      <table><tr><th>Rad sa strankama</th><th></th></tr>
+        <tr><td>Ponedeljak–Petak</td><td>08:00–15:00</td></tr>
+        <tr><td>Subota, Nedelja</td><td>zatvoreno</td></tr></table>
+      <p style="margin:8px 0 0;font-size:13px;color:var(--muted)">Radno vreme zaposlenih 07:30–15:30 · Izuzetak: 11. nov 2026, Dan primirja</p>
+    </div>
+
+    <div class="mobile-only"><div class="slot spons rect300"><span class="lbl">Sponzor stranice</span><div><b>loc_sidebar_sponsor</b><br>300×250 · na telefonu ovde</div></div></div>
+
+    <div class="zone"><span class="zn">8</span>
+      <h2 class="t">Nadležnost</h2>
+      <div class="chips"><span>Niš</span><span>Aleksinac</span><span>Doljevac</span><span>Gadžin Han</span><span>Merošina</span><span>Ražanj</span><span>Svrljig</span></div>
+      <p style="margin:8px 0 0;font-size:13px">Ispostave: <u>Ispostava Aleksinac</u> · <u>Ispostava Svrljig</u></p>
+    </div>
+
+    <div class="slot lead leadform"><span class="lbl">Lead forma</span>
+      <div class="eyebrow">● Lokalni partner · loc_lead_form · knjigovodstvo</div>
+      <h3>Otvarate firmu ili menjate knjigovođu? Dobijte ponudu od lokalne agencije.</h3>
+      <div class="re">Besplatno, bez obaveze. Odgovor radnim danima u roku od 24h.</div>
+      <div class="fields"><div>Ime i prezime</div><div>Telefon</div><div class="wide">Oblik poslovanja ▾</div></div>
+      <div class="cb">☐ Kontaktirajte me preko Vibera &nbsp; ☐ Slažem se da se moj upit prosledi jednom partneru. <u>Politika privatnosti</u></div>
+      <span class="send">Pošalji upit</span>
+      <div class="who">Partner: Knjigovodstvo Kontić, Niš · Proveren partner</div>
+    </div>
+
+    <div class="zone"><span class="zn">10</span>
+      <h2 class="t">Usluge na ovoj lokaciji</h2>
+      <div class="svc"><h3 class="t">Dodela PIB-a i registracija poreskog obveznika</h3><div class="meta">Dokumenta: Obrazac PR-1; lična karta; rešenje o registraciji · Taksa: bez takse · Šalter 3</div></div>
+      <div class="svc"><h3 class="t">Poresko uverenje o izmirenim obavezama</h3><div class="meta">Dokumenta: zahtev; dokaz o uplati · RAT ··· RSD, račun 840-742221843-57, model 97 · Dostupno online na eUpravi ↗</div>
+        <div class="slot aff" style="margin-top:8px"><b>loc_affiliate_after_fees</b> · <i>Treba vam poresko uverenje za kredit? <u>Uporedite ponude banaka</u> (sponzorisani link)</i></div></div>
+      <div class="svc"><h3 class="t">Prijava poreza na kapitalnu dobit (PPDG-3R)</h3><div class="meta">Dokumenta: obrazac PPDG-3R; ugovor o prodaji; dokaz o nabavnoj ceni</div></div>
+    </div>
+
+    <div class="slot prog rect336"><span class="lbl">Oglas</span><div><b>loc_in_content_1</b><br>336×280</div></div>
+
+    <div class="zone"><span class="zn">13</span>
+      <h2 class="t">O instituciji</h2>
+      <p style="margin:0;font-size:13.5px">Poreska uprava je organ u sastavu Ministarstva finansija nadležan za utvrđivanje, naplatu i kontrolu javnih prihoda. Filijale rade sa građanima i preduzetnicima: dodela PIB-a, poreska uverenja, prijave poreza na dohodak i kapitalnu dobit. Porez na imovinu za Niš vodi Lokalna poreska administracija Grada Niša, ne ova filijala.</p>
+    </div>
+
+    <div class="zone faq"><span class="zn">14</span>
+      <h2 class="t">Česta pitanja</h2>
+      <p><b>Da li mogu da dobijem poresko uverenje online?</b> Da, preko eUprave ili ePoreza uz kvalifikovani sertifikat.</p>
+      <p><b>Gde plaćam porez na imovinu za stan u Nišu?</b> U Lokalnoj poreskoj administraciji Grada Niša.</p>
+      <p><b>Da li je potrebno zakazivanje?</b> Napomena za ovu lokaciju.</p>
+    </div>
+
+    <div class="zone rel"><span class="zn">15</span>
+      <h2 class="t">Povezano</h2>
+      <p><b>Poreska uprava u Nišavskom okrugu</b> · Ispostava Aleksinac · Ispostava Svrljig</p>
+      <p><b>Republički organi u Nišu</b> · APR · RGZ Katastar · PIO · RFZO · NSZ · PU Niš</p>
+      <p><b>Takođe u Nišu</b> · Sve institucije</p>
+    </div>
+
+    <div class="zone" id="izmeni"><span class="zn">16</span>
+      <h2 class="t">Da li su podaci tačni?</h2>
+      <p style="margin:0;font-size:13px;color:var(--muted)">Poslednja provera: 12. okt 2026 · Izvor: purs.gov.rs, Uprava za trezor (KJS)</p>
+      <div class="fix"><span class="btn">Izmeni podatke</span><span class="btn">Prijavi da je zatvoreno / preseljeno</span></div>
+      <p style="margin:8px 0 0;font-size:12.5px;color:var(--muted)">Ispravke pregleda urednik pre objave.</p>
+    </div>
+
+    <div class="slot prog leader"><span class="lbl">Oglas</span><div><b>loc_bottom_leaderboard</b><br>728×90 · telefon 320×100</div></div>
+
+    <div class="foot">O sajtu · Partneri i oglašavanje · Politika privatnosti · Uslovi · Izvori podataka</div>
+
+    <div class="mobile-only"><div class="slot prog anchor"><span class="lbl">Oglas</span><div><b>loc_sticky_bottom_mobile</b> · AdSense anchor 320×50 · može se zatvoriti</div></div></div>
+  </div>
+
+  <aside class="rail desktop-only">
+    <div class="sticky">
+      <div class="slot spons rect300"><span class="lbl">Sponzor stranice</span><div><b>loc_sidebar_sponsor</b><br>300×250 · lepljivo</div></div>
+      <div class="zone rel"><span class="zn">R2</span><h2 class="t">Druge jedinice u okrugu</h2><p>Ispostava Aleksinac</p><p>Ispostava Svrljig</p><p style="margin-top:8px"><b>Brze činjenice</b></p><p>Nadležna za 7 opština · 3 usluge · provereno pre 28 dana</p></div>
+      <div class="slot prog half"><span class="lbl">Oglas</span><div><b>loc_sidebar_programmatic</b><br>300×600 · samo ≥1200px</div></div>
+    </div>
+  </aside>
+  </div>
+</div>
+</div>
+
+<script>
+(function(){
+  var frame=document.getElementById('frame'),bd=document.getElementById('btn-desktop'),bm=document.getElementById('btn-mobile');
+  function set(mode){
+    frame.className='frame '+mode;
+    bd.setAttribute('aria-pressed',String(mode==='desktop'));
+    bm.setAttribute('aria-pressed',String(mode==='mobile'));
+    try{localStorage.setItem('wf-mode',mode)}catch(e){}
+  }
+  bd.addEventListener('click',function(){set('desktop')});
+  bm.addEventListener('click',function(){set('mobile')});
+  var saved=null;try{saved=localStorage.getItem('wf-mode')}catch(e){}
+  if(saved==='mobile'||(saved===null&&window.innerWidth<700))set('mobile');
+})();
+</script>

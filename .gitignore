@@ -1,0 +1,23 @@
+# OS / editor
+.DS_Store
+.claude/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.cache/
+importers/.cache/
+
+# Node / Next.js
+node_modules/
+.next/
+next-env.d.ts
+*.tsbuildinfo
+*.log
+
+# Secrets - never commit connection strings
+.env
+.env.*
+!.env.local.example
+!.env.example

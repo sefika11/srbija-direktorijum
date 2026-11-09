@@ -1,0 +1,11 @@
+# Reference crawl profile. Verified 2026-11-09: WordPress, robots allows everything except /wp-admin/.
+slug: nis
+site: https://www.ni.rs
+cms: wordpress
+sitemap: https://www.ni.rs/wp-sitemap.xml
+notes: >
+  Gradska uprava Niša has five gradske opštine, each with its own site (to be added as
+  sub-profiles: medijana.rs, palilula.rs ... confirm domains). JKP sites are separate
+  (naissus.rs, jkpmedijana.rs, parkingservis-nis.rs ... confirm) and get their own profiles
+  under profiles/nis-jkp-*.yaml.
+candidates: []   # filled by discover.py
