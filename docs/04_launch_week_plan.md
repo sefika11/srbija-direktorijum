@@ -29,27 +29,47 @@ Optional today: Plausible or Umami for analytics (cookieless, no banner needed).
 - Confirm and write importers for Tax Administration branches, cadastre offices, PIO, NSZ, police directorates (headless fetch), court seats from the statute.
 - Result: every national-network type has real branch pages with addresses, phones and the municipalities it serves.
 
-## Day 3, Wednesday: municipal crawler, top 10 cities
 
-- Crawl profiles for Beograd, Novi Sad, Niš, Kragujevac, Subotica, Zrenjanin, Pančevo, Čačak, Kraljevo, Novi Pazar.
-- LLM extraction with Haiku into staging, review queue, load with provenance. Needs `ANTHROPIC_API_KEY` (Nick).
-- On-demand revalidation route so approved edits refresh one page.
-- Result: phones and hours on the pages that get most traffic.
+> **Status 2026-11-09 (end of Day 2).** Day 1 done: personal GitHub (sefika11/srbija-direktorijum), Neon
+> (Frankfurt, PG16, dump restored), Vercel (fra1, auto-deploy from `main`), live at
+> https://srbija-direktorijum.vercel.app. Day 2 done: RFZO branches + coverage, 213 enforcement agents,
+> 228 notaries with phones and opening hours; zoomable two-level map (okrug → opština); visual pass on
+> header, hero, cards, footer. Scope widened on Day 2 (see docs/05): the directory also answers *how* to
+> get things done (guides) and gets a typed assistant over its own data. Days 3–5 below are re-cut for that;
+> the Tax/cadastre/PIO/NSZ/police importers and the RGZ geocoding move to Week 2 alongside the crawler.
 
-## Day 4, Thursday: content and the Phase 1 visual pass
+## Day 3, Wednesday: the guides layer
 
-- Name, logo mark, favicon, colour identity applied; per-type icons and group colour coding.
-- Designed empty states, static map with pin on institution pages, "open now" badge where hours exist.
-- Serbian descriptions and FAQs for the 15 most-visited institution types.
-- Google Search Console on the domain, sitemap submitted; analytics live; `o-sajtu`, `privatnost`, `uslovi` final.
+- Seed `services` for the first 12 life tasks (lična karta, pasoš, vozačka dozvola, registracija vozila,
+  zdravstvena knjižica, prijava boravišta, privremeni boravak za strance, izvod iz matične knjige, dečiji
+  dodatak, novčana socijalna pomoć, otvaranje firme/preduzetnik, overa kod beležnika) with structured JSON
+  (eligibility, documents, fees with tariff numbers, steps, FAQ) and `checked_at` + source URLs.
+- Guide page `/vodic/{slug}` in four languages with a municipality picker that resolves "Gde se ide" to the
+  concrete serving location via `locations_serving()`.
+- Write three guides fully (lična karta, pasoš, zdravstvena knjižica) and verify the fees against the
+  official tariff. Lead verticals attached per guide (doc 05 §2).
+- Result: the first "how do I…" pages are live and personalised per municipality.
 
-## Day 5, Friday: monetization plumbing
+## Day 4, Thursday: the assistant and Search Console
 
-- Apply for Google AdSense (needs the domain live, real content, privacy page). Nick's Google account.
-- Wire the reserved slots to AdSense units; until approval they stay empty, never placeholder text on the live site.
-- Directus admin over the database: review corrections, see leads by vertical and district, create sponsorships.
-- Lead routing email via Resend; partners page with the three products and starting prices.
-- Build the first sponsor target list: accountants, lawyers, surveyors, insurance agents, private clinics in the top 10 cities; one-pager for the pitch.
+- `/api/asistent`: streaming route on `claude-haiku-5-5` with read-only tools over `lib/db.ts`
+  (search, locations-for-type-in-municipality, guide, municipality lookup); answers only from tool output,
+  cites directory pages as cards, replies in the user's language. Personal `ANTHROPIC_API_KEY` in Vercel.
+- Chat UI: a bar on every page ("Pitajte adresar…"), collapsed on mobile; question log without PII as the
+  editorial backlog; rate limit by IP; 24 h answer cache.
+- Register the domain's Search Console property, submit per-type sitemaps (split the 9,900-URL sitemap),
+  add analytics (Plausible/Umami), apply for AdSense once the guides are indexed.
+- Result: typing a question lands the reader on the right page; the site is measurable.
+
+## Day 5, Friday: newcomer set, descriptions, partners page
+
+- Nine more guides including the newcomer set (boravak, PIB za strance, prevodioci, radna dozvola) in sr + en,
+  ru/de for the newcomer set.
+- Serbian description and FAQ for the 20 most-visited institution types; empty-state copy on pages with no
+  phone yet ("Prijavite broj" correction block above the fold).
+- Partners page with the sponsor/lead inventory per guide × okrug, pricing from doc 02; Resend routing for
+  lead forms to a personal inbox.
+- Result: content and inventory ready for the first sponsor conversations.
 
 ## Day 6, Saturday: QA and soft launch
 
