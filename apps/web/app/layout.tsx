@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 // Fonts are self-hosted via Fontsource so builds never depend on Google Fonts.
-import "@fontsource/ibm-plex-sans/400.css";
-import "@fontsource/ibm-plex-sans/500.css";
-import "@fontsource/ibm-plex-sans/600.css";
-import "@fontsource-variable/literata";
-import "@fontsource/ibm-plex-serif/600.css";
-import "@fontsource/ibm-plex-mono/400.css";
+// Display: Bona Nova (serif, Latin-ext + Cyrillic). Text: Commissioner (variable). Labels/codes: JetBrains Mono (variable).
+import "@fontsource/bona-nova/400.css";
+import "@fontsource/bona-nova/400-italic.css";
+import "@fontsource/bona-nova/700.css";
+import "@fontsource-variable/commissioner";
+import "@fontsource-variable/jetbrains-mono";
 import "./globals.css";
 import Motion from "@/components/Motion";
 

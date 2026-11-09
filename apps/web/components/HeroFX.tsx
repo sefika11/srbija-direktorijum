@@ -30,7 +30,7 @@ export default function HeroFX() {
     if (!fine || reduced) return () => cleanups.forEach((f) => f());
 
     // 3. pointer light on the hero + spotlight on cards (CSS vars, written once per frame)
-    const hero = document.querySelector<HTMLElement>(".hero-open");
+    const hero = document.querySelector<HTMLElement>(".hero-open, .hero-light");
     let hx = 0, hy = 0, pending = false;
     const flush = () => { pending = false; hero?.style.setProperty("--mx", `${hx}px`); hero?.style.setProperty("--my", `${hy}px`); };
     const onHero = (e: PointerEvent) => { const r = hero!.getBoundingClientRect(); hx = e.clientX - r.left; hy = e.clientY - r.top; if (!pending) { pending = true; requestAnimationFrame(flush); } };

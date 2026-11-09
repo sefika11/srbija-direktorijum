@@ -1,35 +1,38 @@
 "use client";
 /**
- * SerbiaMap3D — the 25 districts of Serbia extruded in WebGL (Three.js).
- * Height encodes the number of institutions. Districts rise in from the west on load, lift and glow on hover,
- * and open their page on click. Pure Three.js, no post-processing: the glow is emissive top faces plus an additive halo.
- * Falls back to nothing (the parent swaps in the SVG map) when WebGL is unavailable.
+ * SerbiaMap3D — territorial units extruded in WebGL (Three.js). Generic: the home page passes the 25 districts,
+ * a district page passes its municipalities, a municipality page passes itself (and its city districts).
+ * Height encodes the number of institutions. Units rise in on load, lift and tint on hover, open their page on click.
+ * No post-processing: on a paper canvas, additive bloom is invisible and emissive clips to white under ACES,
+ * so the hover glow is material colour plus a normal-blended halo under the unit.
  */
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import * as THREE from "three";
-import { OKRUG_SHAPES, MAP_W, MAP_H, MAP_VIEWBOX } from "@/lib/serbia-map";
-import type { Locale } from "@/lib/i18n";
-import { href } from "@/lib/i18n";
-import type { MapOkrug, MapLabels } from "./SerbiaMap";
+import { MAP_W, MAP_H, MAP_VIEWBOX } from "@/lib/serbia-map";
+
+export type BBox = [number, number, number, number];
+export type Feature3D = { key: string; d: string; cx: number; cy: number; bbox: BBox; name: string; sub?: string; label?: string; count: number; href: string; stats: { v: string; l: string }[] };
+export type Context3D = { key: string; d: string };
+export type Labels3D = { open: string; stage: string };
 
 const SCALE = 1 / 10;                 // 600×787 viewBox units → 60×78.7 world units
 const CX = MAP_W / 2, CY = MAP_H / 2;
-const ACCENT = new THREE.Color("#2347e6");
-const HOT = new THREE.Color("#3a5ceb");
+const HOT = new THREE.Color("#2f52ea");
+const LOW = new THREE.Color("#f2f0e8"), HIGH = new THREE.Color("#8d9ede");      // paper → desaturated cobalt by share
+const SIDE_LOW = new THREE.Color("#cfcbbe"), SIDE_HIGH = new THREE.Color("#7e8bbf");
+const CTX_TOP = new THREE.Color("#e4e1d7"), CTX_SIDE = new THREE.Color("#cbc7ba");
 const EASE_OUT_EXPO = (t: number) => (t >= 1 ? 1 : 1 - Math.pow(2, -10 * t));
 const lerp = (a: number, b: number, t: number) => a + (b - a) * t;
+const wx = (px: number) => (px - CX) * SCALE, wz = (py: number) => (py - CY) * SCALE;
 
-/** "M x,y L x,y … Z M …" → list of rings (already in world x / "south" coordinates). */
 function parseRings(d: string): THREE.Vector2[][] {
-  const rings: THREE.Vector2[][] = [];
-  let cur: THREE.Vector2[] = [];
-  const re = /([MLZ])\s*(-?[\d.]+)?,?(-?[\d.]+)?/g;
-  let m: RegExpExecArray | null;
+  const rings: THREE.Vector2[][] = []; let cur: THREE.Vector2[] = [];
+  const re = /([MLZ])\s*(-?[\d.]+)?,?(-?[\d.]+)?/g; let m: RegExpExecArray | null;
   while ((m = re.exec(d))) {
     const cmd = m[1];
     if (cmd === "Z") { if (cur.length > 2) rings.push(cur); cur = []; continue; }
-    const x = (parseFloat(m[2]!) - CX) * SCALE, y = -(parseFloat(m[3]!) - CY) * SCALE; // flip y: shape space is y-up
+    const x = wx(parseFloat(m[2]!)), y = -wz(parseFloat(m[3]!)); // shape space is y-up
     if (cmd === "M") { if (cur.length > 2) rings.push(cur); cur = []; }
     cur.push(new THREE.Vector2(x, y));
   }
@@ -49,186 +52,196 @@ function toShapes(d: string): THREE.Shape[] {
   const shapes: THREE.Shape[] = [];
   for (const r of rings) {
     const parent = shapes.find((s) => pointInRing(r[0], s.getPoints()));
-    if (parent) { const h = new THREE.Path(r); parent.holes.push(h); } else shapes.push(new THREE.Shape(r));
+    if (parent) parent.holes.push(new THREE.Path(r)); else shapes.push(new THREE.Shape(r));
   }
   return shapes;
 }
-function haloTexture() {
+function radialTexture(rgb: string, a0: number, a1: number) {
   const c = document.createElement("canvas"); c.width = c.height = 256;
   const g = c.getContext("2d")!; const grd = g.createRadialGradient(128, 128, 0, 128, 128, 128);
-  grd.addColorStop(0, "rgba(35,71,230,.45)"); grd.addColorStop(.4, "rgba(35,71,230,.16)"); grd.addColorStop(1, "rgba(35,71,230,0)");
+  grd.addColorStop(0, `rgba(${rgb},${a0})`); grd.addColorStop(.45, `rgba(${rgb},${a1})`); grd.addColorStop(1, `rgba(${rgb},0)`);
   g.fillStyle = grd; g.fillRect(0, 0, 256, 256);
   const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; return t;
 }
 
-type District = { slug: string; mesh: THREE.Mesh; edges: THREE.LineSegments; base: number; target: number; cur: number; cx: number; cz: number; top: THREE.MeshStandardMaterial; delay: number; color0: THREE.Color; hot: number };
+type Unit = { f: Feature3D; mesh: THREE.Mesh; edges: THREE.LineSegments; base: number; target: number; cur: number; cx: number; cz: number; top: THREE.MeshStandardMaterial; delay: number; color0: THREE.Color; hot: number };
 
-export default function SerbiaMap3D({ okruzi, locale, labels, onUnavailable, className }: { okruzi: MapOkrug[]; locale: Locale; labels: MapLabels; onUnavailable?: () => void; className?: string }) {
+export default function SerbiaMap3D({ features, context = [], fit, labels, onUnavailable, className }: { features: Feature3D[]; context?: Context3D[]; fit?: BBox; labels: Labels3D; onUnavailable?: () => void; className?: string }) {
   const router = useRouter();
   const wrap = useRef<HTMLDivElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const labelsRef = useRef<HTMLDivElement>(null);
   const [hover, setHover] = useState<string | null>(null);
   const [ready, setReady] = useState(false);
-  const okrugBy = useMemo(() => Object.fromEntries(okruzi.map((o) => [o.slug, o])), [okruzi]);
-  const maxOrg = Math.max(1, ...okruzi.map((o) => o.org_count));
-  const reduced = typeof window !== "undefined" && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const byKey = useMemo(() => Object.fromEntries(features.map((f) => [f.key, f])), [features]);
+  const sig = features.map((f) => f.key).join("|");
 
   useEffect(() => {
-    const el = wrap.current, canvas = canvasRef.current; if (!el || !canvas) return;
+    const el = wrap.current, canvas = canvasRef.current; if (!el || !canvas || !features.length) return;
+    const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     let renderer: THREE.WebGLRenderer;
     try { renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true, powerPreference: "high-performance" }); }
     catch { onUnavailable?.(); return; }
     renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
     renderer.shadowMap.enabled = true; renderer.shadowMap.type = THREE.PCFSoftShadowMap;
-    renderer.toneMapping = THREE.ACESFilmicToneMapping; renderer.toneMappingExposure = 1.05;
+    renderer.toneMapping = THREE.ACESFilmicToneMapping; renderer.toneMappingExposure = 1.0;
     renderer.outputColorSpace = THREE.SRGBColorSpace;
 
+    // scene frame: the fitted bbox (or the union of the features) decides centre, radius and scale of everything
+    const bb: BBox = fit ?? features.reduce<BBox>((a, f) => [Math.min(a[0], f.bbox[0]), Math.min(a[1], f.bbox[1]), Math.max(a[2], f.bbox[2]), Math.max(a[3], f.bbox[3])], [1e9, 1e9, -1e9, -1e9]);
+    const center = new THREE.Vector3(wx((bb[0] + bb[2]) / 2), 0, wz((bb[1] + bb[3]) / 2));
+    const radius = Math.max(4, Math.hypot(wx(bb[2]) - wx(bb[0]), wz(bb[3]) - wz(bb[1])) / 2);
+    const hs = THREE.MathUtils.clamp(radius / 49, .22, 1);            // whole country ≈ radius 49 → heights scale with the frame
+    const dir = new THREE.Vector3(0, .77, .64).normalize();
+
     const scene = new THREE.Scene();
-    const camera = new THREE.PerspectiveCamera(27, 1, 1, 600);
-    const camFinal = new THREE.Vector3(0, 94, 78), camStart = new THREE.Vector3(0, 150, 150), look = new THREE.Vector3(0, 0, 3);
-    camera.position.copy(reduced ? camFinal : camStart); camera.lookAt(look);
+    const camera = new THREE.PerspectiveCamera(26, 1, .5, 2000);
+    const camFinal = new THREE.Vector3(), camStart = new THREE.Vector3();
+    const look = center.clone().add(new THREE.Vector3(0, 0, radius * .04));
 
-    scene.add(new THREE.HemisphereLight(0xffffff, 0xd8d4c8, 1.15));
-    const sun = new THREE.DirectionalLight(0xffffff, 2.1); sun.position.set(-38, 70, 34); sun.castShadow = true;
-    sun.shadow.mapSize.set(2048, 2048); sun.shadow.camera.left = -55; sun.shadow.camera.right = 55; sun.shadow.camera.top = 55; sun.shadow.camera.bottom = -55; sun.shadow.camera.far = 220; sun.shadow.bias = -0.0006; sun.shadow.radius = 4;
-    scene.add(sun);
-    const fill = new THREE.DirectionalLight(0xbfd0ff, .5); fill.position.set(40, 30, -40); scene.add(fill);
+    scene.add(new THREE.HemisphereLight(0xffffff, 0xcfcabc, .95));
+    const sun = new THREE.DirectionalLight(0xffffff, 2.6); sun.position.copy(center).add(new THREE.Vector3(-radius * .9, radius * 1.6, radius * .8)); sun.target.position.copy(center); sun.castShadow = true;
+    sun.shadow.mapSize.set(2048, 2048); const sc = sun.shadow.camera; sc.left = -radius * 1.3; sc.right = radius * 1.3; sc.top = radius * 1.3; sc.bottom = -radius * 1.3; sc.near = 1; sc.far = radius * 6; sun.shadow.bias = -0.0005; sun.shadow.radius = 5;
+    scene.add(sun, sun.target);
+    const rim = new THREE.DirectionalLight(0xaec0ff, .7); rim.position.copy(center).add(new THREE.Vector3(radius, radius * .6, -radius)); scene.add(rim);
 
-    const ground = new THREE.Mesh(new THREE.PlaneGeometry(400, 400), new THREE.ShadowMaterial({ opacity: .14 }));
-    ground.rotation.x = -Math.PI / 2; ground.receiveShadow = true; scene.add(ground);
+    const ground = new THREE.Mesh(new THREE.PlaneGeometry(radius * 12, radius * 12), new THREE.ShadowMaterial({ opacity: .2 }));
+    ground.rotation.x = -Math.PI / 2; ground.position.copy(center); ground.receiveShadow = true; scene.add(ground);
+    // soft "table" shade under the model so it sits on the page
+    const table = new THREE.Mesh(new THREE.PlaneGeometry(radius * 3.2, radius * 3.2), new THREE.MeshBasicMaterial({ map: radialTexture("40,40,36", .16, .05), transparent: true, depthWrite: false }));
+    table.rotation.x = -Math.PI / 2; table.position.copy(center).setY(.01); scene.add(table);
+    const halo = new THREE.Mesh(new THREE.PlaneGeometry(1, 1), new THREE.MeshBasicMaterial({ map: radialTexture("47,82,234", .5, .18), transparent: true, depthWrite: false, opacity: 0 }));
+    halo.rotation.x = -Math.PI / 2; halo.position.y = .03; scene.add(halo);
 
-    const halo = new THREE.Mesh(new THREE.PlaneGeometry(1, 1), new THREE.MeshBasicMaterial({ map: haloTexture(), transparent: true, depthWrite: false, blending: THREE.NormalBlending, opacity: 0 }));
-    halo.rotation.x = -Math.PI / 2; halo.position.y = .02; scene.add(halo);
-
-    const sideMat = new THREE.MeshStandardMaterial({ color: new THREE.Color("#d9d6cb"), roughness: .92, metalness: 0 });
-    const districts: District[] = [];
     const group = new THREE.Group(); scene.add(group);
-    const paper = new THREE.Color("#ffffff"), inkish = new THREE.Color("#b3af a2".replace(" ",""));
-    const sorted = [...OKRUG_SHAPES].sort((a, b) => a.cx - b.cx);
-    sorted.forEach((s, i) => {
-      const o = okrugBy[s.slug]; const share = o ? o.org_count / maxOrg : 0;
-      const height = 1.6 + Math.sqrt(share) * 4.2;
-      const shapes = toShapes(s.d);
-      const geo = new THREE.ExtrudeGeometry(shapes, { depth: 1, bevelEnabled: true, bevelSize: .06, bevelThickness: .08, bevelSegments: 2, curveSegments: 2 });
-      geo.rotateX(-Math.PI / 2); // extrusion now points +y, shape y → -z (north at the back)
-      const top = new THREE.MeshStandardMaterial({ color: paper.clone().lerp(inkish, .06 + Math.sqrt(share) * .9), roughness: .85, metalness: 0, emissive: ACCENT, emissiveIntensity: 0 });
-      const mesh = new THREE.Mesh(geo, [top, sideMat]); mesh.castShadow = true; mesh.receiveShadow = true;
-      mesh.scale.y = reduced ? height : 0.001;
-      mesh.userData.slug = s.slug;
-      const edges = new THREE.LineSegments(new THREE.EdgesGeometry(geo, 40), new THREE.LineBasicMaterial({ color: 0x7c796e, transparent: true, opacity: .32 }));
-      edges.scale.copy(mesh.scale);
-      group.add(mesh, edges);
-      districts.push({ slug: s.slug, mesh, edges, base: height, target: height, cur: reduced ? height : 0.001, cx: (s.cx - CX) * SCALE, cz: (s.cy - CY) * SCALE, top, delay: i * 42, color0: top.color.clone(), hot: 0 });
+    const disposables: { dispose(): void }[] = [];
+    // context units: flat, quiet, not interactive
+    if (context.length) {
+      const ctxTop = new THREE.MeshStandardMaterial({ color: CTX_TOP, roughness: .95 }), ctxSide = new THREE.MeshStandardMaterial({ color: CTX_SIDE, roughness: .95 });
+      const ctxLine = new THREE.LineBasicMaterial({ color: 0x8f8b7f, transparent: true, opacity: .35 });
+      disposables.push(ctxTop, ctxSide, ctxLine);
+      for (const c of context) {
+        const geo = new THREE.ExtrudeGeometry(toShapes(c.d), { depth: 1, bevelEnabled: false, curveSegments: 2 }); geo.rotateX(-Math.PI / 2);
+        const m = new THREE.Mesh(geo, [ctxTop, ctxSide]); m.scale.y = .5 * hs; m.receiveShadow = true; m.castShadow = true;
+        const e = new THREE.LineSegments(new THREE.EdgesGeometry(geo, 40), ctxLine); e.scale.y = m.scale.y;
+        group.add(m, e); disposables.push(geo, e.geometry);
+      }
+    }
+    const maxCount = Math.max(1, ...features.map((f) => f.count));
+    const units: Unit[] = [];
+    const sorted = [...features].sort((a, b) => a.cx - b.cx);
+    const stagger = Math.min(42, 900 / Math.max(1, sorted.length));
+    sorted.forEach((f, i) => {
+      const share = Math.sqrt(f.count / maxCount);
+      const height = (1.6 + share * 4.6) * hs;
+      const geo = new THREE.ExtrudeGeometry(toShapes(f.d), { depth: 1, bevelEnabled: true, bevelSize: .05 * hs, bevelThickness: .07 * hs, bevelSegments: 2, curveSegments: 2 });
+      geo.rotateX(-Math.PI / 2);
+      const top = new THREE.MeshStandardMaterial({ color: LOW.clone().lerp(HIGH, share), roughness: .78, metalness: 0, emissive: HOT, emissiveIntensity: 0 });
+      const side = new THREE.MeshStandardMaterial({ color: SIDE_LOW.clone().lerp(SIDE_HIGH, share), roughness: .9, metalness: 0 });
+      const mesh = new THREE.Mesh(geo, [top, side]); mesh.castShadow = true; mesh.receiveShadow = true; mesh.scale.y = reduced ? height : 0.001;
+      const edges = new THREE.LineSegments(new THREE.EdgesGeometry(geo, 40), new THREE.LineBasicMaterial({ color: 0x3b3a44, transparent: true, opacity: .5 })); edges.scale.copy(mesh.scale);
+      group.add(mesh, edges); disposables.push(geo, top, side, edges.geometry, edges.material as THREE.Material);
+      units.push({ f, mesh, edges, base: height, target: height, cur: mesh.scale.y, cx: wx(f.cx), cz: wz(f.cy), top, delay: i * stagger, color0: top.color.clone(), hot: 0 });
     });
 
-    // labels: one absolutely positioned div per district, projected every frame
+    // labels: one absolutely positioned chip per unit, projected every frame
     const labelEls = new Map<string, HTMLDivElement>();
     const lw = labelsRef.current!; lw.innerHTML = "";
-    for (const d of districts) {
-      const o = okrugBy[d.slug]; if (!o) continue;
-      const div = document.createElement("div"); div.className = "m3-label"; div.textContent = o.seat_name_lat ?? o.name_lat; lw.appendChild(div); labelEls.set(d.slug, div);
-    }
+    for (const u of units) { const div = document.createElement("div"); div.className = "m3-label"; div.textContent = u.f.label ?? u.f.name; lw.appendChild(div); labelEls.set(u.f.key, div); }
 
-    const ray = new THREE.Raycaster(); const ndc = new THREE.Vector2(-2, -2); let hovered: District | null = null; let pointerInside = false;
-    const sway = new THREE.Vector2(0, 0), swayT = new THREE.Vector2(0, 0);
-    const setPointer = (e: PointerEvent) => {
-      const r = canvas.getBoundingClientRect();
-      ndc.set(((e.clientX - r.left) / r.width) * 2 - 1, -(((e.clientY - r.top) / r.height) * 2 - 1));
-      swayT.set(ndc.x, ndc.y); pointerInside = true;
-    };
+    const ray = new THREE.Raycaster(); const ndc = new THREE.Vector2(-2, -2); let hovered: Unit | null = null; let pointerInside = false;
+    const sway = new THREE.Vector2(), swayT = new THREE.Vector2();
+    const setPointer = (e: PointerEvent) => { const r = canvas.getBoundingClientRect(); ndc.set(((e.clientX - r.left) / r.width) * 2 - 1, -(((e.clientY - r.top) / r.height) * 2 - 1)); swayT.set(ndc.x, ndc.y); pointerInside = true; };
     const leave = () => { pointerInside = false; ndc.set(-2, -2); swayT.set(0, 0); };
-    let downAt = 0;
-    const down = () => { downAt = performance.now(); };
-    const click = () => { if (performance.now() - downAt < 250 && hovered) router.push(href(locale, `/okrug/${hovered.slug}`)); };
-    canvas.addEventListener("pointermove", setPointer); canvas.addEventListener("pointerleave", leave);
-    canvas.addEventListener("pointerdown", down); canvas.addEventListener("click", click);
+    let downAt = 0; const down = () => { downAt = performance.now(); };
+    const click = () => { if (performance.now() - downAt < 250 && hovered) router.push(hovered.f.href); };
+    canvas.addEventListener("pointermove", setPointer); canvas.addEventListener("pointerleave", leave); canvas.addEventListener("pointerdown", down); canvas.addEventListener("click", click);
 
     const resize = () => {
       const w = el.clientWidth, h = el.clientHeight; if (!w || !h) return;
       renderer.setSize(w, h, false); camera.aspect = w / h; camera.updateProjectionMatrix();
-      // keep the whole country in frame on narrow stages
-      const fit = Math.max(1, 0.95 / camera.aspect); camFinal.set(0, 94 * fit, 78 * fit);
+      // distance so the bounding sphere fits the narrower side of the frame, with a small margin
+      const vfov = THREE.MathUtils.degToRad(camera.fov), hfov = 2 * Math.atan(Math.tan(vfov / 2) * camera.aspect);
+      const dist = (radius * .86) / Math.sin(Math.min(vfov, hfov) / 2);
+      camFinal.copy(look).addScaledVector(dir, dist); camStart.copy(look).addScaledVector(dir, dist * 1.75);
+      if (reduced) camera.position.copy(camFinal);
     };
     const ro = new ResizeObserver(resize); ro.observe(el); resize();
+    if (!reduced) camera.position.copy(camStart);
+    camera.lookAt(look);
 
     let raf = 0, t0 = 0, visible = true, running = true;
-    const io = new IntersectionObserver(([e]) => { visible = e.isIntersecting; }, { threshold: 0 });
-    io.observe(el);
+    const io = new IntersectionObserver(([e]) => { visible = e.isIntersecting; }, { threshold: 0 }); io.observe(el);
     const v3 = new THREE.Vector3();
     const frame = (now: number) => {
       if (!running) return; raf = requestAnimationFrame(frame);
       if (!visible || document.hidden) return;
-      if (!t0) t0 = now; const t = now - t0;
-      // intro
-      let allIn = true;
-      for (const d of districts) {
-        if (!reduced) { const k = EASE_OUT_EXPO(Math.min(1, Math.max(0, (t - 220 - d.delay) / 1400))); if (k < 1) allIn = false; d.target = Math.max(0.001, d.base * k); }
-        if (hovered === d) d.target = d.base + 2.2 + Math.sin(now / 420) * .1; else if (allIn || reduced) d.target = d.base;
-        d.cur = lerp(d.cur, d.target, hovered === d ? .16 : .1);
-        d.mesh.scale.y = d.cur; d.edges.scale.y = d.cur;
-        d.hot = lerp(d.hot, hovered === d ? 1 : 0, .14);
-        d.top.color.copy(d.color0).lerp(HOT, d.hot * .9); d.top.emissiveIntensity = d.hot * .12;
-        (d.edges.material as THREE.LineBasicMaterial).opacity = lerp((d.edges.material as THREE.LineBasicMaterial).opacity, hovered === d ? .9 : .32, .12);
+      if (!t0) {
+        // hold the rise while the opener curtain covers the page
+        const rc = document.documentElement.classList;
+        if (rc.contains("has-opener") && !rc.contains("opener-done")) { renderer.render(scene, camera); return; }
+        t0 = now;
       }
-      if (!reduced) {
-        const ck = EASE_OUT_EXPO(Math.min(1, t / 2000));
-        camera.position.lerpVectors(camStart, camFinal, ck);
-      } else camera.position.copy(camFinal);
-      // pointer sway (parallax)
+      const t = now - t0;
+      let allIn = true;
+      for (const u of units) {
+        if (!reduced) { const k = EASE_OUT_EXPO(Math.min(1, Math.max(0, (t - 200 - u.delay) / 1400))); if (k < 1) allIn = false; u.target = Math.max(0.001, u.base * k); }
+        if (hovered === u) u.target = u.base + (2.2 + Math.sin(now / 420) * .1) * hs; else if (allIn || reduced) u.target = u.base;
+        u.cur = lerp(u.cur, u.target, hovered === u ? .16 : .1);
+        u.mesh.scale.y = u.cur; u.edges.scale.y = u.cur;
+        u.hot = lerp(u.hot, hovered === u ? 1 : 0, .14);
+        u.top.color.copy(u.color0).lerp(HOT, u.hot * .9); u.top.emissiveIntensity = u.hot * .1;
+        (u.edges.material as THREE.LineBasicMaterial).opacity = lerp((u.edges.material as THREE.LineBasicMaterial).opacity, hovered === u ? .95 : .5, .12);
+      }
+      if (!reduced) camera.position.lerpVectors(camStart, camFinal, EASE_OUT_EXPO(Math.min(1, t / 2000)));
+      else camera.position.copy(camFinal);
       sway.lerp(swayT, .05);
-      camera.position.x += sway.x * 5; camera.position.y += -sway.y * 2.5;
-      camera.lookAt(look.x + sway.x * 1.5, look.y, look.z);
-      // hover
+      camera.position.x += sway.x * radius * .1; camera.position.y += -sway.y * radius * .05;
+      camera.lookAt(look.x + sway.x * radius * .03, look.y, look.z);
       if (pointerInside) {
         ray.setFromCamera(ndc, camera);
-        const hit = ray.intersectObjects(districts.map((d) => d.mesh), false)[0];
-        const d = hit ? districts.find((x) => x.mesh === hit.object) ?? null : null;
-        if (d !== hovered) { hovered = d; setHover(d ? d.slug : null); canvas.style.cursor = d ? "pointer" : "default"; }
+        const hit = ray.intersectObjects(units.map((u) => u.mesh), false)[0];
+        const u = hit ? units.find((x) => x.mesh === hit.object) ?? null : null;
+        if (u !== hovered) { hovered = u; setHover(u ? u.f.key : null); canvas.style.cursor = u ? "pointer" : "default"; }
       } else if (hovered) { hovered = null; setHover(null); canvas.style.cursor = "default"; }
-      // halo under hovered district
       const hm = halo.material as THREE.MeshBasicMaterial;
-      if (hovered) { halo.position.set(hovered.cx, .02, hovered.cz); const sz = 24 + Math.sin(now / 600) * 1.2; halo.scale.set(sz, sz, 1); hm.opacity = lerp(hm.opacity, 1, .1); }
+      if (hovered) { halo.position.set(hovered.cx, .03, hovered.cz); const sz = (hovered.f.bbox[2] - hovered.f.bbox[0]) * SCALE * 2.6 + Math.sin(now / 600) * hs; halo.scale.set(sz, sz, 1); hm.opacity = lerp(hm.opacity, 1, .1); }
       else hm.opacity = lerp(hm.opacity, 0, .12);
-      // labels
       const w = canvas.clientWidth, h = canvas.clientHeight;
-      for (const d of districts) {
-        const elb = labelEls.get(d.slug); if (!elb) continue;
-        v3.set(d.cx, d.cur + .4, d.cz).project(camera);
+      for (const u of units) {
+        const elb = labelEls.get(u.f.key); if (!elb) continue;
+        v3.set(u.cx, u.cur + .4 * hs, u.cz).project(camera);
         elb.style.transform = `translate(-50%, -100%) translate(${((v3.x + 1) / 2) * w}px, ${((1 - v3.y) / 2) * h}px)`;
-        elb.style.opacity = String((allIn || reduced ? 1 : Math.min(1, Math.max(0, (t - 1500 - d.delay) / 600))) * (hovered && hovered !== d ? .35 : 1));
-        elb.classList.toggle("is-hot", hovered === d);
+        elb.style.opacity = String((allIn || reduced ? 1 : Math.min(1, Math.max(0, (t - 1400 - u.delay) / 600))) * (hovered && hovered !== u ? .4 : 1));
+        elb.classList.toggle("is-hot", hovered === u);
       }
       renderer.render(scene, camera);
-      if (!ready && t > 50) setReady(true);
+      if (t > 50 && !el.classList.contains("is-ready")) { el.classList.add("is-ready"); setReady(true); }
     };
     raf = requestAnimationFrame(frame);
     return () => {
       running = false; cancelAnimationFrame(raf); ro.disconnect(); io.disconnect();
       canvas.removeEventListener("pointermove", setPointer); canvas.removeEventListener("pointerleave", leave); canvas.removeEventListener("pointerdown", down); canvas.removeEventListener("click", click);
-      districts.forEach((d) => { d.mesh.geometry.dispose(); d.top.dispose(); d.edges.geometry.dispose(); (d.edges.material as THREE.Material).dispose(); });
-      sideMat.dispose(); (halo.material as THREE.MeshBasicMaterial).map?.dispose(); renderer.dispose();
+      disposables.forEach((d) => d.dispose()); (halo.material as THREE.MeshBasicMaterial).map?.dispose(); (table.material as THREE.MeshBasicMaterial).map?.dispose(); renderer.dispose();
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [locale]);
+  }, [sig]);
 
-  const o = hover ? okrugBy[hover] : null;
+  const f = hover ? byKey[hover] : null;
   return (
     <div ref={wrap} className={`m3-stage ${ready ? "is-ready" : ""} ${className ?? ""}`}>
       <svg viewBox={MAP_VIEWBOX} className="m3-poster-svg absolute inset-0 w-full h-full p-8" preserveAspectRatio="xMidYMid meet" aria-hidden>
-        {OKRUG_SHAPES.map((s) => <path key={s.slug} d={s.d} fill="var(--surface-2)" stroke="var(--line-strong)" strokeWidth="1" />)}
+        {context.map((c) => <path key={c.key} d={c.d} fill="var(--surface-2)" stroke="var(--line-strong)" strokeWidth="1" />)}
+        {features.map((s) => <path key={s.key} d={s.d} fill="var(--line)" stroke="var(--line-strong)" strokeWidth="1" />)}
       </svg>
-      <canvas ref={canvasRef} className="absolute inset-0 w-full h-full block" aria-label={labels.serbia} role="img" />
+      <canvas ref={canvasRef} className="absolute inset-0 w-full h-full block" aria-label={labels.stage} role="img" />
       <div ref={labelsRef} className="absolute inset-0 pointer-events-none" aria-hidden />
-      <div className={`m3-tip ${o ? "is-on" : ""}`} aria-live="polite">
-        {o && (<>
-          <div className="eyebrow plain">{labels.okrug} · {labels.seat}: {o.seat_name_lat ?? "—"}</div>
-          <div className="font-serif text-[20px] font-semibold leading-tight mt-1">{o.name_lat}</div>
-          <div className="mt-2 grid grid-cols-2 gap-3 text-[12.5px]">
-            <div><div className="m3-num">{o.org_count.toLocaleString("sr-Latn")}</div><div className="text-muted">{labels.institutions}</div></div>
-            <div><div className="m3-num">{o.jls_count}{o.go_count ? ` + ${o.go_count}` : ""}</div><div className="text-muted">{labels.municipalities}</div></div>
-          </div>
-          <div className="mt-2 text-[12.5px] font-medium">{labels.openOkrug} →</div>
+      <div className={`m3-tip ${f ? "is-on" : ""}`} aria-live="polite">
+        {f && (<>
+          {f.sub && <div className="eyebrow plain">{f.sub}</div>}
+          <div className="font-serif text-[20px] font-semibold leading-tight mt-1">{f.name}</div>
+          <div className="mt-2 grid grid-cols-2 gap-3 text-[12.5px]">{f.stats.map((s) => <div key={s.l}><div className="m3-num">{s.v}</div><div className="text-muted">{s.l}</div></div>)}</div>
+          <div className="mt-2 text-[12.5px] font-medium">{labels.open} →</div>
         </>)}
       </div>
     </div>

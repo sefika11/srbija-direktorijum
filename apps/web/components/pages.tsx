@@ -7,7 +7,11 @@ import { Breadcrumbs, Chip, VerificationChip, SectionTitle, AdSlot, SponsorCard 
 import SearchBox from "./SearchBox";
 import SerbiaMap, { type MapLabels } from "./SerbiaMap";
 import MapStage from "./MapStage";
+import { OKRUG_SHAPES } from "@/lib/serbia-map";
+import { JLS_SHAPES, GO_SHAPES } from "@/lib/serbia-map-jls";
+import type { Feature3D } from "./SerbiaMap3D";
 import HeroFX from "./HeroFX";
+import Opener from "./Opener";
 import { Icon, GROUP_ICON } from "./icons";
 import { LeadForm, CorrectionBlock } from "./forms";
 import { GUIDE } from "@/lib/guide";
@@ -26,7 +30,7 @@ function OrgList({ orgs, locale, dense = false }: { orgs: db.OrgRow[]; locale: L
   return (
     <ul className={`grid gap-2 ${dense ? "sm:grid-cols-2 lg:grid-cols-3" : "sm:grid-cols-2"}`}>
       {orgs.map((o) => (
-        <li key={o.id} className="card card-hover px-3.5 py-2.5">
+        <li key={o.id} className="card card-hover spot px-3.5 py-2.5">
           <Link href={orgHref(locale, o)} className="no-underline text-ink font-medium text-[14px] leading-snug block hover:text-accent">{o.name_lat}</Link>
           <div className="text-[12px] text-muted mt-0.5 truncate">{o.is_private && <span className="inline-block rounded-full bg-surface-2 px-1.5 py-px text-[10.5px] uppercase tracking-wider font-semibold mr-1.5 align-middle">{locale === "sr" ? "privatno" : locale === "en" ? "private" : locale === "ru" ? "частное" : "privat"}</span>}{o.type_name}{o.place_name && o.place_name !== o.founder_name ? ` · ${o.place_name}` : ""}</div>
         </li>
@@ -36,6 +40,12 @@ function OrgList({ orgs, locale, dense = false }: { orgs: db.OrgRow[]; locale: L
 }
 
 // ---------------------------------------------------------------- Home
+const L3D: Record<Locale, { open: string; stage: string; hint: string; hintUnits: string }> = {
+  sr: { open: "Otvori", stage: "Mapa", hint: "Pređite preko okruga. Klik otvara okrug. Visina = broj institucija.", hintUnits: "Pređite preko opštine. Klik je otvara. Visina = broj institucija." },
+  en: { open: "Open", stage: "Map", hint: "Hover a district. Click opens it. Height = number of institutions.", hintUnits: "Hover a municipality. Click opens it. Height = number of institutions." },
+  ru: { open: "Открыть", stage: "Карта", hint: "Наведите на округ. Клик открывает его. Высота = число учреждений.", hintUnits: "Наведите на общину. Клик открывает её. Высота = число учреждений." },
+  de: { open: "Öffnen", stage: "Karte", hint: "Bezirk überfahren. Klick öffnet ihn. Höhe = Zahl der Einrichtungen.", hintUnits: "Gemeinde überfahren. Klick öffnet sie. Höhe = Zahl der Einrichtungen." },
+};
 const MAP_LABELS: Record<Locale, MapLabels> = {
   sr: { institutions: "Institucije", municipalities: "Gradovi i opštine", hint: "Pređite preko okruga za podatke. Klik na okrug prikazuje njegove opštine. Zum: točkić miša ili dva prsta.", hintTouch: "Dodirnite okrug za njegove opštine. Zum: dva prsta.",
         hintZoomed: "Klik na opštinu otvara njene institucije. Prevucite za pomeranje.", zoomIn: "Uvećaj", zoomOut: "Umanji", reset: "Cela Srbija",
@@ -80,6 +90,7 @@ export async function Home({ locale }: { locale: Locale }) {
   const LANGS: { l: Locale; name: string; sub: string }[] = [{ l: "sr", name: "Srpski", sub: "latinica" }, { l: "en", name: "English", sub: "for residents and visitors" }, { l: "ru", name: "Русский", sub: "для жителей и гостей" }, { l: "de", name: "Deutsch", sub: "für Bewohner und Gäste" }];
   return (
     <main>
+      <Opener words={d.siteName.split(" ")} eyebrow={`Republika Srbija · ${new Date().getFullYear()}`} count={stats.orgs} countLabel={d.institutions} />
       <HeroFX />
       {/* Opening */}
       <section className="hero-open border-b border-line">
@@ -100,9 +111,12 @@ export async function Home({ locale }: { locale: Locale }) {
             </div>
           </div>
           <div data-reveal style={{ "--d": "120ms" } as React.CSSProperties}>
-            <MapStage okruzi={okruzi.map((o) => ({ slug: o.slug, name_lat: o.name_lat, seat_name_lat: o.seat_name_lat, jls_count: o.jls_count, go_count: o.go_count, org_count: o.org_count }))}
-                      jls={allJls.map((j) => ({ slug: j.slug, name_lat: j.name_lat, okrug_slug: j.okrug_slug, org_count: j.org_count, jls_kind: j.jls_kind, level: j.level, parent_slug: j.parent_slug }))}
-                      locale={locale} labels={mapLabels} />
+            <MapStage locale={locale} labels={L3D[locale]} hint={L3D[locale].hint}
+                      features={OKRUG_SHAPES.flatMap((s) => { const o = okruzi.find((x) => x.slug === s.slug); return o ? [{ key: s.slug, d: s.d, cx: s.cx, cy: s.cy, bbox: s.bbox, name: o.name_lat, sub: o.seat_name_lat ?? undefined, label: o.seat_name_lat ?? o.name_lat, count: o.org_count, href: href(locale, `/okrug/${o.slug}`),
+                        stats: [{ v: o.org_count.toLocaleString("sr-Latn"), l: d.institutions }, { v: `${o.jls_count}${o.go_count ? ` + ${o.go_count}` : ""}`, l: d.municipalities }] } satisfies Feature3D] : []; })}
+                      fallback={<SerbiaMap okruzi={okruzi.map((o) => ({ slug: o.slug, name_lat: o.name_lat, seat_name_lat: o.seat_name_lat, jls_count: o.jls_count, go_count: o.go_count, org_count: o.org_count }))}
+                                           jls={allJls.map((j) => ({ slug: j.slug, name_lat: j.name_lat, okrug_slug: j.okrug_slug, org_count: j.org_count, jls_kind: j.jls_kind, level: j.level, parent_slug: j.parent_slug }))}
+                                           locale={locale} labels={mapLabels} variant="light" height="hero" />} />
           </div>
         </div>
       </section>
@@ -182,17 +196,24 @@ export async function OkrugHub({ locale, okrug }: { locale: Locale; okrug: db.TU
   const jls = await db.getJlsInOkrug(okrug.id);
   return (
     <main>
-      <section className="hero-light border-b border-line"><div className="shell py-8 sm:py-10">
-        <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, { label: okrug.name_lat }]} />
-        <div className="eyebrow mt-4">{d.okrug}</div>
-        <h1 className="font-serif text-[30px] sm:text-[38px] font-semibold leading-tight">{okrug.official_name_lat ?? okrug.name_lat}</h1>
-        <p className="text-muted mt-2 tabular">{okrug.seat_name_lat ? `${d.seat}: ${okrug.seat_name_lat} · ` : ""}{jls.length} {d.municipalities} · {jls.reduce((n, j) => n + j.org_count, 0).toLocaleString("sr-Latn")} {d.institutions}</p>
+      <HeroFX />
+      <section className="hero-light border-b border-line"><div className="shell py-8 sm:py-10 grid gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.1fr)] lg:items-center">
+        <div>
+          <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, { label: okrug.name_lat }]} />
+          <div className="eyebrow mt-4">{d.okrug}</div>
+          <h1 className="display-sm text-[34px] sm:text-[44px]">{okrug.official_name_lat ?? okrug.name_lat}</h1>
+          <p className="text-muted mt-3 tabular lede">{okrug.seat_name_lat ? `${d.seat}: ${okrug.seat_name_lat} · ` : ""}{jls.length} {d.municipalities} · {jls.reduce((n, j) => n + j.org_count, 0).toLocaleString("sr-Latn")} {d.institutions}</p>
+        </div>
+        <MapStage locale={locale} labels={L3D[locale]} hint={L3D[locale].hintUnits} cls="is-hub"
+                  features={JLS_SHAPES.filter((s) => s.okrug === okrug.slug).flatMap((s) => { const j = jls.find((x) => x.slug === s.slug); return j ? [{ key: s.slug, d: s.d, cx: s.cx, cy: s.cy, bbox: s.bbox, name: j.name_lat, sub: j.jls_kind === "grad" ? d.city : d.municipality, count: j.org_count, href: href(locale, `/${j.slug}`), stats: [{ v: j.org_count.toLocaleString("sr-Latn"), l: d.institutions }] } satisfies Feature3D] : []; })}
+                  context={OKRUG_SHAPES.filter((s) => s.slug !== okrug.slug).map((s) => ({ key: s.slug, d: s.d }))}
+                  fit={OKRUG_SHAPES.find((s) => s.slug === okrug.slug)?.bbox} />
       </div></section>
       <div className="shell py-6">
       <AdSlot code="jls_top_leaderboard" w={728} h={90} mobileH={100} label={d.ad} />
       <ul className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-2">
         {jls.map((j) => (
-          <li key={j.id} className="card card-hover p-5">
+          <li key={j.id} className="card card-hover spot p-5">
             <div className="eyebrow">{j.jls_kind === "grad" ? d.city : d.municipality}{j.okrug_seat ? ` · ${d.seat.toLowerCase()} okruga` : ""}</div>
             <Link href={href(locale, `/${j.slug}`)} className="font-serif text-[20px] font-semibold no-underline text-ink hover:text-accent">{j.name_lat}</Link>
             <div className="text-[13px] text-muted mt-1.5 tabular">{j.org_count} {d.institutions}</div>
@@ -214,11 +235,27 @@ export async function UnitHub({ locale, unit, parent }: { locale: Locale; unit: 
   const path = unit.level === "gradska_opstina" && parent ? `/${parent.slug}/${unit.slug}` : `/${unit.slug}`;
   return (
     <main>
-      <section className="hero-light border-b border-line"><div className="shell py-8 sm:py-10">
+      <HeroFX />
+      <section className="hero-light border-b border-line"><div className="shell py-8 sm:py-10 grid gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] lg:items-center">
+      <div>
       <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, ...(okrug ? [{ href: href(locale, `/okrug/${okrug.slug}`), label: okrug.name_lat }] : []), ...(parent ? [{ href: href(locale, `/${parent.slug}`), label: parent.name_lat }] : []), { label: unit.name_lat }]} />
       <div className="eyebrow mt-4">{unit.level === "gradska_opstina" ? d.gradskaOpstina : unit.jls_kind === "grad" ? d.city : d.municipality}{okrug && unit.level === "jls" ? ` · ${okrug.name_lat}` : ""}</div>
-      <h1 className="font-serif text-[30px] sm:text-[38px] font-semibold leading-tight">{tuLabel(unit)}</h1>
-      <p className="text-muted mt-2 tabular">{orgs.length.toLocaleString("sr-Latn")} {d.institutions}{unit.website ? <> · <a href={unit.website} rel="noopener">{d.website} ↗</a></> : null}</p>
+      <h1 className="display-sm text-[34px] sm:text-[44px]">{tuLabel(unit)}</h1>
+      <p className="text-muted mt-3 tabular lede">{orgs.length.toLocaleString("sr-Latn")} {d.institutions}{unit.website ? <> · <a href={unit.website} rel="noopener">{d.website} ↗</a></> : null}</p>
+      </div>
+      {(() => {
+        const citySlug = unit.level === "gradska_opstina" && parent ? parent.slug : unit.slug;
+        const unitShape = JLS_SHAPES.find((s) => s.slug === citySlug);
+        if (!unitShape) return null;
+        const goShapes = GO_SHAPES.filter((g) => g.parent === citySlug);
+        const goBy = Object.fromEntries(gos.map((g) => [g.slug, g]));
+        const feats: Feature3D[] = goShapes.length && gos.length
+          ? goShapes.flatMap((g) => { const row = goBy[g.slug]; return row ? [{ key: `${citySlug}/${g.slug}`, d: g.d, cx: g.cx, cy: g.cy, bbox: g.bbox, name: row.name_lat, sub: d.gradskaOpstina, count: row.org_count, href: href(locale, `/${citySlug}/${g.slug}`), stats: [{ v: row.org_count.toLocaleString("sr-Latn"), l: d.institutions }] }] : []; })
+          : [{ key: unitShape.slug, d: unitShape.d, cx: unitShape.cx, cy: unitShape.cy, bbox: unitShape.bbox, name: unit.level === "gradska_opstina" && parent ? parent.name_lat : unit.name_lat, sub: unit.jls_kind === "grad" ? d.city : d.municipality, count: orgs.length, href: href(locale, `/${citySlug}`), stats: [{ v: orgs.length.toLocaleString("sr-Latn"), l: d.institutions }] }];
+        const ctx = JLS_SHAPES.filter((s) => s.okrug === unitShape.okrug && s.slug !== citySlug).map((s) => ({ key: s.slug, d: s.d }));
+        const b = unitShape.bbox; const padx = (b[2] - b[0]) * .35, pady = (b[3] - b[1]) * .35;
+        return <MapStage locale={locale} labels={L3D[locale]} cls="is-hub" features={feats} context={ctx} fit={[b[0] - padx, b[1] - pady, b[2] + padx, b[3] + pady]} />;
+      })()}
       </div></section>
       <div className="shell py-6">
       <AdSlot code="jls_top_leaderboard" w={728} h={90} mobileH={100} label={d.ad} />
