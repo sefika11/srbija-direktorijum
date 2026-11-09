@@ -50,14 +50,13 @@ Optional today: Plausible or Umami for analytics (cookieless, no banner needed).
   official tariff. Lead verticals attached per guide (doc 05 §2).
 - Result: the first "how do I…" pages are live and personalised per municipality.
 
-## Day 4, Thursday: the assistant and Search Console
+## Day 4, Thursday: question-aware search and Search Console
 
-- `/api/asistent`: streaming route on `claude-haiku-5-5` with read-only tools over `lib/db.ts`
-  (search, locations-for-type-in-municipality, guide, municipality lookup); answers only from tool output,
-  cites directory pages as cards, replies in the user's language. Personal `ANTHROPIC_API_KEY` in Vercel.
-- Chat UI: a bar on every page ("Pitajte adresar…"), collapsed on mobile; question log without PII as the
-  editorial backlog; rate limit by IP; 24 h answer cache.
-- Register the domain's Search Console property, submit per-type sitemaps (split the 9,900-URL sitemap),
+- No LLM assistant (decision 2026-11-09: uncapped per-visitor API spend). Instead: search that understands
+  "pasoš Kragujevac": place detection with Serbian case endings, intent matching on guides and institution
+  types, a best-answer card with the serving office, grouped results, and instant suggestions as you type.
+- Zero-result query log as the editorial backlog; synonyms table maintained by hand.
+- Register the domain's Search Console property, submit per-section sitemaps (split the 9,900-URL sitemap),
   add analytics (Plausible/Umami), apply for AdSense once the guides are indexed.
 - Result: typing a question lands the reader on the right page; the site is measurable.
 

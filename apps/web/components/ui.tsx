@@ -16,7 +16,7 @@ export function Breadcrumbs({ items }: { items: { href?: string; label: string }
 }
 
 export function Chip({ children, tone = "neutral" }: { children: React.ReactNode; tone?: "neutral" | "moss" | "brick" | "accent" }) {
-  const cls = { neutral: "bg-surface-2 text-muted", moss: "bg-moss-soft text-moss", brick: "bg-brick-soft text-brick", accent: "bg-accent-soft text-accent-ink" }[tone];
+  const cls = { neutral: "bg-surface-2 text-muted", moss: "bg-gold-soft text-gold", brick: "bg-brick-soft text-brick", accent: "bg-accent-soft text-accent-ink" }[tone];
   return <span className={`inline-block rounded-full px-2.5 py-0.5 text-[12px] font-medium ${cls}`}>{children}</span>;
 }
 
@@ -78,7 +78,7 @@ export function LanguageSwitch({ locale, path }: { locale: Locale; path: string 
     <div className="flex items-center gap-1 text-[12.5px]">
       {LOCALES.map((l) => (
         <Link key={l} href={href(l, path)} hrefLang={l} aria-current={l === locale ? "true" : undefined}
-              className={`px-2 py-1 rounded-md no-underline ${l === locale ? "bg-ink text-bg" : "text-muted hover:text-ink hover:bg-surface-2"}`}>
+              className={`px-2 py-1 rounded-md no-underline ${l === locale ? "lang-active" : "text-muted hover:text-ink hover:bg-surface-2"}`}>
           {LOCALE_LABEL[l]}
         </Link>
       ))}

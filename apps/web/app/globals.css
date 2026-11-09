@@ -7,40 +7,47 @@
           IBM Plex Sans for everything else, Plex Mono for codes (JBKJS, PIB).
    Layout: 1120px shell, two columns on desktop (main 1fr + 300px rail), one column under 1024px. */
 :root {
-  --bg: #f3f5f7;
+  /* Serbian tricolour, institutional register: flag red for marks and emphasis, flag blue for every action,
+     warm paper for backgrounds, gold (from the coat of arms) only for verified marks. */
+  --bg: #f6f4ef;
   --surface: #ffffff;
-  --surface-2: #e9edf1;
-  --ink: #15202b;
-  --muted: #5d6b78;
-  --line: #d6dde4;
-  --accent: #0f5c8c;
-  --accent-ink: #0a4469;
-  --accent-soft: #e3eef6;
-  --brick: #a2441a;
-  --brick-soft: #f6e9e1;
+  --surface-2: #edebe4;
+  --ink: #121a2b;
+  --muted: #5a6473;
+  --line: #d8d4cb;
+  --accent: #0c4076;
+  --accent-ink: #082e57;
+  --accent-soft: #e8eef6;
+  --red: #c6363c;
+  --red-soft: #fbeaea;
+  --gold: #a8862a;
+  --gold-soft: #f6efd9;
+  --brick: #c6363c;
+  --brick-soft: #fbeaea;
   --moss: #1f6f4a;
   --moss-soft: #e2f1e8;
   --ad: #6b7a8a;
-  --ad-soft: #eef1f4;
+  --ad-soft: #efede7;
   --font-plex-sans: "IBM Plex Sans";
-  --font-plex-serif: "IBM Plex Serif";
+  --font-literata: "Literata Variable";
   --font-plex-mono: "IBM Plex Mono";
   --font-sans: var(--font-plex-sans), system-ui, -apple-system, "Segoe UI", sans-serif;
-  --font-serif: var(--font-plex-serif), Georgia, "Times New Roman", serif;
+  --font-serif: var(--font-literata), "IBM Plex Serif", Georgia, "Times New Roman", serif;
   --font-mono: var(--font-plex-mono), ui-monospace, SFMono-Regular, Menlo, monospace;
+  --radius: 6px;
   color-scheme: light;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #111519; --surface: #1a2027; --surface-2: #222a33; --ink: #e8edf2; --muted: #9aa7b4; --line: #2e3842;
-    --accent: #6fb3e0; --accent-ink: #9ccdf0; --accent-soft: #1b2e3d; --brick: #e39a74; --brick-soft: #3a2619;
-    --moss: #7cc9a0; --moss-soft: #1b3327; --ad: #8e9cab; --ad-soft: #1f262e; color-scheme: dark;
+    --bg: #0f1420; --surface: #161d2b; --surface-2: #1f2838; --ink: #eceff4; --muted: #9ba6b6; --line: #2b3546;
+    --accent: #7fb0e8; --accent-ink: #a9cdf4; --accent-soft: #1a2a40; --red: #e26b70; --red-soft: #3a1f22; --gold: #d2b15a; --gold-soft: #332b17;
+    --brick: #e26b70; --brick-soft: #3a1f22; --moss: #7cc9a0; --moss-soft: #1b3327; --ad: #8e9cab; --ad-soft: #1f2632; color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
-  --bg: #111519; --surface: #1a2027; --surface-2: #222a33; --ink: #e8edf2; --muted: #9aa7b4; --line: #2e3842;
-  --accent: #6fb3e0; --accent-ink: #9ccdf0; --accent-soft: #1b2e3d; --brick: #e39a74; --brick-soft: #3a2619;
-  --moss: #7cc9a0; --moss-soft: #1b3327; --ad: #8e9cab; --ad-soft: #1f262e; color-scheme: dark;
+  --bg: #0f1420; --surface: #161d2b; --surface-2: #1f2838; --ink: #eceff4; --muted: #9ba6b6; --line: #2b3546;
+  --accent: #7fb0e8; --accent-ink: #a9cdf4; --accent-soft: #1a2a40; --red: #e26b70; --red-soft: #3a1f22; --gold: #d2b15a; --gold-soft: #332b17;
+  --brick: #e26b70; --brick-soft: #3a1f22; --moss: #7cc9a0; --moss-soft: #1b3327; --ad: #8e9cab; --ad-soft: #1f2632; color-scheme: dark;
 }
 
 @theme inline {
@@ -59,6 +66,10 @@
   --color-moss-soft: var(--moss-soft);
   --color-ad: var(--ad);
   --color-ad-soft: var(--ad-soft);
+  --color-red: var(--red);
+  --color-red-soft: var(--red-soft);
+  --color-gold: var(--gold);
+  --color-gold-soft: var(--gold-soft);
   --font-sans: var(--font-sans);
   --font-serif: var(--font-serif);
   --font-mono: var(--font-mono);
@@ -67,6 +78,8 @@
 html { background: var(--bg); }
 body { background: var(--bg); color: var(--ink); font-family: var(--font-sans); font-size: 15px; line-height: 1.5; }
 h1, h2, h3 { text-wrap: balance; }
+h1, h2, .font-serif { font-variation-settings: "opsz" 36; letter-spacing: -0.012em; }
+h3 { letter-spacing: -0.005em; }
 /* Base link colour lives in the base layer so Tailwind colour utilities (text-white, text-ink...) can override it. */
 @layer base {
   a { color: var(--accent); text-underline-offset: 3px; }
@@ -75,8 +88,10 @@ h1, h2, h3 { text-wrap: balance; }
 :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
 .shell { max-width: 1120px; margin-inline: auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
 .tabular { font-variant-numeric: tabular-nums; }
-.card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; }
-.eyebrow { font-size: 11.5px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
+.eyebrow { font-size: 11.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); font-weight: 600; display: flex; align-items: center; gap: .5rem; }
+.eyebrow::before { content: ""; width: 14px; height: 3px; background: var(--red); border-radius: 1px; flex: none; }
+.eyebrow.plain::before, .map-chip .eyebrow::before { display: none; }
 .prose p { margin-block: .6em; }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
 
@@ -101,3 +116,38 @@ h1, h2, h3 { text-wrap: balance; }
 .icon-badge { display: inline-grid; place-items: center; width: 38px; height: 38px; border-radius: 10px; background: var(--accent-soft); color: var(--accent-ink); }
 .foreigners-band { background: linear-gradient(135deg, var(--accent-ink) 0%, var(--accent) 100%); color: #fff; box-shadow: 0 20px 50px -30px rgb(10 68 105 / .6); }
 .card { box-shadow: 0 1px 2px rgb(21 32 43 / .03); border-radius: 12px; }
+
+/* Tricolour identity */
+.tricolor { height: 4px; background: linear-gradient(90deg, var(--red) 0 33.33%, var(--accent) 33.33% 66.66%, #fff 66.66% 100%); border-bottom: 1px solid var(--line); }
+.tricolor-thin { height: 3px; background: linear-gradient(90deg, var(--red) 0 33.33%, var(--accent) 33.33% 66.66%, #fff 66.66% 100%); }
+.brand-mark { display: inline-grid; place-items: center; width: 36px; height: 36px; border-radius: var(--radius); background: var(--accent); color: #fff; font-family: var(--font-serif); font-weight: 600; font-size: 19px; box-shadow: none; position: relative; overflow: hidden; }
+.brand-mark::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 4px; background: linear-gradient(90deg, var(--red) 0 50%, #fff 50% 100%); }
+.hero { background: linear-gradient(180deg, var(--surface) 0%, var(--bg) 100%); }
+.stat-row { display: grid; grid-template-columns: repeat(3, 1fr); border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); overflow: hidden; }
+.stat-row > div { padding: 18px 20px; border-left: 1px solid var(--line); }
+.stat-row > div:first-child { border-left: 0; }
+.stat-row .num { font-family: var(--font-serif); font-weight: 600; font-size: 30px; line-height: 1; color: var(--accent); font-variant-numeric: tabular-nums; }
+.stat-tile { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px 18px; box-shadow: none; }
+.quick-chip { border-radius: var(--radius); }
+.quick-chip:hover { border-color: var(--accent); color: var(--accent-ink); background: var(--accent-soft); }
+.card-hover:hover { transform: none; box-shadow: none; border-color: var(--accent); }
+.icon-badge { border-radius: var(--radius); background: var(--accent-soft); color: var(--accent); }
+.btn-primary { border-radius: var(--radius); background: var(--accent); }
+.btn-primary:hover { background: var(--accent-ink); }
+.map-btn, .map-chip { border-radius: var(--radius); }
+.map-stage { border-radius: var(--radius); background: radial-gradient(120% 90% at 20% 0%, var(--accent-soft) 0%, var(--surface) 55%, var(--bg) 100%); box-shadow: none; }
+.foreigners-band { background: var(--accent-ink); color: #fff; box-shadow: none; border-radius: var(--radius); position: relative; overflow: hidden; }
+.foreigners-band::before { content: ""; position: absolute; left: 0; right: 0; top: 0; height: 4px; background: linear-gradient(90deg, var(--red) 0 33.33%, #fff 33.33% 66.66%, transparent 66.66% 100%); }
+.site-footer { background: var(--accent-ink); color: #cfdcec; }
+.site-footer a { color: #fff; }
+.site-footer a:hover { color: #fff; text-decoration: underline; }
+.site-footer .eyebrow { color: #9db6d4; }
+.site-footer .eyebrow::before { background: var(--red); }
+.rounded-2xl, .rounded-xl, .rounded-lg { border-radius: var(--radius) !important; }
+.rounded-full { border-radius: 999px !important; }
+.shadow-sm, .shadow-lg { box-shadow: 0 1px 0 rgb(18 26 43 / .04) !important; }
+.search-large input { font-family: var(--font-sans); }
+.search-large > div > div, .search-large button, .rounded-l-xl, .rounded-r-xl { border-radius: var(--radius) !important; }
+.search-large > div > div { border-top-right-radius: 0 !important; border-bottom-right-radius: 0 !important; }
+.search-large button { border-top-left-radius: 0 !important; border-bottom-left-radius: 0 !important; }
+.lang-active { background: var(--accent) !important; color: #fff !important; }

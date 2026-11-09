@@ -72,7 +72,7 @@ export async function GuidesHub({ locale }: { locale: Locale }) {
                 <li key={g.id} className="card card-hover p-5 flex flex-col">
                   <Link href={href(locale, `/vodic/${g.slug}`)} className="font-serif text-[19px] font-semibold leading-snug no-underline text-ink hover:text-accent">{gc.title ?? g.name_lat}</Link>
                   <p className="text-muted text-[13.5px] mt-2 flex-1">{gc.summary ?? g.summary}</p>
-                  <div className="mt-3 flex items-center gap-2 text-[12px] text-muted">{g.status === "full" ? <span className="rounded-full bg-moss-soft text-moss px-2 py-0.5 font-medium">✓ {L.checked}{g.checked_at ? ` ${g.checked_at}` : ""}</span> : <span className="rounded-full bg-surface-2 px-2 py-0.5">{L.inPreparation}</span>}{g.online_available && <span className="rounded-full bg-accent-soft text-accent-ink px-2 py-0.5">eUprava</span>}</div>
+                  <div className="mt-3 flex items-center gap-2 text-[12px] text-muted">{g.status === "full" ? <span className="rounded-full bg-gold-soft text-gold px-2 py-0.5 font-medium">✓ {L.checked}{g.checked_at ? ` ${g.checked_at}` : ""}</span> : <span className="rounded-full bg-surface-2 px-2 py-0.5">{L.inPreparation}</span>}{g.online_available && <span className="rounded-full bg-accent-soft text-accent-ink px-2 py-0.5">eUprava</span>}</div>
                 </li>); })}
             </ul>
           </div>
@@ -111,7 +111,7 @@ export async function GuidePage({ locale, guide, jlsSlug, path }: { locale: Loca
             <h1 className="font-serif text-[30px] sm:text-[40px] font-semibold leading-[1.1] mt-1">{title}</h1>
             {(c.summary ?? guide.summary) && <p className="text-muted mt-3 text-[16px] max-w-2xl">{c.summary ?? guide.summary}</p>}
             <div className="mt-4 flex flex-wrap gap-2 text-[12.5px]">
-              {guide.status === "full" && guide.checked_at && <span className="rounded-full bg-moss-soft text-moss px-2.5 py-1 font-medium">✓ {L.checked} {guide.checked_at}</span>}
+              {guide.status === "full" && guide.checked_at && <span className="rounded-full bg-gold-soft text-gold px-2.5 py-1 font-medium">✓ {L.checked} {guide.checked_at}</span>}
               {guide.typical_duration && <span className="rounded-full bg-surface-2 px-2.5 py-1"><Icon.clock /> {guide.typical_duration}</span>}
               {guide.euprava_url && <a href={guide.euprava_url} rel="noopener" target="_blank" className="rounded-full bg-accent-soft text-accent-ink px-2.5 py-1 no-underline">{L.euprava} ↗</a>}
               {lang !== locale && <span className="rounded-full bg-surface-2 px-2.5 py-1 text-muted">{lang.toUpperCase()}</span>}

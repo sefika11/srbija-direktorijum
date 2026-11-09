@@ -3,7 +3,7 @@ import type { Locale } from "@/lib/i18n";
 import { t, href } from "@/lib/i18n";
 import * as db from "@/lib/db";
 import { Breadcrumbs, Chip, VerificationChip, SectionTitle, AdSlot, SponsorCard } from "./ui";
-import { SearchBox } from "./chrome";
+import SearchBox from "./SearchBox";
 import SerbiaMap, { type MapLabels } from "./SerbiaMap";
 import { Icon, GROUP_ICON } from "./icons";
 import { LeadForm, CorrectionBlock } from "./forms";
@@ -72,17 +72,17 @@ export async function Home({ locale }: { locale: Locale }) {
       <section className="hero border-b border-line">
         <div className="shell py-12 sm:py-16 grid gap-10 lg:grid-cols-[minmax(0,1.5fr)_minmax(0,1fr)] items-center">
           <div>
-            <div className="eyebrow text-accent-ink mb-3">Republika Srbija · {d.siteName}</div>
+            <div className="eyebrow mb-4">Republika Srbija · {d.siteName}</div>
             <h1 className="font-serif text-[32px] sm:text-[44px] font-semibold leading-[1.08] max-w-2xl">{d.tagline}</h1>
-            <div className="mt-7"><SearchBox locale={locale} large /></div>
+            <div className="mt-7"><SearchBox locale={locale} large placeholder={d.searchPlaceholder} submitLabel={d.search} /></div>
             <div className="mt-4 flex flex-wrap items-center gap-2 text-[13px]">
               <span className="text-muted mr-1">{popular}:</span>
               {QUICK[locale].map((x) => <Link key={x.q} href={href(locale, x.q)} className="quick-chip">{x.label}</Link>)}
             </div>
           </div>
-          <div className="grid grid-cols-3 lg:grid-cols-1 gap-3">
+          <div className="stat-row">
             {[{ n: stats.orgs, l: d.institutions }, { n: stats.jls, l: d.municipalities }, { n: stats.types, l: typesLabel }].map((x) => (
-              <div key={x.l} className="stat-tile"><div className="tabular font-serif font-semibold text-[26px] sm:text-[32px] leading-none">{x.n.toLocaleString("sr-Latn")}</div><div className="text-muted text-[12.5px] sm:text-[13px] mt-1.5">{x.l}</div></div>
+              <div key={x.l}><div className="num">{x.n.toLocaleString("sr-Latn")}</div><div className="text-muted text-[12.5px] sm:text-[13px] mt-2 uppercase tracking-[.06em]">{x.l}</div></div>
             ))}
           </div>
         </div>
@@ -114,7 +114,7 @@ export async function Home({ locale }: { locale: Locale }) {
                 <div className="eyebrow">{g.category_name}</div>
                 <Link href={href(locale, `/vodic/${g.slug}`)} className="font-serif text-[19px] font-semibold leading-snug no-underline text-ink hover:text-accent mt-1">{c.title ?? g.name_lat}</Link>
                 <p className="text-muted text-[13.5px] mt-2 flex-1">{c.summary ?? g.summary}</p>
-                {g.status === "full" && <div className="mt-3 text-[12px]"><span className="rounded-full bg-moss-soft text-moss px-2 py-0.5 font-medium">✓ {locale === "sr" ? "Provereno" : locale === "en" ? "Verified" : locale === "ru" ? "Проверено" : "Geprüft"} {g.checked_at}</span></div>}
+                {g.status === "full" && <div className="mt-3 text-[12px]"><span className="rounded-full bg-gold-soft text-gold px-2 py-0.5 font-medium">✓ {locale === "sr" ? "Provereno" : locale === "en" ? "Verified" : locale === "ru" ? "Проверено" : "Geprüft"} {g.checked_at}</span></div>}
               </li>); })}
           </ul>
         </div></section>
@@ -148,7 +148,7 @@ export async function Home({ locale }: { locale: Locale }) {
       <section className="shell py-12">
         <div className="foreigners-band rounded-2xl p-7 sm:p-9 grid lg:grid-cols-[1fr_auto] gap-6 items-center">
           <div>
-            <div className="eyebrow !text-white/70">{d.forForeigners} · English · Русский · Deutsch</div>
+            <div className="eyebrow plain !text-white/70">{d.forForeigners} · English · Русский · Deutsch</div>
             <h2 className="font-serif text-[24px] sm:text-[28px] font-semibold mt-2 text-white max-w-2xl">{d.forForeignersLead}</h2>
           </div>
           <Link href={href(locale, "/za-strance")} className="inline-flex items-center gap-2 rounded-xl bg-white text-accent-ink px-5 py-3 no-underline font-medium text-[14px] justify-self-start hover:bg-accent-soft">{d.forForeigners} <Icon.arrow /></Link>
@@ -435,7 +435,7 @@ export async function SearchPage({ locale, q }: { locale: Locale; q: string }) {
       <section className="hero border-b border-line"><div className="shell py-8 sm:py-10">
         <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, { label: d.search }]} />
         <h1 className="font-serif text-[26px] sm:text-[32px] font-semibold mt-4">{q ? <>{d.results} „{q}“</> : d.search}</h1>
-        <div className="mt-4"><SearchBox locale={locale} defaultValue={q} large /></div>
+        <div className="mt-4"><SearchBox locale={locale} defaultValue={q} large placeholder={d.searchPlaceholder} submitLabel={d.search} /></div>
       </div></section>
       <div className="shell py-8">
       {hits.length === 0 ? <p className="text-muted">{q ? d.noResults : ""}</p> : (
@@ -465,7 +465,7 @@ export async function ForForeigners({ locale }: { locale: Locale }) {
     <main>
       <section className="foreigners-band border-b border-line"><div className="shell py-10 sm:py-14">
         <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, { label: d.forForeigners }]} />
-        <div className="eyebrow !text-white/70 mt-4">{d.forForeigners} · English · Русский · Deutsch</div>
+        <div className="eyebrow plain !text-white/70 mt-4">{d.forForeigners} · English · Русский · Deutsch</div>
         <h1 className="font-serif text-[30px] sm:text-[40px] font-semibold mt-1 max-w-3xl text-white leading-[1.1]">{g.title}</h1>
         <p className="mt-3 max-w-3xl text-[16px] text-white/85">{g.lead}</p>
         {newcomer.length > 0 && <div className="mt-6 flex flex-wrap gap-2">{newcomer.map((x) => { const c = x.guide[locale] ?? x.guide.en ?? x.guide.sr ?? {}; return <Link key={x.id} href={href(locale, `/vodic/${x.slug}`)} className="inline-flex items-center rounded-full bg-white/12 hover:bg-white/22 border border-white/25 text-white px-3.5 py-1.5 text-[13.5px] no-underline">{c.title ?? x.name_lat} →</Link>; })}</div>}

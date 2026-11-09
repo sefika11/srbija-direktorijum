@@ -44,7 +44,26 @@ Rules carried over from doc 02, applied to guides:
 - Sponsorship is sold per guide × okrug (`sponsorships.specificity`), so a Niš driving school sponsors the
   driving-licence guide for Nišavski okrug only.
 
-## 3. The assistant ("Pitajte adresar")
+## 3. The assistant ("Pitajte adresar") — DROPPED 2026-11-09
+
+> Decision (Nick, Day 4): no LLM-backed chat on the public site. Every visitor question would spend
+> API credits with no cap on abuse, and the value is reproducible without a model. Replaced by
+> **question-aware search** (§3a). The design below is kept for reference only.
+
+### 3a. Question-aware search (replacement, zero per-use cost)
+
+- One search box everywhere; as you type, instant suggestions from the database (guides, institution
+  types, places, institutions), keyboard-navigable, debounced, cached per prefix at the edge.
+- The results page parses the query: a **place** (any municipality/city/district name, with Serbian case
+  endings) and an **intent** (guide titles and synonyms: "pasoš", "lična", "vozačka", "knjižica",
+  "katastar", institution type names). If both match, the page opens with a *best answer* card: the guide
+  with its "Where to go" block already personalised to that municipality (the serving office, phone, hours).
+- Results are grouped: Vodiči · Vrste institucija · Mesta · Institucije; each group links to its hub.
+- Synonyms live in a small table (`search_synonyms`: term → target kind/slug) maintained by hand from the
+  search log; the log of zero-result queries is the editorial backlog, exactly as the assistant's would have been.
+- Cost: Postgres only (pg_trgm + tsvector already in place). No API keys, no rate-limit worries.
+
+
 
 A chat box on every page: *"Gde vadim pasoš u Kragujevcu?"*, *"How do I register my address as a foreigner
 in Novi Sad?"*. It is a **retrieval agent over our own data**, not an open chatbot:

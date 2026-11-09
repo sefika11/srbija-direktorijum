@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { Header, Footer } from "@/components/chrome";
 import { Home, OkrugHub, UnitHub, OrgTypeHub, OrgPage, SearchPage, ForForeigners, StaticPage, tuLabel } from "@/components/pages";
 import { GuidesHub, GuidePage, GUIDE_LABELS, content as guideContent } from "@/components/guides";
+import { SmartSearchPage } from "@/components/search";
 import { cookies } from "next/headers";
 import * as db from "@/lib/db";
 import { LOCALES, HREFLANG, href, splitLocale, t, type Locale } from "@/lib/i18n";
@@ -78,7 +79,7 @@ export default async function Page({ params, searchParams }: Props) {
   let body: React.ReactNode;
   switch (r.kind) {
     case "home": body = <Home locale={locale} />; break;
-    case "search": body = <SearchPage locale={locale} q={typeof sp.q === "string" ? sp.q : ""} />; break;
+    case "search": body = <SmartSearchPage locale={locale} q={typeof sp.q === "string" ? sp.q : ""} />; break;
     case "foreigners": body = <ForForeigners locale={locale} />; break;
     case "static": body = <StaticPage locale={locale} slug={r.slug} />; break;
     case "guides": body = <GuidesHub locale={locale} />; break;
