@@ -266,3 +266,6 @@ html.js [data-reveal].in { opacity: 1; transform: none; }
 .hero-dark .prose { color: rgb(255 255 255 / .85); }
 .hero-dark h1 { font-family: var(--font-serif); letter-spacing: -0.025em; }
 .hero-dark .border-line { border-color: var(--glass-line) !important; }
+
+.hero-dark .card a.btn-primary, .hero-dark a.btn-primary { color: var(--navy-2); }
+.hero-dark .card a.btn-primary:hover { color: var(--navy-2); }

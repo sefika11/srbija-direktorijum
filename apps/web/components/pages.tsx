@@ -36,21 +36,21 @@ function OrgList({ orgs, locale, dense = false }: { orgs: db.OrgRow[]; locale: L
 const MAP_LABELS: Record<Locale, MapLabels> = {
   sr: { institutions: "Institucije", municipalities: "Gradovi i opštine", hint: "Pređite preko okruga za podatke. Klik na okrug uvećava mapu i prikazuje opštine; točkić miša ili dva prsta za zum.",
         hintZoomed: "Klik na opštinu otvara njene institucije. Prevucite za pomeranje, točkić ili dva prsta za zum.", zoomIn: "Uvećaj", zoomOut: "Umanji", reset: "Cela Srbija",
-        back: "Cela Srbija", openOkrug: "Otvori okrug", openUnit: "Otvori", city: "Grad", municipality: "Opština", serbia: "Srbija", okrug: "Okrug", seat: "Sedište" },
+        back: "Cela Srbija", openOkrug: "Otvori okrug", cityDistricts: "Gradske opštine", cityDistrict: "Gradska opština", openUnit: "Otvori", city: "Grad", municipality: "Opština", serbia: "Srbija", okrug: "Okrug", seat: "Sedište" },
   en: { institutions: "Institutions", municipalities: "Cities and municipalities", hint: "Hover a district for figures. Click a district to zoom in and see its municipalities; scroll or pinch to zoom.",
         hintZoomed: "Click a municipality to open its institutions. Drag to pan, scroll or pinch to zoom.", zoomIn: "Zoom in", zoomOut: "Zoom out", reset: "Whole country",
-        back: "Whole country", openOkrug: "Open district", openUnit: "Open", city: "City", municipality: "Municipality", serbia: "Serbia", okrug: "District", seat: "Seat" },
+        back: "Whole country", openOkrug: "Open district", cityDistricts: "City districts", cityDistrict: "City district", openUnit: "Open", city: "City", municipality: "Municipality", serbia: "Serbia", okrug: "District", seat: "Seat" },
   ru: { institutions: "Учреждения", municipalities: "Города и общины", hint: "Наведите на округ. Клик по округу увеличивает карту и показывает общины; колесо мыши или два пальца для масштаба.",
         hintZoomed: "Клик по общине открывает её учреждения. Перетаскивайте для прокрутки, колесо или два пальца для масштаба.", zoomIn: "Увеличить", zoomOut: "Уменьшить", reset: "Вся Сербия",
-        back: "Вся Сербия", openOkrug: "Открыть округ", openUnit: "Открыть", city: "Город", municipality: "Община", serbia: "Сербия", okrug: "Округ", seat: "Центр" },
+        back: "Вся Сербия", openOkrug: "Открыть округ", cityDistricts: "Городские общины", cityDistrict: "Городская община", openUnit: "Открыть", city: "Город", municipality: "Община", serbia: "Сербия", okrug: "Округ", seat: "Центр" },
   de: { institutions: "Einrichtungen", municipalities: "Städte und Gemeinden", hint: "Bezirk überfahren für Zahlen. Klick auf einen Bezirk zoomt hinein und zeigt die Gemeinden; Scrollen oder Pinch zum Zoomen.",
         hintZoomed: "Klick auf eine Gemeinde öffnet ihre Einrichtungen. Ziehen zum Verschieben, Scrollen oder Pinch zum Zoomen.", zoomIn: "Vergrößern", zoomOut: "Verkleinern", reset: "Ganz Serbien",
-        back: "Ganz Serbien", openOkrug: "Bezirk öffnen", openUnit: "Öffnen", city: "Stadt", municipality: "Gemeinde", serbia: "Serbien", okrug: "Bezirk", seat: "Sitz" },
+        back: "Ganz Serbien", openOkrug: "Bezirk öffnen", cityDistricts: "Stadtbezirke", cityDistrict: "Stadtbezirk", openUnit: "Öffnen", city: "Stadt", municipality: "Gemeinde", serbia: "Serbien", okrug: "Bezirk", seat: "Sitz" },
 };
 
 export async function Home({ locale }: { locale: Locale }) {
   const d = t(locale);
-  const [okruzi, allJls, types, stats, guides] = await Promise.all([db.getOkruzi(), db.getAllJls(), db.getOrgTypes(), db.getStats(), db.getGuides()]);
+  const [okruzi, allJls, types, stats, guides] = await Promise.all([db.getOkruzi(), db.getMapUnits(), db.getOrgTypes(), db.getStats(), db.getGuides()]);
   const topGuides = [...guides].sort((a, b) => (a.status === "full" ? 0 : 1) - (b.status === "full" ? 0 : 1) || a.sort_order - b.sort_order).slice(0, 6);
   const mapLabels = MAP_LABELS[locale];
   const byGroup = GROUPS.map((g) => ({ g, types: types.filter((x) => x.group === g && x.org_count > 0) }));
@@ -96,8 +96,8 @@ export async function Home({ locale }: { locale: Locale }) {
             </div>
           </div>
           <div data-reveal style={{ "--d": "120ms" } as React.CSSProperties}>
-            <SerbiaMap okruzi={okruzi.map((o) => ({ slug: o.slug, name_lat: o.name_lat, seat_name_lat: o.seat_name_lat, jls_count: o.jls_count, org_count: o.org_count }))}
-                       jls={allJls.map((j) => ({ slug: j.slug, name_lat: j.name_lat, okrug_slug: j.okrug_slug, org_count: j.org_count, jls_kind: j.jls_kind }))}
+            <SerbiaMap okruzi={okruzi.map((o) => ({ slug: o.slug, name_lat: o.name_lat, seat_name_lat: o.seat_name_lat, jls_count: o.jls_count, go_count: o.go_count, org_count: o.org_count }))}
+                       jls={allJls.map((j) => ({ slug: j.slug, name_lat: j.name_lat, okrug_slug: j.okrug_slug, org_count: j.org_count, jls_kind: j.jls_kind, level: j.level, parent_slug: j.parent_slug }))}
                        locale={locale} labels={mapLabels} variant="dark" height="hero" />
           </div>
         </div>

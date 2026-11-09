@@ -24,9 +24,10 @@ export const getTU = (slug: string, level: "jls" | "okrug" | "gradska_opstina") 
             from territorial_units where slug = ${slug} and level = ${level} and status = 'active' limit 1`.then((r) => r[0] ?? null);
 
 export const getOkruzi = () =>
-  sql<(TU & { jls_count: number; org_count: number })[]>`
+  sql<(TU & { jls_count: number; go_count: number; org_count: number })[]>`
     select o.id, o.slug, o.level, o.name_lat, o.name_cyr, o.official_name_lat, o.jls_kind, o.parent_id, o.path::text, o.seat_name_lat, o.okrug_seat, o.population_2022, o.website, o.in_kosovo,
            (select count(*) from territorial_units j where j.level = 'jls' and j.path <@ o.path)::int as jls_count,
+           (select count(*) from territorial_units g where g.level = 'gradska_opstina' and g.path <@ o.path)::int as go_count,
            (select count(*) from organizations x join territorial_units f on f.id = x.founder_unit_id where f.path <@ o.path and x.status = 'active')::int as org_count
     from territorial_units o where o.level = 'okrug' and not o.in_kosovo order by o.sort_order, o.name_lat`;
 
@@ -42,6 +43,17 @@ export const getAllJls = () =>
            o.slug as okrug_slug, o.name_lat as okrug_name,
            (select count(*) from organizations x join territorial_units f on f.id = x.founder_unit_id where f.path <@ j.path and x.status = 'active')::int as org_count
     from territorial_units j join territorial_units o on o.id = j.parent_id where j.level = 'jls' and not j.in_kosovo order by j.name_lat`;
+
+/** Municipalities and city districts for the map: JLS rows plus gradske opštine (with their city's slug). */
+export const getMapUnits = () =>
+  sql<{ slug: string; name_lat: string; level: "jls" | "gradska_opstina"; jls_kind: "grad" | "opstina" | null; okrug_slug: string; parent_slug: string | null; org_count: number }[]>`
+    select u.slug, u.name_lat, u.level::text as level, u.jls_kind, ok.slug as okrug_slug, case when u.level = 'gradska_opstina' then p.slug end as parent_slug,
+           case when u.level = 'gradska_opstina'
+                then (select count(distinct l.org_id) from locations l join territorial_units t on t.id = l.territorial_unit_id where t.path <@ u.path and l.status = 'active')
+                else (select count(*) from organizations x join territorial_units f on f.id = x.founder_unit_id where f.path <@ u.path and x.status = 'active') end::int as org_count
+    from territorial_units u join territorial_units p on p.id = u.parent_id
+    join territorial_units ok on ok.level = 'okrug' and ok.path @> u.path
+    where u.level in ('jls','gradska_opstina') and not u.in_kosovo and u.status = 'active' order by u.level, u.name_lat`;
 
 export const getChildrenGO = (jlsId: number) =>
   sql<(TU & { org_count: number })[]>`

@@ -125,6 +125,8 @@ def main() -> None:
     ap.add_argument("--cache", required=True)
     ap.add_argument("--jls", required=True)
     ap.add_argument("--out", default="lib")
+    ap.add_argument("--admin", help="OSM admin_7_9.geojson (for gradske opštine polygons)")
+    ap.add_argument("--gos", help="gos.json exported from the DB: slug, name, name_cyr, parent, okrug")
     a = ap.parse_args()
     os.makedirs(a.cache, exist_ok=True)
     adm1, adm2 = fetch("ADM1", a.cache), fetch("ADM2", a.cache)
@@ -178,6 +180,58 @@ def main() -> None:
     if missing:
         raise SystemExit(f"unmatched ADM2 names: {missing}")
 
+    # gradske opštine from OSM admin_level=8 ("Градска општина X"), matched to DB GOs by folded name within the parent city
+    gos_out = []
+    if a.admin and a.gos:
+        import unicodedata as _ud
+        def cyr2lat(t):
+            m = dict(zip("АБВГДЂЕЖЗИЈКЛМНОПРСТЋУФХЦЧШабвгдђежзијклмнопрстћуфхцчш", ["A","B","V","G","D","Đ","E","Ž","Z","I","J","K","L","M","N","O","P","R","S","T","Ć","U","F","H","C","Č","Š","a","b","v","g","d","đ","e","ž","z","i","j","k","l","m","n","o","p","r","s","t","ć","u","f","h","c","č","š"]))
+            t = t.replace("Љ","Lj").replace("Њ","Nj").replace("Џ","Dž").replace("љ","lj").replace("њ","nj").replace("џ","dž")
+            return "".join(m.get(c, c) for c in t)
+        gos = json.load(open(a.gos, encoding="utf-8"))
+        want = {}
+        for g in gos: want.setdefault(fold(g["name"]), []).append(g)
+        admin = json.load(open(a.admin, encoding="utf-8"))
+        taken = set()
+        for f in admin["features"]:
+            pr = f["properties"]
+            if pr.get("admin_level") != "8" or not pr.get("name") or not pr["name"].startswith("Градска општина"): continue
+            key = fold(cyr2lat(pr["name"].replace("Градска општина", "").strip()))
+            cands = [g for g in want.get(key, []) if (g["parent"], g["slug"]) not in taken]
+            if not cands: print("GO not matched:", pr["name"]); continue
+            if len(cands) > 1 or True:
+                # same name in two cities (Palilula): pick the candidate whose parent city contains this polygon's centroid
+                ring0 = f["geometry"]["coordinates"][0][0] if f["geometry"]["type"] == "MultiPolygon" else f["geometry"]["coordinates"][0]
+                clon = sum(p[0] for p in ring0) / len(ring0); clat = sum(p[1] for p in ring0) / len(ring0)
+                parent = None
+                for ff in adm2["features"]:
+                    n2 = re.sub(r"\s+(Municipality|City|Municipal\*?)$", "", ff["properties"]["shapeName"]); j2 = jls_by_fold.get(ADM2_ALIAS.get(fold(n2), fold(n2)))
+                    if not j2: continue
+                    polys = [ff["geometry"]["coordinates"]] if ff["geometry"]["type"] == "Polygon" else ff["geometry"]["coordinates"]
+                    if any(point_in_ring(clon, clat, [tuple(pt) for pt in poly[0]]) for poly in polys): parent = j2["slug"]; break
+                cands = [g for g in cands if g["parent"] == parent] or cands
+            g = cands[0]; taken.add((g["parent"], g["slug"]))
+            d, (cx, cy), bbox = shape(f["geometry"], 0.5)
+            gos_out.append({"slug": g["slug"], "okrug": g["okrug"], "name": g["name"], "kind": "gradska_opstina", "parent": g["parent"], "d": d, "cx": cx, "cy": cy, "bbox": bbox})
+        # fallback: districts mapped one level lower (Novi Sad, Petrovaradin are admin_level=9 "Нови Сад"/"Петроварадин")
+        for g in [g for g in gos if (g["parent"], g["slug"]) not in taken]:
+            for f in admin["features"]:
+                pr = f["properties"]
+                if pr.get("admin_level") != "9" or fold(cyr2lat(pr.get("name") or "")) != fold(g["name"]): continue
+                ring0 = f["geometry"]["coordinates"][0][0] if f["geometry"]["type"] == "MultiPolygon" else f["geometry"]["coordinates"][0]
+                clon = sum(p[0] for p in ring0) / len(ring0); clat = sum(p[1] for p in ring0) / len(ring0)
+                parent_ok = False
+                for ff in adm2["features"]:
+                    n2 = re.sub(r"\s+(Municipality|City|Municipal\*?)$", "", ff["properties"]["shapeName"]); j2 = jls_by_fold.get(ADM2_ALIAS.get(fold(n2), fold(n2)))
+                    if j2 and j2["slug"] == g["parent"]:
+                        polys = [ff["geometry"]["coordinates"]] if ff["geometry"]["type"] == "Polygon" else ff["geometry"]["coordinates"]
+                        parent_ok = any(point_in_ring(clon, clat, [tuple(pt) for pt in poly[0]]) for poly in polys); break
+                if not parent_ok: continue
+                d, (cx, cy), bbox = shape(f["geometry"], 0.5)
+                gos_out.append({"slug": g["slug"], "okrug": g["okrug"], "name": g["name"], "kind": "gradska_opstina", "parent": g["parent"], "d": d, "cx": cx, "cy": cy, "bbox": bbox}); taken.add((g["parent"], g["slug"])); break
+        missing_gos = [g["slug"] for g in gos if (g["parent"], g["slug"]) not in taken]
+        if missing_gos: print("GOs without polygon:", missing_gos)
+
     hdr = "// Generated by scripts/build_map.py from geoBoundaries SRB ADM1/ADM2 (OpenStreetMap contributors, ODbL). Do not edit by hand.\n"
     with open(os.path.join(a.out, "serbia-map.ts"), "w", encoding="utf-8") as fh:
         fh.write(hdr)
@@ -186,10 +240,12 @@ def main() -> None:
         fh.write("export const OKRUG_SHAPES: OkrugShape[] = " + json.dumps(okruzi, ensure_ascii=False, separators=(",", ":")) + ";\n")
     with open(os.path.join(a.out, "serbia-map-jls.ts"), "w", encoding="utf-8") as fh:
         fh.write(hdr)
-        fh.write("export type JlsShape = { slug: string; okrug: string; name: string; kind: string; d: string; cx: number; cy: number; bbox: [number, number, number, number] };\n")
+        fh.write("export type JlsShape = { slug: string; okrug: string; name: string; kind: string; parent?: string; d: string; cx: number; cy: number; bbox: [number, number, number, number] };\n")
         fh.write("export const JLS_SHAPES: JlsShape[] = " + json.dumps(units, ensure_ascii=False, separators=(",", ":")) + ";\n")
+        fh.write("/** City districts (gradske opštine) from OSM admin_level=8; rendered in place of their city's polygon when zoomed in. */\n")
+        fh.write("export const GO_SHAPES: JlsShape[] = " + json.dumps(gos_out, ensure_ascii=False, separators=(",", ":")) + ";\n")
     print(json.dumps({"viewBox": f"0 0 {W:.0f} {H:.0f}", "okruzi": len(okruzi), "jls": len(units),
-                      "okrug_pts": sum(d["d"].count("L") for d in okruzi), "jls_pts": sum(u["d"].count("L") for u in units)}))
+                      "okrug_pts": sum(d["d"].count("L") for d in okruzi), "jls_pts": sum(u["d"].count("L") for u in units), "gos": len(gos_out)}))
 
 
 if __name__ == "__main__":

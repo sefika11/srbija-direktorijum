@@ -6,11 +6,11 @@ import { MAP_H, MAP_W, OKRUG_SHAPES } from "@/lib/serbia-map";
 import type { JlsShape } from "@/lib/serbia-map-jls";
 import { href, type Locale } from "@/lib/i18n";
 
-export type MapOkrug = { slug: string; name_lat: string; seat_name_lat: string | null; jls_count: number; org_count: number };
-export type MapJls = { slug: string; name_lat: string; okrug_slug: string; org_count: number; jls_kind: "grad" | "opstina" | null };
+export type MapOkrug = { slug: string; name_lat: string; seat_name_lat: string | null; jls_count: number; go_count?: number; org_count: number };
+export type MapJls = { slug: string; name_lat: string; okrug_slug: string; org_count: number; jls_kind: "grad" | "opstina" | null; level?: "jls" | "gradska_opstina"; parent_slug?: string | null };
 export type MapLabels = {
   institutions: string; municipalities: string; hint: string; hintZoomed: string; zoomIn: string; zoomOut: string; reset: string;
-  back: string; openOkrug: string; openUnit: string; city: string; municipality: string; serbia: string; okrug: string; seat: string;
+  back: string; openOkrug: string; openUnit: string; city: string; municipality: string; serbia: string; okrug: string; seat: string; cityDistricts: string; cityDistrict: string;
 };
 type View = { x: number; y: number; w: number; h: number };
 type BBox = [number, number, number, number];
@@ -58,7 +58,7 @@ export default function SerbiaMap({ okruzi, jls, locale, labels, variant = "ligh
   }, []);
   useEffect(() => { if (!focused) setView(base); }, [base, focused]);
 
-  const loadShapes = useCallback(() => { if (!shapes) import("@/lib/serbia-map-jls").then((m) => setShapes(m.JLS_SHAPES)); }, [shapes]);
+  const loadShapes = useCallback(() => { if (!shapes) import("@/lib/serbia-map-jls").then((m) => { const parents = new Set(m.GO_SHAPES.map((g) => g.parent)); setShapes([...m.JLS_SHAPES.filter((u) => !parents.has(u.slug)), ...m.GO_SHAPES]); }); }, [shapes]);
 
   const animateTo = useCallback((target: View) => {
     if (anim.current) cancelAnimationFrame(anim.current);
@@ -139,20 +139,22 @@ export default function SerbiaMap({ okruzi, jls, locale, labels, variant = "ligh
   const f = (px: number) => px / scale;
   const a = focused ? okrugBy[focused] : hoverOkrug ? okrugBy[hoverOkrug] : null;
   const hj = hoverJls ? jlsBy[hoverJls] : null;
-  const focusedJls = focused ? jls.filter((j) => j.okrug_slug === focused) : [];
-  const unitKind = (k: MapJls["jls_kind"]) => (k === "grad" ? labels.city : labels.municipality);
+  const focusedJls = focused ? jls.filter((j) => j.okrug_slug === focused && j.level !== "gradska_opstina") : [];
+  const gosOf = (parent: string) => jls.filter((j) => j.level === "gradska_opstina" && j.parent_slug === parent);
+  const unitKind = (j: MapJls) => (j.level === "gradska_opstina" ? labels.cityDistrict : j.jls_kind === "grad" ? labels.city : labels.municipality);
+  const unitHref = (j: MapJls) => href(locale, j.level === "gradska_opstina" && j.parent_slug ? `/${j.parent_slug}/${j.slug}` : `/${j.slug}`);
   const fmt = (n: number) => n.toLocaleString(locale === "sr" ? "sr-Latn" : locale);
 
   const stageH = height === "hero" ? "h-[420px] sm:h-[520px] lg:h-[620px]" : "h-[440px] sm:h-[560px] lg:h-[680px]";
   const panel = (
-      <aside className={`card p-4 lg:p-5 flex flex-col min-h-[150px] ${height === "hero" ? "lg:absolute lg:left-4 lg:bottom-4 lg:w-[300px] lg:max-h-[60%] lg:z-10" : "lg:min-h-0 lg:max-h-[680px]"}`}>
+      <aside className={`card p-4 lg:p-5 flex flex-col min-h-[150px] ${height === "hero" ? "lg:absolute lg:left-4 lg:bottom-4 lg:w-[270px] lg:max-h-[46%] lg:z-10 lg:overflow-hidden" : "lg:min-h-0 lg:max-h-[680px]"}`}>
         {hj ? (
           <>
-            <div className="eyebrow">{unitKind(hj.jls_kind)} · {okrugBy[hj.okrug_slug]?.name_lat}</div>
+            <div className="eyebrow">{unitKind(hj)} · {okrugBy[hj.okrug_slug]?.name_lat}</div>
             <div className="font-serif text-[22px] font-semibold leading-tight mt-1">{hj.name_lat}</div>
             <div className="mt-3 text-[13px] text-muted">{labels.institutions}</div>
             <div className="tabular text-[26px] font-semibold leading-none">{fmt(hj.org_count)}</div>
-            <Link href={href(locale, `/${hj.slug}`)} className="btn-primary mt-4 self-start">{labels.openUnit} →</Link>
+            <Link href={unitHref(hj)} className="btn-primary mt-4 self-start">{labels.openUnit} →</Link>
           </>
         ) : a ? (
           <>
@@ -161,16 +163,21 @@ export default function SerbiaMap({ okruzi, jls, locale, labels, variant = "ligh
             {a.seat_name_lat && <div className="text-muted text-[13px] mt-1">{labels.seat}: {a.seat_name_lat}</div>}
             <dl className="mt-3 grid grid-cols-2 gap-3 text-[13px]">
               <div><dt className="text-muted">{labels.institutions}</dt><dd className="tabular text-[22px] font-semibold leading-tight">{fmt(a.org_count)}</dd></div>
-              <div><dt className="text-muted">{labels.municipalities}</dt><dd className="tabular text-[22px] font-semibold leading-tight">{a.jls_count}</dd></div>
+              <div><dt className="text-muted">{a.jls_count === 1 && (a.go_count ?? 0) > 0 ? labels.cityDistricts : labels.municipalities}</dt><dd className="tabular text-[22px] font-semibold leading-tight">{a.jls_count === 1 && (a.go_count ?? 0) > 0 ? a.go_count : a.jls_count}{a.jls_count > 1 && (a.go_count ?? 0) > 0 ? <span className="text-[12px] text-muted font-normal ml-1.5">+{a.go_count} {labels.cityDistricts.toLowerCase()}</span> : null}</dd></div>
             </dl>
             <Link href={href(locale, `/okrug/${a.slug}`)} className="btn-primary mt-4 self-start">{labels.openOkrug} →</Link>
             {focused && focusedJls.length > 0 && (
               <ul className="mt-4 pt-4 border-t border-line grid gap-1 text-[13.5px] overflow-y-auto">
                 {focusedJls.map((j) => (
-                  <li key={j.slug} onMouseEnter={() => setHoverJls(j.slug)} onMouseLeave={() => setHoverJls(null)}>
-                    <Link href={href(locale, `/${j.slug}`)} className="flex justify-between gap-3 no-underline text-ink hover:text-accent rounded px-1 -mx-1">
+                  <li key={j.slug}>
+                    <Link href={unitHref(j)} onMouseEnter={() => setHoverJls(j.slug)} onMouseLeave={() => setHoverJls(null)} className="flex justify-between gap-3 no-underline text-ink hover:text-accent rounded px-1 -mx-1">
                       <span>{j.name_lat}</span><span className="text-muted tabular">{j.org_count}</span>
                     </Link>
+                    {gosOf(j.slug).length > 0 && (
+                      <ul className="ml-3 mt-0.5 mb-1 grid gap-0.5 text-[13px] border-l border-line pl-2.5">
+                        {gosOf(j.slug).map((g) => <li key={g.slug}><Link href={unitHref(g)} onMouseEnter={() => setHoverJls(g.slug)} onMouseLeave={() => setHoverJls(null)} className="flex justify-between gap-3 no-underline text-muted hover:text-accent"><span>{g.name_lat}</span><span className="tabular">{g.org_count}</span></Link></li>)}
+                      </ul>
+                    )}
                   </li>
                 ))}
               </ul>
@@ -211,7 +218,7 @@ export default function SerbiaMap({ okruzi, jls, locale, labels, variant = "ligh
             return (
               <path key={u.slug} d={u.d} data-jls={u.slug}
                     onPointerEnter={() => { setHoverJls(u.slug); setHoverOkrug(u.okrug); }}
-                    onClick={() => { if (isClick()) router.push(href(locale, `/${u.slug}`)); }}
+                    onClick={() => { if (isClick()) { const j = jlsBy[u.slug]; router.push(j ? unitHref(j) : href(locale, `/${u.slug}`)); } }}
                     style={{ fill: hot ? (dark ? "#fff" : "var(--accent)") : dark ? `rgb(255 255 255 / ${(0.06 + Math.sqrt(share) * 0.26).toFixed(2)})` : `color-mix(in oklab, var(--accent) ${10 + Math.round(Math.sqrt(share) * 42)}%, var(--surface))`,
                              stroke: dark ? "rgb(6 16 31 / .9)" : "var(--surface)", strokeWidth: f(1), strokeLinejoin: "round", cursor: "pointer", transition: "fill .12s" }} />
             );
