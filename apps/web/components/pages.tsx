@@ -34,17 +34,17 @@ function OrgList({ orgs, locale, dense = false }: { orgs: db.OrgRow[]; locale: L
 
 // ---------------------------------------------------------------- Home
 const MAP_LABELS: Record<Locale, MapLabels> = {
-  sr: { institutions: "Institucije", municipalities: "Gradovi i opštine", hint: "Pređite preko okruga za podatke. Klik na okrug uvećava mapu i prikazuje opštine; točkić miša ili dva prsta za zum.",
-        hintZoomed: "Klik na opštinu otvara njene institucije. Prevucite za pomeranje, točkić ili dva prsta za zum.", zoomIn: "Uvećaj", zoomOut: "Umanji", reset: "Cela Srbija",
+  sr: { institutions: "Institucije", municipalities: "Gradovi i opštine", hint: "Pređite preko okruga za podatke. Klik na okrug prikazuje njegove opštine. Zum: točkić miša ili dva prsta.",
+        hintZoomed: "Klik na opštinu otvara njene institucije. Prevucite za pomeranje.", zoomIn: "Uvećaj", zoomOut: "Umanji", reset: "Cela Srbija",
         back: "Cela Srbija", openOkrug: "Otvori okrug", cityDistricts: "Gradske opštine", cityDistrict: "Gradska opština", openUnit: "Otvori", city: "Grad", municipality: "Opština", serbia: "Srbija", okrug: "Okrug", seat: "Sedište" },
-  en: { institutions: "Institutions", municipalities: "Cities and municipalities", hint: "Hover a district for figures. Click a district to zoom in and see its municipalities; scroll or pinch to zoom.",
-        hintZoomed: "Click a municipality to open its institutions. Drag to pan, scroll or pinch to zoom.", zoomIn: "Zoom in", zoomOut: "Zoom out", reset: "Whole country",
+  en: { institutions: "Institutions", municipalities: "Cities and municipalities", hint: "Hover a district for figures. Click a district to show its municipalities. Zoom: scroll or pinch.",
+        hintZoomed: "Click a municipality to open its institutions. Drag to pan.", zoomIn: "Zoom in", zoomOut: "Zoom out", reset: "Whole country",
         back: "Whole country", openOkrug: "Open district", cityDistricts: "City districts", cityDistrict: "City district", openUnit: "Open", city: "City", municipality: "Municipality", serbia: "Serbia", okrug: "District", seat: "Seat" },
-  ru: { institutions: "Учреждения", municipalities: "Города и общины", hint: "Наведите на округ. Клик по округу увеличивает карту и показывает общины; колесо мыши или два пальца для масштаба.",
-        hintZoomed: "Клик по общине открывает её учреждения. Перетаскивайте для прокрутки, колесо или два пальца для масштаба.", zoomIn: "Увеличить", zoomOut: "Уменьшить", reset: "Вся Сербия",
+  ru: { institutions: "Учреждения", municipalities: "Города и общины", hint: "Наведите на округ для данных. Клик по округу показывает его общины. Масштаб: колесо мыши или два пальца.",
+        hintZoomed: "Клик по общине открывает её учреждения. Перетаскивайте для перемещения.", zoomIn: "Увеличить", zoomOut: "Уменьшить", reset: "Вся Сербия",
         back: "Вся Сербия", openOkrug: "Открыть округ", cityDistricts: "Городские общины", cityDistrict: "Городская община", openUnit: "Открыть", city: "Город", municipality: "Община", serbia: "Сербия", okrug: "Округ", seat: "Центр" },
-  de: { institutions: "Einrichtungen", municipalities: "Städte und Gemeinden", hint: "Bezirk überfahren für Zahlen. Klick auf einen Bezirk zoomt hinein und zeigt die Gemeinden; Scrollen oder Pinch zum Zoomen.",
-        hintZoomed: "Klick auf eine Gemeinde öffnet ihre Einrichtungen. Ziehen zum Verschieben, Scrollen oder Pinch zum Zoomen.", zoomIn: "Vergrößern", zoomOut: "Verkleinern", reset: "Ganz Serbien",
+  de: { institutions: "Einrichtungen", municipalities: "Städte und Gemeinden", hint: "Bezirk überfahren für Zahlen. Klick auf einen Bezirk zeigt seine Gemeinden. Zoom: Scrollen oder Pinch.",
+        hintZoomed: "Klick auf eine Gemeinde öffnet ihre Einrichtungen. Ziehen zum Verschieben.", zoomIn: "Vergrößern", zoomOut: "Verkleinern", reset: "Ganz Serbien",
         back: "Ganz Serbien", openOkrug: "Bezirk öffnen", cityDistricts: "Stadtbezirke", cityDistrict: "Stadtbezirk", openUnit: "Öffnen", city: "Stadt", municipality: "Gemeinde", serbia: "Serbien", okrug: "Bezirk", seat: "Sitz" },
 };
 

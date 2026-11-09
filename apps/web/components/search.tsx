@@ -8,10 +8,10 @@ import { Icon } from "./icons";
 import { content as guideContent } from "./guides";
 
 const L: Record<Locale, Record<string, string>> = {
-  sr: { bestFor: "Najbolji odgovor", inPlace: "u", guides: "Vodiči", types: "Vrste institucija", places: "Mesta", orgs: "Institucije", open: "Otvori", all: "Prikaži sve", noPhone: "telefon još nije unet", noAddress: "tačna adresa još nije uneta", whereFor: "Nadležno za", tip: "Savet: upišite šta vam treba i grad, npr. „pasoš Kragujevac“ ili „dom zdravlja Niš“." },
-  en: { bestFor: "Best answer", inPlace: "in", guides: "Guides", types: "Institution types", places: "Places", orgs: "Institutions", open: "Open", all: "Show all", noPhone: "phone not yet entered", noAddress: "exact address not yet entered", whereFor: "Serving", tip: "Tip: type what you need and the town, e.g. “passport Kragujevac” or “dom zdravlja Niš”." },
-  ru: { bestFor: "Лучший ответ", inPlace: "в", guides: "Инструкции", types: "Типы учреждений", places: "Места", orgs: "Учреждения", open: "Открыть", all: "Показать все", noPhone: "телефон ещё не внесён", noAddress: "точный адрес ещё не внесён", whereFor: "Обслуживает", tip: "Совет: напишите, что вам нужно, и город, например «pasoš Kragujevac»." },
-  de: { bestFor: "Beste Antwort", inPlace: "in", guides: "Anleitungen", types: "Arten von Einrichtungen", places: "Orte", orgs: "Einrichtungen", open: "Öffnen", all: "Alle anzeigen", noPhone: "Telefon folgt", noAddress: "genaue Adresse folgt", whereFor: "Zuständig für", tip: "Tipp: Anliegen und Ort eingeben, z. B. „pasoš Kragujevac“." },
+  sr: { bestFor: "Najbolji odgovor", inPlace: "u", guides: "Vodiči", types: "Vrste institucija", places: "Opštine i okruzi", orgs: "Institucije", open: "Otvori", all: "Prikaži sve", noPhone: "telefon još nije unet", noAddress: "tačna adresa još nije uneta", whereFor: "Nadležno za", tip: "Upišite šta vam treba i grad, npr. „pasoš Kragujevac“." },
+  en: { bestFor: "Best answer", inPlace: "in", guides: "Guides", types: "Institution types", places: "Municipalities and districts", orgs: "Institutions", open: "Open", all: "Show all", noPhone: "phone not yet entered", noAddress: "exact address not yet entered", whereFor: "Serving", tip: "Type what you need and the town, e.g. “passport Kragujevac”." },
+  ru: { bestFor: "Лучший ответ", inPlace: "в", guides: "Инструкции", types: "Типы учреждений", places: "Общины и округа", orgs: "Учреждения", open: "Открыть", all: "Показать все", noPhone: "телефон ещё не внесён", noAddress: "точный адрес ещё не внесён", whereFor: "Обслуживает", tip: "Совет: напишите, что вам нужно, и город, например «pasoš Kragujevac»." },
+  de: { bestFor: "Beste Antwort", inPlace: "in", guides: "Anleitungen", types: "Arten von Einrichtungen", places: "Gemeinden und Bezirke", orgs: "Einrichtungen", open: "Öffnen", all: "Alle anzeigen", noPhone: "Telefon folgt", noAddress: "genaue Adresse folgt", whereFor: "Zuständig für", tip: "Tipp: Anliegen und Ort eingeben, z. B. „pasoš Kragujevac“." },
 };
 const placeHref = (locale: Locale, p: Place) => href(locale, p.level === "okrug" ? `/okrug/${p.slug}` : p.level === "gradska_opstina" ? `/${p.parent_slug}/${p.slug}` : `/${p.slug}`);
 const DAYS: Record<Locale, string[]> = { sr: ["Pon", "Uto", "Sre", "Čet", "Pet", "Sub", "Ned"], en: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"], ru: ["Пн", "Вт", "Ср", "Чт", "Пт", "Сб", "Вс"], de: ["Mo", "Di", "Mi", "Do", "Fr", "Sa", "So"] };
@@ -66,7 +66,7 @@ export async function SmartSearchPage({ locale, q }: { locale: Locale; q: string
                 <Link href={href(locale, `/vodic/${g.slug}${placeQ}`)} className="font-serif text-[24px] font-semibold leading-tight no-underline text-ink hover:text-accent block mt-1">{c.title ?? g.name_lat}</Link>
                 <p className="text-[14.5px] text-muted mt-1.5 max-w-2xl">{c.summary ?? g.summary}</p>
                 {r.best.serving.length > 0 ? <ServingList serving={r.best.serving} contacts={r.best.contacts} hours={r.best.hours} locale={locale} /> : null}
-                <Link href={href(locale, `/vodic/${g.slug}${placeQ}`)} className="btn-primary mt-4">{s.open}: {c.title ?? g.name_lat} →</Link>
+                <Link href={href(locale, `/vodic/${g.slug}${placeQ}`)} className="btn-primary mt-4">{locale === "sr" ? "Otvori vodič" : locale === "en" ? "Open guide" : locale === "ru" ? "Открыть инструкцию" : "Anleitung öffnen"} →</Link>
               </>); })()}
             {r.best.kind === "type" && (
               <>

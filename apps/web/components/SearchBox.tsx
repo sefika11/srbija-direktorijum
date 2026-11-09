@@ -5,8 +5,8 @@ import { href, type Locale } from "@/lib/i18n";
 import type { Suggestion } from "@/lib/search";
 
 const KIND_LABEL: Record<Locale, Record<Suggestion["kind"], string>> = {
-  sr: { guide: "Vodič", type: "Vrsta", place: "Mesto", org: "Institucija" }, en: { guide: "Guide", type: "Type", place: "Place", org: "Institution" },
-  ru: { guide: "Инструкция", type: "Тип", place: "Место", org: "Учреждение" }, de: { guide: "Anleitung", type: "Art", place: "Ort", org: "Einrichtung" },
+  sr: { guide: "Vodič", type: "Vrsta", place: "Opština", org: "Institucija" }, en: { guide: "Guide", type: "Type", place: "Municipality", org: "Institution" },
+  ru: { guide: "Инструкция", type: "Тип", place: "Община", org: "Учреждение" }, de: { guide: "Anleitung", type: "Art", place: "Gemeinde", org: "Einrichtung" },
 };
 
 /** Search box with instant suggestions (guides, types, places, institutions). Falls back to a plain form without JS. */
