@@ -22,6 +22,9 @@
   --moss-soft: #e2f1e8;
   --ad: #6b7a8a;
   --ad-soft: #eef1f4;
+  --font-plex-sans: "IBM Plex Sans";
+  --font-plex-serif: "IBM Plex Serif";
+  --font-plex-mono: "IBM Plex Mono";
   --font-sans: var(--font-plex-sans), system-ui, -apple-system, "Segoe UI", sans-serif;
   --font-serif: var(--font-plex-serif), Georgia, "Times New Roman", serif;
   --font-mono: var(--font-plex-mono), ui-monospace, SFMono-Regular, Menlo, monospace;
