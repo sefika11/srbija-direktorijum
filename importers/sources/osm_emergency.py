@@ -107,7 +107,9 @@ def main() -> None:
         cur.execute("select id, slug from territorial_units where level = 'jls'"); id_by_slug = {r["slug"]: r["id"] for r in cur.fetchall()}
         shapes = load_shapes()
         made = unplaced = 0
+        skip_re = re.compile(r"carin|customs|zatvor|kpz|prihvatili", re.I)   # customs posts, prisons and shelters are tagged amenity=police in OSM
         for r in rows:
+            if r.get("name") and skip_re.search(r["name"]): continue
             jslug = locate(shapes, r["lat"], r["lon"])
             if not jslug or jslug not in id_by_slug: unplaced += 1; continue
             pu = jls_pu.get(jslug)

@@ -189,7 +189,8 @@ export type ServingRow = LocRow & { org_slug: string; org_name_lat: string; org_
 /** The location(s) of a given institution type that serve a municipality: explicit coverage first, else seated inside it. */
 export const getServing = (jlsId: number, typeSlug: string) =>
   sql<ServingRow[]>`select ${LOC_COLS} from v_location_page where location_id in (select id from locations_serving(${jlsId}, ${typeSlug}))
-                    and location_status = 'active' order by is_primary desc, unit_kind = 'filijala' desc, unit_name_lat limit 8`;
+                    and location_status = 'active'
+                    order by is_primary desc, unit_kind = 'filijala' desc, (unit_name_lat ilike 'policijska stanica%' or unit_name_lat ilike 'policijska uprava%' or unit_name_lat ilike 'vatrogasn%') desc, unit_name_lat limit 8`;
 /** All locations of a national-network type, for hub pages where one organization has many branches. */
 export const getLocationsOfType = (typeSlug: string) =>
   sql<ServingRow[]>`select ${LOC_COLS} from v_location_page where org_type_slug = ${typeSlug} and location_status = 'active'
