@@ -242,7 +242,7 @@ html.js [data-reveal].in { opacity: 1; transform: none; }
 @media (prefers-reduced-motion: reduce) { [data-reveal] { opacity: 1; transform: none; transition: none; } .guide-card, .bento-card, .lang-tile { transition: none; } }
 
 /* Header over dark hero */
-.site-header { transition: background .3s, border-color .3s, box-shadow .3s; }
+.site-header { transition: border-color .3s, box-shadow .3s; }
 .site-header.on-dark:not(.scrolled) { background: transparent !important; border-color: transparent !important; backdrop-filter: none !important; -webkit-backdrop-filter: none !important; }
 .site-header.on-dark:not(.scrolled) .text-ink, .site-header.on-dark:not(.scrolled) a:not(.lang-active) { color: #fff; }
 .site-header.on-dark:not(.scrolled) .text-muted { color: rgb(255 255 255 / .6) !important; }
