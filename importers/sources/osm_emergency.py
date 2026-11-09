@@ -20,7 +20,7 @@ import osmium
 
 from ..common import db
 from ..common.match import add_contact, add_coverage, upsert_location
-from ..common.normalize import phones_in
+from ..common.normalize import cyr_to_lat, phones_in
 
 PBF = os.environ.get("OSM_PBF", ".cache/osm/serbia-latest.osm.pbf")
 SOURCE = "osm"
@@ -58,9 +58,19 @@ class Handler(osmium.SimpleHandler):
             pass
 
 
+ROWS_CACHE = os.environ.get("OSM_ROWS_CACHE", ".cache/osm/emergency_rows.json")
+
+
 def main() -> None:
-    h = Handler(); h.apply_file(PBF, locations=True)
-    rows = h.rows
+    if os.path.exists(ROWS_CACHE) and "--reparse" not in sys.argv:
+        rows = json.load(open(ROWS_CACHE, encoding="utf-8"))
+        print("using cached rows:", ROWS_CACHE)
+    else:
+        h = Handler(); h.apply_file(PBF, locations=True); rows = h.rows
+        os.makedirs(os.path.dirname(ROWS_CACHE), exist_ok=True); json.dump(rows, open(ROWS_CACHE, "w", encoding="utf-8"), ensure_ascii=False)
+    lat_ = lambda v: cyr_to_lat(v) if v else v
+    for r in rows:
+        r["name"], r["street"], r["city"] = lat_(r.get("name")), lat_(r.get("street")), lat_(r.get("city"))
     print("osm rows:", len(rows), "police:", sum(r["amenity"] == "police" for r in rows), "fire:", sum(r["amenity"] == "fire_station" for r in rows))
     with db.conn() as c, c.cursor() as cur:
         db.stage_rows(cur, SOURCE, SRC_URL, [(r["osm"], r) for r in rows])
@@ -107,7 +117,7 @@ def main() -> None:
             name = r["name"] or ("Policijska stanica" if r["amenity"] == "police" else "Vatrogasno-spasilačka jedinica")
             loc_id = upsert_location(cur, org_id=org_id, slug=f"osm-{r['osm']}", unit_name_lat=name[:120], unit_kind="stanica", territorial_unit_id=id_by_slug[jslug],
                                      street=r["street"], street_number=r["number"], is_primary=False)
-            cur.execute("update locations set lat = %s, lng = %s, hours_text = coalesce(%s, hours_text) where id = %s", (r["lat"], r["lon"], r["hours"], loc_id))
+            cur.execute("update locations set lat = %s, lng = %s, hours_text = coalesce(%s, hours_text), unit_name_lat = %s where id = %s", (r["lat"], r["lon"], r["hours"], name[:120], loc_id))
             for p in phones_in(r["phone"] or ""): add_contact(cur, loc_id, p.kind, p.e164, p.display)
             if r["email"]: add_contact(cur, loc_id, "email", r["email"].split(";")[0].strip(), None)
             if r["website"]: add_contact(cur, loc_id, "website", r["website"].split(";")[0].strip(), None)
