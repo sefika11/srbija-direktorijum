@@ -94,7 +94,7 @@ export async function Home({ locale }: { locale: Locale }) {
       <HeroFX />
       {/* Opening */}
       <section className="hero-open border-b border-line">
-        <div className="shell pt-10 pb-14 sm:pt-14 sm:pb-20 grid gap-10 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.05fr)] items-center">
+        <div className="shell pt-10 pb-14 sm:pt-14 sm:pb-20 grid gap-10 lg:grid-cols-[minmax(0,.9fr)_minmax(0,1.25fr)] items-center">
           <div data-reveal>
             <div className="eyebrow mb-5">Republika Srbija · {d.siteName}</div>
             <h1 className="display text-[40px] sm:text-[56px] xl:text-[64px] max-w-[14ch]" aria-label={`${d.tagline.split(":")[0]}.`}>{`${d.tagline.split(":")[0]}.`.split(" ").map((w, i, arr) => <Fragment key={i}><span className="w" aria-hidden><span className="i" style={{ "--i": i } as React.CSSProperties}>{w}</span></span>{i < arr.length - 1 ? " " : ""}</Fragment>)}</h1>
@@ -190,6 +190,47 @@ export async function Home({ locale }: { locale: Locale }) {
   );
 }
 
+// ---------------------------------------------------------------- Vital services block (municipality page)
+const VITAL_L: Record<Locale, { title: string; emergency: string; faults: string; admin: string; health: string; social: string; children: string; police: string; call: string; water: string; power: string; heat: string; gas: string; waste: string; parking: string; tax: string; registry: string; hall: string; dz: string; hospital: string; csr: string; nsz: string; os: string; ss: string; pu: string; apoteke: string; none: string }> = {
+  sr: { title: "Vitalno za ovu opštinu", emergency: "Hitni brojevi", faults: "Kvarovi i komunalno", admin: "Uprava i porez", health: "Zdravlje", social: "Socijalno i posao", children: "Deca i škole", police: "Policija", call: "Pozovi", water: "Vodovod", power: "Struja", heat: "Grejanje", gas: "Gas", waste: "Čistoća", parking: "Parking", tax: "Lokalna poreska administracija", registry: "Matičar", hall: "Opštinska uprava", dz: "Dom zdravlja", hospital: "Bolnica", csr: "Centar za socijalni rad", nsz: "Nacionalna služba za zapošljavanje", os: "osnovnih škola", ss: "srednjih škola", pu: "vrtića", apoteke: "apoteka", none: "broj još nije unet" },
+  en: { title: "Vital for this municipality", emergency: "Emergency numbers", faults: "Faults and utilities", admin: "Administration and tax", health: "Health", social: "Social and work", children: "Children and schools", police: "Police", call: "Call", water: "Water", power: "Power", heat: "Heating", gas: "Gas", waste: "Waste", parking: "Parking", tax: "Local tax office", registry: "Registrar", hall: "Municipal administration", dz: "Health centre", hospital: "Hospital", csr: "Social work centre", nsz: "Employment service", os: "primary schools", ss: "secondary schools", pu: "kindergartens", apoteke: "pharmacies", none: "number not yet listed" },
+  ru: { title: "Главное для этой общины", emergency: "Экстренные номера", faults: "Аварии и коммунальные службы", admin: "Администрация и налоги", health: "Здоровье", social: "Социальная помощь и работа", children: "Дети и школы", police: "Полиция", call: "Позвонить", water: "Водоканал", power: "Электричество", heat: "Отопление", gas: "Газ", waste: "Уборка", parking: "Парковка", tax: "Местная налоговая", registry: "ЗАГС", hall: "Администрация общины", dz: "Дом здоровья", hospital: "Больница", csr: "Центр соцработы", nsz: "Служба занятости", os: "начальных школ", ss: "средних школ", pu: "детских садов", apoteke: "аптек", none: "номер ещё не внесён" },
+  de: { title: "Wichtig für diese Gemeinde", emergency: "Notrufnummern", faults: "Störungen und Versorgung", admin: "Verwaltung und Steuern", health: "Gesundheit", social: "Soziales und Arbeit", children: "Kinder und Schulen", police: "Polizei", call: "Anrufen", water: "Wasser", power: "Strom", heat: "Heizung", gas: "Gas", waste: "Abfall", parking: "Parken", tax: "Lokale Steuerverwaltung", registry: "Standesamt", hall: "Gemeindeverwaltung", dz: "Gesundheitszentrum", hospital: "Krankenhaus", csr: "Sozialzentrum", nsz: "Arbeitsamt", os: "Grundschulen", ss: "Mittelschulen", pu: "Kindergärten", apoteke: "Apotheken", none: "Nummer noch nicht erfasst" },
+};
+function VitalBlock({ locale, vital, police, counts }: { locale: Locale; vital: db.VitalRow[]; police: { slug: string; unit_name_lat: string; org_slug: string }[]; counts: { os: number; ss: number; pu: number; apoteke: number } }) {
+  const L = VITAL_L[locale];
+  const pick = (...slugs: string[]) => vital.filter((v) => slugs.includes(v.type_slug));
+  const Row = ({ label, rows }: { label: string; rows: { name: string; phone: string | null; phone_display: string | null; href: string }[] }) => rows.length === 0 ? null : (
+    <li className="vital-row">
+      <span className="vital-lbl">{label}</span>
+      <span className="vital-vals">{rows.slice(0, 3).map((r) => (
+        <span key={r.href} className="vital-val">
+          <Link href={r.href} className="no-underline text-ink hover:text-accent">{r.name}</Link>
+          {r.phone ? <a href={`tel:${r.phone}`} className="vital-tel">{r.phone_display ?? r.phone}</a> : <span className="text-muted text-[12px]">{L.none}</span>}
+        </span>))}
+      </span>
+    </li>);
+  const org = (v: db.VitalRow) => ({ name: v.name_lat.replace(/^(Javno komunalno preduzeće|Javno preduzeće|JKP|JP)\s+/i, ""), phone: v.phone, phone_display: v.phone_display, href: href(locale, `/${v.type_slug}/${v.slug}`) });
+  const groups: { title: string; rows: { label: string; rows: ReturnType<typeof org>[] }[] }[] = [
+    { title: L.faults, rows: [{ label: L.water, rows: pick("jkp-vodovod").map(org) }, { label: L.power, rows: pick("eps-distribucija").map(org) }, { label: L.heat, rows: pick("jkp-toplana").map(org) }, { label: L.gas, rows: pick("jkp-gas").map(org) }, { label: L.waste, rows: pick("jkp-cistoca").map(org) }, { label: L.parking, rows: pick("jkp-parking-servis").map(org) }] },
+    { title: L.admin, rows: [{ label: L.hall, rows: pick("opstinska-uprava", "gradska-uprava", "uprava-gradske-opstine").filter((v) => !/poresk/i.test(v.name_lat)).map(org) }, { label: L.tax, rows: [...pick("lokalna-poreska-administracija"), ...pick("gradska-uprava", "opstinska-uprava").filter((v) => /poresk/i.test(v.name_lat))].map(org) }, { label: L.registry, rows: pick("maticna-sluzba").map(org) }] },
+    { title: L.health, rows: [{ label: L.dz, rows: pick("dom-zdravlja").map(org) }, { label: L.hospital, rows: pick("opsta-bolnica").map(org) }] },
+    { title: L.social, rows: [{ label: L.csr, rows: pick("centar-za-socijalni-rad").map(org) }, { label: L.nsz, rows: pick("nsz").map(org) }] },
+  ];
+  const policeRows = police.slice(0, 3).map((p) => ({ name: p.unit_name_lat, phone: null as string | null, phone_display: null as string | null, href: href(locale, `/mup-policijska-uprava/${p.org_slug}/${p.slug}`) }));
+  const kids = [[counts.os, L.os], [counts.ss, L.ss], [counts.pu, L.pu], [counts.apoteke, L.apoteke]].filter(([n]) => (n as number) > 0);
+  return (
+    <section className="vital card" aria-labelledby="vital-h">
+      <div className="vital-head"><div className="eyebrow">{L.title}</div><div className="vital-emergency" id="vital-h"><span className="eyebrow plain">{L.emergency}</span>{[["192", L.police], ["193", "Vatrogasci"], ["194", "Hitna pomoć"], ["1987", "AMSS"]].map(([n, l]) => <a key={n} href={`tel:${n}`} className="vital-num"><b>{n}</b><span>{l}</span></a>)}</div></div>
+      <div className="vital-grid">
+        {groups.map((g) => g.rows.some((r) => r.rows.length) && <div key={g.title} className="vital-col"><div className="vital-title">{g.title}</div><ul>{g.rows.map((r) => <Row key={r.label} label={r.label} rows={r.rows} />)}</ul></div>)}
+        {policeRows.length > 0 && <div className="vital-col"><div className="vital-title">{L.police}</div><ul><Row label="" rows={policeRows} /></ul></div>}
+        {kids.length > 0 && <div className="vital-col"><div className="vital-title">{L.children}</div><ul className="vital-kids">{kids.map(([n, l]) => <li key={String(l)}><b className="tabular">{n as number}</b> {l as string}</li>)}</ul></div>}
+      </div>
+    </section>
+  );
+}
+
 // ---------------------------------------------------------------- Okrug hub
 export async function OkrugHub({ locale, okrug }: { locale: Locale; okrug: db.TU }) {
   const d = t(locale);
@@ -228,7 +269,8 @@ export async function OkrugHub({ locale, okrug }: { locale: Locale; okrug: db.TU
 // ---------------------------------------------------------------- JLS / GO hub
 export async function UnitHub({ locale, unit, parent }: { locale: Locale; unit: db.TU; parent: db.TU | null }) {
   const d = t(locale);
-  const [orgs, gos, ancestors, types] = await Promise.all([db.getOrgsInUnit(unit.path), unit.level === "jls" ? db.getChildrenGO(unit.id) : Promise.resolve([]), db.getAncestors(unit.path), db.getOrgTypes()]);
+  const VITAL_TYPES = ["opstinska-uprava", "gradska-uprava", "uprava-gradske-opstine", "lokalna-poreska-administracija", "maticna-sluzba", "dom-zdravlja", "opsta-bolnica", "jkp-vodovod", "eps-distribucija", "jkp-toplana", "jkp-gas", "jkp-cistoca", "jkp-parking-servis", "centar-za-socijalni-rad", "nsz"];
+  const [orgs, gos, ancestors, types, vital] = await Promise.all([db.getOrgsInUnit(unit.path), unit.level === "jls" ? db.getChildrenGO(unit.id) : Promise.resolve([]), db.getAncestors(unit.path), db.getOrgTypes(), db.getVitalForUnit(unit.path, VITAL_TYPES)]);
   const okrug = ancestors.find((a) => a.level === "okrug");
   const national = types.filter((x) => x.national_network);
   const serving = await Promise.all(national.map((x) => db.getServingLocations(unit.level === "jls" ? unit.id : (parent?.id ?? unit.id), x.slug).then((r) => ({ type: x, rows: r }))));
@@ -258,6 +300,7 @@ export async function UnitHub({ locale, unit, parent }: { locale: Locale; unit: 
       })()}
       </div></section>
       <div className="shell py-6">
+      <VitalBlock locale={locale} vital={vital} police={serving.find((s) => s.type.slug === "mup-policijska-uprava")?.rows ?? []} counts={{ os: orgs.filter((o) => o.type_slug === "osnovna-skola").length, ss: orgs.filter((o) => o.type_slug === "srednja-skola").length, pu: orgs.filter((o) => o.type_slug === "predskolska-ustanova").length, apoteke: orgs.filter((o) => o.type_slug === "apoteka").length }} />
       <AdSlot code="jls_top_leaderboard" w={728} h={90} mobileH={100} label={d.ad} />
       <div className="grid lg:grid-cols-[minmax(0,1fr)_300px] gap-8 items-start">
         <div>

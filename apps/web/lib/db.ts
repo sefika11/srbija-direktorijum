@@ -209,3 +209,15 @@ export const getLocationsOfType = (typeSlug: string) =>
                     order by okrug_name_lat nulls last, jls_name_lat, unit_kind = 'filijala' desc, unit_name_lat limit 2000`;
 export const getVerticalById = (id: number) =>
   sql<{ id: number; slug: string; name_lat: string; pitch_lat: string | null; form_schema: unknown }[]>`select id, slug, name_lat, pitch_lat, form_schema from lead_verticals where id = ${id} and is_active`.then((r) => r[0] ?? null);
+
+/** Vital services for a municipality page: one row per organisation of the given types with its primary phone. */
+export type VitalRow = { id: number; slug: string; type_slug: string; name_lat: string; phone: string | null; phone_display: string | null; location_slug: string | null; hours_text: string | null };
+export const getVitalForUnit = (path: string, typeSlugs: string[]) =>
+  sql<VitalRow[]>`select o.id, o.slug, t.slug as type_slug, o.name_lat, c.value as phone, c.value_display as phone_display, l.slug as location_slug, l.hours_text
+    from organizations o join org_types t on t.id = o.org_type_id
+    left join territorial_units f on f.id = o.founder_unit_id
+    left join locations l on l.org_id = o.id and l.is_primary and l.status = 'active'
+    left join territorial_units p on p.id = l.territorial_unit_id
+    left join lateral (select value, value_display from location_contacts lc where lc.location_id = l.id and lc.kind = 'phone' order by lc.id limit 1) c on true
+    where o.status = 'active' and t.slug = any(${typeSlugs}) and (f.path <@ ${path}::ltree or p.path <@ ${path}::ltree)
+    order by t.sort_order, o.name_lat limit 60`;

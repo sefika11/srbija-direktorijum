@@ -64,7 +64,7 @@ function radialTexture(rgb: string, a0: number, a1: number) {
   const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; return t;
 }
 
-type Unit = { f: Feature3D; mesh: THREE.Mesh; edges: THREE.LineSegments; base: number; target: number; cur: number; cx: number; cz: number; top: THREE.MeshStandardMaterial; delay: number; color0: THREE.Color; hot: number };
+type Unit = { f: Feature3D; mesh: THREE.Mesh; edges: THREE.LineSegments; base: number; target: number; cur: number; cx: number; cz: number; top: THREE.MeshStandardMaterial; delay: number; color0: THREE.Color; hot: number; lw?: number };
 
 export default function SerbiaMap3D({ features, context = [], fit, labels, onUnavailable, className }: { features: Feature3D[]; context?: Context3D[]; fit?: BBox; labels: Labels3D; onUnavailable?: () => void; className?: string }) {
   const router = useRouter();
@@ -160,9 +160,18 @@ export default function SerbiaMap3D({ features, context = [], fit, labels, onUna
     const resize = () => {
       const w = el.clientWidth, h = el.clientHeight; if (!w || !h) return;
       renderer.setSize(w, h, false); camera.aspect = w / h; camera.updateProjectionMatrix();
-      // distance so the bounding sphere fits the narrower side of the frame, with a small margin
+      // distance so the projected bounding box fills ~92% of the frame: start from the sphere fit, then correct by projection
       const vfov = THREE.MathUtils.degToRad(camera.fov), hfov = 2 * Math.atan(Math.tan(vfov / 2) * camera.aspect);
-      const dist = (radius * .86) / Math.sin(Math.min(vfov, hfov) / 2);
+      let dist = (radius * .86) / Math.sin(Math.min(vfov, hfov) / 2);
+      const probe = new THREE.PerspectiveCamera(camera.fov, camera.aspect, camera.near, camera.far);
+      const corners = [wx(bb[0]), wx(bb[2])].flatMap((x) => [wz(bb[1]), wz(bb[3])].flatMap((z) => [0, 4 * hs].map((y) => new THREE.Vector3(x, y, z))));
+      for (let i = 0; i < 3; i++) {
+        probe.position.copy(look).addScaledVector(dir, dist); probe.lookAt(look); probe.updateMatrixWorld(); probe.updateProjectionMatrix();
+        let minX = 1, maxX = -1, minY = 1, maxY = -1;
+        for (const c of corners) { const p = c.clone().project(probe); minX = Math.min(minX, p.x); maxX = Math.max(maxX, p.x); minY = Math.min(minY, p.y); maxY = Math.max(maxY, p.y); }
+        const extent = Math.max((maxX - minX) / 2, (maxY - minY) / 2);
+        dist *= extent / .97;
+      }
       camFinal.copy(look).addScaledVector(dir, dist); camStart.copy(look).addScaledVector(dir, dist * 1.75);
       if (reduced) camera.position.copy(camFinal);
     };
@@ -209,11 +218,20 @@ export default function SerbiaMap3D({ features, context = [], fit, labels, onUna
       if (hovered) { halo.position.set(hovered.cx, .03, hovered.cz); const sz = (hovered.f.bbox[2] - hovered.f.bbox[0]) * SCALE * 2.6 + Math.sin(now / 600) * hs; halo.scale.set(sz, sz, 1); hm.opacity = lerp(hm.opacity, 1, .1); }
       else hm.opacity = lerp(hm.opacity, 0, .12);
       const w = canvas.clientWidth, h = canvas.clientHeight;
-      for (const u of units) {
+      const placed: { x: number; y: number; hw: number; hh: number }[] = [];
+      const order = [...units].sort((a, b) => (b === hovered ? 1 : 0) - (a === hovered ? 1 : 0) || b.f.count - a.f.count);
+      for (const u of order) {
         const elb = labelEls.get(u.f.key); if (!elb) continue;
         v3.set(u.cx, u.cur + .4 * hs, u.cz).project(camera);
-        elb.style.transform = `translate(-50%, -100%) translate(${((v3.x + 1) / 2) * w}px, ${((1 - v3.y) / 2) * h}px)`;
-        elb.style.opacity = String((allIn || reduced ? 1 : Math.min(1, Math.max(0, (t - 1400 - u.delay) / 600))) * (hovered && hovered !== u ? .4 : 1));
+        const x = ((v3.x + 1) / 2) * w, y = ((1 - v3.y) / 2) * h;
+        if (!u.lw) u.lw = elb.offsetWidth || 60;
+        const hw = u.lw / 2 + 3, hh = 13; // chip half-size in px (label sits above its anchor)
+        const cy = y - hh;
+        const collides = placed.some((p) => Math.abs(p.x - x) < p.hw + hw && Math.abs(p.y - cy) < p.hh + hh);
+        if (!collides) placed.push({ x, y: cy, hw, hh });
+        elb.style.transform = `translate(-50%, -100%) translate(${x}px, ${y}px)`;
+        const fade = allIn || reduced ? 1 : Math.min(1, Math.max(0, (t - 1400 - u.delay) / 600));
+        elb.style.opacity = String(collides && hovered !== u ? 0 : fade * (hovered && hovered !== u ? .45 : 1));
         elb.classList.toggle("is-hot", hovered === u);
       }
       renderer.render(scene, camera);
