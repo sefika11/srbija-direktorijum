@@ -5,38 +5,186 @@
   "mup-policijska-uprava"
  ],
  "lead_vertical": null,
- "status": "short",
+ "status": "full",
  "sort_order": 12,
  "name_lat": "Prijava prebivališta i boravišta",
  "summary": "Prijava nove adrese stanovanja, odjava stare i prijava privremenog boravišta.",
- "typical_duration": null,
- "euprava_url": null,
+ "typical_duration": "Prijava se obavlja na licu mesta. Rok za prijavu: 8 dana od useljenja (punoletni), 3 meseca od rođenja (novorođenče).",
+ "euprava_url": "https://euprava.gov.rs",
  "online_available": false,
- "fees": [],
- "sources": [],
- "checked_at": null,
+ "fees": [
+  {
+   "item": "Prijava prebivališta punoletnog lica",
+   "amount_rsd": null,
+   "basis": "MUP upućuje na uplatnicu generisanu na eUpravi, bez objavljenog iznosa.",
+   "checked_at": "2026-11-09",
+   "source_url": "https://www.mup.gov.rs/wps/portal/sr/gradjani/dokumenta/prebivaliste/",
+   "note": "Iznos pokazuje uplatnica na eUpravi."
+  },
+  {
+   "item": "Prva prijava prebivališta novorođenog deteta",
+   "amount_rsd": 0,
+   "basis": "MUP: za prvu prijavu novorođenčeta ne plaća se naknada.",
+   "checked_at": "2026-11-09",
+   "source_url": "https://www.mup.gov.rs/wps/portal/sr/gradjani/dokumenta/prebivaliste/"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://www.mup.gov.rs/wps/portal/sr/gradjani/dokumenta/prebivaliste/",
+   "title": "MUP – Prebivalište i boravište",
+   "checked_at": "2026-11-09"
+  },
+  {
+   "url": "https://www.paragraf.rs/propisi_download/zakon_o_prebivalistu_i_boravistu_gradjana.pdf",
+   "title": "Zakon o prebivalištu i boravištu građana",
+   "checked_at": "2026-11-09"
+  }
+ ],
+ "checked_at": "2026-11-09",
  "guide": {
   "sr": {
    "title": "Prijava prebivališta i boravišta",
    "summary": "Prijava nove adrese stanovanja, odjava stare i prijava privremenog boravišta.",
-   "where_note": "Prijava se podnosi policijskoj upravi ili stanici na čijem je području nova adresa, u roku od 8 dana od useljenja.",
+   "where_note": "Lično u policijskoj upravi ili stanici prema novoj adresi, na propisanom obrascu. Vlasnik stana može dati saglasnost preko eUprave ili je overiti kod javnog beležnika.",
    "steps": [
-    "Pripremite ličnu kartu i dokaz o pravnom osnovu stanovanja (vlasnički list, ugovor o zakupu ili saglasnost vlasnika).",
-    "Podnesite prijavu u nadležnoj policijskoj upravi.",
-    "Po prijavi zamenite ličnu kartu ako je adresa upisana u nju."
-   ]
+    "Pripremite dokaz o pravu na stanovanje.",
+    "Ako stan nije vaš, vlasnik daje saglasnost (u policiji, kod beležnika ili na eUpravi).",
+    "Generišite uplatnicu na eUpravi i platite.",
+    "Lično podnesite prijavu u policijskoj upravi prema novoj adresi, u roku od 8 dana od useljenja.",
+    "Ako lična karta nema čip, zatražite novu; karta sa čipom dobija novu adresu u čipu."
+   ],
+   "who": [
+    "Punoletni državljani koji se useljavaju na novu adresu.",
+    "Roditelji ili staratelji za maloletnu decu i lica bez poslovne sposobnosti.",
+    "Građani koji se iseljavaju u inostranstvo (odjava)."
+   ],
+   "documents": [
+    {
+     "name": "Važeća lična karta"
+    },
+    {
+     "name": "Dokaz o pravnom osnovu stanovanja",
+     "note": "Vlasnički list, kupoprodajni ugovor, ugovor o zakupu ili korišćenju stana.",
+     "variants": [
+      "Ako stan nije vaš: saglasnost vlasnika, data u policiji, overena kod beležnika ili preko eUprave."
+     ]
+    },
+    {
+     "name": "Uplatnica sa eUprave",
+     "note": "Prva prijava novorođenčeta je bez naknade."
+    },
+    {
+     "name": "Kad nemate drugi osnov",
+     "note": "Zakon dozvoljava prijavu na adresi ustanove u kojoj ste trajno smešteni ili centra za socijalni rad; o tome odlučuje policijska uprava rešenjem."
+    }
+   ],
+   "faq": [
+    {
+     "q": "U kom roku moram da prijavim promenu adrese?",
+     "a": "Punoletna lica u roku od 8 dana od useljenja; novorođenče u roku od 3 meseca od rođenja."
+    },
+    {
+     "q": "Moram li da odjavim staru adresu?",
+     "a": "Ne pri preseljenju unutar Srbije: nova prijava automatski odjavljuje staru. Odjava je obavezna samo pri iseljenju u inostranstvo."
+    },
+    {
+     "q": "Šta ako vlasnik ne da saglasnost?",
+     "a": "Bez pravnog osnova policijska uprava odlučuje rešenjem; zakon predviđa i prijavu na adresi ustanove ili centra za socijalni rad."
+    },
+    {
+     "q": "Treba li mi nova lična karta?",
+     "a": "Sa čipom ne, adresa se upisuje u čip. Bez čipa se izdaje nova karta."
+    },
+    {
+     "q": "Koliko košta?",
+     "a": "Iznos pokazuje uplatnica sa eUprave; prva prijava novorođenčeta je besplatna."
+    }
+   ],
+   "for_foreigners": "Stranci ne prijavljuju prebivalište kao građani, nego boravište u roku od 24 sata od dolaska (to radi domaćin ili smeštaj, obrazac 1). Stranac sa odobrenim stalnim nastanjenjem prijavljuje promenu adrese na obrascu 3 uz overenu saglasnost vlasnika. Vidi vodič o privremenom boravku."
   },
   "en": {
    "title": "Registering your address",
-   "summary": "Registering a new home address, deregistering the old one and registering a temporary stay."
+   "summary": "Registering a new home address, deregistering the old one and registering a temporary stay.",
+   "who": [
+    "Adult citizens moving to a new address.",
+    "Parents or guardians for minors and persons without legal capacity.",
+    "Citizens emigrating abroad (deregistration)."
+   ],
+   "where_note": "In person at the police directorate or station for the new address, on the prescribed form. The flat owner can give consent on eUprava or have it notarised.",
+   "documents": [
+    {
+     "name": "Valid ID card"
+    },
+    {
+     "name": "Proof of the right to live at the address",
+     "note": "Property sheet, sale contract, lease or use agreement.",
+     "variants": [
+      "If the flat is not yours: the owner's consent, given at the police, notarised or via eUprava."
+     ]
+    },
+    {
+     "name": "eUprava payment slip",
+     "note": "The first registration of a newborn is free."
+    },
+    {
+     "name": "If you have no other basis",
+     "note": "The law allows registration at the address of an institution where you live permanently or of the social work centre; the police decide by ruling."
+    }
+   ],
+   "steps": [
+    "Prepare proof of the right to live there.",
+    "If the flat is not yours, the owner gives consent (police, notary or eUprava).",
+    "Generate and pay the slip on eUprava.",
+    "File in person at the police directorate for the new address within 8 days of moving in.",
+    "If your ID card has no chip, request a new one; chip cards get the new address written to the chip."
+   ],
+   "faq": [
+    {
+     "q": "How soon must I register?",
+     "a": "Adults within 8 days of moving in; newborns within 3 months of birth."
+    },
+    {
+     "q": "Do I deregister the old address?",
+     "a": "Not when moving within Serbia: the new registration cancels the old one. Deregistration is required only when emigrating."
+    },
+    {
+     "q": "What if the owner refuses consent?",
+     "a": "Without a legal basis the police decide by ruling; the law also allows registration at an institution's or social work centre's address."
+    },
+    {
+     "q": "Do I need a new ID card?",
+     "a": "Chip card: no, the address is written to the chip. No chip: a new card is issued."
+    },
+    {
+     "q": "What does it cost?",
+     "a": "The eUprava slip shows the amount; a newborn's first registration is free."
+    }
+   ],
+   "for_foreigners": "Foreigners do not register 'prebivalište' like citizens; their stay is registered within 24 hours of arrival (by the host or accommodation, form 1). A foreigner with permanent residence reports an address change on form 3 with notarised owner consent. See the temporary residence guide."
   },
   "ru": {
    "title": "Регистрация места жительства",
-   "summary": "Регистрация нового адреса, снятие со старого и регистрация временного пребывания."
+   "summary": "Регистрация нового адреса, снятие со старого и регистрация временного пребывания.",
+   "steps": [
+    "Подготовьте документ о праве проживания (собственность или договор аренды).",
+    "Если квартира не ваша, собственник даёт согласие (в полиции, у нотариуса или на eUprava).",
+    "Сформируйте и оплатите квитанцию на eUprava.",
+    "Подайте заявление лично в полицейском управлении по новому адресу в течение 8 дней после переезда."
+   ],
+   "for_foreigners": "Иностранцы регистрируют не «prebivalište», а место пребывания в течение 24 часов после приезда (это делает хозяин жилья или отель, форма 1). См. инструкцию о временном пребывании."
   },
   "de": {
    "title": "Wohnsitz anmelden",
-   "summary": "Neue Wohnadresse anmelden, alte abmelden und vorübergehenden Aufenthalt anmelden."
+   "summary": "Neue Wohnadresse anmelden, alte abmelden und vorübergehenden Aufenthalt anmelden.",
+   "steps": [
+    "Nachweis des Wohnrechts bereitlegen (Eigentum oder Mietvertrag).",
+    "Gehört die Wohnung nicht Ihnen, gibt der Eigentümer seine Zustimmung (Polizei, Notar oder eUprava).",
+    "Zahlschein auf eUprava erzeugen und bezahlen.",
+    "Innerhalb von 8 Tagen nach Einzug persönlich bei der Polizeidirektion der neuen Adresse anmelden."
+   ],
+   "for_foreigners": "Ausländer melden keinen „prebivalište“ an, sondern den Aufenthalt innerhalb von 24 Stunden nach Ankunft (durch Gastgeber oder Unterkunft, Formular 1). Siehe Anleitung zum vorübergehenden Aufenthalt."
   }
- }
+ },
+ "legal_basis": "Zakon o prebivalištu i boravištu građana; ZRAT."
 }

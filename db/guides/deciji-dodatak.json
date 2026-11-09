@@ -6,31 +6,173 @@
   "gradska-uprava"
  ],
  "lead_vertical": null,
- "status": "short",
+ "status": "full",
  "sort_order": 80,
  "name_lat": "Dečiji dodatak",
  "summary": "Mesečno davanje za porodice sa decom čiji prihodi ne prelaze cenzus; priznaje se na godinu dana i obnavlja.",
- "typical_duration": null,
- "euprava_url": null,
+ "typical_duration": "Pravo se priznaje na godinu dana od podnošenja zahteva; obnova najranije 30 dana pre isteka rešenja.",
+ "euprava_url": "https://euprava.gov.rs/finansijska-pomoc-porodici-sa-decom",
  "online_available": false,
- "fees": [],
- "sources": [],
- "checked_at": null,
+ "fees": [
+  {
+   "item": "Podnošenje zahteva",
+   "amount_rsd": 0,
+   "basis": "eUprava ne navodi taksu za zahtev.",
+   "checked_at": "2026-11-09",
+   "source_url": "https://euprava.gov.rs/finansijska-pomoc-porodici-sa-decom"
+  },
+  {
+   "item": "Cenzus prihoda po članu porodice",
+   "amount_rsd": null,
+   "basis": "Usklađuje se dva puta godišnje uredbom Vlade.",
+   "checked_at": "2026-11-09",
+   "source_url": "https://www.b92.net/biz/srbija/vesti/221030/od-danas-cenzus-za-ostvarivanje-prava-na-decji-dodatak-18000-dinara/vest",
+   "note": "Iznos prema novinskom izveštaju, nije potvrđen u Službenom glasniku – proverite pre uplate. Novine navode 18.000 RSD od 1. 4. 2026 (jednoroditeljske porodice 23.400 RSD)."
+  },
+  {
+   "item": "Iznos dečijeg dodatka po detetu",
+   "amount_rsd": null,
+   "basis": "Osnovni iznos uz uvećanja do 80% za posebne kategorije; usklađuje se.",
+   "checked_at": "2026-11-09",
+   "source_url": "https://www.novosti.rs/ekonomija/vesti/1636593/povecan-cenzus-deciji-dodatak-evo-koliko-drzava-sada-daje-detetu-znacajna-finansijska-podrska",
+   "note": "Iznos prema novinskom izveštaju, nije potvrđen u Službenom glasniku – proverite pre uplate. Novine navode 4.415,83 RSD osnovni iznos (2026)."
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://euprava.gov.rs/finansijska-pomoc-porodici-sa-decom",
+   "title": "eUprava – Finansijska pomoć porodici sa decom",
+   "checked_at": "2026-11-09"
+  },
+  {
+   "url": "https://www.beograd.rs/en/zivot-u-beogradu/3903-decji-dodatak/",
+   "title": "Grad Beograd – Dečji dodatak",
+   "checked_at": "2026-11-09"
+  }
+ ],
+ "checked_at": "2026-11-09",
  "guide": {
   "sr": {
    "title": "Dečiji dodatak",
    "summary": "Mesečno davanje za porodice sa decom čiji prihodi ne prelaze cenzus; priznaje se na godinu dana i obnavlja.",
-   "where_note": "Zahtev se podnosi službi za dečiju zaštitu u opštinskoj ili gradskoj upravi prema prebivalištu podnosioca.",
+   "where_note": "Služba za dečiju zaštitu opštinske ili gradske uprave prema prebivalištu, lično ili poštom. Mnoge podatke organ pribavlja po službenoj dužnosti uz vašu saglasnost.",
    "steps": [
-    "Proverite cenzus prihoda za tekući period.",
-    "Pripremite izvode za decu, potvrde o prihodima i dokaz o školovanju.",
-    "Podnesite zahtev u opštinskoj ili gradskoj upravi.",
-    "Rešenje važi godinu dana; obnovite ga pre isteka."
-   ]
+    "Proverite da li prosek neto prihoda po članu za poslednja tri meseca ulazi u cenzus.",
+    "Prikupite dokumenta: lična karta, prihodi, potvrde škole, imovina.",
+    "Podnesite zahtev službi za dečiju zaštitu prema prebivalištu i dajte saglasnost za službenu proveru podataka.",
+    "Sačekajte rešenje; pravo traje godinu dana.",
+    "Obnovu podnesite najranije 30 dana pre isteka; korisnici socijalne pomoći sa decom u školi obnavljaju bez ponovnog dokazivanja prihoda."
+   ],
+   "who": [
+    "Roditelj ili staratelj čiji prosečan neto prihod po članu porodice za tri meseca pre podnošenja ne prelazi cenzus.",
+    "Deca do uzrasta predviđenog zakonom, uz redovno školovanje."
+   ],
+   "documents": [
+    {
+     "name": "Lična karta podnosioca",
+     "note": "Stranci: uverenje o stalnom boravku."
+    },
+    {
+     "name": "Dokaz o neto prihodima za tri meseca pre podnošenja",
+     "note": "Za svakog člana sa prihodom, ako ih organ ne može pribaviti sam."
+    },
+    {
+     "name": "Potvrda o školovanju dece",
+     "note": "Za decu školskog uzrasta, uključujući pripremni predškolski program."
+    },
+    {
+     "name": "Dokaz o imovini i stambenoj površini",
+     "note": "Ako nije u službenim evidencijama."
+    },
+    {
+     "name": "Dokazi za posebne statuse",
+     "note": "Jednoroditeljska porodica, starateljstvo, korisnici socijalne pomoći ili tuđe nege, zdravstveni razlozi neredovnog školovanja."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Koliki je cenzus?",
+     "a": "Utvrđuje ga uredba Vlade i usklađuje se dva puta godišnje; prema novinskim izveštajima od 1. 4. 2026. iznosi 18.000 RSD po članu. Proverite važeći iznos u službi."
+    },
+    {
+     "q": "Koliko traje pravo?",
+     "a": "Godinu dana od podnošenja zahteva."
+    },
+    {
+     "q": "Gde se podnosi?",
+     "a": "U službi za dečiju zaštitu opštinske ili gradske uprave prema prebivalištu."
+    },
+    {
+     "q": "Moram li sam da nosim sva dokumenta?",
+     "a": "Ne, mnoge podatke organ pribavlja po službenoj dužnosti uz vašu saglasnost."
+    },
+    {
+     "q": "Kada mogu da obnovim?",
+     "a": "Najranije 30 dana pre isteka rešenja."
+    }
+   ],
+   "for_foreigners": "Stranci uz ličnu kartu prilažu uverenje o stalnom boravku; ostali uslovi su isti kao za državljane."
   },
   "en": {
    "title": "Child allowance",
-   "summary": "Monthly benefit for families with children below the income threshold; granted for one year and renewed."
+   "summary": "Monthly benefit for families with children below the income threshold; granted for one year and renewed.",
+   "who": [
+    "A parent or guardian whose average net income per family member over the three months before applying is below the threshold.",
+    "Children up to the legal age limit, in regular schooling."
+   ],
+   "where_note": "The child protection service of the municipal or city administration for your address, in person or by post. Many records are obtained ex officio with your consent.",
+   "documents": [
+    {
+     "name": "Applicant's ID card",
+     "note": "Foreigners: certificate of permanent residence."
+    },
+    {
+     "name": "Proof of net income for the three months before applying",
+     "note": "For every earning member, if the authority cannot obtain it itself."
+    },
+    {
+     "name": "School attendance certificates",
+     "note": "For school-age children, including the preparatory preschool year."
+    },
+    {
+     "name": "Proof of property and living space",
+     "note": "If not in official records."
+    },
+    {
+     "name": "Proofs of special status",
+     "note": "Single parent, guardianship, social assistance or care allowance, health reasons for irregular schooling."
+    }
+   ],
+   "steps": [
+    "Check that the three-month average net income per member is below the threshold.",
+    "Gather documents: ID, income, school certificates, property.",
+    "Apply to the child protection service for your address and consent to ex officio checks.",
+    "Wait for the decision; the right lasts one year.",
+    "Renew from 30 days before expiry; social-assistance recipients with children in school renew without proving income again."
+   ],
+   "faq": [
+    {
+     "q": "What is the income threshold?",
+     "a": "Set by government decree and adjusted twice a year; press reports put it at RSD 18,000 per member from 1 April 2026. Check the current figure with the service."
+    },
+    {
+     "q": "How long does the right last?",
+     "a": "One year from the application date."
+    },
+    {
+     "q": "Where do I apply?",
+     "a": "At the child protection service of your municipal or city administration."
+    },
+    {
+     "q": "Do I have to bring every document?",
+     "a": "No, many records are obtained ex officio with your consent."
+    },
+    {
+     "q": "When can I renew?",
+     "a": "From 30 days before the decision expires."
+    }
+   ],
+   "for_foreigners": "Foreigners add a certificate of permanent residence to their ID; other conditions match those for citizens."
   },
   "ru": {
    "title": "Детское пособие",
@@ -40,5 +182,6 @@
    "title": "Kindergeld",
    "summary": "Monatliche Leistung für Familien mit Kindern unter der Einkommensgrenze; für ein Jahr bewilligt und verlängert."
   }
- }
+ },
+ "legal_basis": "Zakon o finansijskoj podršci porodici sa decom."
 }

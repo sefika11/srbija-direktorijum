@@ -96,3 +96,33 @@ Every fee, deadline and document list carries `checked_at` and a source URL. A g
 its "Gde se ide" resolves for all 145 municipalities (coverage complete for its org type) or clearly states
 the exceptions. Guides are written in plain Serbian first (B1 level), then translated; the four languages
 share one structured JSON so the facts cannot drift.
+
+## 6. Life-situations map (vision set 2026-11-10)
+
+Nick's brief: *the most intuitive and vital site for any Serbian citizen, visitor, resident or future resident,
+from start to finish, every institution, every need — tax, payroll, legal options, prison visits, whatever it is.*
+The directory therefore organises guides by **life situation**, not by ministry. Each situation is a hub page
+(`/situacija/{slug}`, Phase 2) listing its guides and the institution types involved; every guide belongs to one
+or more situations. Target: ~80 guides across 16 situations; the 14 shipped so far are marked ✓.
+
+| Situation | Guides (target) |
+|---|---|
+| Dokumenta i identitet | lična karta ✓, pasoš ✓, prijava prebivališta ✓, izvod iz matične knjige ✓, uverenje o državljanstvu, promena imena, digitalni sertifikat / eID |
+| Rođenje i porodica | upis deteta u MKR, roditeljski dodatak, dečiji dodatak ✓, porodiljsko odsustvo, vrtić – upis, alimentacija, razvod |
+| Zdravlje | zdravstvena kartica ✓, izbor lekara, bolovanje, lekovi na recept / participacija, inostrano lečenje, hitna pomoć (194) |
+| Posao i plata | prijava na NSZ ✓, radna knjižica / CROSO izvod, porez na zaradu i doprinosi (šta vam poslodavac odbija), ugovor o radu – prava, otkaz i otpremnina, inspekcija rada |
+| Porezi | porez na imovinu (LPA), godišnji porez na dohodak, PIB za strance ✓, poreski kalendar, povraćaj poreza, e-Porezi |
+| Firma i preduzetništvo | otvaranje firme ✓, paušalno oporezivanje, zatvaranje firme, fiskalizacija, zapošljavanje prvog radnika |
+| Vozilo i saobraćaj | vozačka dozvola ✓, registracija vozila ✓, uvoz i homologacija, kazne i kazneni poeni, parking dozvole za stanare |
+| Stan, kuća, zemlja | katastar – list nepokretnosti, uknjižba, ozakonjenje, građevinska dozvola, porez na prenos, kupoprodaja kod beležnika ✓ |
+| Socijalna zaštita | novčana socijalna pomoć ✓, tuđa nega i pomoć, jednokratna pomoć, narodna kuhinja, smeštaj u dom |
+| Penzija i starost | odlazak u penziju – uslovi, PIO izvod staža, inostrana penzija, porodična penzija |
+| Obrazovanje | upis u osnovnu/srednju školu, upis na fakultet, nostrifikacija diplome, stipendije i studentski dom |
+| Pravo i sudovi | besplatna pravna pomoć (opština), kako podneti tužbu, izvršenje – šta kad dođe izvršitelj ✓(overa), prekršajni nalog, overe kod beležnika ✓ |
+| Policija i bezbednost | prijava krivičnog dela, uverenje o neosuđivanosti, posete u zatvoru (KPZ – termini, dokumenti), oružje – dozvola |
+| Stranci i useljenje | privremeni boravak ✓, stalni boravak, jedinstvena dozvola za rad, državljanstvo, prijava stranca (beli karton), vozačka za strance, prevodioci |
+| Smrt u porodici | prijava smrti i MKU izvod, sahrana – JKP pogrebne usluge, ostavinski postupak kod beležnika, porodična penzija |
+| Komunalno i svakodnevno | prijava stana za vodu/struju, komunalni problemi (48h servisi), psi i kućni ljubimci – čipovanje, reciklaža |
+
+Editorial rule stays: a guide is `full` only with sourced fees/documents; `short` guides are allowed to point to the
+institution type and the official portal. Monetization stays below the procedure (doc 02).

@@ -26,7 +26,8 @@ function fitBox(b: BBox, aspect: number, pad = 0.08): View {
 }
 const intersects = (b: BBox, v: View) => b[2] >= v.x && b[0] <= v.x + v.w && b[3] >= v.y && b[1] <= v.y + v.h;
 
-export default function SerbiaMap({ okruzi, jls, locale, labels }: { okruzi: MapOkrug[]; jls: MapJls[]; locale: Locale; labels: MapLabels }) {
+export default function SerbiaMap({ okruzi, jls, locale, labels, variant = "light", height = "tall" }: { okruzi: MapOkrug[]; jls: MapJls[]; locale: Locale; labels: MapLabels; variant?: "light" | "dark"; height?: "tall" | "hero" }) {
+  const dark = variant === "dark";
   const router = useRouter();
   const wrapRef = useRef<HTMLDivElement>(null);
   const svgRef = useRef<SVGSVGElement>(null);
@@ -142,93 +143,9 @@ export default function SerbiaMap({ okruzi, jls, locale, labels }: { okruzi: Map
   const unitKind = (k: MapJls["jls_kind"]) => (k === "grad" ? labels.city : labels.municipality);
   const fmt = (n: number) => n.toLocaleString(locale === "sr" ? "sr-Latn" : locale);
 
-  return (
-    <div className="grid gap-4 lg:grid-cols-[minmax(0,1fr)_300px] items-stretch">
-      <div ref={wrapRef} className="map-stage relative h-[440px] sm:h-[560px] lg:h-[680px] rounded-2xl overflow-hidden border border-line select-none" style={{ touchAction: "none" }}>
-        <svg ref={svgRef} viewBox={`${view.x} ${view.y} ${view.w} ${view.h}`} className="absolute inset-0 w-full h-full"
-             role="img" aria-label="Mapa Srbije po okruzima i opštinama" preserveAspectRatio="xMidYMid meet"
-             onPointerDown={onPointerDown} onPointerMove={onPointerMove} onPointerUp={onPointerUp} onPointerCancel={onPointerUp}
-             onMouseLeave={() => { setHoverOkrug(null); setHoverJls(null); }} style={{ cursor: pointers.current.size ? "grabbing" : "grab" }}>
-          {/* okrug fills */}
-          {OKRUG_SHAPES.map((s) => {
-            const o = okrugBy[s.slug]; const share = o ? o.org_count / maxOrg : 0;
-            const isHot = hoverOkrug === s.slug && !focused; const dim = focused && focused !== s.slug;
-            return (
-              <path key={s.slug} d={s.d} data-okrug={s.slug}
-                    onPointerEnter={() => { if (!focused) setHoverOkrug(s.slug); }}
-                    onClick={() => { if (isClick()) focusOkrug(s.slug); }}
-                    style={{
-                      fill: isHot ? "var(--accent)" : `color-mix(in oklab, var(--accent) ${14 + Math.round(share * 50)}%, var(--surface))`,
-                      opacity: dim ? 0.32 : showJls && focused === s.slug ? 0 : 1,
-                      stroke: "var(--surface)", strokeWidth: f(1.2), strokeLinejoin: "round", transition: "fill .15s, opacity .25s", cursor: "pointer",
-                    }} />
-            );
-          })}
-          {/* municipality layer */}
-          {showJls && shapes!.map((u) => {
-            if (!intersects(u.bbox, view)) return null;
-            if (focused && u.okrug !== focused && zoom < 2.4) return null;
-            const j = jlsBy[u.slug]; const share = j ? j.org_count / maxJls : 0; const hot = hoverJls === u.slug;
-            return (
-              <path key={u.slug} d={u.d} data-jls={u.slug}
-                    onPointerEnter={() => { setHoverJls(u.slug); setHoverOkrug(u.okrug); }}
-                    onClick={() => { if (isClick()) router.push(href(locale, `/${u.slug}`)); }}
-                    style={{ fill: hot ? "var(--accent)" : `color-mix(in oklab, var(--accent) ${10 + Math.round(Math.sqrt(share) * 42)}%, var(--surface))`,
-                             stroke: "var(--surface)", strokeWidth: f(1), strokeLinejoin: "round", cursor: "pointer", transition: "fill .12s" }} />
-            );
-          })}
-          {/* okrug outlines on top */}
-          {showJls && OKRUG_SHAPES.map((s) => (
-            <path key={`o-${s.slug}`} d={s.d} fill="none" pointerEvents="none"
-                  style={{ stroke: focused === s.slug ? "var(--accent-ink)" : "var(--line)", strokeWidth: f(focused === s.slug ? 2 : 1), strokeLinejoin: "round" }} />
-          ))}
-          {/* labels */}
-          {!showJls && OKRUG_SHAPES.map((s) => {
-            const o = okrugBy[s.slug]; if (!o) return null;
-            const txt = (o.seat_name_lat ?? o.name_lat).replace("Sremska Mitrovica", "S. Mitrovica");
-            // label must fit inside its okrug at this scale (0.56em average glyph width), else drop it
-            if ((s.bbox[2] - s.bbox[0]) * scale < txt.length * okrugLabelPx * 0.56 + 6) return null;
-            return (
-              <text key={`l-${s.slug}`} x={s.cx} y={s.cy} textAnchor="middle" dominantBaseline="middle" pointerEvents="none"
-                    style={{ fontSize: f(okrugLabelPx), fontFamily: "var(--font-sans)", fontWeight: 600, fill: hoverOkrug === s.slug ? "#fff" : "var(--ink)",
-                             paintOrder: "stroke", stroke: hoverOkrug === s.slug ? "transparent" : "var(--surface)", strokeWidth: f(3), strokeLinejoin: "round", letterSpacing: f(0.2) }}>
-                {txt}
-              </text>
-            );
-          })}
-          {showJls && shapes!.map((u) => {
-            if (!intersects(u.bbox, view)) return null;
-            if (focused && u.okrug !== focused && zoom < 2.4) return null;
-            const wpx = (u.bbox[2] - u.bbox[0]) * scale; if (wpx < 44) return null;
-            const hot = hoverJls === u.slug;
-            return (
-              <text key={`jl-${u.slug}`} x={u.cx} y={u.cy} textAnchor="middle" dominantBaseline="middle" pointerEvents="none"
-                    style={{ fontSize: f(jlsLabelPx), fontFamily: "var(--font-sans)", fontWeight: 500, fill: hot ? "#fff" : "var(--ink)",
-                             paintOrder: "stroke", stroke: hot ? "transparent" : "var(--surface)", strokeWidth: f(3), strokeLinejoin: "round" }}>
-                {u.name}
-              </text>
-            );
-          })}
-        </svg>
-
-        {/* overlays */}
-        <div className="absolute left-3 top-3 flex items-center gap-2 text-[12.5px]">
-          <div className="map-chip">
-            <button type="button" onClick={reset} className="font-medium hover:underline">{labels.serbia}</button>
-            {a && focused && <><span aria-hidden className="text-muted">›</span><span className="font-medium">{a.name_lat}</span></>}
-          </div>
-          {focused && <button type="button" onClick={reset} className="map-chip hover:bg-surface-2">← {labels.back}</button>}
-        </div>
-        <div className="absolute right-3 top-3 flex flex-col gap-1.5">
-          <button type="button" aria-label={labels.zoomIn} onClick={() => zoomAt(1.6, size.w / 2, size.h / 2, true)} className="map-btn">+</button>
-          <button type="button" aria-label={labels.zoomOut} onClick={() => zoomAt(1 / 1.6, size.w / 2, size.h / 2, true)} className="map-btn">−</button>
-          <button type="button" aria-label={labels.reset} onClick={reset} className="map-btn text-[13px]">⌂</button>
-        </div>
-        <div className="absolute left-3 bottom-3 hidden sm:block"><div className="map-chip text-[11.5px] text-muted">{showJls ? labels.hintZoomed : labels.hint}</div></div>
-      </div>
-
-      {/* side panel */}
-      <aside className="card p-4 lg:p-5 flex flex-col min-h-[180px] lg:min-h-0 lg:max-h-[680px]">
+  const stageH = height === "hero" ? "h-[420px] sm:h-[520px] lg:h-[620px]" : "h-[440px] sm:h-[560px] lg:h-[680px]";
+  const panel = (
+      <aside className={`card p-4 lg:p-5 flex flex-col min-h-[150px] ${height === "hero" ? "lg:absolute lg:left-4 lg:bottom-4 lg:w-[300px] lg:max-h-[60%] lg:z-10" : "lg:min-h-0 lg:max-h-[680px]"}`}>
         {hj ? (
           <>
             <div className="eyebrow">{unitKind(hj.jls_kind)} · {okrugBy[hj.okrug_slug]?.name_lat}</div>
@@ -263,6 +180,93 @@ export default function SerbiaMap({ okruzi, jls, locale, labels }: { okruzi: Map
           <div className="text-muted text-[13.5px] leading-relaxed">{labels.hint}</div>
         )}
       </aside>
+  );
+  return (
+    <div className={height === "hero" ? "relative grid gap-4" : "grid gap-4 lg:grid-cols-[minmax(0,1fr)_300px] items-stretch"}>
+      <div ref={wrapRef} className={`map-stage relative ${stageH} rounded-2xl overflow-hidden border border-line select-none`} style={{ touchAction: "none" }}>
+        <svg ref={svgRef} viewBox={`${view.x} ${view.y} ${view.w} ${view.h}`} className="absolute inset-0 w-full h-full"
+             role="img" aria-label="Mapa Srbije po okruzima i opštinama" preserveAspectRatio="xMidYMid meet"
+             onPointerDown={onPointerDown} onPointerMove={onPointerMove} onPointerUp={onPointerUp} onPointerCancel={onPointerUp}
+             onMouseLeave={() => { setHoverOkrug(null); setHoverJls(null); }} style={{ cursor: pointers.current.size ? "grabbing" : "grab" }}>
+          {/* okrug fills */}
+          {OKRUG_SHAPES.map((s) => {
+            const o = okrugBy[s.slug]; const share = o ? o.org_count / maxOrg : 0;
+            const isHot = hoverOkrug === s.slug && !focused; const dim = focused && focused !== s.slug;
+            return (
+              <path key={s.slug} d={s.d} data-okrug={s.slug}
+                    onPointerEnter={() => { if (!focused) setHoverOkrug(s.slug); }}
+                    onClick={() => { if (isClick()) focusOkrug(s.slug); }}
+                    style={{
+                      fill: isHot ? (dark ? "#fff" : "var(--accent)") : dark ? `rgb(255 255 255 / ${(0.07 + share * 0.30).toFixed(2)})` : `color-mix(in oklab, var(--accent) ${14 + Math.round(share * 50)}%, var(--surface))`,
+                      opacity: dim ? 0.32 : showJls && focused === s.slug ? 0 : 1,
+                      stroke: dark ? "rgb(6 16 31 / .9)" : "var(--surface)", strokeWidth: f(1.2), strokeLinejoin: "round", transition: "fill .15s, opacity .25s", cursor: "pointer",
+                    }} />
+            );
+          })}
+          {/* municipality layer */}
+          {showJls && shapes!.map((u) => {
+            if (!intersects(u.bbox, view)) return null;
+            if (focused && u.okrug !== focused && zoom < 2.4) return null;
+            const j = jlsBy[u.slug]; const share = j ? j.org_count / maxJls : 0; const hot = hoverJls === u.slug;
+            return (
+              <path key={u.slug} d={u.d} data-jls={u.slug}
+                    onPointerEnter={() => { setHoverJls(u.slug); setHoverOkrug(u.okrug); }}
+                    onClick={() => { if (isClick()) router.push(href(locale, `/${u.slug}`)); }}
+                    style={{ fill: hot ? (dark ? "#fff" : "var(--accent)") : dark ? `rgb(255 255 255 / ${(0.06 + Math.sqrt(share) * 0.26).toFixed(2)})` : `color-mix(in oklab, var(--accent) ${10 + Math.round(Math.sqrt(share) * 42)}%, var(--surface))`,
+                             stroke: dark ? "rgb(6 16 31 / .9)" : "var(--surface)", strokeWidth: f(1), strokeLinejoin: "round", cursor: "pointer", transition: "fill .12s" }} />
+            );
+          })}
+          {/* okrug outlines on top */}
+          {showJls && OKRUG_SHAPES.map((s) => (
+            <path key={`o-${s.slug}`} d={s.d} fill="none" pointerEvents="none"
+                  style={{ stroke: focused === s.slug ? (dark ? "#fff" : "var(--accent-ink)") : dark ? "rgb(255 255 255 / .35)" : "var(--line)", strokeWidth: f(focused === s.slug ? 2 : 1), strokeLinejoin: "round" }} />
+          ))}
+          {/* labels */}
+          {!showJls && OKRUG_SHAPES.map((s) => {
+            const o = okrugBy[s.slug]; if (!o) return null;
+            const txt = (o.seat_name_lat ?? o.name_lat).replace("Sremska Mitrovica", "S. Mitrovica");
+            // label must fit inside its okrug at this scale (0.56em average glyph width), else drop it
+            if ((s.bbox[2] - s.bbox[0]) * scale < txt.length * okrugLabelPx * 0.56 + 6) return null;
+            return (
+              <text key={`l-${s.slug}`} x={s.cx} y={s.cy} textAnchor="middle" dominantBaseline="middle" pointerEvents="none"
+                    style={{ fontSize: f(okrugLabelPx), fontFamily: "var(--font-sans)", fontWeight: 600, fill: hoverOkrug === s.slug ? (dark ? "var(--navy-1)" : "#fff") : dark ? "#fff" : "var(--ink)",
+                             paintOrder: "stroke", stroke: hoverOkrug === s.slug ? "transparent" : dark ? "rgb(6 16 31 / .85)" : "var(--surface)", strokeWidth: f(3), strokeLinejoin: "round", letterSpacing: f(0.2) }}>
+                {txt}
+              </text>
+            );
+          })}
+          {showJls && shapes!.map((u) => {
+            if (!intersects(u.bbox, view)) return null;
+            if (focused && u.okrug !== focused && zoom < 2.4) return null;
+            const wpx = (u.bbox[2] - u.bbox[0]) * scale; if (wpx < 44) return null;
+            const hot = hoverJls === u.slug;
+            return (
+              <text key={`jl-${u.slug}`} x={u.cx} y={u.cy} textAnchor="middle" dominantBaseline="middle" pointerEvents="none"
+                    style={{ fontSize: f(jlsLabelPx), fontFamily: "var(--font-sans)", fontWeight: 500, fill: hot ? (dark ? "var(--navy-1)" : "#fff") : dark ? "#fff" : "var(--ink)",
+                             paintOrder: "stroke", stroke: hot ? "transparent" : dark ? "rgb(6 16 31 / .85)" : "var(--surface)", strokeWidth: f(3), strokeLinejoin: "round" }}>
+                {u.name}
+              </text>
+            );
+          })}
+        </svg>
+
+        {/* overlays */}
+        <div className="absolute left-3 top-3 flex items-center gap-2 text-[12.5px]">
+          <div className="map-chip">
+            <button type="button" onClick={reset} className="font-medium hover:underline">{labels.serbia}</button>
+            {a && focused && <><span aria-hidden className="text-muted">›</span><span className="font-medium">{a.name_lat}</span></>}
+          </div>
+          {focused && <button type="button" onClick={reset} className="map-chip hover:bg-surface-2">← {labels.back}</button>}
+        </div>
+        <div className="absolute right-3 top-3 flex flex-col gap-1.5">
+          <button type="button" aria-label={labels.zoomIn} onClick={() => zoomAt(1.6, size.w / 2, size.h / 2, true)} className="map-btn">+</button>
+          <button type="button" aria-label={labels.zoomOut} onClick={() => zoomAt(1 / 1.6, size.w / 2, size.h / 2, true)} className="map-btn">−</button>
+          <button type="button" aria-label={labels.reset} onClick={reset} className="map-btn text-[13px]">⌂</button>
+        </div>
+        <div className={`absolute left-3 bottom-3 ${height === "hero" ? "hidden" : "hidden sm:block"}`}><div className="map-chip text-[11.5px] text-muted">{showJls ? labels.hintZoomed : labels.hint}</div></div>
+      </div>
+      {panel}
+
     </div>
   );
 }

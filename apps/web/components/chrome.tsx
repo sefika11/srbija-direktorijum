@@ -8,7 +8,7 @@ import SearchBox from "./SearchBox";
 export function Header({ locale, path }: { locale: Locale; path: string }) {
   const d = t(locale);
   return (
-    <header className="sticky top-0 z-40 border-b border-line bg-surface/90 backdrop-blur supports-[backdrop-filter]:bg-surface/80">
+    <header className="site-header sticky top-0 z-40 border-b border-line bg-surface/90 backdrop-blur supports-[backdrop-filter]:bg-surface/80">
       <div className="tricolor" aria-hidden />
       <div className="shell flex items-center gap-4 py-2.5">
         <Link href={href(locale, "/")} className="no-underline text-ink flex items-center gap-2.5 shrink-0">
@@ -34,7 +34,8 @@ export function Footer({ locale }: { locale: Locale }) {
   return (
     <footer className="site-footer mt-20">
       <div className="tricolor-thin" aria-hidden />
-      <div className="shell py-12 grid gap-8 md:grid-cols-[1.4fr_1fr_1fr] text-[13.5px]">
+      <div className="shell pt-12 overflow-hidden"><div className="wordmark whitespace-nowrap">{d.siteName}</div></div>
+      <div className="shell py-10 grid gap-8 md:grid-cols-[1.4fr_1fr_1fr] text-[13.5px]">
         <div>
           <div className="flex items-center gap-2.5"><span aria-hidden className="brand-mark">A</span><span className="font-serif font-semibold text-[17px] text-white">{d.siteName}</span></div>
           <p className="mt-3 max-w-md leading-relaxed">{d.tagline}</p>

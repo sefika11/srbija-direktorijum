@@ -5,31 +5,227 @@
   "mup-policijska-uprava"
  ],
  "lead_vertical": "osiguranje-vozila",
- "status": "short",
+ "status": "full",
  "sort_order": 31,
  "name_lat": "Registracija vozila",
  "summary": "Prva registracija, produženje registracije i promena vlasnika vozila.",
- "typical_duration": null,
- "euprava_url": null,
+ "typical_duration": "Produženje se završava na licu mesta na tehničkom pregledu; potvrda o tehničkoj ispravnosti važi 30 dana. Privremena registracija najduže godinu dana.",
+ "euprava_url": "https://euprava.gov.rs",
  "online_available": false,
- "fees": [],
- "sources": [],
- "checked_at": null,
+ "fees": [
+  {
+   "item": "Republička taksa: saobraćajna dozvola (tarifni broj 41)",
+   "amount_rsd": 880,
+   "basis": "ZRAT, tarifni broj 41",
+   "checked_at": "2026-11-09",
+   "source_url": "https://www.paragraf.rs/propisi/zakon_o_republickim_administrativnim_taksama.html"
+  },
+  {
+   "item": "Republička taksa: registraciona nalepnica",
+   "amount_rsd": 270,
+   "basis": "ZRAT, tarifni broj 41",
+   "checked_at": "2026-11-09",
+   "source_url": "https://www.paragraf.rs/propisi/zakon_o_republickim_administrativnim_taksama.html"
+  },
+  {
+   "item": "Registarske tablice za putničko vozilo, par",
+   "amount_rsd": 1490,
+   "basis": "ZRAT, tarifni broj 41",
+   "checked_at": "2026-11-09",
+   "source_url": "https://www.paragraf.rs/propisi/zakon_o_republickim_administrativnim_taksama.html",
+   "note": "Duplikat para 2.940 RSD."
+  },
+  {
+   "item": "Potvrda o privremenoj registraciji",
+   "amount_rsd": 3120,
+   "basis": "ZRAT, tarifni broj 41",
+   "checked_at": "2026-11-09",
+   "source_url": "https://www.paragraf.rs/propisi/zakon_o_republickim_administrativnim_taksama.html"
+  },
+  {
+   "item": "Naknade za obrasce (saobraćajna dozvola, nalepnica, tablice)",
+   "amount_rsd": null,
+   "basis": "Uredba o cenama obrazaca MUP, primena od 12. 9. 2026.",
+   "checked_at": "2026-11-09",
+   "source_url": "https://biznis.kurir.rs/novcanik/10102412/nove-takse-mup-a-cene-licnih-dokumenata-i-tablica",
+   "note": "Iznos prema novinskom izveštaju, nije potvrđen u Službenom glasniku – proverite pre uplate. Novine navode 858 RSD (dozvola), 342 RSD (nalepnica), 1.380 RSD (tablice)."
+  },
+  {
+   "item": "Porez na prenos apsolutnih prava (polovno vozilo)",
+   "amount_rsd": null,
+   "basis": "2,5% na osnovicu koju utvrđuje Poreska uprava prema zapremini, snazi i starosti vozila; plaća kupac samooporezivanjem.",
+   "checked_at": "2026-11-09",
+   "source_url": "https://www.purs.gov.rs/lat/fizicka-lica/prenos-automobili/8177/prenos-vlasnistva-izmedju-dva-pravna-lica-odnosno-izmedju-pravnog-i-fizickog-lica.html",
+   "note": "Iznos zavisi od vozila; obračun na eUpravi ili u Poreskoj upravi."
+  },
+  {
+   "item": "Osiguranje od autoodgovornosti, tehnički pregled, komunalna taksa i naknada za puteve",
+   "amount_rsd": null,
+   "basis": "Cene osiguravača i tehničkih pregleda; lokalne i zakonske naknade.",
+   "checked_at": "2026-11-09",
+   "note": "Nisu republičke takse; ukupan iznos vam obračunava tehnički pregled."
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://mup.gov.rs/wps/portal/sr/gradjani/dokumenta/registracija%20vozila/izdavanje%20registracione%20nalepnice/",
+   "title": "MUP – Izdavanje registracione nalepnice",
+   "checked_at": "2026-11-09"
+  },
+  {
+   "url": "https://mup.gov.rs/wps/portal/sr/gradjani/dokumenta/registracija%20vozila/promena%20saobracajne%20dozvole/",
+   "title": "MUP – Promena saobraćajne dozvole",
+   "checked_at": "2026-11-09"
+  },
+  {
+   "url": "https://www.mup.gov.rs/wps/portal/sr/gradjani/dokumenta/registracija%20vozila/privremena%20registracija/",
+   "title": "MUP – Privremena registracija",
+   "checked_at": "2026-11-09"
+  },
+  {
+   "url": "https://www.paragraf.rs/propisi/zakon_o_republickim_administrativnim_taksama.html",
+   "title": "ZRAT (Paragraf)",
+   "checked_at": "2026-11-09"
+  },
+  {
+   "url": "https://www.purs.gov.rs/lat/fizicka-lica/prenos-automobili/8177/prenos-vlasnistva-izmedju-dva-pravna-lica-odnosno-izmedju-pravnog-i-fizickog-lica.html",
+   "title": "Poreska uprava – prenos vlasništva nad vozilom",
+   "checked_at": "2026-11-09"
+  }
+ ],
+ "checked_at": "2026-11-09",
  "guide": {
   "sr": {
    "title": "Registracija vozila",
    "summary": "Prva registracija, produženje registracije i promena vlasnika vozila.",
-   "where_note": "Registracija se obavlja u policijskoj upravi ili stanici prema prebivalištu vlasnika, a produženje i u ovlašćenim tehničkim pregledima.",
+   "where_note": "Upis u registar i izdavanje saobraćajne dozvole: policijska uprava prema prebivalištu vlasnika (termin preko eUprave). Produženje registracije obavlja se na ovlašćenim tehničkim pregledima. Uplatnica se generiše na eUpravi.",
    "steps": [
-    "Uradite tehnički pregled vozila.",
+    "Obavite tehnički pregled; potvrda važi 30 dana.",
     "Zaključite obavezno osiguranje od autoodgovornosti.",
-    "Platite takse i naknade po obračunu.",
-    "Podnesite zahtev sa saobraćajnom dozvolom i ličnom kartom; nalepnicu dobijate odmah."
-   ]
+    "Generišite uplatnicu na eUpravi i platite takse i naknade.",
+    "Na ovlašćenom tehničkom pregledu (produženje) ili u policijskoj upravi (prva registracija, promena vlasnika) predajte dokumenta i preuzmite nalepnicu ili saobraćajnu dozvolu.",
+    "Pri kupovini polovnog vozila: overite ugovor kod beležnika, platite porez na prenos i podnesite zahtev za promenu vlasnika."
+   ],
+   "who": [
+    "Vlasnici koji prvi put registruju vozilo (novo ili uvezeno).",
+    "Vlasnici koji svake godine produžavaju registraciju.",
+    "Kupci polovnih vozila (promena vlasnika).",
+    "Stranci i vlasnici stranih vozila (privremena registracija)."
+   ],
+   "documents": [
+    {
+     "name": "Produženje registracije",
+     "note": "Registracioni list sa potvrdom o tehničkoj ispravnosti (do 30 dana), polisa obaveznog osiguranja, lična karta, uplatnica sa eUprave.",
+     "variants": [
+      "Stranci: lična karta za strance ili pasoš uz boravak duži od 6 meseci."
+     ]
+    },
+    {
+     "name": "Prva registracija",
+     "note": "Dokaz o poreklu i vlasništvu (račun ili ugovor), dokaz o izmirenim carinskim i poreskim obavezama, osiguranje, tehnički pregled do 30 dana, lična karta, uplatnica."
+    },
+    {
+     "name": "Promena vlasnika",
+     "note": "Registracioni list, dokaz o vlasništvu sa izmirenim porezom (kupoprodajni ugovor, ugovor o poklonu ili rešenje o nasleđivanju), lična karta, uplatnica.",
+     "variants": [
+      "Ugovor između fizičkih lica mora imati overene potpise (javni beležnik).",
+      "Porez na prenos apsolutnih prava plaća kupac samooporezivanjem; dokaz o uplati ide uz zahtev."
+     ]
+    },
+    {
+     "name": "Privremena registracija",
+     "note": "Najduže godinu dana, prema odobrenju carine za privremeni uvoz: tehnički pregled do 30 dana, osiguranje, dokaz o vlasništvu, odobrenje carine, isprava o identitetu, uplatnica. Po isteku se vraćaju potvrda i tablice."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Gde se produžava registracija?",
+     "a": "Na ovlašćenim tehničkim pregledima, uz tehnički pregled, osiguranje, ličnu kartu i uplatu."
+    },
+    {
+     "q": "Mora li kupoprodajni ugovor biti overen?",
+     "a": "Da, kod ugovora između fizičkih lica potpisi moraju biti overeni kod javnog beležnika."
+    },
+    {
+     "q": "Ko plaća porez na prenos?",
+     "a": "Kupac, samooporezivanjem; dokaz o uplati prilaže se uz zahtev za promenu vlasnika."
+    },
+    {
+     "q": "Koliko traje privremena registracija?",
+     "a": "Najduže godinu dana, prema odobrenju carine za privremeni uvoz."
+    },
+    {
+     "q": "Koliko iznose takse?",
+     "a": "Republičke takse po tarifnom broju 41: saobraćajna dozvola 880 RSD, nalepnica 270 RSD, tablice 1.490 RSD; naknade za obrasce, osiguranje, tehnički pregled i porez se dodaju. Tačan iznos pokazuje uplatnica."
+    }
+   ],
+   "for_foreigners": "Stranac sa odobrenim boravkom dužim od 6 meseci registruje vozilo uz pasoš ili ličnu kartu za strance. Vozilo sa stranim tablicama koje se privremeno uvozi dobija privremenu registraciju do godinu dana uz odobrenje carine."
   },
   "en": {
    "title": "Vehicle registration",
-   "summary": "First registration, yearly renewal and change of owner."
+   "summary": "First registration, yearly renewal and change of owner.",
+   "who": [
+    "Owners registering a vehicle for the first time (new or imported).",
+    "Owners renewing registration every year.",
+    "Buyers of used vehicles (change of owner).",
+    "Foreigners and owners of foreign vehicles (temporary registration)."
+   ],
+   "where_note": "Registry entry and registration certificate: police directorate for the owner's address (appointment via eUprava). Yearly renewal is done at authorised technical inspection stations. The payment slip is generated on eUprava.",
+   "documents": [
+    {
+     "name": "Renewal",
+     "note": "Registration sheet with a technical inspection certificate (under 30 days), compulsory insurance policy, ID card, eUprava slip.",
+     "variants": [
+      "Foreigners: foreigner's ID card or passport with residence over 6 months."
+     ]
+    },
+    {
+     "name": "First registration",
+     "note": "Proof of origin and ownership (invoice or contract), proof that customs and tax duties are settled, insurance, technical inspection under 30 days, ID card, slip."
+    },
+    {
+     "name": "Change of owner",
+     "note": "Registration sheet, proof of ownership with tax settled (sale contract, gift contract or inheritance decision), ID card, slip.",
+     "variants": [
+      "Contracts between private individuals need notarised signatures.",
+      "The buyer pays the transfer tax by self-assessment; proof goes with the request."
+     ]
+    },
+    {
+     "name": "Temporary registration",
+     "note": "Up to one year, following customs approval for temporary import: inspection under 30 days, insurance, proof of ownership, customs approval, ID, slip. Certificate and plates are returned at expiry."
+    }
+   ],
+   "steps": [
+    "Pass the technical inspection; the certificate is valid 30 days.",
+    "Take out compulsory third-party insurance.",
+    "Generate and pay the slip on eUprava.",
+    "At the inspection station (renewal) or police directorate (first registration, change of owner) submit documents and collect the sticker or certificate.",
+    "When buying a used car: notarise the contract, pay the transfer tax and file the change of owner."
+   ],
+   "faq": [
+    {
+     "q": "Where do I renew?",
+     "a": "At authorised technical inspection stations, with the inspection, insurance, ID and payment."
+    },
+    {
+     "q": "Must the sale contract be notarised?",
+     "a": "Yes, for contracts between private individuals the signatures must be certified by a notary."
+    },
+    {
+     "q": "Who pays the transfer tax?",
+     "a": "The buyer, by self-assessment; proof of payment goes with the change-of-owner request."
+    },
+    {
+     "q": "How long can temporary registration last?",
+     "a": "At most one year, following customs approval for temporary import."
+    },
+    {
+     "q": "What are the fees?",
+     "a": "State fees under tariff no. 41: registration certificate RSD 880, sticker 270, plates 1,490; form costs, insurance, inspection and tax come on top. The slip shows the exact total."
+    }
+   ],
+   "for_foreigners": "A foreigner with residence longer than 6 months registers a vehicle with a passport or foreigner's ID. A foreign-plated vehicle imported temporarily gets temporary registration up to one year with customs approval."
   },
   "ru": {
    "title": "Регистрация автомобиля",
@@ -39,5 +235,6 @@
    "title": "Fahrzeugzulassung",
    "summary": "Erstzulassung, jährliche Verlängerung und Halterwechsel."
   }
- }
+ },
+ "legal_basis": "Zakon o bezbednosti saobraćaja na putevima; ZRAT tarifni broj 41; Zakon o porezima na imovinu (porez na prenos apsolutnih prava)."
 }

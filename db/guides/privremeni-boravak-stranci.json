@@ -5,39 +5,249 @@
   "mup-policijska-uprava"
  ],
  "lead_vertical": "sudski-prevodilac",
- "status": "short",
+ "status": "full",
  "sort_order": 60,
  "name_lat": "Privremeni boravak za strance",
  "summary": "Odobrenje privremenog boravka po osnovu zaposlenja, studiranja, spajanja porodice ili vlasništva nad nekretninom; jedinstvena dozvola za boravak i rad.",
- "typical_duration": null,
+ "typical_duration": "Jedinstvena dozvola: odluka u roku od 15 dana od urednog zahteva. Dozvola važi do 3 godine. Produženje najranije 3 meseca pre isteka, najkasnije do isteka; ako je podneto na vreme, boravak je dozvoljen do kraja postupka.",
  "euprava_url": "https://welcometoserbia.gov.rs",
  "online_available": true,
- "fees": [],
- "sources": [],
- "checked_at": null,
+ "fees": [
+  {
+   "item": "Taksa za podnošenje zahteva",
+   "amount_rsd": 430,
+   "basis": "ZRAT tarifni broj 1; welcometoserbia.gov.rs",
+   "checked_at": "2026-11-09",
+   "source_url": "https://welcometoserbia.gov.rs/help"
+  },
+  {
+   "item": "Taksa za odobrenje privremenog boravka",
+   "amount_rsd": 23450,
+   "basis": "ZRAT tarifni broj 37; welcometoserbia.gov.rs",
+   "checked_at": "2026-11-09",
+   "source_url": "https://welcometoserbia.gov.rs/help"
+  },
+  {
+   "item": "Taksa za izdavanje jedinstvene dozvole za boravak i rad",
+   "amount_rsd": 22770,
+   "basis": "ZRAT tarifni broj 37; welcometoserbia.gov.rs",
+   "checked_at": "2026-11-09",
+   "source_url": "https://welcometoserbia.gov.rs/help"
+  },
+  {
+   "item": "Privremeni boravak po osnovu braka ili srodstva sa državljaninom Srbije",
+   "amount_rsd": 11725,
+   "basis": "ZRAT tarifni broj 37, umanjenje 50%",
+   "checked_at": "2026-11-09",
+   "source_url": "https://welcometoserbia.gov.rs/help",
+   "note": "Državljani Severne Makedonije, Mongolije, Kipra i Belorusije plaćaju samo taksu za podnošenje."
+  },
+  {
+   "item": "Žalba na odbijanje jedinstvene dozvole",
+   "amount_rsd": 10950,
+   "basis": "ZRAT tarifni broj 37",
+   "checked_at": "2026-11-09",
+   "source_url": "https://www.paragraf.rs/propisi/zakon_o_republickim_administrativnim_taksama.html"
+  },
+  {
+   "item": "Viza D (ako vam je potrebna)",
+   "amount_rsd": null,
+   "basis": "50 EUR u dinarskoj protivvrednosti po srednjem kursu NBS.",
+   "checked_at": "2026-11-09",
+   "source_url": "https://welcometoserbia.gov.rs/help"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://welcometoserbia.gov.rs/temporary-residence",
+   "title": "Welcome to Serbia – Privremeni boravak",
+   "checked_at": "2026-11-09"
+  },
+  {
+   "url": "https://welcometoserbia.gov.rs/information-about-the-single-permit",
+   "title": "Welcome to Serbia – Jedinstvena dozvola",
+   "checked_at": "2026-11-09"
+  },
+  {
+   "url": "https://welcometoserbia.gov.rs/help",
+   "title": "Welcome to Serbia – Takse i česta pitanja",
+   "checked_at": "2026-11-09"
+  },
+  {
+   "url": "https://www.mup.gov.rs/wps/portal/en/information/Temporary+residence",
+   "title": "MUP – Temporary residence",
+   "checked_at": "2026-11-09"
+  },
+  {
+   "url": "https://mup.gov.rs/wps/portal/sr/gradjani/Informacije%20za%20strance/prijava%20boravista%20stranca/",
+   "title": "MUP – Prijava boravišta stranca",
+   "checked_at": "2026-11-09"
+  }
+ ],
+ "checked_at": "2026-11-09",
  "guide": {
   "sr": {
    "title": "Privremeni boravak za strance",
    "summary": "Odobrenje privremenog boravka po osnovu zaposlenja, studiranja, spajanja porodice ili vlasništva nad nekretninom; jedinstvena dozvola za boravak i rad.",
-   "where_note": "Zahtev se podnosi policijskoj upravi prema mestu boravka stranca ili elektronski preko portala za strance (welcometoserbia.gov.rs).",
+   "where_note": "Jedinstvena dozvola za boravak i rad podnosi se isključivo elektronski preko Portala za strance (welcometoserbia.gov.rs). Privremeni boravak: elektronski preko portala ili lično u policijskoj upravi prema mestu boravka; maloletna lica samo lično. Biometrija se uzima lično posle odobrenja, po pozivu u eSanduče.",
    "steps": [
-    "Prijavite adresu boravišta u roku od 24 sata od dolaska (hoteli to rade automatski).",
-    "Pripremite pasoš, dokaz o osnovu boravka, sredstvima za izdržavanje i zdravstvenom osiguranju.",
-    "Podnesite zahtev elektronski ili u policijskoj upravi pre isteka dozvoljenog boravka.",
-    "Posle odobrenja preuzmite biometrijsku ispravu za strance."
-   ]
+    "Na welcometoserbia.gov.rs proverite spisak dokumenata za svoj osnov.",
+    "Prijavite adresu u roku od 24 sata od dolaska: to radi domaćin ili smeštaj (obrazac 1).",
+    "Podnesite zahtev elektronski (jedinstvena dozvola samo online) ili u policijskoj upravi i platite takse.",
+    "Po pozivu u eSanduče dođite lično na uzimanje biometrijskih podataka.",
+    "Preuzmite biometrijsku ispravu za strance; produženje tražite najranije 3 meseca pre isteka."
+   ],
+   "who": [
+    "Stranci koji ostaju duže od 90 dana u periodu od 180 dana.",
+    "Zaposleni, samozaposleni, upućena lica i unutarkorporativni transferi (jedinstvena dozvola za boravak i rad).",
+    "Studenti, istraživači, volonteri, članovi porodice, vlasnici nepokretnosti, investitori, osnivači startapa, digitalni nomadi, lica srpskog porekla."
+   ],
+   "documents": [
+    {
+     "name": "Važeći pasoš",
+     "note": "Mora važiti najmanje 3 meseca duže od traženog boravka."
+    },
+    {
+     "name": "Dokaz o adresi stanovanja",
+     "note": "Ugovor o zakupu ili izjava stanodavca overena kod beležnika; za zahteve iz inostranstva prihvata se i bez overe."
+    },
+    {
+     "name": "Dokaz o sredstvima za izdržavanje i zdravstveno osiguranje",
+     "note": "Za većinu osnova koji nisu zaposlenje."
+    },
+    {
+     "name": "Dokumentacija za osnov boravka",
+     "note": "Ugovor o radu (poslodavac vodi test tržišta rada), potvrda o studijama, izvodi za spajanje porodice, list nepokretnosti i slično; dokumenta na stranom jeziku sa prevodom sudskog tumača. Alat na portalu daje tačan spisak za vaš osnov.",
+     "variants": [
+      "Investitor: sredstva banke najmanje 50.000 EUR, prva dozvola 6 meseci.",
+      "Startap, talenat, srpsko poreklo: prva dozvola 1 godina.",
+      "Fotografije: 2 kom 35 × 45 mm (privremeni boravak), 1 kom (jedinstvena dozvola)."
+     ]
+    }
+   ],
+   "faq": [
+    {
+     "q": "Može li jedinstvena dozvola papirno?",
+     "a": "Ne. Od 1. 2. 2024. isključivo elektronski preko Portala za strance; zahtev može podneti stranac, poslodavac ili punomoćnik."
+    },
+    {
+     "q": "Koliko važi privremeni boravak?",
+     "a": "Do 3 godine uz produženje; investitor prvih 6 meseci, startap, talenat i srpsko poreklo prvih godinu dana."
+    },
+    {
+     "q": "Kolike su takse?",
+     "a": "Podnošenje 430 RSD; odobrenje 23.450 RSD (privremeni boravak) ili 22.770 RSD (jedinstvena dozvola); 11.725 RSD za članove porodice državljana Srbije."
+    },
+    {
+     "q": "U kom roku se prijavljuje adresa?",
+     "a": "U roku od 24 sata od dolaska, u dežurnoj službi policijske stanice, na obrascu 1; prijavu podnosi domaćin ili smeštaj."
+    },
+    {
+     "q": "Šta ako produženje podnesem pred istek?",
+     "a": "Ako je podneto na vreme, najranije 3 meseca pre i najkasnije do isteka, možete ostati do završetka postupka."
+    }
+   ],
+   "for_foreigners": "Ceo vodič je za strance. Državljani kojima ne treba viza podnose zahtev elektronski tokom zakonitog boravka, i iz inostranstva; oni kojima treba viza ulaze sa vizom D (50 EUR) i podnose zahtev dok viza važi."
   },
   "en": {
    "title": "Temporary residence for foreigners",
-   "summary": "Temporary residence based on employment, study, family reunification or property ownership; the unified residence and work permit."
+   "summary": "Temporary residence based on employment, study, family reunification or property ownership; the unified residence and work permit.",
+   "who": [
+    "Foreigners staying longer than 90 days in any 180-day period.",
+    "Employees, self-employed, posted workers and intra-company transferees (single residence and work permit).",
+    "Students, researchers, volunteers, family members, property owners, investors, start-up founders, digital nomads, people of Serbian origin."
+   ],
+   "where_note": "The single residence and work permit is filed exclusively online on the Foreigners' Portal (welcometoserbia.gov.rs). Temporary residence: online on the portal or in person at the police directorate for your place of stay; minors in person only. Biometrics are taken in person after approval, on notice in your eDatabox.",
+   "documents": [
+    {
+     "name": "Valid passport",
+     "note": "Must be valid at least 3 months beyond the requested stay."
+    },
+    {
+     "name": "Proof of address",
+     "note": "Lease or notarised landlord statement; for applications from abroad an unnotarised statement is accepted."
+    },
+    {
+     "name": "Proof of means and health insurance",
+     "note": "For most non-employment grounds."
+    },
+    {
+     "name": "Documents for your ground of stay",
+     "note": "Employment contract (the employer runs the labour-market test), study confirmation, family certificates, property folio etc.; foreign-language documents with a court-interpreter translation. The portal's discovery tool lists the exact set.",
+     "variants": [
+      "Investor: bank funds of at least EUR 50,000, first permit 6 months.",
+      "Start-up, talent, Serbian origin: first permit 1 year.",
+      "Photos: 2 × 35 × 45 mm (temporary residence), 1 (single permit)."
+     ]
+    }
+   ],
+   "steps": [
+    "Check the document list for your ground on welcometoserbia.gov.rs.",
+    "Register your address within 24 hours of arrival: your host or accommodation does this (form 1).",
+    "File online (single permit online only) or at the police directorate and pay the fees.",
+    "Attend in person for biometrics when notified in your eDatabox.",
+    "Collect the biometric document; apply for extension from 3 months before expiry."
+   ],
+   "faq": [
+    {
+     "q": "Can the single permit be filed on paper?",
+     "a": "No. Since 1 Feb 2024 only online via the Foreigners' Portal; the foreigner, employer or an authorised person can file."
+    },
+    {
+     "q": "How long is temporary residence valid?",
+     "a": "Up to 3 years, renewable; investors 6 months at first, start-ups, talents and Serbian origin 1 year at first."
+    },
+    {
+     "q": "What are the fees?",
+     "a": "Submission RSD 430; approval RSD 23,450 (temporary residence) or 22,770 (single permit); RSD 11,725 for family members of Serbian citizens."
+    },
+    {
+     "q": "When must the address be registered?",
+     "a": "Within 24 hours of arrival, at the police station duty desk, on form 1; the host or accommodation files it."
+    },
+    {
+     "q": "What if I file the extension close to expiry?",
+     "a": "If filed in time, from 3 months before and no later than expiry, you may stay until the procedure ends."
+    }
+   ],
+   "for_foreigners": "The whole guide is for foreigners. Visa-exempt nationals file online during lawful stay, also from abroad; visa-required nationals enter on a D visa (EUR 50) and file while it is valid."
   },
   "ru": {
    "title": "Временное пребывание для иностранцев",
-   "summary": "ВНЖ на основании работы, учёбы, воссоединения семьи или недвижимости; единое разрешение на пребывание и работу."
+   "summary": "ВНЖ на основании работы, учёбы, воссоединения семьи или недвижимости; единое разрешение на пребывание и работу.",
+   "who": [
+    "Иностранцы, остающиеся дольше 90 дней в течение 180 дней.",
+    "Работники, самозанятые и командированные (единое разрешение на пребывание и работу).",
+    "Студенты, члены семьи, собственники недвижимости, инвесторы, цифровые кочевники."
+   ],
+   "where_note": "Единое разрешение подаётся только онлайн на портале welcometoserbia.gov.rs. Временное пребывание: онлайн или лично в полицейском управлении по месту пребывания.",
+   "steps": [
+    "Проверьте список документов для вашего основания на welcometoserbia.gov.rs.",
+    "Зарегистрируйте адрес в течение 24 часов после приезда (делает хозяин жилья, форма 1).",
+    "Подайте заявление онлайн или в полицейском управлении и оплатите пошлины: подача 430 RSD, одобрение 23 450 RSD (пребывание) или 22 770 RSD (единое разрешение).",
+    "Явитесь лично на снятие биометрии по приглашению в eSanduče.",
+    "Получите биометрический документ; продление — не ранее чем за 3 месяца до истечения."
+   ],
+   "for_foreigners": "Граждане стран без визового режима подают заявление онлайн во время законного пребывания; остальные въезжают по визе D (50 EUR) и подают заявление, пока виза действует. Паспорт должен действовать на 3 месяца дольше запрашиваемого срока."
   },
   "de": {
    "title": "Vorübergehender Aufenthalt für Ausländer",
-   "summary": "Aufenthaltstitel aufgrund Beschäftigung, Studium, Familienzusammenführung oder Immobilienbesitz; die einheitliche Aufenthalts- und Arbeitserlaubnis."
+   "summary": "Aufenthaltstitel aufgrund Beschäftigung, Studium, Familienzusammenführung oder Immobilienbesitz; die einheitliche Aufenthalts- und Arbeitserlaubnis.",
+   "who": [
+    "Ausländer, die länger als 90 Tage in 180 Tagen bleiben.",
+    "Beschäftigte, Selbstständige und Entsandte (einheitliche Aufenthalts- und Arbeitserlaubnis).",
+    "Studierende, Familienangehörige, Immobilieneigentümer, Investoren, digitale Nomaden."
+   ],
+   "where_note": "Die einheitliche Erlaubnis wird ausschließlich online über welcometoserbia.gov.rs beantragt. Vorübergehender Aufenthalt: online oder persönlich bei der Polizeidirektion des Aufenthaltsorts.",
+   "steps": [
+    "Unterlagen für Ihren Aufenthaltsgrund auf welcometoserbia.gov.rs prüfen.",
+    "Adresse innerhalb von 24 Stunden nach Ankunft anmelden (durch Gastgeber oder Unterkunft, Formular 1).",
+    "Antrag online oder bei der Polizeidirektion stellen und Gebühren zahlen: Antrag 430 RSD, Genehmigung 23.450 RSD (Aufenthalt) bzw. 22.770 RSD (einheitliche Erlaubnis).",
+    "Nach Aufforderung im eSanduče persönlich zur Biometrie erscheinen.",
+    "Biometrisches Dokument abholen; Verlängerung frühestens 3 Monate vor Ablauf."
+   ],
+   "for_foreigners": "Visumfreie Staatsangehörige beantragen online während des rechtmäßigen Aufenthalts; andere reisen mit Visum D (50 EUR) ein und beantragen, solange es gilt. Der Pass muss 3 Monate über den beantragten Aufenthalt hinaus gültig sein."
   }
- }
+ },
+ "legal_basis": "Zakon o strancima; Zakon o zapošljavanju stranaca; ZRAT tarifni brojevi 1 i 37."
 }

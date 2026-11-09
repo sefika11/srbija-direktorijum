@@ -5,39 +5,251 @@
   "apr"
  ],
  "lead_vertical": "knjigovodstvo",
- "status": "short",
+ "status": "full",
  "sort_order": 70,
  "name_lat": "Otvaranje firme ili registracija preduzetnika",
  "summary": "Registracija preduzetnika ili društva sa ograničenom odgovornošću u Agenciji za privredne registre.",
- "typical_duration": null,
- "euprava_url": "https://www.apr.gov.rs",
+ "typical_duration": "APR odlučuje u roku od 5 radnih dana od prijema prijave. Rešenje o paušalnom oporezivanju stiže u poresko sanduče na ePorezima u roku od 48 sati.",
+ "euprava_url": "https://www.apr.gov.rs/usluge/eservisi/eregistracija-osnivanja-preduzetnika.2406.html",
  "online_available": true,
- "fees": [],
- "sources": [],
- "checked_at": null,
+ "fees": [
+  {
+   "item": "Registracija osnivanja preduzetnika",
+   "amount_rsd": 2500,
+   "basis": "Odluka o naknadama APR",
+   "checked_at": "2026-11-09",
+   "source_url": "https://www.apr.gov.rs/registri/preduzetnici/naknade.4864.html"
+  },
+  {
+   "item": "Registracija osnivanja DOO (uključuje osnivački akt)",
+   "amount_rsd": 8000,
+   "basis": "Odluka o naknadama APR; podnosi se isključivo elektronski",
+   "checked_at": "2026-11-09",
+   "source_url": "https://www.apr.gov.rs/registri/privredna-drustva/naknade.2044.html"
+  },
+  {
+   "item": "Rezervacija naziva: preduzetnik / privredno društvo",
+   "amount_rsd": null,
+   "basis": "1.400 RSD preduzetnik, 2.000 RSD privredno društvo",
+   "checked_at": "2026-11-09",
+   "source_url": "https://www.apr.gov.rs/registri/privredna-drustva/naknade.2044.html",
+   "note": "Neobavezno."
+  },
+  {
+   "item": "Minimalni osnovni kapital DOO",
+   "amount_rsd": 100,
+   "basis": "Zakon o privrednim društvima, član 145",
+   "checked_at": "2026-11-09",
+   "source_url": "https://www.paragraf.rs/propisi/zakon_o_privrednim_drustvima.html",
+   "note": "Zakonski minimum uloga, nije naknada."
+  },
+  {
+   "item": "Promena podataka: preduzetnik / DOO",
+   "amount_rsd": null,
+   "basis": "1.400 RSD preduzetnik (+700 po dodatnoj promeni); 4.000 RSD DOO (+3.000 po dodatnoj promeni); zakašnjenje posle 15 dana kod DOO +6.260 RSD",
+   "checked_at": "2026-11-09",
+   "source_url": "https://www.apr.gov.rs/registri/privredna-drustva/naknade.2044.html"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://www.apr.gov.rs/registri/preduzetnici/naknade.4864.html",
+   "title": "APR – Naknade za preduzetnike",
+   "checked_at": "2026-11-09"
+  },
+  {
+   "url": "https://www.apr.gov.rs/registri/privredna-drustva/naknade.2044.html",
+   "title": "APR – Naknade za privredna društva",
+   "checked_at": "2026-11-09"
+  },
+  {
+   "url": "https://www.apr.gov.rs/registri/preduzetnici/uputstva/osnivanje.2058.html",
+   "title": "APR – Uputstvo za osnivanje preduzetnika",
+   "checked_at": "2026-11-09"
+  },
+  {
+   "url": "https://www.paragraf.rs/propisi/zakon_o_postupku_registracije_u_agenciji_za_privredne_registre.html",
+   "title": "Zakon o postupku registracije u APR",
+   "checked_at": "2026-11-09"
+  },
+  {
+   "url": "https://purs.gov.rs/odnosi-s-javnoscu/novosti/4608393/rok-za-podnosenje-zahteva-za-pausalno-oporezivanje-za-2026-godinu.html",
+   "title": "Poreska uprava – paušalno oporezivanje 2026",
+   "checked_at": "2026-11-09"
+  }
+ ],
+ "checked_at": "2026-11-09",
  "guide": {
   "sr": {
    "title": "Otvaranje firme ili registracija preduzetnika",
    "summary": "Registracija preduzetnika ili društva sa ograničenom odgovornošću u Agenciji za privredne registre.",
-   "where_note": "Registracija se podnosi Agenciji za privredne registre, elektronski ili u organizacionoj jedinici APR-a; PIB se dodeljuje istovremeno.",
+   "where_note": "Agencija za privredne registre. Preduzetnik: elektronski preko eRegistracije ili papirno u APR-u, organizacionoj jedinici ili poštom. DOO: isključivo elektronski (eID nalog i kvalifikovani elektronski sertifikat, ili punomoćnik koji ih ima). PIB, matični broj i prijava na osiguranje dobijaju se istovremeno.",
    "steps": [
-    "Odlučite se za oblik: preduzetnik (paušal ili knjige) ili DOO.",
-    "Proverite dostupnost naziva na sajtu APR-a.",
-    "Podnesite registracionu prijavu elektronski ili u APR-u uz dokaz o uplati naknade.",
-    "Rešenje stiže u roku od pet dana; otvorite poslovni račun i prijavite se Poreskoj upravi."
-   ]
+    "Odaberite oblik (preduzetnik ili DOO) i šifru delatnosti; za paušal proverite da li je šifra na listi Uredbe.",
+    "Proverite adresu sedišta u Adresnom registru RGZ.",
+    "Po želji rezervišite naziv (1.400 ili 2.000 RSD).",
+    "Uplatite naknadu: 2.500 RSD preduzetnik, 8.000 RSD DOO, sa pozivom na broj iz APR-a.",
+    "Podnesite prijavu: preduzetnik papirno ili na eRegistraciji, DOO samo elektronski; izaberite paušal, PDV ili ličnu zaradu.",
+    "Sačekajte rešenje, do 5 radnih dana; paušalno rešenje stiže u poresko sanduče u roku od 48 sati.",
+    "Otvorite poslovni račun u banci i proverite da je prijavljen Poreskoj upravi."
+   ],
+   "who": [
+    "Svako punoletno lice, domaće ili strano, koje registruje preduzetnika.",
+    "Osnivač DOO može biti fizičko ili pravno lice bez ograničenja državljanstva."
+   ],
+   "documents": [
+    {
+     "name": "Jedinstvena registraciona prijava (JRPPS)",
+     "note": "Istovremeno daje PIB, matični broj, prijavu na socijalno osiguranje i izbor paušala, PDV-a ili lične zarade."
+    },
+    {
+     "name": "Dokaz o identitetu",
+     "note": "Lična karta; stranac: pasoš, strana lična karta ili lična karta za strance."
+    },
+    {
+     "name": "Dokaz o uplati naknade",
+     "note": "Račun 840-1308664-17, poziv na broj generiše APR."
+    },
+    {
+     "name": "Za DOO: odluka ili ugovor o osnivanju",
+     "note": "Pri elektronskoj registraciji overa beležnika nije potrebna; osnivači potpisuju kvalifikovanim e-potpisom.",
+     "variants": [
+      "Strani pravni osnivač: izvod iz stranog registra, digitalizovan kod domaćeg beležnika ili advokata."
+     ]
+    },
+    {
+     "name": "Adresa sedišta iz Adresnog registra RGZ",
+     "note": "Jedan kućni broj; adresa „bb“ se ne registruje."
+    },
+    {
+     "name": "Dozvola ili licenca",
+     "note": "Samo ako poseban zakon to traži za delatnost."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Koliko košta registracija preduzetnika?",
+     "a": "Naknada APR je 2.500 RSD, ista za papirnu i elektronsku prijavu."
+    },
+    {
+     "q": "Koliko košta DOO i može li papirno?",
+     "a": "8.000 RSD uključujući osnivački akt. Podnosi se isključivo elektronski."
+    },
+    {
+     "q": "Koliki je minimalni kapital DOO?",
+     "a": "100 dinara, osim ako poseban zakon traži više."
+    },
+    {
+     "q": "Za koliko dana APR odlučuje?",
+     "a": "U roku od 5 radnih dana od prijema prijave."
+    },
+    {
+     "q": "Ko može na paušal?",
+     "a": "Preduzetnik sa prometom do 6.000.000 RSD u prethodnoj godini, koji nije u PDV-u, nema ulagače i čija delatnost nije isključena (trgovina, ugostiteljstvo, finansije, nekretnine, reklama)."
+    },
+    {
+     "q": "Mogu li stranci biti osnivači?",
+     "a": "Da. Preduzetnik uz pasoš ili stranu ličnu kartu; DOO bez ograničenja državljanstva, strani pravni osnivač prilaže izvod iz svog registra."
+    }
+   ],
+   "for_foreigners": "Stranac može biti preduzetnik uz pasoš i osnivač DOO bez ograničenja. DOO se osniva samo elektronski: bez srpskog kvalifikovanog sertifikata ovlastite punomoćnika, najčešće advokata. Strana dokumenta digitalizuje domaći beležnik ili advokat. Za boravak po osnovu samozapošljavanja vidi vodič o privremenom boravku."
   },
   "en": {
    "title": "Starting a company or sole proprietorship",
-   "summary": "Registering a sole proprietor or a limited liability company with the Business Registers Agency."
+   "summary": "Registering a sole proprietor or a limited liability company with the Business Registers Agency.",
+   "who": [
+    "Any adult, Serbian or foreign, registering as a sole proprietor.",
+    "A DOO founder can be a natural or legal person with no nationality restriction."
+   ],
+   "where_note": "The Business Registers Agency (APR). Sole proprietor: online via eRegistracija or on paper at APR, a branch or by post. DOO: online only (eID account and qualified e-certificate, or a proxy who has them). PIB, registry number and insurance registration come at the same time.",
+   "documents": [
+    {
+     "name": "Single registration application (JRPPS)",
+     "note": "Also assigns PIB, registry number, social-insurance registration and your choice of flat-rate tax, VAT or salary."
+    },
+    {
+     "name": "Proof of identity",
+     "note": "ID card; foreigners: passport, foreign ID or foreigner's ID card."
+    },
+    {
+     "name": "Proof of fee payment",
+     "note": "Account 840-1308664-17, reference generated by APR."
+    },
+    {
+     "name": "For a DOO: founding decision or agreement",
+     "note": "No notarisation needed for online registration; founders sign with qualified e-signatures.",
+     "variants": [
+      "Foreign legal founder: registry extract digitised by a Serbian notary or lawyer."
+     ]
+    },
+    {
+     "name": "Registered address from the RGZ address register",
+     "note": "One house number; 'bb' addresses are not registered."
+    },
+    {
+     "name": "Permit or licence",
+     "note": "Only if a sector law requires it."
+    }
+   ],
+   "steps": [
+    "Pick the form (sole proprietor or DOO) and activity code; for flat-rate tax check the code is on the decree list.",
+    "Check the registered address in the RGZ address register.",
+    "Optionally reserve the name (RSD 1,400 or 2,000).",
+    "Pay the fee: RSD 2,500 sole proprietor, RSD 8,000 DOO, with the APR reference.",
+    "File: sole proprietor on paper or eRegistracija, DOO online only; choose flat-rate, VAT or salary.",
+    "Wait for the decision, up to 5 working days; the flat-rate decision lands in your tax mailbox within 48 hours.",
+    "Open a business bank account and make sure it is reported to the Tax Administration."
+   ],
+   "faq": [
+    {
+     "q": "How much is sole proprietor registration?",
+     "a": "The APR fee is RSD 2,500, the same on paper and online."
+    },
+    {
+     "q": "How much is a DOO and can I file on paper?",
+     "a": "RSD 8,000 including the founding act. Filing is online only."
+    },
+    {
+     "q": "What is the minimum DOO capital?",
+     "a": "RSD 100, unless a sector law requires more."
+    },
+    {
+     "q": "How long does APR take?",
+     "a": "Within 5 working days of receiving the application."
+    },
+    {
+     "q": "Who qualifies for flat-rate tax?",
+     "a": "Sole proprietors with prior-year turnover up to RSD 6,000,000, not VAT-registered, without co-investors and with a non-excluded activity (trade, hospitality, finance, real estate, advertising)."
+    },
+    {
+     "q": "Can foreigners be founders?",
+     "a": "Yes. Sole proprietor with a passport or foreign ID; DOO without nationality limits, a foreign legal founder attaches its registry extract."
+    }
+   ],
+   "for_foreigners": "A foreigner can be a sole proprietor with a passport and a DOO founder without restriction. A DOO is founded online only: without a Serbian qualified certificate, authorise a proxy, usually a lawyer. Foreign documents are digitised by a Serbian notary or lawyer. For residence based on self-employment see the temporary residence guide."
   },
   "ru": {
    "title": "Открытие фирмы или ИП",
-   "summary": "Регистрация предпринимателя или ООО в Агентстве хозяйственных реестров."
+   "summary": "Регистрация предпринимателя или ООО в Агентстве хозяйственных реестров.",
+   "steps": [
+    "Выберите форму (ИП или ООО) и код деятельности.",
+    "Оплатите сбор APR: 2 500 RSD (ИП) или 8 000 RSD (ООО).",
+    "Подайте заявление: ИП на бумаге или онлайн, ООО только онлайн (через представителя, если нет сербского сертификата).",
+    "Решение в течение 5 рабочих дней; PIB и регистрация страхования выдаются одновременно."
+   ],
+   "for_foreigners": "Иностранец может быть ИП по паспорту и учредителем ООО без ограничений. ООО регистрируется только онлайн: без сербского квалифицированного сертификата уполномочьте представителя (обычно адвоката)."
   },
   "de": {
    "title": "Firma oder Einzelunternehmen gründen",
-   "summary": "Registrierung eines Einzelunternehmers oder einer GmbH bei der Agentur für Wirtschaftsregister."
+   "summary": "Registrierung eines Einzelunternehmers oder einer GmbH bei der Agentur für Wirtschaftsregister.",
+   "steps": [
+    "Rechtsform (Einzelunternehmer oder DOO) und Tätigkeitscode wählen.",
+    "APR-Gebühr zahlen: 2.500 RSD (Einzelunternehmer) oder 8.000 RSD (DOO).",
+    "Antrag stellen: Einzelunternehmer auf Papier oder online, DOO nur online (über einen Bevollmächtigten, wenn kein serbisches Zertifikat vorliegt).",
+    "Entscheidung innerhalb von 5 Arbeitstagen; PIB und Versicherungsanmeldung werden gleichzeitig erteilt."
+   ],
+   "for_foreigners": "Ausländer können mit Pass Einzelunternehmer und ohne Einschränkung DOO-Gründer sein. Die DOO wird nur online gegründet: ohne serbisches qualifiziertes Zertifikat einen Bevollmächtigten (meist Anwalt) beauftragen."
   }
- }
+ },
+ "legal_basis": "Zakon o postupku registracije u APR; Zakon o privrednim društvima; Zakon o porezu na dohodak građana (paušalno oporezivanje)."
 }

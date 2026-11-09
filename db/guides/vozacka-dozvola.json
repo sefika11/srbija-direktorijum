@@ -5,31 +5,228 @@
   "mup-policijska-uprava"
  ],
  "lead_vertical": null,
- "status": "short",
+ "status": "full",
  "sort_order": 30,
  "name_lat": "Vozačka dozvola",
  "summary": "Prva vozačka dozvola posle položenog ispita, zamena istekle ili oštećene i izdavanje duplikata.",
- "typical_duration": null,
- "euprava_url": "https://euprava.gov.rs",
- "online_available": false,
- "fees": [],
- "sources": [],
- "checked_at": null,
+ "typical_duration": "Zakonski rok za izdavanje je 30 dana od prijema zahteva; hitno samo uz dokaz hitnosti. Zamena preko eUprave može se podneti najranije 30 dana pre isteka.",
+ "euprava_url": "https://euprava.gov.rs/zamena_vozacke_dozvole",
+ "online_available": true,
+ "fees": [
+  {
+   "item": "Republička taksa za zahtev (tarifni broj 40)",
+   "amount_rsd": 370,
+   "basis": "ZRAT, tarifni broj 40 (tekst usklađen Sl. glasnikom 54/2026)",
+   "checked_at": "2026-11-09",
+   "source_url": "https://www.paragraf.rs/propisi/zakon_o_republickim_administrativnim_taksama.html"
+  },
+  {
+   "item": "Taksa za izdavanje vozačke ili probne dozvole (tarifni broj 40)",
+   "amount_rsd": 1490,
+   "basis": "ZRAT, tarifni broj 40",
+   "checked_at": "2026-11-09",
+   "source_url": "https://www.paragraf.rs/propisi/zakon_o_republickim_administrativnim_taksama.html"
+  },
+  {
+   "item": "Taksa za duplikat vozačke ili probne dozvole",
+   "amount_rsd": 2120,
+   "basis": "ZRAT, tarifni broj 40",
+   "checked_at": "2026-11-09",
+   "source_url": "https://www.paragraf.rs/propisi/zakon_o_republickim_administrativnim_taksama.html",
+   "note": "Uz zahtev od 370 RSD."
+  },
+  {
+   "item": "Taksa za zamenu strane vozačke dozvole domaćom",
+   "amount_rsd": 11970,
+   "basis": "ZRAT, tarifni broj 40",
+   "checked_at": "2026-11-09",
+   "source_url": "https://www.paragraf.rs/propisi/zakon_o_republickim_administrativnim_taksama.html",
+   "note": "Uz zahtev od 370 RSD."
+  },
+  {
+   "item": "Naknada za obrazac dozvole",
+   "amount_rsd": null,
+   "basis": "Uredba o cenama obrazaca MUP, primena od 12. 9. 2026.",
+   "checked_at": "2026-11-09",
+   "source_url": "https://biznis.kurir.rs/novcanik/10102412/nove-takse-mup-a-cene-licnih-dokumenata-i-tablica",
+   "note": "Iznos prema novinskom izveštaju, nije potvrđen u Službenom glasniku – proverite pre uplate. Novine navode 444 RSD (dozvola) i 468 RSD (probna)."
+  },
+  {
+   "item": "Lekarsko uverenje o zdravstvenoj sposobnosti",
+   "amount_rsd": null,
+   "basis": "Cenu određuje ovlašćena zdravstvena ustanova.",
+   "checked_at": "2026-11-09",
+   "note": "Nije državna taksa; raspitajte se u domu zdravlja ili ovlašćenoj ordinaciji."
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://mup.gov.rs/wps/portal/sr/gradjani/dokumenta/vozacka%20dozvola/izdavanje%20probne%20vozacke%20dozvole/",
+   "title": "MUP – Izdavanje probne vozačke dozvole",
+   "checked_at": "2026-11-09"
+  },
+  {
+   "url": "https://mup.gov.rs/wps/portal/sr/gradjani/dokumenta/vozacka%20dozvola/izdavanje%20vozacke%20dozvole%20nakon%20izdavanja%20probne%20dozvole/",
+   "title": "MUP – Vozačka dozvola posle probne",
+   "checked_at": "2026-11-09"
+  },
+  {
+   "url": "https://www.mup.gov.rs/wps/portal/sr/gradjani/dokumenta/vozacka%20dozvola/zamena%20inostrane%20vozacke%20dozvole%20za%20vozacku%20dozvolu%20republike%20srbije/",
+   "title": "MUP – Zamena inostrane vozačke dozvole",
+   "checked_at": "2026-11-09"
+  },
+  {
+   "url": "https://euprava.gov.rs/zamena_vozacke_dozvole",
+   "title": "eUprava – Zamena vozačke dozvole",
+   "checked_at": "2026-11-09"
+  },
+  {
+   "url": "https://www.paragraf.rs/propisi/zakon_o_republickim_administrativnim_taksama.html",
+   "title": "Zakon o republičkim administrativnim taksama (Paragraf)",
+   "checked_at": "2026-11-09"
+  }
+ ],
+ "checked_at": "2026-11-09",
  "guide": {
   "sr": {
    "title": "Vozačka dozvola",
    "summary": "Prva vozačka dozvola posle položenog ispita, zamena istekle ili oštećene i izdavanje duplikata.",
-   "where_note": "Zahtev se podnosi policijskoj upravi ili stanici prema prebivalištu; zakazivanje termina je moguće preko eUprave.",
+   "where_note": "Policijska uprava ili stanica prema prebivalištu (ili boravištu ako tamo živite duže od 3 meseca). Zamena zbog isteka, gubitka ili oštećenja može i preko eUprave uz važeću ličnu kartu i kvalifikovani sertifikat; prva (probna) dozvola i dozvola posle probne podnose se lično.",
    "steps": [
-    "Položite vozački ispit u auto-školi i dobijte uverenje o položenom ispitu.",
-    "Zakažite termin u nadležnoj policijskoj upravi (eUprava) ili dođite lično.",
-    "Ponesite ličnu kartu, lekarsko uverenje i dokaze o uplati taksi.",
-    "Preuzmite dozvolu lično u roku koji vam saopšte na šalteru."
-   ]
+    "Položite vozački ispit i ispit iz prve pomoći.",
+    "Uradite lekarski pregled za kategoriju; uverenje važi 6 meseci.",
+    "Na eUpravi generišite uplatnicu i platite takse i naknadu za obrazac.",
+    "Lično podnesite zahtev u policijskoj upravi sa originalnim dokumentima; fotografija se snima na šalteru.",
+    "Preuzmite probnu dozvolu; po isteku probnog perioda zatražite punu dozvolu.",
+    "Kasnije zamene zbog isteka radite preko eUprave ili na šalteru, najranije 30 dana pre isteka."
+   ],
+   "who": [
+    "Novi vozači posle položenog ispita: prvo se izdaje probna dozvola (kategorije A1, A2, A, B1, B).",
+    "Vozači kojima dozvola ističe, koji su je izgubili ili oštetili.",
+    "Državljani Srbije i stranci sa odobrenim boravkom dužim od 6 meseci koji menjaju stranu dozvolu za srpsku."
+   ],
+   "documents": [
+    {
+     "name": "Probna dozvola (prva posle ispita)",
+     "note": "Uverenje o zdravstvenoj sposobnosti (do 6 meseci staro), uverenje o položenom vozačkom ispitu i ispitu iz prve pomoći, lična karta na uvid, uplatnica sa eUprave. Fotografija se snima na šalteru.",
+     "variants": [
+      "Važi 2 godine ako ste ispit položili sa 19 i više godina, odnosno do 21. godine ako ste ga položili ranije.",
+      "Učenici srednjih stručnih škola za vozače: 1 godina."
+     ]
+    },
+    {
+     "name": "Dozvola posle probnog perioda",
+     "note": "Probna dozvola, lična karta na uvid, uplatnica; uverenje o prvoj pomoći samo ako nije ranije predato. Izdaje se na 10 godina ili kraće po lekarskom nalazu."
+    },
+    {
+     "name": "Zamena zbog isteka, gubitka ili oštećenja",
+     "note": "Lična karta na uvid i uplatnica. Lekarsko uverenje samo ako je prethodna dozvola izdata na kraće od 10 godina iz zdravstvenih razloga ili ako imate više od 65 godina.",
+     "variants": [
+      "Preko eUprave: lična karta ne starija od 5 godina, kvalifikovani elektronski sertifikat, uplaćena taksa."
+     ]
+    },
+    {
+     "name": "Zamena strane dozvole",
+     "note": "Strana dozvola sa prevodom sudskog tumača, lekarsko uverenje (do 6 meseci), lična karta ili putna isprava, uplatnica. Stranci dodatno prilažu dokaz o odobrenom boravku dužem od 6 meseci.",
+     "variants": [
+      "Probne, privremene i poništene strane dozvole se ne menjaju.",
+      "Nije dozvoljeno imati dozvole dve države istovremeno."
+     ]
+    }
+   ],
+   "faq": [
+    {
+     "q": "Koliko traje probna vozačka dozvola?",
+     "a": "Dve godine ako ste ispit položili sa 19 ili više godina; do navršene 21. godine ako ste ga položili ranije."
+    },
+    {
+     "q": "Treba li mi novo lekarsko za zamenu?",
+     "a": "Samo ako je prethodna dozvola izdata na kraće od 10 godina iz zdravstvenih razloga ili ako ste stariji od 65 godina. Uverenje ne sme biti starije od 6 meseci."
+    },
+    {
+     "q": "Mogu li dozvolu da zamenim preko interneta?",
+     "a": "Da, za istek, gubitak, krađu ili oštećenje preko eUprave, uz ličnu kartu do 5 godina staru, kvalifikovani sertifikat i uplaćenu taksu. Prva dozvola se podnosi lično."
+    },
+    {
+     "q": "Koliko košta?",
+     "a": "Republičke takse po tarifnom broju 40: zahtev 370 RSD, izdavanje 1.490 RSD, duplikat 2.120 RSD, zamena strane dozvole 11.970 RSD; uz to naknada za obrazac koju prikazuje uplatnica na eUpravi."
+    },
+    {
+     "q": "Da li se dozvola izdaje odmah?",
+     "a": "Zakonski rok je 30 dana od prijema zahteva; hitna izrada samo uz dokaz hitnosti."
+    }
+   ],
+   "for_foreigners": "Stranac sa odobrenim boravkom dužim od 6 meseci menja stranu dozvolu za srpsku: strana dozvola sa prevodom sudskog tumača, lična karta za strance ili pasoš, dokaz o boravku, lekarsko uverenje do 6 meseci i uplatnica. Taksa je 11.970 RSD plus 370 RSD za zahtev. Probne i privremene strane dozvole se ne menjaju."
   },
   "en": {
    "title": "Driving licence",
-   "summary": "First licence after the test, replacing an expired or damaged one, and duplicates."
+   "summary": "First licence after the test, replacing an expired or damaged one, and duplicates.",
+   "who": [
+    "New drivers after the test: a probationary licence comes first (categories A1, A2, A, B1, B).",
+    "Drivers whose licence is expiring, lost or damaged.",
+    "Serbian citizens and foreigners with residence longer than 6 months exchanging a foreign licence."
+   ],
+   "where_note": "Police directorate or station for your registered address (or place of stay if you have lived there over 3 months). Renewal for expiry, loss or damage also works on eUprava with a valid ID card and qualified certificate; the first (probationary) licence and the full licence after probation are filed in person.",
+   "documents": [
+    {
+     "name": "Probationary licence (first after the test)",
+     "note": "Medical fitness certificate (under 6 months), certificates of the passed driving and first-aid exams, ID card, eUprava payment slip. Photo taken at the counter.",
+     "variants": [
+      "Valid 2 years if you passed at 19 or older, until age 21 if earlier.",
+      "Vocational-school pupils: 1 year."
+     ]
+    },
+    {
+     "name": "Full licence after probation",
+     "note": "Probationary licence, ID card, slip; first-aid certificate only if not filed before. Issued for 10 years or less per the medical finding."
+    },
+    {
+     "name": "Renewal for expiry, loss or damage",
+     "note": "ID card and slip. Medical certificate only if the previous licence was issued for under 10 years for health reasons or you are over 65.",
+     "variants": [
+      "On eUprava: ID card under 5 years old, qualified e-certificate, paid fee."
+     ]
+    },
+    {
+     "name": "Exchange of a foreign licence",
+     "note": "Foreign licence with a court-interpreter translation, medical certificate (under 6 months), ID or travel document, slip. Foreigners add proof of residence longer than 6 months.",
+     "variants": [
+      "Probationary, temporary and revoked foreign licences are not exchanged.",
+      "Holding licences of two countries is not allowed."
+     ]
+    }
+   ],
+   "steps": [
+    "Pass the driving test and the first-aid exam.",
+    "Get the medical fitness certificate for the category; valid 6 months.",
+    "Generate and pay the slip on eUprava (fees and form cost).",
+    "Apply in person at the police directorate with original documents; photo taken at the counter.",
+    "Collect the probationary licence; when probation ends, apply for the full licence.",
+    "Later renewals go through eUprava or the counter, from 30 days before expiry."
+   ],
+   "faq": [
+    {
+     "q": "How long is the probationary licence valid?",
+     "a": "Two years if you passed at 19 or older; until age 21 if you passed earlier."
+    },
+    {
+     "q": "Do I need a new medical certificate to renew?",
+     "a": "Only if the previous licence was issued for under 10 years for health reasons or you are over 65; the certificate must be under 6 months old."
+    },
+    {
+     "q": "Can I renew online?",
+     "a": "Yes, for expiry, loss, theft or damage on eUprava with an ID card under 5 years old, a qualified certificate and the paid fee. The first licence is filed in person."
+    },
+    {
+     "q": "How much does it cost?",
+     "a": "State fees under tariff no. 40: request RSD 370, issue 1,490, duplicate 2,120, foreign-licence exchange 11,970; plus the form cost shown on the eUprava slip."
+    },
+    {
+     "q": "Is it issued immediately?",
+     "a": "The legal deadline is 30 days from receipt; urgent issue only with proof of urgency."
+    }
+   ],
+   "for_foreigners": "A foreigner with residence longer than 6 months exchanges a foreign licence: the licence with a court-interpreter translation, foreigner's ID or passport, proof of residence, medical certificate under 6 months and the slip. Fee RSD 11,970 plus RSD 370 for the request. Probationary and temporary foreign licences are not exchanged."
   },
   "ru": {
    "title": "Водительское удостоверение",
@@ -39,5 +236,6 @@
    "title": "Führerschein",
    "summary": "Erster Führerschein nach der Prüfung, Umtausch bei Ablauf oder Beschädigung, Zweitschrift."
   }
- }
+ },
+ "legal_basis": "Zakon o bezbednosti saobraćaja na putevima; Zakon o republičkim administrativnim taksama, tarifni broj 40; Uredba o cenama obrazaca MUP."
 }

@@ -2,34 +2,156 @@
  "slug": "izvod-iz-maticne-knjige",
  "category": "maticne-knjige",
  "org_types": [
+  "maticna-sluzba",
   "opstinska-uprava",
   "gradska-uprava"
  ],
  "lead_vertical": null,
- "status": "short",
+ "status": "full",
  "sort_order": 20,
  "name_lat": "Izvod iz matične knjige rođenih, venčanih ili umrlih",
  "summary": "Izvodi i uverenja iz matičnih knjiga, uključujući međunarodne izvode.",
- "typical_duration": null,
- "euprava_url": "https://euprava.gov.rs",
+ "typical_duration": "Matičar obrađuje zahtev u roku od 8 dana; za papirni izvod dodajte vreme dostave poštom. Elektronski izvod stiže u eSanduče.",
+ "euprava_url": "https://euprava.gov.rs/usluge/00015?isNew=True",
  "online_available": true,
- "fees": [],
- "sources": [],
- "checked_at": null,
+ "fees": [
+  {
+   "item": "Elektronski izvod u eSanduče",
+   "amount_rsd": 0,
+   "basis": "eUprava: bez takse bez obzira na svrhu.",
+   "checked_at": "2026-11-09",
+   "source_url": "https://euprava.gov.rs/usluge/00015?isNew=True",
+   "note": "Štampani primerak ima QR kod za proveru verodostojnosti."
+  },
+  {
+   "item": "Izvod na papiru (republička administrativna taksa, tarifni broj 221)",
+   "amount_rsd": null,
+   "basis": "Iznos zavisi od svrhe izdavanja; neke svrhe su po zakonu oslobođene. eUprava generiše nalog za uplatu.",
+   "checked_at": "2026-11-09",
+   "source_url": "https://euprava.gov.rs/usluge/00015?isNew=True",
+   "note": "Tačan iznos pokazuje nalog za uplatu; lokalne uprave mogu naplatiti i opštinsku taksu."
+  },
+  {
+   "item": "Dostava preporučenom pošiljkom",
+   "amount_rsd": null,
+   "basis": "Po cenovniku Pošte Srbije.",
+   "checked_at": "2026-11-09",
+   "source_url": "https://euprava.gov.rs/usluge/00015?isNew=True"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://euprava.gov.rs/usluge/00015?isNew=True",
+   "title": "eUprava – eIzvod iz matičnih knjiga",
+   "checked_at": "2026-11-09"
+  },
+  {
+   "url": "https://euprava.gov.rs/maticna-knjiga-rodjenih",
+   "title": "eUprava – Matična knjiga rođenih",
+   "checked_at": "2026-11-09"
+  }
+ ],
+ "checked_at": "2026-11-09",
  "guide": {
   "sr": {
    "title": "Izvod iz matične knjige rođenih, venčanih ili umrlih",
    "summary": "Izvodi i uverenja iz matičnih knjiga, uključujući međunarodne izvode.",
-   "where_note": "Izvod izdaje matičar u bilo kojoj opštinskoj ili gradskoj upravi, nezavisno od mesta upisa; najbrže je elektronski preko eUprave.",
+   "where_note": "Najbrže elektronski preko eUprave (usluga eIzvod iz matičnih knjiga) uz prijavu ConsentID aplikacijom ili sertifikatom; ili lično kod matičara u opštinskoj ili gradskoj upravi.",
    "steps": [
-    "Naručite izvod elektronski na eUpravi ili dođite kod matičara.",
-    "Platite republičku administrativnu taksu.",
-    "Preuzmite izvod na šalteru ili ga primite poštom."
-   ]
+    "Prijavite se na eUpravu (ConsentID ili kvalifikovani sertifikat).",
+    "Izaberite uslugu eIzvod iz matičnih knjiga, proverite podatke i izaberite svrhu.",
+    "Izaberite obrazac (domaći, dvojezični, međunarodni) i format (elektronski ili papirni).",
+    "Za papirni izvod platite taksu po generisanom nalogu, osim ako je svrha oslobođena.",
+    "Preuzmite izvod iz eSandučeta ili sačekajte preporučenu pošiljku; rok obrade je 8 dana."
+   ],
+   "who": [
+    "Lice na koje se upis odnosi.",
+    "Bračni drug, roditelji, deca, braća i sestre.",
+    "Staratelj ili punomoćnik uz dokaz o svojstvu."
+   ],
+   "documents": [
+    {
+     "name": "Zahtev",
+     "note": "Za sebe ili bliskog srodnika nisu potrebna dodatna dokumenta; staratelj ili punomoćnik prilaže dokaz o svojstvu. Pri podnošenju birate svrhu izdavanja, koja utiče na taksu.",
+     "variants": [
+      "Obrazac: domaći, dvojezični ili međunarodni (za inostranstvo).",
+      "Format: elektronski (besplatno) ili papirni (taksa + dostava)."
+     ]
+    }
+   ],
+   "faq": [
+    {
+     "q": "Da li je elektronski izvod besplatan?",
+     "a": "Da, bez takse bez obzira na svrhu."
+    },
+    {
+     "q": "Za koga mogu da tražim izvod?",
+     "a": "Za sebe, bračnog druga, roditelje, decu, braću i sestre, ili kao staratelj ili punomoćnik uz dokaz."
+    },
+    {
+     "q": "Koliko traje?",
+     "a": "Matičar ima rok od 8 dana; papirnom izvodu dodajte vreme pošte."
+    },
+    {
+     "q": "Kako se proverava štampani e-izvod?",
+     "a": "Skeniranjem QR koda na izvodu."
+    },
+    {
+     "q": "Kada mi treba međunarodni izvod?",
+     "a": "Kada dokument koristite u inostranstvu; obrazac birate pri podnošenju."
+    }
+   ],
+   "for_foreigners": "Stranci rođeni ili venčani u Srbiji traže izvod od matičara prema mestu upisa ili preko eUprave ako imaju nalog; za upotrebu u inostranstvu izaberite međunarodni obrazac."
   },
   "en": {
    "title": "Birth, marriage and death certificates",
-   "summary": "Extracts and certificates from the civil registers, including international versions."
+   "summary": "Extracts and certificates from the civil registers, including international versions.",
+   "who": [
+    "The person the record concerns.",
+    "Spouse, parents, children, siblings.",
+    "A guardian or proxy with proof of status."
+   ],
+   "where_note": "Fastest online on eUprava (eIzvod service) with the ConsentID app or a certificate; or in person at the registrar in a municipal or city administration.",
+   "documents": [
+    {
+     "name": "Request",
+     "note": "No extra documents for yourself or a close relative; a guardian or proxy attaches proof. You choose the purpose, which determines the fee.",
+     "variants": [
+      "Form: domestic, bilingual or international (for use abroad).",
+      "Format: electronic (free) or paper (fee + delivery)."
+     ]
+    }
+   ],
+   "steps": [
+    "Log in to eUprava (ConsentID or qualified certificate).",
+    "Choose the eIzvod service, check your data and select the purpose.",
+    "Choose the form (domestic, bilingual, international) and format (electronic or paper).",
+    "For paper, pay the fee on the generated slip unless the purpose is exempt.",
+    "Collect from your eDatabox or wait for registered mail; processing takes 8 days."
+   ],
+   "faq": [
+    {
+     "q": "Is the electronic extract free?",
+     "a": "Yes, no fee regardless of purpose."
+    },
+    {
+     "q": "Whose extract can I request?",
+     "a": "Your own, your spouse's, parents', children's, siblings', or as a guardian or proxy with proof."
+    },
+    {
+     "q": "How long does it take?",
+     "a": "The registrar has 8 days; add postal time for paper."
+    },
+    {
+     "q": "How is a printed e-extract verified?",
+     "a": "By scanning its QR code."
+    },
+    {
+     "q": "When do I need the international form?",
+     "a": "For use abroad; you pick it when applying."
+    }
+   ],
+   "for_foreigners": "Foreigners born or married in Serbia request the extract from the registrar of the place of entry, or on eUprava with an account; choose the international form for use abroad."
   },
   "ru": {
    "title": "Свидетельства о рождении, браке и смерти",
@@ -39,5 +161,6 @@
    "title": "Geburts-, Heirats- und Sterbeurkunden",
    "summary": "Auszüge und Bescheinigungen aus den Personenstandsregistern, auch international."
   }
- }
+ },
+ "legal_basis": "Zakon o matičnim knjigama; ZRAT tarifni broj 221."
 }

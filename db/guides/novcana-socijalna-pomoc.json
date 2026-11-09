@@ -5,31 +5,125 @@
   "centar-za-socijalni-rad"
  ],
  "lead_vertical": null,
- "status": "short",
+ "status": "full",
  "sort_order": 81,
  "name_lat": "Novčana socijalna pomoć",
  "summary": "Pomoć za pojedince i porodice bez dovoljno prihoda za osnovne potrebe.",
- "typical_duration": null,
+ "typical_duration": "Radno sposobni korisnici: najviše 9 meseci u kalendarskoj godini. Centar preispituje uslove svakog maja na osnovu prihoda iz prethodna tri meseca.",
  "euprava_url": null,
  "online_available": false,
- "fees": [],
- "sources": [],
- "checked_at": null,
+ "fees": [
+  {
+   "item": "Podnošenje zahteva",
+   "amount_rsd": 0,
+   "basis": "Postupak pred centrom za socijalni rad je bez takse.",
+   "checked_at": "2026-11-09",
+   "source_url": "https://www.paragraf.rs/propisi/zakon_o_socijalnoj_zastiti.html"
+  },
+  {
+   "item": "Osnovica (iznos za pojedinca)",
+   "amount_rsd": null,
+   "basis": "Usklađuje se 1. aprila i 1. oktobra; svaka naredna odrasla osoba 0,5 osnovice, dete do 18 godina 0,3 osnovice; prihod porodice se oduzima.",
+   "checked_at": "2026-11-09",
+   "source_url": "https://www.021.rs/info/srbija/442107/objavljeni-novi-iznosi-socijalne-pomoci-koji-vaze-od-aprila",
+   "note": "Iznos prema novinskom izveštaju, nije potvrđen u Službenom glasniku – proverite pre uplate. Novine navode 12.536 RSD od 1. 4. 2026."
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://www.paragraf.rs/propisi/zakon_o_socijalnoj_zastiti.html",
+   "title": "Zakon o socijalnoj zaštiti (Paragraf)",
+   "checked_at": "2026-11-09"
+  },
+  {
+   "url": "https://www.paragraf.rs/propisi/pravilnik_o_obrascima_u_postupku_ostvarivanja_prava_na_novcanu.html",
+   "title": "Pravilnik o obrascima NSP",
+   "checked_at": "2026-11-09"
+  }
+ ],
+ "checked_at": "2026-11-09",
  "guide": {
   "sr": {
    "title": "Novčana socijalna pomoć",
    "summary": "Pomoć za pojedince i porodice bez dovoljno prihoda za osnovne potrebe.",
-   "where_note": "Zahtev se podnosi centru za socijalni rad prema prebivalištu.",
+   "where_note": "Centar za socijalni rad prema prebivalištu. Zahtev se podnosi lično; stručni radnik radi nalaz i mišljenje.",
    "steps": [
-    "Zakažite razgovor u centru za socijalni rad.",
-    "Pripremite dokaze o prihodima, imovini i članovima domaćinstva.",
-    "Podnesite zahtev; stručni radnik radi procenu.",
-    "Po rešenju pomoć se isplaćuje mesečno uz periodične provere."
-   ]
+    "Zakažite razgovor u centru za socijalni rad prema prebivalištu.",
+    "Popunite zahtev NSP-P i priložite dokaze o prihodima, imovini i članovima domaćinstva.",
+    "Centar utvrđuje prihode, imovinu i radnu sposobnost i daje nalaz i mišljenje.",
+    "Dobijate rešenje; isplaćuje se razlika između iznosa pomoći i prihoda porodice.",
+    "Očekujte preispitivanje svakog maja; radno sposobni primaju pomoć do 9 meseci godišnje."
+   ],
+   "who": [
+    "Pojedinac ili porodica čiji su prihodi i imovina ispod zakonskog nivoa za osnovne potrebe.",
+    "Radno sposobna lica: pravo do 9 meseci u kalendarskoj godini; radno nesposobna i stariji: bez tog ograničenja."
+   ],
+   "documents": [
+    {
+     "name": "Zahtev na obrascu NSP-P",
+     "note": "Dobija se u centru; uz njega dokazi o prihodima, imovini i članovima domaćinstva koje centar ne može pribaviti sam."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Koliko iznosi pomoć za pojedinca?",
+     "a": "Osnovicu određuje ministarstvo i usklađuje se dva puta godišnje; prema novinskim izveštajima od 1. 4. 2026. iznosi 12.536 RSD. Proverite u centru."
+    },
+    {
+     "q": "Koliko dugo se prima ako sam radno sposoban?",
+     "a": "Do 9 meseci u kalendarskoj godini."
+    },
+    {
+     "q": "Da li se prihod oduzima?",
+     "a": "Da, isplaćuje se razlika između iznosa pomoći i prihoda porodice."
+    },
+    {
+     "q": "Koliko dobija dete?",
+     "a": "0,3 osnovice po detetu do 18 godina; svaka naredna odrasla osoba 0,5 osnovice."
+    }
+   ],
+   "for_foreigners": "Pravo je vezano za prebivalište u Srbiji; stranci sa stalnim nastanjenjem raspituju se u centru za socijalni rad o uslovima."
   },
   "en": {
    "title": "Financial social assistance",
-   "summary": "Support for individuals and families whose income does not cover basic needs."
+   "summary": "Support for individuals and families whose income does not cover basic needs.",
+   "who": [
+    "Individuals or families whose income and assets are below the legal level for basic needs.",
+    "Work-able persons: up to 9 months per calendar year; those unable to work and the elderly: no such limit."
+   ],
+   "where_note": "The social work centre for your address. Applications are made in person; a case worker prepares a finding and opinion.",
+   "documents": [
+    {
+     "name": "Application form NSP-P",
+     "note": "Available at the centre; attach proof of income, assets and household members the centre cannot obtain itself."
+    }
+   ],
+   "steps": [
+    "Book an interview at the social work centre for your address.",
+    "Fill in form NSP-P and attach proof of income, assets and household members.",
+    "The centre assesses income, assets and work capacity and issues a finding.",
+    "You receive a decision; the difference between the benefit amount and family income is paid.",
+    "Expect a review every May; work-able recipients get up to 9 months a year."
+   ],
+   "faq": [
+    {
+     "q": "How much for a single person?",
+     "a": "The base is set by the ministry and adjusted twice a year; press reports put it at RSD 12,536 from 1 April 2026. Check with the centre."
+    },
+    {
+     "q": "How long if I am able to work?",
+     "a": "Up to 9 months per calendar year."
+    },
+    {
+     "q": "Is income deducted?",
+     "a": "Yes, the difference between the benefit and family income is paid."
+    },
+    {
+     "q": "How much per child?",
+     "a": "0.3 of the base per child under 18; each further adult 0.5 of the base."
+    }
+   ],
+   "for_foreigners": "The right is tied to registered residence in Serbia; foreigners with permanent residence should ask the social work centre about the conditions."
   },
   "ru": {
    "title": "Денежная социальная помощь",
@@ -39,5 +133,6 @@
    "title": "Sozialhilfe",
    "summary": "Unterstützung für Personen und Familien, deren Einkommen den Grundbedarf nicht deckt."
   }
- }
+ },
+ "legal_basis": "Zakon o socijalnoj zaštiti; Pravilnik o obrascima u postupku ostvarivanja prava na novčanu socijalnu pomoć."
 }

@@ -5,31 +5,245 @@
   "javni-beleznik"
  ],
  "lead_vertical": "advokat",
- "status": "short",
+ "status": "full",
  "sort_order": 90,
  "name_lat": "Overa dokumenata kod javnog beležnika",
  "summary": "Overa potpisa, prepisa i izjava, ugovori o nekretninama, ostavinski postupak i punomoćja.",
- "typical_duration": null,
+ "typical_duration": "Overa i solemnizacija obavljaju se u zakazanom terminu, na licu mesta.",
  "euprava_url": null,
  "online_available": false,
- "fees": [],
- "sources": [],
- "checked_at": null,
+ "fees": [
+  {
+   "item": "Overa potpisa, po potpisu",
+   "amount_rsd": 648,
+   "basis": "Javnobeležnička tarifa, tabelarni prikaz sa PDV-om (od 19. 7. 2025)",
+   "checked_at": "2026-11-09",
+   "source_url": "https://www.paragraf.rs/propisi_download/javnobeleznicka-tarifa-tabelarni-prikaz-nagrada-troskova.pdf",
+   "note": "Potpis zastupnika pravnog lica ili preduzetnika: 2.160 RSD."
+  },
+  {
+   "item": "Overa prepisa ili fotokopije, po stranici",
+   "amount_rsd": 216,
+   "basis": "Javnobeležnička tarifa sa PDV-om",
+   "checked_at": "2026-11-09",
+   "source_url": "https://www.paragraf.rs/propisi_download/javnobeleznicka-tarifa-tabelarni-prikaz-nagrada-troskova.pdf",
+   "note": "Uz to tabela navodi dodatak od 432 RSD po ispravi."
+  },
+  {
+   "item": "Overa prevoda (ako je beležnik i sudski prevodilac)",
+   "amount_rsd": 864,
+   "basis": "Javnobeležnička tarifa sa PDV-om",
+   "checked_at": "2026-11-09",
+   "source_url": "https://www.paragraf.rs/propisi_download/javnobeleznicka-tarifa-tabelarni-prikaz-nagrada-troskova.pdf"
+  },
+  {
+   "item": "Solemnizacija ugovora, vrednost do 600.000 RSD",
+   "amount_rsd": 7776,
+   "basis": "60% nagrade za javnobeležnički zapis",
+   "checked_at": "2026-11-09",
+   "source_url": "https://www.paragraf.rs/propisi_download/javnobeleznicka-tarifa-tabelarni-prikaz-nagrada-troskova.pdf",
+   "note": "Plus troškovi za isprave o pravnim poslovima 1.728 RSD."
+  },
+  {
+   "item": "Solemnizacija, 600.001 do 2.500.000 RSD",
+   "amount_rsd": 12960,
+   "basis": "Javnobeležnička tarifa",
+   "checked_at": "2026-11-09",
+   "source_url": "https://www.paragraf.rs/propisi_download/javnobeleznicka-tarifa-tabelarni-prikaz-nagrada-troskova.pdf"
+  },
+  {
+   "item": "Solemnizacija, 2.500.001 do 5.000.000 RSD",
+   "amount_rsd": 18144,
+   "basis": "Javnobeležnička tarifa",
+   "checked_at": "2026-11-09",
+   "source_url": "https://www.paragraf.rs/propisi_download/javnobeleznicka-tarifa-tabelarni-prikaz-nagrada-troskova.pdf"
+  },
+  {
+   "item": "Solemnizacija, 5.000.001 do 7.000.000 RSD",
+   "amount_rsd": 25920,
+   "basis": "Javnobeležnička tarifa",
+   "checked_at": "2026-11-09",
+   "source_url": "https://www.paragraf.rs/propisi_download/javnobeleznicka-tarifa-tabelarni-prikaz-nagrada-troskova.pdf"
+  },
+  {
+   "item": "Solemnizacija, 7.000.001 do 10.000.000 RSD",
+   "amount_rsd": 31104,
+   "basis": "Javnobeležnička tarifa",
+   "checked_at": "2026-11-09",
+   "source_url": "https://www.paragraf.rs/propisi_download/javnobeleznicka-tarifa-tabelarni-prikaz-nagrada-troskova.pdf",
+   "note": "10 do 14 miliona: 36.288 RSD; preko 14 miliona +2.160 RSD po započetom milionu."
+  },
+  {
+   "item": "Punomoćje: javnobeležnički zapis / solemnizacija",
+   "amount_rsd": null,
+   "basis": "6.480 RSD zapis, 4.320 RSD solemnizacija",
+   "checked_at": "2026-11-09",
+   "source_url": "https://www.paragraf.rs/propisi_download/javnobeleznicka-tarifa-tabelarni-prikaz-nagrada-troskova.pdf"
+  },
+  {
+   "item": "Ostavinski postupak, zaostavština do 150.000 RSD",
+   "amount_rsd": 4320,
+   "basis": "Javnobeležnička tarifa",
+   "checked_at": "2026-11-09",
+   "source_url": "https://www.paragraf.rs/propisi_download/javnobeleznicka-tarifa-tabelarni-prikaz-nagrada-troskova.pdf",
+   "note": "150.001 do 600.000: 8.640; 600.001 do 1.500.000: 12.960; do 2,5 mil: 19.440; do 5 mil: 25.920; do 7 mil: 38.880; do 10 mil: 64.800 RSD."
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://www.paragraf.rs/propisi_download/javnobeleznicka-tarifa-tabelarni-prikaz-nagrada-troskova.pdf",
+   "title": "Javnobeležnička tarifa – tabelarni prikaz (Paragraf)",
+   "checked_at": "2026-11-09"
+  },
+  {
+   "url": "https://www.paragraf.rs/propisi/zakon_o_javnom_beleznistvu.html",
+   "title": "Zakon o javnom beležništvu",
+   "checked_at": "2026-11-09"
+  },
+  {
+   "url": "https://www.paragraf.rs/propisi/zakon_o_prometu_nepokretnosti.html",
+   "title": "Zakon o prometu nepokretnosti",
+   "checked_at": "2026-11-09"
+  },
+  {
+   "url": "https://www.beleznik.org/",
+   "title": "Javnobeležnička komora Srbije",
+   "checked_at": "2026-11-09"
+  }
+ ],
+ "checked_at": "2026-11-09",
  "guide": {
   "sr": {
    "title": "Overa dokumenata kod javnog beležnika",
    "summary": "Overa potpisa, prepisa i izjava, ugovori o nekretninama, ostavinski postupak i punomoćja.",
-   "where_note": "Za ugovore o nekretninama nadležan je beležnik na čijem se području nalazi nepokretnost; za ostale overe bilo koji beležnik.",
+   "where_note": "Bilo koja javnobeležnička kancelarija za overe potpisa i prepisa; spisak svih beležnika je na ovom sajtu i na beleznik.org. Službeno područje beležnika je područje osnovnog suda gde mu je sedište; ostavinu vode beležnici na području nadležnog suda.",
    "steps": [
-    "Pronađite beležnika i zakažite termin.",
-    "Ponesite ličnu kartu i originale dokumenata.",
-    "Platite javnobeležničku nagradu po tarifi.",
-    "Dokument dobijate odmah po overi."
-   ]
+    "Odlučite šta vam treba: overa potpisa, prepisa, punomoćje ili ugovor (solemnizacija).",
+    "Izaberite beležnika i zakažite termin.",
+    "Ponesite ličnu kartu i dokument; za nepokretnost list nepokretnosti i dokaz o svojini.",
+    "Ako ne govorite srpski, dovedite sudskog tumača.",
+    "Potpišite pred beležnikom i platite nagradu po tarifi i troškove.",
+    "Preuzmite overenu ispravu odmah."
+   ],
+   "who": [
+    "Svako kome treba overa potpisa, prepisa ili prevoda, punomoćje ili izjava.",
+    "Kupci i prodavci nepokretnosti: ugovor mora biti solemnizovan kod beležnika.",
+    "Naslednici: beležnik vodi ostavinski postupak kao poverenik suda."
+   ],
+   "documents": [
+    {
+     "name": "Lična karta ili pasoš",
+     "note": "Stranci: pasoš ili lična karta za strance."
+    },
+    {
+     "name": "Isprava koju overavate",
+     "note": "Potpis se daje pred beležnikom (dokument donesite nepotpisan); za overu prepisa donesite original."
+    },
+    {
+     "name": "Za ugovor o nepokretnosti",
+     "note": "List nepokretnosti, dokaz o pravu svojine, podaci o strankama i nacrt ugovora; tačan spisak potvrdite sa kancelarijom.",
+     "variants": [
+      "Stranac nerezident: PIB za nerezidente (vidi vodič PIB)."
+     ]
+    },
+    {
+     "name": "Punomoćje",
+     "note": "Ako stranka ne dolazi lično: javnobeležnički zapis ili solemnizovano punomoćje."
+    },
+    {
+     "name": "Prevodilac",
+     "note": "Ako stranka ne razume srpski, isprava mora sadržati klauzulu da joj je sadržina u celosti prevedena; u praksi dolazi sudski tumač."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Mora li ugovor o kupoprodaji stana kod beležnika?",
+     "a": "Da. Ugovor o prometu nepokretnosti mora biti solemnizovan, inače nema pravno dejstvo."
+    },
+    {
+     "q": "Koliko košta overa potpisa?",
+     "a": "648 RSD po potpisu sa PDV-om; za zastupnika pravnog lica 2.160 RSD."
+    },
+    {
+     "q": "Koliko košta overa fotokopije?",
+     "a": "216 RSD po stranici, uz dodatak od 432 RSD po ispravi prema tabeli tarife."
+    },
+    {
+     "q": "Šta ako ne govorim srpski?",
+     "a": "Isprava mora sadržati klauzulu da vam je sadržina u celosti prevedena; u praksi beležnik traži sudskog tumača."
+    },
+    {
+     "q": "Da li tarifa važi u 2026?",
+     "a": "Vrednost boda od 180 RSD (Sl. glasnik 59/2025) je poslednja objavljena; proverite sa kancelarijom."
+    }
+   ],
+   "for_foreigners": "Beležnik sastavlja isprave na srpskom; stranka koja ne razume jezik potpisuje klauzulu da joj je sadržina prevedena, pa se dovodi tumač. Isprava na stranom jeziku moguća je samo ako je beležnik sudski prevodilac za taj jezik i ako je namenjena inostranstvu. Za kupovinu nepokretnosti strancu može trebati PIB za nerezidente."
   },
   "en": {
    "title": "Notary certification",
-   "summary": "Certifying signatures, copies and statements, real-estate contracts, probate and powers of attorney."
+   "summary": "Certifying signatures, copies and statements, real-estate contracts, probate and powers of attorney.",
+   "who": [
+    "Anyone needing a signature, copy or translation certified, a power of attorney or a statement.",
+    "Real-estate buyers and sellers: the contract must be solemnised by a notary.",
+    "Heirs: the notary runs the inheritance procedure as the court's commissioner."
+   ],
+   "where_note": "Any notary office for signature and copy certification; all notaries are listed on this site and on beleznik.org. A notary's area is that of the basic court where the office sits; inheritance is handled by notaries in the competent court's area.",
+   "documents": [
+    {
+     "name": "ID card or passport",
+     "note": "Foreigners: passport or foreigner's ID."
+    },
+    {
+     "name": "The document to certify",
+     "note": "Sign in front of the notary (bring it unsigned); for copy certification bring the original."
+    },
+    {
+     "name": "For a real-estate contract",
+     "note": "Property folio, proof of title, parties' details and the draft contract; confirm the exact list with the office.",
+     "variants": [
+      "Non-resident foreigner: non-resident PIB (see the PIB guide)."
+     ]
+    },
+    {
+     "name": "Power of attorney",
+     "note": "If a party cannot attend: notarial deed or solemnised power of attorney."
+    },
+    {
+     "name": "Interpreter",
+     "note": "If a party does not understand Serbian the document must carry a clause that its content was fully translated; in practice a court interpreter attends."
+    }
+   ],
+   "steps": [
+    "Decide what you need: signature or copy certification, power of attorney or a contract (solemnisation).",
+    "Pick a notary and book an appointment.",
+    "Bring your ID and the document; for property, the folio and proof of title.",
+    "If you do not speak Serbian, bring a court interpreter.",
+    "Sign before the notary and pay the tariff fee and costs.",
+    "Collect the certified document immediately."
+   ],
+   "faq": [
+    {
+     "q": "Must a flat sale contract go through a notary?",
+     "a": "Yes. A real-estate transfer contract must be solemnised or it has no legal effect."
+    },
+    {
+     "q": "How much is a signature certification?",
+     "a": "RSD 648 per signature incl. VAT; RSD 2,160 for a company representative."
+    },
+    {
+     "q": "How much is a copy certification?",
+     "a": "RSD 216 per page, plus RSD 432 per document per the tariff table."
+    },
+    {
+     "q": "What if I do not speak Serbian?",
+     "a": "The document must carry a clause that its content was fully translated; in practice the notary asks for a court interpreter."
+    },
+    {
+     "q": "Is the tariff current for 2026?",
+     "a": "The RSD 180 point value (Gazette 59/2025) is the latest published; confirm with the office."
+    }
+   ],
+   "for_foreigners": "Notaries draw up documents in Serbian; a party who does not understand it signs a clause that the content was translated, so an interpreter attends. A foreign-language document is possible only if the notary is a court translator for that language and it is for use abroad. For property purchases a foreigner may need a non-resident PIB."
   },
   "ru": {
    "title": "Заверение у нотариуса",
@@ -39,5 +253,6 @@
    "title": "Beglaubigung beim Notar",
    "summary": "Beglaubigung von Unterschriften, Abschriften und Erklärungen, Immobilienverträge, Nachlass und Vollmachten."
   }
- }
+ },
+ "legal_basis": "Zakon o javnom beležništvu; Javnobeležnička tarifa (vrednost boda 180 RSD, Sl. glasnik 59/2025); Zakon o prometu nepokretnosti, član 4."
 }

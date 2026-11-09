@@ -58,7 +58,7 @@ export async function GuidesHub({ locale }: { locale: Locale }) {
   for (const g of guides) { const c = cats.get(g.category_slug) ?? { name: g.category_name, items: [] }; c.items.push(g); cats.set(g.category_slug, c); }
   return (
     <main>
-      <section className="hero border-b border-line"><div className="shell py-10 sm:py-14">
+      <section className="hero-dark border-b border-white/10"><div className="shell py-10 sm:py-14">
         <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, { label: L.guides }]} />
         <h1 className="font-serif text-[32px] sm:text-[40px] font-semibold leading-[1.1] mt-4 max-w-3xl">{L.guides}</h1>
         <p className="text-muted mt-3 text-[16px] max-w-2xl">{L.guidesLead}</p>
@@ -103,7 +103,7 @@ export async function GuidePage({ locale, guide, jlsSlug, path }: { locale: Loca
   return (
     <main>
       {faqLd && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />}
-      <section className="hero border-b border-line"><div className="shell py-8 sm:py-12">
+      <section className="hero-dark border-b border-white/10"><div className="shell py-8 sm:py-12">
         <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, { href: href(locale, "/vodici"), label: L.guides }, { label: guide.category_name }]} />
         <div className="grid lg:grid-cols-[minmax(0,1fr)_380px] gap-8 items-end mt-4">
           <div>

@@ -5,31 +5,147 @@
   "nsz"
  ],
  "lead_vertical": null,
- "status": "short",
+ "status": "full",
  "sort_order": 100,
  "name_lat": "Prijava na evidenciju nezaposlenih (NSZ)",
  "summary": "Prijava kod Nacionalne službe za zapošljavanje radi posredovanja, obuka, novčane naknade i zdravstvenog osiguranja.",
- "typical_duration": null,
- "euprava_url": null,
- "online_available": true,
- "fees": [],
- "sources": [],
- "checked_at": null,
+ "typical_duration": "Prijava se obavlja odmah u filijali. Zahtev za novčanu naknadu podnosi se u roku od 30 dana od prestanka osiguranja za puni obim prava.",
+ "euprava_url": "https://www.nsz.gov.rs",
+ "online_available": false,
+ "fees": [
+  {
+   "item": "Prijava na evidenciju",
+   "amount_rsd": 0,
+   "basis": "NSZ ne naplaćuje prijavu.",
+   "checked_at": "2026-11-09",
+   "source_url": "https://www.nsz.gov.rs/live/traziteprijavljivanje-na-evidenciju.cid204"
+  },
+  {
+   "item": "Novčana naknada za nezaposlene (mesečno)",
+   "amount_rsd": null,
+   "basis": "Najniži i najviši iznos utvrđuje NSZ i usklađuje jednom godišnje.",
+   "checked_at": "2026-11-09",
+   "source_url": "https://biznis.rs/vesti/od-1-februara-vece-naknade-za-nezaposlenost-u-srbiji/",
+   "note": "Iznos prema novinskom izveštaju, nije potvrđen u Službenom glasniku – proverite pre uplate. Novine navode 33.745 do 78.226 RSD bruto od 1. 2. 2026."
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://www.nsz.gov.rs/live/traziteprijavljivanje-na-evidenciju.cid204",
+   "title": "NSZ – Prijavljivanje na evidenciju",
+   "checked_at": "2026-11-09"
+  },
+  {
+   "url": "https://www.nsz.gov.rs/live/o-nama/podno_enje_zahteva_za_ostvarivanje_prava_na_nov_anu_naknadu.cid65225",
+   "title": "NSZ – Zahtev za novčanu naknadu",
+   "checked_at": "2026-11-09"
+  }
+ ],
+ "checked_at": "2026-11-09",
  "guide": {
   "sr": {
    "title": "Prijava na evidenciju nezaposlenih (NSZ)",
    "summary": "Prijava kod Nacionalne službe za zapošljavanje radi posredovanja, obuka, novčane naknade i zdravstvenog osiguranja.",
-   "where_note": "Prijava se podnosi filijali ili ispostavi NSZ prema prebivalištu, lično ili elektronski.",
+   "where_note": "Filijala ili ispostava NSZ prema prebivalištu, lično. Zahtev za novčanu naknadu može se poslati i elektronskom poštom nadležnoj filijali.",
    "steps": [
-    "Pripremite ličnu kartu i dokaz o stručnoj spremi.",
-    "Podnesite prijavu u filijali NSZ ili elektronski.",
-    "Dogovorite individualni plan zapošljavanja sa savetnikom.",
-    "Ako ispunjavate uslove, podnesite i zahtev za novčanu naknadu u roku od 30 dana od prestanka rada."
-   ]
+    "Prijavite se u filijali NSZ prema prebivalištu sa ličnom kartom, diplomom i aktom o prestanku rada.",
+    "Ako ispunjavate uslove, podnesite zahtev za novčanu naknadu u roku od 30 dana od prestanka osiguranja.",
+    "NSZ pribavlja podatke o zaradama i stažu iz Centralnog registra; za porodično zdravstveno osiguranje priložite saglasnost članova.",
+    "Dogovorite individualni plan zapošljavanja i redovno se javljajte savetniku."
+   ],
+   "who": [
+    "Nezaposlena lica od 15 godina do ispunjenja uslova za penziju, sposobna i spremna za rad, koja aktivno traže posao.",
+    "Zaposleni koji traže promenu posla, učenici, studenti i penzioneri mogu se prijaviti uz posebna dokumenta."
+   ],
+   "documents": [
+    {
+     "name": "Lična karta ili druga isprava sa fotografijom i prebivalištem"
+    },
+    {
+     "name": "Dokaz o školskoj spremi",
+     "note": "Original na uvid."
+    },
+    {
+     "name": "Akt o prestanku radnog odnosa",
+     "note": "Ako ste bili zaposleni.",
+     "variants": [
+      "Osobe sa invaliditetom: dokaz o statusu.",
+      "Stranci: lična karta za strance ili pasoš i nostrifikovana diploma.",
+      "Zaposleni koji traže promenu: ugovor o radu; učenici i studenti: potvrda; penzioneri: rešenje o penziji."
+     ]
+    }
+   ],
+   "faq": [
+    {
+     "q": "Mogu li da se prijavim online?",
+     "a": "NSZ navodi da se prijava obavlja lično u filijali; zahtev za naknadu može se poslati elektronskom poštom."
+    },
+    {
+     "q": "Ko ima pravo na novčanu naknadu?",
+     "a": "Ko je bio osiguran najmanje 12 meseci neprekidno i kome je radni odnos prestao bez njegove volje i krivice."
+    },
+    {
+     "q": "Koji je rok?",
+     "a": "30 dana od prestanka osiguranja za puni obim prava."
+    },
+    {
+     "q": "Koliko iznosi naknada?",
+     "a": "Između zakonskog najnižeg i najvišeg iznosa koje NSZ usklađuje jednom godišnje; prema novinama od 1. 2. 2026. između 33.745 i 78.226 RSD bruto."
+    }
+   ],
+   "for_foreigners": "Stranac sa stalnim boravkom prijavljuje se uz ličnu kartu za strance i nostrifikovanu diplomu; sa privremenim boravkom uz pasoš i nostrifikovanu diplomu."
   },
   "en": {
    "title": "Registering as unemployed (NSZ)",
-   "summary": "Registering with the National Employment Service for job placement, training, unemployment benefit and health insurance."
+   "summary": "Registering with the National Employment Service for job placement, training, unemployment benefit and health insurance.",
+   "who": [
+    "Unemployed people from 15 until retirement conditions are met, able and ready to work and actively seeking a job.",
+    "Employees seeking a change, pupils, students and pensioners can register with extra documents."
+   ],
+   "where_note": "The NSZ branch or sub-office for your address, in person. The benefit request can also be emailed to the branch.",
+   "documents": [
+    {
+     "name": "ID card or another photo ID showing your address"
+    },
+    {
+     "name": "Proof of education",
+     "note": "Original shown."
+    },
+    {
+     "name": "Termination document",
+     "note": "If you were employed.",
+     "variants": [
+      "Persons with disabilities: proof of status.",
+      "Foreigners: foreigner's ID or passport and a recognised diploma.",
+      "Employees seeking a change: employment contract; pupils and students: certificate; pensioners: pension decision."
+     ]
+    }
+   ],
+   "steps": [
+    "Register at the NSZ branch for your address with your ID, diploma and termination document.",
+    "If eligible, file the benefit request within 30 days of the end of insurance.",
+    "NSZ obtains salary and service data from the central register; for family health insurance attach the members' consent.",
+    "Agree an individual employment plan and report to your adviser regularly."
+   ],
+   "faq": [
+    {
+     "q": "Can I register online?",
+     "a": "NSZ says registration is done in person at the branch; the benefit request can be emailed."
+    },
+    {
+     "q": "Who gets the unemployment benefit?",
+     "a": "Anyone insured for at least 12 months continuously whose employment ended through no fault or choice of their own."
+    },
+    {
+     "q": "What is the deadline?",
+     "a": "30 days from the end of insurance for the full right."
+    },
+    {
+     "q": "How much is the benefit?",
+     "a": "Between the legal minimum and maximum adjusted yearly by NSZ; press reports give RSD 33,745 to 78,226 gross from 1 Feb 2026."
+    }
+   ],
+   "for_foreigners": "A foreigner with permanent residence registers with the foreigner's ID and a recognised diploma; with temporary residence, with a passport and recognised diploma."
   },
   "ru": {
    "title": "Регистрация в службе занятости (NSZ)",
@@ -39,5 +155,6 @@
    "title": "Arbeitslos melden (NSZ)",
    "summary": "Meldung beim Nationalen Arbeitsamt für Vermittlung, Schulungen, Arbeitslosengeld und Krankenversicherung."
   }
- }
+ },
+ "legal_basis": "Zakon o zapošljavanju i osiguranju za slučaj nezaposlenosti."
 }

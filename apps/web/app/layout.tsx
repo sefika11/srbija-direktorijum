@@ -7,6 +7,7 @@ import "@fontsource-variable/literata";
 import "@fontsource/ibm-plex-serif/600.css";
 import "@fontsource/ibm-plex-mono/400.css";
 import "./globals.css";
+import Motion from "@/components/Motion";
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3100"),
@@ -17,7 +18,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="sr-Latn">
-      <body>{children}</body>
+      <body><Motion />{children}</body>
     </html>
   );
 }

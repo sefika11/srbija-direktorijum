@@ -66,94 +66,108 @@ export async function Home({ locale }: { locale: Locale }) {
   const typesLabel = locale === "sr" ? "vrsta institucija" : locale === "en" ? "institution types" : locale === "ru" ? "типов учреждений" : "Einrichtungsarten";
   const mapTitle = locale === "sr" ? "25 okruga, 145 gradova i opština" : locale === "en" ? "25 districts, 145 cities and municipalities" : locale === "ru" ? "25 округов, 145 городов и общин" : "25 Bezirke, 145 Städte und Gemeinden";
   const popular = locale === "sr" ? "Najčešće traženo" : locale === "en" ? "Most searched" : locale === "ru" ? "Часто ищут" : "Häufig gesucht";
+  const byGroupAll = GROUPS.map((g) => ({ g, types: types.filter((x) => x.group === g && x.org_count > 0), total: types.filter((x) => x.group === g).reduce((n, x) => n + x.org_count, 0) }));
+  const maxGroup = Math.max(1, ...byGroupAll.map((x) => x.total));
+  const T = {
+    sr: { open: "Otvori", browse: "Istražite", bySituation: "Po životnoj situaciji", langsTitle: "Isti sadržaj na četiri jezika", langsLead: "Za sve koji žive, rade ili tek stižu u Srbiju.", stats: "U brojkama", since: "Podaci iz zvaničnih registara, dopunjeni svakodnevno." },
+    en: { open: "Open", browse: "Explore", bySituation: "By life situation", langsTitle: "The same content in four languages", langsLead: "For everyone who lives, works or is just arriving in Serbia.", stats: "In numbers", since: "Data from official registers, updated continuously." },
+    ru: { open: "Открыть", browse: "Смотреть", bySituation: "По жизненной ситуации", langsTitle: "Один и тот же контент на четырёх языках", langsLead: "Для всех, кто живёт, работает или только приезжает в Сербию.", stats: "В цифрах", since: "Данные из официальных реестров, обновляются постоянно." },
+    de: { open: "Öffnen", browse: "Entdecken", bySituation: "Nach Lebenslage", langsTitle: "Derselbe Inhalt in vier Sprachen", langsLead: "Für alle, die in Serbien leben, arbeiten oder gerade ankommen.", stats: "In Zahlen", since: "Daten aus amtlichen Registern, laufend aktualisiert." },
+  }[locale];
+  const LANGS: { l: Locale; name: string; sub: string }[] = [{ l: "sr", name: "Srpski", sub: "latinica" }, { l: "en", name: "English", sub: "for residents and visitors" }, { l: "ru", name: "Русский", sub: "для жителей и гостей" }, { l: "de", name: "Deutsch", sub: "für Bewohner und Gäste" }];
   return (
     <main>
-      {/* Hero */}
-      <section className="hero border-b border-line">
-        <div className="shell py-12 sm:py-16 grid gap-10 lg:grid-cols-[minmax(0,1.5fr)_minmax(0,1fr)] items-center">
-          <div>
-            <div className="eyebrow mb-4">Republika Srbija · {d.siteName}</div>
-            <h1 className="font-serif text-[32px] sm:text-[44px] font-semibold leading-[1.08] max-w-2xl">{d.tagline}</h1>
-            <div className="mt-7"><SearchBox locale={locale} large placeholder={d.searchPlaceholder} submitLabel={d.search} /></div>
+      {/* Opening */}
+      <section className="hero-dark border-b border-white/10 -mt-[57px] pt-[57px]" data-hero>
+        <div className="shell pt-10 pb-14 sm:pt-14 sm:pb-20 grid gap-10 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.05fr)] items-center">
+          <div data-reveal>
+            <div className="eyebrow mb-5">Republika Srbija · {d.siteName}</div>
+            <h1 className="display text-[40px] sm:text-[56px] xl:text-[64px] max-w-[14ch]">{d.tagline.split(":")[0]}.</h1>
+            <p className="lede text-white/70 mt-5 max-w-[48ch]">{d.tagline.includes(":") ? d.tagline.split(":")[1].trim().replace(/^./, (c) => c.toUpperCase()) : ""}</p>
+            <div className="mt-8"><SearchBox locale={locale} large placeholder={d.searchPlaceholder} submitLabel={d.search} /></div>
             <div className="mt-4 flex flex-wrap items-center gap-2 text-[13px]">
-              <span className="text-muted mr-1">{popular}:</span>
+              <span className="text-white/55 mr-1">{popular}:</span>
               {QUICK[locale].map((x) => <Link key={x.q} href={href(locale, x.q)} className="quick-chip">{x.label}</Link>)}
             </div>
+            <div className="stat-strip mt-9">
+              {[{ n: stats.orgs, l: d.institutions }, { n: stats.jls, l: d.municipalities }, { n: stats.types, l: typesLabel }].map((x) => (
+                <div key={x.l}><div className="num">{x.n.toLocaleString("sr-Latn")}</div><div className="lbl">{x.l}</div></div>
+              ))}
+            </div>
           </div>
-          <div className="stat-row">
-            {[{ n: stats.orgs, l: d.institutions }, { n: stats.jls, l: d.municipalities }, { n: stats.types, l: typesLabel }].map((x) => (
-              <div key={x.l}><div className="num">{x.n.toLocaleString("sr-Latn")}</div><div className="text-muted text-[12.5px] sm:text-[13px] mt-2 uppercase tracking-[.06em]">{x.l}</div></div>
-            ))}
+          <div data-reveal style={{ "--d": "120ms" } as React.CSSProperties}>
+            <SerbiaMap okruzi={okruzi.map((o) => ({ slug: o.slug, name_lat: o.name_lat, seat_name_lat: o.seat_name_lat, jls_count: o.jls_count, org_count: o.org_count }))}
+                       jls={allJls.map((j) => ({ slug: j.slug, name_lat: j.name_lat, okrug_slug: j.okrug_slug, org_count: j.org_count, jls_kind: j.jls_kind }))}
+                       locale={locale} labels={mapLabels} variant="dark" height="hero" />
           </div>
         </div>
-      </section>
-
-      {/* Map */}
-      <section className="shell py-12">
-        <div className="flex flex-wrap items-end justify-between gap-3 mb-5">
-          <div><div className="eyebrow">{d.browseByRegion}</div><h2 className="font-serif text-[26px] font-semibold mt-1">{mapTitle}</h2></div>
-        </div>
-        <SerbiaMap okruzi={okruzi.map((o) => ({ slug: o.slug, name_lat: o.name_lat, seat_name_lat: o.seat_name_lat, jls_count: o.jls_count, org_count: o.org_count }))}
-                   jls={allJls.map((j) => ({ slug: j.slug, name_lat: j.name_lat, okrug_slug: j.okrug_slug, org_count: j.org_count, jls_kind: j.jls_kind }))}
-                   locale={locale} labels={mapLabels} />
-        <ul className="mt-5 flex flex-wrap gap-2 text-[13px]">
-          {okruzi.map((o) => <li key={o.id}><Link href={href(locale, `/okrug/${o.slug}`)} className="quick-chip">{o.name_lat}<span className="text-muted tabular ml-1.5">{o.org_count}</span></Link></li>)}
-        </ul>
       </section>
 
       {/* Guides */}
       {topGuides.length > 0 && (
-        <section className="bg-surface border-y border-line"><div className="shell py-12">
-          <div className="flex flex-wrap items-end justify-between gap-3 mb-5">
-            <div><div className="eyebrow">{guidesTitle}</div><h2 className="font-serif text-[26px] font-semibold mt-1">{guidesLead}</h2></div>
+        <section className="shell py-16 sm:py-20">
+          <div className="section-head" data-reveal>
+            <div><div className="eyebrow">01 · {guidesTitle}</div><h2 className="display-sm mt-2">{guidesLead}</h2></div>
             <Link href={href(locale, "/vodici")} className="quick-chip">{allGuides} →</Link>
           </div>
-          <ul className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {topGuides.map((g) => { const c = g.guide[locale] ?? g.guide.en ?? g.guide.sr ?? {}; return (
-              <li key={g.id} className="card card-hover p-5 flex flex-col">
+          <div className="rail">
+            {topGuides.map((g, i) => { const c = g.guide[locale] ?? g.guide.en ?? g.guide.sr ?? {}; return (
+              <Link key={g.id} href={href(locale, `/vodic/${g.slug}`)} className="guide-card no-underline text-ink" data-reveal style={{ "--d": `${i * 60}ms` } as React.CSSProperties}>
+                <span className="num" aria-hidden>{String(i + 1).padStart(2, "0")}</span>
                 <div className="eyebrow">{g.category_name}</div>
-                <Link href={href(locale, `/vodic/${g.slug}`)} className="font-serif text-[19px] font-semibold leading-snug no-underline text-ink hover:text-accent mt-1">{c.title ?? g.name_lat}</Link>
-                <p className="text-muted text-[13.5px] mt-2 flex-1">{c.summary ?? g.summary}</p>
-                {g.status === "full" && <div className="mt-3 text-[12px]"><span className="rounded-full bg-gold-soft text-gold px-2 py-0.5 font-medium">✓ {locale === "sr" ? "Provereno" : locale === "en" ? "Verified" : locale === "ru" ? "Проверено" : "Geprüft"} {g.checked_at}</span></div>}
-              </li>); })}
-          </ul>
-        </div></section>
+                <div className="font-serif text-[22px] font-semibold leading-[1.15] mt-3 pr-14 tracking-[-0.01em]">{c.title ?? g.name_lat}</div>
+                <p className="text-muted text-[13.5px] mt-2 flex-1 leading-relaxed">{c.summary ?? g.summary}</p>
+                <div className="mt-4 flex items-center justify-between text-[12.5px]">
+                  {g.status === "full" ? <span className="rounded-full bg-gold-soft text-gold px-2 py-0.5 font-medium">✓ {locale === "sr" ? "Provereno" : locale === "en" ? "Verified" : locale === "ru" ? "Проверено" : "Geprüft"} {g.checked_at}</span> : <span className="text-muted">{locale === "sr" ? "kratki vodič" : locale === "en" ? "short guide" : locale === "ru" ? "кратко" : "Kurzfassung"}</span>}
+                  <span className="text-accent font-medium">{T.open} →</span>
+                </div>
+              </Link>); })}
+          </div>
+        </section>
       )}
 
       {/* Categories */}
-      <section className="border-b border-line">
-        <div className="shell py-12">
-          <div className="eyebrow">{d.browseByCategory}</div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
-            {byGroup.map(({ g, types }) => {
-              const I = Icon[GROUP_ICON[g] ?? "landmark"]; const total = types.reduce((n, x) => n + x.org_count, 0);
-              return (
-                <div key={g} className="card card-hover p-5">
-                  <div className="flex items-center justify-between gap-3">
-                    <div className="flex items-center gap-2.5"><span className="icon-badge"><I /></span><h3 className="font-semibold text-[15.5px]">{d.groups[g]}</h3></div>
-                    <span className="text-muted tabular text-[13px]">{total.toLocaleString("sr-Latn")}</span>
-                  </div>
-                  <ul className="text-[13.5px] grid gap-1.5 mt-4">
-                    {types.slice(0, 7).map((x) => <li key={x.id} className="flex justify-between gap-3"><Link href={href(locale, `/${x.slug}`)} className="no-underline text-ink hover:text-accent">{x.name_plural_lat ?? x.name_lat}</Link><span className="text-muted tabular">{x.org_count.toLocaleString("sr-Latn")}</span></li>)}
-                  </ul>
-                  {types.length > 7 && <div className="mt-3 text-[12.5px] text-muted">+{types.length - 7} {locale === "sr" ? "vrsta" : locale === "en" ? "more types" : locale === "ru" ? "ещё" : "weitere"}</div>}
+      <section className="border-y border-line bg-surface">
+        <div className="shell py-16 sm:py-20">
+          <div className="section-head" data-reveal>
+            <div><div className="eyebrow">02 · {d.browseByCategory}</div><h2 className="display-sm mt-2">{stats.orgs.toLocaleString("sr-Latn")} {d.institutions}, {stats.types} {typesLabel}</h2></div>
+          </div>
+          <div className="bento">
+            {byGroupAll.map(({ g, types: ts, total }, i) => { const I = Icon[GROUP_ICON[g] ?? "landmark"]; return (
+              <div key={g} className="bento-card" data-reveal style={{ "--d": `${i * 60}ms` } as React.CSSProperties}>
+                <div className="flex items-start justify-between gap-3">
+                  <span className="icon-badge"><I /></span>
+                  <div className="big">{total.toLocaleString("sr-Latn")}</div>
                 </div>
-              );
-            })}
+                <h3 className="font-semibold text-[16px] mt-4">{d.groups[g]}</h3>
+                <div className="bar"><i style={{ "--w": (total / maxGroup).toFixed(3) } as React.CSSProperties} /></div>
+                <ul className="text-[13.5px] grid gap-1.5 mt-4">
+                  {ts.slice(0, i < 2 ? 6 : 4).map((x) => <li key={x.id} className="flex justify-between gap-3"><Link href={href(locale, `/${x.slug}`)} className="no-underline text-ink hover:text-accent truncate">{x.name_plural_lat ?? x.name_lat}</Link><span className="text-muted tabular shrink-0">{x.org_count.toLocaleString("sr-Latn")}</span></li>)}
+                </ul>
+              </div>); })}
           </div>
         </div>
       </section>
 
-      {/* Foreigners */}
-      <section className="shell py-12">
-        <div className="foreigners-band rounded-2xl p-7 sm:p-9 grid lg:grid-cols-[1fr_auto] gap-6 items-center">
-          <div>
-            <div className="eyebrow plain !text-white/70">{d.forForeigners} · English · Русский · Deutsch</div>
-            <h2 className="font-serif text-[24px] sm:text-[28px] font-semibold mt-2 text-white max-w-2xl">{d.forForeignersLead}</h2>
-          </div>
-          <Link href={href(locale, "/za-strance")} className="inline-flex items-center gap-2 rounded-xl bg-white text-accent-ink px-5 py-3 no-underline font-medium text-[14px] justify-self-start hover:bg-accent-soft">{d.forForeigners} <Icon.arrow /></Link>
+      {/* Districts */}
+      <section className="shell py-16 sm:py-20">
+        <div className="section-head" data-reveal>
+          <div><div className="eyebrow">03 · {d.browseByRegion}</div><h2 className="display-sm mt-2">{mapTitle}</h2></div>
         </div>
+        <ul className="flex flex-wrap gap-2 text-[13.5px]" data-reveal>
+          {okruzi.map((o) => <li key={o.id}><Link href={href(locale, `/okrug/${o.slug}`)} className="quick-chip">{o.name_lat}<span className="text-muted tabular ml-1.5">{o.org_count}</span></Link></li>)}
+        </ul>
       </section>
+
+      {/* Languages */}
+      <section className="hero-dark"><div className="shell py-16 sm:py-20" data-reveal>
+        <div className="eyebrow mb-3">04 · {d.forForeigners}</div>
+        <h2 className="display-sm text-white max-w-[20ch]">{T.langsTitle}</h2>
+        <p className="lede text-white/70 mt-3 max-w-[52ch]">{T.langsLead}</p>
+        <div className="lang-tiles mt-8">
+          {LANGS.map((x) => <Link key={x.l} href={href(x.l, "/za-strance")} hrefLang={x.l} className="lang-tile"><span className="big">{x.name}</span><span className="text-white/60 text-[13px]">{x.sub}</span></Link>)}
+        </div>
+      </div></section>
     </main>
   );
 }
@@ -164,7 +178,7 @@ export async function OkrugHub({ locale, okrug }: { locale: Locale; okrug: db.TU
   const jls = await db.getJlsInOkrug(okrug.id);
   return (
     <main>
-      <section className="hero border-b border-line"><div className="shell py-8 sm:py-10">
+      <section className="hero-dark border-b border-white/10"><div className="shell py-8 sm:py-10">
         <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, { label: okrug.name_lat }]} />
         <div className="eyebrow mt-4">{d.okrug}</div>
         <h1 className="font-serif text-[30px] sm:text-[38px] font-semibold leading-tight">{okrug.official_name_lat ?? okrug.name_lat}</h1>
@@ -196,7 +210,7 @@ export async function UnitHub({ locale, unit, parent }: { locale: Locale; unit: 
   const path = unit.level === "gradska_opstina" && parent ? `/${parent.slug}/${unit.slug}` : `/${unit.slug}`;
   return (
     <main>
-      <section className="hero border-b border-line"><div className="shell py-8 sm:py-10">
+      <section className="hero-dark border-b border-white/10"><div className="shell py-8 sm:py-10">
       <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, ...(okrug ? [{ href: href(locale, `/okrug/${okrug.slug}`), label: okrug.name_lat }] : []), ...(parent ? [{ href: href(locale, `/${parent.slug}`), label: parent.name_lat }] : []), { label: unit.name_lat }]} />
       <div className="eyebrow mt-4">{unit.level === "gradska_opstina" ? d.gradskaOpstina : unit.jls_kind === "grad" ? d.city : d.municipality}{okrug && unit.level === "jls" ? ` · ${okrug.name_lat}` : ""}</div>
       <h1 className="font-serif text-[30px] sm:text-[38px] font-semibold leading-tight">{tuLabel(unit)}</h1>
@@ -274,7 +288,7 @@ export async function OrgTypeHub({ locale, type }: { locale: Locale; type: db.Or
   const places = branchMode ? new Set(branches.map((b) => b.jls_slug)).size : keys.length;
   return (
     <main>
-      <section className="hero border-b border-line"><div className="shell py-8 sm:py-10">
+      <section className="hero-dark border-b border-white/10"><div className="shell py-8 sm:py-10">
         <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, { label: d.groups[type.group] }, { label: type.name_plural_lat ?? type.name_lat }]} />
         <div className="eyebrow mt-4">{d.groups[type.group]}</div>
         <h1 className="font-serif text-[30px] sm:text-[38px] font-semibold leading-tight">{type.name_plural_lat ?? type.name_lat}</h1>
@@ -344,7 +358,7 @@ export async function OrgPage({ locale, org, locSlug, path }: { locale: Locale; 
   const regLine = [org.mb && `MB ${org.mb}`, org.pib && `PIB ${org.pib}`, org.jbkjs && `JBKJS ${org.jbkjs}`].filter(Boolean).join(" · ");
   return (
     <main>
-      <section className="hero border-b border-line"><div className="shell py-7 sm:py-9">
+      <section className="hero-dark border-b border-white/10"><div className="shell py-7 sm:py-9">
       <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, ...(jls ? [{ href: href(locale, `/${jls.slug}`), label: jls.name_lat }] : []), { href: href(locale, `/${org.type_slug}`), label: type.name_lat }, ...(loc && !loc.is_primary ? [{ href: orgHref(locale, org), label: org.name_lat }, { label: loc.unit_name_lat }] : [{ label: org.name_lat }])]} />
       <div className="eyebrow mt-4">{type.name_lat}{jls ? ` · ${jls.name_lat}` : ""}</div>
       <h1 className="font-serif text-[28px] sm:text-[36px] font-semibold leading-[1.12] mt-1">{title}</h1>
@@ -432,7 +446,7 @@ export async function SearchPage({ locale, q }: { locale: Locale; q: string }) {
   const hits = q.trim().length >= 2 ? await db.search(q.trim()) : [];
   return (
     <main>
-      <section className="hero border-b border-line"><div className="shell py-8 sm:py-10">
+      <section className="hero-dark border-b border-white/10"><div className="shell py-8 sm:py-10">
         <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, { label: d.search }]} />
         <h1 className="font-serif text-[26px] sm:text-[32px] font-semibold mt-4">{q ? <>{d.results} „{q}“</> : d.search}</h1>
         <div className="mt-4"><SearchBox locale={locale} defaultValue={q} large placeholder={d.searchPlaceholder} submitLabel={d.search} /></div>
@@ -504,7 +518,7 @@ export function StaticPage({ locale, slug }: { locale: Locale; slug: string }) {
   if (!p) return null;
   return (
     <main>
-      <section className="hero border-b border-line"><div className="shell py-8 sm:py-10">
+      <section className="hero-dark border-b border-white/10"><div className="shell py-8 sm:py-10">
         <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, { label: p.title }]} />
         <h1 className="font-serif text-[30px] sm:text-[38px] font-semibold mt-4">{p.title}</h1>
       </div></section>

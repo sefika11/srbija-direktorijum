@@ -5,39 +5,178 @@
   "poreska-uprava"
  ],
  "lead_vertical": "knjigovodstvo",
- "status": "short",
+ "status": "full",
  "sort_order": 61,
  "name_lat": "PIB za strane državljane",
  "summary": "Poreski identifikacioni broj potreban strancima za zaposlenje, otvaranje računa, kupovinu nekretnine ili registraciju firme.",
- "typical_duration": null,
+ "typical_duration": "Potvrda o dodeljenom PIB-u izdaje se odmah po podnošenju prijave. Poreskog punomoćnika morate prijaviti u roku od 10 dana od početka ostvarivanja prihoda ili sticanja imovine.",
  "euprava_url": null,
  "online_available": false,
- "fees": [],
- "sources": [],
- "checked_at": null,
+ "fees": [
+  {
+   "item": "Dodela PIB-a",
+   "amount_rsd": null,
+   "basis": "Pravilnik o PIB-u i ZPPPA ne predviđaju naknadu.",
+   "checked_at": "2026-11-09",
+   "source_url": "https://www.paragraf.rs/propisi_download/pravilnik_o_poreskom_identifikacionom_broju.pdf",
+   "note": "Nije pronađena objavljena taksa; proverite sa Poreskom upravom."
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://www.paragraf.rs/propisi_download/pravilnik_o_poreskom_identifikacionom_broju.pdf",
+   "title": "Pravilnik o poreskom identifikacionom broju",
+   "checked_at": "2026-11-09"
+  },
+  {
+   "url": "https://www.paragraf.rs/propisi/zakon_o_poreskom_postupku_i_poreskoj_administraciji.html",
+   "title": "Zakon o poreskom postupku i poreskoj administraciji",
+   "checked_at": "2026-11-09"
+  },
+  {
+   "url": "https://biznis.rs/preduzetnik/porezi/da-li-je-strancima-neophodan-pib-za-nerezidente-da-bi-dobili-resenje-o-porezu-na-prenos-apsolutnih-prava/",
+   "title": "Biznis.rs – PIB za nerezidente (praksa)",
+   "checked_at": "2026-11-09"
+  }
+ ],
+ "checked_at": "2026-11-09",
  "guide": {
   "sr": {
    "title": "PIB za strane državljane",
    "summary": "Poreski identifikacioni broj potreban strancima za zaposlenje, otvaranje računa, kupovinu nekretnine ili registraciju firme.",
-   "where_note": "Zahtev se podnosi filijali Poreske uprave prema mestu boravka ili sedišta; stranac može imati punomoćnika.",
+   "where_note": "Prijava nerezidentnog fizičkog lica podnosi se sedištu (Centrali) Poreske uprave, lično ili preko poreskog punomoćnika, na obrascu PR-3. Filijale različito tumače pravila, pa pre podnošenja proverite sa službenikom.",
    "steps": [
-    "Pripremite pasoš i, ako postoji, dozvolu boravka.",
-    "Popunite obrazac PR-2 (ili ga podnese punomoćnik).",
-    "Predajte zahtev u filijali Poreske uprave.",
-    "Potvrdu o PIB-u preuzimate lično ili preko punomoćnika."
-   ]
+    "Utvrdite da li ste nerezident (prebivalište, centar interesa ili 183 dana boravka u 12 meseci).",
+    "Ako ćete sticati imovinu ili prihod, ovlastite poreskog punomoćnika, rezidenta Srbije.",
+    "Popunite obrazac PR-3 i podnesite ga Centrali Poreske uprave, lično ili preko punomoćnika.",
+    "Poreska uprava dodeljuje devetocifreni PIB i odmah izdaje potvrdu.",
+    "Prijavite punomoćnika u roku od 10 dana od početka prihoda ili sticanja imovine.",
+    "Pri kupovini nepokretnosti PIB ide u poresku prijavu koju beležnik podnosi za porez na prenos."
+   ],
+   "who": [
+    "Strano fizičko lice nerezident koje ostvaruje prihod ili stiče imovinu u Srbiji (kupovina nepokretnosti, zakup).",
+    "Stranac koji osniva firmu dobija PIB kroz registraciju u APR-u (vidi vodič o otvaranju firme).",
+    "Stranac sa prijavljenim prebivalištem i ličnom kartom za strance može biti poreski rezident; tada koristi JMBG-zasnovani PIB."
+   ],
+   "documents": [
+    {
+     "name": "Obrazac PR-3",
+     "note": "Prijava za registraciju fizičkog lica nerezidenta. PR-1 je za pravna lica, PR-2 za rezidentne preduzetnike van APR-a."
+    },
+    {
+     "name": "Pasoš"
+    },
+    {
+     "name": "Dozvola boravka ili prijava boravišta, ako postoji"
+    },
+    {
+     "name": "Punomoćje poreskom punomoćniku",
+     "note": "Nerezident bez stalne poslovne jedinice mora u roku od 10 dana od početka prihoda ili sticanja imovine prijaviti punomoćnika koji je rezident Srbije; inače ga Poreska uprava postavlja sama."
+    }
+   ],
+   "faq": [
+    {
+     "q": "Koji obrazac podnosi stranac?",
+     "a": "PR-3, prijava fizičkog lica nerezidenta."
+    },
+    {
+     "q": "Gde se podnosi?",
+     "a": "Sedištu (Centrali) Poreske uprave, ne filijali prema boravištu."
+    },
+    {
+     "q": "Treba li mi poreski punomoćnik?",
+     "a": "Nerezident bez stalne poslovne jedinice mora prijaviti punomoćnika, rezidenta Srbije, u roku od 10 dana, osim kod prihoda oporezovanih po odbitku."
+    },
+    {
+     "q": "Koliko brzo i koliko košta?",
+     "a": "Potvrda se izdaje odmah; naknada nije propisana."
+    },
+    {
+     "q": "Da li je PIB isto što i JMBG?",
+     "a": "Nerezidenti dobijaju devetocifreni PIB; rezidentna fizička lica koriste trinaestocifreni JMBG."
+    }
+   ],
+   "for_foreigners": "Ceo vodič je za strance: sa privremenim boravkom i prijavljenim prebivalištem možete biti rezident i koristiti JMBG-zasnovani PIB; nerezident podnosi PR-3 Centrali Poreske uprave i određuje poreskog punomoćnika."
   },
   "en": {
    "title": "Tax number (PIB) for foreigners",
-   "summary": "The tax identification number foreigners need for employment, bank accounts, buying property or registering a company."
+   "summary": "The tax identification number foreigners need for employment, bank accounts, buying property or registering a company.",
+   "who": [
+    "A non-resident foreign individual earning income or acquiring property in Serbia (property purchase, rent).",
+    "A foreigner founding a company gets a PIB through APR registration (see the business guide).",
+    "A foreigner with registered residence and a foreigner's ID may be a tax resident and use the JMBG-based PIB."
+   ],
+   "where_note": "A non-resident individual's registration is filed with the Tax Administration headquarters, in person or through a tax representative, on form PR-3. Branches interpret the rules differently, so confirm with an officer before filing.",
+   "documents": [
+    {
+     "name": "Form PR-3",
+     "note": "Registration of a non-resident individual. PR-1 is for legal entities, PR-2 for resident entrepreneurs outside APR."
+    },
+    {
+     "name": "Passport"
+    },
+    {
+     "name": "Residence permit or stay registration, if any"
+    },
+    {
+     "name": "Power of attorney to a tax representative",
+     "note": "A non-resident without a permanent establishment must name a Serbian-resident representative within 10 days of starting income or acquiring property; otherwise the Tax Administration appoints one."
+    }
+   ],
+   "steps": [
+    "Establish whether you are a non-resident (residence, centre of interests or 183 days in 12 months).",
+    "If you will acquire property or income, authorise a Serbian-resident tax representative.",
+    "Fill in form PR-3 and file it with the Tax Administration headquarters, in person or via the representative.",
+    "The Tax Administration assigns a nine-digit PIB and issues the certificate immediately.",
+    "Notify the representative within 10 days of starting income or acquiring property.",
+    "For a property purchase the PIB goes into the transfer-tax return the notary files."
+   ],
+   "faq": [
+    {
+     "q": "Which form does a foreigner file?",
+     "a": "PR-3, registration of a non-resident individual."
+    },
+    {
+     "q": "Where is it filed?",
+     "a": "With the Tax Administration headquarters, not a branch by residence."
+    },
+    {
+     "q": "Do I need a tax representative?",
+     "a": "A non-resident without a permanent establishment must name a Serbian-resident representative within 10 days, except for withholding-taxed income."
+    },
+    {
+     "q": "How fast and how much?",
+     "a": "The certificate is issued immediately; no fee is prescribed."
+    },
+    {
+     "q": "Is PIB the same as JMBG?",
+     "a": "Non-residents get a nine-digit PIB; resident individuals use the thirteen-digit JMBG."
+    }
+   ],
+   "for_foreigners": "The whole guide is for foreigners: with temporary residence and a registered address you may be a resident and use the JMBG-based PIB; a non-resident files PR-3 with the Tax Administration headquarters and names a tax representative."
   },
   "ru": {
    "title": "Налоговый номер (PIB) для иностранцев",
-   "summary": "Налоговый номер, нужный иностранцам для работы, счёта в банке, покупки недвижимости или регистрации фирмы."
+   "summary": "Налоговый номер, нужный иностранцам для работы, счёта в банке, покупки недвижимости или регистрации фирмы.",
+   "steps": [
+    "Определите, являетесь ли вы нерезидентом (место жительства, центр интересов или 183 дня за 12 месяцев).",
+    "Уполномочьте налогового представителя — резидента Сербии.",
+    "Заполните форму PR-3 и подайте её в Центральный офис Налоговой администрации лично или через представителя.",
+    "Девятизначный PIB и справка выдаются сразу."
+   ],
+   "for_foreigners": "С временным пребыванием и зарегистрированным адресом вы можете быть резидентом и использовать PIB на основе JMBG; нерезидент подаёт PR-3 в Центральный офис и назначает налогового представителя."
   },
   "de": {
    "title": "Steuernummer (PIB) für Ausländer",
-   "summary": "Die Steuer-Identifikationsnummer für Beschäftigung, Bankkonto, Immobilienkauf oder Firmengründung."
+   "summary": "Die Steuer-Identifikationsnummer für Beschäftigung, Bankkonto, Immobilienkauf oder Firmengründung.",
+   "steps": [
+    "Klären, ob Sie Nichtansässiger sind (Wohnsitz, Lebensmittelpunkt oder 183 Tage in 12 Monaten).",
+    "Einen in Serbien ansässigen Steuervertreter bevollmächtigen.",
+    "Formular PR-3 ausfüllen und bei der Zentrale der Steuerverwaltung einreichen, persönlich oder über den Vertreter.",
+    "Die neunstellige PIB und die Bescheinigung werden sofort ausgestellt."
+   ],
+   "for_foreigners": "Mit vorübergehendem Aufenthalt und gemeldeter Adresse können Sie ansässig sein und die JMBG-basierte PIB nutzen; Nichtansässige reichen PR-3 bei der Zentrale ein und benennen einen Steuervertreter."
   }
- }
+ },
+ "legal_basis": "Zakon o poreskom postupku i poreskoj administraciji (čl. 14, 16, 28); Pravilnik o poreskom identifikacionom broju."
 }
