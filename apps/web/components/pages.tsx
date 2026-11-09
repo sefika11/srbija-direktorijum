@@ -286,6 +286,8 @@ export async function OrgTypeHub({ locale, type }: { locale: Locale; type: db.Or
   const okrugKeys = [...byOkrug.keys()].sort((a, b) => a.localeCompare(b, "sr-Latn"));
   const count = branchMode ? branches.length : orgs.length;
   const places = branchMode ? new Set(branches.map((b) => b.jls_slug)).size : keys.length;
+  let faq: { q: string; a: string }[] = [];
+  try { const parsed = type.faq_md ? JSON.parse(type.faq_md) : []; if (Array.isArray(parsed)) faq = parsed.filter((x) => x && x.q && x.a); } catch { faq = []; }
   return (
     <main>
       <section className="hero-dark border-b border-white/10"><div className="shell py-8 sm:py-10">
@@ -293,12 +295,19 @@ export async function OrgTypeHub({ locale, type }: { locale: Locale; type: db.Or
         <div className="eyebrow mt-4">{d.groups[type.group]}</div>
         <h1 className="font-serif text-[30px] sm:text-[38px] font-semibold leading-tight">{type.name_plural_lat ?? type.name_lat}</h1>
         <p className="text-muted mt-2 tabular">{count.toLocaleString("sr-Latn")} {branchMode ? (locale === "sr" ? "lokacija" : locale === "en" ? "locations" : locale === "ru" ? "адресов" : "Standorte") : d.institutions} · {places} {d.municipalities}</p>
-        {type.description_md && <div className="prose max-w-3xl mt-3 text-[14.5px]">{type.description_md}</div>}
+        {type.description_md && <div className="prose max-w-3xl mt-3 text-[15px] text-white/85">{type.description_md}</div>}
       </div></section>
       <div className="shell py-6">
+      {faq.length > 0 && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faq.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) }) }} />}
       <AdSlot code="jls_top_leaderboard" w={728} h={90} mobileH={100} label={d.ad} />
       <div className="grid lg:grid-cols-[minmax(0,1fr)_300px] gap-8 items-start">
         <div className="grid gap-5">
+          {faq.length > 0 && (
+            <section className="card p-5">
+              <SectionTitle>{locale === "sr" ? "Česta pitanja" : locale === "en" ? "Frequently asked" : locale === "ru" ? "Частые вопросы" : "Häufige Fragen"}</SectionTitle>
+              <div className="grid gap-2">{faq.map((f, i) => <details key={i} className="rounded-md border border-line p-3.5 group"><summary className="cursor-pointer font-medium text-[14.5px] list-none flex justify-between gap-3">{f.q}<span className="text-muted group-open:rotate-45 transition">+</span></summary><p className="text-[14px] text-muted mt-2">{f.a}</p></details>)}</div>
+            </section>
+          )}
           {branchMode ? okrugKeys.map((k, i) => (
             <section key={k}>
               <SectionTitle>{k} <span className="text-muted font-normal text-[13px] tabular">{byOkrug.get(k)!.length}</span></SectionTitle>
