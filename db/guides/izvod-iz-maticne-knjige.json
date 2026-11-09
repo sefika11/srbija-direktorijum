@@ -1,0 +1,43 @@
+{
+ "slug": "izvod-iz-maticne-knjige",
+ "category": "maticne-knjige",
+ "org_types": [
+  "opstinska-uprava",
+  "gradska-uprava"
+ ],
+ "lead_vertical": null,
+ "status": "short",
+ "sort_order": 20,
+ "name_lat": "Izvod iz matične knjige rođenih, venčanih ili umrlih",
+ "summary": "Izvodi i uverenja iz matičnih knjiga, uključujući međunarodne izvode.",
+ "typical_duration": null,
+ "euprava_url": "https://euprava.gov.rs",
+ "online_available": true,
+ "fees": [],
+ "sources": [],
+ "checked_at": null,
+ "guide": {
+  "sr": {
+   "title": "Izvod iz matične knjige rođenih, venčanih ili umrlih",
+   "summary": "Izvodi i uverenja iz matičnih knjiga, uključujući međunarodne izvode.",
+   "where_note": "Izvod izdaje matičar u bilo kojoj opštinskoj ili gradskoj upravi, nezavisno od mesta upisa; najbrže je elektronski preko eUprave.",
+   "steps": [
+    "Naručite izvod elektronski na eUpravi ili dođite kod matičara.",
+    "Platite republičku administrativnu taksu.",
+    "Preuzmite izvod na šalteru ili ga primite poštom."
+   ]
+  },
+  "en": {
+   "title": "Birth, marriage and death certificates",
+   "summary": "Extracts and certificates from the civil registers, including international versions."
+  },
+  "ru": {
+   "title": "Свидетельства о рождении, браке и смерти",
+   "summary": "Выписки и справки из книг записи актов, включая международные."
+  },
+  "de": {
+   "title": "Geburts-, Heirats- und Sterbeurkunden",
+   "summary": "Auszüge und Bescheinigungen aus den Personenstandsregistern, auch international."
+  }
+ }
+}

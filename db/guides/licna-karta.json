@@ -1,0 +1,207 @@
+{
+ "slug": "licna-karta",
+ "category": "licna-dokumenta",
+ "org_types": [
+  "mup-policijska-uprava"
+ ],
+ "lead_vertical": null,
+ "status": "full",
+ "sort_order": 10,
+ "name_lat": "Lična karta",
+ "name_cyr": "Лична карта",
+ "summary": "Prvo izdavanje, zamena istekle ili oštećene, promena podataka i izgubljena lična karta. Obavezna od 16. godine.",
+ "typical_duration": "Zakonski rok je do 15 dana od podnošenja zahteva; u praksi često 3–7 dana.",
+ "legal_basis": "Zakon o ličnoj karti; Uredba o vrstama usluga koje pruža MUP i visini taksi; Zakon o republičkim administrativnim taksama.",
+ "euprava_url": "https://euprava.gov.rs/li%C4%8Dna-karta-podaci",
+ "online_available": true,
+ "checked_at": "2026-11-09",
+ "fees": [
+  {
+   "item": "Izrada biometrijske lične karte (obrazac 928,80 + tehnička izrada 226)",
+   "amount_rsd": 1154.8,
+   "basis": "Uredba o vrstama usluga MUP; iznos prema objavi Paragrafa od 12. 5. 2026. Uredba izmenjena 12. 9. 2026 (Sl. glasnik 82/2026) – proverite na uplatnici koju generiše eUprava.",
+   "source_url": "https://www.paragraf.rs/dnevne-vesti/200526/200526-vest8.html",
+   "checked_at": "2026-11-09",
+   "note": "Plus provizija banke ili pošte."
+  },
+  {
+   "item": "Lična karta za strance",
+   "amount_rsd": 2028,
+   "basis": "Uredba, Sl. glasnik RS 82/2026, važi od 12. 9. 2026.",
+   "source_url": "https://www.paragraf.rs/dnevne-vesti/090926/090926-vest12.html",
+   "checked_at": "2026-11-09"
+  },
+  {
+   "item": "Poništenje izgubljene ili ukradene lične karte",
+   "amount_rsd": null,
+   "basis": "Plaća se posebno pri prijavi gubitka; iznos proverite na šalteru.",
+   "checked_at": "2026-11-09"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://www.mup.gov.rs/wps/portal/sr/gradjani/dokumenta/licna%20karta/vadjenje%20licne%20karte/",
+   "title": "MUP – Vađenje lične karte",
+   "checked_at": "2026-11-09"
+  },
+  {
+   "url": "https://euprava.gov.rs/li%C4%8Dna-karta-podaci",
+   "title": "eUprava – Lična karta",
+   "checked_at": "2026-11-09"
+  },
+  {
+   "url": "https://www.paragraf.rs/dnevne-vesti/200526/200526-vest8.html",
+   "title": "Paragraf – cene ličnih dokumenata (12. 5. 2026)",
+   "checked_at": "2026-11-09"
+  },
+  {
+   "url": "https://www.paragraf.rs/dnevne-vesti/090926/090926-vest12.html",
+   "title": "Paragraf – izmena Uredbe (Sl. gl. 82/2026)",
+   "checked_at": "2026-11-09"
+  }
+ ],
+ "guide": {
+  "sr": {
+   "title": "Lična karta",
+   "summary": "Prvo izdavanje, zamena istekle ili oštećene, promena podataka i izgubljena lična karta. Obavezna od 16. godine.",
+   "who": [
+    "Državljani Srbije sa prebivalištem u Republici Srbiji; lična karta je obavezna od navršene 16. godine.",
+    "Deca starija od 10 godina mogu dobiti ličnu kartu, ali nisu obavezna.",
+    "Stranci dobijaju posebnu ličnu kartu za strance (vidi odeljak za strane državljane)."
+   ],
+   "where_note": "Zahtev se podnosi lično policijskoj upravi ili policijskoj stanici prema prebivalištu ili boravištu. Termin se zakazuje preko eUprave, od 1 do 60 dana unapred.",
+   "documents": [
+    {
+     "name": "Uplatnica",
+     "note": "Generiše se na eUpravi unosom JMBG podnosioca i plaća u banci, pošti ili elektronski."
+    },
+    {
+     "name": "Prethodna lična karta ili druga važeća isprava sa slikom",
+     "note": "Pasoš ili vozačka dozvola ako staru kartu nemate."
+    },
+    {
+     "name": "Izvod iz matične knjige rođenih i uverenje o državljanstvu",
+     "note": "MUP ih pribavlja po službenoj dužnosti uz vašu saglasnost; možete ih i sami priložiti. Potrebni samo pri prvom izdavanju ili promeni podataka.",
+     "variants": [
+      "Promena prezimena: izvod iz matične knjige venčanih.",
+      "Maloletnik: zahtev podnosi jedan roditelj uz pisanu saglasnost drugog, osim kad drugi roditelj ne vrši roditeljsko pravo (potvrda organa starateljstva)."
+     ]
+    },
+    {
+     "name": "Fotografija 50 × 50 mm",
+     "note": "Nije obavezna – fotografisanje se radi na šalteru. Ako je prilažete: siva pozadina, ne starija od šest meseci."
+    },
+    {
+     "name": "Izgubljena ili ukradena karta",
+     "note": "Druga važeća isprava, uplatnica i prijava gubitka; poništenje izgubljene isprave plaća se posebno."
+    }
+   ],
+   "steps": [
+    "Proverite rok važenja postojeće karte.",
+    "Na eUpravi generišite uplatnicu (unesite JMBG) i platite je.",
+    "Zakažite termin na eUpravi ili dođite u policijsku upravu prema prebivalištu.",
+    "Dođite lično sa starom kartom ili drugom ispravom i uplatnicom.",
+    "Službenik snima fotografiju, potpis i otiske prstiju.",
+    "Preuzmite novu karticu lično po obaveštenju, najkasnije u roku od 15 dana."
+   ],
+   "faq": [
+    {
+     "q": "Koliko košta lična karta?",
+     "a": "Prema objavi od maja 2026. izrada je 1.154,80 RSD (obrazac 928,80 + tehnička izrada 226), plus provizija. Uredba je menjana u septembru 2026, pa iznos uvek proverite na uplatnici koju generiše eUprava."
+    },
+    {
+     "q": "Koliko traje izrada?",
+     "a": "Zakonski do 15 dana od podnošenja zahteva; u praksi obično kraće."
+    },
+    {
+     "q": "Da li mi treba fotografija?",
+     "a": "Ne, fotografišete se na šalteru. Ako je ipak prilažete, mora biti 50 × 50 mm, siva pozadina, ne starija od šest meseci."
+    },
+    {
+     "q": "Promenio sam adresu, treba li mi nova karta?",
+     "a": "Ako imate karticu sa čipom, ne: adresa se upisuje u čip bez nove karte i takse. Karta bez čipa zahteva novu karticu i novu taksu."
+    },
+    {
+     "q": "Od koje godine je lična karta obavezna?",
+     "a": "Od navršene 16. godine za državljane sa prebivalištem u Srbiji."
+    }
+   ],
+   "for_foreigners": "Stranci sa odobrenim boravkom dobijaju ličnu kartu za strance u policijskoj upravi prema mestu boravka; taksa je 2.028 RSD po Uredbi 82/2026 (važi od 12. 9. 2026). Licima sa azilom ili supsidijarnom zaštitom ispravu izdaje Kancelarija za azil (taksa 1.920 + 1.230 RSD, tarifni broj 37 stav 14 ZRAT, od 1. 10. 2026); važi 5 godina za azil, 1 godinu za supsidijarnu zaštitu."
+  },
+  "en": {
+   "title": "ID card (lična karta)",
+   "summary": "First issue, replacing an expired or damaged card, changing details, and lost cards. Mandatory from age 16.",
+   "who": [
+    "Serbian citizens with registered residence in Serbia; the card is mandatory from age 16.",
+    "Children over 10 may hold one but are not required to.",
+    "Foreigners receive a separate ID card for foreigners (see the section below)."
+   ],
+   "where_note": "Apply in person at the police directorate or station for your registered address. Book an appointment on eUprava, 1 to 60 days ahead.",
+   "documents": [
+    {
+     "name": "Payment slip",
+     "note": "Generated on eUprava with the applicant's JMBG and paid at a bank, post office or online."
+    },
+    {
+     "name": "Previous ID card or another valid photo ID",
+     "note": "Passport or driving licence if you no longer have the old card."
+    },
+    {
+     "name": "Birth certificate and citizenship certificate",
+     "note": "The police obtain them ex officio with your consent; you may bring them yourself. Needed only for a first issue or a change of details.",
+     "variants": [
+      "Name change: marriage certificate.",
+      "Minors: one parent applies with the written consent of the other, unless the other parent does not exercise parental rights (guardianship authority confirmation)."
+     ]
+    },
+    {
+     "name": "Photo 50 × 50 mm",
+     "note": "Optional – the photo is taken at the counter. If you bring one: grey background, under six months old."
+    },
+    {
+     "name": "Lost or stolen card",
+     "note": "Another valid ID, the payment slip and a loss report; invalidation of the lost card is charged separately."
+    }
+   ],
+   "steps": [
+    "Check the expiry date of your current card.",
+    "Generate the payment slip on eUprava (enter your JMBG) and pay it.",
+    "Book an appointment on eUprava or walk in at the police directorate for your address.",
+    "Attend in person with the old card or other ID and the paid slip.",
+    "The officer takes your photo, signature and fingerprints.",
+    "Collect the new card in person when notified, within 15 days at the latest."
+   ],
+   "faq": [
+    {
+     "q": "How much does the ID card cost?",
+     "a": "As published in May 2026: RSD 1,154.80 (form 928.80 + production 226) plus bank commission. The decree changed in September 2026, so always check the amount on the eUprava slip."
+    },
+    {
+     "q": "How long does it take?",
+     "a": "By law up to 15 days from application; usually less."
+    },
+    {
+     "q": "Do I need a photo?",
+     "a": "No, it is taken at the counter. If you bring one: 50 × 50 mm, grey background, under six months old."
+    },
+    {
+     "q": "I moved. Do I need a new card?",
+     "a": "Not if your card has a chip: the address is written to the chip without a new card or fee. Cards without a chip need a new card and fee."
+    },
+    {
+     "q": "From what age is it mandatory?",
+     "a": "From age 16 for citizens resident in Serbia."
+    }
+   ],
+   "for_foreigners": "Foreigners with approved residence receive an ID card for foreigners at the police directorate for their place of stay; the fee is RSD 2,028 under Decree 82/2026 (from 12 Sept 2026). Asylum and subsidiary-protection holders get theirs from the Asylum Office (RSD 1,920 + 1,230, Tariff No. 37 para 14, from 1 Oct 2026); valid 5 years for asylum, 1 year for subsidiary protection."
+  },
+  "ru": {
+   "title": "Личная карта (lična karta)",
+   "summary": "Первая выдача, замена просроченной или повреждённой, изменение данных и утеря. Обязательна с 16 лет."
+  },
+  "de": {
+   "title": "Personalausweis (lična karta)",
+   "summary": "Erstausstellung, Ersatz bei Ablauf oder Beschädigung, Datenänderung und Verlust. Pflicht ab 16 Jahren."
+  }
+ }
+}

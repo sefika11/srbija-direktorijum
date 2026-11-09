@@ -1,0 +1,43 @@
+{
+ "slug": "overa-kod-javnog-beleznika",
+ "category": "sud-i-pravda",
+ "org_types": [
+  "javni-beleznik"
+ ],
+ "lead_vertical": "advokat",
+ "status": "short",
+ "sort_order": 90,
+ "name_lat": "Overa dokumenata kod javnog beležnika",
+ "summary": "Overa potpisa, prepisa i izjava, ugovori o nekretninama, ostavinski postupak i punomoćja.",
+ "typical_duration": null,
+ "euprava_url": null,
+ "online_available": false,
+ "fees": [],
+ "sources": [],
+ "checked_at": null,
+ "guide": {
+  "sr": {
+   "title": "Overa dokumenata kod javnog beležnika",
+   "summary": "Overa potpisa, prepisa i izjava, ugovori o nekretninama, ostavinski postupak i punomoćja.",
+   "where_note": "Za ugovore o nekretninama nadležan je beležnik na čijem se području nalazi nepokretnost; za ostale overe bilo koji beležnik.",
+   "steps": [
+    "Pronađite beležnika i zakažite termin.",
+    "Ponesite ličnu kartu i originale dokumenata.",
+    "Platite javnobeležničku nagradu po tarifi.",
+    "Dokument dobijate odmah po overi."
+   ]
+  },
+  "en": {
+   "title": "Notary certification",
+   "summary": "Certifying signatures, copies and statements, real-estate contracts, probate and powers of attorney."
+  },
+  "ru": {
+   "title": "Заверение у нотариуса",
+   "summary": "Заверение подписей, копий и заявлений, договоры о недвижимости, наследство и доверенности."
+  },
+  "de": {
+   "title": "Beglaubigung beim Notar",
+   "summary": "Beglaubigung von Unterschriften, Abschriften und Erklärungen, Immobilienverträge, Nachlass und Vollmachten."
+  }
+ }
+}

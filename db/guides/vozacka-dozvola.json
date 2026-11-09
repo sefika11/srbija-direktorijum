@@ -1,0 +1,43 @@
+{
+ "slug": "vozacka-dozvola",
+ "category": "vozila-i-saobracaj",
+ "org_types": [
+  "mup-policijska-uprava"
+ ],
+ "lead_vertical": null,
+ "status": "short",
+ "sort_order": 30,
+ "name_lat": "Vozačka dozvola",
+ "summary": "Prva vozačka dozvola posle položenog ispita, zamena istekle ili oštećene i izdavanje duplikata.",
+ "typical_duration": null,
+ "euprava_url": "https://euprava.gov.rs",
+ "online_available": false,
+ "fees": [],
+ "sources": [],
+ "checked_at": null,
+ "guide": {
+  "sr": {
+   "title": "Vozačka dozvola",
+   "summary": "Prva vozačka dozvola posle položenog ispita, zamena istekle ili oštećene i izdavanje duplikata.",
+   "where_note": "Zahtev se podnosi policijskoj upravi ili stanici prema prebivalištu; zakazivanje termina je moguće preko eUprave.",
+   "steps": [
+    "Položite vozački ispit u auto-školi i dobijte uverenje o položenom ispitu.",
+    "Zakažite termin u nadležnoj policijskoj upravi (eUprava) ili dođite lično.",
+    "Ponesite ličnu kartu, lekarsko uverenje i dokaze o uplati taksi.",
+    "Preuzmite dozvolu lično u roku koji vam saopšte na šalteru."
+   ]
+  },
+  "en": {
+   "title": "Driving licence",
+   "summary": "First licence after the test, replacing an expired or damaged one, and duplicates."
+  },
+  "ru": {
+   "title": "Водительское удостоверение",
+   "summary": "Первое удостоверение после экзамена, замена просроченного или повреждённого, дубликат."
+  },
+  "de": {
+   "title": "Führerschein",
+   "summary": "Erster Führerschein nach der Prüfung, Umtausch bei Ablauf oder Beschädigung, Zweitschrift."
+  }
+ }
+}

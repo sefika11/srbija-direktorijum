@@ -1,0 +1,43 @@
+{
+ "slug": "otvaranje-firme-preduzetnik",
+ "category": "firma-i-preduzetnistvo",
+ "org_types": [
+  "apr"
+ ],
+ "lead_vertical": "knjigovodstvo",
+ "status": "short",
+ "sort_order": 70,
+ "name_lat": "Otvaranje firme ili registracija preduzetnika",
+ "summary": "Registracija preduzetnika ili društva sa ograničenom odgovornošću u Agenciji za privredne registre.",
+ "typical_duration": null,
+ "euprava_url": "https://www.apr.gov.rs",
+ "online_available": true,
+ "fees": [],
+ "sources": [],
+ "checked_at": null,
+ "guide": {
+  "sr": {
+   "title": "Otvaranje firme ili registracija preduzetnika",
+   "summary": "Registracija preduzetnika ili društva sa ograničenom odgovornošću u Agenciji za privredne registre.",
+   "where_note": "Registracija se podnosi Agenciji za privredne registre, elektronski ili u organizacionoj jedinici APR-a; PIB se dodeljuje istovremeno.",
+   "steps": [
+    "Odlučite se za oblik: preduzetnik (paušal ili knjige) ili DOO.",
+    "Proverite dostupnost naziva na sajtu APR-a.",
+    "Podnesite registracionu prijavu elektronski ili u APR-u uz dokaz o uplati naknade.",
+    "Rešenje stiže u roku od pet dana; otvorite poslovni račun i prijavite se Poreskoj upravi."
+   ]
+  },
+  "en": {
+   "title": "Starting a company or sole proprietorship",
+   "summary": "Registering a sole proprietor or a limited liability company with the Business Registers Agency."
+  },
+  "ru": {
+   "title": "Открытие фирмы или ИП",
+   "summary": "Регистрация предпринимателя или ООО в Агентстве хозяйственных реестров."
+  },
+  "de": {
+   "title": "Firma oder Einzelunternehmen gründen",
+   "summary": "Registrierung eines Einzelunternehmers oder einer GmbH bei der Agentur für Wirtschaftsregister."
+  }
+ }
+}

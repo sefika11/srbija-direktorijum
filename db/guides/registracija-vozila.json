@@ -1,0 +1,43 @@
+{
+ "slug": "registracija-vozila",
+ "category": "vozila-i-saobracaj",
+ "org_types": [
+  "mup-policijska-uprava"
+ ],
+ "lead_vertical": "osiguranje-vozila",
+ "status": "short",
+ "sort_order": 31,
+ "name_lat": "Registracija vozila",
+ "summary": "Prva registracija, produženje registracije i promena vlasnika vozila.",
+ "typical_duration": null,
+ "euprava_url": null,
+ "online_available": false,
+ "fees": [],
+ "sources": [],
+ "checked_at": null,
+ "guide": {
+  "sr": {
+   "title": "Registracija vozila",
+   "summary": "Prva registracija, produženje registracije i promena vlasnika vozila.",
+   "where_note": "Registracija se obavlja u policijskoj upravi ili stanici prema prebivalištu vlasnika, a produženje i u ovlašćenim tehničkim pregledima.",
+   "steps": [
+    "Uradite tehnički pregled vozila.",
+    "Zaključite obavezno osiguranje od autoodgovornosti.",
+    "Platite takse i naknade po obračunu.",
+    "Podnesite zahtev sa saobraćajnom dozvolom i ličnom kartom; nalepnicu dobijate odmah."
+   ]
+  },
+  "en": {
+   "title": "Vehicle registration",
+   "summary": "First registration, yearly renewal and change of owner."
+  },
+  "ru": {
+   "title": "Регистрация автомобиля",
+   "summary": "Первая регистрация, ежегодное продление и смена владельца."
+  },
+  "de": {
+   "title": "Fahrzeugzulassung",
+   "summary": "Erstzulassung, jährliche Verlängerung und Halterwechsel."
+  }
+ }
+}

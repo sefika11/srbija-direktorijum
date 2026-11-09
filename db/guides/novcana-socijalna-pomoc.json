@@ -1,0 +1,43 @@
+{
+ "slug": "novcana-socijalna-pomoc",
+ "category": "socijalna-zastita",
+ "org_types": [
+  "centar-za-socijalni-rad"
+ ],
+ "lead_vertical": null,
+ "status": "short",
+ "sort_order": 81,
+ "name_lat": "Novčana socijalna pomoć",
+ "summary": "Pomoć za pojedince i porodice bez dovoljno prihoda za osnovne potrebe.",
+ "typical_duration": null,
+ "euprava_url": null,
+ "online_available": false,
+ "fees": [],
+ "sources": [],
+ "checked_at": null,
+ "guide": {
+  "sr": {
+   "title": "Novčana socijalna pomoć",
+   "summary": "Pomoć za pojedince i porodice bez dovoljno prihoda za osnovne potrebe.",
+   "where_note": "Zahtev se podnosi centru za socijalni rad prema prebivalištu.",
+   "steps": [
+    "Zakažite razgovor u centru za socijalni rad.",
+    "Pripremite dokaze o prihodima, imovini i članovima domaćinstva.",
+    "Podnesite zahtev; stručni radnik radi procenu.",
+    "Po rešenju pomoć se isplaćuje mesečno uz periodične provere."
+   ]
+  },
+  "en": {
+   "title": "Financial social assistance",
+   "summary": "Support for individuals and families whose income does not cover basic needs."
+  },
+  "ru": {
+   "title": "Денежная социальная помощь",
+   "summary": "Поддержка людей и семей, чей доход не покрывает базовые потребности."
+  },
+  "de": {
+   "title": "Sozialhilfe",
+   "summary": "Unterstützung für Personen und Familien, deren Einkommen den Grundbedarf nicht deckt."
+  }
+ }
+}

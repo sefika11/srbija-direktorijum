@@ -161,3 +161,38 @@ export const insertLead = (p: { vertical_slug: string; page_path: string; locati
   sql`insert into leads (vertical_id, page_path, location_id, territorial_unit_id, payload, contact_phone, contact_email, dedupe_hash, consent_version, ip_hash, user_agent, honeypot_tripped)
       select v.id, ${p.page_path}, ${p.location_id}, ${p.territorial_unit_id}, ${JSON.stringify(p.payload)}::jsonb, ${p.contact_phone}, ${p.contact_email}, ${p.dedupe_hash}, ${p.consent_version}, ${p.ip_hash}, ${p.user_agent}, ${p.honeypot}
       from lead_verticals v where v.slug = ${p.vertical_slug} on conflict (dedupe_hash) do nothing`;
+
+// ---------------------------------------------------------------- Guides (services with structured content, patch 007)
+export type GuideContent = {
+  title?: string; summary?: string; who?: string[]; where_note?: string;
+  documents?: { name: string; note?: string; variants?: string[] }[];
+  steps?: string[]; faq?: { q: string; a: string }[]; for_foreigners?: string;
+};
+export type Fee = { item: string; amount_rsd: number | null; basis?: string; source_url?: string; checked_at?: string; note?: string };
+export type GuideSource = { url: string; title?: string; checked_at?: string };
+export type GuideRow = {
+  id: number; slug: string; category_slug: string; category_name: string; category_icon: string | null; name_lat: string; summary: string | null;
+  guide: Record<string, GuideContent>; fees: Fee[]; typical_duration: string | null; legal_basis: string | null; euprava_url: string | null;
+  online_available: boolean; sources: GuideSource[]; checked_at: string | null; status: "short" | "full"; lead_vertical_id: number | null; org_type_slugs: string[]; sort_order: number;
+};
+const GUIDE_SELECT = sql`
+  select s.id, s.slug, c.slug as category_slug, c.name_lat as category_name, c.icon as category_icon, s.name_lat, s.summary, s.guide, s.fees, s.typical_duration,
+         s.legal_basis, s.euprava_url, s.online_available, s.sources, s.checked_at::text, s.status, s.lead_vertical_id, s.sort_order,
+         coalesce((select array_agg(t.slug order by ots.is_primary desc, t.slug) from org_type_services ots join org_types t on t.id = ots.org_type_id where ots.service_id = s.id), '{}') as org_type_slugs
+  from services s join service_categories c on c.id = s.category_id`;
+export const getGuides = () => sql<GuideRow[]>`${GUIDE_SELECT} where s.is_active and s.status <> 'draft' order by c.sort_order, s.sort_order, s.name_lat`;
+export const getGuide = (slug: string) => sql<GuideRow[]>`${GUIDE_SELECT} where s.slug = ${slug} and s.is_active and s.status <> 'draft' limit 1`.then((r) => r[0] ?? null);
+
+const LOC_COLS = sql`location_id, location_slug, unit_name_lat, unit_kind, is_primary, address_display, address_extra, postal_code, settlement_name_lat, lat, lng, hours_text, notes_md,
+  verification, verified_at::text, last_seen_at::text, tu_slug, tu_name_lat, tu_level::text, jls_slug, jls_name_lat, okrug_name_lat, org_slug, org_name_lat, org_type_slug`;
+export type ServingRow = LocRow & { org_slug: string; org_name_lat: string; org_type_slug: string };
+/** The location(s) of a given institution type that serve a municipality: explicit coverage first, else seated inside it. */
+export const getServing = (jlsId: number, typeSlug: string) =>
+  sql<ServingRow[]>`select ${LOC_COLS} from v_location_page where location_id in (select id from locations_serving(${jlsId}, ${typeSlug}))
+                    and location_status = 'active' order by is_primary desc, unit_kind = 'filijala' desc, unit_name_lat limit 8`;
+/** All locations of a national-network type, for hub pages where one organization has many branches. */
+export const getLocationsOfType = (typeSlug: string) =>
+  sql<ServingRow[]>`select ${LOC_COLS} from v_location_page where org_type_slug = ${typeSlug} and location_status = 'active'
+                    order by okrug_name_lat nulls last, jls_name_lat, unit_kind = 'filijala' desc, unit_name_lat limit 2000`;
+export const getVerticalById = (id: number) =>
+  sql<{ id: number; slug: string; name_lat: string; pitch_lat: string | null; form_schema: unknown }[]>`select id, slug, name_lat, pitch_lat, form_schema from lead_verticals where id = ${id} and is_active`.then((r) => r[0] ?? null);

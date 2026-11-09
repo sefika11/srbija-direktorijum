@@ -1,0 +1,43 @@
+{
+ "slug": "pib-za-strance",
+ "category": "porezi-i-takse",
+ "org_types": [
+  "poreska-uprava"
+ ],
+ "lead_vertical": "knjigovodstvo",
+ "status": "short",
+ "sort_order": 61,
+ "name_lat": "PIB za strane državljane",
+ "summary": "Poreski identifikacioni broj potreban strancima za zaposlenje, otvaranje računa, kupovinu nekretnine ili registraciju firme.",
+ "typical_duration": null,
+ "euprava_url": null,
+ "online_available": false,
+ "fees": [],
+ "sources": [],
+ "checked_at": null,
+ "guide": {
+  "sr": {
+   "title": "PIB za strane državljane",
+   "summary": "Poreski identifikacioni broj potreban strancima za zaposlenje, otvaranje računa, kupovinu nekretnine ili registraciju firme.",
+   "where_note": "Zahtev se podnosi filijali Poreske uprave prema mestu boravka ili sedišta; stranac može imati punomoćnika.",
+   "steps": [
+    "Pripremite pasoš i, ako postoji, dozvolu boravka.",
+    "Popunite obrazac PR-2 (ili ga podnese punomoćnik).",
+    "Predajte zahtev u filijali Poreske uprave.",
+    "Potvrdu o PIB-u preuzimate lično ili preko punomoćnika."
+   ]
+  },
+  "en": {
+   "title": "Tax number (PIB) for foreigners",
+   "summary": "The tax identification number foreigners need for employment, bank accounts, buying property or registering a company."
+  },
+  "ru": {
+   "title": "Налоговый номер (PIB) для иностранцев",
+   "summary": "Налоговый номер, нужный иностранцам для работы, счёта в банке, покупки недвижимости или регистрации фирмы."
+  },
+  "de": {
+   "title": "Steuernummer (PIB) für Ausländer",
+   "summary": "Die Steuer-Identifikationsnummer für Beschäftigung, Bankkonto, Immobilienkauf oder Firmengründung."
+  }
+ }
+}

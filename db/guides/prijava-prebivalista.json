@@ -1,0 +1,42 @@
+{
+ "slug": "prijava-prebivalista",
+ "category": "licna-dokumenta",
+ "org_types": [
+  "mup-policijska-uprava"
+ ],
+ "lead_vertical": null,
+ "status": "short",
+ "sort_order": 12,
+ "name_lat": "Prijava prebivališta i boravišta",
+ "summary": "Prijava nove adrese stanovanja, odjava stare i prijava privremenog boravišta.",
+ "typical_duration": null,
+ "euprava_url": null,
+ "online_available": false,
+ "fees": [],
+ "sources": [],
+ "checked_at": null,
+ "guide": {
+  "sr": {
+   "title": "Prijava prebivališta i boravišta",
+   "summary": "Prijava nove adrese stanovanja, odjava stare i prijava privremenog boravišta.",
+   "where_note": "Prijava se podnosi policijskoj upravi ili stanici na čijem je području nova adresa, u roku od 8 dana od useljenja.",
+   "steps": [
+    "Pripremite ličnu kartu i dokaz o pravnom osnovu stanovanja (vlasnički list, ugovor o zakupu ili saglasnost vlasnika).",
+    "Podnesite prijavu u nadležnoj policijskoj upravi.",
+    "Po prijavi zamenite ličnu kartu ako je adresa upisana u nju."
+   ]
+  },
+  "en": {
+   "title": "Registering your address",
+   "summary": "Registering a new home address, deregistering the old one and registering a temporary stay."
+  },
+  "ru": {
+   "title": "Регистрация места жительства",
+   "summary": "Регистрация нового адреса, снятие со старого и регистрация временного пребывания."
+  },
+  "de": {
+   "title": "Wohnsitz anmelden",
+   "summary": "Neue Wohnadresse anmelden, alte abmelden und vorübergehenden Aufenthalt anmelden."
+  }
+ }
+}

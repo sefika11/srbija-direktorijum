@@ -1,0 +1,44 @@
+{
+ "slug": "deciji-dodatak",
+ "category": "socijalna-zastita",
+ "org_types": [
+  "opstinska-uprava",
+  "gradska-uprava"
+ ],
+ "lead_vertical": null,
+ "status": "short",
+ "sort_order": 80,
+ "name_lat": "Dečiji dodatak",
+ "summary": "Mesečno davanje za porodice sa decom čiji prihodi ne prelaze cenzus; priznaje se na godinu dana i obnavlja.",
+ "typical_duration": null,
+ "euprava_url": null,
+ "online_available": false,
+ "fees": [],
+ "sources": [],
+ "checked_at": null,
+ "guide": {
+  "sr": {
+   "title": "Dečiji dodatak",
+   "summary": "Mesečno davanje za porodice sa decom čiji prihodi ne prelaze cenzus; priznaje se na godinu dana i obnavlja.",
+   "where_note": "Zahtev se podnosi službi za dečiju zaštitu u opštinskoj ili gradskoj upravi prema prebivalištu podnosioca.",
+   "steps": [
+    "Proverite cenzus prihoda za tekući period.",
+    "Pripremite izvode za decu, potvrde o prihodima i dokaz o školovanju.",
+    "Podnesite zahtev u opštinskoj ili gradskoj upravi.",
+    "Rešenje važi godinu dana; obnovite ga pre isteka."
+   ]
+  },
+  "en": {
+   "title": "Child allowance",
+   "summary": "Monthly benefit for families with children below the income threshold; granted for one year and renewed."
+  },
+  "ru": {
+   "title": "Детское пособие",
+   "summary": "Ежемесячная выплата семьям с детьми при доходе ниже порога; назначается на год с продлением."
+  },
+  "de": {
+   "title": "Kindergeld",
+   "summary": "Monatliche Leistung für Familien mit Kindern unter der Einkommensgrenze; für ein Jahr bewilligt und verlängert."
+  }
+ }
+}

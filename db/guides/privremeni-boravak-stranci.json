@@ -1,0 +1,43 @@
+{
+ "slug": "privremeni-boravak-stranci",
+ "category": "stranci-i-boravak",
+ "org_types": [
+  "mup-policijska-uprava"
+ ],
+ "lead_vertical": "sudski-prevodilac",
+ "status": "short",
+ "sort_order": 60,
+ "name_lat": "Privremeni boravak za strance",
+ "summary": "Odobrenje privremenog boravka po osnovu zaposlenja, studiranja, spajanja porodice ili vlasništva nad nekretninom; jedinstvena dozvola za boravak i rad.",
+ "typical_duration": null,
+ "euprava_url": "https://welcometoserbia.gov.rs",
+ "online_available": true,
+ "fees": [],
+ "sources": [],
+ "checked_at": null,
+ "guide": {
+  "sr": {
+   "title": "Privremeni boravak za strance",
+   "summary": "Odobrenje privremenog boravka po osnovu zaposlenja, studiranja, spajanja porodice ili vlasništva nad nekretninom; jedinstvena dozvola za boravak i rad.",
+   "where_note": "Zahtev se podnosi policijskoj upravi prema mestu boravka stranca ili elektronski preko portala za strance (welcometoserbia.gov.rs).",
+   "steps": [
+    "Prijavite adresu boravišta u roku od 24 sata od dolaska (hoteli to rade automatski).",
+    "Pripremite pasoš, dokaz o osnovu boravka, sredstvima za izdržavanje i zdravstvenom osiguranju.",
+    "Podnesite zahtev elektronski ili u policijskoj upravi pre isteka dozvoljenog boravka.",
+    "Posle odobrenja preuzmite biometrijsku ispravu za strance."
+   ]
+  },
+  "en": {
+   "title": "Temporary residence for foreigners",
+   "summary": "Temporary residence based on employment, study, family reunification or property ownership; the unified residence and work permit."
+  },
+  "ru": {
+   "title": "Временное пребывание для иностранцев",
+   "summary": "ВНЖ на основании работы, учёбы, воссоединения семьи или недвижимости; единое разрешение на пребывание и работу."
+  },
+  "de": {
+   "title": "Vorübergehender Aufenthalt für Ausländer",
+   "summary": "Aufenthaltstitel aufgrund Beschäftigung, Studium, Familienzusammenführung oder Immobilienbesitz; die einheitliche Aufenthalts- und Arbeitserlaubnis."
+  }
+ }
+}

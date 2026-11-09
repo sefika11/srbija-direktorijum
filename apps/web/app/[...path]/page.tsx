@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Header, Footer } from "@/components/chrome";
 import { Home, OkrugHub, UnitHub, OrgTypeHub, OrgPage, SearchPage, ForForeigners, StaticPage, tuLabel } from "@/components/pages";
+import { GuidesHub, GuidePage, GUIDE_LABELS, content as guideContent } from "@/components/guides";
+import { cookies } from "next/headers";
 import * as db from "@/lib/db";
 import { LOCALES, HREFLANG, href, splitLocale, t, type Locale } from "@/lib/i18n";
 
@@ -14,7 +16,8 @@ type Props = { params: Promise<Params>; searchParams: Promise<Record<string, str
 type Resolved =
   | { kind: "home" } | { kind: "search" } | { kind: "foreigners" } | { kind: "static"; slug: string }
   | { kind: "okrug"; unit: db.TU } | { kind: "unit"; unit: db.TU; parent: db.TU | null }
-  | { kind: "type"; type: db.OrgType } | { kind: "org"; org: db.OrgRow; type: db.OrgType; locSlug?: string };
+  | { kind: "type"; type: db.OrgType } | { kind: "org"; org: db.OrgRow; type: db.OrgType; locSlug?: string }
+  | { kind: "guides" } | { kind: "guide"; guide: db.GuideRow };
 
 async function resolve(rest: string[]): Promise<Resolved | null> {
   if (rest.length === 0) return { kind: "home" };
@@ -22,6 +25,8 @@ async function resolve(rest: string[]): Promise<Resolved | null> {
   if (a === "pretraga" && rest.length === 1) return { kind: "search" };
   if (a === "za-strance" && rest.length === 1) return { kind: "foreigners" };
   if (["o-sajtu", "partneri", "privatnost"].includes(a) && rest.length === 1) return { kind: "static", slug: a };
+  if (a === "vodici" && rest.length === 1) return { kind: "guides" };
+  if (a === "vodic" && b && rest.length === 2) { const g = await db.getGuide(b); return g ? { kind: "guide", guide: g } : null; }
   if (a === "okrug" && b && rest.length === 2) { const u = await db.getTU(b, "okrug"); return u ? { kind: "okrug", unit: u } : null; }
   const jls = await db.getTU(a, "jls");
   if (jls) {
@@ -53,6 +58,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     case "search": return { ...base, title: d.search, robots: { index: false } };
     case "foreigners": return { ...base, title: d.forForeigners, description: d.forForeignersLead };
     case "static": return { ...base, title: r.slug };
+    case "guides": return { ...base, title: GUIDE_LABELS[locale].guides, description: GUIDE_LABELS[locale].guidesLead };
+    case "guide": { const c = guideContent(r.guide, locale).c; return { ...base, title: `${c.title ?? r.guide.name_lat} – ${GUIDE_LABELS[locale].documents.toLowerCase()}, ${GUIDE_LABELS[locale].fees.toLowerCase()}, ${GUIDE_LABELS[locale].whereToGo.toLowerCase()}`, description: c.summary ?? r.guide.summary ?? undefined }; }
     case "okrug": return { ...base, title: `${r.unit.name_lat} – ${locale === "sr" ? "gradovi, opštine i institucije" : d.institutions}`, description: `${d.allInstitutionsIn} ${r.unit.name_lat}: ${d.tagline}` };
     case "unit": return { ...base, title: `${tuLabel(r.unit)} – ${locale === "sr" ? "institucije, adrese, telefoni" : d.institutions}`, description: `${d.allInstitutionsIn} ${r.unit.name_lat}. ${d.tagline}` };
     case "type": return { ...base, title: `${r.type.name_plural_lat ?? r.type.name_lat} – ${locale === "sr" ? "spisak po gradovima" : "by city"}` };
@@ -74,6 +81,9 @@ export default async function Page({ params, searchParams }: Props) {
     case "search": body = <SearchPage locale={locale} q={typeof sp.q === "string" ? sp.q : ""} />; break;
     case "foreigners": body = <ForForeigners locale={locale} />; break;
     case "static": body = <StaticPage locale={locale} slug={r.slug} />; break;
+    case "guides": body = <GuidesHub locale={locale} />; break;
+    case "guide": { const fromQuery = typeof sp.opstina === "string" ? sp.opstina : null; const fromCookie = fromQuery ? null : ((await cookies()).get("opstina")?.value ?? null);
+      body = <GuidePage locale={locale} guide={r.guide} jlsSlug={fromQuery ?? fromCookie} path={href(locale, plain)} />; break; }
     case "okrug": body = <OkrugHub locale={locale} okrug={r.unit} />; break;
     case "unit": body = <UnitHub locale={locale} unit={r.unit} parent={r.parent} />; break;
     case "type": body = <OrgTypeHub locale={locale} type={r.type} />; break;

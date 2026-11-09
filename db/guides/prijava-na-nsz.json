@@ -1,0 +1,43 @@
+{
+ "slug": "prijava-na-nsz",
+ "category": "zaposljavanje",
+ "org_types": [
+  "nsz"
+ ],
+ "lead_vertical": null,
+ "status": "short",
+ "sort_order": 100,
+ "name_lat": "Prijava na evidenciju nezaposlenih (NSZ)",
+ "summary": "Prijava kod Nacionalne službe za zapošljavanje radi posredovanja, obuka, novčane naknade i zdravstvenog osiguranja.",
+ "typical_duration": null,
+ "euprava_url": null,
+ "online_available": true,
+ "fees": [],
+ "sources": [],
+ "checked_at": null,
+ "guide": {
+  "sr": {
+   "title": "Prijava na evidenciju nezaposlenih (NSZ)",
+   "summary": "Prijava kod Nacionalne službe za zapošljavanje radi posredovanja, obuka, novčane naknade i zdravstvenog osiguranja.",
+   "where_note": "Prijava se podnosi filijali ili ispostavi NSZ prema prebivalištu, lično ili elektronski.",
+   "steps": [
+    "Pripremite ličnu kartu i dokaz o stručnoj spremi.",
+    "Podnesite prijavu u filijali NSZ ili elektronski.",
+    "Dogovorite individualni plan zapošljavanja sa savetnikom.",
+    "Ako ispunjavate uslove, podnesite i zahtev za novčanu naknadu u roku od 30 dana od prestanka rada."
+   ]
+  },
+  "en": {
+   "title": "Registering as unemployed (NSZ)",
+   "summary": "Registering with the National Employment Service for job placement, training, unemployment benefit and health insurance."
+  },
+  "ru": {
+   "title": "Регистрация в службе занятости (NSZ)",
+   "summary": "Регистрация в Национальной службе занятости: трудоустройство, обучение, пособие и мед. страхование."
+  },
+  "de": {
+   "title": "Arbeitslos melden (NSZ)",
+   "summary": "Meldung beim Nationalen Arbeitsamt für Vermittlung, Schulungen, Arbeitslosengeld und Krankenversicherung."
+  }
+ }
+}

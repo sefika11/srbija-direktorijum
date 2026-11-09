@@ -1,0 +1,211 @@
+{
+ "slug": "pasos",
+ "category": "licna-dokumenta",
+ "org_types": [
+  "mup-policijska-uprava"
+ ],
+ "lead_vertical": null,
+ "status": "full",
+ "sort_order": 11,
+ "name_lat": "Biometrijski pasoš",
+ "name_cyr": "Биометријски пасош",
+ "summary": "Prvo izdavanje i obnova pasoša za punoletne i decu, hitna izrada i pasoš za građane u inostranstvu.",
+ "typical_duration": "Do 30 dana u policijskoj upravi (60 dana u konzulatu); hitno uz dokaz hitnosti najkasnije 48 sati. U praksi često oko 7 dana.",
+ "legal_basis": "Zakon o putnim ispravama; Uredba o vrstama usluga koje pruža MUP (Sl. glasnik RS 24/2026, 51/2019).",
+ "euprava_url": "https://euprava.gov.rs",
+ "online_available": true,
+ "checked_at": "2026-11-09",
+ "fees": [
+  {
+   "item": "Izdavanje pasoša (obrazac 3.900 + tehnička izrada 600)",
+   "amount_rsd": 4500,
+   "basis": "Uredba, Sl. glasnik RS 24/2026, važi od 21. 3. 2026 (ranije 3.600).",
+   "source_url": "https://www.mup.gov.rs/wps/portal/sr/gradjani/dokumenta/putne%20isprave/biometrijski%20pasos/",
+   "checked_at": "2026-11-09"
+  },
+  {
+   "item": "Pasoš po članu 33 stav 2 Zakona o putnim ispravama (poseban osnov)",
+   "amount_rsd": 5100,
+   "basis": "Isti izvor; ranije 4.200.",
+   "source_url": "https://www.mup.gov.rs/wps/portal/sr/gradjani/dokumenta/putne%20isprave/biometrijski%20pasos/",
+   "checked_at": "2026-11-09"
+  },
+  {
+   "item": "Doplata za prioritetnu izradu bez dokaza hitnosti",
+   "amount_rsd": null,
+   "basis": "Uredba 51/2019 predviđa doplatu od 5.000 RSD; ukupan iznos posle izmena iz 2026. proverite na šalteru.",
+   "source_url": "https://mup.gov.rs/wps/portal/sr/gradjani/Najcesca%20pitanja/",
+   "checked_at": "2026-11-09"
+  },
+  {
+   "item": "Putna isprava za lica pod azilom ili privremenom zaštitom",
+   "amount_rsd": 5880,
+   "basis": "Uredba, Sl. glasnik RS 82/2026, važi od 12. 9. 2026.",
+   "source_url": "https://www.paragraf.rs/dnevne-vesti/070926/070926-vest10.html",
+   "checked_at": "2026-11-09"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://www.mup.gov.rs/wps/portal/sr/gradjani/dokumenta/putne%20isprave/biometrijski%20pasos/",
+   "title": "MUP – Biometrijski pasoš",
+   "checked_at": "2026-11-09"
+  },
+  {
+   "url": "https://mup.gov.rs/wps/portal/sr/gradjani/Najcesca%20pitanja/",
+   "title": "MUP – Najčešća pitanja (hitna izrada)",
+   "checked_at": "2026-11-09"
+  },
+  {
+   "url": "https://www.paragraf.rs/dnevne-vesti/070926/070926-vest10.html",
+   "title": "Paragraf – Uredba 82/2026",
+   "checked_at": "2026-11-09"
+  }
+ ],
+ "guide": {
+  "sr": {
+   "title": "Biometrijski pasoš",
+   "summary": "Prvo izdavanje i obnova pasoša za punoletne i decu, hitna izrada i pasoš za građane u inostranstvu.",
+   "who": [
+    "Državljani Republike Srbije, punoletni i maloletni.",
+    "Za maloletne zahtev podnosi jedan roditelj uz overenu saglasnost drugog.",
+    "Građani u inostranstvu podnose zahtev diplomatsko-konzularnom predstavništvu."
+   ],
+   "where_note": "Lično u policijskoj upravi ili stanici prema prebivalištu ili boravištu; u inostranstvu u nadležnom konzulatu. Pasoš preuzima podnosilac, zakonski zastupnik ili lice sa overenim ovlašćenjem.",
+   "documents": [
+    {
+     "name": "Važeća lična karta",
+     "note": "U konzulatu je dovoljna druga javna isprava sa slikom."
+    },
+    {
+     "name": "Prethodni pasoš",
+     "note": "Daje se na uvid i poništava pri preuzimanju novog. Ako je izgubljen: potvrda o prijavi gubitka."
+    },
+    {
+     "name": "Uplatnice",
+     "note": "Generišu se na eUpravi; obrazac i tehnička izrada plaćaju se odvojeno."
+    },
+    {
+     "name": "Dokaz hitnosti",
+     "note": "Samo za izradu u roku od 48 sati: hitno lečenje, smrt ili teška bolest člana porodice, neodložan službeni put."
+    },
+    {
+     "name": "Za maloletne",
+     "note": "Izvod iz matične knjige rođenih; pisana overena saglasnost drugog roditelja ili izjava na zapisnik, odnosno elektronski preko eUprave.",
+     "variants": [
+      "Izuzeci od saglasnosti: jedini staratelj, drugi roditelj nesposoban ili ne vrši roditeljsko pravo.",
+      "Deci do 12 godina ne uzimaju se otisci ni potpis.",
+      "Dete se ne može upisati u pasoš roditelja – mora imati sopstveni."
+     ]
+    }
+   ],
+   "steps": [
+    "Proverite da li vam važi lična karta; ako ne, prvo nju obnovite.",
+    "Na eUpravi generišite i platite uplatnice.",
+    "Zakažite termin na eUpravi u policijskoj upravi prema prebivalištu.",
+    "Dođite lično sa ličnom kartom, starim pasošem i uplatnicama (za dete i saglasnošću drugog roditelja).",
+    "Fotografija, otisci i potpis snimaju se na licu mesta.",
+    "Preuzmite pasoš lično ili preko ovlašćenog lica."
+   ],
+   "faq": [
+    {
+     "q": "Koliko važi pasoš?",
+     "a": "Za decu do 3 godine 3 godine, od 3 do 14 godina 5 godina, preko 14 godina 10 godina. Ko izgubi ili ošteti dva ili više pasoša u pet godina dobija pasoš sa rokom od godinu dana."
+    },
+    {
+     "q": "Koliko košta?",
+     "a": "4.500 RSD od 21. 3. 2026 (3.900 obrazac + 600 izrada)."
+    },
+    {
+     "q": "Može li hitno?",
+     "a": "Da, u roku od 48 sati uz dokaz hitnosti. Bez dokaza plaća se doplata za prioritetnu izradu; iznos proverite na šalteru."
+    },
+    {
+     "q": "Može li dete u pasoš roditelja?",
+     "a": "Ne. Svako dete mora imati sopstveni pasoš."
+    },
+    {
+     "q": "Kada mogu obnoviti pasoš?",
+     "a": "Jednogodišnji pasoš najranije 30 dana pre isteka; ostale pre isteka bez ograničenja."
+    }
+   ],
+   "for_foreigners": "Pasoš Republike Srbije izdaje se samo državljanima. Stranci sa azilom ili privremenom zaštitom dobijaju putnu ispravu po propisima o azilu (5.880 RSD od 12. 9. 2026). Državljani Srbije u inostranstvu podnose zahtev konzulatu, rok je 60 dana."
+  },
+  "en": {
+   "title": "Biometric passport",
+   "summary": "First issue and renewal for adults and children, urgent issue, and passports for citizens abroad.",
+   "who": [
+    "Citizens of Serbia, adults and minors.",
+    "For minors one parent applies with the certified consent of the other.",
+    "Citizens abroad apply at a diplomatic or consular mission."
+   ],
+   "where_note": "In person at the police directorate or station for your registered address; abroad at the competent consulate. The passport is collected by the applicant, legal guardian or a person with a certified authorisation.",
+   "documents": [
+    {
+     "name": "Valid ID card",
+     "note": "At a consulate another official photo ID is accepted."
+    },
+    {
+     "name": "Previous passport",
+     "note": "Shown and cancelled when the new one is collected. If lost: the loss report."
+    },
+    {
+     "name": "Payment slips",
+     "note": "Generated on eUprava; the form and the production are paid separately."
+    },
+    {
+     "name": "Proof of urgency",
+     "note": "Only for the 48-hour issue: urgent medical treatment, death or serious illness of a family member, unavoidable business trip."
+    },
+    {
+     "name": "For minors",
+     "note": "Birth certificate; written certified consent of the other parent, a statement on record, or consent via eUprava.",
+     "variants": [
+      "Exceptions: sole guardian, other parent incapacitated or not exercising parental rights.",
+      "No fingerprints or signature for children under 12.",
+      "A child cannot be entered in a parent's passport."
+     ]
+    }
+   ],
+   "steps": [
+    "Make sure your ID card is valid; renew it first if not.",
+    "Generate and pay the slips on eUprava.",
+    "Book an appointment on eUprava at the police directorate for your address.",
+    "Attend with your ID card, old passport and slips (for a child also the other parent's consent).",
+    "Photo, fingerprints and signature are taken on site.",
+    "Collect the passport in person or through an authorised person."
+   ],
+   "faq": [
+    {
+     "q": "How long is a passport valid?",
+     "a": "Children under 3: 3 years; 3 to 14: 5 years; over 14: 10 years. Losing or damaging two or more passports within five years gets you a one-year passport."
+    },
+    {
+     "q": "How much does it cost?",
+     "a": "RSD 4,500 from 21 March 2026 (3,900 form + 600 production)."
+    },
+    {
+     "q": "Can I get it urgently?",
+     "a": "Yes, within 48 hours with proof of urgency. Without proof a priority surcharge applies; check the amount at the counter."
+    },
+    {
+     "q": "Can my child be in my passport?",
+     "a": "No. Every child needs their own passport."
+    },
+    {
+     "q": "When can I renew?",
+     "a": "A one-year passport at the earliest 30 days before expiry; others any time before expiry."
+    }
+   ],
+   "for_foreigners": "Serbian passports are issued to citizens only. Asylum and temporary-protection holders receive a travel document under asylum rules (RSD 5,880 from 12 Sept 2026). Serbian citizens abroad apply at a consulate; the deadline is 60 days."
+  },
+  "ru": {
+   "title": "Биометрический паспорт",
+   "summary": "Первая выдача и продление для взрослых и детей, срочное оформление и паспорт для граждан за рубежом."
+  },
+  "de": {
+   "title": "Biometrischer Reisepass",
+   "summary": "Erstausstellung und Verlängerung für Erwachsene und Kinder, Eilverfahren und Pass für Bürger im Ausland."
+  }
+ }
+}

@@ -1,0 +1,204 @@
+{
+ "slug": "zdravstvena-knjizica",
+ "category": "zdravstvo",
+ "org_types": [
+  "rfzo"
+ ],
+ "lead_vertical": "privatna-zdravstvena-ustanova",
+ "status": "full",
+ "sort_order": 90,
+ "name_lat": "Zdravstveno osiguranje i zdravstvena kartica (RFZO)",
+ "name_cyr": "Здравствено осигурање и здравствена картица (РФЗО)",
+ "summary": "Prijava na obavezno zdravstveno osiguranje, izdavanje i overa zdravstvene kartice za zaposlene, nezaposlene, članove porodice, penzionere i strance.",
+ "typical_duration": "Prijavu osiguranja poslodavac podnosi pre početka rada ili u roku od 3 radna dana. Rok za izradu kartice nije propisan; do tada važi potvrda, najduže mesec dana.",
+ "legal_basis": "Zakon o zdravstvenom osiguranju; Odluka RFZO o troškovima izdavanja kartice zdravstvenog osiguranja (izmena 6. 3. 2026).",
+ "euprava_url": "https://euprava.gov.rs/usluge/00009?isNew=True",
+ "online_available": true,
+ "checked_at": "2026-11-09",
+ "fees": [
+  {
+   "item": "Zdravstvena kartica preuzeta u filijali ili ispostavi",
+   "amount_rsd": 400,
+   "basis": "Odluka RFZO o troškovima izdavanja KZO, izmena od 6. 3. 2026. Uplata na račun 840-742362843-74 sa pozivom na broj filijale.",
+   "source_url": "https://www.rfzo.rs/index.php/prijavanaos/zahtev-ekartica",
+   "checked_at": "2026-11-09"
+  },
+  {
+   "item": "Zdravstvena kartica dostavljena poštom (samo fizička lica)",
+   "amount_rsd": 600,
+   "basis": "Isti izvor.",
+   "source_url": "https://www.rfzo.rs/index.php/prijavanaos/zahtev-ekartica",
+   "checked_at": "2026-11-09"
+  },
+  {
+   "item": "Doprinos za lica koja se sama uključuju u osiguranje",
+   "amount_rsd": null,
+   "basis": "Mesečni iznos utvrđuje RFZO; proverite važeći iznos u filijali.",
+   "checked_at": "2026-11-09"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://www.rfzo.rs/index.php/prijavanaos/zahtev-ekartica",
+   "title": "RFZO – Zahtev za zdravstvenu karticu",
+   "checked_at": "2026-11-09"
+  },
+  {
+   "url": "https://rfzo.rs/index.php/osiguranalica/najcescap",
+   "title": "RFZO – Najčešća pitanja",
+   "checked_at": "2026-11-09"
+  },
+  {
+   "url": "https://www.rfzo.rs/index.php/obveznici-uplate-doprinosa/prijavanaosiguranje",
+   "title": "RFZO – Prijava na osiguranje",
+   "checked_at": "2026-11-09"
+  },
+  {
+   "url": "https://euprava.gov.rs/usluge/00009?isNew=True",
+   "title": "eUprava – Zahtev za karticu",
+   "checked_at": "2026-11-09"
+  }
+ ],
+ "guide": {
+  "sr": {
+   "title": "Zdravstveno osiguranje i zdravstvena kartica",
+   "summary": "Prijava na obavezno zdravstveno osiguranje, izdavanje i overa zdravstvene kartice za zaposlene, nezaposlene, članove porodice, penzionere i strance.",
+   "who": [
+    "Osiguranici obaveznog zdravstvenog osiguranja sa LBO brojem: zaposleni, preduzetnici, penzioneri, nezaposleni i članovi njihovih porodica.",
+    "Nezaposleni koji ne primaju naknadu preko NSZ prijavljuju se i overavaju jednom godišnje u filijali RFZO.",
+    "Stranci sa prijavljenim privremenim boravkom i evidencionim brojem iz MUP-a."
+   ],
+   "where_note": "Matična filijala ili ispostava RFZO prema prebivalištu (za strance prema mestu privremenog boravka). Zahtev za karticu može se podneti i preko eUprave uz LBO broj.",
+   "documents": [
+    {
+     "name": "Zaposleni i preduzetnici",
+     "note": "Prijavu podnosi poslodavac preko portala CROSO pre početka rada ili u roku od 3 radna dana; za preduzetnike prijavu podnosi APR pri registraciji."
+    },
+    {
+     "name": "Nezaposleni koji ne primaju naknadu preko NSZ",
+     "note": "Lična karta, izjava o članovima porodice i prihodima (obrazac se popunjava na šalteru), dokaz o prihodima članova domaćinstva, lična karta supružnika. Overa jednom godišnje.",
+     "variants": [
+      "Ako su prihodi domaćinstva iznad cenzusa, osiguranje se ostvaruje uz uplatu doprinosa."
+     ]
+    },
+    {
+     "name": "Članovi porodice",
+     "note": "Osiguravaju se preko nosioca osiguranja: potvrda poslodavca o zaradi za prethodni mesec ili poslednji ček penzije.",
+     "variants": [
+      "Neke kategorije (npr. strani ugovorni radnici, studenti) ne mogu osigurati članove porodice."
+     ]
+    },
+    {
+     "name": "Za izdavanje kartice",
+     "note": "Lična karta i potpisan obrazac KZO-P1 u filijali, ili zahtev na eUpravi uz LBO. Do izrade dobijate potvrdu (PZK) koja važi do uručenja, najduže mesec dana."
+    }
+   ],
+   "steps": [
+    "Poslodavac, APR, NSZ ili filijala RFZO prijavljuje vas na osiguranje (CROSO).",
+    "Proverite status osiguranja na sajtu RFZO.",
+    "Podnesite zahtev za karticu: u filijali (lična karta + KZO-P1) ili na eUpravi (LBO).",
+    "Uplatite 400 RSD, odnosno 600 RSD uz dostavu poštom, na račun 840-742362843-74 sa pozivom na broj filijale.",
+    "Do izrade koristite potvrdu PZK.",
+    "Preuzmite karticu u filijali ili je primite poštom.",
+    "Overa je automatska na osnovu uplaćenih doprinosa; nezaposleni bez naknade overavaju jednom godišnje lično."
+   ],
+   "faq": [
+    {
+     "q": "Koliko košta zdravstvena kartica?",
+     "a": "400 RSD uz preuzimanje u filijali, 600 RSD uz dostavu poštom (RFZO, izmena od 6. 3. 2026)."
+    },
+    {
+     "q": "Šta dok ne stigne kartica?",
+     "a": "Dobijate potvrdu PZK koja važi do uručenja kartice, najduže mesec dana."
+    },
+    {
+     "q": "Izgubio sam karticu?",
+     "a": "Pisana izjava o gubitku i novi zahtev; potvrda PZK izdaje se odmah, bez oglašavanja u novinama."
+    },
+    {
+     "q": "Ko overava karticu?",
+     "a": "Overa je automatska, na osnovu podataka Poreske uprave o uplaćenim doprinosima. Nezaposleni bez naknade overavaju jednom godišnje u filijali."
+    },
+    {
+     "q": "Mogu li se stranci osigurati?",
+     "a": "Da, uz prijavljen privremeni boravak i evidencioni broj iz MUP-a. Državljani zemalja sa kojima Srbija ima sporazum donose potvrdu da nisu osigurani u matičnoj zemlji."
+    }
+   ],
+   "for_foreigners": "Stranci iz država bez sporazuma o socijalnom osiguranju prijavljuju se u filijali prema mestu privremenog boravka, uz prijavljen boravak i evidencioni broj iz MUP-a. Osnov može biti sopstveno osiguranje (zaposlenje), status člana porodice nosioca ili uključenje u osiguranje uz plaćanje mesečnog doprinosa. Iz država sa sporazumom potrebna je potvrda matičnog fonda. Pri odlasku iz Srbije odjavite osiguranje."
+  },
+  "en": {
+   "title": "Health insurance and the health card (RFZO)",
+   "summary": "Registering for compulsory health insurance and getting or renewing the health card for employees, the unemployed, family members, pensioners and foreigners.",
+   "who": [
+    "Insured persons with an LBO number: employees, entrepreneurs, pensioners, the unemployed and their family members.",
+    "Unemployed people without an NSZ cash benefit register and renew once a year at the RFZO branch.",
+    "Foreigners with a registered temporary stay and a MUP registration number."
+   ],
+   "where_note": "Your home RFZO branch or sub-office by registered address (for foreigners, by place of temporary stay). The card can also be requested on eUprava with your LBO number.",
+   "documents": [
+    {
+     "name": "Employees and entrepreneurs",
+     "note": "The employer registers you through the CROSO portal before you start work or within 3 working days; for entrepreneurs the Business Registers Agency does it at registration."
+    },
+    {
+     "name": "Unemployed without NSZ benefit",
+     "note": "ID card, a statement of household members and income (form filled at the counter), proof of household income, spouse's ID card. Renewed once a year.",
+     "variants": [
+      "Above the income threshold, insurance is obtained by paying the contribution."
+     ]
+    },
+    {
+     "name": "Family members",
+     "note": "Insured through the policy holder: employer's salary certificate for the previous month or the latest pension slip.",
+     "variants": [
+      "Some categories (e.g. foreign contract workers, students) cannot insure family members."
+     ]
+    },
+    {
+     "name": "For the card itself",
+     "note": "ID card and the signed KZO-P1 form at the branch, or an eUprava request with your LBO. Until the card is produced you get a certificate (PZK) valid until delivery, at most one month."
+    }
+   ],
+   "steps": [
+    "Your employer, APR, NSZ or the RFZO branch registers you (CROSO).",
+    "Check your insurance status on the RFZO website.",
+    "Request the card: at the branch (ID + KZO-P1) or on eUprava (LBO).",
+    "Pay RSD 400, or RSD 600 with postal delivery, to account 840-742362843-74 with the branch reference number.",
+    "Use the PZK certificate until the card arrives.",
+    "Collect the card at the branch or receive it by post.",
+    "Validation is automatic based on paid contributions; the unemployed without benefit renew once a year in person."
+   ],
+   "faq": [
+    {
+     "q": "How much is the health card?",
+     "a": "RSD 400 collected at the branch, RSD 600 by post (RFZO, change of 6 March 2026)."
+    },
+    {
+     "q": "What do I use until the card arrives?",
+     "a": "The PZK certificate, valid until delivery and at most one month."
+    },
+    {
+     "q": "I lost my card.",
+     "a": "A written loss statement and a new request; the PZK certificate is issued immediately, no newspaper notice needed."
+    },
+    {
+     "q": "Who validates the card?",
+     "a": "Validation is automatic from Tax Administration data on paid contributions. The unemployed without benefit renew yearly at the branch."
+    },
+    {
+     "q": "Can foreigners get insured?",
+     "a": "Yes, with a registered temporary stay and a MUP registration number. Nationals of countries with a social-security agreement bring a certificate that they are not insured at home."
+    }
+   ],
+   "for_foreigners": "Foreigners from countries without a social-security agreement register at the branch for their place of temporary stay, with the registered stay and MUP registration number. The basis can be own insurance (employment), family member of a policy holder, or voluntary inclusion with a monthly contribution. Agreement-country nationals need a certificate from their home fund. Deregister before leaving Serbia."
+  },
+  "ru": {
+   "title": "Медицинское страхование и карта РФЗО",
+   "summary": "Регистрация в обязательном медицинском страховании, получение и продление карты для работающих, безработных, членов семьи, пенсионеров и иностранцев."
+  },
+  "de": {
+   "title": "Krankenversicherung und Gesundheitskarte (RFZO)",
+   "summary": "Anmeldung zur Pflichtversicherung sowie Ausstellung und Verlängerung der Karte für Beschäftigte, Arbeitslose, Familienangehörige, Rentner und Ausländer."
+  }
+ }
+}

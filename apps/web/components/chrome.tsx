@@ -33,6 +33,7 @@ export function Header({ locale, path }: { locale: Locale; path: string }) {
         </Link>
         <div className="flex-1 min-w-[200px] hidden sm:flex justify-center"><SearchBox locale={locale} /></div>
         <nav className="flex items-center gap-3 text-[13.5px] ml-auto">
+          <Link href={href(locale, "/vodici")} className="no-underline text-ink hover:text-accent hidden sm:inline-flex items-center gap-1.5">{locale === "sr" ? "Vodiči" : locale === "en" ? "Guides" : locale === "ru" ? "Инструкции" : "Anleitungen"}</Link>
           <Link href={href(locale, "/za-strance")} className="no-underline text-ink hover:text-accent hidden sm:inline-flex items-center gap-1.5"><Icon.globe />{d.forForeigners}</Link>
           <LanguageSwitch locale={locale} path={path} />
         </nav>
@@ -53,6 +54,7 @@ export function Footer({ locale }: { locale: Locale }) {
         <div>
           <div className="eyebrow mb-2">Sajt</div>
           <ul className="grid gap-1.5">
+            <li><Link href={href(locale, "/vodici")} className="text-ink no-underline hover:text-accent">{locale === "sr" ? "Vodiči" : locale === "en" ? "Guides" : locale === "ru" ? "Инструкции" : "Anleitungen"}</Link></li>
             <li><Link href={href(locale, "/o-sajtu")} className="text-ink no-underline hover:text-accent">{d.aboutSite}</Link></li>
             <li><Link href={href(locale, "/partneri")} className="text-ink no-underline hover:text-accent">{d.becomePartner}</Link></li>
             <li><Link href={href(locale, "/privatnost")} className="text-ink no-underline hover:text-accent">{d.privacy}</Link></li>
