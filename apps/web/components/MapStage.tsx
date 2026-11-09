@@ -15,7 +15,10 @@ function Poster() {
     </div>
   );
 }
-const SerbiaMap3D = dynamic(() => import("./SerbiaMap3D"), { ssr: false, loading: () => <Poster /> });
+const load3D = () => import("./SerbiaMap3D");
+// Start fetching the WebGL chunk as soon as this module evaluates on a wide screen, before hydration finishes.
+if (typeof window !== "undefined" && window.matchMedia("(min-width: 768px)").matches) void load3D();
+const SerbiaMap3D = dynamic(load3D, { ssr: false, loading: () => <Poster /> });
 
 function webglOk() {
   try { const c = document.createElement("canvas"); return !!(c.getContext("webgl2") || c.getContext("webgl")); } catch { return false; }
