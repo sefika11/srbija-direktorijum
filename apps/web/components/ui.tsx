@@ -79,7 +79,7 @@ export function LanguageSwitch({ locale, path }: { locale: Locale; path: string 
       {LOCALES.map((l) => (
         <Link key={l} href={href(l, path)} hrefLang={l} aria-current={l === locale ? "true" : undefined}
               className={`px-2 py-1 rounded-md no-underline ${l === locale ? "lang-active" : "text-muted hover:text-ink hover:bg-surface-2"}`}>
-          {LOCALE_LABEL[l]}
+          <span className="sm:hidden">{l.toUpperCase()}</span><span className="hidden sm:inline">{LOCALE_LABEL[l]}</span>
         </Link>
       ))}
     </div>

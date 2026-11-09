@@ -34,16 +34,16 @@ function OrgList({ orgs, locale, dense = false }: { orgs: db.OrgRow[]; locale: L
 
 // ---------------------------------------------------------------- Home
 const MAP_LABELS: Record<Locale, MapLabels> = {
-  sr: { institutions: "Institucije", municipalities: "Gradovi i opštine", hint: "Pređite preko okruga za podatke. Klik na okrug prikazuje njegove opštine. Zum: točkić miša ili dva prsta.",
+  sr: { institutions: "Institucije", municipalities: "Gradovi i opštine", hint: "Pređite preko okruga za podatke. Klik na okrug prikazuje njegove opštine. Zum: točkić miša ili dva prsta.", hintTouch: "Dodirnite okrug za njegove opštine. Zum: dva prsta.",
         hintZoomed: "Klik na opštinu otvara njene institucije. Prevucite za pomeranje.", zoomIn: "Uvećaj", zoomOut: "Umanji", reset: "Cela Srbija",
         back: "Cela Srbija", openOkrug: "Otvori okrug", cityDistricts: "Gradske opštine", cityDistrict: "Gradska opština", openUnit: "Otvori", city: "Grad", municipality: "Opština", serbia: "Srbija", okrug: "Okrug", seat: "Sedište" },
-  en: { institutions: "Institutions", municipalities: "Cities and municipalities", hint: "Hover a district for figures. Click a district to show its municipalities. Zoom: scroll or pinch.",
+  en: { institutions: "Institutions", municipalities: "Cities and municipalities", hint: "Hover a district for figures. Click a district to show its municipalities. Zoom: scroll or pinch.", hintTouch: "Tap a district for its municipalities. Zoom: pinch.",
         hintZoomed: "Click a municipality to open its institutions. Drag to pan.", zoomIn: "Zoom in", zoomOut: "Zoom out", reset: "Whole country",
         back: "Whole country", openOkrug: "Open district", cityDistricts: "City districts", cityDistrict: "City district", openUnit: "Open", city: "City", municipality: "Municipality", serbia: "Serbia", okrug: "District", seat: "Seat" },
-  ru: { institutions: "Учреждения", municipalities: "Города и общины", hint: "Наведите на округ для данных. Клик по округу показывает его общины. Масштаб: колесо мыши или два пальца.",
+  ru: { institutions: "Учреждения", municipalities: "Города и общины", hint: "Наведите на округ для данных. Клик по округу показывает его общины. Масштаб: колесо мыши или два пальца.", hintTouch: "Нажмите на округ, чтобы увидеть его общины. Масштаб: два пальца.",
         hintZoomed: "Клик по общине открывает её учреждения. Перетаскивайте для перемещения.", zoomIn: "Увеличить", zoomOut: "Уменьшить", reset: "Вся Сербия",
         back: "Вся Сербия", openOkrug: "Открыть округ", cityDistricts: "Городские общины", cityDistrict: "Городская община", openUnit: "Открыть", city: "Город", municipality: "Община", serbia: "Сербия", okrug: "Округ", seat: "Центр" },
-  de: { institutions: "Einrichtungen", municipalities: "Städte und Gemeinden", hint: "Bezirk überfahren für Zahlen. Klick auf einen Bezirk zeigt seine Gemeinden. Zoom: Scrollen oder Pinch.",
+  de: { institutions: "Einrichtungen", municipalities: "Städte und Gemeinden", hint: "Bezirk überfahren für Zahlen. Klick auf einen Bezirk zeigt seine Gemeinden. Zoom: Scrollen oder Pinch.", hintTouch: "Bezirk antippen für seine Gemeinden. Zoom: zwei Finger.",
         hintZoomed: "Klick auf eine Gemeinde öffnet ihre Einrichtungen. Ziehen zum Verschieben.", zoomIn: "Vergrößern", zoomOut: "Verkleinern", reset: "Ganz Serbien",
         back: "Ganz Serbien", openOkrug: "Bezirk öffnen", cityDistricts: "Stadtbezirke", cityDistrict: "Stadtbezirk", openUnit: "Öffnen", city: "Stadt", municipality: "Gemeinde", serbia: "Serbien", okrug: "Bezirk", seat: "Sitz" },
 };
@@ -118,7 +118,7 @@ export async function Home({ locale }: { locale: Locale }) {
                 <div className="font-serif text-[22px] font-semibold leading-[1.15] mt-3 pr-14 tracking-[-0.01em]">{c.title ?? g.name_lat}</div>
                 <p className="text-muted text-[13.5px] mt-2 flex-1 leading-relaxed">{c.summary ?? g.summary}</p>
                 <div className="mt-4 flex items-center justify-between text-[12.5px]">
-                  {g.status === "full" ? <span className="rounded-full bg-gold-soft text-gold px-2 py-0.5 font-medium">✓ {locale === "sr" ? "Provereno" : locale === "en" ? "Verified" : locale === "ru" ? "Проверено" : "Geprüft"} {g.checked_at}</span> : <span className="text-muted">{locale === "sr" ? "kratki vodič" : locale === "en" ? "short guide" : locale === "ru" ? "кратко" : "Kurzfassung"}</span>}
+                  {g.status === "full" ? <span className="text-muted">✓ {locale === "sr" ? "Provereno" : locale === "en" ? "Verified" : locale === "ru" ? "Проверено" : "Geprüft"} {g.checked_at}</span> : <span className="text-muted">{locale === "sr" ? "kratki vodič" : locale === "en" ? "short guide" : locale === "ru" ? "кратко" : "Kurzfassung"}</span>}
                   <span className="text-accent font-medium">{T.open} →</span>
                 </div>
               </Link>); })}
@@ -133,7 +133,7 @@ export async function Home({ locale }: { locale: Locale }) {
             <div><div className="eyebrow">02 · {d.browseByCategory}</div><h2 className="display-sm mt-2">{stats.orgs.toLocaleString("sr-Latn")} {d.institutions}, {stats.types} {typesLabel}</h2></div>
           </div>
           <div className="bento">
-            {byGroupAll.map(({ g, types: ts, total }, i) => { const I = Icon[GROUP_ICON[g] ?? "landmark"]; return (
+            {byGroupAll.filter((x) => x.total > 0).map(({ g, types: ts, total }, i) => { const I = Icon[GROUP_ICON[g] ?? "landmark"]; return (
               <div key={g} className="bento-card" data-reveal style={{ "--d": `${i * 60}ms` } as React.CSSProperties}>
                 <div className="flex items-start justify-between gap-3">
                   <span className="icon-badge"><I /></span>
@@ -165,7 +165,7 @@ export async function Home({ locale }: { locale: Locale }) {
         <h2 className="display-sm max-w-[20ch]">{T.langsTitle}</h2>
         <p className="lede mt-3 max-w-[52ch]">{T.langsLead}</p>
         <div className="lang-tiles mt-8">
-          {LANGS.map((x) => <Link key={x.l} href={href(x.l, "/za-strance")} hrefLang={x.l} className="lang-tile"><span className="big">{x.name}</span><span className="text-white/60 text-[13px]">{x.sub}</span></Link>)}
+          {LANGS.map((x) => <Link key={x.l} href={href(x.l, "/za-strance")} hrefLang={x.l} className="lang-tile"><span className="big">{x.name}</span><span className="text-muted text-[13px]">{x.sub}</span></Link>)}
         </div>
       </div></section>
     </main>
@@ -295,7 +295,7 @@ export async function OrgTypeHub({ locale, type }: { locale: Locale; type: db.Or
         <div className="eyebrow mt-4">{d.groups[type.group]}</div>
         <h1 className="font-serif text-[30px] sm:text-[38px] font-semibold leading-tight">{type.name_plural_lat ?? type.name_lat}</h1>
         <p className="text-muted mt-2 tabular">{count.toLocaleString("sr-Latn")} {branchMode ? (locale === "sr" ? "lokacija" : locale === "en" ? "locations" : locale === "ru" ? "адресов" : "Standorte") : d.institutions} · {places} {d.municipalities}</p>
-        {type.description_md && <div className="prose max-w-3xl mt-3 text-[15px] text-white/85">{type.description_md}</div>}
+        {type.description_md && <div className="prose max-w-3xl mt-3 text-[15px] text-muted">{type.description_md}</div>}
       </div></section>
       <div className="shell py-6">
       {faq.length > 0 && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faq.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) }) }} />}

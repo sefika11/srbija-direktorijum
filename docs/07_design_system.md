@@ -103,3 +103,26 @@ task chips above results).
 5. Are all states in §6 visible on this surface?
 6. Did I verify in the real workflow (click path, not just a screenshot) and report what I saw, including
    anything broken or unverified?
+
+## 8. Craft rules (measured from awwwards nominees, 2026-11-09)
+
+Source: six Site-of-the-Day / nominee sites read as CSS (Clinia, Dwell, HoneyQuote, Grids/Obys, DeepBook, cafeteria 2027). Only patterns that serve an information site are kept; WebGL stages, grain overlays, Lottie and canvas scenes are out of scope.
+
+| Rule | Value we use | Where it came from |
+|---|---|---|
+| Canvas | warm paper `#f4f3ee`, never pure white as page colour | Clinia `#fcf8ef`, Dwell `#f5f4ed`, HoneyQuote `#f8f2e6` |
+| Ink | near-black with a warm undertone `#1a1a18` | Clinia `#1a1a1e`, Dwell `#161605` |
+| Accent | one: cobalt `#2347e6`, used for links, focus, the map hover and the category bar only | every site has exactly one saturated accent |
+| Big numbers | ink, serif, weight 500, tracking −0.03em | numbers in accent read as marketing |
+| Display | tracking −0.035em, line-height .96 | −0.02 to −0.06em, lh .9–1.2 across all six |
+| Labels / eyebrows | mono, 11px, +0.14em, uppercase | Clinia, Dwell, Grids, cafeteria |
+| Radii | 8px surfaces, 999px buttons and chips | 4/8/12/16 + pill everywhere |
+| Colour / opacity transitions | 220ms `cubic-bezier(.4,0,.2,1)` | 200–360ms on all six |
+| Movement / reveals | 600–800ms `cubic-bezier(.16,1,.3,1)` | Clinia 93 uses of this curve |
+| Hover | border to ink, underline reveal, 2px arrow slide; no lift, no shadow | gated behind `@media (hover: hover)` like Clinia and Dwell |
+| Header | 56px glass: 78 % paper + `blur(20px) saturate(160%)` + 1px 10 % ink border | cafeteria nav |
+| Footer | paper, hairline top, ink links with underline reveal, 14px | Clinia's footer is 10–14px at 50 % opacity: too faint, we keep contrast |
+| Spacing | multiples of 4; 8, 12, 16, 20, 24, 32, 48 | all six |
+| Reduced motion | one `prefers-reduced-motion: reduce` block kills every transition and animation | partial on the reference sites; we do it fully |
+
+Stylesheet layout: `globals.css` has one block per selector in ten numbered sections. New rules go into their section. Appending an override at the end of the file is a review failure.

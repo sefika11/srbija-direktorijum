@@ -9,7 +9,7 @@ import { href, type Locale } from "@/lib/i18n";
 export type MapOkrug = { slug: string; name_lat: string; seat_name_lat: string | null; jls_count: number; go_count?: number; org_count: number };
 export type MapJls = { slug: string; name_lat: string; okrug_slug: string; org_count: number; jls_kind: "grad" | "opstina" | null; level?: "jls" | "gradska_opstina"; parent_slug?: string | null };
 export type MapLabels = {
-  institutions: string; municipalities: string; hint: string; hintZoomed: string; zoomIn: string; zoomOut: string; reset: string;
+  institutions: string; municipalities: string; hint: string; hintTouch?: string; hintZoomed: string; zoomIn: string; zoomOut: string; reset: string;
   back: string; openOkrug: string; openUnit: string; city: string; municipality: string; serbia: string; okrug: string; seat: string; cityDistricts: string; cityDistrict: string;
 };
 type View = { x: number; y: number; w: number; h: number };
@@ -147,7 +147,7 @@ export default function SerbiaMap({ okruzi, jls, locale, labels, variant = "ligh
 
   const stageH = height === "hero" ? "h-[420px] sm:h-[520px] lg:h-[620px]" : "h-[440px] sm:h-[560px] lg:h-[680px]";
   const panel = (
-      <aside className={`card p-4 lg:p-5 flex flex-col min-h-[150px] ${height === "hero" ? "lg:absolute lg:left-4 lg:bottom-4 lg:w-[270px] lg:max-h-[46%] lg:z-10 lg:overflow-hidden" : "lg:min-h-0 lg:max-h-[680px]"}`}>
+      <aside className={`card p-4 lg:p-5 flex flex-col lg:min-h-[150px] ${height === "hero" ? "lg:absolute lg:left-4 lg:bottom-4 lg:w-[270px] lg:max-h-[46%] lg:z-10 lg:overflow-hidden" : "lg:min-h-0 lg:max-h-[680px]"}`}>
         {hj ? (
           <>
             <div className="eyebrow">{unitKind(hj)} · {okrugBy[hj.okrug_slug]?.name_lat}</div>
@@ -184,7 +184,7 @@ export default function SerbiaMap({ okruzi, jls, locale, labels, variant = "ligh
             )}
           </>
         ) : (
-          <div className="text-muted text-[13.5px] leading-relaxed">{labels.hint}</div>
+          <div className="text-muted text-[13.5px] leading-relaxed"><span className="hidden lg:inline">{labels.hint}</span><span className="lg:hidden">{labels.hintTouch ?? labels.hint}</span></div>
         )}
       </aside>
   );
@@ -204,7 +204,7 @@ export default function SerbiaMap({ okruzi, jls, locale, labels, variant = "ligh
                     onPointerEnter={() => { if (!focused) setHoverOkrug(s.slug); }}
                     onClick={() => { if (isClick()) focusOkrug(s.slug); }}
                     style={{
-                      fill: isHot ? (dark ? "#fff" : "var(--accent)") : dark ? `rgb(255 255 255 / ${(0.07 + share * 0.30).toFixed(2)})` : `color-mix(in oklab, var(--accent) ${14 + Math.round(share * 50)}%, var(--surface))`,
+                      fill: isHot ? (dark ? "#fff" : "var(--accent)") : dark ? `rgb(255 255 255 / ${(0.07 + share * 0.30).toFixed(2)})` : `color-mix(in oklab, var(--ink) ${7 + Math.round(share * 30)}%, var(--surface))`,
                       opacity: dim ? 0.32 : showJls && focused === s.slug ? 0 : 1,
                       stroke: dark ? "rgb(6 16 31 / .9)" : "var(--surface)", strokeWidth: f(1.2), strokeLinejoin: "round", transition: "fill .15s, opacity .25s", cursor: "pointer",
                     }} />
@@ -219,7 +219,7 @@ export default function SerbiaMap({ okruzi, jls, locale, labels, variant = "ligh
               <path key={u.slug} d={u.d} data-jls={u.slug}
                     onPointerEnter={() => { setHoverJls(u.slug); setHoverOkrug(u.okrug); }}
                     onClick={() => { if (isClick()) { const j = jlsBy[u.slug]; router.push(j ? unitHref(j) : href(locale, `/${u.slug}`)); } }}
-                    style={{ fill: hot ? (dark ? "#fff" : "var(--accent)") : dark ? `rgb(255 255 255 / ${(0.06 + Math.sqrt(share) * 0.26).toFixed(2)})` : `color-mix(in oklab, var(--accent) ${10 + Math.round(Math.sqrt(share) * 42)}%, var(--surface))`,
+                    style={{ fill: hot ? (dark ? "#fff" : "var(--accent)") : dark ? `rgb(255 255 255 / ${(0.06 + Math.sqrt(share) * 0.26).toFixed(2)})` : `color-mix(in oklab, var(--ink) ${5 + Math.round(Math.sqrt(share) * 26)}%, var(--surface))`,
                              stroke: dark ? "rgb(6 16 31 / .9)" : "var(--surface)", strokeWidth: f(1), strokeLinejoin: "round", cursor: "pointer", transition: "fill .12s" }} />
             );
           })}

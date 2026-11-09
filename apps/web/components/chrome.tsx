@@ -9,20 +9,20 @@ import SearchBox from "./SearchBox";
 export function Header({ locale, path }: { locale: Locale; path: string }) {
   const d = t(locale);
   return (
-    <header className="site-header sticky top-0 z-40 border-b border-line bg-surface/90 backdrop-blur supports-[backdrop-filter]:bg-surface/80">
+    <header className="site-header sticky top-0 z-40">
       <div className="tricolor" aria-hidden />
-      <div className="shell flex items-center gap-4 py-2.5">
+      <div className="shell flex items-center gap-4 min-h-[56px]">
         <Link href={href(locale, "/")} className="no-underline text-ink flex items-center gap-2.5 shrink-0">
           <span aria-hidden className="brand-mark">G</span>
           <span className="leading-tight">
             <span className="block font-serif font-semibold text-[17px]">{d.siteName}</span>
-            <span className="hidden md:block text-[11px] text-muted tracking-[.08em] uppercase">{locale === "sr" ? "Sve institucije Srbije" : locale === "en" ? "Every institution in Serbia" : locale === "ru" ? "Все учреждения Сербии" : "Alle Einrichtungen Serbiens"}</span>
+            <span className="hidden md:block font-mono text-[10.5px] text-muted tracking-[.12em] uppercase">{locale === "sr" ? "Sve institucije Srbije" : locale === "en" ? "Every institution in Serbia" : locale === "ru" ? "Все учреждения Сербии" : "Alle Einrichtungen Serbiens"}</span>
           </span>
         </Link>
-        <div className="flex-1 min-w-[200px] hidden sm:flex justify-center"><SearchBox locale={locale} placeholder={d.searchPlaceholder} submitLabel={d.search} /></div>
+        <div className="flex-1 min-w-[260px] hidden lg:flex justify-center"><SearchBox locale={locale} placeholder={d.searchPlaceholder} submitLabel={d.search} /></div>
         <nav className="flex items-center gap-3 text-[13.5px] ml-auto">
           <Link href={href(locale, "/vodici")} className="no-underline text-ink hover:text-accent hidden sm:inline-flex items-center gap-1.5">{locale === "sr" ? "Vodiči" : locale === "en" ? "Guides" : locale === "ru" ? "Инструкции" : "Anleitungen"}</Link>
-          <Link href={href(locale, "/za-strance")} className="no-underline text-ink hover:text-accent hidden sm:inline-flex items-center gap-1.5"><Icon.globe />{d.forForeigners}</Link>
+          <Link href={href(locale, "/za-strance")} className="no-underline text-ink hover:text-accent hidden md:inline-flex items-center gap-1.5 whitespace-nowrap"><Icon.globe />{d.forForeigners}</Link>
           <LanguageSwitch locale={locale} path={path} />
         </nav>
       </div>
