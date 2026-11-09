@@ -314,3 +314,9 @@ html.has-opener [data-reveal] { transition-delay: calc(var(--d, 0ms) + 1700ms); 
 .vital-val > a:first-child { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 100%; }
 .vital-tel { font-family: var(--font-mono); font-size: 12.5px; color: var(--ink); text-decoration: none; background: linear-gradient(currentColor, currentColor) no-repeat 0 100% / 100% 1px; }
 .vital-kids li { font-size: 13.5px; } .vital-kids b { font-family: var(--font-serif); font-size: 18px; margin-right: 4px; }
+
+/* ---------- 15. Claims and featured placements ---------- */
+.claim { border-left: 3px solid var(--accent); }
+.featured-rail { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+.featured-card { padding: 16px 18px; border-color: color-mix(in oklab, var(--gold) 45%, var(--line)); background: color-mix(in oklab, var(--gold-soft) 55%, var(--surface)); }
+.featured-tag { font-family: var(--font-mono); font-size: 10.5px; letter-spacing: .12em; text-transform: uppercase; color: var(--gold); border: 1px solid color-mix(in oklab, var(--gold) 50%, transparent); border-radius: var(--radius-pill); padding: 2px 8px; }

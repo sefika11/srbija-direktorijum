@@ -13,7 +13,7 @@ import type { Feature3D } from "./SerbiaMap3D";
 import HeroFX from "./HeroFX";
 import Opener from "./Opener";
 import { Icon, GROUP_ICON } from "./icons";
-import { LeadForm, CorrectionBlock } from "./forms";
+import { LeadForm, CorrectionBlock, ClaimBlock } from "./forms";
 import { GUIDE } from "@/lib/guide";
 
 const GROUPS: db.Group[] = ["lokalna_samouprava", "republicki_organi", "javne_ustanove", "javna_preduzeca", "pravosudje_i_javna_ovlascenja", "privatne_usluge"];
@@ -190,6 +190,25 @@ export async function Home({ locale }: { locale: Locale }) {
   );
 }
 
+// ---------------------------------------------------------------- Featured placements (paid, labelled, never above the reader's answer)
+function FeaturedRail({ locale, rows }: { locale: Locale; rows: db.FeaturedRow[] }) {
+  const d = t(locale);
+  return (
+    <ul className="featured-rail" aria-label={d.sponsor}>
+      {rows.map((f) => (
+        <li key={f.id} className="card featured-card spot">
+          <div className="flex items-center justify-between gap-3"><span className="eyebrow plain">{f.type_name}{f.place_name ? ` · ${f.place_name}` : ""}</span><span className="featured-tag">{d.sponsor}</span></div>
+          <Link href={href(locale, `/${f.type_slug}/${f.org_slug}`)} className="font-serif text-[19px] font-semibold no-underline text-ink hover:text-accent mt-1 block">{f.org_name}</Link>
+          <div className="mt-2 flex flex-wrap gap-x-4 gap-y-1 text-[13px]">
+            {f.phone && <a href={`tel:${f.phone.replace(/[^+\d]/g, "")}`} className="vital-tel">{f.phone}</a>}
+            {f.website && <a href={f.website} rel="noopener sponsored" target="_blank" className="text-muted">{f.website.replace(/^https?:\/\//, "").replace(/\/$/, "")}</a>}
+          </div>
+        </li>
+      ))}
+    </ul>
+  );
+}
+
 // ---------------------------------------------------------------- Vital services block (municipality page)
 const VITAL_L: Record<Locale, { title: string; emergency: string; faults: string; admin: string; health: string; social: string; children: string; police: string; call: string; water: string; power: string; heat: string; gas: string; waste: string; parking: string; tax: string; registry: string; hall: string; dz: string; hospital: string; csr: string; nsz: string; os: string; ss: string; pu: string; apoteke: string; none: string }> = {
   sr: { title: "Vitalno za ovu opštinu", emergency: "Hitni brojevi", faults: "Kvarovi i komunalno", admin: "Uprava i porez", health: "Zdravlje", social: "Socijalno i posao", children: "Deca i škole", police: "Policija", call: "Pozovi", water: "Vodovod", power: "Struja", heat: "Grejanje", gas: "Gas", waste: "Čistoća", parking: "Parking", tax: "Lokalna poreska administracija", registry: "Matičar", hall: "Opštinska uprava", dz: "Dom zdravlja", hospital: "Bolnica", csr: "Centar za socijalni rad", nsz: "Nacionalna služba za zapošljavanje", os: "osnovnih škola", ss: "srednjih škola", pu: "vrtića", apoteke: "apoteka", none: "broj još nije unet" },
@@ -362,7 +381,7 @@ export async function OrgTypeHub({ locale, type }: { locale: Locale; type: db.Or
   // National networks (RFZO, PIO, Poreska uprava...) are one organization with many branches: list the branches by okrug.
   // Chains (national networks, banks, insurers) are few organisations with many branches and no primary seat: list the branches by district.
   const branchMode = type.national_network || (orgs.length > 0 && orgs.every((o) => !o.place_name));
-  const branches = branchMode ? await db.getLocationsOfType(type.slug) : [];
+  const [branches, featured] = await Promise.all([branchMode ? db.getLocationsOfType(type.slug) : Promise.resolve([] as db.ServingRow[]), db.getFeatured(type.slug, null).catch(() => [] as db.FeaturedRow[])]);
   const groups = new Map<string, db.OrgRow[]>();
   for (const o of orgs) { const k = o.founder_name ?? o.place_name ?? "—"; groups.set(k, [...(groups.get(k) ?? []), o]); }
   const keys = [...groups.keys()].sort((a, b) => a.localeCompare(b, "sr-Latn"));
@@ -387,6 +406,7 @@ export async function OrgTypeHub({ locale, type }: { locale: Locale; type: db.Or
       <AdSlot code="jls_top_leaderboard" w={728} h={90} mobileH={100} label={d.ad} />
       <div className="grid lg:grid-cols-[minmax(0,1fr)_300px] gap-8 items-start">
         <div className="grid gap-5">
+          {featured.length > 0 && <FeaturedRail locale={locale} rows={featured} />}
           {faq.length > 0 && (
             <section className="card p-5">
               <SectionTitle>{locale === "sr" ? "Česta pitanja" : locale === "en" ? "Frequently asked" : locale === "ru" ? "Частые вопросы" : "Häufige Fragen"}</SectionTitle>
@@ -521,6 +541,7 @@ export async function OrgPage({ locale, org, locSlug, path }: { locale: Locale; 
             </section>
           )}
           <CorrectionBlock locale={locale} entityType={loc ? "location" : "organization"} entityId={loc?.location_id ?? org.id} pagePath={path} lastChecked={loc?.last_seen_at ?? org.last_seen_at} sources={["Uprava za trezor (KJS)"]} />
+          <ClaimBlock locale={locale} orgId={org.id} locationId={loc?.location_id ?? null} />
           <AdSlot code="loc_bottom_leaderboard" w={728} h={90} mobileH={100} label={d.ad} />
         </div>
         <aside className="lg:sticky lg:top-20 grid gap-5">

@@ -91,3 +91,40 @@ export function CorrectionBlock({ locale, entityType, entityId, pagePath, lastCh
     </section>
   );
 }
+
+
+const CLAIM_L: Record<Locale, { title: string; body: string; cta: string; name: string; role: string; email: string; phone: string; message: string; send: string; done: string; note: string }> = {
+  sr: { title: "Da li ste vi ova institucija?", body: "Preuzmite stranicu: ispravke radnog vremena, telefona i opisa objavljujemo odmah, a uz vaš naziv stoji oznaka „Potvrđeno od institucije“. Besplatno.", cta: "Preuzmi stranicu", name: "Ime i prezime", role: "Uloga (npr. direktor, vlasnik, PR)", email: "Službeni e-mail", phone: "Telefon (opciono)", message: "Šta treba ispraviti (opciono)", send: "Pošalji zahtev", done: "Hvala. Proveravamo zahtev i javljamo se na službeni e-mail u roku od 2 radna dana.", note: "Zahtev proverava urednik; podaci se koriste samo za potvrdu." },
+  en: { title: "Is this your institution?", body: "Claim the page: corrections to hours, phones and description go live at once and your name carries the “Confirmed by the institution” mark. Free.", cta: "Claim this page", name: "Full name", role: "Role (e.g. director, owner, PR)", email: "Official e-mail", phone: "Phone (optional)", message: "What should be corrected (optional)", send: "Send request", done: "Thank you. We verify the request and reply to the official e-mail within 2 working days.", note: "An editor reviews the request; the data is used only for verification." },
+  ru: { title: "Это ваше учреждение?", body: "Получите доступ к странице: исправления часов работы, телефонов и описания публикуются сразу, а рядом с названием появляется отметка «Подтверждено учреждением». Бесплатно.", cta: "Получить доступ", name: "Имя и фамилия", role: "Роль (директор, владелец, PR)", email: "Служебный e-mail", phone: "Телефон (необязательно)", message: "Что исправить (необязательно)", send: "Отправить", done: "Спасибо. Мы проверим запрос и ответим на служебный e-mail в течение 2 рабочих дней.", note: "Запрос проверяет редактор; данные используются только для подтверждения." },
+  de: { title: "Ist das Ihre Einrichtung?", body: "Übernehmen Sie die Seite: Korrekturen an Öffnungszeiten, Telefon und Beschreibung gehen sofort online, und Ihr Name trägt die Marke „Von der Einrichtung bestätigt“. Kostenlos.", cta: "Seite übernehmen", name: "Vor- und Nachname", role: "Rolle (z. B. Leitung, Inhaber, PR)", email: "Dienstliche E-Mail", phone: "Telefon (optional)", message: "Was korrigiert werden soll (optional)", send: "Anfrage senden", done: "Danke. Wir prüfen die Anfrage und antworten innerhalb von 2 Werktagen an die dienstliche E-Mail.", note: "Eine Redaktion prüft die Anfrage; die Daten dienen nur der Bestätigung." },
+};
+export function ClaimBlock({ locale, orgId, locationId }: { locale: Locale; orgId: number; locationId?: number | null }) {
+  const L = CLAIM_L[locale];
+  const [mode, setMode] = useState<"idle" | "form" | "done">("idle");
+  async function submit(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault(); const fd = new FormData(e.currentTarget);
+    await fetch("/api/claim", { method: "POST", headers: { "content-type": "application/json" },
+      body: JSON.stringify({ org_id: orgId, location_id: locationId ?? null, name: fd.get("name"), role: fd.get("role"), email: fd.get("email"), phone: fd.get("phone"), message: fd.get("message") }) });
+    setMode("done");
+  }
+  return (
+    <section id="preuzmi" className="card p-4 sm:p-5 my-6 scroll-mt-24 claim">
+      <h2 className="text-[16px] font-semibold">{L.title}</h2>
+      <p className="text-[13.5px] text-muted mt-1 max-w-[62ch]">{L.body}</p>
+      {mode === "done" ? <p className="mt-3 text-[14px] text-moss font-medium">{L.done}</p> : mode === "idle" ? (
+        <div className="mt-3"><button type="button" onClick={() => setMode("form")} className="btn-primary">{L.cta}</button></div>
+      ) : (
+        <form onSubmit={submit} className="mt-3 grid gap-2 sm:grid-cols-2">
+          <input name="name" required placeholder={L.name} className="rounded-md border border-line bg-surface px-3 py-2 text-[14px]" />
+          <input name="role" placeholder={L.role} className="rounded-md border border-line bg-surface px-3 py-2 text-[14px]" />
+          <input name="email" type="email" required placeholder={L.email} className="rounded-md border border-line bg-surface px-3 py-2 text-[14px]" />
+          <input name="phone" placeholder={L.phone} className="rounded-md border border-line bg-surface px-3 py-2 text-[14px]" />
+          <textarea name="message" rows={2} placeholder={L.message} className="rounded-md border border-line bg-surface px-3 py-2 text-[14px] sm:col-span-2" />
+          <div className="sm:col-span-2"><button type="submit" className="btn-primary">{L.send}</button></div>
+        </form>
+      )}
+      <p className="text-[12px] text-muted mt-3">{L.note}</p>
+    </section>
+  );
+}

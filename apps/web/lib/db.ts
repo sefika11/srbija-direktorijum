@@ -221,3 +221,19 @@ export const getVitalForUnit = (path: string, typeSlugs: string[]) =>
     left join lateral (select value, value_display from location_contacts lc where lc.location_id = l.id and lc.kind = 'phone' order by lc.id limit 1) c on true
     where o.status = 'active' and t.slug = any(${typeSlugs}) and (f.path <@ ${path}::ltree or p.path <@ ${path}::ltree)
     order by t.sort_order, o.name_lat limit 60`;
+
+export const insertClaim = (c: { org_id: number; location_id: number | null; claimant_name: string; claimant_role: string | null; email: string; phone: string | null; message: string | null; ip_hash: string | null }) =>
+  sql`insert into listing_claims (org_id, location_id, claimant_name, claimant_role, email, phone, message, ip_hash)
+      values (${c.org_id}, ${c.location_id}, ${c.claimant_name}, ${c.claimant_role}, ${c.email}, ${c.phone}, ${c.message}, ${c.ip_hash})`;
+
+/** Active featured placements for a type (nationwide or inside a territorial unit path). */
+export type FeaturedRow = { id: number; org_id: number; org_slug: string; org_name: string; type_slug: string; type_name: string; place_name: string | null; tier: string; phone: string | null; website: string | null };
+export const getFeatured = (typeSlug: string | null, unitPath: string | null, limit = 3) =>
+  sql<FeaturedRow[]>`select f.id, o.id as org_id, o.slug as org_slug, o.name_lat as org_name, t.slug as type_slug, t.name_lat as type_name, coalesce(tu.name_lat, p.name_lat) as place_name, f.tier,
+      (select value_display from location_contacts c join locations l on l.id = c.location_id where l.org_id = o.id and c.kind = 'phone' order by l.is_primary desc, c.id limit 1) as phone, o.website
+    from featured_listings f join organizations o on o.id = f.org_id join org_types t on t.id = f.org_type_id
+    left join territorial_units tu on tu.id = f.territorial_unit_id
+    left join locations pl on pl.org_id = o.id and pl.is_primary left join territorial_units p on p.id = pl.territorial_unit_id
+    where f.status = 'active' and current_date between f.starts_at and f.ends_at and o.status = 'active'
+      and (${typeSlug}::text is null or t.slug = ${typeSlug}) and (${unitPath}::text is null or tu.id is null or tu.path <@ ${unitPath}::ltree)
+    order by f.tier = 'highlight' desc, f.starts_at desc limit ${limit}`;
