@@ -203,3 +203,63 @@ html.js [data-reveal].in { opacity: 1; transform: none; }
   * { transition: none !important; animation: none !important; }
   [data-reveal] { opacity: 1; transform: none; }
 }
+
+/* ---------- 11. 3D map stage ---------- */
+.m3-stage { position: relative; height: 420px; border-radius: var(--radius); overflow: hidden; border: 1px solid var(--line); background:
+  radial-gradient(70% 60% at 50% 40%, color-mix(in oklab, var(--accent-soft) 70%, var(--surface)) 0%, var(--surface) 70%); }
+@media (min-width: 640px) { .m3-stage { height: 520px; } }
+@media (min-width: 1024px) { .m3-stage { height: 620px; } }
+.m3-stage::after { content: ""; position: absolute; inset: 0; pointer-events: none; background: radial-gradient(120% 90% at 50% 100%, transparent 55%, color-mix(in oklab, var(--bg) 70%, transparent) 100%); opacity: 0; transition: opacity 1.2s var(--ease-out); }
+.m3-stage.is-ready::after { opacity: 1; }
+.m3-label { position: absolute; left: 0; top: 0; font-family: var(--font-mono); font-size: 10.5px; letter-spacing: .06em; text-transform: uppercase; color: var(--ink); white-space: nowrap; opacity: 0; will-change: transform, opacity; padding-bottom: 6px;
+  text-shadow: 0 0 2px var(--surface), 0 0 6px var(--surface); transition: color var(--dur) var(--ease); }
+.m3-label::after { content: ""; position: absolute; left: 50%; bottom: 0; width: 4px; height: 4px; border-radius: 50%; background: var(--ink); transform: translateX(-50%); }
+.m3-label.is-hot { color: var(--accent-ink); font-weight: 500; }
+.m3-label.is-hot::after { background: var(--accent); box-shadow: 0 0 0 4px color-mix(in oklab, var(--accent) 25%, transparent); }
+.m3-tip { position: absolute; left: 16px; top: 16px; z-index: 5; width: 250px; padding: 14px 16px; background: color-mix(in oklab, var(--surface) 86%, transparent); backdrop-filter: blur(14px) saturate(140%); -webkit-backdrop-filter: blur(14px) saturate(140%); border: 1px solid color-mix(in oklab, var(--ink) 10%, transparent); border-radius: var(--radius); box-shadow: var(--shadow-pop); pointer-events: none;
+  opacity: 0; transform: translateY(6px); transition: opacity var(--dur) var(--ease), transform .3s var(--ease-out); }
+.m3-tip.is-on { opacity: 1; transform: none; }
+.m3-num { font-family: var(--font-serif); font-size: 22px; font-weight: 500; letter-spacing: -0.02em; line-height: 1; font-variant-numeric: tabular-nums; }
+.m3-toggle .map-btn.is-on { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+
+/* ---------- 12. Effect layer (home) ---------- */
+/* word reveal: server text stays readable without JS; with JS the words rise in once */
+html.js .display .w { display: inline-block; overflow: hidden; vertical-align: bottom; padding-bottom: .08em; margin-bottom: -.08em; }
+html.js .display .i { display: inline-block; transform: translateY(112%); transition: transform .9s var(--ease-out); transition-delay: calc(var(--i, 0) * 55ms + 80ms); }
+html.js.fx-in .display .i { transform: none; }
+/* pointer light over the opening */
+.hero-open.has-light::before { content: ""; position: absolute; inset: 0; pointer-events: none; z-index: 0;
+  background: radial-gradient(520px circle at var(--mx, 30%) var(--my, 30%), color-mix(in oklab, var(--accent) 9%, transparent), transparent 70%); }
+.hero-open > * { position: relative; z-index: 1; }
+/* spotlight cards */
+.spot { --x: 50%; --y: 50%; position: relative; }
+.spot::before { content: ""; position: absolute; inset: 0; border-radius: inherit; pointer-events: none; opacity: 0; transition: opacity .35s var(--ease); z-index: 0;
+  background: radial-gradient(260px circle at var(--x) var(--y), color-mix(in oklab, var(--accent) 7%, transparent), transparent 70%); }
+.spot > * { position: relative; z-index: 1; }
+@media (hover: hover) and (pointer: fine) { .spot:hover::before { opacity: 1; } }
+/* magnetic controls: transform is set from JS, this is the spring back */
+.mag { transition: transform .55s cubic-bezier(.22, 1, .36, 1), background var(--dur) var(--ease), color var(--dur) var(--ease), border-color var(--dur) var(--ease); will-change: transform; }
+/* search focus: conic glow border */
+@property --ga { syntax: "<angle>"; initial-value: 0deg; inherits: false; }
+.search-large { position: relative; }
+.search-large::before { content: ""; position: absolute; inset: -2px; border-radius: calc(var(--radius) + 2px); pointer-events: none; opacity: 0; transition: opacity .3s var(--ease); z-index: 0;
+  background: conic-gradient(from var(--ga), transparent 45%, var(--accent) 75%, color-mix(in oklab, var(--accent) 45%, #fff) 85%, transparent 100%); filter: blur(9px); }
+.search-large:focus-within::before { opacity: 1; animation: ga-spin 3.2s linear infinite; }
+@keyframes ga-spin { to { --ga: 360deg; } }
+.search-large > div { position: relative; z-index: 1; }
+/* chip sheen */
+@media (hover: hover) and (pointer: fine) {
+  .quick-chip { position: relative; overflow: hidden; }
+  .quick-chip::after { content: ""; position: absolute; top: 0; bottom: 0; left: -60%; width: 40%; background: linear-gradient(100deg, transparent, color-mix(in oklab, var(--accent) 10%, transparent), transparent); transform: skewX(-18deg); transition: left .6s var(--ease-out); }
+  .quick-chip:hover::after { left: 120%; }
+}
+/* category bars grow when they scroll into view where the browser supports scroll-driven animation */
+@supports (animation-timeline: view()) {
+  .bento-card .bar > i { animation: bar-grow 1s var(--ease-out) both; animation-timeline: view(); animation-range: entry 20% entry 80%; transition: none; }
+  @keyframes bar-grow { from { transform: scaleX(0); } to { transform: scaleX(var(--w, .5)); } }
+}
+@media (prefers-reduced-motion: reduce) {
+  html.js .display .i { transform: none; transition: none; }
+  .search-large:focus-within::before { animation: none; }
+  .bento-card .bar > i { animation: none; }
+}

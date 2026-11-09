@@ -126,3 +126,10 @@ Source: six Site-of-the-Day / nominee sites read as CSS (Clinia, Dwell, HoneyQuo
 | Reduced motion | one `prefers-reduced-motion: reduce` block kills every transition and animation | partial on the reference sites; we do it fully |
 
 Stylesheet layout: `globals.css` has one block per selector in ten numbered sections. New rules go into their section. Appending an override at the end of the file is a review failure.
+
+## 9. 3D map and the effect layer (2026-11-09)
+
+- `components/SerbiaMap3D.tsx`: the 25 districts extruded in Three.js from the same SVG paths as the 2D map. Height = √(share of institutions). Intro: districts rise west→east (42 ms stagger, expo-out 1.4 s) while the camera dollies in (2 s). Hover: raycast per frame, district lifts 2.2 units, top face tints toward cobalt, a normal-blended halo sits under it, the projected HTML label turns hot, the glass tooltip shows name/seat/counts. Click opens the district. No post-processing: additive bloom is invisible on paper and emissive clips to white under ACES, so the tint is done in material colour.
+- `components/MapStage.tsx`: 3D on ≥768 px with WebGL, else the SVG map; a 3D/2D toggle sits bottom-right so it never covers the SVG zoom buttons. `prefers-reduced-motion` renders the final state with no intro and no sway.
+- `components/HeroFX.tsx` (home only): word reveal on the H1 (CSS, class `fx-in`), count-up on `[data-count]`, pointer light on `.hero-open`, spotlight on `.spot` cards, magnetic `.btn-primary` / chips. Pointer effects run only under `(hover: hover) and (pointer: fine)` and never under reduced motion. One rAF write per pointer frame; no layout reads in loops.
+- Budget: Three.js is dynamically imported on the home page only (~160 KB gzip). Pixel ratio capped at 2; the loop pauses when the stage is off-screen or the tab is hidden.

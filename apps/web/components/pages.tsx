@@ -1,3 +1,4 @@
+import { Fragment } from "react";
 import Link from "next/link";
 import type { Locale } from "@/lib/i18n";
 import { t, href } from "@/lib/i18n";
@@ -5,6 +6,8 @@ import * as db from "@/lib/db";
 import { Breadcrumbs, Chip, VerificationChip, SectionTitle, AdSlot, SponsorCard } from "./ui";
 import SearchBox from "./SearchBox";
 import SerbiaMap, { type MapLabels } from "./SerbiaMap";
+import MapStage from "./MapStage";
+import HeroFX from "./HeroFX";
 import { Icon, GROUP_ICON } from "./icons";
 import { LeadForm, CorrectionBlock } from "./forms";
 import { GUIDE } from "@/lib/guide";
@@ -77,12 +80,13 @@ export async function Home({ locale }: { locale: Locale }) {
   const LANGS: { l: Locale; name: string; sub: string }[] = [{ l: "sr", name: "Srpski", sub: "latinica" }, { l: "en", name: "English", sub: "for residents and visitors" }, { l: "ru", name: "Русский", sub: "для жителей и гостей" }, { l: "de", name: "Deutsch", sub: "für Bewohner und Gäste" }];
   return (
     <main>
+      <HeroFX />
       {/* Opening */}
       <section className="hero-open border-b border-line">
         <div className="shell pt-10 pb-14 sm:pt-14 sm:pb-20 grid gap-10 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.05fr)] items-center">
           <div data-reveal>
             <div className="eyebrow mb-5">Republika Srbija · {d.siteName}</div>
-            <h1 className="display text-[40px] sm:text-[56px] xl:text-[64px] max-w-[14ch]">{d.tagline.split(":")[0]}.</h1>
+            <h1 className="display text-[40px] sm:text-[56px] xl:text-[64px] max-w-[14ch]" aria-label={`${d.tagline.split(":")[0]}.`}>{`${d.tagline.split(":")[0]}.`.split(" ").map((w, i, arr) => <Fragment key={i}><span className="w" aria-hidden><span className="i" style={{ "--i": i } as React.CSSProperties}>{w}</span></span>{i < arr.length - 1 ? " " : ""}</Fragment>)}</h1>
             <p className="lede text-muted mt-5 max-w-[48ch]">{d.tagline.includes(":") ? d.tagline.split(":")[1].trim().replace(/^./, (c) => c.toUpperCase()) : ""}</p>
             <div className="mt-8"><SearchBox locale={locale} large placeholder={d.searchPlaceholder} submitLabel={d.search} /></div>
             <div className="mt-4 flex flex-wrap items-center gap-2 text-[13px]">
@@ -91,14 +95,14 @@ export async function Home({ locale }: { locale: Locale }) {
             </div>
             <div className="stat-strip mt-9">
               {[{ n: stats.orgs, l: d.institutions }, { n: stats.jls, l: d.municipalities }, { n: stats.types, l: typesLabel }].map((x) => (
-                <div key={x.l}><div className="num">{x.n.toLocaleString("sr-Latn")}</div><div className="lbl">{x.l}</div></div>
+                <div key={x.l}><div className="num" data-count={x.n}>{x.n.toLocaleString("sr-Latn")}</div><div className="lbl">{x.l}</div></div>
               ))}
             </div>
           </div>
           <div data-reveal style={{ "--d": "120ms" } as React.CSSProperties}>
-            <SerbiaMap okruzi={okruzi.map((o) => ({ slug: o.slug, name_lat: o.name_lat, seat_name_lat: o.seat_name_lat, jls_count: o.jls_count, go_count: o.go_count, org_count: o.org_count }))}
-                       jls={allJls.map((j) => ({ slug: j.slug, name_lat: j.name_lat, okrug_slug: j.okrug_slug, org_count: j.org_count, jls_kind: j.jls_kind, level: j.level, parent_slug: j.parent_slug }))}
-                       locale={locale} labels={mapLabels} variant="light" height="hero" />
+            <MapStage okruzi={okruzi.map((o) => ({ slug: o.slug, name_lat: o.name_lat, seat_name_lat: o.seat_name_lat, jls_count: o.jls_count, go_count: o.go_count, org_count: o.org_count }))}
+                      jls={allJls.map((j) => ({ slug: j.slug, name_lat: j.name_lat, okrug_slug: j.okrug_slug, org_count: j.org_count, jls_kind: j.jls_kind, level: j.level, parent_slug: j.parent_slug }))}
+                      locale={locale} labels={mapLabels} />
           </div>
         </div>
       </section>
@@ -112,7 +116,7 @@ export async function Home({ locale }: { locale: Locale }) {
           </div>
           <div className="rail">
             {topGuides.map((g, i) => { const c = g.guide[locale] ?? g.guide.en ?? g.guide.sr ?? {}; return (
-              <Link key={g.id} href={href(locale, `/vodic/${g.slug}`)} className="guide-card no-underline text-ink" data-reveal style={{ "--d": `${i * 60}ms` } as React.CSSProperties}>
+              <Link key={g.id} href={href(locale, `/vodic/${g.slug}`)} className="guide-card spot no-underline text-ink" data-reveal style={{ "--d": `${i * 60}ms` } as React.CSSProperties}>
                 <span className="num" aria-hidden>{String(i + 1).padStart(2, "0")}</span>
                 <div className="eyebrow">{g.category_name}</div>
                 <div className="font-serif text-[22px] font-semibold leading-[1.15] mt-3 pr-14 tracking-[-0.01em]">{c.title ?? g.name_lat}</div>
@@ -134,7 +138,7 @@ export async function Home({ locale }: { locale: Locale }) {
           </div>
           <div className="bento">
             {byGroupAll.filter((x) => x.total > 0).map(({ g, types: ts, total }, i) => { const I = Icon[GROUP_ICON[g] ?? "landmark"]; return (
-              <div key={g} className="bento-card" data-reveal style={{ "--d": `${i * 60}ms` } as React.CSSProperties}>
+              <div key={g} className="bento-card spot" data-reveal style={{ "--d": `${i * 60}ms` } as React.CSSProperties}>
                 <div className="flex items-start justify-between gap-3">
                   <span className="icon-badge"><I /></span>
                   <div className="big">{total.toLocaleString("sr-Latn")}</div>
@@ -165,7 +169,7 @@ export async function Home({ locale }: { locale: Locale }) {
         <h2 className="display-sm max-w-[20ch]">{T.langsTitle}</h2>
         <p className="lede mt-3 max-w-[52ch]">{T.langsLead}</p>
         <div className="lang-tiles mt-8">
-          {LANGS.map((x) => <Link key={x.l} href={href(x.l, "/za-strance")} hrefLang={x.l} className="lang-tile"><span className="big">{x.name}</span><span className="text-muted text-[13px]">{x.sub}</span></Link>)}
+          {LANGS.map((x) => <Link key={x.l} href={href(x.l, "/za-strance")} hrefLang={x.l} className="lang-tile spot"><span className="big">{x.name}</span><span className="text-muted text-[13px]">{x.sub}</span></Link>)}
         </div>
       </div></section>
     </main>
