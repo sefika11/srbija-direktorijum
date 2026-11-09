@@ -433,7 +433,7 @@ export async function OrgTypeHub({ locale, type }: { locale: Locale; type: db.Or
             return (
               <section key={k}>
                 {list.length > 12 ? (
-                  <details className="card p-3.5"><summary className="cursor-pointer font-semibold text-[15px]">{k} <span className="text-muted tabular font-normal">({list.length})</span></summary><div className="mt-3">{body}</div></details>
+                  <details className="card p-3.5" open={keys.length === 1 || orgs.length <= 40}><summary className="cursor-pointer font-semibold text-[15px]">{k} <span className="text-muted tabular font-normal">({list.length})</span></summary><div className="mt-3">{body}</div></details>
                 ) : (<><SectionTitle>{k} <span className="text-muted font-normal text-[13px] tabular">{list.length}</span></SectionTitle>{body}</>)}
                 {i === 2 && <AdSlot code="jls_inline_1" w={336} h={280} label={d.ad} />}
               </section>
