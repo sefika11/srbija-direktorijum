@@ -138,10 +138,10 @@ h3 { letter-spacing: -0.005em; }
 .map-stage { border-radius: var(--radius); background: radial-gradient(120% 90% at 20% 0%, var(--accent-soft) 0%, var(--surface) 55%, var(--bg) 100%); box-shadow: none; }
 .foreigners-band { background: var(--accent-ink); color: #fff; box-shadow: none; border-radius: var(--radius); position: relative; overflow: hidden; }
 .foreigners-band::before { content: ""; position: absolute; left: 0; right: 0; top: 0; height: 4px; background: linear-gradient(90deg, var(--red) 0 33.33%, #fff 33.33% 66.66%, transparent 66.66% 100%); }
-.site-footer { background: var(--accent-ink); color: #cfdcec; }
+.site-footer { background: var(--accent-ink); color: #e6edf6; font-size: 14px; }
 .site-footer a { color: #fff; }
 .site-footer a:hover { color: #fff; text-decoration: underline; }
-.site-footer .eyebrow { color: #9db6d4; }
+.site-footer .eyebrow { color: #bcd0e8; }
 .site-footer .eyebrow::before { background: var(--red); }
 .rounded-2xl, .rounded-xl, .rounded-lg { border-radius: var(--radius) !important; }
 .rounded-full { border-radius: 999px !important; }
@@ -251,7 +251,7 @@ html.js [data-reveal].in { opacity: 1; transform: none; }
 .site-header.scrolled { box-shadow: 0 8px 30px -20px rgb(18 26 43 / .35); }
 
 /* Footer wordmark */
-.wordmark { font-family: var(--font-serif); font-weight: 600; letter-spacing: -0.04em; line-height: .9; font-size: clamp(44px, 8vw, 112px); color: rgb(255 255 255 / .08); user-select: none; }
+.wordmark { font-family: var(--font-serif); font-weight: 600; letter-spacing: -0.04em; line-height: .9; font-size: clamp(44px, 8vw, 112px); color: rgb(255 255 255 / .22); user-select: none; }
 
 /* Dark band text mapping for inner-page heroes */
 .hero-dark .text-ink, .hero-dark h1, .hero-dark h2 { color: #fff; }
@@ -269,3 +269,7 @@ html.js [data-reveal].in { opacity: 1; transform: none; }
 
 .hero-dark .card a.btn-primary, .hero-dark a.btn-primary { color: var(--navy-2); }
 .hero-dark .card a.btn-primary:hover { color: var(--navy-2); }
+
+.site-footer p, .site-footer li { color: #e6edf6; }
+.site-footer .opacity-80 { opacity: 1 !important; color: #cfdcec; }
+.site-footer a { text-decoration: underline; text-underline-offset: 3px; text-decoration-color: rgb(255 255 255 / .35); }

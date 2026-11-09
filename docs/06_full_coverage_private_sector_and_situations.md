@@ -69,3 +69,21 @@ for municipality cards.
 1. Domain + rename live (Day 6). 2. Police + fire + health full import (Day 7–8, haiku crawler). 3. Municipal
 departments crawl, top 30 cities (Day 8–9). 4. Private layer: banks, law offices, translators, driving schools
 (Day 9–10). 5. Situation wizard (Day 10). 6. Situation hub pages and remaining guides (Day 11+).
+
+## 7. Redesign brief v3 (Nick, 2026-11-10 evening)
+
+*"Re-do the website in the next set-up: more professional, less AI-generated, state-of-the-art. Different colours,
+a fresher, more modern approach. The bottom part needs much better visibility."*
+
+Direction for the next design pass (not started yet):
+- **Palette:** move off the dark navy/red-dominant scheme to a light, airy base (near-white with warm grey),
+  one vivid primary (electric blue or deep teal) for actions and data, one warm secondary used sparingly,
+  and the Serbian tricolour reduced to a single signature hairline. High contrast everywhere; no muddy translucency.
+- **Typography:** keep a serious serif for display, but larger, tighter, with generous whitespace; body text 16–17px.
+- **Layout:** fewer bands, more breathing room; hero without the dark wash, the map on a light canvas with
+  colour-coded districts; cards with real hierarchy (number, label, action), consistent 8-pt spacing.
+- **Footer:** solid, high-contrast (dark text on light or white text on a flat deep colour at ≥ 7:1), clear
+  four-column structure: product, guides by situation, data sources, legal; the giant wordmark either removed
+  or set at legible contrast.
+- **Motion:** keep reveals subtle; no decorative noise/grid overlays.
+- Immediate fix shipped now: footer text and link contrast raised; wordmark opacity raised.

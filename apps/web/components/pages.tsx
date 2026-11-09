@@ -9,7 +9,7 @@ import { Icon, GROUP_ICON } from "./icons";
 import { LeadForm, CorrectionBlock } from "./forms";
 import { GUIDE } from "@/lib/guide";
 
-const GROUPS: db.Group[] = ["lokalna_samouprava", "republicki_organi", "javne_ustanove", "javna_preduzeca", "pravosudje_i_javna_ovlascenja"];
+const GROUPS: db.Group[] = ["lokalna_samouprava", "republicki_organi", "javne_ustanove", "javna_preduzeca", "pravosudje_i_javna_ovlascenja", "privatne_usluge"];
 
 export function tuLabel(u: { level: string; jls_kind: string | null; name_lat: string; official_name_lat: string | null }) {
   return u.official_name_lat ?? u.name_lat;

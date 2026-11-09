@@ -6,7 +6,7 @@ export const sql =
   postgres(process.env.DATABASE_URL!, { max: 5, idle_timeout: 20, prepare: false, transform: { undefined: null } });
 if (process.env.NODE_ENV !== "production") globalForSql.sql = sql;
 
-export type Group = "republicki_organi" | "lokalna_samouprava" | "javna_preduzeca" | "javne_ustanove" | "pravosudje_i_javna_ovlascenja";
+export type Group = "republicki_organi" | "lokalna_samouprava" | "javna_preduzeca" | "javne_ustanove" | "pravosudje_i_javna_ovlascenja" | "privatne_usluge";
 
 export type TU = {
   id: number; slug: string; level: string; name_lat: string; name_cyr: string | null; official_name_lat: string | null;

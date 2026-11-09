@@ -24,7 +24,7 @@ const dict = {
     results: "Rezultati pretrage za", noResults: "Nema rezultata. Pokušajte drugi naziv ili grad.", page: "strana", founder: "Osnivač", registry: "Registarski podaci",
     becomePartner: "Oglašavanje i partnerstva", aboutSite: "O sajtu", terms: "Uslovi korišćenja", dataSources: "Izvori podataka", language: "Jezik",
     okrug: "Okrug", city: "Grad", municipality: "Opština", gradskaOpstina: "Gradska opština", seat: "Sedište", inPlace: "u", showAll: "Prikaži sve", showing: "Prikazano",
-    groups: { republicki_organi: "Republički organi", lokalna_samouprava: "Lokalna samouprava", javna_preduzeca: "Javna preduzeća", javne_ustanove: "Javne ustanove", pravosudje_i_javna_ovlascenja: "Pravosuđe i javna ovlašćenja" },
+    groups: { republicki_organi: "Republički organi", lokalna_samouprava: "Lokalna samouprava", javna_preduzeca: "Javna preduzeća", javne_ustanove: "Javne ustanove", pravosudje_i_javna_ovlascenja: "Pravosuđe i javna ovlašćenja", privatne_usluge: "Privatne usluge" },
   },
   en: {
     siteName: "Gde da idem?", tagline: "Every public institution in Serbia in one place: address, phone, opening hours, and which office serves your municipality.",
@@ -44,7 +44,7 @@ const dict = {
     results: "Search results for", noResults: "No results. Try another name or town.", page: "page", founder: "Founded by", registry: "Registry data",
     becomePartner: "Advertising and partnerships", aboutSite: "About", terms: "Terms of use", dataSources: "Data sources", language: "Language",
     okrug: "District", city: "City", municipality: "Municipality", gradskaOpstina: "City municipality", seat: "Seat", inPlace: "in", showAll: "Show all", showing: "Showing",
-    groups: { republicki_organi: "National bodies", lokalna_samouprava: "Local government", javna_preduzeca: "Public utilities and enterprises", javne_ustanove: "Public institutions", pravosudje_i_javna_ovlascenja: "Courts, notaries and enforcement" },
+    groups: { republicki_organi: "National bodies", lokalna_samouprava: "Local government", javna_preduzeca: "Public utilities and enterprises", javne_ustanove: "Public institutions", pravosudje_i_javna_ovlascenja: "Courts, notaries and enforcement", privatne_usluge: "Private services" },
   },
   ru: {
     siteName: "Gde da idem?", tagline: "Все государственные учреждения Сербии в одном месте: адрес, телефон, часы работы и какой орган отвечает за вашу общину.",
@@ -64,7 +64,7 @@ const dict = {
     results: "Результаты поиска по", noResults: "Ничего не найдено. Попробуйте другое название или город.", page: "страница", founder: "Учредитель", registry: "Регистрационные данные",
     becomePartner: "Реклама и партнёрство", aboutSite: "О сайте", terms: "Условия использования", dataSources: "Источники данных", language: "Язык",
     okrug: "Округ", city: "Город", municipality: "Община", gradskaOpstina: "Городская община", seat: "Центр", inPlace: "в", showAll: "Показать все", showing: "Показано",
-    groups: { republicki_organi: "Республиканские органы", lokalna_samouprava: "Местное самоуправление", javna_preduzeca: "Коммунальные и публичные предприятия", javne_ustanove: "Публичные учреждения", pravosudje_i_javna_ovlascenja: "Суды, нотариусы, исполнители" },
+    groups: { republicki_organi: "Республиканские органы", lokalna_samouprava: "Местное самоуправление", javna_preduzeca: "Коммунальные и публичные предприятия", javne_ustanove: "Публичные учреждения", pravosudje_i_javna_ovlascenja: "Суды, нотариусы, исполнители", privatne_usluge: "Частные услуги" },
   },
   de: {
     siteName: "Gde da idem?", tagline: "Alle öffentlichen Einrichtungen Serbiens an einem Ort: Adresse, Telefon, Öffnungszeiten und welche Stelle für Ihre Gemeinde zuständig ist.",
@@ -84,7 +84,7 @@ const dict = {
     results: "Suchergebnisse für", noResults: "Keine Treffer. Anderen Namen oder Ort versuchen.", page: "Seite", founder: "Träger", registry: "Registerdaten",
     becomePartner: "Werbung und Partnerschaften", aboutSite: "Über uns", terms: "Nutzungsbedingungen", dataSources: "Datenquellen", language: "Sprache",
     okrug: "Bezirk", city: "Stadt", municipality: "Gemeinde", gradskaOpstina: "Stadtgemeinde", seat: "Sitz", inPlace: "in", showAll: "Alle anzeigen", showing: "Angezeigt",
-    groups: { republicki_organi: "Staatliche Organe", lokalna_samouprava: "Kommunalverwaltung", javna_preduzeca: "Kommunale und öffentliche Unternehmen", javne_ustanove: "Öffentliche Einrichtungen", pravosudje_i_javna_ovlascenja: "Justiz, Notare, Vollstrecker" },
+    groups: { republicki_organi: "Staatliche Organe", lokalna_samouprava: "Kommunalverwaltung", javna_preduzeca: "Kommunale und öffentliche Unternehmen", javne_ustanove: "Öffentliche Einrichtungen", pravosudje_i_javna_ovlascenja: "Justiz, Notare, Vollstrecker", privatne_usluge: "Private Dienstleistungen" },
   },
 } as const;
 
