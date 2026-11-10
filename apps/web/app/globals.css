@@ -1389,3 +1389,8 @@ html:root .quick-chip.is-on .text-muted, html:root .quick-chip[aria-selected="tr
 .hsearch .sp { max-width: 720px; margin-inline: auto; }
 .hsearch .sp-panel { max-height: min(64vh, 560px); overflow: auto; }
 @media (prefers-reduced-motion: reduce) { .hsearch { animation: none; } }
+/* a search field never shows half a word: a long prompt ends in an ellipsis, and the shortcut hint yields first */
+.sp input[type="search"] { text-overflow: ellipsis; }
+.sp input[type="search"]::placeholder { text-overflow: ellipsis; }
+.sp:not(.sp-large) .sp-kbd { flex: none; } @container (max-width: 300px) { .sp-kbd { display: none; } }
+.sp-field { container-type: inline-size; }

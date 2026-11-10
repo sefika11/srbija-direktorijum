@@ -22,7 +22,7 @@ export function Header({ locale, path }: { locale: Locale; path: string }) {
         <Link href={href(locale, "/")} className="no-underline text-ink shrink-0" aria-label={d.siteName}>
           <Logo name={d.siteName} size={46} sub={P("Sve institucije Srbije", "Every institution in Serbia", "Все учреждения Сербии", "Alle Einrichtungen Serbiens")} />
         </Link>
-        {path !== "/" ? <div className="flex-1 min-w-[260px] hidden lg:flex justify-center"><SearchBox locale={locale} placeholder={d.searchPlaceholder} submitLabel={d.search} /></div> : <div className="flex-1" />}
+        {path !== "/" ? <div className="flex-1 min-w-[260px] hidden lg:flex justify-center"><SearchBox locale={locale} placeholder={P("Šta vam treba?", "What do you need?", "Что вам нужно?", "Was brauchen Sie?")} submitLabel={d.search} /></div> : <div className="flex-1" />}
         <nav className="flex items-center gap-2 sm:gap-3 text-[13.5px] ml-auto" aria-label={P("Glavna navigacija", "Main navigation", "Основная навигация", "Hauptnavigation")}>
           <Link href={href(locale, "/vodici")} className="no-underline text-ink hover:text-accent hidden sm:inline-flex items-center gap-1.5">{guides}</Link>
           <Link href={href(locale, "/putokaz")} className="no-underline text-ink hover:text-accent hidden sm:inline-flex items-center gap-1.5 whitespace-nowrap">{ROAD_LABELS[locale].nav}</Link>

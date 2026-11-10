@@ -16,6 +16,8 @@ export type Station = { id: string; kind: StationKind; label: string; n?: number
 export type JourneyOpts = { canvas: HTMLCanvasElement; host: HTMLElement; emblem: string; hue?: string; pin?: string | null; stations: Station[]; onReady?: (ms: number) => void; onActive?: (i: number) => void };
 
 const SPACING = 10.5, WOBBLE = 2.8, FRAME_MARGIN = 0.2;
+/** camera pull-back for every station (1 = the building fills the frame) and how fast it may follow the scroll */
+const WIDE = 0.7, FOLLOW = 2.6 /* 1/s: how quickly the gap to the target closes */, MAX_SPEED = 1.15 /* stations per second */;
 const { cyl, sphere, torus, grp, INK } = D;
 
 function pad(r: number) { return cyl(r, 0.12, "#eee9de", { seg: 48 }); }
@@ -23,7 +25,7 @@ function pad(r: number) { return cyl(r, 0.12, "#eee9de", { seg: 48 }); }
 export class JourneyEngine {
   private o: JourneyOpts; private renderer: THREE.WebGLRenderer; private scene = new THREE.Scene(); private camera = new THREE.OrthographicCamera(-1, 1, 1, -1, 0.1, 500);
   private points: THREE.Vector3[] = []; private halos: THREE.Mesh[] = []; private labels: HTMLDivElement[] = []; private labelPos: THREE.Vector3[] = []; private pinEl: HTMLDivElement | null = null; private pinPos: THREE.Vector3 | null = null;
-  private target = 0; private cur = 0; private active = -1; private px = 0; private py = 0; private hover = false; private tiltY = 0;
+  private last = 0; private target = 0; private cur = 0; private active = -1; private px = 0; private py = 0; private hover = false; private tiltY = 0;
   private raf = 0; private alive = true; private visible = true; private reduced = reducedMotion(); private aspect = 1; private frame0: { half: number; cx: number; cy: number }; private bounds: ReturnType<typeof projectedBounds>;
   private ro: ResizeObserver | null = null; private unwatch: (() => void) | null = null; private off: (() => void)[] = []; private tex: THREE.Texture[] = [];
   private props: (THREE.Group | null)[] = []; private heights: number[] = []; private zooms: number[] = []; private lifts: number[] = []; private sun: THREE.DirectionalLight | null = null; private sunOff = new THREE.Vector3();
@@ -90,7 +92,9 @@ export class JourneyEngine {
     const pb = this.bounds; const pr = (ext * sc) / 2 + 2.4; pb.minX = Math.min(pb.minX, -pr); pb.maxX = Math.max(pb.maxX, pr);
     this.frame0 = fitOrtho(this.camera, this.bounds, 1, FRAME_MARGIN); this.resize();
     // per-station close-up: the building keeps the full frame, every other station fills it with its own model
-    const near = 3.9; o.stations.forEach((s, i) => { const z = i === 0 || s.kind === "where" ? 1 : Math.max(1, this.frame0.half / near); this.zooms.push(z); this.lifts.push(z > 1 ? Math.max(-0.35, Math.min(1.7, this.heights[i] * 0.5 - 0.4)) : 0); });
+    // WIDE pulls the whole board back so a station sits in the middle with air around it and the next one in view;
+    // `near` is the half-height a close-up shows (larger = further away)
+    const near = 5.6; o.stations.forEach((s, i) => { const z = WIDE * (i === 0 || s.kind === "where" ? 1 : Math.max(1, this.frame0.half / near)); this.zooms.push(z); this.lifts.push(z > WIDE ? Math.max(-0.35, Math.min(1.7, this.heights[i] * 0.5 - 0.4)) : 0); });
     this.bind();
     this.ro = new ResizeObserver(() => this.resize()); this.ro.observe(o.host);
     this.unwatch = watchVisibility(o.host, (on) => { this.visible = on; if (on && !this.raf) this.raf = requestAnimationFrame(this.frame); });
@@ -127,7 +131,7 @@ export class JourneyEngine {
     // dwell: the camera stays on a station for the first half of its section and travels in the second half
     const gg = Math.max(0, (f - 0.5) / 0.5); const e = gg * gg * (3 - 2 * gg); const t = a.clone().lerp(b, e); const i2 = Math.min(this.points.length - 1, i + 1);
     // pull back a little while travelling between two stations, then settle in close
-    const zoom = (this.zooms[i] + (this.zooms[i2] - this.zooms[i]) * e) * (1 - 0.16 * Math.sin(Math.PI * e)); t.y += this.lifts[i] + (this.lifts[i2] - this.lifts[i]) * e;
+    const zoom = (this.zooms[i] + (this.zooms[i2] - this.zooms[i]) * e) * (1 - 0.06 * Math.sin(Math.PI * e)); t.y += this.lifts[i] + (this.lifts[i2] - this.lifts[i]) * e;
     if (Math.abs(this.camera.zoom - zoom) > 1e-4) { this.camera.zoom = zoom; this.camera.updateProjectionMatrix(); }
     if (this.sun) { this.sun.position.copy(t).add(this.sunOff); this.sun.target.position.copy(t); this.sun.target.updateMatrixWorld(); }
     // the model at the active station is alive: a slow turn and a small lift
@@ -143,7 +147,11 @@ export class JourneyEngine {
   private frame = (now: number) => {
     if (!this.alive) return; if (!this.visible) { this.raf = 0; return; }
     this.raf = requestAnimationFrame(this.frame);
-    this.cur += (this.target - this.cur) * (this.reduced ? 1 : 0.09); if (Math.abs(this.target - this.cur) < 0.0005) this.cur = this.target;
+    // a calm glide whatever the scroll does: ease towards the target, never faster than MAX_SPEED (frame-rate independent)
+    const dt = Math.min(0.05, Math.max(0.001, (now - (this.last || now)) / 1000)); this.last = now;
+    if (this.reduced) this.cur = this.target;
+    else { const gap = this.target - this.cur; const step = gap * (1 - Math.exp(-dt * FOLLOW)); const cap = MAX_SPEED * dt; this.cur += Math.max(-cap, Math.min(cap, step)); }
+    if (Math.abs(this.target - this.cur) < 0.0005) this.cur = this.target;
     this.render(now);
   };
 }
