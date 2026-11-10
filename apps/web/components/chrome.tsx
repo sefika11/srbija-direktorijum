@@ -23,7 +23,6 @@ export function Header({ locale, path }: { locale: Locale; path: string }) {
         <nav className="flex items-center gap-3 text-[13.5px] ml-auto">
           <Link href={href(locale, "/vodici")} className="no-underline text-ink hover:text-accent hidden sm:inline-flex items-center gap-1.5">{locale === "sr" ? "Vodiči" : locale === "en" ? "Guides" : locale === "ru" ? "Инструкции" : "Anleitungen"}</Link>
           <Link href={href(locale, "/za-strance")} className="no-underline text-ink hover:text-accent hidden md:inline-flex items-center gap-1.5 whitespace-nowrap"><Icon.globe />{d.forForeigners}</Link>
-          <Link href={href(locale, "/vize")} className="no-underline text-ink hover:text-accent hidden sm:inline-flex items-center gap-1.5 whitespace-nowrap">{locale === "sr" ? "Vize" : locale === "en" ? "Visas" : locale === "ru" ? "Визы" : "Visa"}</Link>
           <LanguageSwitch locale={locale} path={path} />
         </nav>
       </div>

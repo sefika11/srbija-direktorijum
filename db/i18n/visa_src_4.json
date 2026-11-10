@@ -1,0 +1,463 @@
+{
+ "countries": {
+  "ID": {
+   "name_sr": "Indonezija",
+   "name_en": "Indonesia",
+   "to_rs_stay": "do 30 dana u periodu od godinu dana",
+   "to_rs_conditions": "MSP (original): No visas required for visits of up to 30 days, within period of one year | Diplomatski i službeni pasoši (original): diplomatic and official passports: No visas required of up to 30 days",
+   "from_rs_requirements": [
+    "Napomena: Za nosioca putnog lista u tranzitu neophodna je viza osim ukoliko ne napušta međunarodnu zonu aerodroma",
+    "Viza se može pribaviti na aerodromu, po dolasku (takozvana Visa On Arrival)."
+   ],
+   "from_rs_instructions": {
+    "fee": "USD 35 visa on arrival (per MFA)",
+    "notes": "Details from MFA text; embassy page not independently fetched.",
+    "where": "Visa on Arrival at airport; Embassy of Indonesia in Belgrade page cited by MFA",
+    "validity": "30 days; extension only with local immigration approval",
+    "apply_url": "https://www.kemlu.go.id/belgrade/en/pages/kunjungan_saat_kedataangan/360/about-service",
+    "documents": [
+     "All Indonesia digital arrival card (3 days before arrival): https://allindonesia.imigrasi.go.id/",
+     "Health declaration https://sshp.kemkes.go.id",
+     "Bali levy IDR 150,000 for foreigners"
+    ],
+    "processing": null,
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/indonezija",
+    "appointment_url": null
+   }
+  },
+  "IE": {
+   "name_sr": "Irska",
+   "name_en": "Ireland",
+   "to_rs_stay": "do 90 dana u periodu od 6 meseci (od datuma prvog ulaska)",
+   "to_rs_conditions": "MSP (original): No visas required for visits of up to 90 days in a 6 months period starting from the date of the first entry | Obični pasoši, napomene MSP: * ID card can also be used to travel to Serbia | Diplomatski i službeni pasoši (original): diplomatic and official passports: No visas required for visits of up to 90 days",
+   "from_rs_requirements": [
+    "Napomena: Za nosioca putnog lista u tranzitu neophodna je viza"
+   ],
+   "from_rs_instructions": {
+    "fee": "Single entry EUR 60; multiple entry EUR 100; transit EUR 25 (non-refundable; extra service charges may apply)",
+    "notes": "Apply from home country, ideally 3 months before travel; do not buy tickets before approval. Original documents only, certified translation if not in English or Irish. Ireland does not issue e-visas. Valid UK short-stay visa may be usable under the Short Stay Visa Waiver Programme for approved nationalities.",
+    "where": "Apply online via AVATS (irishimmigration.ie); documents submitted to the application office stated on the summary form (VFS Global visa centre Belgrade)",
+    "validity": "Short stay 'C' visa: up to 90 days",
+    "apply_url": "https://visa.vfsglobal.com/srb/en/irl/apply-visa",
+    "documents": [
+     "Passport",
+     "Passport photographs",
+     "Medical or travel insurance",
+     "Application letter (reason for visit, dates, accommodation, who pays)",
+     "Signed AVATS application summary sheets",
+     "Invitation letter (if visiting family/friends)",
+     "Holiday or vacation plan",
+     "Proof of visa fee payment",
+     "Finance plan / proof of funds",
+     "Evidence of obligations to return home (employment, family, property)",
+     "Details of any previous visa refusals"
+    ],
+    "processing": "About 8 weeks from receipt of application",
+    "source_url": "https://www.irishimmigration.ie/how-to-apply-for-a-short-stay-c-visit-tourist-visa/",
+    "appointment_url": null
+   }
+  },
+  "IL": {
+   "name_sr": "Izrael",
+   "name_en": "Israel",
+   "to_rs_stay": "do 90 dana u periodu od 6 meseci (od datuma prvog ulaska)",
+   "to_rs_conditions": "MSP (original): No visas required for visits of up to 90 days in a 6 months period starting from the date of the first entry | Obični pasoši, napomene MSP: For holders of the Travel Document in Lieu of National Passport: No visas required for visits of up to 90 days For holders of the Travel Document: Visa required | Diplomatski i službeni pasoši (original): diplomatic and official passports: No visas required for visits of up to 90 days",
+   "from_rs_stay": "do 90 dana",
+   "from_rs_passport": "Rok važenja pasoša radi turističkog putovanja mora biti šest meseci od datuma ulaska u zemlju, dok je za regulisanje boravka potrebno da bude šest meseci duži od datuma isticanja vize.",
+   "from_rs_requirements": [
+    "Napomena: Za nosioca putnog lista u tranzitu neophodna je viza",
+    "Od 1. januara 2025. godine strani državljani su u obavezi da pre putovanja dobiju „ETA-IL approval“ - elektronsko odobrenje putovanja - ETA-IL (Electronic Travel Authorization) apliciranjem putem linka: https://israel-entry.piba.gov.il/.",
+    "Prijave je moguće podneti u bilo koje vreme pre putovanja u Izrael, ali uz preporuku da se zahtevi za odobrenje putovanja podnesu najkasnije 72 sata pre bilo kakve rezervacije avionskih karata, hotelskih soba i drugih sličnih troškova koji su povezani sa planiranim putovanjem u Izrael.",
+    "Državljani Izraela ili nosioci izraelskog matičnog broja ne moraju da se prijavljuju putem ETA-IL.",
+    "Nosioci diplomatskog i službenog pasoša Republike Srbije oslobođeni su obaveze apliciranja za elektronsko odobrenje putovanja."
+   ],
+   "from_rs_instructions": {
+    "fee": "NIS 25 (about EUR 6.75) per MFA",
+    "notes": "Regime eta since 1 Jan 2025. Serbian diplomatic/official passport holders exempt. MFA warns of rigorous border questioning.",
+    "where": "ETA-IL online (Israel Population and Immigration Authority)",
+    "validity": "Approval valid 2 years; stay up to 90 days per visit",
+    "apply_url": "https://israel-entry.piba.gov.il/",
+    "documents": [
+     "Passport details, online form, payment"
+    ],
+    "processing": "Not stated; submit at least 72 h before booking costs (MFA recommendation)",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/izrael",
+    "appointment_url": null
+   }
+  },
+  "IN": {
+   "name_sr": "Indija",
+   "name_en": "India",
+   "to_rs_conditions": "MSP (original): Visas required | Diplomatski i službeni pasoši (original): diplomatic and official passports: No visas required for visits of up to 90 days",
+   "from_rs_requirements": [
+    "Napomena: Za nosioca putnog lista u tranzitu viza nije neophodna ukoliko ne napušta međunarodnu zonu tranzitnog aerodroma u Indiji. U svim drugim slučajevima je neophodna",
+    "Za ulazak u Indiju nije potrebno posedovati polisu zdravstvenog osiguranja, niti dokaz o vakcinaciji, izuzev ako državljani R. Srbije u Indiju dolaze iz zemalja Afrike i Latinske Amerike koje ulaze u tzv. endemičnu zonu žute groznice, kada je potrebno posedovanje tzv. „žutog kartona\" odnosno potvrde",
+    "Unošenje kućnih ljubimaca (psi, mačke, ptice i sl.) je dozvoljeno putnicima koji se sele/vraćaju u Indiju nakon dve godine neprekidnog boravka u inostranstvu, pri čemu je moguće uneti najviše dve životinje po putniku, uz posedovanje odgovarajuće veterinarskog sertifikata o primljenim vakcinama, koji"
+   ],
+   "from_rs_instructions": {
+    "fee": "Country-specific fee table is in a PDF on the portal (Etourist_fee_final.pdf); 3% bank charge on top; non-refundable",
+    "notes": "MFA states e-visa since 2016, no visa on arrival for Serbians. Embassy Belgrade pages (eoibelgrade.gov.in) hold consular details; the e-visa page text was not parsed for fees.",
+    "where": "Online e-Visa portal (Serbia is on the eligible list); regular visa via Embassy of India in Belgrade",
+    "validity": "e-Tourist visa: 30 days (multiple entry), 1 year or 5 years (max 180 days per calendar year per stay); e-T2 6 months",
+    "apply_url": "https://indianvisaonline.gov.in/evisa/",
+    "documents": [
+     "Passport bio-page scan: PDF 10-300 KB; passport valid at least 6 months with 2 blank pages",
+     "Photo: JPEG 10 KB-1 MB, square, white background, no glasses",
+     "Return/onward ticket and sufficient funds",
+     "Short courses/voluntary work: letter from organisation on letterhead"
+    ],
+    "processing": "Email within 24 h if a document needs re-upload; decision time not stated on portal; apply at least 4 days before arrival (up to 120 days ahead)",
+    "source_url": "https://indianvisaonline.gov.in/evisa/tvoa.html",
+    "appointment_url": "https://eoibelgrade.gov.in/eoibl_pages/NTUx"
+   }
+  },
+  "IQ": {
+   "name_sr": "Irak",
+   "name_en": "Iraq",
+   "to_rs_conditions": "MSP (original): Visas required | Diplomatski i službeni pasoši (original): diplomatic and official passports: No visas required for visits of up to 90 days",
+   "from_rs_passport": "Prilikom dolaska u R. Irak i napuštanja teritorije te zemlje pasoš mora biti važeći najmanje šest meseci.",
+   "from_rs_requirements": [
+    "Napomena: Za nosioca putnog lista u tranzitu neophodna je viza",
+    "Po dolasku u R. Irak potrebno je izvršiti prijavu u Odeljenju za boravak i strance MUP R. Irak u naselju Karada (nedaleko od Narodnog pozorišta) u roku od sedam dana."
+   ],
+   "from_rs_instructions": {
+    "fee": "USD 50 single entry; USD 100 multiple entry (per MFA)",
+    "notes": "Registration with Iraqi MoI within 7 days of arrival; stays over 10 days need police residence stamp.",
+    "where": "Embassy of Iraq in Belgrade",
+    "validity": null,
+    "apply_url": null,
+    "documents": [
+     "Passport valid 6 months at arrival and departure"
+    ],
+    "processing": null,
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/irak",
+    "appointment_url": null
+   }
+  },
+  "IR": {
+   "name_sr": "Iran",
+   "name_en": "Iran",
+   "to_rs_conditions": "MSP (original): Visa required | Diplomatski i službeni pasoši (original): diplomatic and official passports: No visas required for visits of up to 30 days",
+   "from_rs_stay": "do 15 dana",
+   "from_rs_requirements": [
+    "Napomena:*Viza je potrebna za putovanje u ostale svrhe. Za nosioca putnog lista u tranzitu neophodna je viza",
+    "Preporučuje se posedovanje polise putnog zdravstvenog osiguranja.",
+    "Ukoliko putnik dolazi iz područja zaraženog žutom groznicom, neophodno imati potvrdu o vakcinaciji, tzv. „žuti karton\".",
+    "Ne postoji obaveza posedovanja određene količine finansijskih sredstava po danu boravka.",
+    "Dozvoljen je unos kućnih ljubimaca, osim pasa, uz posedovanje Međunarodne veterinarske potvrde, sa navedenim primljenim vakcinama.",
+    "Kućni ljubimac mora biti vakcinisan protiv besnila, najmanje 30 dana pre dolaska u Iran."
+   ]
+  },
+  "IS": {
+   "name_sr": "Island",
+   "name_en": "Iceland",
+   "to_rs_stay": "do 90 dana u periodu od 6 meseci (od datuma prvog ulaska)",
+   "to_rs_conditions": "MSP (original): No visas required for visits of up to 90 days in a 6 months period starting from the date of the first entry | Obični pasoši, napomene MSP: * ID card can also be used to travel to Serbia | Diplomatski i službeni pasoši (original): diplomatic and official passports: No visas required for visits of up to 90 days",
+   "from_rs_stay": "do 90 dana u periodu od 180 dana",
+   "from_rs_requirements": [
+    "Nosiocima biometrijskih pasoša R. Srbije nije potrebna viza za boravak do 90 dana u periodu od 180 dana."
+   ]
+  },
+  "IT": {
+   "name_sr": "Italija",
+   "name_en": "Italy",
+   "to_rs_stay": "do 90 dana u periodu od 6 meseci (od datuma prvog ulaska)",
+   "to_rs_conditions": "MSP (original): No visas required for visits of up to 90 days in a 6 months period starting from the date of the first entry | Obični pasoši, napomene MSP: * ID card can also be used to travel to Serbia | Diplomatski i službeni pasoši (original): diplomatic and official passports: No visas required for visits of up to 90 days",
+   "from_rs_stay": "do 90 dana u periodu od 180 dana",
+   "from_rs_passport": "Državljani Republike Srbije u Republiku Italiju mogu da uđu ukoliko poseduju biometrijsku putnu ispravu, koja važi najmanje tri meseca nakon planiranog datuma za napuštanje teritorije Italije.",
+   "from_rs_requirements": [
+    "Osim putne isprave, pogranični organi mogu da zatraže na uvid i dodatna dokumenta kao što su povratna karta, rezervacija hotela ili pozivno pismo i dokaz o posedovanju dovoljnog iznosa finansijskih sredstava za planirani boravak na teritoriji Republike Italije."
+   ]
+  },
+  "JM": {
+   "name_sr": "Jamajka",
+   "name_en": "Jamaica",
+   "to_rs_stay": "do 30 dana u periodu od godinu dana",
+   "to_rs_conditions": "MSP (original): No visas required for visits of up to 30 days, within period of one year. | Diplomatski i službeni pasoši (original): diplomatic and official passports: No visas required for visits of up to 30 days, within period of one year.",
+   "from_rs_passport": "Rok važenja pasoša radi turističkog putovanja mora biti 6 meseci nakon isteka vize, što važi i za regulisanje boravka.",
+   "from_rs_requirements": [
+    "Napomena: Za nosioca putnog lista u tranzitu neophodna je viza",
+    "Za ulazak na Jamajku državljanima R. Srbije potrebna je viza, koja se može pribaviti u Konzulatu Jamajke u Beogradu, ul. Dobračina br. 60, 11000 Beograd, tel. +381 11 334 0338, faks. +381 11 334 0488, i-mejl: srbija@jamaicanconsulate.rs ili na ulasku u zemlju uz dokaz o posedovanju dovoljno sredstav",
+    "Državljani R. Srbije koji poseduju važeću vizu SAD, Kanade, Velike Britanije i država Šengena mogu da uđu i borave do 30 dana na Jamajci bez vize, uz potvrdu o vakcinaciji protiv malih boginja, rubeola i polia.",
+    "Pre putovanja, neophodno je prijaviti se na sledećem sajtu: https://www.jacustoms.gov.jm/article/electronic-c5"
+   ],
+   "from_rs_instructions": {
+    "fee": null,
+    "notes": "Holders of valid US, Canadian, UK or Schengen visa may enter and stay up to 30 days without a visa, with vaccination certificate (per MFA).",
+    "where": "Consulate of Jamaica, Dobracina 60, 11000 Belgrade, tel +381 11 334 0338, srbija@jamaicanconsulate.rs; or on arrival with proof of funds",
+    "validity": null,
+    "apply_url": null,
+    "documents": [
+     "Passport valid 6 months after visa expiry",
+     "Proof of funds (USD 50 per day)",
+     "Return or onward ticket"
+    ],
+    "processing": null,
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/jamajka",
+    "appointment_url": null
+   }
+  },
+  "JO": {
+   "name_sr": "Jordan",
+   "name_en": "Jordan",
+   "to_rs_conditions": "MSP (original): Visas required | Diplomatski i službeni pasoši (original): diplomatic and official passports: No visas required for visits up to 90 days within period of 180 days",
+   "from_rs_passport": "Rok važenja pasoša radi turističkog putovanja mora biti minimum 6 meseci od vremena ulaska u državu.",
+   "from_rs_requirements": [
+    "Napomena: Za nosioca putnog lista u tranzitu neophodna je viza"
+   ],
+   "from_rs_instructions": {
+    "fee": null,
+    "notes": "Additional info https://international.visitjordan.com/page/4/visas-to-jordan",
+    "where": "Jordanian embassies or at border; Jordan Gateway portal",
+    "validity": null,
+    "apply_url": "https://www.gateway2jordan.gov.jo/index.html",
+    "documents": [
+     "Passport valid 6 months from entry"
+    ],
+    "processing": null,
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/jordan",
+    "appointment_url": null
+   }
+  },
+  "JP": {
+   "name_sr": "Japan",
+   "name_en": "Japan",
+   "to_rs_stay": "do 90 dana u periodu od 6 meseci (od datuma prvog ulaska)",
+   "to_rs_conditions": "MSP (original): No visas required for visits of up to 90 days in a 6 months period starting from the date of the first entry | Diplomatski i službeni pasoši (original): diplomatic and official passports: No visas required for visits of up to 90 days",
+   "from_rs_stay": "do 90 dana u periodu od 6 meseci (od datuma prvog ulaska)",
+   "from_rs_requirements": [
+    "Napomena: Za nosioca putnog lista u tranzitu neophodna je viza",
+    "Od 1. maja 2011. godine državljanima R. Srbije, nosiocima biometrijskih pasoša, nije potrebna viza za ulazak i boravak u Japanu do 90 dana.",
+    "Svi strani državljani dužni su da pre ulaska u Japan (najčešće već u avionu) popune imigracioni formular u kome je potrebno navesti osnovne podatke o putniku, broju leta i destinaciji iz koje se putuje u Japan.",
+    "Posedovanje polise zdravstvenog osiguranja nije obavezno, kao ni potvrde o vakcinaciji.",
+    "Ne postoji ograničenje na iznos novčanih sredstava koja se unose i iznose iz Japana, ali se suma koja odgovara iznosu preko 1.000.000 u japanskim jenima mora prijaviti nadležnim organima na graničnom prelazu."
+   ]
+  },
+  "KE": {
+   "name_sr": "Kenija",
+   "name_en": "Kenya",
+   "to_rs_conditions": "MSP (original): Visas required | Diplomatski i službeni pasoši (original): diplomatic and official passports: Visas required",
+   "from_rs_passport": "Rok važenja pasoša radi turističkog putovanja mora biti najmanje 6 meseci i u pasošu mora postojati bar jedna prazna stranica, što važi i za regulisanje boravka.",
+   "from_rs_requirements": [
+    "Napomena: Svi putnici koji dolaze u Keniju su u obavezi da prethodno pribave elektronsko odobrenje za putovanje - „Electronic Travel Authorization“ (ETA). Sistemu za elektronsko odobrenje putovanja pristupa se putem digitalne platforme www.etakenya.go.ke",
+    "Državljanima R. Srbije nije potrebna je viza za ulazak u Keniju, s tim da su svi putnici koji dolaze u Keniju u obavezi da pribave elektronsko odobrenje za putovanje „Electronic Travel Authorization“ (ETA).",
+    "Sistemu za elektronsko odobrenje putovanja pristupa se putem digitalne platforme www.etakenya.go.ke.",
+    "Preporučuje se da se putnici prijave čim rezervišu smeštaj i karte za prevoz.",
+    "Republika Kenija je 05.10.2026. godine uvela obavezu posedovanja putnog zdravstvenog osiguranja koja se odnosi na sva lica koja nisu državljani Kenije, uključujući i maloletna lica, koja ulaze u Keniju sa namerom boravka kraćim od 12 meseci.",
+    "Obavezno putno zdravstveno osiguranje može se kupiti isključivo preko eTA aplikacije na internet stranici www.etakenya.go.ke ili www.insurance.ecitizen.go.ke.",
+    "Putno zdravstveno osiguranje se izdaje na 90 dana i može se koristiti za više ulazaka u periodu važenja."
+   ],
+   "from_rs_instructions": {
+    "fee": "Not stated on pages retrieved",
+    "notes": "Regime eta: no visa, ETA mandatory. Official portal home page gives no fee/validity text.",
+    "where": "Electronic Travel Authorization portal",
+    "validity": null,
+    "apply_url": "https://www.etakenya.go.ke",
+    "documents": [
+     "Passport valid 6+ months with 1 blank page",
+     "Mandatory Kenyan travel health insurance since 5 Oct 2026 (90 days, bought only via eTA app or www.insurance.ecitizen.go.ke; foreign insurance not accepted)"
+    ],
+    "processing": "Apply at least 3 days before travel (up to 3 months ahead)",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/kenija-republika",
+    "appointment_url": null
+   }
+  },
+  "KG": {
+   "name_sr": "Kirgiska Republika",
+   "name_en": "Kyrgyzstan",
+   "to_rs_stay": "do 90 dana u periodu od 6 meseci (od datuma prvog ulaska)",
+   "to_rs_conditions": "MSP (original): No visas required for visits of up to 90 days in a 6 months period starting from the date of the first entry | Diplomatski i službeni pasoši (original): diplomatic and official passports: No visas required of up to 90 days",
+   "from_rs_stay": "do 90 dana u periodu od 6 meseci",
+   "from_rs_requirements": [
+    "Napomena: Za nosioca putnog lista u tranzitu nije neophodna viza"
+   ]
+  },
+  "KH": {
+   "name_sr": "Kambodža",
+   "name_en": "Cambodia",
+   "to_rs_conditions": "MSP (original): Visas required | Diplomatski i službeni pasoši (original): diplomatic and official passports: Viza nije potrebna za boravak do 30 dana od datuma ulaska",
+   "from_rs_instructions": {
+    "fee": null,
+    "notes": "e-Visa accepted at Techo, Siem Reap-Angkor and Sihanoukville airports and Bavet and Tropaeng Kreal land borders; Cham Yeam and Poipet temporarily closed for e-visa. Cambodia e-Arrival form required within 7 days before arrival even for visa holders.",
+    "where": "Cambodia e-visa portal",
+    "validity": "See visa type (T, E, A, B, C)",
+    "apply_url": "https://www.evisa.gov.kh/",
+    "documents": [],
+    "processing": "Approval within 3 business days",
+    "source_url": "https://www.evisa.gov.kh/",
+    "appointment_url": null
+   }
+  },
+  "KI": {
+   "name_sr": "Kiribati",
+   "name_en": "Kiribati",
+   "to_rs_conditions": "MSP (original): Visas required | Diplomatski i službeni pasoši (original): diplomatic and official passports: Visas required",
+   "instructions_note": "MFA page empty; regime flag absent."
+  },
+  "KM": {
+   "name_sr": "Unija Komora",
+   "name_en": "Comoros",
+   "to_rs_conditions": "MSP (original): Visas required | Diplomatski i službeni pasoši (original): diplomatic and official passports: Visas required",
+   "from_rs_requirements": [
+    "Napomena: Za nosioca putnog lista u tranzitu nije neophodna viza ukoliko ne napušta međunarodnu zonu aerodroma"
+   ],
+   "from_rs_instructions": {
+    "fee": null,
+    "notes": "Document list and fee not published on the MFA page; the foreign state's own visa page was not retrieved in this pass. MFA only names the competent mission.",
+    "where": "Embassy of Comoros in Paris",
+    "validity": null,
+    "apply_url": null,
+    "documents": [],
+    "processing": null,
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/unija-komora",
+    "appointment_url": null
+   }
+  },
+  "KN": {
+   "name_sr": "Sent Kits i Nevis",
+   "name_en": "Saint Kitts and Nevis",
+   "to_rs_stay": "do 90 dana u periodu od 6 meseci (od datuma prvog ulaska)",
+   "to_rs_conditions": "MSP (original): No visas required for visits of up to 90 days in a 6 months period starting from the date of the first entry | Diplomatski i službeni pasoši (original): diplomatic and official passports: No visas required for visits of up to 90 days in a 6 months period starting from the date of the first entry",
+   "from_rs_stay": "do 90 dana u periodu od 180 dana"
+  },
+  "KP": {
+   "name_sr": "Koreja, DNR",
+   "name_en": "North Korea",
+   "to_rs_conditions": "MSP (original): Visas required | Diplomatski i službeni pasoši (original): Koreja, DNR Države Bilateralni odnosi Ambasade i konzulati Vize i saveti za putovanja Vize i saveti za putovanja diplomatic and official passports: No visas required for visits of up to 90 days",
+   "from_rs_requirements": [
+    "Napomena: Za nosioca putnog lista u tranzitu neophodna je viza osim ukoliko ne napušta međunarodnu zonu tranzitnog aerodroma a u njoj može boraviti najduže 24 časa"
+   ],
+   "instructions_note": "MFA: borders closed to foreigners since the pandemic."
+  },
+  "KR": {
+   "name_sr": "Koreja, Republika",
+   "name_en": "South Korea",
+   "to_rs_stay": "do 90 dana",
+   "to_rs_conditions": "MSP (original): No visas required for visits of up to 90 days | Diplomatski i službeni pasoši (original): diplomatic and official passports: No visas required for visits of up to 90 days",
+   "from_rs_stay": "do 90 dana",
+   "from_rs_requirements": [
+    "Napomena: Za nosioca putnog lista u tranzitu nije neophodna viza",
+    "Državljani R. Srbije mogu da putuju u R. Koreju bez vize u periodu do 90 dana, ali pre putovanja obavezno moraju da se prijave za elektronsku dozvolu putovanja u R. Koreju (K-ETA, Korea Electronic Travel Authorization) preko linka www.k-eta.go.kr (dostupna je i mobilna aplikacija K-ETA).",
+    "Obrada autorizacije se naplaćuje oko 7,5 evra, a K-ETA važi tri godine.",
+    "Napominjemo da bez prethodnog pribavljanja K-ETA, ukrcavanje na let ka R. Koreji, kao ni ulazak u R. Koreju nisu mogući.",
+    "Putnici mlađi od 17 godina i stariji od 65 godina (na datum planiranog ulaska u R. Koreju), izuzeti su od obaveze da pribavljanja K-ETA, kao i nosioci diplomatskih i službenih pasoša R.Srbije.",
+    "Dodatno, građani R.Srbije nisu u obavezi da se prijave za elektronski karton za ulazak u R.Koreju (e-Arrival Card), ukoliko poseduju validnu K-ETA dozvolu za ulazak u zemlju."
+   ],
+   "from_rs_instructions": {
+    "fee": "KRW 10,000 (about USD 7-8); MFA: about EUR 7.5",
+    "notes": "Regime is eta: visa-free but K-ETA mandatory before boarding. Exempt per MFA: under 17 and over 65 at entry date, holders of Serbian diplomatic/official passports. Beware fake agencies (K-ETA warning).",
+    "where": "K-ETA online (no visa for up to 90 days)",
+    "validity": "Valid 3 years (per MFA); stay up to 90 days",
+    "apply_url": "https://www.k-eta.go.kr",
+    "documents": [
+     "Passport details, application details, facial photo",
+     "Online payment"
+    ],
+    "processing": "Generally within 72 hours; apply at least 72 h before travel",
+    "source_url": "https://www.k-eta.go.kr/portal/guidanceeng/index.do",
+    "appointment_url": null
+   }
+  },
+  "KW": {
+   "name_sr": "Kuvajt",
+   "name_en": "Kuwait",
+   "to_rs_conditions": "MSP (original): Visas required | Diplomatski i službeni pasoši (original): diplomatic and official passports: No visas required for visits of up to 90 days",
+   "from_rs_passport": "Rok važenja pasoša radi turističkog putovanja mora biti najmanje godinu dana, što važi i za regulisanje boravka.",
+   "from_rs_requirements": [
+    "Napomena: Za nosioca putnog lista u tranzitu neophodna je viza",
+    "Našim državljanima je potrebna viza za ulazak u Kuvajt, ali ne mogu podneti zahtev za eVizu niti vizu mogu dobiti na dolasku (Visa on Arrival).",
+    "Ne postoji obaveza vakcinacije, a ni posedovanje polise zdravstvenog osiguranja nije obavezno.",
+    "Kućni ljubimci se mogu uneti uz posedovanje potvrde o zdravstvenom stanju životinje i vakcinaciji protiv besnila."
+   ],
+   "from_rs_instructions": {
+    "fee": null,
+    "notes": "Visa holder may not work. The Serbian MFA states that neither an e-visa nor visa on arrival is available to Serbian citizens - confirm on the portal's nationality selector before applying. Fee not published on public pages.",
+    "where": "Kuwait Ministry of Interior e-visa portal (tourist visa); eligibility of Serbian nationality must be checked by selecting the nationality on the portal",
+    "validity": "Entry permit valid 30 days from issuance; stay up to 90 days from entry; single entry (tourist)",
+    "apply_url": "https://kuwaitvisa.moi.gov.kw/",
+    "documents": [
+     "Passport valid at least 6 months"
+    ],
+    "processing": null,
+    "source_url": "https://kuwaitvisa.moi.gov.kw/",
+    "appointment_url": null
+   }
+  },
+  "KZ": {
+   "name_sr": "Kazahstan",
+   "name_en": "Kazakhstan",
+   "to_rs_stay": "do 30 dana",
+   "to_rs_conditions": "MSP (original): No visas required for visits of up to 30 days | Diplomatski i službeni pasoši (original): diplomatic and official passports: No visas required for visits of up to 30 days",
+   "from_rs_stay": "do 30 dana",
+   "from_rs_requirements": [
+    "Od 10. oktobra 2026. godine u Kazahstanu su izvršene izmene Uredbe Vlade Republike Kazahstan od 21. januara 2012. godine br. 148 „O odobravanju pravila za ulazak imigranata u Republiku Kazahstan i njihov boravak u njoj, kao i njihov odlazak iz Republike Kazahstan“ i izdato je obaveštenje u vezi sa p",
+    "Faze uvođenja • Od 1. novembra 2026. godine – međunarodni aerodrom Aktau, drumski granični prelazi „Urljutobe“ (Pavlodarska oblast), „Auhati“ (Žambilska oblast), „Atameken“ (Turkestanska oblast) i „Nurli Žol“ (oblast Žetisu).",
+    "• Od 1. jula 2027. godine – posedovanje elektronske dozvole postaje obavezno; njeno neposedovanje predstavljaće osnov za odbijanje ulaska u zemlju.",
+    "Elektronska dozvola može se poništiti u sledećim slučajevima: • postojanje osnova utvrđenih članom 48."
+   ]
+  },
+  "LA": {
+   "name_sr": "Laos",
+   "name_en": "Laos",
+   "to_rs_conditions": "MSP (original): Visas required | Diplomatski i službeni pasoši (original): diplomatic and official passports: No visas required for visits of up to 30 days",
+   "from_rs_requirements": [
+    "Državljanima R.Srbije, nosiocima običnih pasoša, potrebna je viza, koja se može dobiti ili u diplomatsko-konzularnom predstavništvu Laosa, ili pri dolasku (visa on arrival) na međunarodnom aerodromu Vataj (Wattay) u Vijentijau i na „Laosko-tajlandskom mostu prijateljstva 1“ (Lao-Thai Friendship Brid",
+    "Osim pribavljanja vize, putnici su u obavezi da digitalno prijave dolazak i odlazak na četiri međunarodna prelaza (Wattay International Airport, Luang Prabang International Airport, Pakse International Airport, Lao-Thai Friendship Bridge 1), tj. da popune Digitalni imigracioni formular Laosa (Laos D"
+   ],
+   "from_rs_instructions": {
+    "fee": null,
+    "notes": null,
+    "where": "Lao e-visa portal, Laos embassies, or visa on arrival at Wattay airport / Lao-Thai Friendship Bridge 1",
+    "validity": null,
+    "apply_url": "http://laoevisa.gov.la",
+    "documents": [
+     "Laos Digital Immigration Form at www.immigration.gov.la"
+    ],
+    "processing": null,
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/laos",
+    "appointment_url": null
+   }
+  },
+  "LB": {
+   "name_sr": "Liban",
+   "name_en": "Lebanon",
+   "to_rs_conditions": "MSP (original): Visas required | Diplomatski i službeni pasoši (original): diplomatic, special and official passaports No visas required for visits of up to 90 days",
+   "from_rs_passport": "Rok važenja pasoša radi turističkog putovanja mora biti minimum 3 meseca od vremena ulaska u državu.",
+   "from_rs_instructions": {
+    "fee": null,
+    "notes": null,
+    "where": "On arrival at Lebanese border crossings (30 days)",
+    "validity": "30 days",
+    "apply_url": null,
+    "documents": [
+     "Passport valid 3 months"
+    ],
+    "processing": null,
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/liban",
+    "appointment_url": null
+   }
+  },
+  "LC": {
+   "name_sr": "Sveta Lucija",
+   "name_en": "Saint Lucia",
+   "to_rs_stay": "do 90 dana u periodu od 180 dana",
+   "to_rs_conditions": "MSP (original): No visas required for visits up to 90 days within period of 180 days | Diplomatski i službeni pasoši (original): diplomatic and official passports: No visas required for visits up to 90 days within period of 180 days",
+   "instructions_note": "MFA page empty; regime flag absent (covered non-residentially from Washington)."
+  },
+  "LI": {
+   "name_sr": "Lihtenštajn",
+   "name_en": "Liechtenstein",
+   "to_rs_stay": "do 90 dana u periodu od 6 meseci (od datuma prvog ulaska)",
+   "to_rs_conditions": "MSP (original): No visas required for visits of up to 90 days in a 6 months period starting from the date of the first entry | Diplomatski i službeni pasoši (original): diplomatic and official passports: No visas required for visits of up to 90 days",
+   "from_rs_stay": "do 90 dana u periodu od 180 dana",
+   "from_rs_passport": "Rok važenja pasoša radi turističkog putovanja mora biti 3 meseca od datuma napuštanja Lihtenštajna, dok pasoš mora biti izdat u poslednjih 10 godina.",
+   "from_rs_requirements": [
+    "Nosiocima biometrijskih pasoša R. Srbije nije potrebna viza za boravak do 90 dana u periodu od šest meseci.",
+    "Preporučuje se posedovanje polise putnog zdravstvenog osiguranja, s obzirom na veoma skupe lekarske usluge, a može se desiti i da potvrdu o osiguranju zatraže na uvid pogranični organi.",
+    "U pogledu unošenja i iznošenja novca u gotovini, nema ograničenja, niti obaveze prijavljivanja, ali je moguće da se na graničnom prelasku vrši kontrola porekla novca u slučaju da lice ima više od 10.000 švajcarskih franaka (CHF).",
+    "Potrebno je imati dovoljno sredstava za boravak u Lihtenštajnu, najmanje 150 CHF po danu boravka.",
+    "Za unošenje kućnih ljubimaca potrebna je veterinarska knjižica, odnosno „pasoš“ sa upisanim svim vakcinama."
+   ]
+  }
+ }
+}

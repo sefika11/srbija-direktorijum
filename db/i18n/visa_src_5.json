@@ -1,0 +1,469 @@
+{
+ "countries": {
+  "LK": {
+   "name_sr": "Šri Lanka",
+   "name_en": "Sri Lanka",
+   "to_rs_conditions": "MSP (original): Visas required | Diplomatski i službeni pasoši (original): diplomatic and official passports: Visas required",
+   "from_rs_requirements": [
+    "Turisti mogu dobiti vize na ulasku u Šri Lanku, uz prilaganje važećeg pasoša, povratne karte i podataka o rezervaciji hotela.",
+    "Za ulazak u Šri Lanku nije potrebno posedovati polisu zdravstvenog osiguranja, niti dokaz o vakcinaciji, izuzev ako dolazite iz oblasti zahvaćene žutom groznicom."
+   ],
+   "from_rs_instructions": {
+    "fee": "Tourist ETA, double entry 30 days: USD 50 for 'all other countries' (SAARC USD 20). Serbia is not on the list of 40 countries that get the 30-day ETA free since 25 May 2026",
+    "notes": "Serbia is not among the 40 free-ETA countries listed on eta.gov.lk (alert 01, effective 25.05.2026), so the standard fee table applies; confirm the current figure on the portal. Extension beyond 30 days via eservices.immigration.gov.lk.",
+    "where": "Sri Lanka Electronic Travel Authorization (ETA) online",
+    "validity": "30 days, double entry (up to 90 days by extension/fee)",
+    "apply_url": "https://www.eta.gov.lk/slvisa/",
+    "documents": [
+     "Passport valid at least 6 months from arrival",
+     "Round-trip ticket (if travelling by air)",
+     "Evidence of sufficient funds"
+    ],
+    "processing": "Online; usually quick (not stated on the pages read)",
+    "source_url": "https://www.eta.gov.lk/slvisa/visainfo/fees.jsp?locale=en_US",
+    "appointment_url": null
+   }
+  },
+  "LR": {
+   "name_sr": "Liberija",
+   "name_en": "Liberia",
+   "to_rs_conditions": "MSP (original): Visas required | Diplomatski i službeni pasoši (original): diplomatic and official passports: Visas required",
+   "instructions_note": "MFA: visa required; no procedure published."
+  },
+  "LS": {
+   "name_sr": "Lesoto",
+   "name_en": "Lesotho",
+   "to_rs_conditions": "MSP (original): Visas required | Diplomatski i službeni pasoši (original): diplomatic and official passports: Visas required",
+   "from_rs_passport": "Rok važenja pasoša radi putovanja mora biti 6 meseci od dana planiranog ulaska.",
+   "from_rs_requirements": [
+    "Napomena: Za nosioca putnog lista u tranzitu neophodna je viza"
+   ],
+   "from_rs_instructions": {
+    "fee": null,
+    "notes": "Document list and fee not published on the MFA page; the foreign state's own visa page was not retrieved in this pass.",
+    "where": "Lesotho visa (not needed in airport transit zone)",
+    "validity": null,
+    "apply_url": null,
+    "documents": [
+     "Passport valid 6 months, 2 blank pages"
+    ],
+    "processing": null,
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/lesoto",
+    "appointment_url": null
+   }
+  },
+  "LT": {
+   "name_sr": "Litvanija",
+   "name_en": "Lithuania",
+   "to_rs_stay": "do 90 dana u periodu od 6 meseci (od datuma prvog ulaska)",
+   "to_rs_conditions": "MSP (original): No visas required for visits of up to 90 days in a 6 months period starting from the date of the first entry | Obični pasoši, napomene MSP: * ID card can also be used to travel to Serbia | Diplomatski i službeni pasoši (original): diplomatic and official passports: No visas required for visits of up to 90 days",
+   "from_rs_stay": "do 90 dana u periodu od 180 dana",
+   "from_rs_requirements": [
+    "Napomena: Za nosioca putnog lista u tranzitu neophodna je viza osim ukoliko dolazi iz neke od država članica Šengenskog sporazuma",
+    "Za ulazak u R. Litvaniju, pored pasoša, u zavisnosti od svrhe dolaska (turistička, poslovna ili privatna poseta), nadležni granični organi mogu da traže na uvid dodatna dokumenta kao što su: dokaz o posedovanju novca za izdržavanje tokom boravka, dokaz o plaćenom putnom osiguranju, pozivno pismo pra"
+   ]
+  },
+  "LU": {
+   "name_sr": "Luksemburg",
+   "name_en": "Luxembourg",
+   "to_rs_stay": "do 90 dana u periodu od 6 meseci (od datuma prvog ulaska)",
+   "to_rs_conditions": "MSP (original): No visas required for visits of up to 90 days in a 6 months period starting from the date of the first entry | Obični pasoši, napomene MSP: * ID card can also be used to travel to Serbia | Diplomatski i službeni pasoši (original): diplomatic and official passports: No visas required for visits of up to 90 days",
+   "from_rs_stay": "do 90 dana u periodu od 180 dana",
+   "from_rs_passport": "Uslov za ulazak državljana R. Srbije u bilo koju članicu EU je da poseduju putnu ispravu koja je izdata u poslednjih deset godina i koja mora da važi najmanje tri meseca nakon planiranog datuma za napuštanje teritorije članice EU.",
+   "from_rs_requirements": [
+    "Napomena: Za nosioca putnog lista u tranzitu nije neophodna viza osim ukoliko iz Belgije odlazi u neku drugu državu Šengenskopg spiska",
+    "Nosiocima biometrijskih pasoša R. Srbije nije potrebna viza za boravak do 90 dana (u periodu od 180 dana, računajući od dana prvog ulaska u Šengen).",
+    "Ukoliko se dolazi u posetu rođacima, potrebno je imati pozivno pismo, overeno u komuni i 38,00 evra po danu boravka.",
+    "Ukoliko se dolazi turistički, pored rezervacije hotela, treba imati (i pokazati) 50,00 evra po danu boravka i turističko osiguranje.",
+    "Traži se i dokaz o putnom zdravstvenom osiguranju."
+   ]
+  },
+  "LV": {
+   "name_sr": "Letonija",
+   "name_en": "Latvia",
+   "to_rs_stay": "do 90 dana u periodu od 6 meseci (od datuma prvog ulaska)",
+   "to_rs_conditions": "MSP (original): No visas required for visits of up to 90 days in a 6 months period starting from the date of the first entry | Obični pasoši, napomene MSP: * ID card can also be used to travel to Serbia | Diplomatski i službeni pasoši (original): diplomatic and official passports: No visas required for visits of up to 90 days",
+   "from_rs_stay": "do 90 dana u periodu od 180 dana",
+   "from_rs_requirements": [
+    "Napomena: Za nosioca putnog lista u tranzitu neophodna je viza",
+    "Nosiocima biometrijskih pasoša Republike Srbije nije potrebna viza za ulazak i boravak do 90 dana u periodu od 180 dana.",
+    "Za boravak u Letoniji, obavezno je putno zdravstveno osiguranje.",
+    "Od 1. septembra 2025. godine državljani trećih zemalja, kojima nije izdata viza ili dozvola boravka u Letoniji, u obavezi su da pre putovanja dostave određene informacije o sebi, svojim srodnicima (ako ih ima) i svrsi putovanja državnom informacionom sistemu za sprečavanje pretnji Letonije, preko ve",
+    "Sve detalje o dostavljanju informacija možete pronaći na veb adresi eta.gov.lv.",
+    "Za drumska prevozna sredstva koja ulaze u Republiku Letoniju na snazi je, od 15. oktobra 2025. godine, primena Sistema za elektronsku rezervaciju redova ERRS /Electronic Queue Reservation System/ za ulazak drumskih vozila koji se primenjuje na graničnim prelazima Terehova, Grebneva i Paternieki u Re",
+    "Nakon što se rezervacija i plaćanje potvrde, šalje se imejl sa potvrdom koji sadrži date podatke i izabrani vremenski interval."
+   ]
+  },
+  "LY": {
+   "name_sr": "Libija",
+   "name_en": "Libya",
+   "to_rs_conditions": "MSP (original): Visas required | Diplomatski i službeni pasoši (original): diplomatic and official passports: Visas required",
+   "from_rs_requirements": [
+    "Napomena: Za nosioca putnog lista u tranzitu neophodna je viza",
+    "E - Izlazna i povratna viza za jedno putovanje.",
+    "F - Izlazna i povratna viza za više putovanja.",
+    "U Libiji je otpočela sa radom glavna platforma sistema izdavanja elektronskih viza, koja zainteresovanim stranim državljanima omogućava da na legalan i zvanični način podnose svoje zahteve za dobijanje viza elektronskim putem.",
+    "Izlazne i povratne vize izdaju se za jedno putovanje u periodu na tri meseca, od datuma kada su izdate.",
+    "Izlazne i povratne vize odobravaju se za nekoliko putovanja na najviše šest meseci za nosioce rezidencijalnih viza, uz neke uslove ( priroda posla to zahteva, odobrenje menadžera strane kompanije, preporuka javnog tela i sl.) i odluku o odobravanju ove vize donosi direktor Generalnog direktorata za ",
+    "Svaki stranac koji duže i boravi u Libiji mora najbližem organu podneti pasoš za registraciju i određivanje mesta boravišta, prema obrascu koji je za to pripremljen, u roku od sedam dana od dana ulaska u zemlju."
+   ],
+   "from_rs_instructions": {
+    "fee": null,
+    "notes": "MFA lists visa types A-G under Libyan law no. 6 of 1987.",
+    "where": "Libya e-visa platform (see MFA page)",
+    "validity": null,
+    "apply_url": null,
+    "documents": [],
+    "processing": null,
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/libija",
+    "appointment_url": null
+   }
+  },
+  "MA": {
+   "name_sr": "Maroko",
+   "name_en": "Morocco",
+   "to_rs_conditions": "MSP (original): Visas required | Diplomatski i službeni pasoši (original): diplomatic and official passports: No visas required for visits of up to 90 days",
+   "from_rs_requirements": [
+    "Napomena: Za nosioca putnog lista u tranzitu nije neophodna viza ali ne sme napuštati međunarodni prostor aerodroma."
+   ],
+   "from_rs_instructions": {
+    "fee": null,
+    "notes": "Diplomatic and official passport holders exempt.",
+    "where": "Embassy of Morocco in Belgrade",
+    "validity": null,
+    "apply_url": null,
+    "documents": [
+     "Valid passport"
+    ],
+    "processing": null,
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/maroko",
+    "appointment_url": null
+   }
+  },
+  "MC": {
+   "name_sr": "Monako",
+   "name_en": "Monaco",
+   "to_rs_stay": "do 90 dana u periodu od 6 meseci (od datuma prvog ulaska)",
+   "to_rs_conditions": "MSP (original): No visas required for visits of up to 90 days in a 6 months period starting from the date of the first entry | Diplomatski i službeni pasoši (original): diplomatic and official passports: No visas required",
+   "from_rs_stay": "do 90 dana u periodu od 180 dana",
+   "from_rs_passport": "Uslov za ulazak državljana R. Srbije u Kneževinu Monako je da poseduju putnu ispravu koja je izdata u poslednjih deset godina i koja mora da važi najmanje tri meseca nakon planiranog datuma za napuštanje teritorije članice EU.",
+   "from_rs_requirements": [
+    "Nosiocima biometrijskih pasoša R. Srbije nije potrebna viza za boravak do 90 dana u periodu od šest meseci."
+   ]
+  },
+  "MD": {
+   "name_sr": "Moldavija",
+   "name_en": "Moldova",
+   "to_rs_stay": "do 90 dana u periodu od 6 meseci (od datuma prvog ulaska)",
+   "to_rs_conditions": "MSP (original): No visas required for visits of up to 90 days in a 6 months period starting from the date of the first entry(for biometric passports only) | Diplomatski i službeni pasoši (original): diplomatic and official passports: No visas required for visits of up to 90 days",
+   "from_rs_stay": "do 90 dana",
+   "from_rs_passport": "Rok važenja putne isprave radi turističkog putovanja mora biti tri meseca duži od planirane posete, odnosno tri meseca nakon isteka traženog boravka.",
+   "from_rs_requirements": [
+    "Napomena: Za nosioca putnog lista u tranzitu nije neophodna viza.",
+    "Nosiocima biometrijskih pasoša R. Srbije nije potrebna viza za boravak u R. Moldaviji do 90 dana u periodu od šest meseci.",
+    "Imajući u vidu navedeno, sugeriše se da prilikom ulaska u R. Moldaviju naši građani imaju pripremljeno pozivno pismo ili drugi dokument kojim bi dokazali svrhu putovanja.",
+    "Prilikom ulaska u R. Moldaviju, pogranični organi mogu tražiti i dokumenta koja opravdavaju svrhu ulaska, kao i dokaz o posedovanju dovoljno finansijskih sredstava za boravak u R. Moldaviji."
+   ]
+  },
+  "ME": {
+   "name_sr": "Crna Gora",
+   "name_en": "Montenegro",
+   "to_rs_stay": "do 90 dana",
+   "to_rs_conditions": "MSP (original): No visas required for visits of up to 90 days | Obični pasoši, napomene MSP: *Citizens of Montenegro can travel to Serbia with ID card or other document which can be used for identity and citizenship. | Diplomatski i službeni pasoši (original): diplomatic and official passports: No visas required for visits of up to 90 days",
+   "from_rs_stay": "do 90 dana"
+  },
+  "MG": {
+   "name_sr": "Madagaskar",
+   "name_en": "Madagascar",
+   "to_rs_conditions": "MSP (original): Visas required | Diplomatski i službeni pasoši (original): diplomatic and official passports: Visas required",
+   "from_rs_requirements": [
+    "Napomena: Za nosioca putnog lista u tranzitu neophodna je viza",
+    "Državljani Republike Srbije koju putuju na Madagaskar vizu mogu dobiti po dolasku na bilo koji međunarodni aerodrom Madagaskara.",
+    "Vize po dolasku se mogu izdati do 60 dana, za jedan ulaz.",
+    "Potvrda o vakcinaciji protiv žute groznice potrebna je za putnike koji dolaze iz područja u kojima ima te bolesti."
+   ],
+   "from_rs_instructions": {
+    "fee": null,
+    "notes": null,
+    "where": "Visa on arrival at international airports (up to 60 days, single entry), or e-visa portal / embassy in Rome",
+    "validity": "Up to 60 days",
+    "apply_url": "https://www.evisamada.gov.mg/en/",
+    "documents": [
+     "Yellow fever certificate if arriving from affected areas"
+    ],
+    "processing": null,
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/madagaskar",
+    "appointment_url": null
+   }
+  },
+  "MH": {
+   "name_sr": "Maršalova ostrva",
+   "name_en": "Marshall Islands",
+   "to_rs_conditions": "MSP (original): Visa required | Diplomatski i službeni pasoši (original): Diplomatic and official passports: Visa required",
+   "from_rs_passport": "Prilikom putovanja na Maršalova Ostrva neophodno je da pasoš važi najmanje šest meseci od datuma isteka.",
+   "from_rs_instructions": {
+    "fee": null,
+    "notes": "Document list and fee not published on the MFA page; the foreign state's own visa page was not retrieved in this pass. MFA only names the competent mission.",
+    "where": "Marshall Islands Immigration Service",
+    "validity": null,
+    "apply_url": "https://rmiimmigration.org",
+    "documents": [],
+    "processing": null,
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/marsalova-ostrva",
+    "appointment_url": null
+   }
+  },
+  "MK": {
+   "name_sr": "Severna Makedonija",
+   "name_en": "North Macedonia",
+   "to_rs_stay": "do 90 dana u periodu od 6 meseci (od datuma prvog ulaska)",
+   "to_rs_conditions": "MSP (original): No visas required for visits of up to 90 days in a 6 months period starting from the date of the first entry | Obični pasoši, napomene MSP: *ID card can also be used to travel to Serbia | Diplomatski i službeni pasoši (original): diplomatic and official passports: No visas required for visits of up to 90 days",
+   "from_rs_stay": "do 90 dana u periodu od 180 dana",
+   "from_rs_requirements": [
+    "Napomena: Za nosioca putnog lista u tranzitu nije neophodna viza",
+    "Državljanima Republike Srbije nije potrebna viza za ulazak i boravak do 90 dana u R. Severnoj Makedoniji, a mogu, takođe, ulaziti u R. Severnu Makedoniju sa važećom biometrijskom ličnom kartom.",
+    "Strani državljanin može da unese (bez prijavljivanja) u RSM razne devize u protivvrednosti do 10.000 evra."
+   ]
+  },
+  "ML": {
+   "name_sr": "Mali",
+   "name_en": "Mali",
+   "to_rs_conditions": "MSP (original): Visas required | Diplomatski i službeni pasoši (original): diplomatic and official passports: Visas required",
+   "from_rs_passport": "Rok važenja pasoša radi turističkog putovanja mora biti 6 meseci, dok je za regulisanje boravka potrebno da rok važenja pasoša bude 6 meseci od dana apliciranja za vizu.",
+   "from_rs_requirements": [
+    "Ne postoji mogućnost podnošenje zahteva za vizu onlajn (eViza), niti dobijanje vize na graničnom prelazu (on Arrival).",
+    "Obavezno je imati potvrdu o vakcinaciji protiv žute groznice, izuzev za decu mlađu od jedne godine.",
+    "Polisa zdravstvenog osiguranja nije neophodna, ali se preporučuje.",
+    "Unošenje veće količine novca je potrebno prijaviti prilikom dolaska.",
+    "Životinje se mogu uneti uz potvrdu o vakcinaciji protiv besnila i veterinarskoj potvrdi o zdravstvenom stanju."
+   ],
+   "from_rs_instructions": {
+    "fee": null,
+    "notes": "Document list and fee not published on the MFA page; the foreign state's own visa page was not retrieved in this pass. MFA only names the competent mission.",
+    "where": "Embassy of Mali in Rome",
+    "validity": null,
+    "apply_url": null,
+    "documents": [],
+    "processing": null,
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/mali",
+    "appointment_url": null
+   }
+  },
+  "MM": {
+   "name_sr": "Mjanmar",
+   "name_en": "Myanmar",
+   "to_rs_conditions": "MSP (original): Visas required | Diplomatski i službeni pasoši (original): diplomatic and official passports: No visas required for visits of up to 90 days (effective October 16, 2019)",
+   "from_rs_requirements": [
+    "Napomena: Za nosioca putnog lista u tranzitu neophodna je viza",
+    "Putnici sami snose troškove testiranja, izolacije i lečenja od Covid-19 i drugih bolesti, samim tim potrebno je posedovati putno zdravstveno osiguranje (osiguranje se može kupiti i od mjanmarskog osiguranja www.mminsurance.gov.mm).",
+    "Kontaktirate nadležno diplomatsko-konzularno predstavništvo R. Srbije po dolasku u zemlju, a naročito u slučajevima zloupotreba."
+   ],
+   "from_rs_instructions": {
+    "fee": null,
+    "notes": "Strong earthquake 28 Mar 2025 in central region; scam job-offer warning from MFA.",
+    "where": "Embassy of Myanmar in Belgrade or e-visa portal",
+    "validity": null,
+    "apply_url": "http://evisa.moip.gov.mm",
+    "documents": [
+     "Travel health insurance"
+    ],
+    "processing": null,
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/mjanmar",
+    "appointment_url": null
+   }
+  },
+  "MN": {
+   "name_sr": "Mongolija",
+   "name_en": "Mongolia",
+   "to_rs_conditions": "MSP (original): Visas required | Diplomatski i službeni pasoši (original): diplomatic and official passports: No visas required for visits up to 90 days within period of 180 days",
+   "from_rs_requirements": [
+    "Napomena: Za nosioca putnog lista u tranzitu neophodna je viza. Uslov za izdavanje vize je prethodno posedovanje vize zemlje u koju se ulazi posle Mongolije"
+   ],
+   "from_rs_instructions": {
+    "fee": "MNT 2,500 standard / MNT 5,000 expedited (Immigration Agency fee note)",
+    "notes": "E-visa (ETA) processing about 3 working days, non-extendable; whether Serbia is eligible for e-visa should be confirmed on evisa.mn.",
+    "where": "Mongolian diplomatic missions or border points (K2 tourist visa up to 30 days); e-visa at evisa.mn for eligible nationalities",
+    "validity": "Up to 30 days (K2)",
+    "apply_url": "https://evisa.mn/en/apply",
+    "documents": [
+     "Copy of passport (valid 180 days before travel)",
+     "Completed application form",
+     "Payment receipt",
+     "Two-way flight ticket confirmation if needed",
+     "Official invitation letter if travelling with family"
+    ],
+    "processing": "Standard 5 working days; expedite 3 working days",
+    "source_url": "https://immigration.gov.mn/en/k2-visa-permit/",
+    "appointment_url": null
+   }
+  },
+  "MR": {
+   "name_sr": "Mauritanija",
+   "name_en": "Mauritania",
+   "to_rs_conditions": "MSP (original): Visas required | Diplomatski i službeni pasoši (original): diplomatic and official passports: Visas required",
+   "from_rs_requirements": [
+    "Napomena: Za nosioca putnog lista u tranzitu neophodna je viza",
+    "Viza je, počev od 5. januara 2025. godine, elektronska, a zahtev za vizu se podnosi preko zvaničnog sajta Nacionalne agencije za popis stanovništva i dokumenta, preko koje se i dobija elektronska viza: https://anrpts.gov.mr U Mauritaniju je najbolje ući preko međunarodnog aerodroma u glavnom gradu N"
+   ],
+   "from_rs_instructions": {
+    "fee": null,
+    "notes": "Avoid overland entry from east/north-east.",
+    "where": "Mauritania e-visa portal (e-visa mandatory since 5 Jan 2025)",
+    "validity": null,
+    "apply_url": "https://anrpts.gov.mr",
+    "documents": [],
+    "processing": null,
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/mauritanija",
+    "appointment_url": null
+   }
+  },
+  "MT": {
+   "name_sr": "Malta",
+   "name_en": "Malta",
+   "to_rs_stay": "do 90 dana u periodu od 6 meseci (od datuma prvog ulaska)",
+   "to_rs_conditions": "MSP (original): No visas required for visits of up to 90 days in a 6 months period starting from the date of the first entry | Obični pasoši, napomene MSP: * ID card can also be used to travel to Serbia | Diplomatski i službeni pasoši (original): diplomatic and official passports: No visas required for visits of up to 90 days",
+   "from_rs_stay": "do 90 dana u periodu od 180 dana",
+   "from_rs_passport": "Državljani Republike Srbije u Republiku Maltu mogu da uđu ukoliko poseduju pasoš koji važi najmanje tri meseca nakon planiranog datuma za napuštanje teritorije Malte.",
+   "from_rs_requirements": [
+    "Nosiocima biometrijskih pasoša Srbije nije potrebna viza za boravak do 90 dana u periodu od šest meseci.",
+    "Po pravilu, osim pasoša, na uvid se traži i dodatna dokumentacija, npr. povratna karta, rezervacija hotela ili pozivno pismo, kopija malteške lične karte pozivaoca (pozivno pismo ne mora da bude overeno kod notara i prihvata se u elektronskoj formi, kao i malteška lična karta pozivaoca) i dokaz o po"
+   ]
+  },
+  "MU": {
+   "name_sr": "Mauricijus",
+   "name_en": "Mauritius",
+   "to_rs_conditions": "MSP (original): Visas required | Diplomatski i službeni pasoši (original): diplomatic and official passports: Visas required",
+   "from_rs_passport": "Rok važenja pasoša radi putovanja mora biti 6 meseci od dana planiranog ulaska.",
+   "from_rs_requirements": [
+    "Napomena: Za nosioca putnog lista u tranzitu neophodna je viza",
+    "Vize su potrebne, uključujući i za nosioce putnog lista u tranzitu, ali se mogu dobiti, na graničnom prelazu turističku, poslovnu ili tranzitnu vizu u trajanju do 60 dana (Uslovi: povratna prevozna karta; dovoljna novčana sredstva za pokrivanje svih troškova boravka; potvrda o rezervaciji hotelskog "
+   ],
+   "from_rs_instructions": {
+    "fee": null,
+    "notes": null,
+    "where": "Visa at border (up to 60 days)",
+    "validity": "Up to 60 days",
+    "apply_url": null,
+    "documents": [
+     "Return ticket",
+     "Proof of funds",
+     "Hotel booking or invitation",
+     "Passport valid 6 months, 2 blank pages"
+    ],
+    "processing": null,
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/mauricijus",
+    "appointment_url": null
+   }
+  },
+  "MV": {
+   "name_sr": "Maldivi",
+   "name_en": "Maldives",
+   "to_rs_conditions": "MSP (original): Visas required | Diplomatski i službeni pasoši (original): diplomatic and official passports: No visas required for visits up to 90 days, within period of 180 days",
+   "from_rs_stay": "do 90 dana",
+   "from_rs_passport": "Rok važenja pasoša radi turističkog putovanja mora biti najmanje 6 meseci.",
+   "from_rs_requirements": [
+    "Napomena: Za nosioca putnog lista u tranzitu nije neophodna viza",
+    "Potrebna je sledeća dokumentacija: važeća putna isprava, povratna avio-karta, dokaz o posedovanju dovoljno finansijskih sredstava (100 USD plus 50 USD za svaki dan boravka) ili potvrda o uplaćenom turističkom aranžmanu.",
+    "Detaljnije informacije dostupne su na internet prezentaciji maldivskog Ministarstva za imigraciju i emigraciju: http://www.immigration.gov.mv/pages/entry.html Za putovanje na Maldive nije potrebno posedovati polisu zdravstvenog osiguranja, niti dokaz o vakcinaciji, izuzev ako dolazite iz oblasti zah",
+    "U slučajevima da putnici sa sobom nose obimnu fotografsku opremu ili opremu za ronjenje, preporučuje se da o tome unapred obaveste hotel u kojem nameravaju da odsednu ili da pripreme listu navedene opreme sa njenim opisom i serijskim brojevima, kako bi procedura po dolasku na aerodrome kraće trajala"
+   ]
+  },
+  "MW": {
+   "name_sr": "Malavi",
+   "name_en": "Malawi",
+   "to_rs_conditions": "MSP (original): Visas required | Diplomatski i službeni pasoši (original): diplomatic and official passports: Visas required",
+   "from_rs_passport": "Rok važenja pasoša radi putovanja mora biti 6 meseci od dana planiranog ulaska.",
+   "from_rs_requirements": [
+    "Napomena: Za nosioca putnog lista u tranzitu neophodna je viza"
+   ],
+   "from_rs_instructions": {
+    "fee": null,
+    "notes": "Document list and fee not published on the MFA page; the foreign state's own visa page was not retrieved in this pass.",
+    "where": "Malawi visa",
+    "validity": null,
+    "apply_url": null,
+    "documents": [
+     "Passport valid 6 months, 2 blank pages"
+    ],
+    "processing": null,
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/malavi",
+    "appointment_url": null
+   }
+  },
+  "MX": {
+   "name_sr": "Meksiko",
+   "name_en": "Mexico",
+   "to_rs_stay": "do 90 dana u periodu od 6 meseci (od datuma prvog ulaska)",
+   "to_rs_conditions": "MSP (original): No visas required for visits of up to 90 days in a 6 months period starting from the date of the first entry | Diplomatski i službeni pasoši (original): diplomatic and official passports: No visas required for visits of up to 90 days",
+   "from_rs_requirements": [
+    "Napomena: Viza je besplatna za boravak koji nije lukrativne prirode. Od obaveze posedovanja važeće vize izuzeti državljani R.Srbije koji mogu da dokažu legalni boravak u SAD, Kanadi i Japanu, a cilj putovanja im je turistički, poslovni ili tranzit. Za nosioca putnog lista u tranzitu neophodna je viz",
+    "Za ulazak u Meksiko, pored posedovanja validne meksičke vize, neophodno je sa sobom nositi dokumenta koja dokazuju svrhu putovanja (rezervacija hotela i povratnog leta), dovoljna finansijska sredstva za boravak u Meksiku, kao i pružanje svih informacija koje zatraže migracioni službenici u razgovoru",
+    "Ukoliko putnik želi, u roku od 60 dana može preuzeti sa linka https://www.inm.gob.mx/spublic/portal/inmex.html obrazac pod nazivom „Obrazac za višestruku migraciju“ (Forma Migratoria Múltiple – FMM) koji može biti sačuvan u nekom od elektronskih uređaja ili odštampan, a kojim se potvrđuje regularni "
+   ],
+   "from_rs_instructions": {
+    "fee": "Free for non-lucrative stays (per MFA)",
+    "notes": "Visa not required for holders of permanent residence in Canada, USA, Japan, UK, Schengen, Pacific Alliance (Chile, Colombia, Peru) or valid multi-entry visas of Canada, USA, Japan, UK or Schengen.",
+    "where": "Embassy of Mexico in Belgrade",
+    "validity": "Entry stamp grants up to 180 days",
+    "apply_url": null,
+    "documents": [
+     "Valid passport",
+     "Proof of purpose, hotel and return flight booking, sufficient funds (carried at entry)"
+    ],
+    "processing": null,
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/meksiko",
+    "appointment_url": null
+   }
+  },
+  "MY": {
+   "name_sr": "Malezija",
+   "name_en": "Malaysia",
+   "to_rs_conditions": "MSP (original): visas required | Diplomatski i službeni pasoši (original): diplomatic and official passports: visas required",
+   "from_rs_requirements": [
+    "Napomena: Za nosioca putnog lista u tranzitu neophodna je viza",
+    "Prijavljivanje je potrebno da se obavi tri dana pre planiranog dolaska u Maleziju posredstvom sledećeg linka: https://imigresen-online.imi.gov.my/mdac/main?registerMain Prilikom dolaska, odnosno, ulaska u Maleziju, putnici moraju da pripreme sledeće: Pasoš Odštampanu eVizu Bording kartu (Boardingpas"
+   ],
+   "from_rs_instructions": {
+    "fee": "RSD 700, cash, exact amount",
+    "notes": "Appointments: +381 11 2662 736, mwbelgrade@kln.gov.my (9:00-17:00; receptions 9:30-11:30). Travel insurance advised. From 1 Sep 2026 multiple-entry visas are restricted to 31 countries and specific travel purposes (Fly & Cruise, business etc.). Online eVisa documents per imi portal: photo, passport page valid 6+ months, return ticket, paid accommodation, proof of financial support.",
+    "where": "Embassy of Malaysia, Belgrade - in person on working days 9:00-11:30 (appointments by phone/email), or eVisa online",
+    "validity": "Single entry visa (SEV)",
+    "apply_url": "https://malaysiavisa.imi.gov.my",
+    "documents": [
+     "Valid passport",
+     "Completed visa application form IM.47 (one copy, A4 double-sided)",
+     "Copy of passport photo page (valid at least 6 months after entry, at least 1 blank page)",
+     "One photo 3.5 x 5.0 cm, white background",
+     "Copy of return air ticket (all destinations and transits)",
+     "Copy of each hotel booking for the stay",
+     "Invitation letter if travelling on business or staying with friends/relatives"
+    ],
+    "processing": "At least 3 working days if documents are in order",
+    "source_url": "https://www.kln.gov.my/web/srb_belgrade/requirement_foreigner",
+    "appointment_url": "mailto:mwbelgrade@kln.gov.my"
+   }
+  },
+  "MZ": {
+   "name_sr": "Mozambik",
+   "name_en": "Mozambique",
+   "to_rs_conditions": "MSP (original): Visas required | Diplomatski i službeni pasoši (original): diplomatic and official passports: Visas required",
+   "from_rs_passport": "Rok važenja pasoša radi putovanja mora biti 6 meseci od dana planiranog ulaska.",
+   "from_rs_requirements": [
+    "Napomena: Za nosioca putnog lista u tranzitu neophodna je viza"
+   ],
+   "from_rs_instructions": {
+    "fee": null,
+    "notes": "Document list and fee not published on the MFA page; the foreign state's own visa page was not retrieved in this pass.",
+    "where": "Mozambique visa (not needed when staying in transit zone)",
+    "validity": null,
+    "apply_url": null,
+    "documents": [
+     "Passport valid 6 months, 2 blank pages"
+    ],
+    "processing": null,
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/mozambik",
+    "appointment_url": null
+   }
+  }
+ }
+}

@@ -54,9 +54,13 @@ export async function VisaHub({ locale }: { locale: Locale }) {
 }
 
 export async function CountryPage({ locale, country }: { locale: Locale; country: db.CountryRow }) {
-  const d = t(locale); const L = VL[locale]; const c = country;
+  const d = t(locale); const L = VL[locale];
+  // translated texts per locale (countries.i18n), falling back to the source field by field
+  const tr = (country.i18n ?? null)?.[locale] as Partial<db.CountryRow> | undefined;
+  const c: db.CountryRow = tr ? { ...country, ...Object.fromEntries(Object.entries(tr).filter(([, v]) => v !== null && v !== "" && !(Array.isArray(v) && v.length === 0))) } as db.CountryRow : country;
+  const translated = !!tr;
   const name = locale === "sr" ? c.name_sr : c.name_en;
-  const [missions, general] = await Promise.all([db.getMissionsOfCountry(c.name_sr), c.to_rs_regime && c.to_rs_regime !== "bez vize" ? db.getVisaGeneral().catch(() => null) : Promise.resolve(null)]);
+  const [missions, general] = await Promise.all([db.getMissionsOfCountry(c.name_sr), c.to_rs_regime && c.to_rs_regime !== "bez vize" ? db.getVisaGeneral(locale).catch(() => null) : Promise.resolve(null)]);
   const ins = c.from_rs_instructions ?? null;
   const reqs: string[] = Array.isArray(c.from_rs_requirements) ? (c.from_rs_requirements as string[]) : [];
   const Steps = ({ i, title }: { i: db.VisaInstructions; title: string }) => (
@@ -105,7 +109,7 @@ export async function CountryPage({ locale, country }: { locale: Locale; country
             {reqs.length > 0 && <div className="mt-3"><div className="text-[12.5px] text-muted font-mono uppercase tracking-[.1em]">{L.requirements}</div><ul className="mt-1.5 grid gap-1 text-[14px] list-disc pl-5">{reqs.map((r, i) => <li key={i}>{r}</li>)}</ul></div>}
             {c.rs_mission_name && <p className="mt-3 text-[13.5px] text-muted">{L.rsMission}: {c.rs_mission_name}{c.rs_mission_city ? `, ${c.rs_mission_city}` : ""}</p>}
           </Panel>
-          {locale !== "sr" && ins && c.from_rs_regime && c.from_rs_regime !== "bez vize" && <p className="text-[12.5px] text-muted -mb-2">{L.srNote}</p>}
+          {locale !== "sr" && !translated && ins && c.from_rs_regime && c.from_rs_regime !== "bez vize" && <p className="text-[12.5px] text-muted -mb-2">{L.srNote}</p>}
           {c.from_rs_regime && c.from_rs_regime !== "bez vize" && (ins ? <Steps i={ins} title={`${L.howTo} · ${name}`} /> : <section className="card p-5"><div className="eyebrow">{L.howTo}</div><p className="mt-2 text-[14px] text-muted">{c.instructions_note ?? L.noIns}</p></section>)}
           {general?.visa_c && <Steps i={{ ...general.visa_c, notes: [general.visa_c.notes, general.visa_c.exemptions?.length ? `${L.exempt}: ${general.visa_c.exemptions.join("; ")}` : null].filter(Boolean).join(" ") || null }} title={`${L.toRsHow} · ${L.visaC}`} />}
           {general?.visa_d && <Steps i={general.visa_d} title={`${L.toRsHow} · ${L.visaD}`} />}

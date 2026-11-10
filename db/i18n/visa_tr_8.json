@@ -1,0 +1,994 @@
+{
+  "sr": {
+    "countries": {
+      "TR": {
+        "to_rs_stay": "do 90 dana u periodu od 6 meseci",
+        "to_rs_conditions": "MSP (original): Vize nisu potrebne za boravke do 90 dana u periodu od 6 meseci od datuma prvog ulaska | Diplomatski i službeni pasoši (original): vize nisu potrebne za boravke do 90 dana",
+        "from_rs_stay": "do 90 dana u periodu od 6 meseci (od datuma prvog ulaska)",
+        "from_rs_passport": "Strani državljani koji ulaze u R. Tursku potrebno je da poseduju pasoš čiji je rok važenja najmanje 60 dana duži od dana isteka vize ili dozvole boravka, odnosno dozvoljenog boravka bez vize (bezvizni boravak za naše građane je 90 dana u periodu od 6 meseci), ",
+        "from_rs_requirements": [
+          "Napomena: Za nosioca putnog lista u tranzitu nije neophodna viza"
+        ]
+      },
+      "TT": {
+        "to_rs_stay": "do 90 dana u periodu od 6 meseci (od datuma prvog ulaska)",
+        "to_rs_conditions": "MSP (original): Vize nisu potrebne za boravke do 90 dana u periodu od 6 meseci računajući od datuma prvog ulaska | Diplomatski i službeni pasoši (original): vize nisu potrebne za boravke do 90 dana u periodu od 6 meseci računajući od datuma prvog ulaska",
+        "from_rs_stay": "do 30 dana"
+      },
+      "TV": {
+        "to_rs_stay": "do 90 dana u periodu od 180 dana",
+        "to_rs_conditions": "MSP (original): Vize nisu potrebne za boravke do 90 dana u periodu od 180 dana | Diplomatski i službeni pasoši (original): vize nisu potrebne za boravke do 90 dana u periodu od 180 dana",
+        "from_rs_stay": "do 90 dana u periodu od 180 dana"
+      },
+      "TZ": {
+        "to_rs_conditions": "MSP (original): Vize su potrebne | Diplomatski i službeni pasoši (original): vize su potrebne",
+        "from_rs_requirements": [
+          "Napomena: Za nosioca putnog lista u tranzitu neophodna je viza",
+          "Putnici koji dolaze iz zemalja u kojima je rasprostranjena žuta groznica mora imati potvrdu o izvršenoj imunizaciji („žuti karton\")."
+        ],
+        "from_rs_instructions": {
+          "fee": "Redovna (jednokratna) viza USD 50 (nosioci američkih pasoša moraju uzeti višekratnu vizu USD 100)",
+          "notes": "Pre putovanja sačekajte obaveštenje o odobrenju vize putem imejla. Takse se plaćaju unapred i nisu povratne. Prijavu podnosite isključivo na zvaničnoj stranici.",
+          "where": "Tanzanijski portal za e-vize (Imigraciona služba) ili viza po dolasku; ambasada u Rimu",
+          "validity": "Redovna viza do 90 dana",
+          "apply_url": "https://visa.immigration.go.tz/",
+          "documents": [
+            "Pasoš važeći najmanje 6 meseci, sa jednom nekorišćenom stranicom",
+            "Povratna karta (pokazuje se pri ulasku)"
+          ],
+          "processing": "U roku od deset dana od podnošenja zahteva",
+          "source_url": "https://visa.immigration.go.tz/guidelines",
+          "appointment_url": null
+        }
+      },
+      "UA": {
+        "to_rs_stay": "do 90 dana u periodu od 180 dana",
+        "to_rs_conditions": "MSP (original): Vize nisu potrebne za boravke do 90 dana u periodu od 180 dana | Diplomatski i službeni pasoši (original): vize nisu potrebne za boravke do 90 dana",
+        "from_rs_stay": "do 90 dana u periodu od 180 dana",
+        "from_rs_passport": "Rok važenja pasoša radi turističkog putovanja mora biti 3 meseca od datuma napuštanja Ukrajine.",
+        "from_rs_requirements": [
+          "Napomena:*Za nosioca putnog lista u tranzitu neophodna je viza.",
+          "Obavezna je polisa zdravstvenog osiguranja putnika.",
+          "Dokaz o vakcinisanju nije potreban."
+        ]
+      },
+      "UG": {
+        "to_rs_conditions": "MSP (original): Vize su potrebne | Diplomatski i službeni pasoši (original): vize su potrebne",
+        "from_rs_requirements": [
+          "Napomena: Za nosioca putnog lista u tranzitu neophodna je viza",
+          "Nakon što zahtev bude odobren, na imejl unet prilikom apliciranja se dobije pismo o odobrenju e-vize sa bar-kodom.",
+          "Od maja 2026. godine posedovanje „žutog kartona\" (vakcina protiv žute groznice) nije uslov za podnošenje zahteva za vizu, ali Svetska zdravstvena organizacija i dalje snažno preporučuje vakcinu radi zaštite zdravlja, s obzirom na to da se Uganda nalazi u zoni prenošenja žute groznice."
+        ],
+        "from_rs_instructions": {
+          "fee": "Jednokratna viza / tranzit USD 50; višekratna na 6 ili 12 meseci USD 100; na 2 godine USD 200",
+          "notes": "Žuti karton od maja 2026. godine više nije uslov za vizu, ali se snažno preporučuje. Ambasada Ugande u Rimu: consular.rome@mofa.go.ug.",
+          "where": "Portal za e-vize Ugande",
+          "validity": "Zavisi od vrste vize",
+          "apply_url": "https://visas.immigration.go.ug/",
+          "documents": [
+            "Dokumenta navedena na stranici za pomoć; pismo o odobrenju sa odštampanim bar-kodom"
+          ],
+          "processing": "2–3 radna dana",
+          "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/uganda",
+          "appointment_url": "https://visas.immigration.go.ug/#/help/visa"
+        }
+      },
+      "US": {
+        "to_rs_stay": "do 90 dana u periodu od 6 meseci (od datuma prvog ulaska)",
+        "to_rs_conditions": "MSP (original): Vize nisu potrebne za boravke do 90 dana u periodu od 6 meseci od datuma prvog ulaska | Diplomatski i službeni pasoši (original): vize nisu potrebne za boravke do 90 dana",
+        "from_rs_requirements": [
+          "Napomena: Za nosioca putnog lista u tranzitu neophodna je viza"
+        ],
+        "from_rs_instructions": {
+          "fee": "USD 185 za B-1/B-2, C-1, D, F, I, J, M, T, TN/TD; USD 205 za H, L, O, P, Q, R, CW; USD 265 za K; USD 315 za E (nepovratno, prema ustraveldocs Srbija, korak 3). Mogu se naplatiti dodatne takse; proverite na travel.state.gov.",
+          "notes": "Zahtev podnosite u ambasadi u zemlji prebivališta ili državljanstva. Srbija nije u programu bezviznog putovanja (Visa Waiver Program). Ograničenja iz predsedničke proklamacije 10998 važe za državljane 39 zemalja (Srbija nije među njima). travel.state.gov blokira automatizovan pristup, pa su iznosi taksi preuzeti sa stranice ustraveldocs Srbija.",
+          "where": "Ambasada SAD u Beogradu, Bulevar kneza Aleksandra Karadjordjevica 92, 11040 Beograd (razgovor lično; Servis za zakazivanje viza ustraveldocs Srbija)",
+          "validity": "Rok važenja određuje konzularni službenik; na pregledanim stranicama nije naveden fiksni period.",
+          "apply_url": "https://ceac.state.gov/genniv/",
+          "documents": [
+            "Onlajn obrazac DS-160 (po jedan za svakog podnosioca, uključujući decu); odštampana potvrda sa barkodom",
+            "Pasoš važeći za planirani boravak",
+            "Fotografija snimljena u poslednjih 6 meseci, u skladu sa zahtevima SAD za fotografije",
+            "Dokaz o uplati takse za podnošenje zahteva za vizu",
+            "Potvrda o terminu; otisci prstiju bez mastila uzimaju se na razgovoru (uzrast 14–79 godina)",
+            "Dodatna dokumenta koja se traže na razgovoru (svrha putovanja, veze sa zemljom porekla)"
+          ],
+          "processing": "Nije objavljeno fiksno trajanje; ambasada savetuje podnošenje zahteva najmanje 3 meseca pre putovanja; ubrzani termini za medicinske, pogrebne, hitne poslovne i studentske slučajeve dostupni su preko ustraveldocs.",
+          "source_url": "https://ustraveldocs.com/rs/en/step-3",
+          "appointment_url": "https://ustraveldocs.com/rs/en/step-4"
+        }
+      },
+      "UY": {
+        "to_rs_stay": "do 90 dana u periodu od 6 meseci (od datuma prvog ulaska)",
+        "to_rs_conditions": "MSP (original): Vize nisu potrebne za boravke do 90 dana u periodu od 6 meseci od datuma prvog ulaska | Diplomatski i službeni pasoši (original): vize nisu potrebne za boravke do 90 dana",
+        "from_rs_stay": "do 90 dana",
+        "from_rs_passport": "Rok važenja pasoša radi turističkog putovanja mora biti najmanje 6 meseci, što važi i za regulisanje boravka.",
+        "from_rs_requirements": [
+          "Napomena:*Za nosioca putnog lista u tranzitu neophodna je viza."
+        ]
+      },
+      "UZ": {
+        "to_rs_conditions": "MSP (original): Vize su potrebne | Diplomatski i službeni pasoši (original): vize nisu potrebne za boravke do 90 dana u periodu od 180 dana",
+        "from_rs_stay": "do 30 dana",
+        "from_rs_requirements": [
+          "Napomena: Za nosioca putnog lista u tranzitu nije neophodna viza"
+        ]
+      },
+      "VA": {
+        "to_rs_stay": "do 90 dana",
+        "to_rs_conditions": "MSP (original): Vize nisu potrebne za boravke do 90 dana | Diplomatski i službeni pasoši (original): vize nisu potrebne za boravke do 90 dana",
+        "from_rs_stay": "do 90 dana u periodu od 180 dana"
+      },
+      "VC": {
+        "to_rs_stay": "do 30 dana u periodu od godinu dana",
+        "to_rs_conditions": "MSP (original): Vize nisu potrebne za boravke do 30 dana u periodu od godinu dana. | Diplomatski i službeni pasoši (original): vize nisu potrebne za boravke do 30 dana u periodu od godinu dana.",
+        "from_rs_stay": "do 30 dana u periodu od godinu dana"
+      },
+      "VE": {
+        "to_rs_stay": "do 90 dana u periodu od 180 dana (od datuma prvog ulaska)",
+        "to_rs_conditions": "MSP (original): Vize nisu potrebne za boravke do 90 dana u periodu od 180 dana računajući od datuma prvog ulaska. | Diplomatski i službeni pasoši (original): vize nisu potrebne za boravke do 90 dana",
+        "from_rs_stay": "do 90 dana",
+        "from_rs_requirements": [
+          "Napomena: Za nosioca putnog lista u tranzitu neophodna je viza."
+        ]
+      },
+      "VN": {
+        "to_rs_conditions": "MSP (original): Vize su potrebne | Diplomatski i službeni pasoši (original): vize nisu potrebne za boravke do 90 dana",
+        "from_rs_requirements": [
+          "Napomena: Za nosioca putnog lista u tranzitu neophodna je viza",
+          "Građani R. Srbije koji planiraju da posete SR Vijetnam, treba da podnesu zahtev za elektronsku vizu posredstvom sledećeg linka: https://evisa.gov.vn/e-visa/foreigners Elektronska viza državljanima R. Srbije omogućava boravak u SR Vijetnam do 90 dana.",
+          "Podnosilac zahteva za elektronsku vizu može da optira za jedan ili više ulazaka u SR Vijetnam od čega zavisi iznos konzularne takse: 25 američkih dolara za jedan i 50 dolara za više ulazaka.",
+          "Nosioci elektronskih viza u SR Vijetnam moraju da uđu preko međunarodnih graničnih prelaza koje je odredila Vlada SR Vijetnama."
+        ],
+        "from_rs_instructions": {
+          "fee": "USD 25 za jedan ulazak; USD 50 za više ulazaka (prema MSP); plaća se onlajn, nepovratno",
+          "notes": "Mora se ući preko graničnih prelaza koje je odredila Vijetnam.",
+          "where": "Portal za e-vize Vijetnama",
+          "validity": "Do 90 dana",
+          "apply_url": "https://evisa.gov.vn/e-visa/foreigners",
+          "documents": [],
+          "processing": null,
+          "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/vijetnam",
+          "appointment_url": null
+        }
+      },
+      "VU": {
+        "to_rs_conditions": "MSP (original): Vize su potrebne | Diplomatski i službeni pasoši (original): vize nisu potrebne za boravke do 90 dana",
+        "from_rs_requirements": [
+          "Napomena: Za nosioca putnog lista u tranzitu neophodna je viza"
+        ]
+      },
+      "WS": {
+        "to_rs_conditions": "MSP (original): Vize su potrebne | Diplomatski i službeni pasoši (original): vize su potrebne",
+        "from_rs_instructions": {
+          "fee": null,
+          "notes": "Spisak dokumenata i taksa nisu objavljeni na stranici MSP; stranica nadležnog organa strane države nije pregledana u ovom koraku.",
+          "where": "Imigraciona služba Samoe",
+          "validity": null,
+          "apply_url": "http://mpmc.gov.ws/divisions/immigration/",
+          "documents": [],
+          "processing": null,
+          "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/samoa",
+          "appointment_url": null
+        }
+      },
+      "YE": {
+        "to_rs_conditions": "MSP (original): Vize su potrebne | Diplomatski i službeni pasoši (original): vize su potrebne",
+        "from_rs_requirements": [
+          "Napomena: Za nosioca putnog lista u tranzitu neophodna je viza"
+        ],
+        "instructions_note": "MSP: savetuje se da se ne putuje ni u jednom slučaju; građanski rat, većina ambasada napustila je Sanu."
+      },
+      "ZA": {
+        "to_rs_conditions": "MSP (original): Vize su potrebne | Diplomatski i službeni pasoši (original): vize su potrebne",
+        "from_rs_passport": "Rok važenja pasoša radi putovanja mora biti 6 meseci od dana planiranog ulaska.",
+        "from_rs_requirements": [
+          "Napomena: Za nosioca putnog lista u tranzitu neophodna je viza osim ukoliko ne napušta aerodromsku međunarodnu zonu",
+          "Tambi, Međunarodnog aerodroma Kejptaun, Međunarodnog aerodroma Lanserija i Međunarodnog aerodroma King Šaka, zahtev za elektronsku vizu (ETA) mogu podneti preko https://eta.dha.gov.za/."
+        ],
+        "from_rs_instructions": {
+          "fee": "Elektronska taksa za obradu ZAR 500 (prema Službenom listu DHA od 17. avgusta 2026)",
+          "notes": "Podnosilac mora imati najmanje 18 godina. Nije važeća za rad. Pravilo o roku važenja pasoša se razlikuje na stranicama portala (FAQ: 7 meseci od putovanja i 30 dana nakon isteka vize) – proverite aktuelni obrazac.",
+          "where": "Portal ETA Ministarstva unutrašnjih poslova Južne Afrike (samo aerodromi OR Tambo, Kejptaun, Lanserija i King Šaka); inače viza preko VFS-a ili misije Južne Afrike",
+          "validity": "ETA važi do 6 meseci od izdavanja; boravak do 90 dana",
+          "apply_url": "https://eta.dha.gov.za/",
+          "documents": [
+            "Važeći običan pasoš (rok važenja prema FAQ stranici portala)",
+            "Odobrenje ETA",
+            "Povratna ili nastavna karta",
+            "Dokaz o smeštaju",
+            "Dokaz o dovoljnim sredstvima",
+            "Sertifikat o vakcinaciji protiv žute groznice, ako je primenljivo"
+          ],
+          "processing": null,
+          "source_url": "https://eta.dha.gov.za/faq",
+          "appointment_url": null
+        }
+      },
+      "ZM": {
+        "to_rs_conditions": "MSP (original): Vize su potrebne | Diplomatski i službeni pasoši (original): vize su potrebne",
+        "from_rs_passport": "Rok važenja pasoša radi putovanja mora biti 6 meseci od dana planiranog ulaska u Zambiju.",
+        "from_rs_requirements": [
+          "Napomena: Za nosioca putnog lista u tranzitu potrebna je viza.",
+          "Svi koji u Zambiju stižu vazdušnim putem moraju imati važeće povratne avio karte.",
+          "Oni koji stižu kopnom moraju imati dovoljno sredstava za boravak i odlazak iz Zambije."
+        ],
+        "from_rs_instructions": {
+          "fee": "KAZA UNIVISA USD 50",
+          "notes": "Tekst MSP navodi da vize nisu potrebne osim za tranzitna dokumenta, dok zaglavlje MSP navodi da je viza potrebna, ali se može dobiti na granici: nedosledno na samoj stranici MSP.",
+          "where": "Na granici ili KAZA UNIVISA (Zambija/Zimbabve)",
+          "validity": "KAZA UNIVISA do 30 dana",
+          "apply_url": null,
+          "documents": [
+            "Pasoš važeći 6 meseci, sa 2 prazne stranice"
+          ],
+          "processing": null,
+          "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/zambija",
+          "appointment_url": null
+        }
+      },
+      "ZW": {
+        "to_rs_conditions": "MSP (original): Vize su potrebne | Diplomatski i službeni pasoši (original): vize su potrebne",
+        "from_rs_passport": "Rok važenja pasoša radi putovanja mora biti 6 meseci od dana planiranog ulaska.",
+        "from_rs_requirements": [
+          "Napomena: Za nosioca putnog lista u tranzitu neophodna je viza"
+        ],
+        "from_rs_instructions": {
+          "fee": null,
+          "notes": "Spisak dokumenata i taksa nisu objavljeni na stranici MSP; stranica nadležnog organa strane države nije pregledana u ovom koraku.",
+          "where": "Viza Zimbabvea (videti stranicu MSP)",
+          "validity": null,
+          "apply_url": null,
+          "documents": [],
+          "processing": null,
+          "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/zimbabve",
+          "appointment_url": null
+        }
+      }
+    }
+  },
+  "en": {
+    "countries": {
+      "TR": {
+        "to_rs_stay": "up to 90 days in a 6-month period",
+        "to_rs_conditions": "MSP (original): No visas required for visits of up to 90 days in a 6-month period from the first entry | Diplomatic and official passports (original): No visas required for visits of up to 90 days",
+        "from_rs_stay": "up to 90 days in a 6-month period (from the date of first entry)",
+        "from_rs_passport": "Foreign nationals entering the Republic of Turkey must hold a passport valid for at least 60 days longer than the visa or residence permit expiry date, or than the permitted visa-free stay (visa-free stay for our citizens is 90 days in a 6-month period).",
+        "from_rs_requirements": [
+          "Note: A visa is not required for the holder of a travel document in transit"
+        ]
+      },
+      "TT": {
+        "to_rs_stay": "up to 90 days in a 6-month period (from the date of first entry)",
+        "to_rs_conditions": "MSP (original): No visas required for visits of up to 90 days in a 6-month period starting from the date of first entry | Diplomatic and official passports (original): No visas required for visits of up to 90 days in a 6-month period starting from the date of first entry",
+        "from_rs_stay": "up to 30 days"
+      },
+      "TV": {
+        "to_rs_stay": "up to 90 days within a period of 180 days",
+        "to_rs_conditions": "MSP (original): No visas required for visits of up to 90 days within a period of 180 days | Diplomatic and official passports (original): No visas required for visits of up to 90 days within a period of 180 days",
+        "from_rs_stay": "up to 90 days within a period of 180 days"
+      },
+      "TZ": {
+        "to_rs_conditions": "MSP (original): Visas required | Diplomatic and official passports (original): Visas required",
+        "from_rs_requirements": [
+          "Note: A visa is required for the holder of a travel document in transit",
+          "Travellers arriving from countries where yellow fever is endemic must hold a certificate of vaccination (“yellow card”)."
+        ],
+        "from_rs_instructions": {
+          "fee": "Ordinary (single-entry) visa USD 50 (US passport holders must take a multiple-entry visa, USD 100)",
+          "notes": "Wait for the visa approval notice by email before travel. Fees are pre-paid and non-refundable. Apply only on the official site.",
+          "where": "Tanzania e-visa portal (Immigration Services) or visa on arrival; embassy in Rome",
+          "validity": "Ordinary visa up to 90 days",
+          "apply_url": "https://visa.immigration.go.tz/",
+          "documents": [
+            "Passport valid for at least 6 months, with one unused page",
+            "Return ticket (shown at entry)"
+          ],
+          "processing": "Within ten days of application",
+          "source_url": "https://visa.immigration.go.tz/guidelines",
+          "appointment_url": null
+        }
+      },
+      "UA": {
+        "to_rs_stay": "up to 90 days within a period of 180 days",
+        "to_rs_conditions": "MSP (original): No visas required for visits of up to 90 days within a period of 180 days | Diplomatic and official passports (original): No visas required for visits of up to 90 days",
+        "from_rs_stay": "up to 90 days within a period of 180 days",
+        "from_rs_passport": "The passport must be valid for at least 3 months from the date of leaving Ukraine for a tourist trip.",
+        "from_rs_requirements": [
+          "Note:* A visa is required for the holder of a travel document in transit.",
+          "Travel health insurance is mandatory.",
+          "Proof of vaccination is not required."
+        ]
+      },
+      "UG": {
+        "to_rs_conditions": "MSP (original): Visas required | Diplomatic and official passports (original): Visas required",
+        "from_rs_requirements": [
+          "Note: A visa is required for the holder of a travel document in transit",
+          "After the application is approved, an e-visa approval letter with a barcode is sent to the email address entered when applying.",
+          "Since May 2026, holding a yellow card (yellow fever vaccination) is no longer a condition for a visa application, but the World Health Organization still strongly recommends the vaccine to protect health, since Uganda lies in a yellow fever transmission zone."
+        ],
+        "from_rs_instructions": {
+          "fee": "Single entry/transit USD 50; multiple entry for 6 or 12 months USD 100; 2 years USD 200",
+          "notes": "The yellow card has not been a visa condition since May 2026 but is strongly recommended. Ugandan Embassy in Rome: consular.rome@mofa.go.ug.",
+          "where": "Uganda e-visa portal",
+          "validity": "Depends on visa type",
+          "apply_url": "https://visas.immigration.go.ug/",
+          "documents": [
+            "Documents listed on the help page; approval letter with printed barcode"
+          ],
+          "processing": "2-3 working days",
+          "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/uganda",
+          "appointment_url": "https://visas.immigration.go.ug/#/help/visa"
+        }
+      },
+      "US": {
+        "to_rs_stay": "up to 90 days in a 6-month period (from the date of first entry)",
+        "to_rs_conditions": "MSP (original): No visas required for visits of up to 90 days in a 6-month period starting from the date of the first entry | Diplomatic and official passports (original): No visas required for visits of up to 90 days",
+        "from_rs_requirements": [
+          "Note: A visa is required for the holder of a travel document in transit"
+        ],
+        "from_rs_instructions": {
+          "fee": "USD 185 for B-1/B-2, C-1, D, F, I, J, M, T, TN/TD; USD 205 for H, L, O, P, Q, R, CW; USD 265 for K; USD 315 for E (non-refundable, per ustraveldocs Serbia, step 3). Additional fees may apply; check travel.state.gov.",
+          "notes": "Apply at the embassy in the country of residence or nationality. Serbia is not in the Visa Waiver Program. Restrictions under Presidential Proclamation 10998 apply to nationals of 39 countries (Serbia is not one of them). travel.state.gov blocked automated access, so the fee amounts come from the ustraveldocs Serbia page.",
+          "where": "U.S. Embassy Belgrade, Bulevar kneza Aleksandra Karadjordjevica 92, 11040 Belgrade (interview in person; Visa Appointment Service ustraveldocs Serbia)",
+          "validity": "Validity is set by the consular officer; no fixed period is stated on the pages retrieved.",
+          "apply_url": "https://ceac.state.gov/genniv/",
+          "documents": [
+            "Online form DS-160 (one per applicant, including children); barcode confirmation page printed",
+            "Passport valid for the intended stay",
+            "Photo taken within the last 6 months that meets U.S. photo requirements",
+            "Proof of payment of the visa application fee",
+            "Appointment confirmation; ink-free fingerprints taken at the interview (ages 14-79)",
+            "Supporting documents as requested at the interview (purpose of travel, ties to home country)"
+          ],
+          "processing": "Not published as a fixed figure; the embassy advises applying at least 3 months before travel; expedited appointments for medical, funeral, urgent business and student cases are available via ustraveldocs.",
+          "source_url": "https://ustraveldocs.com/rs/en/step-3",
+          "appointment_url": "https://ustraveldocs.com/rs/en/step-4"
+        }
+      },
+      "UY": {
+        "to_rs_stay": "up to 90 days in a 6-month period (from the date of first entry)",
+        "to_rs_conditions": "MSP (original): No visas required for visits of up to 90 days in a 6-month period starting from the date of the first entry | Diplomatic and official passports (original): No visas required for visits of up to 90 days",
+        "from_rs_stay": "up to 90 days",
+        "from_rs_passport": "The passport must be valid for at least 6 months for a tourist trip; this also applies to residence arrangements.",
+        "from_rs_requirements": [
+          "Note:* A visa is required for the holder of a travel document in transit."
+        ]
+      },
+      "UZ": {
+        "to_rs_conditions": "MSP (original): Visas required | Diplomatic and official passports (original): No visas required for visits of up to 90 days within a period of 180 days",
+        "from_rs_stay": "up to 30 days",
+        "from_rs_requirements": [
+          "Note: A visa is not required for the holder of a travel document in transit"
+        ]
+      },
+      "VA": {
+        "to_rs_stay": "up to 90 days",
+        "to_rs_conditions": "MSP (original): No visas required for visits of up to 90 days | Diplomatic and official passports (original): No visas required for visits of up to 90 days",
+        "from_rs_stay": "up to 90 days within a period of 180 days"
+      },
+      "VC": {
+        "to_rs_stay": "up to 30 days within a period of one year",
+        "to_rs_conditions": "MSP (original): No visas required for visits of up to 30 days within a period of one year. | Diplomatic and official passports (original): No visas required for visits of up to 30 days within a period of one year.",
+        "from_rs_stay": "up to 30 days within a period of one year"
+      },
+      "VE": {
+        "to_rs_stay": "up to 90 days within a period of 180 days (from the date of first entry)",
+        "to_rs_conditions": "MSP (original): No visas required for visits of up to 90 days within 180 days counted from the date of first entry. | Diplomatic and official passports (original): No visas required for visits of up to 90 days",
+        "from_rs_stay": "up to 90 days",
+        "from_rs_requirements": [
+          "Note: A visa is required for the holder of a travel document in transit."
+        ]
+      },
+      "VN": {
+        "to_rs_conditions": "MSP (original): Visas required | Diplomatic and official passports (original): No visas required for visits of up to 90 days",
+        "from_rs_requirements": [
+          "Note: A visa is required for the holder of a travel document in transit",
+          "Citizens of the Republic of Serbia planning to visit the Socialist Republic of Vietnam should submit an e-visa application via the following link: https://evisa.gov.vn/e-visa/foreigners The e-visa allows Serbian citizens to stay in the Socialist Republic of Vietnam for up to 90 days.",
+          "The e-visa applicant may choose one or more entries into the Socialist Republic of Vietnam; the consular fee depends on this choice: 25 US dollars for a single entry and 50 dollars for multiple entries.",
+          "Holders of e-visas for the Socialist Republic of Vietnam must enter through international border crossings designated by the Government of the Socialist Republic of Vietnam."
+        ],
+        "from_rs_instructions": {
+          "fee": "USD 25 single entry; USD 50 multiple entry (per MFA); online payment, non-refundable",
+          "notes": "Must enter through border gates designated by Vietnam.",
+          "where": "Vietnam e-visa portal",
+          "validity": "Up to 90 days",
+          "apply_url": "https://evisa.gov.vn/e-visa/foreigners",
+          "documents": [],
+          "processing": null,
+          "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/vijetnam",
+          "appointment_url": null
+        }
+      },
+      "VU": {
+        "to_rs_conditions": "MSP (original): Visas required | Diplomatic and official passports (original): No visas required for visits of up to 90 days",
+        "from_rs_requirements": [
+          "Note: A visa is required for the holder of a travel document in transit"
+        ]
+      },
+      "WS": {
+        "to_rs_conditions": "MSP (original): Visas required | Diplomatic and official passports (original): Visas required",
+        "from_rs_instructions": {
+          "fee": null,
+          "notes": "The list of documents and the fee are not published on the MFA page; the foreign state's own visa page was not retrieved in this review.",
+          "where": "Samoa immigration",
+          "validity": null,
+          "apply_url": "http://mpmc.gov.ws/divisions/immigration/",
+          "documents": [],
+          "processing": null,
+          "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/samoa",
+          "appointment_url": null
+        }
+      },
+      "YE": {
+        "to_rs_conditions": "MSP (original): Visas required | Diplomatic and official passports (original): Visas required",
+        "from_rs_requirements": [
+          "Note: A visa is required for the holder of a travel document in transit"
+        ],
+        "instructions_note": "MFA: advises against any travel; civil war, most embassies have left Sana'a."
+      },
+      "ZA": {
+        "to_rs_conditions": "MSP (original): Visas required | Diplomatic and official passports (original): Visas required",
+        "from_rs_passport": "The passport must be valid for 6 months from the planned date of entry for travel.",
+        "from_rs_requirements": [
+          "Note: A visa is required for the holder of a travel document in transit, unless they do not leave the international airport zone",
+          "O.R. Tambo, Cape Town, Lanseria and King Shaka International Airports: an electronic visa (ETA) application may be submitted at https://eta.dha.gov.za/."
+        ],
+        "from_rs_instructions": {
+          "fee": "Electronic processing fee ZAR 500 (per DHA gazette of 17 Aug 2026)",
+          "notes": "Applicant must be 18 or older. Not valid for work. The passport validity rule differs between portal pages (FAQ: 7 months from travel and 30 days after visa expiry) - check the live form.",
+          "where": "South African Department of Home Affairs ETA portal (O.R. Tambo, Cape Town, Lanseria and King Shaka airports only); otherwise visa via VFS or the South African mission",
+          "validity": "ETA valid for up to 6 months from issue; stay of up to 90 days",
+          "apply_url": "https://eta.dha.gov.za/",
+          "documents": [
+            "Valid ordinary passport (validity per the portal FAQ)",
+            "ETA approval",
+            "Return or onward ticket",
+            "Proof of accommodation",
+            "Proof of sufficient funds",
+            "Yellow fever certificate if applicable"
+          ],
+          "processing": null,
+          "source_url": "https://eta.dha.gov.za/faq",
+          "appointment_url": null
+        }
+      },
+      "ZM": {
+        "to_rs_conditions": "MSP (original): Visas required | Diplomatic and official passports (original): Visas required",
+        "from_rs_passport": "The passport must be valid for 6 months from the planned date of entry into Zambia.",
+        "from_rs_requirements": [
+          "Note: A visa is required for the holder of a travel document in transit.",
+          "All persons arriving by air must hold valid return air tickets.",
+          "Persons arriving by land must have sufficient funds for their stay in and departure from Zambia."
+        ],
+        "from_rs_instructions": {
+          "fee": "KAZA UNIVISA USD 50",
+          "notes": "The MFA text says visas are not required except for transit documents, while the MFA header says a visa is required but can be obtained at the border: the MFA page itself is inconsistent.",
+          "where": "Border or KAZA UNIVISA (Zambia/Zimbabwe)",
+          "validity": "KAZA UNIVISA up to 30 days",
+          "apply_url": null,
+          "documents": [
+            "Passport valid for 6 months, with 2 blank pages"
+          ],
+          "processing": null,
+          "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/zambija",
+          "appointment_url": null
+        }
+      },
+      "ZW": {
+        "to_rs_conditions": "MSP (original): Visas required | Diplomatic and official passports (original): Visas required",
+        "from_rs_passport": "The passport must be valid for 6 months from the planned date of entry.",
+        "from_rs_requirements": [
+          "Note: A visa is required for the holder of a travel document in transit"
+        ],
+        "from_rs_instructions": {
+          "fee": null,
+          "notes": "The list of documents and the fee are not published on the MFA page; the foreign state's own visa page was not retrieved in this review.",
+          "where": "Zimbabwe visa (see MFA page)",
+          "validity": null,
+          "apply_url": null,
+          "documents": [],
+          "processing": null,
+          "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/zimbabve",
+          "appointment_url": null
+        }
+      }
+    }
+  },
+  "ru": {
+    "countries": {
+      "TR": {
+        "to_rs_stay": "до 90 дней в течение 6 месяцев",
+        "to_rs_conditions": "MSP (оригинал): виза не требуется для поездок до 90 дней в течение 6 месяцев с даты первого въезда | Дипломатические и служебные паспорта (оригинал): виза не требуется для поездок до 90 дней",
+        "from_rs_stay": "до 90 дней в течение 6 месяцев (с даты первого въезда)",
+        "from_rs_passport": "Иностранные граждане, въезжающие в Турецкую Республику, должны иметь паспорт, срок действия которого превышает срок визы или вида на жительство либо разрешённого безвизового пребывания не менее чем на 60 дней (безвизовое пребывание для граждан Сербии составляет 90 дней в течение 6 месяцев).",
+        "from_rs_requirements": [
+          "Примечание: для держателя проездного документа при транзите виза не требуется"
+        ]
+      },
+      "TT": {
+        "to_rs_stay": "до 90 дней в течение 6 месяцев (с даты первого въезда)",
+        "to_rs_conditions": "MSP (оригинал): виза не требуется для поездок до 90 дней в течение 6 месяцев, начиная с даты первого въезда | Дипломатические и служебные паспорта (оригинал): виза не требуется для поездок до 90 дней в течение 6 месяцев, начиная с даты первого въезда",
+        "from_rs_stay": "до 30 дней"
+      },
+      "TV": {
+        "to_rs_stay": "до 90 дней в течение периода 180 дней",
+        "to_rs_conditions": "MSP (оригинал): виза не требуется для поездок до 90 дней в течение 180 дней | Дипломатические и служебные паспорта (оригинал): виза не требуется для поездок до 90 дней в течение 180 дней",
+        "from_rs_stay": "до 90 дней в течение периода 180 дней"
+      },
+      "TZ": {
+        "to_rs_conditions": "MSP (оригинал): визы требуются | Дипломатические и служебные паспорта (оригинал): визы требуются",
+        "from_rs_requirements": [
+          "Примечание: для держателя проездного документа при транзите виза обязательна",
+          "Путешественники, прибывающие из стран, где распространена желтая лихорадка, должны иметь справку о прививке («желтая карта»)."
+        ],
+        "from_rs_instructions": {
+          "fee": "Обычная (однократная) виза USD 50 (владельцам американских паспортов необходимо оформлять многократную визу USD 100)",
+          "notes": "Перед поездкой дождитесь уведомления об одобрении визы по электронной почте. Сборы оплачиваются заранее и не возвращаются. Подавайте заявление только на официальном сайте.",
+          "where": "Танзанийский портал электронных виз (Иммиграционная служба) или виза по прибытии; посольство в Риме",
+          "validity": "Обычная виза до 90 дней",
+          "apply_url": "https://visa.immigration.go.tz/",
+          "documents": [
+            "Паспорт, действительный не менее 6 месяцев, с одной неиспользованной страницей",
+            "Обратный билет (предъявляется при въезде)"
+          ],
+          "processing": "В течение десяти дней с момента подачи заявления",
+          "source_url": "https://visa.immigration.go.tz/guidelines",
+          "appointment_url": null
+        }
+      },
+      "UA": {
+        "to_rs_stay": "до 90 дней в течение 180 дней",
+        "to_rs_conditions": "MSP (оригинал): виза не требуется для поездок до 90 дней в течение 180 дней | Дипломатические и служебные паспорта (оригинал): виза не требуется для поездок до 90 дней",
+        "from_rs_stay": "до 90 дней в течение 180 дней",
+        "from_rs_passport": "Срок действия паспорта для туристической поездки должен составлять 3 месяца с даты выезда из Украины.",
+        "from_rs_requirements": [
+          "Примечание:* Для держателя проездного документа при транзите виза обязательна.",
+          "Обязательна страховка здоровья путешественника.",
+          "Подтверждение вакцинации не требуется."
+        ]
+      },
+      "UG": {
+        "to_rs_conditions": "MSP (оригинал): визы требуются | Дипломатические и служебные паспорта (оригинал): визы требуются",
+        "from_rs_requirements": [
+          "Примечание: для держателя проездного документа при транзите виза обязательна",
+          "После одобрения заявки на электронную почту, указанную при подаче, приходит письмо с одобрением электронной визы со штрих-кодом.",
+          "С мая 2026 года наличие «желтой карты» (прививка от желтой лихорадки) не является условием подачи заявления на визу, однако Всемирная организация здравоохранения по-прежнему настоятельно рекомендует прививку, поскольку Уганда находится в зоне распространения желтой лихорадки."
+        ],
+        "from_rs_instructions": {
+          "fee": "Однократная виза / транзит USD 50; многократная на 6 или 12 месяцев USD 100; на 2 года USD 200",
+          "notes": "С мая 2026 года «желтая карта» больше не является условием визы, но настоятельно рекомендуется. Посольство Уганды в Риме: consular.rome@mofa.go.ug.",
+          "where": "Портал электронных виз Уганды",
+          "validity": "Зависит от типа визы",
+          "apply_url": "https://visas.immigration.go.ug/",
+          "documents": [
+            "Документы, указанные на странице помощи; письмо с одобрением с напечатанным штрих-кодом"
+          ],
+          "processing": "2–3 рабочих дня",
+          "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/uganda",
+          "appointment_url": "https://visas.immigration.go.ug/#/help/visa"
+        }
+      },
+      "US": {
+        "to_rs_stay": "до 90 дней в течение 6 месяцев (с даты первого въезда)",
+        "to_rs_conditions": "MSP (оригинал): виза не требуется для поездок до 90 дней в течение 6 месяцев, начиная с даты первого въезда | Дипломатические и служебные паспорта (оригинал): виза не требуется для поездок до 90 дней",
+        "from_rs_requirements": [
+          "Примечание: для держателя проездного документа при транзите виза обязательна"
+        ],
+        "from_rs_instructions": {
+          "fee": "USD 185 для B-1/B-2, C-1, D, F, I, J, M, T, TN/TD; USD 205 для H, L, O, P, Q, R, CW; USD 265 для K; USD 315 для E (невозвратный сбор, по данным ustraveldocs Serbia, шаг 3). Могут взиматься дополнительные сборы; проверьте на travel.state.gov.",
+          "notes": "Заявление подается в посольстве страны проживания или гражданства. Сербия не входит в программу безвизовых поездок (Visa Waiver Program). Ограничения по Президентской прокламации 10998 распространяются на граждан 39 стран (Сербия в их число не входит). Сайт travel.state.gov блокирует автоматизированный доступ, поэтому суммы сборов взяты со страницы ustraveldocs Serbia.",
+          "where": "Посольство США в Белграде, Bulevar kneza Aleksandra Karadjordjevica 92, 11040 Belgrade (собеседование лично; служба записи на визы ustraveldocs Serbia)",
+          "validity": "Срок действия определяет консульский сотрудник; на просмотренных страницах фиксированный срок не указан.",
+          "apply_url": "https://ceac.state.gov/genniv/",
+          "documents": [
+            "Онлайн-форма DS-160 (отдельная для каждого заявителя, включая детей); распечатанное подтверждение со штрих-кодом",
+            "Паспорт, действительный на период запланированного пребывания",
+            "Фотография, сделанная за последние 6 месяцев и соответствующая требованиям США",
+            "Подтверждение оплаты сбора за рассмотрение визового заявления",
+            "Подтверждение записи; отпечатки пальцев без чернил снимаются на собеседовании (возраст 14–79 лет)",
+            "Дополнительные документы, которые могут быть запрошены на собеседовании (цель поездки, связи с домашней страной)"
+          ],
+          "processing": "Фиксированный срок не публикуется; посольство советует подавать заявление не позднее чем за 3 месяца до поездки; ускоренные записи для медицинских, похоронных, срочных деловых и студенческих случаев доступны через ustraveldocs.",
+          "source_url": "https://ustraveldocs.com/rs/en/step-3",
+          "appointment_url": "https://ustraveldocs.com/rs/en/step-4"
+        }
+      },
+      "UY": {
+        "to_rs_stay": "до 90 дней в течение 6 месяцев (с даты первого въезда)",
+        "to_rs_conditions": "MSP (оригинал): виза не требуется для поездок до 90 дней в течение 6 месяцев, начиная с даты первого въезда | Дипломатические и служебные паспорта (оригинал): виза не требуется для поездок до 90 дней",
+        "from_rs_stay": "до 90 дней",
+        "from_rs_passport": "Срок действия паспорта для туристической поездки должен составлять не менее 6 месяцев; это действует и для оформления пребывания.",
+        "from_rs_requirements": [
+          "Примечание:* Для держателя проездного документа при транзите виза обязательна."
+        ]
+      },
+      "UZ": {
+        "to_rs_conditions": "MSP (оригинал): визы требуются | Дипломатические и служебные паспорта (оригинал): виза не требуется для поездок до 90 дней в течение 180 дней",
+        "from_rs_stay": "до 30 дней",
+        "from_rs_requirements": [
+          "Примечание: для держателя проездного документа при транзите виза не требуется"
+        ]
+      },
+      "VA": {
+        "to_rs_stay": "до 90 дней",
+        "to_rs_conditions": "MSP (оригинал): виза не требуется для поездок до 90 дней | Дипломатические и служебные паспорта (оригинал): виза не требуется для поездок до 90 дней",
+        "from_rs_stay": "до 90 дней в течение 180 дней"
+      },
+      "VC": {
+        "to_rs_stay": "до 30 дней в течение одного года",
+        "to_rs_conditions": "MSP (оригинал): виза не требуется для поездок до 30 дней в течение одного года. | Дипломатические и служебные паспорта (оригинал): виза не требуется для поездок до 30 дней в течение одного года.",
+        "from_rs_stay": "до 30 дней в течение одного года"
+      },
+      "VE": {
+        "to_rs_stay": "до 90 дней в течение 180 дней (с даты первого въезда)",
+        "to_rs_conditions": "MSP (оригинал): виза не требуется для поездок до 90 дней в течение 180 дней с даты первого въезда. | Дипломатические и служебные паспорта (оригинал): виза не требуется для поездок до 90 дней",
+        "from_rs_stay": "до 90 дней",
+        "from_rs_requirements": [
+          "Примечание: для держателя проездного документа при транзите виза обязательна."
+        ]
+      },
+      "VN": {
+        "to_rs_conditions": "MSP (оригинал): визы требуются | Дипломатические и служебные паспорта (оригинал): виза не требуется для поездок до 90 дней",
+        "from_rs_requirements": [
+          "Примечание: для держателя проездного документа при транзите виза обязательна",
+          "Граждане Республики Сербия, планирующие посетить СРВ, должны подать заявление на электронную визу по следующей ссылке: https://evisa.gov.vn/e-visa/foreigners Электронная виза дает гражданам Республики Сербия право на пребывание в СРВ до 90 дней.",
+          "Заявитель на электронную визу может выбрать одну или несколько въездов в СРВ; от этого зависит размер консульского сбора: 25 долларов США за один въезд и 50 долларов за несколько въездов.",
+          "Обладатели электронных виз в СРВ должны въезжать через международные пункты пропуска, определенные Правительством СРВ."
+        ],
+        "from_rs_instructions": {
+          "fee": "USD 25 за однократный въезд; USD 50 за многократный въезд (по данным МИД); онлайн-оплата, невозвратно",
+          "notes": "Въезд необходимо осуществлять через пункты пропуска, определенные Вьетнамом.",
+          "where": "Портал электронных виз Вьетнама",
+          "validity": "До 90 дней",
+          "apply_url": "https://evisa.gov.vn/e-visa/foreigners",
+          "documents": [],
+          "processing": null,
+          "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/vijetnam",
+          "appointment_url": null
+        }
+      },
+      "VU": {
+        "to_rs_conditions": "MSP (оригинал): визы требуются | Дипломатические и служебные паспорта (оригинал): виза не требуется для поездок до 90 дней",
+        "from_rs_requirements": [
+          "Примечание: для держателя проездного документа при транзите виза обязательна"
+        ]
+      },
+      "WS": {
+        "to_rs_conditions": "MSP (оригинал): визы требуются | Дипломатические и служебные паспорта (оригинал): визы требуются",
+        "from_rs_instructions": {
+          "fee": null,
+          "notes": "Перечень документов и сбор не опубликованы на странице МИД; официальная страница визовых требований иностранного государства в этом обзоре не просматривалась.",
+          "where": "Иммиграционная служба Самоа",
+          "validity": null,
+          "apply_url": "http://mpmc.gov.ws/divisions/immigration/",
+          "documents": [],
+          "processing": null,
+          "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/samoa",
+          "appointment_url": null
+        }
+      },
+      "YE": {
+        "to_rs_conditions": "MSP (оригинал): визы требуются | Дипломатические и служебные паспорта (оригинал): визы требуются",
+        "from_rs_requirements": [
+          "Примечание: для держателя проездного документа при транзите виза обязательна"
+        ],
+        "instructions_note": "МИД: рекомендует воздержаться от любых поездок; гражданская война, большинство посольств покинули Сану."
+      },
+      "ZA": {
+        "to_rs_conditions": "MSP (оригинал): визы требуются | Дипломатические и служебные паспорта (оригинал): визы требуются",
+        "from_rs_passport": "Срок действия паспорта для поездки должен составлять 6 месяцев с даты планируемого въезда.",
+        "from_rs_requirements": [
+          "Примечание: для держателя проездного документа при транзите виза обязательна, если он не покидает международную зону аэропорта",
+          "Международные аэропорты О.Р. Тамбо, Кейптаун, Лансерия и Кинг-Шака: заявление на электронную визу (ETA) можно подать по адресу https://eta.dha.gov.za/."
+        ],
+        "from_rs_instructions": {
+          "fee": "Электронный сбор за обработку ZAR 500 (по данным официального вестника DHA от 17 августа 2026 г.)",
+          "notes": "Заявитель должен быть старше 18 лет. Не действует для работы. Правило о сроке действия паспорта различается на страницах портала (FAQ: 7 месяцев от даты поездки и 30 дней после окончания визы) – проверьте актуальную форму.",
+          "where": "Портал ETA Департамента внутренних дел Южной Африки (только аэропорты О.Р. Тамбо, Кейптаун, Лансерия и Кинг-Шака); в остальных случаях виза через VFS или миссию ЮАР",
+          "validity": "ETA действует до 6 месяцев с даты выдачи; пребывание до 90 дней",
+          "apply_url": "https://eta.dha.gov.za/",
+          "documents": [
+            "Действующий обычный паспорт (срок действия согласно FAQ портала)",
+            "Одобрение ETA",
+            "Обратный или последующий билет",
+            "Подтверждение проживания",
+            "Подтверждение достаточных средств",
+            "Сертификат о вакцинации от желтой лихорадки, если применимо"
+          ],
+          "processing": null,
+          "source_url": "https://eta.dha.gov.za/faq",
+          "appointment_url": null
+        }
+      },
+      "ZM": {
+        "to_rs_conditions": "MSP (оригинал): визы требуются | Дипломатические и служебные паспорта (оригинал): визы требуются",
+        "from_rs_passport": "Срок действия паспорта для поездки должен составлять 6 месяцев с даты планируемого въезда в Замбию.",
+        "from_rs_requirements": [
+          "Примечание: для держателя проездного документа при транзите виза обязательна.",
+          "Все прибывающие авиаперевозкой должны иметь действительные обратные авиабилеты.",
+          "Прибывающие сухопутным путем должны иметь достаточно средств на пребывание в Замбии и выезд из нее."
+        ],
+        "from_rs_instructions": {
+          "fee": "KAZA UNIVISA USD 50",
+          "notes": "В тексте МИД указано, что визы не требуются, кроме транзитных документов, а в заголовке МИД – что виза требуется, но ее можно получить на границе: сама страница МИД противоречива.",
+          "where": "На границе или KAZA UNIVISA (Замбия/Зимбабве)",
+          "validity": "KAZA UNIVISA до 30 дней",
+          "apply_url": null,
+          "documents": [
+            "Паспорт, действительный 6 месяцев, с 2 чистыми страницами"
+          ],
+          "processing": null,
+          "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/zambija",
+          "appointment_url": null
+        }
+      },
+      "ZW": {
+        "to_rs_conditions": "MSP (оригинал): визы требуются | Дипломатические и служебные паспорта (оригинал): визы требуются",
+        "from_rs_passport": "Срок действия паспорта для поездки должен составлять 6 месяцев с даты планируемого въезда.",
+        "from_rs_requirements": [
+          "Примечание: для держателя проездного документа при транзите виза обязательна"
+        ],
+        "from_rs_instructions": {
+          "fee": null,
+          "notes": "Перечень документов и сбор не опубликованы на странице МИД; официальная страница визовых требований иностранного государства в этом обзоре не просматривалась.",
+          "where": "Виза Зимбабве (см. страницу МИД)",
+          "validity": null,
+          "apply_url": null,
+          "documents": [],
+          "processing": null,
+          "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/zimbabve",
+          "appointment_url": null
+        }
+      }
+    }
+  },
+  "de": {
+    "countries": {
+      "TR": {
+        "to_rs_stay": "bis zu 90 Tage innerhalb von 6 Monaten",
+        "to_rs_conditions": "MSP (Original): Für Aufenthalte bis zu 90 Tage innerhalb eines Zeitraums von 6 Monaten ab der ersten Einreise ist kein Visum erforderlich | Diplomaten- und Dienstpässe (Original): Für Aufenthalte bis zu 90 Tage ist kein Visum erforderlich",
+        "from_rs_stay": "bis zu 90 Tage innerhalb von 6 Monaten (ab dem Datum der ersten Einreise)",
+        "from_rs_passport": "Ausländische Staatsangehörige, die in die Republik Türkei einreisen, müssen einen Reisepass besitzen, dessen Gültigkeit mindestens 60 Tage über das Ablaufdatum des Visums oder der Aufenthaltserlaubnis bzw. des erlaubten visumfreien Aufenthalts hinausgeht (visumfreier Aufenthalt für unsere Staatsangehörigen: 90 Tage innerhalb von 6 Monaten).",
+        "from_rs_requirements": [
+          "Hinweis: Für Inhaber eines Reisedokuments im Transit ist kein Visum erforderlich"
+        ]
+      },
+      "TT": {
+        "to_rs_stay": "bis zu 90 Tage innerhalb von 6 Monaten (ab dem Datum der ersten Einreise)",
+        "to_rs_conditions": "MSP (Original): Für Aufenthalte bis zu 90 Tage innerhalb eines Zeitraums von 6 Monaten ab dem Datum der ersten Einreise ist kein Visum erforderlich | Diplomaten- und Dienstpässe (Original): Für Aufenthalte bis zu 90 Tage innerhalb eines Zeitraums von 6 Monaten ab dem Datum der ersten Einreise ist kein Visum erforderlich",
+        "from_rs_stay": "bis zu 30 Tage"
+      },
+      "TV": {
+        "to_rs_stay": "bis zu 90 Tage innerhalb eines Zeitraums von 180 Tagen",
+        "to_rs_conditions": "MSP (Original): Für Aufenthalte bis zu 90 Tage innerhalb von 180 Tagen ist kein Visum erforderlich | Diplomaten- und Dienstpässe (Original): Für Aufenthalte bis zu 90 Tage innerhalb von 180 Tagen ist kein Visum erforderlich",
+        "from_rs_stay": "bis zu 90 Tage innerhalb eines Zeitraums von 180 Tagen"
+      },
+      "TZ": {
+        "to_rs_conditions": "MSP (Original): Visum erforderlich | Diplomaten- und Dienstpässe (Original): Diplomaten- und Dienstpässe: Visum erforderlich",
+        "from_rs_requirements": [
+          "Hinweis: Für Inhaber eines Reisedokuments im Transit ist ein Visum erforderlich",
+          "Reisende aus Ländern, in denen Gelbfieber verbreitet ist, müssen eine Impfbescheinigung vorlegen („Gelbe Karte“)."
+        ],
+        "from_rs_instructions": {
+          "fee": "Normales Visum (einmalige Einreise) USD 50 (Inhaber US-amerikanischer Pässe müssen ein Mehrfachvisum für USD 100 beantragen)",
+          "notes": "Warten Sie vor der Reise auf die Visumsgenehmigung per E-Mail. Gebühren werden im Voraus bezahlt und sind nicht erstattungsfähig. Beantragen Sie das Visum nur über die offizielle Website.",
+          "where": "E-Visum-Portal Tansania (Einwanderungsbehörde) oder Visum bei Ankunft; Botschaft in Rom",
+          "validity": "Normales Visum bis zu 90 Tage",
+          "apply_url": "https://visa.immigration.go.tz/",
+          "documents": [
+            "Reisepass mit mindestens 6 Monaten Gültigkeit und einer freien Seite",
+            "Rückflugticket (bei der Einreise vorzuzeigen)"
+          ],
+          "processing": "Innerhalb von zehn Tagen nach Antragstellung",
+          "source_url": "https://visa.immigration.go.tz/guidelines",
+          "appointment_url": null
+        }
+      },
+      "UA": {
+        "to_rs_stay": "bis zu 90 Tage innerhalb von 180 Tagen",
+        "to_rs_conditions": "MSP (Original): Für Aufenthalte bis zu 90 Tage innerhalb von 180 Tagen ist kein Visum erforderlich | Diplomaten- und Dienstpässe (Original): Für Aufenthalte bis zu 90 Tage ist kein Visum erforderlich",
+        "from_rs_stay": "bis zu 90 Tage innerhalb von 180 Tagen",
+        "from_rs_passport": "Der Reisepass für eine Touristenreise muss noch mindestens 3 Monate ab dem Datum der Ausreise aus der Ukraine gültig sein.",
+        "from_rs_requirements": [
+          "Hinweis:* Für Inhaber eines Reisedokuments im Transit ist ein Visum erforderlich.",
+          "Eine Reisekrankenversicherung ist verpflichtend.",
+          "Ein Impfnachweis ist nicht erforderlich."
+        ]
+      },
+      "UG": {
+        "to_rs_conditions": "MSP (Original): Visum erforderlich | Diplomaten- und Dienstpässe (Original): Diplomaten- und Dienstpässe: Visum erforderlich",
+        "from_rs_requirements": [
+          "Hinweis: Für Inhaber eines Reisedokuments im Transit ist ein Visum erforderlich",
+          "Nach Genehmigung des Antrags wird das Genehmigungsschreiben für das E-Visum mit Barcode an die bei der Antragstellung angegebene E-Mail-Adresse gesendet.",
+          "Seit Mai 2026 ist der Besitz einer „Gelben Karte“ (Impfung gegen Gelbfieber) keine Voraussetzung mehr für den Visumantrag. Die Weltgesundheitsorganisation empfiehlt die Impfung dennoch nachdrücklich zum Schutz der Gesundheit, da Uganda in einem Gelbfieber-Übertragungsgebiet liegt."
+        ],
+        "from_rs_instructions": {
+          "fee": "Einmalige Einreise / Transit USD 50; Mehrfacheinreise für 6 oder 12 Monate USD 100; 2 Jahre USD 200",
+          "notes": "Die Gelbe Karte ist seit Mai 2026 keine Visumsvoraussetzung mehr, wird aber dringend empfohlen. Botschaft Ugandas in Rom: consular.rome@mofa.go.ug.",
+          "where": "E-Visum-Portal Uganda",
+          "validity": "Je nach Visumart",
+          "apply_url": "https://visas.immigration.go.ug/",
+          "documents": [
+            "Unterlagen laut Hilfeseite; Genehmigungsschreiben mit ausgedrucktem Barcode"
+          ],
+          "processing": "2–3 Werktage",
+          "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/uganda",
+          "appointment_url": "https://visas.immigration.go.ug/#/help/visa"
+        }
+      },
+      "US": {
+        "to_rs_stay": "bis zu 90 Tage innerhalb von 6 Monaten (ab dem Datum der ersten Einreise)",
+        "to_rs_conditions": "MSP (Original): Für Aufenthalte bis zu 90 Tage innerhalb eines Zeitraums von 6 Monaten ab dem Datum der ersten Einreise ist kein Visum erforderlich | Diplomaten- und Dienstpässe (Original): Für Aufenthalte bis zu 90 Tage ist kein Visum erforderlich",
+        "from_rs_requirements": [
+          "Hinweis: Für Inhaber eines Reisedokuments im Transit ist ein Visum erforderlich"
+        ],
+        "from_rs_instructions": {
+          "fee": "USD 185 für B-1/B-2, C-1, D, F, I, J, M, T, TN/TD; USD 205 für H, L, O, P, Q, R, CW; USD 265 für K; USD 315 für E (nicht erstattungsfähig, laut ustraveldocs Serbien, Schritt 3). Zusätzliche Gebühren können anfallen; bitte auf travel.state.gov prüfen.",
+          "notes": "Der Antrag ist bei der Botschaft im Land des Wohnsitzes oder der Staatsangehörigkeit zu stellen. Serbien ist nicht im Visa Waiver Program. Die Beschränkungen laut Präsidentenproklamation 10998 gelten für Staatsangehörige von 39 Ländern (Serbien gehört nicht dazu). travel.state.gov blockiert automatisierte Zugriffe, daher stammen die Gebührenbeträge von der Seite ustraveldocs Serbien.",
+          "where": "U.S. Botschaft Belgrad, Bulevar kneza Aleksandra Karadjordjevica 92, 11040 Belgrad (Interview persönlich; Visa-Terminservice ustraveldocs Serbien)",
+          "validity": "Die Gültigkeit legt der Konsularbeamte fest; auf den abgerufenen Seiten ist kein fester Zeitraum angegeben.",
+          "apply_url": "https://ceac.state.gov/genniv/",
+          "documents": [
+            "Online-Formular DS-160 (eines pro Antragsteller, einschließlich Kinder); ausgedruckte Bestätigungsseite mit Barcode",
+            "Reisepass, der für den geplanten Aufenthalt gültig ist",
+            "Foto, nicht älter als 6 Monate, das die Fotoanforderungen der USA erfüllt",
+            "Nachweis über die Zahlung der Visumantragsgebühr",
+            "Terminbestätigung; tintenfreie Fingerabdrücke werden beim Interview abgenommen (Alter 14–79)",
+            "Unterlagen, die beim Interview verlangt werden (Reisezweck, Bindungen an das Heimatland)"
+          ],
+          "processing": "Keine feste Dauer veröffentlicht; die Botschaft empfiehlt, mindestens 3 Monate vor der Reise zu beantragen; beschleunigte Termine für medizinische, Trauer-, dringende geschäftliche und studentische Fälle über ustraveldocs.",
+          "source_url": "https://ustraveldocs.com/rs/en/step-3",
+          "appointment_url": "https://ustraveldocs.com/rs/en/step-4"
+        }
+      },
+      "UY": {
+        "to_rs_stay": "bis zu 90 Tage innerhalb von 6 Monaten (ab dem Datum der ersten Einreise)",
+        "to_rs_conditions": "MSP (Original): Für Aufenthalte bis zu 90 Tage innerhalb eines Zeitraums von 6 Monaten ab dem Datum der ersten Einreise ist kein Visum erforderlich | Diplomaten- und Dienstpässe (Original): Für Aufenthalte bis zu 90 Tage ist kein Visum erforderlich",
+        "from_rs_stay": "bis zu 90 Tage",
+        "from_rs_passport": "Der Reisepass für eine Touristenreise muss noch mindestens 6 Monate gültig sein; dies gilt auch für die Aufenthaltsregelung.",
+        "from_rs_requirements": [
+          "Hinweis:* Für Inhaber eines Reisedokuments im Transit ist ein Visum erforderlich."
+        ]
+      },
+      "UZ": {
+        "to_rs_conditions": "MSP (Original): Visum erforderlich | Diplomaten- und Dienstpässe (Original): Für Aufenthalte bis zu 90 Tage innerhalb von 180 Tagen ist kein Visum erforderlich",
+        "from_rs_stay": "bis zu 30 Tage",
+        "from_rs_requirements": [
+          "Hinweis: Für Inhaber eines Reisedokuments im Transit ist kein Visum erforderlich"
+        ]
+      },
+      "VA": {
+        "to_rs_stay": "bis zu 90 Tage",
+        "to_rs_conditions": "MSP (Original): Für Aufenthalte bis zu 90 Tage ist kein Visum erforderlich | Diplomaten- und Dienstpässe (Original): Für Aufenthalte bis zu 90 Tage ist kein Visum erforderlich",
+        "from_rs_stay": "bis zu 90 Tage innerhalb von 180 Tagen"
+      },
+      "VC": {
+        "to_rs_stay": "bis zu 30 Tage innerhalb eines Zeitraums von einem Jahr",
+        "to_rs_conditions": "MSP (Original): Für Aufenthalte bis zu 30 Tage innerhalb eines Zeitraums von einem Jahr ist kein Visum erforderlich. | Diplomaten- und Dienstpässe (Original): Für Aufenthalte bis zu 30 Tage innerhalb eines Zeitraums von einem Jahr ist kein Visum erforderlich.",
+        "from_rs_stay": "bis zu 30 Tage innerhalb eines Zeitraums von einem Jahr"
+      },
+      "VE": {
+        "to_rs_stay": "bis zu 90 Tage innerhalb von 180 Tagen (ab dem Datum der ersten Einreise)",
+        "to_rs_conditions": "MSP (Original): Für Aufenthalte bis zu 90 Tage innerhalb von 180 Tagen ab dem Datum der ersten Einreise ist kein Visum erforderlich. | Diplomaten- und Dienstpässe (Original): Für Aufenthalte bis zu 90 Tage ist kein Visum erforderlich",
+        "from_rs_stay": "bis zu 90 Tage",
+        "from_rs_requirements": [
+          "Hinweis: Für Inhaber eines Reisedokuments im Transit ist ein Visum erforderlich."
+        ]
+      },
+      "VN": {
+        "to_rs_conditions": "MSP (Original): Visum erforderlich | Diplomaten- und Dienstpässe (Original): Diplomaten- und Dienstpässe: Für Aufenthalte bis zu 90 Tage ist kein Visum erforderlich",
+        "from_rs_requirements": [
+          "Hinweis: Für Inhaber eines Reisedokuments im Transit ist ein Visum erforderlich",
+          "Staatsangehörige der Republik Serbien, die die Sozialistische Republik Vietnam besuchen möchten, müssen einen Antrag auf ein E-Visum über folgenden Link stellen: https://evisa.gov.vn/e-visa/foreigners Das E-Visum erlaubt serbischen Staatsangehörigen einen Aufenthalt in der Sozialistischen Republik Vietnam von bis zu 90 Tagen.",
+          "Antragsteller für ein E-Visum können sich für eine oder mehrere Einreisen in die Sozialistische Republik Vietnam entscheiden; davon hängt die Höhe der Konsulargebühr ab: 25 US-Dollar für eine Einreise und 50 Dollar für mehrere Einreisen.",
+          "Inhaber eines E-Visums für die Sozialistische Republik Vietnam müssen über internationale Grenzübergänge einreisen, die von der Regierung der Sozialistischen Republik Vietnam bestimmt wurden."
+        ],
+        "from_rs_instructions": {
+          "fee": "USD 25 für eine Einreise; USD 50 für mehrere Einreisen (laut Außenministerium); Online-Zahlung, nicht erstattungsfähig",
+          "notes": "Die Einreise muss über die von Vietnam bestimmten Grenzübergänge erfolgen.",
+          "where": "E-Visum-Portal Vietnam",
+          "validity": "Bis zu 90 Tage",
+          "apply_url": "https://evisa.gov.vn/e-visa/foreigners",
+          "documents": [],
+          "processing": null,
+          "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/vijetnam",
+          "appointment_url": null
+        }
+      },
+      "VU": {
+        "to_rs_conditions": "MSP (Original): Visum erforderlich | Diplomaten- und Dienstpässe (Original): Für Aufenthalte bis zu 90 Tage ist kein Visum erforderlich",
+        "from_rs_requirements": [
+          "Hinweis: Für Inhaber eines Reisedokuments im Transit ist ein Visum erforderlich"
+        ]
+      },
+      "WS": {
+        "to_rs_conditions": "MSP (Original): Visum erforderlich | Diplomaten- und Dienstpässe (Original): Visum erforderlich",
+        "from_rs_instructions": {
+          "fee": null,
+          "notes": "Die Dokumentenliste und die Gebühr sind auf der Seite des Außenministeriums nicht veröffentlicht; die Visumseite des Gastlandes wurde in diesem Durchgang nicht abgerufen.",
+          "where": "Einwanderungsbehörde Samoa",
+          "validity": null,
+          "apply_url": "http://mpmc.gov.ws/divisions/immigration/",
+          "documents": [],
+          "processing": null,
+          "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/samoa",
+          "appointment_url": null
+        }
+      },
+      "YE": {
+        "to_rs_conditions": "MSP (Original): Visum erforderlich | Diplomaten- und Dienstpässe (Original): Visum erforderlich",
+        "from_rs_requirements": [
+          "Hinweis: Für Inhaber eines Reisedokuments im Transit ist ein Visum erforderlich"
+        ],
+        "instructions_note": "Außenministerium: rät von jeder Reise ab; Bürgerkrieg, die meisten Botschaften haben Sanaa verlassen."
+      },
+      "ZA": {
+        "to_rs_conditions": "MSP (Original): Visum erforderlich | Diplomaten- und Dienstpässe (Original): Visum erforderlich",
+        "from_rs_passport": "Der Reisepass muss zum geplanten Einreisedatum noch 6 Monate gültig sein.",
+        "from_rs_requirements": [
+          "Hinweis: Für Inhaber eines Reisedokuments im Transit ist ein Visum erforderlich, sofern sie die internationale Flughafenzone nicht verlassen",
+          "Internationale Flughäfen O.R. Tambo, Kapstadt, Lanseria und King Shaka: Der Antrag auf ein elektronisches Visum (ETA) kann unter https://eta.dha.gov.za/ gestellt werden."
+        ],
+        "from_rs_instructions": {
+          "fee": "Elektronische Bearbeitungsgebühr ZAR 500 (laut Amtsblatt DHA vom 17. August 2026)",
+          "notes": "Antragsteller müssen mindestens 18 Jahre alt sein. Nicht für eine Arbeitsaufnahme gültig. Die Regel zur Passgültigkeit unterscheidet sich zwischen den Portalseiten (FAQ: 7 Monate ab Reise und 30 Tage nach Ablauf des Visums) – bitte das aktuelle Formular prüfen.",
+          "where": "ETA-Portal des südafrikanischen Innenministeriums (nur Flughäfen O.R. Tambo, Kapstadt, Lanseria und King Shaka); sonst Visum über VFS oder die südafrikanische Vertretung",
+          "validity": "ETA bis zu 6 Monate ab Ausstellung gültig; Aufenthalt bis zu 90 Tage",
+          "apply_url": "https://eta.dha.gov.za/",
+          "documents": [
+            "Gültiger regulärer Reisepass (Gültigkeit laut FAQ des Portals)",
+            "ETA-Genehmigung",
+            "Rück- oder Weiterflugticket",
+            "Nachweis der Unterkunft",
+            "Nachweis ausreichender finanzieller Mittel",
+            "Gelbfieber-Impfbescheinigung, falls zutreffend"
+          ],
+          "processing": null,
+          "source_url": "https://eta.dha.gov.za/faq",
+          "appointment_url": null
+        }
+      },
+      "ZM": {
+        "to_rs_conditions": "MSP (Original): Visum erforderlich | Diplomaten- und Dienstpässe (Original): Visum erforderlich",
+        "from_rs_passport": "Der Reisepass muss zum geplanten Einreisedatum nach Sambia noch 6 Monate gültig sein.",
+        "from_rs_requirements": [
+          "Hinweis: Für Inhaber eines Reisedokuments im Transit ist ein Visum erforderlich.",
+          "Alle, die auf dem Luftweg einreisen, müssen gültige Rückflugtickets besitzen.",
+          "Wer auf dem Landweg einreist, muss über ausreichende Mittel für den Aufenthalt in Sambia und die Ausreise verfügen."
+        ],
+        "from_rs_instructions": {
+          "fee": "KAZA UNIVISA USD 50",
+          "notes": "Der Text des Außenministeriums besagt, dass kein Visum erforderlich ist, außer für Transitdokumente; die Überschrift nennt hingegen ein Visum als erforderlich, das an der Grenze erhältlich ist. Die Seite des Außenministeriums selbst ist widersprüchlich.",
+          "where": "An der Grenze oder KAZA UNIVISA (Sambia/Simbabwe)",
+          "validity": "KAZA UNIVISA bis zu 30 Tage",
+          "apply_url": null,
+          "documents": [
+            "Reisepass mit 6 Monaten Gültigkeit und 2 freien Seiten"
+          ],
+          "processing": null,
+          "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/zambija",
+          "appointment_url": null
+        }
+      },
+      "ZW": {
+        "to_rs_conditions": "MSP (Original): Visum erforderlich | Diplomaten- und Dienstpässe (Original): Visum erforderlich",
+        "from_rs_passport": "Der Reisepass muss zum geplanten Einreisedatum noch 6 Monate gültig sein.",
+        "from_rs_requirements": [
+          "Hinweis: Für Inhaber eines Reisedokuments im Transit ist ein Visum erforderlich"
+        ],
+        "from_rs_instructions": {
+          "fee": null,
+          "notes": "Die Dokumentenliste und die Gebühr sind auf der Seite des Außenministeriums nicht veröffentlicht; die Visumseite des Gastlandes wurde in diesem Durchgang nicht abgerufen.",
+          "where": "Visum Simbabwe (siehe Seite des Außenministeriums)",
+          "validity": null,
+          "apply_url": null,
+          "documents": [],
+          "processing": null,
+          "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/zimbabve",
+          "appointment_url": null
+        }
+      }
+    }
+  }
+}

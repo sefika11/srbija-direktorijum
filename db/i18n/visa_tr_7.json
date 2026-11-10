@@ -1,0 +1,1382 @@
+{
+ "sr": {
+  "countries": {
+   "SB": {
+    "to_rs_conditions": "MSP (original): Potrebne vize | Diplomatski i službeni pasoši (original): Potrebne vize",
+    "from_rs_instructions": {
+     "fee": null,
+     "notes": "Spisak dokumenata i taksa nisu objavljeni na stranici MSP; stranica vize strane države nije preuzeta u ovom pregledu.",
+     "where": "Imigraciona služba Solomonskih Ostrva",
+     "validity": null,
+     "apply_url": "https://www.commerce.gov.sb/departments-units/immigration/visas.html",
+     "documents": [],
+     "processing": null,
+     "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/solomonska-ostrva",
+     "appointment_url": null
+    }
+   },
+   "SC": {
+    "to_rs_stay": "do 90 dana u periodu od 6 meseci (od datuma prvog ulaska)",
+    "to_rs_conditions": "MSP (original): Vize nisu potrebne za posete do 90 dana u periodu od 6 meseci, počev od datuma prvog ulaska | Diplomatski i službeni pasoši (original): Vize nisu potrebne za posete do 90 dana",
+    "from_rs_stay": "do 90 dana u periodu od 6 meseci",
+    "from_rs_requirements": [
+     "Napomena: Za nosioca putnog lista u tranzitu nije neophodna viza",
+     "Državljanima Republike Srbije za ulazak na Sejšele nije potrebna viza, ali potrebna je potvrda o vakcinaciji protiv žute groznice."
+    ]
+   },
+   "SD": {
+    "to_rs_conditions": "MSP (original): Potrebne vize | Diplomatski i službeni pasoši (original): Potrebne vize",
+    "from_rs_passport": "Rok važenja pasoša radi putovanja mora biti najmanje 6 meseci.",
+    "from_rs_requirements": [
+     "Napomena: Za nosioca putnog lista u tranzitu neophodna je viza"
+    ],
+    "from_rs_instructions": {
+     "fee": "Administrativna taksa USD 155 (prema MSP)",
+     "notes": null,
+     "where": "Ambasada Sudana u Bukureštu, uz lokalnog sponzora/pozivaoca koji prvo podnosi zahtev u Sudanu",
+     "validity": null,
+     "apply_url": null,
+     "documents": [
+      "Pozivno pismo državljanina Sudana sa ličnim garancijama"
+     ],
+     "processing": "10-15 dana",
+     "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/sudan",
+     "appointment_url": null
+    }
+   },
+   "SE": {
+    "to_rs_stay": "do 90 dana u periodu od 6 meseci (od datuma prvog ulaska)",
+    "to_rs_conditions": "MSP (original): Vize nisu potrebne za posete do 90 dana u periodu od 6 meseci, počev od datuma prvog ulaska | Obični pasoši, napomene MSP: * Lična karta se takođe može koristiti za putovanje u Srbiju | Diplomatski i službeni pasoši (original): Vize nisu potrebne za posete do 90 dana",
+    "from_rs_stay": "do 90 dana u periodu od 180 dana",
+    "from_rs_passport": "Uslov za ulazak državljana R. Srbije u Švedsku, kao i u druge članice EU, je da poseduju putnu ispravu koja je izdata u poslednjih deset godina i koja mora da važi najmanje tri meseca nakon planiranog datuma za napuštanje teritorije Švedske.",
+    "from_rs_requirements": [
+     "Napomena: Za nosioca putnog lista u tranzitu neophodna je viza, osim ukoliko je u avionskom tranzitu i ne napušta međunarodnu zonu aerodroma",
+     "Nosiocima biometrijskih pasoša R. Srbije nije potrebna viza za ulazak i boravak do 90 dana u periodu od 180 dana.",
+     "Za putovanje u Kraljevinu Švedsku postoji obaveza posedovanja polise zdravstvenog osiguranja i novčanog pokrića od 50 evra po danu boravka.",
+     "Propisi vezani za uvoz i izvoz kućnih ljubimaca i lista potrebnih vakcina mogu se naći na sajtu Swedish Board of Agriculture - www.jordbruksverket.se ."
+    ]
+   },
+   "SG": {
+    "to_rs_stay": "do 90 dana u periodu od 6 meseci (od datuma prvog ulaska)",
+    "to_rs_conditions": "MSP (original): Vize nisu potrebne za posete do 90 dana u periodu od 6 meseci, počev od datuma prvog ulaska | Diplomatski i službeni pasoši (original): Vize nisu potrebne za posete do 90 dana",
+    "from_rs_stay": "do 30 dana",
+    "from_rs_passport": "Državljanima R. Srbije nije potrebna viza za putovanje u R. Singapur, s tim da rok važenja putne isprave mora da bude najmanje šest meseci od datuma planiranog ulaska na teritoriju R. Singapur.",
+    "from_rs_requirements": [
+     "Napomena: Za nosioca putnog lista u tranzitu nije neophodna viza"
+    ]
+   },
+   "SI": {
+    "to_rs_stay": "do 90 dana u periodu od 6 meseci (od datuma prvog ulaska)",
+    "to_rs_conditions": "MSP (original): Vize nisu potrebne za posete do 90 dana u periodu od 6 meseci, počev od datuma prvog ulaska | Obični pasoši, napomene MSP: * Lična karta se takođe može koristiti za putovanje u Srbiju | Diplomatski i službeni pasoši (original): Vize nisu potrebne za posete do 90 dana",
+    "from_rs_stay": "do 90 dana u periodu od 180 dana",
+    "from_rs_passport": "Za ulazak državljana Republike Srbije u Republiku Sloveniju neophodno je da poseduju putnu ispravu koja mora da važi najmanje tri meseca nakon planiranog datuma za napuštanje teritorije članice EU.",
+    "from_rs_requirements": [
+     "Napomena: Viza je obavezna za nosioce pasoša koje izdaje MUP RS-Koordinaciona uprava. Od 13. oktobra 2024. godine, ulazak u zemlje članice EU i Šengenske zone biće moguć bez vize za ove pasoše. Za nosioca putnog lista u tranzitu nije potrebna viza",
+     "Ovo podrazumeva da će od putnika, koji su u obavezi da koriste EES (državljani trećih zemalja koji ulaze u Šengenski prostor sa vizom ili kojima nije potrebna viza za boravak do 90 dana u periodu od 180 dana), biti prikupljani biometrijski i ostali podaci, a istovremeno će dobiti pečat u putnoj ispravi.",
+     "Za pse i mačke potrebna je potvrda o vakcinisanju protiv besnila i odgovarajuća međunarodna veterinarska potvrda za prelaz granice."
+    ]
+   },
+   "SK": {
+    "to_rs_stay": "do 90 dana u periodu od 6 meseci (od datuma prvog ulaska)",
+    "to_rs_conditions": "MSP (original): Vize nisu potrebne za posete do 90 dana u periodu od 6 meseci, počev od datuma prvog ulaska | Obični pasoši, napomene MSP: * Lična karta se takođe može koristiti za putovanje u Srbiju | Diplomatski i službeni pasoši (original): Vize nisu potrebne za posete do 90 dana",
+    "from_rs_stay": "do 90 dana u periodu od 180 dana",
+    "from_rs_passport": "Uslov za ulazak državljana R. Srbije je da poseduju putnu ispravu koja mora da važi najmanje tri meseca nakon planiranog datuma za napuštanje teritorije Slovačke.",
+    "from_rs_requirements": [
+     "Napomena: Za nosioca putnog lista u tranzitu nije potrebna viza ali je potrebno da DKP koje izdaje PL u njega upiše i dodatne podatke o čemu se treba konsultovati sa najbližim DKP Slovačke",
+     "Ukoliko je u pitanju boravak u privatnom smeštaju, isti se mora prijaviti lokalnoj policiji za strance u roku od 3 dana od dana ulaska u zemlju."
+    ]
+   },
+   "SL": {
+    "to_rs_conditions": "MSP (original): Potrebne vize | Diplomatski i službeni pasoši (original): Potrebne vize",
+    "instructions_note": "MSP: potrebna viza; procedura nije objavljena."
+   },
+   "SM": {
+    "to_rs_stay": "do 90 dana u periodu od 6 meseci (od datuma prvog ulaska)",
+    "to_rs_conditions": "MSP (original): Vize nisu potrebne za posete do 90 dana u periodu od 6 meseci, počev od datuma prvog ulaska | Diplomatski i službeni pasoši (original): Vize nisu potrebne za posete do 90 dana",
+    "from_rs_stay": "do 90 dana u periodu od 180 dana",
+    "from_rs_passport": "Državljani Republike Srbije u Republiku San Marino mogu da uđu ukoliko poseduju biometrijsku putnu ispravu, koja važi najmanje tri meseca nakon planiranog datuma za napuštanje teritorije San Marina.",
+    "from_rs_requirements": [
+     "Nosiocima biometrijskih pasoša Srbije nije potrebna viza za boravak do 90 dana u periodu od šest meseci."
+    ]
+   },
+   "SN": {
+    "to_rs_conditions": "MSP (original): Potrebne vize | Diplomatski i službeni pasoši (original): Vize nisu potrebne za posete do 90 dana.",
+    "from_rs_requirements": [
+     "Napomena: Za nosioca putnog lista u tranzitu neophodna je viza"
+    ],
+    "from_rs_instructions": {
+     "fee": null,
+     "notes": "Spisak dokumenata i taksa nisu objavljeni na stranici MSP; stranica vize strane države nije preuzeta u ovom pregledu. MSP samo navodi nadležnu misiju.",
+     "where": "Ambasada Senegala u Berlinu",
+     "validity": null,
+     "apply_url": null,
+     "documents": [],
+     "processing": null,
+     "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/senegal",
+     "appointment_url": null
+    }
+   },
+   "SO": {
+    "to_rs_conditions": "MSP (original): Potrebne vize | Diplomatski i službeni pasoši (original): Potrebne vize",
+    "from_rs_passport": "Prilikom podnošenja zahteva za vizu, rok važenja pasoša radi turističkog putovanja mora biti najmanje 6 meseci, što važi i za regulisanje boravka.",
+    "from_rs_instructions": {
+     "fee": null,
+     "notes": "Spisak dokumenata i taksa nisu objavljeni na stranici MSP; stranica vize strane države nije preuzeta u ovom pregledu. MSP samo navodi nadležnu misiju.",
+     "where": "Ambasada Somalije u Moskvi",
+     "validity": null,
+     "apply_url": null,
+     "documents": [],
+     "processing": null,
+     "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/somalija",
+     "appointment_url": null
+    }
+   },
+   "SR": {
+    "to_rs_stay": "do 30 dana",
+    "to_rs_conditions": "MSP (original): Vize nisu potrebne za posete do 30 dana | Diplomatski i službeni pasoši (original): Vize nisu potrebne za posete do 30 dana",
+    "from_rs_stay": "do 30 dana"
+   },
+   "SS": {
+    "to_rs_conditions": "MSP (original): Potrebne vize | Diplomatski i službeni pasoši (original): Potrebne vize",
+    "from_rs_requirements": [
+     "Napomena: Viza na DSPI je besplatna, za turistička putovanja 20 USD. Vize se mogu dobiti u DKP ili na graničnim prelazima, ili elektronskim putem (E-viza) na www.mfaic.gov.kh. Za nosioca putnog lista u tranzitu neophodna je viza",
+     "Državljanima R. Srbije za ulazak u Južni Sudan potrebni su viza i potvrda o vakcinaciji protiv žute groznice."
+    ],
+    "from_rs_instructions": {
+     "fee": null,
+     "notes": "Spisak dokumenata i taksa nisu objavljeni na stranici MSP; stranica vize strane države nije preuzeta u ovom pregledu. MSP samo navodi nadležnu misiju.",
+     "where": "Misije Južnog Sudana",
+     "validity": null,
+     "apply_url": null,
+     "documents": [],
+     "processing": null,
+     "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/juzni-sudan",
+     "appointment_url": null
+    }
+   },
+   "ST": {
+    "to_rs_conditions": "MSP (original): Potrebne vize | Diplomatski i službeni pasoši (original): Vize nisu potrebne za posete do 90 dana u periodu od 180 dana",
+    "from_rs_passport": "Neophodno je da pasoš ima rok važnosti od najmanje 6 meseci i da ima jednu praznu stranu za viznu nalepnicu.",
+    "from_rs_instructions": {
+     "fee": null,
+     "notes": "Spisak dokumenata i taksa nisu objavljeni na stranici MSP; stranica vize strane države nije preuzeta u ovom pregledu. MSP samo navodi nadležnu misiju.",
+     "where": "Ambasade Sao Tome i Prinsipea u Belgiji ili Portugalu",
+     "validity": null,
+     "apply_url": null,
+     "documents": [],
+     "processing": null,
+     "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/sao-tome-i-principe",
+     "appointment_url": null
+    }
+   },
+   "SV": {
+    "to_rs_conditions": "MSP (original): Potrebne vize | Diplomatski i službeni pasoši (original): Potrebne vize",
+    "from_rs_instructions": {
+     "fee": null,
+     "notes": "Spisak dokumenata i taksa nisu objavljeni na stranici MSP; stranica vize strane države nije preuzeta u ovom pregledu.",
+     "where": "Ambasada El Salvadora u Rimu",
+     "validity": null,
+     "apply_url": null,
+     "documents": [],
+     "processing": null,
+     "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/el-salvador",
+     "appointment_url": null
+    }
+   },
+   "SY": {
+    "to_rs_conditions": "MSP (original): Potrebne vize | Diplomatski i službeni pasoši (original): Potrebne vize",
+    "from_rs_passport": "Rok važenja pasoša radi turističkog putovanja mora biti 3 meseca.",
+    "from_rs_instructions": {
+     "fee": null,
+     "notes": "Granična viza je formalno moguća, ali nepouzdana od 2011. godine.",
+     "where": "Ambasada Sirije u Beogradu",
+     "validity": null,
+     "apply_url": null,
+     "documents": [
+      "Pasoš važi 3 meseca"
+     ],
+     "processing": null,
+     "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/sirija",
+     "appointment_url": null
+    }
+   },
+   "SZ": {
+    "to_rs_conditions": "MSP (original): Potrebne vize | Diplomatski i službeni pasoši (original): Vize nisu potrebne za posete do 90 dana u periodu od 180 dana",
+    "from_rs_passport": "Rok važenja pasoša radi putovanja mora biti 6 meseci od dana planiranog ulaska.",
+    "from_rs_requirements": [
+     "Napomena: Za nosioca putnog lista u tranzitu nije neophodna viza"
+    ]
+   },
+   "TD": {
+    "to_rs_conditions": "MSP (original): Potrebne vize | Diplomatski i službeni pasoši (original): Potrebne vize",
+    "from_rs_requirements": [
+     "Napomena: Za nosioca putnog lista u tranzitu neophodna je viza"
+    ],
+    "from_rs_instructions": {
+     "fee": null,
+     "notes": "Spisak dokumenata i taksa nisu objavljeni na stranici MSP; stranica vize strane države nije preuzeta u ovom pregledu. MSP samo navodi nadležnu misiju.",
+     "where": "Ambasada Čada u Briselu",
+     "validity": null,
+     "apply_url": null,
+     "documents": [],
+     "processing": null,
+     "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/cad",
+     "appointment_url": null
+    }
+   },
+   "TG": {
+    "to_rs_conditions": "MSP (original): Potrebne vize | Diplomatski i službeni pasoši (original): Vize nisu potrebne za posete do 90 dana u periodu od 180 dana",
+    "from_rs_requirements": [
+     "Napomena: Za nosioca putnog lista u tranzitu neophodna je viza"
+    ],
+    "from_rs_instructions": {
+     "fee": "Taksa USD 60 (prema zaglavlju MSP)",
+     "notes": "Detalji nisu na stranici MSP.",
+     "where": "Togo",
+     "validity": null,
+     "apply_url": null,
+     "documents": [],
+     "processing": null,
+     "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/togo",
+     "appointment_url": null
+    }
+   },
+   "TH": {
+    "to_rs_conditions": "MSP (original): Potrebne vize | Diplomatski i službeni pasoši (original): Vize nisu potrebne za boravak do 90 dana",
+    "from_rs_requirements": [
+     "Napomena: Za nosioca putnog lista u tranzitu potrebna je viza",
+     "U Tajlandu, državljani mogu da, kod imigracione službe prilikom ulaska na teritoriju Tajlanda, podnesu zahtev za tzv. vizu na dolasku (Visa on Arrival), koja važi 15 dana, za jedan ulaz i izlaz, bez mogućnosti produžavanja.",
+     "Državljani R. Srbije koji planiraju da turistički borave na Tajlandu duže od 15 dana, mogu da apliciraju za e-vizu preko sledećih platformi: 1. https://www.thaievisa.go.th/ Portal na engleskom jeziku.",
+     "Pre apliciranja mogu se zatražiti instrukcije na srpskom, putem imejla: info@thaiconsulate.rs Kada e-viza bude odobrena, stranka će biti obaveštena mejlom koji mora da se odštampa i pokaže prilikom ukrcavanja u avion, kao i imigracionim vlastima po dolasku u Kraljevinu Tajland. Od 1. maja 2025."
+    ],
+    "from_rs_instructions": {
+     "fee": "THB 2,000 (VOA, prema Turističkoj agenciji Tajlanda; starija stranica)",
+     "notes": "Stranica Kraljevske ambasade Tajlanda u Dohi, važeća od 15. septembra 2026, navodi Srbiju za VOA. Taksa je sa starije stranice TAT-a; proveriti na granici ili u ambasadi.",
+     "where": "Vize po dolasku na tajlandskim imigracionim punktovima (Srbija je na listi 3 ispunjavajuće nacionalnosti); tajlandska e-viza (bez nalepnice) za ostale boravke",
+     "validity": "Do 15 dana (turizam)",
+     "apply_url": "https://www.thaievisa.go.th/",
+     "documents": [
+      "Popunjen obrazac zahteva",
+      "Jedna nedavna fotografija",
+      "Dokaz o sredstvima: THB 10,000 po osobi / THB 20,000 po porodici",
+      "Pasoš važi najmanje 6 meseci, sa 2 prazne strane",
+      "Potpuno plaćena povratna karta u roku od 30 dana od ulaska"
+     ],
+     "processing": null,
+     "source_url": "https://doha.thaiembassy.org/en/publicservice/tourist-visa-exemption-visa-on-arrival?page=5d7e6a3c15e39c032c006dba&menu=5d7e6a3c15e39c032c006dbb",
+     "appointment_url": null
+    }
+   },
+   "TJ": {
+    "to_rs_conditions": "MSP (original): Potrebne vize | Diplomatski i službeni pasoši (original): Vize nisu potrebne za posete do 90 dana u periodu od 180 dana",
+    "from_rs_stay": "do 30 dana",
+    "from_rs_requirements": [
+     "Napomena: Za nosioca putnog lista u tranzitu neophodna je viza"
+    ]
+   },
+   "TL": {
+    "to_rs_conditions": "MSP (original): Potrebne vize | Diplomatski i službeni pasoši (original): Potrebne vize",
+    "instructions_note": "Stranica MSP je prazna; oznaka režima nije prisutna (pokriva se iz Džakarte)."
+   },
+   "TM": {
+    "to_rs_conditions": "MSP (original): Potrebne vize | Diplomatski i službeni pasoši (original): Potrebne vize",
+    "from_rs_requirements": [
+     "Napomena: Za nosioca putnog lista u tranzitu neophodna je viza"
+    ],
+    "from_rs_instructions": {
+     "fee": null,
+     "notes": null,
+     "where": "Ambasade Turkmenistana ili viza na granici/aerodromu uz pozivno pismo overeno kod Državne migracione službe",
+     "validity": null,
+     "apply_url": null,
+     "documents": [
+      "Original ili kopija overenog pozivnog pisma",
+      "Važeći pasoš"
+     ],
+     "processing": null,
+     "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/turkmenistan",
+     "appointment_url": null
+    }
+   },
+   "TN": {
+    "to_rs_conditions": "MSP (original): Potrebne vize | Diplomatski i službeni pasoši (original): Potrebne vize",
+    "from_rs_passport": "Rok važenja pasoša radi turističkog putovanja mora biti više od 3 meseca, uz obavezno posedovanje povratne karte.",
+    "from_rs_requirements": [
+     "Turističkim grupama iz Republike Srbije, koje putuju u okviru organizovanog putovanja, izdaju se vize po dolasku u Republiku Tunis, nakon davanja na uvid prethodno uplaćenog vaučera za smeštaj u hotelu i potvrđene povratne avionske karte u skladu sa dužinom turističkog boravka u Republici Tunis.",
+     "Ne postoji obaveza posedovanja polise zdravstvenog osiguranja, niti potreba podnošenja dokaza o vakcinaciji.",
+     "Dela od kulturnog i istorijskog značaja moraju se obavezno prijaviti i potrebna je prethodna dozvola tuniskog MUP.",
+     "KORISNE INFORMACIJE ZDRAVSTVENA SITUACIJA – Nema obaveznih ili preporučenih vakcina, kao ni područja u kojima vladaju epidemije ili određene bolesti.",
+     "Naši građani treba da poštuju uslove vanrednog stanja koje je na snazi od 2015. godine, izbegavaju mesta masovnih okupljanja i putovanja po zemlji u individualnoj režiji, posebno u centralne i južne delove Tunisa, kao i u oblasti blizu granice sa Alžirom i Libijom.",
+     "Putna infrastruktura između većih gradova i turističkih mesta je dobra.",
+     "Dokumenta za upravljanje vozilom, međunarodna dozvola i međunarodno osiguranje, kao i saobraćajna dozvola, se priznaju."
+    ],
+    "from_rs_instructions": {
+     "fee": null,
+     "notes": null,
+     "where": "Tuniske misije u inostranstvu za pojedinačne putnike; turističke grupe dobijaju vize po dolasku uz plaćen hotelski vaučer i potvrđenu povratnu kartu",
+     "validity": "Boravak do 3 meseca",
+     "apply_url": null,
+     "documents": [
+      "Pasoš važi više od 3 meseca",
+      "Povratna karta"
+     ],
+     "processing": null,
+     "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/tunis",
+     "appointment_url": null
+    }
+   },
+   "TO": {
+    "to_rs_conditions": "MSP (original): Potrebne vize | Diplomatski i službeni pasoši (original): Potrebne vize",
+    "from_rs_requirements": [
+     "Napomena: Za nosioca putnog lista u tranzitu, ukoliko putuje brodom, nije neophodna viza, ali ukoliko putuje avionom jeste"
+    ],
+    "from_rs_instructions": {
+     "fee": null,
+     "notes": "Spisak dokumenata i taksa nisu objavljeni na stranici MSP; stranica vize strane države nije preuzeta u ovom pregledu.",
+     "where": "Imigraciona služba Tonge",
+     "validity": null,
+     "apply_url": "https://www.revenue.gov.to/immigration-and-general-services",
+     "documents": [],
+     "processing": null,
+     "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/tonga",
+     "appointment_url": null
+    }
+   }
+  }
+ },
+ "en": {
+  "countries": {
+   "SB": {
+    "to_rs_conditions": "MSP (original): Visas required | Diplomatic and official passports (original): Visas required",
+    "from_rs_instructions": {
+     "fee": null,
+     "notes": "Document list and fee not published on the MSP page; the foreign state's own visa page was not retrieved in this pass.",
+     "where": "Solomon Islands immigration",
+     "validity": null,
+     "apply_url": "https://www.commerce.gov.sb/departments-units/immigration/visas.html",
+     "documents": [],
+     "processing": null,
+     "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/solomonska-ostrva",
+     "appointment_url": null
+    }
+   },
+   "SC": {
+    "to_rs_stay": "up to 90 days in a 6-month period (from the date of first entry)",
+    "to_rs_conditions": "MSP (original): No visas required for visits of up to 90 days in a 6-month period starting from the date of the first entry | Diplomatic and official passports (original): No visas required for visits of up to 90 days",
+    "from_rs_stay": "up to 90 days in a 6-month period",
+    "from_rs_requirements": [
+     "Note: A visa is not required for a holder of a travel document in transit",
+     "Citizens of the Republic of Serbia do not need a visa to enter Seychelles, but a yellow fever vaccination certificate is required."
+    ]
+   },
+   "SD": {
+    "to_rs_conditions": "MSP (original): Visas required | Diplomatic and official passports (original): Visas required",
+    "from_rs_passport": "The passport must be valid for at least 6 months for travel.",
+    "from_rs_requirements": [
+     "Note: A visa is required for a holder of a travel document in transit"
+    ],
+    "from_rs_instructions": {
+     "fee": "USD 155 administrative fee (per MSP)",
+     "notes": null,
+     "where": "Sudan embassy in Bucharest, with local sponsor/inviter applying in Sudan first",
+     "validity": null,
+     "apply_url": null,
+     "documents": [
+      "Invitation by Sudanese citizen with personal guarantees"
+     ],
+     "processing": "10-15 days",
+     "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/sudan",
+     "appointment_url": null
+    }
+   },
+   "SE": {
+    "to_rs_stay": "up to 90 days in a 6-month period (from the date of first entry)",
+    "to_rs_conditions": "MSP (original): No visas required for visits of up to 90 days in a 6-month period starting from the date of the first entry | Ordinary passports, MSP notes: * ID card can also be used to travel to Serbia | Diplomatic and official passports (original): No visas required for visits of up to 90 days",
+    "from_rs_stay": "up to 90 days in a 180-day period",
+    "from_rs_passport": "The condition for entry of citizens of the Republic of Serbia into Sweden, as into other EU member states, is holding a travel document issued within the last ten years that must be valid for at least three months after the planned date of departure from Swedish territory.",
+    "from_rs_requirements": [
+     "Note: A visa is required for a holder of a travel document in transit, except in airside transit without leaving the international zone of the airport",
+     "Holders of biometric passports of the Republic of Serbia do not need a visa for entry and stay of up to 90 days in a 180-day period.",
+     "For travel to the Kingdom of Sweden, there is an obligation to hold health insurance and financial coverage of 50 euros per day of stay.",
+     "Rules on importing and exporting pets and the list of required vaccines can be found on the website of the Swedish Board of Agriculture - www.jordbruksverket.se ."
+    ]
+   },
+   "SG": {
+    "to_rs_stay": "up to 90 days in a 6-month period (from the date of first entry)",
+    "to_rs_conditions": "MSP (original): No visas required for visits of up to 90 days in a 6-month period starting from the date of the first entry | Diplomatic and official passports (original): No visas required for visits of up to 90 days",
+    "from_rs_stay": "up to 30 days",
+    "from_rs_passport": "Citizens of the Republic of Serbia do not need a visa to travel to the Republic of Singapore, provided that the travel document is valid for at least six months from the planned date of entry into the territory of the Republic of Singapore.",
+    "from_rs_requirements": [
+     "Note: A visa is not required for a holder of a travel document in transit"
+    ]
+   },
+   "SI": {
+    "to_rs_stay": "up to 90 days in a 6-month period (from the date of first entry)",
+    "to_rs_conditions": "MSP (original): No visas required for visits of up to 90 days in a 6-month period starting from the date of the first entry | Ordinary passports, MSP notes: * ID card can also be used to travel to Serbia | Diplomatic and official passports (original): No visas required for visits of up to 90 days",
+    "from_rs_stay": "up to 90 days in a 180-day period",
+    "from_rs_passport": "For entry of citizens of the Republic of Serbia into the Republic of Slovenia, they must hold a travel document valid for at least three months after the planned date of departure from the territory of the EU member state.",
+    "from_rs_requirements": [
+     "Note: A visa is required for holders of passports issued by MUP RS-Koordinaciona uprava. From 13 October 2024, entry into EU member states and the Schengen area will be possible without a visa for these passports. A visa is not required for a holder of a travel document in transit",
+     "This means that travellers who are required to use the EES (third-country nationals entering the Schengen area with a visa or who do not need a visa for stays of up to 90 days in a 180-day period) will have their biometric and other data collected, and at the same time will receive a stamp in the travel document.",
+     "For dogs and cats, a rabies vaccination certificate and an appropriate international veterinary certificate for border crossing are required."
+    ]
+   },
+   "SK": {
+    "to_rs_stay": "up to 90 days in a 6-month period (from the date of first entry)",
+    "to_rs_conditions": "MSP (original): No visas required for visits of up to 90 days in a 6-month period starting from the date of the first entry | Ordinary passports, MSP notes: * ID card can also be used to travel to Serbia | Diplomatic and official passports (original): No visas required for visits of up to 90 days",
+    "from_rs_stay": "up to 90 days in a 180-day period",
+    "from_rs_passport": "The condition for entry of citizens of the Republic of Serbia is holding a travel document that must be valid for at least three months after the planned date of departure from the territory of Slovakia.",
+    "from_rs_requirements": [
+     "Note: A visa is not required for a holder of a travel document in transit, but the mission (DKP) that issues the travel document (PL) must enter additional data in it, and details should be checked with the nearest Slovak DKP",
+     "If the stay is in private accommodation, it must be registered with the local foreigners' police within 3 days of the day of entry into the country."
+    ]
+   },
+   "SL": {
+    "to_rs_conditions": "MSP (original): Visas required | Diplomatic and official passports (original): Visas required",
+    "instructions_note": "MSP: visa required; no procedure published."
+   },
+   "SM": {
+    "to_rs_stay": "up to 90 days in a 6-month period (from the date of first entry)",
+    "to_rs_conditions": "MSP (original): No visas required for visits of up to 90 days in a 6-month period starting from the date of the first entry | Diplomatic and official passports (original): No visas required for visits of up to 90 days",
+    "from_rs_stay": "up to 90 days in a 180-day period",
+    "from_rs_passport": "Citizens of the Republic of Serbia may enter the Republic of San Marino if they hold a biometric travel document valid for at least three months after the planned date of departure from the territory of San Marino.",
+    "from_rs_requirements": [
+     "Holders of biometric passports of Serbia do not need a visa for a stay of up to 90 days in a six-month period."
+    ]
+   },
+   "SN": {
+    "to_rs_conditions": "MSP (original): Visas required | Diplomatic and official passports (original): No visas required for visits of up to 90 days.",
+    "from_rs_requirements": [
+     "Note: A visa is required for a holder of a travel document in transit"
+    ],
+    "from_rs_instructions": {
+     "fee": null,
+     "notes": "Document list and fee not published on the MSP page; the foreign state's own visa page was not retrieved in this pass. MSP only names the competent mission.",
+     "where": "Embassy of Senegal in Berlin",
+     "validity": null,
+     "apply_url": null,
+     "documents": [],
+     "processing": null,
+     "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/senegal",
+     "appointment_url": null
+    }
+   },
+   "SO": {
+    "to_rs_conditions": "MSP (original): Visas required | Diplomatic and official passports (original): Visas required",
+    "from_rs_passport": "When submitting a visa application, the passport must be valid for at least 6 months for tourist travel, which also applies to arranging a stay.",
+    "from_rs_instructions": {
+     "fee": null,
+     "notes": "Document list and fee not published on the MSP page; the foreign state's own visa page was not retrieved in this pass. MSP only names the competent mission.",
+     "where": "Embassy of Somalia in Moscow",
+     "validity": null,
+     "apply_url": null,
+     "documents": [],
+     "processing": null,
+     "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/somalija",
+     "appointment_url": null
+    }
+   },
+   "SR": {
+    "to_rs_stay": "up to 30 days",
+    "to_rs_conditions": "MSP (original): No visas required for visits of up to 30 days | Diplomatic and official passports (original): No visas required for visits of up to 30 days",
+    "from_rs_stay": "up to 30 days"
+   },
+   "SS": {
+    "to_rs_conditions": "MSP (original): Visas required | Diplomatic and official passports (original): Visas required",
+    "from_rs_requirements": [
+     "Note: The visa at DSPI is free; for tourist travel it is 20 USD. Visas can be obtained at the DKP or at border crossings, or electronically (e-visa) at www.mfaic.gov.kh. A visa is required for a holder of a travel document in transit",
+     "Citizens of the Republic of Serbia need a visa and a yellow fever vaccination certificate to enter South Sudan."
+    ],
+    "from_rs_instructions": {
+     "fee": null,
+     "notes": "Document list and fee not published on the MSP page; the foreign state's own visa page was not retrieved in this pass. MSP only names the competent mission.",
+     "where": "South Sudanese missions",
+     "validity": null,
+     "apply_url": null,
+     "documents": [],
+     "processing": null,
+     "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/juzni-sudan",
+     "appointment_url": null
+    }
+   },
+   "ST": {
+    "to_rs_conditions": "MSP (original): Visas required | Diplomatic and official passports (original): No visas required for visits up to 90 days within a 180-day period",
+    "from_rs_passport": "The passport must be valid for at least 6 months and have one blank page for a visa sticker.",
+    "from_rs_instructions": {
+     "fee": null,
+     "notes": "Document list and fee not published on the MSP page; the foreign state's own visa page was not retrieved in this pass. MSP only names the competent mission.",
+     "where": "Embassies of Sao Tome and Principe in Belgium or Portugal",
+     "validity": null,
+     "apply_url": null,
+     "documents": [],
+     "processing": null,
+     "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/sao-tome-i-principe",
+     "appointment_url": null
+    }
+   },
+   "SV": {
+    "to_rs_conditions": "MSP (original): Visas required | Diplomatic and official passports (original): Visas required",
+    "from_rs_instructions": {
+     "fee": null,
+     "notes": "Document list and fee not published on the MSP page; the foreign state's own visa page was not retrieved in this pass.",
+     "where": "Embassy of El Salvador in Rome",
+     "validity": null,
+     "apply_url": null,
+     "documents": [],
+     "processing": null,
+     "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/el-salvador",
+     "appointment_url": null
+    }
+   },
+   "SY": {
+    "to_rs_conditions": "MSP (original): Visas required | Diplomatic and official passports (original): Visas required",
+    "from_rs_passport": "The passport must be valid for 3 months for tourist travel.",
+    "from_rs_instructions": {
+     "fee": null,
+     "notes": "Border visa is formally possible but has not been reliable since 2011.",
+     "where": "Embassy of Syria in Belgrade",
+     "validity": null,
+     "apply_url": null,
+     "documents": [
+      "Passport valid for 3 months"
+     ],
+     "processing": null,
+     "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/sirija",
+     "appointment_url": null
+    }
+   },
+   "SZ": {
+    "to_rs_conditions": "MSP (original): Visas required | Diplomatic and official passports (original): No visas required for visits up to 90 days within a 180-day period",
+    "from_rs_passport": "The passport must be valid for 6 months from the planned date of entry for travel.",
+    "from_rs_requirements": [
+     "Note: A visa is not required for a holder of a travel document in transit"
+    ]
+   },
+   "TD": {
+    "to_rs_conditions": "MSP (original): Visas required | Diplomatic and official passports (original): Visas required",
+    "from_rs_requirements": [
+     "Note: A visa is required for a holder of a travel document in transit"
+    ],
+    "from_rs_instructions": {
+     "fee": null,
+     "notes": "Document list and fee not published on the MSP page; the foreign state's own visa page was not retrieved in this pass. MSP only names the competent mission.",
+     "where": "Embassy of Chad in Brussels",
+     "validity": null,
+     "apply_url": null,
+     "documents": [],
+     "processing": null,
+     "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/cad",
+     "appointment_url": null
+    }
+   },
+   "TG": {
+    "to_rs_conditions": "MSP (original): Visas required | Diplomatic and official passports (original): No visas required for visits up to 90 days within a 180-day period",
+    "from_rs_requirements": [
+     "Note: A visa is required for a holder of a travel document in transit"
+    ],
+    "from_rs_instructions": {
+     "fee": "Fee USD 60 (per MSP header)",
+     "notes": "Details not on MSP page.",
+     "where": "Togo",
+     "validity": null,
+     "apply_url": null,
+     "documents": [],
+     "processing": null,
+     "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/togo",
+     "appointment_url": null
+    }
+   },
+   "TH": {
+    "to_rs_conditions": "MSP (original): Visas required | Diplomatic and official passports (original): No visas required for stays of up to 90 days",
+    "from_rs_requirements": [
+     "Note: A visa is required for a holder of a travel document in transit",
+     "In Thailand, citizens may, at the immigration service upon entry into Thailand, apply for a so-called visa on arrival (Visa on Arrival), valid for 15 days, for one entry and exit, with no possibility of extension.",
+     "Citizens of the Republic of Serbia who plan a tourist stay in Thailand longer than 15 days may apply for an e-visa through the following platform: 1. https://www.thaievisa.go.th/ English-language portal.",
+     "Before applying, instructions may be requested in Serbian by e-mail: info@thaiconsulate.rs When the e-visa is approved, the applicant will be notified by e-mail, which must be printed and shown at boarding the aircraft, as well as to immigration authorities on arrival in the Kingdom of Thailand. From 1 May 2025."
+    ],
+    "from_rs_instructions": {
+     "fee": "THB 2,000 (VOA, per Tourism Authority of Thailand; older page)",
+     "notes": "Royal Thai Embassy Doha page effective 15 Sep 2026 lists Serbia for VOA. Fee is from an older TAT page - verify at the border/embassy.",
+     "where": "Visa on Arrival at Thai immigration checkpoints (Serbia listed among 3 eligible nationalities); Thai e-Visa (stickerless) for other stays",
+     "validity": "Up to 15 days (tourism)",
+     "apply_url": "https://www.thaievisa.go.th/",
+     "documents": [
+      "Completed application form",
+      "One recent photo",
+      "Proof of funds: THB 10,000 per person / THB 20,000 per family",
+      "Passport valid at least 6 months with 2 blank pages",
+      "Fully paid onward ticket within 30 days of entry"
+     ],
+     "processing": null,
+     "source_url": "https://doha.thaiembassy.org/en/publicservice/tourist-visa-exemption-visa-on-arrival?page=5d7e6a3c15e39c032c006dba&menu=5d7e6a3c15e39c032c006dbb",
+     "appointment_url": null
+    }
+   },
+   "TJ": {
+    "to_rs_conditions": "MSP (original): Visas required | Diplomatic and official passports (original): No visas required for visits up to 90 days within a 180-day period",
+    "from_rs_stay": "up to 30 days",
+    "from_rs_requirements": [
+     "Note: A visa is required for a holder of a travel document in transit"
+    ]
+   },
+   "TL": {
+    "to_rs_conditions": "MSP (original): Visas required | Diplomatic and official passports (original): Visas required",
+    "instructions_note": "MSP page empty; regime flag absent (covered from Jakarta)."
+   },
+   "TM": {
+    "to_rs_conditions": "MSP (original): Visas required | Diplomatic and official passports (original): Visas required",
+    "from_rs_requirements": [
+     "Note: A visa is required for a holder of a travel document in transit"
+    ],
+    "from_rs_instructions": {
+     "fee": null,
+     "notes": null,
+     "where": "Embassies of Turkmenistan, or a visa at the border/airport with an invitation letter certified by the State Migration Service",
+     "validity": null,
+     "apply_url": null,
+     "documents": [
+      "Original/copy of certified invitation letter",
+      "Valid passport"
+     ],
+     "processing": null,
+     "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/turkmenistan",
+     "appointment_url": null
+    }
+   },
+   "TN": {
+    "to_rs_conditions": "MSP (original): Visas required | Diplomatic and official passports (original): Visas required",
+    "from_rs_passport": "The passport must be valid for more than 3 months for tourist travel, together with a mandatory return ticket.",
+    "from_rs_requirements": [
+     "Tourist groups from the Republic of Serbia travelling as part of an organised trip are issued visas on arrival in the Republic of Tunisia, after presenting a previously paid hotel accommodation voucher and a confirmed return air ticket matching the length of the tourist stay in the Republic of Tunisia.",
+     "There is no obligation to hold health insurance, nor a need to submit proof of vaccination.",
+     "Items of cultural and historical significance must be declared, and prior permission from the Tunisian MUP is required.",
+     "USEFUL INFORMATION HEALTH SITUATION – There are no mandatory or recommended vaccines, nor areas where epidemics or certain diseases are present.",
+     "Our citizens should respect the state of emergency in force since 2015, avoid places of mass gatherings and travel within the country on their own, especially to the central and southern parts of Tunisia, as well as areas near the border with Algeria and Libya.",
+     "Road infrastructure between larger cities and tourist destinations is good.",
+     "Vehicle driving documents, international driving permit, international insurance and vehicle registration are recognised."
+    ],
+    "from_rs_instructions": {
+     "fee": null,
+     "notes": null,
+     "where": "Tunisian missions abroad for individual travellers; tourist groups receive visas on arrival with a paid hotel voucher and a confirmed return ticket",
+     "validity": "Stay up to 3 months",
+     "apply_url": null,
+     "documents": [
+      "Passport valid more than 3 months",
+      "Return ticket"
+     ],
+     "processing": null,
+     "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/tunis",
+     "appointment_url": null
+    }
+   },
+   "TO": {
+    "to_rs_conditions": "MSP (original): Visas required | Diplomatic and official passports (original): Visas required",
+    "from_rs_requirements": [
+     "Note: A visa is not required for a holder of a travel document in transit if travelling by ship, but it is required if travelling by air"
+    ],
+    "from_rs_instructions": {
+     "fee": null,
+     "notes": "Document list and fee not published on the MSP page; the foreign state's own visa page was not retrieved in this pass.",
+     "where": "Tonga immigration",
+     "validity": null,
+     "apply_url": "https://www.revenue.gov.to/immigration-and-general-services",
+     "documents": [],
+     "processing": null,
+     "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/tonga",
+     "appointment_url": null
+    }
+   }
+  }
+ },
+ "ru": {
+  "countries": {
+   "SB": {
+    "to_rs_conditions": "MSP (original): Требуется виза | Дипломатические и служебные паспорта (original): Требуется виза",
+    "from_rs_instructions": {
+     "fee": null,
+     "notes": "Перечень документов и сбор не опубликованы на странице MSP; страница визы иностранного государства в этом обзоре не была получена.",
+     "where": "Иммиграционная служба Соломоновых Островов",
+     "validity": null,
+     "apply_url": "https://www.commerce.gov.sb/departments-units/immigration/visas.html",
+     "documents": [],
+     "processing": null,
+     "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/solomonska-ostrva",
+     "appointment_url": null
+    }
+   },
+   "SC": {
+    "to_rs_stay": "до 90 дней в течение 6 месяцев (с даты первого въезда)",
+    "to_rs_conditions": "MSP (original): Виза не требуется для поездок до 90 дней в течение 6 месяцев, начиная с даты первого въезда | Дипломатические и служебные паспорта (original): Виза не требуется для поездок до 90 дней",
+    "from_rs_stay": "до 90 дней в течение 6 месяцев",
+    "from_rs_requirements": [
+     "Примечание: Для держателя проездного документа в транзите виза не нужна",
+     "Гражданам Республики Сербия для въезда на Сейшелы виза не нужна, но требуется справка о прививке от желтой лихорадки."
+    ]
+   },
+   "SD": {
+    "to_rs_conditions": "MSP (original): Требуется виза | Дипломатические и служебные паспорта (original): Требуется виза",
+    "from_rs_passport": "Срок действия паспорта для поездки должен составлять не менее 6 месяцев.",
+    "from_rs_requirements": [
+     "Примечание: Для держателя проездного документа в транзите требуется виза"
+    ],
+    "from_rs_instructions": {
+     "fee": "Административный сбор USD 155 (по данным MSP)",
+     "notes": null,
+     "where": "Посольство Судана в Бухаресте; местный спонсор/приглашающее лицо сначала подает заявление в Судане",
+     "validity": null,
+     "apply_url": null,
+     "documents": [
+      "Приглашение от гражданина Судана с личными гарантиями"
+     ],
+     "processing": "10-15 дней",
+     "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/sudan",
+     "appointment_url": null
+    }
+   },
+   "SE": {
+    "to_rs_stay": "до 90 дней в течение 6 месяцев (с даты первого въезда)",
+    "to_rs_conditions": "MSP (original): Виза не требуется для поездок до 90 дней в течение 6 месяцев, начиная с даты первого въезда | Обычные паспорта, примечания MSP: * Удостоверение личности также может использоваться для поездки в Сербию | Дипломатические и служебные паспорта (original): Виза не требуется для поездок до 90 дней",
+    "from_rs_stay": "до 90 дней в течение 180 дней",
+    "from_rs_passport": "Условием въезда граждан Республики Сербия в Швецию, как и в другие страны-члены ЕС, является наличие проездного документа, выданного в последние десять лет, который должен быть действителен не менее трех месяцев после планируемой даты выезда с территории Швеции.",
+    "from_rs_requirements": [
+     "Примечание: Для держателя проездного документа в транзите требуется виза, за исключением транзита в аэропорту без выхода за пределы международной зоны аэропорта",
+     "Держателям биометрических паспортов Республики Сербия виза для въезда и пребывания до 90 дней в течение 180 дней не нужна.",
+     "Для поездки в Королевство Швецию существует обязанность иметь полис медицинского страхования и финансовое покрытие в размере 50 евро за каждый день пребывания.",
+     "Правила ввоза и вывоза домашних животных и перечень необходимых прививок можно найти на сайте Swedish Board of Agriculture - www.jordbruksverket.se ."
+    ]
+   },
+   "SG": {
+    "to_rs_stay": "до 90 дней в течение 6 месяцев (с даты первого въезда)",
+    "to_rs_conditions": "MSP (original): Виза не требуется для поездок до 90 дней в течение 6 месяцев, начиная с даты первого въезда | Дипломатические и служебные паспорта (original): Виза не требуется для поездок до 90 дней",
+    "from_rs_stay": "до 30 дней",
+    "from_rs_passport": "Гражданам Республики Сербия виза для поездки в Республику Сингапур не нужна, при условии что срок действия проездного документа составляет не менее шести месяцев с планируемой даты въезда на территорию Республики Сингапур.",
+    "from_rs_requirements": [
+     "Примечание: Для держателя проездного документа в транзите виза не нужна"
+    ]
+   },
+   "SI": {
+    "to_rs_stay": "до 90 дней в течение 6 месяцев (с даты первого въезда)",
+    "to_rs_conditions": "MSP (original): Виза не требуется для поездок до 90 дней в течение 6 месяцев, начиная с даты первого въезда | Обычные паспорта, примечания MSP: * Удостоверение личности также может использоваться для поездки в Сербию | Дипломатические и служебные паспорта (original): Виза не требуется для поездок до 90 дней",
+    "from_rs_stay": "до 90 дней в течение 180 дней",
+    "from_rs_passport": "Для въезда граждан Республики Сербия в Республику Словению необходимо наличие проездного документа, который должен быть действителен не менее трех месяцев после планируемой даты выезда с территории государства-члена ЕС.",
+    "from_rs_requirements": [
+     "Примечание: Виза обязательна для держателей паспортов, выданных MUP RS-Koordinaciona uprava. С 13 октября 2024 года въезд в страны-члены ЕС и Шенгенской зоны будет возможен без визы для этих паспортов. Для держателя проездного документа в транзите виза не нужна",
+     "Это означает, что у путешественников, которые обязаны пользоваться EES (граждане третьих стран, въезжающие в Шенгенскую зону с визой или которым виза не нужна для пребывания до 90 дней в течение 180 дней), будут собираться биометрические и иные данные, и одновременно они получат штамп в проездном документе.",
+     "Для собак и кошек требуются справка о прививке от бешенства и соответствующий международный ветеринарный сертификат для пересечения границы."
+    ]
+   },
+   "SK": {
+    "to_rs_stay": "до 90 дней в течение 6 месяцев (с даты первого въезда)",
+    "to_rs_conditions": "MSP (original): Виза не требуется для поездок до 90 дней в течение 6 месяцев, начиная с даты первого въезда | Обычные паспорта, примечания MSP: * Удостоверение личности также может использоваться для поездки в Сербию | Дипломатические и служебные паспорта (original): Виза не требуется для поездок до 90 дней",
+    "from_rs_stay": "до 90 дней в течение 180 дней",
+    "from_rs_passport": "Условием въезда граждан Республики Сербия является наличие проездного документа, который должен быть действителен не менее трех месяцев после планируемой даты выезда с территории Словакии.",
+    "from_rs_requirements": [
+     "Примечание: Для держателя проездного документа в транзите виза не нужна, однако ДКП, выдавшее проездной документ (PL), должно внести в него отметку, а дополнительные сведения следует уточнить в ближайшем ДКП Словакии",
+     "Если проживание происходит в частном жилье, его необходимо зарегистрировать в местной полиции по делам иностранцев в течение 3 дней со дня въезда в страну."
+    ]
+   },
+   "SL": {
+    "to_rs_conditions": "MSP (original): Требуется виза | Дипломатические и служебные паспорта (original): Требуется виза",
+    "instructions_note": "MSP: требуется виза; процедура не опубликована."
+   },
+   "SM": {
+    "to_rs_stay": "до 90 дней в течение 6 месяцев (с даты первого въезда)",
+    "to_rs_conditions": "MSP (original): Виза не требуется для поездок до 90 дней в течение 6 месяцев, начиная с даты первого въезда | Дипломатические и служебные паспорта (original): Виза не требуется для поездок до 90 дней",
+    "from_rs_stay": "до 90 дней в течение 180 дней",
+    "from_rs_passport": "Граждане Республики Сербия могут въехать в Республику Сан-Марино при наличии биометрического проездного документа, действительного не менее трех месяцев после планируемой даты выезда с территории Сан-Марино.",
+    "from_rs_requirements": [
+     "Держателям биометрических паспортов Сербии виза для пребывания до 90 дней в течение шести месяцев не нужна."
+    ]
+   },
+   "SN": {
+    "to_rs_conditions": "MSP (original): Требуется виза | Дипломатические и служебные паспорта (original): Виза не требуется для поездок до 90 дней.",
+    "from_rs_requirements": [
+     "Примечание: Для держателя проездного документа в транзите требуется виза"
+    ],
+    "from_rs_instructions": {
+     "fee": null,
+     "notes": "Перечень документов и сбор не опубликованы на странице MSP; страница визы иностранного государства в этом обзоре не была получена. MSP только указывает компетентную миссию.",
+     "where": "Посольство Сенегала в Берлине",
+     "validity": null,
+     "apply_url": null,
+     "documents": [],
+     "processing": null,
+     "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/senegal",
+     "appointment_url": null
+    }
+   },
+   "SO": {
+    "to_rs_conditions": "MSP (original): Требуется виза | Дипломатические и служебные паспорта (original): Требуется виза",
+    "from_rs_passport": "При подаче заявления на визу срок действия паспорта для туристической поездки должен составлять не менее 6 месяцев; это также относится к оформлению пребывания.",
+    "from_rs_instructions": {
+     "fee": null,
+     "notes": "Перечень документов и сбор не опубликованы на странице MSP; страница визы иностранного государства в этом обзоре не была получена. MSP только указывает компетентную миссию.",
+     "where": "Посольство Сомали в Москве",
+     "validity": null,
+     "apply_url": null,
+     "documents": [],
+     "processing": null,
+     "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/somalija",
+     "appointment_url": null
+    }
+   },
+   "SR": {
+    "to_rs_stay": "до 30 дней",
+    "to_rs_conditions": "MSP (original): Виза не требуется для поездок до 30 дней | Дипломатические и служебные паспорта (original): Виза не требуется для поездок до 30 дней",
+    "from_rs_stay": "до 30 дней"
+   },
+   "SS": {
+    "to_rs_conditions": "MSP (original): Требуется виза | Дипломатические и служебные паспорта (original): Требуется виза",
+    "from_rs_requirements": [
+     "Примечание: Виза в DSPI бесплатна, для туристических поездок — 20 USD. Визы можно получить в ДКП или на пограничных переходах, либо в электронном виде (e-виза) на www.mfaic.gov.kh. Для держателя проездного документа в транзите требуется виза",
+     "Гражданам Республики Сербия для въезда в Южный Судан требуются виза и справка о прививке от желтой лихорадки."
+    ],
+    "from_rs_instructions": {
+     "fee": null,
+     "notes": "Перечень документов и сбор не опубликованы на странице MSP; страница визы иностранного государства в этом обзоре не была получена. MSP только указывает компетентную миссию.",
+     "where": "Миссии Южного Судана",
+     "validity": null,
+     "apply_url": null,
+     "documents": [],
+     "processing": null,
+     "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/juzni-sudan",
+     "appointment_url": null
+    }
+   },
+   "ST": {
+    "to_rs_conditions": "MSP (original): Требуется виза | Дипломатические и служебные паспорта (original): Виза не требуется для поездок до 90 дней в течение 180 дней",
+    "from_rs_passport": "Паспорт должен быть действителен не менее 6 месяцев и иметь одну пустую страницу для визовой наклейки.",
+    "from_rs_instructions": {
+     "fee": null,
+     "notes": "Перечень документов и сбор не опубликованы на странице MSP; страница визы иностранного государства в этом обзоре не была получена. MSP только указывает компетентную миссию.",
+     "where": "Посольства Сан-Томе и Принсипи в Бельгии или Португалии",
+     "validity": null,
+     "apply_url": null,
+     "documents": [],
+     "processing": null,
+     "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/sao-tome-i-principe",
+     "appointment_url": null
+    }
+   },
+   "SV": {
+    "to_rs_conditions": "MSP (original): Требуется виза | Дипломатические и служебные паспорта (original): Требуется виза",
+    "from_rs_instructions": {
+     "fee": null,
+     "notes": "Перечень документов и сбор не опубликованы на странице MSP; страница визы иностранного государства в этом обзоре не была получена.",
+     "where": "Посольство Сальвадора в Риме",
+     "validity": null,
+     "apply_url": null,
+     "documents": [],
+     "processing": null,
+     "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/el-salvador",
+     "appointment_url": null
+    }
+   },
+   "SY": {
+    "to_rs_conditions": "MSP (original): Требуется виза | Дипломатические и служебные паспорта (original): Требуется виза",
+    "from_rs_passport": "Срок действия паспорта для туристической поездки должен составлять 3 месяца.",
+    "from_rs_instructions": {
+     "fee": null,
+     "notes": "Виза на границе формально возможна, но ненадежна с 2011 года.",
+     "where": "Посольство Сирии в Белграде",
+     "validity": null,
+     "apply_url": null,
+     "documents": [
+      "Паспорт действителен 3 месяца"
+     ],
+     "processing": null,
+     "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/sirija",
+     "appointment_url": null
+    }
+   },
+   "SZ": {
+    "to_rs_conditions": "MSP (original): Требуется виза | Дипломатические и служебные паспорта (original): Виза не требуется для поездок до 90 дней в течение 180 дней",
+    "from_rs_passport": "Срок действия паспорта для поездки должен составлять 6 месяцев с даты планируемого въезда.",
+    "from_rs_requirements": [
+     "Примечание: Для держателя проездного документа в транзите виза не нужна"
+    ]
+   },
+   "TD": {
+    "to_rs_conditions": "MSP (original): Требуется виза | Дипломатические и служебные паспорта (original): Требуется виза",
+    "from_rs_requirements": [
+     "Примечание: Для держателя проездного документа в транзите требуется виза"
+    ],
+    "from_rs_instructions": {
+     "fee": null,
+     "notes": "Перечень документов и сбор не опубликованы на странице MSP; страница визы иностранного государства в этом обзоре не была получена. MSP только указывает компетентную миссию.",
+     "where": "Посольство Чада в Брюсселе",
+     "validity": null,
+     "apply_url": null,
+     "documents": [],
+     "processing": null,
+     "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/cad",
+     "appointment_url": null
+    }
+   },
+   "TG": {
+    "to_rs_conditions": "MSP (original): Требуется виза | Дипломатические и служебные паспорта (original): Виза не требуется для поездок до 90 дней в течение 180 дней",
+    "from_rs_requirements": [
+     "Примечание: Для держателя проездного документа в транзите требуется виза"
+    ],
+    "from_rs_instructions": {
+     "fee": "Сбор USD 60 (по заголовку MSP)",
+     "notes": "Подробности не указаны на странице MSP.",
+     "where": "Того",
+     "validity": null,
+     "apply_url": null,
+     "documents": [],
+     "processing": null,
+     "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/togo",
+     "appointment_url": null
+    }
+   },
+   "TH": {
+    "to_rs_conditions": "MSP (original): Требуется виза | Дипломатические и служебные паспорта (original): Виза не требуется для пребывания до 90 дней",
+    "from_rs_requirements": [
+     "Примечание: Для держателя проездного документа в транзите требуется виза",
+     "При въезде на территорию Таиланда граждане могут подать заявление в иммиграционной службе на так называемую визу по прибытии (Visa on Arrival), действительную 15 дней, на один въезд и выезд, без возможности продления.",
+     "Граждане Республики Сербия, планирующие туристическое пребывание в Таиланде дольше 15 дней, могут подать заявление на электронную визу через следующую платформу: 1. https://www.thaievisa.go.th/ Портал на английском языке.",
+     "До подачи заявления можно запросить инструкции на сербском языке по электронной почте: info@thaiconsulate.rs Когда электронная виза будет одобрена, заявитель получит уведомление по электронной почте, которое необходимо распечатать и предъявить при посадке на самолет, а также иммиграционным властям по прибытии в Королевство Таиланд. С 1 мая 2025 года."
+    ],
+    "from_rs_instructions": {
+     "fee": "THB 2,000 (VOA, по данным Управления туризма Таиланда; старая страница)",
+     "notes": "Страница Королевского посольства Таиланда в Дохе, действующая с 15 сентября 2026 года, включает Сербию в список для VOA. Сбор указан по более старой странице TAT; уточнить на границе или в посольстве.",
+     "where": "Виза по прибытии на таиландских иммиграционных пунктах (Сербия включена в число 3 допустимых национальностей); тайская e-виза (без наклейки) для других видов пребывания",
+     "validity": "До 15 дней (туризм)",
+     "apply_url": "https://www.thaievisa.go.th/",
+     "documents": [
+      "Заполненная форма заявления",
+      "Одна недавняя фотография",
+      "Подтверждение средств: THB 10,000 на человека / THB 20,000 на семью",
+      "Паспорт действителен не менее 6 месяцев, с 2 пустыми страницами",
+      "Полностью оплаченный билет на выезд в течение 30 дней после въезда"
+     ],
+     "processing": null,
+     "source_url": "https://doha.thaiembassy.org/en/publicservice/tourist-visa-exemption-visa-on-arrival?page=5d7e6a3c15e39c032c006dba&menu=5d7e6a3c15e39c032c006dbb",
+     "appointment_url": null
+    }
+   },
+   "TJ": {
+    "to_rs_conditions": "MSP (original): Требуется виза | Дипломатические и служебные паспорта (original): Виза не требуется для поездок до 90 дней в течение 180 дней",
+    "from_rs_stay": "до 30 дней",
+    "from_rs_requirements": [
+     "Примечание: Для держателя проездного документа в транзите требуется виза"
+    ]
+   },
+   "TL": {
+    "to_rs_conditions": "MSP (original): Требуется виза | Дипломатические и служебные паспорта (original): Требуется виза",
+    "instructions_note": "Страница MSP пуста; признак режима отсутствует (обслуживается из Джакарты)."
+   },
+   "TM": {
+    "to_rs_conditions": "MSP (original): Требуется виза | Дипломатические и служебные паспорта (original): Требуется виза",
+    "from_rs_requirements": [
+     "Примечание: Для держателя проездного документа в транзите требуется виза"
+    ],
+    "from_rs_instructions": {
+     "fee": null,
+     "notes": null,
+     "where": "Посольства Туркменистана или виза на границе/в аэропорту при наличии пригласительного письма, заверенного Государственной миграционной службой",
+     "validity": null,
+     "apply_url": null,
+     "documents": [
+      "Оригинал/копия заверенного пригласительного письма",
+      "Действующий паспорт"
+     ],
+     "processing": null,
+     "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/turkmenistan",
+     "appointment_url": null
+    }
+   },
+   "TN": {
+    "to_rs_conditions": "MSP (original): Требуется виза | Дипломатические и служебные паспорта (original): Требуется виза",
+    "from_rs_passport": "Срок действия паспорта для туристической поездки должен быть более 3 месяцев; обязательно наличие обратного билета.",
+    "from_rs_requirements": [
+     "Туристическим группам из Республики Сербия, путешествующим в рамках организованной поездки, выдаются визы по прибытии в Республику Тунис после предъявления ранее оплаченного ваучера на проживание в отеле и подтвержденного обратного авиабилета в соответствии с продолжительностью туристического пребывания в Республике Тунис.",
+     "Обязательного наличия полиса медицинского страхования не существует, как и необходимости предъявлять подтверждение вакцинации.",
+     "Предметы культурного и исторического значения обязательно необходимо декларировать, и требуется предварительное разрешение MUP Туниса.",
+     "ПОЛЕЗНАЯ ИНФОРМАЦИЯ ЗДОРОВЬЕ – Нет обязательных или рекомендуемых прививок, а также районов, где существуют эпидемии или определенные заболевания.",
+     "Наши граждане должны соблюдать режим чрезвычайного положения, действующий с 2015 года, избегать мест массовых скоплений и самостоятельных поездок по стране, особенно в центральные и южные районы Туниса, а также в районы у границы с Алжиром и Ливией.",
+     "Дорожная инфраструктура между крупными городами и туристическими местами хорошая.",
+     "Документы на управление транспортным средством, международное водительское удостоверение, международная страховка и регистрационные документы на автомобиль признаются."
+    ],
+    "from_rs_instructions": {
+     "fee": null,
+     "notes": null,
+     "where": "Тунисские представительства за рубежом для индивидуальных путешественников; туристические группы получают визы по прибытии при наличии оплаченного ваучера на отель и подтвержденного обратного билета",
+     "validity": "Пребывание до 3 месяцев",
+     "apply_url": null,
+     "documents": [
+      "Паспорт действителен более 3 месяцев",
+      "Обратный билет"
+     ],
+     "processing": null,
+     "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/tunis",
+     "appointment_url": null
+    }
+   },
+   "TO": {
+    "to_rs_conditions": "MSP (original): Требуется виза | Дипломатические и служебные паспорта (original): Требуется виза",
+    "from_rs_requirements": [
+     "Примечание: Для держателя проездного документа в транзите при поездке на корабле виза не нужна, но при поездке самолетом она требуется"
+    ],
+    "from_rs_instructions": {
+     "fee": null,
+     "notes": "Перечень документов и сбор не опубликованы на странице MSP; страница визы иностранного государства в этом обзоре не была получена.",
+     "where": "Иммиграционная служба Тонги",
+     "validity": null,
+     "apply_url": "https://www.revenue.gov.to/immigration-and-general-services",
+     "documents": [],
+     "processing": null,
+     "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/tonga",
+     "appointment_url": null
+    }
+   }
+  }
+ },
+ "de": {
+  "countries": {
+   "SB": {
+    "to_rs_conditions": "MSP (original): Visum erforderlich | Diplomaten- und Dienstpässe (original): Visum erforderlich",
+    "from_rs_instructions": {
+     "fee": null,
+     "notes": "Dokumentenliste und Gebühr sind auf der Seite MSP nicht veröffentlicht; die Visaseite des ausländischen Staates wurde in diesem Durchgang nicht abgerufen.",
+     "where": "Einwanderungsbehörde der Salomonen",
+     "validity": null,
+     "apply_url": "https://www.commerce.gov.sb/departments-units/immigration/visas.html",
+     "documents": [],
+     "processing": null,
+     "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/solomonska-ostrva",
+     "appointment_url": null
+    }
+   },
+   "SC": {
+    "to_rs_stay": "bis zu 90 Tage innerhalb von 6 Monaten (ab dem Datum der ersten Einreise)",
+    "to_rs_conditions": "MSP (original): Kein Visum erforderlich für Aufenthalte bis zu 90 Tagen innerhalb eines Zeitraums von 6 Monaten ab dem Datum der ersten Einreise | Diplomaten- und Dienstpässe (original): Kein Visum erforderlich für Aufenthalte bis zu 90 Tagen",
+    "from_rs_stay": "bis zu 90 Tage innerhalb von 6 Monaten",
+    "from_rs_requirements": [
+     "Hinweis: Für Inhaber eines Reisedokuments (Laissez-passer) im Transit ist kein Visum erforderlich",
+     "Staatsangehörige der Republik Serbien benötigen für die Einreise auf die Seychellen kein Visum, jedoch ist eine Impfbescheinigung gegen Gelbfieber erforderlich."
+    ]
+   },
+   "SD": {
+    "to_rs_conditions": "MSP (original): Visum erforderlich | Diplomaten- und Dienstpässe (original): Visum erforderlich",
+    "from_rs_passport": "Der Reisepass muss für die Reise mindestens 6 Monate gültig sein.",
+    "from_rs_requirements": [
+     "Hinweis: Für Inhaber eines Reisedokuments im Transit ist ein Visum erforderlich"
+    ],
+    "from_rs_instructions": {
+     "fee": "Verwaltungsgebühr USD 155 (laut MSP)",
+     "notes": null,
+     "where": "Sudanesische Botschaft in Bukarest; der lokale Sponsor/Einlader stellt den Antrag zuvor im Sudan",
+     "validity": null,
+     "apply_url": null,
+     "documents": [
+      "Einladung eines sudanesischen Staatsangehörigen mit persönlichen Bürgschaften"
+     ],
+     "processing": "10-15 Tage",
+     "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/sudan",
+     "appointment_url": null
+    }
+   },
+   "SE": {
+    "to_rs_stay": "bis zu 90 Tage innerhalb von 6 Monaten (ab dem Datum der ersten Einreise)",
+    "to_rs_conditions": "MSP (original): Kein Visum erforderlich für Aufenthalte von bis zu 90 Tagen innerhalb von 6 Monaten ab dem Datum der ersten Einreise | Gewöhnliche Reisepässe, Hinweise MSP: * Der Personalausweis kann auch für die Reise nach Serbien verwendet werden | Diplomaten- und Dienstpässe (original): Kein Visum erforderlich für Aufenthalte bis zu 90 Tagen",
+    "from_rs_stay": "bis zu 90 Tage innerhalb von 180 Tagen",
+    "from_rs_passport": "Voraussetzung für die Einreise von Staatsangehörigen der Republik Serbien nach Schweden, wie in andere EU-Mitgliedstaaten, ist ein Reisedokument, das in den letzten zehn Jahren ausgestellt wurde und mindestens drei Monate nach dem geplanten Ausreisedatum aus dem schwedischen Hoheitsgebiet gültig sein muss.",
+    "from_rs_requirements": [
+     "Hinweis: Für Inhaber eines Reisedokuments im Transit ist ein Visum erforderlich, außer bei Flugtransit ohne Verlassen des internationalen Bereichs des Flughafens",
+     "Inhaber biometrischer Reisepässe der Republik Serbien benötigen für die Einreise und den Aufenthalt von bis zu 90 Tagen innerhalb von 180 Tagen kein Visum.",
+     "Für die Reise in das Königreich Schweden besteht die Pflicht, eine Krankenversicherungspolice und eine finanzielle Deckung von 50 Euro pro Aufenthaltstag nachzuweisen.",
+     "Vorschriften zur Einfuhr und Ausfuhr von Haustieren und die Liste der erforderlichen Impfungen finden sich auf der Website der Swedish Board of Agriculture - www.jordbruksverket.se ."
+    ]
+   },
+   "SG": {
+    "to_rs_stay": "bis zu 90 Tage innerhalb von 6 Monaten (ab dem Datum der ersten Einreise)",
+    "to_rs_conditions": "MSP (original): Kein Visum erforderlich für Aufenthalte bis zu 90 Tagen innerhalb eines Zeitraums von 6 Monaten ab dem Datum der ersten Einreise | Diplomaten- und Dienstpässe (original): Kein Visum erforderlich für Aufenthalte bis zu 90 Tagen",
+    "from_rs_stay": "bis zu 30 Tage",
+    "from_rs_passport": "Staatsangehörige der Republik Serbien benötigen für die Reise in die Republik Singapur kein Visum, wobei das Reisedokument mindestens sechs Monate ab dem geplanten Einreisedatum in das Hoheitsgebiet der Republik Singapur gültig sein muss.",
+    "from_rs_requirements": [
+     "Hinweis: Für Inhaber eines Reisedokuments im Transit ist kein Visum erforderlich"
+    ]
+   },
+   "SI": {
+    "to_rs_stay": "bis zu 90 Tage innerhalb von 6 Monaten (ab dem Datum der ersten Einreise)",
+    "to_rs_conditions": "MSP (original): Kein Visum erforderlich für Aufenthalte bis zu 90 Tagen innerhalb von 6 Monaten ab dem Datum der ersten Einreise | Gewöhnliche Reisepässe, Hinweise MSP: * Der Personalausweis kann auch für die Reise nach Serbien verwendet werden | Diplomaten- und Dienstpässe (original): Kein Visum erforderlich für Aufenthalte bis zu 90 Tagen",
+    "from_rs_stay": "bis zu 90 Tage innerhalb von 180 Tagen",
+    "from_rs_passport": "Für die Einreise von Staatsangehörigen der Republik Serbien in die Republik Slowenien ist ein Reisedokument erforderlich, das mindestens drei Monate nach dem geplanten Ausreisedatum aus dem Gebiet des EU-Mitgliedstaats gültig sein muss.",
+    "from_rs_requirements": [
+     "Hinweis: Ein Visum ist für Inhaber von Pässen erforderlich, die von MUP RS-Koordinaciona uprava ausgestellt wurden. Ab dem 13. Oktober 2024 wird die Einreise in die EU-Mitgliedstaaten und den Schengen-Raum für diese Pässe ohne Visum möglich sein. Für Inhaber eines Reisedokuments im Transit ist kein Visum erforderlich",
+     "Das bedeutet, dass von Reisenden, die verpflichtet sind, das EES zu nutzen (Drittstaatsangehörige, die mit einem Visum in den Schengen-Raum einreisen oder denen kein Visum für Aufenthalte von bis zu 90 Tagen innerhalb von 180 Tagen benötigt wird), biometrische und sonstige Daten erfasst werden und sie gleichzeitig einen Stempel im Reisedokument erhalten.",
+     "Für Hunde und Katzen sind eine Impfbescheinigung gegen Tollwut und eine entsprechende internationale tierärztliche Bescheinigung für den Grenzübertritt erforderlich."
+    ]
+   },
+   "SK": {
+    "to_rs_stay": "bis zu 90 Tage innerhalb von 6 Monaten (ab dem Datum der ersten Einreise)",
+    "to_rs_conditions": "MSP (original): Kein Visum erforderlich für Aufenthalte bis zu 90 Tagen innerhalb von 6 Monaten ab dem Datum der ersten Einreise | Gewöhnliche Reisepässe, Hinweise MSP: * Der Personalausweis kann auch für die Reise nach Serbien verwendet werden | Diplomaten- und Dienstpässe (original): Kein Visum erforderlich für Aufenthalte bis zu 90 Tagen",
+    "from_rs_stay": "bis zu 90 Tage innerhalb von 180 Tagen",
+    "from_rs_passport": "Voraussetzung für die Einreise von Staatsangehörigen der Republik Serbien ist ein Reisedokument, das mindestens drei Monate nach dem geplanten Ausreisedatum aus dem Hoheitsgebiet der Slowakei gültig sein muss.",
+    "from_rs_requirements": [
+     "Hinweis: Für Inhaber eines Reisedokuments im Transit ist kein Visum erforderlich, jedoch muss die ausstellende diplomatisch-konsularische Vertretung (DKP) zusätzliche Daten in das Reisedokument (PL) eintragen; Einzelheiten sind bei der nächstgelegenen slowakischen Vertretung (DKP) zu klären",
+     "Bei Unterbringung in einer Privatunterkunft muss diese innerhalb von 3 Tagen nach dem Tag der Einreise bei der örtlichen Ausländerpolizei gemeldet werden."
+    ]
+   },
+   "SL": {
+    "to_rs_conditions": "MSP (original): Visum erforderlich | Diplomaten- und Dienstpässe (original): Visum erforderlich",
+    "instructions_note": "MSP: Visum erforderlich; kein Verfahren veröffentlicht."
+   },
+   "SM": {
+    "to_rs_stay": "bis zu 90 Tage innerhalb von 6 Monaten (ab dem Datum der ersten Einreise)",
+    "to_rs_conditions": "MSP (original): Kein Visum erforderlich für Aufenthalte bis zu 90 Tagen innerhalb von 6 Monaten ab dem Datum der ersten Einreise | Diplomaten- und Dienstpässe (original): Kein Visum erforderlich für Aufenthalte bis zu 90 Tagen",
+    "from_rs_stay": "bis zu 90 Tage innerhalb von 180 Tagen",
+    "from_rs_passport": "Staatsangehörige der Republik Serbien können in die Republik San Marino einreisen, wenn sie ein biometrisches Reisedokument besitzen, das mindestens drei Monate nach dem geplanten Ausreisedatum aus dem Gebiet von San Marino gültig ist.",
+    "from_rs_requirements": [
+     "Inhaber biometrischer Reisepässe Serbiens benötigen für einen Aufenthalt von bis zu 90 Tagen innerhalb von sechs Monaten kein Visum."
+    ]
+   },
+   "SN": {
+    "to_rs_conditions": "MSP (original): Visum erforderlich | Diplomaten- und Dienstpässe (original): Kein Visum erforderlich für Aufenthalte bis zu 90 Tagen.",
+    "from_rs_requirements": [
+     "Hinweis: Für Inhaber eines Reisedokuments im Transit ist ein Visum erforderlich"
+    ],
+    "from_rs_instructions": {
+     "fee": null,
+     "notes": "Dokumentenliste und Gebühr sind auf der Seite MSP nicht veröffentlicht; die Visaseite des ausländischen Staates wurde in diesem Durchgang nicht abgerufen. MSP nennt nur die zuständige Vertretung.",
+     "where": "Botschaft des Senegal in Berlin",
+     "validity": null,
+     "apply_url": null,
+     "documents": [],
+     "processing": null,
+     "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/senegal",
+     "appointment_url": null
+    }
+   },
+   "SO": {
+    "to_rs_conditions": "MSP (original): Visum erforderlich | Diplomaten- und Dienstpässe (original): Visum erforderlich",
+    "from_rs_passport": "Bei der Visumantragstellung muss der Reisepass für eine touristische Reise mindestens 6 Monate gültig sein; dies gilt auch für die Regelung des Aufenthalts.",
+    "from_rs_instructions": {
+     "fee": null,
+     "notes": "Dokumentenliste und Gebühr sind auf der Seite MSP nicht veröffentlicht; die Visaseite des ausländischen Staates wurde in diesem Durchgang nicht abgerufen. MSP nennt nur die zuständige Vertretung.",
+     "where": "Botschaft Somalias in Moskau",
+     "validity": null,
+     "apply_url": null,
+     "documents": [],
+     "processing": null,
+     "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/somalija",
+     "appointment_url": null
+    }
+   },
+   "SR": {
+    "to_rs_stay": "bis zu 30 Tage",
+    "to_rs_conditions": "MSP (original): Kein Visum erforderlich für Aufenthalte bis zu 30 Tagen | Diplomaten- und Dienstpässe (original): Kein Visum erforderlich für Aufenthalte bis zu 30 Tagen",
+    "from_rs_stay": "bis zu 30 Tage"
+   },
+   "SS": {
+    "to_rs_conditions": "MSP (original): Visum erforderlich | Diplomaten- und Dienstpässe (original): Visum erforderlich",
+    "from_rs_requirements": [
+     "Hinweis: Das Visum bei DSPI ist kostenlos; für touristische Reisen kostet es 20 USD. Visa können bei der DKP oder an den Grenzübergängen oder elektronisch (E-Visum) unter www.mfaic.gov.kh erhalten werden. Für Inhaber eines Reisedokuments im Transit ist ein Visum erforderlich",
+     "Staatsangehörige der Republik Serbien benötigen für die Einreise in den Südsudan ein Visum und eine Impfbescheinigung gegen Gelbfieber."
+    ],
+    "from_rs_instructions": {
+     "fee": null,
+     "notes": "Dokumentenliste und Gebühr sind auf der Seite MSP nicht veröffentlicht; die Visaseite des ausländischen Staates wurde in diesem Durchgang nicht abgerufen. MSP nennt nur die zuständige Vertretung.",
+     "where": "Auslandsvertretungen des Südsudan",
+     "validity": null,
+     "apply_url": null,
+     "documents": [],
+     "processing": null,
+     "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/juzni-sudan",
+     "appointment_url": null
+    }
+   },
+   "ST": {
+    "to_rs_conditions": "MSP (original): Visum erforderlich | Diplomaten- und Dienstpässe (original): Kein Visum erforderlich für Aufenthalte bis zu 90 Tagen innerhalb von 180 Tagen",
+    "from_rs_passport": "Der Reisepass muss mindestens 6 Monate gültig sein und eine freie Seite für einen Visumaufkleber haben.",
+    "from_rs_instructions": {
+     "fee": null,
+     "notes": "Dokumentenliste und Gebühr sind auf der Seite MSP nicht veröffentlicht; die Visaseite des ausländischen Staates wurde in diesem Durchgang nicht abgerufen. MSP nennt nur die zuständige Vertretung.",
+     "where": "Botschaften von São Tomé und Príncipe in Belgien oder Portugal",
+     "validity": null,
+     "apply_url": null,
+     "documents": [],
+     "processing": null,
+     "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/sao-tome-i-principe",
+     "appointment_url": null
+    }
+   },
+   "SV": {
+    "to_rs_conditions": "MSP (original): Visum erforderlich | Diplomaten- und Dienstpässe (original): Visum erforderlich",
+    "from_rs_instructions": {
+     "fee": null,
+     "notes": "Dokumentenliste und Gebühr sind auf der Seite MSP nicht veröffentlicht; die Visaseite des ausländischen Staates wurde in diesem Durchgang nicht abgerufen.",
+     "where": "Botschaft El Salvadors in Rom",
+     "validity": null,
+     "apply_url": null,
+     "documents": [],
+     "processing": null,
+     "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/el-salvador",
+     "appointment_url": null
+    }
+   },
+   "SY": {
+    "to_rs_conditions": "MSP (original): Visum erforderlich | Diplomaten- und Dienstpässe (original): Visum erforderlich",
+    "from_rs_passport": "Der Reisepass muss für eine Touristenreise 3 Monate gültig sein.",
+    "from_rs_instructions": {
+     "fee": null,
+     "notes": "Ein Visum an der Grenze ist formal möglich, seit 2011 aber nicht verlässlich.",
+     "where": "Botschaft Syriens in Belgrad",
+     "validity": null,
+     "apply_url": null,
+     "documents": [
+      "Reisepass mit 3 Monaten Gültigkeit"
+     ],
+     "processing": null,
+     "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/sirija",
+     "appointment_url": null
+    }
+   },
+   "SZ": {
+    "to_rs_conditions": "MSP (original): Visum erforderlich | Diplomaten- und Dienstpässe (original): Kein Visum erforderlich für Aufenthalte bis zu 90 Tagen innerhalb von 180 Tagen",
+    "from_rs_passport": "Der Reisepass muss für die Reise 6 Monate ab dem geplanten Einreisetag gültig sein.",
+    "from_rs_requirements": [
+     "Hinweis: Für Inhaber eines Reisedokuments im Transit ist kein Visum erforderlich"
+    ]
+   },
+   "TD": {
+    "to_rs_conditions": "MSP (original): Visum erforderlich | Diplomaten- und Dienstpässe (original): Visum erforderlich",
+    "from_rs_requirements": [
+     "Hinweis: Für Inhaber eines Reisedokuments im Transit ist ein Visum erforderlich"
+    ],
+    "from_rs_instructions": {
+     "fee": null,
+     "notes": "Dokumentenliste und Gebühr sind auf der Seite MSP nicht veröffentlicht; die Visaseite des ausländischen Staates wurde in diesem Durchgang nicht abgerufen. MSP nennt nur die zuständige Vertretung.",
+     "where": "Botschaft des Tschad in Brüssel",
+     "validity": null,
+     "apply_url": null,
+     "documents": [],
+     "processing": null,
+     "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/cad",
+     "appointment_url": null
+    }
+   },
+   "TG": {
+    "to_rs_conditions": "MSP (original): Visum erforderlich | Diplomaten- und Dienstpässe (original): Kein Visum erforderlich für Aufenthalte bis zu 90 Tagen innerhalb von 180 Tagen",
+    "from_rs_requirements": [
+     "Hinweis: Für Inhaber eines Reisedokuments im Transit ist ein Visum erforderlich"
+    ],
+    "from_rs_instructions": {
+     "fee": "Gebühr USD 60 (laut Kopfzeile MSP)",
+     "notes": "Details sind nicht auf der Seite MSP angegeben.",
+     "where": "Togo",
+     "validity": null,
+     "apply_url": null,
+     "documents": [],
+     "processing": null,
+     "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/togo",
+     "appointment_url": null
+    }
+   },
+   "TH": {
+    "to_rs_conditions": "MSP (original): Visum erforderlich | Diplomaten- und Dienstpässe (original): Kein Visum erforderlich für Aufenthalte bis zu 90 Tagen",
+    "from_rs_requirements": [
+     "Hinweis: Für Inhaber eines Reisedokuments im Transit ist ein Visum erforderlich",
+     "In Thailand können Staatsangehörige bei der Einwanderungsbehörde bei der Einreise einen sogenannten Visum bei Ankunft (Visa on Arrival) beantragen, der 15 Tage für eine Ein- und Ausreise gültig ist und nicht verlängert werden kann.",
+     "Staatsangehörige der Republik Serbien, die einen touristischen Aufenthalt in Thailand von mehr als 15 Tagen planen, können ein E-Visum über folgende Plattform beantragen: 1. https://www.thaievisa.go.th/ Portal in englischer Sprache.",
+     "Vor der Antragstellung können Anweisungen auf Serbisch per E-Mail angefragt werden: info@thaiconsulate.rs Sobald das E-Visum genehmigt ist, wird der Antragsteller per E-Mail benachrichtigt; diese E-Mail muss ausgedruckt und beim Einsteigen ins Flugzeug sowie den Einwanderungsbehörden bei der Ankunft im Königreich Thailand vorgezeigt werden. Ab dem 1. Mai 2025."
+    ],
+    "from_rs_instructions": {
+     "fee": "THB 2,000 (VOA, laut Tourismusbehörde Thailands; ältere Seite)",
+     "notes": "Die Seite der Königlich Thailändischen Botschaft in Doha (gültig ab 15. September 2026) führt Serbien für VOA auf. Die Gebühr stammt von einer älteren TAT-Seite – an der Grenze oder bei der Botschaft prüfen.",
+     "where": "Visum bei Ankunft an thailändischen Einwanderungskontrollen (Serbien gehört zu den 3 berechtigten Staatsangehörigkeiten); thailändisches E-Visum (ohne Aufkleber) für andere Aufenthalte",
+     "validity": "Bis zu 15 Tage (Tourismus)",
+     "apply_url": "https://www.thaievisa.go.th/",
+     "documents": [
+      "Ausgefülltes Antragsformular",
+      "Ein aktuelles Foto",
+      "Nachweis der Geldmittel: THB 10,000 pro Person / THB 20,000 pro Familie",
+      "Reisepass mit mindestens 6 Monaten Gültigkeit und 2 freien Seiten",
+      "Vollständig bezahltes Weiterflugticket innerhalb von 30 Tagen nach der Einreise"
+     ],
+     "processing": null,
+     "source_url": "https://doha.thaiembassy.org/en/publicservice/tourist-visa-exemption-visa-on-arrival?page=5d7e6a3c15e39c032c006dba&menu=5d7e6a3c15e39c032c006dbb",
+     "appointment_url": null
+    }
+   },
+   "TJ": {
+    "to_rs_conditions": "MSP (original): Visum erforderlich | Diplomaten- und Dienstpässe (original): Kein Visum erforderlich für Aufenthalte bis zu 90 Tagen innerhalb von 180 Tagen",
+    "from_rs_stay": "bis zu 30 Tage",
+    "from_rs_requirements": [
+     "Hinweis: Für Inhaber eines Reisedokuments im Transit ist ein Visum erforderlich"
+    ]
+   },
+   "TL": {
+    "to_rs_conditions": "MSP (original): Visum erforderlich | Diplomaten- und Dienstpässe (original): Visum erforderlich",
+    "instructions_note": "Seite MSP leer; Regimekennzeichnung fehlt (betreut von Jakarta aus)."
+   },
+   "TM": {
+    "to_rs_conditions": "MSP (original): Visum erforderlich | Diplomaten- und Dienstpässe (original): Visum erforderlich",
+    "from_rs_requirements": [
+     "Hinweis: Für Inhaber eines Reisedokuments im Transit ist ein Visum erforderlich"
+    ],
+    "from_rs_instructions": {
+     "fee": null,
+     "notes": null,
+     "where": "Botschaften Turkmenistans oder Visum an der Grenze/am Flughafen mit einem von der Staatlichen Migrationsbehörde beglaubigten Einladungsschreiben",
+     "validity": null,
+     "apply_url": null,
+     "documents": [
+      "Original/Kopie des beglaubigten Einladungsschreibens",
+      "Gültiger Reisepass"
+     ],
+     "processing": null,
+     "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/turkmenistan",
+     "appointment_url": null
+    }
+   },
+   "TN": {
+    "to_rs_conditions": "MSP (original): Visum erforderlich | Diplomaten- und Dienstpässe (original): Visum erforderlich",
+    "from_rs_passport": "Der Reisepass muss für eine Touristenreise mehr als 3 Monate gültig sein; ein Rückflugticket ist zwingend erforderlich.",
+    "from_rs_requirements": [
+     "Touristengruppen aus der Republik Serbien, die im Rahmen einer organisierten Reise reisen, erhalten Visa bei Ankunft in der Republik Tunesien, nachdem ein zuvor bezahlter Hotelgutschein und ein bestätigtes Rückflugticket entsprechend der Dauer des touristischen Aufenthalts in der Republik Tunesien vorgelegt wurden.",
+     "Es besteht weder eine Pflicht zum Besitz einer Krankenversicherungspolice noch die Notwendigkeit, einen Impfnachweis vorzulegen.",
+     "Gegenstände von kultureller und historischer Bedeutung müssen zwingend angemeldet werden; eine vorherige Genehmigung des tunesischen MUP ist erforderlich.",
+     "NÜTZLICHE INFORMATIONEN GESUNDHEITSLAGE – Es gibt keine vorgeschriebenen oder empfohlenen Impfungen und keine Gebiete, in denen Epidemien oder bestimmte Krankheiten herrschen.",
+     "Unsere Staatsbürger sollten den seit 2015 geltenden Ausnahmezustand beachten, Orte von Menschenansammlungen meiden und nicht individuell im Land reisen, insbesondere nicht in die zentralen und südlichen Teile Tunesiens sowie in Gebiete nahe der Grenze zu Algerien und Libyen.",
+     "Die Verkehrsinfrastruktur zwischen größeren Städten und touristischen Orten ist gut.",
+     "Fahrzeugpapiere, internationaler Führerschein, internationale Versicherung und Fahrzeugzulassung werden anerkannt."
+    ],
+    "from_rs_instructions": {
+     "fee": null,
+     "notes": null,
+     "where": "Tunesische Auslandsvertretungen für Einzelreisende; Touristengruppen erhalten Visa bei Ankunft mit bezahltem Hotelgutschein und bestätigtem Rückflugticket",
+     "validity": "Aufenthalt bis zu 3 Monate",
+     "apply_url": null,
+     "documents": [
+      "Reisepass mit mehr als 3 Monaten Gültigkeit",
+      "Rückflugticket"
+     ],
+     "processing": null,
+     "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/tunis",
+     "appointment_url": null
+    }
+   },
+   "TO": {
+    "to_rs_conditions": "MSP (original): Visum erforderlich | Diplomaten- und Dienstpässe (original): Visum erforderlich",
+    "from_rs_requirements": [
+     "Hinweis: Für Inhaber eines Reisedokuments im Transit ist kein Visum erforderlich, wenn mit dem Schiff gereist wird, wohl aber bei Reise mit dem Flugzeug"
+    ],
+    "from_rs_instructions": {
+     "fee": null,
+     "notes": "Dokumentenliste und Gebühr sind auf der Seite MSP nicht veröffentlicht; die Visaseite des ausländischen Staates wurde in diesem Durchgang nicht abgerufen.",
+     "where": "Einwanderungsbehörde Tongas",
+     "validity": null,
+     "apply_url": "https://www.revenue.gov.to/immigration-and-general-services",
+     "documents": [],
+     "processing": null,
+     "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/tonga",
+     "appointment_url": null
+    }
+   }
+  }
+ }
+}

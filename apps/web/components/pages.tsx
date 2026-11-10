@@ -93,7 +93,6 @@ export async function Home({ locale }: { locale: Locale }) {
     ru: { open: "Открыть", browse: "Смотреть", bySituation: "По жизненной ситуации", langsTitle: "Один и тот же контент на четырёх языках", langsLead: "Для всех, кто живёт, работает или только приезжает в Сербию.", stats: "В цифрах", since: "Данные из официальных реестров, обновляются постоянно." },
     de: { open: "Öffnen", browse: "Entdecken", bySituation: "Nach Lebenslage", langsTitle: "Derselbe Inhalt in vier Sprachen", langsLead: "Für alle, die in Serbien leben, arbeiten oder gerade ankommen.", stats: "In Zahlen", since: "Daten aus amtlichen Registern, laufend aktualisiert." },
   }[locale];
-  const LANGS: { l: Locale; name: string; sub: string }[] = [{ l: "sr", name: "Srpski", sub: "latinica" }, { l: "en", name: "English", sub: "for residents and visitors" }, { l: "ru", name: "Русский", sub: "для жителей и гостей" }, { l: "de", name: "Deutsch", sub: "für Bewohner und Gäste" }];
   return (
     <main>
       <Opener words={d.siteName.split(" ")} eyebrow={`Republika Srbija · ${new Date().getFullYear()}`} count={stats.orgs} countLabel={d.institutions} />
@@ -183,16 +182,6 @@ export async function Home({ locale }: { locale: Locale }) {
         </ul>
       </section>
 
-      {/* Languages */}
-      <section className="band-primary"><div className="shell py-16 sm:py-20" data-reveal>
-        <div className="eyebrow mb-3">04 · {d.forForeigners}</div>
-        <h2 className="display-sm max-w-[20ch]">{T.langsTitle}</h2>
-        <p className="lede mt-3 max-w-[52ch]">{T.langsLead}</p>
-        <p className="mt-4"><Link href={href(locale, "/vize")} className="btn-primary">{locale === "sr" ? "Vize i uslovi ulaska za 194 države" : locale === "en" ? "Visas and entry rules for 194 countries" : locale === "ru" ? "Визы и въезд: 194 страны" : "Visa und Einreise: 194 Länder"} →</Link></p>
-        <div className="lang-tiles mt-8">
-          {LANGS.map((x) => <Link key={x.l} href={href(x.l, "/za-strance")} hrefLang={x.l} className="lang-tile spot"><span className="big">{x.name}</span><span className="text-muted text-[13px]">{x.sub}</span></Link>)}
-        </div>
-      </div></section>
     </main>
   );
 }

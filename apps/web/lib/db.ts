@@ -240,10 +240,10 @@ export const getFeatured = (typeSlug: string | null, unitPath: string | null, li
 
 /** Countries and the visa regime in both directions (patch 017). */
 export type VisaInstructions = { where?: string | null; apply_url?: string | null; appointment_url?: string | null; documents?: string[]; fee?: string | null; processing?: string | null; validity?: string | null; notes?: string | null; source_url?: string };
-export type CountryRow = { from_rs_instructions?: VisaInstructions | null; instructions_note?: string | null; iso2: string; name_sr: string; name_en: string; slug: string; to_rs_regime: string | null; to_rs_stay: string | null; to_rs_conditions: string | null; to_rs_url: string | null;
+export type CountryRow = { i18n?: Record<string, Partial<Record<string, unknown>>> | null; from_rs_instructions?: VisaInstructions | null; instructions_note?: string | null; iso2: string; name_sr: string; name_en: string; slug: string; to_rs_regime: string | null; to_rs_stay: string | null; to_rs_conditions: string | null; to_rs_url: string | null;
   from_rs_regime: string | null; from_rs_stay: string | null; from_rs_passport: string | null; from_rs_requirements: unknown; from_rs_url: string | null; rs_mission_name: string | null; rs_mission_city: string | null; source_fetched_at: string | null };
 export const getCountries = () => sql<CountryRow[]>`select iso2, name_sr, name_en, slug, to_rs_regime, to_rs_stay, to_rs_conditions, to_rs_url, from_rs_regime, from_rs_stay, from_rs_passport, from_rs_requirements, from_rs_url, rs_mission_name, rs_mission_city, source_fetched_at::text from countries order by name_sr`;
-export const getCountry = async (slug: string) => (await sql<CountryRow[]>`select from_rs_instructions, instructions_note, iso2, name_sr, name_en, slug, to_rs_regime, to_rs_stay, to_rs_conditions, to_rs_url, from_rs_regime, from_rs_stay, from_rs_passport, from_rs_requirements, from_rs_url, rs_mission_name, rs_mission_city, source_fetched_at::text from countries where slug = ${slug} or iso2 = ${slug.toUpperCase()} limit 1`)[0] ?? null;
+export const getCountry = async (slug: string) => (await sql<CountryRow[]>`select i18n, from_rs_instructions, instructions_note, iso2, name_sr, name_en, slug, to_rs_regime, to_rs_stay, to_rs_conditions, to_rs_url, from_rs_regime, from_rs_stay, from_rs_passport, from_rs_requirements, from_rs_url, rs_mission_name, rs_mission_city, source_fetched_at::text from countries where slug = ${slug} or iso2 = ${slug.toUpperCase()} limit 1`)[0] ?? null;
 export type MissionRow = { id: number; slug: string; name_lat: string; type_slug: string; type_name: string; place_name: string | null; phone: string | null; phone_display: string | null; website: string | null };
 export const getMissionsOfCountry = (nameSr: string) =>
   sql<MissionRow[]>`select o.id, o.slug, o.name_lat, t.slug as type_slug, t.name_lat as type_name, l.settlement_name_lat as place_name, c.value as phone, c.value_display as phone_display, coalesce(o.website, w.value) as website
@@ -261,4 +261,8 @@ export const getCountryByMissionName = async (orgName: string) => {
 };
 
 export type VisaGeneral = { visa_c?: VisaInstructions & { forms?: { label: string; url: string }[]; exemptions?: string[] }; visa_d?: VisaInstructions & { forms?: { label: string; url: string }[]; exemptions?: string[] } };
-export const getVisaGeneral = async () => (await sql<{ value: VisaGeneral }[]>`select value from site_settings where key = 'visa_to_serbia'`)[0]?.value ?? null;
+export const getVisaGeneral = async (locale = "sr") => {
+  const rows = await sql<{ key: string; value: unknown }[]>`select key, value from site_settings where key in ('visa_to_serbia', 'visa_to_serbia_i18n')`;
+  const base = rows.find((r) => r.key === "visa_to_serbia")?.value as VisaGeneral | undefined; const tr = (rows.find((r) => r.key === "visa_to_serbia_i18n")?.value as Record<string, VisaGeneral> | undefined)?.[locale];
+  return tr ?? base ?? null;
+};

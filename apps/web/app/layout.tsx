@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 // Fonts are self-hosted via Fontsource so builds never depend on Google Fonts.
 // Display: Unbounded (wide geometric, variable, Latin-ext + Cyrillic). Serif accents: Bona Nova. Text: Commissioner. Labels/codes: JetBrains Mono.
+import Heritage from "@/components/Heritage";
 import "@fontsource-variable/unbounded";
 import "@fontsource/bona-nova/400.css";
 import "@fontsource/bona-nova/400-italic.css";
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="sr-Latn">
-      <body><Motion />{children}</body>
+      <body><Heritage /><Motion />{children}</body>
     </html>
   );
 }

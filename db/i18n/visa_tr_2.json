@@ -1,0 +1,1414 @@
+{
+  "sr": {
+    "countries": {
+      "BW": {
+        "to_rs_conditions": "MSP (originalno): potrebna viza | Diplomatski i službeni pasoši (originalno): potrebna viza",
+        "from_rs_passport": "Rok važenja pasoša radi putovanja mora biti 6 meseci od dana planiranog ulaska.",
+        "from_rs_requirements": [
+          "Napomena: Za nosioca putnog lista u tranzitu neophodna je viza"
+        ],
+        "from_rs_instructions": {
+          "fee": null,
+          "notes": "Spisak dokumenata i taksa nisu objavljeni na sajtu MSP-a; zvanična vizna stranica dotične države u ovom pregledu nije preuzeta.",
+          "where": "Viza za Bocvanu (nije potrebna u aerodromskoj tranzitnoj zoni)",
+          "validity": null,
+          "apply_url": null,
+          "documents": [
+            "Pasoš važi 6 meseci, 2 prazne strane"
+          ],
+          "processing": null,
+          "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/bocvana",
+          "appointment_url": null
+        }
+      },
+      "BY": {
+        "to_rs_stay": "do 30 dana",
+        "to_rs_conditions": "MSP (originalno): nije potrebna viza za posete do 30 dana | Diplomatski i službeni pasoši (originalno): nije potrebna viza za posete do 30 dana",
+        "from_rs_stay": "do 30 dana",
+        "from_rs_requirements": [
+          "Napomena: Za nosioca putnog lista u tranzitu nije neophodna viza",
+          "Prilikom ulaska u R. Belorusiju obavezno je posedovanje polise zdravstvenog osiguranja koja mora ispunjavati uslove sledeće uslove: (1) visina osigurane sume od minimum 10.000 evra i (2) kao teritorija važenja polise mora biti naznačena ili Republika Belorusija ili ceo svet.",
+          "Na ulasku u R. Belorusiju obavezno se popunjava emigraciona karta (služi za registraciju) koju treba čuvati i nositi sa sobom u pasošu sve do izlaska iz R. Belorusije, kada se vraća pograničnom službeniku.",
+          "Ulaz je dozvoljen samo državljanima Poljske, EU, državljanima iz šengenske oblasti, stranim diplomatama ili strancima koji imaju regulisan boravak u Poljskoj ili nekoj od zemalja EU ili Šengena (boravišna karta ili viza D za duži boravak).",
+          "Ličnu digitalnu fotografiju (selfi) za biometrijsku pretragu. 3.",
+          "Od 1. septembra 2025. godine državljani trećih zemalja, kojima nije izdata viza ili dozvola boravka u Letoniji, u obavezi su da pre putovanja dostave određene informacije o sebi, svojim srodnicima (ako ih ima) i svrsi putovanja državnom informacionom sistemu za sprečavanje pretnji Letonije, preko ve",
+          "Sve detalje o dostavljanju informacija možete pronaći na veb adresi eta.gov.lv."
+        ]
+      },
+      "BZ": {
+        "to_rs_conditions": "MSP (originalno): potrebna viza | Diplomatski i službeni pasoši (originalno): potrebna viza",
+        "instructions_note": "MSP navodi samo da je potrebna viza; postupak nije objavljen."
+      },
+      "CA": {
+        "to_rs_stay": "do 90 dana u periodu od 6 meseci (od datuma prvog ulaska)",
+        "to_rs_conditions": "MSP (originalno): nije potrebna viza za posete do 90 dana u periodu od 6 meseci od datuma prvog ulaska | Diplomatski i službeni pasoši (originalno): nije potrebna viza za posete do 90 dana",
+        "from_rs_requirements": [
+          "Napomena: Za nosioca putnog lista u tranzitu neophodna je viza",
+          "Prilikom podnošenja zahteva za kanadsku vizu uzimaju se biometrijski podaci (tzv. matrix) – otisci svih deset prstiju i fotografija.",
+          "Od davanja biometrijskih podataka izuzeta su deca do 14 godina starosti i lica starija od 79 godina, ministri i akreditovane diplomate drugih zemalja i Ujedinjenih nacija, koji putuju u Kanadu službeno, predsednici država i vlada, kao i državljani koji su izuzeti od pribavljanja viza i dolaze turist",
+          "Da biste proverili da li je potrebno da date biometrijske podatke posetite: http://www.cic.gc.ca/english/visit/biometrics.asp Svi građani koji privatno/turistički putuju u Kanadu u obavezi su da zahtev za vizu, uz plaćanje takse i uzimanje biometrijskih podataka, podnose u viznom centru.",
+          "Biometrijski podaci se uzimaju na svakih 10 godina, a podnosilac zahteva dobija potvrdu do kada joj uzeti biometrijski podaci važe."
+        ],
+        "from_rs_instructions": {
+          "fee": "CAD 100 obrada po osobi (CAD 500 za porodicu od 5 i više članova); biometrija CAD 85 po osobi (do CAD 170 po porodici)",
+          "notes": "IRCC upućuje na vodič 5256. Iznosi taksi preuzeti su iz sažetka IRCC stranice (WebFetch); VAC servisna taksa se plaća dodatno i nije navedena tamo.",
+          "where": "IRCC onlajn prijava; dokumenta i biometrija u Centru za prijem viza (VFS) Beograd, Zorza Klemansoa 19, 5. sprat, Stari grad, 11108 Beograd (adresa prema sajtu MSP); tel +381 17 32 00 35, info.canseriom@vfshelpline.com",
+          "validity": "Do 10 godina ili do isteka pasoša/biometrije; službenik može odrediti drugačiji rok",
+          "apply_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/apply-visitor-visa.html",
+          "documents": [
+            "Digitalna kopija važećeg pasoša (važi najmanje 6 meseci posle planiranog putovanja)",
+            "Dokumenta koja odgovaraju svrsi putovanja (pozivno pismo, pismo poslodavca, poslovni poziv, izvodi sa računa)",
+            "Dokaz o srodstvu sa domaćinom, ako je relevantno; maloletnici: saglasnost za putovanje",
+            "Preporučeno: istorija putovanja, plan putovanja, izvodi sa računa za 6 meseci, pismo poslodavca ne starije od 3 meseca",
+            "Biometrija (otisci prstiju i fotografija): potrebna pri prvoj prijavi, važi 10 godina; izuzeti su lica mlađa od 14 i starija od 79 godina"
+          ],
+          "processing": "Standardni rok obrade nije naveden na preuzetoj IRCC stranici (IRCC objavljuje alat za rok obrade)",
+          "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/apply-visitor-visa.html",
+          "appointment_url": "http://vfsglobal.ca/canada"
+        }
+      },
+      "CD": {
+        "to_rs_conditions": "MSP (originalno): potrebna viza | Diplomatski i službeni pasoši (originalno): potrebna viza",
+        "from_rs_requirements": [
+          "Napomena: Za nosioca putnog lista u tranzitu neophodna je viza",
+          "Za ulazak u zemlju potrebna je viza koja se može pribaviti u Ambasadi DR Kongo u Beogradu i posedovanje zdravstvenog (žutog kartona o vakcinacijama)."
+        ],
+        "from_rs_instructions": {
+          "fee": null,
+          "notes": "Taksa za odlazak USD 55 u Kinšasi.",
+          "where": "Ambasada DR Kongo u Beogradu",
+          "validity": null,
+          "apply_url": null,
+          "documents": [
+            "Žuti karton (vakcinacija protiv žute groznice)"
+          ],
+          "processing": null,
+          "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/kongo-demokratska-republika",
+          "appointment_url": null
+        }
+      },
+      "CF": {
+        "to_rs_conditions": "MSP (originalno): potrebna viza | Diplomatski i službeni pasoši (originalno): potrebna viza",
+        "from_rs_passport": "Rok važenja pasoša radi turističkog putovanja mora biti najmanje 6 meseci, što važi i za regulisanje boravka.",
+        "from_rs_requirements": [
+          "Za ulazak u zemlju potrebna je viza i posedovanje zdravstvenog (žutog) kartona o vakcinacijama."
+        ],
+        "from_rs_instructions": {
+          "fee": null,
+          "notes": "Spisak dokumenata i taksa nisu objavljeni na sajtu MSP-a; zvanična vizna stranica dotične države u ovom pregledu nije preuzeta.",
+          "where": "Ambasada Francuske u Beogradu (konzularno predstavništvo za CAR prema MSP)",
+          "validity": null,
+          "apply_url": null,
+          "documents": [
+            "Žuti karton (vakcinacija protiv žute groznice)",
+            "Pasoš važi 6 meseci"
+          ],
+          "processing": null,
+          "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/centralnoafricka-republika",
+          "appointment_url": null
+        }
+      },
+      "CG": {
+        "to_rs_conditions": "MSP (originalno): potrebna viza | Diplomatski i službeni pasoši (originalno): nije potrebna viza za posete do 90 dana u periodu od 180 dana",
+        "from_rs_requirements": [
+          "Napomena: Za nosioca putnog lista u tranzitu neophodna je viza",
+          "Državljani R. Srbije koji putuju u R. Kongo u obavezi su da imaju žute kartone kao dokaz da su vakcinisani od žute groznice."
+        ],
+        "from_rs_instructions": {
+          "fee": null,
+          "notes": "Spisak dokumenata i taksa nisu objavljeni na sajtu MSP-a; zvanična vizna stranica dotične države u ovom pregledu nije preuzeta. MSP navodi samo nadležnu misiju.",
+          "where": "Ambasada Republike Kongo u Rimu",
+          "validity": null,
+          "apply_url": null,
+          "documents": [],
+          "processing": null,
+          "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/kongo-republika",
+          "appointment_url": null
+        }
+      },
+      "CH": {
+        "to_rs_stay": "do 90 dana u periodu od 6 meseci (od datuma prvog ulaska)",
+        "to_rs_conditions": "MSP (originalno): nije potrebna viza za posete do 90 dana u periodu od 6 meseci od datuma prvog ulaska | Obični pasoši, napomene MSP: lična karta se može koristiti i za putovanje u Srbiju | Diplomatski i službeni pasoši (originalno): nije potrebna viza za posete do 90 dana",
+        "from_rs_stay": "do 90 dana u periodu od 180 dana",
+        "from_rs_passport": "Rok važenja pasoša radi turističkog putovanja mora biti 3 meseca od datuma napuštanja Švajcarske, dok pasoš mora biti izdat u poslednjih 10 godina.",
+        "from_rs_requirements": [
+          "Napomena: Bezvizni režim važi samo za turistička putovanja. Rad na crno, pa tako i čuvanje dece uz novčanu nadoknadu, nisu dozvoljeni.",
+          "Nosiocima biometrijskih pasoša R. Srbije nije potrebna viza za boravak do 90 dana u periodu od šest meseci.",
+          "Preporučuje se posedovanje polise putnog zdravstvenog osiguranja, s obzirom na veoma skupe lekarske usluge, a može se desiti i da potvrdu o osiguranju zatraže na uvid pogranični organi.",
+          "U pogledu unošenja i iznošenja novca u gotovini, nema ograničenja, niti obaveze prijavljivanja, ali je moguće da se na graničnom prelasku vrši kontrola porekla novca u slučaju da lice ima više od 10.000 švajcarskih franaka (CHF).",
+          "Potrebno je imati dovoljno sredstava za boravak u Švajcarskoj, najmanje 150 CHF po danu boravka.",
+          "Za unošenje kućnih ljubimaca potrebna je veterinarska knjižica, odnosno „pasoš“ sa upisanim svim vakcinama."
+        ]
+      },
+      "CI": {
+        "to_rs_conditions": "MSP (originalno): potrebna viza | Diplomatski i službeni pasoši (originalno): potrebna viza",
+        "from_rs_instructions": {
+          "fee": "EUR 73 uključujući bankarske troškove (3 meseca, višestruki ulaz)",
+          "notes": "Samo obični pasoši (važe 6+ meseci). Najviše 1 MB po fajlu. Biometrijska registracija je obavezna na aerodromu.",
+          "where": "e-viza za Kot d' Ivoar preko SNEDAI (jedini sajt koji priznaje država); biometrijska registracija na aerodromu u Abidžanu",
+          "validity": "Odobrenje za predregistraciju važi 3 meseca; višestruka viza na 3 meseca",
+          "apply_url": "https://www.snedai.com/e-visa/",
+          "documents": [
+            "Strana/e pasoša sa podacima o identitetu",
+            "Rezervacija povratnog leta",
+            "Pozivno pismo ili potvrda o smeštaju (otkucano, potpisano, overeno pečatom, legalizovano)",
+            "Po dolasku: potvrda o uplati, odobreni dokument o predregistraciji, pasoš važi 6+ meseci"
+          ],
+          "processing": "Odgovor DST-a stiže u roku od 48 radnih sati, ali može potrajati duže",
+          "source_url": "https://www.snedai.com/e-visa/",
+          "appointment_url": null
+        }
+      },
+      "CL": {
+        "to_rs_stay": "do 90 dana u periodu od 6 meseci (od datuma prvog ulaska)",
+        "to_rs_conditions": "MSP (originalno): nije potrebna viza za posete do 90 dana u periodu od 6 meseci od datuma prvog ulaska | Diplomatski i službeni pasoši (originalno): nije potrebna viza za posete do 90 dana",
+        "from_rs_stay": "do 90 dana",
+        "from_rs_requirements": [
+          "Napomena: Za nosioca putnog lista u tranzitu nije neophodna viza ukoliko ne pokreće imigracioni postupak i istog dana nastavi put ka krajnjem odredištu"
+        ]
+      },
+      "CM": {
+        "to_rs_conditions": "MSP (originalno): potrebna viza | Diplomatski i službeni pasoši (originalno): potrebna viza",
+        "instructions_note": "MSP: potrebna viza; postupak nije objavljen."
+      },
+      "CN": {
+        "to_rs_stay": "do 30 dana",
+        "to_rs_conditions": "MSP (originalno): nije potrebna viza za posete do 30 dana | Obični pasoši, napomene MSP: kineski državljani, nosioci pasoša SAR Hong Kong: nije potrebna viza za posete do 14 dana. Kineski državljani, nosioci pasoša SAR Makao: nije potrebna viza za posete do 90 dana | Diplomatski i službeni pasoši (originalno): diplomatski, službeni i obični pasoši („on business in“) i obični poslovni pasoši kineskih državljana: nije potrebna viza",
+        "from_rs_stay": "do 30 dana",
+        "from_rs_requirements": [
+          "Napomena: Za nosioca putnog lista u tranzitu viza nije neophodna ukoliko ne napušta međunarodnu zonu tranzitnog aerodroma i ukoliko na teritoriji Kine ne boravi duže od 24 časa. U svim drugim slučajevima je neophodna"
+        ]
+      },
+      "CO": {
+        "to_rs_stay": "do 30 dana u periodu od godinu dana",
+        "to_rs_conditions": "MSP (originalno): nije potrebna viza za posete do 30 dana u periodu od godinu dana. | Diplomatski i službeni pasoši (originalno): nije potrebna viza za posete do 30 dana u periodu od godinu dana.",
+        "from_rs_stay": "do 90 dana u periodu od 180 dana",
+        "from_rs_requirements": [
+          "Napomena: Za nosioca putnog lista u tranzitu neophodna je viza"
+        ]
+      },
+      "CR": {
+        "to_rs_stay": "do 90 dana u periodu od 6 meseci (od datuma prvog ulaska)",
+        "to_rs_conditions": "MSP (originalno): nije potrebna viza za posete do 90 dana u periodu od 6 meseci od datuma prvog ulaska | Diplomatski i službeni pasoši (originalno): nije potrebna viza za posete do 90 dana",
+        "from_rs_stay": "do 3 meseca",
+        "from_rs_passport": "Rok važenja pasoša radi turističkog putovanja mora biti 6 meseci, dok je za regulisanje boravka rok važenja pasoša godinu dana.",
+        "from_rs_requirements": [
+          "Prilikom ulaska u Kostariku se zahteva posedovanje 500 USD, kreditne kartice i putnih čekova, kao i povratne karte.",
+          "Kućni ljubimci se mogu uneti uz prezentaciju potvrde od veterinarske ustanove iz R. Srbije o zdravstvenom stanju i vakcinaciji protiv besnila."
+        ]
+      },
+      "CU": {
+        "to_rs_conditions": "MSP (originalno): potrebna viza | Obični pasoši, napomene MSP: Za državljane Kube kojima nije odobren privremeni boravak ili stalno nastanjenje u Republici Srbiji, odnosno kojima ranije nije izdata viza D (viza za duži boravak), pri ulasku u Republiku Srbiju moraju se, pored opštih uslova za ulazak, predočiti sledeća dokumenta: overeno pozivno pismo od lica koje strani državljanin posećuje u Republici Srbiji, ili dokaz o plaćenoj rezervaciji u hotelu ili drugom smeštajnom objektu u Republici Srbiji; dokaz o dovoljnim sredstvima za izdržavanje tokom planiranog boravka u Republici Srbiji, pri čemu se dovoljnim sredstvima smatra 50 EUR po danu boravka, u vidu gotovine ili izvoda sa bankovnog računa; dokaz o plaćenom zdravstvenom osiguranju u Republici Srbiji ili polisa zdravstvenog osiguranja za period boravka koja pokriva troškove lečenja u iznosu od najmanje 20.000 EUR; i dokaz o plaćenoj povratnoj avio karti sa fiksnim datumom povratka u zemlju porekla ili prethodnog ulaska. | Diplomatski i službeni pasoši (originalno): nije potrebna viza za posete do 90 dana u periodu od 6 meseci od datuma prvog ulaska",
+        "from_rs_passport": "Za ulazak u R. Kubu potrebno je posedovati vizu (zahtev se podnosi putem stranice: https://evisacuba.cu/en/), važeći pasoš čiji rok ne ističe za manje od 6 meseci od datuma ulaska u ovu zemlju, i povratnu avio kartu.",
+        "from_rs_requirements": [
+          "Napomena: Za nosioca putnog lista u tranzitu nije neophodna viza"
+        ],
+        "from_rs_instructions": {
+          "fee": "Iznos je prikazan na obrascu zahteva, zavisi od konzulata",
+          "notes": "Može biti potreban poseban formular D'Viajeros pre dolaska. Turistička viza ne pokriva poslovna putovanja, putovanja novinara niti radna putovanja.",
+          "where": "Kubanski e-vizni portal (turistička viza) ili kubanski konzulati",
+          "validity": "Turistička viza, jednokratni ulazak, 90 dana, uz mogućnost produženja za 90 dana",
+          "apply_url": "https://evisacuba.cu/en/inicio",
+          "documents": [
+            "Važeći pasoš za ceo period boravka",
+            "E-mail adresa za prijem koda vize"
+          ],
+          "processing": "Odgovor u roku od 72 radna sata",
+          "source_url": "https://evisacuba.cu/en/inicio",
+          "appointment_url": null
+        }
+      },
+      "CV": {
+        "to_rs_conditions": "MSP (originalno): potrebna viza | Diplomatski i službeni pasoši (originalno): potrebna viza",
+        "from_rs_instructions": {
+          "fee": null,
+          "notes": "Spisak dokumenata i taksa nisu objavljeni na sajtu MSP-a; zvanična vizna stranica dotične države u ovom pregledu nije preuzeta. MSP navodi samo nadležnu misiju.",
+          "where": "Ambasada Kabo Verdea u Briselu",
+          "validity": null,
+          "apply_url": null,
+          "documents": [],
+          "processing": null,
+          "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/kabo-verde",
+          "appointment_url": null
+        }
+      },
+      "CY": {
+        "to_rs_stay": "do 90 dana u periodu od 6 meseci (od datuma prvog ulaska)",
+        "to_rs_conditions": "MSP (originalno): nije potrebna viza za posete do 90 dana u periodu od 6 meseci od datuma prvog ulaska | Obični pasoši, napomene MSP: lična karta se može koristiti i za putovanje u Srbiju | Diplomatski i službeni pasoši (originalno): nije potrebna viza za posete do 90 dana",
+        "from_rs_stay": "do 90 dana u periodu od 180 dana",
+        "from_rs_passport": "Potrebno je da poseduju biometrijsku putnu ispravu čiji je rok važenja najmanje tri meseca od planiranog datuma povratka.",
+        "from_rs_requirements": [
+          "Napomena: Za nosioca putnog lista u tranzitu nije neophodna viza"
+        ]
+      },
+      "CZ": {
+        "to_rs_stay": "do 90 dana u periodu od 6 meseci (od datuma prvog ulaska)",
+        "to_rs_conditions": "MSP (originalno): nije potrebna viza za posete do 90 dana u periodu od 6 meseci od datuma prvog ulaska | Obični pasoši, napomene MSP: lična karta se može koristiti i za putovanje u Srbiju | Diplomatski i službeni pasoši (originalno): nije potrebna viza za posete do 90 dana",
+        "from_rs_stay": "do 90 dana u periodu od 180 dana",
+        "from_rs_passport": "Uslov za ulazak državljana R. Srbije u Češku Republiku jeste da poseduju putnu ispravu koja je izdata u poslednjih deset godina i koja mora da važi najmanje tri meseca nakon planiranog datuma za napuštanje teritorije ČR.",
+        "from_rs_requirements": [
+          "Napomena: Za nosioca putnog lista u tranzitu neophodna je viza",
+          "Nosiocima biometrijskih pasoša R. Srbije nije potrebna viza za boravak do 90 dana u periodu od šest meseci."
+        ]
+      },
+      "DE": {
+        "to_rs_stay": "do 90 dana u periodu od 6 meseci (od datuma prvog ulaska)",
+        "to_rs_conditions": "MSP (originalno): nije potrebna viza za posete do 90 dana u periodu od 6 meseci od datuma prvog ulaska | Obični pasoši, napomene MSP: lična karta se može koristiti i za putovanje u Srbiju | Diplomatski i službeni pasoši (originalno): nije potrebna viza za posete do 90 dana",
+        "from_rs_stay": "do 90 dana u periodu od 180 dana",
+        "from_rs_passport": "Uslov za ulazak državljana R. Srbije u Nemačku je posedovanje biometrijske putne isprave koja mora da važi najmanje tri meseca nakon planiranog datuma za napuštanje teritorije Nemačke.",
+        "from_rs_requirements": [
+          "Napomena: Za nosioca putnog lista u tranzitu neophodna je viza osim ukoliko se tranzit obavlja preko aerodroma koji poseduju međunarodni tranzitni prostor koji se neće napuštati (Frankfurt, Minhen, Hamburg)",
+          "Nosiocima biometrijskih pasoša R. Srbije nije potrebna viza za boravak u Nemačkoj do 90 dana u okviru vremenskog perioda od 180 dana, ukoliko je svrha putovanja turizam, poslovni put, poseta ili neki drugi razlog koji se ne odnosi na obavljanje određenih delatnosti za koju je potrebna dozvola: jezič",
+          "Propisi kojima se reguliše putovanje i boravak u Nemačkoj, sadržani su u Zakonu o boravku, pri čemu su moguće sledeće osnove za boravak: školovanje, zaposlenje, spajanje porodice, posebno definisano pravo na ponovni dolazak i dr. Državljani R. Srbije koji su u Nemačku došli na rad ili studiranje mor"
+        ]
+      },
+      "DJ": {
+        "to_rs_conditions": "MSP (originalno): potrebna viza | Diplomatski i službeni pasoši (originalno): potrebna viza",
+        "from_rs_requirements": [
+          "Napomena: Za boravak do 10 dana viza se dobija odmah, preko tog perioda se sprovodi procedura. Za nosioca putnog lista u tranzitu neophodna je viza"
+        ],
+        "from_rs_instructions": {
+          "fee": null,
+          "notes": "Taksa se prikazuje na portalu pre plaćanja. Ograničenje za gotovinu USD 5.000.",
+          "where": "Portal za e-vizu Džibutija (Uprava za imigraciju)",
+          "validity": "Jednokratni ulazak",
+          "apply_url": "https://www.evisa.gouv.dj",
+          "documents": [
+            "Pasoš važi najmanje 6 meseci",
+            "Rezervacija leta",
+            "Adresa smeštaja (hotel ili domaćin)",
+            "Pozivno pismo (organizacija ili domaćin sa kontaktima)",
+            "Kreditna kartica (Visa, Mastercard ili Amex)"
+          ],
+          "processing": null,
+          "source_url": "https://www.evisa.gouv.dj",
+          "appointment_url": null
+        }
+      },
+      "DK": {
+        "to_rs_stay": "do 90 dana u periodu od 6 meseci (od datuma prvog ulaska)",
+        "to_rs_conditions": "MSP (originalno): nije potrebna viza za posete do 90 dana u periodu od 6 meseci od datuma prvog ulaska | Obični pasoši, napomene MSP: lična karta se može koristiti i za putovanje u Srbiju | Diplomatski i službeni pasoši (originalno): nije potrebna viza za posete do 90 dana",
+        "from_rs_stay": "do 90 dana u periodu od 180 dana",
+        "from_rs_passport": "Za ulazak u Kraljevinu Dansku, za sve vrste saobraćaja - drumski, vazdušni i pomorski, obavezna je važeća putna isprava R. Srbije koja mora da važi najmanje tri meseca duže od planiranog datuma napuštanja teritorije Danske.",
+        "from_rs_requirements": [
+          "Napomena: Za nosioca putnog lista u tranzitu neophodna je viza osim ukoliko nosilac PL ima boravišnu dozvolu neke od država članica „Šengenske liste\"",
+          "Za ulazak u Dansku nije potrebno da se priloži dokaz o vakcinaciji.",
+          "Radi lične sigurnosti tokom boravka, poželjno je posedovati polisu zdravstvenog osiguranja."
+        ]
+      },
+      "DM": {
+        "to_rs_stay": "do 90 dana u periodu od 6 meseci (od datuma prvog ulaska)",
+        "to_rs_conditions": "MSP (originalno): nije potrebna viza za posete do 90 dana u periodu od 6 meseci od datuma prvog ulaska | Diplomatski i službeni pasoši (originalno): nije potrebna viza za posete do 90 dana u periodu od 6 meseci od datuma prvog ulaska",
+        "from_rs_instructions": {
+          "fee": null,
+          "notes": "Tekst MSP navodi da za boravak do 21 dan nije potrebna viza, a strukturirani režim je „viza“. Proveriti kod Dominike.",
+          "where": "Tekst MSP nije usklađen sa oznakom režima",
+          "validity": null,
+          "apply_url": null,
+          "documents": [],
+          "processing": null,
+          "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/dominika",
+          "appointment_url": null
+        }
+      },
+      "DO": {
+        "to_rs_conditions": "MSP (originalno): potrebna viza | Diplomatski i službeni pasoši (originalno): nije potrebna viza za posete do 60 dana u periodu od 6 meseci",
+        "from_rs_requirements": [
+          "Napomena: Za boravak do dva meseca iz turističkih razloga viza se može dobiti na aerodromu. Poslovne vize se izdaju u Ambasadi u Italiji. Za nosioca putnog lista u tranzitu nije neophodna viza",
+          "Turistička vizna propusnica – „Tarjeta de Turista\" je uključena u sve avionske karte izdate van Dominikanske Republike, tako da posetioci koji ulaze u zemlju avionom ne moraju da je kupuju na aerodromu dolaska."
+        ]
+      },
+      "DZ": {
+        "to_rs_conditions": "MSP (originalno): potrebna viza | Diplomatski i službeni pasoši (originalno): nije potrebna viza za posete do 90 dana",
+        "from_rs_passport": "Rok važenja pasoša radi turističkog putovanja je 6 meseci, a rok važenja pasoša radi regulisanja boravka je 6 meseci od dana apliciranja za vizu.",
+        "from_rs_requirements": [
+          "Napomena: Za nosioca putnog lista u tranzitu neophodna je viza",
+          "Ne postoji mogućnost podnošenje zahteva za vizu onlajn (eViza), niti dobijanje vize na graničnom prelazu (on Arrival).",
+          "Polisa zdravstvenog osiguranja nije neophodna, ali se preporučuje.",
+          "Dozvoljeno je unošenje gotovog novca u razumnoj količini, za potrebe smeštaja, ishrane i lokalnog transporta.",
+          "Životinje se mogu uneti uz potvrdu o vakcinaciji protiv besnila i veterinarskoj potvrdi o zdravstvenom stanju."
+        ],
+        "from_rs_instructions": {
+          "fee": null,
+          "notes": "Zdravstveno osiguranje se preporučuje, nije obavezno.",
+          "where": "Ambasada Alžira u Beogradu (nema onlajn e-vize, nema vize po dolasku)",
+          "validity": null,
+          "apply_url": null,
+          "documents": [
+            "Pasoš važi 6 meseci"
+          ],
+          "processing": null,
+          "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/alzir",
+          "appointment_url": null
+        }
+      },
+      "EC": {
+        "to_rs_conditions": "MSP (originalno): potrebna viza | Diplomatski i službeni pasoši (originalno): nije potrebna viza za posete do 90 dana",
+        "from_rs_stay": "do 90 dana",
+        "from_rs_requirements": [
+          "Napomena: Za nosioca putnog lista u tranzitu nije potrebna viza",
+          "Zdravstveno osiguranje nije obavezno za ulazak u Ekvador, ali se stranim turistima preporučuje da se zdravstveno osiguraju u zemljama svog stalnog boravka."
+        ]
+      }
+    }
+  },
+  "en": {
+    "countries": {
+      "BW": {
+        "to_rs_conditions": "MSP (original): Visas required | Diplomatic and official passports (original): Visas required",
+        "from_rs_passport": "The passport must be valid for 6 months from the planned date of entry.",
+        "from_rs_requirements": [
+          "Note: A visa is required for the holder of a travel document in transit"
+        ],
+        "from_rs_instructions": {
+          "fee": null,
+          "notes": "The document list and fee are not published on the MFA page; the foreign state's own visa page was not retrieved in this pass.",
+          "where": "Botswana visa (not needed in the airport transit zone)",
+          "validity": null,
+          "apply_url": null,
+          "documents": [
+            "Passport valid for 6 months, 2 blank pages"
+          ],
+          "processing": null,
+          "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/bocvana",
+          "appointment_url": null
+        }
+      },
+      "BY": {
+        "to_rs_stay": "up to 30 days",
+        "to_rs_conditions": "MSP (original): No visas required for visits of up to 30 days | Diplomatic and official passports (original): No visas required for visits of up to 30 days",
+        "from_rs_stay": "up to 30 days",
+        "from_rs_requirements": [
+          "Note: A visa is not required for the holder of a travel document in transit",
+          "When entering the Republic of Belarus, a health insurance policy is mandatory and must meet the following conditions: (1) an insured sum of at least 10,000 EUR and (2) the territory of validity of the policy must be stated as either the Republic of Belarus or worldwide.",
+          "On entry to the Republic of Belarus, a migration card must be completed (it serves for registration); it must be kept and carried in the passport until departure from the Republic of Belarus, when it is handed back to the border officer.",
+          "Entry is permitted only to citizens of Poland, the EU, citizens of the Schengen area, foreign diplomats, or foreigners who hold regulated residence in Poland or in another EU or Schengen country (residence card or visa D for a longer stay).",
+          "A personal digital photograph (selfie) for biometric search. 3.",
+          "From 1 September 2025, third-country nationals who have not been issued a visa or residence permit for Latvia must provide certain information about themselves, their relatives (if any) and the purpose of travel to the Latvian state information system for threat prevention before travelling, via ve",
+          "All details on submitting this information can be found at the website eta.gov.lv."
+        ]
+      },
+      "BZ": {
+        "to_rs_conditions": "MSP (original): Visas required | Diplomatic and official passports (original): Visas required",
+        "instructions_note": "MFA states only that a visa is required; no procedure is published."
+      },
+      "CA": {
+        "to_rs_stay": "up to 90 days in a 6-month period (from the date of first entry)",
+        "to_rs_conditions": "MSP (original): No visas required for visits of up to 90 days in a 6-month period starting from the date of first entry | Diplomatic and official passports (original): No visas required for visits of up to 90 days",
+        "from_rs_requirements": [
+          "Note: A visa is required for the holder of a travel document in transit",
+          "When applying for a Canadian visa, biometric data (so-called matrix) is taken: fingerprints of all ten fingers and a photograph.",
+          "Exempt from providing biometric data are children under 14 and persons over 79, ministers and accredited diplomats of other countries and of the United Nations travelling to Canada on official business, heads of state and government, as well as nationals who are exempt from obtaining visas and arrive as tourist",
+          "To check whether you must provide biometric data, visit: http://www.cic.gc.ca/english/visit/biometrics.asp All citizens travelling to Canada privately or for tourism must submit the visa application at the visa centre, paying the fee and providing biometric data.",
+          "Biometric data is taken every 10 years, and the applicant receives a confirmation of the date until which the biometric data is valid."
+        ],
+        "from_rs_instructions": {
+          "fee": "CAD 100 processing fee per person (CAD 500 for a family of 5 or more); biometrics CAD 85 per person (up to CAD 170 per family)",
+          "notes": "IRCC refers to guide 5256. Fee figures are taken from a summary of the IRCC page (WebFetch); the VAC service fee is extra and is not stated there.",
+          "where": "IRCC online application; documents and biometrics at the Visa Application Centre (VFS) Belgrade, Zorza Klemansoa 19, 5th floor, Stari grad, 11108 Belgrade (address per MFA page); tel +381 17 32 00 35, info.canseriom@vfshelpline.com",
+          "validity": "Up to 10 years or until the passport/biometrics expire; the officer may set a different expiry date",
+          "apply_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/apply-visitor-visa.html",
+          "documents": [
+            "Digital copy of a valid passport (valid at least 6 months beyond planned travel)",
+            "Documents matching the purpose of travel (invitation letter, employer letter, business invitation, bank statements)",
+            "Proof of relationship to the host, where relevant; minors: travel authorisation letter",
+            "Recommended: travel history, itinerary, 6 months of bank statements, employer letter dated within the last 3 months",
+            "Biometrics (fingerprints and photo): required at the first application, valid for 10 years; exempt if under 14 or over 79"
+          ],
+          "processing": "Standard processing time is not stated on the IRCC page retrieved (IRCC publishes a processing-time tool)",
+          "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/apply-visitor-visa.html",
+          "appointment_url": "http://vfsglobal.ca/canada"
+        }
+      },
+      "CD": {
+        "to_rs_conditions": "MSP (original): Visas required | Diplomatic and official passports (original): Visas required",
+        "from_rs_requirements": [
+          "Note: A visa is required for the holder of a travel document in transit",
+          "Entry to the country requires a visa, which can be obtained from the Embassy of the DR Congo in Belgrade, and a health (yellow) vaccination card."
+        ],
+        "from_rs_instructions": {
+          "fee": null,
+          "notes": "Departure tax of USD 55 at Kinshasa.",
+          "where": "Embassy of the DR Congo in Belgrade",
+          "validity": null,
+          "apply_url": null,
+          "documents": [
+            "Yellow fever card"
+          ],
+          "processing": null,
+          "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/kongo-demokratska-republika",
+          "appointment_url": null
+        }
+      },
+      "CF": {
+        "to_rs_conditions": "MSP (original): Visas required | Diplomatic and official passports (original): Visas required",
+        "from_rs_passport": "The passport must be valid for at least 6 months for a tourist trip; this also applies to arranging a stay.",
+        "from_rs_requirements": [
+          "Entry to the country requires a visa and a health (yellow) vaccination card."
+        ],
+        "from_rs_instructions": {
+          "fee": null,
+          "notes": "The document list and fee are not published on the MFA page; the foreign state's own visa page was not retrieved in this pass.",
+          "where": "French Embassy in Belgrade (consular representation for CAR according to the MFA)",
+          "validity": null,
+          "apply_url": null,
+          "documents": [
+            "Yellow fever card",
+            "Passport valid for 6 months"
+          ],
+          "processing": null,
+          "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/centralnoafricka-republika",
+          "appointment_url": null
+        }
+      },
+      "CG": {
+        "to_rs_conditions": "MSP (original): Visas required | Diplomatic and official passports (original): No visas required for visits up to 90 days within a 180-day period",
+        "from_rs_requirements": [
+          "Note: A visa is required for the holder of a travel document in transit",
+          "Citizens of the Republic of Serbia travelling to the Republic of the Congo must carry yellow cards as proof of vaccination against yellow fever."
+        ],
+        "from_rs_instructions": {
+          "fee": null,
+          "notes": "The document list and fee are not published on the MFA page; the foreign state's own visa page was not retrieved in this pass. The MFA only names the competent mission.",
+          "where": "Embassy of the Republic of the Congo in Rome",
+          "validity": null,
+          "apply_url": null,
+          "documents": [],
+          "processing": null,
+          "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/kongo-republika",
+          "appointment_url": null
+        }
+      },
+      "CH": {
+        "to_rs_stay": "up to 90 days in a 6-month period (from the date of first entry)",
+        "to_rs_conditions": "MSP (original): No visas required for visits of up to 90 days in a 6-month period starting from the date of first entry | Ordinary passports, MSP notes: ID card can also be used to travel to Serbia | Diplomatic and official passports (original): No visas required for visits of up to 90 days",
+        "from_rs_stay": "up to 90 days in a 180-day period",
+        "from_rs_passport": "For a tourist trip, the passport must be valid for 3 months from the date of leaving Switzerland and must have been issued within the last 10 years.",
+        "from_rs_requirements": [
+          "Note: The visa-free regime applies only to tourist travel. Undeclared work, including childminding for payment, is not permitted.",
+          "Holders of biometric passports of the Republic of Serbia do not need a visa for stays of up to 90 days in a six-month period.",
+          "Travel health insurance is recommended given the very high cost of medical services, and border authorities may also ask to see proof of insurance.",
+          "There are no restrictions or declaration obligations for bringing in or taking out cash; however, the origin of the money may be checked at the border crossing if a person carries more than 10,000 Swiss francs (CHF).",
+          "Sufficient funds for the stay in Switzerland are required: at least 150 CHF per day of stay.",
+          "To bring in pets, a veterinary booklet is required, i.e. a “pet passport” with all vaccinations recorded."
+        ]
+      },
+      "CI": {
+        "to_rs_conditions": "MSP (original): Visas required | Diplomatic and official passports (original): Visas required",
+        "from_rs_instructions": {
+          "fee": "EUR 73 incl. bank charges (3 months, multiple entry)",
+          "notes": "Ordinary passports only (valid for 6+ months). Maximum 1 MB per file. Biometric enrolment is mandatory at the airport.",
+          "where": "Côte d'Ivoire e-visa via SNEDAI (the only site recognised by the state); biometric enrolment at Abidjan airport",
+          "validity": "Pre-enrolment approval valid for 3 months; 3-month multiple-entry visa",
+          "apply_url": "https://www.snedai.com/e-visa/",
+          "documents": [
+            "Passport identity page(s)",
+            "Return flight reservation",
+            "Invitation letter or accommodation certificate (typed, signed, stamped, legalised)",
+            "On arrival: payment receipt, approved pre-enrolment document, passport valid for 6+ months"
+          ],
+          "processing": "The DST reply comes within 48 working hours; it may take longer",
+          "source_url": "https://www.snedai.com/e-visa/",
+          "appointment_url": null
+        }
+      },
+      "CL": {
+        "to_rs_stay": "up to 90 days in a 6-month period (from the date of first entry)",
+        "to_rs_conditions": "MSP (original): No visas required for visits of up to 90 days in a 6-month period starting from the date of first entry | Diplomatic and official passports (original): No visas required for visits of up to 90 days",
+        "from_rs_stay": "up to 90 days",
+        "from_rs_requirements": [
+          "Note: A visa is not required for the holder of a travel document in transit, provided they do not start an immigration procedure and continue the journey to the final destination on the same day."
+        ]
+      },
+      "CM": {
+        "to_rs_conditions": "MSP (original): Visas required | Diplomatic and official passports (original): Visas required",
+        "instructions_note": "MFA: visa required; no procedure published."
+      },
+      "CN": {
+        "to_rs_stay": "up to 30 days",
+        "to_rs_conditions": "MSP (original): No visas required for visits of up to 30 days | Ordinary passports, MSP notes: Chinese citizens, holders of SAR Hong Kong passports: No visas required for visits up to 14 days. Chinese citizens, holders of SAR Macau passports: No visas required for visits up to 90 days | Diplomatic and official passports (original): diplomatic, official and ordinary passports (“on business in”) and ordinary business passports held by Chinese citizens: No visas required",
+        "from_rs_stay": "up to 30 days",
+        "from_rs_requirements": [
+          "Note: For the holder of a travel document in transit, a visa is not required if they do not leave the international transit zone of the airport and do not stay in the territory of China for longer than 24 hours. In all other cases a visa is required."
+        ]
+      },
+      "CO": {
+        "to_rs_stay": "up to 30 days in a one-year period",
+        "to_rs_conditions": "MSP (original): No visas required for visits of up to 30 days within a one-year period. | Diplomatic and official passports (original): No visas required for visits of up to 30 days within a one-year period.",
+        "from_rs_stay": "up to 90 days in a 180-day period",
+        "from_rs_requirements": [
+          "Note: A visa is required for the holder of a travel document in transit"
+        ]
+      },
+      "CR": {
+        "to_rs_stay": "up to 90 days in a 6-month period (from the date of first entry)",
+        "to_rs_conditions": "MSP (original): No visas required for visits of up to 90 days in a 6-month period starting from the date of first entry | Diplomatic and official passports (original): No visas required for visits of up to 90 days",
+        "from_rs_stay": "up to 3 months",
+        "from_rs_passport": "For a tourist trip the passport must be valid for 6 months; for arranging a stay it must be valid for one year.",
+        "from_rs_requirements": [
+          "On entry to Costa Rica, possession of USD 500, a credit card and travellers’ cheques, as well as a return ticket, is required.",
+          "Pets may be brought in upon presentation of a certificate from a veterinary institution in the Republic of Serbia on their health status and rabies vaccination."
+        ]
+      },
+      "CU": {
+        "to_rs_conditions": "MSP (original): Visas required | Obični pasoši, napomene MSP: For Cuban citizens who have not been granted temporary residence or permanent settlement in the Republic of Serbia, or who have not previously been issued a D visa (visa for a longer stay), the following documents must be presented upon entry into the Republic of Serbia, in addition to meeting the general entry conditions: a notarized invitation letter from the person being visited in the Republic of Serbia, or proof of a paid reservation at a hotel or other accommodation in the Republic of Serbia; proof of sufficient funds for subsistence during the planned stay in the Republic of Serbia, where sufficient funds means 50 EUR per day of stay, shown as cash in that amount or as a bank account statement; proof of paid health insurance in the Republic of Serbia, or a health insurance policy for the period of stay covering medical expenses of at least 20,000 EUR; and proof of a paid return airline ticket with a fixed return date to the country of origin or previous point of entry. | Diplomatic and official passports (original): No visas required for visits of up to 90 days in a 6-month period starting from the date of first entry",
+        "from_rs_passport": "To enter the Republic of Cuba, a visa is required (the application is submitted via the website https://evisacuba.cu/en/), a valid passport that does not expire within less than 6 months from the date of entry into this country, and a return airline ticket.",
+        "from_rs_requirements": [
+          "Note: A visa is not required for the holder of a travel document in transit"
+        ],
+        "from_rs_instructions": {
+          "fee": "Cost shown on the application form, per consulate",
+          "notes": "A separate D'Viajeros pre-arrival form may be required. A tourist visa does not cover business, journalist or work trips.",
+          "where": "Cuba eVisa portal (tourist visa) or Cuban consulates",
+          "validity": "Tourist visa, single entry, 90 days, extendable by 90 days",
+          "apply_url": "https://evisacuba.cu/en/inicio",
+          "documents": [
+            "Valid passport for the whole stay",
+            "Email address to receive the visa code"
+          ],
+          "processing": "Response within 72 business hours",
+          "source_url": "https://evisacuba.cu/en/inicio",
+          "appointment_url": null
+        }
+      },
+      "CV": {
+        "to_rs_conditions": "MSP (original): Visas required | Diplomatic and official passports (original): Visas required",
+        "from_rs_instructions": {
+          "fee": null,
+          "notes": "The document list and fee are not published on the MFA page; the foreign state's own visa page was not retrieved in this pass. The MFA only names the competent mission.",
+          "where": "Embassy of Cabo Verde in Brussels",
+          "validity": null,
+          "apply_url": null,
+          "documents": [],
+          "processing": null,
+          "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/kabo-verde",
+          "appointment_url": null
+        }
+      },
+      "CY": {
+        "to_rs_stay": "up to 90 days in a 6-month period (from the date of first entry)",
+        "to_rs_conditions": "MSP (original): No visas required for visits of up to 90 days in a 6-month period starting from the date of first entry | Ordinary passports, MSP notes: ID card can also be used to travel to Serbia | Diplomatic and official passports (original): No visas required for visits of up to 90 days",
+        "from_rs_stay": "up to 90 days in a 180-day period",
+        "from_rs_passport": "A biometric travel document is required, valid for at least three months from the planned date of return.",
+        "from_rs_requirements": [
+          "Note: A visa is not required for the holder of a travel document in transit"
+        ]
+      },
+      "CZ": {
+        "to_rs_stay": "up to 90 days in a 6-month period (from the date of first entry)",
+        "to_rs_conditions": "MSP (original): No visas required for visits of up to 90 days in a 6-month period starting from the date of first entry | Ordinary passports, MSP notes: ID card can also be used to travel to Serbia | Diplomatic and official passports (original): No visas required for visits of up to 90 days",
+        "from_rs_stay": "up to 90 days in a 180-day period",
+        "from_rs_passport": "A condition for entry of citizens of the Republic of Serbia into the Czech Republic is holding a travel document issued within the last ten years, which must be valid for at least three months after the planned date of leaving the territory of the Czech Republic.",
+        "from_rs_requirements": [
+          "Note: A visa is required for the holder of a travel document in transit",
+          "Holders of biometric passports of the Republic of Serbia do not need a visa for stays of up to 90 days in a six-month period."
+        ]
+      },
+      "DE": {
+        "to_rs_stay": "up to 90 days in a 6-month period (from the date of first entry)",
+        "to_rs_conditions": "MSP (original): No visas required for visits of up to 90 days in a 6-month period starting from the date of first entry | Ordinary passports, MSP notes: ID card can also be used to travel to Serbia | Diplomatic and official passports (original): No visas required for visits of up to 90 days",
+        "from_rs_stay": "up to 90 days in a 180-day period",
+        "from_rs_passport": "A condition for entry of citizens of the Republic of Serbia into Germany is holding a biometric travel document that must be valid for at least three months after the planned date of leaving the territory of Germany.",
+        "from_rs_requirements": [
+          "Note: A visa is required for the holder of a travel document in transit, except where transit is made via airports with an international transit area that will not be left (Frankfurt, Munich, Hamburg).",
+          "Holders of biometric passports of the Republic of Serbia do not need a visa for stays in Germany of up to 90 days within a 180-day period if the purpose of travel is tourism, a business trip, a visit or another reason not related to carrying out certain activities for which a permit is required: jezič",
+          "The rules governing travel and stay in Germany are contained in the Residence Act, under which the following grounds for stay are possible: education, employment, family reunification, a specifically defined right to return, and others. Citizens of the Republic of Serbia who came to Germany to work or study mor"
+        ]
+      },
+      "DJ": {
+        "to_rs_conditions": "MSP (original): Visas required | Diplomatic and official passports (original): Visas required",
+        "from_rs_requirements": [
+          "Note: For a stay of up to 10 days the visa is issued immediately; for longer stays a procedure is carried out. A visa is required for the holder of a travel document in transit."
+        ],
+        "from_rs_instructions": {
+          "fee": null,
+          "notes": "The fee is shown in the portal before payment. Cash limit USD 5,000.",
+          "where": "Djibouti e-visa portal (Immigration Directorate)",
+          "validity": "Single entry",
+          "apply_url": "https://www.evisa.gouv.dj",
+          "documents": [
+            "Passport valid for at least 6 months",
+            "Flight reservation",
+            "Accommodation address (hotel or host)",
+            "Invitation letter (from an organisation or host, with contact details)",
+            "Credit card (Visa, Mastercard or Amex)"
+          ],
+          "processing": null,
+          "source_url": "https://www.evisa.gouv.dj",
+          "appointment_url": null
+        }
+      },
+      "DK": {
+        "to_rs_stay": "up to 90 days in a 6-month period (from the date of first entry)",
+        "to_rs_conditions": "MSP (original): No visas required for visits of up to 90 days in a 6-month period starting from the date of first entry | Ordinary passports, MSP notes: ID card can also be used to travel to Serbia | Diplomatic and official passports (original): No visas required for visits of up to 90 days",
+        "from_rs_stay": "up to 90 days in a 180-day period",
+        "from_rs_passport": "For entry into the Kingdom of Denmark, for all types of transport (road, air and sea), a valid travel document of the Republic of Serbia is mandatory and must be valid for at least three months beyond the planned date of leaving the territory of Denmark.",
+        "from_rs_requirements": [
+          "Note: A visa is required for the holder of a travel document in transit, unless the holder has a residence permit of one of the member states of the Schengen list.",
+          "No proof of vaccination is required to enter Denmark.",
+          "For personal safety during the stay, it is advisable to hold a health insurance policy."
+        ]
+      },
+      "DM": {
+        "to_rs_stay": "up to 90 days in a 6-month period (from the date of first entry)",
+        "to_rs_conditions": "MSP (original): No visas required for visits of up to 90 days in a 6-month period starting from the date of first entry | Diplomatic and official passports (original): No visas required for visits of up to 90 days in a 6-month period starting from the date of first entry",
+        "from_rs_instructions": {
+          "fee": null,
+          "notes": "The MFA text says no visa is required for stays of up to 21 days, but the structured regime is 'visa'. Verify with Dominica.",
+          "where": "The MFA text conflicts with the regime flag",
+          "validity": null,
+          "apply_url": null,
+          "documents": [],
+          "processing": null,
+          "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/dominika",
+          "appointment_url": null
+        }
+      },
+      "DO": {
+        "to_rs_conditions": "MSP (original): Visas required | Diplomatic and official passports (original): No visas required for visits of up to 60 days in a 6-month period",
+        "from_rs_requirements": [
+          "Note: For a stay of up to two months for tourism, a visa can be obtained at the airport. Business visas are issued at the Embassy in Italy. A visa is not required for the holder of a travel document in transit.",
+          "The tourist card “Tarjeta de Turista” is included in all airline tickets issued outside the Dominican Republic, so visitors arriving by air do not need to buy it at the arrival airport."
+        ]
+      },
+      "DZ": {
+        "to_rs_conditions": "MSP (original): Visas required | Diplomatic and official passports (original): No visas required for visits of up to 90 days",
+        "from_rs_passport": "The passport must be valid for 6 months for a tourist trip, and for arranging a stay it must be valid for 6 months from the day of applying for the visa.",
+        "from_rs_requirements": [
+          "Note: A visa is required for the holder of a travel document in transit",
+          "It is not possible to apply for a visa online (eVisa), nor to obtain a visa at the border crossing (on arrival).",
+          "Health insurance is not mandatory but is recommended.",
+          "Bringing in cash in a reasonable amount for accommodation, food and local transport is permitted.",
+          "Animals may be brought in with a certificate of rabies vaccination and a veterinary certificate of health status."
+        ],
+        "from_rs_instructions": {
+          "fee": null,
+          "notes": "Health insurance is recommended, not mandatory.",
+          "where": "Embassy of Algeria in Belgrade (no online e-visa, no visa on arrival)",
+          "validity": null,
+          "apply_url": null,
+          "documents": [
+            "Passport valid for 6 months"
+          ],
+          "processing": null,
+          "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/alzir",
+          "appointment_url": null
+        }
+      },
+      "EC": {
+        "to_rs_conditions": "MSP (original): Visas required | Diplomatic and official passports (original): No visas required for visits of up to 90 days",
+        "from_rs_stay": "up to 90 days",
+        "from_rs_requirements": [
+          "Note: A visa is not required for the holder of a travel document in transit.",
+          "Health insurance is not mandatory for entry to Ecuador, but foreign tourists are advised to insure their health in their country of permanent residence."
+        ]
+      }
+    }
+  },
+  "ru": {
+    "countries": {
+      "BW": {
+        "to_rs_conditions": "MSP (оригинал): требуется виза | Дипломатические и служебные паспорта (оригинал): требуется виза",
+        "from_rs_passport": "Срок действия паспорта для поездки должен составлять 6 месяцев с даты запланированного въезда.",
+        "from_rs_requirements": [
+          "Примечание: для держателя проездного документа в транзите требуется виза"
+        ],
+        "from_rs_instructions": {
+          "fee": null,
+          "notes": "Перечень документов и сбор не опубликованы на странице МИД; официальная страница визы иностранного государства в ходе данной проверки не была получена.",
+          "where": "Виза в Ботсвану (не требуется в транзитной зоне аэропорта)",
+          "validity": null,
+          "apply_url": null,
+          "documents": [
+            "Паспорт действителен 6 месяцев, 2 пустые страницы"
+          ],
+          "processing": null,
+          "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/bocvana",
+          "appointment_url": null
+        }
+      },
+      "BY": {
+        "to_rs_stay": "до 30 дней",
+        "to_rs_conditions": "MSP (оригинал): виза не требуется для визитов до 30 дней | Дипломатические и служебные паспорта (оригинал): виза не требуется для визитов до 30 дней",
+        "from_rs_stay": "до 30 дней",
+        "from_rs_requirements": [
+          "Примечание: для держателя проездного документа в транзите виза не требуется",
+          "При въезде в Республику Беларусь обязательно наличие полиса медицинского страхования, который должен соответствовать следующим условиям: (1) страховая сумма не менее 10 000 евро и (2) территорией действия полиса должна быть указана либо Республика Беларусь, либо весь мир.",
+          "При въезде в Республику Беларусь обязательно заполняется миграционная карта (служит для регистрации), которую необходимо хранить и носить с собой в паспорте до выезда из Республики Беларусь, когда она возвращается пограничному сотруднику.",
+          "Въезд разрешен только гражданам Польши, ЕС, гражданам зоны Шенгена, иностранным дипломатам или иностранцам, имеющим разрешенное проживание в Польше или в одной из стран ЕС или Шенгена (вид на жительство или виза D для длительного пребывания).",
+          "Личная цифровая фотография (селфи) для биометрической проверки. 3.",
+          "С 1 сентября 2025 года граждане третьих стран, которым не выдана виза или вид на жительство в Латвии, обязаны до поездки передать определенную информацию о себе, своих родственниках (если есть) и цели поездки в государственную информационную систему Латвии для предотвращения угроз, через ve",
+          "Все подробности о предоставлении информации можно найти на веб-сайте eta.gov.lv."
+        ]
+      },
+      "BZ": {
+        "to_rs_conditions": "MSP (оригинал): требуется виза | Дипломатические и служебные паспорта (оригинал): требуется виза",
+        "instructions_note": "МИД указывает только, что требуется виза; процедура не опубликована."
+      },
+      "CA": {
+        "to_rs_stay": "до 90 дней в течение 6 месяцев (с даты первого въезда)",
+        "to_rs_conditions": "MSP (оригинал): виза не требуется для визитов до 90 дней в течение 6 месяцев с даты первого въезда | Дипломатические и служебные паспорта (оригинал): виза не требуется для визитов до 90 дней",
+        "from_rs_requirements": [
+          "Примечание: для держателя проездного документа в транзите требуется виза",
+          "При подаче заявления на канадскую визу снимаются биометрические данные (так называемая матрица): отпечатки всех десяти пальцев и фотография.",
+          "От сдачи биометрических данных освобождаются дети до 14 лет и лица старше 79 лет, министры и аккредитованные дипломаты других стран и Организации Объединенных Наций, путешествующие в Канаду по службе, главы государств и правительств, а также граждане, освобожденные от получения виз и прибывающие как туристы",
+          "Чтобы проверить, нужно ли сдавать биометрические данные, посетите: http://www.cic.gc.ca/english/visit/biometrics.asp Все граждане, путешествующие в Канаду в частном порядке или с туристической целью, обязаны подать заявление на визу в визовом центре, уплатив сбор и сдав биометрические данные.",
+          "Биометрические данные снимаются каждые 10 лет, а заявитель получает подтверждение о сроке действия биометрических данных."
+        ],
+        "from_rs_instructions": {
+          "fee": "Сбор за обработку CAD 100 с человека (CAD 500 для семьи из 5 и более человек); биометрия CAD 85 с человека (до CAD 170 с семьи)",
+          "notes": "IRCC ссылается на руководство 5256. Суммы сборов взяты из сводки страницы IRCC (WebFetch); сервисный сбор VAC оплачивается отдельно и на этой странице не указан.",
+          "where": "Онлайн-заявка через IRCC; документы и биометрия — в визовом центре (VFS) Белград, Zorza Klemansoa 19, 5-й этаж, Stari grad, 11108 Белград (адрес по сайту МИД); тел. +381 17 32 00 35, info.canseriom@vfshelpline.com",
+          "validity": "До 10 лет или до истечения срока паспорта/биометрии; сотрудник может установить другой срок",
+          "apply_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/apply-visitor-visa.html",
+          "documents": [
+            "Цифровая копия действующего паспорта (срок действия не менее 6 месяцев после планируемой поездки)",
+            "Документы, соответствующие цели поездки (приглашение, письмо от работодателя, деловое приглашение, выписки со счета)",
+            "Подтверждение родства с принимающей стороной, при необходимости; для несовершеннолетних: письменное согласие на поездку",
+            "Рекомендуется: история поездок, маршрут, выписки со счета за 6 месяцев, письмо от работодателя, датированное не более 3 месяцев назад",
+            "Биометрия (отпечатки пальцев и фото): требуется при первом обращении, действует 10 лет; освобождаются лица младше 14 и старше 79 лет"
+          ],
+          "processing": "Стандартный срок обработки не указан на загруженной странице IRCC (IRCC публикует инструмент расчета сроков)",
+          "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/apply-visitor-visa.html",
+          "appointment_url": "http://vfsglobal.ca/canada"
+        }
+      },
+      "CD": {
+        "to_rs_conditions": "MSP (оригинал): требуется виза | Дипломатические и служебные паспорта (оригинал): требуется виза",
+        "from_rs_requirements": [
+          "Примечание: для держателя проездного документа в транзите требуется виза",
+          "Для въезда в страну требуется виза, которую можно получить в посольстве ДР Конго в Белграде, а также медицинская (желтая) карта прививок."
+        ],
+        "from_rs_instructions": {
+          "fee": null,
+          "notes": "Сбор за вылет USD 55 в Киншасе.",
+          "where": "Посольство ДР Конго в Белграде",
+          "validity": null,
+          "apply_url": null,
+          "documents": [
+            "Желтая карта (прививка от желтой лихорадки)"
+          ],
+          "processing": null,
+          "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/kongo-demokratska-republika",
+          "appointment_url": null
+        }
+      },
+      "CF": {
+        "to_rs_conditions": "MSP (оригинал): требуется виза | Дипломатические и служебные паспорта (оригинал): требуется виза",
+        "from_rs_passport": "Срок действия паспорта для туристической поездки должен составлять не менее 6 месяцев; это также относится к оформлению пребывания.",
+        "from_rs_requirements": [
+          "Для въезда в страну требуется виза и медицинская (желтая) карта прививок."
+        ],
+        "from_rs_instructions": {
+          "fee": null,
+          "notes": "Перечень документов и сбор не опубликованы на странице МИД; официальная страница визы иностранного государства в ходе данной проверки не была получена.",
+          "where": "Посольство Франции в Белграде (консульское представительство ЦАР по данным МИД)",
+          "validity": null,
+          "apply_url": null,
+          "documents": [
+            "Желтая карта (прививка от желтой лихорадки)",
+            "Паспорт действителен 6 месяцев"
+          ],
+          "processing": null,
+          "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/centralnoafricka-republika",
+          "appointment_url": null
+        }
+      },
+      "CG": {
+        "to_rs_conditions": "MSP (оригинал): требуется виза | Дипломатические и служебные паспорта (оригинал): виза не требуется для визитов до 90 дней в течение 180 дней",
+        "from_rs_requirements": [
+          "Примечание: для держателя проездного документа в транзите требуется виза",
+          "Граждане Республики Сербии, отправляющиеся в Республику Конго, обязаны иметь желтые карты как подтверждение прививки от желтой лихорадки."
+        ],
+        "from_rs_instructions": {
+          "fee": null,
+          "notes": "Перечень документов и сбор не опубликованы на странице МИД; официальная страница визы иностранного государства в ходе данной проверки не была получена. МИД называет только компетентную миссию.",
+          "where": "Посольство Республики Конго в Риме",
+          "validity": null,
+          "apply_url": null,
+          "documents": [],
+          "processing": null,
+          "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/kongo-republika",
+          "appointment_url": null
+        }
+      },
+      "CH": {
+        "to_rs_stay": "до 90 дней в течение 6 месяцев (с даты первого въезда)",
+        "to_rs_conditions": "MSP (оригинал): виза не требуется для визитов до 90 дней в течение 6 месяцев с даты первого въезда | Обычные паспорта, примечания MSP: удостоверение личности также может использоваться для поездки в Сербию | Дипломатические и служебные паспорта (оригинал): виза не требуется для визитов до 90 дней",
+        "from_rs_stay": "до 90 дней в течение 180 дней",
+        "from_rs_passport": "Для туристической поездки паспорт должен действовать еще 3 месяца с даты выезда из Швейцарии и должен быть выдан в последние 10 лет.",
+        "from_rs_requirements": [
+          "Примечание: безвизовый режим действует только для туристических поездок. Нелегальная работа, в том числе присмотр за детьми за плату, не допускается.",
+          "Владельцам биометрических паспортов Республики Сербии виза не требуется для пребывания до 90 дней в течение шести месяцев.",
+          "Рекомендуется иметь полис медицинского страхования для путешествий ввиду очень высокой стоимости медицинских услуг; пограничные органы также могут потребовать показать подтверждение страхования.",
+          "Ввоз и вывоз наличных денег не ограничен и не требует декларирования; однако на пункте пропуска может проводиться проверка происхождения денег, если при себе у лица более 10 000 швейцарских франков (CHF).",
+          "Необходимо иметь достаточно средств для пребывания в Швейцарии: не менее 150 CHF в день пребывания.",
+          "Для ввоза домашних животных необходима ветеринарная книжка, то есть «паспорт» с записями обо всех прививках."
+        ]
+      },
+      "CI": {
+        "to_rs_conditions": "MSP (оригинал): требуется виза | Дипломатические и служебные паспорта (оригинал): требуется виза",
+        "from_rs_instructions": {
+          "fee": "EUR 73 включая банковские сборы (3 месяца, многократный въезд)",
+          "notes": "Только обычные паспорта (срок действия 6+ месяцев). Не более 1 МБ на файл. Биометрическая регистрация в аэропорту обязательна.",
+          "where": "Электронная виза в Кот-д’Ивуар через SNEDAI (единственный сайт, признаваемый государством); биометрическая регистрация в аэропорту Абиджана",
+          "validity": "Одобрение предварительной регистрации действительно 3 месяца; многократная виза на 3 месяца",
+          "apply_url": "https://www.snedai.com/e-visa/",
+          "documents": [
+            "Страница(ы) паспорта с персональными данными",
+            "Бронирование обратного рейса",
+            "Приглашение или подтверждение проживания (напечатанное, подписанное, с печатью, легализованное)",
+            "По прибытии: квитанция об оплате, одобренный документ о предварительной регистрации, паспорт действителен 6+ месяцев"
+          ],
+          "processing": "Ответ DST поступает в течение 48 рабочих часов, но может занять больше времени",
+          "source_url": "https://www.snedai.com/e-visa/",
+          "appointment_url": null
+        }
+      },
+      "CL": {
+        "to_rs_stay": "до 90 дней в течение 6 месяцев (с даты первого въезда)",
+        "to_rs_conditions": "MSP (оригинал): виза не требуется для визитов до 90 дней в течение 6 месяцев с даты первого въезда | Дипломатические и служебные паспорта (оригинал): виза не требуется для визитов до 90 дней",
+        "from_rs_stay": "до 90 дней",
+        "from_rs_requirements": [
+          "Примечание: для держателя проездного документа в транзите виза не требуется, если он не начинает иммиграционную процедуру и в тот же день продолжает путь к конечному пункту назначения."
+        ]
+      },
+      "CM": {
+        "to_rs_conditions": "MSP (оригинал): требуется виза | Дипломатические и служебные паспорта (оригинал): требуется виза",
+        "instructions_note": "МИД: требуется виза; процедура не опубликована."
+      },
+      "CN": {
+        "to_rs_stay": "до 30 дней",
+        "to_rs_conditions": "MSP (оригинал): виза не требуется для визитов до 30 дней | Обычные паспорта, примечания MSP: граждане Китая, обладатели паспортов ОАР Гонконг: виза не требуется для визитов до 14 дней. Граждане Китая, обладатели паспортов ОАР Макао: виза не требуется для визитов до 90 дней | Дипломатические и служебные паспорта (оригинал): дипломатические, служебные и обычные паспорта („on business in“) и обычные служебные паспорта граждан Китая: виза не требуется",
+        "from_rs_stay": "до 30 дней",
+        "from_rs_requirements": [
+          "Примечание: для держателя проездного документа в транзите виза не требуется, если он не покидает международную транзитную зону аэропорта и не находится на территории Китая дольше 24 часов. Во всех остальных случаях виза требуется."
+        ]
+      },
+      "CO": {
+        "to_rs_stay": "до 30 дней в течение одного года",
+        "to_rs_conditions": "MSP (оригинал): виза не требуется для визитов до 30 дней в течение одного года. | Дипломатические и служебные паспорта (оригинал): виза не требуется для визитов до 30 дней в течение одного года.",
+        "from_rs_stay": "до 90 дней в течение 180 дней",
+        "from_rs_requirements": [
+          "Примечание: для держателя проездного документа в транзите требуется виза"
+        ]
+      },
+      "CR": {
+        "to_rs_stay": "до 90 дней в течение 6 месяцев (с даты первого въезда)",
+        "to_rs_conditions": "MSP (оригинал): виза не требуется для визитов до 90 дней в течение 6 месяцев с даты первого въезда | Дипломатические и служебные паспорта (оригинал): виза не требуется для визитов до 90 дней",
+        "from_rs_stay": "до 3 месяцев",
+        "from_rs_passport": "Для туристической поездки паспорт должен действовать 6 месяцев; для оформления пребывания — один год.",
+        "from_rs_requirements": [
+          "При въезде в Коста-Рику требуются 500 USD, кредитная карта и дорожные чеки, а также обратный билет.",
+          "Домашних животных можно ввозить при предъявлении справки ветеринарного учреждения Республики Сербии о состоянии здоровья и прививке от бешенства."
+        ]
+      },
+      "CU": {
+        "to_rs_conditions": "MSP (оригинал): требуется виза | Обычные паспорта, примечания MSP: для граждан Кубы, которым не предоставлено временное проживание или постоянное поселение в Республике Сербия либо которым ранее не выдавалась виза D (виза для длительного пребывания), при въезде в Республику Сербия помимо общих условий въезда необходимо предъявить следующие документы: нотариально заверенное приглашение от лица, которое посещает иностранец в Республике Сербия, либо подтверждение оплаченного бронирования в гостинице или ином средстве размещения в Республике Сербия; подтверждение наличия достаточных средств на содержание в течение планируемого срока пребывания в Республике Сербия, при этом достаточными считаются 50 EUR в день пребывания, которые могут быть подтверждены наличными в указанной сумме или выпиской с банковского счета; подтверждение оплаченного медицинского страхования в Республике Сербия либо полис медицинского страхования на период пребывания, покрывающий медицинские расходы не менее 20 000 EUR; и подтверждение оплаченного обратного авиабилета с фиксированной датой возвращения в страну происхождения или предыдущего пункта въезда. | Дипломатические и служебные паспорта (оригинал): виза не требуется для визитов до 90 дней в течение 6 месяцев с даты первого въезда",
+        "from_rs_passport": "Для въезда в Республику Кубу необходима виза (заявление подается через сайт https://evisacuba.cu/en/), действующий паспорт, срок действия которого истекает не ранее чем через 6 месяцев после даты въезда в эту страну, и обратный авиабилет.",
+        "from_rs_requirements": [
+          "Примечание: для держателя проездного документа в транзите виза не требуется"
+        ],
+        "from_rs_instructions": {
+          "fee": "Стоимость указана в форме заявления, зависит от консульства",
+          "notes": "Может потребоваться отдельная предварительная форма D'Viajeros. Туристическая виза не распространяется на деловые поездки, поездки журналистов и рабочие поездки.",
+          "where": "Портал электронных виз Кубы (туристическая виза) или консульства Кубы",
+          "validity": "Туристическая виза, однократный въезд, 90 дней, с возможностью продления на 90 дней",
+          "apply_url": "https://evisacuba.cu/en/inicio",
+          "documents": [
+            "Действующий паспорт на весь период пребывания",
+            "Адрес электронной почты для получения кода визы"
+          ],
+          "processing": "Ответ в течение 72 рабочих часов",
+          "source_url": "https://evisacuba.cu/en/inicio",
+          "appointment_url": null
+        }
+      },
+      "CV": {
+        "to_rs_conditions": "MSP (оригинал): требуется виза | Дипломатические и служебные паспорта (оригинал): требуется виза",
+        "from_rs_instructions": {
+          "fee": null,
+          "notes": "Перечень документов и сбор не опубликованы на странице МИД; официальная страница визы иностранного государства в ходе данной проверки не была получена. МИД называет только компетентную миссию.",
+          "where": "Посольство Кабо-Верде в Брюсселе",
+          "validity": null,
+          "apply_url": null,
+          "documents": [],
+          "processing": null,
+          "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/kabo-verde",
+          "appointment_url": null
+        }
+      },
+      "CY": {
+        "to_rs_stay": "до 90 дней в течение 6 месяцев (с даты первого въезда)",
+        "to_rs_conditions": "MSP (оригинал): виза не требуется для визитов до 90 дней в течение 6 месяцев с даты первого въезда | Обычные паспорта, примечания MSP: удостоверение личности также может использоваться для поездки в Сербию | Дипломатические и служебные паспорта (оригинал): виза не требуется для визитов до 90 дней",
+        "from_rs_stay": "до 90 дней в течение 180 дней",
+        "from_rs_passport": "Необходимо иметь биометрический проездной документ, срок действия которого составляет не менее трех месяцев с планируемой даты возвращения.",
+        "from_rs_requirements": [
+          "Примечание: для держателя проездного документа в транзите виза не требуется"
+        ]
+      },
+      "CZ": {
+        "to_rs_stay": "до 90 дней в течение 6 месяцев (с даты первого въезда)",
+        "to_rs_conditions": "MSP (оригинал): виза не требуется для визитов до 90 дней в течение 6 месяцев с даты первого въезда | Обычные паспорта, примечания MSP: удостоверение личности также может использоваться для поездки в Сербию | Дипломатические и служебные паспорта (оригинал): виза не требуется для визитов до 90 дней",
+        "from_rs_stay": "до 90 дней в течение 180 дней",
+        "from_rs_passport": "Условием въезда граждан Республики Сербии в Чешскую Республику является наличие проездного документа, выданного в течение последних десяти лет и действующего не менее трех месяцев после планируемой даты выезда с территории Чешской Республики.",
+        "from_rs_requirements": [
+          "Примечание: для держателя проездного документа в транзите требуется виза",
+          "Владельцам биометрических паспортов Республики Сербии виза не требуется для пребывания до 90 дней в течение шести месяцев."
+        ]
+      },
+      "DE": {
+        "to_rs_stay": "до 90 дней в течение 6 месяцев (с даты первого въезда)",
+        "to_rs_conditions": "MSP (оригинал): виза не требуется для визитов до 90 дней в течение 6 месяцев с даты первого въезда | Обычные паспорта, примечания MSP: удостоверение личности также может использоваться для поездки в Сербию | Дипломатические и служебные паспорта (оригинал): виза не требуется для визитов до 90 дней",
+        "from_rs_stay": "до 90 дней в течение 180 дней",
+        "from_rs_passport": "Условием въезда граждан Республики Сербии в Германию является наличие биометрического проездного документа, который должен действовать не менее трех месяцев после планируемой даты выезда с территории Германии.",
+        "from_rs_requirements": [
+          "Примечание: для держателя проездного документа в транзите требуется виза, за исключением транзита через аэропорты с международной транзитной зоной, которую не покидают (Франкфурт, Мюнхен, Гамбург).",
+          "Владельцам биометрических паспортов Республики Сербии виза для пребывания в Германии до 90 дней в течение 180-дневного периода не требуется, если цель поездки — туризм, деловая поездка, визит или иная причина, не связанная с осуществлением определенных видов деятельности, для которых требуется разрешение: jezič",
+          "Правила, регулирующие поездки и пребывание в Германии, содержатся в Законе о пребывании; при этом возможны следующие основания для пребывания: учеба, трудоустройство, воссоединение семьи, отдельно определенное право на повторный въезд и др. Граждане Республики Сербии, приехавшие в Германию для работы или учебы, mor"
+        ]
+      },
+      "DJ": {
+        "to_rs_conditions": "MSP (оригинал): требуется виза | Дипломатические и служебные паспорта (оригинал): требуется виза",
+        "from_rs_requirements": [
+          "Примечание: для пребывания до 10 дней виза выдается сразу; при более длительном пребывании проводится процедура. Для держателя проездного документа в транзите требуется виза."
+        ],
+        "from_rs_instructions": {
+          "fee": null,
+          "notes": "Сбор отображается на портале до оплаты. Лимит наличных USD 5 000.",
+          "where": "Портал электронных виз Джибути (Иммиграционное управление)",
+          "validity": "Однократный въезд",
+          "apply_url": "https://www.evisa.gouv.dj",
+          "documents": [
+            "Паспорт действителен не менее 6 месяцев",
+            "Бронирование рейса",
+            "Адрес проживания (отель или принимающая сторона)",
+            "Приглашение (от организации или принимающей стороны с контактными данными)",
+            "Кредитная карта (Visa, Mastercard или Amex)"
+          ],
+          "processing": null,
+          "source_url": "https://www.evisa.gouv.dj",
+          "appointment_url": null
+        }
+      },
+      "DK": {
+        "to_rs_stay": "до 90 дней в течение 6 месяцев (с даты первого въезда)",
+        "to_rs_conditions": "MSP (оригинал): виза не требуется для визитов до 90 дней в течение 6 месяцев с даты первого въезда | Обычные паспорта, примечания MSP: удостоверение личности также может использоваться для поездки в Сербию | Дипломатические и служебные паспорта (оригинал): виза не требуется для визитов до 90 дней",
+        "from_rs_stay": "до 90 дней в течение 180 дней",
+        "from_rs_passport": "Для въезда в Королевство Дания при всех видах транспорта (автомобильном, воздушном и морском) обязателен действующий проездной документ Республики Сербии, который должен действовать не менее трех месяцев после планируемой даты выезда с территории Дании.",
+        "from_rs_requirements": [
+          "Примечание: для держателя проездного документа в транзите требуется виза, за исключением случаев, когда у держателя есть вид на жительство одного из государств-членов «Шенгенского списка».",
+          "Для въезда в Данию не требуется предъявлять подтверждение вакцинации.",
+          "В целях личной безопасности во время пребывания желательно иметь полис медицинского страхования."
+        ]
+      },
+      "DM": {
+        "to_rs_stay": "до 90 дней в течение 6 месяцев (с даты первого въезда)",
+        "to_rs_conditions": "MSP (оригинал): виза не требуется для визитов до 90 дней в течение 6 месяцев с даты первого въезда | Дипломатические и служебные паспорта (оригинал): виза не требуется для визитов до 90 дней в течение 6 месяцев с даты первого въезда",
+        "from_rs_instructions": {
+          "fee": null,
+          "notes": "В тексте МИД указано, что для пребывания до 21 дня виза не требуется, однако в структурированном режиме указано «виза». Уточнить в Доминике.",
+          "where": "Текст МИД не соответствует признаку режима",
+          "validity": null,
+          "apply_url": null,
+          "documents": [],
+          "processing": null,
+          "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/dominika",
+          "appointment_url": null
+        }
+      },
+      "DO": {
+        "to_rs_conditions": "MSP (оригинал): требуется виза | Дипломатические и служебные паспорта (оригинал): виза не требуется для визитов до 60 дней в течение 6 месяцев",
+        "from_rs_requirements": [
+          "Примечание: для пребывания до двух месяцев в туристических целях визу можно получить в аэропорту. Деловые визы выдаются в посольстве в Италии. Для держателя проездного документа в транзите виза не требуется.",
+          "Туристическая карта «Tarjeta de Turista» включена во все авиабилеты, выданные за пределами Доминиканской Республики, поэтому посетителям, прилетающим самолетом, не нужно покупать ее в аэропорту прибытия."
+        ]
+      },
+      "DZ": {
+        "to_rs_conditions": "MSP (оригинал): требуется виза | Дипломатические и служебные паспорта (оригинал): виза не требуется для визитов до 90 дней",
+        "from_rs_passport": "Срок действия паспорта для туристической поездки — 6 месяцев, а для оформления пребывания — 6 месяцев со дня подачи заявления на визу.",
+        "from_rs_requirements": [
+          "Примечание: для держателя проездного документа в транзите требуется виза",
+          "Невозможно подать заявление на визу онлайн (eVisa), а также получить визу на пункте пропуска (по прибытии).",
+          "Полис медицинского страхования не обязателен, но рекомендуется.",
+          "Ввоз наличных денег в разумном количестве для оплаты жилья, питания и местного транспорта разрешен.",
+          "Животные могут быть ввезены при наличии справки о прививке от бешенства и ветеринарной справки о состоянии здоровья."
+        ],
+        "from_rs_instructions": {
+          "fee": null,
+          "notes": "Медицинская страховка рекомендуется, но не обязательна.",
+          "where": "Посольство Алжира в Белграде (нет онлайн-виз, нет визы по прибытии)",
+          "validity": null,
+          "apply_url": null,
+          "documents": [
+            "Паспорт действителен 6 месяцев"
+          ],
+          "processing": null,
+          "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/alzir",
+          "appointment_url": null
+        }
+      },
+      "EC": {
+        "to_rs_conditions": "MSP (оригинал): требуется виза | Дипломатические и служебные паспорта (оригинал): виза не требуется для визитов до 90 дней",
+        "from_rs_stay": "до 90 дней",
+        "from_rs_requirements": [
+          "Примечание: для держателя проездного документа в транзите виза не требуется.",
+          "Медицинская страховка не обязательна для въезда в Эквадор, однако иностранным туристам рекомендуется застраховать здоровье в стране постоянного проживания."
+        ]
+      }
+    }
+  },
+  "de": {
+    "countries": {
+      "BW": {
+        "to_rs_conditions": "MSP (Original): Visum erforderlich | Diplomatische und Dienstpässe (Original): Visum erforderlich",
+        "from_rs_passport": "Der Reisepass muss ab dem geplanten Einreisedatum noch 6 Monate gültig sein.",
+        "from_rs_requirements": [
+          "Hinweis: Für den Inhaber eines Reisedokuments im Transit ist ein Visum erforderlich"
+        ],
+        "from_rs_instructions": {
+          "fee": null,
+          "notes": "Dokumentenliste und Gebühr sind auf der Seite des MSP nicht veröffentlicht; die offizielle Visaseite des ausländischen Staates wurde bei dieser Prüfung nicht abgerufen.",
+          "where": "Visum für Botswana (nicht erforderlich in der Transitzone des Flughafens)",
+          "validity": null,
+          "apply_url": null,
+          "documents": [
+            "Reisepass mit 6 Monaten Gültigkeit, 2 freie Seiten"
+          ],
+          "processing": null,
+          "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/bocvana",
+          "appointment_url": null
+        }
+      },
+      "BY": {
+        "to_rs_stay": "bis zu 30 Tage",
+        "to_rs_conditions": "MSP (Original): Kein Visum erforderlich für Besuche von bis zu 30 Tagen | Diplomatische und Dienstpässe (Original): Kein Visum erforderlich für Besuche von bis zu 30 Tagen",
+        "from_rs_stay": "bis zu 30 Tage",
+        "from_rs_requirements": [
+          "Hinweis: Für den Inhaber eines Reisedokuments im Transit ist kein Visum erforderlich",
+          "Bei der Einreise in die Republik Belarus ist eine Krankenversicherungspolice zwingend erforderlich, die folgende Bedingungen erfüllen muss: (1) Versicherungssumme von mindestens 10.000 EUR und (2) als Geltungsbereich der Police muss entweder die Republik Belarus oder die ganze Welt angegeben sein.",
+          "Bei der Einreise in die Republik Belarus ist eine Migrationskarte auszufüllen (dient der Registrierung); sie ist bis zur Ausreise aus der Republik Belarus im Reisepass aufzubewahren und mitzuführen und bei der Ausreise dem Grenzbeamten zurückzugeben.",
+          "Die Einreise ist nur für Staatsangehörige Polens und der EU, Staatsangehörige des Schengen-Raums, ausländische Diplomaten oder Ausländer mit geregeltem Aufenthalt in Polen oder einem anderen EU- oder Schengen-Staat gestattet (Aufenthaltskarte oder Visum D für einen längeren Aufenthalt).",
+          "Ein persönliches digitales Foto (Selfie) für die biometrische Suche. 3.",
+          "Ab dem 1. September 2025 sind Drittstaatsangehörige, denen kein Visum oder keine Aufenthaltserlaubnis für Lettland erteilt wurde, verpflichtet, vor der Reise bestimmte Angaben zu sich selbst, zu ihren Angehörigen (falls vorhanden) und zum Reisezweck an das staatliche Informationssystem Lettlands zur Gefahrenabwehr zu übermitteln, über ve",
+          "Alle Einzelheiten zur Übermittlung der Angaben finden Sie auf der Website eta.gov.lv."
+        ]
+      },
+      "BZ": {
+        "to_rs_conditions": "MSP (Original): Visum erforderlich | Diplomatische und Dienstpässe (Original): Visum erforderlich",
+        "instructions_note": "Das MSP nennt nur, dass ein Visum erforderlich ist; ein Verfahren ist nicht veröffentlicht."
+      },
+      "CA": {
+        "to_rs_stay": "bis zu 90 Tage innerhalb von 6 Monaten (ab dem Datum der ersten Einreise)",
+        "to_rs_conditions": "MSP (Original): Kein Visum erforderlich für Besuche von bis zu 90 Tagen innerhalb von 6 Monaten ab dem Datum der ersten Einreise | Diplomatische und Dienstpässe (Original): Kein Visum erforderlich für Besuche von bis zu 90 Tagen",
+        "from_rs_requirements": [
+          "Hinweis: Für den Inhaber eines Reisedokuments im Transit ist ein Visum erforderlich",
+          "Bei der Antragstellung für ein kanadisches Visum werden biometrische Daten (sogenannte Matrix) erfasst: Fingerabdrücke aller zehn Finger und ein Foto.",
+          "Von der Abgabe biometrischer Daten befreit sind Kinder unter 14 Jahren und Personen über 79 Jahren, Minister und akkreditierte Diplomaten anderer Länder und der Vereinten Nationen, die dienstlich nach Kanada reisen, Staatsoberhäupter und Regierungschefs sowie Staatsangehörige, die von der Visumpflicht befreit sind und als Touristen einreisen",
+          "Um zu prüfen, ob Sie biometrische Daten abgeben müssen, besuchen Sie: http://www.cic.gc.ca/english/visit/biometrics.asp Alle Staatsangehörigen, die privat oder touristisch nach Kanada reisen, müssen den Visumantrag im Visa-Antragszentrum unter Zahlung der Gebühr und Abgabe biometrischer Daten einreichen.",
+          "Biometrische Daten werden alle 10 Jahre erfasst; der Antragsteller erhält eine Bestätigung darüber, bis wann die biometrischen Daten gültig sind."
+        ],
+        "from_rs_instructions": {
+          "fee": "Bearbeitungsgebühr CAD 100 pro Person (CAD 500 für eine Familie ab 5 Personen); Biometrie CAD 85 pro Person (bis zu CAD 170 pro Familie)",
+          "notes": "IRCC verweist auf Leitfaden 5256. Die Gebührenbeträge stammen aus einer Zusammenfassung der IRCC-Seite (WebFetch); die Servicegebühr des VAC kommt zusätzlich hinzu und ist dort nicht angegeben.",
+          "where": "Online-Antrag bei IRCC; Unterlagen und Biometrie im Visa-Antragszentrum (VFS) Belgrad, Zorza Klemansoa 19, 5. Stock, Stari grad, 11108 Belgrad (Adresse laut Seite des MSP); Tel. +381 17 32 00 35, info.canseriom@vfshelpline.com",
+          "validity": "Bis zu 10 Jahre oder bis zum Ablauf von Reisepass/Biometrie; der Beamte kann ein anderes Ablaufdatum festlegen",
+          "apply_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/apply-visitor-visa.html",
+          "documents": [
+            "Digitale Kopie des gültigen Reisepasses (mindestens 6 Monate über die geplante Reise hinaus gültig)",
+            "Unterlagen entsprechend dem Reisezweck (Einladungsschreiben, Arbeitgeberschreiben, Geschäftseinladung, Kontoauszüge)",
+            "Nachweis der Verwandtschaft mit dem Gastgeber, sofern zutreffend; Minderjährige: Reisegenehmigung",
+            "Empfohlen: Reisehistorie, Reiseplan, Kontoauszüge für 6 Monate, Arbeitgeberschreiben nicht älter als 3 Monate",
+            "Biometrie (Fingerabdrücke und Foto): bei der ersten Antragstellung erforderlich, gültig 10 Jahre; befreit sind Personen unter 14 und über 79 Jahren"
+          ],
+          "processing": "Die Standardbearbeitungszeit ist auf der abgerufenen IRCC-Seite nicht angegeben (IRCC stellt ein Tool zur Bearbeitungszeit bereit)",
+          "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/apply-visitor-visa.html",
+          "appointment_url": "http://vfsglobal.ca/canada"
+        }
+      },
+      "CD": {
+        "to_rs_conditions": "MSP (Original): Visum erforderlich | Diplomatische und Dienstpässe (Original): Visum erforderlich",
+        "from_rs_requirements": [
+          "Hinweis: Für den Inhaber eines Reisedokuments im Transit ist ein Visum erforderlich",
+          "Für die Einreise ist ein Visum erforderlich, das bei der Botschaft der DR Kongo in Belgrad beantragt werden kann, außerdem ein gelber Impfausweis als Gesundheitsnachweis."
+        ],
+        "from_rs_instructions": {
+          "fee": null,
+          "notes": "Ausreisegebühr USD 55 in Kinshasa.",
+          "where": "Botschaft der DR Kongo in Belgrad",
+          "validity": null,
+          "apply_url": null,
+          "documents": [
+            "Gelbfieber-Impfausweis"
+          ],
+          "processing": null,
+          "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/kongo-demokratska-republika",
+          "appointment_url": null
+        }
+      },
+      "CF": {
+        "to_rs_conditions": "MSP (Original): Visum erforderlich | Diplomatische und Dienstpässe (Original): Visum erforderlich",
+        "from_rs_passport": "Für eine touristische Reise muss der Reisepass mindestens 6 Monate gültig sein; dies gilt auch für die Regelung des Aufenthalts.",
+        "from_rs_requirements": [
+          "Für die Einreise ist ein Visum erforderlich, außerdem ein gelber Impfausweis als Gesundheitsnachweis."
+        ],
+        "from_rs_instructions": {
+          "fee": null,
+          "notes": "Dokumentenliste und Gebühr sind auf der Seite des MSP nicht veröffentlicht; die offizielle Visaseite des ausländischen Staates wurde bei dieser Prüfung nicht abgerufen.",
+          "where": "Französische Botschaft in Belgrad (konsularische Vertretung für die ZAR laut MSP)",
+          "validity": null,
+          "apply_url": null,
+          "documents": [
+            "Gelbfieber-Impfausweis",
+            "Reisepass mit 6 Monaten Gültigkeit"
+          ],
+          "processing": null,
+          "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/centralnoafricka-republika",
+          "appointment_url": null
+        }
+      },
+      "CG": {
+        "to_rs_conditions": "MSP (Original): Visum erforderlich | Diplomatische und Dienstpässe (Original): Kein Visum erforderlich für Besuche bis zu 90 Tagen innerhalb von 180 Tagen",
+        "from_rs_requirements": [
+          "Hinweis: Für den Inhaber eines Reisedokuments im Transit ist ein Visum erforderlich",
+          "Staatsangehörige der Republik Serbien, die in die Republik Kongo reisen, müssen eine gelbe Impfkarte als Nachweis einer Gelbfieberimpfung mitführen."
+        ],
+        "from_rs_instructions": {
+          "fee": null,
+          "notes": "Dokumentenliste und Gebühr sind auf der Seite des MSP nicht veröffentlicht; die offizielle Visaseite des ausländischen Staates wurde bei dieser Prüfung nicht abgerufen. Das MSP nennt nur die zuständige Vertretung.",
+          "where": "Botschaft der Republik Kongo in Rom",
+          "validity": null,
+          "apply_url": null,
+          "documents": [],
+          "processing": null,
+          "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/kongo-republika",
+          "appointment_url": null
+        }
+      },
+      "CH": {
+        "to_rs_stay": "bis zu 90 Tage innerhalb von 6 Monaten (ab dem Datum der ersten Einreise)",
+        "to_rs_conditions": "MSP (Original): Kein Visum erforderlich für Besuche von bis zu 90 Tagen innerhalb von 6 Monaten ab dem Datum der ersten Einreise | Gewöhnliche Pässe, Hinweise MSP: Der Personalausweis kann auch für die Reise nach Serbien verwendet werden | Diplomatische und Dienstpässe (Original): Kein Visum erforderlich für Besuche von bis zu 90 Tagen",
+        "from_rs_stay": "bis zu 90 Tage innerhalb von 180 Tagen",
+        "from_rs_passport": "Für eine touristische Reise muss der Reisepass noch 3 Monate ab dem Datum der Ausreise aus der Schweiz gültig sein und in den letzten 10 Jahren ausgestellt worden sein.",
+        "from_rs_requirements": [
+          "Hinweis: Die visumfreie Regelung gilt nur für touristische Reisen. Schwarzarbeit, also auch die Betreuung von Kindern gegen Entgelt, ist nicht erlaubt.",
+          "Inhaber biometrischer Pässe der Republik Serbien benötigen kein Visum für Aufenthalte von bis zu 90 Tagen innerhalb von sechs Monaten.",
+          "Eine Reisekrankenversicherung wird empfohlen, da medizinische Leistungen sehr teuer sind; die Grenzbehörden können auch einen Nachweis der Versicherung verlangen.",
+          "Für die Ein- und Ausfuhr von Bargeld gibt es keine Beschränkungen und keine Anmeldepflicht; an der Grenze kann jedoch die Herkunft des Geldes überprüft werden, wenn eine Person mehr als 10.000 Schweizer Franken (CHF) mitführt.",
+          "Es müssen ausreichende Mittel für den Aufenthalt in der Schweiz vorhanden sein, mindestens 150 CHF pro Aufenthaltstag.",
+          "Für die Einfuhr von Haustieren ist ein Tierimpfpass erforderlich, also ein „Pass“ mit allen eingetragenen Impfungen."
+        ]
+      },
+      "CI": {
+        "to_rs_conditions": "MSP (Original): Visum erforderlich | Diplomatische und Dienstpässe (Original): Visum erforderlich",
+        "from_rs_instructions": {
+          "fee": "EUR 73 inkl. Bankgebühren (3 Monate, mehrfache Einreise)",
+          "notes": "Nur gewöhnliche Reisepässe (mindestens 6 Monate gültig). Maximal 1 MB pro Datei. Biometrische Registrierung am Flughafen ist verpflichtend.",
+          "where": "E-Visum für die Elfenbeinküste über SNEDAI (einzige vom Staat anerkannte Website); biometrische Registrierung am Flughafen Abidjan",
+          "validity": "Die Vorregistrierung ist 3 Monate gültig; mehrfach einreisbares Visum für 3 Monate",
+          "apply_url": "https://www.snedai.com/e-visa/",
+          "documents": [
+            "Personalisierte Seite(n) des Reisepasses",
+            "Reservierung des Rückflugs",
+            "Einladungsschreiben oder Unterkunftsbescheinigung (maschinenschriftlich, unterschrieben, gestempelt, legalisiert)",
+            "Bei Ankunft: Zahlungsbeleg, genehmigtes Vorregistrierungsdokument, Reisepass mit mindestens 6 Monaten Gültigkeit"
+          ],
+          "processing": "Die Antwort der DST erfolgt innerhalb von 48 Arbeitsstunden, kann aber auch länger dauern",
+          "source_url": "https://www.snedai.com/e-visa/",
+          "appointment_url": null
+        }
+      },
+      "CL": {
+        "to_rs_stay": "bis zu 90 Tage innerhalb von 6 Monaten (ab dem Datum der ersten Einreise)",
+        "to_rs_conditions": "MSP (Original): Kein Visum erforderlich für Besuche von bis zu 90 Tagen innerhalb von 6 Monaten ab dem Datum der ersten Einreise | Diplomatische und Dienstpässe (Original): Kein Visum erforderlich für Besuche von bis zu 90 Tagen",
+        "from_rs_stay": "bis zu 90 Tage",
+        "from_rs_requirements": [
+          "Hinweis: Für den Inhaber eines Reisedokuments im Transit ist kein Visum erforderlich, sofern er kein Einreiseverfahren einleitet und am selben Tag die Reise zum Endziel fortsetzt."
+        ]
+      },
+      "CM": {
+        "to_rs_conditions": "MSP (Original): Visum erforderlich | Diplomatische und Dienstpässe (Original): Visum erforderlich",
+        "instructions_note": "MSP: Visum erforderlich; kein Verfahren veröffentlicht."
+      },
+      "CN": {
+        "to_rs_stay": "bis zu 30 Tage",
+        "to_rs_conditions": "MSP (Original): Kein Visum erforderlich für Besuche von bis zu 30 Tagen | Gewöhnliche Pässe, Hinweise MSP: Chinesische Staatsangehörige mit Pässen der Sonderverwaltungszone Hongkong: Kein Visum erforderlich für Besuche bis zu 14 Tagen. Chinesische Staatsangehörige mit Pässen der Sonderverwaltungszone Macau: Kein Visum erforderlich für Besuche bis zu 90 Tagen | Diplomatische und Dienstpässe (Original): Diplomatische, Dienst- und gewöhnliche Pässe („on business in“) sowie gewöhnliche Geschäftspässe chinesischer Staatsangehöriger: Kein Visum erforderlich",
+        "from_rs_stay": "bis zu 30 Tage",
+        "from_rs_requirements": [
+          "Hinweis: Für den Inhaber eines Reisedokuments im Transit ist kein Visum erforderlich, sofern er die internationale Transitzone des Flughafens nicht verlässt und sich nicht länger als 24 Stunden auf dem Gebiet Chinas aufhält. In allen anderen Fällen ist ein Visum erforderlich."
+        ]
+      },
+      "CO": {
+        "to_rs_stay": "bis zu 30 Tage innerhalb eines Jahres",
+        "to_rs_conditions": "MSP (Original): Kein Visum erforderlich für Besuche von bis zu 30 Tagen innerhalb eines Jahres. | Diplomatische und Dienstpässe (Original): Kein Visum erforderlich für Besuche von bis zu 30 Tagen innerhalb eines Jahres.",
+        "from_rs_stay": "bis zu 90 Tage innerhalb von 180 Tagen",
+        "from_rs_requirements": [
+          "Hinweis: Für den Inhaber eines Reisedokuments im Transit ist ein Visum erforderlich"
+        ]
+      },
+      "CR": {
+        "to_rs_stay": "bis zu 90 Tage innerhalb von 6 Monaten (ab dem Datum der ersten Einreise)",
+        "to_rs_conditions": "MSP (Original): Kein Visum erforderlich für Besuche von bis zu 90 Tagen innerhalb von 6 Monaten ab dem Datum der ersten Einreise | Diplomatische und Dienstpässe (Original): Kein Visum erforderlich für Besuche von bis zu 90 Tagen",
+        "from_rs_stay": "bis zu 3 Monate",
+        "from_rs_passport": "Für eine touristische Reise muss der Reisepass 6 Monate gültig sein; für die Regelung des Aufenthalts beträgt die erforderliche Gültigkeit ein Jahr.",
+        "from_rs_requirements": [
+          "Bei der Einreise nach Costa Rica sind 500 USD, eine Kreditkarte und Reiseschecks sowie ein Rückflugticket erforderlich.",
+          "Haustiere können mit einer Bescheinigung einer tierärztlichen Einrichtung aus der Republik Serbien über den Gesundheitszustand und die Tollwutimpfung eingeführt werden."
+        ]
+      },
+      "CU": {
+        "to_rs_conditions": "MSP (Original): Visum erforderlich | Obični pasoši, napomene MSP: Für kubanische Staatsangehörige, denen in der Republik Serbien kein befristeter Aufenthalt oder keine Niederlassungserlaubnis erteilt wurde oder denen zuvor kein Visum D (Visum für einen längeren Aufenthalt) ausgestellt wurde, müssen bei der Einreise in die Republik Serbien zusätzlich zu den allgemeinen Einreisebedingungen folgende Unterlagen vorgelegt werden: ein beglaubigtes Einladungsschreiben der Person, die besucht wird, in der Republik Serbien, oder der Nachweis einer bezahlten Reservierung in einem Hotel oder einer anderen Unterkunft in der Republik Serbien; der Nachweis ausreichender Mittel für den Lebensunterhalt während des geplanten Aufenthalts in der Republik Serbien, wobei als ausreichend 50 EUR pro Aufenthaltstag gelten, nachweisbar in bar in dieser Höhe oder durch einen Kontoauszug; der Nachweis einer bezahlten Krankenversicherung in der Republik Serbien oder einer Krankenversicherungspolice für den Aufenthaltszeitraum, die Behandlungskosten von mindestens 20.000 EUR abdeckt; und der Nachweis eines bezahlten Rückflugtickets mit festem Rückflugdatum in das Herkunftsland oder den vorherigen Einreisestaat. | Diplomatische und Dienstpässe (Original): Kein Visum erforderlich für Besuche von bis zu 90 Tagen innerhalb von 6 Monaten ab dem Datum der ersten Einreise",
+        "from_rs_passport": "Für die Einreise in die Republik Kuba ist ein Visum erforderlich (der Antrag wird über die Website https://evisacuba.cu/en/ gestellt), ein gültiger Reisepass, dessen Gültigkeit mindestens 6 Monate ab dem Datum der Einreise in dieses Land nicht abläuft, sowie ein Rückflugticket.",
+        "from_rs_requirements": [
+          "Hinweis: Für den Inhaber eines Reisedokuments im Transit ist kein Visum erforderlich"
+        ],
+        "from_rs_instructions": {
+          "fee": "Die Kosten sind im Antragsformular je Konsulat angegeben",
+          "notes": "Möglicherweise ist ein separates D'Viajeros-Formular vor der Ankunft erforderlich. Ein Touristenvisum gilt nicht für Geschäfts-, Journalisten- oder Arbeitsreisen.",
+          "where": "Cuba-eVisa-Portal (Touristenvisum) oder kubanische Konsulate",
+          "validity": "Touristenvisum, einmalige Einreise, 90 Tage, um 90 Tage verlängerbar",
+          "apply_url": "https://evisacuba.cu/en/inicio",
+          "documents": [
+            "Gültiger Reisepass für die gesamte Aufenthaltsdauer",
+            "E-Mail-Adresse zum Empfang des Visumcodes"
+          ],
+          "processing": "Antwort innerhalb von 72 Arbeitsstunden",
+          "source_url": "https://evisacuba.cu/en/inicio",
+          "appointment_url": null
+        }
+      },
+      "CV": {
+        "to_rs_conditions": "MSP (Original): Visum erforderlich | Diplomatische und Dienstpässe (Original): Visum erforderlich",
+        "from_rs_instructions": {
+          "fee": null,
+          "notes": "Dokumentenliste und Gebühr sind auf der Seite des MSP nicht veröffentlicht; die offizielle Visaseite des ausländischen Staates wurde bei dieser Prüfung nicht abgerufen. Das MSP nennt nur die zuständige Vertretung.",
+          "where": "Botschaft von Kap Verde in Brüssel",
+          "validity": null,
+          "apply_url": null,
+          "documents": [],
+          "processing": null,
+          "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/kabo-verde",
+          "appointment_url": null
+        }
+      },
+      "CY": {
+        "to_rs_stay": "bis zu 90 Tage innerhalb von 6 Monaten (ab dem Datum der ersten Einreise)",
+        "to_rs_conditions": "MSP (Original): Kein Visum erforderlich für Besuche von bis zu 90 Tagen innerhalb von 6 Monaten ab dem Datum der ersten Einreise | Gewöhnliche Pässe, Hinweise MSP: Der Personalausweis kann auch für die Reise nach Serbien verwendet werden | Diplomatische und Dienstpässe (Original): Kein Visum erforderlich für Besuche von bis zu 90 Tagen",
+        "from_rs_stay": "bis zu 90 Tage innerhalb von 180 Tagen",
+        "from_rs_passport": "Erforderlich ist ein biometrisches Reisedokument, das mindestens drei Monate über das geplante Rückreisedatum hinaus gültig ist.",
+        "from_rs_requirements": [
+          "Hinweis: Für den Inhaber eines Reisedokuments im Transit ist kein Visum erforderlich"
+        ]
+      },
+      "CZ": {
+        "to_rs_stay": "bis zu 90 Tage innerhalb von 6 Monaten (ab dem Datum der ersten Einreise)",
+        "to_rs_conditions": "MSP (Original): Kein Visum erforderlich für Besuche von bis zu 90 Tagen innerhalb von 6 Monaten ab dem Datum der ersten Einreise | Gewöhnliche Pässe, Hinweise MSP: Der Personalausweis kann auch für die Reise nach Serbien verwendet werden | Diplomatische und Dienstpässe (Original): Kein Visum erforderlich für Besuche von bis zu 90 Tagen",
+        "from_rs_stay": "bis zu 90 Tage innerhalb von 180 Tagen",
+        "from_rs_passport": "Voraussetzung für die Einreise von Staatsangehörigen der Republik Serbien in die Tschechische Republik ist ein Reisedokument, das in den letzten zehn Jahren ausgestellt wurde und mindestens drei Monate nach dem geplanten Ausreisedatum aus dem Gebiet der Tschechischen Republik gültig sein muss.",
+        "from_rs_requirements": [
+          "Hinweis: Für den Inhaber eines Reisedokuments im Transit ist ein Visum erforderlich",
+          "Inhaber biometrischer Pässe der Republik Serbien benötigen kein Visum für Aufenthalte von bis zu 90 Tagen innerhalb von sechs Monaten."
+        ]
+      },
+      "DE": {
+        "to_rs_stay": "bis zu 90 Tage innerhalb von 6 Monaten (ab dem Datum der ersten Einreise)",
+        "to_rs_conditions": "MSP (Original): Kein Visum erforderlich für Besuche von bis zu 90 Tagen innerhalb von 6 Monaten ab dem Datum der ersten Einreise | Gewöhnliche Pässe, Hinweise MSP: Der Personalausweis kann auch für die Reise nach Serbien verwendet werden | Diplomatische und Dienstpässe (Original): Kein Visum erforderlich für Besuche von bis zu 90 Tagen",
+        "from_rs_stay": "bis zu 90 Tage innerhalb von 180 Tagen",
+        "from_rs_passport": "Voraussetzung für die Einreise von Staatsangehörigen der Republik Serbien nach Deutschland ist der Besitz eines biometrischen Reisedokuments, das mindestens drei Monate nach dem geplanten Ausreisedatum aus dem Gebiet Deutschlands gültig sein muss.",
+        "from_rs_requirements": [
+          "Hinweis: Für den Inhaber eines Reisedokuments im Transit ist ein Visum erforderlich, außer wenn der Transit über Flughäfen mit einem internationalen Transitbereich erfolgt, der nicht verlassen wird (Frankfurt, München, Hamburg).",
+          "Inhaber biometrischer Pässe der Republik Serbien benötigen kein Visum für Aufenthalte in Deutschland von bis zu 90 Tagen innerhalb von 180 Tagen, wenn der Reisezweck Tourismus, eine Geschäftsreise, ein Besuch oder ein anderer Grund ist, der nicht die Ausübung bestimmter erlaubnispflichtiger Tätigkeiten betrifft: jezič",
+          "Die Vorschriften zu Reise und Aufenthalt in Deutschland sind im Aufenthaltsgesetz enthalten; dabei sind folgende Aufenthaltsgründe möglich: Ausbildung, Beschäftigung, Familiennachzug, ein gesondert geregeltes Recht auf Wiedereinreise u. a. Staatsangehörige der Republik Serbien, die zur Arbeit oder zum Studium nach Deutschland gekommen sind, mor"
+        ]
+      },
+      "DJ": {
+        "to_rs_conditions": "MSP (Original): Visum erforderlich | Diplomatische und Dienstpässe (Original): Visum erforderlich",
+        "from_rs_requirements": [
+          "Hinweis: Für einen Aufenthalt von bis zu 10 Tagen wird das Visum sofort erteilt; für längere Zeiträume wird ein Verfahren durchgeführt. Für den Inhaber eines Reisedokuments im Transit ist ein Visum erforderlich."
+        ],
+        "from_rs_instructions": {
+          "fee": null,
+          "notes": "Die Gebühr wird vor der Zahlung im Portal angezeigt. Bargeldgrenze USD 5.000.",
+          "where": "E-Visum-Portal von Dschibuti (Einwanderungsbehörde)",
+          "validity": "Einmalige Einreise",
+          "apply_url": "https://www.evisa.gouv.dj",
+          "documents": [
+            "Reisepass mit mindestens 6 Monaten Gültigkeit",
+            "Flugreservierung",
+            "Unterkunftsadresse (Hotel oder Gastgeber)",
+            "Einladungsschreiben (von Organisation oder Gastgeber mit Kontaktdaten)",
+            "Kreditkarte (Visa, Mastercard oder Amex)"
+          ],
+          "processing": null,
+          "source_url": "https://www.evisa.gouv.dj",
+          "appointment_url": null
+        }
+      },
+      "DK": {
+        "to_rs_stay": "bis zu 90 Tage innerhalb von 6 Monaten (ab dem Datum der ersten Einreise)",
+        "to_rs_conditions": "MSP (Original): Kein Visum erforderlich für Besuche von bis zu 90 Tagen innerhalb von 6 Monaten ab dem Datum der ersten Einreise | Gewöhnliche Pässe, Hinweise MSP: Der Personalausweis kann auch für die Reise nach Serbien verwendet werden | Diplomatische und Dienstpässe (Original): Kein Visum erforderlich für Besuche von bis zu 90 Tagen",
+        "from_rs_stay": "bis zu 90 Tage innerhalb von 180 Tagen",
+        "from_rs_passport": "Für die Einreise in das Königreich Dänemark ist für alle Verkehrsarten (Straße, Luft und See) ein gültiges Reisedokument der Republik Serbien erforderlich, das mindestens drei Monate über das geplante Ausreisedatum aus dem Gebiet Dänemarks hinaus gültig sein muss.",
+        "from_rs_requirements": [
+          "Hinweis: Für den Inhaber eines Reisedokuments im Transit ist ein Visum erforderlich, es sei denn, der Inhaber besitzt eine Aufenthaltserlaubnis eines Mitgliedstaats der „Schengen-Liste“.",
+          "Für die Einreise nach Dänemark ist kein Impfnachweis erforderlich.",
+          "Aus Gründen der persönlichen Sicherheit während des Aufenthalts wird der Besitz einer Krankenversicherungspolice empfohlen."
+        ]
+      },
+      "DM": {
+        "to_rs_stay": "bis zu 90 Tage innerhalb von 6 Monaten (ab dem Datum der ersten Einreise)",
+        "to_rs_conditions": "MSP (Original): Kein Visum erforderlich für Besuche von bis zu 90 Tagen innerhalb von 6 Monaten ab dem Datum der ersten Einreise | Diplomatische und Dienstpässe (Original): Kein Visum erforderlich für Besuche von bis zu 90 Tagen innerhalb von 6 Monaten ab dem Datum der ersten Einreise",
+        "from_rs_instructions": {
+          "fee": null,
+          "notes": "Der MSP-Text besagt, dass für Aufenthalte bis zu 21 Tagen kein Visum erforderlich ist; das strukturierte Regime lautet jedoch „Visum“. Bei Dominica prüfen.",
+          "where": "Der MSP-Text widerspricht der Regimekennzeichnung",
+          "validity": null,
+          "apply_url": null,
+          "documents": [],
+          "processing": null,
+          "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/dominika",
+          "appointment_url": null
+        }
+      },
+      "DO": {
+        "to_rs_conditions": "MSP (Original): Visum erforderlich | Diplomatische und Dienstpässe (Original): Kein Visum erforderlich für Besuche von bis zu 60 Tagen innerhalb von 6 Monaten",
+        "from_rs_requirements": [
+          "Hinweis: Für einen Aufenthalt von bis zu zwei Monaten aus touristischen Gründen kann das Visum am Flughafen erhalten werden. Geschäftsvisa werden in der Botschaft in Italien ausgestellt. Für den Inhaber eines Reisedokuments im Transit ist kein Visum erforderlich.",
+          "Die Touristenkarte „Tarjeta de Turista“ ist in alle außerhalb der Dominikanischen Republik ausgestellten Flugtickets eingeschlossen, sodass Besucher, die mit dem Flugzeug einreisen, sie nicht am Ankunftsflughafen kaufen müssen."
+        ]
+      },
+      "DZ": {
+        "to_rs_conditions": "MSP (Original): Visum erforderlich | Diplomatische und Dienstpässe (Original): Kein Visum erforderlich für Besuche von bis zu 90 Tagen",
+        "from_rs_passport": "Für eine touristische Reise muss der Reisepass 6 Monate gültig sein; für die Regelung des Aufenthalts 6 Monate ab dem Tag der Visumantragstellung.",
+        "from_rs_requirements": [
+          "Hinweis: Für den Inhaber eines Reisedokuments im Transit ist ein Visum erforderlich",
+          "Ein Visumantrag online (eVisa) ist nicht möglich, ebenso wenig die Erteilung eines Visums an der Grenzübergangsstelle (bei Ankunft).",
+          "Eine Krankenversicherungspolice ist nicht zwingend erforderlich, wird aber empfohlen.",
+          "Die Einfuhr von Bargeld in angemessener Höhe für Unterkunft, Verpflegung und lokalen Transport ist erlaubt.",
+          "Tiere können mit einer Bescheinigung über die Tollwutimpfung und einem tierärztlichen Gesundheitszeugnis eingeführt werden."
+        ],
+        "from_rs_instructions": {
+          "fee": null,
+          "notes": "Eine Krankenversicherung wird empfohlen, ist aber nicht verpflichtend.",
+          "where": "Botschaft Algeriens in Belgrad (keine Online-E-Visa, kein Visum bei Ankunft)",
+          "validity": null,
+          "apply_url": null,
+          "documents": [
+            "Reisepass mit 6 Monaten Gültigkeit"
+          ],
+          "processing": null,
+          "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/alzir",
+          "appointment_url": null
+        }
+      },
+      "EC": {
+        "to_rs_conditions": "MSP (Original): Visum erforderlich | Diplomatische und Dienstpässe (Original): Kein Visum erforderlich für Besuche von bis zu 90 Tagen",
+        "from_rs_stay": "bis zu 90 Tage",
+        "from_rs_requirements": [
+          "Hinweis: Für den Inhaber eines Reisedokuments im Transit ist kein Visum erforderlich.",
+          "Eine Krankenversicherung ist für die Einreise nach Ecuador nicht vorgeschrieben; ausländischen Touristen wird jedoch empfohlen, sich in ihrem Wohnsitzland zu versichern."
+        ]
+      }
+    }
+  }
+}
