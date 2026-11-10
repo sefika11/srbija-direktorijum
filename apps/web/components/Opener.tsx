@@ -4,6 +4,7 @@
  *  own reveals (headline words, 3D map rise) start. ≤ 2.1 s, skippable by click or key, skipped entirely on
  *  return visits in the same session and under prefers-reduced-motion. Purely presentational: aria-hidden. */
 import { useLayoutEffect, useState } from "react";
+import { LogoMark } from "./Logo";
 
 const EXPO = (t: number) => (t >= 1 ? 1 : 1 - Math.pow(2, -10 * t));
 
@@ -42,6 +43,7 @@ export default function Opener({ words, eyebrow, count, countLabel }: { words: s
       <div className="opener-half opener-top" />
       <div className="opener-half opener-bottom" />
       <div className="opener-center">
+        <div className="opener-mark"><LogoMark size={104} /></div>
         <div className="eyebrow plain opener-eyebrow">{eyebrow}</div>
         <div className="opener-word display">
           {words.map((w, i) => <span key={i} className="w"><span className="i" style={{ "--i": i } as React.CSSProperties}>{w}</span></span>)}

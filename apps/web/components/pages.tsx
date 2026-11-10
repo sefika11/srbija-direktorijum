@@ -116,7 +116,7 @@ export async function Home({ locale }: { locale: Locale }) {
                 {QUICK[locale].map((x) => <Link key={x.q} href={href(locale, x.q)} className="quick-chip">{x.label}</Link>)}
               </div>
             </div>
-            <MapStage locale={locale} labels={L3D[locale]} hint={L3D[locale].hint} cls="is-hero" padTop={64} padBottom={70}
+            <MapStage locale={locale} labels={L3D[locale]} hint={L3D[locale].hint} cls="is-hero" padTop={64} padBottom={22}
                       features={OKRUG_SHAPES.flatMap((s) => { const o = okruzi.find((x) => x.slug === s.slug); return o ? [{ key: s.slug, d: s.d, cx: s.cx, cy: s.cy, bbox: s.bbox, name: o.name_lat, sub: o.seat_name_lat ?? undefined, label: o.seat_name_lat ?? o.name_lat, count: o.org_count, href: href(locale, `/okrug/${o.slug}`),
                         stats: [{ v: o.org_count.toLocaleString("sr-Latn"), l: d.institutions }, { v: `${o.jls_count}${o.go_count ? ` + ${o.go_count}` : ""}`, l: d.municipalities }] } satisfies Feature3D] : []; })}
                       fallback={<SerbiaMap key="map-2d" okruzi={okruzi.map((o) => ({ slug: o.slug, name_lat: o.name_lat, seat_name_lat: o.seat_name_lat, jls_count: o.jls_count, go_count: o.go_count, org_count: o.org_count }))}
@@ -514,7 +514,7 @@ export async function OrgPage({ locale, org, locSlug, path }: { locale: Locale; 
       <div className="mt-2 flex items-center gap-3 flex-wrap"><VerificationChip state={loc?.verification ?? org.verification} locale={locale} />{org.is_private && <Chip>{locale === "sr" ? "Privatna ustanova" : locale === "en" ? "Private institution" : locale === "ru" ? "Частное учреждение" : "Private Einrichtung"}</Chip>}<a href="#izmeni" className="text-[12.5px]">{d.editData}</a></div>
       </div></section>
       <div className="shell">
-      <div className="sticky top-[57px] z-10 -mx-4 px-4 py-2.5 bg-bg/95 backdrop-blur border-b border-line lg:static lg:bg-transparent lg:border-0 lg:p-0 lg:m-0 lg:mt-5">
+      <div className="sticky top-[69px] z-10 -mx-4 px-4 py-2.5 bg-bg/95 backdrop-blur border-b border-line lg:static lg:bg-transparent lg:border-0 lg:p-0 lg:m-0 lg:mt-5">
         <div className="flex flex-wrap items-center gap-2">
           {phones[0] ? <a href={`tel:${phones[0].value}`} className="btn-primary"><Icon.phone /> {d.call} {phones[0].value_display ?? phones[0].value}</a>
                      : <span className="inline-flex items-center gap-1.5 rounded-[10px] bg-surface-2 text-muted px-3.5 py-2 text-[13.5px]"><Icon.phone /> {locale === "sr" ? "Telefon nije poznat" : "Phone unknown"}</span>}

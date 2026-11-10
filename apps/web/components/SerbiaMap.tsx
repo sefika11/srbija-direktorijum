@@ -33,7 +33,12 @@ export default function SerbiaMap({ okruzi, jls, locale, labels, variant = "ligh
   const svgRef = useRef<SVGSVGElement>(null);
   const [size, setSize] = useState({ w: 600, h: 787 });
   const aspect = size.w / size.h;
-  const base = useMemo(() => fitBox([0, 0, MAP_W, MAP_H], aspect, 0.05), [aspect]);
+  // hero: the search panel covers the top strip of the stage, so the country is fitted to the free area below it
+  const hero = height === "hero"; const padT = hero && size.w >= 700 ? 70 : 0, padB = hero && size.w >= 700 ? 22 : 0;
+  const base = useMemo(() => {
+    const he = Math.max(160, size.h - padT - padB), b = fitBox([0, 0, MAP_W, MAP_H], size.w / he, 0.05), k = size.h / he;
+    return { x: b.x, y: b.y - (padT / size.h) * b.h * k, w: b.w, h: b.h * k };
+  }, [size.w, size.h, padT, padB]);
   const [view, setView] = useState<View>(base);
   const viewRef = useRef(view); viewRef.current = view;
   const [focused, setFocused] = useState<string | null>(null);
@@ -145,9 +150,10 @@ export default function SerbiaMap({ okruzi, jls, locale, labels, variant = "ligh
   const unitHref = (j: MapJls) => href(locale, j.level === "gradska_opstina" && j.parent_slug ? `/${j.parent_slug}/${j.slug}` : `/${j.slug}`);
   const fmt = (n: number) => n.toLocaleString(locale === "sr" ? "sr-Latn" : locale);
 
-  const stageH = height === "hero" ? "h-[420px] sm:h-[520px] lg:h-[620px]" : "h-[440px] sm:h-[560px] lg:h-[680px]";
+  const stageH = hero ? "is-hero" : "h-[440px] sm:h-[560px] lg:h-[680px]";
+  const pill = (txt: string, px: number) => ({ w: txt.length * px * 0.66 + 16, h: px + 10 });
   const panel = (
-      <aside className={`card p-4 lg:p-5 flex flex-col lg:min-h-[150px] ${height === "hero" ? "lg:absolute lg:left-4 lg:bottom-4 lg:w-[270px] lg:max-h-[46%] lg:z-10 lg:overflow-hidden" : "lg:min-h-0 lg:max-h-[680px]"}`}>
+      <aside className={`card p-4 lg:p-5 flex flex-col ${hero ? "map-side" : "lg:min-h-[150px] lg:min-h-0 lg:max-h-[680px]"}`} aria-live="polite">
         {hj ? (
           <>
             <div className="eyebrow">{unitKind(hj)} · {okrugBy[hj.okrug_slug]?.name_lat}</div>
@@ -189,12 +195,14 @@ export default function SerbiaMap({ okruzi, jls, locale, labels, variant = "ligh
       </aside>
   );
   return (
-    <div className={height === "hero" ? "relative grid gap-4" : "grid gap-4 lg:grid-cols-[minmax(0,1fr)_300px] items-stretch"}>
+    <div className={hero ? "relative grid gap-4" : "grid gap-4 lg:grid-cols-[minmax(0,1fr)_300px] items-stretch"}>
       <div ref={wrapRef} className={`map-stage relative ${stageH} rounded-2xl overflow-hidden border border-line select-none`} style={{ touchAction: "none" }}>
         <svg ref={svgRef} viewBox={`${view.x} ${view.y} ${view.w} ${view.h}`} className="absolute inset-0 w-full h-full"
              role="img" aria-label="Mapa Srbije po okruzima i opštinama" preserveAspectRatio="xMidYMid meet"
              onPointerDown={onPointerDown} onPointerMove={onPointerMove} onPointerUp={onPointerUp} onPointerCancel={onPointerUp}
              onMouseLeave={() => { setHoverOkrug(null); setHoverJls(null); }} style={{ cursor: pointers.current.size ? "grabbing" : "grab" }}>
+          {/* the country as a slab: a soft shadow and a darker side under the faces (2.5D, same family as the 3D map) */}
+          {!dark && <g className="sm-slab" transform={`translate(0 ${f(8)})`} pointerEvents="none">{OKRUG_SHAPES.map((s) => <path key={`s-${s.slug}`} d={s.d} />)}</g>}
           {/* okrug fills */}
           {OKRUG_SHAPES.map((s) => {
             const o = okrugBy[s.slug]; const share = o ? o.org_count / maxOrg : 0;
@@ -204,9 +212,10 @@ export default function SerbiaMap({ okruzi, jls, locale, labels, variant = "ligh
                     onPointerEnter={() => { if (!focused) setHoverOkrug(s.slug); }}
                     onClick={() => { if (isClick()) focusOkrug(s.slug); }}
                     style={{
-                      fill: isHot ? (dark ? "#fff" : "var(--accent)") : dark ? `rgb(255 255 255 / ${(0.07 + share * 0.30).toFixed(2)})` : `color-mix(in oklab, var(--ink) ${7 + Math.round(share * 30)}%, var(--surface))`,
+                      fill: isHot ? (dark ? "#fff" : "var(--map-hot)") : dark ? `rgb(255 255 255 / ${(0.07 + share * 0.30).toFixed(2)})` : `color-mix(in oklab, var(--map-hi) ${Math.round(Math.sqrt(share) * 100)}%, var(--map-lo))`,
                       opacity: dim ? 0.32 : showJls && focused === s.slug ? 0 : 1,
-                      stroke: dark ? "rgb(6 16 31 / .9)" : "var(--surface)", strokeWidth: f(1.2), strokeLinejoin: "round", transition: "fill .15s, opacity .25s", cursor: "pointer",
+                      stroke: dark ? "rgb(6 16 31 / .9)" : "var(--map-edge)", strokeWidth: f(1), strokeLinejoin: "round", cursor: "pointer",
+                      transform: isHot && !dark ? `translate(0px, ${-f(4)}px)` : undefined, transition: "fill .2s, opacity .25s, transform .35s cubic-bezier(.16,1,.3,1)",
                     }} />
             );
           })}
@@ -219,8 +228,8 @@ export default function SerbiaMap({ okruzi, jls, locale, labels, variant = "ligh
               <path key={u.slug} d={u.d} data-jls={u.slug}
                     onPointerEnter={() => { setHoverJls(u.slug); setHoverOkrug(u.okrug); }}
                     onClick={() => { if (isClick()) { const j = jlsBy[u.slug]; router.push(j ? unitHref(j) : href(locale, `/${u.slug}`)); } }}
-                    style={{ fill: hot ? (dark ? "#fff" : "var(--accent)") : dark ? `rgb(255 255 255 / ${(0.06 + Math.sqrt(share) * 0.26).toFixed(2)})` : `color-mix(in oklab, var(--ink) ${5 + Math.round(Math.sqrt(share) * 26)}%, var(--surface))`,
-                             stroke: dark ? "rgb(6 16 31 / .9)" : "var(--surface)", strokeWidth: f(1), strokeLinejoin: "round", cursor: "pointer", transition: "fill .12s" }} />
+                    style={{ fill: hot ? (dark ? "#fff" : "var(--map-hot)") : dark ? `rgb(255 255 255 / ${(0.06 + Math.sqrt(share) * 0.26).toFixed(2)})` : `color-mix(in oklab, var(--map-hi) ${Math.round(Math.sqrt(share) * 100)}%, var(--map-lo))`,
+                             stroke: dark ? "rgb(6 16 31 / .9)" : "var(--map-edge)", strokeWidth: f(.8), strokeLinejoin: "round", cursor: "pointer", transition: "fill .12s" }} />
             );
           })}
           {/* okrug outlines on top */}
@@ -229,19 +238,23 @@ export default function SerbiaMap({ okruzi, jls, locale, labels, variant = "ligh
                   style={{ stroke: focused === s.slug ? (dark ? "#fff" : "var(--accent-ink)") : dark ? "rgb(255 255 255 / .35)" : "var(--line)", strokeWidth: f(focused === s.slug ? 2 : 1), strokeLinejoin: "round" }} />
           ))}
           {/* labels */}
-          {!showJls && OKRUG_SHAPES.map((s) => {
+          {!showJls && (() => { const placed: { x: number; y: number; w: number; h: number }[] = []; return [...OKRUG_SHAPES].sort((p, q) => (okrugBy[q.slug]?.org_count ?? 0) - (okrugBy[p.slug]?.org_count ?? 0)).map((s) => {
             const o = okrugBy[s.slug]; if (!o) return null;
             const txt = (o.seat_name_lat ?? o.name_lat).replace("Sremska Mitrovica", "S. Mitrovica");
             // label must fit inside its okrug at this scale (0.56em average glyph width), else drop it
             if ((s.bbox[2] - s.bbox[0]) * scale < txt.length * okrugLabelPx * 0.56 + 6) return null;
+            const px = 10.5, p = pill(txt, px), hot = hoverOkrug === s.slug;
+            // bigger districts label first; a pill that would touch one already placed is left out (it shows on hover)
+            const box = { x: s.cx * scale, y: s.cy * scale, w: p.w + 6, h: p.h + 4 };
+            if (!hot && placed.some((q) => Math.abs(q.x - box.x) < (q.w + box.w) / 2 && Math.abs(q.y - box.y) < (q.h + box.h) / 2)) return null;
+            placed.push(box);
             return (
-              <text key={`l-${s.slug}`} x={s.cx} y={s.cy} textAnchor="middle" dominantBaseline="middle" pointerEvents="none"
-                    style={{ fontSize: f(okrugLabelPx), fontFamily: "var(--font-sans)", fontWeight: 600, fill: hoverOkrug === s.slug ? (dark ? "var(--navy-1)" : "#fff") : dark ? "#fff" : "var(--ink)",
-                             paintOrder: "stroke", stroke: hoverOkrug === s.slug ? "transparent" : dark ? "rgb(6 16 31 / .85)" : "var(--surface)", strokeWidth: f(3), strokeLinejoin: "round", letterSpacing: f(0.2) }}>
-                {txt}
-              </text>
+              <g key={`l-${s.slug}`} className={`sm-pill ${hot ? "is-hot" : ""}`} transform={`translate(${s.cx} ${s.cy - (hot ? f(4) : 0)})`} pointerEvents="none">
+                <rect x={f(-p.w / 2)} y={f(-p.h / 2)} width={f(p.w)} height={f(p.h)} rx={f(p.h / 2)} strokeWidth={f(1)} />
+                <text textAnchor="middle" y={f(px * 0.36)} style={{ fontSize: f(px), letterSpacing: f(0.7) }}>{txt.toUpperCase()}</text>
+              </g>
             );
-          })}
+          }); })()}
           {showJls && shapes!.map((u) => {
             if (!intersects(u.bbox, view)) return null;
             if (focused && u.okrug !== focused && zoom < 2.4) return null;
@@ -258,14 +271,14 @@ export default function SerbiaMap({ okruzi, jls, locale, labels, variant = "ligh
         </svg>
 
         {/* overlays */}
-        <div className="absolute left-3 top-3 flex items-center gap-2 text-[12.5px]">
+        <div className="map-ov-top absolute left-3 top-3 flex items-center gap-2 text-[12.5px]">
           <div className="map-chip">
             <button type="button" onClick={reset} className="font-medium hover:underline">{labels.serbia}</button>
             {a && focused && <><span aria-hidden className="text-muted">›</span><span className="font-medium">{a.name_lat}</span></>}
           </div>
           {focused && <button type="button" onClick={reset} className="map-chip hover:bg-surface-2">← {labels.back}</button>}
         </div>
-        <div className="absolute right-3 top-3 flex flex-col gap-1.5">
+        <div className="map-ov-top absolute right-3 top-3 flex flex-col gap-1.5">
           <button type="button" aria-label={labels.zoomIn} onClick={() => zoomAt(1.6, size.w / 2, size.h / 2, true)} className="map-btn">+</button>
           <button type="button" aria-label={labels.zoomOut} onClick={() => zoomAt(1 / 1.6, size.w / 2, size.h / 2, true)} className="map-btn">−</button>
           <button type="button" aria-label={labels.reset} onClick={reset} className="map-btn text-[13px]">⌂</button>

@@ -4,6 +4,7 @@ import type { Locale } from "@/lib/i18n";
 import { t, href } from "@/lib/i18n";
 import { LanguageSwitch } from "./ui";
 import { Icon } from "./icons";
+import { Logo } from "./Logo";
 import * as db from "@/lib/db";
 import SearchBox from "./SearchBox";
 
@@ -12,13 +13,9 @@ export function Header({ locale, path }: { locale: Locale; path: string }) {
   return (
     <><a href="#main" className="skip-link">{locale === "sr" ? "Pređi na sadržaj" : locale === "en" ? "Skip to content" : locale === "ru" ? "К содержанию" : "Zum Inhalt"}</a><HtmlLang locale={locale} /><header className="site-header sticky top-0 z-40">
       <div className="tricolor" aria-hidden />
-      <div className="shell flex items-center gap-4 min-h-[56px]">
-        <Link href={href(locale, "/")} className="no-underline text-ink flex items-center gap-2.5 shrink-0">
-          <span aria-hidden className="brand-mark">G</span>
-          <span className="leading-tight">
-            <span className="block font-display text-[15px] tracking-[-0.03em]">{d.siteName}</span>
-            <span className="hidden md:block font-mono text-[10.5px] text-muted tracking-[.12em] uppercase">{locale === "sr" ? "Sve institucije Srbije" : locale === "en" ? "Every institution in Serbia" : locale === "ru" ? "Все учреждения Сербии" : "Alle Einrichtungen Serbiens"}</span>
-          </span>
+      <div className="shell flex items-center gap-4 min-h-[64px]">
+        <Link href={href(locale, "/")} className="no-underline text-ink shrink-0" aria-label={d.siteName}>
+          <Logo name={d.siteName} size={46} sub={locale === "sr" ? "Sve institucije Srbije" : locale === "en" ? "Every institution in Serbia" : locale === "ru" ? "Все учреждения Сербии" : "Alle Einrichtungen Serbiens"} />
         </Link>
         {path !== "/" ? <div className="flex-1 min-w-[260px] hidden lg:flex justify-center"><SearchBox locale={locale} placeholder={d.searchPlaceholder} submitLabel={d.search} /></div> : <div className="flex-1" />}
         <nav className="flex items-center gap-3 text-[13.5px] ml-auto">
@@ -41,13 +38,15 @@ export async function Footer({ locale }: { locale: Locale }) {
               de: { product: "Website", guides: "Anleitungen", sources: "Datenquellen", legal: "Rechtliches", all: "Alle Anleitungen", note: "Unabhängiges Verzeichnis, kein staatlicher Dienst; Daten werden regelmäßig geprüft." } }[locale];
   return (
     <footer className="site-footer mt-20">
-      <div className="tricolor-thin" aria-hidden />
-      <div className="shell py-12 grid gap-10 md:grid-cols-2 lg:grid-cols-[1.3fr_1fr_1fr_1fr]">
-        <div>
-          <div className="flex items-center gap-2.5"><span aria-hidden className="brand-mark">G</span><span className="font-display text-[16px] tracking-[-0.03em]">{d.siteName}</span></div>
-          <p className="mt-3 max-w-sm leading-relaxed">{d.tagline}</p>
-          <p className="mt-3 footer-note text-[13px] leading-relaxed">{L.note}</p>
+      <div className="footer-edge" aria-hidden />
+      <div className="shell footer-top">
+        <div className="footer-brand">
+          <Link href={href(locale, "/")} className="no-underline footer-logo" aria-label={d.siteName}><Logo name={d.siteName} size={62} big /></Link>
+          <p className="footer-tag">{d.tagline}</p>
         </div>
+        <p className="footer-note">{L.note}</p>
+      </div>
+      <div className="shell footer-cols">
         <div>
           <div className="eyebrow mb-3">{L.guides}</div>
           <ul className="grid gap-1.5">
@@ -64,8 +63,12 @@ export async function Footer({ locale }: { locale: Locale }) {
             <li><Link href={href(locale, "/partneri")}>{d.becomePartner}</Link></li>
             <li><Link href={href(locale, "/o-sajtu")}>{d.aboutSite}</Link></li>
           </ul>
-          <div className="eyebrow mb-3 mt-6">{L.legal}</div>
+        </div>
+        <div>
+          <div className="eyebrow mb-3">{L.legal}</div>
           <ul className="grid gap-1.5"><li><Link href={href(locale, "/privatnost")}>{d.privacy}</Link></li></ul>
+          <div className="eyebrow mb-3 mt-6">{locale === "sr" ? "Jezik" : locale === "en" ? "Language" : locale === "ru" ? "Язык" : "Sprache"}</div>
+          <ul className="footer-langs">{(["sr", "en", "ru", "de"] as Locale[]).map((l) => <li key={l}><Link href={href(l, "/")} hrefLang={l} aria-current={l === locale ? "true" : undefined}>{{ sr: "Srpski", en: "English", ru: "Русский", de: "Deutsch" }[l]}</Link></li>)}</ul>
         </div>
         <div>
           <div className="eyebrow mb-3">{L.sources}</div>
@@ -73,7 +76,7 @@ export async function Footer({ locale }: { locale: Locale }) {
           <p className="mt-2 text-[12.5px] footer-note">Granice i lokacije: © OpenStreetMap contributors (ODbL) via geoBoundaries i Geofabrik.</p>
         </div>
       </div>
-      <div className="border-t"><div className="shell py-4 text-[12.5px] footer-note flex flex-wrap gap-x-6 gap-y-1 justify-between">
+      <div className="footer-base"><div className="shell py-4 text-[12.5px] flex flex-wrap gap-x-6 gap-y-1 justify-between">
         <span>© {new Date().getFullYear()} {d.siteName}</span><span>{locale === "sr" ? "Prijavite grešku na svakoj strani." : locale === "en" ? "Report an error on any page." : locale === "ru" ? "Сообщите об ошибке на любой странице." : "Fehler auf jeder Seite melden."}</span>
       </div></div>
     </footer>

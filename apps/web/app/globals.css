@@ -876,13 +876,12 @@ article { position: relative; }
 @media (min-width: 768px) { .hero-search { margin-bottom: -46px; } }
 @media (max-width: 767px) { .hero-search { margin-bottom: 12px; padding: 10px; } .hero-popular { justify-content: flex-start; flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin-inline: -10px; padding-inline: 10px; } .hero-popular::-webkit-scrollbar { display: none; } .hero-popular > * { flex: none; } .hero-popular .quick-chip { min-height: 36px; } }
 /* the whole map fits the first viewport on desktop: stage height follows the window */
-.m3-stage.is-hero { height: 440px; }
-@media (min-width: 640px) { .m3-stage.is-hero { height: 520px; } }
-@media (min-width: 768px) { .m3-stage.is-hero { height: clamp(440px, calc(100svh - 352px), 780px); } }
+.m3-stage.is-hero, .map-stage.is-hero { height: 440px; }
+@media (min-width: 640px) { .m3-stage.is-hero, .map-stage.is-hero { height: 520px; } }
+@media (min-width: 768px) { .m3-stage.is-hero, .map-stage.is-hero { height: clamp(440px, calc(100svh - 360px), 780px); } }
 .m3-stage.is-hero::after { display: none; }                                   /* no edge vignette: it dimmed the northern labels */
-@media (min-width: 768px) { .m3-stage.is-hero .m3-dock { min-height: 46px; padding: 6px 14px; right: 118px; } }
-@media (min-width: 768px) and (max-height: 860px) { .hero-map .lede { display: none; } .hero-map h1.display { font-size: 30px; } .hero-map .eyebrow { margin-bottom: 8px; } .m3-stage.is-hero { height: clamp(440px, calc(100svh - 284px), 780px); } }
-@media (min-width: 768px) { .m3-stage.is-hero .m3-poster-svg, .m3-stage.is-hero.m3-poster svg { padding: 72px 32px 80px; } }
+@media (min-width: 768px) and (max-height: 860px) { .hero-map .lede { display: none; } .hero-map h1.display { font-size: 30px; } .hero-map .eyebrow { margin-bottom: 8px; } .m3-stage.is-hero, .map-stage.is-hero { height: clamp(440px, calc(100svh - 292px), 780px); } }
+@media (min-width: 768px) { .m3-stage.is-hero .m3-poster-svg, .m3-stage.is-hero.m3-poster svg { padding: 72px 32px 28px; } }
 .hero-map::after { opacity: .22; }
 /* index tabs: three folder tabs hanging off the bottom edge of the map; they lift like a pulled file */
 .hero-index { position: relative; z-index: 6; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; max-width: 860px; margin: 26px auto 0; padding: 0 14px; }
@@ -976,3 +975,86 @@ main { overflow-x: clip; }
 /* guide tips: a slip with a quiet blue rule (information, not action) */
 .tip { position: relative; padding-left: 18px !important; }
 .tip::before { content: ""; position: absolute; left: 7px; top: 12px; bottom: 12px; width: 3px; border-radius: 2px; background: color-mix(in oklab, var(--accent) 70%, var(--line)); }
+
+/* ---------- 41. Map: the hovered area's totals sit beside the country; 2D map as a slab (docs/07 §18) ---------- */
+:root { --map-lo: #f3f0e8; --map-hi: #8b9fd8; --map-hot: #0c4076; --map-edge: rgb(23 24 28 / .42); --map-side: #b7b2a4; --map-pill: rgb(255 255 255 / .92); --map-pill-ink: #17181c; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --map-lo: #c9cbd6; --map-hi: #6f8fe0; --map-hot: #e4575d; --map-edge: rgb(20 20 22 / .55); --map-side: #6c6f7c; --map-pill: rgb(28 28 32 / .92); --map-pill-ink: #f2f0eb; } }
+:root[data-theme="dark"] { --map-lo: #c9cbd6; --map-hi: #6f8fe0; --map-hot: #e4575d; --map-edge: rgb(20 20 22 / .55); --map-side: #6c6f7c; --map-pill: rgb(28 28 32 / .92); --map-pill-ink: #f2f0eb; }
+.map-stage.is-hero { background: radial-gradient(70% 60% at 50% 42%, var(--surface) 0%, color-mix(in oklab, var(--surface-2) 70%, var(--bg)) 80%); box-shadow: var(--shadow-3), 0 0 0 1px color-mix(in oklab, var(--line) 80%, transparent), 0 0 0 6px var(--surface), 0 0 0 7px color-mix(in oklab, var(--line) 70%, transparent); border-radius: var(--radius); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .map-stage.is-hero { background: radial-gradient(70% 60% at 50% 42%, var(--accent-soft) 0%, var(--bg) 75%); } }
+:root[data-theme="dark"] .map-stage.is-hero { background: radial-gradient(70% 60% at 50% 42%, var(--accent-soft) 0%, var(--bg) 75%); }
+.sm-slab { fill: var(--map-side); filter: drop-shadow(0 10px 12px rgb(0 0 0 / .28)); }
+.sm-pill rect { fill: var(--map-pill); stroke: color-mix(in oklab, var(--map-pill-ink) 14%, transparent); transition: fill .2s var(--ease); }
+.sm-pill text { fill: var(--map-pill-ink); font-family: var(--font-mono); font-weight: 500; }
+.sm-pill.is-hot rect { fill: var(--map-hot); stroke: transparent; } .sm-pill.is-hot text { fill: #fff; }
+.sm-pill { transition: transform .35s var(--ease-out); }
+/* side panel: name, seat and totals of the hovered district, always in view next to the map (3D dock and 2D aside share it) */
+@media (min-width: 768px) {
+  .m3-stage.is-hero .m3-dock, .map-side { position: absolute; left: 16px; right: auto; bottom: auto; top: calc(50% + 28px); transform: translateY(-50%); z-index: 10; width: 236px; max-height: calc(100% - 150px); overflow: auto; min-height: 0;
+    display: flex; flex-direction: column; align-items: flex-start; gap: 12px; padding: 16px 16px 14px; border-radius: 14px; background: color-mix(in oklab, var(--surface) 92%, transparent); backdrop-filter: blur(10px) saturate(140%); -webkit-backdrop-filter: blur(10px) saturate(140%);
+    border: 1px solid color-mix(in oklab, var(--ink) 10%, transparent); box-shadow: var(--shadow-2); }
+  .m3-stage.is-hero .m3-dock.is-on, .map-side:has(.btn-primary) { border-color: color-mix(in oklab, var(--red) 45%, transparent); }
+  .m3-stage.is-hero .m3-dock-main { flex: none; width: 100%; } .m3-stage.is-hero .m3-dock-title { white-space: normal; font-size: 20px; margin-top: 4px; }
+  .m3-stage.is-hero .m3-dock-stats { gap: 22px; } .m3-stage.is-hero .m3-num { font-size: 26px; } .m3-stage.is-hero .m3-dock-lbl { margin-top: 4px; }
+  .m3-stage.is-hero .m3-dock-cta { display: inline-flex; align-items: center; min-height: 34px; padding: 0 14px; border-radius: var(--radius-pill); color: #fff; background: linear-gradient(180deg, color-mix(in oklab, var(--red) 92%, #fff) 0%, var(--red) 55%, var(--red-ink) 100%); }
+  .m3-stage.is-hero .m3-dock-hint { font-size: 13px; line-height: 1.5; }
+  .map-stage.is-hero .map-ov-top { top: 78px; }
+}
+@media (max-width: 767px) { .map-side { min-height: 96px; } }
+
+/* ---------- 42. Logo and brand lockup (components/Logo.tsx, docs/07 §21) ---------- */
+.logo-mark { display: block; flex: none; overflow: visible; }
+.logo-body { fill: var(--red); } .logo-shade { fill: rgb(0 0 0 / .16); } .logo-disc { fill: #fbfaf6; } .logo-temple { fill: #17181c; } .logo-ground { fill: var(--accent); opacity: .85; }
+.logo-pin { transform-box: fill-box; transform-origin: 50% 100%; transition: transform .5s cubic-bezier(.34, 1.56, .64, 1); } .logo-ground { transform-box: fill-box; transform-origin: 50% 50%; transition: transform .5s var(--ease-out), opacity .5s var(--ease-out); }
+.brand { display: inline-flex; align-items: center; gap: 12px; color: var(--ink); }
+.brand-text { display: grid; gap: 3px; line-height: 1; }
+.brand-name { font-family: var(--font-display); font-weight: 400; font-size: 21px; letter-spacing: -0.035em; white-space: nowrap; color: var(--ink); }
+.brand-name .q { color: var(--red); margin-left: 1px; }
+.brand-sub { font-family: var(--font-mono); font-size: 10.5px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); white-space: nowrap; }
+.brand.is-big { gap: 16px; } .brand.is-big .brand-name { font-size: clamp(26px, 3.2vw, 38px); }
+@media (hover: hover) { a:hover > .brand .logo-pin { transform: translateY(-3px); } a:hover > .brand .logo-ground { transform: scale(.82); opacity: .6; } }
+@media (max-width: 767px) { .site-header .brand-sub { display: none; } .site-header .brand-name { font-size: 17px; } .site-header .logo-mark { height: 36px; width: auto; } }
+.opener-mark { display: grid; place-items: center; margin-bottom: 4px; }
+.opener-mark .logo-pin { animation: logo-drop .9s cubic-bezier(.34, 1.56, .64, 1) .05s both; } .opener-mark .logo-ground { animation: logo-ground .9s var(--ease-out) .05s both; }
+@keyframes logo-drop { from { transform: translateY(-160%); opacity: 0; } 55% { opacity: 1; } to { transform: none; opacity: 1; } }
+@keyframes logo-ground { from { transform: scale(.2); opacity: 0; } to { transform: none; opacity: .85; } }
+@media (prefers-reduced-motion: reduce) { .logo-pin, .logo-ground { transition: none; } .opener-mark .logo-pin, .opener-mark .logo-ground { animation: none; } }
+
+/* ---------- 43. Footer: its own material (dark desk felt with guilloche lines), perforated top edge (docs/07 §21) ---------- */
+.site-footer { position: relative; margin-top: 96px; font-size: 14px; color: #e9e6df; border-top: 0;
+  background: #17181c url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='36' viewBox='0 0 120 36'%3E%3Cg fill='none' stroke='%23ffffff' stroke-opacity='.055' stroke-width='1'%3E%3Cpath d='M0 9c15-12 45 12 60 0s45 12 60 0'/%3E%3Cpath d='M0 18c15-12 45 12 60 0s45 12 60 0'/%3E%3Cpath d='M0 27c15-12 45 12 60 0s45 12 60 0'/%3E%3C/g%3E%3C/svg%3E"); }
+.footer-edge { position: absolute; left: 0; right: 0; top: -9px; height: 10px; pointer-events: none; background: radial-gradient(circle at 9px 10px, #17181c 6.5px, transparent 7px) repeat-x; background-size: 18px 10px; }
+.footer-edge::after { content: ""; position: absolute; left: 0; right: 0; top: 10px; height: 3px; background: linear-gradient(90deg, var(--red) 0 33.33%, #f4f2ec 33.33% 66.66%, #3d6fb0 66.66% 100%); opacity: .9; }
+.footer-top { display: grid; gap: 20px 48px; padding-top: 56px; padding-bottom: 36px; align-items: end; }
+@media (min-width: 900px) { .footer-top { grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); } }
+.footer-brand { display: grid; gap: 16px; } .footer-logo .brand-name { color: #f7f5f0; } .footer-logo .logo-ground { fill: #6f9bdc; }
+.footer-tag { max-width: 46ch; font-size: 15px; line-height: 1.55; color: #cfccc4; }
+.site-footer .footer-note { color: #9d9a93; font-size: 13px; line-height: 1.6; max-width: 52ch; }
+.footer-cols { display: grid; gap: 32px; padding-top: 32px; padding-bottom: 44px; border-top: 1px solid rgb(255 255 255 / .09); grid-template-columns: repeat(2, minmax(0, 1fr)); }
+@media (min-width: 900px) { .footer-cols { grid-template-columns: 1.2fr 1fr .8fr 1.4fr; gap: 40px; } }
+.site-footer p, .site-footer li { color: #d8d5cd; } .site-footer .eyebrow { color: #9d9a93; }
+.site-footer a { color: #f1eee7; text-decoration: none; background: linear-gradient(currentColor, currentColor) no-repeat 0 100% / 0 1px; transition: background-size .3s var(--ease), color var(--dur) var(--ease); }
+.site-footer a:hover { background-size: 100% 1px; color: #fff; } .site-footer a.footer-logo { background: none; }
+.site-footer a[aria-current="true"] { color: #fff; background-size: 100% 1px; }
+.footer-langs { display: flex; flex-wrap: wrap; gap: 6px 16px; }
+.footer-base { border-top: 1px solid rgb(255 255 255 / .09); color: #9d9a93; background: rgb(0 0 0 / .18); }
+.site-footer :focus-visible { outline: 3px solid #9cc0f5; outline-offset: 3px; }
+/* it arrives quietly: one fade when it first comes into view, no movement */
+html.js .site-footer .footer-top, html.js .site-footer .footer-cols { opacity: .001; transition: opacity .9s var(--ease-out); } html.js .site-footer .footer-cols { transition-delay: .12s; }
+html.js .site-footer.foot-in .footer-top, html.js .site-footer.foot-in .footer-cols { opacity: 1; }
+@media (prefers-reduced-motion: reduce) { html.js .site-footer .footer-top, html.js .site-footer .footer-cols { opacity: 1; transition: none; } }
+
+/* ---------- 44. Flow: pages glide in once; nothing flips or slides because of scrolling (docs/07 §21) ---------- */
+@media (prefers-reduced-motion: no-preference) {
+  /* backwards fill only: once it has played, no transform is left on the sections (a leftover one would trap fixed children) */
+  main.page-in > * { animation: page-in .6s var(--ease-out) backwards; }
+  main.page-in > :nth-child(2) { animation-delay: 70ms; } main.page-in > :nth-child(3) { animation-delay: 130ms; } main.page-in > :nth-child(n+4) { animation-delay: 180ms; }
+}
+@keyframes page-in { from { opacity: 0; transform: translate3d(0, 12px, 0); } to { opacity: 1; transform: none; } }
+html.js [data-reveal][data-fx="flip"] { transform: translate3d(0, 14px, 0); transform-origin: 50% 0; transition-duration: .6s, .7s; }
+html.js [data-reveal][data-fx="wing-l"] { transform: translate3d(-12px, 0, 0); }
+html.js [data-reveal][data-fx="wing-r"] { transform: translate3d(12px, 0, 0); }
+html.js [data-reveal].in { transform: none; }
+html.js [data-reveal].rv-static { transition: none !important; opacity: 1; transform: none; }
+/* the opener lives inside main; while it plays main sits above the sticky header so nothing shows over the curtain */
+html.has-opener body > main { z-index: 60; }
