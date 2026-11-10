@@ -7,6 +7,7 @@
  * so the hover glow is material colour plus a normal-blended halo under the unit.
  */
 import { useEffect, useMemo, useRef, useState } from "react";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import * as THREE from "three";
 import { MAP_W, MAP_H, MAP_VIEWBOX } from "@/lib/serbia-map";
@@ -149,12 +150,13 @@ export default function SerbiaMap3D({ features, context = [], fit, labels, onUna
     const lw = labelsRef.current!; lw.innerHTML = "";
     for (const u of units) { const div = document.createElement("div"); div.className = "m3-label"; div.textContent = u.f.label ?? u.f.name; lw.appendChild(div); labelEls.set(u.f.key, div); }
 
-    const ray = new THREE.Raycaster(); const ndc = new THREE.Vector2(-2, -2); let hovered: Unit | null = null; let pointerInside = false;
+    const ray = new THREE.Raycaster(); const ndc = new THREE.Vector2(-2, -2); let hovered: Unit | null = null; let under: Unit | null = null; let pointerInside = false;
     const sway = new THREE.Vector2(), swayT = new THREE.Vector2();
-    const setPointer = (e: PointerEvent) => { const r = canvas.getBoundingClientRect(); ndc.set(((e.clientX - r.left) / r.width) * 2 - 1, -(((e.clientY - r.top) / r.height) * 2 - 1)); swayT.set(ndc.x, ndc.y); pointerInside = true; };
+    let lastX = 0, lastY = 0, lastT = 0, speed = 0; // px per ms, smoothed: selection only changes when the pointer slows or rests
+    const setPointer = (e: PointerEvent) => { const tn = performance.now(); if (lastT) speed = speed * .55 + (Math.hypot(e.clientX - lastX, e.clientY - lastY) / Math.max(1, tn - lastT)) * .45; lastX = e.clientX; lastY = e.clientY; lastT = tn; const r = canvas.getBoundingClientRect(); ndc.set(((e.clientX - r.left) / r.width) * 2 - 1, -(((e.clientY - r.top) / r.height) * 2 - 1)); swayT.set(ndc.x, ndc.y); pointerInside = true; };
     const leave = () => { pointerInside = false; ndc.set(-2, -2); swayT.set(0, 0); };
     let downAt = 0; const down = () => { downAt = performance.now(); };
-    const click = () => { if (performance.now() - downAt < 250 && hovered) router.push(hovered.f.href); };
+    const click = () => { if (performance.now() - downAt < 250 && under) router.push(under.f.href); };
     canvas.addEventListener("pointermove", setPointer); canvas.addEventListener("pointerleave", leave); canvas.addEventListener("pointerdown", down); canvas.addEventListener("click", click);
 
     const resize = () => {
@@ -198,15 +200,16 @@ export default function SerbiaMap3D({ features, context = [], fit, labels, onUna
         t0 = now;
       }
       const t = now - t0;
+      let lit = under ?? hovered;
       let allIn = true;
       for (const u of units) {
         if (!reduced) { const k = EASE_OUT_EXPO(Math.min(1, Math.max(0, (t - 120 - u.delay) / 1000))); if (k < 1) allIn = false; u.target = Math.max(0.001, u.base * k); }
-        if (hovered === u) u.target = u.base + (2.2 + Math.sin(now / 420) * .1) * hs; else if (allIn || reduced) u.target = u.base;
-        u.cur = lerp(u.cur, u.target, hovered === u ? .16 : .1);
+        if (lit === u) u.target = u.base + (2.2 + Math.sin(now / 420) * .1) * hs; else if (allIn || reduced) u.target = u.base;
+        u.cur = lerp(u.cur, u.target, lit === u ? .16 : .1);
         u.mesh.scale.y = u.cur; u.edges.scale.y = u.cur;
-        u.hot = lerp(u.hot, hovered === u ? 1 : 0, .14);
+        u.hot = lerp(u.hot, lit === u ? 1 : 0, .14);
         u.top.color.copy(u.color0).lerp(HOT, u.hot * .9); u.top.emissiveIntensity = u.hot * .1;
-        (u.edges.material as THREE.LineBasicMaterial).opacity = lerp((u.edges.material as THREE.LineBasicMaterial).opacity, hovered === u ? .95 : .5, .12);
+        (u.edges.material as THREE.LineBasicMaterial).opacity = lerp((u.edges.material as THREE.LineBasicMaterial).opacity, lit === u ? .95 : .5, .12);
       }
       if (!reduced) camera.position.lerpVectors(camStart, camFinal, EASE_OUT_EXPO(Math.min(1, t / 1400)));
       else camera.position.copy(camFinal);
@@ -217,14 +220,19 @@ export default function SerbiaMap3D({ features, context = [], fit, labels, onUna
         ray.setFromCamera(ndc, camera);
         const hit = ray.intersectObjects(units.map((u) => u.mesh), false)[0];
         const u = hit ? units.find((x) => x.mesh === hit.object) ?? null : null;
-        if (u !== hovered) { hovered = u; setHover(u ? u.f.key : null); canvas.style.cursor = u ? "pointer" : "default"; }
-      } else if (hovered) { hovered = null; setHover(null); canvas.style.cursor = "default"; }
+        // `under` is what the pointer is on right now (cursor, click). `hovered` is the selection: it stays on the last
+        // district touched, so its panel and its "open" link are still there when the pointer travels to them.
+        if (u !== under) { under = u; canvas.style.cursor = u ? "pointer" : "default"; }
+        if (performance.now() - lastT > 140) speed = 0; // resting
+        if (u && u !== hovered && (!hovered || speed < .32)) { hovered = u; setHover(u.f.key); }
+      } else if (under) { under = null; canvas.style.cursor = "default"; }
+      lit = under ?? hovered;
       const hm = halo.material as THREE.MeshBasicMaterial;
-      if (hovered) { halo.position.set(hovered.cx, .03, hovered.cz); const sz = (hovered.f.bbox[2] - hovered.f.bbox[0]) * SCALE * 2.6 + Math.sin(now / 600) * hs; halo.scale.set(sz, sz, 1); hm.opacity = lerp(hm.opacity, 1, .1); }
+      if (lit) { halo.position.set(lit.cx, .03, lit.cz); const sz = (lit.f.bbox[2] - lit.f.bbox[0]) * SCALE * 2.6 + Math.sin(now / 600) * hs; halo.scale.set(sz, sz, 1); hm.opacity = lerp(hm.opacity, 1, .1); }
       else hm.opacity = lerp(hm.opacity, 0, .12);
       const w = canvas.clientWidth, h = canvas.clientHeight;
       const placed: { x: number; y: number; hw: number; hh: number }[] = [];
-      const order = [...units].sort((a, b) => (b === hovered ? 1 : 0) - (a === hovered ? 1 : 0) || b.f.count - a.f.count);
+      const order = [...units].sort((a, b) => (b === lit ? 1 : 0) - (a === lit ? 1 : 0) || b.f.count - a.f.count);
       for (const u of order) {
         const elb = labelEls.get(u.f.key); if (!elb) continue;
         v3.set(u.cx, u.cur + .4 * hs, u.cz).project(camera);
@@ -236,8 +244,8 @@ export default function SerbiaMap3D({ features, context = [], fit, labels, onUna
         if (!collides) placed.push({ x, y: cy, hw, hh });
         elb.style.transform = `translate(-50%, -100%) translate(${x}px, ${y}px)`;
         const fade = allIn || reduced ? 1 : Math.min(1, Math.max(0, (t - 1400 - u.delay) / 600));
-        elb.style.opacity = String(collides && hovered !== u ? 0 : fade * (hovered && hovered !== u ? .45 : 1));
-        elb.classList.toggle("is-hot", hovered === u);
+        elb.style.opacity = String(collides && lit !== u ? 0 : fade * (lit && lit !== u ? .45 : 1));
+        elb.classList.toggle("is-hot", lit === u);
       }
       renderer.render(scene, camera);
       if (t > 50 && !el.classList.contains("is-ready")) { el.classList.add("is-ready"); setReady(true); }
@@ -267,7 +275,7 @@ export default function SerbiaMap3D({ features, context = [], fit, labels, onUna
             <div className="m3-dock-title">{f.name}</div>
           </div>
           <div className="m3-dock-stats">{f.stats.map((s) => <div key={s.l}><div className="m3-num">{s.v}</div><div className="m3-dock-lbl">{s.l}</div></div>)}</div>
-          <div className="m3-dock-cta">{labels.open} →</div>
+          <Link href={f.href} className="m3-dock-cta no-underline">{labels.open} →</Link>
         </>) : (
           <div className="m3-dock-hint">{labels.hint}</div>
         )}

@@ -49,6 +49,12 @@ export default function SerbiaMap({ okruzi, jls, locale, labels, variant = "ligh
   const pointers = useRef(new Map<number, { x: number; y: number }>());
   const moved = useRef(0);
   const pinchDist = useRef<number | null>(null);
+  // pointer intent: a district becomes the selection when the pointer slows or rests on it, not while it is only being
+  // crossed on the way to the side panel; the selection then stays until another district is chosen
+  const intent = useRef<{ x: number; y: number; t: number; v: number; pending: (() => void) | null; timer: number }>({ x: 0, y: 0, t: 0, v: 0, pending: null, timer: 0 });
+  const choose = (apply: () => void, force = false) => { const it = intent.current; if (force || it.v < .32) { it.pending = null; apply(); } else it.pending = apply; };
+  const trackIntent = (e: React.PointerEvent) => { const it = intent.current, tn = performance.now(); if (it.t) it.v = it.v * .55 + (Math.hypot(e.clientX - it.x, e.clientY - it.y) / Math.max(1, tn - it.t)) * .45; it.x = e.clientX; it.y = e.clientY; it.t = tn; window.clearTimeout(it.timer); it.timer = window.setTimeout(() => { it.v = 0; const p = it.pending; it.pending = null; p?.(); }, 140); };
+  const dropIntent = () => { const it = intent.current; it.pending = null; window.clearTimeout(it.timer); };
 
   const okrugBy = useMemo(() => Object.fromEntries(okruzi.map((o) => [o.slug, o])), [okruzi]);
   const jlsBy = useMemo(() => Object.fromEntries(jls.map((j) => [j.slug, j])), [jls]);
@@ -199,8 +205,8 @@ export default function SerbiaMap({ okruzi, jls, locale, labels, variant = "ligh
       <div ref={wrapRef} className={`map-stage relative ${stageH} rounded-2xl overflow-hidden border border-line select-none`} style={{ touchAction: "none" }}>
         <svg ref={svgRef} viewBox={`${view.x} ${view.y} ${view.w} ${view.h}`} className="absolute inset-0 w-full h-full"
              role="img" aria-label="Mapa Srbije po okruzima i opštinama" preserveAspectRatio="xMidYMid meet"
-             onPointerDown={onPointerDown} onPointerMove={onPointerMove} onPointerUp={onPointerUp} onPointerCancel={onPointerUp}
-             onMouseLeave={() => { setHoverOkrug(null); setHoverJls(null); }} style={{ cursor: pointers.current.size ? "grabbing" : "grab" }}>
+             onPointerDown={onPointerDown} onPointerMove={(e) => { trackIntent(e); onPointerMove(e); }} onPointerUp={onPointerUp} onPointerCancel={onPointerUp} onPointerLeave={dropIntent}
+             style={{ cursor: pointers.current.size ? "grabbing" : "grab" }}>{/* no clearing on leave: the last district touched stays in the side panel, so its button can be reached */}
           {/* the country as a slab: a soft shadow and a darker side under the faces (2.5D, same family as the 3D map) */}
           {!dark && <g className="sm-slab" transform={`translate(0 ${f(8)})`} pointerEvents="none">{OKRUG_SHAPES.map((s) => <path key={`s-${s.slug}`} d={s.d} />)}</g>}
           {/* okrug fills */}
@@ -209,7 +215,7 @@ export default function SerbiaMap({ okruzi, jls, locale, labels, variant = "ligh
             const isHot = hoverOkrug === s.slug && !focused; const dim = focused && focused !== s.slug;
             return (
               <path key={s.slug} d={s.d} data-okrug={s.slug}
-                    onPointerEnter={() => { if (!focused) setHoverOkrug(s.slug); }}
+                    onPointerEnter={(e) => { if (!focused) choose(() => setHoverOkrug(s.slug), e.pointerType !== "mouse" || !hoverOkrug); }}
                     onClick={() => { if (isClick()) focusOkrug(s.slug); }}
                     style={{
                       fill: isHot ? (dark ? "#fff" : "var(--map-hot)") : dark ? `rgb(255 255 255 / ${(0.07 + share * 0.30).toFixed(2)})` : `color-mix(in oklab, var(--map-hi) ${Math.round(Math.sqrt(share) * 100)}%, var(--map-lo))`,
@@ -226,7 +232,7 @@ export default function SerbiaMap({ okruzi, jls, locale, labels, variant = "ligh
             const j = jlsBy[u.slug]; const share = j ? j.org_count / maxJls : 0; const hot = hoverJls === u.slug;
             return (
               <path key={u.slug} d={u.d} data-jls={u.slug}
-                    onPointerEnter={() => { setHoverJls(u.slug); setHoverOkrug(u.okrug); }}
+                    onPointerEnter={(e) => choose(() => { setHoverJls(u.slug); setHoverOkrug(u.okrug); }, e.pointerType !== "mouse" || !hoverJls)}
                     onClick={() => { if (isClick()) { const j = jlsBy[u.slug]; router.push(j ? unitHref(j) : href(locale, `/${u.slug}`)); } }}
                     style={{ fill: hot ? (dark ? "#fff" : "var(--map-hot)") : dark ? `rgb(255 255 255 / ${(0.06 + Math.sqrt(share) * 0.26).toFixed(2)})` : `color-mix(in oklab, var(--map-hi) ${Math.round(Math.sqrt(share) * 100)}%, var(--map-lo))`,
                              stroke: dark ? "rgb(6 16 31 / .9)" : "var(--map-edge)", strokeWidth: f(.8), strokeLinejoin: "round", cursor: "pointer", transition: "fill .12s" }} />

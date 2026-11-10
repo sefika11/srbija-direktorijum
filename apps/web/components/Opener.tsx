@@ -18,7 +18,10 @@ export default function Opener({ words, eyebrow, count, countLabel }: { words: s
     let seen = false;
     try { seen = sessionStorage.getItem("gdi-opener") === "1"; } catch { /* storage blocked */ }
     const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    if (seen || reduced) { setState("done"); root.classList.add("opener-done"); root.classList.remove("opener-pending", "has-opener"); return; }
+    // slow connection: the pre-paint curtain gives up after 4 s and shows the page; starting the opener after that would
+    // cover a page the visitor is already reading, so it is skipped for this visit
+    const late = root.classList.contains("opener-pending") && performance.now() > 3800;
+    if (seen || reduced || late) { if (late) { try { sessionStorage.setItem("gdi-opener", "1"); } catch { /* ignore */ } } setState("done"); root.classList.add("opener-done"); root.classList.remove("opener-pending", "has-opener"); return; }
     root.classList.add("has-opener");
     try { sessionStorage.setItem("gdi-opener", "1"); } catch { /* ignore */ }
     setState("play");

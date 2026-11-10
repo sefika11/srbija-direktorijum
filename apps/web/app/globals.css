@@ -938,7 +938,11 @@ article { position: relative; }
 @media (prefers-reduced-motion: reduce) { .deck { transition: none; } .hero-index-card { transform: none; transition: none; } }
 /* opener: the paper curtain is up before the first paint (class set by the inline script in the layout head), so the
    page never flashes under it; it releases itself after 4 s if the opener script never runs */
-html.opener-pending body::before { content: "" !important; display: block !important; position: fixed !important; inset: 0 !important; z-index: 99 !important; opacity: 1 !important; filter: none !important; background: var(--bg) !important; animation: opener-pending-out .01s linear 4s forwards; }
+html.opener-pending body::before { content: "" !important; display: block !important; position: fixed !important; inset: 0 !important; z-index: 99 !important; opacity: 1 !important; filter: none !important; background: var(--bg) !important; mask-image: none !important; -webkit-mask-image: none !important; transform: none !important; mix-blend-mode: normal !important; animation: opener-pending-out .01s linear 4s forwards; }
+/* second guard, independent of the pseudo-element: the page itself stays unpainted until the opener has taken over
+   (the lattice layer this curtain borrows carries a fade mask; with the mask left on, the top of the page showed through) */
+html.opener-pending body > header, html.opener-pending body > main, html.opener-pending body > footer, html.opener-pending .heritage { opacity: 0; animation: opener-pending-show .01s linear 4s forwards; }
+@keyframes opener-pending-show { to { opacity: 1; } }
 html.opener-pending body { overflow: hidden; }
 @keyframes opener-pending-out { to { opacity: 0; visibility: hidden; } }
 
@@ -1197,3 +1201,6 @@ html.has-opener body > main { z-index: 60; }
   mask-image: radial-gradient(circle, #000 0 62%, transparent 63%), repeating-conic-gradient(#000 0 9deg, transparent 9deg 18deg); mask-composite: add; }
 .dpaper-seal i { position: absolute; inset: 24%; border-radius: 50%; border: 1px solid rgb(90 66 10 / .6); }
 .dpaper-corner { position: absolute !important; right: 0; top: 0; width: 13%; aspect-ratio: 1; background: linear-gradient(225deg, var(--surface-2) 0 49%, #e4dece 50%, #f6f2e6 100%); box-shadow: -2px 2px 4px rgb(0 0 0 / .12); }
+/* the district panel keeps the last district touched; its "open" control is a real link and takes the pointer */
+.m3-dock-cta { pointer-events: auto; cursor: pointer; text-decoration: none; }
+.m3-stage.is-hero .m3-dock-cta:hover { filter: brightness(1.08); } .m3-dock-cta:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
