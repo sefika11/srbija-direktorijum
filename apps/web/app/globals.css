@@ -1228,3 +1228,16 @@ html.has-opener body > main { z-index: 60; }
 .org-compact li { display: flex; justify-content: space-between; gap: 10px; padding: 6px 2px; border-bottom: 1px solid var(--line); min-width: 0; }
 .org-compact a { color: var(--ink); text-decoration: none; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; } .org-compact a:hover { color: var(--accent); text-decoration: underline; }
 .org-compact span { flex: none; color: var(--muted); font-size: 12px; max-width: 45%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+/* ---------- 48. Paged type pages: filter bar and pager (docs/08 §9) ---------- */
+.type-filter { display: grid; gap: 10px; grid-template-columns: minmax(0, 1fr); align-items: center; }
+@media (min-width: 720px) { .type-filter { grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr) minmax(0, 1fr) auto auto; } .type-filter:not(:has(select + select)) { grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr) auto auto; } }
+.type-filter input, .type-filter select { min-height: 42px; width: 100%; min-width: 0; padding: 0 12px; border-radius: var(--radius); border: 1px solid var(--line-strong); background: var(--surface); color: var(--ink); font: inherit; font-size: 14.5px; }
+.type-filter input:focus-visible, .type-filter select:focus-visible { outline: 3px solid var(--accent); outline-offset: 1px; }
+.type-filter-reset { font-size: 13.5px; color: var(--muted); white-space: nowrap; padding: 0 4px; }
+.pager { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 16px; margin-top: 6px; font-size: 14px; }
+.pager-nums { display: flex; flex-wrap: wrap; align-items: center; gap: 4px; }
+.pager-n, .pager-step { display: inline-grid; place-items: center; min-width: 40px; min-height: 40px; padding: 0 12px; border-radius: var(--radius); border: 1px solid var(--line); background: var(--surface); color: var(--ink); text-decoration: none; font-variant-numeric: tabular-nums; }
+a.pager-n:hover, a.pager-step:hover { border-color: var(--accent); color: var(--accent-ink); }
+.pager-n.is-on { background: var(--ink); color: var(--bg); border-color: var(--ink); } .pager-step.is-off { opacity: .4; } .pager-gap { color: var(--muted); padding: 0 2px; }
+#lista { scroll-margin-top: 84px; }

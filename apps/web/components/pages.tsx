@@ -46,7 +46,7 @@ const orgHref = (l: Locale, o: { type_slug: string; slug: string }) => href(l, `
 const tuHref = (l: Locale, u: { level: string; slug: string }, parentSlug?: string | null) =>
   u.level === "okrug" ? href(l, `/okrug/${u.slug}`) : u.level === "gradska_opstina" && parentSlug ? href(l, `/${parentSlug}/${u.slug}`) : href(l, `/${u.slug}`);
 
-function OrgList({ orgs, locale, dense = false, compact = false }: { orgs: db.OrgRow[]; locale: Locale; dense?: boolean; compact?: boolean }) {
+function OrgList({ orgs, locale, dense = false, compact = false, byPlace = false }: { orgs: db.OrgRow[]; locale: Locale; dense?: boolean; compact?: boolean; byPlace?: boolean }) {
   if (!orgs.length) return <p className="text-muted text-[13.5px]">{t(locale).noData}</p>;
   // very large types (thousands of rows): one light line per institution, plain anchors, so the page stays a sane size
   if (compact) return <ul className="org-compact">{orgs.map((o) => <li key={o.id}><a href={orgHref(locale, o)}>{o.name_lat}</a>{o.place_name && <span>{o.place_name}</span>}</li>)}</ul>;
@@ -55,7 +55,7 @@ function OrgList({ orgs, locale, dense = false, compact = false }: { orgs: db.Or
       {orgs.map((o) => (
         <li key={o.id} className="card card-hover spot px-3.5 py-2.5">
           <Link href={orgHref(locale, o)} className="hit no-underline text-ink font-medium text-[14px] leading-snug block hover:text-accent">{o.name_lat}</Link>
-          <div className="text-[12px] text-muted mt-0.5 truncate">{o.is_private && <span className="inline-block rounded-full bg-surface-2 px-1.5 py-px text-[10.5px] uppercase tracking-wider font-semibold mr-1.5 align-middle">{locale === "sr" ? "privatno" : locale === "en" ? "private" : locale === "ru" ? "частное" : "privat"}</span>}{o.type_name}{o.place_name && o.place_name !== o.founder_name ? ` · ${o.place_name}` : ""}</div>
+          <div className="text-[12px] text-muted mt-0.5 truncate">{o.is_private && <span className="inline-block rounded-full bg-surface-2 px-1.5 py-px text-[10.5px] uppercase tracking-wider font-semibold mr-1.5 align-middle">{locale === "sr" ? "privatno" : locale === "en" ? "private" : locale === "ru" ? "частное" : "privat"}</span>}{byPlace ? (o.place_name ?? o.founder_name ?? o.type_name) : <>{o.type_name}{o.place_name && o.place_name !== o.founder_name ? ` · ${o.place_name}` : ""}</>}</div>
         </li>
       ))}
     </ul>
@@ -425,12 +425,36 @@ function GuideLinks({ locale, guides, jlsSlug, stacked = false }: { locale: Loca
 }
 
 // ---------------------------------------------------------------- Org type hub
-export async function OrgTypeHub({ locale, type, brand = null, place = null }: { locale: Locale; type: db.OrgType; brand?: string | null; place?: string | null }) {
+/** which line of an institution's facts works as the "field" filter on a paged type page */
+const TYPE_FACET: Record<string, { key: string; label: Record<Locale, string> }> = {
+  "sudski-vestak": { key: "oblasti", label: { sr: "Sve oblasti", en: "All fields", ru: "Все области", de: "Alle Fachgebiete" } },
+};
+const PAGE_SIZE = 60, PAGED_FROM = 800;
+const PG: Record<Locale, { name: string; allPlaces: string; show: string; reset: string; shown: (a: number, b: number, n: number) => string; prev: string; next: string; page: string; none: string }> = {
+  sr: { name: "Naziv ili ime", allPlaces: "Sva mesta", show: "Prikaži", reset: "Poništi", shown: (a, b, n) => `Prikazano ${a}–${b} od ${n.toLocaleString("sr-Latn")}`, prev: "Prethodna", next: "Sledeća", page: "Strana", none: "Nema rezultata za ovaj izbor." },
+  en: { name: "Name", allPlaces: "All places", show: "Show", reset: "Reset", shown: (a, b, n) => `Showing ${a}–${b} of ${n.toLocaleString("en")}`, prev: "Previous", next: "Next", page: "Page", none: "Nothing matches this selection." },
+  ru: { name: "Название или имя", allPlaces: "Все места", show: "Показать", reset: "Сбросить", shown: (a, b, n) => `Показано ${a}–${b} из ${n.toLocaleString("ru")}`, prev: "Назад", next: "Вперёд", page: "Страница", none: "По этому выбору ничего не найдено." },
+  de: { name: "Name", allPlaces: "Alle Orte", show: "Anzeigen", reset: "Zurücksetzen", shown: (a, b, n) => `${a}–${b} von ${n.toLocaleString("de")}`, prev: "Zurück", next: "Weiter", page: "Seite", none: "Keine Treffer für diese Auswahl." },
+};
+
+export async function OrgTypeHub({ locale, type, brand = null, place = null, query = {} }: { locale: Locale; type: db.OrgType; brand?: string | null; place?: string | null; query?: { q?: string | null; facet?: string | null; page?: number } }) {
   const d = t(locale);
-  const orgs = await db.getOrgsOfType(type.slug, 12000); // the largest type (court experts) has about 6,600 rows
+  // Very large types are filtered and paged on the server instead of listing thousands of rows on one page.
+  const total = await db.countOrgsOfType(type.slug);
+  const paged = !type.national_network && total > PAGED_FROM;
+  const facetDef = TYPE_FACET[type.slug] ?? null;
+  const filter: db.TypeFilter = { q: query.q?.trim().slice(0, 60) || null, jls: place, facetKey: facetDef?.key ?? null, facet: facetDef ? (query.facet?.trim().slice(0, 80) || null) : null };
+  const filtered = !!(filter.q || filter.jls || filter.facet);
+  const [matchCount, placeOptions, facetValues] = paged
+    ? await Promise.all([filtered ? db.countOrgsOfType(type.slug, filter) : Promise.resolve(total), db.getPlacesOfType(type.slug), facetDef ? db.getFacetValues(type.slug, facetDef.key) : Promise.resolve([] as { v: string; n: number }[])])
+    : [total, [] as { slug: string; name_lat: string; n: number }[], [] as { v: string; n: number }[]];
+  // a page number past the end shows the last page, never an empty one
+  const pageNo = Math.min(Math.max(1, Math.floor(query.page ?? 1)), Math.max(1, Math.ceil(matchCount / PAGE_SIZE)));
+  const pageRows = paged ? await db.getOrgsOfTypePaged(type.slug, filter, PAGE_SIZE, (pageNo - 1) * PAGE_SIZE) : [];
+  const orgs = paged ? pageRows : await db.getOrgsOfType(type.slug, 12000);
   // National networks (RFZO, PIO, Poreska uprava...) are one organization with many branches: list the branches by okrug.
   // Chains (national networks, banks, insurers) are few organisations with many branches and no primary seat: list the branches by district.
-  const branchMode = type.national_network || (orgs.length > 0 && orgs.every((o) => !o.place_name));
+  const branchMode = !paged && (type.national_network || (orgs.length > 0 && orgs.every((o) => !o.place_name)));
   const [branches, featured, typeGuides] = await Promise.all([branchMode ? db.getLocationsOfType(type.slug) : Promise.resolve([] as db.ServingRow[]), db.getFeatured(type.slug, null).catch(() => [] as db.FeaturedRow[]), db.getGuidesForType(type.slug).catch(() => [] as db.GuideRow[])]);
   const groups = new Map<string, db.OrgRow[]>();
   const OTHER = locale === "sr" ? "Ostalo" : locale === "en" ? "Other" : locale === "ru" ? "Прочее" : "Sonstige";
@@ -443,8 +467,8 @@ export async function OrgTypeHub({ locale, type, brand = null, place = null }: {
   const byOkrug = new Map<string, db.ServingRow[]>();
   for (const b of shownBranches) { const k = place ? (b.jls_name_lat ?? "—") : (b.okrug_name_lat ?? "—"); byOkrug.set(k, [...(byOkrug.get(k) ?? []), b]); }
   const okrugKeys = [...byOkrug.keys()].sort((a, b) => a.localeCompare(b, "sr-Latn"));
-  const count = branchMode ? branches.length : orgs.length;
-  const places = branchMode ? new Set(branches.map((b) => b.jls_slug)).size : keys.length;
+  const count = branchMode ? branches.length : paged ? total : orgs.length;
+  const places = branchMode ? new Set(branches.map((b) => b.jls_slug)).size : paged ? placeOptions.length : keys.length;
   let faq: { q: string; a: string }[] = [];
   try { const parsed = type.faq_md ? JSON.parse(type.faq_md) : []; if (Array.isArray(parsed)) faq = parsed.filter((x) => x && x.q && x.a); } catch { faq = []; }
   return (
@@ -487,7 +511,33 @@ export async function OrgTypeHub({ locale, type, brand = null, place = null }: {
               </ul>
               
             </section>
-          )) : keys.map((k, i) => {
+          )) : paged ? [(() => {
+            const P = PG[locale]; const base = href(locale, `/${type.slug}`); const pages = Math.max(1, Math.ceil(matchCount / PAGE_SIZE)); const cur = Math.min(pageNo, pages);
+            const facetOptions = facetValues.filter((x) => x.v && /^[A-ZŠĐČĆŽ]/.test(x.v));
+            const link = (n: number) => { const u = new URLSearchParams(); if (filter.q) u.set("q", filter.q); if (filter.jls) u.set("mesto", filter.jls); if (filter.facet) u.set("oblast", filter.facet); if (n > 1) u.set("strana", String(n)); const qs = u.toString(); return `${qs ? `${base}?${qs}` : base}#lista`; };
+            const windowed = [...new Set([1, cur - 2, cur - 1, cur, cur + 1, cur + 2, pages].filter((n) => n >= 1 && n <= pages))].sort((a, b) => a - b);
+            const from = matchCount ? (cur - 1) * PAGE_SIZE + 1 : 0, to = Math.min(matchCount, cur * PAGE_SIZE);
+            return (
+              <section key="paged" className="grid gap-4" id="lista">
+                <form method="get" action={`${base}#lista`} className="type-filter card p-3.5" role="search" aria-label={tn(type, locale)}>
+                  <input type="search" name="q" defaultValue={filter.q ?? ""} placeholder={P.name} aria-label={P.name} maxLength={60} />
+                  <select name="mesto" defaultValue={filter.jls ?? ""} aria-label={P.allPlaces}><option value="">{P.allPlaces}</option>{placeOptions.map((o) => <option key={o.slug} value={o.slug}>{o.name_lat} ({o.n})</option>)}</select>
+                  {facetDef && facetOptions.length > 0 && <select name="oblast" defaultValue={filter.facet ?? ""} aria-label={facetDef.label[locale]}><option value="">{facetDef.label[locale]}</option>{facetOptions.map((o) => <option key={o.v} value={o.v}>{o.v} ({o.n})</option>)}</select>}
+                  <button type="submit" className="btn-primary">{P.show}</button>
+                  {filtered && <a href={base} className="type-filter-reset">{P.reset}</a>}
+                </form>
+                <p className="text-[13px] text-muted tabular" aria-live="polite">{matchCount ? P.shown(from, to, matchCount) : P.none}</p>
+                {orgs.length > 0 && <OrgList orgs={orgs} locale={locale} dense byPlace />}
+                {pages > 1 && (
+                  <nav className="pager" aria-label={P.page}>
+                    {cur > 1 ? <a href={link(cur - 1)} rel="prev" className="pager-step">← {P.prev}</a> : <span className="pager-step is-off">← {P.prev}</span>}
+                    <span className="pager-nums">{windowed.map((n, i) => <Fragment key={n}>{i > 0 && n - windowed[i - 1] > 1 && <span className="pager-gap" aria-hidden>…</span>}{n === cur ? <span className="pager-n is-on" aria-current="page">{n}</span> : <a href={link(n)} className="pager-n">{n}</a>}</Fragment>)}</span>
+                    {cur < pages ? <a href={link(cur + 1)} rel="next" className="pager-step">{P.next} →</a> : <span className="pager-step is-off">{P.next} →</span>}
+                  </nav>
+                )}
+              </section>
+            );
+          })()] : keys.map((k, i) => {
             const list = groups.get(k)!;
             const body = <OrgList orgs={list} locale={locale} dense compact={orgs.length > 800} />;
             return (

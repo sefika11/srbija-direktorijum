@@ -106,6 +106,30 @@ export const getOrgsInUnit = (path: string) =>
 export const getOrgsOfType = (typeSlug: string, limit = 2000) =>
   sql<OrgRow[]>`${ORG_SELECT} where o.status = 'active' and t.slug = ${typeSlug} order by coalesce(f.name_lat, p.name_lat, ''), o.name_lat limit ${limit}`;
 
+// ---- very large types (court experts, exchange offices, local communities): filtered and paged on the server ----
+export type TypeFilter = { q?: string | null; jls?: string | null; facetKey?: string | null; facet?: string | null };
+const reEsc = (v: string) => v.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+const typeFilter = (o: TypeFilter) => sql`
+  ${o.jls ? sql`and exists (select 1 from territorial_units j where j.slug = ${o.jls} and j.level = 'jls' and coalesce(p.path, f.path) <@ j.path)` : sql``}
+  ${o.q ? sql`and f_unaccent(lower(o.name_lat)) like '%' || f_unaccent(lower(${o.q})) || '%'` : sql``}
+  ${o.facet && o.facetKey ? sql`and o.description_md ~* ${`${o.facetKey}:[^\\n]*${reEsc(o.facet)}`}` : sql``}`;
+const TYPE_JOINS = sql`from organizations o join org_types t on t.id = o.org_type_id
+  left join territorial_units f on f.id = o.founder_unit_id left join locations l on l.org_id = o.id and l.is_primary left join territorial_units p on p.id = l.territorial_unit_id`;
+export const countOrgsOfType = (typeSlug: string, o: TypeFilter = {}) =>
+  sql<{ n: number }[]>`select count(*)::int as n ${TYPE_JOINS} where o.status = 'active' and t.slug = ${typeSlug} ${typeFilter(o)}`.then((r) => r[0]?.n ?? 0);
+export const getOrgsOfTypePaged = (typeSlug: string, o: TypeFilter, limit: number, offset: number) =>
+  sql<OrgRow[]>`${ORG_SELECT} where o.status = 'active' and t.slug = ${typeSlug} ${typeFilter(o)} order by o.name_lat, o.id limit ${limit} offset ${offset}`;
+/** municipalities that have at least one institution of the type, with counts (for the place filter) */
+export const getPlacesOfType = (typeSlug: string) =>
+  sql<{ slug: string; name_lat: string; n: number }[]>`select j.slug, j.name_lat, count(distinct o.id)::int as n ${TYPE_JOINS}
+    join territorial_units j on j.level = 'jls' and coalesce(p.path, f.path) <@ j.path
+    where o.status = 'active' and t.slug = ${typeSlug} group by j.slug, j.name_lat order by j.name_lat`;
+/** values of one "- key: a – x, b – y" line in description_md (the part before the dash), with counts; rare values are left out */
+export const getFacetValues = (typeSlug: string, key: string, min = 30) =>
+  sql<{ v: string; n: number }[]>`select trim(split_part(part, ' – ', 1)) as v, count(distinct o.id)::int as n
+    from organizations o join org_types t on t.id = o.org_type_id, lateral regexp_split_to_table(substring(o.description_md from ${`${key}: ([^\\n]*)`}), ',\\s*') as part
+    where o.status = 'active' and t.slug = ${typeSlug} group by 1 having count(distinct o.id) >= ${min} order by 2 desc limit 40`;
+
 export const getOrg = (typeSlug: string, orgSlug: string) =>
   sql<OrgRow[]>`${ORG_SELECT} where o.slug = ${orgSlug} and t.slug = ${typeSlug} limit 1`.then((r) => r[0] ?? null);
 

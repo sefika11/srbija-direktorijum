@@ -176,3 +176,10 @@ actually loaded (`db/imports/clean_2026-11-10/`), the contacts applied to matche
 retype list. Exception: for court experts and property appraisers only the cleaned file is kept, because the raw
 register export carries street addresses of natural persons. Re-running `prepare_registry_batch` after the load needs
 `--before "2026-11-10 18:20+00"` so rows are not matched against their own insert.
+
+**Paged type pages.** A type with more than 800 institutions (court experts, local communities, exchange offices, primary
+schools, mediators) is not listed on one page: `/<type>?q=<name>&mesto=<municipality>&oblast=<field>&strana=<n>`,
+60 rows a page, filtered and counted in SQL (`countOrgsOfType`, `getOrgsOfTypePaged`, `getPlacesOfType`,
+`getFacetValues` in `apps/web/lib/db.ts`). The form is a plain GET form, so it works without JavaScript and every
+result page has its own address. The field filter is configured per type in `TYPE_FACET` (`components/pages.tsx`);
+today only court experts have one (the main field of expertise, values with at least 30 experts).
