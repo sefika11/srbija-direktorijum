@@ -70,7 +70,7 @@ export default function Globe3D({ iso2, label, homeLabel = "Srbija", className, 
     const targetQ = new THREE.Quaternion().setFromUnitVectors(mid, new THREE.Vector3(0, 0, 1));
     group.quaternion.copy(targetQ);
     const ang = dest ? toVec(home[0], home[1]).angleTo(toVec(dest[0], dest[1])) : 0;
-    const camDist = THREE.MathUtils.clamp(2.0 + ang * .45, 2.2, 3.0); camera.position.set(0, 0, reduced ? camDist : camDist + 1.2);
+    const camDist = dest ? THREE.MathUtils.clamp(2.0 + ang * .45, 2.2, 3.0) : 3.1; camera.position.set(0, 0, reduced ? camDist : camDist + 1.2);
 
     // interaction: drag rotates, wheel zooms, auto-rotation until first drag
     let dragging = false, lx = 0, ly = 0, touched = false, vx = 0, vy = 0;
