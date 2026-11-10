@@ -15,6 +15,10 @@ import { pageMeta } from "@/lib/seo";
 
 export const revalidate = 86400;
 export const dynamicParams = true;
+// Static and re-made once a day: query parameters and cookies are not read here (they arrive empty), so a page view
+// costs no database time. Views that depend on the request are served by app/dyn/[...path] (see middleware.ts).
+export const dynamic = "force-static";
+export async function generateStaticParams() { return []; }   // nothing at build time; each path is made on its first visit
 
 type Params = { path: string[] };
 type Props = { params: Promise<Params>; searchParams: Promise<Record<string, string | string[] | undefined>> };
