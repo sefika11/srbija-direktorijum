@@ -103,6 +103,17 @@ export const getOrgsInUnit = (path: string) =>
     where o.status = 'active' and (f.path <@ ${path}::ltree or p.path <@ ${path}::ltree)
     order by t.sort_order, o.name_lat`;
 
+/**
+ * A unit's institutions without listing thousands of them: per type, the first `per` by name plus the type's total in the
+ * unit (type_n). A type with type_n <= per is complete in the result; larger ones are shown as a tile that links to the
+ * type page filtered by this place. Same membership rule as getOrgsInUnit and the counts.
+ */
+export const getOrgsInUnitTop = (path: string, per = 12) =>
+  sql<(OrgRow & { type_n: number })[]>`
+    select * from (select q.*, row_number() over (partition by q.type_slug order by q.name_lat, q.id) as rn, count(*) over (partition by q.type_slug)::int as type_n
+                   from (${ORG_SELECT} where o.status = 'active' and (f.path <@ ${path}::ltree or p.path <@ ${path}::ltree)) q) y
+    where y.rn <= ${per} order by y.type_slug, y.rn`;
+
 export const getOrgsOfType = (typeSlug: string, limit = 2000) =>
   sql<OrgRow[]>`${ORG_SELECT} where o.status = 'active' and t.slug = ${typeSlug} order by coalesce(f.name_lat, p.name_lat, ''), o.name_lat limit ${limit}`;
 
@@ -110,7 +121,9 @@ export const getOrgsOfType = (typeSlug: string, limit = 2000) =>
 export type TypeFilter = { q?: string | null; jls?: string | null; facetKey?: string | null; facet?: string | null };
 const reEsc = (v: string) => v.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 const typeFilter = (o: TypeFilter) => sql`
-  ${o.jls ? sql`and exists (select 1 from territorial_units j where j.slug = ${o.jls} and j.level = 'jls' and coalesce(p.path, f.path) <@ j.path)` : sql``}
+  ${o.jls ? (o.jls.includes("/")  // "city/city-municipality"
+      ? sql`and exists (select 1 from territorial_units g join territorial_units c on c.id = g.parent_id where g.slug = ${o.jls.split("/")[1]} and c.slug = ${o.jls.split("/")[0]} and g.level = 'gradska_opstina' and coalesce(p.path, f.path) <@ g.path)`
+      : sql`and exists (select 1 from territorial_units j where j.slug = ${o.jls} and j.level = 'jls' and coalesce(p.path, f.path) <@ j.path)`) : sql``}
   ${o.q ? sql`and f_unaccent(lower(o.name_lat)) like '%' || f_unaccent(lower(${o.q})) || '%'` : sql``}
   ${o.facet && o.facetKey ? sql`and o.description_md ~* ${`${o.facetKey}:[^\\n]*${reEsc(o.facet)}`}` : sql``}`;
 const TYPE_JOINS = sql`from organizations o join org_types t on t.id = o.org_type_id

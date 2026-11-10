@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import { Header, Footer } from "@/components/chrome";
 import { Home, OkrugHub, UnitHub, OrgTypeHub, OrgPage, SearchPage, ForForeigners, StaticPage, tuLabel } from "@/components/pages";
 import { GuidesHub, GuidePage, GUIDE_LABELS, content as guideContent } from "@/components/guides";
@@ -94,7 +94,11 @@ export default async function Page({ params, searchParams }: Props) {
     case "country": body = <CountryPage locale={locale} country={r.country} />; break;
     case "guide": { const fromQuery = typeof sp.opstina === "string" ? sp.opstina : null; const fromCookie = fromQuery ? null : ((await cookies()).get("opstina")?.value ?? null);
       body = <GuidePage locale={locale} guide={r.guide} jlsSlug={fromQuery ?? fromCookie} path={href(locale, plain)} />; break; }
-    case "okrug": body = <OkrugHub locale={locale} okrug={r.unit} />; break;
+    case "okrug": {
+      // a district that is one city (Grad Beograd) has nothing of its own to show: go straight to the city and its municipalities
+      const inside = await db.getJlsInOkrug(r.unit.id);
+      if (inside.length === 1) redirect(href(locale, `/${inside[0].slug}`));
+      body = <OkrugHub locale={locale} okrug={r.unit} />; break; }
     case "unit": body = <UnitHub locale={locale} unit={r.unit} parent={r.parent} />; break;
     case "type": body = <OrgTypeHub locale={locale} type={r.type} brand={typeof sp.brend === "string" ? sp.brend : null} place={typeof sp.mesto === "string" && sp.mesto ? sp.mesto : null} query={{ q: typeof sp.q === "string" ? sp.q : null, facet: typeof sp.oblast === "string" ? sp.oblast : null, page: typeof sp.strana === "string" ? Number.parseInt(sp.strana, 10) || 1 : 1 }} />; break;
     case "org": body = <OrgPage locale={locale} org={r.org} locSlug={r.locSlug} path={href(locale, plain)} />; break;

@@ -87,6 +87,8 @@ const MAP_LABELS: Record<Locale, MapLabels> = {
 export async function Home({ locale }: { locale: Locale }) {
   const d = t(locale);
   const [okruzi, allJls, types, stats, guides] = await Promise.all([db.getOkruzi(), db.getMapUnits(), db.getOrgTypes(), db.getStats(), db.getGuides()]);
+  // a district that is one city (Grad Beograd) opens the city itself, where its municipalities are
+  const okrugHref = (o: { slug: string; jls_count: number }) => { const only = o.jls_count === 1 ? allJls.find((j) => j.okrug_slug === o.slug && j.level === "jls") : null; return href(locale, only ? `/${only.slug}` : `/okrug/${o.slug}`); };
   const topGuides = [...guides].sort((a, b) => (a.status === "full" ? 0 : 1) - (b.status === "full" ? 0 : 1) || a.sort_order - b.sort_order).slice(0, 6);
   const mapLabels = MAP_LABELS[locale];
   const byGroup = GROUPS.map((g) => ({ g, types: types.filter((x) => x.group === g && x.org_count > 0) }));
@@ -132,7 +134,7 @@ export async function Home({ locale }: { locale: Locale }) {
               </div>
             </div>
             <MapStage locale={locale} labels={L3D[locale]} hint={L3D[locale].hint} cls="is-hero" padTop={64} padBottom={22}
-                      features={OKRUG_SHAPES.flatMap((s) => { const o = okruzi.find((x) => x.slug === s.slug); return o ? [{ key: s.slug, d: s.d, cx: s.cx, cy: s.cy, bbox: s.bbox, name: o.name_lat, sub: o.seat_name_lat ?? undefined, label: o.seat_name_lat ?? o.name_lat, count: o.org_count, href: href(locale, `/okrug/${o.slug}`),
+                      features={OKRUG_SHAPES.flatMap((s) => { const o = okruzi.find((x) => x.slug === s.slug); return o ? [{ key: s.slug, d: s.d, cx: s.cx, cy: s.cy, bbox: s.bbox, name: o.name_lat, sub: o.seat_name_lat ?? undefined, label: o.seat_name_lat ?? o.name_lat, count: o.org_count, href: okrugHref(o),
                         stats: [{ v: o.org_count.toLocaleString("sr-Latn"), l: d.institutions }, { v: `${o.jls_count}${o.go_count ? ` + ${o.go_count}` : ""}`, l: d.municipalities }] } satisfies Feature3D] : []; })}
                       fallback={<SerbiaMap key="map-2d" okruzi={okruzi.map((o) => ({ slug: o.slug, name_lat: o.name_lat, seat_name_lat: o.seat_name_lat, jls_count: o.jls_count, go_count: o.go_count, org_count: o.org_count }))}
                                            jls={allJls.map((j) => ({ slug: j.slug, name_lat: j.name_lat, okrug_slug: j.okrug_slug, org_count: j.org_count, jls_kind: j.jls_kind, level: j.level, parent_slug: j.parent_slug }))}
@@ -203,7 +205,7 @@ export async function Home({ locale }: { locale: Locale }) {
                 <div><h2 className="display-sm">{mapTitle}</h2></div>
               </div>
               <ul className="okrug-tiles">
-                {okruzi.map((o) => <li key={o.id}><Link href={href(locale, `/okrug/${o.slug}`)} className="okrug-tile plinth"><span>{o.name_lat}</span><span className="n tabular">{o.org_count}</span></Link></li>)}
+                {okruzi.map((o) => <li key={o.id}><Link href={okrugHref(o)} className="okrug-tile plinth"><span>{o.name_lat}</span><span className="n tabular">{o.org_count}</span></Link></li>)}
               </ul>
             </div>,
           ]}
@@ -320,8 +322,15 @@ export async function OkrugHub({ locale, okrug }: { locale: Locale; okrug: db.TU
 export async function UnitHub({ locale, unit, parent }: { locale: Locale; unit: db.TU; parent: db.TU | null }) {
   const d = t(locale);
   const VITAL_TYPES = ["opstinska-uprava", "gradska-uprava", "uprava-gradske-opstine", "lokalna-poreska-administracija", "maticna-sluzba", "dom-zdravlja", "opsta-bolnica", "jkp-vodovod", "eps-distribucija", "jkp-toplana", "jkp-gas", "jkp-cistoca", "jkp-parking-servis", "centar-za-socijalni-rad", "nsz"];
-  const [orgs, gos, ancestors, types, vital] = await Promise.all([db.getOrgsInUnit(unit.path), unit.level === "jls" ? db.getChildrenGO(unit.id) : Promise.resolve([]), db.getAncestors(unit.path), db.getOrgTypes(), db.getVitalForUnit(unit.path, VITAL_TYPES)]);
-  const okrug = ancestors.find((a) => a.level === "okrug");
+  // Big cities hold thousands of institutions: the page shows every type that is small here in full and one tile per
+  // large type (with its count) that opens the filtered, paged list. Nothing is listed by the thousand.
+  const PER_TYPE = 12;
+  const [orgs, unitTotal, gos, ancestors, types, vital] = await Promise.all([db.getOrgsInUnitTop(unit.path, PER_TYPE), db.countOrgsInUnit(unit.path), unit.level === "jls" ? db.getChildrenGO(unit.id) : Promise.resolve([]), db.getAncestors(unit.path), db.getOrgTypes(), db.getVitalForUnit(unit.path, VITAL_TYPES)]);
+  const typeN = new Map<string, number>(); for (const o of orgs) typeN.set(o.type_slug, o.type_n);
+  const typeBy = new Map(types.map((x) => [x.slug, x]));
+  const placeParam = unit.level === "gradska_opstina" && parent ? `${parent.slug}/${unit.slug}` : unit.slug;
+  const okrugAll = ancestors.find((a) => a.level === "okrug");
+  const okrug = okrugAll && /^Grad\s/.test(okrugAll.name_lat) ? undefined : okrugAll; // a one-city district (Grad Beograd) is the city itself: no separate step
   const national = types.filter((x) => x.national_network);
   const serving = await Promise.all(national.map((x) => db.getServingLocations(unit.level === "jls" ? unit.id : (parent?.id ?? unit.id), x.slug).then((r) => ({ type: x, rows: r }))));
   const path = unit.level === "gradska_opstina" && parent ? `/${parent.slug}/${unit.slug}` : `/${unit.slug}`;
@@ -333,7 +342,7 @@ export async function UnitHub({ locale, unit, parent }: { locale: Locale; unit: 
       <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, ...(okrug ? [{ href: href(locale, `/okrug/${okrug.slug}`), label: okrug.name_lat }] : []), ...(parent ? [{ href: href(locale, `/${parent.slug}`), label: parent.name_lat }] : []), { label: unit.name_lat }]} />
       <div className="eyebrow mt-4">{unit.level === "gradska_opstina" ? d.gradskaOpstina : unit.jls_kind === "grad" ? d.city : d.municipality}{okrug && unit.level === "jls" ? ` · ${okrug.name_lat}` : ""}</div>
       <LandmarkHead id={unit.level === "gradska_opstina" && parent ? `${parent.slug}/${unit.slug}` : unit.slug} fallbackTitle={unit.level === "gradska_opstina" ? d.gradskaOpstina : unit.jls_kind === "grad" ? d.city : d.municipality} locale={locale}><h1 className="display-sm text-[34px] sm:text-[44px]">{tuLabel(unit)}</h1></LandmarkHead>
-      <p className="text-muted mt-3 tabular lede">{orgs.length.toLocaleString("sr-Latn")} {d.institutions}{unit.website ? <> · <a href={unit.website} rel="noopener">{d.website} ↗</a></> : null}</p>
+      <p className="text-muted mt-3 tabular lede">{unitTotal.toLocaleString("sr-Latn")} {d.institutions}{unit.website ? <> · <a href={unit.website} rel="noopener">{d.website} ↗</a></> : null}</p>
       <div className="mt-5"><SearchBox locale={locale} large placeholder="" submitLabel={d.search} scope={{ slug: unit.slug, label: unit.name_lat }} /></div>
       </div>
       {(() => {
@@ -344,14 +353,14 @@ export async function UnitHub({ locale, unit, parent }: { locale: Locale; unit: 
         const goBy = Object.fromEntries(gos.map((g) => [g.slug, g]));
         const feats: Feature3D[] = goShapes.length && gos.length
           ? goShapes.flatMap((g) => { const row = goBy[g.slug]; return row ? [{ key: `${citySlug}/${g.slug}`, d: g.d, cx: g.cx, cy: g.cy, bbox: g.bbox, name: row.name_lat, sub: d.gradskaOpstina, count: row.org_count, href: href(locale, `/${citySlug}/${g.slug}`), stats: [{ v: row.org_count.toLocaleString("sr-Latn"), l: d.institutions }] }] : []; })
-          : [{ key: unitShape.slug, d: unitShape.d, cx: unitShape.cx, cy: unitShape.cy, bbox: unitShape.bbox, name: unit.level === "gradska_opstina" && parent ? parent.name_lat : unit.name_lat, sub: unit.jls_kind === "grad" ? d.city : d.municipality, count: orgs.length, href: href(locale, `/${citySlug}`), stats: [{ v: orgs.length.toLocaleString("sr-Latn"), l: d.institutions }] }];
+          : [{ key: unitShape.slug, d: unitShape.d, cx: unitShape.cx, cy: unitShape.cy, bbox: unitShape.bbox, name: unit.level === "gradska_opstina" && parent ? parent.name_lat : unit.name_lat, sub: unit.jls_kind === "grad" ? d.city : d.municipality, count: unitTotal, href: href(locale, `/${citySlug}`), stats: [{ v: unitTotal.toLocaleString("sr-Latn"), l: d.institutions }] }];
         const ctx = JLS_SHAPES.filter((s) => s.okrug === unitShape.okrug && s.slug !== citySlug).map((s) => ({ key: s.slug, d: s.d }));
         const b = unitShape.bbox; const padx = (b[2] - b[0]) * .35, pady = (b[3] - b[1]) * .35;
-        return <MapStage locale={locale} labels={L3D[locale]} cls="is-hub" features={feats} context={ctx} fit={[b[0] - padx, b[1] - pady, b[2] + padx, b[3] + pady]} />;
+        return <MapStage locale={locale} labels={{ ...L3D[locale], hint: L3D[locale].hintUnits }} cls="is-hub" features={feats} context={ctx} fit={[b[0] - padx, b[1] - pady, b[2] + padx, b[3] + pady]} />;
       })()}
       </div></section>
       <div className="shell py-6">
-      <VitalBlock locale={locale} vital={vital} police={serving.find((s) => s.type.slug === "mup-policijska-uprava")?.rows ?? []} counts={{ os: orgs.filter((o) => o.type_slug === "osnovna-skola").length, ss: orgs.filter((o) => o.type_slug === "srednja-skola").length, pu: orgs.filter((o) => o.type_slug === "predskolska-ustanova").length, apoteke: orgs.filter((o) => o.type_slug === "apoteka").length }} />
+      <VitalBlock locale={locale} vital={vital} police={serving.find((s) => s.type.slug === "mup-policijska-uprava")?.rows ?? []} counts={{ os: typeN.get("osnovna-skola") ?? 0, ss: typeN.get("srednja-skola") ?? 0, pu: typeN.get("predskolska-ustanova") ?? 0, apoteke: typeN.get("apoteka") ?? 0 }} />
       <AdSlot code="jls_top_leaderboard" w={728} h={90} mobileH={100} label={d.ad} />
       <div className="grid lg:grid-cols-[minmax(0,1fr)_300px] gap-8 items-start">
         <div>
@@ -367,10 +376,15 @@ export async function UnitHub({ locale, unit, parent }: { locale: Locale; unit: 
             </section>
           )}
           {GROUPS.map((g, i) => {
-            const list = orgs.filter((o) => o.group === g);
-            if (!list.length && g !== "republicki_organi") return null;
-            const mz = g === "lokalna_samouprava" ? list.filter((o) => o.type_slug === "mesna-zajednica") : [];
-            const main = g === "lokalna_samouprava" ? list.filter((o) => o.type_slug !== "mesna-zajednica") : list;
+            const inGroup = orgs.filter((o) => o.group === g);
+            if (!inGroup.length && g !== "republicki_organi") return null;
+            const slugs = [...new Set(inGroup.map((o) => o.type_slug))].sort((a, b) => (typeBy.get(a)?.sort_order ?? 999) - (typeBy.get(b)?.sort_order ?? 999));
+            const groupTotal = slugs.reduce((n, sl) => n + (typeN.get(sl) ?? 0), 0);
+            const bigTypes = slugs.filter((sl) => (typeN.get(sl) ?? 0) > PER_TYPE);
+            const small = inGroup.filter((o) => o.type_n <= PER_TYPE).sort((a, b) => (typeBy.get(a.type_slug)?.sort_order ?? 999) - (typeBy.get(b.type_slug)?.sort_order ?? 999) || a.name_lat.localeCompare(b.name_lat, "sr-Latn"));
+            const list = { length: groupTotal };
+            const mz = g === "lokalna_samouprava" ? small.filter((o) => o.type_slug === "mesna-zajednica") : [];
+            const main = g === "lokalna_samouprava" ? small.filter((o) => o.type_slug !== "mesna-zajednica") : small;
             return (
               <section key={g} className="mb-8" data-reveal data-fx="flip">
                 <SectionTitle id={g}><span className="inline-flex items-center gap-2.5"><Glyph3D icon={GROUP_GLYPH[g]} size={34} /> {d.groups[g]} {(g === "republicki_organi" ? list.length + serving.length : list.length) > 0 && <span className="text-muted font-normal text-[14px] tabular">{g === "republicki_organi" ? list.length + serving.length : list.length}</span>}</span></SectionTitle>
@@ -386,7 +400,17 @@ export async function UnitHub({ locale, unit, parent }: { locale: Locale; unit: 
                     ))}
                   </ul>
                 )}
-                <OrgList orgs={main} locale={locale} />
+                {main.length > 0 && <OrgList orgs={main} locale={locale} />}
+                {bigTypes.length > 0 && (
+                  <ul className={`type-tiles ${main.length ? "mt-3" : ""}`}>
+                    {bigTypes.map((sl) => { const ty = typeBy.get(sl); const n = typeN.get(sl) ?? 0; return (
+                      <li key={sl}><a href={`${href(locale, `/${sl}`)}?mesto=${placeParam}#lista`} className="type-tile card card-hover no-underline text-ink">
+                        <Glyph3D icon={emblemFor(sl, ty?.icon)} size={44} className="type-tile-img" />
+                        <span className="min-w-0"><span className="type-tile-name">{ty ? tn(ty, locale) : sl}</span><span className="type-tile-sub">{unit.name_lat}</span></span>
+                        <span className="type-tile-n tabular">{n.toLocaleString("sr-Latn")} →</span>
+                      </a></li>); })}
+                  </ul>
+                )}
                 {mz.length > 0 && (
                   <details className="mt-3 card p-3.5"><summary className="cursor-pointer font-medium text-[14px]">Mesne zajednice <span className="text-muted tabular font-normal">({mz.length})</span></summary>
                     <ul className="mt-3 columns-2 sm:columns-3 gap-4 text-[13px]">{mz.map((o) => <li key={o.id} className="break-inside-avoid"><Link href={orgHref(locale, o)}>{o.name_lat.replace(/^Mesna zajednica\s+/i, "")}</Link></li>)}</ul></details>
@@ -399,8 +423,7 @@ export async function UnitHub({ locale, unit, parent }: { locale: Locale; unit: 
         <aside className="lg:sticky lg:top-20 grid gap-5">
           <SponsorCard label={d.sponsor} sponsor={null} compact />
           <div className="card p-4 text-[13.5px]">
-            <div className="eyebrow mb-2">{d.okrug}</div>
-            {okrug && <Link href={href(locale, `/okrug/${okrug.slug}`)} className="font-medium">{okrug.name_lat}</Link>}
+            {okrug && <><div className="eyebrow mb-2">{d.okrug}</div><Link href={href(locale, `/okrug/${okrug.slug}`)} className="font-medium">{okrug.name_lat}</Link></>}
             {unit.seat_name_lat && unit.level === "jls" && <div className="text-muted mt-2">{d.seat}: {unit.seat_name_lat}</div>}
             <div className="text-muted mt-2">{locale === "sr" ? "Ovu stranicu možete deliti: " : "Share: "}<span className="font-mono text-[12px] break-all">{path}</span></div>
           </div>
@@ -441,20 +464,25 @@ export async function OrgTypeHub({ locale, type, brand = null, place = null, que
   const d = t(locale);
   // Very large types are filtered and paged on the server instead of listing thousands of rows on one page.
   const total = await db.countOrgsOfType(type.slug);
-  const paged = !type.national_network && total > PAGED_FROM;
   const facetDef = TYPE_FACET[type.slug] ?? null;
   const filter: db.TypeFilter = { q: query.q?.trim().slice(0, 60) || null, jls: place, facetKey: facetDef?.key ?? null, facet: facetDef ? (query.facet?.trim().slice(0, 80) || null) : null };
   const filtered = !!(filter.q || filter.jls || filter.facet);
-  const [matchCount, placeOptions, facetValues] = paged
-    ? await Promise.all([filtered ? db.countOrgsOfType(type.slug, filter) : Promise.resolve(total), db.getPlacesOfType(type.slug), facetDef ? db.getFacetValues(type.slug, facetDef.key) : Promise.resolve([] as { v: string; n: number }[])])
-    : [total, [] as { slug: string; name_lat: string; n: number }[], [] as { v: string; n: number }[]];
+  const big = !type.national_network && total > PAGED_FROM;
+  const allOrgs = big ? [] : await db.getOrgsOfType(type.slug, 12000);
+  const chain = type.national_network || (allOrgs.length > 0 && allOrgs.every((o) => !o.place_name));
+  // paged list: always for big types; for a small type when a place or a name is asked for (a link from a city page), unless it is a chain (those filter their branches)
+  const paged = big || (filtered && !chain);
+  const [matchCount, placeOptions0, facetValues, goUnit] = paged
+    ? await Promise.all([filtered ? db.countOrgsOfType(type.slug, filter) : Promise.resolve(total), db.getPlacesOfType(type.slug), facetDef ? db.getFacetValues(type.slug, facetDef.key) : Promise.resolve([] as { v: string; n: number }[]), place?.includes("/") ? db.getTU(place.split("/")[1], "gradska_opstina") : Promise.resolve(null)])
+    : [total, [] as { slug: string; name_lat: string; n: number }[], [] as { v: string; n: number }[], null];
+  const placeOptions = place?.includes("/") ? [{ slug: place, name_lat: goUnit?.name_lat ?? place.split("/")[1], n: matchCount }, ...placeOptions0] : placeOptions0;
   // a page number past the end shows the last page, never an empty one
   const pageNo = Math.min(Math.max(1, Math.floor(query.page ?? 1)), Math.max(1, Math.ceil(matchCount / PAGE_SIZE)));
   const pageRows = paged ? await db.getOrgsOfTypePaged(type.slug, filter, PAGE_SIZE, (pageNo - 1) * PAGE_SIZE) : [];
-  const orgs = paged ? pageRows : await db.getOrgsOfType(type.slug, 12000);
+  const orgs = paged ? pageRows : allOrgs;
   // National networks (RFZO, PIO, Poreska uprava...) are one organization with many branches: list the branches by okrug.
   // Chains (national networks, banks, insurers) are few organisations with many branches and no primary seat: list the branches by district.
-  const branchMode = !paged && (type.national_network || (orgs.length > 0 && orgs.every((o) => !o.place_name)));
+  const branchMode = !paged && chain;
   const [branches, featured, typeGuides] = await Promise.all([branchMode ? db.getLocationsOfType(type.slug) : Promise.resolve([] as db.ServingRow[]), db.getFeatured(type.slug, null).catch(() => [] as db.FeaturedRow[]), db.getGuidesForType(type.slug).catch(() => [] as db.GuideRow[])]);
   const groups = new Map<string, db.OrgRow[]>();
   const OTHER = locale === "sr" ? "Ostalo" : locale === "en" ? "Other" : locale === "ru" ? "Прочее" : "Sonstige";
@@ -468,7 +496,7 @@ export async function OrgTypeHub({ locale, type, brand = null, place = null, que
   for (const b of shownBranches) { const k = place ? (b.jls_name_lat ?? "—") : (b.okrug_name_lat ?? "—"); byOkrug.set(k, [...(byOkrug.get(k) ?? []), b]); }
   const okrugKeys = [...byOkrug.keys()].sort((a, b) => a.localeCompare(b, "sr-Latn"));
   const count = branchMode ? branches.length : paged ? total : orgs.length;
-  const places = branchMode ? new Set(branches.map((b) => b.jls_slug)).size : paged ? placeOptions.length : keys.length;
+  const places = branchMode ? new Set(branches.map((b) => b.jls_slug)).size : paged ? placeOptions0.length : keys.length;
   let faq: { q: string; a: string }[] = [];
   try { const parsed = type.faq_md ? JSON.parse(type.faq_md) : []; if (Array.isArray(parsed)) faq = parsed.filter((x) => x && x.q && x.a); } catch { faq = []; }
   return (
