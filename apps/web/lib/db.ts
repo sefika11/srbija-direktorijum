@@ -252,3 +252,9 @@ export const getMissionsOfCountry = (nameSr: string) =>
     left join lateral (select value from location_contacts lc where lc.location_id = l.id and lc.kind = 'website' order by lc.id limit 1) w on true
     where o.status = 'active' and t.slug in ('ambasada', 'konzulat') and o.name_lat ilike ${"%– " + nameSr + "%"}
     order by t.slug, o.name_lat`;
+
+/** Country behind an embassy/consulate row: the name after the dash in "Ambasada – Nemačka" / "Počasni konzulat – Austrija (Novi Sad)". */
+export const getCountryByMissionName = async (orgName: string) => {
+  const m = orgName.match(/–\s*([^()]+?)(?:\s*\(|$)/); const n = m?.[1]?.trim(); if (!n) return null;
+  return (await sql<CountryRow[]>`select iso2, name_sr, name_en, slug, to_rs_regime, to_rs_stay, to_rs_conditions, to_rs_url, from_rs_regime, from_rs_stay, from_rs_passport, from_rs_requirements, from_rs_url, rs_mission_name, rs_mission_city, source_fetched_at::text from countries where name_sr = ${n} or name_en = ${n} limit 1`)[0] ?? null;
+};

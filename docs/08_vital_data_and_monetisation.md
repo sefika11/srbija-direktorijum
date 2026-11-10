@@ -80,3 +80,6 @@ Municipality page now opens with the **Vitalno** block: emergency numbers, fault
 
 ### Visa layer (2026-11-10)
 `countries` (patch 017) holds both directions of the regime per country from the MFA; `/vize` lists all countries by regime for entering Serbia, `/vize/<country>` shows the passport, both regimes, what to bring, the country's missions in Serbia (from the embassy rows) and the official MFA page. Monetisation hooks: translators, relocation, lawyers and insurance leads on the pages of countries with a visa requirement; affiliate for travel insurance on the outbound panel. Loader: `importers.jobs.load_countries`.
+
+### Social work centres and power branches (2026-11-10)
+146 rows (founded by the Republic, so missed by the municipality-keyed export) → 2 haiku agents: 48 centres now have a phone, 61 a website, 39 an institutional e-mail (<town>.csr@minrzs.gov.rs pattern). No central phone book exists: zavodsz.gov.rs only publishes a map layer without phones. Unresolved: about 60 centres with no site on the csr<town>.rs patterns, 8 Kosovo centres, and the 2 Kosovo power entities. The ministry e-mail pattern can be applied to every centre as a fallback contact.

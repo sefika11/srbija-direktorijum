@@ -14,6 +14,7 @@ import HeroFX from "./HeroFX";
 import Opener from "./Opener";
 import { Icon, GROUP_ICON } from "./icons";
 import Glyph3D from "./Glyph3D";
+import { Passport } from "./visa";
 const GROUP_GLYPH: Record<string, string> = { lokalna_samouprava: "building", republicki_organi: "landmark", javne_ustanove: "hospital", javna_preduzeca: "zap", pravosudje_i_javna_ovlascenja: "scale", privatne_usluge: "briefcase" };
 import { LeadForm, CorrectionBlock, ClaimBlock } from "./forms";
 import { GUIDE } from "@/lib/guide";
@@ -455,7 +456,7 @@ export async function OrgTypeHub({ locale, type }: { locale: Locale; type: db.Or
 // ---------------------------------------------------------------- Institution page (Part 2 layout)
 export async function OrgPage({ locale, org, locSlug, path }: { locale: Locale; org: db.OrgRow; locSlug?: string; path: string }) {
   const d = t(locale);
-  const [locations, children, vertical, types] = await Promise.all([db.getLocations(org.id), db.getOrgChildren(org.id), db.getVertical(org.type_slug), db.getOrgTypes()]);
+  const [locations, children, vertical, types, country] = await Promise.all([db.getLocations(org.id), db.getOrgChildren(org.id), db.getVertical(org.type_slug), db.getOrgTypes(), ["ambasada", "konzulat"].includes(org.type_slug) ? db.getCountryByMissionName(org.name_lat).catch(() => null) : Promise.resolve(null)]);
   const type = types.find((x) => x.slug === org.type_slug)!;
   const loc = (locSlug ? locations.find((l) => l.location_slug === locSlug) : null) ?? locations.find((l) => l.is_primary) ?? locations[0] ?? null;
   const ids = loc ? [loc.location_id] : [];
@@ -550,6 +551,14 @@ export async function OrgPage({ locale, org, locSlug, path }: { locale: Locale; 
           <AdSlot code="loc_bottom_leaderboard" w={728} h={90} mobileH={100} label={d.ad} />
         </div>
         <aside className="lg:sticky lg:top-20 grid gap-5">
+          {country && (
+            <Link href={href(locale, `/vize/${country.slug}`)} className="card p-4 no-underline text-ink flex items-center gap-4 card-hover spot">
+              <Passport iso2={country.iso2} name={locale === "sr" ? country.name_sr : country.name_en} size={64} label={locale === "sr" ? "PASOŠ" : "PASSPORT"} />
+              <span className="min-w-0"><span className="eyebrow plain">{locale === "sr" ? "Vize i uslovi ulaska" : locale === "en" ? "Visas and entry rules" : locale === "ru" ? "Визы и въезд" : "Visa und Einreise"}</span>
+                <span className="block font-serif text-[18px] font-semibold mt-1">{locale === "sr" ? country.name_sr : country.name_en} →</span>
+                <span className="block text-[12.5px] text-muted mt-1">{locale === "sr" ? "Ulazak u Srbiju" : "Entering Serbia"}: {country.to_rs_regime ?? "—"} · {locale === "sr" ? "iz Srbije" : "from Serbia"}: {country.from_rs_regime ?? "—"}</span></span>
+            </Link>
+          )}
           <SponsorCard label={d.sponsor} sponsor={null} compact />
           {jls && <div className="card p-4 text-[13.5px]"><div className="eyebrow mb-2">{d.otherUnits}</div><Link href={href(locale, `/${org.type_slug}`)}>{type.name_plural_lat ?? type.name_lat}</Link><div className="mt-1"><Link href={href(locale, `/${jls.slug}`)}>{d.allInstitutions} · {jls.name_lat}</Link></div>{okrug && <div className="mt-1"><Link href={href(locale, `/okrug/${okrug.slug}`)}>{okrug.name_lat}</Link></div>}</div>}
           <div className="hidden xl:block"><AdSlot code="loc_sidebar_programmatic" w={300} h={600} label={d.ad} /></div>
