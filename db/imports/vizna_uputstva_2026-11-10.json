@@ -1,0 +1,1753 @@
+{
+ "source": {
+  "generated": "2026-11-10",
+  "input": "vizni_rezim_2026-11-10.json",
+  "method": "MFA Serbia pages (mfa.gov.rs) plus foreign-state official pages where reachable: gov.uk, ustraveldocs.com/rs, canada.ca (via fetch), indianvisaonline.gov.in, k-eta.go.kr, welcometoserbia.gov.rs help page. Fees/processing are only filled when read on an official page or the MFA page; otherwise null. Schengen states are not listed because Serbian biometric passport holders are visa-free there (regime 'bez vize').",
+  "caveats": [
+   "Most non-priority rows rely solely on the Serbian MFA page; foreign embassy pages were not fetched for them",
+   "JavaScript portals (Thai e-visa, South Africa ETA, Saudi, Australia fees) could not be read, so no figures were invented",
+   "travel.state.gov and several .gov sites block automated access"
+  ],
+  "counts": {
+   "with_instructions": 92,
+   "null": 22
+  }
+ },
+ "to_serbia_general": {
+  "visa_c": {
+   "where": "Embassy or consulate of Serbia abroad (in person), or online through the foreigners' portal https://welcometoserbia.gov.rs (requires a registered eID account at www.eid.gov.rs). From 23 Apr 2025 Serbia also issues Digital Travel Authorizations (electronic visas) for nationals of countries enabled on the portal; otherwise a visa sticker. Only adults (18+) may use the portal; minors apply in person. For e-visa C the portal says a pickup appointment at the competent mission is needed.",
+   "documents": [
+    "Completed visa application form",
+    "Valid passport: valid at least 90 days after intended departure from Serbia, at least two consecutive blank pages, issued within the last 10 years",
+    "Photograph 3.5 x 4.5 cm",
+    "Proof of payment of the visa fee",
+    "Proof of purpose and reasons for stay",
+    "Invitation letter: private visit - invitation certified by competent Serbian authority; business - letter from a company in Serbia; tourist - travel agency confirmation of a paid arrangement (voucher or payment confirmation)",
+    "Valid travel medical insurance",
+    "Transit visa: visa of the destination state (or other proof of purpose)",
+    "Proof of sufficient funds and accommodation, and of intent to leave before visa expiry"
+   ],
+   "forms": [
+    {
+     "label": "Foreigners' portal (online visa application)",
+     "url": "https://welcometoserbia.gov.rs/"
+    },
+    {
+     "label": "Invitation letter - private individual (PDF)",
+     "url": "https://mfa.rs/sites/default/files/inline-files/pozivno_pismo_fiz_lice_1_.pdf"
+    },
+    {
+     "label": "Invitation letter form (DOCX, 14.10.2022)",
+     "url": "https://mfa.rs/sites/default/files/inline-files/FORMULAR%20POZIVNOG%20PISMA%20%28PL%29---14.10.2022.docx"
+    },
+    {
+     "label": "Check validity of a Digital Travel Authorization",
+     "url": "https://evisa.welcometoserbia.gov.rs/check-digital-travel-authorization"
+    }
+   ],
+   "exemptions": [
+    "Holders of national passports (not refugee/convention travel documents) with a valid Schengen visa, UK visa, visa of an EU member state or US visa may enter, transit and stay up to 90 days in any 6 months within the visa validity (Government decision of 30 Oct 2014)",
+    "Holders of foreign national passports with a residence permit in Schengen states, EU member states or the USA, same conditions",
+    "Entry with two passports allowed, e.g. an expired passport with a valid visa/residence permit plus a valid passport",
+    "Residence permit in the form of a separate card: the valid passport must also be presented",
+    "Fee exemption: holders of passports of China, Armenia, Mali and Syria by bilateral agreements (portal FAQ)"
+   ],
+   "source_url": "https://www.mfa.gov.rs/lat/gradjani/ulazak-u-srbiju/uslovi-za-vizu",
+   "fee": "EUR 90 (portal FAQ), paid in RSD at the National Bank of Serbia middle rate; embassies publish their own price lists in local/EUR/USD terms (examples seen: Doha EUR 95, Vienna EUR 93, Sarajevo EUR 60 + EUR 2 collection) so check the competent mission",
+   "processing": "Portal FAQ: if applied in person at the mission, visa C is issued the same day; if applied electronically, a pickup appointment at the mission must be booked. No general time limit stated by MFA.",
+   "validity": "Stay up to 90 days in any 180-day period from first entry; one, two or multiple entries; also for transit. Does not found a right to temporary residence."
+  },
+  "visa_d": {
+   "where": "Embassy or consulate of Serbia abroad (in person), or online through the foreigners' portal https://welcometoserbia.gov.rs (requires a registered eID account at www.eid.gov.rs). From 23 Apr 2025 Serbia also issues Digital Travel Authorizations (electronic visas) for nationals of countries enabled on the portal; otherwise a visa sticker. Only adults (18+) may use the portal; minors apply in person. For e-visa C the portal says a pickup appointment at the competent mission is needed.",
+   "documents": [
+    "Completed visa application form",
+    "Valid passport: valid at least 90 days after intended departure from Serbia, at least two consecutive blank pages, issued within the last 10 years",
+    "Photograph 3.5 x 4.5 cm",
+    "Proof of payment of the visa fee",
+    "Proof of purpose and reasons for stay",
+    "Invitation letter: private visit - invitation certified by competent Serbian authority; business - letter from a company in Serbia; tourist - travel agency confirmation of a paid arrangement (voucher or payment confirmation)",
+    "Valid travel medical insurance",
+    "Transit visa: visa of the destination state (or other proof of purpose)",
+    "Proof of sufficient funds and accommodation, and of intent to leave before visa expiry",
+    "For visa D additionally the documents the Law on Foreigners requires for temporary residence on the chosen ground (employment, study, family, etc.)"
+   ],
+   "forms": [
+    {
+     "label": "Foreigners' portal (online visa application)",
+     "url": "https://welcometoserbia.gov.rs/"
+    },
+    {
+     "label": "Invitation letter - private individual (PDF)",
+     "url": "https://mfa.rs/sites/default/files/inline-files/pozivno_pismo_fiz_lice_1_.pdf"
+    },
+    {
+     "label": "Invitation letter form (DOCX, 14.10.2022)",
+     "url": "https://mfa.rs/sites/default/files/inline-files/FORMULAR%20POZIVNOG%20PISMA%20%28PL%29---14.10.2022.docx"
+    },
+    {
+     "label": "Check validity of a Digital Travel Authorization",
+     "url": "https://evisa.welcometoserbia.gov.rs/check-digital-travel-authorization"
+    }
+   ],
+   "exemptions": [
+    "Holders of national passports (not refugee/convention travel documents) with a valid Schengen visa, UK visa, visa of an EU member state or US visa may enter, transit and stay up to 90 days in any 6 months within the visa validity (Government decision of 30 Oct 2014)",
+    "Holders of foreign national passports with a residence permit in Schengen states, EU member states or the USA, same conditions",
+    "Entry with two passports allowed, e.g. an expired passport with a valid visa/residence permit plus a valid passport",
+    "Residence permit in the form of a separate card: the valid passport must also be presented",
+    "Fee exemption: holders of passports of China, Armenia, Mali and Syria by bilateral agreements (portal FAQ)"
+   ],
+   "source_url": "https://www.mfa.gov.rs/lat/gradjani/ulazak-u-srbiju/uslovi-za-vizu",
+   "fee": "EUR 50 (portal FAQ), paid in RSD at NBS middle rate; embassy price lists differ (Doha EUR 65, Vienna EUR 53, Washington USD 54, Sarajevo EUR 30)",
+   "processing": "Not stated by MFA; depends on the Law on Foreigners documents for the chosen residence ground",
+   "validity": "Entry and stay of 90 to 180 days on grounds of employment, education, family reunification etc.; required before applying for temporary residence if visa regime applies"
+  }
+ },
+ "rows": [
+  {
+   "iso2": "AF",
+   "instructions": {
+    "where": "Afghan diplomatic missions (MFA Afghanistan consular page)",
+    "apply_url": "http://mfa.gov.af/en/page/consular-affairs/visa-information",
+    "appointment_url": null,
+    "documents": [],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "Document list and fee not published on the MFA page; the foreign state's own visa page was not retrieved in this pass. MFA only names the competent mission.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/avganistan"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "AO",
+   "instructions": {
+    "where": "Embassy of Angola in Belgrade or online https://www.smevisa.gov.ao/",
+    "apply_url": "http://www.smevisa.gov.ao/",
+    "appointment_url": null,
+    "documents": [
+     "Passport valid over 6 months"
+    ],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "Yellow card not mandatory since 26 Oct 2023.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/angola"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "AU",
+   "instructions": {
+    "where": "Online via ImmiAccount (paper possible); Australian embassy accredited from Canberra side; Serbian MFA gives no Belgrade office",
+    "apply_url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600/tourist-stream-overseas",
+    "appointment_url": null,
+    "documents": [
+     "Valid passport",
+     "Evidence of purpose, funds and ties; details listed in visa document checklist for subclass 600 (https://immi.homeaffairs.gov.au/help-text/eplus/Pages/elp-h1054.aspx)",
+     "Biometrics/health checks only if requested"
+    ],
+    "fee": "Fee not retrievable from static page (price loads dynamically); use Visa Pricing Estimator https://immi.homeaffairs.gov.au/visas/visa-pricing-estimator?visa=600",
+    "processing": "Use Home Affairs visa processing time guide tool",
+    "validity": "Tourist stream: stay up to 12 months (3, 6 or 12 months)",
+    "notes": "Visitor visa subclass 600 (Tourist stream, apply outside Australia). The page exposes the fee only dynamically; do not hard-code a figure.",
+    "source_url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600/tourist-stream-overseas"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "BD",
+   "instructions": null,
+   "reason": "MFA text covers health formalities only; no visa procedure published."
+  },
+  {
+   "iso2": "BF",
+   "instructions": null,
+   "reason": "MFA: visa required; no procedure published."
+  },
+  {
+   "iso2": "BH",
+   "instructions": {
+    "where": "E-visa portal",
+    "apply_url": "https://www.evisa.gov.bh",
+    "appointment_url": null,
+    "documents": [],
+    "fee": null,
+    "processing": "Usually 3 working days",
+    "validity": "Sponsor must hand original to traveller at border",
+    "notes": "Alternative: Bahrain embassy in Moscow (non-resident accreditation for Serbia): moscow.mission@mofa.gov.bh, tel +7 499 995 0900.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/bahrein"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "BI",
+   "instructions": {
+    "where": "Burundi embassy in Paris",
+    "apply_url": null,
+    "appointment_url": null,
+    "documents": [
+     "Yellow fever certificate",
+     "Passport valid 6 months"
+    ],
+    "fee": "USD 60 single entry; USD 70 multiple entry up to 90 days (amounts vary by mission)",
+    "processing": null,
+    "validity": null,
+    "notes": "Paris tel +33 1 4520 6061.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/burundi"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "BJ",
+   "instructions": {
+    "where": "Benin official e-visa site",
+    "apply_url": "https://www.evisa.gouv.bj",
+    "appointment_url": null,
+    "documents": [],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": null,
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/benin"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "BN",
+   "instructions": {
+    "where": "Brunei mission at the UN in New York",
+    "apply_url": null,
+    "appointment_url": null,
+    "documents": [],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "Document list and fee not published on the MFA page; the foreign state's own visa page was not retrieved in this pass. MFA only names the competent mission.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/bruneji"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "BO",
+   "instructions": {
+    "where": "Bolivian missions; nearest embassy Rome",
+    "apply_url": null,
+    "appointment_url": null,
+    "documents": [],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "Document list and fee not published on the MFA page; the foreign state's own visa page was not retrieved in this pass.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/bolivija"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "BS",
+   "instructions": null,
+   "reason": "MFA states only that Serbian passport holders need a visa; no procedure published."
+  },
+  {
+   "iso2": "BT",
+   "instructions": {
+    "where": "Only via Bhutan-registered tour operators",
+    "apply_url": "http://www.abto.org.bt/",
+    "appointment_url": null,
+    "documents": [
+     "Passport valid 6 months"
+    ],
+    "fee": "USD 40, usually included in package",
+    "processing": null,
+    "validity": null,
+    "notes": "Also https://www.tourism.gov.bt/",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/butan"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "BW",
+   "instructions": {
+    "where": "Botswana visa (not needed in airport transit zone)",
+    "apply_url": null,
+    "appointment_url": null,
+    "documents": [
+     "Passport valid 6 months, 2 blank pages"
+    ],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "Document list and fee not published on the MFA page; the foreign state's own visa page was not retrieved in this pass.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/bocvana"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "BZ",
+   "instructions": null,
+   "reason": "MFA states only that a visa is required; no procedure published."
+  },
+  {
+   "iso2": "CA",
+   "instructions": {
+    "where": "IRCC online application; documents and biometrics at the Visa Application Centre (VFS) Belgrade, Zorza Klemansoa 19, 5th floor, Stari grad, 11108 Belgrade (address per MFA page); tel +381 17 32 00 35, info.canseriom@vfshelpline.com",
+    "apply_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/apply-visitor-visa.html",
+    "appointment_url": "http://vfsglobal.ca/canada",
+    "documents": [
+     "Digital copy of valid passport (valid at least 6 months beyond planned travel)",
+     "Documents matching purpose (invitation letter, employer letter, business invitation, bank statements)",
+     "Proof of relationship to host where relevant; minors: travel authorization letter",
+     "Recommended: travel history, itinerary, 6 months of bank statements, employer letter dated within 3 months",
+     "Biometrics (fingerprints + photo): needed at first application, valid 10 years; exempt under 14 and over 79"
+    ],
+    "fee": "CAD 100 processing per person (CAD 500 family of 5+); biometrics CAD 85 per person (up to CAD 170 per family)",
+    "processing": "Standard time not stated on the IRCC page retrieved (IRCC publishes processing-time tool)",
+    "validity": "Up to 10 years or until passport/biometrics expire; officer may set a different expiry",
+    "notes": "Guide 5256 referenced by IRCC. Fee figures from IRCC page summary (WebFetch); VAC service fee is extra and not stated there.",
+    "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/apply-visitor-visa.html"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "CD",
+   "instructions": {
+    "where": "Embassy of DR Congo in Belgrade",
+    "apply_url": null,
+    "appointment_url": null,
+    "documents": [
+     "Yellow fever card"
+    ],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "Departure tax USD 55 at Kinshasa.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/kongo-demokratska-republika"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "CF",
+   "instructions": {
+    "where": "French Embassy in Belgrade (consular representation for CAR per MFA)",
+    "apply_url": null,
+    "appointment_url": null,
+    "documents": [
+     "Yellow fever card",
+     "Passport valid 6 months"
+    ],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "Document list and fee not published on the MFA page; the foreign state's own visa page was not retrieved in this pass.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/centralnoafricka-republika"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "CG",
+   "instructions": {
+    "where": "Embassy of Rep. of Congo in Rome",
+    "apply_url": null,
+    "appointment_url": null,
+    "documents": [],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "Document list and fee not published on the MFA page; the foreign state's own visa page was not retrieved in this pass. MFA only names the competent mission.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/kongo-republika"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "CI",
+   "instructions": null,
+   "reason": "MFA: visa required; no procedure published."
+  },
+  {
+   "iso2": "CM",
+   "instructions": null,
+   "reason": "MFA: visa required; no procedure published."
+  },
+  {
+   "iso2": "CU",
+   "instructions": {
+    "where": "Cuba e-visa portal",
+    "apply_url": "https://evisacuba.cu/en/",
+    "appointment_url": null,
+    "documents": [
+     "Passport valid 6+ months",
+     "Return air ticket",
+     "D'Viajeros form"
+    ],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": null,
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/kuba"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "CV",
+   "instructions": {
+    "where": "Embassy of Cabo Verde in Brussels",
+    "apply_url": null,
+    "appointment_url": null,
+    "documents": [],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "Document list and fee not published on the MFA page; the foreign state's own visa page was not retrieved in this pass. MFA only names the competent mission.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/kabo-verde"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "DJ",
+   "instructions": {
+    "where": "Djibouti e-visa portal (single entry)",
+    "apply_url": "https://www.evisa.gouv.dj",
+    "appointment_url": null,
+    "documents": [],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "Cash limit USD 5,000.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/dzibuti"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "DM",
+   "instructions": {
+    "where": "MFA text conflicts with regime flag",
+    "apply_url": null,
+    "appointment_url": null,
+    "documents": [],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "MFA text says no visa for stays up to 21 days; the structured regime is 'viza'. Verify with Dominica.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/dominika"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "DZ",
+   "instructions": {
+    "where": "Embassy of Algeria in Belgrade (no online e-visa, no visa on arrival)",
+    "apply_url": null,
+    "appointment_url": null,
+    "documents": [
+     "Passport valid 6 months"
+    ],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "Health insurance recommended, not mandatory.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/alzir"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "EG",
+   "instructions": {
+    "where": "E-visa portal / app or visa-on-arrival kiosks at international airports; also Egyptian embassies",
+    "apply_url": "https://apps.visaonarrival.gov.eg/en/home.html",
+    "appointment_url": null,
+    "documents": [
+     "Valid passport",
+     "QR-code e-visa shown in electronic or printed form with passport"
+    ],
+    "fee": "USD 36 (per MFA)",
+    "processing": "Not stated",
+    "validity": "Tourist visa valid 30 days; regime allows up to 90 days stay per MFA text",
+    "notes": "Overstay is fined.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/egipat"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "ER",
+   "instructions": {
+    "where": "Embassy of Eritrea in Rome",
+    "apply_url": null,
+    "appointment_url": null,
+    "documents": [],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "Document list and fee not published on the MFA page; the foreign state's own visa page was not retrieved in this pass. MFA only names the competent mission.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/eritreja"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "ET",
+   "instructions": {
+    "where": "Ethiopia e-visa portal (cheaper); alternatively Ethiopian embassy in Rome",
+    "apply_url": "https://www.evisa.gov.et/",
+    "appointment_url": null,
+    "documents": [
+     "Yellow fever certificate"
+    ],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "Cash over USD 3,000 must be declared.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/etiopija"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "FM",
+   "instructions": null,
+   "reason": "MFA page empty; regime flag absent."
+  },
+  {
+   "iso2": "GA",
+   "instructions": {
+    "where": "Gabon e-visa portal (arrival via Libreville Leon Mba airport only); Gabon embassy in Moscow accredited for Serbia",
+    "apply_url": "https://evisa.dgdi.ga/",
+    "appointment_url": null,
+    "documents": [
+     "Yellow fever certificate"
+    ],
+    "fee": null,
+    "processing": null,
+    "validity": "E-visa valid up to 6 months",
+    "notes": null,
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/gabon"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "GB",
+   "instructions": {
+    "where": "VFS Global visa application centre in Belgrade (biometrics + documents), after applying online with UKVI",
+    "apply_url": "https://visas-immigration.service.gov.uk/apply-visa-type/visit",
+    "appointment_url": "https://visa.vfsglobal.com/srb/en/gbr/attend-centre",
+    "documents": [
+     "Valid passport/travel document covering whole stay",
+     "Online application: travel dates, accommodation, estimated trip cost, home address, parents' names/dates of birth, yearly income",
+     "Maybe: 10-year travel history, employer details, partner passport details, sponsor details, UK family details, TB test certificate if >6 months",
+     "Biometrics (fingerprints + photo) at the VFS appointment",
+     "Supporting documents showing eligibility (funds, intention to leave); certified translation of non-English/Welsh documents"
+    ],
+    "fee": "Standard Visitor GBP 135 (6 months); medical GBP 234; academic GBP 234; long-term 2y GBP 506, 5y GBP 903, 10y GBP 1,128",
+    "processing": "Usually a decision within 3 weeks of applying, biometrics and documents",
+    "validity": "Standard Visitor stay up to 6 months; long-term visas 2/5/10 years, max 6 months per visit",
+    "notes": "Earliest application 3 months before travel. Serbian nationals need a visa, not an ETA (MFA page confirms). Source for centre: gov.uk find-a-visa-application-centre lists Serbia -> VFS.",
+    "source_url": "https://www.gov.uk/standard-visitor/apply-standard-visitor-visa"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "GH",
+   "instructions": {
+    "where": "Ghana e-Visa platform",
+    "apply_url": "https://evisa.immigration.gov.gh",
+    "appointment_url": null,
+    "documents": [
+     "Passport valid 6+ months",
+     "Supporting documents uploaded online",
+     "Yellow fever vaccination certificate"
+    ],
+    "fee": "USD 260 (per MFA)",
+    "processing": "Answer by email; QR code on approval",
+    "validity": null,
+    "notes": "Ebola-related monitoring: report travel through affected countries.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/gana"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "GM",
+   "instructions": null,
+   "reason": "MFA: visa required; commercial flights limited."
+  },
+  {
+   "iso2": "GN",
+   "instructions": {
+    "where": "Embassy of Guinea in Rome",
+    "apply_url": null,
+    "appointment_url": null,
+    "documents": [],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "Document list and fee not published on the MFA page; the foreign state's own visa page was not retrieved in this pass. MFA only names the competent mission.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/gvineja-republika"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "GQ",
+   "instructions": {
+    "where": "Embassy of Equatorial Guinea in Rome",
+    "apply_url": null,
+    "appointment_url": null,
+    "documents": [],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "Document list and fee not published on the MFA page; the foreign state's own visa page was not retrieved in this pass. MFA only names the competent mission.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/ekvatorijalna-gvineja"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "GT",
+   "instructions": {
+    "where": "Embassy of Guatemala in Rome",
+    "apply_url": null,
+    "appointment_url": null,
+    "documents": [
+     "Passport valid 6 months"
+    ],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "Valid US visa holders are exempt. USD 50 per day funds proof.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/gvatemala"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "GW",
+   "instructions": {
+    "where": "Embassy of Guinea-Bissau in Brussels",
+    "apply_url": null,
+    "appointment_url": null,
+    "documents": [],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "Document list and fee not published on the MFA page; the foreign state's own visa page was not retrieved in this pass. MFA only names the competent mission.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/gvineja-bisao"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "GY",
+   "instructions": null,
+   "reason": "MFA states only that a visa is required; no procedure published."
+  },
+  {
+   "iso2": "HN",
+   "instructions": {
+    "where": "Embassy of Honduras in Rome",
+    "apply_url": null,
+    "appointment_url": null,
+    "documents": [
+     "Passport valid 3 months"
+    ],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "Exit/entry fee USD 27; immigration form. Holders of valid US visa exempt from visa (similar to Guatemala).",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/honduras"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "HT",
+   "instructions": null,
+   "reason": "MFA: visa required, passport valid 6 months after visa expiry; no procedure published."
+  },
+  {
+   "iso2": "ID",
+   "instructions": {
+    "where": "Visa on Arrival at airport; Embassy of Indonesia in Belgrade page cited by MFA",
+    "apply_url": "https://www.kemlu.go.id/belgrade/en/pages/kunjungan_saat_kedataangan/360/about-service",
+    "appointment_url": null,
+    "documents": [
+     "All Indonesia digital arrival card (3 days before arrival): https://allindonesia.imigrasi.go.id/",
+     "Health declaration https://sshp.kemkes.go.id",
+     "Bali levy IDR 150,000 for foreigners"
+    ],
+    "fee": "USD 35 visa on arrival (per MFA)",
+    "processing": null,
+    "validity": "30 days; extension only with local immigration approval",
+    "notes": "Details from MFA text; embassy page not independently fetched.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/indonezija"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "IE",
+   "instructions": {
+    "where": "VFS Global visa centre Belgrade",
+    "apply_url": "https://visa.vfsglobal.com/srb/en/irl/apply-visa",
+    "appointment_url": null,
+    "documents": [],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "Diplomatic passport holders exempt; official passport holders need visa except when accompanying a minister on official visit. Visa required also for transit with travel document.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/irska"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "IL",
+   "instructions": {
+    "where": "ETA-IL online (Israel Population and Immigration Authority)",
+    "apply_url": "https://israel-entry.piba.gov.il/",
+    "appointment_url": null,
+    "documents": [
+     "Passport details, online form, payment"
+    ],
+    "fee": "NIS 25 (about EUR 6.75) per MFA",
+    "processing": "Not stated; submit at least 72 h before booking costs (MFA recommendation)",
+    "validity": "Approval valid 2 years; stay up to 90 days per visit",
+    "notes": "Regime eta since 1 Jan 2025. Serbian diplomatic/official passport holders exempt. MFA warns of rigorous border questioning.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/izrael"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "IN",
+   "instructions": {
+    "where": "Online e-Visa portal (Serbia is on the eligible list); regular visa via Embassy of India in Belgrade",
+    "apply_url": "https://indianvisaonline.gov.in/evisa/",
+    "appointment_url": "https://eoibelgrade.gov.in/eoibl_pages/NTUx",
+    "documents": [
+     "Passport bio-page scan: PDF 10-300 KB; passport valid at least 6 months with 2 blank pages",
+     "Photo: JPEG 10 KB-1 MB, square, white background, no glasses",
+     "Return/onward ticket and sufficient funds",
+     "Short courses/voluntary work: letter from organisation on letterhead"
+    ],
+    "fee": "Country-specific fee table is in a PDF on the portal (Etourist_fee_final.pdf); 3% bank charge on top; non-refundable",
+    "processing": "Email within 24 h if a document needs re-upload; decision time not stated on portal; apply at least 4 days before arrival (up to 120 days ahead)",
+    "validity": "e-Tourist visa: 30 days (multiple entry), 1 year or 5 years (max 180 days per calendar year per stay); e-T2 6 months",
+    "notes": "MFA states e-visa since 2016, no visa on arrival for Serbians. Embassy Belgrade pages (eoibelgrade.gov.in) hold consular details; the e-visa page text was not parsed for fees.",
+    "source_url": "https://indianvisaonline.gov.in/evisa/tvoa.html"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "IQ",
+   "instructions": {
+    "where": "Embassy of Iraq in Belgrade",
+    "apply_url": null,
+    "appointment_url": null,
+    "documents": [
+     "Passport valid 6 months at arrival and departure"
+    ],
+    "fee": "USD 50 single entry; USD 100 multiple entry (per MFA)",
+    "processing": null,
+    "validity": null,
+    "notes": "Registration with Iraqi MoI within 7 days of arrival; stays over 10 days need police residence stamp.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/irak"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "JM",
+   "instructions": {
+    "where": "Consulate of Jamaica, Dobracina 60, 11000 Belgrade, tel +381 11 334 0338, srbija@jamaicanconsulate.rs; or on arrival with proof of funds",
+    "apply_url": null,
+    "appointment_url": null,
+    "documents": [
+     "Passport valid 6 months after visa expiry",
+     "Proof of funds (USD 50 per day)",
+     "Return or onward ticket"
+    ],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "Holders of valid US, Canadian, UK or Schengen visa may enter and stay up to 30 days without a visa, with vaccination certificate (per MFA).",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/jamajka"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "JO",
+   "instructions": {
+    "where": "Jordanian embassies or at border; Jordan Gateway portal",
+    "apply_url": "https://www.gateway2jordan.gov.jo/index.html",
+    "appointment_url": null,
+    "documents": [
+     "Passport valid 6 months from entry"
+    ],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "Additional info https://international.visitjordan.com/page/4/visas-to-jordan",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/jordan"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "KE",
+   "instructions": {
+    "where": "Electronic Travel Authorization portal",
+    "apply_url": "https://www.etakenya.go.ke",
+    "appointment_url": null,
+    "documents": [
+     "Passport valid 6+ months with 1 blank page",
+     "Mandatory Kenyan travel health insurance since 5 Oct 2026 (90 days, bought only via eTA app or www.insurance.ecitizen.go.ke; foreign insurance not accepted)"
+    ],
+    "fee": "Not stated on pages retrieved",
+    "processing": "Apply at least 3 days before travel (up to 3 months ahead)",
+    "validity": null,
+    "notes": "Regime eta: no visa, ETA mandatory. Official portal home page gives no fee/validity text.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/kenija-republika"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "KH",
+   "instructions": {
+    "where": "Cambodia e-visa portal",
+    "apply_url": "https://www.evisa.gov.kh/",
+    "appointment_url": null,
+    "documents": [
+     "Arrival registration at www.arrival.gov.kh or Cambodia e-Arrival (CeA) app"
+    ],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": null,
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/kambodza"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "KI",
+   "instructions": null,
+   "reason": "MFA page empty; regime flag absent."
+  },
+  {
+   "iso2": "KM",
+   "instructions": {
+    "where": "Embassy of Comoros in Paris",
+    "apply_url": null,
+    "appointment_url": null,
+    "documents": [],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "Document list and fee not published on the MFA page; the foreign state's own visa page was not retrieved in this pass. MFA only names the competent mission.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/unija-komora"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "KP",
+   "instructions": null,
+   "reason": "MFA: borders closed to foreigners since the pandemic."
+  },
+  {
+   "iso2": "KR",
+   "instructions": {
+    "where": "K-ETA online (no visa for up to 90 days)",
+    "apply_url": "https://www.k-eta.go.kr",
+    "appointment_url": null,
+    "documents": [
+     "Passport details, application details, facial photo",
+     "Online payment"
+    ],
+    "fee": "KRW 10,000 (about USD 7-8); MFA: about EUR 7.5",
+    "processing": "Generally within 72 hours; apply at least 72 h before travel",
+    "validity": "Valid 3 years (per MFA); stay up to 90 days",
+    "notes": "Regime is eta: visa-free but K-ETA mandatory before boarding. Exempt per MFA: under 17 and over 65 at entry date, holders of Serbian diplomatic/official passports. Beware fake agencies (K-ETA warning).",
+    "source_url": "https://www.k-eta.go.kr/portal/guidanceeng/index.do"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "KW",
+   "instructions": null,
+   "reason": "MFA: visa needed, neither e-visa nor visa on arrival available; no embassy page retrieved."
+  },
+  {
+   "iso2": "LA",
+   "instructions": {
+    "where": "Lao e-visa portal, Laos embassies, or visa on arrival at Wattay airport / Lao-Thai Friendship Bridge 1",
+    "apply_url": "http://laoevisa.gov.la",
+    "appointment_url": null,
+    "documents": [
+     "Laos Digital Immigration Form at www.immigration.gov.la"
+    ],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": null,
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/laos"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "LB",
+   "instructions": {
+    "where": "On arrival at Lebanese border crossings (30 days)",
+    "apply_url": null,
+    "appointment_url": null,
+    "documents": [
+     "Passport valid 3 months"
+    ],
+    "fee": null,
+    "processing": null,
+    "validity": "30 days",
+    "notes": null,
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/liban"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "LC",
+   "instructions": null,
+   "reason": "MFA page empty; regime flag absent (covered non-residentially from Washington)."
+  },
+  {
+   "iso2": "LK",
+   "instructions": {
+    "where": "Tourist visa on arrival; Sri Lankan embassy Vienna for gratis/journalist visas",
+    "apply_url": null,
+    "appointment_url": null,
+    "documents": [
+     "Valid passport",
+     "Return ticket",
+     "Hotel booking"
+    ],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "Embassy Vienna: www.srilankaembassy.at; business visas via host in Sri Lanka.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/sri-lanka"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "LR",
+   "instructions": null,
+   "reason": "MFA: visa required; no procedure published."
+  },
+  {
+   "iso2": "LS",
+   "instructions": {
+    "where": "Lesotho visa (not needed in airport transit zone)",
+    "apply_url": null,
+    "appointment_url": null,
+    "documents": [
+     "Passport valid 6 months, 2 blank pages"
+    ],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "Document list and fee not published on the MFA page; the foreign state's own visa page was not retrieved in this pass.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/lesoto"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "LY",
+   "instructions": {
+    "where": "Libya e-visa platform (see MFA page)",
+    "apply_url": null,
+    "appointment_url": null,
+    "documents": [],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "MFA lists visa types A-G under Libyan law no. 6 of 1987.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/libija"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "MA",
+   "instructions": {
+    "where": "Embassy of Morocco in Belgrade",
+    "apply_url": null,
+    "appointment_url": null,
+    "documents": [
+     "Valid passport"
+    ],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "Diplomatic and official passport holders exempt.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/maroko"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "MG",
+   "instructions": {
+    "where": "Visa on arrival at international airports (up to 60 days, single entry), or e-visa portal / embassy in Rome",
+    "apply_url": "https://www.evisamada.gov.mg/en/",
+    "appointment_url": null,
+    "documents": [
+     "Yellow fever certificate if arriving from affected areas"
+    ],
+    "fee": null,
+    "processing": null,
+    "validity": "Up to 60 days",
+    "notes": null,
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/madagaskar"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "MH",
+   "instructions": {
+    "where": "Marshall Islands Immigration Service",
+    "apply_url": "https://rmiimmigration.org",
+    "appointment_url": null,
+    "documents": [],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "Document list and fee not published on the MFA page; the foreign state's own visa page was not retrieved in this pass. MFA only names the competent mission.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/marsalova-ostrva"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "ML",
+   "instructions": {
+    "where": "Embassy of Mali in Rome",
+    "apply_url": null,
+    "appointment_url": null,
+    "documents": [],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "Document list and fee not published on the MFA page; the foreign state's own visa page was not retrieved in this pass. MFA only names the competent mission.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/mali"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "MM",
+   "instructions": {
+    "where": "Embassy of Myanmar in Belgrade or e-visa portal",
+    "apply_url": "http://evisa.moip.gov.mm",
+    "appointment_url": null,
+    "documents": [
+     "Travel health insurance"
+    ],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "Strong earthquake 28 Mar 2025 in central region; scam job-offer warning from MFA.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/mjanmar"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "MN",
+   "instructions": null,
+   "reason": "MFA states only that a visa is required."
+  },
+  {
+   "iso2": "MR",
+   "instructions": {
+    "where": "Mauritania e-visa portal (e-visa mandatory since 5 Jan 2025)",
+    "apply_url": "https://anrpts.gov.mr",
+    "appointment_url": null,
+    "documents": [],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "Avoid overland entry from east/north-east.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/mauritanija"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "MU",
+   "instructions": {
+    "where": "Visa at border (up to 60 days)",
+    "apply_url": null,
+    "appointment_url": null,
+    "documents": [
+     "Return ticket",
+     "Proof of funds",
+     "Hotel booking or invitation",
+     "Passport valid 6 months, 2 blank pages"
+    ],
+    "fee": null,
+    "processing": null,
+    "validity": "Up to 60 days",
+    "notes": null,
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/mauricijus"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "MW",
+   "instructions": {
+    "where": "Malawi visa",
+    "apply_url": null,
+    "appointment_url": null,
+    "documents": [
+     "Passport valid 6 months, 2 blank pages"
+    ],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "Document list and fee not published on the MFA page; the foreign state's own visa page was not retrieved in this pass.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/malavi"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "MX",
+   "instructions": {
+    "where": "Embassy of Mexico in Belgrade",
+    "apply_url": null,
+    "appointment_url": null,
+    "documents": [
+     "Valid passport",
+     "Proof of purpose, hotel and return flight booking, sufficient funds (carried at entry)"
+    ],
+    "fee": "Free for non-lucrative stays (per MFA)",
+    "processing": null,
+    "validity": "Entry stamp grants up to 180 days",
+    "notes": "Visa not required for holders of permanent residence in Canada, USA, Japan, UK, Schengen, Pacific Alliance (Chile, Colombia, Peru) or valid multi-entry visas of Canada, USA, Japan, UK or Schengen.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/meksiko"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "MY",
+   "instructions": {
+    "where": "Embassy of Malaysia in Belgrade (weekdays 9:00-11:30) or eVisa online",
+    "apply_url": "https://malaysiavisa.imi.gov.my",
+    "appointment_url": null,
+    "documents": [
+     "Passport",
+     "Printed eVisa, boarding pass/ticket, proof of funds, confirmed return ticket, proof of paid accommodation",
+     "MDAC arrival registration 3 days before arrival: https://imigresen-online.imi.gov.my/mdac/main?registerMain"
+    ],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "eVisa cannot be applied for while in Malaysia, Singapore, Israel or North Korea: transit passengers leaving the airport transit zone at KUL need a visa beforehand. MFA hosts a guidance DOCX: https://www.mfa.gov.rs/sites/default/files/inline-files/Malezija.vize_.docx",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/malezija"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "MZ",
+   "instructions": {
+    "where": "Mozambique visa (not needed when staying in transit zone)",
+    "apply_url": null,
+    "appointment_url": null,
+    "documents": [
+     "Passport valid 6 months, 2 blank pages"
+    ],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "Document list and fee not published on the MFA page; the foreign state's own visa page was not retrieved in this pass.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/mozambik"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "NA",
+   "instructions": {
+    "where": "Visa-on-arrival portal or Namibian embassy Vienna",
+    "apply_url": "https://eservices.mhaiss.gov.na/visaonarrival",
+    "appointment_url": null,
+    "documents": [
+     "Passport valid 6 months, 2 blank pages"
+    ],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "Embassy site https://embnamibia.at/",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/namibija"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "NE",
+   "instructions": null,
+   "reason": "MFA: visa required; no procedure published."
+  },
+  {
+   "iso2": "NG",
+   "instructions": {
+    "where": "Embassy of Nigeria in Budapest",
+    "apply_url": null,
+    "appointment_url": null,
+    "documents": [],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "Document list and fee not published on the MFA page; the foreign state's own visa page was not retrieved in this pass. MFA only names the competent mission.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/nigerija"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "NI",
+   "instructions": {
+    "where": "Nicaragua e-visa platform; embassy Vienna",
+    "apply_url": "http://tramitesconsulares.mint.gob.ni",
+    "appointment_url": null,
+    "documents": [
+     "See guide PDF http://www.mint.gob.ni/wp-content/uploads/2026/02/InformativoVISA.V1.pdf"
+    ],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "Departure tax USD 43 may be included in air ticket.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/nikaragva"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "NP",
+   "instructions": {
+    "where": "Nepal Department of Immigration online form, visa issued on arrival at Kathmandu airport / border",
+    "apply_url": "http://www.nepalimmigration.gov.np/",
+    "appointment_url": null,
+    "documents": [
+     "Passport, passport photo with light background",
+     "Online application before travel"
+    ],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "TIMS card for trekking; yellow fever certificate only if from affected area.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/nepal"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "NR",
+   "instructions": {
+    "where": "See Nauru visa requirements page",
+    "apply_url": "http://www.nauru.gov.nr/about-nauru/visiting-nauru/visa-requirements.aspx",
+    "appointment_url": null,
+    "documents": [],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "Document list and fee not published on the MFA page; the foreign state's own visa page was not retrieved in this pass.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/nauru"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "NZ",
+   "instructions": {
+    "where": "New Zealand Immigration online",
+    "apply_url": "https://www.immigration.govt.nz/new-zealand-visas",
+    "appointment_url": null,
+    "documents": [],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "Serbia is covered non-residentially from Canberra; details on Immigration NZ site.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/novi-zeland"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "PG",
+   "instructions": {
+    "where": "PNG ICA visa on arrival information",
+    "apply_url": "https://ica.gov.pg/visa-information/visa-on-arrival",
+    "appointment_url": null,
+    "documents": [],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "Document list and fee not published on the MFA page; the foreign state's own visa page was not retrieved in this pass.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/papua-nova-gvineja"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "PH",
+   "instructions": {
+    "where": "Honorary Consulate of the Philippines in Belgrade or e-visa portal",
+    "apply_url": "https://evisa.gov.ph",
+    "appointment_url": "http://philippineconsulate.rs/vize/",
+    "documents": [
+     "eTravel registration https://etravel.gov.ph at latest 72 h before travel"
+    ],
+    "fee": null,
+    "processing": null,
+    "validity": "E-visa for tourist visit cannot be extended",
+    "notes": null,
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/filipini"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "PK",
+   "instructions": {
+    "where": "Embassy of Pakistan in Belgrade",
+    "apply_url": null,
+    "appointment_url": null,
+    "documents": [],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "Document list and fee not published on the MFA page; the foreign state's own visa page was not retrieved in this pass.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/pakistan"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "PS",
+   "instructions": null,
+   "reason": "MFA: entry via Israeli-controlled crossings; residence permits handled by Israel; no procedure published."
+  },
+  {
+   "iso2": "PW",
+   "instructions": null,
+   "reason": "MFA: tourist visa for 30 days issued on arrival, extendable; information at https://pristineparadisepalau.com/travelers-tips/ (not an official government page)."
+  },
+  {
+   "iso2": "PY",
+   "instructions": {
+    "where": "Paraguay embassy in Bern (recommended by MFA)",
+    "apply_url": null,
+    "appointment_url": null,
+    "documents": [
+     "Passport valid 6 months"
+    ],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "Minors travelling alone need legalised parental permission.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/paragvaj"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "QA",
+   "instructions": {
+    "where": "Hayya portal / app",
+    "apply_url": "https://www.hayya.qa",
+    "appointment_url": null,
+    "documents": [
+     "Passport valid 6 months from entry",
+     "Hotel reservation or accommodation confirmation (relatives via Qatari MoI / Metraash)",
+     "Mandatory health insurance bought online from approved Qatar insurers"
+    ],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "Transit through Hamad airport without leaving needs no visa.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/katar"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "RW",
+   "instructions": {
+    "where": "Rwanda Irembo single-entry visa portal or embassy Berlin",
+    "apply_url": "https://irembo.gov.rw/rolportal/web/dgie/single-entry-visa",
+    "appointment_url": null,
+    "documents": [],
+    "fee": "See Irembo price list",
+    "processing": null,
+    "validity": null,
+    "notes": "Embassy Berlin: info@rwanda-botschaft.de, tel +49 30 2091 6590.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/ruanda"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "SA",
+   "instructions": {
+    "where": "Saudi visa (MFA page gives no portal)",
+    "apply_url": null,
+    "appointment_url": null,
+    "documents": [
+     "Passport valid 6 months"
+    ],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "Transit without visa depends on airline agreements; low-cost carriers (e.g. Wizz Air) usually not allowed. Saudi portal was not retrievable (403). ",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/saudijska-arabija"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "SB",
+   "instructions": {
+    "where": "Solomon Islands immigration",
+    "apply_url": "https://www.commerce.gov.sb/departments-units/immigration/visas.html",
+    "appointment_url": null,
+    "documents": [],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "Document list and fee not published on the MFA page; the foreign state's own visa page was not retrieved in this pass.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/solomonska-ostrva"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "SD",
+   "instructions": {
+    "where": "Sudan embassy in Bucharest, with local sponsor/inviter applying in Sudan first",
+    "apply_url": null,
+    "appointment_url": null,
+    "documents": [
+     "Invitation by Sudanese citizen with personal guarantees"
+    ],
+    "fee": "USD 155 administrative fee (per MFA)",
+    "processing": "10-15 days",
+    "validity": null,
+    "notes": null,
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/sudan"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "SL",
+   "instructions": null,
+   "reason": "MFA: visa required; no procedure published."
+  },
+  {
+   "iso2": "SN",
+   "instructions": {
+    "where": "Embassy of Senegal in Berlin",
+    "apply_url": null,
+    "appointment_url": null,
+    "documents": [],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "Document list and fee not published on the MFA page; the foreign state's own visa page was not retrieved in this pass. MFA only names the competent mission.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/senegal"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "SO",
+   "instructions": {
+    "where": "Embassy of Somalia in Moscow",
+    "apply_url": null,
+    "appointment_url": null,
+    "documents": [],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "Document list and fee not published on the MFA page; the foreign state's own visa page was not retrieved in this pass. MFA only names the competent mission.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/somalija"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "SS",
+   "instructions": {
+    "where": "South Sudanese missions",
+    "apply_url": null,
+    "appointment_url": null,
+    "documents": [],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "Document list and fee not published on the MFA page; the foreign state's own visa page was not retrieved in this pass. MFA only names the competent mission.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/juzni-sudan"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "ST",
+   "instructions": {
+    "where": "Embassies of Sao Tome and Principe in Belgium or Portugal",
+    "apply_url": null,
+    "appointment_url": null,
+    "documents": [],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "Document list and fee not published on the MFA page; the foreign state's own visa page was not retrieved in this pass. MFA only names the competent mission.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/sao-tome-i-principe"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "SV",
+   "instructions": {
+    "where": "Embassy of El Salvador in Rome",
+    "apply_url": null,
+    "appointment_url": null,
+    "documents": [],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "Document list and fee not published on the MFA page; the foreign state's own visa page was not retrieved in this pass.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/el-salvador"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "SY",
+   "instructions": {
+    "where": "Embassy of Syria in Belgrade",
+    "apply_url": null,
+    "appointment_url": null,
+    "documents": [
+     "Passport valid 3 months"
+    ],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "Border visa formally possible but not reliable since 2011.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/sirija"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "TD",
+   "instructions": {
+    "where": "Embassy of Chad in Brussels",
+    "apply_url": null,
+    "appointment_url": null,
+    "documents": [],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "Document list and fee not published on the MFA page; the foreign state's own visa page was not retrieved in this pass. MFA only names the competent mission.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/cad"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "TG",
+   "instructions": {
+    "where": "Togo",
+    "apply_url": null,
+    "appointment_url": null,
+    "documents": [],
+    "fee": "Fee USD 60 (per MFA header)",
+    "processing": null,
+    "validity": null,
+    "notes": "Details not on MFA page.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/togo"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "TH",
+   "instructions": {
+    "where": "Thai e-Visa portal; Visa on Arrival for tourists (15 days); Serbian-language agency portal vizacentar.rs named by MFA; instructions in Serbian by email info@thaiconsulate.rs",
+    "apply_url": "https://www.thaievisa.go.th/",
+    "appointment_url": null,
+    "documents": [
+     "Approval email printed and shown at boarding and to immigration",
+     "Thailand Digital Arrival Card (TDAC) completed 3 days before arrival at https://tdac.immigration.go.th"
+    ],
+    "fee": null,
+    "processing": "Thai portal up to 30 days; vizacentar.rs about 5-7 working days (per MFA)",
+    "validity": "Visa on Arrival valid 15 days, single entry, not extendable",
+    "notes": "vizacentar.rs is a commercial intermediary named by MFA, not a state portal. Thai portal text could not be retrieved (JavaScript app).",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/tajland"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "TL",
+   "instructions": null,
+   "reason": "MFA page empty; regime flag absent (covered from Jakarta)."
+  },
+  {
+   "iso2": "TM",
+   "instructions": {
+    "where": "Turkmenistan embassies or visa at border/airport with an invitation letter certified by the State Migration Service",
+    "apply_url": null,
+    "appointment_url": null,
+    "documents": [
+     "Original/copy of certified invitation letter",
+     "Valid passport"
+    ],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": null,
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/turkmenistan"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "TN",
+   "instructions": {
+    "where": "Tunisian missions abroad for individual travellers; group tourists get visas on arrival with paid hotel voucher and confirmed return ticket",
+    "apply_url": null,
+    "appointment_url": null,
+    "documents": [
+     "Passport valid more than 3 months",
+     "Return ticket"
+    ],
+    "fee": null,
+    "processing": null,
+    "validity": "Stay up to 3 months",
+    "notes": null,
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/tunis"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "TO",
+   "instructions": {
+    "where": "Tonga immigration",
+    "apply_url": "https://www.revenue.gov.to/immigration-and-general-services",
+    "appointment_url": null,
+    "documents": [],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "Document list and fee not published on the MFA page; the foreign state's own visa page was not retrieved in this pass.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/tonga"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "TZ",
+   "instructions": {
+    "where": "Tanzania e-visa portal or embassy Rome",
+    "apply_url": "https://visa.immigration.go.tz/",
+    "appointment_url": null,
+    "documents": [
+     "Yellow fever certificate if arriving from endemic countries"
+    ],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": null,
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/tanzanija"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "UG",
+   "instructions": {
+    "where": "Uganda e-visa portal",
+    "apply_url": "https://visas.immigration.go.ug/",
+    "appointment_url": "https://visas.immigration.go.ug/#/help/visa",
+    "documents": [
+     "Documents listed on the help page; approval letter with barcode printed"
+    ],
+    "fee": "Single entry/transit USD 50; multi-entry 6 or 12 months USD 100; 2 years USD 200",
+    "processing": "2-3 working days",
+    "validity": "Per visa type",
+    "notes": "Yellow card no longer a visa condition since May 2026 but strongly recommended. Ugandan Embassy Rome: consular.rome@mofa.go.ug.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/uganda"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "US",
+   "instructions": {
+    "where": "U.S. Embassy Belgrade, Bulevar kneza Aleksandra Karadjordjevica 92, 11040 Belgrade (interview in person; Visa Appointment Service ustraveldocs Serbia)",
+    "apply_url": "https://ceac.state.gov/genniv/",
+    "appointment_url": "https://ustraveldocs.com/rs/en/step-4",
+    "documents": [
+     "Online form DS-160 (one per applicant incl. children); barcode confirmation page printed",
+     "Passport valid for the intended stay",
+     "Photo taken within last 6 months meeting U.S. photo requirements",
+     "Proof of payment of visa application fee",
+     "Appointment confirmation; ink-free fingerprints taken at interview (ages 14-79)",
+     "Supporting documents as asked at interview (purpose of travel, ties to home)"
+    ],
+    "fee": "USD 185 for B-1/B-2, C-1, D, F, I, J, M, T, TN/TD; USD 205 for H, L, O, P, Q, R, CW; USD 265 K; USD 315 E (non-refundable, per ustraveldocs Serbia, step 3). Additional fees may apply; check travel.state.gov.",
+    "processing": "Not published as a fixed figure; embassy advises applying at least 3 months before travel; expedited appointments for medical/funeral/urgent business/student cases via ustraveldocs.",
+    "validity": "Validity set by consular officer; no fixed period stated on the pages retrieved.",
+    "notes": "Apply at the embassy in country of residence or nationality. Serbia is not in the Visa Waiver Program. Presidential Proclamation 10998 restrictions apply to nationals of 39 countries (not Serbia). travel.state.gov blocked automated access, so fee amounts come from the ustraveldocs Serbia page.",
+    "source_url": "https://ustraveldocs.com/rs/en/step-3"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "VN",
+   "instructions": {
+    "where": "Vietnam e-visa portal",
+    "apply_url": "https://evisa.gov.vn/e-visa/foreigners",
+    "appointment_url": null,
+    "documents": [],
+    "fee": "USD 25 single entry; USD 50 multiple entry (per MFA); online payment, non-refundable",
+    "processing": null,
+    "validity": "Up to 90 days",
+    "notes": "Must enter through border gates designated by Vietnam.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/vijetnam"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "WS",
+   "instructions": {
+    "where": "Samoa immigration",
+    "apply_url": "http://mpmc.gov.ws/divisions/immigration/",
+    "appointment_url": null,
+    "documents": [],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "Document list and fee not published on the MFA page; the foreign state's own visa page was not retrieved in this pass.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/samoa"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "YE",
+   "instructions": null,
+   "reason": "MFA: advises against any travel; civil war, most embassies left Sana'a."
+  },
+  {
+   "iso2": "ZA",
+   "instructions": {
+    "where": "South African Department of Home Affairs ETA (Serbian passport holders arriving via OR Tambo, Cape Town, Lanseria, King Shaka)",
+    "apply_url": "https://eta.dha.gov.za/",
+    "appointment_url": null,
+    "documents": [
+     "Passport valid 6 months from planned entry",
+     "Online traveller form on SARS site no earlier than 24 h before flight: https://tools.sars.gov.za/sarsonlinequery/traveller"
+    ],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "Per MFA: visa needed; ETA available for those four airports only; ETA not valid for transit travel documents or work visas. Portal text could not be retrieved (JavaScript app).",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/juzna-afrika"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "ZM",
+   "instructions": {
+    "where": "Border or KAZA UNIVISA (Zambia/Zimbabwe)",
+    "apply_url": null,
+    "appointment_url": null,
+    "documents": [
+     "Passport valid 6 months, 2 blank pages"
+    ],
+    "fee": "KAZA UNIVISA USD 50",
+    "processing": null,
+    "validity": "KAZA UNIVISA up to 30 days",
+    "notes": "MFA text says visas are not required except for transit documents, while the MFA header says visa required but obtainable at the border: inconsistent on the MFA page itself.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/zambija"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "ZW",
+   "instructions": {
+    "where": "Zimbabwe visa (see MFA page)",
+    "apply_url": null,
+    "appointment_url": null,
+    "documents": [],
+    "fee": null,
+    "processing": null,
+    "validity": null,
+    "notes": "Document list and fee not published on the MFA page; the foreign state's own visa page was not retrieved in this pass.",
+    "source_url": "https://www.mfa.gov.rs/lat/gradjani/putovanje-u-inostranstvo/vize-i-informacije-o-drzavama/zimbabve"
+   },
+   "reason": null
+  }
+ ]
+}

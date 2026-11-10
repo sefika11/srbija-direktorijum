@@ -459,3 +459,21 @@ form[role="search"] input[type="search"]::-webkit-search-cancel-button, form[rol
 .visa-facts { display: flex; flex-wrap: wrap; gap: 6px 14px; } .visa-facts em { font-style: normal; }
 .visa-opening .pg { justify-items: center; }
 .visa-opening .pg-globe { max-width: 520px; }
+
+/* ---------- 25. Dark mode polish (the register in the dark: deeper panels, visible hairlines, lifted controls) ---------- */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { --line: #343743; --line-strong: #4b4f5c; --surface-2: #24262e; }
+}
+:root[data-theme="dark"] { --line: #343743; --line-strong: #4b4f5c; --surface-2: #24262e; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .sp-panel { background: color-mix(in oklab, #1e2027 94%, transparent); border-color: color-mix(in oklab, #fff 14%, transparent); box-shadow: 0 24px 60px -20px rgb(0 0 0 / .7); }
+  :root:not([data-theme="light"]) .sp-row.is-active { background: color-mix(in oklab, #fff 9%, transparent); }
+  :root:not([data-theme="light"]) .sp-ico { background: color-mix(in oklab, #fff 7%, transparent); }
+  :root:not([data-theme="light"]) .quick-chip { background: color-mix(in oklab, #fff 5%, transparent); }
+  :root:not([data-theme="light"]) .sp-kbd, :root:not([data-theme="light"]) .sp-foot kbd { background: color-mix(in oklab, #fff 6%, transparent); }
+  :root:not([data-theme="light"]) .m3-stage { background: radial-gradient(70% 60% at 50% 40%, #232a44 0%, #16171c 75%); border-color: #343743; }
+  :root:not([data-theme="light"]) .m3-dock, :root:not([data-theme="light"]) .map-chip, :root:not([data-theme="light"]) .m3-label::before { background: color-mix(in oklab, #1e2027 84%, transparent); }
+  :root:not([data-theme="light"]) .sp-title mark { background: color-mix(in oklab, var(--gold) 38%, transparent); color: #fff; }
+  :root:not([data-theme="light"]) .btn-primary { background: #ecebe6; color: #121317; } :root:not([data-theme="light"]) .btn-primary:hover { background: #fff; color: #121317; }
+  :root:not([data-theme="light"]) form[role="search"] button[type="submit"] { background: #ecebe6 !important; color: #121317 !important; }
+}
