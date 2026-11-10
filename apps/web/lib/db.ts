@@ -23,34 +23,45 @@ export const getTU = (slug: string, level: "jls" | "okrug" | "gradska_opstina") 
   sql<TU[]>`select id, slug, level, name_lat, name_cyr, official_name_lat, jls_kind, parent_id, path::text, seat_name_lat, okrug_seat, population_2022, website, in_kosovo
             from territorial_units where slug = ${slug} and level = ${level} and status = 'active' limit 1`.then((r) => r[0] ?? null);
 
+/**
+ * One rule for "how many institutions are in this unit", used by the map, the district tiles and the hub pages alike:
+ * active organizations founded by the unit (or a unit inside it) or seated inside it. It is the same rule as the list
+ * on the unit's own page (getOrgsInUnit), so the number on the map equals the number of rows the page shows.
+ */
+const orgsIn = (path: ReturnType<typeof sql>) => sql`
+  (select count(distinct x.id) from organizations x
+     left join territorial_units f on f.id = x.founder_unit_id
+     left join locations l on l.org_id = x.id and l.is_primary
+     left join territorial_units p on p.id = l.territorial_unit_id
+   where x.status = 'active' and (f.path <@ ${path} or p.path <@ ${path}))::int`;
+export const countOrgsInUnit = (path: string) => sql<{ n: number }[]>`select ${orgsIn(sql`${path}::ltree`)} as n`.then((r) => r[0]?.n ?? 0);
+
 export const getOkruzi = () =>
   sql<(TU & { jls_count: number; go_count: number; org_count: number })[]>`
     select o.id, o.slug, o.level, o.name_lat, o.name_cyr, o.official_name_lat, o.jls_kind, o.parent_id, o.path::text, o.seat_name_lat, o.okrug_seat, o.population_2022, o.website, o.in_kosovo,
            (select count(*) from territorial_units j where j.level = 'jls' and j.path <@ o.path)::int as jls_count,
            (select count(*) from territorial_units g where g.level = 'gradska_opstina' and g.path <@ o.path)::int as go_count,
-           (select count(*) from organizations x join territorial_units f on f.id = x.founder_unit_id where f.path <@ o.path and x.status = 'active')::int as org_count
+           ${orgsIn(sql`o.path`)} as org_count
     from territorial_units o where o.level = 'okrug' and not o.in_kosovo order by o.sort_order, o.name_lat`;
 
 export const getJlsInOkrug = (okrugId: number) =>
   sql<(TU & { org_count: number })[]>`
     select j.id, j.slug, j.level, j.name_lat, j.name_cyr, j.official_name_lat, j.jls_kind, j.parent_id, j.path::text, j.seat_name_lat, j.okrug_seat, j.population_2022, j.website, j.in_kosovo,
-           (select count(*) from organizations x join territorial_units f on f.id = x.founder_unit_id where f.path <@ j.path and x.status = 'active')::int as org_count
+           ${orgsIn(sql`j.path`)} as org_count
     from territorial_units j where j.level = 'jls' and j.parent_id = ${okrugId} order by j.okrug_seat desc, j.name_lat`;
 
 export const getAllJls = () =>
   sql<(TU & { okrug_slug: string; okrug_name: string; org_count: number })[]>`
     select j.id, j.slug, j.level, j.name_lat, j.name_cyr, j.official_name_lat, j.jls_kind, j.parent_id, j.path::text, j.seat_name_lat, j.okrug_seat, j.population_2022, j.website, j.in_kosovo,
            o.slug as okrug_slug, o.name_lat as okrug_name,
-           (select count(*) from organizations x join territorial_units f on f.id = x.founder_unit_id where f.path <@ j.path and x.status = 'active')::int as org_count
+           ${orgsIn(sql`j.path`)} as org_count
     from territorial_units j join territorial_units o on o.id = j.parent_id where j.level = 'jls' and not j.in_kosovo order by j.name_lat`;
 
 /** Municipalities and city districts for the map: JLS rows plus gradske opštine (with their city's slug). */
 export const getMapUnits = () =>
   sql<{ slug: string; name_lat: string; level: "jls" | "gradska_opstina"; jls_kind: "grad" | "opstina" | null; okrug_slug: string; parent_slug: string | null; org_count: number }[]>`
     select u.slug, u.name_lat, u.level::text as level, u.jls_kind, ok.slug as okrug_slug, case when u.level = 'gradska_opstina' then p.slug end as parent_slug,
-           case when u.level = 'gradska_opstina'
-                then (select count(distinct l.org_id) from locations l join territorial_units t on t.id = l.territorial_unit_id where t.path <@ u.path and l.status = 'active')
-                else (select count(*) from organizations x join territorial_units f on f.id = x.founder_unit_id where f.path <@ u.path and x.status = 'active') end::int as org_count
+           ${orgsIn(sql`u.path`)} as org_count
     from territorial_units u join territorial_units p on p.id = u.parent_id
     join territorial_units ok on ok.level = 'okrug' and ok.path @> u.path
     where u.level in ('jls','gradska_opstina') and not u.in_kosovo and u.status = 'active' order by u.level, u.name_lat`;
@@ -58,7 +69,7 @@ export const getMapUnits = () =>
 export const getChildrenGO = (jlsId: number) =>
   sql<(TU & { org_count: number })[]>`
     select g.id, g.slug, g.level, g.name_lat, g.name_cyr, g.official_name_lat, g.jls_kind, g.parent_id, g.path::text, g.seat_name_lat, g.okrug_seat, g.population_2022, g.website, g.in_kosovo,
-           (select count(*) from organizations x where x.founder_unit_id = g.id and x.status = 'active')::int as org_count
+           ${orgsIn(sql`g.path`)} as org_count
     from territorial_units g where g.level = 'gradska_opstina' and g.parent_id = ${jlsId} order by g.name_lat`;
 
 export const getAncestors = (path: string) =>
@@ -158,7 +169,7 @@ export const search = (q: string, limit = 30) => sql<SearchHit[]>`
 export const getStats = () =>
   sql<{ orgs: number; locations: number; jls: number; types: number }[]>`
     select (select count(*) from organizations where status = 'active')::int as orgs, (select count(*) from locations where status = 'active')::int as locations,
-           (select count(*) from territorial_units where level = 'jls' and not in_kosovo)::int as jls, (select count(*) from org_types where is_active)::int as types`.then((r) => r[0]);
+           (select count(*) from territorial_units where level = 'jls' and not in_kosovo)::int as jls, (select count(*) from org_types t where t.is_active and exists (select 1 from organizations o where o.org_type_id = t.id and o.status = 'active'))::int as types`.then((r) => r[0]);
 
 export const countOrgsByOkrug = () =>
   sql<{ slug: string; n: number }[]>`select o.slug, count(x.id)::int as n from territorial_units o

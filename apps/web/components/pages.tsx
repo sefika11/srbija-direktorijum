@@ -262,7 +262,7 @@ function VitalBlock({ locale, vital, police, counts }: { locale: Locale; vital: 
 // ---------------------------------------------------------------- Okrug hub
 export async function OkrugHub({ locale, okrug }: { locale: Locale; okrug: db.TU }) {
   const d = t(locale);
-  const jls = await db.getJlsInOkrug(okrug.id);
+  const [jls, okrugTotal] = await Promise.all([db.getJlsInOkrug(okrug.id), db.countOrgsInUnit(okrug.path)]);
   return (
     <main id="main">
       <HeroFX />
@@ -271,7 +271,7 @@ export async function OkrugHub({ locale, okrug }: { locale: Locale; okrug: db.TU
           <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, { label: okrug.name_lat }]} />
           <div className="eyebrow mt-4">{d.okrug}</div>
           <div className="hub-head-org"><EmblemStage emblem="townhall" title={d.okrug} size={200} cls="estage-org" /><h1 className="display-sm text-[34px] sm:text-[44px]">{okrug.official_name_lat ?? okrug.name_lat}</h1></div>
-          <p className="text-muted mt-3 tabular lede">{okrug.seat_name_lat ? `${d.seat}: ${okrug.seat_name_lat} · ` : ""}{jls.length} {d.municipalities} · {jls.reduce((n, j) => n + j.org_count, 0).toLocaleString("sr-Latn")} {d.institutions}</p>
+          <p className="text-muted mt-3 tabular lede">{okrug.seat_name_lat ? `${d.seat}: ${okrug.seat_name_lat} · ` : ""}{jls.length} {d.municipalities} · {okrugTotal.toLocaleString("sr-Latn")} {d.institutions}</p>
           <div className="mt-5"><SearchBox locale={locale} large placeholder="" submitLabel={d.search} scope={{ slug: okrug.slug, label: okrug.name_lat }} /></div>
         </div>
         <MapStage locale={locale} labels={L3D[locale]} hint={L3D[locale].hintUnits} cls="is-hub"
