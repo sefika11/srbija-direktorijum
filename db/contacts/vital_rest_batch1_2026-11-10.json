@@ -1,0 +1,901 @@
+[
+  {
+    "org_slug": "javno-komunalno-preduzece-standard-ada-ada",
+    "website": "https://www.jkpstandard-ada.co.rs/",
+    "phones": [
+      "024 851834 (centrala)",
+      "024 851721 (racunovodstvo)",
+      "024 852012 (tehnicki sektor)",
+      "063 1029433 (kvarovi/dezurni telefon)"
+    ],
+    "email": null,
+    "address": "8. oktobra 1, 24430 Ada",
+    "hours": "ponedeljak-petak 07.00-15.00; subota neradan dan",
+    "source_url": "https://www.jkpstandard-ada.co.rs/index.php/kontakt",
+    "note": "site lists only gmail addresses (skipped per rule)"
+  },
+  {
+    "org_slug": "opstinska-uprava-opstine-ada-ada",
+    "website": "https://www1.ada.org.rs/",
+    "phones": [
+      "024 852106"
+    ],
+    "email": "ada@ada.org.rs",
+    "address": "Trg oslobodjenja 1, 24430 Ada",
+    "hours": null,
+    "source_url": "https://www1.ada.org.rs/",
+    "note": "hours not found on site"
+  },
+  {
+    "org_slug": "javno-komunalno-stambeno-preduzece-aleksandrovac-aleksandrovac-aleksandrovac",
+    "website": "https://www.aleksandrovac.rs/javna-preduzeca/jksp-aleksandrovac/",
+    "phones": [
+      "037 552155",
+      "037 552303",
+      "037 751696 (kvarovi/info, 07-22h)"
+    ],
+    "email": "jksp@jksp-aleksandrovac.com",
+    "address": null,
+    "hours": "info telefon 07.00-22.00",
+    "source_url": "https://www.aleksandrovac.rs/javna-preduzeca/jksp-aleksandrovac/",
+    "note": "JKSP page on municipal portal; fax 037 552303 not listed as phone"
+  },
+  {
+    "org_slug": "opstinska-uprava-aleksandrovac-aleksandrovac",
+    "website": "https://www.aleksandrovac.rs/",
+    "phones": [
+      "037 3751029 (centrala)",
+      "037 3751297 (fax)"
+    ],
+    "email": "info@aleksandrovac.rs",
+    "address": "Jaše Petrovića 26, 37230 Aleksandrovac",
+    "hours": null,
+    "source_url": "https://www.aleksandrovac.rs/vazni-telefoni/",
+    "note": "hours not found on site"
+  },
+  {
+    "org_slug": "javno-komunalno-preduzece-univerzal-alibunar-alibunar",
+    "website": "https://jkpuniverzal.rs/",
+    "phones": [
+      "013 641333"
+    ],
+    "email": null,
+    "address": null,
+    "hours": null,
+    "source_url": "https://jkpuniverzal.rs/",
+    "note": "toll-free complaints line 0800 333 663 (reklamacije) on site; utility mail is mts.rs domain, not used; no fault line published"
+  },
+  {
+    "org_slug": "opstinska-uprava-alibunar-alibunar",
+    "website": "https://alibunar.org.rs/",
+    "phones": [
+      "013 642105",
+      "013 641146 (fax)"
+    ],
+    "email": "predsednik@alibunar.org.rs",
+    "address": "Trg slobode 4, 26310 Alibunar",
+    "hours": null,
+    "source_url": "https://alibunar.org.rs/kontakt/",
+    "note": "hours not found on site"
+  },
+  {
+    "org_slug": "javno-komunalno-preduzece-nas-dom-apatin-apatin",
+    "website": null,
+    "phones": [],
+    "email": null,
+    "address": null,
+    "hours": null,
+    "source_url": "https://www.apatin.rs/javna-preduzeca/komunalno-preduzece-jkp-nas-dom-apatin-_19",
+    "note": "utility page on municipal portal has no phone; no own site found (guessed domains dead)"
+  },
+  {
+    "org_slug": "opstinska-uprava-opstine-apatin-apatin",
+    "website": "https://www.apatin.rs/",
+    "phones": [
+      "025 772122"
+    ],
+    "email": "info@soapatin.org",
+    "address": "Srpskih vladara 29, 25260 Apatin",
+    "hours": "ponedeljak-petak 07.00-15.00",
+    "source_url": "https://www.apatin.rs/kontakt",
+    "note": null
+  },
+  {
+    "org_slug": "javno-komunalno-preduzece-zelen-arilje-arilje",
+    "website": "https://www.jkpzelenarilje.rs/",
+    "phones": [
+      "031 315170"
+    ],
+    "email": null,
+    "address": "Vojvode Misica 38, 31230 Arilje",
+    "hours": null,
+    "source_url": "https://arilje.org.rs/javna-preduzeca/",
+    "note": "utility e-mail is gmail (skipped); phone from municipal portal Javna preduzeca page"
+  },
+  {
+    "org_slug": "opstinska-uprava-arilje-arilje",
+    "website": "https://arilje.org.rs/",
+    "phones": [
+      "031 315110"
+    ],
+    "email": "arilje@arilje.org.rs",
+    "address": "Svetog Ahilija 53, 31230 Arilje",
+    "hours": "ponedeljak-petak 07.00-15.00",
+    "source_url": "https://arilje.org.rs/kontakt/",
+    "note": null
+  },
+  {
+    "org_slug": "javno-komunalno-preduzece-komunalac-babusnica-babusnica",
+    "website": null,
+    "phones": [
+      "010 386737",
+      "010 385364"
+    ],
+    "email": null,
+    "address": "Z.N. Brke 44b, Babusnica",
+    "hours": null,
+    "source_url": "https://www.babusnica.rs/index.php/institucije/jkp-komunalac-babusnica",
+    "note": "utility has no own site found; phones from municipal portal institutions page"
+  },
+  {
+    "org_slug": "opstinska-uprava-babusnica-babusnica",
+    "website": "https://www.babusnica.rs/",
+    "phones": [
+      "010 385112",
+      "010 383025",
+      "010 385052",
+      "010 385191"
+    ],
+    "email": "kabinet@babusnica.rs",
+    "address": "Ratka Pavlovica 1, 18330 Babusnica",
+    "hours": null,
+    "source_url": "https://www.babusnica.rs/index.php/kontakt",
+    "note": "hours not found on site"
+  },
+  {
+    "org_slug": "javno-komunalno-preduzece-12-septembar-bajina-basta-bajina-basta",
+    "website": "https://www.jkp12septembar.rs/",
+    "phones": [
+      "031 864544",
+      "0800 031039 (besplatna linija, info i reklamacije)"
+    ],
+    "email": "info@jkp12septembar.rs",
+    "address": "Svetosavska 6, 31250 Bajina Basta",
+    "hours": "ponedeljak-petak 07.00-15.00",
+    "source_url": "https://www.jkp12septembar.rs/kontakt/",
+    "note": "direktor 031 864587 also listed; no separate fault line published"
+  },
+  {
+    "org_slug": "opstinska-uprava-bajina-basta-bajina-basta",
+    "website": "https://bajinabasta.rs/",
+    "phones": [
+      "031 865282",
+      "031 865280",
+      "031 862366 (opstinska uprava)"
+    ],
+    "email": "info@bajinabasta.rs",
+    "address": "Dusana Visica 28, 31250 Bajina Basta",
+    "hours": "07.00-15.00",
+    "source_url": "https://bajinabasta.rs/kontakt/",
+    "note": null
+  },
+  {
+    "org_slug": "opstinska-uprava-batocina-batocina",
+    "website": "https://www.sobatocina.org.rs/",
+    "phones": [
+      "034 6842118",
+      "034 6842314 (fax)"
+    ],
+    "email": null,
+    "address": "Kralja Petra I 37, 34227 Batocina",
+    "hours": null,
+    "source_url": "https://www.sobatocina.org.rs/",
+    "note": "official site name is the assembly (sobatocina); phone from its homepage; address from directory listings, not on the site; municipal domain opstinabatocina.* unreachable"
+  },
+  {
+    "org_slug": "javno-komunalno-preduzece-tvrdjava-bac-bac",
+    "website": null,
+    "phones": [],
+    "email": null,
+    "address": null,
+    "hours": null,
+    "source_url": "https://www.bac.rs/sr/opstina",
+    "note": "no utility site or phone found on municipal portal (guessed jkptvrdjava.rs dead)"
+  },
+  {
+    "org_slug": "opstinska-uprava-bac-bac",
+    "website": "https://www.bac.rs/",
+    "phones": [
+      "021 6070075 (centrala)",
+      "021 6070330 (fax)"
+    ],
+    "email": "info@bac.ls.gov.rs",
+    "address": "Trg Dr Zorana Djindjica 2, 21420 Bac",
+    "hours": null,
+    "source_url": "https://www.bac.rs/sr/opstina",
+    "note": "hours not found on site"
+  },
+  {
+    "org_slug": "drustvo-sa-ogranicenom-odgovornoscu-standard-komunalno-preduzece-stara-moravica-stara-moravica",
+    "website": null,
+    "phones": [],
+    "email": null,
+    "address": null,
+    "hours": null,
+    "source_url": "https://www.backatopola.org.rs/okolina/stara-moravica/",
+    "note": "not found on municipal portal; no own site located"
+  },
+  {
+    "org_slug": "javno-preduzece-komunalno-stambeno-gradjevinske-delatnosti-komgrad-backa-topola-backa-topola",
+    "website": null,
+    "phones": [],
+    "email": null,
+    "address": null,
+    "hours": null,
+    "source_url": "https://www.backatopola.org.rs/",
+    "note": "not found on municipal portal; no own site located"
+  },
+  {
+    "org_slug": "opstina-backa-topola-opstinska-uprava-backa-topola",
+    "website": "https://www.backatopola.org.rs/",
+    "phones": [
+      "024 711020"
+    ],
+    "email": null,
+    "address": "Glavna 12, 24300 Backa Topola",
+    "hours": "ponedeljak-petak 07.00-15.00",
+    "source_url": "https://www.backatopola.org.rs/kontakt/",
+    "note": "only gmail address listed on site (skipped)"
+  },
+  {
+    "org_slug": "javno-komunalno-preduzece-komunalac-backi-petrovac-backi-petrovac",
+    "website": "https://www.jkpkomunalac.co.rs/",
+    "phones": [
+      "021 2282453",
+      "021 2280278",
+      "0800 101208 (besplatna linija)"
+    ],
+    "email": "info@jkpkomunalac.co.rs",
+    "address": "Narodne revolucije 5, Backi Petrovac",
+    "hours": "ponedeljak-petak 07.00-15.00",
+    "source_url": "https://www.jkpkomunalac.co.rs/kontakt/",
+    "note": "reklamacije@jkpkomunalac.co.rs also listed; no separate fault line labelled"
+  },
+  {
+    "org_slug": "opstinska-uprava-backi-petrovac-backi-petrovac",
+    "website": "https://www.backipetrovac.rs/",
+    "phones": [
+      "021 2280378 (portirnica)",
+      "021 2230222 (kabinet predsednika)"
+    ],
+    "email": "opstina@backipetrovac.rs",
+    "address": null,
+    "hours": "7.00-15.00",
+    "source_url": "https://www.backipetrovac.rs/lokalna-samouprava/kontakt",
+    "note": null
+  },
+  {
+    "org_slug": "opstinska-uprava-bela-crkva-bela-crkva",
+    "website": "https://belacrkva.rs/",
+    "phones": [
+      "013 851224",
+      "013 851346 (fax)"
+    ],
+    "email": "kabinet@opstinabc.rs",
+    "address": "Mileticeva 2, 26340 Bela Crkva",
+    "hours": null,
+    "source_url": "https://belacrkva.rs/kontakt/",
+    "note": "hours not found on site"
+  },
+  {
+    "org_slug": "javno-komunalno-preduzece-komnis-bela-palanka-bela-palanka",
+    "website": null,
+    "phones": [],
+    "email": null,
+    "address": null,
+    "hours": null,
+    "source_url": null,
+    "note": "no utility site or phone found (search only returned directories)"
+  },
+  {
+    "org_slug": "opstina-bela-palanka-opstinska-uprava-bela-palanka",
+    "website": "https://belapalanka.org.rs/",
+    "phones": [
+      "018 855188",
+      "018 856666 (predsednik)"
+    ],
+    "email": "predsednik@belapalanka.org.rs",
+    "address": "Karadjordjeva 28, 18310 Bela Palanka",
+    "hours": null,
+    "source_url": "https://belapalanka.org.rs/contact",
+    "note": "hours not verified; 018 855023 seen only in search snippets, not used"
+  },
+  {
+    "org_slug": "javno-komunalno-preduzece-beocin-beocin-beocin",
+    "website": "http://www.jkpbeocin.co.rs/",
+    "phones": [
+      "021 871246 (direkcija)",
+      "021 871869 (fabrika vode)",
+      "021 871320 (radionica)"
+    ],
+    "email": "office@jkpbeocin.co.rs",
+    "address": "Desanke Maksimovic 52, Beocin",
+    "hours": null,
+    "source_url": "https://www.beocin.rs/sr/?m=e1&nav=jp_kompredbeocin",
+    "note": "fax 021 871245 not listed as phone"
+  },
+  {
+    "org_slug": "javno-preduzece-toplana-beocin-beocin",
+    "website": "http://www.jptoplanabeocin.rs",
+    "phones": [
+      "021 872270",
+      "021 871326",
+      "021 870126 (proizvodni pogon)"
+    ],
+    "email": null,
+    "address": null,
+    "hours": null,
+    "source_url": "https://www.beocin.rs/sr/?m=e3&nav=jp_toplanabeocin",
+    "note": "utility e-mail is an ISP address (skipped)"
+  },
+  {
+    "org_slug": "opstinska-uprava-beocin-beocin",
+    "website": "https://www.beocin.rs/",
+    "phones": [
+      "021 2970260",
+      "021 2970268 (fax)"
+    ],
+    "email": "office@beocin.ls.gov.rs",
+    "address": "Svetosavska 25, 21300 Beocin",
+    "hours": "7.00-15.00",
+    "source_url": "https://www.beocin.rs/sr/?m=a9&nav=opstina_kontkat",
+    "note": null
+  },
+  {
+    "org_slug": "javno-preduzece-za-komunalne-usluge-komunalac-becej-becej",
+    "website": "http://www.komunalacbecej.com",
+    "phones": [
+      "021 6915714"
+    ],
+    "email": null,
+    "address": "Lovacka 5, Becej",
+    "hours": null,
+    "source_url": "https://www.becej.rs/%D0%BE%D0%BF%D1%88%D1%82%D0%B8%D0%BD%D0%B0-%D0%B1%D0%B5%D1%87%D0%B5%D1%98/%D1%98%D0%B0%D0%B2%D0%BD%D0%B0-%D0%BF%D1%80%D0%B5%D0%B4%D1%83%D0%B7%D0%B5%D1%9B%D0%B0/",
+    "note": "utility mail is ptt.rs (ISP-type, skipped)"
+  },
+  {
+    "org_slug": "potisje-becej-doo-za-komunalne-usluge-becej-becej",
+    "website": "https://potisje-becej.rs/wp/",
+    "phones": [
+      "021 6910777"
+    ],
+    "email": null,
+    "address": "Milosa Crnjanskog 46, 21220 Becej",
+    "hours": null,
+    "source_url": "https://potisje-becej.rs/wp/kontakt/",
+    "note": "utility e-mails are stcable.net (ISP, skipped); other numbers 062 886 2403 etc. not listed as phones"
+  },
+  {
+    "org_slug": "javno-preduzece-za-proizvodnju-i-isporuku-toplotne-energije-toplana-becej-becej",
+    "website": "http://www.toplana-becej.co.rs",
+    "phones": [
+      "021 6912761"
+    ],
+    "email": "office@toplanabecej.rs",
+    "address": "Petrovoselski put 3, Becej",
+    "hours": null,
+    "source_url": "https://www.becej.rs/%D0%BE%D0%BF%D1%88%D1%82%D0%B8%D0%BD%D0%B0-%D0%B1%D0%B5%D1%87%D0%B5%D1%98/%D1%98%D0%B0%D0%B2%D0%BD%D0%B0-%D0%BF%D1%80%D0%B5%D0%B4%D1%83%D0%B7%D0%B5%D1%9B%D0%B0/",
+    "note": null
+  },
+  {
+    "org_slug": "javno-preduzece-vodokanal-becej-becej",
+    "website": "http://www.vodokanal-becej.rs",
+    "phones": [
+      "021 6912930"
+    ],
+    "email": null,
+    "address": "Danila Kisa 8a, Becej",
+    "hours": null,
+    "source_url": "https://www.becej.rs/%D0%BE%D0%BF%D1%88%D1%82%D0%B8%D0%BD%D0%B0-%D0%B1%D0%B5%D1%87%D0%B5%D1%98/%D1%98%D0%B0%D0%B2%D0%BD%D0%B0-%D0%BF%D1%80%D0%B5%D0%B4%D1%83%D0%B7%D0%B5%D1%9B%D0%B0/",
+    "note": "utility mail is stcable.net (ISP, skipped)"
+  },
+  {
+    "org_slug": "opstinska-uprava-becej-becej",
+    "website": "https://www.becej.rs/",
+    "phones": [
+      "021 6811888",
+      "0800 021100 (besplatna linija)"
+    ],
+    "email": null,
+    "address": "Trg Oslobodjenja 2, 21220 Becej",
+    "hours": null,
+    "source_url": "https://www.becej.rs/%D0%BE%D0%BF%D1%88%D1%82%D0%B8%D0%BD%D0%B0-%D0%B1%D0%B5%D1%87%D0%B5%D1%98/%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA/",
+    "note": "site lists only personal webadmin@becej.rs; not used"
+  },
+  {
+    "org_slug": "javno-komunalno-preduzece-blace-blace-blace",
+    "website": null,
+    "phones": [],
+    "email": null,
+    "address": null,
+    "hours": null,
+    "source_url": "https://www.blace.org.rs/",
+    "note": "no JKP page or contact on municipal portal (only Prijavi komunalni problem form)"
+  },
+  {
+    "org_slug": "opstina-blace-opstinska-uprava-blace-blace",
+    "website": "https://www.blace.org.rs/",
+    "phones": [
+      "027 371110",
+      "027 371138"
+    ],
+    "email": null,
+    "address": null,
+    "hours": null,
+    "source_url": "https://www.blace.org.rs/kontakt.html",
+    "note": "department lines 027 370101 (opsta uprava), 027 379210 (urbanizam/komunalno) on the same page; e-mails obfuscated, not captured"
+  },
+  {
+    "org_slug": "javno-komunalno-preduzece-bogatic-bogatic-bogatic",
+    "website": "https://bogatic.rs/vodic/javne-ustanove/jkp-bogatic/",
+    "phones": [],
+    "email": null,
+    "address": null,
+    "hours": null,
+    "source_url": "https://bogatic.rs/vodic/javne-ustanove/jkp-bogatic/",
+    "note": "municipal guide page for JKP Bogatic has no phone; no own site found"
+  },
+  {
+    "org_slug": "opstinska-uprava-bogatic-bogatic",
+    "website": "https://bogatic.rs/",
+    "phones": [
+      "015 778626"
+    ],
+    "email": "upiti@bogatic.ls.gov.rs",
+    "address": null,
+    "hours": null,
+    "source_url": "https://bogatic.rs/elementor-1689/",
+    "note": "address and hours not found on site"
+  },
+  {
+    "org_slug": "javno-komunalno-preduzece-jedinstvo-bojnik-bojnik",
+    "website": null,
+    "phones": [],
+    "email": null,
+    "address": null,
+    "hours": null,
+    "source_url": null,
+    "note": "no utility site or phone found"
+  },
+  {
+    "org_slug": "javno-komunalno-preduzece-obilic-obilic",
+    "website": null,
+    "phones": [],
+    "email": null,
+    "address": null,
+    "hours": null,
+    "source_url": null,
+    "note": "no utility site or phone found"
+  },
+  {
+    "org_slug": "opstinska-uprava-bojnik-bojnik",
+    "website": "https://bojnik.rs/",
+    "phones": [
+      "016 3150204 (centrala; official list 016/31 50 204-210, exact line not confirmed)"
+    ],
+    "email": "admin@bojnik.rs",
+    "address": null,
+    "hours": null,
+    "source_url": "https://bojnik.rs/?page_id=11223",
+    "note": "address not confirmed; an older guide gave Trg Slobode 2-4, planplus gives Trg slobode 1"
+  },
+  {
+    "org_slug": "javno-komunalno-preduzece-usluga-boljevac-boljevac",
+    "website": null,
+    "phones": [],
+    "email": null,
+    "address": null,
+    "hours": null,
+    "source_url": "https://www.boljevac.org.rs/",
+    "note": "JKP Usluga only named in a municipal notice; no contact found"
+  },
+  {
+    "org_slug": "opstinska-uprava-boljevac-boljevac",
+    "website": "https://www.boljevac.org.rs/",
+    "phones": [
+      "030 463412"
+    ],
+    "email": null,
+    "address": "Ul. Kralja Aleksandra 24, 19370 Boljevac",
+    "hours": null,
+    "source_url": "https://www.boljevac.org.rs/contacts/",
+    "note": "number listed on site under Skupstina opstine Boljevac (assembly/administration building); no e-mail on the page"
+  },
+  {
+    "org_slug": "javno-komunalno-preduzece-cistoca-bosilegrad-bosilegrad",
+    "website": null,
+    "phones": [
+      "017 877226"
+    ],
+    "email": null,
+    "address": "Ul. Dobrodolski potok bb, 17540 Bosilegrad",
+    "hours": null,
+    "source_url": "http://www.bosilegrad.org/sr/Javna_preduzeca.aspx",
+    "note": "no utility named Cistoca on portal; the closest is JP Usluga Bosilegrad (water, cleaning, garbage) - verify before use"
+  },
+  {
+    "org_slug": "opstina-bosilegrad-opstinska-uprava-bosilegrad",
+    "website": "http://www.bosilegrad.org/sr/pocetna.aspx",
+    "phones": [
+      "017 877170 (centrala)",
+      "017 877167 (fax)",
+      "017 877006 (predsednik)"
+    ],
+    "email": null,
+    "address": "Ul. Georgi Dimitrova 82, 17540 Bosilegrad",
+    "hours": null,
+    "source_url": "http://www.bosilegrad.org/sr/Kontakt.aspx",
+    "note": "only gmail address on site (skipped)"
+  },
+  {
+    "org_slug": "javno-komunalno-preduzece-rasina-brus-brus",
+    "website": null,
+    "phones": [],
+    "email": null,
+    "address": null,
+    "hours": null,
+    "source_url": null,
+    "note": "no utility site or phone found"
+  },
+  {
+    "org_slug": "opstina-brus-opstinska-uprava-brus",
+    "website": "https://brus.ls.gov.rs/",
+    "phones": [
+      "037 3150101"
+    ],
+    "email": "opstina@brus.ls.gov.rs",
+    "address": "Kralja Petra I 120, 37220 Brus",
+    "hours": "07.00-15.00 (2022 guide)",
+    "source_url": "https://brus.ls.gov.rs/%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82/",
+    "note": "hours from a 2022 information guide"
+  },
+  {
+    "org_slug": "javno-preduzece-komunalac-bujanovac-bujanovac",
+    "website": null,
+    "phones": [],
+    "email": null,
+    "address": null,
+    "hours": null,
+    "source_url": "https://bujanovac.rs/d-komunalca/",
+    "note": "utility page on municipal portal not read for numbers; no own site found"
+  },
+  {
+    "org_slug": "opstina-bujanovac-opstinska-uprava-bujanovac",
+    "website": "https://bujanovac.rs/",
+    "phones": [
+      "017 851044 (tel/fax)",
+      "017 851103"
+    ],
+    "email": "office@bujanovac.rs",
+    "address": "Karadjordja Petrovica 115, 17520 Bujanovac",
+    "hours": null,
+    "source_url": "https://bujanovac.rs/kontakt/",
+    "note": "hours not found on site"
+  },
+  {
+    "org_slug": "opstinska-uprava-crna-trava-crna-trava",
+    "website": "https://www.opstinacrnatrava.org.rs/",
+    "phones": [
+      "016 811118",
+      "062 548785"
+    ],
+    "email": null,
+    "address": null,
+    "hours": "ponedeljak-petak 07.00-15.00 (site, per search snippet)",
+    "source_url": "https://www.opstinacrnatrava.org.rs/",
+    "note": "062 548785 listed as information center number; address not verified (Trg Milentija Popovica 61 per directory)"
+  },
+  {
+    "org_slug": "komunalno-stambeno-preduzece-stan-jp-despotovac-despotovac",
+    "website": null,
+    "phones": [],
+    "email": null,
+    "address": null,
+    "hours": null,
+    "source_url": null,
+    "note": "no utility site or phone found"
+  },
+  {
+    "org_slug": "opstina-despotovac-opstinska-uprava-despotovac",
+    "website": "https://www.despotovac.rs/",
+    "phones": [],
+    "email": null,
+    "address": null,
+    "hours": null,
+    "source_url": null,
+    "note": "despotovac.rs unreachable (http 000); directory numbers not used as unverified"
+  },
+  {
+    "org_slug": "javno-preduzece-komunalac-dimitrovgrad-dimitrovgrad",
+    "website": null,
+    "phones": [
+      "010 361689"
+    ],
+    "email": null,
+    "address": "Ive Andrica 49, Dimitrovgrad",
+    "hours": null,
+    "source_url": "https://www.dimitrovgrad.rs/preduzeca_ustanove",
+    "note": "utility mail is mts.rs (ISP, skipped); no own site found"
+  },
+  {
+    "org_slug": "opstinska-uprava-dimitrovgrad-dimitrovgrad",
+    "website": "https://www.dimitrovgrad.rs/",
+    "phones": [
+      "010 361108",
+      "010 361288",
+      "010 361100"
+    ],
+    "email": "office@dimitrovgrad.rs",
+    "address": "Balkanska 2, 18320 Dimitrovgrad",
+    "hours": null,
+    "source_url": "https://www.dimitrovgrad.rs/contact",
+    "note": "hours not found on site"
+  },
+  {
+    "org_slug": "javno-komunalno-preduzece-doljevac-doljevac-doljevac",
+    "website": null,
+    "phones": [],
+    "email": null,
+    "address": null,
+    "hours": null,
+    "source_url": null,
+    "note": "no utility page or phone found on municipal portal"
+  },
+  {
+    "org_slug": "opstinska-uprava-doljevac-doljevac",
+    "website": "https://www.opstinadoljevac.rs/",
+    "phones": [
+      "018 4810054",
+      "018 4810056",
+      "018 4810055 (fax)"
+    ],
+    "email": null,
+    "address": "Nikole Tesle 121, 18410 Doljevac",
+    "hours": null,
+    "source_url": "https://www.opstinadoljevac.rs/index.php?option=com_content&view=article&id=92&Itemid=667",
+    "note": "e-mail is obfuscated on page, not captured"
+  },
+  {
+    "org_slug": "opstinska-uprava-opstine-gadzin-han-gadzin-han",
+    "website": "https://www.gadzinhan.rs/",
+    "phones": [],
+    "email": null,
+    "address": null,
+    "hours": null,
+    "source_url": "https://www.gadzinhan.rs/kontakt/",
+    "note": "municipal site has no readable contact block; directory numbers (018 860112 etc.) not used as unverified"
+  },
+  {
+    "org_slug": "komunalno-javno-preduzece-golubac-golubac-golubac",
+    "website": null,
+    "phones": [
+      "012 678017"
+    ],
+    "email": null,
+    "address": "Cara Lazara 21, Golubac",
+    "hours": null,
+    "source_url": "https://www.golubac.org.rs/javne-ustanove-i-sluzbe/komunalno-javno-preduzece/",
+    "note": "utility mail is gmail (skipped); no own site found"
+  },
+  {
+    "org_slug": "opstinska-uprava-golubac-golubac",
+    "website": "https://www.golubac.org.rs/",
+    "phones": [
+      "012 678103",
+      "012 678114"
+    ],
+    "email": "office@golubac.org.rs",
+    "address": "Cara Lazara 15, 12223 Golubac",
+    "hours": null,
+    "source_url": "https://www.golubac.org.rs/kontakt/",
+    "note": "more department numbers (012 678178, 012 678169, 012 678260) on the page"
+  },
+  {
+    "org_slug": "javno-preduzece-komunalac-irig-irig",
+    "website": null,
+    "phones": [
+      "022 461303"
+    ],
+    "email": null,
+    "address": null,
+    "hours": null,
+    "source_url": "https://www.irig.rs/kategorija.php?menu_id=17",
+    "note": "utility mail is gmail (skipped); no own site found"
+  },
+  {
+    "org_slug": "opstinska-uprava-opstine-irig-irig",
+    "website": "https://www.irig.rs/",
+    "phones": [
+      "022 400600",
+      "022 462035 (fax)"
+    ],
+    "email": "opstinairig@irig.rs",
+    "address": "Vojvode Putnika 1, 22406 Irig",
+    "hours": null,
+    "source_url": "https://www.irig.rs/kategorija.php?menu_id=17",
+    "note": "hours not found on site"
+  },
+  {
+    "org_slug": "javno-komunalno-preduzece-ivanjica-ivanjica-ivanjica",
+    "website": null,
+    "phones": [],
+    "email": null,
+    "address": null,
+    "hours": null,
+    "source_url": "https://www.ivanjica.rs/",
+    "note": "no utility page or phone found on municipal portal"
+  },
+  {
+    "org_slug": "opstina-ivanjica-opstinska-uprava-ivanjica",
+    "website": "https://ivanjica.gov.rs/",
+    "phones": [
+      "032 664760",
+      "032 5150300",
+      "032 661821 (fax)"
+    ],
+    "email": "soivanjica@ivanjica.gov.rs",
+    "address": "Venijamina Marinkovica 1, 32250 Ivanjica",
+    "hours": null,
+    "source_url": "https://ivanjica.gov.rs/kontakt/",
+    "note": "hours from search snippet only, not verified"
+  },
+  {
+    "org_slug": "javno-preduzece-za-komunalne-usluge-komunalac-kanjiza-kanjiza",
+    "website": null,
+    "phones": [],
+    "email": null,
+    "address": null,
+    "hours": null,
+    "source_url": null,
+    "note": "no utility site or phone found"
+  },
+  {
+    "org_slug": "potiski-vodovodi-tisza-menti-vizmuvek-doo-horgos-horgos",
+    "website": null,
+    "phones": [],
+    "email": null,
+    "address": null,
+    "hours": null,
+    "source_url": null,
+    "note": "no site or phone found"
+  },
+  {
+    "org_slug": "opstinska-uprava-kanjiza-kanjiza",
+    "website": "http://www.kanjiza.rs/ujlap/",
+    "phones": [
+      "024 4875166"
+    ],
+    "email": null,
+    "address": "Trg Glavni 1, 24420 Kanjiza",
+    "hours": null,
+    "source_url": "http://www.kanjiza.rs/ujlap/site/index-sr.html?mnu=10",
+    "note": "office@kanjiza.rs seen only in search snippet, not on site; fax not verified"
+  },
+  {
+    "org_slug": "drustvo-sa-ogranicenom-odgovornoscu-zoohigijena-i-veterina-kladovo-kladovo",
+    "website": null,
+    "phones": [],
+    "email": null,
+    "address": null,
+    "hours": null,
+    "source_url": null,
+    "note": "not on the municipal contact page; no own site found"
+  },
+  {
+    "org_slug": "javno-preduzece-komunalac-kladovo-kladovo",
+    "website": null,
+    "phones": [],
+    "email": null,
+    "address": null,
+    "hours": null,
+    "source_url": null,
+    "note": "not on the municipal contact page; no own site found"
+  },
+  {
+    "org_slug": "opstinska-uprava-kladovo-kladovo",
+    "website": "https://kladovo.org.rs/",
+    "phones": [
+      "019 801450",
+      "019 801451",
+      "019 801563 (fax)"
+    ],
+    "email": "kabinet@kladovo.org.rs",
+    "address": null,
+    "hours": null,
+    "source_url": "https://kladovo.org.rs/kontakt/",
+    "note": "address and hours not captured"
+  },
+  {
+    "org_slug": "javno-komunalno-preduzece-komunalac-knic-knic",
+    "website": "https://www.komunalacknic.rs/",
+    "phones": [
+      "0800 034035 (reklamacije, besplatan poziv)"
+    ],
+    "email": "office@komunalacknic.rs",
+    "address": "Knic bb, Knic",
+    "hours": null,
+    "source_url": "https://www.komunalacknic.rs/",
+    "note": "telephone/fax number not captured from the page"
+  },
+  {
+    "org_slug": "opstinska-uprava-knic",
+    "website": "https://knic.rs/",
+    "phones": [
+      "034 510113",
+      "034 510112 (nacelnik)",
+      "034 510163 (overe)"
+    ],
+    "email": "opstina@knic.rs",
+    "address": null,
+    "hours": "07.00-15.00",
+    "source_url": "https://knic.rs/kontakt/",
+    "note": "address not on page; numbers printed without area code on page, 034 added from header +381 34"
+  },
+  {
+    "org_slug": "javno-komunalno-preduzece-progres-koceljeva-koceljeva",
+    "website": null,
+    "phones": [],
+    "email": null,
+    "address": null,
+    "hours": null,
+    "source_url": null,
+    "note": "no utility site or phone found"
+  },
+  {
+    "org_slug": "opstinska-uprava-koceljeva-koceljeva",
+    "website": "https://koceljeva.gov.rs/",
+    "phones": [
+      "015 556322",
+      "015 556587 (fax)"
+    ],
+    "email": null,
+    "address": "Nemanjina 74, 15220 Koceljeva",
+    "hours": "radnim danima 07.00-15.00",
+    "source_url": "https://koceljeva.gov.rs/kontakt/",
+    "note": "only gmail address on site (skipped)"
+  },
+  {
+    "org_slug": "komunalno-javno-preduzece-elan-kosjeric-varos-kosjeric-varos",
+    "website": null,
+    "phones": [],
+    "email": null,
+    "address": null,
+    "hours": null,
+    "source_url": "https://www.kosjeric.rs/",
+    "note": "not linked on municipal portal; no own site found yet"
+  },
+  {
+    "org_slug": "javno-komunalno-preduzece-gradska-toplana-kosjeric-kosjeric-varos",
+    "website": null,
+    "phones": [],
+    "email": null,
+    "address": null,
+    "hours": null,
+    "source_url": "https://www.kosjeric.rs/",
+    "note": "not linked on municipal portal; no own site found yet"
+  },
+  {
+    "org_slug": "opstinska-uprava-kosjeric-kosjeric",
+    "website": "https://www.kosjeric.rs/",
+    "phones": [
+      "031 781460",
+      "031 781441",
+      "031 783582 (kontakt telefon)"
+    ],
+    "email": "kabinet@kosjeric.rs",
+    "address": "Olge Grbic 10, 31260 Kosjeric",
+    "hours": null,
+    "source_url": "https://www.kosjeric.rs/kontakt/",
+    "note": "hours not found on site"
+  }
+]

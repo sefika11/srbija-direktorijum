@@ -1,0 +1,945 @@
+[
+ {
+  "org_slug": "javno-komunalno-preduzece-nas-dom-pozega-pozega",
+  "website": "https://jkpnasdompozega.co.rs",
+  "phones": [
+   "031 825-027"
+  ],
+  "email": null,
+  "address": "Zelena pijaca 7, 31210 Požega",
+  "hours": "pon-pet 07-15 h",
+  "source_url": "https://jkpnasdompozega.co.rs/",
+  "note": "Switchboard only; no separate dispatch (kvarovi) number found on site."
+ },
+ {
+  "org_slug": "javno-komunalno-preduzece-regionalni-centar-za-vodne-usluge-skrapez-vode-pozega-pozega",
+  "website": null,
+  "phones": [],
+  "email": null,
+  "address": null,
+  "hours": null,
+  "source_url": null,
+  "note": "No official site or contact found; web search returned only unrelated Croatian Pozega entities (ignored). Water supply in Pozega appears under Rzav regional system and JKP Nas dom."
+ },
+ {
+  "org_slug": "opstinska-uprava-pozega-pozega",
+  "website": "https://www.pozega.org.rs",
+  "phones": [
+   "031 3816-401",
+   "031 3816-257",
+   "031 3816-468",
+   "031 3816-309 (načelnik)"
+  ],
+  "email": "opstina@pozega.ls.gov.rs",
+  "address": "Trg Slobode 9, 31210 Požega",
+  "hours": null,
+  "source_url": "https://www.pozega.org.rs/index.php?id_strane=31",
+  "note": "Hours not published on Kontakt page; fax 031 811-287. nacelnik@pozega.ls.gov.rs also listed."
+ },
+ {
+  "org_slug": "opstina-presevo-opstinska-uprava-presevo",
+  "website": "https://presevo.rs",
+  "phones": [
+   "017 151 000"
+  ],
+  "email": "info@presevo.rs",
+  "address": "Maršala Tita 36, Preševo",
+  "hours": null,
+  "source_url": "https://presevo.rs/residents/administration/",
+  "note": "Site is in Albanian; footer also prints 017 7151 000 (conflicting variant). Hours not published."
+ },
+ {
+  "org_slug": "javno-komunalno-preduzece-usluga-priboj-priboj",
+  "website": "https://priboj.rs",
+  "phones": [
+   "033 2455 885 (centrala)",
+   "033 2455 900 (Vodovod i odrzavanje)"
+  ],
+  "email": null,
+  "address": "Save Kovačevića bb, Priboj",
+  "hours": null,
+  "source_url": "https://priboj.rs/lokalna-samouprava/javna-preduzeca-i-ustanove/jkp-usluga/",
+  "note": "Published e-mail is uslugapriboj@mts.rs (telecom provider domain, not institutional; skipped). No dispatch (kvarovi) line listed; the municipal dezurne-sluzbe page has only emergency services."
+ },
+ {
+  "org_slug": "javno-preduzece-toplana-priboj-priboj-priboj",
+  "website": "https://priboj.rs",
+  "phones": [
+   "033 454 863"
+  ],
+  "email": null,
+  "address": "12. januar 5, Priboj",
+  "hours": null,
+  "source_url": "https://priboj.rs/lokalna-samouprava/javna-preduzeca-i-ustanove/toplana-priboj/",
+  "note": "Published e-mail is gmail.com (skipped). No hours listed."
+ },
+ {
+  "org_slug": "opstinska-uprava-priboj-priboj",
+  "website": "https://priboj.rs",
+  "phones": [
+   "033 24 52 341 (centrala)",
+   "033 24 45 648 (predsednik)",
+   "033 24 45 442 (načelnik)"
+  ],
+  "email": "opstina@priboj.rs",
+  "address": "12. januara 108, 31330 Priboj",
+  "hours": "pon-pet 07:00-15:00",
+  "source_url": "https://priboj.rs/kontakt-info/",
+  "note": "Site in Cyrillic; central switchboard is +381 33 24 52 341."
+ },
+ {
+  "org_slug": "javno-komunalno-preduzece-lim-prijepolje-prijepolje",
+  "website": "http://www.jkplimprijepolje.rs",
+  "phones": [
+   "033/712-33 (as printed on municipal portal, looks truncated)"
+  ],
+  "email": null,
+  "address": null,
+  "hours": null,
+  "source_url": "https://prijepolje.ls.gov.rs/lokalna-samouprava/javna-preduzeca",
+  "note": "Own site redirects (301) and did not respond at check time. E-mail on the portal is script-obfuscated and was not read."
+ },
+ {
+  "org_slug": "opstina-prijepolje-opstinska-uprava-prijepolje",
+  "website": "https://prijepolje.ls.gov.rs",
+  "phones": [
+   "033/714-073 (predsednik / nacelnik)",
+   "033/714-170 (zamenik predsednika)"
+  ],
+  "email": null,
+  "address": null,
+  "hours": null,
+  "source_url": "https://prijepolje.ls.gov.rs/kontakt",
+  "note": "Staff e-mails on the page are scripted and not readable without JavaScript; street address not on the page checked."
+ },
+ {
+  "org_slug": "javno-komunalno-preduzece-raca-raca-raca",
+  "website": "https://www.raca.rs",
+  "phones": [],
+  "email": null,
+  "address": null,
+  "hours": null,
+  "source_url": "https://www.raca.rs/%d1%98%d0%b0%d0%b2%d0%bd%d0%be-%d0%ba%d0%be%d0%bc%d1%83%d0%bd%d0%b0%d0%bb%d0%bd%d0%be-%d0%bf%d1%80%d0%b5%d0%b4%d1%83%d0%b7%d0%b5%d1%9b%d0%b5-%d1%80%d0%b0%d1%87%d0%b0/",
+  "note": "Municipal portal lists JKP Raca but its page carries no phone or e-mail. jkpraca.rs does not resolve; web search returned only unrelated or paywalled company profiles."
+ },
+ {
+  "org_slug": "opstina-raca-opstinska-uprava-raca",
+  "website": "https://www.raca.rs",
+  "phones": [
+   "034/751-175"
+  ],
+  "email": "opstina@raca.rs",
+  "address": "Karađorđeva 48, 34210 Rača",
+  "hours": null,
+  "source_url": "https://www.raca.rs/rs-kontakt/",
+  "note": "Hours not published on Kontakt page."
+ },
+ {
+  "org_slug": "javno-komunalno-preduzece-putevi-raska-iz-raske-raska",
+  "website": "https://www.puteviraska.rs",
+  "phones": [
+   "036/736 671"
+  ],
+  "email": null,
+  "address": "Nemanjina 1/II, 36350 Raška",
+  "hours": null,
+  "source_url": "https://www.puteviraska.rs/kontakt",
+  "note": "Fax 036/736-986. Published e-mail is gmail.com (skipped)."
+ },
+ {
+  "org_slug": "javno-komunalno-preduzece-raska-raska-raska",
+  "website": "https://www.jkpraska.rs",
+  "phones": [
+   "036 736 622",
+   "063 1020 251 (služba zoohigijene)",
+   "0800 000 081 (besplatna prijava reklamacija)"
+  ],
+  "email": "uprava@jkpraska.rs",
+  "address": "Dušanova 2a, 36350 Raška",
+  "hours": null,
+  "source_url": "https://www.jkpraska.rs/contact",
+  "note": "Fax 036 736 602. Free-call 0800 000 081 is the complaint line; no separate kvarovi number listed."
+ },
+ {
+  "org_slug": "opstinska-uprava-raska-raska",
+  "website": "https://www.raska.rs",
+  "phones": [
+   "036/736-224",
+   "036/736-204",
+   "036/736-281"
+  ],
+  "email": null,
+  "address": "Predraga Vilimonovića 1, 36350 Raška",
+  "hours": null,
+  "source_url": "https://www.raska.rs/index.php/2015-01-03-21-36-10",
+  "note": "Site also cites raska.gov.rs as official. No municipal e-mail on the Kontakt page; hours not published."
+ },
+ {
+  "org_slug": "javno-preduzece-komunalac-razanj-razanj",
+  "website": "https://komunalac-razanj.rs",
+  "phones": [
+   "037/3841-116"
+  ],
+  "email": null,
+  "address": "Ivana Vušovića 8, 37215 Ražanj",
+  "hours": null,
+  "source_url": "https://komunalac-razanj.rs/kontakt/",
+  "note": "Published mailbox javnopreduzece@gmail.com skipped (gmail). Site notes the company page is dated; confirm before use."
+ },
+ {
+  "org_slug": "opstinska-uprava-razanj-razanj",
+  "website": "https://razanj.ls.gov.rs",
+  "phones": [
+   "037/3841-174"
+  ],
+  "email": "infopult@razanj.org",
+  "address": "Trg Svetog Save 33, 37215 Ražanj",
+  "hours": "pon-pet 07:00-15:00",
+  "source_url": "https://razanj.ls.gov.rs/kontakt/",
+  "note": "Address and phone from portal Kontakt block (same site footer). Mailbox domain razanj.org is the municipal domain."
+ },
+ {
+  "org_slug": "opstinska-uprava-rekovac-rekovac",
+  "website": "https://www.rekovac.rs",
+  "phones": [
+   "035 84 11 070"
+  ],
+  "email": null,
+  "address": "Svetozara Markovića 2, 35260 Rekovac",
+  "hours": null,
+  "source_url": "https://www.rekovac.rs/index.php/opstina-rekovac-kontakt",
+  "note": "No e-mail on Kontakt page; hours not published."
+ },
+ {
+  "org_slug": "javno-komunalno-stambeno-preduzece-senta-senta",
+  "website": "http://www.jksp-senta.co.rs",
+  "phones": [
+   "024/827-800 (tel)",
+   "024/812-529 (faks)",
+   "0800/024-026 (besplatan poziv, per directory / company pages)"
+  ],
+  "email": "jksp@jksp-senta.co.rs",
+  "address": "Ilije Birčanina 2, 24400 Senta",
+  "hours": "pon-ned 07:00-14:00 (radno vreme sa stranice kontakti)",
+  "source_url": "http://www.jksp-senta.co.rs/sr/kontakti.php",
+  "note": "Hours on the page list 7-14 Mon to Sat; Sunday line cut off in capture. Toll-free number taken from search results, not from the contacts page itself."
+ },
+ {
+  "org_slug": "opstinska-uprava-opstine-senta-senta",
+  "website": "https://zenta-senta.co.rs",
+  "phones": [
+   "024/655-444 (centrala)"
+  ],
+  "email": "info@zenta-senta.co.rs",
+  "address": "Glavni trg 1, 24400 Senta",
+  "hours": "pon-pet 07:00-15:00 (contact header) / 08:00-13:00 (contact block); portal is inconsistent",
+  "source_url": "https://zenta-senta.co.rs/kontakt/",
+  "note": "Fax 024/812-034. Older directory number 024 813-574 is outdated."
+ },
+ {
+  "org_slug": "javno-komunalno-preduzece-secanj-secanj-secanj",
+  "website": "https://secanj.ls.gov.rs",
+  "phones": [
+   "023/3841-331"
+  ],
+  "email": null,
+  "address": "Prvomajska bb, Sečanj",
+  "hours": null,
+  "source_url": "https://secanj.ls.gov.rs/javna-preduzeca-i-ustanove/",
+  "note": "Published e-mail jkpsecanj@ptt.rs is a legacy postal ISP domain (skipped). No dispatch line listed."
+ },
+ {
+  "org_slug": "opstina-secanj-opstinska-uprava-secanj",
+  "website": "https://secanj.ls.gov.rs",
+  "phones": [
+   "023/3150-710 (centrala)"
+  ],
+  "email": "opstina@secanj.ls.gov.rs",
+  "address": "Vožda Karađorđa 57, 23240 Sečanj",
+  "hours": null,
+  "source_url": "https://secanj.ls.gov.rs/kontakt/",
+  "note": "Hours not published; department lines 023/3150-7xx available on same page."
+ },
+ {
+  "org_slug": "javno-komunalno-preduzece-vrela-sjenica-sjenica",
+  "website": "https://www.jkpvrela.rs",
+  "phones": [
+   "020-744-077"
+  ],
+  "email": null,
+  "address": "Rifata Budžovića Trše 17, Sjenica",
+  "hours": "7:30-14:30 h",
+  "source_url": "https://sjenica.rs/javna-preduzeca-i-ustanove/",
+  "note": "Published e-mail jkpvrela@gmail.com skipped (gmail)."
+ },
+ {
+  "org_slug": "javno-komunalno-preduzece-za-vodovod-seoski-vodovodi-sjenica-sjenica",
+  "website": null,
+  "phones": [
+   "020-377-1285"
+  ],
+  "email": null,
+  "address": "Neznanih Junaka bb, Sjenica",
+  "hours": "7-20 h",
+  "source_url": "https://sjenica.rs/javna-preduzeca-i-ustanove/",
+  "note": "Published e-mail seoski.vodovod@gmail.com skipped (gmail); no own website."
+ },
+ {
+  "org_slug": "opstinska-uprava-sjenica-sjenica",
+  "website": "https://www.sjenica.rs",
+  "phones": [
+   "020/741-071 (centrala)",
+   "020/741-278 (kabinet)"
+  ],
+  "email": "opstina@sjenica.rs",
+  "address": "Zmaja od Bosne 1, 36310 Sjenica",
+  "hours": "7-15 h",
+  "source_url": "https://sjenica.rs/kontakt/",
+  "note": "Fax 020-741-288 on same page."
+ },
+ {
+  "org_slug": "javno-komunalno-preduzece-palanka-2020-smederevska-palanka-smederevska-palanka",
+  "website": "https://www.smederevskapalanka.rs",
+  "phones": [
+   "026/310-563",
+   "026/310-564"
+  ],
+  "email": "opstinskagroblja@smederevskapalanka.rs",
+  "address": "Mike Golubovića bb, Smederevska Palanka",
+  "hours": null,
+  "source_url": "https://www.smederevskapalanka.rs/%d1%98%d0%ba%d0%bf-%d0%bf%d0%b0%d0%bb%d0%b0%d0%bd%d0%ba%d0%b0-%d1%81%d0%b5%d1%80%d0%b2%d0%b8%d1%81-2/",
+  "note": "Acting director Goran Nikolić per portal. Hours not published."
+ },
+ {
+  "org_slug": "javno-komunalno-preduzece-palanka-servis-smederevska-palanka-smederevska-palanka-u-stecaju-smederevs",
+  "website": "https://www.smederevskapalanka.rs",
+  "phones": [],
+  "email": null,
+  "address": null,
+  "hours": null,
+  "source_url": "https://www.smederevskapalanka.rs/%d1%98%d0%ba%d0%bf-%d0%bf%d0%b0%d0%bb%d0%b0%d0%bd%d0%ba%d0%b0-%d1%81%d0%b5%d1%80%d0%b2%d0%b8%d1%81/",
+  "note": "Company in bankruptcy (St. 19/2019); portal lists no phone, address or e-mail for it."
+ },
+ {
+  "org_slug": "javno-komunalno-preduzece-za-proizvodnju-i-distribuciju-vode-vodovod-smederevska-palanka-smederevska",
+  "website": "https://www.smederevskapalanka.rs",
+  "phones": [
+   "026/313-160"
+  ],
+  "email": null,
+  "address": "Karađorđeva 61, Smederevska Palanka",
+  "hours": null,
+  "source_url": "https://www.smederevskapalanka.rs/%d1%98%d0%ba%d0%bf-%d0%b2%d0%be%d0%b4%d0%be%d0%b2%d0%be%d0%b4/",
+  "note": "Acting director Srđan Borić per portal. Published e-mail vodovodn@verat.net is an ISP domain (skipped)."
+ },
+ {
+  "org_slug": "opstinska-uprava-smederevska-palanka-smederevska-palanka",
+  "website": "https://www.smederevskapalanka.rs",
+  "phones": [
+   "026/310-122 (centrala)",
+   "026/316-001 (predsedništvo)",
+   "026/317-087 (skupština)"
+  ],
+  "email": "predsednistvo@smederevskapalanka.rs",
+  "address": "Vuka Karadžića 25, 11420 Smederevska Palanka",
+  "hours": null,
+  "source_url": "https://www.smederevskapalanka.rs/kontakt/",
+  "note": "Hours not published. Uprava e-mail not shown separately; sp.predsednistvo@gmail.com skipped (gmail)."
+ },
+ {
+  "org_slug": "javno-komunalno-preduzece-napredak-sokobanja-sokobanja",
+  "website": "https://www.jkpnapredak.rs",
+  "phones": [
+   "018/830-670",
+   "018/833-222",
+   "0800-018-801 (besplatan poziv)"
+  ],
+  "email": "reklamacije@jkpnapredak.rs",
+  "address": "Hajduk Veljkova 22, 18230 Sokobanja",
+  "hours": null,
+  "source_url": "https://jkpnapredak.rs/kontakt/",
+  "note": "Published mailbox soko.napredak@mts.rs is an ISP domain (skipped). Hours not published."
+ },
+ {
+  "org_slug": "opstinska-uprava-sokobanja-sokobanja",
+  "website": "https://sokobanja.ls.gov.rs",
+  "phones": [
+   "018 830 173 (poziv)",
+   "018 830 030 (centrala)"
+  ],
+  "email": "info@opstinasokobanja.com",
+  "address": "Svetog Save 23, 18230 Sokobanja",
+  "hours": "pon-pet 07:00-15:00",
+  "source_url": "https://sokobanja.ls.gov.rs/pisite-nam",
+  "note": "Fax 018 830 253. E-mail on the municipal portal uses the municipality own opstinasokobanja.com domain."
+ },
+ {
+  "org_slug": "javno-komunalno-preduzece-graditelj-srbobran-srbobran",
+  "website": "https://www.jkpgraditelj.rs",
+  "phones": [
+   "021 6230 158 (centrala)",
+   "021 6230 012 (tel/fax)",
+   "021 6230 321 (prijava stanja vode i gasa)",
+   "0800 110 210 (besplatan poziv)",
+   "021 6230 175 (toplana)"
+  ],
+  "email": "office@jkpgraditelj.rs",
+  "address": "Dositeja Obradovića 2, Srbobran",
+  "hours": null,
+  "source_url": "https://jkpgraditelj.rs/kontakt/",
+  "note": "Dispatch (kvarovi) line not labelled on site; free number listed for general service. Hours not published."
+ },
+ {
+  "org_slug": "opstinska-uprava-srbobran-srbobran",
+  "website": "https://www.srbobran.rs",
+  "phones": [
+   "021 731 077",
+   "021 730 020",
+   "021 6230 020 (inspekcija / locals)"
+  ],
+  "email": "info@srbobran.rs",
+  "address": "Trg slobode 2, 21480 Srbobran",
+  "hours": null,
+  "source_url": "https://www.srbobran.rs/kontakt",
+  "note": "Address and first two numbers taken from the Kontakt header; the third is a departmental switchboard printed in the staff list. Hours not published. Other staff mailboxes on the page were obfuscated and skipped."
+ },
+ {
+  "org_slug": "javno-komunalno-preduzece-belilo-sremski-karlovci-sremski-karlovci",
+  "website": "https://jkpbelilo.rs",
+  "phones": [
+   "021-685-3021 (komunalne usluge i pogrebno)",
+   "021-685-3019 (finansije)",
+   "0800-15-15-10 (besplatan poziv, reklamacije)"
+  ],
+  "email": "info@jkpbelilo.co.rs",
+  "address": "Trg Branka Radičevića 1, Sremski Karlovci",
+  "hours": null,
+  "source_url": "https://jkpbelilo.rs/kontakt/",
+  "note": "Parking 021-685-3017 and market 021-685-3025 also listed. No dispatch (kvarovi) line labelled. Hours not published."
+ },
+ {
+  "org_slug": "opstinska-uprava-sremski-karlovci-sremski-karlovci",
+  "website": "https://sremskikarlovci.rs",
+  "phones": [
+   "021/685-3001 (centrala)",
+   "021/685-3002 (uprava)"
+  ],
+  "email": "kabinet@sremskikarlovci.rs",
+  "address": "Trg Branka Radičevića 1, 21205 Sremski Karlovci",
+  "hours": null,
+  "source_url": "https://sremskikarlovci.rs/kontakt/",
+  "note": "Fax 021/685-3076. Hours not published."
+ },
+ {
+  "org_slug": "javno-preduzece-vodovod-surdulica-surdulica",
+  "website": "https://vodsurd.rs",
+  "phones": [
+   "017/825-148"
+  ],
+  "email": "office@vodsurd.rs",
+  "address": "Srpskih vladara 67, 17530 Surdulica",
+  "hours": null,
+  "source_url": "https://vodsurd.rs/",
+  "note": "Fax 017/825-866. Municipal portal lists the utility at Srpskih vladara 78 with 815148 / 815866, a stale variant. Own site is authoritative."
+ },
+ {
+  "org_slug": "opstina-surdulica-opstinska-uprava-surdulica",
+  "website": "https://surdulica.ls.gov.rs",
+  "phones": [
+   "017/825-041"
+  ],
+  "email": "office@surdulica.ls.gov.rs",
+  "address": "Kralja Petra I br. 38, 17530 Surdulica",
+  "hours": "pon-pet 07:00-15:00",
+  "source_url": "https://surdulica.ls.gov.rs/kontakt/",
+  "note": "Portal is the official municipal presentation."
+ },
+ {
+  "org_slug": "komunalno-javno-preduzece-morava-svilajnac-svilajnac",
+  "website": "https://kjpmorava.rs",
+  "phones": [
+   "035/312-250 (tel/faks 07-15 h, prijava havarija)",
+   "035/311-591 (prijava havarija 15-07 h)"
+  ],
+  "email": "Kjpmorava@kjpmorava.rs",
+  "address": "Svetog Save 84, 35210 Svilajnac",
+  "hours": "pon-pet 07:00-15:00",
+  "source_url": "https://kjpmorava.rs/kontakt/",
+  "note": "Site header labels 035/311-591 as after-hours fault line (kvarovi). Older directories show Svetog Save 100."
+ },
+ {
+  "org_slug": "opstinska-uprava-svilajnac-svilajnac",
+  "website": "https://svilajnac.rs",
+  "phones": [
+   "035/312-012",
+   "035/312-010"
+  ],
+  "email": null,
+  "address": "Svetog Save 102, 35210 Svilajnac",
+  "hours": "pon-pet 07:30-15:30",
+  "source_url": "http://svilajnac.rs/kontakt",
+  "note": "Centrala per Kontakt page. No institutional e-mail printed."
+ },
+ {
+  "org_slug": "javno-komunalno-stambeno-preduzece-svrljig-svrljig-svrljig",
+  "website": "https://jksp.svrljig.rs",
+  "phones": [
+   "018/821-174",
+   "0800 373 838 (besplatna linija, reklamacije / prijava kvara)"
+  ],
+  "email": null,
+  "address": "Radetova 27, 18360 Svrljig",
+  "hours": "pon-pet 07:00-15:00",
+  "source_url": "https://jksp.svrljig.rs/kontakt/",
+  "note": "Published mailbox jkspsvrljig@gmail.com skipped (gmail)."
+ },
+ {
+  "org_slug": "opstinska-uprava-svrljig-svrljig",
+  "website": "https://svrljig.rs",
+  "phones": [
+   "018/821-104"
+  ],
+  "email": null,
+  "address": "Radetova 31, 18360 Svrljig",
+  "hours": null,
+  "source_url": "https://svrljig.rs/kontakt/",
+  "note": "Telephone from the page structured data (JS-rendered Kontakt page). No e-mail or hours found."
+ },
+ {
+  "org_slug": "javno-komunalno-preduzece-temerin-temerin-temerin",
+  "website": "https://www.jkptemerin.com",
+  "phones": [
+   "021/843-666 (uprava, 07-15 h)",
+   "021/843-754 (uprava)",
+   "021/843-666 lok. 30 (reklamacije i stanje vodomera)",
+   "021/842-868 (vodosnabdevanje, kvarovi 0-24)",
+   "063/10 421 10 (vodosnabdevanje, kvarovi 0-24)",
+   "021/840-199 (odnošenje smeća i zelenilo, 07-15 h)",
+   "0800-200-770 (besplatna linija za informisanje i reklamacije)"
+  ],
+  "email": "office@jkptemerin.com",
+  "address": "Košut Lajoša 31/1, 21235 Temerin",
+  "hours": "pon-pet 07:00-15:00 (uprava)",
+  "source_url": "https://www.jkptemerin.com/kontakt/",
+  "note": "Address per directories (Košut Lajoša 31/1), not confirmed on the contact page checked. Water-supply fault line is the 0-24 number 021/842-868 or 063/10 421 10."
+ },
+ {
+  "org_slug": "javno-preduzece-gas-temerin-temerin",
+  "website": "https://www.jpgastemerin.rs",
+  "phones": [
+   "021/843-633",
+   "021/843-655",
+   "0800 100 204 (besplatan)",
+   "065/2721-709 (dežurni majstor, kvarovi)"
+  ],
+  "email": "office@jpgastemerin.rs",
+  "address": "Novosadska 421, Temerin",
+  "hours": null,
+  "source_url": "https://www.jpgastemerin.rs/",
+  "note": "Duty technician line 065/2721-709 is the fault line. Hours not published."
+ },
+ {
+  "org_slug": "opstinska-uprava-temerin-temerin",
+  "website": "https://www.temerin.rs",
+  "phones": [
+   "021 843-888 (centrala)",
+   "021 843-691"
+  ],
+  "email": null,
+  "address": "Novosadska 326, Temerin",
+  "hours": null,
+  "source_url": "https://www.temerin.rs/Page.aspx?id=45",
+  "note": "No e-mail or hours printed on the Kontakt page."
+ },
+ {
+  "org_slug": "javno-komunalno-preduzece-komunalac-titel-titel",
+  "website": "https://jkpkomunalactitel.rs",
+  "phones": [
+   "021 2960 200",
+   "0800 303 133 (besplatan poziv)"
+  ],
+  "email": null,
+  "address": "Glavna 14a, 21240 Titel",
+  "hours": null,
+  "source_url": "https://jkpkomunalactitel.rs/kontakt/",
+  "note": "Published mailbox jkp.komunalac.titel@gmail.com skipped (gmail). Fax 021/2960-204 per directories only, not on own site."
+ },
+ {
+  "org_slug": "opstinska-uprava-titel-titel",
+  "website": "https://www.opstinatitel.rs",
+  "phones": [
+   "021 2960 186 (centrala)",
+   "021 2960 165 (centrala)",
+   "021/2961-553 (faks)"
+  ],
+  "email": "uprava@opstinatitel.rs",
+  "address": "Glavna 1, 21240 Titel",
+  "hours": null,
+  "source_url": "https://www.opstinatitel.rs/kontakt/",
+  "note": "Local office heads listed with their own numbers on the same page (not copied). Hours not published."
+ },
+ {
+  "org_slug": "javno-komunalno-stambeno-preduzece-topola-topola-topola-varosica",
+  "website": "https://www.jksptopola.com",
+  "phones": [
+   "034/6811-075 (centrala, tel/faks)",
+   "034 6812-075 (faks)",
+   "0800 001 003 (servis centar)"
+  ],
+  "email": "info@jksptopola.com",
+  "address": "Milivoja Petrovića Blaznavca 6, 34310 Topola",
+  "hours": null,
+  "source_url": "https://www.jksptopola.com/",
+  "note": "Directories list Mila Šelje 6 (older). Own site is authoritative. Hours not on the homepage."
+ },
+ {
+  "org_slug": "opstina-topola-opstinska-uprava-topola",
+  "website": "https://topola.rs",
+  "phones": [
+   "034 6811 008 (centrala)",
+   "034 6811 017 (predsednik)"
+  ],
+  "email": "opstina@topola.com",
+  "address": "Bulevar kralja Aleksandra I 9, 34310 Topola",
+  "hours": "prijem stranaka radnim danom 07:00-15:00",
+  "source_url": "https://topola.rs/kontakt/",
+  "note": "Fax 034/6811-771. Mail domain topola.com is the municipality own domain (not gmail/ISP)."
+ },
+ {
+  "org_slug": "javno-preduzece-komunalac-trgoviste-trgoviste",
+  "website": "https://www.trgoviste.rs/preduzeca_ustanove",
+  "phones": [
+   "017/452-214",
+   "069/2951914"
+  ],
+  "email": null,
+  "address": "Kralja Petra I Karađorđevića 4, Trgovište",
+  "hours": null,
+  "source_url": "https://www.trgoviste.rs/preduzeca_ustanove",
+  "note": "Acting director Bojan Stošić per portal. Published e-mail komunalac.trgoviste@gmail.com skipped (gmail). No dispatch line labelled."
+ },
+ {
+  "org_slug": "opstina-trgoviste-opstinska-uprava-trgoviste",
+  "website": "https://www.trgoviste.rs",
+  "phones": [
+   "017/452-207",
+   "017/452-710",
+   "017/452-203"
+  ],
+  "email": "kabinetpredsednika@trgoviste.rs",
+  "address": "Kralja Petra Prvog 4, 17525 Trgovište",
+  "hours": "pon-pet 07:00-15:00",
+  "source_url": "https://www.trgoviste.rs/contact",
+  "note": "Fax 017/452-709."
+ },
+ {
+  "org_slug": "javno-komunalno-preduzece-ribarice-ribarice",
+  "website": "https://www.tutin.rs/jkp-ribarice/",
+  "phones": [],
+  "email": null,
+  "address": null,
+  "hours": null,
+  "source_url": "https://www.tutin.rs/jkp-ribarice/",
+  "note": "Municipal portal page for JKP Ribariće carries only the generic municipal contact block (no utility-specific numbers). No own website found."
+ },
+ {
+  "org_slug": "javno-komunalno-stambeno-preduzece-gradac-tutin-tutin",
+  "website": "https://www.tutin.rs/preduzeca/jksp-gradac-tutin-2-2/",
+  "phones": [],
+  "email": null,
+  "address": null,
+  "hours": null,
+  "source_url": "https://www.tutin.rs/preduzeca/jksp-gradac-tutin-2-2/",
+  "note": "Municipal portal page for JKSP Gradac carries only the generic municipal contact block (no utility-specific numbers). No own website found."
+ },
+ {
+  "org_slug": "opstinska-uprava-tutin-tutin",
+  "website": "https://www.tutin.rs",
+  "phones": [
+   "020/811-123 (centrala)",
+   "020/811-830 (nacelnik)",
+   "020/811-111 (predsjednistvo)"
+  ],
+  "email": "opstina@tutin.rs",
+  "address": "Bogoljuba Čukića 7, 36320 Tutin (Kontakt page gives seat as Gradski trg, Biznis centar II sprat)",
+  "hours": null,
+  "source_url": "https://www.tutin.rs/dokumenta/ustanove-i-preduzeca/",
+  "note": "Fax 020/811-035. Two different seat addresses appear on the portal."
+ },
+ {
+  "org_slug": "komunalno-javno-preduzece-djunis-ub-ub",
+  "website": "https://www.djunis.rs",
+  "phones": [
+   "0800 115 114 (besplatan poziv)",
+   "014 411 107",
+   "014 411 787",
+   "014/411-143 (vodovod)",
+   "014/412-358 (azil za pse)"
+  ],
+  "email": null,
+  "address": "Vељка Влаховића 6, 14210 Ub",
+  "hours": null,
+  "source_url": "https://www.djunis.rs/sr/kontakt/",
+  "note": "Own site lists djunisub@gmail.com (skipped, gmail). Hours not published."
+ },
+ {
+  "org_slug": "regionalni-centar-za-upravljanje-otpadom-eko-tamnava-d-o-o-ub-kalenic",
+  "website": "https://www.ekotamnava.rs",
+  "phones": [
+   "014/412 415"
+  ],
+  "email": "office@ekotamnava.rs",
+  "address": "Kralja Petra I 60A/2, 14210 Ub",
+  "hours": null,
+  "source_url": "https://www.opstinaub.org.rs/sr/adresar/regionalni-centar-za-upravljanje-otpadom-eko-tamnava-doo-ub-ul-kralja-petra-i-60a-2/",
+  "note": "Listed on the Ub municipal directory; company own site ekotamnava.rs did not respond at check time. Older filing gives Veljka Vlahovića 8 as address. Hours not published."
+ },
+ {
+  "org_slug": "opstina-ub-opstinska-uprava-ub",
+  "website": "https://www.opstinaub.org.rs",
+  "phones": [
+   "014/411-622 (centrala / info-centar)"
+  ],
+  "email": "info@opstinaub.org.rs",
+  "address": "Vojvode Mišića 20 B, 14210 Ub",
+  "hours": null,
+  "source_url": "https://www.opstinaub.org.rs/sr/kontakti/info-centar-opstine-ub/",
+  "note": "Matična služba direct line 014 414 271 (matsluzba@opstinaub.org.rs) per web search, not opened. Hours not published on the pages checked."
+ },
+ {
+  "org_slug": "javno-komunalno-preduzece-varvarin-varvarin-varvarin",
+  "website": "http://www.jkpvarvarin.com",
+  "phones": [
+   "037/788-455"
+  ],
+  "email": null,
+  "address": "Juhorska bb, Tržni centar Lamela V, 37260 Varvarin",
+  "hours": null,
+  "source_url": "https://varvarin.ls.gov.rs/vazni-telefoni/",
+  "note": "Number from the municipal Važni telefoni page. Site domain as printed on portal (jkpvarvarin.com); not opened."
+ },
+ {
+  "org_slug": "opstinska-uprava-varvarin-varvarin",
+  "website": "https://varvarin.ls.gov.rs",
+  "phones": [
+   "+381 37 787 171 (centrala)"
+  ],
+  "email": "kabinet@varvarin.ls.gov.rs",
+  "address": "Marina Marinovića 38, 37260 Varvarin",
+  "hours": null,
+  "source_url": "https://varvarin.ls.gov.rs/kontakt/",
+  "note": "Fax +381 37 789 264. Hours not published."
+ },
+ {
+  "org_slug": "javno-komunalno-preduzece-milos-mitrovic-velika-plana-velika-plana",
+  "website": "https://jkpmilosmitrovic.rs",
+  "phones": [
+   "026/515-009 (centrala)"
+  ],
+  "email": null,
+  "address": "Vojvode Mišića 1, 11320 Velika Plana",
+  "hours": null,
+  "source_url": "https://jkpmilosmitrovic.rs/",
+  "note": "No e-mail printed on the site homepage."
+ },
+ {
+  "org_slug": "javno-komunalno-preduzece-gradska-toplana-velika-plana-velika-plana",
+  "website": null,
+  "phones": [],
+  "email": null,
+  "address": "Despota Stefana 46a, Velika Plana",
+  "hours": null,
+  "source_url": "https://ska-toplana-velika-plana.ls.rs/rs/",
+  "note": "Site has company registry data only (address, director Jovica Radojković); no phone number published."
+ },
+ {
+  "org_slug": "opstinska-uprava-velika-plana-velika-plana",
+  "website": "https://www.velikaplana.rs",
+  "phones": [
+   "026 516 206 (centrala)",
+   "026 516 366",
+   "026 516 318 (uprava)",
+   "026 514 508 (kabinet predsednika)",
+   "026 516 338 (komunalna inspekcija)"
+  ],
+  "email": "opstina@velikaplana.rs",
+  "address": "Milosa Velikog 30, 11320 Velika Plana",
+  "hours": null,
+  "source_url": "https://velikaplana.rs/%d0%ba%d0%be%d0%bd%d1%82%d0%b0%d0%ba%d1%82/",
+  "note": "Hours not published. Local economic development office 026 514-262 also listed."
+ },
+ {
+  "org_slug": "javno-komunalno-preduzece-dunav-veliko-gradiste-veliko-gradiste-veliko-gradiste",
+  "website": "http://jkpdunav.com",
+  "phones": [
+   "012/662-722 (tel/faks)"
+  ],
+  "email": null,
+  "address": "Sremska 1, 12220 Veliko Gradište",
+  "hours": null,
+  "source_url": "https://velikogradiste.rs/jkp-dunav-veliko-gradiste/",
+  "note": "Director Ljubica Mitić per portal. Published e-mail jkpdvg2@gmail.com skipped (gmail)."
+ },
+ {
+  "org_slug": "opstinska-uprava-veliko-gradiste-veliko-gradiste",
+  "website": "https://www.velikogradiste.rs",
+  "phones": [
+   "012/662-489 (usluzni centar)",
+   "012/661-128 (faks)"
+  ],
+  "email": "office@velikogradiste.rs",
+  "address": "Žitni trg 1, 12220 Veliko Gradište",
+  "hours": null,
+  "source_url": "https://velikogradiste.rs/contact/",
+  "note": "Named staff mailboxes exist but only the general office address is used. Hours not published."
+ },
+ {
+  "org_slug": "javno-komunalno-preduzece-izvor-vladimirci-vladimirci",
+  "website": "https://vladimirci.org.rs/web/javno-komunalno-preduzece-izvor-vladimirci/",
+  "phones": [
+   "015/513-460"
+  ],
+  "email": null,
+  "address": "Svetog Save 25, Vladimirci",
+  "hours": null,
+  "source_url": "https://vladimirci.org.rs/web/javno-komunalno-preduzece-izvor-vladimirci/",
+  "note": "Published e-mail jkpizvor@ptt.rs is a legacy postal ISP domain (skipped)."
+ },
+ {
+  "org_slug": "opstinska-uprava-vladimirci-vladimirci",
+  "website": "https://vladimirci.org.rs",
+  "phones": [
+   "015/513-141 (centrala)",
+   "015/513-146 (tel/faks)"
+  ],
+  "email": "sovlad@vladimirci.org.rs",
+  "address": "Svetog Save 34, 15225 Vladimirci",
+  "hours": null,
+  "source_url": "https://vladimirci.org.rs/web/kontakt/",
+  "note": "Chief of administration nacelnikuprave@vladimirci.org.rs is also on the page. Hours not published."
+ },
+ {
+  "org_slug": "javno-preduzece-za-komunalno-uredjenje-vladicin-han-vladicin-han-vladicin-han",
+  "website": "http://komunalnohan.rs",
+  "phones": [
+   "017-473-648"
+  ],
+  "email": "info@komunalnohan.rs",
+  "address": "Vladike Pajsija 17, Vladičin Han",
+  "hours": null,
+  "source_url": "http://komunalnohan.rs/",
+  "note": "Municipal enterprise list also gives jpzakom.uredjenjevh@gmail.com (skipped, gmail)."
+ },
+ {
+  "org_slug": "javno-preduzece-za-vodosnabdevanje-i-kanalizaciju-vodovod-vladicin-han-vladicin-han",
+  "website": "https://www.vodovodhan.rs",
+  "phones": [
+   "0800 350 030 (besplatna info linija)",
+   "017 473 903 (centrala)",
+   "017 473 150 (tehnička služba, kvarovi)"
+  ],
+  "email": null,
+  "address": "Vladike Pajsija 17, 17510 Vladičin Han",
+  "hours": null,
+  "source_url": "https://www.vodovodhan.rs/",
+  "note": "Published mailbox vodovodhan@yahoo.com skipped (ISP-type domain)."
+ },
+ {
+  "org_slug": "opstina-vladicin-han-opstinska-uprava-vladicin-han",
+  "website": "https://www.vladicinhan.org.rs",
+  "phones": [
+   "017-390-500 (listed among department numbers, centrala not labelled)",
+   "017-390-507 (nacelnik)",
+   "017-390-516 (pisarnica)"
+  ],
+  "email": "info@vladicinhan.org.rs",
+  "address": "Svetosavska 1, 17510 Vladičin Han",
+  "hours": null,
+  "source_url": "https://www.vladicinhan.org.rs/Opstine3/Cir/Siteview.asp?ID=450",
+  "note": "Portal page gives a number list without labels; the first listed is treated as switchboard by position only. Third-party directory numbers 017 473 398 / 473 335 conflict and were not used."
+ },
+ {
+  "org_slug": "javna-agencija-za-zoohigijenu-i-poljoprivredu-opstine-vrbas-vrbas",
+  "website": null,
+  "phones": [],
+  "email": null,
+  "address": null,
+  "hours": null,
+  "source_url": null,
+  "note": "Not listed on the municipal portal enterprise list; no official site found in checks. Left empty."
+ },
+ {
+  "org_slug": "javno-komunalno-preduzece-komunalac-vrbas-vrbas",
+  "website": "https://www.komunalacvrbas.rs",
+  "phones": [
+   "021/706-575 (centrala)",
+   "0800 021 102 (info)",
+   "021 706 083 (PJ Čistoća)",
+   "021 706 085 (PJ Vodovod i kanalizacija, 0-24)",
+   "064 847 4308 (kapela, 0-24)"
+  ],
+  "email": "office@komunalacvrbas.rs",
+  "address": null,
+  "hours": null,
+  "source_url": "https://www.komunalacvrbas.rs",
+  "note": "Fault line for water (kvarovi) is the 0-24 Vodovod number 021 706 085; funeral-chapel (kapela) line 064 847 4308. Address not found on the pages checked."
+ },
+ {
+  "org_slug": "javno-komunalno-preduzece-precistac-vrbas-kula-vrbas-vrbas",
+  "website": null,
+  "phones": [],
+  "email": null,
+  "address": null,
+  "hours": null,
+  "source_url": null,
+  "note": "Not listed on the municipal portal enterprise list; no official site found in checks. Left empty."
+ },
+ {
+  "org_slug": "javno-komunalno-preduzece-standard-vrbas-vrbas",
+  "website": "https://jkpstandard.rs",
+  "phones": [
+   "021/706-089 (tel/faks, uprava)"
+  ],
+  "email": null,
+  "address": "Saše Kovačevića 87, 21460 Vrbas (footer); uprava Pete proleterske brigade 1",
+  "hours": null,
+  "source_url": "https://jkpstandard.rs/",
+  "note": "Free line 0800 290 009 is printed as currently out of service. Published e-mail jkpstand@eunet.rs is an ISP domain (skipped)."
+ },
+ {
+  "org_slug": "javno-preduzece-vrbas-gas-za-distribuciju-prirodnog-gasa-vrbas-vrbas",
+  "website": "http://www.vrbasgas.com",
+  "phones": [
+   "021/794-265"
+  ],
+  "email": null,
+  "address": null,
+  "hours": null,
+  "source_url": "http://www.vrbasgas.com",
+  "note": "Telephone/fax from the company site; no address or e-mail found."
+ },
+ {
+  "org_slug": "opstinska-uprava-vrbas-vrbas",
+  "website": "https://www.vrbas.rs",
+  "phones": [
+   "+381 21 7954 000 (centrala)"
+  ],
+  "email": null,
+  "address": "M. Tita 89, 21460 Vrbas",
+  "hours": null,
+  "source_url": "https://www.vrbas.rs/opstina-vrbas/javna-preduzeca",
+  "note": "Switchboard from portal footer; no e-mail or hours found on the pages checked. The portal is vrbas.rs (VRBAS.net internet portal)."
+ },
+ {
+  "org_slug": "opstinska-uprava-vrnjacka-banja-vrnjacka-banja",
+  "website": "https://www.vrnjackabanja.gov.rs",
+  "phones": [
+   "+381 36 601 200 (kontakt telefon)"
+  ],
+  "email": "vrnjci_spa@vrnjackabanja.gov.rs",
+  "address": "Kruševačka 17, 36210 Vrnjačka Banja",
+  "hours": "pon-pet 07:30-15:30",
+  "source_url": "https://www.vrnjackabanja.gov.rs/kontakt/opstinska-uprava-vrnjacka-banja",
+  "note": "Fax +381 36 611 307. Portal has Mesne kancelarije and Javna preduzeća sections (not checked: outside input scope)."
+ }
+]
