@@ -97,7 +97,7 @@ export const getOrgTypes = () =>
     from org_types t where t.is_active order by t.sort_order`;
 
 export const getOrgType = (slug: string) =>
-  sql<OrgType[]>`select id, slug, "group", name_lat, name_cyr, name_plural_lat, description_md, faq_md, icon, sort_order, one_per_jls, national_network from org_types where slug = ${slug}`.then((r) => r[0] ?? null);
+  sql<OrgType[]>`select id, slug, "group", name_lat, name_cyr, name_plural_lat, name_en, name_ru, name_de, description_md, faq_md, icon, sort_order, one_per_jls, national_network from org_types where slug = ${slug}`.then((r) => r[0] ?? null);
 
 const ORG_SELECT = sql`
   select o.id, o.slug, o.name_lat, o.name_cyr, o.official_name_lat, t.slug as type_slug, t.name_lat as type_name, t."group" as group, o.jurisdiction,

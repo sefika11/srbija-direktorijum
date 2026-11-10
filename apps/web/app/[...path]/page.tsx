@@ -8,7 +8,7 @@ import { PartnersPage } from "@/components/partners";
 import { VisaHub, CountryPage } from "@/components/visa";
 import { cookies } from "next/headers";
 import * as db from "@/lib/db";
-import { LOCALES, HREFLANG, href, splitLocale, t, type Locale } from "@/lib/i18n";
+import { LOCALES, HREFLANG, href, splitLocale, t, tn, type Locale } from "@/lib/i18n";
 
 export const revalidate = 86400;
 export const dynamicParams = true;
@@ -70,7 +70,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     case "guide": { const c = guideContent(r.guide, locale).c; return { ...base, title: `${c.title ?? r.guide.name_lat} – ${GUIDE_LABELS[locale].documents.toLowerCase()}, ${GUIDE_LABELS[locale].fees.toLowerCase()}, ${GUIDE_LABELS[locale].whereToGo.toLowerCase()}`, description: c.summary ?? r.guide.summary ?? undefined }; }
     case "okrug": return { ...base, title: `${r.unit.name_lat} – ${locale === "sr" ? "gradovi, opštine i institucije" : d.institutions}`, description: `${d.allInstitutionsIn} ${r.unit.name_lat}: ${d.tagline}` };
     case "unit": return { ...base, title: `${tuLabel(r.unit)} – ${locale === "sr" ? "institucije, adrese, telefoni" : d.institutions}`, description: `${d.allInstitutionsIn} ${r.unit.name_lat}. ${d.tagline}` };
-    case "type": return { ...base, title: `${r.type.name_plural_lat ?? r.type.name_lat} – ${locale === "sr" ? "spisak po gradovima" : "by city"}` };
+    case "type": return { ...base, title: `${tn(r.type, locale)} – ${locale === "sr" ? "spisak po gradovima" : locale === "en" ? "by city" : locale === "ru" ? "по городам" : "nach Stadt"}` };
     case "org": return { ...base, title: `${r.org.name_lat}${r.org.founder_name && !r.org.name_lat.includes(r.org.founder_name) ? ` ${r.org.founder_name}` : ""} – ${locale === "sr" ? "adresa, telefon, radno vreme" : "address, phone, hours"}`,
       description: `${r.org.name_lat}: ${d.contactAndAddress.toLowerCase()}, ${d.hours.toLowerCase()}, ${d.jurisdiction.toLowerCase()}. ${r.type.name_lat}${r.org.founder_name ? `, ${r.org.founder_name}` : ""}.` };
   }

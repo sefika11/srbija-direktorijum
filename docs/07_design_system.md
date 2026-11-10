@@ -386,3 +386,26 @@ order, text size, layout shift, console), then hands-on keyboard and tap flows.
   Grocka, the Bubanj fists for Niš-Palilula, Pobednik for the City of Belgrade and the Temple for Vračar). Places with
   no single famous building get what they are honestly known for (a river, a plain, a fruit), never an invented sight.
 - **Adding or changing one**: edit the row in `landmark-table.mjs` and the name in `landmarks.json`, render that key.
+
+## 25. Scale rules that came out of the second audit (2026-11-10, after the registry batch)
+
+The site went from 15,000 to 28,000 entries in a day and pages that listed "everything" broke. Rules now in force:
+
+- **No page lists by the thousand.** A city or municipality page shows each type that is small there in full (up to 12)
+  and one tile per larger type with its count; the tile opens `/<type>?mesto=<place>` (city municipalities:
+  `mesto=<city>/<municipality>`). A type page over 250 rows is paged (60 a page) with name, place and, where set,
+  field filters. A national network on one page (bank branches, post offices) uses light one-line rows.
+- **A one-city district is the city.** `/okrug/grad-beograd` redirects to `/beograd`; the home map and district tiles
+  link there directly; the city page drops the district crumb.
+- **City municipalities are looked up inside their city** (`getGO(parentId, slug)`): Belgrade and Niš both have a Palilula.
+- **Counts per unit are one grouped query** (`UNIT_COUNTS` in `lib/db.ts`), never a correlated subquery per unit.
+- **An entry's page says only what is true of it.** "Osnivač" appears only for budget users (they have a JBKJS); the
+  source sentence and the correction block name the real source from `provenance`; register facts stored with the
+  entry are shown with readable labels (`FACT_LABEL`), technical keys stay hidden.
+- **People are not institutions.** Person registers (experts, mediators, administrators, appraisers, interpreters,
+  notaries, enforcement officers, lawyers) are counted as "upisanih u registar".
+- **Type names follow the locale** in the heading and the page title.
+- **Audit method** (repeatable): a sweep of every page kind from the database (all districts, cities, municipalities
+  and types, two entries per type, guides, a sample of countries, the other locales, filters and not-found), recording
+  status, time, size, missing headings and raw-data leaks; then a sample of 700 internal links and all emblem images;
+  then the main journey in a real browser with the console open.
