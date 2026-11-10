@@ -9,52 +9,59 @@
    ===================================================================== */
 
 /* ---------- 1. Tokens ---------- */
+/* Theme v5 "Trobojka": Serbian heritage colours. Flag red #C6363C, flag blue #0C4076, white; navy ink; royal gold for paid marks. */
 :root {
-  --bg: #f4f3ee;
+  --bg: #f6f4ef;
   --surface: #ffffff;
-  --surface-2: #ebe9e2;
-  --ink: #1a1a18;
-  --muted: #676a73;
-  --line: #dcdad2;
-  --line-strong: #b9b6ab;
-  --accent: #2347e6;
-  --accent-ink: #1a35b0;
-  --accent-soft: #e9edfb;
-  --red: #c8313a;
-  --red-soft: #fbeaea;
-  --gold: #8a6a1c;
+  --surface-2: #ece9e1;
+  --ink: #0f1b2d;
+  --muted: #586274;
+  --line: #d9d5cb;
+  --line-strong: #b6b0a3;
+  --accent: #0c4076;
+  --accent-ink: #092f58;
+  --accent-soft: #e3ebf5;
+  --red: #c6363c;
+  --red-soft: #fbe8e8;
+  --gold: #b8912d;
   --gold-soft: #f6efd9;
-  --brick: #c8313a;
-  --brick-soft: #fbeaea;
+  --brick: #c6363c;
+  --brick-soft: #fbe8e8;
   --moss: #1f7a4d;
   --moss-soft: #e2f2e9;
-  --ad: #6b6e76;
-  --ad-soft: #ebe9e2;
+  --ad: #586274;
+  --ad-soft: #ece9e1;
   --font-sans: "Commissioner Variable", "Commissioner", system-ui, -apple-system, "Segoe UI", sans-serif;
   --font-display: "Unbounded Variable", "Unbounded", "Commissioner Variable", system-ui, sans-serif;
   --font-serif: "Bona Nova", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
   --font-mono: "JetBrains Mono Variable", "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
-  --radius: 8px;
+  --radius: 10px;
   --radius-pill: 999px;
   --dur: .22s;
   --ease: cubic-bezier(.4, 0, .2, 1);
   --ease-out: cubic-bezier(.16, 1, .3, 1);
-  --shadow-pop: 0 12px 32px -16px rgb(21 22 26 / .25), 0 1px 2px rgb(21 22 26 / .06);
+  --shadow-1: 0 1px 2px rgb(15 27 45 / .06), 0 1px 0 rgb(255 255 255 / .8) inset;
+  --shadow-2: 0 2px 4px rgb(15 27 45 / .06), 0 14px 32px -18px rgb(15 27 45 / .28), 0 1px 0 rgb(255 255 255 / .8) inset;
+  --shadow-3: 0 6px 10px -6px rgb(15 27 45 / .16), 0 28px 60px -28px rgb(15 27 45 / .38), 0 1px 0 rgb(255 255 255 / .9) inset;
+  --shadow-pop: var(--shadow-3);
+  --pattern-ink: rgb(15 27 45 / .055);
   color-scheme: light;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #121317; --surface: #191a1f; --surface-2: #22242b; --ink: #ecebe6; --muted: #9c9fa8; --line: #2c2e36; --line-strong: #454855;
-    --accent: #8ea4ff; --accent-ink: #b4c3ff; --accent-soft: #1d2340; --red: #e26b70; --red-soft: #3a1f22; --gold: #d2b15a; --gold-soft: #332b17;
-    --brick: #e26b70; --brick-soft: #3a1f22; --moss: #7cc9a0; --moss-soft: #1b3327; --ad: #8e9cab; --ad-soft: #1f2632;
-    --shadow-pop: 0 12px 32px -16px rgb(0 0 0 / .6), 0 1px 2px rgb(0 0 0 / .4); color-scheme: dark;
+    --bg: #0d1526; --surface: #132038; --surface-2: #1b2a46; --ink: #eef1f6; --muted: #9aa6bd; --line: #27385a; --line-strong: #3b4f78;
+    --accent: #6f9fdc; --accent-ink: #9bbdf0; --accent-soft: #1a2d4d; --red: #e0545a; --red-soft: #3a1f26; --gold: #d7b35a; --gold-soft: #332b17;
+    --brick: #e0545a; --brick-soft: #3a1f26; --moss: #7cc9a0; --moss-soft: #1b3327; --ad: #9aa6bd; --ad-soft: #1b2a46;
+    --shadow-1: 0 1px 2px rgb(0 0 0 / .4), 0 1px 0 rgb(255 255 255 / .05) inset; --shadow-2: 0 2px 4px rgb(0 0 0 / .4), 0 14px 32px -18px rgb(0 0 0 / .7), 0 1px 0 rgb(255 255 255 / .06) inset; --shadow-3: 0 6px 10px -6px rgb(0 0 0 / .5), 0 28px 60px -28px rgb(0 0 0 / .8), 0 1px 0 rgb(255 255 255 / .07) inset; --shadow-pop: var(--shadow-3);
+    --pattern-ink: rgb(255 255 255 / .05); color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
-  --bg: #121317; --surface: #191a1f; --surface-2: #22242b; --ink: #ecebe6; --muted: #9c9fa8; --line: #2c2e36; --line-strong: #454855;
-  --accent: #8ea4ff; --accent-ink: #b4c3ff; --accent-soft: #1d2340; --red: #e26b70; --red-soft: #3a1f22; --gold: #d2b15a; --gold-soft: #332b17;
-  --brick: #e26b70; --brick-soft: #3a1f22; --moss: #7cc9a0; --moss-soft: #1b3327; --ad: #8e9cab; --ad-soft: #1f2632;
-  --shadow-pop: 0 12px 32px -16px rgb(0 0 0 / .6), 0 1px 2px rgb(0 0 0 / .4); color-scheme: dark;
+  --bg: #0d1526; --surface: #132038; --surface-2: #1b2a46; --ink: #eef1f6; --muted: #9aa6bd; --line: #27385a; --line-strong: #3b4f78;
+  --accent: #6f9fdc; --accent-ink: #9bbdf0; --accent-soft: #1a2d4d; --red: #e0545a; --red-soft: #3a1f26; --gold: #d7b35a; --gold-soft: #332b17;
+  --brick: #e0545a; --brick-soft: #3a1f26; --moss: #7cc9a0; --moss-soft: #1b3327; --ad: #9aa6bd; --ad-soft: #1b2a46;
+  --shadow-1: 0 1px 2px rgb(0 0 0 / .4), 0 1px 0 rgb(255 255 255 / .05) inset; --shadow-2: 0 2px 4px rgb(0 0 0 / .4), 0 14px 32px -18px rgb(0 0 0 / .7), 0 1px 0 rgb(255 255 255 / .06) inset; --shadow-3: 0 6px 10px -6px rgb(0 0 0 / .5), 0 28px 60px -28px rgb(0 0 0 / .8), 0 1px 0 rgb(255 255 255 / .07) inset; --shadow-pop: var(--shadow-3);
+  --pattern-ink: rgb(255 255 255 / .05); color-scheme: dark;
 }
 
 @theme inline {
@@ -462,22 +469,63 @@ form[role="search"] input[type="search"]::-webkit-search-cancel-button, form[rol
 
 /* ---------- 25. Dark mode polish (the register in the dark: deeper panels, visible hairlines, lifted controls) ---------- */
 @media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) { --line: #343743; --line-strong: #4b4f5c; --surface-2: #24262e; }
 }
-:root[data-theme="dark"] { --line: #343743; --line-strong: #4b4f5c; --surface-2: #24262e; }
 @media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) .sp-panel { background: color-mix(in oklab, #1e2027 94%, transparent); border-color: color-mix(in oklab, #fff 14%, transparent); box-shadow: 0 24px 60px -20px rgb(0 0 0 / .7); }
+  :root:not([data-theme="light"]) .sp-panel { background: color-mix(in oklab, var(--surface) 94%, transparent); border-color: color-mix(in oklab, #fff 14%, transparent); box-shadow: 0 24px 60px -20px rgb(0 0 0 / .7); }
   :root:not([data-theme="light"]) .sp-row.is-active { background: color-mix(in oklab, #fff 9%, transparent); }
   :root:not([data-theme="light"]) .sp-ico { background: color-mix(in oklab, #fff 7%, transparent); }
   :root:not([data-theme="light"]) .quick-chip { background: color-mix(in oklab, #fff 5%, transparent); }
   :root:not([data-theme="light"]) .sp-kbd, :root:not([data-theme="light"]) .sp-foot kbd { background: color-mix(in oklab, #fff 6%, transparent); }
-  :root:not([data-theme="light"]) .m3-stage { background: radial-gradient(70% 60% at 50% 40%, #232a44 0%, #16171c 75%); border-color: #343743; }
-  :root:not([data-theme="light"]) .m3-dock, :root:not([data-theme="light"]) .map-chip, :root:not([data-theme="light"]) .m3-label::before { background: color-mix(in oklab, #1e2027 84%, transparent); }
+  :root:not([data-theme="light"]) .m3-stage { background: radial-gradient(70% 60% at 50% 40%, var(--accent-soft) 0%, var(--bg) 75%); border-color: var(--line); }
+  :root:not([data-theme="light"]) .m3-dock, :root:not([data-theme="light"]) .map-chip, :root:not([data-theme="light"]) .m3-label::before { background: color-mix(in oklab, var(--surface) 84%, transparent); }
   :root:not([data-theme="light"]) .sp-title mark { background: color-mix(in oklab, var(--gold) 38%, transparent); color: #fff; }
-  :root:not([data-theme="light"]) .btn-primary { background: #ecebe6; color: #121317; } :root:not([data-theme="light"]) .btn-primary:hover { background: #fff; color: #121317; }
-  :root:not([data-theme="light"]) form[role="search"] button[type="submit"] { background: #ecebe6 !important; color: #121317 !important; }
+
 }
 
 /* ---------- 26. Search input: no native focus ring in any engine (Safari draws its own on type=search) ---------- */
 form[role="search"] input[type="search"] { -webkit-appearance: none; appearance: none; outline: none !important; box-shadow: none !important; border: 0 !important; border-radius: 0 !important; background: transparent !important; }
 form[role="search"] input[type="search"]:focus, form[role="search"] input[type="search"]:focus-visible, form[role="search"] input[type="search"]:-webkit-autofill { outline: none !important; box-shadow: none !important; }
+
+/* ---------- 27. Theme v5 depth system: heritage pattern, layered surfaces, raised controls, tilt on pointer ---------- */
+/* heritage lattice: diamond grid with a firesteel (ocilo) mark at each node, drawn once as a tile */
+body::before { content: ""; position: fixed; inset: 0; z-index: -1; pointer-events: none; opacity: 1;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 64 64'><g fill='none' stroke='%230f1b2d' stroke-opacity='.075' stroke-width='1'><path d='M0 32 L32 0 L64 32 L32 64 Z'/><path d='M32 22 a10 10 0 1 0 0 20 M32 22 a10 10 0 1 1 0 20' stroke-opacity='.05'/><path d='M27 32 h10 M32 27 v10' stroke-opacity='.09'/></g></svg>");
+  background-size: 64px 64px; mask-image: radial-gradient(120% 90% at 50% 10%, transparent 0%, #000 55%); -webkit-mask-image: radial-gradient(120% 90% at 50% 10%, transparent 0%, #000 55%); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) body::before { filter: invert(1); opacity: .5; } }
+:root[data-theme="dark"] body::before { filter: invert(1); opacity: .5; }
+/* tricolour ribbon: raised, not a hairline */
+.tricolor, .tricolor-thin { height: 4px; background: linear-gradient(90deg, var(--red) 0 33.33%, #fff 33.33% 66.66%, var(--accent) 66.66% 100%); box-shadow: 0 1px 2px rgb(15 27 45 / .25); }
+/* surfaces */
+.card { box-shadow: var(--shadow-1); border-color: color-mix(in oklab, var(--line) 85%, transparent); }
+.card-hover { transition: transform .45s var(--ease-out), box-shadow .45s var(--ease-out), border-color var(--dur) var(--ease); }
+@media (hover: hover) { .card-hover:hover { transform: translateY(-3px); box-shadow: var(--shadow-3); border-color: var(--line-strong); } }
+.guide-card, .bento-card, .lang-tile, .featured-card, .vital, .visa-tile, .m3-stage, .sp-panel, .m3-dock { box-shadow: var(--shadow-2); }
+.guide-card::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 4px; background: linear-gradient(180deg, var(--red) 0 33%, #fff 33% 66%, var(--accent) 66% 100%); }
+@media (hover: hover) { .guide-card:hover, .bento-card:hover, .lang-tile:hover { transform: translateY(-3px); box-shadow: var(--shadow-3); } }
+.guide-card, .bento-card, .lang-tile { transition: transform .45s var(--ease-out), box-shadow .45s var(--ease-out), border-color var(--dur) var(--ease); }
+/* pointer tilt on spot cards (ratios set by HeroFX) */
+@media (hover: hover) and (pointer: fine) {
+  .spot { transform-style: preserve-3d; }
+  .spot:hover { transform: perspective(900px) rotateX(calc((var(--ry, .5) - .5) * -5deg)) rotateY(calc((var(--rx, .5) - .5) * 7deg)) translateY(-3px); }
+}
+/* raised controls */
+.btn-primary, form[role="search"] button[type="submit"] { background: linear-gradient(180deg, color-mix(in oklab, var(--ink) 88%, #fff) 0%, var(--ink) 55%, color-mix(in oklab, var(--ink) 80%, #000) 100%) !important; color: var(--bg) !important; box-shadow: 0 1px 0 rgb(255 255 255 / .18) inset, 0 2px 0 color-mix(in oklab, var(--ink) 70%, #000), 0 8px 18px -10px rgb(15 27 45 / .5); }
+.btn-primary:hover, form[role="search"] button[type="submit"]:hover { background: linear-gradient(180deg, color-mix(in oklab, var(--accent) 85%, #fff) 0%, var(--accent) 55%, var(--accent-ink) 100%) !important; color: #fff !important; }
+.btn-primary:active, form[role="search"] button[type="submit"]:active { transform: translateY(1px); box-shadow: 0 1px 0 rgb(255 255 255 / .1) inset, 0 1px 0 color-mix(in oklab, var(--ink) 70%, #000); }
+.quick-chip, .map-btn, .map-chip, .vital-num, .visa-pill, .sp-kbd { box-shadow: 0 1px 0 rgb(255 255 255 / .7) inset, 0 1px 2px rgb(15 27 45 / .08); }
+.quick-chip:hover, .map-btn:hover { box-shadow: 0 1px 0 rgb(255 255 255 / .7) inset, 0 6px 14px -8px rgb(15 27 45 / .35); }
+/* bento bars become a tricolour fill in an inset track */
+.bento-card .bar { height: 6px; border-radius: 3px; background: var(--surface-2); box-shadow: 0 1px 2px rgb(15 27 45 / .15) inset; }
+.bento-card .bar > i { border-radius: 3px; background: linear-gradient(90deg, var(--red) 0%, var(--accent) 100%); box-shadow: 0 1px 0 rgb(255 255 255 / .4) inset; }
+/* openings and band plates */
+.hero-open { background: radial-gradient(60% 55% at 12% 18%, color-mix(in oklab, var(--accent) 10%, transparent) 0%, transparent 60%), radial-gradient(50% 45% at 92% 90%, color-mix(in oklab, var(--red) 9%, transparent) 0%, transparent 60%), var(--bg); }
+.hero-light { background: radial-gradient(60% 55% at 10% 10%, color-mix(in oklab, var(--accent) 8%, transparent) 0%, transparent 60%), var(--bg); }
+.band-primary { background: var(--surface); box-shadow: 0 1px 0 rgb(255 255 255 / .8) inset, 0 -1px 0 rgb(15 27 45 / .05) inset; }
+.site-header { box-shadow: 0 1px 0 rgb(255 255 255 / .5) inset, 0 10px 30px -22px rgb(15 27 45 / .35); }
+.site-footer { background: linear-gradient(180deg, var(--bg) 0%, var(--surface-2) 100%); }
+/* eyebrow dash in flag red, numbers in navy ink */
+.eyebrow::before { background: var(--red); height: 3px; border-radius: 1px; }
+.stat-strip .num, .bento-card .big, .m3-num, .opener-count .num { color: var(--ink); }
+/* passport + globe plates */
+.hub-glyph, .org-glyph { box-shadow: var(--shadow-2); background: radial-gradient(70% 70% at 50% 35%, var(--surface) 0%, var(--surface-2) 100%); }
+@media (prefers-reduced-motion: reduce) { .spot:hover, .card-hover:hover, .guide-card:hover, .bento-card:hover, .lang-tile:hover { transform: none; } }

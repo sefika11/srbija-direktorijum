@@ -36,7 +36,7 @@ export default function HeroFX() {
     const onHero = (e: PointerEvent) => { const r = hero!.getBoundingClientRect(); hx = e.clientX - r.left; hy = e.clientY - r.top; if (!pending) { pending = true; requestAnimationFrame(flush); } };
     if (hero) { hero.addEventListener("pointermove", onHero, { passive: true }); hero.classList.add("has-light"); cleanups.push(() => { hero.removeEventListener("pointermove", onHero); hero.classList.remove("has-light"); }); }
     const spots = Array.from(document.querySelectorAll<HTMLElement>(".spot"));
-    const onSpot = (e: PointerEvent) => { const el = e.currentTarget as HTMLElement; const r = el.getBoundingClientRect(); el.style.setProperty("--x", `${e.clientX - r.left}px`); el.style.setProperty("--y", `${e.clientY - r.top}px`); };
+    const onSpot = (e: PointerEvent) => { const el = e.currentTarget as HTMLElement; const r = el.getBoundingClientRect(); const x = e.clientX - r.left, y = e.clientY - r.top; el.style.setProperty("--x", `${x}px`); el.style.setProperty("--y", `${y}px`); el.style.setProperty("--rx", (x / r.width).toFixed(3)); el.style.setProperty("--ry", (y / r.height).toFixed(3)); };
     spots.forEach((el) => el.addEventListener("pointermove", onSpot, { passive: true }));
     cleanups.push(() => spots.forEach((el) => el.removeEventListener("pointermove", onSpot)));
 

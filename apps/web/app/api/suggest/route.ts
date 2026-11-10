@@ -7,6 +7,7 @@ export async function GET(req: Request) {
   const q = (u.searchParams.get("q") ?? "").slice(0, 80);
   const l = (u.searchParams.get("l") ?? "sr") as Locale;
   if (q.trim().length < 2) return NextResponse.json([]);
-  const items = await suggest(q, LOCALES.includes(l) ? l : "sr");
+  const scope = (u.searchParams.get("scope") ?? "").slice(0, 80) || null;
+  const items = await suggest(q, LOCALES.includes(l) ? l : "sr", scope);
   return NextResponse.json(items, { headers: { "cache-control": "public, s-maxage=600, stale-while-revalidate=86400" } });
 }

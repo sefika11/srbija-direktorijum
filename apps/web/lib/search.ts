@@ -224,24 +224,25 @@ async function orgPhones(slugs: string[]): Promise<Record<string, string>> {
   return Object.fromEntries(rows.map((r) => [r.slug, r.phone]));
 }
 
-export async function suggest(q: string, locale: Locale): Promise<Suggestion[]> {
+export async function suggest(q: string, locale: Locale, scopeSlug?: string | null): Promise<Suggestion[]> {
   const tokens = tokenize(q);
   if (!tokens.length) return [];
-  const det = await detectPlace(tokens);
+  let det = await detectPlace(tokens);
+  if (scopeSlug) { const u = (await units()).find((x) => x.slug === scopeSlug); if (u) det = { place: u, used: det?.used ?? new Set<number>() }; }
   const intentTokens = det ? tokens.filter((_, i) => !det.used.has(i)) : tokens;
   const intent = intentTokens.join(" ");
   const syn = await synonyms(intentTokens);
   const [guides, types, places, orgs, countries, icons] = await Promise.all([
     matchGuides(intent, intentTokens, syn, 3), matchTypes(intent, intentTokens, syn, 4),
-    det ? Promise.resolve([det.place]) : placesLike(tokens, 3), intent ? matchOrgs(intent, det?.place.path ?? null, 6) : Promise.resolve([]),
-    matchCountries(intentTokens, locale, 3).catch(() => []), typeIcons(),
+    det && !scopeSlug ? Promise.resolve([det.place]) : scopeSlug ? Promise.resolve([]) : placesLike(tokens, 3), intent ? matchOrgs(intent, det?.place.path ?? null, scopeSlug ? 10 : 6) : Promise.resolve([]),
+    scopeSlug ? Promise.resolve([]) : matchCountries(intentTokens, locale, 3).catch(() => []), typeIcons(),
   ]);
   const branchTypes = [...new Set([...types.map((t) => t.slug), ...syn.filter((x) => x.kind === "type").map((x) => x.slug)])].slice(0, 4);
-  const [phones, branches] = await Promise.all([orgPhones(orgs.map((o) => o.slug)).catch(() => ({} as Record<string, string>)), matchBranches(branchTypes, det?.place.path ?? null, 6).catch(() => [] as BranchHit[])]);
+  const [phones, branches] = await Promise.all([orgPhones(orgs.map((o) => o.slug)).catch(() => ({} as Record<string, string>)), matchBranches(branchTypes, det?.place.path ?? null, scopeSlug ? 10 : 6).catch(() => [] as BranchHit[])]);
   const out: Suggestion[] = [];
   const folded = fold(cyrToLat(q));
   for (const a of ACTIONS) if (a.re.test(folded)) out.push({ kind: "action", href: `tel:${a.tel}`, title: a.title[locale], sub: a.tel.replace(/^0800/, "0800 "), tel: a.tel, icon: a.tel === "192" ? "shield" : a.tel === "193" ? "flame" : a.tel === "194" ? "heart-pulse" : a.tel === "1987" ? "car" : "zap" });
-  for (const sec of SECTIONS) if (tokens.some((t) => t.length >= 3 && sec.keys.some((k) => t.startsWith(fold(k)) || fold(k).startsWith(t)))) out.push({ kind: "section", href: href(locale, sec.path), title: sec.title[locale], sub: sec.sub[locale], icon: sec.icon });
+  for (const sec of scopeSlug ? [] : SECTIONS) if (tokens.some((t) => t.length >= 3 && sec.keys.some((k) => t.startsWith(fold(k)) || fold(k).startsWith(t)))) out.push({ kind: "section", href: href(locale, sec.path), title: sec.title[locale], sub: sec.sub[locale], icon: sec.icon });
   const placeQ = det ? `?opstina=${det.place.level === "gradska_opstina" ? det.place.parent_slug : det.place.slug}` : "";
   for (const g of guides) { const c = g.guide[locale] ?? g.guide.en ?? g.guide.sr ?? {}; out.push({ kind: "guide", href: href(locale, `/vodic/${g.slug}${det && det.place.level !== "okrug" ? placeQ : ""}`), title: c.title ?? g.name_lat, sub: det ? det.place.name_lat : g.category_name, icon: "file-text" }); }
   for (const t of types) out.push({ kind: "type", href: href(locale, det && det.place.level !== "okrug" ? `/${det.place.level === "gradska_opstina" ? det.place.parent_slug : det.place.slug}#${t.group}` : `/${t.slug}`), title: t.name_plural_lat ?? t.name_lat, sub: det ? det.place.name_lat : null, icon: t.icon, count: t.org_count });

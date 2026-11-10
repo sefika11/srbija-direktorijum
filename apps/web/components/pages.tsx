@@ -267,6 +267,7 @@ export async function OkrugHub({ locale, okrug }: { locale: Locale; okrug: db.TU
           <div className="eyebrow mt-4">{d.okrug}</div>
           <h1 className="display-sm text-[34px] sm:text-[44px]">{okrug.official_name_lat ?? okrug.name_lat}</h1>
           <p className="text-muted mt-3 tabular lede">{okrug.seat_name_lat ? `${d.seat}: ${okrug.seat_name_lat} · ` : ""}{jls.length} {d.municipalities} · {jls.reduce((n, j) => n + j.org_count, 0).toLocaleString("sr-Latn")} {d.institutions}</p>
+          <div className="mt-5"><SearchBox locale={locale} large placeholder="" submitLabel={d.search} scope={{ slug: okrug.slug, label: okrug.name_lat }} /></div>
         </div>
         <MapStage locale={locale} labels={L3D[locale]} hint={L3D[locale].hintUnits} cls="is-hub"
                   features={JLS_SHAPES.filter((s) => s.okrug === okrug.slug).flatMap((s) => { const j = jls.find((x) => x.slug === s.slug); return j ? [{ key: s.slug, d: s.d, cx: s.cx, cy: s.cy, bbox: s.bbox, name: j.name_lat, sub: j.jls_kind === "grad" ? d.city : d.municipality, count: j.org_count, href: href(locale, `/${j.slug}`), stats: [{ v: j.org_count.toLocaleString("sr-Latn"), l: d.institutions }] } satisfies Feature3D] : []; })}
@@ -307,6 +308,7 @@ export async function UnitHub({ locale, unit, parent }: { locale: Locale; unit: 
       <div className="eyebrow mt-4">{unit.level === "gradska_opstina" ? d.gradskaOpstina : unit.jls_kind === "grad" ? d.city : d.municipality}{okrug && unit.level === "jls" ? ` · ${okrug.name_lat}` : ""}</div>
       <h1 className="display-sm text-[34px] sm:text-[44px]">{tuLabel(unit)}</h1>
       <p className="text-muted mt-3 tabular lede">{orgs.length.toLocaleString("sr-Latn")} {d.institutions}{unit.website ? <> · <a href={unit.website} rel="noopener">{d.website} ↗</a></> : null}</p>
+      <div className="mt-5"><SearchBox locale={locale} large placeholder="" submitLabel={d.search} scope={{ slug: unit.slug, label: unit.name_lat }} /></div>
       </div>
       {(() => {
         const citySlug = unit.level === "gradska_opstina" && parent ? parent.slug : unit.slug;

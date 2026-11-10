@@ -19,7 +19,7 @@ export function Header({ locale, path }: { locale: Locale; path: string }) {
             <span className="hidden md:block font-mono text-[10.5px] text-muted tracking-[.12em] uppercase">{locale === "sr" ? "Sve institucije Srbije" : locale === "en" ? "Every institution in Serbia" : locale === "ru" ? "Все учреждения Сербии" : "Alle Einrichtungen Serbiens"}</span>
           </span>
         </Link>
-        <div className="flex-1 min-w-[260px] hidden lg:flex justify-center"><SearchBox locale={locale} placeholder={d.searchPlaceholder} submitLabel={d.search} /></div>
+        {path !== "/" ? <div className="flex-1 min-w-[260px] hidden lg:flex justify-center"><SearchBox locale={locale} placeholder={d.searchPlaceholder} submitLabel={d.search} /></div> : <div className="flex-1" />}
         <nav className="flex items-center gap-3 text-[13.5px] ml-auto">
           <Link href={href(locale, "/vodici")} className="no-underline text-ink hover:text-accent hidden sm:inline-flex items-center gap-1.5">{locale === "sr" ? "Vodiči" : locale === "en" ? "Guides" : locale === "ru" ? "Инструкции" : "Anleitungen"}</Link>
           <Link href={href(locale, "/za-strance")} className="no-underline text-ink hover:text-accent hidden md:inline-flex items-center gap-1.5 whitespace-nowrap"><Icon.globe />{d.forForeigners}</Link>

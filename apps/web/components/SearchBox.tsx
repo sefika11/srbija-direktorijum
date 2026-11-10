@@ -44,7 +44,7 @@ const RECENT_KEY = "gdi-recent";
 const readRecent = (): string[] => { try { return JSON.parse(localStorage.getItem(RECENT_KEY) || "[]"); } catch { return []; } };
 const pushRecent = (q: string) => { try { const r = [q, ...readRecent().filter((x) => x !== q)].slice(0, 6); localStorage.setItem(RECENT_KEY, JSON.stringify(r)); } catch { /* storage blocked */ } };
 
-export default function SearchBox({ locale, defaultValue = "", large = false, placeholder, submitLabel }: { locale: Locale; defaultValue?: string; large?: boolean; placeholder: string; submitLabel: string }) {
+export default function SearchBox({ locale, defaultValue = "", large = false, placeholder, submitLabel, scope }: { locale: Locale; defaultValue?: string; large?: boolean; placeholder: string; submitLabel: string; scope?: { slug: string; label: string } }) {
   const router = useRouter(); const id = useId(); const T = L[locale];
   const [q, setQ] = useState(defaultValue);
   const [items, setItems] = useState<Suggestion[]>([]);
@@ -66,14 +66,14 @@ export default function SearchBox({ locale, defaultValue = "", large = false, pl
   }, []);
   useEffect(() => {
     if (timer.current) clearTimeout(timer.current);
-    const key = `${locale}|${q.trim().toLowerCase()}`;
+    const key = `${locale}|${scope?.slug ?? ""}|${q.trim().toLowerCase()}`;
     if (!dirty || q.trim().length < 2) { setItems([]); setLoading(false); return; }
     if (cache.current.has(key)) { setItems(cache.current.get(key)!); setActive(-1); return; }
     setLoading(true);
     timer.current = setTimeout(async () => {
       abort.current?.abort(); const ac = new AbortController(); abort.current = ac;
       try {
-        const r = await fetch(`/api/suggest?q=${encodeURIComponent(q.trim())}&l=${locale}`, { signal: ac.signal });
+        const r = await fetch(`/api/suggest?q=${encodeURIComponent(q.trim())}&l=${locale}${scope ? `&scope=${encodeURIComponent(scope.slug)}` : ""}`, { signal: ac.signal });
         if (r.ok) { const data: Suggestion[] = await r.json(); cache.current.set(key, data); setItems(data); setOpen(true); setActive(-1); }
       } catch { /* aborted */ } finally { setLoading(false); }
     }, 110);
@@ -82,7 +82,7 @@ export default function SearchBox({ locale, defaultValue = "", large = false, pl
 
   const grouped = useMemo(() => ORDER.map((k) => ({ kind: k, rows: items.filter((s) => s.kind === k) })).filter((g) => g.rows.length), [items]);
   const flat = useMemo(() => grouped.flatMap((g) => g.rows), [grouped]);
-  const showEmpty = open && q.trim().length < 2;
+  const showEmpty = open && q.trim().length < 2 && !scope;
   const emptyRows = useMemo(() => [...recent.map((r) => ({ kind: "recent" as const, label: r, href: href(locale, `/pretraga?q=${encodeURIComponent(r)}`) })), ...POPULAR[locale].map((p) => ({ kind: "popular" as const, label: p.label, href: href(locale, p.q) }))], [recent, locale]);
   const total = showEmpty ? emptyRows.length : flat.length + (q.trim().length >= 2 ? 1 : 0); // +1 = "all results" row
 
@@ -96,7 +96,7 @@ export default function SearchBox({ locale, defaultValue = "", large = false, pl
       if (active < 0) { if (q.trim()) pushRecent(q.trim()); return; } // native submit → full search
       e.preventDefault();
       if (showEmpty) { const r = emptyRows[active]; if (r) go(r.href, r.kind === "recent" ? r.label : undefined); return; }
-      if (active < flat.length) go(flat[active].href, q.trim()); else go(href(locale, `/pretraga?q=${encodeURIComponent(q.trim())}`), q.trim());
+      if (active < flat.length) go(flat[active].href, q.trim()); else go(href(locale, `/pretraga?q=${encodeURIComponent(scope ? `${q.trim()} ${scope.label}` : q.trim())}`), q.trim());
     } else if (e.key === "Tab") setOpen(false);
   };
   const clearRecent = () => { try { localStorage.removeItem(RECENT_KEY); } catch { /* ignore */ } setRecent([]); };
@@ -106,11 +106,12 @@ export default function SearchBox({ locale, defaultValue = "", large = false, pl
           onSubmit={() => { if (q.trim()) pushRecent(q.trim()); setOpen(false); }}
           onBlur={(e) => { if (!e.currentTarget.contains(e.relatedTarget as Node)) setOpen(false); }}>
       <label htmlFor={id} className="sr-only">{submitLabel}</label>
+      {scope && <input type="hidden" name="opstina" value={scope.slug} />}
       <div className="flex">
         <div className={`sp-field flex-1 min-w-0 flex items-center gap-2 rounded-l-xl border border-line bg-surface ${large ? "px-4" : "px-3"} focus-within:border-accent focus-within:ring-2 focus-within:ring-accent/20 transition`}>
           <svg aria-hidden width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" className="text-muted shrink-0"><circle cx="11" cy="11" r="7" /><path d="m20 20-3.5-3.5" /></svg>
           <input ref={inputRef} id={id} name="q" type="search" value={q} onChange={(e) => { setQ(e.target.value); setDirty(true); setOpen(true); }} onFocus={() => setOpen(true)} onKeyDown={onKey}
-                 placeholder={placeholder || T.placeholder} autoComplete="off" spellCheck={false} role="combobox" aria-expanded={open} aria-controls={`${id}-list`} aria-autocomplete="list" aria-activedescendant={active >= 0 ? `${id}-opt-${active}` : undefined}
+                 placeholder={scope ? (locale === "sr" ? `Pretražite u: ${scope.label}…` : locale === "en" ? `Search in ${scope.label}…` : locale === "ru" ? `Поиск: ${scope.label}…` : `Suchen in ${scope.label}…`) : (placeholder || T.placeholder)} autoComplete="off" spellCheck={false} role="combobox" aria-expanded={open} aria-controls={`${id}-list`} aria-autocomplete="list" aria-activedescendant={active >= 0 ? `${id}-opt-${active}` : undefined}
                  className={`flex-1 min-w-0 bg-transparent ${large ? "py-3.5 text-[16px]" : "py-2 text-[14px]"} outline-none placeholder:text-muted/80`} />
           {q ? <button type="button" aria-label={T.clear} className="sp-clear" onMouseDown={(e) => e.preventDefault()} onClick={() => { setQ(""); setItems([]); setActive(-1); inputRef.current?.focus(); }}>×</button>
              : <kbd className="sp-kbd hidden sm:inline-flex" aria-hidden>{T.k}</kbd>}
@@ -142,7 +143,7 @@ export default function SearchBox({ locale, defaultValue = "", large = false, pl
                     </button>); })}
                 </div>))}
               {q.trim().length >= 2 && (() => { idx++; const i = idx; return (
-                <button id={`${id}-opt-${i}`} type="button" role="option" aria-selected={i === active} className={`sp-row sp-all ${i === active ? "is-active" : ""}`} onMouseDown={(e) => e.preventDefault()} onMouseEnter={() => setActive(i)} onClick={() => go(href(locale, `/pretraga?q=${encodeURIComponent(q.trim())}`), q.trim())}>
+                <button id={`${id}-opt-${i}`} type="button" role="option" aria-selected={i === active} className={`sp-row sp-all ${i === active ? "is-active" : ""}`} onMouseDown={(e) => e.preventDefault()} onMouseEnter={() => setActive(i)} onClick={() => go(href(locale, `/pretraga?q=${encodeURIComponent(scope ? `${q.trim()} ${scope.label}` : q.trim())}`), q.trim())}>
                   <span className="sp-ico sp-ico-flat"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round"><circle cx="11" cy="11" r="7" /><path d="m20 20-3.5-3.5" /></svg></span>
                   <span className="sp-title">{flat.length === 0 && !loading ? T.none : <>{T.all} „{q.trim()}“</>}</span><span className="sp-meta"><span className="sp-enter" aria-hidden>↵</span></span>
                 </button>); })()}
