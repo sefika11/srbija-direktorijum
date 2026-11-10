@@ -55,7 +55,7 @@ def main() -> None:
             if not jid: jid = db.jls_id_by_name(cur, town) or (db.jls_id_by_name(cur, muni) if muni else None)
             if not jid: stats["unresolved"] += 1; continue
             is_private = a.private or t["grp"] == "privatne_usluge"
-            slug = slugify(f"{t['slug']}-{name}-{town}")
+            slug = slugify(f"{name}-{town}") if slugify(name).startswith(slugify(t["slug"]).split("-")[0]) else slugify(f"{t['slug']}-{name}-{town}")
             cur.execute("""insert into organizations (slug, org_type_id, jurisdiction, founder_unit_id, name_lat, legal_form, website, status, verification, is_private, last_seen_at)
                            values (%s, %s, 'jls', %s, %s, 'ostalo', %s, 'active', 'unverified', %s, now())
                            on conflict (slug) do update set website = coalesce(organizations.website, excluded.website), last_seen_at = now()
