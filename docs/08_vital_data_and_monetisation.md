@@ -90,3 +90,10 @@ Municipality page now opens with the **Vitalno** block: emergency numbers, fault
 
 ### Visa instructions, first load (2026-11-10)
 114 visa-required/eVisa/eTA countries: 92 have instructions (US, UK, Canada, India, Korea verified on the foreign state's own pages; 74 rely on the MFA page + portal URL without documents or fee), 22 null (MFA gives no procedure or the page is empty; KP/YE/PS not applicable). Inbound general procedure loaded (visa C €90, D €50, exemptions for Schengen/UK/EU/US visa and permit holders, eID portal since 2025). A second agent is reading the embassy pages for the 74 thin rows + 22 nulls. Flags to review: Dominica (MFA text says 21 days visa-free vs regime flag), Zambia (contradictory MFA text), Saudi Arabia (no readable official procedure).
+
+## Results · 2026-11-10 evening
+
+- Bank network on Neon: 36 brand organisations → 9 duplicate brands merged (Raiffeisen ×3, AIK ×2, Poštanska štedionica ×2, API, NLB, UniCredit, Intesa, Bank of China) and 125 duplicate branches collapsed by normalised address within a brand (`db/fixes/fix_019_merge_brand_dupes.sql`, idempotent, slug-based). 2,042 bank branches, 141 municipalities.
+- The local Postgres data directory died with the old scratchpad: **Neon is the only database now**; run importers with `DATABASE_URL` set to the unpooled Neon DSN plus keepalives.
+- Courts and prosecutors: 262 organisations (all basic courts, higher, commercial, misdemeanour, appellate courts and public prosecutor's offices) have no street address; 273 have no phone. Export in `db/targets/courts_missing_contacts_2026-11-10.json`; an official-source contact pass is in progress → `db/contacts/courts_contacts_2026-11-10.json`, applied with `apply_contacts.py`.
+- Search synonyms: sahrana / pogreb / groblje → `jkp-pogrebne-usluge`.

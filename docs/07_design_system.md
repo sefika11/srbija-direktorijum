@@ -154,3 +154,14 @@ Stylesheet layout: `globals.css` has one block per selector in ten numbered sect
 - **Map dock**: the hover state of the 3D map lives in a glass strip at the bottom of the stage (`.m3-dock`), never a floating card over the labels. Hint when idle, name + stats + "Otvori →" when a unit is hovered.
 - **Emblems**: faces are gradient-lit (top sweep, sides darker toward the ground), two floor shadows, idle float (5.2 s, per-instance delay) and a periodic sheen; hover tilts and lifts. All motion stops under reduced motion.
 - **Globe** (`components/Globe3D.tsx`): 13,482 land dots sampled at 0.9° from Natural Earth 110m (public domain) with ISO codes; Serbia red, destination cobalt, arc as line + tube drawn in; drag, wheel, auto-rotate until touched; 2D equirectangular SVG of the same dots. Opens from the passport (`PassportGlobe`), cover rotates −62°.
+
+## 13. Pickers, filters and inventory (2026-11-10 sweep)
+
+- **One picker everywhere.** `components/Combobox.tsx` is the only way to choose from a list: type to filter (Cyrillic and diacritics fold), or open the list and pick; ↓↑ Enter Esc; Backspace on a picked value clears it. Native `<select>` is allowed only inside the lead forms. The municipality picker on guides and the country chooser on the visa stage are both Combobox.
+- **Native controls inherit the site font** (`button, input, select, textarea { font: inherit }`) and never show the browser's double focus ring: one 3px accent ring, nothing else.
+- **One heading face.** Every heading uses the display font (Unbounded); `.font-serif` is an alias that resolves to it. The serif (Bona Nova) survives only as the italic accent word in the home h1 and the big numerals in the vital block.
+- **Visa stage.** `/vize` opens with `VisaStage`: the visitor's passport on the left (picked by typing or by clicking the globe), the Serbian passport on the right, the dotted globe between them. Picking a country repaints its dots, draws the arc from Serbia and turns the globe to face the midpoint; the button opens the country page at once (no delayed auto-navigation).
+- **Branch hubs** (banks, insurers, telecom shops, national networks with more than 24 branches) start with `BranchFilters`: a place Combobox and brand chips, URL-driven (`?brend=&mesto=`); with a place picked the list is grouped by municipality, otherwise by district.
+- **Ad inventory is one slim dashed line** (`AdSlot` → `.ad-line`, links to /partneri), never a grey box; at most two per page plus one sponsor card in the sidebar. A real sponsor replaces the line; an empty slot never shows twice on one page.
+- **Place names inflect.** `lib/grammar.ts` `locative()` / `inPlace()` for "u Beogradu", "u Novom Sadu", "u Sremskoj Mitrovici"; use it in every sentence that puts a place after a preposition. Add irregulars to `EXC`.
+- **Phones:** no 3D/2D toggle (3D is never offered under 768px) and no labels on the static district map under 640px.
