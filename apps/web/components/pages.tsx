@@ -8,6 +8,7 @@ import SearchBox from "./SearchBox";
 import SerbiaMap, { type MapLabels } from "./SerbiaMap";
 import MapStage from "./MapStage";
 import BranchFilters from "./BranchFilters";
+import { placesCount } from "@/lib/grammar";
 import { OKRUG_SHAPES } from "@/lib/serbia-map";
 import { JLS_SHAPES, GO_SHAPES } from "@/lib/serbia-map-jls";
 import type { Feature3D } from "./SerbiaMap3D";
@@ -411,7 +412,7 @@ export async function OrgTypeHub({ locale, type, brand = null, place = null }: {
         <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, { label: d.groups[type.group] }, { label: type.name_plural_lat ?? type.name_lat }]} />
         <div className="eyebrow mt-4">{d.groups[type.group]}</div>
         <h1 className="font-serif text-[30px] sm:text-[38px] font-semibold leading-tight">{type.name_plural_lat ?? type.name_lat}</h1>
-        <p className="text-muted mt-2 tabular">{count.toLocaleString("sr-Latn")} {branchMode ? (locale === "sr" ? "lokacija" : locale === "en" ? "locations" : locale === "ru" ? "адресов" : "Standorte") : d.institutions} · {places} {d.municipalities}</p>
+        <p className="text-muted mt-2 tabular">{count.toLocaleString("sr-Latn")} {branchMode ? (locale === "sr" ? "lokacija" : locale === "en" ? "locations" : locale === "ru" ? "адресов" : "Standorte") : d.institutions} · {placesCount(places, locale)}</p>
         {type.description_md && <div className="prose max-w-3xl mt-3 text-[15px] text-muted">{type.description_md}</div>}
         </div>
       </div></section>

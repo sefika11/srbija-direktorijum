@@ -19,3 +19,17 @@ export function locative(name: string): string {
 }
 /** "u Beogradu" */
 export const inPlace = (name: string) => `u ${locative(name)}`;
+
+/** Serbian count words: pluralSr(1, "mesto", "mesta", "mesta") → "1 mesto"; 2–4 take `few`, the rest `many` (11–14 always `many`). */
+export function pluralSr(n: number, one: string, few: string, many: string): string {
+  const m10 = n % 10, m100 = n % 100;
+  const w = m10 === 1 && m100 !== 11 ? one : m10 >= 2 && m10 <= 4 && (m100 < 12 || m100 > 14) ? few : many;
+  return `${n.toLocaleString("sr-Latn")} ${w}`;
+}
+/** "74 institucija · 1 mesto" — the places half of a hub count line, per locale. */
+export function placesCount(n: number, locale: string): string {
+  if (locale === "sr") return pluralSr(n, "mesto", "mesta", "mesta");
+  if (locale === "ru") return pluralSr(n, "населённый пункт", "населённых пункта", "населённых пунктов");
+  if (locale === "de") return `${n.toLocaleString("de")} ${n === 1 ? "Ort" : "Orte"}`;
+  return `${n.toLocaleString("en")} ${n === 1 ? "place" : "places"}`;
+}

@@ -60,7 +60,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const languages = Object.fromEntries(LOCALES.map((l) => [HREFLANG[l], href(l, plain)]));
   const base: Metadata = { alternates: { canonical: href(locale, plain), languages } };
   switch (r.kind) {
-    case "home": return { ...base, title: `${d.siteName}`, description: d.tagline };
+    case "home": return { ...base, title: { absolute: locale === "sr" ? "Gde da idem? – sve institucije Srbije" : locale === "en" ? "Gde da idem? – every public institution in Serbia" : locale === "ru" ? "Gde da idem? – все учреждения Сербии" : "Gde da idem? – alle Einrichtungen Serbiens" }, description: d.tagline };
     case "search": return { ...base, title: d.search, robots: { index: false } };
     case "foreigners": return { ...base, title: d.forForeigners, description: d.forForeignersLead };
     case "static": return { ...base, title: r.slug === "partneri" ? (locale === "en" ? "Partnership and advertising" : "Partnerstvo i oglašavanje") : r.slug === "o-sajtu" ? d.aboutSite : d.privacy };
