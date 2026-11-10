@@ -16,8 +16,9 @@ import HeroFX from "./HeroFX";
 import Opener from "./Opener";
 import { Icon, GROUP_ICON } from "./icons";
 import Glyph3D from "./Glyph3D";
+import { emblemFor } from "@/lib/emblem-map";
 import { Passport } from "./Passport";
-const GROUP_GLYPH: Record<string, string> = { lokalna_samouprava: "building", republicki_organi: "landmark", javne_ustanove: "hospital", javna_preduzeca: "zap", pravosudje_i_javna_ovlascenja: "scale", privatne_usluge: "briefcase" };
+const GROUP_GLYPH: Record<string, string> = { lokalna_samouprava: "townhall", republicki_organi: "parliament", javne_ustanove: "hospital", javna_preduzeca: "utility", pravosudje_i_javna_ovlascenja: "court", privatne_usluge: "briefcase" };
 import { LeadForm, CorrectionBlock, ClaimBlock } from "./forms";
 import { GUIDE } from "@/lib/guide";
 
@@ -407,7 +408,7 @@ export async function OrgTypeHub({ locale, type, brand = null, place = null }: {
   return (
     <main>
       <section className="hero-light border-b border-line"><div className="shell py-8 sm:py-10 hub-head">
-        <div className="hub-glyph"><Glyph3D icon={type.icon} size={132} title={type.name_lat} /></div>
+        <div className="hub-glyph"><Glyph3D icon={emblemFor(type.slug, type.icon)} size={132} title={type.name_lat} /></div>
         <div className="min-w-0">
         <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, { label: d.groups[type.group] }, { label: type.name_plural_lat ?? type.name_lat }]} />
         <div className="eyebrow mt-4">{d.groups[type.group]}</div>
@@ -491,7 +492,7 @@ export async function OrgPage({ locale, org, locSlug, path }: { locale: Locale; 
       <section className="hero-light border-b border-line"><div className="shell py-7 sm:py-9">
       <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, ...(jls ? [{ href: href(locale, `/${jls.slug}`), label: jls.name_lat }] : []), { href: href(locale, `/${org.type_slug}`), label: type.name_lat }, ...(loc && !loc.is_primary ? [{ href: orgHref(locale, org), label: org.name_lat }, { label: loc.unit_name_lat }] : [{ label: org.name_lat }])]} />
       <div className="eyebrow mt-4">{type.name_lat}{jls ? ` · ${jls.name_lat}` : ""}</div>
-      <div className="flex items-start gap-4"><div className="org-glyph hidden sm:grid"><Glyph3D icon={type.icon} size={80} title={type.name_lat} /></div><h1 className="font-serif text-[28px] sm:text-[36px] font-semibold leading-[1.12] mt-1">{title}</h1></div>
+      <div className="flex items-start gap-4"><div className="org-glyph hidden sm:grid"><Glyph3D icon={emblemFor(type.slug, type.icon)} size={80} title={type.name_lat} /></div><h1 className="font-serif text-[28px] sm:text-[36px] font-semibold leading-[1.12] mt-1">{title}</h1></div>
       <p className="text-muted mt-2 text-[14px]">{org.official_name_lat && org.official_name_lat.toLowerCase() !== org.name_lat.toLowerCase() ? org.official_name_lat : type.name_lat}{org.founder_name ? ` · ${d.founder}: ` : ""}{org.founder_slug && org.founder_name ? <Link href={href(locale, `/${org.founder_slug}`)}>{org.founder_name}</Link> : null}</p>
       <div className="mt-2 flex items-center gap-3 flex-wrap"><VerificationChip state={loc?.verification ?? org.verification} locale={locale} />{org.is_private && <Chip>{locale === "sr" ? "Privatna ustanova" : locale === "en" ? "Private institution" : locale === "ru" ? "Частное учреждение" : "Private Einrichtung"}</Chip>}<a href="#izmeni" className="text-[12.5px]">{d.editData}</a></div>
       </div></section>

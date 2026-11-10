@@ -1,0 +1,74 @@
+<!doctype html>
+<meta charset="utf-8">
+<style>html,body{margin:0;background:transparent}canvas{display:block}</style>
+<script type="importmap">{"imports":{"three":"/nm/three/build/three.module.js","three/addons/":"/nm/three/examples/jsm/"}}</script>
+<script type="module">
+import * as THREE from "three";
+import { SCENES, HUES } from "./scenes.mjs";
+
+const SIZE = 1024, EL = 32 * Math.PI / 180, AZ = 38 * Math.PI / 180, MARGIN = 0.08;
+const canvas = document.createElement("canvas");
+document.body.appendChild(canvas);
+const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true, preserveDrawingBuffer: true });
+renderer.setPixelRatio(1); renderer.setSize(SIZE, SIZE, false);
+renderer.setClearColor(0x000000, 0);
+renderer.shadowMap.enabled = true; renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+renderer.toneMapping = THREE.ACESFilmicToneMapping; renderer.toneMappingExposure = 1.05;
+renderer.outputColorSpace = THREE.SRGBColorSpace;
+
+function slabShape(side, r) {
+  const h = side / 2, s = new THREE.Shape();
+  s.moveTo(-h + r, -h); s.lineTo(h - r, -h); s.absarc(h - r, -h + r, r, -Math.PI / 2, 0); s.lineTo(h, h - r); s.absarc(h - r, h - r, r, 0, Math.PI / 2);
+  s.lineTo(-h + r, h); s.absarc(-h + r, h - r, r, Math.PI / 2, Math.PI); s.lineTo(-h, -h + r); s.absarc(-h + r, -h + r, r, Math.PI, Math.PI * 1.5);
+  return s;
+}
+
+window.KEYS = Object.keys(SCENES);
+window.renderScene = (key) => {
+  const build = SCENES[key]; if (!build) throw new Error("no scene " + key);
+  const hue = HUES[key] ?? "#8e97b8";
+  const scene = new THREE.Scene();
+  const subject = build(hue); scene.add(subject);
+  // centre subject on the ground plane
+  subject.updateMatrixWorld(true);
+  let bb = new THREE.Box3().setFromObject(subject);
+  subject.position.x -= (bb.min.x + bb.max.x) / 2; subject.position.z -= (bb.min.z + bb.max.z) / 2;
+  subject.updateMatrixWorld(true); bb = new THREE.Box3().setFromObject(subject);
+  const side = Math.max(bb.max.x - bb.min.x, bb.max.z - bb.min.z) * 1.12 + 1.0;
+  // paper slab
+  const slabColor = new THREE.Color("#f6f4ef").lerp(new THREE.Color(hue), 0.10);
+  const slab = new THREE.Mesh(new THREE.ExtrudeGeometry(slabShape(side, Math.min(1.2, side * 0.1)), { depth: 0.3, bevelEnabled: false, curveSegments: 16 }),
+    new THREE.MeshStandardMaterial({ color: slabColor, roughness: 0.9, metalness: 0 }));
+  slab.rotation.x = -Math.PI / 2; slab.position.y = -0.3; slab.receiveShadow = true; slab.castShadow = false; scene.add(slab);
+  scene.updateMatrixWorld(true);
+  const all = new THREE.Box3().setFromObject(scene); const sph = all.getBoundingSphere(new THREE.Sphere());
+  const C = sph.center.clone(), R = sph.radius;
+
+  // lights
+  scene.add(new THREE.HemisphereLight(0xffffff, 0xcfd6e6, 0.9));
+  const dirToCam = new THREE.Vector3(Math.sin(AZ) * Math.cos(EL), Math.sin(EL), Math.cos(AZ) * Math.cos(EL));
+  const right = new THREE.Vector3(Math.cos(AZ), 0, -Math.sin(AZ));
+  const sun = new THREE.DirectionalLight(0xfff6ea, 4.4);
+  sun.position.copy(C).addScaledVector(right, -0.75 * R * 3).addScaledVector(dirToCam, 0.45 * R * 3).add(new THREE.Vector3(0, 1.5 * R * 3, 0));
+  sun.target.position.copy(C); scene.add(sun.target);
+  sun.castShadow = true; sun.shadow.mapSize.set(2048, 2048); sun.shadow.radius = 4; sun.shadow.bias = -0.0004; sun.shadow.normalBias = 0.03;
+  const sc = sun.shadow.camera; const e = R * 1.15; sc.left = -e; sc.right = e; sc.top = e; sc.bottom = -e; sc.near = 0.1; sc.far = R * 12;
+  scene.add(sun);
+  const fill = new THREE.DirectionalLight(0xe8eeff, 0.6); fill.position.copy(C).addScaledVector(right, 2 * R).addScaledVector(dirToCam, 2 * R).add(new THREE.Vector3(0, R, 0)); fill.target.position.copy(C); scene.add(fill, fill.target);
+
+  // camera: fit projected vertices of everything
+  const cam = new THREE.OrthographicCamera(-1, 1, 1, -1, 0.1, R * 20);
+  cam.position.copy(C).addScaledVector(dirToCam, R * 6); cam.lookAt(C); cam.updateMatrixWorld(true);
+  const inv = cam.matrixWorldInverse.clone(); let minX = 1e9, maxX = -1e9, minY = 1e9, maxY = -1e9;
+  const v = new THREE.Vector3();
+  scene.traverse((o) => { if (!o.isMesh) return; const pos = o.geometry.attributes.position; for (let i = 0; i < pos.count; i++) { v.fromBufferAttribute(pos, i).applyMatrix4(o.matrixWorld).applyMatrix4(inv); if (v.x < minX) minX = v.x; if (v.x > maxX) maxX = v.x; if (v.y < minY) minY = v.y; if (v.y > maxY) maxY = v.y; } });
+  const half = Math.max(maxX - minX, maxY - minY) / 2 / (1 - 2 * MARGIN), cx = (minX + maxX) / 2, cy = (minY + maxY) / 2;
+  cam.left = cx - half; cam.right = cx + half; cam.top = cy + half; cam.bottom = cy - half; cam.updateProjectionMatrix();
+
+  renderer.render(scene, cam);
+  const url = canvas.toDataURL("image/png");
+  scene.traverse((o) => { if (o.isMesh) o.geometry.dispose(); });
+  return url;
+};
+window.ready = true;
+</script>

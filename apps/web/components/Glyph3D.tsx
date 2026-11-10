@@ -5,6 +5,10 @@
  * one family hue per scene, never saturated fills.
  */
 import type { ReactNode } from "react";
+import manifest from "@/public/emblems/manifest.json";
+
+/** Keys with a rendered 3D PNG in /public/emblems (built by tools/emblems/render.py). Others fall back to the SVG scenes below. */
+const EMBLEMS = new Set<string>(manifest.keys);
 
 type P3 = [number, number, number];
 const COS = Math.cos(Math.PI / 6), SIN = Math.sin(Math.PI / 6);
@@ -167,6 +171,9 @@ const HUES: Record<string, string> = {
 };
 
 export default function Glyph3D({ icon, size = 64, className, title }: { icon: string | null | undefined; size?: number; className?: string; title?: string }) {
+  if (icon && EMBLEMS.has(icon)) {
+    return <img src={`/emblems/${icon}${size <= 128 ? "@256" : ""}.png`} srcSet={`/emblems/${icon}@256.png 256w, /emblems/${icon}.png 1024w`} sizes={`${size}px`} width={size} height={size} alt={title ?? ""} aria-hidden={title ? undefined : true} loading="lazy" decoding="async" className={`g3 g3-live g3-img ${className ?? ""}`} draggable={false} style={{ display: "block", objectFit: "contain" }} />;
+  }
   const key = icon && SCENES[icon] ? icon : "default";
   uid = 0; // deterministic ids per render for stable SSR/CSR markup
   const prims = SCENES[key](HUES[key] ?? "#8e97b8").sort((a, b) => a.depth - b.depth);
