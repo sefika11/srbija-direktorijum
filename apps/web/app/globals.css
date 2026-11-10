@@ -1394,3 +1394,13 @@ html:root .quick-chip.is-on .text-muted, html:root .quick-chip[aria-selected="tr
 .sp input[type="search"]::placeholder { text-overflow: ellipsis; }
 .sp:not(.sp-large) .sp-kbd { flex: none; } @container (max-width: 300px) { .sp-kbd { display: none; } }
 .sp-field { container-type: inline-size; }
+
+/* ── §59 Roadmap topics ─────────────────────────────────────────────────────────────────────────────── */
+.road-groups { display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); }
+.road-group { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 12px; padding: 10px 14px 10px 10px; min-height: 78px; }
+.road-group-img { filter: drop-shadow(0 4px 6px rgb(15 27 45 / .16)); transition: transform .5s var(--ease-out); } .road-group:hover .road-group-img { transform: translateY(-3px) scale(1.05); }
+.road-group-name { display: block; font-family: var(--font-display); font-weight: 400; font-size: 15.5px; letter-spacing: -.02em; line-height: 1.2; }
+.road-group-sub { display: block; margin-top: 3px; font-size: 12px; line-height: 1.35; color: var(--muted); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.road-group-n { font-size: 13.5px; font-weight: 500; color: var(--accent-ink); white-space: nowrap; }
+.road-group-head { display: flex; align-items: center; gap: 12px; margin-bottom: 14px; font-family: var(--font-display); font-weight: 400; font-size: 22px; letter-spacing: -.02em; }
+.road-group-head .tabular { font-family: var(--font-sans); font-size: 14px; color: var(--muted); }

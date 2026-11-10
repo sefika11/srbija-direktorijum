@@ -90,6 +90,13 @@ export default function SearchBox({ locale, defaultValue = "", large = false, pl
   }, [q, locale, dirty]);
 
   // the server sends the rows in display order: the best match first, then each group by relevance
+  // a query that rests on screen with no best match is reported once, so the missing word can be added to the lexicon
+  const reported = useRef(new Set<string>());
+  useEffect(() => {
+    const text = q.trim(); if (!dirty || loading || text.length < 4 || items[0]?.top || scope) return;
+    const t = setTimeout(() => { const k = `${locale}|${text.toLowerCase()}`; if (reported.current.has(k)) return; reported.current.add(k); fetch(`/api/suggest?q=${encodeURIComponent(text)}&l=${locale}&miss=1`, { keepalive: true }).catch(() => {}); }, 1800);
+    return () => clearTimeout(t);
+  }, [q, items, loading, dirty, locale, scope]);
   const grouped = useMemo(() => {
     const gs: { kind: string; rows: Suggestion[] }[] = [];
     for (const s of items) { const k = s.top ? "top" : s.kind; const g = gs.find((x) => x.kind === k); if (g) g.rows.push(s); else gs.push({ kind: k, rows: [s] }); }

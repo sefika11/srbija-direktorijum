@@ -4,14 +4,30 @@
  * step comes at that point; rules, fees and deadlines stay in the guides (one place to keep them correct).
  */
 import type { Locale } from "./i18n";
+import more from "./roadmaps-more.json";
 
 type L4 = Record<Locale, string>;
 export type RoadStep = { guide?: string; type?: string; path?: string; title?: L4; why: L4; only?: L4 };
-export type Roadmap = { slug: string; emblem: string; title: L4; lead: L4; steps: RoadStep[] };
+export type RoadGroup = "dolazak" | "porodica" | "skolovanje" | "posao" | "zdravlje" | "novac" | "stan" | "vozila" | "dokumenta" | "firma" | "pravo";
+export type Roadmap = { slug: string; group: RoadGroup; emblem: string; title: L4; lead: L4; steps: RoadStep[]; terms?: string[] };
+/** The groups in the order the hub shows them, with the emblem of their tile. */
+export const ROAD_GROUPS: { key: RoadGroup; emblem: string; name: L4 }[] = [
+  { key: "dolazak", emblem: "globe", name: { sr: "Dolazak u Srbiju", en: "Coming to Serbia", ru: "Переезд в Сербию", de: "Ankommen in Serbien" } },
+  { key: "porodica", emblem: "baby", name: { sr: "Porodica i deca", en: "Family and children", ru: "Семья и дети", de: "Familie und Kinder" } },
+  { key: "skolovanje", emblem: "school", name: { sr: "Školovanje", en: "Education", ru: "Образование", de: "Bildung" } },
+  { key: "posao", emblem: "employment", name: { sr: "Posao i nezaposlenost", en: "Work and unemployment", ru: "Работа и безработица", de: "Arbeit und Arbeitslosigkeit" } },
+  { key: "zdravlje", emblem: "stethoscope", name: { sr: "Zdravlje", en: "Health", ru: "Здоровье", de: "Gesundheit" } },
+  { key: "novac", emblem: "bank", name: { sr: "Novac i banke", en: "Money and banks", ru: "Деньги и банки", de: "Geld und Banken" } },
+  { key: "stan", emblem: "home", name: { sr: "Stan i imovina", en: "Home and property", ru: "Жильё и недвижимость", de: "Wohnen und Eigentum" } },
+  { key: "vozila", emblem: "car", name: { sr: "Vozila", en: "Vehicles", ru: "Транспорт", de: "Fahrzeuge" } },
+  { key: "dokumenta", emblem: "file-badge", name: { sr: "Lična dokumenta", en: "Personal documents", ru: "Личные документы", de: "Ausweisdokumente" } },
+  { key: "firma", emblem: "briefcase", name: { sr: "Firma", en: "Business", ru: "Бизнес", de: "Firma" } },
+  { key: "pravo", emblem: "scale", name: { sr: "Sud i pravo", en: "Courts and law", ru: "Суд и право", de: "Gericht und Recht" } },
+];
 
 const FOREIGN: L4 = { sr: "za strane državljane", en: "foreign nationals", ru: "для иностранцев", de: "für Ausländer" };
 
-export const ROADMAPS: Roadmap[] = [
+const BASE: Omit<Roadmap, "group">[] = [
   {
     slug: "dolazim-da-radim", emblem: "briefcase",
     title: { sr: "Dolazim da radim", en: "I am coming to work", ru: "Я приезжаю работать", de: "Ich komme zum Arbeiten" },
@@ -88,10 +104,13 @@ export const ROADMAPS: Roadmap[] = [
   },
 ];
 
-export const ROAD_LABELS: Record<Locale, { nav: string; title: string; lead: string; step: string; steps: string; guide: string; places: string; overview: string; open: string; openGuide: string; openPlaces: string; other: string; note: string; foreigners: string; count: string }> = {
-  sr: { nav: "Putokaz", title: "Putokaz: šta prvo, šta posle", lead: "Izaberite svoju situaciju i pratite korake redom. Svaki korak vodi do proverenog vodiča ili do institucije u vašem mestu.", step: "Korak", steps: "koraka", guide: "Vodič", places: "Institucije", overview: "Pregled", open: "Otvori", openGuide: "Otvori vodič", openPlaces: "Pronađi u svom mestu", other: "Drugi putokazi", note: "Redosled je najčešći put. Rokovi, takse i dokumenta su u vodičima, koji se proveravaju po zvaničnim izvorima.", foreigners: "Sve za strane državljane", count: "putokaza" },
-  en: { nav: "Roadmap", title: "Roadmap: what comes first, what comes next", lead: "Pick your situation and follow the steps in order. Each step leads to a verified guide or to the institution in your town.", step: "Step", steps: "steps", guide: "Guide", places: "Institutions", overview: "Overview", open: "Open", openGuide: "Open the guide", openPlaces: "Find one in your town", other: "Other roadmaps", note: "The order is the usual path. Deadlines, fees and documents are in the guides, which are checked against official sources.", foreigners: "Everything for foreign nationals", count: "roadmaps" },
-  ru: { nav: "Маршрут", title: "Маршрут: что сначала, что потом", lead: "Выберите свою ситуацию и идите по шагам. Каждый шаг ведёт к проверенной инструкции или к учреждению в вашем городе.", step: "Шаг", steps: "шагов", guide: "Инструкция", places: "Учреждения", overview: "Обзор", open: "Открыть", openGuide: "Открыть инструкцию", openPlaces: "Найти в своём городе", other: "Другие маршруты", note: "Порядок соответствует обычному пути. Сроки, пошлины и документы указаны в инструкциях, которые сверяются с официальными источниками.", foreigners: "Всё для иностранцев", count: "маршрутов" },
-  de: { nav: "Wegweiser", title: "Wegweiser: was zuerst, was danach", lead: "Wählen Sie Ihre Situation und folgen Sie den Schritten der Reihe nach. Jeder Schritt führt zu einer geprüften Anleitung oder zur Einrichtung an Ihrem Ort.", step: "Schritt", steps: "Schritte", guide: "Anleitung", places: "Einrichtungen", overview: "Übersicht", open: "Öffnen", openGuide: "Anleitung öffnen", openPlaces: "Am eigenen Ort finden", other: "Weitere Wegweiser", note: "Die Reihenfolge ist der übliche Weg. Fristen, Gebühren und Unterlagen stehen in den Anleitungen, die anhand offizieller Quellen geprüft werden.", foreigners: "Alles für ausländische Staatsangehörige", count: "Wegweiser" },
+export const ROAD_LABELS: Record<Locale, { nav: string; title: string; lead: string; step: string; steps: string; guide: string; places: string; overview: string; open: string; openGuide: string; openPlaces: string; other: string; note: string; foreigners: string; count: string; byTopic: string; topics: string }> = {
+  sr: { nav: "Putokaz", title: "Putokaz: šta prvo, šta posle", lead: "Izaberite svoju situaciju i pratite korake redom. Svaki korak vodi do proverenog vodiča ili do institucije u vašem mestu.", step: "Korak", steps: "koraka", guide: "Vodič", places: "Institucije", overview: "Pregled", open: "Otvori", openGuide: "Otvori vodič", openPlaces: "Pronađi u svom mestu", other: "Drugi putokazi", note: "Redosled je najčešći put. Rokovi, takse i dokumenta su u vodičima, koji se proveravaju po zvaničnim izvorima.", foreigners: "Sve za strane državljane", count: "putokaza", byTopic: "Putokazi po temama", topics: "tema" },
+  en: { nav: "Roadmap", title: "Roadmap: what comes first, what comes next", lead: "Pick your situation and follow the steps in order. Each step leads to a verified guide or to the institution in your town.", step: "Step", steps: "steps", guide: "Guide", places: "Institutions", overview: "Overview", open: "Open", openGuide: "Open the guide", openPlaces: "Find one in your town", other: "Other roadmaps", note: "The order is the usual path. Deadlines, fees and documents are in the guides, which are checked against official sources.", foreigners: "Everything for foreign nationals", count: "roadmaps", byTopic: "Roadmaps by topic", topics: "topics" },
+  ru: { nav: "Маршрут", title: "Маршрут: что сначала, что потом", lead: "Выберите свою ситуацию и идите по шагам. Каждый шаг ведёт к проверенной инструкции или к учреждению в вашем городе.", step: "Шаг", steps: "шагов", guide: "Инструкция", places: "Учреждения", overview: "Обзор", open: "Открыть", openGuide: "Открыть инструкцию", openPlaces: "Найти в своём городе", other: "Другие маршруты", note: "Порядок соответствует обычному пути. Сроки, пошлины и документы указаны в инструкциях, которые сверяются с официальными источниками.", foreigners: "Всё для иностранцев", count: "маршрутов", byTopic: "Маршруты по темам", topics: "тем" },
+  de: { nav: "Wegweiser", title: "Wegweiser: was zuerst, was danach", lead: "Wählen Sie Ihre Situation und folgen Sie den Schritten der Reihe nach. Jeder Schritt führt zu einer geprüften Anleitung oder zur Einrichtung an Ihrem Ort.", step: "Schritt", steps: "Schritte", guide: "Anleitung", places: "Einrichtungen", overview: "Übersicht", open: "Öffnen", openGuide: "Anleitung öffnen", openPlaces: "Am eigenen Ort finden", other: "Weitere Wegweiser", note: "Die Reihenfolge ist der übliche Weg. Fristen, Gebühren und Unterlagen stehen in den Anleitungen, die anhand offizieller Quellen geprüft werden.", foreigners: "Alles für ausländische Staatsangehörige", count: "Wegweiser", byTopic: "Wegweiser nach Thema", topics: "Themen" },
 };
+/** The five newcomer roadmaps above are written by hand; the life-situation roadmaps live in roadmaps-more.json (same shape, with their group and search terms). */
+export const ROADMAPS: Roadmap[] = [...BASE.map((r) => ({ ...r, group: (r.slug === "otvaram-firmu" ? "firma" : "dolazak") as RoadGroup })), ...(more as unknown as Roadmap[])];
+export const roadsIn = (g: RoadGroup) => ROADMAPS.filter((r) => r.group === g);
 export const getRoadmap = (slug: string) => ROADMAPS.find((r) => r.slug === slug) ?? null;

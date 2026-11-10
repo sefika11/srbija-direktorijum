@@ -1,0 +1,3832 @@
+[
+ {
+  "slug": "rodilo-se-dete",
+  "group": "porodica",
+  "emblem": "baby",
+  "title": {
+   "sr": "Rodilo mi se dete",
+   "en": "My baby was born",
+   "ru": "У меня родился ребёнок",
+   "de": "Mein Kind ist geboren"
+  },
+  "lead": {
+   "sr": "Od upisa rođenja do vrtića: izvod, adresa, zdravstvena kartica, pedijatar i dečiji dodatak.",
+   "en": "From registering the birth to nursery: birth certificate, address, health card, paediatrician and child allowance.",
+   "ru": "От регистрации рождения до яслей: свидетельство, адрес, медкарта, педиатр и детское пособие.",
+   "de": "Von der Geburtsanmeldung bis zur Krippe: Urkunde, Adresse, Gesundheitskarte, Kinderarzt und Kindergeld."
+  },
+  "steps": [
+   {
+    "guide": "izvod-iz-maticne-knjige",
+    "why": {
+     "sr": "Rođenje se upisuje u matičnu knjigu, a izvod iz nje traže svi sledeći organi.",
+     "en": "The birth is entered in the registry and every later office asks for the extract.",
+     "ru": "Рождение вносится в книгу записи актов, а выписку из неё требуют все следующие органы.",
+     "de": "Die Geburt wird ins Personenstandsregister eingetragen, und alle weiteren Stellen verlangen den Auszug."
+    }
+   },
+   {
+    "guide": "prijava-prebivalista",
+    "why": {
+     "sr": "Detetu se prijavljuje adresa, jer se po njoj odvija ostalo: lekar, vrtić, škola.",
+     "en": "The child's address is registered, because doctor, nursery and school depend on it.",
+     "ru": "Ребёнку регистрируется адрес, так как от него зависят врач, сад и школа.",
+     "de": "Die Adresse des Kindes wird gemeldet, denn Arzt, Kindergarten und Schule hängen davon ab."
+    }
+   },
+   {
+    "guide": "zdravstvena-knjizica",
+    "why": {
+     "sr": "Dete se osigurava preko roditelja i dobija sopstvenu zdravstvenu karticu.",
+     "en": "The child is insured through a parent and receives its own health card.",
+     "ru": "Ребёнок застрахован через родителя и получает собственную карту медстрахования.",
+     "de": "Das Kind wird über einen Elternteil versichert und erhält eine eigene Gesundheitskarte."
+    }
+   },
+   {
+    "type": "dom-zdravlja",
+    "title": {
+     "sr": "Izabrani pedijatar u domu zdravlja",
+     "en": "Chosen paediatrician at the health centre",
+     "ru": "Выбранный педиатр в доме здоровья",
+     "de": "Gewählter Kinderarzt im Gesundheitszentrum"
+    },
+    "why": {
+     "sr": "Sa karticom se bira pedijatar koji prati razvoj i vakcinaciju deteta.",
+     "en": "With the card you choose a paediatrician who follows the child's growth and vaccination.",
+     "ru": "С картой выбирается педиатр, который наблюдает развитие ребёнка и прививки.",
+     "de": "Mit der Karte wählen Sie einen Kinderarzt, der Entwicklung und Impfungen des Kindes begleitet."
+    }
+   },
+   {
+    "guide": "deciji-dodatak",
+    "why": {
+     "sr": "Dečiji dodatak se traži kada su dokumenta deteta spremna; uslovi se proveravaju pri podnošenju.",
+     "en": "Child allowance is claimed once the child's papers are ready; conditions are checked when you apply.",
+     "ru": "Детское пособие запрашивают, когда готовы документы ребёнка; условия проверяются при подаче.",
+     "de": "Kindergeld wird beantragt, sobald die Papiere des Kindes bereit sind; die Voraussetzungen werden bei der Antragstellung geprüft."
+    }
+   },
+   {
+    "guide": "upis-u-vrtic",
+    "why": {
+     "sr": "Kada dete treba čuvanje, prijava za jaslice i vrtić ide preko opštine ili grada.",
+     "en": "When the child needs day care, the application for nursery and kindergarten goes through the municipality or city.",
+     "ru": "Когда ребёнку нужен присмотр, заявка в ясли и сад подаётся через общину или город.",
+     "de": "Wenn das Kind betreut werden soll, läuft die Anmeldung für Krippe und Kindergarten über Gemeinde oder Stadt."
+    },
+    "only": {
+     "sr": "kada dete krene u vrtić",
+     "en": "when the child starts nursery",
+     "ru": "когда ребёнок идёт в сад",
+     "de": "wenn das Kind in die Krippe kommt"
+    }
+   }
+  ],
+  "terms": [
+   "beba",
+   "rođenje deteta",
+   "rodilo se dete",
+   "novorođenče",
+   "upis rođenja",
+   "izvod za dete",
+   "newborn",
+   "baby born",
+   "birth registration",
+   "child birth",
+   "ребёнок родился",
+   "новорождённый",
+   "рождение ребёнка",
+   "geburt",
+   "neugeborenes",
+   "kind geboren"
+  ]
+ },
+ {
+  "slug": "vrtic-i-pripremni-program",
+  "group": "porodica",
+  "emblem": "kindergarten",
+  "title": {
+   "sr": "Dete kreće u vrtić",
+   "en": "My child starts nursery",
+   "ru": "Ребёнок идёт в детский сад",
+   "de": "Mein Kind kommt in den Kindergarten"
+  },
+  "lead": {
+   "sr": "Od izbora ustanove i prijave do obaveznog pripremnog programa pred školu.",
+   "en": "From choosing a facility and applying to the compulsory preparatory year before school.",
+   "ru": "От выбора учреждения и заявки до обязательной подготовительной программы перед школой.",
+   "de": "Von der Wahl der Einrichtung und der Anmeldung bis zum verpflichtenden Vorschuljahr."
+  },
+  "steps": [
+   {
+    "guide": "izvod-iz-maticne-knjige",
+    "why": {
+     "sr": "Izvod rođenih je osnovni dokument uz svaku prijavu deteta.",
+     "en": "The birth extract is the basic document for any application for a child.",
+     "ru": "Выписка о рождении: основной документ при любой заявке на ребёнка.",
+     "de": "Der Geburtsauszug ist das Grunddokument bei jeder Anmeldung eines Kindes."
+    }
+   },
+   {
+    "type": "dom-zdravlja",
+    "title": {
+     "sr": "Izabrani pedijatar u domu zdravlja",
+     "en": "Chosen paediatrician at the health centre",
+     "ru": "Выбранный педиатр в доме здоровья",
+     "de": "Gewählter Kinderarzt im Gesundheitszentrum"
+    },
+    "why": {
+     "sr": "Pedijatar prati dete i izdaje zdravstvenu dokumentaciju; šta ustanova traži, vidi se u vodiču.",
+     "en": "The paediatrician follows the child and issues medical papers; what the facility asks for is in the guide.",
+     "ru": "Педиатр наблюдает ребёнка и выдаёт медицинские документы; что требует учреждение, указано в руководстве.",
+     "de": "Der Kinderarzt betreut das Kind und stellt ärztliche Unterlagen aus; was die Einrichtung verlangt, steht im Leitfaden."
+    }
+   },
+   {
+    "guide": "upis-u-vrtic",
+    "why": {
+     "sr": "Prijava za jaslice i vrtić ima rokove i način podnošenja koje određuje opština.",
+     "en": "The application for nursery and kindergarten has deadlines and a procedure set by the municipality.",
+     "ru": "У заявки в ясли и сад есть сроки и порядок подачи, которые определяет община.",
+     "de": "Für die Anmeldung gelten Fristen und ein Verfahren, die die Gemeinde festlegt."
+    }
+   },
+   {
+    "type": "predskolska-ustanova",
+    "title": {
+     "sr": "Predškolska ustanova u vašoj opštini",
+     "en": "Pre-school institution in your municipality",
+     "ru": "Дошкольное учреждение в вашей общине",
+     "de": "Vorschuleinrichtung in Ihrer Gemeinde"
+    },
+    "why": {
+     "sr": "Ustanova koju vaša opština ili grad vodi prima prijave i odlučuje o slobodnim mestima.",
+     "en": "The facility run by your municipality or city takes applications and decides on free places.",
+     "ru": "Учреждение вашей общины или города принимает заявки и решает по свободным местам.",
+     "de": "Die Einrichtung Ihrer Gemeinde oder Stadt nimmt Anmeldungen an und entscheidet über freie Plätze."
+    }
+   },
+   {
+    "type": "privatni-vrtic",
+    "why": {
+     "sr": "Ako nema mesta u državnom vrtiću, privatni vrtić je drugi put, uz plaćanje.",
+     "en": "If a state kindergarten has no place, a private one is the other route, for a fee.",
+     "ru": "Если в государственном саду нет места, другой путь: частный сад за плату.",
+     "de": "Gibt es im staatlichen Kindergarten keinen Platz, ist ein privater die andere Möglichkeit, gegen Gebühr."
+    },
+    "only": {
+     "sr": "ako nema mesta u državnom",
+     "en": "if there is no state place",
+     "ru": "если нет места в государственном",
+     "de": "wenn kein staatlicher Platz frei ist"
+    }
+   },
+   {
+    "guide": "pripremni-predskolski-program",
+    "why": {
+     "sr": "Godina pred školu je obavezna i ima svoj upis, nezavisno od vrtića.",
+     "en": "The year before school is compulsory and has its own enrolment, separate from the kindergarten.",
+     "ru": "Год перед школой обязателен и имеет собственную запись, отдельную от сада.",
+     "de": "Das Jahr vor der Schule ist verpflichtend und hat eine eigene Anmeldung, getrennt vom Kindergarten."
+    }
+   },
+   {
+    "guide": "upis-u-osnovnu-skolu",
+    "why": {
+     "sr": "Posle pripremnog programa sledi upis u prvi razred, pa ga unapred planirajte.",
+     "en": "After the preparatory programme comes enrolment in first grade, so plan for it ahead.",
+     "ru": "После подготовительной программы следует запись в первый класс, поэтому планируйте её заранее.",
+     "de": "Nach dem Vorschulprogramm folgt die Einschulung in die erste Klasse, planen Sie sie also früh."
+    }
+   }
+  ],
+  "terms": [
+   "vrtić",
+   "jaslice",
+   "upis u vrtić",
+   "predškolsko",
+   "privatni vrtić",
+   "dete u vrtić",
+   "kindergarten",
+   "nursery",
+   "preschool",
+   "daycare",
+   "детский сад",
+   "ясли",
+   "дошкольное",
+   "kita",
+   "krippe",
+   "kindergartenplatz"
+  ]
+ },
+ {
+  "slug": "stupam-u-brak",
+  "group": "porodica",
+  "emblem": "heart",
+  "title": {
+   "sr": "Stupam u brak",
+   "en": "I am getting married",
+   "ru": "Я вступаю в брак",
+   "de": "Ich heirate"
+  },
+  "lead": {
+   "sr": "Od izvoda i zakazivanja venčanja do dokumenata koja posle toga treba ažurirati.",
+   "en": "From extracts and booking the wedding to the documents to update afterwards.",
+   "ru": "От выписок и записи на церемонию до документов, которые нужно обновить после.",
+   "de": "Von Auszügen und Terminbuchung bis zu den Dokumenten, die danach zu aktualisieren sind."
+  },
+  "steps": [
+   {
+    "guide": "izvod-iz-maticne-knjige",
+    "why": {
+     "sr": "Izvodi iz knjige rođenih su prvi dokumenti koje matičar traži; tačan spisak proverite u vodiču.",
+     "en": "Birth extracts are the first papers the registrar asks for; check the exact list in the guide.",
+     "ru": "Выписки о рождении: первые документы, которые просит регистратор; точный список смотрите в руководстве.",
+     "de": "Geburtsauszüge sind die ersten Unterlagen, die das Standesamt verlangt; die genaue Liste steht im Leitfaden."
+    }
+   },
+   {
+    "type": "sudski-prevodilac",
+    "why": {
+     "sr": "Dokumenta izdata u inostranstvu predaju se u overenom prevodu.",
+     "en": "Documents issued abroad are submitted in a certified translation.",
+     "ru": "Документы, выданные за рубежом, подаются в заверенном переводе.",
+     "de": "Im Ausland ausgestellte Dokumente werden in beglaubigter Übersetzung eingereicht."
+    },
+    "only": {
+     "sr": "ako je neko od vas stranac",
+     "en": "if one of you is a foreigner",
+     "ru": "если кто-то из вас иностранец",
+     "de": "wenn einer von Ihnen Ausländer ist"
+    }
+   },
+   {
+    "type": "opstinska-uprava",
+    "title": {
+     "sr": "Matičar: prijava i zakazivanje venčanja",
+     "en": "Registrar: application and booking the wedding",
+     "ru": "Регистратор: заявление и запись на церемонию",
+     "de": "Standesamt: Anmeldung und Terminbuchung"
+    },
+    "why": {
+     "sr": "Prijava za venčanje i zakazivanje termina idu kod matičara u opštinskoj ili gradskoj upravi.",
+     "en": "The marriage application and booking go to the registrar at the municipal or city administration.",
+     "ru": "Заявление о браке и запись на дату подаются регистратору в администрации общины или города.",
+     "de": "Anmeldung und Terminbuchung erfolgen beim Standesbeamten in der Gemeinde- oder Stadtverwaltung."
+    }
+   },
+   {
+    "guide": "privremeni-boravak-stranci",
+    "why": {
+     "sr": "Strani supružnik posle venčanja može tražiti boravak po osnovu porodice; uslovi se proveravaju pri podnošenju.",
+     "en": "After the wedding a foreign spouse can apply for residence on family grounds; conditions are checked on filing.",
+     "ru": "Иностранный супруг после свадьбы может запросить пребывание по семейным основаниям; условия проверяются при подаче.",
+     "de": "Ein ausländischer Ehepartner kann nach der Heirat Aufenthalt aus familiären Gründen beantragen; die Voraussetzungen werden bei der Antragstellung geprüft."
+    },
+    "only": {
+     "sr": "ako je supružnik stranac",
+     "en": "if the spouse is a foreigner",
+     "ru": "если супруг иностранец",
+     "de": "wenn der Ehepartner Ausländer ist"
+    }
+   },
+   {
+    "guide": "licna-karta",
+    "why": {
+     "sr": "Ako menjate prezime, lična karta se menja prva; za ostala dokumenta pogledajte putokaz o promeni prezimena.",
+     "en": "If you change your surname, the ID card comes first; for other documents see the roadmap on changing your surname.",
+     "ru": "Если вы меняете фамилию, первой меняется личная карта; про остальные документы смотрите маршрут о смене фамилии.",
+     "de": "Wenn Sie den Nachnamen ändern, kommt zuerst der Personalausweis; zu den übrigen Dokumenten siehe den Wegweiser zur Namensänderung."
+    },
+    "only": {
+     "sr": "ako menjate prezime",
+     "en": "if you change your surname",
+     "ru": "если меняете фамилию",
+     "de": "wenn Sie den Namen ändern"
+    }
+   }
+  ],
+  "terms": [
+   "venčanje",
+   "brak",
+   "stupam u brak",
+   "ženidba",
+   "udaja",
+   "matičar",
+   "izvod venčanih",
+   "wedding",
+   "marriage",
+   "get married",
+   "marry",
+   "свадьба",
+   "брак",
+   "женитьба",
+   "замуж",
+   "heirat",
+   "hochzeit",
+   "ehe"
+  ]
+ },
+ {
+  "slug": "razvod-i-starateljstvo",
+  "group": "porodica",
+  "emblem": "scale",
+  "title": {
+   "sr": "Razvodim se",
+   "en": "I am getting divorced",
+   "ru": "Я развожусь",
+   "de": "Ich lasse mich scheiden"
+  },
+  "lead": {
+   "sr": "Od saveta i pokušaja dogovora do suda, starateljstva nad decom i ažuriranja dokumenata.",
+   "en": "From advice and attempts to agree, to court, custody of children and updating your documents.",
+   "ru": "От консультации и попытки договориться до суда, опеки над детьми и обновления документов.",
+   "de": "Von Beratung und Einigungsversuch über das Gericht und das Sorgerecht bis zur Aktualisierung der Dokumente."
+  },
+  "steps": [
+   {
+    "type": "advokat",
+    "why": {
+     "sr": "Advokat objašnjava šta razvod znači za imovinu i decu, pre nego što bilo šta podnesete.",
+     "en": "A lawyer explains what divorce means for property and children before you file anything.",
+     "ru": "Адвокат объясняет, что развод значит для имущества и детей, прежде чем вы что-либо подадите.",
+     "de": "Ein Anwalt erklärt, was die Scheidung für Vermögen und Kinder bedeutet, bevor Sie etwas einreichen."
+    }
+   },
+   {
+    "type": "medijator",
+    "why": {
+     "sr": "Medijacija je mogućnost da se bračni drugovi dogovore o deci i imovini bez parnice.",
+     "en": "Mediation lets spouses agree on children and property without a lawsuit.",
+     "ru": "Медиация позволяет супругам договориться о детях и имуществе без судебного процесса.",
+     "de": "Eine Mediation erlaubt es Ehepartnern, sich ohne Prozess über Kinder und Vermögen zu einigen."
+    }
+   },
+   {
+    "type": "osnovni-sud",
+    "why": {
+     "sr": "Razvod braka vodi osnovni sud, kome se podnosi tužba ili sporazumni predlog.",
+     "en": "Divorce is handled by the basic court, where the claim or joint proposal is filed.",
+     "ru": "Развод ведёт основной суд, куда подаётся иск или совместное заявление.",
+     "de": "Die Scheidung führt das Grundgericht, bei dem Klage oder gemeinsamer Antrag eingereicht wird."
+    }
+   },
+   {
+    "type": "centar-za-socijalni-rad",
+    "why": {
+     "sr": "Kada ima dece, centar za socijalni rad učestvuje u odluci s kim dete živi.",
+     "en": "When there are children, the social work centre takes part in deciding where the child lives.",
+     "ru": "Когда есть дети, центр социальной работы участвует в решении, с кем ребёнок живёт.",
+     "de": "Sind Kinder da, wirkt das Zentrum für Sozialarbeit an der Entscheidung mit, bei wem das Kind lebt."
+    }
+   },
+   {
+    "guide": "izvod-iz-maticne-knjige",
+    "why": {
+     "sr": "Kada presuda postane pravosnažna, razvod se upisuje u matičnu knjigu i traži se novi izvod.",
+     "en": "Once the judgment is final, the divorce is entered in the registry and a new extract is requested.",
+     "ru": "Когда решение вступает в силу, развод вносится в книгу записей и запрашивается новая выписка.",
+     "de": "Sobald das Urteil rechtskräftig ist, wird die Scheidung eingetragen und ein neuer Auszug beantragt."
+    }
+   },
+   {
+    "guide": "licna-karta",
+    "why": {
+     "sr": "Ako vraćate raniju prezime, menja se lična karta, a zatim ostala dokumenta.",
+     "en": "If you take back your earlier surname, the ID card is changed, then your other documents.",
+     "ru": "Если вы возвращаете прежнюю фамилию, меняется личная карта, а затем остальные документы.",
+     "de": "Wenn Sie Ihren früheren Namen zurücknehmen, wird der Personalausweis geändert, dann die übrigen Dokumente."
+    },
+    "only": {
+     "sr": "ako menjate prezime",
+     "en": "if you change your surname",
+     "ru": "если меняете фамилию",
+     "de": "wenn Sie den Namen ändern"
+    }
+   }
+  ],
+  "terms": [
+   "razvod",
+   "razvod braka",
+   "starateljstvo",
+   "čuvanje dece",
+   "razvedena",
+   "razvedeni",
+   "alimentacija",
+   "divorce",
+   "custody",
+   "separation",
+   "child custody",
+   "развод",
+   "опека",
+   "алименты",
+   "scheidung",
+   "sorgerecht",
+   "trennung"
+  ]
+ },
+ {
+  "slug": "smrt-u-porodici",
+  "group": "porodica",
+  "emblem": "cemetery",
+  "title": {
+   "sr": "Preminuo mi je član porodice",
+   "en": "A family member has died",
+   "ru": "У меня умер член семьи",
+   "de": "Ein Familienmitglied ist verstorben"
+  },
+  "lead": {
+   "sr": "Od sahrane i izvoda umrlih do penzije za porodicu i nasleđa imovine.",
+   "en": "From the funeral and the death certificate to the survivors' pension and inheritance of property.",
+   "ru": "От похорон и свидетельства о смерти до пенсии по потере кормильца и наследства.",
+   "de": "Von Bestattung und Sterbeurkunde bis zur Hinterbliebenenrente und zum Erbe."
+  },
+  "steps": [
+   {
+    "type": "jkp-pogrebne-usluge",
+    "why": {
+     "sr": "Sahrana je prvi hitan korak; pogrebna služba vodi organizaciju i objašnjava koja dokumenta treba.",
+     "en": "The funeral is the first urgent step; the funeral service runs it and explains which papers are needed.",
+     "ru": "Похороны: первый срочный шаг; похоронная служба организует их и объясняет, какие документы нужны.",
+     "de": "Die Bestattung ist der erste dringende Schritt; der Bestattungsdienst organisiert sie und nennt die nötigen Unterlagen."
+    }
+   },
+   {
+    "guide": "izvod-iz-maticne-knjige",
+    "why": {
+     "sr": "Smrt se upisuje u matičnu knjigu, a izvod umrlih traže penzijski fond, notar i drugi organi.",
+     "en": "The death is entered in the registry, and the pension fund, notary and others ask for the death extract.",
+     "ru": "Смерть вносится в книгу записей, а выписку о смерти требуют пенсионный фонд, нотариус и другие органы.",
+     "de": "Der Tod wird eingetragen, und Rentenfonds, Notar und andere Stellen verlangen den Sterbeauszug."
+    }
+   },
+   {
+    "type": "pio-fond",
+    "title": {
+     "sr": "Fond PIO: porodična penzija",
+     "en": "PIO Fund: survivors' pension",
+     "ru": "Фонд ПИО: семейная пенсия",
+     "de": "PIO-Fonds: Hinterbliebenenrente"
+    },
+    "why": {
+     "sr": "Članovi porodice mogu tražiti porodičnu penziju; uslovi se proveravaju pri podnošenju zahteva.",
+     "en": "Family members can apply for a survivors' pension; conditions are checked when the claim is filed.",
+     "ru": "Члены семьи могут запросить пенсию по потере кормильца; условия проверяются при подаче заявления.",
+     "de": "Familienangehörige können eine Hinterbliebenenrente beantragen; die Voraussetzungen werden bei der Antragstellung geprüft."
+    }
+   },
+   {
+    "guide": "overa-kod-javnog-beleznika",
+    "why": {
+     "sr": "Ostavinski postupak vodi javni beležnik, i on utvrđuje ko su naslednici.",
+     "en": "The notary conducts the probate procedure and establishes who the heirs are.",
+     "ru": "Наследственное дело ведёт нотариус, он устанавливает, кто наследники.",
+     "de": "Das Nachlassverfahren führt der Notar, und er stellt fest, wer die Erben sind."
+    }
+   },
+   {
+    "type": "rgz-katastar",
+    "why": {
+     "sr": "Kada je nasleđe utvrđeno, pravo na nekretninu se upisuje u katastar na ime naslednika.",
+     "en": "Once the inheritance is established, the right to real estate is entered in the cadastre in the heir's name.",
+     "ru": "Когда наследство определено, право на недвижимость вносится в кадастр на имя наследника.",
+     "de": "Ist das Erbe festgestellt, wird das Recht an der Immobilie im Kataster auf den Erben eingetragen."
+    },
+    "only": {
+     "sr": "ako ima nekretnina",
+     "en": "if there is real estate",
+     "ru": "если есть недвижимость",
+     "de": "wenn Immobilien vorhanden sind"
+    }
+   },
+   {
+    "guide": "registracija-vozila",
+    "why": {
+     "sr": "Vozilo preminulog se posle ostavinske odluke prepisuje na naslednika.",
+     "en": "The deceased's vehicle is transferred to the heir after the probate decision.",
+     "ru": "Автомобиль умершего после решения по наследству переоформляется на наследника.",
+     "de": "Das Fahrzeug des Verstorbenen wird nach dem Nachlassbeschluss auf den Erben umgeschrieben."
+    },
+    "only": {
+     "sr": "ako ima vozilo",
+     "en": "if there is a vehicle",
+     "ru": "если есть автомобиль",
+     "de": "wenn ein Fahrzeug vorhanden ist"
+    }
+   }
+  ],
+  "terms": [
+   "smrt",
+   "umro",
+   "preminuo",
+   "sahrana",
+   "izvod umrlih",
+   "porodična penzija",
+   "nasleđe",
+   "death",
+   "funeral",
+   "bereavement",
+   "died",
+   "смерть",
+   "умер",
+   "похороны",
+   "наследство",
+   "todesfall",
+   "beerdigung",
+   "sterbeurkunde"
+  ]
+ },
+ {
+  "slug": "stariji-roditelj",
+  "group": "porodica",
+  "emblem": "elderly-home",
+  "title": {
+   "sr": "Brinem o starijem roditelju",
+   "en": "I am caring for an elderly parent",
+   "ru": "Я забочусь о пожилом родителе",
+   "de": "Ich kümmere mich um ein älteres Elternteil"
+  },
+  "lead": {
+   "sr": "Od procene potreba i usluga u kući do doma za stare i novčane pomoći.",
+   "en": "From assessing needs and home services to a care home and financial support.",
+   "ru": "От оценки потребностей и услуг на дому до дома престарелых и денежной помощи.",
+   "de": "Von der Bedarfsklärung und Hilfe zu Hause bis zum Pflegeheim und zur finanziellen Unterstützung."
+  },
+  "steps": [
+   {
+    "guide": "zdravstvena-knjizica",
+    "why": {
+     "sr": "Prvo proverite da li roditelj ima važeću zdravstvenu karticu, jer od nje zavisi nega i lekovi.",
+     "en": "First check that your parent has a valid health card, as care and medicines depend on it.",
+     "ru": "Сначала проверьте, что у родителя действительная карта медстрахования: от неё зависят уход и лекарства.",
+     "de": "Prüfen Sie zuerst, ob Ihr Elternteil eine gültige Gesundheitskarte hat, denn Pflege und Medikamente hängen davon ab."
+    }
+   },
+   {
+    "type": "centar-za-socijalni-rad",
+    "why": {
+     "sr": "Centar za socijalni rad procenjuje potrebe i upućuje na usluge i prava koja stoje na raspolaganju.",
+     "en": "The social work centre assesses needs and points to the services and rights available.",
+     "ru": "Центр социальной работы оценивает потребности и направляет к доступным услугам и правам.",
+     "de": "Das Zentrum für Sozialarbeit klärt den Bedarf und verweist auf verfügbare Leistungen und Rechte."
+    }
+   },
+   {
+    "type": "usluga-socijalne-zastite",
+    "why": {
+     "sr": "Pomoć u kući i dnevni boravak omogućavaju da roditelj ostane kod kuće.",
+     "en": "Home help and day care let your parent stay at home.",
+     "ru": "Помощь на дому и дневное пребывание позволяют родителю остаться дома.",
+     "de": "Hilfe zu Hause und Tagesbetreuung erlauben es Ihrem Elternteil, daheim zu bleiben."
+    }
+   },
+   {
+    "type": "pio-fond",
+    "title": {
+     "sr": "Fond PIO: dodatak za tuđu negu",
+     "en": "PIO Fund: attendance allowance",
+     "ru": "Фонд ПИО: надбавка на уход",
+     "de": "PIO-Fonds: Pflegezuschlag"
+    },
+    "why": {
+     "sr": "Penzioneri mogu tražiti dodatak za tuđu negu i pomoć; uslovi se proveravaju pri podnošenju.",
+     "en": "Pensioners can apply for an attendance allowance; conditions are checked when applying.",
+     "ru": "Пенсионеры могут запросить надбавку на постороннюю помощь; условия проверяются при подаче.",
+     "de": "Rentner können ein Pflegegeld beantragen; die Voraussetzungen werden bei der Antragstellung geprüft."
+    },
+    "only": {
+     "sr": "ako je roditelj penzioner",
+     "en": "if the parent is a pensioner",
+     "ru": "если родитель пенсионер",
+     "de": "wenn das Elternteil Rentner ist"
+    }
+   },
+   {
+    "type": "gerontoloski-centar",
+    "why": {
+     "sr": "Kada nega kod kuće više nije moguća, gerontološki centar je državna ustanova za smeštaj.",
+     "en": "When care at home is no longer possible, a gerontology centre is the state facility for placement.",
+     "ru": "Когда уход дома больше невозможен, геронтологический центр: государственное учреждение для размещения.",
+     "de": "Wenn Pflege zu Hause nicht mehr möglich ist, ist ein Gerontologiezentrum die staatliche Einrichtung zur Unterbringung."
+    },
+    "only": {
+     "sr": "ako je potreban smeštaj",
+     "en": "if placement is needed",
+     "ru": "если нужно размещение",
+     "de": "wenn eine Unterbringung nötig ist"
+    }
+   },
+   {
+    "type": "dom-za-stare",
+    "why": {
+     "sr": "Privatni domovi za stare su druga mogućnost, uz plaćanje; uporedite uslove pre odluke.",
+     "en": "Private care homes are the other option, for a fee; compare conditions before you decide.",
+     "ru": "Частные дома престарелых: другой вариант, за плату; сравните условия до решения.",
+     "de": "Private Pflegeheime sind die andere Möglichkeit, gegen Entgelt; vergleichen Sie die Bedingungen vor der Entscheidung."
+    },
+    "only": {
+     "sr": "ako je potreban smeštaj",
+     "en": "if placement is needed",
+     "ru": "если нужно размещение",
+     "de": "wenn eine Unterbringung nötig ist"
+    }
+   }
+  ],
+  "terms": [
+   "stariji roditelj",
+   "nega starih",
+   "dom za stare",
+   "starački dom",
+   "gerontološki",
+   "tuđa nega",
+   "briga o roditelju",
+   "elderly parent",
+   "care home",
+   "nursing home",
+   "elderly care",
+   "пожилой родитель",
+   "дом престарелых",
+   "уход за пожилыми",
+   "pflegeheim",
+   "altenheim",
+   "pflege eltern"
+  ]
+ },
+ {
+  "slug": "prvi-razred",
+  "group": "skolovanje",
+  "emblem": "school",
+  "title": {
+   "sr": "Dete polazi u prvi razred",
+   "en": "My child starts first grade",
+   "ru": "Ребёнок идёт в первый класс",
+   "de": "Mein Kind kommt in die erste Klasse"
+  },
+  "lead": {
+   "sr": "Od pripremne godine i dokumenata do zakazivanja upisa i lekarskog pregleda.",
+   "en": "From the preparatory year and papers to booking enrolment and the medical check.",
+   "ru": "От подготовительного года и документов до записи и медосмотра.",
+   "de": "Vom Vorschuljahr und den Unterlagen bis zur Terminbuchung und zur ärztlichen Untersuchung."
+  },
+  "steps": [
+   {
+    "guide": "pripremni-predskolski-program",
+    "why": {
+     "sr": "Godina pre škole je obavezna, pa se prvo uveri da je dete upisano u nju.",
+     "en": "The year before school is compulsory, so first make sure the child is enrolled in it.",
+     "ru": "Год перед школой обязателен, поэтому сначала убедитесь, что ребёнок в него записан.",
+     "de": "Das Jahr vor der Schule ist verpflichtend, stellen Sie also zuerst sicher, dass das Kind dafür angemeldet ist."
+    }
+   },
+   {
+    "guide": "izvod-iz-maticne-knjige",
+    "why": {
+     "sr": "Izvod rođenih deteta je osnovni dokument i traži se pri samom upisu u školu.",
+     "en": "The child's birth extract is the basic document and is asked for at the school enrolment itself.",
+     "ru": "Выписка о рождении ребёнка: основной документ, и её требуют при самой записи в школу.",
+     "de": "Der Geburtsauszug des Kindes ist das Grunddokument und wird bei der Einschulung selbst verlangt."
+    }
+   },
+   {
+    "guide": "prijava-prebivalista",
+    "why": {
+     "sr": "Škola se po pravilu određuje prema adresi, pa adresa mora biti prijavljena.",
+     "en": "The school is normally assigned by address, so the address must be registered.",
+     "ru": "Школа, как правило, определяется по адресу, поэтому адрес должен быть зарегистрирован.",
+     "de": "Die Schule richtet sich in der Regel nach der Adresse, daher muss die Adresse gemeldet sein."
+    }
+   },
+   {
+    "type": "dom-zdravlja",
+    "title": {
+     "sr": "Lekarski pregled za školu",
+     "en": "Medical check for school",
+     "ru": "Медосмотр для школы",
+     "de": "Ärztliche Untersuchung für die Schule"
+    },
+    "why": {
+     "sr": "Lekarski pregled pred upis obavlja se u domu zdravlja; vodič kaže šta se traži.",
+     "en": "The medical check before enrolment is done at the health centre; the guide says what is required.",
+     "ru": "Медосмотр перед записью проходит в доме здоровья; что требуется, сказано в руководстве.",
+     "de": "Die ärztliche Untersuchung vor der Einschulung erfolgt im Gesundheitszentrum; der Leitfaden nennt die Anforderungen."
+    }
+   },
+   {
+    "guide": "upis-u-osnovnu-skolu",
+    "why": {
+     "sr": "Termin upisa zakazuje se elektronski, a dete se ispituje u školi.",
+     "en": "The enrolment slot is booked online, and the child is assessed at the school.",
+     "ru": "Время записи бронируется онлайн, а ребёнка оценивают в школе.",
+     "de": "Der Einschulungstermin wird online gebucht, und das Kind wird in der Schule beurteilt."
+    }
+   },
+   {
+    "type": "osnovna-skola",
+    "title": {
+     "sr": "Osnovna škola u vašem rejonu",
+     "en": "Primary school in your catchment area",
+     "ru": "Начальная школа вашего района",
+     "de": "Grundschule Ihres Einzugsgebiets"
+    },
+    "why": {
+     "sr": "Škola u vašem rejonu potvrđuje upis i daje informacije o početku nastave.",
+     "en": "The school in your catchment area confirms enrolment and gives information on the start of classes.",
+     "ru": "Школа вашего района подтверждает запись и сообщает о начале занятий.",
+     "de": "Die Schule Ihres Einzugsgebiets bestätigt die Einschulung und informiert über den Unterrichtsbeginn."
+    }
+   }
+  ],
+  "terms": [
+   "prvi razred",
+   "upis u školu",
+   "osnovna škola",
+   "polazi u školu",
+   "školarac",
+   "prvak",
+   "first grade",
+   "primary school",
+   "school enrolment",
+   "start school",
+   "первый класс",
+   "школа запись",
+   "начальная школа",
+   "einschulung",
+   "erste klasse",
+   "grundschule"
+  ]
+ },
+ {
+  "slug": "kraj-osmog-razreda",
+  "group": "skolovanje",
+  "emblem": "graduation-cap",
+  "title": {
+   "sr": "Završavam osmi razred",
+   "en": "I am finishing eighth grade",
+   "ru": "Я заканчиваю восьмой класс",
+   "de": "Ich beende die achte Klasse"
+  },
+  "lead": {
+   "sr": "Od izbora škole i prijave za upis do doma, kredita i stipendije ako učite u drugom mestu.",
+   "en": "From choosing a school and applying to a dormitory, loan and scholarship if you study elsewhere.",
+   "ru": "От выбора школы и заявки до общежития, кредита и стипендии, если вы учитесь в другом городе.",
+   "de": "Von der Schulwahl und der Anmeldung bis zu Wohnheim, Darlehen und Stipendium, falls Sie anderswo lernen."
+  },
+  "steps": [
+   {
+    "type": "srednja-skola",
+    "title": {
+     "sr": "Srednje škole i smerovi",
+     "en": "Secondary schools and programmes",
+     "ru": "Средние школы и направления",
+     "de": "Weiterführende Schulen und Richtungen"
+    },
+    "why": {
+     "sr": "Pregledajte gimnazije i stručne škole i njihove smerove pre nego što napravite listu želja.",
+     "en": "Browse the grammar and vocational schools and their programmes before you make your list of choices.",
+     "ru": "Просмотрите гимназии и профессиональные школы и их направления, прежде чем составлять список желаний.",
+     "de": "Sehen Sie sich Gymnasien und Berufsschulen samt Richtungen an, bevor Sie Ihre Wunschliste erstellen."
+    }
+   },
+   {
+    "guide": "upis-u-srednju-skolu",
+    "why": {
+     "sr": "Završni ispit, bodovanje i lista želja vode do rasporeda u školu.",
+     "en": "The final exam, scoring and wish list lead to placement in a school.",
+     "ru": "Выпускной экзамен, баллы и список желаний ведут к распределению в школу.",
+     "de": "Abschlussprüfung, Punktebewertung und Wunschliste führen zur Zuteilung an eine Schule."
+    }
+   },
+   {
+    "guide": "studentski-dom-kredit-i-stipendija",
+    "why": {
+     "sr": "Ako škola nije u vašem mestu, konkurs za dom učenika i stipendiju raspisuje se posebno.",
+     "en": "If the school is not in your town, the call for a pupil dormitory and scholarship is announced separately.",
+     "ru": "Если школа не в вашем городе, конкурс на дом учащихся и стипендию объявляется отдельно.",
+     "de": "Liegt die Schule nicht in Ihrem Ort, wird die Ausschreibung für Schülerheim und Stipendium gesondert veröffentlicht."
+    },
+    "only": {
+     "sr": "ako učite u drugom mestu",
+     "en": "if you study in another town",
+     "ru": "если учитесь в другом городе",
+     "de": "wenn Sie in einem anderen Ort lernen"
+    }
+   },
+   {
+    "type": "dom-ucenika",
+    "why": {
+     "sr": "Dom učenika prima prijave za smeštaj; rokovi se objavljuju uz konkurs.",
+     "en": "The pupil dormitory takes applications for a place; deadlines are published with the call.",
+     "ru": "Дом учащихся принимает заявки на место; сроки публикуются вместе с конкурсом.",
+     "de": "Das Schülerheim nimmt Bewerbungen für einen Platz an; die Fristen werden mit der Ausschreibung veröffentlicht."
+    },
+    "only": {
+     "sr": "ako učite u drugom mestu",
+     "en": "if you study in another town",
+     "ru": "если учитесь в другом городе",
+     "de": "wenn Sie in einem anderen Ort lernen"
+    }
+   }
+  ],
+  "terms": [
+   "srednja škola",
+   "upis u srednju",
+   "osmi razred",
+   "mala matura",
+   "gimnazija",
+   "završni ispit",
+   "dom učenika",
+   "secondary school",
+   "high school",
+   "eighth grade",
+   "grammar school",
+   "средняя школа",
+   "восьмой класс",
+   "гимназия",
+   "weiterführende schule",
+   "gymnasium",
+   "achte klasse"
+  ]
+ },
+ {
+  "slug": "upis-na-fakultet",
+  "group": "skolovanje",
+  "emblem": "university",
+  "title": {
+   "sr": "Upisujem fakultet",
+   "en": "I am enrolling at university",
+   "ru": "Я поступаю в университет",
+   "de": "Ich schreibe mich an der Universität ein"
+  },
+  "lead": {
+   "sr": "Od izbora fakulteta i upisa do smeštaja, zdravstvenog osiguranja i računa.",
+   "en": "From choosing a faculty and enrolling to housing, health insurance and a bank account.",
+   "ru": "От выбора факультета и поступления до жилья, медстраховки и банковского счёта.",
+   "de": "Von der Wahl der Fakultät und der Einschreibung bis zu Unterkunft, Krankenversicherung und Konto."
+  },
+  "steps": [
+   {
+    "type": "fakultet",
+    "why": {
+     "sr": "Izaberite fakultet i studijski program, jer od njega zavise uslovi i rokovi upisa.",
+     "en": "Choose a faculty and programme, since enrolment conditions and deadlines depend on them.",
+     "ru": "Выберите факультет и программу: от них зависят условия и сроки поступления.",
+     "de": "Wählen Sie Fakultät und Studiengang, denn Einschreibebedingungen und Fristen hängen davon ab."
+    }
+   },
+   {
+    "guide": "priznavanje-strane-diplome",
+    "why": {
+     "sr": "Ako je srednja škola završena u inostranstvu, isprava se prvo priznaje.",
+     "en": "If secondary school was completed abroad, the certificate is recognised first.",
+     "ru": "Если средняя школа окончена за рубежом, аттестат сначала признаётся.",
+     "de": "Wurde die Schule im Ausland abgeschlossen, wird das Zeugnis zuerst anerkannt."
+    },
+    "only": {
+     "sr": "ako ste školu završili u inostranstvu",
+     "en": "if you finished school abroad",
+     "ru": "если окончили школу за рубежом",
+     "de": "wenn Sie die Schule im Ausland abgeschlossen haben"
+    }
+   },
+   {
+    "guide": "upis-na-fakultet",
+    "why": {
+     "sr": "Konkurs, prijava, prijemni ispit i rang lista vode do samog upisa.",
+     "en": "The call, application, entrance exam and ranking list lead to the actual enrolment.",
+     "ru": "Конкурс, заявка, вступительный экзамен и рейтинг ведут к самой записи.",
+     "de": "Ausschreibung, Bewerbung, Aufnahmeprüfung und Rangliste führen zur eigentlichen Einschreibung."
+    }
+   },
+   {
+    "guide": "studentski-dom-kredit-i-stipendija",
+    "why": {
+     "sr": "Smeštaj u domu, studentski kredit i stipendija traže se na posebnim konkursima.",
+     "en": "A dormitory place, student loan and scholarship are applied for in separate calls.",
+     "ru": "Место в общежитии, студенческий кредит и стипендия запрашиваются на отдельных конкурсах.",
+     "de": "Wohnheimplatz, Studienkredit und Stipendium werden in gesonderten Ausschreibungen beantragt."
+    }
+   },
+   {
+    "guide": "prijava-prebivalista",
+    "why": {
+     "sr": "Ako se selite zbog studija, prijavite novu adresu ili boravište.",
+     "en": "If you move for your studies, register your new address or temporary residence.",
+     "ru": "Если вы переезжаете ради учёбы, зарегистрируйте новый адрес или временное пребывание.",
+     "de": "Wenn Sie wegen des Studiums umziehen, melden Sie die neue Adresse oder den Nebenwohnsitz an."
+    },
+    "only": {
+     "sr": "ako se selite zbog studija",
+     "en": "if you move for studies",
+     "ru": "если переезжаете ради учёбы",
+     "de": "wenn Sie für das Studium umziehen"
+    }
+   },
+   {
+    "guide": "zdravstvena-knjizica",
+    "why": {
+     "sr": "Student ostaje osiguran preko roditelja ili kao student; osnov osiguranja se utvrđuje pri prijavi.",
+     "en": "A student stays insured through a parent or as a student; the basis of insurance is established on registration.",
+     "ru": "Студент остаётся застрахованным через родителя или как студент; основание страхования определяется при регистрации.",
+     "de": "Studierende bleiben über einen Elternteil oder als Student versichert; der Versicherungsgrund wird bei der Anmeldung festgestellt."
+    }
+   },
+   {
+    "guide": "bankovni-racun-i-kartice",
+    "why": {
+     "sr": "Račun u banci koristi se za školarinu, stipendiju i svakodnevne troškove.",
+     "en": "A bank account is used for tuition, scholarship payments and everyday costs.",
+     "ru": "Банковский счёт используется для оплаты обучения, стипендии и повседневных расходов.",
+     "de": "Ein Bankkonto dient für Studiengebühren, Stipendium und alltägliche Ausgaben."
+    }
+   }
+  ],
+  "terms": [
+   "fakultet",
+   "upis na fakultet",
+   "studije",
+   "student",
+   "prijemni",
+   "studentski kredit",
+   "stipendija",
+   "university",
+   "enrol university",
+   "college",
+   "student housing",
+   "университет",
+   "поступление",
+   "студент",
+   "общежитие",
+   "universität",
+   "studium",
+   "einschreibung"
+  ]
+ },
+ {
+  "slug": "ostao-sam-bez-posla",
+  "group": "posao",
+  "emblem": "employment",
+  "title": {
+   "sr": "Ostao sam bez posla",
+   "en": "I lost my job",
+   "ru": "Я потерял работу",
+   "de": "Ich habe meine Arbeit verloren"
+  },
+  "lead": {
+   "sr": "Od prijave kod Nacionalne službe do osiguranja, traženja novog posla i pomoći ako nema prihoda.",
+   "en": "From registering with the employment service to insurance, finding a new job and help if there is no income.",
+   "ru": "От регистрации в службе занятости до страховки, поиска работы и помощи при отсутствии дохода.",
+   "de": "Von der Anmeldung beim Arbeitsdienst bis zu Versicherung, Jobsuche und Hilfe bei fehlendem Einkommen."
+  },
+  "steps": [
+   {
+    "guide": "prijava-na-nsz",
+    "why": {
+     "sr": "Prijava u evidenciju nezaposlenih otvara pravo na posredovanje, obuke i, uz uslove, novčanu naknadu.",
+     "en": "Registering as unemployed opens access to mediation, training and, under conditions, a cash benefit.",
+     "ru": "Регистрация безработного открывает доступ к посредничеству, обучению и при условиях денежному пособию.",
+     "de": "Die Anmeldung als arbeitslos eröffnet Vermittlung, Schulungen und unter Bedingungen eine Geldleistung."
+    }
+   },
+   {
+    "guide": "zdravstvena-knjizica",
+    "why": {
+     "sr": "Zdravstveno osiguranje se nastavlja po novom osnovu; u vodiču je šta se za to podnosi.",
+     "en": "Health insurance continues on a new basis; the guide lists what is filed for it.",
+     "ru": "Медицинское страхование продолжается на новом основании; в инструкции указано, что для этого подаётся.",
+     "de": "Die Krankenversicherung läuft auf neuer Grundlage weiter; die Anleitung nennt, was dafür einzureichen ist."
+    }
+   },
+   {
+    "type": "nsz",
+    "title": {
+     "sr": "Filijala NSZ i oglasi za posao",
+     "en": "NSZ branch and job vacancies",
+     "ru": "Филиал NSZ и вакансии",
+     "de": "NSZ-Filiale und Stellenangebote"
+    },
+    "why": {
+     "sr": "Filijala Nacionalne službe vodi vaš slučaj i obaveštava o oglasima i programima.",
+     "en": "The employment service branch handles your case and informs you about vacancies and programmes.",
+     "ru": "Филиал службы занятости ведёт ваше дело и сообщает о вакансиях и программах.",
+     "de": "Die Filiale des Arbeitsdienstes betreut Ihren Fall und informiert über Stellen und Programme."
+    }
+   },
+   {
+    "type": "agencija-za-zaposljavanje",
+    "why": {
+     "sr": "Agencije za zapošljavanje nude dodatne oglase i privremene poslove.",
+     "en": "Employment agencies offer further vacancies and temporary jobs.",
+     "ru": "Агентства по трудоустройству предлагают дополнительные вакансии и временную работу.",
+     "de": "Arbeitsvermittlungen bieten weitere Stellen und befristete Jobs an."
+    },
+    "only": {
+     "sr": "ako tražite privremeni posao",
+     "en": "if you want temporary work",
+     "ru": "если ищете временную работу",
+     "de": "wenn Sie befristete Arbeit suchen"
+    }
+   },
+   {
+    "type": "skola-za-odrasle",
+    "why": {
+     "sr": "Prekvalifikacija ili završetak škole povećavaju šanse za novi posao.",
+     "en": "Retraining or finishing school improves your chances of a new job.",
+     "ru": "Переквалификация или окончание школы повышают шансы найти новую работу.",
+     "de": "Umschulung oder ein Schulabschluss verbessern Ihre Chancen auf eine neue Stelle."
+    },
+    "only": {
+     "sr": "ako želite prekvalifikaciju",
+     "en": "if you want to retrain",
+     "ru": "если хотите переучиться",
+     "de": "wenn Sie sich umschulen möchten"
+    }
+   },
+   {
+    "guide": "novcana-socijalna-pomoc",
+    "why": {
+     "sr": "Kad nema nikakvih prihoda, može se tražiti novčana socijalna pomoć; uslovi se proveravaju pri podnošenju.",
+     "en": "When there is no income at all, financial social assistance can be requested; conditions are checked on filing.",
+     "ru": "При полном отсутствии дохода можно запросить денежную социальную помощь; условия проверяются при подаче.",
+     "de": "Gibt es überhaupt kein Einkommen, kann Sozialhilfe beantragt werden; die Voraussetzungen werden bei der Antragstellung geprüft."
+    },
+    "only": {
+     "sr": "ako nemate prihoda",
+     "en": "if you have no income",
+     "ru": "если нет дохода",
+     "de": "wenn Sie kein Einkommen haben"
+    }
+   }
+  ],
+  "terms": [
+   "ostao bez posla",
+   "otkaz",
+   "nezaposlen",
+   "biro rada",
+   "nsz",
+   "novčana naknada",
+   "tražim posao",
+   "lost my job",
+   "unemployed",
+   "laid off",
+   "job loss",
+   "потерял работу",
+   "безработный",
+   "увольнение",
+   "служба занятости",
+   "arbeitslos",
+   "kündigung",
+   "arbeitsamt"
+  ]
+ },
+ {
+  "slug": "prvi-ili-studentski-posao",
+  "group": "posao",
+  "emblem": "briefcase",
+  "title": {
+   "sr": "Tražim prvi ili studentski posao",
+   "en": "I am looking for a first or student job",
+   "ru": "Я ищу первую или студенческую работу",
+   "de": "Ich suche meinen ersten Job oder einen Studentenjob"
+  },
+  "lead": {
+   "sr": "Od oglasa i agencija do računa za platu i zdravstvenog osiguranja.",
+   "en": "From vacancies and agencies to a salary account and health insurance.",
+   "ru": "От вакансий и агентств до счёта для зарплаты и медстраховки.",
+   "de": "Von Stellenanzeigen und Agenturen bis zu Gehaltskonto und Krankenversicherung."
+  },
+  "steps": [
+   {
+    "type": "nsz",
+    "title": {
+     "sr": "NSZ: oglasi i programi za mlade",
+     "en": "NSZ: vacancies and youth programmes",
+     "ru": "NSZ: вакансии и программы для молодёжи",
+     "de": "NSZ: Stellen und Jugendprogramme"
+    },
+    "why": {
+     "sr": "Nacionalna služba objavljuje oglase i programe za mlade i one bez radnog iskustva.",
+     "en": "The national employment service publishes vacancies and programmes for young people and those without experience.",
+     "ru": "Национальная служба занятости публикует вакансии и программы для молодёжи и тех, у кого нет опыта.",
+     "de": "Der nationale Arbeitsdienst veröffentlicht Stellen und Programme für junge Menschen und Berufseinsteiger."
+    }
+   },
+   {
+    "type": "agencija-za-zaposljavanje",
+    "why": {
+     "sr": "Agencije posreduju u privremenim i sezonskim poslovima; omladinske i studentske zadruge još nisu na sajtu.",
+     "en": "Agencies mediate temporary and seasonal jobs; youth and student cooperatives are not listed on the site yet.",
+     "ru": "Агентства посредничают во временной и сезонной работе; молодёжные и студенческие кооперативы на сайте пока не указаны.",
+     "de": "Agenturen vermitteln befristete und saisonale Jobs; Jugend- und Studentengenossenschaften sind auf der Seite noch nicht erfasst."
+    },
+    "only": {
+     "sr": "za privremeni posao",
+     "en": "for temporary work",
+     "ru": "для временной работы",
+     "de": "für befristete Jobs"
+    }
+   },
+   {
+    "guide": "prijava-na-nsz",
+    "why": {
+     "sr": "Prijava kao nezaposlena osoba dozvoljava pristup obukama i posredovanju; uslovi se proveravaju na šalteru.",
+     "en": "Registering as unemployed gives access to training and mediation; conditions are checked at the counter.",
+     "ru": "Регистрация безработного даёт доступ к обучению и посредничеству; условия проверяются на месте.",
+     "de": "Die Anmeldung als arbeitslos öffnet den Zugang zu Schulungen und Vermittlung; die Voraussetzungen werden vor Ort geprüft."
+    },
+    "only": {
+     "sr": "ako ste završili školovanje",
+     "en": "if you have finished school",
+     "ru": "если вы закончили учёбу",
+     "de": "wenn Sie die Ausbildung beendet haben"
+    }
+   },
+   {
+    "guide": "priznavanje-strane-diplome",
+    "why": {
+     "sr": "Diploma stečena u inostranstvu priznaje se pre nego što je poslodavac prihvati.",
+     "en": "A diploma earned abroad is recognised before an employer accepts it.",
+     "ru": "Диплом, полученный за рубежом, признаётся до того, как его примет работодатель.",
+     "de": "Ein im Ausland erworbenes Diplom wird anerkannt, bevor ein Arbeitgeber es akzeptiert."
+    },
+    "only": {
+     "sr": "ako ste školovani u inostranstvu",
+     "en": "if you studied abroad",
+     "ru": "если учились за рубежом",
+     "de": "wenn Sie im Ausland studiert haben"
+    }
+   },
+   {
+    "guide": "bankovni-racun-i-kartice",
+    "why": {
+     "sr": "Plata se isplaćuje na račun u banci, pa ga otvorite pre prvog radnog dana.",
+     "en": "Salary is paid into a bank account, so open one before the first working day.",
+     "ru": "Зарплата перечисляется на счёт в банке, поэтому откройте его до первого рабочего дня.",
+     "de": "Das Gehalt wird auf ein Bankkonto gezahlt, eröffnen Sie es also vor dem ersten Arbeitstag."
+    }
+   },
+   {
+    "guide": "zdravstvena-knjizica",
+    "why": {
+     "sr": "Poslodavac prijavljuje zaposlenog na osiguranje, pa se osnov zdravstvenog osiguranja menja.",
+     "en": "The employer registers the employee for insurance, so the basis of health insurance changes.",
+     "ru": "Работодатель регистрирует сотрудника в системе страхования, и основание медицинского страхования меняется.",
+     "de": "Der Arbeitgeber meldet den Beschäftigten zur Versicherung an, damit ändert sich der Grund der Krankenversicherung."
+    }
+   }
+  ],
+  "terms": [
+   "prvi posao",
+   "studentski posao",
+   "privremeni posao",
+   "honorarni",
+   "sezonski posao",
+   "posao za studente",
+   "first job",
+   "student job",
+   "part time",
+   "temporary job",
+   "seasonal work",
+   "первая работа",
+   "студенческая работа",
+   "подработка",
+   "временная работа",
+   "erster job",
+   "studentenjob",
+   "nebenjob"
+  ]
+ },
+ {
+  "slug": "odlazim-u-penziju",
+  "group": "posao",
+  "emblem": "pension",
+  "title": {
+   "sr": "Odlazim u penziju",
+   "en": "I am retiring",
+   "ru": "Я выхожу на пенсию",
+   "de": "Ich gehe in Rente"
+  },
+  "lead": {
+   "sr": "Od zahteva u PIO fondu do zdravstvene kartice penzionera, računa i dobrovoljnog fonda.",
+   "en": "From the claim at the PIO fund to the pensioner's health card, account and voluntary fund.",
+   "ru": "От заявления в фонде ПИО до карты медстрахования пенсионера, счёта и добровольного фонда.",
+   "de": "Vom Antrag beim PIO-Fonds bis zu Rentner-Gesundheitskarte, Konto und freiwilligem Fonds."
+  },
+  "steps": [
+   {
+    "type": "pio-fond",
+    "title": {
+     "sr": "Fond PIO: zahtev za penziju",
+     "en": "PIO Fund: pension claim",
+     "ru": "Фонд ПИО: заявление на пенсию",
+     "de": "PIO-Fonds: Rentenantrag"
+    },
+    "why": {
+     "sr": "Zahtev za penziju podnosi se Fondu PIO, koji proverava staž i uslove.",
+     "en": "The pension claim is filed with the PIO Fund, which checks service record and conditions.",
+     "ru": "Заявление на пенсию подаётся в фонд ПИО, который проверяет стаж и условия.",
+     "de": "Der Rentenantrag wird beim PIO-Fonds gestellt, der Versicherungszeiten und Voraussetzungen prüft."
+    }
+   },
+   {
+    "guide": "izvod-iz-maticne-knjige",
+    "why": {
+     "sr": "Izvod rođenih je jedan od dokumenata koji se prilažu zahtevu.",
+     "en": "The birth extract is one of the documents attached to the claim.",
+     "ru": "Выписка о рождении: один из документов, прилагаемых к заявлению.",
+     "de": "Der Geburtsauszug gehört zu den Unterlagen, die dem Antrag beiliegen."
+    }
+   },
+   {
+    "guide": "zdravstvena-knjizica",
+    "why": {
+     "sr": "Osnov zdravstvenog osiguranja se menja u penzionerski, pa se kartica overava iznova.",
+     "en": "The basis of health insurance changes to pensioner status, so the card is validated again.",
+     "ru": "Основание медстрахования меняется на пенсионерское, поэтому карта подтверждается заново.",
+     "de": "Der Versicherungsgrund wechselt auf Rentner, daher wird die Karte neu bestätigt."
+    }
+   },
+   {
+    "guide": "bankovni-racun-i-kartice",
+    "why": {
+     "sr": "Penzija se može primati na račun u banci, što je praktično za redovna plaćanja.",
+     "en": "The pension can be received into a bank account, which is practical for regular payments.",
+     "ru": "Пенсию можно получать на банковский счёт, что удобно для регулярных платежей.",
+     "de": "Die Rente kann auf ein Bankkonto gezahlt werden, was für regelmäßige Zahlungen praktisch ist."
+    },
+    "only": {
+     "sr": "ako penziju primate na račun",
+     "en": "if you take the pension into an account",
+     "ru": "если получаете пенсию на счёт",
+     "de": "wenn Sie die Rente auf ein Konto beziehen"
+    }
+   },
+   {
+    "type": "penzijski-fond",
+    "why": {
+     "sr": "Dobrovoljni penzijski fond je dodatna štednja, odvojena od državne penzije.",
+     "en": "A voluntary pension fund is extra saving, separate from the state pension.",
+     "ru": "Добровольный пенсионный фонд: дополнительные накопления, отдельные от государственной пенсии.",
+     "de": "Ein freiwilliger Pensionsfonds ist zusätzliches Sparen, getrennt von der staatlichen Rente."
+    },
+    "only": {
+     "sr": "ako imate dodatnu štednju",
+     "en": "if you have extra savings",
+     "ru": "если у вас дополнительные накопления",
+     "de": "wenn Sie zusätzlich sparen"
+    }
+   }
+  ],
+  "terms": [
+   "penzija",
+   "odlazak u penziju",
+   "penzioner",
+   "staž",
+   "penzijski fond",
+   "pio",
+   "penzionisanje",
+   "pension",
+   "retire",
+   "retirement",
+   "pensioner",
+   "пенсия",
+   "выход на пенсию",
+   "пенсионер",
+   "rente",
+   "ruhestand",
+   "rentner"
+  ]
+ },
+ {
+  "slug": "zdravstvena-kartica-po-situaciji",
+  "group": "zdravlje",
+  "emblem": "stethoscope",
+  "title": {
+   "sr": "Treba mi zdravstvena kartica",
+   "en": "I need a health card",
+   "ru": "Мне нужна карта медстрахования",
+   "de": "Ich brauche eine Gesundheitskarte"
+  },
+  "lead": {
+   "sr": "Jedan put, više osnova: zaposleni, nezaposleni, student, penzioner ili član porodice.",
+   "en": "One road, several grounds: employed, unemployed, student, pensioner or family member.",
+   "ru": "Один путь, несколько оснований: работающий, безработный, студент, пенсионер или член семьи.",
+   "de": "Ein Weg, mehrere Gründe: beschäftigt, arbeitslos, Student, Rentner oder Familienangehöriger."
+  },
+  "steps": [
+   {
+    "guide": "zdravstvena-knjizica",
+    "title": {
+     "sr": "Zaposleni: osiguranje preko poslodavca",
+     "en": "Employed: insurance through the employer",
+     "ru": "Работающий: страхование через работодателя",
+     "de": "Beschäftigt: Versicherung über den Arbeitgeber"
+    },
+    "why": {
+     "sr": "Poslodavac prijavljuje zaposlenog na osiguranje; na osnovu te prijave izdaje se zdravstvena kartica.",
+     "en": "The employer registers the employee for insurance; the health card is issued on the basis of that registration.",
+     "ru": "Работодатель регистрирует сотрудника в системе страхования; на основании этой регистрации выдаётся карта медицинского страхования.",
+     "de": "Der Arbeitgeber meldet den Beschäftigten zur Versicherung an; auf dieser Grundlage wird die Gesundheitskarte ausgestellt."
+    },
+    "only": {
+     "sr": "ako ste zaposleni",
+     "en": "if you are employed",
+     "ru": "если вы работаете",
+     "de": "wenn Sie beschäftigt sind"
+    }
+   },
+   {
+    "guide": "prijava-na-nsz",
+    "title": {
+     "sr": "Nezaposleni: prijava u NSZ",
+     "en": "Unemployed: register with NSZ",
+     "ru": "Безработный: регистрация в NSZ",
+     "de": "Arbeitslos: Anmeldung beim NSZ"
+    },
+    "why": {
+     "sr": "Prijava u evidenciju nezaposlenih daje osnov za zdravstveno osiguranje; uslovi se proveravaju pri prijavi.",
+     "en": "Registering as unemployed gives a basis for health insurance; conditions are checked at registration.",
+     "ru": "Регистрация безработного даёт основание для медстрахования; условия проверяются при регистрации.",
+     "de": "Die Anmeldung als arbeitslos begründet die Krankenversicherung; die Voraussetzungen werden bei der Anmeldung geprüft."
+    },
+    "only": {
+     "sr": "ako ste nezaposleni",
+     "en": "if you are unemployed",
+     "ru": "если вы безработный",
+     "de": "wenn Sie arbeitslos sind"
+    }
+   },
+   {
+    "guide": "zdravstvena-knjizica",
+    "title": {
+     "sr": "Student: osiguranje preko roditelja ili studentski osnov",
+     "en": "Student: insured through a parent or as a student",
+     "ru": "Студент: страхование через родителя или как студент",
+     "de": "Student: über Elternteil oder als Student versichert"
+    },
+    "why": {
+     "sr": "Student je osiguran preko roditelja ili kao student; osnov se utvrđuje pri prijavi.",
+     "en": "A student is insured through a parent or as a student; the basis is established on registration.",
+     "ru": "Студент застрахован через родителя или как студент; основание устанавливается при регистрации.",
+     "de": "Studierende sind über einen Elternteil oder als Student versichert; der Grund wird bei der Anmeldung festgestellt."
+    },
+    "only": {
+     "sr": "ako studirate",
+     "en": "if you are studying",
+     "ru": "если вы студент",
+     "de": "wenn Sie studieren"
+    }
+   },
+   {
+    "guide": "zdravstvena-knjizica",
+    "title": {
+     "sr": "Penzioner ili član porodice osiguranika",
+     "en": "Pensioner or family member of an insured person",
+     "ru": "Пенсионер или член семьи застрахованного",
+     "de": "Rentner oder Familienangehöriger eines Versicherten"
+    },
+    "why": {
+     "sr": "Penzioner je osiguran preko Fonda PIO, a članovi porodice preko osiguranika; vodič nabraja potrebna dokumenta.",
+     "en": "A pensioner is insured through the PIO Fund and family members through the insured person; the guide lists the papers.",
+     "ru": "Пенсионер застрахован через фонд ПИО, а члены семьи через застрахованного; необходимые документы перечислены в руководстве.",
+     "de": "Rentner sind über den PIO-Fonds versichert, Familienangehörige über den Versicherten; der Leitfaden nennt die Unterlagen."
+    },
+    "only": {
+     "sr": "penzioner ili član porodice",
+     "en": "pensioner or family member",
+     "ru": "пенсионер или член семьи",
+     "de": "Rentner oder Familienangehöriger"
+    }
+   },
+   {
+    "type": "rfzo",
+    "title": {
+     "sr": "Filijala RFZO",
+     "en": "RFZO branch",
+     "ru": "Филиал RFZO",
+     "de": "RFZO-Filiale"
+    },
+    "why": {
+     "sr": "Filijala RFZO izdaje karticu i rešava nejasnoće oko osnova osiguranja.",
+     "en": "The RFZO (health insurance fund) branch issues the card and settles any doubt about the basis of insurance.",
+     "ru": "Филиал RFZO (фонд медицинского страхования) выдаёт карту и решает вопросы об основании страхования.",
+     "de": "Die Filiale des RFZO (Krankenversicherungsfonds) stellt die Karte aus und klärt Fragen zur Versicherungsgrundlage."
+    }
+   },
+   {
+    "type": "dom-zdravlja",
+    "title": {
+     "sr": "Izabrani lekar u domu zdravlja",
+     "en": "Chosen doctor at the health centre",
+     "ru": "Выбранный врач в доме здоровья",
+     "de": "Gewählter Arzt im Gesundheitszentrum"
+    },
+    "why": {
+     "sr": "Kada imate karticu, birate lekara opšte prakse u domu zdravlja.",
+     "en": "Once you have the card, you choose a general practitioner at the health centre.",
+     "ru": "Когда карта получена, вы выбираете врача общей практики в доме здоровья.",
+     "de": "Sobald Sie die Karte haben, wählen Sie einen Allgemeinarzt im Gesundheitszentrum."
+    }
+   }
+  ],
+  "terms": [
+   "zdravstvena kartica",
+   "zdravstvena knjižica",
+   "zdravstveno osiguranje",
+   "izabrani lekar",
+   "overa kartice",
+   "rfzo",
+   "osiguranje",
+   "health card",
+   "health insurance",
+   "choose doctor",
+   "medical card",
+   "медстраховка",
+   "карта медстрахования",
+   "полис",
+   "выбрать врача",
+   "gesundheitskarte",
+   "krankenversicherung",
+   "hausarzt"
+  ]
+ },
+ {
+  "slug": "drzavno-zdravstvo-korak-po-korak",
+  "group": "zdravlje",
+  "emblem": "hospital",
+  "title": {
+   "sr": "Idem kod lekara u državnom zdravstvu",
+   "en": "I am seeing a doctor in the state system",
+   "ru": "Я иду к врачу в государственной системе",
+   "de": "Ich gehe zum Arzt im staatlichen System"
+  },
+  "lead": {
+   "sr": "Od izabranog lekara i uputa do bolnice, klinike i leka na recept.",
+   "en": "From the chosen doctor and referral to hospital, clinic and prescription medicine.",
+   "ru": "От выбранного врача и направления до больницы, клиники и рецептурных лекарств.",
+   "de": "Vom gewählten Arzt und der Überweisung bis zu Krankenhaus, Klinik und verschreibungspflichtigem Medikament."
+  },
+  "steps": [
+   {
+    "guide": "zdravstvena-knjizica",
+    "why": {
+     "sr": "Važeća overena kartica je uslov za besplatne preglede u državnom sistemu.",
+     "en": "A valid, validated card is the condition for free examinations in the state system.",
+     "ru": "Действительная подтверждённая карта: условие бесплатных осмотров в государственной системе.",
+     "de": "Eine gültige, bestätigte Karte ist die Voraussetzung für kostenlose Untersuchungen im staatlichen System."
+    }
+   },
+   {
+    "type": "dom-zdravlja",
+    "title": {
+     "sr": "Izabrani lekar u domu zdravlja",
+     "en": "Chosen doctor at the health centre",
+     "ru": "Выбранный врач в доме здоровья",
+     "de": "Gewählter Arzt im Gesundheitszentrum"
+    },
+    "why": {
+     "sr": "Izabrani lekar je prva tačka: pregleda vas i, ako treba, izdaje uput za dalje lečenje.",
+     "en": "The chosen doctor is the first stop: they examine you and, if needed, issue a referral for further treatment.",
+     "ru": "Выбранный врач: первая остановка: он осматривает вас и при необходимости выдаёт направление.",
+     "de": "Der gewählte Arzt ist die erste Anlaufstelle: Er untersucht Sie und stellt bei Bedarf eine Überweisung aus."
+    }
+   },
+   {
+    "type": "opsta-bolnica",
+    "title": {
+     "sr": "Opšta bolnica: specijalista i lečenje",
+     "en": "General hospital: specialist and treatment",
+     "ru": "Общая больница: специалист и лечение",
+     "de": "Allgemeines Krankenhaus: Facharzt und Behandlung"
+    },
+    "why": {
+     "sr": "Sa uputom se zakazuje pregled kod specijaliste ili lečenje u bolnici.",
+     "en": "With the referral you book a specialist examination or treatment in hospital.",
+     "ru": "С направлением записываются на приём к специалисту или на лечение в больницу.",
+     "de": "Mit der Überweisung buchen Sie eine Facharztuntersuchung oder eine Behandlung im Krankenhaus."
+    }
+   },
+   {
+    "type": "klinika-institut",
+    "why": {
+     "sr": "Složeniji slučajevi upućuju se na kliniku ili institut višeg nivoa.",
+     "en": "More complex cases are referred to a clinic or institute at a higher level.",
+     "ru": "Более сложные случаи направляются в клинику или институт более высокого уровня.",
+     "de": "Komplexere Fälle werden an eine Klinik oder ein Institut höherer Stufe überwiesen."
+    },
+    "only": {
+     "sr": "za složenije slučajeve",
+     "en": "for complex cases",
+     "ru": "для сложных случаев",
+     "de": "bei komplexen Fällen"
+    }
+   },
+   {
+    "type": "apoteka",
+    "why": {
+     "sr": "Lek na recept se podiže u apoteci; da li je besplatan ili uz participaciju, proverava se tamo.",
+     "en": "Prescription medicine is collected at a pharmacy; whether it is free or has a co-payment is checked there.",
+     "ru": "Рецептурное лекарство получают в аптеке; бесплатно оно или с доплатой, проверяется там.",
+     "de": "Verschriebene Medikamente holt man in der Apotheke; ob sie kostenlos sind oder eine Zuzahlung nötig ist, wird dort geklärt."
+    }
+   }
+  ],
+  "terms": [
+   "kod lekara",
+   "izabrani lekar",
+   "uput",
+   "specijalista",
+   "bolnica",
+   "referral",
+   "prescription",
+   "pharmacy",
+   "specialist",
+   "к врачу",
+   "направление",
+   "больница",
+   "рецепт",
+   "аптека",
+   "arzt",
+   "überweisung",
+   "krankenhaus",
+   "rezept"
+  ]
+ },
+ {
+  "slug": "privatno-zdravstvo",
+  "group": "zdravlje",
+  "emblem": "clinic",
+  "title": {
+   "sr": "Idem privatno kod lekara",
+   "en": "I am going to a private doctor",
+   "ru": "Я иду к частному врачу",
+   "de": "Ich gehe zu einem Privatarzt"
+  },
+  "lead": {
+   "sr": "Kako se privatna nega razlikuje od državne i gde se obavlja: ordinacija, laboratorija, stomatolog, osiguranje.",
+   "en": "How private care differs from state care and where it takes place: practice, laboratory, dentist, insurance.",
+   "ru": "Чем частная помощь отличается от государственной и где она оказывается: кабинет, лаборатория, стоматолог, страховка.",
+   "de": "Wie sich private Versorgung von der staatlichen unterscheidet und wo sie stattfindet: Praxis, Labor, Zahnarzt, Versicherung."
+  },
+  "steps": [
+   {
+    "guide": "zdravstvena-knjizica",
+    "why": {
+     "sr": "Državna kartica pokriva državni sistem; privatne usluge se uglavnom plaćaju posebno, pa vodič pomaže da razlikujete.",
+     "en": "The state card covers the state system; private services are mostly paid separately, and the guide helps you tell the two apart.",
+     "ru": "Государственная карта покрывает государственную систему; частные услуги в основном оплачиваются отдельно, и руководство помогает различить.",
+     "de": "Die staatliche Karte deckt das staatliche System; private Leistungen zahlt man meist gesondert, der Leitfaden hilft beim Unterscheiden."
+    }
+   },
+   {
+    "type": "osiguravajuce-drustvo",
+    "why": {
+     "sr": "Dobrovoljno zdravstveno osiguranje može pokriti deo privatnih usluga; uslovi polise se proveravaju.",
+     "en": "Voluntary health insurance can cover part of private services; the policy terms are checked.",
+     "ru": "Добровольное медстрахование может покрыть часть частных услуг; условия полиса проверяются.",
+     "de": "Eine freiwillige Krankenversicherung kann einen Teil privater Leistungen decken; die Policenbedingungen werden geprüft."
+    }
+   },
+   {
+    "type": "privatna-ordinacija",
+    "why": {
+     "sr": "Privatna ordinacija se bira direktno i zakazuje bez uputa, uz plaćanje.",
+     "en": "A private practice is chosen directly and booked without a referral, for a fee.",
+     "ru": "Частный кабинет выбирают напрямую и записываются без направления, за плату.",
+     "de": "Eine Privatpraxis wählt man direkt und bucht sie ohne Überweisung, gegen Bezahlung."
+    }
+   },
+   {
+    "type": "privatna-laboratorija",
+    "why": {
+     "sr": "Analize se mogu uraditi u privatnoj laboratoriji bez čekanja na uput.",
+     "en": "Tests can be done at a private laboratory without waiting for a referral.",
+     "ru": "Анализы можно сделать в частной лаборатории, не дожидаясь направления.",
+     "de": "Untersuchungen können in einem privaten Labor ohne Überweisung durchgeführt werden."
+    }
+   },
+   {
+    "type": "stomatoloska-ordinacija",
+    "why": {
+     "sr": "Stomatološke usluge odraslih su najčešće privatne i plaćaju se po cenovniku ordinacije.",
+     "en": "Adult dental services are most often private and paid at the practice's price list.",
+     "ru": "Стоматологические услуги для взрослых чаще всего частные и оплачиваются по прайсу кабинета.",
+     "de": "Zahnärztliche Leistungen für Erwachsene sind meist privat und werden nach der Preisliste der Praxis bezahlt."
+    }
+   }
+  ],
+  "terms": [
+   "privatni lekar",
+   "privatna ordinacija",
+   "privatna klinika",
+   "privatno zdravstvo",
+   "laboratorija",
+   "dobrovoljno osiguranje",
+   "zubar privatno",
+   "private doctor",
+   "private clinic",
+   "private healthcare",
+   "private hospital",
+   "voluntary insurance",
+   "частный врач",
+   "частная клиника",
+   "добровольная страховка",
+   "privatarzt",
+   "privatklinik",
+   "zusatzversicherung"
+  ]
+ },
+ {
+  "slug": "otvaranje-racuna",
+  "group": "novac",
+  "emblem": "bank",
+  "title": {
+   "sr": "Otvaram bankovni račun",
+   "en": "I am opening a bank account",
+   "ru": "Я открываю банковский счёт",
+   "de": "Ich eröffne ein Bankkonto"
+  },
+  "lead": {
+   "sr": "Šta vam treba i kojim redom, zavisno od toga da li ste građanin, stranac ili firma.",
+   "en": "What you need and in which order, depending on whether you are a citizen, a foreigner or a company.",
+   "ru": "Что нужно и в каком порядке в зависимости от того, гражданин вы, иностранец или фирма.",
+   "de": "Was Sie brauchen und in welcher Reihenfolge, je nachdem ob Sie Staatsbürger, Ausländer oder Firma sind."
+  },
+  "steps": [
+   {
+    "guide": "licna-karta",
+    "why": {
+     "sr": "Građanin se u banci legitimiše ličnom kartom, pa je treba imati važeću.",
+     "en": "A citizen identifies themselves at the bank with an ID card, so it must be valid.",
+     "ru": "Гражданин идентифицируется в банке личной картой, поэтому она должна быть действительной.",
+     "de": "Ein Staatsbürger weist sich bei der Bank mit dem Personalausweis aus, er muss also gültig sein."
+    },
+    "only": {
+     "sr": "za građane",
+     "en": "for citizens",
+     "ru": "для граждан",
+     "de": "für Staatsbürger"
+    }
+   },
+   {
+    "guide": "pib-za-strance",
+    "why": {
+     "sr": "Strancu je za otvaranje računa često potreban PIB, pa se on obezbeđuje prvi.",
+     "en": "A foreigner often needs a PIB tax number to open an account, so it is obtained first.",
+     "ru": "Иностранцу для открытия счёта часто нужен PIB, поэтому его получают первым.",
+     "de": "Ein Ausländer braucht zur Kontoeröffnung oft eine PIB-Steuernummer, daher wird sie zuerst besorgt."
+    },
+    "only": {
+     "sr": "za strance",
+     "en": "for foreigners",
+     "ru": "для иностранцев",
+     "de": "für Ausländer"
+    }
+   },
+   {
+    "guide": "otvaranje-firme-preduzetnik",
+    "why": {
+     "sr": "Firma ili preduzetnik moraju biti registrovani pre nego što banka otvori poslovni račun.",
+     "en": "A company or sole proprietor must be registered before a bank opens a business account.",
+     "ru": "Фирма или предприниматель должны быть зарегистрированы до того, как банк откроет рабочий счёт.",
+     "de": "Firma oder Einzelunternehmer müssen registriert sein, bevor die Bank ein Geschäftskonto eröffnet."
+    },
+    "only": {
+     "sr": "za firmu",
+     "en": "for a company",
+     "ru": "для фирмы",
+     "de": "für eine Firma"
+    }
+   },
+   {
+    "guide": "bankovni-racun-i-kartice",
+    "why": {
+     "sr": "Vodič nabraja vrste računa, tekući i devizni, i uslove za građane i strance.",
+     "en": "The guide lists the account types, current and foreign-currency, and the conditions for citizens and foreigners.",
+     "ru": "Руководство перечисляет виды счетов, текущий и валютный, и условия для граждан и иностранцев.",
+     "de": "Der Leitfaden nennt die Kontoarten, Giro- und Fremdwährungskonto, und die Bedingungen für Bürger und Ausländer."
+    }
+   },
+   {
+    "type": "banka",
+    "why": {
+     "sr": "Banka prima zahtev i sama određuje naknade, pa uporedite više njih.",
+     "en": "The bank accepts the application and sets its own fees, so compare several.",
+     "ru": "Банк принимает заявку и сам устанавливает комиссии, поэтому сравните несколько.",
+     "de": "Die Bank nimmt den Antrag an und legt die Gebühren selbst fest, vergleichen Sie also mehrere."
+    }
+   }
+  ],
+  "terms": [
+   "bankovni račun",
+   "otvaranje računa",
+   "tekući račun",
+   "devizni račun",
+   "račun u banci",
+   "nerezident",
+   "poslovni račun",
+   "bank account",
+   "open account",
+   "current account",
+   "foreign currency account",
+   "банковский счёт",
+   "открыть счёт",
+   "валютный счёт",
+   "счёт для фирмы",
+   "bankkonto",
+   "konto eröffnen",
+   "fremdwährungskonto"
+  ]
+ },
+ {
+  "slug": "uzimam-kredit",
+  "group": "novac",
+  "emblem": "piggy-bank",
+  "title": {
+   "sr": "Uzimam kredit",
+   "en": "I am taking out a loan",
+   "ru": "Я беру кредит",
+   "de": "Ich nehme einen Kredit auf"
+  },
+  "lead": {
+   "sr": "Od računa i izbora banke do procene, overe i upisa hipoteke kod stambenog kredita.",
+   "en": "From the account and choosing a bank to valuation, certification and mortgage registration for a housing loan.",
+   "ru": "От счёта и выбора банка до оценки, заверения и регистрации ипотеки при жилищном кредите.",
+   "de": "Vom Konto und der Bankwahl bis zu Schätzung, Beglaubigung und Hypothekeneintragung beim Wohnkredit."
+  },
+  "steps": [
+   {
+    "guide": "bankovni-racun-i-kartice",
+    "why": {
+     "sr": "Banka obično traži račun u svojoj ili drugoj banci preko kog se kredit isplaćuje i otplaćuje.",
+     "en": "The bank usually needs an account through which the loan is paid out and repaid.",
+     "ru": "Банк обычно требует счёт, через который кредит выдаётся и погашается.",
+     "de": "Die Bank verlangt meist ein Konto, über das der Kredit ausgezahlt und zurückgezahlt wird."
+    }
+   },
+   {
+    "type": "banka",
+    "why": {
+     "sr": "Uporedite ponude banaka; gotovinski i stambeni krediti imaju različite uslove i dokumentaciju.",
+     "en": "Compare bank offers; cash and housing loans have different conditions and paperwork.",
+     "ru": "Сравните предложения банков; потребительские и жилищные кредиты имеют разные условия и документы.",
+     "de": "Vergleichen Sie Bankangebote; Bar- und Wohnkredite haben unterschiedliche Bedingungen und Unterlagen."
+    }
+   },
+   {
+    "type": "procenitelj-nepokretnosti",
+    "why": {
+     "sr": "Za stambeni kredit ovlašćeni procenitelj određuje vrednost nepokretnosti koja je obezbeđenje.",
+     "en": "For a housing loan a licensed appraiser sets the value of the property used as security.",
+     "ru": "При жилищном кредите лицензированный оценщик определяет стоимость недвижимости, служащей залогом.",
+     "de": "Bei einem Wohnkredit bestimmt ein zugelassener Schätzer den Wert der Immobilie, die als Sicherheit dient."
+    },
+    "only": {
+     "sr": "za stambeni kredit",
+     "en": "for a housing loan",
+     "ru": "для жилищного кредита",
+     "de": "für einen Wohnkredit"
+    }
+   },
+   {
+    "guide": "overa-kod-javnog-beleznika",
+    "why": {
+     "sr": "Ugovor o kreditu obezbeđen hipotekom overava javni beležnik.",
+     "en": "A loan contract secured by a mortgage is certified by a notary.",
+     "ru": "Кредитный договор, обеспеченный ипотекой, в обязательном порядке заверяет нотариус.",
+     "de": "Ein durch Hypothek gesicherter Kreditvertrag wird vom Notar beglaubigt."
+    },
+    "only": {
+     "sr": "za stambeni kredit",
+     "en": "for a housing loan",
+     "ru": "для жилищного кредита",
+     "de": "für einen Wohnkredit"
+    }
+   },
+   {
+    "type": "rgz-katastar",
+    "why": {
+     "sr": "Hipoteka se upisuje u katastar nepokretnosti, što banka traži pre isplate.",
+     "en": "The mortgage is entered in the real estate cadastre, which the bank requires before payout.",
+     "ru": "Ипотека вносится в кадастр недвижимости, что банк требует до выдачи.",
+     "de": "Die Hypothek wird im Immobilienkataster eingetragen, was die Bank vor der Auszahlung verlangt."
+    },
+    "only": {
+     "sr": "za stambeni kredit",
+     "en": "for a housing loan",
+     "ru": "для жилищного кредита",
+     "de": "für einen Wohnkredit"
+    }
+   },
+   {
+    "type": "osiguravajuce-drustvo",
+    "why": {
+     "sr": "Banka može tražiti polisu osiguranja nepokretnosti ili života; uslovi se dogovaraju s bankom.",
+     "en": "The bank may require property or life insurance; terms are agreed with the bank.",
+     "ru": "Банк может потребовать полис страхования недвижимости или жизни; условия согласуются с банком.",
+     "de": "Die Bank kann eine Gebäude- oder Lebensversicherung verlangen; die Bedingungen werden mit der Bank vereinbart."
+    }
+   }
+  ],
+  "terms": [
+   "kredit",
+   "stambeni kredit",
+   "gotovinski kredit",
+   "hipoteka",
+   "zajam",
+   "pozajmica",
+   "loan",
+   "mortgage",
+   "housing loan",
+   "cash loan",
+   "credit",
+   "кредит",
+   "ипотека",
+   "заём",
+   "жилищный кредит",
+   "kredit aufnehmen",
+   "hypothek",
+   "darlehen"
+  ]
+ },
+ {
+  "slug": "porezi-fizicko-lice",
+  "group": "novac",
+  "emblem": "tax",
+  "title": {
+   "sr": "Moji porezi kao građanina",
+   "en": "My taxes as a private person",
+   "ru": "Мои налоги как частного лица",
+   "de": "Meine Steuern als Privatperson"
+  },
+  "lead": {
+   "sr": "Porez na imovinu kod lokalne administracije, godišnji porez na dohodak kod Poreske uprave i kome se obratiti za pomoć.",
+   "en": "Property tax at the local tax office, annual income tax at the Tax Administration and who to ask for help.",
+   "ru": "Налог на имущество в местной налоговой администрации, годовой подоходный налог в Налоговом управлении и к кому обратиться.",
+   "de": "Grundsteuer bei der lokalen Steuerverwaltung, jährliche Einkommensteuer bei der Steuerverwaltung und wer helfen kann."
+  },
+  "steps": [
+   {
+    "guide": "pib-za-strance",
+    "why": {
+     "sr": "Stranac prvo dobija PIB, jer se bez njega ne vode porezi.",
+     "en": "A foreigner first gets a PIB, because taxes cannot be kept without it.",
+     "ru": "Иностранец сначала получает PIB, так как без него налоги не ведутся.",
+     "de": "Ein Ausländer bekommt zuerst eine PIB, denn ohne sie werden keine Steuern geführt."
+    },
+    "only": {
+     "sr": "za strance",
+     "en": "for foreigners",
+     "ru": "для иностранцев",
+     "de": "für Ausländer"
+    }
+   },
+   {
+    "type": "lokalna-poreska-administracija",
+    "title": {
+     "sr": "Lokalna poreska administracija: porez na imovinu",
+     "en": "Local tax administration: property tax",
+     "ru": "Местная налоговая администрация: налог на имущество",
+     "de": "Lokale Steuerverwaltung: Grundsteuer"
+    },
+    "why": {
+     "sr": "Porez na imovinu za stan ili kuću vodi lokalna poreska administracija vašeg grada ili opštine.",
+     "en": "Property tax on a flat or house is run by the local tax administration of your city or municipality.",
+     "ru": "Налог на имущество за квартиру или дом ведёт местная налоговая администрация вашего города или общины.",
+     "de": "Die Grundsteuer für Wohnung oder Haus verwaltet die lokale Steuerverwaltung Ihrer Stadt oder Gemeinde."
+    }
+   },
+   {
+    "type": "poreska-uprava",
+    "title": {
+     "sr": "Poreska uprava: godišnji porez na dohodak",
+     "en": "Tax Administration: annual income tax",
+     "ru": "Налоговое управление: годовой подоходный налог",
+     "de": "Steuerverwaltung: jährliche Einkommensteuer"
+    },
+    "why": {
+     "sr": "Godišnji porez na dohodak građana prijavljuje se Poreskoj upravi; obaveza zavisi od vrste prihoda.",
+     "en": "The annual personal income tax is declared to the Tax Administration; the obligation depends on the type of income.",
+     "ru": "Годовой подоходный налог декларируется в Налоговом управлении; обязанность зависит от вида дохода.",
+     "de": "Die jährliche Einkommensteuer wird bei der Steuerverwaltung erklärt; die Pflicht hängt von der Einkommensart ab."
+    }
+   },
+   {
+    "type": "racunovodstvena-agencija",
+    "why": {
+     "sr": "Računovođa priprema prijavu ako imate više izvora prihoda ili niste sigurni šta se prijavljuje.",
+     "en": "An accountant prepares the return if you have several income sources or are unsure what to declare.",
+     "ru": "Бухгалтер готовит декларацию, если у вас несколько источников дохода или вы не уверены, что декларировать.",
+     "de": "Ein Buchhalter bereitet die Erklärung vor, wenn Sie mehrere Einkünfte haben oder unsicher sind, was anzugeben ist."
+    }
+   }
+  ],
+  "terms": [
+   "porez",
+   "porez na imovinu",
+   "godišnji porez",
+   "poreska prijava",
+   "porez na dohodak",
+   "porez fizičko lice",
+   "tax",
+   "property tax",
+   "income tax",
+   "tax return",
+   "annual tax",
+   "налог",
+   "налог на имущество",
+   "подоходный налог",
+   "налоговая декларация",
+   "steuer",
+   "grundsteuer",
+   "einkommensteuer"
+  ]
+ },
+ {
+  "slug": "dug-i-izvrsenje",
+  "group": "novac",
+  "emblem": "gavel",
+  "title": {
+   "sr": "Dobio sam izvršenje ili imam dug",
+   "en": "I received an enforcement notice or I have a debt",
+   "ru": "Мне пришло исполнительное производство или у меня долг",
+   "de": "Ich habe eine Vollstreckung erhalten oder Schulden"
+  },
+  "lead": {
+   "sr": "Od izvršitelja i besplatne pravne pomoći do advokata, nagodbe i suda.",
+   "en": "From the enforcement officer and free legal aid to a lawyer, settlement and the court.",
+   "ru": "От судебного исполнителя и бесплатной юридической помощи до адвоката, мировой и суда.",
+   "de": "Vom Vollstreckungsbeamten und kostenloser Rechtshilfe bis zu Anwalt, Einigung und Gericht."
+  },
+  "steps": [
+   {
+    "type": "javni-izvrsitelj",
+    "why": {
+     "sr": "Javni izvršitelj vodi postupak naplate, pa mu se obratite da vidite šta se i po kom osnovu traži.",
+     "en": "The enforcement officer runs the collection, so contact them to see what is claimed and on what basis.",
+     "ru": "Публичный исполнитель ведёт взыскание, поэтому обратитесь к нему, чтобы узнать, что и на каком основании требуется.",
+     "de": "Der Vollstreckungsbeamte führt die Beitreibung, wenden Sie sich an ihn, um Forderung und Grundlage zu erfahren."
+    }
+   },
+   {
+    "type": "opstinska-uprava",
+    "title": {
+     "sr": "Besplatna pravna pomoć u opštini",
+     "en": "Free legal aid at the municipality",
+     "ru": "Бесплатная юридическая помощь в общине",
+     "de": "Kostenlose Rechtshilfe in der Gemeinde"
+    },
+    "why": {
+     "sr": "Opština može pružiti besplatnu pravnu pomoć ako ne možete da platite advokata.",
+     "en": "The municipality can provide free legal aid if you cannot afford a lawyer.",
+     "ru": "Община может оказать бесплатную юридическую помощь, если вы не можете оплатить адвоката.",
+     "de": "Die Gemeinde kann kostenlose Rechtshilfe leisten, wenn Sie sich keinen Anwalt leisten können."
+    }
+   },
+   {
+    "type": "advokat",
+    "why": {
+     "sr": "Advokat procenjuje da li je potraživanje osnovano i koje pravne lekove imate.",
+     "en": "A lawyer assesses whether the claim is justified and which remedies you have.",
+     "ru": "Адвокат оценивает, обоснованно ли требование и какие средства защиты у вас есть.",
+     "de": "Ein Anwalt prüft, ob die Forderung begründet ist und welche Rechtsmittel Ihnen zustehen."
+    }
+   },
+   {
+    "type": "medijator",
+    "why": {
+     "sr": "Posredovanjem se može dogovoriti plaćanje na rate bez dalje parnice.",
+     "en": "Mediation can agree payment in instalments without further litigation.",
+     "ru": "Через посредничество можно договориться о платеже в рассрочку без дальнейшего процесса.",
+     "de": "Durch Vermittlung lässt sich eine Ratenzahlung ohne weiteren Prozess vereinbaren."
+    }
+   },
+   {
+    "type": "osnovni-sud",
+    "why": {
+     "sr": "Prigovor na rešenje o izvršenju podnosi se sudu, a rokovi su stroge prirode.",
+     "en": "An objection to the enforcement order is filed with the court, and deadlines are strict.",
+     "ru": "Возражение на решение об исполнении подаётся в суд, а сроки строгие.",
+     "de": "Der Einspruch gegen den Vollstreckungsbeschluss wird beim Gericht eingelegt, und die Fristen sind streng."
+    },
+    "only": {
+     "sr": "ako osporavate dug",
+     "en": "if you dispute the debt",
+     "ru": "если вы оспариваете долг",
+     "de": "wenn Sie die Schuld bestreiten"
+    }
+   }
+  ],
+  "terms": [
+   "dug",
+   "izvršenje",
+   "izvršitelj",
+   "dugovanje",
+   "blokada računa",
+   "besplatna pravna pomoć",
+   "enforcement",
+   "bailiff",
+   "debt collection",
+   "frozen account",
+   "legal aid",
+   "долг",
+   "исполнительное производство",
+   "судебный исполнитель",
+   "арест счёта",
+   "schulden",
+   "vollstreckung",
+   "gerichtsvollzieher"
+  ]
+ },
+ {
+  "slug": "kupujem-stan",
+  "group": "stan",
+  "emblem": "home",
+  "title": {
+   "sr": "Kupujem stan",
+   "en": "I am buying a flat",
+   "ru": "Я покупаю квартиру",
+   "de": "Ich kaufe eine Wohnung"
+  },
+  "lead": {
+   "sr": "Od traženja i provere vlasništva do ugovora, poreza, upisa u katastar i prijave adrese.",
+   "en": "From searching and checking ownership to the contract, tax, cadastre entry and address registration.",
+   "ru": "От поиска и проверки собственности до договора, налога, записи в кадастре и регистрации адреса.",
+   "de": "Von Suche und Eigentumsprüfung bis zu Vertrag, Steuer, Katastereintrag und Adressmeldung."
+  },
+  "steps": [
+   {
+    "type": "agencija-za-nekretnine",
+    "why": {
+     "sr": "Agencija pomaže u traženju i obilasku stanova; proverite njenu proviziju unapred.",
+     "en": "An agency helps with searching and viewing flats; check its commission beforehand.",
+     "ru": "Агентство помогает искать и осматривать квартиры; заранее уточните комиссию.",
+     "de": "Eine Agentur hilft bei Suche und Besichtigung; klären Sie die Provision vorab."
+    },
+    "only": {
+     "sr": "ako koristite agenciju",
+     "en": "if you use an agency",
+     "ru": "если пользуетесь агентством",
+     "de": "wenn Sie eine Agentur nutzen"
+    }
+   },
+   {
+    "type": "rgz-katastar",
+    "title": {
+     "sr": "Provera vlasništva u katastru",
+     "en": "Checking ownership in the cadastre",
+     "ru": "Проверка собственности в кадастре",
+     "de": "Eigentumsprüfung im Kataster"
+    },
+    "why": {
+     "sr": "Pre ugovora se u katastru proverava ko je vlasnik i da li postoje tereti na stanu.",
+     "en": "Before the contract, the cadastre shows who the owner is and whether the flat carries any encumbrances.",
+     "ru": "До договора в кадастре проверяют, кто владелец и есть ли обременения на квартиру.",
+     "de": "Vor dem Vertrag zeigt das Kataster, wer Eigentümer ist und ob Belastungen auf der Wohnung liegen."
+    }
+   },
+   {
+    "type": "procenitelj-nepokretnosti",
+    "why": {
+     "sr": "Banka traži procenu vrednosti stana pre odobravanja kredita.",
+     "en": "The bank asks for a valuation of the flat before approving a loan.",
+     "ru": "Банк требует оценку стоимости квартиры до одобрения кредита.",
+     "de": "Die Bank verlangt eine Bewertung der Wohnung, bevor sie einen Kredit genehmigt."
+    },
+    "only": {
+     "sr": "ako uzimate kredit",
+     "en": "if you take a loan",
+     "ru": "если берёте кредит",
+     "de": "wenn Sie einen Kredit aufnehmen"
+    }
+   },
+   {
+    "type": "banka",
+    "why": {
+     "sr": "Odobren kredit određuje budžet, pa se banka dogovara pre potpisa ugovora.",
+     "en": "An approved loan sets the budget, so the bank is arranged before the contract is signed.",
+     "ru": "Одобренный кредит определяет бюджет, поэтому с банком договариваются до подписания договора.",
+     "de": "Ein genehmigter Kredit bestimmt das Budget, daher wird die Bank vor der Vertragsunterzeichnung geklärt."
+    },
+    "only": {
+     "sr": "ako uzimate kredit",
+     "en": "if you take a loan",
+     "ru": "если берёте кредит",
+     "de": "wenn Sie einen Kredit aufnehmen"
+    }
+   },
+   {
+    "guide": "overa-kod-javnog-beleznika",
+    "why": {
+     "sr": "Ugovor o kupoprodaji nepokretnosti overava javni beležnik, bez čega nije punovažan.",
+     "en": "The sale contract for real estate is certified by a notary and is not valid without it.",
+     "ru": "Договор купли-продажи недвижимости заверяет нотариус, без этого он недействителен.",
+     "de": "Der Kaufvertrag über eine Immobilie wird vom Notar beglaubigt und ist ohne dies nicht gültig."
+    }
+   },
+   {
+    "type": "lokalna-poreska-administracija",
+    "title": {
+     "sr": "Porez na prenos kod lokalne poreske administracije",
+     "en": "Transfer tax at the local tax administration",
+     "ru": "Налог на передачу в местной налоговой администрации",
+     "de": "Grunderwerbsteuer bei der lokalen Steuerverwaltung"
+    },
+    "why": {
+     "sr": "Porez na prenos apsolutnih prava se prijavljuje lokalnoj poreskoj administraciji; obaveza se proverava.",
+     "en": "Tax on the transfer of property rights is declared to the local tax administration; the obligation is checked.",
+     "ru": "Налог на передачу прав декларируется в местную налоговую администрацию; обязанность проверяется.",
+     "de": "Die Grunderwerbsteuer wird bei der lokalen Steuerverwaltung angemeldet; die Pflicht wird geprüft."
+    }
+   },
+   {
+    "type": "rgz-katastar",
+    "title": {
+     "sr": "Upis prava svojine u katastar",
+     "en": "Registering ownership in the cadastre",
+     "ru": "Запись права собственности в кадастре",
+     "de": "Eintragung des Eigentums im Kataster"
+    },
+    "why": {
+     "sr": "Tek upis u katastar čini vas vlasnikom prema trećim licima.",
+     "en": "Only the cadastre entry makes you the owner towards third parties.",
+     "ru": "Только запись в кадастре делает вас собственником перед третьими лицами.",
+     "de": "Erst der Katastereintrag macht Sie gegenüber Dritten zum Eigentümer."
+    }
+   },
+   {
+    "guide": "prijava-prebivalista",
+    "why": {
+     "sr": "Kada se uselite, prijavite adresu da bi se na nju vezali dokumenta i usluge.",
+     "en": "When you move in, register the address so that your papers and services are tied to it.",
+     "ru": "После заселения зарегистрируйте адрес, чтобы к нему привязывались документы и услуги.",
+     "de": "Wenn Sie einziehen, melden Sie die Adresse an, damit Dokumente und Leistungen daran gebunden sind."
+    }
+   },
+   {
+    "type": "eps-distribucija",
+    "title": {
+     "sr": "Struja i komunalije na vaše ime",
+     "en": "Electricity and utilities in your name",
+     "ru": "Электричество и коммунальные услуги на ваше имя",
+     "de": "Strom und Nebenkosten auf Ihren Namen"
+    },
+    "why": {
+     "sr": "Račun za struju prelazi na vaše ime nakon useljenja; isto važi za vodu, grejanje i smeće.",
+     "en": "The electricity account moves into your name after moving in; the same applies to water, heating and waste.",
+     "ru": "Счёт за электричество переводится на ваше имя после заселения; то же касается воды, отопления и мусора.",
+     "de": "Das Stromkonto wird nach dem Einzug auf Ihren Namen umgestellt; dasselbe gilt für Wasser, Heizung und Müll."
+    }
+   }
+  ],
+  "terms": [
+   "kupovina stana",
+   "kupujem stan",
+   "kupovina nekretnine",
+   "kupoprodajni ugovor",
+   "stan",
+   "nekretnina",
+   "katastar",
+   "buy flat",
+   "buy apartment",
+   "buying property",
+   "real estate purchase",
+   "купить квартиру",
+   "покупка недвижимости",
+   "покупка квартиры",
+   "wohnung kaufen",
+   "immobilienkauf",
+   "kaufvertrag"
+  ]
+ },
+ {
+  "slug": "iznajmljujem-stan",
+  "group": "stan",
+  "emblem": "bed",
+  "title": {
+   "sr": "Iznajmljujem stan",
+   "en": "I am renting a flat",
+   "ru": "Я снимаю квартиру",
+   "de": "Ich miete eine Wohnung"
+  },
+  "lead": {
+   "sr": "Od traženja stana i ugovora kod beležnika do prijave adrese i računa za komunalije.",
+   "en": "From finding a flat and the notarised contract to registering the address and utility accounts.",
+   "ru": "От поиска квартиры и нотариального договора до регистрации адреса и счетов за коммунальные услуги.",
+   "de": "Von der Wohnungssuche und dem notariellen Vertrag bis zu Adressmeldung und Nebenkostenkonten."
+  },
+  "steps": [
+   {
+    "type": "agencija-za-nekretnine",
+    "why": {
+     "sr": "Agencija nudi stanove za zakup; proverite proviziju i šta ona obuhvata.",
+     "en": "An agency offers flats for rent; check the commission and what it covers.",
+     "ru": "Агентство предлагает квартиры в аренду; уточните комиссию и что она включает.",
+     "de": "Eine Agentur bietet Wohnungen zur Miete an; prüfen Sie die Provision und was sie umfasst."
+    },
+    "only": {
+     "sr": "ako koristite agenciju",
+     "en": "if you use an agency",
+     "ru": "если пользуетесь агентством",
+     "de": "wenn Sie eine Agentur nutzen"
+    }
+   },
+   {
+    "guide": "overa-kod-javnog-beleznika",
+    "why": {
+     "sr": "Ugovor o zakupu se overava kod javnog beležnika, što daje pravnu sigurnost obema stranama.",
+     "en": "The lease is certified by a notary, which gives both sides legal certainty.",
+     "ru": "Договор аренды заверяется у нотариуса, что даёт обеим сторонам правовую определённость.",
+     "de": "Der Mietvertrag wird beim Notar beglaubigt, was beiden Seiten Rechtssicherheit gibt."
+    }
+   },
+   {
+    "guide": "prijava-prebivalista",
+    "why": {
+     "sr": "Zakupac može prijaviti boravište na adresi stana uz saglasnost vlasnika.",
+     "en": "The tenant can register residence at the flat's address with the owner's consent.",
+     "ru": "Арендатор может зарегистрировать место пребывания по адресу квартиры с согласия собственника.",
+     "de": "Der Mieter kann den Aufenthalt an der Adresse der Wohnung mit Zustimmung des Eigentümers anmelden."
+    }
+   },
+   {
+    "type": "eps-distribucija",
+    "title": {
+     "sr": "Struja: čitanje brojila pri useljenju",
+     "en": "Electricity: meter reading on move-in",
+     "ru": "Электричество: показания счётчика при заселении",
+     "de": "Strom: Zählerstand beim Einzug"
+    },
+    "why": {
+     "sr": "Brojila za struju i račun se dogovaraju sa vlasnikom pri primopredaji stana.",
+     "en": "Electricity meters and account are agreed with the owner at handover.",
+     "ru": "Счётчики и счёт за электричество согласуются с владельцем при передаче квартиры.",
+     "de": "Stromzähler und Rechnung werden bei der Übergabe mit dem Eigentümer abgestimmt."
+    }
+   },
+   {
+    "type": "jkp-vodovod",
+    "why": {
+     "sr": "Voda i kanalizacija se vode prema stanu; dogovorite ko plaća račun.",
+     "en": "Water and sewage are billed per flat; agree who pays the bill.",
+     "ru": "Вода и канализация учитываются по квартире; договоритесь, кто платит счёт.",
+     "de": "Wasser und Abwasser werden je Wohnung abgerechnet; klären Sie, wer die Rechnung zahlt."
+    }
+   },
+   {
+    "type": "jkp-toplana",
+    "why": {
+     "sr": "Ako stan ima daljinsko grejanje, račun za grejanje je poseban i dogovara se isto.",
+     "en": "If the flat has district heating, the heating bill is separate and agreed the same way.",
+     "ru": "Если в квартире центральное отопление, счёт за отопление отдельный и согласуется так же.",
+     "de": "Hat die Wohnung Fernwärme, ist die Heizrechnung gesondert und wird ebenso vereinbart."
+    },
+    "only": {
+     "sr": "ako stan ima daljinsko grejanje",
+     "en": "if the flat has district heating",
+     "ru": "если в квартире центральное отопление",
+     "de": "wenn die Wohnung Fernwärme hat"
+    }
+   }
+  ],
+  "terms": [
+   "zakup stana",
+   "iznajmljivanje",
+   "stanar",
+   "podstanar",
+   "ugovor o zakupu",
+   "rent flat",
+   "renting",
+   "rent apartment",
+   "tenant",
+   "lease",
+   "landlord",
+   "аренда квартиры",
+   "снять квартиру",
+   "арендатор",
+   "договор аренды",
+   "wohnung mieten",
+   "miete",
+   "mietvertrag"
+  ]
+ },
+ {
+  "slug": "gradim-ili-legalizujem",
+  "group": "stan",
+  "emblem": "building",
+  "title": {
+   "sr": "Gradim ili legalizujem kuću",
+   "en": "I am building or legalising a house",
+   "ru": "Я строю или легализую дом",
+   "de": "Ich baue oder legalisiere ein Haus"
+  },
+  "lead": {
+   "sr": "Od provere parcele i premera do građevinske dozvole, priključaka i upisa objekta.",
+   "en": "From checking the plot and survey to the building permit, connections and registering the building.",
+   "ru": "От проверки участка и замеров до разрешения на строительство, подключений и записи объекта.",
+   "de": "Von Parzellenprüfung und Vermessung bis zu Baugenehmigung, Anschlüssen und Eintragung des Gebäudes."
+  },
+  "steps": [
+   {
+    "type": "rgz-katastar",
+    "title": {
+     "sr": "Provera parcele u katastru",
+     "en": "Checking the plot in the cadastre",
+     "ru": "Проверка участка в кадастре",
+     "de": "Prüfung der Parzelle im Kataster"
+    },
+    "why": {
+     "sr": "Prvo se u katastru proverava parcela i vlasništvo nad zemljištem.",
+     "en": "First the plot and ownership of the land are checked in the cadastre.",
+     "ru": "Сначала в кадастре проверяются участок и право собственности на землю.",
+     "de": "Zuerst werden im Kataster Parzelle und Eigentum am Grundstück geprüft."
+    }
+   },
+   {
+    "type": "geodetska-agencija",
+    "why": {
+     "sr": "Geodeta izrađuje elaborat premera koji je osnova za dozvolu i upis.",
+     "en": "A surveyor prepares the survey report that is the basis for the permit and registration.",
+     "ru": "Геодезист составляет топографический отчёт, который служит основой для разрешения и записи.",
+     "de": "Ein Geodät erstellt das Vermessungsgutachten, das Grundlage für Genehmigung und Eintragung ist."
+    }
+   },
+   {
+    "type": "opstinska-uprava",
+    "title": {
+     "sr": "Odeljenje za urbanizam: dozvola ili legalizacija",
+     "en": "Urban planning department: permit or legalisation",
+     "ru": "Отдел градостроительства: разрешение или легализация",
+     "de": "Stadtplanungsabteilung: Genehmigung oder Legalisierung"
+    },
+    "why": {
+     "sr": "Građevinska dozvola ili legalizacija se traži u nadležnom odeljenju za urbanizam gradske ili opštinske uprave.",
+     "en": "The building permit or legalisation is requested at the competent urban planning department of the city or municipal administration.",
+     "ru": "Разрешение на строительство или легализация запрашиваются в профильном отделе градостроительства администрации.",
+     "de": "Baugenehmigung oder Legalisierung werden bei der zuständigen Abteilung für Stadtplanung der Stadt- oder Gemeindeverwaltung beantragt."
+    }
+   },
+   {
+    "type": "eps-distribucija",
+    "why": {
+     "sr": "Priključak na struju se traži kada su dozvola i objekat spremni; vodu i ostalo vode komunalna preduzeća.",
+     "en": "The electricity connection is requested once the permit and building are ready; water and the rest are handled by utilities.",
+     "ru": "Подключение к электричеству запрашивают, когда разрешение и объект готовы; воду и прочее ведут коммунальные предприятия.",
+     "de": "Der Stromanschluss wird beantragt, sobald Genehmigung und Gebäude bereit sind; Wasser und anderes übernehmen die Versorger."
+    }
+   },
+   {
+    "type": "rgz-katastar",
+    "title": {
+     "sr": "Upis objekta u katastar",
+     "en": "Registering the building in the cadastre",
+     "ru": "Запись объекта в кадастре",
+     "de": "Eintragung des Gebäudes im Kataster"
+    },
+    "why": {
+     "sr": "Završen objekat se upisuje u katastar, i tek tada je pravno uredan.",
+     "en": "The finished building is entered in the cadastre, and only then is it legally in order.",
+     "ru": "Готовый объект вносится в кадастр, и только тогда он юридически оформлен.",
+     "de": "Das fertige Gebäude wird ins Kataster eingetragen, erst dann ist es rechtlich geordnet."
+    }
+   }
+  ],
+  "terms": [
+   "izgradnja kuće",
+   "građevinska dozvola",
+   "legalizacija",
+   "ozakonjenje",
+   "bespravna gradnja",
+   "premer",
+   "building permit",
+   "legalisation",
+   "build house",
+   "construction permit",
+   "survey",
+   "разрешение на строительство",
+   "легализация",
+   "строительство дома",
+   "самострой",
+   "baugenehmigung",
+   "legalisierung",
+   "hausbau"
+  ]
+ },
+ {
+  "slug": "selim-se-u-drugi-grad",
+  "group": "stan",
+  "emblem": "map",
+  "title": {
+   "sr": "Selim se u drugi grad",
+   "en": "I am moving to another town",
+   "ru": "Я переезжаю в другой город",
+   "de": "Ich ziehe in eine andere Stadt um"
+  },
+  "lead": {
+   "sr": "Od prijave nove adrese do lične karte, lekara, škole i vozila na novom mestu.",
+   "en": "From registering the new address to ID card, doctor, school and vehicle in the new place.",
+   "ru": "От регистрации нового адреса до личной карты, врача, школы и автомобиля на новом месте.",
+   "de": "Von der Anmeldung der neuen Adresse bis zu Ausweis, Arzt, Schule und Fahrzeug am neuen Ort."
+  },
+  "steps": [
+   {
+    "guide": "prijava-prebivalista",
+    "why": {
+     "sr": "Nova adresa se prijavljuje prva, jer se ostalo vezuje za nju.",
+     "en": "The new address is registered first, because everything else depends on it.",
+     "ru": "Новый адрес регистрируется первым, так как от него зависит остальное.",
+     "de": "Die neue Adresse wird zuerst gemeldet, denn alles andere hängt davon ab."
+    }
+   },
+   {
+    "guide": "licna-karta",
+    "why": {
+     "sr": "Promena adrese se odražava na ličnu kartu; vodič kaže kada se ona menja.",
+     "en": "A change of address affects the ID card; the guide says when it is replaced.",
+     "ru": "Смена адреса отражается на личной карте; руководство объясняет, когда её меняют.",
+     "de": "Eine Adressänderung wirkt sich auf den Personalausweis aus; der Leitfaden sagt, wann er getauscht wird."
+    }
+   },
+   {
+    "guide": "zdravstvena-knjizica",
+    "why": {
+     "sr": "Kartica se vezuje za filijalu i izabranog lekara, pa se lekar bira na novom mestu.",
+     "en": "The card is linked to a branch and chosen doctor, so a doctor is chosen in the new place.",
+     "ru": "Карта связана с филиалом и выбранным врачом, поэтому врача выбирают на новом месте.",
+     "de": "Die Karte ist an Filiale und gewählten Arzt gebunden, also wählen Sie am neuen Ort einen Arzt."
+    }
+   },
+   {
+    "guide": "registracija-vozila",
+    "why": {
+     "sr": "Podaci o vlasniku vozila se usklađuju sa novom adresom pri registraciji.",
+     "en": "The vehicle owner's data is updated to the new address at registration.",
+     "ru": "Данные владельца автомобиля приводятся в соответствие с новым адресом при регистрации.",
+     "de": "Die Halterdaten werden bei der Zulassung an die neue Adresse angepasst."
+    },
+    "only": {
+     "sr": "ako imate vozilo",
+     "en": "if you have a vehicle",
+     "ru": "если у вас есть автомобиль",
+     "de": "wenn Sie ein Fahrzeug haben"
+    }
+   },
+   {
+    "guide": "upis-u-vrtic",
+    "why": {
+     "sr": "Dete se upisuje u vrtić prema novoj opštini.",
+     "en": "The child is enrolled in a kindergarten under the new municipality.",
+     "ru": "Ребёнок записывается в детский сад по месту жительства в новой общине.",
+     "de": "Das Kind wird im Kindergarten der neuen Gemeinde angemeldet."
+    },
+    "only": {
+     "sr": "ako imate dete u vrtiću",
+     "en": "if you have a child in kindergarten",
+     "ru": "если у вас ребёнок в саду",
+     "de": "wenn Ihr Kind im Kindergarten ist"
+    }
+   },
+   {
+    "guide": "upis-u-osnovnu-skolu",
+    "why": {
+     "sr": "Školu u novom mestu odlučuje adresa, pa upis proverite odmah.",
+     "en": "The address decides the school in the new place, so check enrolment right away.",
+     "ru": "Школу на новом месте определяет адрес, поэтому проверьте запись сразу.",
+     "de": "Die Adresse bestimmt die Schule am neuen Ort, prüfen Sie die Anmeldung also gleich."
+    },
+    "only": {
+     "sr": "ako imate dete školskog uzrasta",
+     "en": "if you have a school-age child",
+     "ru": "если у вас ребёнок школьного возраста",
+     "de": "wenn Sie ein schulpflichtiges Kind haben"
+    }
+   }
+  ],
+  "terms": [
+   "selidba",
+   "preseljenje",
+   "nova adresa",
+   "promena adrese",
+   "selim se",
+   "seljenje",
+   "moving",
+   "relocation",
+   "change address",
+   "novi grad",
+   "move house",
+   "переезд",
+   "смена адреса",
+   "переехать",
+   "новый город",
+   "umzug",
+   "adresswechsel",
+   "umziehen"
+  ]
+ },
+ {
+  "slug": "vozacka-dozvola-prvi-put",
+  "group": "vozila",
+  "emblem": "driving",
+  "title": {
+   "sr": "Hoću da položim za vozača",
+   "en": "I want to get a driving licence",
+   "ru": "Я хочу получить водительские права",
+   "de": "Ich möchte den Führerschein machen"
+  },
+  "lead": {
+   "sr": "Od auto-škole i ispita do izdavanja vozačke dozvole.",
+   "en": "From the driving school and exam to the issuing of the licence.",
+   "ru": "От автошколы и экзамена до выдачи водительского удостоверения.",
+   "de": "Von der Fahrschule und der Prüfung bis zur Ausstellung des Führerscheins."
+  },
+  "steps": [
+   {
+    "guide": "licna-karta",
+    "why": {
+     "sr": "Prijava za obuku i ispit traži važeću ličnu kartu.",
+     "en": "Registering for training and the exam requires a valid ID card.",
+     "ru": "Для записи на обучение и экзамен нужна действительная личная карта.",
+     "de": "Für die Anmeldung zu Ausbildung und Prüfung ist ein gültiger Personalausweis nötig."
+    }
+   },
+   {
+    "type": "auto-skola",
+    "why": {
+     "sr": "Auto-škola vodi teorijsku i praktičnu obuku i prijavljuje vas za ispit.",
+     "en": "The driving school runs theory and practical training and registers you for the exam.",
+     "ru": "Автошкола проводит теоретическое и практическое обучение и записывает вас на экзамен.",
+     "de": "Die Fahrschule führt Theorie und Praxis durch und meldet Sie zur Prüfung an."
+    }
+   },
+   {
+    "guide": "vozacka-dozvola",
+    "why": {
+     "sr": "Vodič nabraja uslove, ispit i dokumenta potrebna za prvu dozvolu.",
+     "en": "The guide lists the requirements, the exam and the documents needed for a first licence.",
+     "ru": "Руководство перечисляет условия, экзамен и документы для первых прав.",
+     "de": "Der Leitfaden nennt Voraussetzungen, Prüfung und Unterlagen für den ersten Führerschein."
+    }
+   },
+   {
+    "type": "mup-policijska-uprava",
+    "title": {
+     "sr": "Policijska uprava: izdavanje dozvole",
+     "en": "Police administration: issuing the licence",
+     "ru": "Полицейское управление: выдача прав",
+     "de": "Polizeiverwaltung: Ausstellung des Führerscheins"
+    },
+    "why": {
+     "sr": "Posle položenog ispita dozvolu izdaje policijska uprava prema vašoj adresi.",
+     "en": "After the exam is passed, the police administration for your address issues the licence.",
+     "ru": "После сданного экзамена права выдаёт полицейское управление по вашему адресу.",
+     "de": "Nach bestandener Prüfung stellt die Polizeiverwaltung Ihrer Adresse den Führerschein aus."
+    }
+   }
+  ],
+  "terms": [
+   "vozačka dozvola",
+   "vozački ispit",
+   "auto škola",
+   "polaganje vozačkog",
+   "vozačka",
+   "dozvola",
+   "driving licence",
+   "driver's license",
+   "driving test",
+   "driving school",
+   "водительские права",
+   "права",
+   "автошкола",
+   "экзамен вождение",
+   "führerschein",
+   "fahrprüfung",
+   "fahrschule"
+  ]
+ },
+ {
+  "slug": "kupujem-auto",
+  "group": "vozila",
+  "emblem": "car",
+  "title": {
+   "sr": "Kupujem automobil",
+   "en": "I am buying a car",
+   "ru": "Я покупаю автомобиль",
+   "de": "Ich kaufe ein Auto"
+  },
+  "lead": {
+   "sr": "Od overenog ugovora i poreza do osiguranja, tehničkog pregleda i registracije.",
+   "en": "From the certified contract and tax to insurance, technical inspection and registration.",
+   "ru": "От заверенного договора и налога до страховки, техосмотра и регистрации.",
+   "de": "Vom beglaubigten Vertrag und der Steuer bis zu Versicherung, technischer Prüfung und Zulassung."
+  },
+  "steps": [
+   {
+    "guide": "overa-kod-javnog-beleznika",
+    "why": {
+     "sr": "Ugovor o kupoprodaji vozila se overava, a overeni ugovor je osnov za prepis.",
+     "en": "The vehicle sale contract is certified, and the certified contract is the basis for the transfer.",
+     "ru": "Договор купли-продажи автомобиля заверяется, и заверенный договор служит основанием для переоформления.",
+     "de": "Der Fahrzeugkaufvertrag wird beglaubigt, und er ist die Grundlage für die Umschreibung."
+    }
+   },
+   {
+    "type": "lokalna-poreska-administracija",
+    "why": {
+     "sr": "Porez na prenos pri kupovini polovnog vozila prijavljuje se lokalnoj poreskoj administraciji; obaveza se proverava.",
+     "en": "Tax on the purchase of a used vehicle is declared to the local tax administration; the obligation is checked.",
+     "ru": "Налог при покупке подержанного автомобиля декларируется в местную налоговую администрацию; обязанность проверяется.",
+     "de": "Die Steuer beim Kauf eines Gebrauchtwagens wird bei der lokalen Steuerverwaltung angemeldet; die Pflicht wird geprüft."
+    },
+    "only": {
+     "sr": "ako kupujete polovno vozilo",
+     "en": "if you buy a used vehicle",
+     "ru": "если покупаете подержанный автомобиль",
+     "de": "wenn Sie ein Gebrauchtfahrzeug kaufen"
+    }
+   },
+   {
+    "type": "osiguravajuce-drustvo",
+    "why": {
+     "sr": "Obavezno osiguranje od autoodgovornosti mora postojati pre registracije.",
+     "en": "Compulsory liability insurance for the vehicle must be in place before registration.",
+     "ru": "Обязательная страховка гражданской ответственности должна быть оформлена до регистрации.",
+     "de": "Die Pflicht-Haftpflichtversicherung für das Fahrzeug muss vor der Zulassung abgeschlossen sein."
+    }
+   },
+   {
+    "guide": "registracija-vozila",
+    "why": {
+     "sr": "Tehnički pregled, registracija i promena vlasnika idu tim redom; vodič ih detaljno razrađuje.",
+     "en": "Technical inspection, registration and change of owner follow in that order; the guide sets them out.",
+     "ru": "Техосмотр, регистрация и смена владельца идут в таком порядке; руководство описывает их подробно.",
+     "de": "Technische Prüfung, Zulassung und Halterwechsel folgen in dieser Reihenfolge; der Leitfaden erklärt sie."
+    }
+   },
+   {
+    "type": "mup-policijska-uprava",
+    "title": {
+     "sr": "Policija: registracija i tablice",
+     "en": "Police: registration and plates",
+     "ru": "Полиция: регистрация и номера",
+     "de": "Polizei: Zulassung und Kennzeichen"
+    },
+    "why": {
+     "sr": "Registraciju i tablice izdaje policija, kada su svi prethodni koraci završeni.",
+     "en": "The police issue the registration and plates once all previous steps are done.",
+     "ru": "Регистрацию и номера выдаёт полиция, когда все предыдущие шаги выполнены.",
+     "de": "Die Polizei stellt Zulassung und Kennzeichen aus, sobald alle vorherigen Schritte erledigt sind."
+    }
+   }
+  ],
+  "terms": [
+   "kupovina auta",
+   "kupujem auto",
+   "kupovina vozila",
+   "polovan auto",
+   "prepis vozila",
+   "prenos vozila",
+   "buy car",
+   "buy a car",
+   "used car",
+   "vehicle purchase",
+   "transfer vehicle",
+   "купить автомобиль",
+   "покупка авто",
+   "подержанный автомобиль",
+   "переоформление",
+   "autokauf",
+   "gebrauchtwagen",
+   "fahrzeug ummelden"
+  ]
+ },
+ {
+  "slug": "izgubljena-dokumenta-vozila",
+  "group": "vozila",
+  "emblem": "file-badge",
+  "title": {
+   "sr": "Izgubio sam dokumenta vozila",
+   "en": "I lost my vehicle documents",
+   "ru": "Я потерял документы на автомобиль",
+   "de": "Ich habe meine Fahrzeugpapiere verloren"
+  },
+  "lead": {
+   "sr": "Od prijave gubitka policiji do duplikata saobraćajne dozvole i vozačke.",
+   "en": "From reporting the loss to the police to a duplicate registration document and driving licence.",
+   "ru": "От заявления о потере в полицию до дубликата свидетельства о регистрации и прав.",
+   "de": "Von der Verlustmeldung bei der Polizei bis zum Duplikat von Zulassungsbescheinigung und Führerschein."
+  },
+  "steps": [
+   {
+    "type": "mup-policijska-uprava",
+    "title": {
+     "sr": "Prijava gubitka ili krađe u policiji",
+     "en": "Reporting the loss or theft to the police",
+     "ru": "Заявление о потере или краже в полиции",
+     "de": "Verlust- oder Diebstahlsmeldung bei der Polizei"
+    },
+    "why": {
+     "sr": "Gubitak ili krađa se prijavljuju policiji; potvrda o prijavi traži se u daljem postupku.",
+     "en": "Loss or theft is reported to the police; the report confirmation is needed in the following procedure.",
+     "ru": "О потере или краже заявляют в полицию; подтверждение заявления нужно в дальнейшей процедуре.",
+     "de": "Verlust oder Diebstahl werden der Polizei gemeldet; die Anzeigebestätigung wird im weiteren Verfahren verlangt."
+    }
+   },
+   {
+    "guide": "registracija-vozila",
+    "why": {
+     "sr": "Duplikat saobraćajne dozvole traži se uz prijavu; vodič kaže koja su dokumenta potrebna.",
+     "en": "A duplicate of the registration document is requested with the report; the guide lists the papers needed.",
+     "ru": "Дубликат свидетельства о регистрации запрашивается вместе с заявлением; нужные документы указаны в руководстве.",
+     "de": "Ein Duplikat der Zulassungsbescheinigung wird mit der Anzeige beantragt; der Leitfaden nennt die Unterlagen."
+    }
+   },
+   {
+    "guide": "vozacka-dozvola",
+    "why": {
+     "sr": "Ako je izgubljena i vozačka dozvola, izdaje se duplikat.",
+     "en": "If the driving licence was lost too, a duplicate is issued.",
+     "ru": "Если утеряны и водительские права, на них тоже выдаётся дубликат.",
+     "de": "Wurde auch der Führerschein verloren, wird ein Duplikat ausgestellt."
+    },
+    "only": {
+     "sr": "ako ste izgubili i vozačku",
+     "en": "if you also lost the licence",
+     "ru": "если вы потеряли и права",
+     "de": "wenn Sie auch den Führerschein verloren haben"
+    }
+   },
+   {
+    "type": "osiguravajuce-drustvo",
+    "why": {
+     "sr": "Zatražite kopiju polise, jer je potrebna uz svako obnavljanje papira.",
+     "en": "Ask for a copy of the policy, as it is needed with any renewal of papers.",
+     "ru": "Запросите копию полиса, так как она нужна при любом восстановлении бумаг.",
+     "de": "Fordern Sie eine Kopie der Police an, denn sie wird bei jeder Erneuerung der Papiere gebraucht."
+    }
+   }
+  ],
+  "terms": [
+   "izgubljena saobraćajna",
+   "izgubljena dokumenta",
+   "krađa vozila",
+   "izgubljena vozačka",
+   "lost car papers",
+   "lost registration",
+   "stolen vehicle",
+   "duplicate documents",
+   "потерял документы авто",
+   "кража автомобиля",
+   "дубликат документов",
+   "fahrzeugpapiere verloren",
+   "diebstahl auto",
+   "zulassung verloren",
+   "duplikat"
+  ]
+ },
+ {
+  "slug": "saobracajna-nezgoda-ili-kazna",
+  "group": "vozila",
+  "emblem": "police",
+  "title": {
+   "sr": "Imao sam nezgodu ili dobio kaznu",
+   "en": "I had an accident or got a fine",
+   "ru": "У меня авария или штраф",
+   "de": "Ich hatte einen Unfall oder ein Bußgeld"
+  },
+  "lead": {
+   "sr": "Od policije na licu mesta do osiguranja, prekršajnog suda i pravne pomoći.",
+   "en": "From the police at the scene to insurance, the misdemeanour court and legal help.",
+   "ru": "От полиции на месте происшествия до страховки, суда по мелким правонарушениям и юридической помощи.",
+   "de": "Von der Polizei vor Ort bis zu Versicherung, Ordnungswidrigkeitsgericht und Rechtshilfe."
+  },
+  "steps": [
+   {
+    "type": "mup-policijska-uprava",
+    "why": {
+     "sr": "Policija evidentira nezgodu i sastavlja zapisnik koji osiguranje traži.",
+     "en": "The police record the accident and draw up a report that the insurer asks for.",
+     "ru": "Полиция фиксирует аварию и составляет протокол, который требует страховая.",
+     "de": "Die Polizei nimmt den Unfall auf und erstellt ein Protokoll, das die Versicherung verlangt."
+    }
+   },
+   {
+    "type": "osiguravajuce-drustvo",
+    "why": {
+     "sr": "Štetu prijavite svom ili osiguravaču druge strane; uslovi odštete zavise od polise.",
+     "en": "Report the damage to your insurer or the other party's; compensation terms depend on the policy.",
+     "ru": "Сообщите об ущербе своему страховщику или страховщику другой стороны; условия возмещения зависят от полиса.",
+     "de": "Melden Sie den Schaden Ihrem Versicherer oder dem der Gegenseite; die Entschädigung hängt von der Police ab."
+    }
+   },
+   {
+    "type": "prekrsajni-sud",
+    "why": {
+     "sr": "Kazna za saobraćajni prekršaj osporava se pred prekršajnim sudom, u propisanim rokovima.",
+     "en": "A fine for a traffic offence is contested before the misdemeanour court, within the set deadlines.",
+     "ru": "Штраф за нарушение ПДД оспаривается в суде по мелким правонарушениям в установленные сроки.",
+     "de": "Ein Bußgeld für einen Verkehrsverstoß wird vor dem Ordnungswidrigkeitsgericht innerhalb der Fristen angefochten."
+    },
+    "only": {
+     "sr": "ako osporavate kaznu",
+     "en": "if you contest a fine",
+     "ru": "если оспариваете штраф",
+     "de": "wenn Sie ein Bußgeld anfechten"
+    }
+   },
+   {
+    "type": "advokat",
+    "why": {
+     "sr": "Advokat savetuje kod spora o krivici ili visini štete.",
+     "en": "A lawyer advises in a dispute over fault or the amount of damage.",
+     "ru": "Адвокат консультирует при споре о вине или размере ущерба.",
+     "de": "Ein Anwalt berät bei Streit um Schuld oder Schadenshöhe."
+    },
+    "only": {
+     "sr": "ako je krivica sporna",
+     "en": "if fault is disputed",
+     "ru": "если вина оспаривается",
+     "de": "wenn die Schuld strittig ist"
+    }
+   },
+   {
+    "type": "sudski-vestak",
+    "why": {
+     "sr": "Sudski veštak procenjuje štetu i uzrok nezgode kada se strane ne slažu.",
+     "en": "A court expert assesses the damage and cause of the accident when the parties disagree.",
+     "ru": "Судебный эксперт оценивает ущерб и причину аварии, когда стороны не согласны.",
+     "de": "Ein Gerichtssachverständiger beurteilt Schaden und Unfallursache, wenn die Parteien uneins sind."
+    },
+    "only": {
+     "sr": "ako se strane ne slažu",
+     "en": "if the parties disagree",
+     "ru": "если стороны не согласны",
+     "de": "wenn die Parteien uneins sind"
+    }
+   }
+  ],
+  "terms": [
+   "saobraćajna nezgoda",
+   "udes",
+   "kazna",
+   "prekršaj",
+   "prekršajni sud",
+   "saobraćajni prekršaj",
+   "car accident",
+   "traffic fine",
+   "accident",
+   "insurance claim",
+   "traffic offence",
+   "авария",
+   "штраф",
+   "дтп",
+   "нарушение пдд",
+   "verkehrsunfall",
+   "bußgeld",
+   "strafzettel"
+  ]
+ },
+ {
+  "slug": "punoletstvo-prva-dokumenta",
+  "group": "dokumenta",
+  "emblem": "file-badge",
+  "title": {
+   "sr": "Punim 16 ili 18 godina",
+   "en": "I am turning 16 or 18",
+   "ru": "Мне исполняется 16 или 18 лет",
+   "de": "Ich werde 16 oder 18"
+  },
+  "lead": {
+   "sr": "Prva lična karta, pasoš, vozačka, račun i zdravstvena kartica, onim redom kako ih mladi obično traže.",
+   "en": "First ID card, passport, driving licence, account and health card, in the order young people usually need them.",
+   "ru": "Первая личная карта, паспорт, права, счёт и карта медстрахования в порядке, в котором они обычно нужны.",
+   "de": "Erster Personalausweis, Reisepass, Führerschein, Konto und Gesundheitskarte, in der Reihenfolge, in der junge Leute sie meist brauchen."
+  },
+  "steps": [
+   {
+    "guide": "licna-karta",
+    "why": {
+     "sr": "Lična karta je obavezna od šesnaeste godine i osnov je za sve ostale isprave.",
+     "en": "The ID card is compulsory from age sixteen and is the basis for every other document.",
+     "ru": "Личная карта обязательна с шестнадцати лет и служит основой для всех остальных документов.",
+     "de": "Der Personalausweis ist ab sechzehn Pflicht und Grundlage für alle weiteren Dokumente."
+    }
+   },
+   {
+    "guide": "pasos",
+    "why": {
+     "sr": "Pasoš se izdaje posebno, a za putovanja u inostranstvo je često jedina isprava.",
+     "en": "The passport is issued separately and is often the only document for travel abroad.",
+     "ru": "Паспорт выдаётся отдельно и для поездок за границу часто служит единственным документом.",
+     "de": "Der Reisepass wird gesondert ausgestellt und ist für Auslandsreisen oft das einzige Dokument."
+    }
+   },
+   {
+    "guide": "vozacka-dozvola",
+    "why": {
+     "sr": "Vozačka se stiče posle punoletstva i položenog ispita; pogledajte i putokaz za vozačku dozvolu.",
+     "en": "A driving licence follows adulthood and a passed exam; see also the driving licence roadmap.",
+     "ru": "Права получают после совершеннолетия и сданного экзамена; смотрите также маршрут по водительским правам.",
+     "de": "Den Führerschein erhält man nach Volljährigkeit und bestandener Prüfung; siehe auch den Wegweiser zum Führerschein."
+    }
+   },
+   {
+    "guide": "bankovni-racun-i-kartice",
+    "why": {
+     "sr": "Punoletna osoba otvara sopstveni račun i kartice bez saglasnosti roditelja.",
+     "en": "An adult opens their own account and cards without parental consent.",
+     "ru": "Совершеннолетний открывает собственный счёт и карты без согласия родителей.",
+     "de": "Ein Volljähriger eröffnet Konto und Karten ohne Zustimmung der Eltern."
+    }
+   },
+   {
+    "guide": "zdravstvena-knjizica",
+    "why": {
+     "sr": "Zdravstveno osiguranje se posle punoletstva utvrđuje po novom osnovu, na primer kao student ili zaposleni.",
+     "en": "After adulthood health insurance is set on a new basis, for example as a student or employee.",
+     "ru": "После совершеннолетия медстрахование оформляется по новому основанию, например как студент или работающий.",
+     "de": "Nach der Volljährigkeit wird die Versicherung auf neuer Grundlage geregelt, etwa als Student oder Beschäftigter."
+    }
+   }
+  ],
+  "terms": [
+   "šesnaest godina",
+   "osamnaest godina",
+   "punoletstvo",
+   "prva lična karta",
+   "prvi pasoš",
+   "punoletan",
+   "turning 16",
+   "turning 18",
+   "coming of age",
+   "first id card",
+   "adult",
+   "шестнадцать лет",
+   "восемнадцать лет",
+   "совершеннолетие",
+   "первая личная карта",
+   "volljährig",
+   "achtzehn jahre",
+   "sechzehn"
+  ]
+ },
+ {
+  "slug": "izgubljen-ili-ukraden-novcanik",
+  "group": "dokumenta",
+  "emblem": "police",
+  "title": {
+   "sr": "Izgubljen ili ukraden novčanik",
+   "en": "Lost or stolen wallet",
+   "ru": "Потерян или украден кошелёк",
+   "de": "Verlorene oder gestohlene Geldbörse"
+  },
+  "lead": {
+   "sr": "Od blokiranja kartica i prijave policiji do novih ličnih dokumenata i zdravstvene kartice.",
+   "en": "From blocking cards and reporting to the police to new ID papers and a health card.",
+   "ru": "От блокировки карт и заявления в полицию до новых документов и карты медстрахования.",
+   "de": "Vom Sperren der Karten und der Anzeige bei der Polizei bis zu neuen Ausweisen und Gesundheitskarte."
+  },
+  "steps": [
+   {
+    "type": "banka",
+    "title": {
+     "sr": "Blokirajte kartice u banci",
+     "en": "Block your cards at the bank",
+     "ru": "Заблокируйте карты в банке",
+     "de": "Sperren Sie die Karten bei der Bank"
+    },
+    "why": {
+     "sr": "Prvo pozovite banku da blokira kartice, pre nego što neko pokuša da ih iskoristi.",
+     "en": "First call the bank to block the cards before anyone tries to use them.",
+     "ru": "Сначала позвоните в банк, чтобы заблокировать карты, пока ими никто не воспользовался.",
+     "de": "Rufen Sie zuerst die Bank an, um die Karten zu sperren, bevor sie jemand benutzt."
+    }
+   },
+   {
+    "type": "mup-policijska-uprava",
+    "title": {
+     "sr": "Prijava gubitka ili krađe u policiji",
+     "en": "Reporting the loss or theft to the police",
+     "ru": "Заявление о потере или краже в полиции",
+     "de": "Verlust- oder Diebstahlsmeldung bei der Polizei"
+    },
+    "why": {
+     "sr": "Gubitak ili krađa dokumenata prijavljuje se policiji, koja izdaje potvrdu za nove isprave.",
+     "en": "The loss or theft of documents is reported to the police, who issue a confirmation for new papers.",
+     "ru": "О потере или краже документов заявляют в полицию, которая выдаёт подтверждение для новых документов.",
+     "de": "Verlust oder Diebstahl von Dokumenten wird der Polizei gemeldet, die eine Bestätigung für neue Papiere ausstellt."
+    }
+   },
+   {
+    "guide": "licna-karta",
+    "why": {
+     "sr": "Nova lična karta se izdaje po prijavi gubitka; vodič nabraja dokumenta.",
+     "en": "A new ID card is issued after the loss report; the guide lists the papers.",
+     "ru": "Новая личная карта выдаётся после заявления о потере; документы перечислены в руководстве.",
+     "de": "Ein neuer Personalausweis wird nach der Verlustmeldung ausgestellt; der Leitfaden nennt die Unterlagen."
+    }
+   },
+   {
+    "guide": "vozacka-dozvola",
+    "why": {
+     "sr": "Duplikat vozačke dozvole traži se ako je bila u novčaniku.",
+     "en": "A duplicate driving licence is requested if it was in the wallet.",
+     "ru": "Дубликат водительских прав запрашивается, если они были в кошельке.",
+     "de": "Ein Führerschein-Duplikat wird beantragt, wenn er in der Geldbörse war."
+    },
+    "only": {
+     "sr": "ako je bila u novčaniku",
+     "en": "if it was in the wallet",
+     "ru": "если были в кошельке",
+     "de": "wenn er in der Geldbörse war"
+    }
+   },
+   {
+    "guide": "zdravstvena-knjizica",
+    "why": {
+     "sr": "Izgubljena zdravstvena kartica se zamenjuje; vodič kaže gde i uz koja dokumenta.",
+     "en": "A lost health card is replaced; the guide says where and with which papers.",
+     "ru": "Потерянная карта медстрахования заменяется; руководство объясняет где и с какими документами.",
+     "de": "Eine verlorene Gesundheitskarte wird ersetzt; der Leitfaden sagt, wo und mit welchen Unterlagen."
+    }
+   },
+   {
+    "guide": "pasos",
+    "why": {
+     "sr": "Ako je pasoš bio uz ostalo, gubitak se prijavljuje i izdaje se novi.",
+     "en": "If the passport was with the rest, its loss is reported and a new one is issued.",
+     "ru": "Если паспорт был вместе с остальным, о его потере заявляют и выдаётся новый.",
+     "de": "War der Reisepass dabei, wird der Verlust gemeldet und ein neuer ausgestellt."
+    },
+    "only": {
+     "sr": "ako je bio pasoš",
+     "en": "if a passport was in it",
+     "ru": "если там был паспорт",
+     "de": "wenn ein Reisepass dabei war"
+    }
+   }
+  ],
+  "terms": [
+   "izgubljen novčanik",
+   "ukraden novčanik",
+   "izgubljena lična",
+   "izgubljena kartica",
+   "krađa dokumenata",
+   "gubitak dokumenata",
+   "lost wallet",
+   "stolen wallet",
+   "lost documents",
+   "stolen id",
+   "lost id card",
+   "потерял кошелёк",
+   "украли кошелёк",
+   "потеря документов",
+   "кража документов",
+   "geldbörse verloren",
+   "ausweis verloren",
+   "brieftasche gestohlen"
+  ]
+ },
+ {
+  "slug": "promena-prezimena-posle-braka",
+  "group": "dokumenta",
+  "emblem": "registry",
+  "title": {
+   "sr": "Menjam prezime posle braka",
+   "en": "I am changing my surname after marriage",
+   "ru": "Я меняю фамилию после брака",
+   "de": "Ich ändere meinen Nachnamen nach der Heirat"
+  },
+  "lead": {
+   "sr": "Od izvoda venčanih do lične karte, pasoša, vozačke, banke i zdravstvene kartice.",
+   "en": "From the marriage extract to ID card, passport, driving licence, bank and health card.",
+   "ru": "От выписки о браке до личной карты, паспорта, прав, банка и медкарты.",
+   "de": "Vom Heiratsauszug bis zu Personalausweis, Reisepass, Führerschein, Bank und Gesundheitskarte."
+  },
+  "steps": [
+   {
+    "guide": "izvod-iz-maticne-knjige",
+    "why": {
+     "sr": "Izvod iz knjige venčanih dokazuje promenu prezimena i traži se pri svakoj izmeni isprava.",
+     "en": "The marriage extract proves the change of surname and is asked for with every document update.",
+     "ru": "Выписка о браке подтверждает смену фамилии и требуется при каждом обновлении документов.",
+     "de": "Der Heiratsauszug belegt die Namensänderung und wird bei jeder Aktualisierung der Dokumente verlangt."
+    }
+   },
+   {
+    "guide": "licna-karta",
+    "why": {
+     "sr": "Lična karta se menja prva, jer je osnov za sve ostale isprave.",
+     "en": "The ID card is changed first, as it is the basis for all other documents.",
+     "ru": "Личная карта меняется первой, поскольку служит основой для всех остальных документов.",
+     "de": "Der Personalausweis wird zuerst geändert, denn er ist die Grundlage für alle anderen Dokumente."
+    }
+   },
+   {
+    "guide": "pasos",
+    "why": {
+     "sr": "Pasoš se menja ili izdaje nov kada prezime nije isto kao u ličnoj karti.",
+     "en": "The passport is changed or reissued once the surname differs from the ID card.",
+     "ru": "Паспорт меняется или выдаётся заново, когда фамилия отличается от указанной в личной карте.",
+     "de": "Der Reisepass wird geändert oder neu ausgestellt, sobald der Name vom Personalausweis abweicht."
+    }
+   },
+   {
+    "guide": "vozacka-dozvola",
+    "why": {
+     "sr": "Vozačka dozvola se menja kada se podaci o imenu promene.",
+     "en": "The driving licence is changed once the name details change.",
+     "ru": "Водительские права меняются, когда меняются данные об имени.",
+     "de": "Der Führerschein wird geändert, sobald sich die Namensangaben ändern."
+    }
+   },
+   {
+    "guide": "bankovni-racun-i-kartice",
+    "why": {
+     "sr": "Banka ažurira vaše podatke na računu i karticama novom ličnom kartom.",
+     "en": "The bank updates your details on the account and cards with the new ID card.",
+     "ru": "Банк обновляет ваши данные на счёте и картах по новой личной карте.",
+     "de": "Die Bank aktualisiert Ihre Daten auf Konto und Karten mit dem neuen Personalausweis."
+    }
+   },
+   {
+    "guide": "zdravstvena-knjizica",
+    "why": {
+     "sr": "Zdravstvena kartica se usklađuje sa novim prezimenom u filijali osiguranja.",
+     "en": "The health card is aligned with the new surname at the insurance branch.",
+     "ru": "Карта медстрахования приводится в соответствие с новой фамилией в филиале страхования.",
+     "de": "Die Gesundheitskarte wird in der Versicherungsfiliale an den neuen Nachnamen angepasst."
+    }
+   }
+  ],
+  "terms": [
+   "promena prezimena",
+   "prezime posle braka",
+   "udata",
+   "novo prezime",
+   "promena imena",
+   "ažuriranje dokumenata",
+   "change surname",
+   "name change",
+   "married name",
+   "after wedding",
+   "maiden name",
+   "смена фамилии",
+   "фамилия после брака",
+   "замужем",
+   "изменить имя",
+   "namensänderung",
+   "nachname heirat",
+   "heiratsname"
+  ]
+ },
+ {
+  "slug": "putujem-u-inostranstvo",
+  "group": "dokumenta",
+  "emblem": "airport",
+  "title": {
+   "sr": "Putujem u inostranstvo",
+   "en": "I am travelling abroad",
+   "ru": "Я еду за границу",
+   "de": "Ich reise ins Ausland"
+  },
+  "lead": {
+   "sr": "Od pasoša i viznih pravila odredišta do putnog osiguranja i dozvole za dete.",
+   "en": "From the passport and the destination's visa rules to travel insurance and permission for a child.",
+   "ru": "От паспорта и визовых правил страны назначения до туристической страховки и разрешения для ребёнка.",
+   "de": "Vom Reisepass und den Visaregeln des Ziellandes bis zu Reiseversicherung und Erlaubnis für ein Kind."
+  },
+  "steps": [
+   {
+    "guide": "pasos",
+    "why": {
+     "sr": "Pasoš mora biti važeći, a izrada ili obnova traje, pa počnite ranije.",
+     "en": "The passport must be valid, and making or renewing one takes time, so start early.",
+     "ru": "Паспорт должен быть действительным, а оформление или продление требует времени, поэтому начните заранее.",
+     "de": "Der Reisepass muss gültig sein, und Ausstellung oder Verlängerung dauert, also beginnen Sie früh."
+    }
+   },
+   {
+    "type": "ambasada",
+    "title": {
+     "sr": "Ambasada odredišne zemlje: viza",
+     "en": "Embassy of the destination country: visa",
+     "ru": "Посольство страны назначения: виза",
+     "de": "Botschaft des Ziellandes: Visum"
+    },
+    "why": {
+     "sr": "Vizu za odredište traži ambasada te zemlje; prvo proverite da li vam je viza uopšte potrebna.",
+     "en": "A visa for the destination is requested from that country's embassy; first check whether you need one at all.",
+     "ru": "Визу в страну назначения запрашивают в посольстве этой страны; сначала проверьте, нужна ли она вообще.",
+     "de": "Ein Visum für das Ziel wird bei der Botschaft des Landes beantragt; prüfen Sie zuerst, ob Sie überhaupt eines brauchen."
+    },
+    "only": {
+     "sr": "ako je viza potrebna",
+     "en": "if a visa is required",
+     "ru": "если нужна виза",
+     "de": "wenn ein Visum nötig ist"
+    }
+   },
+   {
+    "type": "osiguravajuce-drustvo",
+    "why": {
+     "sr": "Putno zdravstveno osiguranje se kupuje pre polaska i često je uslov za vizu.",
+     "en": "Travel health insurance is bought before departure and is often a visa condition.",
+     "ru": "Туристическая медстраховка покупается до отъезда и часто является условием визы.",
+     "de": "Die Reisekrankenversicherung wird vor der Abreise abgeschlossen und ist oft Visumvoraussetzung."
+    }
+   },
+   {
+    "guide": "overa-kod-javnog-beleznika",
+    "why": {
+     "sr": "Dete koje putuje sa jednim roditeljem može tražiti saglasnost drugog, overenu kod beležnika.",
+     "en": "A child travelling with one parent may need the other's consent, certified by a notary.",
+     "ru": "Ребёнку, едущему с одним из родителей, может понадобиться согласие другого, заверенное нотариусом.",
+     "de": "Reist ein Kind mit einem Elternteil, kann die vom Notar beglaubigte Zustimmung des anderen nötig sein."
+    },
+    "only": {
+     "sr": "dete putuje sa jednim roditeljem",
+     "en": "child travels with one parent",
+     "ru": "ребёнок едет с одним из родителей",
+     "de": "Kind reist mit einem Elternteil"
+    }
+   },
+   {
+    "type": "menjacnica",
+    "why": {
+     "sr": "Menjačnica služi da pre puta zamenite deo novca u valutu odredišta.",
+     "en": "A currency exchange office lets you change some money into the destination currency before the trip.",
+     "ru": "Обменный пункт позволяет до поездки обменять часть денег на валюту страны назначения.",
+     "de": "In der Wechselstube können Sie vor der Reise Geld in die Währung des Ziels tauschen."
+    }
+   }
+  ],
+  "terms": [
+   "putovanje",
+   "putujem",
+   "viza",
+   "putno osiguranje",
+   "pasoš",
+   "inostranstvo",
+   "travel",
+   "visa",
+   "travel insurance",
+   "passport",
+   "child travel consent",
+   "путешествие",
+   "поездка за границу",
+   "виза",
+   "туристическая страховка",
+   "reise ausland",
+   "reisen",
+   "reiseversicherung"
+  ]
+ },
+ {
+  "slug": "zatvaram-ili-pauziram-preduzetnika",
+  "group": "firma",
+  "emblem": "factory",
+  "title": {
+   "sr": "Zatvaram ili pauziram preduzetnika",
+   "en": "I am closing or pausing a sole proprietorship",
+   "ru": "Я закрываю или приостанавливаю ИП",
+   "de": "Ich schließe oder pausiere mein Einzelunternehmen"
+  },
+  "lead": {
+   "sr": "Od završnih knjiga i poreskih obaveza do brisanja ili mirovanja u APR-u i prijave na evidenciju.",
+   "en": "From closing the books and tax duties to deletion or suspension at the APR and registering as unemployed.",
+   "ru": "От закрытия книг и налоговых обязательств до исключения или приостановки в APR и регистрации безработным.",
+   "de": "Von Abschlussbuchungen und Steuerpflichten bis zu Löschung oder Ruhen beim APR und Anmeldung als arbeitslos."
+  },
+  "steps": [
+   {
+    "type": "racunovodstvena-agencija",
+    "why": {
+     "sr": "Knjigovođa zatvara knjige i pomaže da se spreme završni obračun i prijave.",
+     "en": "An accountant closes the books and helps prepare the final accounts and returns.",
+     "ru": "Бухгалтер закрывает книги и помогает подготовить итоговый расчёт и декларации.",
+     "de": "Ein Buchhalter schließt die Bücher und hilft bei Abschluss und Erklärungen."
+    }
+   },
+   {
+    "type": "poreska-uprava",
+    "why": {
+     "sr": "Poreske obaveze i doprinosi se izmiruju pre zatvaranja; stanje proverite u Poreskoj upravi.",
+     "en": "Tax and contribution duties are settled before closing; check your position with the Tax Administration.",
+     "ru": "Налоги и взносы погашаются до закрытия; состояние проверьте в Налоговом управлении.",
+     "de": "Steuern und Beiträge werden vor der Schließung beglichen; prüfen Sie Ihren Stand bei der Steuerverwaltung."
+    }
+   },
+   {
+    "type": "apr",
+    "title": {
+     "sr": "APR: brisanje ili mirovanje",
+     "en": "APR: deletion or suspension",
+     "ru": "APR: исключение или приостановка",
+     "de": "APR: Löschung oder Ruhen"
+    },
+    "why": {
+     "sr": "Brisanje ili privremena obustava delatnosti prijavljuje se Agenciji za privredne registre.",
+     "en": "Deletion or temporary suspension of the business is filed with the Business Registers Agency.",
+     "ru": "Исключение или временное приостановление деятельности подаётся в Агентство по хозяйственным регистрам.",
+     "de": "Löschung oder zeitweise Einstellung der Tätigkeit wird bei der Agentur für Wirtschaftsregister eingereicht."
+    }
+   },
+   {
+    "guide": "prijava-na-nsz",
+    "why": {
+     "sr": "Ako tražite posao posle zatvaranja, prijava u evidenciju nezaposlenih je sledeći korak.",
+     "en": "If you look for work after closing, registering as unemployed is the next step.",
+     "ru": "Если после закрытия вы ищете работу, следующий шаг: регистрация безработного.",
+     "de": "Wenn Sie nach der Schließung Arbeit suchen, ist die Anmeldung als arbeitslos der nächste Schritt."
+    },
+    "only": {
+     "sr": "ako tražite posao",
+     "en": "if you look for work",
+     "ru": "если ищете работу",
+     "de": "wenn Sie Arbeit suchen"
+    }
+   }
+  ],
+  "terms": [
+   "zatvaranje firme",
+   "gašenje preduzetnika",
+   "brisanje iz apr",
+   "mirovanje",
+   "privremena obustava",
+   "zatvoriti radnju",
+   "close business",
+   "close company",
+   "deregister",
+   "suspend business",
+   "sole proprietor closing",
+   "закрыть ип",
+   "закрытие фирмы",
+   "приостановить деятельность",
+   "gewerbe abmelden",
+   "firma schließen",
+   "ruhen lassen"
+  ]
+ },
+ {
+  "slug": "prvi-zaposleni",
+  "group": "firma",
+  "emblem": "users",
+  "title": {
+   "sr": "Zapošljavam prvog radnika",
+   "en": "I am hiring my first employee",
+   "ru": "Я нанимаю первого сотрудника",
+   "de": "Ich stelle meinen ersten Mitarbeiter ein"
+  },
+  "lead": {
+   "sr": "Od knjigovođe i računa za plate do programa Nacionalne službe i prijave zaposlenog na osiguranje.",
+   "en": "From the accountant and salary account to employment service programmes and registering the employee for insurance.",
+   "ru": "От бухгалтера и счёта для зарплат до программ службы занятости и регистрации сотрудника в страховании.",
+   "de": "Vom Buchhalter und Gehaltskonto bis zu Arbeitsdienst-Programmen und der Anmeldung des Mitarbeiters zur Versicherung."
+  },
+  "steps": [
+   {
+    "type": "racunovodstvena-agencija",
+    "why": {
+     "sr": "Knjigovođa priprema ugovor o radu, obračun zarade i prijave.",
+     "en": "An accountant prepares the employment contract, payroll and filings.",
+     "ru": "Бухгалтер готовит трудовой договор, расчёт зарплаты и декларации.",
+     "de": "Ein Buchhalter bereitet Arbeitsvertrag, Lohnabrechnung und Meldungen vor."
+    }
+   },
+   {
+    "guide": "bankovni-racun-i-kartice",
+    "why": {
+     "sr": "Poslovni račun služi za isplatu zarada i plaćanje doprinosa.",
+     "en": "A business account is used to pay wages and contributions.",
+     "ru": "Рабочий счёт служит для выплаты зарплат и уплаты взносов.",
+     "de": "Ein Geschäftskonto dient zur Auszahlung von Löhnen und Zahlung von Beiträgen."
+    }
+   },
+   {
+    "type": "nsz",
+    "title": {
+     "sr": "NSZ: programi za poslodavce",
+     "en": "NSZ: employer programmes",
+     "ru": "NSZ: программы для работодателей",
+     "de": "NSZ: Arbeitgeberprogramme"
+    },
+    "why": {
+     "sr": "Nacionalna služba posreduje u zapošljavanju i vodi programe za poslodavce; uslovi se proveravaju pri prijavi.",
+     "en": "The employment service mediates hiring and runs employer programmes; conditions are checked on application.",
+     "ru": "Служба занятости посредничает в найме и ведёт программы для работодателей; условия проверяются при заявке.",
+     "de": "Der Arbeitsdienst vermittelt und führt Programme für Arbeitgeber; die Voraussetzungen werden bei der Bewerbung geprüft."
+    }
+   },
+   {
+    "type": "poreska-uprava",
+    "why": {
+     "sr": "Porez i doprinosi na zaradu uplaćuju se preko Poreske uprave.",
+     "en": "Tax and contributions on wages are paid through the Tax Administration.",
+     "ru": "Налог и взносы с зарплаты уплачиваются через Налоговое управление.",
+     "de": "Steuer und Beiträge auf den Lohn werden über die Steuerverwaltung gezahlt."
+    }
+   },
+   {
+    "guide": "zdravstvena-knjizica",
+    "why": {
+     "sr": "Zaposleni se prijavljuje na osiguranje, posle čega se izdaje i overava kartica.",
+     "en": "The employee is registered for insurance, after which the card is issued and validated.",
+     "ru": "Сотрудник регистрируется в страховании, после чего карта выдаётся и подтверждается.",
+     "de": "Der Mitarbeiter wird zur Versicherung angemeldet, danach wird die Karte ausgestellt und bestätigt."
+    }
+   }
+  ],
+  "terms": [
+   "zapošljavanje radnika",
+   "prvi radnik",
+   "zaposliti",
+   "ugovor o radu",
+   "poslodavac",
+   "hiring",
+   "first employee",
+   "hire employee",
+   "employer",
+   "payroll",
+   "employment contract",
+   "нанять сотрудника",
+   "первый сотрудник",
+   "работодатель",
+   "трудовой договор",
+   "mitarbeiter einstellen",
+   "erster mitarbeiter",
+   "arbeitgeber"
+  ]
+ },
+ {
+  "slug": "dokumenta-za-tender",
+  "group": "firma",
+  "emblem": "stamp",
+  "title": {
+   "sr": "Dokumenta za tender i javne nabavke",
+   "en": "Papers for a tender or public procurement",
+   "ru": "Документы для тендера и госзакупок",
+   "de": "Unterlagen für Ausschreibungen und öffentliche Beschaffung"
+  },
+  "lead": {
+   "sr": "Izvodi iz registra, uverenja o porezima i overene izjave koje tender najčešće traži.",
+   "en": "Registry extracts, tax certificates and certified statements that a tender most often asks for.",
+   "ru": "Выписки из реестра, налоговые справки и заверенные заявления, которые тендер чаще всего требует.",
+   "de": "Registerauszüge, Steuerbescheinigungen und beglaubigte Erklärungen, die eine Ausschreibung meist verlangt."
+  },
+  "steps": [
+   {
+    "type": "apr",
+    "title": {
+     "sr": "APR: izvod o registraciji",
+     "en": "APR: registration extract",
+     "ru": "APR: выписка о регистрации",
+     "de": "APR: Registerauszug"
+    },
+    "why": {
+     "sr": "Izvod iz registra dokazuje da je firma registrovana i ko je zastupa.",
+     "en": "The registry extract proves the company is registered and who represents it.",
+     "ru": "Выписка из реестра подтверждает, что фирма зарегистрирована и кто её представляет.",
+     "de": "Der Registerauszug belegt, dass die Firma eingetragen ist und wer sie vertritt."
+    }
+   },
+   {
+    "type": "poreska-uprava",
+    "why": {
+     "sr": "Uverenje o izmirenim porezima izdaje Poreska uprava; šta se traži, piše u konkursnoj dokumentaciji.",
+     "en": "The Tax Administration issues the certificate of paid taxes; what is required is in the tender documents.",
+     "ru": "Справку об уплате налогов выдаёт Налоговое управление; что требуется, указано в тендерной документации.",
+     "de": "Die Bescheinigung über beglichene Steuern stellt die Steuerverwaltung aus; was verlangt wird, steht in den Ausschreibungsunterlagen."
+    }
+   },
+   {
+    "type": "lokalna-poreska-administracija",
+    "why": {
+     "sr": "Lokalni porezi se dokazuju uverenjem lokalne poreske administracije.",
+     "en": "Local taxes are proved with a certificate from the local tax administration.",
+     "ru": "Местные налоги подтверждаются справкой, которую выдаёт местная налоговая администрация.",
+     "de": "Lokale Steuern werden durch eine Bescheinigung der lokalen Steuerverwaltung nachgewiesen."
+    }
+   },
+   {
+    "type": "banka",
+    "why": {
+     "sr": "Banka izdaje garancije i potvrde o računu kada ih tender zahteva.",
+     "en": "The bank issues guarantees and account confirmations when a tender demands them.",
+     "ru": "Банк выдаёт гарантии и справки о счёте, когда этого требует тендер.",
+     "de": "Die Bank stellt Garantien und Kontobestätigungen aus, wenn die Ausschreibung sie verlangt."
+    }
+   },
+   {
+    "guide": "overa-kod-javnog-beleznika",
+    "why": {
+     "sr": "Izjave i punomoćja moraju biti overene da bi ih naručilac prihvatio.",
+     "en": "Statements and powers of attorney must be certified for the contracting authority to accept them.",
+     "ru": "Заявления и доверенности должны быть заверены, чтобы заказчик их принял.",
+     "de": "Erklärungen und Vollmachten müssen beglaubigt sein, damit der Auftraggeber sie akzeptiert."
+    }
+   },
+   {
+    "type": "sudski-prevodilac",
+    "why": {
+     "sr": "Dokumenta na stranom jeziku predaju se u overenom prevodu.",
+     "en": "Documents in a foreign language are submitted in a certified translation.",
+     "ru": "Документы на иностранном языке подаются в заверенном переводе.",
+     "de": "Dokumente in einer Fremdsprache werden in beglaubigter Übersetzung eines Gerichtsdolmetschers eingereicht."
+    },
+    "only": {
+     "sr": "ako su dokumenta na stranom jeziku",
+     "en": "if documents are in a foreign language",
+     "ru": "если документы на иностранном языке",
+     "de": "wenn die Dokumente fremdsprachig sind"
+    }
+   }
+  ],
+  "terms": [
+   "tender",
+   "javna nabavka",
+   "dokumentacija za tender",
+   "uverenje o porezima",
+   "izvod iz apr",
+   "nabavka",
+   "tender documents",
+   "public procurement",
+   "bid",
+   "tax certificate",
+   "company extract",
+   "тендер",
+   "госзакупки",
+   "налоговая справка",
+   "выписка апр",
+   "ausschreibung",
+   "vergabe",
+   "steuerbescheinigung"
+  ]
+ },
+ {
+  "slug": "idem-na-sud",
+  "group": "pravo",
+  "emblem": "court",
+  "title": {
+   "sr": "Idem na sud kao građanin",
+   "en": "I am going to court as a private person",
+   "ru": "Я иду в суд как частное лицо",
+   "de": "Ich gehe als Privatperson vor Gericht"
+  },
+  "lead": {
+   "sr": "Od saveta i pokušaja nagodbe do tužbe, dokaza i izvršenja presude.",
+   "en": "From advice and attempts to settle to the claim, evidence and enforcement of the judgment.",
+   "ru": "От консультации и попытки мирового соглашения до иска, доказательств и исполнения решения.",
+   "de": "Von Beratung und Einigungsversuch bis zu Klage, Beweisen und Vollstreckung des Urteils."
+  },
+  "steps": [
+   {
+    "type": "opstinska-uprava",
+    "title": {
+     "sr": "Besplatna pravna pomoć u opštini",
+     "en": "Free legal aid at the municipality",
+     "ru": "Бесплатная юридическая помощь в общине",
+     "de": "Kostenlose Rechtshilfe in der Gemeinde"
+    },
+    "why": {
+     "sr": "Opština može pružiti besplatnu pravnu pomoć onima koji ne mogu da plate advokata.",
+     "en": "The municipality can provide free legal aid to those who cannot pay a lawyer.",
+     "ru": "Община может оказать бесплатную юридическую помощь тем, кто не может оплатить адвоката.",
+     "de": "Die Gemeinde kann denen kostenlose Rechtshilfe leisten, die sich keinen Anwalt leisten können."
+    },
+    "only": {
+     "sr": "ako ne možete da platite advokata",
+     "en": "if you cannot afford a lawyer",
+     "ru": "если не можете оплатить адвоката",
+     "de": "wenn Sie sich keinen Anwalt leisten können"
+    }
+   },
+   {
+    "type": "advokat",
+    "why": {
+     "sr": "Advokat procenjuje izglede i priprema podnesak; nijednu tužbu ne treba pisati bez saveta.",
+     "en": "A lawyer assesses the chances and prepares the filing, so seek advice before writing any claim.",
+     "ru": "Адвокат оценивает шансы и готовит документы; прежде чем писать иск, нужна консультация.",
+     "de": "Ein Anwalt schätzt die Chancen ein und bereitet den Schriftsatz vor; holen Sie Rat, bevor Sie eine Klage schreiben."
+    }
+   },
+   {
+    "type": "medijator",
+    "why": {
+     "sr": "Medijacija je brži i jeftiniji pokušaj dogovora pre parnice, a ponekad je i obavezna.",
+     "en": "Mediation is a quicker, cheaper attempt to agree before a lawsuit, and sometimes it is required.",
+     "ru": "Медиация: более быстрая и дешёвая попытка договориться до процесса, а иногда и обязательна.",
+     "de": "Eine Mediation ist ein schnellerer, günstigerer Einigungsversuch vor dem Prozess und manchmal vorgeschrieben."
+    }
+   },
+   {
+    "type": "osnovni-sud",
+    "why": {
+     "sr": "Tužba se podnosi osnovnom sudu, osim ako za vrstu spora nije nadležan drugi sud.",
+     "en": "The claim is filed with the basic court, unless another court is competent for that type of dispute.",
+     "ru": "Иск подаётся в основной суд, если для данного вида спора не компетентен другой суд.",
+     "de": "Die Klage wird beim Grundgericht eingereicht, sofern für die Streitart nicht ein anderes Gericht zuständig ist."
+    }
+   },
+   {
+    "type": "sudski-vestak",
+    "why": {
+     "sr": "Sudski veštak daje stručno mišljenje kada činjenice zahtevaju posebno znanje.",
+     "en": "A court expert gives a professional opinion when facts call for special knowledge.",
+     "ru": "Судебный эксперт даёт профессиональное заключение, когда факты требуют специальных знаний.",
+     "de": "Ein Gerichtssachverständiger gibt ein Fachgutachten ab, wenn Tatsachen Spezialwissen verlangen."
+    },
+    "only": {
+     "sr": "ako su potrebni dokazi",
+     "en": "if evidence is needed",
+     "ru": "если нужны доказательства",
+     "de": "wenn Beweise nötig sind"
+    }
+   },
+   {
+    "type": "sudski-prevodilac",
+    "why": {
+     "sr": "Sudski tumač prevodi strana dokumenta i prisustvuje ročištu ako strana ne govori srpski.",
+     "en": "A court interpreter translates foreign documents and attends the hearing if a party does not speak Serbian.",
+     "ru": "Судебный переводчик переводит иностранные документы и присутствует на заседании, если сторона не говорит по-сербски.",
+     "de": "Ein Gerichtsdolmetscher übersetzt fremde Dokumente und nimmt an der Verhandlung teil, wenn eine Partei kein Serbisch spricht."
+    },
+    "only": {
+     "sr": "ako ne govorite srpski",
+     "en": "if you do not speak Serbian",
+     "ru": "если не говорите по-сербски",
+     "de": "wenn Sie kein Serbisch sprechen"
+    }
+   },
+   {
+    "type": "javni-izvrsitelj",
+    "why": {
+     "sr": "Kad presuda postane pravosnažna, njeno izvršenje vodi javni izvršitelj.",
+     "en": "Once the judgment is final, its enforcement is carried out by an enforcement officer.",
+     "ru": "Когда решение вступает в силу, его исполнение ведёт публичный исполнитель.",
+     "de": "Sobald das Urteil rechtskräftig ist, führt ein Vollstreckungsbeamter die Vollstreckung durch."
+    },
+    "only": {
+     "sr": "ako dobijete presudu",
+     "en": "if you win the case",
+     "ru": "если вы выиграли дело",
+     "de": "wenn Sie ein Urteil erhalten"
+    }
+   }
+  ],
+  "terms": [
+   "tužba",
+   "sud",
+   "parnica",
+   "spor",
+   "advokat",
+   "lawsuit",
+   "sue",
+   "litigation",
+   "legal dispute",
+   "lawyer",
+   "суд",
+   "иск",
+   "судебный процесс",
+   "адвокат",
+   "klage",
+   "gericht",
+   "prozess",
+   "rechtsstreit"
+  ]
+ },
+ {
+  "slug": "nasledjivanje",
+  "group": "pravo",
+  "emblem": "scale",
+  "title": {
+   "sr": "Nasleđujem imovinu",
+   "en": "I am inheriting property",
+   "ru": "Я получаю наследство",
+   "de": "Ich erbe Vermögen"
+  },
+  "lead": {
+   "sr": "Od izvoda umrlih i ostavinske rasprave kod beležnika do upisa nekretnine i vozila na naslednika.",
+   "en": "From the death extract and the probate hearing at the notary to registering property and vehicle in the heir's name.",
+   "ru": "От выписки о смерти и наследственного дела у нотариуса до записи недвижимости и автомобиля на наследника.",
+   "de": "Vom Sterbeauszug und der Nachlassverhandlung beim Notar bis zur Eintragung von Immobilie und Fahrzeug auf den Erben."
+  },
+  "steps": [
+   {
+    "guide": "izvod-iz-maticne-knjige",
+    "why": {
+     "sr": "Izvod iz knjige umrlih je osnov za pokretanje ostavinskog postupka.",
+     "en": "The death extract is the basis for starting the probate procedure.",
+     "ru": "Выписка о смерти: основание для начала наследственного дела.",
+     "de": "Der Sterbeauszug ist die Grundlage für die Einleitung des Nachlassverfahrens."
+    }
+   },
+   {
+    "guide": "overa-kod-javnog-beleznika",
+    "why": {
+     "sr": "Ostavinski postupak vodi javni beležnik, koji utvrđuje imovinu i naslednike.",
+     "en": "The probate procedure is led by a notary, who establishes the estate and the heirs.",
+     "ru": "Наследственное дело ведёт нотариус, который определяет имущество и наследников.",
+     "de": "Das Nachlassverfahren leitet der Notar, der Nachlass und Erben feststellt."
+    }
+   },
+   {
+    "type": "procenitelj-nepokretnosti",
+    "why": {
+     "sr": "Procena vrednosti nepokretnosti se traži kada je potrebna za postupak ili porez.",
+     "en": "A valuation of the property is requested when needed for the procedure or tax.",
+     "ru": "Оценка стоимости недвижимости запрашивается, когда она нужна для процедуры или налога.",
+     "de": "Eine Wertschätzung der Immobilie wird verlangt, wenn sie für Verfahren oder Steuer nötig ist."
+    },
+    "only": {
+     "sr": "ako je vrednost potrebna",
+     "en": "if a valuation is needed",
+     "ru": "если нужна оценка",
+     "de": "wenn eine Bewertung nötig ist"
+    }
+   },
+   {
+    "type": "advokat",
+    "why": {
+     "sr": "Advokat savetuje kada se naslednici ne slažu ili je oporuka sporna.",
+     "en": "A lawyer advises when heirs disagree or a will is disputed.",
+     "ru": "Адвокат консультирует, когда наследники не согласны или завещание оспаривается.",
+     "de": "Ein Anwalt berät, wenn Erben uneins sind oder ein Testament strittig ist."
+    },
+    "only": {
+     "sr": "ako ima spora među naslednicima",
+     "en": "if the heirs dispute",
+     "ru": "если есть спор между наследниками",
+     "de": "wenn die Erben streiten"
+    }
+   },
+   {
+    "type": "osnovni-sud",
+    "why": {
+     "sr": "Spor među naslednicima rešava osnovni sud, a ne beležnik.",
+     "en": "A dispute between heirs is decided by the basic court, not by the notary.",
+     "ru": "Спор между наследниками решает основной суд, а не нотариус.",
+     "de": "Einen Streit zwischen Erben entscheidet das Grundgericht, nicht der Notar."
+    },
+    "only": {
+     "sr": "ako ima spora među naslednicima",
+     "en": "if the heirs dispute",
+     "ru": "если есть спор между наследниками",
+     "de": "wenn die Erben streiten"
+    }
+   },
+   {
+    "type": "lokalna-poreska-administracija",
+    "why": {
+     "sr": "Porez na nasleđe, ako postoji, prijavljuje se lokalnoj poreskoj administraciji; obaveza se proverava.",
+     "en": "Inheritance tax, if any, is declared to the local tax administration; the obligation is checked.",
+     "ru": "Налог на наследство, если он есть, декларируется в местную налоговую администрацию; обязанность проверяется.",
+     "de": "Erbschaftsteuer wird, falls sie anfällt, bei der lokalen Steuerverwaltung angemeldet; die Pflicht wird geprüft."
+    }
+   },
+   {
+    "type": "rgz-katastar",
+    "why": {
+     "sr": "Po pravosnažnom rešenju o nasleđivanju, nekretnina se upisuje u katastar na naslednika.",
+     "en": "After the final inheritance decision, the property is entered in the cadastre in the heir's name.",
+     "ru": "После вступления в силу решения о наследстве недвижимость записывается в кадастр на наследника.",
+     "de": "Nach dem rechtskräftigen Erbbeschluss wird die Immobilie im Kataster auf den Erben eingetragen."
+    }
+   },
+   {
+    "guide": "registracija-vozila",
+    "why": {
+     "sr": "Vozilo iz zaostavštine se posle ostavinske odluke prepisuje na naslednika.",
+     "en": "A vehicle from the estate is transferred to the heir.",
+     "ru": "Автомобиль из наследства после решения по наследству переоформляется на наследника.",
+     "de": "Ein Fahrzeug aus dem Nachlass wird auf den Erben umgeschrieben."
+    },
+    "only": {
+     "sr": "ako ima vozilo",
+     "en": "if there is a vehicle",
+     "ru": "если есть автомобиль",
+     "de": "wenn ein Fahrzeug vorhanden ist"
+    }
+   }
+  ],
+  "terms": [
+   "nasleđe",
+   "ostavina",
+   "ostavinski postupak",
+   "oporuka",
+   "naslednik",
+   "nasledstvo",
+   "probate",
+   "will",
+   "heir",
+   "estate",
+   "inherit",
+   "наследство",
+   "завещание",
+   "наследник",
+   "наследственное дело",
+   "erbe",
+   "erbschaft",
+   "testament"
+  ]
+ }
+]

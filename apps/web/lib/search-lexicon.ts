@@ -5,6 +5,7 @@
  * stemming, as-you-type prefixes and typo tolerance. Pure JS, no database: a query costs well under a millisecond.
  */
 import raw from "./search-lexicon.json";
+import moreRoads from "./roadmaps-more.json";                 // the life-situation roadmaps carry their own search terms
 import extra from "./search-lexicon-extra.json";   // hand-kept additions: add a missing word here, the generated file stays as it is
 
 export type LexKind = "guide" | "type" | "road" | "path";
@@ -28,6 +29,7 @@ export const tokenize = (q: string): string[] => fold(cyrToLat(q)).split(" ").fi
 export function stem(t: string): string {
   if (t.length === 4) return /[aeiou]$/.test(t) ? t.slice(0, 3) : t;      // beba, bebe, bebu → beb; voda, vode → vod
   if (t.length < 5) return t;
+  if (t.length >= 6 && t.endsWith("ing")) return t.slice(0, -3);            // buying → buy, moving → mov(e)
   for (const suf of ["ovima", "evima", "ima", "ama", "ome", "oga", "ega", "ije", "iju", "ing", "ung", "en", "er", "es", "ih", "im", "om", "em", "ov", "ev", "oj", "u", "a", "e", "i", "o", "y", "s"]) if (t.endsWith(suf) && t.length - suf.length >= 4) return t.slice(0, -suf.length);
   return t;
 }
@@ -54,7 +56,7 @@ export function editDistance(a: string, b: string, max: number): number {
 
 type Word = { w: string; st: string };
 type Term = { e: number; words: Word[]; strong: boolean; boost: number };
-const ENTRIES = [...(raw as Entry[]), ...(extra as Entry[])];
+const ENTRIES = [...(raw as Entry[]), ...(extra as Entry[]), ...(moreRoads as { slug: string; terms?: string[] }[]).filter((r) => r.terms?.length).map((r): Entry => ({ k: "road", s: r.slug, t: r.terms!.filter((x) => x.trim().includes(" ")), w: r.terms!.filter((x) => !x.trim().includes(" ")) }))];
 const TERMS: Term[] = [];
 /** every folded word of every strong term: a token found here is vocabulary, not a place name guess */
 const VOCAB = new Set<string>();

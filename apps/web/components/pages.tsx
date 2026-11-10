@@ -11,7 +11,7 @@ import SerbiaMap, { type MapLabels } from "./SerbiaMap";
 import MapStage from "./MapStage";
 import BranchFilters from "./BranchFilters";
 import { ROAD_LABELS, ROADMAPS } from "@/lib/roadmaps";
-import { RoadTiles } from "./roadmap";
+import { RoadTiles, RoadGroupTiles } from "./roadmap";
 import { siteLd, siteUrl } from "@/lib/seo";
 import TypeFilterBar from "./TypeFilterBar";
 import { placesCount } from "@/lib/grammar";
@@ -204,7 +204,7 @@ export async function Home({ locale }: { locale: Locale }) {
                 <div><h2 className="display-sm">{ROAD_LABELS[locale].title}</h2><p className="text-muted mt-2 text-[14.5px] max-w-[60ch]">{ROAD_LABELS[locale].lead}</p></div>
                 <Link href={href(locale, "/putokaz")} className="quick-chip">{ROAD_LABELS[locale].nav} →</Link>
               </div>
-              <RoadTiles locale={locale} />
+              <RoadGroupTiles locale={locale} />
             </div>,
             <div key="vrste" className="band tex-mesh dossier">
               <div className="section-head">
@@ -807,7 +807,8 @@ export async function ForForeigners({ locale }: { locale: Locale }) {
       <section className="mb-10">
         <SectionTitle>{ROAD_LABELS[locale].title}</SectionTitle>
         <p className="text-muted text-[14.5px] max-w-[62ch] mb-4">{ROAD_LABELS[locale].lead}</p>
-        <RoadTiles locale={locale} />
+        <RoadTiles locale={locale} group="dolazak" />
+        <p className="mt-4 text-[14px]"><Link href={href(locale, "/putokaz")} className="font-medium">{ROAD_LABELS[locale].byTopic} →</Link></p>
       </section>
       <SectionTitle>{pick(locale, "Institucije sa kojima ćete imati posla", "Offices you will deal with", "Учреждения, в которые вы будете обращаться", "Stellen, mit denen Sie zu tun haben")}</SectionTitle>
       <ul className="grid md:grid-cols-2 gap-4">

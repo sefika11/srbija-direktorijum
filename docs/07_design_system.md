@@ -506,3 +506,21 @@ The site went from 15,000 to 28,000 entries in a day and pages that listed "ever
   tuned on; `cases_unseen_1.py` (122) and `cases_unseen_2.py` (52) were written afterwards. Before the rewrite the
   first set passed 130 of 224. A miss is fixed in the engine when it is a pattern, in the extra lexicon when it is a
   missing word. The `search_log` table records what people ran on the results page, with the result count.
+
+## 31. Roadmaps by topic, calmer boards, search feedback (2026-11-11)
+
+- **Roadmaps cover life, not only arrival.** 41 roadmaps in 11 topics (`ROAD_GROUPS` in `lib/roadmaps.ts`): the five
+  newcomer ones are written in code, the life-situation ones live in `lib/roadmaps-more.json` (same shape plus `group`
+  and search `terms`). The hub is grouped by topic with jump chips; the home card and the foreigners page show topic
+  tiles or one topic, never all tiles. A step may carry an `only` tag ("ako ste nezaposleni"), which is how one road
+  covers variants. Rules stay as in §27: a step points at a guide, a type or a page; no fees, deadlines or promises in
+  the one-line reason. Health cards are "issued", never "stamped" (overa no longer exists).
+- **Journey boards** sit further back (`WIDE`, `near` in `lib/journey-stage.ts`) so the next station is in view, and the
+  camera follows the scroll at a capped speed (`FOLLOW`, `MAX_SPEED`), frame-rate independent.
+- **Content that arrives on the same path is shown at once** (`Motion.tsx` watches for new `[data-reveal]` nodes):
+  a new `?opstina=`, a filter or a page must never wait for a reveal that already ran.
+- **Search order on equal evidence:** guide, then roadmap, then institution type. A roadmap is named by a phrase; a
+  single word only hints at it. Guides and types are matched in memory (`getCatalog()`), so a keystroke costs one
+  database round. A query that rests in the box without a best match is logged (`/api/suggest?miss=1`);
+  `tools/search/misses.py` lists them so the word can be added to `search-lexicon-extra.json`.
+- **Database use is a cost.** Run the search case files and page sweeps only when a change needs them, not as a habit.

@@ -113,41 +113,54 @@ async function needs(tokens: string[]): Promise<Needs> {
   return out;
 }
 
+/** pg_trgm's similarity(), in code: shared three-letter pieces of the words over all pieces of both. */
+function trigrams(text: string): Set<string> { const out = new Set<string>(); for (const w of text.split(" ")) { if (!w) continue; const p = `  ${w} `; for (let i = 0; i + 3 <= p.length; i++) out.add(p.slice(i, i + 3)); } return out; }
+function similarity(a: string, b: string): number { const A = trigrams(a), B = trigrams(b); if (!A.size || !B.size) return 0; let n = 0; for (const t of A) if (B.has(t)) n++; return n / (A.size + B.size - n); }
+
+/** Guides and institution types are a few dozen rows that change rarely: read once, kept ten minutes, matched in memory.
+ *  That leaves one database round per keystroke (institutions, branches, counts) instead of two. */
+type GuideIdx = { row: db.GuideRow; name: string; titles: string; words: Set<string> };
+type TypeIdx = { row: db.OrgType & { org_count: number }; names: string[]; lat: string[] };
+let catalog: { at: number; guides: GuideIdx[]; types: TypeIdx[] } | null = null;
+async function getCatalog() {
+  if (catalog && Date.now() - catalog.at < 10 * 60_000) return catalog;
+  const [guides, types] = await Promise.all([db.getGuides(), db.getOrgTypes()]);
+  catalog = { at: Date.now(),
+    guides: guides.map((row) => { const sr = (row.guide.sr ?? {}) as { title?: string; summary?: string }, en = (row.guide.en ?? {}) as { title?: string };
+      const all = Object.values(row.guide ?? {}).map((c) => { const x = (c ?? {}) as { title?: string; summary?: string }; return `${x.title ?? ""} ${x.summary ?? ""}`; }).join(" ");
+      const ws = fold(cyrToLat(`${row.name_lat} ${row.summary ?? ""} ${row.category_name} ${all}`)).split(" ");
+      return { row, name: fold(row.name_lat), titles: fold(`${sr.title ?? ""} ${en.title ?? ""}`), words: new Set([...ws, ...ws.map(stem)]) }; }),
+    types: types.map((row) => ({ row, names: [row.name_lat, row.name_plural_lat ?? "", row.name_en ?? "", row.name_de ?? ""].map(fold).filter(Boolean), lat: [row.name_lat, row.name_plural_lat ?? ""].map(fold).filter(Boolean) })) };
+  return catalog;
+}
+
 async function matchGuides(intent: string, tokens: string[], need: Needs, limit: number): Promise<GuideHit[]> {
   if (!intent && !need.guide.size) return [];
-  const rows = await sql<(db.GuideRow & { score: number })[]>`
-    select s.id, s.slug, c.slug as category_slug, c.name_lat as category_name, c.icon as category_icon, s.name_lat, s.summary, s.guide, s.fees, s.typical_duration,
-           s.legal_basis, s.euprava_url, s.online_available, s.sources, s.checked_at::text, s.status, s.lead_vertical_id, s.sort_order,
-           coalesce((select array_agg(t.slug order by ots.is_primary desc, t.slug) from org_type_services ots join org_types t on t.id = ots.org_type_id where ots.service_id = s.id), '{}') as org_type_slugs,
-           (case when ${intent} <> '' and s.search @@ plainto_tsquery('simple', f_unaccent(${intent})) then 1.0 else 0 end
-            + case when ${intent} <> '' then similarity(f_unaccent(lower(s.name_lat)), f_unaccent(${intent})) else 0 end
-            + case when ${intent} <> '' and f_unaccent(lower(s.guide->'sr'->>'title' || ' ' || coalesce(s.guide->'en'->>'title',''))) like '%' || f_unaccent(${intent}) || '%' then 0.8 else 0 end)::float as score
-    from services s join service_categories c on c.id = s.category_id
-    where s.is_active and s.status <> 'draft'
-    order by s.sort_order`;
-  // the text score alone is a weak signal (0.3 to 1.8); a need the lexicon recognises decides
-  return rows.map((r) => ({ ...r, score: r.score * 0.8 + (need.guide.get(r.slug) ?? 0) })).filter((r) => r.score >= 0.55).sort((x, y) => y.score - x.score).filter((r, _i, all) => r.score >= all[0].score * 0.42).slice(0, limit);
+  const words = intent ? intent.split(" ") : [];
+  const scored = (await getCatalog()).guides.map((g) => {
+    // the text score alone is a weak signal (0.3 to 1.8); a need the lexicon recognises decides
+    const text = intent ? (words.every((w) => g.words.has(w) || g.words.has(stem(w))) ? 1 : 0) + similarity(g.name, intent) + (g.titles.includes(intent) ? 0.8 : 0) : 0;
+    return { ...g.row, score: text * 0.8 + (need.guide.get(g.row.slug) ?? 0) };
+  });
+  return scored.filter((r) => r.score >= 0.55).sort((x, y) => y.score - x.score).filter((r, _i, all) => r.score >= all[0].score * 0.42).slice(0, limit);
 }
 
 async function matchTypes(intent: string, tokens: string[], need: Needs, limit: number): Promise<TypeHit[]> {
   if (!intent && !need.type.size) return [];
   const toks = [...new Set([...tokens.filter((t) => t.length >= 4), ...tokens.map(stem).filter((t) => t.length >= 4)])];
-  const rows = await sql<TypeHit[]>`
-    select t.id, t.slug, t."group", t.name_lat, t.name_cyr, t.name_plural_lat, t.name_en, t.name_ru, t.name_de, t.description_md, t.faq_md, t.icon, t.sort_order, t.one_per_jls, t.national_network,
-           (select count(*) from organizations o where o.org_type_id = t.id and o.status = 'active')::int as org_count,
-           (case when ${intent} <> '' then greatest(similarity(f_unaccent(lower(t.name_lat)), f_unaccent(${intent})), similarity(f_unaccent(lower(coalesce(t.name_plural_lat, ''))), f_unaccent(${intent})),
-                                                    similarity(f_unaccent(lower(coalesce(t.name_en, ''))), f_unaccent(${intent})), similarity(f_unaccent(lower(coalesce(t.name_de, ''))), f_unaccent(${intent}))) else 0 end
-            + case when ${toks.length > 0} and exists (select 1 from unnest(${toks}::text[]) k where f_unaccent(lower(t.name_lat)) like '%' || k || '%' or f_unaccent(lower(coalesce(t.name_plural_lat,''))) like '%' || k || '%') then 0.6 else 0 end)::float as score
-    from org_types t where t.is_active
-    order by t.sort_order`;
-  return rows.map((r) => ({ ...r, score: r.score * 0.9 + (need.type.get(r.slug) ?? 0) })).filter((r) => r.score >= 0.5 && r.org_count > 0).sort((x, y) => y.score - x.score).filter((r, _i, all) => r.score >= all[0].score * 0.42).slice(0, limit);
+  const scored = (await getCatalog()).types.map((t) => {
+    const text = (intent ? Math.max(0, ...t.names.map((n) => similarity(n, intent))) : 0) + (toks.some((k) => t.lat.some((n) => n.includes(k))) ? 0.6 : 0);
+    return { ...t.row, score: text * 0.9 + (need.type.get(t.row.slug) ?? 0) };
+  });
+  return scored.filter((r) => r.score >= 0.5 && r.org_count > 0).sort((x, y) => y.score - x.score).filter((r, _i, all) => r.score >= all[0].score * 0.42).slice(0, limit);
 }
 
-async function matchOrgs(q: string, placePath: string | null, limit: number, locale: Locale = "sr"): Promise<db.SearchHit[]> {
+async function matchOrgs(q: string, placePath: string | null, limit: number, locale: Locale = "sr"): Promise<(db.SearchHit & { phone: string | null })[]> {
   if (q.length < 2) return [];
-  const rows = await sql<(db.SearchHit & { sub_place: string | null; t_sr: string; t_en: string | null; t_ru: string | null; t_de: string | null })[]>`
+  const rows = await sql<(db.SearchHit & { phone: string | null; sub_place: string | null; t_sr: string; t_en: string | null; t_ru: string | null; t_de: string | null })[]>`
     with qq as (select f_unaccent(lower(${q})) as q)
     select 'org'::text as kind, o.slug, o.name_lat, coalesce(f.name_lat, p.name_lat) as sub_place, t.name_lat as t_sr, t.name_en as t_en, t.name_ru as t_ru, t.name_de as t_de, null::text as sub, t.slug as type_slug,
+           (select lc.value_display from locations l2 join location_contacts lc on lc.location_id = l2.id where l2.org_id = o.id and lc.kind = 'phone' order by l2.is_primary desc, lc.id limit 1) as phone,
            (similarity(f_unaccent(lower(o.name_lat)), qq.q) + case when o.search @@ plainto_tsquery('simple', qq.q) then 0.5 else 0 end)::float as rank
     from organizations o join org_types t on t.id = o.org_type_id left join territorial_units f on f.id = o.founder_unit_id
     left join locations l on l.org_id = o.id and l.is_primary left join territorial_units p on p.id = l.territorial_unit_id, qq
@@ -189,7 +202,7 @@ export async function smartSearch(q: string, locale: Locale): Promise<SmartResul
   ]);
   let best: Best | null = null;
   const jlsId = det ? await jlsIdFor(det.place) : null;
-  const gTop = guides[0] ? guides[0].score + (syn.guide.has(guides[0].slug) ? 0.45 : 0) : 0, tTop = types[0]?.score ?? 0;
+  const gTop = guides[0] ? guides[0].score + ((syn.guide.get(guides[0].slug) ?? 0) >= 1.8 ? 0.65 : 0) : 0, tTop = types[0]?.score ?? 0;
   if (guides[0] && gTop >= 1.0 && gTop >= tTop) {
     const typeSlug = guides[0].org_type_slugs[0];
     const serving = jlsId && typeSlug ? await db.getServing(jlsId, typeSlug) : [];
@@ -279,14 +292,6 @@ async function matchBrandBranches(q: string, placePath: string | null, limit: nu
       and (f_unaccent(lower(o.name_lat)) % qq.q or o.search @@ plainto_tsquery('simple', qq.q))
     order by similarity(f_unaccent(lower(o.name_lat)), qq.q) desc, (l.address_display is not null) desc, (select count(*) from location_contacts c where c.location_id = l.id) desc limit ${limit}`;
 }
-async function orgPhones(slugs: string[]): Promise<Record<string, string>> {
-  if (!slugs.length) return {};
-  const rows = await sql<{ slug: string; phone: string }[]>`select o.slug, c.value_display as phone from organizations o
-    join lateral (select lc.value_display from locations l join location_contacts lc on lc.location_id = l.id where l.org_id = o.id and lc.kind = 'phone' order by l.is_primary desc, lc.id limit 1) c on true
-    where o.slug = any(${slugs}::text[])`;
-  return Object.fromEntries(rows.map((r) => [r.slug, r.phone]));
-}
-
 /** How many institutions (or branches) of each type sit inside a place: decides whether "apoteka Niš" can open the list for Niš. */
 async function typeCountsIn(typeSlugs: string[], placePath: string | null): Promise<Record<string, number>> {
   if (!typeSlugs.length || !placePath) return {};
@@ -313,17 +318,16 @@ export async function suggest(q: string, locale: Locale, scopeSlug?: string | nu
   if (det && !scopeSlug && intentTokens.length && intentTokens.every((t) => PLACE_WORDS.has(t))) intentTokens = [];
   const intent = intentTokens.join(" ");
   const need = await needs(intentTokens);
-  const [guides, types, places, orgs, countries, icons] = await Promise.all([
-    matchGuides(intent, intentTokens, need, 4), matchTypes(intent, intentTokens, need, 5),
-    det && !scopeSlug ? Promise.resolve([det.place]) : scopeSlug ? Promise.resolve([]) : placesLike(tokens, 3), intent ? matchOrgs(intent, det?.place.path ?? null, scopeSlug ? 10 : 6, locale) : Promise.resolve([]),
-    scopeSlug ? Promise.resolve([]) : matchCountries(intentTokens, locale, 3).catch(() => []), typeIcons(),
-  ]);
+  // guides and types are matched in memory first, so everything that needs the database goes out in ONE round
+  const [guides, types] = await Promise.all([matchGuides(intent, intentTokens, need, 4), matchTypes(intent, intentTokens, need, 5)]);
   const branchTypes = types.slice(0, 4).map((t) => t.slug);
   const placePath = det?.place.path ?? null;
   // many city institutions are filed under the city, not its municipality: "banka Zemun" then falls back to Belgrade
   const isGO = det?.place.level === "gradska_opstina"; const cityPath = isGO ? det!.place.path.split(".").slice(0, -1).join(".") : null;
-  const [phones, typeBranches, brandBranches, inPlace, inCity] = await Promise.all([
-    orgPhones(orgs.map((o) => o.slug)).catch(() => ({} as Record<string, string>)),
+  const [places, orgs, countries, icons, typeBranches, brandBranches, inPlace, inCity] = await Promise.all([
+    det && !scopeSlug ? Promise.resolve([det.place]) : scopeSlug ? Promise.resolve([] as Place[]) : placesLike(tokens, 3),
+    intent ? matchOrgs(intent, placePath, scopeSlug ? 10 : 6, locale).catch(() => []) : Promise.resolve([]),
+    scopeSlug ? Promise.resolve([]) : matchCountries(intentTokens, locale, 3).catch(() => []), typeIcons(),
     matchBranches(branchTypes, placePath, scopeSlug ? 10 : 6).catch(() => [] as BranchHit[]),
     intent && det ? matchBrandBranches(intent, det.place.path, 6).catch(() => [] as BranchHit[]) : Promise.resolve([] as BranchHit[]),
     typeCountsIn(branchTypes, placePath).catch(() => ({} as Record<string, number>)),
@@ -344,14 +348,16 @@ export async function suggest(q: string, locale: Locale, scopeSlug?: string | nu
   }
   for (const h of scopeSlug ? [] : need.road) {
     const r = ROADMAPS.find((x) => x.slug === h.slug); if (!r || h.score < 0.5) continue;
-    out.push({ rank: 2.3 * h.score, kind: "road", href: href(locale, `/putokaz/${r.slug}`), title: r.title[locale], sub: `${r.steps.length} ${ROAD_LABELS[locale].steps}`, icon: r.emblem });
+    out.push({ rank: 2.3 * h.score + (h.used.size >= 2 ? 0.6 : 0), kind: "road", href: href(locale, `/putokaz/${r.slug}`), title: r.title[locale], sub: `${r.steps.length} ${ROAD_LABELS[locale].steps}`, icon: r.emblem });
   }
 
   const cityParam = det && det.place.level !== "okrug" ? (det.place.level === "gradska_opstina" ? det.place.parent_slug : det.place.slug) : null;
   const placeParam = det && det.place.level !== "okrug" ? (det.place.level === "gradska_opstina" ? `${det.place.parent_slug}/${det.place.slug}` : det.place.slug) : null;
-  for (const g of guides) { const c = g.guide[locale] ?? g.guide.en ?? g.guide.sr ?? {}; out.push({ rank: g.score + (need.guide.has(g.slug) ? 0.45 : 0), kind: "guide", href: href(locale, `/vodic/${g.slug}${cityParam ? `?opstina=${cityParam}` : ""}`), title: c.title ?? g.name_lat, sub: det ? det.place.name_lat : catName(g, locale), icon: "file-text" }); }
+  for (const g of guides) { const c = g.guide[locale] ?? g.guide.en ?? g.guide.sr ?? {}; out.push({ rank: g.score + ((need.guide.get(g.slug) ?? 0) >= 1.8 ? 0.65 : 0), kind: "guide", href: href(locale, `/vodic/${g.slug}${cityParam ? `?opstina=${cityParam}` : ""}`), title: c.title ?? g.name_lat, sub: det ? det.place.name_lat : catName(g, locale), icon: "file-text" }); }
 
-  for (const t of types) {
+  const exactType = need.lex.find((h) => h.kind === "type" && h.score >= 0.9 && h.used.size >= intentTokens.length)?.slug;
+  for (const t0 of types) {
+    const t = t0.slug === exactType ? { ...t0, score: t0.score + 0.5 } : t0;
     const here = inPlace[t.slug] ?? 0;
     // with a place: open the list of that type in that place ("apoteka Niš" → pharmacies in Niš)
     if (placeParam && here > 0) out.push({ rank: t.score + 0.5, kind: "type", href: `${href(locale, `/${t.slug}`)}?mesto=${placeParam}#lista`, title: tn(t, locale), sub: det!.place.name_lat, icon: t.icon, count: here });
@@ -376,7 +382,7 @@ export async function suggest(q: string, locale: Locale, scopeSlug?: string | nu
     const h = `/${o.type_slug}/${o.slug}`; if (seen.has(h)) continue; seen.add(h);
     // a name that (nearly) is the query is an answer; a name that merely shares a word is a guess
     const rank = (o.rank >= 1.3 ? 3.4 : Math.min(2.0, o.rank * 1.8)) + (scopeSlug ? 0.5 : 0);
-    out.push({ rank, kind: "org", href: href(locale, h), title: o.name_lat, sub: o.sub, icon: o.type_slug ? icons[o.type_slug] ?? null : null, phone: phones[o.slug] ?? null });
+    out.push({ rank, kind: "org", href: href(locale, h), title: o.name_lat, sub: o.sub, icon: o.type_slug ? icons[o.type_slug] ?? null : null, phone: o.phone });
   }
   const visaAsked = tokens.some((t) => VISA_RE.test(t));
   for (const c of countries) out.push({ rank: c.sure ? 2.4 + (visaAsked ? 1.4 : 0) : 1.0, kind: "country", href: href(locale, `/vize/${c.slug}`), title: c.name, sub: [c.to ? `→ RS: ${regimeWord(c.to, locale)}` : null, c.from ? `RS →: ${regimeWord(c.from, locale)}` : null].filter(Boolean).join(" · ") || null, iso2: c.iso2 });
