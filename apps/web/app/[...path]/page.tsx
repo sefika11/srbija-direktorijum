@@ -96,7 +96,7 @@ export default async function Page({ params, searchParams }: Props) {
       body = <GuidePage locale={locale} guide={r.guide} jlsSlug={fromQuery ?? fromCookie} path={href(locale, plain)} />; break; }
     case "okrug": body = <OkrugHub locale={locale} okrug={r.unit} />; break;
     case "unit": body = <UnitHub locale={locale} unit={r.unit} parent={r.parent} />; break;
-    case "type": body = <OrgTypeHub locale={locale} type={r.type} />; break;
+    case "type": body = <OrgTypeHub locale={locale} type={r.type} brand={typeof sp.brend === "string" ? sp.brend : null} place={typeof sp.mesto === "string" ? sp.mesto : null} />; break;
     case "org": body = <OrgPage locale={locale} org={r.org} locSlug={r.locSlug} path={href(locale, plain)} />; break;
   }
   return (<><Header locale={locale as Locale} path={plain} /><div lang={locale === "sr" ? "sr-Latn" : locale}>{body}</div><Footer locale={locale as Locale} /></>);

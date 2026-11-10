@@ -7,6 +7,7 @@ import { Breadcrumbs, Chip, VerificationChip, SectionTitle, AdSlot, SponsorCard 
 import SearchBox from "./SearchBox";
 import SerbiaMap, { type MapLabels } from "./SerbiaMap";
 import MapStage from "./MapStage";
+import BranchFilters from "./BranchFilters";
 import { OKRUG_SHAPES } from "@/lib/serbia-map";
 import { JLS_SHAPES, GO_SHAPES } from "@/lib/serbia-map-jls";
 import type { Feature3D } from "./SerbiaMap3D";
@@ -381,7 +382,7 @@ export async function UnitHub({ locale, unit, parent }: { locale: Locale; unit: 
 }
 
 // ---------------------------------------------------------------- Org type hub
-export async function OrgTypeHub({ locale, type }: { locale: Locale; type: db.OrgType }) {
+export async function OrgTypeHub({ locale, type, brand = null, place = null }: { locale: Locale; type: db.OrgType; brand?: string | null; place?: string | null }) {
   const d = t(locale);
   const orgs = await db.getOrgsOfType(type.slug, 5000);
   // National networks (RFZO, PIO, Poreska uprava...) are one organization with many branches: list the branches by okrug.
@@ -391,8 +392,12 @@ export async function OrgTypeHub({ locale, type }: { locale: Locale; type: db.Or
   const groups = new Map<string, db.OrgRow[]>();
   for (const o of orgs) { const k = o.founder_name ?? o.place_name ?? "—"; groups.set(k, [...(groups.get(k) ?? []), o]); }
   const keys = [...groups.keys()].sort((a, b) => a.localeCompare(b, "sr-Latn"));
+  const agg = (key: (b: db.ServingRow) => [string | null, string | null]) => { const m = new Map<string, { slug: string; name: string; count: number }>(); for (const b of branches) { const [slug, name] = key(b); if (!slug) continue; const e = m.get(slug) ?? { slug, name: name ?? slug, count: 0 }; e.count++; m.set(slug, e); } return [...m.values()]; };
+  const brands = agg((b) => [b.org_slug, b.org_name_lat]).sort((a, b) => b.count - a.count);
+  const placeList = agg((b) => [b.jls_slug, b.jls_name_lat]).sort((a, b) => a.name.localeCompare(b.name, "sr-Latn"));
+  const shownBranches = branches.filter((b) => (!brand || b.org_slug === brand) && (!place || b.jls_slug === place));
   const byOkrug = new Map<string, db.ServingRow[]>();
-  for (const b of branches) { const k = b.okrug_name_lat ?? "—"; byOkrug.set(k, [...(byOkrug.get(k) ?? []), b]); }
+  for (const b of shownBranches) { const k = place ? (b.jls_name_lat ?? "—") : (b.okrug_name_lat ?? "—"); byOkrug.set(k, [...(byOkrug.get(k) ?? []), b]); }
   const okrugKeys = [...byOkrug.keys()].sort((a, b) => a.localeCompare(b, "sr-Latn"));
   const count = branchMode ? branches.length : orgs.length;
   const places = branchMode ? new Set(branches.map((b) => b.jls_slug)).size : keys.length;
@@ -422,6 +427,7 @@ export async function OrgTypeHub({ locale, type }: { locale: Locale; type: db.Or
               <div className="grid gap-2">{faq.map((f, i) => <details key={i} className="rounded-md border border-line p-3.5 group"><summary className="cursor-pointer font-medium text-[14.5px] list-none flex justify-between gap-3">{f.q}<span className="text-muted group-open:rotate-45 transition">+</span></summary><p className="text-[14px] text-muted mt-2">{f.a}</p></details>)}</div>
             </section>
           )}
+          {branchMode && branches.length > 24 && <BranchFilters locale={locale} basePath={href(locale, `/${type.slug}`)} brands={brands} places={placeList} brand={brand} place={place} shown={shownBranches.length} total={branches.length} />}
           {branchMode ? okrugKeys.map((k, i) => (
             <section key={k}>
               <SectionTitle>{k} <span className="text-muted font-normal text-[13px] tabular">{byOkrug.get(k)!.length}</span></SectionTitle>
@@ -434,7 +440,7 @@ export async function OrgTypeHub({ locale, type }: { locale: Locale; type: db.Or
                   </li>
                 ))}
               </ul>
-              {i === 2 && <AdSlot code="jls_inline_1" w={336} h={280} label={d.ad} />}
+              
             </section>
           )) : keys.map((k, i) => {
             const list = groups.get(k)!;
@@ -444,7 +450,7 @@ export async function OrgTypeHub({ locale, type }: { locale: Locale; type: db.Or
                 {list.length > 12 ? (
                   <details className="card p-3.5" open={keys.length === 1 || orgs.length <= 40}><summary className="cursor-pointer font-semibold text-[15px]">{k} <span className="text-muted tabular font-normal">({list.length})</span></summary><div className="mt-3">{body}</div></details>
                 ) : (<><SectionTitle>{k} <span className="text-muted font-normal text-[13px] tabular">{list.length}</span></SectionTitle>{body}</>)}
-                {i === 2 && <AdSlot code="jls_inline_1" w={336} h={280} label={d.ad} />}
+                
               </section>
             );
           })}
@@ -510,7 +516,7 @@ export async function OrgPage({ locale, org, locSlug, path }: { locale: Locale; 
               {regLine && <><dt className="text-muted">{d.registry}</dt><dd className="font-mono text-[12.5px] text-muted">{regLine}</dd></>}
             </dl>
           </section>
-          <div className="my-5"><SponsorCard label={d.sponsor} sponsor={sponsor} /></div>
+          {sponsor && <div className="my-5"><SponsorCard label={d.sponsor} sponsor={sponsor} /></div>}
           <section className="card p-4 sm:p-5">
             <SectionTitle>{d.hours}</SectionTitle>
             {hours.length ? (
@@ -532,7 +538,6 @@ export async function OrgPage({ locale, org, locSlug, path }: { locale: Locale; 
             </section>
           )}
           {vertical && <LeadForm locale={locale} vertical={vertical} context={{ page_path: path, location_id: loc?.location_id ?? null, territorial_unit_id: jls?.id ?? null }} />}
-          <AdSlot code="loc_in_content_1" w={336} h={280} label={d.ad} />
           <section className="card p-4 sm:p-5">
             <SectionTitle>{d.about}</SectionTitle>
             <div className="prose text-[14.5px]">
@@ -551,7 +556,6 @@ export async function OrgPage({ locale, org, locSlug, path }: { locale: Locale; 
           )}
           <CorrectionBlock locale={locale} entityType={loc ? "location" : "organization"} entityId={loc?.location_id ?? org.id} pagePath={path} lastChecked={loc?.last_seen_at ?? org.last_seen_at} sources={["Uprava za trezor (KJS)"]} />
           <ClaimBlock locale={locale} orgId={org.id} locationId={loc?.location_id ?? null} />
-          <AdSlot code="loc_bottom_leaderboard" w={728} h={90} mobileH={100} label={d.ad} />
         </div>
         <aside className="lg:sticky lg:top-20 grid gap-5">
           {country && (

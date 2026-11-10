@@ -135,7 +135,7 @@ export default function SearchBox({ locale, defaultValue = "", large = false, pl
                 <div key={g.kind} className="sp-group">
                   <div className="sp-group-head"><span>{T[g.kind]}</span></div>
                   {g.rows.map((s) => { idx++; const i = idx; const Flag = s.iso2 ? flagOf(s.iso2) : null; return (
-                    <button key={`${s.kind}-${s.href}`} id={`${id}-opt-${i}`} type="button" role="option" aria-selected={i === active} className={`sp-row ${i === active ? "is-active" : ""} ${s.kind === "action" ? "is-action" : ""}`}
+                    <button key={`${s.kind}-${s.href}-${s.title}`} id={`${id}-opt-${i}`} type="button" role="option" aria-selected={i === active} className={`sp-row ${i === active ? "is-active" : ""} ${s.kind === "action" ? "is-action" : ""}`}
                             onMouseDown={(e) => e.preventDefault()} onMouseEnter={() => setActive(i)} onClick={() => go(s.href, q.trim())}>
                       <span className={`sp-ico ${s.kind === "country" ? "sp-ico-flag" : ""}`}>{s.kind === "country" && Flag ? <Flag /> : <Glyph3D icon={s.icon ?? (s.kind === "guide" ? "file-text" : s.kind === "place" ? "building" : "landmark")} size={34} />}</span>
                       <span className="sp-text"><span className="sp-title"><Highlight text={s.title} q={q} /></span>{s.sub && <span className="sp-sub">{s.sub}</span>}</span>

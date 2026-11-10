@@ -206,7 +206,7 @@ export const getServing = (jlsId: number, typeSlug: string) =>
 /** All locations of a national-network type, for hub pages where one organization has many branches. */
 export const getLocationsOfType = (typeSlug: string) =>
   sql<ServingRow[]>`select ${LOC_COLS} from v_location_page where org_type_slug = ${typeSlug} and location_status = 'active'
-                    order by okrug_name_lat nulls last, jls_name_lat, unit_kind = 'filijala' desc, unit_name_lat limit 2000`;
+                    order by okrug_name_lat nulls last, jls_name_lat, unit_kind = 'filijala' desc, unit_name_lat limit 6000`;
 export const getVerticalById = (id: number) =>
   sql<{ id: number; slug: string; name_lat: string; pitch_lat: string | null; form_schema: unknown }[]>`select id, slug, name_lat, pitch_lat, form_schema from lead_verticals where id = ${id} and is_active`.then((r) => r[0] ?? null);
 

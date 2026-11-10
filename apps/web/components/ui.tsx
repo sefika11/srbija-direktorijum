@@ -32,14 +32,13 @@ export function SectionTitle({ children, id }: { children: React.ReactNode; id?:
 }
 
 /** Reserved-size ad container. Programmatic units mount here client-side; never shifts layout. */
-export function AdSlot({ code, w, h, label, mobileH }: { code: string; w?: number; h?: number; label: string; mobileH?: number }) {
+export function AdSlot({ code, w, h, label }: { code: string; w?: number; h?: number; label: string; mobileH?: number }) {
+  // No ad network is wired yet: keep the inventory visible to a sponsor as one slim line, never a grey box.
   return (
-    <div className="my-5 flex justify-center" data-ad-slot={code}>
-      <div className="relative rounded-md border border-dashed border-ad/40 bg-ad-soft text-ad text-[11px] font-mono grid place-items-center w-full"
-           style={{ maxWidth: w ? `${w}px` : "100%", minHeight: `${mobileH ?? h ?? 100}px` }}>
-        <span className="absolute -top-2 left-3 bg-surface px-1.5 text-[10px] uppercase tracking-wider">{label}</span>
-        <span className="opacity-70">{code}{w && h ? ` · ${w}×${h}` : ""}</span>
-      </div>
+    <div className="my-4 flex justify-center" data-ad-slot={code}>
+      <Link href="/partneri" className="ad-line" style={{ maxWidth: w ? `${w}px` : "100%" }}>
+        <span>{label}</span><span className="ad-line-dim">{w && h ? `${w}×${h}` : code}</span><span className="ad-line-cta">Zakupite →</span>
+      </Link>
     </div>
   );
 }

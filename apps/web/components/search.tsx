@@ -1,6 +1,7 @@
 import Link from "next/link";
 import * as db from "@/lib/db";
 import { smartSearch, type Place } from "@/lib/search";
+import { inPlace } from "@/lib/grammar";
 import { href, t, type Locale } from "@/lib/i18n";
 import { Breadcrumbs, SectionTitle } from "./ui";
 import SearchBox from "./SearchBox";
@@ -70,7 +71,7 @@ export async function SmartSearchPage({ locale, q }: { locale: Locale; q: string
               </>); })()}
             {r.best.kind === "type" && (
               <>
-                <Link href={href(locale, `/${r.best.type.slug}`)} className="font-serif text-[24px] font-semibold leading-tight no-underline text-ink hover:text-accent block mt-1">{r.best.type.name_plural_lat ?? r.best.type.name_lat}{r.place ? ` ${s.inPlace} ${r.place.name_lat}` : ""}</Link>
+                <Link href={href(locale, `/${r.best.type.slug}`)} className="font-serif text-[24px] font-semibold leading-tight no-underline text-ink hover:text-accent block mt-1">{r.best.type.name_plural_lat ?? r.best.type.name_lat}{r.place ? ` ${locale === "sr" ? inPlace(r.place.name_lat) : `${s.inPlace} ${r.place.name_lat}`}` : ""}</Link>
                 {r.best.serving.length > 0 ? <ServingList serving={r.best.serving} contacts={r.best.contacts} hours={r.best.hours} locale={locale} /> : <p className="text-muted text-[14px] mt-2">{d.noData}</p>}
                 <Link href={href(locale, `/${r.best.type.slug}`)} className="quick-chip mt-4">{s.all} →</Link>
               </>

@@ -572,3 +572,14 @@ select:focus, select:focus-visible { outline: none !important; box-shadow: 0 0 0
 /* ---------- 30. One heading face everywhere: the home-page display font on every subsection ---------- */
 .font-serif { font-family: var(--font-display); font-weight: 400 !important; letter-spacing: -0.035em; line-height: 1.1; }
 h1.font-serif, .font-serif.text-\[40px\], .font-serif.sm\:text-\[40px\], .font-serif.sm\:text-\[38px\], .font-serif.sm\:text-\[36px\], .font-serif.sm\:text-\[32px\] { font-weight: 300 !important; letter-spacing: -0.04em; }
+
+/* ---------- 31. Sweep fixes: slim ad line, no 3D toggle on phones, quiet static-map labels on small screens ---------- */
+.ad-line { display: flex; align-items: center; gap: 12px; width: 100%; min-height: 32px; padding: 4px 12px; border: 1px dashed color-mix(in oklab, var(--muted) 45%, transparent); border-radius: var(--radius-pill); font-family: var(--font-mono); font-size: 10.5px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); text-decoration: none; background: color-mix(in oklab, var(--surface) 60%, transparent); }
+.ad-line:hover { border-color: var(--accent); color: var(--accent); }
+.ad-line .ad-line-dim { opacity: .55; } .ad-line .ad-line-cta { margin-left: auto; color: var(--accent); }
+@media (max-width: 767px) { .m3-toggle { display: none !important; } }
+@media (max-width: 640px) { .m3-static text { display: none; } }
+.bf-brands { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 2px; scrollbar-width: thin; }
+.bf-brands .quick-chip { white-space: nowrap; }
+.quick-chip.is-on { background: var(--ink); color: var(--bg); border-color: var(--ink); } .quick-chip.is-on .text-muted { color: color-mix(in oklab, var(--bg) 70%, transparent); }
+.bf-brands .quick-chip { flex: 0 0 auto; }
