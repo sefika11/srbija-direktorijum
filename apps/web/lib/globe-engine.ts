@@ -95,7 +95,7 @@ export class GlobeEngine {
   private colors() {
     const dark = isDark(); const ink = cssVar("--ink", "#17181c"), accent = cssVar("--accent", "#0c4076"), red = cssVar("--red", "#c6363c"), bg = cssVar("--bg", "#f7f5f0"), surface = cssVar("--surface", "#fff");
     return {
-      ocean: dark ? "#1b1f27" : "#dfe6ee", land: dark ? "#3a3d45" : "#f4f1ea", landHi: dark ? "#2a3a52" : "#c9d9ee", border: dark ? "rgba(242,240,235,.35)" : "rgba(23,24,28,.42)",
+      ocean: dark ? "#1b1f27" : "#c9d8e8", land: dark ? "#3a3d45" : "#f6f2e8", landHi: dark ? "#2a3a52" : "#b7cde9", border: dark ? "rgba(242,240,235,.35)" : "rgba(23,24,28,.5)",
       home: red, sel: accent, hover: dark ? "rgba(255,255,255,.28)" : "rgba(23,24,28,.14)", ink, bg, surface,
     };
   }
