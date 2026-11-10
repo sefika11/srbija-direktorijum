@@ -1,0 +1,148 @@
+{
+"source": {
+"name": "Ministarstvo prosvete - Domovi učenika srednjih škola (PDF, jun 2024)",
+"url": "https://prosveta.gov.rs/wp-content/uploads/2024/06/Domovi-ucenika-srednjih-skola.pdf",
+"fetched_at": "2026-11-10"
+},
+"note": "The 30 standalone pupil dormitories in the ministry PDF (Učenički centar Beograd is entry 1; its 5 housing units with own addresses are extra rows, so 35 rows), hand-transcribed from the PDF text. NOT included: the 32 schools with a dormitory (listed as schools in the open data), 2 student centres that accept pupils (Priština/Kosovska Mitrovica, Bor), and a student dorm in Kraljevo. PDF is dated June 2024; a news item mentions 62 pupil dormitories in the wider network, so this list may be incomplete or outdated. Municipality left null (PDF gives town only). Stevan Čolović second phone printed only as \"91\" (abbreviated), omitted.",
+"rows": [
+{
+"name": "Učenički centar Beograd – RJ za smeštaj „Karađorđe“",
+"type_slug": "dom-ucenika",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": "Radoja Domanovića 27",
+"phones": [
+"011/2411-961",
+"011/2411-865"
+],
+"emails": [
+"karadjordje@ucenickicentar-bg.rs"
+],
+"website": null,
+"hours": null,
+"extra": {
+"ownership": "javna",
+"capacity": 334,
+"registry": "Ministarstvo prosvete - Domovi učenika srednjih škola (30), jun 2024",
+"parent": "Učenički centar Beograd",
+"rj": true
+},
+"source_url": "https://prosveta.gov.rs/wp-content/uploads/2024/06/Domovi-ucenika-srednjih-skola.pdf"
+},
+{
+"name": "Učenički centar Beograd – RJ za smeštaj „Petar Drapšin“",
+"type_slug": "dom-ucenika",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": "Kralja Petra 83",
+"phones": [
+"011/2627-333"
+],
+"emails": [
+"drapsin@ucenickicentar-bg.rs"
+],
+"website": null,
+"hours": null,
+"extra": {
+"ownership": "javna",
+"capacity": 194,
+"registry": "Ministarstvo prosvete - Domovi učenika srednjih škola (30), jun 2024",
+"parent": "Učenički centar Beograd",
+"rj": true
+},
+"source_url": "https://prosveta.gov.rs/wp-content/uploads/2024/06/Domovi-ucenika-srednjih-skola.pdf"
+},
+{
+"name": "Učenički centar Beograd – RJ za smeštaj „Zmaj“",
+"type_slug": "dom-ucenika",
+"town": "Zemun",
+"municipality": "Beograd",
+"address": "Aleksandra Dubčeka 1",
+"phones": [
+"011/2193-608",
+"011/3167-022"
+],
+"emails": [
+"zmaj@ucenickicentar-bg.rs"
+],
+"website": null,
+"hours": null,
+"extra": {
+"ownership": "javna",
+"capacity": 168,
+"registry": "Ministarstvo prosvete - Domovi učenika srednjih škola (30), jun 2024",
+"parent": "Učenički centar Beograd",
+"rj": true
+},
+"source_url": "https://prosveta.gov.rs/wp-content/uploads/2024/06/Domovi-ucenika-srednjih-skola.pdf"
+},
+{
+"name": "Učenički centar Beograd – RJ za smeštaj „Stevan Čolović“",
+"type_slug": "dom-ucenika",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": "Humska 8",
+"phones": [
+"011/2647-760"
+],
+"emails": [
+"colovic@ucenickicentar-bg.rs"
+],
+"website": null,
+"hours": null,
+"extra": {
+"ownership": "javna",
+"capacity": null,
+"registry": "Ministarstvo prosvete - Domovi učenika srednjih škola (30), jun 2024",
+"parent": "Učenički centar Beograd",
+"rj": true
+},
+"source_url": "https://prosveta.gov.rs/wp-content/uploads/2024/06/Domovi-ucenika-srednjih-skola.pdf"
+},
+{
+"name": "Učenički centar Beograd – RJ za smeštaj „Aleksa Dejović“",
+"type_slug": "dom-ucenika",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": "Hajduk Stanka 2",
+"phones": [
+"011/2404-234"
+],
+"emails": [
+"dejovic@ucenickicentar-bg.rs"
+],
+"website": null,
+"hours": null,
+"extra": {
+"ownership": "javna",
+"capacity": 130,
+"registry": "Ministarstvo prosvete - Domovi učenika srednjih škola (30), jun 2024",
+"parent": "Učenički centar Beograd",
+"rj": true
+},
+"source_url": "https://prosveta.gov.rs/wp-content/uploads/2024/06/Domovi-ucenika-srednjih-skola.pdf"
+},
+{
+"name": "Dom učenika srednjih škola – Bosilegrad",
+"type_slug": "dom-ucenika",
+"town": "Bosilegrad",
+"municipality": "Bosilegrad",
+"address": "Ivo Lola Ribar bb",
+"phones": [
+"017/878-493"
+],
+"emails": [
+"dojcinov.zora@gmail.com"
+],
+"website": "https://www.dussbosilegrad.edu.rs",
+"hours": null,
+"extra": {
+"ownership": "javna",
+"capacity": 52,
+"registry": "Ministarstvo prosvete - Domovi učenika srednjih škola (30), jun 2024"
+},
+"source_url": "https://prosveta.gov.rs/wp-content/uploads/2024/06/Domovi-ucenika-srednjih-skola.pdf"
+}
+]
+}

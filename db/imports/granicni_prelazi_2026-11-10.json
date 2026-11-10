@@ -1,0 +1,1187 @@
+{
+ "source": {
+  "name": "Uprava carina Republike Srbije - Radno vreme graničnih prelaza i administrativnih punktova (dokument, jul 2026)",
+  "url": "https://www.carina.rs/o-nama/carinarnice/carinarnice-opste-informacije.html",
+  "fetched_at": "2026-11-10"
+ },
+ "note": "Lista prelaza je iz zvaničnog dokumenta Uprave carina (prelazi grupisani po susednoj državi i vrsti), ne iz spiska MUP-a/Vlade (nije proveravan). 'town' = najbliže naselje, uzeto iz naziva prelaza (naziv prelaza je obično naselje); kod Đerdapa je Kladovo. Administrativni punktovi prema AP KiM su navedeni uz neighbour_country='Kosovo* (administrativni punkt)'. Brnjački most: town Kosovska Mitrovica (procena). Uz rečne prelaze navedeni su samo oni sa graničnom kontrolom plovila i/ili robe; adrese nisu objavljene.",
+ "rows": [
+  {
+   "name": "Granični prelaz Horgoš",
+   "type_slug": "granicni-prelaz",
+   "town": "Horgoš",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24",
+   "extra": {
+    "neighbour_country": "Mađarska",
+    "kind": "drumski"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Granični prelaz Terminal Horgoš",
+   "type_slug": "granicni-prelaz",
+   "town": "Horgoš",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24 (carinski nadzor)",
+   "extra": {
+    "neighbour_country": "Mađarska",
+    "kind": "drumski"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Granični prelaz Horgoš II",
+   "type_slug": "granicni-prelaz",
+   "town": "Horgoš",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "04-23 (primenjuje se od 01.05.2026)",
+   "extra": {
+    "neighbour_country": "Mađarska",
+    "kind": "drumski"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Granični prelaz Kelebija",
+   "type_slug": "granicni-prelaz",
+   "town": "Kelebija",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24",
+   "extra": {
+    "neighbour_country": "Mađarska",
+    "kind": "drumski"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Granični prelaz Terminal Kelebija",
+   "type_slug": "granicni-prelaz",
+   "town": "Kelebija",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24 (carinski nadzor)",
+   "extra": {
+    "neighbour_country": "Mađarska",
+    "kind": "drumski"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Granični prelaz Bački Breg",
+   "type_slug": "granicni-prelaz",
+   "town": "Bački Breg",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24",
+   "extra": {
+    "neighbour_country": "Mađarska",
+    "kind": "drumski"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Granični prelaz Bački Vinogradi",
+   "type_slug": "granicni-prelaz",
+   "town": "Bački Vinogradi",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "07-22 (primenjuje se od 01.11.2026)",
+   "extra": {
+    "neighbour_country": "Mađarska",
+    "kind": "drumski"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Granični prelaz Bajmok",
+   "type_slug": "granicni-prelaz",
+   "town": "Bajmok",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "07-19 svim danima; 03.07-06.09.2026. petkom, subotom i nedeljom 07-24",
+   "extra": {
+    "neighbour_country": "Mađarska",
+    "kind": "drumski"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Granični prelaz Đala",
+   "type_slug": "granicni-prelaz",
+   "town": "Đala",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "07-19 svim danima",
+   "extra": {
+    "neighbour_country": "Mađarska",
+    "kind": "drumski"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Granični prelaz Rabe",
+   "type_slug": "granicni-prelaz",
+   "town": "Rabe",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "07-19 svim danima",
+   "extra": {
+    "neighbour_country": "Mađarska",
+    "kind": "drumski"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Granični prelaz Rastina",
+   "type_slug": "granicni-prelaz",
+   "town": "Rastina",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "07-19 svim danima",
+   "extra": {
+    "neighbour_country": "Mađarska",
+    "kind": "drumski"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Granični prelaz Gradina",
+   "type_slug": "granicni-prelaz",
+   "town": "Gradina",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24",
+   "extra": {
+    "neighbour_country": "Bugarska",
+    "kind": "drumski"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Granični prelaz Terminal Gradina",
+   "type_slug": "granicni-prelaz",
+   "town": "Gradina",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "08-20 svim danima; carinski nadzor 00-24",
+   "extra": {
+    "neighbour_country": "Bugarska",
+    "kind": "drumski"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Granični prelaz Vrška Čuka",
+   "type_slug": "granicni-prelaz",
+   "town": "Vrška Čuka",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24",
+   "extra": {
+    "neighbour_country": "Bugarska",
+    "kind": "drumski"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Granični prelaz Mokranje",
+   "type_slug": "granicni-prelaz",
+   "town": "Mokranje",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24",
+   "extra": {
+    "neighbour_country": "Bugarska",
+    "kind": "drumski"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Granični prelaz Strezimirovci",
+   "type_slug": "granicni-prelaz",
+   "town": "Strezimirovci",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24",
+   "extra": {
+    "neighbour_country": "Bugarska",
+    "kind": "drumski"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Granični prelaz Ribarci",
+   "type_slug": "granicni-prelaz",
+   "town": "Ribarci",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24",
+   "extra": {
+    "neighbour_country": "Bugarska",
+    "kind": "drumski"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Granični prelaz Vrbica",
+   "type_slug": "granicni-prelaz",
+   "town": "Vrbica",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "07-19",
+   "extra": {
+    "neighbour_country": "Rumunija",
+    "kind": "drumski"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Granični prelaz Nakovo",
+   "type_slug": "granicni-prelaz",
+   "town": "Nakovo",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "07-19",
+   "extra": {
+    "neighbour_country": "Rumunija",
+    "kind": "drumski"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Granični prelaz Srpska Crnja",
+   "type_slug": "granicni-prelaz",
+   "town": "Srpska Crnja",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24",
+   "extra": {
+    "neighbour_country": "Rumunija",
+    "kind": "drumski"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Granični prelaz Jaša Tomić",
+   "type_slug": "granicni-prelaz",
+   "town": "Jaša Tomić",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "07-19",
+   "extra": {
+    "neighbour_country": "Rumunija",
+    "kind": "drumski"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Granični prelaz Vatin",
+   "type_slug": "granicni-prelaz",
+   "town": "Vatin",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24",
+   "extra": {
+    "neighbour_country": "Rumunija",
+    "kind": "drumski"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Granični prelaz Kaluđerovo",
+   "type_slug": "granicni-prelaz",
+   "town": "Kaluđerovo",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24",
+   "extra": {
+    "neighbour_country": "Rumunija",
+    "kind": "drumski"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Granični prelaz Đerdap",
+   "type_slug": "granicni-prelaz",
+   "town": "Kladovo",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24 (robno carinjenje 09-17 pon-sub)",
+   "extra": {
+    "neighbour_country": "Rumunija",
+    "kind": "drumski"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Granični prelaz Đerdap II",
+   "type_slug": "granicni-prelaz",
+   "town": "Kladovo",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24 (samo putnički)",
+   "extra": {
+    "neighbour_country": "Rumunija",
+    "kind": "drumski"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Granični prelaz Batrovci",
+   "type_slug": "granicni-prelaz",
+   "town": "Batrovci",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24",
+   "extra": {
+    "neighbour_country": "Hrvatska",
+    "kind": "drumski"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Granični prelaz Šid",
+   "type_slug": "granicni-prelaz",
+   "town": "Šid",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24",
+   "extra": {
+    "neighbour_country": "Hrvatska",
+    "kind": "drumski"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Granični prelaz Bogojevo",
+   "type_slug": "granicni-prelaz",
+   "town": "Bogojevo",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24",
+   "extra": {
+    "neighbour_country": "Hrvatska",
+    "kind": "drumski"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Granični prelaz Bezdan",
+   "type_slug": "granicni-prelaz",
+   "town": "Bezdan",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24",
+   "extra": {
+    "neighbour_country": "Hrvatska",
+    "kind": "drumski"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Granični prelaz Most Bačka Palanka",
+   "type_slug": "granicni-prelaz",
+   "town": "Bačka Palanka",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24",
+   "extra": {
+    "neighbour_country": "Hrvatska",
+    "kind": "drumski"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Granični prelaz Neštin",
+   "type_slug": "granicni-prelaz",
+   "town": "Neštin",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24",
+   "extra": {
+    "neighbour_country": "Hrvatska",
+    "kind": "drumski"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Granični prelaz Ljuba",
+   "type_slug": "granicni-prelaz",
+   "town": "Ljuba",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24",
+   "extra": {
+    "neighbour_country": "Hrvatska",
+    "kind": "drumski"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Granični prelaz Sot",
+   "type_slug": "granicni-prelaz",
+   "town": "Sot",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24",
+   "extra": {
+    "neighbour_country": "Hrvatska",
+    "kind": "drumski"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Granični prelaz Preševo",
+   "type_slug": "granicni-prelaz",
+   "town": "Preševo",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24",
+   "extra": {
+    "neighbour_country": "Severna Makedonija",
+    "kind": "drumski"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Granični prelaz Prohor Pčinjski",
+   "type_slug": "granicni-prelaz",
+   "town": "Prohor Pčinjski",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24",
+   "extra": {
+    "neighbour_country": "Severna Makedonija",
+    "kind": "drumski"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Granični prelaz Sremska Rača",
+   "type_slug": "granicni-prelaz",
+   "town": "Sremska Rača",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24",
+   "extra": {
+    "neighbour_country": "Bosna i Hercegovina",
+    "kind": "drumski"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Granični prelaz Badovinci",
+   "type_slug": "granicni-prelaz",
+   "town": "Badovinci",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24",
+   "extra": {
+    "neighbour_country": "Bosna i Hercegovina",
+    "kind": "drumski"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Granični prelaz Trbušnica",
+   "type_slug": "granicni-prelaz",
+   "town": "Trbušnica",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24 (robno carinjenje 08-20 pon-sub)",
+   "extra": {
+    "neighbour_country": "Bosna i Hercegovina",
+    "kind": "drumski"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Granični prelaz Mali Zvornik",
+   "type_slug": "granicni-prelaz",
+   "town": "Mali Zvornik",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24",
+   "extra": {
+    "neighbour_country": "Bosna i Hercegovina",
+    "kind": "drumski"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Granični prelaz Ljubovija",
+   "type_slug": "granicni-prelaz",
+   "town": "Ljubovija",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24",
+   "extra": {
+    "neighbour_country": "Bosna i Hercegovina",
+    "kind": "drumski"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Granični prelaz Bajina Bašta",
+   "type_slug": "granicni-prelaz",
+   "town": "Bajina Bašta",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24",
+   "extra": {
+    "neighbour_country": "Bosna i Hercegovina",
+    "kind": "drumski"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Granični prelaz Kotroman",
+   "type_slug": "granicni-prelaz",
+   "town": "Kotroman",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24",
+   "extra": {
+    "neighbour_country": "Bosna i Hercegovina",
+    "kind": "drumski"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Granični prelaz Uvac",
+   "type_slug": "granicni-prelaz",
+   "town": "Uvac",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24",
+   "extra": {
+    "neighbour_country": "Bosna i Hercegovina",
+    "kind": "drumski"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Granični prelaz Gostun",
+   "type_slug": "granicni-prelaz",
+   "town": "Gostun",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24",
+   "extra": {
+    "neighbour_country": "Crna Gora",
+    "kind": "drumski"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Granični prelaz Špiljani",
+   "type_slug": "granicni-prelaz",
+   "town": "Špiljani",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24",
+   "extra": {
+    "neighbour_country": "Crna Gora",
+    "kind": "drumski"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Granični prelaz Jabuka",
+   "type_slug": "granicni-prelaz",
+   "town": "Jabuka",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24",
+   "extra": {
+    "neighbour_country": "Crna Gora",
+    "kind": "drumski"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Administrativni punkt Brnjački most",
+   "type_slug": "granicni-prelaz",
+   "town": "Kosovska Mitrovica",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24",
+   "extra": {
+    "neighbour_country": "Kosovo* (administrativni punkt)",
+    "kind": "drumski"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Administrativni punkt Rudnica",
+   "type_slug": "granicni-prelaz",
+   "town": "Rudnica",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24",
+   "extra": {
+    "neighbour_country": "Kosovo* (administrativni punkt)",
+    "kind": "drumski"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Administrativni punkt Merdare",
+   "type_slug": "granicni-prelaz",
+   "town": "Merdare",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24",
+   "extra": {
+    "neighbour_country": "Kosovo* (administrativni punkt)",
+    "kind": "drumski"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Administrativni punkt Mutivode",
+   "type_slug": "granicni-prelaz",
+   "town": "Mutivode",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "08-20 svim danima",
+   "extra": {
+    "neighbour_country": "Kosovo* (administrativni punkt)",
+    "kind": "drumski"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Administrativni punkt Končulj",
+   "type_slug": "granicni-prelaz",
+   "town": "Končulj",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24",
+   "extra": {
+    "neighbour_country": "Kosovo* (administrativni punkt)",
+    "kind": "drumski"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Administrativni punkt Depce",
+   "type_slug": "granicni-prelaz",
+   "town": "Depce",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "08-20 svim danima",
+   "extra": {
+    "neighbour_country": "Kosovo* (administrativni punkt)",
+    "kind": "drumski"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Železnički prelaz Dimitrovgrad",
+   "type_slug": "granicni-prelaz",
+   "town": "Dimitrovgrad",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24 (robno 07:30-15:30 pon-pet)",
+   "extra": {
+    "neighbour_country": "Bugarska",
+    "kind": "železnički"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Železnički prelaz Bijelo Polje",
+   "type_slug": "granicni-prelaz",
+   "town": "Vrbnica",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24",
+   "extra": {
+    "neighbour_country": "Crna Gora",
+    "kind": "železnički",
+    "note": "nasuprot stanice Bijelo Polje (CG); mesto (Vrbnica, opština Prijepolje) je procena - lista carine navodi samo naziv prelaza"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Železnički prelaz Ristovac",
+   "type_slug": "granicni-prelaz",
+   "town": "Ristovac",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24",
+   "extra": {
+    "neighbour_country": "Severna Makedonija",
+    "kind": "železnički"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Železnički prelaz Šid",
+   "type_slug": "granicni-prelaz",
+   "town": "Šid",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24 (putnički); robno 08-20 pon-sub",
+   "extra": {
+    "neighbour_country": "Hrvatska",
+    "kind": "železnički"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Železnički prelaz Bogojevo",
+   "type_slug": "granicni-prelaz",
+   "town": "Bogojevo",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24",
+   "extra": {
+    "neighbour_country": "Hrvatska",
+    "kind": "železnički"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Železnički prelaz Subotica",
+   "type_slug": "granicni-prelaz",
+   "town": "Subotica",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24 (robno 07-19)",
+   "extra": {
+    "neighbour_country": "Mađarska",
+    "kind": "železnički"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Železnički prelaz Vršac",
+   "type_slug": "granicni-prelaz",
+   "town": "Vršac",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24 (robno 08-20 svim danima)",
+   "extra": {
+    "neighbour_country": "Rumunija",
+    "kind": "železnički"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Železnički prelaz Kikinda",
+   "type_slug": "granicni-prelaz",
+   "town": "Kikinda",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24 (robno 08-20 pon-sub)",
+   "extra": {
+    "neighbour_country": "Rumunija",
+    "kind": "železnički"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Rečni prelaz Bezdan-Mohač (Dunav)",
+   "type_slug": "granicni-prelaz",
+   "town": "Bezdan",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24",
+   "extra": {
+    "neighbour_country": "Mađarska",
+    "kind": "rečni"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Rečni prelaz Kanjiža (Tisa)",
+   "type_slug": "granicni-prelaz",
+   "town": "Kanjiža",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24 (izlazak carinskih službenika po pozivu)",
+   "extra": {
+    "neighbour_country": "Mađarska",
+    "kind": "rečni"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Rečni prelaz Bačka Palanka (Dunav)",
+   "type_slug": "granicni-prelaz",
+   "town": "Bačka Palanka",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24",
+   "extra": {
+    "neighbour_country": "Hrvatska",
+    "kind": "rečni"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Rečni prelaz Bogojevo (Dunav)",
+   "type_slug": "granicni-prelaz",
+   "town": "Bogojevo",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24",
+   "extra": {
+    "neighbour_country": "Hrvatska",
+    "kind": "rečni"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Rečni prelaz Veliko Gradište (Dunav)",
+   "type_slug": "granicni-prelaz",
+   "town": "Veliko Gradište",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24 (robno 08-16 pon-pet)",
+   "extra": {
+    "neighbour_country": "Rumunija",
+    "kind": "rečni"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Rečni prelaz Prahovo (Dunav)",
+   "type_slug": "granicni-prelaz",
+   "town": "Prahovo",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24 (robno 08-16 pon-sub)",
+   "extra": {
+    "neighbour_country": "Rumunija",
+    "kind": "rečni"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Rečni prelaz Sremska Mitrovica (Sava)",
+   "type_slug": "granicni-prelaz",
+   "town": "Sremska Mitrovica",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "08-20 pon-sub",
+   "extra": {
+    "kind": "rečni"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Rečni prelaz Apatin (Dunav)",
+   "type_slug": "granicni-prelaz",
+   "town": "Apatin",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "08-20 pon-sub (izlazak po pozivu)",
+   "extra": {
+    "kind": "rečni"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Rečni prelaz Novi Sad - Beočin (Dunav)",
+   "type_slug": "granicni-prelaz",
+   "town": "Novi Sad",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24",
+   "extra": {
+    "kind": "rečni"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Rečni prelaz Beograd (Dunav/Sava)",
+   "type_slug": "granicni-prelaz",
+   "town": "Beograd",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24",
+   "extra": {
+    "kind": "rečni"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Aerodrom Nikola Tesla",
+   "type_slug": "granicni-prelaz",
+   "town": "Surčin",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "00-24 (putnički); robno 08-20 pon-sub; carinski nadzor 00-24",
+   "extra": {
+    "kind": "vazdušni"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Aerodrom Morava",
+   "type_slug": "granicni-prelaz",
+   "town": "Lađevci",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "prema redu letenja",
+   "extra": {
+    "kind": "vazdušni"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Aerodrom Konstantin Veliki",
+   "type_slug": "granicni-prelaz",
+   "town": "Niš",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "prema redu letenja",
+   "extra": {
+    "kind": "vazdušni"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  },
+  {
+   "name": "Aerodrom Vršac",
+   "type_slug": "granicni-prelaz",
+   "town": "Vršac",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": "izlazak carinskih službenika po pozivu",
+   "extra": {
+    "kind": "vazdušni"
+   },
+   "source_url": "https://www.carina.rs/upload/media/2026/7/9/69903/radno__vreme_graničnih_prelaza_i_administrativnih_punktova_novo_ažuriranje.docx"
+  }
+ ]
+}

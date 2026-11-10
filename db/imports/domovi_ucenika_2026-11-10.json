@@ -1,0 +1,779 @@
+{
+ "source": {
+  "name": "Ministarstvo prosvete - Domovi učenika srednjih škola (PDF, jun 2024)",
+  "url": "https://prosveta.gov.rs/wp-content/uploads/2024/06/Domovi-ucenika-srednjih-skola.pdf",
+  "fetched_at": "2026-11-10"
+ },
+ "note": "The 30 standalone pupil dormitories in the ministry PDF (Učenički centar Beograd is entry 1; its 5 housing units with own addresses are extra rows, so 35 rows), hand-transcribed from the PDF text. NOT included: the 32 schools with a dormitory (listed as schools in the open data), 2 student centres that accept pupils (Priština/Kosovska Mitrovica, Bor), and a student dorm in Kraljevo. PDF is dated June 2024; a news item mentions 62 pupil dormitories in the wider network, so this list may be incomplete or outdated. Municipality left null (PDF gives town only). Stevan Čolović second phone printed only as \"91\" (abbreviated), omitted.",
+ "rows": [
+  {
+   "name": "Učenički centar Beograd",
+   "type_slug": "dom-ucenika",
+   "town": "Beograd",
+   "municipality": null,
+   "address": "Radoja Domanovića 27",
+   "phones": [
+    "011/715-4043",
+    "011/715-4042",
+    "011/715-4050"
+   ],
+   "emails": [
+    "direktor@ucenickicentar-bg.rs"
+   ],
+   "website": "https://www.ucenickicentar-bg.rs",
+   "hours": null,
+   "extra": {
+    "ownership": "javna",
+    "capacity": 917,
+    "registry": "Ministarstvo prosvete - Domovi učenika srednjih škola (30), jun 2024"
+   },
+   "source_url": "https://prosveta.gov.rs/wp-content/uploads/2024/06/Domovi-ucenika-srednjih-skola.pdf"
+  },
+  {
+   "name": "Učenički centar Beograd – RJ za smeštaj „Karađorđe“",
+   "type_slug": "dom-ucenika",
+   "town": "Beograd",
+   "municipality": null,
+   "address": "Radoja Domanovića 27",
+   "phones": [
+    "011/2411-961",
+    "011/2411-865"
+   ],
+   "emails": [
+    "karadjordje@ucenickicentar-bg.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "ownership": "javna",
+    "capacity": 334,
+    "registry": "Ministarstvo prosvete - Domovi učenika srednjih škola (30), jun 2024",
+    "parent": "Učenički centar Beograd",
+    "rj": true
+   },
+   "source_url": "https://prosveta.gov.rs/wp-content/uploads/2024/06/Domovi-ucenika-srednjih-skola.pdf"
+  },
+  {
+   "name": "Učenički centar Beograd – RJ za smeštaj „Petar Drapšin“",
+   "type_slug": "dom-ucenika",
+   "town": "Beograd",
+   "municipality": null,
+   "address": "Kralja Petra 83",
+   "phones": [
+    "011/2627-333"
+   ],
+   "emails": [
+    "drapsin@ucenickicentar-bg.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "ownership": "javna",
+    "capacity": 194,
+    "registry": "Ministarstvo prosvete - Domovi učenika srednjih škola (30), jun 2024",
+    "parent": "Učenički centar Beograd",
+    "rj": true
+   },
+   "source_url": "https://prosveta.gov.rs/wp-content/uploads/2024/06/Domovi-ucenika-srednjih-skola.pdf"
+  },
+  {
+   "name": "Učenički centar Beograd – RJ za smeštaj „Zmaj“",
+   "type_slug": "dom-ucenika",
+   "town": "Zemun",
+   "municipality": null,
+   "address": "Aleksandra Dubčeka 1",
+   "phones": [
+    "011/2193-608",
+    "011/3167-022"
+   ],
+   "emails": [
+    "zmaj@ucenickicentar-bg.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "ownership": "javna",
+    "capacity": 168,
+    "registry": "Ministarstvo prosvete - Domovi učenika srednjih škola (30), jun 2024",
+    "parent": "Učenički centar Beograd",
+    "rj": true
+   },
+   "source_url": "https://prosveta.gov.rs/wp-content/uploads/2024/06/Domovi-ucenika-srednjih-skola.pdf"
+  },
+  {
+   "name": "Učenički centar Beograd – RJ za smeštaj „Stevan Čolović“",
+   "type_slug": "dom-ucenika",
+   "town": "Beograd",
+   "municipality": null,
+   "address": "Humska 8",
+   "phones": [
+    "011/2647-760"
+   ],
+   "emails": [
+    "colovic@ucenickicentar-bg.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "ownership": "javna",
+    "capacity": null,
+    "registry": "Ministarstvo prosvete - Domovi učenika srednjih škola (30), jun 2024",
+    "parent": "Učenički centar Beograd",
+    "rj": true
+   },
+   "source_url": "https://prosveta.gov.rs/wp-content/uploads/2024/06/Domovi-ucenika-srednjih-skola.pdf"
+  },
+  {
+   "name": "Učenički centar Beograd – RJ za smeštaj „Aleksa Dejović“",
+   "type_slug": "dom-ucenika",
+   "town": "Beograd",
+   "municipality": null,
+   "address": "Hajduk Stanka 2",
+   "phones": [
+    "011/2404-234"
+   ],
+   "emails": [
+    "dejovic@ucenickicentar-bg.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "ownership": "javna",
+    "capacity": 130,
+    "registry": "Ministarstvo prosvete - Domovi učenika srednjih škola (30), jun 2024",
+    "parent": "Učenički centar Beograd",
+    "rj": true
+   },
+   "source_url": "https://prosveta.gov.rs/wp-content/uploads/2024/06/Domovi-ucenika-srednjih-skola.pdf"
+  },
+  {
+   "name": "Dom učenika srednjih škola „Patrijarh Pavle“",
+   "type_slug": "dom-ucenika",
+   "town": "Beograd",
+   "municipality": null,
+   "address": "Zdravka Čelara 14",
+   "phones": [
+    "011/2072-600",
+    "011/2072-602"
+   ],
+   "emails": [
+    "office@domucenika.com"
+   ],
+   "website": "https://www.domucenika.com",
+   "hours": null,
+   "extra": {
+    "ownership": "javna",
+    "capacity": 584,
+    "registry": "Ministarstvo prosvete - Domovi učenika srednjih škola (30), jun 2024"
+   },
+   "source_url": "https://prosveta.gov.rs/wp-content/uploads/2024/06/Domovi-ucenika-srednjih-skola.pdf"
+  },
+  {
+   "name": "Dom učenika srednjih škola „Milutin Milanković“",
+   "type_slug": "dom-ucenika",
+   "town": "Beograd",
+   "municipality": null,
+   "address": "Zdravka Čelara 16",
+   "phones": [
+    "011/2070-090"
+   ],
+   "emails": [
+    "office@pttdom.edu.rs"
+   ],
+   "website": "https://www.dommilutinmilankovic.edu.rs",
+   "hours": null,
+   "extra": {
+    "ownership": "javna",
+    "capacity": 303,
+    "registry": "Ministarstvo prosvete - Domovi učenika srednjih škola (30), jun 2024"
+   },
+   "source_url": "https://prosveta.gov.rs/wp-content/uploads/2024/06/Domovi-ucenika-srednjih-skola.pdf"
+  },
+  {
+   "name": "Dom učenika srednjih škola „Jelica Milovanović“",
+   "type_slug": "dom-ucenika",
+   "town": "Beograd",
+   "municipality": null,
+   "address": "Krunska 8",
+   "phones": [
+    "011/3304-802"
+   ],
+   "emails": [
+    "duskob@jelicamilovanovic.edu.rs"
+   ],
+   "website": "https://www.jelicamilovanovic.edu.rs",
+   "hours": null,
+   "extra": {
+    "ownership": "javna",
+    "capacity": 455,
+    "registry": "Ministarstvo prosvete - Domovi učenika srednjih škola (30), jun 2024"
+   },
+   "source_url": "https://prosveta.gov.rs/wp-content/uploads/2024/06/Domovi-ucenika-srednjih-skola.pdf"
+  },
+  {
+   "name": "Dom učenika srednjih škola – Niš",
+   "type_slug": "dom-ucenika",
+   "town": "Niš",
+   "municipality": null,
+   "address": "Kosovke devojke 6",
+   "phones": [
+    "018/4576-920",
+    "018/4212-051",
+    "018/290-776"
+   ],
+   "emails": [
+    "info@domnis.edu.rs"
+   ],
+   "website": "https://www.domnis.edu.rs",
+   "hours": null,
+   "extra": {
+    "ownership": "javna",
+    "capacity": 341,
+    "registry": "Ministarstvo prosvete - Domovi učenika srednjih škola (30), jun 2024"
+   },
+   "source_url": "https://prosveta.gov.rs/wp-content/uploads/2024/06/Domovi-ucenika-srednjih-skola.pdf"
+  },
+  {
+   "name": "Dom učenika srednjih škola „Mladost“",
+   "type_slug": "dom-ucenika",
+   "town": "Aleksinac",
+   "municipality": null,
+   "address": "Bucekova 2",
+   "phones": [
+    "018/807-688",
+    "018/804-736",
+    "018/808-600"
+   ],
+   "emails": [
+    "dommladost10020@mts.rs"
+   ],
+   "website": "https://www.dommladost.rs",
+   "hours": null,
+   "extra": {
+    "ownership": "javna",
+    "capacity": 90,
+    "registry": "Ministarstvo prosvete - Domovi učenika srednjih škola (30), jun 2024"
+   },
+   "source_url": "https://prosveta.gov.rs/wp-content/uploads/2024/06/Domovi-ucenika-srednjih-skola.pdf"
+  },
+  {
+   "name": "Dom učenika srednjih škola – Prokuplje",
+   "type_slug": "dom-ucenika",
+   "town": "Prokuplje",
+   "municipality": null,
+   "address": "Vuka Karadžića 10",
+   "phones": [
+    "027/815-0022",
+    "027/330-154",
+    "027/334-066"
+   ],
+   "emails": [
+    "office@domucenikapk.edu.rs"
+   ],
+   "website": "https://www.domucenikapk.edu.rs",
+   "hours": null,
+   "extra": {
+    "ownership": "javna",
+    "capacity": 140,
+    "registry": "Ministarstvo prosvete - Domovi učenika srednjih škola (30), jun 2024"
+   },
+   "source_url": "https://prosveta.gov.rs/wp-content/uploads/2024/06/Domovi-ucenika-srednjih-skola.pdf"
+  },
+  {
+   "name": "Dom učenika srednjih škola – Leskovac",
+   "type_slug": "dom-ucenika",
+   "town": "Leskovac",
+   "municipality": null,
+   "address": "Kajmakčalanska 24",
+   "phones": [
+    "016/242-172",
+    "016/260-250"
+   ],
+   "emails": [
+    "office@domucenikale.rs"
+   ],
+   "website": "https://www.domucenikale.rs",
+   "hours": null,
+   "extra": {
+    "ownership": "javna",
+    "capacity": 170,
+    "registry": "Ministarstvo prosvete - Domovi učenika srednjih škola (30), jun 2024"
+   },
+   "source_url": "https://prosveta.gov.rs/wp-content/uploads/2024/06/Domovi-ucenika-srednjih-skola.pdf"
+  },
+  {
+   "name": "Dom učenika srednjih škola – Vranje",
+   "type_slug": "dom-ucenika",
+   "town": "Vranje",
+   "municipality": null,
+   "address": "Milunke Savić 41",
+   "phones": [
+    "017/422-035"
+   ],
+   "emails": [
+    "domucenikavr@mts.rs"
+   ],
+   "website": "https://www.domucenikavr.co.rs",
+   "hours": null,
+   "extra": {
+    "ownership": "javna",
+    "capacity": 210,
+    "registry": "Ministarstvo prosvete - Domovi učenika srednjih škola (30), jun 2024"
+   },
+   "source_url": "https://prosveta.gov.rs/wp-content/uploads/2024/06/Domovi-ucenika-srednjih-skola.pdf"
+  },
+  {
+   "name": "Dom učenika srednjih škola – Surdulica",
+   "type_slug": "dom-ucenika",
+   "town": "Surdulica",
+   "municipality": null,
+   "address": "Naselje Belo Polje bb",
+   "phones": [
+    "017/825-255",
+    "017/822-012"
+   ],
+   "emails": [
+    "domucsredsur@mts.rs"
+   ],
+   "website": "https://www.domsurdulica.edu.rs",
+   "hours": null,
+   "extra": {
+    "ownership": "javna",
+    "capacity": 90,
+    "registry": "Ministarstvo prosvete - Domovi učenika srednjih škola (30), jun 2024"
+   },
+   "source_url": "https://prosveta.gov.rs/wp-content/uploads/2024/06/Domovi-ucenika-srednjih-skola.pdf"
+  },
+  {
+   "name": "Dom učenika srednjih škola – Bosilegrad",
+   "type_slug": "dom-ucenika",
+   "town": "Bosilegrad",
+   "municipality": null,
+   "address": "Ivo Lola Ribar bb",
+   "phones": [
+    "017/878-493"
+   ],
+   "emails": [
+    "dojcinov.zora@gmail.com"
+   ],
+   "website": "https://www.dussbosilegrad.edu.rs",
+   "hours": null,
+   "extra": {
+    "ownership": "javna",
+    "capacity": 52,
+    "registry": "Ministarstvo prosvete - Domovi učenika srednjih škola (30), jun 2024"
+   },
+   "source_url": "https://prosveta.gov.rs/wp-content/uploads/2024/06/Domovi-ucenika-srednjih-skola.pdf"
+  },
+  {
+   "name": "Dom učenika srednjih škola – Kraljevo",
+   "type_slug": "dom-ucenika",
+   "town": "Kraljevo",
+   "municipality": null,
+   "address": "Karađorđeva 262",
+   "phones": [
+    "036/352-663",
+    "036/352-964"
+   ],
+   "emails": [
+    "domucenika@gmail.com"
+   ],
+   "website": "https://www.domucenikakraljevo.rs",
+   "hours": null,
+   "extra": {
+    "ownership": "javna",
+    "capacity": 310,
+    "registry": "Ministarstvo prosvete - Domovi učenika srednjih škola (30), jun 2024"
+   },
+   "source_url": "https://prosveta.gov.rs/wp-content/uploads/2024/06/Domovi-ucenika-srednjih-skola.pdf"
+  },
+  {
+   "name": "Dom učenika srednjih škola „Pane Đukić Limar“",
+   "type_slug": "dom-ucenika",
+   "town": "Kruševac",
+   "municipality": null,
+   "address": "Ćirila i Metodija 11",
+   "phones": [
+    "037/411-700"
+   ],
+   "emails": [
+    "office@internat-krusevac.org.rs"
+   ],
+   "website": "https://www.internat-krusevac.org.rs",
+   "hours": null,
+   "extra": {
+    "ownership": "javna",
+    "capacity": 122,
+    "registry": "Ministarstvo prosvete - Domovi učenika srednjih škola (30), jun 2024"
+   },
+   "source_url": "https://prosveta.gov.rs/wp-content/uploads/2024/06/Domovi-ucenika-srednjih-skola.pdf"
+  },
+  {
+   "name": "Dom učenika srednjih škola – Trstenik",
+   "type_slug": "dom-ucenika",
+   "town": "Trstenik",
+   "municipality": null,
+   "address": "Kneginje Milice 72A",
+   "phones": [
+    "037/711-865"
+   ],
+   "emails": [
+    "domucenikatrstenik@gmail.com"
+   ],
+   "website": "https://www.domucenikatrstenik.edu.rs",
+   "hours": null,
+   "extra": {
+    "ownership": "javna",
+    "capacity": 76,
+    "registry": "Ministarstvo prosvete - Domovi učenika srednjih škola (30), jun 2024"
+   },
+   "source_url": "https://prosveta.gov.rs/wp-content/uploads/2024/06/Domovi-ucenika-srednjih-skola.pdf"
+  },
+  {
+   "name": "Dom učenika srednjih škola – Čačak",
+   "type_slug": "dom-ucenika",
+   "town": "Čačak",
+   "municipality": null,
+   "address": "Učiteljska 8",
+   "phones": [
+    "032/341-695",
+    "032/322-326"
+   ],
+   "emails": [
+    "domucenikacacak@mts.rs"
+   ],
+   "website": "https://www.domucenika-cacak.org.rs",
+   "hours": null,
+   "extra": {
+    "ownership": "javna",
+    "capacity": 205,
+    "registry": "Ministarstvo prosvete - Domovi učenika srednjih škola (30), jun 2024"
+   },
+   "source_url": "https://prosveta.gov.rs/wp-content/uploads/2024/06/Domovi-ucenika-srednjih-skola.pdf"
+  },
+  {
+   "name": "Dom učenika srednjih škola – Kragujevac",
+   "type_slug": "dom-ucenika",
+   "town": "Kragujevac",
+   "municipality": null,
+   "address": "Save Kovačevića 23",
+   "phones": [
+    "034/303-400",
+    "034/303-401",
+    "034/303-404"
+   ],
+   "emails": [
+    "artem@artem.edu.rs"
+   ],
+   "website": "https://www.artem.edu.rs",
+   "hours": null,
+   "extra": {
+    "ownership": "javna",
+    "capacity": 414,
+    "registry": "Ministarstvo prosvete - Domovi učenika srednjih škola (30), jun 2024"
+   },
+   "source_url": "https://prosveta.gov.rs/wp-content/uploads/2024/06/Domovi-ucenika-srednjih-skola.pdf"
+  },
+  {
+   "name": "Dom učenika srednjih škola „Jagodina“",
+   "type_slug": "dom-ucenika",
+   "town": "Jagodina",
+   "municipality": null,
+   "address": "Branka Radičevića 1",
+   "phones": [
+    "035/8223-488"
+   ],
+   "emails": [
+    "domucenikajagodina@yahoo.com"
+   ],
+   "website": "https://www.duja.edu.rs",
+   "hours": null,
+   "extra": {
+    "ownership": "javna",
+    "capacity": 220,
+    "registry": "Ministarstvo prosvete - Domovi učenika srednjih škola (30), jun 2024"
+   },
+   "source_url": "https://prosveta.gov.rs/wp-content/uploads/2024/06/Domovi-ucenika-srednjih-skola.pdf"
+  },
+  {
+   "name": "Dom učenika srednjih škola – Užice",
+   "type_slug": "dom-ucenika",
+   "town": "Užice",
+   "municipality": null,
+   "address": "Užičke republike 116",
+   "phones": [
+    "031/552-645"
+   ],
+   "emails": [
+    "domucenikauzice@gmail.com"
+   ],
+   "website": "https://www.domucenika.rs",
+   "hours": null,
+   "extra": {
+    "ownership": "javna",
+    "capacity": 499,
+    "registry": "Ministarstvo prosvete - Domovi učenika srednjih škola (30), jun 2024"
+   },
+   "source_url": "https://prosveta.gov.rs/wp-content/uploads/2024/06/Domovi-ucenika-srednjih-skola.pdf"
+  },
+  {
+   "name": "Dom učenika srednjih škola – Ivanjica",
+   "type_slug": "dom-ucenika",
+   "town": "Ivanjica",
+   "municipality": null,
+   "address": "Milinka Kušića 112",
+   "phones": [
+    "032/661-513"
+   ],
+   "emails": [
+    "direktor.ivanjica@domucenika.edu.rs"
+   ],
+   "website": "https://www.domucenika.edu.rs",
+   "hours": null,
+   "extra": {
+    "ownership": "javna",
+    "capacity": 70,
+    "registry": "Ministarstvo prosvete - Domovi učenika srednjih škola (30), jun 2024"
+   },
+   "source_url": "https://prosveta.gov.rs/wp-content/uploads/2024/06/Domovi-ucenika-srednjih-skola.pdf"
+  },
+  {
+   "name": "Dom učenika srednjih škola – Zaječar",
+   "type_slug": "dom-ucenika",
+   "town": "Zaječar",
+   "municipality": null,
+   "address": "Skopljanska bb",
+   "phones": [
+    "019/430-915"
+   ],
+   "emails": [
+    "internatza@mts.rs"
+   ],
+   "website": "https://www.internatza.edu.rs",
+   "hours": null,
+   "extra": {
+    "ownership": "javna",
+    "capacity": 270,
+    "registry": "Ministarstvo prosvete - Domovi učenika srednjih škola (30), jun 2024"
+   },
+   "source_url": "https://prosveta.gov.rs/wp-content/uploads/2024/06/Domovi-ucenika-srednjih-skola.pdf"
+  },
+  {
+   "name": "Dom učenika srednjih škola – Knjaževac",
+   "type_slug": "dom-ucenika",
+   "town": "Knjaževac",
+   "municipality": null,
+   "address": "Kaplarova 10",
+   "phones": [
+    "019/733-142",
+    "019/730-105"
+   ],
+   "emails": [
+    "duss.knjaz@mts.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "ownership": "javna",
+    "capacity": 100,
+    "registry": "Ministarstvo prosvete - Domovi učenika srednjih škola (30), jun 2024"
+   },
+   "source_url": "https://prosveta.gov.rs/wp-content/uploads/2024/06/Domovi-ucenika-srednjih-skola.pdf"
+  },
+  {
+   "name": "Dom učenika srednjih škola „Srećno“",
+   "type_slug": "dom-ucenika",
+   "town": "Ćuprija",
+   "municipality": null,
+   "address": "Kneza Miloša bb",
+   "phones": [
+    "035/8871-950"
+   ],
+   "emails": [
+    "info@dus.rs"
+   ],
+   "website": "https://www.dus.rs",
+   "hours": null,
+   "extra": {
+    "ownership": "javna",
+    "capacity": 100,
+    "registry": "Ministarstvo prosvete - Domovi učenika srednjih škola (30), jun 2024"
+   },
+   "source_url": "https://prosveta.gov.rs/wp-content/uploads/2024/06/Domovi-ucenika-srednjih-skola.pdf"
+  },
+  {
+   "name": "Dom učenika srednjih škola „Brankovo kolo“",
+   "type_slug": "dom-ucenika",
+   "town": "Novi Sad",
+   "municipality": null,
+   "address": "Episkopa Visariona 3",
+   "phones": [
+    "021/528-263",
+    "021/425-441",
+    "021/422-784"
+   ],
+   "emails": [
+    "office@dombrankovokolo.rs"
+   ],
+   "website": "https://www.dombrankovokolo.rs",
+   "hours": null,
+   "extra": {
+    "ownership": "javna",
+    "capacity": 409,
+    "registry": "Ministarstvo prosvete - Domovi učenika srednjih škola (30), jun 2024"
+   },
+   "source_url": "https://prosveta.gov.rs/wp-content/uploads/2024/06/Domovi-ucenika-srednjih-skola.pdf"
+  },
+  {
+   "name": "Srednjoškolski dom Novi Sad",
+   "type_slug": "dom-ucenika",
+   "town": "Novi Sad",
+   "municipality": null,
+   "address": "Nikolajevska 1",
+   "phones": [
+    "021/523-636",
+    "021/423-664"
+   ],
+   "emails": [
+    "sdom@eunet.rs"
+   ],
+   "website": "https://www.srednjoskolskidom.edu.rs",
+   "hours": null,
+   "extra": {
+    "ownership": "javna",
+    "capacity": 200,
+    "registry": "Ministarstvo prosvete - Domovi učenika srednjih škola (30), jun 2024"
+   },
+   "source_url": "https://prosveta.gov.rs/wp-content/uploads/2024/06/Domovi-ucenika-srednjih-skola.pdf"
+  },
+  {
+   "name": "Dom učenika srednjih škola „Angelina Kojić Gina“",
+   "type_slug": "dom-ucenika",
+   "town": "Zrenjanin",
+   "municipality": null,
+   "address": "Cara Dušana 4",
+   "phones": [
+    "023/561-467",
+    "023/561-498"
+   ],
+   "emails": [
+    "office@zrint.edu.rs"
+   ],
+   "website": "https://www.zrint.edu.rs",
+   "hours": null,
+   "extra": {
+    "ownership": "javna",
+    "capacity": 316,
+    "registry": "Ministarstvo prosvete - Domovi učenika srednjih škola (30), jun 2024"
+   },
+   "source_url": "https://prosveta.gov.rs/wp-content/uploads/2024/06/Domovi-ucenika-srednjih-skola.pdf"
+  },
+  {
+   "name": "Dom učenika srednjih škola – Sremska Mitrovica",
+   "type_slug": "dom-ucenika",
+   "town": "Sremska Mitrovica",
+   "municipality": null,
+   "address": "Planinska 1",
+   "phones": [
+    "022/631-722"
+   ],
+   "emails": [
+    "smdom5@mts.rs"
+   ],
+   "website": "https://www.domucenika-sm.edu.rs",
+   "hours": null,
+   "extra": {
+    "ownership": "javna",
+    "capacity": 180,
+    "registry": "Ministarstvo prosvete - Domovi učenika srednjih škola (30), jun 2024"
+   },
+   "source_url": "https://prosveta.gov.rs/wp-content/uploads/2024/06/Domovi-ucenika-srednjih-skola.pdf"
+  },
+  {
+   "name": "Dom učenika srednjih škola – Subotica",
+   "type_slug": "dom-ucenika",
+   "town": "Subotica",
+   "municipality": null,
+   "address": "Harambašićeva 22",
+   "phones": [
+    "024/555-510"
+   ],
+   "emails": [
+    "dom@internatsu.edu.rs"
+   ],
+   "website": "https://www.internatsu.edu.rs",
+   "hours": null,
+   "extra": {
+    "ownership": "javna",
+    "capacity": 464,
+    "registry": "Ministarstvo prosvete - Domovi učenika srednjih škola (30), jun 2024"
+   },
+   "source_url": "https://prosveta.gov.rs/wp-content/uploads/2024/06/Domovi-ucenika-srednjih-skola.pdf"
+  },
+  {
+   "name": "Dom učenika srednjih škola „Nikola Vojvodić“",
+   "type_slug": "dom-ucenika",
+   "town": "Kikinda",
+   "municipality": null,
+   "address": "Branka Vujina 13",
+   "phones": [
+    "0230/436-212",
+    "0230/436-230"
+   ],
+   "emails": [
+    "nikolavojvodic@dukikinda.edu.rs"
+   ],
+   "website": "https://www.dukikinda.edu.rs",
+   "hours": null,
+   "extra": {
+    "ownership": "javna",
+    "capacity": 146,
+    "registry": "Ministarstvo prosvete - Domovi učenika srednjih škola (30), jun 2024"
+   },
+   "source_url": "https://prosveta.gov.rs/wp-content/uploads/2024/06/Domovi-ucenika-srednjih-skola.pdf"
+  },
+  {
+   "name": "Dom učenika srednjih škola – Sombor",
+   "type_slug": "dom-ucenika",
+   "town": "Sombor",
+   "municipality": null,
+   "address": "Staparski put 1a",
+   "phones": [
+    "025/433-660"
+   ],
+   "emails": [
+    "office@domucenikasombor.rs"
+   ],
+   "website": "https://www.domucenikasombor.rs",
+   "hours": null,
+   "extra": {
+    "ownership": "javna",
+    "capacity": 253,
+    "registry": "Ministarstvo prosvete - Domovi učenika srednjih škola (30), jun 2024"
+   },
+   "source_url": "https://prosveta.gov.rs/wp-content/uploads/2024/06/Domovi-ucenika-srednjih-skola.pdf"
+  },
+  {
+   "name": "Dom učenika srednjih škola – Vršac",
+   "type_slug": "dom-ucenika",
+   "town": "Vršac",
+   "municipality": null,
+   "address": "Stevana Nemanje 9",
+   "phones": [
+    "013/830-466",
+    "013/838-011"
+   ],
+   "emails": [
+    "direktor@internat-vrsac.edu.rs"
+   ],
+   "website": "https://www.internat-vrsac.edu.rs",
+   "hours": null,
+   "extra": {
+    "ownership": "javna",
+    "capacity": 160,
+    "registry": "Ministarstvo prosvete - Domovi učenika srednjih škola (30), jun 2024"
+   },
+   "source_url": "https://prosveta.gov.rs/wp-content/uploads/2024/06/Domovi-ucenika-srednjih-skola.pdf"
+  }
+ ]
+}

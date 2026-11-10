@@ -1,0 +1,278 @@
+{
+"source": {
+"name": "NBS — Registar platnih institucija i Registar institucija elektronskog novca",
+"url": "https://www.nbs.rs/sr/finansijske-institucije/pi-ien/",
+"fetched_at": "2026-11-10",
+"urls": [
+"https://webappcenter.nbs.rs/WebApp/FinInstPayment/LegalEntityFinInstitution/Index",
+"https://webappcenter.nbs.rs/WebApp/FinInstElectronicMoney/LegalEntityFinInstitution/Index"
+]
+},
+"note": "6 payment institutions + 5 electronic money institutions, head offices (all entries of both NBS registers). Third-country EMI list and postal-operator agents register not included.",
+"rows": [
+{
+"name": "PREDUZEĆE ZA TRGOVINU NA VELIKO I MALO VIP SISTEM DOO BEOGRAD",
+"type_slug": "platna-institucija",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": "Resavska 2",
+"phones": [
+"011 425-22-10",
+"011 425-22-04"
+],
+"emails": [
+"office@vipsistem.rs"
+],
+"website": "https://www.vipsistem.rs",
+"hours": null,
+"extra": {
+"registration_no": "17098314",
+"pib": "101953421",
+"postal_code": "11000",
+"licence": "IO NBS br. 49",
+"licence_date": "7.4.2016.",
+"kind": "platna institucija"
+},
+"source_url": "https://webappcenter.nbs.rs/WebApp/FinInstPayment/LegalEntityFinInstitution/Details?id=e847996f-ea83-4333-bdd7-abb2d71bcdc7"
+},
+{
+"name": "PayX doo Beograd",
+"type_slug": "platna-institucija",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": "Šumatovačka 3a",
+"phones": [
+"011 3988-500"
+],
+"emails": [
+"office@payx.rs"
+],
+"website": "https://www.payx.rs",
+"hours": null,
+"extra": {
+"registration_no": "21214990",
+"pib": "109637016",
+"postal_code": "11000",
+"licence": "IO NBS br. 32",
+"licence_date": "14.2.2017.",
+"kind": "platna institucija"
+},
+"source_url": "https://webappcenter.nbs.rs/WebApp/FinInstPayment/LegalEntityFinInstitution/Details?id=df93e4d6-d2b2-4d7f-b69d-b1d81b099d17"
+},
+{
+"name": "Moneta Financial Services doo Beograd",
+"type_slug": "platna-institucija",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": "Miodraga Petrovića Čkalje 8, sprat 2, stan 6",
+"phones": [
+"011 285-15-92"
+],
+"emails": [
+"moneta@monetars.rs"
+],
+"website": "https://www.monetars.rs",
+"hours": null,
+"extra": {
+"registration_no": "21160776",
+"pib": "109317688",
+"postal_code": "11000",
+"licence": "IO NBS br. 35",
+"licence_date": "14.3.2017.",
+"kind": "platna institucija"
+},
+"source_url": "https://webappcenter.nbs.rs/WebApp/FinInstPayment/LegalEntityFinInstitution/Details?id=c2208776-4cb7-4b24-b02a-e04e406ca8ae"
+},
+{
+"name": "Transfernova doo Beograd-Savski Venac",
+"type_slug": "platna-institucija",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": "Kronštatska 5",
+"phones": [
+"011 4230 201"
+],
+"emails": [
+"info@transfernova.com"
+],
+"website": "https://www.transfernova.com",
+"hours": null,
+"extra": {
+"registration_no": "21257419",
+"pib": "109867174",
+"postal_code": "11000",
+"licence": "14.03.2017. IO NBS br. 37, 06.06.2019. IO NBS br. 48 i 10.08.2023. IO NBS br. 68",
+"kind": "platna institucija"
+},
+"source_url": "https://webappcenter.nbs.rs/WebApp/FinInstPayment/LegalEntityFinInstitution/Details?id=1c2140ce-dc9e-4f9a-b86f-3c70f745cd42"
+},
+{
+"name": "Društvo sa ograničenom odgovornošću VAKEL, Šabac-Platna institucija",
+"type_slug": "platna-institucija",
+"town": "Šabac",
+"municipality": "Šabac",
+"address": "Kralja Milutina 146",
+"phones": [
+"015 716 00 88"
+],
+"emails": [
+"office@vakel.rs"
+],
+"website": "https://www.vakel.rs",
+"hours": null,
+"extra": {
+"registration_no": "21410799",
+"pib": "110989887",
+"postal_code": "15000",
+"licence": "IO NBS br. 47",
+"licence_date": "6.6.2019.",
+"kind": "platna institucija"
+},
+"source_url": "https://webappcenter.nbs.rs/WebApp/FinInstPayment/LegalEntityFinInstitution/Details?id=ed73362d-ff2a-4af4-85d3-31ee7e81ca64"
+},
+{
+"name": "DUNAV - UNION d.o.o. Beograd",
+"type_slug": "platna-institucija",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": "Požarevačka 21, sprat 4, stan 17",
+"phones": [
+"011/608 33 33"
+],
+"emails": [
+"office@dunavunion.rs"
+],
+"website": "https://www.dunavunion.rs",
+"hours": null,
+"extra": {
+"registration_no": "7504080",
+"pib": "101150429",
+"postal_code": "11000",
+"licence": "IO NBS br. 105",
+"licence_date": "10.9.2020.",
+"kind": "platna institucija"
+},
+"source_url": "https://webappcenter.nbs.rs/WebApp/FinInstPayment/LegalEntityFinInstitution/Details?id=86314655-0da9-466c-827d-68f7e4c7cc69"
+},
+{
+"name": "Led Pay d.o.o. Beograd",
+"type_slug": "platna-institucija",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": "Milutina Milankovića 23",
+"phones": [
+"011 4024796"
+],
+"emails": [
+"office@ledpay.rs"
+],
+"website": "https://www.ledpay.rs",
+"hours": null,
+"extra": {
+"registration_no": "21663654",
+"pib": "112390035",
+"postal_code": "11070",
+"licence": "IO NBS br. 68",
+"licence_date": "13.4.2021.",
+"kind": "institucija elektronskog novca"
+},
+"source_url": "https://webappcenter.nbs.rs/WebApp/FinInstElectronicMoney/LegalEntityFinInstitution/Details?id=fe3f40c4-b353-4108-a3f1-4b11aa82b99d"
+},
+{
+"name": "AKCIONARSKO DRUŠTVO ZA RAD SA PLATNIM KARTICAMA CHIP CARD BEOGRAD (VOŽDOVAC)",
+"type_slug": "platna-institucija",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": "Bose Milićević 8",
+"phones": [
+"011 30-40-970"
+],
+"emails": [
+"office@chipcard.rs"
+],
+"website": "https://www.chipcard.rs",
+"hours": null,
+"extra": {
+"registration_no": "17564374",
+"pib": "103425560",
+"postal_code": "11000",
+"licence": "IO NBS br. 76",
+"licence_date": "13.5.2021.",
+"kind": "institucija elektronskog novca"
+},
+"source_url": "https://webappcenter.nbs.rs/WebApp/FinInstElectronicMoney/LegalEntityFinInstitution/Details?id=72ab39dc-d94c-4375-8aa3-a82afc4daa6b"
+},
+{
+"name": "PAYSPOT D.O.O. NOVI SAD",
+"type_slug": "platna-institucija",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": "Branimira Ćosića 2, sprat II, stan 201B",
+"phones": [
+"021 424-575"
+],
+"emails": [
+"office@payspot.rs"
+],
+"website": "https://www.payspot.rs",
+"hours": null,
+"extra": {
+"registration_no": "21157074",
+"pib": "109296534",
+"postal_code": "21000",
+"licence": "IO NBS br. 4",
+"licence_date": "9.2.2023.",
+"kind": "institucija elektronskog novca"
+},
+"source_url": "https://webappcenter.nbs.rs/WebApp/FinInstElectronicMoney/LegalEntityFinInstitution/Details?id=b860ab7f-b6ec-44f2-a3f2-711ba1272317"
+},
+{
+"name": "TRANSAKS d.o.o. Beograd",
+"type_slug": "platna-institucija",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": "Pariska 8",
+"phones": [
+"063 7 200 100"
+],
+"emails": [
+"office@transaks.rs"
+],
+"website": "https://www.transaks.rs",
+"hours": null,
+"extra": {
+"registration_no": "21150860",
+"pib": "109259762",
+"postal_code": "11000",
+"licence": "IO NBS br. 80",
+"licence_date": "9.11.2023.",
+"kind": "institucija elektronskog novca"
+},
+"source_url": "https://webappcenter.nbs.rs/WebApp/FinInstElectronicMoney/LegalEntityFinInstitution/Details?id=20455af7-158d-4d46-a139-9f4166623f3c"
+},
+{
+"name": "TENFORE DOO BEOGRAD INSTITUCIJA ELEKTRONSKOG NOVCA",
+"type_slug": "platna-institucija",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": "Dobračina 60",
+"phones": [
+"011 333-4951"
+],
+"emails": [
+"info@tenfore.net"
+],
+"website": "https://www.tenfore.net",
+"hours": null,
+"extra": {
+"registration_no": "17327852",
+"pib": "101511791",
+"postal_code": "11000",
+"licence": "IO NBS br. 65",
+"licence_date": "10.10.2024.",
+"kind": "institucija elektronskog novca"
+},
+"source_url": "https://webappcenter.nbs.rs/WebApp/FinInstElectronicMoney/LegalEntityFinInstitution/Details?id=626e794c-7c95-414e-a57e-3e569a776d96"
+}
+]
+}

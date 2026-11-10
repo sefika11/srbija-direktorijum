@@ -1,0 +1,205 @@
+{
+"source": {
+"name": "ATS (Akreditaciono telo Srbije) public register of accredited conformity assessment bodies - medical laboratories SRPS EN ISO 15189",
+"url": "http://www.registar.ats.rs/?q=&status=0&suspendovan=1&vrsta_akreditacije=3",
+"fetched_at": "2026-11-10"
+},
+"note": "PARTIAL: only ATS-accredited medical laboratories (15 listed, ISO 15189:2023; the 2014-standard category returned 0). The register does not state ownership, so public-sector labs (e.g. UKCS) are included and must be filtered; no official full list of private labs (APR Registar zdravstvenih ustanova, pretraga2.apr.gov.rs returns 403) was obtainable.",
+"rows": [
+{
+"name": "VESNA ČEMERIKIĆ MARTINOVIĆ PR, POLIKLINIKA BEO-LAB PLUS BEOGRAD",
+"type_slug": "privatna-laboratorija",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": "Resavska br. 58-60",
+"phones": [
+"+381 11 36 22 888"
+],
+"emails": [],
+"website": "http://www.beo-lab.rs/",
+"hours": null,
+"extra": {
+"accreditation_no": "03-002",
+"standard": "SRPS EN ISO 15189:2023",
+"accreditation_status": "Акредитован",
+"sector": "not stated by register (may include public-sector labs)"
+},
+"source_url": "http://www.registar.ats.rs/predmet/457/"
+},
+{
+"name": "Zavod za laboratorijsku dijagnostiku „BIOMEDICA“",
+"type_slug": "privatna-laboratorija",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": "Požeška 67a",
+"phones": [
+"381 11 344 97 17"
+],
+"emails": [],
+"website": "http://www.biomedicazavod.rs/",
+"hours": null,
+"extra": {
+"accreditation_no": "03-003",
+"standard": "SRPS EN ISO 15189:2023",
+"accreditation_status": "Акредитован",
+"sector": "not stated by register (may include public-sector labs)"
+},
+"source_url": "http://www.registar.ats.rs/predmet/458/"
+},
+{
+"name": "Zavod za laboratorijsku dijagnostiku “KONZILIJUM”, Beograd",
+"type_slug": "privatna-laboratorija",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": "Svetog Save 28 a",
+"phones": [],
+"emails": [],
+"website": "http://www.medigroup.rs/",
+"hours": null,
+"extra": {
+"accreditation_no": "03-004",
+"standard": "SRPS EN ISO 15189:2023",
+"accreditation_status": "Акредитован",
+"sector": "not stated by register (may include public-sector labs)"
+},
+"source_url": "http://www.registar.ats.rs/predmet/753/"
+},
+{
+"name": "DRAGAN MILENKOVIĆ PR, POLIKLINIKA ZA OBLAST INTERNE MEDICINE, LABORATORIJE ZA MEDICINSKU BIOHEMIJU, LABORATORIJE ZA MIKROBIOLOGIJU I LABORATORIJE ZA PATOHISTOLOGIJU HUMAN",
+"type_slug": "privatna-laboratorija",
+"town": "Niš",
+"municipality": "Niš",
+"address": "Petra Seratlića 21",
+"phones": [
+"+381 18 538 889"
+],
+"emails": [],
+"website": "http://www.poliklinikahuman.rs/",
+"hours": null,
+"extra": {
+"accreditation_no": "03-005",
+"standard": "SRPS EN ISO 15189:2023",
+"accreditation_status": "Акредитован",
+"sector": "not stated by register (may include public-sector labs)"
+},
+"source_url": "http://www.registar.ats.rs/predmet/755/"
+},
+{
+"name": "Institut za medicinu rada Srbije „Dr Dragomir Karajović“ Centar za radiološku zaštitu, Odeljenje za medicinska ispitivanja, Laboratorija za biodozimetriju i citogenetiku",
+"type_slug": "privatna-laboratorija",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": "Deligradska 29",
+"phones": [
+"+381 11 2685 485"
+],
+"emails": [],
+"website": "http://www.imrs.rs/",
+"hours": null,
+"extra": {
+"accreditation_no": "03-006",
+"standard": "SRPS EN ISO 15189:2023",
+"accreditation_status": "Акредитован",
+"sector": "not stated by register (may include public-sector labs)"
+},
+"source_url": "http://www.registar.ats.rs/predmet/858/"
+},
+{
+"name": "Zdravstvena ustanova \"MEDLAB\", Zavod za laboratorijsku dijagnostiku",
+"type_slug": "privatna-laboratorija",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": "Ilije Ognjanovića 1",
+"phones": [
+"+381 21 422 332"
+],
+"emails": [],
+"website": "http://www.medlab.rs/",
+"hours": null,
+"extra": {
+"accreditation_no": "03-008",
+"standard": "SRPS EN ISO 15189:2023",
+"accreditation_status": "Акредитован",
+"sector": "not stated by register (may include public-sector labs)"
+},
+"source_url": "http://www.registar.ats.rs/predmet/886/"
+},
+{
+"name": "Radmila Nikolajević pr, Laboratorija za medicinsku biohemiju Konzilijum-Helix lab",
+"type_slug": "privatna-laboratorija",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": "Kneginje Zorke 30",
+"phones": [],
+"emails": [],
+"website": "http://www.medigroup.rs/",
+"hours": null,
+"extra": {
+"accreditation_no": "03-011",
+"standard": "SRPS EN ISO 15189:2023",
+"accreditation_status": "Акредитован",
+"sector": "not stated by register (may include public-sector labs)"
+},
+"source_url": "http://www.registar.ats.rs/predmet/944/"
+},
+{
+"name": "Zdravstvena ustanova „Jugolab“, Zavod za laboratorijsku dijagnostiku",
+"type_slug": "privatna-laboratorija",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": "Cara Dušana 67",
+"phones": [
+"021/466-804",
+"021/474-0204"
+],
+"emails": [],
+"website": "http://www.jugolab.rs/",
+"hours": null,
+"extra": {
+"accreditation_no": "03-013",
+"standard": "SRPS EN ISO 15189:2023",
+"accreditation_status": "Акредитован",
+"sector": "not stated by register (may include public-sector labs)"
+},
+"source_url": "http://www.registar.ats.rs/predmet/1023/"
+},
+{
+"name": "Snežana Simić PR, Medicinsko biohemijska laboratorija KVARKLAB Kragujevac",
+"type_slug": "privatna-laboratorija",
+"town": "Kragujevac",
+"municipality": "Kragujevac",
+"address": "Janka Veselinovića 81",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"accreditation_no": "03-017",
+"standard": "SRPS EN ISO 15189:2023",
+"accreditation_status": "Акредитован",
+"sector": "not stated by register (may include public-sector labs)"
+},
+"source_url": "http://www.registar.ats.rs/predmet/1303/"
+},
+{
+"name": "Dragana Milić PR Laboratorija za medicinsku biohemiju Aqualab 8 Beograd",
+"type_slug": "privatna-laboratorija",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": "Kneginje Zorke 25-27",
+"phones": [
+"011/2441-551"
+],
+"emails": [],
+"website": "http://www.aqualab.rs/",
+"hours": null,
+"extra": {
+"accreditation_no": "03-018",
+"standard": "SRPS EN ISO 15189:2023",
+"accreditation_status": "Акредитован",
+"sector": "not stated by register (may include public-sector labs)"
+},
+"source_url": "http://www.registar.ats.rs/predmet/1407/"
+}
+]
+}

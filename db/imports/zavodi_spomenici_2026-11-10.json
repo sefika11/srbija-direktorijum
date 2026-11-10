@@ -1,0 +1,294 @@
+{
+ "source": {
+  "name": "Republički zavod za zaštitu spomenika kulture - Mreža zavoda u Srbiji (mapa na sajtu zavoda; podaci iz mape)",
+  "url": "https://www.heritage.gov.rs/cirilica/mreza_zavoda_u_srbiji.php",
+  "fetched_at": "2026-11-10"
+ },
+ "note": "14 zavoda sa zvanične mape 'Mreža zavoda u Srbiji' (embed Google My Maps na sajtu Republičkog zavoda: naziv, telefoni, veb, e-pošta, lokacija). Adrese ulica nisu na mapi - samo za Republički zavod (sa sajta, Radoslava Grujića 11). 'town' je grad lokacije. Nisu dodati zavodi koji nisu na mapi (npr. posebne službe u okviru muzeja). Zavod Priština-Leposavić je izmešten.",
+ "rows": [
+  {
+   "name": "Republički zavod za zaštitu spomenika kulture",
+   "type_slug": "zavod-za-zastitu-spomenika",
+   "town": "Beograd",
+   "municipality": null,
+   "address": "Radoslava Grujića 11",
+   "phones": [
+    "011/2454-786"
+   ],
+   "emails": [
+    "sekretarijat@heritage.gov.rs",
+    "office@heritage.gov.rs"
+   ],
+   "website": "http://www.heritage.gov.rs",
+   "hours": "08-16 (zavod)",
+   "extra": {
+    "level": "republički"
+   },
+   "source_url": "https://www.heritage.gov.rs/cirilica/mreza_zavoda_u_srbiji.php"
+  },
+  {
+   "name": "Zavod za zaštitu spomenika kulture grada Beograda",
+   "type_slug": "zavod-za-zastitu-spomenika",
+   "town": "Beograd",
+   "municipality": null,
+   "address": null,
+   "phones": [
+    "011/3287-557",
+    "011/3287-420",
+    "011/2631-743"
+   ],
+   "emails": [
+    "office@belgradeheritage.com",
+    "zzskgb@beotel.net"
+   ],
+   "website": "http://beogradskonasledje.rs",
+   "hours": null,
+   "extra": {
+    "level": "gradski"
+   },
+   "source_url": "https://www.heritage.gov.rs/cirilica/mreza_zavoda_u_srbiji.php"
+  },
+  {
+   "name": "Pokrajinski zavod za zaštitu spomenika kulture",
+   "type_slug": "zavod-za-zastitu-spomenika",
+   "town": "Petrovaradin",
+   "municipality": null,
+   "address": null,
+   "phones": [
+    "021/6432-576",
+    "021/431-211"
+   ],
+   "emails": [
+    "office@pzzzsk.rs"
+   ],
+   "website": "http://pzzzsk.rs",
+   "hours": null,
+   "extra": {
+    "level": "pokrajinski"
+   },
+   "source_url": "https://www.heritage.gov.rs/cirilica/mreza_zavoda_u_srbiji.php"
+  },
+  {
+   "name": "Zavod za zaštitu spomenika kulture Zrenjanin",
+   "type_slug": "zavod-za-zastitu-spomenika",
+   "town": "Zrenjanin",
+   "municipality": null,
+   "address": null,
+   "phones": [
+    "023/564-366",
+    "023/528-730"
+   ],
+   "emails": [
+    "spomkultzr@gmail.com"
+   ],
+   "website": "http://www.zrenjaninheritage.com",
+   "hours": null,
+   "extra": {
+    "level": "regionalni"
+   },
+   "source_url": "https://www.heritage.gov.rs/cirilica/mreza_zavoda_u_srbiji.php"
+  },
+  {
+   "name": "Zavod za zaštitu spomenika kulture Pančevo",
+   "type_slug": "zavod-za-zastitu-spomenika",
+   "town": "Pančevo",
+   "municipality": null,
+   "address": null,
+   "phones": [
+    "013/351-472",
+    "013/351-851"
+   ],
+   "emails": [
+    "office@zzskpancevo.org",
+    "zavod@panet.rs"
+   ],
+   "website": "http://www.zzskpancevo.org",
+   "hours": null,
+   "extra": {
+    "level": "regionalni"
+   },
+   "source_url": "https://www.heritage.gov.rs/cirilica/mreza_zavoda_u_srbiji.php"
+  },
+  {
+   "name": "Zavod za zaštitu spomenika kulture Valjevo",
+   "type_slug": "zavod-za-zastitu-spomenika",
+   "town": "Valjevo",
+   "municipality": null,
+   "address": null,
+   "phones": [
+    "014/3519-655",
+    "014/3519-656"
+   ],
+   "emails": [
+    "office@vaza.co.rs"
+   ],
+   "website": "http://vaza.co.rs",
+   "hours": null,
+   "extra": {
+    "level": "regionalni"
+   },
+   "source_url": "https://www.heritage.gov.rs/cirilica/mreza_zavoda_u_srbiji.php"
+  },
+  {
+   "name": "Zavod za zaštitu spomenika kulture Novi Sad",
+   "type_slug": "zavod-za-zastitu-spomenika",
+   "town": "Novi Sad",
+   "municipality": null,
+   "address": null,
+   "phones": [
+    "021/557-060",
+    "021/557-061"
+   ],
+   "emails": [
+    "zzskgns@sbb.rs"
+   ],
+   "website": "http://www.zzskgns.rs",
+   "hours": null,
+   "extra": {
+    "level": "gradski"
+   },
+   "source_url": "https://www.heritage.gov.rs/cirilica/mreza_zavoda_u_srbiji.php"
+  },
+  {
+   "name": "Zavod za zaštitu spomenika kulture Sremska Mitrovica",
+   "type_slug": "zavod-za-zastitu-spomenika",
+   "town": "Sremska Mitrovica",
+   "municipality": null,
+   "address": null,
+   "phones": [
+    "022/621-568",
+    "022/612-708",
+    "022/613-794"
+   ],
+   "emails": [
+    "sm.zzsksm@neobee.net"
+   ],
+   "website": "https://zavodsm.rs",
+   "hours": null,
+   "extra": {
+    "level": "regionalni"
+   },
+   "source_url": "https://www.heritage.gov.rs/cirilica/mreza_zavoda_u_srbiji.php"
+  },
+  {
+   "name": "Regionalni zavod za zaštitu spomenika kulture Smederevo",
+   "type_slug": "zavod-za-zastitu-spomenika",
+   "town": "Smederevo",
+   "municipality": null,
+   "address": null,
+   "phones": [
+    "026/46-22-309",
+    "026/614-010"
+   ],
+   "emails": [
+    "office@spomenicikulture.org.rs"
+   ],
+   "website": "http://spomenicikulture.org.rs",
+   "hours": null,
+   "extra": {
+    "level": "regionalni"
+   },
+   "source_url": "https://www.heritage.gov.rs/cirilica/mreza_zavoda_u_srbiji.php"
+  },
+  {
+   "name": "Zavod za zaštitu spomenika kulture Kraljevo",
+   "type_slug": "zavod-za-zastitu-spomenika",
+   "town": "Kraljevo",
+   "municipality": null,
+   "address": null,
+   "phones": [
+    "036/331-866"
+   ],
+   "emails": [
+    "office@zzskv.rs"
+   ],
+   "website": "http://zzskv.rs",
+   "hours": null,
+   "extra": {
+    "level": "regionalni"
+   },
+   "source_url": "https://www.heritage.gov.rs/cirilica/mreza_zavoda_u_srbiji.php"
+  },
+  {
+   "name": "Zavod za zaštitu spomenika kulture Niš",
+   "type_slug": "zavod-za-zastitu-spomenika",
+   "town": "Niš",
+   "municipality": null,
+   "address": null,
+   "phones": [
+    "018/523-412",
+    "018/523-414"
+   ],
+   "emails": [
+    "kontakt@zzsknis.rs"
+   ],
+   "website": "http://www.zzsknis.rs",
+   "hours": null,
+   "extra": {
+    "level": "regionalni"
+   },
+   "source_url": "https://www.heritage.gov.rs/cirilica/mreza_zavoda_u_srbiji.php"
+  },
+  {
+   "name": "Zavod za zaštitu spomenika kulture Kragujevac",
+   "type_slug": "zavod-za-zastitu-spomenika",
+   "town": "Kragujevac",
+   "municipality": null,
+   "address": null,
+   "phones": [
+    "034/335-595",
+    "034/335-347"
+   ],
+   "emails": [
+    "zavod@kulturnonasledje.com"
+   ],
+   "website": "http://www.kulturnonasledje.com",
+   "hours": null,
+   "extra": {
+    "level": "regionalni"
+   },
+   "source_url": "https://www.heritage.gov.rs/cirilica/mreza_zavoda_u_srbiji.php"
+  },
+  {
+   "name": "Međuopštinski zavod za zaštitu spomenika kulture Subotica",
+   "type_slug": "zavod-za-zastitu-spomenika",
+   "town": "Subotica",
+   "municipality": null,
+   "address": null,
+   "phones": [
+    "024/557-606",
+    "024/556-901"
+   ],
+   "emails": [
+    "office@heritage-su.org.rs"
+   ],
+   "website": "http://www.heritage-su.org.rs",
+   "hours": null,
+   "extra": {
+    "level": "međuopštinski"
+   },
+   "source_url": "https://www.heritage.gov.rs/cirilica/mreza_zavoda_u_srbiji.php"
+  },
+  {
+   "name": "Pokrajinski zavod za zaštitu spomenika kulture Priština-Leposavić",
+   "type_slug": "zavod-za-zastitu-spomenika",
+   "town": "Leposavić",
+   "municipality": null,
+   "address": null,
+   "phones": [
+    "028/83-105",
+    "028/84-206"
+   ],
+   "emails": [
+    "pzzssk-leposavic@open.telekom.rs",
+    "zorangaric63@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "level": "pokrajinski (privremeno izmešten sa Kosova i Metohije)"
+   },
+   "source_url": "https://www.heritage.gov.rs/cirilica/mreza_zavoda_u_srbiji.php"
+  }
+ ]
+}

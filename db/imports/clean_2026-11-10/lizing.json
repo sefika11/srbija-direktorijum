@@ -1,0 +1,266 @@
+{
+"source": {
+"name": "NBS — Spisak davalaca finansijskog lizinga",
+"url": "https://webappcenter.nbs.rs/WebApp/FinInstLeasing/LegalEntityFinInstitution/Index",
+"fetched_at": "2026-11-10"
+},
+"note": "Head offices of all listed financial leasing providers (13 listed, 12 active). Excluded (in liquidation): ERB Leasing akcionarsko društvo Beograd - U LIKVIDACIJI",
+"rows": [
+{
+"name": "AIK LEASING DOO BEOGRAD",
+"type_slug": "lizing",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": "Cara Dušana 58",
+"phones": [
+"381 11 450 2044",
+"381 66 822 0941"
+],
+"emails": [
+"office@aikleasing.rs"
+],
+"website": "https://www.aikleasing.rs",
+"hours": null,
+"extra": {
+"registration_no": "17352679",
+"pib": "100043571",
+"postal_code": "11000"
+},
+"source_url": "https://webappcenter.nbs.rs/WebApp/FinInstLeasing/LegalEntityFinInstitution/Details?id=ee386639-a98f-4953-8fa7-fd9893f17293"
+},
+{
+"name": "ALTA LEASING DOO BEOGRAD",
+"type_slug": "lizing",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": "BULEVAR ZORANA ĐINĐIĆA 121",
+"phones": [
+"381 11 2016 500",
+"381 11 2016 501"
+],
+"emails": [
+"info@altaleasing.rs"
+],
+"website": "https://www.altaleasing.rs",
+"hours": null,
+"extra": {
+"registration_no": "17481495",
+"pib": "102843789",
+"postal_code": "11070"
+},
+"source_url": "https://webappcenter.nbs.rs/WebApp/FinInstLeasing/LegalEntityFinInstitution/Details?id=abaf2231-7d90-441d-99e1-e6e43db30696"
+},
+{
+"name": "BKS Leasing d.o.o. Beograd",
+"type_slug": "lizing",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": "Omladinskih brigada 88-90, 2. sprat",
+"phones": [
+"381 11 4412 880"
+],
+"emails": [
+"info@bks-leasing.rs"
+],
+"website": "https://www.bks-leasing.rs",
+"hours": null,
+"extra": {
+"registration_no": "21877379",
+"pib": "113495202",
+"postal_code": "11000"
+},
+"source_url": "https://webappcenter.nbs.rs/WebApp/FinInstLeasing/LegalEntityFinInstitution/Details?id=26f5ba41-0541-4dd9-9bfd-b9dbd486da48"
+},
+{
+"name": "PREDUZEĆE ZA FINANSIJSKI LIZING ERSTE LEASING DOO, BEOGRAD",
+"type_slug": "lizing",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": "Milutina Milankovića 3a",
+"phones": [
+"381 11 2010 700"
+],
+"emails": [
+"office@ersteleasing.rs"
+],
+"website": "https://www.erstebank.rs/sr/erste-leasing",
+"hours": null,
+"extra": {
+"registration_no": "17488104",
+"pib": "102941384",
+"postal_code": "11070"
+},
+"source_url": "https://webappcenter.nbs.rs/WebApp/FinInstLeasing/LegalEntityFinInstitution/Details?id=eed9564e-f82e-4382-8aec-93547abf9d20"
+},
+{
+"name": "PRIVREDNO DRUŠTVO ZA FINANSIJSKI LIZING INTESA LEASING DOO, BEOGRAD (NOVI BEOGRAD)",
+"type_slug": "lizing",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": "Milentija Popovića 7 b, sprat 3",
+"phones": [
+"381 11 2025 400"
+],
+"emails": [
+"info@intesaleasing.rs"
+],
+"website": "https://www.intesaleasingbeograd.com",
+"hours": null,
+"extra": {
+"registration_no": "17492713",
+"pib": "103023875",
+"postal_code": "11070"
+},
+"source_url": "https://webappcenter.nbs.rs/WebApp/FinInstLeasing/LegalEntityFinInstitution/Details?id=22a13012-de0b-414e-b736-3c6e8cff0ac0"
+},
+{
+"name": "DRUŠTVO SA OGRANIČENOM ODGOVORNOŠĆU ZA FINANSIJSKI LIZING LIPAKS, BEOGRAD",
+"type_slug": "lizing",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": "Vidska 29a",
+"phones": [
+"381 11 244 9229"
+],
+"emails": [
+"office@lipaks.rs"
+],
+"website": "https://www.lipaks.rs",
+"hours": null,
+"extra": {
+"registration_no": "17511645",
+"pib": "103065722",
+"postal_code": "11050"
+},
+"source_url": "https://webappcenter.nbs.rs/WebApp/FinInstLeasing/LegalEntityFinInstitution/Details?id=932e8d7a-612d-4f34-b5a5-a5c6f321f60a"
+},
+{
+"name": "NLB Lease&Go Leasing d.o.o. Beograd",
+"type_slug": "lizing",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": "Bulevar Mihajla Pupina 165 v, I sprat",
+"phones": [
+"381 11 7222 123",
+"381 11 7222 125"
+],
+"emails": [
+"office@nlbleasego.rs"
+],
+"website": "https://www.nlbleasego.rs",
+"hours": null,
+"extra": {
+"registration_no": "17518844",
+"pib": "103156991",
+"postal_code": "11070"
+},
+"source_url": "https://webappcenter.nbs.rs/WebApp/FinInstLeasing/LegalEntityFinInstitution/Details?id=7ddb53eb-7254-4044-a193-2e7f4abbcc26"
+},
+{
+"name": "OTP Leasing Srbija d.o.o. Beograd (Novi Beograd)",
+"type_slug": "lizing",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": "Bulevar Zorana Đinđića 50 a/b",
+"phones": [
+"381 11 2221 369"
+],
+"emails": [
+"otpleasing.srbija@otpleasing.rs"
+],
+"website": "https://www.otpleasingsrbija.rs",
+"hours": null,
+"extra": {
+"registration_no": "20116161",
+"pib": "104219657",
+"postal_code": "11070"
+},
+"source_url": "https://webappcenter.nbs.rs/WebApp/FinInstLeasing/LegalEntityFinInstitution/Details?id=8163bb66-a901-490a-a39c-73c783c34f83"
+},
+{
+"name": "PREDUZEĆE ZA FINANSIJSKI LIZING PORSCHE LEASING SCG DOO, BEOGRAD (PALILULA)",
+"type_slug": "lizing",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": "Zrenjaninski put 9 a",
+"phones": [
+"381 11 3042 440",
+"381 800 350 350"
+],
+"emails": [
+"info@porscheleasing.rs"
+],
+"website": "https://www.porscheleasing.rs",
+"hours": null,
+"extra": {
+"registration_no": "17544004",
+"pib": "103334127",
+"postal_code": "11210"
+},
+"source_url": "https://webappcenter.nbs.rs/WebApp/FinInstLeasing/LegalEntityFinInstitution/Details?id=9ba659af-777c-45b8-b367-415fc1df084c"
+},
+{
+"name": "PREDUZEĆE ZA POSREDOVANJE, PROMET I USLUGE RAIFFEISEN LEASING DOO BEOGRAD",
+"type_slug": "lizing",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": "Đorđa Stanojevića 16",
+"phones": [
+"381 11 2207400"
+],
+"emails": [
+"info.leasing@raiffeisen-leasing.rs"
+],
+"website": "https://www.raiffeisen-leasing.rs",
+"hours": null,
+"extra": {
+"registration_no": "17457284",
+"pib": "102624786",
+"postal_code": "11070"
+},
+"source_url": "https://webappcenter.nbs.rs/WebApp/FinInstLeasing/LegalEntityFinInstitution/Details?id=9ddcfcb9-aaf8-48fc-a7e2-0de84a5a4a81"
+},
+{
+"name": "SCANIA LEASING RS DOO KRNJEŠEVCI",
+"type_slug": "lizing",
+"town": "Krnješevci",
+"municipality": "Stara Pazova",
+"address": "Druga industrijska zona 6",
+"phones": [
+"381 11 414 4178"
+],
+"emails": [
+"leasing.rs@scania.com"
+],
+"website": "https://www.scania.rs",
+"hours": null,
+"extra": {
+"registration_no": "21401625",
+"pib": "110917710",
+"postal_code": "22314"
+},
+"source_url": "https://webappcenter.nbs.rs/WebApp/FinInstLeasing/LegalEntityFinInstitution/Details?id=91e0a0f9-c0b1-43c7-ab6e-62b208df0139"
+},
+{
+"name": "PRIVREDNO DRUŠTVO ZA FINANSIJSKI LIZING UNICREDIT LEASING SRBIJA DOO BEOGRAD (NOVI BEOGRAD)",
+"type_slug": "lizing",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": "Jurija Gagarina 12",
+"phones": [
+"381 11 309 3500"
+],
+"emails": [
+"episarnica-lizing@unicreditgroup.rs"
+],
+"website": "https://www.unicreditbank.rs/rs/leasing.html#home",
+"hours": null,
+"extra": {
+"registration_no": "17556797",
+"pib": "103374714",
+"postal_code": "11070"
+},
+"source_url": "https://webappcenter.nbs.rs/WebApp/FinInstLeasing/LegalEntityFinInstitution/Details?id=3a0d5f82-b5b2-4ca9-a39a-7844dfdfe0c3"
+}
+]
+}

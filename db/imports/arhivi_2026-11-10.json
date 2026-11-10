@@ -1,0 +1,823 @@
+{
+ "source": {
+  "name": "Državni arhiv Srbije - Arhivi u Srbiji (mreža arhiva)",
+  "url": "https://www.arhivsrbije.rs/arhivska-delatnost/arhivi-u-srbiji",
+  "fetched_at": "2026-11-10"
+ },
+ "note": "Zvanična lista mreže arhiva (38 arhiva + odeljenja Trstenik, Bor, Bečej kao zasebni redovi). Uključuje privremeno izmeštene arhive sa Kosova i Metohije (Priština, Gnjilane, Peć, Prizren, Kosovska Mitrovica) sa adresom kako je navedena na listi (Štrpce, Prokuplje, Vranić). Vojni arhiv, Diplomatski arhiv i Arhiv Srbije-Železnik nisu na listi i nisu dodati. Za jedinice bez telefona/mejla na listi polja su prazna.",
+ "rows": [
+  {
+   "name": "Državni arhiv Srbije",
+   "type_slug": "arhiv",
+   "town": "Beograd",
+   "municipality": null,
+   "address": "Karnegijeva 2",
+   "phones": [
+    "+381 11 3370 781"
+   ],
+   "emails": [
+    "office@arhivsrbije.rs"
+   ],
+   "website": "https://www.arhivsrbije.rs",
+   "hours": null,
+   "extra": {
+    "territory": "Republika Srbija",
+    "network_no": 1
+   },
+   "source_url": "https://www.arhivsrbije.rs/arhivska-delatnost/arhivi-u-srbiji"
+  },
+  {
+   "name": "Arhiv Vojvodine",
+   "type_slug": "arhiv",
+   "town": "Novi Sad",
+   "municipality": null,
+   "address": "Žarka Vasiljevića 2a",
+   "phones": [
+    "+381 21 4891 800"
+   ],
+   "emails": [
+    "info@arhivvojvodine.org.rs"
+   ],
+   "website": "https://www.arhivvojvodine.org.rs",
+   "hours": null,
+   "extra": {
+    "territory": "Za organe i organizacije Autonomne pokrajine Vojvodine",
+    "network_no": 2
+   },
+   "source_url": "https://www.arhivsrbije.rs/arhivska-delatnost/arhivi-u-srbiji"
+  },
+  {
+   "name": "Arhiv Kosova i Metohije",
+   "type_slug": "arhiv",
+   "town": "Priština",
+   "municipality": null,
+   "address": null,
+   "phones": [
+    "038 811 94"
+   ],
+   "emails": [
+    "arhivkosovaimetohije@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "territory": "Za organe i organizacije Autonomne pokrajine Kosova i Metohije",
+    "network_no": 3
+   },
+   "source_url": "https://www.arhivsrbije.rs/arhivska-delatnost/arhivi-u-srbiji"
+  },
+  {
+   "name": "Arhiv Jugoslavije",
+   "type_slug": "arhiv",
+   "town": "Beograd",
+   "municipality": null,
+   "address": "Vase Pelagića 33",
+   "phones": [
+    "+381 11 3690 252"
+   ],
+   "emails": [
+    "arhivyu@arhivyu.rs"
+   ],
+   "website": "https://www.arhivyu.gov.rs",
+   "hours": null,
+   "extra": {
+    "network_no": 4
+   },
+   "source_url": "https://www.arhivsrbije.rs/arhivska-delatnost/arhivi-u-srbiji"
+  },
+  {
+   "name": "Istorijski arhiv Bela Crkva",
+   "type_slug": "arhiv",
+   "town": "Bela Crkva",
+   "municipality": null,
+   "address": "Prvog oktobra 40",
+   "phones": [
+    "+381 13 851 283"
+   ],
+   "emails": [
+    "iarhivbc@arhivbelacrkva.rs"
+   ],
+   "website": "https://www.arhivbc.rs",
+   "hours": null,
+   "extra": {
+    "territory": "Bela Crkva, Vršac, Plandište",
+    "network_no": 5
+   },
+   "source_url": "https://www.arhivsrbije.rs/arhivska-delatnost/arhivi-u-srbiji"
+  },
+  {
+   "name": "Istorijski arhiv Beograda",
+   "type_slug": "arhiv",
+   "town": "Novi Beograd",
+   "municipality": null,
+   "address": "Palmira Toljatija 1",
+   "phones": [
+    "+381 11 2606 336"
+   ],
+   "emails": [
+    "office@arhiv-beograda.org"
+   ],
+   "website": "https://www.arhiv-beograda.org",
+   "hours": null,
+   "extra": {
+    "territory": "Grad Beograd",
+    "network_no": 6
+   },
+   "source_url": "https://www.arhivsrbije.rs/arhivska-delatnost/arhivi-u-srbiji"
+  },
+  {
+   "name": "Međuopštinski istorijski arhiv Valjevo",
+   "type_slug": "arhiv",
+   "town": "Valjevo",
+   "municipality": null,
+   "address": "Pop Lukina 52",
+   "phones": [
+    "+381 14 221 028"
+   ],
+   "emails": [
+    "arhivvaljevo@gmail.com"
+   ],
+   "website": "https://www.istorijskiarhiv.rs",
+   "hours": null,
+   "extra": {
+    "territory": "Valjevo, Ub, Osečina, Mionica, Lajkovac, Ljig",
+    "network_no": 7
+   },
+   "source_url": "https://www.arhivsrbije.rs/arhivska-delatnost/arhivi-u-srbiji"
+  },
+  {
+   "name": "Istorijski arhiv „31. januar\" Vranje",
+   "type_slug": "arhiv",
+   "town": "Vranje",
+   "municipality": null,
+   "address": "Partizanska 17-a",
+   "phones": [
+    "+381 17 423 334"
+   ],
+   "emails": [
+    "istarhivvr@gmail.com"
+   ],
+   "website": "https://www.vranjearhiv.com",
+   "hours": null,
+   "extra": {
+    "territory": "Vranje, Vladičin Han, Surdulica, Bosilegrad, Trgovište, Bujanovac, Preševo",
+    "network_no": 8
+   },
+   "source_url": "https://www.arhivsrbije.rs/arhivska-delatnost/arhivi-u-srbiji"
+  },
+  {
+   "name": "Istorijski arhiv Gnjilane",
+   "type_slug": "arhiv",
+   "town": "Prokuplje",
+   "municipality": null,
+   "address": "Lole Ribara 4/8",
+   "phones": [
+    "+381 64 1750 393"
+   ],
+   "emails": [
+    "istorijskiarhivgnjilane@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "territory": "Gnjilane, Kamenica, Vitina",
+    "network_no": 9
+   },
+   "source_url": "https://www.arhivsrbije.rs/arhivska-delatnost/arhivi-u-srbiji"
+  },
+  {
+   "name": "Istorijski arhiv „Timočka Krajina\" Zaječar",
+   "type_slug": "arhiv",
+   "town": "Zaječar",
+   "municipality": null,
+   "address": "Nikole Pašića 160",
+   "phones": [
+    "+381 19 420 285"
+   ],
+   "emails": [
+    "arhivzaj@mts.rs"
+   ],
+   "website": "https://www.arhivzajecar.org.rs",
+   "hours": null,
+   "extra": {
+    "territory": "Zaječar, Boljevac, Knjaževac",
+    "network_no": 10
+   },
+   "source_url": "https://www.arhivsrbije.rs/arhivska-delatnost/arhivi-u-srbiji"
+  },
+  {
+   "name": "Istorijski arhiv Zrenjanin",
+   "type_slug": "arhiv",
+   "town": "Zrenjanin",
+   "municipality": null,
+   "address": "Trg Slobode 10",
+   "phones": [
+    "+381 23 564 322"
+   ],
+   "emails": [
+    "arhivzrenjanin@gmail.com"
+   ],
+   "website": "https://arhivzrenjanin.rs/",
+   "hours": null,
+   "extra": {
+    "territory": "Zrenjanin, Sečanj, Žitište, Nova Crnja, Novi Bečej",
+    "network_no": 11
+   },
+   "source_url": "https://www.arhivsrbije.rs/arhivska-delatnost/arhivi-u-srbiji"
+  },
+  {
+   "name": "Istorijski arhiv „Srednje Pomoravlje\" Jagodina",
+   "type_slug": "arhiv",
+   "town": "Jagodina",
+   "municipality": null,
+   "address": "Milana Mijalkovića 14",
+   "phones": [
+    "+381 35 8223 506"
+   ],
+   "emails": [
+    "info@arhivja.org.rs"
+   ],
+   "website": "https://www.arhivja.org.rs",
+   "hours": null,
+   "extra": {
+    "territory": "Jagodina, Svilajnac, Ćuprija, Paraćin, Rekovac, Despotovac",
+    "network_no": 12
+   },
+   "source_url": "https://www.arhivsrbije.rs/arhivska-delatnost/arhivi-u-srbiji"
+  },
+  {
+   "name": "Istorijski arhiv Kikinda",
+   "type_slug": "arhiv",
+   "town": "Kikinda",
+   "municipality": null,
+   "address": "Trg srpskih dobrovoljaca 21",
+   "phones": [
+    "+381 230 422 187"
+   ],
+   "emails": [
+    "arhivkikinda@gmail.com"
+   ],
+   "website": "https://www.arhivkikinda.org.rs",
+   "hours": null,
+   "extra": {
+    "territory": "Kikinda, Čoka, Novi Kneževac",
+    "network_no": 13
+   },
+   "source_url": "https://www.arhivsrbije.rs/arhivska-delatnost/arhivi-u-srbiji"
+  },
+  {
+   "name": "Istorijski arhiv Šumadije, Kragujevac",
+   "type_slug": "arhiv",
+   "town": "Kragujevac",
+   "municipality": null,
+   "address": "Kragujevačkog oktobra 13",
+   "phones": [
+    "+381 34 336 251"
+   ],
+   "emails": [
+    "archivekg@gmail.com"
+   ],
+   "website": "https://www.istorijskiarhivsumadije.com",
+   "hours": null,
+   "extra": {
+    "territory": "Grad Kragujevac, Rača, Batočina, Knić, Topola, Aranđelovac, Lapovo",
+    "network_no": 14
+   },
+   "source_url": "https://www.arhivsrbije.rs/arhivska-delatnost/arhivi-u-srbiji"
+  },
+  {
+   "name": "Istorijski arhiv Kraljevo",
+   "type_slug": "arhiv",
+   "town": "Kraljevo",
+   "municipality": null,
+   "address": "Trg Svetog Save 1",
+   "phones": [
+    "+381 36 317 560"
+   ],
+   "emails": [
+    "arhiv@arhivkraljevo.org.rs"
+   ],
+   "website": "https://www.arhivkraljevo.org.rs",
+   "hours": null,
+   "extra": {
+    "territory": "Kraljevo, Vrnjačka Banja, Raška",
+    "network_no": 15
+   },
+   "source_url": "https://www.arhivsrbije.rs/arhivska-delatnost/arhivi-u-srbiji"
+  },
+  {
+   "name": "Istorijski arhiv Kosovska Mitrovica",
+   "type_slug": "arhiv",
+   "town": "Kosovska Mitrovica",
+   "municipality": null,
+   "address": "Kralja Petra 10",
+   "phones": [],
+   "emails": [
+    "istorijskiarhivkm@outlook.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "territory": "Kosovska Mitrovica, Leposavić, Zubin Potok, Zvečan, Srbica, Vučitrn",
+    "network_no": 16
+   },
+   "source_url": "https://www.arhivsrbije.rs/arhivska-delatnost/arhivi-u-srbiji"
+  },
+  {
+   "name": "Istorijski arhiv Kruševac",
+   "type_slug": "arhiv",
+   "town": "Kruševac",
+   "municipality": null,
+   "address": "Majke Jugovića 6",
+   "phones": [
+    "+381 37 420 590"
+   ],
+   "emails": [
+    "istor_arhiv_ks@ptt.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "territory": "Kruševac, Ćićevac, Varvarin, Trstenik, Aleksandrovac, Brus",
+    "network_no": 17
+   },
+   "source_url": "https://www.arhivsrbije.rs/arhivska-delatnost/arhivi-u-srbiji"
+  },
+  {
+   "name": "Istorijski arhiv Kruševac - Odeljenje u Trsteniku",
+   "type_slug": "arhiv",
+   "town": "Trstenik",
+   "municipality": null,
+   "address": null,
+   "phones": [
+    "+381 37 712 316"
+   ],
+   "emails": [],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "network_no": 17,
+    "department": true
+   },
+   "source_url": "https://www.arhivsrbije.rs/arhivska-delatnost/arhivi-u-srbiji"
+  },
+  {
+   "name": "Istorijski arhiv Leskovac",
+   "type_slug": "arhiv",
+   "town": "Leskovac",
+   "municipality": null,
+   "address": "Dr Rade Svilara 25",
+   "phones": [
+    "+381 16 216 996"
+   ],
+   "emails": [
+    "iarhivleskovac@gmail.com",
+    "arhivleskovac@hotmail.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "territory": "Leskovac, Vlasotince, Crna Trava, Lebane, Bojnik, Medveđa",
+    "network_no": 18
+   },
+   "source_url": "https://www.arhivsrbije.rs/arhivska-delatnost/arhivi-u-srbiji"
+  },
+  {
+   "name": "Istorijski arhiv Negotin",
+   "type_slug": "arhiv",
+   "town": "Negotin",
+   "municipality": null,
+   "address": "Branka Perića 13",
+   "phones": [
+    "+381 19 546 098"
+   ],
+   "emails": [
+    "arhivnegotin3@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "territory": "Negotin, Kladovo, Majdanpek, Bor",
+    "network_no": 19
+   },
+   "source_url": "https://www.arhivsrbije.rs/arhivska-delatnost/arhivi-u-srbiji"
+  },
+  {
+   "name": "Istorijski arhiv Negotin - Odeljenje u Boru",
+   "type_slug": "arhiv",
+   "town": "Bor",
+   "municipality": null,
+   "address": null,
+   "phones": [
+    "+381 30 421 365"
+   ],
+   "emails": [],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "network_no": 19,
+    "department": true
+   },
+   "source_url": "https://www.arhivsrbije.rs/arhivska-delatnost/arhivi-u-srbiji"
+  },
+  {
+   "name": "Istorijski arhiv Niš",
+   "type_slug": "arhiv",
+   "town": "Niš",
+   "municipality": null,
+   "address": "Tvrđava b.b.",
+   "phones": [
+    "+381 18 515 608"
+   ],
+   "emails": [
+    "arhivnis@mts.rs"
+   ],
+   "website": "https://www.arhivnis.rs",
+   "hours": null,
+   "extra": {
+    "territory": "Grad Niš, Merošina, Sokobanja, Ražanj Doljevac, Aleksinac, Svrljig, Gadžin Han",
+    "network_no": 20
+   },
+   "source_url": "https://www.arhivsrbije.rs/arhivska-delatnost/arhivi-u-srbiji"
+  },
+  {
+   "name": "Istorijski arhiv „Ras\" Novi Pazar",
+   "type_slug": "arhiv",
+   "town": "Novi Pazar",
+   "municipality": null,
+   "address": "Oslobođenja 41",
+   "phones": [
+    "+381 20 318 282"
+   ],
+   "emails": [
+    "arhivrasnovipazar@gmail.com"
+   ],
+   "website": "https://www.arhivrasnovipazar.com",
+   "hours": null,
+   "extra": {
+    "territory": "Novi Pazar, Tutin, Sjenica",
+    "network_no": 21
+   },
+   "source_url": "https://www.arhivsrbije.rs/arhivska-delatnost/arhivi-u-srbiji"
+  },
+  {
+   "name": "Istorijski arhiv Grada Novog Sada",
+   "type_slug": "arhiv",
+   "town": "Novi Sad",
+   "municipality": null,
+   "address": "Filipa Višnjića 2a",
+   "phones": [
+    "+381 21 6432 214"
+   ],
+   "emails": [
+    "arhivns@neobee.net"
+   ],
+   "website": "https://www.arhivns.rs",
+   "hours": null,
+   "extra": {
+    "territory": "Grad Novi Sad, Titel, Žabalj, Temerin, Vrbas, Bačka Palanka, Bački Petrovac, Beočin, Sremski Karlovci",
+    "network_no": 22
+   },
+   "source_url": "https://www.arhivsrbije.rs/arhivska-delatnost/arhivi-u-srbiji"
+  },
+  {
+   "name": "Istorijski arhiv u Pančevu",
+   "type_slug": "arhiv",
+   "town": "Pančevo",
+   "municipality": null,
+   "address": "Nemanjina 7",
+   "phones": [
+    "+381 13 317 344"
+   ],
+   "emails": [
+    "sekretarijat@arhivpancevo.rs"
+   ],
+   "website": "https://www.arhivpancevo.org.rs",
+   "hours": null,
+   "extra": {
+    "territory": "Pančevo, Kovin, Kovačica, Alibunar, Opovo",
+    "network_no": 23
+   },
+   "source_url": "https://www.arhivsrbije.rs/arhivska-delatnost/arhivi-u-srbiji"
+  },
+  {
+   "name": "Međukomunalni arhiv Peć",
+   "type_slug": "arhiv",
+   "town": "Štrpce",
+   "municipality": null,
+   "address": "Cara Lazara b.b",
+   "phones": [],
+   "emails": [
+    "stevicaleksandar272@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "territory": "Peć, Istok, Klina, Dečane, Đakovica",
+    "network_no": 24
+   },
+   "source_url": "https://www.arhivsrbije.rs/arhivska-delatnost/arhivi-u-srbiji"
+  },
+  {
+   "name": "Istorijski arhiv u Pirotu",
+   "type_slug": "arhiv",
+   "town": "Pirot",
+   "municipality": null,
+   "address": "Srpskih vladara 130",
+   "phones": [
+    "+381 10 320 952"
+   ],
+   "emails": [
+    "pisarnica@arhivpirot.rs"
+   ],
+   "website": "https://arhivpirot.rs",
+   "hours": null,
+   "extra": {
+    "territory": "Pirot, Bela Palanka, Babušnica, Dimitrovgrad",
+    "network_no": 25
+   },
+   "source_url": "https://www.arhivsrbije.rs/arhivska-delatnost/arhivi-u-srbiji"
+  },
+  {
+   "name": "Istorijski arhiv Požarevac",
+   "type_slug": "arhiv",
+   "town": "Požarevac",
+   "municipality": null,
+   "address": "Dr Vojislava Dulića 10",
+   "phones": [
+    "+381 12 223 082"
+   ],
+   "emails": [
+    "info@arhivpozarevac.org.rs"
+   ],
+   "website": "https://www.arhivpozarevac.org.rs",
+   "hours": null,
+   "extra": {
+    "territory": "Požarevac, Žagubica, Kučevo, Golubac, Malo Crniće, Petrovac, Veliko Gradište",
+    "network_no": 26
+   },
+   "source_url": "https://www.arhivsrbije.rs/arhivska-delatnost/arhivi-u-srbiji"
+  },
+  {
+   "name": "Međuopštinski istorijski arhiv Prizren",
+   "type_slug": "arhiv",
+   "town": "Štrpce",
+   "municipality": null,
+   "address": "Cara Lazara b.b",
+   "phones": [
+    "+381 64 3387 736"
+   ],
+   "emails": [
+    "jelica.mihajlovic4567@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "territory": "Prizren, Orahovac, Suva Reka, Dragaš",
+    "network_no": 27
+   },
+   "source_url": "https://www.arhivsrbije.rs/arhivska-delatnost/arhivi-u-srbiji"
+  },
+  {
+   "name": "Arhiv grada Prištine",
+   "type_slug": "arhiv",
+   "town": "Vranić",
+   "municipality": null,
+   "address": "Bogoljuba Mihajlovića 51",
+   "phones": [
+    "+381 11 8332 733"
+   ],
+   "emails": [
+    "bojanrog@yahoo.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "territory": "Grad Priština, Podujevo, Glogovac, Lipljan, Kosovo Polje, Obilić, Novo Brdo, Uroševac, Štrpce, Štimlje",
+    "network_no": 28
+   },
+   "source_url": "https://www.arhivsrbije.rs/arhivska-delatnost/arhivi-u-srbiji"
+  },
+  {
+   "name": "Istorijski arhiv „Toplice\" Prokuplje",
+   "type_slug": "arhiv",
+   "town": "Prokuplje",
+   "municipality": null,
+   "address": "Pasjačka 2",
+   "phones": [
+    "+381 27 329 546"
+   ],
+   "emails": [
+    "arhiv@arhivtoplice.org.rs"
+   ],
+   "website": "https://arhivtoplice.org.rs",
+   "hours": null,
+   "extra": {
+    "territory": "Prokuplje, Žitorađa, Blace, Kuršumlija",
+    "network_no": 29
+   },
+   "source_url": "https://www.arhivsrbije.rs/arhivska-delatnost/arhivi-u-srbiji"
+  },
+  {
+   "name": "Istorijski arhiv Senta",
+   "type_slug": "arhiv",
+   "town": "Senta",
+   "municipality": null,
+   "address": "Glavni trg 1/II",
+   "phones": [
+    "+381 24 811 037"
+   ],
+   "emails": [
+    "zentarhiv@gmail.com"
+   ],
+   "website": "https://www.zentarhiv.rs",
+   "hours": null,
+   "extra": {
+    "territory": "Senta, Bečej, Srbobran, Ada, Kanjiža",
+    "network_no": 30
+   },
+   "source_url": "https://www.arhivsrbije.rs/arhivska-delatnost/arhivi-u-srbiji"
+  },
+  {
+   "name": "Istorijski arhiv Senta - Odsek za arhivsku građu Bečej",
+   "type_slug": "arhiv",
+   "town": "Bečej",
+   "municipality": null,
+   "address": "Zelena ulica 100",
+   "phones": [
+    "+381 21 6915 321"
+   ],
+   "emails": [
+    "becejarhiv@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "network_no": 30,
+    "department": true
+   },
+   "source_url": "https://www.arhivsrbije.rs/arhivska-delatnost/arhivi-u-srbiji"
+  },
+  {
+   "name": "Istorijski arhiv u Smederevu",
+   "type_slug": "arhiv",
+   "town": "Smederevo",
+   "municipality": null,
+   "address": "Kralja Petra Prvog 2",
+   "phones": [
+    "+381 26 4629 279"
+   ],
+   "emails": [
+    "kontakt@arhiv.org.rs"
+   ],
+   "website": "https://arhiv.org.rs",
+   "hours": null,
+   "extra": {
+    "territory": "Smederevo",
+    "network_no": 31
+   },
+   "source_url": "https://www.arhivsrbije.rs/arhivska-delatnost/arhivi-u-srbiji"
+  },
+  {
+   "name": "Arhiv „Veroslava Veljašević“ Smederevska Palanka",
+   "type_slug": "arhiv",
+   "town": "Smederevska Palanka",
+   "municipality": null,
+   "address": "Omladinska 13",
+   "phones": [
+    "+381 26 317 235"
+   ],
+   "emails": [
+    "arhivsmedpalanka@gmail.com"
+   ],
+   "website": "https://www.arhivpalanka.rs",
+   "hours": null,
+   "extra": {
+    "territory": "Smederevska Palanka, Velika Plana, Žabari",
+    "network_no": 32
+   },
+   "source_url": "https://www.arhivsrbije.rs/arhivska-delatnost/arhivi-u-srbiji"
+  },
+  {
+   "name": "Istorijski arhiv Sombor",
+   "type_slug": "arhiv",
+   "town": "Sombor",
+   "municipality": null,
+   "address": "Trg Cara Lazara 7",
+   "phones": [
+    "+381 25 416 292"
+   ],
+   "emails": [
+    "info@arhivsombor.org.rs"
+   ],
+   "website": "https://www.arhivsombor.org.rs",
+   "hours": null,
+   "extra": {
+    "territory": "Sombor, Apatin, Kula, Odžaci, Bač",
+    "network_no": 33
+   },
+   "source_url": "https://www.arhivsrbije.rs/arhivska-delatnost/arhivi-u-srbiji"
+  },
+  {
+   "name": "Istorijski arhiv „Srem\"",
+   "type_slug": "arhiv",
+   "town": "Sremska Mitrovica",
+   "municipality": null,
+   "address": "Vuka Karadžića 4",
+   "phones": [
+    "+381 22 613 592"
+   ],
+   "emails": [
+    "info@arhivsrem.org.rs"
+   ],
+   "website": "https://www.arhivsrem.org.rs",
+   "hours": null,
+   "extra": {
+    "territory": "Sremska Mitrovica, Šid, Irig, Inđija, Stara Pazova, Ruma, Pećinci",
+    "network_no": 34
+   },
+   "source_url": "https://www.arhivsrbije.rs/arhivska-delatnost/arhivi-u-srbiji"
+  },
+  {
+   "name": "Istorijski arhiv Subotica",
+   "type_slug": "arhiv",
+   "town": "Subotica",
+   "municipality": null,
+   "address": "Trg Slobode 1/III",
+   "phones": [
+    "+381 24 626 889"
+   ],
+   "emails": [
+    "info@suarhiv.co.rs"
+   ],
+   "website": "https://www.suarhiv.co.rs",
+   "hours": null,
+   "extra": {
+    "territory": "Subotica, Bačka Topola, Mali Iđoš",
+    "network_no": 35
+   },
+   "source_url": "https://www.arhivsrbije.rs/arhivska-delatnost/arhivi-u-srbiji"
+  },
+  {
+   "name": "Istorijski arhiv Užice",
+   "type_slug": "arhiv",
+   "town": "Užice",
+   "municipality": null,
+   "address": "Žička 17",
+   "phones": [
+    "+381 31 513 484"
+   ],
+   "emails": [
+    "arhivue@ptt.rs",
+    "pisarnica@arhivue.org.rs"
+   ],
+   "website": "https://www.arhivue.org.rs",
+   "hours": null,
+   "extra": {
+    "territory": "Užice, Bajina Bašta, Kosjerić, Požega, Arilje,  Ivanjica, Čajetina, Nova Varoš, Priboj, Prijepolje",
+    "network_no": 36
+   },
+   "source_url": "https://www.arhivsrbije.rs/arhivska-delatnost/arhivi-u-srbiji"
+  },
+  {
+   "name": "Međuopštinski istorijski arhiv za grad Čačak i opštine Gornji Milanovac i Lučani",
+   "type_slug": "arhiv",
+   "town": "Čačak",
+   "municipality": null,
+   "address": "Gospodar Jovanova 2",
+   "phones": [
+    "+381 32 222 729"
+   ],
+   "emails": [
+    "arhivcacak@mts.rs"
+   ],
+   "website": "https://www.arhivcacak.org.rs",
+   "hours": null,
+   "extra": {
+    "territory": "Čačak, Gornji Milanovac, Lučani",
+    "network_no": 37
+   },
+   "source_url": "https://www.arhivsrbije.rs/arhivska-delatnost/arhivi-u-srbiji"
+  },
+  {
+   "name": "Međuopštinski istorijski arhiv „Šabac“, Šabac",
+   "type_slug": "arhiv",
+   "town": "Šabac",
+   "municipality": null,
+   "address": "Vojvode Mišića 18-a",
+   "phones": [
+    "+381 15 354 992"
+   ],
+   "emails": [
+    "arhivsabac@gmail.com"
+   ],
+   "website": "https://www.arhivsabac.org.rs",
+   "hours": null,
+   "extra": {
+    "territory": "Šabac, Bogatić, Vladimirci, Koceljeva, Ljubovija, Mali Zvornik, Loznica, Krupanj",
+    "network_no": 38
+   },
+   "source_url": "https://www.arhivsrbije.rs/arhivska-delatnost/arhivi-u-srbiji"
+  }
+ ]
+}

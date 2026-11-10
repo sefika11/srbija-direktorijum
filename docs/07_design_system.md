@@ -365,7 +365,7 @@ order, text size, layout shift, console), then hands-on keyboard and tap flows.
 - **Light.** The sun's shadow frustum follows the camera target with a tight extent, so shadows stay crisp close up.
   The model at the active station turns slowly and lifts a little; the rest are still.
 
-## 24. Landmarks: every place has its own sight (2026-11-11)
+## 24. Landmarks: every place has its own sight (2026-11-10)
 
 - **What.** Each of the 145 cities and municipalities, the 27 city municipalities and the 25 districts shows a 3D emblem
   of the sight it is known for instead of the generic town hall: a monastery, fortress, tower, bridge, spa, mountain,

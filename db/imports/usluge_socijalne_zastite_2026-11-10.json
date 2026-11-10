@@ -1,0 +1,6397 @@
+{
+ "source": {
+  "name": "Ministarstvo za rad, zapošljavanje, boračka i socijalna pitanja - Registar licenciranih pružalaca usluga socijalne zaštite (spiskovi izdatih licenci po vrsti usluge, xlsx, jul 2026)",
+  "url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu",
+  "fetched_at": "2026-11-10"
+ },
+ "note": "Spiskovi licenci po usluzi (dnevni boravak, prihvatilište, svratište, predah, lični pratilac deteta, pomoć u kući, personalni asistent, stanovanje uz podršku, SOS telefon, domski smeštaj za lica sa teškoćama u razvoju); domovi za starije izostavljeni (već učitani). Ministarstvo ne objavljuje adresu pružanja usluge odvojeno: adresa/telefon/e-mail su kako su upisani u spisku (sedište pružaoca). Redovi sa licencom označenom kao prestala/zamenjena novom i redovi čija je licenca istekla bez upisane obnove su izostavljeni; rok važenja je u extra.licence_valid_until. 'name' je pružalac usluge (često udruženje ili centar za socijalni rad), extra.service je vrsta usluge.",
+ "rows": [
+  {
+   "name": "''SV. SOFIJA'' pri UDRUŽENJU ''CARITAS''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Šabac",
+   "municipality": "Šabac",
+   "address": "Vuka Karadžića br. 17",
+   "phones": [
+    "069/30-65-462"
+   ],
+   "emails": [
+    "secretarijat@caritas-sabac.rs",
+    "dnevni.boravak@caritas-sabac.rs",
+    "m.nikolic@caritas-sabac.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za odrasle sa intelektualnim ili telesnim teškoćama",
+    "licence_no": "Broj: 717 od 09.03.2022. godine",
+    "licence_valid_until": "2028-03-09",
+    "capacity": "Odrasli i stariji/ 20 korisnika",
+    "founder": "Miroljub Nikolić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Udruženje Caritas \"Sv. Anastazija\"",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Sremska Mitrovica",
+   "municipality": null,
+   "address": "Timočke Divizije br. 62",
+   "phones": [
+    "022/641-964",
+    "063/117-3005"
+   ],
+   "emails": [
+    "mitrovacki.caritas@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za odrasle sa intelektualnim ili telesnim teškoćama",
+    "licence_no": "Broj: 874 od 25.05.2023. godine",
+    "licence_valid_until": "2028-05-25",
+    "capacity": "Odrasli/10 korisnika",
+    "founder": "Kristina Dragišić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "HUMANITARNO DRUŠTVO ''BETHESDA''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Bačka Topola",
+   "municipality": null,
+   "address": "Senćanski Put br.16/A",
+   "phones": [
+    "024/ 712- 964",
+    "024 /716- 005"
+   ],
+   "emails": [
+    "cipor@stcable.net"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za odrasle sa intelektualnim ili telesnim teškoćama",
+    "licence_no": "Broj: 888 od 30.06.2023. godine",
+    "licence_valid_until": "2029-06-30",
+    "capacity": "Odrasli /10 korisnika",
+    "founder": "Cipó Rózsa"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE GRAĐANA BREZA DNEVNI BORAVAK ZA OSOBE SA INVALIDITETOM I INTELEKTUALNIM TEŠKOĆAMA",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Apatin",
+   "municipality": null,
+   "address": "Svetog Save br. 26",
+   "phones": [
+    "025/772-451",
+    "064/228-14-25"
+   ],
+   "emails": [
+    "dulebu@yahoo.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za odrasle sa intelektualnim ili telesnim teškoćama",
+    "licence_no": "Broj: 920 od 05.09.2023. godine",
+    "licence_valid_until": "2028-09-05",
+    "capacity": "Odrasli sa telesnim invaliditetom odnosno intelektualnim teškoćama/ 10 korisnika ",
+    "founder": "Duško Bursać"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "ŠKOLA ZA OSNOVNO I SREDNJE OBRAZOVANJE ''RADIVOJ POPOVIĆ'' DNEVNI BORAVAK \"SUNCE\"",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Sremska Mitrovica",
+   "municipality": null,
+   "address": "Njegoševa br.38",
+   "phones": [
+    "022/21 51 300"
+   ],
+   "emails": [
+    "radivoj.popovic.sm@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za odrasle sa intelektualnim ili telesnim teškoćama",
+    "licence_no": "Broj: 922 od 18.09.2023. godine",
+    "licence_valid_until": "2029-09-18",
+    "capacity": "Odrasla lica sa telesnim invaliditetom i intelektualnim teškoćama/ 22 korisnika",
+    "founder": "Negovan Nikolić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA PRUŽANJE USLUGA SOCIJALNE ZAŠTITE GRADA KIKINDE",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Kikinda",
+   "municipality": null,
+   "address": "Miloša Velikog br. 56",
+   "phones": [
+    "023/421-630"
+   ],
+   "emails": [
+    "centarsocijalnezastite@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za odrasle sa intelektualnim ili telesnim teškoćama",
+    "licence_no": "Broj: 940 od 13.11.2023. godine",
+    "licence_valid_until": "2029-11-13",
+    "capacity": "Odrasli sa telesnim invaliditetom odnosno intelektualnim teškoćama/ 28 korisnika ",
+    "founder": "Nikoleta Pavlov"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA SOCIJALNI RAD KOVAČICA DNEVNI BORAVAK ZA ODRASLE SA FIZIČKIM INVALIDITETOM I INTELEKTUALNIM TEŠKOĆAMA",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Kovačica",
+   "municipality": null,
+   "address": "Čaplovičeva br.16",
+   "phones": [
+    "013/661-041",
+    "062/8020-642"
+   ],
+   "emails": [
+    "kovacica.csr@minrzs.gov.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za odrasle sa intelektualnim ili telesnim teškoćama",
+    "licence_no": "Broj: 948 od 20.11.2023. godine",
+    "licence_valid_until": "2029-11-20",
+    "capacity": "Odrasli / 10 korisnika",
+    "founder": "Dušanka Petrak"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA RAZVOJ USLUGA SOCIJALNE ZAŠTITE \"KNEGINJA LJUBICA\" DNEVNI BORAVAK ZA ODRASLA I STARA LICA U KRAGUJEVCU",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Kragujevac",
+   "municipality": null,
+   "address": "Čika Matina bb",
+   "phones": [
+    "034/355-485",
+    "064/872-8301"
+   ],
+   "emails": [
+    "centarkg@kneginjaljubica.org.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za odrasle sa intelektualnim ili telesnim teškoćama",
+    "licence_no": "Broj: 949 od 27.11.2023. godine",
+    "licence_valid_until": "2029-11-27",
+    "capacity": "Odrasli i stari/10 korisnika",
+    "founder": "Slavica Novaković"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "USTANOVA \"CENTAR ZA OSOBE SA INVALIDITETOM\" KRUŠEVAC DNEVNI BORAVAK ZA ODRASLE SA TELESNIM INVALIDITETOM ODNOSNO INTELEKTUALNIM TEŠKOĆAMA",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Kruševac",
+   "municipality": null,
+   "address": "Petra Kočića bb",
+   "phones": [
+    "037/3501-134"
+   ],
+   "emails": [
+    "centarosiks@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za odrasle sa intelektualnim ili telesnim teškoćama",
+    "licence_no": "Broj: 953 od 04.12.2023. godine",
+    "licence_valid_until": "2029-12-04",
+    "capacity": "Odrasli /15 korisnika",
+    "founder": "Nevena Lazarević"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "KRALJEVAČKO UDRUŽENJE ZA POMOĆ OSOBAMA SA AUTIZMOM",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Kraljevo",
+   "municipality": null,
+   "address": "Dositejeva br. 3G",
+   "phones": [
+    "063/510-2956"
+   ],
+   "emails": [
+    "autizam.kv@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za odrasle sa intelektualnim ili telesnim teškoćama",
+    "licence_no": "Broj: 975 od 28.02.2024. godine",
+    "licence_valid_until": "2030-02-28",
+    "capacity": "Odrasli sa telesnim invaliditetom odnosno intelektualnim teškoćama/14 korisnika",
+    "founder": "Ivan Maričić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA SOCIJALNI RAD VARVARIN I ĆIĆEVAC",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Varvarin",
+   "municipality": null,
+   "address": "Varvarin bb",
+   "phones": [
+    "037/789-456"
+   ],
+   "emails": [
+    "dnevniboravacvarvarin@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za odrasle sa intelektualnim ili telesnim teškoćama",
+    "licence_no": "Broj: 998 od 10.05.2024. godine",
+    "licence_valid_until": "2030-05-10",
+    "capacity": "Odrasli sa telesnim invaliditetom odnosno intelektualnim teškoćama/ 10 korisnika ",
+    "founder": "Marija Petrović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE ZA POMOĆ MENTALNO NEDOVOLJNO RAZVIJENIM OSOBAMA \"PLAVA PTICA\"",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Kula",
+   "municipality": null,
+   "address": "Lenjinova br. 17",
+   "phones": [
+    "025/724-177",
+    "064/648-5377"
+   ],
+   "emails": [
+    "plavapticamnro@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za odrasle sa intelektualnim ili telesnim teškoćama",
+    "licence_no": "Broj: 1016 od 30.07.2024. godine",
+    "licence_valid_until": "2030-07-30",
+    "capacity": "Odrasli sa telesnim invaliditetom i intelektualnim teškoćama/ 20 korisnika ",
+    "founder": "Marko Košutić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE ZA POMOĆ OBOLELIH OD MIŠIĆNIH I NEURO-MIŠIĆNIH BOLETSI TOPLIČKOG OKRUGA",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Prokuplje",
+   "municipality": "selo Vodice",
+   "address": null,
+   "phones": [
+    "027/322-349",
+    "062/8876-000"
+   ],
+   "emails": [
+    "udrobolelihmiicnih@gmail.com",
+    "udruzenesunce2018@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za odrasle sa intelektualnim ili telesnim teškoćama",
+    "licence_no": "Broj: 1032 od 28.08.2024. godine",
+    "licence_valid_until": "2030-08-28",
+    "capacity": "Odrasli sa telesnim invaliditetom odnosno intelektualnim teškoćama/ 13 korisnika",
+    "founder": "Dragoslav Petrović Miroljub Cvetković"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "DRUŠTVO ZA POMOĆ MENTALNO NEDOVOLJNO RAZVIJENIH LICA BRUS",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Brus",
+   "municipality": null,
+   "address": "Prvomajska br.11",
+   "phones": [
+    "037/826-790",
+    "064/317-5740"
+   ],
+   "emails": [
+    "drustvomnrbrus@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za odrasle sa intelektualnim ili telesnim teškoćama",
+    "licence_no": "Broj: 1047 od 19.12.2024. godine",
+    "licence_valid_until": "2030-12-19",
+    "capacity": "Odrasli sa intelektualnim teškoćama/10 korisnika",
+    "founder": "Saša Azdejković"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE ZA POMOĆ MENTALNO NEDOVOLJNO RAZVIJENIM OSOBAMA OPŠTINE ODŽACI",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "ODŽaci",
+   "municipality": null,
+   "address": "Železnička 25, ODŽaci",
+   "phones": [],
+   "emails": [
+    "mnroodzaci@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za odrasle sa intelektualnim ili telesnim teškoćama",
+    "licence_no": "Broj: 1049 od 24.12.2024. godine",
+    "licence_valid_until": "2030-12-24",
+    "capacity": "Odrasli sa telesnim invaliditetom i intelektualnim teškoćama",
+    "founder": "Dragan Studen"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE ''CARITAS ŠABAC''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Šabac",
+   "municipality": null,
+   "address": "Vuka Karadžića br. 17",
+   "phones": [
+    "069/30-65-462",
+    "015/600-526"
+   ],
+   "emails": [
+    "secretarijat@caritas-sabac.rs",
+    "dnevni.boravak@caritas-sabac.rs",
+    "m.nikolic@caritas-sabac.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za odrasle sa intelektualnim ili telesnim teškoćama",
+    "licence_no": "Broj: 1056 od 05.03.2025. godine",
+    "licence_valid_until": "2031-03-05",
+    "capacity": "Odrasli sa telesnim invaliditetom odnosno intelektualnim teškoćama/ 15 korisnika",
+    "founder": "Miroljub Nikolić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA SOCIJALNI RAD BAČKA PALANKA",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Bačka Palanka",
+   "municipality": null,
+   "address": "20. Oktobra br. 64",
+   "phones": [
+    "021/6045-585"
+   ],
+   "emails": [
+    "backapalanka.csr@minrzs.gov.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za odrasle sa intelektualnim ili telesnim teškoćama",
+    "licence_no": "Broj: 1063 od 26.05.2025. godine",
+    "licence_valid_until": "2031-05-26",
+    "capacity": "Mladi i odrasli sa fizičkim invaliditetom odnosno intelektualnim teškoćama",
+    "founder": "Biljana Karanović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "ZADRUGA SOCIJALNA KOOPERATIVA ''VIVERE-ZIVETI''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Kragujevac",
+   "municipality": null,
+   "address": "Kopaonička ulica br. 44",
+   "phones": [
+    "034/207-543",
+    "064/9874-924"
+   ],
+   "emails": [
+    "vivere@sbb.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za odrasle sa intelektualnim ili telesnim teškoćama",
+    "licence_no": "Broj: 1079 od 24.07.2025. godine",
+    "licence_valid_until": "2031-07-24",
+    "capacity": "Odrasli sa telesnim invaliditetom odnosno intelektualnim teškoćama",
+    "founder": "Dejan Petrović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "JU CENTAR ZA RAZVOJ LOKALNIH USLUGA SOCIJALNE ZAŠTITE VRANJE Dnevni boravak za decu i mlade sa telesnim invaliditetom i intelektualnim teškoćama \"Maštolend\"",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Vranje",
+   "municipality": null,
+   "address": "Milunke Savić bb",
+   "phones": [
+    "017/421-703",
+    "017/432-996",
+    "064/890-7800"
+   ],
+   "emails": [
+    "dnevniboravak@sszvr.org.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za odrasle sa intelektualnim ili telesnim teškoćama",
+    "licence_no": "Broj: 1080 od 22.07.2025. godine",
+    "licence_valid_until": "2031-07-24",
+    "capacity": "Odrasli sa telesnim invaliditetom odnosno intelektualnim teškoćama",
+    "founder": "Dragan Janjić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE ZA POMOĆ DECI SA POSEBNIM POTREBAMA NAŠI SNOVI",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Valjevo",
+   "municipality": null,
+   "address": "Vladike Nikolaja br. 422/1",
+   "phones": [
+    "014/284319"
+   ],
+   "emails": [
+    "db.nasisnovi@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za odrasle sa intelektualnim ili telesnim teškoćama",
+    "licence_no": "Broj: 1124 od 30.12.2025. godine",
+    "licence_valid_until": "2031-12-30",
+    "capacity": "Odrasli sa telesnim invaliditezom odnoso intelektuslnim teškoćama / 20 korisnika",
+    "founder": "Milica Zdravković Žunjić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE ZA POMOĆ MENTALNO NEDOVOLJNO RAZVIJENIM OSOBAMA OPŠTINE TRSTENIK",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Trstenik",
+   "municipality": null,
+   "address": "Radoja Krstića bb",
+   "phones": [
+    "069/2171070"
+   ],
+   "emails": [
+    "mnrotrstenik@gmail.com",
+    "minrots@yahoo.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za odrasle sa intelektualnim ili telesnim teškoćama",
+    "licence_no": "Broj: 1131 od 29.01.2026. godine",
+    "licence_valid_until": "2032-01-29",
+    "capacity": "Odrasli sa telesnim invaliditetom odnosno intelektualnim teškoćama / 25 korisnika",
+    "founder": "Ljiljana Mihajlović Đorđe Tomić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "ZADRUGA SOCIJALNA KOOPERATIVA -VIVERE - ŽIVETI KRAGUJEVAC",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Kragujevac",
+   "municipality": null,
+   "address": "Borivoja Petrovića br. 13B",
+   "phones": [
+    "060/6147254"
+   ],
+   "emails": [
+    "vivere@sbb.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za odrasle sa intelektualnim ili telesnim teškoćama",
+    "licence_no": "Broj: 1135 od 05.02.2026. godine",
+    "licence_valid_until": "2032-02-05",
+    "capacity": "Odrasli sa telesnim invaliditetom odnosno intelektualnim teškoćama / 20 korisnika",
+    "founder": "Tatjana Spasić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE DRUŠTVO ZA POMOĆ MENTALNO NEDOVOLJNO RAZVIJENIM OSOBAMA ALEKSANDROVAC",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Aleksandrovac",
+   "municipality": null,
+   "address": "Jaše Petrovića br. 18g",
+   "phones": [
+    "037/3552-207",
+    "063/8086552"
+   ],
+   "emails": [
+    "mnroac@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za odrasle sa intelektualnim ili telesnim teškoćama",
+    "licence_no": "Broj: 1145 od 25.02.2026. godine",
+    "licence_valid_until": "2032-02-25",
+    "capacity": "Odrasli sa intelektualnim teškoćama / 10 korisnika",
+    "founder": "Zoja Ivanović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA RAZVOJ USLUGA SOCIJALNE ZAŠTITE ''KNEGINJA LJUBICA''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Kragujevac",
+   "municipality": null,
+   "address": "Čika Matina br. 5",
+   "phones": [
+    "034/355 485",
+    "034/355-486",
+    "065/972-83-02"
+   ],
+   "emails": [
+    "knjeginjaljubica@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "prihvatilište za decu i mlade",
+    "licence_no": "Broj: 831 od 17.01.2023. godine",
+    "licence_valid_until": "2029-01-17",
+    "capacity": "Deca i mladi/10 korisnika",
+    "founder": "Slavica Novaković"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "USTANOVA SOCIJALNE ZAŠTITE ''PRIHVATILIŠTE ZA DECU BEOGRAD''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Beograd",
+   "municipality": "Zvezdara",
+   "address": "Živka Davidovića br.64",
+   "phones": [
+    "064/616-7326",
+    "064/867-7503"
+   ],
+   "emails": [
+    "carobni.svet@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "prihvatilište za decu i mlade",
+    "licence_no": "Broj: 1013 od 17.07.2024. godine",
+    "licence_valid_until": "2030-07-17",
+    "capacity": "Deca i mladi/48 korisnika",
+    "founder": "Danijela Stajković"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Prihvatilište za žrtve nasilja u porodici pri CENTRU ZA RAZVOJ USLUGA SOCIJALNE ZAŠTITE ''KNEGINJA LJUBICA''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Kragujevac",
+   "municipality": null,
+   "address": "Čika Matina br. 5",
+   "phones": [
+    "034/355 485",
+    "034/355-486",
+    "065/972-83-02"
+   ],
+   "emails": [
+    "centarkg@kneginjaljubica.org.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "prihvatilište za žrtve nasilja u porodici",
+    "licence_no": "Broj: 825 od 27.12.2022. godine",
+    "licence_valid_until": "2028-12-27",
+    "capacity": "Žene i deca/10 korisnika",
+    "founder": "Slavica Novaković"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA SOCIJALNI RAD LESKOVAC",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Leskovac",
+   "municipality": null,
+   "address": "Koste Stamenkovića br.6",
+   "phones": [
+    "016/3150156",
+    "064/8986697"
+   ],
+   "emails": [
+    "leskovac.csr@minrzs.gov.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "prihvatilište za žrtve nasilja u porodici",
+    "licence_no": "Broj: 839 od 02.03.2023. godine",
+    "licence_valid_until": "2029-03-02",
+    "capacity": "Žene i deca/11 korisnika",
+    "founder": "Predrag Momčilović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE ''SAVETOVALIŠTE PROTIV NASILJA U PORODICI'' Prihvatilište za žene i decu žrtve nasilja u porodici-Sigurna kuća",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Beograd",
+   "municipality": null,
+   "address": null,
+   "phones": [
+    "011/351-46-48",
+    "062/30-45-60"
+   ],
+   "emails": [],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "prihvatilište za žrtve nasilja u porodici",
+    "licence_no": "Broj: 937 od 08.11.2023. godine",
+    "licence_valid_until": "2029-11-08",
+    "capacity": "Žene i deca/30 korisnika",
+    "founder": "Vesna Stanojević"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA PRUŽANJE USLUGA SOCIJALNE ZAŠTITE GRADA ZRENJANINA - \"MOST\"",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Zrenjanin",
+   "municipality": null,
+   "address": "Gimnazijska br. 25",
+   "phones": [
+    "064/81-77-102",
+    "023/608-240"
+   ],
+   "emails": [
+    "kontakt@centarmostzr.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "prihvatilište za žrtve nasilja u porodici",
+    "licence_no": "Broj: 1006 od 01.07.2024. godine",
+    "licence_valid_until": "2029-07-01",
+    "capacity": "Žene i deca/10 korisnika",
+    "founder": "Andrijana Stojanović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA SOCIJALNI RAD GRADA NOVOG SADA",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Novi Sad",
+   "municipality": null,
+   "address": "Zmaj Ognjena Vuka 13",
+   "phones": [
+    "021/210 1400"
+   ],
+   "emails": [
+    "sigurnazenskakuca@csrns.org"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "prihvatilište za žrtve nasilja u porodici",
+    "licence_no": "Broj: 1083 od 28.07.2025. godine",
+    "licence_valid_until": "2030-07-25",
+    "capacity": "Žene i deca/ 15 korisnika",
+    "founder": "Katarina Stolić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "SIGURNA KUĆA CENTAR ZA RAZVOJ LOKALNIH USLUGA SOCIJALNE ZAŠTITE U VRANJU",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Vranje",
+   "municipality": null,
+   "address": "Milunke Savić br. 44",
+   "phones": [
+    "017/421703"
+   ],
+   "emails": [
+    "direktor@cszvr.org.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "prihvatilište za žrtve nasilja u porodici",
+    "licence_no": "Broj: 1100 od 23.10.2025. godine",
+    "licence_valid_until": "2031-10-23",
+    "capacity": "Žrtve nasilja/10 korisnika",
+    "founder": "Dragan Janjić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA SOCIJALNI RAD \"SOLIDARNOST\" PANČEVO",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Pančevo",
+   "municipality": null,
+   "address": "Filipa Višnjića br. 15",
+   "phones": [
+    "013/331 777",
+    "013/21 900 72"
+   ],
+   "emails": [
+    "sigurnakucapancevo@gmail.com",
+    "pancevo.csr@minrzs.gov.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "prihvatilište za žrtve nasilja u porodici",
+    "licence_no": "Broj: 1132 od 27.01.2026. godine",
+    "licence_valid_until": "2032-01-27",
+    "capacity": "Žene i deca/ 15 korisnika",
+    "founder": "Nemanja Bojić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Prihvatilište za odrasle i starije pri CENTRU ZA PRUŽANJE USLUGA SOCIJALNE ZAŠTITE ''MARA'' OJ PRIHVATILIŠTE ZA ODRASLA I STARA LICA",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Niš",
+   "municipality": null,
+   "address": "IX brigade br.59a",
+   "phones": [
+    "064/6586701",
+    "065/9577405"
+   ],
+   "emails": [
+    "centar.mara.prihvatiliste@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "prihvatilište za stare",
+    "licence_no": "Broj: 721 od 15.03.2022. godine",
+    "licence_valid_until": "2027-03-15",
+    "capacity": "Odrasli i stariji/ 15 korisnika",
+    "founder": "Grad Niš"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Prihvatilište za stare pri JU CENTRU ZA RAZVOJ LOKALNIH USLUGA SOCIJALNE ZAŠTITE VRANJE",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Vranje",
+   "municipality": null,
+   "address": "Moše Pijade bb",
+   "phones": [
+    "017/432-996",
+    "017/421-703"
+   ],
+   "emails": [
+    "direktor@cszvr.org.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "prihvatilište za stare",
+    "licence_no": "Broj: 748 od 27.05.2022. godine",
+    "licence_valid_until": "2028-05-27",
+    "capacity": "Odrasli i stariji/ 30 korisnika",
+    "founder": "Grad Vranje"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "''NAŠA ČUVARKUĆA''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Bečej",
+   "municipality": null,
+   "address": "Zelena br. 2",
+   "phones": [
+    "021/270-51-33",
+    "064/20-72-723"
+   ],
+   "emails": [
+    "office.cuvarkuca@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "prihvatilište za stare",
+    "licence_no": "Broj: 997 od 09.05.2024. godine",
+    "licence_valid_until": "2029-05-09",
+    "capacity": "Odrasli i stariji/50 korisnika",
+    "founder": "Jovana Ilić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA PRUŽANJE USLUGA SOCIJALNE ZAŠTITE \"ZRAČAK\" ČAČAK",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Čačak",
+   "municipality": null,
+   "address": "Slavujski put bb",
+   "phones": [
+    "032/403-271",
+    "064/8031321"
+   ],
+   "emails": [
+    "zracakca@mts.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "prihvatilište za stare",
+    "licence_no": "Broj: 1156 od 11.05.2026. godine",
+    "licence_valid_until": "2031-05-11",
+    "capacity": "Odrasli i stariji/ 8 korisnika",
+    "founder": "Ana Jakovljević"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "OJ PRIHVATILIŠTE ZA ŽRTVE TRGOVINE LJUDIMA",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Mala Krsna",
+   "municipality": null,
+   "address": "Kralja Petra Prvog br.1",
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "prihvatilište za žrtve trgovine ljudima",
+    "licence_no": "Broj: 715 od 17.02.2022. godine",
+    "licence_valid_until": "2028-02-17",
+    "capacity": "Žrtve trgovine ljudima/6 korisnika",
+    "founder": null
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "ZANEMARIVANJA I TRGOVINE LJUDIMA CENTAR ZA SOCIJALNI RAD GRADA NOVOG SADA",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Novi Sad",
+   "municipality": null,
+   "address": "Zmaj Ognjena Vuka br. 13",
+   "phones": [
+    "021/2101400",
+    "064/8114058"
+   ],
+   "emails": [
+    "novisad.csr@minrzs.gov.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "prihvatilište za žrtve trgovine ljudima",
+    "licence_no": "Broj: 1104 od 06.11.2025. godine",
+    "licence_valid_until": "2030-11-06",
+    "capacity": "Deca/ 20 korisnika",
+    "founder": "Katarina Stolić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE ''CENTAR ZA INTEGRACIJU MLADIH''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Beograd",
+   "municipality": "Zvezdara",
+   "address": "Krfska br. 7a",
+   "phones": [
+    "011/64-14-928"
+   ],
+   "emails": [
+    "office@cim.org.rs",
+    "marko.tosic@cim.org.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "svratište za decu",
+    "licence_no": "Broj: 984 od 05.04.2024. godine",
+    "licence_valid_until": "2030-04-05",
+    "capacity": "Deca",
+    "founder": "Marko Tošić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE ''CENTAR ZA INTEGRACIJU MLADIH''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Beograd",
+   "municipality": null,
+   "address": "Bulevar Arsenija Čarnojevića br. 145",
+   "phones": [
+    "011/712-1060"
+   ],
+   "emails": [
+    "office@cim.org.rs",
+    "marko.tosic@cim.org.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "svratište za decu",
+    "licence_no": "Broj: 987 od 10.04.2024. godine",
+    "licence_valid_until": "2030-04-10",
+    "capacity": "Deca",
+    "founder": "Marko Tošić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "USTANOVA SOCIJALNE ZAŠTITE ''PRIHVATILIŠTE ZA DECU BEOGRADA''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Beograd",
+   "municipality": "Zvezdara",
+   "address": "Živka Davidovića br.64",
+   "phones": [
+    "064/616-7326",
+    "064/867-7500",
+    "064/867-7503"
+   ],
+   "emails": [
+    "carobni.svet@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "svratište za decu",
+    "licence_no": "Broj: 1012 od 17.07.2024. godine",
+    "licence_valid_until": "2030-07-17",
+    "capacity": "Deca i mladi/ 30 korisnika",
+    "founder": "Danijela Stajković"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Predah smeštaj pri CENTRU ZA PRUŽANJE USLUGA SOCIJALNE ZAŠTITE ''MARA''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Niš",
+   "municipality": null,
+   "address": "Sestre Baković bb",
+   "phones": [
+    "018/291-972",
+    "065/9577-405"
+   ],
+   "emails": [
+    "centar.mara.predah@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "predah smeštaj",
+    "licence_no": "Broj: 703 od 15.12.2021. godine",
+    "licence_valid_until": "2026-12-15",
+    "capacity": "Deca, mladi i odrasli ",
+    "founder": "Miloš Ranđelović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "HUMANITARNA ORGANIZACIJA ''DEČJE SRCE''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Beograd",
+   "municipality": "Vračar",
+   "address": "Cara Nikolaja II br. 61a",
+   "phones": [
+    "011/655-0200",
+    "064/3038-715"
+   ],
+   "emails": [
+    "organizacija@decjesrce.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "lični pratilac deteta",
+    "licence_no": "Broj: 617 od 22.01.2021. godine",
+    "licence_valid_until": "2027-01-22",
+    "capacity": "Deca sa invaliditetom, odnosno sa smetnjama u razvoju",
+    "founder": "Ivana Rojević"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Lični pratilac deteta pri UDRUŽENJU ''VOLJA ZA ŽIVOTOM''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Velika Plana",
+   "municipality": null,
+   "address": "Miloša Velikog br. 30",
+   "phones": [
+    "026/514-991",
+    "062/431-143"
+   ],
+   "emails": [
+    "voljazivot@yahoo.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "lični pratilac deteta",
+    "licence_no": "Broj: 686 od 06.10.2021. godine",
+    "licence_valid_until": "2027-10-18",
+    "capacity": "Deca sa invaliditetom, odnosno sa smetnjama u razvoju",
+    "founder": "Radovan Radulović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Lični pratilac deteta pri UDRUŽENJU ZA NEGOVANJE ZDRAVIH STILOVA ŽIVOTA ''VERITAS''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Požarevac",
+   "municipality": null,
+   "address": "Moše Pijade bb",
+   "phones": [
+    "064/32 34 737"
+   ],
+   "emails": [
+    "veritas.po@gmail.com",
+    "tujasmina@mts.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "lični pratilac deteta",
+    "licence_no": "Broj:698 od 29.11.2021. godine",
+    "licence_valid_until": "2026-11-29",
+    "capacity": "Deca sa invaliditetom, odnosno sa smetnjama u razvoju",
+    "founder": "Jasmina Turudić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Lični pratilac deteta pri CENTRU ZA SOCIJALNI RAD OPŠTINE BAČKA TOPOLA",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Bačka Topola",
+   "municipality": null,
+   "address": "Petefi brigade br.20",
+   "phones": [
+    "024/715-810",
+    "024/715-398"
+   ],
+   "emails": [
+    "backatopola.csr@minrzs.gov.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "lični pratilac deteta",
+    "licence_no": "Broj:706 od 24.12.2021. godine",
+    "licence_valid_until": "2026-12-24",
+    "capacity": "Deca sa invaliditetom, odnosno sa smetnjama u razvoju",
+    "founder": "Opština Bačka Topola"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Lični pratilac deteta pri HUMANITARNOJ ORGANIZACIJI ''OSMEH SRCA''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Brus",
+   "municipality": null,
+   "address": "Bratislave Petrović br. 29",
+   "phones": [
+    "062/15-41-738"
+   ],
+   "emails": [
+    "osmerhsrca.@yahoo.com",
+    "vikipopovic989@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "lični pratilac deteta",
+    "licence_no": "Broj: 726 od 24.03.2022. godine",
+    "licence_valid_until": "2027-03-24",
+    "capacity": "Deca i mladi",
+    "founder": "Violeta Popović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Lični pratilac deteta pri UDRUŽENJU ''DRUŠTVO ZA CEREBRALNU PARALIZU''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Valjevo",
+   "municipality": null,
+   "address": "Pop Lukina br. 8/3",
+   "phones": [
+    "014/ 351-31-85",
+    "063/107-68-39"
+   ],
+   "emails": [
+    "dcpvaljevo014@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "lični pratilac deteta",
+    "licence_no": "Broj: 752 od 03.06.2022. godine",
+    "licence_valid_until": "2028-06-03",
+    "capacity": "Lični pratilac deteta",
+    "founder": "Nenad Pavlović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Lični pratilac deteta pri USTANOVI ''CENTAR LOKALNIH USLUGA GRADA KRALJEVA''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Kraljevo",
+   "municipality": null,
+   "address": "Zelena gora br. 37",
+   "phones": [
+    "036/338-770",
+    "064/887 69 41",
+    "064/887 69 40"
+   ],
+   "emails": [
+    "clugkv@mts.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "lični pratilac deteta",
+    "licence_no": "Broj: 777 od 21.07.2022. godine",
+    "licence_valid_until": "2027-07-21",
+    "capacity": "Deca i mladi",
+    "founder": "Grad Kraljevo"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTRU ZA SOCIJALNI RAD ZAJEČAR",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Zaječar",
+   "municipality": null,
+   "address": "Generala Gambete br.88",
+   "phones": [
+    "019/420280"
+   ],
+   "emails": [
+    "zajecar.csr@minrzs.gov.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "lični pratilac deteta",
+    "licence_no": "Broj: 804 od 03.11.2022. godine",
+    "licence_valid_until": "2027-11-03",
+    "capacity": "Deca sa invaliditetom, odnosno sa smetnjama u razvoju",
+    "founder": "Nenad Dinulović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE GRAĐANA \"UDRUŽENJE CUPPAE\"",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Golubac",
+   "municipality": null,
+   "address": "Gorana Tošića - Mačka bb",
+   "phones": [
+    "012/638-612",
+    "062/8400-757"
+   ],
+   "emails": [
+    "nvocupae@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "lični pratilac deteta",
+    "licence_no": "Broj: 805 od 07.11.2022. godine",
+    "licence_valid_until": "2027-11-07",
+    "capacity": "Deca sa invaliditetom, odnosno sa smetnjama u razvoju",
+    "founder": "Vladimir Ilić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE \"JEDNAKI U RAZLIČITOSTI\"",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Aleksinac",
+   "municipality": null,
+   "address": "Lele Popović br. 29",
+   "phones": [
+    "063/8323401"
+   ],
+   "emails": [
+    "jednaki2021@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "lični pratilac deteta",
+    "licence_no": "Broj: 807 od 10.11.2022. godine",
+    "licence_valid_until": "2027-11-10",
+    "capacity": "Deca sa invaliditetom, odnosno sa smetnjama u razvoju",
+    "founder": "Slaviša Miladinović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE PSIHOLOGA NOVI PAZAR",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Novi Pazar",
+   "municipality": null,
+   "address": "Mitrovačka bb",
+   "phones": [
+    "020/600 353",
+    "063/1890130"
+   ],
+   "emails": [
+    "udruzenje.psihologa.np@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "lični pratilac deteta",
+    "licence_no": "Broj: 808 od 17.11.2022. godine",
+    "licence_valid_until": "2028-11-07",
+    "capacity": "Deca sa invaliditetom, odnosno sa smetnjama u razvoju",
+    "founder": "Zehra Hasanbegović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "ALEKSANDRA JOVIČIĆ PR AGENCIJA ZA PRUŽANJE USLUGA SOCIJALNE ZAŠTITE BEZ SMEŠTAJA ''NIVEUS TIM'' GORNJI MILANOVAC",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Gornji Milanovac",
+   "municipality": null,
+   "address": "Kneza Aleksandra Karađorđevića br. 36",
+   "phones": [
+    "032/711-406"
+   ],
+   "emails": [
+    "niveustim@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "lični pratilac deteta",
+    "licence_no": "Broj: 827 od 28.12.2022. godine",
+    "licence_valid_until": "2028-12-28",
+    "capacity": "Lični pratilac deteta",
+    "founder": "Aleksandra Jovičić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE ZA PODRŠKU OSOBAMA SA PSIHOFIZIČKIM SMETNJAMA \"ZAJEDNO\" GRADA SUBOTICE",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Subotica",
+   "municipality": null,
+   "address": "Đure Đakovića br. 23/1",
+   "phones": [
+    "024/556-425",
+    "062/967-01-61"
+   ],
+   "emails": [
+    "djelmis.aleksandar@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "lični pratilac deteta",
+    "licence_no": "Broj: 830 od 13.01.2023. godine",
+    "licence_valid_until": "2028-01-13",
+    "capacity": "Lični pratilac deteta",
+    "founder": "Aleksandar Đelmiš"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "GRADSKI CENTAR ZA USLUGE SOCIJALNE ZAŠTITE UŽICE",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Užice",
+   "municipality": null,
+   "address": "Vidovdanska br. 32a",
+   "phones": [
+    "031/3100800",
+    "064/8363574"
+   ],
+   "emails": [
+    "lusz@uzice.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "lični pratilac deteta",
+    "licence_no": "Broj: 838 od 21.02.2023. godine",
+    "licence_valid_until": "2028-02-21",
+    "capacity": "Lični pratilac deteta",
+    "founder": "Dragica Milosavljević"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA PRUŽANJE USLUGA SOCIJALNE ZAŠTITE U ZAJEDNICI \"JELENA ANŽUJSKA\"",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Zubin Potok",
+   "municipality": null,
+   "address": "Zupče b.b.",
+   "phones": [
+    "8128/478-388",
+    "065/2727778"
+   ],
+   "emails": [
+    "cpuszzubinpotok@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "lični pratilac deteta",
+    "licence_no": "Broj: 841 od 02.03.2023. godine",
+    "licence_valid_until": "2028-03-02",
+    "capacity": "Lični pratilac deteta",
+    "founder": "Adrijana Hodžić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA PRUŽAE USLUGA SOCIJALNE ZAŠTITE \"MARA\"",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Niš",
+   "municipality": null,
+   "address": "Sestre Baković bb",
+   "phones": [
+    "018/291-972",
+    "063/1182133"
+   ],
+   "emails": [
+    "centar.mara@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "lični pratilac deteta",
+    "licence_no": "Broj: 850 od 05.04.2023. godine",
+    "licence_valid_until": "2028-04-05",
+    "capacity": "Lični pratilac deteta",
+    "founder": "Miloš Ranđelović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "USTANOVA-CENTAR ZA BRIGU O STARIMA, DECI I OSOBAMA SA INVALIDITETOM \"SVILAJNAC\"",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Svilajnac",
+   "municipality": null,
+   "address": "Kralja Petra Prvog br. 135",
+   "phones": [
+    "035/321-016",
+    "064/89-12-635"
+   ],
+   "emails": [
+    "centar@svilajnac.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "lični pratilac deteta",
+    "licence_no": "Broj: 865 od 27.04.2023. godine",
+    "licence_valid_until": "2028-04-27",
+    "capacity": "Deca sa invaliditetom, odnosno sa smetnjama u razvoju",
+    "founder": "Irena Milošević"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE GRAĐANA RODITELJ SMEDEREVSKA PALANKA",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Smederevska Palanka",
+   "municipality": null,
+   "address": "Vuka Karadžića br. 23",
+   "phones": [
+    "066/271979"
+   ],
+   "emails": [
+    "spasic79.ds@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "lični pratilac deteta",
+    "licence_no": "Broj: 866 od 10.05.2023. godine",
+    "licence_valid_until": "2028-05-10",
+    "capacity": "Deca sa invaliditetom, odnosno sa smetnjama u razvoju",
+    "founder": "Dragan Spasić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "USTANOVA ZA PRUŽANJE USLUGA SOCIJALNE ZAŠTITE \"SOLIDARNOST\"",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Ruma",
+   "municipality": null,
+   "address": "Železnička br. 28",
+   "phones": [
+    "060/7660057"
+   ],
+   "emails": [
+    "director.solidarnost@ruma.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "lični pratilac deteta",
+    "licence_no": "Broj: 879 od 07.06.2023. godine",
+    "licence_valid_until": "2028-06-07",
+    "capacity": "Deca sa invaliditetom, odnosno sa smetnjama u razvoju",
+    "founder": "Branislav Pavić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "FRONTMEN SECURITY DOO SOMBOR",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Sombor",
+   "municipality": null,
+   "address": "Ilije Birčanina br.2",
+   "phones": [
+    "064/24-29-299",
+    "064/933-94-70"
+   ],
+   "emails": [
+    "frontmen025@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "lični pratilac deteta",
+    "licence_no": "Broj: 892 od 10.07.2023. godine",
+    "licence_valid_until": "2028-07-10",
+    "capacity": "Lični pratilac deteta",
+    "founder": "Žana Dragičević"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA SOCIJALNI RAD KRUŠEVAC",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Kruševac",
+   "municipality": null,
+   "address": "Majke Jugovića br. 46",
+   "phones": [
+    "037/416-980",
+    "037/425-504",
+    "064/86-70-448"
+   ],
+   "emails": [
+    "krusevac.csr@minrzs.gov.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "lični pratilac deteta",
+    "licence_no": "Broj: 894 od 17.07.2023. godine ",
+    "licence_valid_until": "2029-07-17",
+    "capacity": "Lični pratilac deteta",
+    "founder": "Jovana Dunjić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CRVENI KRST SRBIJE - CRVENI KRST VOJVODINE - CRVENI KRST ČOKA",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Čoka",
+   "municipality": null,
+   "address": "Petra Drapšina br. 30",
+   "phones": [
+    "023/0471484",
+    "062/797848"
+   ],
+   "emails": [
+    "coka@redcross.org.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "lični pratilac deteta",
+    "licence_no": "Broj: 899 od 01.08.2023. godine",
+    "licence_valid_until": "2028-08-01",
+    "capacity": "Lični pratilac deteta",
+    "founder": "Milorad Malešev"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE \"SOS KOS\"",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Kosjerić",
+   "municipality": null,
+   "address": "Olge Grbić br. 5/2",
+   "phones": [
+    "069/8256 245"
+   ],
+   "emails": [
+    "volonterisoskos@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "lični pratilac deteta",
+    "licence_no": "Broj: 916 od 30.08.2023. godine",
+    "licence_valid_until": "2029-08-30",
+    "capacity": "Lični pratilac deteta",
+    "founder": "Dušica Nikolić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA SOCIJALNI RAD \"SAVA ILIĆ\"",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Aranđelovac",
+   "municipality": null,
+   "address": "Kralja Petra Prvog br. 2a",
+   "phones": [
+    "034/720-505"
+   ],
+   "emails": [
+    "tzsr.ar@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "lični pratilac deteta",
+    "licence_no": "Broj: 919 od 05.09.2023. godine",
+    "licence_valid_until": "2029-09-05",
+    "capacity": "Lični pratilac deteta",
+    "founder": "Nada Tanasijević"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE GRAĐANSKI SAVET OPŠTINE BOJNIK",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Bojnik",
+   "municipality": null,
+   "address": "Zele Veljković br. 1",
+   "phones": [
+    "065/8781321"
+   ],
+   "emails": [
+    "gsobojnik@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "lični pratilac deteta",
+    "licence_no": "Broj: 942 od 13.11.2023. godine",
+    "licence_valid_until": "2028-11-13",
+    "capacity": "Lični pratilac deteta",
+    "founder": "Saša Dajević"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE VILIN \"KONJIĆ\"",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Vrnjačka Banja",
+   "municipality": null,
+   "address": "Vrnjački partizanski odred br. 15l/37",
+   "phones": [
+    "064/822-1009"
+   ],
+   "emails": [
+    "sandramiodragovic78@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "lični pratilac deteta",
+    "licence_no": "Broj: 958 od 19.12.2023. godine",
+    "licence_valid_until": "2028-12-19",
+    "capacity": "Lični pratilac deteta",
+    "founder": "Dejana Miodragović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA PRUŽANJE USLUGA SOCIJALNE ZAŠTITE GRADA SOMBORA",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Sombor",
+   "municipality": null,
+   "address": "Trg Cara Lazara 1",
+   "phones": [
+    "025/415-081",
+    "066/036-007",
+    "064/86-32-178"
+   ],
+   "emails": [
+    "cpuszsombor@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "lični pratilac deteta",
+    "licence_no": "Broj: 962 od 26.12.2023. godine",
+    "licence_valid_until": "2028-12-26",
+    "capacity": "Lični pratilac deteta",
+    "founder": "Jelena Stakić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE ''INKLUZIJA DANAS''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Prokuplje",
+   "municipality": null,
+   "address": "Koste Vojinovića br. 1",
+   "phones": [
+    "065/4433-232"
+   ],
+   "emails": [
+    "inkluzija.danas@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "lični pratilac deteta",
+    "licence_no": "Broj: 969 od 31.01.2019. godine",
+    "licence_valid_until": "2030-01-26",
+    "capacity": "Lični pratilac deteta",
+    "founder": "Ivica Krstović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "OPŠTINSKO UDRUŽENJE ZA POMOĆ DECI I OSOBAMA OMETENIM U RAZVOJU-SJENICA",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Sjenica",
+   "municipality": null,
+   "address": "Nova bb",
+   "phones": [
+    "066/6224-740"
+   ],
+   "emails": [
+    "povetaracsjenica@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "lični pratilac deteta",
+    "licence_no": "Broj: 978 od 12.03.2024. godine",
+    "licence_valid_until": "2029-03-18",
+    "capacity": "Lični pratilac deteta",
+    "founder": "Jasmina Hodžić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE SUNCE-ASOCIJACIJA ZA POMOĆ LICIMA SA POSEBNIM POTREBAMA",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Beograd",
+   "municipality": "Savski Venac",
+   "address": "Sarajevska br. 41/20",
+   "phones": [
+    "060/338-9-339"
+   ],
+   "emails": [
+    "sunce.asocijacija@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "lični pratilac deteta",
+    "licence_no": "Broj: 981 od 27.03.2024. godine",
+    "licence_valid_until": "2029-03-27",
+    "capacity": "Lični pratilac deteta",
+    "founder": "Hristijana Popović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA PRUŽANJE USLUGA SOCIJALNE ZAŠTITE GRADA ZRENJANINA - MOST",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Zrenjanin",
+   "municipality": null,
+   "address": "Gimnazijska br. 25/2",
+   "phones": [
+    "064/81-77-102",
+    "064/479-6-342"
+   ],
+   "emails": [
+    "kontakt@centarmostzr.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "lični pratilac deteta",
+    "licence_no": "Broj: 1001 od 27.05.2024. godine",
+    "licence_valid_until": "2029-05-27",
+    "capacity": "Lični pratilac deteta",
+    "founder": "Nevena Montresor"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "OMLADINSKA ZADRUGA \"ZAK\" (U prostoriji Centra za socijalni rad",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "\"Dr Mihajlo Stupar\" KNJaževac)",
+   "municipality": null,
+   "address": "Karađorđeva br.53",
+   "phones": [
+    "019/733-440",
+    "065/34-07-202"
+   ],
+   "emails": [],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "lični pratilac deteta",
+    "licence_no": "Broj: 1003 od 18.06.2024. godine",
+    "licence_valid_until": "2030-06-18",
+    "capacity": "Lični pratilac deteta",
+    "founder": "Dušanka Punčić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE \"ZAJEDNO DO DSVETLOSTI\"",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Svrljig",
+   "municipality": null,
+   "address": "Hadžićeva 10",
+   "phones": [
+    "062/454-928"
+   ],
+   "emails": [
+    "zajednodosvetlosti@yahoo.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "lični pratilac deteta",
+    "licence_no": "Broj: 1007 od 03.07.2024. godine",
+    "licence_valid_until": "2029-07-03",
+    "capacity": "Lični pratilac deteta",
+    "founder": "Ninoslav Ranđelović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE ZA POMOĆ MENTALNO NEDOVOLJNO RAZVIJENIM OSOBAMA \"PLAVA PTICA\"",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Kula",
+   "municipality": null,
+   "address": "Lenjinova br. 17",
+   "phones": [
+    "025/724-177"
+   ],
+   "emails": [
+    "plavapticamnro@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "lični pratilac deteta",
+    "licence_no": "Broj: 1018 od 30.07.2024. godine",
+    "licence_valid_until": "2030-07-30",
+    "capacity": "Lični pratilac deteta",
+    "founder": "Marko Košutić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJU DECE SA SMETNJAMA U RAZVOJU I NJIHOVIM RODITELJIMA BAJINA BAŠTA",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Bajina Bašta",
+   "municipality": null,
+   "address": "Vojvode Mišića bb",
+   "phones": [
+    "031/866 366",
+    "064/1195-435"
+   ],
+   "emails": [
+    "udssurbb@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "lični pratilac deteta",
+    "licence_no": "Broj: 1025 od 16.08.2024. godine",
+    "licence_valid_until": "2030-08-16",
+    "capacity": "Deca sa invaliditetom, odnosno sa smetnjama u razvoju",
+    "founder": "Nemanja Jovanović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE EKUMENSKA HUMANITARNA ORGANIZACIJA NOVI SAD",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Bački Petrovac",
+   "municipality": null,
+   "address": "Kolarova br.6",
+   "phones": [
+    "021/466-588",
+    "069/601-553"
+   ],
+   "emails": [
+    "office@ehons.org"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "lični pratilac deteta",
+    "licence_no": "Broj: 1050 od 24.12.2030. godine",
+    "licence_valid_until": "2030-12-24",
+    "capacity": "Lični pratilac deteta",
+    "founder": "Anna Brtka Valent"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE RODITELJA I NASTAVNIKA ''PARTNERSKI ZA OBRAZOVANJE'' LESKOVAC",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Leskovac",
+   "municipality": null,
+   "address": "Rade Končara br. 1",
+   "phones": [
+    "060/0366-233"
+   ],
+   "emails": [
+    "partnerski.leskovac@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "lični pratilac deteta",
+    "licence_no": "Broj: 1057 od 07.03.2025. godine",
+    "licence_valid_until": "2031-03-07",
+    "capacity": "Lični pratilac deteta ",
+    "founder": "Zoran Ilić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "DETETA CENTAR ZA DEFEKTOLOGIJU ARTEMIDA STANKOVIĆ MARINA PR",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Niš",
+   "municipality": null,
+   "address": "Strahinjića Bana br.3",
+   "phones": [
+    "063/433-492"
+   ],
+   "emails": [
+    "czdartemida2020@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "lični pratilac deteta",
+    "licence_no": "Broj: 1060 od 23.04.2025. godine",
+    "licence_valid_until": "2031-04-23",
+    "capacity": "Lični pratilac deteta ",
+    "founder": "Marina Stanković"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "JU CENTAR ZA RAZVOJ LOKALNIH USLUGA SOCIJALNE ZAŠTITE VRANJE",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Vranje",
+   "municipality": null,
+   "address": "Milunke Savić bb",
+   "phones": [
+    "017/421-703"
+   ],
+   "emails": [
+    "direktor@cszvr.org.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "lični pratilac deteta",
+    "licence_no": "Broj: 1065 od 28.05.2025. godine",
+    "licence_valid_until": "2031-05-28",
+    "capacity": "Deca sa telesnim invaliditetom, odnosno sa intelektualnim teškoćama",
+    "founder": "Dragan Janjić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "AVANGARD SECURITY DOO SOMBOR",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Sombor",
+   "municipality": null,
+   "address": "Arsenija Čarnojevića br. 5v",
+   "phones": [
+    "064/933-9470",
+    "060/4312-213"
+   ],
+   "emails": [
+    "avangardsombor@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "lični pratilac deteta",
+    "licence_no": "Broj: 1077 od 11.07.2025. godine",
+    "licence_valid_until": "2030-07-11",
+    "capacity": "Lični pratilac deteta",
+    "founder": "Robert Nemeti"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE OBOLELIH OD MIŠIĆNIH I NEUROMIŠIĆNIH BOLESTI TOPLIČKOG OKRUGA",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Prokuplje",
+   "municipality": null,
+   "address": "Vojvode Mišića br. 46",
+   "phones": [
+    "027/322-545"
+   ],
+   "emails": [
+    "udrobolelihmisicnih@mts.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "lični pratilac deteta",
+    "licence_no": "Broj: 1085 od 08.08.2025. godine",
+    "licence_valid_until": "2030-08-08",
+    "capacity": "Lični pratilac deteta",
+    "founder": "Dragoslav Petrović Miroljub Cvetković"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA SOCIJALNI RAD MEDVEĐA",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Medveđa",
+   "municipality": null,
+   "address": "Lička br. 12",
+   "phones": [
+    "016/3891-340"
+   ],
+   "emails": [
+    "medvedja.csr@minrzs.gov.rs",
+    "csrmedvedja@yahoo.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "lični pratilac deteta",
+    "licence_no": "Broj: 1087 od 11.08.2025. godine",
+    "licence_valid_until": "2030-08-11",
+    "capacity": "Deca sa invaliditetom, odnosno sa smetnjama u razvoju",
+    "founder": "Saša Gikić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA PRUŽANJE USLUGA SOCIJALNE ZAŠTITE ''ZRAČAK''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Čačak",
+   "municipality": null,
+   "address": "Nušićeva br. 24",
+   "phones": [
+    "032/331-944"
+   ],
+   "emails": [
+    "zracakca@mts.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "lični pratilac deteta",
+    "licence_no": "Broj: 1088 od 03.09.2025. godine",
+    "licence_valid_until": "2031-09-03",
+    "capacity": "Deca sa invaliditetom, odnosno sa smetnjama u razvoju",
+    "founder": "Ana Jakovljević"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA SOCIJALNI RAD OPŠTINE VELIKA PLANA",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Velika Plana",
+   "municipality": null,
+   "address": "Pionirska br. 1",
+   "phones": [
+    "026/514-041",
+    "060/3676-901"
+   ],
+   "emails": [
+    "velikaplana@minrzs.gov.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "lični pratilac deteta",
+    "licence_no": "Broj: 1091 od 26.08.2025. godine",
+    "licence_valid_until": "2030-08-26",
+    "capacity": "Lični pratilac deteta",
+    "founder": "Aleksandra Dinić Đulić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE GRAĐANA \"CENTAR ZA EDUKACIJU \"OSMEH\"",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Vlasotince",
+   "municipality": null,
+   "address": "Lole Ribara br. 14",
+   "phones": [
+    "060/601-6210"
+   ],
+   "emails": [
+    "osmehvlasotince@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "lični pratilac deteta",
+    "licence_no": "Broj: 1092 od 03.09.2025. godine",
+    "licence_valid_until": "2031-09-03",
+    "capacity": "Deca sa invaliditetom, odnosno sa smetnjama u razvoju",
+    "founder": "Predrag Radulović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE GRAĐANA ''SAMOPOUZDANJE- ȌNBIZALOM''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Novi Bečej",
+   "municipality": null,
+   "address": "Rajka Rakočevića br. 15",
+   "phones": [
+    "065/923-0371"
+   ],
+   "emails": [
+    "samopouzdanje2020@gmail.com",
+    "dragancicanb@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "lični pratilac deteta",
+    "licence_no": "Broj: 1094 od 16.09.2025. godine",
+    "licence_valid_until": "2031-09-16",
+    "capacity": "Deca sa invaliditetom, odnosno sa smetnjama u razvoju",
+    "founder": "Dragan Čiča"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "DRUŠTVO ZA POMOĆ MENTALNO NEDOVOLJNO RAZVIJENIH LICA - ZVONČICA",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Kuršumlija",
+   "municipality": null,
+   "address": "Kosovska br. 174",
+   "phones": [
+    "063/ 8877303"
+   ],
+   "emails": [
+    "sunshine8144@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "lični pratilac deteta",
+    "licence_no": "Broj: 1099 od 23.10.2025. godine",
+    "licence_valid_until": "2030-10-23",
+    "capacity": "Deca sa invaliditetom, odnosno sa smetnjama u razvoju",
+    "founder": "Sunčica Filipović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "USTANOVA SOCIJALNE ZAŠTITE NAŠA ČUVARKUĆA BEČEJ",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Bečej",
+   "municipality": null,
+   "address": "Zelena br. 2",
+   "phones": [
+    "064/2072723",
+    "066/8101986"
+   ],
+   "emails": [
+    "office.cuvarkuca@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "lični pratilac deteta",
+    "licence_no": "Broj: 1113 od 04.12.2025. godine",
+    "licence_valid_until": "2031-12-04",
+    "capacity": "Deca sa invaliditetom, odnosno smetnjama u razvoju",
+    "founder": "Ljiljana Gojković"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA SOCIJALNI RAD \"DUNAV\"",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Inđija",
+   "municipality": null,
+   "address": "Vojvode Stepe br. 42",
+   "phones": [
+    "022/560-303"
+   ],
+   "emails": [
+    "csrdunav@minrzs.gov.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "lični pratilac deteta",
+    "licence_no": "Broj: 1137 od 10.02.2026. godine",
+    "licence_valid_until": "2031-02-10",
+    "capacity": "Deca sa invaliditetom, odnosno smetnjama u razvoju",
+    "founder": "Željka Godić Avramović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA SOCIJALNI RAD ŠID",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Šid",
+   "municipality": null,
+   "address": "Laze Kostića br. 1",
+   "phones": [
+    "022/ 712823"
+   ],
+   "emails": [
+    "centarsid@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "lični pratilac deteta",
+    "licence_no": "Broj: 1147 od 19.03.2026. godine",
+    "licence_valid_until": "2032-03-19",
+    "capacity": "Deca sa invaliditetom, odnosno smetnjama u razvoju",
+    "founder": "Nebojša Kovačević"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "LIČNI PRATILAC DETETA",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "ANACONDA SOLUTION DOO SOMBOR Sombor",
+   "municipality": null,
+   "address": "Arsenija Čarnojevića br. 5V",
+   "phones": [
+    "025/431-331"
+   ],
+   "emails": [
+    "anakondasolution@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "lični pratilac deteta",
+    "licence_no": "Broj: 1148 od 20.03.2026. godine",
+    "licence_valid_until": "2031-03-20",
+    "capacity": "Deca sa invaliditetom, odnosno smetnjama u razvoju",
+    "founder": "Žana Dragičević"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "ŠKOLA ZA OSNOVNO I SREDNJE OBRAZOVANJE \"RADIVOJ POPOVIĆ\"",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Sremska Mitrovica",
+   "municipality": null,
+   "address": "Stevana Sremca br. 9/b",
+   "phones": [
+    "022/215 13 01"
+   ],
+   "emails": [
+    "radivoj.popovic.sm@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "lični pratilac deteta",
+    "licence_no": "Broj: 1160 od 21.04.2026. godine",
+    "licence_valid_until": "2032-04-21",
+    "capacity": "Deca sa invaliditetom, odnosno smetnjama u razvoju",
+    "founder": "Ljiljana Ćirić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "SLAĐANA MARJANOVIĆ PR USLUGE ODRŽAVANJA OBJEKATA CARSKI KONAK TRŠIĆ",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Loznica",
+   "municipality": null,
+   "address": "Vuka Karadžića br. 18",
+   "phones": [
+    "064/1357407"
+   ],
+   "emails": [
+    "sladi.marjanovic81@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "lični pratilac deteta",
+    "licence_no": "Broj: 1172 od 28.05.2026. godine",
+    "licence_valid_until": "2031-05-28",
+    "capacity": "Deca sa invaliditetom odnosno smetnjama u razvoju",
+    "founder": "Slađana Marjanović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE GRAĐANA \"SRCEM ZA NAŠ GRAD\"",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Paraćin",
+   "municipality": null,
+   "address": "Ustanička br. 13",
+   "phones": [
+    "063/393-068"
+   ],
+   "emails": [
+    "srcemzanasgrad@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "lični pratilac deteta",
+    "licence_no": "Broj: 1173 od 02.06.2026. godine",
+    "licence_valid_until": "2032-06-02",
+    "capacity": "Deca sa invaliditetom odnosno smetnjama u razvoju",
+    "founder": "Ivan Aranđelović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Pomoć u kući pri UDRUŽENJU HENDIKEPIRANIH LICA ''HENDIKEP''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Dimitrovgrad",
+   "municipality": null,
+   "address": "9. maja, br.14",
+   "phones": [
+    "010/363-912",
+    "064 /654-51 28"
+   ],
+   "emails": [
+    "hcaribrod@yahoo.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 163 od 04.07.2016. godine",
+    "licence_valid_until": null,
+    "capacity": "Odrasli i stariji",
+    "founder": "Zoran Vasov"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Pomoć u kući pri CENTRU USLUGA SOCIJALNE PODRŠKE ''SUNCOKRET''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Temerin",
+   "municipality": null,
+   "address": "Čaki Lajoša 25/1",
+   "phones": [
+    "061/2708-410"
+   ],
+   "emails": [
+    "cusp.suncokret@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 241 od 22.02.2017. godine",
+    "licence_valid_until": null,
+    "capacity": "Odrasli i stariji",
+    "founder": "Slavica Dejanović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Pomoć u kući pri UDRUŽENJU GRAĐANA ''ZLATIBORSKI KRUG''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Čajetina",
+   "municipality": null,
+   "address": "Slobodana Penezića br.31",
+   "phones": [
+    "031/3831-709",
+    "064/2391-718"
+   ],
+   "emails": [
+    "zkrug@mts.rs",
+    "zoricazkrug@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj:609 od 18.12.2020. godine",
+    "licence_valid_until": "2026-12-18",
+    "capacity": "Odrasli i stariji",
+    "founder": "Zorica Milosavljević"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Pomoć u kući pri UDRUŽENJU ''CARITAS ŠABAC''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Šabac",
+   "municipality": null,
+   "address": "Vuka Karadžića br.17",
+   "phones": [
+    "069/30 65 462",
+    "069/30 65 466"
+   ],
+   "emails": [
+    "puk@caritas-sabac.rs",
+    "secretariat@caritas-sabac.rs",
+    "m.nikolic@caritas-sabac.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 614 od 13.01.2021. godine",
+    "licence_valid_until": "2027-01-13",
+    "capacity": "Odrasli i stariji",
+    "founder": "Miroljub Nikolić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Pomoć u kući pri UDRUŽENJU GRAĐANA LUŽNIČKE RUKOTVORINE ''Ž.E.C.''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Babušnica",
+   "municipality": null,
+   "address": "Gorčinci bb",
+   "phones": [
+    "010/384735",
+    "069/684735",
+    "060/7313392"
+   ],
+   "emails": [
+    "zenskicentar777@gmail.com",
+    "zecentar@yahoo.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 615 od 15.01.2021. godine",
+    "licence_valid_until": "2027-01-15",
+    "capacity": "Odrasli i stariji",
+    "founder": "Milica Kostić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Pomoć u kući pri UDRUŽENJU ''NAŠA SURDULICA ZA SVE''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Surdulica",
+   "municipality": null,
+   "address": "Srpskih vladara bb",
+   "phones": [
+    "069/688-055"
+   ],
+   "emails": [
+    "nasasurdulicazasve@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 630 od 26.03.2021. godine",
+    "licence_valid_until": "2027-03-26",
+    "capacity": "Odrasli i stariji",
+    "founder": "Olivera Petković"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Pomoć u kući pri UDRUŽENJU ''ASOCIJACIJA ZA RAZVOJ OPŠTINE ŽAGUBICA''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Žagubica",
+   "municipality": null,
+   "address": "Kralja Milana br. 25",
+   "phones": [
+    "012/7643-815"
+   ],
+   "emails": [
+    "joca.st@hotmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 643 od 14.05.2021. godine",
+    "licence_valid_until": "2027-05-14",
+    "capacity": "Odrasli i stariji",
+    "founder": "Katarina Lazarević"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Pomoć u kući pri UDRUŽENJU ''CARITAS VALJEVO''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Valjevo",
+   "municipality": null,
+   "address": "Braće Veličković br.44",
+   "phones": [
+    "014/291 820",
+    "069/306 54 63"
+   ],
+   "emails": [
+    "caritasva@mts.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 658 od 21.06.2021. godine",
+    "licence_valid_until": "2027-06-21",
+    "capacity": "Odrasli i stariji",
+    "founder": "Radoslav Ljubičić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Pomoć u kući pri UDRUŽENJU ''CARITAS SUBOTICA-SZABADKA''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Subotica",
+   "municipality": null,
+   "address": "Zmaj Jovina br. 20",
+   "phones": [
+    "024/559-139",
+    "062/293-863"
+   ],
+   "emails": [
+    "caritas@tippnet.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 660 od 24.06.2021. godine",
+    "licence_valid_until": "2027-06-24",
+    "capacity": "Odrasli i stariji",
+    "founder": "Pasko Caba"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Pomoć u kući pri CENTRU ZA SOCIJALNI RAD KOVAČICA",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Kovačica",
+   "municipality": null,
+   "address": "Čaplovičova 17",
+   "phones": [
+    "013/661-041",
+    "013/661-119",
+    "062/8020-642"
+   ],
+   "emails": [
+    "kovacica.csr@minrzs.gov.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 663 od 22.07.2021. godine",
+    "licence_valid_until": "2027-07-22",
+    "capacity": "Odrasli i stariji",
+    "founder": "Opština Kovačica"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CRVENI KRST",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Kovin",
+   "municipality": null,
+   "address": "Mihajla Pupina br. 19",
+   "phones": [
+    "013/741-511",
+    "063/367-170"
+   ],
+   "emails": [
+    "kovin@redcross.org.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 664 od 28.07.2021. godine",
+    "licence_valid_until": "2027-07-28",
+    "capacity": "Odrasli i stariji",
+    "founder": "Velinka Fara"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Pomoć u kući pri UDRUŽENJU ''NA POLA PUTA''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Pančevo",
+   "municipality": null,
+   "address": "Vuka Karadžića br.2 b",
+   "phones": [
+    "013/341-726",
+    "065/203-7310"
+   ],
+   "emails": [
+    "contact@napolaputa.org"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 665 od 05.08.2021. godine",
+    "licence_valid_until": "2027-08-05",
+    "capacity": "Deca, mladi, odrasli i stariji",
+    "founder": "Zorka Popadić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Pomoć u kući pri CENTRU ZA SOCIJALNI RAD NOVI PAZAR",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Novi Pazar",
+   "municipality": null,
+   "address": "Stevana Nemanje br.198",
+   "phones": [
+    "020/312-633"
+   ],
+   "emails": [
+    "novipazar.csr@minrzs.gov.rs",
+    "centarnp@mts.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 684 od 30.09.2021. godine ",
+    "licence_valid_until": "2027-09-30",
+    "capacity": "Deca, mladi, odrasli i stariji ",
+    "founder": "Grad Novi Pazar"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Pomoć u kući pri GERONTOLOŠKOM CENTRU KIKINDA Služba Pomoći u kući",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Kikinda",
+   "municipality": null,
+   "address": "Generala Drapšina br.99",
+   "phones": [
+    "0230/315-060",
+    "063/512-947"
+   ],
+   "emails": [
+    "kikindagc.ust@minrzs.gov.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 696 od 23.11.2021. godine",
+    "licence_valid_until": "2027-11-23",
+    "capacity": "Odrasli i stariji",
+    "founder": "Grad Kikinda"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Pomoć u kući pri CENTRU ZA PODRŠKU I INKLUZIJU ''HELP NET''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Beograd",
+   "municipality": null,
+   "address": "Vojvode Milenka br. 37",
+   "phones": [
+    "062/288-208"
+   ],
+   "emails": [
+    "info@helpnet.rs",
+    "gordana.milovanovic@helpnet.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 700 od 08.12.2021. godine",
+    "licence_valid_until": "2027-12-08",
+    "capacity": "Odrasli i stariji",
+    "founder": "Gordana Milovanović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "EKUMENSKA HUMANITARNA ORGANIZACIJA",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Novi Sad",
+   "municipality": null,
+   "address": "Ćirila i Metodija br. 21",
+   "phones": [
+    "021/466"
+   ],
+   "emails": [
+    "office@ehons.org"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 704 od 15.12.2021. godine",
+    "licence_valid_until": "2027-12-15",
+    "capacity": "Deca, mladi, odrasli i stariji ",
+    "founder": "Brtka Valent Anna"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Pomoć u kući pri CENTRU ZA SOCIJALNI RAD OPŠTINE BAČKA TOPOLA",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Bačka Topola",
+   "municipality": null,
+   "address": "Petefi brigade br.20",
+   "phones": [
+    "024/715-810",
+    "024/715-398"
+   ],
+   "emails": [
+    "backatopola.csr@minrzs.gov.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj:705 od 22.12.2021. godine",
+    "licence_valid_until": "2026-12-22",
+    "capacity": "Odrasli i stariji",
+    "founder": "Opština Bačka Topola"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Pomoć u kući pri GERONTOLOŠKOM CENTRU ''NOVI SAD''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Novi Sad",
+   "municipality": null,
+   "address": "Fruškogorska br. 32",
+   "phones": [
+    "021/450-266"
+   ],
+   "emails": [
+    "gerontns@neobee.net"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 716 od 28.02.2022. godine",
+    "licence_valid_until": "2028-02-28",
+    "capacity": "Odrasli i stariji",
+    "founder": "Grad Novi Sad"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Pomoć u kući pri UDRUŽENJU GRAĐANA ''SVETIONIK''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Loznica",
+   "municipality": null,
+   "address": "Trg Jovana Cvijića bb",
+   "phones": [
+    "065/806 65 34"
+   ],
+   "emails": [
+    "loznicasvetionik@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 720 od 11.03.2022. godine",
+    "licence_valid_until": "2027-03-11",
+    "capacity": "Odrasli i deca sa smetnjama u razvoju",
+    "founder": "Ljiljana Ranković"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Pomoć u kući pri CENTRU ZA SOCIJALNI RAD ''ZAJEČAR''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Zaječar",
+   "municipality": null,
+   "address": "Generala Gambete br. 88",
+   "phones": [
+    "019/420-280",
+    "060/33 87 263"
+   ],
+   "emails": [
+    "zajecar.csr@minrzs.gov.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 723 od 18.03.2022. godine",
+    "licence_valid_until": "2028-03-18",
+    "capacity": "Odrasli i stariji",
+    "founder": "Grad Zaječar"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Pomoć u kući pri AGENCIJI ''PREVENTIVA''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Beograd",
+   "municipality": null,
+   "address": "Ratka Mitrovića br.134",
+   "phones": [
+    "063/248549",
+    "069/5990599"
+   ],
+   "emails": [
+    "predrag.milosevic954@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 727 od 25.03.2022. godine",
+    "licence_valid_until": "2027-03-25",
+    "capacity": "Odrasli i stariji",
+    "founder": "Predrag Milošević"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Pomoć u kući pri CENTRU ZA EDUKACIJU ''OSMEH''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Vlasotince",
+   "municipality": null,
+   "address": "Nemanjina br.40",
+   "phones": [
+    "069/308-3530"
+   ],
+   "emails": [
+    "osmehvlasotince@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 730 od 29.03.2022. godine",
+    "licence_valid_until": "2028-03-29",
+    "capacity": "Odrasli i stariji",
+    "founder": "Predrag Radulović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Pomoć u kući pri CENTRU ZA SOCIJALNI RAD GRADA VRŠCA",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Vršac",
+   "municipality": null,
+   "address": "Žarka Zrenjanina br.13",
+   "phones": [
+    "013/839-696"
+   ],
+   "emails": [
+    "vrsac.csr@minrzs.gov.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 733 od 04.04.2022. godine",
+    "licence_valid_until": "2028-04-04",
+    "capacity": "Odrasli i stariji",
+    "founder": "Grad Vršac"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "OMLADINSKA ZADRUGA ZAK 019 KNJAŽEVAC",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "KNJaževac",
+   "municipality": null,
+   "address": "KNJaza Miloša 75",
+   "phones": [
+    "019/733 440",
+    "065/34 07 202"
+   ],
+   "emails": [
+    "puk.zak019@gmail.com",
+    "dusankapuncic@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 735 od 14.04.2022. godine",
+    "licence_valid_until": "2028-04-14",
+    "capacity": "Odrasli i stariji",
+    "founder": "Dušanka Punčić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Pomoć u kući pri ALEKSANDRA JOVIČIĆ PR AGENCIJA ZA PRUŽANJE USLUGA SOCIJALNE ZAŠTITE BEZ SMEŠTAJA ''NIVEUS TIM'' GORNJI MILANOVAC",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Gornji Milanovac",
+   "municipality": null,
+   "address": "Kneza Aleksandra Karađorđevića br. 36",
+   "phones": [
+    "032/711-406",
+    "061/296-08-49"
+   ],
+   "emails": [
+    "niveustim@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 749 od 27.05.2022. godine",
+    "licence_valid_until": "2028-05-27",
+    "capacity": "Odrasli i stariji",
+    "founder": "Aleksandra Jovičić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Pomoć u kući pri UDRUŽENJU ORGANIZACIJA MLADIH ''CUPPEA''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Golubac",
+   "municipality": null,
+   "address": "Gorana Tošića- Mačka bb",
+   "phones": [
+    "012/638-612",
+    "062/8400-757"
+   ],
+   "emails": [
+    "nvocupae@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 750 od 30.05.2022. godine",
+    "licence_valid_until": "2028-05-30",
+    "capacity": "Deca, odrasli i stariji",
+    "founder": "Vladimir Ilić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Pomoć u kući pri CENTRU ZA PALIJATIVNO ZBRINJAVANJE I PALIJATIVNU MEDICINU ''BELhospice''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Beograd-Zvezdara",
+   "municipality": "Mali Mokri Lug",
+   "address": "Dvadesetog oktobra br.12a",
+   "phones": [
+    "011/334-3311",
+    "060/857 98 24"
+   ],
+   "emails": [
+    "office@belhospice.org"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 759 od 20.06.2022. godine",
+    "licence_valid_until": "2028-06-20",
+    "capacity": "Deca,odrasli i stariji",
+    "founder": "Vera Madžgalj"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Pomoć u kući pri PRIVREDNOM DRUŠTVU ''AURORA VITA'' DOO ZRENJANIN",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Zrenjanin",
+   "municipality": null,
+   "address": "Vojvode Petra Bojovića br. 35",
+   "phones": [
+    "069/201 48 03"
+   ],
+   "emails": [
+    "auroravitazr@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 765 od 27.06.2022. godine",
+    "licence_valid_until": "2027-06-27",
+    "capacity": "Deca,odrasli i stariji",
+    "founder": "Radivoj Ćurčić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Pomoć u kući pri CENTRU ZA SOCIJALNI RAD OPŠTINA PETROVAC I ŽAGUBICA",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Petrovcu na Mlavi",
+   "municipality": null,
+   "address": "Srpskih Vladara br. 284",
+   "phones": [
+    "012/331-473",
+    "064/861 69 61"
+   ],
+   "emails": [
+    "petrovac.csr@minrzs.gov.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 768 od 13.07.2022. godine",
+    "licence_valid_until": "2027-07-13",
+    "capacity": "Odrasli i stariji",
+    "founder": "Opština Petrovac na Mlavi i Žagubica"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Pomoć u kući pri USTANOVI ''CENTAR LOKALNIH USLUGA GRADA KRALJEVA''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Kraljevo",
+   "municipality": null,
+   "address": "Zelena gora br. 37",
+   "phones": [
+    "036/338-770",
+    "064/887 69 41",
+    "064/887 69 40"
+   ],
+   "emails": [
+    "clugkv@mts.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 774 od 21.07.2022. godine",
+    "licence_valid_until": "2027-07-21",
+    "capacity": "Odrasli i stariji",
+    "founder": "Grad Kraljevo"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Pomoć u kući pri ZAJEDNIČKOM CENTRU ZA SOCIJALNI RAD ''SOLIDARNOST'' ZA OPŠTINE LJIG, LAJKOVAC I MINONICA",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Ljig",
+   "municipality": null,
+   "address": "Karađorđeva br.8",
+   "phones": [
+    "014/3445-241",
+    "014/3445-112"
+   ],
+   "emails": [
+    "mcsrsol@yahoo.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 775 od 21.07.2022. godine",
+    "licence_valid_until": "2028-07-21",
+    "capacity": "Odrasli i stariji",
+    "founder": "Opštine Ljig, Lajkovac i Mionica"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Pomoć u kući pri CENTRU ZA SOCIJALNI RAD TUTIN",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Tutin",
+   "municipality": null,
+   "address": "Revolucije br. 4",
+   "phones": [
+    "020/812-101"
+   ],
+   "emails": [
+    "tutin.csr@minrzs.gov.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 778 od 28.07.2022. godine",
+    "licence_valid_until": "2027-07-28",
+    "capacity": "Deca,odrasli i stariji",
+    "founder": "Opština Tutin"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Pomoć u kući pri UDRUŽENJU ''INKLUZIJA DANAS''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Prokuplje",
+   "municipality": null,
+   "address": "Koste Vojinovića br. 1",
+   "phones": [
+    "065/443 32 32"
+   ],
+   "emails": [
+    "inkluzija.danas@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 781 od 26.08.2022. godine",
+    "licence_valid_until": "2028-08-26",
+    "capacity": "Odrasli i stariji",
+    "founder": "Ivica Krstović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE OSOBA SA INVALIDITETOM KURŠUMLIJE",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Kuršumlija",
+   "municipality": null,
+   "address": "Koste Vojinovića br. 6",
+   "phones": [
+    "069/739779"
+   ],
+   "emails": [
+    "uros.kursumlija@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 793 od 19.10.2022. godine",
+    "licence_valid_until": "2028-10-19",
+    "capacity": "Odrasli i stariji",
+    "founder": "Marko Filipović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "ŠKOLA ZA OSNOVNO I SREDNJE OBRAZOVANJE ''ANTON SKALA''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Stara Pazova",
+   "municipality": null,
+   "address": "Karađorđeva 12",
+   "phones": [
+    "063/8677487",
+    "022/310-026"
+   ],
+   "emails": [
+    "anadrog@ptt.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 796 od 03.11.2022. godine",
+    "licence_valid_until": "2028-11-03",
+    "capacity": "Deca i mladi",
+    "founder": "Tanja Todorović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA SOCIJALNI RAD NEGOTIN",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Negotin",
+   "municipality": null,
+   "address": "Srbe Jovanovića br. 6",
+   "phones": [
+    "019/541-404",
+    "019/547-770",
+    "064/64-50-667"
+   ],
+   "emails": [
+    "negotin.csr@minrzs.gov.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 798 od od 25.10.2022. godine ",
+    "licence_valid_until": "2027-10-25",
+    "capacity": "Odrasli i stariji",
+    "founder": "Jelena Dedić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Pomoć u kući pri CENTRU ZA SOCIJALNI RAD MAJDANPEK",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Majdanpek",
+   "municipality": null,
+   "address": "Svetog Save br. 57",
+   "phones": [
+    "064/8955579",
+    "030/581-211"
+   ],
+   "emails": [
+    "majdanpek.csr@minrzs.gov.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 802 od 07.11.2022. godine",
+    "licence_valid_until": "2028-11-07",
+    "capacity": "Odrasli i stariji",
+    "founder": "Vesna Tričković"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Pomoć u kući pri UDRUŽENJU INVALIDA CEREBRALNE I DEČIJE PARALIZE UŽICE",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Užice",
+   "municipality": null,
+   "address": "Kneza Lazara br.2",
+   "phones": [
+    "031/511 876",
+    "064/616 70 07"
+   ],
+   "emails": [
+    "ucdpuzice@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 803 od 03.11.2022. godine",
+    "licence_valid_until": "2028-11-03",
+    "capacity": "Deca, mladi, odrasli i stariji",
+    "founder": "Predrag Bakić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE \"JEDNAKI U RAZLIČITOSTI\"",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Aleksinac",
+   "municipality": null,
+   "address": "Lele Popović br. 29",
+   "phones": [
+    "063/8323401"
+   ],
+   "emails": [
+    "jednaki2021@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 806 od 10.11.2022. godine",
+    "licence_valid_until": "2027-11-10",
+    "capacity": "Deca, mladi, odrasli i stariji",
+    "founder": "Slaviša Miladinović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Pomoć u kući pri CENTRU ZA SOCIJALNI RAD ''SAVA''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Sremska Mitrovica",
+   "municipality": null,
+   "address": "Promenada br. 9",
+   "phones": [
+    "022/623-389",
+    "022/623-376"
+   ],
+   "emails": [
+    "csrsavasm@ptt.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 811 od 16.11.2022. godine",
+    "licence_valid_until": "2028-11-16",
+    "capacity": "Odrasli i stariji",
+    "founder": "Branislav Vukmir"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE \"ČETIRI PLUS JEDAN\"",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Inđija",
+   "municipality": null,
+   "address": "Vojvode Stepe br. 40a",
+   "phones": [
+    "063/1010496",
+    "022/310-026"
+   ],
+   "emails": [
+    "cetiriplusjedan@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 814 od 25.11.2022. godine",
+    "licence_valid_until": "2028-11-25",
+    "capacity": "Odrasli i stariji",
+    "founder": "Anita Kovačević Kostecki"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE CRVENOG KRSTA SRBIJE- CRVENI KRST POŽAREVAC",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Požarevac",
+   "municipality": null,
+   "address": "Takovska br.6",
+   "phones": [
+    "012/513354",
+    "063/1164144"
+   ],
+   "emails": [
+    "pozarevac@redcross.org.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 833 od 31.01.2023. godine",
+    "licence_valid_until": "2029-01-31",
+    "capacity": "Odrasli i stariji",
+    "founder": "Jelena Rašić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA SOCIJALNI RAD LESKOVAC",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Leskovac",
+   "municipality": null,
+   "address": "Koste Stamenkovića br.6",
+   "phones": [
+    "016/252-494",
+    "064/898-66-41"
+   ],
+   "emails": [
+    "leskovac.csr@minrzs.gov.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 834 od 01.02.2023. godine",
+    "licence_valid_until": "2029-02-01",
+    "capacity": "Odrasli i stariji",
+    "founder": "Predrag Momčilović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE VOLONTERSKI CENTAR ''KORACI''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Topola",
+   "municipality": null,
+   "address": "Milivoja Petrovića Blaznavca br. 6",
+   "phones": [
+    "034/6812 009",
+    "060/0183-848"
+   ],
+   "emails": [
+    "koraci.topola@yahoo.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 835 od 10.02.2023. godine",
+    "licence_valid_until": "2029-02-10",
+    "capacity": "Deca, mladi, odrasli i stariji",
+    "founder": "Slobodanka Milivojević"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA PRUŽANJE USLUGA SOCIJALNE ZAŠTITE U ZAJEDNICI \"JELENA ANŽUJSKA\"",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Zubin Potok",
+   "municipality": null,
+   "address": "Zupče b.b.",
+   "phones": [
+    "8128/478-388",
+    "065/2727778"
+   ],
+   "emails": [
+    "cpuszzubinpotok@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 842 od 02.03.2023. godine",
+    "licence_valid_until": "2028-03-02",
+    "capacity": "Odrasli i stariji",
+    "founder": "Adrijana Hodžić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "USTANOVA ZA ODRASLE I STARIJE ''LESKOVAC''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Leskovac",
+   "municipality": null,
+   "address": "Deligradska br. 7",
+   "phones": [
+    "016/251-480",
+    "065/80-20-750"
+   ],
+   "emails": [
+    "leskovacgc.ust@minrzs.gov.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 845 od 15.03.2023. godine",
+    "licence_valid_until": "2029-03-15",
+    "capacity": "Odrasli i stariji",
+    "founder": "Gordana Savić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE KOLPING DRUŠTVO SRBIJE",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Novi Sad",
+   "municipality": null,
+   "address": "Slovačka br.26/V/42",
+   "phones": [
+    "012/300-8359"
+   ],
+   "emails": [
+    "vitaplan@kolping.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 846 od 24.03.2023. godine",
+    "licence_valid_until": "2029-03-24",
+    "capacity": "Deca, mladi, odrasli i stariji",
+    "founder": "Nemet Ferenc i Melinda Tomić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA SOCIJALNI RAD \"PRIJEPOLJE\"",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Prijepolje",
+   "municipality": null,
+   "address": "Sandžačkih brigada br. 11",
+   "phones": [
+    "033/712-033",
+    "033/716-029",
+    "064/8979-012"
+   ],
+   "emails": [
+    "prijepolje.csr@minrzs.gov.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 847 od 24.03.2023. godine",
+    "licence_valid_until": "2028-03-24",
+    "capacity": "Odrasli i stariji",
+    "founder": "Rada Divac"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE GRAĐANA ''SRCEM ZA NAŠ GRAD'",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Paraćin",
+   "municipality": null,
+   "address": "Ustanička br. 13",
+   "phones": [
+    "063/393068"
+   ],
+   "emails": [
+    "srcemzanasgrad@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 848 od 28.03.2023. godine",
+    "licence_valid_until": "2029-03-28",
+    "capacity": "Deca, mladi, odrasli i stariji",
+    "founder": "Ivan Anđelković"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA SOCIJALNI RAD ''KOLUBARA''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Valjevo",
+   "municipality": null,
+   "address": "Sinđelićeva br. 50 B",
+   "phones": [
+    "014/221-114"
+   ],
+   "emails": [
+    "valjevo.csr@minrzs.gov.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 849 od 29.03.2023. godine",
+    "licence_valid_until": "2029-03-29",
+    "capacity": "Odrasli i stariji",
+    "founder": "Teodora Đurđević"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "OPŠTINSKO UDRUŽENJE ZA POMOĆ DECI I OSOBAMA OMETENIM U RAZVOJU - SJENICA",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Sjenica",
+   "municipality": null,
+   "address": "Nova bb",
+   "phones": [
+    "066/6224740"
+   ],
+   "emails": [
+    "povetaracsjenica@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 869 od 16.05.2023. godine",
+    "licence_valid_until": "2029-05-16",
+    "capacity": "Odrasli i stariji",
+    "founder": "Jasmina Hodžić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "USTANOVA ZA PRUŽANJE USLUGA SOCIJALNE ZAŠTITE \"SOLIDARNOST\"",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Ruma",
+   "municipality": null,
+   "address": "Železnička br. 28",
+   "phones": [
+    "064/4301369"
+   ],
+   "emails": [
+    "director.solidarnost@ruma.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 880 od 07.06.2023. godine",
+    "licence_valid_until": "2028-06-07",
+    "capacity": "Deca, mladi, odrasli i stariji",
+    "founder": "Branislav Pavić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE CARITAS ''SV.ANASTAZIJA''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Sremska Mitrovica",
+   "municipality": null,
+   "address": "Timočke divizije br. 62",
+   "phones": [
+    "022/641 964",
+    "063/117 305"
+   ],
+   "emails": [
+    "mitrovacki.caritas@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 884 od 25.05.2023. godine",
+    "licence_valid_until": "2029-05-25",
+    "capacity": "Odrasli i stariji",
+    "founder": "Kristina Dragišić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE ''TE DEUM''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Bela Palanka",
+   "municipality": null,
+   "address": "Branislava Nušića br.2",
+   "phones": [
+    "018/856-455",
+    "061/3168-706"
+   ],
+   "emails": [
+    "ivancvetkovicbp@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 891 od 10.07.2023. godine",
+    "licence_valid_until": "2029-07-10",
+    "capacity": "Deca, odrasli i stariji",
+    "founder": "Ivan Cvetković"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "USTANOVA-CENTAR ZA RAZVOJ USLUGA SOCIJALNE ZAŠTITE OPŠTINE PRIBOJ",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Priboj",
+   "municipality": null,
+   "address": "12. januara br. 5",
+   "phones": [
+    "060/56-26-554"
+   ],
+   "emails": [
+    "centarzarazvojuslugapb@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 893 od 11.07.2023. godine",
+    "licence_valid_until": "2028-07-11",
+    "capacity": "Odrasli i stariji",
+    "founder": "Svetlana Šalipur"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE ROMKINJA BUJANOVAC",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Bujanovac",
+   "municipality": null,
+   "address": "Karađorđa Petrović br. 20",
+   "phones": [
+    "069/8251211"
+   ],
+   "emails": [
+    "ismaili.asima@gmail.com",
+    "romkinjabujanovac@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 896 od 20.07.2023. godine",
+    "licence_valid_until": "2028-07-20",
+    "capacity": "Odrasli i stariji",
+    "founder": "Asima Ismaili"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA SOCIJALNI RAD BOR",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Bor",
+   "municipality": null,
+   "address": "Vojske Jugoslavije br. 11",
+   "phones": [
+    "030/425-960",
+    "060/7377729"
+   ],
+   "emails": [
+    "csrbor.jelena@gmail.com",
+    "bor.csr@minrzs.gov.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 906 od 03.08.2023. godine",
+    "licence_valid_until": "2029-08-03",
+    "capacity": "Deca, mladi, odrasli i stariji",
+    "founder": "Jelena Ristić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE DRUŠTVO ZA POMOĆ NEDOVOLJNO RAZVIJENIM LICIMA OPŠTINE ALEKSINAC",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Aleksinac",
+   "municipality": null,
+   "address": "Momčila Popovića br.103",
+   "phones": [
+    "064/6599-199"
+   ],
+   "emails": [
+    "udruzenje.mnrl@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 909 od 11.08.2023. godine",
+    "licence_valid_until": "2029-08-11",
+    "capacity": "Deca, odrasli i stariji",
+    "founder": "Ljeposava Petrović i Suzana Stefanović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "HRIŠĆANSKO HUMANITARNO UDRUŽENJE ''HLEB ŽIVOTA''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Beograd-Vračar",
+   "municipality": null,
+   "address": "Požarevačka ulica br.53",
+   "phones": [
+    "060/4060001",
+    "011/2443540"
+   ],
+   "emails": [
+    "info@hlebzivota.org.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 912 od 01.09.2023. godine",
+    "licence_valid_until": "2029-09-01",
+    "capacity": "Odrasli i stariji",
+    "founder": "Slavica Stanković"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE \"SOS KOS\"",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Kosjerić",
+   "municipality": null,
+   "address": "Olge Grbić br. 5/2",
+   "phones": [
+    "069/8256 245"
+   ],
+   "emails": [
+    "volonterisoskos@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 917 od 30.08.2023. godine",
+    "licence_valid_until": "2029-08-30",
+    "capacity": "Deca, mladi, odrasli i stariji",
+    "founder": "Dušica Nikolić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "GERONTOLOŠKI CENTAR ''KRUŠEVAC''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Kruševac",
+   "municipality": null,
+   "address": "Kosovska br.116",
+   "phones": [
+    "037/ 420390"
+   ],
+   "emails": [
+    "krusevac@minrzs.gov.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 938 od 09.12.2023. godine",
+    "licence_valid_until": "2029-11-09",
+    "capacity": "Odrasli i stariji",
+    "founder": "Jelena Mijailović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE GRAĐANA ''HERZ 24'' ĆUPRIJA",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Ćuprija",
+   "municipality": null,
+   "address": "Karađorđeva 49, lokal 10",
+   "phones": [
+    "035/8871-473",
+    "063/1226-239",
+    "062/405-077"
+   ],
+   "emails": [
+    "herz24cuprija@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 951 od 30.11.2023. godine",
+    "licence_valid_until": "2029-11-30",
+    "capacity": "Odrasli i stariji",
+    "founder": "Dragana Stanojević"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA SOCIJALNI RAD LOZNICA",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Loznica",
+   "municipality": null,
+   "address": "Dositeja Obradovića bb",
+   "phones": [
+    "066/622-4740"
+   ],
+   "emails": [
+    "loznica.csr@minrzs.gov.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 966 od 28.12.2029. godine",
+    "licence_valid_until": "2029-12-28",
+    "capacity": "Odrasli i stariji",
+    "founder": "Ana Andrić Vučić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA SOCIJALNI RAD ''ŠABAC''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Šabac",
+   "municipality": null,
+   "address": "Mačvanska br.76",
+   "phones": [
+    "015/344-462",
+    "060/3983-000"
+   ],
+   "emails": [
+    "csra@csrsabac.org.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 973 od 27.02.2024. godine",
+    "licence_valid_until": "2030-02-27",
+    "capacity": "Odrasli i stariji",
+    "founder": "Katarina Matić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "FRONTMEN SECURITY DOO SOMBOR",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Sombor",
+   "municipality": null,
+   "address": "Ilije Birčanina br. 2",
+   "phones": [
+    "064/2429299"
+   ],
+   "emails": [
+    "frontmen025@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 974 od 27.02.2024. godine",
+    "licence_valid_until": "2029-02-27",
+    "capacity": "Odrasli i stariji",
+    "founder": "Biljana Mrkonjić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA SOCIJALNI RAD STARA PAZOVA",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Stara Pazova",
+   "municipality": null,
+   "address": "Ćirila i Metodija br.18",
+   "phones": [
+    "022/311-930",
+    "022/310-353",
+    "064/207-19-90"
+   ],
+   "emails": [
+    "starapazova.csr@minrzs.gov.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 977 od 12.03.2024. godine",
+    "licence_valid_until": "2030-03-12",
+    "capacity": "Odrasli i stariji",
+    "founder": "Rada Žugić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "DOBROTVORNA FONDACIJI SRPSKE PRAVOSLAVNE CRKVE ''ČOVEKOLJUBLJE''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Kraljevo",
+   "municipality": null,
+   "address": "Karađorđeva br. 3",
+   "phones": [
+    "011/3672-970"
+   ],
+   "emails": [
+    "beograd@covekoljublje.org"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 985 od 08.04.2024. godine",
+    "licence_valid_until": "2030-04-08",
+    "capacity": "Odrasli i stariji",
+    "founder": "Dragan Makojević"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "SAVEZU ZA CEREBRALNU I DEČIJU PARALIZU BEOGRADA",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Beograd - Stari Grad",
+   "municipality": null,
+   "address": "Pančićeva br.16",
+   "phones": [
+    "011/2184-533",
+    "062/8098-105"
+   ],
+   "emails": [
+    "office@cerebralbg.net"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 992 od 18.04.2024. godine",
+    "licence_valid_until": "2030-04-18",
+    "capacity": "Deca, odrasli i stariji",
+    "founder": "Dilbera Sarajlić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA SOCIJALNI RAD ŽABARI",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Žabari",
+   "municipality": null,
+   "address": "Kneza Miloša br. 127",
+   "phones": [
+    "012/250-301",
+    "012/250-307",
+    "012/250-010"
+   ],
+   "emails": [
+    "zabari.csr@minrzs.gov.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 1004 od 26.06.2024. godine",
+    "licence_valid_until": "2030-06-26",
+    "capacity": "Odrasli i stariji",
+    "founder": "Marina Milošević"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "HUMANITARNA ORGANIZACIJI ''DEČJE SRCE''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Beograd",
+   "municipality": "Vračar",
+   "address": "Cara Nikolaja Drugor br.61a",
+   "phones": [
+    "011/3349-612",
+    "064/166-11-92"
+   ],
+   "emails": [
+    "organizacija@decjesrce.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 1009 od 10.07.2024. godine",
+    "licence_valid_until": "2030-07-10",
+    "capacity": "Deca, odrasli i stariji",
+    "founder": "Ivana Rojević Goran Rojević"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Pomoć u kući \"POMOĆ U KUĆI ZA STARA LICA\"",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Vladičin Han",
+   "municipality": null,
+   "address": "Vojvode Sinđelića 4a",
+   "phones": [
+    "063/83-49-632"
+   ],
+   "emails": [
+    "pomocukuci.vladicinhan@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 1015 od 18.07.2024. godine",
+    "licence_valid_until": "2029-07-18",
+    "capacity": "Odrasli i stariji",
+    "founder": "Marija Gašić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "DOM ZA STARE I PENZIONERE MOL",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Mol",
+   "municipality": null,
+   "address": "JNA br. 105",
+   "phones": [
+    "024/862-157"
+   ],
+   "emails": [
+    "moladadsp.ust@minrzs.gov.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 1023 od 31.08.2024. godine",
+    "licence_valid_until": "2030-08-31",
+    "capacity": "Odrasli i stariji",
+    "founder": "Šević Danijela"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA PRUŽANJE USLUGA SOCIJALNE ZAŠTITE GRADA SOMBORA",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Sombor",
+   "municipality": null,
+   "address": "Trg cara Lazara br. 1",
+   "phones": [
+    "025/415-081"
+   ],
+   "emails": [
+    "cpuszsombor@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 1024 od 15.08.2024. godine",
+    "licence_valid_until": "2029-08-15",
+    "capacity": "Odrasli i stariji",
+    "founder": "Stakić Jelena"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "GRADSKI CENTAR ZA SOCIJALNI RAD JAGODINA",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Jagodina",
+   "municipality": null,
+   "address": "Ružice Milanović br. 1",
+   "phones": [
+    "035/8222-456",
+    "062/316-28-41"
+   ],
+   "emails": [
+    "jagodina.csr@minrzs.gov.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 1027 od 30.10.2024. godine",
+    "licence_valid_until": "2029-10-30",
+    "capacity": "odrasli i stariji",
+    "founder": "Biserka Jkovljević"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE ''SUNČEV ZRAK''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Ražanj",
+   "municipality": null,
+   "address": "Novoražanjska ulica bb",
+   "phones": [
+    "064/870-5170"
+   ],
+   "emails": [
+    "suncev.zrak.razanj@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 1028 od 20.08.2024. godine",
+    "licence_valid_until": "2030-08-20",
+    "capacity": "odrasli i stariji",
+    "founder": "Milena Stojković"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE \"VILIN KONJIĆ\" VRNJAČKA BANJA",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Vrnjačka Banja",
+   "municipality": null,
+   "address": "Vrnjački partizanski odred br. 15l/37",
+   "phones": [
+    "064/822-1009"
+   ],
+   "emails": [
+    "vilinkonjicvb@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 1030 od 27.08.2024. godine",
+    "licence_valid_until": "2029-08-27",
+    "capacity": "Odrasli i stariji",
+    "founder": "Dejana Miodragović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA SOCIJALNI RAD ''SAVA ILIĆ'' ARANĐELOVAC",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Aranđelovac",
+   "municipality": null,
+   "address": "Kralja Petra Prvog br. 2a",
+   "phones": [
+    "034/720-963",
+    "060/018-38-50"
+   ],
+   "emails": [
+    "arandjelovac.csr@minrzs.gov.rs",
+    "csr.ar@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 1039 od 23.10.2024. godine",
+    "licence_valid_until": "2030-10-23",
+    "capacity": "Odrasli i stariji",
+    "founder": "Nada Tanasijević"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "GERONTOLOŠKOI CENTAR ZRENJANIN",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Zrenjanin",
+   "municipality": null,
+   "address": "Principova br.22-26",
+   "phones": [
+    "060/546-1100",
+    "023/546-150"
+   ],
+   "emails": [
+    "geront.zr@beotel.net"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 1042 od 15.11.2024. godine",
+    "licence_valid_until": "2030-11-15",
+    "capacity": "Odrasli i stariji",
+    "founder": "Tanja Živanov"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "''DRUGA NEGA-KUĆNA NEGA''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Nova Pazova",
+   "municipality": null,
+   "address": "Radnička br.15",
+   "phones": [
+    "064/911-3393"
+   ],
+   "emails": [
+    "druganega@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 1044 od 02.12.2024. godine",
+    "licence_valid_until": "2030-12-02",
+    "capacity": "Odrasli i stariji",
+    "founder": "Mirjana Djakiv"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "DOM ZA ODRASLE I STARIJE ''SVETI VASILIJE OSTROŠKI ČUDOTVORAC''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Novi Bečej",
+   "municipality": null,
+   "address": "Maršala Tita br. 77",
+   "phones": [
+    "023/771 079"
+   ],
+   "emails": [
+    "gcnb@mts.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 1045 od 04.12.2024. godine",
+    "licence_valid_until": "2030-12-04",
+    "capacity": "Odrasli i stariji",
+    "founder": "Ivica Milankov"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "KATARINA KUNČAK PR KUĆNA NEGA I POMOĆ U KUĆI WIZITA SREMSKA MITROVICA",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Sremska Mitrovica",
+   "municipality": null,
+   "address": "Pivarska 13V",
+   "phones": [
+    "022/400-400"
+   ],
+   "emails": [
+    "vizitahomecare@gmail.com",
+    "kucnanega@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 1051 od 23.01.2025. godine",
+    "licence_valid_until": "2030-01-23",
+    "capacity": "Odrasli i stariji",
+    "founder": "Katarina Kunčak"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "VIVACARE DOO BEOGRAD",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Beograd",
+   "municipality": null,
+   "address": "Brankova 23",
+   "phones": [
+    "065/847-1876"
+   ],
+   "emails": [
+    "jovansindic91@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 1058 od 11.03.2025. godine",
+    "licence_valid_until": "2030-03-11",
+    "capacity": "Odrasli i stariji",
+    "founder": "Zoran Ilić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE GRAĐANA RODITELJ SMEDEREVSKA PALANKA",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Smederevska Palanka",
+   "municipality": null,
+   "address": "Vuka Karadžića br. 23",
+   "phones": [
+    "066/271-979"
+   ],
+   "emails": [
+    "roditeljsp@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 1059 od 14.03.2025. godine",
+    "licence_valid_until": "2030-03-14",
+    "capacity": "Odrasli i stariji",
+    "founder": "Dragan Spasić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "HELIX INNOVATIVE SOLUTIONS DRUŠTVO SA OGRANIČENOM ODGOVORNOŠĆU NOVI SAD",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Novi Sad",
+   "municipality": null,
+   "address": "Gagarinova br. 22",
+   "phones": [
+    "063-1907-554"
+   ],
+   "emails": [
+    "heliks.care@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 1061 od 17.04.2025. godine",
+    "licence_valid_until": "2031-04-17",
+    "capacity": "Odrasli i stariji",
+    "founder": "Sanja Drča Dimitrios Koltsis"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA SOCIJALNI RAD MEDVEĐA",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Medveđa",
+   "municipality": null,
+   "address": "Lička br. 12",
+   "phones": [
+    "016/3891-340"
+   ],
+   "emails": [
+    "medvedja.csr@minrzs.gov.rs",
+    "csrmedvedja@yahoo.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 1064 od 19.05.2025. godine",
+    "licence_valid_until": "2030-05-19",
+    "capacity": "Odrasli i stariji",
+    "founder": "Saša Gikić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE DISTROFIČARA JABLANIČKOG OKRUGA",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Leskovac",
+   "municipality": null,
+   "address": "Južnomoravskih brigada bb",
+   "phones": [
+    "016/216-663",
+    "065/2421-030"
+   ],
+   "emails": [
+    "distrole@mts.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 1066 od 28.05.2025. godine",
+    "licence_valid_until": "2031-05-28",
+    "capacity": "Odrasli i stariji",
+    "founder": "Dragana Petrović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "''CARSKI KONAK'' DOO LOZNICA-TRŠIĆ",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Tršić",
+   "municipality": "Loznica",
+   "address": "Tršić br. 6",
+   "phones": [
+    "064/405-282"
+   ],
+   "emails": [
+    "branko.domtrsic@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 1068 od 05.06.2025. godine",
+    "licence_valid_until": "2031-06-05",
+    "capacity": "Odrasli i stariji ",
+    "founder": "Branko Marjanović i Milan Starčević"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE \"SAMOPOUZDANJE-ONBIYAL\"",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Novi Bečej",
+   "municipality": null,
+   "address": "Rajko Rakočevića br. 15",
+   "phones": [
+    "065/923-0371"
+   ],
+   "emails": [
+    "samopouydanje2020@gmail.com",
+    "dragancicanb@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 1072 od 30.06.2025. godine",
+    "licence_valid_until": "2030-06-30",
+    "capacity": "Deca, odrasli i stariji.",
+    "founder": "Dragan Čiča"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "GERONTOLOŠKI CENTAR SUBOTICA",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Subotica",
+   "municipality": null,
+   "address": "Žarka Zrenjanina br. 16",
+   "phones": [
+    "024/644-444",
+    "024/555-030"
+   ],
+   "emails": [
+    "suboticagerontoloskicentar@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 1075 od 09.07.2025. godine",
+    "licence_valid_until": "2031-07-09",
+    "capacity": "Odrasli i stariji",
+    "founder": "Miloje Grbović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "AVANGARD SECURITY DOO SOMBOR",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Sombor",
+   "municipality": null,
+   "address": "Arsenija Čarnojevića br. 5v",
+   "phones": [
+    "064/933-9470"
+   ],
+   "emails": [
+    "avangardsombor@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 1076 od 11.07.2030. godine",
+    "licence_valid_until": "2030-07-11",
+    "capacity": "Odrasli i stariji",
+    "founder": "Robert Nemeti"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA PRUŽANJE USLUGA SOCIJALNE ZAŠTITE ''ZRAČAK''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Čačak",
+   "municipality": null,
+   "address": "Nušićeva br. 24",
+   "phones": [
+    "032/331-944"
+   ],
+   "emails": [
+    "zracakca@mts.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 1089 od 03.09.2025. godine",
+    "licence_valid_until": "2031-09-03",
+    "capacity": "Odrasli i stariji",
+    "founder": "Ana Jakovljević"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA SOCIJALNI RAD \"PEĆINCI\"",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Pećinci",
+   "municipality": null,
+   "address": "Slobodana Bajića br. 5",
+   "phones": [
+    "022/2436-028"
+   ],
+   "emails": [
+    "pecinci.csr@minrzs.gov.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 1093 od 03.09.2025. godine",
+    "licence_valid_until": "2030-08-29",
+    "capacity": "Odrasli i stariji",
+    "founder": "Zorica Mijailović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "JU CENTAR ZA RAZVOJ LOKALNIH USLUGA SOCIJALNE ZAŠTITE VRANJE",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Vranje",
+   "municipality": null,
+   "address": "Milunke Savić bb",
+   "phones": [
+    "017/421-703"
+   ],
+   "emails": [
+    "direktor@cszvr.org.rs",
+    "info@cszvr.org.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 1095 od 19.09.2025. godine",
+    "licence_valid_until": "2031-09-16",
+    "capacity": "Odrasli i stariji",
+    "founder": "Dragan Janjić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "SLAĐANA BOSIĆ PR GERAS ZRENJANIN",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Zrenjanin",
+   "municipality": null,
+   "address": "Đurđa Smederevca br. 2",
+   "phones": [
+    "066/27-25-23",
+    "065/8373-755"
+   ],
+   "emails": [
+    "geras.zrenjanin@gmail.com",
+    "sladjanalazic999@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 1096 od 19.09.2025. godine",
+    "licence_valid_until": "2030-09-19",
+    "capacity": "Odrasli i stariji",
+    "founder": "Slađana Bosić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "IMPERIJAL PLUS DOO SOMBOR",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Sombor",
+   "municipality": null,
+   "address": "Vujadina Sekulića 47",
+   "phones": [
+    "025/300916",
+    "063/8206966"
+   ],
+   "emails": [
+    "imperijal.plus@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 1103 od 23.10.2025. godine",
+    "licence_valid_until": null,
+    "capacity": "Odrasli i stariji",
+    "founder": "Srđan Budisavljević"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "DRUŠTVO ZA CEREBRALNU I DEČIJU PARALIZU SMEDEREVO",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Smederevo",
+   "municipality": null,
+   "address": "Dine Mančića br. 1",
+   "phones": [
+    "026/4631536"
+   ],
+   "emails": [
+    "info@savezosi.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 1109 od 25.11.2025. godine",
+    "licence_valid_until": "2031-11-25",
+    "capacity": "Odrasli i stariji",
+    "founder": "Dragan Stojanović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE ZA POMOĆ NEDOVOLJNO RAZVIJENIM OSOBAMA \"PLAVA PTICA\" OPŠTINE KULA",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Kula",
+   "municipality": null,
+   "address": "Lenjinova br. 17",
+   "phones": [
+    "025/724177"
+   ],
+   "emails": [
+    "plavapticamnro@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 1111 od 21.11.2025. godine",
+    "licence_valid_until": "2031-11-21",
+    "capacity": "Odrasli i stariji",
+    "founder": "Ivana Zazuljak Papuga"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "ŠKOLA ZA OSNOVNO I SREDNJE OBRAZOVANJE \"RADIVOJ POPOVIĆ\"",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Sremska Mitrovica",
+   "municipality": null,
+   "address": "Fruškogorska br. 73",
+   "phones": [
+    "022/215 13 01"
+   ],
+   "emails": [
+    "radivoj.popovic.sm@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 1112 od 16.01.2026. godine",
+    "licence_valid_until": "2032-01-16",
+    "capacity": "Deca, maladi i stariji sa smetnjama u razvoju i invaliditetom",
+    "founder": "Ljiljana Ćirić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA SOCIJALNI RAD LEBANE",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Lebane",
+   "municipality": null,
+   "address": "Cara Dušana br. 70",
+   "phones": [
+    "016/843203"
+   ],
+   "emails": [
+    "lebane.csr@minrzs.gov.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 1119 od 17.12.2025. godine",
+    "licence_valid_until": "2031-12-17",
+    "capacity": "Odrasli i stariji",
+    "founder": "Dragan Pavlović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "USTANOVA NAŠA ČUVARKUĆA BEČEJ",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Bečej",
+   "municipality": null,
+   "address": "Zelena br. 2",
+   "phones": [
+    "064/2072723",
+    "066/8101986"
+   ],
+   "emails": [
+    "office.cuvarkuca@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 1125 od 29.12.2025. godine",
+    "licence_valid_until": "2031-12-29",
+    "capacity": "Odrasli i stariji",
+    "founder": "Ljiljana Gojković"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE GRAĐANA \"GRAĐANSKI SAVET OPŠTINE BOJNIK\"",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Bojnik",
+   "municipality": null,
+   "address": "Zele Veljkovića br. 1",
+   "phones": [
+    "016/821-429"
+   ],
+   "emails": [
+    "gsobojnik2@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 1127 od 30.12.2025. godine",
+    "licence_valid_until": "2031-12-30",
+    "capacity": "Odrasli i stariji",
+    "founder": "Saša Dajević"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "USTANOVA SOCIJALNE ZAŠTITE ZA PRUŽANJE POMOĆI U KUĆI ODRASLIMA I STARIJIMA \"FELIX DOMUS\", NOVI SAD Novi Sad",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Žitište",
+   "municipality": null,
+   "address": "Ive Lole Ribara br. 5",
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 1136 od 06.02.2026. godine",
+    "licence_valid_until": "2032-02-06",
+    "capacity": "Odrasli i stariji",
+    "founder": null
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE ZA POMOĆ MENTALNO NEDOVOLJNO RAZVIJENIM OSOBAMA VRANJE",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Vranje",
+   "municipality": null,
+   "address": "Dimitrija Jovčića br. 19",
+   "phones": [
+    "017/423 835",
+    "069/1898326"
+   ],
+   "emails": [
+    "mnrovranje@mts.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 1152 od 30.04.2026. godine",
+    "licence_valid_until": "2032-04-30",
+    "capacity": "Deca, mladi i odrasli sa smetnjama u mentalnom razvoju",
+    "founder": "Verica Stanojković"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "ISKRA POMOĆ U KUĆI DOO ZRENJANIN",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Zrenjanin",
+   "municipality": null,
+   "address": "Save Tekelije br. 44",
+   "phones": [
+    "065/8155000"
+   ],
+   "emails": [
+    "iskrapomoc@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 1154 od 02.04.2026. godine",
+    "licence_valid_until": "2031-04-02",
+    "capacity": "Odrasli i stariji",
+    "founder": "Aleksandar Granić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "AGENCIJA ZA PRUŽANJE USLUGA POMOĆI U KUĆI NANA S. V. SVETLANA VUČKOVIĆ PR BEOGRAD (VRAČAR)",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Beograd",
+   "municipality": "Vraačar",
+   "address": "Molerova br. 76",
+   "phones": [
+    "011/733-447-44"
+   ],
+   "emails": [
+    "vsvetlana@agencijanana.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 1161 od 21.04.2026. godine",
+    "licence_valid_until": "2032-04-21",
+    "capacity": "Odrasli i stariji",
+    "founder": "Svetlana Vučković"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE \"ZAJEDNO DO SVETLOSTI\"",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Svrljig",
+   "municipality": null,
+   "address": "Hadžićeva br. 10",
+   "phones": [
+    "062/454-928"
+   ],
+   "emails": [
+    "zajednodosvetlosti@yahoo.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 1163 od 11.05.2026. godine",
+    "licence_valid_until": "2032-05-11",
+    "capacity": "Deca, odrasli i stariji",
+    "founder": "Ninoslav Ranđelović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE \"DRUŠTVO ZA CEREBRALNU I DEČIJU PARALIZU OPŠTINE IVANJICA",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Ivanjica",
+   "municipality": null,
+   "address": "13. septembra br. 24",
+   "phones": [
+    "032/662-397"
+   ],
+   "emails": [
+    "cdpivanica@mts.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 1174 od 09.06.2026. godine",
+    "licence_valid_until": "2032-06-09",
+    "capacity": "Odrasli i stariji",
+    "founder": "Svetlana Glavinić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA DEFEKTOLOGIJU ARTEMIDA STANKOVIĆ MARINA PR NIŠ",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Niš",
+   "municipality": null,
+   "address": "Takovska br. 4a",
+   "phones": [],
+   "emails": [
+    "czdartemida2020@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "pomoć u kući",
+    "licence_no": "Broj: 1178 od 07.07.2026. godine",
+    "licence_valid_until": "2032-07-07",
+    "capacity": "Deca i mladi",
+    "founder": "Marina Stanković"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA SAMOSTALNI ŽIVOT OSOBA SA INVALIDITETOM KRAGUJEVAC",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Kragujevac",
+   "municipality": null,
+   "address": "Laze Marinkovića br.4",
+   "phones": [
+    "034/ 322-734",
+    "034/ 356-396",
+    "069/ 272-6564"
+   ],
+   "emails": [
+    "cilkragujevac@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "personalni asistent",
+    "licence_no": "Broj: 666 od 18.08.2021. godine",
+    "licence_valid_until": "2027-08-18",
+    "capacity": "Personalna asistencija",
+    "founder": "Milena Stojanović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Personalni asistent pri PRIVREDNOM DRUŠTVU ''IMPERIJAL PLUS'' DOO SOMBOR",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Sombor",
+   "municipality": null,
+   "address": "Vujadina Sekulića",
+   "phones": [
+    "025/300-916",
+    "063/537-419"
+   ],
+   "emails": [
+    "imperijal.plus@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "personalni asistent",
+    "licence_no": "Broj: 776 od 22.07.2022. godine",
+    "licence_valid_until": "2027-07-22",
+    "capacity": "Odrasli i stariji",
+    "founder": "Dragan Šuša"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA SAMOSTALNI ŽIVOT OSOBA",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Smederevo",
+   "municipality": null,
+   "address": "Dine Mančića br. 1",
+   "phones": [
+    "026/4631- 536"
+   ],
+   "emails": [
+    "info@savezosi.org"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "personalni asistent",
+    "licence_no": "Broj: 780 od 01.08.2022. godine",
+    "licence_valid_until": "2028-08-01",
+    "capacity": "Personalna asistencija",
+    "founder": "Radivoj Damjanović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA SAMOSTALNI ŽIVOT OSOBA SA INVALIDITETOM LESKOVCA",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Leskovac",
+   "municipality": null,
+   "address": "Južnomoravskih brigada bb",
+   "phones": [
+    "016/ 215-927"
+   ],
+   "emails": [
+    "cil.leskovac@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "personalni asistent",
+    "licence_no": "Broj: 800 od 31.10.2022. godine",
+    "licence_valid_until": "2028-10-31",
+    "capacity": "Personalna asistencija",
+    "founder": "Svetislav Marjanović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE PSIHOLOGA NOVI PAZAR",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Novi Pazar",
+   "municipality": null,
+   "address": "Mitrovačka bb",
+   "phones": [
+    "020/600 353",
+    "063/1890130"
+   ],
+   "emails": [
+    "udruzenje.psihologa.np@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "personalni asistent",
+    "licence_no": "Broj: 809 od 07.11.2022. godine",
+    "licence_valid_until": "2028-11-07",
+    "capacity": "Personalna asistencija",
+    "founder": "Zehra Hasanbegović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "GRADSKI CENTAR ZA USLUGE SOCIJALNE ZAŠTITE UŽICE",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Užice",
+   "municipality": null,
+   "address": "Koste Vojinovića br. 6",
+   "phones": [
+    "031/3100800",
+    "064/2883088"
+   ],
+   "emails": [
+    "lusz@uzice.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "personalni asistent",
+    "licence_no": "Broj: 832 od 30.01.2023. godine",
+    "licence_valid_until": "2028-01-30",
+    "capacity": "Personalna asistencija",
+    "founder": "Dragica Milosavljević"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA PRUŽAE USLUGA SOCIJALNE ZAŠTITE \"MARA\"",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Niš",
+   "municipality": null,
+   "address": "Sestre Baković bb",
+   "phones": [
+    "018/291-972",
+    "063/1182133"
+   ],
+   "emails": [
+    "centar.mara@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "personalni asistent",
+    "licence_no": "Broj: 851 od 05.04.2023. godine",
+    "licence_valid_until": "2028-04-05",
+    "capacity": "Personalna asistencija",
+    "founder": "Miloš Ranđelović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Personalni asistent pri UDRUŽENJE ''VOLJA ZA ŽIVOTOM''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Velika Plana",
+   "municipality": null,
+   "address": "Miloša Velikog br. 30",
+   "phones": [
+    "026/514-991",
+    "062/43-11-43"
+   ],
+   "emails": [
+    "voljazivot@yahoo.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "personalni asistent",
+    "licence_no": "Broj: 859 od 20.04.2023. godine",
+    "licence_valid_until": "2029-04-20",
+    "capacity": "Personalna asistencija",
+    "founder": "Radovan Radulović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE DISTROFIČARA ZLATIBORSKOG OKRUGA -UŽICE",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Užice",
+   "municipality": null,
+   "address": "Kneza Lazara br 2",
+   "phones": [
+    "031/523-944",
+    "064/616-7007"
+   ],
+   "emails": [
+    "udzouzice@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "personalni asistent",
+    "licence_no": "Broj: 867 od 15.05.2023. godine",
+    "licence_valid_until": "2029-05-15",
+    "capacity": "Personalna asistencija",
+    "founder": "Predrag Bakić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE ''CENTAR ZA INOVATIVNE AKTIVNOSTI''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Beograd",
+   "municipality": null,
+   "address": "Žička br. 25",
+   "phones": [
+    "064/813 56 38",
+    "064/157 59 62"
+   ],
+   "emails": [
+    "centarzainovaciju@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "personalni asistent",
+    "licence_no": "Broj: 903 od 02.08.2023. godine",
+    "licence_valid_until": "2028-08-02",
+    "capacity": "Personalna asistencija",
+    "founder": "Ivana Dukić Tatjana Sajčić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE HUMANITARNA ORGANIZACIJA \"DEČJE SRCE\"",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Beograd",
+   "municipality": null,
+   "address": "Čuburska br. 12",
+   "phones": [
+    "064/1661192",
+    "011/6550200"
+   ],
+   "emails": [
+    "organizacija@decjesrce.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "personalni asistent",
+    "licence_no": "Broj: 915 od 30.08.2023. godine",
+    "licence_valid_until": "2028-08-30",
+    "capacity": "Personalna asistencija",
+    "founder": "Ivana Rojević i Goran Rojević"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "USTANOVA \"CENTAR LOKALNIH USLUGA GRADA KRALJEVA\"",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Kraljevo",
+   "municipality": null,
+   "address": "Zelena gora br. 37A",
+   "phones": [
+    "036/338-770"
+   ],
+   "emails": [
+    "clugkv@mts.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "personalni asistent",
+    "licence_no": "Broj: 918 od 05.09.2023. godine",
+    "licence_valid_until": "2028-09-05",
+    "capacity": "Personalna asistencija",
+    "founder": "Milica Jelić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA PRUŽANJE USLUGA SOCIJALNE ZAŠTITE GRADA SOMBORA",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Sombor",
+   "municipality": null,
+   "address": "Trg Cara Lazara 1",
+   "phones": [
+    "025/415-081",
+    "066/036-007",
+    "064/86-32-178"
+   ],
+   "emails": [
+    "cpuszsombor@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "personalni asistent",
+    "licence_no": "Broj: 963 od 26.12.2023. godine",
+    "licence_valid_until": "2028-12-26",
+    "capacity": "Personalna asistencija",
+    "founder": "Jelena Stakić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE \"KLUPA\"",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Novi Sad",
+   "municipality": null,
+   "address": "Narodnog fronta br. 22/29",
+   "phones": [
+    "064/13-879-13",
+    "063/8317-818"
+   ],
+   "emails": [
+    "kancelarija@klupa.org"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "personalni asistent",
+    "licence_no": "Broj: 968 od 23.01.2024. godine",
+    "licence_valid_until": "2029-01-23",
+    "capacity": "Personalna asistencija",
+    "founder": "Dragana Marković"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA DEFEKTOLOGIJU ARTEMIDA STANKOVIĆ MARINA PR",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Niš",
+   "municipality": null,
+   "address": "Strahinjića Bana",
+   "phones": [
+    "064/870-89-79"
+   ],
+   "emails": [
+    "czdartemida2020@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "personalni asistent",
+    "licence_no": "Broj: 1067 od 29.05.2025. godine",
+    "licence_valid_until": "2031-05-29",
+    "capacity": "Personalna asistencija",
+    "founder": "Marina Stanković"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA PRUŽANJE USLUGA SOCIJALNE ZAŠTITE ''ZRAČAK''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Čačak",
+   "municipality": null,
+   "address": "Nušićeva br. 24",
+   "phones": [
+    "032/55-90-807",
+    "064/803-13-21"
+   ],
+   "emails": [
+    "zracakca@mts.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "personalni asistent",
+    "licence_no": "Broj: 1097 od 30.09.2025. godine",
+    "licence_valid_until": "2031-09-30",
+    "capacity": "Punoletna lica sa invaliditetom",
+    "founder": "Jakovljević Ana"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "HUMANITARNA ORGANIZACIJI ''DEČJE SRCE''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Beograd",
+   "municipality": "Vračar",
+   "address": "Cara Nikolaja II br. 61a",
+   "phones": [
+    "011/33-49-623",
+    "064/157 59 62"
+   ],
+   "emails": [
+    "organizacija@decjesrce.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "stanovanje uz podršku",
+    "licence_no": "Broj: 762 od 23.06.2022. godine",
+    "licence_valid_until": "2027-06-23",
+    "capacity": "Osobe sa invaliditetom /2korisnika",
+    "founder": "Ivana Rojević"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE ''NA POLA PUTA''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Pančevo",
+   "municipality": null,
+   "address": "Vuka Karadžića br. 2b",
+   "phones": [
+    "013/341-726"
+   ],
+   "emails": [
+    "contact@napolaputa.org"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "stanovanje uz podršku",
+    "licence_no": "Broj: 797 od 25.10.2022. godine PRESTALA DA VAŽI IZDATA NOVA LICENCA POD BROJEM 1082",
+    "licence_valid_until": "2028-10-25",
+    "capacity": "Osobe sa invaliditetom /3 stambene jedinice/12 korisnika",
+    "founder": "Marina Kurilj"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE \"CARITAS ŠABAC\"",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Šabac",
+   "municipality": null,
+   "address": "Vuka Karadžića br. 17",
+   "phones": [
+    "060/30-65-459"
+   ],
+   "emails": [
+    "secretariat@caritas-sabac.rs",
+    "m.nikolic@caritas-sabac.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "stanovanje uz podršku",
+    "licence_no": "Broj: 961 od 25.12.2023. godine",
+    "licence_valid_until": "2029-12-25",
+    "capacity": "Odrasli sa fizičkim invaliditetom, intelektualnim ili mentalnim teškoćama/2 korisnika",
+    "founder": "Miroljub Nikolić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE ZA POMOĆ MENTALNO NEDOVOLJNO RAZVIJENIM OSOBAMA \"PLAVA PTICA\"",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Kula",
+   "municipality": null,
+   "address": "Ive Andrića br. 54",
+   "phones": [
+    "025/724-177"
+   ],
+   "emails": [
+    "plavapticamnro@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "stanovanje uz podršku",
+    "licence_no": "Broj: 1019 od 30.07.2024. godine",
+    "licence_valid_until": "2030-07-30",
+    "capacity": "Osobe sa fizičkim invaliditetom , intelektualnim ili mentalnim teškoćama/ 10 korisnika",
+    "founder": "Marko Košutić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE \"NA POLA PUTA\"",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Pančevo",
+   "municipality": null,
+   "address": "Vuka Karadžića br. 26",
+   "phones": [
+    "060/0689659"
+   ],
+   "emails": [
+    "contact@napolaputa.org"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "stanovanje uz podršku",
+    "licence_no": "Broj: 1082 od 25.07.2025. godine",
+    "licence_valid_until": "2031-07-25",
+    "capacity": "Osobe sa invaliditetom / 3 stambene kjedinice / 13 korisnika",
+    "founder": "Marina Kurilj Zorka Popadić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE GRAĐANA ZA BORBU PROTIV TRGOVINE LJUDIMA \"ATINA\"",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Beograd",
+   "municipality": null,
+   "address": "Borivoja Stevanovića br. 3/11",
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "stanovanje uz podršku",
+    "licence_no": "Broj: 1121 od 26.12.2025. godine",
+    "licence_valid_until": "2031-12-26",
+    "capacity": "Žrtve trgovine ljudima / 5 korisnika",
+    "founder": "ULICA?"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "STANOVANJE UZ PODRŠKU",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "CENTAR ZA SOCIJALNI RAD ŠABAC",
+   "municipality": null,
+   "address": "Šabac, Mačvanska br. 76",
+   "phones": [
+    "015/344-462"
+   ],
+   "emails": [
+    "csrsa@csrsabac.org.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "stanovanje uz podršku",
+    "licence_no": "Broj: 1139 od 12.02.2026. godine",
+    "licence_valid_until": "2032-02-12",
+    "capacity": "mladi koji se osamostaljuju/ 2 korisnika",
+    "founder": "Katarina Matić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE ''AUTONOMNI ŽENSKI CENTAR''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Beograd",
+   "municipality": null,
+   "address": "Tiršova br. 5a",
+   "phones": [
+    "011/2687190",
+    "064/2367071"
+   ],
+   "emails": [
+    "dobre_prakse@azc.org.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "SOS telefon za žrtve nasilja",
+    "licence_no": "Broj: 930 od 09.10.2023. godine",
+    "licence_valid_until": "2029-10-09",
+    "capacity": "",
+    "founder": "Mima Mišljenović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE GRAĐANA \"ŽENSKI CENTAR UŽICE\"",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Užice",
+   "municipality": null,
+   "address": "Heroja Luna br. 2",
+   "phones": [
+    "031/512-005"
+   ],
+   "emails": [
+    "womencenue@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "SOS telefon za žrtve nasilja",
+    "licence_no": "Broj: 936 od 06.11.2023. godine",
+    "licence_valid_until": "2029-11-06",
+    "capacity": "",
+    "founder": "Marina Tucović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Dnevni boravak pri UDRUŽENJU RODITELJA DECE OMETENE U RAZVOJU OPŠTINE VRNJAČKA BANJA",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Vrnjačka Banja",
+   "municipality": null,
+   "address": "Cara Dušana br.20",
+   "phones": [
+    "060/525-55-001",
+    "063/661-865"
+   ],
+   "emails": [
+    "urdour.vb@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za decu, mlade i odrasle sa smetnjama u razvoju",
+    "licence_no": "Broj: 659 od 22.06.2021. godine",
+    "licence_valid_until": "2027-01-31",
+    "capacity": "Deca, mladi i odrasli sa intelektualnim teškoćama /15 korisnika",
+    "founder": "Ljiljana Vučetić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Dnevni boravak pri CENTRU ZA PRUŽANJE USLUGA SOCIJALNE ZAŠTITE ''MARA''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Niš",
+   "municipality": null,
+   "address": "Sestre Baković bb",
+   "phones": [
+    "018/291-972",
+    "065/9577-405"
+   ],
+   "emails": [
+    "centar.mara.boravak@gmail.com",
+    "centar.mara@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za decu, mlade i odrasle sa smetnjama u razvoju",
+    "licence_no": "Broj: 702 od 15.12.2021. godine",
+    "licence_valid_until": "2026-12-15",
+    "capacity": "Deca i mladi i odrasli sa telesnim invaliditetom i intelektualnim teškoćama/ 55 korisnika",
+    "founder": "Miloš Ranđelović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Dnevni boravak pri DRUŠTVU ZA CEREBRALNU I DEČIJU PARALIZU OPŠTINE IVANJICA",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Ivanjica",
+   "municipality": null,
+   "address": "Venijamina Marinkovića br. 6",
+   "phones": [
+    "032/662-397",
+    "032/661-244"
+   ],
+   "emails": [
+    "cdpivanjica@open.telekom.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za decu, mlade i odrasle sa smetnjama u razvoju",
+    "licence_no": "Broj: 738 od 18.04.2022. godine",
+    "licence_valid_until": "2028-04-18",
+    "capacity": "Deca i mladi / 25 korisnika",
+    "founder": "Svetlana Glavinić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Dnevni boravak pri CENTRU ZA PRUŽANJE USLUGA SOCIJALNE ZAŠTITE OPŠTINE KANJIŽA",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Kanjiža",
+   "municipality": null,
+   "address": "Petefi Šandora br. 44",
+   "phones": [
+    "024/4878-870",
+    "063/8663-071",
+    "069/1878-870"
+   ],
+   "emails": [
+    "centarusluzni@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za decu, mlade i odrasle sa smetnjama u razvoju",
+    "licence_no": "Broj: 741 od 11.05.2022. godine",
+    "licence_valid_until": "2027-05-11",
+    "capacity": "Deca i mladi / 15 korisnika",
+    "founder": "Tolnai Čaba"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Dnevni boravak pri USTANOVI ZA DNEVNI BORAVAK DECE, MLADIH I ODRASLIH OSOBA SA SMETNJAMA U RAZVOJU ''SUNCE''Smederevo",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Smederevo",
+   "municipality": null,
+   "address": "Gorička bb",
+   "phones": [
+    "064/276 61 17",
+    "026/615-034"
+   ],
+   "emails": [
+    "ustanovasunce@mts.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za decu, mlade i odrasle sa smetnjama u razvoju",
+    "licence_no": "Broj: 766 od 04.07.2022. godine",
+    "licence_valid_until": "2028-07-04",
+    "capacity": "Deca, mladi i odrasli / 20 korisnika",
+    "founder": "Biljana Milošević"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Dnevni boravak pri UDRUŽENJU ZA POMOĆ MENTALNO NEDOVOLJNO RAZVIJENIH OSOBA ''TAHIR TAŠA DELIĆ''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Novi Pazar",
+   "municipality": null,
+   "address": "Dositejeva bb",
+   "phones": [
+    "020/317-402",
+    "062/841 04 07"
+   ],
+   "emails": [
+    "dnevniboravak2022@gmail.com",
+    "mnrlnp@yahoo.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za decu, mlade i odrasle sa smetnjama u razvoju",
+    "licence_no": "Broj: 770 od 15.07.2022. godine",
+    "licence_valid_until": "2028-07-15",
+    "capacity": "Deca i mladi i odrasli /60 korisnika",
+    "founder": "Lela Delić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Dnevni boravak pri CENTRU ZA SOCIJALNI RAD OPŠTINA ŽABALJ I TITEL",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Žabalj",
+   "municipality": null,
+   "address": "Nikole Tesle br. 34",
+   "phones": [
+    "021/831-260",
+    "060/177 15 37"
+   ],
+   "emails": [
+    "dnevnicentarzabalj@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za decu, mlade i odrasle sa smetnjama u razvoju",
+    "licence_no": "Broj: 773 od 21.07.2022. godine",
+    "licence_valid_until": "2027-07-21",
+    "capacity": "Deca i mladi /10 korisnika",
+    "founder": "Opštine Žabalj i Titel"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "USTANOVA - CENTAR ZA PRUŽANJE USLUGA SOCIJALNE ZAŠTITE ''ZRAČAK''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Čačak",
+   "municipality": null,
+   "address": "Nušićeva br.24",
+   "phones": [
+    "032/331-944"
+   ],
+   "emails": [
+    "zracakca@mts.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za decu, mlade i odrasle sa smetnjama u razvoju",
+    "licence_no": "Broj: 794 od 20.10.2022. godine",
+    "licence_valid_until": "2028-10-20",
+    "capacity": "Deca i mladi i odrasli/69 korisnika",
+    "founder": "Ana Jakovljević"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "ŠKOLA ZA OSNOVNO I SREDNJE OBRAZOVANJE ''ANTON SKALA''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Stara Pazova",
+   "municipality": null,
+   "address": "Karađorđeva 12",
+   "phones": [
+    "063/8677487",
+    "022/310-026"
+   ],
+   "emails": [
+    "anadrog@ptt.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za decu, mlade i odrasle sa smetnjama u razvoju",
+    "licence_no": "Broj: 795 od 24.10.2022. godine",
+    "licence_valid_until": "2028-10-24",
+    "capacity": "Deca i mladi/10 korisnika",
+    "founder": "Tanja Todorović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE DECE SA SMETNJAMA U RAZVOJU I NJIHOVIH RODITELJA",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Bajina Bašta",
+   "municipality": null,
+   "address": "Vojvode Mišića bb",
+   "phones": [
+    "031/866-366",
+    "065/48 23 456"
+   ],
+   "emails": [
+    "udssurbb@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za decu, mlade i odrasle sa smetnjama u razvoju",
+    "licence_no": "Broj: 812 od 21.11.2022. godine",
+    "licence_valid_until": "2027-11-21",
+    "capacity": "Deca, mladi i odrasli/15 korisnika",
+    "founder": "Olivera Đurović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "DOM ZA DECU I OMLADINU \"STANKO PAUNOVIĆ\"",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Negotin",
+   "municipality": null,
+   "address": "Badnjevska br.5",
+   "phones": [
+    "065/8548332",
+    "019/541-800"
+   ],
+   "emails": [
+    "domstankopaunovic@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za decu, mlade i odrasle sa smetnjama u razvoju",
+    "licence_no": "Broj: 813 od 17.11.2022. godine",
+    "licence_valid_until": "2027-11-17",
+    "capacity": "Deca i mladi/10 korisnika",
+    "founder": "Nadica Vasić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "USTANOVA ZA DNEVNI BORAVAK DECE I OMLADINE OMETENE U RAZVOJU",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Zaječar",
+   "municipality": null,
+   "address": "Svetozara Markovića br.6",
+   "phones": [
+    "019/427-919",
+    "064/334 22 10"
+   ],
+   "emails": [
+    "oblutak.za@mts.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za decu, mlade i odrasle sa smetnjama u razvoju",
+    "licence_no": "Broj: 819 od 02.12.2022. godine",
+    "licence_valid_until": "2028-12-02",
+    "capacity": "Deca i mladi/15 korisnika",
+    "founder": "Ana Petković"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "USTANOVA SOCIJALNE ZAŠTITE NAŠA ČUVARKUĆA",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Bečej",
+   "municipality": null,
+   "address": "Sinđelićeva br. 99",
+   "phones": [
+    "066/9035820"
+   ],
+   "emails": [
+    "office.cuvarkuca@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za decu, mlade i odrasle sa smetnjama u razvoju",
+    "licence_no": "Broj: 844 od 16.03.2023. godine",
+    "licence_valid_until": "2028-03-16",
+    "capacity": "deca i mladi",
+    "founder": "Jovana Ilić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE ZA POMOĆ MENTALNO NEDOVOLJNO RAZVIJENIM OSOBAMA LESKOVAC DNEVNI BORAVAK \"DUGA\"",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Leskovac",
+   "municipality": null,
+   "address": "Nikole Skobaljića br. 147",
+   "phones": [
+    "016/280-554",
+    "065/280-5540"
+   ],
+   "emails": [
+    "mnrole@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za decu, mlade i odrasle sa smetnjama u razvoju",
+    "licence_no": "Broj: 853 od 07.04.2023. godine",
+    "licence_valid_until": "2029-04-07",
+    "capacity": "Deca i mladi/20 korisnika",
+    "founder": "Aleksandra Jovanović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Dnevni boravak pri CENTRU ZA SOCIJALNI RAD TEMERIN",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Temerin",
+   "municipality": null,
+   "address": "Pap Pavla br.1",
+   "phones": [
+    "021/851-705",
+    "063/569-152"
+   ],
+   "emails": [
+    "dnevnitem@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za decu, mlade i odrasle sa smetnjama u razvoju",
+    "licence_no": "Broj: 864 od 26.04.2013. godine",
+    "licence_valid_until": "2029-04-26",
+    "capacity": "Deca i mladi /15 korisnika",
+    "founder": "Pučić Blagojević Jasmina"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE \"JEDNAKI U RAZLIČITOSTI\"",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Aleksinac",
+   "municipality": null,
+   "address": "Tihomira Đorđevića br. 2",
+   "phones": [
+    "063/8323401"
+   ],
+   "emails": [
+    "jednaki2021@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za decu, mlade i odrasle sa smetnjama u razvoju",
+    "licence_no": "Broj: 876 od 30.05.2023. godine",
+    "licence_valid_until": "2028-05-30",
+    "capacity": "Deca i mladi/10 korisnika",
+    "founder": "Slaviša Miladinović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "DRUŠTVO ZA POMOĆ MENTALNO NEDOVOLJNO RAZVIJENIM OSOBAMA",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Bor",
+   "municipality": null,
+   "address": "Đure Đakovića br. 14",
+   "phones": [
+    "016/280554"
+   ],
+   "emails": [
+    "mnrole@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za decu, mlade i odrasle sa smetnjama u razvoju",
+    "licence_no": "Broj: 913 od 04.09.2023. godine",
+    "licence_valid_until": "2029-09-04",
+    "capacity": "Deca i mladi/ 20 korisnika",
+    "founder": "Miroslav Đorđević"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "ŠKOLA ZA OSNOVNO I SREDNJE OBRAZOVANJE ''RADIVOJ POPOVIĆ'' DNEVNI BORAVAK \"SUNCE\"",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Sremska Mitrovica",
+   "municipality": null,
+   "address": "Njegoševa br.38",
+   "phones": [
+    "022/21 51 300"
+   ],
+   "emails": [
+    "radivoj.popovic.sm@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za decu, mlade i odrasle sa smetnjama u razvoju",
+    "licence_no": "Broj: 923 od 18.09.2023. godine",
+    "licence_valid_until": "2029-09-18",
+    "capacity": "Deca i mladi sa telesnim invaliditetom i intelektualnim teškoćama/ 13 korisnika",
+    "founder": "Negovan Nikolić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "SLUŽBA DNEVNOG BORAVKA ZA DECU, MLADE I ODRASLE SA SMETNJAMA U RAZVOJU U VARVARINU CSR Varvarin i Ćićevac",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Varvarin",
+   "municipality": null,
+   "address": "Slobode bb",
+   "phones": [
+    "037/789-456"
+   ],
+   "emails": [
+    "dnevniboravacvarvarin@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za decu, mlade i odrasle sa smetnjama u razvoju",
+    "licence_no": "Broj: 941 od 13.11.2023. godine",
+    "licence_valid_until": "2029-11-13",
+    "capacity": "Deca i maldi sa telesnim invaliditetom odnosno intelektualnim teškoćama/ 10 korisnika",
+    "founder": "Miroljub Stojadinović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "GRADSKI CENTAR ZA USLUGE SOCIJALNE ZAŠTITE DNEVNI BORAVAK ZA DECU I MLADE SA SMETNJANA U RAZVOJU",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Užice",
+   "municipality": null,
+   "address": "Nemanjina br. 52",
+   "phones": [
+    "031/31-00-800"
+   ],
+   "emails": [
+    "lusz@uzice.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za decu, mlade i odrasle sa smetnjama u razvoju",
+    "licence_no": "Broj: 943 od 14.11.2023. godine",
+    "licence_valid_until": "2028-11-14",
+    "capacity": "Deca i mladi sa telesnim invaliditetom i intelektualnim teškoćama/ 19 korisnika",
+    "founder": "Dragica Milosavljević"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA SMEŠTAJ I DNEVNI BORAVAK DECE I OMLADINE OMETENE U RAZVOJU BEOGRAD DNEVNI BORAVAK \"Barajevo\"",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Beograd",
+   "municipality": "Barajevo",
+   "address": "Barajevska br. 5",
+   "phones": [
+    "011/83-54-220",
+    "011/83-00-030",
+    "062/8823-362"
+   ],
+   "emails": [
+    "office@centarbgd.org.rs",
+    "jelena.gajic@centarbgd.org.rs",
+    "db.siljakovac@centarbgd.org.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za decu, mlade i odrasle sa smetnjama u razvoju",
+    "licence_no": "Broj: 995 od 22.04.2024. godine",
+    "licence_valid_until": "2030-04-22",
+    "capacity": "Deca i mladi i odrasli sa telesnim invaliditetom i intelektualnim teškoćama/ 40 korisnika",
+    "founder": "Jelena Gajić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA RAZVOJ USLUGA SOCIJALNE ZAŠTITE \"KNEGINJA LJUBICA\" DNEVNI BORAVAK ZA ODRASLA I STARA LICA U KRAGUJEVCU",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Kragujevac",
+   "municipality": null,
+   "address": "Čika Matina bb",
+   "phones": [
+    "034/355-485",
+    "064/872-8301"
+   ],
+   "emails": [
+    "centarkg@kneginjaljubica.org.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za decu, mlade i odrasle sa smetnjama u razvoju",
+    "licence_no": "Broj: 949 od 27.11.2023. godine",
+    "licence_valid_until": "2029-11-27",
+    "capacity": "Odrasli i stari/10 korisnika",
+    "founder": "Slavica Novaković"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA PRUŽANJE USLUGA SOCIJALNE ZAŠTITE GRADA ZRENJANINA - \"MOST\" Dnevni boravak za decu i mlade sa telesnim invaliditetom odnosno intelektualnim teškoćama \"Alternativa\"",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Zrenjanin",
+   "municipality": null,
+   "address": "dr. Jovana Krstića bb",
+   "phones": [
+    "064/81-77-102",
+    "023/533-505"
+   ],
+   "emails": [
+    "kontakt@centarmostzr.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za decu, mlade i odrasle sa smetnjama u razvoju",
+    "licence_no": "Broj: 1005 od 01.07.2024. godine",
+    "licence_valid_until": "2029-07-01",
+    "capacity": "Deca i maladi sa sa telesnim invalitetom odnosno intelektualnim teškoćama/10 korisnika",
+    "founder": "Andrijana Stojanović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE ZA POMOĆ MENTALNO NEDOVOLJNO RAZVIJENIM OSOBAMA \"PLAVA PTICA\"",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Kula",
+   "municipality": null,
+   "address": "Lenjinova br. 17",
+   "phones": [
+    "025/724-177",
+    "064/648-5377"
+   ],
+   "emails": [
+    "plavapticamnro@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za decu, mlade i odrasle sa smetnjama u razvoju",
+    "licence_no": "Broj: 1017 od 30.07.2024. godine",
+    "licence_valid_until": "2030-07-30",
+    "capacity": "Deca i mladi sa telesnim invaliditetom i intelektualnim teškoćama/ 15 korisnika",
+    "founder": "Marko Košutić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA SOCIJALNI RAD VRBAS",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Vrbas",
+   "municipality": null,
+   "address": "Maršala Tita br. 126",
+   "phones": [
+    "021/706-524",
+    "060/450-1161"
+   ],
+   "emails": [
+    "vrbas.csr@minrzs.gov.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za decu, mlade i odrasle sa smetnjama u razvoju",
+    "licence_no": "Broj: 1029 od 19.08.2024. godine",
+    "licence_valid_until": "2029-08-19",
+    "capacity": "deca, mladi, odrasli i stari/20 korisnika",
+    "founder": "Maja Kuč"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA SOCIJALNI RAD ''SAVA ILIĆ'' ARANĐELOVAC",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Aranđelovac",
+   "municipality": null,
+   "address": "Nikole Pašića br. 70",
+   "phones": [
+    "034/726-808",
+    "060/018-38-42"
+   ],
+   "emails": [
+    "arandjelovac.csr@minrzs.gov.rs",
+    "czsr.ar@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za decu, mlade i odrasle sa smetnjama u razvoju",
+    "licence_no": "Broj: 1038 od 13.11.2024. godine",
+    "licence_valid_until": "2029-11-13",
+    "capacity": "Deca i mladi sa telesnim invaliditetom i intelektualnim teškoćama/ 10 korisnika",
+    "founder": "Nada Tanasijević"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "USTANOVA ZA PRUŽANJE USLUGA SOCIJALNE ZAŠTITE \"SOLIDARNOST\" RUMA",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Ruma",
+   "municipality": null,
+   "address": "Orlovićeva br. 281",
+   "phones": [
+    "060/546-1100",
+    "023/546-150"
+   ],
+   "emails": [
+    "solidarnost@ruma.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za decu, mlade i odrasle sa smetnjama u razvoju",
+    "licence_no": "Broj: 1043 od 02.12.2024. godine",
+    "licence_valid_until": "2029-12-02",
+    "capacity": "Deca i mladi satelesnim invaliditetom odnosno intelektualnim teškoćama/ 15 korisnika",
+    "founder": "Tanja Živanov"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA SOCIJALNI RAD BAČKA PALANKA",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Bačka Palanka",
+   "municipality": null,
+   "address": "20. Oktobra br. 64",
+   "phones": [
+    "021/6045-585"
+   ],
+   "emails": [
+    "backapalanka.csr@minrzs.gov.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za decu, mlade i odrasle sa smetnjama u razvoju",
+    "licence_no": "Broj: 1063 od 26.05.2025. godine",
+    "licence_valid_until": "2031-05-26",
+    "capacity": "Mladi i odrasli sa fizičkim invaliditetom odnosno intelektualnim teškoćama",
+    "founder": "Biljana Karanović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "OPŠTINSKO UDRUŽENJE ZA POMOĆ DECI I OSOBAMA OMETENIM U RAZVOJU SJENICA",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Sjenica",
+   "municipality": null,
+   "address": "Nova bb",
+   "phones": [
+    "020/745-710",
+    "066/655-47-40"
+   ],
+   "emails": [
+    "povetaracsjenica@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za decu, mlade i odrasle sa smetnjama u razvoju",
+    "licence_no": "Broj: 1070 od 16.06.2025. godine",
+    "licence_valid_until": "2031-06-16",
+    "capacity": "Deca i mladi sa telesnim invaliditetom odnosno intelektualnim teškoćama/ 10 korisnika",
+    "founder": "Jasmina Hodžić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "JU CENTAR ZA RAZVOJ LOKALNIH USLUGA SOCIJALNE ZAŠTITE VRANJE Dnevni boravak za decu i mlade sa telesnim invaliditetom i intelektualnim teškoćama \"Maštolend\"",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Vranje",
+   "municipality": null,
+   "address": "Milunke Savić bb",
+   "phones": [
+    "017/421-703",
+    "017/432-996",
+    "064/890-7800"
+   ],
+   "emails": [
+    "dnevniboravak@sszvr.org.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za decu, mlade i odrasle sa smetnjama u razvoju",
+    "licence_no": "Broj: 1081 od 25.07.2025. godine",
+    "licence_valid_until": "2031-07-25",
+    "capacity": "Deca i mladi sa telesnim invaliditetom odnosno intelektualnim teškoćama/ 10 korisnika",
+    "founder": "Dragan Janjić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE GRAĐANA ''ZLATIBORSKI KRUG''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Čajetina",
+   "municipality": null,
+   "address": "Serdara Mićića br. 5",
+   "phones": [
+    "031/8831-709",
+    "064/239-1718"
+   ],
+   "emails": [
+    "zoricazkrug@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za decu, mlade i odrasle sa smetnjama u razvoju",
+    "licence_no": "Broj: 1102 od 16.10.202025. godine",
+    "licence_valid_until": "2031-10-16",
+    "capacity": "Deca i mladi sa telesnim invaliditetom odnosno intelektualnim teškoćama / 10 korisnika",
+    "founder": "Zorica Milosavljević"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Udruženje građana \"Građanski savet opštine Bojnik \" DNEVNI BORAVAK \"DEČIJA RADOST\"",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Bojnik",
+   "municipality": null,
+   "address": "Vele Zeljkovića br. 91",
+   "phones": [
+    "016/821-429",
+    "065/87-81-321",
+    "065/8214299"
+   ],
+   "emails": [
+    "gsobojnik2@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za decu, mlade i odrasle sa smetnjama u razvoju",
+    "licence_no": "Broj: 1105 od 07.11.2025. godine",
+    "licence_valid_until": "2031-11-07",
+    "capacity": "Deca i mladi sa telesnim invaliditetom odnosno intelektualnim teškoćama/ 10 korisnika",
+    "founder": "Saša Dajević"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA SOCIJALNI RAD LEBANE Dnevni boravak za decu i mlade sa telesnim invaliditetom odnosno intelektualnim teškoćama \"Sunce\"",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Lebane",
+   "municipality": null,
+   "address": "Nikole Tesle br. 16a",
+   "phones": [
+    "016/843-203"
+   ],
+   "emails": [
+    "lebane.csr@minrzs.gov.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za decu, mlade i odrasle sa smetnjama u razvoju",
+    "licence_no": "Broj: 1117 od 12.12.2025. godine",
+    "licence_valid_until": "2030-12-12",
+    "capacity": "Deca i mladi sa telesnim invaliditetom odnosno intelektualnim teškoćama/ 10 korisnika",
+    "founder": "Dragan Pavlović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE ZA POMOĆ DECI SA POSEBNIM POTREBAMA NAŠI SNOVI",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Valjevo",
+   "municipality": null,
+   "address": "Vladike Nikolaja br. 422/1",
+   "phones": [
+    "014/284319"
+   ],
+   "emails": [
+    "db.nasisnovi@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za decu, mlade i odrasle sa smetnjama u razvoju",
+    "licence_no": "Broj: 1123 od 30.12.2025. godine",
+    "licence_valid_until": "2031-12-30",
+    "capacity": "Deca i mladi sa telesnim invaliditezom odnoso intelektuslnim teškoćama / 10 korisnika",
+    "founder": "Milica Zdravković Žunjić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "UDRUŽENJE DRUŠTVO ZA POMOĆ MENTALNO NEDOVOLJNO RAZVIJENIM OSOBAMA ALEKSANDROVAC",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Aleksandrovac",
+   "municipality": null,
+   "address": "Jaše Petrovića br. 18g",
+   "phones": [
+    "037/3552-207",
+    "063/8086552"
+   ],
+   "emails": [
+    "mnroac@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za decu, mlade i odrasle sa smetnjama u razvoju",
+    "licence_no": "Broj: 1144 od 25.02.2026. godine",
+    "licence_valid_until": "2032-02-25",
+    "capacity": "Deca i mladi sa intelektualnim teškoćama / 10 korisnika",
+    "founder": "Zoja Ivanović"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA SOCIJALNI RAD POŽAREVAC CENTAR ZA DNEVNI BORAVAK DECE I OMLADINE OMETENE U RAZVOJU POŽAREVAC",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Požarevac",
+   "municipality": null,
+   "address": "Moše Pijade bb",
+   "phones": [
+    "012/523681"
+   ],
+   "emails": [
+    "pozarevac.csr@minrzs.gov.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za decu, mlade i odrasle sa smetnjama u razvoju",
+    "licence_no": "Broj: 1153 od 02.04.2026. godine",
+    "licence_valid_until": "2032-04-02",
+    "capacity": "Deca i mladi sa telesnim invaliditetom odnosno intelektualnim teškoćama/ 30 korisnika",
+    "founder": "Olivera Petrović Bosnić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA SOCIJALNI RAD VELIKA PLANA DNEVNI BORAVAK ZA DECU, MLADE I ODRASLE SA TELESNIM INVALIDITETOM I INTELEKTUALNIM TEŠKOĆAMA",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Velika Plana",
+   "municipality": null,
+   "address": "Živana Petrovića br. 25",
+   "phones": [
+    "026/514-041",
+    "060/3676-901"
+   ],
+   "emails": [
+    "dnevniboravak1@centarplana.org.rs",
+    "dnevniboravak2@centarplana.org.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za decu, mlade i odrasle sa smetnjama u razvoju",
+    "licence_no": "Broj: 1165 od 13.05.2026. godine",
+    "licence_valid_until": "2031-05-13",
+    "capacity": "Deca i mladi sa telesnim invaliditetom odnosno intelektualnim teškoćama / 10 korisnika",
+    "founder": "Aleksandra Dinić Đulić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA RAZVOJ USLUGA SOCIJALNE ZAŠTITE ''KNEGINJA LJUBICA''",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Kragujevac",
+   "municipality": null,
+   "address": "Čika Matina br. 5",
+   "phones": [
+    "034/355 485",
+    "034/355-486",
+    "065/972-83-02"
+   ],
+   "emails": [
+    "centarkg@kneginjaljubica.org.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za decu i mlade sa problemima u ponašanju",
+    "licence_no": "Broj: 826 od 16.01.2023. godine",
+    "licence_valid_until": "2029-01-16",
+    "capacity": "Deca i mladi/15 korisnika",
+    "founder": "Slavica Novaković"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "PROBLEMIMA U PONAŠANJU CENTAR ZA SOCIJALNI RAD KRUŠEVAC",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Kruševac",
+   "municipality": null,
+   "address": "Majke Jugovića br. 46",
+   "phones": [
+    "037/449-199"
+   ],
+   "emails": [
+    "krusevac.csr@minrzs.gov.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za decu i mlade sa problemima u ponašanju",
+    "licence_no": "Broj: 885 od 23.06.2023. godine",
+    "licence_valid_until": "2028-06-23",
+    "capacity": "Deca i maldi/10 korisnika",
+    "founder": "Jovana Dunjić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "PRIVATNA USTANOVA SOS DEČIJE SELO KRALJEVO CENTAR ZA PODRŠKU DECI I PORODICI",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Kraljevo",
+   "municipality": null,
+   "address": "Prvomajska 46/a",
+   "phones": [
+    "036/375-340",
+    "036/375-452"
+   ],
+   "emails": [
+    "biljana.zoric@sos-decijasela.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za decu i mlade sa problemima u ponašanju",
+    "licence_no": "Broj: 1053 od 22.01.2025. godine",
+    "licence_valid_until": "2031-01-22",
+    "capacity": "Deca i mladi/ 15 korisnika",
+    "founder": "Biljana Zorić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "DNEVNI BORAVAK \"UKLJUČI SE\"",
+   "type_slug": "usluga-socijalne-zastite",
+   "town": "Novi Sad",
+   "municipality": null,
+   "address": "Cetinjska br. 36",
+   "phones": [],
+   "emails": [
+    "kontakt@cnzd.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "service": "dnevni boravak za decu i mlade sa problemima u ponašanju",
+    "licence_no": "Broj: 1146 od 05.03.2026. godine",
+    "licence_valid_until": "2031-03-05",
+    "capacity": "Deca i mladi 15 korisnika",
+    "founder": "Igor Jurić"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  }
+ ]
+}

@@ -1,0 +1,4332 @@
+{
+"source": {
+"name": "Agencija za licenciranje stečajnih upravnika – Imenik stečajnih upravnika, Lista aktivnih licenciranih stečajnih upravnika (PDF, generisano 10.11.2026)",
+"url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/",
+"file_url": "https://alsu.gov.rs/doc/Upravnici/Stecajni_Upravnici_Aktivni.pdf",
+"fetched_at": "2026-11-10"
+},
+"note": "227 active licensed bankruptcy administrators (inactive ones excluded), parsed from the register's PDF table. The register publishes only the administrator's location (town + postal code, in extra.ptt), court of assignment, phone and e-mail; no street address, so address is null. Phones/e-mails are as listed (not all administrators list them).",
+"rows": [
+{
+"name": "Ivica Avgustinov",
+"type_slug": "stecajni-upravnik",
+"town": "Bačka Palanka",
+"municipality": "Bačka Palanka",
+"address": null,
+"phones": [],
+"emails": [
+"stecajni.avgustinov@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2218",
+"sud": "Privredni sud Novi Sad"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Mirko Adamović",
+"type_slug": "stecajni-upravnik",
+"town": "Kragujevac",
+"municipality": "Kragujevac",
+"address": null,
+"phones": [
+"+381652151670"
+],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2341",
+"sud": "Privredni sud Kragujevac"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Predrag Alavanja",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2216",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Maksim Andrić",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2238",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Vladan Arsić",
+"type_slug": "stecajni-upravnik",
+"town": "Jagodina",
+"municipality": "Jagodina",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2277",
+"sud": "Privredni sud Kragujevac"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Dragica Arsić",
+"type_slug": "stecajni-upravnik",
+"town": "Zrenjanin",
+"municipality": "Zrenjanin",
+"address": null,
+"phones": [
+"+381641464489",
+"+38123560202"
+],
+"emails": [
+"darsic956@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2301",
+"sud": "Privredni sud Zrenjanin"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Bogoljub Bajić",
+"type_slug": "stecajni-upravnik",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": null,
+"phones": [
+"+38163551110"
+],
+"emails": [
+"bajic.bogoljub@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2273",
+"sud": "Privredni sud Novi Sad"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Dragoslav Bakić",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+381653240828"
+],
+"emails": [
+"dbakic@mts.rs"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2200",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Miloš Bakić",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [],
+"emails": [
+"milos.bakic.stu@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2181",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Veronika Barać",
+"type_slug": "stecajni-upravnik",
+"town": "Sopot",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+381603556055"
+],
+"emails": [
+"veronikabarac@hotmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2233",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Nikola Basta",
+"type_slug": "stecajni-upravnik",
+"town": "Zemun",
+"municipality": "Beograd",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2118",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Jelena Belosavić-Sekulovski",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [],
+"emails": [
+"belosavicj@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2212",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Milena Blagojević",
+"type_slug": "stecajni-upravnik",
+"town": "Vršac",
+"municipality": "Vršac",
+"address": null,
+"phones": [
+"+381644621114"
+],
+"emails": [
+"blagojevic.vs@mts.rs",
+"blagojevicmilena7@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2115",
+"sud": "Privredni sud Pančevo"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Milica Bogunović",
+"type_slug": "stecajni-upravnik",
+"town": "Zrenjanin",
+"municipality": "Zrenjanin",
+"address": null,
+"phones": [
+"+381600502060"
+],
+"emails": [
+"bogunovicmilica@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2283",
+"sud": "Privredni sud Zrenjanin"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Dragan Božić",
+"type_slug": "stecajni-upravnik",
+"town": "Zrenjanin",
+"municipality": "Zrenjanin",
+"address": null,
+"phones": [
+"+381638804243"
+],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2116",
+"sud": "Privredni sud Zrenjanin"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Zoran Božić",
+"type_slug": "stecajni-upravnik",
+"town": "Ub",
+"municipality": "Ub",
+"address": null,
+"phones": [
+"+38163365025"
+],
+"emails": [
+"zbozic62@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2184",
+"sud": "Privredni sud Valjevo"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Milan Božović",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+381601453355"
+],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2210",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Mirko Borovčanin",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+38163201766"
+],
+"emails": [
+"office@nibor.rs"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2332",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Petrašin Vasilić",
+"type_slug": "stecajni-upravnik",
+"town": "Nova Varoš",
+"municipality": "Nova Varoš",
+"address": null,
+"phones": [
+"+381644677771"
+],
+"emails": [
+"pvasilic@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2132",
+"sud": "Privredni sud Užice"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Božidar Vasiljević",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+38163308265"
+],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2234",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Vasilj Vasiljević",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+381603804606"
+],
+"emails": [
+"vasilj.vasiljevic@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2310",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Slobodan Vasić",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+38163245484"
+],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2201",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Dragan Veselinović",
+"type_slug": "stecajni-upravnik",
+"town": "Sombor",
+"municipality": "Sombor",
+"address": null,
+"phones": [
+"+381637204880"
+],
+"emails": [
+"drveselinovic@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2120",
+"sud": "Privredni sud Sombor"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Dragan Vignjević",
+"type_slug": "stecajni-upravnik",
+"town": "Subotica",
+"municipality": "Subotica",
+"address": null,
+"phones": [
+"+38163585592"
+],
+"emails": [
+"drvignjevic@yahoo.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2292",
+"sud": "Privredni sud Subotica"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Radinka Vještica",
+"type_slug": "stecajni-upravnik",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": null,
+"phones": [
+"+38163531846"
+],
+"emails": [
+"r.vjestica@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2209",
+"sud": "Privredni sud Novi Sad"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Žarko Vujačić",
+"type_slug": "stecajni-upravnik",
+"town": "Novi Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+381653463113"
+],
+"emails": [
+"vujacic.zarko@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2134",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Vesna Vuković",
+"type_slug": "stecajni-upravnik",
+"town": "Stara Pazova",
+"municipality": "Stara Pazova",
+"address": null,
+"phones": [
+"+38163234862"
+],
+"emails": [
+"vukovicvesna@yahoo.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2157",
+"sud": "Privredni sud Sremska Mitrovica"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Jelica Vukolić",
+"type_slug": "stecajni-upravnik",
+"town": "Zrenjanin",
+"municipality": "Zrenjanin",
+"address": null,
+"phones": [
+"+381644492197"
+],
+"emails": [
+"lela_023@open.telekom.rs"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2351",
+"sud": "Privredni sud Zrenjanin"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Petar Vulović",
+"type_slug": "stecajni-upravnik",
+"town": "Kraljevo",
+"municipality": "Kraljevo",
+"address": null,
+"phones": [
+"+381641570212",
+"+38136322025"
+],
+"emails": [
+"pvulovic@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2092",
+"sud": "Privredni sud Kraljevo"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Dragana Galić",
+"type_slug": "stecajni-upravnik",
+"town": "Kikinda",
+"municipality": "Kikinda",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2266",
+"sud": "Privredni sud Zrenjanin"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Marina Gligorijević",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+381621381977"
+],
+"emails": [
+"consultg.ni@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2268",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Novak Gligorijević",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+38163406782"
+],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2307",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Radosav Gojak",
+"type_slug": "stecajni-upravnik",
+"town": "Novi Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+381112762709"
+],
+"emails": [
+"radosavgojak@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2293",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Raško Gospić",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+381638778020"
+],
+"emails": [
+"rgospic@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2350",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Relja Gros",
+"type_slug": "stecajni-upravnik",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": null,
+"phones": [
+"+381658489065"
+],
+"emails": [
+"relja.gros@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2298",
+"sud": "Privredni sud Novi Sad"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Jadranka Gulan",
+"type_slug": "stecajni-upravnik",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": null,
+"phones": [
+"+38163527767"
+],
+"emails": [
+"ekosjg@eunet.rs"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2173",
+"sud": "Privredni sud Novi Sad"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Dragan Davidović",
+"type_slug": "stecajni-upravnik",
+"town": "Paraćin",
+"municipality": "Paraćin",
+"address": null,
+"phones": [
+"+38163600253"
+],
+"emails": [
+"gaks.pn@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2342",
+"sud": "Privredni sud Kragujevac"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Snežana Dimitrijević",
+"type_slug": "stecajni-upravnik",
+"town": "Kragujevac",
+"municipality": "Kragujevac",
+"address": null,
+"phones": [
+"+38162236144"
+],
+"emails": [
+"office.bona.fides.kg@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2338",
+"sud": "Privredni sud Kragujevac"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Miroslav Doko",
+"type_slug": "stecajni-upravnik",
+"town": "Subotica",
+"municipality": "Subotica",
+"address": null,
+"phones": [
+"+38163509741"
+],
+"emails": [
+"miroslavdoko@yahoo.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2345",
+"sud": "Privredni sud Subotica"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Derviša Dragić",
+"type_slug": "stecajni-upravnik",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2246",
+"sud": "Privredni sud Novi Sad"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Željko Dragić",
+"type_slug": "stecajni-upravnik",
+"town": "Kula",
+"municipality": "Kula",
+"address": null,
+"phones": [
+"+38163461763"
+],
+"emails": [
+"zeljkodragic@mts.rs"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2308",
+"sud": "Privredni sud Sombor"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Dušan Dragojlović",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+38163364887"
+],
+"emails": [
+"ddragojlovic32@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2122",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Igor Drakul",
+"type_slug": "stecajni-upravnik",
+"town": "Novi Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+38163243238"
+],
+"emails": [
+"drakuligor@beotel.net"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2335",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Veljko Dubovina",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+38163406071"
+],
+"emails": [
+"dubovinaveljko@yahoo.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2192",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Slavica Dunjić",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+381641220912"
+],
+"emails": [
+"teodunjic@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2144",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Miloš Đekić",
+"type_slug": "stecajni-upravnik",
+"town": "Zrenjanin",
+"municipality": "Zrenjanin",
+"address": null,
+"phones": [
+"+381641255703"
+],
+"emails": [
+"milosdjekic78@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2295",
+"sud": "Privredni sud Zrenjanin"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Boro Đenić",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+381693003524"
+],
+"emails": [
+"boro.djenic@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2319",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Miloš Đorđević",
+"type_slug": "stecajni-upravnik",
+"town": "Leskovac",
+"municipality": "Leskovac",
+"address": null,
+"phones": [
+"+381649802341"
+],
+"emails": [
+"mdjordjevic86@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2262",
+"sud": "Privredni sud Leskovac"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Marko Đorić",
+"type_slug": "stecajni-upravnik",
+"town": "Vranje",
+"municipality": "Vranje",
+"address": null,
+"phones": [
+"+381641582295"
+],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2260",
+"sud": "Privredni sud Leskovac"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Vesna Đošić",
+"type_slug": "stecajni-upravnik",
+"town": "Niš",
+"municipality": "Niš",
+"address": null,
+"phones": [
+"+381643521586"
+],
+"emails": [
+"djossa@medianis.net"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2197",
+"sud": "Privredni sud Niš"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Dušan Đukić",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+38163282981"
+],
+"emails": [
+"d.djukic.pritoka@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2090",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Dejan Erak",
+"type_slug": "stecajni-upravnik",
+"town": "Bečej",
+"municipality": "Bečej",
+"address": null,
+"phones": [
+"+381646726900"
+],
+"emails": [
+"dejanerak21@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2219",
+"sud": "Privredni sud Novi Sad"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Predrag Erić",
+"type_slug": "stecajni-upravnik",
+"town": "Sombor",
+"municipality": "Sombor",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2290",
+"sud": "Privredni sud Sombor"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Rajo Erić",
+"type_slug": "stecajni-upravnik",
+"town": "Sombor",
+"municipality": "Sombor",
+"address": null,
+"phones": [
+"+381642243106"
+],
+"emails": [
+"rajo.eric@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2207",
+"sud": "Privredni sud Sombor"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Miodrag Živadinović",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+38163238789"
+],
+"emails": [
+"stecajniupravnik.miodrag@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2270",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Andrijana Živanović",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+381646103040"
+],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2147",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Snežana Živojinović",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+381604674771"
+],
+"emails": [
+"zivojinovicsnezana0201@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2129",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Vladimir Žužić",
+"type_slug": "stecajni-upravnik",
+"town": "Subotica",
+"municipality": "Subotica",
+"address": null,
+"phones": [
+"+38163506101"
+],
+"emails": [
+"vladozuzic@yahoo.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2344",
+"sud": "Privredni sud Subotica"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Nataša Zarupski",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+38163443332"
+],
+"emails": [
+"nzarupski@yahoo.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2240",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Stanislav Zdravković",
+"type_slug": "stecajni-upravnik",
+"town": "Jagodina",
+"municipality": "Jagodina",
+"address": null,
+"phones": [
+"+381641815654"
+],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2113",
+"sud": "Privredni sud Kragujevac"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Đorđe Zečević",
+"type_slug": "stecajni-upravnik",
+"town": "Vrnjačka Banja",
+"municipality": "Vrnjačka Banja",
+"address": null,
+"phones": [
+"+38163240473",
+"+381112444003"
+],
+"emails": [
+"rbl@ikomline.net",
+"rblserbia@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2333",
+"sud": "Privredni sud Kraljevo"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Zoran Zorić",
+"type_slug": "stecajni-upravnik",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": null,
+"phones": [
+"+381605454567"
+],
+"emails": [
+"zoranzoricpr@gmail.com",
+"zzoran.zoric@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2137",
+"sud": "Privredni sud Novi Sad"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Slobodan Zoćević",
+"type_slug": "stecajni-upravnik",
+"town": "Čačak",
+"municipality": "Čačak",
+"address": null,
+"phones": [
+"+38163606070",
+"+38132342406"
+],
+"emails": [
+"zocevic@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2112",
+"sud": "Privredni sud Čačak"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Željko Ivanović",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2153",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Igor Ivanović",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+381658452951"
+],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2256",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Radovan Ivetić",
+"type_slug": "stecajni-upravnik",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": null,
+"phones": [
+"+38163500076",
+"+38121270043"
+],
+"emails": [
+"iveticradovan@yahoo.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2236",
+"sud": "Privredni sud Novi Sad"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Vesna Ilić",
+"type_slug": "stecajni-upravnik",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": null,
+"phones": [
+"+38166220597"
+],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2142",
+"sud": "Privredni sud Novi Sad"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Saša Janačković",
+"type_slug": "stecajni-upravnik",
+"town": "Niška Banja",
+"municipality": "Niš",
+"address": null,
+"phones": [
+"+381601474799"
+],
+"emails": [
+"biro.janackovic@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2226",
+"sud": "Privredni sud Niš"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Mirjana Janevski",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+381642504110",
+"+381692504110"
+],
+"emails": [
+"mirjana.janevski66@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2124",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Milovan Janković",
+"type_slug": "stecajni-upravnik",
+"town": "Mladenovac",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+381641929200"
+],
+"emails": [
+"milovanmjankovic@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2114",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Jadranka Jezdić",
+"type_slug": "stecajni-upravnik",
+"town": "Sremska Mitrovica",
+"municipality": "Sremska Mitrovica",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2139",
+"sud": "Privredni sud Sremska Mitrovica"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Nenad Jeremić",
+"type_slug": "stecajni-upravnik",
+"town": "Despotovac",
+"municipality": "Despotovac",
+"address": null,
+"phones": [
+"+381641934744"
+],
+"emails": [
+"jeremicnenad@tehnicom.net"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2166",
+"sud": "Privredni sud Kragujevac"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Bogdan Jovanović",
+"type_slug": "stecajni-upravnik",
+"town": "Subotica",
+"municipality": "Subotica",
+"address": null,
+"phones": [
+"+38163526038"
+],
+"emails": [
+"bogdan.m.jovanovic@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2312",
+"sud": "Privredni sud Subotica"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Vasilije Jovanović",
+"type_slug": "stecajni-upravnik",
+"town": "Zrenjanin",
+"municipality": "Zrenjanin",
+"address": null,
+"phones": [
+"+381641401250"
+],
+"emails": [
+"vasilije.jovanovic@yahoo.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2103",
+"sud": "Privredni sud Zrenjanin"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Gvozden Jovanović",
+"type_slug": "stecajni-upravnik",
+"town": "Kragujevac",
+"municipality": "Kragujevac",
+"address": null,
+"phones": [
+"+38163610388"
+],
+"emails": [
+"gvozdenjovanovic@hotmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2215",
+"sud": "Privredni sud Kragujevac"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Gordana Jovanović",
+"type_slug": "stecajni-upravnik",
+"town": "Niš",
+"municipality": "Niš",
+"address": null,
+"phones": [
+"+381603030420"
+],
+"emails": [
+"gordana.stecajni.upravnik@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2304",
+"sud": "Privredni sud Niš"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Ljiljana Jovanović",
+"type_slug": "stecajni-upravnik",
+"town": "Šabac",
+"municipality": "Šabac",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2329",
+"sud": "Privredni sud Valjevo"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Maja Jovanović",
+"type_slug": "stecajni-upravnik",
+"town": "Zaječar",
+"municipality": "Zaječar",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2182",
+"sud": "Privredni sud Zaječar"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Milan Jovanović",
+"type_slug": "stecajni-upravnik",
+"town": "Niš",
+"municipality": "Niš",
+"address": null,
+"phones": [
+"+38162768681"
+],
+"emails": [
+"jovanovicmilann@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2183",
+"sud": "Privredni sud Niš"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Olivera Jovanović",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+381606625590"
+],
+"emails": [
+"oliverajus@yahoo.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2302",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Saša Jovanović",
+"type_slug": "stecajni-upravnik",
+"town": "Paraćin",
+"municipality": "Paraćin",
+"address": null,
+"phones": [
+"+38163600107"
+],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2343",
+"sud": "Privredni sud Kragujevac"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Slobodan Jovanović",
+"type_slug": "stecajni-upravnik",
+"town": "Užice",
+"municipality": "Užice",
+"address": null,
+"phones": [
+"+381638785307"
+],
+"emails": [
+"slobodan.m.jovanovic@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2145",
+"sud": "Privredni sud Užice"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Dragica Jokić",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2330",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Đorđe Jokić",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+38163370261"
+],
+"emails": [
+"djordje@tcfconsulting.net"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2110",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Branko Jugović",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+381691620062"
+],
+"emails": [
+"branko.jugovic@hotmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2311",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Zoran Kaličanin",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2225",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Aleksije Kaluđerović",
+"type_slug": "stecajni-upravnik",
+"town": "Čačak",
+"municipality": "Čačak",
+"address": null,
+"phones": [
+"+381637046585"
+],
+"emails": [
+"l.kaludjerovic@yahoo.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2141",
+"sud": "Privredni sud Čačak"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Mirjana Kićanović",
+"type_slug": "stecajni-upravnik",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": null,
+"phones": [
+"+38121402064"
+],
+"emails": [
+"mirjanakicanovic@hotmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2191",
+"sud": "Privredni sud Novi Sad"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Mira Kovačević",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+38163691449"
+],
+"emails": [
+"mira.kov011@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2149",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Miodrag Koviljac",
+"type_slug": "stecajni-upravnik",
+"town": "Sremska Mitrovica",
+"municipality": "Sremska Mitrovica",
+"address": null,
+"phones": [
+"+381642064592"
+],
+"emails": [
+"miodragkoviljac@yahoo.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2125",
+"sud": "Privredni sud Sremska Mitrovica"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Milana Kojić",
+"type_slug": "stecajni-upravnik",
+"town": "Kovin",
+"municipality": "Kovin",
+"address": null,
+"phones": [
+"+381642081614"
+],
+"emails": [
+"milanakojic@yahoo.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2313",
+"sud": "Privredni sud Pančevo"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Mihajlo Koruga",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+381638183802"
+],
+"emails": [
+"mkoruga@sbb.rs"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2336",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Predrag Kosovac",
+"type_slug": "stecajni-upravnik",
+"town": "Niš",
+"municipality": "Niš",
+"address": null,
+"phones": [
+"+381638015187"
+],
+"emails": [
+"pkosovac@ptt.rs"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2164",
+"sud": "Privredni sud Niš"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Milena Kostić",
+"type_slug": "stecajni-upravnik",
+"town": "Novi Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+38163256020"
+],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2160",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Emilija Krstić",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+38163472754"
+],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2239",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Radomir Kuburović",
+"type_slug": "stecajni-upravnik",
+"town": "Užice",
+"municipality": "Užice",
+"address": null,
+"phones": [
+"+38163602029"
+],
+"emails": [
+"radomir_kuburovic@yahoo.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2348",
+"sud": "Privredni sud Užice"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Živojin Lazarević",
+"type_slug": "stecajni-upravnik",
+"town": "Kuršumlija",
+"municipality": "Kuršumlija",
+"address": null,
+"phones": [
+"+381611176877"
+],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2259",
+"sud": "Privredni sud Niš"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Dušan Lazić",
+"type_slug": "stecajni-upravnik",
+"town": "Zrenjanin",
+"municipality": "Zrenjanin",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2123",
+"sud": "Privredni sud Zrenjanin"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Rastko Lazić",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+38169697899"
+],
+"emails": [
+"namirenje@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2213",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Aleksandar Lakić",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+381641356988"
+],
+"emails": [
+"lakic.aleksandar55@yahoo.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2274",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Petar Ličinić",
+"type_slug": "stecajni-upravnik",
+"town": "Požarevac",
+"municipality": "Požarevac",
+"address": null,
+"phones": [
+"+38163326711"
+],
+"emails": [
+"uspehjolly@open.telekom.rs"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2305",
+"sud": "Privredni sud Požarevac"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Radmila Lukač",
+"type_slug": "stecajni-upravnik",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2217",
+"sud": "Privredni sud Novi Sad"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Velibor Lukić",
+"type_slug": "stecajni-upravnik",
+"town": "Gornji Milanovac",
+"municipality": "Gornji Milanovac",
+"address": null,
+"phones": [
+"+38163627139"
+],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2326",
+"sud": "Privredni sud Čačak"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Milan Ljubojević",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+38163546272"
+],
+"emails": [
+"milan.ljubojevic@gmx.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2194",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Suzana Mak",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+381621282002"
+],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2156",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Miloš Maljević",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+381638805474"
+],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2227",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Predrag Manojlović",
+"type_slug": "stecajni-upravnik",
+"town": "Ub",
+"municipality": "Ub",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2117",
+"sud": "Privredni sud Valjevo"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Dragan Marinković",
+"type_slug": "stecajni-upravnik",
+"town": "Paraćin",
+"municipality": "Paraćin",
+"address": null,
+"phones": [
+"+38163528456"
+],
+"emails": [
+"marincovicc@mts.rs"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2154",
+"sud": "Privredni sud Kragujevac"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Jasmina Marjanović",
+"type_slug": "stecajni-upravnik",
+"town": "Valjevo",
+"municipality": "Valjevo",
+"address": null,
+"phones": [
+"+381694390595"
+],
+"emails": [
+"jasmina.marjanovic1@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2121",
+"sud": "Privredni sud Valjevo"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Dragan Marković",
+"type_slug": "stecajni-upravnik",
+"town": "Loznica",
+"municipality": "Loznica",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2279",
+"sud": "Privredni sud Valjevo"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Zoran Martinović",
+"type_slug": "stecajni-upravnik",
+"town": "Niš",
+"municipality": "Niš",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2179",
+"sud": "Privredni sud Niš"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Lazar Marčić",
+"type_slug": "stecajni-upravnik",
+"town": "Petrovaradin",
+"municipality": "Novi Sad",
+"address": null,
+"phones": [
+"+381637207512"
+],
+"emails": [
+"marcic.lazar@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2185",
+"sud": "Privredni sud Novi Sad"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Goran Matić",
+"type_slug": "stecajni-upravnik",
+"town": "Bečej",
+"municipality": "Bečej",
+"address": null,
+"phones": [
+"+381655655515"
+],
+"emails": [
+"goranmatic78@yahoo.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2254",
+"sud": "Privredni sud Novi Sad"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Ivana Matić",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2249",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Jasmina Mašulović",
+"type_slug": "stecajni-upravnik",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": null,
+"phones": [
+"+38163649365"
+],
+"emails": [
+"mjasmina@eunet.rs"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2187",
+"sud": "Privredni sud Novi Sad"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Branko Mijanac",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+38163215359"
+],
+"emails": [
+"branko.mijanac@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2174",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Željko Mijušković",
+"type_slug": "stecajni-upravnik",
+"town": "Smederevska Palanka",
+"municipality": "Smederevska Palanka",
+"address": null,
+"phones": [
+"+381698294488"
+],
+"emails": [
+"zeljko_mijuskovic@yahoo.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2275",
+"sud": "Privredni sud Požarevac"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Dušan Milenković",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2244",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Nikola Milenković",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+381653070311"
+],
+"emails": [
+"nikola.milenkovic57@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2284",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Bojan Miletić",
+"type_slug": "stecajni-upravnik",
+"town": "Pančevo",
+"municipality": "Pančevo",
+"address": null,
+"phones": [
+"+38163215513"
+],
+"emails": [
+"divisioiusta@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2150",
+"sud": "Privredni sud Pančevo"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Radmila Miletić",
+"type_slug": "stecajni-upravnik",
+"town": "Čurug",
+"municipality": "Žabalj",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2109",
+"sud": "Privredni sud Novi Sad"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Ranko Miletić",
+"type_slug": "stecajni-upravnik",
+"town": "Bor",
+"municipality": "Bor",
+"address": null,
+"phones": [
+"+381643123598"
+],
+"emails": [
+"rankomiletic@hotmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2088",
+"sud": "Privredni sud Zaječar"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Raica Milićević",
+"type_slug": "stecajni-upravnik",
+"town": "Niš",
+"municipality": "Niš",
+"address": null,
+"phones": [
+"+38163456320"
+],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2220",
+"sud": "Privredni sud Niš"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Zoran Milovanović",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+381648161074"
+],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2322",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Strahinja Milovanović",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+381644041898"
+],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2318",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Branislav Milosavljević",
+"type_slug": "stecajni-upravnik",
+"town": "Vladičin Han",
+"municipality": "Vladičin Han",
+"address": null,
+"phones": [
+"+38162474146"
+],
+"emails": [
+"branislav.milosavljevic017@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2271",
+"sud": "Privredni sud Leskovac"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Zoran Milosavljević",
+"type_slug": "stecajni-upravnik",
+"town": "Aleksinac",
+"municipality": "Aleksinac",
+"address": null,
+"phones": [
+"+38163421085"
+],
+"emails": [
+"milosavljevic53@yahoo.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2340",
+"sud": "Privredni sud Niš"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Bojana Milošević",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+381653301615"
+],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2314",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Dragan Milošević",
+"type_slug": "stecajni-upravnik",
+"town": "Niš",
+"municipality": "Niš",
+"address": null,
+"phones": [
+"+381695573021"
+],
+"emails": [
+"stecajnimilosevic@yahoo.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2102",
+"sud": "Privredni sud Niš"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Dragan Miljković",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2294",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Danko Mimić",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+381652374410"
+],
+"emails": [
+"beodan@eunet.rs"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2206",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Aca Mitić",
+"type_slug": "stecajni-upravnik",
+"town": "Žagubica",
+"municipality": "Žagubica",
+"address": null,
+"phones": [
+"+381638147455",
+"+38112643481",
+"+38112210762"
+],
+"emails": [
+"acamitic.ampro@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2205",
+"sud": "Privredni sud Požarevac"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Branko Mitić",
+"type_slug": "stecajni-upravnik",
+"town": "Vranje",
+"municipality": "Vranje",
+"address": null,
+"phones": [
+"+38162461078"
+],
+"emails": [
+"mitic92@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2171",
+"sud": "Privredni sud Leskovac"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Vesna Mitrić",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+381641235849"
+],
+"emails": [
+"granada@eunet.rs"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2178",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Robert Mitrović",
+"type_slug": "stecajni-upravnik",
+"town": "Leskovac",
+"municipality": "Leskovac",
+"address": null,
+"phones": [
+"+381655460898"
+],
+"emails": [
+"belmedikcentar@me.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2299",
+"sud": "Privredni sud Leskovac"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Saša Mitrović",
+"type_slug": "stecajni-upravnik",
+"town": "Sremska Mitrovica",
+"municipality": "Sremska Mitrovica",
+"address": null,
+"phones": [
+"+38163500184"
+],
+"emails": [
+"sashamitrovich@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2287",
+"sud": "Privredni sud Sremska Mitrovica"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Milisav Mićović",
+"type_slug": "stecajni-upravnik",
+"town": "Pančevo",
+"municipality": "Pančevo",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2300",
+"sud": "Privredni sud Pančevo"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Zorica Mihajlović",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+381648549727"
+],
+"emails": [
+"pravnodobro@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2211",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Aleksandra Miškov",
+"type_slug": "stecajni-upravnik",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": null,
+"phones": [
+"+381658029198"
+],
+"emails": [
+"aleksandra.miskov@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2108",
+"sud": "Privredni sud Novi Sad"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Budimir Mrdović",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+381648218110"
+],
+"emails": [
+"budimir.m.mrdovic@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2098",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Aleksa Nađ",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+381642805118"
+],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2162",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Jelena Nestorov-Bizonj",
+"type_slug": "stecajni-upravnik",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": null,
+"phones": [
+"+381641410570"
+],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2188",
+"sud": "Privredni sud Novi Sad"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Miroslava Novković",
+"type_slug": "stecajni-upravnik",
+"town": "Vranje",
+"municipality": "Vranje",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2229",
+"sud": "Privredni sud Leskovac"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Milutin Obradović",
+"type_slug": "stecajni-upravnik",
+"town": "Čačak",
+"municipality": "Čačak",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2258",
+"sud": "Privredni sud Čačak"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Đorđe Ostojić",
+"type_slug": "stecajni-upravnik",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": null,
+"phones": [
+"+38163511194"
+],
+"emails": [
+"djordje637@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2202",
+"sud": "Privredni sud Novi Sad"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Slobodan Ostojić",
+"type_slug": "stecajni-upravnik",
+"town": "Subotica",
+"municipality": "Subotica",
+"address": null,
+"phones": [
+"+38163568226"
+],
+"emails": [
+"ostojic@tippnet.rs"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2196",
+"sud": "Privredni sud Subotica"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Branka Pavlić",
+"type_slug": "stecajni-upravnik",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": null,
+"phones": [
+"+381659515980"
+],
+"emails": [
+"brankapavlic@sbb.rs"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2099",
+"sud": "Privredni sud Novi Sad"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Svetlana Pandurov",
+"type_slug": "stecajni-upravnik",
+"town": "Pančevo",
+"municipality": "Pančevo",
+"address": null,
+"phones": [
+"+381603667150"
+],
+"emails": [
+"spandurov955@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2280",
+"sud": "Privredni sud Pančevo"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Rajko Pantić",
+"type_slug": "stecajni-upravnik",
+"town": "Smederevo",
+"municipality": "Smederevo",
+"address": null,
+"phones": [
+"+381637445323"
+],
+"emails": [
+"pantic.r@sezampro.rs"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2096",
+"sud": "Privredni sud Požarevac"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Goran Paunović",
+"type_slug": "stecajni-upravnik",
+"town": "Pirot",
+"municipality": "Pirot",
+"address": null,
+"phones": [
+"+38166320090"
+],
+"emails": [
+"goran_paunovic@yahoo.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2285",
+"sud": "Privredni sud Niš"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Draško Pašić",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+381628327996"
+],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2327",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Branko Perić",
+"type_slug": "stecajni-upravnik",
+"town": "Jagodina",
+"municipality": "Jagodina",
+"address": null,
+"phones": [
+"+381641151022"
+],
+"emails": [
+"branko.peric92@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2339",
+"sud": "Privredni sud Kragujevac"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Sunčica Perić",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2247",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Dragan Perković",
+"type_slug": "stecajni-upravnik",
+"town": "Novi Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+38163301721"
+],
+"emails": [
+"stup.perkovic@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2331",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Ljubiša Perović",
+"type_slug": "stecajni-upravnik",
+"town": "Kragujevac",
+"municipality": "Kragujevac",
+"address": null,
+"phones": [
+"+381694149690"
+],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2269",
+"sud": "Privredni sud Kragujevac"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Vanja Petković",
+"type_slug": "stecajni-upravnik",
+"town": "Pančevo",
+"municipality": "Pančevo",
+"address": null,
+"phones": [
+"+381655450587"
+],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2309",
+"sud": "Privredni sud Pančevo"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Dejan Petković",
+"type_slug": "stecajni-upravnik",
+"town": "Leskovac",
+"municipality": "Leskovac",
+"address": null,
+"phones": [
+"+381616983654"
+],
+"emails": [
+"petdejan@live.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2214",
+"sud": "Privredni sud Leskovac"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Ljubomir Petrov",
+"type_slug": "stecajni-upravnik",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": null,
+"phones": [
+"+38163512800"
+],
+"emails": [
+"petrov.ljubomir@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2325",
+"sud": "Privredni sud Novi Sad"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Vesna Petrović",
+"type_slug": "stecajni-upravnik",
+"town": "Niš",
+"municipality": "Niš",
+"address": null,
+"phones": [
+"+38163419182",
+"+38118250466"
+],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2296",
+"sud": "Privredni sud Niš"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Dejan Petrović",
+"type_slug": "stecajni-upravnik",
+"town": "Bela Palanka",
+"municipality": "Bela Palanka",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2119",
+"sud": "Privredni sud Niš"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Dragica Petrović",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+381112681614"
+],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2245",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Žaklina Petrović",
+"type_slug": "stecajni-upravnik",
+"town": "Pirot",
+"municipality": "Pirot",
+"address": null,
+"phones": [
+"+381648549334"
+],
+"emails": [
+"zaklinapetrovic.pi@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2235",
+"sud": "Privredni sud Niš"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Ivan Petrović",
+"type_slug": "stecajni-upravnik",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": null,
+"phones": [
+"+38163538076"
+],
+"emails": [
+"ivan.petrovic.st.up@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2107",
+"sud": "Privredni sud Novi Sad"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Miodrag Petrović",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2177",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Mirko Petrović",
+"type_slug": "stecajni-upravnik",
+"town": "Kraljevo",
+"municipality": "Kraljevo",
+"address": null,
+"phones": [
+"+381643244577"
+],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2223",
+"sud": "Privredni sud Kraljevo"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Dragan Pešić",
+"type_slug": "stecajni-upravnik",
+"town": "Leskovac",
+"municipality": "Leskovac",
+"address": null,
+"phones": [
+"+38116213250",
+"+381695027028",
+"+38116214023"
+],
+"emails": [
+"dpesic.le@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2261",
+"sud": "Privredni sud Leskovac"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Dejan Pjevač",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [],
+"emails": [
+"dejan.finansijskikonsultant@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2222",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Žarko Popović",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+38163358796",
+"+381112456822"
+],
+"emails": [
+"zarko.popovic18@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2111",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Jadranko Protić",
+"type_slug": "stecajni-upravnik",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2133",
+"sud": "Privredni sud Novi Sad"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Milutin Protić",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+381113172191"
+],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2126",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Slavica Radisavčević",
+"type_slug": "stecajni-upravnik",
+"town": "Kragujevac",
+"municipality": "Kragujevac",
+"address": null,
+"phones": [
+"+38163635578",
+"+38134370488"
+],
+"emails": [
+"slavica.radisavcevic@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2151",
+"sud": "Privredni sud Kragujevac"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Bogdana Radlović",
+"type_slug": "stecajni-upravnik",
+"town": "Šabac",
+"municipality": "Šabac",
+"address": null,
+"phones": [
+"+381641725940"
+],
+"emails": [
+"revizija.bogdana@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2135",
+"sud": "Privredni sud Valjevo"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Pero Radović",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+38162345011"
+],
+"emails": [
+"pero.radovicsu@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2172",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Vasilije Radosavljević",
+"type_slug": "stecajni-upravnik",
+"town": "Sremska Mitrovica",
+"municipality": "Sremska Mitrovica",
+"address": null,
+"phones": [],
+"emails": [
+"vasarad@mts.rs"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2251",
+"sud": "Privredni sud Sremska Mitrovica"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Rade Radulović",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+38163350408"
+],
+"emails": [
+"rade.radul@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2170",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Dragan Rađenović",
+"type_slug": "stecajni-upravnik",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": null,
+"phones": [
+"+38166401187"
+],
+"emails": [
+"centar@cfu.co.rs"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2105",
+"sud": "Privredni sud Novi Sad"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Bratislav Rajković",
+"type_slug": "stecajni-upravnik",
+"town": "Niš",
+"municipality": "Niš",
+"address": null,
+"phones": [
+"+38163456438"
+],
+"emails": [
+"rajkovicbratislav@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2195",
+"sud": "Privredni sud Niš"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Nikola Rastović",
+"type_slug": "stecajni-upravnik",
+"town": "Veternik",
+"municipality": "Novi Sad",
+"address": null,
+"phones": [
+"+38163587250"
+],
+"emails": [
+"nima.rastovic@open.telekom.rs"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2243",
+"sud": "Privredni sud Novi Sad"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Predrag Rafailović",
+"type_slug": "stecajni-upravnik",
+"town": "Kragujevac",
+"municipality": "Kragujevac",
+"address": null,
+"phones": [
+"+381605588140"
+],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2264",
+"sud": "Privredni sud Kragujevac"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Mihailo Racić",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+381640798654"
+],
+"emails": [
+"mihailoracic92@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2224",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Ivan Repak",
+"type_slug": "stecajni-upravnik",
+"town": "Pančevo",
+"municipality": "Pančevo",
+"address": null,
+"phones": [
+"+381642295432"
+],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2250",
+"sud": "Privredni sud Pančevo"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Radovan Savić",
+"type_slug": "stecajni-upravnik",
+"town": "Zrenjanin",
+"municipality": "Zrenjanin",
+"address": null,
+"phones": [
+"+38162208102"
+],
+"emails": [
+"jov995@sbb.rs"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2190",
+"sud": "Privredni sud Zrenjanin"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Pavel Severinji",
+"type_slug": "stecajni-upravnik",
+"town": "Bački Petrovac",
+"municipality": "Bački Petrovac",
+"address": null,
+"phones": [
+"+38121780143"
+],
+"emails": [
+"sever1@stcable.net"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2152",
+"sud": "Privredni sud Novi Sad"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Igor Sekereš",
+"type_slug": "stecajni-upravnik",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": null,
+"phones": [
+"+381606259933"
+],
+"emails": [
+"tivoli@eunet.rs"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2289",
+"sud": "Privredni sud Novi Sad"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Svetlana Simeunović",
+"type_slug": "stecajni-upravnik",
+"town": "Kragujevac",
+"municipality": "Kragujevac",
+"address": null,
+"phones": [
+"+381631282220"
+],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2272",
+"sud": "Privredni sud Kragujevac"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Zoran Simić",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+381638403317"
+],
+"emails": [
+"zoran.simic@centrofin.rs"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2136",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Saša Simić",
+"type_slug": "stecajni-upravnik",
+"town": "Zaječar",
+"municipality": "Zaječar",
+"address": null,
+"phones": [
+"+381648201923"
+],
+"emails": [
+"sasa.simic@open.telekom.rs"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2128",
+"sud": "Privredni sud Zaječar"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Milorad Simović",
+"type_slug": "stecajni-upravnik",
+"town": "Užice",
+"municipality": "Užice",
+"address": null,
+"phones": [
+"+38163542225"
+],
+"emails": [
+"simoxtuzice@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2131",
+"sud": "Privredni sud Užice"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Slavica Spasić",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+38163237632"
+],
+"emails": [
+"slavica.spasic2@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2161",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Milorad Srdanović",
+"type_slug": "stecajni-upravnik",
+"town": "Novi Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+38163300180"
+],
+"emails": [
+"euromont1@yahoo.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2349",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Goran Stamenković",
+"type_slug": "stecajni-upravnik",
+"town": "Odžaci",
+"municipality": "Odžaci",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2276",
+"sud": "Privredni sud Sombor"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Miladin Stamenković",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+381603727277"
+],
+"emails": [
+"miladin.stamenkovic@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2315",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Mijo Stanarčević",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+381641110321"
+],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2297",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Miljan Stanisavić",
+"type_slug": "stecajni-upravnik",
+"town": "Niš",
+"municipality": "Niš",
+"address": null,
+"phones": [
+"+381638911981"
+],
+"emails": [
+"miljanstanisavic@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2263",
+"sud": "Privredni sud Niš"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Dragi Stevanović",
+"type_slug": "stecajni-upravnik",
+"town": "Mladenovac",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+381641402464"
+],
+"emails": [
+"dragi.stevanovic@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2337",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Dušan Stevanović",
+"type_slug": "stecajni-upravnik",
+"town": "Kraljevo",
+"municipality": "Kraljevo",
+"address": null,
+"phones": [
+"+381600239523"
+],
+"emails": [
+"dstevanovic.su@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2323",
+"sud": "Privredni sud Kraljevo"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Emilia Stefanović",
+"type_slug": "stecajni-upravnik",
+"town": "Bačka Topola",
+"municipality": "Bačka Topola",
+"address": null,
+"phones": [
+"+38162404590"
+],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2168",
+"sud": "Privredni sud Subotica"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Zoran Stešević",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+38163246333"
+],
+"emails": [
+"zoran.stesevic@sbb.rs"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2146",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Vladimir Stojanović",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2104",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Zoran Stojanović",
+"type_slug": "stecajni-upravnik",
+"town": "Sremska Mitrovica",
+"municipality": "Sremska Mitrovica",
+"address": null,
+"phones": [
+"+381638555288"
+],
+"emails": [
+"stole@mts.rs"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2176",
+"sud": "Privredni sud Sremska Mitrovica"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Milan Stojanović",
+"type_slug": "stecajni-upravnik",
+"town": "Užice",
+"municipality": "Užice",
+"address": null,
+"phones": [
+"+38169606461"
+],
+"emails": [
+"polen20@open.telekom.rs"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2346",
+"sud": "Privredni sud Užice"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Srđan Stojanović",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+381621088660"
+],
+"emails": [
+"office.stecajniupravnik@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2101",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Predrag Stojković",
+"type_slug": "stecajni-upravnik",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": null,
+"phones": [
+"+381656838888"
+],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2175",
+"sud": "Privredni sud Novi Sad"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Svetlana Subašić",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+38163307431"
+],
+"emails": [
+"svetlana.subasic@yahoo.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2237",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Vladimir Tovarović",
+"type_slug": "stecajni-upravnik",
+"town": "Šabac",
+"municipality": "Šabac",
+"address": null,
+"phones": [
+"+381646432888"
+],
+"emails": [
+"vladimir.tovarovic87@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2130",
+"sud": "Privredni sud Valjevo"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Nikola Tošić",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+381669640085"
+],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2267",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Dušanka Ćetković",
+"type_slug": "stecajni-upravnik",
+"town": "Leskovac",
+"municipality": "Leskovac",
+"address": null,
+"phones": [
+"+381692474574"
+],
+"emails": [
+"cetkovic.d@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2091",
+"sud": "Privredni sud Leskovac"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Branka Ćopić",
+"type_slug": "stecajni-upravnik",
+"town": "Subotica",
+"municipality": "Subotica",
+"address": null,
+"phones": [
+"+381655720037"
+],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2193",
+"sud": "Privredni sud Subotica"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Milorad Ćuk",
+"type_slug": "stecajni-upravnik",
+"town": "Banatski Karlovac",
+"municipality": "Alibunar",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2291",
+"sud": "Privredni sud Pančevo"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Zoran Ćulibrk",
+"type_slug": "stecajni-upravnik",
+"town": "Novi Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+381112631055",
+"+381112620400"
+],
+"emails": [
+"vculibrk@yubc.net"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2321",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Stojanka Filipić",
+"type_slug": "stecajni-upravnik",
+"town": "Loznica",
+"municipality": "Loznica",
+"address": null,
+"phones": [
+"+381638296380"
+],
+"emails": [
+"filipicstojanka@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2094",
+"sud": "Privredni sud Valjevo"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Atila Harmat",
+"type_slug": "stecajni-upravnik",
+"town": "Subotica",
+"municipality": "Subotica",
+"address": null,
+"phones": [
+"+381642829425"
+],
+"emails": [
+"harmatatila@yahoo.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2138",
+"sud": "Privredni sud Subotica"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Tamaš Harmat",
+"type_slug": "stecajni-upravnik",
+"town": "Subotica",
+"municipality": "Subotica",
+"address": null,
+"phones": [
+"+381642821156"
+],
+"emails": [
+"kancelarijaharmat@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2282",
+"sud": "Privredni sud Subotica"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Goran Cvetković",
+"type_slug": "stecajni-upravnik",
+"town": "Niš",
+"municipality": "Niš",
+"address": null,
+"phones": [
+"+381658263100"
+],
+"emails": [
+"emai.cgoran@eunet.rs"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2242",
+"sud": "Privredni sud Niš"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Vencislav Cenić",
+"type_slug": "stecajni-upravnik",
+"town": "Bošnjace",
+"municipality": "Lebane",
+"address": null,
+"phones": [
+"+381638052858"
+],
+"emails": [
+"vencislav.cenic@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2317",
+"sud": "Privredni sud Leskovac"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Miroljub Cicmil",
+"type_slug": "stecajni-upravnik",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": null,
+"phones": [
+"+38121706719"
+],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2163",
+"sud": "Privredni sud Novi Sad"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Ivan Čakarević",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+381646304749"
+],
+"emails": [
+"icakarevicsu@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2328",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Marijana Čitaković",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2306",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Nemanja Šalipurović",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2159",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Rudolf Šarnjai",
+"type_slug": "stecajni-upravnik",
+"town": "Senta",
+"municipality": "Senta",
+"address": null,
+"phones": [
+"+38163526133"
+],
+"emails": [
+"sarnjai.rudolf@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2334",
+"sud": "Privredni sud Subotica"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Rade Šibalić",
+"type_slug": "stecajni-upravnik",
+"town": "Bečej",
+"municipality": "Bečej",
+"address": null,
+"phones": [
+"+381628016721"
+],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2316",
+"sud": "Privredni sud Novi Sad"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Ninoslav Šimić",
+"type_slug": "stecajni-upravnik",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": null,
+"phones": [
+"+381638484236"
+],
+"emails": [
+"nshimic@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2347",
+"sud": "Privredni sud Novi Sad"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Bojan Škrbić",
+"type_slug": "stecajni-upravnik",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": null,
+"phones": [
+"+381652038331"
+],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2265",
+"sud": "Privredni sud Novi Sad"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Bojan Šljivar",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [],
+"emails": [
+"bojansljivar07@yahoo.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2221",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Igor Šobić",
+"type_slug": "stecajni-upravnik",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2255",
+"sud": "Privredni sud Novi Sad"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Mira Štavljanin",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+381112505921"
+],
+"emails": [
+"stavljaninm@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2198",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+},
+{
+"name": "Radiša Šulić",
+"type_slug": "stecajni-upravnik",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [
+"+381606144381"
+],
+"emails": [
+"rsulicstecaj@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"licenca": "155-2140",
+"sud": "Privredni sud Beograd"
+},
+"source_url": "https://alsu.gov.rs/ci/stecajni-upravnik/imenik-stecajnih-upravnika-2/"
+}
+]
+}

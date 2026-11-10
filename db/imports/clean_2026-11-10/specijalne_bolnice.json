@@ -1,0 +1,189 @@
+{
+"source": {
+"name": "Uredba o planu mreže zdravstvenih ustanova (tabela teritorijalnog rasporeda), preuzeto sa sajta RFZO; adrese i telefoni sa sajtova ustanova",
+"url": "https://www.rfzo.rs/dokumenta/Tabela%20%20-%20Uredba%20o%20Planu%20mre%C5%BEe%20zdravstvenih%20ustanova.pdf",
+"fetched_at": "2026-11-10"
+},
+"note": "Names from the official network plan table (public specialist hospitals as listed there); address/phone only where found on each institution's own website. Some rows have no address/phone (site missing, down, or no address found). Names normalized to Latin without exact registered quotation marks; sanitarium/hotel phones may be reception lines.",
+"rows": [
+{
+"name": "Specijalna bolnica za plućne bolesti Zrenjanin",
+"type_slug": "specijalna-bolnica",
+"town": "Zrenjanin",
+"municipality": "Zrenjanin",
+"address": "Petefijeva 4",
+"phones": [
+"062 8008636"
+],
+"emails": [],
+"website": "http://www.plucna.co.rs",
+"hours": null,
+"extra": {
+"source": "plan mreže (Sl. glasnik RS, uredba o planu mreže zdravstvenih ustanova)"
+},
+"source_url": "http://www.plucna.co.rs"
+},
+{
+"name": "Specijalna bolnica za psihijatrijske bolesti Novi Kneževac",
+"type_slug": "specijalna-bolnica",
+"town": "Novi Kneževac",
+"municipality": "Novi Kneževac",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"source": "plan mreže (Sl. glasnik RS, uredba o planu mreže zdravstvenih ustanova)"
+},
+"source_url": "https://www.rfzo.rs/dokumenta/Tabela%20%20-%20Uredba%20o%20Planu%20mre%C5%BEe%20zdravstvenih%20ustanova.pdf"
+},
+{
+"name": "Specijalna bolnica za plućne bolesti Bela Crkva",
+"type_slug": "specijalna-bolnica",
+"town": "Bela Crkva",
+"municipality": "Bela Crkva",
+"address": "Miletićeva 55",
+"phones": [
+"013/851-241"
+],
+"emails": [],
+"website": "http://www.spbbelacrkva.org",
+"hours": null,
+"extra": {
+"source": "plan mreže (Sl. glasnik RS, uredba o planu mreže zdravstvenih ustanova)"
+},
+"source_url": "http://www.spbbelacrkva.org"
+},
+{
+"name": "Specijalna bolnica za psihijatrijske bolesti Vršac",
+"type_slug": "specijalna-bolnica",
+"town": "Vršac",
+"municipality": "Vršac",
+"address": null,
+"phones": [
+"013/833-225",
+"013/833-268"
+],
+"emails": [],
+"website": "http://www.spbvrsac.org.rs",
+"hours": null,
+"extra": {
+"source": "plan mreže (Sl. glasnik RS, uredba o planu mreže zdravstvenih ustanova)"
+},
+"source_url": "http://www.spbvrsac.org.rs"
+},
+{
+"name": "Specijalna bolnica za neurološka i posttraumatska stanja Stari Slankamen",
+"type_slug": "specijalna-bolnica",
+"town": "Stari Slankamen",
+"municipality": "Inđija",
+"address": "Dr Borivoja Gnjatića 50-52",
+"phones": [],
+"emails": [],
+"website": "http://www.bolnicaslankamen.co.rs",
+"hours": null,
+"extra": {
+"source": "plan mreže (Sl. glasnik RS, uredba o planu mreže zdravstvenih ustanova)"
+},
+"source_url": "http://www.bolnicaslankamen.co.rs"
+},
+{
+"name": "Specijalna bolnica za rehabilitaciju Vrdnik",
+"type_slug": "specijalna-bolnica",
+"town": "Vrdnik",
+"municipality": "Irig",
+"address": "Karađorđeva 6",
+"phones": [
+"069-755-736",
+"069-755-727"
+],
+"emails": [],
+"website": "http://www.termal-vrdnik.com",
+"hours": null,
+"extra": {
+"source": "plan mreže (Sl. glasnik RS, uredba o planu mreže zdravstvenih ustanova)"
+},
+"source_url": "http://www.termal-vrdnik.com"
+},
+{
+"name": "Specijalna bolnica za rehabilitaciju Bukovička banja Aranđelovac",
+"type_slug": "specijalna-bolnica",
+"town": "Aranđelovac",
+"municipality": "Aranđelovac",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"source": "plan mreže (Sl. glasnik RS, uredba o planu mreže zdravstvenih ustanova)"
+},
+"source_url": "https://www.rfzo.rs/dokumenta/Tabela%20%20-%20Uredba%20o%20Planu%20mre%C5%BEe%20zdravstvenih%20ustanova.pdf"
+},
+{
+"name": "Specijalna bolnica za lečenje i rehabilitaciju Merkur Vrnjačka Banja",
+"type_slug": "specijalna-bolnica",
+"town": "Vrnjačka Banja",
+"municipality": "Vrnjačka Banja",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"source": "plan mreže (Sl. glasnik RS, uredba o planu mreže zdravstvenih ustanova)"
+},
+"source_url": "https://www.rfzo.rs/dokumenta/Tabela%20%20-%20Uredba%20o%20Planu%20mre%C5%BEe%20zdravstvenih%20ustanova.pdf"
+},
+{
+"name": "Specijalna bolnica za rehabilitaciju Ribarska Banja Kruševac",
+"type_slug": "specijalna-bolnica",
+"town": "Ribarska Banja",
+"municipality": "Blace",
+"address": null,
+"phones": [
+"+381 37 865 120"
+],
+"emails": [],
+"website": "http://www.ribarskabanja.rs",
+"hours": null,
+"extra": {
+"source": "plan mreže (Sl. glasnik RS, uredba o planu mreže zdravstvenih ustanova)"
+},
+"source_url": "http://www.ribarskabanja.rs"
+},
+{
+"name": "Specijalna bolnica za bolesti zavisnosti Beograd",
+"type_slug": "specijalna-bolnica",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"source": "plan mreže (Sl. glasnik RS, uredba o planu mreže zdravstvenih ustanova)"
+},
+"source_url": "https://www.rfzo.rs/dokumenta/Tabela%20%20-%20Uredba%20o%20Planu%20mre%C5%BEe%20zdravstvenih%20ustanova.pdf"
+},
+{
+"name": "Specijalna bolnica za cerebralnu paralizu i razvojnu neurologiju Beograd",
+"type_slug": "specijalna-bolnica",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": "Sokobanjska 17a",
+"phones": [
+"+381 11 266 77 55"
+],
+"emails": [],
+"website": "http://www.sbcprn.com",
+"hours": null,
+"extra": {
+"source": "plan mreže (Sl. glasnik RS, uredba o planu mreže zdravstvenih ustanova)"
+},
+"source_url": "http://www.sbcprn.com"
+}
+]
+}

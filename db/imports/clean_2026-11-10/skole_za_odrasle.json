@@ -1,0 +1,3471 @@
+{
+"source": {
+"name": "Agencija za kvalifikacije (NOKS) - registar JPOA (export of search results) + Ministarstvo prosvete open data (osnovno obrazovanje odraslih)",
+"url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html ; https://data.gov.rs/sr/datasets/osnovno-obrazovanje-kontakt-podatsi-osnovni-podatsi/",
+"fetched_at": "2026-11-10"
+},
+"note": "223 JPOA registered organisers (all statuses returned by the register export, status kept in extra.status) + primary adult-education schools from ministry open data. JPOA register publishes seat address only (no phone/email). JPOA names are as registered (some contain Latin look-alike letters).",
+"rows": [
+{
+"name": "Škola za osnovno obrazovanje odraslih \"Tihomir Stanković\"",
+"type_slug": "skola-za-odrasle",
+"town": "Prokuplje",
+"municipality": "Prokuplje",
+"address": "Knez Mihajlova 55",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"ownership": "javna",
+"maticni_broj": "17759582",
+"pib": "105817021",
+"okrug": "Toplički Upravni Okrug",
+"work_start": "2008-10-01",
+"registry": "opendata.mpn.gov.rs Osnovno obrazovanje (Kontakt podaci + Podaci o lokacijama i objektima), data.gov.rs",
+"seat": true,
+"kind": "skola za obrazovanje odraslih"
+},
+"source_url": "https://data.gov.rs/sr/datasets/osnovno-obrazovanje-kontakt-podatsi-osnovni-podatsi/"
+},
+{
+"name": "Kopering",
+"type_slug": "skola-za-odrasle",
+"town": "Petrovaradin",
+"municipality": "Novi Sad",
+"address": "Rada Končara 1",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00002",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Elmik Inženjering",
+"type_slug": "skola-za-odrasle",
+"town": "Loznica",
+"municipality": "Loznica",
+"address": "Banjska 28",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00003",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Remontni Centar",
+"type_slug": "skola-za-odrasle",
+"town": "Užice",
+"municipality": "Užice",
+"address": "Radnička 11",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00004",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije / Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Asip Prevent",
+"type_slug": "skola-za-odrasle",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": "Privrednikova 8a",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00005",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije / Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Preving Servis",
+"type_slug": "skola-za-odrasle",
+"town": "Vršac",
+"municipality": "Vršac",
+"address": "Nikite Tolstoja 119",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00007",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Akademija Tehničkih Strukovnih Studija Beograd",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Zvezdara)",
+"municipality": "Beograd",
+"address": "Katarine Ambrozić 3",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00008",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Edukativni Centar Za Obuke U Profesionalnim I Radnim Veštinama Novi Sad",
+"type_slug": "skola-za-odrasle",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": "Industrijska 3",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00009",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije / Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije / Karijerno vođenje i savetovanje",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Akademija Oksford-Agent",
+"type_slug": "skola-za-odrasle",
+"town": "Jagodina",
+"municipality": "Jagodina",
+"address": "Trepčaninova 1",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00010",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije / Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije / Karijerno vođenje i savetovanje",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Zecon doo Beograd-Zemun",
+"type_slug": "skola-za-odrasle",
+"town": "Surčin",
+"municipality": "Beograd",
+"address": "Bobija Fišera 10",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00011",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Fondacija \"Pro Scientia Naturae\", Senta",
+"type_slug": "skola-za-odrasle",
+"town": "Senta",
+"municipality": "Senta",
+"address": "Poštanska 18",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00012",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Akademska Srpska Asocijacija",
+"type_slug": "skola-za-odrasle",
+"town": "Niš",
+"municipality": "Niš",
+"address": "Vase Pelagića 24",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00013",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Naučno-Tehnološki Centar Nis - Naftagas",
+"type_slug": "skola-za-odrasle",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": "Narodnog Fronta 12",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00014",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Kodar Energomontaža",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Zemun)",
+"municipality": "Beograd",
+"address": "Autoput Za Zagreb 22",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00015",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Biljana Petrović Pr Centar Za Ostalo Obrazovanje Kognitiv Kragujevac",
+"type_slug": "skola-za-odrasle",
+"town": "Kragujevac",
+"municipality": "Kragujevac",
+"address": "Vojvode Putnika 33",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00016",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije / Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Adrasteia Doo Užice",
+"type_slug": "skola-za-odrasle",
+"town": "Užice",
+"municipality": "Užice",
+"address": "Heroja Luna 29",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00017",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije / Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Certification for Professional Skills Academy doo Beograd-Stari Grad",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Zvezdara)",
+"municipality": "Beograd",
+"address": "Danice Marković 5",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00018",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije / Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Ld Bezbednost Projekt Institut",
+"type_slug": "skola-za-odrasle",
+"town": "Loznica",
+"municipality": "Valjevo",
+"address": "Žikice Jovanovića Španca 2/7",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00019",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Akademija Za Estetiku I Kozmetologiju Purity Doo",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Zvezdara)",
+"municipality": "Beograd",
+"address": "Dimitrija Tucovića 105",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00020",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije / Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Komora inženjera šumarstva Srbije",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Čukarica)",
+"municipality": "Beograd",
+"address": "Kneza Višeslava 3",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00021",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije / Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Klett EDU GmbH - OGRANAK BEOGRAD-Stari Grad",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Stari Grad)",
+"municipality": "Beograd",
+"address": "Maršala Birjuzova 3-5",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00022",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije / Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Centar Za Obrazovanje Braća Stamenković",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Palilula)",
+"municipality": "Beograd",
+"address": "Mitropolita Petra 8",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00023",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije / Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Academia Educativa",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Stari Grad)",
+"municipality": "Beograd",
+"address": "Simina 21a",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00025",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije / Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Infinitiv",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Novi Beograd)",
+"municipality": "Beograd",
+"address": "Jurija Gagarina 20 A",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00026",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Crveni Barjak",
+"type_slug": "skola-za-odrasle",
+"town": "Kragujevac",
+"municipality": "Kragujevac",
+"address": "Trg Slobode 1",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00027",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Mokrogorska Škola Menadžmenta",
+"type_slug": "skola-za-odrasle",
+"town": "Mokra Gora",
+"municipality": "Užice",
+"address": "Naselje Mećavnik bb",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00028",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Idego Doo Beograd",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Stari Grad)",
+"municipality": "Beograd",
+"address": "Vojvode Dobrnjca 19/11",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00029",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Svetozar Marković-Toza",
+"type_slug": "skola-za-odrasle",
+"town": "Vrbas",
+"municipality": "Vrbas",
+"address": "Maršala Tita 73",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00030",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Marija Žikić Pr Kozmetički Studio Mystic Šabac",
+"type_slug": "skola-za-odrasle",
+"town": "Šabac",
+"municipality": "Šabac",
+"address": "Kralja Aleksandra 33",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00031",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Perfect Hair",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Zemun)",
+"municipality": "Beograd",
+"address": "Kosovska 5",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00032",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Frizerski Edukativni Centar",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Stari Grad)",
+"municipality": "Beograd",
+"address": "Bulevar Despota Stefana 67",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00033",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Ustanova Studentski Centar Beograd",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Savski Venac)",
+"municipality": "Beograd",
+"address": "Svetozara Markovića 56",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00034",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Agencija Za Obrazovanje Akademija Dragana Grbović Pr Čačak",
+"type_slug": "skola-za-odrasle",
+"town": "Čačak",
+"municipality": "Čačak",
+"address": "Vojvode Stepe 44",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00035",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije / Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Centar Za Pomorce I Brodarce",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Stari Grad)",
+"municipality": "Beograd",
+"address": "Majke Jevrosime 15",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00036",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Be You Laser Academy",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Vračar)",
+"municipality": "Beograd",
+"address": "Makenzijeva 23",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00037",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Institut Za Bezbednost I Preventivni Inženjering Društvo Sa Ograničenom Odgovornošću Novi Sad",
+"type_slug": "skola-za-odrasle",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": "Vojvode Šupljikca 48",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00039",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije / Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Privredno Društvo Za Edukaciju, Istraživanje I Razvoj Rico Training Centre Doo, Beograd (Čukarica)",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Čukarica)",
+"municipality": "Beograd",
+"address": "Arčibalda Rajsa 27",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00040",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije / Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Društvo Za Usluge U Oblasti Zaštite Tehpro Doo Beograd (Čukarica)",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Čukarica)",
+"municipality": "Beograd",
+"address": "Lole Ribara 120",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00041",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije / Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Božidarac Digital D.O.O. Beograd",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Zvezdara)",
+"municipality": "Beograd",
+"address": "Bulevar Kralja Aleksandra 79",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00042",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije / Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije / Karijerno vođenje i savetovanje",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Društvo Za Posredovanje, Uvoz-Izvoz I Usluge Panjković Academy Doo Beograd",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Grad)",
+"municipality": "Beograd",
+"address": "Jurija Gagarina 123/11",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00045",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Društvo Za Konsalting I Menadžment Advance International Doo Beograd",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Grad)",
+"municipality": "Beograd",
+"address": "Bulevar Oslobođenja 75",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00047",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Društvo Za Animaciju, Filmsku I Video Postprodukciju Crater Studio Doo Beograd (Stari Grad)",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Stari Grad)",
+"municipality": "Beograd",
+"address": "Knićaninova 3/I",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00048",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Alp Projekt Sistem Doo Beograd",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Rakovica)",
+"municipality": "Beograd",
+"address": "17. Oktobra 48/9",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00049",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije / Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Evropski pokret u Srbiji-Leskovac",
+"type_slug": "skola-za-odrasle",
+"town": "Leskovac",
+"municipality": "Leskovac",
+"address": "Stojana Ljubića 12",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00050",
+"status": "Aktivan",
+"activities": "Karijerno vođenje i savetovanje",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Agencija Sveti Sava Katarina Krstić Pr Čačak",
+"type_slug": "skola-za-odrasle",
+"town": "Čačak",
+"municipality": "Čačak",
+"address": "Lomina 59",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00051",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije / Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Marija Trifunović Pr Kozmetičke Usluge Centar Estetike I Kozmetike Avena Beograd",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Vračar)",
+"municipality": "Beograd",
+"address": "Baba-Višnjina 46",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00053",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Centar Za Obrazovanje I Kulturu 'Božidarac-1947'",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Vračar)",
+"municipality": "Beograd",
+"address": "Njegoševa 77",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00054",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Narodni Univerzitet Šabac",
+"type_slug": "skola-za-odrasle",
+"town": "Šabac",
+"municipality": "Šabac",
+"address": "Koste Abraševića 4",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00055",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije / Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Društvo Sa Ograničenom Odgovornošću Za Proizvodnju Trgovinu I Usluge Radijator-Inženjering Kraljevo",
+"type_slug": "skola-za-odrasle",
+"town": "Kraljevo",
+"municipality": "Kraljevo",
+"address": "Živojina Lazića Solunca 6",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00057",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "\"Business association of hotel industry - HORES , Belgrade, Serbia\"",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Stari Grad)",
+"municipality": "Beograd",
+"address": "Dobrinjska 11",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00059",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Tehnička Škola 'Deveti Maj'",
+"type_slug": "skola-za-odrasle",
+"town": "Bačka Palanka",
+"municipality": "Bačka Palanka",
+"address": "Kralja Petra Prvog 2",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00064",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Tehnička Škola 'Petnaesti Maj'",
+"type_slug": "skola-za-odrasle",
+"town": "Prokuplje",
+"municipality": "Prokuplje",
+"address": "Ratka Pavlovića Ćićka 194",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00068",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Preduzeće za profesionalnu rehabilitaciju i zapošljavanje osoba sa invaliditetom ITECCION DOO PANČEVO",
+"type_slug": "skola-za-odrasle",
+"town": "Pančevo",
+"municipality": "Pančevo",
+"address": "Petefi Šandora 158",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00070",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije / Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Privredno Društvo Za Bezbednost Na Radu, Projektovanje I Inženjering Md Projekt Institut Doo, Niš",
+"type_slug": "skola-za-odrasle",
+"town": "Niš",
+"municipality": "Niš",
+"address": "Trg Kralja Aleksandra Ujedinitelja 2/5",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00071",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije / Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Društvo Sa Ograničenom Odgovornošću Za Konsalting I Inženjering Green Inženjering Doo Kragujevac",
+"type_slug": "skola-za-odrasle",
+"town": "Kragujevac",
+"municipality": "Kragujevac",
+"address": "Bulevar Kraljice Marije 54",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00073",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Privredno Društvo Za Upraljanje Rizikom Na Radnom Mestu I Radnoj Okolini, Ekologijom I Preventivnim Inženjeringom Institut Alfapreving Doo, Beograd",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Vračar)",
+"municipality": "Beograd",
+"address": "Internacionalnih Brigada 22/21",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00074",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije / Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Amss-Centar Za Motorna Vozila Doo Beograd",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Vračar)",
+"municipality": "Beograd",
+"address": "Kneginje Zorke 58",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00075",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Institut Za Unapređenje Poslovanja Doo Beograd (Zemun)",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Zemun)",
+"municipality": "Beograd",
+"address": "Novogradska 63 I",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00077",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Doo Za Proizvodnju, Promet I Usluge Amiga, Kraljevo",
+"type_slug": "skola-za-odrasle",
+"town": "Kraljevo",
+"municipality": "Kraljevo",
+"address": "Tike Kolarevića 66",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00078",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Radislav Stanojević Pr Agencija Za Konsultantske Aktivnosti U Vezi Sa Poslovanjem Preving Sistem Nova Pazova",
+"type_slug": "skola-za-odrasle",
+"town": "Nova Pazova",
+"municipality": "Stara Pazova",
+"address": "Druga Industrijska 3",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00079",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Ivan Mitrović Pr Ostalo Obrazovanje Maderoterapija Centar Beograd",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Čukarica)",
+"municipality": "Beograd",
+"address": "Rajka Od Rasine 49",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00080",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "PRIVREDNO DRUŠTVO APAVE VerTech d.o.o. Beograd-Čukarica",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Čukarica)",
+"municipality": "Beograd",
+"address": "Jugoslovenska 2/13a",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00081",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Institute Edepa Doo Beograd-Stari Grad",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Stari Grad)",
+"municipality": "Beograd",
+"address": "Balkanska 2",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00082",
+"status": "Aktivan",
+"activities": "Karijerno vođenje i savetovanje",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Srednja Stručna Škola 'Krug'",
+"type_slug": "skola-za-odrasle",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": "Suvoborska 6",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00083",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Doo Institut Za Bezbednost I Humanizaciju Rada, Novi Sad",
+"type_slug": "skola-za-odrasle",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": "Bulevar Oslobođenja 30",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00084",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Udruženje Azbukum - Centar za srpski jezik i kulturu",
+"type_slug": "skola-za-odrasle",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": "Dragiše Brašovana 18",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00085",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Društvo tumača i prevodilaca za znakovni jezik",
+"type_slug": "skola-za-odrasle",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": "Vojvode Putnika 1",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00086",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Srednja Škola 'Sveti Nikola' Novi Sad",
+"type_slug": "skola-za-odrasle",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": "Dečanska 9",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00087",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Agencija Mijailović Društvo Sa Ograničenom Odgovornošću Za Proizvodnju, Promet I Usluge ,Inđija",
+"type_slug": "skola-za-odrasle",
+"town": "Inđija",
+"municipality": "Inđija",
+"address": "Jug Bogdana 125",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00089",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Institut Za Nuklearne Nauke 'Vinča'",
+"type_slug": "skola-za-odrasle",
+"town": "Vinča",
+"municipality": "Beograd",
+"address": "Mike Petrovića-Alasa 12-14",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00090",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Preduzeće Za Proizvodnju Računarske Opreme I Informatički Inženjering Informatika Akcionarsko Društvo Beograd (Stari Grad)",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Stari Grad)",
+"municipality": "Beograd",
+"address": "Jevrejska 32",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00091",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije / Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Institut Za Ekonomsku Diplomatiju Društvo Sa Ograničenom Odgovornošću, Beograd (Zemun)",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Zemun)",
+"municipality": "Beograd",
+"address": "Pregrevica 168",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00092",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Executive School of Economics and Management DOO Beograd-Stari Grad",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Stari Grad)",
+"municipality": "Beograd",
+"address": "Žorža Klemansoa 13",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00093",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Preduzeće Za Dizajn Projektovanje Inženjering Montažu I Održavanje U Telekomunikacijama Konsing Group Doo Beograd (Voždovac)",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Novi Beograd)",
+"municipality": "Beograd",
+"address": "Surčinski Put 1a",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00094",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Preduzeće Za Trening I Konsalting Usluge Centar Za Razvoj Ljudskih Resursa I Menandžment-Mng Centar Doo Beograd (Palilula)",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Palilula)",
+"municipality": "Beograd",
+"address": "Višnjički Venac 27/17",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00095",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Žarko Popović Preduzetnik, Ambulanta Višeg Medicinskog Tehničara Fizioterapeuta Nika, Beograd (Stari Grad)",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Palilula)",
+"municipality": "Beograd",
+"address": "Danka Popovića 4",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00097",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Akcionarsko Društvo Za Kulturu, Obrazovanje, Izdavaštvo I Marketing Đuro Salaj Ad Beograd (Savski Venac)",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Savski Venac)",
+"municipality": "Beograd",
+"address": "Nemanjina 28",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00098",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "EDUFARM DOO Crvenka",
+"type_slug": "skola-za-odrasle",
+"town": "Crvenka",
+"municipality": "Kula",
+"address": "Moše Pijade bb",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00099",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Udruženje profesionalaca za estetiku i očuvanje zdravlja - Estetik Pro",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Palilula)",
+"municipality": "Beograd",
+"address": "Uralska 50",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00100",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Srednjoškolski Obrazovni Centar 'Smartanac'",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Novi Beograd)",
+"municipality": "Beograd",
+"address": "Narodnih Heroja 30",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00101",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Doo Institut Za Preventivu, Zaštitu Na Radu, Protivpožarnu Zaštitu I Razvoj, Novi Sad",
+"type_slug": "skola-za-odrasle",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": "Kraljevića Marka 11",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00103",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Agencija Za Privremeno Zapošljavanje N&M Projekt Doo Kula",
+"type_slug": "skola-za-odrasle",
+"town": "Kula",
+"municipality": "Kula",
+"address": "Dvanaeste Vojvođanske Brigade 37",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00104",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Dot Networks Doo Beograd",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Savski Venac)",
+"municipality": "Beograd",
+"address": "Oblakovska 51",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00107",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije / Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Akademija Za Estetiku I Kozmetiku Doo Beograd (Novi Beograd)",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Novi Beograd)",
+"municipality": "Beograd",
+"address": "Bulevar Arsenija Čarnojevića 98",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00108",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Educare Doo Beograd",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Savski Venac)",
+"municipality": "Beograd",
+"address": "Savska 17",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00111",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Quantox Academy Društvo Sa Ograničenom Odgovornošću Čačak",
+"type_slug": "skola-za-odrasle",
+"town": "Čačak",
+"municipality": "Čačak",
+"address": "Dragomira Minića 22",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00112",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Alexandar Trgovina Na Veliko I Malo Doo Novi Sad",
+"type_slug": "skola-za-odrasle",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": "Cara Dušana 69",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00113",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije / Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Akademija pčelarstva i apiterapije Srbije",
+"type_slug": "skola-za-odrasle",
+"town": "Vrbovno",
+"municipality": "Beograd",
+"address": "Magistralna 200",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00114",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "LINK group DOO, BEOGRAD (ZEMUN)",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Zemun)",
+"municipality": "Beograd",
+"address": "Cara Dušana 34",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00115",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "BridgeTech doo Beograd-Surčin",
+"type_slug": "skola-za-odrasle",
+"town": "Dobanovci",
+"municipality": "Beograd",
+"address": "Janka Čmelika 12a",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00116",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Atelier L.K. Doo Za Trgovinu I Usluge Novi Sad",
+"type_slug": "skola-za-odrasle",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": "Bulevar Oslobođenja 68 B",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00117",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Adaktar Doo Beograd",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Vračar)",
+"municipality": "Beograd",
+"address": "Braničevska 7",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00118",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije / Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Kristina Mlađenović Preduzetnik Ostalo Obrazovanje Orient Edukativni Centar Beograd",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Stari Grad)",
+"municipality": "Beograd",
+"address": "Obilićev Venac 18-20",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00119",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije / Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Anja Anđelić Preduzetnik Frizersko-Kozmetički Salon Estetic Studio By Anja Beograd",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Zvezdara)",
+"municipality": "Beograd",
+"address": "Mirijevski Venac 16 A",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00120",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Nenad Nešić Pr Ambulanta Za Rehabilitaciju Fizionova Beograd(Zemun)",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Zemun)",
+"municipality": "Beograd",
+"address": "Teodora Herlca 16",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00121",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije / Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Essence of Beauty doo Beograd-Novi Beograd",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Novi Beograd)",
+"municipality": "Beograd",
+"address": "Danila Lekića Španca 13",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00122",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Snežana Latić Preduzetnik Radnja Za Negu Lica I Tela Radionica Lepote By Sl Beograd",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Vračar)",
+"municipality": "Beograd",
+"address": "Radoslava Grujića 25",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00123",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Centar Za Prevenciju Doo Novi Sad",
+"type_slug": "skola-za-odrasle",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": "Rakovačka 48/B",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00124",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "PRIVREDNO DRUŠTVO ZA OBRAZOVANJE ODRASLIH MAGNOLIA BEAUTY 2019 d.o.o. Beograd-Palilula",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Palilula)",
+"municipality": "Beograd",
+"address": "Stevana Dukića 15",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00125",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Mina Nastić Permanent Make-Up Doo Beograd",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Novi Beograd)",
+"municipality": "Beograd",
+"address": "Ismeta Mujezinovića 19",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00126",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Srednja Stručna Škola Kragujevac",
+"type_slug": "skola-za-odrasle",
+"town": "Kragujevac",
+"municipality": "Kragujevac",
+"address": "Kosovska 8",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00127",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije / Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Cosmetic International Doo Beograd-Voždovac",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Voždovac)",
+"municipality": "Beograd",
+"address": "Kruševačka 10 A",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00130",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije / Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Sunčica Đorđević Preduzetnik Ostalo Obrazovanje Sunčica 777 Beograd (Zvezdara)",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Zvezdara)",
+"municipality": "Beograd",
+"address": "Ustanička 204 A",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00131",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Elegance Beauty Academy doo Beograd",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Savski Venac)",
+"municipality": "Beograd",
+"address": "Hercegovačka 14b",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00132",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Timočki Klub",
+"type_slug": "skola-za-odrasle",
+"town": "Knjaževac",
+"municipality": "Knjaževac",
+"address": "Trg Oslobođenja 1",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00135",
+"status": "Aktivan",
+"activities": "Karijerno vođenje i savetovanje",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Edukativni centar-Kruševac",
+"type_slug": "skola-za-odrasle",
+"town": "Kruševac",
+"municipality": "Kruševac",
+"address": "Despota Uglješe 8",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00136",
+"status": "Aktivan",
+"activities": "Karijerno vođenje i savetovanje",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Udruženje građana Osveženje",
+"type_slug": "skola-za-odrasle",
+"town": "Pirot",
+"municipality": "Pirot",
+"address": "Bogojavljenska 3",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00137",
+"status": "Aktivan",
+"activities": "Karijerno vođenje i savetovanje",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Mirjana Milošević Pr Usluge I Obuka Šminkanja Kika Media Studio Smederevo",
+"type_slug": "skola-za-odrasle",
+"town": "Smederevo",
+"municipality": "Smederevo",
+"address": "Ivana Gundulića 8",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00138",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "PRIVREDNO DRUŠTVO EYELASH FACTORY DOO BEOGRAD-Novi Beograd",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Novi Beograd)",
+"municipality": "Beograd",
+"address": "Milentija Popovića 5",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00139",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Nevena Milenković Pr Delatnost Frizerskih I Kozmetičkih Salona Sofisty Smederevo",
+"type_slug": "skola-za-odrasle",
+"town": "Smederevo",
+"municipality": "Smederevo",
+"address": "Miloša Velikog 6",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00140",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Centar za omladinski rad",
+"type_slug": "skola-za-odrasle",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": "Svetozara Ćorovića 6",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00141",
+"status": "Aktivan",
+"activities": "Karijerno vođenje i savetovanje",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Wellness Akademija Saruna doo Beograd-Novi Beograd",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Novi Beograd)",
+"municipality": "Beograd",
+"address": "Vladimira Popovića 6 B",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00142",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Fondacija \"SOS Dečija sela Srbija\"",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Zvezdara)",
+"municipality": "Beograd",
+"address": "Bulevar Kralja Aleksandra 251",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00143",
+"status": "Aktivan",
+"activities": "Karijerno vođenje i savetovanje",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Aleksandra Cojić Pr Salon Za Negu I Održavanje Tela I Edukativni Centar Akademija Cojić Kragujevac",
+"type_slug": "skola-za-odrasle",
+"town": "Kragujevac",
+"municipality": "Kragujevac",
+"address": "Kralja Milana Četvrtog 19/B-8",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00144",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije / Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Royal Groom Academy Concept doo Beograd-Zvezdara",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Zvezdara)",
+"municipality": "Beograd",
+"address": "Vojislava Ilića 129",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00145",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Razvojni biznis centar Kragujevac",
+"type_slug": "skola-za-odrasle",
+"town": "Kragujevac",
+"municipality": "Kragujevac",
+"address": "Dragoljuba Milovanovića Bene 25",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00146",
+"status": "Aktivan",
+"activities": "Karijerno vođenje i savetovanje",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Udruženje građana \"BUSINESS INNOVATION PROGRAMS\"",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Zemun)",
+"municipality": "Beograd",
+"address": "Oskara Daviča 32",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00147",
+"status": "Aktivan",
+"activities": "Karijerno vođenje i savetovanje",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Gradska organizacija gluvih Beograda",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Vračar)",
+"municipality": "Beograd",
+"address": "Svetog Save 16-18",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00148",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Preduzeće za profesionalnu rehabilitac – Viline Vode 47",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Palilula)",
+"municipality": "Beograd",
+"address": "Viline Vode 47",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00149",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Medicinsko - Farmaceutska Škola 'Sv. Petka'",
+"type_slug": "skola-za-odrasle",
+"town": "Smederevo",
+"municipality": "Smederevo",
+"address": "Kralja Petra Prvog 12",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00150",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Preduzeće Za Zaštitu Od Požara, Bezbednost I Zdravlje Na Radu Anni-Zaštita Doo Beograd",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Grad)",
+"municipality": "Beograd",
+"address": "Milovana Nićiforovića 80",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00151",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Institut Za Nacionalnu I Međunarodnu Bezbednost",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Zvezdara)",
+"municipality": "Beograd",
+"address": "Vatroslava Jagića 5",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00152",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Udruženje \"Liga 33\"",
+"type_slug": "skola-za-odrasle",
+"town": "Niš",
+"municipality": "Niš",
+"address": "Stanoja Glavaša 10",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00153",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije / Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Biskupijski Karitas Zrenjanin",
+"type_slug": "skola-za-odrasle",
+"town": "Zrenjanin",
+"municipality": "Zrenjanin",
+"address": "Ljubljanska 15",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00154",
+"status": "Aktivan",
+"activities": "Karijerno vođenje i savetovanje",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Udruženje psihologa Novi Pazar",
+"type_slug": "skola-za-odrasle",
+"town": "Novi Pazar",
+"municipality": "Novi Pazar",
+"address": "Mitrovačka bb",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00155",
+"status": "Aktivan",
+"activities": "Karijerno vođenje i savetovanje",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Mirjana Ivić Pr Frizerski Salon Beograd",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Voždovac)",
+"municipality": "Beograd",
+"address": "Mokroluška 124",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00157",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "SMART SCHOOL NEW d.o.o. Novi Sad",
+"type_slug": "skola-za-odrasle",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": "Bulevar Oslobođenja 78",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00158",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Gordana Kostić Preduzetnik Edukativni Centar I Centar Za Masažu Egi Jagodina",
+"type_slug": "skola-za-odrasle",
+"town": "Jagodina",
+"municipality": "Jagodina",
+"address": "Kamenjarska 22",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00159",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Iuliia Minligaleeva Pr Škola Za Strane Jezike Jumi Novi Sad",
+"type_slug": "skola-za-odrasle",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": "Futoška 1a",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00160",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Akademija Konstantin Doo Loznica",
+"type_slug": "skola-za-odrasle",
+"town": "Loznica",
+"municipality": "Loznica",
+"address": "Luke Stevića 8",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00162",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Tamara Tasić Pr Salon Za Negu Kućnih Ljubimaca Zvrk Groom Beograd",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Palilula)",
+"municipality": "Beograd",
+"address": "Takovska 45",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00163",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "HOUSE OF BEAUTY HOB 21 doo Beograd-Zvezdara",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Zvezdara)",
+"municipality": "Beograd",
+"address": "Zahumska 45",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00164",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Assert International doo Beograd-Novi Beograd",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Novi Beograd)",
+"municipality": "Beograd",
+"address": "Bulevar Milutina Milankovića 11 G",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00166",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Društvo Sa Ograničenom Odgovornošću Akademija Filipović Jagodina",
+"type_slug": "skola-za-odrasle",
+"town": "Jagodina",
+"municipality": "Jagodina",
+"address": "Kneza Lazara L 2/Lok. 15 I 16",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00167",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "SOŽE beauty doo Novi Sad",
+"type_slug": "skola-za-odrasle",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": "Radnička 16",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00168",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Eneca",
+"type_slug": "skola-za-odrasle",
+"town": "Niš",
+"municipality": "Niš",
+"address": "Nade Tomić 16/1",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00171",
+"status": "Aktivan",
+"activities": "Karijerno vođenje i savetovanje",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Društvo Sa Ograničenom Odgovornošću Za Proizvodnju I Usluge Bw Conwerting Konjevići",
+"type_slug": "skola-za-odrasle",
+"town": "Konjevići",
+"municipality": "Čačak",
+"address": "Konjevići bb",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00172",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Dijana Karanović Pr Centar Za Jezike I Kulturu Slovo Sonta",
+"type_slug": "skola-za-odrasle",
+"town": "Sonta",
+"municipality": "Apatin",
+"address": "Narodne Odbrane 66",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00173",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Milan Miličić pr ostalo obrazovanje Managemant Training Center Vrbas",
+"type_slug": "skola-za-odrasle",
+"town": "Bačko Dobro Polje",
+"municipality": "Vrbas",
+"address": "Maršala Tita 12",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00174",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Udruženje Svetlost",
+"type_slug": "skola-za-odrasle",
+"town": "Šabac",
+"municipality": "Šabac",
+"address": "Sime Katića 1",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00175",
+"status": "Aktivan",
+"activities": "Karijerno vođenje i savetovanje",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Be You Technology D.O.O. Beograd-Savski Venac",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Savski Venac)",
+"municipality": "Beograd",
+"address": "Dobropoljska 63-65/13-13a",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00176",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Forum of civil action FORCA",
+"type_slug": "skola-za-odrasle",
+"town": "Požega",
+"municipality": "Požega",
+"address": "Karađorđeva 3",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00178",
+"status": "Aktivan",
+"activities": "Karijerno vođenje i savetovanje",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Belgrade Open School",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Voždovac)",
+"municipality": "Beograd",
+"address": "Bulevar Oslobođenja 177",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00179",
+"status": "Aktivan",
+"activities": "Karijerno vođenje i savetovanje",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Power of Communication Institute DOO Beograd",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Vračar)",
+"municipality": "Beograd",
+"address": "Nikolaja Krasnova 6",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00180",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Dodirom Do Zdravlja",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Novi Beograd)",
+"municipality": "Beograd",
+"address": "Dr Ivana Ribara 26",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00181",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "LINK group Professional Education DOO BEOGRAD-ZEMUN",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Zemun)",
+"municipality": "Beograd",
+"address": "Cara Dušana 34",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00182",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Zoran Ignjatović PR Kozmetološko edukativni centar i prodaja kozmetičkih proizvoda Melbi Beograd",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Savski Venac)",
+"municipality": "Beograd",
+"address": "Dobropoljska 65",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00184",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Smartlab 021 Doo Novi Sad",
+"type_slug": "skola-za-odrasle",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": "Železnička 4",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00185",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Code Academy d.o.o. Beograd",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Novi Beograd)",
+"municipality": "Beograd",
+"address": "Savski Nasip 7",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00186",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Društvo Sa Ograničenom Odgovornošću Mind Edukacija Lužnice",
+"type_slug": "skola-za-odrasle",
+"town": "Lužnice",
+"municipality": "Kragujevac",
+"address": "Aleja Milanović bb",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00187",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Profession VET doo Ada",
+"type_slug": "skola-za-odrasle",
+"town": "Ada",
+"municipality": "Ada",
+"address": "Trg Oslobođenja 11",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00188",
+"status": "Aktivan",
+"activities": null,
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "METHODES FRANKLINCOVEY SRB doo Beograd-Savski Venac",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Savski Venac)",
+"municipality": "Beograd",
+"address": "Senjačka 8",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00189",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "FIMS trening d.o.o. Beograd-Čukarica",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Čukarica)",
+"municipality": "Beograd",
+"address": "Jugoslovenska 2",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00190",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Društvo Za Istraživanje, Proizvodnju, Preradu, Distribuciju I Promet Nafte I Naftnih Derivata I Istraživanje I Proizvodnju Prirodnog Gasa Naftna Industrija Srbije A.D. Novi Sad",
+"type_slug": "skola-za-odrasle",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": "Narodnog Fronta 12",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00191",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Milica Lazarević Jekić Pr Edukativni Centar Cvrkutanje Knjaževac",
+"type_slug": "skola-za-odrasle",
+"town": "Knjaževac",
+"municipality": "Knjaževac",
+"address": "Branka Radičevića 14",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00192",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Tlfnet Doo Vrčin",
+"type_slug": "skola-za-odrasle",
+"town": "Vrčin",
+"municipality": "Beograd",
+"address": "Ive Lole Ribara 21",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00194",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "CIKP- Skoplje",
+"type_slug": "skola-za-odrasle",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": "Augusta Cesarca 15",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00195",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Verica Blaško Pr Kozmetički Salon Blaško Academy Beograd",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Palilula)",
+"municipality": "Beograd",
+"address": "Dvadesetsedmog Marta 21",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00196",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Društvo Za Unutrašnji I Spoljno-Trgovinski Promet Inked Planet Doo, Novi Sad",
+"type_slug": "skola-za-odrasle",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": "Futoška 12",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00197",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Honigkaiser Doo Beograd (Zemun)",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Zemun)",
+"municipality": "Beograd",
+"address": "Dragana Rakića 12 V",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00198",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Inicijativa Za Razvoj Romskog Preduzetništva",
+"type_slug": "skola-za-odrasle",
+"town": "Niš (Medijana)",
+"municipality": "Niš",
+"address": "Svetozara Markovića 7",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00199",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije / Karijerno vođenje i savetovanje",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "HBIS GROUP Serbia Iron & Steel d.o.o. Beograd",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Novi Beograd)",
+"municipality": "Beograd",
+"address": "Bulevar Mihajla Pupina 6",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00200",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Petra Distribution Doo Beograd",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Novi Beograd)",
+"municipality": "Beograd",
+"address": "Nedeljka Gvozdenovića 33",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00201",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "CENTAR PLEASURE d.o.o. BEOGRAD-VRAČAR",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Vračar)",
+"municipality": "Beograd",
+"address": "Alekse Nenadovića 15",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00202",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Centar Za Prirodno Podmlađivanje Šargin",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Vračar)",
+"municipality": "Beograd",
+"address": "Maksima Gorkog 28a",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00204",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Pro.Tok21",
+"type_slug": "skola-za-odrasle",
+"town": "Smederevo",
+"municipality": "Smederevo",
+"address": "Despota Đurđa 6",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00205",
+"status": "Aktivan",
+"activities": "Karijerno vođenje i savetovanje",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Dečiji Inovacioni Centar",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Novi Beograd)",
+"municipality": "Beograd",
+"address": "Milutina Milankovića 96",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00206",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Zaštita Na Radu I Zaštita Životne Sredine Beograd Doo Beograd",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Zvezdara)",
+"municipality": "Beograd",
+"address": "Deskaševa 7",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00207",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Tijana Baletić Pr Kozmetički Salon I Edukativni Centar Tina B. Beograd (Novi Beograd)",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Novi Beograd)",
+"municipality": "Beograd",
+"address": "Jurija Gagarina 14l",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00208",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Maja Srdanov Preduzetnik Centar Za Negu Lica I Tela Kneginja Beograd (Vračar)",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Vračar)",
+"municipality": "Beograd",
+"address": "Kneginje Zorke 5",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00209",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Preduzeće Za Trgovinu I Usluge Strada Doo, Beograd (Palilula)",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Palilula)",
+"municipality": "Beograd",
+"address": "Viline Vode 47",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00210",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Academic Inclusive Association",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Zvezdara)",
+"municipality": "Beograd",
+"address": "Dimitrija Tucovića 49",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00211",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Poslovni Savetnik Doo Šabac",
+"type_slug": "skola-za-odrasle",
+"town": "Šabac",
+"municipality": "Šabac",
+"address": "Kneza Lazara 8",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00214",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Visoka Škola Modernog Bisnisa",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Stari Grad)",
+"municipality": "Beograd",
+"address": "Terazije 27/Iv",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00217",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "AKADEMIJA JUST d.o.o. Beograd",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Stari Grad)",
+"municipality": "Beograd",
+"address": "Kneza Mihaila 3",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00218",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Jelena Gajić Pr Edukativni Centar Kult Beograd (Rakovica)",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Rakovica)",
+"municipality": "Beograd",
+"address": "Šumarice 18",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00219",
+"status": "Aktivan",
+"activities": "Obrazovanje odraslih za lični i profesionalni razvoj - obuke koje nisu zasnovane na standardu kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Marina Mirković Pr Kozmetički Salon Studio Lepote Marina M Gornji Milanovac",
+"type_slug": "skola-za-odrasle",
+"town": "Gornji Milanovac",
+"municipality": "Gornji Milanovac",
+"address": "Heroja Draževića 3 g",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00220",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "My Wellness Doo Beograd-Novi Beograd",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Novi Beograd)",
+"municipality": "Beograd",
+"address": "Jurija Gagarina 20a",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00221",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Caritas Aleksinac",
+"type_slug": "skola-za-odrasle",
+"town": "Aleksinac",
+"municipality": "Aleksinac",
+"address": "Tihomira Đorđevića 18",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00222",
+"status": "Aktivan",
+"activities": "Karijerno vođenje i savetovanje",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Sara Zubac pr delatnost nege i održavanja tela SONATA Novo Selo",
+"type_slug": "skola-za-odrasle",
+"town": "Novo Selo",
+"municipality": "Loznica",
+"address": "Maršala Tita 1",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00223",
+"status": "Aktivan",
+"activities": "Neformalno obrazovanje odraslih – obuke za sticanje kvalifikacije i/ili kompetencija u skladu sa standardom kvalifikacije",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Center for Positive Youth Development",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Zemun)",
+"municipality": "Beograd",
+"address": "Marine Koljubajeve 7",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00224",
+"status": "Aktivan",
+"activities": "Karijerno vođenje i savetovanje",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+},
+{
+"name": "Forum mladih sa invaliditetom",
+"type_slug": "skola-za-odrasle",
+"town": "Beograd (Stari Grad)",
+"municipality": "Beograd",
+"address": "Terazije 23",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"kind": "JPOA",
+"jpoa_code": "00225",
+"status": "Aktivan",
+"activities": "Karijerno vođenje i savetovanje",
+"registry": "NOKS registar JPOA, Agencija za kvalifikacije"
+},
+"source_url": "https://noks.azk.gov.rs/pretraga-registara/pretraga-jpoa.html"
+}
+]
+}

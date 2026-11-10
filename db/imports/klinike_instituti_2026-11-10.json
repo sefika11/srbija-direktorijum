@@ -1,0 +1,528 @@
+{
+ "source": {
+  "name": "Uredba o planu mreže zdravstvenih ustanova (tabela teritorijalnog rasporeda), preuzeto sa sajta RFZO; adrese i telefoni sa sajtova ustanova",
+  "url": "https://www.rfzo.rs/dokumenta/Tabela%20%20-%20Uredba%20o%20Planu%20mre%C5%BEe%20zdravstvenih%20ustanova.pdf",
+  "fetched_at": "2026-11-10"
+ },
+ "note": "Tertiary institutions (UKC, KBC, clinics, institutes, VMA) from the official network plan table; address/phone where found on own website. Zavodi (javno zdravlje, urgentna medicina, transfuzija VOJ, etc.) not included except Torlak/transfuzija Srbije rows without contact; some Vojvodina/Nis clinics lack contact data.",
+ "rows": [
+  {
+   "name": "Univerzitetski klinički centar Srbije",
+   "type_slug": "klinika-institut",
+   "town": "Beograd",
+   "municipality": "Beograd",
+   "address": "Pasterova 2",
+   "phones": [
+    "011/3618-444"
+   ],
+   "emails": [],
+   "website": "http://www.kcs.ac.rs",
+   "hours": null,
+   "extra": {
+    "source": "plan mreže (Sl. glasnik RS, uredba o planu mreže zdravstvenih ustanova)"
+   },
+   "source_url": "http://www.kcs.ac.rs"
+  },
+  {
+   "name": "Kliničko-bolnički centar Bežanijska kosa",
+   "type_slug": "klinika-institut",
+   "town": "Beograd",
+   "municipality": "Beograd",
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": "http://www.bkosa.edu.rs",
+   "hours": null,
+   "extra": {
+    "source": "plan mreže (Sl. glasnik RS, uredba o planu mreže zdravstvenih ustanova)"
+   },
+   "source_url": "http://www.bkosa.edu.rs"
+  },
+  {
+   "name": "Kliničko-bolnički centar Dr Dragiša Mišović - Dedinje",
+   "type_slug": "klinika-institut",
+   "town": "Beograd",
+   "municipality": "Beograd",
+   "address": "Heroja Milana Tepića 1",
+   "phones": [
+    "+381 11 3630600"
+   ],
+   "emails": [],
+   "website": "http://www.dragisamisovic.bg.ac.rs",
+   "hours": null,
+   "extra": {
+    "source": "plan mreže (Sl. glasnik RS, uredba o planu mreže zdravstvenih ustanova)"
+   },
+   "source_url": "http://www.dragisamisovic.bg.ac.rs"
+  },
+  {
+   "name": "Kliničko-bolnički centar Zvezdara",
+   "type_slug": "klinika-institut",
+   "town": "Beograd",
+   "municipality": "Beograd",
+   "address": "Dimitrija Tucovića 161",
+   "phones": [
+    "011 3806 969"
+   ],
+   "emails": [],
+   "website": "http://www.kbczvezdara.rs",
+   "hours": null,
+   "extra": {
+    "source": "plan mreže (Sl. glasnik RS, uredba o planu mreže zdravstvenih ustanova)"
+   },
+   "source_url": "http://www.kbczvezdara.rs"
+  },
+  {
+   "name": "Kliničko-bolnički centar Zemun",
+   "type_slug": "klinika-institut",
+   "town": "Beograd",
+   "municipality": "Beograd",
+   "address": null,
+   "phones": [
+    "+381 11 3772 666"
+   ],
+   "emails": [],
+   "website": "http://www.kbczemun.rs",
+   "hours": null,
+   "extra": {
+    "source": "plan mreže (Sl. glasnik RS, uredba o planu mreže zdravstvenih ustanova)"
+   },
+   "source_url": "http://www.kbczemun.rs"
+  },
+  {
+   "name": "Ginekološko-akušerska klinika Narodni front",
+   "type_slug": "klinika-institut",
+   "town": "Beograd",
+   "municipality": "Beograd",
+   "address": null,
+   "phones": [
+    "011 2068 250"
+   ],
+   "emails": [],
+   "website": "http://www.gakfront.org",
+   "hours": null,
+   "extra": {
+    "source": "plan mreže (Sl. glasnik RS, uredba o planu mreže zdravstvenih ustanova)"
+   },
+   "source_url": "http://www.gakfront.org"
+  },
+  {
+   "name": "Klinika za psihijatrijske bolesti Dr Laza Lazarević",
+   "type_slug": "klinika-institut",
+   "town": "Beograd",
+   "municipality": "Beograd",
+   "address": "Višegradska 26",
+   "phones": [
+    "+381.11.36.36.400"
+   ],
+   "emails": [],
+   "website": "http://www.lazalazarevic.rs",
+   "hours": null,
+   "extra": {
+    "source": "plan mreže (Sl. glasnik RS, uredba o planu mreže zdravstvenih ustanova)"
+   },
+   "source_url": "http://www.lazalazarevic.rs"
+  },
+  {
+   "name": "Klinika za rehabilitaciju Dr Miroslav Zotović",
+   "type_slug": "klinika-institut",
+   "town": "Beograd",
+   "municipality": "Beograd",
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "source": "plan mreže (Sl. glasnik RS, uredba o planu mreže zdravstvenih ustanova)"
+   },
+   "source_url": "https://www.rfzo.rs/dokumenta/Tabela%20%20-%20Uredba%20o%20Planu%20mre%C5%BEe%20zdravstvenih%20ustanova.pdf"
+  },
+  {
+   "name": "Klinika za neurologiju i psihijatriju za decu i omladinu",
+   "type_slug": "klinika-institut",
+   "town": "Beograd",
+   "municipality": "Beograd",
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": "https://sites.google.com/site/decijaneuropsihijatrija/",
+   "hours": null,
+   "extra": {
+    "source": "plan mreže (Sl. glasnik RS, uredba o planu mreže zdravstvenih ustanova)"
+   },
+   "source_url": "https://sites.google.com/site/decijaneuropsihijatrija/"
+  },
+  {
+   "name": "Institut za zdravstvenu zaštitu majke i deteta Srbije Dr Vukan Čupić",
+   "type_slug": "klinika-institut",
+   "town": "Beograd",
+   "municipality": "Beograd",
+   "address": "Radoja Dakića 6-8",
+   "phones": [
+    "+381 11 3108 108"
+   ],
+   "emails": [],
+   "website": "http://www.imd.org.rs",
+   "hours": null,
+   "extra": {
+    "source": "plan mreže (Sl. glasnik RS, uredba o planu mreže zdravstvenih ustanova)"
+   },
+   "source_url": "http://www.imd.org.rs"
+  },
+  {
+   "name": "Institut za kardiovaskularne bolesti Dedinje",
+   "type_slug": "klinika-institut",
+   "town": "Beograd",
+   "municipality": "Beograd",
+   "address": "Heroja Milana Tepića 1",
+   "phones": [
+    "+381 11 3601 700"
+   ],
+   "emails": [],
+   "website": "http://www.ikvbd.com",
+   "hours": null,
+   "extra": {
+    "source": "plan mreže (Sl. glasnik RS, uredba o planu mreže zdravstvenih ustanova)"
+   },
+   "source_url": "http://www.ikvbd.com"
+  },
+  {
+   "name": "Institut za mentalno zdravlje",
+   "type_slug": "klinika-institut",
+   "town": "Beograd",
+   "municipality": "Beograd",
+   "address": "Milana Kašanina 3",
+   "phones": [
+    "+381 11 3307 500"
+   ],
+   "emails": [],
+   "website": "http://www.imh.org.rs",
+   "hours": null,
+   "extra": {
+    "source": "plan mreže (Sl. glasnik RS, uredba o planu mreže zdravstvenih ustanova)"
+   },
+   "source_url": "http://www.imh.org.rs"
+  },
+  {
+   "name": "Institut za neonatologiju",
+   "type_slug": "klinika-institut",
+   "town": "Beograd",
+   "municipality": "Beograd",
+   "address": "Bulevar Mihajla Pupina 10k",
+   "phones": [
+    "011 3615 049"
+   ],
+   "emails": [],
+   "website": "http://www.neonatologija.rs",
+   "hours": null,
+   "extra": {
+    "source": "plan mreže (Sl. glasnik RS, uredba o planu mreže zdravstvenih ustanova)"
+   },
+   "source_url": "http://www.neonatologija.rs"
+  },
+  {
+   "name": "Institut za onkologiju i radiologiju Srbije",
+   "type_slug": "klinika-institut",
+   "town": "Beograd",
+   "municipality": "Beograd",
+   "address": "Pasterova 14",
+   "phones": [
+    "011/2067-147"
+   ],
+   "emails": [],
+   "website": "http://www.ncrc.ac.rs",
+   "hours": null,
+   "extra": {
+    "source": "plan mreže (Sl. glasnik RS, uredba o planu mreže zdravstvenih ustanova)"
+   },
+   "source_url": "http://www.ncrc.ac.rs"
+  },
+  {
+   "name": "Institut za ortopediju Banjica",
+   "type_slug": "klinika-institut",
+   "town": "Beograd",
+   "municipality": "Beograd",
+   "address": "Mihaila Avramovića 28",
+   "phones": [
+    "+381 11 66 60 466"
+   ],
+   "emails": [],
+   "website": "http://www.iohbb.edu.rs",
+   "hours": null,
+   "extra": {
+    "source": "plan mreže (Sl. glasnik RS, uredba o planu mreže zdravstvenih ustanova)"
+   },
+   "source_url": "http://www.iohbb.edu.rs"
+  },
+  {
+   "name": "Institut za reumatologiju",
+   "type_slug": "klinika-institut",
+   "town": "Beograd",
+   "municipality": "Beograd",
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": "http://www.reumatologija.org.rs",
+   "hours": null,
+   "extra": {
+    "source": "plan mreže (Sl. glasnik RS, uredba o planu mreže zdravstvenih ustanova)"
+   },
+   "source_url": "http://www.reumatologija.org.rs"
+  },
+  {
+   "name": "Institut za rehabilitaciju",
+   "type_slug": "klinika-institut",
+   "town": "Beograd",
+   "municipality": "Beograd",
+   "address": "Sokobanjska 13",
+   "phones": [
+    "011 2062-500"
+   ],
+   "emails": [],
+   "website": "http://www.rehabilitacija.rs",
+   "hours": null,
+   "extra": {
+    "source": "plan mreže (Sl. glasnik RS, uredba o planu mreže zdravstvenih ustanova)"
+   },
+   "source_url": "http://www.rehabilitacija.rs"
+  },
+  {
+   "name": "Univerzitetska dečja klinika",
+   "type_slug": "klinika-institut",
+   "town": "Beograd",
+   "municipality": "Beograd",
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": "http://www.udk.bg.ac.rs",
+   "hours": null,
+   "extra": {
+    "source": "plan mreže (Sl. glasnik RS, uredba o planu mreže zdravstvenih ustanova)"
+   },
+   "source_url": "http://www.udk.bg.ac.rs"
+  },
+  {
+   "name": "Institut za medicinu rada Srbije Dr Dragomir Karajović",
+   "type_slug": "klinika-institut",
+   "town": "Beograd",
+   "municipality": "Beograd",
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": "http://www.imr-karajovic.org",
+   "hours": null,
+   "extra": {
+    "source": "plan mreže (Sl. glasnik RS, uredba o planu mreže zdravstvenih ustanova)"
+   },
+   "source_url": "http://www.imr-karajovic.org"
+  },
+  {
+   "name": "Institut za virusologiju, vakcine i serume Torlak",
+   "type_slug": "klinika-institut",
+   "town": "Beograd",
+   "municipality": "Beograd",
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "source": "plan mreže (Sl. glasnik RS, uredba o planu mreže zdravstvenih ustanova)"
+   },
+   "source_url": "https://www.rfzo.rs/dokumenta/Tabela%20%20-%20Uredba%20o%20Planu%20mre%C5%BEe%20zdravstvenih%20ustanova.pdf"
+  },
+  {
+   "name": "Institut za transfuziju krvi Srbije",
+   "type_slug": "klinika-institut",
+   "town": "Beograd",
+   "municipality": "Beograd",
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "source": "plan mreže (Sl. glasnik RS, uredba o planu mreže zdravstvenih ustanova)"
+   },
+   "source_url": "https://www.rfzo.rs/dokumenta/Tabela%20%20-%20Uredba%20o%20Planu%20mre%C5%BEe%20zdravstvenih%20ustanova.pdf"
+  },
+  {
+   "name": "Vojnomedicinska akademija",
+   "type_slug": "klinika-institut",
+   "town": "Beograd",
+   "municipality": "Beograd",
+   "address": "Crnotravska 17",
+   "phones": [
+    "011 266 11 22"
+   ],
+   "emails": [],
+   "website": "http://www.vma.mod.gov.rs",
+   "hours": null,
+   "extra": {
+    "source": "plan mreže (Sl. glasnik RS, uredba o planu mreže zdravstvenih ustanova)"
+   },
+   "source_url": "http://www.vma.mod.gov.rs"
+  },
+  {
+   "name": "Univerzitetski klinički centar Kragujevac",
+   "type_slug": "klinika-institut",
+   "town": "Kragujevac",
+   "municipality": "Kragujevac",
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": "http://www.kc-kg.rs",
+   "hours": null,
+   "extra": {
+    "source": "plan mreže (Sl. glasnik RS, uredba o planu mreže zdravstvenih ustanova)"
+   },
+   "source_url": "http://www.kc-kg.rs"
+  },
+  {
+   "name": "Univerzitetski klinički centar Niš",
+   "type_slug": "klinika-institut",
+   "town": "Niš",
+   "municipality": "Niš",
+   "address": "Bulevar dr Zorana Đinđića 48",
+   "phones": [
+    "(018) 506-906"
+   ],
+   "emails": [],
+   "website": "http://www.kcnis.rs",
+   "hours": null,
+   "extra": {
+    "source": "plan mreže (Sl. glasnik RS, uredba o planu mreže zdravstvenih ustanova)"
+   },
+   "source_url": "http://www.kcnis.rs"
+  },
+  {
+   "name": "Univerzitetski klinički centar Vojvodine",
+   "type_slug": "klinika-institut",
+   "town": "Novi Sad",
+   "municipality": "Novi Sad",
+   "address": "Hajduk Veljkova 1",
+   "phones": [
+    "+381 21 484 3484"
+   ],
+   "emails": [],
+   "website": "http://www.kcv.rs",
+   "hours": null,
+   "extra": {
+    "source": "plan mreže (Sl. glasnik RS, uredba o planu mreže zdravstvenih ustanova)"
+   },
+   "source_url": "http://www.kcv.rs"
+  },
+  {
+   "name": "Institut za zdravstvenu zaštitu dece i omladine Vojvodine",
+   "type_slug": "klinika-institut",
+   "town": "Novi Sad",
+   "municipality": "Novi Sad",
+   "address": "Hajduk Veljkova 10",
+   "phones": [
+    "021 4880 444"
+   ],
+   "emails": [],
+   "website": "http://www.izzzdiovns.rs",
+   "hours": null,
+   "extra": {
+    "source": "plan mreže (Sl. glasnik RS, uredba o planu mreže zdravstvenih ustanova)"
+   },
+   "source_url": "http://www.izzzdiovns.rs"
+  },
+  {
+   "name": "Institut za kardiovaskularne bolesti Vojvodine",
+   "type_slug": "klinika-institut",
+   "town": "Sremska Kamenica",
+   "municipality": "Novi Sad",
+   "address": "Put doktora Goldmana 4",
+   "phones": [
+    "+381 21 480 5755"
+   ],
+   "emails": [],
+   "website": "http://www.ikvbv.ns.ac.rs",
+   "hours": null,
+   "extra": {
+    "source": "plan mreže (Sl. glasnik RS, uredba o planu mreže zdravstvenih ustanova)"
+   },
+   "source_url": "http://www.ikvbv.ns.ac.rs"
+  },
+  {
+   "name": "Institut za plućne bolesti Vojvodine",
+   "type_slug": "klinika-institut",
+   "town": "Sremska Kamenica",
+   "municipality": "Novi Sad",
+   "address": "Put doktora Goldmana 4",
+   "phones": [
+    "+381 21 480 5100"
+   ],
+   "emails": [],
+   "website": "http://www.ipb-ild.edu.rs",
+   "hours": null,
+   "extra": {
+    "source": "plan mreže (Sl. glasnik RS, uredba o planu mreže zdravstvenih ustanova)"
+   },
+   "source_url": "http://www.ipb-ild.edu.rs"
+  },
+  {
+   "name": "Institut za onkologiju Vojvodine",
+   "type_slug": "klinika-institut",
+   "town": "Sremska Kamenica",
+   "municipality": "Novi Sad",
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": "http://www.onk.ns.ac.rs",
+   "hours": null,
+   "extra": {
+    "source": "plan mreže (Sl. glasnik RS, uredba o planu mreže zdravstvenih ustanova)"
+   },
+   "source_url": "http://www.onk.ns.ac.rs"
+  },
+  {
+   "name": "Klinika za dentalnu medicinu Vojvodine",
+   "type_slug": "klinika-institut",
+   "town": "Novi Sad",
+   "municipality": "Novi Sad",
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "source": "plan mreže (Sl. glasnik RS, uredba o planu mreže zdravstvenih ustanova)"
+   },
+   "source_url": "https://www.rfzo.rs/dokumenta/Tabela%20%20-%20Uredba%20o%20Planu%20mre%C5%BEe%20zdravstvenih%20ustanova.pdf"
+  },
+  {
+   "name": "Institut za lečenje i rehabilitaciju Niška Banja",
+   "type_slug": "klinika-institut",
+   "town": "Niška Banja",
+   "municipality": "Niš",
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "source": "plan mreže (Sl. glasnik RS, uredba o planu mreže zdravstvenih ustanova)"
+   },
+   "source_url": "https://www.rfzo.rs/dokumenta/Tabela%20%20-%20Uredba%20o%20Planu%20mre%C5%BEe%20zdravstvenih%20ustanova.pdf"
+  },
+  {
+   "name": "Klinika za dentalnu medicinu Niš",
+   "type_slug": "klinika-institut",
+   "town": "Niš",
+   "municipality": "Niš",
+   "address": null,
+   "phones": [],
+   "emails": [],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "source": "plan mreže (Sl. glasnik RS, uredba o planu mreže zdravstvenih ustanova)"
+   },
+   "source_url": "https://www.rfzo.rs/dokumenta/Tabela%20%20-%20Uredba%20o%20Planu%20mre%C5%BEe%20zdravstvenih%20ustanova.pdf"
+  }
+ ]
+}

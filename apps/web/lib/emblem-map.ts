@@ -54,6 +54,8 @@ export const EMBLEM_BY_TYPE: Record<string, string> = {
   "veterinarska-stanica": "vet", veterinar: "vet",
   "dom-za-stare": "elderly-home",
   "telekom-prodavnica": "telecom",
+  // added 2026-11-11 (registry types)
+  "specijalna-bolnica": "hospital", "klinika-institut": "hospital", "muzicka-skola": "school", "dom-ucenika": "university", "skola-za-odrasle": "school", "gerontoloski-centar": "elderly-home", "arhiv": "library", "zavod-za-zastitu-spomenika": "museum", "carinarnica": "tax", "sudski-vestak": "court", "procenitelj-nepokretnosti": "cadastre", "menjacnica": "bank-house", "platna-institucija": "bank-house", "lizing": "bank-house", "penzijski-fond": "pension", "privatna-skola": "school", "agencija-za-zaposljavanje": "employment",
 };
 
 /** Emblem key for an org type: the rendered building when we have one, else the stored icon. */

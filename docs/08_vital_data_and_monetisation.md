@@ -113,3 +113,66 @@ Method: `db/targets/<group>_missing_*.json` (our rows lacking address/phone) →
 - **Health**: see summary file when the agent reports.
 - **Health** (Ministry of Health register page "Zdravstvene ustanove" by okrug + 14 CSR sites): 188 / 352 — domovi zdravlja 58/69, opšte bolnice 93/148, zavodi za javno zdravlje 23/25, centri za socijalni rad 14/110 (no official CSR directory exists; zavodsz.gov.rs map has coordinates only). 42 research institutes that were typed as hospitals retyped to `ustanova`; two mesne zajednice named "…bolnica" retyped. Remaining unmatched: Kosovo institutions and 96 CSRs.
 - **Applied to Neon** (2026-11-10 night): education 1,623 addresses (93 matched rows skipped — organisation had no location row and its municipality name did not resolve), culture 119 seats (121 phones, 119 e-mails, 112 websites), health 186 seats (225 phones, 170 websites). Primary seats still without a street address: osnovne škole 242 (of 1,280), srednje 73 (of 505), predškolske 18, opšte bolnice 15, domovi zdravlja 11, turističke organizacije 20. Phones for schools remain the big gap (registry has none).
+
+## 9. Registry batch of 2026-11-10: 23 new institution types
+
+Brief: `db/targets/NEW_TYPES_BRIEF_2026-11-10.md` (official sources only; a register behind a login or CAPTCHA, or one
+that only answers single-record searches, is recorded as NOT OBTAINED and never replaced by a commercial directory).
+Raw agent files: `db/imports/*_2026-11-10.json` with a `*_summary.md` per group. Types and names:
+`db/seed_patch_021_registry_types.sql`.
+
+Pipeline (repeatable):
+```bash
+python -m importers.jobs.prepare_registry_batch 2026-11-10           # dry run: resolution, duplicates, matches
+python -m importers.jobs.prepare_registry_batch 2026-11-10 --write   # db/imports/clean_<date>/, db/contacts/*, retype list
+python -m importers.jobs.prepare_registry_batch 2026-11-10 --retype  # existing institutions get the more specific type
+python -m importers.jobs.load_orgs_json db/imports/clean_2026-11-10/<file>.json --source <code>
+python -m importers.jobs.apply_contacts db/contacts/<file>_contacts_2026-11-10.json --source institution_site
+```
+
+| Type | Source | Rows loaded |
+|---|---|---|
+| sudski-vestak | Ministry of Justice register of court experts | 6,605 |
+| menjacnica | National Bank of Serbia, exchange locations | 2,993 |
+| medijator | Ministry of Justice register of mediators | 1,042 |
+| hotel | Ministry of Tourism, categorised accommodation (Oct 2026) | 434 |
+| procenitelj-nepokretnosti | Ministry of Finance directory of licensed appraisers | 285 |
+| agencija-za-zaposljavanje | Ministry of Labour, employment and temporary-work agencies | 248 |
+| usluga-socijalne-zastite | Ministry of Labour, licensed social care providers | 237 |
+| stecajni-upravnik | Bankruptcy Supervision Agency directory | 227 |
+| skola-za-odrasle | Qualifications Agency register of adult-education organisers + ministry open data | 182 |
+| carinarnica | Customs Administration (units and working hours; no addresses published) | 151 |
+| revizorska-kuca | Chamber of Authorised Auditors register | 119 |
+| privatna-skola | Ministry of Education open data (private founders) | 98 |
+| privatne visokoškolske (univerzitet / fakultet / visoka-skola) | Ministry of Education open data | 71 new |
+| muzicka-skola | Ministry of Education open data | 54 re-typed + 9 |
+| granicni-prelaz | Customs Administration list of crossings | 63 |
+| gerontoloski-centar | Ministry of Labour list of state homes | 23 re-typed + 11 |
+| arhiv | State Archives of Serbia network | 31 re-typed + 6 |
+| dom-ucenika | Ministry of Education list (June 2024) | 29 re-typed + 6 |
+| specijalna-bolnica | Health network plan (RFZO) + own sites | 22 re-typed + 11 |
+| klinika-institut | Health network plan (RFZO) + own sites | 25 re-typed + 2 |
+| zavod-za-zastitu-spomenika | Republic Institute for the Protection of Monuments | 11 re-typed + 2 |
+| lizing, platna-institucija, penzijski-fond | National Bank of Serbia registers | 12, 11, 4 |
+| privatna-laboratorija | Accreditation Body register (ISO 15189), private only | 10 |
+
+Not obtained (no official public listing): authorised vehicle inspection stations, civil registry offices, design
+firms, moving companies (not a licensed activity), private health institutions (register is search-only), licensed
+travel agencies (register behind a CAPTCHA). Pharmacies were not reloaded: the RFZO list is already imported.
+
+Rules that came out of it:
+- **Natural persons** (experts, mediators, administrators, appraisers): name, town, phone, e-mail and field as the
+  register publishes them; the street address is not republished.
+- **Public institutions are matched before loading.** Same municipality and same normalised name means the existing
+  organisation is re-typed and gets the contacts; it is never inserted twice. Rows that match two existing
+  organisations are skipped (the database already holds a duplicate to clean up).
+- **Private schools are never matched by name** (public schools share the names).
+- Known weak spots: experts' register dates mostly from 2017; pupil dormitory list from 2024; border crossings from
+  the Customs list, not the Interior Ministry's; customs units and crossings in tiny settlements did not resolve to a
+  municipality (25 rows dropped).
+
+Files kept in the repo for this batch: the raw agent files (`db/imports/*_2026-11-10.json`), the cleaned files that were
+actually loaded (`db/imports/clean_2026-11-10/`), the contacts applied to matched institutions (`db/contacts/`) and the
+retype list. Exception: for court experts and property appraisers only the cleaned file is kept, because the raw
+register export carries street addresses of natural persons. Re-running `prepare_registry_batch` after the load needs
+`--before "2026-11-10 18:20+00"` so rows are not matched against their own insert.

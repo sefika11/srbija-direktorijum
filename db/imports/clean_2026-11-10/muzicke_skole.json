@@ -1,0 +1,217 @@
+{
+"source": {
+"name": "Ministarstvo prosvete open data (osnovno + srednje obrazovanje)",
+"url": "https://data.gov.rs/sr/datasets/osnovno-obrazovanje-kontakt-podatsi-osnovni-podatsi/ ; https://data.gov.rs/sr/datasets/srednje-obrazovanje-kontakt-podatsi-osnovni-podatsi/",
+"fetched_at": "2026-11-10"
+},
+"note": "Open data carries no phone/email/website columns, so those are empty. Selected by name (muzička/baletska) among all primary and secondary institutions; one row per distinct street address. Secondary-level music departments inside gymnasia or other schools are not listed.",
+"rows": [
+{
+"name": "Osnovna muzička škola Bujanovac",
+"type_slug": "muzicka-skola",
+"town": "Bujanovac",
+"municipality": "Bujanovac",
+"address": "Karađorđa Petrovića 294",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"ownership": "javna",
+"maticni_broj": "07353596",
+"pib": "100977945",
+"okrug": "Pčinjski Upravni Okrug",
+"work_start": "1988-01-28",
+"registry": "opendata.mpn.gov.rs Osnovno obrazovanje (Kontakt podaci + Podaci o lokacijama i objektima), data.gov.rs",
+"seat": true,
+"level": "osnovna",
+"kind": "muzika"
+},
+"source_url": "https://data.gov.rs/sr/datasets/osnovno-obrazovanje-kontakt-podatsi-osnovni-podatsi/"
+},
+{
+"name": "Osnovna muzička škola \"Predrag Milošević\"",
+"type_slug": "muzicka-skola",
+"town": "Knjaževac",
+"municipality": "Knjaževac",
+"address": "Kej Veljka Vlahovića 19",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"ownership": "javna",
+"maticni_broj": "07303483",
+"pib": "102146206",
+"okrug": "Zaječarski Upravni Okrug",
+"work_start": "1980-11-19",
+"registry": "opendata.mpn.gov.rs Osnovno obrazovanje (Kontakt podaci + Podaci o lokacijama i objektima), data.gov.rs",
+"seat": true,
+"level": "osnovna",
+"kind": "muzika"
+},
+"source_url": "https://data.gov.rs/sr/datasets/osnovno-obrazovanje-kontakt-podatsi-osnovni-podatsi/"
+},
+{
+"name": "Škola za osnovno muzičko obrazovanje i vaspitanje \"Stevan Mokranjac\"",
+"type_slug": "muzicka-skola",
+"town": "Novi Pazar",
+"municipality": "Novi Pazar",
+"address": "Oslobođenja 39",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"ownership": "javna",
+"maticni_broj": "07326211",
+"pib": "102012891",
+"okrug": "Raški Upravni Okrug",
+"work_start": "1983-05-17",
+"registry": "opendata.mpn.gov.rs Osnovno obrazovanje (Kontakt podaci + Podaci o lokacijama i objektima), data.gov.rs",
+"seat": true,
+"level": "osnovna",
+"kind": "muzika"
+},
+"source_url": "https://data.gov.rs/sr/datasets/osnovno-obrazovanje-kontakt-podatsi-osnovni-podatsi/"
+},
+{
+"name": "Osnovna muzička škola \"Dušan Skovran\"",
+"type_slug": "muzicka-skola",
+"town": "Ćuprija",
+"municipality": "Ćuprija",
+"address": "Lole Ribara 1",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"ownership": "javna",
+"maticni_broj": "07166346",
+"pib": "101527351",
+"okrug": "Pomoravski Upravni Okrug",
+"work_start": "1954-04-12",
+"registry": "opendata.mpn.gov.rs Osnovno obrazovanje (Kontakt podaci + Podaci o lokacijama i objektima), data.gov.rs",
+"seat": true,
+"level": "osnovna",
+"kind": "muzika"
+},
+"source_url": "https://data.gov.rs/sr/datasets/osnovno-obrazovanje-kontakt-podatsi-osnovni-podatsi/"
+},
+{
+"name": "Osnovna muzička škola \"Petar Stojanović\"",
+"type_slug": "muzicka-skola",
+"town": "Ub",
+"municipality": "Ub",
+"address": "Kralja Petra 1. Oslobodioca 13",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"ownership": "javna",
+"maticni_broj": "07253834",
+"pib": "101350983",
+"okrug": "Kolubarski Upravni Okrug",
+"work_start": "1977-02-22",
+"registry": "opendata.mpn.gov.rs Osnovno obrazovanje (Kontakt podaci + Podaci o lokacijama i objektima), data.gov.rs",
+"seat": true,
+"level": "osnovna",
+"kind": "muzika"
+},
+"source_url": "https://data.gov.rs/sr/datasets/osnovno-obrazovanje-kontakt-podatsi-osnovni-podatsi/"
+},
+{
+"name": "Osnovna muzička škola \"Petar Konjović\"",
+"type_slug": "muzicka-skola",
+"town": "Bečej",
+"municipality": "Bečej",
+"address": "Glavna 5",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"ownership": "javna",
+"maticni_broj": "08069816",
+"pib": "100742231",
+"okrug": "Južnobački Upravni Okrug",
+"work_start": "1948-10-19",
+"registry": "opendata.mpn.gov.rs Osnovno obrazovanje (Kontakt podaci + Podaci o lokacijama i objektima), data.gov.rs",
+"seat": true,
+"level": "osnovna",
+"kind": "muzika"
+},
+"source_url": "https://data.gov.rs/sr/datasets/osnovno-obrazovanje-kontakt-podatsi-osnovni-podatsi/"
+},
+{
+"name": "Osnovna baletska škola \"Raičević\"",
+"type_slug": "muzicka-skola",
+"town": "Subotica",
+"municipality": "Subotica",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"ownership": "privatna",
+"maticni_broj": "08692777",
+"pib": "100840299",
+"okrug": "Severnobački Upravni Okrug",
+"work_start": "1990-10-15",
+"registry": "opendata.mpn.gov.rs Osnovno obrazovanje (Kontakt podaci + Podaci o lokacijama i objektima), data.gov.rs",
+"seat": true,
+"level": "osnovna",
+"kind": "balet"
+},
+"source_url": "https://data.gov.rs/sr/datasets/osnovno-obrazovanje-kontakt-podatsi-osnovni-podatsi/"
+},
+{
+"name": "Muzička škola",
+"type_slug": "muzicka-skola",
+"town": "Niš",
+"municipality": "Niš",
+"address": "Prvomajska 6",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"ownership": "javna",
+"maticni_broj": "07174624",
+"pib": "100335182",
+"okrug": "Nišavski Upravni Okrug",
+"work_start": "1947-10-10",
+"registry": "opendata.mpn.gov.rs Srednje obrazovanje (Kontakt podaci + Podaci o lokacijama i objektima), data.gov.rs",
+"seat": true,
+"level": "srednja",
+"kind": "muzika"
+},
+"source_url": "https://data.gov.rs/sr/datasets/srednje-obrazovanje-kontakt-podatsi-osnovni-podatsi/"
+},
+{
+"name": "Baletska škola",
+"type_slug": "muzicka-skola",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": "Bulevar Cara Lazara bb",
+"phones": [],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"ownership": "javna",
+"maticni_broj": "08066949",
+"pib": "100239654",
+"okrug": "Južnobački Upravni Okrug",
+"work_start": "1947-12-25",
+"registry": "opendata.mpn.gov.rs Srednje obrazovanje (Kontakt podaci + Podaci o lokacijama i objektima), data.gov.rs",
+"seat": true,
+"level": "srednja",
+"kind": "balet"
+},
+"source_url": "https://data.gov.rs/sr/datasets/srednje-obrazovanje-kontakt-podatsi-osnovni-podatsi/"
+}
+]
+}

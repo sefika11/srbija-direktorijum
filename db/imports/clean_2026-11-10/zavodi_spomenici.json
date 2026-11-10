@@ -1,0 +1,51 @@
+{
+"source": {
+"name": "Republički zavod za zaštitu spomenika kulture - Mreža zavoda u Srbiji (mapa na sajtu zavoda; podaci iz mape)",
+"url": "https://www.heritage.gov.rs/cirilica/mreza_zavoda_u_srbiji.php",
+"fetched_at": "2026-11-10"
+},
+"note": "14 zavoda sa zvanične mape 'Mreža zavoda u Srbiji' (embed Google My Maps na sajtu Republičkog zavoda: naziv, telefoni, veb, e-pošta, lokacija). Adrese ulica nisu na mapi - samo za Republički zavod (sa sajta, Radoslava Grujića 11). 'town' je grad lokacije. Nisu dodati zavodi koji nisu na mapi (npr. posebne službe u okviru muzeja). Zavod Priština-Leposavić je izmešten.",
+"rows": [
+{
+"name": "Zavod za zaštitu spomenika kulture Pančevo",
+"type_slug": "zavod-za-zastitu-spomenika",
+"town": "Pančevo",
+"municipality": "Pančevo",
+"address": null,
+"phones": [
+"013/351-472",
+"013/351-851"
+],
+"emails": [
+"office@zzskpancevo.org",
+"zavod@panet.rs"
+],
+"website": "http://www.zzskpancevo.org",
+"hours": null,
+"extra": {
+"level": "regionalni"
+},
+"source_url": "https://www.heritage.gov.rs/cirilica/mreza_zavoda_u_srbiji.php"
+},
+{
+"name": "Zavod za zaštitu spomenika kulture Novi Sad",
+"type_slug": "zavod-za-zastitu-spomenika",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": null,
+"phones": [
+"021/557-060",
+"021/557-061"
+],
+"emails": [
+"zzskgns@sbb.rs"
+],
+"website": "http://www.zzskgns.rs",
+"hours": null,
+"extra": {
+"level": "gradski"
+},
+"source_url": "https://www.heritage.gov.rs/cirilica/mreza_zavoda_u_srbiji.php"
+}
+]
+}

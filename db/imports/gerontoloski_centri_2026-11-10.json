@@ -1,0 +1,1089 @@
+{
+ "source": {
+  "name": "Ministarstvo za rad, zapošljavanje, boračka i socijalna pitanja - Registar licenci: domski smeštaj odraslih i starijih (državni) i domovi za lica sa intelektualnim/telesnim teškoćama",
+  "url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu",
+  "fetched_at": "2026-11-10"
+ },
+ "note": "NAPOMENA: Uredba o mreži ustanova socijalne zaštite (minrzs.gov.rs arhiva, PDF) nije bila dostupna (HTTP 504 pri tri pokušaja), pa je lista javnih ustanova uzeta iz zvaničnog državnog spiska licenci istog ministarstva (spisak 'domski smeštaj odraslih i starijih - državni' + 'domovi za lica sa intelektualnim teškoćama'). Adrese/telefoni su iz registra, nisu proveravani na sajtovima ustanova. Mnogi redovi se preklapaju sa dom-za-stare datotekom (2026-11-10) - isti entiteti, drugi type_slug. Ne obuhvata sve javne ustanove iz Uredbe (npr. domove za decu/odrasle sa smetnjama van ovog spiska).",
+ "rows": [
+  {
+   "name": "USTANOVA GERONTOLOŠKI CENTAR BEOGRAD",
+   "type_slug": "gerontoloski-centar",
+   "town": "Beograd",
+   "municipality": "Zemun",
+   "address": "Marije Bursać br.49",
+   "phones": [],
+   "emails": [
+    "office@ugcb.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "category": "javna ustanova socijalne zaštite - domski smeštaj odraslih i starijih",
+    "licence_register": "MRZBSP, spisak licenci (državni domovi)",
+    "capacity": "Odrasli i stariji / 1182 korisnika",
+    "founder": null
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "USTANOVA ZA ODRASLE I STARIJE \"LESKOVAC\"",
+   "type_slug": "gerontoloski-centar",
+   "town": "Leskovac",
+   "municipality": null,
+   "address": "Deligradska br. 7",
+   "phones": [
+    "016/215390",
+    "016/251480"
+   ],
+   "emails": [
+    "leskovacgc.ust@minrzs.gov.rs"
+   ],
+   "website": "http://www.gerontoloskileskovac.com/",
+   "hours": null,
+   "extra": {
+    "category": "javna ustanova socijalne zaštite - domski smeštaj odraslih i starijih",
+    "licence_register": "MRZBSP, spisak licenci (državni domovi)",
+    "capacity": "Odrasli i stariji / 180 korisnika",
+    "founder": null
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "GERONTOLOŠKI CENTAR NIŠ",
+   "type_slug": "gerontoloski-centar",
+   "town": "Niš",
+   "municipality": null,
+   "address": "Radnih brigada br.15",
+   "phones": [
+    "018/233-173"
+   ],
+   "emails": [
+    "info@gcnis.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "category": "javna ustanova socijalne zaštite - domski smeštaj odraslih i starijih",
+    "licence_register": "MRZBSP, spisak licenci (državni domovi)",
+    "capacity": "Odrasli i stariji/ 286 korisnika",
+    "founder": null
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "GERONTOLOŠKI CENTAR ''NOVI SAD''",
+   "type_slug": "gerontoloski-centar",
+   "town": "Novi Sad",
+   "municipality": null,
+   "address": "Fruškogorska br.32",
+   "phones": [
+    "021-450-266"
+   ],
+   "emails": [
+    "gerontns@neobee.net"
+   ],
+   "website": "www.gerontns.co.rs",
+   "hours": null,
+   "extra": {
+    "category": "javna ustanova socijalne zaštite - domski smeštaj odraslih i starijih",
+    "licence_register": "MRZBSP, spisak licenci (državni domovi)",
+    "capacity": "Odrasli i stariji/ 868 korisnika",
+    "founder": "AP Vojvodina"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "USTANOVA ZA ODRASLE I STARIJE \"APATIN\"",
+   "type_slug": "gerontoloski-centar",
+   "town": "Apatin",
+   "municipality": null,
+   "address": "Beogradska br. 1",
+   "phones": [
+    "062/773 396"
+   ],
+   "emails": [
+    "apatindsp.ust@minrzs.gov.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "category": "javna ustanova socijalne zaštite - domski smeštaj odraslih i starijih",
+    "licence_register": "MRZBSP, spisak licenci (državni domovi)",
+    "capacity": "Odrasli i stariji/ 185 korisnika",
+    "founder": "Slađana Šušnjar"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "GERONTOLOŠKI CENTAR VRŠAC",
+   "type_slug": "gerontoloski-centar",
+   "town": "Vršac",
+   "municipality": null,
+   "address": "Balkanska bb",
+   "phones": [
+    "013/833 399",
+    "013/833 430"
+   ],
+   "emails": [
+    "gcvrsac.direktor@gmail.com"
+   ],
+   "website": "www.gcvrsac.rs",
+   "hours": null,
+   "extra": {
+    "category": "javna ustanova socijalne zaštite - domski smeštaj odraslih i starijih",
+    "licence_register": "MRZBSP, spisak licenci (državni domovi)",
+    "capacity": "Odrasli i stariji/108 korisnika",
+    "founder": null
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "GERONTOLOŠKI CENTAR KIKINDA",
+   "type_slug": "gerontoloski-centar",
+   "town": "Kikinda",
+   "municipality": null,
+   "address": "Generala Drapšina br.99",
+   "phones": [
+    "0230/434-675"
+   ],
+   "emails": [
+    "kikindagc.ust@minrzs.gov.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "category": "javna ustanova socijalne zaštite - domski smeštaj odraslih i starijih",
+    "licence_register": "MRZBSP, spisak licenci (državni domovi)",
+    "capacity": "Odrasli i stariji/180 korisnika",
+    "founder": "AP Vojvodina"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "GERONTOLOŠKI CENTAR KNJAŽEVAC",
+   "type_slug": "gerontoloski-centar",
+   "town": "Knjaževac",
+   "municipality": null,
+   "address": "Karađorđeva br.55",
+   "phones": [
+    "019/731-635",
+    "019/731-698",
+    "064/875-5705"
+   ],
+   "emails": [
+    "gcknjaz@verat.net"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "category": "javna ustanova socijalne zaštite - domski smeštaj odraslih i starijih",
+    "licence_register": "MRZBSP, spisak licenci (državni domovi)",
+    "capacity": "Odrasli i stariji/220 korisnika",
+    "founder": null
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "GERONTOLOŠKI CENTAR ŠABAC",
+   "type_slug": "gerontoloski-centar",
+   "town": "Šabac",
+   "municipality": "Jelenča",
+   "address": "Mišarskih junaka bb",
+   "phones": [
+    "015/380-871"
+   ],
+   "emails": [
+    "sabacgc@minrzs.gov.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "category": "javna ustanova socijalne zaštite - domski smeštaj odraslih i starijih",
+    "licence_register": "MRZBSP, spisak licenci (državni domovi)",
+    "capacity": "Odrasli i stariji/230 korisnika",
+    "founder": null
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "DOM ZA SMEŠTAJ STARIH LICA SURDULICA",
+   "type_slug": "gerontoloski-centar",
+   "town": "Surdulica",
+   "municipality": null,
+   "address": "Srpskih vladara bb",
+   "phones": [
+    "017/813-853"
+   ],
+   "emails": [
+    "dom.surdulica@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "category": "javna ustanova socijalne zaštite - domski smeštaj odraslih i starijih",
+    "licence_register": "MRZBSP, spisak licenci (državni domovi)",
+    "capacity": "Odrasli i stariji/80 korisnika",
+    "founder": null
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "GERONTOLOŠKI CENTAR KRAGUJEVAC",
+   "type_slug": "gerontoloski-centar",
+   "town": "Kragujevac",
+   "municipality": null,
+   "address": "Kralja Milana IV br.90",
+   "phones": [
+    "034/504-301"
+   ],
+   "emails": [
+    "gerontoloski.kg@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "category": "javna ustanova socijalne zaštite - domski smeštaj odraslih i starijih",
+    "licence_register": "MRZBSP, spisak licenci (državni domovi)",
+    "capacity": "Odrasli i stariji/334 korisnika",
+    "founder": null
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "GERONTOLOŠKI CENTAR ''JELENAC''",
+   "type_slug": "gerontoloski-centar",
+   "town": "Aleksinac",
+   "municipality": null,
+   "address": "Mome Popovića br.156",
+   "phones": [
+    "018/4804-012",
+    "018/4800-176",
+    "018/4845-049"
+   ],
+   "emails": [
+    "gcjelenac@gmail.co"
+   ],
+   "website": "www.gcjelenac.com",
+   "hours": null,
+   "extra": {
+    "category": "javna ustanova socijalne zaštite - domski smeštaj odraslih i starijih",
+    "licence_register": "MRZBSP, spisak licenci (državni domovi)",
+    "capacity": "Odrasli i stariji/120 korisnika",
+    "founder": null
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "GERONTOLOŠKI CENTAR KRUŠEVAC",
+   "type_slug": "gerontoloski-centar",
+   "town": "Kruševac",
+   "municipality": null,
+   "address": "Kosovska br.11",
+   "phones": [
+    "037/420-390"
+   ],
+   "emails": [
+    "krusevacgc.ust@minrzs.gov.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "category": "javna ustanova socijalne zaštite - domski smeštaj odraslih i starijih",
+    "licence_register": "MRZBSP, spisak licenci (državni domovi)",
+    "capacity": "Odrasli i stariji/220 korisnika",
+    "founder": null
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "GERONTOLOŠKI CENTAR JAGODINA",
+   "type_slug": "gerontoloski-centar",
+   "town": "Jagodina",
+   "municipality": null,
+   "address": "Braće Dirak br.44",
+   "phones": [
+    "035/252-012"
+   ],
+   "emails": [
+    "jagodinagc.ust@minrzs.gov.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "category": "javna ustanova socijalne zaštite - domski smeštaj odraslih i starijih",
+    "licence_register": "MRZBSP, spisak licenci (državni domovi)",
+    "capacity": "Odrasli i stariji/270 korisnika",
+    "founder": null
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "GERONTOLOŠKI CENTAR OBRENOVAC",
+   "type_slug": "gerontoloski-centar",
+   "town": "Obrenovac",
+   "municipality": null,
+   "address": "Uzun Mirkova br.12",
+   "phones": [
+    "011/8723-890",
+    "011/8723-151"
+   ],
+   "emails": [
+    "doms@mts.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "category": "javna ustanova socijalne zaštite - domski smeštaj odraslih i starijih",
+    "licence_register": "MRZBSP, spisak licenci (državni domovi)",
+    "capacity": "Odrasli i stariji/340 korisnika korisnika",
+    "founder": null
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "DOM ZA SMEŠTAJ STARIH LICA SMEDEREVO",
+   "type_slug": "gerontoloski-centar",
+   "town": "Smederevo",
+   "municipality": null,
+   "address": "Starca Vujadina br.68",
+   "phones": [
+    "026/4621-645"
+   ],
+   "emails": [
+    "stdom.sd@gmail.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "category": "javna ustanova socijalne zaštite - domski smeštaj odraslih i starijih",
+    "licence_register": "MRZBSP, spisak licenci (državni domovi)",
+    "capacity": "Odrasli i stariji/190 korisnika",
+    "founder": null
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "DOM ZA SMEŠTAJ STARIH LICA DIMITROVGRAD",
+   "type_slug": "gerontoloski-centar",
+   "town": "Dimitrovgrad",
+   "municipality": null,
+   "address": "Ive Andrića br.38",
+   "phones": [
+    "010/361-793"
+   ],
+   "emails": [
+    "dspdmg@yahoo.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "category": "javna ustanova socijalne zaštite - domski smeštaj odraslih i starijih",
+    "licence_register": "MRZBSP, spisak licenci (državni domovi)",
+    "capacity": "Odrasli i stariji/92 korisnika",
+    "founder": null
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA SOCIJALNI RAD ''21. SEPTEMBAR '' KRUPANJ DOMSKO ODELJENJE ZA SMEŠTAJ STARIH LICA I PENZIONERA",
+   "type_slug": "gerontoloski-centar",
+   "town": "Krupanj",
+   "municipality": null,
+   "address": "Vlade Zečevića br. 65",
+   "phones": [
+    "015/75-82-844",
+    "069/3352990"
+   ],
+   "emails": [
+    "krupanjdomzastare@gmail.com",
+    "domzastaralicakrupanj123@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "category": "javna ustanova socijalne zaštite - domski smeštaj odraslih i starijih",
+    "licence_register": "MRZBSP, spisak licenci (državni domovi)",
+    "capacity": "Odrasli i stariji/ 60 korisnika",
+    "founder": null
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "GERONTOLOŠKI CENTAR MATARUŠKA BANJA",
+   "type_slug": "gerontoloski-centar",
+   "town": "Mataruška Banja",
+   "municipality": null,
+   "address": "Dragutina Gvozdenovića br.53",
+   "phones": [
+    "036/5411 -352",
+    "036/5411-813"
+   ],
+   "emails": [
+    "mbanjac.ust@minrzs.gov.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "category": "javna ustanova socijalne zaštite - domski smeštaj odraslih i starijih",
+    "licence_register": "MRZBSP, spisak licenci (državni domovi)",
+    "capacity": "Odrasli i stariji/252 korisnika",
+    "founder": null
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "DOMSKO ODELJENJE ZA SMEŠTAJ STARIH I PENZIONERA ''POŽEGA'', pri CENTRU ZA SOCIJALNI RAD POŽEGA",
+   "type_slug": "gerontoloski-centar",
+   "town": "Požega",
+   "municipality": null,
+   "address": "Bolnička ulica bb",
+   "phones": [
+    "031/3816-474",
+    "031/3816-475",
+    "031/823-135"
+   ],
+   "emails": [
+    "dom@csrpozega.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "category": "javna ustanova socijalne zaštite - domski smeštaj odraslih i starijih",
+    "licence_register": "MRZBSP, spisak licenci (državni domovi)",
+    "capacity": "Odrasli i stariji/50 korisnika",
+    "founder": null
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "USTANOVA ''GERONTOLOŠKI CENTAR'' MLADENOVAC",
+   "type_slug": "gerontoloski-centar",
+   "town": "Mladenovac",
+   "municipality": null,
+   "address": "Filipa Filipovića br.1",
+   "phones": [
+    "011/ 8233-856",
+    "8231-826",
+    "8230-865"
+   ],
+   "emails": [
+    "gcmladenovac@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "category": "javna ustanova socijalne zaštite - domski smeštaj odraslih i starijih",
+    "licence_register": "MRZBSP, spisak licenci (državni domovi)",
+    "capacity": "Odrasli i stariji/ 310 korisnika",
+    "founder": null
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "USTANOVA GERONTOLOŠKI CENTAR KANJIŽA",
+   "type_slug": "gerontoloski-centar",
+   "town": "Kanjiža",
+   "municipality": null,
+   "address": "Aleja Kestenova br.14",
+   "phones": [
+    "024/ 874-279"
+   ],
+   "emails": [
+    "kanjizagc.ust@minrzs.gov.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "category": "javna ustanova socijalne zaštite - domski smeštaj odraslih i starijih",
+    "licence_register": "MRZBSP, spisak licenci (državni domovi)",
+    "capacity": "Odrasli i stariji/ 95 korisnika",
+    "founder": "AP Vojvodina"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "DOM ZA STARE I PENZIONERE KULA",
+   "type_slug": "gerontoloski-centar",
+   "town": "Kula",
+   "municipality": null,
+   "address": "M. Tita br.99",
+   "phones": [
+    "025/728-150"
+   ],
+   "emails": [
+    "dsk.kula@gmail.com"
+   ],
+   "website": "www.domzastarekula.com",
+   "hours": null,
+   "extra": {
+    "category": "javna ustanova socijalne zaštite - domski smeštaj odraslih i starijih",
+    "licence_register": "MRZBSP, spisak licenci (državni domovi)",
+    "capacity": "Odrasli i stariji/ 105 korisnika",
+    "founder": "AP Vojvodina"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "USTANOVA ZA SMEŠTAJ I ZBRINJAVANJE STARIH LICA ''GERONTOLOŠKI CENTAR''",
+   "type_slug": "gerontoloski-centar",
+   "town": "Pančevo",
+   "municipality": null,
+   "address": "Vojvođanski bulevar br.1",
+   "phones": [
+    "013/310-111",
+    "013/331-050"
+   ],
+   "emails": [
+    "gc013@mts.rs"
+   ],
+   "website": "www.gcpancevo.rs",
+   "hours": null,
+   "extra": {
+    "category": "javna ustanova socijalne zaštite - domski smeštaj odraslih i starijih",
+    "licence_register": "MRZBSP, spisak licenci (državni domovi)",
+    "capacity": "Odrasli i stariji/ 251 korisnika",
+    "founder": "AP Vojvodina"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "USTANOVA ZA ODRASLE I STARIJE ''BRUS'' pri CENTRU ZA SOCIJALNI RAD BRUS",
+   "type_slug": "gerontoloski-centar",
+   "town": "Brus",
+   "municipality": null,
+   "address": "Kralja Petra I br.8",
+   "phones": [
+    "037/827-750"
+   ],
+   "emails": [
+    "domskoodeljenjebrus@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "category": "javna ustanova socijalne zaštite - domski smeštaj odraslih i starijih",
+    "licence_register": "MRZBSP, spisak licenci (državni domovi)",
+    "capacity": "Odrasli i stariji/75 korisnika",
+    "founder": null
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "USTANOVA SOCIJALNE ZAŠTITE GERONTOLOŠKI CENTAR ''SOMBOR'' RJ ''DOM PENZIONERA''",
+   "type_slug": "gerontoloski-centar",
+   "town": "Sombor",
+   "municipality": null,
+   "address": "Prvomajski bulevar bb",
+   "phones": [
+    "025/440-540",
+    "025/442-021"
+   ],
+   "emails": [
+    "office@gcsombor.org.rs"
+   ],
+   "website": "www.gcsombor.org.rs",
+   "hours": null,
+   "extra": {
+    "category": "javna ustanova socijalne zaštite - domski smeštaj odraslih i starijih",
+    "licence_register": "MRZBSP, spisak licenci (državni domovi)",
+    "capacity": "Odrasli i stariji/167 korisnika",
+    "founder": "AP Vojvodina"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "GERONTOLOŠKI CENTAR ZRENJANIN",
+   "type_slug": "gerontoloski-centar",
+   "town": "Zrenjanin",
+   "municipality": null,
+   "address": "Principova br.22-26",
+   "phones": [
+    "023/546-150"
+   ],
+   "emails": [
+    "gerontzr@beotel.net"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "category": "javna ustanova socijalne zaštite - domski smeštaj odraslih i starijih",
+    "licence_register": "MRZBSP, spisak licenci (državni domovi)",
+    "capacity": "Odrasli i stariji/319 korisnika",
+    "founder": "AP Vojvodina"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "GERONTOLOŠKI CENTAR ''VRBAS''",
+   "type_slug": "gerontoloski-centar",
+   "town": "Vrbas",
+   "municipality": null,
+   "address": "Maršala Tita",
+   "phones": [
+    "021/706-232",
+    "021 /705-586"
+   ],
+   "emails": [
+    "gcvrbas@sbb.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "category": "javna ustanova socijalne zaštite - domski smeštaj odraslih i starijih",
+    "licence_register": "MRZBSP, spisak licenci (državni domovi)",
+    "capacity": "Odrasli i stariji/36 korisnika",
+    "founder": "AP Vojvodina"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "USTANOVA SOCIJALNE ZAŠTITE GERONTOLOŠKI CENTAR SUBOTICA",
+   "type_slug": "gerontoloski-centar",
+   "town": "Subotica",
+   "municipality": null,
+   "address": "Aleja Maršala Tita",
+   "phones": [
+    "024/644444"
+   ],
+   "emails": [
+    "suboticagerontoloskicentar@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "category": "javna ustanova socijalne zaštite - domski smeštaj odraslih i starijih",
+    "licence_register": "MRZBSP, spisak licenci (državni domovi)",
+    "capacity": "Odrasli i stariji / 71 korisnik",
+    "founder": null
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "GERONTOLOŠKI CENTAR SUBOTICA RJ''DOM ZA NEGU''",
+   "type_slug": "gerontoloski-centar",
+   "town": "Subotica",
+   "municipality": null,
+   "address": "27. Marta",
+   "phones": [
+    "024/644444"
+   ],
+   "emails": [
+    "gerontoc@gcsu.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "category": "javna ustanova socijalne zaštite - domski smeštaj odraslih i starijih",
+    "licence_register": "MRZBSP, spisak licenci (državni domovi)",
+    "capacity": "Odrasli i stariji/172 korisnika",
+    "founder": "AP Vojvodina"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "GERONTOLOŠKI CENTAR SUBOTICA RJ''DOM ZA ODRASLA LICA''",
+   "type_slug": "gerontoloski-centar",
+   "town": "Subotica",
+   "municipality": null,
+   "address": "Čikoš Bele",
+   "phones": [
+    "024/644444"
+   ],
+   "emails": [
+    "gerontoc@gcsu.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "category": "javna ustanova socijalne zaštite - domski smeštaj odraslih i starijih",
+    "licence_register": "MRZBSP, spisak licenci (državni domovi)",
+    "capacity": "Odrasli i stariji/93 korisnika",
+    "founder": "AP Vojvodina"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "DOMSKO ODELJENJE ZA SMEŠTAJ STARIJIH I ODRASLIH ''ZABUČJE'' pri CENTRU ZA SOCIJALNI RAD ''UŽICE''",
+   "type_slug": "gerontoloski-centar",
+   "town": "Užice",
+   "municipality": null,
+   "address": "Zlatiborska bb",
+   "phones": [
+    "031/3522-590",
+    "031/512-340"
+   ],
+   "emails": [
+    "domzastare.ue@mts.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "category": "javna ustanova socijalne zaštite - domski smeštaj odraslih i starijih",
+    "licence_register": "MRZBSP, spisak licenci (državni domovi)",
+    "capacity": "Odrasli i stariji/80 korisnika",
+    "founder": null
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "USTANOVA ZA ODRASLE I STARIJE ''KUČEVO'' pri CENTRU ZA SOCIJALNI RAD za opštinu KUČEVO",
+   "type_slug": "gerontoloski-centar",
+   "town": "Kučevo",
+   "municipality": null,
+   "address": "Braće Ivković bb",
+   "phones": [
+    "012/852-168",
+    "012/852-369",
+    "012/850-999 064"
+   ],
+   "emails": [
+    "csrkucevo@ptt.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "category": "javna ustanova socijalne zaštite - domski smeštaj odraslih i starijih",
+    "licence_register": "MRZBSP, spisak licenci (državni domovi)",
+    "capacity": "Odrasli i stariji/153 korisnika",
+    "founder": null
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "GERONTOLOŠKI CENTAR BAČKA PALANKA",
+   "type_slug": "gerontoloski-centar",
+   "town": "Bačka Palanka",
+   "municipality": null,
+   "address": "Banatska br.4",
+   "phones": [
+    "021/ 6040-423"
+   ],
+   "emails": [
+    "gcbackapalanka@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "category": "javna ustanova socijalne zaštite - domski smeštaj odraslih i starijih",
+    "licence_register": "MRZBSP, spisak licenci (državni domovi)",
+    "capacity": "Odrasli i stariji/ 110 korisnika",
+    "founder": "AP Vojvodina"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "DOMSKO ODELJENJE ZA ODRASLE I STARIJE pri CENTRU ZA SOCIJALNI RAD NOVI PAZAR",
+   "type_slug": "gerontoloski-centar",
+   "town": "Novi Pazar",
+   "municipality": null,
+   "address": "Đurđevi stupovi bb",
+   "phones": [
+    "020/433-500"
+   ],
+   "emails": [
+    "domnp@hotmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "category": "javna ustanova socijalne zaštite - domski smeštaj odraslih i starijih",
+    "licence_register": "MRZBSP, spisak licenci (državni domovi)",
+    "capacity": "Odrasli i stariji/93 korisnika",
+    "founder": null
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "USTANOVA GERONTOLOŠKI CENTAR ''SREM''",
+   "type_slug": "gerontoloski-centar",
+   "town": "Ruma",
+   "municipality": null,
+   "address": "Pavlovačka br. 126",
+   "phones": [
+    "022/472- 699"
+   ],
+   "emails": [
+    "office@gcsrem.co.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "category": "javna ustanova socijalne zaštite - domski smeštaj odraslih i starijih",
+    "licence_register": "MRZBSP, spisak licenci (državni domovi)",
+    "capacity": "Odrasli i stariji/285 korisnika korisnika",
+    "founder": "AP Vojvodina"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "Dom za smeštaj i negu starih lica \"PROKULJE\"",
+   "type_slug": "gerontoloski-centar",
+   "town": "Prokuplje",
+   "municipality": null,
+   "address": "Arsenija Čarnojevića br.51",
+   "phones": [
+    "027/815 01 09",
+    "062/319 661"
+   ],
+   "emails": [
+    "prokupljedsn@minrzs.gov.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "category": "javna ustanova socijalne zaštite - domski smeštaj odraslih i starijih",
+    "licence_register": "MRZBSP, spisak licenci (državni domovi)",
+    "capacity": "Odrasli i stariji/150 korisnika",
+    "founder": null
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "DOM ZA STARE I PENZIONERE MOL",
+   "type_slug": "gerontoloski-centar",
+   "town": "Mol",
+   "municipality": null,
+   "address": "JNA br.105",
+   "phones": [
+    "024/862-157"
+   ],
+   "emails": [
+    "moladadps@minrzs.gov.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "category": "javna ustanova socijalne zaštite - domski smeštaj odraslih i starijih",
+    "licence_register": "MRZBSP, spisak licenci (državni domovi)",
+    "capacity": "Odrasli i stariji/220 korisnika",
+    "founder": "Danijela Šević"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "DOM ZA SMEŠTAJ ODRASLIH I STARIJIH GERONTOLOŠKI CENTAR ''JELENAC''",
+   "type_slug": "gerontoloski-centar",
+   "town": "Aleksinac",
+   "municipality": null,
+   "address": "Momčila Popovića br.156",
+   "phones": [
+    "018/4804-012",
+    "018/4800-176",
+    "063/402-410"
+   ],
+   "emails": [
+    "gcjelenac@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "category": "javna ustanova socijalne zaštite - domski smeštaj odraslih i starijih",
+    "licence_register": "MRZBSP, spisak licenci (državni domovi)",
+    "capacity": "Odrasli i stariji/120 korisnika korisnika",
+    "founder": null
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA SOCIJALNI RAD SA DOMSKIM ODELJENJEM I DNEVNIM CENTROM ZA SMEŠTAJ STARIH I PENZIONERA NOVI KNEŽEVAC",
+   "type_slug": "gerontoloski-centar",
+   "town": "Novi Kneževac",
+   "municipality": null,
+   "address": "Karađorđeva 52-54",
+   "phones": [
+    "0230/386-166",
+    "0230/381-822"
+   ],
+   "emails": [
+    "noviknezevac.csr@minrzs.gov.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "category": "javna ustanova socijalne zaštite - domski smeštaj odraslih i starijih",
+    "licence_register": "MRZBSP, spisak licenci (državni domovi)",
+    "capacity": "Odrasli i stariji/40 korisnika",
+    "founder": null
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA SOCIJALNI RAD LJUBOVIJA USTANOVA ZA ODRASLE I STARIJE ''LJUBOVIJA''",
+   "type_slug": "gerontoloski-centar",
+   "town": "Ljubovija",
+   "municipality": null,
+   "address": "Vojvode Mišića br. 65",
+   "phones": [
+    "015/560-060"
+   ],
+   "emails": [
+    "ljubovija@minrzs.gov.rs"
+   ],
+   "website": "http://czsrljubovija.blogspot.rs/",
+   "hours": null,
+   "extra": {
+    "category": "javna ustanova socijalne zaštite - domski smeštaj lica sa intelektualnim/telesnim teškoćama",
+    "licence_register": "MRZBSP, spisak licenci (državni domovi)",
+    "capacity": "Odrasli i stariji i odrasli i stariji sa intelektualnim i mentalnim poteškoćama/ 50 korisnika",
+    "founder": null
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "ODRASLIH I STARIJIH GERONTOLOŠKI CENTAR VALJEVO",
+   "type_slug": "gerontoloski-centar",
+   "town": "Valjevo",
+   "municipality": null,
+   "address": "Radovana Dragovića br. 2",
+   "phones": [
+    "065/2485-707"
+   ],
+   "emails": [
+    "valjevogc.ust@minrzs.gov.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "category": "javna ustanova socijalne zaštite - domski smeštaj odraslih i starijih",
+    "licence_register": "MRZBSP, spisak licenci (državni domovi)",
+    "capacity": "Odrasli i stariji/100 korisnika",
+    "founder": null
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "DOMSKO ODELJENJE ŠABAC- Domski smeštaj za decu, mlade i odrasle sa intelektualnim teškoćama i teškoćama u komunikaciji pri CENTRU ZA SOCIJALNI RAD ŠABAC",
+   "type_slug": "gerontoloski-centar",
+   "town": "Šabac",
+   "municipality": null,
+   "address": null,
+   "phones": [],
+   "emails": [
+    "csrsa@ptt.rs",
+    "sabac.csr@minrzs.gov.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "category": "javna ustanova socijalne zaštite - domski smeštaj lica sa intelektualnim/telesnim teškoćama",
+    "licence_register": "MRZBSP, spisak licenci (državni domovi)",
+    "capacity": "Deca i mladi i odrasli/40 korisnika",
+    "founder": null
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "DOM ZA SMEŠTAJ ZA LICA SA INTELEKTUALNIM TEŠKOĆAMA ''SRCE U JABUCI''",
+   "type_slug": "gerontoloski-centar",
+   "town": "Jabuka",
+   "municipality": null,
+   "address": "JNA br. 45",
+   "phones": [
+    "013/2624-007",
+    "013/2358-018",
+    "062/404-207"
+   ],
+   "emails": [],
+   "website": "www.srce.org.rs",
+   "hours": null,
+   "extra": {
+    "category": "javna ustanova socijalne zaštite - domski smeštaj lica sa intelektualnim/telesnim teškoćama",
+    "licence_register": "MRZBSP, spisak licenci (državni domovi)",
+    "capacity": "Odrasli i stariji/180 korisnika",
+    "founder": "AP Vojvodina"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "CENTAR ZA SMEŠTAJ I DNEVNI BORAVAK DECE I OMLADINE OMETENE U RAZVOJU BEOGRAD STACIONAR ZA DECU I MLADE SA AUTIZMOM",
+   "type_slug": "gerontoloski-centar",
+   "town": "Beograd",
+   "municipality": "Zemun",
+   "address": "Autoput bb",
+   "phones": [
+    "011/2605-274",
+    "011/2682-278"
+   ],
+   "emails": [
+    "office@centarbgd.org.rs",
+    "stacionar.autizam@centarbgd.org.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "category": "javna ustanova socijalne zaštite - domski smeštaj lica sa intelektualnim/telesnim teškoćama",
+    "licence_register": "MRZBSP, spisak licenci (državni domovi)",
+    "capacity": "Deca i mladi/ 46",
+    "founder": null
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "DOM ZA SMEŠTAJ ODRASLIH LICA",
+   "type_slug": "gerontoloski-centar",
+   "town": "Blace",
+   "municipality": "Trbunje",
+   "address": null,
+   "phones": [
+    "027/370-499"
+   ],
+   "emails": [
+    "domtrbunje@yahoo.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "category": "javna ustanova socijalne zaštite - domski smeštaj lica sa intelektualnim/telesnim teškoćama",
+    "licence_register": "MRZBSP, spisak licenci (državni domovi)",
+    "capacity": "Odrasli i stariji/ 80 korisnika",
+    "founder": null
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "USTANOVA ''DOM ZA ODRASLA INVALIDNA LICA'' BEOGRAD",
+   "type_slug": "gerontoloski-centar",
+   "town": "Beograd",
+   "municipality": null,
+   "address": "Auto put br. 18",
+   "phones": [
+    "011/3193-262"
+   ],
+   "emails": [
+    "domzaosi@gmail.com"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "category": "javna ustanova socijalne zaštite - domski smeštaj lica sa intelektualnim/telesnim teškoćama",
+    "licence_register": "MRZBSP, spisak licenci (državni domovi)",
+    "capacity": "Odrasli i stariji / 80 korisnika",
+    "founder": null
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  },
+  {
+   "name": "DOM ZA SMEŠTAJ DUŠEVNO OBOLELIH LICA ''SVETI VASILIJE OSTROŠKI ČUDOTVORAC''",
+   "type_slug": "gerontoloski-centar",
+   "town": "Novi Bečej",
+   "municipality": null,
+   "address": "Maršala Tita br. 77",
+   "phones": [
+    "023/771 029"
+   ],
+   "emails": [
+    "gcnb@mts.rs"
+   ],
+   "website": null,
+   "hours": null,
+   "extra": {
+    "category": "javna ustanova socijalne zaštite - domski smeštaj lica sa intelektualnim/telesnim teškoćama",
+    "licence_register": "MRZBSP, spisak licenci (državni domovi)",
+    "capacity": "Odrasli i stariji/425 korisnika",
+    "founder": "AP Vojvodina"
+   },
+   "source_url": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+  }
+ ]
+}

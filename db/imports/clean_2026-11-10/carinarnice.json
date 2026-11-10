@@ -1,0 +1,2426 @@
+{
+"source": {
+"name": "Uprava carina Republike Srbije - Radno vreme carinarnica (organizacione jedinice, dokument od 28.10.2026) i Opšte informacije o carinarnicama",
+"url": "https://www.carina.rs/o-nama/carinarnice/carinarnice-opste-informacije.html",
+"fetched_at": "2026-11-10"
+},
+"note": "15 carinarnica (sedišta) + sve carinske ispostave, referati i punktovi iz zvaničnog dokumenta o radnom vremenu (docx na carina.rs). Adrese i telefoni pojedinačnih jedinica NISU objavljeni u listi (stranica 'Kontakti carinarnica' je samo mapa/dinamička i vraća HTTP 500), zato je address=null, phones=[]; 'town' je izveden iz naziva jedinice (za jedinice bez mesta u nazivu - sedište carinarnice ili lokacija terminala). Radno vreme je kako je u dokumentu (pon-pet / sub / ned). Carinarnica Priština i njeni punktovi su administrativni punktovi prema AP KiM. Granične ispostave se preklapaju sa granicni-prelaz datotekom.",
+"rows": [
+{
+"name": "Carinarnica Beograd",
+"type_slug": "carinarnica",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [],
+"emails": [],
+"website": "https://www.carina.rs",
+"hours": "sedište carinarnice radnim danima 07:30-15:30",
+"extra": {
+"kind": "carinarnica",
+"parent": "Uprava carina"
+},
+"source_url": "https://www.carina.rs/o-nama/carinarnice/carinarnice-opste-informacije.html"
+},
+{
+"name": "Carinska ispostava Skladišta",
+"type_slug": "carinarnica",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-20; sub 08-20; ned ne radi",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Beograd"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Luka Beograd",
+"type_slug": "carinarnica",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-20; sub 08-20; ned ne radi",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Beograd"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski referat Savsko pristanište",
+"type_slug": "carinarnica",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 00-24; sub 00-24; ned 00-24",
+"extra": {
+"kind": "carinski referat",
+"parent": "Carinarnica Beograd"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Beograd",
+"type_slug": "carinarnica",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-16; sub ne radi; ned ne radi",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Beograd"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Ostružnica - Beograd",
+"type_slug": "carinarnica",
+"town": "Ostružnica",
+"municipality": "Beograd",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-20; sub 08-20; ned ne radi",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Beograd"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Ranžirna Železnička stanica Makiš",
+"type_slug": "carinarnica",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-20; sub 08-20; ned ne radi",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Beograd"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Terminal II",
+"type_slug": "carinarnica",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-20; sub 08-20; ned ne radi",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Beograd"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Pošta Beograd",
+"type_slug": "carinarnica",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 07:30-19:30; sub 07:30-19:30; ned ne radi",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Beograd"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava za poslove carinskog nadzora - Beograd",
+"type_slug": "carinarnica",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-20; sub 08-20; ned ne radi",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Beograd"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Terminal - Beograd",
+"type_slug": "carinarnica",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-20; sub 08-20; ned ne radi",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Beograd"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Aerodrom Nikola Tesla",
+"type_slug": "carinarnica",
+"town": "Surčin",
+"municipality": "Beograd",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 00-24; sub 00-24; ned 00-24",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Beograd"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Aerodrom Beograd",
+"type_slug": "carinarnica",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "robno carinjenje: pon-pet 08-20; sub 08-20; ned ne radi | carinski nadzor: pon-pet 00-24; sub 00-24; ned 00-24",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Beograd"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava za kurirske pošiljke -DHL",
+"type_slug": "carinarnica",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-20; sub 08-20; ned ne radi",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Beograd"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Pančevo",
+"type_slug": "carinarnica",
+"town": "Pančevo",
+"municipality": "Pančevo",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-20; sub 08-20; ned ne radi",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Beograd"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski referat Intermodalni terminal",
+"type_slug": "carinarnica",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-20; sub 08-20; ned ne radi",
+"extra": {
+"kind": "carinski referat",
+"parent": "Carinarnica Beograd"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinarnica Šabac",
+"type_slug": "carinarnica",
+"town": "Šabac",
+"municipality": "Šabac",
+"address": null,
+"phones": [],
+"emails": [],
+"website": "https://www.carina.rs",
+"hours": "sedište carinarnice radnim danima 07:30-15:30",
+"extra": {
+"kind": "carinarnica",
+"parent": "Uprava carina"
+},
+"source_url": "https://www.carina.rs/o-nama/carinarnice/carinarnice-opste-informacije.html"
+},
+{
+"name": "Carinska ispostava Šabac",
+"type_slug": "carinarnica",
+"town": "Šabac",
+"municipality": "Šabac",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-20; sub 08-20; ned ne radi",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Šabac"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Slobodna zona Šabac",
+"type_slug": "carinarnica",
+"town": "Šabac",
+"municipality": "Šabac",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-20; sub 08-20; ned ne radi",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Šabac"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Sremska Mitrovica",
+"type_slug": "carinarnica",
+"town": "Sremska Mitrovica",
+"municipality": "Sremska Mitrovica",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-20; sub 08-20; ned ne radi",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Šabac"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Sremska Rača",
+"type_slug": "carinarnica",
+"town": "Sremska Rača",
+"municipality": "Sremska Mitrovica",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 00-24; sub 00-24; ned 00-24",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Šabac"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Valjevo",
+"type_slug": "carinarnica",
+"town": "Valjevo",
+"municipality": "Valjevo",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-20; sub 08-20; ned ne radi",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Šabac"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Mali Zvornik",
+"type_slug": "carinarnica",
+"town": "Mali Zvornik",
+"municipality": "Mali Zvornik",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 00-24; sub 00-24; ned 00-24",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Šabac"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Badovinci",
+"type_slug": "carinarnica",
+"town": "Badovinci",
+"municipality": "Bogatić",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 00-24; sub 00-24; ned 00-24",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Šabac"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Ljubovija",
+"type_slug": "carinarnica",
+"town": "Ljubovija",
+"municipality": "Ljubovija",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 00-24; sub 00-24; ned 00-24",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Šabac"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinarnica Kladovo",
+"type_slug": "carinarnica",
+"town": "Kladovo",
+"municipality": "Kladovo",
+"address": null,
+"phones": [],
+"emails": [],
+"website": "https://www.carina.rs",
+"hours": "sedište carinarnice radnim danima 07:30-15:30",
+"extra": {
+"kind": "carinarnica",
+"parent": "Uprava carina"
+},
+"source_url": "https://www.carina.rs/o-nama/carinarnice/carinarnice-opste-informacije.html"
+},
+{
+"name": "Carinska ispostava Prahovo",
+"type_slug": "carinarnica",
+"town": "Prahovo",
+"municipality": "Negotin",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "robno carinjenje: pon-pet 08-16; sub 08-16; ned ne radi | carinski nadzor: pon-pet 00-24; sub 00-24; ned 00-24",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Kladovo"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Mokranje",
+"type_slug": "carinarnica",
+"town": "Mokranje",
+"municipality": "Negotin",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 00-24; sub 00-24; ned 00-24",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Kladovo"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Veliko Gradište",
+"type_slug": "carinarnica",
+"town": "Veliko Gradište",
+"municipality": "Veliko Gradište",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "robno carinjenje: pon-pet 08-16; sub ne radi; ned ne radi | carinski nadzor: pon-pet 00-24; sub 00-24; ned 00-24",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Kladovo"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Bor",
+"type_slug": "carinarnica",
+"town": "Bor",
+"municipality": "Bor",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-16; sub ne radi; ned ne radi",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Kladovo"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski referat Majdanpek",
+"type_slug": "carinarnica",
+"town": "Majdanpek",
+"municipality": "Majdanpek",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-16; sub ne radi; ned ne radi",
+"extra": {
+"kind": "carinski referat",
+"parent": "Carinarnica Kladovo"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski referat Zaječar",
+"type_slug": "carinarnica",
+"town": "Zaječar",
+"municipality": "Zaječar",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-16; sub ne radi; ned ne radi",
+"extra": {
+"kind": "carinski referat",
+"parent": "Carinarnica Kladovo"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski referat Donji Milanovac",
+"type_slug": "carinarnica",
+"town": "Donji Milanovac",
+"municipality": "Majdanpek",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 07-19; sub 07-19; ned 07-19",
+"extra": {
+"kind": "carinski referat",
+"parent": "Carinarnica Kladovo"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinarnica Dimitrovgrad",
+"type_slug": "carinarnica",
+"town": "Dimitrovgrad",
+"municipality": "Dimitrovgrad",
+"address": null,
+"phones": [],
+"emails": [],
+"website": "https://www.carina.rs",
+"hours": "sedište carinarnice radnim danima 07:30-15:30",
+"extra": {
+"kind": "carinarnica",
+"parent": "Uprava carina"
+},
+"source_url": "https://www.carina.rs/o-nama/carinarnice/carinarnice-opste-informacije.html"
+},
+{
+"name": "Carinska ispostava železnička stanica Dimitrovgrad",
+"type_slug": "carinarnica",
+"town": "Dimitrovgrad",
+"municipality": "Dimitrovgrad",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "robno carinjenje: pon-pet 07:30-15-30; sub pasivno dežurstvo; ned ne radi | carinski nadzor: pon-pet 00-24; sub 00-24; ned 00-24",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Dimitrovgrad"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski referat Pirot",
+"type_slug": "carinarnica",
+"town": "Pirot",
+"municipality": "Pirot",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-16; sub ne radi; ned ne radi",
+"extra": {
+"kind": "carinski referat",
+"parent": "Carinarnica Dimitrovgrad"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Slobodna zona Pirot",
+"type_slug": "carinarnica",
+"town": "Pirot",
+"municipality": "Pirot",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-20; sub 08-20; ned pasivno dežurstvo",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Dimitrovgrad"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinarnica Kraljevo",
+"type_slug": "carinarnica",
+"town": "Kraljevo",
+"municipality": "Kraljevo",
+"address": null,
+"phones": [],
+"emails": [],
+"website": "https://www.carina.rs",
+"hours": "sedište carinarnice radnim danima 07:30-15:30",
+"extra": {
+"kind": "carinarnica",
+"parent": "Uprava carina"
+},
+"source_url": "https://www.carina.rs/o-nama/carinarnice/carinarnice-opste-informacije.html"
+},
+{
+"name": "Carinska ispostava Kraljevo",
+"type_slug": "carinarnica",
+"town": "Kraljevo",
+"municipality": "Kraljevo",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 09-17; sub 09-17; ned ne radi",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Kraljevo"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Čačak",
+"type_slug": "carinarnica",
+"town": "Čačak",
+"municipality": "Čačak",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-20; sub 08-20; ned ne radi",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Kraljevo"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Gornji Milanovac",
+"type_slug": "carinarnica",
+"town": "Gornji Milanovac",
+"municipality": "Gornji Milanovac",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 09-17; sub 08-16; ned ne radi",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Kraljevo"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski referat Aerodrom Morava",
+"type_slug": "carinarnica",
+"town": "Lađevci",
+"municipality": "Kraljevo",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "u skladu sa naredbom Direktorata civilnog vazduhoplovstva RS o vremenu otvorenosti aerodroma za odvijanje vazdušnog saobraćaja",
+"extra": {
+"kind": "carinski referat",
+"parent": "Carinarnica Kraljevo"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski referat Raška",
+"type_slug": "carinarnica",
+"town": "Raška",
+"municipality": "Raška",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-16; sub 08-16; ned ne radi",
+"extra": {
+"kind": "carinski referat",
+"parent": "Carinarnica Kraljevo"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski referat Novi Pazar",
+"type_slug": "carinarnica",
+"town": "Novi Pazar",
+"municipality": "Novi Pazar",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-16; sub 08-16; ned ne radi",
+"extra": {
+"kind": "carinski referat",
+"parent": "Carinarnica Kraljevo"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Špiljani",
+"type_slug": "carinarnica",
+"town": "Špiljani",
+"municipality": "Tutin",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 00-24; sub 00-24; ned 00-24",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Kraljevo"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski referat Tutin",
+"type_slug": "carinarnica",
+"town": "Tutin",
+"municipality": "Tutin",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-16; sub ne radi; ned ne radi",
+"extra": {
+"kind": "carinski referat",
+"parent": "Carinarnica Kraljevo"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinarnica Kruševac",
+"type_slug": "carinarnica",
+"town": "Kruševac",
+"municipality": "Kruševac",
+"address": null,
+"phones": [],
+"emails": [],
+"website": "https://www.carina.rs",
+"hours": "sedište carinarnice radnim danima 07:30-15:30",
+"extra": {
+"kind": "carinarnica",
+"parent": "Uprava carina"
+},
+"source_url": "https://www.carina.rs/o-nama/carinarnice/carinarnice-opste-informacije.html"
+},
+{
+"name": "Carinska ispostava Kruševac",
+"type_slug": "carinarnica",
+"town": "Kruševac",
+"municipality": "Kruševac",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-20; sub 08-20; ned ne radi",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Kruševac"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski referat Slobodna zona Kruševac",
+"type_slug": "carinarnica",
+"town": "Kruševac",
+"municipality": "Kruševac",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-16; sub ne radi; ned ne radi",
+"extra": {
+"kind": "carinski referat",
+"parent": "Carinarnica Kruševac"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski referat Paraćin",
+"type_slug": "carinarnica",
+"town": "Paraćin",
+"municipality": "Paraćin",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-20; sub ne radi; ned ne radi",
+"extra": {
+"kind": "carinski referat",
+"parent": "Carinarnica Kruševac"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski referat Trstenik",
+"type_slug": "carinarnica",
+"town": "Trstenik",
+"municipality": "Trstenik",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-16; sub ne radi; ned ne radi",
+"extra": {
+"kind": "carinski referat",
+"parent": "Carinarnica Kruševac"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinarnica Užice",
+"type_slug": "carinarnica",
+"town": "Užice",
+"municipality": "Užice",
+"address": null,
+"phones": [],
+"emails": [],
+"website": "https://www.carina.rs",
+"hours": "sedište carinarnice radnim danima 07:30-15:30",
+"extra": {
+"kind": "carinarnica",
+"parent": "Uprava carina"
+},
+"source_url": "https://www.carina.rs/o-nama/carinarnice/carinarnice-opste-informacije.html"
+},
+{
+"name": "Carinska ispostava Užice",
+"type_slug": "carinarnica",
+"town": "Užice",
+"municipality": "Užice",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-16; sub 08-16; ned ne radi",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Užice"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski referat Slobodna zona Užice",
+"type_slug": "carinarnica",
+"town": "Užice",
+"municipality": "Užice",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-16; sub 08-16; ned ne radi",
+"extra": {
+"kind": "carinski referat",
+"parent": "Carinarnica Užice"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski referat Požega",
+"type_slug": "carinarnica",
+"town": "Požega",
+"municipality": "Požega",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 09-17; sub 09-17; ned ne radi",
+"extra": {
+"kind": "carinski referat",
+"parent": "Carinarnica Užice"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski referat Prijepolje",
+"type_slug": "carinarnica",
+"town": "Prijepolje",
+"municipality": "Prijepolje",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-16; sub 08-16; ned ne radi",
+"extra": {
+"kind": "carinski referat",
+"parent": "Carinarnica Užice"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski referat Slobodna zona Priboj",
+"type_slug": "carinarnica",
+"town": "Priboj",
+"municipality": "Priboj",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 09-17; sub 09-17; ned ne radi",
+"extra": {
+"kind": "carinski referat",
+"parent": "Carinarnica Užice"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Gostun",
+"type_slug": "carinarnica",
+"town": "Gostun",
+"municipality": "Prijepolje",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 00-24; sub 00-24; ned 00-24",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Užice"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski referat Bajina Bašta",
+"type_slug": "carinarnica",
+"town": "Bajina Bašta",
+"municipality": "Bajina Bašta",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 00-24; sub 00-24; ned 00-24",
+"extra": {
+"kind": "carinski referat",
+"parent": "Carinarnica Užice"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Kotroman",
+"type_slug": "carinarnica",
+"town": "Kotroman",
+"municipality": "Užice",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 00-24; sub 00-24; ned 00-24",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Užice"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Uvac",
+"type_slug": "carinarnica",
+"town": "Uvac",
+"municipality": "Sjenica",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 00-24; sub 00-24; ned 00-24",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Užice"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinarnica Niš",
+"type_slug": "carinarnica",
+"town": "Niš",
+"municipality": "Niš",
+"address": null,
+"phones": [],
+"emails": [],
+"website": "https://www.carina.rs",
+"hours": "sedište carinarnice radnim danima 07:30-15:30",
+"extra": {
+"kind": "carinarnica",
+"parent": "Uprava carina"
+},
+"source_url": "https://www.carina.rs/o-nama/carinarnice/carinarnice-opste-informacije.html"
+},
+{
+"name": "Carinska ispostava Železnička stanica Niš",
+"type_slug": "carinarnica",
+"town": "Niš",
+"municipality": "Niš",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-20; sub 08-20; ned ne radi",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Niš"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski referat Pošta Niš",
+"type_slug": "carinarnica",
+"town": "Niš",
+"municipality": "Niš",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 07:30-19:30; sub 07:30-19:30; ned ne radi",
+"extra": {
+"kind": "carinski referat",
+"parent": "Carinarnica Niš"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Terminal Niš",
+"type_slug": "carinarnica",
+"town": "Niš",
+"municipality": "Niš",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-20; sub 08-20; ned ne radi",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Niš"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski referat Duvanska Niš",
+"type_slug": "carinarnica",
+"town": "Niš",
+"municipality": "Niš",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-20; sub 08-20; ned ne radi",
+"extra": {
+"kind": "carinski referat",
+"parent": "Carinarnica Niš"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski referat Knjaževac",
+"type_slug": "carinarnica",
+"town": "Knjaževac",
+"municipality": "Knjaževac",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-16; sub ne radi; ned ne radi",
+"extra": {
+"kind": "carinski referat",
+"parent": "Carinarnica Niš"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Vranje",
+"type_slug": "carinarnica",
+"town": "Vranje",
+"municipality": "Vranje",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-20; sub 08-20; ned 08-20",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Niš"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Leskovac",
+"type_slug": "carinarnica",
+"town": "Leskovac",
+"municipality": "Leskovac",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-20; sub 08-20; ned ne radi",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Niš"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Prokuplje",
+"type_slug": "carinarnica",
+"town": "Prokuplje",
+"municipality": "Prokuplje",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-20; sub 08-20; ned ne radi",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Niš"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski referat Strezimirovci",
+"type_slug": "carinarnica",
+"town": "Strezimirovci",
+"municipality": "Surdulica",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 00-24; sub 00-24; ned 00-24",
+"extra": {
+"kind": "carinski referat",
+"parent": "Carinarnica Niš"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski referat Ribarci",
+"type_slug": "carinarnica",
+"town": "Ribarci",
+"municipality": "Bosilegrad",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 00-24; sub 00-24; ned 00-24",
+"extra": {
+"kind": "carinski referat",
+"parent": "Carinarnica Niš"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Preševo",
+"type_slug": "carinarnica",
+"town": "Preševo",
+"municipality": "Preševo",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 00-24; sub 00-24; ned 00-24",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Niš"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski referat Železnička stanica Ristovac",
+"type_slug": "carinarnica",
+"town": "Ristovac",
+"municipality": "Vranje",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 00-24; sub 00-24; ned 00-24",
+"extra": {
+"kind": "carinski referat",
+"parent": "Carinarnica Niš"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Aerodrom \"Konstantin Veliki\"",
+"type_slug": "carinarnica",
+"town": "Niš",
+"municipality": "Niš",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "u skladu sa naredbom Direktorata civilnog vazduhoplovstva RS o vremenu otvorenosti aerodroma za odvijanje vazdušnog saobraćaja",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Niš"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Terminal-Preševo",
+"type_slug": "carinarnica",
+"town": "Preševo",
+"municipality": "Preševo",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "privremeno ne radi- poslove preuzela Carinska ispostava Vranje",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Niš"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinarnica Kragujevac",
+"type_slug": "carinarnica",
+"town": "Kragujevac",
+"municipality": "Kragujevac",
+"address": null,
+"phones": [],
+"emails": [],
+"website": "https://www.carina.rs",
+"hours": "sedište carinarnice radnim danima 07:30-15:30",
+"extra": {
+"kind": "carinarnica",
+"parent": "Uprava carina"
+},
+"source_url": "https://www.carina.rs/o-nama/carinarnice/carinarnice-opste-informacije.html"
+},
+{
+"name": "Carinski referat Železnička stanica Kragujevac",
+"type_slug": "carinarnica",
+"town": "Kragujevac",
+"municipality": "Kragujevac",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-20; sub ne radi; ned ne radi",
+"extra": {
+"kind": "carinski referat",
+"parent": "Carinarnica Kragujevac"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski referat Slobodna zona Kragujevac",
+"type_slug": "carinarnica",
+"town": "Kragujevac",
+"municipality": "Kragujevac",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-22; sub 08-16; ned ne radi",
+"extra": {
+"kind": "carinski referat",
+"parent": "Carinarnica Kragujevac"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Kragujevac",
+"type_slug": "carinarnica",
+"town": "Kragujevac",
+"municipality": "Kragujevac",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-20; sub 10-18; ned ne radi",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Kragujevac"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski referat Lapovo",
+"type_slug": "carinarnica",
+"town": "Lapovo",
+"municipality": "Lapovo",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 09-17; sub 09-17; ned ne radi",
+"extra": {
+"kind": "carinski referat",
+"parent": "Carinarnica Kragujevac"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski referat Jagodina",
+"type_slug": "carinarnica",
+"town": "Jagodina",
+"municipality": "Jagodina",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-20; sub 08-16; ned ne radi",
+"extra": {
+"kind": "carinski referat",
+"parent": "Carinarnica Kragujevac"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski referat Aranđelovac",
+"type_slug": "carinarnica",
+"town": "Aranđelovac",
+"municipality": "Aranđelovac",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-16; sub 08-16; ned ne radi",
+"extra": {
+"kind": "carinski referat",
+"parent": "Carinarnica Kragujevac"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski referat Mladenovac",
+"type_slug": "carinarnica",
+"town": "Mladenovac",
+"municipality": "Beograd",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 09-17; sub 09-17; ned ne radi",
+"extra": {
+"kind": "carinski referat",
+"parent": "Carinarnica Kragujevac"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski referat Požarevac",
+"type_slug": "carinarnica",
+"town": "Požarevac",
+"municipality": "Požarevac",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-16; sub ne radi; ned ne radi",
+"extra": {
+"kind": "carinski referat",
+"parent": "Carinarnica Kragujevac"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Smederevo",
+"type_slug": "carinarnica",
+"town": "Smederevo",
+"municipality": "Smederevo",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-17; sub 08-16; ned ne radi",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Kragujevac"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski referat za metalsku industriju - Železara",
+"type_slug": "carinarnica",
+"town": "Smederevo",
+"municipality": "Smederevo",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-20; sub 08-20; ned ne radi",
+"extra": {
+"kind": "carinski referat",
+"parent": "Carinarnica Kragujevac"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski referat Smederevska Palanka",
+"type_slug": "carinarnica",
+"town": "Smederevska Palanka",
+"municipality": "Smederevska Palanka",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-16; sub ne radi; ned ne radi",
+"extra": {
+"kind": "carinski referat",
+"parent": "Carinarnica Kragujevac"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski referat Slobodna zona Smederevo",
+"type_slug": "carinarnica",
+"town": "Smederevo",
+"municipality": "Smederevo",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-22; sub 08-16; ned ne radi",
+"extra": {
+"kind": "carinski referat",
+"parent": "Carinarnica Kragujevac"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski referat Velika Plana",
+"type_slug": "carinarnica",
+"town": "Velika Plana",
+"municipality": "Velika Plana",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-16; sub ne radi; ned ne radi",
+"extra": {
+"kind": "carinski referat",
+"parent": "Carinarnica Kragujevac"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski referat Svilajnac",
+"type_slug": "carinarnica",
+"town": "Svilajnac",
+"municipality": "Svilajnac",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 09-17; sub ne radi; ned ne radi",
+"extra": {
+"kind": "carinski referat",
+"parent": "Carinarnica Kragujevac"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinarnica Novi Sad",
+"type_slug": "carinarnica",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": null,
+"phones": [],
+"emails": [],
+"website": "https://www.carina.rs",
+"hours": "sedište carinarnice radnim danima 07:30-15:30",
+"extra": {
+"kind": "carinarnica",
+"parent": "Uprava carina"
+},
+"source_url": "https://www.carina.rs/o-nama/carinarnice/carinarnice-opste-informacije.html"
+},
+{
+"name": "Carinska ispostava za poslove carinskog nadzora – Novi Sad",
+"type_slug": "carinarnica",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-20; sub 08-20; ned ne radi",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Novi Sad"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Slobodna zona Novi Sad",
+"type_slug": "carinarnica",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "Sedište referata: pon-pet 08-16; sub ne radi; ned ne radi | Rafinerija i ,,Lear corporation“: pon-pet 08-20; sub 08-20; ned ne radi",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Novi Sad"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Luka i skladišta Novi Sad",
+"type_slug": "carinarnica",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-20; sub 08-20; ned ne radi",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Novi Sad"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski referat za rečni saobraćaj Novi Sad",
+"type_slug": "carinarnica",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "izlazak carinskih službenika po pozivu",
+"extra": {
+"kind": "carinski referat",
+"parent": "Carinarnica Novi Sad"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski referat Novi Sad",
+"type_slug": "carinarnica",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-16; sub ne radi; ned ne radi",
+"extra": {
+"kind": "carinski referat",
+"parent": "Carinarnica Novi Sad"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Ranžirna Železnička stanica Novi Sad",
+"type_slug": "carinarnica",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-20; sub 08-20; ned ne radi",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Novi Sad"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski referat Pošta Novi Sad",
+"type_slug": "carinarnica",
+"town": "Novi Sad",
+"municipality": "Novi Sad",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 07:30-19:30; sub 07:30-19:30; ned ne radi",
+"extra": {
+"kind": "carinski referat",
+"parent": "Carinarnica Novi Sad"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Bačka Palanka",
+"type_slug": "carinarnica",
+"town": "Bačka Palanka",
+"municipality": "Bačka Palanka",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-20; sub 08-20; ned ne radi",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Novi Sad"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Most Bačka Palanka",
+"type_slug": "carinarnica",
+"town": "Bačka Palanka",
+"municipality": "Bačka Palanka",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 00-24; sub 00-24; ned 00-24",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Novi Sad"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski referat Neštin",
+"type_slug": "carinarnica",
+"town": "Neštin",
+"municipality": "Bačka Palanka",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 00-24; sub 00-24; ned 00-24",
+"extra": {
+"kind": "carinski referat",
+"parent": "Carinarnica Novi Sad"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski referat Vrbas",
+"type_slug": "carinarnica",
+"town": "Vrbas",
+"municipality": "Vrbas",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-16; sub ne radi; ned ne radi",
+"extra": {
+"kind": "carinski referat",
+"parent": "Carinarnica Novi Sad"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Batrovci",
+"type_slug": "carinarnica",
+"town": "Batrovci",
+"municipality": "Šid",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 00-24; sub 00-24; ned 00-24",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Novi Sad"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Železnička stanica Šid",
+"type_slug": "carinarnica",
+"town": "Šid",
+"municipality": "Šid",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "putnički: pon-pet 00-24; sub 00-24; ned 00-24 | robno carinjenje: pon-pet 08-20; sub 08-20; ned ne radi",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Novi Sad"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Inđija",
+"type_slug": "carinarnica",
+"town": "Inđija",
+"municipality": "Inđija",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-20; sub 08-20; ned ne radi",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Novi Sad"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski referat Bečej",
+"type_slug": "carinarnica",
+"town": "Bečej",
+"municipality": "Bečej",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-16; sub ne radi; ned ne radi",
+"extra": {
+"kind": "carinski referat",
+"parent": "Carinarnica Novi Sad"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Šid",
+"type_slug": "carinarnica",
+"town": "Šid",
+"municipality": "Šid",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 00-24; sub 00-24; ned 00-24",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Novi Sad"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski referat Sot",
+"type_slug": "carinarnica",
+"town": "Sot",
+"municipality": "Šid",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 00-24; sub 00-24; ned 00-24",
+"extra": {
+"kind": "carinski referat",
+"parent": "Carinarnica Novi Sad"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski referat Ljuba",
+"type_slug": "carinarnica",
+"town": "Ljuba",
+"municipality": "Šid",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 00-24; sub 00-24; ned 00-24",
+"extra": {
+"kind": "carinski referat",
+"parent": "Carinarnica Novi Sad"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski referat Vajska",
+"type_slug": "carinarnica",
+"town": "Vajska",
+"municipality": "Bač",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "izlazak carinskih službenika po pozivu",
+"extra": {
+"kind": "carinski referat",
+"parent": "Carinarnica Novi Sad"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski referat Jamena",
+"type_slug": "carinarnica",
+"town": "Jamena",
+"municipality": "Šid",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "izlazak carinskih službenika po pozivu",
+"extra": {
+"kind": "carinski referat",
+"parent": "Carinarnica Novi Sad"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinarnica Sombor",
+"type_slug": "carinarnica",
+"town": "Sombor",
+"municipality": "Sombor",
+"address": null,
+"phones": [],
+"emails": [],
+"website": "https://www.carina.rs",
+"hours": "sedište carinarnice radnim danima 07:30-15:30",
+"extra": {
+"kind": "carinarnica",
+"parent": "Uprava carina"
+},
+"source_url": "https://www.carina.rs/o-nama/carinarnice/carinarnice-opste-informacije.html"
+},
+{
+"name": "Carinska ispostava Sombor",
+"type_slug": "carinarnica",
+"town": "Sombor",
+"municipality": "Sombor",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-20; sub 08-20; ned ne radi",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Sombor"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski referat Apatin",
+"type_slug": "carinarnica",
+"town": "Apatin",
+"municipality": "Apatin",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-20; sub 08-20; ned ne radi",
+"extra": {
+"kind": "carinski referat",
+"parent": "Carinarnica Sombor"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Bogojevo",
+"type_slug": "carinarnica",
+"town": "Bogojevo",
+"municipality": "Odžaci",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 00-24; sub 00-24; ned 00-24",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Sombor"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski referat Železnička stanica Bogojevo",
+"type_slug": "carinarnica",
+"town": "Bogojevo",
+"municipality": "Odžaci",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 00-24; sub 00-24; ned 00-24",
+"extra": {
+"kind": "carinski referat",
+"parent": "Carinarnica Sombor"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Bezdan - Mohač",
+"type_slug": "carinarnica",
+"town": "Bezdan",
+"municipality": "Sombor",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 00-24; sub 00-24; ned 00-24",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Sombor"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Bezdan",
+"type_slug": "carinarnica",
+"town": "Bezdan",
+"municipality": "Sombor",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 00-24; sub 00-24; ned 00-24",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Sombor"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Bački Breg",
+"type_slug": "carinarnica",
+"town": "Bački Breg",
+"municipality": "Sombor",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 00-24; sub 00-24; ned 00-24",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Sombor"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski referat Rastina",
+"type_slug": "carinarnica",
+"town": "Rastina",
+"municipality": "Sombor",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 07-19; sub 07-19; ned 07-19",
+"extra": {
+"kind": "carinski referat",
+"parent": "Carinarnica Sombor"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinarnica Vršac",
+"type_slug": "carinarnica",
+"town": "Vršac",
+"municipality": "Vršac",
+"address": null,
+"phones": [],
+"emails": [],
+"website": "https://www.carina.rs",
+"hours": "sedište carinarnice radnim danima 07:30-15:30",
+"extra": {
+"kind": "carinarnica",
+"parent": "Uprava carina"
+},
+"source_url": "https://www.carina.rs/o-nama/carinarnice/carinarnice-opste-informacije.html"
+},
+{
+"name": "Carinska ispostava Železnička stanica Vršac",
+"type_slug": "carinarnica",
+"town": "Vršac",
+"municipality": "Vršac",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "putnički: pon-pet 00-24; sub 00-24; ned 00-24 | robno carinjenje: pon-pet 08-20; sub 08-20; ned 08-20",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Vršac"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski referat Aerodrom Vršac",
+"type_slug": "carinarnica",
+"town": "Vršac",
+"municipality": "Vršac",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "izlazak carinskih službenika po pozivu",
+"extra": {
+"kind": "carinski referat",
+"parent": "Carinarnica Vršac"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Hemofarm Vršac",
+"type_slug": "carinarnica",
+"town": "Vršac",
+"municipality": "Vršac",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-20; sub 08-20; ned ne radi",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Vršac"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Vatin",
+"type_slug": "carinarnica",
+"town": "Vatin",
+"municipality": "Vršac",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 00-24; sub 00-24; ned 00-24",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Vršac"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Kaluđerovo",
+"type_slug": "carinarnica",
+"town": "Kaluđerovo",
+"municipality": "Bela Crkva",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 00-24; sub 00-24; ned 00-24",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Vršac"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinarnica Zrenjanin",
+"type_slug": "carinarnica",
+"town": "Zrenjanin",
+"municipality": "Zrenjanin",
+"address": null,
+"phones": [],
+"emails": [],
+"website": "https://www.carina.rs",
+"hours": "sedište carinarnice radnim danima 07:30-15:30",
+"extra": {
+"kind": "carinarnica",
+"parent": "Uprava carina"
+},
+"source_url": "https://www.carina.rs/o-nama/carinarnice/carinarnice-opste-informacije.html"
+},
+{
+"name": "Carinska ispostava Zrenjanin",
+"type_slug": "carinarnica",
+"town": "Zrenjanin",
+"municipality": "Zrenjanin",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-20; sub 08-20; ned ne radi",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Zrenjanin"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Slobodna zona Zrenjanin",
+"type_slug": "carinarnica",
+"town": "Zrenjanin",
+"municipality": "Zrenjanin",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-20; sub 08:20; ned ne radi",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Zrenjanin"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Kikinda",
+"type_slug": "carinarnica",
+"town": "Kikinda",
+"municipality": "Kikinda",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "robno carinjenje: pon-pet 08-20; sub 08-20; ned ne radi | carinski nadzor: pon-pet 00-24; sub 00-24; ned 00-24",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Zrenjanin"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Srpska Crnja",
+"type_slug": "carinarnica",
+"town": "Srpska Crnja",
+"municipality": "Nova Crnja",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 00-24; sub 00-24; ned 00-24",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Zrenjanin"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski referat Jaša Tomić",
+"type_slug": "carinarnica",
+"town": "Jaša Tomić",
+"municipality": "Sečanj",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 07-19; sub 07-19; ned 07-19",
+"extra": {
+"kind": "carinski referat",
+"parent": "Carinarnica Zrenjanin"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski referat Nakovo",
+"type_slug": "carinarnica",
+"town": "Nakovo",
+"municipality": "Kikinda",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 07-19; sub 07-19; ned 07-19",
+"extra": {
+"kind": "carinski referat",
+"parent": "Carinarnica Zrenjanin"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinarnica Subotica",
+"type_slug": "carinarnica",
+"town": "Subotica",
+"municipality": "Subotica",
+"address": null,
+"phones": [],
+"emails": [],
+"website": "https://www.carina.rs",
+"hours": "sedište carinarnice radnim danima 07:30-15:30",
+"extra": {
+"kind": "carinarnica",
+"parent": "Uprava carina"
+},
+"source_url": "https://www.carina.rs/o-nama/carinarnice/carinarnice-opste-informacije.html"
+},
+{
+"name": "Carinska ispostava Javna skladišta",
+"type_slug": "carinarnica",
+"town": "Subotica",
+"municipality": "Subotica",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-20; sub 08-20; ned ne radi",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Subotica"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Slobodna zona Subotica",
+"type_slug": "carinarnica",
+"town": "Subotica",
+"municipality": "Subotica",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-20; sub 08-20; ned ne radi",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Subotica"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Železnička stanica Subotica",
+"type_slug": "carinarnica",
+"town": "Subotica",
+"municipality": "Subotica",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "robno carinjenje: pon-pet 07-19; sub 07-19; ned 07-19 | carinski nadzor: pon-pet 00-24; sub 00-24; ned 00-24",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Subotica"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Terminal - Horgoš",
+"type_slug": "carinarnica",
+"town": "Horgoš",
+"municipality": "Kanjiža",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "carinski nadzor: pon-pet 00-24; sub 00-24; ned 00-24",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Subotica"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Horgoš",
+"type_slug": "carinarnica",
+"town": "Horgoš",
+"municipality": "Kanjiža",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 00-24; sub 00-24; ned 00-24",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Subotica"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Horgoš II",
+"type_slug": "carinarnica",
+"town": "Horgoš",
+"municipality": "Kanjiža",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 04-23 00-24; sub 04-23 00-24; ned 04-23 00-24",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Subotica"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Kelebija",
+"type_slug": "carinarnica",
+"town": "Kelebija",
+"municipality": "Subotica",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 00-24; sub 00-24; ned 00-24",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Subotica"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Terminal Kelebija",
+"type_slug": "carinarnica",
+"town": "Kelebija",
+"municipality": "Subotica",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "carinski nadzor: pon-pet 00-24; sub 00-24; ned 00-24",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Subotica"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Senta",
+"type_slug": "carinarnica",
+"town": "Senta",
+"municipality": "Senta",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-20; sub 08-20; ned ne radi",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Subotica"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinska ispostava Bački Vinogradi",
+"type_slug": "carinarnica",
+"town": "Bački Vinogradi",
+"municipality": "Subotica",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 07-19 petkom 07-22; sub 07-22; ned 07-22",
+"extra": {
+"kind": "carinska ispostava",
+"parent": "Carinarnica Subotica"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski referat Đala",
+"type_slug": "carinarnica",
+"town": "Đala",
+"municipality": "Novi Kneževac",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 07-19; sub 07-19; ned 07-19",
+"extra": {
+"kind": "carinski referat",
+"parent": "Carinarnica Subotica"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski referat Bajmok",
+"type_slug": "carinarnica",
+"town": "Bajmok",
+"municipality": "Subotica",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 07-19; sub 07-19; ned 07-19",
+"extra": {
+"kind": "carinski referat",
+"parent": "Carinarnica Subotica"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski referat Rabe",
+"type_slug": "carinarnica",
+"town": "Rabe",
+"municipality": "Novi Kneževac",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 07-19; sub 07-19; ned 07-19",
+"extra": {
+"kind": "carinski referat",
+"parent": "Carinarnica Subotica"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski punkt Merdare",
+"type_slug": "carinarnica",
+"town": "Merdare",
+"municipality": "Kuršumlija",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 00-24; sub 00-24; ned 00-24",
+"extra": {
+"kind": "carinski punkt",
+"parent": "Carinarnica Priština"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski punkt Končulj",
+"type_slug": "carinarnica",
+"town": "Končulj",
+"municipality": "Bujanovac",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 00-24; sub 00-24; ned 00-24",
+"extra": {
+"kind": "carinski punkt",
+"parent": "Carinarnica Priština"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+},
+{
+"name": "Carinski punkt Depce",
+"type_slug": "carinarnica",
+"town": "Depce",
+"municipality": "Preševo",
+"address": null,
+"phones": [],
+"emails": [],
+"website": null,
+"hours": "pon-pet 08-20; sub 08-20; ned 08-20",
+"extra": {
+"kind": "carinski punkt",
+"parent": "Carinarnica Priština"
+},
+"source_url": "https://www.carina.rs/upload/media/2026/10/28/71626/Радно_време_царинарница_.docx"
+}
+]
+}

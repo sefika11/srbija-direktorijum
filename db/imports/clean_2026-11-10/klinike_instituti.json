@@ -1,0 +1,44 @@
+{
+"source": {
+"name": "Uredba o planu mreže zdravstvenih ustanova (tabela teritorijalnog rasporeda), preuzeto sa sajta RFZO; adrese i telefoni sa sajtova ustanova",
+"url": "https://www.rfzo.rs/dokumenta/Tabela%20%20-%20Uredba%20o%20Planu%20mre%C5%BEe%20zdravstvenih%20ustanova.pdf",
+"fetched_at": "2026-11-10"
+},
+"note": "Tertiary institutions (UKC, KBC, clinics, institutes, VMA) from the official network plan table; address/phone where found on own website. Zavodi (javno zdravlje, urgentna medicina, transfuzija VOJ, etc.) not included except Torlak/transfuzija Srbije rows without contact; some Vojvodina/Nis clinics lack contact data.",
+"rows": [
+{
+"name": "Institut za kardiovaskularne bolesti Dedinje",
+"type_slug": "klinika-institut",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": "Heroja Milana Tepića 1",
+"phones": [
+"+381 11 3601 700"
+],
+"emails": [],
+"website": "http://www.ikvbd.com",
+"hours": null,
+"extra": {
+"source": "plan mreže (Sl. glasnik RS, uredba o planu mreže zdravstvenih ustanova)"
+},
+"source_url": "http://www.ikvbd.com"
+},
+{
+"name": "Vojnomedicinska akademija",
+"type_slug": "klinika-institut",
+"town": "Beograd",
+"municipality": "Beograd",
+"address": "Crnotravska 17",
+"phones": [
+"011 266 11 22"
+],
+"emails": [],
+"website": "http://www.vma.mod.gov.rs",
+"hours": null,
+"extra": {
+"source": "plan mreže (Sl. glasnik RS, uredba o planu mreže zdravstvenih ustanova)"
+},
+"source_url": "http://www.vma.mod.gov.rs"
+}
+]
+}

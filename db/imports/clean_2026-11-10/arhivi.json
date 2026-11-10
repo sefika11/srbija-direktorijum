@@ -1,0 +1,126 @@
+{
+"source": {
+"name": "Državni arhiv Srbije - Arhivi u Srbiji (mreža arhiva)",
+"url": "https://www.arhivsrbije.rs/arhivska-delatnost/arhivi-u-srbiji",
+"fetched_at": "2026-11-10"
+},
+"note": "Zvanična lista mreže arhiva (38 arhiva + odeljenja Trstenik, Bor, Bečej kao zasebni redovi). Uključuje privremeno izmeštene arhive sa Kosova i Metohije (Priština, Gnjilane, Peć, Prizren, Kosovska Mitrovica) sa adresom kako je navedena na listi (Štrpce, Prokuplje, Vranić). Vojni arhiv, Diplomatski arhiv i Arhiv Srbije-Železnik nisu na listi i nisu dodati. Za jedinice bez telefona/mejla na listi polja su prazna.",
+"rows": [
+{
+"name": "Istorijski arhiv Kruševac - Odeljenje u Trsteniku",
+"type_slug": "arhiv",
+"town": "Trstenik",
+"municipality": "Trstenik",
+"address": null,
+"phones": [
+"+381 37 712 316"
+],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"network_no": 17,
+"department": true
+},
+"source_url": "https://www.arhivsrbije.rs/arhivska-delatnost/arhivi-u-srbiji"
+},
+{
+"name": "Istorijski arhiv Negotin - Odeljenje u Boru",
+"type_slug": "arhiv",
+"town": "Bor",
+"municipality": "Bor",
+"address": null,
+"phones": [
+"+381 30 421 365"
+],
+"emails": [],
+"website": null,
+"hours": null,
+"extra": {
+"network_no": 19,
+"department": true
+},
+"source_url": "https://www.arhivsrbije.rs/arhivska-delatnost/arhivi-u-srbiji"
+},
+{
+"name": "Istorijski arhiv „Toplice\" Prokuplje",
+"type_slug": "arhiv",
+"town": "Prokuplje",
+"municipality": "Prokuplje",
+"address": "Pasjačka 2",
+"phones": [
+"+381 27 329 546"
+],
+"emails": [
+"arhiv@arhivtoplice.org.rs"
+],
+"website": "https://arhivtoplice.org.rs",
+"hours": null,
+"extra": {
+"territory": "Prokuplje, Žitorađa, Blace, Kuršumlija",
+"network_no": 29
+},
+"source_url": "https://www.arhivsrbije.rs/arhivska-delatnost/arhivi-u-srbiji"
+},
+{
+"name": "Istorijski arhiv Senta - Odsek za arhivsku građu Bečej",
+"type_slug": "arhiv",
+"town": "Bečej",
+"municipality": "Bečej",
+"address": "Zelena ulica 100",
+"phones": [
+"+381 21 6915 321"
+],
+"emails": [
+"becejarhiv@gmail.com"
+],
+"website": null,
+"hours": null,
+"extra": {
+"network_no": 30,
+"department": true
+},
+"source_url": "https://www.arhivsrbije.rs/arhivska-delatnost/arhivi-u-srbiji"
+},
+{
+"name": "Arhiv „Veroslava Veljašević“ Smederevska Palanka",
+"type_slug": "arhiv",
+"town": "Smederevska Palanka",
+"municipality": "Smederevska Palanka",
+"address": "Omladinska 13",
+"phones": [
+"+381 26 317 235"
+],
+"emails": [
+"arhivsmedpalanka@gmail.com"
+],
+"website": "https://www.arhivpalanka.rs",
+"hours": null,
+"extra": {
+"territory": "Smederevska Palanka, Velika Plana, Žabari",
+"network_no": 32
+},
+"source_url": "https://www.arhivsrbije.rs/arhivska-delatnost/arhivi-u-srbiji"
+},
+{
+"name": "Međuopštinski istorijski arhiv za grad Čačak i opštine Gornji Milanovac i Lučani",
+"type_slug": "arhiv",
+"town": "Čačak",
+"municipality": "Čačak",
+"address": "Gospodar Jovanova 2",
+"phones": [
+"+381 32 222 729"
+],
+"emails": [
+"arhivcacak@mts.rs"
+],
+"website": "https://www.arhivcacak.org.rs",
+"hours": null,
+"extra": {
+"territory": "Čačak, Gornji Milanovac, Lučani",
+"network_no": 37
+},
+"source_url": "https://www.arhivsrbije.rs/arhivska-delatnost/arhivi-u-srbiji"
+}
+]
+}

@@ -46,8 +46,10 @@ const orgHref = (l: Locale, o: { type_slug: string; slug: string }) => href(l, `
 const tuHref = (l: Locale, u: { level: string; slug: string }, parentSlug?: string | null) =>
   u.level === "okrug" ? href(l, `/okrug/${u.slug}`) : u.level === "gradska_opstina" && parentSlug ? href(l, `/${parentSlug}/${u.slug}`) : href(l, `/${u.slug}`);
 
-function OrgList({ orgs, locale, dense = false }: { orgs: db.OrgRow[]; locale: Locale; dense?: boolean }) {
+function OrgList({ orgs, locale, dense = false, compact = false }: { orgs: db.OrgRow[]; locale: Locale; dense?: boolean; compact?: boolean }) {
   if (!orgs.length) return <p className="text-muted text-[13.5px]">{t(locale).noData}</p>;
+  // very large types (thousands of rows): one light line per institution, plain anchors, so the page stays a sane size
+  if (compact) return <ul className="org-compact">{orgs.map((o) => <li key={o.id}><a href={orgHref(locale, o)}>{o.name_lat}</a>{o.place_name && <span>{o.place_name}</span>}</li>)}</ul>;
   return (
     <ul className={`grid gap-2 ${dense ? "sm:grid-cols-2 lg:grid-cols-3" : "sm:grid-cols-2"}`}>
       {orgs.map((o) => (
@@ -425,7 +427,7 @@ function GuideLinks({ locale, guides, jlsSlug, stacked = false }: { locale: Loca
 // ---------------------------------------------------------------- Org type hub
 export async function OrgTypeHub({ locale, type, brand = null, place = null }: { locale: Locale; type: db.OrgType; brand?: string | null; place?: string | null }) {
   const d = t(locale);
-  const orgs = await db.getOrgsOfType(type.slug, 5000);
+  const orgs = await db.getOrgsOfType(type.slug, 12000); // the largest type (court experts) has about 6,600 rows
   // National networks (RFZO, PIO, Poreska uprava...) are one organization with many branches: list the branches by okrug.
   // Chains (national networks, banks, insurers) are few organisations with many branches and no primary seat: list the branches by district.
   const branchMode = type.national_network || (orgs.length > 0 && orgs.every((o) => !o.place_name));
@@ -487,7 +489,7 @@ export async function OrgTypeHub({ locale, type, brand = null, place = null }: {
             </section>
           )) : keys.map((k, i) => {
             const list = groups.get(k)!;
-            const body = <OrgList orgs={list} locale={locale} dense />;
+            const body = <OrgList orgs={list} locale={locale} dense compact={orgs.length > 800} />;
             return (
               <section key={k} className="cv-auto">
                 {list.length > 12 ? (
