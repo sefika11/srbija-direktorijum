@@ -364,3 +364,25 @@ order, text size, layout shift, console), then hands-on keyboard and tap flows.
   apply = a laptop with the form, an envelope and a stamp. The first station gets trees and a street lamp.
 - **Light.** The sun's shadow frustum follows the camera target with a tight extent, so shadows stay crisp close up.
   The model at the active station turns slowly and lifts a little; the rest are still.
+
+## 24. Landmarks: every place has its own sight (2026-11-11)
+
+- **What.** Each of the 145 cities and municipalities, the 27 city municipalities and the 25 districts shows a 3D emblem
+  of the sight it is known for instead of the generic town hall: a monastery, fortress, tower, bridge, spa, mountain,
+  lake, monument, what it grows, or the industry it lives from. A district takes the landmark of its seat.
+- **Where.** In the hero of the district, city and municipality pages (live turntable, with the caption
+  "Simbol: <name>"), on every municipality card of a district page, and on the city-municipality cards of a city.
+- **How it is built.** Archetypes, not 172 hand-made models: `lib/emblems/landmarks.mjs` and `landmarks2.mjs` hold
+  about 30 kinds (church, monastery, cathedral, mosque, fortress, tower, cityhall, palace, monument, bridge, spa,
+  mountain, rocks, lake, river, dam, cave, windmill, farm, vineyard, produce, object, train, mine, powerplant,
+  archaeology, ethno, park, highrise, civic), each with styles and a few options (wall and roof colour, number of
+  domes, towers or arches). `lib/emblems/landmark-table.mjs` maps `lm-<slug>` (or `lm-<city>-<slug>`) to
+  `[kind, style, options]`; `lib/landmarks.json` holds the name shown on the page, the source and whether the pick
+  was edited. A seed per place varies trees and heights, so two churches are not identical.
+- **Rendering.** Same pipeline as every emblem: `tools/emblems/render.py lm-<key> …` writes the poster PNGs and the
+  manifest; the live stage builds the same scene. Pass keys through `xargs` (zsh does not split a variable).
+- **Picks.** One web-checked pick per place (local tourist organisation or municipal site preferred), then an editorial
+  pass that replaced weak or misplaced picks (for example Lepenski Vir for Majdanpek, Rtanj for Boljevac, Vinča for
+  Grocka, the Bubanj fists for Niš-Palilula, Pobednik for the City of Belgrade and the Temple for Vračar). Places with
+  no single famous building get what they are honestly known for (a river, a plain, a fruit), never an invented sight.
+- **Adding or changing one**: edit the row in `landmark-table.mjs` and the name in `landmarks.json`, render that key.

@@ -19,6 +19,19 @@ import Glyph3D from "./Glyph3D";
 import EmblemStage from "./EmblemStage";
 import DossierDeck from "./DossierDeck";
 import { emblemFor } from "@/lib/emblem-map";
+import LANDMARKS from "@/lib/landmarks.json";
+
+/** The landmark that stands for a district, city or municipality (lib/landmarks.json, docs/07 §24). */
+type Landmark = { key: string; name: string; kind: string };
+const landmarkOf = (id: string): Landmark | null => (LANDMARKS as unknown as Record<string, Landmark>)[id] ?? null;
+const LM_LABEL: Record<Locale, string> = { sr: "Simbol", en: "Landmark", ru: "Символ", de: "Wahrzeichen" };
+function LandmarkHead({ id, fallbackTitle, locale, children }: { id: string; fallbackTitle: string; locale: Locale; children: React.ReactNode }) {
+  const lm = landmarkOf(id);
+  return (<>
+    <div className="hub-head-org is-landmark"><EmblemStage emblem={lm?.key ?? "townhall"} title={lm?.name ?? fallbackTitle} size={400} cls="estage-org estage-landmark" />{children}</div>
+    {lm && <p className="landmark-cap"><span>{LM_LABEL[locale]}</span>{lm.name}</p>}
+  </>);
+}
 import { Passport } from "./Passport";
 const GROUP_GLYPH: Record<string, string> = { lokalna_samouprava: "townhall", republicki_organi: "parliament", javne_ustanove: "hospital", javna_preduzeca: "utility", pravosudje_i_javna_ovlascenja: "court", privatne_usluge: "briefcase" };
 import { LeadForm, CorrectionBlock, ClaimBlock } from "./forms";
@@ -270,7 +283,7 @@ export async function OkrugHub({ locale, okrug }: { locale: Locale; okrug: db.TU
         <div>
           <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, { label: okrug.name_lat }]} />
           <div className="eyebrow mt-4">{d.okrug}</div>
-          <div className="hub-head-org"><EmblemStage emblem="townhall" title={d.okrug} size={200} cls="estage-org" /><h1 className="display-sm text-[34px] sm:text-[44px]">{okrug.official_name_lat ?? okrug.name_lat}</h1></div>
+          <LandmarkHead id={`okrug/${okrug.slug}`} fallbackTitle={d.okrug} locale={locale}><h1 className="display-sm text-[34px] sm:text-[44px]">{okrug.official_name_lat ?? okrug.name_lat}</h1></LandmarkHead>
           <p className="text-muted mt-3 tabular lede">{okrug.seat_name_lat ? `${d.seat}: ${okrug.seat_name_lat} · ` : ""}{jls.length} {d.municipalities} · {okrugTotal.toLocaleString("sr-Latn")} {d.institutions}</p>
           <div className="mt-5"><SearchBox locale={locale} large placeholder="" submitLabel={d.search} scope={{ slug: okrug.slug, label: okrug.name_lat }} /></div>
         </div>
@@ -284,9 +297,15 @@ export async function OkrugHub({ locale, okrug }: { locale: Locale; okrug: db.TU
       <ul className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-2">
         {jls.map((j, i) => (
           <li key={j.id} className="card card-hover spot plinth p-5" data-reveal data-fx={i % 2 ? "wing-r" : "wing-l"} style={{ "--d": `${(i % 6) * 60}ms` } as React.CSSProperties}>
-            <div className="eyebrow">{j.jls_kind === "grad" ? d.city : d.municipality}{j.okrug_seat ? ` · ${d.seat.toLowerCase()} okruga` : ""}</div>
-            <Link href={href(locale, `/${j.slug}`)} className="hit font-serif text-[20px] font-semibold no-underline text-ink hover:text-accent">{j.name_lat}</Link>
-            <div className="text-[13px] text-muted mt-1.5 tabular">{j.org_count} {d.institutions}</div>
+            <div className="lm-card">
+              <div className="min-w-0">
+                <div className="eyebrow">{j.jls_kind === "grad" ? d.city : d.municipality}{j.okrug_seat ? ` · ${d.seat.toLowerCase()} okruga` : ""}</div>
+                <Link href={href(locale, `/${j.slug}`)} className="hit font-serif text-[20px] font-semibold no-underline text-ink hover:text-accent">{j.name_lat}</Link>
+                <div className="text-[13px] text-muted mt-1.5 tabular">{j.org_count} {d.institutions}</div>
+                {landmarkOf(j.slug) && <div className="lm-card-name">{landmarkOf(j.slug)!.name}</div>}
+              </div>
+              {landmarkOf(j.slug) && <Glyph3D icon={landmarkOf(j.slug)!.key} size={96} className="lm-card-img" />}
+            </div>
           </li>
         ))}
       </ul>
@@ -311,7 +330,7 @@ export async function UnitHub({ locale, unit, parent }: { locale: Locale; unit: 
       <div>
       <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, ...(okrug ? [{ href: href(locale, `/okrug/${okrug.slug}`), label: okrug.name_lat }] : []), ...(parent ? [{ href: href(locale, `/${parent.slug}`), label: parent.name_lat }] : []), { label: unit.name_lat }]} />
       <div className="eyebrow mt-4">{unit.level === "gradska_opstina" ? d.gradskaOpstina : unit.jls_kind === "grad" ? d.city : d.municipality}{okrug && unit.level === "jls" ? ` · ${okrug.name_lat}` : ""}</div>
-      <div className="hub-head-org"><EmblemStage emblem="townhall" title={unit.level === "gradska_opstina" ? d.gradskaOpstina : unit.jls_kind === "grad" ? d.city : d.municipality} size={200} cls="estage-org" /><h1 className="display-sm text-[34px] sm:text-[44px]">{tuLabel(unit)}</h1></div>
+      <LandmarkHead id={unit.level === "gradska_opstina" && parent ? `${parent.slug}/${unit.slug}` : unit.slug} fallbackTitle={unit.level === "gradska_opstina" ? d.gradskaOpstina : unit.jls_kind === "grad" ? d.city : d.municipality} locale={locale}><h1 className="display-sm text-[34px] sm:text-[44px]">{tuLabel(unit)}</h1></LandmarkHead>
       <p className="text-muted mt-3 tabular lede">{orgs.length.toLocaleString("sr-Latn")} {d.institutions}{unit.website ? <> · <a href={unit.website} rel="noopener">{d.website} ↗</a></> : null}</p>
       <div className="mt-5"><SearchBox locale={locale} large placeholder="" submitLabel={d.search} scope={{ slug: unit.slug, label: unit.name_lat }} /></div>
       </div>
@@ -337,7 +356,12 @@ export async function UnitHub({ locale, unit, parent }: { locale: Locale; unit: 
           {gos.length > 0 && (
             <section className="mb-8" data-reveal data-fx="flip">
               <SectionTitle>{d.gradskeOpstine}</SectionTitle>
-              <ul className="flex flex-wrap gap-2">{gos.map((g) => <li key={g.id}><Link href={href(locale, `/${unit.slug}/${g.slug}`)} className="inline-block rounded-full border border-line bg-surface px-3 py-1 text-[13.5px] no-underline text-ink hover:border-accent">{g.name_lat} <span className="text-muted tabular">{g.org_count}</span></Link></li>)}</ul>
+              <ul className="lm-go-grid">{gos.map((g) => { const lm = landmarkOf(`${unit.slug}/${g.slug}`); return (
+                <li key={g.id}><Link href={href(locale, `/${unit.slug}/${g.slug}`)} className="lm-go card card-hover no-underline text-ink">
+                  {lm && <Glyph3D icon={lm.key} size={64} className="lm-go-img" />}
+                  <span className="min-w-0"><span className="lm-go-name">{g.name_lat}</span><span className="lm-go-sub">{lm ? lm.name : ""}</span></span>
+                  <span className="lm-go-n tabular">{g.org_count}</span>
+                </Link></li>); })}</ul>
             </section>
           )}
           {GROUPS.map((g, i) => {

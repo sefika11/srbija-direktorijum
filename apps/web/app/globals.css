@@ -1204,3 +1204,21 @@ html.has-opener body > main { z-index: 60; }
 /* the district panel keeps the last district touched; its "open" control is a real link and takes the pointer */
 .m3-dock-cta { pointer-events: auto; cursor: pointer; text-decoration: none; }
 .m3-stage.is-hero .m3-dock-cta:hover { filter: brightness(1.08); } .m3-dock-cta:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+
+/* ---------- 46. Landmarks: every district, city and municipality has its own recognizable sight (docs/07 §24) ---------- */
+.hub-head-org.is-landmark { align-items: center; gap: 22px; }
+.estage-org.estage-landmark { width: 210px; height: 210px; }
+.landmark-cap { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; margin-top: 12px; font-size: 14px; color: var(--ink); }
+.landmark-cap span { font-family: var(--font-mono); font-size: 10.5px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+.landmark-cap span::before { content: ""; display: inline-block; width: 14px; height: 2px; margin-right: 8px; vertical-align: middle; background: var(--red); }
+.lm-card { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 12px; align-items: center; }
+.lm-card-img { flex: none; filter: drop-shadow(0 6px 8px rgb(15 27 45 / .16)); transition: transform .5s var(--ease-out); }
+.card-hover:hover .lm-card-img { transform: translateY(-4px) scale(1.04); }
+.lm-card-name { margin-top: 8px; font-size: 12.5px; line-height: 1.35; color: var(--muted); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.lm-go-grid { display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); }
+.lm-go { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 12px; padding: 8px 14px 8px 8px; min-height: 80px; }
+.lm-go-img { filter: drop-shadow(0 4px 6px rgb(15 27 45 / .16)); transition: transform .5s var(--ease-out); } .lm-go:hover .lm-go-img { transform: translateY(-3px) scale(1.05); }
+.lm-go-name { display: block; font-family: var(--font-display); font-weight: 400; font-size: 15px; letter-spacing: -.02em; line-height: 1.2; }
+.lm-go-sub { display: block; margin-top: 3px; font-size: 12px; line-height: 1.3; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.lm-go-n { font-size: 13px; color: var(--muted); }
+@media (max-width: 767px) { .estage-org.estage-landmark { width: 112px; height: 112px; } .hub-head-org.is-landmark { gap: 14px; } .lm-card-img { width: 76px; height: 76px; } }
