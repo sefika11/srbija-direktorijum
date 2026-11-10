@@ -50,7 +50,7 @@ export function StaticMap({ features, context, fit, cls }: { features: Feature3D
   );
 }
 
-export default function MapStage({ features, context = [], fit, locale, labels, fallback, cls, hint }: { features: Feature3D[]; context?: Context3D[]; fit?: BBox; locale: Locale; labels: Labels3D; fallback?: ReactNode; cls?: string; hint?: string }) {
+export default function MapStage({ features, context = [], fit, locale, labels, fallback, cls, hint, padTop, padBottom }: { features: Feature3D[]; context?: Context3D[]; fit?: BBox; locale: Locale; labels: Labels3D; fallback?: ReactNode; cls?: string; hint?: string; padTop?: number; padBottom?: number }) {
   const [mode, setMode] = useState<"3d" | "2d" | null>(null);
   useEffect(() => { setMode(window.matchMedia("(min-width: 768px)").matches && webglOk() ? "3d" : "2d"); }, []);
   const L = { sr: { d3: "3D", d2: "2D" }, en: { d3: "3D", d2: "2D" }, ru: { d3: "3D", d2: "2D" }, de: { d3: "3D", d2: "2D" } }[locale];
@@ -60,7 +60,7 @@ export default function MapStage({ features, context = [], fit, locale, labels, 
     <div className="relative">
       {mode === "3d" ? (
         <>
-          <SerbiaMap3D features={features} context={context} fit={fit} labels={{ ...labels, hint: hint ?? labels.hint }} className={cls} onUnavailable={() => setMode("2d")} />
+          <SerbiaMap3D features={features} context={context} fit={fit} labels={{ ...labels, hint: hint ?? labels.hint }} className={cls} padTop={padTop} padBottom={padBottom} onUnavailable={() => setMode("2d")} />
         </>
       ) : twoD}
       <div className="absolute right-3 bottom-3 z-20 flex gap-1 m3-toggle" role="tablist" aria-label="Map mode">

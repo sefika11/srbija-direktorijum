@@ -1,0 +1,409 @@
+{
+ "slug": "pripremni-predskolski-program",
+ "category": "obrazovanje-i-deca",
+ "org_types": [
+  "predskolska-ustanova",
+  "osnovna-skola"
+ ],
+ "lead_vertical": null,
+ "status": "full",
+ "sort_order": 51,
+ "name_lat": "Pripremni predškolski program",
+ "summary": "Obavezni program u godini pred polazak u osnovnu školu: 4 sata dnevno, najmanje 9 meseci, besplatan u javnoj ustanovi.",
+ "typical_duration": "Program traje 4 sata dnevno, najmanje 9 meseci u godini pred polazak u školu. Konkurs za upis ustanove obično raspisuju u proleće, a program počinje u septembru.",
+ "legal_basis": "Zakon o osnovama sistema obrazovanja i vaspitanja (Sl. glasnik RS 88/2017, 27/2018 – dr. zakon, 10/2019, 6/2020, čl. 17, 23, 24, 84, 194); Zakon o predškolskom vaspitanju i obrazovanju; Pravilnik o merilima za utvrđivanje ekonomske cene programa vaspitanja i obrazovanja u predškolskim ustanovama (Sl. glasnik RS 87/2021, čl. 14).",
+ "euprava_url": "https://euprava.gov.rs/%C5%BEivotna-oblast/16/%C5%BEivotna-situacija/32",
+ "online_available": true,
+ "checked_at": "2026-11-10",
+ "fees": [
+  {
+   "item": "Pripremni predškolski program, 4 sata dnevno, u javnoj ustanovi",
+   "amount_rsd": 0,
+   "basis": "Besplatan u ustanovi čiji je osnivač Republika Srbija, autonomna pokrajina ili jedinica lokalne samouprave (ZOSOV čl. 17); jedinica lokalne samouprave ne može utvrditi učešće korisnika za program od 4 sata (Pravilnik 87/2021, čl. 14).",
+   "source_url": "https://prosveta.gov.rs/wp-content/uploads/2021/08/Zakon-o-osnovama-sistema-obrazovanja-i-vaspitanja.pdf",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "item": "Celodnevni boravak deteta u pripremnom programu",
+   "amount_rsd": null,
+   "basis": "Ekonomska cena se umanjuje za iznos koji država prenosi opštini za 4 sata dnevno; cenu i učešće roditelja za ostatak boravka utvrđuje jedinica lokalne samouprave odlukom, pa iznos proverite kod svoje ustanove ili opštine.",
+   "source_url": "https://www.pudrsimamilosevic.edu.rs/Pravilnik%20o%20merilima%20za%20utvrdjivanje%20ekonomske%20cene%20programa.pdf",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "item": "Pripremni program u privatnoj ustanovi",
+   "amount_rsd": null,
+   "basis": "Roditelj plaća cenu koju utvrdi osnivač privatne ustanove.",
+   "source_url": "http://www.novisad.rs/lat/obavezan-upis-dece-u-predskolski-program-pred-polazak-u-osnovnu-skolu",
+   "checked_at": "2026-11-10",
+   "note": "Izvor je obaveštenje Grada Novog Sada iz 2016. godine."
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://euprava.gov.rs/obrazovanje",
+   "title": "eUprava – Obrazovanje (pripremni predškolski program, uverenje)",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "url": "https://prosveta.gov.rs/wp-content/uploads/2021/08/Zakon-o-osnovama-sistema-obrazovanja-i-vaspitanja.pdf",
+   "title": "Zakon o osnovama sistema obrazovanja i vaspitanja (prečišćen tekst, Ministarstvo prosvete)",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "url": "https://prosveta.gov.rs/upis-dece-u-predskolsku-ustanovu/",
+   "title": "Ministarstvo prosvete – Upis dece u predškolsku ustanovu",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "url": "https://prosveta.gov.rs/prosveta/predskolsko-i-osnovno-obrazovanje-2/osnovno-obrazovanje-i-vaspitanje/upis-dece-u-osnovnu-skolu-1/",
+   "title": "Ministarstvo prosvete – Upis dece u osnovnu školu",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "url": "https://euprava.gov.rs/eVrtic-2026-vest",
+   "title": "eUprava – eVrtić 2026 (elektronske prijave, roditelj stranac)",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "url": "http://www.novisad.rs/lat/obavezan-upis-dece-u-predskolski-program-pred-polazak-u-osnovnu-skolu",
+   "title": "Grad Novi Sad – Obavezan upis dece u predškolski program (5. 4. 2016.)",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "url": "https://www.pudrsimamilosevic.edu.rs/Pravilnik%20o%20merilima%20za%20utvrdjivanje%20ekonomske%20cene%20programa.pdf",
+   "title": "Pravilnik o merilima za utvrđivanje ekonomske cene programa (Sl. glasnik RS 87/2021), tekst na sajtu javne predškolske ustanove",
+   "checked_at": "2026-11-10"
+  }
+ ],
+ "guide": {
+  "sr": {
+   "title": "Pripremni predškolski program",
+   "summary": "Obavezni program u godini pred polazak u osnovnu školu: 4 sata dnevno, najmanje 9 meseci, besplatan u javnoj ustanovi. Na kraju dete dobija uverenje o pohađanju.",
+   "where_note": "Upis se podnosi predškolskoj ustanovi ili osnovnoj školi koja ostvaruje program, po izboru roditelja. U mnogim opštinama i gradovima prijava se podnosi elektronski preko eUprave (usluga eVrtić) u terminu konkursa ustanove; u ostalim se podnosi u ustanovi.",
+   "who": [
+    "Dete koje ima od 5,5 do 6,5 godina i polazi u osnovnu školu sledeće školske godine; program se pohađa u godini pred polazak u školu.",
+    "Pripremni predškolski program je obavezan; roditelj, odnosno drugi zakonski zastupnik, dužan je da upiše dete ako ono nije obuhvaćeno radom u predškolskoj ustanovi.",
+    "Ako je dete već upisano u vrtić, ono program pohađa u svojoj vaspitnoj grupi i ne podnosi se nov upis.",
+    "Prebivalište nije uslov: javna predškolska ustanova, odnosno osnovna škola koja ostvaruje program, mora da upiše svako dete bez obzira na prebivalište roditelja.",
+    "Roditelj bira predškolsku ustanovu, odnosno osnovnu školu u kojoj dete pohađa program."
+   ],
+   "documents": [
+    {
+     "name": "Zahtev za upis deteta",
+     "note": "Elektronski preko eUprave ili na obrascu ustanove. Obrazac na eUpravi nudi izbor: poludnevni ili celodnevni pripremni predškolski program."
+    },
+    {
+     "name": "Dokaz o zdravstvenom pregledu deteta",
+     "note": "Zakon traži da se dostavi uz dokumentaciju za upis."
+    },
+    {
+     "name": "Podaci o detetu i roditelju (JMBG, prebivalište, osiguranje)",
+     "note": "Pri elektronskoj prijavi eUprava sama preuzima podatke iz matične knjige rođenih, evidencije o prebivalištu i osiguranju. Za prijavu na licu mesta ustanova navodi tačnu listu dokumenata.",
+     "variants": [
+      "Elektronska prijava: bez slanja papirnih dokumenata",
+      "Prijava u ustanovi: dokumenta koje ustanova navede u konkursu"
+     ]
+    },
+    {
+     "name": "Dokazi za prioritet (po potrebi)",
+     "note": "Elektronska prijava dozvoljava priloge za posebne okolnosti, na primer jednoroditeljska porodica, dete sa smetnjama u razvoju ili porodica koja prima socijalnu pomoć."
+    },
+    {
+     "name": "Uverenje o pohađanju pripremnog predškolskog programa",
+     "note": "Ne prilaže se pri upisu. Izdaje ga ustanova po završetku programa. Osnovna škola ga pribavlja elektronski po službenoj dužnosti pri upisu u prvi razred."
+    }
+   ],
+   "steps": [
+    "Proverite na sajtu svoje opštine, grada ili predškolske ustanove kada je konkurs za upis; konkurse raspisuju ustanove, obično u proleće.",
+    "Odaberite ustanovu: javnu predškolsku ustanovu ili osnovnu školu koja ostvaruje pripremni predškolski program.",
+    "Proverite na eUpravi da li ustanova nudi elektronsku prijavu (usluga eVrtić); za prijavu je potreban nalog na Portalu eUprava.",
+    "Podnesite zahtev u terminu konkursa i izaberite poludnevni ili celodnevni program, ako ustanova nudi oba.",
+    "Priložite dokaz o zdravstvenom pregledu deteta i, ako se primenjuje, dokaze za prioritet.",
+    "Sačekajte obaveštenje ustanove o upisu; ustanova dodeljuje broj zahteva i obaveštava roditelja.",
+    "Vodite dete u program 4 sata dnevno, najmanje 9 meseci; izostanke opravdavajte ustanovi.",
+    "Po završetku programa preuzmite uverenje o pohađanju, ako vam zatreba; škola ga pribavlja i sama pri upisu u prvi razred."
+   ],
+   "tips": [
+    "Ne čekajte kraj leta: konkurs je obično u proleće, a ustanova prima i kasne upise do početka nove radne godine (primer: Novi Sad).",
+    "Ako dete već ide u vrtić, program se nastavlja u istoj ustanovi; proverite sa vaspitačem da li je potrebna dodatna prijava.",
+    "Opština vodi evidenciju dece koja su stasala za program; ustanova obaveštava roditelja i opštinu o detetu koje nije upisano.",
+    "Izaberite poludnevni program ako želite besplatan boravak; celodnevni program je delimično na teret roditelja.",
+    "Uverenje o pohađanju školi nije potrebno donositi na upis u prvi razred; škola ga traži elektronski."
+   ],
+   "faq": [
+    {
+     "q": "Da li je pripremni predškolski program obavezan?",
+     "a": "Da. Obavezan je i pohađa se u godini pred polazak u osnovnu školu, u uzrastu od 5,5 do 6,5 godina."
+    },
+    {
+     "q": "Koliko traje i da li se plaća?",
+     "a": "Program traje 4 sata dnevno, najmanje 9 meseci. U ustanovi čiji je osnivač Republika, pokrajina ili jedinica lokalne samouprave besplatan je. Opština ne može da naplati učešće roditelja za program od 4 sata dnevno."
+    },
+    {
+     "q": "Šta se plaća ako dete ostaje ceo dan?",
+     "a": "Kada se program ostvaruje u celodnevnom trajanju, ekonomska cena se umanjuje za iznos koji država prenosi opštini za 4 sata. Visinu cene i učešće roditelja za ostatak boravka određuje opština, odnosno grad odlukom, pa se razlikuju. Privatna ustanova naplaćuje cenu koju odredi njen osnivač."
+    },
+    {
+     "q": "Šta ako roditelj ne upiše dete?",
+     "a": "Roditelj je odgovoran za upis deteta u pripremni predškolski program. Zakon o osnovama sistema obrazovanja i vaspitanja propisuje novčanu kaznu od 5.000 do 100.000 dinara za povredu te obaveze, a zahtev za pokretanje prekršajnog postupka podnosi škola."
+    },
+    {
+     "q": "Čemu služi uverenje o pohađanju?",
+     "a": "Uverenje potvrđuje da je dete pohađalo program. Škola ga pribavlja elektronski po službenoj dužnosti pri upisu u prvi razred, zajedno sa izvodom iz matične knjige rođenih i dokazom o prebivalištu."
+    },
+    {
+     "q": "Može li dete u prvi razred ako nema 6,5 godina?",
+     "a": "Dete od 6 do 6,5 godina upisuje se u prvi razred nakon provere spremnosti. Psiholog ili pedagog škole može da preporuči upis nakon godinu dana uz pohađanje pripremnog predškolskog programa."
+    }
+   ],
+   "for_foreigners": "Strani državljani, lica bez državljanstva i tražioci državljanstva imaju pravo na obrazovanje pod istim uslovima i na isti način kao državljani Srbije, pa se njihova deca upisuju u program pod istim uslovima. Isto važi za decu raseljenih lica, izbeglica i migranata. Za elektronsku prijavu postoji posebna usluga eVrtić – roditelj stranac za strane državljane sa stalnim ili privremenim boravkom. Dete koje ne zna jezik na kome se radi ima pravo na učenje srpskog kao stranog jezika, koje organizuje ustanova."
+  },
+  "en": {
+   "title": "Preparatory preschool programme (Pripremni predškolski program)",
+   "summary": "A compulsory programme in the year before primary school: 4 hours a day, at least 9 months, free in a public institution. At the end the child receives a certificate of attendance.",
+   "where_note": "Apply to a preschool institution or a primary school that runs the programme, at the parent's choice. In many municipalities and cities the application is filed online through eUprava (the eVrtić service) during the institution's enrolment call; elsewhere it is filed at the institution.",
+   "who": [
+    "A child aged 5.5 to 6.5 who starts primary school the following school year; the programme is attended in the year before school.",
+    "The programme is compulsory; a parent or other legal guardian must enrol the child if the child is not already covered by a preschool institution.",
+    "If the child already attends kindergarten, the child takes the programme in their own group and no new enrolment is filed.",
+    "Residence is not a condition: a public preschool institution, or a primary school running the programme, must enrol every child regardless of the parent's residence.",
+    "The parent chooses the preschool institution or primary school where the child attends the programme."
+   ],
+   "documents": [
+    {
+     "name": "Enrolment request for the child",
+     "note": "Online through eUprava or on the institution's form. The eUprava form offers a choice of half-day or full-day preparatory programme."
+    },
+    {
+     "name": "Proof of the child's medical examination",
+     "note": "The law requires it to be submitted with the enrolment documents."
+    },
+    {
+     "name": "Child and parent data (JMBG, residence, insurance)",
+     "note": "For an online application eUprava retrieves the data itself from the birth register, residence records and insurance records. For an application at the institution, the institution states the exact list of documents.",
+     "variants": [
+      "Online application: no paper documents to send",
+      "Application at the institution: the documents the institution lists in its call"
+     ]
+    },
+    {
+     "name": "Proof for priority (if applicable)",
+     "note": "The online application accepts attachments for special circumstances, for example a single-parent family, a child with developmental disabilities or a family receiving social assistance."
+    },
+    {
+     "name": "Certificate of attendance of the preparatory programme (uverenje o pohađanju)",
+     "note": "Not submitted at enrolment. The institution issues it after the programme. The primary school obtains it electronically ex officio (po službenoj dužnosti) at first-grade enrolment."
+    }
+   ],
+   "steps": [
+    "Check the website of your municipality, city or preschool institution for the enrolment call; institutions announce calls, usually in spring.",
+    "Choose an institution: a public preschool institution or a primary school that runs the preparatory programme.",
+    "Check on eUprava whether the institution offers online application (the eVrtić service); an eUprava Portal account is required.",
+    "Submit the request during the call and choose the half-day or full-day programme, if the institution offers both.",
+    "Attach proof of the child's medical examination and, where applicable, proof for priority.",
+    "Wait for the institution's notice about enrolment; the institution assigns a request number and informs the parent.",
+    "Take the child to the programme 4 hours a day for at least 9 months; justify absences to the institution.",
+    "After the programme, collect the certificate of attendance if you need it; the school also obtains it itself at first-grade enrolment."
+   ],
+   "tips": [
+    "Do not wait until late summer: the call is usually in spring, and an institution also accepts late enrolments until the start of the new working year (example: Novi Sad).",
+    "If the child already attends kindergarten, the programme continues in the same institution; ask the preschool teacher whether an extra application is needed.",
+    "The municipality keeps a record of children old enough for the programme; the institution informs the parent and the municipality about a child who is not enrolled.",
+    "Choose the half-day programme if you want attendance without any cost to the parent; the full-day programme is partly paid by the parent.",
+    "You do not need to bring the certificate of attendance to first-grade enrolment; the school requests it electronically."
+   ],
+   "faq": [
+    {
+     "q": "Is the preparatory preschool programme compulsory?",
+     "a": "Yes. It is compulsory and attended in the year before primary school, at the age of 5.5 to 6.5."
+    },
+    {
+     "q": "How long is it and is it paid?",
+     "a": "The programme runs 4 hours a day for at least 9 months. It is free in an institution founded by the Republic, the province or a local self-government unit. A municipality cannot charge a parent contribution for the 4-hour programme."
+    },
+    {
+     "q": "What is paid if the child stays the whole day?",
+     "a": "When the programme runs full-day, the economic price is reduced by the amount the state transfers to the municipality for 4 hours. The price and the parent's share for the rest of the stay are set by the municipality or city by decision, so they differ. A private institution charges the price set by its founder."
+    },
+    {
+     "q": "What if a parent does not enrol the child?",
+     "a": "The parent is responsible for enrolling the child in the preparatory programme. The Law on the Foundations of the Education System sets a fine of 5,000 to 100,000 dinars for breaching that duty, and the school files the misdemeanour request."
+    },
+    {
+     "q": "What is the certificate of attendance for?",
+     "a": "The certificate confirms that the child attended the programme. The school obtains it electronically ex officio at first-grade enrolment, together with the birth extract and proof of residence."
+    },
+    {
+     "q": "Can a child start grade 1 without being 6.5?",
+     "a": "A child aged 6 to 6.5 is enrolled in grade 1 after a school readiness check. The school psychologist or pedagogue may recommend enrolment after one year with attendance of the preparatory programme."
+    }
+   ],
+   "for_foreigners": "Foreign nationals, stateless persons and asylum seekers have the right to education under the same conditions and in the same way as Serbian citizens, so their children are enrolled in the programme under the same conditions. The same applies to children of displaced persons, refugees and migrants. For online application there is a separate eVrtić service for foreign parents (eVrtić – roditelj stranac) with permanent or temporary residence. A child who does not know the language of instruction has the right to learn Serbian as a foreign language, organised by the institution."
+  },
+  "ru": {
+   "title": "Подготовительная дошкольная программа (Pripremni predškolski program)",
+   "summary": "Обязательная программа в год перед начальной школой: 4 часа в день, не менее 9 месяцев, бесплатно в государственном учреждении. По окончании ребёнок получает справку о посещении.",
+   "where_note": "Подайте заявление в дошкольное учреждение или начальную школу, которые проводят программу, по выбору родителя. Во многих общинах и городах заявление подаётся онлайн через eUprava (сервис eVrtić) в период приёма учреждения; в остальных местах оно подаётся в учреждении.",
+   "who": [
+    "Ребёнок в возрасте от 5,5 до 6,5 лет, который идёт в начальную школу в следующем учебном году; программу посещают в год перед школой.",
+    "Программа обязательна; родитель или другой законный представитель должен записать ребёнка, если он ещё не охвачен дошкольным учреждением.",
+    "Если ребёнок уже посещает детский сад (vrtić), он проходит программу в своей группе, и новое заявление не подаётся.",
+    "Место жительства не является условием: государственное дошкольное учреждение или начальная школа, проводящая программу, обязаны принять каждого ребёнка независимо от места жительства родителя.",
+    "Родитель сам выбирает дошкольное учреждение или начальную школу, где ребёнок будет проходить программу."
+   ],
+   "documents": [
+    {
+     "name": "Заявление о записи ребёнка",
+     "note": "Онлайн через eUprava или на бланке учреждения. В форме на eUprava можно выбрать сокращённую или полнодневную подготовительную программу."
+    },
+    {
+     "name": "Подтверждение медицинского осмотра ребёнка",
+     "note": "По закону оно подаётся вместе с документами для записи."
+    },
+    {
+     "name": "Данные ребёнка и родителя (JMBG, место жительства, страхование)",
+     "note": "При онлайн-заявлении eUprava сама получает данные из книги записей о рождении, учёта места жительства и учёта страхования. При заявлении в учреждении точный перечень документов указывает учреждение.",
+     "variants": [
+      "Онлайн-заявление: бумажные документы отправлять не нужно",
+      "Заявление в учреждении: документы, которые учреждение перечисляет в своём объявлении"
+     ]
+    },
+    {
+     "name": "Подтверждение права на приоритет (если применимо)",
+     "note": "Онлайн-заявление принимает вложения об особых обстоятельствах, например неполная семья, ребёнок с нарушениями развития или семья, получающая социальную помощь."
+    },
+    {
+     "name": "Справка о посещении подготовительной программы (uverenje o pohađanju)",
+     "note": "При записи не подаётся. Учреждение выдаёт её после программы. Начальная школа получает её в электронном виде по служебной обязанности (po službenoj dužnosti) при записи в первый класс."
+    }
+   ],
+   "steps": [
+    "Проверьте на сайте вашей общины, города или дошкольного учреждения объявление о приёме; учреждения объявляют приём, как правило, весной.",
+    "Выберите учреждение: государственное дошкольное учреждение или начальную школу, проводящую подготовительную программу.",
+    "Проверьте на eUprava, предлагает ли учреждение онлайн-заявление (сервис eVrtić); нужна учётная запись на портале eUprava.",
+    "Подайте запрос в период приёма и выберите сокращённую или полнодневную программу, если учреждение предлагает обе.",
+    "Приложите подтверждение медицинского осмотра ребёнка и, при необходимости, подтверждение права на приоритет.",
+    "Дождитесь уведомления учреждения о записи; учреждение присваивает запросу номер и сообщает об этом родителю.",
+    "Водите ребёнка на программу 4 часа в день не менее 9 месяцев; о пропусках сообщайте учреждению с указанием причины.",
+    "После программы получите справку о посещении, если она вам нужна; школа также сама получает её при записи в первый класс."
+   ],
+   "tips": [
+    "Не откладывайте до конца лета: приём обычно проходит весной, а учреждение принимает и поздние заявления до начала нового рабочего года (пример: Нови-Сад).",
+    "Если ребёнок уже посещает детский сад, программа продолжается в том же учреждении; спросите у воспитателя, нужно ли дополнительное заявление.",
+    "Община ведёт учёт детей, достигших возраста для программы; учреждение сообщает родителю и общине о ребёнке, который не записан.",
+    "Выберите сокращённую программу, если хотите, чтобы посещение обходилось родителю бесплатно; полнодневную программу родитель частично оплачивает.",
+    "Приносить справку о посещении на запись в первый класс не нужно; школа запрашивает её в электронном виде."
+   ],
+   "faq": [
+    {
+     "q": "Обязательна ли подготовительная дошкольная программа?",
+     "a": "Да. Она обязательна и посещается в год перед начальной школой, в возрасте от 5,5 до 6,5 лет."
+    },
+    {
+     "q": "Сколько она длится и платная ли она?",
+     "a": "Программа длится 4 часа в день не менее 9 месяцев. В учреждении, основанном Республикой, краем или единицей местного самоуправления, она бесплатна. Община не может взимать родительскую плату за 4-часовую программу."
+    },
+    {
+     "q": "Что оплачивается, если ребёнок остаётся на весь день?",
+     "a": "Если программа проводится полный день, экономическая цена уменьшается на сумму, которую государство переводит общине за 4 часа. Цену и долю родителя за остальное время пребывания устанавливает община или город решением, поэтому они различаются. Частное учреждение берёт цену, установленную его учредителем."
+    },
+    {
+     "q": "Что будет, если родитель не запишет ребёнка?",
+     "a": "Родитель отвечает за запись ребёнка на подготовительную программу. Закон об основах системы образования и воспитания устанавливает штраф от 5.000 до 100.000 динаров за нарушение этой обязанности, а школа подаёт заявление о правонарушении."
+    },
+    {
+     "q": "Для чего нужна справка о посещении?",
+     "a": "Справка подтверждает, что ребёнок посещал программу. Школа получает её в электронном виде по служебной обязанности при записи в первый класс вместе с выпиской из книги записей о рождении и подтверждением места жительства."
+    },
+    {
+     "q": "Может ли ребёнок пойти в 1 класс, если ему ещё нет 6,5 лет?",
+     "a": "Ребёнок в возрасте от 6 до 6,5 лет записывается в 1 класс после проверки готовности к школе. Школьный психолог или педагог может рекомендовать запись через год с посещением подготовительной программы."
+    }
+   ],
+   "for_foreigners": "Иностранные граждане, лица без гражданства и просители убежища имеют право на образование на тех же условиях и тем же образом, что и граждане Сербии, поэтому их дети записываются на программу на тех же условиях. То же относится к детям перемещённых лиц, беженцев и мигрантов. Для онлайн-заявления есть отдельный сервис eVrtić для иностранных родителей («eVrtić – roditelj stranac») с постоянным или временным проживанием. Ребёнок, не владеющий языком обучения, имеет право изучать сербский язык как иностранный, это организует учреждение."
+  },
+  "de": {
+   "title": "Vorbereitendes Vorschulprogramm (Pripremni predškolski program)",
+   "summary": "Ein verpflichtendes Programm im Jahr vor der Grundschule: 4 Stunden täglich, mindestens 9 Monate, in einer öffentlichen Einrichtung kostenlos. Am Ende erhält das Kind eine Teilnahmebescheinigung.",
+   "where_note": "Melden Sie das Kind nach Ihrer Wahl in einer Vorschuleinrichtung oder einer Grundschule an, die das Programm durchführt. In vielen Gemeinden und Städten wird der Antrag während der Anmeldeausschreibung der Einrichtung online über eUprava (den Dienst eVrtić) gestellt; anderswo wird er in der Einrichtung gestellt.",
+   "who": [
+    "Ein Kind im Alter von 5,5 bis 6,5 Jahren, das im folgenden Schuljahr in die Grundschule eintritt; das Programm wird im Jahr vor der Schule besucht.",
+    "Das Programm ist verpflichtend; ein Elternteil oder ein anderer gesetzlicher Vertreter muss das Kind anmelden, wenn es nicht bereits von einer Vorschuleinrichtung erfasst ist.",
+    "Wenn das Kind bereits den Kindergarten (vrtić) besucht, absolviert es das Programm in seiner eigenen Gruppe, und es wird keine neue Anmeldung eingereicht.",
+    "Der Wohnsitz ist keine Bedingung: Eine öffentliche Vorschuleinrichtung oder eine Grundschule, die das Programm durchführt, muss jedes Kind unabhängig vom Wohnsitz der Eltern aufnehmen.",
+    "Die Eltern wählen die Vorschuleinrichtung oder Grundschule, in der das Kind das Programm besucht."
+   ],
+   "documents": [
+    {
+     "name": "Anmeldeantrag für das Kind",
+     "note": "Online über eUprava oder auf dem Formular der Einrichtung. Das Formular auf eUprava bietet die Wahl zwischen halbtägigem und ganztägigem Vorbereitungsprogramm."
+    },
+    {
+     "name": "Nachweis der ärztlichen Untersuchung des Kindes",
+     "note": "Das Gesetz verlangt, dass er mit den Anmeldeunterlagen eingereicht wird."
+    },
+    {
+     "name": "Daten von Kind und Eltern (JMBG, Wohnsitz, Versicherung)",
+     "note": "Bei einem Online-Antrag ruft eUprava die Daten selbst aus dem Geburtenregister, den Wohnsitzunterlagen und den Versicherungsunterlagen ab. Bei einem Antrag in der Einrichtung nennt die Einrichtung die genaue Liste der Unterlagen.",
+     "variants": [
+      "Online-Antrag: keine Papierunterlagen einzusenden",
+      "Antrag in der Einrichtung: die Unterlagen, die die Einrichtung in ihrer Ausschreibung nennt"
+     ]
+    },
+    {
+     "name": "Nachweis für den Vorrang (falls zutreffend)",
+     "note": "Der Online-Antrag nimmt Anlagen zu besonderen Umständen an, zum Beispiel Familie mit einem alleinerziehenden Elternteil, Kind mit Entwicklungsbehinderungen oder Familie, die Sozialhilfe erhält."
+    },
+    {
+     "name": "Teilnahmebescheinigung für das Vorbereitungsprogramm (uverenje o pohađanju)",
+     "note": "Wird bei der Anmeldung nicht eingereicht. Die Einrichtung stellt sie nach dem Programm aus. Die Grundschule ruft sie bei der Einschulung in die erste Klasse von Amts wegen (po službenoj dužnosti) elektronisch ab."
+    }
+   ],
+   "steps": [
+    "Prüfen Sie auf der Website Ihrer Gemeinde, Stadt oder Vorschuleinrichtung die Anmeldeausschreibung; die Einrichtungen geben die Ausschreibungen meist im Frühjahr bekannt.",
+    "Wählen Sie eine Einrichtung: eine öffentliche Vorschuleinrichtung oder eine Grundschule, die das Vorbereitungsprogramm durchführt.",
+    "Prüfen Sie auf eUprava, ob die Einrichtung die Online-Anmeldung (den Dienst eVrtić) anbietet; ein Konto auf dem Portal eUprava ist erforderlich.",
+    "Reichen Sie den Antrag während der Ausschreibung ein und wählen Sie das halbtägige oder ganztägige Programm, falls die Einrichtung beides anbietet.",
+    "Fügen Sie den Nachweis der ärztlichen Untersuchung des Kindes und gegebenenfalls den Nachweis für den Vorrang bei.",
+    "Warten Sie auf die Mitteilung der Einrichtung über die Anmeldung; die Einrichtung vergibt eine Antragsnummer und informiert die Eltern.",
+    "Bringen Sie das Kind 4 Stunden täglich mindestens 9 Monate lang zum Programm; entschuldigen Sie Fehlzeiten gegenüber der Einrichtung.",
+    "Holen Sie nach dem Programm die Teilnahmebescheinigung ab, falls Sie sie benötigen; die Schule beschafft sie bei der Einschulung in die erste Klasse auch selbst."
+   ],
+   "tips": [
+    "Warten Sie nicht bis zum Spätsommer: Die Ausschreibung findet meist im Frühjahr statt, und eine Einrichtung nimmt auch späte Anmeldungen bis zum Beginn des neuen Arbeitsjahres an (Beispiel: Novi Sad).",
+    "Wenn das Kind bereits den Kindergarten besucht, wird das Programm in derselben Einrichtung fortgesetzt; fragen Sie die Erzieherin, ob ein zusätzlicher Antrag nötig ist.",
+    "Die Gemeinde führt ein Verzeichnis der Kinder im Alter für das Programm; die Einrichtung informiert die Eltern und die Gemeinde über ein Kind, das nicht angemeldet ist.",
+    "Wählen Sie das halbtägige Programm, wenn Sie den Besuch ohne Kosten für die Eltern wünschen; das ganztägige Programm zahlen die Eltern teilweise.",
+    "Sie müssen die Teilnahmebescheinigung nicht zur Einschulung in die erste Klasse mitbringen; die Schule fordert sie elektronisch an."
+   ],
+   "faq": [
+    {
+     "q": "Ist das vorbereitende Vorschulprogramm verpflichtend?",
+     "a": "Ja. Es ist verpflichtend und wird im Jahr vor der Grundschule im Alter von 5,5 bis 6,5 Jahren besucht."
+    },
+    {
+     "q": "Wie lange dauert es, und kostet es etwas?",
+     "a": "Das Programm dauert 4 Stunden täglich mindestens 9 Monate. In einer Einrichtung, die von der Republik, der Provinz oder einer Einheit der lokalen Selbstverwaltung gegründet wurde, ist es kostenlos. Eine Gemeinde darf für das 4-Stunden-Programm keinen Elternbeitrag erheben."
+    },
+    {
+     "q": "Was wird bezahlt, wenn das Kind den ganzen Tag bleibt?",
+     "a": "Wenn das Programm ganztägig durchgeführt wird, wird der wirtschaftliche Preis um den Betrag gemindert, den der Staat der Gemeinde für 4 Stunden überweist. Den Preis und den Elternanteil für die restliche Aufenthaltszeit legt die Gemeinde oder Stadt per Beschluss fest, daher unterscheiden sie sich. Eine private Einrichtung erhebt den von ihrem Gründer festgelegten Preis."
+    },
+    {
+     "q": "Was geschieht, wenn Eltern das Kind nicht anmelden?",
+     "a": "Die Eltern sind dafür verantwortlich, das Kind für das Vorbereitungsprogramm anzumelden. Das Gesetz über die Grundlagen des Bildungssystems sieht für den Verstoß gegen diese Pflicht eine Geldstrafe von 5.000 bis 100.000 Dinar vor, und die Schule stellt den Antrag auf Ahndung der Ordnungswidrigkeit."
+    },
+    {
+     "q": "Wofür dient die Teilnahmebescheinigung?",
+     "a": "Die Bescheinigung bestätigt, dass das Kind das Programm besucht hat. Die Schule ruft sie bei der Einschulung in die erste Klasse von Amts wegen elektronisch ab, zusammen mit dem Geburtsregisterauszug und dem Wohnsitznachweis."
+    },
+    {
+     "q": "Kann ein Kind in die erste Klasse eintreten, ohne 6,5 Jahre alt zu sein?",
+     "a": "Ein Kind im Alter von 6 bis 6,5 Jahren wird nach einer Prüfung der Schulreife in die erste Klasse aufgenommen. Der Schulpsychologe oder Schulpädagoge kann die Einschulung nach einem Jahr mit Besuch des Vorbereitungsprogramms empfehlen."
+    }
+   ],
+   "for_foreigners": "Ausländische Staatsangehörige, Staatenlose und Asylsuchende haben das Recht auf Bildung zu denselben Bedingungen und auf dieselbe Weise wie serbische Staatsangehörige, daher werden ihre Kinder zu denselben Bedingungen für das Programm angemeldet. Dasselbe gilt für Kinder von Vertriebenen, Flüchtlingen und Migranten. Für die Online-Anmeldung gibt es einen eigenen Dienst eVrtić für ausländische Eltern (eVrtić – roditelj stranac) mit ständigem oder vorübergehendem Aufenthalt. Ein Kind, das die Unterrichtssprache nicht beherrscht, hat das Recht, Serbisch als Fremdsprache zu lernen; die Einrichtung organisiert dies."
+  }
+ }
+}

@@ -66,7 +66,7 @@ function radialTexture(rgb: string, a0: number, a1: number) {
 
 type Unit = { f: Feature3D; mesh: THREE.Mesh; edges: THREE.LineSegments; base: number; target: number; cur: number; cx: number; cz: number; top: THREE.MeshStandardMaterial; delay: number; color0: THREE.Color; hot: number; lw?: number };
 
-export default function SerbiaMap3D({ features, context = [], fit, labels, onUnavailable, className }: { features: Feature3D[]; context?: Context3D[]; fit?: BBox; labels: Labels3D; onUnavailable?: () => void; className?: string }) {
+export default function SerbiaMap3D({ features, context = [], fit, labels, onUnavailable, className, padTop = 0, padBottom = 0 }: { features: Feature3D[]; context?: Context3D[]; fit?: BBox; labels: Labels3D; onUnavailable?: () => void; className?: string; padTop?: number; padBottom?: number }) {
   const router = useRouter();
   const wrap = useRef<HTMLDivElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -160,10 +160,13 @@ export default function SerbiaMap3D({ features, context = [], fit, labels, onUna
     const resize = () => {
       const w = el.clientWidth, h = el.clientHeight; if (!w || !h) return;
       renderer.setSize(w, h, false); camera.aspect = w / h; camera.updateProjectionMatrix();
+      // padTop / padBottom: strips of the stage that overlays occupy (search panel, dock). The model is fitted to the
+      // free area between them and the picture is shifted into it, so nothing ever sits on top of the country.
+      const he = Math.max(160, h - padTop - padBottom), fitAspect = w / he;
       // distance so the projected bounding box fills ~92% of the frame: start from the sphere fit, then correct by projection
-      const vfov = THREE.MathUtils.degToRad(camera.fov), hfov = 2 * Math.atan(Math.tan(vfov / 2) * camera.aspect);
+      const vfov = THREE.MathUtils.degToRad(camera.fov), hfov = 2 * Math.atan(Math.tan(vfov / 2) * fitAspect);
       let dist = (radius * .86) / Math.sin(Math.min(vfov, hfov) / 2);
-      const probe = new THREE.PerspectiveCamera(camera.fov, camera.aspect, camera.near, camera.far);
+      const probe = new THREE.PerspectiveCamera(camera.fov, fitAspect, camera.near, camera.far);
       const corners = [wx(bb[0]), wx(bb[2])].flatMap((x) => [wz(bb[1]), wz(bb[3])].flatMap((z) => [0, 4 * hs].map((y) => new THREE.Vector3(x, y, z))));
       for (let i = 0; i < 3; i++) {
         probe.position.copy(look).addScaledVector(dir, dist); probe.lookAt(look); probe.updateMatrixWorld(); probe.updateProjectionMatrix();
@@ -172,6 +175,8 @@ export default function SerbiaMap3D({ features, context = [], fit, labels, onUna
         const extent = Math.max((maxX - minX) / 2, (maxY - minY) / 2);
         dist *= extent / .97;
       }
+      dist *= h / he;
+      if (padTop || padBottom) camera.setViewOffset(w, h, 0, (padBottom - padTop) / 2, w, h); else camera.clearViewOffset();
       camFinal.copy(look).addScaledVector(dir, dist); camStart.copy(look).addScaledVector(dir, dist * 1.75);
       if (reduced) camera.position.copy(camFinal);
     };

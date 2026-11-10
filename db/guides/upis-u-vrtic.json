@@ -1,0 +1,425 @@
+{
+ "slug": "upis-u-vrtic",
+ "category": "obrazovanje-i-deca",
+ "org_types": [
+  "predskolska-ustanova",
+  "privatni-vrtic"
+ ],
+ "lead_vertical": "privatni-vrtic",
+ "status": "full",
+ "sort_order": 50,
+ "name_lat": "Upis u jaslice i vrtić",
+ "summary": "Prijava deteta u jaslice i vrtić predškolske ustanove čiji je osnivač grad ili opština, najčešće preko usluge eVrtić na portalu eUprava.",
+ "typical_duration": "Konkurs raspisuje ustanova, odnosno osnivač, i termin se razlikuje po gradu; primeri iz 2025. su mart (Kragujevac) i april–maj (Beograd). Rang liste se objavljuju nakon konkursa, a dete počinje u septembru.",
+ "legal_basis": "Zakon o predškolskom vaspitanju i obrazovanju (Sl. glasnik RS, br. 18/2010, 101/2017, 113/2017 – dr. zakon, 10/2019 i 129/2021), član 50 (cena i učešće roditelja); Zakon o osnovama sistema obrazovanja i vaspitanja (prioritet pri upisu); Pravilnik o bližim uslovima za utvrđivanje prioriteta za upis dece u predškolsku ustanovu; statut ustanove uz saglasnost osnivača.",
+ "euprava_url": "https://euprava.gov.rs/eVrtic-2026-vest",
+ "online_available": true,
+ "checked_at": "2026-11-10",
+ "fees": [
+  {
+   "item": "Učešće roditelja u ceni boravka deteta",
+   "amount_rsd": null,
+   "basis": "Roditelj učestvuje u ceni boravka, a odluku o visini cene donosi osnivač, to jest grad ili opština (član 50. Zakona o predškolskom vaspitanju i obrazovanju). Zakon od izmena iz 2017. ne propisuje procenat. Od plaćanja su izuzeta deca bez roditeljskog staranja, deca sa smetnjama u razvoju i invaliditetom i deca iz materijalno ugroženih porodica.",
+   "source_url": "https://www.parlament.gov.rs/upload/archive/files/lat/pdf/predlozi_zakona/2862-17%20lat.pdf",
+   "checked_at": "2026-11-10",
+   "note": "Iznos za svoj grad proverite u odluci osnivača i cenovniku ustanove. Grad Beograd je 2025. objavio da su vrtići u gradskom sistemu besplatni."
+  },
+  {
+   "item": "Subvencija za privatni vrtić, Grad Beograd (po detetu)",
+   "amount_rsd": 33000,
+   "basis": "Objava Grada Beograda od 2. 5. 2025; za druge gradove proverite sajt grada.",
+   "source_url": "https://www.beograd.rs/lat/zivot-u-beogradu/beogradska-riznica/a107695/Subvencija-od-33000-dinara-za-decu-upisanu-u-privatne-vrtice.html",
+   "checked_at": "2026-11-10",
+   "note": "Za privatni vrtić u Beogradu potrebna je odbijenica; važi tri meseca."
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://euprava.gov.rs/eVrtic-2026-vest",
+   "title": "eUprava – eVrtić za 2026. godinu",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "url": "https://prosveta.gov.rs/upis-dece-u-predskolsku-ustanovu/",
+   "title": "Ministarstvo prosvete – Upis dece u predškolsku ustanovu",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "url": "https://www.srbija.gov.rs/tekst/329756/predskolsko-obrazovanje.php",
+   "title": "Portal srbija.gov.rs – Predškolsko obrazovanje",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "url": "https://www.srbija.gov.rs/vest/856027/upis-u-predskolske-ustanove-putem-unapredjene-elektronske-usluge-evrtic.php",
+   "title": "srbija.gov.rs – Upis putem unapređene usluge eVrtić (3. 2. 2025)",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "url": "https://www.beograd.rs/lat/beoinfo-vesti/a107230/Konkurs-za-upis-dece-u-vrtice-2025.-godine.html",
+   "title": "Grad Beograd – Konkurs za upis dece u vrtiće 2025.",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "url": "https://www.beograd.rs/lat/zivot-u-beogradu/beogradska-riznica/a107785/Produzen-rok-vazenja-odbijenice-za-vrtic.html",
+   "title": "Grad Beograd – Odbijenica za vrtić važi tri meseca",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "url": "https://www.beograd.rs/lat/zivot-u-beogradu/beogradska-riznica/a107695/Subvencija-od-33000-dinara-za-decu-upisanu-u-privatne-vrtice.html",
+   "title": "Grad Beograd – Subvencija od 33.000 dinara za privatne vrtiće",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "url": "https://pravno-informacioni-sistem.rs/eli/rep/sgrs/skupstina/zakon/2010/18/6/reg",
+   "title": "Zakon o predškolskom vaspitanju i obrazovanju – prečišćen tekst (Pravno-informacioni sistem)",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "url": "https://www.parlament.gov.rs/upload/archive/files/lat/pdf/predlozi_zakona/2862-17%20lat.pdf",
+   "title": "Narodna skupština – Predlog zakona o izmenama i dopunama Zakona o predškolskom vaspitanju i obrazovanju (2017), sa pregledom odredaba",
+   "checked_at": "2026-11-10"
+  }
+ ],
+ "guide": {
+  "sr": {
+   "title": "Upis u jaslice i vrtić",
+   "summary": "Prijava deteta u predškolsku ustanovu čiji je osnivač grad ili opština, najčešće elektronski preko usluge eVrtić na portalu eUprava.",
+   "where_note": "Prijavu podnesite na portalu eUprava (euprava.gov.rs), usluga eVrtić, tokom konkursa izabrane predškolske ustanove. Ako vaša opština ili grad nema eVrtić, podnesite zahtev neposredno u predškolskoj ustanovi.",
+   "who": [
+    "Upis traži roditelj ili drugi zakonski zastupnik deteta.",
+    "Predškolski uzrast je od 6 meseci do polaska u osnovnu školu: jaslene grupe su za decu od 6 meseci do 3 godine, a grupe vrtića za decu od 3 godine do polaska u školu.",
+    "Sva deca u godini pred polazak u školu uključuju se u predškolsku ustanovu (pripremni predškolski program).",
+    "Za elektronsku prijavu potreban vam je nalog na portalu eUprava sa elektronskim identitetom (eID).",
+    "Dete od 3 godine do polaska u školu može u razvojnu grupu na osnovu mišljenja međuresorne komisije i uz saglasnost roditelja.",
+    "Strani državljani, deca bez državljanstva, tražioci azila i raseljena lica upisuju se pod istim uslovima kao državljani Srbije."
+   ],
+   "documents": [
+    {
+     "name": "Elektronska prijava (eVrtić)",
+     "note": "Popunjava se na portalu eUprava; za strance sa stalnim ili privremenim boravkom postoji posebna usluga eVrtić – roditelj stranac."
+    },
+    {
+     "name": "Podaci iz matične knjige rođenih, prebivališta i osiguranja roditelja",
+     "note": "Prikupljaju se automatski iz registara, po službenoj dužnosti; ne prilažete ih.",
+     "variants": [
+      "Adresa se bira iz adresnog registra Republičkog geodetskog zavoda"
+     ]
+    },
+    {
+     "name": "Dokaz o zdravstvenom pregledu deteta",
+     "note": "Ministarstvo prosvete navodi da se dostavlja uz dokumentaciju za upis. Da li se u vašoj ustanovi prilaže elektronski ili pre polaska deteta, proverite kod ustanove."
+    },
+    {
+     "name": "Dokaz o posebnom statusu porodice",
+     "note": "Prilaže se elektronski uz prijavu, samo ako ga se pozivate.",
+     "variants": [
+      "samohrani roditelj",
+      "žrtva nasilja u porodici",
+      "dete sa smetnjama u razvoju",
+      "porodica koja prima socijalnu zaštitu"
+     ]
+    }
+   ],
+   "steps": [
+    "Proverite na eUprava da li vaša opština ili grad nudi eVrtić i kada ustanova raspisuje konkurs.",
+    "Registrujte se na portalu eUprava i pripremite elektronski identitet (eID).",
+    "Na portalu izaberite Porodica, pa eVrtić, pa predškolsku ustanovu.",
+    "Popunite elektronsku prijavu tokom trajanja konkursa te ustanove; možete navesti i drugi i treći izbor ustanove.",
+    "Priložite dokaze o posebnom statusu, ako se na njega pozivate.",
+    "Pratite status zahteva u delu Moja eUprava; obaveštenja mogu stići mejlom ili SMS-om.",
+    "Pogledajte preliminarnu rang listu na sajtu i oglasnoj tabli ustanove.",
+    "Ako dete nije primljeno, podnesite žalbu u roku koji ustanova navede, ili zatražite odbijenicu ako je vaš grad izdaje.",
+    "Dostavite dokaz o zdravstvenom pregledu deteta, kako ustanova zahteva, i potpišite ugovor kada ustanova pozove."
+   ],
+   "tips": [
+    "Prijavite dete tokom konkursa; elektronska prijava se podnosi samo u terminu konkursa izabrane ustanove.",
+    "Ne šaljite dokumenta mejlom i ne nosite ih lično kad prijavu podnosite preko eVrtića; podaci iz registara prikupljaju se automatski.",
+    "Priložite dokaz o statusu (na primer samohranog roditelja) uz prijavu, jer se prioritet odnosi na decu iz osetljivih grupa.",
+    "Navedite i druge izbore ustanove, jer se prvi izbor može popuniti.",
+    "Konkurs je različit po gradu i opštini; datume uvek proverite na sajtu svog grada ili ustanove."
+   ],
+   "faq": [
+    {
+     "q": "Ko raspisuje konkurs za upis?",
+     "a": "Konkurs sprovodi svaka predškolska ustanova, odnosno osnivač na teritoriji svoje opštine ili grada. Način i postupak upisa uređuje statut ustanove, uz saglasnost osnivača."
+    },
+    {
+     "q": "Kada se konkurs obično raspisuje?",
+     "a": "Termin se razlikuje po gradu. Primeri: u Kragujevcu je konkurs za 2025/26. godinu trajao od 11. 3. do 28. 3. 2025, a u Beogradu od 7. 4. do 16. 5. 2025. Elektronske prijave za 2026. godinu otvorene su na eUprava u februaru 2026. u 31 opštini i gradu, bez Beograda."
+    },
+    {
+     "q": "Ko ima prednost pri upisu?",
+     "a": "U ustanovama čiji je osnivač Republika, autonomna pokrajina ili jedinica lokalne samouprave prednost imaju deca iz osetljivih grupa. Bliže uslove za prioritet propisuje ministar prosvete pravilnikom."
+    },
+    {
+     "q": "Koliko plaćam boravak deteta?",
+     "a": "Odluku o visini cene donosi osnivač, to jest grad ili opština, pa se iznos razlikuje. Zakon ne propisuje procenat učešća roditelja. Od plaćanja su izuzeta deca bez roditeljskog staranja, deca sa smetnjama u razvoju i invaliditetom i deca iz materijalno ugroženih porodica. Grad Beograd je 2025. objavio da su vrtići u gradskom sistemu besplatni."
+    },
+    {
+     "q": "Šta ako dete nije primljeno?",
+     "a": "U Beogradu se nakon preliminarne rang liste može podneti žalba. Roditelj može zatražiti odbijenicu, koja je potrebna za upis u privatni vrtić uz gradsku subvenciju i od 2025. važi tri meseca. Pravila za druge gradove i upis tokom godine proverite kod ustanove."
+    },
+    {
+     "q": "Da li postoji subvencija za privatni vrtić?",
+     "a": "Zavisi od grada. Grad Beograd je 2025. objavio subvenciju od 33.000 dinara po detetu upisanom u privatni vrtić u gradskom sistemu. Za druge gradove proverite sajt grada."
+    }
+   ],
+   "for_foreigners": "Strani državljani, deca bez državljanstva, tražioci azila i raseljena lica upisuju se pod istim uslovima kao državljani Srbije. Od 2026. godine na eUprava postoji usluga eVrtić – roditelj stranac (parent of foreign nationality) za strane državljane sa stalnim ili privremenim boravkom, uz elektronski identitet na portalu. Odbijenica je dostupna i stranim državljanima. Ako dete nema dokaz o prebivalištu ili lična dokumenta, upis se vrši pod istim uslovima kao za državljane Srbije."
+  },
+  "en": {
+   "title": "Enrolment in a nursery (jaslice) and kindergarten (vrtić)",
+   "summary": "Applying a child to a preschool institution (predškolska ustanova) founded by a city or municipality, most often online through the eVrtić service on the eUprava portal.",
+   "where_note": "File the application on the eUprava portal (euprava.gov.rs), eVrtić service, during the competition (konkurs) of the preschool institution you choose. If your municipality or city does not offer eVrtić, apply directly at the institution.",
+   "who": [
+    "A parent or another legal guardian of the child requests enrolment.",
+    "Preschool age runs from 6 months until the child starts primary school: nursery groups (jaslice) are for children from 6 months to 3 years, kindergarten groups (vrtić) for children from 3 years until school.",
+    "All children in the year before school start are enrolled in a preschool institution (preparatory preschool programme).",
+    "For the electronic application you need an eUprava portal account with an electronic identity (eID).",
+    "A child from 3 years until school start may join a developmental group on the opinion of an inter-sectoral commission and with parental consent.",
+    "Foreign nationals, stateless children, asylum seekers and displaced persons are enrolled under the same conditions as Serbian citizens."
+   ],
+   "documents": [
+    {
+     "name": "Electronic application (eVrtić)",
+     "note": "Filled in on the eUprava portal; a separate eVrtić – foreign parent service exists for foreigners with permanent or temporary residence."
+    },
+    {
+     "name": "Birth register, residence and parents' insurance data",
+     "note": "Collected automatically from registers, ex officio (po službenoj dužnosti); you do not attach them.",
+     "variants": [
+      "The address is chosen from the Republic Geodetic Authority address register"
+     ]
+    },
+    {
+     "name": "Proof of the child's medical examination",
+     "note": "The Ministry of Education says it is submitted with the enrolment documents. Ask your institution whether it is attached electronically or before the child starts."
+    },
+    {
+     "name": "Proof of special family status",
+     "note": "Attached electronically with the application, only if you rely on it.",
+     "variants": [
+      "single parent",
+      "victim of domestic violence",
+      "child with developmental difficulties",
+      "family receiving social protection"
+     ]
+    }
+   ],
+   "steps": [
+    "Check on eUprava whether your municipality or city offers eVrtić and when the institution opens its competition.",
+    "Register on the eUprava portal and prepare your electronic identity (eID).",
+    "On the portal choose Porodica (Family), then eVrtić, then the preschool institution.",
+    "Fill in the electronic application during that institution's competition; you can also name a second and third choice.",
+    "Attach proof of special status, if you rely on it.",
+    "Follow the request status under Moja eUprava (My eUprava); notices may arrive by email or SMS.",
+    "Check the preliminary ranking list on the institution's website and notice board.",
+    "If the child is not admitted, file an appeal within the deadline the institution states, or request a rejection certificate (odbijenica) if your city issues one.",
+    "Submit the proof of the child's medical examination as the institution requires, and sign the contract when the institution calls you."
+   ],
+   "tips": [
+    "Apply during the competition; the electronic application is filed only in the chosen institution's competition period.",
+    "Do not email or hand in documents when you apply through eVrtić; register data are collected automatically.",
+    "Attach proof of status (for example single parent) with the application, because priority applies to children from vulnerable groups.",
+    "Name other choices of institution, since the first choice may be full.",
+    "The competition differs by city and municipality; always check the dates on your city's or institution's website."
+   ],
+   "faq": [
+    {
+     "q": "Who runs the competition for enrolment?",
+     "a": "Each preschool institution runs it, with the founder, on the territory of its municipality or city. The enrolment method and procedure are set in the institution's statute, with the founder's consent."
+    },
+    {
+     "q": "When does the competition usually open?",
+     "a": "The date differs by city. Examples: in Kragujevac the 2025/26 competition ran from 11. 3. to 28. 3. 2025, and in Belgrade from 7. 4. to 16. 5. 2025. Electronic applications for 2026 opened on eUprava in February 2026 in 31 municipalities and cities, excluding Belgrade."
+    },
+    {
+     "q": "Who has priority?",
+     "a": "In institutions founded by the Republic, an autonomous province or a local self-government unit, children from vulnerable groups have priority. The minister of education sets the closer conditions for priority by rulebook."
+    },
+    {
+     "q": "How much do I pay for the child's stay?",
+     "a": "The founder, that is the city or municipality, decides the price, so the amount differs. The law does not set a percentage for the parents' share. Children without parental care, children with developmental difficulties and disabilities and children from materially vulnerable families are exempt from payment. The City of Belgrade announced in 2025 that kindergartens in the city system are free of charge."
+    },
+    {
+     "q": "What if the child is not admitted?",
+     "a": "In Belgrade an appeal can be filed after the preliminary ranking list. A parent can request a rejection certificate (odbijenica), which is needed to enrol in a private kindergarten with the city subsidy and, since 2025, is valid for three months. Check with the institution for other cities and for enrolment during the year."
+    },
+    {
+     "q": "Is there a subsidy for a private kindergarten?",
+     "a": "It depends on the city. In 2025 the City of Belgrade announced a subsidy of 33,000 dinars per child enrolled in a private kindergarten in the city system. For other cities check the city website."
+    }
+   ],
+   "for_foreigners": "Foreign nationals, stateless children, asylum seekers and displaced persons are enrolled under the same conditions as Serbian citizens. Since 2026 eUprava offers the eVrtić – foreign parent service for foreign nationals with permanent or temporary residence, with an electronic identity on the portal. The rejection certificate (odbijenica) is also available to foreign nationals. If the child has no proof of residence or personal documents, enrolment is under the same conditions as for Serbian citizens."
+  },
+  "ru": {
+   "title": "Запись в ясли (jaslice) и детский сад (vrtić)",
+   "summary": "Подача заявления о приёме ребёнка в дошкольное учреждение (predškolska ustanova), основанное городом или общиной, чаще всего онлайн через сервис eVrtić на портале eUprava.",
+   "where_note": "Подайте заявление на портале eUprava (euprava.gov.rs) через сервис eVrtić в период конкурса (konkurs) выбранного дошкольного учреждения. Если ваша община или город не предоставляет eVrtić, подайте заявление непосредственно в учреждении.",
+   "who": [
+    "Запись запрашивает родитель или другой законный представитель ребёнка.",
+    "Дошкольный возраст длится от 6 месяцев до поступления ребёнка в начальную школу: ясельные группы (jaslice) предназначены для детей от 6 месяцев до 3 лет, группы детского сада (vrtić) — для детей от 3 лет до школы.",
+    "Все дети в год перед началом школы записываются в дошкольное учреждение (подготовительная дошкольная программа).",
+    "Для электронного заявления нужна учётная запись на портале eUprava с электронным удостоверением личности (eID).",
+    "Ребёнок от 3 лет до начала школы может быть принят в развивающую группу по заключению межведомственной комиссии и с согласия родителя.",
+    "Иностранные граждане, лица без гражданства, просители убежища и перемещённые лица записываются на тех же условиях, что и граждане Сербии."
+   ],
+   "documents": [
+    {
+     "name": "Электронное заявление (eVrtić)",
+     "note": "Заполняется на портале eUprava; для иностранцев с постоянным или временным проживанием есть отдельный сервис «eVrtić – foreign parent»."
+    },
+    {
+     "name": "Данные из книги записей о рождении, о месте жительства и о страховании родителей",
+     "note": "Собираются автоматически из реестров по служебной обязанности (po službenoj dužnosti); прикладывать их не нужно.",
+     "variants": [
+      "Адрес выбирается из адресного реестра Республиканского геодезического управления"
+     ]
+    },
+    {
+     "name": "Подтверждение медицинского осмотра ребёнка",
+     "note": "Министерство просвещения сообщает, что оно подаётся вместе с документами для записи. Уточните в учреждении, прикладывается ли оно в электронном виде или до начала посещения."
+    },
+    {
+     "name": "Подтверждение особого семейного статуса",
+     "note": "Прикладывается в электронном виде к заявлению, только если вы на него ссылаетесь.",
+     "variants": [
+      "родитель-одиночка",
+      "жертва домашнего насилия",
+      "ребёнок с трудностями в развитии",
+      "семья, получающая социальную защиту"
+     ]
+    }
+   ],
+   "steps": [
+    "Проверьте на eUprava, предоставляет ли ваша община или город сервис eVrtić и когда учреждение открывает конкурс.",
+    "Зарегистрируйтесь на портале eUprava и подготовьте электронное удостоверение личности (eID).",
+    "На портале выберите Porodica (Семья), затем eVrtić, затем дошкольное учреждение.",
+    "Заполните электронное заявление в период конкурса этого учреждения; можно указать также второй и третий выбор.",
+    "Приложите подтверждение особого статуса, если вы на него ссылаетесь.",
+    "Следите за статусом запроса в разделе Moja eUprava (Моя eUprava); уведомления могут приходить по электронной почте или в SMS.",
+    "Проверьте предварительный рейтинг-список на сайте и на доске объявлений учреждения.",
+    "Если ребёнка не приняли, подайте жалобу в срок, указанный учреждением, или запросите справку об отказе (odbijenica), если ваш город её выдаёт.",
+    "Подайте подтверждение медицинского осмотра ребёнка так, как требует учреждение, и подпишите договор, когда учреждение вас вызовет."
+   ],
+   "tips": [
+    "Подавайте заявление в период конкурса: электронное заявление подаётся только в период конкурса выбранного учреждения.",
+    "При подаче через eVrtić не отправляйте и не приносите документы по почте: данные из реестров собираются автоматически.",
+    "Приложите к заявлению подтверждение статуса (например, родитель-одиночка), поскольку приоритет предоставляется детям из уязвимых групп.",
+    "Укажите другие учреждения на выбор, поскольку первое может быть заполнено.",
+    "Конкурс различается по городам и общинам; всегда проверяйте даты на сайте вашего города или учреждения."
+   ],
+   "faq": [
+    {
+     "q": "Кто проводит конкурс на запись?",
+     "a": "Его проводит каждое дошкольное учреждение вместе с учредителем на территории своей общины или города. Способ и порядок записи определяются уставом учреждения с согласия учредителя."
+    },
+    {
+     "q": "Когда обычно открывается конкурс?",
+     "a": "Дата различается по городам. Примеры: в Крагуеваце конкурс на 2025/26 год проходил с 11. 3. по 28. 3. 2025, а в Белграде — с 7. 4. по 16. 5. 2025. Электронные заявления на 2026 год открылись на eUprava в феврале 2026 года в 31 общине и городе, кроме Белграда."
+    },
+    {
+     "q": "Кто имеет приоритет?",
+     "a": "В учреждениях, основанных Республикой, автономным краем или единицей местного самоуправления, приоритет имеют дети из уязвимых групп. Более подробные условия приоритета министр просвещения устанавливает правилником."
+    },
+    {
+     "q": "Сколько я плачу за пребывание ребёнка?",
+     "a": "Цену определяет учредитель, то есть город или община, поэтому сумма различается. Закон не устанавливает процент участия родителей. От оплаты освобождены дети без родительской опеки, дети с трудностями в развитии и инвалидностью и дети из материально необеспеченных семей. Город Белград объявил в 2025 году, что детские сады в городской системе бесплатны."
+    },
+    {
+     "q": "Что делать, если ребёнка не приняли?",
+     "a": "В Белграде жалобу можно подать после предварительного рейтинг-списка. Родитель может запросить справку об отказе (odbijenica), которая нужна для записи в частный детский сад с городской субсидией и с 2025 года действительна три месяца. Для других городов и для записи в течение года уточняйте в учреждении."
+    },
+    {
+     "q": "Есть ли субсидия на частный детский сад?",
+     "a": "Это зависит от города. В 2025 году город Белград объявил субсидию в 33.000 динаров на каждого ребёнка, записанного в частный детский сад в городской системе. Для других городов проверьте сайт города."
+    }
+   ],
+   "for_foreigners": "Иностранные граждане, лица без гражданства, просители убежища и перемещённые лица записываются на тех же условиях, что и граждане Сербии. С 2026 года eUprava предоставляет сервис «eVrtić – foreign parent» для иностранных граждан с постоянным или временным проживанием, с электронным удостоверением личности на портале. Справка об отказе (odbijenica) также доступна иностранным гражданам. Если у ребёнка нет подтверждения места жительства или личных документов, запись проходит на тех же условиях, что и для граждан Сербии."
+  },
+  "de": {
+   "title": "Anmeldung in der Krippe (jaslice) und im Kindergarten (vrtić)",
+   "summary": "Anmeldung eines Kindes in einer Vorschuleinrichtung (predškolska ustanova), die von einer Stadt oder Gemeinde gegründet wurde, meist online über den Dienst eVrtić auf dem Portal eUprava.",
+   "where_note": "Reichen Sie den Antrag auf dem Portal eUprava (euprava.gov.rs) im Dienst eVrtić während der Ausschreibung (konkurs) der gewählten Vorschuleinrichtung ein. Wenn Ihre Gemeinde oder Stadt eVrtić nicht anbietet, melden Sie das Kind direkt in der Einrichtung an.",
+   "who": [
+    "Ein Elternteil oder ein anderer gesetzlicher Vertreter des Kindes beantragt die Anmeldung.",
+    "Das Vorschulalter reicht von 6 Monaten bis zum Schuleintritt: Krippengruppen (jaslice) sind für Kinder von 6 Monaten bis 3 Jahren, Kindergartengruppen (vrtić) für Kinder von 3 Jahren bis zum Schuleintritt.",
+    "Alle Kinder im Jahr vor dem Schulbeginn werden in einer Vorschuleinrichtung angemeldet (vorbereitendes Vorschulprogramm).",
+    "Für den elektronischen Antrag benötigen Sie ein Konto auf dem Portal eUprava mit einer elektronischen Identität (eID).",
+    "Ein Kind ab 3 Jahren bis zum Schulbeginn kann auf Stellungnahme einer intersektoralen Kommission und mit Zustimmung der Eltern einer Entwicklungsgruppe beitreten.",
+    "Ausländische Staatsangehörige, staatenlose Kinder, Asylsuchende und Vertriebene werden zu denselben Bedingungen angemeldet wie serbische Staatsangehörige."
+   ],
+   "documents": [
+    {
+     "name": "Elektronischer Antrag (eVrtić)",
+     "note": "Wird auf dem Portal eUprava ausgefüllt; für Ausländer mit ständigem oder vorübergehendem Aufenthalt gibt es einen eigenen Dienst eVrtić – ausländischer Elternteil."
+    },
+    {
+     "name": "Daten aus Geburtenregister, Wohnsitz und Versicherung der Eltern",
+     "note": "Werden von Amts wegen (po službenoj dužnosti) automatisch aus den Registern abgerufen; Sie fügen sie nicht bei.",
+     "variants": [
+      "Die Adresse wird aus dem Adressregister der Republikanischen Geodätischen Behörde ausgewählt"
+     ]
+    },
+    {
+     "name": "Nachweis der ärztlichen Untersuchung des Kindes",
+     "note": "Laut Bildungsministerium wird er mit den Anmeldeunterlagen eingereicht. Fragen Sie Ihre Einrichtung, ob er elektronisch beigefügt oder vor Beginn des Besuchs vorgelegt wird."
+    },
+    {
+     "name": "Nachweis eines besonderen Familienstatus",
+     "note": "Wird elektronisch mit dem Antrag beigefügt, nur wenn Sie sich darauf berufen.",
+     "variants": [
+      "Alleinerziehender Elternteil",
+      "Opfer häuslicher Gewalt",
+      "Kind mit Entwicklungsschwierigkeiten",
+      "Familie, die Sozialhilfe erhält"
+     ]
+    }
+   ],
+   "steps": [
+    "Prüfen Sie auf eUprava, ob Ihre Gemeinde oder Stadt eVrtić anbietet und wann die Einrichtung ihre Ausschreibung eröffnet.",
+    "Registrieren Sie sich auf dem Portal eUprava und halten Sie Ihre elektronische Identität (eID) bereit.",
+    "Wählen Sie auf dem Portal Porodica (Familie), dann eVrtić, dann die Vorschuleinrichtung.",
+    "Füllen Sie den elektronischen Antrag während der Ausschreibung dieser Einrichtung aus; Sie können auch eine zweite und dritte Wahl angeben.",
+    "Fügen Sie den Nachweis über einen besonderen Status bei, wenn Sie sich darauf berufen.",
+    "Verfolgen Sie den Status des Antrags unter Moja eUprava (Meine eUprava); Benachrichtigungen können per E-Mail oder SMS eintreffen.",
+    "Prüfen Sie die vorläufige Rangliste auf der Website und an der Anschlagtafel der Einrichtung.",
+    "Wenn das Kind nicht aufgenommen wird, legen Sie innerhalb der von der Einrichtung genannten Frist Widerspruch ein oder beantragen Sie eine Ablehnungsbescheinigung (odbijenica), sofern Ihre Stadt sie ausstellt.",
+    "Reichen Sie den Nachweis der ärztlichen Untersuchung des Kindes wie von der Einrichtung verlangt ein und unterschreiben Sie den Vertrag, wenn die Einrichtung Sie dazu einlädt."
+   ],
+   "tips": [
+    "Melden Sie das Kind während der Ausschreibung an; der elektronische Antrag wird nur im Ausschreibungszeitraum der gewählten Einrichtung eingereicht.",
+    "Senden Sie keine Unterlagen per E-Mail und geben Sie keine ab, wenn Sie sich über eVrtić anmelden; die Registerdaten werden automatisch abgerufen.",
+    "Fügen Sie den Statusnachweis (zum Beispiel alleinerziehender Elternteil) dem Antrag bei, weil Kinder aus schutzbedürftigen Gruppen Vorrang haben.",
+    "Geben Sie weitere Einrichtungen als Wahl an, da die erste Wahl voll sein kann.",
+    "Die Ausschreibung unterscheidet sich je nach Stadt und Gemeinde; prüfen Sie die Termine immer auf der Website Ihrer Stadt oder der Einrichtung."
+   ],
+   "faq": [
+    {
+     "q": "Wer führt die Ausschreibung für die Anmeldung durch?",
+     "a": "Jede Vorschuleinrichtung führt sie gemeinsam mit dem Gründer auf dem Gebiet ihrer Gemeinde oder Stadt durch. Art und Verfahren der Anmeldung legt die Satzung der Einrichtung mit Zustimmung des Gründers fest."
+    },
+    {
+     "q": "Wann beginnt die Ausschreibung in der Regel?",
+     "a": "Der Termin unterscheidet sich je nach Stadt. Beispiele: In Kragujevac lief die Ausschreibung 2025/26 vom 11. 3. bis 28. 3. 2025, in Belgrad vom 7. 4. bis 16. 5. 2025. Die elektronischen Anträge für 2026 wurden auf eUprava im Februar 2026 in 31 Gemeinden und Städten geöffnet, Belgrad ausgenommen."
+    },
+    {
+     "q": "Wer hat Vorrang?",
+     "a": "In Einrichtungen, die von der Republik, einer autonomen Provinz oder einer Einheit der lokalen Selbstverwaltung gegründet wurden, haben Kinder aus schutzbedürftigen Gruppen Vorrang. Die näheren Bedingungen für den Vorrang legt der Bildungsminister durch Verordnung fest."
+    },
+    {
+     "q": "Wie viel zahle ich für den Aufenthalt des Kindes?",
+     "a": "Der Gründer, also die Stadt oder Gemeinde, legt den Preis fest, daher unterscheidet sich der Betrag. Das Gesetz legt keinen Prozentsatz für den Elternanteil fest. Kinder ohne elterliche Fürsorge, Kinder mit Entwicklungsschwierigkeiten und Behinderungen sowie Kinder aus materiell benachteiligten Familien sind von der Zahlung befreit. Die Stadt Belgrad gab 2025 bekannt, dass die Kindergärten im städtischen System kostenlos sind."
+    },
+    {
+     "q": "Was geschieht, wenn das Kind nicht aufgenommen wird?",
+     "a": "In Belgrad kann nach der vorläufigen Rangliste Widerspruch eingelegt werden. Ein Elternteil kann eine Ablehnungsbescheinigung (odbijenica) beantragen; sie wird für die Anmeldung in einem privaten Kindergarten mit städtischem Zuschuss benötigt und gilt seit 2025 drei Monate. Fragen Sie für andere Städte und für die Anmeldung im Laufe des Jahres bei der Einrichtung nach."
+    },
+    {
+     "q": "Gibt es einen Zuschuss für einen privaten Kindergarten?",
+     "a": "Das hängt von der Stadt ab. Die Stadt Belgrad gab 2025 einen Zuschuss von 33.000 Dinar pro Kind bekannt, das in einem privaten Kindergarten im städtischen System angemeldet ist. Für andere Städte prüfen Sie die Website der Stadt."
+    }
+   ],
+   "for_foreigners": "Ausländische Staatsangehörige, staatenlose Kinder, Asylsuchende und Vertriebene werden zu denselben Bedingungen angemeldet wie serbische Staatsangehörige. Seit 2026 bietet eUprava ausländischen Staatsangehörigen mit ständigem oder vorübergehendem Aufenthalt den Dienst eVrtić – ausländischer Elternteil an, mit einer elektronischen Identität auf dem Portal. Die Ablehnungsbescheinigung (odbijenica) steht auch ausländischen Staatsangehörigen zur Verfügung. Wenn das Kind keinen Wohnsitznachweis oder keine Personaldokumente hat, erfolgt die Anmeldung zu denselben Bedingungen wie für serbische Staatsangehörige."
+  }
+ }
+}

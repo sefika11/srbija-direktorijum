@@ -1,0 +1,516 @@
+{
+ "slug": "priznavanje-strane-diplome",
+ "category": "obrazovanje-i-deca",
+ "org_types": [],
+ "lead_vertical": "sudski-prevodilac",
+ "status": "full",
+ "sort_order": 56,
+ "name_lat": "Priznavanje strane školske isprave i diplome",
+ "summary": "Priznavanje školskih isprava i diploma stečenih u inostranstvu radi zapošljavanja ili nastavka školovanja u Srbiji.",
+ "typical_duration": "Zakonski rok za rešenje je 60 dana od uredno podnetog zahteva; za diplomu sa jednog od 500 najbolje rangiranih univerziteta na priznatim listama rok je 8 dana. Agencija na svojoj stranici navodi da zbog većeg broja zahteva obrada trenutno traje duže.",
+ "legal_basis": "Zakon o Nacionalnom okviru kvalifikacija Republike Srbije (Sl. glasnik RS, br. 27/2018, 6/2020, 129/2021 - dr. zakon i 76/2023), član 34 (osnovno i srednje obrazovanje) i član 38 (visoko obrazovanje); Zakon o opštem upravnom postupku; Zakon o visokom obrazovanju (član 130. stav 2); Zakon o osnovama sistema obrazovanja i vaspitanja; Pravilnik o visini takse za javne usluge koje pruža Agencija za kvalifikacije (Sl. glasnik RS, br. 83/2024).",
+ "euprava_url": null,
+ "online_available": true,
+ "checked_at": "2026-11-10",
+ "fees": [
+  {
+   "item": "Priznavanje strane visokoškolske isprave radi zapošljavanja (po jednom zahtevu)",
+   "amount_rsd": 13150,
+   "basis": "Iznos je odštampan na uplatnici Agencije za kvalifikacije (svrha uplate: taksa - visoko obrazovanje); osnov je član 3. stav 3 Pravilnika o visini takse za javne usluge koje pruža Agencija (Sl. glasnik RS, br. 83/2024).",
+   "source_url": "https://www.azk.gov.rs/dokument.php?f=2q2d0t7u8r6s8gg.pdf",
+   "checked_at": "2026-11-10",
+   "note": "Za svaki nivo studija podnosi se poseban zahtev uz posebnu uplatu."
+  },
+  {
+   "item": "Priznavanje strane srednjoškolske isprave (po jednom zahtevu)",
+   "amount_rsd": 8900,
+   "basis": "Iznos je odštampan na uplatnici Agencije (svrha uplate: taksa - srednje obrazovanje); osnov je član 3. stav 2 Pravilnika (Sl. glasnik RS, br. 83/2024).",
+   "source_url": "https://www.azk.gov.rs/dokument.php?f=asdheiza6xc8soo.pdf",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "item": "Priznavanje strane osnovnoškolske isprave (po jednom zahtevu)",
+   "amount_rsd": 6100,
+   "basis": "Iznos je odštampan na uplatnici Agencije (svrha uplate: taksa - osnovno obrazovanje); osnov je član 3. stav 1 Pravilnika (Sl. glasnik RS, br. 83/2024).",
+   "source_url": "https://www.azk.gov.rs/dokument.php?f=3dmuwa3u4uaswko.pdf",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "item": "Akademsko priznavanje diplome radi nastavka studija na univerzitetu",
+   "amount_rsd": null,
+   "basis": "Postupak sprovodi univerzitet ili fakultet na koji se upisujete; iznos određuje ta institucija, ne Agencija.",
+   "source_url": "https://www.azk.gov.rs/dokument.php?f=5etnslg1exs08g0.pdf",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "item": "Overeni prevod sudskog tumača",
+   "amount_rsd": null,
+   "basis": "Cenu prevoda određuje sudski tumač; nije taksa Agencije.",
+   "source_url": "https://www.azk.gov.rs/dokument.php?f=7f95d20309a2d1627748.pdf",
+   "checked_at": "2026-11-10"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://www.azk.gov.rs/strana/enic-naric-centar",
+   "title": "Agencija za kvalifikacije - ENIC/NARIC centar",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "url": "https://www.azk.gov.rs/stranica.php?stari_id=106",
+   "title": "Agencija za kvalifikacije - najčešće postavljana pitanja",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "url": "https://www.azk.gov.rs/dokument.php?f=7f95d20309a2d1627748.pdf",
+   "title": "Uputstvo za profesionalno priznavanje stranih visokoškolskih isprava (2026)",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "url": "https://www.azk.gov.rs/dokument.php?f=5etnslg1exs08g0.pdf",
+   "title": "Osnovne informacije - priznavanje visokoškolskih isprava",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "url": "https://www.azk.gov.rs/dokument.php?f=1b16u9tcln6s8c4.pdf",
+   "title": "Uputstvo za priznavanje stranih srednjoškolskih isprava",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "url": "https://www.azk.gov.rs/dokument.php?f=c2mc1pzsay0oo88.pdf",
+   "title": "Uputstvo za priznavanje stranih osnovnoškolskih isprava",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "url": "https://welcometoserbia.gov.rs/priznavanje-diploma",
+   "title": "Welcome to Serbia - Priznavanje diploma (upis učenika)",
+   "checked_at": "2026-11-10"
+  }
+ ],
+ "guide": {
+  "sr": {
+   "title": "Priznavanje strane školske isprave i diplome",
+   "summary": "Strana isprava o osnovnom, srednjem ili visokom obrazovanju priznaje se u Srbiji rešenjem Agencije za kvalifikacije (ENIC/NARIC centar), a za nastavak studija odlučuje univerzitet.",
+   "where_note": "Zahtev za osnovnu i srednju školu podnosi se elektronskim formularom na stranici ENIC/NARIC centra (azk.gov.rs), poštom ili lično na pisarnici Agencije za kvalifikacije, Majke Jevrosime 51, Beograd, IV sprat, radnim danima od 10.00 do 14.00 časova. Zahtev za profesionalno priznavanje visokoškolske isprave podnosi se isključivo elektronski na portalu Agencije.",
+   "who": [
+    "Pravo na zahtev ima svako lice, bez obzira na državljanstvo.",
+    "Priznavanje radi zapošljavanja (profesionalno) sprovodi ENIC/NARIC centar Agencije za kvalifikacije; priznavanje radi nastavka studija (akademsko) sprovode akreditovani univerziteti u Srbiji.",
+    "Priznavanje osnovnoškolske i srednjoškolske isprave radi nastavka školovanja sprovodi Agencija; upis učenika vrše školske uprave (prvi razred srednje škole) odnosno direktor škole (drugi, treći i četvrti razred).",
+    "Ako je imalac isprave maloletan, zahtev podnosi roditelj, staratelj, zakonski zastupnik ili punomoćnik.",
+    "Isprava stečena u SFRJ do 27. 4. 1992, u SR Jugoslaviji odnosno državnoj zajednici Srbija i Crna Gora (visoko obrazovanje do 16. 6. 2006) i u Republici Srpskoj ne podleže priznavanju.",
+    "Specijalizacije i sertifikati stručnog osposobljavanja, kao i uverenja o diplomiranju, ne priznaju se; priznaju se samo završne diplome."
+   ],
+   "documents": [
+    {
+     "name": "Zahtev (elektronski formular ili štampani obrazac)",
+     "note": "Za visoko obrazovanje popunjava se isključivo elektronski; pri preuzimanju rešenja donosi se odštampan i potpisan."
+    },
+    {
+     "name": "Originalna isprava ili overena kopija",
+     "note": "Overena pečatom Apostille u državi izdavanja. Overa nije potrebna za države sa kojima Srbija ima ugovor o oslobađanju od legalizacije (spisak je u uputstvu Agencije). Za države van Haške konvencije traži se puna legalizacija.",
+     "variants": [
+      "Visoko obrazovanje: diploma i dodatak diplomi ili transkript ispita.",
+      "Srednje obrazovanje: svedočanstvo poslednjeg završenog razreda ili svedočanstvo/diploma o završenoj školi.",
+      "Osnovno obrazovanje: svedočanstvo poslednjeg završenog razreda ili o završenoj osnovnoj školi."
+     ]
+    },
+    {
+     "name": "Overeni prevod sudskog tumača",
+     "note": "Prevodi ga ovlašćeni sudski tumač u Srbiji za jezik isprave. Ne traži se prevod isprava izdatih u Bosni i Hercegovini, Hrvatskoj i Crnoj Gori; za visoko obrazovanje se umesto prevoda prilažu kopije overene kod javnog beležnika.",
+     "variants": [
+      "Srednja stručna škola, zapošljavanje ili nastavak u srednjoj školi: svedočanstvo svakog razreda posebno i svedočanstvo o maturskom ili završnom ispitu.",
+      "Srednja škola, nastavak na visokoškolskoj ustanovi: samo svedočanstvo poslednjeg razreda i diploma ili matursko svedočanstvo.",
+      "Gimnazija: svedočanstvo poslednjeg ili završnog razreda i diploma ili matursko svedočanstvo."
+     ]
+    },
+    {
+     "name": "Dokazi o prethodnim razredima ili diplomama",
+     "note": "Svedočanstva svih prethodno završenih razreda; za visoko obrazovanje prethodne diplome sa dodatkom, a ako su priznate u Srbiji, rešenje o priznavanju."
+    },
+    {
+     "name": "Dokaz o uplati takse",
+     "note": "Skenirana uplatnica ili izveštaj elektronskog bankarstva. Ako plaća drugo lice, u svrhu uplate upišite ime korisnika usluge."
+    },
+    {
+     "name": "Izvod iz matične knjige rođenih",
+     "note": "Traži se za osnovnu i srednju školu. Za visoko obrazovanje traži se kopija lične karte ili pasoša."
+    },
+    {
+     "name": "Dokaz o promeni imena ili prezimena",
+     "note": "Samo ako se imena u dokumentima razlikuju: izvod iz matične knjige venčanih ili rešenje nadležnog organa."
+    },
+    {
+     "name": "Overeno punomoćje ili odluka o starateljstvu",
+     "note": "Samo ako zahtev podnosi punomoćnik, staratelj ili zakonski zastupnik."
+    },
+    {
+     "name": "Biografija (CV) na srpskom ili engleskom",
+     "note": "Samo za visoko obrazovanje; iz nje mora biti vidljiv tok obrazovanja. Za doktorske studije prilaže se i disertacija sa proširenim apstraktom."
+    }
+   ],
+   "steps": [
+    "Odredite svrhu: zapošljavanje (Agencija), nastavak studija (univerzitet ili fakultet) ili nastavak osnovne ili srednje škole (Agencija).",
+    "Pribavite Apostille ili legalizaciju isprave u državi izdavanja, osim ako je država na spisku izuzetaka.",
+    "Prevedite isprave kod ovlašćenog sudskog tumača u Srbiji, osim isprava iz Bosne i Hercegovine, Hrvatske i Crne Gore.",
+    "Uplatite taksu prema uplatnici Agencije za odgovarajući nivo obrazovanja.",
+    "Popunite elektronski zahtev i priložite skenirana dokumenta; za osnovnu i srednju školu zahtev možete podneti i poštom ili lično na pisarnici.",
+    "Sačuvajte potvrdu da je postupak u toku; stiže na imejl nakon elektronske prijave, a na pisarnici se izdaje odmah.",
+    "Dopunite dokumentaciju u roku ako Agencija to zatraži; zahtev se inače odbacuje rešenjem.",
+    "Preuzmite rešenje po obaveštenju; za visoko obrazovanje donesite originale na uvid i štampani zahtev.",
+    "Za upis učenika priložite rešenje školskoj upravi ili direktoru škole, a za posao poslodavcu."
+   ],
+   "tips": [
+    "Počnite od pribavljanja Apostille i prevoda, jer su ti koraci van Agencije i određuju kada zahtev postaje uredan.",
+    "Nepotpun zahtev dobija poziv na dopunu sa rokom; ako ga propustite, Agencija odbacuje podnesak.",
+    "Za svaki nivo visokih studija podnosi se poseban zahtev, poseban set dokumenata i posebna taksa.",
+    "Agencija ne vraća dostavljenu dokumentaciju za visoko obrazovanje i trajno je čuva; originali se daju na uvid pri preuzimanju rešenja.",
+    "Ako ne možete lično da preuzmete rešenje, javite na agencija@azk.gov.rs koje lice preuzima rešenje i dokumenta."
+   ],
+   "faq": [
+    {
+     "q": "Koja je razlika između profesionalnog i akademskog priznavanja?",
+     "a": "Profesionalno priznavanje je radi zapošljavanja i sprovodi ga ENIC/NARIC centar Agencije za kvalifikacije. Akademsko priznavanje je radi nastavka obrazovanja i sprovode ga akreditovani univerziteti u Srbiji."
+    },
+    {
+     "q": "Koliko košta priznavanje?",
+     "a": "Na uplatnicama Agencije (proverene 10. 11. 2026) iznos je 13.150 RSD za visoko, 8.900 RSD za srednje i 6.100 RSD za osnovno obrazovanje, po zahtevu. Akademsko priznavanje naplaćuje univerzitet."
+    },
+    {
+     "q": "Koliko traje postupak?",
+     "a": "Zakonski rok je 60 dana od uredno podnetog zahteva, odnosno 8 dana za diplomu sa jednog od 500 najbolje rangiranih univerziteta na Šangajskoj, US News ili Times listi. Rešenje se preuzima u roku od 30 dana od obaveštenja, ponedeljkom, sredom i petkom od 10.00 do 14.00 časova."
+    },
+    {
+     "q": "Može li dete da krene u školu pre rešenja?",
+     "a": "Učenik koji je podneo zahtev za priznavanje strane osnovnoškolske isprave može biti uslovno upisan u naredni razred ako postupak nije okončan do početka školske godine. Za upis u prvi razred srednje škole prilaže se potvrda o predatoj dokumentaciji, a rešenje se naknadno dopunjuje."
+    },
+    {
+     "q": "Čemu služi rešenje o priznavanju?",
+     "a": "Izjednačava stranu ispravu sa odgovarajućom javnom ispravom Srbije, pa daje pravo na nastavak školovanja ili zapošljavanje. Rešenje o priznavanju visokoškolske isprave javna je isprava i konačno je u upravnom postupku."
+    },
+    {
+     "q": "Da li je rešenje obavezno za posao?",
+     "a": "Prema Agenciji, za nastavak školovanja je obavezno (alternativa je provera znanja u školama), a za zapošljavanje u većini slučajeva. Poslodavac ili propis određuje da li se traži."
+    }
+   ],
+   "for_foreigners": "Strani državljani i lica bez državljanstva mogu podneti zahtev pod istim uslovima kao državljani Srbije. Agencija navodi da je potrebno znanje srpskog jezika samo ako to traži poslodavac, a propis ga ne uslovljava za nastavak školovanja. Izbeglice, lica sa azilom ili privremenom zaštitom i tražioci azila mogu zatražiti oslobađanje od takse; o tome odlučuje direktor Agencije na osnovu dokumentacije. Agencija je izdala i obrazac zahteva na engleskom jeziku za osnovnu i srednju školu."
+  },
+  "en": {
+   "title": "Recognition of a foreign school certificate and diploma",
+   "summary": "A foreign primary, secondary or higher-education document is recognised in Serbia by a decision of the Agencija za kvalifikacije (Qualifications Agency, ENIC/NARIC centre); for continuing studies the university decides.",
+   "where_note": "For primary and secondary school, apply through the online form on the ENIC/NARIC centre page (azk.gov.rs), by post, or in person at the registry of the Agencija za kvalifikacije, Majke Jevrosime 51, Belgrade, 4th floor, on working days from 10.00 to 14.00. Professional recognition of a higher-education document is filed only electronically on the Agency's portal.",
+   "who": [
+    "Anyone may apply, regardless of citizenship.",
+    "Recognition for employment (professional) is carried out by the Agency's ENIC/NARIC centre; recognition for continuing studies (academic) is carried out by accredited universities in Serbia.",
+    "Recognition of a primary or secondary certificate for continuing school is carried out by the Agency; pupils are enrolled by the school administration (first year of secondary school) or by the school director (second, third and fourth year).",
+    "If the holder is a minor, the parent, guardian, legal representative or an authorised person files the request.",
+    "Documents obtained in the SFRY up to 27. 4. 1992, in the FR Yugoslavia or the State Union of Serbia and Montenegro (higher education up to 16. 6. 2006) and in Republika Srpska are not subject to recognition.",
+    "Specialisations, vocational-training certificates and graduation confirmations are not recognised; only final diplomas are."
+   ],
+   "documents": [
+    {
+     "name": "Application (online form or printed form)",
+     "note": "For higher education it is completed only online; bring it printed and signed when collecting the decision."
+    },
+    {
+     "name": "Original document or certified copy",
+     "note": "Certified with an Apostille in the issuing country. No Apostille is needed for countries with a treaty exempting documents from legalisation (list in the Agency's guide). Countries outside the Hague Convention require full legalisation.",
+     "variants": [
+      "Higher education: diploma and diploma supplement or transcript of exams.",
+      "Secondary education: certificate of the last completed grade or certificate/diploma of the completed school.",
+      "Primary education: certificate of the last completed grade or of the completed primary school."
+     ]
+    },
+    {
+     "name": "Certified translation by a court translator",
+     "note": "Done by an authorised court translator in Serbia for the language of the document. Documents issued in Bosnia and Herzegovina, Croatia and Montenegro need no translation; for higher education, copies certified by a notary are attached instead.",
+     "variants": [
+      "Vocational secondary school, employment or continuing in secondary school: each grade's certificate separately and the certificate of the final or matura exam.",
+      "Secondary school, continuing at a higher-education institution: only the last grade's certificate and the diploma or matura certificate.",
+      "Gymnasium: certificate of the last or final grade and the diploma or matura certificate."
+     ]
+    },
+    {
+     "name": "Proof of earlier grades or diplomas",
+     "note": "Certificates of all previously completed grades; for higher education, earlier diplomas with supplement, or the Serbian recognition decision if already recognised."
+    },
+    {
+     "name": "Proof of fee payment",
+     "note": "Scanned payment slip or e-banking report. If someone else pays, write the service user's name in the payment purpose."
+    },
+    {
+     "name": "Birth certificate extract",
+     "note": "Required for primary and secondary school. For higher education, a copy of the ID card or passport is required."
+    },
+    {
+     "name": "Proof of change of name or surname",
+     "note": "Only if names differ across documents: marriage certificate extract or decision of the competent authority."
+    },
+    {
+     "name": "Certified power of attorney or guardianship decision",
+     "note": "Only if a proxy, guardian or legal representative files the request."
+    },
+    {
+     "name": "CV in Serbian or English",
+     "note": "Higher education only; it must show the course of education. For doctoral studies, add the dissertation with an extended abstract."
+    }
+   ],
+   "steps": [
+    "Determine the purpose: employment (Agency), continuing studies (university or faculty), or continuing primary or secondary school (Agency).",
+    "Obtain the Apostille or legalisation of the document in the issuing country, unless the country is on the exemption list.",
+    "Have the documents translated by an authorised court translator in Serbia, except documents from Bosnia and Herzegovina, Croatia and Montenegro.",
+    "Pay the fee using the Agency's payment slip for the relevant education level.",
+    "Fill in the online application and attach the scanned documents; for primary and secondary school you can also file by post or in person at the registry.",
+    "Keep the confirmation that the procedure is in progress; it arrives by e-mail after an online application and is issued on the spot at the registry.",
+    "Complete the documents within the deadline if the Agency asks; otherwise the request is dismissed by decision.",
+    "Collect the decision when notified; for higher education bring the originals for inspection and the printed application.",
+    "Submit the decision to the school administration or school director for enrolment, or to the employer for work."
+   ],
+   "tips": [
+    "Start with the Apostille and the translation, because they happen outside the Agency and determine when the request counts as complete.",
+    "An incomplete request receives a call to complete it with a deadline; if you miss it, the Agency dismisses the submission.",
+    "Each level of higher studies needs a separate request, a separate set of documents and a separate fee.",
+    "The Agency does not return documents filed for higher education and keeps them permanently; originals are shown for inspection when collecting the decision.",
+    "If you cannot collect the decision in person, e-mail agencija@azk.gov.rs naming who will collect the decision and documents."
+   ],
+   "faq": [
+    {
+     "q": "What is the difference between professional and academic recognition?",
+     "a": "Professional recognition is for employment and is carried out by the Agency's ENIC/NARIC centre. Academic recognition is for continuing education and is carried out by accredited universities in Serbia."
+    },
+    {
+     "q": "How much does recognition cost?",
+     "a": "The Agency's payment slips (checked 10. 11. 2026) show 13,150 RSD for higher, 8,900 RSD for secondary and 6,100 RSD for primary education, per request. Academic recognition is charged by the university."
+    },
+    {
+     "q": "How long does the procedure take?",
+     "a": "The statutory deadline is 60 days from a properly filed request, or 8 days for a diploma from one of the top 500 universities on the Shanghai, US News or Times rankings. The decision is collected within 30 days of the notice, on Mondays, Wednesdays and Fridays from 10.00 to 14.00."
+    },
+    {
+     "q": "Can a child start school before the decision?",
+     "a": "A pupil who has applied for recognition of a foreign primary certificate may be conditionally enrolled in the next grade if the procedure is not finished by the start of the school year. For first-year secondary enrolment, the confirmation of submitted documents is filed and the decision added later."
+    },
+    {
+     "q": "What is the decision used for?",
+     "a": "It equates the foreign document with the corresponding Serbian public document, giving the right to continue schooling or to work. The decision on a higher-education document is a public document and is final in the administrative procedure."
+    },
+    {
+     "q": "Is the decision required for work?",
+     "a": "According to the Agency, it is mandatory for continuing school (the alternative is a knowledge check at schools) and in most cases for employment. The employer or regulation determines whether it is required."
+    }
+   ],
+   "for_foreigners": "Foreign nationals and stateless persons may apply under the same conditions as Serbian citizens. The Agency states that Serbian language knowledge is required only if an employer asks for it, and the law does not require it for continuing school. Refugees, persons with asylum or temporary protection and asylum seekers may request a fee waiver; the Agency's director decides on the basis of documents. The Agency also publishes an English-language application form for primary and secondary school."
+  },
+  "ru": {
+   "title": "Признание иностранного школьного свидетельства и диплома",
+   "summary": "Иностранный документ об начальном, среднем или высшем образовании признаётся в Сербии решением Agencija za kvalifikacije (Агентство по квалификациям, центр ENIC/NARIC); для продолжения обучения решение принимает университет.",
+   "where_note": "Для начальной и средней школы подайте заявление через онлайн-форму на странице центра ENIC/NARIC (azk.gov.rs), по почте или лично в канцелярии Agencija za kvalifikacije по адресу Majke Jevrosime 51, Белград, 4 этаж, в рабочие дни с 10.00 до 14.00. Профессиональное признание документа о высшем образовании подаётся только в электронном виде на портале Агентства.",
+   "who": [
+    "Подать заявление может любой человек, независимо от гражданства.",
+    "Признание для трудоустройства (профессиональное) проводит центр ENIC/NARIC Агентства; признание для продолжения обучения (академическое) проводят аккредитованные университеты в Сербии.",
+    "Признание свидетельства о начальном или среднем образовании для продолжения школьного обучения проводит Агентство; учащихся записывает школьное управление (первый класс средней школы) или директор школы (второй, третий и четвёртый класс).",
+    "Если владелец документа несовершеннолетний, запрос подаёт родитель, опекун, законный представитель или уполномоченное лицо.",
+    "Документы, полученные в СФРЮ до 27. 4. 1992, в СР Югославии или Государственном союзе Сербии и Черногории (высшее образование до 16. 6. 2006) и в Республике Сербской, признанию не подлежат.",
+    "Специализации, свидетельства о профессиональной подготовке и подтверждения об окончании не признаются; признаются только итоговые дипломы."
+   ],
+   "documents": [
+    {
+     "name": "Заявление (онлайн-форма или бумажный бланк)",
+     "note": "Для высшего образования заполняется только онлайн; при получении решения принесите его распечатанным и подписанным."
+    },
+    {
+     "name": "Оригинал документа или заверенная копия",
+     "note": "Заверяется апостилем в стране выдачи. Апостиль не нужен для стран, с которыми есть договор об освобождении документов от легализации (список в инструкции Агентства). Страны, не входящие в Гаагскую конвенцию, требуют полной легализации.",
+     "variants": [
+      "Высшее образование: диплом и приложение к диплому или выписка об экзаменах.",
+      "Среднее образование: свидетельство за последний завершённый класс или свидетельство/диплом об оконченной школе.",
+      "Начальное образование: свидетельство за последний завершённый класс или об оконченной начальной школе."
+     ]
+    },
+    {
+     "name": "Заверенный перевод судебного переводчика",
+     "note": "Выполняется уполномоченным судебным переводчиком в Сербии с языка документа. Документы, выданные в Боснии и Герцеговине, Хорватии и Черногории, в переводе не нуждаются; для высшего образования вместо этого прилагаются копии, заверенные нотариусом.",
+     "variants": [
+      "Профессиональная средняя школа, трудоустройство или продолжение обучения в средней школе: свидетельство за каждый класс отдельно и свидетельство об итоговом или матурном экзамене.",
+      "Средняя школа, продолжение в учреждении высшего образования: только свидетельство за последний класс и диплом или свидетельство о матуре.",
+      "Гимназия: свидетельство за последний или завершающий класс и диплом или свидетельство о матуре."
+     ]
+    },
+    {
+     "name": "Подтверждение предыдущих классов или дипломов",
+     "note": "Свидетельства за все ранее завершённые классы; для высшего образования — прежние дипломы с приложением или сербское решение о признании, если они уже признаны."
+    },
+    {
+     "name": "Подтверждение оплаты сбора",
+     "note": "Скан платёжного поручения или отчёт электронного банкинга. Если платит другое лицо, укажите в назначении платежа имя получателя услуги."
+    },
+    {
+     "name": "Выписка из книги записей о рождении",
+     "note": "Требуется для начальной и средней школы. Для высшего образования требуется копия удостоверения личности или паспорта."
+    },
+    {
+     "name": "Подтверждение смены имени или фамилии",
+     "note": "Только если имена в документах различаются: выписка из книги записей о браке или решение компетентного органа."
+    },
+    {
+     "name": "Заверенная доверенность или решение об опеке",
+     "note": "Только если запрос подаёт представитель по доверенности, опекун или законный представитель."
+    },
+    {
+     "name": "Резюме на сербском или английском языке",
+     "note": "Только для высшего образования; в нём должен быть виден ход образования. Для докторантуры добавьте диссертацию с расширенной аннотацией."
+    }
+   ],
+   "steps": [
+    "Определите цель: трудоустройство (Агентство), продолжение обучения (университет или факультет) или продолжение начальной или средней школы (Агентство).",
+    "Получите апостиль или легализацию документа в стране выдачи, если страна не входит в список освобождённых.",
+    "Переведите документы у уполномоченного судебного переводчика в Сербии, кроме документов из Боснии и Герцеговины, Хорватии и Черногории.",
+    "Оплатите сбор по платёжному поручению Агентства для соответствующего уровня образования.",
+    "Заполните онлайн-заявление и приложите отсканированные документы; для начальной и средней школы можно также подать их по почте или лично в канцелярии.",
+    "Сохраните подтверждение того, что процедура идёт; после онлайн-заявления оно приходит по электронной почте, а в канцелярии выдаётся на месте.",
+    "Дополните документы в срок, если Агентство этого потребует; иначе запрос отклоняется решением.",
+    "Получите решение, когда вас уведомят; для высшего образования принесите оригиналы для предъявления и распечатанное заявление.",
+    "Представьте решение в школьное управление или директору школы для записи либо работодателю для работы."
+   ],
+   "tips": [
+    "Начните с апостиля и перевода, поскольку они выполняются вне Агентства и определяют, когда запрос считается полным.",
+    "Неполный запрос получает требование о дополнении с указанием срока; если вы его пропустите, Агентство отклоняет обращение.",
+    "Для каждого уровня высшего образования нужны отдельный запрос, отдельный комплект документов и отдельный сбор.",
+    "Агентство не возвращает документы, поданные для высшего образования, и хранит их постоянно; оригиналы предъявляются при получении решения.",
+    "Если вы не можете получить решение лично, напишите на agencija@azk.gov.rs, указав, кто получит решение и документы."
+   ],
+   "faq": [
+    {
+     "q": "Чем отличается профессиональное признание от академического?",
+     "a": "Профессиональное признание нужно для трудоустройства, его проводит центр ENIC/NARIC Агентства. Академическое признание нужно для продолжения образования, его проводят аккредитованные университеты в Сербии."
+    },
+    {
+     "q": "Сколько стоит признание?",
+     "a": "Платёжные поручения Агентства (Проверено 10. 11. 2026) указывают 13.150 RSD за высшее, 8.900 RSD за среднее и 6.100 RSD за начальное образование, за один запрос. За академическое признание плату взимает университет."
+    },
+    {
+     "q": "Сколько длится процедура?",
+     "a": "Установленный законом срок составляет 60 дней с момента надлежащей подачи запроса или 8 дней для диплома одного из 500 лучших университетов по Шанхайскому рейтингу, US News или Times. Решение нужно получить в течение 30 дней после уведомления, по понедельникам, средам и пятницам с 10.00 до 14.00."
+    },
+    {
+     "q": "Может ли ребёнок начать учёбу до решения?",
+     "a": "Учащийся, подавший заявление о признании иностранного свидетельства о начальном образовании, может быть условно записан в следующий класс, если процедура не завершена к началу учебного года. При записи в первый класс средней школы подаётся подтверждение о поданных документах, а решение добавляется позже."
+    },
+    {
+     "q": "Для чего используется решение?",
+     "a": "Оно приравнивает иностранный документ к соответствующему сербскому публичному документу и даёт право продолжить обучение или работать. Решение по документу о высшем образовании является публичным документом и окончательно в административной процедуре."
+    },
+    {
+     "q": "Требуется ли решение для работы?",
+     "a": "По данным Агентства, оно обязательно для продолжения обучения в школе (альтернатива — проверка знаний в школах) и в большинстве случаев для трудоустройства. Требуется ли оно, определяет работодатель или нормативный акт."
+    }
+   ],
+   "for_foreigners": "Иностранные граждане и лица без гражданства могут подавать заявление на тех же условиях, что и граждане Сербии. Агентство указывает, что знание сербского языка требуется только если его запрашивает работодатель, а для продолжения школьного обучения закон его не требует. Беженцы, лица с убежищем или временной защитой и просители убежища могут просить об освобождении от сбора; директор Агентства решает на основании документов. Агентство также публикует форму заявления на английском языке для начальной и средней школы."
+  },
+  "de": {
+   "title": "Anerkennung eines ausländischen Schulzeugnisses und Diploms",
+   "summary": "Ein ausländisches Dokument über Grundschule, weiterführende Schule oder Hochschulbildung wird in Serbien durch einen Bescheid der Agencija za kvalifikacije (Qualifikationsagentur, ENIC/NARIC-Zentrum) anerkannt; für die Fortsetzung des Studiums entscheidet die Universität.",
+   "where_note": "Für Grundschule und weiterführende Schule stellen Sie den Antrag über das Online-Formular auf der Seite des ENIC/NARIC-Zentrums (azk.gov.rs), per Post oder persönlich in der Registratur der Agencija za kvalifikacije, Majke Jevrosime 51, Belgrad, 4. Stock, an Werktagen von 10.00 bis 14.00 Uhr. Die berufliche Anerkennung eines Hochschuldokuments wird nur elektronisch auf dem Portal der Agentur beantragt.",
+   "who": [
+    "Jeder kann sich unabhängig von der Staatsangehörigkeit bewerben.",
+    "Die Anerkennung für die Beschäftigung (berufliche Anerkennung) führt das ENIC/NARIC-Zentrum der Agentur durch; die Anerkennung für die Fortsetzung des Studiums (akademische Anerkennung) führen akkreditierte Universitäten in Serbien durch.",
+    "Die Anerkennung eines Grundschul- oder Schulzeugnisses der weiterführenden Schule für die Fortsetzung der Schulbildung führt die Agentur durch; die Schüler werden von der Schulverwaltung (erstes Jahr der weiterführenden Schule) oder vom Schuldirektor (zweites, drittes und viertes Jahr) aufgenommen.",
+    "Ist der Inhaber minderjährig, stellt ein Elternteil, Vormund, gesetzlicher Vertreter oder Bevollmächtigter den Antrag.",
+    "Dokumente, die in der SFRJ bis zum 27. 4. 1992, in der BR Jugoslawien oder der Staatenunion Serbien und Montenegro (Hochschulbildung bis zum 16. 6. 2006) und in der Republika Srpska erworben wurden, unterliegen nicht der Anerkennung.",
+    "Spezialisierungen, Berufsbildungsbescheinigungen und Abschlussbestätigungen werden nicht anerkannt; nur Abschlussdiplome."
+   ],
+   "documents": [
+    {
+     "name": "Antrag (Online-Formular oder gedrucktes Formular)",
+     "note": "Für die Hochschulbildung wird er nur online ausgefüllt; bringen Sie ihn gedruckt und unterschrieben mit, wenn Sie den Bescheid abholen."
+    },
+    {
+     "name": "Originaldokument oder beglaubigte Kopie",
+     "note": "Im ausstellenden Land mit einer Apostille beglaubigt. Für Länder mit einem Abkommen, das Dokumente von der Legalisierung befreit, ist keine Apostille nötig (Liste in der Anleitung der Agentur). Länder außerhalb des Haager Übereinkommens verlangen die vollständige Legalisierung.",
+     "variants": [
+      "Hochschulbildung: Diplom und Diplomzusatz oder Prüfungsübersicht.",
+      "Weiterführende Schule: Zeugnis der letzten abgeschlossenen Klasse oder Zeugnis/Diplom der abgeschlossenen Schule.",
+      "Grundschule: Zeugnis der letzten abgeschlossenen Klasse oder der abgeschlossenen Grundschule."
+     ]
+    },
+    {
+     "name": "Beglaubigte Übersetzung durch einen Gerichtsübersetzer",
+     "note": "Wird von einem in Serbien zugelassenen Gerichtsübersetzer für die Sprache des Dokuments angefertigt. Dokumente, die in Bosnien und Herzegowina, Kroatien und Montenegro ausgestellt wurden, benötigen keine Übersetzung; für die Hochschulbildung werden stattdessen von einem Notar beglaubigte Kopien beigefügt.",
+     "variants": [
+      "Berufsbildende weiterführende Schule, Beschäftigung oder Fortsetzung in der weiterführenden Schule: das Zeugnis jeder Klasse einzeln und das Zeugnis der Abschluss- oder Maturaprüfung.",
+      "Weiterführende Schule, Fortsetzung an einer Hochschuleinrichtung: nur das Zeugnis der letzten Klasse und das Diplom oder Maturazeugnis.",
+      "Gymnasium: Zeugnis der letzten Klasse oder der Abschlussklasse und das Diplom oder Maturazeugnis."
+     ]
+    },
+    {
+     "name": "Nachweis früherer Klassen oder Diplome",
+     "note": "Zeugnisse aller zuvor abgeschlossenen Klassen; für die Hochschulbildung frühere Diplome mit Zusatz oder der serbische Anerkennungsbescheid, falls bereits anerkannt."
+    },
+    {
+     "name": "Nachweis der Gebührenzahlung",
+     "note": "Eingescannter Zahlungsbeleg oder E-Banking-Bericht. Wenn jemand anderes zahlt, geben Sie den Namen des Leistungsempfängers im Verwendungszweck an."
+    },
+    {
+     "name": "Auszug aus dem Geburtenregister",
+     "note": "Erforderlich für Grundschule und weiterführende Schule. Für die Hochschulbildung ist eine Kopie des Personalausweises oder Reisepasses erforderlich."
+    },
+    {
+     "name": "Nachweis einer Namens- oder Familiennamensänderung",
+     "note": "Nur wenn die Namen in den Dokumenten abweichen: Auszug aus dem Heiratsregister oder Bescheid der zuständigen Behörde."
+    },
+    {
+     "name": "Beglaubigte Vollmacht oder Vormundschaftsbeschluss",
+     "note": "Nur wenn ein Bevollmächtigter, Vormund oder gesetzlicher Vertreter den Antrag stellt."
+    },
+    {
+     "name": "Lebenslauf auf Serbisch oder Englisch",
+     "note": "Nur für die Hochschulbildung; er muss den Bildungsverlauf zeigen. Für Doktoratsstudien fügen Sie die Dissertation mit einer erweiterten Zusammenfassung bei."
+    }
+   ],
+   "steps": [
+    "Bestimmen Sie den Zweck: Beschäftigung (Agentur), Fortsetzung des Studiums (Universität oder Fakultät) oder Fortsetzung der Grundschule oder weiterführenden Schule (Agentur).",
+    "Lassen Sie im ausstellenden Land die Apostille oder Legalisierung des Dokuments einholen, sofern das Land nicht auf der Liste der Befreiungen steht.",
+    "Lassen Sie die Dokumente von einem zugelassenen Gerichtsübersetzer in Serbien übersetzen, außer Dokumente aus Bosnien und Herzegowina, Kroatien und Montenegro.",
+    "Zahlen Sie die Gebühr mit dem Zahlschein der Agentur für die jeweilige Bildungsstufe.",
+    "Füllen Sie den Online-Antrag aus und fügen Sie die eingescannten Dokumente bei; für Grundschule und weiterführende Schule können Sie ihn auch per Post oder persönlich in der Registratur einreichen.",
+    "Bewahren Sie die Bestätigung auf, dass das Verfahren läuft; sie kommt nach einem Online-Antrag per E-Mail und wird in der Registratur sofort ausgestellt.",
+    "Vervollständigen Sie die Unterlagen innerhalb der Frist, wenn die Agentur dazu auffordert; andernfalls wird der Antrag durch Bescheid zurückgewiesen.",
+    "Holen Sie den Bescheid ab, wenn Sie benachrichtigt werden; für die Hochschulbildung bringen Sie die Originale zur Einsicht und den gedruckten Antrag mit.",
+    "Reichen Sie den Bescheid zur Aufnahme bei der Schulverwaltung oder beim Schuldirektor ein, oder zur Beschäftigung beim Arbeitgeber."
+   ],
+   "tips": [
+    "Beginnen Sie mit der Apostille und der Übersetzung, weil sie außerhalb der Agentur erfolgen und bestimmen, wann der Antrag als vollständig gilt.",
+    "Ein unvollständiger Antrag erhält eine Aufforderung zur Vervollständigung mit einer Frist; wenn Sie sie versäumen, weist die Agentur den Antrag zurück.",
+    "Jede Stufe des Hochschulstudiums braucht einen eigenen Antrag, einen eigenen Satz Unterlagen und eine eigene Gebühr.",
+    "Die Agentur gibt die für die Hochschulbildung eingereichten Dokumente nicht zurück und behält sie dauerhaft; die Originale werden bei der Abholung des Bescheids zur Einsicht gezeigt.",
+    "Wenn Sie den Bescheid nicht persönlich abholen können, schreiben Sie an agencija@azk.gov.rs und nennen Sie, wer den Bescheid und die Dokumente abholt."
+   ],
+   "faq": [
+    {
+     "q": "Was ist der Unterschied zwischen beruflicher und akademischer Anerkennung?",
+     "a": "Die berufliche Anerkennung dient der Beschäftigung und wird vom ENIC/NARIC-Zentrum der Agentur durchgeführt. Die akademische Anerkennung dient der Fortsetzung der Bildung und wird von akkreditierten Universitäten in Serbien durchgeführt."
+    },
+    {
+     "q": "Wie viel kostet die Anerkennung?",
+     "a": "Die Zahlscheine der Agentur (geprüft am 10. 11. 2026) nennen pro Antrag 13.150 RSD für die Hochschulbildung, 8.900 RSD für die weiterführende Schule und 6.100 RSD für die Grundschule. Die akademische Anerkennung berechnet die Universität."
+    },
+    {
+     "q": "Wie lange dauert das Verfahren?",
+     "a": "Die gesetzliche Frist beträgt 60 Tage ab einem ordnungsgemäß gestellten Antrag, oder 8 Tage für ein Diplom einer der 500 besten Universitäten der Rankings von Shanghai, US News oder Times. Den Bescheid holen Sie innerhalb von 30 Tagen nach der Benachrichtigung ab, montags, mittwochs und freitags von 10.00 bis 14.00 Uhr."
+    },
+    {
+     "q": "Kann ein Kind vor dem Bescheid mit der Schule beginnen?",
+     "a": "Ein Schüler, der die Anerkennung eines ausländischen Grundschulzeugnisses beantragt hat, kann bedingt in die nächste Klasse aufgenommen werden, wenn das Verfahren bis zum Beginn des Schuljahres nicht abgeschlossen ist. Für die Aufnahme in das erste Jahr der weiterführenden Schule wird die Bestätigung über die eingereichten Unterlagen vorgelegt, und der Bescheid wird später nachgereicht."
+    },
+    {
+     "q": "Wofür dient der Bescheid?",
+     "a": "Er stellt das ausländische Dokument dem entsprechenden serbischen öffentlichen Dokument gleich und gibt das Recht, die Schulbildung fortzusetzen oder zu arbeiten. Der Bescheid über ein Hochschuldokument ist eine öffentliche Urkunde und im Verwaltungsverfahren endgültig."
+    },
+    {
+     "q": "Ist der Bescheid für die Arbeit erforderlich?",
+     "a": "Nach Angaben der Agentur ist er für die Fortsetzung der Schule verpflichtend (die Alternative ist eine Kenntnisprüfung an den Schulen) und in den meisten Fällen für die Beschäftigung. Der Arbeitgeber oder die Vorschrift bestimmt, ob er erforderlich ist."
+    }
+   ],
+   "for_foreigners": "Ausländische Staatsangehörige und Staatenlose können sich zu denselben Bedingungen bewerben wie serbische Staatsangehörige. Die Agentur gibt an, dass Kenntnisse der serbischen Sprache nur erforderlich sind, wenn ein Arbeitgeber sie verlangt, und das Gesetz verlangt sie für die Fortsetzung der Schule nicht. Flüchtlinge, Personen mit Asyl oder vorübergehendem Schutz und Asylsuchende können eine Gebührenbefreiung beantragen; der Direktor der Agentur entscheidet auf Grundlage der Unterlagen. Die Agentur veröffentlicht außerdem ein englischsprachiges Antragsformular für Grundschule und weiterführende Schule."
+  }
+ }
+}

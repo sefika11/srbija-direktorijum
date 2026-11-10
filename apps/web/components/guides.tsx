@@ -15,30 +15,34 @@ export const GUIDE_LABELS = {
         whereToGo: "Gde se ide", whoCan: "Ko može", documents: "Šta poneti", fees: "Koliko košta", duration: "Koliko traje", steps: "Koraci", faq: "Česta pitanja", forForeigners: "Za strane državljane",
         sources: "Izvori", checked: "Provereno", euprava: "Elektronski preko eUprave", shortNotice: "Kratki vodič: proverili smo nadležnu instituciju; detaljan opis dokumenata i taksi dodajemo uskoro.",
         servingFor: "Nadležno za", noServing: "Za izabranu opštinu još nemamo tačnu adresu. Pogledajte spisak svih lokacija:", pickHint: "Izaberite opštinu da vidite tačnu adresu, telefon i radno vreme nadležne službe.",
-        call: "Pozovi", open: "Otvori", allLocations: "Sve lokacije", amount: "Iznos", basis: "Osnov", variants: "Napomena", relatedTypes: "Nadležne institucije", inPreparation: "u pripremi", otherGuides: "Drugi vodiči", free: "bez takse", rsd: "RSD", journey: "Put kroz postupak", scrollHint: "Listajte ↓" },
+        call: "Pozovi", open: "Otvori", allLocations: "Sve lokacije", amount: "Iznos", basis: "Osnov", variants: "Napomena", relatedTypes: "Nadležne institucije", inPreparation: "u pripremi", otherGuides: "Drugi vodiči", free: "bez takse", rsd: "RSD", journey: "Put kroz postupak", scrollHint: "Listajte ↓", tips: "Saveti" },
   en: { guides: "Guides", guidesLead: "How things get done: documents, fees, deadlines and the exact office to visit in your municipality.", yourMunicipality: "Your municipality", choose: "Choose a city or municipality…",
         whereToGo: "Where to go", whoCan: "Who can apply", documents: "What to bring", fees: "Fees", duration: "How long it takes", steps: "Steps", faq: "Frequently asked", forForeigners: "For foreign nationals",
         sources: "Sources", checked: "Checked", euprava: "Online via eUprava", shortNotice: "Short guide: the competent institution is verified; the detailed document and fee list is coming soon.",
         servingFor: "Serving", noServing: "We do not yet have the exact office for this municipality. See all locations:", pickHint: "Pick your municipality to see the exact address, phone and hours of the competent office.",
-        call: "Call", open: "Open", allLocations: "All locations", amount: "Amount", basis: "Basis", variants: "Note", relatedTypes: "Competent institutions", inPreparation: "in preparation", otherGuides: "Other guides", free: "no fee", rsd: "RSD", journey: "The procedure, station by station", scrollHint: "Scroll ↓" },
+        call: "Call", open: "Open", allLocations: "All locations", amount: "Amount", basis: "Basis", variants: "Note", relatedTypes: "Competent institutions", inPreparation: "in preparation", otherGuides: "Other guides", free: "no fee", rsd: "RSD", journey: "The procedure, station by station", scrollHint: "Scroll ↓", tips: "Tips" },
   ru: { guides: "Инструкции", guidesLead: "Как всё оформить: документы, пошлины, сроки и точное место, куда идти в вашей общине.", yourMunicipality: "Ваша община", choose: "Выберите город или общину…",
         whereToGo: "Куда идти", whoCan: "Кто может", documents: "Что взять с собой", fees: "Сколько стоит", duration: "Сколько длится", steps: "Шаги", faq: "Частые вопросы", forForeigners: "Для иностранцев",
         sources: "Источники", checked: "Проверено", euprava: "Онлайн через eUprava", shortNotice: "Краткая инструкция: компетентное учреждение проверено; подробный список документов и пошлин скоро.",
         servingFor: "Обслуживает", noServing: "Для выбранной общины точного адреса пока нет. Смотрите все адреса:", pickHint: "Выберите общину, чтобы увидеть адрес, телефон и часы работы компетентной службы.",
-        call: "Позвонить", open: "Открыть", allLocations: "Все адреса", amount: "Сумма", basis: "Основание", variants: "Примечание", relatedTypes: "Компетентные учреждения", inPreparation: "готовится", otherGuides: "Другие инструкции", free: "без пошлины", rsd: "RSD", journey: "Путь по процедуре", scrollHint: "Листайте ↓" },
+        call: "Позвонить", open: "Открыть", allLocations: "Все адреса", amount: "Сумма", basis: "Основание", variants: "Примечание", relatedTypes: "Компетентные учреждения", inPreparation: "готовится", otherGuides: "Другие инструкции", free: "без пошлины", rsd: "RSD", journey: "Путь по процедуре", scrollHint: "Листайте ↓", tips: "Советы" },
   de: { guides: "Anleitungen", guidesLead: "So geht es: Unterlagen, Gebühren, Fristen und die genaue Stelle in Ihrer Gemeinde.", yourMunicipality: "Ihre Gemeinde", choose: "Stadt oder Gemeinde wählen…",
         whereToGo: "Wohin", whoCan: "Wer kann", documents: "Was mitbringen", fees: "Gebühren", duration: "Dauer", steps: "Schritte", faq: "Häufige Fragen", forForeigners: "Für Ausländer",
         sources: "Quellen", checked: "Geprüft", euprava: "Online über eUprava", shortNotice: "Kurzanleitung: die zuständige Stelle ist geprüft; die ausführliche Liste der Unterlagen und Gebühren folgt in Kürze.",
         servingFor: "Zuständig für", noServing: "Für die gewählte Gemeinde fehlt noch die genaue Stelle. Alle Standorte:", pickHint: "Wählen Sie Ihre Gemeinde, um Adresse, Telefon und Öffnungszeiten der zuständigen Stelle zu sehen.",
-        call: "Anrufen", open: "Öffnen", allLocations: "Alle Standorte", amount: "Betrag", basis: "Grundlage", variants: "Hinweis", relatedTypes: "Zuständige Stellen", inPreparation: "in Vorbereitung", otherGuides: "Weitere Anleitungen", free: "gebührenfrei", rsd: "RSD", journey: "Der Weg durch das Verfahren", scrollHint: "Scrollen ↓" },
+        call: "Anrufen", open: "Öffnen", allLocations: "Alle Standorte", amount: "Betrag", basis: "Grundlage", variants: "Hinweis", relatedTypes: "Zuständige Stellen", inPreparation: "in Vorbereitung", otherGuides: "Weitere Anleitungen", free: "gebührenfrei", rsd: "RSD", journey: "Der Weg durch das Verfahren", scrollHint: "Scrollen ↓", tips: "Tipps" },
 } as const;
 
 const DAYS: Record<Locale, string[]> = { sr: ["Pon", "Uto", "Sre", "Čet", "Pet", "Sub", "Ned"], en: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"], ru: ["Пн", "Вт", "Ср", "Чт", "Пт", "Сб", "Вс"], de: ["Mo", "Di", "Mi", "Do", "Fr", "Sa", "So"] };
 
 /** Pick the locale's content, falling back en → sr so a guide never renders empty. */
 export function content(g: db.GuideRow, locale: Locale): { c: db.GuideContent; lang: Locale } {
-  for (const l of [locale, "en", "sr"] as Locale[]) if (g.guide[l] && Object.keys(g.guide[l]).length) return { c: g.guide[l], lang: l };
-  return { c: {}, lang: "sr" };
+  // Body from the first locale that has one (locale → en → sr), with the locale's own fields laid over it: a guide whose
+  // Russian or German entry holds only a title and a summary still shows the full procedure (in English, marked as such).
+  const has = (l: Locale) => !!(g.guide[l]?.steps?.length || g.guide[l]?.documents?.length);
+  const body = ([locale, "en", "sr"] as Locale[]).find(has) ?? ([locale, "en", "sr"] as Locale[]).find((l) => g.guide[l] && Object.keys(g.guide[l]).length) ?? "sr";
+  const own = Object.fromEntries(Object.entries(g.guide[locale] ?? {}).filter(([, v]) => v != null && v !== "" && !(Array.isArray(v) && v.length === 0)));
+  return { c: { ...(g.guide[body] ?? {}), ...own }, lang: body };
 }
 const fmtRsd = (n: number) => n.toLocaleString("sr-Latn", { maximumFractionDigits: 0 });
 function compactHours(rows: db.Hours[], locale: Locale): string[] {
@@ -76,7 +80,7 @@ export async function GuidesHub({ locale }: { locale: Locale }) {
                 <li key={g.id} className="card card-hover fold p-5 flex flex-col">
                   <Link href={href(locale, `/vodic/${g.slug}`)} className="hit font-serif text-[19px] font-semibold leading-snug no-underline text-ink hover:text-accent">{gc.title ?? g.name_lat}</Link>
                   <p className="text-muted text-[13.5px] mt-2 flex-1">{gc.summary ?? g.summary}</p>
-                  <div className="mt-3 flex items-center gap-2 text-[12px] text-muted">{g.status === "full" ? <span className="rounded-full bg-gold-soft text-gold px-2 py-0.5 font-medium">✓ {L.checked}{g.checked_at ? ` ${g.checked_at}` : ""}</span> : <span className="rounded-full bg-surface-2 px-2 py-0.5">{L.inPreparation}</span>}{g.online_available && <span className="rounded-full bg-accent-soft text-accent-ink px-2 py-0.5">eUprava</span>}</div>
+                  <div className="mt-3 flex items-center gap-2 text-[12px] text-muted">{g.status === "full" ? <span className="rounded-full bg-gold-soft text-gold px-2 py-0.5 font-medium">✓ {L.checked}{g.checked_at ? ` ${g.checked_at}` : ""}</span> : <span className="rounded-full bg-surface-2 px-2 py-0.5">{L.inPreparation}</span>}{g.online_available && <span className="rounded-full bg-accent-soft text-accent-ink px-2 py-0.5">{g.euprava_url ? "eUprava" : "online"}</span>}</div>
                 </li>); })}
             </ul>
           </div>
@@ -110,6 +114,7 @@ export async function GuidePage({ locale, guide, jlsSlug, path }: { locale: Loca
     ...(c.documents?.length ? [{ id: "dokumenta", kind: "docs" as const, label: L.documents, n: c.documents.length }] : []),
     ...(guide.fees?.length ? [{ id: "takse", kind: "fees" as const, label: L.fees }] : []),
     ...(c.steps?.length ? [{ id: "koraci", kind: "steps" as const, label: L.steps, n: c.steps.length }] : []),
+    ...(c.tips?.length ? [{ id: "saveti", kind: "notes" as const, label: L.tips }] : []),
     ...(guide.typical_duration ? [{ id: "trajanje", kind: "duration" as const, label: L.duration }] : []),
     ...(c.faq?.length ? [{ id: "faq", kind: "faq" as const, label: L.faq }] : []),
   ];
@@ -158,8 +163,9 @@ export async function GuidePage({ locale, guide, jlsSlug, path }: { locale: Loca
                 {serving.map((s, i) => { const ph = contacts.filter((x) => x.location_id === s.location_id && (x.kind === "phone" || x.kind === "mobile")); const hr = compactHours(hours.filter((h) => h.location_id === s.location_id), locale); const url = href(locale, `/${s.org_type_slug}/${s.org_slug}/${s.location_slug}`); return (
                   <li key={s.location_id} data-reveal data-fx={i % 2 ? "wing-r" : "wing-l"} style={{ "--d": `${i * 90}ms` } as React.CSSProperties} className="card stack is-contact p-4 sm:p-5 grid sm:grid-cols-[minmax(0,1fr)_auto] gap-4">
                     <div className="min-w-0">
-                      <div className="eyebrow">{s.org_name_lat}</div>
-                      <Link href={url} className="font-serif text-[19px] font-semibold no-underline text-ink hover:text-accent">{s.unit_name_lat}</Link>
+                      {/* a school's only office is called "Sedište": the institution's own name is the useful title then */}
+                      <div className="eyebrow">{/^sedi[sš]te$/i.test(s.unit_name_lat) ? s.unit_name_lat : s.org_name_lat}</div>
+                      <Link href={url} className="font-serif text-[19px] font-semibold no-underline text-ink hover:text-accent">{/^sedi[sš]te$/i.test(s.unit_name_lat) ? s.org_name_lat : s.unit_name_lat}</Link>
                       <div className="text-[12.5px] text-muted mt-0.5">{L.servingFor}: {jls.name_lat}</div>
                       <dl className="mt-3 grid gap-1.5 text-[14px]">
                         <div className="flex gap-2"><dt className="text-muted shrink-0 w-5"><Icon.pin /></dt><dd>{s.address_display ? `${s.address_display}, ${s.jls_name_lat ?? ""}` : <span className="text-muted">{s.jls_name_lat} · {locale === "sr" ? "tačna adresa još nije uneta" : locale === "en" ? "exact address not yet entered" : locale === "ru" ? "точный адрес ещё не внесён" : "genaue Adresse folgt"}</span>}</dd></div>
@@ -194,6 +200,9 @@ export async function GuidePage({ locale, guide, jlsSlug, path }: { locale: Loca
 
           {c.steps?.length ? <section id="koraci" data-reveal data-fx="flip"><SectionTitle>{L.steps}</SectionTitle>
             <ol className="grid gap-3">{c.steps.map((s, i) => <li key={i} data-reveal style={{ "--d": `${i * 80}ms` } as React.CSSProperties} className="flex gap-3.5"><span className="disc step-disc">{i + 1}</span><p className="text-[14.5px] pt-1">{s}</p></li>)}</ol></section> : null}
+
+          {c.tips?.length ? <section id="saveti" data-reveal data-fx="flip"><SectionTitle>{L.tips}</SectionTitle>
+            <ul className="grid gap-2">{c.tips.map((tip, i) => <li key={i} data-reveal data-fx={i % 2 ? "wing-r" : "wing-l"} style={{ "--d": `${i * 70}ms` } as React.CSSProperties} className="card tip p-3.5 text-[14.5px]">{tip}</li>)}</ul></section> : null}
 
           {guide.typical_duration && <section id="trajanje" data-reveal data-fx="flip"><SectionTitle>{L.duration}</SectionTitle><p className="text-[14.5px]">{guide.typical_duration}</p></section>}
 

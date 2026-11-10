@@ -1,0 +1,456 @@
+{
+ "slug": "upis-na-fakultet",
+ "category": "obrazovanje-i-deca",
+ "org_types": [
+  "fakultet",
+  "univerzitet",
+  "visoka-skola"
+ ],
+ "lead_vertical": null,
+ "status": "full",
+ "sort_order": 54,
+ "name_lat": "Upis na fakultet i visoku školu",
+ "summary": "Upis u prvu godinu osnovnih studija: objedinjeni konkurs, prijava, prijemni ispit, rang lista i upis.",
+ "typical_duration": "Prvi upisni rok je obično u junu i julu, a drugi u avgustu i septembru (2026/27: prijave 19. do 23. 6. 2026. na Univerzitetu u Beogradu); prijava do upisa traje oko tri nedelje.",
+ "legal_basis": "Zakon o visokom obrazovanju (Sl. glasnik RS, br. 88/2017, 73/2018, 27/2018 - dr. zakon, 67/2019, 6/2020 - dr. zakoni, 11/2021 - autentično tumačenje, 67/2021, 67/2021 - dr. zakon, 76/2023 i 19/2025), čl. 71, 97-100; opšti akti i konkurs svake institucije.",
+ "euprava_url": null,
+ "online_available": false,
+ "checked_at": "2026-11-10",
+ "fees": [
+  {
+   "item": "Prijava za prijemni ispit (primer: Poljoprivredni fakultet UB, 2026/27)",
+   "amount_rsd": 5900,
+   "basis": "Iznos određuje svaka institucija; naveden samo kao primer iz konkursa jednog fakulteta.",
+   "source_url": "https://www.agrif.bg.ac.rs/sr-lat/upis/konkurs-za-upis-u-prvu-godinu-osnovnih-akademskih-studija-skolske-2026-2027-godine",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "item": "Troškovi upisa (primer: Poljoprivredni fakultet UB, 2026/27)",
+   "amount_rsd": 5800,
+   "basis": "Iznos određuje svaka institucija; primer iz konkursa jednog fakulteta.",
+   "source_url": "https://www.agrif.bg.ac.rs/sr-lat/upis/konkurs-za-upis-u-prvu-godinu-osnovnih-akademskih-studija-skolske-2026-2027-godine",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "item": "Školarina za samofinansirajuće studente (primer: Poljoprivredni fakultet UB, 2026/27)",
+   "amount_rsd": 90000,
+   "basis": "Školarinu određuje institucija pre konkursa (Zakon o visokom obrazovanju, čl. 71); primer za godinu studija.",
+   "source_url": "https://www.agrif.bg.ac.rs/sr-lat/upis/konkurs-za-upis-u-prvu-godinu-osnovnih-akademskih-studija-skolske-2026-2027-godine",
+   "checked_at": "2026-11-10",
+   "note": "Strani državljani na istom fakultetu plaćaju 2.200 EUR godišnje."
+  },
+  {
+   "item": "Prijava, upis i školarina na drugim institucijama",
+   "amount_rsd": null,
+   "basis": "Svaka institucija sama određuje iznose i navodi ih u konkursu.",
+   "checked_at": "2026-11-10"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://www.bg.ac.rs/ub-konkursi-upis2026/",
+   "title": "Univerzitet u Beogradu: objedinjeni konkurs za školsku 2026/27.",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "url": "https://www.bg.ac.rs/osnovne-akademske-studije/",
+   "title": "Univerzitet u Beogradu: osnovne akademske studije (rokovi, dokumenta)",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "url": "https://www.f.bg.ac.rs/files/akta/ZVO_2025.pdf",
+   "title": "Zakon o visokom obrazovanju, prečišćen tekst (kopija na sajtu Filološkog fakulteta UB)",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "url": "https://www.agrif.bg.ac.rs/sr-lat/upis/konkurs-za-upis-u-prvu-godinu-osnovnih-akademskih-studija-skolske-2026-2027-godine",
+   "title": "Poljoprivredni fakultet UB: konkurs 2026/27 (bodovi, takse)",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "url": "https://agrif.bg.ac.rs/sr/vesti/2026/07/drugi-upisni-rok-konkurs-za-upis-u-prvu-godinu-osnovnih-akademskih-studija-skolske-2026-2027-godine",
+   "title": "Poljoprivredni fakultet UB: drugi upisni rok 2026/27",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "url": "https://www.srbija.gov.rs/vest/854587/predlozeno-odlaganje-uvodjenja-drzavne-mature-za-skolsku-20282029-godinu.php",
+   "title": "Vlada Srbije: odlaganje državne mature (27. 1. 2025.)",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "url": "https://azk.gov.rs/en/strana/enic-naric-centar",
+   "title": "Agencija za kvalifikacije: ENIC/NARIC centar, priznavanje isprava",
+   "checked_at": "2026-11-10"
+  }
+ ],
+ "guide": {
+  "sr": {
+   "title": "Upis na fakultet i visoku školu",
+   "summary": "Upis u prvu godinu osnovnih studija na fakultetima i visokim školama: konkurs, prijava, prijemni ispit, rang lista i upis.",
+   "where_note": "Prijavu podnosite instituciji na čiji studijski program se upisujete, prema njenom konkursu. Univerzitet u Beogradu objavljuje objedinjeni konkurs, a fakulteti objavljuju svoje uslove; za druge univerzitete i visoke škole pratite njihove zvanične sajtove.",
+   "who": [
+    "Kandidat ima završeno srednje obrazovanje; zakon navodi opšti uspeh u srednjem obrazovanju u četvorogodišnjem trajanju kao osnovu za rang listu (Zakon o visokom obrazovanju, član 100).",
+    "Strani državljanin se upisuje pod istim uslovima kao domaći u pogledu prethodnog obrazovanja (član 97).",
+    "Kandidat mora da zna jezik na kome se izvodi nastava; način provere propisuje institucija (član 97).",
+    "Student koji je već upisan na drugoj ustanovi, lice sa završenim studijama prvog stepena i lice kome je prestao status studenta upisuju se po opštem aktu institucije, na lični zahtev (član 100).",
+    "Uslove za upis na master i doktorske studije propisuje opšti akt i konkurs institucije."
+   ],
+   "documents": [
+    {
+     "name": "Prijavni obrazac institucije",
+     "note": "Popunjava se elektronski ili na licu mesta, prema konkursu."
+    },
+    {
+     "name": "Svedočanstva svih razreda srednje škole",
+     "note": "Originali na uvid, fotokopije uz prijavu."
+    },
+    {
+     "name": "Diploma o položenoj maturi",
+     "note": "Original na uvid, fotokopija uz prijavu."
+    },
+    {
+     "name": "Dokaz o uplati prijave za prijemni ispit",
+     "note": "Iznos određuje institucija."
+    },
+    {
+     "name": "Diploma sa takmičenja",
+     "note": "Samo ako konkurs priznaje nagrade sa takmičenja, na primer prve tri nagrade iz predmeta koji se polaže na prijemnom."
+    },
+    {
+     "name": "Dokumenta za kandidate sa srednjom školom iz inostranstva",
+     "variants": [
+      "Svedočanstvo poslednjeg razreda ili diploma, uz dokaz o ranijim razredima",
+      "Prevod kod ovlašćenog sudskog tumača u Srbiji",
+      "Rešenje Agencije za kvalifikacije o priznavanju ili potvrda da je postupak pokrenut",
+      "Dokaz o znanju jezika studijskog programa"
+     ]
+    },
+    {
+     "name": "Dokumenta za upis (posle rang liste)",
+     "note": "Overene fotokopije prijavnih dokumenata, obrazac ŠV-20, dve fotografije 4,5 × 3,5 cm, izvod iz matične knjige rođenih ili overena kopija lične isprave i dokazi o uplatama. Tačan spisak je u konkursu institucije."
+    }
+   ],
+   "steps": [
+    "Proverite na sajtu institucije konkurs za školsku godinu u koju se upisujete: broj mesta, uslove, merila za rang listu i rokove.",
+    "Izaberite studijski program i proverite koji se predmet polaže na prijemnom ispitu ili testu sklonosti.",
+    "Uplatite prijavu za prijemni ispit i prikupite dokumenta iz konkursa.",
+    "Prijavite se u roku iz konkursa, elektronski ili na licu mesta prema rasporedu institucije.",
+    "Polažite prijemni ispit ili test sklonosti u terminu koji institucija objavi.",
+    "Pratite preliminarnu rang listu i, ako imate primedbe, podnesite žalbu u roku iz konkursa.",
+    "Posle objavljivanja konačne rang liste upišite se u roku i u terminu iz konkursa, sa dokumentima za upis.",
+    "Uplatite troškove upisa i, ako ste na mestu koje se samofinansira, školarinu ili njen prvi deo.",
+    "Ako ste propustili prvi upisni rok, proverite da li institucija raspisuje i naredne rokove za slobodna mesta."
+   ],
+   "tips": [
+    "Rok za upis je obično jedan dan ili nekoliko dana posle konačne rang liste; kandidat koji se ne upiše na vreme gubi mesto, a upisuje se sledeći sa liste.",
+    "Merila za bodove i najmanji broj bodova za budžet određuje svaka institucija; zakon ne propisuje najveći broj bodova za prijemni ispit.",
+    "Pre uplate proverite iznose na stranici konkursa, jer prijavu, troškove upisa i školarinu određuje institucija.",
+    "Ako ste srednju školu završili u inostranstvu, pokrenite priznavanje u Agenciji za kvalifikacije pre prijave, jer se uz prijavu traži rešenje ili potvrda o pokrenutom postupku.",
+    "Kandidati koji su srednju školu završili pre tekuće školske godine mogu morati da daju izjavu o ranijem budžetskom finansiranju; proverite konkurs."
+   ],
+   "faq": [
+    {
+     "q": "Ko raspisuje konkurs za upis?",
+     "a": "Konkurs raspisuje samostalna visokoškolska ustanova (član 98 Zakona o visokom obrazovanju). Univerzitet u Beogradu objavljuje objedinjeni konkurs za sve fakultete, a svaki fakultet objavljuje pojedinačne uslove."
+    },
+    {
+     "q": "Kada se konkurs objavljuje i kada su rokovi?",
+     "a": "Zakon traži da se konkurs objavi najkasnije četiri meseca pre početka školske godine (član 98). Za školsku 2026/27. godinu Univerzitet u Beogradu je odredio prvi rok: prijave od 19. do 23. 6. 2026, prijemni ispit od 24. do 30. 6. 2026, upis do 10. 7. 2026. Poljoprivredni fakultet je imao drugi rok sa prijavom 28. i 29. 8. 2026. i upisom 7. 9. 2026."
+    },
+    {
+     "q": "Kako se računa rang lista?",
+     "a": "Zakon navodi opšti uspeh u srednjoj školi, uspeh na maturi, rezultat prijemnog ispita ili testa sklonosti i po potrebi uspeh na takmičenjima, prema opštem aktu institucije (član 100). Primer: na Poljoprivrednom fakultetu u Beogradu za 2026/27. uspeh u srednjoj školi nosi 16 do 40 bodova, a prijemni ispit 0 do 60 bodova, ukupno najviše 100."
+    },
+    {
+     "q": "Šta je razlika između budžetskog i samofinansirajućeg mesta?",
+     "a": "Studije se finansiraju iz budžeta ili ih student sam finansira (član 97). Broj budžetskih mesta za državne ustanove određuje Vlada pre raspisivanja konkursa (član 99), a školarinu određuje institucija i navodi je u konkursu (čl. 71 i 98). Na Poljoprivrednom fakultetu je za budžet potrebno najmanje 51 bod, a za upis najmanje 30."
+    },
+    {
+     "q": "Koliko košta prijava i školarina?",
+     "a": "Iznose određuje svaka institucija. Primer, Poljoprivredni fakultet Univerziteta u Beogradu, konkurs 2026/27: prijava 5.900 din, troškovi upisa 5.800 din, školarina 90.000 din godišnje."
+    },
+    {
+     "q": "Da li postoji državna matura koja zamenjuje prijemni ispit?",
+     "a": "Zakon o visokom obrazovanju (član 100) predviđa vrednovanje opšte, stručne i umetničke mature. Vlada je 27. 1. 2025. usvojila predlog izmena zakona kojim se uvođenje državne mature odlaže za školsku 2028/2029. godinu. Pravila za svaku godinu proverite u konkursu institucije."
+    }
+   ],
+   "for_foreigners": "Strani državljanin se upisuje pod istim uslovima kao domaći državljanin u pogledu prethodnog obrazovanja i mora da zna jezik nastave (član 97). Srednjoškolska isprava stečena u inostranstvu priznaje se u Agenciji za kvalifikacije (ENIC/NARIC centar): zahtev se podnosi elektronski, a uz prijavu na fakultet se traži rešenje o priznavanju ili potvrda da je postupak pokrenut, uz prevod sudskog tumača. Isprave izdate u Crnoj Gori, Hrvatskoj i Bosni i Hercegovini ne zahtevaju prevod na Univerzitetu u Beogradu. Dokaz o znanju jezika nastave prilaže se uz prijavu, a školarina za strane državljane može biti drugačija; primer je Poljoprivredni fakultet u Beogradu sa 2.200 evra godišnje za 2026/27. Strani državljanin može polagati prijemni i elektronskim putem ako to institucija omogući (član 100)."
+  },
+  "en": {
+   "title": "Enrolment at a faculty or college",
+   "summary": "Enrolment in the first year of undergraduate studies at faculties and colleges: competition, application, entrance exam, ranking list and enrolment.",
+   "where_note": "Apply to the institution whose study programme you want, following its competition (konkurs). The University of Belgrade publishes a unified competition and its faculties publish their own conditions; for other universities and colleges, follow their official websites.",
+   "who": [
+    "The candidate has completed secondary education; the law names general success in four-year secondary education as a basis for the ranking list (Law on Higher Education, Article 100).",
+    "A foreign national enrols under the same conditions as a domestic candidate regarding prior education (Article 97).",
+    "The candidate must know the language of instruction; the institution sets how it is checked (Article 97).",
+    "A student already enrolled at another institution, a person with a completed first-cycle degree and a person whose student status ended enrol under the institution's general act, on personal request (Article 100).",
+    "Conditions for master and doctoral studies are set by the institution's general act and competition."
+   ],
+   "documents": [
+    {
+     "name": "Institution's application form",
+     "note": "Completed electronically or in person, as the competition states."
+    },
+    {
+     "name": "Certificates for all secondary-school years",
+     "note": "Originals for inspection, photocopies with the application."
+    },
+    {
+     "name": "Diploma of the passed matura",
+     "note": "Original for inspection, photocopy with the application."
+    },
+    {
+     "name": "Proof of payment of the entrance exam application",
+     "note": "The institution sets the amount."
+    },
+    {
+     "name": "Competition diploma",
+     "note": "Only if the competition accepts competition prizes, for example the first three prizes in a subject tested at the entrance exam."
+    },
+    {
+     "name": "Documents for candidates with secondary school from abroad",
+     "variants": [
+      "Certificate of the last grade or diploma, with proof of earlier grades",
+      "Translation by a certified court interpreter in Serbia",
+      "Agency for Qualifications decision on recognition or proof that the procedure has started",
+      "Proof of knowledge of the programme language"
+     ]
+    },
+    {
+     "name": "Enrolment documents (after the ranking list)",
+     "note": "Certified photocopies of the application documents, form ŠV-20, two photos 4.5 × 3.5 cm, a birth certificate extract or certified copy of an ID, and proofs of payment. The exact list is in the institution's competition."
+    }
+   ],
+   "steps": [
+    "Check the institution's website for the competition for the school year you are enrolling in: places, conditions, ranking criteria and deadlines.",
+    "Choose a study programme and check which subject is tested at the entrance exam or aptitude test.",
+    "Pay the entrance exam application fee and collect the documents the competition lists.",
+    "Apply within the competition's deadline, electronically or in person according to the institution's schedule.",
+    "Take the entrance exam or aptitude test on the date the institution publishes.",
+    "Follow the preliminary ranking list and, if you have objections, file an appeal within the deadline in the competition.",
+    "After the final ranking list is published, enrol within the deadline and at the time stated in the competition, with the enrolment documents.",
+    "Pay the enrolment costs and, for a self-financed place, the tuition or its first instalment.",
+    "If you missed the first enrolment round, check whether the institution announces further rounds for remaining places."
+   ],
+   "tips": [
+    "The enrolment deadline is usually one day or a few days after the final ranking list; a candidate who does not enrol on time loses the place and the next candidate on the list is enrolled.",
+    "Each institution sets the point criteria and the minimum points for a budget place; the law does not prescribe a maximum number of points for the entrance exam.",
+    "Check amounts on the competition page before paying, because the institution sets the application fee, enrolment costs and tuition.",
+    "If you finished secondary school abroad, start recognition at the Agency for Qualifications before applying, because the application asks for the decision or proof that the procedure has started.",
+    "Candidates who finished secondary school before the current school year may have to give a statement about earlier budget funding; check the competition."
+   ],
+   "faq": [
+    {
+     "q": "Who publishes the competition?",
+     "a": "An independent higher-education institution publishes the competition (Article 98 of the Law on Higher Education). The University of Belgrade publishes a unified competition for all its faculties, and each faculty publishes its own conditions."
+    },
+    {
+     "q": "When is the competition published and what are the deadlines?",
+     "a": "The law requires the competition to be published at least four months before the school year starts (Article 98). For 2026/27 the University of Belgrade set the first round: applications 19-23. 6. 2026, entrance exams 24-30. 6. 2026, enrolment by 10. 7. 2026. The Faculty of Agriculture had a second round with applications on 28 and 29. 8. 2026 and enrolment on 7. 9. 2026."
+    },
+    {
+     "q": "How is the ranking list calculated?",
+     "a": "The law lists general success in secondary school, matura results, the result of the entrance exam or aptitude test and, where needed, success in competitions, according to the institution's general act (Article 100). Example: at the Faculty of Agriculture in Belgrade for 2026/27, secondary-school success gives 16 to 40 points and the entrance exam 0 to 60 points, 100 in total."
+    },
+    {
+     "q": "What is the difference between a budget place and a self-financed place?",
+     "a": "Studies are either funded from the budget or self-financed by the student (Article 97). The Government sets the number of budget places for state institutions before the competition is announced (Article 99), and the institution sets tuition and states it in the competition (Articles 71 and 98). At the Faculty of Agriculture a budget place needs at least 51 points and enrolment at least 30."
+    },
+    {
+     "q": "How much do the application and tuition cost?",
+     "a": "Each institution sets the amounts. Example, Faculty of Agriculture of the University of Belgrade, competition 2026/27: application 5,900 RSD, enrolment costs 5,800 RSD, tuition 90,000 RSD per year."
+    },
+    {
+     "q": "Is there a state matura that replaces the entrance exam?",
+     "a": "The Law on Higher Education (Article 100) provides for valuing the general, vocational and art matura. On 27. 1. 2025 the Government adopted a proposal to amend the law so that the introduction of the state matura is postponed to the 2028/2029 school year. Check each year's rules in the institution's competition."
+    }
+   ],
+   "for_foreigners": "A foreign national enrols under the same conditions as a domestic candidate regarding prior education and must know the language of instruction (Article 97). A secondary-school document obtained abroad is recognised by the Agency for Qualifications (ENIC/NARIC centre): the request is filed electronically, and the faculty application asks for the recognition decision or proof that the procedure has started, with a court interpreter's translation. Documents issued in Montenegro, Croatia and Bosnia and Herzegovina need no translation at the University of Belgrade. Proof of knowledge of the language of instruction is attached to the application, and tuition for foreign nationals can differ; example: the Faculty of Agriculture in Belgrade charges 2,200 euros per year for 2026/27. A foreign national may take the entrance test electronically if the institution allows it (Article 100)."
+  },
+  "ru": {
+   "title": "Поступление на факультет или в высшую школу",
+   "summary": "Поступление на первый курс основных академических программ на факультетах и в высших школах: конкурс, заявление, вступительный экзамен, рейтинг-список и запись.",
+   "where_note": "Подайте заявление в учреждение, учебную программу которого вы выбрали, следуя его конкурсу (konkurs). Белградский университет публикует единый конкурс, а его факультеты публикуют свои условия; для других университетов и высших школ следуйте их официальным сайтам.",
+   "who": [
+    "Кандидат завершил среднее образование; закон называет общий успех в четырёхлетнем среднем образовании основанием для рейтинг-списка (Закон о высшем образовании, статья 100).",
+    "Иностранный гражданин поступает на тех же условиях, что и местный кандидат, в отношении предшествующего образования (статья 97).",
+    "Кандидат должен знать язык обучения; порядок проверки определяет учреждение (статья 97).",
+    "Студент, уже зачисленный в другом учреждении, лицо с завершённой степенью первого цикла и лицо, утратившее статус студента, поступают по общему акту учреждения, по личному заявлению (статья 100).",
+    "Условия для магистратуры и докторантуры устанавливаются общим актом учреждения и конкурсом."
+   ],
+   "documents": [
+    {
+     "name": "Бланк заявления учреждения",
+     "note": "Заполняется в электронном виде или лично, как указано в конкурсе."
+    },
+    {
+     "name": "Свидетельства за все годы средней школы",
+     "note": "Оригиналы для предъявления, фотокопии вместе с заявлением."
+    },
+    {
+     "name": "Диплом о сданной матуре",
+     "note": "Оригинал для предъявления, фотокопия вместе с заявлением."
+    },
+    {
+     "name": "Подтверждение оплаты регистрации на вступительный экзамен",
+     "note": "Сумму устанавливает учреждение."
+    },
+    {
+     "name": "Диплом конкурса",
+     "note": "Только если конкурс учитывает призовые места, например первые три места по предмету, который проверяется на вступительном экзамене."
+    },
+    {
+     "name": "Документы для кандидатов со средним образованием из-за границы",
+     "variants": [
+      "Свидетельство за последний класс или диплом с подтверждением предыдущих классов",
+      "Перевод, выполненный судебным переводчиком, имеющим сертификат в Сербии",
+      "Решение Agencija za kvalifikacije о признании или подтверждение того, что процедура начата",
+      "Подтверждение знания языка программы"
+     ]
+    },
+    {
+     "name": "Документы для записи (после рейтинг-списка)",
+     "note": "Заверенные фотокопии документов заявления, форма ŠV-20, две фотографии 4,5 × 3,5 см, выписка из книги записей о рождении или заверенная копия удостоверения личности и подтверждения оплаты. Точный перечень указан в конкурсе учреждения."
+    }
+   ],
+   "steps": [
+    "Проверьте на сайте учреждения конкурс на учебный год, в котором вы поступаете: места, условия, критерии ранжирования и сроки.",
+    "Выберите учебную программу и проверьте, какой предмет проверяется на вступительном экзамене или тесте на способности.",
+    "Оплатите регистрацию на вступительный экзамен и соберите документы, указанные в конкурсе.",
+    "Подайте заявление в срок конкурса, в электронном виде или лично, согласно графику учреждения.",
+    "Сдайте вступительный экзамен или тест на способности в дату, которую публикует учреждение.",
+    "Следите за предварительным рейтинг-списком и, если у вас есть возражения, подайте жалобу в срок, указанный в конкурсе.",
+    "После публикации окончательного рейтинг-списка запишитесь в срок и в время, указанные в конкурсе, с документами для записи.",
+    "Оплатите расходы на запись и, для места с самофинансированием, плату за обучение или её первый взнос.",
+    "Если вы пропустили первый тур записи, проверьте, объявляет ли учреждение дальнейшие туры на оставшиеся места."
+   ],
+   "tips": [
+    "Срок записи обычно составляет один день или несколько дней после окончательного рейтинг-списка; кандидат, не записавшийся вовремя, теряет место, и записывается следующий кандидат из списка.",
+    "Каждое учреждение устанавливает критерии начисления баллов и минимум баллов для бюджетного места; закон не предписывает максимальное число баллов за вступительный экзамен.",
+    "Проверьте суммы на странице конкурса до оплаты, поскольку регистрационный взнос, расходы на запись и плату за обучение устанавливает учреждение.",
+    "Если вы окончили среднюю школу за границей, начните признание в Agencija za kvalifikacije до подачи заявления, поскольку в заявлении требуется решение или подтверждение того, что процедура начата.",
+    "Кандидатам, окончившим среднюю школу до текущего учебного года, может потребоваться заявление о прежнем бюджетном финансировании; проверьте конкурс."
+   ],
+   "faq": [
+    {
+     "q": "Кто публикует конкурс?",
+     "a": "Конкурс публикует самостоятельное учреждение высшего образования (статья 98 Закона о высшем образовании). Белградский университет публикует единый конкурс для всех своих факультетов, а каждый факультет публикует свои условия."
+    },
+    {
+     "q": "Когда публикуется конкурс и каковы сроки?",
+     "a": "Закон требует публиковать конкурс не позднее чем за четыре месяца до начала учебного года (статья 98). На 2026/27 год Белградский университет установил первый тур: заявления 19-23. 6. 2026, вступительные экзамены 24-30. 6. 2026, запись до 10. 7. 2026. На сельскохозяйственном факультете был второй тур: заявления 28 и 29. 8. 2026 и запись 7. 9. 2026."
+    },
+    {
+     "q": "Как рассчитывается рейтинг-список?",
+     "a": "Закон называет общий успех в средней школе, результаты матуры, результат вступительного экзамена или теста на способности и, при необходимости, успехи на конкурсах, в соответствии с общим актом учреждения (статья 100). Пример: на сельскохозяйственном факультете в Белграде на 2026/27 год успех в средней школе даёт от 16 до 40 баллов, а вступительный экзамен — от 0 до 60 баллов, всего 100."
+    },
+    {
+     "q": "Чем отличается бюджетное место от места с самофинансированием?",
+     "a": "Обучение либо финансируется из бюджета, либо самофинансируется студентом (статья 97). Правительство устанавливает число бюджетных мест для государственных учреждений до объявления конкурса (статья 99), а плату за обучение устанавливает учреждение и указывает в конкурсе (статьи 71 и 98). На сельскохозяйственном факультете для бюджетного места нужно не менее 51 балла, а для записи — не менее 30."
+    },
+    {
+     "q": "Сколько стоят регистрация и обучение?",
+     "a": "Суммы устанавливает каждое учреждение. Пример, сельскохозяйственный факультет Белградского университета, конкурс 2026/27: регистрация 5.900 RSD, расходы на запись 5.800 RSD, плата за обучение 90.000 RSD в год."
+    },
+    {
+     "q": "Есть ли государственная матура, заменяющая вступительный экзамен?",
+     "a": "Закон о высшем образовании (статья 100) предусматривает учёт общей, профессиональной и художественной матуры. 27. 1. 2025 Правительство приняло предложение об изменении закона, по которому введение государственной матуры переносится на 2028/2029 учебный год. Правила на каждый год проверяйте в конкурсе учреждения."
+    }
+   ],
+   "for_foreigners": "Иностранный гражданин поступает на тех же условиях, что и местный кандидат, в отношении предшествующего образования, и должен знать язык обучения (статья 97). Документ о среднем образовании, полученный за границей, признаёт Agencija za kvalifikacije (центр ENIC/NARIC): запрос подаётся в электронном виде, а в заявлении на факультет требуется решение о признании или подтверждение того, что процедура начата, с переводом судебного переводчика. Документы, выданные в Черногории, Хорватии и Боснии и Герцеговине, в Белградском университете в переводе не нуждаются. Подтверждение знания языка обучения прилагается к заявлению, а плата за обучение для иностранных граждан может отличаться; пример: сельскохозяйственный факультет в Белграде берёт 2.200 евро в год на 2026/27 год. Иностранный гражданин может сдавать вступительный тест в электронном виде, если учреждение это допускает (статья 100)."
+  },
+  "de": {
+   "title": "Anmeldung an einer Fakultät oder Hochschule",
+   "summary": "Einschreibung in das erste Jahr des Bachelorstudiums an Fakultäten und Hochschulen: Ausschreibung, Bewerbung, Aufnahmeprüfung, Rangliste und Einschreibung.",
+   "where_note": "Bewerben Sie sich bei der Einrichtung, deren Studienprogramm Sie wünschen, nach deren Ausschreibung (konkurs). Die Universität Belgrad veröffentlicht eine einheitliche Ausschreibung, und ihre Fakultäten veröffentlichen ihre eigenen Bedingungen; für andere Universitäten und Hochschulen folgen Sie deren offiziellen Websites.",
+   "who": [
+    "Der Bewerber hat die weiterführende Bildung abgeschlossen; das Gesetz nennt den allgemeinen Erfolg in der vierjährigen weiterführenden Bildung als Grundlage der Rangliste (Hochschulgesetz, Artikel 100).",
+    "Ein ausländischer Staatsangehöriger wird hinsichtlich der Vorbildung zu denselben Bedingungen aufgenommen wie ein inländischer Bewerber (Artikel 97).",
+    "Der Bewerber muss die Unterrichtssprache beherrschen; die Einrichtung legt fest, wie dies geprüft wird (Artikel 97).",
+    "Ein Student, der bereits an einer anderen Einrichtung eingeschrieben ist, eine Person mit abgeschlossenem Abschluss des ersten Zyklus und eine Person, deren Studentenstatus beendet wurde, werden nach dem allgemeinen Akt der Einrichtung auf persönlichen Antrag eingeschrieben (Artikel 100).",
+    "Die Bedingungen für Master- und Doktoratsstudien legen der allgemeine Akt der Einrichtung und die Ausschreibung fest."
+   ],
+   "documents": [
+    {
+     "name": "Bewerbungsformular der Einrichtung",
+     "note": "Wird elektronisch oder persönlich ausgefüllt, wie es die Ausschreibung angibt."
+    },
+    {
+     "name": "Zeugnisse aller Jahre der weiterführenden Schule",
+     "note": "Originale zur Einsicht, Fotokopien mit dem Antrag."
+    },
+    {
+     "name": "Diplom der bestandenen Matura",
+     "note": "Original zur Einsicht, Fotokopie mit dem Antrag."
+    },
+    {
+     "name": "Zahlungsnachweis für die Anmeldung zur Aufnahmeprüfung",
+     "note": "Den Betrag legt die Einrichtung fest."
+    },
+    {
+     "name": "Wettbewerbsdiplom",
+     "note": "Nur wenn die Ausschreibung Wettbewerbspreise berücksichtigt, zum Beispiel die ersten drei Preise in einem Fach, das in der Aufnahmeprüfung geprüft wird."
+    },
+    {
+     "name": "Unterlagen für Bewerber mit weiterführender Schule aus dem Ausland",
+     "variants": [
+      "Zeugnis der letzten Klasse oder Diplom, mit Nachweis über frühere Klassen",
+      "Übersetzung durch einen beeideten Gerichtsdolmetscher in Serbien",
+      "Bescheid der Agencija za kvalifikacije (Qualifikationsagentur) über die Anerkennung oder Nachweis, dass das Verfahren begonnen hat",
+      "Nachweis der Kenntnis der Programmsprache"
+     ]
+    },
+    {
+     "name": "Einschreibeunterlagen (nach der Rangliste)",
+     "note": "Beglaubigte Fotokopien der Bewerbungsunterlagen, Formular ŠV-20, zwei Fotos 4,5 × 3,5 cm, ein Geburtsregisterauszug oder eine beglaubigte Kopie eines Ausweises und Zahlungsnachweise. Die genaue Liste steht in der Ausschreibung der Einrichtung."
+    }
+   ],
+   "steps": [
+    "Prüfen Sie auf der Website der Einrichtung die Ausschreibung für das Schuljahr, in dem Sie sich einschreiben: Plätze, Bedingungen, Rangkriterien und Fristen.",
+    "Wählen Sie ein Studienprogramm und prüfen Sie, welches Fach in der Aufnahmeprüfung oder Eignungsprüfung geprüft wird.",
+    "Zahlen Sie die Gebühr für die Anmeldung zur Aufnahmeprüfung und stellen Sie die Unterlagen zusammen, die die Ausschreibung nennt.",
+    "Bewerben Sie sich innerhalb der Frist der Ausschreibung, elektronisch oder persönlich nach dem Zeitplan der Einrichtung.",
+    "Legen Sie die Aufnahmeprüfung oder Eignungsprüfung an dem Termin ab, den die Einrichtung veröffentlicht.",
+    "Verfolgen Sie die vorläufige Rangliste und legen Sie bei Einwänden innerhalb der Frist der Ausschreibung Widerspruch ein.",
+    "Schreiben Sie sich nach der Veröffentlichung der endgültigen Rangliste innerhalb der Frist und zu der Zeit ein, die die Ausschreibung nennt, mit den Einschreibeunterlagen.",
+    "Zahlen Sie die Einschreibekosten und, bei einem selbstfinanzierten Platz, die Studiengebühr oder deren erste Rate.",
+    "Wenn Sie die erste Einschreiberunde verpasst haben, prüfen Sie, ob die Einrichtung weitere Runden für verbleibende Plätze ausschreibt."
+   ],
+   "tips": [
+    "Die Einschreibefrist beträgt meist einen Tag oder wenige Tage nach der endgültigen Rangliste; ein Bewerber, der sich nicht rechtzeitig einschreibt, verliert den Platz, und der nächste Bewerber auf der Liste wird eingeschrieben.",
+    "Jede Einrichtung legt die Punktekriterien und die Mindestpunktzahl für einen Budgetplatz fest; das Gesetz schreibt keine Höchstpunktzahl für die Aufnahmeprüfung vor.",
+    "Prüfen Sie die Beträge auf der Seite der Ausschreibung, bevor Sie zahlen, weil die Einrichtung Anmeldegebühr, Einschreibekosten und Studiengebühr festlegt.",
+    "Wenn Sie die weiterführende Schule im Ausland abgeschlossen haben, beginnen Sie die Anerkennung bei der Agencija za kvalifikacije vor der Bewerbung, weil die Bewerbung den Bescheid oder den Nachweis über den Beginn des Verfahrens verlangt.",
+    "Bewerber, die die weiterführende Schule vor dem laufenden Schuljahr abgeschlossen haben, müssen unter Umständen eine Erklärung über eine frühere Budgetfinanzierung abgeben; prüfen Sie die Ausschreibung."
+   ],
+   "faq": [
+    {
+     "q": "Wer veröffentlicht die Ausschreibung?",
+     "a": "Eine eigenständige Hochschuleinrichtung veröffentlicht die Ausschreibung (Artikel 98 des Hochschulgesetzes). Die Universität Belgrad veröffentlicht eine einheitliche Ausschreibung für alle ihre Fakultäten, und jede Fakultät veröffentlicht ihre eigenen Bedingungen."
+    },
+    {
+     "q": "Wann wird die Ausschreibung veröffentlicht, und welche Fristen gelten?",
+     "a": "Das Gesetz verlangt, dass die Ausschreibung mindestens vier Monate vor Beginn des Schuljahres veröffentlicht wird (Artikel 98). Für 2026/27 legte die Universität Belgrad die erste Runde fest: Bewerbungen 19.–23. 6. 2026, Aufnahmeprüfungen 24.–30. 6. 2026, Einschreibung bis 10. 7. 2026. Die Landwirtschaftliche Fakultät hatte eine zweite Runde mit Bewerbungen am 28. und 29. 8. 2026 und Einschreibung am 7. 9. 2026."
+    },
+    {
+     "q": "Wie wird die Rangliste berechnet?",
+     "a": "Das Gesetz nennt den allgemeinen Erfolg in der weiterführenden Schule, die Matura-Ergebnisse, das Ergebnis der Aufnahmeprüfung oder Eignungsprüfung und, wo nötig, den Erfolg bei Wettbewerben, nach dem allgemeinen Akt der Einrichtung (Artikel 100). Beispiel: An der Landwirtschaftlichen Fakultät in Belgrad für 2026/27 ergibt der Erfolg in der weiterführenden Schule 16 bis 40 Punkte und die Aufnahmeprüfung 0 bis 60 Punkte, insgesamt 100."
+    },
+    {
+     "q": "Was ist der Unterschied zwischen einem Budgetplatz und einem selbstfinanzierten Platz?",
+     "a": "Das Studium wird entweder aus dem Budget finanziert oder vom Studenten selbst bezahlt (Artikel 97). Die Regierung legt die Zahl der Budgetplätze für staatliche Einrichtungen vor der Bekanntgabe der Ausschreibung fest (Artikel 99), und die Einrichtung legt die Studiengebühr fest und nennt sie in der Ausschreibung (Artikel 71 und 98). An der Landwirtschaftlichen Fakultät braucht man für einen Budgetplatz mindestens 51 Punkte und für die Einschreibung mindestens 30."
+    },
+    {
+     "q": "Wie viel kosten Anmeldung und Studiengebühr?",
+     "a": "Jede Einrichtung legt die Beträge fest. Beispiel, Landwirtschaftliche Fakultät der Universität Belgrad, Ausschreibung 2026/27: Anmeldung 5.900 RSD, Einschreibekosten 5.800 RSD, Studiengebühr 90.000 RSD pro Jahr."
+    },
+    {
+     "q": "Gibt es eine staatliche Matura, die die Aufnahmeprüfung ersetzt?",
+     "a": "Das Hochschulgesetz (Artikel 100) sieht die Bewertung der allgemeinen, der beruflichen und der Kunstmatura vor. Am 27. 1. 2025 nahm die Regierung einen Vorschlag zur Änderung des Gesetzes an, nach dem die Einführung der staatlichen Matura auf das Schuljahr 2028/2029 verschoben wird. Prüfen Sie die Regeln jedes Jahres in der Ausschreibung der Einrichtung."
+    }
+   ],
+   "for_foreigners": "Ein ausländischer Staatsangehöriger wird hinsichtlich der Vorbildung zu denselben Bedingungen aufgenommen wie ein inländischer Bewerber und muss die Unterrichtssprache beherrschen (Artikel 97). Ein im Ausland erworbenes Dokument der weiterführenden Schule wird von der Agencija za kvalifikacije (ENIC/NARIC-Zentrum) anerkannt: Der Antrag wird elektronisch gestellt, und die Bewerbung an der Fakultät verlangt den Anerkennungsbescheid oder den Nachweis, dass das Verfahren begonnen hat, mit der Übersetzung eines Gerichtsdolmetschers. Dokumente, die in Montenegro, Kroatien und Bosnien und Herzegowina ausgestellt wurden, benötigen an der Universität Belgrad keine Übersetzung. Der Nachweis der Kenntnis der Unterrichtssprache wird der Bewerbung beigefügt, und die Studiengebühr für ausländische Staatsangehörige kann abweichen; Beispiel: Die Landwirtschaftliche Fakultät in Belgrad erhebt für 2026/27 2.200 Euro pro Jahr. Ein ausländischer Staatsangehöriger kann den Aufnahmetest elektronisch ablegen, wenn die Einrichtung es erlaubt (Artikel 100)."
+  }
+ }
+}

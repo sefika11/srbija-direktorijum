@@ -1,0 +1,490 @@
+{
+ "slug": "studentski-dom-kredit-i-stipendija",
+ "category": "obrazovanje-i-deca",
+ "org_types": [
+  "studentski-dom",
+  "fakultet",
+  "srednja-skola"
+ ],
+ "lead_vertical": null,
+ "status": "full",
+ "sort_order": 55,
+ "name_lat": "Studentski i učenički dom, kredit i stipendija",
+ "summary": "Ministarstvo prosvete svake godine raspisuje posebne konkurse za smeštaj u studentskom domu ili domu učenika, studentski kredit, studentsku stipendiju i učeničku stipendiju.",
+ "typical_duration": "Konkurs za dom učenika traje u junu i julu, za studentski dom u septembru i oktobru–novembru, a za učeničku stipendiju u septembru i studentski kredit i stipendiju u oktobru (primer 2026/27). Ministar odlučuje o kreditu i stipendiji u roku do 90 dana od zaključenja konkursa.",
+ "legal_basis": "Zakon o učeničkom i studentskom standardu (Sl. glasnik RS, br. 18/10, 55/13, 27/18 – dr. zakon i 10/19); Pravilnik o smeštaju i ishrani učenika i studenata (Sl. glasnik RS, br. 36/19); Pravilnik o učeničkim i studentskim kreditima i stipendijama (Sl. glasnik RS, br. 36/19).",
+ "euprava_url": null,
+ "online_available": true,
+ "checked_at": "2026-11-10",
+ "fees": [
+  {
+   "item": "Mesečna participacija studenta za smeštaj u studentskom domu (regresirana cena, prema kategoriji smeštaja)",
+   "amount_rsd": null,
+   "basis": "Ministarstvo prosvete na stranici o studentskom smeštaju navodi regresiranu cenu od 1.500 do 2.790 RSD mesečno, zavisno od kategorije smeštaja; stranica ne navodi datum važenja, pa tačan iznos za vašu sobu proverite u studentskom centru.",
+   "source_url": "https://prosveta.gov.rs/skolski-i-studentski-zivot/ucenicki-i-studentski-smestaj-i-ishrana/studentski-smestaj-i-ishrana/",
+   "checked_at": "2026-11-10",
+   "note": "Raspon, ne jedinstvena cena."
+  },
+  {
+   "item": "Smeštaj u studentskom domu od 5. (15.) jula do 21. avgusta",
+   "amount_rsd": null,
+   "basis": "Konkurs navodi samo da se smeštaj koristi po ekonomskoj ceni; iznos utvrđuje i objavljuje studentski centar.",
+   "source_url": "https://prosveta.gov.rs/wp-content/uploads/2026/05/KONKURS-smestaj-i-ishrana-STUDENTI-26-27.pdf",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "item": "Participacija roditelja ili učenika za smeštaj i ishranu u domu učenika",
+   "amount_rsd": null,
+   "basis": "Konkurs navodi da učenik, roditelj ili staratelj učestvuje u finansiranju dela troškova; iznos nije naveden u konkursu, objavljuje ga dom učenika.",
+   "source_url": "https://prosveta.gov.rs/wp-content/uploads/2026/05/KONKURS-smestaj-i-ishrana-UCENICI-26-27.pdf",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "item": "Obrok u studentskoj menzi: doručak 56 RSD, ručak 120 RSD, večera 90 RSD",
+   "amount_rsd": null,
+   "basis": "Iznosi su navedeni na stranici Ministarstva o studentskom smeštaju i ishrani (regresirane cene); stranica ne navodi datum važenja.",
+   "source_url": "https://prosveta.gov.rs/skolski-i-studentski-zivot/ucenicki-i-studentski-smestaj-i-ishrana/studentski-smestaj-i-ishrana/",
+   "checked_at": "2026-11-10",
+   "note": "Tri različita iznosa, zato nema jedinstvene vrednosti."
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://prosveta.gov.rs/wp-content/uploads/2026/05/KONKURS-smestaj-i-ishrana-STUDENTI-26-27.pdf",
+   "title": "Ministarstvo prosvete – Konkurs za prijem studenata u ustanove za smeštaj i ishranu, 2026/2027",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "url": "https://prosveta.gov.rs/wp-content/uploads/2026/05/KONKURS-smestaj-i-ishrana-UCENICI-26-27.pdf",
+   "title": "Ministarstvo prosvete – Konkurs za prijem učenika srednjih škola u ustanove za smeštaj i ishranu, 2026/2027",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "url": "https://prosveta.gov.rs/wp-content/uploads/2026/06/Konkurs-za-STUDENTSKE-kredite-2026-27-1.pdf",
+   "title": "Ministarstvo prosvete – Konkurs za dodelu studentskih kredita, 2026/2027",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "url": "https://prosveta.gov.rs/wp-content/uploads/2026/06/Konkurs-za-STUDENTSKE-stipendije-2026-271.pdf",
+   "title": "Ministarstvo prosvete – Konkurs za dodelu studentskih stipendija, 2026/2027",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "url": "https://prosveta.gov.rs/wp-content/uploads/2026/06/Konkurs-za-UCENICKE-stipendije-2026-27.pdf",
+   "title": "Ministarstvo prosvete – Konkurs za dodelu učeničkih stipendija, 2026/2027",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "url": "https://prosveta.gov.rs/skolski-i-studentski-zivot/stipendije/studentske-stipendije-i-krediti/",
+   "title": "Ministarstvo prosvete – Studentske stipendije i krediti",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "url": "https://prosveta.gov.rs/skolski-i-studentski-zivot/ucenicki-i-studentski-smestaj-i-ishrana/studentski-smestaj-i-ishrana/",
+   "title": "Ministarstvo prosvete – Studentski smeštaj i ishrana",
+   "checked_at": "2026-11-10"
+  }
+ ],
+ "guide": {
+  "sr": {
+   "title": "Studentski i učenički dom, kredit i stipendija",
+   "summary": "Ministarstvo prosvete svake godine raspisuje posebne konkurse za smeštaj u studentskom domu ili domu učenika, studentski kredit, studentsku stipendiju i učeničku stipendiju.",
+   "where_note": "Prijava za dom podnosi se studentskom centru, domu učenika ili studentskoj službi fakulteta, zavisno od konkursa. Prijava za kredit i stipendiju popunjava se na Portalu za kredite i stipendije (kreditistipendije.prosveta.gov.rs), a papirna dokumentacija predaje se fakultetu odnosno srednjoj školi.",
+   "who": [
+    "Pravo imaju studenti i učenici ustanova čiji je osnivač Republika Srbija, autonomna pokrajina ili jedinica lokalne samouprave, čije se školovanje finansira iz budžeta Republike Srbije i koji su prvi put upisani u određenu godinu ili razred.",
+    "Za smeštaj u domu pravo imate ako imate državljanstvo Republike Srbije i ako vam prebivalište nije u sedištu fakulteta, odnosno škole; državljani država u regionu mogu da konkurišu pod istim uslovima, osim državljanstva Republike Srbije.",
+    "Za studentski kredit potrebno je prvi put upisan prvi semestar osnovnih studija ili studije od II do V (VI) godine, državljanstvo i prebivalište u Republici Srbiji, i da niste u radnom odnosu; student koji već otplaćuje kredit ili je oslobođen vraćanja ne može da konkuriše.",
+    "Za studentsku stipendiju potrebni su položeni svi ispiti iz prethodnih godina, prosečna ocena najmanje 9,00, maksimalna efikasnost studiranja i da niste gubili nijednu godinu.",
+    "Za učeničku stipendiju potreban je odličan opšti uspeh (od 4,50 do 5) u svim završenim razredima i prebivalište roditelja ili staratelja u Republici Srbiji.",
+    "Učenici i studenti iz osetljivih društvenih grupa mogu da traže posebno rangiranje u okviru namenski određenog broja mesta, uz blaže kriterijume."
+   ],
+   "documents": [
+    {
+     "name": "Prijava na konkurs",
+     "note": "Za kredit i stipendiju popunjava se na Portalu, štampa se i potpisuje je ovlašćeno lice fakulteta; za dom se prijava preuzima u službi smeštaja studentskog centra, a overava je fakultet."
+    },
+    {
+     "name": "Lična karta",
+     "note": "Za kredit i stipendiju: štampani podaci sa elektronske lične karte ili fotokopija važeće lične karte; za učeničku stipendiju to je lična karta roditelja ili staratelja. Za dom pokažite ličnu kartu i indeks na uvid službeniku."
+    },
+    {
+     "name": "Uverenje o prihodima po članu porodice",
+     "note": "Za studentski dom i studentski kredit: prosek mesečnih neto prihoda za period januar–jun tekuće godine; za dom uverenje izdaje nadležni opštinski organ po prebivalištu. Za dom učenika period je januar–mart. Za studentsku stipendiju se ne traži.",
+     "variants": [
+      "Studentski dom: uverenje nadležnog opštinskog organa iz mesta prebivališta.",
+      "Dom učenika: uverenje za januar–mart, prebivalište roditelja nepromenjeno šest meseci pre objavljivanja konkursa.",
+      "Učenička stipendija: uverenje o prosečnom mesečnom prihodu za januar–jun."
+     ]
+    },
+    {
+     "name": "Dokaz o upisu i uspehu",
+     "note": "Prvi put upisana I godina na teret budžeta i svedočanstva svih razreda srednje škole (dom, I godina). Za kredit i stipendiju podatke o uspehu unosite na Portalu, a fakultet ih proverava pri predaji dokumenata; ne treba overeno uverenje. Za učeničku stipendiju uverenje o razredu i uspehu popunjava srednja škola."
+    },
+    {
+     "name": "Potvrda fakulteta o toku studiranja",
+     "note": "Za dom, studenti viših godina: prosek, godina upisa, broj ESPB, finansiranje iz budžeta i trajanje studija."
+    },
+    {
+     "name": "Dokaz da niste u radnom odnosu",
+     "note": "Za dom i stipendiju na II i III stepenu studija: izvod iz evidencije nezaposlenih Nacionalne službe za zapošljavanje ili potvrda nadležnog organa (na primer PIO fonda)."
+    },
+    {
+     "name": "Dokaz o pripadnosti osetljivoj društvenoj grupi",
+     "note": "Samo ako tražite posebno rangiranje; potvrde ne smeju biti starije od 90 dana (kredit i stipendija)."
+    },
+    {
+     "name": "Lekarsko uverenje o opštem zdravstvenom stanju",
+     "note": "Predaje se pri useljenju u dom: za studente ne starije od 30 dana; za učenike ne starije od 15 dana, uz izvod iz matične knjige rođenih."
+    },
+    {
+     "name": "Ugovor o kreditu ili stipendiji",
+     "note": "Dva primerka potpisuje student u fakultetu; nepotpisivanje do 31. 3. 2027. smatra se odustajanjem (konkurs za 2026/27). Korisnik kredita prvi put obezbeđuje i menično pokriće sa izjavom žiranta."
+    }
+   ],
+   "steps": [
+    "Pročitajte konkurs na prosveta.gov.rs i proverite rokove: konkurs za dom raspisuje se u maju, a rokovi za prijavu zavise od ustanove i godine studija.",
+    "Zatražite uverenje o prihodima po članu porodice od nadležnog opštinskog organa za period koji konkurs navodi.",
+    "Za kredit i stipendiju popunite prijavu na kreditistipendije.prosveta.gov.rs i otpremite potrebna dokumenta u elektronskoj formi.",
+    "Odštampajte prijavu i predajte originalna dokumenta fakultetu, odnosno školi, koja overava prijavu i proverava podatke o uspehu.",
+    "Za dom predajte prijavu sa dokumentacijom u službi smeštaja studentskog centra, domu učenika ili studentskoj službi fakulteta, kako konkurs određuje.",
+    "Pratite objavu preliminarne rang liste na oglasnoj tabli i internet adresi ustanove, odnosno na Portalu.",
+    "Podnesite dokumentovan prigovor u roku od 8 dana od objavljivanja liste; za kredit i stipendiju prigovor se podnosi elektronski preko Portala.",
+    "Nakon konačne rang liste pratite odluku direktora doma, odnosno ministra prosvete, i potpišite ugovor kada vam je dodeljen smeštaj, kredit ili stipendija."
+   ],
+   "tips": [
+    "Rokovi su različiti po konkursu i po ustanovi: za 2026/27 prijava za dom učenika trajala je od 29. 6. do 10. 7. 2026, za dom prve godine studija 1–15. 9. 2026, a za kredit i stipendiju 1–31. 10. 2026. Dokumentacija posle roka se ne razmatra.",
+    "Uverenje o prihodima izdaje opštinski organ, pa ga zatražite na vreme; potvrde za osetljive grupe ne smeju biti starije od 90 dana.",
+    "Nepotpune, neblagovremene i prijave neovlašćenog lica ne razmatraju se; pokažite ličnu kartu i indeks službeniku koji prima dokumentaciju za dom.",
+    "Pre kraja roka proverite na Portalu da je evidentiran potpisan ugovor; ako nije, obratite se fakultetu.",
+    "Ne možete istovremeno primati stipendiju, kredit ili sličan oblik davanja iz budžeta; u tom slučaju se odričete jednog preko Portala."
+   ],
+   "faq": [
+    {
+     "q": "Kada se raspisuju konkursi?",
+     "a": "Prema konkursima za 2026/27, Ministarstvo je rešenjima od 5. 5. 2026. (dom) i 28. 5. 2026. (kredit, stipendije) raspisalo konkurse; konkurs za dom učenika imao je rok od 29. 6. do 10. 7. 2026, a za studentski dom 1. 9. do 15. 9. 2026 (I godina) i do 2. 11. odnosno 5. 11. 2026 (ostale godine). Datumi za sledeću godinu objavljuju se na prosveta.gov.rs."
+    },
+    {
+     "q": "Koliki prihod porodice je bitan?",
+     "a": "Za studentski dom 1 bod nosi prihod do 50% prosečne neto zarade u Srbiji; za studentski kredit 2 boda do 20%, 1 bod od 20% do 40% i 0 bodova preko 40%; za učeničku stipendiju 0,30 bodova do 20%, 0,15 bodova od 20% do 40%. To su bodovi za rangiranje, a ne granica za isključenje."
+    },
+    {
+     "q": "Koliko iznose kredit i stipendija?",
+     "a": "Ministarstvo navodi mesečni iznos studentske stipendije ili kredita od 13.000 RSD, isplaćen u 10 mesečnih rata preko Poštanske štedionice. Stipendija se ne vraća."
+    },
+    {
+     "q": "Kada se studentski kredit vraća?",
+     "a": "Ministarstvo navodi da se kredit vraća ako student ne ispuni uslove iz konkursa. Student koji dobije oslobođenje obaveštava Ministarstvo u roku od 30 dana od diplomiranja i dostavlja overeno uverenje o diplomiranju. Rok i kamatu proverite u ugovoru o kreditu."
+    },
+    {
+     "q": "Kako se podnosi prigovor?",
+     "a": "Za dom u roku od 8 dana od objavljivanja rang liste ustanovi, koja odlučuje u roku od 8 dana; odluka direktora je konačna. Za kredit i stipendiju u roku od 8 dana od objavljivanja rezultata na Portalu, Komisiji za učeničke i studentske kredite i stipendije."
+    },
+    {
+     "q": "Koliko plaćam studentski dom?",
+     "a": "Ministarstvo navodi regresiranu cenu od 1.500 do 2.790 RSD mesečno, zavisno od kategorije; od 5. (15.) jula do 21. avgusta smeštaj je po ekonomskoj ceni. Aktuelnu cenu proverite u studentskom centru."
+    }
+   ],
+   "for_foreigners": "Konkursi za dom traže državljanstvo Republike Srbije, ali studenti i učenici sa državljanstvom države u regionu mogu da konkurišu pod istim ostalim uslovima. Konkursi za studentski kredit, studentsku i učeničku stipendiju traže državljanstvo Republike Srbije i prebivalište u Republici Srbiji, pa strani državljani na njih ne mogu da se prijave. Za stipendije namenjene stranim državljanima proverite objave na prosveta.gov.rs."
+  },
+  "en": {
+   "title": "Student and pupil dormitory, loan and scholarship",
+   "summary": "The Ministry of Education (Ministarstvo prosvete) announces separate competitions (konkursi) each year for a place in a student dormitory (studentski dom) or pupils' dormitory (dom učenika), a student loan, a student scholarship and a pupil scholarship.",
+   "where_note": "Submit the dormitory application to the student centre (studentski centar), the pupils' dormitory or the faculty's student office, depending on the competition. Fill in the loan and scholarship application on the Portal for Loans and Scholarships (kreditistipendije.prosveta.gov.rs) and hand the paper documents to the faculty or secondary school.",
+   "who": [
+    "Students and pupils of institutions founded by the Republic of Serbia, an autonomous province or a local self-government unit are eligible if their schooling is funded from the state budget and they enrol in the given year or grade for the first time.",
+    "For a dormitory place you need Serbian citizenship and a permanent residence outside the seat of the faculty or school; citizens of countries in the region may apply under the same conditions, except Serbian citizenship.",
+    "For a student loan you must be a first-time first-semester student of basic studies or in years II to V (VI), hold citizenship and residence in Serbia and not be employed; a student whose loan is already in repayment or has been released from repayment cannot apply.",
+    "For a student scholarship you need all exams from previous years passed, an average grade of at least 9.00, maximum study efficiency and no lost year.",
+    "For a pupil scholarship you need an excellent general grade (4.50 to 5) in all completed grades and a parent or guardian with residence in Serbia.",
+    "Students and pupils from sensitive social groups may ask to be ranked separately within a designated number of places, under milder criteria."
+   ],
+   "documents": [
+    {
+     "name": "Application",
+     "note": "For a loan and scholarship you fill it in on the Portal, print it and an authorised person at the faculty signs it; for a dormitory you collect the form at the student centre's accommodation service and the faculty certifies it."
+    },
+    {
+     "name": "Identity card",
+     "note": "For a loan and scholarship: printed data read from the electronic ID card or a photocopy of a valid ID card; for a pupil scholarship it is the parent's or guardian's ID. For a dormitory, show your ID card and student index to the clerk."
+    },
+    {
+     "name": "Certificate of income per family member",
+     "note": "For a student dormitory and student loan: average monthly net income for January to June of the current year; for a dormitory it is issued by the competent municipal body by residence. For a pupils' dormitory the period is January to March. Not required for a student scholarship.",
+     "variants": [
+      "Student dormitory: certificate from the competent municipal body at the place of residence.",
+      "Pupils' dormitory: certificate for January to March, with the parent's residence unchanged for six months before the competition was published.",
+      "Pupil scholarship: certificate of average monthly income for January to June."
+     ]
+    },
+    {
+     "name": "Proof of enrolment and results",
+     "note": "First year enrolled at the expense of the state budget and school certificates of all grades (dormitory, first-year students). For a loan and scholarship you enter your results on the Portal and the faculty checks them when you hand in the documents; no certified certificate is needed. For a pupil scholarship the secondary school fills in the certificate of grade and results."
+    },
+    {
+     "name": "Faculty confirmation of study progress",
+     "note": "For a dormitory, students in higher years: average grade, year of enrolment, number of ECTS credits, budget funding and length of studies."
+    },
+    {
+     "name": "Proof that you are not employed",
+     "note": "For a dormitory and scholarship at second and third cycle: extract from the National Employment Service register or a confirmation from a competent body (for example the pension fund)."
+    },
+    {
+     "name": "Proof of belonging to a sensitive social group",
+     "note": "Only if you ask for separate ranking; certificates must not be older than 90 days (loan and scholarship)."
+    },
+    {
+     "name": "Medical certificate of general health",
+     "note": "Submit it on moving into the dormitory: for students not older than 30 days; for pupils not older than 15 days, together with an extract from the birth register."
+    },
+    {
+     "name": "Loan or scholarship contract",
+     "note": "The student signs two copies at the faculty; not signing by 31. 3. 2027. counts as withdrawal (competition for 2026/27). A loan recipient also provides a promissory-note cover with a guarantor's statement the first time."
+    }
+   ],
+   "steps": [
+    "Read the competition on prosveta.gov.rs and check the deadlines: the dormitory competition is announced in May, and application deadlines depend on the institution and year of study.",
+    "Ask the competent municipal body for the certificate of income per family member for the period named in the competition.",
+    "For a loan and scholarship, fill in the application at kreditistipendije.prosveta.gov.rs and upload the required documents electronically.",
+    "Print the application and hand the original documents to the faculty or school, which certifies the application and checks the results data.",
+    "For a dormitory, hand in the application with the documents to the accommodation service of the student centre, the pupils' dormitory or the faculty's student office, as the competition states.",
+    "Follow the publication of the preliminary ranking list on the institution's notice board and website, or on the Portal.",
+    "File a documented objection within 8 days of the list being published; for a loan and scholarship the objection is filed electronically through the Portal.",
+    "After the final ranking list, follow the decision of the dormitory director or the Minister of Education, and sign the contract once a place, loan or scholarship has been awarded."
+   ],
+   "tips": [
+    "Deadlines differ by competition and institution: for 2026/27 applications to the pupils' dormitory ran from 29. 6. to 10. 7. 2026, to the first-year student dormitory 1 to 15. 9. 2026, and for loans and scholarships 1 to 31. 10. 2026. Documents submitted after the deadline are not considered.",
+    "The municipal body issues the income certificate, so request it in time; certificates for sensitive groups must not be older than 90 days.",
+    "Incomplete, late or unauthorised applications are not considered; show your ID card and index to the clerk who receives dormitory documents.",
+    "Before the deadline, check on the Portal that the signed contract has been recorded; if not, contact the faculty.",
+    "You cannot receive a scholarship, loan or similar budget benefit at the same time; in that case you renounce one through the Portal."
+   ],
+   "faq": [
+    {
+     "q": "When are the competitions announced?",
+     "a": "According to the 2026/27 competitions, the Ministry announced them by decisions of 5. 5. 2026. (dormitories) and 28. 5. 2026. (loans, scholarships); the pupils' dormitory deadline was 29. 6. to 10. 7. 2026, and the student dormitory deadline 1. 9. to 15. 9. 2026 (first year) and to 2. 11. or 5. 11. 2026 (other years). Dates for the next year are published on prosveta.gov.rs."
+    },
+    {
+     "q": "Which family income counts?",
+     "a": "For a student dormitory, 1 point goes to income up to 50% of the average net salary in Serbia; for a student loan, 2 points up to 20%, 1 point from 20% to 40% and 0 points above 40%; for a pupil scholarship, 0.30 points up to 20% and 0.15 points from 20% to 40%. These are ranking points, not an exclusion threshold."
+    },
+    {
+     "q": "How much are the loan and scholarship?",
+     "a": "The Ministry states a monthly amount of 13,000 RSD for a student scholarship or loan, paid in 10 monthly instalments through Poštanska štedionica. The scholarship is not repaid."
+    },
+    {
+     "q": "When must a student loan be repaid?",
+     "a": "The Ministry states the loan is repaid if the student does not meet the conditions of the competition. A student who obtains release informs the Ministry within 30 days of graduation and submits a certified graduation certificate. Check the term and interest in the loan contract."
+    },
+    {
+     "q": "How do I file an objection?",
+     "a": "For a dormitory, to the institution within 8 days of the ranking list being published; it decides within 8 days and the director's decision is final. For a loan and scholarship, within 8 days of the results being published on the Portal, to the Commission for Pupil and Student Loans and Scholarships."
+    },
+    {
+     "q": "What does a student dormitory cost?",
+     "a": "The Ministry states a subsidised price of 1,500 to 2,790 RSD per month, depending on category; from 5 (15) July to 21 August accommodation is at the economic price. Check the current price with the student centre."
+    }
+   ],
+   "for_foreigners": "Dormitory competitions require Serbian citizenship, but students and pupils who are citizens of a country in the region may apply under the same other conditions. The competitions for a student loan, student scholarship and pupil scholarship require Serbian citizenship and residence in Serbia, so foreign nationals cannot apply for them. For scholarships intended for foreign nationals, check the announcements on prosveta.gov.rs."
+  },
+  "ru": {
+   "title": "Студенческое общежитие, дом учащихся, кредит и стипендия",
+   "summary": "Министерство просвещения (Ministarstvo prosvete) ежегодно объявляет отдельные конкурсы (konkursi) на место в студенческом общежитии (studentski dom) или доме учащихся (dom učenika), студенческий кредит, студенческую стипендию и стипендию для учащихся.",
+   "where_note": "Подайте заявление на общежитие в студенческий центр (studentski centar), дом учащихся или студенческую службу факультета, в зависимости от конкурса. Заполните заявление на кредит и стипендию на Портале кредитов и стипендий (kreditistipendije.prosveta.gov.rs) и передайте бумажные документы на факультет или в среднюю школу.",
+   "who": [
+    "Студенты и учащиеся учреждений, основанных Республикой Сербия, автономным краем или единицей местного самоуправления, имеют право участвовать, если их обучение финансируется из государственного бюджета и они поступили в данный год или класс впервые.",
+    "Для места в общежитии нужно гражданство Сербии и постоянное место жительства вне места нахождения факультета или школы; граждане стран региона могут подавать заявление на тех же условиях, кроме гражданства Сербии.",
+    "Для студенческого кредита нужно быть студентом первого семестра основных программ, поступившим впервые, или студентом II–V (VI) курсов, иметь гражданство и место жительства в Сербии и не работать; студент, у которого кредит уже на стадии погашения или с которого снято обязательство погашения, подавать заявление не может.",
+    "Для студенческой стипендии нужны все экзамены предыдущих лет, сданные в срок, средний балл не менее 9,00, максимальная эффективность обучения и отсутствие потерянного года.",
+    "Для стипендии учащегося нужна отличная общая оценка (от 4,50 до 5) по всем завершённым классам и родитель или опекун с местом жительства в Сербии.",
+    "Студенты и учащиеся из уязвимых социальных групп могут просить о раздельном ранжировании в рамках определённого числа мест, по более мягким критериям."
+   ],
+   "documents": [
+    {
+     "name": "Заявление",
+     "note": "Для кредита и стипендии вы заполняете его на Портале, распечатываете, и уполномоченное лицо на факультете его подписывает; для общежития бланк берётся в службе размещения студенческого центра, и факультет его заверяет."
+    },
+    {
+     "name": "Удостоверение личности",
+     "note": "Для кредита и стипендии: распечатка данных, считанных с электронного удостоверения личности, или фотокопия действительного удостоверения личности; для стипендии учащегося — удостоверение личности родителя или опекуна. Для общежития предъявите служащему удостоверение личности и студенческую зачётную книжку (index)."
+    },
+    {
+     "name": "Справка о доходе на члена семьи",
+     "note": "Для студенческого общежития и студенческого кредита: средний месячный чистый доход за январь–июнь текущего года; для общежития её выдаёт компетентный орган общины по месту жительства. Для дома учащихся период — январь–март. Для студенческой стипендии не требуется.",
+     "variants": [
+      "Студенческое общежитие: справка компетентного органа общины по месту жительства.",
+      "Дом учащихся: справка за январь–март, при этом место жительства родителя не менялось в течение шести месяцев до публикации конкурса.",
+      "Стипендия учащегося: справка о среднем месячном доходе за январь–июнь."
+     ]
+    },
+    {
+     "name": "Подтверждение поступления и результатов",
+     "note": "Поступление на первый курс за счёт государственного бюджета и школьные свидетельства за все классы (общежитие, студенты первого курса). Для кредита и стипендии вы вводите свои результаты на Портале, а факультет проверяет их при сдаче документов; заверенное свидетельство не нужно. Для стипендии учащегося средняя школа заполняет справку о классе и результатах."
+    },
+    {
+     "name": "Подтверждение факультета об успеваемости",
+     "note": "Для общежития, студентам старших курсов: средний балл, год поступления, число баллов ECTS, бюджетное финансирование и продолжительность обучения."
+    },
+    {
+     "name": "Подтверждение того, что вы не работаете",
+     "note": "Для общежития и стипендии на втором и третьем цикле: выписка из реестра Национальной службы занятости или подтверждение компетентного органа (например, пенсионного фонда)."
+    },
+    {
+     "name": "Подтверждение принадлежности к уязвимой социальной группе",
+     "note": "Только если вы просите о раздельном ранжировании; справки не должны быть старше 90 дней (кредит и стипендия)."
+    },
+    {
+     "name": "Медицинская справка об общем состоянии здоровья",
+     "note": "Подаётся при заселении в общежитие: для студентов не старше 30 дней; для учащихся не старше 15 дней, вместе с выпиской из книги записей о рождении."
+    },
+    {
+     "name": "Договор о кредите или стипендии",
+     "note": "Студент подписывает два экземпляра на факультете; если договор не подписан до 31. 3. 2027., это считается отказом (конкурс на 2026/27 год). Получатель кредита при первом получении также представляет вексельное покрытие с заявлением поручителя."
+    }
+   ],
+   "steps": [
+    "Прочитайте конкурс на prosveta.gov.rs и проверьте сроки: конкурс на общежитие объявляется в мае, а сроки подачи зависят от учреждения и года обучения.",
+    "Запросите в компетентном органе общины справку о доходе на члена семьи за период, указанный в конкурсе.",
+    "Для кредита и стипендии заполните заявление на kreditistipendije.prosveta.gov.rs и загрузите необходимые документы в электронном виде.",
+    "Распечатайте заявление и передайте оригиналы документов на факультет или в школу, которые заверят заявление и проверят данные о результатах.",
+    "Для общежития подайте заявление с документами в службу размещения студенческого центра, в дом учащихся или в студенческую службу факультета, как указано в конкурсе.",
+    "Следите за публикацией предварительного рейтинг-списка на доске объявлений и сайте учреждения или на Портале.",
+    "Подайте обоснованное документами возражение в течение 8 дней после публикации списка; для кредита и стипендии возражение подаётся в электронном виде через Портал.",
+    "После окончательного рейтинг-списка ждите решения директора общежития или министра просвещения и подпишите договор, когда вам присуждены место, кредит или стипендия."
+   ],
+   "tips": [
+    "Сроки различаются по конкурсам и учреждениям: на 2026/27 год заявления в дом учащихся принимались с 29. 6. по 10. 7. 2026, в общежитие для студентов первого курса — с 1 по 15. 9. 2026, а на кредиты и стипендии — с 1 по 31. 10. 2026. Документы, поданные после срока, не рассматриваются.",
+    "Справку о доходе выдаёт орган общины, поэтому запросите её заранее; справки для уязвимых групп не должны быть старше 90 дней.",
+    "Неполные, поздние или неуполномоченные заявления не рассматриваются; предъявите удостоверение личности и зачётную книжку служащему, который принимает документы на общежитие.",
+    "До окончания срока проверьте на Портале, что подписанный договор зарегистрирован; если нет, обратитесь на факультет.",
+    "Стипендию, кредит и подобную бюджетную выплату нельзя получать одновременно; в таком случае вы отказываетесь от одной из них через Портал."
+   ],
+   "faq": [
+    {
+     "q": "Когда объявляются конкурсы?",
+     "a": "По конкурсам на 2026/27 год Министерство объявило их решениями от 5. 5. 2026. (общежития) и 28. 5. 2026. (кредиты, стипендии); срок для дома учащихся составил 29. 6.–10. 7. 2026, а срок для студенческого общежития — с 1. 9. по 15. 9. 2026 (первый курс) и до 2. 11. или 5. 11. 2026 (остальные курсы). Даты на следующий год публикуются на prosveta.gov.rs."
+    },
+    {
+     "q": "Какой доход семьи учитывается?",
+     "a": "Для студенческого общежития 1 балл начисляется за доход до 50% средней чистой зарплаты в Сербии; для студенческого кредита — 2 балла при доходе до 20%, 1 балл от 20% до 40% и 0 баллов выше 40%; для стипендии учащегося — 0,30 балла до 20% и 0,15 балла от 20% до 40%. Это баллы для ранжирования, а не порог исключения."
+    },
+    {
+     "q": "Каков размер кредита и стипендии?",
+     "a": "Министерство указывает ежемесячную сумму 13.000 RSD для студенческой стипендии или кредита, которая выплачивается в 10 ежемесячных взносов через Poštanska štedionica. Стипендия не возвращается."
+    },
+    {
+     "q": "Когда нужно погасить студенческий кредит?",
+     "a": "Министерство указывает, что кредит погашается, если студент не выполняет условия конкурса. Студент, получивший освобождение, сообщает об этом в Министерство в течение 30 дней после окончания учёбы и подаёт заверенное свидетельство об окончании. Срок и проценты проверьте в договоре о кредите."
+    },
+    {
+     "q": "Как подать возражение?",
+     "a": "Для общежития — в учреждение в течение 8 дней после публикации рейтинг-списка; оно принимает решение в течение 8 дней, и решение директора окончательно. Для кредита и стипендии — в течение 8 дней после публикации результатов на Портале, в Комиссию по кредитам и стипендиям для учащихся и студентов."
+    },
+    {
+     "q": "Сколько стоит студенческое общежитие?",
+     "a": "Министерство указывает субсидированную цену от 1.500 до 2.790 RSD в месяц, в зависимости от категории; с 5 (15) июля по 21 августа проживание оплачивается по экономической цене. Актуальную цену уточняйте в студенческом центре."
+    }
+   ],
+   "for_foreigners": "Конкурсы на общежития требуют гражданства Сербии, но студенты и учащиеся, являющиеся гражданами страны региона, могут подавать заявление на тех же остальных условиях. Конкурсы на студенческий кредит, студенческую стипендию и стипендию учащегося требуют гражданства Сербии и места жительства в Сербии, поэтому иностранные граждане подать на них заявление не могут. О стипендиях, предназначенных для иностранных граждан, смотрите объявления на prosveta.gov.rs."
+  },
+  "de": {
+   "title": "Studenten- und Schülerwohnheim, Darlehen und Stipendium",
+   "summary": "Das Bildungsministerium (Ministarstvo prosvete) schreibt jedes Jahr getrennte Wettbewerbe (konkursi) aus für einen Platz in einem Studentenwohnheim (studentski dom) oder Schülerwohnheim (dom učenika), ein Studentendarlehen, ein Studentenstipendium und ein Schülerstipendium.",
+   "where_note": "Reichen Sie den Wohnheimantrag je nach Ausschreibung beim Studentenzentrum (studentski centar), im Schülerwohnheim oder im Studierendenbüro der Fakultät ein. Füllen Sie den Antrag für Darlehen und Stipendium auf dem Portal für Darlehen und Stipendien (kreditistipendije.prosveta.gov.rs) aus und geben Sie die Papierunterlagen bei der Fakultät oder weiterführenden Schule ab.",
+   "who": [
+    "Studenten und Schüler von Einrichtungen, die von der Republik Serbien, einer autonomen Provinz oder einer Einheit der lokalen Selbstverwaltung gegründet wurden, sind berechtigt, wenn ihre Ausbildung aus dem Staatshaushalt finanziert wird und sie sich im jeweiligen Jahr oder in der jeweiligen Klasse zum ersten Mal einschreiben.",
+    "Für einen Wohnheimplatz benötigen Sie die serbische Staatsangehörigkeit und einen ständigen Wohnsitz außerhalb des Sitzes der Fakultät oder Schule; Staatsangehörige von Ländern der Region können sich zu denselben Bedingungen bewerben, abgesehen von der serbischen Staatsangehörigkeit.",
+    "Für ein Studentendarlehen müssen Sie ein erstmalig im ersten Semester eingeschriebener Student der Grundstudien oder in den Jahren II bis V (VI) sein, Staatsangehörigkeit und Wohnsitz in Serbien haben und nicht erwerbstätig sein; ein Student, dessen Darlehen sich bereits in der Rückzahlung befindet oder von der Rückzahlung befreit wurde, kann sich nicht bewerben.",
+    "Für ein Studentenstipendium benötigen Sie alle Prüfungen früherer Jahre bestanden, einen Notendurchschnitt von mindestens 9,00, maximale Studieneffizienz und kein verlorenes Jahr.",
+    "Für ein Schülerstipendium benötigen Sie eine ausgezeichnete Gesamtnote (4,50 bis 5) in allen abgeschlossenen Klassen und einen Elternteil oder Vormund mit Wohnsitz in Serbien.",
+    "Studenten und Schüler aus sozial sensiblen Gruppen können innerhalb einer bestimmten Zahl von Plätzen eine gesonderte Rangierung nach milderen Kriterien beantragen."
+   ],
+   "documents": [
+    {
+     "name": "Antrag",
+     "note": "Für Darlehen und Stipendium füllen Sie ihn auf dem Portal aus, drucken ihn aus, und eine bevollmächtigte Person an der Fakultät unterschreibt ihn; für ein Wohnheim holen Sie das Formular im Unterbringungsdienst des Studentenzentrums ab, und die Fakultät beglaubigt es."
+    },
+    {
+     "name": "Personalausweis",
+     "note": "Für Darlehen und Stipendium: ausgedruckte Daten, die vom elektronischen Personalausweis gelesen wurden, oder eine Fotokopie eines gültigen Personalausweises; für ein Schülerstipendium ist es der Ausweis der Eltern oder des Vormunds. Für ein Wohnheim zeigen Sie dem Sachbearbeiter Ihren Personalausweis und Ihr Studienbuch (index)."
+    },
+    {
+     "name": "Einkommensbescheinigung pro Familienmitglied",
+     "note": "Für Studentenwohnheim und Studentendarlehen: durchschnittliches monatliches Nettoeinkommen von Januar bis Juni des laufenden Jahres; für ein Wohnheim stellt sie die zuständige Gemeindestelle nach Wohnsitz aus. Für ein Schülerwohnheim ist der Zeitraum Januar bis März. Für ein Studentenstipendium nicht erforderlich.",
+     "variants": [
+      "Studentenwohnheim: Bescheinigung der zuständigen Gemeindestelle am Wohnsitz.",
+      "Schülerwohnheim: Bescheinigung für Januar bis März, wobei der Wohnsitz der Eltern in den sechs Monaten vor der Veröffentlichung der Ausschreibung unverändert war.",
+      "Schülerstipendium: Bescheinigung über das durchschnittliche monatliche Einkommen von Januar bis Juni."
+     ]
+    },
+    {
+     "name": "Nachweis über Einschreibung und Ergebnisse",
+     "note": "Erstes Jahr auf Kosten des Staatshaushalts eingeschrieben und Schulzeugnisse aller Klassen (Wohnheim, Studienanfänger). Für Darlehen und Stipendium tragen Sie Ihre Ergebnisse auf dem Portal ein, und die Fakultät prüft sie bei der Abgabe der Unterlagen; ein beglaubigtes Zeugnis ist nicht nötig. Für ein Schülerstipendium füllt die weiterführende Schule die Bescheinigung über Klasse und Ergebnisse aus."
+    },
+    {
+     "name": "Bestätigung der Fakultät über den Studienfortschritt",
+     "note": "Für ein Wohnheim, Studenten in höheren Jahren: Notendurchschnitt, Jahr der Einschreibung, Zahl der ECTS-Punkte, Budgetfinanzierung und Studiendauer."
+    },
+    {
+     "name": "Nachweis, dass Sie nicht erwerbstätig sind",
+     "note": "Für ein Wohnheim und ein Stipendium im zweiten und dritten Zyklus: Auszug aus dem Register der Nationalen Arbeitsagentur oder eine Bestätigung einer zuständigen Stelle (zum Beispiel des Rentenfonds)."
+    },
+    {
+     "name": "Nachweis der Zugehörigkeit zu einer sozial sensiblen Gruppe",
+     "note": "Nur wenn Sie eine gesonderte Rangierung beantragen; die Bescheinigungen dürfen nicht älter als 90 Tage sein (Darlehen und Stipendium)."
+    },
+    {
+     "name": "Ärztliche Bescheinigung über den allgemeinen Gesundheitszustand",
+     "note": "Reichen Sie sie beim Einzug in das Wohnheim ein: für Studenten nicht älter als 30 Tage; für Schüler nicht älter als 15 Tage, zusammen mit einem Geburtsregisterauszug."
+    },
+    {
+     "name": "Darlehens- oder Stipendienvertrag",
+     "note": "Der Student unterschreibt zwei Exemplare an der Fakultät; wer bis zum 31. 3. 2027 nicht unterschreibt, gilt als zurückgetreten (Ausschreibung für 2026/27). Ein Darlehensempfänger stellt beim ersten Mal außerdem eine Wechselabsicherung (menično pokriće) mit der Erklärung eines Bürgen bei."
+    }
+   ],
+   "steps": [
+    "Lesen Sie die Ausschreibung auf prosveta.gov.rs und prüfen Sie die Fristen: Die Wohnheimausschreibung wird im Mai bekannt gegeben, und die Antragsfristen hängen von der Einrichtung und dem Studienjahr ab.",
+    "Fordern Sie bei der zuständigen Gemeindestelle die Einkommensbescheinigung pro Familienmitglied für den in der Ausschreibung genannten Zeitraum an.",
+    "Füllen Sie für Darlehen und Stipendium den Antrag auf kreditistipendije.prosveta.gov.rs aus und laden Sie die erforderlichen Unterlagen elektronisch hoch.",
+    "Drucken Sie den Antrag aus und geben Sie die Originalunterlagen bei der Fakultät oder Schule ab, die den Antrag beglaubigt und die Ergebnisdaten prüft.",
+    "Reichen Sie für ein Wohnheim den Antrag mit den Unterlagen beim Unterbringungsdienst des Studentenzentrums, im Schülerwohnheim oder im Studierendenbüro der Fakultät ein, wie es die Ausschreibung angibt.",
+    "Verfolgen Sie die Veröffentlichung der vorläufigen Rangliste an der Anschlagtafel und auf der Website der Einrichtung oder auf dem Portal.",
+    "Legen Sie innerhalb von 8 Tagen nach Veröffentlichung der Liste einen belegten Widerspruch ein; bei Darlehen und Stipendium wird der Widerspruch elektronisch über das Portal eingelegt.",
+    "Verfolgen Sie nach der endgültigen Rangliste die Entscheidung des Wohnheimdirektors oder des Bildungsministers und unterschreiben Sie den Vertrag, sobald Ihnen ein Platz, ein Darlehen oder ein Stipendium zuerkannt wurde."
+   ],
+   "tips": [
+    "Die Fristen unterscheiden sich je nach Ausschreibung und Einrichtung: Für 2026/27 liefen die Anträge für das Schülerwohnheim vom 29. 6. bis 10. 7. 2026, für das Studentenwohnheim der Studienanfänger vom 1. bis 15. 9. 2026 und für Darlehen und Stipendien vom 1. bis 31. 10. 2026. Nach der Frist eingereichte Unterlagen werden nicht berücksichtigt.",
+    "Die Gemeindestelle stellt die Einkommensbescheinigung aus, daher fordern Sie sie rechtzeitig an; Bescheinigungen für sensible Gruppen dürfen nicht älter als 90 Tage sein.",
+    "Unvollständige, verspätete oder nicht berechtigte Anträge werden nicht berücksichtigt; zeigen Sie dem Sachbearbeiter, der die Wohnheimunterlagen entgegennimmt, Ihren Personalausweis und Ihr Studienbuch.",
+    "Prüfen Sie vor der Frist auf dem Portal, ob der unterschriebene Vertrag erfasst wurde; wenn nicht, wenden Sie sich an die Fakultät.",
+    "Sie können ein Stipendium, ein Darlehen oder eine ähnliche Leistung aus dem Haushalt nicht gleichzeitig erhalten; in diesem Fall verzichten Sie über das Portal auf eine davon."
+   ],
+   "faq": [
+    {
+     "q": "Wann werden die Wettbewerbe ausgeschrieben?",
+     "a": "Nach den Ausschreibungen 2026/27 gab das Ministerium sie mit Beschlüssen vom 5. 5. 2026 (Wohnheime) und 28. 5. 2026 (Darlehen, Stipendien) bekannt; die Frist für das Schülerwohnheim war 29. 6. bis 10. 7. 2026, und die Frist für das Studentenwohnheim 1. 9. bis 15. 9. 2026 (erstes Jahr) und bis 2. 11. oder 5. 11. 2026 (andere Jahre). Die Termine für das nächste Jahr werden auf prosveta.gov.rs veröffentlicht."
+    },
+    {
+     "q": "Welches Familieneinkommen zählt?",
+     "a": "Für ein Studentenwohnheim gibt es 1 Punkt für ein Einkommen bis zu 50 % des durchschnittlichen Nettogehalts in Serbien; für ein Studentendarlehen 2 Punkte bis 20 %, 1 Punkt von 20 % bis 40 % und 0 Punkte darüber; für ein Schülerstipendium 0,30 Punkte bis 20 % und 0,15 Punkte von 20 % bis 40 %. Das sind Ranglistenpunkte, keine Ausschlussschwelle."
+    },
+    {
+     "q": "Wie hoch sind Darlehen und Stipendium?",
+     "a": "Das Ministerium nennt einen monatlichen Betrag von 13.000 RSD für ein Studentenstipendium oder -darlehen, gezahlt in 10 Monatsraten über die Poštanska štedionica. Das Stipendium wird nicht zurückgezahlt."
+    },
+    {
+     "q": "Wann muss ein Studentendarlehen zurückgezahlt werden?",
+     "a": "Das Ministerium gibt an, dass das Darlehen zurückgezahlt wird, wenn der Student die Bedingungen der Ausschreibung nicht erfüllt. Ein Student, der eine Befreiung erhält, informiert das Ministerium innerhalb von 30 Tagen nach dem Abschluss und reicht eine beglaubigte Abschlussbescheinigung ein. Prüfen Sie Frist und Zinsen im Darlehensvertrag."
+    },
+    {
+     "q": "Wie lege ich Widerspruch ein?",
+     "a": "Bei einem Wohnheim bei der Einrichtung innerhalb von 8 Tagen nach Veröffentlichung der Rangliste; sie entscheidet innerhalb von 8 Tagen, und die Entscheidung des Direktors ist endgültig. Bei Darlehen und Stipendium innerhalb von 8 Tagen nach Veröffentlichung der Ergebnisse auf dem Portal bei der Kommission für Schüler- und Studentendarlehen und -stipendien."
+    },
+    {
+     "q": "Was kostet ein Studentenwohnheim?",
+     "a": "Das Ministerium nennt einen subventionierten Preis von 1.500 bis 2.790 RSD pro Monat, je nach Kategorie; vom 5. (15.) Juli bis 21. August erfolgt die Unterbringung zum wirtschaftlichen Preis. Prüfen Sie den aktuellen Preis beim Studentenzentrum."
+    }
+   ],
+   "for_foreigners": "Die Wohnheimausschreibungen verlangen die serbische Staatsangehörigkeit, aber Studenten und Schüler, die Staatsangehörige eines Landes der Region sind, können sich zu denselben übrigen Bedingungen bewerben. Die Ausschreibungen für ein Studentendarlehen, ein Studentenstipendium und ein Schülerstipendium verlangen die serbische Staatsangehörigkeit und den Wohnsitz in Serbien, daher können ausländische Staatsangehörige sich dafür nicht bewerben. Für Stipendien, die für ausländische Staatsangehörige bestimmt sind, prüfen Sie die Bekanntmachungen auf prosveta.gov.rs."
+  }
+ }
+}

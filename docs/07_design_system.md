@@ -247,15 +247,26 @@ the building, so a very wide prop (8 discs) can touch the frame edge.
   `clamp(440px, 100svh − 356px, 760px)` so the whole country, the dock and the top of the index tabs fit the first
   viewport), then three **index tabs** hanging off the map's bottom edge (`.hero-index`): number, unit, section title.
   They replace the stat strip (same numbers, now also navigation) and scroll to their dossier.
-- **Dossiers** (`.dossiers` / `.dossier`): the three areas below (guides, institution types, districts) are sheets of one
-  stack. Each sheet tucks 28 px under the previous one, carries a red index tab (`.dossier-tab`, the section label; no
-  second eyebrow under it), and has a second sheet of paper peeking out behind its top edge. Only that backing paper
-  and the tab are tilted (±0.7°); the sheet itself stays level so text never slants and nothing widens the page. Where
-  scroll-driven animations exist the sheet rises into place (`dossier-in`: 56 px, 9° about its top edge); otherwise the
-  ordinary reveals apply. Cards inside keep their own effects (wings on guide cards, flips on the bento).
+- **Nothing sits on the country.** The search panel overlaps only the top strip of the stage and the dock only the
+  bottom strip; `SerbiaMap3D` takes `padTop` / `padBottom` (64 / 70 on the home page), fits the model to the free area
+  between them and shifts the picture into it with a camera view offset. The placeholder SVG is padded the same way.
+  The index tabs sit fully below the stage. On screens up to 860 px tall the lede is dropped and the headline shrinks so
+  the whole stage still fits the first viewport. No edge vignette on the hero stage (it dimmed the northern labels).
+- **Deck of index cards** (`components/DossierDeck.tsx`, `.deck`): the three areas below (guides, institution types,
+  districts) are one deck, not a column of sections, and nothing below the map is scroll-animated. The front card is
+  readable; the other two stand behind it, turned ±2.5° and lifted 24 / 46 px, each with its own index tab in reach
+  (tabs are staggered along the top edge). Changing card is a rotation: the front card swings out around the side
+  (56 % across, 22° about its vertical axis), drops behind and tucks in at the back while the next card comes forward
+  leaning the other way and straightens; the third crosses behind. 980 ms, one easing curve, Web Animations API with
+  resting poses in one table (`poses()`), so there is no CSS transition to fight. Ways in: the tabs, the arrow
+  buttons, ← →, dragging the card's top strip (the card follows the pointer and tilts, 80 px commits), swiping on
+  touch, the index tabs under the map (`deck:go` event) and `#vodici` / `#vrste` / `#okruzi`. The card that arrives lays
+  its contents out in a 45 ms cascade. All three panels are server-rendered; hidden ones are `inert`. The deck takes the
+  front card's height. Reduced motion: instant swap. A timer settles the deck if the tab is backgrounded mid-turn.
+  Phones: same deck with flat poses, numbers on the tabs and the card's title in the bar.
 - **Opener.** Counts "public and private institutions" (`d.openerLabel`). An inline script in the layout head adds
   `html.opener-pending` before the first paint on a first home visit, which draws the paper curtain in CSS; the opener
-  takes over in a layout effect, so the page never shows under it (it used to flash for one frame before hydration).
+  takes over in a layout effect, so the page never shows under it. The curtain rule must force `display: block`: an older rule hides `body::before`, which is why the first version of this fix did nothing.
   The curtain releases itself after 4 s if the script never runs.
 - Phones: search panel in flow above the 2D map, popular chips in one swipeable row, index tabs as three compact tiles,
   dossiers without tilt.
@@ -281,3 +292,20 @@ order, text size, layout shift, console), then hands-on keyboard and tap flows.
   layout shift (≤ 0.01), focus rings, Ctrl/Cmd+K, suggestion panel keyboard flow, skip link.
 - Dev note: a second dev server in this checkout must run with `NEXT_DIST_DIR=.next-3101` (see `next.config.ts`);
   two servers sharing `.next` corrupt each other's cache.
+
+## 20. Guides: tips, type links and the education ladder (2026-11-10)
+
+- **Seven enrolment guides**, in ladder order under "Obrazovanje i deca": nursery and kindergarten, the preparatory
+  preschool programme, first grade, secondary school, faculty and college, dormitory / loan / scholarship, recognition
+  of foreign certificates and diplomas. Files in `db/guides/`, four languages each, loaded with
+  `python -m importers.jobs.load_guides <folder>` (point it at a folder holding only the files you mean to load).
+- **How they were made** (repeat this for the next type): `db/guides/BRIEF.md` is the research brief (official sources
+  only, an evidence file per guide, nothing unverified in the text); `importers/jobs/validate_guides.py <folder>`
+  checks structure, sr/en parity, banned wording, official hosts and that every cited URL loads. An editor then reads
+  each guide against its evidence. Year-specific dates are allowed only with the school year named.
+- **Tips** (`guide.<locale>.tips`): a "Saveti" section and a station on the journey board, between steps and duration.
+  Tips follow from the official rules; no opinions, no promises.
+- **Type links.** `getGuidesForType` puts "Kako se šta rešava" chips on every type hub and a card on every institution
+  page of that type (with the institution's municipality pre-selected), so a school page leads to its enrolment guide.
+- **Locale fallback is per field.** A guide whose Russian or German entry holds only a title still shows the full body
+  (English, marked "EN"). In the "where to go" list an office named "Sedište" is titled by its institution.

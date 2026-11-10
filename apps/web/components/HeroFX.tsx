@@ -17,7 +17,7 @@ export default function HeroFX() {
     cleanups.push(() => { cancelAnimationFrame(t); root.classList.remove("fx-in"); });
 
     // 1b. index tabs: smooth scroll to their dossier (not a global scroll-behavior, which would also slow route changes)
-    const onIndex = (e: MouseEvent) => { const a = (e.target as HTMLElement).closest<HTMLAnchorElement>("a.hero-index-card"); const id = a?.getAttribute("href")?.slice(1); const el = id ? document.getElementById(id) : null; if (!a || !el) return; e.preventDefault(); window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - 112, behavior: reduced ? "auto" : "smooth" }); };
+    const onIndex = (e: MouseEvent) => { const a = (e.target as HTMLElement).closest<HTMLAnchorElement>("a.hero-index-card"); const id = a?.getAttribute("href")?.slice(1); const el = document.getElementById("deck"); if (!a || !id || !el) return; e.preventDefault(); window.dispatchEvent(new CustomEvent("deck:go", { detail: id })); window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - 76, behavior: reduced ? "auto" : "smooth" }); };
     document.addEventListener("click", onIndex); cleanups.push(() => document.removeEventListener("click", onIndex));
 
     // 2. count-up numbers

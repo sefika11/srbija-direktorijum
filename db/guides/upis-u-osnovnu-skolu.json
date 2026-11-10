@@ -1,0 +1,397 @@
+{
+ "slug": "upis-u-osnovnu-skolu",
+ "category": "obrazovanje-i-deca",
+ "org_types": [
+  "osnovna-skola"
+ ],
+ "lead_vertical": null,
+ "status": "full",
+ "sort_order": 52,
+ "name_lat": "Upis u prvi razred osnovne škole",
+ "summary": "Upis deteta u prvi razred: uzrast od 6,5 do 7,5 godina, zakazivanje termina na eUpravi, lekarski pregled i ispitivanje u školi.",
+ "typical_duration": "Upis i testiranje traju od 1. aprila do 31. maja godine upisa (u jednom terminu, istog dana); naknadni upisi do 31. avgusta.",
+ "legal_basis": "Zakon o osnovnom obrazovanju i vaspitanju (čl. 55 i 90; Sl. glasnik RS 55/2013, 101/2017, 27/2018, 10/2019, 129/2021, 92/2023, 19/2025); Zakon o osnovama sistema obrazovanja i vaspitanja.",
+ "euprava_url": "https://euprava.gov.rs/usluge/01100",
+ "online_available": true,
+ "checked_at": "2026-11-10",
+ "fees": [],
+ "sources": [
+  {
+   "url": "https://prosveta.gov.rs/prosveta/predskolsko-i-osnovno-obrazovanje-2/osnovno-obrazovanje-i-vaspitanje/upis-dece-u-osnovnu-skolu-1/",
+   "title": "Ministarstvo prosvete – Upis dece u osnovnu školu",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "url": "https://euprava.gov.rs/usluge/01100",
+   "title": "eUprava – Zakazivanje termina za upis i testiranje deteta u OŠ",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "url": "https://pravno-informacioni-sistem.rs/eli/rep/sgrs/skupstina/zakon/2013/55/1/reg",
+   "title": "Pravno-informacioni sistem – Zakon o osnovnom obrazovanju i vaspitanju (prečišćen tekst)",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "url": "https://prosveta.gov.rs/vesti/pocinje-upis-u-prvi-razred-osnovne-skole/",
+   "title": "Ministarstvo prosvete – Počinje upis u prvi razred osnovne škole (2026)",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "url": "https://prosveta.gov.rs/vesti/pocinje-proces-upisa-u-prvi-razred/",
+   "title": "Ministarstvo prosvete – Počinje proces upisa u prvi razred (2023/24)",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "url": "https://www.srbija.gov.rs/vest/867757/elektronsko-zakazivanje-termina-za-upis-u-prvi-razred-od-24-marta.php",
+   "title": "srbija.gov.rs – Elektronsko zakazivanje termina za upis u prvi razred",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "url": "https://prosveta.gov.rs/wp-content/uploads/2021/08/Zakon-o-osnovama-sistema-obrazovanja-i-vaspitanja.pdf",
+   "title": "Zakon o osnovama sistema obrazovanja i vaspitanja (prečišćen tekst, Ministarstvo prosvete)",
+   "checked_at": "2026-11-10"
+  }
+ ],
+ "guide": {
+  "sr": {
+   "title": "Upis u prvi razred osnovne škole",
+   "summary": "Upis deteta u prvi razred: uzrast, zakazivanje termina na eUpravi, pregled i ispitivanje u školi, upis van područja škole i prelazak u drugu školu.",
+   "where_note": "Upis se obavlja u osnovnoj školi na čijem području dete živi. Termin za upis i testiranje zakazuje se na portalu eUprava, uslugom „Zakazivanje termina za upis i testiranje deteta u OŠ“ (https://euprava.gov.rs/usluge/01100).",
+   "who": [
+    "U prvi razred upisuje se svako dete koje do početka školske godine ima najmanje 6,5 i najviše 7,5 godina.",
+    "Dete staro od 6 do 6,5 godina upisuje se nakon provere spremnosti za polazak u školu, koju škola organizuje.",
+    "Dete starije od 7,5 godina, koje zbog bolesti ili drugih razloga nije upisano, upisuje se u prvi ili odgovarajući razred nakon prethodne provere znanja.",
+    "Upis se može odložiti za godinu dana kada je to u najboljem interesu deteta, na osnovu mišljenja interresorne komisije.",
+    "Škola je dužna da upiše svako dete sa svog područja; stranci i lica bez državljanstva imaju isto pravo na obrazovanje kao državljani Srbije."
+   ],
+   "documents": [
+    {
+     "name": "Izvod iz matične knjige rođenih",
+     "note": "Škola ga pribavlja po službenoj dužnosti; roditelj ga ne donosi."
+    },
+    {
+     "name": "Uverenje o prebivalištu",
+     "note": "Škola ga pribavlja po službenoj dužnosti."
+    },
+    {
+     "name": "Potvrda o pohađanju pripremnog predškolskog programa",
+     "note": "Škola je pribavlja po službenoj dužnosti.",
+     "variants": [
+      "Ako je dete pohađalo privatni vrtić, roditelj donosi uverenje o pohađanju pripremnog predškolskog programa."
+     ]
+    },
+    {
+     "name": "Dokaz o lekarskom pregledu deteta",
+     "note": "Škola ga pribavlja po službenoj dužnosti.",
+     "variants": [
+      "Ako je pregled obavljen u privatnoj ili vojnoj zdravstvenoj ustanovi, roditelj donosi potvrdu lično."
+     ]
+    },
+    {
+     "name": "Lična isprava roditelja",
+     "note": "Roditelj dolazi sa detetom na zakazani termin."
+    }
+   ],
+   "steps": [
+    "Proverite u kojoj školi dete pripada po prebivalištu; spisak i podatke daje opština ili grad i škola.",
+    "Obavite lekarski pregled deteta u domu zdravlja pre upisa.",
+    "Ako tražite upis van područja škole, podnesite zahtev izabranoj školi najkasnije do 1. februara godine upisa.",
+    "Sačekajte odluku škole o zahtevu; škola je dužna da je saopšti do 30. aprila te godine.",
+    "Prijavite se na portal eUprava (nalog na eid.gov.rs) i otvorite uslugu „Zakazivanje termina za upis i testiranje deteta u OŠ“.",
+    "Izaberite školu (matičnu ili školu koja je odobrila zahtev) i slobodan termin, popunite osnovne podatke i pritisnite „Podnesi“.",
+    "Dođite sa detetom na termin; upis i testiranje obavljaju se istog dana.",
+    "Ako vam je dete u školi ispitao psiholog ili pedagog i preporučen je upis nakon godinu dana, možete u roku od 8 dana podneti zahtev komisiji škole za ponovno utvrđivanje spremnosti.",
+    "Ako dete nije upisano u predviđenom roku, obratite se školi; naknadni upisi mogu se obaviti do 31. avgusta."
+   ],
+   "tips": [
+    "Zahtev za upis van područja škole podnosi se do 1. februara, pre otvaranja zakazivanja; kasnije podnet zahtev zakon ne predviđa.",
+    "Termin za upis i testiranje možete zakazati tek nakon odluke škole o zahtevu za upis van područja, a najkasnije do 30. aprila; ako zahtev nije odobren, zakažite u školi po prebivalištu.",
+    "Potvrdu o lekarskom pregledu donesite lično samo ako je pregled obavljen kod privatnog lekara ili u vojnoj ustanovi.",
+    "Ako nemate pristup internetu, obratite se školi telefonom ili lično; škola daje termin za upis.",
+    "Provera u školi odnosi se na zrelost deteta (intelektualnu, socijalnu i emocionalnu); ne proveravaju se čitanje, pisanje i računanje."
+   ],
+   "faq": [
+    {
+     "q": "Kada se upisuje u prvi razred?",
+     "a": "Upis se obavlja svake godine od 1. aprila do 31. maja, a zakazivanje na eUpravi otvara se krajem marta (za 2026. godinu: od 23. marta). Naknadni upisi su mogući do 31. avgusta preko škole."
+    },
+    {
+     "q": "Ko obavlja ispitivanje deteta?",
+     "a": "Psiholog ili pedagog škole, na maternjem jeziku deteta, standardnim postupcima i instrumentima. Ako to nije moguće, škola angažuje prevodioca na predlog nacionalnog saveta nacionalne manjine."
+    },
+    {
+     "q": "Da li dete mora da zna da čita i piše?",
+     "a": "Ne. Ispitivanje ne obuhvata čitanje, pisanje i računanje."
+    },
+    {
+     "q": "Koji je rok za zahtev za upis van područja škole?",
+     "a": "Zakon navodi da se zahtev podnosi izabranoj školi najkasnije do 1. februara tekuće godine upisa. Škola odgovara do 30. aprila, u skladu sa prostornim, kadrovskim i finansijskim mogućnostima."
+    },
+    {
+     "q": "Kako se prelazi u drugu školu kasnije?",
+     "a": "Učenik prelazi iz jedne u drugu školu na osnovu prevodnice. Škola iz koje učenik odlazi izdaje je u roku od 7 dana od prijema obaveštenja o upisu u drugu školu."
+    },
+    {
+     "q": "Šta ako dete nema dokumenta o prebivalištu?",
+     "a": "Deca iz osetljivih društvenih grupa mogu se upisati bez dokaza o prebivalištu roditelja i bez ostale potrebne dokumentacije, uz dokaz o lekarskom pregledu deteta."
+    }
+   ],
+   "for_foreigners": "Strani državljani, lica bez državljanstva i tražioci azila imaju pravo na obrazovanje pod istim uslovima kao državljani Srbije, pa se dete upisuje po istim pravilima. Za decu koja ne poznaju jezik nastave škola organizuje učenje srpskog kao stranog jezika. Za upis u prvi razred nije potrebna strana školska isprava. Deca iz osetljivih društvenih grupa mogu se upisati bez dokaza o prebivalištu i ostale dokumentacije, uz dokaz o lekarskom pregledu deteta."
+  },
+  "en": {
+   "title": "Enrolling a child in the first grade of primary school (upis u prvi razred osnovne škole)",
+   "summary": "Enrolling a child in first grade: age rules, booking on eUprava, the medical check and the school's assessment, enrolment outside the catchment area, and later transfer to another school.",
+   "where_note": "Enrolment takes place at the primary school (osnovna škola) for the area where the child lives. Book the enrolment and testing appointment on the eUprava portal, using the service \"Zakazivanje termina za upis i testiranje deteta u OŠ\" (Booking an enrolment and testing appointment for a child in a primary school; https://euprava.gov.rs/usluge/01100).",
+   "who": [
+    "Every child who, by the start of the school year, is at least 6.5 and at most 7.5 years old is enrolled in first grade.",
+    "A child aged 6 to 6.5 is enrolled after a school-readiness check, which the school organises.",
+    "A child older than 7.5 who was not enrolled because of illness or other reasons is enrolled in first or an appropriate grade after a prior knowledge check.",
+    "Enrolment can be postponed by one year when this is in the child's best interest, based on the opinion of the inter-sector commission (interresorna komisija).",
+    "A school must enrol every child from its catchment area; foreign nationals and stateless persons have the same right to education as Serbian citizens."
+   ],
+   "documents": [
+    {
+     "name": "Birth certificate extract",
+     "note": "The school obtains it ex officio (po službenoj dužnosti); the parent does not bring it."
+    },
+    {
+     "name": "Certificate of residence",
+     "note": "The school obtains it ex officio."
+    },
+    {
+     "name": "Certificate of attending the preparatory preschool programme",
+     "note": "The school obtains it ex officio.",
+     "variants": [
+      "If the child attended a private kindergarten, the parent brings the certificate of attending the preparatory preschool programme."
+     ]
+    },
+    {
+     "name": "Proof of the child's medical examination",
+     "note": "The school obtains it ex officio.",
+     "variants": [
+      "If the examination was done at a private or military health facility, the parent brings the certificate in person."
+     ]
+    },
+    {
+     "name": "Parent's ID",
+     "note": "The parent attends with the child at the booked appointment."
+    }
+   ],
+   "steps": [
+    "Check which school the child belongs to by residence; the municipality or city and the school provide this information.",
+    "Have the child's medical examination done at a health centre (dom zdravlja) before enrolment.",
+    "If you want enrolment outside the catchment area, submit a request to the chosen school by 1 February of the enrolment year at the latest.",
+    "Wait for the school's decision; the school must communicate it by 30 April of that year.",
+    "Log in to the eUprava portal (account on eid.gov.rs) and open the service \"Zakazivanje termina za upis i testiranje deteta u OŠ\".",
+    "Choose the school (the catchment school or the school that approved your request) and a free slot, fill in the basic data and press \"Podnesi\" (Submit).",
+    "Attend with the child at the appointment; enrolment and testing take place on the same day.",
+    "If the school's psychologist or pedagogue recommends enrolment after one year, you can submit a request to the school commission for a repeat readiness assessment within 8 days.",
+    "If the child is not enrolled in time, contact the school; late enrolments can be made until 31 August."
+   ],
+   "tips": [
+    "The request for enrolment outside the catchment area is due by 1 February, before booking opens; the law does not provide for a later request.",
+    "Book the appointment only after the school's decision on the out-of-area request, and no later than 30 April; if the request is not approved, book at the catchment school.",
+    "Bring the medical certificate in person only if the examination was done by a private doctor or at a military facility.",
+    "If you have no internet access, contact the school by phone or in person; the school gives you an appointment.",
+    "The school assessment covers the child's maturity (intellectual, social and emotional); reading, writing and arithmetic are not tested."
+   ],
+   "faq": [
+    {
+     "q": "When does first-grade enrolment take place?",
+     "a": "Enrolment runs every year from 1 April to 31 May, and booking on eUprava opens in late March (in 2026: from 23 March). Late enrolments are possible until 31 August through the school."
+    },
+    {
+     "q": "Who assesses the child?",
+     "a": "The school psychologist or pedagogue, in the child's mother tongue, using standard procedures and instruments. If that is not possible, the school engages an interpreter on the proposal of the national council of the national minority."
+    },
+    {
+     "q": "Must the child be able to read and write?",
+     "a": "No. The assessment does not cover reading, writing or arithmetic."
+    },
+    {
+     "q": "What is the deadline for an out-of-area request?",
+     "a": "The law states that the request is submitted to the chosen school by 1 February of the enrolment year at the latest. The school replies by 30 April, in line with its space, staffing and financial capacity."
+    },
+    {
+     "q": "How do you transfer to another school later?",
+     "a": "A pupil moves from one school to another on the basis of a transfer certificate (prevodnica). The school the pupil leaves issues it within 7 days of receiving notice of enrolment in the other school."
+    },
+    {
+     "q": "What if the child has no proof of residence?",
+     "a": "Children from vulnerable social groups can be enrolled without proof of the parents' residence and without the other required documents, with proof of the child's medical examination."
+    }
+   ],
+   "for_foreigners": "Foreign nationals, stateless persons and asylum seekers have the right to education under the same conditions as Serbian citizens, so the child is enrolled under the same rules. For children who do not know the language of instruction, the school organises learning of Serbian as a foreign language. No foreign school document is needed for first grade. Children from vulnerable social groups can be enrolled without proof of residence and the other documentation, with proof of the child's medical examination."
+  },
+  "ru": {
+   "title": "Запись ребёнка в первый класс начальной школы (upis u prvi razred osnovne škole)",
+   "summary": "Запись ребёнка в первый класс: возрастные правила, запись на приём через eUprava, медицинский осмотр и оценка школы, запись вне школьного района и последующий перевод в другую школу.",
+   "where_note": "Запись проходит в начальной школе (osnovna škola) по месту жительства ребёнка. Запишитесь на приём для записи и тестирования на портале eUprava через сервис «Zakazivanje termina za upis i testiranje deteta u OŠ» (запись на приём для записи и тестирования ребёнка в начальную школу; https://euprava.gov.rs/usluge/01100).",
+   "who": [
+    "В первый класс записывается каждый ребёнок, которому к началу учебного года исполнилось не менее 6,5 и не более 7,5 лет.",
+    "Ребёнок в возрасте от 6 до 6,5 лет записывается после проверки готовности к школе, которую организует школа.",
+    "Ребёнок старше 7,5 лет, который не был записан из-за болезни или по другим причинам, записывается в первый или соответствующий класс после предварительной проверки знаний.",
+    "Запись можно отложить на один год, если это в интересах ребёнка, на основании заключения межведомственной комиссии (interresorna komisija).",
+    "Школа обязана принять каждого ребёнка из своего района; иностранные граждане и лица без гражданства имеют такое же право на образование, как и граждане Сербии."
+   ],
+   "documents": [
+    {
+     "name": "Выписка из книги записей о рождении",
+     "note": "Школа получает её по служебной обязанности (po službenoj dužnosti); родитель её не приносит."
+    },
+    {
+     "name": "Справка о месте жительства",
+     "note": "Школа получает её по служебной обязанности."
+    },
+    {
+     "name": "Справка о посещении подготовительной дошкольной программы",
+     "note": "Школа получает её по служебной обязанности.",
+     "variants": [
+      "Если ребёнок посещал частный детский сад, родитель приносит справку о посещении подготовительной дошкольной программы."
+     ]
+    },
+    {
+     "name": "Подтверждение медицинского осмотра ребёнка",
+     "note": "Школа получает его по служебной обязанности.",
+     "variants": [
+      "Если осмотр проводился в частном или военном медицинском учреждении, родитель приносит справку лично."
+     ]
+    },
+    {
+     "name": "Удостоверение личности родителя",
+     "note": "Родитель приходит с ребёнком в назначенное время."
+    }
+   ],
+   "steps": [
+    "Узнайте, к какой школе ребёнок относится по месту жительства; эту информацию предоставляют община или город и школа.",
+    "Пройдите с ребёнком медицинский осмотр в доме здоровья (dom zdravlja) до записи.",
+    "Если вы хотите записать ребёнка вне школьного района, подайте запрос в выбранную школу не позднее 1 февраля года записи.",
+    "Дождитесь решения школы; школа обязана сообщить его до 30 апреля этого года.",
+    "Войдите на портал eUprava (учётная запись на eid.gov.rs) и откройте сервис «Zakazivanje termina za upis i testiranje deteta u OŠ».",
+    "Выберите школу (школу по району или школу, одобрившую ваш запрос) и свободное время, заполните основные данные и нажмите «Podnesi» (Отправить).",
+    "Придите с ребёнком в назначенное время; запись и тестирование проходят в один день.",
+    "Если школьный психолог или педагог рекомендует запись через год, вы можете в течение 8 дней подать в комиссию школы запрос о повторной оценке готовности.",
+    "Если ребёнок не записан вовремя, обратитесь в школу; поздняя запись возможна до 31 августа."
+   ],
+   "tips": [
+    "Запрос на запись вне школьного района подаётся до 1 февраля, до открытия записи на приём; закон не предусматривает более позднего запроса.",
+    "Записывайтесь на приём только после решения школы по запросу вне района и не позднее 30 апреля; если запрос не одобрен, записывайтесь в школу по району.",
+    "Приносите медицинскую справку лично, только если осмотр проводил частный врач или военное учреждение.",
+    "Если у вас нет доступа к интернету, обратитесь в школу по телефону или лично; школа назначит вам время.",
+    "Оценка школы охватывает зрелость ребёнка (интеллектуальную, социальную и эмоциональную); чтение, письмо и арифметика не проверяются."
+   ],
+   "faq": [
+    {
+     "q": "Когда проходит запись в первый класс?",
+     "a": "Запись проходит ежегодно с 1 апреля по 31 мая, а запись на приём на eUprava открывается в конце марта (в 2026 году: с 23 марта). Поздняя запись возможна до 31 августа через школу."
+    },
+    {
+     "q": "Кто оценивает ребёнка?",
+     "a": "Школьный психолог или педагог на родном языке ребёнка, по стандартным процедурам и с помощью стандартных инструментов. Если это невозможно, школа привлекает переводчика по предложению национального совета национального меньшинства."
+    },
+    {
+     "q": "Должен ли ребёнок уметь читать и писать?",
+     "a": "Нет. Оценка не охватывает чтение, письмо и арифметику."
+    },
+    {
+     "q": "Каков срок подачи запроса на запись вне района?",
+     "a": "Закон устанавливает, что запрос подаётся в выбранную школу не позднее 1 февраля года записи. Школа отвечает до 30 апреля с учётом своих помещений, кадров и финансовых возможностей."
+    },
+    {
+     "q": "Как потом перейти в другую школу?",
+     "a": "Ученик переходит из одной школы в другую на основании свидетельства о переводе (prevodnica). Школа, из которой переходит ученик, выдаёт его в течение 7 дней после получения уведомления о записи в другую школу."
+    },
+    {
+     "q": "Что делать, если у ребёнка нет подтверждения места жительства?",
+     "a": "Детей из уязвимых социальных групп можно записать без подтверждения места жительства родителей и без остальных необходимых документов, при наличии подтверждения медицинского осмотра ребёнка."
+    }
+   ],
+   "for_foreigners": "Иностранные граждане, лица без гражданства и просители убежища имеют право на образование на тех же условиях, что и граждане Сербии, поэтому ребёнок записывается по тем же правилам. Для детей, не владеющих языком обучения, школа организует изучение сербского языка как иностранного. Для первого класса иностранные школьные документы не нужны. Детей из уязвимых социальных групп можно записать без подтверждения места жительства и остальной документации, при наличии подтверждения медицинского осмотра ребёнка."
+  },
+  "de": {
+   "title": "Einschulung eines Kindes in die erste Klasse der Grundschule (upis u prvi razred osnovne škole)",
+   "summary": "Einschulung eines Kindes in die erste Klasse: Altersregeln, Terminbuchung auf eUprava, ärztliche Untersuchung und Beurteilung durch die Schule, Einschulung außerhalb des Einzugsgebiets und späterer Wechsel an eine andere Schule.",
+   "where_note": "Die Einschulung findet in der Grundschule (osnovna škola) für das Gebiet statt, in dem das Kind wohnt. Buchen Sie den Termin für Anmeldung und Testung auf dem Portal eUprava im Dienst «Zakazivanje termina za upis i testiranje deteta u OŠ» (Terminbuchung für Anmeldung und Testung eines Kindes in der Grundschule; https://euprava.gov.rs/usluge/01100).",
+   "who": [
+    "Jedes Kind, das zu Beginn des Schuljahres mindestens 6,5 und höchstens 7,5 Jahre alt ist, wird in die erste Klasse eingeschult.",
+    "Ein Kind im Alter von 6 bis 6,5 Jahren wird nach einer Prüfung der Schulreife eingeschult, die die Schule organisiert.",
+    "Ein Kind, das älter als 7,5 Jahre ist und wegen Krankheit oder aus anderen Gründen nicht eingeschult wurde, wird nach einer vorherigen Prüfung der Kenntnisse in die erste oder eine passende Klasse eingeschult.",
+    "Die Einschulung kann um ein Jahr zurückgestellt werden, wenn dies dem Wohl des Kindes entspricht, auf Grundlage der Stellungnahme der intersektoralen Kommission (interresorna komisija).",
+    "Eine Schule muss jedes Kind aus ihrem Einzugsgebiet aufnehmen; ausländische Staatsangehörige und Staatenlose haben dasselbe Recht auf Bildung wie serbische Staatsangehörige."
+   ],
+   "documents": [
+    {
+     "name": "Auszug aus dem Geburtenregister",
+     "note": "Die Schule beschafft ihn von Amts wegen (po službenoj dužnosti); die Eltern bringen ihn nicht mit."
+    },
+    {
+     "name": "Wohnsitzbescheinigung",
+     "note": "Die Schule beschafft sie von Amts wegen."
+    },
+    {
+     "name": "Bescheinigung über den Besuch des vorbereitenden Vorschulprogramms",
+     "note": "Die Schule beschafft sie von Amts wegen.",
+     "variants": [
+      "Wenn das Kind einen privaten Kindergarten besucht hat, bringen die Eltern die Bescheinigung über den Besuch des vorbereitenden Vorschulprogramms mit."
+     ]
+    },
+    {
+     "name": "Nachweis der ärztlichen Untersuchung des Kindes",
+     "note": "Die Schule beschafft ihn von Amts wegen.",
+     "variants": [
+      "Wenn die Untersuchung in einer privaten oder militärischen Gesundheitseinrichtung erfolgte, bringen die Eltern die Bescheinigung persönlich mit."
+     ]
+    },
+    {
+     "name": "Ausweis der Eltern",
+     "note": "Der Elternteil erscheint mit dem Kind zum gebuchten Termin."
+    }
+   ],
+   "steps": [
+    "Prüfen Sie, zu welcher Schule das Kind nach Wohnsitz gehört; die Gemeinde oder Stadt und die Schule geben darüber Auskunft.",
+    "Lassen Sie vor der Einschulung die ärztliche Untersuchung des Kindes in einem Gesundheitszentrum (dom zdravlja) durchführen.",
+    "Wenn Sie eine Einschulung außerhalb des Einzugsgebiets wünschen, reichen Sie spätestens bis zum 1. Februar des Einschulungsjahres einen Antrag bei der gewählten Schule ein.",
+    "Warten Sie auf die Entscheidung der Schule; die Schule muss sie bis zum 30. April dieses Jahres mitteilen.",
+    "Melden Sie sich auf dem Portal eUprava an (Konto auf eid.gov.rs) und öffnen Sie den Dienst «Zakazivanje termina za upis i testiranje deteta u OŠ».",
+    "Wählen Sie die Schule (die Schule des Einzugsgebiets oder die Schule, die Ihren Antrag genehmigt hat) und einen freien Termin, füllen Sie die Grunddaten aus und drücken Sie «Podnesi» (Absenden).",
+    "Erscheinen Sie mit dem Kind zum Termin; Anmeldung und Testung finden am selben Tag statt.",
+    "Wenn der Psychologe oder Pädagoge der Schule die Einschulung nach einem Jahr empfiehlt, können Sie innerhalb von 8 Tagen bei der Kommission der Schule einen Antrag auf eine erneute Beurteilung der Schulreife stellen.",
+    "Wenn das Kind nicht rechtzeitig eingeschult wird, wenden Sie sich an die Schule; späte Anmeldungen sind bis zum 31. August möglich."
+   ],
+   "tips": [
+    "Der Antrag auf Einschulung außerhalb des Einzugsgebiets ist bis zum 1. Februar fällig, vor dem Beginn der Terminbuchung; das Gesetz sieht keinen späteren Antrag vor.",
+    "Buchen Sie den Termin erst nach der Entscheidung der Schule über den Antrag außerhalb des Einzugsgebiets und spätestens bis zum 30. April; wenn der Antrag nicht genehmigt wird, buchen Sie bei der Schule des Einzugsgebiets.",
+    "Bringen Sie die ärztliche Bescheinigung nur dann persönlich mit, wenn die Untersuchung bei einem privaten Arzt oder in einer militärischen Einrichtung erfolgte.",
+    "Wenn Sie keinen Internetzugang haben, wenden Sie sich telefonisch oder persönlich an die Schule; die Schule gibt Ihnen einen Termin.",
+    "Die Beurteilung der Schule erfasst die Reife des Kindes (intellektuell, sozial und emotional); Lesen, Schreiben und Rechnen werden nicht geprüft."
+   ],
+   "faq": [
+    {
+     "q": "Wann findet die Einschulung in die erste Klasse statt?",
+     "a": "Die Einschulung läuft jedes Jahr vom 1. April bis 31. Mai, und die Buchung auf eUprava öffnet Ende März (2026: ab dem 23. März). Späte Anmeldungen sind bis zum 31. August über die Schule möglich."
+    },
+    {
+     "q": "Wer beurteilt das Kind?",
+     "a": "Der Psychologe oder Pädagoge der Schule, in der Muttersprache des Kindes, mit standardisierten Verfahren und Instrumenten. Wenn das nicht möglich ist, zieht die Schule auf Vorschlag des Nationalrats der nationalen Minderheit einen Dolmetscher hinzu."
+    },
+    {
+     "q": "Muss das Kind lesen und schreiben können?",
+     "a": "Nein. Die Beurteilung erfasst weder Lesen noch Schreiben noch Rechnen."
+    },
+    {
+     "q": "Bis wann ist ein Antrag außerhalb des Einzugsgebiets fällig?",
+     "a": "Das Gesetz bestimmt, dass der Antrag spätestens bis zum 1. Februar des Einschulungsjahres bei der gewählten Schule eingereicht wird. Die Schule antwortet bis zum 30. April, entsprechend ihren räumlichen, personellen und finanziellen Möglichkeiten."
+    },
+    {
+     "q": "Wie wechselt man später an eine andere Schule?",
+     "a": "Ein Schüler wechselt auf Grundlage einer Überweisungsbescheinigung (prevodnica) von einer Schule an eine andere. Die Schule, die der Schüler verlässt, stellt sie innerhalb von 7 Tagen nach Erhalt der Mitteilung über die Aufnahme in die andere Schule aus."
+    },
+    {
+     "q": "Was geschieht, wenn das Kind keinen Wohnsitznachweis hat?",
+     "a": "Kinder aus schutzbedürftigen sozialen Gruppen können ohne Nachweis des Wohnsitzes der Eltern und ohne die übrigen vorgeschriebenen Unterlagen eingeschult werden, mit dem Nachweis der ärztlichen Untersuchung des Kindes."
+    }
+   ],
+   "for_foreigners": "Ausländische Staatsangehörige, Staatenlose und Asylsuchende haben das Recht auf Bildung zu denselben Bedingungen wie serbische Staatsangehörige, daher wird das Kind nach denselben Regeln eingeschult. Für Kinder, die die Unterrichtssprache nicht beherrschen, organisiert die Schule das Erlernen von Serbisch als Fremdsprache. Für die erste Klasse wird kein ausländisches Schuldokument benötigt. Kinder aus schutzbedürftigen sozialen Gruppen können ohne Wohnsitznachweis und die übrigen Unterlagen eingeschult werden, mit dem Nachweis der ärztlichen Untersuchung des Kindes."
+  }
+ }
+}

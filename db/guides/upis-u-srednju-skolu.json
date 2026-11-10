@@ -1,0 +1,432 @@
+{
+ "slug": "upis-u-srednju-skolu",
+ "category": "obrazovanje-i-deca",
+ "org_types": [
+  "srednja-skola"
+ ],
+ "lead_vertical": null,
+ "status": "full",
+ "sort_order": 53,
+ "name_lat": "Upis u srednju školu",
+ "summary": "Završni ispit, bodovanje, lista želja do 20 opredeljenja, prijemni ispiti, raspoređivanje i prijava za upis u prvi razred gimnazije ili stručne škole.",
+ "typical_duration": "Postupak traje od decembra osmog razreda (izjašnjavanje o trećem testu) do jula, a treći krug i upis vanrednih učenika starijih od 17 godina u avgustu; prijemni ispiti su u aprilu i maju.",
+ "legal_basis": "Zakon o srednjem obrazovanju i vaspitanju; Pravilnik o upisu učenika u srednju školu (Sl. glasnik RS 23/23, 34/23, 26/24, 77/24, 101/24 i 41/25); godišnja Odluka o upisu učenika u srednju školu i Konkurs za upis; Pravilnik o kalendaru obrazovno-vaspitnog rada srednjih škola.",
+ "euprava_url": "https://euprava.gov.rs/%C5%BEivotna-oblast/20/%C5%BEivotna-situacija/97",
+ "online_available": true,
+ "checked_at": "2026-11-10",
+ "fees": [
+  {
+   "item": "Upis vanrednih učenika starijih od 17 godina",
+   "amount_rsd": 0,
+   "basis": "Konkurs za upis 2025/2026, odeljak 7: srednje obrazovanje je besplatno za ove kandidate.",
+   "source_url": "https://prosveta.gov.rs/wp-content/uploads/2025/06/2025-_-KONKURS-ZA-UPIS-U-SREDNJU-SKOLU_-MP.pdf",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "item": "Priznavanje strane osnovnoškolske isprave (Agencija za kvalifikacije, po zahtevu)",
+   "amount_rsd": 6100,
+   "basis": "Iznos je odštampan na uplatnici Agencije za kvalifikacije (taksa – osnovno obrazovanje); Pravilnik o visini takse za javne usluge koje pruža Agencija (Sl. glasnik RS, br. 83/2024).",
+   "source_url": "https://www.azk.gov.rs/dokument.php?f=3dmuwa3u4uaswko.pdf",
+   "checked_at": "2026-11-10"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://mojasrednjaskola.gov.rs/",
+   "title": "Moja srednja škola – portal za završni ispit i upis",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "url": "https://euprava.gov.rs/%C5%BEivotna-oblast/20/%C5%BEivotna-situacija/97",
+   "title": "eUprava – Upis u srednju školu (životna situacija)",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "url": "https://prosveta.gov.rs/wp-content/uploads/2025/06/2025-_-KONKURS-ZA-UPIS-U-SREDNJU-SKOLU_-MP.pdf",
+   "title": "Konkurs za upis u prvi razred srednje škole 2025/2026",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "url": "https://prosveta.gov.rs/wp-content/uploads/2024/11/Pravilnik-o-upisu-ucenika-u-srednju-skolu-2025-2026.pdf",
+   "title": "Pravilnik o upisu učenika u srednju školu (Ministarstvo prosvete)",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "url": "https://prosveta.gov.rs/wp-content/uploads/2025/11/Kalendar-aktivnosti-za-zavrsni-ispit-i-upis-u-srednje-skole-2025-2026.pdf",
+   "title": "Kalendar aktivnosti: završni ispit 2025/2026 i upis 2026/2027",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "url": "https://prosveta.gov.rs/wp-content/uploads/2026/06/KALENDAR-SREDNJE-PRAVILNIK-2026-2027.pdf",
+   "title": "Pravilnik o kalendaru srednjih škola za 2026/2027 (prijemni ispiti 2027)",
+   "checked_at": "2026-11-10"
+  },
+  {
+   "url": "https://prosveta.gov.rs/vesti/upis-kandidata-starijih-od-sedamnaest-godina-u-prvi-razred-srednje-skole/",
+   "title": "Upis kandidata starijih od 17 godina (Ministarstvo prosvete)",
+   "checked_at": "2026-11-10"
+  }
+ ],
+ "guide": {
+  "sr": {
+   "title": "Upis u srednju školu",
+   "summary": "Završni ispit na kraju osnovne škole, bodovanje, lista želja (opredeljenja), prijemni ispiti, raspoređivanje, prijava za upis i drugi krug.",
+   "where_note": "Većinu koraka obavlja roditelj ili drugi zakonski zastupnik na portalu Moja srednja škola (mojasrednjaskola.gov.rs), uz nalog na eUpravi, eID.gov.rs ili e-Dnevniku. Isto se može obaviti pismeno u matičnoj osnovnoj školi, a prijava za upis i u srednjoj školi.",
+   "who": [
+    "Kandidat je završio osnovno obrazovanje i vaspitanje. Granicu po datumu rođenja za upis u svojstvu redovnog učenika navodi Konkurs za tu godinu (Konkurs 2025/2026: rođeni posle 31. 8. 2008).",
+    "Kandidati stariji od 17 godina upisuju se kao vanredni učenici preko školske uprave.",
+    "Zahteve na portalu podnosi roditelj ili drugi zakonski zastupnik, kao ovlašćeni korisnik (nalog na e-Dnevniku ili na eID.gov.rs).",
+    "Za gimnaziju i četvorogodišnju stručnu školu kandidat mora da ostvari najmanje 50 od mogućih 100 bodova.",
+    "Za umetničke škole, odeljenja za učenike sa posebnim sposobnostima i škole sa delom nastave na stranom jeziku polaže se prijemni ispit."
+   ],
+   "documents": [
+    {
+     "name": "Nalog na e-Dnevniku ili eID.gov.rs",
+     "note": "Potreban roditelju za elektronske usluge na portalu. Nalog na e-Dnevniku daje razredni starešina; nalog na eID.gov.rs otvara se samostalno."
+    },
+    {
+     "name": "Desetocifrena šifra učenika",
+     "note": "Služi za proveru podataka i bodova na portalu."
+    },
+    {
+     "name": "Lista opredeljenja (želja)",
+     "note": "Podnosi se elektronski na portalu ili pismeno u matičnoj osnovnoj školi; na papirnom obrascu roditelj potpisom potvrđuje broj i raspored opredeljenja."
+    },
+    {
+     "name": "Prijava za upis u školu u koju je kandidat raspoređen",
+     "note": "Podnosi se na portalu ili neposredno u srednjoj školi. Podatke potrebne za upis škola pribavlja po službenoj dužnosti."
+    },
+    {
+     "name": "Potvrda o lekarskom pregledu",
+     "note": "Samo za obrazovne profile sa zdravstvenim uslovima. Škola je pribavlja elektronskim putem; ako to nije moguće, kandidat donosi lekarsko uverenje u školu."
+    },
+    {
+     "name": "Dokumentacija za školu pod povoljnijim uslovima",
+     "note": "Romski kandidati i polaznici programa funkcionalnog osnovnog obrazovanja odraslih; podnosi se u osnovnoj školi u decembru.",
+     "variants": [
+      "Uvećanje bodova je 30 odsto bodova koji nedostaju do 100, odnosno 35 odsto za porodice korisnice novčane socijalne pomoći."
+     ]
+    },
+    {
+     "name": "Priznata strana školska isprava",
+     "note": "Za kandidate koji su školovanje završili u inostranstvu; priznaje se po zakonu o nacionalnom okviru kvalifikacija."
+    }
+   ],
+   "steps": [
+    "U decembru osmog razreda izjasnite se u školi ili na portalu koji ćete od pet ponuđenih predmeta polagati na trećem testu završnog ispita.",
+    "Ako dete konkuriše za školu sa prijemnim ispitom, prijavite ga za prijemni ispit na portalu ili u školi (krajem marta i početkom aprila); prijemni ispit se polaže u aprilu ili maju.",
+    "Dete polaže završni ispit u matičnoj osnovnoj školi u junu: test iz srpskog (matičnog) jezika, test iz matematike i treći test.",
+    "Proverite preliminarne rezultate; ako imate primedbu, podnesite prigovor u roku koji propiše kalendar (isti ili sledeći dan).",
+    "Na portalu ili u osnovnoj školi popunite listu opredeljenja: najviše 20 opredeljenja, po redosledu želje, sa šifrom smera gimnazije ili obrazovnog profila.",
+    "Proverite tačnost liste kad je škola objavi i, po potrebi, uložite prigovor u osnovnoj školi.",
+    "Kad se objave rezultati raspodele, pogledajte u koju je školu i na koji profil dete raspoređeno (portal ili osnovna škola).",
+    "Podnesite prijavu za upis u školu u koju je dete raspoređeno, na portalu ili neposredno u srednjoj školi, u roku iz kalendara.",
+    "Ako dete nije raspoređeno, u drugom krugu podnesite novu listu opredeljenja za škole koje imaju slobodna mesta, pa prijavu za upis."
+   ],
+   "tips": [
+    "Kalendar aktivnosti se menja svake godine; proverite ga na portalu Moja srednja škola i na prosveta.gov.rs za godinu u kojoj dete upisuje školu.",
+    "Rokovi za listu opredeljenja i prijavu za upis traju samo dva dana, a prijave za prijemni ispit su ranije, krajem marta i početkom aprila.",
+    "Elektronske usluge može da koristi samo roditelj sa nalogom; nalog zatražite od razrednog starešine ili otvorite na eID.gov.rs pre roka.",
+    "Kandidati koji su položili prijemni ispit u listu opredeljenja mogu da unesu i profile bez prijemnog ispita.",
+    "Prijemni ispit za muzičke i baletske škole ima poseban upis u junu; kandidati koji konkurišu samo za njih ne popunjavaju listu od 20 opredeljenja."
+   ],
+   "faq": [
+    {
+     "q": "Koliko bodova se može ostvariti?",
+     "a": "Najviše 100: do 60 po osnovu opšteg uspeha od šestog do osmog razreda (zbir tri proseka, zaokruženih na dve decimale, pomnožen sa 4) i do 40 na završnom ispitu (po 14 iz srpskog i matematike, 12 na trećem testu). Za gimnaziju i četvorogodišnju stručnu školu potrebno je najmanje 50 bodova."
+    },
+    {
+     "q": "Koliko opredeljenja ima lista želja?",
+     "a": "Najviše 20, po redosledu želje. Podnosi se na portalu mojasrednjaskola.gov.rs ili pismeno u matičnoj osnovnoj školi."
+    },
+    {
+     "q": "Da li se bodovi dobijaju i za takmičenja?",
+     "a": "Da, za prve tri nagrade u osmom razredu: međunarodno takmičenje 12, 10 i 8 bodova, republičko 6, 4 i 2 boda. Takmičenja moraju biti navedena u Konkursu."
+    },
+    {
+     "q": "Šta ako dete nije raspoređeno?",
+     "a": "Spisak preostalih slobodnih mesta objavljuje se na portalu i u osnovnim školama. Neraspoređeni kandidati podnose novu listu za druge škole (drugi upisni krug), a po kalendaru za 2026/2027. postoji i treći krug u avgustu, neposredno u školi."
+    },
+    {
+     "q": "Kada se polaže prijemni ispit?",
+     "a": "Za upis u 2027/2028. prijava je od 29. 3. do 5. 4. 2027, a ispiti su 23, 24. i 25. 4. 2027. i 7, 8. i 9. 5. 2027, prema Pravilniku o kalendaru za 2026/2027. godinu."
+    },
+    {
+     "q": "Da li može da se upiše kandidat stariji od 17 godina?",
+     "a": "Da, kao vanredni učenik, preko nadležne školske uprave posle drugog kruga; školovanje je besplatno. U avgustu 2026. prijava je bila od 24. do 27. 8. 2026."
+    }
+   ],
+   "for_foreigners": "Kandidat koji je osnovnu školu ili jedan od poslednja dva razreda završio u inostranstvu ili u stranoj školi u Srbiji upisuje se preko broja određenog za upis, posle priznavanja strane školske isprave po zakonu o nacionalnom okviru kvalifikacija. Roditelj podnosi pismeni zahtev Ministarstvu prosvete sa najmanje pet opredeljenja, a Ministarstvo ravnomerno raspoređuje ove kandidate; ako konkurišu za školu sa prijemnim ispitom, moraju ga položiti. Za kandidata koji je šesti razred završio u inostranstvu opšti uspeh iz šestog razreda iznosi 20 bodova. Postupak priznavanja opisan je u vodiču „Priznavanje strane školske isprave i diplome“."
+  },
+  "en": {
+   "title": "Enrolment in secondary school",
+   "summary": "Final exam at the end of primary school, points, the wish list (lista opredeljenja), entrance exams, allocation, enrolment application and the second round.",
+   "where_note": "Most steps are done by a parent or other legal guardian on the portal Moja srednja škola (My Secondary School, mojasrednjaskola.gov.rs), with an eUprava, eID.gov.rs or e-Dnevnik account. The same can be done on paper at the home primary school, and the enrolment application also in person at the secondary school.",
+   "who": [
+    "The candidate has completed primary education. The birth-date limit for enrolling as a full-time pupil is stated in that year's competition (Konkurs 2025/2026: born after 31. 8. 2008).",
+    "Candidates older than 17 enrol as part-time pupils (vanredni učenici) through the school administration (školska uprava).",
+    "A parent or other legal guardian files the portal requests as an authorised user (e-Dnevnik or eID.gov.rs account).",
+    "For a gimnazija (general secondary school) and a four-year vocational school the candidate needs at least 50 of the 100 possible points.",
+    "An entrance exam is taken for art schools, classes for pupils with special abilities and schools with part of the teaching in a foreign language."
+   ],
+   "documents": [
+    {
+     "name": "e-Dnevnik or eID.gov.rs account",
+     "note": "The parent needs it for electronic services on the portal. The class teacher provides the e-Dnevnik account; the eID.gov.rs account is opened by yourself."
+    },
+    {
+     "name": "Pupil's 10-digit code",
+     "note": "Used to check data and points on the portal."
+    },
+    {
+     "name": "List of choices (wish list)",
+     "note": "Filed electronically on the portal or on paper at the home primary school; on the paper form the parent confirms with a signature the number and order of the choices."
+    },
+    {
+     "name": "Enrolment application for the school where the candidate was allocated",
+     "note": "Filed on the portal or in person at the secondary school. The school obtains the data needed for enrolment by itself (po službenoj dužnosti)."
+    },
+    {
+     "name": "Medical examination confirmation",
+     "note": "Only for educational profiles with health requirements. The school obtains it electronically; if that is not possible, the candidate brings a medical certificate to the school."
+    },
+    {
+     "name": "Documents for enrolment under more favourable conditions",
+     "note": "Roma candidates and participants of the adult functional primary education programme; filed at the primary school in December.",
+     "variants": [
+      "The points increase is 30 per cent of the points missing to 100, or 35 per cent for families receiving cash social assistance."
+     ]
+    },
+    {
+     "name": "Recognised foreign school certificate",
+     "note": "For candidates who finished schooling abroad; recognised under the law on the national qualifications framework."
+    }
+   ],
+   "steps": [
+    "In December of the eighth grade, state at school or on the portal which of the five offered subjects the pupil takes in the third test of the final exam.",
+    "If the child applies to a school with an entrance exam, register for it on the portal or at school (late March and early April); the entrance exam is held in April or May.",
+    "The child takes the final exam at the home primary school in June: a test in Serbian (or mother tongue), a test in mathematics and the third test.",
+    "Check the preliminary results; if you object, file an objection within the time set in the calendar (the same or the next day).",
+    "On the portal or at the primary school fill in the list of choices: up to 20 choices, in order of preference, each with the code of a gimnazija course or educational profile.",
+    "Check the list for accuracy when the school publishes it and, if needed, file an objection at the primary school.",
+    "When the allocation results are published, check which school and profile the child was allocated to (portal or primary school).",
+    "File the enrolment application for the school of allocation, on the portal or in person at the secondary school, within the time set in the calendar.",
+    "If the child was not allocated, file a new list of choices for schools with free places in the second round, then the enrolment application."
+   ],
+   "tips": [
+    "The activity calendar changes every year; check it on the portal Moja srednja škola and on prosveta.gov.rs for the year in which the child enrols.",
+    "The windows for the list of choices and the enrolment application last only two days, and entrance exam registration is earlier, in late March and early April.",
+    "Only a parent with an account can use the electronic services; ask the class teacher for the account or open one on eID.gov.rs before the deadline.",
+    "Candidates who passed an entrance exam may also enter profiles without an entrance exam on the list of choices.",
+    "Music and ballet schools have a separate enrolment in June; candidates applying only to them do not fill in the list of 20 choices."
+   ],
+   "faq": [
+    {
+     "q": "How many points can be earned?",
+     "a": "At most 100: up to 60 for the general grade average of grades 6 to 8 (the sum of the three averages, rounded to two decimals, multiplied by 4) and up to 40 at the final exam (14 each for Serbian and mathematics, 12 for the third test). For a gimnazija and a four-year vocational school at least 50 points are required."
+    },
+    {
+     "q": "How many choices does the wish list have?",
+     "a": "Up to 20, in order of preference. It is filed on the portal mojasrednjaskola.gov.rs or on paper at the home primary school."
+    },
+    {
+     "q": "Are points given for competitions?",
+     "a": "Yes, for the first three prizes in the eighth grade: international competition 12, 10 and 8 points, republic competition 6, 4 and 2 points. The competitions must be listed in the Konkurs."
+    },
+    {
+     "q": "What if the child is not allocated?",
+     "a": "The list of remaining free places is published on the portal and at primary schools. Unallocated candidates file a new list for other schools (second enrolment round), and the 2026/2027 calendar also has a third round in August, in person at the school."
+    },
+    {
+     "q": "When is the entrance exam held?",
+     "a": "For enrolment in 2027/2028 registration is from 29. 3. to 5. 4. 2027 and the exams are on 23, 24 and 25. 4. 2027 and 7, 8 and 9. 5. 2027, according to the Rulebook on the calendar for 2026/2027."
+    },
+    {
+     "q": "Can a candidate older than 17 enrol?",
+     "a": "Yes, as a part-time pupil, through the competent school administration after the second round; the education is free. In August 2026 the application was from 24. to 27. 8. 2026."
+    }
+   ],
+   "for_foreigners": "A candidate who finished primary school or one of the last two grades abroad or in a foreign school in Serbia is enrolled above the quota set for enrolment, after the foreign school certificate is recognised under the law on the national qualifications framework. A parent files a written request with the Ministry of Education with at least five choices, and the Ministry allocates these candidates evenly; if they apply to a school with an entrance exam, they must pass it. For a candidate who finished the sixth grade abroad, the sixth-grade general grade counts as 20 points. The recognition procedure is described in the guide “Recognition of foreign school certificates and diplomas”."
+  },
+  "ru": {
+   "title": "Запись в среднюю школу",
+   "summary": "Выпускной экзамен в конце начальной школы (završni ispit), баллы, список пожеланий (lista opredeljenja), вступительные экзамены, распределение, заявление о записи и второй тур.",
+   "where_note": "Большинство шагов выполняет родитель или другой законный представитель на портале Moja srednja škola (Моя средняя школа, mojasrednjaskola.gov.rs) с учётной записью eUprava, eID.gov.rs или e-Dnevnik. То же можно сделать на бумаге в своей начальной школе, а заявление о записи — также лично в средней школе.",
+   "who": [
+    "Кандидат окончил начальное образование. Предельная дата рождения для записи на очное обучение указывается в конкурсе (konkurs) данного года (Konkurs 2025/2026: родившиеся после 31. 8. 2008).",
+    "Кандидаты старше 17 лет записываются как заочные ученики (vanredni učenici) через школьное управление (školska uprava).",
+    "Родитель или другой законный представитель подаёт запросы на портале как уполномоченный пользователь (учётная запись e-Dnevnik или eID.gov.rs).",
+    "Для гимназии (gimnazija) и четырёхлетней профессиональной школы кандидату нужно не менее 50 из 100 возможных баллов.",
+    "Вступительный экзамен сдаётся для художественных школ, классов для учеников с особыми способностями и школ, в которых часть преподавания ведётся на иностранном языке."
+   ],
+   "documents": [
+    {
+     "name": "Учётная запись e-Dnevnik или eID.gov.rs",
+     "note": "Нужна родителю для электронных услуг на портале. Учётную запись e-Dnevnik выдаёт классный руководитель; учётную запись eID.gov.rs вы создаёте самостоятельно."
+    },
+    {
+     "name": "10-значный код ученика",
+     "note": "Используется для проверки данных и баллов на портале."
+    },
+    {
+     "name": "Список выбора (список пожеланий)",
+     "note": "Подаётся в электронном виде на портале или на бумаге в своей начальной школе; на бумажном бланке родитель подписью подтверждает количество и порядок выбранных вариантов."
+    },
+    {
+     "name": "Заявление о записи в школу, в которую распределён кандидат",
+     "note": "Подаётся на портале или лично в средней школе. Данные, необходимые для записи, школа получает сама (po službenoj dužnosti)."
+    },
+    {
+     "name": "Подтверждение медицинского осмотра",
+     "note": "Только для образовательных профилей с требованиями к здоровью. Школа получает его в электронном виде; если это невозможно, кандидат приносит в школу медицинскую справку."
+    },
+    {
+     "name": "Документы для записи на более благоприятных условиях",
+     "note": "Кандидаты из числа рома и участники программы функционального начального образования взрослых; подаются в начальную школу в декабре.",
+     "variants": [
+      "Баллы увеличиваются на 30 процентов от недостающих до 100 баллов или на 35 процентов для семей, получающих денежную социальную помощь."
+     ]
+    },
+    {
+     "name": "Признанное иностранное школьное свидетельство",
+     "note": "Для кандидатов, окончивших обучение за границей; признаётся в соответствии с законом о национальной рамке квалификаций."
+    }
+   ],
+   "steps": [
+    "В декабре восьмого класса укажите в школе или на портале, какой из пяти предлагаемых предметов ученик сдаёт в третьем тесте выпускного экзамена.",
+    "Если ребёнок поступает в школу со вступительным экзаменом, зарегистрируйтесь на него на портале или в школе (конец марта и начало апреля); вступительный экзамен проходит в апреле или мае.",
+    "Ребёнок сдаёт выпускной экзамен в своей начальной школе в июне: тест по сербскому языку (или родному языку), тест по математике и третий тест.",
+    "Проверьте предварительные результаты; если вы возражаете, подайте возражение в срок, указанный в календаре (в тот же или на следующий день).",
+    "На портале или в начальной школе заполните список пожеланий: до 20 вариантов в порядке предпочтения, каждый с кодом курса гимназии или образовательного профиля.",
+    "Когда школа опубликует список, проверьте его на правильность и, при необходимости, подайте возражение в начальной школе.",
+    "Когда будут опубликованы результаты распределения, проверьте, в какую школу и на какой профиль распределён ребёнок (на портале или в начальной школе).",
+    "Подайте заявление о записи в школу, в которую вас распределили, на портале или лично в средней школе, в срок, указанный в календаре.",
+    "Если ребёнок не был распределён, подайте новый список пожеланий для школ со свободными местами во втором туре, затем заявление о записи."
+   ],
+   "tips": [
+    "Календарь мероприятий меняется каждый год; проверьте его на портале Moja srednja škola и на prosveta.gov.rs для года, в котором ребёнок поступает.",
+    "Окна для подачи списка пожеланий и заявления о записи длятся всего два дня, а регистрация на вступительные экзамены проходит раньше, в конце марта и начале апреля.",
+    "Электронными услугами может пользоваться только родитель с учётной записью; попросите учётную запись у классного руководителя или создайте её на eID.gov.rs до окончания срока.",
+    "Кандидаты, сдавшие вступительный экзамен, могут включить в список пожеланий также профили без вступительного экзамена.",
+    "В музыкальных и балетных школах запись проходит отдельно, в июне; кандидаты, поступающие только туда, не заполняют список из 20 вариантов."
+   ],
+   "faq": [
+    {
+     "q": "Сколько баллов можно набрать?",
+     "a": "Не более 100: до 60 за общий средний балл за 6–8 классы (сумма трёх средних баллов, округлённая до двух десятичных знаков, умноженная на 4) и до 40 на выпускном экзамене (по 14 за сербский язык и математику, 12 за третий тест). Для гимназии и четырёхлетней профессиональной школы требуется не менее 50 баллов."
+    },
+    {
+     "q": "Сколько вариантов в списке пожеланий?",
+     "a": "До 20, в порядке предпочтения. Он подаётся на портале mojasrednjaskola.gov.rs или на бумаге в своей начальной школе."
+    },
+    {
+     "q": "Начисляются ли баллы за конкурсы?",
+     "a": "Да, за первые три места в восьмом классе: международный конкурс 12, 10 и 8 баллов, республиканский конкурс 6, 4 и 2 балла. Конкурсы должны быть указаны в Konkurs."
+    },
+    {
+     "q": "Что делать, если ребёнок не распределён?",
+     "a": "Список оставшихся свободных мест публикуется на портале и в начальных школах. Нераспределённые кандидаты подают новый список для других школ (второй тур записи), а в календаре на 2026/2027 год есть также третий тур в августе, лично в школе."
+    },
+    {
+     "q": "Когда проходит вступительный экзамен?",
+     "a": "Для записи на 2027/2028 год регистрация проходит с 29. 3. по 5. 4. 2027, а экзамены — 23, 24 и 25. 4. 2027 и 7, 8 и 9. 5. 2027, согласно Правилнику о календаре на 2026/2027 год."
+    },
+    {
+     "q": "Может ли поступить кандидат старше 17 лет?",
+     "a": "Да, как заочный ученик, через компетентное школьное управление после второго тура; обучение бесплатное. В августе 2026 года заявление принималось с 24. по 27. 8. 2026."
+    }
+   ],
+   "for_foreigners": "Кандидат, окончивший начальную школу или один из двух последних классов за границей или в иностранной школе в Сербии, записывается сверх квоты, установленной для записи, после признания иностранного школьного свидетельства в соответствии с законом о национальной рамке квалификаций. Родитель подаёт в Министерство просвещения письменный запрос не менее чем с пятью вариантами, и Министерство распределяет таких кандидатов равномерно; если они поступают в школу со вступительным экзаменом, они должны его сдать. Для кандидата, окончившего шестой класс за границей, общая оценка за шестой класс засчитывается как 20 баллов. Порядок признания описан в инструкции «Признание иностранных школьных свидетельств и дипломов»."
+  },
+  "de": {
+   "title": "Anmeldung an der weiterführenden Schule (Srednja škola)",
+   "summary": "Abschlussprüfung am Ende der Grundschule, Punkte, Wunschliste (lista opredeljenja), Aufnahmeprüfungen, Zuteilung, Anmeldeantrag und zweite Runde.",
+   "where_note": "Die meisten Schritte erledigen die Eltern oder ein anderer gesetzlicher Vertreter auf dem Portal Moja srednja škola (Meine weiterführende Schule, mojasrednjaskola.gov.rs) mit einem Konto auf eUprava, eID.gov.rs oder e-Dnevnik. Dasselbe ist auf Papier in der Heimatgrundschule möglich, und der Anmeldeantrag auch persönlich in der weiterführenden Schule.",
+   "who": [
+    "Der Bewerber hat die Grundschulbildung abgeschlossen. Die Geburtsdatumsgrenze für die Aufnahme als Vollzeitschüler nennt die Ausschreibung des jeweiligen Jahres (Konkurs 2025/2026: geboren nach dem 31. 8. 2008).",
+    "Bewerber, die älter als 17 Jahre sind, werden als Teilzeitschüler (vanredni učenici) über die Schulverwaltung (školska uprava) aufgenommen.",
+    "Ein Elternteil oder ein anderer gesetzlicher Vertreter stellt die Anträge auf dem Portal als berechtigter Nutzer (Konto auf e-Dnevnik oder eID.gov.rs).",
+    "Für ein Gymnasium (gimnazija, allgemeinbildende weiterführende Schule) und eine vierjährige Berufsschule benötigt der Bewerber mindestens 50 der möglichen 100 Punkte.",
+    "Eine Aufnahmeprüfung wird für Kunstschulen, Klassen für Schüler mit besonderen Begabungen und Schulen mit teilweisem Unterricht in einer Fremdsprache abgelegt."
+   ],
+   "documents": [
+    {
+     "name": "Konto auf e-Dnevnik oder eID.gov.rs",
+     "note": "Die Eltern benötigen es für die elektronischen Dienste auf dem Portal. Das Konto auf e-Dnevnik stellt der Klassenlehrer zur Verfügung; das Konto auf eID.gov.rs richten Sie selbst ein."
+    },
+    {
+     "name": "10-stelliger Code des Schülers",
+     "note": "Dient dazu, Daten und Punkte auf dem Portal zu prüfen."
+    },
+    {
+     "name": "Wahlliste (Wunschliste)",
+     "note": "Wird elektronisch auf dem Portal oder auf Papier in der Heimatgrundschule eingereicht; auf dem Papierformular bestätigen die Eltern mit ihrer Unterschrift Anzahl und Reihenfolge der Wahlen."
+    },
+    {
+     "name": "Anmeldeantrag für die Schule, der der Bewerber zugeteilt wurde",
+     "note": "Wird auf dem Portal oder persönlich in der weiterführenden Schule eingereicht. Die Schule beschafft die für die Aufnahme nötigen Daten selbst (po službenoj dužnosti)."
+    },
+    {
+     "name": "Bestätigung der ärztlichen Untersuchung",
+     "note": "Nur für Ausbildungsprofile mit gesundheitlichen Anforderungen. Die Schule beschafft sie elektronisch; wenn das nicht möglich ist, bringt der Bewerber eine ärztliche Bescheinigung in die Schule mit."
+    },
+    {
+     "name": "Unterlagen für die Aufnahme unter günstigeren Bedingungen",
+     "note": "Roma-Bewerber und Teilnehmer des Programms der funktionalen Grundschulbildung für Erwachsene; werden im Dezember in der Grundschule eingereicht.",
+     "variants": [
+      "Die Punkteerhöhung beträgt 30 Prozent der bis 100 fehlenden Punkte, bei Familien, die Sozialhilfe in bar erhalten, 35 Prozent."
+     ]
+    },
+    {
+     "name": "Anerkanntes ausländisches Schulzeugnis",
+     "note": "Für Bewerber, die ihre Schulbildung im Ausland abgeschlossen haben; wird nach dem Gesetz über den nationalen Qualifikationsrahmen anerkannt."
+    }
+   ],
+   "steps": [
+    "Geben Sie im Dezember der achten Klasse in der Schule oder auf dem Portal an, welches der fünf angebotenen Fächer der Schüler im dritten Test der Abschlussprüfung ablegt.",
+    "Wenn sich das Kind an einer Schule mit Aufnahmeprüfung bewirbt, melden Sie es auf dem Portal oder in der Schule dazu an (Ende März und Anfang April); die Aufnahmeprüfung findet im April oder Mai statt.",
+    "Das Kind legt im Juni in der Heimatgrundschule die Abschlussprüfung ab: einen Test in Serbisch (oder Muttersprache), einen Test in Mathematik und den dritten Test.",
+    "Prüfen Sie die vorläufigen Ergebnisse; wenn Sie Einwände haben, legen Sie innerhalb der im Kalender festgelegten Frist Widerspruch ein (am selben oder am nächsten Tag).",
+    "Füllen Sie auf dem Portal oder in der Grundschule die Wahlliste aus: bis zu 20 Wahlen in der Reihenfolge der Präferenz, jeweils mit dem Code eines Gymnasiumzweigs oder Ausbildungsprofils.",
+    "Prüfen Sie die Liste auf Richtigkeit, wenn die Schule sie veröffentlicht, und legen Sie bei Bedarf in der Grundschule Widerspruch ein.",
+    "Wenn die Zuteilungsergebnisse veröffentlicht sind, prüfen Sie, welcher Schule und welchem Profil das Kind zugeteilt wurde (Portal oder Grundschule).",
+    "Reichen Sie den Anmeldeantrag für die zugeteilte Schule auf dem Portal oder persönlich in der weiterführenden Schule innerhalb der im Kalender festgelegten Frist ein.",
+    "Wenn das Kind nicht zugeteilt wurde, reichen Sie für die zweite Runde eine neue Wahlliste für Schulen mit freien Plätzen ein, danach den Anmeldeantrag."
+   ],
+   "tips": [
+    "Der Terminkalender ändert sich jedes Jahr; prüfen Sie ihn auf dem Portal Moja srednja škola und auf prosveta.gov.rs für das Jahr, in dem das Kind eingeschult wird.",
+    "Die Zeitfenster für die Wahlliste und den Anmeldeantrag dauern nur zwei Tage, und die Anmeldung zur Aufnahmeprüfung liegt früher, Ende März und Anfang April.",
+    "Nur ein Elternteil mit Konto kann die elektronischen Dienste nutzen; fragen Sie den Klassenlehrer nach dem Konto oder richten Sie vor der Frist eines auf eID.gov.rs ein.",
+    "Bewerber, die eine Aufnahmeprüfung bestanden haben, dürfen in der Wahlliste auch Profile ohne Aufnahmeprüfung angeben.",
+    "Musik- und Ballettschulen haben im Juni eine eigene Aufnahme; Bewerber, die sich nur dort bewerben, füllen die Liste mit 20 Wahlen nicht aus."
+   ],
+   "faq": [
+    {
+     "q": "Wie viele Punkte können erreicht werden?",
+     "a": "Höchstens 100: bis zu 60 für den allgemeinen Notendurchschnitt der Klassen 6 bis 8 (die Summe der drei Durchschnitte, auf zwei Dezimalstellen gerundet, multipliziert mit 4) und bis zu 40 in der Abschlussprüfung (je 14 für Serbisch und Mathematik, 12 für den dritten Test). Für ein Gymnasium und eine vierjährige Berufsschule sind mindestens 50 Punkte erforderlich."
+    },
+    {
+     "q": "Wie viele Wahlen hat die Wunschliste?",
+     "a": "Bis zu 20, in der Reihenfolge der Präferenz. Sie wird auf dem Portal mojasrednjaskola.gov.rs oder auf Papier in der Heimatgrundschule eingereicht."
+    },
+    {
+     "q": "Gibt es Punkte für Wettbewerbe?",
+     "a": "Ja, für die ersten drei Preise in der achten Klasse: internationaler Wettbewerb 12, 10 und 8 Punkte, Wettbewerb auf Republikebene 6, 4 und 2 Punkte. Die Wettbewerbe müssen im Konkurs aufgeführt sein."
+    },
+    {
+     "q": "Was geschieht, wenn das Kind nicht zugeteilt wird?",
+     "a": "Die Liste der verbleibenden freien Plätze wird auf dem Portal und in den Grundschulen veröffentlicht. Nicht zugeteilte Bewerber reichen eine neue Liste für andere Schulen ein (zweite Aufnahmerunde), und der Kalender 2026/2027 sieht im August außerdem eine dritte Runde vor, persönlich in der Schule."
+    },
+    {
+     "q": "Wann findet die Aufnahmeprüfung statt?",
+     "a": "Für die Aufnahme 2027/2028 ist die Anmeldung vom 29. 3. bis 5. 4. 2027, und die Prüfungen sind am 23., 24. und 25. 4. 2027 sowie am 7., 8. und 9. 5. 2027, nach der Verordnung über den Kalender für 2026/2027."
+    },
+    {
+     "q": "Kann ein Bewerber, der älter als 17 Jahre ist, aufgenommen werden?",
+     "a": "Ja, als Teilzeitschüler, über die zuständige Schulverwaltung nach der zweiten Runde; die Bildung ist kostenlos. Im August 2026 lief die Anmeldung vom 24. bis 27. 8. 2026."
+    }
+   ],
+   "for_foreigners": "Ein Bewerber, der die Grundschule oder eine der letzten beiden Klassen im Ausland oder an einer ausländischen Schule in Serbien abgeschlossen hat, wird über die für die Aufnahme festgelegte Quote hinaus aufgenommen, nachdem das ausländische Schulzeugnis nach dem Gesetz über den nationalen Qualifikationsrahmen anerkannt wurde. Die Eltern stellen beim Bildungsministerium einen schriftlichen Antrag mit mindestens fünf Wahlen, und das Ministerium teilt diese Bewerber gleichmäßig zu; wenn sie sich an einer Schule mit Aufnahmeprüfung bewerben, müssen sie diese bestehen. Für einen Bewerber, der die sechste Klasse im Ausland abgeschlossen hat, zählt der allgemeine Notendurchschnitt der sechsten Klasse als 20 Punkte. Das Anerkennungsverfahren ist in der Anleitung «Anerkennung ausländischer Schulzeugnisse und Diplome» beschrieben."
+  }
+ }
+}

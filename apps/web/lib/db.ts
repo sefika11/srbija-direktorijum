@@ -178,7 +178,7 @@ export const insertLead = (p: { vertical_slug: string; page_path: string; locati
 export type GuideContent = {
   title?: string; summary?: string; who?: string[]; where_note?: string;
   documents?: { name: string; note?: string; variants?: string[] }[];
-  steps?: string[]; faq?: { q: string; a: string }[]; for_foreigners?: string;
+  steps?: string[]; tips?: string[]; faq?: { q: string; a: string }[]; for_foreigners?: string;
 };
 export type Fee = { item: string; amount_rsd: number | null; basis?: string; source_url?: string; checked_at?: string; note?: string };
 export type GuideSource = { url: string; title?: string; checked_at?: string };
@@ -193,6 +193,8 @@ const GUIDE_SELECT = sql`
          coalesce((select array_agg(t.slug order by ots.is_primary desc, t.slug) from org_type_services ots join org_types t on t.id = ots.org_type_id where ots.service_id = s.id), '{}') as org_type_slugs
   from services s join service_categories c on c.id = s.category_id`;
 export const getGuides = () => sql<GuideRow[]>`${GUIDE_SELECT} where s.is_active and s.status <> 'draft' order by c.sort_order, s.sort_order, s.name_lat`;
+/** Guides attached to an institution type (org_type_services): shown on the type hub and on every institution of that type. */
+export const getGuidesForType = (typeSlug: string) => sql<GuideRow[]>`${GUIDE_SELECT} where s.is_active and s.status <> 'draft' and exists (select 1 from org_type_services ots join org_types t on t.id = ots.org_type_id where ots.service_id = s.id and t.slug = ${typeSlug}) order by s.sort_order, s.name_lat limit 6`;
 export const getGuide = (slug: string) => sql<GuideRow[]>`${GUIDE_SELECT} where s.slug = ${slug} and s.is_active and s.status <> 'draft' limit 1`.then((r) => r[0] ?? null);
 
 const LOC_COLS = sql`location_id, location_slug, unit_name_lat, unit_kind, is_primary, address_display, address_extra, postal_code, settlement_name_lat, lat, lng, hours_text, notes_md,
