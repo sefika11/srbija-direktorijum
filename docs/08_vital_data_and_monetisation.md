@@ -97,3 +97,10 @@ Municipality page now opens with the **Vitalno** block: emergency numbers, fault
 - The local Postgres data directory died with the old scratchpad: **Neon is the only database now**; run importers with `DATABASE_URL` set to the unpooled Neon DSN plus keepalives.
 - Courts and prosecutors: 262 organisations (all basic courts, higher, commercial, misdemeanour, appellate courts and public prosecutor's offices) have no street address; 273 have no phone. Export in `db/targets/courts_missing_contacts_2026-11-10.json`; an official-source contact pass is in progress → `db/contacts/courts_contacts_2026-11-10.json`, applied with `apply_contacts.py`.
 - Search synonyms: sahrana / pogreb / groblje → `jkp-pogrebne-usluge`.
+
+## Live-user audit · 2026-11-10 night — findings and status
+
+Fixed in this pass: place matching confused *banka/banja* and *platim/plana*; "usa"/"sad" found no country; "poštanska štedionica kragujevac" returned only the town; EN/RU/DE queries ("court", "kindergarten", "суд") matched nothing (now 109 multilingual synonyms + translated type names shown in EN/RU/DE); brand/place filter counts were global; phone palette rows were all red; no skip link and `<html lang>` was always Serbian; the globe bundle shipped the 13k-dot file for nothing.
+
+Open data gaps a user hits (primary seat without address AND phone): mesne zajednice 3,886 (low value), **osnovne škole 1,280, srednje škole 505, predškolske ustanove 171, opšte bolnice 148, biblioteke 148, muzeji 129, kulturni centri 233, fakulteti 97, centri za socijalni rad 94 (phones), domovi zdravlja 63 (phones)**. Official sources to use next: MPNTR/ data.gov.rs "Adresar ustanova obrazovanja" (schools + kindergartens), RFZO/Ministry of Health institution list (hospitals, health centres), Ministry of Culture register (libraries, museums), university sites (faculties).
+Also: no official list of vehicle inspection stations (type exists, 0 rows); no "upis u vrtić" guide; several MFA visa texts truncated at source (BY contaminated).

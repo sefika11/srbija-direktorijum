@@ -7,7 +7,7 @@ export default async function Page() {
   const types = await db.getOrgTypes();
   const groups = [...new Set(types.map((t) => t.group))];
   return (
-    <main className="shell py-10">
+    <main id="main" className="shell py-10">
       <div className="eyebrow">Design system · 3D emblemi</div>
       <h1 className="display-sm mt-2">Svaka vrsta institucije ima svoj emblem</h1>
       {groups.map((g) => (

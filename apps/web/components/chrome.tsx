@@ -1,4 +1,5 @@
 import Link from "next/link";
+import HtmlLang from "./HtmlLang";
 import type { Locale } from "@/lib/i18n";
 import { t, href } from "@/lib/i18n";
 import { LanguageSwitch } from "./ui";
@@ -9,7 +10,7 @@ import SearchBox from "./SearchBox";
 export function Header({ locale, path }: { locale: Locale; path: string }) {
   const d = t(locale);
   return (
-    <header className="site-header sticky top-0 z-40">
+    <><a href="#main" className="skip-link">{locale === "sr" ? "Pređi na sadržaj" : locale === "en" ? "Skip to content" : locale === "ru" ? "К содержанию" : "Zum Inhalt"}</a><HtmlLang locale={locale} /><header className="site-header sticky top-0 z-40">
       <div className="tricolor" aria-hidden />
       <div className="shell flex items-center gap-4 min-h-[56px]">
         <Link href={href(locale, "/")} className="no-underline text-ink flex items-center gap-2.5 shrink-0">
@@ -26,7 +27,7 @@ export function Header({ locale, path }: { locale: Locale; path: string }) {
           <LanguageSwitch locale={locale} path={path} />
         </nav>
       </div>
-    </header>
+    </header></>
   );
 }
 

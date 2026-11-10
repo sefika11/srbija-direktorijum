@@ -57,7 +57,7 @@ export async function GuidesHub({ locale }: { locale: Locale }) {
   const cats = new Map<string, { name: string; items: db.GuideRow[] }>();
   for (const g of guides) { const c = cats.get(g.category_slug) ?? { name: g.category_name, items: [] }; c.items.push(g); cats.set(g.category_slug, c); }
   return (
-    <main>
+    <main id="main">
       <section className="hero-light border-b border-line"><div className="shell py-10 sm:py-14">
         <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, { label: L.guides }]} />
         <h1 className="font-serif text-[32px] sm:text-[40px] font-semibold leading-[1.1] mt-4 max-w-3xl">{L.guides}</h1>
@@ -101,7 +101,7 @@ export async function GuidePage({ locale, guide, jlsSlug, path }: { locale: Loca
   const faqLd = c.faq?.length ? { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: c.faq.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) } : null;
   const otherGuides = others.filter((g) => g.id !== guide.id && g.category_slug === guide.category_slug).slice(0, 5);
   return (
-    <main>
+    <main id="main">
       {faqLd && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />}
       <section className="hero-light border-b border-line"><div className="shell py-8 sm:py-12">
         <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, { href: href(locale, "/vodici"), label: L.guides }, { label: guide.category_name }]} />

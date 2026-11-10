@@ -764,3 +764,6 @@ a { color: var(--accent); }
 .section-title::before { content: ""; width: 6px; height: 18px; border-radius: 2px; background: linear-gradient(180deg, var(--red) 0 50%, var(--accent) 50%); box-shadow: 0 1px 0 rgb(255 255 255 / .6) inset, 0 2px 4px -2px rgb(23 24 28 / .5); }
 .guide-card .num.tab { position: absolute; top: 14px; right: 14px; font-size: 11px; opacity: 1; color: #fff; line-height: 1; }
 .guide-card.fold::after { display: none; } /* the tab replaces the fold on home guide cards */
+.skip-link { position: absolute; left: 12px; top: -48px; z-index: 100; padding: 8px 14px; border-radius: var(--radius-pill); background: var(--ink); color: var(--bg); font-size: 13.5px; font-weight: 500; text-decoration: none; transition: top .15s; }
+.skip-link:focus { top: 12px; outline: 3px solid var(--red); outline-offset: 2px; }
+main { scroll-margin-top: 80px; }

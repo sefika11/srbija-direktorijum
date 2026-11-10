@@ -33,7 +33,7 @@ export async function VisaHub({ locale }: { locale: Locale }) {
         </Link></li>); })}
     </ul>);
   return (
-    <main>
+    <main id="main">
       <section className="hero-light border-b border-line"><div className="shell py-8 sm:py-10 hub-head">
         <div className="hub-glyph"><Passport iso2="RS" name="Srbija" size={88} /></div>
         <div className="min-w-0">
@@ -85,7 +85,7 @@ export async function CountryPage({ locale, country }: { locale: Locale; country
       {url && <a href={url} rel="noopener" target="_blank" className="btn-primary mt-4 inline-flex">{L.official} ↗</a>}
     </section>);
   return (
-    <main>
+    <main id="main">
       <section className="hero-light border-b border-line"><div className="shell py-8 sm:py-10 hub-head">
         <div className="hub-glyph"><Passport iso2={c.iso2} name={name} size={96} label={locale === "sr" ? "PASOŠ" : locale === "en" ? "PASSPORT" : locale === "ru" ? "ПАСПОРТ" : "REISEPASS"} /></div>
         <div className="min-w-0">

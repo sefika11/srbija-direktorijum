@@ -27,7 +27,7 @@ export async function PartnersPage({ locale, path }: { locale: Locale; path: str
   ]);
   const fmt = (n: number) => n.toLocaleString("sr-Latn");
   return (
-    <main>
+    <main id="main">
       <section className="hero-light border-b border-line"><div className="shell py-10 sm:py-14">
         <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, { label: s.title }]} />
         <div className="eyebrow mt-4">{d.becomePartner}</div>

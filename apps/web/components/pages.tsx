@@ -94,7 +94,7 @@ export async function Home({ locale }: { locale: Locale }) {
     de: { open: "Öffnen", browse: "Entdecken", bySituation: "Nach Lebenslage", langsTitle: "Derselbe Inhalt in vier Sprachen", langsLead: "Für alle, die in Serbien leben, arbeiten oder gerade ankommen.", stats: "In Zahlen", since: "Daten aus amtlichen Registern, laufend aktualisiert." },
   }[locale];
   return (
-    <main>
+    <main id="main">
       <Opener words={d.siteName.split(" ")} eyebrow={`Republika Srbija · ${new Date().getFullYear()}`} count={stats.orgs} countLabel={d.institutions} />
       <HeroFX />
       {/* Opening */}
@@ -251,7 +251,7 @@ export async function OkrugHub({ locale, okrug }: { locale: Locale; okrug: db.TU
   const d = t(locale);
   const jls = await db.getJlsInOkrug(okrug.id);
   return (
-    <main>
+    <main id="main">
       <HeroFX />
       <section className="hero-light border-b border-line"><div className="shell py-8 sm:py-10 grid gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.1fr)] lg:items-center">
         <div>
@@ -292,7 +292,7 @@ export async function UnitHub({ locale, unit, parent }: { locale: Locale; unit: 
   const serving = await Promise.all(national.map((x) => db.getServingLocations(unit.level === "jls" ? unit.id : (parent?.id ?? unit.id), x.slug).then((r) => ({ type: x, rows: r }))));
   const path = unit.level === "gradska_opstina" && parent ? `/${parent.slug}/${unit.slug}` : `/${unit.slug}`;
   return (
-    <main>
+    <main id="main">
       <HeroFX />
       <section className="hero-light border-b border-line"><div className="shell py-8 sm:py-10 grid gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] lg:items-center">
       <div>
@@ -395,7 +395,7 @@ export async function OrgTypeHub({ locale, type, brand = null, place = null }: {
   let faq: { q: string; a: string }[] = [];
   try { const parsed = type.faq_md ? JSON.parse(type.faq_md) : []; if (Array.isArray(parsed)) faq = parsed.filter((x) => x && x.q && x.a); } catch { faq = []; }
   return (
-    <main>
+    <main id="main">
       <section className="hero-light border-b border-line"><div className="shell py-8 sm:py-10 hub-head">
         <div className="hub-glyph"><Glyph3D icon={emblemFor(type.slug, type.icon)} size={132} title={type.name_lat} /></div>
         <div className="min-w-0">
@@ -477,7 +477,7 @@ export async function OrgPage({ locale, org, locSlug, path }: { locale: Locale; 
   const DAYS = locale === "sr" ? ["Pon", "Uto", "Sre", "Čet", "Pet", "Sub", "Ned"] : locale === "en" ? ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"] : locale === "ru" ? ["Пн", "Вт", "Ср", "Чт", "Пт", "Сб", "Вс"] : ["Mo", "Di", "Mi", "Do", "Fr", "Sa", "So"];
   const regLine = [org.mb && `MB ${org.mb}`, org.pib && `PIB ${org.pib}`, org.jbkjs && `JBKJS ${org.jbkjs}`].filter(Boolean).join(" · ");
   return (
-    <main>
+    <main id="main">
       <section className="hero-light border-b border-line"><div className="shell py-7 sm:py-9">
       <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, ...(jls ? [{ href: href(locale, `/${jls.slug}`), label: jls.name_lat }] : []), { href: href(locale, `/${org.type_slug}`), label: type.name_lat }, ...(loc && !loc.is_primary ? [{ href: orgHref(locale, org), label: org.name_lat }, { label: loc.unit_name_lat }] : [{ label: org.name_lat }])]} />
       <div className="eyebrow mt-4">{type.name_lat}{jls ? ` · ${jls.name_lat}` : ""}</div>
@@ -572,7 +572,7 @@ export async function SearchPage({ locale, q }: { locale: Locale; q: string }) {
   const d = t(locale);
   const hits = q.trim().length >= 2 ? await db.search(q.trim()) : [];
   return (
-    <main>
+    <main id="main">
       <section className="hero-light border-b border-line"><div className="shell py-8 sm:py-10">
         <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, { label: d.search }]} />
         <h1 className="font-serif text-[26px] sm:text-[32px] font-semibold mt-4">{q ? <>{d.results} „{q}“</> : d.search}</h1>
@@ -603,7 +603,7 @@ export async function ForForeigners({ locale }: { locale: Locale }) {
   const [types, guides] = await Promise.all([db.getOrgTypes(), db.getGuides()]);
   const newcomer = ["privremeni-boravak-stranci", "prijava-prebivalista", "licna-karta", "zdravstvena-knjizica", "pib-za-strance", "otvaranje-firme-preduzetnik"].map((s) => guides.find((x) => x.slug === s)).filter(Boolean) as db.GuideRow[];
   return (
-    <main>
+    <main id="main">
       <section className="band-primary border-b border-line"><div className="shell py-10 sm:py-14">
         <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, { label: d.forForeigners }]} />
         <div className="eyebrow plain mt-4">{d.forForeigners} · English · Русский · Deutsch</div>
@@ -644,7 +644,7 @@ export function StaticPage({ locale, slug }: { locale: Locale; slug: string }) {
   const p = pages[slug];
   if (!p) return null;
   return (
-    <main>
+    <main id="main">
       <section className="hero-light border-b border-line"><div className="shell py-8 sm:py-10">
         <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, { label: p.title }]} />
         <h1 className="font-serif text-[30px] sm:text-[38px] font-semibold mt-4">{p.title}</h1>
