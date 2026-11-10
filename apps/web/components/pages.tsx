@@ -160,7 +160,7 @@ export async function Home({ locale }: { locale: Locale }) {
             {byGroupAll.filter((x) => x.total > 0).map(({ g, types: ts, total }, i) => { return (
               <div key={g} className="bento-card spot" data-reveal style={{ "--d": `${i * 60}ms` } as React.CSSProperties}>
                 <div className="flex items-start justify-between gap-3">
-                  <span className="glyph-wrap"><Glyph3D icon={GROUP_GLYPH[g]} size={72} /></span>
+                  <span className="glyph-wrap"><Glyph3D icon={GROUP_GLYPH[g]} size={104} /></span>
                   <div className="big">{total.toLocaleString("sr-Latn")}</div>
                 </div>
                 <h3 className="font-semibold text-[16px] mt-4">{d.groups[g]}</h3>
