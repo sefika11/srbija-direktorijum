@@ -83,3 +83,7 @@ Municipality page now opens with the **Vitalno** block: emergency numbers, fault
 
 ### Social work centres and power branches (2026-11-10)
 146 rows (founded by the Republic, so missed by the municipality-keyed export) → 2 haiku agents: 48 centres now have a phone, 61 a website, 39 an institutional e-mail (<town>.csr@minrzs.gov.rs pattern). No central phone book exists: zavodsz.gov.rs only publishes a map layer without phones. Unresolved: about 60 centres with no site on the csr<town>.rs patterns, 8 Kosovo centres, and the 2 Kosovo power entities. The ministry e-mail pattern can be applied to every centre as a fallback contact.
+
+### Brand networks and exact visa instructions (2026-11-10, in progress)
+- `importers/jobs/load_chain_json.py`: one organisation per brand, one location per branch, duplicates by normalised address skipped, OSM branches kept. Agents are reading the official branch locators of every NBS-licensed bank, every insurer and the telecom operators (new type `telekom-prodavnica`).
+- `countries.from_rs_instructions` + `site_settings.visa_to_serbia` (patch 018): where to apply, forms, appointment, documents, fee, processing, validity, source. Rendered as numbered steps on `/vize/<country>`; inbound general procedure (visa C/D) shown on every visa-required country page.

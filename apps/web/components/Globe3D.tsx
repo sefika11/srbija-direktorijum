@@ -53,12 +53,15 @@ export default function Globe3D({ iso2, label, homeLabel = "Srbija", className }
     const pin = (lat: number, lon: number, c: THREE.Color) => { const m = new THREE.Mesh(new THREE.SphereGeometry(.022, 16, 16), new THREE.MeshBasicMaterial({ color: c })); m.position.copy(toVec(lat, lon, R + .012)); scene.add(m); const halo = new THREE.Mesh(new THREE.RingGeometry(.03, .05, 32), new THREE.MeshBasicMaterial({ color: c, transparent: true, opacity: .45, side: THREE.DoubleSide })); halo.position.copy(toVec(lat, lon, R + .013)); halo.lookAt(new THREE.Vector3(0, 0, 0)); scene.add(halo); return halo; };
     const homeHalo = pin(home[0], home[1], red); const destHalo = dest ? pin(dest[0], dest[1], accent) : null;
     // arc between Serbia and the destination
-    let arcLine: THREE.Line | null = null; let arcDraw = 0;
+    let arcLine: THREE.Line | null = null; let arcTube: THREE.Mesh | null = null; let arcDraw = 0;
     if (dest) {
       const a = toVec(home[0], home[1]), b = toVec(dest[0], dest[1]); const ang = a.angleTo(b); const n = 80; const ptsArr: THREE.Vector3[] = [];
       for (let i = 0; i <= n; i++) { const t = i / n; const v = a.clone().lerp(b, t).normalize(); const lift = 1 + Math.sin(Math.PI * t) * Math.min(.55, ang * .35); ptsArr.push(v.multiplyScalar(R * lift)); }
       const g = new THREE.BufferGeometry().setFromPoints(ptsArr); g.setDrawRange(0, 0);
-      arcLine = new THREE.Line(g, new THREE.LineBasicMaterial({ color: accent, transparent: true, opacity: .9 })); scene.add(arcLine);
+      arcLine = new THREE.Line(g, new THREE.LineBasicMaterial({ color: accent, transparent: true, opacity: .95 })); scene.add(arcLine);
+      // a thin tube under the line so the arc has body at any pixel ratio
+      const tube = new THREE.Mesh(new THREE.TubeGeometry(new THREE.CatmullRomCurve3(ptsArr), 64, .006, 6, false), new THREE.MeshBasicMaterial({ color: accent, transparent: true, opacity: .85 }));
+      scene.add(tube); arcTube = tube;
     }
     // orient: the midpoint between the two countries faces the camera
     const mid = dest ? toVec(home[0], home[1]).add(toVec(dest[0], dest[1])).normalize() : toVec(home[0], home[1]).normalize();
@@ -66,7 +69,7 @@ export default function Globe3D({ iso2, label, homeLabel = "Srbija", className }
     const targetQ = new THREE.Quaternion().setFromUnitVectors(mid, new THREE.Vector3(0, 0, 1));
     group.quaternion.copy(targetQ);
     const ang = dest ? toVec(home[0], home[1]).angleTo(toVec(dest[0], dest[1])) : 0;
-    const camDist = THREE.MathUtils.clamp(2.15 + ang * .55, 2.4, 3.5); camera.position.set(0, 0, reduced ? camDist : camDist + 1.2);
+    const camDist = THREE.MathUtils.clamp(2.0 + ang * .45, 2.2, 3.0); camera.position.set(0, 0, reduced ? camDist : camDist + 1.2);
 
     // interaction: drag rotates, wheel zooms, auto-rotation until first drag
     let dragging = false, lx = 0, ly = 0, touched = false, vx = 0, vy = 0;
@@ -85,7 +88,7 @@ export default function Globe3D({ iso2, label, homeLabel = "Srbija", className }
       if (!t0) t0 = now; const t = now - t0;
       if (!reduced) { camera.position.z += (camDist - camera.position.z) * .04; }
       if (!dragging) { if (!touched && !reduced) group.rotateOnWorldAxis(new THREE.Vector3(0, 1, 0), .0015); else { group.rotateOnWorldAxis(new THREE.Vector3(0, 1, 0), vx); group.rotateOnWorldAxis(new THREE.Vector3(1, 0, 0), vy); vx *= .92; vy *= .92; } }
-      if (arcLine) { arcDraw = Math.min(81, arcDraw + (reduced ? 81 : 1.4)); (arcLine.geometry as THREE.BufferGeometry).setDrawRange(0, Math.floor(arcDraw)); }
+      if (arcLine) { arcDraw = Math.min(81, arcDraw + (reduced ? 81 : 1.4)); (arcLine.geometry as THREE.BufferGeometry).setDrawRange(0, Math.floor(arcDraw)); if (arcTube) { (arcTube.geometry as THREE.BufferGeometry).setDrawRange(0, Math.floor((arcDraw / 81) * 64) * 6 * 6); } }
       const pulse = 1 + Math.sin(now / 500) * .12; homeHalo.scale.setScalar(pulse); destHalo?.scale.setScalar(pulse);
       renderer.render(scene, camera);
       if (!ready && t > 50) { setReady(true); }
