@@ -90,7 +90,7 @@ export async function CountryPage({ locale, country }: { locale: Locale; country
     ...(ins.where ? [{ id: "v-gde", kind: "where" as const, label: L.where }] : []),
     ...(ins.apply_url || ins.appointment_url ? [{ id: "v-prijava", kind: "apply" as const, label: L.apply }] : []),
     ...(ins.documents?.length ? [{ id: "v-dokumenta", kind: "docs" as const, label: L.docs, n: ins.documents.length }] : []),
-    ...(ins.fee || ins.processing || ins.validity ? [{ id: "v-taksa", kind: "fees" as const, label: L.fee }] : []),
+    ...(ins.fee || ins.processing || ins.validity ? [{ id: "v-taksa", kind: "fees" as const, label: L.fee, mark: "" }] : []),
     ...(ins.notes ? [{ id: "v-napomena", kind: "notes" as const, label: L.notes }] : []),
   ] : [];
   const passportWord = locale === "sr" ? "PASOŠ" : locale === "en" ? "PASSPORT" : locale === "ru" ? "ПАСПОРТ" : "REISEPASS";

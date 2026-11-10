@@ -309,3 +309,54 @@ order, text size, layout shift, console), then hands-on keyboard and tap flows.
   page of that type (with the institution's municipality pre-selected), so a school page leads to its enrolment guide.
 - **Locale fallback is per field.** A guide whose Russian or German entry holds only a title still shows the full body
   (English, marked "EN"). In the "where to go" list an office named "Sedište" is titled by its institution.
+
+## 21. Brand, footer and flow (2026-11-10, late night)
+
+- **Logo** (`components/Logo.tsx`): a red map pin whose paper disc holds a small temple front (pediment, three columns,
+  steps), with a blue shadow on the ground. Red, white and blue come from the object, so the mark carries the flag
+  without a stripe. `LogoMark` is the pin alone, `Logo` the lockup with the wordmark (red question mark) and an optional
+  mono sub-line. Header: 46 px mark, 21 px name, sub-line hidden on phones. Opener: the pin drops in above the words.
+  Footer: 62 px lockup. `app/icon.svg` and `favicon.ico` are the same pin on a dark tile.
+- **Header is 64 px** (69 with the ribbon). Sticky offsets under it use 69 px. While the opener plays, `main` sits above
+  the header (`html.has-opener body > main`), so nothing shows over the curtain.
+- **Footer is its own material**: dark desk felt with guilloche lines, the tricolour hairline as its top edge, brand
+  lockup and tagline first, then four link columns (guides, site, legal + language, sources) and a base line. It keeps
+  the same dark surface in light mode. It fades in once when it first comes into view; nothing moves.
+- **Flow instead of scroll effects.** On client-side navigation the page's sections glide in once (`main.page-in`,
+  0.6 s, layout effect so nothing flashes; the class is removed by a timer so a frozen tab can never keep content
+  hidden). The first server-rendered paint is left alone. `[data-reveal]` elements in the first viewport arrive in one
+  short cascade; everything below is simply there (`.rv-static`). No flips, wings or slide-ins triggered by scrolling.
+- **Map panel.** On the home map the hovered district's totals sit in a panel beside the country (`.map-side` in 2D,
+  the dock in 3D), never below the stage. 2D is drawn as a lit slab with a blue ramp, pill labels (largest districts
+  first, labels that would collide are dropped unless hovered) and the hovered district lifted in red.
+
+## 22. Documents as objects (2026-11-10, late night)
+
+- **What.** A guide about a document shows that document in its hero (`components/Doc3D.tsx`, spec per guide slug in
+  `lib/guide-docs.ts`). Three families: **card** (ID-1 proportions: identity card, driving licence, health card,
+  registration card, residence permit, bank card, student card), **booklet** (passport, student book, school report
+  book) and **sheet** (A4 certificates and decisions, a notary sheet with the tricolour cord, a landscape diploma).
+- **Interaction, same bar as the passports.** It floats, leans toward the pointer with a moving sheen (and a hologram
+  on ID cards), and answers a click, Enter or Space: a card flips to its back (MRZ, categories, barcode or magnetic
+  stripe), a booklet opens to its data page, a sheet takes its stamp where "M.P." was. Reduced motion: no float or
+  lean, the state still changes.
+- **Honest illustration.** No state emblems, no personal data, generic field labels with bars for values, "UZORAK /
+  SPECIMEN" in the machine-readable lines, and the caption says "Ilustracija dokumenta". Titles are the Serbian names
+  with an English second line, as printed.
+- **Layout.** With a document, the hero is text and municipality picker on the left, the document stage (`.docstage`)
+  on the right; on phones the stage follows the picker. A guide without a spec keeps the old hero.
+- **Adding one**: add the slug to `GUIDE_DOCS` with a form, colours and fields. CSS 3D only, no WebGL, no images.
+
+## 23. Journey board, second pass (2026-11-10, late night)
+
+- **Close-ups.** The building keeps the full frame; every other station fills the frame with its own model
+  (`zooms`, about 2.5× closer), centred on the model's height so the dock never covers it. The camera dwells on a
+  station for the first half of its section, then pulls back a little and travels on.
+- **Models** (`lib/journey-props.ts`): who = three people of different ages with a suitcase behind a queue rope;
+  documents = an open folder with fanned sheets, passport, ID card, photos and a pen; fees = a counter with a glass
+  screen, card terminal, receipt, coins and notes under a sign ("RSD" on guides, neutral on visa pages via
+  `Station.mark`); steps = a numbered staircase with a flag and a climber; tips = a lit bulb on a notebook;
+  duration = a desk calendar and an alarm clock; questions = two people with a question and an answer bubble;
+  apply = a laptop with the form, an envelope and a stamp. The first station gets trees and a street lamp.
+- **Light.** The sun's shadow frustum follows the camera target with a tight extent, so shadows stay crisp close up.
+  The model at the active station turns slowly and lifts a little; the rest are still.

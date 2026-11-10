@@ -6,6 +6,8 @@ import { LeadForm, CorrectionBlock } from "./forms";
 import { Icon } from "./icons";
 import MunicipalityPicker from "./MunicipalityPicker";
 import JourneyBoard, { type Station } from "./JourneyBoard";
+import Doc3D from "./Doc3D";
+import { DOC_LABELS, GUIDE_DOCS } from "@/lib/guide-docs";
 import { emblemFor } from "@/lib/emblem-map";
 import manifest from "@/public/emblems/manifest.json";
 const EMBLEM_KEYS = new Set<string>(manifest.keys);
@@ -118,6 +120,7 @@ export async function GuidePage({ locale, guide, jlsSlug, path }: { locale: Loca
     ...(guide.typical_duration ? [{ id: "trajanje", kind: "duration" as const, label: L.duration }] : []),
     ...(c.faq?.length ? [{ id: "faq", kind: "faq" as const, label: L.faq }] : []),
   ];
+  const doc = GUIDE_DOCS[guide.slug] ?? null;
   const emblemKey = emblemFor(primaryType, types[0]?.icon); const emblem = emblemKey && EMBLEM_KEYS.has(emblemKey) ? emblemKey : "townhall";
   const sideCards = (<>
     {types.filter(Boolean).length > 0 && <div className="card p-4"><div className="eyebrow mb-2">{L.relatedTypes}</div><ul className="grid gap-1.5 text-[13.5px]">{types.filter(Boolean).map((ty) => <li key={ty!.id}><Link href={href(locale, `/${ty!.slug}`)} className="no-underline text-ink hover:text-accent">{tn(ty!, locale)} →</Link></li>)}</ul></div>}
@@ -128,7 +131,7 @@ export async function GuidePage({ locale, guide, jlsSlug, path }: { locale: Loca
       {faqLd && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />}
       <section className="hero-light border-b border-line"><div className="shell py-8 sm:py-12">
         <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, { href: href(locale, "/vodici"), label: L.guides }, { label: guide.category_name }]} />
-        <div className="grid lg:grid-cols-[minmax(0,1fr)_380px] gap-8 items-end mt-4">
+        <div className={`grid lg:grid-cols-[minmax(0,1fr)_380px] gap-8 mt-4 ${doc ? "items-center" : "items-end"}`}>
           <div>
             <div className="eyebrow text-accent-ink">{guide.category_name}</div>
             <h1 className="font-serif text-[30px] sm:text-[40px] font-semibold leading-[1.1] mt-1">{title}</h1>
@@ -139,11 +142,15 @@ export async function GuidePage({ locale, guide, jlsSlug, path }: { locale: Loca
               {guide.euprava_url && <a href={guide.euprava_url} rel="noopener" target="_blank" className="rounded-full bg-accent-soft text-accent-ink px-2.5 py-1 no-underline">{L.euprava} ↗</a>}
               {lang !== locale && <span className="rounded-full bg-surface-2 px-2.5 py-1 text-muted">{lang.toUpperCase()}</span>}
             </div>
+            {doc && <div className="card plinth p-4 mt-5 max-w-xl">
+              <MunicipalityPicker units={allJls.map((u) => ({ slug: u.slug, name_lat: u.name_lat, jls_kind: u.jls_kind }))} value={jls?.slug ?? null} basePath={basePath} label={L.yourMunicipality} placeholder={L.choose} />
+            {!jls && <p className="text-[12.5px] text-muted mt-2">{L.pickHint}</p>}
+            </div>}
           </div>
-          <div className="card plinth p-4">
+          {doc ? <div className="docstage deskframe"><Doc3D spec={doc} labels={DOC_LABELS[locale]} /></div> : <div className="card plinth p-4">
             <MunicipalityPicker units={allJls.map((u) => ({ slug: u.slug, name_lat: u.name_lat, jls_kind: u.jls_kind }))} value={jls?.slug ?? null} basePath={basePath} label={L.yourMunicipality} placeholder={L.choose} />
             {!jls && <p className="text-[12.5px] text-muted mt-2">{L.pickHint}</p>}
-          </div>
+          </div>}
         </div>
       </div></section>
 

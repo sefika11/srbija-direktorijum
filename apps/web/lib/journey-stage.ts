@@ -8,45 +8,16 @@
 import * as THREE from "three";
 import { SCENES, HUES } from "./emblems/scenes.mjs";
 import * as D from "./emblems/dsl.mjs";
-import { DIR, addLights, cssVar, disposeTree, fitOrtho, makeRenderer, numberTexture, projectedBounds, reducedMotion, roundedRect, slab, watchVisibility } from "./stage-kit";
+import { DIR, addLights, cssVar, disposeTree, fitOrtho, makeRenderer, projectedBounds, reducedMotion, slab, watchVisibility } from "./stage-kit";
+import { applyProp, docsProp, durationProp, faqProp, feesProp, grounds, notesProp, stepsProp, whoProp } from "./journey-props";
 
 export type StationKind = "where" | "who" | "docs" | "fees" | "steps" | "duration" | "faq" | "apply" | "notes";
-export type Station = { id: string; kind: StationKind; label: string; n?: number };
+export type Station = { id: string; kind: StationKind; label: string; n?: number; /** text on the fee counter's sign; "" for a neutral sign (fees not in dinars) */ mark?: string };
 export type JourneyOpts = { canvas: HTMLCanvasElement; host: HTMLElement; emblem: string; hue?: string; pin?: string | null; stations: Station[]; onReady?: (ms: number) => void; onActive?: (i: number) => void };
 
 const SPACING = 10.5, WOBBLE = 2.8, FRAME_MARGIN = 0.2;
-const { box, cyl, sphere, torus, grp, rod, clockFace, S, T, WHITE, INK, GOLD, STONE } = D;
+const { cyl, sphere, torus, grp, INK } = D;
 
-function slips(n: number, hue: string) {
-  const g = grp([box(3.4, 2.8, 0.12, "#d9d4c7")]); const k = Math.max(1, Math.min(6, n));
-  for (let i = 0; i < k; i++) {
-    const a = (i - (k - 1) / 2) * 0.26;
-    g.add(grp([box(1.5, 2.1, 0.05, WHITE, { sharp: true }), box(1.05, 0.2, 0.012, hue, { y: 0.05, z: -0.78, sharp: true }), box(1.0, 0.07, 0.01, "#9a9ea8", { y: 0.05, z: -0.4, sharp: true }), box(0.8, 0.07, 0.01, "#9a9ea8", { y: 0.05, z: -0.15, sharp: true }), box(0.9, 0.07, 0.01, "#9a9ea8", { y: 0.05, z: 0.1, sharp: true })], { x: i * 0.22 - (k - 1) * 0.11, y: 0.12 + i * 0.055, z: 0.3, ry: a }));
-  }
-  return g;
-}
-function counter(hue: string) {
-  const g = grp([box(3.4, 1.5, 1.1, T(hue, 0.55)), box(3.6, 1.7, 0.12, STONE, { y: 1.1 }), box(3.4, 0.06, 0.22, S(hue, -0.1), { y: 0.5, z: 0.76, sharp: true })]);
-  g.add(grp([box(1.2, 1.5, 0.08, WHITE, { x: -0.62, y: 1.26, rz: 0.1 }), box(1.2, 1.5, 0.08, WHITE, { x: 0.62, y: 1.26, rz: -0.1 }), box(0.06, 1.5, 0.14, S(hue, -0.2), { y: 1.22 })], { x: -0.5 }));
-  for (let i = 0; i < 4; i++) g.add(cyl(0.3, 0.08, GOLD, { x: 1.25, z: 0.25, y: 1.22 + i * 0.085, seg: 28 }));
-  g.add(cyl(0.3, 0.08, GOLD, { x: 1.0, z: -0.35, y: 1.22, seg: 28 }));
-  return g;
-}
-function clock() {
-  return grp([cyl(0.55, 0.14, INK, { seg: 32 }), cyl(0.09, 2.5, INK, { seg: 10 }), clockFace(0.9, { y: 2.5 })]);
-}
-function question(hue: string) {
-  const g = grp([cyl(1.2, 0.14, "#e4dfd2", { seg: 40 })]);
-  const hook = torus(0.72, 0.2, hue, { arc: Math.PI * 1.35, y: 2.35, rz: -Math.PI * 0.5 }); hook.rotation.y = Math.PI; g.add(hook);
-  g.add(rod([0, 1.63, 0], [0, 0.95, 0], 0.2, hue), sphere(0.25, hue, { y: 0.14 }));
-  return g;
-}
-function disc(n: number, hue: string, tex: THREE.Texture[]) {
-  const g = grp([cyl(0.62, 0.22, hue, { seg: 36 }), cyl(0.66, 0.05, S(hue, -0.15), { seg: 36 })]);
-  const t = numberTexture(n); tex.push(t);
-  const plane = new THREE.Mesh(new THREE.PlaneGeometry(0.9, 0.9), new THREE.MeshBasicMaterial({ map: t, transparent: true, depthWrite: false }));
-  plane.rotation.x = -Math.PI / 2; plane.position.y = 0.23; g.add(plane); return g;
-}
 function pad(r: number) { return cyl(r, 0.12, "#eee9de", { seg: 48 }); }
 
 export class JourneyEngine {
@@ -55,6 +26,7 @@ export class JourneyEngine {
   private target = 0; private cur = 0; private active = -1; private px = 0; private py = 0; private hover = false; private tiltY = 0;
   private raf = 0; private alive = true; private visible = true; private reduced = reducedMotion(); private aspect = 1; private frame0: { half: number; cx: number; cy: number }; private bounds: ReturnType<typeof projectedBounds>;
   private ro: ResizeObserver | null = null; private unwatch: (() => void) | null = null; private off: (() => void)[] = []; private tex: THREE.Texture[] = [];
+  private props: (THREE.Group | null)[] = []; private heights: number[] = []; private zooms: number[] = []; private lifts: number[] = []; private sun: THREE.DirectionalLight | null = null; private sunOff = new THREE.Vector3();
 
   constructor(o: JourneyOpts) {
     this.o = o; const start = performance.now();
@@ -63,7 +35,7 @@ export class JourneyEngine {
     // station points along a gentle zig-zag
     for (let i = 0; i < n; i++) this.points.push(new THREE.Vector3(i * SPACING, 0, i % 2 ? WOBBLE : -WOBBLE));
     // board
-    const w = (n - 1) * SPACING + 16, d = 17; const board = slab(w, d, hue, 0.4, 0.06); board.position.x = ((n - 1) * SPACING) / 2; this.scene.add(board);
+    const w = (n - 1) * SPACING + 22, d = 26; const board = slab(w, d, hue, 0.4, 0.06); board.position.x = ((n - 1) * SPACING) / 2; this.scene.add(board);
     // path ribbon
     if (n > 1) {
       const pts = this.points.map((p, i) => p.clone().setY(0.02).add(new THREE.Vector3(0, 0, i % 2 ? 0.6 : -0.6)));
@@ -75,6 +47,7 @@ export class JourneyEngine {
     let bb = new THREE.Box3().setFromObject(subject); subject.position.x -= (bb.min.x + bb.max.x) / 2; subject.position.z -= (bb.min.z + bb.max.z) / 2; subject.updateMatrixWorld(true); bb = new THREE.Box3().setFromObject(subject);
     const ext = Math.max(bb.max.x - bb.min.x, bb.max.z - bb.min.z, (bb.max.y - bb.min.y) * 1.15); const sc = Math.min(0.72, 7.2 / ext);
     const house = grp([subject], { scale: sc }); house.position.copy(this.points[0]); this.scene.add(house);
+    const yard = grounds(((bb.max.x - bb.min.x) / 2) * sc, ((bb.max.z - bb.min.z) / 2) * sc); yard.position.copy(this.points[0]); this.scene.add(yard);
     const topY = (bb.max.y - bb.min.y) * sc;
     if (o.pin) {
       const px = this.points[0].x + ((bb.max.x - bb.min.x) / 2) * sc + 0.9, pz = this.points[0].z + ((bb.max.z - bb.min.z) / 2) * sc + 0.3, ph = Math.max(3.2, topY * 0.55);
@@ -88,33 +61,36 @@ export class JourneyEngine {
       if (i > 0) this.scene.add(grp([pad(2.7)], { x: p.x, z: p.z }));
       switch (s.kind) {
         case "where": labelY = topY + 1.2; break;
-        case "docs": prop = slips(s.n ?? 3, hue); labelY = 3.2; break;
-        case "fees": prop = counter(hue); labelY = 3.6; break;
-        case "duration": prop = clock(); labelY = 5.0; break;
-        case "faq": prop = question(hue); labelY = 4.6; break;
-        case "who": prop = grp([SCENES.users(hue)], { scale: 0.42 }); labelY = 3.4; break;
-        case "notes": prop = grp([SCENES["file-text"](hue)], { scale: 0.42 }); labelY = 3.8; break;
-        case "apply": prop = grp([SCENES.stamp(hue)], { scale: 0.42 }); labelY = 3.6; break;
-        case "steps": {
-          // numbered discs as stepping stones inside the station: one row up to 4, two staggered rows above that
-          const k = Math.max(1, Math.min(8, s.n ?? 3)); const rows = k > 4 ? 2 : 1, per = Math.ceil(k / rows), gap = 1.45;
-          for (let j = 0; j < k; j++) { const r = Math.floor(j / per), col = j % per, inRow = Math.min(per, k - r * per); const x = p.x + (col - (inRow - 1) / 2) * gap + (rows === 2 && r === 1 ? gap * 0.5 : 0), z = p.z + (rows === 2 ? (r ? 0.95 : -0.95) : 0); const dsc = disc(j + 1, hue, this.tex); dsc.position.set(x, 0.12, z); this.scene.add(dsc); }
-          labelY = 3.0; break;
-        }
+        case "docs": prop = docsProp(s.n ?? 3, hue); labelY = 1.9; break;
+        case "fees": prop = feesProp(hue, this.tex, s.mark ?? "RSD"); labelY = 4.2; break;
+        case "duration": prop = durationProp(hue, this.tex); labelY = 3.3; break;
+        case "faq": prop = faqProp(hue, this.tex); labelY = 4.3; break;
+        case "who": prop = whoProp(hue); labelY = 3.7; break;
+        case "notes": prop = notesProp(hue); labelY = 3.4; break;
+        case "apply": prop = applyProp(hue); labelY = 3.4; break;
+        case "steps": prop = stepsProp(s.n ?? 3, hue, this.tex); labelY = 3.6; break;
       }
+      this.props.push(prop);
+      // label above the model, camera centred on it (a little low, so the dock at the bottom never covers it)
+      const H = prop ? new THREE.Box3().setFromObject(prop).max.y : 0; if (prop) labelY = Math.max(2.5, H + 0.85); this.heights.push(H);
       if (prop) { prop.position.set(p.x, 0.12, p.z); this.scene.add(prop); }
       const halo = new THREE.Mesh(new THREE.TorusGeometry(i === 0 ? Math.max(3.4, (ext * sc) / 2 + 1.1) : 2.95, 0.09, 8, 72), new THREE.MeshBasicMaterial({ color: new THREE.Color(cssVar("--red", "#c6363c")), transparent: true, opacity: 0 }));
       halo.rotation.x = -Math.PI / 2; halo.position.set(p.x, 0.16, p.z); this.scene.add(halo); this.halos.push(halo);
       this.labels.push(this.mkLabel("jstage-label", `${String(i + 1).padStart(2, "0")} · ${s.label}`)); this.labelPos.push(new THREE.Vector3(p.x, labelY, p.z));
     });
     this.scene.updateMatrixWorld(true);
-    const sph = new THREE.Box3().setFromObject(this.scene).getBoundingSphere(new THREE.Sphere()); addLights(this.scene, sph.center, sph.radius, 2048);
+    // the sun's shadow frustum follows the camera target with a tight extent, so shadows stay crisp when the camera is close
+    const sph = new THREE.Box3().setFromObject(this.scene).getBoundingSphere(new THREE.Sphere()); const sun = addLights(this.scene, sph.center, sph.radius, 2048);
+    this.sun = sun; this.sunOff.copy(sun.position).sub(sph.center).normalize().multiplyScalar(60);
+    const scam = sun.shadow.camera; scam.left = -13; scam.right = 13; scam.top = 13; scam.bottom = -13; scam.near = 1; scam.far = 160; scam.updateProjectionMatrix(); sun.shadow.radius = 5;
     // frame: fit the first station (building + pad + pin) once, then keep that frame size while the target moves
     const fitRoot = new THREE.Group(); fitRoot.add(house.clone()); fitRoot.position.set(0, 0, 0); this.scene.add(fitRoot);
     this.camera.position.copy(this.points[0]).addScaledVector(DIR, 80); this.camera.lookAt(this.points[0]); this.camera.updateMatrixWorld(true);
     this.bounds = projectedBounds(this.camera, fitRoot); this.scene.remove(fitRoot);
     const pb = this.bounds; const pr = (ext * sc) / 2 + 2.4; pb.minX = Math.min(pb.minX, -pr); pb.maxX = Math.max(pb.maxX, pr);
     this.frame0 = fitOrtho(this.camera, this.bounds, 1, FRAME_MARGIN); this.resize();
+    // per-station close-up: the building keeps the full frame, every other station fills it with its own model
+    const near = 3.9; o.stations.forEach((s, i) => { const z = i === 0 || s.kind === "where" ? 1 : Math.max(1, this.frame0.half / near); this.zooms.push(z); this.lifts.push(z > 1 ? Math.max(-0.35, Math.min(1.7, this.heights[i] * 0.5 - 0.4)) : 0); });
     this.bind();
     this.ro = new ResizeObserver(() => this.resize()); this.ro.observe(o.host);
     this.unwatch = watchVisibility(o.host, (on) => { this.visible = on; if (on && !this.raf) this.raf = requestAnimationFrame(this.frame); });
@@ -148,7 +124,14 @@ export class JourneyEngine {
 
   private render(now: number) {
     const i = Math.floor(this.cur), f = this.cur - i; const a = this.points[i], b = this.points[Math.min(this.points.length - 1, i + 1)];
-    const e = f * f * (3 - 2 * f); const t = a.clone().lerp(b, e);
+    // dwell: the camera stays on a station for the first half of its section and travels in the second half
+    const gg = Math.max(0, (f - 0.5) / 0.5); const e = gg * gg * (3 - 2 * gg); const t = a.clone().lerp(b, e); const i2 = Math.min(this.points.length - 1, i + 1);
+    // pull back a little while travelling between two stations, then settle in close
+    const zoom = (this.zooms[i] + (this.zooms[i2] - this.zooms[i]) * e) * (1 - 0.16 * Math.sin(Math.PI * e)); t.y += this.lifts[i] + (this.lifts[i2] - this.lifts[i]) * e;
+    if (Math.abs(this.camera.zoom - zoom) > 1e-4) { this.camera.zoom = zoom; this.camera.updateProjectionMatrix(); }
+    if (this.sun) { this.sun.position.copy(t).add(this.sunOff); this.sun.target.position.copy(t); this.sun.target.updateMatrixWorld(); }
+    // the model at the active station is alive: a slow turn and a small lift
+    this.props.forEach((pr, k) => { if (!pr) return; const on = k === this.active && !this.reduced; const ry = on ? Math.sin(now / 1700) * 0.16 : 0, py = 0.12 + (on ? 0.1 + Math.sin(now / 1100) * 0.05 : 0); pr.rotation.y += (ry - pr.rotation.y) * 0.08; pr.position.y += (py - pr.position.y) * 0.08; });
     const ty = this.reduced || !this.hover ? 0 : this.px * 0.06; this.tiltY += (ty - this.tiltY) * (this.reduced ? 1 : 0.08);
     const dir = DIR.clone().applyAxisAngle(new THREE.Vector3(0, 1, 0), this.tiltY);
     this.camera.position.copy(t).addScaledVector(dir, 80); this.camera.lookAt(t); this.camera.updateMatrixWorld(true);
