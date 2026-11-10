@@ -128,7 +128,7 @@ export async function Home({ locale }: { locale: Locale }) {
 
       {/* Guides */}
       {topGuides.length > 0 && (
-        <section className="shell py-16 sm:py-20">
+        <section className="band tex-tweed shell py-16 sm:py-20">
           <div className="section-head" data-reveal>
             <div><div className="eyebrow">01 · {guidesTitle}</div><h2 className="display-sm mt-2">{guidesLead}</h2></div>
             <Link href={href(locale, "/vodici")} className="quick-chip">{allGuides} →</Link>
@@ -150,7 +150,7 @@ export async function Home({ locale }: { locale: Locale }) {
       )}
 
       {/* Categories */}
-      <section className="border-y border-line bg-surface">
+      <section className="band tex-mesh border-y border-line bg-surface">
         <div className="shell py-16 sm:py-20">
           <div className="section-head" data-reveal>
             <div><div className="eyebrow">02 · {d.browseByCategory}</div><h2 className="display-sm mt-2">{stats.orgs.toLocaleString("sr-Latn")} {d.institutions}, {stats.types} {typesLabel}</h2></div>
@@ -173,7 +173,7 @@ export async function Home({ locale }: { locale: Locale }) {
       </section>
 
       {/* Districts */}
-      <section className="shell py-16 sm:py-20">
+      <section className="band tex-nylon shell py-16 sm:py-20">
         <div className="section-head" data-reveal>
           <div><div className="eyebrow">03 · {d.browseByRegion}</div><h2 className="display-sm mt-2">{mapTitle}</h2></div>
         </div>
@@ -497,7 +497,7 @@ export async function OrgPage({ locale, org, locSlug, path }: { locale: Locale; 
       <AdSlot code="loc_top_leaderboard" w={728} h={90} mobileH={100} label={d.ad} />
       <div className="grid lg:grid-cols-[minmax(0,1fr)_300px] gap-8 items-start mt-2">
         <div className="min-w-0">
-          <section className="card is-contact stack p-4 sm:p-5">
+          <section data-reveal data-fx="flip" className="card is-contact stack p-4 sm:p-5">
             <SectionTitle>{d.contactAndAddress}</SectionTitle>
             <dl className="grid grid-cols-[96px_minmax(0,1fr)] gap-x-3 gap-y-1.5 text-[14px]">
               <dt className="text-muted">{d.address}</dt><dd>{placeLine ?? <span className="text-muted">{loc ? `${loc.tu_name_lat}${okrug ? `, ${okrug.name_lat}` : ""} · ${locale === "sr" ? "tačna adresa još nije uneta" : "exact address not yet entered"}` : d.noData}</span>}</dd>
@@ -508,7 +508,7 @@ export async function OrgPage({ locale, org, locSlug, path }: { locale: Locale; 
             </dl>
           </section>
           {sponsor && <div className="my-5"><SponsorCard label={d.sponsor} sponsor={sponsor} /></div>}
-          <section className="card ledger p-4 sm:p-5">
+          <section data-reveal data-fx="flip" className="card ledger p-4 sm:p-5">
             <SectionTitle>{d.hours}</SectionTitle>
             {hours.length ? (
               <table className="text-[14px] tabular w-full max-w-md"><tbody>
@@ -520,7 +520,7 @@ export async function OrgPage({ locale, org, locSlug, path }: { locale: Locale; 
               : <p className="text-[14px] text-muted">{locale === "sr" ? "Radno vreme još nije uneto. Ako ga znate, " : "Opening hours not yet entered. If you know them, "}<a href="#izmeni">{d.editData.toLowerCase()}</a>.</p>}
           </section>
           {(coverage.length > 0 || locations.length > 1 || org.parent_name || children.length > 0) && (
-            <section className="card p-4 sm:p-5 mt-5">
+            <section data-reveal data-fx="flip" className="card p-4 sm:p-5 mt-5">
               <SectionTitle>{d.jurisdiction}</SectionTitle>
               {coverage.length > 0 && <p className="text-[14px]">{d.coveredAreas}: <span className="inline-flex flex-wrap gap-1.5 align-middle">{coverage.map((c) => <Link key={c.slug} href={tuHref(locale, c)} className="rounded-full border border-line bg-surface px-2.5 py-0.5 text-[12.5px] no-underline text-ink">{c.name_lat}</Link>)}</span></p>}
               {locations.length > 1 && <div className="mt-3 text-[14px]"><span className="text-muted">{d.units}:</span> {locations.filter((l) => !loc || l.location_id !== loc.location_id).slice(0, 40).map((l, i) => <span key={l.location_id}>{i > 0 && " · "}<Link href={href(locale, `/${org.type_slug}/${org.slug}/${l.location_slug}`)}>{l.unit_name_lat}</Link></span>)}{locations.length > 41 ? ` … (${locations.length})` : ""}</div>}
@@ -529,7 +529,7 @@ export async function OrgPage({ locale, org, locSlug, path }: { locale: Locale; 
             </section>
           )}
           {vertical && <LeadForm locale={locale} vertical={vertical} context={{ page_path: path, location_id: loc?.location_id ?? null, territorial_unit_id: jls?.id ?? null }} />}
-          <section className="card p-4 sm:p-5">
+          <section data-reveal data-fx="flip" className="card p-4 sm:p-5">
             <SectionTitle>{d.about}</SectionTitle>
             <div className="prose text-[14.5px]">
               {type.description_md ? <p>{type.description_md}</p> : (

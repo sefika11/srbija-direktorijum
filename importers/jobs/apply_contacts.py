@@ -16,10 +16,11 @@ import re
 
 
 def main() -> None:
-    ap = argparse.ArgumentParser(); ap.add_argument("file"); ap.add_argument("--source", default="institution_site"); ap.add_argument("--confidence", type=float, default=0.8)
+    ap = argparse.ArgumentParser(); ap.add_argument("file"); ap.add_argument("--source", default="institution_site"); ap.add_argument("--confidence", type=float, default=0.8); ap.add_argument("--targets", help="targets JSON with org_slug + jls, used to create a seat location when the organisation has none")
     a = ap.parse_args()
     rows = json.load(open(a.file, encoding="utf-8"))
-    n_loc = n_phone = n_email = n_site = n_addr = n_hours = 0
+    jls_of = {t["org_slug"]: t.get("jls") for t in json.load(open(a.targets, encoding="utf-8"))} if a.targets else {}
+    n_loc = n_phone = n_email = n_site = n_addr = n_hours = n_created = 0
     with db.conn() as c, c.cursor() as cur:
         resolver = LatinResolver(cur)
         for r in rows:
@@ -31,6 +32,15 @@ def main() -> None:
             if not loc_id and r.get("org_id"):
                 cur.execute("select id from locations where org_id = %s order by is_primary desc, id limit 1", (r["org_id"],))
                 row = cur.fetchone(); loc_id = row["id"] if row else None
+            if not loc_id and r.get("org_id") and (r.get("address") or r.get("phones")):
+                # no location at all: create the seat in the organisation's municipality (targets file, else founder unit)
+                tu = None
+                jname = jls_of.get(r.get("org_slug") or "")
+                if jname: tu = resolver.resolve(jname)
+                if not tu:
+                    cur.execute("select founder_unit_id from organizations where id = %s", (r["org_id"],)); fr = cur.fetchone(); tu = fr["founder_unit_id"] if fr else None
+                if tu:
+                    loc_id = upsert_location(cur, org_id=r["org_id"], slug="sediste", unit_name_lat="Sedište", unit_kind="sediste", territorial_unit_id=tu, street=None, street_number=None, is_primary=True); n_created += 1
             if not loc_id: continue
             touched = False
             for ptxt in (r.get("phones") or []):
@@ -43,9 +53,13 @@ def main() -> None:
                 add_contact(cur, loc_id, "website", site, None)
                 cur.execute("update organizations set website = coalesce(website, %s) where id = (select org_id from locations where id = %s)", (site, loc_id)); n_site += 1; touched = True
             if r.get("address"):
-                street, number = split_address(clean_ws(r["address"]) or "")
+                full = clean_ws(r["address"]) or ""
+                street_part, _, rest = full.partition(",")
+                street, number = split_address(street_part)
+                postal = (re.search(r"\b(\d{5})\b", rest) or [None, None])[1]
+                city = clean_ws(re.sub(r"\b\d{5}\b", "", rest).strip(" ,")) or None
                 if street:
-                    cur.execute("update locations set street = coalesce(street, %s), street_number = coalesce(street_number, %s) where id = %s", (street, number, loc_id)); n_addr += 1; touched = True
+                    cur.execute("update locations set street = coalesce(street, %s), street_number = coalesce(street_number, %s), postal_code = coalesce(postal_code, %s), settlement_name_lat = coalesce(settlement_name_lat, %s) where id = %s", (street, number, postal, city, loc_id)); n_addr += 1; touched = True
             if r.get("hours"):
                 add_hours(cur, loc_id, parse_hours(r["hours"]), r["hours"]); n_hours += 1; touched = True
             if touched:
@@ -74,7 +88,7 @@ def main() -> None:
                     for p in phones_in(ptxt or ""): add_contact(cur, sid, p.kind, p.e164, p.display); n_phone += 1
                 cur.execute("update locations set last_seen_at = now(), unit_name_lat = coalesce(nullif(unit_name_lat, 'Policijska stanica'), %s) where id = %s", (st["name"][:120], sid))
                 db.provenance(cur, "location", sid, None, a.source, (st.get("source_url") or r.get("source_url") or "")[:500], a.confidence, st); n_loc += 1
-    print(json.dumps({"locations": n_loc, "phones": n_phone, "emails": n_email, "websites": n_site, "addresses": n_addr, "hours": n_hours}))
+    print(json.dumps({"locations": n_loc, "created_seats": n_created, "phones": n_phone, "emails": n_email, "websites": n_site, "addresses": n_addr, "hours": n_hours}))
 
 
 if __name__ == "__main__":

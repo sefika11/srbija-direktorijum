@@ -64,9 +64,11 @@ export default function VisaStage({ locale, countries, initial }: { locale: Loca
           </div>
         )}
       </div>
-      <div className="vstage-globe" ref={wrap}>
-        <canvas ref={canvasRef} className="absolute inset-0 w-full h-full block" aria-label={T.hint} role="img" />
+      <div className="vstage-center">
         <div className="globe-legend"><span><i className="globe-dot is-home" />{T.serbia}</span><span><i className="globe-dot is-dest" />{sel ? sel.name : T.freeGroup}</span></div>
+        <div className="vstage-globe" ref={wrap}>
+          <canvas ref={canvasRef} className="absolute inset-0 w-full h-full block" aria-label={T.hint} role="img" />
+        </div>
         <div className="vstage-hint">{T.hint}</div>
       </div>
       <div className="vstage-side vstage-right">

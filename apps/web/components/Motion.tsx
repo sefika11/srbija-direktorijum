@@ -15,7 +15,8 @@ export default function Motion() {
     const header = document.querySelector<HTMLElement>(".site-header");
     const dark = !!document.querySelector(".hero-dark[data-hero]");
     header?.classList.toggle("on-dark", dark);
-    const onScroll = () => header?.classList.toggle("scrolled", window.scrollY > 24);
+    const rail = document.querySelector<HTMLElement>(".read-rail");
+    const onScroll = () => { header?.classList.toggle("scrolled", window.scrollY > 24); if (rail) { const art = rail.parentElement!; const r = art.getBoundingClientRect(); const p = Math.min(1, Math.max(0, (window.innerHeight * .4 - r.top) / Math.max(1, r.height - window.innerHeight * .4))); rail.style.setProperty("--p", p.toFixed(3)); } };
     onScroll(); window.addEventListener("scroll", onScroll, { passive: true });
     return () => { io.disconnect(); window.clearTimeout(safety); window.removeEventListener("scroll", onScroll); };
   }, [path]);

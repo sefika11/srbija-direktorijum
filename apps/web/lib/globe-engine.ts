@@ -30,7 +30,7 @@ export class GlobeEngine {
   private renderer!: THREE.WebGLRenderer; private scene = new THREE.Scene(); private camera = new THREE.PerspectiveCamera(38, 1, .1, 100);
   private group = new THREE.Group(); private base!: THREE.Mesh; private overlay!: THREE.Mesh; private hitSphere!: THREE.Mesh;
   private baseTex!: THREE.CanvasTexture; private overTex!: THREE.CanvasTexture; private baseCv!: HTMLCanvasElement; private overCv!: HTMLCanvasElement; private idCv!: HTMLCanvasElement; private idData: ImageData | null = null; private idMap: string[] = [];
-  private sel: string | null = null; private hov: string | null = null; private targetQ = new THREE.Quaternion(); private camDist = 3.35; private touched = false; private dragging = false;
+  private sel: string | null = null; private hov: string | null = null; private vel = { x: 0, y: 0 }; private lastMove = 0; private targetQ = new THREE.Quaternion(); private camDist = 3.35; private touched = false; private dragging = false;
   private arc: THREE.Mesh | null = null; private arcDraw = 0; private pinHome!: THREE.Group; private pinDest!: THREE.Group;
   private labelHome!: HTMLDivElement; private labelDest!: HTMLDivElement; private tip!: HTMLDivElement;
   private raf = 0; private alive = true; private ro: ResizeObserver | null = null; private mq: MediaQueryList | null = null; private reduced = false;
@@ -65,7 +65,7 @@ export class GlobeEngine {
     this.pinHome = this.mkPin(new THREE.Color(cssVar("--red", "#c6363c"))); this.pinDest = this.mkPin(new THREE.Color(cssVar("--accent", "#0c4076"))); this.pinDest.visible = false; this.group.add(this.pinHome, this.pinDest);
     const h = o.centroids[o.home] ?? [44.2, 20.8]; this.place(this.pinHome, h[0], h[1]);
     // labels + tooltip
-    this.labelHome = this.mkLabel("globe-label is-home", o.homeLabel); this.labelDest = this.mkLabel("globe-label is-dest", ""); this.labelDest.style.display = "none";
+    this.labelHome = this.mkLabel("globe-label is-home", o.homeLabel); this.labelDest = this.mkLabel("globe-label is-dest is-below", ""); this.labelDest.style.display = "none";
     this.tip = this.mkLabel("globe-tip", ""); this.tip.style.display = "none";
     this.faceTo(h[0], h[1]); this.group.quaternion.copy(this.targetQ); this.camera.position.set(0, 0, this.camDist + (this.reduced ? 0 : .9));
     this.bind(); this.resize();
@@ -95,7 +95,7 @@ export class GlobeEngine {
   private colors() {
     const dark = isDark(); const ink = cssVar("--ink", "#17181c"), accent = cssVar("--accent", "#0c4076"), red = cssVar("--red", "#c6363c"), bg = cssVar("--bg", "#f7f5f0"), surface = cssVar("--surface", "#fff");
     return {
-      ocean: dark ? "#1b1f27" : "#c9d8e8", land: dark ? "#3a3d45" : "#f6f2e8", landHi: dark ? "#2a3a52" : "#b7cde9", border: dark ? "rgba(242,240,235,.35)" : "rgba(23,24,28,.5)",
+      ocean: dark ? "#161a22" : "#c9d8e8", land: dark ? "#4a4e58" : "#f6f2e8", landHi: dark ? "#2f4a6e" : "#b7cde9", border: dark ? "rgba(242,240,235,.5)" : "rgba(23,24,28,.5)",
       home: red, sel: accent, hover: dark ? "rgba(255,255,255,.28)" : "rgba(23,24,28,.14)", ink, bg, surface,
     };
   }
@@ -161,25 +161,33 @@ export class GlobeEngine {
     const hit = (e: PointerEvent) => { ray.setFromCamera(ndc(e), this.camera); const h = ray.intersectObject(this.hitSphere)[0]; return h?.uv ? this.isoAtUv(h.uv.x, h.uv.y) : null; };
     const down = (e: PointerEvent) => { this.dragging = true; moved = 0; lx = e.clientX; ly = e.clientY; cv.setPointerCapture(e.pointerId); };
     const move = (e: PointerEvent) => {
-      if (this.dragging) { const dx = e.clientX - lx, dy = e.clientY - ly; lx = e.clientX; ly = e.clientY; moved += Math.abs(dx) + Math.abs(dy); if (moved > 4) { this.touched = true; const qy = new THREE.Quaternion().setFromAxisAngle(new THREE.Vector3(0, 1, 0), dx * .005), qx = new THREE.Quaternion().setFromAxisAngle(new THREE.Vector3(1, 0, 0), dy * .005); this.group.quaternion.premultiply(qy).premultiply(qx); this.targetQ.copy(this.group.quaternion); } return; }
+      if (this.dragging) { const dx = e.clientX - lx, dy = e.clientY - ly; lx = e.clientX; ly = e.clientY; moved += Math.abs(dx) + Math.abs(dy); if (moved > 4) { this.touched = true; const k = .0042 * (this.camDist / 3); this.vel = { x: dx * k, y: dy * k }; this.lastMove = performance.now(); this.rotateBy(this.vel.x, this.vel.y); } return; }
       const iso = hit(e); const pick = iso && (!this.o.pickable || this.o.pickable.has(iso)) ? iso : null;
       if (pick !== this.hov) { this.hov = pick; this.paintOverlay(); this.o.onHover?.(pick); cv.style.cursor = pick ? "pointer" : "grab"; }
       if (pick) { const r = cv.getBoundingClientRect(); this.tip.textContent = this.o.names[pick] ?? pick; this.tip.style.display = ""; this.tip.style.transform = `translate(${(e.clientX - r.left + 14).toFixed(0)}px, ${(e.clientY - r.top - 10).toFixed(0)}px)`; } else this.tip.style.display = "none";
     };
-    const up = (e: PointerEvent) => { const was = this.dragging; this.dragging = false; if (!was || moved > 4) return; const iso = hit(e); if (iso && (!this.o.pickable || this.o.pickable.has(iso))) { this.touched = false; this.o.onPick?.(iso); } };
+    const up = (e: PointerEvent) => { const was = this.dragging; this.dragging = false; if (performance.now() - this.lastMove > 80) this.vel = { x: 0, y: 0 }; if (!was || moved > 4) return; const iso = hit(e); if (iso && (!this.o.pickable || this.o.pickable.has(iso))) { this.touched = false; this.o.onPick?.(iso); } };
     const leave = () => { if (this.hov) { this.hov = null; this.paintOverlay(); this.o.onHover?.(null); } this.tip.style.display = "none"; cv.style.cursor = "grab"; };
-    const wheel = (e: WheelEvent) => { e.preventDefault(); this.camDist = THREE.MathUtils.clamp(this.camDist + e.deltaY * .0025, 2.0, 3.8); };
+    const wheel = (e: WheelEvent) => { e.preventDefault(); this.camDist = THREE.MathUtils.clamp(this.camDist * (1 + Math.sign(e.deltaY) * Math.min(.08, Math.abs(e.deltaY) * .0012)), 1.9, 3.8); };
     cv.addEventListener("pointerdown", down); cv.addEventListener("pointermove", move); cv.addEventListener("pointerup", up); cv.addEventListener("pointerleave", leave); cv.addEventListener("pointercancel", () => { this.dragging = false; }); cv.addEventListener("wheel", wheel, { passive: false });
     cv.style.cursor = "grab"; cv.style.touchAction = "none";
     this.dispose.push(() => { cv.removeEventListener("pointerdown", down); cv.removeEventListener("pointermove", move); cv.removeEventListener("pointerup", up); cv.removeEventListener("pointerleave", leave); cv.removeEventListener("wheel", wheel); });
   }
+  private rotateBy(ax: number, ay: number) { const qy = new THREE.Quaternion().setFromAxisAngle(new THREE.Vector3(0, 1, 0), ax), qx = new THREE.Quaternion().setFromAxisAngle(new THREE.Vector3(1, 0, 0), ay); this.group.quaternion.premultiply(qy).premultiply(qx); this.targetQ.copy(this.group.quaternion); }
   private resize() { const w = this.o.host.clientWidth, h = this.o.host.clientHeight; if (!w || !h) return; this.renderer.setSize(w, h, false); this.camera.aspect = w / h; this.camera.updateProjectionMatrix(); }
 
   // ----- loop
   private frame = (now: number) => {
     if (!this.alive) return; this.raf = requestAnimationFrame(this.frame); if (document.hidden) return;
-    if (!this.dragging) { if (!this.touched) this.group.quaternion.slerp(this.targetQ, this.reduced ? 1 : .07); else if (!this.sel && this.o.autoRotate !== false) this.group.rotateOnWorldAxis(new THREE.Vector3(0, 1, 0), .0009); }
-    this.camera.position.z += (this.camDist - this.camera.position.z) * (this.reduced ? 1 : .06);
+    if (!this.dragging) {
+      if (!this.touched) this.group.quaternion.slerp(this.targetQ, this.reduced ? 1 : .07);
+      else {
+        // coast after a drag, then settle; idle auto-rotate only when nothing is selected
+        if (Math.abs(this.vel.x) + Math.abs(this.vel.y) > .00005) { this.rotateBy(this.vel.x, this.vel.y); this.vel.x *= .93; this.vel.y *= .93; }
+        else if (!this.sel && this.o.autoRotate !== false) this.group.rotateOnWorldAxis(new THREE.Vector3(0, 1, 0), .0006);
+      }
+    }
+    this.camera.position.z += (this.camDist - this.camera.position.z) * (this.reduced ? 1 : .09);
     if (this.arc) { this.arcDraw = Math.min(1, this.arcDraw + (this.reduced ? 1 : .03)); const idx = (this.arc.geometry as THREE.BufferGeometry).index!; (this.arc.geometry as THREE.BufferGeometry).setDrawRange(0, Math.floor(this.arcDraw * idx.count)); }
     const pulse = 1 + Math.sin(now / 480) * .14; (this.pinHome.getObjectByName("halo") as THREE.Mesh).scale.setScalar(pulse); (this.pinDest.getObjectByName("halo") as THREE.Mesh).scale.setScalar(pulse);
     this.placeLabel(this.labelHome, this.o.home); this.placeLabel(this.labelDest, this.sel);

@@ -127,13 +127,14 @@ export async function GuidePage({ locale, guide, jlsSlug, path }: { locale: Loca
       <div className="shell py-8 grid lg:grid-cols-[minmax(0,1fr)_320px] gap-10 items-start">
         <article className="grid gap-9 min-w-0">
           {/* Where to go */}
-          <section id="gde">
+          <div className="read-rail" aria-hidden><i /></div>
+          <section id="gde" data-reveal data-fx="flip">
             <SectionTitle>{L.whereToGo}</SectionTitle>
             {c.where_note && <p className="text-[14.5px] mb-3">{c.where_note}</p>}
             {jls && serving.length > 0 ? (
               <ul className="grid gap-3">
-                {serving.map((s) => { const ph = contacts.filter((x) => x.location_id === s.location_id && (x.kind === "phone" || x.kind === "mobile")); const hr = compactHours(hours.filter((h) => h.location_id === s.location_id), locale); const url = href(locale, `/${s.org_type_slug}/${s.org_slug}/${s.location_slug}`); return (
-                  <li key={s.location_id} className="card stack is-contact p-4 sm:p-5 grid sm:grid-cols-[minmax(0,1fr)_auto] gap-4">
+                {serving.map((s, i) => { const ph = contacts.filter((x) => x.location_id === s.location_id && (x.kind === "phone" || x.kind === "mobile")); const hr = compactHours(hours.filter((h) => h.location_id === s.location_id), locale); const url = href(locale, `/${s.org_type_slug}/${s.org_slug}/${s.location_slug}`); return (
+                  <li key={s.location_id} data-reveal data-fx={i % 2 ? "wing-r" : "wing-l"} style={{ "--d": `${i * 90}ms` } as React.CSSProperties} className="card stack is-contact p-4 sm:p-5 grid sm:grid-cols-[minmax(0,1fr)_auto] gap-4">
                     <div className="min-w-0">
                       <div className="eyebrow">{s.org_name_lat}</div>
                       <Link href={url} className="font-serif text-[19px] font-semibold no-underline text-ink hover:text-accent">{s.unit_name_lat}</Link>
@@ -157,31 +158,31 @@ export async function GuidePage({ locale, guide, jlsSlug, path }: { locale: Loca
 
           {guide.status === "short" && <div className="rounded-xl border border-dashed border-line bg-surface-2/60 p-4 text-[13.5px] text-muted">{L.shortNotice}</div>}
 
-          {c.who?.length ? <section><SectionTitle>{L.whoCan}</SectionTitle><ul className="grid gap-1.5 text-[14.5px] list-disc pl-5">{c.who.map((w, i) => <li key={i}>{w}</li>)}</ul></section> : null}
+          {c.who?.length ? <section data-reveal data-fx="flip"><SectionTitle>{L.whoCan}</SectionTitle><ul className="grid gap-1.5 text-[14.5px] list-disc pl-5">{c.who.map((w, i) => <li key={i}>{w}</li>)}</ul></section> : null}
 
-          {c.documents?.length ? <section><SectionTitle>{L.documents}</SectionTitle>
+          {c.documents?.length ? <section data-reveal data-fx="flip"><SectionTitle>{L.documents}</SectionTitle>
             <ul className="grid gap-2">{c.documents.map((doc, i) => (
-              <li key={i} className="card slip p-3.5 flex gap-3 items-start"><span className="mt-0.5 inline-grid place-items-center w-5 h-5 rounded border border-line text-[11px] text-muted shrink-0">{i + 1}</span>
+              <li key={i} data-reveal data-fx={i % 2 ? "wing-r" : "wing-l"} style={{ "--d": `${i * 70}ms` } as React.CSSProperties} className="card slip p-3.5 flex gap-3 items-start"><span className="mt-0.5 inline-grid place-items-center w-5 h-5 rounded border border-line text-[11px] text-muted shrink-0">{i + 1}</span>
                 <div className="min-w-0"><div className="font-medium text-[14.5px]">{doc.name}</div>{doc.note && <div className="text-muted text-[13px] mt-0.5">{doc.note}</div>}{doc.variants?.length ? <ul className="mt-1.5 text-[13px] text-muted grid gap-0.5">{doc.variants.map((v, j) => <li key={j}>· {v}</li>)}</ul> : null}</div></li>))}</ul></section> : null}
 
-          {guide.fees?.length ? <section><SectionTitle>{L.fees}</SectionTitle>
+          {guide.fees?.length ? <section data-reveal data-fx="flip"><SectionTitle>{L.fees}</SectionTitle>
             <div className="card overflow-x-auto"><table className="w-full text-[14px]"><thead><tr className="text-left text-muted text-[12px] uppercase tracking-wide"><th className="px-4 py-2.5 font-medium">{L.amount}</th><th className="px-4 py-2.5 font-medium">{L.basis}</th></tr></thead>
               <tbody>{guide.fees.map((f, i) => <tr key={i} className="border-t border-line align-top"><td className="px-4 py-2.5"><div className="font-medium">{f.item}</div><div className="tabular text-[15px]">{f.amount_rsd == null ? <span className="text-muted">—</span> : f.amount_rsd === 0 ? L.free : `${fmtRsd(f.amount_rsd)} ${L.rsd}`}</div>{f.note && <div className="text-muted text-[12.5px] mt-0.5">{f.note}</div>}</td>
                 <td className="px-4 py-2.5 text-[13px] text-muted">{f.basis}{f.source_url && <> · <a href={f.source_url} target="_blank" rel="noopener">izvor ↗</a></>}{f.checked_at && <div className="text-[12px]">{L.checked} {f.checked_at}</div>}</td></tr>)}</tbody></table></div></section> : null}
 
-          {guide.typical_duration && <section><SectionTitle>{L.duration}</SectionTitle><p className="text-[14.5px]">{guide.typical_duration}</p></section>}
+          {guide.typical_duration && <section data-reveal data-fx="flip"><SectionTitle>{L.duration}</SectionTitle><p className="text-[14.5px]">{guide.typical_duration}</p></section>}
 
-          {c.steps?.length ? <section><SectionTitle>{L.steps}</SectionTitle>
-            <ol className="grid gap-3">{c.steps.map((s, i) => <li key={i} className="flex gap-3.5"><span className="disc step-disc">{i + 1}</span><p className="text-[14.5px] pt-1">{s}</p></li>)}</ol></section> : null}
+          {c.steps?.length ? <section data-reveal data-fx="flip"><SectionTitle>{L.steps}</SectionTitle>
+            <ol className="grid gap-3">{c.steps.map((s, i) => <li key={i} data-reveal style={{ "--d": `${i * 80}ms` } as React.CSSProperties} className="flex gap-3.5"><span className="disc step-disc">{i + 1}</span><p className="text-[14.5px] pt-1">{s}</p></li>)}</ol></section> : null}
 
           {vertical && <section id="ponuda"><LeadForm locale={locale} vertical={vertical} context={{ page_path: path, location_id: serving[0]?.location_id ?? null, territorial_unit_id: jls?.id ?? null }} /></section>}
           <AdSlot code="svc_in_content_1" w={728} h={90} mobileH={250} label={d.ad} />
 
-          {c.faq?.length ? <section><SectionTitle>{L.faq}</SectionTitle><div className="grid gap-2">{c.faq.map((f, i) => <details key={i} className="card p-4 group"><summary className="cursor-pointer font-medium text-[14.5px] list-none flex justify-between gap-3">{f.q}<span className="text-muted group-open:rotate-45 transition">+</span></summary><p className="text-[14px] text-muted mt-2">{f.a}</p></details>)}</div></section> : null}
+          {c.faq?.length ? <section data-reveal data-fx="flip"><SectionTitle>{L.faq}</SectionTitle><div className="grid gap-2">{c.faq.map((f, i) => <details key={i} className="card p-4 group"><summary className="cursor-pointer font-medium text-[14.5px] list-none flex justify-between gap-3">{f.q}<span className="text-muted group-open:rotate-45 transition">+</span></summary><p className="text-[14px] text-muted mt-2">{f.a}</p></details>)}</div></section> : null}
 
-          {c.for_foreigners && <section className="rounded-2xl p-5 sm:p-6" style={{ background: "var(--accent-soft)" }}><div className="eyebrow text-accent-ink flex items-center gap-1.5"><Icon.globe /> {L.forForeigners}</div><p className="text-[14.5px] mt-2 whitespace-pre-line">{c.for_foreigners}</p></section>}
+          {c.for_foreigners && <section data-reveal data-fx="flip" className="rounded-2xl p-5 sm:p-6" style={{ background: "var(--accent-soft)" }}><div className="eyebrow text-accent-ink flex items-center gap-1.5"><Icon.globe /> {L.forForeigners}</div><p className="text-[14.5px] mt-2 whitespace-pre-line">{c.for_foreigners}</p></section>}
 
-          {guide.sources?.length ? <section><SectionTitle>{L.sources}</SectionTitle><ul className="text-[13px] text-muted grid gap-1">{guide.sources.map((s, i) => <li key={i}><a href={s.url} target="_blank" rel="noopener" className="break-all">{s.title ?? s.url}</a>{s.checked_at ? ` · ${L.checked} ${s.checked_at}` : ""}</li>)}</ul>{guide.legal_basis && <p className="text-[13px] text-muted mt-2">{guide.legal_basis}</p>}</section> : null}
+          {guide.sources?.length ? <section data-reveal data-fx="flip"><SectionTitle>{L.sources}</SectionTitle><ul className="text-[13px] text-muted grid gap-1">{guide.sources.map((s, i) => <li key={i}><a href={s.url} target="_blank" rel="noopener" className="break-all">{s.title ?? s.url}</a>{s.checked_at ? ` · ${L.checked} ${s.checked_at}` : ""}</li>)}</ul>{guide.legal_basis && <p className="text-[13px] text-muted mt-2">{guide.legal_basis}</p>}</section> : null}
 
           <CorrectionBlock locale={locale} entityType="service" entityId={guide.id} pagePath={path} lastChecked={guide.checked_at} sources={guide.sources.map((s) => s.url)} />
         </article>

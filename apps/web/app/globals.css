@@ -610,7 +610,7 @@ body::before { display: none; }
 .hz-light { inset: -20%; background: radial-gradient(40% 30% at 20% 20%, color-mix(in oklab, var(--red) 10%, transparent) 0%, transparent 70%), radial-gradient(35% 30% at 80% 70%, color-mix(in oklab, var(--accent) 12%, transparent) 0%, transparent 70%); animation: hz-sweep 28s ease-in-out infinite alternate; opacity: .9; }
 @keyframes hz-sweep { from { transform: translate3d(-2%, -1%, 0) scale(1); } to { transform: translate3d(2%, 2%, 0) scale(1.06); } }
 /* content sits above the layers */
-body > header, body > main, body > footer, .opener { position: relative; z-index: 1; }
+body > header, body > main, body > footer { position: relative; z-index: 1; }
 :root:not([data-theme="light"]) .hz-far, :root[data-theme="dark"] .hz-far { filter: invert(1); opacity: .06; }
 @media (prefers-color-scheme: light) { :root:not([data-theme="dark"]) .hz-far { filter: none; opacity: .05; } }
 :root[data-theme="dark"] .hz-emboss-light, :root:not([data-theme="light"]) .hz-emboss-light { stroke: color-mix(in oklab, #fff 18%, transparent); }
@@ -767,3 +767,47 @@ a { color: var(--accent); }
 .skip-link { position: absolute; left: 12px; top: -48px; z-index: 100; padding: 8px 14px; border-radius: var(--radius-pill); background: var(--ink); color: var(--bg); font-size: 13.5px; font-weight: 500; text-decoration: none; transition: top .15s; }
 .skip-link:focus { top: 12px; outline: 3px solid var(--red); outline-offset: 2px; }
 main { scroll-margin-top: 80px; }
+
+/* ---------- 36. Quieter accents + fabric textures per section (mesh, nylon, tweed) ---------- */
+/* tricolour only where it is the subject (hero ribbons, header ribbon, passports). Elsewhere: one quiet accent. */
+.plinth::after, .stat-strip > div::after { height: 2px; background: color-mix(in oklab, var(--line-strong) 70%, transparent); }
+.eyebrow::before { width: 14px; height: 2px; background: color-mix(in oklab, var(--red) 70%, var(--line)); }
+.tab { box-shadow: 0 1px 0 rgb(255 255 255 / .25) inset, 0 4px 10px -6px rgb(23 24 28 / .45); }
+.section-title::before { width: 4px; height: 16px; background: color-mix(in oklab, var(--red) 75%, var(--line)); box-shadow: none; }
+.guide-card::before { width: 3px; background: color-mix(in oklab, var(--red) 55%, transparent); }
+.bento-bar { background: color-mix(in oklab, var(--line) 80%, var(--surface-2)) !important; }
+.vital { border-left: 3px solid color-mix(in oklab, var(--red) 70%, var(--line)); }
+.hero-open::after { opacity: .38; }
+.hub-head .hub-glyph, .org-glyph { box-shadow: var(--shadow-2), 0 0 0 1px var(--line), 0 0 0 6px color-mix(in oklab, var(--surface-2) 70%, transparent); }
+.vstage-globe { box-shadow: var(--shadow-3), 0 0 0 6px var(--surface), 0 0 0 7px color-mix(in oklab, var(--line) 70%, transparent); }
+.hz-emboss-body { stroke: color-mix(in oklab, var(--ink) 22%, var(--bg)); }
+.quick-chip.is-on, .quick-chip.is-on:hover { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+/* fabric textures: subtle tiles, faded at the band edges, inverted in dark mode */
+.band, .hero-light, .band-primary { position: relative; }
+.band::after, .hero-light::after, .band-primary::after { content: ""; position: absolute; inset: 0; pointer-events: none; z-index: 0; opacity: .55; background-image: var(--tex); background-size: var(--tex-size); mask-image: linear-gradient(to bottom, transparent, #000 18%, #000 82%, transparent); -webkit-mask-image: linear-gradient(to bottom, transparent, #000 18%, #000 82%, transparent); }
+.band > *, .hero-light > *, .band-primary > * { position: relative; z-index: 1; }
+.tex-mesh, .band-primary { --tex: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='48' viewBox='0 0 28 48'%3E%3Cpath d='M14 0l14 8v16l-14 8L0 24V8zM14 32l14 8M14 32L0 40' fill='none' stroke='%2317181c' stroke-opacity='.09' stroke-width='1'/%3E%3C/svg%3E"); --tex-size: 28px 48px; }
+.tex-nylon, .hero-light { --tex: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10'%3E%3Cpath d='M0 5h5V0M5 10h5V5' fill='none' stroke='%2317181c' stroke-opacity='.09' stroke-width='1.4'/%3E%3C/svg%3E"); --tex-size: 10px 10px; }
+.tex-tweed { --tex: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3E%3Cpath d='M0 8L8 0M0 16l8-8M8 16l8-8M8 8l8 8' fill='none' stroke='%2317181c' stroke-opacity='.1' stroke-width='1.3'/%3E%3C/svg%3E"); --tex-size: 16px 16px; }
+.hero-light::after { opacity: .45; } .band-primary::after { opacity: .5; }
+:root[data-theme="dark"] .band::after, :root:not([data-theme="light"]) .band::after { filter: invert(1); opacity: .35; }
+@media (prefers-color-scheme: light) { :root:not([data-theme="dark"]) .band::after { filter: none; opacity: .55; } }
+
+/* ---------- 37. Scroll choreography: flip, wings, stagger; reading rail; pill alignment ---------- */
+span.rounded-full { display: inline-flex; align-items: center; gap: 6px; } span.rounded-full > svg { width: 14px; height: 14px; flex: none; }
+html.js [data-reveal][data-fx="flip"] { transform: perspective(1200px) rotateX(-14deg) translateY(26px); transform-origin: 50% 0; transition-duration: .7s, .9s; }
+html.js [data-reveal][data-fx="wing-l"] { transform: perspective(1000px) rotateY(26deg) translateX(-26px); transform-origin: 100% 50%; }
+html.js [data-reveal][data-fx="wing-r"] { transform: perspective(1000px) rotateY(-26deg) translateX(26px); transform-origin: 0 50%; }
+html.js [data-reveal].in { transform: none; }
+article { position: relative; }
+.read-rail { position: absolute; left: -22px; top: 0; bottom: 0; width: 3px; border-radius: 2px; background: color-mix(in oklab, var(--line) 80%, transparent); overflow: hidden; }
+.read-rail > i { display: block; width: 100%; height: 100%; transform-origin: top; transform: scaleY(var(--p, 0)); background: linear-gradient(180deg, var(--red), var(--accent)); transition: transform .15s linear; }
+@media (max-width: 1100px) { .read-rail { display: none; } }
+@media (prefers-reduced-motion: reduce) { html.js [data-reveal][data-fx] { transform: none; } }
+/* globe: legend and hint live outside the clipped circle; labels above/below the pin */
+.vstage-center { display: grid; gap: 10px; justify-items: center; }
+.vstage-center .globe-legend, .vstage-center .vstage-hint { position: static; transform: none; max-width: 100%; text-align: center; }
+.vstage-globe { overflow: hidden; }
+.globe-label.is-below { margin-top: 22px; }
+.globe-label { font-size: 11px; padding: 4px 9px; background: color-mix(in oklab, var(--surface) 94%, transparent); backdrop-filter: blur(6px); }
+.globe-tip { font-size: 13px; padding: 5px 9px; }
