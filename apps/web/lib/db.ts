@@ -237,3 +237,18 @@ export const getFeatured = (typeSlug: string | null, unitPath: string | null, li
     where f.status = 'active' and current_date between f.starts_at and f.ends_at and o.status = 'active'
       and (${typeSlug}::text is null or t.slug = ${typeSlug}) and (${unitPath}::text is null or tu.id is null or tu.path <@ ${unitPath}::ltree)
     order by f.tier = 'highlight' desc, f.starts_at desc limit ${limit}`;
+
+/** Countries and the visa regime in both directions (patch 017). */
+export type CountryRow = { iso2: string; name_sr: string; name_en: string; slug: string; to_rs_regime: string | null; to_rs_stay: string | null; to_rs_conditions: string | null; to_rs_url: string | null;
+  from_rs_regime: string | null; from_rs_stay: string | null; from_rs_passport: string | null; from_rs_requirements: unknown; from_rs_url: string | null; rs_mission_name: string | null; rs_mission_city: string | null; source_fetched_at: string | null };
+export const getCountries = () => sql<CountryRow[]>`select iso2, name_sr, name_en, slug, to_rs_regime, to_rs_stay, to_rs_conditions, to_rs_url, from_rs_regime, from_rs_stay, from_rs_passport, from_rs_requirements, from_rs_url, rs_mission_name, rs_mission_city, source_fetched_at::text from countries order by name_sr`;
+export const getCountry = async (slug: string) => (await sql<CountryRow[]>`select iso2, name_sr, name_en, slug, to_rs_regime, to_rs_stay, to_rs_conditions, to_rs_url, from_rs_regime, from_rs_stay, from_rs_passport, from_rs_requirements, from_rs_url, rs_mission_name, rs_mission_city, source_fetched_at::text from countries where slug = ${slug} or iso2 = ${slug.toUpperCase()} limit 1`)[0] ?? null;
+export type MissionRow = { id: number; slug: string; name_lat: string; type_slug: string; type_name: string; place_name: string | null; phone: string | null; phone_display: string | null; website: string | null };
+export const getMissionsOfCountry = (nameSr: string) =>
+  sql<MissionRow[]>`select o.id, o.slug, o.name_lat, t.slug as type_slug, t.name_lat as type_name, l.settlement_name_lat as place_name, c.value as phone, c.value_display as phone_display, coalesce(o.website, w.value) as website
+    from organizations o join org_types t on t.id = o.org_type_id
+    left join locations l on l.org_id = o.id and l.is_primary
+    left join lateral (select value, value_display from location_contacts lc where lc.location_id = l.id and lc.kind = 'phone' order by lc.id limit 1) c on true
+    left join lateral (select value from location_contacts lc where lc.location_id = l.id and lc.kind = 'website' order by lc.id limit 1) w on true
+    where o.status = 'active' and t.slug in ('ambasada', 'konzulat') and o.name_lat ilike ${"%– " + nameSr + "%"}
+    order by t.slug, o.name_lat`;

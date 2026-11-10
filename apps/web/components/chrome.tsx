@@ -59,6 +59,7 @@ export async function Footer({ locale }: { locale: Locale }) {
           <ul className="grid gap-1.5">
             <li><Link href={href(locale, "/")}>{d.home}</Link></li>
             <li><Link href={href(locale, "/za-strance")}>{d.forForeigners}</Link></li>
+            <li><Link href={href(locale, "/vize")}>{locale === "sr" ? "Vize i uslovi ulaska" : locale === "en" ? "Visas and entry rules" : locale === "ru" ? "Визы и въезд" : "Visa und Einreise"}</Link></li>
             <li><Link href={href(locale, "/partneri")}>{d.becomePartner}</Link></li>
             <li><Link href={href(locale, "/o-sajtu")}>{d.aboutSite}</Link></li>
           </ul>

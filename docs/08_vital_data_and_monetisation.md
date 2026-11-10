@@ -77,3 +77,6 @@ Municipality page now opens with the **Vitalno** block: emergency numbers, fault
 
 ### Phone pass, remaining 105 municipalities (2026-11-10)
 250 rows → 4 haiku agents (no sub-agents, official portals only): 171 now have a phone, 169 a website, 94 e-mails, 41 hours. Vital-type coverage on Neon after both passes: opštinske uprave 106/116, gradske uprave 68/77, domovi zdravlja 116/145, vodovod 37/50, toplane 27/39, čistoća 110/223 (village JKPs have no web presence), gas 6/16. 136 of 145 municipalities now have at least one vital phone. Portals down or hostile: Žitorađa, Despotovac, Kuršumlija, Ljubovija, Ljig, Aleksinac, Kragujevac departments. Not yet covered because they are founded by the Republic, not the municipality: centri za socijalni rad (0/140) and EPS branches (0/6) → next batch keyed by primary location.
+
+### Visa layer (2026-11-10)
+`countries` (patch 017) holds both directions of the regime per country from the MFA; `/vize` lists all countries by regime for entering Serbia, `/vize/<country>` shows the passport, both regimes, what to bring, the country's missions in Serbia (from the embassy rows) and the official MFA page. Monetisation hooks: translators, relocation, lawyers and insurance leads on the pages of countries with a visa requirement; affiliate for travel insurance on the outbound panel. Loader: `importers.jobs.load_countries`.
