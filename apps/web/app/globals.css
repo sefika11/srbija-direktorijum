@@ -477,3 +477,7 @@ form[role="search"] input[type="search"]::-webkit-search-cancel-button, form[rol
   :root:not([data-theme="light"]) .btn-primary { background: #ecebe6; color: #121317; } :root:not([data-theme="light"]) .btn-primary:hover { background: #fff; color: #121317; }
   :root:not([data-theme="light"]) form[role="search"] button[type="submit"] { background: #ecebe6 !important; color: #121317 !important; }
 }
+
+/* ---------- 26. Search input: no native focus ring in any engine (Safari draws its own on type=search) ---------- */
+form[role="search"] input[type="search"] { -webkit-appearance: none; appearance: none; outline: none !important; box-shadow: none !important; border: 0 !important; border-radius: 0 !important; background: transparent !important; }
+form[role="search"] input[type="search"]:focus, form[role="search"] input[type="search"]:focus-visible, form[role="search"] input[type="search"]:-webkit-autofill { outline: none !important; box-shadow: none !important; }
