@@ -16,17 +16,16 @@ type FlagComp = (props: React.SVGProps<SVGSVGElement>) => React.JSX.Element;
 const flagOf = (iso2: string): FlagComp | null => ((Flags as unknown as Record<string, FlagComp>)[iso2] ?? null);
 
 const L: Record<Locale, Record<string, string>> = {
-  sr: { section: "Odeljci", action: "Hitno", guide: "Vodiči", type: "Vrste institucija", place: "Opštine i okruzi", org: "Institucije", country: "Vize i države", recent: "Nedavno", popular: "Počnite od", clear: "Obriši", all: "Svi rezultati za", open: "otvori", move: "kretanje", close: "zatvori", call: "pozovi", none: "Nema predloga. Pritisnite Enter za punu pretragu.", placeholder: "Pretražite instituciju, uslugu ili grad…", k: "Ctrl K" },
-  en: { section: "Sections", action: "Emergency", guide: "Guides", type: "Institution types", place: "Municipalities and districts", org: "Institutions", country: "Visas and countries", recent: "Recent", popular: "Start from", clear: "Clear", all: "All results for", open: "open", move: "move", close: "close", call: "call", none: "No suggestions. Press Enter for the full search.", placeholder: "Search an institution, service or town…", k: "Ctrl K" },
-  ru: { section: "Разделы", action: "Экстренно", guide: "Инструкции", type: "Типы учреждений", place: "Общины и округа", org: "Учреждения", country: "Визы и страны", recent: "Недавно", popular: "Начните с", clear: "Очистить", all: "Все результаты для", open: "открыть", move: "перейти", close: "закрыть", call: "позвонить", none: "Нет подсказок. Нажмите Enter для полного поиска.", placeholder: "Найти учреждение, услугу или город…", k: "Ctrl K" },
-  de: { section: "Bereiche", action: "Notfall", guide: "Anleitungen", type: "Einrichtungsarten", place: "Gemeinden und Bezirke", org: "Einrichtungen", country: "Visa und Länder", recent: "Zuletzt", popular: "Starten mit", clear: "Löschen", all: "Alle Ergebnisse für", open: "öffnen", move: "bewegen", close: "schließen", call: "anrufen", none: "Keine Vorschläge. Enter für die volle Suche.", placeholder: "Einrichtung, Leistung oder Ort suchen…", k: "Strg K" },
+  sr: { top: "Najbolji rezultat", road: "Putokaz", section: "Odeljci", action: "Hitno", guide: "Vodiči", type: "Vrste institucija", place: "Opštine i okruzi", org: "Institucije", country: "Vize i države", recent: "Nedavno", popular: "Počnite od", clear: "Obriši", all: "Svi rezultati za", open: "otvori", move: "kretanje", close: "zatvori", call: "pozovi", none: "Nema predloga. Pritisnite Enter za punu pretragu.", placeholder: "Pretražite instituciju, uslugu ili grad…", k: "Ctrl K" },
+  en: { top: "Best match", road: "Roadmap", section: "Sections", action: "Emergency", guide: "Guides", type: "Institution types", place: "Municipalities and districts", org: "Institutions", country: "Visas and countries", recent: "Recent", popular: "Start from", clear: "Clear", all: "All results for", open: "open", move: "move", close: "close", call: "call", none: "No suggestions. Press Enter for the full search.", placeholder: "Search an institution, service or town…", k: "Ctrl K" },
+  ru: { top: "Лучший результат", road: "Маршрут", section: "Разделы", action: "Экстренно", guide: "Инструкции", type: "Типы учреждений", place: "Общины и округа", org: "Учреждения", country: "Визы и страны", recent: "Недавно", popular: "Начните с", clear: "Очистить", all: "Все результаты для", open: "открыть", move: "перейти", close: "закрыть", call: "позвонить", none: "Нет подсказок. Нажмите Enter для полного поиска.", placeholder: "Найти учреждение, услугу или город…", k: "Ctrl K" },
+  de: { top: "Bester Treffer", road: "Wegweiser", section: "Bereiche", action: "Notfall", guide: "Anleitungen", type: "Einrichtungsarten", place: "Gemeinden und Bezirke", org: "Einrichtungen", country: "Visa und Länder", recent: "Zuletzt", popular: "Starten mit", clear: "Löschen", all: "Alle Ergebnisse für", open: "öffnen", move: "bewegen", close: "schließen", call: "anrufen", none: "Keine Vorschläge. Enter für die volle Suche.", placeholder: "Einrichtung, Leistung oder Ort suchen…", k: "Strg K" },
 };
-const ORDER: Suggestion["kind"][] = ["action", "section", "guide", "type", "place", "org", "country"];
 const POPULAR: Record<Locale, { q: string; label: string }[]> = {
-  sr: [{ q: "/vodic/licna-karta", label: "Lična karta" }, { q: "/vodic/pasos", label: "Pasoš" }, { q: "/dom-zdravlja", label: "Domovi zdravlja" }, { q: "/vize", label: "Vize i ulazak" }, { q: "/banka", label: "Banke" }, { q: "/okrug/grad-beograd", label: "Beograd" }],
-  en: [{ q: "/vodic/licna-karta", label: "ID card" }, { q: "/vodic/privremeni-boravak-stranci", label: "Residence permit" }, { q: "/dom-zdravlja", label: "Health centres" }, { q: "/vize", label: "Visas" }, { q: "/banka", label: "Banks" }, { q: "/okrug/grad-beograd", label: "Belgrade" }],
-  ru: [{ q: "/vodic/privremeni-boravak-stranci", label: "ВНЖ" }, { q: "/vodic/licna-karta", label: "Личная карта" }, { q: "/dom-zdravlja", label: "Дома здоровья" }, { q: "/vize", label: "Визы" }, { q: "/banka", label: "Банки" }, { q: "/okrug/grad-beograd", label: "Белград" }],
-  de: [{ q: "/vodic/privremeni-boravak-stranci", label: "Aufenthaltstitel" }, { q: "/vodic/licna-karta", label: "Personalausweis" }, { q: "/dom-zdravlja", label: "Gesundheitszentren" }, { q: "/vize", label: "Visa" }, { q: "/banka", label: "Banken" }, { q: "/okrug/grad-beograd", label: "Belgrad" }],
+  sr: [{ q: "/vodic/licna-karta", label: "Lična karta" }, { q: "/vodic/pasos", label: "Pasoš" }, { q: "/dom-zdravlja", label: "Domovi zdravlja" }, { q: "/vize", label: "Vize i ulazak" }, { q: "/banka", label: "Banke" }, { q: "/beograd", label: "Beograd" }],
+  en: [{ q: "/vodic/licna-karta", label: "ID card" }, { q: "/vodic/privremeni-boravak-stranci", label: "Residence permit" }, { q: "/dom-zdravlja", label: "Health centres" }, { q: "/vize", label: "Visas" }, { q: "/banka", label: "Banks" }, { q: "/beograd", label: "Belgrade" }],
+  ru: [{ q: "/vodic/privremeni-boravak-stranci", label: "ВНЖ" }, { q: "/vodic/licna-karta", label: "Личная карта" }, { q: "/dom-zdravlja", label: "Дома здоровья" }, { q: "/vize", label: "Визы" }, { q: "/banka", label: "Банки" }, { q: "/beograd", label: "Белград" }],
+  de: [{ q: "/vodic/privremeni-boravak-stranci", label: "Aufenthaltstitel" }, { q: "/vodic/licna-karta", label: "Personalausweis" }, { q: "/dom-zdravlja", label: "Gesundheitszentren" }, { q: "/vize", label: "Visa" }, { q: "/banka", label: "Banken" }, { q: "/beograd", label: "Belgrad" }],
 };
 const fold = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/đ/g, "dj").toLowerCase();
 /** Wrap the matched parts of a title in <mark>, diacritic-insensitive, per query token. */
@@ -44,7 +43,7 @@ const RECENT_KEY = "gdi-recent";
 const readRecent = (): string[] => { try { return JSON.parse(localStorage.getItem(RECENT_KEY) || "[]"); } catch { return []; } };
 const pushRecent = (q: string) => { try { const r = [q, ...readRecent().filter((x) => x !== q)].slice(0, 6); localStorage.setItem(RECENT_KEY, JSON.stringify(r)); } catch { /* storage blocked */ } };
 
-export default function SearchBox({ locale, defaultValue = "", large = false, placeholder, submitLabel, scope }: { locale: Locale; defaultValue?: string; large?: boolean; placeholder: string; submitLabel: string; scope?: { slug: string; label: string } }) {
+export default function SearchBox({ locale, defaultValue = "", large = false, placeholder, submitLabel, scope, autoFocus = false }: { locale: Locale; defaultValue?: string; large?: boolean; placeholder: string; submitLabel: string; scope?: { slug: string; label: string }; autoFocus?: boolean }) {
   const router = useRouter(); const id = useId(); const T = L[locale];
   const [q, setQ] = useState(defaultValue);
   const [items, setItems] = useState<Suggestion[]>([]);
@@ -59,34 +58,49 @@ export default function SearchBox({ locale, defaultValue = "", large = false, pl
   const cache = useRef(new Map<string, Suggestion[]>());
 
   useEffect(() => { setRecent(readRecent()); }, []);
-  // Ctrl/Cmd+K focuses the first search field on the page
+  useEffect(() => { if (autoFocus) { inputRef.current?.focus(); setOpen(true); } }, [autoFocus]);
+  // Ctrl/Cmd+K, or "/" outside a field, goes to the search: the first field on screen, else the header spotlight
   useEffect(() => {
-    const onKey = (e: KeyboardEvent) => { if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "k") { const first = document.querySelector<HTMLInputElement>('form[role="search"] input[type="search"]'); if (first) { e.preventDefault(); first.focus(); first.select(); } } };
+    const onKey = (e: KeyboardEvent) => {
+      const typing = (e.target as HTMLElement | null)?.closest?.("input, textarea, select, [contenteditable]");
+      const hit = ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "k") || (e.key === "/" && !typing && !e.ctrlKey && !e.metaKey && !e.altKey);
+      if (!hit) return;
+      const fields = [...document.querySelectorAll<HTMLInputElement>('form[role="search"] input[type="search"]')];
+      if (fields[0] !== inputRef.current) return;                       // one listener acts, whichever box is first in the page
+      e.preventDefault();
+      const seen = fields.find((el) => { if (el.offsetParent === null) return false; const r = el.getBoundingClientRect(); return r.bottom > 0 && r.top < window.innerHeight; });
+      if (seen) { seen.focus(); seen.select(); } else window.dispatchEvent(new Event("gdi:open-search"));
+    };
     window.addEventListener("keydown", onKey); return () => window.removeEventListener("keydown", onKey);
   }, []);
   useEffect(() => {
     if (timer.current) clearTimeout(timer.current);
     const key = `${locale}|${scope?.slug ?? ""}|${q.trim().toLowerCase()}`;
     if (!dirty || q.trim().length < 2) { setItems([]); setLoading(false); return; }
-    if (cache.current.has(key)) { setItems(cache.current.get(key)!); setActive(-1); return; }
+    if (cache.current.has(key)) { { const hit = cache.current.get(key)!; setItems(hit); setActive(hit[0]?.top ? 0 : -1); } return; }
     setLoading(true);
     timer.current = setTimeout(async () => {
       abort.current?.abort(); const ac = new AbortController(); abort.current = ac;
       try {
         const r = await fetch(`/api/suggest?q=${encodeURIComponent(q.trim())}&l=${locale}${scope ? `&scope=${encodeURIComponent(scope.slug)}` : ""}`, { signal: ac.signal });
-        if (r.ok) { const data: Suggestion[] = await r.json(); cache.current.set(key, data); setItems(data); setOpen(true); setActive(-1); }
+        if (r.ok) { const data: Suggestion[] = await r.json(); cache.current.set(key, data); setItems(data); setOpen(true); setActive(data[0]?.top ? 0 : -1); }
       } catch { /* aborted */ } finally { setLoading(false); }
     }, 110);
     return () => { if (timer.current) clearTimeout(timer.current); };
   }, [q, locale, dirty]);
 
-  const grouped = useMemo(() => ORDER.map((k) => ({ kind: k, rows: items.filter((s) => s.kind === k) })).filter((g) => g.rows.length), [items]);
+  // the server sends the rows in display order: the best match first, then each group by relevance
+  const grouped = useMemo(() => {
+    const gs: { kind: string; rows: Suggestion[] }[] = [];
+    for (const s of items) { const k = s.top ? "top" : s.kind; const g = gs.find((x) => x.kind === k); if (g) g.rows.push(s); else gs.push({ kind: k, rows: [s] }); }
+    return gs;
+  }, [items]);
   const flat = useMemo(() => grouped.flatMap((g) => g.rows), [grouped]);
   const showEmpty = open && q.trim().length < 2 && !scope;
   const emptyRows = useMemo(() => [...recent.map((r) => ({ kind: "recent" as const, label: r, href: href(locale, `/pretraga?q=${encodeURIComponent(r)}`) })), ...POPULAR[locale].map((p) => ({ kind: "popular" as const, label: p.label, href: href(locale, p.q) }))], [recent, locale]);
   const total = showEmpty ? emptyRows.length : flat.length + (q.trim().length >= 2 ? 1 : 0); // +1 = "all results" row
 
-  const go = (url: string, remember?: string) => { if (remember) pushRecent(remember); setOpen(false); if (url.startsWith("tel:")) { window.location.href = url; return; } router.push(url); };
+  const go = (url: string, remember?: string) => { if (remember) pushRecent(remember); setOpen(false); window.dispatchEvent(new Event("gdi:close-search")); if (url.startsWith("tel:")) { window.location.href = url; return; } router.push(url); };
   const onKey = (e: React.KeyboardEvent<HTMLInputElement>) => {
     if (e.key === "Escape") { setOpen(false); (e.currentTarget as HTMLInputElement).blur(); return; }
     if (!open) { if (e.key === "ArrowDown") { setOpen(true); e.preventDefault(); } return; }
@@ -103,7 +117,7 @@ export default function SearchBox({ locale, defaultValue = "", large = false, pl
   let idx = -1;
   return (
     <form action={href(locale, "/pretraga")} role="search" className={`sp ${large ? "sp-large search-large max-w-2xl" : "max-w-md"} relative w-full ${open ? "is-open" : ""}`}
-          onSubmit={() => { if (q.trim()) pushRecent(q.trim()); setOpen(false); }}
+          onSubmit={() => { if (q.trim()) pushRecent(q.trim()); setOpen(false); window.dispatchEvent(new Event("gdi:close-search")); }}
           onBlur={(e) => { if (!e.currentTarget.contains(e.relatedTarget as Node)) setOpen(false); }}>
       <label htmlFor={id} className="sr-only">{submitLabel}</label>
       {scope && <input type="hidden" name="opstina" value={scope.slug} />}
@@ -135,7 +149,7 @@ export default function SearchBox({ locale, defaultValue = "", large = false, pl
                 <div key={g.kind} className="sp-group">
                   <div className="sp-group-head"><span>{T[g.kind]}</span></div>
                   {g.rows.map((s) => { idx++; const i = idx; const Flag = s.iso2 ? flagOf(s.iso2) : null; return (
-                    <button key={`${s.kind}-${s.href}-${s.title}`} id={`${id}-opt-${i}`} type="button" role="option" aria-selected={i === active} className={`sp-row ${i === active ? "is-active" : ""} ${s.kind === "action" ? "is-action" : ""}`}
+                    <button key={`${s.kind}-${s.href}-${s.title}`} id={`${id}-opt-${i}`} type="button" role="option" aria-selected={i === active} className={`sp-row ${i === active ? "is-active" : ""} ${s.kind === "action" ? "is-action" : ""} ${s.top ? "is-top" : ""}`}
                             onMouseDown={(e) => e.preventDefault()} onMouseEnter={() => setActive(i)} onClick={() => go(s.href, q.trim())}>
                       <span className={`sp-ico ${s.kind === "country" ? "sp-ico-flag" : ""}`}>{s.kind === "country" && Flag ? <Flag /> : <Glyph3D icon={s.icon ?? (s.kind === "guide" ? "file-text" : s.kind === "place" ? "building" : "landmark")} size={34} />}</span>
                       <span className="sp-text"><span className="sp-title"><Highlight text={s.title} q={q} /></span>{s.sub && <span className="sp-sub">{s.sub}</span>}</span>

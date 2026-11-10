@@ -1377,3 +1377,15 @@ html:root .quick-chip.is-on .text-muted, html:root .quick-chip[aria-selected="tr
 /* index tabs: the label sits under the figure, so a long word is never cut */
 .hero-index-card .lbl { grid-column: 1 / -1; white-space: normal; overflow: visible; text-overflow: clip; }
 @media (min-width: 640px) { .nav-menu-langs { display: none; } }   /* the bar shows the languages from this width up */
+
+/* ── §58 Spotlight: the best match stands apart from the groups ───────────────────────────────────────── */
+.sp-row.is-top { padding: 10px 12px; background: color-mix(in oklab, var(--accent) 6%, var(--surface)); box-shadow: 0 0 0 1px color-mix(in oklab, var(--accent) 28%, var(--line)) inset; }
+.sp-row.is-top .sp-title { font-family: var(--font-display); font-weight: 400; font-size: 15.5px; letter-spacing: -.02em; }
+.sp-row.is-top.is-active { background: color-mix(in oklab, var(--accent) 13%, var(--surface)); }
+.sp-row.is-top .sp-enter { opacity: 1; }
+/* header spotlight: the search drops under the bar, full width, wherever the bar has no room for the field */
+.hsearch-wrap { flex: none; }
+.hsearch { position: absolute; left: 0; right: 0; top: 100%; z-index: 55; padding: 12px 0 16px; background: color-mix(in oklab, var(--bg) 96%, transparent); backdrop-filter: blur(18px) saturate(150%); -webkit-backdrop-filter: blur(18px) saturate(150%); border-bottom: 1px solid var(--line); box-shadow: 0 24px 40px -28px rgb(10 12 24 / .45); animation: cbx-in .16s var(--ease-out); }
+.hsearch .sp { max-width: 720px; margin-inline: auto; }
+.hsearch .sp-panel { max-height: min(64vh, 560px); overflow: auto; }
+@media (prefers-reduced-motion: reduce) { .hsearch { animation: none; } }

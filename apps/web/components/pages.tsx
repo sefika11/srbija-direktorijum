@@ -529,7 +529,9 @@ export async function OrgTypeHub({ locale, type, brand = null, place = null, que
   const agg = (key: (b: db.ServingRow) => [string | null, string | null], keep: (b: db.ServingRow) => boolean = () => true) => { const m = new Map<string, { slug: string; name: string; count: number }>(); for (const b of branches) { if (!keep(b)) continue; const [slug, name] = key(b); if (!slug) continue; const e = m.get(slug) ?? { slug, name: name ?? slug, count: 0 }; e.count++; m.set(slug, e); } return [...m.values()]; };
   const brands = agg((b) => [b.org_slug, b.org_name_lat], (b) => !place || b.jls_slug === place).sort((a, b) => b.count - a.count);
   const placeList = agg((b) => [b.jls_slug, b.jls_name_lat], (b) => !brand || b.org_slug === brand).sort((a, b) => a.name.localeCompare(b.name, "sr-Latn"));
-  const shownBranches = branches.filter((b) => (!brand || b.org_slug === brand) && (!place || b.jls_slug === place));
+  // a place is a city ("nis") or a city municipality ("beograd/zemun")
+  const inPlace = (b: db.ServingRow) => !place || (place.includes("/") ? b.jls_slug === place.split("/")[0] && b.tu_slug === place.split("/")[1] : b.jls_slug === place);
+  const shownBranches = branches.filter((b) => (!brand || b.org_slug === brand) && inPlace(b));
   const byOkrug = new Map<string, db.ServingRow[]>();
   for (const b of shownBranches) { const k = place ? (b.jls_name_lat ?? "—") : (b.okrug_name_lat ?? "—"); byOkrug.set(k, [...(byOkrug.get(k) ?? []), b]); }
   const okrugKeys = [...byOkrug.keys()].sort((a, b) => a.localeCompare(b, "sr-Latn"));

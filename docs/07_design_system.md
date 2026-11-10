@@ -476,3 +476,33 @@ The site went from 15,000 to 28,000 entries in a day and pages that listed "ever
   Yandex come from the env vars `GOOGLE_SITE_VERIFICATION`, `BING_SITE_VERIFICATION`, `YANDEX_VERIFICATION`.
 - Known limit: `<html lang>` is set to the page language on the client; the server HTML says `sr-Latn` with the right
   `lang` on the content wrapper.
+
+## 30. Search: type what you need (2026-11-11)
+
+- **One box, any wording.** The search answers needs, not just names: "izgubio sam pasoš", "zubar", "nema vode",
+  "прописка", "Führerschein umtauschen", "apoteka novi sad", "banka intesa čačak", "kragujeavc". It runs on Postgres
+  and plain code; there is no language model in it.
+- **Lexicon** (`lib/search-lexicon.json`, about 4,300 terms in four languages for every guide, institution type,
+  roadmap and section) maps everyday words, life events and problems to the target. `lib/search-lexicon-extra.json`
+  is the hand-kept file: add a missing word there (`t` strong terms, `w` weak hints, optional `b` preference).
+  The stored `search_synonyms` rows are still read (once, cached) and count as well.
+- **Matching** (`lib/search-lexicon.ts`): diacritics and Cyrillic fold to one form; a light stemmer handles case
+  endings; the word being typed matches as a prefix; one typo is forgiven from 5 letters and two from 9; a phrase
+  that explains more of the query scores higher; a word that names few targets decides more than one that names many.
+- **Places** are detected in Serbian case forms, in other languages' names (Belgrade, Белград, Belgrad) and with typos.
+  A word the lexicon knows is never read as a place guess ("medijator" is not Medijana). "Opština", "grad", "city"
+  next to a place belong to the place.
+- **One scale, one best match** (`suggest()` in `lib/search.ts`). Every row gets a relevance figure: a recognised
+  need about 2.3, an exact name 3 or more, a loose text match under 2. The best row leads as "Najbolji rezultat" when
+  it is a clear answer and is preselected, so Enter opens it. Groups follow in the order of their best row.
+  Rules: a guide leads over the office behind it for the same words; type + place opens the list of that type in that
+  place (`/<type>?mesto=<place>#lista`) with the count there; a brand in a place leads unless the words are only a type.
+- **Reachable everywhere.** Wide screens have the field in the bar. Elsewhere a search button in the header drops
+  the spotlight under the bar (`HeaderSearch`). `Ctrl/Cmd+K` or `/` goes to the field on screen, else opens it.
+- **The results page** (`/pretraga`) uses the same needs: best answer, roadmaps and sections under "Počnite ovde",
+  guides, types (in the place when one was named), places, institutions. With no result it offers starting points.
+- **Measuring.** `python3 tools/search/run.py <base> tools/search/cases_dev.py show` runs real queries against
+  `/api/suggest` and checks the expected answer is within the first rows. `cases_dev.py` (224) is what the engine was
+  tuned on; `cases_unseen_1.py` (122) and `cases_unseen_2.py` (52) were written afterwards. Before the rewrite the
+  first set passed 130 of 224. A miss is fixed in the engine when it is a pattern, in the extra lexicon when it is a
+  missing word. The `search_log` table records what people ran on the results page, with the result count.

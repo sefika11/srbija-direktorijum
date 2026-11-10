@@ -8,6 +8,7 @@ import * as db from "@/lib/db";
 import SearchBox from "./SearchBox";
 import ThemeToggle from "./ThemeToggle";
 import NavMenu from "./NavMenu";
+import HeaderSearch from "./HeaderSearch";
 import { ROAD_LABELS } from "@/lib/roadmaps";
 
 export function Header({ locale, path }: { locale: Locale; path: string }) {
@@ -26,9 +27,10 @@ export function Header({ locale, path }: { locale: Locale; path: string }) {
           <Link href={href(locale, "/vodici")} className="no-underline text-ink hover:text-accent hidden sm:inline-flex items-center gap-1.5">{guides}</Link>
           <Link href={href(locale, "/putokaz")} className="no-underline text-ink hover:text-accent hidden sm:inline-flex items-center gap-1.5 whitespace-nowrap">{ROAD_LABELS[locale].nav}</Link>
           <div className="hidden sm:block"><LanguageSwitch locale={locale} path={path} /></div>
+          <HeaderSearch locale={locale} label={d.search} placeholder={d.searchPlaceholder} submitLabel={d.search} always={path === "/"} />
           <ThemeToggle toLight={P("Svetla tema", "Light theme", "Светлая тема", "Helles Design")} toDark={P("Tamna tema", "Dark theme", "Тёмная тема", "Dunkles Design")} />
           <NavMenu label={P("Meni", "Menu", "Меню", "Menü")} langLabel={d.language}
-            items={[{ href: href(locale, "/pretraga"), label: d.search, from: "lg" }, { href: href(locale, "/vodici"), label: guides, from: "sm" }, { href: href(locale, "/putokaz"), label: ROAD_LABELS[locale].nav, from: "sm" }, { href: href(locale, "/za-strance"), label: d.forForeigners }, { href: href(locale, "/vize"), label: visas }]}
+            items={[{ href: href(locale, "/vodici"), label: guides, from: "sm" }, { href: href(locale, "/putokaz"), label: ROAD_LABELS[locale].nav, from: "sm" }, { href: href(locale, "/za-strance"), label: d.forForeigners }, { href: href(locale, "/vize"), label: visas }]}
             langs={LOCALES.map((l) => ({ href: href(l, path), code: l, label: LOCALE_LABEL[l], current: l === locale }))} />
         </nav>
       </div>

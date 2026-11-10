@@ -1,9 +1,10 @@
 import Link from "next/link";
+import { ROADMAPS, ROAD_LABELS } from "@/lib/roadmaps";
 import { catName } from "@/lib/guide-cats";
 import * as db from "@/lib/db";
 import { smartSearch, type Place } from "@/lib/search";
 import { inPlace } from "@/lib/grammar";
-import { href, t, type Locale, tn } from "@/lib/i18n";
+import { href, t, type Locale, tn, pick } from "@/lib/i18n";
 import { Breadcrumbs, SectionTitle } from "./ui";
 import SearchBox from "./SearchBox";
 import { Icon } from "./icons";
@@ -58,7 +59,8 @@ export async function SmartSearchPage({ locale, q }: { locale: Locale; q: string
         {!q && <p className="text-muted text-[13.5px] mt-3">{s.tip}</p>}
       </div></section>
       <div className="shell py-8 grid gap-9">
-        {r && r.total === 0 && <p className="text-muted">{d.noResults}<br /><span className="text-[13.5px]">{s.tip}</span></p>}
+        {r && r.total === 0 && <div><p className="text-muted">{d.noResults}<br /><span className="text-[13.5px]">{s.tip}</span></p>
+          <div className="mt-4 flex flex-wrap gap-2">{[["/vodici", pick(locale, "Svi vodiči", "All guides", "Все инструкции", "Alle Anleitungen")], ["/putokaz", ROAD_LABELS[locale].nav], ["/za-strance", d.forForeigners], ["/vize", pick(locale, "Vize i uslovi ulaska", "Visas and entry rules", "Визы и въезд", "Visa und Einreise")]].map(([p, l]) => <Link key={p} href={href(locale, p)} className="quick-chip">{l} →</Link>)}</div></div>}
 
         {r?.best && (
           <section className="rounded-2xl p-5 sm:p-6 border border-line bg-surface best-answer">
@@ -83,12 +85,20 @@ export async function SmartSearchPage({ locale, q }: { locale: Locale; q: string
           </section>
         )}
 
+        {r && (r.roads.length > 0 || r.sections.length > 0) && <section><SectionTitle>{pick(locale, "Počnite ovde", "Start here", "Начните отсюда", "Hier anfangen")}</SectionTitle>
+          <ul className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+            {r.roads.map((slug) => { const road = ROADMAPS.find((x) => x.slug === slug); return road ? <li key={slug} className="card card-hover p-4"><div className="eyebrow">{ROAD_LABELS[locale].nav} · {road.steps.length} {ROAD_LABELS[locale].steps}</div><Link href={href(locale, `/putokaz/${slug}`)} className="font-serif text-[17px] font-semibold no-underline text-ink hover:text-accent block mt-0.5">{road.title[locale]}</Link><p className="text-[13px] text-muted mt-1 line-clamp-2">{road.lead[locale]}</p></li> : null; })}
+            {r.sections.map((x) => <li key={x.path} className="card card-hover p-4"><Link href={href(locale, x.path)} className="font-serif text-[17px] font-semibold no-underline text-ink hover:text-accent block">{x.title}</Link><p className="text-[13px] text-muted mt-1 line-clamp-2">{x.sub}</p></li>)}
+          </ul></section>}
+
         {r && r.guides.length > 0 && <section><SectionTitle>{s.guides}</SectionTitle>
           <ul className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">{r.guides.map((g) => { const c = guideContent(g, locale).c; return (
             <li key={g.id} className="card card-hover p-4"><div className="eyebrow">{catName(g, locale)}</div><Link href={href(locale, `/vodic/${g.slug}${placeQ}`)} className="font-serif text-[17px] font-semibold no-underline text-ink hover:text-accent block mt-0.5">{c.title ?? g.name_lat}</Link><p className="text-[13px] text-muted mt-1 line-clamp-2">{c.summary ?? g.summary}</p></li>); })}</ul></section>}
 
         {r && r.types.length > 0 && <section><SectionTitle>{s.types}</SectionTitle>
-          <ul className="flex flex-wrap gap-2">{r.types.map((ty) => <li key={ty.id}><Link href={href(locale, `/${ty.slug}`)} className="quick-chip">{tn(ty, locale)}<span className="text-muted tabular ml-1.5">{ty.org_count}</span></Link></li>)}</ul></section>}
+          <ul className="flex flex-wrap gap-2">{r.types.map((ty) => { const here = r.placeParam ? r.inPlace[ty.slug] ?? 0 : 0; return <li key={ty.id}>{here > 0
+            ? <a href={`${href(locale, `/${ty.slug}`)}?mesto=${r.placeParam}#lista`} className="quick-chip">{tn(ty, locale)} · {r.place!.name_lat}<span className="text-muted tabular ml-1.5">{here}</span></a>
+            : <Link href={href(locale, `/${ty.slug}`)} className="quick-chip">{tn(ty, locale)}{!ty.national_network && <span className="text-muted tabular ml-1.5">{ty.org_count}</span>}</Link>}</li>; })}</ul></section>}
 
         {r && r.places.length > 0 && !(r.best?.kind === "place") && <section><SectionTitle>{s.places}</SectionTitle>
           <ul className="flex flex-wrap gap-2">{r.places.map((p) => <li key={p.id}><Link href={placeHref(locale, p)} className="quick-chip"><Icon.pin /> {p.name_lat}</Link></li>)}</ul></section>}
