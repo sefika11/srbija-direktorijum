@@ -31,14 +31,21 @@ let uid = 0;
 /** axis-aligned box at (x,y,z) with size (w,d,h) */
 function box(x: number, y: number, z: number, w: number, d: number, h: number, c: string, key = `b${uid++}`): Prim {
   const top: P3[] = [[x, y, z + h], [x + w, y, z + h], [x + w, y + d, z + h], [x, y + d, z + h]];
-  const left: P3[] = [[x, y + d, z], [x + w, y + d, z], [x + w, y + d, z + h], [x, y + d, z + h]];   // faces the viewer's left (−y side is back)
+  const left: P3[] = [[x, y + d, z], [x + w, y + d, z], [x + w, y + d, z + h], [x, y + d, z + h]];
   const right: P3[] = [[x + w, y, z], [x + w, y + d, z], [x + w, y + d, z + h], [x + w, y, z + h]];
+  const g = `g${key}`;
   return { depth: x + y + w / 2 + d / 2 + z / 100, el: (
     <g key={key}>
-      <polygon points={pts(left)} fill={shade(c, -4)} />
-      <polygon points={pts(right)} fill={shade(c, -16)} />
-      <polygon points={pts(top)} fill={shade(c, 14, -4)} />
-      <polyline points={pts([[x, y + d, z + h], [x + w, y + d, z + h], [x + w, y, z + h]])} fill="none" stroke="rgba(255,255,255,.55)" strokeWidth=".8" />
+      <defs>
+        <linearGradient id={`${g}t`} x1="0" y1="0" x2="1" y2="1"><stop offset="0" stopColor={shade(c, 24, -6)} /><stop offset="1" stopColor={shade(c, 8, -2)} /></linearGradient>
+        <linearGradient id={`${g}l`} x1="0" y1="0" x2="0" y2="1"><stop offset="0" stopColor={shade(c, -2)} /><stop offset="1" stopColor={shade(c, -14)} /></linearGradient>
+        <linearGradient id={`${g}r`} x1="0" y1="0" x2="0" y2="1"><stop offset="0" stopColor={shade(c, -14)} /><stop offset="1" stopColor={shade(c, -26)} /></linearGradient>
+      </defs>
+      <polygon points={pts(left)} fill={`url(#${g}l)`} />
+      <polygon points={pts(right)} fill={`url(#${g}r)`} />
+      <polygon points={pts(top)} fill={`url(#${g}t)`} />
+      <polyline points={pts([[x, y + d, z + h], [x + w, y + d, z + h], [x + w, y, z + h]])} fill="none" stroke="rgba(255,255,255,.7)" strokeWidth=".9" strokeLinejoin="round" />
+      <polyline points={pts([[x + w, y + d, z], [x + w, y + d, z + h]])} fill="none" stroke="rgba(255,255,255,.35)" strokeWidth=".7" />
     </g>) };
 }
 function cyl(x: number, y: number, z: number, r: number, h: number, c: string, key = `c${uid++}`): Prim {
@@ -73,9 +80,9 @@ function extrude(shape: [number, number][], y: number, d: number, c: string, key
     const light = dz < 0 ? 12 : dx > 0 ? -16 : -6;
     sides.push(<polygon key={`${key}-${i}`} points={pts(quad)} fill={shade(c, light)} />);
   }
-  return { depth: y + d / 2 + ox / 2 + oz / 100, el: (<g key={key}>{sides}<polygon points={pts(front)} fill={shade(c, 4, -2)} /><polygon points={pts(front)} fill="none" stroke="rgba(255,255,255,.45)" strokeWidth=".7" /></g>) };
+  return { depth: y + d / 2 + ox / 2 + oz / 100, el: (<g key={key}>{sides}<defs><linearGradient id={`gf${key}`} x1="0" y1="0" x2="1" y2="1"><stop offset="0" stopColor={shade(c, 16, -4)} /><stop offset="1" stopColor={shade(c, -2)} /></linearGradient></defs><polygon points={pts(front)} fill={`url(#gf${key})`} /><polygon points={pts(front)} fill="none" stroke="rgba(255,255,255,.55)" strokeWidth=".8" strokeLinejoin="round" /></g>) };
 }
-const floor = (c = "#15161a"): Prim => ({ depth: -99, el: <ellipse key="floor" cx="80" cy="120" rx="46" ry="14" fill={c} opacity=".10" /> });
+const floor = (c = "#15161a"): Prim => ({ depth: -99, el: <g key="floor"><ellipse cx="80" cy="122" rx="50" ry="15" fill={c} opacity=".07" /><ellipse cx="80" cy="121" rx="34" ry="9" fill={c} opacity=".10" /></g> });
 
 // ---- shapes (x, z) centred near x≈2..4
 const HEART: [number, number][] = [[3, 0], [0.6, 2.4], [0.6, 3.6], [1.5, 4.6], [3, 3.6], [4.5, 4.6], [5.4, 3.6], [5.4, 2.4]];
@@ -163,9 +170,12 @@ export default function Glyph3D({ icon, size = 64, className, title }: { icon: s
   const key = icon && SCENES[icon] ? icon : "default";
   uid = 0; // deterministic ids per render for stable SSR/CSR markup
   const prims = SCENES[key](HUES[key] ?? "#8e97b8").sort((a, b) => a.depth - b.depth);
+  const delay = `${(key.length * 137) % 1900}ms`;
   return (
-    <svg viewBox="0 0 160 160" width={size} height={size} className={`g3 ${className ?? ""}`} role={title ? "img" : undefined} aria-hidden={title ? undefined : true} aria-label={title}>
-      {prims.map((p) => p.el)}
+    <svg viewBox="0 0 160 160" width={size} height={size} className={`g3 g3-live ${className ?? ""}`} style={{ "--g3d": delay } as React.CSSProperties} role={title ? "img" : undefined} aria-hidden={title ? undefined : true} aria-label={title}>
+      <g className="g3-body">{prims.map((p) => p.el)}</g>
+      <g className="g3-sheen" aria-hidden><rect x="-60" y="0" width="40" height="160" fill="url(#g3-sheen-grad)" transform="skewX(-18)" /></g>
+      <defs><linearGradient id="g3-sheen-grad" x1="0" x2="1"><stop offset="0" stopColor="#fff" stopOpacity="0" /><stop offset=".5" stopColor="#fff" stopOpacity=".32" /><stop offset="1" stopColor="#fff" stopOpacity="0" /></linearGradient><clipPath id="g3-clip"><rect x="0" y="0" width="160" height="160" /></clipPath></defs>
     </svg>
   );
 }

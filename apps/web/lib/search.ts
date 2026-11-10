@@ -7,7 +7,7 @@ import { href, type Locale } from "./i18n";
 export type Place = { id: number; slug: string; name_lat: string; level: "jls" | "gradska_opstina" | "okrug"; parent_slug: string | null; parent_id: number | null; jls_kind: string | null; path: string };
 export type TypeHit = db.OrgType & { org_count: number; score: number };
 export type GuideHit = db.GuideRow & { score: number };
-export type Suggestion = { kind: "guide" | "type" | "place" | "org"; href: string; title: string; sub: string | null };
+export type Suggestion = { kind: "guide" | "type" | "place" | "org" | "country" | "action"; href: string; title: string; sub: string | null; icon?: string | null; phone?: string | null; iso2?: string | null; count?: number | null; tel?: string | null };
 export type Best =
   | { kind: "guide"; guide: db.GuideRow; serving: db.ServingRow[]; contacts: (db.Contact & { location_id: number })[]; hours: db.Hours[] }
   | { kind: "type"; type: TypeHit; serving: db.ServingRow[]; contacts: (db.Contact & { location_id: number })[]; hours: db.Hours[] }
@@ -167,6 +167,46 @@ export async function smartSearch(q: string, locale: Locale): Promise<SmartResul
 }
 
 /** Lightweight suggestions for the typeahead. */
+const ACTIONS: { re: RegExp; tel: string; title: Record<Locale, string> }[] = [
+  { re: /^(policij|polic|192)/, tel: "192", title: { sr: "Policija", en: "Police", ru: "Полиция", de: "Polizei" } },
+  { re: /^(vatrog|pozar|požar|193)/, tel: "193", title: { sr: "Vatrogasci", en: "Fire brigade", ru: "Пожарные", de: "Feuerwehr" } },
+  { re: /^(hitna|ambul|194)/, tel: "194", title: { sr: "Hitna pomoć", en: "Ambulance", ru: "Скорая помощь", de: "Rettungsdienst" } },
+  { re: /^(amss|pomoc na putu|1987|slep)/, tel: "1987", title: { sr: "AMSS – pomoć na putu", en: "Roadside assistance (AMSS)", ru: "Помощь на дороге (AMSS)", de: "Pannenhilfe (AMSS)" } },
+  { re: /^(struja|kvar struj|nestala struj|elektrodistrib|eps)/, tel: "0800360300", title: { sr: "Elektrodistribucija – prijava kvara", en: "Power outage line", ru: "Электросети – авария", de: "Stromausfall melden" } },
+];
+let typeIconCache: { at: number; map: Record<string, string | null> } | null = null;
+async function typeIcons(): Promise<Record<string, string | null>> {
+  if (typeIconCache && Date.now() - typeIconCache.at < 10 * 60_000) return typeIconCache.map;
+  const rows = await sql<{ slug: string; icon: string | null }[]>`select slug, icon from org_types`;
+  typeIconCache = { at: Date.now(), map: Object.fromEntries(rows.map((r) => [r.slug, r.icon])) }; return typeIconCache.map;
+}
+async function matchCountries(tokens: string[], locale: Locale, limit: number): Promise<{ iso2: string; slug: string; name: string; to: string | null; from: string | null }[]> {
+  const toks = tokens.filter((t) => t.length >= 3); if (!toks.length) return [];
+  const rows = await sql<{ iso2: string; slug: string; name_sr: string; name_en: string; to_rs_regime: string | null; from_rs_regime: string | null }[]>`
+    select iso2, slug, name_sr, name_en, to_rs_regime, from_rs_regime from countries
+    where exists (select 1 from unnest(${toks}::text[]) t where f_unaccent(lower(name_sr)) like t || '%' or f_unaccent(lower(name_en)) like t || '%' or f_unaccent(lower(name_sr)) like '% ' || t || '%')
+    order by name_sr limit ${limit}`;
+  return rows.map((r) => ({ iso2: r.iso2, slug: r.slug, name: locale === "sr" ? r.name_sr : r.name_en, to: r.to_rs_regime, from: r.from_rs_regime }));
+}
+type BranchHit = { org_slug: string; org_name: string; type_slug: string; icon: string | null; location_slug: string; unit_name: string; address: string | null; phone: string | null };
+/** Branches (locations) of the matched institution types inside a place: the answer to "banka Niš", "pošta Čačak", "ambulanta Zemun". */
+async function matchBranches(typeSlugs: string[], placePath: string | null, limit: number): Promise<BranchHit[]> {
+  if (!typeSlugs.length || !placePath) return [];
+  return sql<BranchHit[]>`
+    select o.slug as org_slug, o.name_lat as org_name, t.slug as type_slug, t.icon, l.slug as location_slug, l.unit_name_lat as unit_name, l.address_display as address,
+           (select value_display from location_contacts c where c.location_id = l.id and c.kind = 'phone' order by c.id limit 1) as phone
+    from locations l join organizations o on o.id = l.org_id join org_types t on t.id = o.org_type_id join territorial_units tu on tu.id = l.territorial_unit_id
+    where l.status = 'active' and o.status = 'active' and t.slug = any(${typeSlugs}::text[]) and tu.path <@ ${placePath}::ltree
+    order by (select count(*) from location_contacts c where c.location_id = l.id) desc, o.name_lat, l.unit_name_lat limit ${limit}`;
+}
+async function orgPhones(slugs: string[]): Promise<Record<string, string>> {
+  if (!slugs.length) return {};
+  const rows = await sql<{ slug: string; phone: string }[]>`select o.slug, c.value_display as phone from organizations o
+    join lateral (select lc.value_display from locations l join location_contacts lc on lc.location_id = l.id where l.org_id = o.id and lc.kind = 'phone' order by l.is_primary desc, lc.id limit 1) c on true
+    where o.slug = any(${slugs}::text[])`;
+  return Object.fromEntries(rows.map((r) => [r.slug, r.phone]));
+}
+
 export async function suggest(q: string, locale: Locale): Promise<Suggestion[]> {
   const tokens = tokenize(q);
   if (!tokens.length) return [];
@@ -174,15 +214,24 @@ export async function suggest(q: string, locale: Locale): Promise<Suggestion[]> 
   const intentTokens = det ? tokens.filter((_, i) => !det.used.has(i)) : tokens;
   const intent = intentTokens.join(" ");
   const syn = await synonyms(intentTokens);
-  const [guides, types, places, orgs] = await Promise.all([
-    matchGuides(intent, intentTokens, syn, 3), matchTypes(intent, intentTokens, syn, 3),
-    det ? Promise.resolve([det.place]) : placesLike(tokens, 3), intent ? matchOrgs(intent, det?.place.path ?? null, 4) : Promise.resolve([]),
+  const [guides, types, places, orgs, countries, icons] = await Promise.all([
+    matchGuides(intent, intentTokens, syn, 3), matchTypes(intent, intentTokens, syn, 4),
+    det ? Promise.resolve([det.place]) : placesLike(tokens, 3), intent ? matchOrgs(intent, det?.place.path ?? null, 6) : Promise.resolve([]),
+    matchCountries(tokens, locale, 3).catch(() => []), typeIcons(),
   ]);
+  const branchTypes = [...new Set([...types.map((t) => t.slug), ...syn.filter((x) => x.kind === "type").map((x) => x.slug)])].slice(0, 4);
+  const [phones, branches] = await Promise.all([orgPhones(orgs.map((o) => o.slug)).catch(() => ({} as Record<string, string>)), matchBranches(branchTypes, det?.place.path ?? null, 6).catch(() => [] as BranchHit[])]);
   const out: Suggestion[] = [];
+  const folded = fold(cyrToLat(q));
+  for (const a of ACTIONS) if (a.re.test(folded)) out.push({ kind: "action", href: `tel:${a.tel}`, title: a.title[locale], sub: a.tel.replace(/^0800/, "0800 "), tel: a.tel, icon: a.tel === "192" ? "shield" : a.tel === "193" ? "flame" : a.tel === "194" ? "heart-pulse" : a.tel === "1987" ? "car" : "zap" });
   const placeQ = det ? `?opstina=${det.place.level === "gradska_opstina" ? det.place.parent_slug : det.place.slug}` : "";
-  for (const g of guides) { const c = g.guide[locale] ?? g.guide.en ?? g.guide.sr ?? {}; out.push({ kind: "guide", href: href(locale, `/vodic/${g.slug}${det && det.place.level !== "okrug" ? placeQ : ""}`), title: c.title ?? g.name_lat, sub: det ? det.place.name_lat : g.category_name }); }
-  for (const t of types) out.push({ kind: "type", href: href(locale, `/${t.slug}`), title: t.name_plural_lat ?? t.name_lat, sub: `${t.org_count}` });
-  for (const p of places) out.push({ kind: "place", href: href(locale, p.level === "okrug" ? `/okrug/${p.slug}` : p.level === "gradska_opstina" ? `/${p.parent_slug}/${p.slug}` : `/${p.slug}`), title: p.name_lat, sub: p.level === "okrug" ? "okrug" : p.level === "gradska_opstina" ? "gradska opština" : p.jls_kind === "grad" ? "grad" : "opština" });
-  for (const o of orgs) out.push({ kind: "org", href: href(locale, `/${o.type_slug}/${o.slug}`), title: o.name_lat, sub: o.sub });
-  return out.slice(0, 8);
+  for (const g of guides) { const c = g.guide[locale] ?? g.guide.en ?? g.guide.sr ?? {}; out.push({ kind: "guide", href: href(locale, `/vodic/${g.slug}${det && det.place.level !== "okrug" ? placeQ : ""}`), title: c.title ?? g.name_lat, sub: det ? det.place.name_lat : g.category_name, icon: "file-text" }); }
+  for (const t of types) out.push({ kind: "type", href: href(locale, det && det.place.level !== "okrug" ? `/${det.place.level === "gradska_opstina" ? det.place.parent_slug : det.place.slug}#${t.group}` : `/${t.slug}`), title: t.name_plural_lat ?? t.name_lat, sub: det ? det.place.name_lat : null, icon: t.icon, count: t.org_count });
+  for (const p of places) out.push({ kind: "place", href: href(locale, p.level === "okrug" ? `/okrug/${p.slug}` : p.level === "gradska_opstina" ? `/${p.parent_slug}/${p.slug}` : `/${p.slug}`), title: p.name_lat, sub: p.level === "okrug" ? "okrug" : p.level === "gradska_opstina" ? "gradska opština" : p.jls_kind === "grad" ? "grad" : "opština", icon: p.level === "okrug" ? "map" : "building" });
+  const seen = new Set<string>();
+  const seenBranch = new Set<string>();
+  for (const b of branches) { const generic = /^(ekspozitura|poslovnica|filijala|ispostava|sediste|sedište|ambulanta|pošta|posta)$/i.test(b.unit_name.trim()); const key = `${b.org_name}|${b.address ?? ""}|${generic ? "" : b.unit_name}`; if (seenBranch.has(key)) continue; seenBranch.add(key); const h = `/${b.type_slug}/${b.org_slug}/${b.location_slug}`; seen.add(h); out.push({ kind: "org", href: href(locale, h), title: generic || b.unit_name.toLowerCase().includes(b.org_name.toLowerCase()) ? b.org_name : `${b.org_name} · ${b.unit_name}`, sub: [b.address, det?.place.name_lat].filter(Boolean).join(", ") || (generic ? `${b.unit_name} · ${det?.place.name_lat ?? ""}` : null), icon: b.icon, phone: b.phone }); }
+  for (const o of orgs) { const h = `/${o.type_slug}/${o.slug}`; if (seen.has(h)) continue; seen.add(h); out.push({ kind: "org", href: href(locale, h), title: o.name_lat, sub: o.sub, icon: o.type_slug ? icons[o.type_slug] ?? null : null, phone: phones[o.slug] ?? null }); }
+  for (const c of countries) out.push({ kind: "country", href: href(locale, `/vize/${c.slug}`), title: c.name, sub: [c.to ? `→ RS: ${c.to}` : null, c.from ? `RS →: ${c.from}` : null].filter(Boolean).join(" · ") || null, iso2: c.iso2 });
+  return out.slice(0, 18);
 }

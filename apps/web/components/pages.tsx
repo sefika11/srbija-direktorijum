@@ -14,7 +14,7 @@ import HeroFX from "./HeroFX";
 import Opener from "./Opener";
 import { Icon, GROUP_ICON } from "./icons";
 import Glyph3D from "./Glyph3D";
-import { Passport } from "./visa";
+import { Passport } from "./Passport";
 const GROUP_GLYPH: Record<string, string> = { lokalna_samouprava: "building", republicki_organi: "landmark", javne_ustanove: "hospital", javna_preduzeca: "zap", pravosudje_i_javna_ovlascenja: "scale", privatne_usluge: "briefcase" };
 import { LeadForm, CorrectionBlock, ClaimBlock } from "./forms";
 import { GUIDE } from "@/lib/guide";
@@ -71,10 +71,10 @@ export async function Home({ locale }: { locale: Locale }) {
   const mapLabels = MAP_LABELS[locale];
   const byGroup = GROUPS.map((g) => ({ g, types: types.filter((x) => x.group === g && x.org_count > 0) }));
   const QUICK: Record<Locale, { q: string; label: string }[]> = {
-    sr: [{ q: "/vodic/licna-karta", label: "Lična karta" }, { q: "/vodic/pasos", label: "Pasoš" }, { q: "/vodic/vozacka-dozvola", label: "Vozačka dozvola" }, { q: "/vodic/zdravstvena-knjizica", label: "Zdravstvena kartica" }, { q: "/vodic/privremeni-boravak-stranci", label: "Boravak za strance" }, { q: "/pretraga?q=katastar", label: "Katastar" }],
-    en: [{ q: "/vodic/licna-karta", label: "ID card" }, { q: "/vodic/pasos", label: "Passport" }, { q: "/vodic/vozacka-dozvola", label: "Driving licence" }, { q: "/vodic/zdravstvena-knjizica", label: "Health insurance" }, { q: "/vodic/privremeni-boravak-stranci", label: "Residence permit" }, { q: "/pretraga?q=katastar", label: "Cadastre" }],
-    ru: [{ q: "/vodic/licna-karta", label: "Личная карта" }, { q: "/vodic/pasos", label: "Паспорт" }, { q: "/vodic/vozacka-dozvola", label: "Водительские права" }, { q: "/vodic/zdravstvena-knjizica", label: "Мед. страхование" }, { q: "/vodic/privremeni-boravak-stranci", label: "ВНЖ" }, { q: "/pretraga?q=katastar", label: "Кадастр" }],
-    de: [{ q: "/vodic/licna-karta", label: "Personalausweis" }, { q: "/vodic/pasos", label: "Reisepass" }, { q: "/vodic/vozacka-dozvola", label: "Führerschein" }, { q: "/vodic/zdravstvena-knjizica", label: "Krankenversicherung" }, { q: "/vodic/privremeni-boravak-stranci", label: "Aufenthaltstitel" }, { q: "/pretraga?q=katastar", label: "Kataster" }],
+    sr: [{ q: "/vodic/licna-karta", label: "Lična karta" }, { q: "/vodic/pasos", label: "Pasoš" }, { q: "/vodic/vozacka-dozvola", label: "Vozačka dozvola" }, { q: "/vodic/zdravstvena-knjizica", label: "Zdravstvena kartica" }, { q: "/vodic/privremeni-boravak-stranci", label: "Boravak za strance" }, { q: "/vize", label: "Vize i ulazak" }],
+    en: [{ q: "/vodic/licna-karta", label: "ID card" }, { q: "/vodic/pasos", label: "Passport" }, { q: "/vodic/vozacka-dozvola", label: "Driving licence" }, { q: "/vodic/zdravstvena-knjizica", label: "Health insurance" }, { q: "/vodic/privremeni-boravak-stranci", label: "Residence permit" }, { q: "/vize", label: "Visas and entry" }],
+    ru: [{ q: "/vodic/licna-karta", label: "Личная карта" }, { q: "/vodic/pasos", label: "Паспорт" }, { q: "/vodic/vozacka-dozvola", label: "Водительские права" }, { q: "/vodic/zdravstvena-knjizica", label: "Мед. страхование" }, { q: "/vodic/privremeni-boravak-stranci", label: "ВНЖ" }, { q: "/vize", label: "Визы и въезд" }],
+    de: [{ q: "/vodic/licna-karta", label: "Personalausweis" }, { q: "/vodic/pasos", label: "Reisepass" }, { q: "/vodic/vozacka-dozvola", label: "Führerschein" }, { q: "/vodic/zdravstvena-knjizica", label: "Krankenversicherung" }, { q: "/vodic/privremeni-boravak-stranci", label: "Aufenthaltstitel" }, { q: "/vize", label: "Visa und Einreise" }],
   };
   const guidesTitle = locale === "sr" ? "Kako se šta rešava" : locale === "en" ? "How things get done" : locale === "ru" ? "Как всё оформить" : "So geht es";
   const guidesLead = locale === "sr" ? "Dokumenta, takse, rokovi i tačno mesto gde idete u vašoj opštini." : locale === "en" ? "Documents, fees, deadlines and the exact office in your municipality." : locale === "ru" ? "Документы, пошлины, сроки и точное место в вашей общине." : "Unterlagen, Gebühren, Fristen und die genaue Stelle in Ihrer Gemeinde.";
@@ -100,7 +100,7 @@ export async function Home({ locale }: { locale: Locale }) {
         <div className="shell pt-10 pb-14 sm:pt-14 sm:pb-20 grid gap-10 lg:grid-cols-[minmax(0,.9fr)_minmax(0,1.25fr)] items-center">
           <div data-reveal>
             <div className="eyebrow mb-5">Republika Srbija · {d.siteName}</div>
-            <h1 className="display text-[40px] sm:text-[56px] xl:text-[64px] max-w-[14ch]" aria-label={`${d.tagline.split(":")[0]}.`}>{`${d.tagline.split(":")[0]}.`.split(" ").map((w, i, arr) => <Fragment key={i}><span className="w" aria-hidden><span className="i" style={{ "--i": i } as React.CSSProperties}>{w}</span></span>{i < arr.length - 1 ? " " : ""}</Fragment>)}</h1>
+            <h1 className="display text-[30px] sm:text-[40px] xl:text-[46px] max-w-[16ch]" aria-label={`${d.tagline.split(":")[0]}.`}>{`${d.tagline.split(":")[0]}.`.split(" ").map((w, i, arr) => <Fragment key={i}><span className="w" aria-hidden><span className="i" style={{ "--i": i } as React.CSSProperties}>{w}</span></span>{i < arr.length - 1 ? " " : ""}</Fragment>)}</h1>
             <p className="lede text-muted mt-5 max-w-[48ch]">{d.tagline.includes(":") ? d.tagline.split(":")[1].trim().replace(/^./, (c) => c.toUpperCase()) : ""}</p>
             <div className="mt-8"><SearchBox locale={locale} large placeholder={d.searchPlaceholder} submitLabel={d.search} /></div>
             <div className="mt-4 flex flex-wrap items-center gap-2 text-[13px]">
@@ -185,6 +185,7 @@ export async function Home({ locale }: { locale: Locale }) {
         <div className="eyebrow mb-3">04 · {d.forForeigners}</div>
         <h2 className="display-sm max-w-[20ch]">{T.langsTitle}</h2>
         <p className="lede mt-3 max-w-[52ch]">{T.langsLead}</p>
+        <p className="mt-4"><Link href={href(locale, "/vize")} className="btn-primary">{locale === "sr" ? "Vize i uslovi ulaska za 194 države" : locale === "en" ? "Visas and entry rules for 194 countries" : locale === "ru" ? "Визы и въезд: 194 страны" : "Visa und Einreise: 194 Länder"} →</Link></p>
         <div className="lang-tiles mt-8">
           {LANGS.map((x) => <Link key={x.l} href={href(x.l, "/za-strance")} hrefLang={x.l} className="lang-tile spot"><span className="big">{x.name}</span><span className="text-muted text-[13px]">{x.sub}</span></Link>)}
         </div>

@@ -59,8 +59,8 @@ export async function SmartSearchPage({ locale, q }: { locale: Locale; q: string
         {r && r.total === 0 && <p className="text-muted">{d.noResults}<br /><span className="text-[13.5px]">{s.tip}</span></p>}
 
         {r?.best && (
-          <section className="rounded-2xl p-5 sm:p-6 border border-accent/30" style={{ background: "var(--accent-soft)" }}>
-            <div className="eyebrow text-accent-ink">{s.bestFor}{r.place ? ` · ${r.place.name_lat}` : ""}</div>
+          <section className="rounded-2xl p-5 sm:p-6 border border-line bg-surface best-answer">
+            <div className="eyebrow">{s.bestFor}{r.place ? ` · ${r.place.name_lat}` : ""}</div>
             {r.best.kind === "guide" && (() => { const g = r.best.guide; const c = guideContent(g, locale).c; return (
               <>
                 <Link href={href(locale, `/vodic/${g.slug}${placeQ}`)} className="font-serif text-[24px] font-semibold leading-tight no-underline text-ink hover:text-accent block mt-1">{c.title ?? g.name_lat}</Link>

@@ -1,36 +1,10 @@
 import Link from "next/link";
-import * as Flags from "country-flag-icons/react/3x2";
 import type { Locale } from "@/lib/i18n";
 import { t, href } from "@/lib/i18n";
 import * as db from "@/lib/db";
 import { Breadcrumbs } from "./ui";
-
-type FlagComp = (props: React.SVGProps<SVGSVGElement> & { title?: string }) => React.JSX.Element;
-const flagOf = (iso2: string): FlagComp | null => ((Flags as unknown as Record<string, FlagComp>)[iso2.toUpperCase()] ?? null);
-
-/** Passport cover colours: EU burgundy, the Americas/Anglosphere navy, OIC-style green where that is the issued colour, black for a few; default dark blue. */
-const EU = new Set("AT BE BG HR CY CZ DK EE FI FR DE GR HU IE IT LV LT LU MT NL PL PT RO SK SI ES SE".split(" "));
-const GREEN = new Set("SA MA PK NG BD ID MY SN TN DZ EG MR IR AF NE BF ML TG".split(" "));
-const RED = new Set("CH TR CN RU AL MK ME BA JP KR SG MX PE CL".split(" "));
-const BLACK = new Set("NZ AO TD ZM MW".split(" "));
-function coverColour(iso2: string) {
-  if (EU.has(iso2)) return "#6b1f2b"; if (GREEN.has(iso2)) return "#1f5a3a"; if (RED.has(iso2)) return "#8a1f26"; if (BLACK.has(iso2)) return "#1a1a1f"; return "#1f2a5b";
-}
-
-/** A passport booklet drawn as layered SVG: cover with flag plate, page stack, spine shadow. Server-rendered. */
-export function Passport({ iso2, name, size = 180, label = "PASOŠ" }: { iso2: string; name: string; size?: number; label?: string }) {
-  const Flag = flagOf(iso2); const c = coverColour(iso2);
-  return (
-    <div className="passport" style={{ width: size, height: size * 1.32 }} aria-hidden>
-      <div className="passport-pages" />
-      <div className="passport-cover" style={{ background: `linear-gradient(135deg, ${c} 0%, color-mix(in oklab, ${c} 70%, black) 100%)` }}>
-        <div className="passport-emblem">{Flag ? <Flag title={name} /> : <span className="passport-iso">{iso2}</span>}</div>
-        <div className="passport-text"><span>{name.toUpperCase()}</span><b>{label}</b></div>
-      </div>
-      <div className="passport-sheen" />
-    </div>
-  );
-}
+import PassportGlobe from "./PassportGlobe";
+import { Passport, flagOf } from "./Passport";
 
 const VL: Record<Locale, Record<string, string>> = {
   sr: { countries: "država", title: "Vize i uslovi ulaska", lead: "Za svaku državu: da li njeni građani ulaze u Srbiju bez vize, i šta treba građanima Srbije za put tamo. Izvor: Ministarstvo spoljnih poslova.", toRs: "Ulazak u Srbiju", fromRs: "Putovanje iz Srbije", free: "Bez vize", visa: "Viza potrebna", eviza: "eViza", eta: "Elektronska dozvola (eTA)", unknown: "Nije objavljeno", stay: "Boravak", conditions: "Uslovi", passport: "Pasoš", requirements: "Šta treba poneti", official: "Zvanično uputstvo (MSP)", missions: "Predstavništva u Srbiji", rsMission: "Predstavništvo Srbije", none: "Nema predstavništva u Srbiji; nadležna je ambasada u drugoj državi.", all: "Sve države", groupFree: "Bez vize za ulazak u Srbiju", groupVisa: "Viza za ulazak u Srbiju", search: "Nađite državu", updated: "Podaci MSP od", open: "Otvori", guide: "Vodič: boravak za strance" },
@@ -129,7 +103,7 @@ export async function CountryPage({ locale, country }: { locale: Locale; country
           </section>
         </div>
         <aside className="grid gap-5 lg:sticky lg:top-20">
-          <div className="card p-5 flex justify-center bg-surface-2"><Passport iso2={c.iso2} name={name} size={200} label={locale === "sr" ? "PASOŠ" : locale === "en" ? "PASSPORT" : locale === "ru" ? "ПАСПОРТ" : "REISEPASS"} /></div>
+          <div className="card p-5 bg-surface-2"><PassportGlobe iso2={c.iso2} name={name} size={200} label={locale === "sr" ? "PASOŠ" : locale === "en" ? "PASSPORT" : locale === "ru" ? "ПАСПОРТ" : "REISEPASS"} homeLabel="Srbija" open={locale === "sr" ? "Otvori pasoš · globus" : locale === "en" ? "Open the passport · globe" : locale === "ru" ? "Открыть паспорт · глобус" : "Pass öffnen · Globus"} close={locale === "sr" ? "Zatvori globus" : locale === "en" ? "Close the globe" : locale === "ru" ? "Закрыть глобус" : "Globus schließen"} /></div>
           <div className="card p-4 text-[13px] text-muted">{c.source_fetched_at ? `${L.updated} ${c.source_fetched_at}. ` : ""}{locale === "sr" ? "Pravila se menjaju; pre puta proverite zvanično uputstvo." : locale === "en" ? "Rules change; check the official instructions before travelling." : locale === "ru" ? "Правила меняются; перед поездкой сверьтесь с официальной инструкцией." : "Regeln ändern sich; prüfen Sie vor der Reise die amtliche Anleitung."}</div>
         </aside>
       </div>

@@ -15,7 +15,7 @@ export function Header({ locale, path }: { locale: Locale; path: string }) {
         <Link href={href(locale, "/")} className="no-underline text-ink flex items-center gap-2.5 shrink-0">
           <span aria-hidden className="brand-mark">G</span>
           <span className="leading-tight">
-            <span className="block font-serif font-semibold text-[17px]">{d.siteName}</span>
+            <span className="block font-display text-[15px] tracking-[-0.03em]">{d.siteName}</span>
             <span className="hidden md:block font-mono text-[10.5px] text-muted tracking-[.12em] uppercase">{locale === "sr" ? "Sve institucije Srbije" : locale === "en" ? "Every institution in Serbia" : locale === "ru" ? "Все учреждения Сербии" : "Alle Einrichtungen Serbiens"}</span>
           </span>
         </Link>
@@ -23,6 +23,7 @@ export function Header({ locale, path }: { locale: Locale; path: string }) {
         <nav className="flex items-center gap-3 text-[13.5px] ml-auto">
           <Link href={href(locale, "/vodici")} className="no-underline text-ink hover:text-accent hidden sm:inline-flex items-center gap-1.5">{locale === "sr" ? "Vodiči" : locale === "en" ? "Guides" : locale === "ru" ? "Инструкции" : "Anleitungen"}</Link>
           <Link href={href(locale, "/za-strance")} className="no-underline text-ink hover:text-accent hidden md:inline-flex items-center gap-1.5 whitespace-nowrap"><Icon.globe />{d.forForeigners}</Link>
+          <Link href={href(locale, "/vize")} className="no-underline text-ink hover:text-accent hidden sm:inline-flex items-center gap-1.5 whitespace-nowrap">{locale === "sr" ? "Vize" : locale === "en" ? "Visas" : locale === "ru" ? "Визы" : "Visa"}</Link>
           <LanguageSwitch locale={locale} path={path} />
         </nav>
       </div>
@@ -43,7 +44,7 @@ export async function Footer({ locale }: { locale: Locale }) {
       <div className="tricolor-thin" aria-hidden />
       <div className="shell py-12 grid gap-10 md:grid-cols-2 lg:grid-cols-[1.3fr_1fr_1fr_1fr]">
         <div>
-          <div className="flex items-center gap-2.5"><span aria-hidden className="brand-mark">G</span><span className="font-serif font-semibold text-[18px]">{d.siteName}</span></div>
+          <div className="flex items-center gap-2.5"><span aria-hidden className="brand-mark">G</span><span className="font-display text-[16px] tracking-[-0.03em]">{d.siteName}</span></div>
           <p className="mt-3 max-w-sm leading-relaxed">{d.tagline}</p>
           <p className="mt-3 footer-note text-[13px] leading-relaxed">{L.note}</p>
         </div>

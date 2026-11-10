@@ -14,7 +14,7 @@ import { MAP_W, MAP_H, MAP_VIEWBOX } from "@/lib/serbia-map";
 export type BBox = [number, number, number, number];
 export type Feature3D = { key: string; d: string; cx: number; cy: number; bbox: BBox; name: string; sub?: string; label?: string; count: number; href: string; stats: { v: string; l: string }[] };
 export type Context3D = { key: string; d: string };
-export type Labels3D = { open: string; stage: string };
+export type Labels3D = { open: string; stage: string; hint?: string };
 
 const SCALE = 1 / 10;                 // 600×787 viewBox units → 60×78.7 world units
 const CX = MAP_W / 2, CY = MAP_H / 2;
@@ -255,13 +255,17 @@ export default function SerbiaMap3D({ features, context = [], fit, labels, onUna
       </svg>
       <canvas ref={canvasRef} className="absolute inset-0 w-full h-full block" aria-label={labels.stage} role="img" />
       <div ref={labelsRef} className="absolute inset-0 pointer-events-none" aria-hidden />
-      <div className={`m3-tip ${f ? "is-on" : ""}`} aria-live="polite">
-        {f && (<>
-          {f.sub && <div className="eyebrow plain">{f.sub}</div>}
-          <div className="font-serif text-[20px] font-semibold leading-tight mt-1">{f.name}</div>
-          <div className="mt-2 grid grid-cols-2 gap-3 text-[12.5px]">{f.stats.map((s) => <div key={s.l}><div className="m3-num">{s.v}</div><div className="text-muted">{s.l}</div></div>)}</div>
-          <div className="mt-2 text-[12.5px] font-medium">{labels.open} →</div>
-        </>)}
+      <div className={`m3-dock ${f ? "is-on" : ""}`} aria-live="polite">
+        {f ? (<>
+          <div className="m3-dock-main">
+            {f.sub && <div className="eyebrow plain">{f.sub}</div>}
+            <div className="m3-dock-title">{f.name}</div>
+          </div>
+          <div className="m3-dock-stats">{f.stats.map((s) => <div key={s.l}><div className="m3-num">{s.v}</div><div className="m3-dock-lbl">{s.l}</div></div>)}</div>
+          <div className="m3-dock-cta">{labels.open} →</div>
+        </>) : (
+          <div className="m3-dock-hint">{labels.hint}</div>
+        )}
       </div>
     </div>
   );

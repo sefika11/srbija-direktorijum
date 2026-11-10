@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 // Fonts are self-hosted via Fontsource so builds never depend on Google Fonts.
-// Display: Bona Nova (serif, Latin-ext + Cyrillic). Text: Commissioner (variable). Labels/codes: JetBrains Mono (variable).
+// Display: Unbounded (wide geometric, variable, Latin-ext + Cyrillic). Serif accents: Bona Nova. Text: Commissioner. Labels/codes: JetBrains Mono.
+import "@fontsource-variable/unbounded";
 import "@fontsource/bona-nova/400.css";
 import "@fontsource/bona-nova/400-italic.css";
-import "@fontsource/bona-nova/700.css";
 import "@fontsource-variable/commissioner";
 import "@fontsource-variable/jetbrains-mono";
 import "./globals.css";

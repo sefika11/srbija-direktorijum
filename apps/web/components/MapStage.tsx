@@ -60,8 +60,7 @@ export default function MapStage({ features, context = [], fit, locale, labels, 
     <div className="relative">
       {mode === "3d" ? (
         <>
-          <SerbiaMap3D features={features} context={context} fit={fit} labels={labels} className={cls} onUnavailable={() => setMode("2d")} />
-          {hint && <div className="absolute left-3 bottom-3 hidden sm:block pointer-events-none"><div className="map-chip text-[11.5px] text-muted">{hint}</div></div>}
+          <SerbiaMap3D features={features} context={context} fit={fit} labels={{ ...labels, hint: hint ?? labels.hint }} className={cls} onUnavailable={() => setMode("2d")} />
         </>
       ) : twoD}
       <div className="absolute right-3 bottom-3 z-20 flex gap-1 m3-toggle" role="tablist" aria-label="Map mode">
