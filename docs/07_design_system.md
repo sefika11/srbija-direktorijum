@@ -319,9 +319,13 @@ order, text size, layout shift, console), then hands-on keyboard and tap flows.
   Footer: 62 px lockup. `app/icon.svg` and `favicon.ico` are the same pin on a dark tile.
 - **Header is 64 px** (69 with the ribbon). Sticky offsets under it use 69 px. While the opener plays, `main` sits above
   the header (`html.has-opener body > main`), so nothing shows over the curtain.
-- **Footer is its own material**: dark desk felt with guilloche lines, the tricolour hairline as its top edge, brand
-  lockup and tagline first, then four link columns (guides, site, legal + language, sources) and a base line. It keeps
-  the same dark surface in light mode. It fades in once when it first comes into view; nothing moves.
+- **Footer is its own material, in the same heritage language as the page**: dark felt carrying the page's diamond
+  lattice with the cross and four firesteels (ocila) in every diamond; a woven kilim band of stepped diamonds (red,
+  cream, blue) as its top edge; a large embossed cross with firesteels cropped into the bottom-right corner, never
+  under text. No generic patterns (waves, dots, stripes) anywhere: a texture is a Serbian motif or a material (paper,
+  linen, leather). Firesteels turn their backs to the cross and open outward, as in the arms (the far background
+  layer was drawn the other way round and is corrected). Brand lockup and tagline first, then four link columns and a
+  base line. Same dark surface in light mode. It fades in once when it first comes into view; nothing moves.
 - **Flow instead of scroll effects.** On client-side navigation the page's sections glide in once (`main.page-in`,
   0.6 s, layout effect so nothing flashes; the class is removed by a timer so a frozen tab can never keep content
   hidden). The first server-rendered paint is left alone. `[data-reveal]` elements in the first viewport arrive in one
