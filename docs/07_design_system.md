@@ -193,3 +193,49 @@ Reusable classes in `globals.css` §35, used across home, hubs, guides and insti
 - `.disc` 3D numbered disc (guide steps); `.slip` document slip with a red-to-blue rule (checklists);
 - `.fold` page-corner fold (guide index cards); `.deskframe` / map and globe stages framed like a desk pad with a tricolour ring;
 - `.section-title` carries a red/blue pip. Use these before inventing a new surface.
+
+## 17. Stage language — live emblem stages and journey boards (2026-11-10, evening)
+
+The passport booklets and the visa globe set the bar: every section now opens with a stage, not a picture. One look for all
+of them (`lib/stage-kit.ts`): orthographic camera at elevation 32° / azimuth 38°, hemisphere + warm sun with soft shadows +
+cool fill, matte materials in the type hue, a rounded paper slab that receives the shadow, frame fitted like the poster PNG.
+Scenes are the declarative DSL that also renders the PNGs; it now lives in `apps/web/lib/emblems/` (`dsl.mjs`,
+`buildings.mjs`, `objects.mjs`, `scenes.mjs`, typed by the `.d.mts` files) and `tools/emblems/render.html` imports it from
+there, so a poster and its live stage can never drift apart.
+
+- **`EmblemStage`** (`components/EmblemStage.tsx`, engine `lib/emblem-stage.ts`): the poster PNG is server-rendered and
+  always present; on ≥768 px with WebGL the engine loads on demand and cross-fades a live turntable of the same scene over
+  it (same slab, lights and frame). Slow sway (±11°, 24 s), pointer parallax, drag with inertia like the globe; paused
+  off-screen and in hidden tabs; static under reduced motion (drag still works). Under 768 px or without WebGL the poster is
+  all there is. Used on type hubs (`.estage-hero`, 4:3 desk-framed), institution pages, district and municipality hubs
+  (`.estage-org`, 150 px beside the title; town hall for the hubs).
+- **`JourneyBoard`** (`components/JourneyBoard.tsx`, engine `lib/journey-stage.ts`): the procedure as a board. Station 0 is
+  the responsible building (scaled to the frame) with the chosen seat pinned in red; the path is a paper ribbon to the next
+  stations: documents fan out as paper slips, fees are a counter with an open ledger and coins, steps are numbered discs
+  (one row to four, two staggered rows to eight), duration is a clock on a post, FAQ a question mark; the visa variant adds
+  a stamp (apply) and a file slip (notes). The camera eases from station to station as the page scrolls — progress is read
+  from the sections' positions (`id`s `gde ko dokumenta takse koraci trajanje faq`, `v-*` on country pages); nothing
+  scroll-jacks. Labels are DOM pills projected from the scene; the active one is outlined red and a red halo pulses under
+  the active station; the glass dock at the bottom shows `0k/0n · station · Listajte ↓`. The board is sticky in the right
+  column on ≥1024 px (`.jstage-col`); under 1024 px it comes first in the DOM; under 768 px or without WebGL it is a flat
+  layered SVG board with the same stations, and the active station still follows the scroll.
+- **Country pages**: `VisaCountryStage` — the passport opens on its own (cover swings −64° on the spine) and the shared
+  globe sits behind it with the Serbia → country arc; the globe mounts only on ≥640 px. Instruction steps carry station
+  ids so the journey board follows them in the right column; visa-free countries get no board.
+- **Hubs**: vital block columns are plinth tiles (top-aligned), group sections flip in, district cards wing in.
+
+**How to add a station.** Give the section an `id`, push `{ id, kind, label, n? }` into the page's `stations` array in
+the order the sections appear, and if it is a new `kind`, add a prop builder in `lib/journey-stage.ts` (a small group
+built with the DSL, 2–4 units wide, standing on y = 0) plus its label height in the `switch`. Reuse an `OBJECTS` scene
+scaled 0.4 before drawing something new.
+
+**Budget and measurements (2026-11-10).** Engines are dynamic chunks (emblem 1.6 kB gz, journey 3.4 kB gz, scenes 22.4 kB
+gz). First rendered frame measured on the dev build at 1440 px: 52 ms for a type-hub emblem (court), 60–65 ms for a guide
+board (police building + 7 stations). One renderer per stage; pixel ratio capped at 2; shadow map 1024 (emblem) / 2048
+(board). The globe engine loads on demand too (`VisaStage`, `Globe3D`): three.js (166.6 kB gz, grown from 125.9 kB by the
+extrude/shadow/tube code the stages use) is now a lazy chunk fetched only when a stage or globe mounts on ≥768 px, so the
+first-load JavaScript of every `/[...path]` page fell from 337.4 kB to 208.6 kB gzipped (Next's own figure: 346 → 214 kB).
+Measure again with `next build` in a scratch copy and `app-build-manifest.json`; never build inside `apps/web` while a
+dev server runs there. Known limits: the country stage holds its opening until the globe has painted (4 s fallback);
+step-disc numerals are canvas textures and inherit the page font only if Unbounded is loaded; the board frame is fitted to
+the building, so a very wide prop (8 discs) can touch the frame edge.

@@ -811,3 +811,54 @@ article { position: relative; }
 .globe-label.is-below { margin-top: 22px; }
 .globe-label { font-size: 11px; padding: 4px 9px; background: color-mix(in oklab, var(--surface) 94%, transparent); backdrop-filter: blur(6px); }
 .globe-tip { font-size: 13px; padding: 5px 9px; }
+
+/* ---------- 38. Stage language: live emblem stages and journey boards (see docs/07 §17) ---------- */
+.estage { position: relative; overflow: hidden; border-radius: var(--radius); background: radial-gradient(70% 70% at 50% 35%, var(--surface) 0%, var(--surface-2) 100%); box-shadow: var(--shadow-2), 0 0 0 1px var(--line); }
+.estage-poster { position: absolute; inset: 0; display: grid; place-items: center; padding: 4%; transition: opacity .7s var(--ease-out); }
+.estage-poster .estage-img { width: auto; height: 100%; max-width: 100%; aspect-ratio: 1; object-fit: contain; animation: none; }
+.estage canvas { position: absolute; inset: 0; width: 100% !important; height: 100% !important; display: block; opacity: 0; transition: opacity .7s var(--ease-out); cursor: grab; filter: drop-shadow(0 10px 14px rgb(15 27 45 / .14)); }
+.estage.is-live canvas { opacity: 1; } .estage.is-live .estage-poster { opacity: 0; pointer-events: none; }
+.estage.is-live canvas:active { cursor: grabbing; }
+.estage-hero { aspect-ratio: 4 / 3; max-height: 400px; width: 100%; }
+.estage-org { width: 150px; height: 150px; flex: none; }
+@media (max-width: 767px) { .estage-hero { aspect-ratio: 2 / 1; max-height: 200px; } .estage canvas { display: none; } .estage.is-live .estage-poster { opacity: 1; } .estage-org { width: 96px; height: 96px; } }
+.hub-head-org { display: flex; align-items: center; gap: 20px; margin-top: 8px; }
+.hub-head-org h1 { margin-top: 0; }
+/* journey board: sticky stage beside the article; flat SVG board under 768 px */
+.jstage { position: relative; overflow: hidden; border-radius: var(--radius); background: radial-gradient(80% 70% at 50% 30%, var(--surface) 0%, var(--surface-2) 100%); aspect-ratio: 1 / 1; max-height: 440px; width: 100%; }
+.jstage canvas { position: absolute; inset: 0; width: 100% !important; height: 100% !important; display: block; opacity: 0; transition: opacity .7s var(--ease-out); }
+.jstage.is-live canvas { opacity: 1; }
+.jstage-poster { position: absolute; inset: 0; width: 100%; height: 100%; transition: opacity .7s var(--ease-out); }
+.jstage.is-live .jstage-poster { opacity: 0; }
+.jp-node circle, .jp-node text { transition: fill .35s var(--ease), r .35s var(--ease-out); }
+.jstage-label, .jstage-pin { position: absolute; left: 0; top: 0; z-index: 3; pointer-events: none; white-space: nowrap; font-family: var(--font-mono); font-size: 10.5px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); background: color-mix(in oklab, var(--surface) 92%, transparent); backdrop-filter: blur(6px); border: 1px solid color-mix(in oklab, var(--ink) 10%, transparent); border-radius: var(--radius-pill); padding: 3px 8px; transform: translate(-50%, -50%); margin-top: -8px; margin-left: 0; opacity: 0; transition: opacity .5s var(--ease), color .3s var(--ease), border-color .3s var(--ease); }
+.jstage-label::after { content: ""; position: absolute; left: 50%; bottom: -5px; width: 1px; height: 5px; background: color-mix(in oklab, var(--ink) 25%, transparent); }
+.jstage.is-live .jstage-label, .jstage.is-live .jstage-pin { opacity: 1; }
+.jstage-label.is-active { color: var(--ink); border-color: color-mix(in oklab, var(--red) 55%, transparent); background: color-mix(in oklab, var(--surface) 98%, transparent); }
+.jstage-pin { color: #fff; background: var(--red); border-color: var(--red-ink); text-transform: none; letter-spacing: .02em; font-family: var(--font-sans); font-size: 12px; font-weight: 500; padding: 4px 9px; }
+.jstage-pin::after { content: ""; position: absolute; left: 50%; bottom: -5px; width: 1px; height: 5px; background: var(--red-ink); }
+.jstage-dock { position: absolute; left: 10px; right: 10px; bottom: 10px; z-index: 4; display: flex; align-items: baseline; gap: 10px; padding: 8px 12px; border-radius: var(--radius); background: color-mix(in oklab, var(--surface) 84%, transparent); backdrop-filter: blur(10px) saturate(140%); border: 1px solid color-mix(in oklab, var(--ink) 8%, transparent); box-shadow: var(--shadow-1); pointer-events: none; }
+.jstage-dock-n { font-family: var(--font-mono); font-size: 11px; letter-spacing: .1em; color: var(--muted); flex: none; }
+.jstage-dock-title { font-family: var(--font-display); font-weight: 400; font-size: 14.5px; letter-spacing: -0.02em; line-height: 1.2; min-width: 0; flex: 1 1 auto; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.jstage-dock-hint { font-size: 11px; color: var(--muted); flex: none; }
+.jstage-col { display: grid; gap: 16px; }
+@media (min-width: 1024px) { .jstage-col { position: sticky; top: 76px; } }
+@media (max-width: 1023px) { .jstage-col { order: -1; } .jstage-col .jstage-aside { display: none; } }
+@media (min-width: 1024px) { .jstage-mobile-aside { display: none; } }
+@media (max-width: 767px) { .jstage { aspect-ratio: 3 / 2; max-height: 260px; } .jstage canvas, .jstage-label, .jstage-pin { display: none; } .jstage.is-live .jstage-poster { opacity: 1; } .jstage-dock-hint { display: none; } }
+/* visa country stage: the passport opens and the globe sits behind it */
+.vcstage { position: relative; display: grid; gap: 16px; align-items: center; grid-template-columns: minmax(0, 1fr); }
+@media (min-width: 640px) { .vcstage { grid-template-columns: 240px minmax(0, 1fr); } }
+.vcstage-passport { display: grid; place-items: center; z-index: 2; }
+.vcstage-passport { background: none; border: 0; padding: 8px; cursor: pointer; border-radius: var(--radius); }
+.vcstage-passport .pp3-cover { transform-origin: 0 50%; transition: transform .9s var(--ease-out); backface-visibility: hidden; }
+.vcstage.is-open .vcstage-passport .pp3-cover { transform: rotateY(-64deg); }
+.vcstage.is-open .vcstage-passport .pp3-book { animation: none; transform: rotateY(-14deg) rotateX(4deg); }
+.vcstage-globe { position: relative; aspect-ratio: 1 / 1; max-height: 420px; width: 100%; border-radius: 50%; overflow: hidden; opacity: 0; transform: scale(.94); transition: opacity .9s var(--ease-out) .2s, transform 1.1s var(--ease-out) .2s; background: radial-gradient(60% 60% at 50% 45%, color-mix(in oklab, var(--accent-soft) 70%, var(--surface)) 0%, transparent 72%); }
+.vcstage.is-open .vcstage-globe { opacity: 1; transform: none; }
+.vcstage-globe .globe-stage { position: absolute; inset: 0; }
+@media (max-width: 639px) { .vcstage-globe { display: none; } }
+.vital-col { position: relative; padding: 12px 14px 14px; border-radius: var(--radius); background: var(--surface); box-shadow: var(--shadow-2), 0 0 0 1px color-mix(in oklab, var(--line) 80%, transparent); }
+.vital-col::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 2px; background: color-mix(in oklab, var(--line-strong) 70%, transparent); border-radius: 0 0 var(--radius) var(--radius); }
+.vital-grid { gap: 14px; align-items: start; }
+@media (prefers-reduced-motion: reduce) { .estage canvas, .estage-poster, .jstage canvas, .jstage-poster, .vcstage-globe, .vcstage-passport .pp3-cover { transition: none; } }

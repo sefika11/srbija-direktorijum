@@ -5,28 +5,32 @@ import { AdSlot, Breadcrumbs, SectionTitle } from "./ui";
 import { LeadForm, CorrectionBlock } from "./forms";
 import { Icon } from "./icons";
 import MunicipalityPicker from "./MunicipalityPicker";
+import JourneyBoard, { type Station } from "./JourneyBoard";
+import { emblemFor } from "@/lib/emblem-map";
+import manifest from "@/public/emblems/manifest.json";
+const EMBLEM_KEYS = new Set<string>(manifest.keys);
 
 export const GUIDE_LABELS = {
   sr: { guides: "Vodiči", guidesLead: "Kako se šta rešava: dokumenta, takse, rokovi i tačno mesto gde idete u vašoj opštini.", yourMunicipality: "Vaša opština", choose: "Izaberite grad ili opštinu…",
         whereToGo: "Gde se ide", whoCan: "Ko može", documents: "Šta poneti", fees: "Koliko košta", duration: "Koliko traje", steps: "Koraci", faq: "Česta pitanja", forForeigners: "Za strane državljane",
         sources: "Izvori", checked: "Provereno", euprava: "Elektronski preko eUprave", shortNotice: "Kratki vodič: proverili smo nadležnu instituciju; detaljan opis dokumenata i taksi dodajemo uskoro.",
         servingFor: "Nadležno za", noServing: "Za izabranu opštinu još nemamo tačnu adresu. Pogledajte spisak svih lokacija:", pickHint: "Izaberite opštinu da vidite tačnu adresu, telefon i radno vreme nadležne službe.",
-        call: "Pozovi", open: "Otvori", allLocations: "Sve lokacije", amount: "Iznos", basis: "Osnov", variants: "Napomena", relatedTypes: "Nadležne institucije", inPreparation: "u pripremi", otherGuides: "Drugi vodiči", free: "bez takse", rsd: "RSD" },
+        call: "Pozovi", open: "Otvori", allLocations: "Sve lokacije", amount: "Iznos", basis: "Osnov", variants: "Napomena", relatedTypes: "Nadležne institucije", inPreparation: "u pripremi", otherGuides: "Drugi vodiči", free: "bez takse", rsd: "RSD", journey: "Put kroz postupak", scrollHint: "Listajte ↓" },
   en: { guides: "Guides", guidesLead: "How things get done: documents, fees, deadlines and the exact office to visit in your municipality.", yourMunicipality: "Your municipality", choose: "Choose a city or municipality…",
         whereToGo: "Where to go", whoCan: "Who can apply", documents: "What to bring", fees: "Fees", duration: "How long it takes", steps: "Steps", faq: "Frequently asked", forForeigners: "For foreign nationals",
         sources: "Sources", checked: "Checked", euprava: "Online via eUprava", shortNotice: "Short guide: the competent institution is verified; the detailed document and fee list is coming soon.",
         servingFor: "Serving", noServing: "We do not yet have the exact office for this municipality. See all locations:", pickHint: "Pick your municipality to see the exact address, phone and hours of the competent office.",
-        call: "Call", open: "Open", allLocations: "All locations", amount: "Amount", basis: "Basis", variants: "Note", relatedTypes: "Competent institutions", inPreparation: "in preparation", otherGuides: "Other guides", free: "no fee", rsd: "RSD" },
+        call: "Call", open: "Open", allLocations: "All locations", amount: "Amount", basis: "Basis", variants: "Note", relatedTypes: "Competent institutions", inPreparation: "in preparation", otherGuides: "Other guides", free: "no fee", rsd: "RSD", journey: "The procedure, station by station", scrollHint: "Scroll ↓" },
   ru: { guides: "Инструкции", guidesLead: "Как всё оформить: документы, пошлины, сроки и точное место, куда идти в вашей общине.", yourMunicipality: "Ваша община", choose: "Выберите город или общину…",
         whereToGo: "Куда идти", whoCan: "Кто может", documents: "Что взять с собой", fees: "Сколько стоит", duration: "Сколько длится", steps: "Шаги", faq: "Частые вопросы", forForeigners: "Для иностранцев",
         sources: "Источники", checked: "Проверено", euprava: "Онлайн через eUprava", shortNotice: "Краткая инструкция: компетентное учреждение проверено; подробный список документов и пошлин скоро.",
         servingFor: "Обслуживает", noServing: "Для выбранной общины точного адреса пока нет. Смотрите все адреса:", pickHint: "Выберите общину, чтобы увидеть адрес, телефон и часы работы компетентной службы.",
-        call: "Позвонить", open: "Открыть", allLocations: "Все адреса", amount: "Сумма", basis: "Основание", variants: "Примечание", relatedTypes: "Компетентные учреждения", inPreparation: "готовится", otherGuides: "Другие инструкции", free: "без пошлины", rsd: "RSD" },
+        call: "Позвонить", open: "Открыть", allLocations: "Все адреса", amount: "Сумма", basis: "Основание", variants: "Примечание", relatedTypes: "Компетентные учреждения", inPreparation: "готовится", otherGuides: "Другие инструкции", free: "без пошлины", rsd: "RSD", journey: "Путь по процедуре", scrollHint: "Листайте ↓" },
   de: { guides: "Anleitungen", guidesLead: "So geht es: Unterlagen, Gebühren, Fristen und die genaue Stelle in Ihrer Gemeinde.", yourMunicipality: "Ihre Gemeinde", choose: "Stadt oder Gemeinde wählen…",
         whereToGo: "Wohin", whoCan: "Wer kann", documents: "Was mitbringen", fees: "Gebühren", duration: "Dauer", steps: "Schritte", faq: "Häufige Fragen", forForeigners: "Für Ausländer",
         sources: "Quellen", checked: "Geprüft", euprava: "Online über eUprava", shortNotice: "Kurzanleitung: die zuständige Stelle ist geprüft; die ausführliche Liste der Unterlagen und Gebühren folgt in Kürze.",
         servingFor: "Zuständig für", noServing: "Für die gewählte Gemeinde fehlt noch die genaue Stelle. Alle Standorte:", pickHint: "Wählen Sie Ihre Gemeinde, um Adresse, Telefon und Öffnungszeiten der zuständigen Stelle zu sehen.",
-        call: "Anrufen", open: "Öffnen", allLocations: "Alle Standorte", amount: "Betrag", basis: "Grundlage", variants: "Hinweis", relatedTypes: "Zuständige Stellen", inPreparation: "in Vorbereitung", otherGuides: "Weitere Anleitungen", free: "gebührenfrei", rsd: "RSD" },
+        call: "Anrufen", open: "Öffnen", allLocations: "Alle Standorte", amount: "Betrag", basis: "Grundlage", variants: "Hinweis", relatedTypes: "Zuständige Stellen", inPreparation: "in Vorbereitung", otherGuides: "Weitere Anleitungen", free: "gebührenfrei", rsd: "RSD", journey: "Der Weg durch das Verfahren", scrollHint: "Scrollen ↓" },
 } as const;
 
 const DAYS: Record<Locale, string[]> = { sr: ["Pon", "Uto", "Sre", "Čet", "Pet", "Sub", "Ned"], en: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"], ru: ["Пн", "Вт", "Ср", "Чт", "Пт", "Сб", "Вс"], de: ["Mo", "Di", "Mi", "Do", "Fr", "Sa", "So"] };
@@ -100,6 +104,20 @@ export async function GuidePage({ locale, guide, jlsSlug, path }: { locale: Loca
   const title = c.title ?? guide.name_lat;
   const faqLd = c.faq?.length ? { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: c.faq.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) } : null;
   const otherGuides = others.filter((g) => g.id !== guide.id && g.category_slug === guide.category_slug).slice(0, 5);
+  const stations: Station[] = [
+    { id: "gde", kind: "where", label: L.whereToGo },
+    ...(c.who?.length ? [{ id: "ko", kind: "who" as const, label: L.whoCan }] : []),
+    ...(c.documents?.length ? [{ id: "dokumenta", kind: "docs" as const, label: L.documents, n: c.documents.length }] : []),
+    ...(guide.fees?.length ? [{ id: "takse", kind: "fees" as const, label: L.fees }] : []),
+    ...(c.steps?.length ? [{ id: "koraci", kind: "steps" as const, label: L.steps, n: c.steps.length }] : []),
+    ...(guide.typical_duration ? [{ id: "trajanje", kind: "duration" as const, label: L.duration }] : []),
+    ...(c.faq?.length ? [{ id: "faq", kind: "faq" as const, label: L.faq }] : []),
+  ];
+  const emblemKey = emblemFor(primaryType, types[0]?.icon); const emblem = emblemKey && EMBLEM_KEYS.has(emblemKey) ? emblemKey : "townhall";
+  const sideCards = (<>
+    {types.filter(Boolean).length > 0 && <div className="card p-4"><div className="eyebrow mb-2">{L.relatedTypes}</div><ul className="grid gap-1.5 text-[13.5px]">{types.filter(Boolean).map((ty) => <li key={ty!.id}><Link href={href(locale, `/${ty!.slug}`)} className="no-underline text-ink hover:text-accent">{tn(ty!, locale)} →</Link></li>)}</ul></div>}
+    {otherGuides.length > 0 && <div className="card p-4"><div className="eyebrow mb-2">{L.otherGuides}</div><ul className="grid gap-1.5 text-[13.5px]">{otherGuides.map((g) => <li key={g.id}><Link href={href(locale, `/vodic/${g.slug}`)} className="no-underline text-ink hover:text-accent">{content(g, locale).c.title ?? g.name_lat}</Link></li>)}</ul></div>}
+  </>);
   return (
     <main id="main">
       {faqLd && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />}
@@ -124,8 +142,12 @@ export async function GuidePage({ locale, guide, jlsSlug, path }: { locale: Loca
         </div>
       </div></section>
 
-      <div className="shell py-8 grid lg:grid-cols-[minmax(0,1fr)_320px] gap-10 items-start">
-        <article className="grid gap-9 min-w-0">
+      <div className="shell py-8 grid lg:grid-cols-[minmax(0,1fr)_380px] gap-10 items-start">
+        <div className="jstage-col lg:col-start-2 lg:row-start-1 self-start">
+          <JourneyBoard stations={stations} emblem={emblem} pin={jls ? (jls.seat_name_lat ?? jls.name_lat) : null} labels={{ hint: L.scrollHint, stage: L.journey }} />
+          <div className="jstage-aside grid gap-4">{sideCards}<AdSlot code="svc_jls_sidebar_sponsor" w={300} h={250} label={d.sponsor} /></div>
+        </div>
+        <article className="grid gap-9 min-w-0 lg:col-start-1 lg:row-start-1">
           {/* Where to go */}
           <div className="read-rail" aria-hidden><i /></div>
           <section id="gde" data-reveal data-fx="flip">
@@ -158,27 +180,27 @@ export async function GuidePage({ locale, guide, jlsSlug, path }: { locale: Loca
 
           {guide.status === "short" && <div className="rounded-xl border border-dashed border-line bg-surface-2/60 p-4 text-[13.5px] text-muted">{L.shortNotice}</div>}
 
-          {c.who?.length ? <section data-reveal data-fx="flip"><SectionTitle>{L.whoCan}</SectionTitle><ul className="grid gap-1.5 text-[14.5px] list-disc pl-5">{c.who.map((w, i) => <li key={i}>{w}</li>)}</ul></section> : null}
+          {c.who?.length ? <section id="ko" data-reveal data-fx="flip"><SectionTitle>{L.whoCan}</SectionTitle><ul className="grid gap-1.5 text-[14.5px] list-disc pl-5">{c.who.map((w, i) => <li key={i}>{w}</li>)}</ul></section> : null}
 
-          {c.documents?.length ? <section data-reveal data-fx="flip"><SectionTitle>{L.documents}</SectionTitle>
+          {c.documents?.length ? <section id="dokumenta" data-reveal data-fx="flip"><SectionTitle>{L.documents}</SectionTitle>
             <ul className="grid gap-2">{c.documents.map((doc, i) => (
               <li key={i} data-reveal data-fx={i % 2 ? "wing-r" : "wing-l"} style={{ "--d": `${i * 70}ms` } as React.CSSProperties} className="card slip p-3.5 flex gap-3 items-start"><span className="mt-0.5 inline-grid place-items-center w-5 h-5 rounded border border-line text-[11px] text-muted shrink-0">{i + 1}</span>
                 <div className="min-w-0"><div className="font-medium text-[14.5px]">{doc.name}</div>{doc.note && <div className="text-muted text-[13px] mt-0.5">{doc.note}</div>}{doc.variants?.length ? <ul className="mt-1.5 text-[13px] text-muted grid gap-0.5">{doc.variants.map((v, j) => <li key={j}>· {v}</li>)}</ul> : null}</div></li>))}</ul></section> : null}
 
-          {guide.fees?.length ? <section data-reveal data-fx="flip"><SectionTitle>{L.fees}</SectionTitle>
+          {guide.fees?.length ? <section id="takse" data-reveal data-fx="flip"><SectionTitle>{L.fees}</SectionTitle>
             <div className="card overflow-x-auto"><table className="w-full text-[14px]"><thead><tr className="text-left text-muted text-[12px] uppercase tracking-wide"><th className="px-4 py-2.5 font-medium">{L.amount}</th><th className="px-4 py-2.5 font-medium">{L.basis}</th></tr></thead>
               <tbody>{guide.fees.map((f, i) => <tr key={i} className="border-t border-line align-top"><td className="px-4 py-2.5"><div className="font-medium">{f.item}</div><div className="tabular text-[15px]">{f.amount_rsd == null ? <span className="text-muted">—</span> : f.amount_rsd === 0 ? L.free : `${fmtRsd(f.amount_rsd)} ${L.rsd}`}</div>{f.note && <div className="text-muted text-[12.5px] mt-0.5">{f.note}</div>}</td>
                 <td className="px-4 py-2.5 text-[13px] text-muted">{f.basis}{f.source_url && <> · <a href={f.source_url} target="_blank" rel="noopener">izvor ↗</a></>}{f.checked_at && <div className="text-[12px]">{L.checked} {f.checked_at}</div>}</td></tr>)}</tbody></table></div></section> : null}
 
-          {guide.typical_duration && <section data-reveal data-fx="flip"><SectionTitle>{L.duration}</SectionTitle><p className="text-[14.5px]">{guide.typical_duration}</p></section>}
-
-          {c.steps?.length ? <section data-reveal data-fx="flip"><SectionTitle>{L.steps}</SectionTitle>
+          {c.steps?.length ? <section id="koraci" data-reveal data-fx="flip"><SectionTitle>{L.steps}</SectionTitle>
             <ol className="grid gap-3">{c.steps.map((s, i) => <li key={i} data-reveal style={{ "--d": `${i * 80}ms` } as React.CSSProperties} className="flex gap-3.5"><span className="disc step-disc">{i + 1}</span><p className="text-[14.5px] pt-1">{s}</p></li>)}</ol></section> : null}
+
+          {guide.typical_duration && <section id="trajanje" data-reveal data-fx="flip"><SectionTitle>{L.duration}</SectionTitle><p className="text-[14.5px]">{guide.typical_duration}</p></section>}
 
           {vertical && <section id="ponuda"><LeadForm locale={locale} vertical={vertical} context={{ page_path: path, location_id: serving[0]?.location_id ?? null, territorial_unit_id: jls?.id ?? null }} /></section>}
           <AdSlot code="svc_in_content_1" w={728} h={90} mobileH={250} label={d.ad} />
 
-          {c.faq?.length ? <section data-reveal data-fx="flip"><SectionTitle>{L.faq}</SectionTitle><div className="grid gap-2">{c.faq.map((f, i) => <details key={i} className="card p-4 group"><summary className="cursor-pointer font-medium text-[14.5px] list-none flex justify-between gap-3">{f.q}<span className="text-muted group-open:rotate-45 transition">+</span></summary><p className="text-[14px] text-muted mt-2">{f.a}</p></details>)}</div></section> : null}
+          {c.faq?.length ? <section id="faq" data-reveal data-fx="flip"><SectionTitle>{L.faq}</SectionTitle><div className="grid gap-2">{c.faq.map((f, i) => <details key={i} className="card p-4 group"><summary className="cursor-pointer font-medium text-[14.5px] list-none flex justify-between gap-3">{f.q}<span className="text-muted group-open:rotate-45 transition">+</span></summary><p className="text-[14px] text-muted mt-2">{f.a}</p></details>)}</div></section> : null}
 
           {c.for_foreigners && <section data-reveal data-fx="flip" className="rounded-2xl p-5 sm:p-6" style={{ background: "var(--accent-soft)" }}><div className="eyebrow text-accent-ink flex items-center gap-1.5"><Icon.globe /> {L.forForeigners}</div><p className="text-[14.5px] mt-2 whitespace-pre-line">{c.for_foreigners}</p></section>}
 
@@ -187,11 +209,7 @@ export async function GuidePage({ locale, guide, jlsSlug, path }: { locale: Loca
           <CorrectionBlock locale={locale} entityType="service" entityId={guide.id} pagePath={path} lastChecked={guide.checked_at} sources={guide.sources.map((s) => s.url)} />
         </article>
 
-        <aside className="grid gap-4 lg:sticky lg:top-20">
-          {types.filter(Boolean).length > 0 && <div className="card p-4"><div className="eyebrow mb-2">{L.relatedTypes}</div><ul className="grid gap-1.5 text-[13.5px]">{types.filter(Boolean).map((ty) => <li key={ty!.id}><Link href={href(locale, `/${ty!.slug}`)} className="no-underline text-ink hover:text-accent">{tn(ty!, locale)} →</Link></li>)}</ul></div>}
-          {otherGuides.length > 0 && <div className="card p-4"><div className="eyebrow mb-2">{L.otherGuides}</div><ul className="grid gap-1.5 text-[13.5px]">{otherGuides.map((g) => <li key={g.id}><Link href={href(locale, `/vodic/${g.slug}`)} className="no-underline text-ink hover:text-accent">{content(g, locale).c.title ?? g.name_lat}</Link></li>)}</ul></div>}
-          <AdSlot code="svc_jls_sidebar_sponsor" w={300} h={250} label={d.sponsor} />
-        </aside>
+        <aside className="jstage-mobile-aside grid gap-4">{sideCards}</aside>
       </div>
     </main>
   );

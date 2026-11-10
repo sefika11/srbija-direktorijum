@@ -6,7 +6,7 @@
  * directions of the regime with an "Open" button; after the rotation settles the country page can open automatically.
  */
 import { useEffect, useMemo, useRef, useState } from "react";
-import { GlobeEngine } from "@/lib/globe-engine";
+import type { GlobeEngine } from "@/lib/globe-engine";
 import earth from "@/lib/country-centroids.json";
 import { Passport, flagOf } from "./Passport";
 import Combobox from "./Combobox";
@@ -36,10 +36,14 @@ export default function VisaStage({ locale, countries, initial }: { locale: Loca
   const engRef = useRef<GlobeEngine | null>(null);
   useEffect(() => {
     const el = wrap.current, canvas = canvasRef.current; if (!el || !canvas) return;
-    let eng: GlobeEngine | null = null;
-    try { eng = new GlobeEngine({ canvas, host: el, names: Object.fromEntries(countries.map((c) => [c.iso2, c.name])), centroids: DATA.centroids, home: "RS", homeLabel: T.serbia, highlight: freeSet, pickable: new Set(countries.map((c) => c.iso2)), onPick: (iso) => setSel(byIso[iso] ?? null) }); } catch { return; }
-    engRef.current = eng; eng.setSelection(selRef.current?.iso2 ?? null);
-    return () => { eng?.destroy(); engRef.current = null; };
+    // the globe engine (and three.js) load on demand so no page pays for them in its first load
+    let eng: GlobeEngine | null = null, dead = false;
+    import("@/lib/globe-engine").then(({ GlobeEngine }) => {
+      if (dead) return;
+      try { eng = new GlobeEngine({ canvas, host: el, names: Object.fromEntries(countries.map((c) => [c.iso2, c.name])), centroids: DATA.centroids, home: "RS", homeLabel: T.serbia, highlight: freeSet, pickable: new Set(countries.map((c) => c.iso2)), onPick: (iso) => setSel(byIso[iso] ?? null) }); } catch { return; }
+      engRef.current = eng; eng.setSelection(selRef.current?.iso2 ?? null);
+    });
+    return () => { dead = true; eng?.destroy(); engRef.current = null; };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [countries.length]);
   useEffect(() => { engRef.current?.setSelection(sel?.iso2 ?? null); }, [sel]);

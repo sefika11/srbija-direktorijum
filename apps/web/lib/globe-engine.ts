@@ -14,6 +14,7 @@ export type GlobeOpts = {
   highlight?: Set<string>;                   // e.g. countries whose citizens enter visa-free
   pickable?: Set<string>;                    // countries that can be picked (have a page)
   onPick?: (iso: string) => void; onHover?: (iso: string | null) => void;
+  onReady?: () => void;                      // first frame with the countries painted
   autoRotate?: boolean;
 };
 type Geo = Record<string, [number, number][][]>;
@@ -72,7 +73,7 @@ export class GlobeEngine {
     this.ro = new ResizeObserver(() => this.resize()); this.ro.observe(o.host);
     this.mq = window.matchMedia("(prefers-color-scheme: dark)"); const onTheme = () => this.paintBase(); this.mq.addEventListener("change", onTheme); this.dispose.push(() => this.mq?.removeEventListener("change", onTheme));
     const mo = new MutationObserver(onTheme); mo.observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] }); this.dispose.push(() => mo.disconnect());
-    loadGeo().then((geo) => { if (!this.alive) return; this.geo = geo; this.paintBase(); this.paintId(); this.paintOverlay(); });
+    loadGeo().then((geo) => { if (!this.alive) return; this.geo = geo; this.paintBase(); this.paintId(); this.paintOverlay(); this.renderer.render(this.scene, this.camera); this.o.onReady?.(); });
     this.raf = requestAnimationFrame(this.frame);
   }
 
