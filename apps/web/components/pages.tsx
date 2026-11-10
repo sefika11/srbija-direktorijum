@@ -13,6 +13,8 @@ import type { Feature3D } from "./SerbiaMap3D";
 import HeroFX from "./HeroFX";
 import Opener from "./Opener";
 import { Icon, GROUP_ICON } from "./icons";
+import Glyph3D from "./Glyph3D";
+const GROUP_GLYPH: Record<string, string> = { lokalna_samouprava: "building", republicki_organi: "landmark", javne_ustanove: "hospital", javna_preduzeca: "zap", pravosudje_i_javna_ovlascenja: "scale", privatne_usluge: "briefcase" };
 import { LeadForm, CorrectionBlock, ClaimBlock } from "./forms";
 import { GUIDE } from "@/lib/guide";
 
@@ -151,10 +153,10 @@ export async function Home({ locale }: { locale: Locale }) {
             <div><div className="eyebrow">02 · {d.browseByCategory}</div><h2 className="display-sm mt-2">{stats.orgs.toLocaleString("sr-Latn")} {d.institutions}, {stats.types} {typesLabel}</h2></div>
           </div>
           <div className="bento">
-            {byGroupAll.filter((x) => x.total > 0).map(({ g, types: ts, total }, i) => { const I = Icon[GROUP_ICON[g] ?? "landmark"]; return (
+            {byGroupAll.filter((x) => x.total > 0).map(({ g, types: ts, total }, i) => { return (
               <div key={g} className="bento-card spot" data-reveal style={{ "--d": `${i * 60}ms` } as React.CSSProperties}>
                 <div className="flex items-start justify-between gap-3">
-                  <span className="icon-badge"><I /></span>
+                  <span className="glyph-wrap"><Glyph3D icon={GROUP_GLYPH[g]} size={72} /></span>
                   <div className="big">{total.toLocaleString("sr-Latn")}</div>
                 </div>
                 <h3 className="font-semibold text-[16px] mt-4">{d.groups[g]}</h3>
@@ -336,7 +338,7 @@ export async function UnitHub({ locale, unit, parent }: { locale: Locale; unit: 
             const main = g === "lokalna_samouprava" ? list.filter((o) => o.type_slug !== "mesna-zajednica") : list;
             return (
               <section key={g} className="mb-8">
-                <SectionTitle id={g}>{d.groups[g]} <span className="text-muted font-normal text-[14px] tabular">{list.length}</span></SectionTitle>
+                <SectionTitle id={g}><span className="inline-flex items-center gap-2.5"><Glyph3D icon={GROUP_GLYPH[g]} size={34} /> {d.groups[g]} <span className="text-muted font-normal text-[14px] tabular">{list.length}</span></span></SectionTitle>
                 {g === "republicki_organi" && (
                   <ul className="grid sm:grid-cols-2 gap-2 mb-3">
                     {serving.map(({ type, rows }) => (
@@ -394,12 +396,15 @@ export async function OrgTypeHub({ locale, type }: { locale: Locale; type: db.Or
   try { const parsed = type.faq_md ? JSON.parse(type.faq_md) : []; if (Array.isArray(parsed)) faq = parsed.filter((x) => x && x.q && x.a); } catch { faq = []; }
   return (
     <main>
-      <section className="hero-light border-b border-line"><div className="shell py-8 sm:py-10">
+      <section className="hero-light border-b border-line"><div className="shell py-8 sm:py-10 hub-head">
+        <div className="hub-glyph"><Glyph3D icon={type.icon} size={132} title={type.name_lat} /></div>
+        <div className="min-w-0">
         <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, { label: d.groups[type.group] }, { label: type.name_plural_lat ?? type.name_lat }]} />
         <div className="eyebrow mt-4">{d.groups[type.group]}</div>
         <h1 className="font-serif text-[30px] sm:text-[38px] font-semibold leading-tight">{type.name_plural_lat ?? type.name_lat}</h1>
         <p className="text-muted mt-2 tabular">{count.toLocaleString("sr-Latn")} {branchMode ? (locale === "sr" ? "lokacija" : locale === "en" ? "locations" : locale === "ru" ? "адресов" : "Standorte") : d.institutions} · {places} {d.municipalities}</p>
         {type.description_md && <div className="prose max-w-3xl mt-3 text-[15px] text-muted">{type.description_md}</div>}
+        </div>
       </div></section>
       <div className="shell py-6">
       {faq.length > 0 && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faq.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) }) }} />}
@@ -475,7 +480,7 @@ export async function OrgPage({ locale, org, locSlug, path }: { locale: Locale; 
       <section className="hero-light border-b border-line"><div className="shell py-7 sm:py-9">
       <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, ...(jls ? [{ href: href(locale, `/${jls.slug}`), label: jls.name_lat }] : []), { href: href(locale, `/${org.type_slug}`), label: type.name_lat }, ...(loc && !loc.is_primary ? [{ href: orgHref(locale, org), label: org.name_lat }, { label: loc.unit_name_lat }] : [{ label: org.name_lat }])]} />
       <div className="eyebrow mt-4">{type.name_lat}{jls ? ` · ${jls.name_lat}` : ""}</div>
-      <h1 className="font-serif text-[28px] sm:text-[36px] font-semibold leading-[1.12] mt-1">{title}</h1>
+      <div className="flex items-start gap-4"><div className="org-glyph hidden sm:grid"><Glyph3D icon={type.icon} size={80} title={type.name_lat} /></div><h1 className="font-serif text-[28px] sm:text-[36px] font-semibold leading-[1.12] mt-1">{title}</h1></div>
       <p className="text-muted mt-2 text-[14px]">{org.official_name_lat && org.official_name_lat.toLowerCase() !== org.name_lat.toLowerCase() ? org.official_name_lat : type.name_lat}{org.founder_name ? ` · ${d.founder}: ` : ""}{org.founder_slug && org.founder_name ? <Link href={href(locale, `/${org.founder_slug}`)}>{org.founder_name}</Link> : null}</p>
       <div className="mt-2 flex items-center gap-3 flex-wrap"><VerificationChip state={loc?.verification ?? org.verification} locale={locale} />{org.is_private && <Chip>{locale === "sr" ? "Privatna ustanova" : locale === "en" ? "Private institution" : locale === "ru" ? "Частное учреждение" : "Private Einrichtung"}</Chip>}<a href="#izmeni" className="text-[12.5px]">{d.editData}</a></div>
       </div></section>

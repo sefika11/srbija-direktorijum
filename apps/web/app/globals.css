@@ -320,3 +320,12 @@ html.has-opener [data-reveal] { transition-delay: calc(var(--d, 0ms) + 1700ms); 
 .featured-rail { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
 .featured-card { padding: 16px 18px; border-color: color-mix(in oklab, var(--gold) 45%, var(--line)); background: color-mix(in oklab, var(--gold-soft) 55%, var(--surface)); }
 .featured-tag { font-family: var(--font-mono); font-size: 10.5px; letter-spacing: .12em; text-transform: uppercase; color: var(--gold); border: 1px solid color-mix(in oklab, var(--gold) 50%, transparent); border-radius: var(--radius-pill); padding: 2px 8px; }
+
+/* ---------- 16. 3D emblems ---------- */
+.g3 { display: block; filter: drop-shadow(0 8px 10px rgb(21 22 26 / .14)); }
+.glyph-wrap { display: inline-grid; place-items: center; width: 76px; height: 76px; margin: -8px 0 0 -8px; }
+.hub-head { display: grid; gap: 20px 28px; grid-template-columns: minmax(0, 1fr); align-items: center; }
+@media (min-width: 640px) { .hub-head { grid-template-columns: 140px minmax(0, 1fr); } }
+.hub-glyph { display: grid; place-items: center; width: 140px; height: 140px; border-radius: var(--radius); background: radial-gradient(70% 70% at 50% 40%, var(--surface) 0%, var(--surface-2) 100%); border: 1px solid var(--line); }
+@media (max-width: 639px) { .hub-glyph { width: 96px; height: 96px; } .hub-glyph .g3 { width: 84px; height: 84px; } }
+.org-glyph { display: grid; place-items: center; width: 88px; height: 88px; border-radius: var(--radius); background: radial-gradient(70% 70% at 50% 40%, var(--surface) 0%, var(--surface-2) 100%); border: 1px solid var(--line); flex: none; }
