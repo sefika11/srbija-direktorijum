@@ -27,10 +27,10 @@ const isDark = () => document.documentElement.dataset.theme === "dark" || (docum
 
 export class GlobeEngine {
   private o: GlobeOpts; private geo: Geo | null = null;
-  private renderer!: THREE.WebGLRenderer; private scene = new THREE.Scene(); private camera = new THREE.PerspectiveCamera(30, 1, .1, 100);
+  private renderer!: THREE.WebGLRenderer; private scene = new THREE.Scene(); private camera = new THREE.PerspectiveCamera(38, 1, .1, 100);
   private group = new THREE.Group(); private base!: THREE.Mesh; private overlay!: THREE.Mesh; private hitSphere!: THREE.Mesh;
   private baseTex!: THREE.CanvasTexture; private overTex!: THREE.CanvasTexture; private baseCv!: HTMLCanvasElement; private overCv!: HTMLCanvasElement; private idCv!: HTMLCanvasElement; private idData: ImageData | null = null; private idMap: string[] = [];
-  private sel: string | null = null; private hov: string | null = null; private targetQ = new THREE.Quaternion(); private camDist = 2.9; private touched = false; private dragging = false;
+  private sel: string | null = null; private hov: string | null = null; private targetQ = new THREE.Quaternion(); private camDist = 3.35; private touched = false; private dragging = false;
   private arc: THREE.Mesh | null = null; private arcDraw = 0; private pinHome!: THREE.Group; private pinDest!: THREE.Group;
   private labelHome!: HTMLDivElement; private labelDest!: HTMLDivElement; private tip!: HTMLDivElement;
   private raf = 0; private alive = true; private ro: ResizeObserver | null = null; private mq: MediaQueryList | null = null; private reduced = false;
@@ -80,8 +80,8 @@ export class GlobeEngine {
   setSelection(iso: string | null) {
     this.sel = iso; this.paintOverlay(); this.touched = false;
     const c = iso ? this.o.centroids[iso] : null;
-    if (c) { this.pinDest.visible = true; this.place(this.pinDest, c[0], c[1]); this.labelDest.textContent = this.o.names[iso!] ?? iso; this.labelDest.style.display = ""; this.setArc(c); const h = this.o.centroids[this.o.home] ?? [44.2, 20.8]; const ang = toVec(h[0], h[1]).angleTo(toVec(c[0], c[1])); this.camDist = THREE.MathUtils.clamp(2.05 + ang * .3, 2.15, 2.9); this.faceTo(c[0], c[1]); }
-    else { this.pinDest.visible = false; this.labelDest.style.display = "none"; this.setArc(null); this.camDist = 2.9; const h = this.o.centroids[this.o.home] ?? [44.2, 20.8]; this.faceTo(h[0], h[1]); }
+    if (c) { this.pinDest.visible = true; this.place(this.pinDest, c[0], c[1]); this.labelDest.textContent = this.o.names[iso!] ?? iso; this.labelDest.style.display = ""; this.setArc(c); const h = this.o.centroids[this.o.home] ?? [44.2, 20.8]; const ang = toVec(h[0], h[1]).angleTo(toVec(c[0], c[1])); this.camDist = THREE.MathUtils.clamp(2.75 + ang * .3, 2.85, 3.35); this.faceTo(c[0], c[1]); }
+    else { this.pinDest.visible = false; this.labelDest.style.display = "none"; this.setArc(null); this.camDist = 3.35; const h = this.o.centroids[this.o.home] ?? [44.2, 20.8]; this.faceTo(h[0], h[1]); }
   }
   setHighlight(set: Set<string>) { this.o.highlight = set; this.paintBase(); }
   destroy() {
@@ -168,7 +168,7 @@ export class GlobeEngine {
     };
     const up = (e: PointerEvent) => { const was = this.dragging; this.dragging = false; if (!was || moved > 4) return; const iso = hit(e); if (iso && (!this.o.pickable || this.o.pickable.has(iso))) { this.touched = false; this.o.onPick?.(iso); } };
     const leave = () => { if (this.hov) { this.hov = null; this.paintOverlay(); this.o.onHover?.(null); } this.tip.style.display = "none"; cv.style.cursor = "grab"; };
-    const wheel = (e: WheelEvent) => { e.preventDefault(); this.camDist = THREE.MathUtils.clamp(this.camDist + e.deltaY * .0025, 1.7, 3.4); };
+    const wheel = (e: WheelEvent) => { e.preventDefault(); this.camDist = THREE.MathUtils.clamp(this.camDist + e.deltaY * .0025, 2.0, 3.8); };
     cv.addEventListener("pointerdown", down); cv.addEventListener("pointermove", move); cv.addEventListener("pointerup", up); cv.addEventListener("pointerleave", leave); cv.addEventListener("pointercancel", () => { this.dragging = false; }); cv.addEventListener("wheel", wheel, { passive: false });
     cv.style.cursor = "grab"; cv.style.touchAction = "none";
     this.dispose.push(() => { cv.removeEventListener("pointerdown", down); cv.removeEventListener("pointermove", move); cv.removeEventListener("pointerup", up); cv.removeEventListener("pointerleave", leave); cv.removeEventListener("wheel", wheel); });

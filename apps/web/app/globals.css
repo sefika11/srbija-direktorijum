@@ -713,3 +713,12 @@ a { color: var(--accent); }
 @media (prefers-reduced-motion: reduce) { .pp3-book { animation: none; } }
 /* legacy wrappers keep their size */
 .hub-glyph .pp3 { --w: 84px; } .vstage-passport .pp3 { --w: 150px; }
+/* textures: linen on cards and the header, fabric weave on the hero ribbons, stronger grain on bands */
+.card::before, .guide-card::before, .bento-card::before { content: ""; position: absolute; inset: 0; border-radius: inherit; pointer-events: none; opacity: .5; z-index: 0;
+  background-image: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='6' height='6'%3E%3Cpath d='M0 3h6M3 0v6' stroke='%2317181c' stroke-opacity='.035' stroke-width='1'/%3E%3C/svg%3E"); background-size: 6px 6px; }
+.card, .guide-card, .bento-card { position: relative; } .card > *, .guide-card > *, .bento-card > * { position: relative; z-index: 1; }
+:root[data-theme="dark"] .card::before, :root:not([data-theme="light"]) .card::before, :root[data-theme="dark"] .guide-card::before, :root:not([data-theme="light"]) .guide-card::before, :root[data-theme="dark"] .bento-card::before, :root:not([data-theme="light"]) .bento-card::before { filter: invert(1); opacity: .35; }
+@media (prefers-color-scheme: light) { :root:not([data-theme="dark"]) .card::before, :root:not([data-theme="dark"]) .guide-card::before, :root:not([data-theme="dark"]) .bento-card::before { filter: none; opacity: .5; } }
+.hero-open::after { background-image: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M0 0l8 8M8 0L0 8' stroke='%23000' stroke-opacity='.08' stroke-width='1'/%3E%3C/svg%3E"), linear-gradient(90deg, transparent 0 34%, color-mix(in oklab, var(--red) 70%, var(--bg)) 34% 44%, var(--surface) 44% 54%, color-mix(in oklab, var(--accent) 70%, var(--bg)) 54% 64%, transparent 64%); background-size: 8px 8px, auto; background-blend-mode: multiply, normal; }
+.heritage .hz-grain { opacity: .1; }
+.band-primary::after, .hero-light::after { opacity: .7; }
