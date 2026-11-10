@@ -71,3 +71,6 @@ Ordered by how often a resident needs it. Each is a data layer with a source and
 | Vehicle inspection stations | 0 | | no official public list at ABS/MUP; commercial directories not copied | ask MUP/ABS or read the MUP portal manually |
 
 Municipality page now opens with the **Vitalno** block: emergency numbers, faults (water, power, heating, gas, waste, parking), administration and tax, health, social and work, police stations, school counts, each with a `tel:` link where we have the number and "broj još nije unet" where we do not. The phone gap on JKP and uprava rows is the next crawl target (haiku, municipal sites).
+
+### Phone pass on vital utilities and administrations (2026-11-10)
+247 organisations without a phone in the 40 largest municipalities → 3 agent passes (2 haiku, 1 sonnet second pass, official sites only): 199 now have a phone, 197 a website, 72 an e-mail, 31 hours. Unresolved (37): Kragujevac departments (portal blocks direct URLs), Aleksinac (Cloudflare), eight Pančevo village JKPs, Niš objedinjena naplata / parking / Ei toplana, five Novi Sad agencies, a handful of small JKPs with no site. Targets and raw answers are in `db/targets/` and `db/contacts/vital_phones_*`. Next: the same pass for the remaining 105 municipalities (about 400 organisations) once the first 40 are checked.
