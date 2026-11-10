@@ -452,7 +452,9 @@ function GuideLinks({ locale, guides, jlsSlug, stacked = false }: { locale: Loca
 const TYPE_FACET: Record<string, { key: string; label: Record<Locale, string> }> = {
   "sudski-vestak": { key: "oblasti", label: { sr: "Sve oblasti", en: "All fields", ru: "Все области", de: "Alle Fachgebiete" } },
 };
-const PAGE_SIZE = 60, PAGED_FROM = 800;
+const PAGE_SIZE = 60, PAGED_FROM = 250;
+/** types whose entries are licensed people, not institutions (wording only) */
+const PERSON_TYPES = new Set(["sudski-vestak", "medijator", "stecajni-upravnik", "procenitelj-nepokretnosti", "sudski-prevodilac", "javni-beleznik", "javni-izvrsitelj", "advokat"]);
 const PG: Record<Locale, { name: string; allPlaces: string; show: string; reset: string; shown: (a: number, b: number, n: number) => string; prev: string; next: string; page: string; none: string }> = {
   sr: { name: "Naziv ili ime", allPlaces: "Sva mesta", show: "Prikaži", reset: "Poništi", shown: (a, b, n) => `Prikazano ${a}–${b} od ${n.toLocaleString("sr-Latn")}`, prev: "Prethodna", next: "Sledeća", page: "Strana", none: "Nema rezultata za ovaj izbor." },
   en: { name: "Name", allPlaces: "All places", show: "Show", reset: "Reset", shown: (a, b, n) => `Showing ${a}–${b} of ${n.toLocaleString("en")}`, prev: "Previous", next: "Next", page: "Page", none: "Nothing matches this selection." },
@@ -506,7 +508,7 @@ export async function OrgTypeHub({ locale, type, brand = null, place = null, que
         <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, { label: d.groups[type.group] }, { label: tn(type, locale) }]} />
         <div className="eyebrow mt-4">{d.groups[type.group]}</div>
         <h1 className="font-serif text-[30px] sm:text-[38px] font-semibold leading-tight">{tn(type, locale)}</h1>
-        <p className="text-muted mt-2 tabular">{count.toLocaleString("sr-Latn")} {branchMode ? (locale === "sr" ? "lokacija" : locale === "en" ? "locations" : locale === "ru" ? "адресов" : "Standorte") : d.institutions} · {placesCount(places, locale)}</p>
+        <p className="text-muted mt-2 tabular">{count.toLocaleString("sr-Latn")} {branchMode ? (locale === "sr" ? "lokacija" : locale === "en" ? "locations" : locale === "ru" ? "адресов" : "Standorte") : PERSON_TYPES.has(type.slug) ? (locale === "sr" ? "upisanih u registar" : locale === "en" ? "listed in the register" : locale === "ru" ? "в реестре" : "im Register") : d.institutions} · {placesCount(places, locale)}</p>
         {type.description_md && <div className="prose max-w-3xl mt-3 text-[15px] text-muted">{type.description_md}</div>}
         <GuideLinks locale={locale} guides={typeGuides} />
         </div>
@@ -528,6 +530,10 @@ export async function OrgTypeHub({ locale, type, brand = null, place = null, que
           {branchMode ? okrugKeys.map((k, i) => (
             <section key={k} className="cv-auto">
               <SectionTitle>{k} <span className="text-muted font-normal text-[13px] tabular">{byOkrug.get(k)!.length}</span></SectionTitle>
+              {shownBranches.length > 400 ? (
+                /* a whole national network on one page (2,000 bank branches): one light line per branch; pick a place or a brand above to get the cards */
+                <ul className="org-compact">{byOkrug.get(k)!.map((b) => <li key={b.location_id}><a href={href(locale, `/${b.org_type_slug}/${b.org_slug}/${b.location_slug}`)}>{orgs.length > 1 ? `${b.org_name_lat} · ${b.settlement_name_lat ?? b.unit_name_lat}` : b.unit_name_lat}</a><span>{b.address_display ?? b.jls_name_lat}</span></li>)}</ul>
+              ) : (
               <ul className="grid sm:grid-cols-2 gap-3">
                 {byOkrug.get(k)!.map((b) => (
                   <li key={b.location_id} className="card card-hover p-4">
@@ -536,7 +542,7 @@ export async function OrgTypeHub({ locale, type, brand = null, place = null, que
                     <div className="text-[13px] text-muted mt-1">{b.address_display ? `${b.address_display}, ` : ""}{b.jls_name_lat}</div>
                   </li>
                 ))}
-              </ul>
+              </ul>)}
               
             </section>
           )) : paged ? [(() => {
@@ -586,6 +592,28 @@ export async function OrgTypeHub({ locale, type, brand = null, place = null, que
 }
 
 // ---------------------------------------------------------------- Institution page (Part 2 layout)
+/** Register facts stored with an institution ("- key: value" lines). Label per key; keys not listed here are technical and stay hidden. */
+const FACT_LABEL: Record<string, Record<Locale, string>> = {
+  oblasti: { sr: "Oblasti veštačenja", en: "Fields of expertise", ru: "Области экспертизы", de: "Fachgebiete" }, zvanje: { sr: "Zvanje", en: "Title", ru: "Квалификация", de: "Titel" },
+  sud: { sr: "Sud", en: "Court", ru: "Суд", de: "Gericht" }, court: { sr: "Sud", en: "Court", ru: "Суд", de: "Gericht" }, languages: { sr: "Jezici", en: "Languages", ru: "Языки", de: "Sprachen" },
+  licenca: { sr: "Licenca", en: "Licence", ru: "Лицензия", de: "Lizenz" }, licence: { sr: "Licenca", en: "Licence", ru: "Лицензия", de: "Lizenz" }, licence_no: { sr: "Broj licence", en: "Licence no.", ru: "Номер лицензии", de: "Lizenznummer" },
+  licence_valid_until: { sr: "Licenca važi do", en: "Licence valid until", ru: "Лицензия действует до", de: "Lizenz gültig bis" }, licence_valid_to: { sr: "Licenca važi do", en: "Licence valid until", ru: "Лицензия действует до", de: "Lizenz gültig bis" },
+  authorisation_no: { sr: "Broj ovlašćenja NBS", en: "NBS authorisation no.", ru: "Номер разрешения НБС", de: "NBS-Zulassungsnummer" }, dozvola_ministarstva_finansija: { sr: "Dozvola Ministarstva finansija", en: "Ministry of Finance permit", ru: "Разрешение Минфина", de: "Genehmigung des Finanzministeriums" },
+  service: { sr: "Usluga", en: "Service", ru: "Услуга", de: "Leistung" }, capacity: { sr: "Kapacitet", en: "Capacity", ru: "Вместимость", de: "Kapazität" }, activities: { sr: "Aktivnosti", en: "Activities", ru: "Деятельность", de: "Tätigkeiten" },
+  stars: { sr: "Kategorija (zvezdice)", en: "Category (stars)", ru: "Категория (звёзды)", de: "Kategorie (Sterne)" }, units: { sr: "Smeštajnih jedinica", en: "Rooms / units", ru: "Номеров", de: "Zimmer / Einheiten" }, beds: { sr: "Ležaja", en: "Beds", ru: "Мест", de: "Betten" },
+  operator: { sr: "Privredni subjekt", en: "Operator", ru: "Оператор", de: "Betreiber" }, pun_naziv: { sr: "Pun naziv", en: "Full name", ru: "Полное название", de: "Vollständiger Name" },
+  parent: { sr: "Nadležna carinarnica", en: "Parent customs house", ru: "Вышестоящая таможня", de: "Zuständiges Zollamt" }, neighbour_country: { sr: "Susedna država", en: "Neighbouring country", ru: "Соседняя страна", de: "Nachbarland" },
+  level: { sr: "Nivo", en: "Level", ru: "Уровень", de: "Stufe" }, ownership: { sr: "Vlasništvo", en: "Ownership", ru: "Собственность", de: "Trägerschaft" }, consular_jurisdiction: { sr: "Konzularna nadležnost", en: "Consular jurisdiction", ru: "Консульский округ", de: "Konsularbezirk" },
+  accreditation_no: { sr: "Akreditacioni broj", en: "Accreditation no.", ru: "Номер аккредитации", de: "Akkreditierungsnummer" }, glavno_drustvo: { sr: "Matično društvo", en: "Parent firm", ru: "Головная компания", de: "Muttergesellschaft" },
+  category: { sr: "Kategorija", en: "Category", ru: "Категория", de: "Kategorie" }, pib: { sr: "PIB", en: "Tax ID (PIB)", ru: "ИНН (PIB)", de: "Steuernummer (PIB)" },
+};
+function facts(md: string | null, locale: Locale): { label: string; value: string }[] {
+  if (!md) return [];
+  const out: { label: string; value: string }[] = [];
+  for (const line of md.split("\n")) { const m = /^-\s*([a-z_0-9]+):\s*(.+)$/.exec(line.trim()); if (!m) continue; const lab = FACT_LABEL[m[1]]; const v = m[2].trim(); if (lab && v && v !== "null" && !out.some((x) => x.label === lab[locale])) out.push({ label: lab[locale], value: v }); }
+  return out;
+}
+
 export async function OrgPage({ locale, org, locSlug, path }: { locale: Locale; org: db.OrgRow; locSlug?: string; path: string }) {
   const d = t(locale);
   const [locations, children, vertical, types, country, typeGuides] = await Promise.all([db.getLocations(org.id), db.getOrgChildren(org.id), db.getVertical(org.type_slug), db.getOrgTypes(), ["ambasada", "konzulat"].includes(org.type_slug) ? db.getCountryByMissionName(org.name_lat).catch(() => null) : Promise.resolve(null), db.getGuidesForType(org.type_slug).catch(() => [] as db.GuideRow[])]);
@@ -608,13 +636,19 @@ export async function OrgPage({ locale, org, locSlug, path }: { locale: Locale; 
       where t."group" = ${org.group} and o.id <> ${org.id} and o.status = 'active' and f.path <@ ${jls.path}::ltree and t.slug <> 'mesna-zajednica' order by t.sort_order, o.name_lat limit 8` : [];
   const DAYS = locale === "sr" ? ["Pon", "Uto", "Sre", "Čet", "Pet", "Sub", "Ned"] : locale === "en" ? ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"] : locale === "ru" ? ["Пн", "Вт", "Ср", "Чт", "Пт", "Сб", "Вс"] : ["Mo", "Di", "Mi", "Do", "Fr", "Sa", "So"];
   const regLine = [org.mb && `MB ${org.mb}`, org.pib && `PIB ${org.pib}`, org.jbkjs && `JBKJS ${org.jbkjs}`].filter(Boolean).join(" · ");
+  // Where the data really came from, and what the register says about this entry. The founder line is shown only for
+  // budget users (they have a JBKJS): for everyone else the "founder" column only says which municipality they are in.
+  const extras = await db.getOrgExtras(org.id);
+  const sourceNames = extras.sources.length ? extras.sources : org.jbkjs ? ["Uprava za trezor – Spisak korisnika javnih sredstava"] : [];
+  const regFacts = facts(extras.description_md, locale);
+  const showFounder = !!org.jbkjs && !!org.founder_name;
   return (
     <main id="main">
       <section className="hero-light border-b border-line"><div className="shell py-7 sm:py-9">
       <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, ...(jls ? [{ href: href(locale, `/${jls.slug}`), label: jls.name_lat }] : []), { href: href(locale, `/${org.type_slug}`), label: type.name_lat }, ...(loc && !loc.is_primary ? [{ href: orgHref(locale, org), label: org.name_lat }, { label: loc.unit_name_lat }] : [{ label: org.name_lat }])]} />
       <div className="eyebrow mt-4">{type.name_lat}{jls ? ` · ${jls.name_lat}` : ""}</div>
       <div className="hub-head-org"><EmblemStage emblem={emblemFor(type.slug, type.icon)} title={type.name_lat} size={200} cls="estage-org" /><h1 className="font-serif text-[28px] sm:text-[36px] font-semibold leading-[1.12]">{title}</h1></div>
-      <p className="text-muted mt-2 text-[14px]">{org.official_name_lat && org.official_name_lat.toLowerCase() !== org.name_lat.toLowerCase() ? org.official_name_lat : type.name_lat}{org.founder_name ? ` · ${d.founder}: ` : ""}{org.founder_slug && org.founder_name ? <Link href={href(locale, `/${org.founder_slug}`)}>{org.founder_name}</Link> : null}</p>
+      <p className="text-muted mt-2 text-[14px]">{org.official_name_lat && org.official_name_lat.toLowerCase() !== org.name_lat.toLowerCase() ? org.official_name_lat : type.name_lat}{showFounder ? ` · ${d.founder}: ` : jls ? ` · ${jls.name_lat}` : ""}{showFounder && org.founder_slug ? <Link href={href(locale, `/${org.founder_slug}`)}>{org.founder_name}</Link> : null}</p>
       <div className="mt-2 flex items-center gap-3 flex-wrap"><VerificationChip state={loc?.verification ?? org.verification} locale={locale} />{org.is_private && <Chip>{locale === "sr" ? "Privatna ustanova" : locale === "en" ? "Private institution" : locale === "ru" ? "Частное учреждение" : "Private Einrichtung"}</Chip>}<a href="#izmeni" className="text-[12.5px]">{d.editData}</a></div>
       </div></section>
       <div className="shell">
@@ -638,6 +672,11 @@ export async function OrgPage({ locale, org, locSlug, path }: { locale: Locale; 
               <dt className="text-muted">{d.website}</dt><dd className="break-all">{site ? <a href={site.startsWith("http") ? site : `https://${site}`} rel="noopener">{site.replace(/^https?:\/\//, "")}</a> : <span className="text-muted">—</span>}</dd>
               {regLine && <><dt className="text-muted">{d.registry}</dt><dd className="font-mono text-[12.5px] text-muted">{regLine}</dd></>}
             </dl>
+            {regFacts.length > 0 && (
+              <dl className="reg-facts">
+                {regFacts.map((f) => <Fragment key={f.label}><dt>{f.label}</dt><dd>{f.value}</dd></Fragment>)}
+              </dl>
+            )}
           </section>
           {sponsor && <div className="my-5"><SponsorCard label={d.sponsor} sponsor={sponsor} /></div>}
           <section data-reveal data-fx="flip" className="card ledger p-4 sm:p-5">
@@ -665,7 +704,9 @@ export async function OrgPage({ locale, org, locSlug, path }: { locale: Locale; 
             <SectionTitle>{d.about}</SectionTitle>
             <div className="prose text-[14.5px]">
               {type.description_md ? <p>{type.description_md}</p> : (
-                <p>{org.name_lat} {locale === "sr" ? `je ${type.name_lat.toLowerCase()}` : locale === "en" ? `is a ${type.name_lat.toLowerCase()}` : locale === "ru" ? `— ${type.name_lat.toLowerCase()}` : `ist ${type.name_lat.toLowerCase()}`}{org.founder_name ? ` (${d.founder.toLowerCase()}: ${org.founder_name})` : ""}{jls ? `, ${d.inPlace} ${jls.name_lat}${okrug ? `, ${okrug.name_lat}` : ""}` : ""}. {locale === "sr" ? "Podaci potiču iz zvanične Evidencije korisnika javnih sredstava Uprave za trezor; adresu, telefon i radno vreme dopunjujemo iz zvaničnih sajtova i prijava korisnika." : "Data comes from the Treasury's official register of public bodies; address, phone and hours are completed from official sites and user reports."}</p>
+                <p>{org.name_lat} {locale === "sr" ? `je ${type.name_lat.toLowerCase()}` : locale === "en" ? `is a ${type.name_lat.toLowerCase()}` : locale === "ru" ? `— ${type.name_lat.toLowerCase()}` : `ist ${type.name_lat.toLowerCase()}`}{showFounder ? ` (${d.founder.toLowerCase()}: ${org.founder_name})` : ""}{jls ? `, ${jls.name_lat}${okrug ? `, ${okrug.name_lat}` : ""}` : ""}. {sourceNames.length
+                  ? (locale === "sr" ? `Podaci potiču iz zvaničnog izvora: ${sourceNames.join("; ")}. Adresu, telefon i radno vreme dopunjujemo iz zvaničnih sajtova i prijava korisnika.` : locale === "en" ? `The data comes from an official source: ${sourceNames.join("; ")}. Address, phone and hours are completed from official sites and user reports.` : locale === "ru" ? `Данные взяты из официального источника: ${sourceNames.join("; ")}. Адрес, телефон и часы работы дополняются по официальным сайтам и сообщениям пользователей.` : `Die Daten stammen aus einer offiziellen Quelle: ${sourceNames.join("; ")}. Adresse, Telefon und Öffnungszeiten werden aus offiziellen Websites und Nutzerhinweisen ergänzt.`)
+                  : (locale === "sr" ? "Podatke dopunjujemo iz zvaničnih sajtova i prijava korisnika." : locale === "en" ? "Details are completed from official sites and user reports." : locale === "ru" ? "Данные дополняются по официальным сайтам и сообщениям пользователей." : "Die Angaben werden aus offiziellen Websites und Nutzerhinweisen ergänzt.")}</p>
               )}
             </div>
           </section>
@@ -677,7 +718,7 @@ export async function OrgPage({ locale, org, locSlug, path }: { locale: Locale; 
               {jls && <p className="mt-3 text-[14px]"><Link href={href(locale, `/${jls.slug}`)}>{d.allInstitutions} · {jls.name_lat} →</Link></p>}
             </section>
           )}
-          <CorrectionBlock locale={locale} entityType={loc ? "location" : "organization"} entityId={loc?.location_id ?? org.id} pagePath={path} lastChecked={loc?.last_seen_at ?? org.last_seen_at} sources={["Uprava za trezor (KJS)"]} />
+          <CorrectionBlock locale={locale} entityType={loc ? "location" : "organization"} entityId={loc?.location_id ?? org.id} pagePath={path} lastChecked={loc?.last_seen_at ?? org.last_seen_at} sources={sourceNames.length ? sourceNames : [locale === "sr" ? "zvanični sajt institucije" : "the institution's official site"]} />
           <ClaimBlock locale={locale} orgId={org.id} locationId={loc?.location_id ?? null} />
         </div>
         <aside className="lg:sticky lg:top-20 grid gap-5">

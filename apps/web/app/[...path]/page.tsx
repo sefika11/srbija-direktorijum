@@ -37,7 +37,7 @@ async function resolve(rest: string[]): Promise<Resolved | null> {
   const jls = await db.getTU(a, "jls");
   if (jls) {
     if (rest.length === 1) return { kind: "unit", unit: jls, parent: null };
-    if (rest.length === 2) { const go = await db.getTU(b, "gradska_opstina"); return go && go.parent_id === jls.id ? { kind: "unit", unit: go, parent: jls } : null; }
+    if (rest.length === 2) { const go = await db.getGO(jls.id, b); return go ? { kind: "unit", unit: go, parent: jls } : null; }
     return null;
   }
   const type = await db.getOrgType(a);

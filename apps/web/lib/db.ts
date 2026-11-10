@@ -34,43 +34,57 @@ const orgsIn = (path: ReturnType<typeof sql>) => sql`
      left join locations l on l.org_id = x.id and l.is_primary
      left join territorial_units p on p.id = l.territorial_unit_id
    where x.status = 'active' and (f.path <@ ${path} or p.path <@ ${path}))::int`;
+/**
+ * The same rule for every unit at once, fast: organisations are first grouped by (founder unit, seat unit) — a few hundred
+ * pairs — and each unit sums the pairs that fall under it. 0.08 s instead of 2.6 s for the correlated form (28,000 rows).
+ */
+const UNIT_COUNTS = sql`(
+  with pairs as (select x.founder_unit_id as fid, l.territorial_unit_id as pid, count(*) as n
+                 from organizations x left join locations l on l.org_id = x.id and l.is_primary where x.status = 'active' group by 1, 2),
+       pp as (select pr.n, f.path as fpath, p.path as ppath from pairs pr left join territorial_units f on f.id = pr.fid left join territorial_units p on p.id = pr.pid)
+  select u.id as uid, coalesce(sum(pp.n), 0)::int as n from territorial_units u left join pp on (pp.fpath <@ u.path or pp.ppath <@ u.path) group by u.id)`;
 export const countOrgsInUnit = (path: string) => sql<{ n: number }[]>`select ${orgsIn(sql`${path}::ltree`)} as n`.then((r) => r[0]?.n ?? 0);
+
+/** City municipality by slug WITHIN its city: Belgrade and Niš both have a Palilula. */
+export const getGO = (parentId: number, slug: string) =>
+  sql<TU[]>`select id, slug, level, name_lat, name_cyr, official_name_lat, jls_kind, parent_id, path::text, seat_name_lat, okrug_seat, population_2022, website, in_kosovo
+            from territorial_units where slug = ${slug} and level = 'gradska_opstina' and parent_id = ${parentId} and status = 'active' limit 1`.then((r) => r[0] ?? null);
 
 export const getOkruzi = () =>
   sql<(TU & { jls_count: number; go_count: number; org_count: number })[]>`
     select o.id, o.slug, o.level, o.name_lat, o.name_cyr, o.official_name_lat, o.jls_kind, o.parent_id, o.path::text, o.seat_name_lat, o.okrug_seat, o.population_2022, o.website, o.in_kosovo,
            (select count(*) from territorial_units j where j.level = 'jls' and j.path <@ o.path)::int as jls_count,
            (select count(*) from territorial_units g where g.level = 'gradska_opstina' and g.path <@ o.path)::int as go_count,
-           ${orgsIn(sql`o.path`)} as org_count
-    from territorial_units o where o.level = 'okrug' and not o.in_kosovo order by o.sort_order, o.name_lat`;
+           coalesce(c.n, 0) as org_count
+    from territorial_units o left join ${UNIT_COUNTS} c on c.uid = o.id where o.level = 'okrug' and not o.in_kosovo order by o.sort_order, o.name_lat`;
 
 export const getJlsInOkrug = (okrugId: number) =>
   sql<(TU & { org_count: number })[]>`
     select j.id, j.slug, j.level, j.name_lat, j.name_cyr, j.official_name_lat, j.jls_kind, j.parent_id, j.path::text, j.seat_name_lat, j.okrug_seat, j.population_2022, j.website, j.in_kosovo,
-           ${orgsIn(sql`j.path`)} as org_count
-    from territorial_units j where j.level = 'jls' and j.parent_id = ${okrugId} order by j.okrug_seat desc, j.name_lat`;
+           coalesce(c.n, 0) as org_count
+    from territorial_units j left join ${UNIT_COUNTS} c on c.uid = j.id where j.level = 'jls' and j.parent_id = ${okrugId} order by j.okrug_seat desc, j.name_lat`;
 
 export const getAllJls = () =>
   sql<(TU & { okrug_slug: string; okrug_name: string; org_count: number })[]>`
     select j.id, j.slug, j.level, j.name_lat, j.name_cyr, j.official_name_lat, j.jls_kind, j.parent_id, j.path::text, j.seat_name_lat, j.okrug_seat, j.population_2022, j.website, j.in_kosovo,
            o.slug as okrug_slug, o.name_lat as okrug_name,
-           ${orgsIn(sql`j.path`)} as org_count
-    from territorial_units j join territorial_units o on o.id = j.parent_id where j.level = 'jls' and not j.in_kosovo order by j.name_lat`;
+           coalesce(c.n, 0) as org_count
+    from territorial_units j join territorial_units o on o.id = j.parent_id left join ${UNIT_COUNTS} c on c.uid = j.id where j.level = 'jls' and not j.in_kosovo order by j.name_lat`;
 
 /** Municipalities and city districts for the map: JLS rows plus gradske opštine (with their city's slug). */
 export const getMapUnits = () =>
   sql<{ slug: string; name_lat: string; level: "jls" | "gradska_opstina"; jls_kind: "grad" | "opstina" | null; okrug_slug: string; parent_slug: string | null; org_count: number }[]>`
     select u.slug, u.name_lat, u.level::text as level, u.jls_kind, ok.slug as okrug_slug, case when u.level = 'gradska_opstina' then p.slug end as parent_slug,
-           ${orgsIn(sql`u.path`)} as org_count
-    from territorial_units u join territorial_units p on p.id = u.parent_id
+           coalesce(c.n, 0) as org_count
+    from territorial_units u left join ${UNIT_COUNTS} c on c.uid = u.id join territorial_units p on p.id = u.parent_id
     join territorial_units ok on ok.level = 'okrug' and ok.path @> u.path
     where u.level in ('jls','gradska_opstina') and not u.in_kosovo and u.status = 'active' order by u.level, u.name_lat`;
 
 export const getChildrenGO = (jlsId: number) =>
   sql<(TU & { org_count: number })[]>`
     select g.id, g.slug, g.level, g.name_lat, g.name_cyr, g.official_name_lat, g.jls_kind, g.parent_id, g.path::text, g.seat_name_lat, g.okrug_seat, g.population_2022, g.website, g.in_kosovo,
-           ${orgsIn(sql`g.path`)} as org_count
-    from territorial_units g where g.level = 'gradska_opstina' and g.parent_id = ${jlsId} order by g.name_lat`;
+           coalesce(c.n, 0) as org_count
+    from territorial_units g left join ${UNIT_COUNTS} c on c.uid = g.id where g.level = 'gradska_opstina' and g.parent_id = ${jlsId} order by g.name_lat`;
 
 export const getAncestors = (path: string) =>
   sql<TU[]>`select id, slug, level, name_lat, name_cyr, official_name_lat, jls_kind, parent_id, path::text, seat_name_lat, okrug_seat, population_2022, website, in_kosovo
@@ -145,6 +159,13 @@ export const getFacetValues = (typeSlug: string, key: string, min = 30) =>
 
 export const getOrg = (typeSlug: string, orgSlug: string) =>
   sql<OrgRow[]>`${ORG_SELECT} where o.slug = ${orgSlug} and t.slug = ${typeSlug} limit 1`.then((r) => r[0] ?? null);
+
+export const getOrgExtras = (orgId: number) =>
+  sql<{ description_md: string | null; sources: string[] }[]>`
+    select o.description_md,
+           coalesce((select array_agg(distinct ds.name) from provenance p join data_sources ds on ds.id = p.source_id
+                     where (p.entity_type = 'organization' and p.entity_id = o.id) or (p.entity_type = 'location' and p.entity_id in (select id from locations where org_id = o.id))), '{}') as sources
+    from organizations o where o.id = ${orgId}`.then((r) => r[0] ?? { description_md: null, sources: [] });
 
 export const getOrgChildren = (orgId: number) =>
   sql<OrgRow[]>`${ORG_SELECT} where o.parent_org_id = ${orgId} and o.status = 'active' order by o.name_lat limit 300`;

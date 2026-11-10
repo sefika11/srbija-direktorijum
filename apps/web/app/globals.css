@@ -1248,3 +1248,8 @@ a.pager-n:hover, a.pager-step:hover { border-color: var(--accent); color: var(--
 .type-tile-img { filter: drop-shadow(0 3px 5px rgb(15 27 45 / .14)); }
 .type-tile-name { display: block; font-weight: 500; font-size: 14.5px; line-height: 1.25; } .type-tile-sub { display: block; font-size: 12px; color: var(--muted); margin-top: 2px; }
 .type-tile-n { font-size: 13.5px; color: var(--accent-ink); white-space: nowrap; font-weight: 500; }
+
+/* register facts on an institution's page: what the official register says about this entry */
+.reg-facts { display: grid; grid-template-columns: minmax(96px, max-content) minmax(0, 1fr); gap: 6px 14px; margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--line); font-size: 14px; }
+.reg-facts dt { color: var(--muted); } .reg-facts dd { min-width: 0; overflow-wrap: anywhere; }
+@media (max-width: 520px) { .reg-facts { grid-template-columns: minmax(0, 1fr); gap: 2px 0; } .reg-facts dd { margin-bottom: 8px; } }
