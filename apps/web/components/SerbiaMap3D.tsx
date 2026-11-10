@@ -195,7 +195,7 @@ export default function SerbiaMap3D({ features, context = [], fit, labels, onUna
       const t = now - t0;
       let allIn = true;
       for (const u of units) {
-        if (!reduced) { const k = EASE_OUT_EXPO(Math.min(1, Math.max(0, (t - 200 - u.delay) / 1400))); if (k < 1) allIn = false; u.target = Math.max(0.001, u.base * k); }
+        if (!reduced) { const k = EASE_OUT_EXPO(Math.min(1, Math.max(0, (t - 120 - u.delay) / 1000))); if (k < 1) allIn = false; u.target = Math.max(0.001, u.base * k); }
         if (hovered === u) u.target = u.base + (2.2 + Math.sin(now / 420) * .1) * hs; else if (allIn || reduced) u.target = u.base;
         u.cur = lerp(u.cur, u.target, hovered === u ? .16 : .1);
         u.mesh.scale.y = u.cur; u.edges.scale.y = u.cur;
@@ -203,7 +203,7 @@ export default function SerbiaMap3D({ features, context = [], fit, labels, onUna
         u.top.color.copy(u.color0).lerp(HOT, u.hot * .9); u.top.emissiveIntensity = u.hot * .1;
         (u.edges.material as THREE.LineBasicMaterial).opacity = lerp((u.edges.material as THREE.LineBasicMaterial).opacity, hovered === u ? .95 : .5, .12);
       }
-      if (!reduced) camera.position.lerpVectors(camStart, camFinal, EASE_OUT_EXPO(Math.min(1, t / 2000)));
+      if (!reduced) camera.position.lerpVectors(camStart, camFinal, EASE_OUT_EXPO(Math.min(1, t / 1400)));
       else camera.position.copy(camFinal);
       sway.lerp(swayT, .05);
       camera.position.x += sway.x * radius * .1; camera.position.y += -sway.y * radius * .05;
