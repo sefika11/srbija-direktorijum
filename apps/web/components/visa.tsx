@@ -44,6 +44,14 @@ export async function VisaHub({ locale }: { locale: Locale }) {
         </div>
       </div></section>
       <div className="shell py-8 grid gap-10">
+        <section className="visa-opening grid gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] items-center">
+          <div>
+            <div className="eyebrow">{L.groupFree}</div>
+            <h2 className="display-sm mt-2">{free.length} {L.countries}</h2>
+            <p className="text-muted mt-3 max-w-[52ch]">{locale === "sr" ? "Crveno je Srbija. Plavo su države čiji građani ulaze bez vize. Otvorite pasoš bilo koje države za oba smera, dokumenta i korake do vize." : locale === "en" ? "Red is Serbia. Blue are the countries whose citizens enter visa-free. Open any country's passport for both directions, documents and the steps to a visa." : locale === "ru" ? "Красным — Сербия. Синим — страны, граждане которых въезжают без визы. Откройте паспорт любой страны: оба направления, документы и шаги к визе." : "Rot ist Serbien. Blau sind die Länder, deren Bürger visumfrei einreisen. Öffnen Sie den Pass eines Landes für beide Richtungen, Unterlagen und die Schritte zum Visum."}</p>
+          </div>
+          <PassportGlobe iso2="RS" name="Srbija" size={180} label="PASOŠ" homeLabel="Srbija" autoOpen isos={free.map((c) => c.iso2)} legend={L.free} open={locale === "sr" ? "Otvori pasoš · globus" : "Open the passport · globe"} close={locale === "sr" ? "Zatvori globus" : "Close the globe"} />
+        </section>
         <section><div className="section-head"><div><div className="eyebrow">01 · {L.groupFree}</div><h2 className="display-sm mt-2 text-[26px]">{free.length} {L.countries}</h2></div></div><Grid list={free} /></section>
         <section><div className="section-head"><div><div className="eyebrow">02 · {L.groupVisa}</div><h2 className="display-sm mt-2 text-[26px]">{visa.length} {L.countries}</h2></div></div><Grid list={visa} /></section>
       </div>

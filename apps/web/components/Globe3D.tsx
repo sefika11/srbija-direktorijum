@@ -14,11 +14,11 @@ const R = 1;
 const toVec = (lat: number, lon: number, r = R) => { const phi = THREE.MathUtils.degToRad(90 - lat), th = THREE.MathUtils.degToRad(lon + 180); return new THREE.Vector3(-r * Math.sin(phi) * Math.cos(th), r * Math.cos(phi), r * Math.sin(phi) * Math.sin(th)); };
 const cssColor = (name: string, fallback: string) => { if (typeof window === "undefined") return fallback; const v = getComputedStyle(document.documentElement).getPropertyValue(name).trim(); return v || fallback; };
 
-export default function Globe3D({ iso2, label, homeLabel = "Srbija", className }: { iso2: string; label: string; homeLabel?: string; className?: string }) {
+export default function Globe3D({ iso2, label, homeLabel = "Srbija", className, isos }: { iso2: string; label: string; homeLabel?: string; className?: string; isos?: string[] }) {
   const wrap = useRef<HTMLDivElement>(null); const canvasRef = useRef<HTMLCanvasElement>(null);
   const [mode, setMode] = useState<"3d" | "2d">("3d");
   const [ready, setReady] = useState(false);
-  const home = DATA.centroids.RS ?? [44.0, 21.0]; const dest = DATA.centroids[iso2] ?? null;
+  const home = DATA.centroids.RS ?? [44.0, 21.0]; const dest = iso2 && iso2 !== "RS" ? DATA.centroids[iso2] ?? null : null; const hl = new Set(isos ?? []);
 
   useEffect(() => {
     if (mode !== "3d") return;
@@ -45,8 +45,9 @@ export default function Globe3D({ iso2, label, homeLabel = "Srbija", className }
       const m = new THREE.PointsMaterial({ color, size, sizeAttenuation: true, transparent: true, opacity: .95, depthWrite: false });
       const p = new THREE.Points(g, m); scene.add(p); return p;
     };
-    const land = DATA.dots.filter((d) => d[2] !== "RS" && d[2] !== iso2), homeD = DATA.dots.filter((d) => d[2] === "RS"), destD = DATA.dots.filter((d) => d[2] === iso2);
+    const land = DATA.dots.filter((d) => d[2] !== "RS" && d[2] !== iso2 && !hl.has(d[2])), homeD = DATA.dots.filter((d) => d[2] === "RS"), destD = DATA.dots.filter((d) => d[2] === iso2 && iso2 !== "RS"), hlD = DATA.dots.filter((d) => hl.has(d[2]) && d[2] !== "RS");
     build(land, ink.clone().lerp(surface, .45), .015, .002);
+    if (hlD.length) build(hlD, accent, .018, .004);
     build(homeD, red, .024, .006);
     if (destD.length) build(destD, accent, .022, .006);
     // pins at the label points
@@ -96,7 +97,7 @@ export default function Globe3D({ iso2, label, homeLabel = "Srbija", className }
     raf = requestAnimationFrame(frame);
     return () => { running = false; cancelAnimationFrame(raf); ro.disconnect(); canvas.removeEventListener("pointerdown", down); canvas.removeEventListener("pointermove", move); canvas.removeEventListener("pointerup", up); canvas.removeEventListener("pointercancel", up); canvas.removeEventListener("wheel", wheel); scene.traverse((o) => { const m = o as THREE.Mesh; m.geometry?.dispose?.(); const mat = m.material as THREE.Material | undefined; mat?.dispose?.(); }); renderer.dispose(); };
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [iso2, mode]);
+  }, [iso2, mode, (isos ?? []).join(',')]);
 
   // 2D: equirectangular dotted map
   const W = 720, H = 360; const px = (lon: number) => ((lon + 180) / 360) * W, py = (lat: number) => ((90 - lat) / 180) * H;
@@ -107,7 +108,7 @@ export default function Globe3D({ iso2, label, homeLabel = "Srbija", className }
       ) : (
         <div className="globe-stage globe-flat">
           <svg viewBox={`0 ${H * .08} ${W} ${H * .8}`} className="absolute inset-0 w-full h-full" role="img" aria-label={`${homeLabel} → ${label}`}>
-            {DATA.dots.map((d, i) => <circle key={i} cx={px(d[1])} cy={py(d[0])} r={d[2] === "RS" || d[2] === iso2 ? 2.1 : 1.1} fill={d[2] === "RS" ? "var(--red)" : d[2] === iso2 ? "var(--accent)" : "color-mix(in oklab, var(--ink) 35%, var(--surface))"} />)}
+            {DATA.dots.map((d, i) => <circle key={i} cx={px(d[1])} cy={py(d[0])} r={d[2] === "RS" || d[2] === iso2 || hl.has(d[2]) ? 2.1 : 1.1} fill={d[2] === "RS" ? "var(--red)" : d[2] === iso2 || hl.has(d[2]) ? "var(--accent)" : "color-mix(in oklab, var(--ink) 35%, var(--surface))"} />)}
             {dest && <path d={`M${px(home[1])},${py(home[0])} Q${(px(home[1]) + px(dest[1])) / 2},${Math.min(py(home[0]), py(dest[0])) - Math.abs(px(home[1]) - px(dest[1])) * .25} ${px(dest[1])},${py(dest[0])}`} fill="none" stroke="var(--accent)" strokeWidth="1.6" strokeDasharray="4 3" />}
             <circle cx={px(home[1])} cy={py(home[0])} r="4" fill="var(--red)" stroke="var(--surface)" strokeWidth="1.5" />
             {dest && <circle cx={px(dest[1])} cy={py(dest[0])} r="4" fill="var(--accent)" stroke="var(--surface)" strokeWidth="1.5" />}
