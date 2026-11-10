@@ -28,7 +28,7 @@ export function VerificationChip({ state, locale }: { state: string; locale: Loc
 }
 
 export function SectionTitle({ children, id }: { children: React.ReactNode; id?: string }) {
-  return <h2 id={id} className="text-[17px] font-semibold mb-3 scroll-mt-24">{children}</h2>;
+  return <h2 id={id} className="section-title text-[17px] font-semibold mb-3 scroll-mt-24">{children}</h2>;
 }
 
 /** Reserved-size ad container. Programmatic units mount here client-side; never shifts layout. */

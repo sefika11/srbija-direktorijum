@@ -182,3 +182,14 @@ Stylesheet layout: `globals.css` has one block per selector in ten numbered sect
 - **Globe** (`lib/globe-engine.ts`): one engine for the visa stage and country pages. Natural Earth 110 m polygons (`public/geo/countries-110m.json`, tiny states as discs) painted into a texture; hover shows the country name and outline, click picks; selection fills the country blue with a white rim, draws the arc from Serbia and turns the globe; labels are DOM pills; Serbia is always red.
 - **Passports** (`components/Passport.tsx`): CSS-3D booklets with the real cover colour (EU burgundy, US/UK navy, Switzerland red, Saudi green…), the national title and the national word for "passport", an emblem medallion (Serbia's arms cropped from the flag, flag elsewhere), chip symbol, page block, spine, float and hover-open. Add countries to `COVERS`.
 - **Visa texts** are stored per locale in `countries.i18n` and `site_settings.visa_to_serbia_i18n` (sr/en/ru/de); the country page merges the locale's fields over the source. Re-translate with `importers/jobs/visa_i18n_export.py` → agents → `visa_i18n_load.py`.
+
+## 16. Depth primitives (2026-11-10, night)
+
+Reusable classes in `globals.css` §35, used across home, hubs, guides and institution pages:
+- `.plinth` raised tile with a tricolour bottom edge (stats, district tiles, the municipality picker card);
+- `.stack` paper stack under a card (contact panel, "where to go" cards);
+- `.tab` red index slab with a blue shadow line (guide-card numbers);
+- `.ledger` ruled paper with a red margin line (opening hours);
+- `.disc` 3D numbered disc (guide steps); `.slip` document slip with a red-to-blue rule (checklists);
+- `.fold` page-corner fold (guide index cards); `.deskframe` / map and globe stages framed like a desk pad with a tricolour ring;
+- `.section-title` carries a red/blue pip. Use these before inventing a new surface.

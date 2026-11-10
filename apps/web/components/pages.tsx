@@ -135,8 +135,8 @@ export async function Home({ locale }: { locale: Locale }) {
           </div>
           <div className="rail">
             {topGuides.map((g, i) => { const c = g.guide[locale] ?? g.guide.en ?? g.guide.sr ?? {}; return (
-              <Link key={g.id} href={href(locale, `/vodic/${g.slug}`)} className="guide-card spot no-underline text-ink" data-reveal style={{ "--d": `${i * 60}ms` } as React.CSSProperties}>
-                <span className="num" aria-hidden>{String(i + 1).padStart(2, "0")}</span>
+              <Link key={g.id} href={href(locale, `/vodic/${g.slug}`)} className="guide-card fold spot no-underline text-ink" data-reveal style={{ "--d": `${i * 60}ms` } as React.CSSProperties}>
+                <span className="num tab" aria-hidden>{String(i + 1).padStart(2, "0")}</span>
                 <div className="eyebrow">{g.category_name}</div>
                 <div className="font-serif text-[22px] font-semibold leading-[1.15] mt-3 pr-14 tracking-[-0.01em]">{c.title ?? g.name_lat}</div>
                 <p className="text-muted text-[13.5px] mt-2 flex-1 leading-relaxed">{c.summary ?? g.summary}</p>
@@ -177,8 +177,8 @@ export async function Home({ locale }: { locale: Locale }) {
         <div className="section-head" data-reveal>
           <div><div className="eyebrow">03 · {d.browseByRegion}</div><h2 className="display-sm mt-2">{mapTitle}</h2></div>
         </div>
-        <ul className="flex flex-wrap gap-2 text-[13.5px]" data-reveal>
-          {okruzi.map((o) => <li key={o.id}><Link href={href(locale, `/okrug/${o.slug}`)} className="quick-chip">{o.name_lat}<span className="text-muted tabular ml-1.5">{o.org_count}</span></Link></li>)}
+        <ul className="okrug-tiles" data-reveal>
+          {okruzi.map((o) => <li key={o.id}><Link href={href(locale, `/okrug/${o.slug}`)} className="okrug-tile plinth"><span>{o.name_lat}</span><span className="n tabular">{o.org_count}</span></Link></li>)}
         </ul>
       </section>
 
@@ -497,7 +497,7 @@ export async function OrgPage({ locale, org, locSlug, path }: { locale: Locale; 
       <AdSlot code="loc_top_leaderboard" w={728} h={90} mobileH={100} label={d.ad} />
       <div className="grid lg:grid-cols-[minmax(0,1fr)_300px] gap-8 items-start mt-2">
         <div className="min-w-0">
-          <section className="card p-4 sm:p-5">
+          <section className="card is-contact stack p-4 sm:p-5">
             <SectionTitle>{d.contactAndAddress}</SectionTitle>
             <dl className="grid grid-cols-[96px_minmax(0,1fr)] gap-x-3 gap-y-1.5 text-[14px]">
               <dt className="text-muted">{d.address}</dt><dd>{placeLine ?? <span className="text-muted">{loc ? `${loc.tu_name_lat}${okrug ? `, ${okrug.name_lat}` : ""} · ${locale === "sr" ? "tačna adresa još nije uneta" : "exact address not yet entered"}` : d.noData}</span>}</dd>
@@ -508,7 +508,7 @@ export async function OrgPage({ locale, org, locSlug, path }: { locale: Locale; 
             </dl>
           </section>
           {sponsor && <div className="my-5"><SponsorCard label={d.sponsor} sponsor={sponsor} /></div>}
-          <section className="card p-4 sm:p-5">
+          <section className="card ledger p-4 sm:p-5">
             <SectionTitle>{d.hours}</SectionTitle>
             {hours.length ? (
               <table className="text-[14px] tabular w-full max-w-md"><tbody>

@@ -722,3 +722,45 @@ a { color: var(--accent); }
 .hero-open::after { background-image: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M0 0l8 8M8 0L0 8' stroke='%23000' stroke-opacity='.08' stroke-width='1'/%3E%3C/svg%3E"), linear-gradient(90deg, transparent 0 34%, color-mix(in oklab, var(--red) 70%, var(--bg)) 34% 44%, var(--surface) 44% 54%, color-mix(in oklab, var(--accent) 70%, var(--bg)) 54% 64%, transparent 64%); background-size: 8px 8px, auto; background-blend-mode: multiply, normal; }
 .heritage .hz-grain { opacity: .1; }
 .band-primary::after, .hero-light::after { opacity: .7; }
+
+/* ---------- 35. Depth primitives: plinth, paper stack, tab, ledger, disc, fold, desk frame ---------- */
+.plinth { position: relative; background: var(--surface); border-radius: var(--radius); box-shadow: var(--shadow-2), 0 0 0 1px color-mix(in oklab, var(--line) 80%, transparent); overflow: hidden; }
+.plinth::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 3px; background: linear-gradient(90deg, var(--red) 0 34%, var(--surface-2) 34% 66%, var(--accent) 66%); }
+.stack { box-shadow: var(--shadow-2), 0 0 0 1px color-mix(in oklab, var(--line) 80%, transparent), 0 7px 0 -3px var(--surface), 0 8px 0 -3px color-mix(in oklab, var(--line) 90%, transparent), 0 14px 0 -6px var(--surface), 0 15px 0 -6px color-mix(in oklab, var(--line) 80%, transparent) !important; margin-bottom: 10px; }
+.tab { display: inline-flex; align-items: center; min-height: 22px; padding: 0 9px; font-family: var(--font-mono); font-size: 11px; letter-spacing: .12em; color: #fff; background: linear-gradient(180deg, color-mix(in oklab, var(--red) 90%, #fff), var(--red-ink)); border-radius: 4px 4px 2px 2px; box-shadow: 0 1px 0 rgb(255 255 255 / .25) inset, 0 3px 0 var(--accent), 0 6px 10px -6px rgb(23 24 28 / .4); transform: translateZ(0); }
+.ledger { background: repeating-linear-gradient(180deg, transparent 0 35px, color-mix(in oklab, var(--ink) 5%, transparent) 35px 36px), linear-gradient(90deg, color-mix(in oklab, var(--red) 10%, transparent) 0 2px, transparent 2px) var(--surface); background-origin: padding-box; }
+.disc { display: inline-grid; place-items: center; width: 34px; height: 34px; border-radius: 50%; color: #fff; font-family: var(--font-display); font-weight: 400; font-size: 14px; background: radial-gradient(120% 120% at 30% 25%, color-mix(in oklab, var(--accent) 65%, #fff) 0%, var(--accent) 45%, var(--accent-ink) 100%); box-shadow: 0 1px 0 rgb(255 255 255 / .35) inset, 0 -2px 0 rgb(0 0 0 / .25) inset, 0 6px 12px -6px rgb(23 24 28 / .5), 0 2px 0 var(--accent-ink); }
+.disc.is-red { background: radial-gradient(120% 120% at 30% 25%, color-mix(in oklab, var(--red) 65%, #fff) 0%, var(--red) 45%, var(--red-ink) 100%); box-shadow: 0 1px 0 rgb(255 255 255 / .35) inset, 0 -2px 0 rgb(0 0 0 / .25) inset, 0 6px 12px -6px rgb(23 24 28 / .5), 0 2px 0 var(--red-ink); }
+.fold::after { content: ""; position: absolute; top: 0; right: 0; width: 26px; height: 26px; background: linear-gradient(225deg, var(--bg) 0 50%, color-mix(in oklab, var(--surface-2) 70%, var(--line)) 50% 100%); border-bottom-left-radius: 6px; box-shadow: -2px 2px 4px rgb(23 24 28 / .12); z-index: 2; }
+.deskframe { box-shadow: var(--shadow-3), 0 0 0 1px color-mix(in oklab, var(--line) 80%, transparent), 0 0 0 6px var(--surface), 0 0 0 7px color-mix(in oklab, var(--line) 70%, transparent); border-radius: var(--radius); }
+/* home: stats as plinth tiles, district tiles, map desk frame, guide-card folds, bento plinths under the emblem */
+.stat-strip { gap: 12px; border-top: 0; }
+.stat-strip > div, .stat-strip > div:first-child { padding: 14px 16px 16px; border-left: 0; border-radius: var(--radius); background: var(--surface); position: relative; box-shadow: var(--shadow-2), 0 0 0 1px color-mix(in oklab, var(--line) 80%, transparent); overflow: hidden; }
+.stat-strip > div::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 3px; background: linear-gradient(90deg, var(--red) 0 34%, var(--surface-2) 34% 66%, var(--accent) 66%); }
+.okrug-tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; }
+.okrug-tile { display: flex; flex-direction: column; gap: 4px; padding: 12px 14px; text-decoration: none; color: var(--ink); font-size: 13.5px; font-weight: 500; transition: transform .35s var(--ease-out), box-shadow .35s var(--ease-out); }
+.okrug-tile .n { font-family: var(--font-display); font-weight: 300; font-size: 20px; letter-spacing: -0.02em; color: var(--muted); }
+.okrug-tile:hover { transform: translateY(-3px); box-shadow: var(--shadow-3), 0 0 0 1px color-mix(in oklab, var(--red) 35%, var(--line)); }
+.m3-stage, .globe-stage, .vstage-globe { box-shadow: var(--shadow-3), 0 0 0 1px color-mix(in oklab, var(--line) 80%, transparent), 0 0 0 6px var(--surface), 0 0 0 7px color-mix(in oklab, var(--line) 70%, transparent); }
+.vstage-globe { box-shadow: var(--shadow-3), 0 0 0 6px var(--surface), 0 0 0 7px color-mix(in oklab, var(--line) 70%, transparent), 0 0 0 10px color-mix(in oklab, var(--red) 10%, transparent), 0 0 0 11px color-mix(in oklab, var(--accent) 16%, transparent); }
+.bento-card .glyph-wrap::before { content: ""; position: absolute; left: 50%; bottom: 4px; width: 78%; height: 14px; transform: translateX(-50%); border-radius: 50%; background: radial-gradient(50% 50% at 50% 50%, rgb(23 24 28 / .22), transparent 70%); filter: blur(2px); z-index: -1; }
+.bento-card .glyph-wrap { position: relative; }
+.bento-card .big { font-weight: 300; }
+/* hubs: vital tiles, head ledger */
+.vital-num { background: var(--surface); box-shadow: var(--shadow-1); border-color: color-mix(in oklab, var(--red) 30%, var(--line)); }
+.vital-row { padding: 8px 0; border-bottom: 1px solid color-mix(in oklab, var(--line) 70%, transparent); }
+.hub-head .hub-glyph { transform: translateY(2px) rotate(-2deg); }
+/* guides and org pages */
+.guide-card, .card.card-hover { position: relative; }
+.guide-card .eyebrow + span, .guide-card .num-tab { }
+.step-disc { flex-shrink: 0; }
+.slip { position: relative; padding-left: 18px !important; }
+.slip::before { content: ""; position: absolute; left: 7px; top: 12px; bottom: 12px; width: 3px; border-radius: 2px; background: linear-gradient(180deg, var(--red), var(--accent)); opacity: .85; z-index: 1; }
+.card.is-contact { border-left: 4px solid var(--red); }
+.quick-chip, .btn-primary { box-shadow: var(--shadow-1); }
+.quick-chip:hover { transform: translateY(-1px); box-shadow: var(--shadow-2); }
+@media (max-width: 639px) { .stat-strip { grid-template-columns: 1fr 1fr; } .stat-strip > div:last-child { grid-column: span 2; } .okrug-tiles { grid-template-columns: repeat(2, 1fr); } }
+.section-title { display: flex; align-items: center; gap: 10px; }
+.section-title::before { content: ""; width: 6px; height: 18px; border-radius: 2px; background: linear-gradient(180deg, var(--red) 0 50%, var(--accent) 50%); box-shadow: 0 1px 0 rgb(255 255 255 / .6) inset, 0 2px 4px -2px rgb(23 24 28 / .5); }
+.guide-card .num.tab { position: absolute; top: 14px; right: 14px; font-size: 11px; opacity: 1; color: #fff; line-height: 1; }
+.guide-card.fold::after { display: none; } /* the tab replaces the fold on home guide cards */

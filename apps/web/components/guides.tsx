@@ -69,7 +69,7 @@ export async function GuidesHub({ locale }: { locale: Locale }) {
             <SectionTitle>{c.name}</SectionTitle>
             <ul className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {c.items.map((g) => { const { c: gc } = content(g, locale); return (
-                <li key={g.id} className="card card-hover p-5 flex flex-col">
+                <li key={g.id} className="card card-hover fold p-5 flex flex-col">
                   <Link href={href(locale, `/vodic/${g.slug}`)} className="font-serif text-[19px] font-semibold leading-snug no-underline text-ink hover:text-accent">{gc.title ?? g.name_lat}</Link>
                   <p className="text-muted text-[13.5px] mt-2 flex-1">{gc.summary ?? g.summary}</p>
                   <div className="mt-3 flex items-center gap-2 text-[12px] text-muted">{g.status === "full" ? <span className="rounded-full bg-gold-soft text-gold px-2 py-0.5 font-medium">✓ {L.checked}{g.checked_at ? ` ${g.checked_at}` : ""}</span> : <span className="rounded-full bg-surface-2 px-2 py-0.5">{L.inPreparation}</span>}{g.online_available && <span className="rounded-full bg-accent-soft text-accent-ink px-2 py-0.5">eUprava</span>}</div>
@@ -117,7 +117,7 @@ export async function GuidePage({ locale, guide, jlsSlug, path }: { locale: Loca
               {lang !== locale && <span className="rounded-full bg-surface-2 px-2.5 py-1 text-muted">{lang.toUpperCase()}</span>}
             </div>
           </div>
-          <div className="card p-4 shadow-sm">
+          <div className="card plinth p-4">
             <MunicipalityPicker units={allJls.map((u) => ({ slug: u.slug, name_lat: u.name_lat, jls_kind: u.jls_kind }))} value={jls?.slug ?? null} basePath={basePath} label={L.yourMunicipality} placeholder={L.choose} />
             {!jls && <p className="text-[12.5px] text-muted mt-2">{L.pickHint}</p>}
           </div>
@@ -133,7 +133,7 @@ export async function GuidePage({ locale, guide, jlsSlug, path }: { locale: Loca
             {jls && serving.length > 0 ? (
               <ul className="grid gap-3">
                 {serving.map((s) => { const ph = contacts.filter((x) => x.location_id === s.location_id && (x.kind === "phone" || x.kind === "mobile")); const hr = compactHours(hours.filter((h) => h.location_id === s.location_id), locale); const url = href(locale, `/${s.org_type_slug}/${s.org_slug}/${s.location_slug}`); return (
-                  <li key={s.location_id} className="card p-4 sm:p-5 grid sm:grid-cols-[minmax(0,1fr)_auto] gap-4">
+                  <li key={s.location_id} className="card stack is-contact p-4 sm:p-5 grid sm:grid-cols-[minmax(0,1fr)_auto] gap-4">
                     <div className="min-w-0">
                       <div className="eyebrow">{s.org_name_lat}</div>
                       <Link href={url} className="font-serif text-[19px] font-semibold no-underline text-ink hover:text-accent">{s.unit_name_lat}</Link>
@@ -161,7 +161,7 @@ export async function GuidePage({ locale, guide, jlsSlug, path }: { locale: Loca
 
           {c.documents?.length ? <section><SectionTitle>{L.documents}</SectionTitle>
             <ul className="grid gap-2">{c.documents.map((doc, i) => (
-              <li key={i} className="card p-3.5 flex gap-3 items-start"><span className="mt-0.5 inline-grid place-items-center w-5 h-5 rounded border border-line text-[11px] text-muted shrink-0">{i + 1}</span>
+              <li key={i} className="card slip p-3.5 flex gap-3 items-start"><span className="mt-0.5 inline-grid place-items-center w-5 h-5 rounded border border-line text-[11px] text-muted shrink-0">{i + 1}</span>
                 <div className="min-w-0"><div className="font-medium text-[14.5px]">{doc.name}</div>{doc.note && <div className="text-muted text-[13px] mt-0.5">{doc.note}</div>}{doc.variants?.length ? <ul className="mt-1.5 text-[13px] text-muted grid gap-0.5">{doc.variants.map((v, j) => <li key={j}>· {v}</li>)}</ul> : null}</div></li>))}</ul></section> : null}
 
           {guide.fees?.length ? <section><SectionTitle>{L.fees}</SectionTitle>
@@ -172,7 +172,7 @@ export async function GuidePage({ locale, guide, jlsSlug, path }: { locale: Loca
           {guide.typical_duration && <section><SectionTitle>{L.duration}</SectionTitle><p className="text-[14.5px]">{guide.typical_duration}</p></section>}
 
           {c.steps?.length ? <section><SectionTitle>{L.steps}</SectionTitle>
-            <ol className="grid gap-3">{c.steps.map((s, i) => <li key={i} className="flex gap-3.5"><span className="shrink-0 w-8 h-8 rounded-full bg-accent text-white grid place-items-center font-semibold text-[13px]">{i + 1}</span><p className="text-[14.5px] pt-1">{s}</p></li>)}</ol></section> : null}
+            <ol className="grid gap-3">{c.steps.map((s, i) => <li key={i} className="flex gap-3.5"><span className="disc step-disc">{i + 1}</span><p className="text-[14.5px] pt-1">{s}</p></li>)}</ol></section> : null}
 
           {vertical && <section id="ponuda"><LeadForm locale={locale} vertical={vertical} context={{ page_path: path, location_id: serving[0]?.location_id ?? null, territorial_unit_id: jls?.id ?? null }} /></section>}
           <AdSlot code="svc_in_content_1" w={728} h={90} mobileH={250} label={d.ad} />
