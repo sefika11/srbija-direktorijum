@@ -154,12 +154,104 @@
    "for_foreigners": "Foreigners born or married in Serbia request the extract from the registrar of the place of entry, or on eUprava with an account; choose the international form for use abroad."
   },
   "ru": {
+   "faq": [
+    {
+     "q": "Бесплатна ли электронная выписка?",
+     "a": "Да, она бесплатна независимо от цели."
+    },
+    {
+     "q": "Чью выписку можно запросить?",
+     "a": "Свою, супруга или супруги, родителей, детей, братьев и сестёр, а также как опекун или представитель при наличии подтверждающего документа."
+    },
+    {
+     "q": "Сколько времени это занимает?",
+     "a": "У регистратора есть 8 дней; для бумажной выписки добавьте время доставки почтой."
+    },
+    {
+     "q": "Как проверить распечатанную электронную выписку?",
+     "a": "Отсканируйте её QR-код."
+    },
+    {
+     "q": "Когда нужна международная форма?",
+     "a": "Для использования за границей; форму вы выбираете при подаче заявления."
+    }
+   ],
+   "who": [
+    "Лицо, которого касается запись.",
+    "Супруг или супруга, родители, дети, братья и сёстры.",
+    "Опекун или представитель с документом, подтверждающим статус."
+   ],
+   "steps": [
+    "Войдите на eUprava (через ConsentID или квалифицированный сертификат).",
+    "Выберите услугу eIzvod, проверьте свои данные и укажите цель.",
+    "Выберите форму (внутренняя, двуязычная, международная) и формат (электронный или бумажный).",
+    "Для бумажной выписки оплатите пошлину по созданной квитанции, если цель не освобождает от оплаты.",
+    "Получите выписку в электронном почтовом ящике (eDatabox) или дождитесь заказного письма; обработка занимает 8 дней."
+   ],
    "title": "Свидетельства о рождении, браке и смерти",
-   "summary": "Выписки и справки из книг записи актов, включая международные."
+   "summary": "Выписки и справки из книг записи актов, включая международные.",
+   "documents": [
+    {
+     "name": "Заявление",
+     "note": "Для себя или близкого родственника дополнительные документы не нужны; опекун или представитель прилагает подтверждающий документ. Вы указываете цель, от которой зависит размер пошлины.",
+     "variants": [
+      "Форма: внутренняя, двуязычная или международная (для использования за границей).",
+      "Формат: электронный (бесплатно) или бумажный (пошлина и доставка)."
+     ]
+    }
+   ],
+   "where_note": "Быстрее всего онлайн на eUprava (услуга eIzvod) с приложением ConsentID или сертификатом; либо лично у регистратора в администрации общины или города.",
+   "for_foreigners": "Иностранцы, родившиеся или вступившие в брак в Сербии, запрашивают выписку у регистратора по месту записи или на eUprava через учётную запись; для использования за границей выберите международную форму."
   },
   "de": {
    "title": "Geburts-, Heirats- und Sterbeurkunden",
-   "summary": "Auszüge und Bescheinigungen aus den Personenstandsregistern, auch international."
+   "summary": "Auszüge und Bescheinigungen aus den Personenstandsregistern, auch international.",
+   "where_note": "Am schnellsten online auf eUprava (Dienst eIzvod) mit der App ConsentID oder einem Zertifikat; oder persönlich beim Standesbeamten (matičar) in einer Gemeinde- oder Stadtverwaltung.",
+   "who": [
+    "Die Person, auf die sich der Eintrag bezieht.",
+    "Ehepartner, Eltern, Kinder, Geschwister.",
+    "Ein Vormund oder Bevollmächtigter mit Nachweis seiner Stellung."
+   ],
+   "documents": [
+    {
+     "name": "Antrag",
+     "note": "Für sich selbst oder einen nahen Angehörigen sind keine weiteren Unterlagen nötig; ein Vormund oder Bevollmächtigter legt einen Nachweis bei. Sie wählen den Zweck, der die Gebühr bestimmt.",
+     "variants": [
+      "Form: inländisch, zweisprachig oder international (für die Verwendung im Ausland).",
+      "Format: elektronisch (kostenlos) oder auf Papier (Gebühr + Zustellung)."
+     ]
+    }
+   ],
+   "steps": [
+    "Melden Sie sich bei eUprava an (ConsentID oder qualifiziertes Zertifikat).",
+    "Wählen Sie den Dienst eIzvod, prüfen Sie Ihre Daten und wählen Sie den Zweck.",
+    "Wählen Sie die Form (inländisch, zweisprachig, international) und das Format (elektronisch oder Papier).",
+    "Zahlen Sie bei Papier die Gebühr mit dem erzeugten Zahlschein, sofern der Zweck nicht befreit ist.",
+    "Holen Sie den Auszug aus Ihrem eDatabox ab oder warten Sie auf den Einschreibebrief; die Bearbeitung dauert 8 Tage."
+   ],
+   "faq": [
+    {
+     "q": "Ist der elektronische Auszug kostenlos?",
+     "a": "Ja, ohne Gebühr, unabhängig vom Zweck."
+    },
+    {
+     "q": "Wessen Auszug kann ich beantragen?",
+     "a": "Ihren eigenen, den Ihres Ehepartners, Ihrer Eltern, Kinder und Geschwister, oder als Vormund oder Bevollmächtigter mit Nachweis."
+    },
+    {
+     "q": "Wie lange dauert es?",
+     "a": "Der Standesbeamte hat 8 Tage; bei Papier kommt die Postlaufzeit hinzu."
+    },
+    {
+     "q": "Wie wird ein ausgedruckter e-Auszug überprüft?",
+     "a": "Durch Scannen seines QR-Codes."
+    },
+    {
+     "q": "Wann brauche ich die internationale Form?",
+     "a": "Für die Verwendung im Ausland; Sie wählen sie bei der Antragstellung."
+    }
+   ],
+   "for_foreigners": "Ausländer, die in Serbien geboren wurden oder dort geheiratet haben, beantragen den Auszug beim Standesbeamten des Eintragungsortes oder auf eUprava mit einem Konto; wählen Sie für die Verwendung im Ausland die internationale Form."
   }
  },
  "legal_basis": "Zakon o matičnim knjigama; ZRAT tarifni broj 221."

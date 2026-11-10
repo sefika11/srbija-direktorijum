@@ -229,12 +229,144 @@
    "for_foreigners": "A foreigner with residence longer than 6 months exchanges a foreign licence: the licence with a court-interpreter translation, foreigner's ID or passport, proof of residence, medical certificate under 6 months and the slip. Fee RSD 11,970 plus RSD 370 for the request. Probationary and temporary foreign licences are not exchanged."
   },
   "ru": {
+   "faq": [
+    {
+     "q": "Как долго действует пробное удостоверение?",
+     "a": "Два года, если вы сдали экзамен в 19 лет или позже; до 21 года, если сдали раньше."
+    },
+    {
+     "q": "Нужна ли новая медицинская справка для замены?",
+     "a": "Только если прежнее удостоверение было выдано менее чем на 10 лет по состоянию здоровья или вам больше 65 лет; справка должна быть не старше 6 месяцев."
+    },
+    {
+     "q": "Можно ли заменить удостоверение онлайн?",
+     "a": "Да, при истечении срока, утере, краже или повреждении — на eUprava, с удостоверением личности не старше 5 лет, квалифицированным сертификатом и оплаченной пошлиной. Первое удостоверение оформляется лично."
+    },
+    {
+     "q": "Сколько это стоит?",
+     "a": "Государственные сборы по тарифу № 40: заявление 370 RSD, выдача 1.490, дубликат 2.120, обмен иностранного удостоверения 11.970; плюс стоимость бланка, указанная в квитанции eUprava."
+    },
+    {
+     "q": "Выдаётся ли удостоверение сразу?",
+     "a": "Установленный законом срок — 30 дней со дня получения заявления; срочная выдача возможна только при наличии подтверждения срочности."
+    }
+   ],
+   "who": [
+    "Новые водители после экзамена: сначала выдаётся пробное удостоверение (категории A1, A2, A, B1, B).",
+    "Водители, у которых удостоверение истекает, утеряно или повреждено.",
+    "Граждане Сербии и иностранцы, проживающие более 6 месяцев, которые обменивают иностранное удостоверение."
+   ],
+   "steps": [
+    "Сдайте экзамен по вождению и экзамен по оказанию первой помощи.",
+    "Получите медицинскую справку о пригодности для вашей категории; она действует 6 месяцев.",
+    "Создайте и оплатите квитанцию на eUprava (сборы и стоимость бланка).",
+    "Подайте заявление лично в управлении полиции с оригиналами документов; фото делают у окна приёма.",
+    "Получите пробное удостоверение; по окончании пробного срока подайте заявление на полное удостоверение.",
+    "Последующая замена оформляется через eUprava или у окна приёма, не раньше чем за 30 дней до истечения срока."
+   ],
    "title": "Водительское удостоверение",
-   "summary": "Первое удостоверение после экзамена, замена просроченного или повреждённого, дубликат."
+   "summary": "Первое удостоверение после экзамена, замена просроченного или повреждённого, дубликат.",
+   "documents": [
+    {
+     "name": "Пробное удостоверение (первое после экзамена)",
+     "note": "Медицинская справка о пригодности (не старше 6 месяцев), свидетельства о сданных экзаменах по вождению и первой помощи, удостоверение личности, платёжная квитанция eUprava. Фото делают у окна приёма.",
+     "variants": [
+      "Действует 2 года, если вы сдали экзамен в 19 лет или позже, и до 21 года, если раньше.",
+      "Учащиеся профессиональных школ: 1 год."
+     ]
+    },
+    {
+     "name": "Полное удостоверение после пробного срока",
+     "note": "Пробное удостоверение, удостоверение личности, квитанция; свидетельство о первой помощи — только если оно не подавалось ранее. Выдаётся на 10 лет или меньше в соответствии с медицинским заключением."
+    },
+    {
+     "name": "Замена при истечении срока, утере или повреждении",
+     "note": "Удостоверение личности и квитанция. Медицинская справка — только если прежнее удостоверение было выдано менее чем на 10 лет по состоянию здоровья или вам больше 65 лет.",
+     "variants": [
+      "На eUprava: удостоверение личности не старше 5 лет, квалифицированный электронный сертификат, оплаченная пошлина."
+     ]
+    },
+    {
+     "name": "Обмен иностранного удостоверения",
+     "note": "Иностранное удостоверение с переводом судебного переводчика, медицинская справка (не старше 6 месяцев), удостоверение личности или проездной документ, квитанция. Иностранцы добавляют документ о проживании более 6 месяцев.",
+     "variants": [
+      "Пробные, временные и аннулированные иностранные удостоверения не обмениваются.",
+      "Иметь удостоверения двух стран нельзя."
+     ]
+    }
+   ],
+   "where_note": "Управление полиции или отделение полиции по месту регистрации (или по месту пребывания, если вы живёте там более 3 месяцев). Замену при истечении срока, утере или повреждении можно оформить и на eUprava с действующим удостоверением личности и квалифицированным сертификатом; первое (пробное) удостоверение и полное удостоверение после пробного срока оформляются лично.",
+   "for_foreigners": "Иностранец, проживающий более 6 месяцев, обменивает иностранное удостоверение: нужны удостоверение с переводом судебного переводчика, удостоверение личности иностранца или паспорт, документ о проживании, медицинская справка не старше 6 месяцев и квитанция. Пошлина 11.970 RSD плюс 370 RSD за заявление. Пробные и временные иностранные удостоверения не обмениваются."
   },
   "de": {
    "title": "Führerschein",
-   "summary": "Erster Führerschein nach der Prüfung, Umtausch bei Ablauf oder Beschädigung, Zweitschrift."
+   "summary": "Erster Führerschein nach der Prüfung, Umtausch bei Ablauf oder Beschädigung, Zweitschrift.",
+   "where_note": "Polizeidirektion oder Polizeistation für Ihre gemeldete Adresse (oder Ihren Aufenthaltsort, wenn Sie dort seit über 3 Monaten leben). Die Verlängerung bei Ablauf, Verlust oder Beschädigung ist auch auf eUprava mit gültigem Personalausweis und qualifiziertem Zertifikat möglich; der erste (probeweise) Führerschein und der volle Führerschein nach der Probezeit werden persönlich beantragt.",
+   "who": [
+    "Neue Fahrer nach der Prüfung: Zuerst wird ein Führerschein auf Probe ausgestellt (Klassen A1, A2, A, B1, B).",
+    "Fahrer, deren Führerschein abläuft, verloren oder beschädigt ist.",
+    "Serbische Staatsbürger und Ausländer mit einem Aufenthalt von über 6 Monaten, die einen ausländischen Führerschein umtauschen."
+   ],
+   "documents": [
+    {
+     "name": "Führerschein auf Probe (erster nach der Prüfung)",
+     "note": "Bescheinigung der gesundheitlichen Eignung (jünger als 6 Monate), Bescheinigungen über die bestandene Fahrprüfung und die Erste-Hilfe-Prüfung, Personalausweis, Zahlschein von eUprava. Das Foto wird am Schalter gemacht.",
+     "variants": [
+      "Gültig 2 Jahre, wenn Sie die Prüfung mit 19 oder älter bestanden haben, bis zum Alter von 21 Jahren, wenn früher.",
+      "Berufsschüler: 1 Jahr."
+     ]
+    },
+    {
+     "name": "Voller Führerschein nach der Probezeit",
+     "note": "Führerschein auf Probe, Personalausweis, Zahlschein; Erste-Hilfe-Bescheinigung nur, wenn sie nicht schon früher eingereicht wurde. Ausgestellt für 10 Jahre oder weniger nach dem ärztlichen Befund."
+    },
+    {
+     "name": "Verlängerung bei Ablauf, Verlust oder Beschädigung",
+     "note": "Personalausweis und Zahlschein. Ärztliche Bescheinigung nur, wenn der bisherige Führerschein aus gesundheitlichen Gründen für weniger als 10 Jahre ausgestellt wurde oder Sie über 65 sind.",
+     "variants": [
+      "Auf eUprava: Personalausweis jünger als 5 Jahre, qualifiziertes elektronisches Zertifikat, bezahlte Gebühr."
+     ]
+    },
+    {
+     "name": "Umtausch eines ausländischen Führerscheins",
+     "note": "Ausländischer Führerschein mit Übersetzung eines Gerichtsdolmetschers, ärztliche Bescheinigung (jünger als 6 Monate), Ausweis oder Reisedokument, Zahlschein. Ausländer fügen den Nachweis eines Aufenthalts von über 6 Monaten bei.",
+     "variants": [
+      "Ausländische Führerscheine auf Probe, vorläufige und entzogene Führerscheine werden nicht umgetauscht.",
+      "Der Besitz von Führerscheinen zweier Länder ist nicht erlaubt."
+     ]
+    }
+   ],
+   "steps": [
+    "Bestehen Sie die Fahrprüfung und die Erste-Hilfe-Prüfung.",
+    "Holen Sie die Bescheinigung der gesundheitlichen Eignung für die Klasse ein; sie gilt 6 Monate.",
+    "Erzeugen Sie den Zahlschein auf eUprava (Gebühren und Formularkosten) und bezahlen Sie ihn.",
+    "Stellen Sie den Antrag persönlich bei der Polizeidirektion mit den Originalunterlagen; das Foto wird am Schalter gemacht.",
+    "Holen Sie den Führerschein auf Probe ab; wenn die Probezeit endet, beantragen Sie den vollen Führerschein.",
+    "Spätere Verlängerungen laufen über eUprava oder den Schalter, ab 30 Tagen vor Ablauf."
+   ],
+   "faq": [
+    {
+     "q": "Wie lange ist der Führerschein auf Probe gültig?",
+     "a": "Zwei Jahre, wenn Sie mit 19 oder älter bestanden haben; bis zum Alter von 21 Jahren, wenn Sie früher bestanden haben."
+    },
+    {
+     "q": "Brauche ich für die Verlängerung eine neue ärztliche Bescheinigung?",
+     "a": "Nur, wenn der bisherige Führerschein aus gesundheitlichen Gründen für weniger als 10 Jahre ausgestellt wurde oder Sie über 65 sind; die Bescheinigung muss jünger als 6 Monate sein."
+    },
+    {
+     "q": "Kann ich online verlängern?",
+     "a": "Ja, bei Ablauf, Verlust, Diebstahl oder Beschädigung auf eUprava mit einem Personalausweis jünger als 5 Jahre, einem qualifizierten Zertifikat und bezahlter Gebühr. Der erste Führerschein wird persönlich beantragt."
+    },
+    {
+     "q": "Was kostet er?",
+     "a": "Staatliche Gebühren nach Tarif Nr. 40: Antrag 370 RSD, Ausstellung 1.490, Zweitschrift 2.120, Umtausch eines ausländischen Führerscheins 11.970; hinzu kommen die Formularkosten, die auf dem Zahlschein von eUprava stehen."
+    },
+    {
+     "q": "Wird er sofort ausgestellt?",
+     "a": "Die gesetzliche Frist beträgt 30 Tage ab Eingang; eine Eilausstellung gibt es nur mit Nachweis der Dringlichkeit."
+    }
+   ],
+   "for_foreigners": "Ein Ausländer mit einem Aufenthalt von mehr als 6 Monaten tauscht einen ausländischen Führerschein um: Führerschein mit Übersetzung eines Gerichtsdolmetschers, Ausweis für Ausländer oder Reisepass, Aufenthaltsnachweis, ärztliche Bescheinigung jünger als 6 Monate und Zahlschein. Gebühr 11.970 RSD plus 370 RSD für den Antrag. Ausländische Führerscheine auf Probe und vorläufige Führerscheine werden nicht umgetauscht."
   }
  },
  "legal_basis": "Zakon o bezbednosti saobraćaja na putevima; Zakon o republičkim administrativnim taksama, tarifni broj 40; Uredba o cenama obrazaca MUP."

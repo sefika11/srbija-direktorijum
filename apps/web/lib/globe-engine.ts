@@ -169,7 +169,8 @@ export class GlobeEngine {
     };
     const up = (e: PointerEvent) => { const was = this.dragging; this.dragging = false; if (performance.now() - this.lastMove > 80) this.vel = { x: 0, y: 0 }; if (!was || moved > 4) return; const iso = hit(e); if (iso && (!this.o.pickable || this.o.pickable.has(iso))) { this.touched = false; this.o.onPick?.(iso); } };
     const leave = () => { if (this.hov) { this.hov = null; this.paintOverlay(); this.o.onHover?.(null); } this.tip.style.display = "none"; cv.style.cursor = "grab"; };
-    const wheel = (e: WheelEvent) => { e.preventDefault(); this.camDist = THREE.MathUtils.clamp(this.camDist * (1 + Math.sign(e.deltaY) * Math.min(.08, Math.abs(e.deltaY) * .0012)), 1.9, 3.8); };
+    /* plain wheel scrolls the page (the globe used to trap it); pinch or Ctrl/Cmd + wheel zooms */
+    const wheel = (e: WheelEvent) => { if (!e.ctrlKey && !e.metaKey) return; e.preventDefault(); this.camDist = THREE.MathUtils.clamp(this.camDist * (1 + Math.sign(e.deltaY) * Math.min(.08, Math.abs(e.deltaY) * .0012)), 1.9, 3.8); };
     cv.addEventListener("pointerdown", down); cv.addEventListener("pointermove", move); cv.addEventListener("pointerup", up); cv.addEventListener("pointerleave", leave); cv.addEventListener("pointercancel", () => { this.dragging = false; }); cv.addEventListener("wheel", wheel, { passive: false });
     cv.style.cursor = "grab"; cv.style.touchAction = "none";
     this.dispose.push(() => { cv.removeEventListener("pointerdown", down); cv.removeEventListener("pointermove", move); cv.removeEventListener("pointerup", up); cv.removeEventListener("pointerleave", leave); cv.removeEventListener("wheel", wheel); });

@@ -246,12 +246,136 @@
    "for_foreigners": "Notaries draw up documents in Serbian; a party who does not understand it signs a clause that the content was translated, so an interpreter attends. A foreign-language document is possible only if the notary is a court translator for that language and it is for use abroad. For property purchases a foreigner may need a non-resident PIB."
   },
   "ru": {
+   "faq": [
+    {
+     "q": "Нужно ли заверять договор купли-продажи квартиры у нотариуса?",
+     "a": "Да. Договор о передаче недвижимости должен быть заверен (solemnised), иначе он не имеет юридической силы."
+    },
+    {
+     "q": "Сколько стоит заверение подписи?",
+     "a": "648 RSD за подпись, включая НДС; 2.160 RSD для представителя компании."
+    },
+    {
+     "q": "Сколько стоит заверение копии?",
+     "a": "216 RSD за страницу плюс 432 RSD за документ по таблице тарифа."
+    },
+    {
+     "q": "Что делать, если я не говорю по-сербски?",
+     "a": "В документе должна быть оговорка, что его содержание полностью переведено; на практике нотариус просит привлечь судебного переводчика."
+    },
+    {
+     "q": "Действует ли тариф в 2026 году?",
+     "a": "Стоимость пункта 180 RSD (Официальный вестник 59/2025) — последняя из опубликованных; уточните в конторе."
+    }
+   ],
+   "who": [
+    "Все, кому нужно заверить подпись, копию или перевод, составить доверенность или заявление.",
+    "Покупатели и продавцы недвижимости: договор должен быть заверен нотариусом.",
+    "Наследники: нотариус ведёт наследственное дело как уполномоченный суда."
+   ],
+   "steps": [
+    "Определите, что вам нужно: заверение подписи или копии, доверенность или договор (solemnisation).",
+    "Выберите нотариуса и запишитесь на приём.",
+    "Возьмите удостоверение личности и документ; для недвижимости — выписку из реестра (folio) и документ о праве собственности.",
+    "Если вы не говорите по-сербски, приведите судебного переводчика.",
+    "Подпишите документ у нотариуса и оплатите тарифный сбор и расходы.",
+    "Получите заверенный документ сразу."
+   ],
    "title": "Заверение у нотариуса",
-   "summary": "Заверение подписей, копий и заявлений, договоры о недвижимости, наследство и доверенности."
+   "summary": "Заверение подписей, копий и заявлений, договоры о недвижимости, наследство и доверенности.",
+   "documents": [
+    {
+     "name": "Удостоверение личности или паспорт",
+     "note": "Иностранцы: паспорт или удостоверение личности иностранца."
+    },
+    {
+     "name": "Документ, который нужно заверить",
+     "note": "Подпишите его в присутствии нотариуса (принесите неподписанным); для заверения копии принесите оригинал."
+    },
+    {
+     "name": "Для договора о недвижимости",
+     "note": "Выписка из реестра недвижимости (folio), документ о праве собственности, данные сторон и проект договора; точный перечень уточните в конторе.",
+     "variants": [
+      "Иностранец-нерезидент: PIB нерезидента (см. инструкцию по PIB)."
+     ]
+    },
+    {
+     "name": "Доверенность",
+     "note": "Если сторона не может прийти: нотариальный акт или заверенная доверенность."
+    },
+    {
+     "name": "Переводчик",
+     "note": "Если сторона не понимает сербский язык, в документе должна быть оговорка, что его содержание полностью переведено; на практике присутствует судебный переводчик."
+    }
+   ],
+   "where_note": "Для заверения подписей и копий подойдёт любая нотариальная контора; все нотариусы перечислены на этом сайте и на beleznik.org. Район нотариуса совпадает с районом основного суда, в котором расположена контора; наследственными делами занимаются нотариусы в районе компетентного суда.",
+   "for_foreigners": "Нотариусы составляют документы на сербском языке; сторона, не понимающая его, подписывает оговорку о переводе содержания, поэтому присутствует переводчик. Документ на иностранном языке возможен, только если нотариус является судебным переводчиком этого языка и документ предназначен для использования за границей. При покупке недвижимости иностранцу может понадобиться PIB нерезидента."
   },
   "de": {
    "title": "Beglaubigung beim Notar",
-   "summary": "Beglaubigung von Unterschriften, Abschriften und Erklärungen, Immobilienverträge, Nachlass und Vollmachten."
+   "summary": "Beglaubigung von Unterschriften, Abschriften und Erklärungen, Immobilienverträge, Nachlass und Vollmachten.",
+   "where_note": "Jedes Notariat (javni beležnik) für die Beglaubigung von Unterschriften und Abschriften; alle Notare sind auf dieser Website und auf beleznik.org aufgeführt. Der Amtsbereich eines Notars ist der des Grundgerichts, in dem das Notariat seinen Sitz hat; Nachlasssachen bearbeiten Notare im Bereich des zuständigen Gerichts.",
+   "who": [
+    "Alle, die eine Unterschrift, Abschrift oder Übersetzung beglaubigen lassen müssen, eine Vollmacht oder eine Erklärung benötigen.",
+    "Käufer und Verkäufer von Immobilien: Der Vertrag muss von einem Notar beurkundet werden.",
+    "Erben: Der Notar führt das Nachlassverfahren als Beauftragter des Gerichts durch."
+   ],
+   "documents": [
+    {
+     "name": "Personalausweis oder Reisepass",
+     "note": "Ausländer: Reisepass oder Ausweis für Ausländer."
+    },
+    {
+     "name": "Das zu beglaubigende Dokument",
+     "note": "Unterschreiben Sie vor dem Notar (bringen Sie es ohne Unterschrift mit); für die Beglaubigung einer Abschrift bringen Sie das Original mit."
+    },
+    {
+     "name": "Für einen Immobilienvertrag",
+     "note": "Grundbuchauszug, Eigentumsnachweis, Angaben der Parteien und der Vertragsentwurf; lassen Sie sich die genaue Liste vom Notariat bestätigen.",
+     "variants": [
+      "Nicht ansässiger Ausländer: PIB für Nichtansässige (siehe die Anleitung zur PIB)."
+     ]
+    },
+    {
+     "name": "Vollmacht",
+     "note": "Wenn eine Partei nicht erscheinen kann: notarielle Urkunde oder beurkundete Vollmacht."
+    },
+    {
+     "name": "Dolmetscher",
+     "note": "Versteht eine Partei kein Serbisch, muss das Dokument eine Klausel enthalten, dass sein Inhalt vollständig übersetzt wurde; in der Praxis erscheint ein Gerichtsdolmetscher."
+    }
+   ],
+   "steps": [
+    "Legen Sie fest, was Sie brauchen: Beglaubigung einer Unterschrift oder Abschrift, Vollmacht oder Vertrag (Beurkundung).",
+    "Wählen Sie einen Notar und buchen Sie einen Termin.",
+    "Bringen Sie Ihren Ausweis und das Dokument mit; bei Immobilien den Grundbuchauszug und den Eigentumsnachweis.",
+    "Wenn Sie kein Serbisch sprechen, bringen Sie einen Gerichtsdolmetscher mit.",
+    "Unterschreiben Sie vor dem Notar und zahlen Sie die Tarifgebühr und die Kosten.",
+    "Nehmen Sie das beglaubigte Dokument sofort mit."
+   ],
+   "faq": [
+    {
+     "q": "Muss ein Wohnungskaufvertrag über einen Notar laufen?",
+     "a": "Ja. Ein Immobilienübertragungsvertrag muss beurkundet werden, sonst hat er keine Rechtswirkung."
+    },
+    {
+     "q": "Wie viel kostet die Beglaubigung einer Unterschrift?",
+     "a": "648 RSD pro Unterschrift einschließlich MwSt.; 2.160 RSD für einen Firmenvertreter."
+    },
+    {
+     "q": "Wie viel kostet die Beglaubigung einer Abschrift?",
+     "a": "216 RSD pro Seite, zuzüglich 432 RSD pro Dokument nach der Tariftabelle."
+    },
+    {
+     "q": "Was, wenn ich kein Serbisch spreche?",
+     "a": "Das Dokument muss eine Klausel enthalten, dass sein Inhalt vollständig übersetzt wurde; in der Praxis verlangt der Notar einen Gerichtsdolmetscher."
+    },
+    {
+     "q": "Gilt der Tarif auch für 2026?",
+     "a": "Der Punktwert von 180 RSD (Amtsblatt 59/2025) ist der zuletzt veröffentlichte; bestätigen Sie ihn beim Notariat."
+    }
+   ],
+   "for_foreigners": "Notare erstellen Dokumente auf Serbisch; eine Partei, die es nicht versteht, unterschreibt eine Klausel, dass der Inhalt übersetzt wurde, daher erscheint ein Dolmetscher. Ein fremdsprachiges Dokument ist nur möglich, wenn der Notar für diese Sprache Gerichtsübersetzer ist und das Dokument für die Verwendung im Ausland bestimmt ist. Beim Immobilienkauf braucht ein Ausländer möglicherweise eine PIB für Nichtansässige."
   }
  },
  "legal_basis": "Zakon o javnom beležništvu; Javnobeležnička tarifa (vrednost boda 180 RSD, Sl. glasnik 59/2025); Zakon o prometu nepokretnosti, član 4."

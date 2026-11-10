@@ -175,12 +175,126 @@
    "for_foreigners": "Foreigners add a certificate of permanent residence to their ID; other conditions match those for citizens."
   },
   "ru": {
+   "faq": [
+    {
+     "q": "Каков порог дохода?",
+     "a": "Порог устанавливается постановлением правительства и корректируется два раза в год; по сообщениям прессы, с 1 апреля 2026 года он составляет 18.000 RSD на члена семьи. Актуальную сумму уточните в службе."
+    },
+    {
+     "q": "На какой срок назначается право?",
+     "a": "На один год со дня подачи заявления."
+    },
+    {
+     "q": "Куда подавать заявление?",
+     "a": "В службу защиты детей при администрации вашей общины или города."
+    },
+    {
+     "q": "Нужно ли приносить все документы?",
+     "a": "Нет, многие справки орган запрашивает по служебной обязанности с вашего согласия."
+    },
+    {
+     "q": "Когда можно продлить право?",
+     "a": "За 30 дней до истечения срока решения."
+    }
+   ],
+   "who": [
+    "Родитель или опекун, у которого средний чистый доход на одного члена семьи за три месяца до подачи заявления ниже порога.",
+    "Дети до предельного возраста, установленного законом, которые регулярно учатся."
+   ],
+   "steps": [
+    "Проверьте, что средний чистый доход на одного члена семьи за три месяца ниже порога.",
+    "Соберите документы: удостоверение личности, документы о доходах, справки из школы, документы об имуществе.",
+    "Подайте заявление в службу защиты детей по месту жительства и дайте согласие на проверки по служебной обязанности.",
+    "Дождитесь решения; право назначается на один год.",
+    "Продлевайте право за 30 дней до истечения срока; получатели социальной помощи с детьми-школьниками продлевают его без повторного подтверждения дохода."
+   ],
    "title": "Детское пособие",
-   "summary": "Ежемесячная выплата семьям с детьми при доходе ниже порога; назначается на год с продлением."
+   "summary": "Ежемесячная выплата семьям с детьми при доходе ниже порога; назначается на год с продлением.",
+   "documents": [
+    {
+     "name": "Удостоверение личности заявителя",
+     "note": "Иностранцы: справка о постоянном проживании."
+    },
+    {
+     "name": "Подтверждение чистого дохода за три месяца до подачи заявления",
+     "note": "По каждому члену семьи, имеющему доход, если орган не может получить его сам."
+    },
+    {
+     "name": "Справки о посещении школы",
+     "note": "Для детей школьного возраста, включая подготовительный дошкольный год."
+    },
+    {
+     "name": "Документы об имуществе и жилой площади",
+     "note": "Если сведений нет в официальных реестрах."
+    },
+    {
+     "name": "Документы об особом статусе",
+     "note": "Одинокий родитель, опека, социальная помощь или пособие по уходу, медицинские причины нерегулярной учёбы."
+    }
+   ],
+   "where_note": "Служба защиты детей администрации общины или города по вашему адресу; заявление подаётся лично или по почте. Многие справки орган запрашивает по служебной обязанности с вашего согласия.",
+   "for_foreigners": "Иностранцы к удостоверению личности добавляют справку о постоянном проживании; остальные условия такие же, как для граждан."
   },
   "de": {
    "title": "Kindergeld",
-   "summary": "Monatliche Leistung für Familien mit Kindern unter der Einkommensgrenze; für ein Jahr bewilligt und verlängert."
+   "summary": "Monatliche Leistung für Familien mit Kindern unter der Einkommensgrenze; für ein Jahr bewilligt und verlängert.",
+   "where_note": "Dienst für Kinderschutz (služba za dečiju zaštitu) der Gemeinde- oder Stadtverwaltung für Ihre Adresse, persönlich oder per Post. Viele Nachweise werden mit Ihrer Einwilligung von Amts wegen beschafft.",
+   "who": [
+    "Ein Elternteil oder Vormund, dessen durchschnittliches Nettoeinkommen pro Familienmitglied in den drei Monaten vor der Antragstellung unter der Einkommensgrenze liegt.",
+    "Kinder bis zur gesetzlichen Altersgrenze, die regelmäßig zur Schule gehen."
+   ],
+   "documents": [
+    {
+     "name": "Personalausweis des Antragstellers",
+     "note": "Ausländer: Bescheinigung über den Daueraufenthalt."
+    },
+    {
+     "name": "Nachweis des Nettoeinkommens für die drei Monate vor der Antragstellung",
+     "note": "Für jedes verdienende Familienmitglied, wenn die Behörde ihn nicht selbst beschaffen kann."
+    },
+    {
+     "name": "Schulbesuchsbescheinigungen",
+     "note": "Für schulpflichtige Kinder, einschließlich des Vorschuljahres."
+    },
+    {
+     "name": "Nachweis über Vermögen und Wohnfläche",
+     "note": "Wenn nicht in amtlichen Registern erfasst."
+    },
+    {
+     "name": "Nachweise über besondere Umstände",
+     "note": "Alleinerziehend, Vormundschaft, Sozialhilfe oder Pflegegeld, gesundheitliche Gründe für unregelmäßigen Schulbesuch."
+    }
+   ],
+   "steps": [
+    "Prüfen Sie, ob das durchschnittliche Nettoeinkommen pro Familienmitglied der letzten drei Monate unter der Einkommensgrenze liegt.",
+    "Stellen Sie die Unterlagen zusammen: Ausweis, Einkommen, Schulbescheinigungen, Vermögen.",
+    "Stellen Sie den Antrag beim Dienst für Kinderschutz für Ihre Adresse und stimmen Sie den Überprüfungen von Amts wegen zu.",
+    "Warten Sie auf den Bescheid; der Anspruch gilt ein Jahr.",
+    "Verlängern Sie ab 30 Tagen vor Ablauf; Empfänger von Sozialhilfe mit Kindern in der Schule verlängern, ohne das Einkommen erneut nachzuweisen."
+   ],
+   "faq": [
+    {
+     "q": "Wie hoch ist die Einkommensgrenze?",
+     "a": "Sie wird per Regierungsverordnung festgelegt und zweimal im Jahr angepasst; laut Presseberichten beträgt sie ab 1. April 2026 18.000 RSD pro Familienmitglied. Erfragen Sie den aktuellen Betrag beim Dienst."
+    },
+    {
+     "q": "Wie lange gilt der Anspruch?",
+     "a": "Ein Jahr ab dem Antragsdatum."
+    },
+    {
+     "q": "Wo stelle ich den Antrag?",
+     "a": "Beim Dienst für Kinderschutz Ihrer Gemeinde- oder Stadtverwaltung."
+    },
+    {
+     "q": "Muss ich alle Unterlagen mitbringen?",
+     "a": "Nein, viele Nachweise werden mit Ihrer Einwilligung von Amts wegen beschafft."
+    },
+    {
+     "q": "Wann kann ich verlängern?",
+     "a": "Ab 30 Tagen vor Ablauf des Bescheids."
+    }
+   ],
+   "for_foreigners": "Ausländer legen zusätzlich zum Ausweis eine Bescheinigung über den Daueraufenthalt vor; die übrigen Voraussetzungen entsprechen denen für Staatsbürger."
   }
  },
  "legal_basis": "Zakon o finansijskoj podršci porodici sa decom."

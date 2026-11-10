@@ -196,12 +196,138 @@
    "for_foreigners": "Foreigners with approved residence receive an ID card for foreigners at the police directorate for their place of stay; the fee is RSD 2,028 under Decree 82/2026 (from 12 Sept 2026). Asylum and subsidiary-protection holders get theirs from the Asylum Office (RSD 1,920 + 1,230, Tariff No. 37 para 14, from 1 Oct 2026); valid 5 years for asylum, 1 year for subsidiary protection."
   },
   "ru": {
+   "faq": [
+    {
+     "q": "Сколько стоит удостоверение личности?",
+     "a": "По данным, опубликованным в мае 2026 года: 1.154,80 RSD (бланк 928,80 + изготовление 226) плюс комиссия банка. Постановление изменилось в сентябре 2026 года, поэтому всегда сверяйте сумму с квитанцией на eUprava."
+    },
+    {
+     "q": "Сколько времени это занимает?",
+     "a": "По закону до 15 дней со дня подачи заявления; обычно меньше."
+    },
+    {
+     "q": "Нужна ли фотография?",
+     "a": "Нет, снимок делают у окна приёма. Если приносите свою: 50 × 50 мм, серый фон, не старше шести месяцев."
+    },
+    {
+     "q": "Я переехал(а). Нужна ли новая карта?",
+     "a": "Нет, если в карте есть чип: адрес запишут на чип без новой карты и пошлины. Для карт без чипа нужны новая карта и пошлина."
+    },
+    {
+     "q": "С какого возраста карта обязательна?",
+     "a": "С 16 лет для граждан, проживающих в Сербии."
+    }
+   ],
+   "who": [
+    "Граждане Сербии с регистрацией места жительства в Сербии; карта обязательна с 16 лет.",
+    "Дети старше 10 лет могут иметь карту, но не обязаны.",
+    "Иностранцы получают отдельное удостоверение личности иностранца (см. раздел ниже)."
+   ],
+   "steps": [
+    "Проверьте срок действия вашей карты.",
+    "Создайте платёжную квитанцию на eUprava (введите свой JMBG) и оплатите её.",
+    "Запишитесь на приём на eUprava или обратитесь без записи в управление полиции по вашему адресу.",
+    "Придите лично со старой картой или другим документом, удостоверяющим личность, и оплаченной квитанцией.",
+    "Сотрудник сделает ваше фото, возьмёт подпись и отпечатки пальцев.",
+    "Получите новую карту лично, когда вас уведомят, не позднее чем через 15 дней."
+   ],
    "title": "Личная карта (lična karta)",
-   "summary": "Первая выдача, замена просроченной или повреждённой, изменение данных и утеря. Обязательна с 16 лет."
+   "summary": "Первая выдача, замена просроченной или повреждённой, изменение данных и утеря. Обязательна с 16 лет.",
+   "documents": [
+    {
+     "name": "Платёжная квитанция",
+     "note": "Создаётся на eUprava по JMBG заявителя; оплачивается в банке, на почте или онлайн."
+    },
+    {
+     "name": "Прежнее удостоверение личности или другой действующий документ с фотографией",
+     "note": "Паспорт или водительское удостоверение, если старой карты у вас больше нет."
+    },
+    {
+     "name": "Свидетельство о рождении и свидетельство о гражданстве",
+     "note": "Полиция запрашивает их по служебной обязанности с вашего согласия; вы можете принести их сами. Нужны только при первой выдаче или изменении данных.",
+     "variants": [
+      "Смена фамилии или имени: свидетельство о браке.",
+      "Несовершеннолетние: заявление подаёт один из родителей с письменным согласием другого, если другой родитель не осуществляет родительские права (подтверждение органа опеки)."
+     ]
+    },
+    {
+     "name": "Фотография 50 × 50 мм",
+     "note": "Необязательна: фото делают у окна приёма. Если приносите свою: серый фон, не старше шести месяцев."
+    },
+    {
+     "name": "Утерянная или украденная карта",
+     "note": "Другой действующий документ, удостоверяющий личность, платёжная квитанция и заявление об утере; аннулирование утерянной карты оплачивается отдельно."
+    }
+   ],
+   "where_note": "Подайте заявление лично в управление полиции или отделение полиции по месту регистрации. Запишитесь на приём на eUprava за срок от 1 до 60 дней.",
+   "for_foreigners": "Иностранцы с разрешённым пребыванием получают удостоверение личности иностранца в управлении полиции по месту пребывания; пошлина составляет 2.028 RSD по Постановлению 82/2026 (с 12 сентября 2026 года). Лица с убежищем и субсидиарной защитой получают его в Управлении по вопросам убежища (1.920 + 1.230 RSD, Тариф № 37, п. 14, с 1 октября 2026 года); срок действия: 5 лет для убежища, 1 год для субсидиарной защиты."
   },
   "de": {
    "title": "Personalausweis (lična karta)",
-   "summary": "Erstausstellung, Ersatz bei Ablauf oder Beschädigung, Datenänderung und Verlust. Pflicht ab 16 Jahren."
+   "summary": "Erstausstellung, Ersatz bei Ablauf oder Beschädigung, Datenänderung und Verlust. Pflicht ab 16 Jahren.",
+   "where_note": "Beantragen Sie ihn persönlich bei der Polizeidirektion oder Polizeistation für Ihre gemeldete Adresse. Buchen Sie auf eUprava einen Termin, 1 bis 60 Tage im Voraus.",
+   "who": [
+    "Serbische Staatsbürger mit gemeldetem Wohnsitz in Serbien; der Ausweis ist ab 16 Jahren Pflicht.",
+    "Kinder über 10 Jahre dürfen einen Ausweis haben, müssen aber keinen haben.",
+    "Ausländer erhalten einen eigenen Ausweis für Ausländer (siehe Abschnitt unten)."
+   ],
+   "documents": [
+    {
+     "name": "Zahlschein",
+     "note": "Wird auf eUprava mit der JMBG des Antragstellers erzeugt und bei einer Bank, Post oder online bezahlt."
+    },
+    {
+     "name": "Bisheriger Personalausweis oder ein anderer gültiger Lichtbildausweis",
+     "note": "Reisepass oder Führerschein, wenn Sie den alten Ausweis nicht mehr haben."
+    },
+    {
+     "name": "Geburtsurkunde und Staatsbürgerschaftsnachweis",
+     "note": "Die Polizei beschafft sie mit Ihrer Einwilligung von Amts wegen; Sie können sie auch selbst mitbringen. Nur bei Erstausstellung oder Datenänderung nötig.",
+     "variants": [
+      "Namensänderung: Heiratsurkunde.",
+      "Minderjährige: Ein Elternteil stellt den Antrag mit der schriftlichen Einwilligung des anderen, es sei denn, der andere Elternteil übt die elterliche Sorge nicht aus (Bestätigung der Vormundschaftsbehörde)."
+     ]
+    },
+    {
+     "name": "Foto 50 × 50 mm",
+     "note": "Optional – das Foto wird am Schalter gemacht. Wenn Sie eines mitbringen: grauer Hintergrund, nicht älter als sechs Monate."
+    },
+    {
+     "name": "Verlorener oder gestohlener Ausweis",
+     "note": "Ein anderer gültiger Ausweis, der Zahlschein und eine Verlustanzeige; die Ungültigerklärung des verlorenen Ausweises wird gesondert berechnet."
+    }
+   ],
+   "steps": [
+    "Prüfen Sie das Ablaufdatum Ihres aktuellen Ausweises.",
+    "Erzeugen Sie den Zahlschein auf eUprava (JMBG eingeben) und bezahlen Sie ihn.",
+    "Buchen Sie auf eUprava einen Termin oder gehen Sie ohne Termin zur Polizeidirektion für Ihre Adresse.",
+    "Erscheinen Sie persönlich mit dem alten Ausweis oder einem anderen Ausweis und dem bezahlten Zahlschein.",
+    "Der Beamte nimmt Ihr Foto, Ihre Unterschrift und Ihre Fingerabdrücke auf.",
+    "Holen Sie den neuen Ausweis nach Benachrichtigung persönlich ab, spätestens innerhalb von 15 Tagen."
+   ],
+   "faq": [
+    {
+     "q": "Was kostet der Personalausweis?",
+     "a": "Laut Veröffentlichung vom Mai 2026: 1.154,80 RSD (Formular 928,80 + Herstellung 226) zuzüglich Bankprovision. Die Verordnung wurde im September 2026 geändert; prüfen Sie den Betrag daher immer auf dem Zahlschein von eUprava."
+    },
+    {
+     "q": "Wie lange dauert es?",
+     "a": "Gesetzlich bis zu 15 Tage ab Antragstellung; meist weniger."
+    },
+    {
+     "q": "Brauche ich ein Foto?",
+     "a": "Nein, es wird am Schalter gemacht. Wenn Sie eines mitbringen: 50 × 50 mm, grauer Hintergrund, nicht älter als sechs Monate."
+    },
+    {
+     "q": "Ich bin umgezogen. Brauche ich einen neuen Ausweis?",
+     "a": "Nicht, wenn Ihr Ausweis einen Chip hat: Die Adresse wird ohne neuen Ausweis und ohne Gebühr auf den Chip geschrieben. Ausweise ohne Chip erfordern einen neuen Ausweis und eine Gebühr."
+    },
+    {
+     "q": "Ab welchem Alter ist er Pflicht?",
+     "a": "Ab 16 Jahren für Staatsbürger mit Wohnsitz in Serbien."
+    }
+   ],
+   "for_foreigners": "Ausländer mit genehmigtem Aufenthalt erhalten einen Ausweis für Ausländer bei der Polizeidirektion ihres Aufenthaltsortes; die Gebühr beträgt 2.028 RSD nach der Verordnung 82/2026 (ab 12. September 2026). Inhaber von Asyl und subsidiärem Schutz erhalten ihn beim Asylamt (1.920 + 1.230 RSD, Tarif Nr. 37 Abs. 14, ab 1. Oktober 2026); er gilt 5 Jahre bei Asyl und 1 Jahr bei subsidiärem Schutz."
   }
  }
 }

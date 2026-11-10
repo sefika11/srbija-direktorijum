@@ -289,18 +289,20 @@ html.js.fx-in .display .i { transform: none; }
 .opener.is-out .opener-top { transform: translateY(-101%); } .opener.is-out .opener-bottom { transform: translateY(101%); }
 .opener-center { position: absolute; inset: 0; display: grid; place-content: center; justify-items: center; text-align: center; gap: 18px; padding: 24px; transition: opacity .35s var(--ease), transform .6s var(--ease-out); }
 .opener.is-out .opener-center { opacity: 0; transform: translateY(-14px) scale(.985); }
-.opener-eyebrow { opacity: 0; animation: op-fade .6s var(--ease-out) .15s forwards; }
+.opener-eyebrow { opacity: 0; animation: op-fade .6s var(--ease-out) .15s both; }
 .opener-word { font-size: clamp(36px, 7.5vw, 104px); color: var(--ink); }
 .opener-word .w { display: inline-block; overflow: hidden; vertical-align: bottom; padding: 0 .04em .06em; margin-bottom: -.06em; margin-right: .22em; } .opener-word .w:last-child { margin-right: 0; }
-.opener-word .i { display: inline-block; transform: translateY(112%); animation: op-rise 1s var(--ease-out) forwards; animation-delay: calc(var(--i, 0) * 90ms + 120ms); }
+/* the opener's words must not inherit the page headline reveal (html.js.fx-in .display .i sets transform: none and would
+   make them pop in instead of rising): explicit from-keyframe, filled both ways, no transition */
+.opener .opener-word .i { display: inline-block; transform: translateY(112%); transition: none !important; animation: op-rise 1s var(--ease-out) both; animation-delay: calc(var(--i, 0) * 90ms + 120ms); }
 .opener-rule { width: min(360px, 60vw); height: 2px; background: color-mix(in oklab, var(--ink) 10%, transparent); overflow: hidden; }
 .opener-rule > i { display: block; height: 100%; background: linear-gradient(90deg, var(--red) 0 33.33%, var(--accent) 33.33% 66.66%, var(--ink) 66.66% 100%); transform: scaleX(0); transform-origin: left; animation: op-rule 1.1s var(--ease-out) .45s forwards; }
 .opener-count { display: flex; align-items: baseline; gap: 10px; opacity: 0; animation: op-fade .5s var(--ease-out) .5s forwards; }
 .opener-count .num { font-family: var(--font-display); font-weight: 300; font-size: clamp(22px, 2.6vw, 30px); letter-spacing: -0.03em; line-height: 1; }
 .opener-count .lbl { font-family: var(--font-mono); font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
-@keyframes op-rise { to { transform: none; } }
-@keyframes op-rule { to { transform: scaleX(1); } }
-@keyframes op-fade { to { opacity: 1; } }
+@keyframes op-rise { from { transform: translateY(112%); } to { transform: none; } }
+@keyframes op-rule { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+@keyframes op-fade { from { opacity: 0; } to { opacity: 1; } }
 /* while the opener covers the page, the headline words wait for the curtain */
 html.has-opener .display .i { transition-delay: calc(var(--i, 0) * 55ms + 1750ms); }
 html.has-opener [data-reveal] { transition-delay: calc(var(--d, 0ms) + 1700ms); }
@@ -383,7 +385,7 @@ form[role="search"] input[type="search"]::-webkit-search-cancel-button, form[rol
 .sp-clear:hover { background: var(--surface-2); color: var(--ink); }
 .sp-kbd, .sp-foot kbd { font-family: var(--font-mono); font-size: 10.5px; letter-spacing: .04em; color: var(--muted); border: 1px solid var(--line); border-bottom-width: 2px; border-radius: 5px; padding: 1px 6px; background: var(--surface); }
 .sp-panel { position: absolute; left: 0; right: 0; top: calc(100% + 8px); z-index: 60; text-align: left; border-radius: calc(var(--radius) + 4px); overflow: hidden;
-  background: color-mix(in oklab, var(--surface) 92%, transparent); backdrop-filter: blur(18px) saturate(150%); -webkit-backdrop-filter: blur(18px) saturate(150%);
+  background: var(--surface);   /* opaque: a blur nested inside the blurred header cannot see the page, so a translucent panel only shows text through */
   border: 1px solid color-mix(in oklab, var(--ink) 12%, transparent); box-shadow: 0 24px 60px -24px rgb(21 22 26 / .45), 0 2px 6px rgb(21 22 26 / .08);
   animation: sp-in .18s var(--ease-out); max-height: min(70vh, 640px); overflow-y: auto; overscroll-behavior: contain; }
 @keyframes sp-in { from { opacity: 0; transform: translateY(-4px) scale(.995); } to { opacity: 1; transform: none; } }
@@ -471,7 +473,7 @@ form[role="search"] input[type="search"]::-webkit-search-cancel-button, form[rol
 @media (prefers-color-scheme: dark) {
 }
 @media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) .sp-panel { background: color-mix(in oklab, var(--surface) 94%, transparent); border-color: color-mix(in oklab, #fff 14%, transparent); box-shadow: 0 24px 60px -20px rgb(0 0 0 / .7); }
+  :root:not([data-theme="light"]) .sp-panel { background: var(--surface); border-color: color-mix(in oklab, #fff 14%, transparent); box-shadow: 0 24px 60px -20px rgb(0 0 0 / .7); }
   :root:not([data-theme="light"]) .sp-row.is-active { background: color-mix(in oklab, #fff 9%, transparent); }
   :root:not([data-theme="light"]) .sp-ico { background: color-mix(in oklab, #fff 7%, transparent); }
   :root:not([data-theme="light"]) .quick-chip { background: color-mix(in oklab, #fff 5%, transparent); }
@@ -610,7 +612,9 @@ body::before { display: none; }
 .hz-light { inset: -20%; background: radial-gradient(40% 30% at 20% 20%, color-mix(in oklab, var(--red) 10%, transparent) 0%, transparent 70%), radial-gradient(35% 30% at 80% 70%, color-mix(in oklab, var(--accent) 12%, transparent) 0%, transparent 70%); animation: hz-sweep 28s ease-in-out infinite alternate; opacity: .9; }
 @keyframes hz-sweep { from { transform: translate3d(-2%, -1%, 0) scale(1); } to { transform: translate3d(2%, 2%, 0) scale(1.06); } }
 /* content sits above the layers */
-body > header, body > main, body > footer { position: relative; z-index: 1; }
+body > main, body > footer { position: relative; z-index: 1; }
+/* the header stays sticky and above the page: at z 1 and position relative (the old rule) the page painted over the open search panel */
+body > header.site-header { position: sticky; top: 0; z-index: 40; }
 :root:not([data-theme="light"]) .hz-far, :root[data-theme="dark"] .hz-far { filter: invert(1); opacity: .06; }
 @media (prefers-color-scheme: light) { :root:not([data-theme="dark"]) .hz-far { filter: none; opacity: .05; } }
 :root[data-theme="dark"] .hz-emboss-light, :root:not([data-theme="light"]) .hz-emboss-light { stroke: color-mix(in oklab, #fff 18%, transparent); }

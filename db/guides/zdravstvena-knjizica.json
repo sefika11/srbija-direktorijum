@@ -193,12 +193,136 @@
    "for_foreigners": "Foreigners from countries without a social-security agreement register at the branch for their place of temporary stay, with the registered stay and MUP registration number. The basis can be own insurance (employment), family member of a policy holder, or voluntary inclusion with a monthly contribution. Agreement-country nationals need a certificate from their home fund. Deregister before leaving Serbia."
   },
   "ru": {
+   "faq": [
+    {
+     "q": "Сколько стоит медицинская карта?",
+     "a": "400 RSD при получении в филиале, 600 RSD при доставке по почте (RFZO, изменение от 6 марта 2026 года)."
+    },
+    {
+     "q": "Чем пользоваться, пока не пришла карта?",
+     "a": "Справкой PZK, которая действует до доставки карты, но не более одного месяца."
+    },
+    {
+     "q": "Я потерял(а) карту.",
+     "a": "Нужны письменное заявление об утере и новое заявление; справка PZK выдаётся сразу, объявление в газете не требуется."
+    },
+    {
+     "q": "Кто продлевает действие карты?",
+     "a": "Продление происходит автоматически по данным Налогового управления об уплаченных взносах. Безработные без пособия продлевают карту раз в год в филиале."
+    },
+    {
+     "q": "Могут ли иностранцы застраховаться?",
+     "a": "Да, при зарегистрированном временном пребывании и регистрационном номере MUP. Граждане стран, с которыми есть соглашение о социальном обеспечении, приносят справку о том, что они не застрахованы на родине."
+    }
+   ],
+   "who": [
+    "Застрахованные лица с номером LBO: работающие, предприниматели, пенсионеры, безработные и члены их семей.",
+    "Безработные без денежного пособия от NSZ регистрируются и продлевают карту раз в год в филиале RFZO.",
+    "Иностранцы с зарегистрированным временным пребыванием и регистрационным номером MUP."
+   ],
+   "steps": [
+    "Вас регистрирует работодатель, APR, NSZ или филиал RFZO (CROSO).",
+    "Проверьте статус вашего страхования на сайте RFZO.",
+    "Запросите карту: в филиале (удостоверение личности + KZO-P1) или на eUprava (по LBO).",
+    "Оплатите 400 RSD, или 600 RSD при доставке по почте, на счёт 840-742362843-74 с номером ссылки филиала.",
+    "Пользуйтесь справкой PZK, пока не придёт карта.",
+    "Получите карту в филиале или по почте.",
+    "Продление происходит автоматически по уплаченным взносам; безработные без пособия продлевают карту раз в год лично."
+   ],
    "title": "Медицинское страхование и карта РФЗО",
-   "summary": "Регистрация в обязательном медицинском страховании, получение и продление карты для работающих, безработных, членов семьи, пенсионеров и иностранцев."
+   "summary": "Регистрация в обязательном медицинском страховании, получение и продление карты для работающих, безработных, членов семьи, пенсионеров и иностранцев.",
+   "documents": [
+    {
+     "name": "Работающие и предприниматели",
+     "note": "Работодатель регистрирует вас через портал CROSO до начала работы или в течение 3 рабочих дней; предпринимателей регистрирует Агентство по регистрации предприятий при регистрации."
+    },
+    {
+     "name": "Безработные без пособия NSZ",
+     "note": "Удостоверение личности, заявление о членах домохозяйства и доходах (форма заполняется у окна приёма), документ о доходе домохозяйства, удостоверение личности супруга или супруги. Продлевается раз в год.",
+     "variants": [
+      "При доходе выше порога страхование оформляется уплатой взноса."
+     ]
+    },
+    {
+     "name": "Члены семьи",
+     "note": "Страхуются через держателя полиса: справка работодателя о зарплате за предыдущий месяц или последний пенсионный талон.",
+     "variants": [
+      "Некоторые категории (например, иностранные работники по договору, студенты) не могут застраховать членов семьи."
+     ]
+    },
+    {
+     "name": "Для самой карты",
+     "note": "Удостоверение личности и подписанная форма KZO-P1 в филиале либо заявление на eUprava с вашим LBO. Пока карта изготавливается, выдаётся справка (PZK), действующая до доставки, но не более одного месяца."
+    }
+   ],
+   "where_note": "Ваш домашний филиал или отделение RFZO по месту регистрации (для иностранцев — по месту временного пребывания). Карту можно также запросить на eUprava по номеру LBO.",
+   "for_foreigners": "Иностранцы из стран, с которыми нет соглашения о социальном обеспечении, регистрируются в филиале по месту временного пребывания, с зарегистрированным пребыванием и регистрационным номером MUP. Основанием может быть собственное страхование (работа), статус члена семьи держателя полиса или добровольное включение с ежемесячным взносом. Граждане стран, с которыми есть соглашение, предъявляют справку из своего фонда. Снимитесь с учёта перед отъездом из Сербии."
   },
   "de": {
    "title": "Krankenversicherung und Gesundheitskarte (RFZO)",
-   "summary": "Anmeldung zur Pflichtversicherung sowie Ausstellung und Verlängerung der Karte für Beschäftigte, Arbeitslose, Familienangehörige, Rentner und Ausländer."
+   "summary": "Anmeldung zur Pflichtversicherung sowie Ausstellung und Verlängerung der Karte für Beschäftigte, Arbeitslose, Familienangehörige, Rentner und Ausländer.",
+   "where_note": "Ihre RFZO-Filiale oder Außenstelle nach gemeldeter Adresse (für Ausländer nach dem Ort des vorübergehenden Aufenthalts). Die Karte kann auch auf eUprava mit Ihrer LBO-Nummer beantragt werden.",
+   "who": [
+    "Versicherte mit einer LBO-Nummer: Beschäftigte, Unternehmer, Rentner, Arbeitslose und ihre Familienangehörigen.",
+    "Arbeitslose ohne Geldleistung des NSZ melden sich an und verlängern einmal im Jahr in der RFZO-Filiale.",
+    "Ausländer mit gemeldetem vorübergehendem Aufenthalt und einer MUP-Registrierungsnummer."
+   ],
+   "documents": [
+    {
+     "name": "Beschäftigte und Unternehmer",
+     "note": "Der Arbeitgeber meldet Sie über das Portal CROSO an, vor Arbeitsbeginn oder innerhalb von 3 Arbeitstagen; bei Unternehmern erledigt dies die Agentur für Handelsregister bei der Registrierung."
+    },
+    {
+     "name": "Arbeitslose ohne NSZ-Leistung",
+     "note": "Personalausweis, eine Erklärung über Haushaltsmitglieder und Einkommen (Formular wird am Schalter ausgefüllt), Nachweis des Haushaltseinkommens, Personalausweis des Ehepartners. Wird einmal im Jahr erneuert.",
+     "variants": [
+      "Liegt das Einkommen über der Grenze, wird die Versicherung durch Zahlung des Beitrags erlangt."
+     ]
+    },
+    {
+     "name": "Familienangehörige",
+     "note": "Versichert über den Versicherungsnehmer: Gehaltsbescheinigung des Arbeitgebers für den Vormonat oder der letzte Rentenabschnitt.",
+     "variants": [
+      "Einige Gruppen (z. B. ausländische Vertragsarbeiter, Studenten) können keine Familienangehörigen versichern."
+     ]
+    },
+    {
+     "name": "Für die Karte selbst",
+     "note": "Personalausweis und das unterschriebene Formular KZO-P1 in der Filiale oder ein Antrag auf eUprava mit Ihrer LBO. Bis zur Herstellung der Karte erhalten Sie eine Bescheinigung (PZK), gültig bis zur Zustellung, höchstens einen Monat."
+    }
+   ],
+   "steps": [
+    "Ihr Arbeitgeber, die APR, der NSZ oder die RFZO-Filiale meldet Sie an (CROSO).",
+    "Prüfen Sie Ihren Versicherungsstatus auf der Website des RFZO.",
+    "Beantragen Sie die Karte: in der Filiale (Ausweis + KZO-P1) oder auf eUprava (LBO).",
+    "Zahlen Sie 400 RSD, oder 600 RSD bei Zustellung per Post, auf das Konto 840-742362843-74 mit der Bezugsnummer der Filiale.",
+    "Nutzen Sie die PZK-Bescheinigung, bis die Karte eintrifft.",
+    "Holen Sie die Karte in der Filiale ab oder erhalten Sie sie per Post.",
+    "Die Validierung erfolgt automatisch anhand der gezahlten Beiträge; Arbeitslose ohne Leistung erneuern einmal im Jahr persönlich."
+   ],
+   "faq": [
+    {
+     "q": "Was kostet die Gesundheitskarte?",
+     "a": "400 RSD bei Abholung in der Filiale, 600 RSD per Post (RFZO, Änderung vom 6. März 2026)."
+    },
+    {
+     "q": "Was nutze ich, bis die Karte eintrifft?",
+     "a": "Die PZK-Bescheinigung, gültig bis zur Zustellung, höchstens einen Monat."
+    },
+    {
+     "q": "Ich habe meine Karte verloren.",
+     "a": "Eine schriftliche Verlusterklärung und ein neuer Antrag; die PZK-Bescheinigung wird sofort ausgestellt, eine Zeitungsanzeige ist nicht nötig."
+    },
+    {
+     "q": "Wer validiert die Karte?",
+     "a": "Die Validierung erfolgt automatisch anhand der Daten der Steuerverwaltung über gezahlte Beiträge. Arbeitslose ohne Leistung erneuern jährlich in der Filiale."
+    },
+    {
+     "q": "Können Ausländer versichert werden?",
+     "a": "Ja, mit gemeldetem vorübergehendem Aufenthalt und einer MUP-Registrierungsnummer. Staatsangehörige von Ländern mit einem Sozialversicherungsabkommen bringen eine Bescheinigung mit, dass sie im Heimatland nicht versichert sind."
+    }
+   ],
+   "for_foreigners": "Ausländer aus Ländern ohne Sozialversicherungsabkommen melden sich in der Filiale für ihren Ort des vorübergehenden Aufenthalts an, mit dem gemeldeten Aufenthalt und der MUP-Registrierungsnummer. Grundlage kann die eigene Versicherung (Beschäftigung), die Stellung als Familienangehöriger eines Versicherungsnehmers oder der freiwillige Beitritt mit einem monatlichen Beitrag sein. Staatsangehörige von Abkommensländern brauchen eine Bescheinigung ihrer heimischen Kasse. Melden Sie sich vor der Ausreise aus Serbien ab."
   }
  }
 }

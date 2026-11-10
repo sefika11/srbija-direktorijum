@@ -228,12 +228,136 @@
    "for_foreigners": "A foreigner with residence longer than 6 months registers a vehicle with a passport or foreigner's ID. A foreign-plated vehicle imported temporarily gets temporary registration up to one year with customs approval."
   },
   "ru": {
+   "faq": [
+    {
+     "q": "Где продлевать регистрацию?",
+     "a": "На уполномоченных станциях технического осмотра, с техосмотром, страховкой, удостоверением личности и оплатой."
+    },
+    {
+     "q": "Нужно ли заверять договор купли-продажи у нотариуса?",
+     "a": "Да, в договорах между частными лицами подписи должны быть заверены нотариусом."
+    },
+    {
+     "q": "Кто платит налог на передачу?",
+     "a": "Покупатель, путём самооценки; подтверждение оплаты прилагается к заявлению о смене владельца."
+    },
+    {
+     "q": "Как долго может действовать временная регистрация?",
+     "a": "Не более одного года, после разрешения таможни на временный ввоз."
+    },
+    {
+     "q": "Каковы сборы?",
+     "a": "Государственные сборы по тарифу № 41: свидетельство о регистрации 880 RSD, наклейка 270, номерные знаки 1.490; сверх этого оплачиваются стоимость бланков, страховка, техосмотр и налог. Точная общая сумма указана в квитанции."
+    }
+   ],
+   "who": [
+    "Владельцы, регистрирующие автомобиль впервые (новый или ввезённый).",
+    "Владельцы, продлевающие регистрацию каждый год.",
+    "Покупатели подержанных автомобилей (смена владельца).",
+    "Иностранцы и владельцы автомобилей с иностранными номерами (временная регистрация)."
+   ],
+   "steps": [
+    "Пройдите технический осмотр; справка действует 30 дней.",
+    "Оформите обязательную страховку гражданской ответственности.",
+    "Создайте и оплатите квитанцию на eUprava.",
+    "На станции техосмотра (продление) или в управлении полиции (первая регистрация, смена владельца) подайте документы и получите наклейку или свидетельство.",
+    "При покупке подержанного автомобиля: заверьте договор у нотариуса, оплатите налог на передачу и подайте заявление о смене владельца."
+   ],
    "title": "Регистрация автомобиля",
-   "summary": "Первая регистрация, ежегодное продление и смена владельца."
+   "summary": "Первая регистрация, ежегодное продление и смена владельца.",
+   "documents": [
+    {
+     "name": "Продление",
+     "note": "Регистрационный лист со справкой о техосмотре (не старше 30 дней), полис обязательного страхования, удостоверение личности, квитанция eUprava.",
+     "variants": [
+      "Иностранцы: удостоверение личности иностранца или паспорт при проживании более 6 месяцев."
+     ]
+    },
+    {
+     "name": "Первая регистрация",
+     "note": "Документ о происхождении и праве собственности (счёт или договор), подтверждение уплаты таможенных пошлин и налогов, страховка, техосмотр не старше 30 дней, удостоверение личности, квитанция."
+    },
+    {
+     "name": "Смена владельца",
+     "note": "Регистрационный лист, документ о праве собственности с уплаченным налогом (договор купли-продажи, договор дарения или решение о наследстве), удостоверение личности, квитанция.",
+     "variants": [
+      "Договоры между частными лицами требуют нотариального заверения подписей.",
+      "Покупатель платит налог на передачу путём самооценки; подтверждение прилагается к заявлению."
+     ]
+    },
+    {
+     "name": "Временная регистрация",
+     "note": "До одного года, после разрешения таможни на временный ввоз: техосмотр не старше 30 дней, страховка, документ о праве собственности, разрешение таможни, удостоверение личности, квитанция. По истечении срока свидетельство и номерные знаки сдаются."
+    }
+   ],
+   "where_note": "Внесение в реестр и свидетельство о регистрации: управление полиции по адресу владельца (запись на приём через eUprava). Ежегодное продление проводится на уполномоченных станциях технического осмотра. Платёжную квитанцию создают на eUprava.",
+   "for_foreigners": "Иностранец, проживающий более 6 месяцев, регистрирует автомобиль по паспорту или удостоверению личности иностранца. Автомобиль с иностранными номерами, временно ввезённый в страну, получает временную регистрацию до одного года с разрешения таможни."
   },
   "de": {
    "title": "Fahrzeugzulassung",
-   "summary": "Erstzulassung, jährliche Verlängerung und Halterwechsel."
+   "summary": "Erstzulassung, jährliche Verlängerung und Halterwechsel.",
+   "where_note": "Eintrag ins Register und Zulassungsbescheinigung: Polizeidirektion für die Adresse des Halters (Termin über eUprava). Die jährliche Verlängerung erfolgt bei zugelassenen technischen Prüfstellen. Der Zahlschein wird auf eUprava erzeugt.",
+   "who": [
+    "Halter, die ein Fahrzeug erstmals zulassen (neu oder importiert).",
+    "Halter, die die Zulassung jedes Jahr verlängern.",
+    "Käufer von Gebrauchtfahrzeugen (Halterwechsel).",
+    "Ausländer und Halter ausländischer Fahrzeuge (vorübergehende Zulassung)."
+   ],
+   "documents": [
+    {
+     "name": "Verlängerung",
+     "note": "Zulassungsbescheinigung mit Bescheinigung der technischen Prüfung (jünger als 30 Tage), Police der Pflichtversicherung, Personalausweis, Zahlschein von eUprava.",
+     "variants": [
+      "Ausländer: Ausweis für Ausländer oder Reisepass mit einem Aufenthalt von über 6 Monaten."
+     ]
+    },
+    {
+     "name": "Erstzulassung",
+     "note": "Nachweis von Herkunft und Eigentum (Rechnung oder Vertrag), Nachweis, dass Zoll- und Steuerpflichten erfüllt sind, Versicherung, technische Prüfung jünger als 30 Tage, Personalausweis, Zahlschein."
+    },
+    {
+     "name": "Halterwechsel",
+     "note": "Zulassungsbescheinigung, Eigentumsnachweis mit beglichener Steuer (Kaufvertrag, Schenkungsvertrag oder Erbbescheid), Personalausweis, Zahlschein.",
+     "variants": [
+      "Verträge zwischen Privatpersonen brauchen notariell beglaubigte Unterschriften.",
+      "Der Käufer zahlt die Übertragungssteuer durch Selbstveranlagung; der Nachweis wird dem Antrag beigefügt."
+     ]
+    },
+    {
+     "name": "Vorübergehende Zulassung",
+     "note": "Bis zu einem Jahr, nach Zollgenehmigung für die vorübergehende Einfuhr: Prüfung jünger als 30 Tage, Versicherung, Eigentumsnachweis, Zollgenehmigung, Ausweis, Zahlschein. Bescheinigung und Kennzeichen werden bei Ablauf zurückgegeben."
+    }
+   ],
+   "steps": [
+    "Absolvieren Sie die technische Prüfung; die Bescheinigung gilt 30 Tage.",
+    "Schließen Sie die Pflicht-Haftpflichtversicherung ab.",
+    "Erzeugen Sie den Zahlschein auf eUprava und bezahlen Sie ihn.",
+    "Reichen Sie die Unterlagen bei der Prüfstelle (Verlängerung) oder der Polizeidirektion (Erstzulassung, Halterwechsel) ein und nehmen Sie die Plakette oder die Bescheinigung entgegen.",
+    "Beim Kauf eines Gebrauchtwagens: Lassen Sie den Vertrag notariell beglaubigen, zahlen Sie die Übertragungssteuer und melden Sie den Halterwechsel an."
+   ],
+   "faq": [
+    {
+     "q": "Wo verlängere ich?",
+     "a": "Bei zugelassenen technischen Prüfstellen, mit Prüfung, Versicherung, Ausweis und Zahlung."
+    },
+    {
+     "q": "Muss der Kaufvertrag notariell beglaubigt werden?",
+     "a": "Ja, bei Verträgen zwischen Privatpersonen müssen die Unterschriften von einem Notar beglaubigt werden."
+    },
+    {
+     "q": "Wer zahlt die Übertragungssteuer?",
+     "a": "Der Käufer, durch Selbstveranlagung; der Zahlungsnachweis wird dem Antrag auf Halterwechsel beigefügt."
+    },
+    {
+     "q": "Wie lange kann die vorübergehende Zulassung dauern?",
+     "a": "Höchstens ein Jahr, nach Zollgenehmigung für die vorübergehende Einfuhr."
+    },
+    {
+     "q": "Welche Gebühren fallen an?",
+     "a": "Staatliche Gebühren nach Tarif Nr. 41: Zulassungsbescheinigung 880 RSD, Plakette 270, Kennzeichen 1.490; hinzu kommen Formularkosten, Versicherung, Prüfung und Steuer. Der Zahlschein zeigt die genaue Summe."
+    }
+   ],
+   "for_foreigners": "Ein Ausländer mit einem Aufenthalt von mehr als 6 Monaten lässt ein Fahrzeug mit Reisepass oder Ausweis für Ausländer zu. Ein vorübergehend eingeführtes Fahrzeug mit ausländischem Kennzeichen erhält mit Zollgenehmigung eine vorübergehende Zulassung bis zu einem Jahr."
   }
  },
  "legal_basis": "Zakon o bezbednosti saobraćaja na putevima; ZRAT tarifni broj 41; Zakon o porezima na imovinu (porez na prenos apsolutnih prava)."

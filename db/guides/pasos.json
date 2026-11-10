@@ -200,12 +200,140 @@
    "for_foreigners": "Serbian passports are issued to citizens only. Asylum and temporary-protection holders receive a travel document under asylum rules (RSD 5,880 from 12 Sept 2026). Serbian citizens abroad apply at a consulate; the deadline is 60 days."
   },
   "ru": {
+   "faq": [
+    {
+     "q": "Какой срок действия у паспорта?",
+     "a": "Дети до 3 лет: 3 года; от 3 до 14 лет: 5 лет; старше 14 лет: 10 лет. Если вы потеряли или повредили два паспорта и более в течение пяти лет, выдаётся паспорт на один год."
+    },
+    {
+     "q": "Сколько это стоит?",
+     "a": "4.500 RSD с 21 марта 2026 года (3.900 бланк + 600 изготовление)."
+    },
+    {
+     "q": "Можно ли получить паспорт срочно?",
+     "a": "Да, в течение 48 часов при наличии подтверждения срочности. Без подтверждения взимается надбавка за приоритет; сумму уточните у окна приёма."
+    },
+    {
+     "q": "Можно ли вписать ребёнка в мой паспорт?",
+     "a": "Нет. У каждого ребёнка должен быть свой паспорт."
+    },
+    {
+     "q": "Когда можно продлить паспорт?",
+     "a": "Паспорт на один год — не раньше чем за 30 дней до истечения срока; остальные — в любое время до истечения срока."
+    }
+   ],
+   "who": [
+    "Граждане Сербии, взрослые и несовершеннолетние.",
+    "Для несовершеннолетних заявление подаёт один из родителей с заверенным согласием другого.",
+    "Граждане за границей подают заявление в дипломатическом или консульском представительстве."
+   ],
+   "steps": [
+    "Убедитесь, что ваше удостоверение личности действительно; если нет, сначала замените его.",
+    "Создайте и оплатите квитанции на eUprava.",
+    "Запишитесь на приём на eUprava в управление полиции по вашему адресу.",
+    "Придите с удостоверением личности, старым паспортом и квитанциями (для ребёнка также с согласием другого родителя).",
+    "Фото, отпечатки пальцев и подпись берут на месте.",
+    "Получите паспорт лично или через уполномоченное лицо."
+   ],
    "title": "Биометрический паспорт",
-   "summary": "Первая выдача и продление для взрослых и детей, срочное оформление и паспорт для граждан за рубежом."
+   "summary": "Первая выдача и продление для взрослых и детей, срочное оформление и паспорт для граждан за рубежом.",
+   "documents": [
+    {
+     "name": "Действующее удостоверение личности",
+     "note": "В консульстве принимается другой официальный документ с фотографией."
+    },
+    {
+     "name": "Прежний паспорт",
+     "note": "Предъявляется и аннулируется при получении нового. Если утерян: заявление об утере."
+    },
+    {
+     "name": "Платёжные квитанции",
+     "note": "Создаются на eUprava; бланк и изготовление оплачиваются отдельно."
+    },
+    {
+     "name": "Подтверждение срочности",
+     "note": "Только для выдачи в течение 48 часов: срочное лечение, смерть или тяжёлая болезнь члена семьи, неотложная служебная поездка."
+    },
+    {
+     "name": "Для несовершеннолетних",
+     "note": "Свидетельство о рождении; письменное заверенное согласие другого родителя, заявление в протоколе или согласие через eUprava.",
+     "variants": [
+      "Исключения: единоличный опекун, другой родитель недееспособен или не осуществляет родительские права.",
+      "Отпечатки пальцев и подпись у детей до 12 лет не берут.",
+      "Ребёнка нельзя вписать в паспорт родителя."
+     ]
+    }
+   ],
+   "where_note": "Лично в управлении полиции или отделении полиции по месту регистрации; за границей — в компетентном консульстве. Паспорт получает заявитель, законный представитель или лицо с заверенной доверенностью.",
+   "for_foreigners": "Паспорта Сербии выдаются только гражданам. Лица с убежищем и временной защитой получают проездной документ по правилам об убежище (5.880 RSD с 12 сентября 2026 года). Граждане Сербии за границей подают заявление в консульство; срок — 60 дней."
   },
   "de": {
    "title": "Biometrischer Reisepass",
-   "summary": "Erstausstellung und Verlängerung für Erwachsene und Kinder, Eilverfahren und Pass für Bürger im Ausland."
+   "summary": "Erstausstellung und Verlängerung für Erwachsene und Kinder, Eilverfahren und Pass für Bürger im Ausland.",
+   "where_note": "Persönlich bei der Polizeidirektion oder Polizeistation für Ihre gemeldete Adresse; im Ausland bei der zuständigen Auslandsvertretung. Den Pass holt der Antragsteller, der gesetzliche Vertreter oder eine Person mit beglaubigter Vollmacht ab.",
+   "who": [
+    "Staatsbürger Serbiens, Erwachsene und Minderjährige.",
+    "Für Minderjährige stellt ein Elternteil den Antrag mit der beglaubigten Einwilligung des anderen.",
+    "Bürger im Ausland beantragen ihn bei einer diplomatischen oder konsularischen Vertretung."
+   ],
+   "documents": [
+    {
+     "name": "Gültiger Personalausweis",
+     "note": "Bei einem Konsulat wird ein anderer amtlicher Lichtbildausweis akzeptiert."
+    },
+    {
+     "name": "Bisheriger Reisepass",
+     "note": "Wird vorgezeigt und bei Abholung des neuen entwertet. Bei Verlust: die Verlustanzeige."
+    },
+    {
+     "name": "Zahlscheine",
+     "note": "Werden auf eUprava erzeugt; das Formular und die Herstellung werden getrennt bezahlt."
+    },
+    {
+     "name": "Nachweis der Dringlichkeit",
+     "note": "Nur für die Ausstellung innerhalb von 48 Stunden: dringende medizinische Behandlung, Tod oder schwere Erkrankung eines Familienmitglieds, unaufschiebbare Geschäftsreise."
+    },
+    {
+     "name": "Für Minderjährige",
+     "note": "Geburtsurkunde; schriftliche beglaubigte Einwilligung des anderen Elternteils, eine Erklärung zu Protokoll oder Einwilligung über eUprava.",
+     "variants": [
+      "Ausnahmen: alleiniger Vormund, anderer Elternteil geschäftsunfähig oder übt die elterliche Sorge nicht aus.",
+      "Keine Fingerabdrücke und keine Unterschrift bei Kindern unter 12 Jahren.",
+      "Ein Kind kann nicht in den Pass eines Elternteils eingetragen werden."
+     ]
+    }
+   ],
+   "steps": [
+    "Stellen Sie sicher, dass Ihr Personalausweis gültig ist; erneuern Sie ihn andernfalls zuerst.",
+    "Erzeugen Sie die Zahlscheine auf eUprava und bezahlen Sie sie.",
+    "Buchen Sie auf eUprava einen Termin bei der Polizeidirektion für Ihre Adresse.",
+    "Erscheinen Sie mit Personalausweis, altem Reisepass und Zahlscheinen (für ein Kind außerdem mit der Einwilligung des anderen Elternteils).",
+    "Foto, Fingerabdrücke und Unterschrift werden vor Ort aufgenommen.",
+    "Holen Sie den Reisepass persönlich oder durch eine bevollmächtigte Person ab."
+   ],
+   "faq": [
+    {
+     "q": "Wie lange ist ein Reisepass gültig?",
+     "a": "Kinder unter 3 Jahren: 3 Jahre; 3 bis 14 Jahre: 5 Jahre; über 14 Jahre: 10 Jahre. Wer innerhalb von fünf Jahren zwei oder mehr Pässe verliert oder beschädigt, erhält einen Pass mit einem Jahr Gültigkeit."
+    },
+    {
+     "q": "Was kostet er?",
+     "a": "4.500 RSD ab 21. März 2026 (3.900 Formular + 600 Herstellung)."
+    },
+    {
+     "q": "Kann ich ihn dringend erhalten?",
+     "a": "Ja, innerhalb von 48 Stunden mit Nachweis der Dringlichkeit. Ohne Nachweis fällt ein Eilzuschlag an; prüfen Sie den Betrag am Schalter."
+    },
+    {
+     "q": "Kann mein Kind in meinem Pass eingetragen sein?",
+     "a": "Nein. Jedes Kind braucht einen eigenen Reisepass."
+    },
+    {
+     "q": "Wann kann ich verlängern?",
+     "a": "Einen Pass mit einem Jahr Gültigkeit frühestens 30 Tage vor Ablauf; andere jederzeit vor Ablauf."
+    }
+   ],
+   "for_foreigners": "Serbische Reisepässe werden nur an Staatsbürger ausgestellt. Inhaber von Asyl und vorübergehendem Schutz erhalten ein Reisedokument nach dem Asylrecht (5.880 RSD ab 12. September 2026). Serbische Staatsbürger im Ausland beantragen ihn bei einem Konsulat; die Frist beträgt 60 Tage."
   }
  }
 }

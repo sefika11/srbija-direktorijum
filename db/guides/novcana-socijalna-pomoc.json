@@ -126,12 +126,86 @@
    "for_foreigners": "The right is tied to registered residence in Serbia; foreigners with permanent residence should ask the social work centre about the conditions."
   },
   "ru": {
+   "faq": [
+    {
+     "q": "Сколько получает одинокий человек?",
+     "a": "Базовая сумма устанавливается министерством и корректируется два раза в год; по сообщениям прессы, с 1 апреля 2026 года она составляет 12.536 RSD. Уточните в центре."
+    },
+    {
+     "q": "На какой срок назначается помощь, если я трудоспособен?",
+     "a": "До 9 месяцев в календарный год."
+    },
+    {
+     "q": "Учитывается ли доход?",
+     "a": "Да, выплачивается разница между суммой пособия и доходом семьи."
+    },
+    {
+     "q": "Сколько полагается на ребёнка?",
+     "a": "0,3 базовой суммы на ребёнка до 18 лет; на каждого следующего взрослого 0,5 базовой суммы."
+    }
+   ],
+   "who": [
+    "Люди или семьи, чей доход и имущество ниже установленного законом уровня для базовых потребностей.",
+    "Трудоспособные: до 9 месяцев в календарный год; нетрудоспособные и пожилые: такого ограничения нет."
+   ],
+   "steps": [
+    "Запишитесь на беседу в центр социальной работы по вашему адресу.",
+    "Заполните форму NSP-P и приложите документы о доходах, имуществе и членах домохозяйства.",
+    "Центр оценивает доход, имущество и трудоспособность и составляет заключение.",
+    "Вы получаете решение; выплачивается разница между суммой пособия и доходом семьи.",
+    "Каждый май проводится проверка; трудоспособные получатели получают помощь до 9 месяцев в год."
+   ],
    "title": "Денежная социальная помощь",
-   "summary": "Поддержка людей и семей, чей доход не покрывает базовые потребности."
+   "summary": "Поддержка людей и семей, чей доход не покрывает базовые потребности.",
+   "documents": [
+    {
+     "name": "Форма заявления NSP-P",
+     "note": "Выдаётся в центре; приложите документы о доходах, имуществе и членах домохозяйства, которые центр не может получить сам."
+    }
+   ],
+   "where_note": "Центр социальной работы по вашему адресу. Заявление подаётся лично; социальный работник готовит заключение и мнение.",
+   "for_foreigners": "Право связано с зарегистрированным местом жительства в Сербии; иностранцам с постоянным проживанием следует узнать об условиях в центре социальной работы."
   },
   "de": {
    "title": "Sozialhilfe",
-   "summary": "Unterstützung für Personen und Familien, deren Einkommen den Grundbedarf nicht deckt."
+   "summary": "Unterstützung für Personen und Familien, deren Einkommen den Grundbedarf nicht deckt.",
+   "where_note": "Das Sozialarbeitszentrum (centar za socijalni rad) für Ihre Adresse. Anträge werden persönlich gestellt; ein Sachbearbeiter erstellt einen Befund und eine Stellungnahme.",
+   "who": [
+    "Einzelpersonen oder Familien, deren Einkommen und Vermögen unter der gesetzlichen Höhe für den Grundbedarf liegen.",
+    "Arbeitsfähige Personen: bis zu 9 Monate pro Kalenderjahr; Arbeitsunfähige und ältere Menschen: keine solche Begrenzung."
+   ],
+   "documents": [
+    {
+     "name": "Antragsformular NSP-P",
+     "note": "Erhältlich im Zentrum; legen Sie Nachweise über Einkommen, Vermögen und Haushaltsmitglieder bei, die das Zentrum nicht selbst beschaffen kann."
+    }
+   ],
+   "steps": [
+    "Vereinbaren Sie einen Gesprächstermin beim Sozialarbeitszentrum für Ihre Adresse.",
+    "Füllen Sie das Formular NSP-P aus und legen Sie Nachweise über Einkommen, Vermögen und Haushaltsmitglieder bei.",
+    "Das Zentrum prüft Einkommen, Vermögen und Arbeitsfähigkeit und erstellt einen Befund.",
+    "Sie erhalten einen Bescheid; gezahlt wird die Differenz zwischen dem Leistungsbetrag und dem Familieneinkommen.",
+    "Rechnen Sie jedes Jahr im Mai mit einer Überprüfung; arbeitsfähige Empfänger erhalten bis zu 9 Monate im Jahr."
+   ],
+   "faq": [
+    {
+     "q": "Wie viel erhält eine alleinstehende Person?",
+     "a": "Die Grundlage legt das Ministerium fest und passt sie zweimal im Jahr an; laut Presseberichten beträgt sie ab 1. April 2026 12.536 RSD. Fragen Sie im Zentrum nach."
+    },
+    {
+     "q": "Wie lange, wenn ich arbeitsfähig bin?",
+     "a": "Bis zu 9 Monate pro Kalenderjahr."
+    },
+    {
+     "q": "Wird das Einkommen angerechnet?",
+     "a": "Ja, gezahlt wird die Differenz zwischen der Leistung und dem Familieneinkommen."
+    },
+    {
+     "q": "Wie viel gibt es pro Kind?",
+     "a": "0,3 der Grundlage pro Kind unter 18 Jahren; jeder weitere Erwachsene 0,5 der Grundlage."
+    }
+   ],
+   "for_foreigners": "Der Anspruch ist an den gemeldeten Wohnsitz in Serbien gebunden; Ausländer mit Daueraufenthalt sollten sich beim Sozialarbeitszentrum nach den Voraussetzungen erkundigen."
   }
  },
  "legal_basis": "Zakon o socijalnoj zaštiti; Pravilnik o obrascima u postupku ostvarivanja prava na novčanu socijalnu pomoć."

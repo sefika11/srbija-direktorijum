@@ -148,12 +148,108 @@
    "for_foreigners": "A foreigner with permanent residence registers with the foreigner's ID and a recognised diploma; with temporary residence, with a passport and recognised diploma."
   },
   "ru": {
+   "faq": [
+    {
+     "q": "Можно ли зарегистрироваться онлайн?",
+     "a": "По данным NSZ, регистрация проходит лично в филиале; заявление на пособие можно отправить по электронной почте."
+    },
+    {
+     "q": "Кто получает пособие по безработице?",
+     "a": "Тот, кто был застрахован не менее 12 месяцев подряд и потерял работу не по своей вине и не по своему выбору."
+    },
+    {
+     "q": "Каков срок подачи?",
+     "a": "30 дней со дня окончания страхования для получения права в полном объёме."
+    },
+    {
+     "q": "Каков размер пособия?",
+     "a": "Между законодательным минимумом и максимумом, которые NSZ корректирует ежегодно; по сообщениям прессы, с 1 февраля 2026 года от 33.745 до 78.226 RSD брутто."
+    }
+   ],
+   "who": [
+    "Безработные от 15 лет до достижения условий выхода на пенсию, способные и готовые работать и активно ищущие работу.",
+    "Работающие, ищущие другую работу, учащиеся школ, студенты и пенсионеры могут зарегистрироваться с дополнительными документами."
+   ],
+   "steps": [
+    "Зарегистрируйтесь в филиале NSZ по вашему адресу с удостоверением личности, дипломом и документом о прекращении работы.",
+    "Если вы имеете право, подайте заявление на пособие в течение 30 дней со дня окончания страхования.",
+    "NSZ получает данные о зарплате и стаже из центрального реестра; для медицинского страхования членов семьи приложите их согласие.",
+    "Согласуйте индивидуальный план трудоустройства и регулярно являйтесь к своему консультанту."
+   ],
    "title": "Регистрация в службе занятости (NSZ)",
-   "summary": "Регистрация в Национальной службе занятости: трудоустройство, обучение, пособие и мед. страхование."
+   "summary": "Регистрация в Национальной службе занятости: трудоустройство, обучение, пособие и мед. страхование.",
+   "documents": [
+    {
+     "name": "Удостоверение личности или другой документ с фотографией, в котором указан ваш адрес"
+    },
+    {
+     "name": "Документ об образовании",
+     "note": "Предъявляется оригинал."
+    },
+    {
+     "name": "Документ о прекращении работы",
+     "note": "Если вы работали.",
+     "variants": [
+      "Лица с инвалидностью: документ о статусе.",
+      "Иностранцы: удостоверение личности иностранца или паспорт и признанный диплом.",
+      "Работающие, ищущие другую работу: трудовой договор; учащиеся школ и студенты: справка; пенсионеры: решение о пенсии."
+     ]
+    }
+   ],
+   "where_note": "Филиал или отделение NSZ по вашему адресу, лично. Заявление на пособие можно также отправить по электронной почте в филиал.",
+   "for_foreigners": "Иностранец с постоянным проживанием регистрируется с удостоверением личности иностранца и признанным дипломом; с временным проживанием — с паспортом и признанным дипломом."
   },
   "de": {
    "title": "Arbeitslos melden (NSZ)",
-   "summary": "Meldung beim Nationalen Arbeitsamt für Vermittlung, Schulungen, Arbeitslosengeld und Krankenversicherung."
+   "summary": "Meldung beim Nationalen Arbeitsamt für Vermittlung, Schulungen, Arbeitslosengeld und Krankenversicherung.",
+   "where_note": "Die Filiale oder Außenstelle des NSZ für Ihre Adresse, persönlich. Der Antrag auf Arbeitslosengeld kann auch per E-Mail an die Filiale gesendet werden.",
+   "who": [
+    "Arbeitslose ab 15 Jahren bis zum Erreichen der Rentenvoraussetzungen, die arbeitsfähig und arbeitsbereit sind und aktiv eine Stelle suchen.",
+    "Beschäftigte, die wechseln möchten, Schüler, Studenten und Rentner können sich mit zusätzlichen Unterlagen melden."
+   ],
+   "documents": [
+    {
+     "name": "Personalausweis oder ein anderer Lichtbildausweis mit Ihrer Adresse"
+    },
+    {
+     "name": "Nachweis der Ausbildung",
+     "note": "Das Original wird vorgezeigt."
+    },
+    {
+     "name": "Kündigungsdokument",
+     "note": "Wenn Sie beschäftigt waren.",
+     "variants": [
+      "Menschen mit Behinderungen: Nachweis des Status.",
+      "Ausländer: Ausweis für Ausländer oder Reisepass und ein anerkanntes Diplom.",
+      "Beschäftigte, die wechseln möchten: Arbeitsvertrag; Schüler und Studenten: Bescheinigung; Rentner: Rentenbescheid."
+     ]
+    }
+   ],
+   "steps": [
+    "Melden Sie sich bei der NSZ-Filiale für Ihre Adresse mit Ausweis, Diplom und Kündigungsdokument.",
+    "Reichen Sie bei Anspruch den Antrag auf Arbeitslosengeld innerhalb von 30 Tagen nach Ende der Versicherung ein.",
+    "Der NSZ beschafft Gehalts- und Dienstzeitdaten aus dem Zentralregister; für die Krankenversicherung von Familienangehörigen legen Sie deren Einwilligung bei.",
+    "Vereinbaren Sie einen individuellen Beschäftigungsplan und melden Sie sich regelmäßig bei Ihrem Berater."
+   ],
+   "faq": [
+    {
+     "q": "Kann ich mich online melden?",
+     "a": "Laut NSZ erfolgt die Meldung persönlich in der Filiale; der Antrag auf Leistung kann per E-Mail gesendet werden."
+    },
+    {
+     "q": "Wer erhält das Arbeitslosengeld?",
+     "a": "Jeder, der mindestens 12 Monate ununterbrochen versichert war und dessen Beschäftigung ohne eigenes Verschulden oder eigenen Willen endete."
+    },
+    {
+     "q": "Wie lautet die Frist?",
+     "a": "30 Tage ab Ende der Versicherung für den vollen Anspruch."
+    },
+    {
+     "q": "Wie hoch ist die Leistung?",
+     "a": "Zwischen dem gesetzlichen Mindest- und Höchstbetrag, der jährlich vom NSZ angepasst wird; laut Presseberichten 33.745 bis 78.226 RSD brutto ab 1. Februar 2026."
+    }
+   ],
+   "for_foreigners": "Ein Ausländer mit Daueraufenthalt meldet sich mit dem Ausweis für Ausländer und einem anerkannten Diplom; mit vorübergehendem Aufenthalt mit einem Reisepass und einem anerkannten Diplom."
   }
  },
  "legal_basis": "Zakon o zapošljavanju i osiguranju za slučaj nezaposlenosti."
