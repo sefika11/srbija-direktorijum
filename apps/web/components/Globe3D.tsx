@@ -46,7 +46,7 @@ export default function Globe3D({ iso2, label, homeLabel = "Srbija", className }
       const p = new THREE.Points(g, m); scene.add(p); return p;
     };
     const land = DATA.dots.filter((d) => d[2] !== "RS" && d[2] !== iso2), homeD = DATA.dots.filter((d) => d[2] === "RS"), destD = DATA.dots.filter((d) => d[2] === iso2);
-    build(land, ink.clone().lerp(surface, .55), .012, .002);
+    build(land, ink.clone().lerp(surface, .45), .015, .002);
     build(homeD, red, .024, .006);
     if (destD.length) build(destD, accent, .022, .006);
     // pins at the label points
@@ -66,7 +66,7 @@ export default function Globe3D({ iso2, label, homeLabel = "Srbija", className }
     const targetQ = new THREE.Quaternion().setFromUnitVectors(mid, new THREE.Vector3(0, 0, 1));
     group.quaternion.copy(targetQ);
     const ang = dest ? toVec(home[0], home[1]).angleTo(toVec(dest[0], dest[1])) : 0;
-    const camDist = THREE.MathUtils.clamp(2.6 + ang * .9, 2.8, 4.6); camera.position.set(0, 0, reduced ? camDist : camDist + 1.2);
+    const camDist = THREE.MathUtils.clamp(2.15 + ang * .55, 2.4, 3.5); camera.position.set(0, 0, reduced ? camDist : camDist + 1.2);
 
     // interaction: drag rotates, wheel zooms, auto-rotation until first drag
     let dragging = false, lx = 0, ly = 0, touched = false, vx = 0, vy = 0;
