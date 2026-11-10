@@ -64,6 +64,7 @@ export async function generateMetadata({ params, searchParams }: Props): Promise
   const d = t(locale);
   const plain = "/" + rest.join("/");
   const P = <T,>(sr: T, en: T, ru: T, de: T) => pick(locale, sr, en, ru, de);
+  const lc = (x: string) => (locale === "de" ? x : x.toLowerCase()); // German nouns keep their capital
   const m = (title: string, description?: string | null, extra: { absolute?: boolean; query?: string; noindex?: boolean } = {}) => pageMeta({ locale, plain, title, description, ...extra });
   switch (r.kind) {
     case "home": return m(P("Gde da idem? – sve institucije Srbije", "Gde da idem? – every public and private institution in Serbia", "Gde da idem? – все учреждения Сербии", "Gde da idem? – alle Einrichtungen Serbiens"), d.tagline, { absolute: true });
@@ -72,13 +73,13 @@ export async function generateMetadata({ params, searchParams }: Props): Promise
     case "static": return m(r.slug === "partneri" ? d.becomePartner : r.slug === "o-sajtu" ? d.aboutSite : d.privacy, r.slug === "o-sajtu" ? d.tagline : null);
     case "guides": return m(GUIDE_LABELS[locale].guides, GUIDE_LABELS[locale].guidesLead);
     case "roadmaps": return m(ROAD_LABELS[locale].title, ROAD_LABELS[locale].lead);
-    case "roadmap": return m(`${r.road.title[locale]} – ${ROAD_LABELS[locale].nav.toLowerCase()}`, r.road.lead[locale]);
+    case "roadmap": return m(`${r.road.title[locale]} – ${lc(ROAD_LABELS[locale].nav)}`, r.road.lead[locale]);
     case "visa": return m(P("Vize i uslovi ulaska – sve države", "Visas and entry rules – all countries", "Визы и условия въезда – все страны", "Visa und Einreise – alle Länder"),
       P("Za svaku državu: vizni režim za ulazak u Srbiju i uslovi za putovanje građana Srbije. Izvor: Ministarstvo spoljnih poslova.", "For every country: the visa regime for entering Serbia and the travel rules for Serbian citizens. Source: Ministry of Foreign Affairs.", "Для каждой страны: визовый режим для въезда в Сербию и правила поездок для граждан Сербии. Источник: МИД Сербии.", "Für jedes Land: Visumregelung für die Einreise nach Serbien und Reisebestimmungen für serbische Staatsangehörige. Quelle: Außenministerium."));
     case "country": { const n = locale === "sr" ? r.country.name_sr : r.country.name_en; const to = r.country.to_rs_regime ?? "—", from = r.country.from_rs_regime ?? "—";
       return m(P(`${n} – viza, uslovi ulaska, ambasada`, `${n} – visa, entry rules, embassy`, `${n} – виза, въезд, посольство`, `${n} – Visum, Einreise, Botschaft`),
         P(`${n}: ulazak u Srbiju ${to}, putovanje iz Srbije ${from}. Predstavništva i zvanično uputstvo Ministarstva spoljnih poslova.`, `${n}: entering Serbia ${to}, travelling from Serbia ${from}. Missions and the official Ministry of Foreign Affairs instructions.`, `${n}: въезд в Сербию ${to}, поездка из Сербии ${from}. Представительства и официальная инструкция МИД.`, `${n}: Einreise nach Serbien ${to}, Reise aus Serbien ${from}. Vertretungen und amtliche Hinweise des Außenministeriums.`)); }
-    case "guide": { const c = guideContent(r.guide, locale).c; return m(`${c.title ?? r.guide.name_lat} – ${GUIDE_LABELS[locale].documents.toLowerCase()}, ${GUIDE_LABELS[locale].fees.toLowerCase()}, ${GUIDE_LABELS[locale].whereToGo.toLowerCase()}`, c.summary ?? r.guide.summary); }
+    case "guide": { const c = guideContent(r.guide, locale).c; return m(`${c.title ?? r.guide.name_lat} – ${lc(GUIDE_LABELS[locale].documents)}, ${lc(GUIDE_LABELS[locale].fees)}, ${lc(GUIDE_LABELS[locale].whereToGo)}`, c.summary ?? r.guide.summary); }
     case "okrug": { const n = r.unit.name_lat; return m(`${n} – ${P("gradovi, opštine i institucije", "cities, municipalities and institutions", "города, общины и учреждения", "Städte, Gemeinden und Einrichtungen")}`,
       P(`${n}: svi gradovi i opštine okruga sa institucijama, adresama, telefonima i radnim vremenom.`, `${n}: every city and municipality in the district with its institutions, addresses, phone numbers and opening hours.`, `${n}: все города и общины округа с учреждениями, адресами, телефонами и часами работы.`, `${n}: alle Städte und Gemeinden des Bezirks mit Einrichtungen, Adressen, Telefonnummern und Öffnungszeiten.`)); }
     case "unit": { const n = r.unit.name_lat; return m(`${tuLabel(r.unit)} – ${P("institucije, adrese, telefoni", "institutions, addresses, phone numbers", "учреждения, адреса, телефоны", "Einrichtungen, Adressen, Telefonnummern")}`,
@@ -97,7 +98,7 @@ export async function generateMetadata({ params, searchParams }: Props): Promise
     }
     case "org": { const n = r.org.name_lat; const place = r.org.place_name && !n.includes(r.org.place_name) ? r.org.place_name : null;
       return m(`${n}${place ? `, ${place}` : ""} – ${P("adresa, telefon, radno vreme", "address, phone, opening hours", "адрес, телефон, часы работы", "Adresse, Telefon, Öffnungszeiten")}`,
-        `${n}${place ? `, ${place}` : ""}: ${d.contactAndAddress.toLowerCase()}, ${d.hours.toLowerCase()}, ${d.jurisdiction.toLowerCase()}. ${tn(r.type, locale)}.`); }
+        `${n}${place ? `, ${place}` : ""}: ${lc(d.contactAndAddress)}, ${lc(d.hours)}, ${lc(d.jurisdiction)}. ${tn(r.type, locale)}.`); }
   }
 }
 
