@@ -1,4 +1,5 @@
 import Glyph3D from "@/components/Glyph3D";
+import { emblemFor } from "@/lib/emblem-map";
 import * as db from "@/lib/db";
 export const revalidate = 3600;
 /** Contact sheet of every institution type with its 3D emblem (QA + design-system reference; not linked from navigation). */
@@ -15,9 +16,9 @@ export default async function Page() {
           <ul className="grid gap-4 grid-cols-2 sm:grid-cols-3 lg:grid-cols-5">
             {types.filter((t) => t.group === g).map((t) => (
               <li key={t.id} className="card p-4 flex flex-col items-center text-center gap-2">
-                <Glyph3D icon={t.icon} size={96} title={t.name_lat} />
+                <Glyph3D icon={emblemFor(t.slug, t.icon)} size={96} title={t.name_lat} />
                 <div className="text-[13px] leading-tight">{t.name_lat}</div>
-                <div className="font-mono text-[10.5px] text-muted">{t.icon}</div>
+                <div className="font-mono text-[10.5px] text-muted">{emblemFor(t.slug, t.icon)}</div>
               </li>
             ))}
           </ul>

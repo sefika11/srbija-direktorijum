@@ -584,3 +584,8 @@ h1.font-serif, .font-serif.text-\[40px\], .font-serif.sm\:text-\[40px\], .font-s
 .quick-chip.is-on { background: var(--ink); color: var(--bg); border-color: var(--ink); } .quick-chip.is-on .text-muted { color: color-mix(in oklab, var(--bg) 70%, transparent); }
 .bf-brands .quick-chip { flex: 0 0 auto; }
 .quick-chip.is-on, .quick-chip.is-on:hover { background: var(--accent); color: #fff; border-color: var(--accent); } .quick-chip.is-on .text-muted { color: rgb(255 255 255 / .75); }
+/* rendered emblems: the same gentle float as the SVG scenes */
+@keyframes g3-float-img { 0%, 100% { transform: translateY(0) } 50% { transform: translateY(-4px) } }
+.g3-img.g3-live { animation: g3-float-img 5.2s ease-in-out infinite; animation-delay: var(--g3d, 0ms); filter: drop-shadow(0 10px 14px rgb(15 27 45 / .14)); }
+.glyph-wrap:hover .g3-img.g3-live, .hub-glyph:hover .g3-img.g3-live, .org-glyph:hover .g3-img.g3-live { animation-play-state: paused; }
+@media (prefers-reduced-motion: reduce) { .g3-img.g3-live { animation: none; } }

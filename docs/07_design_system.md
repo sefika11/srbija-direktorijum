@@ -165,3 +165,10 @@ Stylesheet layout: `globals.css` has one block per selector in ten numbered sect
 - **Ad inventory is one slim dashed line** (`AdSlot` → `.ad-line`, links to /partneri), never a grey box; at most two per page plus one sponsor card in the sidebar. A real sponsor replaces the line; an empty slot never shows twice on one page.
 - **Place names inflect.** `lib/grammar.ts` `locative()` / `inPlace()` for "u Beogradu", "u Novom Sadu", "u Sremskoj Mitrovici"; use it in every sentence that puts a place after a preposition. Add irregulars to `EXC`.
 - **Phones:** no 3D/2D toggle (3D is never offered under 768px) and no labels on the static district map under 640px.
+
+## 14. Emblems v3 — rendered buildings (2026-11-10)
+
+- Every institution type is a **rendered 3D building or object** (`apps/web/public/emblems/<key>.png`, 1024 px + `@256`, transparent, ≤30 KB). Scenes are declarative Three.js in `tools/emblems/` (`dsl.mjs` primitives, `buildings.mjs`, `objects.mjs`, `scenes.mjs`); `render.html` renders them headless through Playwright: `.venv/bin/python tools/emblems/render.py [key …]` from the repo root regenerates PNGs, `manifest.json` and the review sheet `_sheet.png`. Always look at the sheet before shipping a new key.
+- Look: orthographic, elevation ≈32°, azimuth ≈38°, matte materials in the type's hue, hemisphere + one soft key light, a rounded paper slab that receives the shadow; every subject fitted to the same frame so emblems weigh the same on a page.
+- `Glyph3D` serves the image when the key is in the manifest (SVG scenes remain the fallback); `lib/emblem-map.ts` maps org-type slugs to building keys (`emblemFor(slug, icon)`) and is used by the type hubs, institution pages, the search palette, the home bento and `/ikonice`. New type → add a slug there; new building → add a scene and re-render.
+- Known weak keys: `paw`, `tooth`, `microscope`; `bank`/`bank-house` and `theater`/`theater-house` share a scene.

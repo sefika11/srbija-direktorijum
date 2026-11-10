@@ -1,5 +1,6 @@
 /** Question-aware directory search: place detection (Serbian case endings), intent matching on guides,
  *  institution types and synonyms, grouped results and a "best answer". Postgres only, no model. */
+import { emblemFor } from "@/lib/emblem-map";
 import * as db from "./db";
 import { sql } from "./db";
 import { href, type Locale } from "./i18n";
@@ -193,7 +194,7 @@ let typeIconCache: { at: number; map: Record<string, string | null> } | null = n
 async function typeIcons(): Promise<Record<string, string | null>> {
   if (typeIconCache && Date.now() - typeIconCache.at < 10 * 60_000) return typeIconCache.map;
   const rows = await sql<{ slug: string; icon: string | null }[]>`select slug, icon from org_types`;
-  typeIconCache = { at: Date.now(), map: Object.fromEntries(rows.map((r) => [r.slug, r.icon])) }; return typeIconCache.map;
+  typeIconCache = { at: Date.now(), map: Object.fromEntries(rows.map((r) => [r.slug, emblemFor(r.slug, r.icon) ?? null])) }; return typeIconCache.map;
 }
 const COUNTRY_ALIASES: Record<string, string> = { amerik: "US", sad: "US", usa: "US", engles: "GB", britan: "GB", uk: "GB", velik: "GB", nemac: "DE", holand: "NL", nizozem: "NL", svajcar: "CH", austrij: "AT", rusij: "RU", kinesk: "CN", kin: "CN", japan: "JP", turs: "TR", grck: "GR", spanij: "ES", italij: "IT", francusk: "FR", kanad: "CA", australij: "AU", emirat: "AE", dubai: "AE", katar: "QA", egip: "EG", indij: "IN", koreja: "KR", madjar: "HU", hrvat: "HR", slovenij: "SI", bosn: "BA", crn: "ME", makedon: "MK", albanij: "AL", bugar: "BG", rumun: "RO" };
 async function matchCountries(tokens: string[], locale: Locale, limit: number): Promise<{ iso2: string; slug: string; name: string; to: string | null; from: string | null }[]> {
