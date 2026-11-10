@@ -1,0 +1,25 @@
+// Minimal typings for the DSL helpers the live stages use directly (box, cyl, grp…); the scenes stay untyped.
+import type { Group, Mesh, Material } from "three";
+import * as THREE from "three";
+export { THREE };
+type Opts = { x?: number; y?: number; z?: number; rx?: number; ry?: number; rz?: number; scale?: number; sharp?: boolean; seg?: number; rTop?: number; axis?: "x" | "z"; arc?: number; sx?: number; sy?: number; sz?: number; bevel?: number; ridge?: "x" | "z"; depth?: number };
+export const CREAM: string, STONE: string, DARK: string, DOOR: string, GOLD: string, RED: string, WOOD: string, GREEN: string, GLASS: string, GREY: string, WHITE: string, INK: string, BLUE: string, AMBER: string;
+export function S(hex: string, dl?: number, ds?: number): string;
+export function T(a: string, t?: number, b?: string): string;
+export function mat(color: string): Material;
+export function grp(children?: unknown[], o?: Opts): Group;
+export function box(w: number, d: number, h: number, color: string, o?: Opts): Mesh;
+export function cyl(r: number, h: number, color: string, o?: Opts): Mesh;
+export function cone(r: number, h: number, color: string, o?: Opts): Mesh;
+export function sphere(r: number, color: string, o?: Opts): Mesh;
+export function torus(R: number, r: number, color: string, o?: Opts): Mesh;
+export function capsule(r: number, len: number, color: string, o?: Opts): Mesh;
+export function rod(a: number[], b: number[], r: number, color: string): Mesh;
+export function shape2d(shape: unknown, depth: number, color: string, o?: Opts): Mesh;
+export function prism(w: number, d: number, h: number, color: string, o?: Opts): Mesh;
+export function clockFace(r: number, o?: Opts): Group;
+export function steps(n: number, w: number, depth: number, rise: number, color?: string, o?: Opts): Group;
+export function tree(h: number, color?: string, o?: Opts): Group;
+export function lamp(o?: Opts): Group;
+export function bench(w: number, o?: Opts): Group;
+export function flagMast(h: number, flagColors?: string[], o?: Opts): Group;

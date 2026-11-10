@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Render the 3D emblem set.  Usage:  .venv/bin/python tools/emblems/render.py [key ...]
+"""Render the 3D emblem set (scenes: apps/web/lib/emblems/*.mjs, shared with the live stage).  Usage:  .venv/bin/python tools/emblems/render.py [key ...]
 No keys = all.  Outputs apps/web/public/emblems/<key>.png (1024), <key>@256.png, manifest.json, _sheet.png and
 apps/web/lib/emblems-manifest.json (copy for the TS import)."""
 import base64, datetime, functools, http.server, json, os, shutil, subprocess, sys, tempfile, threading
@@ -17,6 +17,8 @@ class H(http.server.SimpleHTTPRequestHandler):
         path = path.split("?")[0]
         if path.startswith("/nm/"):
             return str(WEB / "node_modules" / path[4:])
+        if path.startswith("/lib/"):  # the scene DSL lives in the web app (shared with the live EmblemStage)
+            return str(WEB / "lib" / "emblems" / path[5:])
         return str(HERE / path.lstrip("/"))
     def log_message(self, *a): pass
 

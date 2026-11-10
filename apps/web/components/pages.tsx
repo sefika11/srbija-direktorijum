@@ -16,6 +16,7 @@ import HeroFX from "./HeroFX";
 import Opener from "./Opener";
 import { Icon, GROUP_ICON } from "./icons";
 import Glyph3D from "./Glyph3D";
+import EmblemStage from "./EmblemStage";
 import { emblemFor } from "@/lib/emblem-map";
 import { Passport } from "./Passport";
 const GROUP_GLYPH: Record<string, string> = { lokalna_samouprava: "townhall", republicki_organi: "parliament", javne_ustanove: "hospital", javna_preduzeca: "utility", pravosudje_i_javna_ovlascenja: "court", privatne_usluge: "briefcase" };
@@ -235,7 +236,7 @@ function VitalBlock({ locale, vital, police, counts }: { locale: Locale; vital: 
   const policeRows = police.slice(0, 3).map((p) => ({ name: p.unit_name_lat, phone: null as string | null, phone_display: null as string | null, href: href(locale, `/mup-policijska-uprava/${p.org_slug}/${p.slug}`) }));
   const kids = [[counts.os, L.os], [counts.ss, L.ss], [counts.pu, L.pu], [counts.apoteke, L.apoteke]].filter(([n]) => (n as number) > 0);
   return (
-    <section className="vital card" aria-labelledby="vital-h">
+    <section className="vital card" aria-labelledby="vital-h" data-reveal data-fx="flip">
       <div className="vital-head"><div className="eyebrow">{L.title}</div><div className="vital-emergency" id="vital-h"><span className="eyebrow plain">{L.emergency}</span>{[["192", L.police], ["193", "Vatrogasci"], ["194", "Hitna pomoć"], ["1987", "AMSS"]].map(([n, l]) => <a key={n} href={`tel:${n}`} className="vital-num"><b>{n}</b><span>{l}</span></a>)}</div></div>
       <div className="vital-grid">
         {groups.map((g) => g.rows.some((r) => r.rows.length) && <div key={g.title} className="vital-col"><div className="vital-title">{g.title}</div><ul>{g.rows.map((r) => <Row key={r.label} label={r.label} rows={r.rows} />)}</ul></div>)}
@@ -257,7 +258,7 @@ export async function OkrugHub({ locale, okrug }: { locale: Locale; okrug: db.TU
         <div>
           <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, { label: okrug.name_lat }]} />
           <div className="eyebrow mt-4">{d.okrug}</div>
-          <h1 className="display-sm text-[34px] sm:text-[44px]">{okrug.official_name_lat ?? okrug.name_lat}</h1>
+          <div className="hub-head-org"><EmblemStage emblem="townhall" title={d.okrug} size={200} cls="estage-org" /><h1 className="display-sm text-[34px] sm:text-[44px]">{okrug.official_name_lat ?? okrug.name_lat}</h1></div>
           <p className="text-muted mt-3 tabular lede">{okrug.seat_name_lat ? `${d.seat}: ${okrug.seat_name_lat} · ` : ""}{jls.length} {d.municipalities} · {jls.reduce((n, j) => n + j.org_count, 0).toLocaleString("sr-Latn")} {d.institutions}</p>
           <div className="mt-5"><SearchBox locale={locale} large placeholder="" submitLabel={d.search} scope={{ slug: okrug.slug, label: okrug.name_lat }} /></div>
         </div>
@@ -269,8 +270,8 @@ export async function OkrugHub({ locale, okrug }: { locale: Locale; okrug: db.TU
       <div className="shell py-6">
       <AdSlot code="jls_top_leaderboard" w={728} h={90} mobileH={100} label={d.ad} />
       <ul className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-2">
-        {jls.map((j) => (
-          <li key={j.id} className="card card-hover spot p-5">
+        {jls.map((j, i) => (
+          <li key={j.id} className="card card-hover spot plinth p-5" data-reveal data-fx={i % 2 ? "wing-r" : "wing-l"} style={{ "--d": `${(i % 6) * 60}ms` } as React.CSSProperties}>
             <div className="eyebrow">{j.jls_kind === "grad" ? d.city : d.municipality}{j.okrug_seat ? ` · ${d.seat.toLowerCase()} okruga` : ""}</div>
             <Link href={href(locale, `/${j.slug}`)} className="font-serif text-[20px] font-semibold no-underline text-ink hover:text-accent">{j.name_lat}</Link>
             <div className="text-[13px] text-muted mt-1.5 tabular">{j.org_count} {d.institutions}</div>
@@ -298,7 +299,7 @@ export async function UnitHub({ locale, unit, parent }: { locale: Locale; unit: 
       <div>
       <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, ...(okrug ? [{ href: href(locale, `/okrug/${okrug.slug}`), label: okrug.name_lat }] : []), ...(parent ? [{ href: href(locale, `/${parent.slug}`), label: parent.name_lat }] : []), { label: unit.name_lat }]} />
       <div className="eyebrow mt-4">{unit.level === "gradska_opstina" ? d.gradskaOpstina : unit.jls_kind === "grad" ? d.city : d.municipality}{okrug && unit.level === "jls" ? ` · ${okrug.name_lat}` : ""}</div>
-      <h1 className="display-sm text-[34px] sm:text-[44px]">{tuLabel(unit)}</h1>
+      <div className="hub-head-org"><EmblemStage emblem="townhall" title={unit.level === "gradska_opstina" ? d.gradskaOpstina : unit.jls_kind === "grad" ? d.city : d.municipality} size={200} cls="estage-org" /><h1 className="display-sm text-[34px] sm:text-[44px]">{tuLabel(unit)}</h1></div>
       <p className="text-muted mt-3 tabular lede">{orgs.length.toLocaleString("sr-Latn")} {d.institutions}{unit.website ? <> · <a href={unit.website} rel="noopener">{d.website} ↗</a></> : null}</p>
       <div className="mt-5"><SearchBox locale={locale} large placeholder="" submitLabel={d.search} scope={{ slug: unit.slug, label: unit.name_lat }} /></div>
       </div>
@@ -322,7 +323,7 @@ export async function UnitHub({ locale, unit, parent }: { locale: Locale; unit: 
       <div className="grid lg:grid-cols-[minmax(0,1fr)_300px] gap-8 items-start">
         <div>
           {gos.length > 0 && (
-            <section className="mb-8">
+            <section className="mb-8" data-reveal data-fx="flip">
               <SectionTitle>{d.gradskeOpstine}</SectionTitle>
               <ul className="flex flex-wrap gap-2">{gos.map((g) => <li key={g.id}><Link href={href(locale, `/${unit.slug}/${g.slug}`)} className="inline-block rounded-full border border-line bg-surface px-3 py-1 text-[13.5px] no-underline text-ink hover:border-accent">{g.name_lat} <span className="text-muted tabular">{g.org_count}</span></Link></li>)}</ul>
             </section>
@@ -333,7 +334,7 @@ export async function UnitHub({ locale, unit, parent }: { locale: Locale; unit: 
             const mz = g === "lokalna_samouprava" ? list.filter((o) => o.type_slug === "mesna-zajednica") : [];
             const main = g === "lokalna_samouprava" ? list.filter((o) => o.type_slug !== "mesna-zajednica") : list;
             return (
-              <section key={g} className="mb-8">
+              <section key={g} className="mb-8" data-reveal data-fx="flip">
                 <SectionTitle id={g}><span className="inline-flex items-center gap-2.5"><Glyph3D icon={GROUP_GLYPH[g]} size={34} /> {d.groups[g]} {(g === "republicki_organi" ? list.length + serving.length : list.length) > 0 && <span className="text-muted font-normal text-[14px] tabular">{g === "republicki_organi" ? list.length + serving.length : list.length}</span>}</span></SectionTitle>
                 {g === "republicki_organi" && (
                   <ul className="grid sm:grid-cols-2 gap-2 mb-3">
@@ -396,8 +397,7 @@ export async function OrgTypeHub({ locale, type, brand = null, place = null }: {
   try { const parsed = type.faq_md ? JSON.parse(type.faq_md) : []; if (Array.isArray(parsed)) faq = parsed.filter((x) => x && x.q && x.a); } catch { faq = []; }
   return (
     <main id="main">
-      <section className="hero-light border-b border-line"><div className="shell py-8 sm:py-10 hub-head">
-        <div className="hub-glyph"><Glyph3D icon={emblemFor(type.slug, type.icon)} size={132} title={type.name_lat} /></div>
+      <section className="hero-light border-b border-line"><div className="shell py-8 sm:py-10 grid gap-6 lg:gap-10 lg:grid-cols-[minmax(0,1fr)_minmax(300px,.72fr)] lg:items-center">
         <div className="min-w-0">
         <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, { label: d.groups[type.group] }, { label: tn(type, locale) }]} />
         <div className="eyebrow mt-4">{d.groups[type.group]}</div>
@@ -405,6 +405,7 @@ export async function OrgTypeHub({ locale, type, brand = null, place = null }: {
         <p className="text-muted mt-2 tabular">{count.toLocaleString("sr-Latn")} {branchMode ? (locale === "sr" ? "lokacija" : locale === "en" ? "locations" : locale === "ru" ? "адресов" : "Standorte") : d.institutions} · {placesCount(places, locale)}</p>
         {type.description_md && <div className="prose max-w-3xl mt-3 text-[15px] text-muted">{type.description_md}</div>}
         </div>
+        <EmblemStage emblem={emblemFor(type.slug, type.icon)} title={type.name_lat} size={400} cls="estage-hero deskframe" />
       </div></section>
       <div className="shell py-6">
       {faq.length > 0 && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faq.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) }) }} />}
@@ -481,7 +482,7 @@ export async function OrgPage({ locale, org, locSlug, path }: { locale: Locale; 
       <section className="hero-light border-b border-line"><div className="shell py-7 sm:py-9">
       <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, ...(jls ? [{ href: href(locale, `/${jls.slug}`), label: jls.name_lat }] : []), { href: href(locale, `/${org.type_slug}`), label: type.name_lat }, ...(loc && !loc.is_primary ? [{ href: orgHref(locale, org), label: org.name_lat }, { label: loc.unit_name_lat }] : [{ label: org.name_lat }])]} />
       <div className="eyebrow mt-4">{type.name_lat}{jls ? ` · ${jls.name_lat}` : ""}</div>
-      <div className="flex items-start gap-4"><div className="org-glyph hidden sm:grid"><Glyph3D icon={emblemFor(type.slug, type.icon)} size={80} title={type.name_lat} /></div><h1 className="font-serif text-[28px] sm:text-[36px] font-semibold leading-[1.12] mt-1">{title}</h1></div>
+      <div className="hub-head-org"><EmblemStage emblem={emblemFor(type.slug, type.icon)} title={type.name_lat} size={200} cls="estage-org" /><h1 className="font-serif text-[28px] sm:text-[36px] font-semibold leading-[1.12]">{title}</h1></div>
       <p className="text-muted mt-2 text-[14px]">{org.official_name_lat && org.official_name_lat.toLowerCase() !== org.name_lat.toLowerCase() ? org.official_name_lat : type.name_lat}{org.founder_name ? ` · ${d.founder}: ` : ""}{org.founder_slug && org.founder_name ? <Link href={href(locale, `/${org.founder_slug}`)}>{org.founder_name}</Link> : null}</p>
       <div className="mt-2 flex items-center gap-3 flex-wrap"><VerificationChip state={loc?.verification ?? org.verification} locale={locale} />{org.is_private && <Chip>{locale === "sr" ? "Privatna ustanova" : locale === "en" ? "Private institution" : locale === "ru" ? "Частное учреждение" : "Private Einrichtung"}</Chip>}<a href="#izmeni" className="text-[12.5px]">{d.editData}</a></div>
       </div></section>
