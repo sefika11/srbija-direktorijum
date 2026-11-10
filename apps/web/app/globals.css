@@ -529,3 +529,46 @@ body::before { content: ""; position: fixed; inset: 0; z-index: -1; pointer-even
 /* passport + globe plates */
 .hub-glyph, .org-glyph { box-shadow: var(--shadow-2); background: radial-gradient(70% 70% at 50% 35%, var(--surface) 0%, var(--surface-2) 100%); }
 @media (prefers-reduced-motion: reduce) { .spot:hover, .card-hover:hover, .guide-card:hover, .bento-card:hover, .lang-tile:hover { transform: none; } }
+
+/* ---------- 28. Visa stage: two passports around a clickable globe ---------- */
+.vstage { display: grid; gap: 20px; grid-template-columns: minmax(0, 1fr); align-items: start; }
+@media (min-width: 1024px) { .vstage { grid-template-columns: 260px minmax(0, 1fr) 260px; align-items: center; } }
+.vstage-side { display: grid; gap: 12px; justify-items: center; text-align: center; }
+.vstage-passport { min-height: 210px; display: grid; place-items: center; transition: transform .6s var(--ease-out); }
+.vstage-passport.is-set { transform: none; }
+.vstage-ghost { width: 150px; height: 198px; border-radius: 6px 12px 12px 6px; border: 2px dashed var(--line-strong); display: grid; place-items: center; color: var(--line-strong); font-family: var(--font-display); font-size: 40px; }
+.vstage-facts { display: grid; gap: 8px; justify-items: center; }
+.vstage-name { display: inline-flex; align-items: center; gap: 8px; font-family: var(--font-display); font-size: 16px; letter-spacing: -0.02em; }
+.vstage-name svg { width: 26px; height: 18px; border-radius: 2px; box-shadow: 0 0 0 1px rgb(15 27 45 / .15); }
+.vstage-globe { position: relative; aspect-ratio: 1 / 1; max-width: 640px; width: 100%; margin: 0 auto; border-radius: 50%; overflow: hidden; background: radial-gradient(60% 60% at 50% 45%, color-mix(in oklab, var(--accent-soft) 70%, var(--surface)) 0%, transparent 72%); }
+.vstage-globe canvas { cursor: grab; } .vstage-globe canvas:active { cursor: grabbing; }
+.vstage-hint { position: absolute; right: 12px; bottom: 12px; font-family: var(--font-mono); font-size: 10.5px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); background: color-mix(in oklab, var(--surface) 80%, transparent); backdrop-filter: blur(8px); border: 1px solid color-mix(in oklab, var(--ink) 8%, transparent); border-radius: var(--radius-pill); padding: 4px 10px; pointer-events: none; max-width: 60%; text-align: right; }
+.vstage .globe-legend { left: 12px; }
+@media (max-width: 1023px) { .vstage-right { display: none; } .vstage-globe { max-width: 420px; } }
+
+/* ---------- 29. One picker everywhere (Combobox) + native controls inherit the site font ---------- */
+button, input, select, textarea { font: inherit; color: inherit; letter-spacing: inherit; }
+select { appearance: none; -webkit-appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath d='M2 4l4 4 4-4' fill='none' stroke='%23586274' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 10px center; padding-right: 30px !important; }
+select:focus, select:focus-visible { outline: none !important; box-shadow: 0 0 0 3px color-mix(in oklab, var(--accent) 22%, transparent); border-color: var(--accent); }
+.cbx { position: relative; display: flex; align-items: center; min-width: 0; }
+.cbx-input { width: 100%; min-width: 0; min-height: 40px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); padding: 8px 34px 8px 12px; font-size: 14px; font-weight: 500; color: var(--ink); box-shadow: var(--shadow-1); transition: border-color .15s, box-shadow .15s; }
+.cbx-lg .cbx-input { min-height: 46px; font-size: 15px; }
+.cbx-input::placeholder { color: var(--muted); font-weight: 400; }
+.cbx-input:focus, .cbx-input:focus-visible { outline: none !important; border-color: var(--accent); box-shadow: 0 0 0 3px color-mix(in oklab, var(--accent) 22%, transparent); }
+.cbx .cbx-icon { position: absolute; left: 10px; top: 50%; transform: translateY(-50%); display: inline-flex; pointer-events: none; }
+.cbx .cbx-icon + .cbx-input { padding-left: 44px; }
+.cbx-icon svg, .cbx-icon .visa-flag { width: 24px; height: 17px; border-radius: 2px; }
+.cbx-btn { position: absolute; right: 4px; top: 50%; transform: translateY(-50%); width: 28px; height: 28px; display: grid; place-items: center; border-radius: 999px; color: var(--muted); font-size: 16px; line-height: 1; }
+.cbx-btn:hover { background: var(--surface-2); color: var(--ink); }
+.cbx-list { position: absolute; left: 0; right: 0; top: calc(100% + 6px); z-index: 40; max-height: 300px; overflow: auto; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow-3); padding: 4px; margin: 0; list-style: none; text-align: left; }
+.cbx-opt { display: flex; align-items: center; gap: 10px; padding: 8px 10px; border-radius: calc(var(--radius) - 3px); font-size: 14px; color: var(--ink); cursor: pointer; }
+.cbx-opt .cbx-icon { position: static; transform: none; }
+.cbx-opt.is-active { background: var(--surface-2); }
+.cbx-opt[aria-selected="true"] .cbx-label { font-weight: 600; }
+.cbx-label { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.cbx-sub { font-family: var(--font-mono); font-size: 10.5px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.cbx-empty { padding: 10px 12px; font-size: 13px; color: var(--muted); }
+
+/* ---------- 30. One heading face everywhere: the home-page display font on every subsection ---------- */
+.font-serif { font-family: var(--font-display); font-weight: 400 !important; letter-spacing: -0.035em; line-height: 1.1; }
+h1.font-serif, .font-serif.text-\[40px\], .font-serif.sm\:text-\[40px\], .font-serif.sm\:text-\[38px\], .font-serif.sm\:text-\[36px\], .font-serif.sm\:text-\[32px\] { font-weight: 300 !important; letter-spacing: -0.04em; }
