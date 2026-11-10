@@ -3,7 +3,7 @@
 import { emblemFor } from "@/lib/emblem-map";
 import * as db from "./db";
 import { sql } from "./db";
-import { href, type Locale } from "./i18n";
+import { href, type Locale, tn } from "./i18n";
 
 export type Place = { id: number; slug: string; name_lat: string; level: "jls" | "gradska_opstina" | "okrug"; parent_slug: string | null; parent_id: number | null; jls_kind: string | null; path: string };
 export type TypeHit = db.OrgType & { org_count: number; score: number };
@@ -30,6 +30,8 @@ function wordMatch(w: string, c: string): number {
   const n = cp(w, c);
   if (n < Math.max(3, w.length - 3) || n < c.length - 3) return 0;
   if (n === w.length && c.length > w.length && w.length < 5) return 0;   // 'sad' must not match 'sadovi'
+  if (Math.max(w.length, c.length) <= 5 && n < Math.min(w.length, c.length) - 1) return 0; // 'banka' is not 'banja'
+  if (n / Math.max(w.length, c.length) < .6) return 0;                                      // 'platim' is not 'plana'
   return n;
 }
 
@@ -101,7 +103,7 @@ async function matchTypes(intent: string, tokens: string[], syn: { kind: string;
   const synSlugs = syn.filter((s) => s.kind === "type").map((s) => s.slug);
   const toks = [...new Set([...tokens.filter((t) => t.length >= 4), ...tokens.map(stem).filter((t) => t.length >= 4)])];
   const rows = await sql<TypeHit[]>`
-    select t.id, t.slug, t."group", t.name_lat, t.name_cyr, t.name_plural_lat, t.description_md, t.faq_md, t.icon, t.sort_order, t.one_per_jls, t.national_network,
+    select t.id, t.slug, t."group", t.name_lat, t.name_cyr, t.name_plural_lat, t.name_en, t.name_ru, t.name_de, t.description_md, t.faq_md, t.icon, t.sort_order, t.one_per_jls, t.national_network,
            (select count(*) from organizations o where o.org_type_id = t.id and o.status = 'active')::int as org_count,
            (case when t.slug = any(${synSlugs}::text[]) then 2.0 else 0 end
             + case when ${intent} <> '' then greatest(similarity(f_unaccent(lower(t.name_lat)), f_unaccent(${intent})), similarity(f_unaccent(lower(coalesce(t.name_plural_lat, ''))), f_unaccent(${intent}))) else 0 end
@@ -198,8 +200,10 @@ async function typeIcons(): Promise<Record<string, string | null>> {
 }
 const COUNTRY_ALIASES: Record<string, string> = { amerik: "US", sad: "US", usa: "US", engles: "GB", britan: "GB", uk: "GB", velik: "GB", nemac: "DE", holand: "NL", nizozem: "NL", svajcar: "CH", austrij: "AT", rusij: "RU", kinesk: "CN", kin: "CN", japan: "JP", turs: "TR", grck: "GR", spanij: "ES", italij: "IT", francusk: "FR", kanad: "CA", australij: "AU", emirat: "AE", dubai: "AE", katar: "QA", egip: "EG", indij: "IN", koreja: "KR", madjar: "HU", hrvat: "HR", slovenij: "SI", bosn: "BA", crn: "ME", makedon: "MK", albanij: "AL", bugar: "BG", rumun: "RO" };
 async function matchCountries(tokens: string[], locale: Locale, limit: number): Promise<{ iso2: string; slug: string; name: string; to: string | null; from: string | null }[]> {
-  const toks = [...new Set([...tokens.filter((t) => t.length >= 4), ...tokens.map(stem).filter((t) => t.length >= 4)])]; if (!toks.length) return [];
-  const aliasIso = [...new Set(toks.flatMap((t) => Object.entries(COUNTRY_ALIASES).filter(([k]) => t.startsWith(k) || k.startsWith(t) && t.length >= 4).map(([, v]) => v)))];
+  const toks = [...new Set([...tokens.filter((t) => t.length >= 4), ...tokens.map(stem).filter((t) => t.length >= 4)])];
+  const shortToks = tokens.filter((t) => t.length >= 2 && t.length < 4);
+  const aliasIso = [...new Set([...toks.flatMap((t) => Object.entries(COUNTRY_ALIASES).filter(([k]) => k === t || (t.startsWith(k) && k.length >= 4) || (k.startsWith(t) && t.length >= 4)).map(([, v]) => v)), ...shortToks.flatMap((t) => Object.entries(COUNTRY_ALIASES).filter(([k]) => k === t).map(([, v]) => v))])];
+  if (!toks.length && !aliasIso.length) return [];
   const rows = await sql<{ iso2: string; slug: string; name_sr: string; name_en: string; to_rs_regime: string | null; from_rs_regime: string | null }[]>`
     select iso2, slug, name_sr, name_en, to_rs_regime, from_rs_regime from countries
     where iso2 = any(${aliasIso}::text[]) or exists (select 1 from unnest(${toks}::text[]) t where f_unaccent(lower(name_sr)) like t || '%' or f_unaccent(lower(name_en)) like t || '%' or f_unaccent(lower(name_sr)) like '% ' || t || '%')
@@ -216,6 +220,18 @@ async function matchBranches(typeSlugs: string[], placePath: string | null, limi
     from locations l join organizations o on o.id = l.org_id join org_types t on t.id = o.org_type_id join territorial_units tu on tu.id = l.territorial_unit_id
     where l.status = 'active' and o.status = 'active' and t.slug = any(${typeSlugs}::text[]) and tu.path <@ ${placePath}::ltree
     order by (select count(*) from location_contacts c where c.location_id = l.id) desc, o.name_lat, l.unit_name_lat limit ${limit}`;
+}
+/** "poštanska štedionica kragujevac": branches of organisations whose NAME matches, inside the detected place. */
+async function matchBrandBranches(q: string, placePath: string | null, limit: number): Promise<BranchHit[]> {
+  if (!placePath || q.length < 3) return [];
+  return sql<BranchHit[]>`
+    with qq as (select f_unaccent(lower(${q})) as q)
+    select o.slug as org_slug, o.name_lat as org_name, t.slug as type_slug, t.icon, l.slug as location_slug, l.unit_name_lat as unit_name, l.address_display as address,
+           (select value_display from location_contacts c where c.location_id = l.id and c.kind = 'phone' order by c.id limit 1) as phone
+    from locations l join organizations o on o.id = l.org_id join org_types t on t.id = o.org_type_id join territorial_units tu on tu.id = l.territorial_unit_id, qq
+    where l.status = 'active' and o.status = 'active' and tu.path <@ ${placePath}::ltree
+      and (f_unaccent(lower(o.name_lat)) % qq.q or o.search @@ plainto_tsquery('simple', qq.q))
+    order by similarity(f_unaccent(lower(o.name_lat)), qq.q) desc, (l.address_display is not null) desc, (select count(*) from location_contacts c where c.location_id = l.id) desc limit ${limit}`;
 }
 async function orgPhones(slugs: string[]): Promise<Record<string, string>> {
   if (!slugs.length) return {};
@@ -239,14 +255,15 @@ export async function suggest(q: string, locale: Locale, scopeSlug?: string | nu
     scopeSlug ? Promise.resolve([]) : matchCountries(intentTokens, locale, 3).catch(() => []), typeIcons(),
   ]);
   const branchTypes = [...new Set([...types.map((t) => t.slug), ...syn.filter((x) => x.kind === "type").map((x) => x.slug)])].slice(0, 4);
-  const [phones, branches] = await Promise.all([orgPhones(orgs.map((o) => o.slug)).catch(() => ({} as Record<string, string>)), matchBranches(branchTypes, det?.place.path ?? null, scopeSlug ? 10 : 6).catch(() => [] as BranchHit[])]);
+  const [phones, typeBranches, brandBranches] = await Promise.all([orgPhones(orgs.map((o) => o.slug)).catch(() => ({} as Record<string, string>)), matchBranches(branchTypes, det?.place.path ?? null, scopeSlug ? 10 : 6).catch(() => [] as BranchHit[]), intent && det ? matchBrandBranches(intent, det.place.path, 6).catch(() => [] as BranchHit[]) : Promise.resolve([] as BranchHit[])]);
+  const branches = [...brandBranches, ...typeBranches];
   const out: Suggestion[] = [];
   const folded = fold(cyrToLat(q));
   for (const a of ACTIONS) if (a.re.test(folded)) out.push({ kind: "action", href: `tel:${a.tel}`, title: a.title[locale], sub: a.tel.replace(/^0800/, "0800 "), tel: a.tel, icon: a.tel === "192" ? "shield" : a.tel === "193" ? "flame" : a.tel === "194" ? "heart-pulse" : a.tel === "1987" ? "car" : "zap" });
   for (const sec of scopeSlug ? [] : SECTIONS) if (tokens.some((t) => t.length >= 3 && sec.keys.some((k) => t.startsWith(fold(k)) || fold(k).startsWith(t)))) out.push({ kind: "section", href: href(locale, sec.path), title: sec.title[locale], sub: sec.sub[locale], icon: sec.icon });
   const placeQ = det ? `?opstina=${det.place.level === "gradska_opstina" ? det.place.parent_slug : det.place.slug}` : "";
   for (const g of guides) { const c = g.guide[locale] ?? g.guide.en ?? g.guide.sr ?? {}; out.push({ kind: "guide", href: href(locale, `/vodic/${g.slug}${det && det.place.level !== "okrug" ? placeQ : ""}`), title: c.title ?? g.name_lat, sub: det ? det.place.name_lat : g.category_name, icon: "file-text" }); }
-  for (const t of types) out.push({ kind: "type", href: href(locale, det && det.place.level !== "okrug" ? `/${det.place.level === "gradska_opstina" ? det.place.parent_slug : det.place.slug}#${t.group}` : `/${t.slug}`), title: t.name_plural_lat ?? t.name_lat, sub: det ? det.place.name_lat : null, icon: t.icon, count: t.org_count });
+  for (const t of types) out.push({ kind: "type", href: href(locale, det && det.place.level !== "okrug" ? `/${det.place.level === "gradska_opstina" ? det.place.parent_slug : det.place.slug}#${t.group}` : `/${t.slug}`), title: tn(t, locale), sub: det ? det.place.name_lat : null, icon: t.icon, count: t.org_count });
   for (const p of places) out.push({ kind: "place", href: href(locale, p.level === "okrug" ? `/okrug/${p.slug}` : p.level === "gradska_opstina" ? `/${p.parent_slug}/${p.slug}` : `/${p.slug}`), title: p.name_lat, sub: p.level === "okrug" ? "okrug" : p.level === "gradska_opstina" ? "gradska opština" : p.jls_kind === "grad" ? "grad" : "opština", icon: p.level === "okrug" ? "map" : "building" });
   const seen = new Set<string>();
   const seenBranch = new Set<string>();

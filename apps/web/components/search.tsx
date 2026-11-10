@@ -2,7 +2,7 @@ import Link from "next/link";
 import * as db from "@/lib/db";
 import { smartSearch, type Place } from "@/lib/search";
 import { inPlace } from "@/lib/grammar";
-import { href, t, type Locale } from "@/lib/i18n";
+import { href, t, type Locale, tn } from "@/lib/i18n";
 import { Breadcrumbs, SectionTitle } from "./ui";
 import SearchBox from "./SearchBox";
 import { Icon } from "./icons";
@@ -71,7 +71,7 @@ export async function SmartSearchPage({ locale, q }: { locale: Locale; q: string
               </>); })()}
             {r.best.kind === "type" && (
               <>
-                <Link href={href(locale, `/${r.best.type.slug}`)} className="font-serif text-[24px] font-semibold leading-tight no-underline text-ink hover:text-accent block mt-1">{r.best.type.name_plural_lat ?? r.best.type.name_lat}{r.place ? ` ${locale === "sr" ? inPlace(r.place.name_lat) : `${s.inPlace} ${r.place.name_lat}`}` : ""}</Link>
+                <Link href={href(locale, `/${r.best.type.slug}`)} className="font-serif text-[24px] font-semibold leading-tight no-underline text-ink hover:text-accent block mt-1">{tn(r.best.type, locale)}{r.place ? ` ${locale === "sr" ? inPlace(r.place.name_lat) : `${s.inPlace} ${r.place.name_lat}`}` : ""}</Link>
                 {r.best.serving.length > 0 ? <ServingList serving={r.best.serving} contacts={r.best.contacts} hours={r.best.hours} locale={locale} /> : <p className="text-muted text-[14px] mt-2">{d.noData}</p>}
                 <Link href={href(locale, `/${r.best.type.slug}`)} className="quick-chip mt-4">{s.all} →</Link>
               </>
@@ -87,7 +87,7 @@ export async function SmartSearchPage({ locale, q }: { locale: Locale; q: string
             <li key={g.id} className="card card-hover p-4"><div className="eyebrow">{g.category_name}</div><Link href={href(locale, `/vodic/${g.slug}${placeQ}`)} className="font-serif text-[17px] font-semibold no-underline text-ink hover:text-accent block mt-0.5">{c.title ?? g.name_lat}</Link><p className="text-[13px] text-muted mt-1 line-clamp-2">{c.summary ?? g.summary}</p></li>); })}</ul></section>}
 
         {r && r.types.length > 0 && <section><SectionTitle>{s.types}</SectionTitle>
-          <ul className="flex flex-wrap gap-2">{r.types.map((ty) => <li key={ty.id}><Link href={href(locale, `/${ty.slug}`)} className="quick-chip">{ty.name_plural_lat ?? ty.name_lat}<span className="text-muted tabular ml-1.5">{ty.org_count}</span></Link></li>)}</ul></section>}
+          <ul className="flex flex-wrap gap-2">{r.types.map((ty) => <li key={ty.id}><Link href={href(locale, `/${ty.slug}`)} className="quick-chip">{tn(ty, locale)}<span className="text-muted tabular ml-1.5">{ty.org_count}</span></Link></li>)}</ul></section>}
 
         {r && r.places.length > 0 && !(r.best?.kind === "place") && <section><SectionTitle>{s.places}</SectionTitle>
           <ul className="flex flex-wrap gap-2">{r.places.map((p) => <li key={p.id}><Link href={placeHref(locale, p)} className="quick-chip"><Icon.pin /> {p.name_lat}</Link></li>)}</ul></section>}

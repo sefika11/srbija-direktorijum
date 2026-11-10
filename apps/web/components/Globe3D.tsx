@@ -1,7 +1,7 @@
 "use client";
 /** Globe for a country page: the shared GlobeEngine with the destination selected and the arc from Serbia. */
 import { useEffect, useRef } from "react";
-import earth from "@/lib/earth-dots.json";
+import earth from "@/lib/country-centroids.json";
 import { GlobeEngine } from "@/lib/globe-engine";
 
 const DATA = earth as unknown as { centroids: Record<string, [number, number]> };

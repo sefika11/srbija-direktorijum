@@ -649,7 +649,7 @@ body > header, body > main, body > footer, .opener { position: relative; z-index
 /* red is the action colour; blue informs; gold is the hairline */
 .btn-primary, button[type="submit"].btn-primary, .search-large button[type="submit"], .sp-submit, form .btn-primary { background: linear-gradient(180deg, color-mix(in oklab, var(--red) 92%, #fff) 0%, var(--red) 55%, var(--red-ink) 100%); color: #fff; border: 1px solid var(--red-ink); box-shadow: 0 1px 0 rgb(255 255 255 / .25) inset, 0 8px 18px -10px color-mix(in oklab, var(--red) 70%, transparent); }
 .btn-primary:hover { filter: brightness(1.06); }
-.search-large button, .sp-form button[type="submit"] { background: linear-gradient(180deg, color-mix(in oklab, var(--red) 92%, #fff) 0%, var(--red) 55%, var(--red-ink) 100%) !important; color: #fff !important; border-color: var(--red-ink) !important; }
+.search-large > form > button[type="submit"], .search-large .sp-submit, .sp-form > button[type="submit"] { background: linear-gradient(180deg, color-mix(in oklab, var(--red) 92%, #fff) 0%, var(--red) 55%, var(--red-ink) 100%) !important; color: #fff !important; border-color: var(--red-ink) !important; }
 .quick-chip.is-on, .quick-chip.is-on:hover { background: var(--red); border-color: var(--red-ink); }
 .eyebrow::before { content: ""; width: 18px; height: 3px; border-radius: 2px; background: linear-gradient(90deg, var(--red) 0 50%, var(--accent) 50% 100%); }
 a { color: var(--accent); }

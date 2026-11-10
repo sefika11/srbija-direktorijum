@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 import Link from "next/link";
 import type { Locale } from "@/lib/i18n";
-import { t, href } from "@/lib/i18n";
+import { t, href, tn } from "@/lib/i18n";
 import * as db from "@/lib/db";
 import { Breadcrumbs, Chip, VerificationChip, SectionTitle, AdSlot, SponsorCard } from "./ui";
 import SearchBox from "./SearchBox";
@@ -165,7 +165,7 @@ export async function Home({ locale }: { locale: Locale }) {
                 <h3 className="font-semibold text-[16px] mt-4">{d.groups[g]}</h3>
                 <div className="bar"><i style={{ "--w": (total / maxGroup).toFixed(3) } as React.CSSProperties} /></div>
                 <ul className="text-[13.5px] grid gap-1.5 mt-4">
-                  {ts.slice(0, i < 2 ? 6 : 4).map((x) => <li key={x.id} className="flex justify-between gap-3"><Link href={href(locale, `/${x.slug}`)} className="no-underline text-ink hover:text-accent truncate">{x.name_plural_lat ?? x.name_lat}</Link><span className="text-muted tabular shrink-0">{x.org_count.toLocaleString("sr-Latn")}</span></li>)}
+                  {ts.slice(0, i < 2 ? 6 : 4).map((x) => <li key={x.id} className="flex justify-between gap-3"><Link href={href(locale, `/${x.slug}`)} className="no-underline text-ink hover:text-accent truncate">{tn(x, locale)}</Link><span className="text-muted tabular shrink-0">{x.org_count.toLocaleString("sr-Latn")}</span></li>)}
                 </ul>
               </div>); })}
           </div>
@@ -383,9 +383,9 @@ export async function OrgTypeHub({ locale, type, brand = null, place = null }: {
   const groups = new Map<string, db.OrgRow[]>();
   for (const o of orgs) { const k = o.founder_name ?? o.place_name ?? "—"; groups.set(k, [...(groups.get(k) ?? []), o]); }
   const keys = [...groups.keys()].sort((a, b) => a.localeCompare(b, "sr-Latn"));
-  const agg = (key: (b: db.ServingRow) => [string | null, string | null]) => { const m = new Map<string, { slug: string; name: string; count: number }>(); for (const b of branches) { const [slug, name] = key(b); if (!slug) continue; const e = m.get(slug) ?? { slug, name: name ?? slug, count: 0 }; e.count++; m.set(slug, e); } return [...m.values()]; };
-  const brands = agg((b) => [b.org_slug, b.org_name_lat]).sort((a, b) => b.count - a.count);
-  const placeList = agg((b) => [b.jls_slug, b.jls_name_lat]).sort((a, b) => a.name.localeCompare(b.name, "sr-Latn"));
+  const agg = (key: (b: db.ServingRow) => [string | null, string | null], keep: (b: db.ServingRow) => boolean = () => true) => { const m = new Map<string, { slug: string; name: string; count: number }>(); for (const b of branches) { if (!keep(b)) continue; const [slug, name] = key(b); if (!slug) continue; const e = m.get(slug) ?? { slug, name: name ?? slug, count: 0 }; e.count++; m.set(slug, e); } return [...m.values()]; };
+  const brands = agg((b) => [b.org_slug, b.org_name_lat], (b) => !place || b.jls_slug === place).sort((a, b) => b.count - a.count);
+  const placeList = agg((b) => [b.jls_slug, b.jls_name_lat], (b) => !brand || b.org_slug === brand).sort((a, b) => a.name.localeCompare(b.name, "sr-Latn"));
   const shownBranches = branches.filter((b) => (!brand || b.org_slug === brand) && (!place || b.jls_slug === place));
   const byOkrug = new Map<string, db.ServingRow[]>();
   for (const b of shownBranches) { const k = place ? (b.jls_name_lat ?? "—") : (b.okrug_name_lat ?? "—"); byOkrug.set(k, [...(byOkrug.get(k) ?? []), b]); }
@@ -399,9 +399,9 @@ export async function OrgTypeHub({ locale, type, brand = null, place = null }: {
       <section className="hero-light border-b border-line"><div className="shell py-8 sm:py-10 hub-head">
         <div className="hub-glyph"><Glyph3D icon={emblemFor(type.slug, type.icon)} size={132} title={type.name_lat} /></div>
         <div className="min-w-0">
-        <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, { label: d.groups[type.group] }, { label: type.name_plural_lat ?? type.name_lat }]} />
+        <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, { label: d.groups[type.group] }, { label: tn(type, locale) }]} />
         <div className="eyebrow mt-4">{d.groups[type.group]}</div>
-        <h1 className="font-serif text-[30px] sm:text-[38px] font-semibold leading-tight">{type.name_plural_lat ?? type.name_lat}</h1>
+        <h1 className="font-serif text-[30px] sm:text-[38px] font-semibold leading-tight">{tn(type, locale)}</h1>
         <p className="text-muted mt-2 tabular">{count.toLocaleString("sr-Latn")} {branchMode ? (locale === "sr" ? "lokacija" : locale === "en" ? "locations" : locale === "ru" ? "адресов" : "Standorte") : d.institutions} · {placesCount(places, locale)}</p>
         {type.description_md && <div className="prose max-w-3xl mt-3 text-[15px] text-muted">{type.description_md}</div>}
         </div>
@@ -558,7 +558,7 @@ export async function OrgPage({ locale, org, locSlug, path }: { locale: Locale; 
             </Link>
           )}
           <SponsorCard label={d.sponsor} sponsor={null} compact />
-          {jls && <div className="card p-4 text-[13.5px]"><div className="eyebrow mb-2">{d.otherUnits}</div><Link href={href(locale, `/${org.type_slug}`)}>{type.name_plural_lat ?? type.name_lat}</Link><div className="mt-1"><Link href={href(locale, `/${jls.slug}`)}>{d.allInstitutions} · {jls.name_lat}</Link></div>{okrug && <div className="mt-1"><Link href={href(locale, `/okrug/${okrug.slug}`)}>{okrug.name_lat}</Link></div>}</div>}
+          {jls && <div className="card p-4 text-[13.5px]"><div className="eyebrow mb-2">{d.otherUnits}</div><Link href={href(locale, `/${org.type_slug}`)}>{tn(type, locale)}</Link><div className="mt-1"><Link href={href(locale, `/${jls.slug}`)}>{d.allInstitutions} · {jls.name_lat}</Link></div>{okrug && <div className="mt-1"><Link href={href(locale, `/okrug/${okrug.slug}`)}>{okrug.name_lat}</Link></div>}</div>}
           <div className="hidden xl:block"><AdSlot code="loc_sidebar_programmatic" w={300} h={600} label={d.ad} /></div>
         </aside>
       </div>
@@ -622,7 +622,7 @@ export async function ForForeigners({ locale }: { locale: Locale }) {
                 <div className="eyebrow">{s.where}</div>
                 <h2 className="font-semibold text-[17px] mt-0.5">{s.title}</h2>
                 <p className="text-[14px] text-muted mt-1.5">{s.body}</p>
-                {ty && <Link href={href(locale, `/${ty.slug}`)} className="inline-block mt-3 text-[14px] font-medium">{ty.name_plural_lat ?? ty.name_lat} ({ty.org_count}) →</Link>}
+                {ty && <Link href={href(locale, `/${ty.slug}`)} className="inline-block mt-3 text-[14px] font-medium">{tn(ty, locale)} ({ty.org_count}) →</Link>}
               </div>
             </li>
           );

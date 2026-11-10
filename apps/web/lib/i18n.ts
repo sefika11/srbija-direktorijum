@@ -100,3 +100,9 @@ export function href(locale: Locale, path: string): string {
   const p = path.startsWith("/") ? path : `/${path}`;
   return locale === DEFAULT_LOCALE ? p : `/${locale}${p === "/" ? "" : p}`;
 }
+
+/** Institution-type name for the locale: translated when we have it, else the Serbian plural. */
+export function tn(t: { name_lat: string; name_plural_lat?: string | null; name_en?: string | null; name_ru?: string | null; name_de?: string | null }, locale: Locale): string {
+  const v = locale === "en" ? t.name_en : locale === "ru" ? t.name_ru : locale === "de" ? t.name_de : null;
+  return v ?? t.name_plural_lat ?? t.name_lat;
+}

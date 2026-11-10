@@ -13,7 +13,7 @@ export type TU = {
   jls_kind: "grad" | "opstina" | null; parent_id: number | null; path: string; seat_name_lat: string | null; okrug_seat: boolean;
   population_2022: number | null; website: string | null; in_kosovo: boolean;
 };
-export type OrgType = { id: number; slug: string; group: Group; name_lat: string; name_cyr: string | null; name_plural_lat: string | null;
+export type OrgType = { id: number; slug: string; group: Group; name_lat: string; name_cyr: string | null; name_plural_lat: string | null; name_en?: string | null; name_ru?: string | null; name_de?: string | null;
   description_md: string | null; faq_md: string | null; icon: string | null; sort_order: number; one_per_jls: boolean; national_network: boolean };
 export type OrgRow = { id: number; slug: string; name_lat: string; name_cyr: string | null; official_name_lat: string | null; type_slug: string; type_name: string;
   group: Group; jurisdiction: string; founder_slug: string | null; founder_name: string | null; place_name: string | null; place_slug: string | null; verification: string;
@@ -67,7 +67,7 @@ export const getAncestors = (path: string) =>
 
 export const getOrgTypes = () =>
   sql<(OrgType & { org_count: number })[]>`
-    select t.id, t.slug, t."group", t.name_lat, t.name_cyr, t.name_plural_lat, t.description_md, t.faq_md, t.icon, t.sort_order, t.one_per_jls, t.national_network,
+    select t.id, t.slug, t."group", t.name_lat, t.name_cyr, t.name_plural_lat, t.name_en, t.name_ru, t.name_de, t.description_md, t.faq_md, t.icon, t.sort_order, t.one_per_jls, t.national_network,
            (select count(*) from organizations o where o.org_type_id = t.id and o.status = 'active')::int as org_count
     from org_types t where t.is_active order by t.sort_order`;
 
@@ -202,7 +202,7 @@ export type ServingRow = LocRow & { org_slug: string; org_name_lat: string; org_
 export const getServing = (jlsId: number, typeSlug: string) =>
   sql<ServingRow[]>`select ${LOC_COLS} from v_location_page where location_id in (select id from locations_serving(${jlsId}, ${typeSlug}))
                     and location_status = 'active'
-                    order by is_primary desc, unit_kind = 'filijala' desc, (unit_name_lat ilike 'policijska stanica%' or unit_name_lat ilike 'policijska uprava%' or unit_name_lat ilike 'vatrogasn%') desc, unit_name_lat limit 8`;
+                    order by (address_display is not null) desc, is_primary desc, unit_kind = 'filijala' desc, (unit_name_lat ilike 'policijska stanica%' or unit_name_lat ilike 'policijska uprava%' or unit_name_lat ilike 'vatrogasn%') desc, unit_name_lat limit 8`;
 /** All locations of a national-network type, for hub pages where one organization has many branches. */
 export const getLocationsOfType = (typeSlug: string) =>
   sql<ServingRow[]>`select ${LOC_COLS} from v_location_page where org_type_slug = ${typeSlug} and location_status = 'active'

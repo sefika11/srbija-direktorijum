@@ -7,7 +7,7 @@
  */
 import { useEffect, useMemo, useRef, useState } from "react";
 import { GlobeEngine } from "@/lib/globe-engine";
-import earth from "@/lib/earth-dots.json";
+import earth from "@/lib/country-centroids.json";
 import { Passport, flagOf } from "./Passport";
 import Combobox from "./Combobox";
 import { href, type Locale } from "@/lib/i18n";

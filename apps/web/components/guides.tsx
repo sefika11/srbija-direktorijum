@@ -1,6 +1,6 @@
 import Link from "next/link";
 import * as db from "@/lib/db";
-import { href, t, type Locale } from "@/lib/i18n";
+import { href, t, type Locale, tn } from "@/lib/i18n";
 import { AdSlot, Breadcrumbs, SectionTitle } from "./ui";
 import { LeadForm, CorrectionBlock } from "./forms";
 import { Icon } from "./icons";
@@ -150,7 +150,7 @@ export async function GuidePage({ locale, guide, jlsSlug, path }: { locale: Loca
             ) : (
               <div className="card p-5 text-[14px]">
                 <p className="text-muted">{jls ? L.noServing : L.pickHint}</p>
-                <div className="mt-3 flex flex-wrap gap-2">{types.filter(Boolean).map((ty) => <Link key={ty!.id} href={href(locale, `/${ty!.slug}`)} className="quick-chip">{ty!.name_plural_lat ?? ty!.name_lat} →</Link>)}</div>
+                <div className="mt-3 flex flex-wrap gap-2">{types.filter(Boolean).map((ty) => <Link key={ty!.id} href={href(locale, `/${ty!.slug}`)} className="quick-chip">{tn(ty!, locale)} →</Link>)}</div>
               </div>
             )}
           </section>
@@ -187,7 +187,7 @@ export async function GuidePage({ locale, guide, jlsSlug, path }: { locale: Loca
         </article>
 
         <aside className="grid gap-4 lg:sticky lg:top-20">
-          {types.filter(Boolean).length > 0 && <div className="card p-4"><div className="eyebrow mb-2">{L.relatedTypes}</div><ul className="grid gap-1.5 text-[13.5px]">{types.filter(Boolean).map((ty) => <li key={ty!.id}><Link href={href(locale, `/${ty!.slug}`)} className="no-underline text-ink hover:text-accent">{ty!.name_plural_lat ?? ty!.name_lat} →</Link></li>)}</ul></div>}
+          {types.filter(Boolean).length > 0 && <div className="card p-4"><div className="eyebrow mb-2">{L.relatedTypes}</div><ul className="grid gap-1.5 text-[13.5px]">{types.filter(Boolean).map((ty) => <li key={ty!.id}><Link href={href(locale, `/${ty!.slug}`)} className="no-underline text-ink hover:text-accent">{tn(ty!, locale)} →</Link></li>)}</ul></div>}
           {otherGuides.length > 0 && <div className="card p-4"><div className="eyebrow mb-2">{L.otherGuides}</div><ul className="grid gap-1.5 text-[13.5px]">{otherGuides.map((g) => <li key={g.id}><Link href={href(locale, `/vodic/${g.slug}`)} className="no-underline text-ink hover:text-accent">{content(g, locale).c.title ?? g.name_lat}</Link></li>)}</ul></div>}
           <AdSlot code="svc_jls_sidebar_sponsor" w={300} h={250} label={d.sponsor} />
         </aside>
