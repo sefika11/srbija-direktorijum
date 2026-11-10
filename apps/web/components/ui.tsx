@@ -1,10 +1,12 @@
 import Link from "next/link";
+import { breadcrumbLd } from "@/lib/seo";
 import type { Locale } from "@/lib/i18n";
-import { t, href, LOCALES, LOCALE_LABEL } from "@/lib/i18n";
+import { t, href, pick, LOCALES, LOCALE_LABEL } from "@/lib/i18n";
 
-export function Breadcrumbs({ items }: { items: { href?: string; label: string }[] }) {
+export function Breadcrumbs({ items, locale = "sr" }: { items: { href?: string; label: string }[]; locale?: Locale }) {
   return (
-    <nav aria-label="Putanja" className="text-[12.5px] text-muted flex flex-wrap gap-x-1.5 gap-y-0.5">
+    <nav aria-label={pick(locale, "Putanja", "Breadcrumb", "Навигационная цепочка", "Brotkrümelnavigation")} className="text-[12.5px] text-muted flex flex-wrap gap-x-1.5 gap-y-0.5">
+      {items.length > 1 && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd(items)) }} />}
       {items.map((it, i) => (
         <span key={i} className="flex items-center gap-1.5">
           {i > 0 && <span aria-hidden>›</span>}
@@ -32,26 +34,26 @@ export function SectionTitle({ children, id }: { children: React.ReactNode; id?:
 }
 
 /** Reserved-size ad container. Programmatic units mount here client-side; never shifts layout. */
-export function AdSlot({ code, w, h, label }: { code: string; w?: number; h?: number; label: string; mobileH?: number }) {
+export function AdSlot({ code, w, h, label, locale = "sr" }: { code: string; w?: number; h?: number; label: string; mobileH?: number; locale?: Locale }) {
   // No ad network is wired yet: keep the inventory visible to a sponsor as one slim line, never a grey box.
   return (
     <div className="my-4 flex justify-center" data-ad-slot={code}>
-      <Link href="/partneri" className="ad-line" style={{ maxWidth: w ? `${w}px` : "100%" }}>
-        <span>{label}</span><span className="ad-line-dim">{w && h ? `${w}×${h}` : code}</span><span className="ad-line-cta">Zakupite →</span>
+      <Link href={href(locale, "/partneri")} className="ad-line" style={{ maxWidth: w ? `${w}px` : "100%" }}>
+        <span>{label}</span><span className="ad-line-dim">{w && h ? `${w}×${h}` : code}</span><span className="ad-line-cta">{pick(locale, "Zakupite", "Book this", "Арендовать", "Buchen")} →</span>
       </Link>
     </div>
   );
 }
 
-export function SponsorCard({ label, sponsor, compact = false }: {
-  label: string; compact?: boolean;
+export function SponsorCard({ label, sponsor, compact = false, locale = "sr" }: {
+  label: string; compact?: boolean; locale?: Locale;
   sponsor: { partner_name: string; headline: string | null; body: string | null; cta_text: string | null; landing_url: string; image_url: string | null; sponsorship_id: number } | null;
 }) {
   if (!sponsor) {
     return (
-      <div className={`relative rounded-lg border border-dashed border-brick/40 bg-brick-soft/50 p-4 ${compact ? "min-h-[250px]" : "min-h-[120px]"} grid place-items-center text-center`}>
+      <div className={`relative rounded-lg border border-dashed border-brick/40 bg-brick-soft/50 p-4 min-h-[96px] grid place-items-center text-center`}>
         <span className="absolute -top-2 left-3 bg-surface px-1.5 text-[10px] uppercase tracking-wider text-brick">{label}</span>
-        <div className="text-[13px] text-brick/80">Ovo mesto je slobodno za lokalnog sponzora.<br /><Link href="/partneri" className="text-brick underline">Saznajte više</Link></div>
+        <div className="text-[13px] text-brick/80">{pick(locale, "Ovo mesto je slobodno za lokalnog sponzora.", "This spot is open for a local sponsor.", "Это место свободно для местного спонсора.", "Dieser Platz ist für einen lokalen Sponsor frei.")}<br /><Link href={href(locale, "/partneri")} className="text-brick underline">{pick(locale, "Saznajte više", "Learn more", "Узнать больше", "Mehr erfahren")}</Link></div>
       </div>
     );
   }
@@ -65,7 +67,7 @@ export function SponsorCard({ label, sponsor, compact = false }: {
         <div className="min-w-0">
           <div className="font-semibold">{sponsor.headline ?? sponsor.partner_name}</div>
           {sponsor.body && <div className="text-[13px] text-muted">{sponsor.body}</div>}
-          <a href={`/go/${sponsor.sponsorship_id}`} rel="sponsored nofollow" className="inline-block mt-2 rounded-md border border-brick text-brick px-3 py-1 text-[13px] no-underline">{sponsor.cta_text ?? "Sajt ↗"}</a>
+          <a href={`/go/${sponsor.sponsorship_id}`} rel="sponsored nofollow" className="inline-block mt-2 rounded-md border border-brick text-brick px-3 py-1 text-[13px] no-underline">{sponsor.cta_text ?? `${pick(locale, "Sajt", "Website", "Сайт", "Website")} ↗`}</a>
         </div>
       </div>
     </div>

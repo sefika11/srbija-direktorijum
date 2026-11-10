@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { catName } from "@/lib/guide-cats";
 import * as db from "@/lib/db";
 import { smartSearch, type Place } from "@/lib/search";
 import { inPlace } from "@/lib/grammar";
@@ -51,7 +52,7 @@ export async function SmartSearchPage({ locale, q }: { locale: Locale; q: string
   return (
     <main id="main">
       <section className="hero-light border-b border-line"><div className="shell py-8 sm:py-10">
-        <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, { label: d.search }]} />
+        <Breadcrumbs locale={locale} items={[{ href: href(locale, "/"), label: d.home }, { label: d.search }]} />
         <h1 className="font-serif text-[26px] sm:text-[32px] font-semibold mt-4">{q ? <>{d.results} „{q}“</> : d.search}</h1>
         <div className="mt-4"><SearchBox locale={locale} defaultValue={q} large placeholder={d.searchPlaceholder} submitLabel={d.search} /></div>
         {!q && <p className="text-muted text-[13.5px] mt-3">{s.tip}</p>}
@@ -84,7 +85,7 @@ export async function SmartSearchPage({ locale, q }: { locale: Locale; q: string
 
         {r && r.guides.length > 0 && <section><SectionTitle>{s.guides}</SectionTitle>
           <ul className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">{r.guides.map((g) => { const c = guideContent(g, locale).c; return (
-            <li key={g.id} className="card card-hover p-4"><div className="eyebrow">{g.category_name}</div><Link href={href(locale, `/vodic/${g.slug}${placeQ}`)} className="font-serif text-[17px] font-semibold no-underline text-ink hover:text-accent block mt-0.5">{c.title ?? g.name_lat}</Link><p className="text-[13px] text-muted mt-1 line-clamp-2">{c.summary ?? g.summary}</p></li>); })}</ul></section>}
+            <li key={g.id} className="card card-hover p-4"><div className="eyebrow">{catName(g, locale)}</div><Link href={href(locale, `/vodic/${g.slug}${placeQ}`)} className="font-serif text-[17px] font-semibold no-underline text-ink hover:text-accent block mt-0.5">{c.title ?? g.name_lat}</Link><p className="text-[13px] text-muted mt-1 line-clamp-2">{c.summary ?? g.summary}</p></li>); })}</ul></section>}
 
         {r && r.types.length > 0 && <section><SectionTitle>{s.types}</SectionTitle>
           <ul className="flex flex-wrap gap-2">{r.types.map((ty) => <li key={ty.id}><Link href={href(locale, `/${ty.slug}`)} className="quick-chip">{tn(ty, locale)}<span className="text-muted tabular ml-1.5">{ty.org_count}</span></Link></li>)}</ul></section>}

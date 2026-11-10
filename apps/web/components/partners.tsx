@@ -1,6 +1,7 @@
 import Link from "next/link";
+import { tx } from "@/lib/content-i18n";
 import * as db from "@/lib/db";
-import { href, t, type Locale } from "@/lib/i18n";
+import { href, t, pick, type Locale } from "@/lib/i18n";
 import { Breadcrumbs, SectionTitle } from "./ui";
 import { LeadForm } from "./forms";
 import { Icon } from "./icons";
@@ -10,26 +11,36 @@ const L = {
         how: "Kako funkcioniše", models: "Tri modela", sponsor: "Sponzorsko mesto", sponsorBody: "Vaša firma kao jedini sponzor na stranicama institucija u vašem gradu: npr. knjigovodstvena agencija na stranicama APR-a i Poreske uprave u Nišu, auto-škola na vodiču za vozačku dozvolu u Kragujevcu.",
         leads: "Upiti korisnika", leadsBody: "Čitalac koji na stranici institucije ili vodiča traži ponudu popunjava kratak obrazac; upit stiže vama, naplaćuje se po upitu, bez ugovora o minimumu.", ads: "Oglašavanje na vodičima", adsBody: "Natpisi i native kartice na vodičima po životnim situacijama, zakup po vodiču i okrugu.",
         inventory: "Inventar", verticals: "Oblasti za upite", slots: "Pozicije", pricing: "Okvirne cene", pricingNote: "Konačna cena zavisi od posećenosti stranica koje vas zanimaju; prikazujemo vam podatke o poseti pre ponude.", tier1: "Jedna stranica institucije", tier2: "Sve stranice jednog grada", tier3: "Jedna oblast na vodiču, nacionalno", monthly: "mesečno", negotiated: "po dogovoru",
-        rules: "Pravila koja važe za sve partnere", rule1: "Informacija koju je čitalac tražio uvek je iznad svakog plaćenog sadržaja.", rule2: "Plaćeni sadržaj je vidljivo obeležen (Sponzor, Oglas, Lokalni partner).", rule3: "Jedan sponzor po stranici; nema aukcija za istu poziciju.", rule4: "Podaci iz upita čuvaju se 180 dana i prosleđuju samo partneru kome je upit upućen.", contact: "Javite se", perLead: "po upitu" },
+        rules: "Pravila koja važe za sve partnere", rule1: "Informacija koju je čitalac tražio uvek je iznad svakog plaćenog sadržaja.", rule2: "Plaćeni sadržaj je vidljivo obeležen (Sponzor, Oglas, Lokalni partner).", rule3: "Jedan sponzor po stranici; nema aukcija za istu poziciju.", rule4: "Podaci iz upita čuvaju se 180 dana i prosleđuju samo partneru kome je upit upućen.", contact: "Javite se", perLead: "po upitu", vertical: "Oblast", whereForm: "Gde se forma prikazuje" },
   en: { title: "Partnership and advertising", lead: "Gde da idem? is free for citizens and funded by local business sponsorships and inquiries we route to verified partners. Every paid element is labelled and always sits below the information the reader came for.",
         how: "How it works", models: "Three models", sponsor: "Sponsored placement", sponsorBody: "Your company as the single sponsor on institution pages in your city: an accounting firm on the APR and Tax Administration pages in Niš, a driving school on the driving-licence guide in Kragujevac.",
         leads: "Reader inquiries", leadsBody: "A reader asking for an offer on an institution page or guide fills a short form; the inquiry goes to you and is billed per inquiry, no minimum contract.", ads: "Advertising on guides", adsBody: "Banners and native cards on life-situation guides, booked per guide and district.",
         inventory: "Inventory", verticals: "Inquiry verticals", slots: "Placements", pricing: "Indicative prices", pricingNote: "Final pricing depends on the traffic of the pages you want; we show you visit data before quoting.", tier1: "One institution page", tier2: "All pages of one city", tier3: "One vertical on a guide, nationwide", monthly: "per month", negotiated: "negotiated",
-        rules: "Rules that apply to every partner", rule1: "The information the reader came for always sits above any paid element.", rule2: "Paid content is visibly labelled (Sponsor, Ad, Local partner).", rule3: "One sponsor per page; no auctions for the same placement.", rule4: "Inquiry data is kept 180 days and shared only with the partner it was addressed to.", contact: "Get in touch", perLead: "per inquiry" },
+        rules: "Rules that apply to every partner", rule1: "The information the reader came for always sits above any paid element.", rule2: "Paid content is visibly labelled (Sponsor, Ad, Local partner).", rule3: "One sponsor per page; no auctions for the same placement.", rule4: "Inquiry data is kept 180 days and shared only with the partner it was addressed to.", contact: "Get in touch", perLead: "per inquiry", vertical: "Vertical", whereForm: "Where the form appears" },
+  ru: { title: "Партнёрство и реклама", lead: "«Gde da idem?» бесплатен для граждан и финансируется спонсорством местных компаний и запросами, которые мы передаём проверенным партнёрам. Весь платный контент помечен и всегда стоит ниже информации, за которой пришёл читатель.",
+        how: "Как это работает", models: "Три модели", sponsor: "Спонсорское место", sponsorBody: "Ваша компания как единственный спонсор на страницах учреждений вашего города: например, бухгалтерская фирма на страницах АПР и Налоговой администрации в Нише или автошкола в инструкции по водительским правам в Крагуеваце.",
+        leads: "Запросы пользователей", leadsBody: "Читатель, который на странице учреждения или инструкции просит предложение, заполняет короткую форму; запрос приходит вам, оплата за каждый запрос, без минимального контракта.", ads: "Реклама в инструкциях", adsBody: "Баннеры и нативные карточки в инструкциях по жизненным ситуациям, аренда по инструкции и округу.",
+        inventory: "Инвентарь", verticals: "Тематики запросов", slots: "Размещения", pricing: "Ориентировочные цены", pricingNote: "Окончательная цена зависит от посещаемости интересующих вас страниц; данные о посещаемости мы показываем до предложения.", tier1: "Одна страница учреждения", tier2: "Все страницы одного города", tier3: "Одна тематика в инструкции, по всей стране", monthly: "в месяц", negotiated: "по договорённости",
+        rules: "Правила для всех партнёров", rule1: "Информация, за которой пришёл читатель, всегда выше любого платного контента.", rule2: "Платный контент заметно помечен (Спонсор, Реклама, Местный партнёр).", rule3: "Один спонсор на страницу; аукционов за одно и то же место нет.", rule4: "Данные запросов хранятся 180 дней и передаются только тому партнёру, которому адресован запрос.", contact: "Свяжитесь с нами", perLead: "за запрос", vertical: "Тематика", whereForm: "Где показывается форма" },
+  de: { title: "Partnerschaft und Werbung", lead: "Gde da idem? ist für Bürger kostenlos und wird durch Sponsoring lokaler Unternehmen und durch Anfragen finanziert, die wir an geprüfte Partner weiterleiten. Jeder bezahlte Inhalt ist gekennzeichnet und steht immer unterhalb der Information, die der Leser gesucht hat.",
+        how: "So funktioniert es", models: "Drei Modelle", sponsor: "Sponsorenplatz", sponsorBody: "Ihr Unternehmen als alleiniger Sponsor auf den Seiten der Einrichtungen in Ihrer Stadt: zum Beispiel eine Buchhaltungsfirma auf den Seiten des Handelsregisters (APR) und der Steuerverwaltung in Niš oder eine Fahrschule in der Anleitung zum Führerschein in Kragujevac.",
+        leads: "Nutzeranfragen", leadsBody: "Ein Leser, der auf der Seite einer Einrichtung oder einer Anleitung ein Angebot anfordert, füllt ein kurzes Formular aus; die Anfrage geht an Sie und wird pro Anfrage berechnet, ohne Mindestvertrag.", ads: "Werbung in den Anleitungen", adsBody: "Banner und Native-Karten in den Anleitungen zu Lebenslagen, buchbar pro Anleitung und Bezirk.",
+        inventory: "Inventar", verticals: "Themen für Anfragen", slots: "Platzierungen", pricing: "Richtpreise", pricingNote: "Der endgültige Preis hängt von den Besucherzahlen der Seiten ab, die Sie interessieren; die Besuchsdaten zeigen wir Ihnen vor dem Angebot.", tier1: "Eine Einrichtungsseite", tier2: "Alle Seiten einer Stadt", tier3: "Ein Thema in einer Anleitung, landesweit", monthly: "pro Monat", negotiated: "nach Vereinbarung",
+        rules: "Regeln für alle Partner", rule1: "Die Information, die der Leser gesucht hat, steht immer über jedem bezahlten Inhalt.", rule2: "Bezahlter Inhalt ist deutlich gekennzeichnet (Sponsor, Anzeige, Lokaler Partner).", rule3: "Ein Sponsor pro Seite; keine Auktionen um dieselbe Platzierung.", rule4: "Die Daten aus Anfragen werden 180 Tage gespeichert und nur an den Partner weitergegeben, an den die Anfrage gerichtet war.", contact: "Kontakt aufnehmen", perLead: "pro Anfrage", vertical: "Thema", whereForm: "Wo das Formular erscheint" },
 } as const;
 
 export async function PartnersPage({ locale, path }: { locale: Locale; path: string }) {
-  const d = t(locale); const s = L[locale === "en" ? "en" : "sr"];
+  const d = t(locale); const s = L[locale];
   const [verticals, slots, partnerVertical] = await Promise.all([
     db.sql<{ slug: string; name_lat: string; pitch_lat: string | null; default_price_rsd: number | null }[]>`select slug, name_lat, pitch_lat, default_price_rsd::float from lead_verticals where is_active and slug <> 'partnerstvo' order by name_lat`,
     db.sql<{ code: string; template: string; kind: string; width: number | null; height: number | null; position_note: string | null }[]>`select code, template::text, kind::text, width, height, position_note from ad_slots where is_active and kind in ('sponsor','lead_form','affiliate') order by template, code`,
     db.sql<{ id: number; slug: string; name_lat: string; pitch_lat: string | null; form_schema: unknown }[]>`select id, slug, name_lat, pitch_lat, form_schema from lead_verticals where slug = 'partnerstvo'`.then((r) => r[0] ?? null),
   ]);
-  const fmt = (n: number) => n.toLocaleString("sr-Latn");
+  const fmt = (n: number) => n.toLocaleString(locale === "sr" ? "sr-Latn" : locale);
   return (
     <main id="main">
       <section className="hero-light border-b border-line"><div className="shell py-10 sm:py-14">
-        <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, { label: s.title }]} />
+        <Breadcrumbs locale={locale} items={[{ href: href(locale, "/"), label: d.home }, { label: s.title }]} />
         <div className="eyebrow mt-4">{d.becomePartner}</div>
         <h1 className="display-sm text-[34px] sm:text-[44px] mt-2 max-w-[18ch]">{s.title}</h1>
         <p className="lede text-muted mt-4 max-w-[60ch]">{s.lead}</p>
@@ -47,18 +58,18 @@ export async function PartnersPage({ locale, path }: { locale: Locale; path: str
 
         <section>
           <div className="section-head"><div><div className="eyebrow">02 · {s.inventory}</div><h2 className="display-sm mt-2">{s.verticals}</h2></div></div>
-          <div className="card overflow-x-auto"><table className="w-full text-[14px]"><thead><tr className="text-left text-muted text-[12px] uppercase tracking-wide"><th className="px-4 py-2.5 font-medium">{locale === "en" ? "Vertical" : "Oblast"}</th><th className="px-4 py-2.5 font-medium">{locale === "en" ? "Where the form appears" : "Gde se forma prikazuje"}</th><th className="px-4 py-2.5 font-medium text-right">{s.perLead}</th></tr></thead>
-            <tbody>{verticals.map((v) => <tr key={v.slug} className="border-t border-line"><td className="px-4 py-2.5 font-medium">{v.name_lat}</td><td className="px-4 py-2.5 text-muted">{v.pitch_lat}</td><td className="px-4 py-2.5 text-right tabular">{v.default_price_rsd ? `${fmt(v.default_price_rsd)} RSD` : s.negotiated}</td></tr>)}</tbody></table></div>
+          <div className="card overflow-x-auto"><table className="w-full text-[14px]"><thead><tr className="text-left text-muted text-[12px] uppercase tracking-wide"><th className="px-4 py-2.5 font-medium">{s.vertical}</th><th className="px-4 py-2.5 font-medium">{s.whereForm}</th><th className="px-4 py-2.5 font-medium text-right">{s.perLead}</th></tr></thead>
+            <tbody>{verticals.map((v) => <tr key={v.slug} className="border-t border-line"><td className="px-4 py-2.5 font-medium">{tx(v.name_lat, locale)}</td><td className="px-4 py-2.5 text-muted">{tx(v.pitch_lat, locale)}</td><td className="px-4 py-2.5 text-right tabular">{v.default_price_rsd ? `${fmt(v.default_price_rsd)} RSD` : s.negotiated}</td></tr>)}</tbody></table></div>
           <h3 className="font-semibold text-[16px] mt-8 mb-3">{s.slots}</h3>
           <ul className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 text-[13.5px]">
-            {slots.map((x) => <li key={x.code} className="card p-3.5"><div className="font-mono text-[12px] text-muted">{x.code}</div><div className="mt-1 font-medium">{x.kind === "sponsor" ? s.sponsor : x.kind === "lead_form" ? s.leads : "Affiliate"}{x.width && x.height ? ` · ${x.width}×${x.height}` : ""}</div>{x.position_note && <div className="text-muted mt-1">{x.position_note}</div>}</li>)}
+            {slots.map((x) => <li key={x.code} className="card p-3.5"><div className="font-mono text-[12px] text-muted">{x.code}</div><div className="mt-1 font-medium">{x.kind === "sponsor" ? s.sponsor : x.kind === "lead_form" ? s.leads : pick(locale, "Partnerski linkovi", "Affiliate", "Партнёрские ссылки", "Affiliate")}{x.width && x.height ? ` · ${x.width}×${x.height}` : ""}</div>{x.position_note && <div className="text-muted mt-1">{tx(x.position_note, locale)}</div>}</li>)}
           </ul>
         </section>
 
         <section>
           <div className="section-head"><div><div className="eyebrow">03 · {s.pricing}</div><h2 className="display-sm mt-2">{s.pricing}</h2></div></div>
           <div className="grid md:grid-cols-3 gap-4">
-            {[{ t: s.tier1, p: "3.000 – 6.000 RSD", m: s.monthly }, { t: s.tier2, p: "10.000 – 25.000 RSD", m: s.monthly }, { t: s.tier3, p: s.negotiated, m: "" }].map((x) => (
+            {[{ t: s.tier1, p: `${fmt(3000)} – ${fmt(6000)} RSD`, m: s.monthly }, { t: s.tier2, p: `${fmt(10000)} – ${fmt(25000)} RSD`, m: s.monthly }, { t: s.tier3, p: s.negotiated, m: "" }].map((x) => (
               <div key={x.t} className="card p-6"><div className="eyebrow">{x.t}</div><div className="font-serif text-[28px] font-semibold mt-3 leading-none text-accent">{x.p}</div>{x.m && <div className="text-muted text-[13px] mt-1">{x.m}</div>}</div>
             ))}
           </div>
@@ -73,7 +84,7 @@ export async function PartnersPage({ locale, path }: { locale: Locale; path: str
           </div>
           <div id="kontakt">
             <SectionTitle>{s.contact}</SectionTitle>
-            {partnerVertical && <LeadForm locale={locale} vertical={partnerVertical} context={{ page_path: path, location_id: null, territorial_unit_id: null }} />}
+            {partnerVertical && <LeadForm locale={locale} vertical={{ ...partnerVertical, name_lat: tx(partnerVertical.name_lat, locale), pitch_lat: tx(partnerVertical.pitch_lat, locale) }} context={{ page_path: path, location_id: null, territorial_unit_id: null }} />}
           </div>
         </section>
       </div>

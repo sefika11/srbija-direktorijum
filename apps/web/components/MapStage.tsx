@@ -5,7 +5,7 @@
 import { useEffect, useState, type ReactNode } from "react";
 import dynamic from "next/dynamic";
 import Link from "next/link";
-import type { Locale } from "@/lib/i18n";
+import { pick, type Locale } from "@/lib/i18n";
 import { MAP_VIEWBOX } from "@/lib/serbia-map";
 import type { Feature3D, Context3D, BBox, Labels3D } from "./SerbiaMap3D";
 
@@ -63,7 +63,7 @@ export default function MapStage({ features, context = [], fit, locale, labels, 
           <SerbiaMap3D features={features} context={context} fit={fit} labels={{ ...labels, hint: hint ?? labels.hint }} className={cls} padTop={padTop} padBottom={padBottom} onUnavailable={() => setMode("2d")} />
         </>
       ) : twoD}
-      <div className="absolute right-3 bottom-3 z-20 flex gap-1 m3-toggle" role="tablist" aria-label="Map mode">
+      <div className="absolute right-3 bottom-3 z-20 flex gap-1 m3-toggle" role="tablist" aria-label={pick(locale, "Prikaz mape", "Map mode", "Режим карты", "Kartenansicht")}>
         <button type="button" role="tab" aria-selected={mode === "3d"} className={`map-btn !w-auto px-3 text-[12px] font-medium ${mode === "3d" ? "is-on" : ""}`} onClick={() => setMode("3d")}>{L.d3}</button>
         <button type="button" role="tab" aria-selected={mode === "2d"} className={`map-btn !w-auto px-3 text-[12px] font-medium ${mode === "2d" ? "is-on" : ""}`} onClick={() => setMode("2d")}>{L.d2}</button>
       </div>

@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import type { Locale } from "@/lib/i18n";
-import { t } from "@/lib/i18n";
+import { t, pick, href } from "@/lib/i18n";
 
 type Field = { name: string; label: string; type: string; required?: boolean; options?: string[] };
 
@@ -49,9 +49,9 @@ export function LeadForm({ locale, vertical, context }: {
             </div>
             <input type="text" name="website_url" tabIndex={-1} autoComplete="off" className="hidden" aria-hidden />
             <label className="flex items-start gap-2 mt-3 text-[12.5px] text-muted"><input type="checkbox" name="viber" value="1" className="mt-0.5" /> {d.viber}</label>
-            <label className="flex items-start gap-2 mt-1.5 text-[12.5px] text-muted"><input type="checkbox" name="consent" required className="mt-0.5" /> <span>{d.consent} <a href="/privatnost">{d.privacy}</a></span></label>
+            <label className="flex items-start gap-2 mt-1.5 text-[12.5px] text-muted"><input type="checkbox" name="consent" required className="mt-0.5" /> <span>{d.consent} <a href={href(locale, "/privatnost")}>{d.privacy}</a></span></label>
             <button type="submit" disabled={state === "sending"} className="mt-3 rounded-md bg-moss text-white px-4 py-2 text-[14px] font-medium disabled:opacity-60">{d.sendRequest}</button>
-            {state === "error" && <span className="ml-3 text-[13px] text-brick">Greška, pokušajte ponovo.</span>}
+            {state === "error" && <span className="ml-3 text-[13px] text-brick">{pick(locale, "Greška, pokušajte ponovo.", "Something went wrong, please try again.", "Ошибка, попробуйте ещё раз.", "Fehler, bitte versuchen Sie es erneut.")}</span>}
           </form>
         </>
       )}
@@ -74,7 +74,7 @@ export function CorrectionBlock({ locale, entityType, entityId, pagePath, lastCh
   return (
     <section id="izmeni" className="card p-4 sm:p-5 my-6 scroll-mt-24">
       <h2 className="text-[16px] font-semibold">{d.isDataCorrect}</h2>
-      <p className="text-[12.5px] text-muted mt-1 [overflow-wrap:anywhere]">{d.lastChecked}: {lastChecked ? new Date(lastChecked).toLocaleDateString("sr-Latn") : "—"} · {d.source}: {sources.map((u) => u.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, "")).join(", ")}</p>
+      <p className="text-[12.5px] text-muted mt-1 [overflow-wrap:anywhere]">{d.lastChecked}: {lastChecked ? new Date(lastChecked).toLocaleDateString(locale === "sr" ? "sr-Latn" : locale) : "—"} · {d.source}: {sources.map((u) => u.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, "")).join(", ")}</p>
       {mode === "done" ? <p className="mt-3 text-[14px] text-moss font-medium">{d.thanksEdit}</p> : mode === "idle" ? (
         <div className="flex flex-wrap gap-2 mt-3">
           <button type="button" onClick={() => setMode("correction")} className="rounded-md border border-line bg-surface px-3 py-1.5 text-[13.5px] font-medium">{d.editData}</button>

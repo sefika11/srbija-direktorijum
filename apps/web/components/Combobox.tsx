@@ -2,8 +2,11 @@
 /**
  * Combobox — one picker for the whole site: type to filter, or open the list and pick. Keyboard: ↓↑ move, Enter picks,
  * Esc closes, Backspace on a picked value clears it. Cyrillic and diacritics fold so "nemacka" finds "Nemačka".
+ * The list is rendered into <body> at a fixed position under (or, without room, above) the field, so no card, deck or
+ * section with overflow/contain can ever cut it off, and it always sits above the page.
  */
-import { useEffect, useId, useMemo, useRef, useState, type ReactNode } from "react";
+import { useEffect, useId, useLayoutEffect, useMemo, useRef, useState, type ReactNode } from "react";
+import { createPortal } from "react-dom";
 
 export type ComboOption = { value: string; label: string; sub?: string; icon?: ReactNode; keywords?: string };
 
@@ -27,7 +30,20 @@ export default function Combobox({ options, value, onChange, placeholder, label,
   }, [q, options, maxItems]);
   useEffect(() => { setActive(0); }, [q, open]);
   useEffect(() => { const el = list.current?.children[active] as HTMLElement | undefined; el?.scrollIntoView?.({ block: "nearest" }); }, [active, shown]);
-  useEffect(() => { if (!open) return; const off = (e: PointerEvent) => { if (!root.current?.contains(e.target as Node)) { setOpen(false); setTyping(false); setQ(""); } }; document.addEventListener("pointerdown", off); return () => document.removeEventListener("pointerdown", off); }, [open]);
+  useEffect(() => { if (!open) return; const off = (e: PointerEvent) => { const t = e.target as Node; if (!root.current?.contains(t) && !list.current?.contains(t)) { setOpen(false); setTyping(false); setQ(""); } }; document.addEventListener("pointerdown", off); return () => document.removeEventListener("pointerdown", off); }, [open]);
+  // where the list goes: glued to the field, below it when there is room (at least 200 px), otherwise above
+  const [box, setBox] = useState<{ left: number; width: number; top?: number; bottom?: number; maxHeight: number } | null>(null);
+  useLayoutEffect(() => {
+    if (!open) { setBox(null); return; }
+    const place = () => {
+      const r = root.current?.getBoundingClientRect(); if (!r) return;
+      const below = window.innerHeight - r.bottom - 14, above = r.top - 14; const up = below < 200 && above > below;
+      const w = Math.min(Math.max(260, r.width), window.innerWidth - 16);
+      setBox({ left: Math.max(8, Math.min(r.left, window.innerWidth - 8 - w)), width: w, ...(up ? { bottom: window.innerHeight - r.top + 6 } : { top: r.bottom + 6 }), maxHeight: Math.max(140, Math.min(320, up ? above : below)) });
+    };
+    place(); window.addEventListener("scroll", place, { passive: true, capture: true }); window.addEventListener("resize", place);
+    return () => { window.removeEventListener("scroll", place, { capture: true } as EventListenerOptions); window.removeEventListener("resize", place); };
+  }, [open]);
   const pick = (o: ComboOption | null) => { onChange(o?.value ?? null, o); setQ(""); setTyping(false); setOpen(false); };
   const shownValue = typing ? q : selected?.label ?? "";
   return (
@@ -49,8 +65,8 @@ export default function Combobox({ options, value, onChange, placeholder, label,
       ) : (
         <button type="button" className="cbx-btn" tabIndex={-1} aria-label="▾" onPointerDown={(e) => { e.preventDefault(); setOpen((o) => !o); input.current?.focus(); }}><svg width="12" height="12" viewBox="0 0 12 12" aria-hidden><path d="M2 4l4 4 4-4" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" /></svg></button>
       )}
-      {open && (
-        <ul ref={list} id={`${id}-list`} role="listbox" className="cbx-list">
+      {open && box && createPortal(
+        <ul ref={list} id={`${id}-list`} role="listbox" className="cbx-list is-floating" style={{ left: box.left, width: box.width, top: box.top, bottom: box.bottom, maxHeight: box.maxHeight }}>
           {shown.length === 0 && <li className="cbx-empty">{emptyText}</li>}
           {shown.map((o, i) => (
             <li key={o.value} role="option" aria-selected={o.value === value} className={`cbx-opt ${i === active ? "is-active" : ""}`} onPointerDown={(e) => e.preventDefault()} onClick={() => pick(o)} onMouseMove={() => setActive(i)}>
@@ -59,7 +75,7 @@ export default function Combobox({ options, value, onChange, placeholder, label,
               {o.sub && <span className="cbx-sub">{o.sub}</span>}
             </li>
           ))}
-        </ul>
+        </ul>, document.body
       )}
     </div>
   );

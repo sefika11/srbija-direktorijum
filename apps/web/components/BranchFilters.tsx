@@ -20,7 +20,7 @@ export default function BranchFilters({ locale, basePath, brands, places, brand,
     <div className="bf card p-3 sm:p-4 grid gap-3">
       <div className="grid sm:grid-cols-[minmax(0,1fr)_auto] gap-3 items-center">
         <Combobox label={T.place} placeholder={T.place} value={place} options={places.map((p) => ({ value: p.slug, label: p.name, sub: String(p.count) }))} onChange={(v) => router.push(url(brand, v), { scroll: false })} />
-        <div className="text-[12.5px] text-muted tabular whitespace-nowrap">{shown.toLocaleString("sr-Latn")} / {total.toLocaleString("sr-Latn")} {T.shown}{(brand || place) && <> · <Link href={basePath} className="text-accent">{T.reset}</Link></>}</div>
+        <div className="text-[12.5px] text-muted tabular whitespace-nowrap">{shown.toLocaleString(locale === "sr" ? "sr-Latn" : locale)} / {total.toLocaleString(locale === "sr" ? "sr-Latn" : locale)} {T.shown}{(brand || place) && <> · <Link href={basePath} className="text-accent">{T.reset}</Link></>}</div>
       </div>
       {brands.length > 1 && (
         <div className="bf-brands" role="tablist" aria-label={T.brand}>

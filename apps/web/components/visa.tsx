@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Locale } from "@/lib/i18n";
-import { t, href } from "@/lib/i18n";
+import { t, href, tn, pick } from "@/lib/i18n";
 import * as db from "@/lib/db";
 import { Breadcrumbs } from "./ui";
 import VisaStage from "./VisaStage";
@@ -36,9 +36,9 @@ export async function VisaHub({ locale }: { locale: Locale }) {
   return (
     <main id="main">
       <section className="hero-light border-b border-line"><div className="shell py-8 sm:py-10 hub-head">
-        <div className="hub-glyph"><Passport iso2="RS" name="Srbija" size={88} /></div>
+        <div className="hub-glyph"><Passport iso2="RS" name={pick(locale, "Srbija", "Serbia", "Сербия", "Serbien")} size={88} /></div>
         <div className="min-w-0">
-          <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, { href: href(locale, "/za-strance"), label: d.forForeigners }, { label: L.title }]} />
+          <Breadcrumbs locale={locale} items={[{ href: href(locale, "/"), label: d.home }, { href: href(locale, "/za-strance"), label: d.forForeigners }, { label: L.title }]} />
           <div className="eyebrow mt-4">{d.forForeigners}</div>
           <h1 className="display-sm text-[32px] sm:text-[40px]">{L.title}</h1>
           <p className="text-muted mt-3 max-w-[62ch] lede">{L.lead}</p>
@@ -93,12 +93,12 @@ export async function CountryPage({ locale, country }: { locale: Locale; country
     ...(ins.fee || ins.processing || ins.validity ? [{ id: "v-taksa", kind: "fees" as const, label: L.fee, mark: "" }] : []),
     ...(ins.notes ? [{ id: "v-napomena", kind: "notes" as const, label: L.notes }] : []),
   ] : [];
-  const passportWord = locale === "sr" ? "PASOŠ" : locale === "en" ? "PASSPORT" : locale === "ru" ? "ПАСПОРТ" : "REISEPASS";
+  const passportWord = pick(locale, "PASOŠ", "PASSPORT", "ПАСПОРТ", "REISEPASS");
   return (
     <main id="main">
       <section className="hero-light border-b border-line"><div className="shell py-8 sm:py-10 grid gap-8 lg:grid-cols-[minmax(0,.9fr)_minmax(0,1.1fr)] lg:items-center">
         <div className="min-w-0">
-          <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, { href: href(locale, "/vize"), label: L.title }, { label: name }]} />
+          <Breadcrumbs locale={locale} items={[{ href: href(locale, "/"), label: d.home }, { href: href(locale, "/vize"), label: L.title }, { label: name }]} />
           <div className="eyebrow mt-4">{L.title}</div>
           <h1 className="display-sm text-[32px] sm:text-[40px]">{name}</h1>
           <div className="mt-3 flex flex-wrap gap-2">
@@ -106,7 +106,7 @@ export async function CountryPage({ locale, country }: { locale: Locale; country
             <span className={`visa-pill ${regimeClass(c.from_rs_regime)}`}>{L.fromRs}: {regimeLabel(L, c.from_rs_regime)}</span>
           </div>
         </div>
-        <VisaCountryStage iso2={c.iso2} name={name} label={passportWord} homeLabel="Srbija" />
+        <VisaCountryStage iso2={c.iso2} name={name} label={passportWord} homeLabel={pick(locale, "Srbija", "Serbia", "Сербия", "Serbien")} />
       </div></section>
       <div className="shell py-8 grid grid-cols-[minmax(0,1fr)] lg:grid-cols-[minmax(0,1fr)_380px] gap-8 items-start">
         {stations.length > 1 && (
@@ -115,11 +115,11 @@ export async function CountryPage({ locale, country }: { locale: Locale; country
           </div>
         )}
         <div className="grid gap-5 lg:col-start-1 lg:row-start-1">
-          <Panel title={`${L.toRs} · ${name} → Srbija`} regime={c.to_rs_regime} stay={c.to_rs_stay} url={c.to_rs_url}
+          <Panel title={`${L.toRs} · ${name} → ${pick(locale, "Srbija", "Serbia", "Сербия", "Serbien")}`} regime={c.to_rs_regime} stay={c.to_rs_stay} url={c.to_rs_url}
                  extra={c.to_rs_conditions ? <p className="mt-2 text-[14px] text-muted">{c.to_rs_conditions}</p> : null}>
             <p className="mt-3 text-[13.5px]"><Link href={href(locale, "/vodic/privremeni-boravak-stranci")}>{L.guide} →</Link></p>
           </Panel>
-          <Panel title={`${L.fromRs} · Srbija → ${name}`} regime={c.from_rs_regime} stay={c.from_rs_stay} url={c.from_rs_url}
+          <Panel title={`${L.fromRs} · ${pick(locale, "Srbija", "Serbia", "Сербия", "Serbien")} → ${name}`} regime={c.from_rs_regime} stay={c.from_rs_stay} url={c.from_rs_url}
                  extra={c.from_rs_passport ? <div className="mt-2 text-[14px]"><span className="text-muted">{L.passport}:</span> {c.from_rs_passport}</div> : null}>
             {reqs.length > 0 && <div className="mt-3"><div className="text-[12.5px] text-muted font-mono uppercase tracking-[.1em]">{L.requirements}</div><ul className="mt-1.5 grid gap-1 text-[14px] list-disc pl-5">{reqs.map((r, i) => <li key={i}>{r}</li>)}</ul></div>}
             {c.rs_mission_name && <p className="mt-3 text-[13.5px] text-muted">{L.rsMission}: {c.rs_mission_name}{c.rs_mission_city ? `, ${c.rs_mission_city}` : ""}</p>}
@@ -133,7 +133,7 @@ export async function CountryPage({ locale, country }: { locale: Locale; country
             {missions.length === 0 ? <p className="mt-2 text-[14px] text-muted">{L.none}</p> : (
               <ul className="mt-3 grid gap-2 sm:grid-cols-2">
                 {missions.map((m) => <li key={m.id} className="card card-hover spot p-3.5">
-                  <div className="eyebrow plain">{m.type_name}{m.place_name ? ` · ${m.place_name}` : ""}</div>
+                  <div className="eyebrow plain">{locale === "sr" ? m.type_name : tn({ name_lat: m.type_name, name_en: m.type_name_en, name_ru: m.type_name_ru, name_de: m.type_name_de }, locale)}{m.place_name ? ` · ${m.place_name}` : ""}</div>
                   <Link href={href(locale, `/${m.type_slug}/${m.slug}`)} className="hit font-serif text-[17px] font-semibold no-underline text-ink hover:text-accent block mt-1">{m.name_lat}</Link>
                   <div className="mt-1.5 text-[13px] flex flex-wrap gap-x-4">{m.phone && <a href={`tel:${m.phone}`} className="vital-tel">{m.phone_display ?? m.phone}</a>}{m.website && <a href={m.website} rel="noopener" target="_blank" className="text-muted">{m.website.replace(/^https?:\/\//, "").replace(/\/$/, "")}</a>}</div>
                 </li>)}

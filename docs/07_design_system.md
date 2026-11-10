@@ -409,3 +409,70 @@ The site went from 15,000 to 28,000 entries in a day and pages that listed "ever
   and types, two entries per type, guides, a sample of countries, the other locales, filters and not-found), recording
   status, time, size, missing headings and raw-data leaks; then a sample of 700 internal links and all emblem images;
   then the main journey in a real browser with the console open.
+
+## 26. Dropdowns, eyebrows and theme (2026-11-10, third audit)
+
+- **A dropdown list never lives inside the thing it belongs to.** `Combobox` renders its list in a portal on `<body>`
+  with fixed position, so a card with `overflow: hidden` (plinths, decks) cannot cut it. It opens downward, flips up
+  when there is no room, is at least 260 px wide and never passes the screen edge. Use `Combobox` for every picker with
+  more than a handful of options; native `<select>` only inside the short lead form.
+- **Nothing scrolls sideways without saying so.** Brand chips wrap on a desktop; on a phone the row scrolls and fades
+  at the right edge. The selected chip is ink on paper in both themes (`html:root .quick-chip.is-on`).
+- **Names are never clipped to nonsense.** Lists that hold proper names wrap to two lines instead of one line with an
+  ellipsis (vital block). A legal-form prefix is dropped only when a proper name follows it.
+- **Uneven cards flow in columns, not in a grid** (`.vital-grid` uses CSS columns), so a tall card never leaves a hole.
+- **Eyebrow** = the display face (Unbounded, 10 px, tracked) with the cross and four firesteels as its mark (`--crest`,
+  a CSS mask, so it takes the text colour). No dash, no mono face. One rule in §51 of `globals.css` covers every small
+  label that plays this role.
+- **Theme.** Light and dark are both first-class. `ThemeToggle` writes `html[data-theme]` and `localStorage["gdi-theme"]`;
+  the inline head script applies it before paint; without a stored choice the system setting decides. Every rule
+  written for system dark needs its `[data-theme="dark"]` twin.
+- **Header.** Logo, search (from `lg`), Guides, Roadmap, languages, theme, menu. The menu button is always there and
+  holds what the bar does not: search (below `lg`), For foreigners, Visas, and on a phone the two nav links and the
+  four languages. Do not add a fifth inline link; German and Russian labels will not fit.
+- **Footer.** Three columns: guides, site, sources. Sources are links to the registers' own sites. No second language
+  switch and no "Home" link (the logo is the home link).
+
+## 27. Putokaz: roadmaps by situation (2026-11-10)
+
+- `/putokaz` and `/putokaz/<slug>`; data in `lib/roadmaps.ts`, pages in `components/roadmap.tsx`. Five situations:
+  coming to work, coming to study, starting a first business, moving with a family, new citizen or returnee.
+- **A step is a pointer, never a copy.** Each step names a guide, a type of institution or the visa pages, with one
+  sentence on why it comes at that point. Fees, deadlines and documents stay in the guide (one place to keep correct).
+  A guide that is not published is simply not a step.
+- The road is a numbered `ol` with a dashed spine; the first node is red. On a phone the jump chips are hidden (the
+  road starts right under the title).
+- Entry points: header link, home index tab and deck card, the foreigners page (situations first, then the offices,
+  un-numbered so there is one order on the site, not two), and the sidebar of every city page.
+- Each roadmap page carries `HowTo` structured data.
+
+## 28. Four languages, all the way down (2026-11-10)
+
+- **Interface text** uses `pick(locale, sr, en, ru, de)` from `lib/i18n.ts` or a per-locale table. A two-way
+  `locale === "sr" ? … : "English"` switch is a bug: Russian and German readers get English.
+- **Institution-type names** go through `tn(type, locale)`; guide categories through `catName()` (`lib/guide-cats.ts`).
+- **Content the database holds in Serbian only** (guide deadlines, fee lines and their basis, type descriptions and
+  FAQs, partner-form pitches, ad-slot notes) is translated in `lib/content-i18n/*.json`, keyed by the exact Serbian
+  string and read with `tx(text, locale)`. A string that changes in the database falls back to Serbian until its
+  translation is added, so nothing breaks. Server-side only (the files are large).
+- **Stays Serbian by design:** institution and unit names, addresses, opening-hours text, landmark names, titles of
+  laws and sources, text on the 3D documents. The generic unit name "Sedište" is the one exception (`unitName()`).
+- Numbers and dates follow the locale (`toLocaleString(locale === "sr" ? "sr-Latn" : locale)`).
+- Check: `scratchpad/i18n/rendered_scan.py <base> <locale>` lists Serbian interface words left on rendered pages.
+
+## 29. Search engines (2026-11-10)
+
+- `lib/seo.ts` `pageMeta()` builds the head for every page: canonical, hreflang for the four languages plus
+  `x-default`, Open Graph and Twitter card with `/og.png` (1200×630, rendered from `scratchpad/og/og.html`).
+- **Which query strings are pages.** On a type page `?mesto=` (a place), `?brend=` and `?strana=` are pages of their
+  own: they stay in the canonical and the title names the place. `?q=` and `?oblast=` are search views: `noindex, follow`.
+  The site search is `noindex` and disallowed in robots.
+- Titles and descriptions are written per page kind in all four languages (`generateMetadata` in the catch-all route).
+- Structured data: `WebSite` + `SearchAction` + `Organization` (home), `BreadcrumbList` (emitted by `Breadcrumbs`
+  itself, so it always matches what is shown), `GovernmentOffice` / `LocalBusiness` / `ProfessionalService` with
+  address, phone, hours and area served (institution pages; no coordinates for natural persons), `FAQPage` (guides and
+  types), `HowTo` (roadmaps).
+- `/sitemap.xml` is an index of the chunked sitemaps; robots lists it. Ownership tags for Search Console, Bing and
+  Yandex come from the env vars `GOOGLE_SITE_VERIFICATION`, `BING_SITE_VERIFICATION`, `YANDEX_VERIFICATION`.
+- Known limit: `<html lang>` is set to the page language on the client; the server HTML says `sr-Latn` with the right
+  `lang` on the content wrapper.

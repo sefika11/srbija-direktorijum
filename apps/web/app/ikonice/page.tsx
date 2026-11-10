@@ -2,6 +2,7 @@ import Glyph3D from "@/components/Glyph3D";
 import { emblemFor } from "@/lib/emblem-map";
 import * as db from "@/lib/db";
 export const revalidate = 3600;
+export const metadata = { title: "3D emblemi", robots: { index: false, follow: false } };
 /** Contact sheet of every institution type with its 3D emblem (QA + design-system reference; not linked from navigation). */
 export default async function Page() {
   const types = await db.getOrgTypes();

@@ -10,7 +10,7 @@ import type { GlobeEngine } from "@/lib/globe-engine";
 import earth from "@/lib/country-centroids.json";
 import { Passport, flagOf } from "./Passport";
 import Combobox from "./Combobox";
-import { href, type Locale } from "@/lib/i18n";
+import { href, pick, type Locale } from "@/lib/i18n";
 
 const DATA = earth as unknown as { centroids: Record<string, [number, number]> };
 export type StageCountry = { iso2: string; slug: string; name: string; to: string | null; from: string | null };
@@ -57,7 +57,7 @@ export default function VisaStage({ locale, countries, initial }: { locale: Loca
           options={countries.map((c) => { const F = flagOf(c.iso2); return { value: c.iso2, label: c.name, keywords: c.iso2, icon: <span className="visa-flag">{F ? <F /> : c.iso2}</span>, sub: c.to === "bez vize" ? T.free : undefined }; })}
           onChange={(v) => setSel(v ? byIso[v] ?? null : null)} />
         <div className={`vstage-passport ${sel ? "is-set" : "is-empty"}`}>
-          {sel ? <Passport iso2={sel.iso2} name={sel.name} size={150} label={locale === "sr" ? "PASOŠ" : "PASSPORT"} /> : <div className="vstage-ghost"><span>?</span></div>}
+          {sel ? <Passport iso2={sel.iso2} name={sel.name} size={150} label={pick(locale, "PASOŠ", "PASSPORT", "ПАСПОРТ", "REISEPASS")} /> : <div className="vstage-ghost"><span>?</span></div>}
         </div>
         {sel && (
           <div className="vstage-facts">
@@ -77,7 +77,7 @@ export default function VisaStage({ locale, countries, initial }: { locale: Loca
       </div>
       <div className="vstage-side vstage-right">
         <div className="eyebrow plain">{T.you}</div>
-        <div className="vstage-passport is-set"><Passport iso2="RS" name={T.serbia} size={150} label={locale === "sr" ? "PASOŠ" : "PASSPORT"} /></div>
+        <div className="vstage-passport is-set"><Passport iso2="RS" name={T.serbia} size={150} label={pick(locale, "PASOŠ", "PASSPORT", "ПАСПОРТ", "REISEPASS")} /></div>
         <div className="vstage-facts"><div className="vstage-name"><b>{T.serbia}</b></div><p className="text-[12.5px] text-muted">{locale === "sr" ? "Crvena tačka na globusu. Plave tačke: države čiji građani ulaze u Srbiju bez vize." : locale === "en" ? "The red point on the globe. Blue points: countries whose citizens enter Serbia visa-free." : locale === "ru" ? "Красная точка на глобусе. Синие точки: страны без визы в Сербию." : "Der rote Punkt auf dem Globus. Blaue Punkte: visumfreie Einreise nach Serbien."}</p></div>
       </div>
     </section>

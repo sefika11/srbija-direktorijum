@@ -114,7 +114,7 @@ export default function DossierDeck({ tabs, children, labels }: { tabs: DeckTab[
       </div>
       <div ref={deck} className="deck" role="tablist" aria-label={labels.region} onKeyDown={onKey}>
         {tabs.map((t, i) => (
-          <section key={t.id} id={t.id} ref={(el) => { cards.current[i] = el; }} className={`deck-card ${i === active ? "is-front" : ""}`} style={{ "--k": i } as React.CSSProperties}
+          <section key={t.id} id={t.id} ref={(el) => { cards.current[i] = el; }} className={`deck-card ${i === active ? "is-front" : ""}`} style={{ "--k": i, "--kn": tabs.length } as React.CSSProperties}
                    onPointerDown={i === active ? onDown : undefined} onPointerMove={i === active ? onMove : undefined} onPointerUp={i === active ? onUp : undefined} onPointerCancel={i === active ? onUp : undefined}
                    onClick={i === active ? undefined : () => go(i)}>
             <button type="button" role="tab" id={`tab-${t.id}`} aria-selected={i === active} aria-controls={`panel-${t.id}`} tabIndex={i === active ? 0 : -1} className="deck-tab tab" onClick={(e) => { e.stopPropagation(); go(i); }}>

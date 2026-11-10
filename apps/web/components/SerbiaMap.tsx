@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { MAP_H, MAP_W, OKRUG_SHAPES } from "@/lib/serbia-map";
 import type { JlsShape } from "@/lib/serbia-map-jls";
-import { href, type Locale } from "@/lib/i18n";
+import { href, pick, type Locale } from "@/lib/i18n";
 
 export type MapOkrug = { slug: string; name_lat: string; seat_name_lat: string | null; jls_count: number; go_count?: number; org_count: number };
 export type MapJls = { slug: string; name_lat: string; okrug_slug: string; org_count: number; jls_kind: "grad" | "opstina" | null; level?: "jls" | "gradska_opstina"; parent_slug?: string | null };
@@ -204,7 +204,7 @@ export default function SerbiaMap({ okruzi, jls, locale, labels, variant = "ligh
     <div className={hero ? "relative grid gap-4" : "grid gap-4 lg:grid-cols-[minmax(0,1fr)_300px] items-stretch"}>
       <div ref={wrapRef} className={`map-stage relative ${stageH} rounded-2xl overflow-hidden border border-line select-none`} style={{ touchAction: "none" }}>
         <svg ref={svgRef} viewBox={`${view.x} ${view.y} ${view.w} ${view.h}`} className="absolute inset-0 w-full h-full"
-             role="img" aria-label="Mapa Srbije po okruzima i opštinama" preserveAspectRatio="xMidYMid meet"
+             role="img" aria-label={pick(locale, "Mapa Srbije po okruzima i opštinama", "Map of Serbia by district and municipality", "Карта Сербии по округам и общинам", "Karte Serbiens nach Bezirken und Gemeinden")} preserveAspectRatio="xMidYMid meet"
              onPointerDown={onPointerDown} onPointerMove={(e) => { trackIntent(e); onPointerMove(e); }} onPointerUp={onPointerUp} onPointerCancel={onPointerUp} onPointerLeave={dropIntent}
              style={{ cursor: pointers.current.size ? "grabbing" : "grab" }}>{/* no clearing on leave: the last district touched stays in the side panel, so its button can be reached */}
           {/* the country as a slab: a soft shadow and a darker side under the faces (2.5D, same family as the 3D map) */}

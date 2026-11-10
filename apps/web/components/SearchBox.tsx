@@ -8,7 +8,7 @@
 import { useEffect, useId, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import * as Flags from "country-flag-icons/react/3x2";
-import { href, type Locale } from "@/lib/i18n";
+import { href, pick, type Locale } from "@/lib/i18n";
 import type { Suggestion } from "@/lib/search";
 import Glyph3D from "./Glyph3D";
 
@@ -111,7 +111,7 @@ export default function SearchBox({ locale, defaultValue = "", large = false, pl
         <div className={`sp-field flex-1 min-w-0 flex items-center gap-2 rounded-l-xl border border-line bg-surface ${large ? "px-4" : "px-3"} focus-within:border-accent focus-within:ring-2 focus-within:ring-accent/20 transition`}>
           <svg aria-hidden width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" className="text-muted shrink-0"><circle cx="11" cy="11" r="7" /><path d="m20 20-3.5-3.5" /></svg>
           <input ref={inputRef} id={id} name="q" type="search" value={q} onChange={(e) => { setQ(e.target.value); setDirty(true); setOpen(true); }} onFocus={() => setOpen(true)} onKeyDown={onKey}
-                 placeholder={scope ? (locale === "sr" ? `Pretražite u: ${scope.label}…` : locale === "en" ? `Search in ${scope.label}…` : locale === "ru" ? `Поиск: ${scope.label}…` : `Suchen in ${scope.label}…`) : (placeholder || T.placeholder)} autoComplete="off" spellCheck={false} role="combobox" aria-expanded={open} aria-controls={`${id}-list`} aria-autocomplete="list" aria-activedescendant={active >= 0 ? `${id}-opt-${active}` : undefined}
+                 placeholder={scope ? pick(locale, `Pretražite u: ${scope.label}…`, `Search in ${scope.label}…`, `Поиск: ${scope.label}…`, `Suchen in ${scope.label}…`) : (placeholder || T.placeholder)} autoComplete="off" spellCheck={false} role="combobox" aria-expanded={open} aria-controls={`${id}-list`} aria-autocomplete="list" aria-activedescendant={active >= 0 ? `${id}-opt-${active}` : undefined}
                  className={`flex-1 min-w-0 bg-transparent ${large ? "py-3.5 text-[16px]" : "py-2 text-[14px]"} outline-none placeholder:text-muted/80`} />
           {q ? <button type="button" aria-label={T.clear} className="sp-clear" onMouseDown={(e) => e.preventDefault()} onClick={() => { setQ(""); setItems([]); setActive(-1); inputRef.current?.focus(); }}>×</button>
              : <kbd className="sp-kbd hidden sm:inline-flex" aria-hidden>{T.k}</kbd>}
@@ -139,7 +139,7 @@ export default function SearchBox({ locale, defaultValue = "", large = false, pl
                             onMouseDown={(e) => e.preventDefault()} onMouseEnter={() => setActive(i)} onClick={() => go(s.href, q.trim())}>
                       <span className={`sp-ico ${s.kind === "country" ? "sp-ico-flag" : ""}`}>{s.kind === "country" && Flag ? <Flag /> : <Glyph3D icon={s.icon ?? (s.kind === "guide" ? "file-text" : s.kind === "place" ? "building" : "landmark")} size={34} />}</span>
                       <span className="sp-text"><span className="sp-title"><Highlight text={s.title} q={q} /></span>{s.sub && <span className="sp-sub">{s.sub}</span>}</span>
-                      <span className="sp-meta">{s.kind === "action" ? <span className="sp-tel">{s.sub}</span> : s.phone ? <span className="sp-tel">{s.phone}</span> : s.count != null ? <span className="sp-count tabular">{s.count.toLocaleString("sr-Latn")}</span> : null}<span className="sp-enter" aria-hidden>↵</span></span>
+                      <span className="sp-meta">{s.kind === "action" ? <span className="sp-tel">{s.sub}</span> : s.phone ? <span className="sp-tel">{s.phone}</span> : s.count != null ? <span className="sp-count tabular">{s.count.toLocaleString(locale === "sr" ? "sr-Latn" : locale)}</span> : null}<span className="sp-enter" aria-hidden>↵</span></span>
                     </button>); })}
                 </div>))}
               {q.trim().length >= 2 && (() => { idx++; const i = idx; return (

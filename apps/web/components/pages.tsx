@@ -1,13 +1,19 @@
 import { Fragment } from "react";
+import { tx } from "@/lib/content-i18n";
+import { catName } from "@/lib/guide-cats";
 import Link from "next/link";
 import type { Locale } from "@/lib/i18n";
-import { t, href, tn } from "@/lib/i18n";
+import { t, href, tn, pick } from "@/lib/i18n";
 import * as db from "@/lib/db";
 import { Breadcrumbs, Chip, VerificationChip, SectionTitle, AdSlot, SponsorCard } from "./ui";
 import SearchBox from "./SearchBox";
 import SerbiaMap, { type MapLabels } from "./SerbiaMap";
 import MapStage from "./MapStage";
 import BranchFilters from "./BranchFilters";
+import { ROAD_LABELS, ROADMAPS } from "@/lib/roadmaps";
+import { RoadTiles } from "./roadmap";
+import { siteLd, siteUrl } from "@/lib/seo";
+import TypeFilterBar from "./TypeFilterBar";
 import { placesCount } from "@/lib/grammar";
 import { OKRUG_SHAPES } from "@/lib/serbia-map";
 import { JLS_SHAPES, GO_SHAPES } from "@/lib/serbia-map-jls";
@@ -42,6 +48,18 @@ const GROUPS: db.Group[] = ["lokalna_samouprava", "republicki_organi", "javne_us
 export function tuLabel(u: { level: string; jls_kind: string | null; name_lat: string; official_name_lat: string | null }) {
   return u.official_name_lat ?? u.name_lat;
 }
+/** Type name of an org row: singular Serbian for sr, the translated type name otherwise (falls back to Serbian). */
+const rowType = (r: { type_name: string; type_name_en?: string | null; type_name_ru?: string | null; type_name_de?: string | null }, l: Locale) => l === "sr" ? r.type_name : tn({ name_lat: r.type_name, name_en: r.type_name_en, name_ru: r.type_name_ru, name_de: r.type_name_de }, l);
+const UNIT_KIND: Record<string, Record<Locale, string>> = {
+  sediste: { sr: "Sedište", en: "Head office", ru: "Головной офис", de: "Hauptsitz" }, filijala: { sr: "Filijala", en: "Branch", ru: "Филиал", de: "Filiale" },
+  ispostava: { sr: "Ispostava", en: "Sub-office", ru: "Отделение", de: "Außenstelle" }, ekspozitura: { sr: "Ekspozitura", en: "Branch office", ru: "Офис", de: "Zweigstelle" },
+  sluzba: { sr: "Služba", en: "Service", ru: "Служба", de: "Dienst" }, odeljenje: { sr: "Odeljenje", en: "Department", ru: "Отдел", de: "Abteilung" },
+  odsek: { sr: "Odsek", en: "Section", ru: "Подотдел", de: "Referat" }, stanica: { sr: "Stanica", en: "Station", ru: "Станция", de: "Station" },
+  salter_sala: { sr: "Šalter sala", en: "Service hall", ru: "Операционный зал", de: "Schalterhalle" }, sudska_jedinica: { sr: "Sudska jedinica", en: "Court unit", ru: "Судебное подразделение", de: "Gerichtsabteilung" },
+  ogranak: { sr: "Ogranak", en: "Branch", ru: "Филиал", de: "Zweigstelle" }, mesna_kancelarija: { sr: "Mesna kancelarija", en: "Local office", ru: "Местный офис", de: "Ortsbüro" },
+  punkt: { sr: "Punkt", en: "Service point", ru: "Пункт", de: "Stützpunkt" }, ambulanta: { sr: "Ambulanta", en: "Outpatient clinic", ru: "Амбулатория", de: "Ambulanz" },
+  ostalo: { sr: "Ostalo", en: "Other", ru: "Прочее", de: "Sonstige" },
+};
 const orgHref = (l: Locale, o: { type_slug: string; slug: string }) => href(l, `/${o.type_slug}/${o.slug}`);
 const tuHref = (l: Locale, u: { level: string; slug: string }, parentSlug?: string | null) =>
   u.level === "okrug" ? href(l, `/okrug/${u.slug}`) : u.level === "gradska_opstina" && parentSlug ? href(l, `/${parentSlug}/${u.slug}`) : href(l, `/${u.slug}`);
@@ -55,7 +73,7 @@ function OrgList({ orgs, locale, dense = false, compact = false, byPlace = false
       {orgs.map((o) => (
         <li key={o.id} className="card card-hover spot px-3.5 py-2.5">
           <Link href={orgHref(locale, o)} className="hit no-underline text-ink font-medium text-[14px] leading-snug block hover:text-accent">{o.name_lat}</Link>
-          <div className="text-[12px] text-muted mt-0.5 truncate">{o.is_private && <span className="inline-block rounded-full bg-surface-2 px-1.5 py-px text-[10.5px] uppercase tracking-wider font-semibold mr-1.5 align-middle">{locale === "sr" ? "privatno" : locale === "en" ? "private" : locale === "ru" ? "частное" : "privat"}</span>}{byPlace ? (o.place_name ?? o.founder_name ?? o.type_name) : <>{o.type_name}{o.place_name && o.place_name !== o.founder_name ? ` · ${o.place_name}` : ""}</>}</div>
+          <div className="text-[12px] text-muted mt-0.5 truncate">{o.is_private && <span className="inline-block rounded-full bg-surface-2 px-1.5 py-px text-[10.5px] uppercase tracking-wider font-semibold mr-1.5 align-middle">{locale === "sr" ? "privatno" : locale === "en" ? "private" : locale === "ru" ? "частное" : "privat"}</span>}{byPlace ? (o.place_name ?? o.founder_name ?? rowType(o, locale)) : <>{rowType(o, locale)}{o.place_name && o.place_name !== o.founder_name ? ` · ${o.place_name}` : ""}</>}</div>
         </li>
       ))}
     </ul>
@@ -91,7 +109,6 @@ export async function Home({ locale }: { locale: Locale }) {
   const okrugHref = (o: { slug: string; jls_count: number }) => { const only = o.jls_count === 1 ? allJls.find((j) => j.okrug_slug === o.slug && j.level === "jls") : null; return href(locale, only ? `/${only.slug}` : `/okrug/${o.slug}`); };
   const topGuides = [...guides].sort((a, b) => (a.status === "full" ? 0 : 1) - (b.status === "full" ? 0 : 1) || a.sort_order - b.sort_order).slice(0, 6);
   const mapLabels = MAP_LABELS[locale];
-  const byGroup = GROUPS.map((g) => ({ g, types: types.filter((x) => x.group === g && x.org_count > 0) }));
   const QUICK: Record<Locale, { q: string; label: string }[]> = {
     sr: [{ q: "/vodic/licna-karta", label: "Lična karta" }, { q: "/vodic/pasos", label: "Pasoš" }, { q: "/vodic/vozacka-dozvola", label: "Vozačka dozvola" }, { q: "/vodic/zdravstvena-knjizica", label: "Zdravstvena kartica" }, { q: "/vodic/privremeni-boravak-stranci", label: "Boravak za strance" }, { q: "/vize", label: "Vize i ulazak" }],
     en: [{ q: "/vodic/licna-karta", label: "ID card" }, { q: "/vodic/pasos", label: "Passport" }, { q: "/vodic/vozacka-dozvola", label: "Driving licence" }, { q: "/vodic/zdravstvena-knjizica", label: "Health insurance" }, { q: "/vodic/privremeni-boravak-stranci", label: "Residence permit" }, { q: "/vize", label: "Visas and entry" }],
@@ -108,19 +125,20 @@ export async function Home({ locale }: { locale: Locale }) {
   const byGroupAll = GROUPS.map((g) => ({ g, types: types.filter((x) => x.group === g && x.org_count > 0), total: types.filter((x) => x.group === g).reduce((n, x) => n + x.org_count, 0) }));
   const maxGroup = Math.max(1, ...byGroupAll.map((x) => x.total));
   const T = {
-    sr: { open: "Otvori", browse: "Istražite", bySituation: "Po životnoj situaciji", langsTitle: "Isti sadržaj na četiri jezika", langsLead: "Za sve koji žive, rade ili tek stižu u Srbiju.", stats: "U brojkama", since: "Podaci iz zvaničnih registara, dopunjeni svakodnevno." },
-    en: { open: "Open", browse: "Explore", bySituation: "By life situation", langsTitle: "The same content in four languages", langsLead: "For everyone who lives, works or is just arriving in Serbia.", stats: "In numbers", since: "Data from official registers, updated continuously." },
-    ru: { open: "Открыть", browse: "Смотреть", bySituation: "По жизненной ситуации", langsTitle: "Один и тот же контент на четырёх языках", langsLead: "Для всех, кто живёт, работает или только приезжает в Сербию.", stats: "В цифрах", since: "Данные из официальных реестров, обновляются постоянно." },
-    de: { open: "Öffnen", browse: "Entdecken", bySituation: "Nach Lebenslage", langsTitle: "Derselbe Inhalt in vier Sprachen", langsLead: "Für alle, die in Serbien leben, arbeiten oder gerade ankommen.", stats: "In Zahlen", since: "Daten aus amtlichen Registern, laufend aktualisiert." },
+    sr: { open: "Otvori", browse: "Istražite", bySituation: "Po životnoj situaciji" },
+    en: { open: "Open", browse: "Explore", bySituation: "By life situation" },
+    ru: { open: "Открыть", browse: "Смотреть", bySituation: "По жизненной ситуации" },
+    de: { open: "Öffnen", browse: "Entdecken", bySituation: "Nach Lebenslage" },
   }[locale];
   return (
     <main id="main">
-      <Opener words={d.siteName.split(" ")} eyebrow={`Republika Srbija · ${new Date().getFullYear()}`} count={stats.orgs} countLabel={d.openerLabel} />
+      {siteLd(locale, d.tagline).map((x, i) => <script key={i} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(x) }} />)}
+      <Opener words={d.siteName.split(" ")} eyebrow={`${pick(locale, "Republika Srbija", "Republic of Serbia", "Республика Сербия", "Republik Serbien")} · ${new Date().getFullYear()}`} count={stats.orgs} countLabel={d.openerLabel} />
       <HeroFX />
       {/* Opening: the search and the 3D map are the centrepiece */}
       <section className="hero-open hero-map border-b border-line">
         <div className="shell pt-6 sm:pt-7 text-center" data-reveal>
-          <div className="eyebrow justify-center mb-3">Republika Srbija · {d.siteName}</div>
+          <div className="eyebrow justify-center mb-3">{pick(locale, "Republika Srbija", "Republic of Serbia", "Республика Сербия", "Republik Serbien")} · {d.siteName}</div>
           <h1 className="display text-[28px] sm:text-[36px] xl:text-[42px] mx-auto max-w-[26ch]" aria-label={`${d.tagline.split(":")[0]}.`}>{`${d.tagline.split(":")[0]}.`.split(" ").map((w, i, arr) => <Fragment key={i}><span className="w" aria-hidden><span className="i" style={{ "--i": i } as React.CSSProperties}>{w}</span></span>{i < arr.length - 1 ? " " : ""}</Fragment>)}</h1>
           <p className="lede text-muted mt-3 mx-auto max-w-[54ch]">{d.tagline.includes(":") ? d.tagline.split(":")[1].trim().replace(/^./, (c) => c.toUpperCase()) : ""}</p>
         </div>
@@ -135,17 +153,17 @@ export async function Home({ locale }: { locale: Locale }) {
             </div>
             <MapStage locale={locale} labels={L3D[locale]} hint={L3D[locale].hint} cls="is-hero" padTop={64} padBottom={22}
                       features={OKRUG_SHAPES.flatMap((s) => { const o = okruzi.find((x) => x.slug === s.slug); return o ? [{ key: s.slug, d: s.d, cx: s.cx, cy: s.cy, bbox: s.bbox, name: o.name_lat, sub: o.seat_name_lat ?? undefined, label: o.seat_name_lat ?? o.name_lat, count: o.org_count, href: okrugHref(o),
-                        stats: [{ v: o.org_count.toLocaleString("sr-Latn"), l: d.institutions }, { v: `${o.jls_count}${o.go_count ? ` + ${o.go_count}` : ""}`, l: d.municipalities }] } satisfies Feature3D] : []; })}
+                        stats: [{ v: o.org_count.toLocaleString(locale === "sr" ? "sr-Latn" : locale), l: d.institutions }, { v: `${o.jls_count}${o.go_count ? ` + ${o.go_count}` : ""}`, l: d.municipalities }] } satisfies Feature3D] : []; })}
                       fallback={<SerbiaMap key="map-2d" okruzi={okruzi.map((o) => ({ slug: o.slug, name_lat: o.name_lat, seat_name_lat: o.seat_name_lat, jls_count: o.jls_count, go_count: o.go_count, org_count: o.org_count }))}
                                            jls={allJls.map((j) => ({ slug: j.slug, name_lat: j.name_lat, okrug_slug: j.okrug_slug, org_count: j.org_count, jls_kind: j.jls_kind, level: j.level, parent_slug: j.parent_slug }))}
                                            locale={locale} labels={mapLabels} variant="light" height="hero" />} />
           </div>
           {/* index tabs: the three areas below hang off the map; each tab opens its dossier */}
           <nav className="hero-index" aria-label={T.browse}>
-            {[{ id: "vodici", n: guides.length, l: guidesWord, t: guidesTitle }, { id: "vrste", n: stats.orgs, l: d.institutions, t: d.browseByCategory }, { id: "okruzi", n: stats.jls, l: d.municipalities, t: d.browseByRegion }].map((x, i) => (
+            {[{ id: "vodici", n: guides.length, l: guidesWord, t: guidesTitle }, { id: "putokaz", n: ROADMAPS.length, l: ROAD_LABELS[locale].count, t: T.bySituation }, { id: "vrste", n: stats.orgs, l: d.institutions, t: d.browseByCategory }, { id: "okruzi", n: stats.jls, l: d.municipalities, t: d.browseByRegion }].map((x, i) => (
               <a key={x.id} href={`#${x.id}`} className="hero-index-card" style={{ "--i": i } as React.CSSProperties}>
                 <span className="tab" aria-hidden>{String(i + 1).padStart(2, "0")}</span>
-                <span className="num" data-count={x.n}>{x.n.toLocaleString("sr-Latn")}</span>
+                <span className="num" data-count={x.n}>{x.n.toLocaleString(locale === "sr" ? "sr-Latn" : locale)}</span>
                 <span className="lbl">{x.l}</span>
                 <span className="ttl">{x.t} <span aria-hidden>↓</span></span>
               </a>
@@ -157,7 +175,7 @@ export async function Home({ locale }: { locale: Locale }) {
       {/* Below the map: the three areas are one deck of index cards; changing card is a rotation, not a scroll */}
       <div className="shell deck-shell">
         <DossierDeck
-          tabs={[...(topGuides.length ? [{ id: "vodici", label: guidesTitle }] : []), { id: "vrste", label: d.browseByCategory }, { id: "okruzi", label: d.browseByRegion }]}
+          tabs={[...(topGuides.length ? [{ id: "vodici", label: pick(locale, "Vodiči", "Guides", "Инструкции", "Anleitungen") }] : []), { id: "putokaz", label: ROAD_LABELS[locale].nav }, { id: "vrste", label: pick(locale, "Vrste institucija", "Institution types", "Типы учреждений", "Einrichtungsarten") }, { id: "okruzi", label: pick(locale, "Okruzi i gradovi", "Districts and cities", "Округа и города", "Bezirke und Städte") }]}
           labels={{ prev: locale === "sr" ? "Prethodna kartica" : locale === "en" ? "Previous card" : locale === "ru" ? "Предыдущая карточка" : "Vorherige Karte", next: locale === "sr" ? "Sledeća kartica" : locale === "en" ? "Next card" : locale === "ru" ? "Следующая карточка" : "Nächste Karte",
                     hint: locale === "sr" ? "Prevucite karticu ili koristite strelice" : locale === "en" ? "Drag the card or use the arrows" : locale === "ru" ? "Потяните карточку или используйте стрелки" : "Karte ziehen oder Pfeile benutzen", region: T.browse }}>
           {[
@@ -171,7 +189,7 @@ export async function Home({ locale }: { locale: Locale }) {
                   {topGuides.map((g, i) => { const c = g.guide[locale] ?? g.guide.en ?? g.guide.sr ?? {}; return (
                     <Link key={g.id} href={href(locale, `/vodic/${g.slug}`)} className="guide-card fold spot no-underline text-ink">
                       <span className="num tab" aria-hidden>{String(i + 1).padStart(2, "0")}</span>
-                      <div className="eyebrow">{g.category_name}</div>
+                      <div className="eyebrow">{catName(g, locale)}</div>
                       <div className="font-serif text-[22px] font-semibold leading-[1.15] mt-3 pr-14 tracking-[-0.01em]">{c.title ?? g.name_lat}</div>
                       <p className="text-muted text-[13.5px] mt-2 flex-1 leading-relaxed">{c.summary ?? g.summary}</p>
                       <div className="mt-4 flex items-center justify-between text-[12.5px]">
@@ -181,21 +199,28 @@ export async function Home({ locale }: { locale: Locale }) {
                     </Link>); })}
                 </div>
               </div>] : []),
+            <div key="putokaz" className="band tex-tweed dossier">
+              <div className="section-head">
+                <div><h2 className="display-sm">{ROAD_LABELS[locale].title}</h2><p className="text-muted mt-2 text-[14.5px] max-w-[60ch]">{ROAD_LABELS[locale].lead}</p></div>
+                <Link href={href(locale, "/putokaz")} className="quick-chip">{ROAD_LABELS[locale].nav} →</Link>
+              </div>
+              <RoadTiles locale={locale} />
+            </div>,
             <div key="vrste" className="band tex-mesh dossier">
               <div className="section-head">
-                <div><h2 className="display-sm">{stats.orgs.toLocaleString("sr-Latn")} {d.institutions}, {stats.types} {typesLabel}</h2></div>
+                <div><h2 className="display-sm">{stats.orgs.toLocaleString(locale === "sr" ? "sr-Latn" : locale)} {d.institutions}, {stats.types} {typesLabel}</h2></div>
               </div>
               <div className="bento">
                 {byGroupAll.filter((x) => x.total > 0).map(({ g, types: ts, total }, i) => { return (
                   <div key={g} className="bento-card spot">
                     <div className="flex items-start justify-between gap-3">
                       <span className="glyph-wrap"><Glyph3D icon={GROUP_GLYPH[g]} size={104} /></span>
-                      <div className="big">{total.toLocaleString("sr-Latn")}</div>
+                      <div className="big">{total.toLocaleString(locale === "sr" ? "sr-Latn" : locale)}</div>
                     </div>
                     <h3 className="font-semibold text-[16px] mt-4">{d.groups[g]}</h3>
                     <div className="bar"><i style={{ "--w": (total / maxGroup).toFixed(3) } as React.CSSProperties} /></div>
                     <ul className="text-[13.5px] grid gap-1.5 mt-4">
-                      {ts.slice(0, i < 2 ? 6 : 4).map((x) => <li key={x.id} className="flex justify-between gap-3"><Link href={href(locale, `/${x.slug}`)} className="no-underline text-ink hover:text-accent truncate">{tn(x, locale)}</Link><span className="text-muted tabular shrink-0">{x.org_count.toLocaleString("sr-Latn")}</span></li>)}
+                      {ts.slice(0, i < 2 ? 6 : 4).map((x) => <li key={x.id} className="flex justify-between gap-3"><Link href={href(locale, `/${x.slug}`)} className="no-underline text-ink hover:text-accent truncate">{tn(x, locale)}</Link>{!x.national_network && <span className="text-muted tabular shrink-0">{x.org_count.toLocaleString(locale === "sr" ? "sr-Latn" : locale)}</span>}</li>)}
                     </ul>
                   </div>); })}
               </div>
@@ -223,7 +248,7 @@ function FeaturedRail({ locale, rows }: { locale: Locale; rows: db.FeaturedRow[]
     <ul className="featured-rail" aria-label={d.sponsor}>
       {rows.map((f) => (
         <li key={f.id} className="card featured-card spot">
-          <div className="flex items-center justify-between gap-3"><span className="eyebrow plain">{f.type_name}{f.place_name ? ` · ${f.place_name}` : ""}</span><span className="featured-tag">{d.sponsor}</span></div>
+          <div className="flex items-center justify-between gap-3"><span className="eyebrow plain">{rowType(f, locale)}{f.place_name ? ` · ${f.place_name}` : ""}</span><span className="featured-tag">{d.sponsor}</span></div>
           <Link href={href(locale, `/${f.type_slug}/${f.org_slug}`)} className="font-serif text-[19px] font-semibold no-underline text-ink hover:text-accent mt-1 block">{f.org_name}</Link>
           <div className="mt-2 flex flex-wrap gap-x-4 gap-y-1 text-[13px]">
             {f.phone && <a href={`tel:${f.phone.replace(/[^+\d]/g, "")}`} className="vital-tel">{f.phone}</a>}
@@ -236,13 +261,13 @@ function FeaturedRail({ locale, rows }: { locale: Locale; rows: db.FeaturedRow[]
 }
 
 // ---------------------------------------------------------------- Vital services block (municipality page)
-const VITAL_L: Record<Locale, { title: string; emergency: string; faults: string; admin: string; health: string; social: string; children: string; police: string; call: string; water: string; power: string; heat: string; gas: string; waste: string; parking: string; tax: string; registry: string; hall: string; dz: string; hospital: string; csr: string; nsz: string; os: string; ss: string; pu: string; apoteke: string; none: string }> = {
-  sr: { title: "Vitalno za ovu opštinu", emergency: "Hitni brojevi", faults: "Kvarovi i komunalno", admin: "Uprava i porez", health: "Zdravlje", social: "Socijalno i posao", children: "Deca i škole", police: "Policija", call: "Pozovi", water: "Vodovod", power: "Struja", heat: "Grejanje", gas: "Gas", waste: "Čistoća", parking: "Parking", tax: "Lokalna poreska administracija", registry: "Matičar", hall: "Opštinska uprava", dz: "Dom zdravlja", hospital: "Bolnica", csr: "Centar za socijalni rad", nsz: "Nacionalna služba za zapošljavanje", os: "osnovnih škola", ss: "srednjih škola", pu: "vrtića", apoteke: "apoteka", none: "broj još nije unet" },
-  en: { title: "Vital for this municipality", emergency: "Emergency numbers", faults: "Faults and utilities", admin: "Administration and tax", health: "Health", social: "Social and work", children: "Children and schools", police: "Police", call: "Call", water: "Water", power: "Power", heat: "Heating", gas: "Gas", waste: "Waste", parking: "Parking", tax: "Local tax office", registry: "Registrar", hall: "Municipal administration", dz: "Health centre", hospital: "Hospital", csr: "Social work centre", nsz: "Employment service", os: "primary schools", ss: "secondary schools", pu: "kindergartens", apoteke: "pharmacies", none: "number not yet listed" },
-  ru: { title: "Главное для этой общины", emergency: "Экстренные номера", faults: "Аварии и коммунальные службы", admin: "Администрация и налоги", health: "Здоровье", social: "Социальная помощь и работа", children: "Дети и школы", police: "Полиция", call: "Позвонить", water: "Водоканал", power: "Электричество", heat: "Отопление", gas: "Газ", waste: "Уборка", parking: "Парковка", tax: "Местная налоговая", registry: "ЗАГС", hall: "Администрация общины", dz: "Дом здоровья", hospital: "Больница", csr: "Центр соцработы", nsz: "Служба занятости", os: "начальных школ", ss: "средних школ", pu: "детских садов", apoteke: "аптек", none: "номер ещё не внесён" },
-  de: { title: "Wichtig für diese Gemeinde", emergency: "Notrufnummern", faults: "Störungen und Versorgung", admin: "Verwaltung und Steuern", health: "Gesundheit", social: "Soziales und Arbeit", children: "Kinder und Schulen", police: "Polizei", call: "Anrufen", water: "Wasser", power: "Strom", heat: "Heizung", gas: "Gas", waste: "Abfall", parking: "Parken", tax: "Lokale Steuerverwaltung", registry: "Standesamt", hall: "Gemeindeverwaltung", dz: "Gesundheitszentrum", hospital: "Krankenhaus", csr: "Sozialzentrum", nsz: "Arbeitsamt", os: "Grundschulen", ss: "Mittelschulen", pu: "Kindergärten", apoteke: "Apotheken", none: "Nummer noch nicht erfasst" },
+const VITAL_L: Record<Locale, { title: string; emergency: string; faults: string; admin: string; health: string; social: string; children: string; police: string; call: string; water: string; power: string; heat: string; gas: string; waste: string; parking: string; fire: string; ambulance: string; amss: string; tax: string; registry: string; hall: string; dz: string; hospital: string; csr: string; nsz: string; os: string; ss: string; pu: string; apoteke: string; none: string }> = {
+  sr: { title: "Vitalno za ovu opštinu", emergency: "Hitni brojevi", faults: "Kvarovi i komunalno", admin: "Uprava i porez", health: "Zdravlje", social: "Socijalno i posao", children: "Deca i škole", police: "Policija", call: "Pozovi", water: "Vodovod", power: "Struja", heat: "Grejanje", gas: "Gas", waste: "Čistoća", parking: "Parking", fire: "Vatrogasci", ambulance: "Hitna pomoć", amss: "AMSS – pomoć na putu", tax: "Lokalna poreska administracija", registry: "Matičar", hall: "Opštinska uprava", dz: "Dom zdravlja", hospital: "Bolnica", csr: "Centar za socijalni rad", nsz: "Nacionalna služba za zapošljavanje", os: "osnovnih škola", ss: "srednjih škola", pu: "vrtića", apoteke: "apoteka", none: "broj još nije unet" },
+  en: { title: "Vital for this municipality", emergency: "Emergency numbers", faults: "Faults and utilities", admin: "Administration and tax", health: "Health", social: "Social and work", children: "Children and schools", police: "Police", call: "Call", water: "Water", power: "Power", heat: "Heating", gas: "Gas", waste: "Waste", parking: "Parking", fire: "Fire brigade", ambulance: "Ambulance", amss: "AMSS roadside", tax: "Local tax office", registry: "Registrar", hall: "Municipal administration", dz: "Health centre", hospital: "Hospital", csr: "Social work centre", nsz: "Employment service", os: "primary schools", ss: "secondary schools", pu: "kindergartens", apoteke: "pharmacies", none: "number not yet listed" },
+  ru: { title: "Главное для этой общины", emergency: "Экстренные номера", faults: "Аварии и коммунальные службы", admin: "Администрация и налоги", health: "Здоровье", social: "Социальная помощь и работа", children: "Дети и школы", police: "Полиция", call: "Позвонить", water: "Водоканал", power: "Электричество", heat: "Отопление", gas: "Газ", waste: "Уборка", parking: "Парковка", fire: "Пожарные", ambulance: "Скорая помощь", amss: "AMSS, помощь на дороге", tax: "Местная налоговая", registry: "ЗАГС", hall: "Администрация общины", dz: "Дом здоровья", hospital: "Больница", csr: "Центр соцработы", nsz: "Служба занятости", os: "начальных школ", ss: "средних школ", pu: "детских садов", apoteke: "аптек", none: "номер ещё не внесён" },
+  de: { title: "Wichtig für diese Gemeinde", emergency: "Notrufnummern", faults: "Störungen und Versorgung", admin: "Verwaltung und Steuern", health: "Gesundheit", social: "Soziales und Arbeit", children: "Kinder und Schulen", police: "Polizei", call: "Anrufen", water: "Wasser", power: "Strom", heat: "Heizung", gas: "Gas", waste: "Abfall", parking: "Parken", fire: "Feuerwehr", ambulance: "Rettungsdienst", amss: "AMSS Pannenhilfe", tax: "Lokale Steuerverwaltung", registry: "Standesamt", hall: "Gemeindeverwaltung", dz: "Gesundheitszentrum", hospital: "Krankenhaus", csr: "Sozialzentrum", nsz: "Arbeitsamt", os: "Grundschulen", ss: "Mittelschulen", pu: "Kindergärten", apoteke: "Apotheken", none: "Nummer noch nicht erfasst" },
 };
-function VitalBlock({ locale, vital, police, counts }: { locale: Locale; vital: db.VitalRow[]; police: { slug: string; unit_name_lat: string; org_slug: string }[]; counts: { os: number; ss: number; pu: number; apoteke: number } }) {
+function VitalBlock({ locale, vital, police, counts, place }: { locale: Locale; vital: db.VitalRow[]; police: { slug: string; unit_name_lat: string; org_slug: string }[]; counts: { os: number; ss: number; pu: number; apoteke: number }; place: string }) {
   const L = VITAL_L[locale];
   const pick = (...slugs: string[]) => vital.filter((v) => slugs.includes(v.type_slug));
   const Row = ({ label, rows }: { label: string; rows: { name: string; phone: string | null; phone_display: string | null; href: string }[] }) => rows.length === 0 ? null : (
@@ -255,22 +280,24 @@ function VitalBlock({ locale, vital, police, counts }: { locale: Locale; vital: 
         </span>))}
       </span>
     </li>);
-  const org = (v: db.VitalRow) => ({ name: v.name_lat.replace(/^(Javno komunalno preduzeće|Javno preduzeće|JKP|JP)\s+/i, ""), phone: v.phone, phone_display: v.phone_display, href: href(locale, `/${v.type_slug}/${v.slug}`) });
+  // drop the legal-form prefix only when a proper name follows it ("JKP Vodovod" → "Vodovod", but "Javno preduzeće za upravljanje…" stays whole)
+  const shortName = (n: string) => { const m = n.replace(/^(Javno komunalno preduzeće|Javno preduzeće|JKP|JP)\s+/i, ""); return /^(za|u|na)\s/i.test(m) || m.length < 4 ? n : m.replace(/^["„“]|["“”]$/g, ""); };
+  const org = (v: db.VitalRow) => ({ name: shortName(v.name_lat), phone: v.phone, phone_display: v.phone_display, href: href(locale, `/${v.type_slug}/${v.slug}`) });
   const groups: { title: string; rows: { label: string; rows: ReturnType<typeof org>[] }[] }[] = [
     { title: L.faults, rows: [{ label: L.water, rows: pick("jkp-vodovod").map(org) }, { label: L.power, rows: pick("eps-distribucija").map(org) }, { label: L.heat, rows: pick("jkp-toplana").map(org) }, { label: L.gas, rows: pick("jkp-gas").map(org) }, { label: L.waste, rows: pick("jkp-cistoca").map(org) }, { label: L.parking, rows: pick("jkp-parking-servis").map(org) }] },
-    { title: L.admin, rows: [{ label: L.hall, rows: pick("opstinska-uprava", "gradska-uprava", "uprava-gradske-opstine").filter((v) => !/poresk/i.test(v.name_lat)).map(org) }, { label: L.tax, rows: [...pick("lokalna-poreska-administracija"), ...pick("gradska-uprava", "opstinska-uprava").filter((v) => /poresk/i.test(v.name_lat))].map(org) }, { label: L.registry, rows: pick("maticna-sluzba").map(org) }] },
+    { title: L.admin, rows: [{ label: L.hall, rows: (pick("opstinska-uprava", "gradska-uprava").filter((v) => !/poresk/i.test(v.name_lat)).length ? pick("opstinska-uprava", "gradska-uprava") : pick("uprava-gradske-opstine")).filter((v) => !/poresk/i.test(v.name_lat)).map(org) }, { label: L.tax, rows: [...pick("lokalna-poreska-administracija"), ...pick("gradska-uprava", "opstinska-uprava").filter((v) => /poresk/i.test(v.name_lat))].map(org) }, { label: L.registry, rows: pick("maticna-sluzba").map(org) }] },
     { title: L.health, rows: [{ label: L.dz, rows: pick("dom-zdravlja").map(org) }, { label: L.hospital, rows: pick("opsta-bolnica").map(org) }] },
     { title: L.social, rows: [{ label: L.csr, rows: pick("centar-za-socijalni-rad").map(org) }, { label: L.nsz, rows: pick("nsz").map(org) }] },
   ];
   const policeRows = police.slice(0, 3).map((p) => ({ name: p.unit_name_lat, phone: null as string | null, phone_display: null as string | null, href: href(locale, `/mup-policijska-uprava/${p.org_slug}/${p.slug}`) }));
-  const kids = [[counts.os, L.os], [counts.ss, L.ss], [counts.pu, L.pu], [counts.apoteke, L.apoteke]].filter(([n]) => (n as number) > 0);
+  const kids = ([[counts.os, L.os, "osnovna-skola"], [counts.ss, L.ss, "srednja-skola"], [counts.pu, L.pu, "predskolska-ustanova"], [counts.apoteke, L.apoteke, "apoteka"]] as [number, string, string][]).filter(([n]) => n > 0);
   return (
     <section className="vital card" aria-labelledby="vital-h" data-reveal data-fx="flip">
-      <div className="vital-head"><div className="eyebrow">{L.title}</div><div className="vital-emergency" id="vital-h"><span className="eyebrow plain">{L.emergency}</span>{[["192", L.police], ["193", "Vatrogasci"], ["194", "Hitna pomoć"], ["1987", "AMSS"]].map(([n, l]) => <a key={n} href={`tel:${n}`} className="vital-num"><b>{n}</b><span>{l}</span></a>)}</div></div>
+      <div className="vital-head"><div className="eyebrow">{L.title}</div><div className="vital-emergency" id="vital-h"><span className="eyebrow plain">{L.emergency}</span>{[["192", L.police], ["193", L.fire], ["194", L.ambulance], ["1987", L.amss]].map(([n, l]) => <a key={n} href={`tel:${n}`} className="vital-num"><b>{n}</b><span>{l}</span></a>)}</div></div>
       <div className="vital-grid">
         {groups.map((g) => g.rows.some((r) => r.rows.length) && <div key={g.title} className="vital-col"><div className="vital-title">{g.title}</div><ul>{g.rows.map((r) => <Row key={r.label} label={r.label} rows={r.rows} />)}</ul></div>)}
         {policeRows.length > 0 && <div className="vital-col"><div className="vital-title">{L.police}</div><ul><Row label="" rows={policeRows} /></ul></div>}
-        {kids.length > 0 && <div className="vital-col"><div className="vital-title">{L.children}</div><ul className="vital-kids">{kids.map(([n, l]) => <li key={String(l)}><b className="tabular">{n as number}</b> {l as string}</li>)}</ul></div>}
+        {kids.length > 0 && <div className="vital-col"><div className="vital-title">{L.children}</div><ul className="vital-kids">{kids.map(([n, l, sl]) => <li key={sl}><a href={`${href(locale, `/${sl}`)}?mesto=${place}#lista`} className="no-underline text-ink hover:text-accent"><b className="tabular">{n}</b> {l} →</a></li>)}</ul></div>}
       </div>
     </section>
   );
@@ -285,25 +312,25 @@ export async function OkrugHub({ locale, okrug }: { locale: Locale; okrug: db.TU
       <HeroFX />
       <section className="hero-light border-b border-line"><div className="shell py-8 sm:py-10 grid gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.1fr)] lg:items-center">
         <div>
-          <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, { label: okrug.name_lat }]} />
+          <Breadcrumbs locale={locale} items={[{ href: href(locale, "/"), label: d.home }, { label: okrug.name_lat }]} />
           <div className="eyebrow mt-4">{d.okrug}</div>
           <LandmarkHead id={`okrug/${okrug.slug}`} fallbackTitle={d.okrug} locale={locale}><h1 className="display-sm text-[34px] sm:text-[44px]">{okrug.official_name_lat ?? okrug.name_lat}</h1></LandmarkHead>
-          <p className="text-muted mt-3 tabular lede">{okrug.seat_name_lat ? `${d.seat}: ${okrug.seat_name_lat} · ` : ""}{jls.length} {d.municipalities} · {okrugTotal.toLocaleString("sr-Latn")} {d.institutions}</p>
+          <p className="text-muted mt-3 tabular lede">{okrug.seat_name_lat ? `${d.seat}: ${okrug.seat_name_lat} · ` : ""}{jls.length} {d.municipalities} · {okrugTotal.toLocaleString(locale === "sr" ? "sr-Latn" : locale)} {d.institutions}</p>
           <div className="mt-5"><SearchBox locale={locale} large placeholder="" submitLabel={d.search} scope={{ slug: okrug.slug, label: okrug.name_lat }} /></div>
         </div>
         <MapStage locale={locale} labels={L3D[locale]} hint={L3D[locale].hintUnits} cls="is-hub"
-                  features={JLS_SHAPES.filter((s) => s.okrug === okrug.slug).flatMap((s) => { const j = jls.find((x) => x.slug === s.slug); return j ? [{ key: s.slug, d: s.d, cx: s.cx, cy: s.cy, bbox: s.bbox, name: j.name_lat, sub: j.jls_kind === "grad" ? d.city : d.municipality, count: j.org_count, href: href(locale, `/${j.slug}`), stats: [{ v: j.org_count.toLocaleString("sr-Latn"), l: d.institutions }] } satisfies Feature3D] : []; })}
+                  features={JLS_SHAPES.filter((s) => s.okrug === okrug.slug).flatMap((s) => { const j = jls.find((x) => x.slug === s.slug); return j ? [{ key: s.slug, d: s.d, cx: s.cx, cy: s.cy, bbox: s.bbox, name: j.name_lat, sub: j.jls_kind === "grad" ? d.city : d.municipality, count: j.org_count, href: href(locale, `/${j.slug}`), stats: [{ v: j.org_count.toLocaleString(locale === "sr" ? "sr-Latn" : locale), l: d.institutions }] } satisfies Feature3D] : []; })}
                   context={OKRUG_SHAPES.filter((s) => s.slug !== okrug.slug).map((s) => ({ key: s.slug, d: s.d }))}
                   fit={OKRUG_SHAPES.find((s) => s.slug === okrug.slug)?.bbox} />
       </div></section>
       <div className="shell py-6">
-      <AdSlot code="jls_top_leaderboard" w={728} h={90} mobileH={100} label={d.ad} />
+      <AdSlot locale={locale} code="jls_top_leaderboard" w={728} h={90} mobileH={100} label={d.ad} />
       <ul className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-2">
         {jls.map((j, i) => (
           <li key={j.id} className="card card-hover spot plinth p-5" data-reveal data-fx={i % 2 ? "wing-r" : "wing-l"} style={{ "--d": `${(i % 6) * 60}ms` } as React.CSSProperties}>
             <div className="lm-card">
               <div className="min-w-0">
-                <div className="eyebrow">{j.jls_kind === "grad" ? d.city : d.municipality}{j.okrug_seat ? ` · ${d.seat.toLowerCase()} okruga` : ""}</div>
+                <div className="eyebrow">{j.jls_kind === "grad" ? d.city : d.municipality}{j.okrug_seat ? ` · ${pick(locale, "sedište okruga", "district seat", "центр округа", "Bezirkssitz")}` : ""}</div>
                 <Link href={href(locale, `/${j.slug}`)} className="hit font-serif text-[20px] font-semibold no-underline text-ink hover:text-accent">{j.name_lat}</Link>
                 <div className="text-[13px] text-muted mt-1.5 tabular">{j.org_count} {d.institutions}</div>
                 {landmarkOf(j.slug) && <div className="lm-card-name">{landmarkOf(j.slug)!.name}</div>}
@@ -325,7 +352,8 @@ export async function UnitHub({ locale, unit, parent }: { locale: Locale; unit: 
   // Big cities hold thousands of institutions: the page shows every type that is small here in full and one tile per
   // large type (with its count) that opens the filtered, paged list. Nothing is listed by the thousand.
   const PER_TYPE = 12;
-  const [orgs, unitTotal, gos, ancestors, types, vital] = await Promise.all([db.getOrgsInUnitTop(unit.path, PER_TYPE), db.countOrgsInUnit(unit.path), unit.level === "jls" ? db.getChildrenGO(unit.id) : Promise.resolve([]), db.getAncestors(unit.path), db.getOrgTypes(), db.getVitalForUnit(unit.path, VITAL_TYPES)]);
+  const [orgs, unitTotal, gos, ancestors, types, vital, allGuides] = await Promise.all([db.getOrgsInUnitTop(unit.path, PER_TYPE), db.countOrgsInUnit(unit.path), unit.level === "jls" ? db.getChildrenGO(unit.id) : Promise.resolve([]), db.getAncestors(unit.path), db.getOrgTypes(), db.getVitalForUnit(unit.path, VITAL_TYPES), db.getGuides().catch(() => [] as db.GuideRow[])]);
+  const hubGuides = allGuides.filter((g) => g.status === "full").slice(0, 7);
   const typeN = new Map<string, number>(); for (const o of orgs) typeN.set(o.type_slug, o.type_n);
   const typeBy = new Map(types.map((x) => [x.slug, x]));
   const placeParam = unit.level === "gradska_opstina" && parent ? `${parent.slug}/${unit.slug}` : unit.slug;
@@ -339,10 +367,10 @@ export async function UnitHub({ locale, unit, parent }: { locale: Locale; unit: 
       <HeroFX />
       <section className="hero-light border-b border-line"><div className="shell py-8 sm:py-10 grid gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] lg:items-center">
       <div>
-      <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, ...(okrug ? [{ href: href(locale, `/okrug/${okrug.slug}`), label: okrug.name_lat }] : []), ...(parent ? [{ href: href(locale, `/${parent.slug}`), label: parent.name_lat }] : []), { label: unit.name_lat }]} />
+      <Breadcrumbs locale={locale} items={[{ href: href(locale, "/"), label: d.home }, ...(okrug ? [{ href: href(locale, `/okrug/${okrug.slug}`), label: okrug.name_lat }] : []), ...(parent ? [{ href: href(locale, `/${parent.slug}`), label: parent.name_lat }] : []), { label: unit.name_lat }]} />
       <div className="eyebrow mt-4">{unit.level === "gradska_opstina" ? d.gradskaOpstina : unit.jls_kind === "grad" ? d.city : d.municipality}{okrug && unit.level === "jls" ? ` · ${okrug.name_lat}` : ""}</div>
       <LandmarkHead id={unit.level === "gradska_opstina" && parent ? `${parent.slug}/${unit.slug}` : unit.slug} fallbackTitle={unit.level === "gradska_opstina" ? d.gradskaOpstina : unit.jls_kind === "grad" ? d.city : d.municipality} locale={locale}><h1 className="display-sm text-[34px] sm:text-[44px]">{tuLabel(unit)}</h1></LandmarkHead>
-      <p className="text-muted mt-3 tabular lede">{unitTotal.toLocaleString("sr-Latn")} {d.institutions}{unit.website ? <> · <a href={unit.website} rel="noopener">{d.website} ↗</a></> : null}</p>
+      <p className="text-muted mt-3 tabular lede">{unitTotal.toLocaleString(locale === "sr" ? "sr-Latn" : locale)} {d.institutions}{unit.website ? <> · <a href={unit.website} rel="noopener">{d.website} ↗</a></> : null}</p>
       <div className="mt-5"><SearchBox locale={locale} large placeholder="" submitLabel={d.search} scope={{ slug: unit.slug, label: unit.name_lat }} /></div>
       </div>
       {(() => {
@@ -352,16 +380,16 @@ export async function UnitHub({ locale, unit, parent }: { locale: Locale; unit: 
         const goShapes = GO_SHAPES.filter((g) => g.parent === citySlug);
         const goBy = Object.fromEntries(gos.map((g) => [g.slug, g]));
         const feats: Feature3D[] = goShapes.length && gos.length
-          ? goShapes.flatMap((g) => { const row = goBy[g.slug]; return row ? [{ key: `${citySlug}/${g.slug}`, d: g.d, cx: g.cx, cy: g.cy, bbox: g.bbox, name: row.name_lat, sub: d.gradskaOpstina, count: row.org_count, href: href(locale, `/${citySlug}/${g.slug}`), stats: [{ v: row.org_count.toLocaleString("sr-Latn"), l: d.institutions }] }] : []; })
-          : [{ key: unitShape.slug, d: unitShape.d, cx: unitShape.cx, cy: unitShape.cy, bbox: unitShape.bbox, name: unit.level === "gradska_opstina" && parent ? parent.name_lat : unit.name_lat, sub: unit.jls_kind === "grad" ? d.city : d.municipality, count: unitTotal, href: href(locale, `/${citySlug}`), stats: [{ v: unitTotal.toLocaleString("sr-Latn"), l: d.institutions }] }];
+          ? goShapes.flatMap((g) => { const row = goBy[g.slug]; return row ? [{ key: `${citySlug}/${g.slug}`, d: g.d, cx: g.cx, cy: g.cy, bbox: g.bbox, name: row.name_lat, sub: d.gradskaOpstina, count: row.org_count, href: href(locale, `/${citySlug}/${g.slug}`), stats: [{ v: row.org_count.toLocaleString(locale === "sr" ? "sr-Latn" : locale), l: d.institutions }] }] : []; })
+          : [{ key: unitShape.slug, d: unitShape.d, cx: unitShape.cx, cy: unitShape.cy, bbox: unitShape.bbox, name: unit.level === "gradska_opstina" && parent ? parent.name_lat : unit.name_lat, sub: unit.jls_kind === "grad" ? d.city : d.municipality, count: unitTotal, href: href(locale, `/${citySlug}`), stats: [{ v: unitTotal.toLocaleString(locale === "sr" ? "sr-Latn" : locale), l: d.institutions }] }];
         const ctx = JLS_SHAPES.filter((s) => s.okrug === unitShape.okrug && s.slug !== citySlug).map((s) => ({ key: s.slug, d: s.d }));
         const b = unitShape.bbox; const padx = (b[2] - b[0]) * .35, pady = (b[3] - b[1]) * .35;
         return <MapStage locale={locale} labels={{ ...L3D[locale], hint: L3D[locale].hintUnits }} cls="is-hub" features={feats} context={ctx} fit={[b[0] - padx, b[1] - pady, b[2] + padx, b[3] + pady]} />;
       })()}
       </div></section>
       <div className="shell py-6">
-      <VitalBlock locale={locale} vital={vital} police={serving.find((s) => s.type.slug === "mup-policijska-uprava")?.rows ?? []} counts={{ os: typeN.get("osnovna-skola") ?? 0, ss: typeN.get("srednja-skola") ?? 0, pu: typeN.get("predskolska-ustanova") ?? 0, apoteke: typeN.get("apoteka") ?? 0 }} />
-      <AdSlot code="jls_top_leaderboard" w={728} h={90} mobileH={100} label={d.ad} />
+      <VitalBlock locale={locale} vital={vital} police={serving.find((s) => s.type.slug === "mup-policijska-uprava")?.rows ?? []} counts={{ os: typeN.get("osnovna-skola") ?? 0, ss: typeN.get("srednja-skola") ?? 0, pu: typeN.get("predskolska-ustanova") ?? 0, apoteke: typeN.get("apoteka") ?? 0 }} place={placeParam} />
+      <AdSlot locale={locale} code="jls_top_leaderboard" w={728} h={90} mobileH={100} label={d.ad} />
       <div className="grid lg:grid-cols-[minmax(0,1fr)_300px] gap-8 items-start">
         <div>
           {gos.length > 0 && (
@@ -389,12 +417,12 @@ export async function UnitHub({ locale, unit, parent }: { locale: Locale; unit: 
               <section key={g} className="mb-8" data-reveal data-fx="flip">
                 <SectionTitle id={g}><span className="inline-flex items-center gap-2.5"><Glyph3D icon={GROUP_GLYPH[g]} size={34} /> {d.groups[g]} {(g === "republicki_organi" ? list.length + serving.length : list.length) > 0 && <span className="text-muted font-normal text-[14px] tabular">{g === "republicki_organi" ? list.length + serving.length : list.length}</span>}</span></SectionTitle>
                 {g === "republicki_organi" && (
-                  <ul className="grid sm:grid-cols-2 gap-2 mb-3">
+                  <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 mb-3">
                     {serving.map(({ type, rows }) => (
-                      <li key={type.id} className="card card-hover px-3.5 py-2.5">
-                        <Link href={href(locale, `/${type.slug}`)} className="font-medium text-[14px] no-underline text-ink hover:text-accent">{type.name_lat}</Link>
+                      <li key={type.id} className="card card-hover px-3.5 py-2.5 min-w-0 [overflow-wrap:anywhere]">
+                        <Link href={href(locale, `/${type.slug}`)} className="font-medium text-[14px] no-underline text-ink hover:text-accent">{tn(type, locale)}</Link>
                         <div className="text-[12.5px] text-muted mt-0.5">
-                          {rows.length ? rows.map((r, k) => <span key={r.id}>{k > 0 && ", "}<Link href={href(locale, `/${type.slug}/${r.org_slug}/${r.slug}`)}>{r.unit_name_lat}</Link></span>) : <span>{d.noData}</span>}
+                          {rows.length ? rows.map((r, k) => <span key={r.id}>{k > 0 && ", "}<Link href={href(locale, `/${type.slug}/${r.org_slug}/${r.slug}`)}>{/^sedi[sš]te$/i.test(r.unit_name_lat.trim()) ? (r.tu_name || type.name_lat) : r.unit_name_lat}</Link></span>) : <span>{d.noData}</span>}
                         </div>
                       </li>
                     ))}
@@ -406,27 +434,27 @@ export async function UnitHub({ locale, unit, parent }: { locale: Locale; unit: 
                     {bigTypes.map((sl) => { const ty = typeBy.get(sl); const n = typeN.get(sl) ?? 0; return (
                       <li key={sl}><a href={`${href(locale, `/${sl}`)}?mesto=${placeParam}#lista`} className="type-tile card card-hover no-underline text-ink">
                         <Glyph3D icon={emblemFor(sl, ty?.icon)} size={44} className="type-tile-img" />
-                        <span className="min-w-0"><span className="type-tile-name">{ty ? tn(ty, locale) : sl}</span><span className="type-tile-sub">{unit.name_lat}</span></span>
-                        <span className="type-tile-n tabular">{n.toLocaleString("sr-Latn")} →</span>
+                        <span className="min-w-0"><span className="type-tile-name">{ty ? tn(ty, locale) : sl}</span></span>
+                        <span className="type-tile-n tabular">{n.toLocaleString(locale === "sr" ? "sr-Latn" : locale)} →</span>
                       </a></li>); })}
                   </ul>
                 )}
                 {mz.length > 0 && (
-                  <details className="mt-3 card p-3.5"><summary className="cursor-pointer font-medium text-[14px]">Mesne zajednice <span className="text-muted tabular font-normal">({mz.length})</span></summary>
+                  <details className="mt-3 card p-3.5"><summary className="cursor-pointer font-medium text-[14px]">{pick(locale, "Mesne zajednice", "Local communities", "Местные общины", "Ortsgemeinschaften")} <span className="text-muted tabular font-normal">({mz.length})</span></summary>
                     <ul className="mt-3 columns-2 sm:columns-3 gap-4 text-[13px]">{mz.map((o) => <li key={o.id} className="break-inside-avoid"><Link href={orgHref(locale, o)}>{o.name_lat.replace(/^Mesna zajednica\s+/i, "")}</Link></li>)}</ul></details>
                 )}
-                {i === 1 && <AdSlot code="jls_inline_1" w={336} h={280} label={d.ad} />}
+                {i === 1 && <AdSlot locale={locale} code="jls_inline_1" w={336} h={280} label={d.ad} />}
               </section>
             );
           })}
         </div>
         <aside className="lg:sticky lg:top-20 grid gap-5">
-          <SponsorCard label={d.sponsor} sponsor={null} compact />
-          <div className="card p-4 text-[13.5px]">
+          <SponsorCard locale={locale} label={d.sponsor} sponsor={null} compact />
+          {hubGuides.length > 0 && <div className="card p-4"><GuideLinks locale={locale} guides={hubGuides} jlsSlug={unit.level === "gradska_opstina" && parent ? parent.slug : unit.slug} stacked /><Link href={href(locale, "/putokaz")} className="inline-block mt-3 text-[13.5px] font-medium">{ROAD_LABELS[locale].nav} →</Link></div>}
+          {(okrug || (unit.seat_name_lat && unit.level === "jls" && unit.seat_name_lat !== unit.name_lat)) && <div className="card p-4 text-[13.5px]">
             {okrug && <><div className="eyebrow mb-2">{d.okrug}</div><Link href={href(locale, `/okrug/${okrug.slug}`)} className="font-medium">{okrug.name_lat}</Link></>}
-            {unit.seat_name_lat && unit.level === "jls" && <div className="text-muted mt-2">{d.seat}: {unit.seat_name_lat}</div>}
-            <div className="text-muted mt-2">{locale === "sr" ? "Ovu stranicu možete deliti: " : "Share: "}<span className="font-mono text-[12px] break-all">{path}</span></div>
-          </div>
+            {unit.seat_name_lat && unit.level === "jls" && unit.seat_name_lat !== unit.name_lat && <div className="text-muted mt-2">{d.seat}: {unit.seat_name_lat}</div>}
+          </div>}
         </aside>
       </div>
       </div>
@@ -448,6 +476,14 @@ function GuideLinks({ locale, guides, jlsSlug, stacked = false }: { locale: Loca
 }
 
 // ---------------------------------------------------------------- Org type hub
+/** A branch whose only name is "Sedište" (head office) is a label, not a proper name: say it in the page's language. */
+const unitName = (u: string, locale: Locale) => (/^sedi[sš]te$/i.test(u.trim()) ? pick(locale, "Sedište", "Head office", "Главный офис", "Hauptsitz") : u);
+const foldName = (x: string) => x.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/\b(banka|bank|a\.?d\.?|ad|d\.?o\.?o\.?|srbija|beograd)\b/g, "").replace(/[^a-z0-9]/g, "");
+/** "Raiffeisen bank" as the branch name of Raiffeisen banka says nothing: the same name written twice. */
+const sameName = (unit: string, org: string) => { const a = foldName(unit), b = foldName(org); return !a || a === b || b.startsWith(a) || a.startsWith(b); };
+/** What tells two branches of one brand apart in a list: the branch's own name when it has one, else the town. */
+const branchPlace = (b: db.ServingRow) => { const u = b.unit_name_lat.trim(); const generic = /^(ekspozitura|poslovnica|filijala|ispostava|sediste|sedište)$/i.test(u) || sameName(u, b.org_name_lat); const town = b.settlement_name_lat ?? b.jls_name_lat ?? ""; return generic ? town : (town && !u.toLowerCase().includes(town.toLowerCase()) ? `${u}, ${town}` : u); };
+
 /** which line of an institution's facts works as the "field" filter on a paged type page */
 const TYPE_FACET: Record<string, { key: string; label: Record<Locale, string> }> = {
   "sudski-vestak": { key: "oblasti", label: { sr: "Sve oblasti", en: "All fields", ru: "Все области", de: "Alle Fachgebiete" } },
@@ -500,23 +536,23 @@ export async function OrgTypeHub({ locale, type, brand = null, place = null, que
   const count = branchMode ? branches.length : paged ? total : orgs.length;
   const places = branchMode ? new Set(branches.map((b) => b.jls_slug)).size : paged ? placeOptions0.length : keys.length;
   let faq: { q: string; a: string }[] = [];
-  try { const parsed = type.faq_md ? JSON.parse(type.faq_md) : []; if (Array.isArray(parsed)) faq = parsed.filter((x) => x && x.q && x.a); } catch { faq = []; }
+  try { const parsed = type.faq_md ? JSON.parse(type.faq_md) : []; if (Array.isArray(parsed)) faq = parsed.filter((x) => x && x.q && x.a).map((x: { q: string; a: string }) => ({ q: tx(x.q, locale), a: tx(x.a, locale) })); } catch { faq = []; }
   return (
     <main id="main">
       <section className="hero-light border-b border-line"><div className="shell py-8 sm:py-10 grid gap-6 lg:gap-10 lg:grid-cols-[minmax(0,1fr)_minmax(300px,.72fr)] lg:items-center">
         <div className="min-w-0">
-        <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, { label: d.groups[type.group] }, { label: tn(type, locale) }]} />
+        <Breadcrumbs locale={locale} items={[{ href: href(locale, "/"), label: d.home }, { label: d.groups[type.group] }, { label: tn(type, locale) }]} />
         <div className="eyebrow mt-4">{d.groups[type.group]}</div>
         <h1 className="font-serif text-[30px] sm:text-[38px] font-semibold leading-tight">{tn(type, locale)}</h1>
-        <p className="text-muted mt-2 tabular">{count.toLocaleString("sr-Latn")} {branchMode ? (locale === "sr" ? "lokacija" : locale === "en" ? "locations" : locale === "ru" ? "адресов" : "Standorte") : PERSON_TYPES.has(type.slug) ? (locale === "sr" ? "upisanih u registar" : locale === "en" ? "listed in the register" : locale === "ru" ? "в реестре" : "im Register") : d.institutions} · {placesCount(places, locale)}</p>
-        {type.description_md && <div className="prose max-w-3xl mt-3 text-[15px] text-muted">{type.description_md}</div>}
+        <p className="text-muted mt-2 tabular">{count.toLocaleString(locale === "sr" ? "sr-Latn" : locale)} {branchMode ? (locale === "sr" ? "lokacija" : locale === "en" ? "locations" : locale === "ru" ? "адресов" : "Standorte") : PERSON_TYPES.has(type.slug) ? (locale === "sr" ? "upisanih u registar" : locale === "en" ? "listed in the register" : locale === "ru" ? "в реестре" : "im Register") : d.institutions} · {placesCount(places, locale)}</p>
+        {type.description_md && <div className="prose max-w-3xl mt-3 text-[15px] text-muted">{tx(type.description_md, locale)}</div>}
         <GuideLinks locale={locale} guides={typeGuides} />
         </div>
-        <EmblemStage emblem={emblemFor(type.slug, type.icon)} title={type.name_lat} size={400} cls="estage-hero deskframe" />
+        <EmblemStage emblem={emblemFor(type.slug, type.icon)} title={tn(type, locale)} size={400} cls="estage-hero deskframe" />
       </div></section>
       <div className="shell py-6">
       {faq.length > 0 && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faq.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) }) }} />}
-      <AdSlot code="jls_top_leaderboard" w={728} h={90} mobileH={100} label={d.ad} />
+      <AdSlot locale={locale} code="jls_top_leaderboard" w={728} h={90} mobileH={100} label={d.ad} />
       <div className="grid lg:grid-cols-[minmax(0,1fr)_300px] gap-8 items-start">
         <div className="grid gap-5">
           {featured.length > 0 && <FeaturedRail locale={locale} rows={featured} />}
@@ -532,13 +568,13 @@ export async function OrgTypeHub({ locale, type, brand = null, place = null, que
               <SectionTitle>{k} <span className="text-muted font-normal text-[13px] tabular">{byOkrug.get(k)!.length}</span></SectionTitle>
               {shownBranches.length > 400 ? (
                 /* a whole national network on one page (2,000 bank branches): one light line per branch; pick a place or a brand above to get the cards */
-                <ul className="org-compact">{byOkrug.get(k)!.map((b) => <li key={b.location_id}><a href={href(locale, `/${b.org_type_slug}/${b.org_slug}/${b.location_slug}`)}>{orgs.length > 1 ? `${b.org_name_lat} · ${b.settlement_name_lat ?? b.unit_name_lat}` : b.unit_name_lat}</a><span>{b.address_display ?? b.jls_name_lat}</span></li>)}</ul>
+                <ul className="org-compact">{byOkrug.get(k)!.map((b) => <li key={b.location_id}><a href={href(locale, `/${b.org_type_slug}/${b.org_slug}/${b.location_slug}`)}>{orgs.length > 1 ? `${b.org_name_lat} · ${branchPlace(b)}` : unitName(b.unit_name_lat, locale)}</a><span>{b.address_display ?? ""}</span></li>)}</ul>
               ) : (
               <ul className="grid sm:grid-cols-2 gap-3">
                 {byOkrug.get(k)!.map((b) => (
                   <li key={b.location_id} className="card card-hover p-4">
-                    <div className="eyebrow">{orgs.length > 1 ? b.org_name_lat : b.unit_kind === "filijala" ? (locale === "sr" ? "Filijala" : "Branch") : b.unit_kind === "ispostava" ? (locale === "sr" ? "Ispostava" : "Sub-office") : b.unit_kind}</div>
-                    <Link href={href(locale, `/${b.org_type_slug}/${b.org_slug}/${b.location_slug}`)} className="hit font-serif text-[17px] font-semibold no-underline text-ink hover:text-accent">{orgs.length > 1 && /^(ekspozitura|poslovnica|filijala|ispostava)$/i.test(b.unit_name_lat) ? `${b.org_name_lat} · ${b.settlement_name_lat ?? b.unit_name_lat}` : b.unit_name_lat}</Link>
+                    <div className="eyebrow">{orgs.length > 1 ? b.org_name_lat : (UNIT_KIND[b.unit_kind]?.[locale] ?? b.unit_kind)}</div>
+                    <Link href={href(locale, `/${b.org_type_slug}/${b.org_slug}/${b.location_slug}`)} className="hit font-serif text-[17px] font-semibold no-underline text-ink hover:text-accent">{orgs.length > 1 && (/^(ekspozitura|poslovnica|filijala|ispostava)$/i.test(b.unit_name_lat) || sameName(b.unit_name_lat, b.org_name_lat)) ? `${b.org_name_lat} · ${branchPlace(b)}` : unitName(b.unit_name_lat, locale)}</Link>
                     <div className="text-[13px] text-muted mt-1">{b.address_display ? `${b.address_display}, ` : ""}{b.jls_name_lat}</div>
                   </li>
                 ))}
@@ -553,13 +589,9 @@ export async function OrgTypeHub({ locale, type, brand = null, place = null, que
             const from = matchCount ? (cur - 1) * PAGE_SIZE + 1 : 0, to = Math.min(matchCount, cur * PAGE_SIZE);
             return (
               <section key="paged" className="grid gap-4" id="lista">
-                <form method="get" action={`${base}#lista`} className="type-filter card p-3.5" role="search" aria-label={tn(type, locale)}>
-                  <input type="search" name="q" defaultValue={filter.q ?? ""} placeholder={P.name} aria-label={P.name} maxLength={60} />
-                  <select name="mesto" defaultValue={filter.jls ?? ""} aria-label={P.allPlaces}><option value="">{P.allPlaces}</option>{placeOptions.map((o) => <option key={o.slug} value={o.slug}>{o.name_lat} ({o.n})</option>)}</select>
-                  {facetDef && facetOptions.length > 0 && <select name="oblast" defaultValue={filter.facet ?? ""} aria-label={facetDef.label[locale]}><option value="">{facetDef.label[locale]}</option>{facetOptions.map((o) => <option key={o.v} value={o.v}>{o.v} ({o.n})</option>)}</select>}
-                  <button type="submit" className="btn-primary">{P.show}</button>
-                  {filtered && <a href={base} className="type-filter-reset">{P.reset}</a>}
-                </form>
+                <TypeFilterBar base={base} q={filter.q ?? null} place={filter.jls ?? null} facet={filter.facet ?? null} filtered={filtered}
+                  places={placeOptions.map((o) => ({ value: o.slug, label: o.name_lat, sub: String(o.n) }))} facets={facetDef ? facetOptions.map((o) => ({ value: o.v, label: o.v, sub: String(o.n) })) : []}
+                  labels={{ name: P.name, allPlaces: P.allPlaces, allFields: facetDef?.label[locale] ?? "", show: P.show, reset: P.reset }} />
                 <p className="text-[13px] text-muted tabular" aria-live="polite">{matchCount ? P.shown(from, to, matchCount) : P.none}</p>
                 {orgs.length > 0 && <OrgList orgs={orgs} locale={locale} dense byPlace />}
                 {pages > 1 && (
@@ -584,7 +616,7 @@ export async function OrgTypeHub({ locale, type, brand = null, place = null, que
             );
           })}
         </div>
-        <aside className="lg:sticky lg:top-20"><SponsorCard label={d.sponsor} sponsor={null} compact /></aside>
+        <aside className="lg:sticky lg:top-20"><SponsorCard locale={locale} label={d.sponsor} sponsor={null} compact /></aside>
       </div>
       </div>
     </main>
@@ -630,8 +662,8 @@ export async function OrgPage({ locale, org, locSlug, path }: { locale: Locale; 
   const site = org.website ?? sites[0]?.value ?? null;
   const placeLine = loc ? [loc.address_display, loc.address_extra, [loc.postal_code, loc.settlement_name_lat ?? loc.tu_name_lat].filter(Boolean).join(" ")].filter(Boolean).join(", ") : null;
   const mapsQ = encodeURIComponent(`${org.name_lat} ${placeLine ?? ""}`.trim());
-  const title = loc && !loc.is_primary ? `${org.name_lat} – ${loc.unit_name_lat}` : org.name_lat;
-  const related = jls ? await db.sql<db.OrgRow[]>`select o.id, o.slug, o.name_lat, o.name_cyr, o.official_name_lat, t.slug as type_slug, t.name_lat as type_name, t."group" as group, o.jurisdiction, null::text as founder_slug, null::text as founder_name, null::text as place_name, null::text as place_slug, o.verification, null::text as mb, null::text as pib, null::text as jbkjs, o.website, null::bigint as parent_id, null::text as parent_name, null::text as parent_slug, null::text as parent_type_slug, null::text as last_seen_at
+  const title = loc && !loc.is_primary ? `${org.name_lat} – ${unitName(loc.unit_name_lat, locale)}` : org.name_lat;
+  const related = jls ? await db.sql<db.OrgRow[]>`select o.id, o.slug, o.name_lat, o.name_cyr, o.official_name_lat, t.slug as type_slug, t.name_lat as type_name, t.name_en as type_name_en, t.name_ru as type_name_ru, t.name_de as type_name_de, t."group" as group, o.jurisdiction, null::text as founder_slug, null::text as founder_name, null::text as place_name, null::text as place_slug, o.verification, null::text as mb, null::text as pib, null::text as jbkjs, o.website, null::bigint as parent_id, null::text as parent_name, null::text as parent_slug, null::text as parent_type_slug, null::text as last_seen_at
       from organizations o join org_types t on t.id = o.org_type_id join territorial_units f on f.id = o.founder_unit_id
       where t."group" = ${org.group} and o.id <> ${org.id} and o.status = 'active' and f.path <@ ${jls.path}::ltree and t.slug <> 'mesna-zajednica' order by t.sort_order, o.name_lat limit 8` : [];
   const DAYS = locale === "sr" ? ["Pon", "Uto", "Sre", "Čet", "Pet", "Sub", "Ned"] : locale === "en" ? ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"] : locale === "ru" ? ["Пн", "Вт", "Ср", "Чт", "Пт", "Сб", "Вс"] : ["Mo", "Di", "Mi", "Do", "Fr", "Sa", "So"];
@@ -642,31 +674,44 @@ export async function OrgPage({ locale, org, locSlug, path }: { locale: Locale; 
   const sourceNames = extras.sources.length ? extras.sources : org.jbkjs ? ["Uprava za trezor – Spisak korisnika javnih sredstava"] : [];
   const regFacts = facts(extras.description_md, locale);
   const showFounder = !!org.jbkjs && !!org.founder_name;
+  const typeSing = locale === "sr" ? type.name_lat : tn(type, locale); // singular Serbian name; translated names are plural
+  const DOW = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+  const openRows = hours.filter((h) => h.hours_type === "rad_sa_strankama").length ? hours.filter((h) => h.hours_type === "rad_sa_strankama") : hours.filter((h) => h.hours_type === "radno_vreme");
+  const orgLd = {
+    "@context": "https://schema.org", "@type": PERSON_TYPES.has(org.type_slug) ? "ProfessionalService" : org.is_private ? "LocalBusiness" : "GovernmentOffice",
+    name: title, ...(org.official_name_lat && org.official_name_lat !== org.name_lat ? { legalName: org.official_name_lat } : {}), url: siteUrl() + path, description: `${typeSing}${jls ? `, ${jls.name_lat}` : ""}`,
+    ...(loc && (loc.address_display || loc.tu_name_lat) ? { address: { "@type": "PostalAddress", ...(loc.address_display ? { streetAddress: loc.address_display } : {}), addressLocality: loc.settlement_name_lat ?? loc.tu_name_lat, ...(loc.postal_code ? { postalCode: loc.postal_code } : {}), ...(okrug ? { addressRegion: okrug.name_lat } : {}), addressCountry: "RS" } } : {}),
+    ...(loc?.lat != null && loc?.lng != null && !PERSON_TYPES.has(org.type_slug) ? { geo: { "@type": "GeoCoordinates", latitude: loc.lat, longitude: loc.lng } } : {}),
+    ...(phones[0] ? { telephone: phones[0].value } : {}), ...(emails[0] ? { email: emails[0].value } : {}), ...(site ? { sameAs: site.startsWith("http") ? site : `https://${site}` } : {}),
+    ...(openRows.length ? { openingHoursSpecification: openRows.map((h) => ({ "@type": "OpeningHoursSpecification", dayOfWeek: DOW[h.day_of_week - 1], opens: h.opens.slice(0, 5), closes: h.closes.slice(0, 5) })) } : {}),
+    ...(coverage.length ? { areaServed: coverage.slice(0, 30).map((c) => ({ "@type": "AdministrativeArea", name: c.name_lat })) } : {}),
+  };
   return (
     <main id="main">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(orgLd) }} />
       <section className="hero-light border-b border-line"><div className="shell py-7 sm:py-9">
-      <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, ...(jls ? [{ href: href(locale, `/${jls.slug}`), label: jls.name_lat }] : []), { href: href(locale, `/${org.type_slug}`), label: type.name_lat }, ...(loc && !loc.is_primary ? [{ href: orgHref(locale, org), label: org.name_lat }, { label: loc.unit_name_lat }] : [{ label: org.name_lat }])]} />
-      <div className="eyebrow mt-4">{type.name_lat}{jls ? ` · ${jls.name_lat}` : ""}</div>
-      <div className="hub-head-org"><EmblemStage emblem={emblemFor(type.slug, type.icon)} title={type.name_lat} size={200} cls="estage-org" /><h1 className="font-serif text-[28px] sm:text-[36px] font-semibold leading-[1.12]">{title}</h1></div>
-      <p className="text-muted mt-2 text-[14px]">{org.official_name_lat && org.official_name_lat.toLowerCase() !== org.name_lat.toLowerCase() ? org.official_name_lat : type.name_lat}{showFounder ? ` · ${d.founder}: ` : jls ? ` · ${jls.name_lat}` : ""}{showFounder && org.founder_slug ? <Link href={href(locale, `/${org.founder_slug}`)}>{org.founder_name}</Link> : null}</p>
+      <Breadcrumbs locale={locale} items={[{ href: href(locale, "/"), label: d.home }, ...(jls ? [{ href: href(locale, `/${jls.slug}`), label: jls.name_lat }] : []), { href: href(locale, `/${org.type_slug}`), label: tn(type, locale) }, ...(loc && !loc.is_primary ? [{ href: orgHref(locale, org), label: org.name_lat }, { label: loc.unit_name_lat }] : [{ label: org.name_lat }])]} />
+      <div className="eyebrow mt-4">{typeSing}{jls ? ` · ${jls.name_lat}` : ""}</div>
+      <div className="hub-head-org"><EmblemStage emblem={emblemFor(type.slug, type.icon)} title={typeSing} size={200} cls="estage-org" /><h1 className="font-serif text-[28px] sm:text-[36px] font-semibold leading-[1.12]">{title}</h1></div>
+      <p className="text-muted mt-2 text-[14px]">{org.official_name_lat && org.official_name_lat.toLowerCase() !== org.name_lat.toLowerCase() ? org.official_name_lat : typeSing}{showFounder ? ` · ${d.founder}: ` : jls ? " · " : ""}{showFounder ? (org.founder_slug ? <Link href={href(locale, `/${org.founder_slug}`)}>{org.founder_name}</Link> : org.founder_name) : jls ? <Link href={href(locale, `/${jls.slug}`)}>{jls.name_lat}</Link> : null}</p>
       <div className="mt-2 flex items-center gap-3 flex-wrap"><VerificationChip state={loc?.verification ?? org.verification} locale={locale} />{org.is_private && <Chip>{locale === "sr" ? "Privatna ustanova" : locale === "en" ? "Private institution" : locale === "ru" ? "Частное учреждение" : "Private Einrichtung"}</Chip>}<a href="#izmeni" className="text-[12.5px]">{d.editData}</a></div>
       </div></section>
       <div className="shell">
       <div className="sticky top-[69px] z-10 -mx-4 px-4 py-2.5 bg-bg/95 backdrop-blur border-b border-line lg:static lg:bg-transparent lg:border-0 lg:p-0 lg:m-0 lg:mt-5">
         <div className="flex flex-wrap items-center gap-2">
           {phones[0] ? <a href={`tel:${phones[0].value}`} className="btn-primary"><Icon.phone /> {d.call} {phones[0].value_display ?? phones[0].value}</a>
-                     : <span className="inline-flex items-center gap-1.5 rounded-[10px] bg-surface-2 text-muted px-3.5 py-2 text-[13.5px]"><Icon.phone /> {locale === "sr" ? "Telefon nije poznat" : "Phone unknown"}</span>}
+                     : <span className="inline-flex items-center gap-1.5 rounded-[10px] bg-surface-2 text-muted px-3.5 py-2 text-[13.5px]"><Icon.phone /> {pick(locale, "Telefon nije poznat", "Phone unknown", "Телефон неизвестен", "Telefon unbekannt")}</span>}
           <a href={`https://www.google.com/maps/search/?api=1&query=${mapsQ}`} rel="noopener nofollow" target="_blank" className="quick-chip !py-2 !rounded-[10px] font-medium"><Icon.pin /> {d.directions}</a>
           {site && <a href={site.startsWith("http") ? site : `https://${site}`} rel="noopener" target="_blank" className="quick-chip !py-2 !rounded-[10px] font-medium">{d.website} ↗</a>}
         </div>
       </div>
-      <AdSlot code="loc_top_leaderboard" w={728} h={90} mobileH={100} label={d.ad} />
+      <AdSlot locale={locale} code="loc_top_leaderboard" w={728} h={90} mobileH={100} label={d.ad} />
       <div className="grid lg:grid-cols-[minmax(0,1fr)_300px] gap-8 items-start mt-2">
         <div className="min-w-0">
           <section data-reveal data-fx="flip" className="card is-contact stack p-4 sm:p-5">
             <SectionTitle>{d.contactAndAddress}</SectionTitle>
             <dl className="grid grid-cols-[96px_minmax(0,1fr)] gap-x-3 gap-y-1.5 text-[14px]">
-              <dt className="text-muted">{d.address}</dt><dd>{placeLine ?? <span className="text-muted">{loc ? `${loc.tu_name_lat}${okrug ? `, ${okrug.name_lat}` : ""} · ${locale === "sr" ? "tačna adresa još nije uneta" : "exact address not yet entered"}` : d.noData}</span>}</dd>
+              <dt className="text-muted">{d.address}</dt><dd>{placeLine ?? <span className="text-muted">{loc ? `${loc.tu_name_lat}${okrug ? `, ${okrug.name_lat}` : ""} · ${pick(locale, "tačna adresa još nije uneta", "exact address not yet entered", "точный адрес пока не указан", "genaue Adresse noch nicht erfasst")}` : d.noData}</span>}</dd>
               <dt className="text-muted">{d.phone}</dt><dd className="tabular">{phones.length ? phones.map((p) => <div key={p.value}><a href={`tel:${p.value}`}>{p.value_display ?? p.value}</a>{p.label ? <span className="text-muted"> ({p.label})</span> : null}</div>) : <span className="text-muted">—</span>}</dd>
               <dt className="text-muted">{d.email}</dt><dd>{emails.length ? emails.map((e) => <div key={e.value}><a href={`mailto:${e.value}`}>{e.value}</a></div>) : <span className="text-muted">—</span>}</dd>
               <dt className="text-muted">{d.website}</dt><dd className="break-all">{site ? <a href={site.startsWith("http") ? site : `https://${site}`} rel="noopener">{site.replace(/^https?:\/\//, "")}</a> : <span className="text-muted">—</span>}</dd>
@@ -678,7 +723,7 @@ export async function OrgPage({ locale, org, locSlug, path }: { locale: Locale; 
               </dl>
             )}
           </section>
-          {sponsor && <div className="my-5"><SponsorCard label={d.sponsor} sponsor={sponsor} /></div>}
+          {sponsor && <div className="my-5"><SponsorCard locale={locale} label={d.sponsor} sponsor={sponsor} /></div>}
           <section data-reveal data-fx="flip" className="card ledger p-4 sm:p-5">
             <SectionTitle>{d.hours}</SectionTitle>
             {hours.length ? (
@@ -688,23 +733,23 @@ export async function OrgPage({ locale, org, locSlug, path }: { locale: Locale; 
                     <td className="py-1">{rows.map((h) => <div key={h.day_of_week}>{DAYS[h.day_of_week - 1]} {h.opens.slice(0, 5)}–{h.closes.slice(0, 5)}{h.note ? ` (${h.note})` : ""}</div>)}</td></tr>
                 ))}</tbody></table>
             ) : loc?.hours_text ? <p className="text-[14px]">{loc.hours_text}</p>
-              : <p className="text-[14px] text-muted">{locale === "sr" ? "Radno vreme još nije uneto. Ako ga znate, " : "Opening hours not yet entered. If you know them, "}<a href="#izmeni">{d.editData.toLowerCase()}</a>.</p>}
+              : <p className="text-[14px] text-muted">{pick(locale, "Radno vreme još nije uneto. Ako ga znate, ", "Opening hours not yet entered. If you know them, ", "Часы работы пока не указаны. Если вы их знаете, ", "Öffnungszeiten noch nicht erfasst. Wenn Sie sie kennen, ")}<a href="#izmeni">{d.editData.toLowerCase()}</a>.</p>}
           </section>
           {(coverage.length > 0 || locations.length > 1 || org.parent_name || children.length > 0) && (
             <section data-reveal data-fx="flip" className="card p-4 sm:p-5 mt-5">
               <SectionTitle>{d.jurisdiction}</SectionTitle>
               {coverage.length > 0 && <p className="text-[14px]">{d.coveredAreas}: <span className="inline-flex flex-wrap gap-1.5 align-middle">{coverage.map((c) => <Link key={c.slug} href={tuHref(locale, c)} className="rounded-full border border-line bg-surface px-2.5 py-0.5 text-[12.5px] no-underline text-ink">{c.name_lat}</Link>)}</span></p>}
-              {locations.length > 1 && <div className="mt-3 text-[14px]"><span className="text-muted">{d.units}:</span> {locations.filter((l) => !loc || l.location_id !== loc.location_id).slice(0, 40).map((l, i) => <span key={l.location_id}>{i > 0 && " · "}<Link href={href(locale, `/${org.type_slug}/${org.slug}/${l.location_slug}`)}>{l.unit_name_lat}</Link></span>)}{locations.length > 41 ? ` … (${locations.length})` : ""}</div>}
+              {locations.length > 1 && <div className="mt-3 text-[14px]"><span className="text-muted">{d.units}:</span> {locations.filter((l) => !loc || l.location_id !== loc.location_id).slice(0, 40).map((l, i) => <span key={l.location_id}>{i > 0 && " · "}<Link href={href(locale, `/${org.type_slug}/${org.slug}/${l.location_slug}`)}>{unitName(l.unit_name_lat, locale)}</Link></span>)}{locations.length > 41 ? ` … (${locations.length})` : ""}</div>}
               {org.parent_name && org.parent_slug && org.parent_type_slug && <div className="mt-3 text-[14px]"><span className="text-muted">{d.parentUnit}:</span> <Link href={href(locale, `/${org.parent_type_slug}/${org.parent_slug}`)}>{org.parent_name}</Link></div>}
-              {children.length > 0 && <div className="mt-3 text-[14px]"><span className="text-muted">{locale === "sr" ? "U sastavu" : "Subordinate bodies"}:</span> {children.slice(0, 30).map((c, i) => <span key={c.id}>{i > 0 && " · "}<Link href={orgHref(locale, c)}>{c.name_lat}</Link></span>)}{children.length > 30 ? ` … (${children.length})` : ""}</div>}
+              {children.length > 0 && <div className="mt-3 text-[14px]"><span className="text-muted">{pick(locale, "U sastavu", "Subordinate bodies", "Подчинённые органы", "Nachgeordnete Stellen")}:</span> {children.slice(0, 30).map((c, i) => <span key={c.id}>{i > 0 && " · "}<Link href={orgHref(locale, c)}>{c.name_lat}</Link></span>)}{children.length > 30 ? ` … (${children.length})` : ""}</div>}
             </section>
           )}
-          {vertical && <LeadForm locale={locale} vertical={vertical} context={{ page_path: path, location_id: loc?.location_id ?? null, territorial_unit_id: jls?.id ?? null }} />}
+          {vertical && <LeadForm locale={locale} vertical={{ ...vertical, name_lat: tx(vertical.name_lat, locale), pitch_lat: tx(vertical.pitch_lat, locale) }} context={{ page_path: path, location_id: loc?.location_id ?? null, territorial_unit_id: jls?.id ?? null }} />}
           <section data-reveal data-fx="flip" className="card p-4 sm:p-5">
             <SectionTitle>{d.about}</SectionTitle>
             <div className="prose text-[14.5px]">
-              {type.description_md ? <p>{type.description_md}</p> : (
-                <p>{org.name_lat} {locale === "sr" ? `je ${type.name_lat.toLowerCase()}` : locale === "en" ? `is a ${type.name_lat.toLowerCase()}` : locale === "ru" ? `— ${type.name_lat.toLowerCase()}` : `ist ${type.name_lat.toLowerCase()}`}{showFounder ? ` (${d.founder.toLowerCase()}: ${org.founder_name})` : ""}{jls ? `, ${jls.name_lat}${okrug ? `, ${okrug.name_lat}` : ""}` : ""}. {sourceNames.length
+              {type.description_md ? <p>{tx(type.description_md, locale)}</p> : (
+                <p>{org.name_lat} {locale === "sr" ? `je ${type.name_lat.toLowerCase()}` : locale === "en" ? `is listed under: ${tn(type, locale)}` : locale === "ru" ? `— категория: ${tn(type, locale)}` : `ist eingetragen unter: ${tn(type, locale)}`}{showFounder ? ` (${d.founder.toLowerCase()}: ${org.founder_name})` : ""}{jls ? `, ${jls.name_lat}${okrug ? `, ${okrug.name_lat}` : ""}` : ""}. {sourceNames.length
                   ? (locale === "sr" ? `Podaci potiču iz zvaničnog izvora: ${sourceNames.join("; ")}. Adresu, telefon i radno vreme dopunjujemo iz zvaničnih sajtova i prijava korisnika.` : locale === "en" ? `The data comes from an official source: ${sourceNames.join("; ")}. Address, phone and hours are completed from official sites and user reports.` : locale === "ru" ? `Данные взяты из официального источника: ${sourceNames.join("; ")}. Адрес, телефон и часы работы дополняются по официальным сайтам и сообщениям пользователей.` : `Die Daten stammen aus einer offiziellen Quelle: ${sourceNames.join("; ")}. Adresse, Telefon und Öffnungszeiten werden aus offiziellen Websites und Nutzerhinweisen ergänzt.`)
                   : (locale === "sr" ? "Podatke dopunjujemo iz zvaničnih sajtova i prijava korisnika." : locale === "en" ? "Details are completed from official sites and user reports." : locale === "ru" ? "Данные дополняются по официальным сайтам и сообщениям пользователей." : "Die Angaben werden aus offiziellen Websites und Nutzerhinweisen ergänzt.")}</p>
               )}
@@ -718,22 +763,22 @@ export async function OrgPage({ locale, org, locSlug, path }: { locale: Locale; 
               {jls && <p className="mt-3 text-[14px]"><Link href={href(locale, `/${jls.slug}`)}>{d.allInstitutions} · {jls.name_lat} →</Link></p>}
             </section>
           )}
-          <CorrectionBlock locale={locale} entityType={loc ? "location" : "organization"} entityId={loc?.location_id ?? org.id} pagePath={path} lastChecked={loc?.last_seen_at ?? org.last_seen_at} sources={sourceNames.length ? sourceNames : [locale === "sr" ? "zvanični sajt institucije" : "the institution's official site"]} />
+          <CorrectionBlock locale={locale} entityType={loc ? "location" : "organization"} entityId={loc?.location_id ?? org.id} pagePath={path} lastChecked={loc?.last_seen_at ?? org.last_seen_at} sources={sourceNames.length ? sourceNames : [pick(locale, "zvanični sajt institucije", "the institution's official site", "официальный сайт учреждения", "offizielle Website der Einrichtung")]} />
           <ClaimBlock locale={locale} orgId={org.id} locationId={loc?.location_id ?? null} />
         </div>
         <aside className="lg:sticky lg:top-20 grid gap-5">
           {country && (
             <Link href={href(locale, `/vize/${country.slug}`)} className="card p-4 no-underline text-ink flex items-center gap-4 card-hover spot">
-              <Passport iso2={country.iso2} name={locale === "sr" ? country.name_sr : country.name_en} size={64} label={locale === "sr" ? "PASOŠ" : "PASSPORT"} />
+              <Passport iso2={country.iso2} name={locale === "sr" ? country.name_sr : country.name_en} size={64} label={pick(locale, "PASOŠ", "PASSPORT", "ПАСПОРТ", "REISEPASS")} />
               <span className="min-w-0"><span className="eyebrow plain">{locale === "sr" ? "Vize i uslovi ulaska" : locale === "en" ? "Visas and entry rules" : locale === "ru" ? "Визы и въезд" : "Visa und Einreise"}</span>
                 <span className="block font-serif text-[18px] font-semibold mt-1">{locale === "sr" ? country.name_sr : country.name_en} →</span>
-                <span className="block text-[12.5px] text-muted mt-1">{locale === "sr" ? "Ulazak u Srbiju" : "Entering Serbia"}: {country.to_rs_regime ?? "—"} · {locale === "sr" ? "iz Srbije" : "from Serbia"}: {country.from_rs_regime ?? "—"}</span></span>
+                <span className="block text-[12.5px] text-muted mt-1">{pick(locale, "Ulazak u Srbiju", "Entering Serbia", "Въезд в Сербию", "Einreise nach Serbien")}: {country.to_rs_regime ?? "—"} · {pick(locale, "iz Srbije", "from Serbia", "из Сербии", "aus Serbien")}: {country.from_rs_regime ?? "—"}</span></span>
             </Link>
           )}
           {typeGuides.length > 0 && <div className="card p-4"><GuideLinks locale={locale} guides={typeGuides} jlsSlug={jls?.slug} stacked /></div>}
-          <SponsorCard label={d.sponsor} sponsor={null} compact />
-          {jls && <div className="card p-4 text-[13.5px]"><div className="eyebrow mb-2">{d.otherUnits}</div><Link href={href(locale, `/${org.type_slug}`)}>{tn(type, locale)}</Link><div className="mt-1"><Link href={href(locale, `/${jls.slug}`)}>{d.allInstitutions} · {jls.name_lat}</Link></div>{okrug && <div className="mt-1"><Link href={href(locale, `/okrug/${okrug.slug}`)}>{okrug.name_lat}</Link></div>}</div>}
-          <div className="hidden xl:block"><AdSlot code="loc_sidebar_programmatic" w={300} h={600} label={d.ad} /></div>
+          <SponsorCard locale={locale} label={d.sponsor} sponsor={null} compact />
+          {jls && <div className="card p-4 text-[13.5px]"><div className="eyebrow mb-2">{d.otherUnits}</div>{!type.national_network && !type.one_per_jls && <div className="mb-1"><a href={`${href(locale, `/${org.type_slug}`)}?mesto=${jls.slug}#lista`}>{tn(type, locale)} · {jls.name_lat}</a></div>}<Link href={href(locale, `/${org.type_slug}`)}>{tn(type, locale)} · {pick(locale, "cela Srbija", "all of Serbia", "вся Сербия", "ganz Serbien")}</Link><div className="mt-1"><Link href={href(locale, `/${jls.slug}`)}>{d.allInstitutions} · {jls.name_lat}</Link></div>{okrug && <div className="mt-1"><Link href={href(locale, `/okrug/${okrug.slug}`)}>{okrug.name_lat}</Link></div>}</div>}
+          <div className="hidden xl:block"><AdSlot locale={locale} code="loc_sidebar_programmatic" w={300} h={600} label={d.ad} /></div>
         </aside>
       </div>
       </div>
@@ -742,35 +787,6 @@ export async function OrgPage({ locale, org, locSlug, path }: { locale: Locale; 
 }
 
 // ---------------------------------------------------------------- Search
-export async function SearchPage({ locale, q }: { locale: Locale; q: string }) {
-  const d = t(locale);
-  const hits = q.trim().length >= 2 ? await db.search(q.trim()) : [];
-  return (
-    <main id="main">
-      <section className="hero-light border-b border-line"><div className="shell py-8 sm:py-10">
-        <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, { label: d.search }]} />
-        <h1 className="font-serif text-[26px] sm:text-[32px] font-semibold mt-4">{q ? <>{d.results} „{q}“</> : d.search}</h1>
-        <div className="mt-4"><SearchBox locale={locale} defaultValue={q} large placeholder={d.searchPlaceholder} submitLabel={d.search} /></div>
-      </div></section>
-      <div className="shell py-8">
-      {hits.length === 0 ? <p className="text-muted">{q ? d.noResults : ""}</p> : (
-        <ul className="grid gap-2 max-w-3xl">
-          {hits.map((h, i) => (
-            <li key={i} className="card card-hover px-4 py-3 flex items-start gap-3">
-              <span className="icon-badge !w-9 !h-9 shrink-0 mt-0.5">{h.kind === "tu" ? <Icon.pin /> : <Icon.landmark />}</span>
-              <div className="min-w-0">
-                <Link href={h.kind === "tu" ? href(locale, `/${h.slug}`) : href(locale, `/${h.type_slug}/${h.slug}`)} className="font-medium no-underline text-ink text-[15px] hover:text-accent">{h.name_lat}</Link>
-                <div className="text-[12.5px] text-muted">{h.kind === "tu" ? (h.sub ?? d.municipality) : h.sub}</div>
-              </div>
-            </li>
-          ))}
-        </ul>
-      )}
-      </div>
-    </main>
-  );
-}
-
 // ---------------------------------------------------------------- For foreigners
 export async function ForForeigners({ locale }: { locale: Locale }) {
   const d = t(locale); const g = GUIDE[locale];
@@ -779,29 +795,35 @@ export async function ForForeigners({ locale }: { locale: Locale }) {
   return (
     <main id="main">
       <section className="band-primary border-b border-line"><div className="shell py-10 sm:py-14">
-        <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, { label: d.forForeigners }]} />
+        <Breadcrumbs locale={locale} items={[{ href: href(locale, "/"), label: d.home }, { label: d.forForeigners }]} />
         <div className="eyebrow plain mt-4">{d.forForeigners} · English · Русский · Deutsch</div>
         <h1 className="font-serif text-[30px] sm:text-[40px] font-semibold mt-1 max-w-3xl leading-[1.1]">{g.title}</h1>
         <p className="mt-3 max-w-3xl text-[16px]">{g.lead}</p>
-        {newcomer.length > 0 && <div className="mt-6 flex flex-wrap gap-2">{newcomer.map((x) => { const c = x.guide[locale] ?? x.guide.en ?? x.guide.sr ?? {}; return <Link key={x.id} href={href(locale, `/vodic/${x.slug}`)} className="inline-flex items-center rounded-full bg-white/12 hover:bg-white/22 border border-white/25 text-white px-3.5 py-1.5 text-[13.5px] no-underline">{c.title ?? x.name_lat} →</Link>; })}</div>}
+        {newcomer.length > 0 && <div className="mt-6 flex flex-wrap gap-2">{newcomer.map((x) => { const c = x.guide[locale] ?? x.guide.en ?? x.guide.sr ?? {}; return <Link key={x.id} href={href(locale, `/vodic/${x.slug}`)} className="inline-flex items-center rounded-full bg-white/12 hover:bg-white/22 border border-white/25 text-white px-3.5 py-1.5 text-[13.5px] no-underline">{c.title ?? x.name_lat} →</Link>; })}<Link href={href(locale, "/vize")} className="inline-flex items-center rounded-full bg-white/12 hover:bg-white/22 border border-white/25 text-white px-3.5 py-1.5 text-[13.5px] no-underline">{pick(locale, "Vize i uslovi ulaska", "Visas and entry rules", "Визы и въезд", "Visa und Einreise")} →</Link></div>}
       </div></section>
       <div className="shell py-10">
-      <ol className="grid md:grid-cols-2 gap-4">
+      <section className="mb-10">
+        <SectionTitle>{ROAD_LABELS[locale].title}</SectionTitle>
+        <p className="text-muted text-[14.5px] max-w-[62ch] mb-4">{ROAD_LABELS[locale].lead}</p>
+        <RoadTiles locale={locale} />
+      </section>
+      <SectionTitle>{pick(locale, "Institucije sa kojima ćete imati posla", "Offices you will deal with", "Учреждения, в которые вы будете обращаться", "Stellen, mit denen Sie zu tun haben")}</SectionTitle>
+      <ul className="grid md:grid-cols-2 gap-4">
         {g.steps.map((s, i) => {
           const ty = types.find((x) => x.slug === s.type);
           return (
             <li key={i} className="card card-hover p-5 flex gap-4">
-              <span className="shrink-0 w-9 h-9 rounded-full bg-accent text-white grid place-items-center font-semibold text-[13px]">{i + 1}</span>
+              {ty ? <Glyph3D icon={emblemFor(ty.slug, ty.icon)} size={52} className="shrink-0" /> : null}
               <div className="min-w-0">
                 <div className="eyebrow">{s.where}</div>
                 <h2 className="font-semibold text-[17px] mt-0.5">{s.title}</h2>
                 <p className="text-[14px] text-muted mt-1.5">{s.body}</p>
-                {ty && <Link href={href(locale, `/${ty.slug}`)} className="inline-block mt-3 text-[14px] font-medium">{tn(ty, locale)} ({ty.org_count}) →</Link>}
+                {ty && <Link href={href(locale, `/${ty.slug}`)} className="inline-block mt-3 text-[14px] font-medium">{tn(ty, locale)}{ty.national_network ? "" : ` (${ty.org_count.toLocaleString(locale === "sr" ? "sr-Latn" : locale)})`} →</Link>}
               </div>
             </li>
           );
         })}
-      </ol>
+      </ul>
       <p className="text-[12.5px] text-muted mt-8 max-w-3xl">{g.disclaimer}</p>
       </div>
     </main>
@@ -811,16 +833,28 @@ export async function ForForeigners({ locale }: { locale: Locale }) {
 export function StaticPage({ locale, slug }: { locale: Locale; slug: string }) {
   const d = t(locale);
   const pages: Record<string, { title: string; body: string[] }> = {
-    "o-sajtu": { title: d.aboutSite, body: ["Gde da idem? je nezavisni, privatni imenik svih institucija u Srbiji: republičkih organa, lokalne samouprave, javnih preduzeća, ustanova, sudova, javnih beležnika i izvršitelja.", "Podaci potiču iz zvaničnih registara (Uprava za trezor – Evidencija KJS, RZS, RGZ) i zvaničnih sajtova institucija, i dopunjuju se prijavama korisnika. Sajt nije državni servis i ne zastupa nijednu instituciju.", "Finansira se oglasima, sponzorstvima lokalnih firmi i posredovanjem upita ka proverenim partnerima; svaki plaćeni sadržaj je obeležen."] },
-    partneri: { title: d.becomePartner, body: ["Lokalne firme mogu zakupiti sponzorsko mesto na stranicama institucija u svom gradu (jedan sponzor po stranici), ili primati upite korisnika iz svoje oblasti (knjigovodstvo, advokatura, geodezija, osiguranje, prevodi).", "Cenovnik zavisi od posećenosti stranica koje vas zanimaju; javite se preko kontakt forme ili na email naveden u podnožju."] },
-    privatnost: { title: d.privacy, body: ["Sajt ne koristi kolačiće za praćenje; analitika je anonimna. Oglasne mreže (Google AdSense) mogu koristiti kolačiće u skladu sa svojim politikama; posetiocima iz EU prikazuje se izbor saglasnosti.", "Podaci iz forme za upit (ime, telefon, email, poruka) prosleđuju se jednom partneru radi odgovora i brišu se najkasnije 180 dana od slanja. Rukovalac podacima je operator sajta; zahtev za brisanje pošaljite na email u podnožju.", "Podaci o institucijama su javni podaci o organima javne vlasti; zahtev za ispravku možete poslati sa svake stranice."] },
+    "o-sajtu": { title: d.aboutSite, body: pick<string[]>(locale,
+      ["Gde da idem? je nezavisni, privatni imenik svih institucija u Srbiji: republičkih organa, lokalne samouprave, javnih preduzeća, ustanova, sudova, javnih beležnika i izvršitelja.", "Podaci potiču iz zvaničnih registara (Uprava za trezor – Evidencija KJS, RZS, RGZ) i zvaničnih sajtova institucija, i dopunjuju se prijavama korisnika. Sajt nije državni servis i ne zastupa nijednu instituciju.", "Finansira se oglasima, sponzorstvima lokalnih firmi i posredovanjem upita ka proverenim partnerima; svaki plaćeni sadržaj je obeležen."],
+      ["Gde da idem? is an independent, privately run directory of all institutions in Serbia: national bodies, local government, public enterprises, public institutions, courts, notaries and enforcement agents.", "The data comes from official registers (Treasury Administration – register of public funds users, the Statistical Office, the Geodetic Authority) and from the institutions' official websites, and is completed through user reports. The site is not a government service and does not represent any institution.", "It is funded by advertising, sponsorships by local businesses and by passing enquiries on to vetted partners; all paid content is labelled."],
+      ["Gde da idem? — независимый частный справочник всех учреждений Сербии: республиканских органов, местного самоуправления, государственных предприятий, учреждений, судов, нотариусов и судебных исполнителей.", "Данные берутся из официальных реестров (Казначейство – реестр получателей бюджетных средств, Статистическое управление, Геодезическое управление) и с официальных сайтов учреждений и дополняются по сообщениям пользователей. Сайт не является государственным сервисом и не представляет ни одно учреждение.", "Он финансируется за счёт рекламы, спонсорства местных компаний и передачи запросов проверенным партнёрам; весь платный контент помечен."],
+      ["Gde da idem? ist ein unabhängiges, privat betriebenes Verzeichnis aller Einrichtungen in Serbien: staatliche Stellen, Kommunalverwaltung, öffentliche Unternehmen, öffentliche Einrichtungen, Gerichte, Notare und Vollstreckungsbeamte.", "Die Daten stammen aus amtlichen Registern (Schatzamt – Verzeichnis der Empfänger öffentlicher Mittel, Statistikamt, Geodätische Behörde) und von den offiziellen Websites der Einrichtungen und werden durch Hinweise von Nutzern ergänzt. Die Website ist kein staatlicher Dienst und vertritt keine Einrichtung.", "Sie finanziert sich durch Werbung, Sponsoring lokaler Unternehmen und die Weitergabe von Anfragen an geprüfte Partner; jeder bezahlte Inhalt ist gekennzeichnet."]) },
+    partneri: { title: d.becomePartner, body: pick<string[]>(locale,
+      ["Lokalne firme mogu zakupiti sponzorsko mesto na stranicama institucija u svom gradu (jedan sponzor po stranici), ili primati upite korisnika iz svoje oblasti (knjigovodstvo, advokatura, geodezija, osiguranje, prevodi).", "Cenovnik zavisi od posećenosti stranica koje vas zanimaju; javite se preko kontakt forme ili na email naveden u podnožju."],
+      ["Local businesses can book a sponsor spot on institution pages in their city (one sponsor per page), or receive enquiries from users in their field (accounting, legal services, surveying, insurance, translation).", "Prices depend on the traffic of the pages you are interested in; get in touch through the contact form or at the email address in the footer."],
+      ["Местные компании могут арендовать спонсорское место на страницах учреждений своего города (один спонсор на страницу) или получать запросы пользователей по своей теме (бухгалтерия, юридические услуги, геодезия, страхование, переводы).", "Цены зависят от посещаемости интересующих вас страниц; напишите через форму обратной связи или на электронную почту, указанную внизу страницы."],
+      ["Lokale Unternehmen können auf den Seiten der Einrichtungen in ihrer Stadt einen Sponsorenplatz buchen (ein Sponsor pro Seite) oder Anfragen von Nutzern aus ihrem Fachgebiet erhalten (Buchhaltung, Rechtsberatung, Vermessung, Versicherung, Übersetzungen).", "Die Preise hängen von den Besucherzahlen der Seiten ab, die Sie interessieren; schreiben Sie uns über das Kontaktformular oder an die E-Mail-Adresse in der Fußzeile."]) },
+    privatnost: { title: d.privacy, body: pick<string[]>(locale,
+      ["Sajt ne koristi kolačiće za praćenje; analitika je anonimna. Oglasne mreže (Google AdSense) mogu koristiti kolačiće u skladu sa svojim politikama; posetiocima iz EU prikazuje se izbor saglasnosti.", "Podaci iz forme za upit (ime, telefon, email, poruka) prosleđuju se jednom partneru radi odgovora i brišu se najkasnije 180 dana od slanja. Rukovalac podacima je operator sajta; zahtev za brisanje pošaljite na email u podnožju.", "Podaci o institucijama su javni podaci o organima javne vlasti; zahtev za ispravku možete poslati sa svake stranice."],
+      ["The site does not use tracking cookies; analytics are anonymous. Advertising networks (Google AdSense) may use cookies in line with their own policies; visitors from the EU are shown a consent choice.", "Data from the enquiry form (name, phone, email, message) is passed to one partner so that they can reply, and is deleted no later than 180 days after it is sent. The data controller is the site operator; send a deletion request to the email address in the footer.", "The data about institutions is public data about public authorities; you can send a correction request from every page."],
+      ["Сайт не использует cookie для отслеживания; аналитика анонимна. Рекламные сети (Google AdSense) могут использовать cookie в соответствии со своей политикой; посетителям из ЕС показывается выбор согласия.", "Данные из формы запроса (имя, телефон, электронная почта, сообщение) передаются одному партнёру для ответа и удаляются не позднее чем через 180 дней после отправки. Оператором данных является владелец сайта; запрос на удаление отправьте на электронную почту, указанную внизу страницы.", "Данные об учреждениях — это общедоступные сведения об органах публичной власти; запрос на исправление можно отправить с любой страницы."],
+      ["Die Website verwendet keine Tracking-Cookies; die Analyse ist anonym. Werbenetzwerke (Google AdSense) können Cookies gemäß ihren eigenen Richtlinien verwenden; Besuchern aus der EU wird eine Einwilligungsauswahl angezeigt.", "Die Angaben aus dem Anfrageformular (Name, Telefon, E-Mail, Nachricht) werden zur Beantwortung an einen Partner weitergegeben und spätestens 180 Tage nach dem Absenden gelöscht. Verantwortlicher für die Daten ist der Betreiber der Website; einen Löschantrag senden Sie bitte an die E-Mail-Adresse in der Fußzeile.", "Die Angaben zu Einrichtungen sind öffentliche Daten über Behörden; einen Korrekturwunsch können Sie von jeder Seite aus senden."]) },
   };
   const p = pages[slug];
   if (!p) return null;
   return (
     <main id="main">
       <section className="hero-light border-b border-line"><div className="shell py-8 sm:py-10">
-        <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, { label: p.title }]} />
+        <Breadcrumbs locale={locale} items={[{ href: href(locale, "/"), label: d.home }, { label: p.title }]} />
         <h1 className="font-serif text-[30px] sm:text-[38px] font-semibold mt-4">{p.title}</h1>
       </div></section>
       <div className="shell py-8"><div className="prose max-w-3xl text-[15.5px] leading-relaxed">{p.body.map((x, i) => <p key={i}>{x}</p>)}</div></div>

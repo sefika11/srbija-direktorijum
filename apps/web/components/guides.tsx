@@ -1,6 +1,8 @@
 import Link from "next/link";
+import { tx } from "@/lib/content-i18n";
+import { catName } from "@/lib/guide-cats";
 import * as db from "@/lib/db";
-import { href, t, type Locale, tn } from "@/lib/i18n";
+import { href, t, pick, type Locale, tn } from "@/lib/i18n";
 import { AdSlot, Breadcrumbs, SectionTitle } from "./ui";
 import { LeadForm, CorrectionBlock } from "./forms";
 import { Icon } from "./icons";
@@ -46,7 +48,7 @@ export function content(g: db.GuideRow, locale: Locale): { c: db.GuideContent; l
   const own = Object.fromEntries(Object.entries(g.guide[locale] ?? {}).filter(([, v]) => v != null && v !== "" && !(Array.isArray(v) && v.length === 0)));
   return { c: { ...(g.guide[body] ?? {}), ...own }, lang: body };
 }
-const fmtRsd = (n: number) => n.toLocaleString("sr-Latn", { maximumFractionDigits: 0 });
+const fmtRsd = (n: number, locale: Locale) => n.toLocaleString(locale === "sr" ? "sr-Latn" : locale, { maximumFractionDigits: 0 });
 function compactHours(rows: db.Hours[], locale: Locale): string[] {
   const pref = rows.filter((r) => r.hours_type === "rad_sa_strankama"); const use = pref.length ? pref : rows;
   const out: string[] = []; let run: { from: number; to: number; o: string; c: string } | null = null;
@@ -65,11 +67,11 @@ export async function GuidesHub({ locale }: { locale: Locale }) {
   const d = t(locale); const L = GUIDE_LABELS[locale];
   const guides = await db.getGuides();
   const cats = new Map<string, { name: string; items: db.GuideRow[] }>();
-  for (const g of guides) { const c = cats.get(g.category_slug) ?? { name: g.category_name, items: [] }; c.items.push(g); cats.set(g.category_slug, c); }
+  for (const g of guides) { const c = cats.get(g.category_slug) ?? { name: catName(g, locale), items: [] }; c.items.push(g); cats.set(g.category_slug, c); }
   return (
     <main id="main">
       <section className="hero-light border-b border-line"><div className="shell py-10 sm:py-14">
-        <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, { label: L.guides }]} />
+        <Breadcrumbs locale={locale} items={[{ href: href(locale, "/"), label: d.home }, { label: L.guides }]} />
         <h1 className="font-serif text-[32px] sm:text-[40px] font-semibold leading-[1.1] mt-4 max-w-3xl">{L.guides}</h1>
         <p className="text-muted mt-3 text-[16px] max-w-2xl">{L.guidesLead}</p>
       </div></section>
@@ -130,15 +132,15 @@ export async function GuidePage({ locale, guide, jlsSlug, path }: { locale: Loca
     <main id="main">
       {faqLd && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />}
       <section className="hero-light border-b border-line"><div className="shell py-8 sm:py-12">
-        <Breadcrumbs items={[{ href: href(locale, "/"), label: d.home }, { href: href(locale, "/vodici"), label: L.guides }, { label: guide.category_name }]} />
+        <Breadcrumbs locale={locale} items={[{ href: href(locale, "/"), label: d.home }, { href: href(locale, "/vodici"), label: L.guides }, { label: catName(guide, locale) }]} />
         <div className={`grid lg:grid-cols-[minmax(0,1fr)_380px] gap-8 mt-4 ${doc ? "items-center" : "items-end"}`}>
           <div>
-            <div className="eyebrow text-accent-ink">{guide.category_name}</div>
+            <div className="eyebrow text-accent-ink">{catName(guide, locale)}</div>
             <h1 className="font-serif text-[30px] sm:text-[40px] font-semibold leading-[1.1] mt-1">{title}</h1>
             {(c.summary ?? guide.summary) && <p className="text-muted mt-3 text-[16px] max-w-2xl">{c.summary ?? guide.summary}</p>}
             <div className="mt-4 flex flex-wrap gap-2 text-[12.5px]">
               {guide.status === "full" && guide.checked_at && <span className="rounded-full bg-gold-soft text-gold px-2.5 py-1 font-medium">✓ {L.checked} {guide.checked_at}</span>}
-              {guide.typical_duration && <span className="rounded-full bg-surface-2 px-2.5 py-1"><Icon.clock /> {guide.typical_duration}</span>}
+              {guide.typical_duration && <span className="rounded-full bg-surface-2 px-2.5 py-1"><Icon.clock /> {tx(guide.typical_duration, locale)}</span>}
               {guide.euprava_url && <a href={guide.euprava_url} rel="noopener" target="_blank" className="rounded-full bg-accent-soft text-accent-ink px-2.5 py-1 no-underline">{L.euprava} ↗</a>}
               {lang !== locale && <span className="rounded-full bg-surface-2 px-2.5 py-1 text-muted">{lang.toUpperCase()}</span>}
             </div>
@@ -157,7 +159,7 @@ export async function GuidePage({ locale, guide, jlsSlug, path }: { locale: Loca
       <div className="shell py-8 grid grid-cols-[minmax(0,1fr)] lg:grid-cols-[minmax(0,1fr)_380px] gap-10 items-start">
         <div className="jstage-col lg:col-start-2 lg:row-start-1 self-start">
           <JourneyBoard stations={stations} emblem={emblem} pin={jls ? (jls.seat_name_lat ?? jls.name_lat) : null} labels={{ hint: L.scrollHint, stage: L.journey }} />
-          <div className="jstage-aside grid gap-4">{sideCards}<AdSlot code="svc_jls_sidebar_sponsor" w={300} h={250} label={d.sponsor} /></div>
+          <div className="jstage-aside grid gap-4">{sideCards}<AdSlot locale={locale} code="svc_jls_sidebar_sponsor" w={300} h={250} label={d.sponsor} /></div>
         </div>
         <article className="grid gap-9 min-w-0 lg:col-start-1 lg:row-start-1">
           {/* Where to go */}
@@ -202,8 +204,8 @@ export async function GuidePage({ locale, guide, jlsSlug, path }: { locale: Loca
 
           {guide.fees?.length ? <section id="takse" data-reveal data-fx="flip"><SectionTitle>{L.fees}</SectionTitle>
             <div className="card overflow-x-auto"><table className="w-full text-[14px]"><thead><tr className="text-left text-muted text-[12px] uppercase tracking-wide"><th className="px-4 py-2.5 font-medium">{L.amount}</th><th className="px-4 py-2.5 font-medium">{L.basis}</th></tr></thead>
-              <tbody>{guide.fees.map((f, i) => <tr key={i} className="border-t border-line align-top"><td className="px-4 py-2.5"><div className="font-medium">{f.item}</div><div className="tabular text-[15px]">{f.amount_rsd == null ? <span className="text-muted">—</span> : f.amount_rsd === 0 ? L.free : `${fmtRsd(f.amount_rsd)} ${L.rsd}`}</div>{f.note && <div className="text-muted text-[12.5px] mt-0.5">{f.note}</div>}</td>
-                <td className="px-4 py-2.5 text-[13px] text-muted">{f.basis}{f.source_url && <> · <a href={f.source_url} target="_blank" rel="noopener">izvor ↗</a></>}{f.checked_at && <div className="text-[12px]">{L.checked} {f.checked_at}</div>}</td></tr>)}</tbody></table></div></section> : null}
+              <tbody>{guide.fees.map((f, i) => <tr key={i} className="border-t border-line align-top"><td className="px-4 py-2.5"><div className="font-medium">{tx(f.item, locale)}</div><div className="tabular text-[15px]">{f.amount_rsd == null ? <span className="text-muted">—</span> : f.amount_rsd === 0 ? L.free : `${fmtRsd(f.amount_rsd, locale)} ${L.rsd}`}</div>{f.note && <div className="text-muted text-[12.5px] mt-0.5">{tx(f.note, locale)}</div>}</td>
+                <td className="px-4 py-2.5 text-[13px] text-muted">{tx(f.basis, locale)}{f.source_url && <> · <a href={f.source_url} target="_blank" rel="noopener">{pick(locale, "izvor", "source", "источник", "Quelle")} ↗</a></>}{f.checked_at && <div className="text-[12px]">{L.checked} {f.checked_at}</div>}</td></tr>)}</tbody></table></div></section> : null}
 
           {c.steps?.length ? <section id="koraci" data-reveal data-fx="flip"><SectionTitle>{L.steps}</SectionTitle>
             <ol className="grid gap-3">{c.steps.map((s, i) => <li key={i} data-reveal style={{ "--d": `${i * 80}ms` } as React.CSSProperties} className="flex gap-3.5"><span className="disc step-disc">{i + 1}</span><p className="text-[14.5px] pt-1">{s}</p></li>)}</ol></section> : null}
@@ -211,10 +213,10 @@ export async function GuidePage({ locale, guide, jlsSlug, path }: { locale: Loca
           {c.tips?.length ? <section id="saveti" data-reveal data-fx="flip"><SectionTitle>{L.tips}</SectionTitle>
             <ul className="grid gap-2">{c.tips.map((tip, i) => <li key={i} data-reveal data-fx={i % 2 ? "wing-r" : "wing-l"} style={{ "--d": `${i * 70}ms` } as React.CSSProperties} className="card tip p-3.5 text-[14.5px]">{tip}</li>)}</ul></section> : null}
 
-          {guide.typical_duration && <section id="trajanje" data-reveal data-fx="flip"><SectionTitle>{L.duration}</SectionTitle><p className="text-[14.5px]">{guide.typical_duration}</p></section>}
+          {guide.typical_duration && <section id="trajanje" data-reveal data-fx="flip"><SectionTitle>{L.duration}</SectionTitle><p className="text-[14.5px]">{tx(guide.typical_duration, locale)}</p></section>}
 
-          {vertical && <section id="ponuda"><LeadForm locale={locale} vertical={vertical} context={{ page_path: path, location_id: serving[0]?.location_id ?? null, territorial_unit_id: jls?.id ?? null }} /></section>}
-          <AdSlot code="svc_in_content_1" w={728} h={90} mobileH={250} label={d.ad} />
+          {vertical && <section id="ponuda"><LeadForm locale={locale} vertical={{ ...vertical, name_lat: tx(vertical.name_lat, locale), pitch_lat: tx(vertical.pitch_lat, locale) }} context={{ page_path: path, location_id: serving[0]?.location_id ?? null, territorial_unit_id: jls?.id ?? null }} /></section>}
+          <AdSlot locale={locale} code="svc_in_content_1" w={728} h={90} mobileH={250} label={d.ad} />
 
           {c.faq?.length ? <section id="faq" data-reveal data-fx="flip"><SectionTitle>{L.faq}</SectionTitle><div className="grid gap-2">{c.faq.map((f, i) => <details key={i} className="card faq group"><summary className="cursor-pointer font-medium text-[14.5px] list-none flex justify-between gap-3">{f.q}<span className="text-muted group-open:rotate-45 transition" aria-hidden>+</span></summary><p className="text-[14px] text-muted">{f.a}</p></details>)}</div></section> : null}
 

@@ -15,7 +15,7 @@ export type TU = {
 };
 export type OrgType = { id: number; slug: string; group: Group; name_lat: string; name_cyr: string | null; name_plural_lat: string | null; name_en?: string | null; name_ru?: string | null; name_de?: string | null;
   description_md: string | null; faq_md: string | null; icon: string | null; sort_order: number; one_per_jls: boolean; national_network: boolean };
-export type OrgRow = { id: number; slug: string; name_lat: string; name_cyr: string | null; official_name_lat: string | null; type_slug: string; type_name: string;
+export type OrgRow = { id: number; slug: string; name_lat: string; name_cyr: string | null; official_name_lat: string | null; type_slug: string; type_name: string; type_name_en?: string | null; type_name_ru?: string | null; type_name_de?: string | null;
   group: Group; jurisdiction: string; founder_slug: string | null; founder_name: string | null; place_name: string | null; place_slug: string | null; verification: string;
   mb: string | null; pib: string | null; jbkjs: string | null; website: string | null; parent_id: number | null; parent_name: string | null; parent_slug: string | null; parent_type_slug: string | null; last_seen_at: string | null; is_private?: boolean };
 
@@ -100,7 +100,7 @@ export const getOrgType = (slug: string) =>
   sql<OrgType[]>`select id, slug, "group", name_lat, name_cyr, name_plural_lat, name_en, name_ru, name_de, description_md, faq_md, icon, sort_order, one_per_jls, national_network from org_types where slug = ${slug}`.then((r) => r[0] ?? null);
 
 const ORG_SELECT = sql`
-  select o.id, o.slug, o.name_lat, o.name_cyr, o.official_name_lat, t.slug as type_slug, t.name_lat as type_name, t."group" as group, o.jurisdiction,
+  select o.id, o.slug, o.name_lat, o.name_cyr, o.official_name_lat, t.slug as type_slug, t.name_lat as type_name, t.name_en as type_name_en, t.name_ru as type_name_ru, t.name_de as type_name_de, t."group" as group, o.jurisdiction,
          f.slug as founder_slug, f.name_lat as founder_name, p.name_lat as place_name, p.slug as place_slug, o.verification, o.mb, o.pib, o.jbkjs, o.website,
          o.parent_org_id as parent_id, par.name_lat as parent_name, par.slug as parent_slug, pt.slug as parent_type_slug, o.last_seen_at::text, o.is_private
   from organizations o
@@ -210,19 +210,7 @@ export const getSponsorship = (slotCode: string, tuId: number, orgTypeId: number
     join creatives c on c.id = p.creative_id join partners pa on pa.id = p.partner_id`.then((r) => r[0] ?? null);
 
 export type SearchHit = { kind: "org" | "tu"; slug: string; name_lat: string; sub: string | null; type_slug: string | null; rank: number };
-export const search = (q: string, limit = 30) => sql<SearchHit[]>`
-  with qq as (select f_unaccent(lower(${q})) as q)
-  (select 'tu' as kind, u.slug, u.name_lat, u.official_name_lat as sub, null::text as type_slug,
-          1.0 + similarity(f_unaccent(lower(u.name_lat)), qq.q) as rank
-   from territorial_units u, qq where u.level in ('jls','gradska_opstina','okrug') and not u.in_kosovo
-     and (f_unaccent(lower(u.name_lat)) % qq.q or u.search @@ plainto_tsquery('simple', qq.q)) )
-  union all
-  (select 'org', o.slug, o.name_lat, coalesce(f.name_lat, p.name_lat) || ' · ' || t.name_lat, t.slug,
-          similarity(f_unaccent(lower(o.name_lat)), qq.q) + case when o.search @@ plainto_tsquery('simple', qq.q) then 0.5 else 0 end
-   from organizations o join org_types t on t.id = o.org_type_id left join territorial_units f on f.id = o.founder_unit_id
-   left join locations l on l.org_id = o.id and l.is_primary left join territorial_units p on p.id = l.territorial_unit_id, qq
-   where o.status = 'active' and (o.search @@ plainto_tsquery('simple', qq.q) or f_unaccent(lower(o.name_lat)) % qq.q))
-  order by rank desc, name_lat limit ${limit}`;
+
 
 export const getStats = () =>
   sql<{ orgs: number; locations: number; jls: number; types: number }[]>`
@@ -298,9 +286,9 @@ export const insertClaim = (c: { org_id: number; location_id: number | null; cla
       values (${c.org_id}, ${c.location_id}, ${c.claimant_name}, ${c.claimant_role}, ${c.email}, ${c.phone}, ${c.message}, ${c.ip_hash})`;
 
 /** Active featured placements for a type (nationwide or inside a territorial unit path). */
-export type FeaturedRow = { id: number; org_id: number; org_slug: string; org_name: string; type_slug: string; type_name: string; place_name: string | null; tier: string; phone: string | null; website: string | null };
+export type FeaturedRow = { id: number; org_id: number; org_slug: string; org_name: string; type_slug: string; type_name: string; type_name_en?: string | null; type_name_ru?: string | null; type_name_de?: string | null; place_name: string | null; tier: string; phone: string | null; website: string | null };
 export const getFeatured = (typeSlug: string | null, unitPath: string | null, limit = 3) =>
-  sql<FeaturedRow[]>`select f.id, o.id as org_id, o.slug as org_slug, o.name_lat as org_name, t.slug as type_slug, t.name_lat as type_name, coalesce(tu.name_lat, p.name_lat) as place_name, f.tier,
+  sql<FeaturedRow[]>`select f.id, o.id as org_id, o.slug as org_slug, o.name_lat as org_name, t.slug as type_slug, t.name_lat as type_name, t.name_en as type_name_en, t.name_ru as type_name_ru, t.name_de as type_name_de, coalesce(tu.name_lat, p.name_lat) as place_name, f.tier,
       (select value_display from location_contacts c join locations l on l.id = c.location_id where l.org_id = o.id and c.kind = 'phone' order by l.is_primary desc, c.id limit 1) as phone, o.website
     from featured_listings f join organizations o on o.id = f.org_id join org_types t on t.id = f.org_type_id
     left join territorial_units tu on tu.id = f.territorial_unit_id
@@ -315,9 +303,9 @@ export type CountryRow = { i18n?: Record<string, Partial<Record<string, unknown>
   from_rs_regime: string | null; from_rs_stay: string | null; from_rs_passport: string | null; from_rs_requirements: unknown; from_rs_url: string | null; rs_mission_name: string | null; rs_mission_city: string | null; source_fetched_at: string | null };
 export const getCountries = () => sql<CountryRow[]>`select iso2, name_sr, name_en, slug, to_rs_regime, to_rs_stay, to_rs_conditions, to_rs_url, from_rs_regime, from_rs_stay, from_rs_passport, from_rs_requirements, from_rs_url, rs_mission_name, rs_mission_city, source_fetched_at::text from countries order by name_sr`;
 export const getCountry = async (slug: string) => (await sql<CountryRow[]>`select i18n, from_rs_instructions, instructions_note, iso2, name_sr, name_en, slug, to_rs_regime, to_rs_stay, to_rs_conditions, to_rs_url, from_rs_regime, from_rs_stay, from_rs_passport, from_rs_requirements, from_rs_url, rs_mission_name, rs_mission_city, source_fetched_at::text from countries where slug = ${slug} or iso2 = ${slug.toUpperCase()} limit 1`)[0] ?? null;
-export type MissionRow = { id: number; slug: string; name_lat: string; type_slug: string; type_name: string; place_name: string | null; phone: string | null; phone_display: string | null; website: string | null };
+export type MissionRow = { id: number; slug: string; name_lat: string; type_slug: string; type_name: string; type_name_en?: string | null; type_name_ru?: string | null; type_name_de?: string | null; place_name: string | null; phone: string | null; phone_display: string | null; website: string | null };
 export const getMissionsOfCountry = (nameSr: string) =>
-  sql<MissionRow[]>`select o.id, o.slug, o.name_lat, t.slug as type_slug, t.name_lat as type_name, l.settlement_name_lat as place_name, c.value as phone, c.value_display as phone_display, coalesce(o.website, w.value) as website
+  sql<MissionRow[]>`select o.id, o.slug, o.name_lat, t.slug as type_slug, t.name_lat as type_name, t.name_en as type_name_en, t.name_ru as type_name_ru, t.name_de as type_name_de, l.settlement_name_lat as place_name, c.value as phone, c.value_display as phone_display, coalesce(o.website, w.value) as website
     from organizations o join org_types t on t.id = o.org_type_id
     left join locations l on l.org_id = o.id and l.is_primary
     left join lateral (select value, value_display from location_contacts lc where lc.location_id = l.id and lc.kind = 'phone' order by lc.id limit 1) c on true

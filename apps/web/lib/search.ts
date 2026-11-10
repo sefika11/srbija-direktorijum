@@ -1,9 +1,10 @@
 /** Question-aware directory search: place detection (Serbian case endings), intent matching on guides,
  *  institution types and synonyms, grouped results and a "best answer". Postgres only, no model. */
 import { emblemFor } from "@/lib/emblem-map";
+import { catName } from "@/lib/guide-cats";
 import * as db from "./db";
 import { sql } from "./db";
-import { href, type Locale, tn } from "./i18n";
+import { href, pick, t as dictOf, type Locale, tn } from "./i18n";
 
 export type Place = { id: number; slug: string; name_lat: string; level: "jls" | "gradska_opstina" | "okrug"; parent_slug: string | null; parent_id: number | null; jls_kind: string | null; path: string };
 export type TypeHit = db.OrgType & { org_count: number; score: number };
@@ -113,17 +114,19 @@ async function matchTypes(intent: string, tokens: string[], syn: { kind: string;
   return rows.filter((r) => r.score >= 0.4 && r.org_count > 0);
 }
 
-async function matchOrgs(q: string, placePath: string | null, limit: number): Promise<db.SearchHit[]> {
+async function matchOrgs(q: string, placePath: string | null, limit: number, locale: Locale = "sr"): Promise<db.SearchHit[]> {
   if (q.length < 2) return [];
-  return sql<db.SearchHit[]>`
+  const rows = await sql<(db.SearchHit & { sub_place: string | null; t_sr: string; t_en: string | null; t_ru: string | null; t_de: string | null })[]>`
     with qq as (select f_unaccent(lower(${q})) as q)
-    select 'org'::text as kind, o.slug, o.name_lat, coalesce(f.name_lat, p.name_lat) || ' · ' || t.name_lat as sub, t.slug as type_slug,
+    select 'org'::text as kind, o.slug, o.name_lat, coalesce(f.name_lat, p.name_lat) as sub_place, t.name_lat as t_sr, t.name_en as t_en, t.name_ru as t_ru, t.name_de as t_de, null::text as sub, t.slug as type_slug,
            (similarity(f_unaccent(lower(o.name_lat)), qq.q) + case when o.search @@ plainto_tsquery('simple', qq.q) then 0.5 else 0 end)::float as rank
     from organizations o join org_types t on t.id = o.org_type_id left join territorial_units f on f.id = o.founder_unit_id
     left join locations l on l.org_id = o.id and l.is_primary left join territorial_units p on p.id = l.territorial_unit_id, qq
     where o.status = 'active' and (o.search @@ plainto_tsquery('simple', qq.q) or f_unaccent(lower(o.name_lat)) % qq.q)
       ${placePath ? sql`and (f.path <@ ${placePath}::ltree or p.path <@ ${placePath}::ltree)` : sql``}
     order by rank desc, o.name_lat limit ${limit}`;
+  // the type half of the sub-line is translated (Serbian singular for sr, the translated type name otherwise)
+  return rows.map((r) => ({ ...r, sub: r.sub_place ? `${r.sub_place} · ${locale === "sr" ? r.t_sr : tn({ name_lat: r.t_sr, name_en: r.t_en, name_ru: r.t_ru, name_de: r.t_de }, locale)}` : null }));
 }
 
 async function placesLike(tokens: string[], limit: number): Promise<Place[]> {
@@ -151,7 +154,7 @@ export async function smartSearch(q: string, locale: Locale): Promise<SmartResul
   const placePath = det?.place.path ?? null;
   const [guides, types, orgs, places] = await Promise.all([
     matchGuides(intent, intentTokens, syn, 6), matchTypes(intent, intentTokens, syn, 6),
-    intent ? matchOrgs(intent, placePath, det ? 20 : 30) : Promise.resolve([]),
+    intent ? matchOrgs(intent, placePath, det ? 20 : 30, locale) : Promise.resolve([]),
     det ? Promise.resolve([det.place]) : placesLike(tokens, 6),
   ]);
   let best: Best | null = null;
@@ -185,6 +188,13 @@ const SECTIONS: { path: string; icon: string; keys: string[]; title: Record<Loca
   { path: "/partneri", icon: "briefcase", keys: ["partner", "oglas", "advert", "sponzor", "reklam"], title: { sr: "Partnerstvo i oglašavanje", en: "Partnership and advertising", ru: "Партнёрство и реклама", de: "Partnerschaft und Werbung" }, sub: { sr: "upiti, pozicije, cene", en: "inquiries, placements, prices", ru: "запросы, позиции, цены", de: "Anfragen, Plätze, Preise" } },
   { path: "/banka", icon: "bank", keys: ["bank", "banka", "банк", "kartic", "racun", "kredit"], title: { sr: "Banke i ekspoziture", en: "Banks and branches", ru: "Банки и отделения", de: "Banken und Filialen" }, sub: { sr: "po gradovima, sa telefonima", en: "by city, with phones", ru: "по городам, с телефонами", de: "nach Städten, mit Telefon" } },
 ];
+/** Sub-label of a place suggestion: okrug / grad / opština / gradska opština in the page language. */
+const placeKind = (p: { level: string; jls_kind: string | null }, locale: Locale) => {
+  const d = dictOf(locale); const w = p.level === "okrug" ? d.okrug : p.level === "gradska_opstina" ? d.gradskaOpstina : p.jls_kind === "grad" ? d.city : d.municipality;
+  return locale === "de" ? w : w.toLowerCase();
+};
+/** Visa regime values are stored in Serbian ("bez vize", "viza", "eviza", "eta"). */
+const regimeWord = (r: string, locale: Locale) => r === "bez vize" ? pick(locale, "bez vize", "visa-free", "без визы", "visumfrei") : r === "viza" ? pick(locale, "viza", "visa", "виза", "Visum") : r === "eviza" ? pick(locale, "eViza", "eVisa", "eVisa", "eVisum") : r === "eta" ? "eTA" : r;
 const ACTIONS: { re: RegExp; tel: string; title: Record<Locale, string> }[] = [
   { re: /^(policij|polic|192)/, tel: "192", title: { sr: "Policija", en: "Police", ru: "Полиция", de: "Polizei" } },
   { re: /^(vatrog|pozar|požar|193)/, tel: "193", title: { sr: "Vatrogasci", en: "Fire brigade", ru: "Пожарные", de: "Feuerwehr" } },
@@ -251,7 +261,7 @@ export async function suggest(q: string, locale: Locale, scopeSlug?: string | nu
   const syn = await synonyms(intentTokens);
   const [guides, types, places, orgs, countries, icons] = await Promise.all([
     matchGuides(intent, intentTokens, syn, 3), matchTypes(intent, intentTokens, syn, 4),
-    det && !scopeSlug ? Promise.resolve([det.place]) : scopeSlug ? Promise.resolve([]) : placesLike(tokens, 3), intent ? matchOrgs(intent, det?.place.path ?? null, scopeSlug ? 10 : 6) : Promise.resolve([]),
+    det && !scopeSlug ? Promise.resolve([det.place]) : scopeSlug ? Promise.resolve([]) : placesLike(tokens, 3), intent ? matchOrgs(intent, det?.place.path ?? null, scopeSlug ? 10 : 6, locale) : Promise.resolve([]),
     scopeSlug ? Promise.resolve([]) : matchCountries(intentTokens, locale, 3).catch(() => []), typeIcons(),
   ]);
   const branchTypes = [...new Set([...types.map((t) => t.slug), ...syn.filter((x) => x.kind === "type").map((x) => x.slug)])].slice(0, 4);
@@ -262,13 +272,13 @@ export async function suggest(q: string, locale: Locale, scopeSlug?: string | nu
   for (const a of ACTIONS) if (a.re.test(folded)) out.push({ kind: "action", href: `tel:${a.tel}`, title: a.title[locale], sub: a.tel.replace(/^0800/, "0800 "), tel: a.tel, icon: a.tel === "192" ? "shield" : a.tel === "193" ? "flame" : a.tel === "194" ? "heart-pulse" : a.tel === "1987" ? "car" : "zap" });
   for (const sec of scopeSlug ? [] : SECTIONS) if (tokens.some((t) => t.length >= 3 && sec.keys.some((k) => t.startsWith(fold(k)) || fold(k).startsWith(t)))) out.push({ kind: "section", href: href(locale, sec.path), title: sec.title[locale], sub: sec.sub[locale], icon: sec.icon });
   const placeQ = det ? `?opstina=${det.place.level === "gradska_opstina" ? det.place.parent_slug : det.place.slug}` : "";
-  for (const g of guides) { const c = g.guide[locale] ?? g.guide.en ?? g.guide.sr ?? {}; out.push({ kind: "guide", href: href(locale, `/vodic/${g.slug}${det && det.place.level !== "okrug" ? placeQ : ""}`), title: c.title ?? g.name_lat, sub: det ? det.place.name_lat : g.category_name, icon: "file-text" }); }
+  for (const g of guides) { const c = g.guide[locale] ?? g.guide.en ?? g.guide.sr ?? {}; out.push({ kind: "guide", href: href(locale, `/vodic/${g.slug}${det && det.place.level !== "okrug" ? placeQ : ""}`), title: c.title ?? g.name_lat, sub: det ? det.place.name_lat : catName(g, locale), icon: "file-text" }); }
   for (const t of types) out.push({ kind: "type", href: href(locale, det && det.place.level !== "okrug" ? `/${det.place.level === "gradska_opstina" ? det.place.parent_slug : det.place.slug}#${t.group}` : `/${t.slug}`), title: tn(t, locale), sub: det ? det.place.name_lat : null, icon: t.icon, count: t.org_count });
-  for (const p of places) out.push({ kind: "place", href: href(locale, p.level === "okrug" ? `/okrug/${p.slug}` : p.level === "gradska_opstina" ? `/${p.parent_slug}/${p.slug}` : `/${p.slug}`), title: p.name_lat, sub: p.level === "okrug" ? "okrug" : p.level === "gradska_opstina" ? "gradska opština" : p.jls_kind === "grad" ? "grad" : "opština", icon: p.level === "okrug" ? "map" : "building" });
+  for (const p of places) out.push({ kind: "place", href: href(locale, p.level === "okrug" ? `/okrug/${p.slug}` : p.level === "gradska_opstina" ? `/${p.parent_slug}/${p.slug}` : `/${p.slug}`), title: p.name_lat, sub: placeKind(p, locale), icon: p.level === "okrug" ? "map" : "building" });
   const seen = new Set<string>();
   const seenBranch = new Set<string>();
   for (const b of branches) { const generic = /^(ekspozitura|poslovnica|filijala|ispostava|sediste|sedište|ambulanta|pošta|posta)$/i.test(b.unit_name.trim()); const key = `${b.org_name}|${b.address ?? ""}|${generic ? "" : b.unit_name}`; if (seenBranch.has(key)) continue; seenBranch.add(key); const h = `/${b.type_slug}/${b.org_slug}/${b.location_slug}`; seen.add(h); out.push({ kind: "org", href: href(locale, h), title: generic || b.unit_name.toLowerCase().includes(b.org_name.toLowerCase()) ? b.org_name : `${b.org_name} · ${b.unit_name}`, sub: [b.address, det?.place.name_lat].filter(Boolean).join(", ") || (generic ? `${b.unit_name} · ${det?.place.name_lat ?? ""}` : null), icon: b.icon, phone: b.phone }); }
   for (const o of orgs) { const h = `/${o.type_slug}/${o.slug}`; if (seen.has(h)) continue; seen.add(h); out.push({ kind: "org", href: href(locale, h), title: o.name_lat, sub: o.sub, icon: o.type_slug ? icons[o.type_slug] ?? null : null, phone: phones[o.slug] ?? null }); }
-  for (const c of countries) out.push({ kind: "country", href: href(locale, `/vize/${c.slug}`), title: c.name, sub: [c.to ? `→ RS: ${c.to}` : null, c.from ? `RS →: ${c.from}` : null].filter(Boolean).join(" · ") || null, iso2: c.iso2 });
+  for (const c of countries) out.push({ kind: "country", href: href(locale, `/vize/${c.slug}`), title: c.name, sub: [c.to ? `→ RS: ${regimeWord(c.to, locale)}` : null, c.from ? `RS →: ${regimeWord(c.from, locale)}` : null].filter(Boolean).join(" · ") || null, iso2: c.iso2 });
   return out.slice(0, 18);
 }

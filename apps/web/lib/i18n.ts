@@ -106,3 +106,8 @@ export function tn(t: { name_lat: string; name_plural_lat?: string | null; name_
   const v = locale === "en" ? t.name_en : locale === "ru" ? t.name_ru : locale === "de" ? t.name_de : null;
   return v ?? t.name_plural_lat ?? t.name_lat;
 }
+
+/** One string in the four site languages. Use for any UI text that is not in the dictionary above. */
+export function pick<T>(locale: Locale, sr: T, en: T, ru: T, de: T): T {
+  return locale === "en" ? en : locale === "ru" ? ru : locale === "de" ? de : sr;
+}
