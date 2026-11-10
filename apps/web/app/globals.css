@@ -831,7 +831,7 @@ article { position: relative; }
 .jstage-poster { position: absolute; inset: 0; width: 100%; height: 100%; transition: opacity .7s var(--ease-out); }
 .jstage.is-live .jstage-poster { opacity: 0; }
 .jp-node circle, .jp-node text { transition: fill .35s var(--ease), r .35s var(--ease-out); }
-.jstage-label, .jstage-pin { position: absolute; left: 0; top: 0; z-index: 3; pointer-events: none; white-space: nowrap; font-family: var(--font-mono); font-size: 10.5px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); background: color-mix(in oklab, var(--surface) 92%, transparent); backdrop-filter: blur(6px); border: 1px solid color-mix(in oklab, var(--ink) 10%, transparent); border-radius: var(--radius-pill); padding: 3px 8px; transform: translate(-50%, -50%); margin-top: -8px; margin-left: 0; opacity: 0; transition: opacity .5s var(--ease), color .3s var(--ease), border-color .3s var(--ease); }
+.jstage-label, .jstage-pin { position: absolute; left: 0; top: 0; z-index: 3; pointer-events: none; white-space: nowrap; font-family: var(--font-mono); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); background: color-mix(in oklab, var(--surface) 92%, transparent); backdrop-filter: blur(6px); border: 1px solid color-mix(in oklab, var(--ink) 10%, transparent); border-radius: var(--radius-pill); padding: 3px 8px; transform: translate(-50%, -50%); margin-top: -8px; margin-left: 0; opacity: 0; transition: opacity .5s var(--ease), color .3s var(--ease), border-color .3s var(--ease); }
 .jstage-label::after { content: ""; position: absolute; left: 50%; bottom: -5px; width: 1px; height: 5px; background: color-mix(in oklab, var(--ink) 25%, transparent); }
 .jstage.is-live .jstage-label, .jstage.is-live .jstage-pin { opacity: 1; }
 .jstage-label.is-active { color: var(--ink); border-color: color-mix(in oklab, var(--red) 55%, transparent); background: color-mix(in oklab, var(--surface) 98%, transparent); }
@@ -845,6 +845,7 @@ article { position: relative; }
 @media (min-width: 1024px) { .jstage-col { position: sticky; top: 76px; } }
 @media (max-width: 1023px) { .jstage-col { order: -1; } .jstage-col .jstage-aside { display: none; } }
 @media (min-width: 1024px) { .jstage-mobile-aside { display: none; } }
+@media (max-width: 1023px) { .jstage { aspect-ratio: 16 / 7; max-height: 320px; } }
 @media (max-width: 767px) { .jstage { aspect-ratio: 3 / 2; max-height: 260px; } .jstage canvas, .jstage-label, .jstage-pin { display: none; } .jstage.is-live .jstage-poster { opacity: 1; } .jstage-dock-hint { display: none; } }
 /* visa country stage: the passport opens and the globe sits behind it */
 .vcstage { position: relative; display: grid; gap: 16px; align-items: center; grid-template-columns: minmax(0, 1fr); }
@@ -862,3 +863,81 @@ article { position: relative; }
 .vital-col::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 2px; background: color-mix(in oklab, var(--line-strong) 70%, transparent); border-radius: 0 0 var(--radius) var(--radius); }
 .vital-grid { gap: 14px; align-items: start; }
 @media (prefers-reduced-motion: reduce) { .estage canvas, .estage-poster, .jstage canvas, .jstage-poster, .vcstage-globe, .vcstage-passport .pp3-cover { transition: none; } }
+
+/* ---------- 39. Home: map-centred opening, index tabs and the dossier stack (docs/07 §18) ---------- */
+.hero-stage { position: relative; }
+.hero-search { position: relative; z-index: 30; max-width: 860px; margin: 0 auto; padding: 14px 14px 12px; border-radius: 14px; background: color-mix(in oklab, var(--surface) 90%, transparent); backdrop-filter: blur(14px) saturate(140%); -webkit-backdrop-filter: blur(14px) saturate(140%); box-shadow: var(--shadow-3), 0 0 0 1px color-mix(in oklab, var(--line) 85%, transparent), 0 0 0 6px color-mix(in oklab, var(--surface) 55%, transparent); }
+.hero-popular { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 6px; margin-top: 10px; }
+.hero-popular .quick-chip { min-height: 30px; padding: .15rem .7rem; font-size: 12.5px; }
+@media (min-width: 768px) { .hero-search { margin-bottom: -46px; } }
+@media (max-width: 767px) { .hero-search { margin-bottom: 12px; padding: 10px; } .hero-popular { justify-content: flex-start; flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin-inline: -10px; padding-inline: 10px; } .hero-popular::-webkit-scrollbar { display: none; } .hero-popular > * { flex: none; } .hero-popular .quick-chip { min-height: 36px; } }
+/* the whole map fits the first viewport on desktop: stage height follows the window */
+.m3-stage.is-hero { height: 440px; }
+@media (min-width: 640px) { .m3-stage.is-hero { height: 520px; } }
+@media (min-width: 1024px) { .m3-stage.is-hero { height: clamp(440px, calc(100svh - 356px), 760px); } }
+@media (min-width: 768px) { .m3-stage.is-hero .m3-dock, .hero-stage .m3-toggle { bottom: 36px; } }
+.hero-map::after { opacity: .22; }
+/* index tabs: three folder tabs hanging off the bottom edge of the map; they lift like a pulled file */
+.hero-index { position: relative; z-index: 6; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; max-width: 860px; margin: -22px auto 0; padding: 0 14px; }
+.hero-index-card { position: relative; display: grid; grid-template-columns: auto 1fr; align-items: baseline; column-gap: 10px; row-gap: 2px; padding: 16px 16px 14px; border-radius: 4px 4px 14px 14px; background: var(--surface); color: var(--ink); text-decoration: none; box-shadow: var(--shadow-3), 0 0 0 1px color-mix(in oklab, var(--line) 85%, transparent); transform: translateY(calc(var(--i, 0) * 5px)) rotate(calc((var(--i, 0) - 1) * .6deg)); transform-origin: 50% 0; transition: transform .5s var(--ease-out), box-shadow .5s var(--ease-out); }
+.hero-index-card .tab { position: absolute; top: -11px; left: 14px; min-height: 20px; padding: 0 8px; font-size: 11px; }
+.hero-index-card .num { font-family: var(--font-display); font-weight: 300; font-size: clamp(24px, 2.4vw, 34px); line-height: 1; letter-spacing: -0.03em; font-variant-numeric: tabular-nums; }
+.hero-index-card .lbl { font-family: var(--font-mono); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.hero-index-card .ttl { grid-column: 1 / -1; margin-top: 8px; padding-top: 8px; border-top: 1px solid var(--line); font-size: 13px; font-weight: 500; display: flex; justify-content: space-between; gap: 8px; }
+.hero-index-card .ttl > span { transition: transform .4s var(--ease-out); color: var(--red); }
+@media (hover: hover) { .hero-index-card:hover { transform: translateY(-6px) rotate(0deg); box-shadow: var(--shadow-3), 0 0 0 1px color-mix(in oklab, var(--red) 40%, var(--line)), 0 22px 30px -22px rgb(23 24 28 / .45); } .hero-index-card:hover .ttl > span { transform: translateY(3px); } }
+.hero-index-card:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+@media (max-width: 767px) { .hero-index { margin-top: 18px; padding: 0; gap: 8px; } .hero-index-card { padding: 14px 10px 10px; grid-template-columns: 1fr; transform: none; border-radius: 4px 4px 10px 10px; } .hero-index-card .ttl { font-size: 11.5px; line-height: 1.25; } .hero-index-card .ttl > span { display: none; } .hero-index-card .tab { left: 8px; } }
+/* dossiers: each area is a sheet; the next sheet tucks under the previous one's bottom edge, carries a numbered tab and a hint of tilt */
+.dossiers { position: relative; padding: 56px 0 80px; perspective: 1800px; }
+.dossier { position: relative; margin-top: -28px; padding: 46px 36px 40px; border-radius: 20px; background: var(--surface); box-shadow: var(--shadow-3), 0 0 0 1px color-mix(in oklab, var(--line) 85%, transparent), 0 -1px 0 rgb(255 255 255 / .7) inset; transform-origin: 50% 0; z-index: calc(1 + var(--i, 0)); scroll-margin-top: 96px; }
+.dossier:first-child { margin-top: 0; }
+.dossier:nth-child(odd) { --tilt: -.7deg; } .dossier:nth-child(even) { --tilt: .6deg; }
+.dossier::before { content: ""; position: absolute; left: 18px; right: 18px; top: -9px; height: 44px; border-radius: 18px 18px 0 0; background: color-mix(in oklab, var(--surface) 70%, var(--line)); z-index: -1; box-shadow: 0 -1px 0 color-mix(in oklab, var(--line) 80%, transparent), 0 -6px 14px -10px rgb(23 24 28 / .35); transform: rotate(var(--tilt, 0deg)); transform-origin: 50% 100%; }
+.dossier-tab { position: absolute; top: -20px; left: 36px; z-index: 3; transform: rotate(calc(var(--tilt, 0deg) * -1.4)); transform-origin: 0 100%; min-height: 26px; padding: 0 12px; font-size: 11px; letter-spacing: .14em; text-transform: uppercase; border-radius: 6px 6px 2px 2px; }
+.dossier .section-head { margin-bottom: 24px; }
+.dossier .rail { margin-inline: 0; padding-inline: 0; }
+.dossier:target { box-shadow: var(--shadow-3), 0 0 0 1px color-mix(in oklab, var(--red) 45%, var(--line)), 0 -1px 0 rgb(255 255 255 / .7) inset; }
+@media (max-width: 767px) { .dossiers { padding: 28px 0 48px; perspective: none; } .dossier { margin-top: -14px; padding: 34px 16px 24px; border-radius: 14px; --tilt: 0deg !important; } .dossier-tab { left: 16px; top: -14px; max-width: calc(100% - 32px); overflow: hidden; white-space: nowrap; text-overflow: ellipsis; } .dossier::before { left: 14px; right: 14px; } .dossier .rail { margin-inline: -16px; padding-inline: 16px; } }
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) and (min-width: 768px) {
+    .dossier { animation: dossier-in 1s var(--ease-out) both; animation-timeline: view(); animation-range: entry 0% entry 55%; }
+  }
+}
+@keyframes dossier-in { from { opacity: .55; transform: translateY(56px) rotateX(9deg) scale(.975); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { .dossier { animation: none; transform: none; } .hero-index-card { transform: none; transition: none; } }
+/* opener: the paper curtain is up before the first paint (class set by the inline script in the layout head), so the
+   page never flashes under it; it releases itself after 4 s if the opener script never runs */
+html.opener-pending body::before { content: ""; position: fixed; inset: 0; z-index: 99; background: var(--bg); animation: opener-pending-out .01s linear 4s forwards; }
+@keyframes opener-pending-out { to { opacity: 0; visibility: hidden; } }
+
+/* ---------- 40. Usability pass (audit 2026-11-10, docs/07 §19) ---------- */
+/* the whole card is the hit area: the title link stretches over its card; other links inside stay on top */
+a.hit { position: static !important; }
+.hit::after { content: ""; position: absolute; inset: 0; z-index: 1; border-radius: inherit; }
+.card:has(> .hit), .card:has(.hit) { position: relative; }
+.card:has(.hit) a:not(.hit), .card:has(.hit) button { position: relative; z-index: 2; }
+.card:has(.hit:focus-visible) { outline: 3px solid var(--accent); outline-offset: 2px; } .hit:focus-visible { outline: none; }
+/* FAQ rows: the full row toggles, not just the words */
+.faq { padding: 0; } .faq > summary { padding: 14px 16px; min-height: 48px; align-items: center; border-radius: inherit; } .faq > summary::-webkit-details-marker { display: none; }
+.faq > p { padding: 0 16px 14px; margin: 0; } .faq > summary:focus-visible { outline: 3px solid var(--accent); outline-offset: -3px; }
+/* long lists: off-screen sections are skipped until they scroll near */
+.cv-auto { content-visibility: auto; contain-intrinsic-block-size: auto 420px; }
+/* page columns may never be wider than the screen: grid children shrink instead of forcing the track open */
+.shell.grid > *, .shell > .grid > * { min-width: 0; }
+main p, main dd, main li { overflow-wrap: break-word; }
+/* reveal transforms (wings, flips) waiting below the fold may not widen the page; clip keeps sticky columns working */
+main { overflow-x: clip; }
+/* nothing readable under 11px */
+.ad-line { font-size: 11px; } span.rounded-full.text-\[10\.5px\] { font-size: 11px; }
+.jstage-col { min-width: 0; }
+/* touch: 40px targets for the controls people actually tap */
+@media (pointer: coarse), (max-width: 767px) {
+  .site-header nav a[hreflang] { min-width: 40px; min-height: 40px; display: inline-grid; place-items: center; }
+  .site-header nav > div { gap: 0; }
+  .vital-num { min-height: 40px; padding: 0 12px; } .vital-tel { display: inline-flex; align-items: center; min-height: 32px; }
+  .cbx-btn { width: 36px; height: 36px; right: 2px; } .sp-clear { width: 36px; height: 36px; }
+  nav[aria-label="Putanja"] a { display: inline-flex; align-items: center; min-height: 32px; }
+  .ad-line { min-height: 40px; }
+  .hero-index-card .lbl { white-space: normal; }
+}

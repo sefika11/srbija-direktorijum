@@ -239,3 +239,45 @@ Measure again with `next build` in a scratch copy and `app-build-manifest.json`;
 dev server runs there. Known limits: the country stage holds its opening until the globe has painted (4 s fallback);
 step-disc numerals are canvas textures and inherit the page font only if Unbounded is loaded; the board frame is fitted to
 the building, so a very wide prop (8 discs) can touch the frame edge.
+
+## 18. Home: the map is the page (2026-11-10, night)
+
+- **Order.** Centred headline (one sentence: every public and private institution), then the centrepiece: the search panel
+  docked over the top edge of the 3D map (`.hero-search`, glass, 860 px), the map itself (`.m3-stage.is-hero`, height
+  `clamp(440px, 100svh − 356px, 760px)` so the whole country, the dock and the top of the index tabs fit the first
+  viewport), then three **index tabs** hanging off the map's bottom edge (`.hero-index`): number, unit, section title.
+  They replace the stat strip (same numbers, now also navigation) and scroll to their dossier.
+- **Dossiers** (`.dossiers` / `.dossier`): the three areas below (guides, institution types, districts) are sheets of one
+  stack. Each sheet tucks 28 px under the previous one, carries a red index tab (`.dossier-tab`, the section label; no
+  second eyebrow under it), and has a second sheet of paper peeking out behind its top edge. Only that backing paper
+  and the tab are tilted (±0.7°); the sheet itself stays level so text never slants and nothing widens the page. Where
+  scroll-driven animations exist the sheet rises into place (`dossier-in`: 56 px, 9° about its top edge); otherwise the
+  ordinary reveals apply. Cards inside keep their own effects (wings on guide cards, flips on the bento).
+- **Opener.** Counts "public and private institutions" (`d.openerLabel`). An inline script in the layout head adds
+  `html.opener-pending` before the first paint on a first home visit, which draws the paper curtain in CSS; the opener
+  takes over in a layout effect, so the page never shows under it (it used to flash for one frame before hydration).
+  The curtain releases itself after 4 s if the script never runs.
+- Phones: search panel in flow above the 2D map, popular chips in one swipeable row, index tabs as three compact tiles,
+  dossiers without tilt.
+
+## 19. Usability audit (2026-11-10) — rules that came out of it
+
+Scripted pass over 14 page types at 375 and 1440 plus 900 spot checks (overflow, tap targets, names, labels, heading
+order, text size, layout shift, console), then hands-on keyboard and tap flows.
+
+- **A page is never wider than the screen.** Page grids declare `grid-cols-[minmax(0,1fr)]` at the base and their
+  children get `min-width: 0`; `main` clips the x axis so reveal transforms cannot widen the document; long strings
+  wrap (`overflow-wrap`). Found: source URLs in the correction block widened guide pages to 639 px on phones.
+  `contain-intrinsic-size` with one value sets width too: use `contain-intrinsic-block-size`.
+- **The card is the hit area.** A title link with class `hit` stretches over its card (`a.hit::after`); other links in
+  the card sit above it. Used on institution lists, branch cards, municipality cards, guide index cards, missions.
+- **FAQ rows toggle on the whole row** (`details.faq`), 48 px tall.
+- **Touch targets** are at least 40 px for language links, emergency numbers, picker and search clear buttons; nothing
+  readable is under 11 px.
+- **Long lists** (`.cv-auto` sections on type hubs) use `content-visibility: auto`.
+- Favicon exists (`app/favicon.ico`, `app/icon.svg`): the catch-all route no longer runs two database lookups to answer
+  404 for it on every page view. Institutions without a place are grouped under "Ostalo", sorted last.
+- Passed without changes: accessible names, input labels, one h1 and no skipped heading levels, image alt and sizes,
+  layout shift (≤ 0.01), focus rings, Ctrl/Cmd+K, suggestion panel keyboard flow, skip link.
+- Dev note: a second dev server in this checkout must run with `NEXT_DIST_DIR=.next-3101` (see `next.config.ts`);
+  two servers sharing `.next` corrupt each other's cache.

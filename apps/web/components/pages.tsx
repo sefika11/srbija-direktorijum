@@ -38,7 +38,7 @@ function OrgList({ orgs, locale, dense = false }: { orgs: db.OrgRow[]; locale: L
     <ul className={`grid gap-2 ${dense ? "sm:grid-cols-2 lg:grid-cols-3" : "sm:grid-cols-2"}`}>
       {orgs.map((o) => (
         <li key={o.id} className="card card-hover spot px-3.5 py-2.5">
-          <Link href={orgHref(locale, o)} className="no-underline text-ink font-medium text-[14px] leading-snug block hover:text-accent">{o.name_lat}</Link>
+          <Link href={orgHref(locale, o)} className="hit no-underline text-ink font-medium text-[14px] leading-snug block hover:text-accent">{o.name_lat}</Link>
           <div className="text-[12px] text-muted mt-0.5 truncate">{o.is_private && <span className="inline-block rounded-full bg-surface-2 px-1.5 py-px text-[10.5px] uppercase tracking-wider font-semibold mr-1.5 align-middle">{locale === "sr" ? "privatno" : locale === "en" ? "private" : locale === "ru" ? "частное" : "privat"}</span>}{o.type_name}{o.place_name && o.place_name !== o.founder_name ? ` · ${o.place_name}` : ""}</div>
         </li>
       ))}
@@ -82,6 +82,7 @@ export async function Home({ locale }: { locale: Locale }) {
   };
   const guidesTitle = locale === "sr" ? "Kako se šta rešava" : locale === "en" ? "How things get done" : locale === "ru" ? "Как всё оформить" : "So geht es";
   const guidesLead = locale === "sr" ? "Dokumenta, takse, rokovi i tačno mesto gde idete u vašoj opštini." : locale === "en" ? "Documents, fees, deadlines and the exact office in your municipality." : locale === "ru" ? "Документы, пошлины, сроки и точное место в вашей общине." : "Unterlagen, Gebühren, Fristen und die genaue Stelle in Ihrer Gemeinde.";
+  const guidesWord = locale === "sr" ? "vodiča" : locale === "en" ? "guides" : locale === "ru" ? "инструкций" : "Anleitungen";
   const allGuides = locale === "sr" ? "Svi vodiči" : locale === "en" ? "All guides" : locale === "ru" ? "Все инструкции" : "Alle Anleitungen";
   const typesLabel = locale === "sr" ? "vrsta institucija" : locale === "en" ? "institution types" : locale === "ru" ? "типов учреждений" : "Einrichtungsarten";
   const mapTitle = locale === "sr" ? "25 okruga, 145 gradova i opština" : locale === "en" ? "25 districts, 145 cities and municipalities" : locale === "ru" ? "25 округов, 145 городов и общин" : "25 Bezirke, 145 Städte und Gemeinden";
@@ -96,69 +97,78 @@ export async function Home({ locale }: { locale: Locale }) {
   }[locale];
   return (
     <main id="main">
-      <Opener words={d.siteName.split(" ")} eyebrow={`Republika Srbija · ${new Date().getFullYear()}`} count={stats.orgs} countLabel={d.institutions} />
+      <Opener words={d.siteName.split(" ")} eyebrow={`Republika Srbija · ${new Date().getFullYear()}`} count={stats.orgs} countLabel={d.openerLabel} />
       <HeroFX />
-      {/* Opening */}
-      <section className="hero-open border-b border-line">
-        <div className="shell pt-10 pb-14 sm:pt-14 sm:pb-20 grid gap-10 lg:grid-cols-[minmax(0,.9fr)_minmax(0,1.25fr)] items-center">
-          <div data-reveal>
-            <div className="eyebrow mb-5">Republika Srbija · {d.siteName}</div>
-            <h1 className="display text-[30px] sm:text-[40px] xl:text-[46px] max-w-[16ch]" aria-label={`${d.tagline.split(":")[0]}.`}>{`${d.tagline.split(":")[0]}.`.split(" ").map((w, i, arr) => <Fragment key={i}><span className="w" aria-hidden><span className="i" style={{ "--i": i } as React.CSSProperties}>{w}</span></span>{i < arr.length - 1 ? " " : ""}</Fragment>)}</h1>
-            <p className="lede text-muted mt-5 max-w-[48ch]">{d.tagline.includes(":") ? d.tagline.split(":")[1].trim().replace(/^./, (c) => c.toUpperCase()) : ""}</p>
-            <div className="mt-8"><SearchBox locale={locale} large placeholder={d.searchPlaceholder} submitLabel={d.search} /></div>
-            <div className="mt-4 flex flex-wrap items-center gap-2 text-[13px]">
-              <span className="text-muted mr-1">{popular}:</span>
-              {QUICK[locale].map((x) => <Link key={x.q} href={href(locale, x.q)} className="quick-chip">{x.label}</Link>)}
+      {/* Opening: the search and the 3D map are the centrepiece */}
+      <section className="hero-open hero-map border-b border-line">
+        <div className="shell pt-6 sm:pt-7 text-center" data-reveal>
+          <div className="eyebrow justify-center mb-3">Republika Srbija · {d.siteName}</div>
+          <h1 className="display text-[28px] sm:text-[36px] xl:text-[42px] mx-auto max-w-[26ch]" aria-label={`${d.tagline.split(":")[0]}.`}>{`${d.tagline.split(":")[0]}.`.split(" ").map((w, i, arr) => <Fragment key={i}><span className="w" aria-hidden><span className="i" style={{ "--i": i } as React.CSSProperties}>{w}</span></span>{i < arr.length - 1 ? " " : ""}</Fragment>)}</h1>
+          <p className="lede text-muted mt-3 mx-auto max-w-[54ch]">{d.tagline.includes(":") ? d.tagline.split(":")[1].trim().replace(/^./, (c) => c.toUpperCase()) : ""}</p>
+        </div>
+        <div className="shell mt-6 sm:mt-7 pb-10 sm:pb-14" data-reveal style={{ "--d": "120ms" } as React.CSSProperties}>
+          <div className="hero-stage">
+            <div className="hero-search">
+              <SearchBox locale={locale} large placeholder={d.searchPlaceholder} submitLabel={d.search} />
+              <div className="hero-popular text-[13px]">
+                <span className="text-muted mr-1">{popular}:</span>
+                {QUICK[locale].map((x) => <Link key={x.q} href={href(locale, x.q)} className="quick-chip">{x.label}</Link>)}
+              </div>
             </div>
-            <div className="stat-strip mt-9">
-              {[{ n: stats.orgs, l: d.institutions }, { n: stats.jls, l: d.municipalities }, { n: stats.types, l: typesLabel }].map((x) => (
-                <div key={x.l}><div className="num" data-count={x.n}>{x.n.toLocaleString("sr-Latn")}</div><div className="lbl">{x.l}</div></div>
-              ))}
-            </div>
-          </div>
-          <div data-reveal style={{ "--d": "120ms" } as React.CSSProperties}>
-            <MapStage locale={locale} labels={L3D[locale]} hint={L3D[locale].hint}
+            <MapStage locale={locale} labels={L3D[locale]} hint={L3D[locale].hint} cls="is-hero"
                       features={OKRUG_SHAPES.flatMap((s) => { const o = okruzi.find((x) => x.slug === s.slug); return o ? [{ key: s.slug, d: s.d, cx: s.cx, cy: s.cy, bbox: s.bbox, name: o.name_lat, sub: o.seat_name_lat ?? undefined, label: o.seat_name_lat ?? o.name_lat, count: o.org_count, href: href(locale, `/okrug/${o.slug}`),
                         stats: [{ v: o.org_count.toLocaleString("sr-Latn"), l: d.institutions }, { v: `${o.jls_count}${o.go_count ? ` + ${o.go_count}` : ""}`, l: d.municipalities }] } satisfies Feature3D] : []; })}
-                      fallback={<SerbiaMap okruzi={okruzi.map((o) => ({ slug: o.slug, name_lat: o.name_lat, seat_name_lat: o.seat_name_lat, jls_count: o.jls_count, go_count: o.go_count, org_count: o.org_count }))}
+                      fallback={<SerbiaMap key="map-2d" okruzi={okruzi.map((o) => ({ slug: o.slug, name_lat: o.name_lat, seat_name_lat: o.seat_name_lat, jls_count: o.jls_count, go_count: o.go_count, org_count: o.org_count }))}
                                            jls={allJls.map((j) => ({ slug: j.slug, name_lat: j.name_lat, okrug_slug: j.okrug_slug, org_count: j.org_count, jls_kind: j.jls_kind, level: j.level, parent_slug: j.parent_slug }))}
                                            locale={locale} labels={mapLabels} variant="light" height="hero" />} />
           </div>
+          {/* index tabs: the three areas below hang off the map; each tab opens its dossier */}
+          <nav className="hero-index" aria-label={T.browse}>
+            {[{ id: "vodici", n: guides.length, l: guidesWord, t: guidesTitle }, { id: "vrste", n: stats.orgs, l: d.institutions, t: d.browseByCategory }, { id: "okruzi", n: stats.jls, l: d.municipalities, t: d.browseByRegion }].map((x, i) => (
+              <a key={x.id} href={`#${x.id}`} className="hero-index-card" style={{ "--i": i } as React.CSSProperties}>
+                <span className="tab" aria-hidden>{String(i + 1).padStart(2, "0")}</span>
+                <span className="num" data-count={x.n}>{x.n.toLocaleString("sr-Latn")}</span>
+                <span className="lbl">{x.l}</span>
+                <span className="ttl">{x.t} <span aria-hidden>↓</span></span>
+              </a>
+            ))}
+          </nav>
         </div>
       </section>
 
-      {/* Guides */}
-      {topGuides.length > 0 && (
-        <section className="band tex-tweed shell py-16 sm:py-20">
-          <div className="section-head" data-reveal>
-            <div><div className="eyebrow">01 · {guidesTitle}</div><h2 className="display-sm mt-2">{guidesLead}</h2></div>
-            <Link href={href(locale, "/vodici")} className="quick-chip">{allGuides} →</Link>
-          </div>
-          <div className="rail">
-            {topGuides.map((g, i) => { const c = g.guide[locale] ?? g.guide.en ?? g.guide.sr ?? {}; return (
-              <Link key={g.id} href={href(locale, `/vodic/${g.slug}`)} className="guide-card fold spot no-underline text-ink" data-reveal style={{ "--d": `${i * 60}ms` } as React.CSSProperties}>
-                <span className="num tab" aria-hidden>{String(i + 1).padStart(2, "0")}</span>
-                <div className="eyebrow">{g.category_name}</div>
-                <div className="font-serif text-[22px] font-semibold leading-[1.15] mt-3 pr-14 tracking-[-0.01em]">{c.title ?? g.name_lat}</div>
-                <p className="text-muted text-[13.5px] mt-2 flex-1 leading-relaxed">{c.summary ?? g.summary}</p>
-                <div className="mt-4 flex items-center justify-between text-[12.5px]">
-                  {g.status === "full" ? <span className="text-muted">✓ {locale === "sr" ? "Provereno" : locale === "en" ? "Verified" : locale === "ru" ? "Проверено" : "Geprüft"} {g.checked_at}</span> : <span className="text-muted">{locale === "sr" ? "kratki vodič" : locale === "en" ? "short guide" : locale === "ru" ? "кратко" : "Kurzfassung"}</span>}
-                  <span className="text-accent font-medium">{T.open} →</span>
-                </div>
-              </Link>); })}
-          </div>
-        </section>
-      )}
+      {/* Below the map: the three areas as a stack of dossiers, each sheet tucked under the next */}
+      <div className="shell dossiers">
+        {topGuides.length > 0 && (
+          <section id="vodici" className="dossier band tex-tweed" style={{ "--i": 0 } as React.CSSProperties} aria-labelledby="h-vodici">
+            <span className="dossier-tab tab" aria-hidden>01 · {guidesTitle}</span>
+            <div className="section-head" data-reveal>
+              <div><h2 id="h-vodici" className="display-sm">{guidesLead}</h2></div>
+              <Link href={href(locale, "/vodici")} className="quick-chip">{allGuides} →</Link>
+            </div>
+            <div className="rail">
+              {topGuides.map((g, i) => { const c = g.guide[locale] ?? g.guide.en ?? g.guide.sr ?? {}; return (
+                <Link key={g.id} href={href(locale, `/vodic/${g.slug}`)} className="guide-card fold spot no-underline text-ink" data-reveal data-fx={i % 2 ? "wing-r" : "wing-l"} style={{ "--d": `${i * 60}ms` } as React.CSSProperties}>
+                  <span className="num tab" aria-hidden>{String(i + 1).padStart(2, "0")}</span>
+                  <div className="eyebrow">{g.category_name}</div>
+                  <div className="font-serif text-[22px] font-semibold leading-[1.15] mt-3 pr-14 tracking-[-0.01em]">{c.title ?? g.name_lat}</div>
+                  <p className="text-muted text-[13.5px] mt-2 flex-1 leading-relaxed">{c.summary ?? g.summary}</p>
+                  <div className="mt-4 flex items-center justify-between text-[12.5px]">
+                    {g.status === "full" ? <span className="text-muted">✓ {locale === "sr" ? "Provereno" : locale === "en" ? "Verified" : locale === "ru" ? "Проверено" : "Geprüft"} {g.checked_at}</span> : <span className="text-muted">{locale === "sr" ? "kratki vodič" : locale === "en" ? "short guide" : locale === "ru" ? "кратко" : "Kurzfassung"}</span>}
+                    <span className="text-accent font-medium">{T.open} →</span>
+                  </div>
+                </Link>); })}
+            </div>
+          </section>
+        )}
 
-      {/* Categories */}
-      <section className="band tex-mesh border-y border-line bg-surface">
-        <div className="shell py-16 sm:py-20">
+        <section id="vrste" className="dossier band tex-mesh" style={{ "--i": 1 } as React.CSSProperties} aria-labelledby="h-vrste">
+          <span className="dossier-tab tab" aria-hidden>02 · {d.browseByCategory}</span>
           <div className="section-head" data-reveal>
-            <div><div className="eyebrow">02 · {d.browseByCategory}</div><h2 className="display-sm mt-2">{stats.orgs.toLocaleString("sr-Latn")} {d.institutions}, {stats.types} {typesLabel}</h2></div>
+            <div><h2 id="h-vrste" className="display-sm">{stats.orgs.toLocaleString("sr-Latn")} {d.institutions}, {stats.types} {typesLabel}</h2></div>
           </div>
           <div className="bento">
             {byGroupAll.filter((x) => x.total > 0).map(({ g, types: ts, total }, i) => { return (
-              <div key={g} className="bento-card spot" data-reveal style={{ "--d": `${i * 60}ms` } as React.CSSProperties}>
+              <div key={g} className="bento-card spot" data-reveal data-fx="flip" style={{ "--d": `${i * 60}ms` } as React.CSSProperties}>
                 <div className="flex items-start justify-between gap-3">
                   <span className="glyph-wrap"><Glyph3D icon={GROUP_GLYPH[g]} size={104} /></span>
                   <div className="big">{total.toLocaleString("sr-Latn")}</div>
@@ -170,18 +180,18 @@ export async function Home({ locale }: { locale: Locale }) {
                 </ul>
               </div>); })}
           </div>
-        </div>
-      </section>
+        </section>
 
-      {/* Districts */}
-      <section className="band tex-nylon shell py-16 sm:py-20">
-        <div className="section-head" data-reveal>
-          <div><div className="eyebrow">03 · {d.browseByRegion}</div><h2 className="display-sm mt-2">{mapTitle}</h2></div>
-        </div>
-        <ul className="okrug-tiles" data-reveal>
-          {okruzi.map((o) => <li key={o.id}><Link href={href(locale, `/okrug/${o.slug}`)} className="okrug-tile plinth"><span>{o.name_lat}</span><span className="n tabular">{o.org_count}</span></Link></li>)}
-        </ul>
-      </section>
+        <section id="okruzi" className="dossier band tex-nylon" style={{ "--i": 2 } as React.CSSProperties} aria-labelledby="h-okruzi">
+          <span className="dossier-tab tab" aria-hidden>03 · {d.browseByRegion}</span>
+          <div className="section-head" data-reveal>
+            <div><h2 id="h-okruzi" className="display-sm">{mapTitle}</h2></div>
+          </div>
+          <ul className="okrug-tiles" data-reveal>
+            {okruzi.map((o) => <li key={o.id}><Link href={href(locale, `/okrug/${o.slug}`)} className="okrug-tile plinth"><span>{o.name_lat}</span><span className="n tabular">{o.org_count}</span></Link></li>)}
+          </ul>
+        </section>
+      </div>
 
     </main>
   );
@@ -273,7 +283,7 @@ export async function OkrugHub({ locale, okrug }: { locale: Locale; okrug: db.TU
         {jls.map((j, i) => (
           <li key={j.id} className="card card-hover spot plinth p-5" data-reveal data-fx={i % 2 ? "wing-r" : "wing-l"} style={{ "--d": `${(i % 6) * 60}ms` } as React.CSSProperties}>
             <div className="eyebrow">{j.jls_kind === "grad" ? d.city : d.municipality}{j.okrug_seat ? ` · ${d.seat.toLowerCase()} okruga` : ""}</div>
-            <Link href={href(locale, `/${j.slug}`)} className="font-serif text-[20px] font-semibold no-underline text-ink hover:text-accent">{j.name_lat}</Link>
+            <Link href={href(locale, `/${j.slug}`)} className="hit font-serif text-[20px] font-semibold no-underline text-ink hover:text-accent">{j.name_lat}</Link>
             <div className="text-[13px] text-muted mt-1.5 tabular">{j.org_count} {d.institutions}</div>
           </li>
         ))}
@@ -382,8 +392,9 @@ export async function OrgTypeHub({ locale, type, brand = null, place = null }: {
   const branchMode = type.national_network || (orgs.length > 0 && orgs.every((o) => !o.place_name));
   const [branches, featured] = await Promise.all([branchMode ? db.getLocationsOfType(type.slug) : Promise.resolve([] as db.ServingRow[]), db.getFeatured(type.slug, null).catch(() => [] as db.FeaturedRow[])]);
   const groups = new Map<string, db.OrgRow[]>();
-  for (const o of orgs) { const k = o.founder_name ?? o.place_name ?? "—"; groups.set(k, [...(groups.get(k) ?? []), o]); }
-  const keys = [...groups.keys()].sort((a, b) => a.localeCompare(b, "sr-Latn"));
+  const OTHER = locale === "sr" ? "Ostalo" : locale === "en" ? "Other" : locale === "ru" ? "Прочее" : "Sonstige";
+  for (const o of orgs) { const k = o.founder_name ?? o.place_name ?? OTHER; groups.set(k, [...(groups.get(k) ?? []), o]); }
+  const keys = [...groups.keys()].sort((a, b) => (a === OTHER ? 1 : 0) - (b === OTHER ? 1 : 0) || a.localeCompare(b, "sr-Latn"));
   const agg = (key: (b: db.ServingRow) => [string | null, string | null], keep: (b: db.ServingRow) => boolean = () => true) => { const m = new Map<string, { slug: string; name: string; count: number }>(); for (const b of branches) { if (!keep(b)) continue; const [slug, name] = key(b); if (!slug) continue; const e = m.get(slug) ?? { slug, name: name ?? slug, count: 0 }; e.count++; m.set(slug, e); } return [...m.values()]; };
   const brands = agg((b) => [b.org_slug, b.org_name_lat], (b) => !place || b.jls_slug === place).sort((a, b) => b.count - a.count);
   const placeList = agg((b) => [b.jls_slug, b.jls_name_lat], (b) => !brand || b.org_slug === brand).sort((a, b) => a.name.localeCompare(b.name, "sr-Latn"));
@@ -416,18 +427,18 @@ export async function OrgTypeHub({ locale, type, brand = null, place = null }: {
           {faq.length > 0 && (
             <section className="card p-5">
               <SectionTitle>{locale === "sr" ? "Česta pitanja" : locale === "en" ? "Frequently asked" : locale === "ru" ? "Частые вопросы" : "Häufige Fragen"}</SectionTitle>
-              <div className="grid gap-2">{faq.map((f, i) => <details key={i} className="rounded-md border border-line p-3.5 group"><summary className="cursor-pointer font-medium text-[14.5px] list-none flex justify-between gap-3">{f.q}<span className="text-muted group-open:rotate-45 transition">+</span></summary><p className="text-[14px] text-muted mt-2">{f.a}</p></details>)}</div>
+              <div className="grid gap-2">{faq.map((f, i) => <details key={i} className="rounded-md border border-line faq group"><summary className="cursor-pointer font-medium text-[14.5px] list-none flex justify-between gap-3">{f.q}<span className="text-muted group-open:rotate-45 transition" aria-hidden>+</span></summary><p className="text-[14px] text-muted">{f.a}</p></details>)}</div>
             </section>
           )}
           {branchMode && branches.length > 24 && <BranchFilters locale={locale} basePath={href(locale, `/${type.slug}`)} brands={brands} places={placeList} brand={brand} place={place} shown={shownBranches.length} total={branches.length} />}
           {branchMode ? okrugKeys.map((k, i) => (
-            <section key={k}>
+            <section key={k} className="cv-auto">
               <SectionTitle>{k} <span className="text-muted font-normal text-[13px] tabular">{byOkrug.get(k)!.length}</span></SectionTitle>
               <ul className="grid sm:grid-cols-2 gap-3">
                 {byOkrug.get(k)!.map((b) => (
                   <li key={b.location_id} className="card card-hover p-4">
                     <div className="eyebrow">{orgs.length > 1 ? b.org_name_lat : b.unit_kind === "filijala" ? (locale === "sr" ? "Filijala" : "Branch") : b.unit_kind === "ispostava" ? (locale === "sr" ? "Ispostava" : "Sub-office") : b.unit_kind}</div>
-                    <Link href={href(locale, `/${b.org_type_slug}/${b.org_slug}/${b.location_slug}`)} className="font-serif text-[17px] font-semibold no-underline text-ink hover:text-accent">{orgs.length > 1 && /^(ekspozitura|poslovnica|filijala|ispostava)$/i.test(b.unit_name_lat) ? `${b.org_name_lat} · ${b.settlement_name_lat ?? b.unit_name_lat}` : b.unit_name_lat}</Link>
+                    <Link href={href(locale, `/${b.org_type_slug}/${b.org_slug}/${b.location_slug}`)} className="hit font-serif text-[17px] font-semibold no-underline text-ink hover:text-accent">{orgs.length > 1 && /^(ekspozitura|poslovnica|filijala|ispostava)$/i.test(b.unit_name_lat) ? `${b.org_name_lat} · ${b.settlement_name_lat ?? b.unit_name_lat}` : b.unit_name_lat}</Link>
                     <div className="text-[13px] text-muted mt-1">{b.address_display ? `${b.address_display}, ` : ""}{b.jls_name_lat}</div>
                   </li>
                 ))}
@@ -438,7 +449,7 @@ export async function OrgTypeHub({ locale, type, brand = null, place = null }: {
             const list = groups.get(k)!;
             const body = <OrgList orgs={list} locale={locale} dense />;
             return (
-              <section key={k}>
+              <section key={k} className="cv-auto">
                 {list.length > 12 ? (
                   <details className="card p-3.5" open={keys.length === 1 || orgs.length <= 40}><summary className="cursor-pointer font-semibold text-[15px]">{k} <span className="text-muted tabular font-normal">({list.length})</span></summary><div className="mt-3">{body}</div></details>
                 ) : (<><SectionTitle>{k} <span className="text-muted font-normal text-[13px] tabular">{list.length}</span></SectionTitle>{body}</>)}

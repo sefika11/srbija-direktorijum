@@ -74,7 +74,7 @@ export function CorrectionBlock({ locale, entityType, entityId, pagePath, lastCh
   return (
     <section id="izmeni" className="card p-4 sm:p-5 my-6 scroll-mt-24">
       <h2 className="text-[16px] font-semibold">{d.isDataCorrect}</h2>
-      <p className="text-[12.5px] text-muted mt-1">{d.lastChecked}: {lastChecked ? new Date(lastChecked).toLocaleDateString("sr-Latn") : "—"} · {d.source}: {sources.join(", ")}</p>
+      <p className="text-[12.5px] text-muted mt-1 [overflow-wrap:anywhere]">{d.lastChecked}: {lastChecked ? new Date(lastChecked).toLocaleDateString("sr-Latn") : "—"} · {d.source}: {sources.map((u) => u.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, "")).join(", ")}</p>
       {mode === "done" ? <p className="mt-3 text-[14px] text-moss font-medium">{d.thanksEdit}</p> : mode === "idle" ? (
         <div className="flex flex-wrap gap-2 mt-3">
           <button type="button" onClick={() => setMode("correction")} className="rounded-md border border-line bg-surface px-3 py-1.5 text-[13.5px] font-medium">{d.editData}</button>

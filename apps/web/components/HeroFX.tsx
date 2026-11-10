@@ -16,6 +16,10 @@ export default function HeroFX() {
     const t = requestAnimationFrame(() => root.classList.add("fx-in"));
     cleanups.push(() => { cancelAnimationFrame(t); root.classList.remove("fx-in"); });
 
+    // 1b. index tabs: smooth scroll to their dossier (not a global scroll-behavior, which would also slow route changes)
+    const onIndex = (e: MouseEvent) => { const a = (e.target as HTMLElement).closest<HTMLAnchorElement>("a.hero-index-card"); const id = a?.getAttribute("href")?.slice(1); const el = id ? document.getElementById(id) : null; if (!a || !el) return; e.preventDefault(); window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - 112, behavior: reduced ? "auto" : "smooth" }); };
+    document.addEventListener("click", onIndex); cleanups.push(() => document.removeEventListener("click", onIndex));
+
     // 2. count-up numbers
     const nums = Array.from(document.querySelectorAll<HTMLElement>("[data-count]"));
     if (!reduced && nums.length) {

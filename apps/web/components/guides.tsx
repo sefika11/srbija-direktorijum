@@ -74,7 +74,7 @@ export async function GuidesHub({ locale }: { locale: Locale }) {
             <ul className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {c.items.map((g) => { const { c: gc } = content(g, locale); return (
                 <li key={g.id} className="card card-hover fold p-5 flex flex-col">
-                  <Link href={href(locale, `/vodic/${g.slug}`)} className="font-serif text-[19px] font-semibold leading-snug no-underline text-ink hover:text-accent">{gc.title ?? g.name_lat}</Link>
+                  <Link href={href(locale, `/vodic/${g.slug}`)} className="hit font-serif text-[19px] font-semibold leading-snug no-underline text-ink hover:text-accent">{gc.title ?? g.name_lat}</Link>
                   <p className="text-muted text-[13.5px] mt-2 flex-1">{gc.summary ?? g.summary}</p>
                   <div className="mt-3 flex items-center gap-2 text-[12px] text-muted">{g.status === "full" ? <span className="rounded-full bg-gold-soft text-gold px-2 py-0.5 font-medium">✓ {L.checked}{g.checked_at ? ` ${g.checked_at}` : ""}</span> : <span className="rounded-full bg-surface-2 px-2 py-0.5">{L.inPreparation}</span>}{g.online_available && <span className="rounded-full bg-accent-soft text-accent-ink px-2 py-0.5">eUprava</span>}</div>
                 </li>); })}
@@ -142,7 +142,7 @@ export async function GuidePage({ locale, guide, jlsSlug, path }: { locale: Loca
         </div>
       </div></section>
 
-      <div className="shell py-8 grid lg:grid-cols-[minmax(0,1fr)_380px] gap-10 items-start">
+      <div className="shell py-8 grid grid-cols-[minmax(0,1fr)] lg:grid-cols-[minmax(0,1fr)_380px] gap-10 items-start">
         <div className="jstage-col lg:col-start-2 lg:row-start-1 self-start">
           <JourneyBoard stations={stations} emblem={emblem} pin={jls ? (jls.seat_name_lat ?? jls.name_lat) : null} labels={{ hint: L.scrollHint, stage: L.journey }} />
           <div className="jstage-aside grid gap-4">{sideCards}<AdSlot code="svc_jls_sidebar_sponsor" w={300} h={250} label={d.sponsor} /></div>
@@ -200,7 +200,7 @@ export async function GuidePage({ locale, guide, jlsSlug, path }: { locale: Loca
           {vertical && <section id="ponuda"><LeadForm locale={locale} vertical={vertical} context={{ page_path: path, location_id: serving[0]?.location_id ?? null, territorial_unit_id: jls?.id ?? null }} /></section>}
           <AdSlot code="svc_in_content_1" w={728} h={90} mobileH={250} label={d.ad} />
 
-          {c.faq?.length ? <section id="faq" data-reveal data-fx="flip"><SectionTitle>{L.faq}</SectionTitle><div className="grid gap-2">{c.faq.map((f, i) => <details key={i} className="card p-4 group"><summary className="cursor-pointer font-medium text-[14.5px] list-none flex justify-between gap-3">{f.q}<span className="text-muted group-open:rotate-45 transition">+</span></summary><p className="text-[14px] text-muted mt-2">{f.a}</p></details>)}</div></section> : null}
+          {c.faq?.length ? <section id="faq" data-reveal data-fx="flip"><SectionTitle>{L.faq}</SectionTitle><div className="grid gap-2">{c.faq.map((f, i) => <details key={i} className="card faq group"><summary className="cursor-pointer font-medium text-[14.5px] list-none flex justify-between gap-3">{f.q}<span className="text-muted group-open:rotate-45 transition" aria-hidden>+</span></summary><p className="text-[14px] text-muted">{f.a}</p></details>)}</div></section> : null}
 
           {c.for_foreigners && <section data-reveal data-fx="flip" className="rounded-2xl p-5 sm:p-6" style={{ background: "var(--accent-soft)" }}><div className="eyebrow text-accent-ink flex items-center gap-1.5"><Icon.globe /> {L.forForeigners}</div><p className="text-[14.5px] mt-2 whitespace-pre-line">{c.for_foreigners}</p></section>}
 

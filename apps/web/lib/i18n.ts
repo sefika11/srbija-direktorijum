@@ -7,7 +7,7 @@ export const HREFLANG: Record<Locale, string> = { sr: "sr-Latn", en: "en", ru: "
 
 const dict = {
   sr: {
-    siteName: "Gde da idem?", tagline: "Sve institucije Srbije na jednom mestu: adresa, telefon, radno vreme i ko je nadležan za vašu opštinu.",
+    siteName: "Gde da idem?", tagline: "Sve javne i privatne institucije Srbije na jednom mestu: adresa, telefon, radno vreme i ko je nadležan za vašu opštinu.", openerLabel: "javnih i privatnih institucija",
     searchPlaceholder: "Pretražite instituciju, uslugu ili grad…", search: "Pretraga", home: "Početna",
     browseByRegion: "Pronađite po okrugu", browseByCategory: "Pronađite po vrsti institucije", mapHint: "Pređite preko okruga ili ga izaberite na mapi.",
     institutions: "institucija", municipalities: "opština i gradova", inOkrug: "u okrugu", forForeigners: "Za strance", forForeignersLead: "Boravak, rad, PIB, firma, prevod dokumenata: gde se šta rešava.",
@@ -27,7 +27,7 @@ const dict = {
     groups: { republicki_organi: "Republički organi", lokalna_samouprava: "Lokalna samouprava", javna_preduzeca: "Javna preduzeća", javne_ustanove: "Javne ustanove", pravosudje_i_javna_ovlascenja: "Pravosuđe i javna ovlašćenja", privatne_usluge: "Privatne usluge" },
   },
   en: {
-    siteName: "Gde da idem?", tagline: "Every public institution in Serbia in one place: address, phone, opening hours, and which office serves your municipality.",
+    siteName: "Gde da idem?", tagline: "Every public and private institution in Serbia in one place: address, phone, opening hours, and which office serves your municipality.", openerLabel: "public and private institutions",
     searchPlaceholder: "Search an institution, service or town…", search: "Search", home: "Home",
     browseByRegion: "Browse by district", browseByCategory: "Browse by type of institution", mapHint: "Hover over a district or pick it on the map.",
     institutions: "institutions", municipalities: "municipalities and cities", inOkrug: "in district", forForeigners: "For foreigners", forForeignersLead: "Residence, work, tax number, company, certified translations: where each is handled.",
@@ -47,7 +47,7 @@ const dict = {
     groups: { republicki_organi: "National bodies", lokalna_samouprava: "Local government", javna_preduzeca: "Public utilities and enterprises", javne_ustanove: "Public institutions", pravosudje_i_javna_ovlascenja: "Courts, notaries and enforcement", privatne_usluge: "Private services" },
   },
   ru: {
-    siteName: "Gde da idem?", tagline: "Все государственные учреждения Сербии в одном месте: адрес, телефон, часы работы и какой орган отвечает за вашу общину.",
+    siteName: "Gde da idem?", tagline: "Все государственные и частные учреждения Сербии в одном месте: адрес, телефон, часы работы и какой орган отвечает за вашу общину.", openerLabel: "государственных и частных учреждений",
     searchPlaceholder: "Найти учреждение, услугу или город…", search: "Поиск", home: "Главная",
     browseByRegion: "По округам", browseByCategory: "По типу учреждения", mapHint: "Наведите на округ или выберите его на карте.",
     institutions: "учреждений", municipalities: "общин и городов", inOkrug: "в округе", forForeigners: "Для иностранцев", forForeignersLead: "ВНЖ, работа, налоговый номер, фирма, заверенный перевод: куда обращаться.",
@@ -67,7 +67,7 @@ const dict = {
     groups: { republicki_organi: "Республиканские органы", lokalna_samouprava: "Местное самоуправление", javna_preduzeca: "Коммунальные и публичные предприятия", javne_ustanove: "Публичные учреждения", pravosudje_i_javna_ovlascenja: "Суды, нотариусы, исполнители", privatne_usluge: "Частные услуги" },
   },
   de: {
-    siteName: "Gde da idem?", tagline: "Alle öffentlichen Einrichtungen Serbiens an einem Ort: Adresse, Telefon, Öffnungszeiten und welche Stelle für Ihre Gemeinde zuständig ist.",
+    siteName: "Gde da idem?", tagline: "Alle öffentlichen und privaten Einrichtungen Serbiens an einem Ort: Adresse, Telefon, Öffnungszeiten und welche Stelle für Ihre Gemeinde zuständig ist.", openerLabel: "öffentliche und private Einrichtungen",
     searchPlaceholder: "Einrichtung, Leistung oder Ort suchen…", search: "Suche", home: "Start",
     browseByRegion: "Nach Bezirk", browseByCategory: "Nach Art der Einrichtung", mapHint: "Bezirk auf der Karte wählen oder darüberfahren.",
     institutions: "Einrichtungen", municipalities: "Gemeinden und Städte", inOkrug: "im Bezirk", forForeigners: "Für Ausländer", forForeignersLead: "Aufenthalt, Arbeit, Steuernummer, Firma, beglaubigte Übersetzungen: wo was erledigt wird.",

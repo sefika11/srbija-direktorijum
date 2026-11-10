@@ -3,19 +3,21 @@
  *  the tricolour hairline drawing across, the institution count running up, then the curtain parts and the page's
  *  own reveals (headline words, 3D map rise) start. ≤ 2.1 s, skippable by click or key, skipped entirely on
  *  return visits in the same session and under prefers-reduced-motion. Purely presentational: aria-hidden. */
-import { useEffect, useState } from "react";
+import { useLayoutEffect, useState } from "react";
 
 const EXPO = (t: number) => (t >= 1 ? 1 : 1 - Math.pow(2, -10 * t));
 
 export default function Opener({ words, eyebrow, count, countLabel }: { words: string[]; eyebrow: string; count: number; countLabel: string }) {
   const [state, setState] = useState<"idle" | "play" | "out" | "done">("idle");
   const [n, setN] = useState(0);
-  useEffect(() => {
+  // layout effect: the decision lands before the browser paints, so a client-side navigation to the home page never
+  // shows the page under the opener either (the server-rendered first visit is covered by html.opener-pending)
+  useLayoutEffect(() => {
     const root = document.documentElement;
     let seen = false;
     try { seen = sessionStorage.getItem("gdi-opener") === "1"; } catch { /* storage blocked */ }
     const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    if (seen || reduced) { setState("done"); root.classList.add("opener-done"); return; }
+    if (seen || reduced) { setState("done"); root.classList.add("opener-done"); root.classList.remove("opener-pending", "has-opener"); return; }
     root.classList.add("has-opener");
     try { sessionStorage.setItem("gdi-opener", "1"); } catch { /* ignore */ }
     setState("play");
@@ -32,6 +34,8 @@ export default function Opener({ words, eyebrow, count, countLabel }: { words: s
     window.addEventListener("pointerdown", skip, { once: true }); window.addEventListener("keydown", skip, { once: true });
     return () => { window.clearTimeout(auto); cancelAnimationFrame(raf); window.removeEventListener("pointerdown", skip); window.removeEventListener("keydown", skip); };
   }, [count]);
+  // the pre-paint curtain (html.opener-pending) hands over once the opener's own halves are in the DOM, still before paint
+  useLayoutEffect(() => { if (state !== "idle") document.documentElement.classList.remove("opener-pending"); }, [state]);
   if (state === "idle" || state === "done") return null;
   return (
     <div className={`opener ${state === "out" ? "is-out" : ""}`} aria-hidden>

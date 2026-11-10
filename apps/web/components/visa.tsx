@@ -108,7 +108,7 @@ export async function CountryPage({ locale, country }: { locale: Locale; country
         </div>
         <VisaCountryStage iso2={c.iso2} name={name} label={passportWord} homeLabel="Srbija" />
       </div></section>
-      <div className="shell py-8 grid lg:grid-cols-[minmax(0,1fr)_380px] gap-8 items-start">
+      <div className="shell py-8 grid grid-cols-[minmax(0,1fr)] lg:grid-cols-[minmax(0,1fr)_380px] gap-8 items-start">
         {stations.length > 1 && (
           <div className="jstage-col lg:col-start-2 lg:row-start-1 self-start">
             <JourneyBoard stations={stations} emblem="embassy" pin={c.rs_mission_city ?? null} labels={{ hint: L.scrollHint, stage: L.journey }} />
@@ -134,7 +134,7 @@ export async function CountryPage({ locale, country }: { locale: Locale; country
               <ul className="mt-3 grid gap-2 sm:grid-cols-2">
                 {missions.map((m) => <li key={m.id} className="card card-hover spot p-3.5">
                   <div className="eyebrow plain">{m.type_name}{m.place_name ? ` · ${m.place_name}` : ""}</div>
-                  <Link href={href(locale, `/${m.type_slug}/${m.slug}`)} className="font-serif text-[17px] font-semibold no-underline text-ink hover:text-accent block mt-1">{m.name_lat}</Link>
+                  <Link href={href(locale, `/${m.type_slug}/${m.slug}`)} className="hit font-serif text-[17px] font-semibold no-underline text-ink hover:text-accent block mt-1">{m.name_lat}</Link>
                   <div className="mt-1.5 text-[13px] flex flex-wrap gap-x-4">{m.phone && <a href={`tel:${m.phone}`} className="vital-tel">{m.phone_display ?? m.phone}</a>}{m.website && <a href={m.website} rel="noopener" target="_blank" className="text-muted">{m.website.replace(/^https?:\/\//, "").replace(/\/$/, "")}</a>}</div>
                 </li>)}
               </ul>)}

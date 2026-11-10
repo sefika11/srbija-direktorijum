@@ -18,7 +18,9 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="sr-Latn">
+    <html lang="sr-Latn" suppressHydrationWarning>
+      {/* Home, first visit of the session: raise the paper curtain before the first paint so the page never shows under the opener. */}
+      <head><script dangerouslySetInnerHTML={{ __html: `(function(){try{var p=location.pathname;if(p.length>1&&p.charAt(p.length-1)==="/")p=p.slice(0,-1);if(["","/","/en","/ru","/de"].indexOf(p)<0)return;if(sessionStorage.getItem("gdi-opener")==="1")return;if(matchMedia("(prefers-reduced-motion: reduce)").matches)return;document.documentElement.classList.add("opener-pending","has-opener")}catch(e){}})()` }} /></head>
       <body><Heritage /><Motion />{children}</body>
     </html>
   );
