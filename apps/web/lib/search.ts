@@ -7,7 +7,7 @@ import { href, type Locale } from "./i18n";
 export type Place = { id: number; slug: string; name_lat: string; level: "jls" | "gradska_opstina" | "okrug"; parent_slug: string | null; parent_id: number | null; jls_kind: string | null; path: string };
 export type TypeHit = db.OrgType & { org_count: number; score: number };
 export type GuideHit = db.GuideRow & { score: number };
-export type Suggestion = { kind: "guide" | "type" | "place" | "org" | "country" | "action"; href: string; title: string; sub: string | null; icon?: string | null; phone?: string | null; iso2?: string | null; count?: number | null; tel?: string | null };
+export type Suggestion = { kind: "guide" | "type" | "place" | "org" | "country" | "action" | "section"; href: string; title: string; sub: string | null; icon?: string | null; phone?: string | null; iso2?: string | null; count?: number | null; tel?: string | null };
 export type Best =
   | { kind: "guide"; guide: db.GuideRow; serving: db.ServingRow[]; contacts: (db.Contact & { location_id: number })[]; hours: db.Hours[] }
   | { kind: "type"; type: TypeHit; serving: db.ServingRow[]; contacts: (db.Contact & { location_id: number })[]; hours: db.Hours[] }
@@ -63,9 +63,15 @@ async function detectPlace(tokens: string[]): Promise<{ place: Place; used: Set<
 function tokenize(q: string): string[] { return fold(cyrToLat(q)).split(" ").filter((t) => t && !STOP.has(t)); }
 function grams(tokens: string[]): string[] { const g = [...tokens]; for (let i = 0; i + 1 < tokens.length; i++) g.push(`${tokens[i]} ${tokens[i + 1]}`); return g; }
 
+/** Rough Serbian stemmer for matching: strips case/verb endings so "firmu", "firme", "firmom" all reach "firm". */
+export function stem(t: string): string {
+  if (t.length < 5) return t;
+  for (const suf of ["ima", "ama", "ome", "oga", "ih", "im", "om", "em", "ov", "ev", "u", "a", "e", "i", "o"]) if (t.endsWith(suf) && t.length - suf.length >= 4) return t.slice(0, -suf.length);
+  return t;
+}
 async function synonyms(tokens: string[]): Promise<{ kind: string; slug: string; weight: number }[]> {
   if (!tokens.length) return [];
-  const g = grams(tokens); const prefixes = tokens.filter((t) => t.length >= 4);
+  const g = grams(tokens); const prefixes = [...new Set([...tokens.filter((t) => t.length >= 4), ...tokens.map(stem).filter((t) => t.length >= 4)])];
   return sql<{ kind: string; slug: string; weight: number }[]>`
     select kind, slug, max(weight)::float as weight from search_synonyms
     where term = any(${g}::text[]) ${prefixes.length ? sql`or exists (select 1 from unnest(${prefixes}::text[]) p where term like p || '%' or p like term || '%')` : sql``}
@@ -92,7 +98,7 @@ async function matchGuides(intent: string, tokens: string[], syn: { kind: string
 async function matchTypes(intent: string, tokens: string[], syn: { kind: string; slug: string; weight: number }[], limit: number): Promise<TypeHit[]> {
   if (!intent && !syn.length) return [];
   const synSlugs = syn.filter((s) => s.kind === "type").map((s) => s.slug);
-  const toks = tokens.filter((t) => t.length >= 4);
+  const toks = [...new Set([...tokens.filter((t) => t.length >= 4), ...tokens.map(stem).filter((t) => t.length >= 4)])];
   const rows = await sql<TypeHit[]>`
     select t.id, t.slug, t."group", t.name_lat, t.name_cyr, t.name_plural_lat, t.description_md, t.faq_md, t.icon, t.sort_order, t.one_per_jls, t.national_network,
            (select count(*) from organizations o where o.org_type_id = t.id and o.status = 'active')::int as org_count,
@@ -167,6 +173,15 @@ export async function smartSearch(q: string, locale: Locale): Promise<SmartResul
 }
 
 /** Lightweight suggestions for the typeahead. */
+/** Site sections a user may type for directly: matched on folded prefixes in any of the four languages. */
+const SECTIONS: { path: string; icon: string; keys: string[]; title: Record<Locale, string>; sub: Record<Locale, string> }[] = [
+  { path: "/vize", icon: "globe", keys: ["viz", "visa", "pasos", "passport", "ulazak", "entry", "putovanj", "travel", "drzav", "countr", "виз", "паспорт", "einreis"], title: { sr: "Vize i uslovi ulaska", en: "Visas and entry rules", ru: "Визы и условия въезда", de: "Visa und Einreise" }, sub: { sr: "194 države · oba smera · koraci do vize", en: "194 countries · both directions · steps to a visa", ru: "194 страны · оба направления", de: "194 Länder · beide Richtungen" } },
+  { path: "/vodici", icon: "file-text", keys: ["vodic", "vodič", "guide", "kako", "how", "uputstv", "инструкц", "anleit"], title: { sr: "Vodiči: kako se šta rešava", en: "Guides: how things get done", ru: "Инструкции", de: "Anleitungen" }, sub: { sr: "lična karta, pasoš, boravak, firma…", en: "ID card, passport, residence, company…", ru: "документы, ВНЖ, фирма…", de: "Ausweis, Pass, Aufenthalt, Firma…" } },
+  { path: "/za-strance", icon: "users", keys: ["stranc", "foreign", "expat", "boravak", "residence", "иностран", "ausland"], title: { sr: "Za strance", en: "For foreigners", ru: "Для иностранцев", de: "Für Ausländer" }, sub: { sr: "boravak, PIB, banka, zdravstvo", en: "residence, tax ID, bank, health", ru: "ВНЖ, ИНН, банк, здоровье", de: "Aufenthalt, Steuernummer, Bank" } },
+  { path: "/ambasada", icon: "globe", keys: ["ambasad", "embass", "konzul", "consul", "посольств", "botschaft"], title: { sr: "Ambasade i konzulati u Srbiji", en: "Embassies and consulates in Serbia", ru: "Посольства и консульства", de: "Botschaften und Konsulate" }, sub: { sr: "125 predstavništava u Beogradu i Srbiji", en: "125 missions", ru: "125 представительств", de: "125 Vertretungen" } },
+  { path: "/partneri", icon: "briefcase", keys: ["partner", "oglas", "advert", "sponzor", "reklam"], title: { sr: "Partnerstvo i oglašavanje", en: "Partnership and advertising", ru: "Партнёрство и реклама", de: "Partnerschaft und Werbung" }, sub: { sr: "upiti, pozicije, cene", en: "inquiries, placements, prices", ru: "запросы, позиции, цены", de: "Anfragen, Plätze, Preise" } },
+  { path: "/banka", icon: "bank", keys: ["bank", "banka", "банк", "kartic", "racun", "kredit"], title: { sr: "Banke i ekspoziture", en: "Banks and branches", ru: "Банки и отделения", de: "Banken und Filialen" }, sub: { sr: "po gradovima, sa telefonima", en: "by city, with phones", ru: "по городам, с телефонами", de: "nach Städten, mit Telefon" } },
+];
 const ACTIONS: { re: RegExp; tel: string; title: Record<Locale, string> }[] = [
   { re: /^(policij|polic|192)/, tel: "192", title: { sr: "Policija", en: "Police", ru: "Полиция", de: "Polizei" } },
   { re: /^(vatrog|pozar|požar|193)/, tel: "193", title: { sr: "Vatrogasci", en: "Fire brigade", ru: "Пожарные", de: "Feuerwehr" } },
@@ -180,12 +195,14 @@ async function typeIcons(): Promise<Record<string, string | null>> {
   const rows = await sql<{ slug: string; icon: string | null }[]>`select slug, icon from org_types`;
   typeIconCache = { at: Date.now(), map: Object.fromEntries(rows.map((r) => [r.slug, r.icon])) }; return typeIconCache.map;
 }
+const COUNTRY_ALIASES: Record<string, string> = { amerik: "US", sad: "US", usa: "US", engles: "GB", britan: "GB", uk: "GB", velik: "GB", nemac: "DE", holand: "NL", nizozem: "NL", svajcar: "CH", austrij: "AT", rusij: "RU", kinesk: "CN", kin: "CN", japan: "JP", turs: "TR", grck: "GR", spanij: "ES", italij: "IT", francusk: "FR", kanad: "CA", australij: "AU", emirat: "AE", dubai: "AE", katar: "QA", egip: "EG", indij: "IN", koreja: "KR", madjar: "HU", hrvat: "HR", slovenij: "SI", bosn: "BA", crn: "ME", makedon: "MK", albanij: "AL", bugar: "BG", rumun: "RO" };
 async function matchCountries(tokens: string[], locale: Locale, limit: number): Promise<{ iso2: string; slug: string; name: string; to: string | null; from: string | null }[]> {
-  const toks = tokens.filter((t) => t.length >= 3); if (!toks.length) return [];
+  const toks = [...new Set([...tokens.filter((t) => t.length >= 4), ...tokens.map(stem).filter((t) => t.length >= 4)])]; if (!toks.length) return [];
+  const aliasIso = [...new Set(toks.flatMap((t) => Object.entries(COUNTRY_ALIASES).filter(([k]) => t.startsWith(k) || k.startsWith(t) && t.length >= 4).map(([, v]) => v)))];
   const rows = await sql<{ iso2: string; slug: string; name_sr: string; name_en: string; to_rs_regime: string | null; from_rs_regime: string | null }[]>`
     select iso2, slug, name_sr, name_en, to_rs_regime, from_rs_regime from countries
-    where exists (select 1 from unnest(${toks}::text[]) t where f_unaccent(lower(name_sr)) like t || '%' or f_unaccent(lower(name_en)) like t || '%' or f_unaccent(lower(name_sr)) like '% ' || t || '%')
-    order by name_sr limit ${limit}`;
+    where iso2 = any(${aliasIso}::text[]) or exists (select 1 from unnest(${toks}::text[]) t where f_unaccent(lower(name_sr)) like t || '%' or f_unaccent(lower(name_en)) like t || '%' or f_unaccent(lower(name_sr)) like '% ' || t || '%')
+    order by (iso2 = any(${aliasIso}::text[])) desc, name_sr limit ${limit}`;
   return rows.map((r) => ({ iso2: r.iso2, slug: r.slug, name: locale === "sr" ? r.name_sr : r.name_en, to: r.to_rs_regime, from: r.from_rs_regime }));
 }
 type BranchHit = { org_slug: string; org_name: string; type_slug: string; icon: string | null; location_slug: string; unit_name: string; address: string | null; phone: string | null };
@@ -217,13 +234,14 @@ export async function suggest(q: string, locale: Locale): Promise<Suggestion[]> 
   const [guides, types, places, orgs, countries, icons] = await Promise.all([
     matchGuides(intent, intentTokens, syn, 3), matchTypes(intent, intentTokens, syn, 4),
     det ? Promise.resolve([det.place]) : placesLike(tokens, 3), intent ? matchOrgs(intent, det?.place.path ?? null, 6) : Promise.resolve([]),
-    matchCountries(tokens, locale, 3).catch(() => []), typeIcons(),
+    matchCountries(intentTokens, locale, 3).catch(() => []), typeIcons(),
   ]);
   const branchTypes = [...new Set([...types.map((t) => t.slug), ...syn.filter((x) => x.kind === "type").map((x) => x.slug)])].slice(0, 4);
   const [phones, branches] = await Promise.all([orgPhones(orgs.map((o) => o.slug)).catch(() => ({} as Record<string, string>)), matchBranches(branchTypes, det?.place.path ?? null, 6).catch(() => [] as BranchHit[])]);
   const out: Suggestion[] = [];
   const folded = fold(cyrToLat(q));
   for (const a of ACTIONS) if (a.re.test(folded)) out.push({ kind: "action", href: `tel:${a.tel}`, title: a.title[locale], sub: a.tel.replace(/^0800/, "0800 "), tel: a.tel, icon: a.tel === "192" ? "shield" : a.tel === "193" ? "flame" : a.tel === "194" ? "heart-pulse" : a.tel === "1987" ? "car" : "zap" });
+  for (const sec of SECTIONS) if (tokens.some((t) => t.length >= 3 && sec.keys.some((k) => t.startsWith(fold(k)) || fold(k).startsWith(t)))) out.push({ kind: "section", href: href(locale, sec.path), title: sec.title[locale], sub: sec.sub[locale], icon: sec.icon });
   const placeQ = det ? `?opstina=${det.place.level === "gradska_opstina" ? det.place.parent_slug : det.place.slug}` : "";
   for (const g of guides) { const c = g.guide[locale] ?? g.guide.en ?? g.guide.sr ?? {}; out.push({ kind: "guide", href: href(locale, `/vodic/${g.slug}${det && det.place.level !== "okrug" ? placeQ : ""}`), title: c.title ?? g.name_lat, sub: det ? det.place.name_lat : g.category_name, icon: "file-text" }); }
   for (const t of types) out.push({ kind: "type", href: href(locale, det && det.place.level !== "okrug" ? `/${det.place.level === "gradska_opstina" ? det.place.parent_slug : det.place.slug}#${t.group}` : `/${t.slug}`), title: t.name_plural_lat ?? t.name_lat, sub: det ? det.place.name_lat : null, icon: t.icon, count: t.org_count });

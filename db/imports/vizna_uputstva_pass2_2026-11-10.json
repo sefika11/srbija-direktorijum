@@ -1,0 +1,369 @@
+{
+ "source": {
+  "generated": "2026-11-10",
+  "method": "Pass 2: official portals/embassy pages read via curl/Playwright/fetch; only fields read on an official page are filled, others left null",
+  "caveats": [
+   "Many portals block automated access (Cloudflare/Akamai): JO, PK, BH, DZ, CU, MA, ET, TZ forms",
+   "Rows only for countries where something better than current data was found"
+  ]
+ },
+ "rows": [
+  {
+   "iso2": "SA",
+   "instructions": {
+    "where": "Online Saudi eVisa portal (Serbia is on the portal's list of 72 eligible countries); nearest Saudi embassy for non-eligible cases",
+    "apply_url": "https://visa.visitsaudi.com/",
+    "appointment_url": null,
+    "documents": [],
+    "fee": null,
+    "processing": "Instant/online per portal; fee shown in the portal before payment (not published on the public pages)",
+    "validity": "One-year multiple-entry tourist eVisa, stay up to 90 days per visit",
+    "notes": "Serbia appears on the official eligible-countries list (checked 2026-11-10). Tourist eVisa covers leisure, family visits and Umrah (not Hajj), excludes study/work. Public pages do not list documents or the fee; they are shown during the application.",
+    "source_url": "https://visa.visitsaudi.com/"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "QA",
+   "instructions": {
+    "where": "Hayya platform (hayya.qa or Hayya app) - Tourist Visa (A1); Serbia is listed by Qatar Tourism among nationalities that apply for a tourist visa or pay for visa on arrival",
+    "apply_url": "https://www.hayya.qa/",
+    "appointment_url": null,
+    "documents": [
+     "Passport valid at least 3 months from date of arrival",
+     "Hotel reservation (accommodation proof) during application"
+    ],
+    "fee": "QAR 100, paid after approval",
+    "processing": null,
+    "validity": null,
+    "notes": "Processing time and A1 validity not stated on the official Qatar Tourism page. GCC citizens need no visa. Per the Serbian MFA: visa required for Serbian citizens.",
+    "source_url": "https://visitqatar.com/intl-en/plan-your-trip/visas"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "KW",
+   "instructions": {
+    "where": "Kuwait Ministry of Interior e-visa portal (tourist visa); eligibility of Serbian nationality must be checked by selecting the nationality on the portal",
+    "apply_url": "https://kuwaitvisa.moi.gov.kw/",
+    "appointment_url": null,
+    "documents": [
+     "Passport valid at least 6 months"
+    ],
+    "fee": null,
+    "processing": null,
+    "validity": "Entry permit valid 30 days from issuance; stay up to 90 days from entry; single entry (tourist)",
+    "notes": "Visa holder may not work. The Serbian MFA states that neither an e-visa nor visa on arrival is available to Serbian citizens - confirm on the portal's nationality selector before applying. Fee not published on public pages.",
+    "source_url": "https://kuwaitvisa.moi.gov.kw/"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "BH",
+   "instructions": {
+    "where": "Bahrain eVisa (NPRA portal) / services.bahrain.bh; alternative: Bahrain embassy in Moscow (non-resident accreditation)",
+    "apply_url": "https://www.evisa.gov.bh",
+    "appointment_url": "https://services.bahrain.bh/wps/portal/en/BSP/GSX-UI-EServiceDetails?esID=119",
+    "documents": [
+     "Copy of passport",
+     "Hotel reservation",
+     "Return ticket",
+     "3-month bank statement in English showing regular income of BHD 300-500 per month, or funds of BHD 150 per day of stay"
+    ],
+    "fee": "BHD 13 for the two-week single-entry Visit eVisa (BHD 9 visa fee + BHD 4 application fee)",
+    "processing": "3-5 working days",
+    "validity": "Two weeks, single entry",
+    "notes": "Per bahrain.bh service page the eVisa is open to nationals of 212 countries; the page does not name Serbia explicitly - confirm on the portal. Other eVisa types (multiple entry) have other fees. Embassy Moscow: moscow.mission@mofa.gov.bh, tel +7 499 995 0900.",
+    "source_url": "https://www.bahrain.bh/wps/portal/en/BNP/ServicesCatalogue/GSX-UI-PServiceDetails?psID=1871"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "IE",
+   "instructions": {
+    "where": "Apply online via AVATS (irishimmigration.ie); documents submitted to the application office stated on the summary form (VFS Global visa centre Belgrade)",
+    "apply_url": "https://visa.vfsglobal.com/srb/en/irl/apply-visa",
+    "appointment_url": null,
+    "documents": [
+     "Passport",
+     "Passport photographs",
+     "Medical or travel insurance",
+     "Application letter (reason for visit, dates, accommodation, who pays)",
+     "Signed AVATS application summary sheets",
+     "Invitation letter (if visiting family/friends)",
+     "Holiday or vacation plan",
+     "Proof of visa fee payment",
+     "Finance plan / proof of funds",
+     "Evidence of obligations to return home (employment, family, property)",
+     "Details of any previous visa refusals"
+    ],
+    "fee": "Single entry EUR 60; multiple entry EUR 100; transit EUR 25 (non-refundable; extra service charges may apply)",
+    "processing": "About 8 weeks from receipt of application",
+    "validity": "Short stay 'C' visa: up to 90 days",
+    "notes": "Apply from home country, ideally 3 months before travel; do not buy tickets before approval. Original documents only, certified translation if not in English or Irish. Ireland does not issue e-visas. Valid UK short-stay visa may be usable under the Short Stay Visa Waiver Programme for approved nationalities.",
+    "source_url": "https://www.irishimmigration.ie/how-to-apply-for-a-short-stay-c-visit-tourist-visa/"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "NZ",
+   "instructions": {
+    "where": "Online application with Immigration New Zealand (Visitor Visa); NZeTA is not shown for Serbia on the pages read - check the visa tool",
+    "apply_url": "https://www.immigration.govt.nz/visas/visitor-visa",
+    "appointment_url": null,
+    "documents": [
+     "Passport valid at least 3 months beyond planned departure",
+     "Acceptable photo",
+     "Proof of funds (about NZD 1,000 per month, or NZD 400 per month if accommodation prepaid)",
+     "Proof of onward ticket out of NZ or funds to buy one",
+     "Police certificate, chest X-ray or medical exam if requested",
+     "Translations into English of non-English documents",
+     "Sponsor form if sponsored"
+    ],
+    "fee": "From NZD 441",
+    "processing": "80% of applications decided within 2 weeks",
+    "validity": "Single entry up to 9 months in 18 months; multiple entry up to 6 months in each 12 months",
+    "notes": "No work allowed (remote work for overseas employer may be allowed); study up to 3 months allowed.",
+    "source_url": "https://www.immigration.govt.nz/visas/visitor-visa"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "MY",
+   "instructions": {
+    "where": "Embassy of Malaysia, Belgrade - in person on working days 9:00-11:30 (appointments by phone/email), or eVisa online",
+    "apply_url": "https://malaysiavisa.imi.gov.my",
+    "appointment_url": "mailto:mwbelgrade@kln.gov.my",
+    "documents": [
+     "Valid passport",
+     "Completed visa application form IM.47 (one copy, A4 double-sided)",
+     "Copy of passport photo page (valid at least 6 months after entry, at least 1 blank page)",
+     "One photo 3.5 x 5.0 cm, white background",
+     "Copy of return air ticket (all destinations and transits)",
+     "Copy of each hotel booking for the stay",
+     "Invitation letter if travelling on business or staying with friends/relatives"
+    ],
+    "fee": "RSD 700, cash, exact amount",
+    "processing": "At least 3 working days if documents are in order",
+    "validity": "Single entry visa (SEV)",
+    "notes": "Appointments: +381 11 2662 736, mwbelgrade@kln.gov.my (9:00-17:00; receptions 9:30-11:30). Travel insurance advised. From 1 Sep 2026 multiple-entry visas are restricted to 31 countries and specific travel purposes (Fly & Cruise, business etc.). Online eVisa documents per imi portal: photo, passport page valid 6+ months, return ticket, paid accommodation, proof of financial support.",
+    "source_url": "https://www.kln.gov.my/web/srb_belgrade/requirement_foreigner"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "LK",
+   "instructions": {
+    "where": "Sri Lanka Electronic Travel Authorization (ETA) online",
+    "apply_url": "https://www.eta.gov.lk/slvisa/",
+    "appointment_url": null,
+    "documents": [
+     "Passport valid at least 6 months from arrival",
+     "Round-trip ticket (if travelling by air)",
+     "Evidence of sufficient funds"
+    ],
+    "fee": "Tourist ETA, double entry 30 days: USD 50 for 'all other countries' (SAARC USD 20). Serbia is not on the list of 40 countries that get the 30-day ETA free since 25 May 2026",
+    "processing": "Online; usually quick (not stated on the pages read)",
+    "validity": "30 days, double entry (up to 90 days by extension/fee)",
+    "notes": "Serbia is not among the 40 free-ETA countries listed on eta.gov.lk (alert 01, effective 25.05.2026), so the standard fee table applies; confirm the current figure on the portal. Extension beyond 30 days via eservices.immigration.gov.lk.",
+    "source_url": "https://www.eta.gov.lk/slvisa/visainfo/fees.jsp?locale=en_US"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "NP",
+   "instructions": {
+    "where": "Nepal Department of Immigration - online visa form (pre-fill), visa issued on arrival at Tribhuvan Airport/border, or at a Nepalese diplomatic mission",
+    "apply_url": "https://immigration.gov.np/eta-visa-nepal",
+    "appointment_url": null,
+    "documents": [
+     "Valid ordinary passport (6+ months)",
+     "Previous visa (if any)",
+     "Supporting documents",
+     "Online tourist visa form receipt/barcode (valid 15 days)"
+    ],
+    "fee": "Tourist visa: 15 days USD 30; 30 days USD 50; 90 days USD 125 (online pre-payment adds 3.5% or NPR equivalent of USD 1)",
+    "processing": "Pre-approval/ETA by email via DoI; on-arrival issue same day",
+    "validity": "15, 30 or 90 days; extension USD 3/day (min 15 days), max 150 days per visa year",
+    "notes": "Re-entry +USD 25; overstay fine USD 5/day; children under 10 free. Some nationalities may not get on-arrival visas - confirm for Serbia with the DoI.",
+    "source_url": "https://immigration.gov.np/visa-fees-and-documents"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "TH",
+   "instructions": {
+    "where": "Visa on Arrival at Thai immigration checkpoints (Serbia listed among 3 eligible nationalities); Thai e-Visa (stickerless) for other stays",
+    "apply_url": "https://www.thaievisa.go.th/",
+    "appointment_url": null,
+    "documents": [
+     "Completed application form",
+     "One recent photo",
+     "Proof of funds: THB 10,000 per person / THB 20,000 per family",
+     "Passport valid at least 6 months with 2 blank pages",
+     "Fully paid onward ticket within 30 days of entry"
+    ],
+    "fee": "THB 2,000 (VOA, per Tourism Authority of Thailand; older page)",
+    "processing": null,
+    "validity": "Up to 15 days (tourism)",
+    "notes": "Royal Thai Embassy Doha page effective 15 Sep 2026 lists Serbia for VOA. Fee is from an older TAT page - verify at the border/embassy.",
+    "source_url": "https://doha.thaiembassy.org/en/publicservice/tourist-visa-exemption-visa-on-arrival?page=5d7e6a3c15e39c032c006dba&menu=5d7e6a3c15e39c032c006dbb"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "ZA",
+   "instructions": {
+    "where": "South African Department of Home Affairs ETA portal (OR Tambo, Cape Town, Lanseria, King Shaka airports only); otherwise visa via VFS/SA mission",
+    "apply_url": "https://eta.dha.gov.za/",
+    "appointment_url": null,
+    "documents": [
+     "Valid ordinary passport (validity per portal FAQ)",
+     "ETA approval",
+     "Return/onward ticket",
+     "Proof of accommodation",
+     "Proof of sufficient funds",
+     "Yellow fever certificate if applicable"
+    ],
+    "fee": "Electronic processing fee ZAR 500 (per DHA gazette 17 Aug 2026)",
+    "processing": null,
+    "validity": "ETA valid up to 6 months from issue; stay up to 90 days",
+    "notes": "Applicant must be 18+. Not valid for work. Passport validity rule differs between portal pages (FAQ: 7 months from travel and 30 days after visa expiry) - check the live form.",
+    "source_url": "https://eta.dha.gov.za/faq"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "TZ",
+   "instructions": {
+    "where": "Tanzania e-visa portal (Immigration Services) or visa on arrival; embassy Rome",
+    "apply_url": "https://visa.immigration.go.tz/",
+    "appointment_url": null,
+    "documents": [
+     "Passport valid at least 6 months with one unused page",
+     "Return ticket (shown at entry)"
+    ],
+    "fee": "Ordinary (single-entry) visa USD 50 (USA passports must take Multiple visa USD 100)",
+    "processing": "Within ten days of application",
+    "validity": "Ordinary visa up to 90 days",
+    "notes": "Wait for visa grant notice by email before travel. Fees pre-paid and non-refundable. Apply only on the official site.",
+    "source_url": "https://visa.immigration.go.tz/guidelines"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "GA",
+   "instructions": {
+    "where": "Gabon e-visa platform (arrival only via Libreville Leon M'ba airport); Gabon embassy in Moscow accredited for Serbia",
+    "apply_url": "https://evisa.dgdi.ga/",
+    "appointment_url": null,
+    "documents": [
+     "Online application form",
+     "Copy of passport data page (valid 6+ months)",
+     "Colour photo 35 x 45 mm (under 6 months old)"
+    ],
+    "fee": "1-3 months single entry EUR 70 or XAF 45,000 + EUR 15 file fee; 6 months multiple entry EUR 185 or XAF 120,000 + EUR 15 file fee (paid on arrival at delivery of visa sticker)",
+    "processing": "72 hours after ETA reception",
+    "validity": "1-3 months single entry or 6 months multiple entry",
+    "notes": "Extensions at DGDI Libreville (1-month visa +2 months; 2-month visa +1 month). Contact evisa@dgdi.ga, +241 01 77 03 24.",
+    "source_url": "https://evisa.dgdi.ga/"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "DJ",
+   "instructions": {
+    "where": "Djibouti e-visa portal (Immigration Directorate)",
+    "apply_url": "https://www.evisa.gouv.dj",
+    "appointment_url": null,
+    "documents": [
+     "Passport valid at least 6 months",
+     "Flight reservation",
+     "Accommodation address (hotel or host)",
+     "Invitation letter (organisation or host with contacts)",
+     "Credit card (Visa, Mastercard or Amex)"
+    ],
+    "fee": null,
+    "processing": null,
+    "validity": "Single entry",
+    "notes": "Fee shown in portal before payment. Cash limit USD 5,000.",
+    "source_url": "https://www.evisa.gouv.dj"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "CU",
+   "instructions": {
+    "where": "Cuba eVisa portal (tourist visa) or Cuban consulates",
+    "apply_url": "https://evisacuba.cu/en/inicio",
+    "appointment_url": null,
+    "documents": [
+     "Valid passport for the whole stay",
+     "Email address to receive visa code"
+    ],
+    "fee": "Cost shown on the application form per consulate",
+    "processing": "Response within 72 business hours",
+    "validity": "Tourist visa single entry, 90 days, extendable 90 days",
+    "notes": "Separate D'Viajeros pre-arrival form may be required. Tourist visa does not cover business/journalist/work trips.",
+    "source_url": "https://evisacuba.cu/en/inicio"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "KH",
+   "instructions": {
+    "where": "Cambodia e-visa portal",
+    "apply_url": "https://www.evisa.gov.kh/",
+    "appointment_url": null,
+    "documents": [],
+    "fee": null,
+    "processing": "Approval within 3 business days",
+    "validity": "See visa type (T, E, A, B, C)",
+    "notes": "e-Visa accepted at Techo, Siem Reap-Angkor and Sihanoukville airports and Bavet and Tropaeng Kreal land borders; Cham Yeam and Poipet temporarily closed for e-visa. Cambodia e-Arrival form required within 7 days before arrival even for visa holders.",
+    "source_url": "https://www.evisa.gov.kh/"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "MN",
+   "instructions": {
+    "where": "Mongolian diplomatic missions or border points (K2 tourist visa up to 30 days); e-visa at evisa.mn for eligible nationalities",
+    "apply_url": "https://evisa.mn/en/apply",
+    "appointment_url": null,
+    "documents": [
+     "Copy of passport (valid 180 days before travel)",
+     "Completed application form",
+     "Payment receipt",
+     "Two-way flight ticket confirmation if needed",
+     "Official invitation letter if travelling with family"
+    ],
+    "fee": "MNT 2,500 standard / MNT 5,000 expedited (Immigration Agency fee note)",
+    "processing": "Standard 5 working days; expedite 3 working days",
+    "validity": "Up to 30 days (K2)",
+    "notes": "E-visa (ETA) processing about 3 working days, non-extendable; whether Serbia is eligible for e-visa should be confirmed on evisa.mn.",
+    "source_url": "https://immigration.gov.mn/en/k2-visa-permit/"
+   },
+   "reason": null
+  },
+  {
+   "iso2": "CI",
+   "instructions": {
+    "where": "Côte d'Ivoire e-visa via SNEDAI (only site recognised by the state); biometric enrolment at Abidjan airport",
+    "apply_url": "https://www.snedai.com/e-visa/",
+    "appointment_url": null,
+    "documents": [
+     "Passport identity page(s)",
+     "Return flight reservation",
+     "Invitation letter or accommodation certificate (typed, signed, stamped, legalised)",
+     "On arrival: payment receipt, approved pre-enrolment document, passport valid 6+ months"
+    ],
+    "fee": "EUR 73 incl. bank charges (3 months, multiple entry)",
+    "processing": "DST answer within 48 working hours, may take longer",
+    "validity": "Pre-enrolment approval valid 3 months; 3-month multiple entry visa",
+    "notes": "Ordinary passports only (6+ months validity). Max 1 MB per file. Biometric enrolment mandatory at airport.",
+    "source_url": "https://www.snedai.com/e-visa/"
+   },
+   "reason": null
+  }
+ ]
+}
