@@ -334,7 +334,7 @@ export async function UnitHub({ locale, unit, parent }: { locale: Locale; unit: 
             const main = g === "lokalna_samouprava" ? list.filter((o) => o.type_slug !== "mesna-zajednica") : list;
             return (
               <section key={g} className="mb-8">
-                <SectionTitle id={g}><span className="inline-flex items-center gap-2.5"><Glyph3D icon={GROUP_GLYPH[g]} size={34} /> {d.groups[g]} <span className="text-muted font-normal text-[14px] tabular">{list.length}</span></span></SectionTitle>
+                <SectionTitle id={g}><span className="inline-flex items-center gap-2.5"><Glyph3D icon={GROUP_GLYPH[g]} size={34} /> {d.groups[g]} {(g === "republicki_organi" ? list.length + serving.length : list.length) > 0 && <span className="text-muted font-normal text-[14px] tabular">{g === "republicki_organi" ? list.length + serving.length : list.length}</span>}</span></SectionTitle>
                 {g === "republicki_organi" && (
                   <ul className="grid sm:grid-cols-2 gap-2 mb-3">
                     {serving.map(({ type, rows }) => (
