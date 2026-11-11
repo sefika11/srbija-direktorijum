@@ -1,0 +1,854 @@
+{
+ "id": "find-064",
+ "kind": "sites",
+ "title": "Leskovac, Loznica, Ljig",
+ "rows": [
+  {
+   "org_slug": "tehnicka-skola-rade-metalac-leskovac",
+   "name": "Tehnička škola \"Rade Metalac\"",
+   "official_name": null,
+   "type": "Srednja škola / Gimnazija",
+   "type_slug": "srednja-skola",
+   "place": "Leskovac",
+   "settlement": null,
+   "mb": "07137770",
+   "website": null,
+   "have": {
+    "address": "Dimitrija Tucovića 104",
+    "phones": "016 234612; 016 246110",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "trgovinsko-ugostiteljska-skola-leskovac",
+   "name": "Trgovinsko - Ugostiteljska škola",
+   "official_name": null,
+   "type": "Srednja škola / Gimnazija",
+   "type_slug": "srednja-skola",
+   "place": "Leskovac",
+   "settlement": null,
+   "mb": "07207301",
+   "website": null,
+   "have": {
+    "address": "Dubočica 84",
+    "phones": "016 222962",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "skola-za-tekstil-i-dizajn-leskovac",
+   "name": "Škola za Tekstil i Dizajn",
+   "official_name": null,
+   "type": "Srednja škola / Gimnazija",
+   "type_slug": "srednja-skola",
+   "place": "Leskovac",
+   "settlement": null,
+   "mb": "07204701",
+   "website": null,
+   "have": {
+    "address": "Vilema Pušmana 21",
+    "phones": "016 251040; 016 241767",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "usluga-socijalne-zastite-centar-za-samostalni-zivot-osoba-sa-in-juznomoravskih",
+   "name": "CENTAR ZA SAMOSTALNI ŽIVOT OSOBA SA IN – Južnomoravskih brigada",
+   "official_name": null,
+   "type": "Usluga socijalne zaštite",
+   "type_slug": "usluga-socijalne-zastite",
+   "place": "Leskovac",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Južnomoravskih brigada bb",
+    "phones": "016 215927",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "usluga-socijalne-zastite-centar-za-socijalni-rad-leskovac-leskovac",
+   "name": "Centar ZA Socijalni Rad Leskovac",
+   "official_name": null,
+   "type": "Usluga socijalne zaštite",
+   "type_slug": "usluga-socijalne-zastite",
+   "place": "Leskovac",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Koste Stamenkovića br.6",
+    "phones": "016 3150156; 064 8986697; 016 252494",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "usluga-socijalne-zastite-udruzenje-za-pomoc-mentalno-nedovoljno-nikole",
+   "name": "UDRUŽENJE ZA POMOĆ MENTALNO NEDOVOLJNO – Nikole Skobaljića br.",
+   "official_name": null,
+   "type": "Usluga socijalne zaštite",
+   "type_slug": "usluga-socijalne-zastite",
+   "place": "Leskovac",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Nikole Skobaljića br. 147",
+    "phones": "016 280554; 065 2805540",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "usluga-socijalne-zastite-udruzenje-distroficara-jablanickog-okruga-leskovac",
+   "name": "Udruženje Distrofičara Jablaničkog Okruga",
+   "official_name": null,
+   "type": "Usluga socijalne zaštite",
+   "type_slug": "usluga-socijalne-zastite",
+   "place": "Leskovac",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Južnomoravskih brigada bb",
+    "phones": "016 216663; 065 2421030",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "usluga-socijalne-zastite-udruzenje-roditelja-i-nastavnika-partnerski-za",
+   "name": "Udruženje Roditelja I Nastavnika ''partnerski ZA Obrazovanje'' Leskovac",
+   "official_name": null,
+   "type": "Usluga socijalne zaštite",
+   "type_slug": "usluga-socijalne-zastite",
+   "place": "Leskovac",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Rade Končara br. 1",
+    "phones": "060 0366233",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "centar-za-ekonomiku-domacinstva-danica-vuksanovic-u-likvidaciji-leskovac",
+   "name": "Centar za Ekonomiku Domaćinstva Danica Vuksanović - u Likvidaciji",
+   "official_name": null,
+   "type": "Javna ustanova",
+   "type_slug": "ustanova",
+   "place": "Leskovac",
+   "settlement": null,
+   "mb": "07139519",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "centar-za-strucno-usavrsavanje-u-obrazovanju-leskovac-leskovac",
+   "name": "Centar za Stručno Usavršavanje u Obrazovanju Leskovac",
+   "official_name": null,
+   "type": "Javna ustanova",
+   "type_slug": "ustanova",
+   "place": "Leskovac",
+   "settlement": null,
+   "mb": "17782738",
+   "website": null,
+   "have": {
+    "address": "Leskovačkog odreda 6",
+    "phones": "016 214555",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "kazneno-popravni-zavod-u-leskovcu-leskovac",
+   "name": "Kazneno - Popravni zavod u Leskovcu",
+   "official_name": null,
+   "type": "Javna ustanova",
+   "type_slug": "ustanova",
+   "place": "Leskovac",
+   "settlement": null,
+   "mb": "18829193",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "ustanova-za-odrasle-i-starije-leskovac-leskovac",
+   "name": "Ustanova za Odrasle i Starije \"Leskovac\"",
+   "official_name": null,
+   "type": "Javna ustanova",
+   "type_slug": "ustanova",
+   "place": "Leskovac",
+   "settlement": null,
+   "mb": "07139853",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "ivan-vet-leskovac-n462178861",
+   "name": "Ivan-Vet",
+   "official_name": null,
+   "type": "Veterinarska stanica / ambulanta",
+   "type_slug": "veterinarska-stanica",
+   "place": "Leskovac",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "akademija-strukovnih-studija-juzna-srbija-leskovac",
+   "name": "Akademija Strukovnih Studija Južna srbija",
+   "official_name": null,
+   "type": "Visoka škola / akademija strukovnih studija",
+   "type_slug": "visoka-skola",
+   "place": "Leskovac",
+   "settlement": null,
+   "mb": "17922645",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "zajednicki-centar-za-socijalni-rad-solidarnost-za-opstine-ljig-lajkovac-i-mionicu-ljig",
+   "name": "Zajednički centar za socijalni rad \"Solidarnost\" za opštine Ljig,lajkovac i Mionicu",
+   "official_name": null,
+   "type": "Centar za socijalni rad",
+   "type_slug": "centar-za-socijalni-rad",
+   "place": "Ljig",
+   "settlement": null,
+   "mb": "07301928",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-komunalac-ljig-ljig",
+   "name": "Javno komunalno preduzeće Komunalac Ljig",
+   "official_name": null,
+   "type": "JKP Čistoća / Komunalac",
+   "type_slug": "jkp-cistoca",
+   "place": "Ljig",
+   "settlement": null,
+   "mb": "07099240",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "gradska-biblioteka-milovan-danojlic-ljig",
+   "name": "Gradska Biblioteka\"milovan Danojlić\"",
+   "official_name": null,
+   "type": "Narodna biblioteka",
+   "type_slug": "narodna-biblioteka",
+   "place": "Ljig",
+   "settlement": null,
+   "mb": "17039377",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-sava-kerkovic-ljig",
+   "name": "Osnovna škola \"Sava Kerković\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Ljig",
+   "settlement": null,
+   "mb": "07099231",
+   "website": null,
+   "have": {
+    "address": "Svetog Save 22a",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-sestre-pavlovic-belanovica-ljig",
+   "name": "Osnovna škola \"Sestre Pavlović\" Belanovica",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Ljig",
+   "settlement": "Belanovica",
+   "mb": "07099215",
+   "website": null,
+   "have": {
+    "address": "Vuka Karadžića 27",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "srednja-skola-hiljadu-trista-kaplara-ljig-ljig",
+   "name": "Srednja škola Hiljadu Trista Kaplara Ljig",
+   "official_name": null,
+   "type": "Srednja škola / Gimnazija",
+   "type_slug": "srednja-skola",
+   "place": "Ljig",
+   "settlement": null,
+   "mb": "07099355",
+   "website": null,
+   "have": {
+    "address": "Vojvode Mišića 26",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "usluga-socijalne-zastite-pomoc-u-kuci-pri-zajednickom-centru-za-socijalni-rad",
+   "name": "Pomoć u kući pri ZAJEDNIČKOM CENTRU ZA SOCIJALNI RAD ''SOLIDARNOST'' ZA OPŠTINE LJIG, LAJKOVAC I MINONICA",
+   "official_name": null,
+   "type": "Usluga socijalne zaštite",
+   "type_slug": "usluga-socijalne-zastite",
+   "place": "Ljig",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Karađorđeva br.8",
+    "phones": "014 3445241; 014 3445112",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "apotekarska-ustanova-lukic-lek-ljubovija",
+   "name": "Apotekarska ustanova \"Lukić-lek\"",
+   "official_name": null,
+   "type": "Apotekarska ustanova",
+   "type_slug": "apoteka",
+   "place": "Ljubovija",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Karađorđeva broj 8",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-drinska-lasta-ljubovija",
+   "name": "Drinska lasta",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Ljubovija",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Zaobilazni Put Zvornik-Ljubovija 21",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "jp-za-upravljanje-gradjevinskim-zemljistem-i-putevima-ljubovija-sa-potpunom-odgovornoscu-ljubovija-l",
+   "name": "JP za upravljanje Građevinskim Zemljištem i Putevima Ljubovija sa Potpunom odgovornošću, Ljubovija",
+   "official_name": null,
+   "type": "JP za puteve i izgradnju",
+   "type_slug": "jp-putevi",
+   "place": "Ljubovija",
+   "settlement": null,
+   "mb": "07367821",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-sveti-sava-ljubovija",
+   "name": "Osnovna škola \"Sveti Sava\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Ljubovija",
+   "settlement": null,
+   "mb": "07311699",
+   "website": null,
+   "have": {
+    "address": "Jovana Cvijića 1",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-poletarac-ljubovija",
+   "name": "Predškolska ustanova \"Poletarac\"",
+   "official_name": null,
+   "type": "Predškolska ustanova (vrtić)",
+   "type_slug": "predskolska-ustanova",
+   "place": "Ljubovija",
+   "settlement": null,
+   "mb": "07312431",
+   "website": null,
+   "have": {
+    "address": "Desanke Maksimović 3",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "podrinje-loznica-n11229819946",
+   "name": "Podrinje",
+   "official_name": null,
+   "type": "Agencija za nekretnine",
+   "type_slug": "agencija-za-nekretnine",
+   "place": "Loznica",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "agencija-za-privremeno-zaposljavanje-podrinje-info-job-doo-loznica-loznica",
+   "name": "Agencija ZA Privremeno Zapošljavanje Podrinje Info Job DOO Loznica",
+   "official_name": null,
+   "type": "Agencija za zapošljavanje",
+   "type_slug": "agencija-za-zaposljavanje",
+   "place": "Loznica",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Trg Jovana Cvijića 6",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "apoteka-privatna-praksa-loznica-loznica",
+   "name": "Apoteka privatna praksa \"Loznica\"",
+   "official_name": null,
+   "type": "Apotekarska ustanova",
+   "type_slug": "apoteka",
+   "place": "Loznica",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Ugao ulica Luke Stevića i Dositeja Obradovića",
+    "phones": "064 4389384",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "apotekarska-ustanova-viola-loznica",
+   "name": "Apotekarska ustanova \"Viola\"",
+   "official_name": null,
+   "type": "Apotekarska ustanova",
+   "type_slug": "apoteka",
+   "place": "Loznica",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Vovode Putnika bb",
+    "phones": "015 893462",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "as-loznica-n11177359492",
+   "name": "As",
+   "official_name": null,
+   "type": "Auto-škola",
+   "type_slug": "auto-skola",
+   "place": "Loznica",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "auto-skola-milan-ilic-loznica-n11177359498",
+   "name": "Auto-škola Milan Ilić",
+   "official_name": null,
+   "type": "Auto-škola",
+   "type_slug": "auto-skola",
+   "place": "Loznica",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-havana-loznica",
+   "name": "Havana",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Loznica",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Luke Stevića 6",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-podrinje-banja-koviljaca",
+   "name": "Podrinje",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Loznica",
+   "settlement": "Banja Koviljača",
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "28.slavonske Divizije 18, sprat:",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-royal-spa-banja-koviljaca",
+   "name": "Royal spa",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Loznica",
+   "settlement": "Banja Koviljača",
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Narodnog Fronta 42",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-stobex-loznica",
+   "name": "Stobex",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Loznica",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "85",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-sun-loznica-loznica",
+   "name": "Sun Loznica",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Loznica",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Kneza Miloša 15",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "inovacioni-startap-centar-smart-city-loznica-doo-loznica-loznica",
+   "name": "Inovacioni Startap Centar Smart City Loznica DOO Loznica",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Loznica",
+   "settlement": null,
+   "mb": "22048341",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "regionalna-razvojna-agencija-podrinja-podgorine-i-radjevine-doo-loznica-loznica",
+   "name": "Regionalna Razvojna Agencija Podrinja Podgorine i Rađevine DOO Loznica",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Loznica",
+   "settlement": null,
+   "mb": "20951150",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privredno-drustvo-za-distribuciju-gasa-loznica-gas-doo-u-mesovitoj-svojini-loznica-loznica",
+   "name": "Privredno društvo za Distribuciju Gasa Loznica-Gas DOO u Mešovitoj Svojini Loznica",
+   "official_name": null,
+   "type": "Distribucija gasa",
+   "type_slug": "jkp-gas",
+   "place": "Loznica",
+   "settlement": null,
+   "mb": "17547402",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  }
+ ]
+}

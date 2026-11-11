@@ -1,0 +1,873 @@
+{
+ "id": "find-127",
+ "kind": "sites",
+ "title": "Užice",
+ "rows": [
+  {
+   "org_slug": "trezor-uzice-n7947691207",
+   "name": "Trezor",
+   "official_name": null,
+   "type": "Računovodstvena agencija",
+   "type_slug": "racunovodstvena-agencija",
+   "place": "Užice",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "triben-uzice-n8733704041",
+   "name": "Triben",
+   "official_name": null,
+   "type": "Računovodstvena agencija",
+   "type_slug": "racunovodstvena-agencija",
+   "place": "Užice",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "vizija-uzice-n7952291322",
+   "name": "Vizija",
+   "official_name": null,
+   "type": "Računovodstvena agencija",
+   "type_slug": "racunovodstvena-agencija",
+   "place": "Užice",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-adrasteia-doo-uzice-uzice",
+   "name": "Adrasteia Doo Užice",
+   "official_name": null,
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "type_slug": "skola-za-odrasle",
+   "place": "Užice",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Heroja Luna 29",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-mokrogorska-skola-menadzmenta-mokra-gora",
+   "name": "Mokrogorska Škola Menadžmenta",
+   "official_name": null,
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "type_slug": "skola-za-odrasle",
+   "place": "Užice",
+   "settlement": "Mokra Gora",
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Naselje Mećavnik bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-remontni-centar-uzice",
+   "name": "Remontni Centar",
+   "official_name": null,
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "type_slug": "skola-za-odrasle",
+   "place": "Užice",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Radnička 11",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "ekonomska-skola-uzice-uzice",
+   "name": "Ekonomska škola Užice",
+   "official_name": null,
+   "type": "Srednja škola / Gimnazija",
+   "type_slug": "srednja-skola",
+   "place": "Užice",
+   "settlement": null,
+   "mb": "07279345",
+   "website": null,
+   "have": {
+    "address": "Trg Svetog Save 6",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "medicinska-skola-uzice-uzice",
+   "name": "Medicinska škola Užice",
+   "official_name": null,
+   "type": "Srednja škola / Gimnazija",
+   "type_slug": "srednja-skola",
+   "place": "Užice",
+   "settlement": null,
+   "mb": "07579403",
+   "website": null,
+   "have": {
+    "address": "Nemanjina 148",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "muzicka-skola-vojislav-lale-stefanovic-uzice",
+   "name": "Muzička škola \"Vojislav-Lale Stefanović\"",
+   "official_name": null,
+   "type": "Srednja škola / Gimnazija",
+   "type_slug": "srednja-skola",
+   "place": "Užice",
+   "settlement": null,
+   "mb": "07249187",
+   "website": null,
+   "have": {
+    "address": "Trg Svetog Save 8",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "tehnicka-skola-radoje-ljubicic-uzice",
+   "name": "Tehnička škola \"Radoje Ljubičić\"",
+   "official_name": null,
+   "type": "Srednja škola / Gimnazija",
+   "type_slug": "srednja-skola",
+   "place": "Užice",
+   "settlement": null,
+   "mb": "07156634",
+   "website": null,
+   "have": {
+    "address": "Nikole Pašića 17",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "tehnicka-skola-uzice-uzice",
+   "name": "Tehnička škola Užice",
+   "official_name": null,
+   "type": "Srednja škola / Gimnazija",
+   "type_slug": "srednja-skola",
+   "place": "Užice",
+   "settlement": null,
+   "mb": "07156758",
+   "website": null,
+   "have": {
+    "address": "Trg Svetog Save 34",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "umetnicka-skola-uzice",
+   "name": "Umetnička škola",
+   "official_name": null,
+   "type": "Srednja škola / Gimnazija",
+   "type_slug": "srednja-skola",
+   "place": "Užice",
+   "settlement": null,
+   "mb": "17434900",
+   "website": null,
+   "have": {
+    "address": "Veliki Park 3",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "amelia-uzice-n13851702281",
+   "name": "Amelia",
+   "official_name": null,
+   "type": "Stomatološka ordinacija",
+   "type_slug": "stomatoloska-ordinacija",
+   "place": "Užice",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "caninus-uzice-n7939700589",
+   "name": "Caninus",
+   "official_name": null,
+   "type": "Stomatološka ordinacija",
+   "type_slug": "stomatoloska-ordinacija",
+   "place": "Užice",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "dr-bondzulic-uzice-n8401641565",
+   "name": "Dr Bondžulić",
+   "official_name": null,
+   "type": "Stomatološka ordinacija",
+   "type_slug": "stomatoloska-ordinacija",
+   "place": "Užice",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "dr-maja-paunovic-pr-uzice-n9382351992",
+   "name": "Dr Maja Paunović PR",
+   "official_name": null,
+   "type": "Stomatološka ordinacija",
+   "type_slug": "stomatoloska-ordinacija",
+   "place": "Užice",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "dr-vlajkovic-uzice-n8401641563",
+   "name": "Dr Vlajković",
+   "official_name": null,
+   "type": "Stomatološka ordinacija",
+   "type_slug": "stomatoloska-ordinacija",
+   "place": "Užice",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "esculap-dent-uzice-n9379984383",
+   "name": "Esculap-dent",
+   "official_name": null,
+   "type": "Stomatološka ordinacija",
+   "type_slug": "stomatoloska-ordinacija",
+   "place": "Užice",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "estetika-uzice-n8119478490",
+   "name": "Estetika",
+   "official_name": null,
+   "type": "Stomatološka ordinacija",
+   "type_slug": "stomatoloska-ordinacija",
+   "place": "Užice",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "filip-uzice-n13894297234",
+   "name": "Filip",
+   "official_name": null,
+   "type": "Stomatološka ordinacija",
+   "type_slug": "stomatoloska-ordinacija",
+   "place": "Užice",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "gojgic-uzice-n8459061562",
+   "name": "Gojgić",
+   "official_name": null,
+   "type": "Stomatološka ordinacija",
+   "type_slug": "stomatoloska-ordinacija",
+   "place": "Užice",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "keramika-dentis-uzice-n13917020019",
+   "name": "Keramika Dentis",
+   "official_name": null,
+   "type": "Stomatološka ordinacija",
+   "type_slug": "stomatoloska-ordinacija",
+   "place": "Užice",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "maltar-dr-mladen-uzice-n8203094772",
+   "name": "Maltar dr Mladen",
+   "official_name": null,
+   "type": "Stomatološka ordinacija",
+   "type_slug": "stomatoloska-ordinacija",
+   "place": "Užice",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "markovic-lula-uzice-n13843641607",
+   "name": "Marković - Lula",
+   "official_name": null,
+   "type": "Stomatološka ordinacija",
+   "type_slug": "stomatoloska-ordinacija",
+   "place": "Užice",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "moj-stomatolog-uzice-n9505089336",
+   "name": "Moj stomatolog",
+   "official_name": null,
+   "type": "Stomatološka ordinacija",
+   "type_slug": "stomatoloska-ordinacija",
+   "place": "Užice",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "novi-osmeh-uzice-n8569311473",
+   "name": "Novi osmeh",
+   "official_name": null,
+   "type": "Stomatološka ordinacija",
+   "type_slug": "stomatoloska-ordinacija",
+   "place": "Užice",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osmeh-iii-sprat-uzice-n8508254991",
+   "name": "Osmeh - III sprat",
+   "official_name": null,
+   "type": "Stomatološka ordinacija",
+   "type_slug": "stomatoloska-ordinacija",
+   "place": "Užice",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "primadent-uzice-n13843641626",
+   "name": "PrimaDent",
+   "official_name": null,
+   "type": "Stomatološka ordinacija",
+   "type_slug": "stomatoloska-ordinacija",
+   "place": "Užice",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "slavica-pavlovic-uzice-n13840499227",
+   "name": "Slavica Pavlović",
+   "official_name": null,
+   "type": "Stomatološka ordinacija",
+   "type_slug": "stomatoloska-ordinacija",
+   "place": "Užice",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "smiledent-uzice-n8010956679",
+   "name": "Smiledent",
+   "official_name": null,
+   "type": "Stomatološka ordinacija",
+   "type_slug": "stomatoloska-ordinacija",
+   "place": "Užice",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "sundent-uzice-n13843641610",
+   "name": "Sundent",
+   "official_name": null,
+   "type": "Stomatološka ordinacija",
+   "type_slug": "stomatoloska-ordinacija",
+   "place": "Užice",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "vas-zubar-uzice-n8567760958",
+   "name": "Vaš zubar",
+   "official_name": null,
+   "type": "Stomatološka ordinacija",
+   "type_slug": "stomatoloska-ordinacija",
+   "place": "Užice",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "vitadent-uzice-n8044539384",
+   "name": "Vitadent",
+   "official_name": null,
+   "type": "Stomatološka ordinacija",
+   "type_slug": "stomatoloska-ordinacija",
+   "place": "Užice",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "vranic-uzice-n8401641570",
+   "name": "Vranić",
+   "official_name": null,
+   "type": "Stomatološka ordinacija",
+   "type_slug": "stomatoloska-ordinacija",
+   "place": "Užice",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "vulovic-uzice-n13840499228",
+   "name": "Vulović",
+   "official_name": null,
+   "type": "Stomatološka ordinacija",
+   "type_slug": "stomatoloska-ordinacija",
+   "place": "Užice",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "zuco-uzice-n8385184363",
+   "name": "Žućo",
+   "official_name": null,
+   "type": "Stomatološka ordinacija",
+   "type_slug": "stomatoloska-ordinacija",
+   "place": "Užice",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "centar-za-razvoj-integrisanog-univerziteta-uzice",
+   "name": "Centar za razvoj Integrisanog Univerziteta",
+   "official_name": null,
+   "type": "Univerzitet",
+   "type_slug": "univerzitet",
+   "place": "Užice",
+   "settlement": null,
+   "mb": "17831330",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "usluga-socijalne-zastite-gradski-centar-za-usluge-socijalne-zastite-uzice-koste",
+   "name": "GRADSKI CENTAR ZA USLUGE SOCIJALNE ZAŠTITE UŽICE – Koste Vojinovića br. 6",
+   "official_name": null,
+   "type": "Usluga socijalne zaštite",
+   "type_slug": "usluga-socijalne-zastite",
+   "place": "Užice",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Koste Vojinovića br. 6",
+    "phones": "031 3100800; 064 2883088",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "usluga-socijalne-zastite-gradski-centar-za-usluge-socijalne-zastite-uzice",
+   "name": "GRADSKI CENTAR ZA USLUGE SOCIJALNE ZAŠTITE UŽICE – Vidovdanska br. 32a",
+   "official_name": null,
+   "type": "Usluga socijalne zaštite",
+   "type_slug": "usluga-socijalne-zastite",
+   "place": "Užice",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Vidovdanska br. 32a",
+    "phones": "031 3100800; 064 8363574",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "usluga-socijalne-zastite-gradski-centar-za-usluge-socijalne-zastite-dnevni",
+   "name": "Gradski Centar ZA Usluge Socijalne Zaštite Dnevni Boravak ZA Decu I Mlade SA Smetnjana U Razvoju",
+   "official_name": null,
+   "type": "Usluga socijalne zaštite",
+   "type_slug": "usluga-socijalne-zastite",
+   "place": "Užice",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Nemanjina br. 52",
+    "phones": "031 3100800",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  }
+ ]
+}

@@ -13,7 +13,7 @@ import glob, json, os, re, sys, collections, unicodedata
 TARGETS, CONTACTS, OUT = sys.argv[1], sys.argv[2], sys.argv[3]
 BLOCK = ("planplus", "011info", "navidiku", "yellowpages", "zutestrane", "cylex", "facebook.", "instagram.", "google.", "goo.gl", "booking.com", "tripadvisor",
          "infostud", "poslovnabaza", "companywall", "bisnode", "kompass", "mojabaza", "firmaimenik", "srbijafirme", "privredni-imenik", "poslovni-imenik",
-         "foursquare", "waze.", "linkedin.", "wikipedia.", "wikimapia", "telefonski-imenik", "pronadjime", "kvalitetno", "najboljeusrbiji", "moja-delatnost", "biznis-vodic")
+         "foursquare", "waze.", "aleksinac.net", "linkedin.", "wikipedia.", "wikimapia", "telefonski-imenik", "pronadjime", "kvalitetno", "najboljeusrbiji", "moja-delatnost", "biznis-vodic")
 CHAINS = ("net-banka", "net-apotekarska", "net-osiguravajuce", "net-small")
 stats = collections.Counter()
 

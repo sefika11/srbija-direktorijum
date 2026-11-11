@@ -1,0 +1,835 @@
+{
+ "id": "find-004",
+ "kind": "sites",
+ "title": "Aranđelovac, Babušnica, Arilje",
+ "rows": [
+  {
+   "org_slug": "osnovna-skola-slavko-popovic-darosava-arandjelovac",
+   "name": "Osnovna škola \"Slavko Popović\" Darosava",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Aranđelovac",
+   "settlement": "Darosava",
+   "mb": "07113501",
+   "website": null,
+   "have": {
+    "address": "Put 1300",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-sveti-sava-arandjelovac",
+   "name": "Osnovna škola \"Sveti Sava\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Aranđelovac",
+   "settlement": null,
+   "mb": "07571836",
+   "website": null,
+   "have": {
+    "address": "Han Pijeska bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-svetolik-rankovic-arandjelovac",
+   "name": "Osnovna škola \"Svetolik Ranković\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Aranđelovac",
+   "settlement": null,
+   "mb": "07113382",
+   "website": null,
+   "have": {
+    "address": "Milovana Ristića 1",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-velja-gerasimovic-vencani-arandjelovac",
+   "name": "Osnovna škola \"Velja Gerasimović\" Venčani",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Aranđelovac",
+   "settlement": "Venčane",
+   "mb": "07113374",
+   "website": null,
+   "have": {
+    "address": "DR Anastasije Zavaljevske 94",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-vuk-karadzic-stojnik-arandjelovac",
+   "name": "Osnovna škola \"Vuk Karadžić\" Stojnik",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Aranđelovac",
+   "settlement": "Stojnik",
+   "mb": "07113510",
+   "website": null,
+   "have": {
+    "address": "Stojnik bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatni-vrtic-predskolska-ustanova-decija-oaza-arandjelovac",
+   "name": "Predškolska ustanova „Dečija oaza“",
+   "official_name": null,
+   "type": "Privatni vrtić",
+   "type_slug": "privatni-vrtic",
+   "place": "Aranđelovac",
+   "settlement": null,
+   "mb": "18827808",
+   "website": null,
+   "have": {
+    "address": "Josifa Pančića 10",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatni-vrtic-predskolska-ustanova-mastalica-arandjelovac",
+   "name": "Predškolska ustanova „Maštalica“",
+   "official_name": null,
+   "type": "Privatni vrtić",
+   "type_slug": "privatni-vrtic",
+   "place": "Aranđelovac",
+   "settlement": null,
+   "mb": "17919148",
+   "website": null,
+   "have": {
+    "address": "Janka Katića 29",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "ekonomsko-ugostiteljska-skola-slobodan-minic-arandjelovac",
+   "name": "Ekonomsko-Ugostiteljska škola \"Slobodan Minić\"",
+   "official_name": null,
+   "type": "Srednja škola / Gimnazija",
+   "type_slug": "srednja-skola",
+   "place": "Aranđelovac",
+   "settlement": null,
+   "mb": "07351186",
+   "website": null,
+   "have": {
+    "address": "Josifa Pančića 3",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "gimnazija-milos-savkovic-arandjelovac",
+   "name": "Gimnazija \"Miloš Savković\"",
+   "official_name": null,
+   "type": "Srednja škola / Gimnazija",
+   "type_slug": "srednja-skola",
+   "place": "Aranđelovac",
+   "settlement": null,
+   "mb": "07351160",
+   "website": null,
+   "have": {
+    "address": "Josipa Grušovnika 1",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "tehnicka-skola-mileta-nikolic-arandjelovac",
+   "name": "Tehnička škola \"Mileta Nikolić\"",
+   "official_name": null,
+   "type": "Srednja škola / Gimnazija",
+   "type_slug": "srednja-skola",
+   "place": "Aranđelovac",
+   "settlement": null,
+   "mb": "07351194",
+   "website": null,
+   "have": {
+    "address": "Josifa Pančića 3",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "usluga-socijalne-zastite-centar-za-socijalni-rad-sava-ilic-arandjelovac-kralja",
+   "name": "CENTAR ZA SOCIJALNI RAD ''SAVA ILIĆ'' ARANĐELOVAC – Kralja Petra Prvog br. 2a",
+   "official_name": null,
+   "type": "Usluga socijalne zaštite",
+   "type_slug": "usluga-socijalne-zastite",
+   "place": "Aranđelovac",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Kralja Petra Prvog br. 2a",
+    "phones": "034 720963; 060 0183850",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "usluga-socijalne-zastite-centar-za-socijalni-rad-sava-ilic-arandjelovac-nikole",
+   "name": "CENTAR ZA SOCIJALNI RAD ''SAVA ILIĆ'' ARANĐELOVAC – Nikole Pašića br. 70",
+   "official_name": null,
+   "type": "Usluga socijalne zaštite",
+   "type_slug": "usluga-socijalne-zastite",
+   "place": "Aranđelovac",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Nikole Pašića br. 70",
+    "phones": "034 726808; 060 0183842",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "usluga-socijalne-zastite-centar-za-socijalni-rad-sava-ilic-arandjelovac",
+   "name": "Centar ZA Socijalni Rad \"sava Ilić\"",
+   "official_name": null,
+   "type": "Usluga socijalne zaštite",
+   "type_slug": "usluga-socijalne-zastite",
+   "place": "Aranđelovac",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Kralja Petra Prvog br. 2a",
+    "phones": "034 720505",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "smotra-umetnosti-mermer-i-zvuci-arandjelovac",
+   "name": "Smotra umetnosti \"Mermer i Zvuci\"",
+   "official_name": null,
+   "type": "Javna ustanova",
+   "type_slug": "ustanova",
+   "place": "Aranđelovac",
+   "settlement": null,
+   "mb": "07331959",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "milovanovic-arandjelovac-n13919967066",
+   "name": "Milovanović",
+   "official_name": null,
+   "type": "Veterinarska stanica / ambulanta",
+   "type_slug": "veterinarska-stanica",
+   "place": "Aranđelovac",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": "034 720351",
+    "hours": "Mo-Fr 07:00-20:00; Sa 07:00-14:00"
+   },
+   "need": [
+    "address",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "nikita-arandjelovac-n12631466201",
+   "name": "Nikita",
+   "official_name": null,
+   "type": "Veterinarska stanica / ambulanta",
+   "type_slug": "veterinarska-stanica",
+   "place": "Aranđelovac",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Josipa Grušovnika 10",
+    "phones": "034 702029",
+    "hours": "Mo-Fr 11:00-19:00; Sa 09:00-15:00"
+   },
+   "need": [
+    "website"
+   ]
+  },
+  {
+   "org_slug": "apoteka-privatna-praksa-strahanapharm-arilje",
+   "name": "Apoteka privatna praksa \"Strahanapharm\"",
+   "official_name": null,
+   "type": "Apotekarska ustanova",
+   "type_slug": "apoteka",
+   "place": "Arilje",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Viktora Zevnika bb",
+    "phones": "062 286546",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-mlinarev-san-arilje",
+   "name": "Mlinarev san",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Arilje",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Arilje bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-brekovo-brekovo-arilje",
+   "name": "Osnovna škola \"Brekovo\" Brekovo",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Arilje",
+   "settlement": "Brekovo",
+   "mb": "07110863",
+   "website": null,
+   "have": {
+    "address": "Brekovo bb",
+    "phones": "031 897081",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-jezdimir-tripkovic-latvica-arilje",
+   "name": "Osnovna škola \"Jezdimir Tripković\" Latvica",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Arilje",
+   "settlement": "Latvica",
+   "mb": "07110880",
+   "website": null,
+   "have": {
+    "address": "Baza 214",
+    "phones": "031 3899357",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-arilje-arilje",
+   "name": "Predškolska ustanova \"Arilje\"",
+   "official_name": null,
+   "type": "Predškolska ustanova (vrtić)",
+   "type_slug": "predskolska-ustanova",
+   "place": "Arilje",
+   "settlement": null,
+   "mb": "07155794",
+   "website": null,
+   "have": {
+    "address": "Miloša Glišića 34",
+    "phones": "031 3891888",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "sportsko-turisticki-centar-arilje-arilje",
+   "name": "Sportsko-Turistički centar Arilje",
+   "official_name": null,
+   "type": "Sportski centar",
+   "type_slug": "sportski-centar",
+   "place": "Arilje",
+   "settlement": null,
+   "mb": "18379465",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "apotekarska-ustanova-snezana-babusnica",
+   "name": "Apotekarska ustanova \"Snežana\"",
+   "official_name": null,
+   "type": "Apotekarska ustanova",
+   "type_slug": "apoteka",
+   "place": "Babušnica",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Živojina Nikolića Brke bb",
+    "phones": "010 385800",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-opstine-babusnica-babusnica",
+   "name": "Centar za socijalni rad opštine Babušnica",
+   "official_name": null,
+   "type": "Centar za socijalni rad",
+   "type_slug": "centar-za-socijalni-rad",
+   "place": "Babušnica",
+   "settlement": null,
+   "mb": "17583140",
+   "website": null,
+   "have": {
+    "address": "Saše Ivkovića br. 26",
+    "phones": "010 385260",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-dr-jovan-ristic-babusnica",
+   "name": "Dom zdravlja \"Dr Jovan Ristić\"",
+   "official_name": null,
+   "type": "Dom zdravlja",
+   "type_slug": "dom-zdravlja",
+   "place": "Babušnica",
+   "settlement": null,
+   "mb": "17670409",
+   "website": null,
+   "have": {
+    "address": "Ivice Miladinovića 2",
+    "phones": "010 385013",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-komunalac-babusnica-babusnica",
+   "name": "Javno komunalno preduzeće Komunalac Babušnica",
+   "official_name": null,
+   "type": "JKP Čistoća / Komunalac",
+   "type_slug": "jkp-cistoca",
+   "place": "Babušnica",
+   "settlement": null,
+   "mb": "07328389",
+   "website": null,
+   "have": {
+    "address": "Z.N. Brke 44b",
+    "phones": "010 386737; 010 385364",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "dom-kulture-babusnica-babusnica",
+   "name": "Dom kulture Babušnica",
+   "official_name": null,
+   "type": "Kulturni centar / Dom kulture",
+   "type_slug": "kulturni-centar",
+   "place": "Babušnica",
+   "settlement": null,
+   "mb": "07106432",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": "010 385154",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "narodna-biblioteka-babusnica-babusnica",
+   "name": "Narodna biblioteka Babušnica",
+   "official_name": null,
+   "type": "Narodna biblioteka",
+   "type_slug": "narodna-biblioteka",
+   "place": "Babušnica",
+   "settlement": null,
+   "mb": "17217925",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": "010 383144",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-bratstvo-zvonce-babusnica",
+   "name": "Osnovna škola \"Bratstvo\" Zvonce",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Babušnica",
+   "settlement": "Zvonce",
+   "mb": "07106327",
+   "website": null,
+   "have": {
+    "address": "Hristo Botev 164",
+    "phones": "010 87454",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-despot-stefan-lazarevic-babusnica",
+   "name": "Osnovna škola \"Despot Stefan Lazarević\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Babušnica",
+   "settlement": null,
+   "mb": "07106335",
+   "website": null,
+   "have": {
+    "address": "7.Juli 26",
+    "phones": "010 385021",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-mladost-veliko-bonjince-veliko-bonjince",
+   "name": "Osnovna škola \"Mladost\" Veliko Bonjince",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Babušnica",
+   "settlement": "Veliko Bonjince",
+   "mb": "07106343",
+   "website": null,
+   "have": {
+    "address": "Krs 70",
+    "phones": "010 2681028",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-svetozar-markovic-ljuberadja-babusnica",
+   "name": "Osnovna škola \"Svetozar Marković\" Ljuberađa",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Babušnica",
+   "settlement": "Ljuberađa",
+   "mb": "07106319",
+   "website": null,
+   "have": {
+    "address": "Školska 44",
+    "phones": "010 80120",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-sa-domom-ucenika-dobrinka-bogdanovic-strelac-babusnica",
+   "name": "Osnovna škola sa Domom učenika \"Dobrinka Bogdanović\" Strelac",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Babušnica",
+   "settlement": "Strelac",
+   "mb": "07106351",
+   "website": null,
+   "have": {
+    "address": "Masurovski Put 5",
+    "phones": "010 687665",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-decja-radost-babusnica",
+   "name": "Predškolska ustanova \"Dečja Radost\"",
+   "official_name": null,
+   "type": "Predškolska ustanova (vrtić)",
+   "type_slug": "predskolska-ustanova",
+   "place": "Babušnica",
+   "settlement": null,
+   "mb": "07291604",
+   "website": null,
+   "have": {
+    "address": "Sedme Brigade 18",
+    "phones": "010 385202",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "srednja-skola-vuk-karadzic-sa-domom-ucenika-babusnica",
+   "name": "Srednja škola \"Vuk Karadžić\" sa Domom učenika",
+   "official_name": null,
+   "type": "Srednja škola / Gimnazija",
+   "type_slug": "srednja-skola",
+   "place": "Babušnica",
+   "settlement": null,
+   "mb": "17918273",
+   "website": null,
+   "have": {
+    "address": "Omladinskih Brigada 02",
+    "phones": "010 385026",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "usluga-socijalne-zastite-pomoc-u-kuci-pri-udruzenju-gradjana-luznicke",
+   "name": "Pomoć u kući pri UDRUŽENJU GRAĐANA LUŽNIČKE RUKOTVORINE ''Ž.E.C.''",
+   "official_name": null,
+   "type": "Usluga socijalne zaštite",
+   "type_slug": "usluga-socijalne-zastite",
+   "place": "Babušnica",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Gorčinci bb",
+    "phones": "010 384735; 069 684735; 060 7313392",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-bajina-basta-bajina-basta",
+   "name": "Centar za socijalni rad \"Bajina Bašta\"",
+   "official_name": null,
+   "type": "Centar za socijalni rad",
+   "type_slug": "centar-za-socijalni-rad",
+   "place": "Bajina Bašta",
+   "settlement": null,
+   "mb": "07343094",
+   "website": null,
+   "have": {
+    "address": "Rajka Tadića 2",
+    "phones": "031 869023",
+    "hours": "Pon-Pet 07:00-15:00"
+   },
+   "need": [
+    "website"
+   ]
+  },
+  {
+   "org_slug": "vojna-ustanova-tara-bajina-basta",
+   "name": "Vojna ustanova \"Tara\"",
+   "official_name": null,
+   "type": "Državni organ / služba",
+   "type_slug": "drzavni-organ",
+   "place": "Bajina Bašta",
+   "settlement": null,
+   "mb": "17864963",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-beli-bor-bajina-basta",
+   "name": "Beli bor",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Bajina Bašta",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Bajina Bašta bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-tara-bajina-basta",
+   "name": "Tara",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Bajina Bašta",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Bb bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  }
+ ]
+}

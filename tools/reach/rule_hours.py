@@ -4,7 +4,8 @@
   python -m tools.reach.rule_hours --write
 
 Two rules, both only where a location has no hours at all:
-  po propisu      ministries, the Treasury's branches, administrative districts and state-administration bodies named as an
+  po propisu      ministries, the Treasury's and the Tax Administration's branches (both bodies within the Ministry of
+                  Finance), administrative districts and state-administration bodies named as an
                   uprava, direkcija, inspektorat, sekretarijat or kancelarija: Monday to Friday 07:30-15:30. Basis: the
                   Government's decision of 1 May 2014 that ministries, special organisations and government services work
                   07:30-15:30 (srbija.gov.rs/vest/en/100708), confirmed in 2026 by the Treasury's Informator o radu and by
@@ -28,7 +29,7 @@ with db.conn() as c, c.cursor() as cur:
       select l.id, t.slug as ty, o.name_lat as org, l.unit_name_lat as unit
       from locations l join organizations o on o.id = l.org_id and o.status = 'active' join org_types t on t.id = o.org_type_id
       where l.status = 'active' and l.hours_text is null and not exists (select 1 from opening_hours h where h.location_id = l.id)
-        and t.slug in ('ministarstvo', 'uprava-za-trezor', 'upravni-okrug', 'drzavni-organ', 'uprava-za-vanredne-situacije')""")
+        and t.slug in ('ministarstvo', 'uprava-za-trezor', 'poreska-uprava', 'upravni-okrug', 'drzavni-organ', 'uprava-za-vanredne-situacije')""")
     for r in cur.fetchall():
         if r["ty"] == "uprava-za-vanredne-situacije":
             if not FIRE.search(r["unit"] or "") or re.search(r"\bdvd\b|dobrovoljn", (r["unit"] or "").lower()): continue

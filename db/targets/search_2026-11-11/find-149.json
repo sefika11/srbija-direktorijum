@@ -1,0 +1,867 @@
+{
+ "id": "find-149",
+ "kind": "sites",
+ "title": "Šabac",
+ "rows": [
+  {
+   "org_slug": "hotel-sloboda-sabac",
+   "name": "Sloboda",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Šabac",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Trg Šabačkih Žrtava bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-usce-sabac",
+   "name": "Ušće",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Šabac",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Kralja Milutina 3a",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "akcionarsko-drustvo-robno-transportni-centar-sabac-sabac-misar",
+   "name": "Akcionarsko društvo Robno Transportni centar Šabac, Šabac",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Šabac",
+   "settlement": "Mišar",
+   "mb": "07121750",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "fondacija-za-prom-dem-vrednosti-i-prom-i-unap-kulture-umetnosti-i-obraz-stanislav-vinaver-sabac",
+   "name": "Fondacija za Prom. Dem.vrednosti i Prom. i Unap. kulture, umetnosti i Obraz. \"Stanislav Vinaver\"",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Šabac",
+   "settlement": null,
+   "mb": "17916831",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "poljoprivredna-savetodavna-i-strucna-sluzba-sabac-drustvo-sa-ogranicenom-odgovornoscu-sabac-sabac",
+   "name": "Poljoprivredna Savetodavna i Stručna služba Šabac društvo sa ograničenom odgovornošću Šabac",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Šabac",
+   "settlement": null,
+   "mb": "07121954",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privredno-drustvo-za-upravljanje-slobodnom-zonom-slobodna-zona-sabac-doo-sabac-sabac",
+   "name": "Privredno društvo za upravljanje Slobodnom Zonom Slobodna Zona Šabac DOO, Šabac",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Šabac",
+   "settlement": null,
+   "mb": "20576049",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "regionalni-centar-za-razvoj-malih-i-srednjih-preduzeca-i-preduzetnistva-doo-sabac-sabac",
+   "name": "Regionalni centar za razvoj Malih i Srednjih preduzeća i Preduzetništva DOO Šabac",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Šabac",
+   "settlement": null,
+   "mb": "20282606",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "veterinarski-specijalisticki-institut-sabac-sabac",
+   "name": "Veterinarski Specijalistički institut \"Šabac\"",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Šabac",
+   "settlement": null,
+   "mb": "07400721",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "vodoprivredno-drustvo-sava-drustvo-sa-ogranicenom-odgovornoscu-sabac-sabac",
+   "name": "Vodoprivredno Društvo Sava, Društvo sa Ograničenom Odgovornošću Šabac",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Šabac",
+   "settlement": null,
+   "mb": "07270224",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "zorka-holding-akcionarsko-drustvo-sabac-u-stecaju-sabac",
+   "name": "Zorka-Holding Akcionarsko društvo, Šabac - u Stečaju",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Šabac",
+   "settlement": null,
+   "mb": "07120591",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "zorka-mineralna-djubriva-akcionarsko-drustvo-za-proizvodnju-mineralnih-djubriva-sabac-u-stecaju-saba",
+   "name": "Zorka-Mineralna Đubriva Akcionarsko društvo za proizvodnju Mineralnih Đubriva, Šabac - u Stečaju",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Šabac",
+   "settlement": null,
+   "mb": "07302215",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "zorka-obojena-metalurgija-akcionarsko-drustvo-za-proizvodnju-i-preradu-cinka-sabac-u-stecaju-sabac",
+   "name": "Zorka-Obojena Metalurgija Akcionarsko društvo za proizvodnju i Preradu Cinka Šabac - u Stečaju",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Šabac",
+   "settlement": null,
+   "mb": "07160321",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "zorka-stan-doo-sabac-u-stecaju-sabac",
+   "name": "Zorka-Stan DOO Šabac - u Stečaju",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Šabac",
+   "settlement": null,
+   "mb": "07411758",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-regionalna-deponija-srem-macva-sabac-sabac",
+   "name": "Javno komunalno preduzeće regionalna Deponija Srem-Mačva Šabac",
+   "official_name": null,
+   "type": "JKP Čistoća / Komunalac",
+   "type_slug": "jkp-cistoca",
+   "place": "Šabac",
+   "settlement": null,
+   "mb": "20768274",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "dom-kulture-prnjavor-sabac",
+   "name": "Dom kulture \"Prnjavor\"",
+   "official_name": null,
+   "type": "Kulturni centar / Dom kulture",
+   "type_slug": "kulturni-centar",
+   "place": "Šabac",
+   "settlement": null,
+   "mb": "17301802",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "kulturni-centar-sabac-sabac",
+   "name": "Kulturni centar Šabac",
+   "official_name": null,
+   "type": "Kulturni centar / Dom kulture",
+   "type_slug": "kulturni-centar",
+   "place": "Šabac",
+   "settlement": null,
+   "mb": "07119763",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "narodni-muzej-sabac-sabac",
+   "name": "Narodni muzej Šabac",
+   "official_name": null,
+   "type": "Muzej / Arhiv",
+   "type_slug": "muzej",
+   "place": "Šabac",
+   "settlement": null,
+   "mb": "07120508",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "muzicka-skola-mihailo-vukdragovic-sabac",
+   "name": "Muzička Škola\"mihailo Vukdragović\"",
+   "official_name": null,
+   "type": "Muzička ili baletska škola",
+   "type_slug": "muzicka-skola",
+   "place": "Šabac",
+   "settlement": null,
+   "mb": "07169698",
+   "website": null,
+   "have": {
+    "address": "Masarikova 35",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "biblioteka-sabacka-sabac",
+   "name": "Biblioteka Šabačka",
+   "official_name": null,
+   "type": "Narodna biblioteka",
+   "type_slug": "narodna-biblioteka",
+   "place": "Šabac",
+   "settlement": null,
+   "mb": "07119798",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-dositej-obradovic-volujac",
+   "name": "Osnovna škola \"Dositej Obradović\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Šabac",
+   "settlement": null,
+   "mb": "07116438",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-janko-veselinovic-sabac",
+   "name": "Osnovna škola \"Janko Veselinović\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Šabac",
+   "settlement": null,
+   "mb": "07120273",
+   "website": null,
+   "have": {
+    "address": "Karađorđeva 48",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-jevrem-obrenovic-sabac",
+   "name": "Osnovna škola \"Jevrem Obrenović\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Šabac",
+   "settlement": null,
+   "mb": "07168373",
+   "website": null,
+   "have": {
+    "address": "Žike Popovića 20",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-jovan-cvijic-zminjak-sabac",
+   "name": "Osnovna škola \"Jovan Cvijić\" Zminjak",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Šabac",
+   "settlement": "Zminjak",
+   "mb": "07120265",
+   "website": null,
+   "have": {
+    "address": "Vojvode Mišića 1",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-kralj-aleksandar-karadjordjevic-prnjavor-sabac",
+   "name": "Osnovna škola \"Kralj Aleksandar Karađorđević\" Prnjavor",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Šabac",
+   "settlement": "Prnjavor",
+   "mb": "07169701",
+   "website": null,
+   "have": {
+    "address": "Vojvode Mišića 2",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-laza-k-lazarevic-sabac",
+   "name": "Osnovna škola \"Laza K. Lazarević\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Šabac",
+   "settlement": null,
+   "mb": "07120494",
+   "website": null,
+   "have": {
+    "address": "Masarikova 136",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-majur-majur-sabac",
+   "name": "Osnovna škola \"Majur\" Majur",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Šabac",
+   "settlement": "Majur",
+   "mb": "07169710",
+   "website": null,
+   "have": {
+    "address": "Svetog Save 4",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-nata-jelicic-sabac",
+   "name": "Osnovna škola \"Nata Jeličić\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Šabac",
+   "settlement": null,
+   "mb": "07120532",
+   "website": null,
+   "have": {
+    "address": "Jele Spiridonović-Savić 5",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-nikolaj-velimirovic-sabac",
+   "name": "Osnovna škola \"Nikolaj Velimirović\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Šabac",
+   "settlement": null,
+   "mb": "07120451",
+   "website": null,
+   "have": {
+    "address": "Vlade Jovanovića 52",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-stojan-novakovic-sabac",
+   "name": "Osnovna škola \"Stojan Novaković\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Šabac",
+   "settlement": null,
+   "mb": "07170254",
+   "website": null,
+   "have": {
+    "address": "Vojvode Janka Stojićevića 38",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-sveti-sava-sabac",
+   "name": "Osnovna škola \"Sveti Sava\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Šabac",
+   "settlement": null,
+   "mb": "07171277",
+   "website": null,
+   "have": {
+    "address": "Dragiše Penjina 31",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-vojvoda-stepa-lipolist-sabac",
+   "name": "Osnovna škola \"Vojvoda Stepa\" Lipolist",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Šabac",
+   "settlement": "Lipolist",
+   "mb": "07170246",
+   "website": null,
+   "have": {
+    "address": "Karađorđeva 1",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-vuk-karadzic-sabac",
+   "name": "Osnovna škola \"Vuk Karadžić\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Šabac",
+   "settlement": null,
+   "mb": "07121318",
+   "website": null,
+   "have": {
+    "address": "Vuka Karadžića 14",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatna-skola-srednja-skola-zaslon-sabac",
+   "name": "Srednja škola Zaslon",
+   "official_name": null,
+   "type": "Privatna škola",
+   "type_slug": "privatna-skola",
+   "place": "Šabac",
+   "settlement": null,
+   "mb": "17810022",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatni-vrtic-predskolska-ustanova-cinci-linci-sabac-sabac",
+   "name": "Predškolska ustanova CINCI LINCI - Šabac",
+   "official_name": null,
+   "type": "Privatni vrtić",
+   "type_slug": "privatni-vrtic",
+   "place": "Šabac",
+   "settlement": null,
+   "mb": "18378299",
+   "website": null,
+   "have": {
+    "address": "Milorada Panića Surepa 22",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatni-vrtic-predskolska-ustanova-cinci-linci-sabac",
+   "name": "Predškolska ustanova „CINCI LINCI“",
+   "official_name": null,
+   "type": "Privatni vrtić",
+   "type_slug": "privatni-vrtic",
+   "place": "Šabac",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Milorada Panića Surepa 22",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatni-vrtic-predskolska-ustanova-decija-kucica-ninica-sabac",
+   "name": "Predškolska ustanova „Dečija kućica Ninica“",
+   "official_name": null,
+   "type": "Privatni vrtić",
+   "type_slug": "privatni-vrtic",
+   "place": "Šabac",
+   "settlement": null,
+   "mb": "18822580",
+   "website": null,
+   "have": {
+    "address": "Mačvanska 91",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatni-vrtic-predskolska-ustanova-joca-sabac-pravni-sledbenik-pu-meda-sabac",
+   "name": "Predškolska ustanova „Joca“ Šabac (pravni sledbenik PU „Meda“)",
+   "official_name": null,
+   "type": "Privatni vrtić",
+   "type_slug": "privatni-vrtic",
+   "place": "Šabac",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Tiršov venac bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-marija-zikic-pr-kozmeticki-studio-mystic-sabac-sabac",
+   "name": "Marija Žikić Pr Kozmetički Studio Mystic Šabac",
+   "official_name": null,
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "type_slug": "skola-za-odrasle",
+   "place": "Šabac",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Kralja Aleksandra 33",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-narodni-univerzitet-sabac-sabac",
+   "name": "Narodni Univerzitet Šabac",
+   "official_name": null,
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "type_slug": "skola-za-odrasle",
+   "place": "Šabac",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Koste Abraševića 4",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-poslovni-savetnik-doo-sabac-sabac",
+   "name": "Poslovni Savetnik Doo Šabac",
+   "official_name": null,
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "type_slug": "skola-za-odrasle",
+   "place": "Šabac",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Kneza Lazara 8",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  }
+ ]
+}

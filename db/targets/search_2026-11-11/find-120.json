@@ -1,0 +1,856 @@
+{
+ "id": "find-120",
+ "kind": "sites",
+ "title": "Surčin, Surdulica",
+ "rows": [
+  {
+   "org_slug": "surdulicki-kulturni-centar-surdulica",
+   "name": "Surdulički kulturni centar",
+   "official_name": null,
+   "type": "Kulturni centar / Dom kulture",
+   "type_slug": "kulturni-centar",
+   "place": "Surdulica",
+   "settlement": null,
+   "mb": "07208090",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "biblioteka-radoje-domanovic-surdulica",
+   "name": "Biblioteka \"Radoje Domanović\"",
+   "official_name": null,
+   "type": "Narodna biblioteka",
+   "type_slug": "narodna-biblioteka",
+   "place": "Surdulica",
+   "settlement": null,
+   "mb": "17291408",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "zdravstveni-centar-surdulica-surdulica",
+   "name": "Zdravstveni centar Surdulica",
+   "official_name": null,
+   "type": "Opšta bolnica / Klinički centar",
+   "type_slug": "opsta-bolnica",
+   "place": "Surdulica",
+   "settlement": null,
+   "mb": "17191918",
+   "website": null,
+   "have": {
+    "address": "Srpskih Vladara 111",
+    "phones": "017 815300",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-akademik-djordje-lazarevic-vlasina-okruglica-surdulica",
+   "name": "Osnovna škola \"Akademik Đorđe Lazarević\" Vlasina Okruglica",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Surdulica",
+   "settlement": "Vlasina Okruglica",
+   "mb": "07180535",
+   "website": null,
+   "have": {
+    "address": "Vlasina Okruglica bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-bora-stankovic-jelasnica-surdulica",
+   "name": "Osnovna škola \"Bora Stanković\" Jelašnica",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Surdulica",
+   "settlement": "Jelašnica",
+   "mb": "07180560",
+   "website": null,
+   "have": {
+    "address": "Mihajla Pupina 104",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-jovan-jovanovic-zmaj-surdulica-surdulica",
+   "name": "Osnovna škola \"Jovan Jovanović-Zmaj\" Surdulica",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Surdulica",
+   "settlement": null,
+   "mb": "07180551",
+   "website": null,
+   "have": {
+    "address": "Drinske Divizije 6",
+    "phones": "017 825250",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-pera-mackatovac-belo-polje-surdulica",
+   "name": "Osnovna škola \"Pera Mačkatovac\" Belo Polje",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Surdulica",
+   "settlement": "Belo Polje",
+   "mb": "07180578",
+   "website": null,
+   "have": {
+    "address": "Belo Polje bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-sveti-sava-bozica",
+   "name": "Osnovna škola \"Sveti Sava\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Surdulica",
+   "settlement": "Božica",
+   "mb": "07180527",
+   "website": null,
+   "have": {
+    "address": "Božica B.B.",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-vuk-karadzic-surdulica",
+   "name": "Osnovna škola \"Vuk Karadžić\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Surdulica",
+   "settlement": null,
+   "mb": "07284373",
+   "website": null,
+   "have": {
+    "address": "Jadranska bb",
+    "phones": "017 825950",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-nasa-radost-surdulica",
+   "name": "Predškolska ustanova \"Naša Radost\"",
+   "official_name": null,
+   "type": "Predškolska ustanova (vrtić)",
+   "type_slug": "predskolska-ustanova",
+   "place": "Surdulica",
+   "settlement": null,
+   "mb": "07179987",
+   "website": null,
+   "have": {
+    "address": "Jugoslovenska bb",
+    "phones": "017 823996; 017 825714",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "specijalna-bolnica-za-plucne-bolesti-surdulica-surdulica",
+   "name": "Specijalna bolnica za Plućne Bolesti Surdulica",
+   "official_name": null,
+   "type": "Specijalna bolnica",
+   "type_slug": "specijalna-bolnica",
+   "place": "Surdulica",
+   "settlement": null,
+   "mb": "17191926",
+   "website": null,
+   "have": {
+    "address": "Srpskih vladara bb",
+    "phones": "017 815202",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "gimnazija-svetozar-markovic-surdulica",
+   "name": "Gimnazija \"Svetozar Marković\"",
+   "official_name": null,
+   "type": "Srednja škola / Gimnazija",
+   "type_slug": "srednja-skola",
+   "place": "Surdulica",
+   "settlement": null,
+   "mb": "07573537",
+   "website": null,
+   "have": {
+    "address": "Surduličkih Mučenika bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "poljoprivredno-sumarska-skola-josif-pancic-surdulica",
+   "name": "Poljoprivredno - Šumarska škola \"Josif Pančić\"",
+   "official_name": null,
+   "type": "Srednja škola / Gimnazija",
+   "type_slug": "srednja-skola",
+   "place": "Surdulica",
+   "settlement": null,
+   "mb": "07180594",
+   "website": null,
+   "have": {
+    "address": "Surduličkih Mučenika bb",
+    "phones": "017 825051",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "tehnicka-skola-nikola-tesla-surdulica",
+   "name": "Tehnička škola \"Nikola Tesla\"",
+   "official_name": null,
+   "type": "Srednja škola / Gimnazija",
+   "type_slug": "srednja-skola",
+   "place": "Surdulica",
+   "settlement": null,
+   "mb": "07180608",
+   "website": null,
+   "have": {
+    "address": "Tome Ivanovića 24",
+    "phones": "017 824119; 017 824118",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "usluga-socijalne-zastite-pomoc-u-kuci-pri-udruzenju-nasa-surdulica-za-sve",
+   "name": "Pomoć u kući pri UDRUŽENJU ''NAŠA SURDULICA ZA SVE''",
+   "official_name": null,
+   "type": "Usluga socijalne zaštite",
+   "type_slug": "usluga-socijalne-zastite",
+   "place": "Surdulica",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Srpskih vladara bb",
+    "phones": "069 688055",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "agencija-za-privremeno-zaposljavanje-westwork-doo-beograd-dobanovci",
+   "name": "Agencija za privremeno zapošljavanje Westwork DOO Beograd",
+   "official_name": null,
+   "type": "Agencija za zapošljavanje",
+   "type_slug": "agencija-za-zaposljavanje",
+   "place": "Surčin",
+   "settlement": "Dobanovci",
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Beogradska 7a",
+    "phones": "011 6979425; 011 6351965",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "agencija-za-zaposljavanje-westwork-doo-beograd-dobanovci",
+   "name": "Westwork DOO Beograd",
+   "official_name": null,
+   "type": "Agencija za zapošljavanje",
+   "type_slug": "agencija-za-zaposljavanje",
+   "place": "Surčin",
+   "settlement": "Dobanovci",
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Beogradska 7a",
+    "phones": "011 6979425; 011 6351965",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "dom-za-stare-dom-za-stare-i-negu-starih-lica-meliorvita-beograd",
+   "name": "Dom ZA Stare I Negu Starih Lica ''meliorvita''",
+   "official_name": null,
+   "type": "Dom za stare",
+   "type_slug": "dom-za-stare",
+   "place": "Surčin",
+   "settlement": "Beograd",
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Boljevačka br.14",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-airport-surcin",
+   "name": "Airport",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Surčin",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Topolska 1",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-s-klub-jakovo",
+   "name": "S Klub",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Surčin",
+   "settlement": "Jakovo",
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Jakovačke Desetine 10",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "air-serbia-ground-services-drustvo-sa-ogranicenom-odgovornoscu-za-promet-i-usluge-surcin",
+   "name": "\"Air Serbia Ground Services\" društvo sa ograničenom odgovornošću za Promet i Usluge",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Surčin",
+   "settlement": null,
+   "mb": "17458981",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "air-serbia-catering-d-o-o-beograd-surcin",
+   "name": "Air Serbia Catering D.O.O. Beograd",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Surčin",
+   "settlement": null,
+   "mb": "20047216",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "akcionarsko-drustvo-aerodrom-nikola-tesla-beograd-surcin",
+   "name": "Akcionarsko društvo Aerodrom Nikola Tesla Beograd",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Surčin",
+   "settlement": "Beograd 59",
+   "mb": "07036540",
+   "website": null,
+   "have": {
+    "address": "Aerodrom Nikola Tesla",
+    "phones": "011 2094000",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "jat-privredna-avijacija-doo-beograd-surcin-surcin",
+   "name": "JAT-Privredna Avijacija DOO Beograd, Surčin",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Surčin",
+   "settlement": null,
+   "mb": "20585757",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "javno-preduzece-agrar-surcin-surcin-u-stecaju-surcin",
+   "name": "Javno preduzeće Agrar-Surčin Surčin - u Stečaju",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Surčin",
+   "settlement": null,
+   "mb": "20254050",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "veterinarska-stanica-zemun-u-stecaju-surcin",
+   "name": "Veterinarska stanica \"Zemun\" - u Stečaju",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Surčin",
+   "settlement": null,
+   "mb": "07052367",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-surcin-dobanovci",
+   "name": "Javno Komunalno Preduzeće Surčin",
+   "official_name": null,
+   "type": "JKP Čistoća / Komunalac",
+   "type_slug": "jkp-cistoca",
+   "place": "Surčin",
+   "settlement": null,
+   "mb": "20044098",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privredno-drustvo-za-obavljanje-poslova-na-izgradnji-i-odrzavanju-gasovodne-mreze-surcin-gas-doo-sur",
+   "name": "Privredno Društvo za Obavljanje Poslova na Izgradnji i Održavanju Gasovodne Mreže Surčin Gas Doo Surčin",
+   "official_name": null,
+   "type": "Distribucija gasa",
+   "type_slug": "jkp-gas",
+   "place": "Surčin",
+   "settlement": null,
+   "mb": "20474190",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "kulturni-centar-surcin-ustanova-kulture-surcin",
+   "name": "Kulturni centar Surčin - ustanova kulture",
+   "official_name": null,
+   "type": "Kulturni centar / Dom kulture",
+   "type_slug": "kulturni-centar",
+   "place": "Surčin",
+   "settlement": null,
+   "mb": "17882562",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-22-oktobar-surcin",
+   "name": "Osnovna škola \"22. Oktobar\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Surčin",
+   "settlement": null,
+   "mb": "07021194",
+   "website": null,
+   "have": {
+    "address": "Trg Zorana Đinđića 8",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-branko-radicevic-boljevci-surcin",
+   "name": "Osnovna škola \"Branko Radičević\" Boljevci",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Surčin",
+   "settlement": "Boljevci",
+   "mb": "07021216",
+   "website": null,
+   "have": {
+    "address": "Braće Kokar 5",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-dusan-vukasovic-diogen-becmen-surcin",
+   "name": "Osnovna škola \"Dušan Vukasović-Diogen\" Bečmen",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Surčin",
+   "settlement": "Bečmen",
+   "mb": "07019491",
+   "website": null,
+   "have": {
+    "address": "Jedanaestog Oktobra 36",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-stevan-sremac-dobanovci-surcin",
+   "name": "Osnovna škola \"Stevan Sremac\" Dobanovci",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Surčin",
+   "settlement": "Dobanovci",
+   "mb": "07021127",
+   "website": null,
+   "have": {
+    "address": "Maršala Tita 6",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-vozd-karadjordje-jakovo-surcin",
+   "name": "Osnovna škola \"Vožd Karađorđe\" Jakovo",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Surčin",
+   "settlement": "Jakovo",
+   "mb": "07021224",
+   "website": null,
+   "have": {
+    "address": "Boljevačka 2",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-vuk-karadzic-surcin-surcin",
+   "name": "Osnovna škola \"Vuk Karadžić\" Surčin",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Surčin",
+   "settlement": null,
+   "mb": "07021135",
+   "website": null,
+   "have": {
+    "address": "Bratstva I Jedinstva 1",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-surcin-surcin",
+   "name": "Predškolska ustanova \"Surčin\"",
+   "official_name": null,
+   "type": "Predškolska ustanova (vrtić)",
+   "type_slug": "predskolska-ustanova",
+   "place": "Surčin",
+   "settlement": null,
+   "mb": "17806521",
+   "website": null,
+   "have": {
+    "address": "Bratstva I Jedinstva 2",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatni-vrtic-predskolska-ustanova-bimbo-jakovo",
+   "name": "Predškolska ustanova „Bimbo“",
+   "official_name": null,
+   "type": "Privatni vrtić",
+   "type_slug": "privatni-vrtic",
+   "place": "Surčin",
+   "settlement": "Jakovo",
+   "mb": "17918214",
+   "website": null,
+   "have": {
+    "address": "Vožda Karađorđa 33",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatni-vrtic-predskolska-ustanova-bombonica-surcin",
+   "name": "Predškolska ustanova „Bombonica“",
+   "official_name": null,
+   "type": "Privatni vrtić",
+   "type_slug": "privatni-vrtic",
+   "place": "Surčin",
+   "settlement": null,
+   "mb": "18376512",
+   "website": null,
+   "have": {
+    "address": "Živojina Mišića 7",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatni-vrtic-predskolska-ustanova-deciji-osmeh-surcin",
+   "name": "Predškolska ustanova „Dečiji osmeh“",
+   "official_name": null,
+   "type": "Privatni vrtić",
+   "type_slug": "privatni-vrtic",
+   "place": "Surčin",
+   "settlement": null,
+   "mb": "17884093",
+   "website": null,
+   "have": {
+    "address": "Vojvođanska 448a",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatni-vrtic-predskolska-ustanova-sovica-surcin",
+   "name": "Predškolska ustanova „Sovica“",
+   "official_name": null,
+   "type": "Privatni vrtić",
+   "type_slug": "privatni-vrtic",
+   "place": "Surčin",
+   "settlement": null,
+   "mb": "17918168",
+   "website": null,
+   "have": {
+    "address": "Josipa Gašpara 3",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  }
+ ]
+}

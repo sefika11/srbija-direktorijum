@@ -290,3 +290,25 @@ Nick's direction: accuracy first; hours may also come from maps, or from strong 
 - Not imported: APR's open company and NGO files (name, municipality and activity code, no address or phone).
 - Loader lesson: `load_orgs_json` derives the slug from type + name + town cut at 80 characters, so long operator names with the
   street at the end collapse into one row. Put the distinguishing part first.
+
+## 13. Search-led pass on Haiku, with a page check (2026-11-11, evening)
+
+- Targets: 6,041 institutions with no known website (`tools/reach/build_search_targets.py`, 152 files by municipality, 40 each).
+  Left out: natural persons, types read from national lists, local bodies (they took the municipality's site), exchange
+  offices, geodetic firms, small pharmacies that already had phone and address.
+- Agents: 3 files finished on Sonnet before Nick asked for cheaper agents; the other 149 ran on Haiku (24.4M tokens, 80 min).
+  Each agent searches, opens the institution's own site or its founder's official page, and writes what it read.
+- Accuracy is enforced after the fact by `tools/reach/verify_pages.py`, not by trusting the model: the cited page is fetched
+  again and a value is kept only when it is on that page; the page must name the institution (a distinctive word, or name
+  plus town); on directory pages a value must stand next to that institution's name; unreadable pages drop the row.
+  Of 1,722 agent rows 1,586 kept something; dropped: 128 phones not on the page, 150 phones and 115 addresses not next to
+  the name, 24 rows whose page did not name the institution, 20 unreadable pages.
+- Applied (`db/contacts/search_2026-11-11/_clean.json`): 1,543 institutions; 1,381 websites, 759 phones, 409 street addresses,
+  168 hours, 1,016 e-mails. About 4,300 of the 6,041 have no findable official page (search returns only directories).
+- Source domains were reviewed: everything cited for three or more institutions is a municipal or provincial site or the
+  institution's own; `aleksinac.net` (a local portal an agent took for the municipality's site) is blocked in `clean.py`.
+- Branch networks imported the same evening: NSZ 156, PIO 151, tax administration 85 (ids in `db/fixes/imported_branches_2026-11-11_15*.json`);
+  the tax units carry the labelled state-administration hours.
+- Coverage at the end of 2026-11-11, institutions only (31,459 locations of 18,557 institutions; natural persons apart):
+  street address 19,652 (62%), phone 15,314 (48%), website known 14,904 (47%), hours 7,915 (25%).
+  Morning of the same day: 30,334 locations; 60% / 44% / 37% / 22%.

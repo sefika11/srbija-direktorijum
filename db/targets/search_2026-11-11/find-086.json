@@ -1,0 +1,841 @@
+{
+ "id": "find-086",
+ "kind": "sites",
+ "title": "Novi Sad",
+ "rows": [
+  {
+   "org_slug": "jugolab-novi-sad-n10880973605",
+   "name": "Jugolab",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": "Mo-Fr 07:00-20:00; Sa 07:00-13:00"
+   },
+   "need": [
+    "address",
+    "phones",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "jugolab-mb-novi-sad-n3842303560",
+   "name": "Jugolab MB",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": "021 446950; 021 2100983",
+    "hours": "Mo-Fr 07:00-20:00; Sa 07:00-13:00"
+   },
+   "need": [
+    "address",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "klinika-dzinic-novi-sad-n6118503885",
+   "name": "Klinika Džinić",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "klinika-za-abdominalnu-endokrinu-i-transplatacionu-hirurgiju-novi-sad-w86640170",
+   "name": "Klinika za abdominalnu, endokrinu i transplatacionu hirurgiju",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "klinika-za-intenzivnu-terapiju-novi-sad-n4990641226",
+   "name": "Klinika za intenzivnu terapiju",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Hajduk Veljkova 1",
+    "phones": null,
+    "hours": "24/7"
+   },
+   "need": [
+    "phones",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "klinika-za-kozne-i-venericne-bolesti-novi-sad-w86640558",
+   "name": "Klinika za kožne i venerične bolesti",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "klinika-za-medicinsku-rehabilitaciju-novi-sad-r610923",
+   "name": "Klinika za medicinsku rehabilitaciju",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Futoška 76",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "klinika-za-neurohirurgiju-novi-sad-n4990638424",
+   "name": "Klinika za neurohirurgiju",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Hajduk Veljkova 1",
+    "phones": null,
+    "hours": "24/7"
+   },
+   "need": [
+    "phones",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "klinika-za-ortopediju-i-traumatologiju-novi-sad-w86640572",
+   "name": "Klinika za ortopediju i traumatologiju",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "klinika-za-plasticnu-i-rekonstrukcionu-hirurgiju-novi-sad-w1392863756",
+   "name": "Klinika za plasticnu i rekonstrukcionu hirurgiju",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Hajduk Veljkova 1",
+    "phones": null,
+    "hours": "24/7"
+   },
+   "need": [
+    "phones",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "klinika-za-psihijatriju-i-neurologiju-novi-sad-w86691108",
+   "name": "Klinika za psihijatriju i neurologiju",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "klinika-za-radiologiju-novi-sad-w86684756",
+   "name": "Klinika za radiologiju",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "klinika-za-urologiju-i-nuklearnu-medicinu-novi-sad-w86640174",
+   "name": "Klinika za urologiju i nuklearnu medicinu",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Hajduk Veljkova 1",
+    "phones": null,
+    "hours": "24/7"
+   },
+   "need": [
+    "phones",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "klinika-za-vaskularnu-hirurgiju-novi-sad-n9795398807",
+   "name": "Klinika za vaskularnu hirurgiju",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "lekarska-komisija-novi-sad-n4988940526",
+   "name": "Lekarska komisija",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Žitni trg 1",
+    "phones": null,
+    "hours": "Mo-Fr 07:00-15:00"
+   },
+   "need": [
+    "phones",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "lekarska-komora-novi-sad-n4029762698",
+   "name": "Lekarska komora",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "mc-radiologija-novi-sad-n4225526790",
+   "name": "MC radiologija",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Bulevar cara Lazara 100",
+    "phones": "021 527986",
+    "hours": "Mo-Fr 08:00-13:00, 16:00-19:00"
+   },
+   "need": [
+    "website"
+   ]
+  },
+  {
+   "org_slug": "medigroup-novi-sad-n12950111406",
+   "name": "MediGroup",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": "Mo-Fr 07:00-21:00; Sa 08:00-13:00; Su off"
+   },
+   "need": [
+    "address",
+    "phones",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "medigroup-novi-sad-n6432316890",
+   "name": "Medigroup",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Cara Dušana 26",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "nk-poliklinika-plus-novi-sad-n12405021845",
+   "name": "NK poliklinika plus",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "oculus-novi-sad-n12574602783",
+   "name": "Oculus",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "ordinacija-za-fizikalnu-medicinu-jakovljevic-novi-sad-n4990645021",
+   "name": "Ordinacija za fizikalnu medicinu Jakovljević",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Narodnog fronta 87",
+    "phones": "063 1068868",
+    "hours": "Mo-Fr 12:00-20:00; Sa 10:00-14:00; Su off"
+   },
+   "need": [
+    "website"
+   ]
+  },
+  {
+   "org_slug": "ocna-i-orl-klinika-novi-sad-w86653864",
+   "name": "Očna i ORL klinika",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "poliklinika-novi-sad-w86683912",
+   "name": "Poliklinika",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "poliklinika-mc-novi-sad-w279879778",
+   "name": "Poliklinika MC",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Bulevar cara Lazara 79a",
+    "phones": null,
+    "hours": "Mo-Fr 08:30-20:00; Sa 09:00-12:00; Su off"
+   },
+   "need": [
+    "phones",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "poliklinika-za-plucne-bolesti-dispanzer-novi-sad-w445496002",
+   "name": "Poliklinika za plućne bolesti - dispanzer",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Majevička 2a",
+    "phones": null,
+    "hours": "Mo-Fr 07:00-15:00"
+   },
+   "need": [
+    "phones",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "porodicni-lekar-slavica-novi-sad-n8229462489",
+   "name": "Porodični lekar Slavica",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Laze Telečkog 19",
+    "phones": "021 6612999; 064 9393113",
+    "hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00"
+   },
+   "need": [
+    "website"
+   ]
+  },
+  {
+   "org_slug": "regena-novi-sad-n14079970924",
+   "name": "Regena",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Futoška 84d",
+    "phones": "021 3020200; 060 0111091",
+    "hours": "Mo-Fr 08:00-20:00; Sa 08:00-14:00"
+   },
+   "need": [
+    "website"
+   ]
+  },
+  {
+   "org_slug": "sfera-medika-novi-sad-n13712121921",
+   "name": "Sfera Medika",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": "Mo-Fr 09:00-20:00; Su 09:00-15:00"
+   },
+   "need": [
+    "address",
+    "phones",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "signal-novi-sad-n4884933921",
+   "name": "Signal",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "sluzba-zdravstvene-zastite-dece-novi-sad-w443489622",
+   "name": "Služba zdravstvene zaštite dece",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Vase Stajića 5",
+    "phones": null,
+    "hours": "Mo-Fr 07:00-20:00"
+   },
+   "need": [
+    "phones",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "sluzba-zdravstvene-zastite-radnika-dunavska-novi-sad-n4169633489",
+   "name": "Služba zdravstvene zaštite radnika „Dunavska”",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": "021 457124",
+    "hours": "Mo-Fr 07:00-13:30"
+   },
+   "need": [
+    "address",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "sluzba-zdravstvene-zastite-radnika-snp-novi-sad-n4169644453",
+   "name": "Služba zdravstvene zaštite radnika „SNP”",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": "021 6621411",
+    "hours": "Mo-Fr 07:00-13:30"
+   },
+   "need": [
+    "address",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "taita-novi-sad-n12950111407",
+   "name": "Taita",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": "Mo,Th 14:00-20:00; Tu,We,Fr 08:00-14:00; Sa,Su off"
+   },
+   "need": [
+    "address",
+    "phones",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "the-zubar-novi-sad-n12798411401",
+   "name": "The Zubar",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Bulevar cara Lazara 65",
+    "phones": "061 1400064",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "urgentni-centar-novi-sad-r24184311",
+   "name": "Urgentni centar",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": "24/7"
+   },
+   "need": [
+    "address",
+    "phones",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "uroloska-ordinacija-novi-sad-n10873758457",
+   "name": "Urološka ordinacija",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Majevička 14",
+    "phones": "021 532503; 063 1886708",
+    "hours": "Mo-Fr 16:00-20:00"
+   },
+   "need": [
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatna-skola-elitna-privatna-ekonomska-skola-i-gimnazija-novi-sad",
+   "name": "Elitna privatna ekonomska škola i gimnazija",
+   "official_name": null,
+   "type": "Privatna škola",
+   "type_slug": "privatna-skola",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": "08762414",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatna-skola-francusko-srpska-gimnazija-petar-i-od-srbije-novi-sad",
+   "name": "Francusko-srpska gimnazija Petar I od Srbije",
+   "official_name": null,
+   "type": "Privatna škola",
+   "type_slug": "privatna-skola",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": "08972966",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatna-skola-gimnazija-car-konstantin-i-carica-jelena-novi-sad",
+   "name": "Gimnazija \"Car Konstantin i carica Jelena\"",
+   "official_name": null,
+   "type": "Privatna škola",
+   "type_slug": "privatna-skola",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": "08968748",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  }
+ ]
+}

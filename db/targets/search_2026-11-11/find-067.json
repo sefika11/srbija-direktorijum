@@ -1,0 +1,860 @@
+{
+ "id": "find-067",
+ "kind": "sites",
+ "title": "Medijana, Malo Crniće, Mali Zvornik",
+ "rows": [
+  {
+   "org_slug": "osnovna-skola-adi-endre-mali-idjos",
+   "name": "Osnovna škola \"Adi Endre\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Mali Iđoš",
+   "settlement": null,
+   "mb": "08051194",
+   "website": null,
+   "have": {
+    "address": "Glavna 27",
+    "phones": "024 4730002",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-nikola-djurkovic-feketic-mali-idjos",
+   "name": "Osnovna škola \"Nikola Đurković\" Feketić",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Mali Iđoš",
+   "settlement": "Feketić",
+   "mb": "08051186",
+   "website": null,
+   "have": {
+    "address": "Bratstva 63",
+    "phones": "024 4738071; 024 4738537",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-vuk-karadzic-lovcenac",
+   "name": "Osnovna škola \"Vuk Karadžić\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Mali Iđoš",
+   "settlement": "Lovćenac",
+   "mb": "08055661",
+   "website": null,
+   "have": {
+    "address": "Đuro Strugar 30",
+    "phones": "024 4736066",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-petar-pan-mali-idjos",
+   "name": "Predškolska ustanova \"Petar Pan\"",
+   "official_name": null,
+   "type": "Predškolska ustanova (vrtić)",
+   "type_slug": "predskolska-ustanova",
+   "place": "Mali Iđoš",
+   "settlement": null,
+   "mb": "08575061",
+   "website": null,
+   "have": {
+    "address": "2.Rakoci Ferenc 12.",
+    "phones": "024 730109",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "turisticka-organizacija-opstine-mali-idjos-mali-idjos",
+   "name": "Turistička organizacija opštine Mali Iđoš",
+   "official_name": null,
+   "type": "Turistička organizacija",
+   "type_slug": "turisticka-organizacija",
+   "place": "Mali Iđoš",
+   "settlement": null,
+   "mb": "08886725",
+   "website": null,
+   "have": {
+    "address": "Maršala Tita 32",
+    "phones": "063 8419896",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "centar-za-soc-rad-ops-mali-idjos-centar-za-soc-rad-ops-mali-idjos-kishegyes-kozseg-szocialis-kozpont",
+   "name": "Centar za Soc. rad Opš. Mali Iđoš-Centar za Soc. rad Opš. Mali Iđoš-Kishegyes Kozseg Szocialis Kozpontja",
+   "official_name": null,
+   "type": "Javna ustanova",
+   "type_slug": "ustanova",
+   "place": "Mali Iđoš",
+   "settlement": null,
+   "mb": "08970360",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "agencija-za-privremeno-zaposljavanje-cospex-doo-mali-zvornik-mali-zvornik",
+   "name": "Agencija za privremeno zapošljavanje Cospex doo Mali Zvornik",
+   "official_name": null,
+   "type": "Agencija za zapošljavanje",
+   "type_slug": "agencija-za-zaposljavanje",
+   "place": "Mali Zvornik",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Vuka Karadžića 116",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-mali-zvornik-mali-zvornik",
+   "name": "Centar za socijalni rad \"Mali Zvornik\"",
+   "official_name": null,
+   "type": "Centar za socijalni rad",
+   "type_slug": "centar-za-socijalni-rad",
+   "place": "Mali Zvornik",
+   "settlement": null,
+   "mb": "07378084",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": "015 471190",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "dom-za-stare-ustanova-socijalne-zastite-dom-za-stara-lica-sveti-georgije-mali",
+   "name": "Ustanova Socijalne Zaštite Dom ZA Stara Lica \"sveti Georgije\"",
+   "official_name": null,
+   "type": "Dom za stare",
+   "type_slug": "dom-za-stare",
+   "place": "Mali Zvornik",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Ribarska br. 21",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-royal-drina-mali-zvornik",
+   "name": "Royal Drina",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Mali Zvornik",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Kralja Petra Prvog 26",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "regionalni-inovacioni-startap-centar-mali-zvornik-d-o-o-mali-zvornik-mali-zvornik",
+   "name": "Regionalni Inovacioni Startap Centar Mali Zvornik d.o.o. Mali Zvornik",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Mali Zvornik",
+   "settlement": null,
+   "mb": "22073613",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "biblioteka-17-septembar-mali-zvornik",
+   "name": "Biblioteka \"17. Septembar\"",
+   "official_name": null,
+   "type": "Narodna biblioteka",
+   "type_slug": "narodna-biblioteka",
+   "place": "Mali Zvornik",
+   "settlement": null,
+   "mb": "07301421",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-stevan-filipovic-radalj",
+   "name": "Osnovna škola \"Stevan Filipović\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Mali Zvornik",
+   "settlement": "Radalj",
+   "mb": "17042173",
+   "website": null,
+   "have": {
+    "address": "Nikole Tesle 205",
+    "phones": "015 7462085",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "stomatoloska-ordinacija-dr-vladic-mali-zvornik-n11154436977",
+   "name": "Stomatološka ordinacija „Dr Vladić”",
+   "official_name": null,
+   "type": "Stomatološka ordinacija",
+   "type_slug": "stomatoloska-ordinacija",
+   "place": "Mali Zvornik",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "apoteka-privatna-praksa-vesna-salakovac",
+   "name": "Apoteka privatna praksa \"Vesna\"",
+   "official_name": null,
+   "type": "Apotekarska ustanova",
+   "type_slug": "apoteka",
+   "place": "Malo Crniće",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Salakovac",
+    "phones": "012 280848",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-malo-crnice-malo-crnice",
+   "name": "Centar za socijalni rad Malo Crniće",
+   "official_name": null,
+   "type": "Centar za socijalni rad",
+   "type_slug": "centar-za-socijalni-rad",
+   "place": "Malo Crniće",
+   "settlement": null,
+   "mb": "07341920",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "veterinarska-stanica-malo-crnice-drustvo-sa-ogranicenom-odgovornoscu-malo-crnice-malo-crnice",
+   "name": "Veterinarska stanica Malo Crniće društvo sa ograničenom odgovornošću Malo Crniće",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Malo Crniće",
+   "settlement": null,
+   "mb": "06986404",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-cistoca-malo-crnice-malo-crnice-malo-crnice",
+   "name": "Javno komunalno preduzeće Čistoća-Malo Crniće Malo Crniće",
+   "official_name": null,
+   "type": "JKP Čistoća / Komunalac",
+   "type_slug": "jkp-cistoca",
+   "place": "Malo Crniće",
+   "settlement": null,
+   "mb": "20179066",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "centar-za-kulturu-malo-crnice-malo-crnice",
+   "name": "Centar za kulturu Malo Crniće",
+   "official_name": null,
+   "type": "Kulturni centar / Dom kulture",
+   "type_slug": "kulturni-centar",
+   "place": "Malo Crniće",
+   "settlement": null,
+   "mb": "06266347",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "biblioteka-srboljub-mitic-malo-crnice",
+   "name": "Biblioteka \"Srboljub Mitić\"",
+   "official_name": null,
+   "type": "Narodna biblioteka",
+   "type_slug": "narodna-biblioteka",
+   "place": "Malo Crniće",
+   "settlement": null,
+   "mb": "07142447",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-draza-markovic-rodja-smoljinac",
+   "name": "Osnovna škola \"Draža Marković Rođa\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Malo Crniće",
+   "settlement": "Smoljinac",
+   "mb": "07142234",
+   "website": null,
+   "have": {
+    "address": "Nikole Tesle 56",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-milisav-nikolic-bozevac-malo-crnice",
+   "name": "Osnovna škola \"Milisav Nikolić\" Boževac",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Malo Crniće",
+   "settlement": "Boževac",
+   "mb": "07142102",
+   "website": null,
+   "have": {
+    "address": "Cara Lazara-Čaršija 1",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-mosa-pijade-malo-crnice",
+   "name": "Osnovna škola \"Moša Pijade\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Malo Crniće",
+   "settlement": null,
+   "mb": "07142129",
+   "website": null,
+   "have": {
+    "address": "Bajlonijeva 123",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-djura-jaksic-toponica",
+   "name": "Osnovna škola \"Đura Jakšić\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Malo Crniće",
+   "settlement": null,
+   "mb": "07160828",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "promo-nekretnine-nis-n13650565701",
+   "name": "Promo Nekretnine",
+   "official_name": null,
+   "type": "Agencija za nekretnine",
+   "type_slug": "agencija-za-nekretnine",
+   "place": "Medijana",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Bulevar Nemanjića 16",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "auto-skola-new-friends-nis-n13641122206",
+   "name": "Auto Škola New Friends",
+   "official_name": null,
+   "type": "Auto-škola",
+   "type_slug": "auto-skola",
+   "place": "Medijana",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Vojvode Mišića 58",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "fakultet-srpskih-studija-univerziteta-u-nisu-nis-medijana",
+   "name": "Fakultet Srpskih Studija Univerziteta u Nišu",
+   "official_name": null,
+   "type": "Fakultet",
+   "type_slug": "fakultet",
+   "place": "Medijana",
+   "settlement": null,
+   "mb": "18828995",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "akcionarsko-drustvo-za-ispitivanje-kvaliteta-kvalitet-nis-nis-medijana",
+   "name": "Akcionarsko društvo za Ispitivanje Kvaliteta Kvalitet, Niš",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Medijana",
+   "settlement": null,
+   "mb": "07302606",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "ei-holding-korporacija-nis-doo-za-obavljanje-komerc-i-inzenjering-delatnosti-ei-komerc-nis-u-stecaju",
+   "name": "Ei Holding Korporacija Niš DOO za Obavljanje Komerc. i Inženjering delatnosti Ei Komerc Niš - u Stečaju",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Medijana",
+   "settlement": null,
+   "mb": "07211295",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "elmont-doo-nis-nis-medijana",
+   "name": "Elmont DOO Niš",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Medijana",
+   "settlement": null,
+   "mb": "07658761",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "holding-korporacija-elektronska-industrija-akcionarsko-drustvo-nis-u-stecaju-nis-medijana",
+   "name": "Holding-Korporacija Elektronska Industrija Akcionarsko društvo Niš - u Stečaju",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Medijana",
+   "settlement": null,
+   "mb": "07210892",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "regionalno-privredno-drustvo-za-komunalnu-delatnost-niski-region-doo-nis-mediana-nis-medijana",
+   "name": "Regionalno privredno društvo za komunalnu delatnost Niški Region DOO Niš-Mediana",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Medijana",
+   "settlement": null,
+   "mb": "21147591",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "vodoprivredno-privredno-drustvo-erozija-drustvo-sa-ogranicenom-odgovornoscu-nis-nis-medijana",
+   "name": "Vodoprivredno privredno društvo Erozija društvo sa ograničenom odgovornošću, Niš",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Medijana",
+   "settlement": null,
+   "mb": "07173270",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-gradska-toplana-nis-nis-medijana",
+   "name": "Javno komunalno preduzeće gradska toplana, Niš",
+   "official_name": null,
+   "type": "JKP Toplana / Gradska toplana",
+   "type_slug": "jkp-toplana",
+   "place": "Medijana",
+   "settlement": null,
+   "mb": "07216009",
+   "website": null,
+   "have": {
+    "address": "Blagoja Parovića br. 3",
+    "phones": "018 4530413",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "pozoriste-lutaka-nis-nis-medijana",
+   "name": "Pozorište Lutaka Niš",
+   "official_name": null,
+   "type": "Kulturni centar / Dom kulture",
+   "type_slug": "kulturni-centar",
+   "place": "Medijana",
+   "settlement": "Niš",
+   "mb": "07227191",
+   "website": null,
+   "have": {
+    "address": "Bulevar Dr Zorana Đinđića 7",
+    "phones": "018 253962",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-dr-zoran-djindjic-nis",
+   "name": "Osnovna škola \"Dr Zoran Đinđić\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Medijana",
+   "settlement": "Brzi Brod",
+   "mb": "17820796",
+   "website": null,
+   "have": {
+    "address": "Pavla Sofrića 30",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "aqua-lab-nis-n10929200770",
+   "name": "Aqua Lab",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Medijana",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "aqualab-nis-n10949227549",
+   "name": "Aqualab",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Medijana",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "beo-lab-nis-n12541479754",
+   "name": "Beo-lab",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Medijana",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "centar-za-zastitu-mentalnog-zdravlja-nis-w583867716",
+   "name": "Centar za zaštitu mentalnog zdravlja",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Medijana",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  }
+ ]
+}

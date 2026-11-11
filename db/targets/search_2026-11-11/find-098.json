@@ -1,0 +1,852 @@
+{
+ "id": "find-098",
+ "kind": "sites",
+ "title": "Pirot, Pećinci, Petrovaradin",
+ "rows": [
+  {
+   "org_slug": "ustanova-za-decu-i-omladinu-sos-decje-selo-dr-milorad-pavlovic-sremska-kamenica-sremska-kamenica",
+   "name": "Ustanova za decu i omladinu Sos Dečje Selo \"Dr Milorad Pavlović\" Sremska Kamenica",
+   "official_name": null,
+   "type": "Javna ustanova",
+   "type_slug": "ustanova",
+   "place": "Petrovaradin",
+   "settlement": null,
+   "mb": "08160082",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-crystal-event-center-pecinci",
+   "name": "Crystal Event Center",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Pećinci",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Oračko Polje 15",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "agencija-za-razvoj-opstine-pecinci-drustvo-sa-ogranicenom-odgovornoscu-pecinci-pecinci",
+   "name": "Agencija za razvoj opštine Pećinci društvo sa ograničenom odgovornošću Pećinci",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Pećinci",
+   "settlement": null,
+   "mb": "20521732",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": "022 400731",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "javno-preduzece-projektovanje-pecinci-u-stecaju-pecinci",
+   "name": "Javno Preduzeće Projektovanje Pećinci - u Stečaju",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Pećinci",
+   "settlement": null,
+   "mb": "20925159",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-putevi-opstine-pecinci-pecinci-pecinci",
+   "name": "Javno Komunalno Preduzeće Putevi Opštine Pećinci Pećinci",
+   "official_name": null,
+   "type": "JKP Čistoća / Komunalac",
+   "type_slug": "jkp-cistoca",
+   "place": "Pećinci",
+   "settlement": null,
+   "mb": "21357278",
+   "website": null,
+   "have": {
+    "address": "Slobodana Bajića 5",
+    "phones": "022 400735",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "kulturni-centar-pecinci-pecinci",
+   "name": "Kulturni centar Pećinci",
+   "official_name": null,
+   "type": "Kulturni centar / Dom kulture",
+   "type_slug": "kulturni-centar",
+   "place": "Pećinci",
+   "settlement": null,
+   "mb": "08147256",
+   "website": null,
+   "have": {
+    "address": "Slobodana Bajića 1",
+    "phones": "022 2436237; 022 2436766",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "narodna-biblioteka-u-pecincima-pecinci",
+   "name": "Narodna biblioteka u Pećincima",
+   "official_name": null,
+   "type": "Narodna biblioteka",
+   "type_slug": "narodna-biblioteka",
+   "place": "Pećinci",
+   "settlement": null,
+   "mb": "08829756",
+   "website": null,
+   "have": {
+    "address": "Slobodana Bajića 1",
+    "phones": "022 2435350",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-dusan-jerkovic-uca-simanovci-pecinci",
+   "name": "Osnovna škola \"Dušan Jerković-Uča\" Šimanovci",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Pećinci",
+   "settlement": "Šimanovci",
+   "mb": "08072124",
+   "website": null,
+   "have": {
+    "address": "Trg Sv. Nikolaja 18",
+    "phones": "022 480102; 022 480235",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-dusan-vukasovic-diogen-kupinovo-pecinci",
+   "name": "Osnovna škola \"Dušan Vukasović-Diogen\" Kupinovo",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Pećinci",
+   "settlement": "Kupinovo",
+   "mb": "08106061",
+   "website": null,
+   "have": {
+    "address": "Maršala Tita 1",
+    "phones": "022 2438451",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-slobodan-bajic-paja-pecinci",
+   "name": "Osnovna škola \"Slobodan Bajić-Paja\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Pećinci",
+   "settlement": null,
+   "mb": "08072043",
+   "website": null,
+   "have": {
+    "address": "Školska 8",
+    "phones": "022 2436166",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-vlada-obradovic-kameni-pecinci",
+   "name": "Predškolska ustanova \"vlada Obradović-Kameni\"",
+   "official_name": null,
+   "type": "Predškolska ustanova (vrtić)",
+   "type_slug": "predskolska-ustanova",
+   "place": "Pećinci",
+   "settlement": null,
+   "mb": "08125902",
+   "website": null,
+   "have": {
+    "address": "Školska 6",
+    "phones": "022 2436250; 022 2435113; 022 2436052",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "javna-ustanova-sportski-centar-pecinci-pecinci",
+   "name": "Javna ustanova \"sportski centar\" Pećinci",
+   "official_name": null,
+   "type": "Sportski centar",
+   "type_slug": "sportski-centar",
+   "place": "Pećinci",
+   "settlement": null,
+   "mb": "08959803",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "tehnicka-skola-milenko-verkic-nesa-pecinci",
+   "name": "Tehnička škola \"Milenko Verkić-Neša\"",
+   "official_name": null,
+   "type": "Srednja škola / Gimnazija",
+   "type_slug": "srednja-skola",
+   "place": "Pećinci",
+   "settlement": null,
+   "mb": "08126356",
+   "website": null,
+   "have": {
+    "address": "Školska 8a",
+    "phones": "022 2436146; 022 2435279; 022 2435312",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "usluga-socijalne-zastite-centar-za-socijalni-rad-pecinci-pecinci",
+   "name": "Centar ZA Socijalni Rad \"pećinci\"",
+   "official_name": null,
+   "type": "Usluga socijalne zaštite",
+   "type_slug": "usluga-socijalne-zastite",
+   "place": "Pećinci",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Slobodana Bajića br. 5",
+    "phones": "022 2436028",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "agencija-za-privremeno-zaposljavanje-tim-power-plus-d-o-o-pirot-pirot",
+   "name": "Agencija za privremeno zapošljavanje TIM POWER PLUS d.o.o. Pirot",
+   "official_name": null,
+   "type": "Agencija za zapošljavanje",
+   "type_slug": "agencija-za-zaposljavanje",
+   "place": "Pirot",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Srpskih vladara 22",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-alma-pirot",
+   "name": "Alma",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Pirot",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Nikole Pašića 201a",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-ana-lux-spa-pirot",
+   "name": "Ana Lux Spa",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Pirot",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Srpskih Vladara bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-crystal-lights-pirot",
+   "name": "Crystal Lights",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Pirot",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Nikole Pašića 184",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-dijana-pirot",
+   "name": "Dijana",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Pirot",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Milutina Velimirovića bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-gazela-pirot",
+   "name": "Gazela",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Pirot",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Vojvode Mišića bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-sin-kom-pirot",
+   "name": "Sin Kom",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Pirot",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Nikole Pašića bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "akcionarsko-drustvo-tigar-pirot-pirot",
+   "name": "Akcionarsko društvo Tigar Pirot",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Pirot",
+   "settlement": null,
+   "mb": "07187769",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "akcionarsko-drustvo-za-upravljanje-slobodnom-zonom-pirot-pirot-pirot",
+   "name": "Akcionarsko društvo za upravljanje Slobodnom Zonom Pirot, Pirot",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Pirot",
+   "settlement": null,
+   "mb": "17108522",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "drustvo-sa-ogranicenom-odgovornoscu-p-kanal-pirot-pirot",
+   "name": "Društvo sa ograničenom odgovornošću P Kanal, Pirot",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Pirot",
+   "settlement": null,
+   "mb": "17259636",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "industrija-odece-prvi-maj-akcionarsko-drustvo-pirot-u-stecaju-pirot",
+   "name": "Industrija Odeće Prvi Maj Akcionarsko društvo Pirot - u Stečaju",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Pirot",
+   "settlement": null,
+   "mb": "07130953",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "poljoprivredna-savetodavna-i-strucna-sluzba-pirot-doo-pirot-pirot",
+   "name": "Poljoprivredna Savetodavna i Stručna služba Pirot DOO, Pirot",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Pirot",
+   "settlement": null,
+   "mb": "07203365",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "preduzece-za-profesionalnu-rehabilitaciju-i-zaposljavanje-osoba-sa-invaliditetom-piroteks-triko-doo",
+   "name": "Preduzeće za Profesionalnu Rehabilitaciju i zapošljavanje Osoba sa Invaliditetom \"Piroteks Triko\" DOO",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Pirot",
+   "settlement": null,
+   "mb": "17186850",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "preduzece-za-pruzanje-usluga-tigar-poslovni-servis-doo-pirot-pirot",
+   "name": "Preduzeće za Pružanje Usluga Tigar Poslovni servis DOO Pirot",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Pirot",
+   "settlement": null,
+   "mb": "17466496",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "preduzece-za-pruzanje-usluga-u-oblasti-fizickog-obezbedjenja-i-zas-od-pozara-tigar-obezb-doo-pirot-p",
+   "name": "Preduzeće za Pružanje Usluga u Oblasti Fizičkog Obezbeđenja i Zaš. OD Požara Tigar Obezb. DOO Pirot",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Pirot",
+   "settlement": null,
+   "mb": "17466526",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "socijalno-ekonomski-savet-grada-pirota-pirot",
+   "name": "Socijalno-Ekonomski Savet grada Pirota",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Pirot",
+   "settlement": null,
+   "mb": "18377748",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "zip-centar-za-mlade-biznis-inkubator-d-o-o-pirot-pirot",
+   "name": "Zip Centar za Mlade-Biznis Inkubator d.o.o. Pirot",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Pirot",
+   "settlement": null,
+   "mb": "20819588",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "drustveni-fond-za-puteve-opstine-pirot-pirot",
+   "name": "Društveni fond za puteve opštine Pirot",
+   "official_name": null,
+   "type": "JP za puteve i izgradnju",
+   "type_slug": "jp-putevi",
+   "place": "Pirot",
+   "settlement": null,
+   "mb": "07366817",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "javno-preduzece-za-planiranje-i-uredjivanje-gradjevinskog-zemljista-pirot-pirot",
+   "name": "Javno preduzeće za planiranje i Uređivanje Građevinskog Zemljišta Pirot",
+   "official_name": null,
+   "type": "JP za puteve i izgradnju",
+   "type_slug": "jp-putevi",
+   "place": "Pirot",
+   "settlement": null,
+   "mb": "20813938",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-muzicka-skola-dr-dragutin-gostuski-pirot",
+   "name": "Osnovna muzička škola \"Dr Dragutin Gostuški\"",
+   "official_name": null,
+   "type": "Muzička ili baletska škola",
+   "type_slug": "muzicka-skola",
+   "place": "Pirot",
+   "settlement": null,
+   "mb": "17468588",
+   "website": null,
+   "have": {
+    "address": "Vuka Karadžića 1",
+    "phones": "010 311866",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-8-septembar-pirot",
+   "name": "Osnovna škola \"8. Septembar\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Pirot",
+   "settlement": null,
+   "mb": "07211686",
+   "website": null,
+   "have": {
+    "address": "Danila Kiša 21",
+    "phones": "010 345211",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-dusan-radovic-pirot",
+   "name": "Osnovna škola \"Dušan Radović\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Pirot",
+   "settlement": null,
+   "mb": "07172451",
+   "website": null,
+   "have": {
+    "address": "Zanatlijska B.B.",
+    "phones": "010 312435",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-sveti-sava-pirot",
+   "name": "Osnovna škola \"Sveti Sava\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Pirot",
+   "settlement": null,
+   "mb": "07172443",
+   "website": null,
+   "have": {
+    "address": "Save Nemanjića 2",
+    "phones": "010 321757",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-vuk-karadzic-pirot",
+   "name": "Osnovna škola \"Vuk Karadžić\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Pirot",
+   "settlement": null,
+   "mb": "07172427",
+   "website": null,
+   "have": {
+    "address": "Srpskih Vladara 111",
+    "phones": "010 345210",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "skola-za-osnovno-i-srednje-obrazovanje-mladost-pirot",
+   "name": "Škola za osnovno i Srednje obrazovanje \"Mladost\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Pirot",
+   "settlement": null,
+   "mb": "07172338",
+   "website": null,
+   "have": {
+    "address": "Koste Abraševića 38",
+    "phones": "010 311622",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatni-vrtic-predskolska-ustanova-my-way-pirot",
+   "name": "Predškolska ustanova „My Way“",
+   "official_name": null,
+   "type": "Privatni vrtić",
+   "type_slug": "privatni-vrtic",
+   "place": "Pirot",
+   "settlement": null,
+   "mb": "18821249",
+   "website": null,
+   "have": {
+    "address": "Koste Abraševića 44",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  }
+ ]
+}

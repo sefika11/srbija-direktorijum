@@ -1,0 +1,854 @@
+{
+ "id": "find-140",
+ "kind": "sites",
+ "title": "Zemun, Zrenjanin",
+ "rows": [
+  {
+   "org_slug": "hitan-prijem-beograd-n7560453499",
+   "name": "Hitan prijem",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Zemun",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "intermed-plus-beograd-n14356439687",
+   "name": "Intermed Plus",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Zemun",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": "Mo-Fr 07:30-20:00; Sa 07:30-16:00"
+   },
+   "need": [
+    "address",
+    "phones",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "kbc-zemun-neuroloska-sluzba-beograd-n8441423305",
+   "name": "KBC Zemun - Neurološka služba",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Zemun",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Vrtlarska 57",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "kbc-zemun-poliklinika-beograd-w1818290580",
+   "name": "KBC Zemun - Poliklinika",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Zemun",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "medilab-v-beograd-n12995399775",
+   "name": "Medilab V",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Zemun",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": "011 4040100",
+    "hours": "Mo-Fr 07:00-14:00; Sa 08:00-12:00; Su off"
+   },
+   "need": [
+    "address",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "ordinacija-s-beograd-n12879801629",
+   "name": "Ordinacija S",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Zemun",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": "011 3161665; 065 2161665",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "poliklinika-beograd-w560095270",
+   "name": "Poliklinika",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Zemun",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "vitalis-lab-beograd-n12064061988",
+   "name": "Vitalis lab",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Zemun",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatni-vrtic-predskolska-ustanova-ptici-prepelici-ugrinovci",
+   "name": "Predškolska ustanova „Ptići prepelići“",
+   "official_name": null,
+   "type": "Privatni vrtić",
+   "type_slug": "privatni-vrtic",
+   "place": "Zemun",
+   "settlement": "Ugrinovci",
+   "mb": "17919407",
+   "website": null,
+   "have": {
+    "address": "Stefana Kneževića 7",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatni-vrtic-predskolska-ustanova-sara-kej-2-ugrinovci",
+   "name": "Predškolska ustanova „Sara Kej 2“",
+   "official_name": null,
+   "type": "Privatni vrtić",
+   "type_slug": "privatni-vrtic",
+   "place": "Zemun",
+   "settlement": "Ugrinovci",
+   "mb": "18827484",
+   "website": null,
+   "have": {
+    "address": "Beogradska 114",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatni-vrtic-predskolska-ustanova-svet-sara-key-ugrinovci",
+   "name": "Predškolska ustanova „Svet Sara Key“",
+   "official_name": null,
+   "type": "Privatni vrtić",
+   "type_slug": "privatni-vrtic",
+   "place": "Zemun",
+   "settlement": "Ugrinovci",
+   "mb": "18376873",
+   "website": null,
+   "have": {
+    "address": "Beogradska 120",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatni-vrtic-predskolska-ustanova-tri-musketara-ugrinovci",
+   "name": "Predškolska ustanova „Tri musketara“",
+   "official_name": null,
+   "type": "Privatni vrtić",
+   "type_slug": "privatni-vrtic",
+   "place": "Zemun",
+   "settlement": "Ugrinovci",
+   "mb": "17901486",
+   "website": null,
+   "have": {
+    "address": "Krnješevačka 7",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-center-for-positive-youth-development-beograd-zemun",
+   "name": "Center for Positive Youth Development",
+   "official_name": null,
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "type_slug": "skola-za-odrasle",
+   "place": "Zemun",
+   "settlement": "Beograd (Zemun)",
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Marine Koljubajeve 7",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-honigkaiser-doo-beograd-zemun-beograd-zemun",
+   "name": "Honigkaiser Doo Beograd (Zemun)",
+   "official_name": null,
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "type_slug": "skola-za-odrasle",
+   "place": "Zemun",
+   "settlement": "Beograd (Zemun)",
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Dragana Rakića 12",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-institut-za-ekonomsku-diplomatiju-drustvo-sa-ogranicenom",
+   "name": "Institut Za Ekonomsku Diplomatiju Društvo Sa Ograničenom Odgovornošću, Beograd (Zemun)",
+   "official_name": null,
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "type_slug": "skola-za-odrasle",
+   "place": "Zemun",
+   "settlement": "Beograd (Zemun)",
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Pregrevica 168",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-institut-za-unapredjenje-poslovanja-doo-beograd-zemun-beograd",
+   "name": "Institut Za Unapređenje Poslovanja Doo Beograd (Zemun)",
+   "official_name": null,
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "type_slug": "skola-za-odrasle",
+   "place": "Zemun",
+   "settlement": "Beograd (Zemun)",
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Novogradska 63",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-kodar-energomontaza-beograd-zemun",
+   "name": "Kodar Energomontaža",
+   "official_name": null,
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "type_slug": "skola-za-odrasle",
+   "place": "Zemun",
+   "settlement": "Beograd (Zemun)",
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Autoput Za Zagreb 22",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-link-group-doo-beograd-zemun-beograd-zemun",
+   "name": "LINK group DOO, BEOGRAD (ZEMUN)",
+   "official_name": null,
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "type_slug": "skola-za-odrasle",
+   "place": "Zemun",
+   "settlement": "Beograd (Zemun)",
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Cara Dušana 34",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-link-group-professional-education-doo-beograd-zemun-beograd",
+   "name": "LINK group Professional Education DOO BEOGRAD-ZEMUN",
+   "official_name": null,
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "type_slug": "skola-za-odrasle",
+   "place": "Zemun",
+   "settlement": "Beograd (Zemun)",
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Cara Dušana 34",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-nenad-nesic-pr-ambulanta-za-rehabilitaciju-fizionova-beograd",
+   "name": "Nenad Nešić Pr Ambulanta Za Rehabilitaciju Fizionova Beograd(Zemun)",
+   "official_name": null,
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "type_slug": "skola-za-odrasle",
+   "place": "Zemun",
+   "settlement": "Beograd (Zemun)",
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Teodora Herlca 16",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-perfect-hair-beograd-zemun",
+   "name": "Perfect Hair",
+   "official_name": null,
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "type_slug": "skola-za-odrasle",
+   "place": "Zemun",
+   "settlement": "Beograd (Zemun)",
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Kosovska 5",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-udruzenje-gradjana-business-innovation-programs-beograd-zemun",
+   "name": "Udruženje građana \"BUSINESS INNOVATION PROGRAMS\"",
+   "official_name": null,
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "type_slug": "skola-za-odrasle",
+   "place": "Zemun",
+   "settlement": "Beograd (Zemun)",
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Oskara Daviča 32",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privredno-drustvo-sportski-centar-pinki-zemun-d-o-o-beograd-beograd-zemun",
+   "name": "Privredno Društvo Sportski Centar Pinki-Zemun d.o.o. Beograd",
+   "official_name": null,
+   "type": "Sportski centar",
+   "type_slug": "sportski-centar",
+   "place": "Zemun",
+   "settlement": null,
+   "mb": "21716324",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "ekonomska-skola-nada-dimic-zemun",
+   "name": "Ekonomska škola \"Nada Dimić\"",
+   "official_name": null,
+   "type": "Srednja škola / Gimnazija",
+   "type_slug": "srednja-skola",
+   "place": "Zemun",
+   "settlement": "Beograd",
+   "mb": "07021267",
+   "website": null,
+   "have": {
+    "address": "Dvadesetdrugog Oktobra 19",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "pravno-poslovna-skola-dimitrije-davidovic-zemun",
+   "name": "Pravno-Poslovna škola \"Dimitrije Davidović\"",
+   "official_name": null,
+   "type": "Srednja škola / Gimnazija",
+   "type_slug": "srednja-skola",
+   "place": "Zemun",
+   "settlement": "Beograd",
+   "mb": "07026684",
+   "website": null,
+   "have": {
+    "address": "Tošin Bunar 17",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "saobracajno-tehnicka-skola-zemun",
+   "name": "Saobraćajno-Tehnička škola",
+   "official_name": null,
+   "type": "Srednja škola / Gimnazija",
+   "type_slug": "srednja-skola",
+   "place": "Zemun",
+   "settlement": "Beograd",
+   "mb": "17076469",
+   "website": null,
+   "have": {
+    "address": "Cara Dušana 262",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "adriadent-beograd-n14346368051",
+   "name": "Adriadent",
+   "official_name": null,
+   "type": "Stomatološka ordinacija",
+   "type_slug": "stomatoloska-ordinacija",
+   "place": "Zemun",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": "064 3038270",
+    "hours": "Mo,We,Fr 10:00-20:00; Tu,Th 14:00-20:00"
+   },
+   "need": [
+    "address",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "beodent-beograd-n14314251900",
+   "name": "BeoDent",
+   "official_name": null,
+   "type": "Stomatološka ordinacija",
+   "type_slug": "stomatoloska-ordinacija",
+   "place": "Zemun",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "dr-vojinovic-beograd-n13361458313",
+   "name": "Dr Vojinović",
+   "official_name": null,
+   "type": "Stomatološka ordinacija",
+   "type_slug": "stomatoloska-ordinacija",
+   "place": "Zemun",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": "064 2288645",
+    "hours": "Mo-Fr 09:00-17:00; Sa 09:00-15:00"
+   },
+   "need": [
+    "address",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "orto-centar-beograd-n14346368061",
+   "name": "Orto Centar",
+   "official_name": null,
+   "type": "Stomatološka ordinacija",
+   "type_slug": "stomatoloska-ordinacija",
+   "place": "Zemun",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": "011 2616341; 064 1263193",
+    "hours": "Mo-Fr 10:00-18:30"
+   },
+   "need": [
+    "address",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "stojakovic-beograd-n14356439688",
+   "name": "Stojaković",
+   "official_name": null,
+   "type": "Stomatološka ordinacija",
+   "type_slug": "stomatoloska-ordinacija",
+   "place": "Zemun",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": "Mo-Fr 09:00-19:00; Sa 09:00-13:00"
+   },
+   "need": [
+    "address",
+    "phones",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "stomatoloska-ordinacija-cosic-beograd-n4873718321",
+   "name": "Stomatološka ordinacija Ćosić",
+   "official_name": null,
+   "type": "Stomatološka ordinacija",
+   "type_slug": "stomatoloska-ordinacija",
+   "place": "Zemun",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "magicdent-beograd-n12684877644",
+   "name": "magicdent",
+   "official_name": null,
+   "type": "Stomatološka ordinacija",
+   "type_slug": "stomatoloska-ordinacija",
+   "place": "Zemun",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "dom-za-odrasla-invalidna-lica-zemun-zemun",
+   "name": "Dom za Odrasla Invalidna lica Zemun",
+   "official_name": null,
+   "type": "Javna ustanova",
+   "type_slug": "ustanova",
+   "place": "Zemun",
+   "settlement": null,
+   "mb": "17413996",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "institut-za-primenu-nuklerane-energije-inep-beograd-zemun",
+   "name": "Institut za Primenu Nuklerane energije Inep",
+   "official_name": null,
+   "type": "Javna ustanova",
+   "type_slug": "ustanova",
+   "place": "Zemun",
+   "settlement": null,
+   "mb": "07030088",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "regionalni-centar-za-talente-iz-prirodnih-i-tehnickih-nauka-beograd-beograd-zemun",
+   "name": "Regionalni centar za Talente iz Prirodnih i Tehničkih Nauka Beograd",
+   "official_name": null,
+   "type": "Javna ustanova",
+   "type_slug": "ustanova",
+   "place": "Zemun",
+   "settlement": null,
+   "mb": "17171887",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "kokovet-beograd-n13922519342",
+   "name": "Kokovet",
+   "official_name": null,
+   "type": "Veterinarska stanica / ambulanta",
+   "type_slug": "veterinarska-stanica",
+   "place": "Zemun",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "marjanov-beograd-n13077495164",
+   "name": "Marjanov",
+   "official_name": null,
+   "type": "Veterinarska stanica / ambulanta",
+   "type_slug": "veterinarska-stanica",
+   "place": "Zemun",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": "063 239880",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "taurunum-vet-beograd-n12790155923",
+   "name": "Taurunum Vet",
+   "official_name": null,
+   "type": "Veterinarska stanica / ambulanta",
+   "type_slug": "veterinarska-stanica",
+   "place": "Zemun",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Prvomajska 117",
+    "phones": "060 7110113; 061 3930705",
+    "hours": "Mo-Fr 10:00-19:00; Sa 09:00-15:00; Su 09:00-13:00"
+   },
+   "need": [
+    "website"
+   ]
+  },
+  {
+   "org_slug": "apoteka-zrenjanin-zrenjanin",
+   "name": "Apoteka Zrenjanin",
+   "official_name": null,
+   "type": "Apotekarska ustanova",
+   "type_slug": "apoteka",
+   "place": "Zrenjanin",
+   "settlement": null,
+   "mb": "08671621",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  }
+ ]
+}

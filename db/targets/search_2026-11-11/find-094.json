@@ -1,0 +1,855 @@
+{
+ "id": "find-094",
+ "kind": "sites",
+ "title": "Pančevo, Palilula, Pantelej",
+ "rows": [
+  {
+   "org_slug": "viz-dent-beograd-n3984037270",
+   "name": "Viz Dent",
+   "official_name": null,
+   "type": "Stomatološka ordinacija",
+   "type_slug": "stomatoloska-ordinacija",
+   "place": "Palilula",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Stojana Novakovića 6",
+    "phones": null,
+    "hours": "11:00-20:00"
+   },
+   "need": [
+    "phones",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "turisticka-organizacija-gradske-opstine-palilula-beograd-palilula",
+   "name": "Turistička organizacija gradske opštine Palilula",
+   "official_name": null,
+   "type": "Turistička organizacija",
+   "type_slug": "turisticka-organizacija",
+   "place": "Palilula",
+   "settlement": null,
+   "mb": "18820960",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "lazarevic-beograd-w848625444",
+   "name": "Lazarević",
+   "official_name": null,
+   "type": "Veterinarska stanica / ambulanta",
+   "type_slug": "veterinarska-stanica",
+   "place": "Palilula",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Zrenjaninski put 30",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "mama-beograd-n4311570397",
+   "name": "Mama",
+   "official_name": null,
+   "type": "Veterinarska stanica / ambulanta",
+   "type_slug": "veterinarska-stanica",
+   "place": "Palilula",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": "Mo-Fr 10:00-18:00; Sa,Su 10:00-14:00"
+   },
+   "need": [
+    "address",
+    "phones",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "samostalna-veterinarska-ambulanta-petrovac-beograd-r15283699",
+   "name": "Samostalna veterinarska ambulanta Petrovac",
+   "official_name": null,
+   "type": "Veterinarska stanica / ambulanta",
+   "type_slug": "veterinarska-stanica",
+   "place": "Palilula",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Borčanskih žrtava 1914. 92/1",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "vetalfa-beograd-w858705738",
+   "name": "VetAlfa",
+   "official_name": null,
+   "type": "Veterinarska stanica / ambulanta",
+   "type_slug": "veterinarska-stanica",
+   "place": "Palilula",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Valjevskog odreda 29",
+    "phones": null,
+    "hours": "Mo-Fr 09:00-19:00; Sa 09:00-14:00"
+   },
+   "need": [
+    "phones",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "veterina-beograd-beograd-w954559742",
+   "name": "Veterina Beograd",
+   "official_name": null,
+   "type": "Veterinarska stanica / ambulanta",
+   "type_slug": "veterinarska-stanica",
+   "place": "Palilula",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Bulevar despota Stefana 119a",
+    "phones": "011 3293099",
+    "hours": "Mo-Fr 07:00-22:00; Sa-Su 07:00-15:00"
+   },
+   "need": [
+    "website"
+   ]
+  },
+  {
+   "org_slug": "veterinarska-stanica-nis-w1380288398",
+   "name": "Veterinarska stanica",
+   "official_name": null,
+   "type": "Veterinarska stanica / ambulanta",
+   "type_slug": "veterinarska-stanica",
+   "place": "Palilula",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Ivana Milutinovića 63b",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "vetevet-beograd-n10111672444",
+   "name": "Vetevet",
+   "official_name": null,
+   "type": "Veterinarska stanica / ambulanta",
+   "type_slug": "veterinarska-stanica",
+   "place": "Palilula",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": "Mo-Fr 09:00-13:00,17:00-20:00,10:00-13:00"
+   },
+   "need": [
+    "address",
+    "phones",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-svrljizanka-donja-vrezina",
+   "name": "Svrljižanka",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Pantelej",
+   "settlement": "Donja Vrežina",
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Vrežinski Bulevar 22",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-jovan-jovanovic-zmaj-malca-nis",
+   "name": "Osnovna škola \"Jovan Jovanović-Zmaj\" Malča",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Pantelej",
+   "settlement": "Malča",
+   "mb": "17550055",
+   "website": null,
+   "have": {
+    "address": "Srpskih Velikana 32",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-karadjordje-gornji-matejevac",
+   "name": "Osnovna škola \"Karađorđe\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Pantelej",
+   "settlement": "Gornji Matejevac",
+   "mb": "07216114",
+   "website": null,
+   "have": {
+    "address": "Prosvetna 1",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-stevan-sindjelic-kamenica-nis",
+   "name": "Osnovna škola \"Stevan Sinđelić\" Kamenica",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Pantelej",
+   "settlement": "Kamenica",
+   "mb": "07174543",
+   "website": null,
+   "have": {
+    "address": "Humska 32",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "pan-city-nekretnine-pancevo-n11477316352",
+   "name": "Pan City Nekretnine",
+   "official_name": null,
+   "type": "Agencija za nekretnine",
+   "type_slug": "agencija-za-nekretnine",
+   "place": "Pančevo",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": "Mo-Fr 09:00-17:00; Sa 10:00-14:00"
+   },
+   "need": [
+    "address",
+    "phones",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "smart-invest-pancevo-n9914594669",
+   "name": "Smart invest",
+   "official_name": null,
+   "type": "Agencija za nekretnine",
+   "type_slug": "agencija-za-nekretnine",
+   "place": "Pančevo",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Maksima Gorkog 8",
+    "phones": "060 3601330",
+    "hours": "Mo-Fr 09:00-17:00; Sa-Su off"
+   },
+   "need": [
+    "website"
+   ]
+  },
+  {
+   "org_slug": "agencija-za-privremeno-zaposljavanje-nknet-consulting-doo-pancevo-pancevo",
+   "name": "Agencija ZA Privremeno Zapošljavanje Nknet Consulting DOO Pancevo",
+   "official_name": null,
+   "type": "Agencija za zapošljavanje",
+   "type_slug": "agencija-za-zaposljavanje",
+   "place": "Pančevo",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Svetozara Miletića, stan: 18",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "agencija-za-privremeno-zaposljavanje-worker-point-013-doo-pancevo-pancevo",
+   "name": "Agencija ZA Privremeno Zapošljavanje Worker Point 013 DOO Pančevo",
+   "official_name": null,
+   "type": "Agencija za zapošljavanje",
+   "type_slug": "agencija-za-zaposljavanje",
+   "place": "Pančevo",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Oslobođenja 58",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "agencija-za-privremeno-zaposljvanje-rs-employment-agency-doo-pancevo-pancevo",
+   "name": "Agencija ZA Privremeno Zapošljvanje RS Employment Agency DOO Pančevo",
+   "official_name": null,
+   "type": "Agencija za zapošljavanje",
+   "type_slug": "agencija-za-zaposljavanje",
+   "place": "Pančevo",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Karađorđeva 16",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "agencija-za-zaposljavanje-work-network-agencija-za-privremeno-zaposljavanje",
+   "name": "Work Network Agencija ZA Privremeno Zapošljavanje Društvo SA Ograničenom Odgovornošću Pančevo",
+   "official_name": null,
+   "type": "Agencija za zapošljavanje",
+   "type_slug": "agencija-za-zaposljavanje",
+   "place": "Pančevo",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Zmaj Jove Jovanovića 2",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "apoteka-pancevo-u-likvidaciji-pancevo",
+   "name": "Apoteka \"Pančevo\" - u Likvidaciji",
+   "official_name": null,
+   "type": "Apotekarska ustanova",
+   "type_slug": "apoteka",
+   "place": "Pančevo",
+   "settlement": null,
+   "mb": "08057257",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "b-m-s-pancevo-n6469645963",
+   "name": "B&M&S",
+   "official_name": null,
+   "type": "Auto-škola",
+   "type_slug": "auto-skola",
+   "place": "Pančevo",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "far-013-pancevo-n7850184811",
+   "name": "Far 013",
+   "official_name": null,
+   "type": "Auto-škola",
+   "type_slug": "auto-skola",
+   "place": "Pančevo",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "leska-pancevo-n6469645959",
+   "name": "Leska",
+   "official_name": null,
+   "type": "Auto-škola",
+   "type_slug": "auto-skola",
+   "place": "Pančevo",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "montekristo-pancevo-n7702273179",
+   "name": "Montekristo",
+   "official_name": null,
+   "type": "Auto-škola",
+   "type_slug": "auto-skola",
+   "place": "Pančevo",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "teneta-pancevo-n7178127371",
+   "name": "Teneta",
+   "official_name": null,
+   "type": "Auto-škola",
+   "type_slug": "auto-skola",
+   "place": "Pančevo",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "zoki-pancevo-n9920943421",
+   "name": "Zoki",
+   "official_name": null,
+   "type": "Auto-škola",
+   "type_slug": "auto-skola",
+   "place": "Pančevo",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "dom-za-stare-dom-za-smestaj-odraslih-i-starijih-villa-sfera-pancevo",
+   "name": "Dom ZA Smeštaj Odraslih I Starijih \"villa Sfera\"",
+   "official_name": null,
+   "type": "Dom za stare",
+   "type_slug": "dom-za-stare",
+   "place": "Pančevo",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Manasijska br. 3",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "dom-za-stare-dom-za-smestaj-odraslih-i-starijih-dolina-sunca-pancevo",
+   "name": "Dom ZA Smeštaj Odraslih I Starijih ''dolina Sunca''",
+   "official_name": null,
+   "type": "Dom za stare",
+   "type_slug": "dom-za-stare",
+   "place": "Pančevo",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Jabučki put br. 175",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "dom-za-stare-dom-za-smestaj-odraslih-i-starijih-family-garden-pancevo",
+   "name": "Dom ZA Smeštaj Odraslih I Starijih ''family Garden''",
+   "official_name": null,
+   "type": "Dom za stare",
+   "type_slug": "dom-za-stare",
+   "place": "Pančevo",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Železnička stanica Predgrađe br.2",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "fakultet-stomatoloski-fakultet-u-pancevu-pancevo",
+   "name": "Stomatološki fakultet u Pančevu",
+   "official_name": null,
+   "type": "Fakultet",
+   "type_slug": "fakultet",
+   "place": "Pančevo",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Žarka Zrenjanina 179",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-borneo-pancevo",
+   "name": "Borneo",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Pančevo",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Njegoševa 4",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-grand-hedonist-pancevo",
+   "name": "Grand Hedonist",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Pančevo",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Trg Kralja Petra I 8",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-kutko-2-pancevo",
+   "name": "Kutko 2",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Pančevo",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Masarikova 3",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-tamis-spa-pancevo",
+   "name": "Tamiš & Spa",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Pančevo",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Dimitrija Tucovića 17",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "ad-za-transport-nafte-naftovodima-i-transport-derivatima-nafte-produktovodima-transnafta-pancevo-pan",
+   "name": "AD za Transport Nafte Naftovodima i Transport Derivatima Nafte Produktovodima Transnafta Pančevo",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Pančevo",
+   "settlement": null,
+   "mb": "20084731",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "doo-utva-avioindustrija-pancevo",
+   "name": "DOO \"Utva\" Avioindustrija",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Pančevo",
+   "settlement": null,
+   "mb": "08061203",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "drustveno-preduzece-za-spoljnu-i-unutrasnju-trgovinu-yupex-pancevo-u-stecaju-pancevo",
+   "name": "Društveno preduzeće za Spoljnu i Unutrašnju Trgovinu Yupex Pančevo - u Stečaju",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Pančevo",
+   "settlement": null,
+   "mb": "08758956",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "drustvo-sa-ogranicenom-odgovornoscu-u-drustvenoj-svojini-za-trgovinu-pan-ton-sa-po-pancevo-u-stecaju",
+   "name": "Društvo sa ograničenom odgovornošću u Društvenoj Svojini za Trgovinu PAN-TON sa po, Pančevo - u Stečaju",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Pančevo",
+   "settlement": null,
+   "mb": "08248346",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "istrazivacko-razvojni-institut-tamis-drustvo-sa-ogranicenom-odgovornoscu-pancevo-pancevo",
+   "name": "Istraživačko-Razvojni institut Tamiš društvo sa ograničenom odgovornošću Pančevo",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Pančevo",
+   "settlement": null,
+   "mb": "08047642",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "nacionalni-savet-romske-nacionalne-manjine-pancevo",
+   "name": "Nacionalni Savet Romske Nacionalne Manjine",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Pančevo",
+   "settlement": null,
+   "mb": "17529218",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  }
+ ]
+}

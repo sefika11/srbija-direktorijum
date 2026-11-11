@@ -1,0 +1,845 @@
+{
+ "id": "find-016",
+ "kind": "sites",
+ "title": "Beograd",
+ "rows": [
+  {
+   "org_slug": "inovacioni-centar-hemijskog-fakulteta-u-beogradu-beograd",
+   "name": "Inovacioni centar Hemijskog Fakulteta u Beogradu",
+   "official_name": null,
+   "type": "Fakultet",
+   "type_slug": "fakultet",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "20550872",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "fakultet-pravni-fakultet-beograd",
+   "name": "Pravni fakultet",
+   "official_name": null,
+   "type": "Fakultet",
+   "type_slug": "fakultet",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "razvojni-centar-gradjevinskog-fakulteta-doo-beograd-grad-beograd",
+   "name": "Razvojni centar Građevinskog Fakulteta DOO Beograd (grad)",
+   "official_name": null,
+   "type": "Fakultet",
+   "type_slug": "fakultet",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "20525967",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "fakultet-racunarski-fakultet-beograd",
+   "name": "Računarski fakultet",
+   "official_name": null,
+   "type": "Fakultet",
+   "type_slug": "fakultet",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": "011 3348079; 011 3348081",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "rudarsko-geoloski-fakultet-beograd",
+   "name": "Rudarsko-Geološki Fakultet",
+   "official_name": null,
+   "type": "Fakultet",
+   "type_slug": "fakultet",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "07045735",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": "011 3219101; 011 3235539",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "saobracajni-fakultet-univerziteta-u-beogradu-beograd",
+   "name": "Saobraćajni Fakultet Univerziteta u Beogradu",
+   "official_name": null,
+   "type": "Fakultet",
+   "type_slug": "fakultet",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "07032587",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "stomatoloski-fakultet-univerziteta-u-beogradu-beograd",
+   "name": "Stomatološki Fakultet Univerziteta u Beogradu",
+   "official_name": null,
+   "type": "Fakultet",
+   "type_slug": "fakultet",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "07001991",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "fakultet-univerzitet-megatrend-pravni-fakultet-beograd",
+   "name": "Univerzitet Megatrend - Pravni fakultet",
+   "official_name": null,
+   "type": "Fakultet",
+   "type_slug": "fakultet",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "fakultet-univerzitet-singidunum-fakultet-despot-stefan-lazarevic-beograd",
+   "name": "Univerzitet Singidunum Fakultet \"Despot Stefan Lazarević\"",
+   "official_name": null,
+   "type": "Fakultet",
+   "type_slug": "fakultet",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "univerzitet-u-beogradu-arhitektonski-fakultet-beograd",
+   "name": "Univerzitet u Beogradu - Arhitektonski Fakultet",
+   "official_name": null,
+   "type": "Fakultet",
+   "type_slug": "fakultet",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "07032480",
+   "website": null,
+   "have": {
+    "address": "Bulevar kralja Aleksandra 73",
+    "phones": "011 3225254; 011 3370199",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "univerzitet-u-beogradu-elektrotehnicki-fakultet-beograd",
+   "name": "Univerzitet u Beogradu - Elektrotehnički Fakultet",
+   "official_name": null,
+   "type": "Fakultet",
+   "type_slug": "fakultet",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "07032498",
+   "website": null,
+   "have": {
+    "address": "Bulevar kralja Aleksandra 73",
+    "phones": "011 3248464; 011 3248681",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "univerzitet-u-beogradu-fakultet-bezbednosti-beograd",
+   "name": "Univerzitet u Beogradu - Fakultet Bezbednosti",
+   "official_name": null,
+   "type": "Fakultet",
+   "type_slug": "fakultet",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "07061609",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": "011 6451843; 011 6451876",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "univerzitet-u-beogradu-fakultet-organizacionih-nauka-beograd",
+   "name": "Univerzitet u Beogradu - Fakultet Organizacionih Nauka",
+   "official_name": null,
+   "type": "Fakultet",
+   "type_slug": "fakultet",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "07004044",
+   "website": null,
+   "have": {
+    "address": "Jove Ilića 154",
+    "phones": "011 3950800",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "univerzitet-u-beogradu-fakultet-politickih-nauka-beograd",
+   "name": "Univerzitet u Beogradu - Fakultet Političkih Nauka",
+   "official_name": null,
+   "type": "Fakultet",
+   "type_slug": "fakultet",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "07028121",
+   "website": null,
+   "have": {
+    "address": "Jove Ilića 165",
+    "phones": "011 3092999",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "univerzitet-u-beogradu-fakultet-veterinarske-medicine-beograd",
+   "name": "Univerzitet u Beogradu - Fakultet Veterinarske Medicine",
+   "official_name": null,
+   "type": "Fakultet",
+   "type_slug": "fakultet",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "07002009",
+   "website": null,
+   "have": {
+    "address": "Bulevar oslobođenja 18",
+    "phones": "011 3615436",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "univerzitet-u-beogradu-fakultet-za-fizicku-hemiju-beograd",
+   "name": "Univerzitet u Beogradu - Fakultet za Fizičku Hemiju",
+   "official_name": null,
+   "type": "Fakultet",
+   "type_slug": "fakultet",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "07426976",
+   "website": null,
+   "have": {
+    "address": "Studentski trg 12",
+    "phones": "011 3284012; 011 3336647",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "univerzitet-u-beogradu-fakultet-za-specijalnu-edukaciju-i-rehabilitaciju-beograd",
+   "name": "Univerzitet u Beogradu - Fakultet za Specijalnu Edukaciju i Rehabilitaciju",
+   "official_name": null,
+   "type": "Fakultet",
+   "type_slug": "fakultet",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "07017766",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": "011 2183036",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "univerzitet-u-beogradu-fakultet-za-obrazovanje-ucitelja-i-vaspitaca-beograd",
+   "name": "Univerzitet u Beogradu - Fakultet za obrazovanje Učitelja i Vaspitača",
+   "official_name": null,
+   "type": "Fakultet",
+   "type_slug": "fakultet",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "06908985",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": "011 3615225; 011 3679227; 011 2686787",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "univerzitet-u-beogradu-filozofski-fakultet-beograd",
+   "name": "Univerzitet u Beogradu - Filozofski Fakultet",
+   "official_name": null,
+   "type": "Fakultet",
+   "type_slug": "fakultet",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "07003269",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "univerzitet-u-beogradu-fizicki-fakultet-beograd",
+   "name": "Univerzitet u Beogradu - Fizički Fakultet",
+   "official_name": null,
+   "type": "Fakultet",
+   "type_slug": "fakultet",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "07048190",
+   "website": null,
+   "have": {
+    "address": "Studentski trg 12",
+    "phones": "011 7158151",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "univerzitet-u-beogradu-geografski-fakultet-beograd",
+   "name": "Univerzitet u Beogradu - Geografski Fakultet",
+   "official_name": null,
+   "type": "Fakultet",
+   "type_slug": "fakultet",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "07027087",
+   "website": null,
+   "have": {
+    "address": "Studentski trg 3",
+    "phones": "011 2637421",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "univerzitet-u-beogradu-hemijski-fakultet-beograd",
+   "name": "Univerzitet u Beogradu - Hemijski Fakultet",
+   "official_name": null,
+   "type": "Fakultet",
+   "type_slug": "fakultet",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "07053681",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": "011 3282111; 011 2184330",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "univerzitet-u-beogradu-matematicki-fakultet-beograd",
+   "name": "Univerzitet u Beogradu - Matematički Fakultet",
+   "official_name": null,
+   "type": "Fakultet",
+   "type_slug": "fakultet",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "07048211",
+   "website": null,
+   "have": {
+    "address": "Studentski trg 16",
+    "phones": "011 2027801; 011 2630151",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "univerzitet-u-beogradu-masinski-fakultet-beograd",
+   "name": "Univerzitet u Beogradu - Mašinski Fakultet",
+   "official_name": null,
+   "type": "Fakultet",
+   "type_slug": "fakultet",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "07032501",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": "011 3302200",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "univerzitet-u-beogradu-medicinski-fakultet-beograd",
+   "name": "Univerzitet u Beogradu - Medicinski Fakultet",
+   "official_name": null,
+   "type": "Fakultet",
+   "type_slug": "fakultet",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "07048157",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "univerzitet-u-beogradu-poljoprivredni-fakultet-beograd",
+   "name": "Univerzitet u Beogradu - Poljoprivredni Fakultet",
+   "official_name": null,
+   "type": "Fakultet",
+   "type_slug": "fakultet",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "07029845",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": "011 4413555",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "univerzitet-u-beogradu-pravni-fakultet-beograd",
+   "name": "Univerzitet u Beogradu - Pravni Fakultet",
+   "official_name": null,
+   "type": "Fakultet",
+   "type_slug": "fakultet",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "07032579",
+   "website": null,
+   "have": {
+    "address": "Bulevar kralja Aleksandra 67",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "univerzitet-u-beogradu-pravoslavni-bogoslovski-fakultet-beograd",
+   "name": "Univerzitet u Beogradu - Pravoslavni Bogoslovski Fakultet",
+   "official_name": null,
+   "type": "Fakultet",
+   "type_slug": "fakultet",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "17569961",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "univerzitet-u-beogradu-tehnolosko-metalurski-fakultet-beograd",
+   "name": "Univerzitet u Beogradu - Tehnološko-Metalurški Fakultet",
+   "official_name": null,
+   "type": "Fakultet",
+   "type_slug": "fakultet",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "07032552",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": "011 3370425; 011 3303620; 011 3370503",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "univerzitet-u-beogradu-ekonomski-fakultet-beograd",
+   "name": "Univerzitet u Beogradu - ekonomski Fakultet",
+   "official_name": null,
+   "type": "Fakultet",
+   "type_slug": "fakultet",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "07001983",
+   "website": null,
+   "have": {
+    "address": "Kamenička 6",
+    "phones": "011 2628923",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "univerzitet-u-beogradu-sumarski-fakultet-beograd",
+   "name": "Univerzitet u Beogradu - Šumarski Fakultet",
+   "official_name": null,
+   "type": "Fakultet",
+   "type_slug": "fakultet",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "07009291",
+   "website": null,
+   "have": {
+    "address": "Kneza Višeslava 1",
+    "phones": "011 3053988",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "univerzitet-u-beogradu-bioloski-fakultet-beograd",
+   "name": "Univerzitet u Beogradu-Biološki Fakultet",
+   "official_name": null,
+   "type": "Fakultet",
+   "type_slug": "fakultet",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "07048599",
+   "website": null,
+   "have": {
+    "address": "Studentski trg 16",
+    "phones": "011 2635627",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "univerzitet-u-beogradu-farmaceutski-fakultet-beograd",
+   "name": "Univerzitet u Beogradu-Farmaceutski Fakultet",
+   "official_name": null,
+   "type": "Fakultet",
+   "type_slug": "fakultet",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "07001975",
+   "website": null,
+   "have": {
+    "address": "Vojvode Stepe 450",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "univezitet-u-beogradu-fakultet-sporta-i-fizickog-vaspitanja-beograd",
+   "name": "Univezitet u Beogradu - Fakultet sporta i Fizičkog Vaspitanja",
+   "official_name": null,
+   "type": "Fakultet",
+   "type_slug": "fakultet",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "07009283",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": "011 3531000",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "zavod-za-fiziku-tehnickih-fakulteta-univerziteta-u-beogradu-beograd",
+   "name": "Zavod za Fiziku Tehničkih Fakulteta Univerziteta u Beogradu",
+   "official_name": null,
+   "type": "Fakultet",
+   "type_slug": "fakultet",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "07032595",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "centar-za-smestaj-i-dnevni-boravak-dece-i-omladine-ometene-u-razvoju-beograd",
+   "name": "Centar za Smeštaj i Dnevni Boravak dece i omladine Ometene u Razvoju",
+   "official_name": null,
+   "type": "Gerontološki centar / ustanova socijalne zaštite",
+   "type_slug": "gerontoloski-centar",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "07019157",
+   "website": null,
+   "have": {
+    "address": "Autoput bb",
+    "phones": "011 2605274; 011 2682278",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "gerontoloski-centar-ustanova-dom-za-odrasla-invalidna-lica-beograd-beograd",
+   "name": "Ustanova ''dom ZA Odrasla Invalidna Lica'' Beograd",
+   "official_name": null,
+   "type": "Gerontološki centar / ustanova socijalne zaštite",
+   "type_slug": "gerontoloski-centar",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Auto put br. 18",
+    "phones": "011 3193262",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-abba-beograd",
+   "name": "Abba",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Kruševačka 38",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-amsterdam-beograd",
+   "name": "Amsterdam",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Jug-Bogdanova 10",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-balkan-beograd",
+   "name": "Balkan",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Prizrenska 2",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  }
+ ]
+}

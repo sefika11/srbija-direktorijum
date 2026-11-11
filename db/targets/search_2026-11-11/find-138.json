@@ -1,0 +1,869 @@
+{
+ "id": "find-138",
+ "kind": "sites",
+ "title": "Zaječar, Vršac",
+ "rows": [
+  {
+   "org_slug": "osnovna-skola-zarko-zrenjanin-izbiste-vrsac",
+   "name": "Osnovna škola \"Žarko Zrenjanin\" Izbište",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Vršac",
+   "settlement": "Izbište",
+   "mb": "08010609",
+   "website": null,
+   "have": {
+    "address": "Oslobođenja 5",
+    "phones": "013 893050",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-preving-servis-vrsac",
+   "name": "Preving Servis",
+   "official_name": null,
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "type_slug": "skola-za-odrasle",
+   "place": "Vršac",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Nikite Tolstoja 119",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "ad-sportsko-poslovni-centar-millennium-vrsac-vrsac",
+   "name": "AD sportsko Poslovni centar Millennium Vršac",
+   "official_name": null,
+   "type": "Sportski centar",
+   "type_slug": "sportski-centar",
+   "place": "Vršac",
+   "settlement": null,
+   "mb": "08613796",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "visoka-strukovna-vaspitacka-i-medicinska-skola-u-vrscu-vrsac",
+   "name": "Visoka Strukovna Vaspitačka i medicinska škola u Vršcu",
+   "official_name": null,
+   "type": "Srednja škola / Gimnazija",
+   "type_slug": "srednja-skola",
+   "place": "Vršac",
+   "settlement": null,
+   "mb": "08038830",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "usluga-socijalne-zastite-pomoc-u-kuci-pri-centru-za-socijalni-rad-grada-vrsca",
+   "name": "Pomoć u kući pri CENTRU ZA SOCIJALNI RAD GRADA VRŠCA",
+   "official_name": null,
+   "type": "Usluga socijalne zaštite",
+   "type_slug": "usluga-socijalne-zastite",
+   "place": "Vršac",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Žarka Zrenjanina br.13",
+    "phones": "013 839696",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "gerontoloski-centar-vrsac-vrsac",
+   "name": "Gerontološki centar Vršac",
+   "official_name": null,
+   "type": "Javna ustanova",
+   "type_slug": "ustanova",
+   "place": "Vršac",
+   "settlement": null,
+   "mb": "08694672",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "agencija-za-zaposljavanje-danijela-pavlovic-pr-agencija-za-privremeno",
+   "name": "Danijela Pavlović PR Agencija za privremeno zapošljavanje BUSINESS TEAM PAVLOVIĆ Zaječar",
+   "official_name": null,
+   "type": "Agencija za zapošljavanje",
+   "type_slug": "agencija-za-zaposljavanje",
+   "place": "Zaječar",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Cvetka Cakovića br. 1",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "apotekarska-ustanova-droga-zajecar",
+   "name": "Apotekarska ustanova \"Droga\"",
+   "official_name": null,
+   "type": "Apotekarska ustanova",
+   "type_slug": "apoteka",
+   "place": "Zaječar",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Ljube Nešića bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "apotekarska-ustanova-zajecar-zajecar",
+   "name": "Apotekarska ustanova Zaječar",
+   "official_name": null,
+   "type": "Apotekarska ustanova",
+   "type_slug": "apoteka",
+   "place": "Zaječar",
+   "settlement": null,
+   "mb": "06824781",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "fakultet-za-menadzment-zajecar-zajecar",
+   "name": "Fakultet za menadžment Zaječar",
+   "official_name": null,
+   "type": "Fakultet",
+   "type_slug": "fakultet",
+   "place": "Zaječar",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-hamburg-zajecar",
+   "name": "Hamburg",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Zaječar",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Svetozara Markovića br.1",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-lux-salas",
+   "name": "Lux",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Zaječar",
+   "settlement": "Salaš",
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Salaš bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-srbija-tis-zajecar",
+   "name": "Srbija-Tis",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Zaječar",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Nikole Pašića 2",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "des-doo-zajecar-zajecar",
+   "name": "\"Des\" DOO Zaječar",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Zaječar",
+   "settlement": null,
+   "mb": "07223889",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "drustveno-preduzece-pegaz-tex-za-proizvodnju-trgovinu-i-usluge-zvezdan-u-stecaju-zvezdan",
+   "name": "Društveno preduzeće Pegaz Tex za proizvodnju, Trgovinu i Usluge, Zvezdan - u Stečaju",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Zaječar",
+   "settlement": "Zvezdan",
+   "mb": "07378017",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "drustvo-sa-ogranicenom-odgovornoscu-raris-regionalna-agencija-za-razvoj-istocne-srbije-zajecar-zajec",
+   "name": "Društvo sa ograničenom odgovornošću Raris-Regionalna agencija za razvoj Istočne srbije Zaječar",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Zaječar",
+   "settlement": null,
+   "mb": "20294205",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "fondacija-zoran-radmilovic-zajecar-zajecar",
+   "name": "Fondacija \"Zoran Radmilović\" Zaječar",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Zaječar",
+   "settlement": null,
+   "mb": "06872581",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "veterinarski-specijalisticki-institut-zajecar-zajecar",
+   "name": "Veterinarski Specijalistički institut \"Zaječar\"",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Zaječar",
+   "settlement": null,
+   "mb": "06376851",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-kraljevica-zajecar-u-stecaju-zajecar",
+   "name": "Javno komunalno preduzeće Kraljevica, Zaječar - u Stečaju",
+   "official_name": null,
+   "type": "JKP Čistoća / Komunalac",
+   "type_slug": "jkp-cistoca",
+   "place": "Zaječar",
+   "settlement": null,
+   "mb": "07202687",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "javno-preduzece-direkcija-za-izgradnju-zajecar-u-likvidaciji-zajecar",
+   "name": "Javno Preduzeće Direkcija za Izgradnju Zaječar - u Likvidaciji",
+   "official_name": null,
+   "type": "JP Urbanizam / Direkcija za izgradnju",
+   "type_slug": "jp-urbanizam",
+   "place": "Zaječar",
+   "settlement": null,
+   "mb": "06454364",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-muzicka-skola-stevan-mokranjac-zajecar",
+   "name": "Osnovna muzička škola \"Stevan Mokranjac\"",
+   "official_name": null,
+   "type": "Muzička ili baletska škola",
+   "type_slug": "muzicka-skola",
+   "place": "Zaječar",
+   "settlement": null,
+   "mb": "07147848",
+   "website": null,
+   "have": {
+    "address": "Timočke Bune 14",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-15-maj-mali-jasenovac-zajecar",
+   "name": "Osnovna škola \"15. Maj\" Mali Jasenovac",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Zaječar",
+   "settlement": "Mali Jasenovac",
+   "mb": "06128254",
+   "website": null,
+   "have": {
+    "address": "Mali Jasenovac bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-desanka-maksimovic-zajecar",
+   "name": "Osnovna škola \"Desanka Maksimović\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Zaječar",
+   "settlement": null,
+   "mb": "07147724",
+   "website": null,
+   "have": {
+    "address": "Dositejeva 4",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-dositej-obradovic-vrazogrnac-zajecar",
+   "name": "Osnovna škola \"Dositej Obradović\" Vražogrnac",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Zaječar",
+   "settlement": "Vražogrnac",
+   "mb": "07147767",
+   "website": null,
+   "have": {
+    "address": "Vražogrnac 262",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-hajduk-veljko-zajecar",
+   "name": "Osnovna škola \"Hajduk Veljko\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Zaječar",
+   "settlement": null,
+   "mb": "07334028",
+   "website": null,
+   "have": {
+    "address": "Dobrivoje Radosavljević-Bobi 50",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-jeremija-ilic-jegor-rgotina",
+   "name": "Osnovna škola \"Jeremija Ilić Jegor\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Zaječar",
+   "settlement": "Rgotina",
+   "mb": "07147708",
+   "website": null,
+   "have": {
+    "address": "Svetosavska 2",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-jovan-jovanovic-zmaj-salas",
+   "name": "Osnovna škola \"Jovan Jovanović Zmaj\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Zaječar",
+   "settlement": "Salaš",
+   "mb": "07147716",
+   "website": null,
+   "have": {
+    "address": "Maršala Tita 35",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-ljuba-nesic-zajecar",
+   "name": "Osnovna škola \"Ljuba Nešić\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Zaječar",
+   "settlement": null,
+   "mb": "07148194",
+   "website": null,
+   "have": {
+    "address": "Dositejeva 2",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-ljubica-radosavljevic-nada-zajecar",
+   "name": "Osnovna škola \"Ljubica Radosavljević Nada\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Zaječar",
+   "settlement": null,
+   "mb": "07147821",
+   "website": null,
+   "have": {
+    "address": "Đerdapska bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-vladislav-petkovic-dis-grljan-zajecar",
+   "name": "Osnovna škola \"Vladislav Petković-Dis\" Grljan",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Zaječar",
+   "settlement": "Grljan",
+   "mb": "07147694",
+   "website": null,
+   "have": {
+    "address": "Zorana Radmilovića 10",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-vuk-karadzic-veliki-izvor",
+   "name": "Osnovna škola \"Vuk Karadžić\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Zaječar",
+   "settlement": "Veliki Izvor",
+   "mb": "07147775",
+   "website": null,
+   "have": {
+    "address": "Izvorski Put 20",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-djura-jaksic-zajecar",
+   "name": "Osnovna škola \"Đura Jakšić\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Zaječar",
+   "settlement": null,
+   "mb": "07147732",
+   "website": null,
+   "have": {
+    "address": "Lenjinova 1",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "skola-za-osnovno-i-srednje-obrazovanje-jelena-majstorovic-zajecar",
+   "name": "Škola za osnovno i Srednje obrazovanje \"Jelena Majstorović\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Zaječar",
+   "settlement": null,
+   "mb": "07148208",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "decije-odeljenje-zajecar-w1969891042",
+   "name": "Dečije odeljenje",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Zaječar",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "ginekologija-zajecar-w1994661486",
+   "name": "Ginekologija",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Zaječar",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "neurologija-i-psihijatrija-zajecar-w1969891036",
+   "name": "Neurologija i Psihijatrija",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Zaječar",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "otorinolaringologija-zajecar-w1994661492",
+   "name": "Otorinolaringologija",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Zaječar",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "palijativna-nega-zajecar-w2050987650",
+   "name": "Palijativna nega",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Zaječar",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "produzena-nega-zajecar-w1994661494",
+   "name": "Produžena nega",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Zaječar",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "pulmologija-i-nefrologija-zajecar-w1969891034",
+   "name": "Pulmologija i Nefrologija",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Zaječar",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  }
+ ]
+}

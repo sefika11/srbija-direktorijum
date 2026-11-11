@@ -1,0 +1,859 @@
+{
+ "id": "find-023",
+ "kind": "sites",
+ "title": "Beograd",
+ "rows": [
+  {
+   "org_slug": "skola-za-osnovno-i-srednje-obrazovanje-vozd-beograd",
+   "name": "Škola za osnovno i Srednje obrazovanje \"Vožd\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "17091212",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "skola-za-osnovno-obrazovanje-odraslih-braca-stamenkovic-beograd",
+   "name": "Škola za osnovno obrazovanje odraslih \"Braća Stamenković\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "07042191",
+   "website": null,
+   "have": {
+    "address": "Mitropolita Petra 8",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "skola-za-osnovno-obrazovanje-odraslih-djuro-salaj-beograd",
+   "name": "Škola za osnovno obrazovanje odraslih \"Đuro Salaj\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "07030738",
+   "website": null,
+   "have": {
+    "address": "Nemanjina 28",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "apelaciono-javno-tuzilastvo-u-beogradu-beograd",
+   "name": "Apelaciono javno tužilaštvo u Beogradu",
+   "official_name": null,
+   "type": "Pravosudni organ",
+   "type_slug": "pravosudni-organ",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "17772791",
+   "website": null,
+   "have": {
+    "address": "Katanićeva 15",
+    "phones": "011 6354894",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "javno-tuzilastvo-za-organizovani-kriminal-beograd",
+   "name": "Javno tužilaštvo za Organizovani Kriminal",
+   "official_name": null,
+   "type": "Pravosudni organ",
+   "type_slug": "pravosudni-organ",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "17772805",
+   "website": null,
+   "have": {
+    "address": "Ustanička 29",
+    "phones": "011 3082670",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "javno-tuzilastvo-za-ratne-zlocine-beograd",
+   "name": "Javno tužilaštvo za Ratne Zločine",
+   "official_name": null,
+   "type": "Pravosudni organ",
+   "type_slug": "pravosudni-organ",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "17515632",
+   "website": null,
+   "have": {
+    "address": "Ustanička 29",
+    "phones": "011 3082650",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "vrhovno-javno-tuzilastvo-beograd",
+   "name": "Vrhovno javno tužilaštvo",
+   "official_name": null,
+   "type": "Pravosudni organ",
+   "type_slug": "pravosudni-organ",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "07001622",
+   "website": null,
+   "have": {
+    "address": "Nemanjina 22",
+    "phones": "011 3613702",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatna-skola-brook-hill-international-school-beograd",
+   "name": "Brook Hill International School",
+   "official_name": null,
+   "type": "Privatna škola",
+   "type_slug": "privatna-skola",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "17881744",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatna-skola-evropska-poslovna-skola-beograd",
+   "name": "Evropska poslovna škola",
+   "official_name": null,
+   "type": "Privatna škola",
+   "type_slug": "privatna-skola",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "17604040",
+   "website": null,
+   "have": {
+    "address": "Obilićev Venac 18",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatna-skola-francuska-skola-u-beogradu-beograd",
+   "name": "Francuska škola u Beogradu",
+   "official_name": null,
+   "type": "Privatna škola",
+   "type_slug": "privatna-skola",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "18378400",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatna-skola-gimnazija-crnjanski-beograd",
+   "name": "Gimnazija \"Crnjanski\"",
+   "official_name": null,
+   "type": "Privatna škola",
+   "type_slug": "privatna-skola",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "17410245",
+   "website": null,
+   "have": {
+    "address": "Đorđa Ognjanovića 2",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatna-skola-gimnazija-kreativno-pero-beograd",
+   "name": "Gimnazija \"Kreativno pero\"",
+   "official_name": null,
+   "type": "Privatna škola",
+   "type_slug": "privatna-skola",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Tolstojeva 58",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatna-skola-gimnazija-rudjer-boskovic-sa-domom-ucenika-beograd",
+   "name": "Gimnazija \"Ruđer Bošković\" sa domom učenika",
+   "official_name": null,
+   "type": "Privatna škola",
+   "type_slug": "privatna-skola",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Kneza Višeslava 17",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatna-skola-gimnazija-stefan-nemanja-beograd",
+   "name": "Gimnazija \"Stefan Nemanja\"",
+   "official_name": null,
+   "type": "Privatna škola",
+   "type_slug": "privatna-skola",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "17702416",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatna-skola-gimnazija-the-merit-school-beograd",
+   "name": "Gimnazija \"The Merit School\"",
+   "official_name": null,
+   "type": "Privatna škola",
+   "type_slug": "privatna-skola",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "18825678",
+   "website": null,
+   "have": {
+    "address": "Emilijana Josimovića 4",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatna-skola-gimnazija-vladislav-petkovic-dis-beograd",
+   "name": "Gimnazija \"Vladislav Petković Dis\"",
+   "official_name": null,
+   "type": "Privatna škola",
+   "type_slug": "privatna-skola",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatna-skola-gimnazija-plus-beograd",
+   "name": "Gimnazija PLUS",
+   "official_name": null,
+   "type": "Privatna škola",
+   "type_slug": "privatna-skola",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "17906526",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatna-skola-osnovna-skola-mb-beograd",
+   "name": "Osnovna škola \"MB\"",
+   "official_name": null,
+   "type": "Privatna škola",
+   "type_slug": "privatna-skola",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "18825988",
+   "website": null,
+   "have": {
+    "address": "Ljutice Bogdana 15",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatna-skola-osnovna-skola-za-decu-sa-smetnjama-u-razvoju-skola-plus-nis",
+   "name": "Osnovna škola za decu sa smetnjama u razvoju \"ŠKOLA PLUS\"",
+   "official_name": null,
+   "type": "Privatna škola",
+   "type_slug": "privatna-skola",
+   "place": "Beograd",
+   "settlement": "Niš",
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Vojvode Gojka 28",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatna-skola-os-intellectum-academy-beograd",
+   "name": "OŠ \"Intellectum Academy\"",
+   "official_name": null,
+   "type": "Privatna škola",
+   "type_slug": "privatna-skola",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "18827000",
+   "website": null,
+   "have": {
+    "address": "Bulevar Vojvode Bojovića 14",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatna-skola-os-kosta-vujic-beograd",
+   "name": "OŠ \"Kosta Vujić\"",
+   "official_name": null,
+   "type": "Privatna škola",
+   "type_slug": "privatna-skola",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "17861093",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatna-skola-os-kreativno-pero-beograd",
+   "name": "OŠ \"Kreativno pero\"",
+   "official_name": null,
+   "type": "Privatna škola",
+   "type_slug": "privatna-skola",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Tolstojeva 58",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatna-skola-os-mina-karadzic-beograd",
+   "name": "OŠ \"Mina Karadžić\"",
+   "official_name": null,
+   "type": "Privatna škola",
+   "type_slug": "privatna-skola",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "17922203",
+   "website": null,
+   "have": {
+    "address": "Ljutice Bogdana 46",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatna-skola-os-montesori-beograd",
+   "name": "OŠ \"Montesori\"",
+   "official_name": null,
+   "type": "Privatna škola",
+   "type_slug": "privatna-skola",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "17841408",
+   "website": null,
+   "have": {
+    "address": "Žanke Stokić 11",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatna-skola-os-plavi-krug-beograd",
+   "name": "OŠ \"Plavi Krug\"",
+   "official_name": null,
+   "type": "Privatna škola",
+   "type_slug": "privatna-skola",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "17677764",
+   "website": null,
+   "have": {
+    "address": "Đorđa Ognjanovića 2",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatna-skola-os-pravac-beograd",
+   "name": "OŠ \"Pravac\"",
+   "official_name": null,
+   "type": "Privatna škola",
+   "type_slug": "privatna-skola",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "18822857",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatna-skola-os-rudjer-boskovic-beograd",
+   "name": "OŠ \"Ruđer Bošković\"",
+   "official_name": null,
+   "type": "Privatna škola",
+   "type_slug": "privatna-skola",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Kneza Višeslava 17",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatna-skola-os-savremena-beograd",
+   "name": "OŠ \"Savremena\"",
+   "official_name": null,
+   "type": "Privatna škola",
+   "type_slug": "privatna-skola",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Omladinskih Brigada 86",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatna-skola-os-vladislav-petkovic-dis-beograd",
+   "name": "OŠ \"Vladislav Petković Dis\"",
+   "official_name": null,
+   "type": "Privatna škola",
+   "type_slug": "privatna-skola",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatna-skola-os-zvezdobrojci-beograd",
+   "name": "OŠ \"Zvezdobrojci\"",
+   "official_name": null,
+   "type": "Privatna škola",
+   "type_slug": "privatna-skola",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "17922335",
+   "website": null,
+   "have": {
+    "address": "Drinićka 5",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatna-skola-poslovno-tehnicka-skola-beograd",
+   "name": "Poslovno tehnička škola",
+   "official_name": null,
+   "type": "Privatna škola",
+   "type_slug": "privatna-skola",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "17751310",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatna-gimnazija-antoni-mp-barili-beograd",
+   "name": "Privatna gimnazija \"Antoni MP Barili\"",
+   "official_name": null,
+   "type": "Privatna škola",
+   "type_slug": "privatna-skola",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "17787497",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatna-osnovna-skola-mihajlo-pupin-beograd",
+   "name": "Privatna osnovna škola Mihajlo Pupin",
+   "official_name": null,
+   "type": "Privatna škola",
+   "type_slug": "privatna-skola",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatna-skola-prva-medjunarodna-ruska-skola-valentina-tereskova-beograd",
+   "name": "Prva međunarodna ruska škola \"Valentina Tereškova\"",
+   "official_name": null,
+   "type": "Privatna škola",
+   "type_slug": "privatna-skola",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "17909444",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatna-skola-prva-privatna-ugostiteljsko-turisticka-skola-beograd",
+   "name": "Prva privatna ugostiteljsko-turistička škola",
+   "official_name": null,
+   "type": "Privatna škola",
+   "type_slug": "privatna-skola",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "17417649",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatna-skola-prva-sportska-kosarkaska-gimnazija-koledz-beograd",
+   "name": "Prva sportska košarkaška gimnazija \"Koledž\"",
+   "official_name": null,
+   "type": "Privatna škola",
+   "type_slug": "privatna-skola",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "17406205",
+   "website": null,
+   "have": {
+    "address": "Stjepana Supanca 15a",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatna-skola-savremena-gimnazija-beograd",
+   "name": "Savremena gimnazija",
+   "official_name": null,
+   "type": "Privatna škola",
+   "type_slug": "privatna-skola",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Cara Dušana 34",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatna-skola-sportska-i-informaticka-gimnazija-prestiz-beograd",
+   "name": "Sportska i informatička gimnazija \"Prestiž\"",
+   "official_name": null,
+   "type": "Privatna škola",
+   "type_slug": "privatna-skola",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "17922181",
+   "website": null,
+   "have": {
+    "address": "Bulevar Vojvode Mišića 37",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatna-skola-srednja-medicinska-skola-beograd",
+   "name": "Srednja medicinska škola",
+   "official_name": null,
+   "type": "Privatna škola",
+   "type_slug": "privatna-skola",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "17907875",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatna-skola-srednja-medicinska-skola-sveti-vasilije-ostroski-beograd",
+   "name": "Srednja medicinska škola \"Sveti Vasilije Ostroški\"",
+   "official_name": null,
+   "type": "Privatna škola",
+   "type_slug": "privatna-skola",
+   "place": "Beograd",
+   "settlement": null,
+   "mb": "17843877",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  }
+ ]
+}

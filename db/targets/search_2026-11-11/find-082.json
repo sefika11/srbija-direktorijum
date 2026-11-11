@@ -1,0 +1,858 @@
+{
+ "id": "find-082",
+ "kind": "sites",
+ "title": "Novi Sad",
+ "rows": [
+  {
+   "org_slug": "univerzitet-u-novom-sadu-pravni-fakultet-u-novom-sadu-novi-sad",
+   "name": "Univerzitet u Novom Sadu - Pravni Fakultet u Novom Sadu",
+   "official_name": null,
+   "type": "Fakultet",
+   "type_slug": "fakultet",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": "08104913",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "univerzitet-u-novom-sadu-prirodno-matematicki-fakultet-novi-sad",
+   "name": "Univerzitet u Novom Sadu - Prirodno - Matematički Fakultet",
+   "official_name": null,
+   "type": "Fakultet",
+   "type_slug": "fakultet",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": "08104620",
+   "website": null,
+   "have": {
+    "address": "Trg Dositeja Obradovića 3",
+    "phones": "021 4852700",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-11-tica-dm-novi-sad",
+   "name": "11 tica DM",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Matice Srpske 11a",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-aleksandar-novi-sad",
+   "name": "Aleksandar",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Bulevar Cara Lazara 79",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-boutique-hotel-arta-novi-sad",
+   "name": "Boutique Hotel Arta",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Heroja Pinkija 10a",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-centar-novi-sad",
+   "name": "Centar",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Uspenska 1",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-dash-hotel-novi-sad",
+   "name": "Dash Hotel",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Vršačka 11",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-duga-novi-sad",
+   "name": "Duga",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Ćirila I Metodija 11b",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-element-novi-sad",
+   "name": "Element",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Partizanska 64a",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-fontana-novi-sad",
+   "name": "Fontana",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Nikole Pašića 27",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-garden-novi-sad",
+   "name": "Garden",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Primorska 50",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-garson-lux-novi-sad",
+   "name": "Garson Lux",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Teodora Pavlovića 30",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-mediteraneo-ilije-ognjanovica-10-novi-sad",
+   "name": "Mediteraneo – Ilije Ognjanovića 10",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Ilije Ognjanovića 10",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-mediteraneo-ilije-ognjanovica-10-sprat-novi-sad",
+   "name": "Mediteraneo – Ilije Ognjanovića 10, sprat:",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Ilije Ognjanovića 10",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-novi-sad-novi-sad",
+   "name": "Novi Sad",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Bulevar Jaše Tomića 1",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-planeta-inn-novi-sad",
+   "name": "Planeta Inn",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Jevrejska 36",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-premium-novi-sad",
+   "name": "Premium",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Beogradski Kej 49",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-prezident-novi-sad",
+   "name": "Prezident",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Futoška 109",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-pupin-novi-sad",
+   "name": "Pupin",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Narodnih Heroja 3",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-putnik-novi-sad",
+   "name": "Putnik",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Ilije Ognjanovića 24",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-ribarsko-ostrvo-novi-sad",
+   "name": "Ribarsko ostrvo",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Ribarsko Ostrvo 4",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-sheraton-novi-sad-novi-sad",
+   "name": "Sheraton Novi Sad",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Polgar Andraša 1",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-sole-mio-novi-sad",
+   "name": "Sole Mio",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Sentandrejski Put 165",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-stari-krovovi-veternik",
+   "name": "Stari krovovi",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Novi Sad",
+   "settlement": "Veternik",
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Novosadski Put 115",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-veliki-novi-sad",
+   "name": "Veliki",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Nikole Pašića 24",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-vigor-novi-sad",
+   "name": "Vigor",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Jožef Atile 2",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-vila-moskva-veternik",
+   "name": "Vila Moskva",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Novi Sad",
+   "settlement": "Veternik",
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Milivoja Živanovića 1",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-vojvodina-novi-sad",
+   "name": "Vojvodina",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Trg Slobode 2",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-zenit-novi-sad",
+   "name": "Zenit",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Zmaj Jovina 8",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "des-doo-novi-sad-novi-sad",
+   "name": "\"Des\" DOO Novi Sad",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": "08066205",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "istrazivacko-razvojni-institut-za-vestacku-inteligenciju-srbije-novi-sad-novi-sad",
+   "name": "\"Istraživačko-Razvojni institut za Veštačku Inteligenciju srbije , Novi Sad",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": "08971773",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "regionalna-razvojna-agencija-backa-doo-novi-sad",
+   "name": "\"Regionalna razvojna agencija Bačka\" DOO",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": "20643188",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "zavod-za-ravnopravnost-polova-novi-sad",
+   "name": "\"Zavod za Ravnopravnost Polova\"",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": "08820988",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "akcionarsko-drustvo-za-berzansko-poslovanje-i-informisanje-produktna-berza-novi-sad-novi-sad",
+   "name": "Akcionarsko društvo za Berzansko Poslovanje i Informisanje Produktna Berza Novi Sad",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": "08024499",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "centar-za-unapredjenje-lovstva-i-lovnog-turizma-doo-novi-sad-novi-sad",
+   "name": "Centar za Unapređenje Lovstva i Lovnog turizma DOO Novi Sad",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": "21671282",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "centar-za-unapredjenje-i-razvoj-poljoprivrede-doo-novi-sad-novi-sad",
+   "name": "Centar za Unapređenje i razvoj poljoprivrede DOO Novi Sad",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": "21233811",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "doo-agrar-produkt-preduzece-za-trgovinu-i-usluge-export-import-novi-sad-novi-sad",
+   "name": "DOO Agrar Produkt preduzeće za Trgovinu i Usluge Export Import Novi Sad",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": "08798303",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "doo-za-novinsko-izdavacku-delatnost-magyar-szo-lapkiado-kft-novi-sad-novi-sad",
+   "name": "DOO za Novinsko-Izdavačku delatnost Magyar Szo Lapkiado Kft, Novi Sad",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": "08760292",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "fond-za-evropske-poslove-i-razvoj-autonomne-pokrajine-vojvodine-novi-sad",
+   "name": "Fond za Evropske Poslove i razvoj Autonomne Pokrajine Vojvodine",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": "08917752",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "fond-za-izbegla-raseljena-lica-i-za-saradnju-sa-srbima-u-regionu-novi-sad",
+   "name": "Fond za Izbegla, Raseljena lica i za Saradnju sa Srbima u Regionu",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Novi Sad",
+   "settlement": null,
+   "mb": "08869413",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  }
+ ]
+}

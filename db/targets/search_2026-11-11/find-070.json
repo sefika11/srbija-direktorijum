@@ -1,0 +1,833 @@
+{
+ "id": "find-070",
+ "kind": "sites",
+ "title": "Negotin, Niš, Mladenovac",
+ "rows": [
+  {
+   "org_slug": "gimnazija-mladenovac-mladenovac",
+   "name": "Gimnazija Mladenovac",
+   "official_name": null,
+   "type": "Srednja škola / Gimnazija",
+   "type_slug": "srednja-skola",
+   "place": "Mladenovac",
+   "settlement": null,
+   "mb": "07524293",
+   "website": null,
+   "have": {
+    "address": "Kralja Aleksandra Obrenovića 25",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "tehnicka-skola-mladenovac-mladenovac-selo",
+   "name": "Tehnička škola Mladenovac",
+   "official_name": null,
+   "type": "Srednja škola / Gimnazija",
+   "type_slug": "srednja-skola",
+   "place": "Mladenovac",
+   "settlement": null,
+   "mb": "07524285",
+   "website": null,
+   "have": {
+    "address": "Vuka Karadžića 75",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "stomatologija-pantic-beograd-n13786922525",
+   "name": "Stomatologija Pantić",
+   "official_name": null,
+   "type": "Stomatološka ordinacija",
+   "type_slug": "stomatoloska-ordinacija",
+   "place": "Mladenovac",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Kralja Aleksandra Obrenovića 64",
+    "phones": "011 8236876",
+    "hours": "Mo-Fr 09:00-20:00, Sa 09:00-14:00"
+   },
+   "need": [
+    "website"
+   ]
+  },
+  {
+   "org_slug": "apoteka-privatna-praksa-libra-negotin-negotin",
+   "name": "Apoteka privatna praksa \"Libra Negotin\"",
+   "official_name": null,
+   "type": "Apotekarska ustanova",
+   "type_slug": "apoteka",
+   "place": "Negotin",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Koste Todorovića bb",
+    "phones": "060 4611544",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "istorijski-arhiv-negotin-negotin",
+   "name": "Istorijski arhiv Negotin",
+   "official_name": null,
+   "type": "Arhiv",
+   "type_slug": "arhiv",
+   "place": "Negotin",
+   "settlement": null,
+   "mb": "06991742",
+   "website": null,
+   "have": {
+    "address": "Branka Perića 13",
+    "phones": "019 546098",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "auto-skola-profesionalac-negotin-n11449299178",
+   "name": "Auto-škola Profesionalac",
+   "official_name": null,
+   "type": "Auto-škola",
+   "type_slug": "auto-skola",
+   "place": "Negotin",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Stefanije Mihajlović 45",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "junior-negotin-n11575459194",
+   "name": "Junior",
+   "official_name": null,
+   "type": "Auto-škola",
+   "type_slug": "auto-skola",
+   "place": "Negotin",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-negotin-negotin",
+   "name": "Centar za socijalni rad Negotin",
+   "official_name": null,
+   "type": "Centar za socijalni rad",
+   "type_slug": "centar-za-socijalni-rad",
+   "place": "Negotin",
+   "settlement": null,
+   "mb": "07129351",
+   "website": null,
+   "have": {
+    "address": "Srbe Jovanovića 6",
+    "phones": "019 541404; 019 547770",
+    "hours": "Pon-Pet 07:00-14:30"
+   },
+   "need": [
+    "website"
+   ]
+  },
+  {
+   "org_slug": "dom-za-stare-bakina-tajna-negotin",
+   "name": "\"bakina Tajna\"",
+   "official_name": null,
+   "type": "Dom za stare",
+   "type_slug": "dom-za-stare",
+   "place": "Negotin",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Prištinska br. 6",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "dom-za-stare-dom-za-smestaj-odraslih-i-starijih-badic-leben-dusanovac",
+   "name": "Dom ZA Smeštaj Odraslih I Starijih ''badic Leben''",
+   "official_name": null,
+   "type": "Dom za stare",
+   "type_slug": "dom-za-stare",
+   "place": "Negotin",
+   "settlement": "Dušanovac",
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Dupljanska bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "dom-za-stare-ustanova-socijalne-zastite-dom-za-smestaj-odraslih-i-starijih",
+   "name": "Ustanova Socijalne Zaštite Dom ZA Smeštaj Odraslih I Starijih ''aleksandar-019''",
+   "official_name": null,
+   "type": "Dom za stare",
+   "type_slug": "dom-za-stare",
+   "place": "Negotin",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Petra Kočića 35a",
+    "phones": "063 7140370; 063 509120",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-beograd-sa-depandansom-beograd-negotin",
+   "name": "Beograd sa depandansom Beograd",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Negotin",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Trg Stevana Mokranjca 2",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "poljoprivredna-savetodavna-i-strucna-sluzba-negotin-drustvo-s-ogranicenom-odgovornoscu-negotin-negot",
+   "name": "Poljoprivredna Savetodavna i Stručna služba Negotin društvo S ograničenom odgovornošću , Negotin",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Negotin",
+   "settlement": null,
+   "mb": "07592973",
+   "website": null,
+   "have": {
+    "address": "Bukovski put bb",
+    "phones": "019 545953",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-12-septembar-negotin",
+   "name": "Osnovna škola \"12. Septembar\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Negotin",
+   "settlement": null,
+   "mb": "07129203",
+   "website": null,
+   "have": {
+    "address": "Trg Đorđa Stanojevića bb",
+    "phones": "019 570340; 019 570341",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-branislav-nusic-urovica-negotin",
+   "name": "Osnovna škola \"Branislav Nušić\" Urovica",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Negotin",
+   "settlement": "Urovica",
+   "mb": "07129092",
+   "website": null,
+   "have": {
+    "address": "Nušićeva 48",
+    "phones": "019 557264",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-branko-radicevic-negotin",
+   "name": "Osnovna škola \"Branko Radičević\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Negotin",
+   "settlement": null,
+   "mb": "07314191",
+   "website": null,
+   "have": {
+    "address": "Internacionalnih Brigada 57",
+    "phones": "019 544020; 019 542735",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-hajduk-veljko-stubik",
+   "name": "Osnovna škola \"Hajduk Veljko\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Negotin",
+   "settlement": "Štubik",
+   "mb": "07129106",
+   "website": null,
+   "have": {
+    "address": "Trg Slobode 008",
+    "phones": "019 555008; 019 555035; 019 555036",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-momcilo-rankovic-rajac-negotin",
+   "name": "Osnovna škola \"Momčilo Ranković\" Rajac",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Negotin",
+   "settlement": "Rajac",
+   "mb": "07129165",
+   "website": null,
+   "have": {
+    "address": "Vuka Karadžića 43",
+    "phones": "019 554076; 019 580704",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-pavle-ilic-veljko-dusanovac-negotin",
+   "name": "Osnovna škola \"Pavle Ilić-Veljko\" Dušanovac",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Negotin",
+   "settlement": "Dušanovac",
+   "mb": "07341105",
+   "website": null,
+   "have": {
+    "address": "Negotinska 2",
+    "phones": "019 560023",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-pavle-ilic-veljko-prahovo-negotin",
+   "name": "Osnovna škola \"Pavle Ilić-Veljko\" Prahovo",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Negotin",
+   "settlement": "Dušanovac",
+   "mb": "07129157",
+   "website": null,
+   "have": {
+    "address": "Negotinska 2",
+    "phones": "019 3524050",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-pcelica-negotin",
+   "name": "Predškolska ustanova \"Pčelica\"",
+   "official_name": null,
+   "type": "Predškolska ustanova (vrtić)",
+   "type_slug": "predskolska-ustanova",
+   "place": "Negotin",
+   "settlement": null,
+   "mb": "07129335",
+   "website": null,
+   "have": {
+    "address": "DOBROPOLjSKA b.b. bb",
+    "phones": "019 542635; 019 542375",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "beo-lab-negotin-n12541399694",
+   "name": "Beo-lab",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Negotin",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "industrija-hemijskih-proizvoda-prahovo-prevoz-pretovar-skladistenje-i-pakov-roba-krajina-doo-u-steca",
+   "name": "Industrija Hemijskih Proizvoda Prahovo-Prevoz, Pretovar, Skladištenje i Pakov. Roba Krajina DOO-U Stečaju",
+   "official_name": null,
+   "type": "Srednja škola / Gimnazija",
+   "type_slug": "srednja-skola",
+   "place": "Negotin",
+   "settlement": "Prahovo",
+   "mb": "07357435",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "poljoprivredna-skola-sa-domom-ucenika-rajko-bosnic-negotin",
+   "name": "Poljoprivredna škola sa Domom učenika \"Rajko Bosnić\"",
+   "official_name": null,
+   "type": "Srednja škola / Gimnazija",
+   "type_slug": "srednja-skola",
+   "place": "Negotin",
+   "settlement": null,
+   "mb": "07129181",
+   "website": null,
+   "have": {
+    "address": "Mitropolita Mihaila 8",
+    "phones": "019 542055; 019 548755; 019 546919",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "usluga-socijalne-zastite-centar-za-socijalni-rad-negotin-negotin",
+   "name": "Centar ZA Socijalni Rad Negotin",
+   "official_name": null,
+   "type": "Usluga socijalne zaštite",
+   "type_slug": "usluga-socijalne-zastite",
+   "place": "Negotin",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Srbe Jovanovića br. 6",
+    "phones": "019 541404; 019 547770; 064 6450667",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "usluga-socijalne-zastite-dom-za-decu-i-omladinu-stanko-paunovic-negotin",
+   "name": "Dom ZA Decu I Omladinu \"stanko Paunović\"",
+   "official_name": null,
+   "type": "Usluga socijalne zaštite",
+   "type_slug": "usluga-socijalne-zastite",
+   "place": "Negotin",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Badnjevska br.5",
+    "phones": "065 8548332; 019 541800",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "dom-za-decu-i-omladinu-stanko-paunovic-negotin",
+   "name": "Dom za decu i omladinu \"Stanko Paunović\"",
+   "official_name": null,
+   "type": "Javna ustanova",
+   "type_slug": "ustanova",
+   "place": "Negotin",
+   "settlement": null,
+   "mb": "07129343",
+   "website": null,
+   "have": {
+    "address": "Badnjevska 5",
+    "phones": "019 541800; 019 546801",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "okruzni-zatvor-u-negotinu-negotin",
+   "name": "Okružni Zatvor u Negotinu",
+   "official_name": null,
+   "type": "Javna ustanova",
+   "type_slug": "ustanova",
+   "place": "Negotin",
+   "settlement": null,
+   "mb": "17621807",
+   "website": null,
+   "have": {
+    "address": "Branka Perića 9",
+    "phones": "019 514370",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "agencija-za-privremeno-zaposljavanje-awork-doo-nis-nis",
+   "name": "Agencija ZA Privremeno Zapošljavanje Awork DOO Niš",
+   "official_name": null,
+   "type": "Agencija za zapošljavanje",
+   "type_slug": "agencija-za-zaposljavanje",
+   "place": "Niš",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Drvarska 4",
+    "phones": "018 250073",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "agencija-za-zaposljavanje-awork-doo-nis-nis",
+   "name": "Agencija ZA Zapošljavanje Awork DOO Niš",
+   "official_name": null,
+   "type": "Agencija za zapošljavanje",
+   "type_slug": "agencija-za-zaposljavanje",
+   "place": "Niš",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Drvarska 4",
+    "phones": "018 250073",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "agencija-za-privremeno-zaposljavanje-barjaktar-d-o-o-nis-nis",
+   "name": "Agencija za privremeno zapošljavanje Barjaktar d.o.o. Niš",
+   "official_name": null,
+   "type": "Agencija za zapošljavanje",
+   "type_slug": "agencija-za-zaposljavanje",
+   "place": "Niš",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Dejana Dinića 16a",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "agencija-za-privremeno-zaposljavanje-komrad-mvp-doo-nis-nis",
+   "name": "Agencija za privremeno zapošljavanje KOMRAD MVP doo Niš",
+   "official_name": null,
+   "type": "Agencija za zapošljavanje",
+   "type_slug": "agencija-za-zaposljavanje",
+   "place": "Niš",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Francuska 5",
+    "phones": "018 274060",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "agencija-za-privremeno-zaposljavanje-i-procesni-konsalting-reimodus-doo-nis-nis",
+   "name": "Agencija za privremeno zapošljavanje i procesni konsalting REIMODUS DOO NIŠ",
+   "official_name": null,
+   "type": "Agencija za zapošljavanje",
+   "type_slug": "agencija-za-zaposljavanje",
+   "place": "Niš",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Kej Mike Paligorića 16a",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "agencija-za-zaposljavanje-workforce-outsourcing-doo-agencija-za-ul-7-juli-br-3",
+   "name": "WORKFORCE OUTSOURCING DOO AGENCIJA ZA – Ul. 7. juli, br. 3",
+   "official_name": null,
+   "type": "Agencija za zapošljavanje",
+   "type_slug": "agencija-za-zaposljavanje",
+   "place": "Niš",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "7. juli, br. 3",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "apotekarska-ustanova-vita-sana-pharm-nis",
+   "name": "Apotekarska ustanova \"Vita Sana Pharm\"",
+   "official_name": null,
+   "type": "Apotekarska ustanova",
+   "type_slug": "apoteka",
+   "place": "Niš",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Somborska bb",
+    "phones": "018 3230585",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "apotekarska-ustanova-viva-nis",
+   "name": "Apotekarska ustanova \"Viva\"",
+   "official_name": null,
+   "type": "Apotekarska ustanova",
+   "type_slug": "apoteka",
+   "place": "Niš",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Šumadijska bb",
+    "phones": "018 4560818",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "fond-za-razvoj-republike-srbije-nis",
+   "name": "Fond za razvoj republike srbije",
+   "official_name": null,
+   "type": "Državni organ / služba",
+   "type_slug": "drzavni-organ",
+   "place": "Niš",
+   "settlement": null,
+   "mb": "07904959",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "fakultet-sporta-i-fizickog-vaspitanja-nis",
+   "name": "Fakultet sporta i Fizičkog Vaspitanja",
+   "official_name": null,
+   "type": "Fakultet",
+   "type_slug": "fakultet",
+   "place": "Niš",
+   "settlement": null,
+   "mb": "17265962",
+   "website": null,
+   "have": {
+    "address": "Čarnojevićeva 10a",
+    "phones": "018 510900",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "fakultet-za-pravo-bezbednost-i-menadzment-konstantin-veliki-nis",
+   "name": "Fakultet za pravo, bezbednost i menadžment \"Konstantin Veliki\"",
+   "official_name": null,
+   "type": "Fakultet",
+   "type_slug": "fakultet",
+   "place": "Niš",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "fakultet-zastite-na-radu-nis-nis",
+   "name": "Fakultet zaštite na Radu Niš",
+   "official_name": null,
+   "type": "Fakultet",
+   "type_slug": "fakultet",
+   "place": "Niš",
+   "settlement": null,
+   "mb": "07226063",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  }
+ ]
+}

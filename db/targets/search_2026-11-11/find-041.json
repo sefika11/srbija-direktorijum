@@ -1,0 +1,843 @@
+{
+ "id": "find-041",
+ "kind": "sites",
+ "title": "Dimitrovgrad, Despotovac, Crveni Krst",
+ "rows": [
+  {
+   "org_slug": "javno-preduzece-za-komunalnu-delatnost-i-putni-infrastrukturu-vilin-lug-crna-trava-crna-trava",
+   "name": "Javno preduzeće za komunalnu delatnost i Putni Infrastrukturu Vilin Lug, Crna Trava",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Crna Trava",
+   "settlement": null,
+   "mb": "17300806",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": "016 811313",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "opstinska-biblioteka-sestre-stojanovic-crna-trava",
+   "name": "Opštinska biblioteka \"Sestre Stojanović\"",
+   "official_name": null,
+   "type": "Narodna biblioteka",
+   "type_slug": "narodna-biblioteka",
+   "place": "Crna Trava",
+   "settlement": null,
+   "mb": "17042181",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-aleksandar-stojanovic-crna-trava",
+   "name": "Osnovna škola \"Aleksandar Stojanović\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Crna Trava",
+   "settlement": null,
+   "mb": "07205074",
+   "website": null,
+   "have": {
+    "address": "Simona Simonovića Monke 68",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-zenuni-brod-gora-brod",
+   "name": "Osnovna škola \"Zenuni\" Brod Gora",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Crna Trava",
+   "settlement": "Brod",
+   "mb": "09004572",
+   "website": null,
+   "have": {
+    "address": "BROD b.b",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-mladost-crna-trava",
+   "name": "Predškolska ustanova \"Mladost\"",
+   "official_name": null,
+   "type": "Predškolska ustanova (vrtić)",
+   "type_slug": "predskolska-ustanova",
+   "place": "Crna Trava",
+   "settlement": null,
+   "mb": "07348550",
+   "website": null,
+   "have": {
+    "address": "Sretena Karića 13",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "tehnicka-skola-sa-domom-ucenika-milentije-popovic-crna-trava",
+   "name": "Tehnička škola sa Domom učenika \"Milentije Popović\"",
+   "official_name": null,
+   "type": "Srednja škola / Gimnazija",
+   "type_slug": "srednja-skola",
+   "place": "Crna Trava",
+   "settlement": null,
+   "mb": "07196849",
+   "website": null,
+   "have": {
+    "address": "Simona Simonovića Monke 70",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-ideo-lux-donji-komren",
+   "name": "Ideo Lux",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Crveni Krst",
+   "settlement": "Donji Komren",
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Požarevačka bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-nais-vrtiste",
+   "name": "Nais",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Crveni Krst",
+   "settlement": "Vrtište",
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Zaselak Nais 1",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "aerodromi-srbije-drustvo-s-ogranicenom-odgovornoscu-nis-nis-crveni-krst",
+   "name": "Aerodromi Srbije Društvo S Ograničenom Odgovornošću Niš",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Crveni Krst",
+   "settlement": null,
+   "mb": "21168734",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-branislav-nusic-donja-trnava",
+   "name": "Osnovna škola \"Branislav Nušić\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Crveni Krst",
+   "settlement": null,
+   "mb": "07174527",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-lela-popovic-miljkovac-nis",
+   "name": "Osnovna škola \"Lela Popović\" Miljkovac",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Crveni Krst",
+   "settlement": "Miljkovac",
+   "mb": "07210752",
+   "website": null,
+   "have": {
+    "address": "Miljka Ranđelovića 35",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-milan-rakic-medosevac-nis",
+   "name": "Osnovna škola \"Milan Rakić\" Medoševac",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Crveni Krst",
+   "settlement": "Medoševac",
+   "mb": "07174594",
+   "website": null,
+   "have": {
+    "address": "Dimitrija Tucovića 50",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-prvi-maj-trupale-trupale",
+   "name": "Osnovna škola \"Prvi Maj\" Trupale",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Crveni Krst",
+   "settlement": "Trupale",
+   "mb": "07174560",
+   "website": null,
+   "have": {
+    "address": "Vodnika Dejana Mitića 4",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-vojislav-ilic-mladji-hum",
+   "name": "Osnovna škola \"Vojislav Ilić Mlađi\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Crveni Krst",
+   "settlement": "Hum",
+   "mb": "07174578",
+   "website": null,
+   "have": {
+    "address": "Danila Price 108",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "auto-skola-nesic-despotovac-n7600680642",
+   "name": "Auto-škola Nešić",
+   "official_name": null,
+   "type": "Auto-škola",
+   "type_slug": "auto-skola",
+   "place": "Despotovac",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Takovska 2a",
+    "phones": null,
+    "hours": "Mo-Su 08:00-14:00"
+   },
+   "need": [
+    "phones",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "javno-preduzece-za-podzemnu-eksploataciju-uglja-resavica-resavica",
+   "name": "Javno preduzeće za Podzemnu Eksploataciju Uglja Resavica",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Despotovac",
+   "settlement": "Resavica",
+   "mb": "17507699",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "preduzece-zatransportne-usluge-odrzavanje-i-popravku-motornih-vozila-rembas-trans-doo-resavica-resav",
+   "name": "Preduzeće Zatransportne Usluge, održavanje i Popravku Motornih Vozila Rembas Trans DOO Resavica",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Despotovac",
+   "settlement": "Resavica",
+   "mb": "20024674",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "preduzece-za-ugostiteljstvo-povrtarstvo-stocarstvo-proizvodnju-mleka-i-trgovinu-djula-doo-resavica-r",
+   "name": "Preduzeće za Ugostiteljstvo, Povrtarstvo, Stočarstvo, proizvodnju Mleka i Trgovinu Đula DOO Resavica",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Despotovac",
+   "settlement": "Resavica",
+   "mb": "20030348",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "centar-za-kulturu-sveti-stefan-despot-srpski-despotovac",
+   "name": "Centar za kulturu \"Sveti Stefan Despot Srpski\"",
+   "official_name": null,
+   "type": "Kulturni centar / Dom kulture",
+   "type_slug": "kulturni-centar",
+   "place": "Despotovac",
+   "settlement": null,
+   "mb": "07126654",
+   "website": null,
+   "have": {
+    "address": "Despota Stefana Lazarevića 2",
+    "phones": "035 611047",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-stefan-nemanja-stenjevac-despotovac",
+   "name": "Osnovna škola \"Stefan Nemanja\" Stenjevac",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Despotovac",
+   "settlement": "Stenjevac",
+   "mb": "07183704",
+   "website": null,
+   "have": {
+    "address": "STENjEVAC bb",
+    "phones": "035 8633009",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-stevan-sindjelic-veliki-popovic-despotovac",
+   "name": "Osnovna škola \"Stevan Sinđelić\" Veliki Popović",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Despotovac",
+   "settlement": "Veliki Popović",
+   "mb": "07167156",
+   "website": null,
+   "have": {
+    "address": "Veliki Popović bb",
+    "phones": "035 621308",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-vuk-karadzic-resavica-despotovac",
+   "name": "Osnovna škola \"Vuk Karadžić\" Resavica",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Despotovac",
+   "settlement": "Resavica",
+   "mb": "07126646",
+   "website": null,
+   "have": {
+    "address": "6 Avgust 21",
+    "phones": "035 8627535",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-djura-jaksic-plazane-despotovac",
+   "name": "Osnovna škola \"Đura Jakšić\" Plažane",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Despotovac",
+   "settlement": "Plažane",
+   "mb": "07126719",
+   "website": null,
+   "have": {
+    "address": "Plažane bb",
+    "phones": "035 8631022",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "ustanova-za-sport-sportska-organizacija-despotovac-despotovac",
+   "name": "Ustanova za sport \"sportska organizacija Despotovac\"",
+   "official_name": null,
+   "type": "Sportski centar",
+   "type_slug": "sportski-centar",
+   "place": "Despotovac",
+   "settlement": null,
+   "mb": "17824112",
+   "website": null,
+   "have": {
+    "address": "Rudnička 5",
+    "phones": "035 612788",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-za-opstinu-dimitrovgrad-dimitrovgrad",
+   "name": "Centar za socijalni rad za Opštinu Dimitrovgrad",
+   "official_name": null,
+   "type": "Centar za socijalni rad",
+   "type_slug": "centar-za-socijalni-rad",
+   "place": "Dimitrovgrad",
+   "settlement": null,
+   "mb": "17652052",
+   "website": null,
+   "have": {
+    "address": "Balkanska 7",
+    "phones": "010 362688",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-dimitrovgrad-sa-stacionarom-dimitrovgrad",
+   "name": "Dom zdravlja Dimitrovgrad (sa Stacionarom)",
+   "official_name": null,
+   "type": "Dom zdravlja",
+   "type_slug": "dom-zdravlja",
+   "place": "Dimitrovgrad",
+   "settlement": null,
+   "mb": "17666029",
+   "website": null,
+   "have": {
+    "address": "Hristo Smirnenski 2",
+    "phones": "010 361966",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "dom-za-smestaj-starih-lica-dimitrovgrad-dimitrovgrad",
+   "name": "Dom za Smeštaj starih lica Dimitrovgrad",
+   "official_name": null,
+   "type": "Gerontološki centar / ustanova socijalne zaštite",
+   "type_slug": "gerontoloski-centar",
+   "place": "Dimitrovgrad",
+   "settlement": null,
+   "mb": "07295022",
+   "website": null,
+   "have": {
+    "address": "Ive Andrića br.38",
+    "phones": "010 361793",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-happy-dimitrovgrad",
+   "name": "Happy",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Dimitrovgrad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Caribrodskih Umetnika 1",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "javno-preduzece-komunalac-dimitrovgrad-dimitrovgrad",
+   "name": "Javno preduzeće Komunalac, Dimitrovgrad",
+   "official_name": null,
+   "type": "JKP Čistoća / Komunalac",
+   "type_slug": "jkp-cistoca",
+   "place": "Dimitrovgrad",
+   "settlement": null,
+   "mb": "07299974",
+   "website": null,
+   "have": {
+    "address": "Ive Andrica 49",
+    "phones": "010 361689",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "centar-za-kulturu-dimitrovgrad-dimitrovgrad",
+   "name": "Centar za kulturu Dimitrovgrad",
+   "official_name": null,
+   "type": "Kulturni centar / Dom kulture",
+   "type_slug": "kulturni-centar",
+   "place": "Dimitrovgrad",
+   "settlement": null,
+   "mb": "07133219",
+   "website": null,
+   "have": {
+    "address": "Trg doktora Zorana Đinđića 2",
+    "phones": "010 362177",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "narodna-biblioteka-detko-petrov-dimitrovgrad",
+   "name": "Narodna biblioteka \"Detko Petrov\"",
+   "official_name": null,
+   "type": "Narodna biblioteka",
+   "type_slug": "narodna-biblioteka",
+   "place": "Dimitrovgrad",
+   "settlement": null,
+   "mb": "17044150",
+   "website": null,
+   "have": {
+    "address": "Sutjeska 14",
+    "phones": "010 360035",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-hristo-botev-dimitrovgrad",
+   "name": "Osnovna škola \"Hristo Botev\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Dimitrovgrad",
+   "settlement": null,
+   "mb": "07133049",
+   "website": null,
+   "have": {
+    "address": "Hriste Boteva 3",
+    "phones": "010 362788",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "gimnazija-sveti-kirilo-i-metodije-dimitrovgrad",
+   "name": "Gimnazija \"Sveti Kirilo i Metodije\"",
+   "official_name": null,
+   "type": "Srednja škola / Gimnazija",
+   "type_slug": "srednja-skola",
+   "place": "Dimitrovgrad",
+   "settlement": null,
+   "mb": "07153139",
+   "website": null,
+   "have": {
+    "address": "Ćirila I Metodija 12",
+    "phones": "010 362163",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "usluga-socijalne-zastite-pomoc-u-kuci-pri-udruzenju-hendikepiranih-lica",
+   "name": "Pomoć u kući pri UDRUŽENJU HENDIKEPIRANIH LICA ''HENDIKEP''",
+   "official_name": null,
+   "type": "Usluga socijalne zaštite",
+   "type_slug": "usluga-socijalne-zastite",
+   "place": "Dimitrovgrad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "9. maja, br.14",
+    "phones": "010 363912; 064 6545128",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "veterinarska-stanica-dimitrovgrad-n2363113367",
+   "name": "Veterinarska stanica",
+   "official_name": null,
+   "type": "Veterinarska stanica / ambulanta",
+   "type_slug": "veterinarska-stanica",
+   "place": "Dimitrovgrad",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "apotekarska-ustanova-dia-medika-pukovac",
+   "name": "Apotekarska ustanova \"Dia medika\"",
+   "official_name": null,
+   "type": "Apotekarska ustanova",
+   "type_slug": "apoteka",
+   "place": "Doljevac",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Knez Mihajlova bb",
+    "phones": "018 3251498",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-doljevac-doljevac",
+   "name": "Dom zdravlja Doljevac",
+   "official_name": null,
+   "type": "Dom zdravlja",
+   "type_slug": "dom-zdravlja",
+   "place": "Doljevac",
+   "settlement": null,
+   "mb": "07211821",
+   "website": null,
+   "have": {
+    "address": "Dr Mihajla Timotijevića 6",
+    "phones": "018 810219",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-madera-knezica",
+   "name": "Madera",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Doljevac",
+   "settlement": "Knežica",
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Vojvode Mišića 29",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-doljevac-doljevac-doljevac",
+   "name": "Javno komunalno preduzeće Doljevac Doljevac",
+   "official_name": null,
+   "type": "JKP Čistoća / Komunalac",
+   "type_slug": "jkp-cistoca",
+   "place": "Doljevac",
+   "settlement": null,
+   "mb": "17449907",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-lane-doljevac",
+   "name": "Predškolska ustanova \"Lane\"",
+   "official_name": null,
+   "type": "Predškolska ustanova (vrtić)",
+   "type_slug": "predskolska-ustanova",
+   "place": "Doljevac",
+   "settlement": null,
+   "mb": "07348223",
+   "website": null,
+   "have": {
+    "address": "Dr. Mihajla Timotijevića 3",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  }
+ ]
+}

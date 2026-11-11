@@ -1,0 +1,824 @@
+{
+ "id": "find-038",
+ "kind": "sites",
+ "title": "Bor, Boljevac",
+ "rows": [
+  {
+   "org_slug": "osnovna-skola-djura-jaksic-sumrakovac-boljevac",
+   "name": "Osnovna škola \"Đura Jakšić\" Sumrakovac",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Boljevac",
+   "settlement": "Sumrakovac",
+   "mb": "07127430",
+   "website": null,
+   "have": {
+    "address": "Maršala Tita 23",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "srednja-skola-nikola-tesla-boljevac",
+   "name": "Srednja škola \"Nikola Tesla\"",
+   "official_name": null,
+   "type": "Srednja škola / Gimnazija",
+   "type_slug": "srednja-skola",
+   "place": "Boljevac",
+   "settlement": null,
+   "mb": "07127448",
+   "website": null,
+   "have": {
+    "address": "Kneza Miloša 13",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "javna-ustanova-ustanova-za-sport-boljevac-boljevac",
+   "name": "Javna ustanova \"ustanova za sport\" Boljevac",
+   "official_name": null,
+   "type": "Javna ustanova",
+   "type_slug": "ustanova",
+   "place": "Boljevac",
+   "settlement": null,
+   "mb": "18379031",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "apoteka-bor-u-likvidaciji-bor",
+   "name": "Apoteka BOR-U Likvidaciji",
+   "official_name": null,
+   "type": "Apotekarska ustanova",
+   "type_slug": "apoteka",
+   "place": "Bor",
+   "settlement": null,
+   "mb": "17220063",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "apoteka-privatna-praksa-gaja-nk-zlot",
+   "name": "Apoteka privatna praksa \"Gaja NK\"",
+   "official_name": null,
+   "type": "Apotekarska ustanova",
+   "type_slug": "apoteka",
+   "place": "Bor",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Zlot bb",
+    "phones": "065 8461281",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "apoteka-privatna-praksa-sana-bor-bor",
+   "name": "Apoteka privatna praksa \"Sana Bor\"",
+   "official_name": null,
+   "type": "Apotekarska ustanova",
+   "type_slug": "apoteka",
+   "place": "Bor",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Kralja Petra I bb",
+    "phones": "030 440088",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "apoteka-privatna-praksa-zora-bor",
+   "name": "Apoteka privatna praksa \"Zora\"",
+   "official_name": null,
+   "type": "Apotekarska ustanova",
+   "type_slug": "apoteka",
+   "place": "Bor",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Nikole Pašića bb",
+    "phones": "030 422887",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "arhiv-istorijski-arhiv-negotin-odeljenje-u-boru-bor",
+   "name": "Istorijski arhiv Negotin - Odeljenje u Boru",
+   "official_name": null,
+   "type": "Arhiv",
+   "type_slug": "arhiv",
+   "place": "Bor",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": "030 421365",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "auto-boki-bor-n9164052670",
+   "name": "Auto-Boki",
+   "official_name": null,
+   "type": "Auto-škola",
+   "type_slug": "auto-skola",
+   "place": "Bor",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Moše Pijade 92a",
+    "phones": "030 428888; 064 1424275; 064 2079246",
+    "hours": "Mo-Fr 08:00-16:00"
+   },
+   "need": [
+    "website"
+   ]
+  },
+  {
+   "org_slug": "dzoo-bor-n7644450721",
+   "name": "Džoo",
+   "official_name": null,
+   "type": "Auto-škola",
+   "type_slug": "auto-skola",
+   "place": "Bor",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Moše Pijade 27/2",
+    "phones": "060 3434921; 030 424222",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "granada-bor-n7644467908",
+   "name": "Granada",
+   "official_name": null,
+   "type": "Auto-škola",
+   "type_slug": "auto-skola",
+   "place": "Bor",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": "061 2196896; 061 2879290",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-bor-bor",
+   "name": "Centar za socijalni rad \"Bor\"",
+   "official_name": null,
+   "type": "Centar za socijalni rad",
+   "type_slug": "centar-za-socijalni-rad",
+   "place": "Bor",
+   "settlement": null,
+   "mb": "07130368",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": "030 422589",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "dom-za-stare-ogranak-dom-za-penzionere-i-stara-lica-vila-katarina-bor-bor",
+   "name": "Ogranak Dom ZA Penzionere I Stara Lica ''vila Katarina Bor''",
+   "official_name": null,
+   "type": "Dom za stare",
+   "type_slug": "dom-za-stare",
+   "place": "Bor",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Kučajna br.42",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-albo-bor",
+   "name": "Albo",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Bor",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Nade Dimić bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-jezero-brestovac",
+   "name": "Jezero",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Bor",
+   "settlement": "Brestovac",
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Borsko Jezero bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "preduzece-za-profesionalnu-rahabilitaciju-i-zaposljavanje-osoba-sa-invaliditetom-lak-zica-doo-bor-bo",
+   "name": "Preduzeće za Profesionalnu Rahabilitaciju i zapošljavanje Osoba sa Invaliditetom Lak Žica DOO Bor",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Bor",
+   "settlement": null,
+   "mb": "17524640",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "trgovinsko-proizvodno-preduzece-centroistok-ad-bor-bor",
+   "name": "Trgovinsko Proizvodno preduzeće Centroistok AD, Bor",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Bor",
+   "settlement": null,
+   "mb": "07208391",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "zavod-za-kulturu-vlaha-institutu-di-kultura-vlahilor-bor-bor",
+   "name": "Zavod za kulturu Vlaha Institutu Di Kultura Vlahilor Bor",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Bor",
+   "settlement": null,
+   "mb": "17896768",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "javno-preduzece-direkcija-za-izgradnju-bora-bor-u-likvidaciji-bor",
+   "name": "Javno preduzeće direkcija za izgradnju Bora Bor - u Likvidaciji",
+   "official_name": null,
+   "type": "JP Urbanizam / Direkcija za izgradnju",
+   "type_slug": "jp-urbanizam",
+   "place": "Bor",
+   "settlement": null,
+   "mb": "07366477",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-muzicka-skola-miodrag-vasiljevic-bor-bor",
+   "name": "Osnovna muzička škola \"Miodrag Vasiljević\" Bor",
+   "official_name": null,
+   "type": "Muzička ili baletska škola",
+   "type_slug": "muzicka-skola",
+   "place": "Bor",
+   "settlement": null,
+   "mb": "07130236",
+   "website": null,
+   "have": {
+    "address": "Moše Pijade 1",
+    "phones": "030 459068",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-3-oktobar-bor",
+   "name": "Osnovna škola \"3. Oktobar\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Bor",
+   "settlement": null,
+   "mb": "07130112",
+   "website": null,
+   "have": {
+    "address": "3 Oktobra 71",
+    "phones": "030 432160",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-petar-radovanovic-zlot-bor",
+   "name": "Osnovna škola \"Petar Radovanović\" Zlot",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Bor",
+   "settlement": "Zlot",
+   "mb": "07130074",
+   "website": null,
+   "have": {
+    "address": "Trg Petra Radovanovića bb",
+    "phones": "030 2561022",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-stanoje-miljkovic-brestovac",
+   "name": "Osnovna škola \"Stanoje Miljković\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Bor",
+   "settlement": "Metovnica",
+   "mb": "07130066",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-djura-jaksic-krivelj-bor",
+   "name": "Osnovna škola \"Đura Jakšić\" Krivelj",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Bor",
+   "settlement": "Krivelj",
+   "mb": "07130104",
+   "website": null,
+   "have": {
+    "address": "Pauna Strainovića 16",
+    "phones": "030 473114",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "bebi-bum-bor-n11080137537",
+   "name": "Bebi bum",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Bor",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Brkovića Crnog 11",
+    "phones": "064 3363251; 063 472571",
+    "hours": "Mo-Fr 10:00-15:00"
+   },
+   "need": [
+    "website"
+   ]
+  },
+  {
+   "org_slug": "bebi-bum-bor-n12620186491",
+   "name": "Bebi-Bum",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Bor",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Danila Kiša 2/20",
+    "phones": "064 3363251; 063 472571",
+    "hours": "Mo-Fr 10:00-15:00"
+   },
+   "need": [
+    "website"
+   ]
+  },
+  {
+   "org_slug": "bionalize-bor-n9125990203",
+   "name": "Bionalize",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Bor",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Trg oslobođenja 16",
+    "phones": "030 2101424; 064 1348836",
+    "hours": "Mo-Fr 07:00-14:00; Sa 08:00-13:00"
+   },
+   "need": [
+    "website"
+   ]
+  },
+  {
+   "org_slug": "neuromag-bor-w2176888114",
+   "name": "NeuroMAG",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Bor",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "3. oktobra 37b",
+    "phones": "030 2101784; 065 3101784",
+    "hours": "Mo-Fr 09:00-16:00"
+   },
+   "need": [
+    "website"
+   ]
+  },
+  {
+   "org_slug": "pedijatar-milica-bor-n7644458739",
+   "name": "Pedijatar Milica",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Bor",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "3. oktobra 4",
+    "phones": null,
+    "hours": "Mo-Fr 10:00-20:00"
+   },
+   "need": [
+    "phones",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "irimida-bor-n7644475756",
+   "name": "Irimida",
+   "official_name": null,
+   "type": "Računovodstvena agencija",
+   "type_slug": "racunovodstvena-agencija",
+   "place": "Bor",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Moše Pijade 38",
+    "phones": "060 3021312",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "micro-business-bor-n9016696099",
+   "name": "Micro Business",
+   "official_name": null,
+   "type": "Računovodstvena agencija",
+   "type_slug": "racunovodstvena-agencija",
+   "place": "Bor",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Moše Pijade 23/6",
+    "phones": "030 427590; 064 2434854",
+    "hours": "Mo-Fr 07:00-14:00; Sa 07:00-12:00"
+   },
+   "need": [
+    "website"
+   ]
+  },
+  {
+   "org_slug": "omron-bor-n7644470714",
+   "name": "Omron",
+   "official_name": null,
+   "type": "Računovodstvena agencija",
+   "type_slug": "racunovodstvena-agencija",
+   "place": "Bor",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Đorđa Vajferta 23",
+    "phones": "069 2345678",
+    "hours": "Mo-Fr 07:00-16:00"
+   },
+   "need": [
+    "website"
+   ]
+  },
+  {
+   "org_slug": "r-ekoguma-gradnja-bor-n9016696097",
+   "name": "R Ekoguma Gradnja",
+   "official_name": null,
+   "type": "Računovodstvena agencija",
+   "type_slug": "racunovodstvena-agencija",
+   "place": "Bor",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Moše Pijade 27/1",
+    "phones": "030 427533",
+    "hours": "Mo-Fr 07:00-15:00"
+   },
+   "need": [
+    "website"
+   ]
+  },
+  {
+   "org_slug": "snezica-962-bor-n12743885464",
+   "name": "Snežica 962",
+   "official_name": null,
+   "type": "Računovodstvena agencija",
+   "type_slug": "racunovodstvena-agencija",
+   "place": "Bor",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Moše Pijade 38",
+    "phones": "061 2397763",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "stars-bor-n9016696093",
+   "name": "Stars",
+   "official_name": null,
+   "type": "Računovodstvena agencija",
+   "type_slug": "racunovodstvena-agencija",
+   "place": "Bor",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Moše Pijade 27/9",
+    "phones": null,
+    "hours": "Mo-Fr 08:00-16:00"
+   },
+   "need": [
+    "phones",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "adenta-bor-n7573303820",
+   "name": "Adenta",
+   "official_name": null,
+   "type": "Stomatološka ordinacija",
+   "type_slug": "stomatoloska-ordinacija",
+   "place": "Bor",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Kralja Petra prvog 14",
+    "phones": "064 2273545",
+    "hours": "08:00-16:00"
+   },
+   "need": [
+    "website"
+   ]
+  },
+  {
+   "org_slug": "dentalux-imd-bor-n9731913865",
+   "name": "Dentalux IMD",
+   "official_name": null,
+   "type": "Stomatološka ordinacija",
+   "type_slug": "stomatoloska-ordinacija",
+   "place": "Bor",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Moše Pijade 76А Л2",
+    "phones": "063 7590758",
+    "hours": "Mo-Fr 09:00-16:00; Sa 09:00-14:00"
+   },
+   "need": [
+    "website"
+   ]
+  },
+  {
+   "org_slug": "dentatrend-bor-n7644473592",
+   "name": "Dentatrend",
+   "official_name": null,
+   "type": "Stomatološka ordinacija",
+   "type_slug": "stomatoloska-ordinacija",
+   "place": "Bor",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Trg oslobođenja 4",
+    "phones": "060 0577555; 064 2782998",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "dr-bojana-bor-n7644470198",
+   "name": "Dr Bojana",
+   "official_name": null,
+   "type": "Stomatološka ordinacija",
+   "type_slug": "stomatoloska-ordinacija",
+   "place": "Bor",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Trg oslobođenja 4",
+    "phones": "063 8266853; 065 8266583",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "dr-darko-bor-n7644464703",
+   "name": "Dr Darko",
+   "official_name": null,
+   "type": "Stomatološka ordinacija",
+   "type_slug": "stomatoloska-ordinacija",
+   "place": "Bor",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Nikole Pašića 13g",
+    "phones": "069 3153177; 065 4727982",
+    "hours": "Mo-Th 08:00-17:00; Fr 08:00-14:00"
+   },
+   "need": [
+    "website"
+   ]
+  }
+ ]
+}

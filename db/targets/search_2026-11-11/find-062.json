@@ -1,0 +1,855 @@
+{
+ "id": "find-062",
+ "kind": "sites",
+ "title": "Leskovac, Lebane",
+ "rows": [
+  {
+   "org_slug": "gimnazija-gnjilane-silovo",
+   "name": "Gimnazija Gnjilane",
+   "official_name": null,
+   "type": "Srednja škola / Gimnazija",
+   "type_slug": "srednja-skola",
+   "place": "Lebane",
+   "settlement": "Šilovo",
+   "mb": "09003436",
+   "website": null,
+   "have": {
+    "address": "ŠILOVO bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "gimnazija-lebane-lebane",
+   "name": "Gimnazija Lebane",
+   "official_name": null,
+   "type": "Srednja škola / Gimnazija",
+   "type_slug": "srednja-skola",
+   "place": "Lebane",
+   "settlement": null,
+   "mb": "07355114",
+   "website": null,
+   "have": {
+    "address": "Cara Dušana 78",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "usluga-socijalne-zastite-centar-za-socijalni-rad-lebane-dnevni-boravak-za-decu",
+   "name": "CENTAR ZA SOCIJALNI RAD LEBANE Dnevni boravak za decu i mlade sa telesnim invaliditetom odnosno intelektualnim teškoćama \"Sunce\"",
+   "official_name": null,
+   "type": "Usluga socijalne zaštite",
+   "type_slug": "usluga-socijalne-zastite",
+   "place": "Lebane",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Nikole Tesle br. 16a",
+    "phones": "016 843203",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "usluga-socijalne-zastite-centar-za-socijalni-rad-lebane-lebane",
+   "name": "Centar ZA Socijalni Rad Lebane",
+   "official_name": null,
+   "type": "Usluga socijalne zaštite",
+   "type_slug": "usluga-socijalne-zastite",
+   "place": "Lebane",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Cara Dušana br. 70",
+    "phones": "016 843203",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "jp-direkcija-za-gradjevinsko-zemljiste-puteve-i-izgradnju-gnjilane-silovo-silovo",
+   "name": "JP direkcija za Građevinsko Zemljište, puteve i izgradnju Gnjilane - Šilovo",
+   "official_name": null,
+   "type": "Javna ustanova",
+   "type_slug": "ustanova",
+   "place": "Lebane",
+   "settlement": "Šilovo",
+   "mb": "09269762",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "apotekarska-ustanova-bardic-leskovac",
+   "name": "Apotekarska ustanova \"Bardić\"",
+   "official_name": null,
+   "type": "Apotekarska ustanova",
+   "type_slug": "apoteka",
+   "place": "Leskovac",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Stojana Ljubica bb",
+    "phones": "064 1100777",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "apotekarska-ustanova-kukareva-apoteka-leskovac",
+   "name": "Apotekarska ustanova \"Kukareva apoteka\"",
+   "official_name": null,
+   "type": "Apotekarska ustanova",
+   "type_slug": "apoteka",
+   "place": "Leskovac",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Stojana Ljubića bb",
+    "phones": "016 243048",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "apotekarska-ustanova-lav-bratmilovce",
+   "name": "Apotekarska ustanova \"Lav\"",
+   "official_name": null,
+   "type": "Apotekarska ustanova",
+   "type_slug": "apoteka",
+   "place": "Leskovac",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Tome Kostica bb",
+    "phones": "016 295508",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "apotekarska-ustanova-zdravljepharm-m-leskovac",
+   "name": "Apotekarska ustanova \"Zdravljepharm M\"",
+   "official_name": null,
+   "type": "Apotekarska ustanova",
+   "type_slug": "apoteka",
+   "place": "Leskovac",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Vlade Đokića bb",
+    "phones": "065 2325643",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "apotekarska-ustanova-bogdanfarm-vucje",
+   "name": "Apotekarska ustanova ''Bogdanfarm''",
+   "official_name": null,
+   "type": "Apotekarska ustanova",
+   "type_slug": "apoteka",
+   "place": "Leskovac",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Koste Stamenkovića bb",
+    "phones": "016 3427421; 063 8323065",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "apotekarska-ustanova-leskovac-u-likvidaciji-leskovac",
+   "name": "Apotekarska ustanova Leskovac - u Likvidaciji",
+   "official_name": null,
+   "type": "Apotekarska ustanova",
+   "type_slug": "apoteka",
+   "place": "Leskovac",
+   "settlement": null,
+   "mb": "17215701",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "istorijski-arhiv-leskovac-leskovac",
+   "name": "Istorijski arhiv Leskovac",
+   "official_name": null,
+   "type": "Arhiv",
+   "type_slug": "arhiv",
+   "place": "Leskovac",
+   "settlement": null,
+   "mb": "07139527",
+   "website": null,
+   "have": {
+    "address": "Dr Rade Svilara 25",
+    "phones": "016 216996",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "dom-za-stare-dom-za-stare-ogranak-suncana-jesen-2-leskovac",
+   "name": "Dom ZA Stare Ogranak \"sunčana Jesen 2\"",
+   "official_name": null,
+   "type": "Dom za stare",
+   "type_slug": "dom-za-stare",
+   "place": "Leskovac",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Durmitorska bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "dom-za-stare-ustanova-socijalne-zastite-dom-za-stare-suncana-jesen-leskovac",
+   "name": "Ustanova Socijalne Zaštite- Dom ZA Stare ''sunčana Jesen''",
+   "official_name": null,
+   "type": "Dom za stare",
+   "type_slug": "dom-za-stare",
+   "place": "Leskovac",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Durmitorska bb",
+    "phones": "062 649955",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "dom-za-stare-ustanova-za-odrasle-i-starije-leskovac-leskovac",
+   "name": "Ustanova ZA Odrasle I Starije \"leskovac\"",
+   "official_name": null,
+   "type": "Dom za stare",
+   "type_slug": "dom-za-stare",
+   "place": "Leskovac",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Deligradska br. 7",
+    "phones": "016 215390; 016 251480",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "univerzitet-u-nisu-tehnoloski-fakultet-leskovac",
+   "name": "Univerzitet u Nišu - Tehnološki Fakultet",
+   "official_name": null,
+   "type": "Fakultet",
+   "type_slug": "fakultet",
+   "place": "Leskovac",
+   "settlement": null,
+   "mb": "07282273",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-abc-leskovac",
+   "name": "Abc",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Leskovac",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Moše Pijade bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-bavka-leskovac",
+   "name": "Bavka",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Leskovac",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Dobri Španca bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-bella-nella-bratmilovce",
+   "name": "Bella Nella",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Leskovac",
+   "settlement": "Bratmilovce",
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Tome Kostića bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-gros-leskovac",
+   "name": "Groš",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Leskovac",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Svetozara Miletića bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-leskovac-leskovac",
+   "name": "Leskovac",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Leskovac",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Bulevar Oslobođenja bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-predejane-predejane",
+   "name": "Predejane",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Leskovac",
+   "settlement": "Predejane",
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Omladinska 33",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-zyra-leskovac",
+   "name": "Zyra",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Leskovac",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Trg Revolucije 42a",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "centar-za-razvoj-jablanickog-i-pcinjskog-okruga-doo-leskovac-leskovac",
+   "name": "Centar za razvoj Jablaničkog i Pčinjskog okruga DOO Leskovac",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Leskovac",
+   "settlement": null,
+   "mb": "20225017",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "drustveno-preduzece-industrija-konfekcije-inkol-po-leskovac-u-stecaju-leskovac",
+   "name": "Društveno preduzeće Industrija Konfekcije Inkol po Leskovac - u Stečaju",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Leskovac",
+   "settlement": null,
+   "mb": "07196628",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "drustveno-preduzece-za-proizvodnju-carapa-zele-veljkovic-sa-po-leskovac-u-stecaju-leskovac",
+   "name": "Društveno preduzeće za proizvodnju Čarapa Zele Veljković sa po, Leskovac - u Stečaju",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Leskovac",
+   "settlement": null,
+   "mb": "07352336",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "drustvo-sa-ogranicenom-odgovornoscu-leskovacka-vunarska-industrija-leteks-leskovac-u-stecaju-leskova",
+   "name": "Društvo sa ograničenom odgovornošću Leskovačka Vunarska Industrija Leteks, Leskovac - u Stečaju",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Leskovac",
+   "settlement": null,
+   "mb": "07197411",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "drustvo-sa-ogranicenom-odgovornoscu-porecje-prom-vucje-u-stecaju-vucje",
+   "name": "Društvo sa ograničenom odgovornošću Porečje-Prom Vučje - u Stečaju",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Leskovac",
+   "settlement": "Vučje",
+   "mb": "17105744",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "gradjevinsko-preduzece-rad-grdelica-varos-u-stecaju-grdelica-varos",
+   "name": "Građevinsko preduzeće rad Grdelica (Varoš) - u Stečaju",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Leskovac",
+   "settlement": "Grdelica (Varoš)",
+   "mb": "07105495",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "javno-preduzece-gradska-autobuska-stanica-leskovac-leskovac",
+   "name": "Javno preduzeće gradska Autobuska stanica Leskovac",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Leskovac",
+   "settlement": null,
+   "mb": "20580542",
+   "website": null,
+   "have": {
+    "address": "Vilema Pušmana 33",
+    "phones": "016 260900; 016 215550",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "poljoprivredna-savetodavna-i-strucna-sluzba-leskovac-drustvo-sa-ogranicenom-odgovornoscu-leskovac-le",
+   "name": "Poljoprivredna Savetodavna i Stručna služba Leskovac društvo sa ograničenom odgovornošću Leskovac",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Leskovac",
+   "settlement": null,
+   "mb": "07105444",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "tekstilna-industrija-tig-ad-grdelica-varos-u-stecaju-grdelica-varos",
+   "name": "Tekstilna Industrija Tig AD, Grdelica (Varoš) - u Stečaju",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Leskovac",
+   "settlement": "Grdelica (Varoš)",
+   "mb": "07196504",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "javno-preduzece-urbanizam-i-izgradnja-leskovac-leskovac",
+   "name": "Javno preduzeće urbanizam i Izgradnja Leskovac",
+   "official_name": null,
+   "type": "JP Urbanizam / Direkcija za izgradnju",
+   "type_slug": "jp-urbanizam",
+   "place": "Leskovac",
+   "settlement": null,
+   "mb": "07367422",
+   "website": null,
+   "have": {
+    "address": "Trg revolucije 45",
+    "phones": "016 251894; 016 213009",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "dom-kulture-tihomir-rakic-veljko-pecenjevce-leskovac",
+   "name": "Dom kulture \"Tihomir Rakić-Veljko\" Pečenjevce",
+   "official_name": null,
+   "type": "Kulturni centar / Dom kulture",
+   "type_slug": "kulturni-centar",
+   "place": "Leskovac",
+   "settlement": "Pečenjevce",
+   "mb": "06874649",
+   "website": null,
+   "have": {
+    "address": "Maršala Tita 10",
+    "phones": "016 3491003",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "dom-kulture-brestovac-leskovac",
+   "name": "Dom kulture Brestovac",
+   "official_name": null,
+   "type": "Kulturni centar / Dom kulture",
+   "type_slug": "kulturni-centar",
+   "place": "Leskovac",
+   "settlement": "Brestovac",
+   "mb": "06874657",
+   "website": null,
+   "have": {
+    "address": "Trg slobode 8",
+    "phones": "016 3482214",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "dom-kulture-grdelica-grdelica-varos",
+   "name": "Dom kulture Grdelica",
+   "official_name": null,
+   "type": "Kulturni centar / Dom kulture",
+   "type_slug": "kulturni-centar",
+   "place": "Leskovac",
+   "settlement": "Grdelica (Varoš)",
+   "mb": "06874614",
+   "website": null,
+   "have": {
+    "address": "29. novembra 1",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "dom-kulture-roma-leskovac-leskovac",
+   "name": "Dom kulture Roma Leskovac",
+   "official_name": null,
+   "type": "Kulturni centar / Dom kulture",
+   "type_slug": "kulturni-centar",
+   "place": "Leskovac",
+   "settlement": null,
+   "mb": "17225359",
+   "website": null,
+   "have": {
+    "address": "Zeke Buljubaše bb",
+    "phones": "016 212264",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "dom-kulture-vucje-leskovac",
+   "name": "Dom kulture Vučje",
+   "official_name": null,
+   "type": "Kulturni centar / Dom kulture",
+   "type_slug": "kulturni-centar",
+   "place": "Leskovac",
+   "settlement": "Vučje",
+   "mb": "06874622",
+   "website": null,
+   "have": {
+    "address": "Koste Stamenkovića bb",
+    "phones": "016 3427362",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-aca-sinadinovic-predejane",
+   "name": "Osnovna škola \"Aca Sinadinović\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Leskovac",
+   "settlement": "Predejane",
+   "mb": "07137729",
+   "website": null,
+   "have": {
+    "address": "Omladinska 28",
+    "phones": "016 3406117",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-bora-stankovic-bogojevce-leskovac",
+   "name": "Osnovna škola \"Bora Stanković\" Bogojevce",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Leskovac",
+   "settlement": "Vučje",
+   "mb": "07137702",
+   "website": null,
+   "have": {
+    "address": "29. Novembra 10",
+    "phones": "016 732300",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  }
+ ]
+}

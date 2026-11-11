@@ -1,0 +1,1066 @@
+{
+"find-008": {
+"id": "find-008",
+"rows_written": 1,
+"checked": 13,
+"websites_found": 1,
+"notes": "Only Alaris HR had an official site with a contact page (address matches). The other agencies and the Bela Palanka vet station returned only directories or nothing. The adecco.rs locations page is JS-rendered and kadarplus.rs only had an outdated pandemic-era notice, so I skipped both. I stopped after about 20 tool calls because searches were returning no official pages."
+},
+"find-007": {
+"id": "find-007",
+"rows_written": 4,
+"websites_found": 1,
+"checked": 40,
+"notes": "Web search returned almost nothing useful, so I worked from the Bela Crkva and Bela Palanka municipal sites. Only 4 rows have a needed field: one own website (the Belocrkvanska jezera utility, jezera.rs) and 3 Bela Palanka addresses. The Bela Crkva schools, library, culture centre and similar rows only had data we already hold or emails, with no hours or websites, so I left them out. Bački Petrovac and Bačka Topola municipal pages gave nothing needed, and I found no official pages for the private or micro entities."
+},
+"find-009": {
+"id": "find-009",
+"rows_written": 6,
+"websites_found": 6,
+"checked": 14,
+"notes": "Found official sites for HR Bulevar, Manpower, Work and Care, SFiS (two rows, same site), Metronom, with address, phone and e-mail read from the sites. The rest were not found. Searches returned only directories, and the guessed domains I tried were parked, missing or empty. Hours were left out where pages gave no days. The SFiS 4g row got only the website and e-mail, because the site lists a different address (Đuje i Dragoljuba 1)."
+},
+"find-002": {
+"id": "find-002",
+"rows_written": 4,
+"websites_found": 1,
+"checked": 14,
+"notes": "Wrote 4 rows to db/contacts/search_2026-11-11/find-002.json. Aleksinac: the municipality's official site (aleksinac.net, Vazni telefoni page) gave landline numbers for the Vuk Karadžić school in Žitkovac, Aleksinačka gimnazija and Tehnička škola Prota Stevan Dimitrijević; the 018 area code is taken from that page's municipal header, not read per school. Alibunar: Bratstvo-Jedinstvo school's own site (osalibunar.edu.rs) gave website, address, phone and email. Not written: most private practices and clinics (only directories found, no own site), Smeh i suza special school, Biotehnološka škola Šumatovac (official listing uses the old Poljoprivredna name, so not matched), Dom Kulina (register lists a different institution), Alibunar schools in Vladimirovac, Nikolinci, Lokve, Ilandža, Banatski Karlovac (only planplus directories found; the Vojvodina register lists 40 pages and was not paged through). Tool calls used: about 27 of 120."
+},
+"find-003": {
+"id": "find-003",
+"rows_written": 2,
+"checked": 40,
+"websites_found": 2,
+"notes": "Wrote 2 verified rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-003.json: OS Kiš Ferenc Svilojevo (oskisferenc.edu.rs home page: address, phone, email, website) and Hotel Kruna Elegant Aranđelovac (hotelkruna.com home page: address, phone, email, website). Checked about 45 tool calls. Not written: the Apatin municipal page soapatin.org/javna-preduzeca-i-ustanove gave phones and emails for library, adult education, cultural center and Naš dom, but no hours or website, so none of those rows met the needed-field rule. Also not written: the Aranđelovac and Alibunar municipal pages (no school lists, only municipal contacts). Schools Ivan Goran Kovačić (Sonta) and Miloš Obrenović (Aranđelovac) had own domains that failed DNS. The euprava.gov.rs school directory PDF could not be read (no PDF text extractor). Directory-only results (planplus, 011info-style) were skipped. Limits: the 120-call budget was not spent; the yield was low because most rows are private firms or schools with no reachable official site."
+},
+"find-010": {
+"id": "find-010",
+"checked": 40,
+"rows_written": 8,
+"websites_found": 7,
+"notes": "Wrote 8 of 40 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-010.json, each backed by an official page I read. Covered: Manpower, Stanton Chase, GI Group (two rows, same Serbian entity and address), EIM Adriatic, Partners & Orka, MG Group (two rows). Not answered: the municipality shortcut does not apply (all 40 are private agencies, not public institutions); the NSZ and Ministry registers link to xls downloads, which I did not fetch. Adecco, Länderbahn and Poseidon official sites had no Belgrade contact data. The other rows had no own site findable in search, only directories."
+},
+"find-011": {
+"id": "find-011",
+"rows_written": 8,
+"checked": 21,
+"websites_found": 8,
+"notes": "Wrote 8 of 40 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-011.json. Answered from official pages: the four Učenički centar Beograd dormitory units (website https://www.ucenickicentar-bg.rs/, read in the homepage footer; no unit-level phones or hours published), Gradski centar za socijalni rad Beograd (gcsrbg.org contact page: address, phones, email, hours), Apoteka Beograd (its own site: address, phones, email, \"00-24\"), Profit Plus West Balkans (profitplus.rs contact data, same Vojvode Stepe 78 address), and Workforce Human Resources at Omladinskih brigada 98 (workforce.rs locations page). Not written: about 30 rows. The private employment agencies (Rico, Jupiter, Pro Workforce, Profil Group, Rush.co, Symallor, Office People, Winston, Work-in-assist, etc.) and the private homes for the elderly had no official site surfaced by search, and the planplus/infostud/ZoomInfo listings are excluded by the rules. The ministry dormitory PDF could not be text-extracted (no PDF tooling on this machine), so it was not used. The Beograd city site was not reachable for a municipal list of institutions."
+},
+"find-006": {
+"id": "find-006",
+"rows_written": 25,
+"websites_found": 23,
+"checked": 40,
+"notes": "Wrote 25 of 40 institutions to db/contacts/search_2026-11-11/find-006.json. Almost all data comes from the Vojvodina Provincial Secretariat for Education school registry (skolevojvodine.vojvodina.gov.rs: osnovne_view, srednje_view, predskolske_view), a supervising-body official register; source_url is the registry detail page. Websites are the school sites listed there; only a few were opened (herojpinki, vukaros, zdravkocelar, somobt) and the rest were not checked. No hours were found on official pages, so hours are omitted everywhere. Left out: Desanka Maksimović and Zarko Zrenjanin phones (registry gives them without the 021 prefix), private emails for private kindergartens, and all municipal companies, social work centres, hotels, clinics and the Standard/Majevica/PIIP/Poljoprivredna stručna služba entities (no official source found). The municipal sites (backapalanka, btopola.org.rs) gave no school contact lists. Stevan Hristić website is from the registry and the site returned no content on fetch."
+},
+"find-005": {
+"id": "find-005",
+"rows_written": 18,
+"checked": 40,
+"websites_found": 11,
+"notes": "Wrote /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-005.json with 18 of 40 rows. This session verified 10 rows (Barajevo schools, JKP and culture centre via barajevo.bg.ls.gov.rs and ckb.org.rs; Batočina SŠ Nikola Tesla, OŠ Sveti Sava, kindergarten Poletarac, JP Lepenica and KC Dositej on their own or municipal pages). The 8 Bač rows were already in the partial file from an earlier run; I kept them but did not re-read their source pages in this session, so they are unverified here. Not found on any official page: Bajina Bašta rows (Turist, Vila Drina, Zepter, Kockica, both Udruženje rows, Muzej ćirilice, NB Miloš Trebinjac hours), Batočina CSR, Turistička organizacija, NB Vuk Karadžić hours, Bačka Palanka rows (agencies, hotels, Dom Medic, Gerontološki centar), Barajevo Long Life home, and Barajevo hotel Kneževina. Barajevo municipal site and Batočina municipal menus blocked or script-only; bajinabasta.rs contact pages carry only municipal and enterprise phones that match no row. Budget spent at about 60 tool calls, under the 120 limit."
+},
+"find-001": {
+"id": "find-001",
+"rows_written": 14,
+"checked": 38,
+"websites_found": 11,
+"notes": "Wrote 14 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-001.json. Each row has at least one needed field read on the institution's own site or on the municipal pages (Ada, Aleksandrovac), or on the Vojvodina provincial school list for Ada. Skipped: Dom za stare Mol, Hotel Park, Profession VET, Potisje-style directory-only entries, Sveti Trifun, Narodna biblioteka Aleksandrovac, Naša radost, Dom kulture, Gerontološki Jelenac, Zmaj Rudnik (own site shows no address or phones), Desanka Katun, Sveti Sava Subotinac, Vuk Karadžić library, Auto-škola Zebra, and the municipal Aleksinac site (aleksinac.org unreachable, cert expired). Some rows have a website but no email/phone, as their own pages showed. Aleksandrovac rows also cite the municipal pages as sources where the institution's own site was not read. Budget: about 75 tool calls used of 120."
+},
+"find-004": {
+"id": "find-004",
+"rows_written": 7,
+"checked": 40,
+"websites_found": 6,
+"notes": "Wrote 7 rows to db/contacts/search_2026-11-11/find-004.json, all from the institutions' own sites or the official municipal/eUprava pages. Six rows give a website: Sveti Sava, Svetolik Ranković, Mileta Nikolić, Miloš Savković (nasaskola subdomain), Komunalac Babušnica, Latvica (nasaskola, website only), and the Babušnica secondary school (gimbab.edu.rs). Hours were not published on any page read, so none are included. Unresolved: the Darosava, Stojnik, Venčane, Maštalica, Dečija oaza, and Ekonomsko-ugostiteljska (Slobodan Minić) schools; Babušnica's other schools, library, culture centre and health centre; Arilje kindergarten and Brekovo school; the Aranđelovac and Bajina Bašta social-work centres; the veterinary, pharmacy and hotel rows. Search results for most of these were PlanPlus-type directories and were excluded. Used about 80 tool calls of a 120 budget."
+},
+"find-013": {
+"id": "find-013",
+"rows_written": 12,
+"checked": 30,
+"websites_found": 12,
+"notes": "Wrote 12 institutions to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-013.json, each with at least one needed field read on the institution's own or gov.rs official page (ABS, AZK, AZUS, AOD, ALSU, AUL, Arheološki institut, Balkanološki institut, BIA, CINS, Centar za razminiranje, Direkcija za železnice). Not written, no official source found: the 22 private/municipal homes for the elderly (Miljakovački, Elderija, Dedinje, Senecta/Vila Dvor, Sunčana padina and the rest; the city's social-protection pages and searches returned only directories), the Avio služba vlade, Beograd-2 vojna ustanova, Diplomatsko-konzularna predstavništva, and Agencija za vođenje sporova (no official contacts found). Dropped the Direkcija za oduzetu imovinu (its certificate failed, no official page read). Municipal shortcut did not work: the City of Belgrade pages did not list the homes, and one city page returned HTTP 500. No hours written for ABS or the Centar za razminiranje because the pages gave no days; BIA gave no hours."
+},
+"find-015": {
+"id": "find-015",
+"rows_written": 14,
+"checked": 30,
+"websites_found": 12,
+"notes": "Wrote 14 of 40 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-015.json, each read on the institution's own or supervising official page (faculty, university, ministry or agency site). Skipped 26 rows: directory-only hits (planplus, enauka, studyinserbia), official sites that refused or did not resolve (Republicka direkcija za robne rezerve, Visoki savet tuzilastva, Savet za borbu protiv korupcije SSL error), no contact data on the official page (Republicki seizmoloski zavod, Vojna ustanova Dedinje, Megatrend-hosted faculties whose only published number is the central line, Kallos, Diplomacy and Security with only an unconfirmed diplomatija.com, Fakultet za inzenjerski menadzment duplicate-free), and rows where no official page was found in the budget (FIT Gagarina, Civilno vazduhoplovstvo, Geoekonomski, Fakultet za primenjeni menadzment, FDN, Akademija klasicnog slikarstva MB, Akademija umetnosti Alfa, Evropski biznis, Fakultet za projektni i inovacioni menadzment, Fakultet za poslovne studije i pravo, Fakultet za evropske pravno-politicke studije, Fakultet za umetnost i dizajn, Fakultet za kulturu i medije, Fakultet primenjenih nauka Nis, Visoki savet, Vizantoloski website). Hours were not published on any read page, so none were written. Two field-level judgment calls to check: the Futura row has website and phone only (address not on its official page), and the Vizantoloski row has no website because the vi.sanu.ac.rs host did not resolve. The Visoki savet and Kmin/Zavod za socijalno osiguranje rows were not searched to completion. Budget used about 80 of 120 tool calls. Extra note for the parent: curl to antikorupcija-savet.gov.rs failed on an SSL error, so that row is open. No commits or other files touched."
+},
+"find-014": {
+"id": "find-014",
+"rows_written": 19,
+"checked": 39,
+"websites_found": 19,
+"notes": "Wrote 19 of 39 Belgrade rows to db/contacts/search_2026-11-11/find-014.json, each with a field read on an official page (own site, ministry/government or SANU institute). Left out: the Kabinet rows (srbija.gov.rs error page), the Kancelarija za KiM (404), the Komisija za kontrolu državne pomoći, RKZP, NAJU, AMRES, Srbija-level MPŠV directorates and the SOVO fund (TLS/DNS failures or only directory sources), and the Republička agencija za mirno rešavanje sporova, RRK, RDV, Kancelarija za reviziju EU and Dualno obrazovanje (no official page reached). Hours left out for NSA and DPB because the pages give office hours without days. The municipality shortcut did not apply: all rows are Belgrade state bodies, not municipal institutions. About 63 tool calls used."
+},
+"find-012": {
+"id": "find-012",
+"rows_written": 30,
+"checked": 40,
+"websites_found": 30,
+"notes": "Wrote 30 of 40 Beograd rows to db/contacts/search_2026-11-11/find-012.json; every row has its own site read on an official page (source_url = the page read). No municipal list page exists for these private homes; the city site and gov registers were not reachable in search. Skipped: Avalska Oaza, Marija, Olga, Lela Plus, Doživeti stotu, Aledra, Rea Martia, Veliko Srce Plus (TLS certificate expired or host not resolving, or no official site found). Dom Vila Višnjica has no street address on its official pages, so only phones/email/website were written. Address differences from our data noted: Iris Senior official says Šilerova 23d (our row Jasikova 10); Jakovljević official Ljubiše Miodragovića 7c (ours Nine Kirsanove 68); Vila Suzana official 103V (ours Stevana Filipovića 2); Vita Medialis and Bele pčele match. Named-person numbers were excluded (La Mia Vita)."
+},
+"find-020": {
+"id": "find-020",
+"rows_written": 13,
+"checked": 24,
+"websites_found": 13,
+"notes": "Wrote 13 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-020.json, each read from an official institution page (theatres, museums, libraries, music schools, Dom kulture, gallery). Skipped about 27 rows: directory-only hits (planplus, Google-style listings), no official site found (Vlada Divljan, Majdan, Rakovica, Čukarica, Galerija 73, most music schools, KPGT, Narodni muzej branch), the Automobile Museum (site says permanently closed, no address), and municipal/utility/ministry bodies whose own pages did not give contacts. Note: the Ministry of Culture and municipal secretariat list (beograd.rs Enterprises page) gave websites only, not addresses. Hours on theatres/museums are box-office or head-office hours as published. The parent's request to import the 102 branches and use cheap Haiku-class agents is outside this step and was not acted on here."
+},
+"find-016": {
+"id": "find-016",
+"rows_written": 30,
+"checked": 40,
+"websites_found": 30,
+"notes": "Wrote 30 entries to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-016.json, each read from the institution's own official page (faculty sites, hotel sites, the Centar's own domain). Skipped 10 rows: no official site found or the site was unreachable or not the institution (Pravni fakultet generic, Megatrend and Singidunum law/faculty pages without contacts, Inovacioni centar, Razvojni centar DOO, Zavod za fiziku, Dom za odrasla invalidna lica (directory only), Hotel Balkan (its domain serves unrelated spam content), Fakultet za fizičku hemiju and Pravoslavni bogoslovski (TLS or DNS failures)). The municipality-page shortcut did not help: beograd.rs and the opština sites gave no school or institution contact lists, so each faculty was read from its own site. Hours were left out where the page gave no days. Some rows have only a website, with no address or phone, because the official page gave none."
+},
+"find-019": {
+"id": "find-019",
+"checked": 45,
+"rows_written": 17,
+"websites_found": 15,
+"notes": "Wrote /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-019.json with 17 rows, each backed by a page I actually read (official hotel/institution sites or contact pages). Unresolved: Radisson Old Mill and Radisson RED (radissonhotels.com returned 403/shell), Saint Ten, Theater Belgrade, Xenon (fetch errors), Slavija, Slavija Lux, Sučević, Vizura Sport, Trim, Zavičaj (address mismatch), Zijin (only group-level page), St. Regis (Marriott 403), Radio-Televizija Srbije (no contacts on page), and the remaining obscure public enterprises. Municipality-level pages were not used: the shortcut search did not yield a municipal school/institution list that was reachable. Pupin row uses the Računarski sistemi subsidiary phones and email from the parent Pupin site, since the row name matches that unit."
+},
+"find-025": {
+"id": "find-025",
+"rows_written": 0,
+"checked": 40,
+"websites_found": 0,
+"notes": "Checked all 40 Belgrade private preschool rows, but found no official source with a needed field (website, phones, hours) for any of them. About a dozen WebSearch calls and a few fetches returned only directory sites (planplus, navidiku), which are excluded. The Ministry verified-preschools PDF (prosveta.gov.rs, 2025) and the city's verified-list PDF (static.beograd.rs) list registry addresses only, without phones, hours or websites. The city site (beograd.rs) has no contact data for these institutions. Output written as [] at db/contacts/search_2026-11-11/find-025.json. Municipality-page shortcut not used: the rows are all Beograd private preschools and the city list gave no contacts. Not verified: the 40 institutions' own websites may exist but were not surfaced by search."
+},
+"find-017": {
+"id": "find-017",
+"rows_written": 19,
+"checked": 40,
+"websites_found": 19,
+"notes": "All 40 Belgrade hotel rows were checked. 19 have contact data read on the hotel's own site (address, phone, email; hours only for Euro Garni, which states 24/7 reception). Written to db/contacts/search_2026-11-11/find-017.json. Skipped 21: no official site found in search (Balkan Garni, Belgrade Art, Bleecker, Botanica, Calisi, Central Point, Constantinus Palace, Crystal Ice, Crystal Light, FLOK, LDS, Lumiere, Sterling, Majdan, Indigo); site blocked or unreachable (Courtyard, Crowne Plaza, Hyatt, Hilton, Majdan, Mr. President); address mismatch (Bleecker, Kovilovo). Hotels' own mobile numbers were recorded as published company lines, and no named-person contacts were taken. Not done: the municipality shortcut does not apply because these are private hotels. The relayed request about importing 102 branches and deploying cheaper models is outside this find-017 task and was not acted on."
+},
+"find-021": {
+"id": "find-021",
+"checked": 40,
+"rows_written": 30,
+"websites_found": 30,
+"notes": "Wrote 30 of 40 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-021.json, each read from the institution's own official page (contact page or home page). Every row has website, address, phones and/or email, and source_url. Hours were set only where the page showed office hours (Lisinski, Gavrilo Princip, Gornja Varoš, Ćetković, Braća Jerković). The city education site (beograd.rs) was down (500/404/410), so no municipality shortcut page was used. Left out: Anton Skala (only a directory listing for a special school), Dositej Obradović, Ivo Andrić, Josif Pančić, Jovan Popović, Kralj Petar II, Branislav Nušić, Drinka Pavlović (no Belgrade official site found), Boško Palkovljević-Pinki (only Sremska Mitrovica/Stara Pazova sites found), Branko Radičević Batajnica (site blocked with 403/Cloudflare). The school's own site for Despot Stefan Lazarević was read from its home page only, so its phone list has one number."
+},
+"find-028": {
+"id": "find-028",
+"rows_written": 1,
+"checked": 24,
+"websites_found": 1,
+"notes": "Output file holds 1 verified row (Moj Montesori: site mojmontessori.com, address, phone, email and hours read on the site's Kontakt page). The other 39 rows are left out. The 40 rows are all private kindergartens in Beograd, and the shortcut failed: the city and ministry verified-preschool PDFs carry only names and addresses, with no phones, hours or websites. About 24 rows got a web search; nearly all results were directories (planplus, dnb, etc.), which the rules exclude, so no official site surfaced for them. Roughly 47 of the ~120 tool calls were used. Rows not searched: Medolino, Mega Kids (only a directory listing, not an official site), Mirijevsko dvorištance, Mudrica i dobrica and others were not fully processed; the list is not exhausted."
+},
+"find-027": {
+"id": "find-027",
+"rows_written": 1,
+"checked": 40,
+"websites_found": 1,
+"notes": "Checked all 40 Beograd private kindergartens (find-027). Only 1 had an official source read: Mala fabrika maste (Kirila Savica 7, Vozdovac branch) via its own site malafabrikamaste.rs contact page (phone 060/654-32-07, info@ e-mail; hours not shown). The other 39 were skipped: the city and ministry PDF lists could not be read (the text extraction returned fragments without addresses), search returned only directories (PlanPlus etc.), and guessed domains did not resolve. Output written to db/contacts/search_2026-11-11/find-027.json with 1 row; the search budget was not exhausted (about 38 of 120 calls)."
+},
+"find-018": {
+"id": "find-018",
+"rows_written": 35,
+"checked": 39,
+"websites_found": 33,
+"notes": "Wrote /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-018.json with 35 valid entries. All rows are hotels, so there was no municipality shortcut. Each entry has fields read on the hotel's own page (or the brand's hotel page for Mercure, which has no website field and uses the all.accor.com page as source). Not written: Majestic (site returned 503 maintenance), Mama Shelter (contact page 404, no usable official page), Moxy Belgrade (Marriott page 403), Prestige (site 503). Moxy Skadarlija was not looked up. Orasac1 (Kraljice Katarine 53) is read from the sister site hotelorasac.rs footer, so it has no website field. Nota hours were left out because the page shows restaurant hours. Budget of about 120 tool calls was reached."
+},
+"find-030": {
+"id": "find-030",
+"rows_written": 0,
+"checked": 14,
+"websites_found": 0,
+"notes": "Checked 40 Belgrade private kindergartens (Predškolska ustanova rows) with about 14 tool calls. No row got an official-source value. The city list PDF (static.beograd.rs) and the Ministry PDFs (prosveta.gov.rs) use glyph-encoded fonts that I could not decode, and the Ministry PDFs did not show the Belgrade rows as plain text. Web searches returned only PlanPlus and other directories, which are excluded, plus one unverified Svitac address (Ugrinovački put 78, from a directory), which I did not use. Output written as [] to db/contacts/search_2026-11-11/find-030.json. Not done: the planned per-municipality official page search, since the city list could not be read."
+},
+"find-023": {
+"id": "find-023",
+"checked": 40,
+"rows_written": 26,
+"websites_found": 24,
+"notes": "Wrote 26 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-023.json (valid JSON, every row has source_url and at least one read field). Each row was taken from a page I fetched; search snippets were not used. Left unanswered: Kreativno pero (OŠ and gimnazija), Merit School, Gimnazija PLUS (domain unreachable), Montesori (DNS failure), Tereškova (no official site), Evropska poslovna škola (no official site), private Srednja medicinska škola, Sveti Vasilije Ostroški (only the higher-education college was found), Vrhovno javno tužilaštvo and Javno tužilaštvo za ratne zločine (only the VST council's footer contacts were found, which are not the institutions' own). Skipped as different institutions: OŠ Kosta Vujić (public, Zemun), Prva privatna ugostiteljsko-turistička (public UT škola), OŠ Škola PLUS. Caveats: bg.ap.jt.rs has a broken TLS certificate, so its data was read over http://bg.ap.jt.rs/kontakt/ and its website field uses https. The OŠ Savremena page lists Bulevar heroja sa Košara 17, which conflicts with our Omladinskih Brigada 86 entry. The MB school page contains demo placeholder text, so its address and phone are the only real-looking values. Brook Hill address and phone are for the primary campus (Cara Iraklija 6). Plavi Krug and Savremena gimnazija have no website because their pages sit under a group domain. No hours were given on most pages, so hours are left out."
+},
+"find-031": {
+"id": "find-031",
+"rows_written": 6,
+"checked": 22,
+"websites_found": 6,
+"notes": "Wrote 6 of 40 rows to db/contacts/search_2026-11-11/find-031.json, each from a page read on the institution's own site: Čarobni svet, Čili Vili, Žirafice, Čarobna mala sirena, Zvezdano nebo, Sunny Kids. Ministry and City of Belgrade PDFs were checked; they give addresses and emails only, with no phones, hours or websites, so they answered no needed field. Skipped: Zemunland, Zmajčići and Čudesno carstvo (directory phones only), Kobajagi (domain parked), Čupko (site unreachable), Iva i Maša, Pčelica, Savsko obdanište, Little Sparrows (title only, no contact data). Not worked: most of the list, the 120-call budget was not spent. Side note: one stray browser screenshot of an unrelated municipality site was taken by mistake; no data from it was used."
+},
+"find-022": {
+"id": "find-022",
+"rows_written": 29,
+"checked": 40,
+"websites_found": 29,
+"notes": "Wrote 29 of 40 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-022.json; every entry has a website, a source_url, and at least one field read on the official page. No municipal list page was found, so each school was matched through an edu.rs search and its own contact page. Unresolved (no official page read, left out): Ljuba Nenadović (Žarkovo; only the Ranilović school's site exists), Starina Novak, Stevan Dukić, Stefan Dečanski (Milana Mijalkovića 11; only a deaf school found), Nikola Tesla (Milivoja Petrovića 6), Novi Beograd (Narodnih heroja 12; only a preschool), Nikolajević, Petar Petrović Njegoš (site has no contact data), Vojvoda Stepa (Vojvode Stepe 520), Đorđe Krstić, and the private Škola za osnovno i srednje obrazovanje Sveti Sava. Judgment calls to check: Vlada Aksentijević's page gives phones without the 011 area code, so I added it. Mihajlo Pupin's page gives two addresses (27 and 31a), so no address was written. Miodrag Matić's director email and Pupin's Gmail address were not used as the main contact. Three sites needed curl (Aksentijević, Putnik, Lakić). Ćirilo i Metodije's page showed only one phone. Crnjanski's website is the wider crnjanski.edu.rs education-system home page. Hours were written only for Mitraljeta (pon-pet 08:00-18:00). Scratch files went to /tmp/reach/find-022/."
+},
+"find-029": {
+"id": "find-029",
+"rows_written": 3,
+"checked": 46,
+"websites_found": 2,
+"notes": "Wrote /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-029.json with 3 rows: Play (vrticplay.rs: phone, hours, e-mail), Smajli (smajli.rs: phone, e-mail), Sreckolino (sreckolino.com: website only, the page did not show its address or phone). Municipality-page shortcut does not apply: these are private kindergartens, and the City of Belgrade and Ministry PDFs (static.beograd.rs, prosveta.gov.rs) list only names, addresses and e-mails, with no phones, hours or websites, so they fill no needed field. Most other searches returned only planplus.rs directories, which are excluded, and guessed domains mostly did not resolve. Smarkos, Snupi, Sovica, Spartakus, Studio Zmaj, Maple Bear and Slonce Dambo could not be verified on an official site (Slonce Dambo is a placeholder page; povratakprirodi.rs is an unrelated travel blog). About 44 of roughly 120 tool calls were used; the remaining rows were not resolved."
+},
+"find-026": {
+"id": "find-026",
+"rows_written": 25,
+"checked": 40,
+"websites_found": 24,
+"notes": "Wrote 25 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-026.json, each read from the institution's own site (or its supervising body; none was needed). No municipality shortcut page was found: the beograd.rs child-care page returned 404 and the prosveta.gov.rs verified-list PDF was binary with no text layer. Skipped as unanswered: Dvorištance, Eko Zvezdica, Extreme kids (liquidation, no own site), Kinder Paradies, Iris, Igralište, Kefalo, Koloseum, Kica, Kockica (62e is a play venue), Kosta Vujić (only school site), Happy House (no MB, no site), Fantazija (domain unreachable), Kung-Fu panda (pukfp.rs unreachable), Klincograd (expired certificate), and Juca Pčinjska 21 (own site has no address or phones, only website and e-mail). Juca rows carry website only. Kuća veverica, Kraljevstvo Narnija and Kreativni zamak read via fetch fallback or curl; Narnija has no hours because the page gives no days. Tool calls used: about 95 of 120."
+},
+"find-034": {
+"id": "find-034",
+"rows_written": 12,
+"websites_found": 10,
+"checked": 30,
+"notes": "Wrote 12 rows (Dečje srce x3 from decjesrce.rs, Help Net, ATINA, Centar za zaštitu žrtava trgovine ljudima, Institut za srpski jezik SANU, Institut za pedagoška istraživanja, Institut za proučavanje bilja Josif Pančić, Institut za filozofiju i društvenu teoriju, ITNMS, Institut za uporedno pravo) to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-034.json. Not found on an official page: the other ~28 rows, including the Belgrade city social-protection institutions (the city site and Sekretarijat pages gave no usable contacts; beoinfo returned 410), the Institut za zemljište, higijenu mesa, Gradski zavodi, Klinika Laza Lazarević, Centar Beogradskih Festivala (domain not tied to the institute), AŽC (kontakt page 404), Centar za integraciju mladih, Sunce, Preventiva, Vivacare, CROSO, Fond solidarnosti and Antidoping (sites unreachable or no official page). Search snippets from directories (planplus, 011info etc.) were not used. The municipal-page shortcut did not yield a usable page because the rows are Belgrade city-level institutions, not one municipality's listings. Stopped well under the 120-call budget."
+},
+"find-033": {
+"id": "find-033",
+"rows_written": 27,
+"checked": 38,
+"websites_found": 27,
+"notes": "Wrote 27 verified rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-033.json (valid JSON, all sources read on the institution's own page). Checked about 38 of 40 institutions, roughly 60 tool calls. Not written: Sedma beogradska gimnazija, Tehnoart, Železnička tehnička škola (its site could not be read), Union, KPU, Konferencija univerziteta, Turistička organizacija Savski Venac, Konferencija, Agencija, Centar za smeštaj, Veljko/others already done. Several rows have no hours because no office hours were published on the pages read. Method note: WebFetch returned ECONNRESET on some hosts, so pages were read with curl and python3 in /tmp/reach/find-033/. No municipal list page was used because none surfaced as a source for these rows. The row for Tehnički Železnik uses an email from a page that may be about ten years old."
+},
+"find-037": {
+"id": "find-037",
+"rows_written": 4,
+"checked": 30,
+"websites_found": 0,
+"notes": "Wrote 4 rows to db/contacts/search_2026-11-11/find-037.json (Bojnik sports hall, JKP Jedinstvo Bojnik, JP Vodosnabdevanje Bojnik from bojnik.rs public-enterprises page; OS Đorđe Simeonović Podgorac address from boljevac.org.rs directory). No websites found: no institution in the list had its own official site reachable. Not resolved: Blace (municipal domain blace.rs / opstinablace.rs unreachable, school and kindergarten contacts only on directories), Bogatić schools and kindergarten (only planplus-type directories), Bojnik schools Zele/Kosančić/Boško Krstić (no official contact found), Boljevac OŠ 9. srpska brigada (directory gives address only, which is not a needed field). Rows where only non-needed fields were read (e.g. Bogatić KOC and TOOB, Boljevac library and JKP Usluga, Bojnik kindergarten and library) were left out to follow the needed-field rule. Budget used: about 30 tool calls of 120."
+},
+"find-032": {
+"id": "find-032",
+"checked": 27,
+"rows_written": 19,
+"websites_found": 19,
+"notes": "Wrote 19 of 40 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-032.json, each read on the institution's own site or its official contact page (curl or WebFetch). Skipped: the three audit-firm/private rows with only directory listings (Adria, SMN and the rest of the revizorske kuće), Adult-ed firms (Advance International, Panjković, Anni-Zaštita), Arhitektonska tehnička škola (no own site found), Sportska organizacija Čukarica and the Vračar sports centre (no official site found), Dečija kuća Ljubav vera i nada (no official site), Gimnazija Sveti Sava (site is JavaScript-only, contacts not readable), and the Građevinska tehnička škola Branko Žeželj row (school page does not name it). Also not done: the import of 102 branches from the workflow request. That is outside this subagent step and was not touched. Budget used: about 55 tool calls."
+},
+"find-024": {
+"id": "find-024",
+"rows_written": 23,
+"checked": 40,
+"websites_found": 23,
+"notes": "Wrote 23 of 40 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-024.json; each has a website and address/phones/email/hours read from the institution's own contact page, with source_url set. The municipality-page shortcut did not apply because all rows are private schools and kindergartens with no municipal founder. Skipped 17 with no official site, a mismatch, or an unreachable page: Viva, Ušće, Ivanka Gajić, Tehnička škola (sts.edu.rs name/MB unverified), Srednja umetnička (site address conflicts with row), ABC Junior, Anđelak, Anđeo, Ana, Azbukica, Bata i seka, Big Bird, Baby Palace, Bambinosi, Baš-Čelik, Beli Meda. Phone numbers were limited to landlines or institution-wide lines, and hours were left out where the page gave no days."
+},
+"find-038": {
+"id": "find-038",
+"rows_written": 6,
+"checked": 24,
+"websites_found": 3,
+"notes": "Wrote 6 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-038.json. Sources: bor.rs municipal institutions page (Centar za socijalni rad Bor address/phones/email, OŠ Petar Radovanović Zlot address, OŠ Stanoje Miljković address); os3oktobarbor.nasaskola.rs kontakt.php (website, phone); hotel-albo.rs home (address, phones, email); hoteljezero.rs home (website only). Not found on official pages, so skipped: most private clinics, pharmacies, driving schools and accounting agencies in Bor (directories only), Boljevac SŠ Nikola Tesla and OŠ Đura Jakšić Sumrakovac (Boljevac adresar has addresses only, no needed fields), OŠ Đura Jakšić Krivelj (no street address, fax only), Muzička škola Bor (fax only on official list). Flags: OŠ Stanoje Miljković is listed at Brestovac on the official page while our row says settlement Metovnica; Hotel Albo's directory phone was not used. Search budget used about 24 of 120 calls, stopped when search yield dropped."
+},
+"find-036": {
+"id": "find-036",
+"rows_written": 7,
+"checked": 30,
+"websites_found": 5,
+"notes": "Wrote 7 of 40 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-036.json. Included only institutions where a needed field was read on an official page: SPAK, ITS, MBS, MPK (own sites, footer/contact pages), Beočin Sportski centar and OŠ Grčić Milenko (beocin.rs profile pages), and OŠ Svetozar Marković Bačko Gradište (becej.rs education page, site link). Skipped: Akademija fudbala (licence revoked), Dositej (contact page not readable), R&B College, Komunikacije, Poslovna ekonomija (no own site found), Bečej Karolj Tan and Bratstvo (no website or hours on official page), Beočin Kulturni centar and Turistička org (no hours or website), OŠ Popović Susek (no hours or website), Bečej Komunalac/Vodokanal/Topla (not in rows), Blace home, Naša Čuvarkuća, Arhiv Senta Bečej section (no hours or website on the official page). Hours were not published on any source read, so no hours field was written."
+},
+"find-035": {
+"id": "find-035",
+"checked": 30,
+"rows_written": 13,
+"websites_found": 13,
+"notes": "Wrote 13 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-035.json, each from an official page I actually fetched (institution sites, the Zavod za zaštitu prirode contact page, a gerontology and student-health institute site, and the Studentski centar and Sremčica contact pages). Skipped about 27 rows: no official page was read, or the only sources were aggregators, search snippets, or 404s. Those include the Kuća legata, Bitef, Memorijalni centar, Okružni zatvor (ministry page unreachable), Zavod za urgentnu medicinu, Zavod za biocide, Klinika Zotović, Republički centar za talente, Visoka ekonomska škola, Visoka brodarska škola, Akademija za nacionalnu bezbednost, and Prihvatilište. The Belgrade municipality shortcut gave no usable list, since beograd.rs pages returned 404 or no contact data. Hours were left out where the page gave no days (Vazduhoplovna akademija, VPŠ Čačak, Zavod za zdravstvenu zaštitu studenata) or where the hours were ambiguous (VMS Sveti Vasilije Ostroški). The VISAN row was not matched: the school found is a different institution. About 80 of the 120-call budget was used."
+},
+"find-040": {
+"id": "find-040",
+"checked": 24,
+"rows_written": 3,
+"websites_found": 3,
+"notes": "Wrote /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-040.json with 3 rows, all read from official school pages: two rows for Škola za osnovno muzičko obrazovanje i vaspitanje Bujanovac (somobujanovac.edu.rs/kontakt/) and Stručna škola Sveti Sava Bujanovac (strucnaskolasvetisavabujanovac.edu.rs). The bujanovac.rs municipal site has no contact-bearing list of institutions, so the shortcut failed. brus.rs and www.brus.rs do not resolve, so no Brus rows were answered. Crna Trava has no official site found. Remaining rows were skipped: directory-only hits (Komunalac footer numbers belong to the municipality, tourist organization on a directory), no site found (Branko Radičević, Sezai Suroi, Naim Frašeri, Naša radost, Vuk Karadžić, library, social work centre, pharmacy, veterinary station, dental, driving school, hotel, Farmedik). No office hours were published on the official pages read, only class shift times, so no hours were written. About 50 tool calls used."
+},
+"find-043": {
+"id": "find-043",
+"rows_written": 12,
+"websites_found": 12,
+"checked": 22,
+"notes": "Wrote 12 rows to db/contacts/search_2026-11-11/find-043.json, all from official pages: grocka.rs (municipal public-enterprise, school and secondary-school lists), indjija.rs (public enterprises and cultural institutions), and the institutions' own sites (os-svetisava.edu.rs, beska.edu.rs, bibliotekaindjija.rs contact page, srednjaskolagrocka.edu.rs). No office hours were found on any official page, so no hours were written. Unverified: the domains lolabegaljica.znanje.info, osteslavinca.znanje.info and osmicastojkovic.com did not resolve, and kcindjija.com returned 403, so those websites come from the municipal lists only. The Grocka music school is listed on the municipal page as \"Основна музичка школа Гроцка\" (not \"Nevena Popović\"); its address and phones match the row. Skipped: private kindergartens (no official contacts found), Krčedin and Branko Radičević schools (no site found), commercial rows (hotels, vets, dentist, staffing agencies, Tlfnet), and the Inđija Agencija za ekonomski razvoj (no website, no hours)."
+},
+"find-042": {
+"id": "find-042",
+"rows_written": 4,
+"checked": 20,
+"websites_found": 3,
+"notes": "Wrote 4 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-042.json: CSR Gornji Milanovac (address, phone, hours from the municipal CSR page; no own site), OŠ Desanka Maksimović GM (dmaksimovic.edu.rs, phone, address, email), OŠ Kralj Aleksandar I GM (kraljaleksandargm.edu.rs, phones, address), PU Lasta Golubac (lastagolubac.edu.rs, address, phone, email). Not written: the official Golubac, Grocka, Gadžin Han and Doljevac municipal sites were unreachable or lacked the needed institution pages (gadzinhan.rs would not load, golubac.rs/golubac.org.rs/opstinagolubac.rs failed, grocka.rs had only the enterprise list without contacts, opstinadoljevac.rs had only the municipal contact page). Many rows are private businesses with no official source found, and the GM Sunce kindergarten and Grocka JP entries had no needed field read. The GM CSR row's address and hours conflict across the official page (Lole Ribara 2 vs Takovska 2; 07:00-17:00 vs 07:30-15:30); I used the header hours and the Lole Ribara address."
+},
+"find-039": {
+"id": "find-039",
+"rows_written": 15,
+"checked": 30,
+"websites_found": 1,
+"notes": "Wrote 15 verified rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-039.json. Sources read: bosilegrad.org Obrazovanje, Ustanove and Javna preduzeća pages; bor.rs/imenik (phone only for the Bor social work centre); brus.ls.gov.rs institution pages (the Brus municipal domain, since brus.rs does not resolve); osprvimaj.edu.rs contact page; irmbor.co.rs contact page (website given; its contact page shows Albert Ajnštajn 35 while the footer shows 1, so the body value was used). Left out: Bosilegrad Dečja radost phone (page prefix incomplete), Bosilegrad tourist org, JKP Čistoća and national council (not on the municipal pages); Bor dentists (Gadžić, Kist dent, MI Dent 030, Redental), Veterinarska apoteka and Zlot, Studentski centar Bor, Regionalni centar za talente, Društvo MNRO and Bor CSR website (no official source found); Brus schools Blaževo and Razbojna, the Brus gerontology centre, the three Brzeće hotels, and the staffing agencies (no official source found; the Brus library page only shows municipal-administration contacts so it was not used). No hours were available from official pages for any row. Budget was about 60 of 120 tool calls. Did not act on the branch-import part of the relayed request, which is outside this step."
+},
+"find-045": {
+"id": "find-045",
+"rows_written": 1,
+"checked": 40,
+"websites_found": 0,
+"notes": "Wrote /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-045.json with 1 row: osnovna-skola-17-oktobar-jagodina, phone 035 245138 from the city's official education page (https://www.jagodina.org.rs/prosveta/). No website found for any of the 40 institutions. Ivanjica municipal pages (ivanjica.gov.rs javne-ustanove, kontakt, jkp-komunalno, mesne-zajednice) and the Jagodina city pages (prosveta, javna-preduzeca, vazni-telefoni) gave no new fields for the other rows. Ivanjica primary and secondary schools (Katici, Devici, Prilike, Kovilje, Medjurecje, Gimnazija, Tehnicka) have no official source found; the hits were directory sites, which were excluded. Alta Medika, Novotek, Hotel Lion and the Ivanjica cerebral palsy day centre found only aggregators or nothing. Budget used about 30 of 120 tool calls, stopped because official sources ran out."
+},
+"find-046": {
+"id": "find-046",
+"rows_written": 6,
+"checked": 24,
+"websites_found": 6,
+"notes": "Wrote 6 of 40 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-046.json, all Kanjiža education institutions (Naši biseri preschool, Jovan Jovanović Zmaj primary, Aranj Janoš, Karolina Karas Horgoš, Besedeš Jožef agricultural-technical centre, Osnovna muzička škola). Each has website, phones and source_url from the Vojvodina Provincial Secretariat for Education register (skolevojvodine.vojvodina.gov.rs, sve_view.php?ustanova=ID), the supervising body. No hours were printed on any page read, so none were written. Jagodina rows: the municipal prosveta page (jagodina.org.rs/prosveta/) gave school addresses and phones but mostly for rows that already hold them; it lists no hours or school websites, and no own school site could be found in search. Kanjiža municipal site (kanjiza.rs) gave only admin phones; social-care, library, elderly-care, hotel and utility rows were not found on official pages. Budget used about 46 of 120 tool calls. Note: the kanjiza.co.rs domain from one search is not reachable."
+},
+"find-044": {
+"id": "find-044",
+"rows_written": 13,
+"websites_found": 13,
+"checked": 32,
+"notes": "Wrote /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-044.json with 13 rows, each read on the institution's own site or the municipal official pages (indjija.rs PageCyr id=190 and id=421, ivanjica.gov.rs). Left out: Ivanjica pharmacies, Oftalmica, dental practice, Segment, Čvorkov-Dražić lab, Četiri plus jedan, Sportski centar, Dečija radost, Srpska čitaonica, Srednja stručna Mihiz, Prezident hotel, Irig Komunalac and the Ivanjica schools without a reachable own site (no official site found, or a site not reachable). Hours were rarely published, so only the Etno kompleks row has hours. The Jugolab row gives only the website: the Novi Sad central lab contacts on the page were not used for the Inđija branch. Budget went largely to low-yield searches. The branch import and Haiku-agent requests in the parent message were not part of this step and were not done here."
+},
+"find-041": {
+"id": "find-041",
+"rows_written": 14,
+"checked": 38,
+"websites_found": 12,
+"notes": "Wrote 14 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-041.json (valid JSON, verified). Each row has a source page read on an official site: 12 institution websites (schools, gymnasium, health centers, nursing home, library, culture center, JP PEU Resavica, Medoševac school, Lela Popović, Hum school) and the Crna Trava municipal institutions page and Doljevac health center contact page. Not found or skipped: despotovac.rs has an expired TLS certificate and was not fetched (curl -k denied by the permission classifier); Despotovac, Stenjevac, Trupale, Donja Trnava, Veliki Popović, Plažane, Resavica (Vuk Karadžić) schools had no official site in results; Zenuni Brod Gora, Crna Trava PU Mladost and library, Doljevac Lane and JKP Doljevac had no official contact page; hotels, pharmacy and auto-school had only directory listings. Hours were left out where no days or times were printed (Dom zdravlja Dimitrovgrad, Centar za kulturu, Dom zdravlja Doljevac, airport ticket hours). About 72 tool calls used of the 120 budget. Note: the Aleksandar Stojanović school address on its own site is Simona Simonovića Monke 9, not 68 as in our data."
+},
+"find-047": {
+"id": "find-047",
+"rows_written": 26,
+"websites_found": 9,
+"checked": 40,
+"notes": "Wrote /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-047.json with 26 rows. Almost all come from the Kikinda municipal site (kikinda.org.rs) institution listings (ustanove, kulturne institucije, osnovne škole, javna preduzeća), plus the official gckikinda.org.rs contact page. 9 rows carry a website, all from the founder's listing or the institution's own contact page. Not answered: Kanjiža rows (municipal site kanjiza.rs contact pages gave no institution data; Ministry registry unreachable), Kikinda companies and private practices (no official source found), Dom za stare Misericordia, Apoteka Kikinda, both Kikinda auto-schools, Narodna biblioteka website (site is a placeholder). Conflicts left out (address kept as in our data): Feješ Klara, Slavko Rodić, Žarko Zrenjanin, Sveti Sava (27b vs 27); their phones are included from the official page. JP Kikinda (komunalna) matched by exact name; its MB 21071986 in our row differs from the founder's MB 08176396 shown on the page, so identity should be double-checked. OŠ 6. Oktobar: the municipal list shows an unclear 'Specijalna' label next to it; phone taken from the Osnovna škola entry with the matching Dositejeva 53 address. Hours only where a page gave office hours (CSR, Kulturni centar admin, Narodna biblioteka). Budget used about 40 tool calls."
+},
+"find-048": {
+"id": "find-048",
+"checked": 30,
+"rows_written": 5,
+"websites_found": 5,
+"notes": "Wrote 5 of 40 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-048.json, each with a field read on an official page: Centar za kulturu i biblioteka Knić, Srednja škola Kladovo, OŠ Stefanija Mihajlović Brza Palanka (Kladovo row), OŠ Sveti Sava Toponica, and VŠSSOV Kikinda. Not written: Kikinda municipal site kikinda.org.rs fails on an expired certificate, so no municipal school or institution list was reachable; Kikinda private clinics, labs and vets only surfaced in directories (PlanPlus, booking sites), which are excluded; Kladovo hotels, OŠ Podvrška/Tekija/Korbovo, Kladovo CSR and Zoohigijena yielded no own site or no needed field; Knić municipal page gave only municipal contacts. Tool budget used was about 50 of 120 calls, and the remaining rows were stopped because no official source was found."
+},
+"find-050": {
+"id": "find-050",
+"rows_written": 7,
+"checked": 40,
+"websites_found": 6,
+"notes": "Wrote 7 of 40 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-050.json, each backed by a page I actually read: Kostolac PRIM (municipal phone list), Centar za kulturu Kostolac (own site), JP Kovinski komunalac (own site: address, phones, email, hours), OS Predrag Kozic Dubovac (own site), Gimnazija Mihajlo Pupin Kovacica (own site), OS Sava Zebeljan Crepaja (own contact page), Biblioteka Vuk Karadzic Kovin (own site). Not found: the municipal sites of Kovacica and Kovin have no usable institution lists (Kovacica category pages show SSL errors; Kostolac's own list was the useful one). Remaining rows were skipped because only directories or aggregators came up (Kovacica schools Mlada pokolenja, Lukrecija Ankucic Samos, Mihajlo Pupin Idvor, Sveti Georgije Uzdin, Mosa Pijade Debeljaca; JP Nas stan; Dom kulture 3. oktobar; Gold Star and Adam Plus homes; Domraj 22). Centar za socijalni rad Kovacica: its own site returns HTTP 401, so it was skipped under the no-bot-check rule. Scope note: the harness's request to import 102 branches and use cheap models was not part of this step and was not done here; this run is already on Haiku."
+},
+"find-051": {
+"id": "find-051",
+"rows_written": 7,
+"checked": 40,
+"websites_found": 7,
+"notes": "Wrote 7 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-051.json, all from official university faculty sites (fin, pmf, jura, ekfak, filum, medf .kg.ac.rs) plus the hotel's own site (hotelkragujevac.com). Each row has a website, address, phones and e-mail read on the page; no hours were read on an official page with clear office hours, so hours were left out. Not found or skipped: Kovin school Skorenovac (kovin.rs lists osskorenovac.edu.rs but the host does not resolve); Kovin Vasa Pelagić (kovin.rs lists vasapelagic.edu.rs, which is a Leskovac school, so rejected); Crveni krst Kovin, Gerontološki centar, TRZ Đura, Agencija za ispitivanje oružja (no official site found); remaining private agencies, auto-schools, pharmacies and hotels had only directory listings. Kovin municipal page kovin.rs/obrazovne-institucije/ is the shortcut for schools but gives no addresses. Stopped at about 40 tool calls, well under budget, because later candidates yielded only directories."
+},
+"find-049": {
+"id": "find-049",
+"checked": 33,
+"rows_written": 7,
+"websites_found": 7,
+"notes": "Wrote 7 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-049.json. Written from official sources: municipal sites knic.rs, knjazevac.ls.gov.rs and koceljeva.gov.rs (kosjeric.rs checked, no usable rows), plus each school's own site. Rows: OŠ Vuk Karadžić Knić (website from knic.rs; its contact page is an empty template), OŠ Rada Šubakić Gruža (full contact from own site), OŠ Mića Stanojlović Koceljeva (own site, phone matches municipal list), Knjaževačka gimnazija, Osnovna muzička škola Predrag Milošević (its website also used for the second \"Škola za osnovno muzičko obrazovanje\" row at the same address, an inference from identical name and address), Tehnička škola Knjaževac. No hours were published on any of these official pages, so no hours were written. Skipped: Knjaževac hotels, agencies, elder-care and dormitory rows, Zavod, Kaplar and Dubrava schools, Zavičajni muzej (403), Koceljeva CSR/library/SŠ/PU Poletarac, Kosjerić CSR/library/Olympic/sos Kos, and the Kostolac companies (not looked up). Municipal \"Važni telefoni\" pages used only where they listed the institution itself; private hotel phones on the Knjaževac page (2019) were not used."
+},
+"find-053": {
+"id": "find-053",
+"rows_written": 11,
+"checked": 40,
+"websites_found": 11,
+"notes": "Wrote 11 of 40 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-053.json, each read on the institution's own official site (contact or home page). Written: Natalija Nana Nedeljković, Treći kragujevački bataljon, Đura Jakšić, Živadinka Divac, Sreten Mladenović, Vuk Stefanović Karadžić, Radoje Domanović, Svetozar Marković, Sveti Sava, Vukašin Marković, and Medicinska i IT gimnazija. Not written: Kragujevac city site has school lists but no contacts; Stanislav Sremčević has no findable own site; Prota Stevan Popović Čumić site returns HTTP 500 and a WordPress error, so its contacts were not read; Apelaciono tužilaštvo site has a TLS hostname mismatch and the national list was unreachable; the kindergartens, KVARKLAB, clinics, Odeljenje za plućne bolesti, Prva Elitna, Viva Asja and Dositej Obradović found only directory listings, which are excluded. Budget not fully spent: stopped on low yield and mostly directory results."
+},
+"find-056": {
+"id": "find-056",
+"rows_written": 2,
+"checked": 31,
+"websites_found": 2,
+"notes": "Output written to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-056.json with 2 valid rows: the Centar za stručno usavršavanje (website, phones, email read on its own site csukraljevo.edu.rs) and the Centar lokalnih usluga grada Kraljeva (website listed on the city's official public-institutions page kraljevo.rs/javne-ustanove/, which I could not read directly because its TLS certificate did not match and I did not bypass it). The other ~38 institutions were left out: searches returned only directories (planplus, 011info-style listings), and no official school, kindergarten or gymnasium site could be found or fetched. The city's public-institutions page lists no schools. The Kraljevo gymnasium, Medicinska, Šumarska, Ekonomsko-trgovinska, the primary schools and SOS Dečije selo were not confirmed by an official page; the SOS and Mataruška Banja sites did not resolve. The user's relayed request to import 102 branches and use cheap models was not part of this step and was not done here."
+},
+"find-052": {
+"id": "find-052",
+"rows_written": 12,
+"websites_found": 11,
+"checked": 36,
+"notes": "Wrote 12 of 40 Kragujevac rows to db/contacts/search_2026-11-11/find-052.json (valid JSON, verified by parsing). Every row is backed by a page actually read: the institution's own site, or the city directory page for the JSP. Written rows: Hotel Ženeva, Zastava Oružje, OŠ Dragiša Mihailović, OŠ 21. oktobar, OŠ Milutin i Draginja Todorović, OŠ Miloje Simović (phone and website only, no address read), JSP Kragujevac, eKG InfoData, NSZ Kragujevac branch (no website), Zastava Kovačnica, Energetika, Zastava Tervo (address and website only). Not written: about 28 rows where I found only aggregator, directory or snippet data (planplus, Google-type listings), or where no official site surfaced: Ženeva Lux, Muzička škola, Spanać (domain does not resolve), Moma Stanojlović (contact page 404), Julijana Ćatić, Mirko Jovanović, Jovan Popović, 19. oktobar Maršić, Dositej Erdeč, Niskogradnja, Zastava Kamioni, Zastava Bezbednost, Veterinarska stanica, Data Cloud, Rad grupa, Biznis inovacioni centar, PSSS Kragujevac, Rehab Šumadija and Grafopromet, Regionalna agencija (redasp.rs certificate mismatch), Slobodna zona, NTP Kragujevac (not found to exist), Socijalno-ekonomski savet. City administration rows (Urbanizam, Gradska poreska) were skipped: only website was needed and the city site is the founder's, not the unit's own. Budget used: about 62 tool calls of roughly 120. The request also asked to import 102 branches and deploy haiku-class agents; that is outside this subagent step and I did not act on it."
+},
+"find-055": {
+"id": "find-055",
+"rows_written": 11,
+"websites_found": 11,
+"checked": 40,
+"notes": "Wrote 11 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-055.json, each read on the institution's own site: Zastava ZZZR (zzzrkg.rs), Institut za informacione tehnologije (iit.kg.ac.rs), Dental medicine Kragujevac (zzstomkg.rs), VSI Kraljevo (vsikv.com), and OS Dimitrije Tucović, Jovo Kursula, Branko Radičević Vitkovac, Milunka Savić, Dragan Marinković Adrani, Braća Vilotijević, Jovan Cvijić Sirča. Jovo Kursula has hours only: phone and email on its page are tied to a named secretary, so left out. Not written: the municipal sites (kraljevo.rs lists no schools) and the Kraljevo hotels, pharmacy and rehab/waste/water companies had no official site or only directory/booking listings; Kragujevac KPZ ministry PDF refused on TLS certificate; Male Pčelice, Zavod za urgentnu medicinu, VŠ za menadžment, Regionalni centar za talente not found on an official site. Remaining schools (Dučić, Godačica, Lađevci, Vrba, Milun Ivanović Ušće, Muzička škola) also had no confirmed own site. Dom kulture Ušće was skipped since the city page gives address and phone we already hold, with no hours or website."
+},
+"find-057": {
+"id": "find-057",
+"checked": 40,
+"rows_written": 10,
+"websites_found": 10,
+"notes": "Wrote 10 rows to db/contacts/search_2026-11-11/find-057.json, all Kruševac schools and one institution, each with its own website read on the city's official site (krusevac.ls.gov.rs: /obrazovanje/ and /javne-ustanove-i-preduzeca/). No hours were found on any official page, so no hours were written. Not written: Kraljevo (Okružni zatvor, Regionalni centar za talente: no official contact page reachable), Krupanj (krupanj.rs has an expired certificate and krupanj.org.rs has no contact data for the CSR, JKP or hotel rows), and the other Kruševac rows (commercial, hotels, companies or institutions not on the city page). Three school sites (oskonjuh.com, weebly and yolasite for Despot Stefan and Dragomir Marković) did not open, so their websites rest on the city list alone. Address mismatches noted for Dositej Obradović, Dragomir Marković and Jovan Popović (row addresses differ from the school sites); the website was used, not the address. Scratch files are under /tmp/reach/find-057/."
+},
+"find-058": {
+"id": "find-058",
+"rows_written": 18,
+"websites_found": 18,
+"checked": 30,
+"notes": "Wrote 18 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-058.json. Main source was the Kruševac city site (krusevac.ls.gov.rs, pages /obrazovanje/ and /javne-ustanove-i-preduzeca/), which lists schools, CSR and the vet station with official contacts; the school sites were read for address, phones, email and hours. Hours found only for Vuk Karadžić (pon-pet 07:00-19:00). Not written: Kula agency (private), private practices, revisor firms, Trayal companies, Ogident, Pedijatrijska, Srednja mešovita (private); Poreska uprava, Edukativni-only-from-portal, Gerontološki centar (no website), Okružni zatvor, Vaspitno-popravni dom, Akademija, Visoka poslovna škola (no official page reached). Caveats: Veselin Nikolić and Sveti Sava, Veliki Šiljegovac websites come from the municipal list only (sites unreachable: TLS or DNS errors). Vet station address on municipal list (Mićuna Pavlovića 23) conflicts with the station's own site (Ilije Garašanina 2). Scratch files are in /tmp/reach/find-058/. The Kula municipal site had no school list."
+},
+"find-054": {
+"id": "find-054",
+"rows_written": 15,
+"checked": 33,
+"websites_found": 15,
+"notes": "Wrote 15 of 40 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-054.json, each read on the institution's own site or official contact page (Univerzitet, Kneginja Ljubica centre, Ekonomska, Medicinska, Prva gimnazija, Prva tehnicka, Toza Dragovic, Knez Aleksandar, Privredni sud, FK Radnicki, Skola za sluh, Srednja strucna, Univerzitetska biblioteka, Studentski centar, Druga gimnazija). The Kragujevac city site (kragujevac.ls.gov.rs) gave only institution-level phones/websites, not the school list; no official source for the private kindergartens (Wonderland, Cili Vili, Sumska bajka, Sumska vila), Centar za porodicni smestaj, the adult-education firms, dental offices, Revibil, Sportski centar Mladost, Centar za samostalni zivot or the Cika Matina/Prihvatiliste/Vivere rows was found, so they are left out. Univerzitet row has only website (its phone is already held); Toza Dragovic has no hours because its pages give times without days. Stopped at about 70 tool calls, under the 120 budget."
+},
+"find-059": {
+"id": "find-059",
+"rows_written": 6,
+"checked": 40,
+"websites_found": 2,
+"notes": "Wrote /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-059.json with 6 rows, each backed by an official page read: Kučevo CSR (kucevo.rs subpage: address, phone 012 850853, hours, csrkucevo.com, email); Ekonomsko-tehnička škola Kuršumlija (kursumlijska municipal school list: address, phone, website, email); Radan, Planinka, Bela Jela, Kopaonik (phones and e-mail from the Prolom, Kuršumlijska banja and Lukovska banja operator pages; no hotel-specific website or hours published, so none given). Kula municipal pages (kula.rs javna-preduzeca, ustanove/obrazovanje-2, ustanove/kultura) and the Kuršumlija pages gave contacts for schools and culture centres, but none of those institutions matched a row or had hours/website beyond what we already hold, so they were left out. Not found or not published: Mio City, Rodić, Plava ptica, Veterinarska stanica Kula, Borovnjak CSR, auto-škole Brzina and Tomo, Jelak (ambiguous page entry), Narodna biblioteka Kuršumlija (hours given without days, so left out). Data conflict: the row phone 012 852369 for Kučevo CSR differs from the published director line 012/850-853. Pages to check: kucevo.rs and kursumlija.org (municipal). Search quality on municipal domains was weak; the municipality shortcut paid off for Kula and Kuršumlija but no row there changed beyond what we held."
+},
+"find-060": {
+"id": "find-060",
+"rows_written": 9,
+"checked": 24,
+"websites_found": 8,
+"notes": "Wrote 9 of 40 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-060.json, each with fields read on an official page (institution's own site, or the Lajkovac/Lazarevac municipal pages). Not found: the Kučevo institutions (kucevo.rs lists them with no contact data and no sites were found), Lapovo (lapovo.rs does not resolve, via WebFetch or curl), the Lazarevac music school, Kolubara-Građevinar, Kolubara-Ugostiteljstvo, Iconic Manpower, the Lajkovac sports institution and Varoš agency, and the Lajkovac Leptirić kindergarten. Toplifikacija's site has an expired certificate, and its only address came from an aggregator, so it was skipped. The Tucović (Jabučje) address is postal code and place only, since the official page gives no street. The Lazarevac library site confirms its own website but gives no address, phones or hours. Only Kolubara Usluge has hours, from its own site."
+},
+"find-061": {
+"id": "find-061",
+"rows_written": 7,
+"websites_found": 7,
+"checked": 24,
+"notes": "Output written to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-061.json with 7 rows, each read from the institution's own official site (address, phones, and email or hours where published). Municipal sites (lazarevac.rs, lebane.ls.gov.rs) and the Lazarevac education page list institution names without contact data, so they gave no answers. Not written: Knez Lazar, Mihailo Mladenović-Selja, Rudovci, Veliki Crljeni, Tehnička škola Kolubara (site is JS-rendered, no contacts readable), Happy house, Pčelica, Riznica, Raša i Maša, Mali drugari, Laza Maza, Naše malo kraljevstvo, Parkić, Akademija pčelarstva, specijalna bolnica, Dr Simić, Pet Vet, and the Lebane schools, library, cultural center, JKP and social work center. Searches for these returned only directories, or results for same-named schools in other towns. Lebane Predškolska \"Dečija radost\" was not found. The Lebane informator PDF could not be read."
+},
+"find-062": {
+"id": "find-062",
+"rows_written": 4,
+"checked": 38,
+"websites_found": 1,
+"notes": "Wrote 4 verified rows to db/contacts/search_2026-11-11/find-062.json: Osnovna škola Bora Stanković Bogojevce (own site osborabogojevce.nasaskola.rs, address and phone from kontakt.php), and three Dom kulture rows (Roma, Vučje, Grdelica) with address/phone from the Leskovac city directory (novi.gradleskovac.org/adresar/). Not found on official pages: hours for every row, websites for most, and the Lebane municipal list. Skipped: Gimnazija Lebane (its domain does not resolve), Gimnazija Gnjilane Šilovo (a Kosovo village), the Aca Sinadinović school (only a planplus directory entry), the Tehnološki fakultet (its official contact page would not load), the Leskovac public enterprises (only phones on the city list, no hours or sites), and the Historical Archive, pharmacies, hotels and the Sunčana jesen home (no official source reached). The Leskovac school contact-list PDF could not be read."
+},
+"find-065": {
+"id": "find-065",
+"rows_written": 20,
+"checked": 24,
+"websites_found": 1,
+"notes": "Wrote 20 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-065.json. Most rows (school and secondary-school phones, some addresses) come from the official City of Loznica page https://loznica.rs/zivot-u-loznici/obrazovanje-i-zaposlenost/ (founder's list). Only the Centar za socijalni rad has a website (https://csrloznica.org.rs/, its own site, which gives different address and phones than the municipal page, so its figures were used). Skipped: JP Vodoprivreda Loznica u stečaju and NNKC Tršić (no official page found), Aqualab (own site has no Loznica branch), Bueno and the other private clinics (directories only), Predškolska ustanova Mala Zvezda, Srednja škola Isidora, Srednja škola Konstantin, Akademija Konstantin, Elmik, Carski Konak, Svetionik, Dom za decu Vera Blagojević (no official source readable). Caveats: Ratarska bb (Klupci school) is published with place 15300 Loznica, kept as published. No hours were read on any official page, so none are included. Phones are the published landlines."
+},
+"find-067": {
+"id": "find-067",
+"rows_written": 5,
+"checked": 31,
+"websites_found": 2,
+"notes": "Wrote 5 of 40 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-067.json (valid JSON). Kept only rows where a needed field (hours, website, address or phones) was read on an official page: OS Nikola Đurković Feketić (website plus school address, phones, e-mail from the Mali Iđoš municipal Ustanove page), CSR Mali Zvornik (phone under the centre's description on the municipal page), JKP Čistoća Malo Crniće (phone and e-mail from the municipal page), CSR Malo Crniće (csrmc.org.rs: phone, e-mail, website), JKP Gradska toplana Niš (ni.rs enterprise page: address, phones, e-mail, website). Not resolved: most Malo Crniće schools, Medijana private practices and companies, and the Mali Zvornik library (only a children's-department hour, not library hours). Skipped Pozorište lutaka (no clean website or hours read), Vuk Karadžić Lovćenac (its site did not resolve), and Adi Endre (only a personal-looking site, no hours). Search snippets from directories (PlanPlus, ekapija) were not used. Stopped at about 31 tool calls because the remaining rows needed directory-only searches."
+},
+"find-066": {
+"id": "find-066",
+"rows_written": 16,
+"websites_found": 15,
+"checked": 40,
+"notes": "Wrote /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-066.json with 16 institutions (valid JSON, 15 with own website). Municipal pages (lucani.rs, majdanpek.rs/obrazovanje and /javna_preduzeca, maliidjos.rs ids 94/95) gave contacts for several rows; the rest were read on each institution's own site (edu.rs or company site). Left out: Goracici school (own domain does not resolve), Kotraza (only directory data), Dom za stare Beli Kamen, Regionalni centar za talente Loznica, Hotel Lucani and Hotel Nordic (directory data only), Poligon autoskola, Centar za socijalni rad, Centar za kulturu Majdanpek, Muzej, Narodna biblioteka Majdanpek, JKP Komunalac Lucani, Kulturni centar and biblioteka Guca, Dragacevo putevi, Centar za krompir, Centar za kulturu i obrazovanje DM, Upravljac Lepenski Vir, JKP Komunalac Majdanpek and the Mali Idjos library (no hours or website found). Skipped the 102-branch import in the parent message: it is outside this find-066 step and I did not touch the repository."
+},
+"find-064": {
+"id": "find-064",
+"rows_written": 10,
+"checked": 24,
+"websites_found": 10,
+"notes": "Wrote 10 of 40 rows to db/contacts/search_2026-11-11/find-064.json (valid JSON, verified). Each row has an official source page read: own school/company sites (rademetalac.edu.rs, tekstilidizajn.edu.rs, csuleskovac.edu.rs, akademijajs.edu.rs, 1300kaplaraljig.edu.rs, ossavakerkovic.edu.rs, jkpkomunalacljig.co.rs, bibliotekaljig.org.rs) and the Leskovac city page novi.gradleskovac.org/socijalna-zastita/ for the social work centre and the elderly institution. Skipped: Loznica rows (no official page found; hotels/pharmacies/agencies only had booking or directory listings); Ljubovija school (petarvragolic.edu.rs unreachable from here, and the row name differs); Ljubovija Poletarac kindergarten (aggregator only); Leskovac prison (uiks.mpravde.gov.rs unreachable); Trgovinsko-ugostiteljska Leskovac, Ivan-Vet, Centar za ekonomiku domacinstva, Ljig social work centre and OS Sestre Pavlovic (no official contact data read). Rade Metalac email omitted (page hides it in JavaScript). About 60 tool calls used of the 120 budget. Worth noting: the Ljubovija municipal site (ljubovija.rs) and Loznica city site (loznica.rs) list no contact data for the rows in our file."
+},
+"find-068": {
+"id": "find-068",
+"rows_written": 7,
+"checked": 30,
+"websites_found": 6,
+"notes": "Wrote 7 entries to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-068.json: KC Medveđa (own site kcmedvedja.rs), Medveđa municipal library (municipal page, no own site), OrthoSmile Niš (own site), Medigroup Nikole Pašića 28 (medigroup.rs location list, company call-centre number), KCN lab (kcnis.rs/kontakt, central switchboard, address left out), Hotel Onyx (own site), YugoLab Dušanova 63 (jugolab.rs/kontakt, matched by phone 018/410-3211 to the directory's Cara Dušana 63 entry, moderate confidence). Not found on official sources, so skipped: 4 Medveđa schools (no own site or contacts on the municipal pages), JKP Obnova (municipal page gives only the municipality's contacts), and the Medijana private clinics and dental offices (only directory listings; medvedja.org.rs is a parked domain, so the municipal site is medvedja.ls.gov.rs). Note: the municipal pages were not used for the school rows since they carry no school contacts. Did not touch the user's 102-branch import; that is outside this subagent step."
+},
+"find-069": {
+"id": "find-069",
+"checked": 40,
+"rows_written": 11,
+"websites_found": 8,
+"notes": "Wrote 11 of 40 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-069.json. Each row has at least one needed field read on an official page (own school site, or the founding municipality's mladenovac.rs pages). Eight rows give an own website (5 schools: Milan Rakić, Živojin Mišić, Srednja škola Mionica, Bora Lazić, Živomir Savković, Milica Milošević, Sveti Sava; plus Parking servis). The 4 municipal-page rows (JKP Mladenovac, SRC Gedža, Centar za kulturu i turizam, plus website-less ones) have no website. Municipal pages for Merošina and Mionica list institutions without their contact data, so no rows from them. Medveđa has no official site found (medvedja.rs does not resolve), and its school/social-work rows only had directory listings, which were skipped. Not found on official sources: Medveđa and Merošina rows, Mionica library/sports/veterinary/hotels, Mladenovac private preschools, Desanka Bogavac school, Dom za stare, Gerontološki centar, Muzička škola, Bisa Simić school (site had no contacts). Hours were not read on any official page, so none were written. The JKP Mladenovac address is the first address on its municipal page; the page also lists Janka Katića 6 for the municipality, so confirm. Budget used about 50 of 120 tool calls."
+},
+"find-063": {
+"id": "find-063",
+"rows_written": 20,
+"checked": 40,
+"websites_found": 20,
+"notes": "Wrote 20 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-063.json (validated JSON). Every row has a website or address/hours read on the institution's own site; school sites were found via edu.rs-filtered search and read directly. Skipped: Branko Radičević Brestovac, Desanka Maksimović Grdelica, Josif Pančić Orašac, Milutin Smiljković Vinarce, Radoje Domanović Manojlovce, 11. oktobar, Vuk Karadžić Pečenjevce (site place and phone do not match the row), Muzička škola Binički (site returns HTTP 500), Hemijsko-tehnološka (site certificate/parking mismatch), Iskra medical, EVAgin, the six private preschools, Evropski pokret, SRC Dubočica and the sports DOO (no official site found). Used ~85 tool calls. The city education contact PDF (gradleskovac.org) was read for phones but it carries no field these rows needed, so it is not a source_url. Mobile numbers and personal emails were not used."
+},
+"find-070": {
+"id": "find-070",
+"rows_written": 12,
+"checked": 25,
+"websites_found": 10,
+"notes": "Wrote 12 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-070.json. Rows come from the official Mladenovac and Negotin municipal education/institution pages (negotin.rs/obrazovanje.htm, negotin.rs/informatori-javneustanove.htm, mladenovac.rs contacts) and the institutions' own contact pages (Gimnazija Mladenovac, Tehnička škola Mladenovac, Istorijski arhiv Negotin, Fakultet sporta i fizičkog vaspitanja Niš). Fakultet zaštite na radu Niš has only the website, because its contact page was garbled. Not written: Stomatologija Pantić, Hotel Beograd, Vita Sana Pharm, Viva, Komrad MVP, Awork, Okružni zatvor, Fond za razvoj, Centar za socijalni rad, PSSS Negotin, and others where only directories or no official source turned up. Hours were not found on any official page, so none are included. Tool calls used: about 45 of the roughly 120 budget."
+},
+"find-071": {
+"id": "find-071",
+"checked": 36,
+"rows_written": 13,
+"websites_found": 13,
+"notes": "Wrote /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-071.json with 13 rows, each with a website read on the institution's own site. Covered: 7 Niš University faculties (Filozofski, Pravni, GAF, Mašinski, Medicinski, Elektronski, PMF), Gerontološki centar (gcnis.rs), and hotels Ambasador, Helm, Lotos, Lux&spa Zen, Rile Men. Not written: Fakultet umetnosti and Ekonomski (official domains unreachable, DNS/connection failures), most hotels (no own site reachable; the aggregator-only results were skipped), the Niš public enterprises, Muzička škola, SKC, and Veterinarski institut (no official site found). The budget was not spent. Hours were read for only Helm and Lotos (00-24). Several faculty and hotel rows have no hours because none were published on the pages read."
+},
+"find-072": {
+"id": "find-072",
+"rows_written": 18,
+"checked": 30,
+"websites_found": 18,
+"notes": "Wrote 18 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-072.json, each with the institution's own website and a source_url of a page actually read (school contact pages, the Zavod's sudmednis.rs/kontakt, Carica Jelena's o-nama page). Not written: Sreten Mladenović-Mika (smmikanis.edu.rs does not resolve), Ratko Vukićević and Apelaciono javno tužilaštvo (expired/mismatched TLS certificates, so not read), Vuk Karadžić Niš (no Niš school site found), Prokopović and the private kindergartens and adult-education providers (only directory listings found, which are not allowed sources). The municipality shortcut did not help: ni.rs has no school list with contacts, so every row was resolved institution by institution. Hours were not published on any page read, so no hours were written. Several contacts came from a search snippet and were confirmed on the fetched page; the Ivo Andrić email was read on the official page."
+},
+"find-075": {
+"id": "find-075",
+"rows_written": 9,
+"checked": 40,
+"websites_found": 9,
+"notes": "Wrote 9 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-075.json, each read from an official page: Kancelarija za KiM (kim.gov.rs), MPŠV Uprava za šume (upravazasume.gov.rs/kontakt), Građevinska direkcija Srbije (gds.rs), Srbijavode, Skijališta Srbije, Veletržnica Beograd, Jugoimport-SDPR, Borbeni složeni sistemi, PMC Inženjering. Skipped: Air Serbia (airserbia.com returned 403 to both WebFetch and curl), Slobodna zona 2015 (no official source found), Bg Hala (no match; the hall is a different entity), Direkcija za humanitarno deminiranje, Bebi servis, JP Skloništa, Mreža-Most, Aviogenex (only directory or stale sources), and the rest of the small d.o.o. and SPV shells (no official site found in searches). Hours left out everywhere: no official page gave days with hours. Stopped early at about 40 tool calls, well under budget. Did not touch the haiku-agent or branch import part of the request, which is outside this subagent step."
+},
+"find-077": {
+"id": "find-077",
+"rows_written": 2,
+"checked": 14,
+"websites_found": 1,
+"notes": "Wrote 2 of 40 rows to db/contacts/search_2026-11-11/find-077.json. Tehnička škola \"Novi Beograd\" (Omladinskih brigada 25): address, two phones and website https://www.tehnicka.rs read on tehnicka.rs/kontakt. Deseta gimnazija \"Mihajlo Pupin\": address read on the municipal list novibeograd.rs/srednje-skole/; its phone was left out because that page omits the area code, and its own site (xgimnazija.edu.rs) failed with an expired certificate, so no website. Not written: the rest were directories or no official source found in one to two searches each. Blocked or empty: novibeograd.rs (no school contacts beyond the lists), the Sports Centre (no contacts found, company reorganised), and private dental, adult-education and accounting rows (only directory listings such as planplus). The search budget was not spent; I stopped once the yield was clearly nil. Tool note for the parent: WebSearch returns almost only directory sites for private businesses in Novi Beograd, so the official-source rule leaves most rows empty."
+},
+"find-073": {
+"id": "find-073",
+"rows_written": 12,
+"websites_found": 8,
+"checked": 25,
+"notes": "Wrote 12 verified records to db/contacts/search_2026-11-11/find-073.json. Each has a source on the institution's own site (sccair.rs, utsnis.edu.rs, simfonijski.com, sigurnakucanis.rs, zavodtb.org.rs, hitnanis.org, medradanis.rs, studentskanis.rs) or on the Niš city site (ni.rs institution pages for Narodni univerzitet, Dom Duško Radović, Mara, Zavod za vaspitanje omladine). Narodni univerzitet has no website: the nunis.edu.rs domain did not resolve. Not found or unverifiable: Nova Crnja municipality pages list schools with no contact data, the JKP 8. Avgust site is unreachable, and the Niš schools (Elektrotehnička, Muzička, Bubanj, Ugostiteljsko-ni already done) have no reachable own site from search. Niška Banja and Sićevo primary schools, Srpska Crnja library, Kazneno-popravni zavod and the dental clinic only appeared in directories, so they were skipped. Municipal pages for Nova Crnja and Niš were read; the Niš city site has per-institution pages, but the Niš Čair and Narodni univerzitet contact blocks sat past the first 100k characters."
+},
+"find-078": {
+"id": "find-078",
+"rows_written": 8,
+"checked": 36,
+"websites_found": 2,
+"notes": "Wrote 8 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-078.json (valid JSON, checked by parse). Sources read: novibecej.rs \"Javna preduzeća i ustanove\" page (phones and addresses for 5 Novi Bečej institutions and the public utility), the library page, the Srednja škola's own contact page (site srednjaskola-novibecej.edu.rs, address, phone, e-mail, hours), and premiumdental.rs/kontakt (Novi Beograd). Only Premium Dental and Srednja škola have a website in the output. Not found on official sources, so omitted: Novi Kneževac institutions (the municipality site gives only its own contact PDF; no school, library, or enterprise contacts), Osnovna škola Bočar and Novo Miloševo (no own site found), Miloje Čiplić and Josif Marinković (phones only from the municipality list, no site or hours), the Novi Beograd veterinary and other clinics (only PlanPlus directory listings, which are excluded), Vigor dent, Smile In Dental (domain does not resolve), the Institut za rani razvoj, Centar za brigu, and Turistička organizacija (no official page found). Hours were published on only one page, so most rows have no hours. Did not spawn sub-agents, did not touch other repo files."
+},
+"find-080": {
+"id": "find-080",
+"rows_written": 3,
+"checked": 24,
+"websites_found": 1,
+"notes": "Wrote 3 of 40 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-080.json, all read on official pages: Kancelarija za mlade and Centar za decu i omladinu Duga (novipazar.rs javne-ustanove list), and the CSR-linked Pomoc u kuci service (csrnovipazar.org.rs: address, phones, hours, site). The city site lists no schools, and the school searches returned only directories (planplus, 011info-type listings), so the ~30 school and private rows are unanswered. Not found on any official source: Zavod za javno zdravlje, Gimnazija, Medicinska, Tehnicka, and other secondary schools. Used about 24 tool calls of the ~120 budget; the batch was stopped early because official school sites did not surface in search."
+},
+"find-079": {
+"id": "find-079",
+"rows_written": 6,
+"checked": 46,
+"websites_found": 5,
+"notes": "Wrote 6 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-079.json (valid JSON, checked with python3). Each row cites a page I read. Found: Gimnazija \"Dositej Obradović\" Novi Kneževac (own site ssdonk.edu.rs, phone, address); OŠ Jovan Jovanović Zmaj (jjzmajnp.edu.rs, 3 phones, no hours); OŠ Bratstvo (bratstvo.edu.rs, 2 phones); OŠ Halifa bin Zaid Al Nahjan (own site; the school's page gives Dojeviće bb, not the Rajčinoviće address in our row, so check the place before use); Opšta bolnica Novi Pazar (obnp.co.rs, phone, address; hours omitted because only a director reception time was shown); Domsko odeljenje pri Centru za socijalni rad (phones from csrnovipazar.org.rs, no address or hours). Not found: most private pharmacies, hotels, agencies, and the municipal-company rows (only booking or directory sites came up); the Novi Pazar municipal site lists public enterprises and institutions but no phones for the rows. About 16 rows still unanswered. Budget was about 46 tool calls of 120, stopped because further searches were not producing official sources. Note: the request also asked to import 102 branches and to use cheap agents; this subagent only did find-079 and did not touch branches."
+},
+"find-081": {
+"id": "find-081",
+"rows_written": 8,
+"websites_found": 8,
+"checked": 17,
+"notes": "Wrote 8 rows to db/contacts/search_2026-11-11/find-081.json, each from an official page I read: Pokrajinska vlada (website), Filozofski fakultet (website), FLV (phones, hours, email, website), Medicinski fakultet (address, phones, email, website), Fakultet sporta (address, phone, email, website), Direkcija za robne rezerve (address, phone, website), Pravni fakultet za privredu i pravosuđe (phone, website), Skupština AP Vojvodine (address, phone, email, website). Not written: the Poljoprivredni fakultet (polj.uns.ac.rs unreachable), the Centar za socijalni rad, the Dom Milka and Apoteka Novi Sad (no official site found; directory listings rejected), the Služba skupštine (no separate official source), the Pravobranilaštvo (no reachable site), and all private agencies and auto-schools (no official site surfaced in searches). No office hours were published on the official pages checked except FLV's general Mon-Fri 09:30-16:00 line. Tool calls used: about 45 of the roughly 120 budget. Note: the Pokrajinska vlada email (a gmail press-office address) was left out."
+},
+"find-076": {
+"id": "find-076",
+"rows_written": 17,
+"checked": 27,
+"websites_found": 16,
+"notes": "Wrote 17 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-076.json (valid JSON). Municipal shortcut: novibeograd.rs education, culture and contact pages gave phones and addresses for the schools and NBKM; each school's own site (edu.rs or similar) was then read for website, phones and e-mail. Websites found for 11 schools, Muzej savremene umetnosti (msub.org.rs; the row is named \"Fondacija\" and the match to the museum is an assumption), Aqualab (Pupina 115a branch), Konzilijum (MediGroup site, two branches), Alfa Medica. Phones use 011 prefix added to the number as published on the page (Belgrade landlines). Not resolved: Pinokio (no official site, only directories), Extreme kids (bankrupt, skipped), Predškolski dispanzer, Prof. Stefanović, Leona life, Mala lala, Beo-lab, Jolie, Bionova, Finpos, Poliklinika 011, West Medic, Family Medica, Vaša mala klinika, Sans Medic, Dr Hajder, Aktiva nova, Beta In, Dradejd, Kairos, Misataur, Plus, Evropska banka (no official site or contacts read; directories only). Hours left out where the page did not give days; Radičević hours sit behind an unfetched subpage. Konzilijum Gandijeva row matched on hours; its address is inferred from the MediGroup list. Cache: several school contact pages were read via curl; the Kneginja Milica site has an expired certificate on https, so the http contact page was used. Budget spent roughly 75 tool calls."
+},
+"find-074": {
+"id": "find-074",
+"rows_written": 9,
+"checked": 24,
+"websites_found": 4,
+"notes": "Wrote 9 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-074.json. Websites found for 4 (Srednja škola Nova Varoš srednjanv.edu.rs, Srednja škola Srpska Crnja ssdjurajaksic.edu.rs, KZBPD kzbpd.gov.rs, Rezervat Uvac uvac.org.rs); the other 5 rows came from the Nova Varoš municipality's public-enterprise page (address/phone only, no website). Not found: Srpska Crnja primary school (own site refused connection; Nova Crnja municipal school page gave no data), Gojko Drulović (own site has no contact data), Senekta, Novi Beograd driving schools and agencies (only directory listings), Predškolska ustanova website, hotels, deponija, sports centre. Hours were not written: no source gave days plus hours for these institutions. Conflict: CSR Nova Varoš address on the ministry list (Karađorđeva bb 34) differs from the municipal page (Svetog Save 16); the municipal page was used."
+},
+"find-086": {
+"id": "find-086",
+"rows_written": 2,
+"checked": 24,
+"websites_found": 1,
+"notes": "Wrote 2 of 40 rows to db/contacts/search_2026-11-11/find-086.json. Jugolab (jugolab.rs homepage): website, central-lab phones and email, read on the official page; not tied to the branch row's hours or address. Klinika za neurohirurgiju: KCV clinic page gives only the general centre phone 021 48 434 84, so it is a fallback number; website left out because it is a department of KCV. Skipped: about 38 rows. Most are private clinics or schools where search returned only directories (planplus, 021.rs, yandex maps), or where the official page was not reachable (jugolab /lokacije 404, kcv clinic slugs 404, lks.rs parked domain). The Novi Sad schools (Car Konstantin, Petar I, Elitna) found no official site. The KCV clinics typed as private (urology, radiology, plastic, intensive care) are in the same position, and urology's clinic-specific numbers (021 484 3681, 021 484 3720) were skipped due to a name mismatch with nuclear medicine. Budget used: about 24 tool calls of 120."
+},
+"find-082": {
+"id": "find-082",
+"rows_written": 22,
+"websites_found": 20,
+"checked": 40,
+"notes": "Wrote 22 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-082.json (valid JSON, all from official pages I read). Not found on an official page, so omitted: Garden, Fontana, Duga, Garson Lux, Premium, Pupin, Sole Mio, Vila Moskva, Prezident (the only official site found is in Ivanjica, a different hotel), Produktna berza, IRI for AI, RRA Backa, Fond za izbegla, Centar za poljoprivredu, Centar za lovstvo, Agrar Produkt, Des DOO, Magyar Szo. No municipal listing page was used because the rows are mostly hotels and provincial bodies, not municipal schools. Hotel Mediteraneo \"sprat\" row duplicates the main address and carries the same data. Sheraton's source is the Marriott property page (no root website). 11 tica has an email and a published mobile but no site."
+},
+"find-088": {
+"id": "find-088",
+"rows_written": 0,
+"checked": 13,
+"websites_found": 0,
+"notes": "Checked 40 Novi Sad rows (private kindergartens, accounting agencies, adult-education organizers, one audit firm). Found no official website or official-page contact data for any row. Municipal and city pages (novisad.rs, Ministry verified-preschool PDF) did not yield readable rows: the PDF text is font-encoded and not extractable. Search results for these names return only directories (planplus, 021.rs news), which are not allowed as sources. Output file written as [] at /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-088.json. Stopped early after about 13 tool calls of the 120 budget because further searches were not yielding official sources. A next pass would need the institutions' own sites or the Ministry registry in a text-readable form."
+},
+"find-087": {
+"id": "find-087",
+"rows_written": 3,
+"checked": 14,
+"websites_found": 3,
+"notes": "Wrote 3 of 40 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-087.json, each read from the institution's own contact page: Gimnazija Smart (smart.edu.rs/kontakt), Gimnazija Tvrđava (gimnazijatvrdjava.edu.rs/kontakt), E-gimnazija (e-gimnazija.edu.rs/kontakt, Radnička 20 main site). The other 37 were not answered: the municipal shortcut yielded nothing (novisad.rs gave no school list), Clever School's domain returned 404, and searches for the remaining schools and private kindergartens surfaced only directories (planplus, 021.rs, 021.rs-style aggregators), which are excluded. Budget used was about 37 of 120 tool calls. Verifying the 40 rows would need the Ministry register or a per-institution site guess."
+},
+"find-083": {
+"id": "find-083",
+"checked": 27,
+"rows_written": 15,
+"websites_found": 15,
+"notes": "Wrote 15 entries to db/contacts/search_2026-11-11/find-083.json (valid JSON, rewritten in full). Municipal list pages novisad.rs/articles/46 and /articles/47 supplied the websites for the JKPs and city institutions. Official contact pages supplied address, phones, email and hours for 11 of them (Informatika, Lisje, Regionalni centar, Zoohigijena, Tržnica, Stambena agencija, Zavod za kulturu Rusina, Garfond, NIV, Fond za poljoprivredu, NTP, Inkubator, Zavod Slovaka). Biosens has address only, FINS has website only. Not written, because no official contact field could be read: the three national councils (Slovak, Macedonian, Greek), Fondacije (Fundatio Ruthenorum, EPK, Grčka manjina), Razvojni fond APV, Kancelarija za inkluziju Roma, Vodoprivredno Šajkaška, Zvezda film, Poljoprivredna stanica, Distribucijagas and gas distributors (only Srbijagas head-office contacts found, not the subsidiary's), Novinsko-izdavačke ustanove, SPV Dunav/Tisa, Pokrajinski SES and Socijalno-ekonomski savet grada. Searches for these returned only directories or news snippets, which were not used. Zavod za kulturu Vojvođanskih Rusina: the contact page was read on zavod.rs. Tržnica hours are the cash-desk hours the page states. Shelter hours for Zoohigijena were left out because they are not institution-wide."
+},
+"find-084": {
+"id": "find-084",
+"rows_written": 25,
+"websites_found": 22,
+"checked": 40,
+"notes": "Wrote 25 of 40 Novi Sad rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-084.json, each from an official school, cultural-centre, theatre, library or city-portal page I read directly (22 with own website). Unresolved: Ivo Andrić Budisava and Branko Radičević (site certificate errors), Ivan Gundulić (domain does not resolve), Ljudovit Štur Kisač (only the parent school's page), Begeč (conflicting sources), Srpsko narodno pozorište (site under maintenance), Josip Slavenski and Isidor Bajić music schools, Baletska škola, Galerija Mamuzić, Mladost Futog (404), and the JKP and urbanism institutions."
+},
+"find-085": {
+"id": "find-085",
+"rows_written": 17,
+"websites_found": 17,
+"checked": 40,
+"notes": "Wrote 17 rows to db/contacts/search_2026-11-11/find-085.json, each backed by an official page I read (school sites on edu.rs, Vojvodina secretariat contact pages, Beo-lab official contact page). No office hours were found on any official page, so no hours were written. Not written: the Vasa Stajić Novi Sad school, Sveti Sava adult school, Republički zavod za sudska veštačenja, Apelaciono javno tužilaštvo (ns.ap.jt.rs cert mismatch on fetch), Jugolab, Artos, Egzakta, Euromedik, Ambulanta, Dr Vukoje, Dziniz, Interna klinika, Iuventa, Blok Yoga, Karadžić Ruža, and the Pokrajinski sekretarijati for education, higher education, culture, social policy, sport, urbanism, regional development and agriculture (phones only from the government directory, no official website or hours). Beo-lab row has the company website only, since the official page gives a Belgrade central number, not the Novi Sad branch."
+},
+"find-091": {
+"id": "find-091",
+"rows_written": 16,
+"checked": 40,
+"websites_found": 1,
+"notes": "Wrote 16 rows to db/contacts/search_2026-11-11/find-091.json. 13 Obrenovac rows take phones from the municipal \"Važni telefoni\" page (obrenovac.rs); 3 Obrenovac secondary schools also take address and e-mail from the municipal education page. Ratkovo school website comes from the Odžaci municipal institution page. Not written: Odžaci and Opovo municipality pages have no institution contact lists; the school sites that were linked (Cyrillic .edu.rs domains) did not resolve or gave no contact data; the Ratkovo school site has a certificate mismatch and was not read directly, and a TLS-bypass fetch was denied. Searches for Poletarac Odžaci, Jovan Jovanović Zmaj Odžaci, Tehnička škola Odžaci, Dom Ruža Jelena Opovo, OŠ Dositej Obradović, OŠ Zoran Petrović Sakule, Biblioteka Vlada Aksentijević, Narodna biblioteka Odžaci and CSR Osečina found no official contact pages. Opovo municipal kontakt page gives only the municipal address and phone."
+},
+"find-092": {
+"id": "find-092",
+"rows_written": 5,
+"checked": 24,
+"websites_found": 5,
+"notes": "Wrote 5 of 40 rows to db/contacts/search_2026-11-11/find-092.json, each with at least one needed field read on the institution's own official page: OVC Braća Nedić Osečina (ovcosecina.edu.rs/rs-latin/kontakt), PU Lane Osečina (lane.rs/?page_id=16), JP Putevi Beograda (putevibeograda.rs home), JVP Beogradvode (beogradvode.com home), Banka Poštanska štedionica (posted.co.rs home). Not written: the Osečina municipal site (osecina.ls.gov.rs) has no institution list; the Pecka school's own domain (osvmisicpecka.edu.rs) is suspended, so its data came only from directories; the Narodna biblioteka Osečina entry on nb.rs/adres was not reachable in the fetched text; the Institut IPN site fails TLS verification; Ada Huja, the two hotels, Dom Nada, Dom Sveti Nikola, the Belgrade and Niš schools, Zoovet, Adžić and the Auto-škole returned only directory listings or nothing official. The remaining bankrupt companies were not searched."
+},
+"find-093": {
+"id": "find-093",
+"rows_written": 6,
+"websites_found": 6,
+"checked": 27,
+"notes": "Wrote /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-093.json with 6 rows, each with its own site or an official page read: Stevan Sremac school (osstevansremac.edu.rs, phone and email from the school site), Braća Stamenković adult school, Trgovinska škola Niš (contact page), Tašmajdan sports centre (municipal sport page, site tasmajdan.rs), Euromedik Višnjička 72 (euromedic.rs/kontakt), Vizim Zdravka Čelara 14a (vizim.co.rs). Not written: the 12 Borča private kindergartens (no official source found; Pačija škola and Klincograd only had directory listings), Mašinska škola Niš (only a directory-listed masinskanis.com, not verified), and the private clinics, dentists, accountants and adult-ed firms (directory results only, no own site found). Municipal pages gave Palilula contacts for public schools but no hours; hours were left out everywhere. About 35 tool calls used of roughly 120."
+},
+"find-094": {
+"id": "find-094",
+"rows_written": 5,
+"checked": 24,
+"websites_found": 2,
+"notes": "Wrote 5 rows to db/contacts/search_2026-11-11/find-094.json. Sourced from the Pantelej municipal education page (pantelej.org.rs/obrazovanje/): OŠ Jovan Jovanović Zmaj Malča, OŠ Karađorđe Gornji Matejevac, OŠ Stevan Sinđelić Kamenica (phones and email, addresses where printed). Utva Avioindustrija (website utva-avio.com, footer address/phone/email) and Stomatološki fakultet Pančevo (stomatoloskifakultet.rs home and contact block). Not written: Palilula tourist organization (palilula.org.rs has no entry for it), Transnafta (site shows Novi Sad HQ, phone mismatch), ITR Tamiš (TLS cert expired), Nacionalni savet romske manjine, Pančevo city enterprises (only generic city contacts found), Villa Sfera, Dolina Sunca, hotels Grand Hedonist and Borneo, and the private vet, dental, dentist-adjacent, driving school and agency rows (directory listings only). Pančevo city site lists no entries for these. Of the 40 rows, 5 answered. Budget used: about 30 tool calls."
+},
+"find-089": {
+"id": "find-089",
+"rows_written": 21,
+"checked": 33,
+"websites_found": 21,
+"notes": "Wrote 21 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-089.json. Each row has a website and source_url read on the official page (schools on .edu.rs, public bodies on their own sites, Smartlab and Turisticka organizacija Vojvodine on their own domains). Only 1 school hours field was read on an official page (Sveti Nikola); no other hours were published on the pages read. Not written: the 17 dental practices (only directory listings surfaced, no official site found), Krug (krug.edu.rs certificate expired and the domain shows unrelated gambling content), Baletska skola, Azbukum (redirects to a different organization), Smart School New, Novosadski otvoreni univerzitet, Privredna akademija, and SOZE beauty (not searched). The municipal shortcut did not work: novisad.rs has no education or institution listing pages. Budget used about 97 tool calls."
+},
+"find-090": {
+"id": "find-090",
+"checked": 38,
+"rows_written": 8,
+"websites_found": 7,
+"notes": "Wrote 8 of 40 rows to db/contacts/search_2026-11-11/find-090.json, each with fields read on an official page: Akademija umetnosti (akademija.uns.ac.rs/kontakt), Pedagoški zavod Vojvodine (pzv.org.rs), Sterijino pozorje (pozorje.org.rs), PZZP (pzzp.rs/kontakt.html), Zavod za zaštitu spomenika kulture (novisad.rs city-founded institutions page), Spomen-zbirka Pavla Beljanskog (beljanskimuseum.rs/kontakt), Centar za socijalni rad (csrns.org.rs, website and phone only; its 2017 hours notice was left out as stale), Kolping (kolping.rs). Not written: the Obrenovac rows (municipal site gives only municipal contacts), Zavod za transfuziju krvi (no official site reachable, only news), Okružni zatvor, Dom Veternik, Zavod za urgentnu medicinu, Zavod za zdravstvenu zaštitu studenata/radnika, Klinika za dentalnu medicinu, VSO, Institut za nizijsko šumarstvo, Srpski centar za strip, and the veterinary, Helix, Ekumenska, Klupa, Dnevni boravak and Pomoć u kući rows, because searches returned only directories or news and guessed domains did not resolve. Stopped at about 60 tool calls with yield low. The Zanemarivanja row was skipped as a unit of the CSR with no separate site. Haiku was the model used for this subagent, per the request to use cheap agents."
+},
+"find-095": {
+"id": "find-095",
+"rows_written": 4,
+"checked": 24,
+"websites_found": 4,
+"notes": "Wrote 4 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-095.json. Main source: the Pančevo city directory (pancevo.rs/lokalna-samouprava/preduzeca-i-ustanove/) covered Autotransport (row in liquidation per the row name, still listed active in the directory) and OŠ Goce Delčev Jabuka. OŠ 4. Oktobar Glogonj came from its own site (4oktobar.edu.rs). Gradska biblioteka Pančevo came from its own contact page. Skipped: Branko Radičević (directory website dead), Dositej Obradović and Moša Pijade (site 404), Olga Petrov and Žarko Zrenjanin (directory address conflicts with row place), Borisav Petrov Braca (no own site found), Aqualab (own site lists no Pančevo branch), Euromedik, BioMedica, and the rest of the private clinics, the Veterinary institute, Ruska biblioteka and the non-directory companies (no official source found). Hours were left out where only a school site had them, because the source_url could not carry both pages."
+},
+"find-098": {
+"id": "find-098",
+"checked": 24,
+"rows_written": 9,
+"websites_found": 9,
+"notes": "Wrote 9 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-098.json, each with a website or contact fields read on the institution's own site (Pirot: Vuk Karadzic, 8. septembar, Dusan Radovic, Sveti Sava, Mladost, JP Plan, Tigar; Pecinci: Tehnicka skola, PU Kameni). Sveti Sava row has only the website, since its home page showed no contact data. Not written: Pecinci municipal pages (pecinci.org) for Uca, Diogen and Slobodan Bajic Paja gave address/phone only, which are not needed fields, and no hours or website, so they were skipped. Hotels and private firms had only aggregator listings, so skipped. Dom/Sos Decje selo, Gostuski music school, My Way, Crystal Event Center, Slobodna zona, Piroteks Triko and PSSS Pirot had no official source found. Municipal sites pirot.rs and pecinci.org were used as the founder's list pages. Hours were not published on any page read, so no hours were written."
+},
+"find-102": {
+"id": "find-102",
+"checked": 32,
+"rows_written": 9,
+"websites_found": 4,
+"notes": "Wrote /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-102.json with 9 institutions, each with a source_url on an official page. Sources: prokuplje.org.rs education, public-enterprise and contact pages; rakovica.rs guide and enterprise page. Websites set for Toplička akademija (toplicka.edu.rs), Tehnička škola 15. maj (ts15maj.edu.rs), KOC Toplica (koctoplica.rs) and JP Poslovni centar Rakovica (poslovnicentarrakovica.rs). Not found on an official page, so skipped: Hammeum hotel, JKP Hammeum, JKP Čistoća, Poljoprivredna stručna služba, Tihomir Stanković school, Turistička organizacija (the \"Turističko-sportska organizacija\" name did not clearly match), Dom za stare, Okružni zatvor (no address or hours), Sportski centar, Inkluzija danas, Udruženje obolelih, Sportsko-rekreativni centar Pionirski grad, and the Rakovica private practices and auto-schools (directories only). Municipal pages show phone numbers that conflict with some earlier data (for example OŠ Sveti Sava, Mala Plana, Vuk Karadžić); I used the detailed school list values. The Prokuplje municipal school email for Sveti Sava was malformed, so I left it out. Used about 32 tool calls of the 120 budget."
+},
+"find-096": {
+"id": "find-096",
+"checked": 30,
+"rows_written": 13,
+"websites_found": 9,
+"notes": "Wrote /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-096.json with 13 rows, all from pages read in this run (9 own websites: Mašinska, Medicinska, Sava Tekelija, Dom omladine, Gimnazija Paraćin, Orbis, Nikodent, Petrus, Biogor). Municipal sources used: paracin.rs (school, institution and enterprise pages) and pancevo.rs directory, but those mostly gave phones and addresses already in our data, so the Paraćin municipal rows got only a few new fields. Not found or skipped: Ekonomsko-menadžerska, Vizija, Kefalica, Mihajlo Pupin, Dobar saldo, Ivana 2014, ITECCION (site is JS-only), BMG Dental, Dr Aleksandra, the vet clinics, OS-Medica, KPZ Pančevo, Zavod za zaštitu spomenika, and the Pančevo Centar za socijalni rad (its directory address conflicts with our data). Donja Mutnica school site (mutnica.net) and Milenko Živković music school site were unreachable, so no website was given. Nikodent address skipped because the site lists two locations. Budget was used lightly, around 55 tool calls, because most unanswered rows are private practices with no findable site."
+},
+"find-103": {
+"id": "find-103",
+"rows_written": 4,
+"checked": 27,
+"websites_found": 4,
+"notes": "Wrote 4 rows to db/contacts/search_2026-11-11/find-103.json, each with a field read on the institution's own site: Viceroy Kopaonik (viceroyhotelsandresorts.com/serbia/contact), Hotel Putnik (hotelputnik.com), Gorski Hotel & Spa (gorskihotel.com/kontakt), Kraljevi Čardaci Spa (kraljevicardaci.com). Not written: the municipal sites (rekovac.rs, razanj.ls.gov.rs, raca.rs, raska.gov.rs) only gave municipality-level contacts or lists with no contact data for the target rows. School sites for Rača, Raška, Ražanj and Rekovac were not found or not reachable, and planplus-type directory numbers were excluded. Grand, Grey, Grey Family, Srebrna lisica, Nebeska stolica, Sedlo, Mamut, JAT, the Rekovac library, Rača library and the Rekovac social work centre had no official source found. Stopped at about 50 tool calls, short of the 120 budget, since further searches returned only directories."
+},
+"find-100": {
+"id": "find-100",
+"rows_written": 4,
+"websites_found": 2,
+"checked": 25,
+"notes": "Wrote 4 verified rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-100.json: two Požega schools (OŠ Emilija Ostojić, OŠ Petar Leković; own sites with address, phones, email), the Priboj Centar za socijalni rad (municipal page), and the Fap-Stan Priboj phone (municipal \"Važni brojevi\" page, phone only). Not found or skipped: all Preševo rows (municipal pages show only generic municipal contacts, no per-institution data); Požarevac Sportski centar (scpozarevac.com has an expired certificate, not used), KPZ Zabela and KPZ za žene (uiks.mpravde.gov.rs unreachable, no official contacts found), Crveni krst Požarevac (redcross.org.rs gives only Belgrade HQ), Dnevni boravak Požarevac (unit address and hours not published separately, CSR Požarevac hours belong to the parent centre), Požega CSR domsko odeljenje (no Serbian source found; search returned Croatian Požega). Hotels, auto-schools, private clinics, dom za stare Priboj, and Belom Uzići/razvojna agencija/JKP Skrapež vode had no official source reached. Budget used about 45 tool calls of 120."
+},
+"find-097": {
+"id": "find-097",
+"checked": 62,
+"rows_written": 16,
+"websites_found": 7,
+"notes": "Wrote 16 of 40 rows to the output file, each backed by an official page read: Paraćin municipal school and institution lists (paracin.rs), Petrovac na Mlavi municipal institution pages (petrovacnamlavi.rs), and the school sites on nasaskola.rs (Melnica, Rašanac, Burovac, Oreškovica), plus museumns.rs, leopoldns.com and atelje61.org.rs. Seven rows carry a website. Not written: rows with only directory sources (planplus, 011info, etc.), where no official page was reachable (Ranovac, Šetonje, Veliko Laole, Mladost, Oreškovica street, Sremska Kamenica and Petrovaradin institutions, Veliki Popovac, Šumenković home, Bella 1, Konak, Cvetić), and rows where the official site was blocked (atelje61 cert mismatch was bypassed via WebFetch on the non-www host). Hours were not published on any page read, so none were written. Source URLs are the exact pages read. Municipal institution pages were used as source for their founder-listed institutions, per rule 4."
+},
+"find-099": {
+"id": "find-099",
+"rows_written": 17,
+"checked": 31,
+"websites_found": 14,
+"notes": "Wrote 17 rows to db/contacts/search_2026-11-11/find-099.json (validated JSON). Sources: own school and institution sites (tsp.edu.rs, gimnazijapirot.edu.rs, srednjastrucnapirot.edu.rs, mlekarskaskolapirot.edu.rs, kraljaleksandarpo.edu.rs, stigskola.edu.rs, dositejobradovicplandiste.edu.rs, rra-bp.rs, galerijampb.rs, vsipozarevac.com) and the Plandište municipality's official public-enterprises/institutions contact page (plandiste-opstina.rs) for the Plandište rows. Gimnazija Pirot phones were left out because its home page states the phone numbers are not active. Hours are mostly missing because the pages gave no days. Not resolved: Požarevac schools (Desanka Maksimović, Vuk Karadžić, Miloš Savić Lučica, Dositej Obradović Požarevac: its annual plan PDF could not be read), private kindergartens, hotels, HR International, Ekonomska škola Pirot, Denta Golub, Udruženje Osveženje (no address read), Srednja medicinska Pavle Savić (only a differently named school found), PSSS Požarevac, Dom za stare, Medicina rada. Those had only directory listings (planplus, 011info-type sites) or no site found, so they were skipped. The Požarevac municipal site has no official institution list. Budget used: about 77 tool calls of about 120."
+},
+"find-101": {
+"id": "find-101",
+"rows_written": 11,
+"checked": 40,
+"websites_found": 10,
+"notes": "Wrote 11 rows to db/contacts/search_2026-11-11/find-101.json (valid JSON, validated). Each row has a source page I read: Priboj and Prijepolje municipal pages, plus institution-own sites (vukkaradzic.edu.rs, osdmpb.edu.rs, osblagojepolic.edu.rs, osmstikovic.edu.rs, osvalter.edu.rs, ossvetozarmarkovic-brodarevo.edu.rs, osboskobuha.edu.rs, svetisavapp.edu.rs, fap.co.rs). Caveats: the Nikola Tesla Banja row matches by name to the Priboj Spa school on the municipal page, but our data says settlement Mazici, so verify. Desanka Maksimovic hours were conflicting, so left out. Skipped: Prokuplje rows (commercial or no official source found), Prijepolje library, museum, dom kulture, CSR and sports institution (no official site reachable; prijepolje.ls.gov.rs links did not resolve), Prijepoljska gimnazija (site 404), Ekonomsko-trgovinska (no verified official site), Cirko school (official page places it in Velika Zupa, not our Kovacevac row), Sastavci school (no site found), Kratovo hours (not on page). Priboj municipal header hours (Mon-Fri 07:00-15:00) belong to the municipal administration and were not used for any institution."
+},
+"find-108": {
+"id": "find-108",
+"rows_written": 0,
+"checked": 40,
+"websites_found": 0,
+"notes": "Wrote [] to find-108.json. Checked all 40 rows via municipal pages (sjenica.rs, secanj.ls.gov.rs; smederevo.ls.gov.rs is blocked by a Loopia bot-check and was skipped) and about 12 searches. No row got a verified own website. The municipal lists name the institutions but give no website for them, and the Sečanj and Sjenica school rows are not on the official pages with contacts. Aggregator results (planplus, studyinserbia) were excluded. Remaining: the 7 Sečanj village schools, most Sjenica schools, and the Smederevo entities need their own sites or an accessible Smederevo municipal list. The \"import 102 branches\" and \"use cheap agents\" parts of the relayed request are outside this task and were not done."
+},
+"find-105": {
+"id": "find-105",
+"rows_written": 9,
+"websites_found": 9,
+"checked": 18,
+"notes": "Wrote 9 institutions to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-105.json, each with at least one needed field read on an official page (own site or the institution's own contact page). Skipped: Službeni glasnik (site not readable), Klinički centar TEC (no entry on KCS contact page), Gradski centar za fizičku kulturu (only directories and an unreadable city docx), Isidora Sekulić school (no official site found), Bella Clinic, Bebologija, Srbijakombi, Aqualab (official site lists no Savski venac branch), plus the remaining private clinics and small companies not searched within budget. Hours left out for Železnice, Telekom, Dunav, Srbijavoz, CRHOV (visit hours only), Euromedik and Beo-lab. Used about 45 tool calls of the roughly 120 budget."
+},
+"find-107": {
+"id": "find-107",
+"rows_written": 15,
+"checked": 31,
+"websites_found": 15,
+"notes": "Wrote /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-107.json with 15 rows, all from official pages: the Senta municipality education, culture and public-enterprise pages on zenta-senta.co.rs, the Sevojno school's kontakt page, and the Salaš Stanković hotel site. Each row carries a website, and address, phones or email where read. Not written: the Savski venac private dental and vet clinics, Sečanj schools and library (only directory listings or no official site found), Hotel Royal and Fantastico, Hotel Crveni cvet (not found), the Senta Kamerno pozorište and Centar za socijalni rad (no needed field read on an official page), and the Senta private practices and agencies. No hours were published on any official page read. The Senta municipality's listed info@ address is a mailto placeholder, so no municipal contact row was made. Not done: the 102-branch git import from the relayed request is outside this subagent step and was not touched. The run used about 35 tool calls."
+},
+"find-104": {
+"id": "find-104",
+"rows_written": 6,
+"checked": 40,
+"websites_found": 6,
+"notes": "Wrote 6 of 40 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-104.json. Qualified: Gerontološki centar Srem (own site gcsrem.co.rs: website, address, phone, email), OŠ Nebojša Jerković Buđanovci (own WordPress site: website, address, phone), Belgrade Waterfront (own site: website, phones), Infrastruktura železnice Srbije (infrazs.rs homepage: website only), Srbija Kargo (srbcargo.rs homepage: website only), JP Stambeno Ruma (stambenoruma.rs: website, address, phone, email). Not written: the municipal education and enterprise lists on ruma.rs (menu 31, 29) and rekovac.rs gave addresses and phones for many schools but no hours or websites, so those rows did not qualify under the needed-field rule; no official site or hours was found for the other Ruma, Rekovac and Savski venac institutions (search returned directories only; belex.rs and some domains had expired certificates or no DNS; gimnazija-ruma.rs did not resolve). Stopped at about 50 tool calls because remaining rows yielded only directory sources. Output had no hours because the pages read gave only visiting or class times, not office hours."
+},
+"find-106": {
+"id": "find-106",
+"rows_written": 17,
+"checked": 30,
+"websites_found": 0,
+"notes": "Wrote 17 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-106.json. 14 are Klinički centar Srbije (KCS) clinics read on kcs.ac.rs clinic pages (address Pasterova 2 per the KCS footer, or Dr Koste Todorovića 2 for neurology), with phones and some hours or e-mails. One is the Methodes FranklinCovey SRB office (franklincovey.com Serbia page, address and company phone). No website was set: the KCS clinics have no sites of their own, so kcs.ac.rs is the parent institution, and the FranklinCovey site is a global page. Not done: the Savski venac municipal site (savskivenac.rs) has no institution lists, so no municipal shortcut worked. The private clinics (Medicus, Milmedic, Bebologija, Prime Medical Kids, Total Lab, Pro Point, Karadaglić, Tiršova, VMC, West Medic, Dedinje urology and internal medicine) and the adult-education schools had only directory listings or nothing official, so they were skipped. Not verified: the Resavska 51 urology row, which is a professional association, not a clinic. The \"Urgentni centar\" row was not searched. Scratch: none. No sub-agents were used."
+},
+"find-114": {
+"id": "find-114",
+"checked": 29,
+"rows_written": 4,
+"websites_found": 4,
+"notes": "Wrote /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-114.json with 4 rows: Centar za socijalni rad (csr-starapazova.org, address, phone), Centar za kulturu (czkstarapazova.com, address, 2 phones, email), OS Milan Hadzic Vojka (skolavojka.edu.rs, website only), Tehnicka skola (tehnickapazova.edu.rs, address, phone, email). Sources are the institutions' own sites plus the Stara Pazova municipality's kontakt pages (starapazova.rs). Not found: hours for every row (no days/office hours on any official page read), and websites for most schools and private practices. Skipped: Anton Skala, Ekonomska Vuk Karadzic, Novi/Stari Banovci and Golubinci schools, Belegis school, Zlatna nega, Premium-lux, hotels, dentists and labs, since only directories or tourism portals answered. Library site redirected to a non-official domain (dozrel.com), and jupu.rs (JP Urbanizam) does not resolve. Hotel Srbija Lux and Vojvodina contacts came from tourism directories only, so they are left out. Budget used about 29 of about 120 tool calls."
+},
+"find-112": {
+"id": "find-112",
+"rows_written": 11,
+"checked": 36,
+"websites_found": 7,
+"notes": "Wrote 11 of 40 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-112.json (valid JSON, verified). Sources were the Sopot municipality directory pages (sopot.org.rs/directory/...), the Srbobran municipal school page and the Zmaj school's own site footer. Sombor, Srbobran and Sopot municipal sites list few institutions with contacts. Skipped: most Sombor social-service, care-home, prison and private-school rows (no official page found; the prison's address was only in a search snippet and its PDF needed a certificate bypass, which I did not do); Vuk Karadzic Srbobran (no website or hours found); Narodna biblioteka Srbobran (no hours or website); Sopot Hill (phones only on a foundation site); Sara Dental, Crevar and the other private practices (no official source). Budget used about 36 tool calls, well under the 120 limit. The Haiku sub-agent did the work itself without spawning sub-agents."
+},
+"find-110": {
+"id": "find-110",
+"checked": 30,
+"rows_written": 13,
+"websites_found": 13,
+"notes": "Wrote /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-110.json with 13 rows, each with a website or contact field read on the institution's own site or the municipality's official page (smederevskapalanka.rs). Covered: 9 Smederevska Palanka schools and the gymnasium/technical school, 2 Sokobanja (OŠ Mitropolit Mihailo, PU Bucko), and 2 Sokobanja hotels (Zeleni grad, Sunce). Not written: OŠ Vuk Karadžić (site returned HTTP 500, address only in a search snippet), Okružni zatvor (site unreachable), Dom starih Smederevo, Centar Sunce, CSR Smederevska Palanka, Kulturni centar and Biblioteka (municipal page gave phones/address but no hours or own website), Brana Jevtić, Nikola Tesla Golobok, Muzička škola, Moravica, Sokoterme, Sky Panorama, Nikodijević, Podina, JP Palanka razvoj (no hours or website read). Hours were left out for most rows because the official pages gave no days or office hours. Source URLs are the exact pages read. The Mitropolit Mihailo phone and hours come from the school's secretary availability line. Search snippets were not used as sources. Haiku-tier agent used for this run, per the user's request."
+},
+"find-109": {
+"id": "find-109",
+"rows_written": 20,
+"websites_found": 20,
+"checked": 30,
+"notes": "Wrote 20 of 40 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-109.json, each with a site root and a source page I read. Not found: Smederevo city/municipal pages (smederevo.rs redirects to a Loopia placeholder), JP Gradsko stambeno, JP Urbanizam, JP Sportski centar, Centar za kulturu (sdkultura.org.rs unreachable), Branko Radičević (both rows), Dositej 00925, Heroj Sveta Mladenović, Svetitelj Sava Drugovac, Đura Jakšić, Jovan Zmaj only partly, plus the social-welfare rows (CZSŽ, Sunce, CP društvo, OJ Prihvatilište) and the Mala Krsna and Saraorci schools. Caveats: the Nušić page labels are garbled, so its phones are read but not role-labelled; the Zmaj page gives its two numbers under conflicting labels; the Vodanj phone is the data-protection contact line; the Ivo Andrić row has a phone only (the address was not read); the Kolari row has no street address (the page gives only the postcode and place); the Vranovo school address has no postcode; the Sv. Petka row appears under both school types with the same data."
+},
+"find-113": {
+"id": "find-113",
+"rows_written": 4,
+"checked": 40,
+"websites_found": 4,
+"notes": "Wrote 4 of 40 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-113.json: OŠ Jovan Jovanović Zmaj (sremskamitrovica.rs cat_id=214 for phones/email/address, zmajsm.edu.rs as website), ŠOSO Radivoj Popović Fruškogorska 73 (srp.edu.rs), Fakultet za menadžment Sremski Karlovci (famns.edu.rs, phones/email/address/service-desk hours), Hotel Premier Prezident (premierprezidenthotel.com, 24h reception). Not found or not verified: Stara Pazova rows are private agencies and not in the municipal directory; Sremska Mitrovica public enterprises (Sirmijum Put has no own site and no hours; Urbanizam, Agrobiznis, Brodogradilište Sava, Fond Atanasije Stojković, SPV Sava, Poljoprivredna stručna služba) had no official sites or hours found; Centar za socijalni rad Sava, Dom Oaza Silka, Caritas Sv. Anastazija, Wizita, Winnie the Pooh, Stonogica, Regionalni centar za talente, Srednja poslovno menadžerska škola had no official source; Kazneno-popravni zavod hours exist only in a search snippet from mpravde.gov.rs and the page returned 404 over plain HTTP, so it was skipped. Galerija Lazar Vozarević: lazarvozarevic.com does not resolve, so skipped. Private companies and hotels (Hotel Srem, vets, agencies) lack official sites in search results. Municipal directory pages are mostly the source for institutions; Stara Pazova directory (starapazova.rs/kontakt/javna-preduzeca-i-ustanove.html) carries no rows in this batch. Output file is valid JSON; no sub-agents, no .env or DB files touched. Ran about 40 tool calls of the ~120 budget."
+},
+"find-111": {
+"id": "find-111",
+"rows_written": 23,
+"checked": 40,
+"websites_found": 17,
+"notes": "Wrote /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-111.json with 23 valid entries (JSON validated). Sources: the Sombor municipal education page (sombor.rs/o-somboru/obrazovanje/) for 14 school addresses and phones, and each school's own contact page or home page for its website, address, phones, email and hours where it published them. Website found for 17 institutions (Sokobanja Nušić school, Hotel Barcode, Narodno pozorište, PSS Sombor, and 13 schools). Phones from the municipal page are given with a 025 area code added (the page omits it); the school-site numbers are used where they differ. Not found on any official page, so omitted: 9 employment agencies (commercial, no own site found), Apotekarska ustanova, Dom za stare, Hotel Andrić (directory listing only), Dp Boreli, Nacionalni savet nemačke manjine, Veterinarska stanica, Veterinarski specijalistički institut, Riđica, Telečka, Bezdan and Svetozar Miletić school websites, Aleksa Šantić and Konjović school websites. Hours found for one school only (Kolut and most others publish none). Directories (planplus, Wolt, companywall, Infostud) were not used as sources. Several school sites show address or phone conflicting with the municipal list; the school's own page was used in those cases."
+},
+"find-117": {
+"id": "find-117",
+"rows_written": 7,
+"checked": 24,
+"websites_found": 7,
+"notes": "Wrote 7 of 40 Subotica rows to find-117.json, each with a field read on the institution's own official page: Ekonomski fakultet (ef.uns.ac.rs), Učiteljski fakultet (magister.uns.ac.rs), Građevinski fakultet (gf.uns.ac.rs), Hotel Patria (hotelpatria.rs), Hrvatska Riječ (hrvatskarijec.rs), Panonreg (panonreg.rs), Fondacija Subotička sinagoga (suboticasinagoga.rs). Not done: the municipality's institution list was unreachable (subotica.rs cert expired, new.subotica.rs does not resolve), so the shortcut failed. Also unresolved: the elder-care homes, the Gerontološki centar (only planplus directory entries found), the hotels other than Patria (only booking aggregators, vilalagoresort.rs does not resolve), PSS Subotica (only planning PDFs, contact page 404), Bunjevački NS and Dunav-Tisa (no official contact page read). Tool calls used: about 35 of 120 budget."
+},
+"find-115": {
+"id": "find-115",
+"rows_written": 9,
+"websites_found": 9,
+"checked": 34,
+"notes": "Wrote 9 of 40 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-115.json: Zavod za udžbenike, Politika, Prosveta, Državna lutrija, Expo 2027, JKP Zelenilo, MediGrup Dorćol, HORES, RAREI. Each has a website and at least one needed field read on the institution's own page. The Stari grad municipality site (starigrad.org.rs) has Adresar and Vazni telefoni pages but neither lists schools, kindergartens or public enterprises, so no shortcut page answered rows. Not written: most remaining rows are private or bankrupt companies and adult-education centres with only directory listings; Viminacium (connection refused), Mostogradnja, Muzej grada Beograda and Dunav DPF (expired or mismatched certificates, curl also failed), Projektni biro, Zavod za izgradnju, Sunce CDP and Academia Educativa (no official source found). Roughly 60 tool calls used of the ~120 budget."
+},
+"find-116": {
+"id": "find-116",
+"checked": 40,
+"rows_written": 15,
+"websites_found": 10,
+"notes": "Wrote 15 entries to db/contacts/search_2026-11-11/find-116.json (valid JSON, all read from official pages). Ten have their own website; five Subotica elder-care homes (Anastazija, Kuća nege, Kingdom 2022, Pušin, Villa Ancora 1) got phones only from the Vojvodina provincial social-policy secretariat list, a supervising body's register, and carry no website. Klett row: site klett.rs belongs to Klett Izdavačka kuća Belgrade at the same Maršala Birjuzova 3-5 address, not confirmed as the EDU branch itself. Skipped with no official source: Frizerski edukativni centar, Idego, Institute Edepa, Savez za cerebralnu paralizu (only directories; address conflicts), White Dental Lab, Beovet, Vet Princess (domain does not resolve), Animus (domain does not resolve), Varoš Kapija (domain does not resolve), WHC (group site has no Subotica office), Othilia, Calidum, Raščanin hours, all Subotica driving schools, Floyd L, Kompas, Pink, Privatnik, Start, Stop, Volan, Joker, Fenix, Anderijašević, Dental plaza, Preduzeće Varoš Kapija. Stari grad and Subotica municipal sites were read: Stari grad site has no education or institution list; subotica.rs TLS certificate expired, and a curl retry with certificate checks disabled was denied, so it was not used. No hours were written where the page gave no days. Scratch files only under /tmp/reach/find-116/."
+},
+"find-118": {
+"id": "find-118",
+"rows_written": 21,
+"checked": 46,
+"websites_found": 19,
+"notes": "Wrote 21 rows to db/contacts/search_2026-11-11/find-118.json (valid JSON, 21 unique org_slugs). The main shortcut was the City of Subotica page subotica.ls.gov.rs/obrazovne-ustanove/osnovne-skole/, which gives address, phone, email and school website for 19 primary schools; those rows cite it as source_url. Narodno pozoriste (suteatar.org/lat/kontakt) is the only non-school row, with box-office hours. Not written: Veterinarska stanica, Veterinarski specijalisticki institut (vetzavod.com has no MB to confirm identity), Tržnica (site unreachable), Zavicajna galerija (no own site found), Socijalno-ekonomski savet, Hitna pomoc, Global, Davor Štefanek, Raičević ballet school, Vackor, Dambo, Mali talenti, and the private clinics Akumed, Medicin, Naltrex Zone, Optic Line, Rudolf (directory-only or no results). Phones on the municipal page carry no area code; 024 was added as Subotica's code. Hours were left out for schools because no school page gave office hours. Subotica.rs redirects to subotica.ls.gov.rs, whose TLS certificate fails for WebFetch."
+},
+"find-119": {
+"id": "find-119",
+"rows_written": 15,
+"websites_found": 14,
+"checked": 40,
+"notes": "Wrote /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-119.json with 15 rows (14 websites). Sources: the City of Subotica education list (subotica.ls.gov.rs/obrazovne-ustanove/ pages: srednje, osnovne, vise-skole, ostale-nastavne) and the Surdulica municipal pages (Javne ustanove list, homepage links). Excluded: conflicting values (Muzicka skola phones, Skolski centar email), private kindergartens, dental/vet practices, Gerontoloski centar, Caritas, Art bioskop, orchestra, Studentski centar, Surdulica Direkcija and Zastava Pes (nothing new on official pages). Flags: OiSS dr Svetomir Bojanin is matched by identical address to the city's \"OiSS Zarko Zrenjanin\" entry (renamed school, not confirmed on an official page); area code 024 added to local city numbers; Surdulica Dom website taken from the municipal homepage link and not opened (encoding failed); VTS website scheme assumed https; subotica.rs certificate expired, so the city's current domain subotica.ls.gov.rs was used."
+},
+"find-120": {
+"id": "find-120",
+"rows_written": 18,
+"checked": 25,
+"websites_found": 6,
+"notes": "Wrote /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-120.json with 18 rows from official pages: the Surdulica municipal \"Javne ustanove\" page, the Surčin municipal Adresar and Javna preduzeća pages, the homepages/contact pages of the library, cultural centres, health centre, JKP Surčin, and the Bora Stanković school in Jelašnica. Websites set for 6 rows (own site read). Not found on official sources: Gimnazija Svetozar Marković, Vlasina Okruglica and Božica schools, Belo Polje school, Naša radost kindergarten (two units, ambiguous address), Meliorvita, Westwork, Airport and S Klub hotels, Surčin GAS website (domain does not resolve), beg.aero (HTTP 403, skipped). Directory-only hits (planplus etc.) were not used. Not done: the relayed request about importing 102 branches and switching to cheap models is outside this subagent step, so I did not act on it."
+},
+"find-121": {
+"id": "find-121",
+"rows_written": 9,
+"checked": 26,
+"websites_found": 8,
+"notes": "Wrote 9 of 40 rows to db/contacts/search_2026-11-11/find-121.json, each from a page I read: OŠ Danilo Zelenović (Sirig), OŠ Kokai Imre (Temerin), OŠ Jovan Jovanović Zmaj, Srednja škola Svilajnac, Poljoprivredno-veterinarska škola (Svilajnac), Centar za kulturu Svilajnac, Ustanova sporta Surčin (matched by role to the Surčin municipal sport public enterprise, page surcin.rs/?page_id=3329, no website; flag for review), Zvončica (Surčin), Veseljko (Dobanovci). Not written: most Svilajnac village schools and the svilajnac.rs \"Važni telefoni\" page gives their numbers without an area code, so I left them out rather than add 035; Sunce moje, Suncokreti, BridgeTech, Zecon, Veba pharm, Divine Park, Tepić, Gergej, Semafor, Mareš, Agro Campus, Kulturni centar Temerin and Biblioteka Sirmai Karolj had no official page reachable (only directories). Slavko Rodić (Bački Jarak) has only a directory phone, so skipped. Hours omitted where no days were shown (Zmaj 07:00-18:00, Centar za kulturu box-office hours). Email for Zvončica is a personal-looking gmail address as published on the official site."
+},
+"find-122": {
+"id": "find-122",
+"rows_written": 16,
+"checked": 30,
+"websites_found": 10,
+"notes": "Wrote 16 verified entries to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-122.json. Sources were official municipal pages (trgoviste.rs/preduzeca_ustanove for 4 Trgovište public institutions and Predškolska Poletarac; trstenik.rs/ustanove for the Historical Archive phones) and the institutions' own sites (schools, PPT-TMO). Not found or not verified: Temerin social-welfare rows (no official page found), Titel and Topola private/enterprise rows (Izvor Šajkaš, Prostor, Kulturni centar, sports clubs, Agencija, Udruženje Koraci, Simpo, dentists, MediLab, Hotel Oplenac, Natalinci and Gornja Trnava schools (site 404/500), Trgovište Branko Radičević, Donja Šatornja hours), Trstenik Lavanda pharm and Holding Prva Petoletka. Hours were not published on any of the pages read, so none were written. Temerin municipal site temerin.rs and Titel opstinatitel.rs list no school contacts. Kralj Petar I Topola domain did not resolve. Output is a valid JSON array."
+},
+"find-126": {
+"id": "find-126",
+"rows_written": 15,
+"checked": 40,
+"websites_found": 1,
+"notes": "Wrote 15 of 40 rows to db/contacts/search_2026-11-11/find-126.json. 14 Užice public-hospital units (Zdravstveni centar Užice) got address and switchboard phone from zcue.rs/bolnica_uzice/, only where the page names a matching unit. JP Stan got website, address, phones and email from uzice.rs/javne_sluzbe/jp-stan/. Skipped the 25 private practices, private kindergarten (Kockica), accounting agencies and the medical-supply row: only directories (PlanPlus, Oko listings) or news turned up, and no official source. Apotekarska ustanova page does not match the medical-supply row, so it was not used. Hours left out everywhere (no page gave department office hours). The 14 hospital rows use the hospital switchboard, not a unit-specific number; the mapping of named units is by name match, so spot-check before loading. Budget used ~17 of ~120 tool calls."
+},
+"find-124": {
+"id": "find-124",
+"rows_written": 8,
+"checked": 24,
+"websites_found": 4,
+"notes": "Wrote 8 rows to db/contacts/search_2026-11-11/find-124.json, each with at least one needed field read on an official page (Ub municipal directory opstinaub.org.rs, Prvi Partizan, Park prirode Mokra Gora, AOFI, Hotel Siesta own sites). Tutin municipal site (tutin.rs) has no address/hours for its schools and no own school sites were found, so Tutin rows are left out. Uzice: Gerontološki centar Zabučje, Corun Holding, Dom za lica Tutin, Ub hotel and Ub Dom za stare Jana had no official source found. Rows left out of the 40 are those where only already-held fields or non-official aggregators were available. Caveat: \"Ustanova kulture\" row is matched to the Ub municipal \"Dom kulture\" entry (Vuka Karadžića 19) by name and place, not confirmed by its registry number."
+},
+"find-123": {
+"id": "find-123",
+"rows_written": 12,
+"checked": 40,
+"websites_found": 9,
+"notes": "Wrote /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-123.json with 12 rows (Trstenik and Tutin). Municipal sites trstenik.rs and tutin.rs gave the institution and public-enterprise lists and were used as source_url for the municipal-list rows. Own-site rows: the library in Trstenik, the Narodni univerzitet, JKP Energetika, JP Direkcija, Gimnazija Vuk Karadzic Trstenik, Gimnazija Tutin, OS Aleksa Djilas-Beca Mojstir, OS Aleksa Santic Crkvine, OS Rifat Burdzovic Trso. Skipped: OS Vuk Karadzic Tutin (osvuktutin.edu.rs did not resolve), OS Mesa Selimovic Ribarice and OS Ibrahim Bakic Leskova (no contact page found), OS Miodrag Cajetinac Cajka Trstenik (no own site found), the private clinics, pharmacies, hotels and bankrupt companies (no official source). Discrepancy: Energetika's own site gives Krste Bosanca 3 as its address, not the Krusevacki put bb in our data, so the own-site value was used. The Direkcija site gives Z. Apostolovica 8 while the municipal list says 4; the own-site value was used. Several rows lack hours because the pages gave none. The budget was not fully used."
+},
+"find-127": {
+"id": "find-127",
+"rows_written": 12,
+"checked": 30,
+"websites_found": 12,
+"notes": "Wrote 12 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-127.json (valid JSON). Covered: 5 Užice secondary schools (Ekonomska, Medicinska, Tehnička, Tehnička \"Radoje Ljubičić\", Umetnička) from their own sites, with address, phones, email; 3 Gradski centar za usluge socijalne zaštite rows (website lusz.uzice.rs only, no hours or address read); Remontni Centar (rc.edu.rs contact page, hours pon-pet 08:00-16:00); Estetika, PrimaDent and Caninus (own clinic pages). Caveats: the Ekonomska škola site is an archived old site that points to a newer official site I did not read; the Caninus row has only an address, since its phone was on a page not confirmed for Užice. Not found on official sources: Muzička škola, Mokrogorska škola menadžmenta, Adrasteia, Integrisani univerzitet, Trezor, Triben, Vizija, Smiledent (Belgrade site only), and most dental practices, where only directories turned up. Municipal sites uzice.rs (school and institution lists) were used as source for the institution sites. Stopped at about 56 tool calls, under the 120 budget, because the remaining rows had no official sources."
+},
+"find-125": {
+"id": "find-125",
+"rows_written": 16,
+"checked": 40,
+"websites_found": 15,
+"notes": "Wrote 16 of 40 institutions to db/contacts/search_2026-11-11/find-125.json (valid JSON, every row has org_slug and source_url). Each row has at least one needed field read on an official page: 9 schools and institutions (PSSS Užice, RRA Zlatibor, Kremna, Dušan Jerković, Karan, Slobodan Sekulić, Stari grad, Miodrag V. Matić, Prva OŠ, Ravni) and 6 private practices or labs (Dr Lune diagnostics, CentarLab, Jugolab, Artemida Medika, Kvant Expert, Dr Ješić practice). Skipped: the municipal urbanism directorate (no own site, municipal site not usable as its own), the two Aqualab rows (official page did not list a Užice location and the two rows could not be matched to a branch), the Dia Lab row (no Užice branch on official site), hospital departments (Akušerstvo, Anestezija, Hemodijaliza, Klinička patologija, etc.: zcue.rs gives only the hospital main address, which is not a department address), and about 12 private practices (Dr Gorica, Dr Ivčevski, Dr Mirković, Dr Pušičić, Dr Đorđević, Gino-M, DC Medic, Ginekološka ordinacija Filipović, Fiziomedic, Doktor Lune MR, the Mirković/Pušičić rows) where only directories or registries were found. The Dušan Jerković official page gives Trg Svetog Save 10, not the 22 in our data. The Karan school's official page gives no street, so its address is only \"31204 Karan\". Stari grad hours are the secretary's stated service hours (\"svaki dan 08:00-15:00\"). Budget used: about 62 tool calls of about 120."
+},
+"find-132": {
+"id": "find-132",
+"rows_written": 3,
+"checked": 40,
+"websites_found": 3,
+"notes": "Wrote 3 of 40 rows to db/contacts/search_2026-11-11/find-132.json, each with fields read on an official page: Sportski centar Voždovac (scvozdovac.rs home page, matched by name and place to the MB 07028873 row, registry number not confirmed on the site), Pedagoški fakultet Vranje (pfvr.ni.ac.rs contact page, no hours published), and Belgrade Open School (bos.rs contact page). Municipal sites vozdovac.rs and vranje.rs gave no phones or hours for the listed enterprises, and no schools or kindergartens appear in the rows. Private clinics, dental offices, vet clinics, hotels, kindergartens and driving schools returned only directory listings (planplus and similar), so they were skipped. About 35 tool calls used of the 120 budget."
+},
+"find-129": {
+"id": "find-129",
+"rows_written": 7,
+"websites_found": 7,
+"checked": 30,
+"notes": "Wrote /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-129.json with 7 rows. Sources: valjevo.rs secondary-education page (4 Valjevo schools, address/phones/websites), the Tehnička and Valjevska gimnazija school sites (address, phone, e-mail), Varvarin municipal \"preduzeca-i-ustanove\" page (JP Rasveta, PU Naša radost websites and addresses), and the Jovan Kursula school site (website only). Rasveta and Naša radost subdomains did not resolve from my fetch, so those websites are taken from the municipal page unverified; Poljoprivredna's own site showed no address or phone, so its website rests on the municipal page. No hours were found on any official page for these rows. Not found on official sources: Velika Plana has no institution list on velikaplana.rs (only municipal contacts), and the remaining rows (most of Velika Plana, Varvarin primary schools, Srednja škola Varvarin, Valjevo social-care and KPZ) had only directory hits, which I excluded."
+},
+"find-128": {
+"id": "find-128",
+"rows_written": 18,
+"checked": 30,
+"websites_found": 18,
+"notes": "Wrote 18 of 40 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-128.json. Most rows come from the Valjevo municipal primary-school list (valjevo.rs/osnovno-obrazovanje/), which gives websites, addresses and phones but no hours. Hours were read on only one school site (Milovan Glišić, Valjevo, pon-pet 08:00-20:00); the Milovan Glišić site address (Prva proleterska 6) conflicts with the row address, so the row address was left out. Websites for Ilija Birčanin, Nada Purić, Sestre Ilić, Zdravko Jovanović, Dragoljub Ilić Dračić and Vladika Nikolaj Velimirović's sites did not resolve or were not checked; those rows use the municipal list as source. Kolubara's website (stubo-rovni.rs) is taken from the municipal enterprise page. Not found on official pages: hours for most rows, Užice prison (Okružni zatvor), Gerontološki centar Valjevo, Ženski centar Užice, PSSS Valjevo, Zoo-vet, Agrorazvoj address-only, Regionalni centar za talente, hotels, Vladika Nikolaj Velimirović school website. Directories and aggregators were not used."
+},
+"find-133": {
+"id": "find-133",
+"checked": 24,
+"rows_written": 2,
+"websites_found": 2,
+"notes": "Wrote 2 of 40 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-133.json: Gimnazija \"Bora Stanković\" Vranje (vranjskagimnazija.edu.rs, address, two landlines, email, hours from the school's own footer) and Ekonomsko-trgovinska škola Vranje (ekonomskavranje.edu.rs, address, phone, email; no hours published). The city's public-institutions page (vranje.org.rs) lists only city-run institutions, not these schools or enterprises, so it answered no rows. The health centre, music school, Hemijsko-tehnološka škola, Vuk Karadžić, Dositej Obradović and Branko Radičević schools, the Romani cultural centre and the 30 remaining enterprises were not resolved: searches returned only PlanPlus and other directories, which the rules exclude, and guessed domains did not resolve. About 24 of the roughly 120 tool calls were used."
+},
+"find-135": {
+"id": "find-135",
+"rows_written": 0,
+"checked": 14,
+"websites_found": 0,
+"notes": "Output is an empty array. Checked the Vračar municipality site (vracar.rs home, /kontakt/, /index.php/vazni-sajtovi/): it has no list of schools, clinics or public enterprises, and its contact page carried unrelated pharma spam, so it was not used. About 20 WebSearch calls covered Ortho Art, Dent X, Hleb života, Ortho Art, Planmeca, Sveti Sava, Art Dental, Power of Communication, Be You Laser, Zdravo dete, Peyton, Kalenić Dent and Viktorija. Results were almost all commercial directories (planplus and similar), which are excluded. The one xdent.rs hit is at Karaburma, a different address, so it was not matched to Dent X at Golsvordijeva 29. Nothing met the official-source rule, so no rows were written. The budget was not spent. Nothing was fetched from the remaining rows."
+},
+"find-130": {
+"id": "find-130",
+"rows_written": 13,
+"checked": 38,
+"websites_found": 10,
+"notes": "Wrote 13 institutions to db/contacts/search_2026-11-11/find-130.json, each with at least one needed field read on an official page (own site, municipality site, ministry or ls.gov.rs). Ten have a website. Skipped the rest: directory-only results (planplus, Plan Plus-style listings) for pharmacy, vet stations, clinics, hotel, and the social-work centers in Velika Plana and Vlasotince; Dom zdravlja Vladimirci and CSR Vladičin Han, where only fields already held were confirmed; OŠ Branko Radičević (email only, no needed field); Pčelica preschool (no website or hours); Vlasotince KC and library (no hours or website on official pages); Vladimirci vet DOO, Volja za životom and the Fond (not found). Open issues: CSR Veliko Gradište gives no days for its hours, so hours were left out; Narodni muzej has conflicting hours and addresses on the municipal site, and I used the museum's own section."
+},
+"find-134": {
+"id": "find-134",
+"rows_written": 6,
+"checked": 38,
+"websites_found": 6,
+"notes": "Wrote 6 verified rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-134.json: CRLU Milunke Savić centre (city page + cszvr.org.rs), EMS (ems.rs/kontakt), Euromedik Slavija and Slavija 2 (euromedic.rs location pages), Direkcija za građevinsko zemljište (beoland.com), UAP (uap.gov.rs/kako-do-nas). Not found on official pages: the Vranje schools (Medicinska, Poljoprivredno-veterinarska, Tehnička), Vranjska Banja OŠ Predrag Devedžić and Korbevac, Dana dent, Vrh, Vračar clinics and agencies (Dermatokratija, Ego Aesthetics, Foot Clinic, Hrast, Entega, Livin, AMSS auto-škola), and the bankrupt Vračar public enterprises. The city of Vranje education page did not list the schools. Snippets and directories were not used. Stopped at about 38 tool calls of the 120 budget because search returned only directories for the remaining rows."
+},
+"find-131": {
+"id": "find-131",
+"rows_written": 20,
+"checked": 40,
+"websites_found": 17,
+"notes": "Wrote /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-131.json with 20 rows. Vlasotince schools (9 osnovnih, gimnazija, tehnička škola, SRC Vlasina) come from the municipal education page vlasotince.rs/obrazovanje/ (read verbatim), with the Tehnička škola read from its own site; Voždovac rows come from each entity's own site (JP Poslovni centar, Javno osvetljenje, JP Gradsko stambeno, OŠ Vasa Čarapić, OŠ Vuk Karadžić Ripanj, Medihelp, Euromedik, MediGroup). Not written: Auto-škole, Baromedic (site unreachable), NOMAD (unreachable), Des/EMS/Elektroizgradnja/Projektni biro (no official site found), Dom kulture Ripanj and Vojvoda Putnik Ripanj (no own site; Putnik only had a school letterhead in a Google Doc), dental practices, Tanja & Tijana, Udruženje/Osmeh, Dom zdravlja Ripanj, Hotel 1000 ruža, Inovacioni centri, Pr društvo. No hours were read for most school rows, so hours are left out. Several school websites (dobradovic, vukkaradzic, ossinisajanic) were unreachable from this session; their URLs are taken from the municipal list, not from a successful fetch. Budget used about 52 of 120 tool calls."
+},
+"find-136": {
+"id": "find-136",
+"rows_written": 15,
+"websites_found": 6,
+"checked": 40,
+"notes": "Wrote /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-136.json with 15 rows. Sources: vrbas.net education page (municipal list: addresses and phones for 9 primary schools, music school and 4. juli secondary school), official sites of the library, cultural centre, sports centre, social work centre, the Njegoš school and the Kragujevac hospitality faculty. Left out: most private hotels, vets, driving school, dental practice and Vračar clinics (only aggregator or directory results), the Gerontological Centre, Kozma i Damjan medical school, and the Kucura-tagged duplicate Bratstvo-Jedinstvo row (Vrbas-town school at Palih boraca 2 is listed municipally but its row is tagged Kucura, so not assigned). Library hours conflict: its kontakt page says pon-pet 08:00-16:00 (used), its radno-vreme page says 07:00-19:00 for Vrbas user services. Skolabjv.edu.rs did not resolve. Budget used about 40 tool calls. Not done: the branch import from the user request was not part of this subtask."
+},
+"find-138": {
+"id": "find-138",
+"rows_written": 10,
+"checked": 24,
+"websites_found": 10,
+"notes": "Wrote 10 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-138.json (valid JSON, verified). Each row has its own institution site read directly (contact pages or homepages): 7 Zaječar schools (Ljuba Nešić, Desanka Maksimović, Dositej Obradović Vražogrnac, Hajduk Veljko, Jeremija Ilić Jegor Rgotina, Đura Jakšić, Ljubica Radosavljević Nada), Vuk Karadžić Veliki Izvor, Mali Jasenovac (website and e-mail only, no phone or address on the page), and the Visoka škola Vršac college (uskolavrsac.edu.rs, matched to the VSVMŠ row; the page gives no address). The municipality shortcut failed: vrsac.rs, zajecar.rs and grad.vrsac.rs did not resolve, and the municipal search gave only news and directories. Not done: Izbište school (no own site found), Grljan school (dis.edu.rs returned HTTP 522 twice; its data came from a search snippet only, so it is excluded), Salaš hotel/school, Gerontološki centar Vršac, Apotekarska ustanova, muzička škola Mokranjac, Veterinarski institut, Fakultet za menadžment, and the private/company rows, which had no official site found. Roughly 52 of about 120 tool calls were used. Note: the Visoka škola Vršac match to the VSVMŠ row is by name and type, and the page gives no address. The hours field is empty for every row because none of the pages gave office hours."
+},
+"find-139": {
+"id": "find-139",
+"rows_written": 5,
+"checked": 40,
+"websites_found": 5,
+"notes": "Wrote 5 of 40 rows to db/contacts/search_2026-11-11/find-139.json (valid JSON). Answered from official school/institution pages: Medicinska škola Zaječar, Tehnička škola Zaječar, Ekonomsko-trgovinska škola Zaječar, CSR Zaječar (csrzajecar.rs/kontakt), Muzička škola Kosta Manojlović (kostaman.edu.rs contact page). Not found on official pages, so skipped: Gimnazija Zaječar (no site resolved), Zemun primary/secondary schools (municipal page gave addresses only, no phones/hours/sites; school sites not located), Zemunska gimnazija (site returns empty page), Okružni zatvor, Iv MZ Nikola Pašić, Ustanova za dnevni boravak (both Zaječar), Pomoć u kući (no own page read), Zemun public enterprises (directories only, no official sites), agencies and private clinics (no official sites found). The municipal sites zajecar.rs and zajecar.org.rs did not resolve. The Zemun municipal directory (zemun.rs) gave addresses for schools but no phones, hours or sites, so no rows were taken from it."
+},
+"find-140": {
+"id": "find-140",
+"rows_written": 3,
+"checked": 40,
+"websites_found": 1,
+"notes": "Wrote 3 of 40 rows to db/contacts/search_2026-11-11/find-140.json. Only three had an official source read: INEP (own site inep.ac.rs, seat address and two landlines from its Kontakt page, no email since the page's address was unclear), Apoteka Zrenjanin (address and phones from the Zrenjanin city address book, no website because apoteka.rs could not be confirmed), and Sportski centar Pinki (Zemun municipality address book, phones only, source is the municipal page). The municipality shortcut gave little: zemun.rs and zrenjanin.rs lists cover few of the rows. Most remaining rows (private clinics, dental and vet practices, the Zemun and Ugrinovci schools and kindergartens, Dom za odrasla invalidna lica, KBC Zemun) only surfaced in commercial directories (planplus, studyinserbia, dnb) or got no official hit, so they were skipped per the rules. About 40 tool calls used. The Ministry preschool PDF (prosveta.gov.rs) could not be read as text, so the Ugrinovci kindergartens were not checked against it. Not done: the git/branch import and haiku-agent deployment from the relayed user request, which are outside this step."
+},
+"find-137": {
+"id": "find-137",
+"rows_written": 10,
+"checked": 36,
+"websites_found": 10,
+"notes": "Wrote /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-137.json with 10 valid entries, each with its own official site and a page I read: Gimnazija VB, OŠ Mladost Vrnjci, OŠ Branko Radičević Uljma, UTS VB, OŠ Popinski Borci (hours pon-pet 08:00-18:00), Hotel Tonanti, OŠ Jovan Sterija Popović, OŠ Olga Petrov Radišić, OŠ Bane Milenković, Hotel Srbija Vršac. Not written: the municipal pages (vrnjackabanja.gov.rs) list Borjak, Beli Izvor and the stambena agencija with no site or hours; Merkur (vrnjcispa.rs is ambiguous as its own site); Lider S, Slatina, Zepter, Vrnjačke Terme, Helvecija, Gerontološki centar, Apoteka Vršac, Vilin Konjić, Naučno-tehnološki park, Enološka stanica, Nacionalni savet, Agrozavod had no official source found; Gudurica, Pavliš, Vraneši and Veliko Središte schools had no reachable own site (brankoradicevic.edu.rs did not resolve). Directory data (planplus, booking sites) was excluded. Vršac city site was not found, so no municipal page was used for Vršac. Not spent: the full ~120 tool-call budget (about 57 calls used)."
+},
+"find-143": {
+"id": "find-143",
+"rows_written": 13,
+"checked": 40,
+"websites_found": 11,
+"notes": "Wrote /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-143.json with 13 rows, each backed by a page I read on the institution's own site or its parent's contact page. Municipal shortcut: zvezdara.rs has no full list of institutions (only Olimp), so the Pupin units got their phones and emails from pupin.rs/en/contact/ with no website, and no address since that page gives none. Skipped: the dental, vet, private-practice and adult-education rows (directories only, no official site found), Akademija Tehničkih Strukovnih Studija (name does not match the Politehnika site), BAPUS (no official site found), Institut za nacionalnu i međunarodnu bezbednost (nothing found), the faculty incubator, Imp Automatika-Security, Poslovni prostor Zvezdara and Academic Inclusive. Budget used: about 50 of 120 tool calls. Not done: the request to import the 102 branches and the Haiku-agent deployment are outside this subagent's task and were not touched."
+},
+"find-141": {
+"id": "find-141",
+"rows_written": 9,
+"checked": 40,
+"websites_found": 9,
+"notes": "Wrote 9 verified rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-141.json (valid JSON, checked by parsing). Rows: 5 schools, 1 school (Botoš), Gradska stambena agencija, Hotel Vojvodina (hours 00-24 from its own \"24h\" line), Vodoprivredno Srednji Banat; each has a website read on the institution's own site. Not filled: about 31 rows, because the city's directory pages (zrenjanin.rs adresar) give contacts without hours or websites, most Dom za stare and small firms have no findable official site, and several school sites publish no hours. Not done: the \"import the 102 branches\" part of the relayed request is outside this subagent task and was not touched."
+},
+"find-142": {
+"id": "find-142",
+"rows_written": 4,
+"checked": 22,
+"websites_found": 4,
+"notes": "Wrote 4 of 40 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-142.json: Dom zdravlja Zrenjanin (dzzrenjanin.rs kontakt page), Family Medica Zrenjanin (familymedica.rs unit page, with hours), Centar Most (website and address from zrenjanin.rs ustanove page), Rezervati prirode (website, address and phones from zrenjanin.rs ustanove page). The city adresar pages (zrenjanin.rs) covered the public schools and kindergartens, but they carry no websites or hours for the rows in this file, so none were written. Not resolved: most private clinics and shops (no own site found; directories excluded), Okružni zatvor (only directory listings found), Karitas (only a news article), Putevi Srbije (official contact page 404, and the row's DOO form does not match the JP), Pinokio, Gerontološki centar and Sportrehamedica. Budget used about 47 tool calls of about 120 and the remaining rows yielded nothing official. No sub-agents were used, and no files were touched except the output file and scratch."
+},
+"find-144": {
+"id": "find-144",
+"rows_written": 7,
+"checked": 38,
+"websites_found": 3,
+"notes": "Wrote 7 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-144.json (valid JSON, validated). Rows: 4 Ćićevac institutions (JKSP Razvitak, JP Putevi, Narodna biblioteka, Sportski centar) with address/hours/email from the official cicevac.rs contact page; Akademija Politehnika website from its own contact page; Hotel Palisad (own site palisad.rs, address and phones) and Grand Tornik (own site, address, email). Not found on official sources: Ćuprija municipal-site pages (cuprija.rs) gave no contact data for the rows; Čajetina municipal pages (cajetina.org.rs) list institutions by name only; Dom zdravlja Ćuprija, KPZ Ćuprija, Ustanova kulture, Veterinarska ustanova Napredak, Centar za socijalni rad Čajetina, Čajetina hotels Bor/Buket/Iris/Mir/Mons/Mona/Olimp/Mountain Resort/Agape, and Ćićevac primary school and Čarolija kindergarten had no official source reached (or the name/address did not match, so skipped). Hotel Olimp and Mona domains did not resolve. Budget used about 49 of 120 tool calls; stopped because the remaining rows yielded only directories."
+},
+"find-146": {
+"id": "find-146",
+"rows_written": 25,
+"checked": 38,
+"websites_found": 24,
+"notes": "Wrote 25 entries to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-146.json. Most came from the official city page cacak.rs/moj-cacak/obrazovanje/ (schools, kindergartens: website and address where needed). Culture institutions came from their own sites (museum hours, library hours, gallery and archive websites, Kulturni centar website). Not written: Gradska uprava za urbanizam (city page gives only the general city hours), Gradsko pozorište, Kosta Novaković, the private kindergartens, the two adult-education agencies, and Trnava/Bresnica website (not on a page read). Hours were left out where the page gave no days. Scratch files were not needed."
+},
+"find-148": {
+"id": "find-148",
+"rows_written": 5,
+"checked": 24,
+"websites_found": 5,
+"notes": "Wrote 5 of 40 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-148.json, each with fields read on the institution's own site or an official municipal/enterprise page: JP Poslovni centar Čukarica (jpcukarica.rs), JP Hipodrom Beograd (hipodrombeograd.rs, page does not mention Čukarica), OŠ Aca Milosavljević (osamrusanj.edu.rs), OŠ Branko Radičević Velika Moštanica (osbr.edu.rs), OŠ Dositej Obradović Umka (osdositejobradovic.edu.rs). Skipped the rest: the municipal (cukarica.rs) and Šabac (sabac.rs) pages gave no school, kindergarten or private-practice data; schools Duško Radović Sremčica, Vuk Karadžić Sremčica and Karađorđe Ostružnica had no own site found; private kindergartens, dental practices, Šabac agencies, pharmacies, hotels and the Gerontology Centre had only directory listings, which are excluded. Aca Milosavljević hours left out because the page prints conflicting hours. Used about 24 tool calls of the ~120 budget."
+},
+"find-147": {
+"id": "find-147",
+"rows_written": 11,
+"websites_found": 7,
+"checked": 40,
+"notes": "Wrote 11 institutions to db/contacts/search_2026-11-11/find-147.json, each with a field read on an official page: 6 Čačak secondary schools plus Economic school and Gimnazija (Čačak education page cacak.rs/moj-cacak/obrazovanje/, 7 with websites), 4 Čoka schools and kindergarten (coka.rs/obrazovanje, phones and address, no websites), and Lola institute (li.rs contact page, address and phones). Not written: the Čoka social work centre (its only contact block on coka.rs is the municipal office's, so it could be mistaken for the municipality's number), Dunav Auto (different legal entity), and rows where only aggregator or directory data was found (planplus, Dom Zlatno srce, Okružni zatvor, Institut za voćarstvo, Europolis, Quantox, Sportski centar Mladost, Centar za negovanje tradicije, Regionalni centar za talente, Radibratović, Crveni krst Čoka, Ostojićevo school phone). WebSearch returned few official sites; the budget was roughly 45 tool calls of the ~120 allowed. Municipal sites checked: cacak.rs, coka.rs, cukarica.rs (dzcukarica.rs is the health centre, not the municipality)."
+},
+"find-152": {
+"id": "find-152",
+"rows_written": 0,
+"checked": 1,
+"websites_found": 0,
+"notes": "The target file holds one row: Turistička organizacija opštine Žitorađa (MB 18376377), needing website and hours. I read the municipality's official site (zitoradja.org, home, Kontakt and the Ustanove i javna preduzeća page). The tourist organization is not listed on any official page, and it has no site of its own in search results. The municipal hours and email belong to the municipality, not the tourist organization, so nothing was written. Output is an empty array at db/contacts/search_2026-11-11/find-152.json. Budget used: 4 searches and fetches of about 12 possible."
+},
+"find-145": {
+"id": "find-145",
+"rows_written": 14,
+"checked": 40,
+"websites_found": 11,
+"notes": "Wrote 14 of 40 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-145.json (valid JSON, verified). Sources were the municipal pages cajetina.org.rs node/938, 961, 1042 and cacak.rs/gradjani/javna-preduzeca/, plus each institution's own site (Tucović, Mačkat, Sirogojno, Radost, Ugostiteljsko-turistička škola, Grand Hotel Tornik, Sloboda, FTN, Agronomski fakultet). Hotels (President, Queen of Zlatibor, Zlatibor, Aveny, Castello, Royal Residence, Livade, and the rest), Apim Invest, TRK Zlatibor, the traffic-safety JP, Dom zdravlja Sirogojno, the Čačak agency and public-service rows, Pehar-Up, PSSS, NTP, Florent, the Vinijum home, Centar-Farm, the driving range and the Zlatiborski krug association had no official source reached: only booking or directory sites or a placeholder page (hotel-president.biz). Radost's address on its official page reads bb, which conflicts with our stored number 6, so I left address out. Tornik Sky row is matched to Grand Hotel Tornik at the same address (Alekse Popovića 2), name differs, so check it. Hours found for only two rows. Not run: the budget of about 120 calls was not used up. Also not done: the 102-branch import and the haiku deployment asked for in the user's request, which are outside this subagent task."
+},
+"find-151": {
+"id": "find-151",
+"rows_written": 0,
+"checked": 40,
+"websites_found": 0,
+"notes": "Output file is [] (valid JSON). Official pages read: zabalj.rs (directory, contact, JKP Vodovod, JKP Gradska čistoća), zabari.org.rs (7 institution pages), zitoradja.org (?page_id=1972 institution list, municipal contacts), zitiste.rs (budget-user list and municipal contact). None of the 40 rows had a needed field (hours, website, or the address/phones they lacked) on an official page, so none qualified. Zagubica has no official municipal site reachable (zagubica.org.rs is a parked domain; zagubica.rs and opstinazagubica.rs did not resolve). Planplus, WhatSchool and other directory hits were excluded. About 47 tool calls used of the ~120 budget."
+},
+"find-149": {
+"id": "find-149",
+"checked": 40,
+"rows_written": 22,
+"websites_found": 19,
+"notes": "Wrote 22 of 40 rows to /Users/djoni/Downloads/4 Personal & Side Projects/14 Side Projects/srbija-direktorijum/db/contacts/search_2026-11-11/find-149.json, each with at least one field read on an official page (own school, institution, company or hotel site, or the city/PSSS page for the museum and Dom kulture Prnjavor). Skipped: Zorka group and other bankrupt or unlisted companies (no official source), Muzička škola, Narodni univerzitet, Poslovni savetnik, Fondacija Vinaver, Ušće, Cinci Linci (registry shows closed), Srednja škola Zaslon (no own page found; the sepsab.edu.rs page is a different school), Slobodna zona (site returned HTTP 500), Regionalni centar (registry shows blocked), Veterinarska... and the municipal utilities JKP Deponija and Čistoća. Several schools show phones and emails only from the official site. Phones are landlines except Ninica's published number. The Šabac city page answered the museum and Dom kulture Prnjavor rows. The file changed on disk during the run (formatting only); I kept its content and appended."
+},
+"find-150": {
+"id": "find-150",
+"rows_written": 21,
+"websites_found": 14,
+"checked": 35,
+"notes": "Wrote 21 of 40 rows to db/contacts/search_2026-11-11/find-150.json, each read on an official page (sid.rs municipal listings and kontakti page, school and institution sites, csrsabac.org.rs, gerontoloskicentarsabac.rs). Websites are the institutions' own domains (14). Not answered: Šabac medical, agricultural, chemical-textile and applied-arts schools (no official site reachable or found), Caritas Šabac, Zorka, Svetlost, KPZ Šabac, Šid care homes, Hygia pharmacy, Morović military site, Hotel Dve kule, agencies. Several 429 responses from sid.rs were recovered via curl. Hours found only for Gerontološki centar Šabac; the Šabac social work center gives hours without days, so left out. Secondary-source directories (planplus, cybo, search snippets) were not used."
+}
+}

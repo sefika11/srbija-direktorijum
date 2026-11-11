@@ -1,0 +1,846 @@
+{
+ "id": "find-005",
+ "kind": "sites",
+ "title": "Bajina Bašta, Barajevo, Batočina",
+ "rows": [
+  {
+   "org_slug": "hotel-turist-bajina-basta",
+   "name": "Turist",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Bajina Bašta",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Svetosavska 95",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-vila-drina-perucac-perucac",
+   "name": "Vila Drina Perućac",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Bajina Bašta",
+   "settlement": "Perućac",
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Nikole Tesle bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-zepter-drina-bajina-basta",
+   "name": "Zepter Drina",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Bajina Bašta",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Vojvode Mišića 5",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "muzej-cirilice-bajina-basta",
+   "name": "Muzej Ćirilice",
+   "official_name": null,
+   "type": "Muzej / Arhiv",
+   "type_slug": "muzej",
+   "place": "Bajina Bašta",
+   "settlement": null,
+   "mb": "26200172",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "narodna-biblioteka-milos-trebinjac-bajina-basta",
+   "name": "Narodna biblioteka \"Miloš Trebinjac\"",
+   "official_name": null,
+   "type": "Narodna biblioteka",
+   "type_slug": "narodna-biblioteka",
+   "place": "Bajina Bašta",
+   "settlement": null,
+   "mb": "17044290",
+   "website": null,
+   "have": {
+    "address": "Vuka Karadžića 13",
+    "phones": "031 869048",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-sveti-sava-bajina-basta",
+   "name": "Osnovna škola \"Sveti Sava\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Bajina Bašta",
+   "settlement": null,
+   "mb": "07365063",
+   "website": null,
+   "have": {
+    "address": "Svetosavska 76",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatni-vrtic-predskolska-ustanova-kockica-bajina-basta",
+   "name": "Predškolska ustanova „Kockica“",
+   "official_name": null,
+   "type": "Privatni vrtić",
+   "type_slug": "privatni-vrtic",
+   "place": "Bajina Bašta",
+   "settlement": null,
+   "mb": "18826992",
+   "website": null,
+   "have": {
+    "address": "Spasoja Ivanovića 7",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "usluga-socijalne-zastite-udruzenje-dece-sa-smetnjama-u-razvoju-i-njihovih",
+   "name": "Udruženje Dece SA Smetnjama U Razvoju I Njihovih Roditelja",
+   "official_name": null,
+   "type": "Usluga socijalne zaštite",
+   "type_slug": "usluga-socijalne-zastite",
+   "place": "Bajina Bašta",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Vojvode Mišića bb",
+    "phones": "031 866366; 065 4823456",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "usluga-socijalne-zastite-udruzenju-dece-sa-smetnjama-u-razvoju-i-njihovim",
+   "name": "Udruženju Dece SA Smetnjama U Razvoju I Njihovim Roditeljima Bajina Bašta",
+   "official_name": null,
+   "type": "Usluga socijalne zaštite",
+   "type_slug": "usluga-socijalne-zastite",
+   "place": "Bajina Bašta",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Vojvode Mišića bb",
+    "phones": "031 866366; 064 1195435",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "dom-za-stare-ustanova-socijalne-zastite-za-smestaj-i-negu-starih-lica-long-life",
+   "name": "Ustanova Socijalne Zaštite ZA Smeštaj I Negu Starih Lica \"long Life\" Dom ZA Smeštaj Odrslih I Starijih Lica \"long Life\"",
+   "official_name": null,
+   "type": "Dom za stare",
+   "type_slug": "dom-za-stare",
+   "place": "Barajevo",
+   "settlement": "Beograd",
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Ibarski put br. 75",
+    "phones": "069 3540003",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-knezevina-vranic",
+   "name": "Kneževina",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Barajevo",
+   "settlement": "Vranić",
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Bratstva I Jedinstva 72",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-10-oktobar-barajevo-barajevo",
+   "name": "Javno komunalno preduzeće 10. Oktobar Barajevo",
+   "official_name": null,
+   "type": "JKP Čistoća / Komunalac",
+   "type_slug": "jkp-cistoca",
+   "place": "Barajevo",
+   "settlement": null,
+   "mb": "07006578",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "centar-za-kulturu-barajevo-barajevo",
+   "name": "Centar za kulturu Barajevo",
+   "official_name": null,
+   "type": "Kulturni centar / Dom kulture",
+   "type_slug": "kulturni-centar",
+   "place": "Barajevo",
+   "settlement": null,
+   "mb": "17702645",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-knez-sima-markovic-barajevo",
+   "name": "Osnovna škola \"Knez Sima Marković\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Barajevo",
+   "settlement": null,
+   "mb": "07001193",
+   "website": null,
+   "have": {
+    "address": "Svetosavska 77",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-pavle-popovic-vranic-beograd",
+   "name": "Osnovna škola \"Pavle Popović\" Vranić",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Barajevo",
+   "settlement": "Vranić",
+   "mb": "07001185",
+   "website": null,
+   "have": {
+    "address": "Trg P Boraca I Žrt Faš Terora 3",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "srednja-skola-barajevo-barajevo",
+   "name": "Srednja škola Barajevo",
+   "official_name": null,
+   "type": "Srednja škola / Gimnazija",
+   "type_slug": "srednja-skola",
+   "place": "Barajevo",
+   "settlement": null,
+   "mb": "07067623",
+   "website": null,
+   "have": {
+    "address": "Svetosavska 4a",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "bozovic-toro-beograd-w865188056",
+   "name": "Božović Toro",
+   "official_name": null,
+   "type": "Veterinarska stanica / ambulanta",
+   "type_slug": "veterinarska-stanica",
+   "place": "Barajevo",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Ibarski put 84",
+    "phones": "011 8341379",
+    "hours": "08:00-20:00"
+   },
+   "need": [
+    "website"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-sumadija-za-opstine-batocina-raca-i-lapovo-batocina",
+   "name": "Centar za socijalni rad \"Šumadija\" za opštine Batočina, Rača i Lapovo",
+   "official_name": null,
+   "type": "Centar za socijalni rad",
+   "type_slug": "centar-za-socijalni-rad",
+   "place": "Batočina",
+   "settlement": null,
+   "mb": "07831668",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "javno-preduzece-lepenica-batocina-batocina-batocina",
+   "name": "Javno Preduzeće Lepenica Batočina Batočina",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Batočina",
+   "settlement": null,
+   "mb": "21026042",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "kulturni-centar-dositej-obradovic-batocina-batocina",
+   "name": "Kulturni centar \"Dositej Obradović\" Batočina",
+   "official_name": null,
+   "type": "Kulturni centar / Dom kulture",
+   "type_slug": "kulturni-centar",
+   "place": "Batočina",
+   "settlement": null,
+   "mb": "07944721",
+   "website": null,
+   "have": {
+    "address": "Kralja Petra I 69",
+    "phones": "034 841539; 034 842145",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "narodna-biblioteka-vuk-karadzic-batocina",
+   "name": "Narodna biblioteka \"Vuk Karadžić\"",
+   "official_name": null,
+   "type": "Narodna biblioteka",
+   "type_slug": "narodna-biblioteka",
+   "place": "Batočina",
+   "settlement": null,
+   "mb": "17043609",
+   "website": null,
+   "have": {
+    "address": "Njegoševa 7",
+    "phones": "034 841009",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-sveti-sava-batocina",
+   "name": "Osnovna škola \"Sveti Sava\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Batočina",
+   "settlement": null,
+   "mb": "07149182",
+   "website": null,
+   "have": {
+    "address": "Kralja Milana Obrenovića 6",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-poletarac-batocina",
+   "name": "Predškolska ustanova \"Poletarac\"",
+   "official_name": null,
+   "type": "Predškolska ustanova (vrtić)",
+   "type_slug": "predskolska-ustanova",
+   "place": "Batočina",
+   "settlement": null,
+   "mb": "07283857",
+   "website": null,
+   "have": {
+    "address": "Kralja Petra I 73",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "srednja-skola-nikola-tesla-batocina",
+   "name": "Srednja škola \"Nikola Tesla\"",
+   "official_name": null,
+   "type": "Srednja škola / Gimnazija",
+   "type_slug": "srednja-skola",
+   "place": "Batočina",
+   "settlement": null,
+   "mb": "07199554",
+   "website": null,
+   "have": {
+    "address": "Kralja Milana Obrenovića 2",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "turisticka-organizacija-opstine-batocina-batocina",
+   "name": "Turistička organizacija opštine Batočina",
+   "official_name": null,
+   "type": "Turistička organizacija",
+   "type_slug": "turisticka-organizacija",
+   "place": "Batočina",
+   "settlement": null,
+   "mb": "18826798",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "narodna-biblioteka-vuk-karadzic-bac",
+   "name": "Narodna biblioteka \"Vuk Karadžić\"",
+   "official_name": null,
+   "type": "Narodna biblioteka",
+   "type_slug": "narodna-biblioteka",
+   "place": "Bač",
+   "settlement": null,
+   "mb": "08580472",
+   "website": null,
+   "have": {
+    "address": "Trg dr Zorana Đinđića 4",
+    "phones": "021 6070777",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-aleksa-santic-vajska",
+   "name": "Osnovna škola \"Aleksa Šantić\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Bač",
+   "settlement": "Vajska",
+   "mb": "08012873",
+   "website": null,
+   "have": {
+    "address": "Maršala Tita 33",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-jan-kolar-selenca",
+   "name": "Osnovna škola \"Jan Kolar\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Bač",
+   "settlement": "Selenča",
+   "mb": "08012890",
+   "website": null,
+   "have": {
+    "address": "Vajanskeho 1",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-mosa-pijade-backo-novo-selo",
+   "name": "Osnovna škola \"Moša Pijade\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Bač",
+   "settlement": "Bačko Novo Selo",
+   "mb": "08012865",
+   "website": null,
+   "have": {
+    "address": "Vuka Karadžića 4",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-vuk-karadzic-bac-bac",
+   "name": "Osnovna škola \"Vuk Karadžić\" Bač",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Bač",
+   "settlement": null,
+   "mb": "08012857",
+   "website": null,
+   "have": {
+    "address": "Školska 1",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-kolibri-bac",
+   "name": "Predškolska ustanova \"Kolibri\"",
+   "official_name": null,
+   "type": "Predškolska ustanova (vrtić)",
+   "type_slug": "predskolska-ustanova",
+   "place": "Bač",
+   "settlement": null,
+   "mb": "08587213",
+   "website": null,
+   "have": {
+    "address": "Školska 3",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "poljoprivredna-skola-bac-bac",
+   "name": "Poljoprivredna škola Bač",
+   "official_name": null,
+   "type": "Srednja škola / Gimnazija",
+   "type_slug": "srednja-skola",
+   "place": "Bač",
+   "settlement": null,
+   "mb": "08610711",
+   "website": null,
+   "have": {
+    "address": "Školska 1",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "ustanova-za-sport-i-rekreaciju-backa-tvrdjava-bac",
+   "name": "Ustanova za sport i rekreaciju \"Bačka Tvrđava\"",
+   "official_name": null,
+   "type": "Javna ustanova",
+   "type_slug": "ustanova",
+   "place": "Bač",
+   "settlement": null,
+   "mb": "08960054",
+   "website": null,
+   "have": {
+    "address": "Vuka Karadžića bb",
+    "phones": "021 6070445",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "agencija-za-privremeno-zaposljavanje-n-resources-doo-backa-palanka-backa-palanka",
+   "name": "Agencija ZA Privremeno Zapošljavanje N - Resources DOO Bačka Palanka",
+   "official_name": null,
+   "type": "Agencija za zapošljavanje",
+   "type_slug": "agencija-za-zaposljavanje",
+   "place": "Bačka Palanka",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Žarka Zrenjanina 43",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "agencija-za-privremeno-zaposljavanje-agro-resursi-backa-doo-backa-palanka-backa",
+   "name": "Agencija za privremeno zapošljavanje Agro resursi Bačka DOO Bačka Palanka",
+   "official_name": null,
+   "type": "Agencija za zapošljavanje",
+   "type_slug": "agencija-za-zaposljavanje",
+   "place": "Bačka Palanka",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Trg Bratstva jedinstva 30",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "agencija-za-privremeno-zaposljavanje-real-knitting-doo-gajdobra-gajdobra",
+   "name": "Agencija za privremeno zapošljavanje REAL KNITTING DOO GAJDOBRA",
+   "official_name": null,
+   "type": "Agencija za zapošljavanje",
+   "type_slug": "agencija-za-zaposljavanje",
+   "place": "Bačka Palanka",
+   "settlement": "Gajdobra",
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Patrijarha Pavla 76",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "dom-za-stare-dom-za-stare-medic-backa-palanka",
+   "name": "Dom ZA Stare ''medic''",
+   "official_name": null,
+   "type": "Dom za stare",
+   "type_slug": "dom-za-stare",
+   "place": "Bačka Palanka",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Jug Bogdanova br. 4",
+    "phones": "021 6040737",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "gerontoloski-centar-backa-palanka-backa-palanka",
+   "name": "Gerontološki centar Bačka Palanka",
+   "official_name": null,
+   "type": "Gerontološki centar / ustanova socijalne zaštite",
+   "type_slug": "gerontoloski-centar",
+   "place": "Bačka Palanka",
+   "settlement": null,
+   "mb": "08675384",
+   "website": null,
+   "have": {
+    "address": "Banatska br.4",
+    "phones": "021 6040423",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-grand-backa-palanka",
+   "name": "Grand",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Bačka Palanka",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Izletnička bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-plattner-fontana-backa-palanka",
+   "name": "Plattner Fontana",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Bačka Palanka",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Jugoslovenske Armije 11",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  }
+ ]
+}

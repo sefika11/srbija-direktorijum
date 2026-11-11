@@ -1,0 +1,864 @@
+{
+ "id": "find-050",
+ "kind": "sites",
+ "title": "Kovačica, Kovin, Kostolac",
+ "rows": [
+  {
+   "org_slug": "privredno-drustvo-za-proizvodnju-remont-i-montazu-masina-i-opreme-prim-doo-kostolac-kostolac",
+   "name": "Privredno društvo za proizvodnju, Remont i Montažu Mašina i Opreme Prim DOO Kostolac",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Kostolac",
+   "settlement": null,
+   "mb": "17577697",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "centar-za-kulturu-kostolac-kostolac",
+   "name": "Centar za kulturu \"Kostolac \"",
+   "official_name": null,
+   "type": "Kulturni centar / Dom kulture",
+   "type_slug": "kulturni-centar",
+   "place": "Kostolac",
+   "settlement": null,
+   "mb": "17828495",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-kovacica-kovacica",
+   "name": "Centar za socijalni rad \"Kovačica\"",
+   "official_name": null,
+   "type": "Centar za socijalni rad",
+   "type_slug": "centar-za-socijalni-rad",
+   "place": "Kovačica",
+   "settlement": null,
+   "mb": "08190852",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "dom-za-stare-adam-plus-doo-kovacica-dom-za-smestaj-odraslih-i-starih-lica-adam",
+   "name": "Adam Plus DOO Kovačica Dom ZA Smeštaj Odraslih I Starih Lica \"adam Plus\"",
+   "official_name": null,
+   "type": "Dom za stare",
+   "type_slug": "dom-za-stare",
+   "place": "Kovačica",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "JNA 105",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "dom-za-stare-ustanova-socijalne-zastite-dom-za-smestaj-odraslih-i-starijih-sa",
+   "name": "Ustanova Socijalne Zaštite Dom ZA Smeštaj Odraslih I Starijih SA Medicinskom Negom \"gold Star\"",
+   "official_name": null,
+   "type": "Dom za stare",
+   "type_slug": "dom-za-stare",
+   "place": "Kovačica",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Prvomajska br. 5a",
+    "phones": "062 8213303",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "javno-preduzece-nas-stan-kovacica-kovacica",
+   "name": "Javno preduzeće Naš Stan Kovačica",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Kovačica",
+   "settlement": null,
+   "mb": "08029458",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "javno-preduzece-poslovno-rekreativni-centar-relax-kovacica-kovacica",
+   "name": "Javno preduzeće Poslovno Rekreativni centar Relax Kovačica",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Kovačica",
+   "settlement": null,
+   "mb": "20432799",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "javno-preduzece-za-informativnu-delatnost-radio-televizija-opstine-kovacica-kovacica-kovacica",
+   "name": "Javno preduzeće za Informativnu delatnost Radio-Televizija opštine Kovačica, Kovačica",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Kovačica",
+   "settlement": null,
+   "mb": "20360348",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-idvor-idvor-idvor",
+   "name": "Javno Komunalno Preduzeće Idvor Idvor",
+   "official_name": null,
+   "type": "JKP Čistoća / Komunalac",
+   "type_slug": "jkp-cistoca",
+   "place": "Kovačica",
+   "settlement": "Idvor",
+   "mb": "20945273",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-samos-samos-samos",
+   "name": "Javno Komunalno Preduzeće Samoš Samoš",
+   "official_name": null,
+   "type": "JKP Čistoća / Komunalac",
+   "type_slug": "jkp-cistoca",
+   "place": "Kovačica",
+   "settlement": "Samoš",
+   "mb": "20944625",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-4-oktobar-debeljaca-debeljaca",
+   "name": "Javno komunalno preduzeće 4. Oktobar Debeljača",
+   "official_name": null,
+   "type": "JKP Čistoća / Komunalac",
+   "type_slug": "jkp-cistoca",
+   "place": "Kovačica",
+   "settlement": "Debeljača",
+   "mb": "08128472",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-banat-uzdin-uzdin",
+   "name": "Javno komunalno preduzeće Banat Uzdin",
+   "official_name": null,
+   "type": "JKP Čistoća / Komunalac",
+   "type_slug": "jkp-cistoca",
+   "place": "Kovačica",
+   "settlement": "Uzdin",
+   "mb": "08773378",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-elan-kovacica-kovacica",
+   "name": "Javno komunalno preduzeće Elan Kovačica",
+   "official_name": null,
+   "type": "JKP Čistoća / Komunalac",
+   "type_slug": "jkp-cistoca",
+   "place": "Kovačica",
+   "settlement": null,
+   "mb": "08077690",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-rad-crepaja-crepaja",
+   "name": "Javno komunalno preduzeće rad Crepaja",
+   "official_name": null,
+   "type": "JKP Čistoća / Komunalac",
+   "type_slug": "jkp-cistoca",
+   "place": "Kovačica",
+   "settlement": "Crepaja",
+   "mb": "08133662",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "dom-kulture-3-oktobar-kovacica",
+   "name": "Dom kulture \"3. Oktobar\"",
+   "official_name": null,
+   "type": "Kulturni centar / Dom kulture",
+   "type_slug": "kulturni-centar",
+   "place": "Kovačica",
+   "settlement": null,
+   "mb": "08027447",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "dom-kulture-doina-uzdin-kovacica",
+   "name": "Dom kulture \"Doina\" Uzdin",
+   "official_name": null,
+   "type": "Kulturni centar / Dom kulture",
+   "type_slug": "kulturni-centar",
+   "place": "Kovačica",
+   "settlement": null,
+   "mb": "08029288",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "dom-kulture-jozef-atila-debeljaca-debeljaca",
+   "name": "Dom kulture \"Jožef Atila\" Debeljača",
+   "official_name": null,
+   "type": "Kulturni centar / Dom kulture",
+   "type_slug": "kulturni-centar",
+   "place": "Kovačica",
+   "settlement": "Debeljača",
+   "mb": "08044678",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "dom-kulture-mihajlo-pupin-idvor-idvor",
+   "name": "Dom kulture \"Mihajlo Pupin\" Idvor",
+   "official_name": null,
+   "type": "Kulturni centar / Dom kulture",
+   "type_slug": "kulturni-centar",
+   "place": "Kovačica",
+   "settlement": "Idvor",
+   "mb": "08044651",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "dom-kulture-mihal-babinka-padina-kovacica",
+   "name": "Dom kulture \"Mihal Babinka\" Padina",
+   "official_name": null,
+   "type": "Kulturni centar / Dom kulture",
+   "type_slug": "kulturni-centar",
+   "place": "Kovačica",
+   "settlement": null,
+   "mb": "08043256",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "dom-kulture-mita-zivkov-lala-crepaja-kovacica",
+   "name": "Dom kulture \"Mita Živkov-Lala\" Crepaja",
+   "official_name": null,
+   "type": "Kulturni centar / Dom kulture",
+   "type_slug": "kulturni-centar",
+   "place": "Kovačica",
+   "settlement": null,
+   "mb": "08029270",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "dom-kulture-vladimir-m-fijat-samos-samos",
+   "name": "Dom kulture \"Vladimir M. Fijat\" Samoš",
+   "official_name": null,
+   "type": "Kulturni centar / Dom kulture",
+   "type_slug": "kulturni-centar",
+   "place": "Kovačica",
+   "settlement": "Samoš",
+   "mb": "08029296",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "opstinska-biblioteka-kovacica-kovacica",
+   "name": "Opštinska biblioteka \"Kovačica\"",
+   "official_name": null,
+   "type": "Narodna biblioteka",
+   "type_slug": "narodna-biblioteka",
+   "place": "Kovačica",
+   "settlement": null,
+   "mb": "08607338",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-lukrecija-ankucic-samos-kovacica",
+   "name": "Osnovna škola \"Lukrecija Ankucić\" Samoš",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Kovačica",
+   "settlement": "Samoš",
+   "mb": "08029237",
+   "website": null,
+   "have": {
+    "address": "Maršala Tita 27",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-mihajlo-pupin-idvor-kovacica",
+   "name": "Osnovna škola \"Mihajlo Pupin\" Idvor",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Kovačica",
+   "settlement": "Idvor",
+   "mb": "08029199",
+   "website": null,
+   "have": {
+    "address": "Mihajla Pupina 51",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-mlada-pokolenja-kovacica",
+   "name": "Osnovna škola \"Mlada Pokolenja\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Kovačica",
+   "settlement": null,
+   "mb": "08029202",
+   "website": null,
+   "have": {
+    "address": "Maršala Tita 33",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-mosa-pijade-debeljaca",
+   "name": "Osnovna škola \"Moša Pijade\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Kovačica",
+   "settlement": "Debeljača",
+   "mb": "08029172",
+   "website": null,
+   "have": {
+    "address": "Servo Mihalja 32",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-sava-zebeljan-crepaja-kovacica",
+   "name": "Osnovna škola \"Sava Žebeljan\" Crepaja",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Kovačica",
+   "settlement": "Crepaja",
+   "mb": "08029164",
+   "website": null,
+   "have": {
+    "address": "Maršala Tita 8",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-sveti-georgije-uzdin",
+   "name": "Osnovna škola \"Sveti Georgije\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Kovačica",
+   "settlement": "Uzdin",
+   "mb": "08029245",
+   "website": null,
+   "have": {
+    "address": "Maršala Tita 143",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "gimnazija-mihajlo-pupin-kovacica-kovacica",
+   "name": "Gimnazija \"Mihajlo Pupin\" Kovačica",
+   "official_name": null,
+   "type": "Srednja škola / Gimnazija",
+   "type_slug": "srednja-skola",
+   "place": "Kovačica",
+   "settlement": null,
+   "mb": "08029253",
+   "website": null,
+   "have": {
+    "address": "Nikole Tesle 57",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "usluga-socijalne-zastite-centar-za-socijalni-rad-kovacica-dnevni-boravak-za",
+   "name": "Centar ZA Socijalni Rad Kovačica Dnevni Boravak ZA Odrasle SA Fizičkim Invaliditetom I Intelektualnim Teškoćama",
+   "official_name": null,
+   "type": "Usluga socijalne zaštite",
+   "type_slug": "usluga-socijalne-zastite",
+   "place": "Kovačica",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Čaplovičeva br.16",
+    "phones": "013 661041; 062 8020642",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "usluga-socijalne-zastite-pomoc-u-kuci-pri-centru-za-socijalni-rad-kovacica",
+   "name": "Pomoć u kući pri CENTRU ZA SOCIJALNI RAD KOVAČICA",
+   "official_name": null,
+   "type": "Usluga socijalne zaštite",
+   "type_slug": "usluga-socijalne-zastite",
+   "place": "Kovačica",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Čaplovičova 17",
+    "phones": "013 661041; 013 661119; 062 8020642",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "agencija-za-zaposljavanje-privredno-drustvo-za-pruzanje-usluga-i-trgovinu-i",
+   "name": "PRIVREDNO DRUŠTVO ZA PRUŽANjE USLUGA I TRGOVINU I AGENCIJA PRIVREMENO ZAPOŠLjAVANjE STARI RAM DOO",
+   "official_name": null,
+   "type": "Agencija za zapošljavanje",
+   "type_slug": "agencija-za-zaposljavanje",
+   "place": "Kovin",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Cara Lazara 130",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "dom-za-stare-dom-za-smestaj-odraslih-i-starijih-domraj-22-kovin",
+   "name": "Dom ZA Smeštaj Odraslih I Starijih ''domraj 22''",
+   "official_name": null,
+   "type": "Dom za stare",
+   "type_slug": "dom-za-stare",
+   "place": "Kovin",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Vatrogasna br.22",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "dom-za-stare-simfonija-plus-doo-mramorak-dom-za-smestaj-odraslih-i-starijih",
+   "name": "Simfonija Plus DOO Mramorak Dom ZA Smeštaj Odraslih I Starijih ''simfonija Plus''",
+   "official_name": null,
+   "type": "Dom za stare",
+   "type_slug": "dom-za-stare",
+   "place": "Kovin",
+   "settlement": "Mramorak",
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Bratstva i Jedinstva br. 111",
+    "phones": "013 2753698",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privredno-drustvo-za-podvodnu-eksploataciju-uglja-rudnik-kovin-ad-kovin-kovin",
+   "name": "Privredno društvo za Podvodnu Eksploataciju Uglja Rudnik Kovin AD Kovin",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Kovin",
+   "settlement": null,
+   "mb": "20053518",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "veterinarska-stanica-kovin-skorenovac-kovin",
+   "name": "Veterinarska stanica \"Kovin\" Skorenovac",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Kovin",
+   "settlement": null,
+   "mb": "08731314",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "javno-preduzece-za-komunalno-stambenu-delatnost-kovinski-komunalac-kovin-kovin",
+   "name": "Javno preduzeće za komunalno Stambenu delatnost Kovinski Komunalac Kovin",
+   "official_name": null,
+   "type": "JKP Čistoća / Komunalac",
+   "type_slug": "jkp-cistoca",
+   "place": "Kovin",
+   "settlement": null,
+   "mb": "08252050",
+   "website": null,
+   "have": {
+    "address": "26220 Kovin",
+    "phones": "013 742584; 013 742150; 013 741132; 013 741450",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "dom-kulture-bavaniste-u-likvidaciji-kovin",
+   "name": "Dom kulture \"Bavanište\" u Likvidaciji",
+   "official_name": null,
+   "type": "Kulturni centar / Dom kulture",
+   "type_slug": "kulturni-centar",
+   "place": "Kovin",
+   "settlement": null,
+   "mb": "08601500",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "biblioteka-vuk-karadzic-kovin",
+   "name": "Biblioteka \"Vuk Karadžić\"",
+   "official_name": null,
+   "type": "Narodna biblioteka",
+   "type_slug": "narodna-biblioteka",
+   "place": "Kovin",
+   "settlement": null,
+   "mb": "08611203",
+   "website": null,
+   "have": {
+    "address": "Cara Lazara 100",
+    "phones": "013 744901",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-predrag-kozic-dubovac-kovin",
+   "name": "Osnovna škola \"Predrag Kozić\" Dubovac",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Kovin",
+   "settlement": "Dubovac",
+   "mb": "08012482",
+   "website": null,
+   "have": {
+    "address": "Cara Lazara 94",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,825 @@
+{
+ "id": "find-146",
+ "kind": "sites",
+ "title": "Čačak",
+ "rows": [
+  {
+   "org_slug": "gradska-uprava-za-urbanizam-cacak",
+   "name": "Gradska uprava za urbanizam",
+   "official_name": null,
+   "type": "JP Urbanizam / Direkcija za izgradnju",
+   "type_slug": "jp-urbanizam",
+   "place": "Čačak",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Župana Stracimira 2",
+    "phones": "032 309129",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "gradsko-pozoriste-cacak-cacak",
+   "name": "Gradsko pozorište Čačak",
+   "official_name": null,
+   "type": "Kulturni centar / Dom kulture",
+   "type_slug": "kulturni-centar",
+   "place": "Čačak",
+   "settlement": null,
+   "mb": "17920880",
+   "website": null,
+   "have": {
+    "address": "Sinđelićeva 24",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "kulturni-centar-bora-djordjevic-cacak-cacak",
+   "name": "Kulturni centar \"Bora Đorđević\" Čačak",
+   "official_name": null,
+   "type": "Kulturni centar / Dom kulture",
+   "type_slug": "kulturni-centar",
+   "place": "Čačak",
+   "settlement": null,
+   "mb": "07167342",
+   "website": null,
+   "have": {
+    "address": "Trg ustanka 2",
+    "phones": "032 225070",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "ustanova-za-kulturno-obrazovnu-delatnost-kosta-novakovic-cacak",
+   "name": "Ustanova za Kulturno-Obrazovnu delatnost \"Kosta Novaković\"",
+   "official_name": null,
+   "type": "Kulturni centar / Dom kulture",
+   "type_slug": "kulturni-centar",
+   "place": "Čačak",
+   "settlement": null,
+   "mb": "07182724",
+   "website": null,
+   "have": {
+    "address": "Župana Stracimira 9",
+    "phones": "032 322636",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "medjuopstinski-istorijski-arhiv-za-opstine-cacak-gornji-milanovac-i-lucani-cacak",
+   "name": "Međuopštinski istorijski arhiv za opštine Čačak, Gornji Milanovac i Lučani",
+   "official_name": null,
+   "type": "Muzej / Arhiv",
+   "type_slug": "muzej",
+   "place": "Čačak",
+   "settlement": null,
+   "mb": "07167423",
+   "website": null,
+   "have": {
+    "address": "Gospodar Jovanova 2",
+    "phones": "032 322729",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "narodni-muzej-cacak-cacak",
+   "name": "Narodni muzej Čačak",
+   "official_name": null,
+   "type": "Muzej / Arhiv",
+   "type_slug": "muzej",
+   "place": "Čačak",
+   "settlement": null,
+   "mb": "07167385",
+   "website": null,
+   "have": {
+    "address": "Cara Dušana 1",
+    "phones": "032 322169",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "umetnicka-galerija-nadezda-petrovic-cacak-cacak",
+   "name": "Umetnička galerija Nadežda Petrović Čačak",
+   "official_name": null,
+   "type": "Muzej / Arhiv",
+   "type_slug": "muzej",
+   "place": "Čačak",
+   "settlement": null,
+   "mb": "07167466",
+   "website": null,
+   "have": {
+    "address": "Cara Dušana 6",
+    "phones": "032 322375",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "muzicka-skola-dr-vojislav-vuckovic-cacak",
+   "name": "Muzička škola \"Dr Vojislav Vučković\"",
+   "official_name": null,
+   "type": "Muzička ili baletska škola",
+   "type_slug": "muzicka-skola",
+   "place": "Čačak",
+   "settlement": null,
+   "mb": "07182678",
+   "website": null,
+   "have": {
+    "address": "Cara Dušana 25",
+    "phones": "032 222282",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "gradska-biblioteka-vladislav-petkovic-dis-cacak",
+   "name": "Gradska biblioteka \"Vladislav Petković-Dis\"",
+   "official_name": null,
+   "type": "Narodna biblioteka",
+   "type_slug": "narodna-biblioteka",
+   "place": "Čačak",
+   "settlement": null,
+   "mb": "07167393",
+   "website": null,
+   "have": {
+    "address": "Sinđelićeva 24",
+    "phones": "032 223608",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-22-decembar-donja-trepca-donja-trepca",
+   "name": "Osnovna škola \"22. Decembar\" Donja Trepča",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Čačak",
+   "settlement": "Donja Trepča",
+   "mb": "07182031",
+   "website": null,
+   "have": {
+    "address": "Karapavlovića Put bb",
+    "phones": "032 824251",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-bozo-tomic-prijevor-cacak",
+   "name": "Osnovna škola \"Božo Tomić\" Prijevor",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Čačak",
+   "settlement": "Prijevor",
+   "mb": "07206003",
+   "website": null,
+   "have": {
+    "address": "Put Pored Doma 18",
+    "phones": "032 883311",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-branislav-petrovic-slatina-cacak",
+   "name": "Osnovna škola \"Branislav Petrović\" Slatina",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Čačak",
+   "settlement": "Slatina",
+   "mb": "07182619",
+   "website": null,
+   "have": {
+    "address": "Stari Put Za Kraljevo bb",
+    "phones": "032 826654",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-dr-dragisa-misovic-cacak",
+   "name": "Osnovna škola \"Dr Dragiša Mišović\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Čačak",
+   "settlement": null,
+   "mb": "07182643",
+   "website": null,
+   "have": {
+    "address": "Bulevar Vuka Karadžića 1",
+    "phones": "032 332202",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-filip-filipovic-cacak",
+   "name": "Osnovna škola \"Filip Filipović\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Čačak",
+   "settlement": null,
+   "mb": "07182015",
+   "website": null,
+   "have": {
+    "address": "Svetozara Markovića 68",
+    "phones": "032 222303",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-milica-pavlovic-cacak",
+   "name": "Osnovna škola \"Milica Pavlović\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Čačak",
+   "settlement": null,
+   "mb": "07182007",
+   "website": null,
+   "have": {
+    "address": "Episkopa Nikifora Maksimovića 14",
+    "phones": "032 372004",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-preljina-preljina-cacak",
+   "name": "Osnovna škola \"Preljina\" Preljina",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Čačak",
+   "settlement": "Preljina",
+   "mb": "07181663",
+   "website": null,
+   "have": {
+    "address": "Put Za Preljinu 31",
+    "phones": "032 381905",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-ratko-mitrovic-cacak",
+   "name": "Osnovna škola \"Ratko Mitrović\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Čačak",
+   "settlement": null,
+   "mb": "07182511",
+   "website": null,
+   "have": {
+    "address": "Svetogorska 44",
+    "phones": "032 261375",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-stepa-stepanovic-gornja-gorevnica-cacak",
+   "name": "Osnovna škola \"Stepa Stepanović\" Gornja Gorevnica",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Čačak",
+   "settlement": "Gornja Gorevnica",
+   "mb": "07182651",
+   "website": null,
+   "have": {
+    "address": "Put Za Srezojevce 41",
+    "phones": "032 880420",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-sveti-sava-cacak-cacak",
+   "name": "Osnovna škola \"Sveti Sava\" Čačak",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Čačak",
+   "settlement": null,
+   "mb": "07182660",
+   "website": null,
+   "have": {
+    "address": "Dr Dragiše Mišovića 245",
+    "phones": "032 366094",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-sveti-djakon-avakum-trnava-cacak",
+   "name": "Osnovna škola \"Sveti Đakon Avakum\" Trnava",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Čačak",
+   "settlement": "Trnava",
+   "mb": "07181612",
+   "website": null,
+   "have": {
+    "address": "Zadrugarska Ulica 77",
+    "phones": "032 285109",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-tanasko-rajic-cacak",
+   "name": "Osnovna škola \"Tanasko Rajić\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Čačak",
+   "settlement": null,
+   "mb": "07182546",
+   "website": null,
+   "have": {
+    "address": "Aleksija Milenkovića 5",
+    "phones": "032 355283",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-tatomir-andjelic-mrcajevci-cacak",
+   "name": "Osnovna škola \"Tatomir Anđelić\" Mrčajevci",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Čačak",
+   "settlement": "Mrčajevci",
+   "mb": "07182635",
+   "website": null,
+   "have": {
+    "address": "Dobrice Gajovića bb",
+    "phones": "032 800178",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-vladislav-petkovic-dis-zablace-cacak",
+   "name": "Osnovna škola \"Vladislav Petković-Dis\" Zablaće",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Čačak",
+   "settlement": "Zablaće",
+   "mb": "07181574",
+   "website": null,
+   "have": {
+    "address": "Stari Put Za Kraljevo 33",
+    "phones": "032 813012",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-vuk-karadzic-cacak",
+   "name": "Osnovna škola \"Vuk Karadžić\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Čačak",
+   "settlement": null,
+   "mb": "07182597",
+   "website": null,
+   "have": {
+    "address": "Cara Dušana 25",
+    "phones": "032 222976",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-djeneral-marko-dj-katanic-bresnica-cacak",
+   "name": "Osnovna škola \"Đeneral Marko Đ.katanić\" Bresnica",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Čačak",
+   "settlement": "Bresnica",
+   "mb": "07182589",
+   "website": null,
+   "have": {
+    "address": "Bresnica bb",
+    "phones": "032 804107",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-za-obrazovanje-odraslih-cacak-cacak",
+   "name": "Osnovna škola za obrazovanje odraslih Čačak",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Čačak",
+   "settlement": null,
+   "mb": "17689096",
+   "website": null,
+   "have": {
+    "address": "Župana Stracimira 9",
+    "phones": "032 322650",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "skola-za-osnovno-i-srednje-obrazovanje-1-novembar-cacak",
+   "name": "Škola za osnovno i Srednje obrazovanje \"1. Novembar\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Čačak",
+   "settlement": null,
+   "mb": "07192746",
+   "website": null,
+   "have": {
+    "address": "Bulevar Vuka Karadžića 9",
+    "phones": "032 332901",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-moje-detinjstvo-cacak",
+   "name": "Predškolska ustanova \"Moje Detinjstvo\"",
+   "official_name": null,
+   "type": "Predškolska ustanova (vrtić)",
+   "type_slug": "predskolska-ustanova",
+   "place": "Čačak",
+   "settlement": null,
+   "mb": "17833626",
+   "website": null,
+   "have": {
+    "address": "Nemanjina bb",
+    "phones": "032 347536",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-radost-cacak",
+   "name": "Predškolska ustanova \"Radost\"",
+   "official_name": null,
+   "type": "Predškolska ustanova (vrtić)",
+   "type_slug": "predskolska-ustanova",
+   "place": "Čačak",
+   "settlement": null,
+   "mb": "07181671",
+   "website": null,
+   "have": {
+    "address": "Bulevar Vuka Karadžića bb",
+    "phones": "032 322556",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatni-vrtic-predskolska-ustanova-gimnazion-cacak",
+   "name": "Predškolska ustanova „Gimnazion“",
+   "official_name": null,
+   "type": "Privatni vrtić",
+   "type_slug": "privatni-vrtic",
+   "place": "Čačak",
+   "settlement": null,
+   "mb": "17764683",
+   "website": null,
+   "have": {
+    "address": "Gradski Bedem 14a",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatni-vrtic-predskolska-ustanova-liliput-cacak",
+   "name": "Predškolska ustanova „Liliput“",
+   "official_name": null,
+   "type": "Privatni vrtić",
+   "type_slug": "privatni-vrtic",
+   "place": "Čačak",
+   "settlement": null,
+   "mb": "17669044",
+   "website": null,
+   "have": {
+    "address": "Hajduk Veljkova 7",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatni-vrtic-predskolska-ustanova-mimiland-cacak",
+   "name": "Predškolska ustanova „Mimiland“",
+   "official_name": null,
+   "type": "Privatni vrtić",
+   "type_slug": "privatni-vrtic",
+   "place": "Čačak",
+   "settlement": null,
+   "mb": "17878581",
+   "website": null,
+   "have": {
+    "address": "Kulinovačko Polje - Potes 4",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatni-vrtic-predskolska-ustanova-radulovic-m23-cacak",
+   "name": "Predškolska ustanova „Radulović M23“",
+   "official_name": null,
+   "type": "Privatni vrtić",
+   "type_slug": "privatni-vrtic",
+   "place": "Čačak",
+   "settlement": null,
+   "mb": "18378981",
+   "website": null,
+   "have": {
+    "address": "Gvozdena Paunovića 8/1",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatni-vrtic-predskolska-ustanova-viktoria-cacak",
+   "name": "Predškolska ustanova „Viktoria“",
+   "official_name": null,
+   "type": "Privatni vrtić",
+   "type_slug": "privatni-vrtic",
+   "place": "Čačak",
+   "settlement": null,
+   "mb": "18827646",
+   "website": null,
+   "have": {
+    "address": "Matije Lišančića 100",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatni-vrtic-predskolska-ustanova-carobnjak-cacak",
+   "name": "Predškolska ustanova „ČAROBNjAK“",
+   "official_name": null,
+   "type": "Privatni vrtić",
+   "type_slug": "privatni-vrtic",
+   "place": "Čačak",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Devet jugovića 11",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatni-vrtic-privatna-predskolska-ustanova-tasa-2-cacak",
+   "name": "Privatna predškolska ustanova „Taša 2“",
+   "official_name": null,
+   "type": "Privatni vrtić",
+   "type_slug": "privatni-vrtic",
+   "place": "Čačak",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Dragiše Mišovića 190",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatni-vrtic-privatna-predskolska-utanova-radulovic-m23-cacak",
+   "name": "Privatna predškolska utanova „Radulović M23“",
+   "official_name": null,
+   "type": "Privatni vrtić",
+   "type_slug": "privatni-vrtic",
+   "place": "Čačak",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Gvozdena Paunovića 8",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatni-vrtic-pu-carolija-cacak",
+   "name": "Pu „Čarolija“",
+   "official_name": null,
+   "type": "Privatni vrtić",
+   "type_slug": "privatni-vrtic",
+   "place": "Čačak",
+   "settlement": null,
+   "mb": "18377578",
+   "website": null,
+   "have": {
+    "address": "Slavka Krupeža 32",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-agencija-sveti-sava-katarina-krstic-pr-cacak-cacak",
+   "name": "Agencija Sveti Sava Katarina Krstić Pr Čačak",
+   "official_name": null,
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "type_slug": "skola-za-odrasle",
+   "place": "Čačak",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Lomina 59",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-agencija-za-obrazovanje-akademija-dragana-grbovic-pr-cacak",
+   "name": "Agencija Za Obrazovanje Akademija Dragana Grbović Pr Čačak",
+   "official_name": null,
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "type_slug": "skola-za-odrasle",
+   "place": "Čačak",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Vojvode Stepe 44",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  }
+ ]
+}

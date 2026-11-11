@@ -1,0 +1,875 @@
+{
+ "id": "find-092",
+ "kind": "sites",
+ "title": "Palilula, Osečina",
+ "rows": [
+  {
+   "org_slug": "narodna-biblioteka-osecina-osecina",
+   "name": "Narodna biblioteka \"Osečina\"",
+   "official_name": null,
+   "type": "Narodna biblioteka",
+   "type_slug": "narodna-biblioteka",
+   "place": "Osečina",
+   "settlement": null,
+   "mb": "17038150",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-vojvoda-misic-pecka-osecina",
+   "name": "Osnovna škola \"Vojvoda Mišić\" Pecka",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Osečina",
+   "settlement": "Pecka",
+   "mb": "07135025",
+   "website": null,
+   "have": {
+    "address": "Kralja Petra Prvog 50",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-lane-osecina",
+   "name": "Predškolska ustanova \"Lane\"",
+   "official_name": null,
+   "type": "Predškolska ustanova (vrtić)",
+   "type_slug": "predskolska-ustanova",
+   "place": "Osečina",
+   "settlement": null,
+   "mb": "07321244",
+   "website": null,
+   "have": {
+    "address": "Hajduk Veljkova 6",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "sportski-centar-osecina-osecina",
+   "name": "Sportski centar \"Osečina\"",
+   "official_name": null,
+   "type": "Sportski centar",
+   "type_slug": "sportski-centar",
+   "place": "Osečina",
+   "settlement": null,
+   "mb": "07708432",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "adzic-osecina-n3611250778",
+   "name": "Adžić",
+   "official_name": null,
+   "type": "Stomatološka ordinacija",
+   "type_slug": "stomatoloska-ordinacija",
+   "place": "Osečina",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "obrazovno-vaspitni-centar-braca-nedic-osecina",
+   "name": "Obrazovno-Vaspitni Centar\"braća Nedić\"",
+   "official_name": null,
+   "type": "Javna ustanova",
+   "type_slug": "ustanova",
+   "place": "Osečina",
+   "settlement": null,
+   "mb": "17921576",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "zoovet-osecina-n3509586860",
+   "name": "Zoovet",
+   "official_name": null,
+   "type": "Veterinarska stanica / ambulanta",
+   "type_slug": "veterinarska-stanica",
+   "place": "Osečina",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "auto-skola-zeleno-svetlo-beograd-n5711733223",
+   "name": "Auto-škola Zeleno svetlo",
+   "official_name": null,
+   "type": "Auto-škola",
+   "type_slug": "auto-skola",
+   "place": "Palilula",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Cvijićeva 63",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "pionir-l-beograd-w857908580",
+   "name": "Pionir L",
+   "official_name": null,
+   "type": "Auto-škola",
+   "type_slug": "auto-skola",
+   "place": "Palilula",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Ivana Milutinovića 14",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "dom-za-stare-dom-za-smestaj-odraslih-i-starijih-vila-sveti-nikola-beograd",
+   "name": "Dom ZA Smeštaj Odraslih I Starijih \"vila Sveti Nikola\"",
+   "official_name": null,
+   "type": "Dom za stare",
+   "type_slug": "dom-za-stare",
+   "place": "Palilula",
+   "settlement": "Beograd",
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Antiohijska br. 24a",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "dom-za-stare-dom-za-smestaj-odraslih-i-starijih-nada-beograd",
+   "name": "Dom ZA Smeštaj Odraslih I Starijih ''nada''",
+   "official_name": null,
+   "type": "Dom za stare",
+   "type_slug": "dom-za-stare",
+   "place": "Palilula",
+   "settlement": "Beograd",
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Put za Crvenku 2",
+    "phones": "069 3321235",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "inovacioni-centar-elektrotehnickog-fakulteta-u-beogradu-doo-beograd-beograd-palilula",
+   "name": "Inovacioni centar Elektrotehničkog Fakulteta u Beogradu DOO Beograd",
+   "official_name": null,
+   "type": "Fakultet",
+   "type_slug": "fakultet",
+   "place": "Palilula",
+   "settlement": null,
+   "mb": "20146125",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "inovacioni-centar-masinskog-fakulteta-u-beogradu-doo-beograd-palilula-beograd-palilula",
+   "name": "Inovacioni centar Mašinskog Fakulteta u Beogradu DOO Beograd (Palilula)",
+   "official_name": null,
+   "type": "Fakultet",
+   "type_slug": "fakultet",
+   "place": "Palilula",
+   "settlement": null,
+   "mb": "20134798",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "inovacioni-centar-tehnolosko-metalurskog-fakulteta-u-beogradu-doo-beograd-palilula-beograd-palilula",
+   "name": "Inovacioni centar Tehnološko-Metalurškog Fakulteta u Beogradu DOO Beograd (Palilula)",
+   "official_name": null,
+   "type": "Fakultet",
+   "type_slug": "fakultet",
+   "place": "Palilula",
+   "settlement": null,
+   "mb": "20551992",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-chicha-borca",
+   "name": "Chicha",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Palilula",
+   "settlement": "Borča",
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Put Za Ovču 49",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-zeleni-vir-deveti-maj",
+   "name": "Zeleni Vir",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Palilula",
+   "settlement": "Deveti Maj",
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Toplički Partizanski Odred bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "agroindustrijska-korporacija-beograd-ad-padinska-skela-padinska-skela",
+   "name": "Agroindustrijska Korporacija Beograd AD Padinska Skela",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Palilula",
+   "settlement": null,
+   "mb": "07042230",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "akcionarsko-drustvo-vulkan-industrija-gume-nis-u-stecaju-nis-palilula",
+   "name": "Akcionarsko društvo Vulkan Industrija Gume, Niš - u Stečaju",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Palilula",
+   "settlement": null,
+   "mb": "07173547",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "banka-postanska-stedionica-akcionarsko-drustvo-beograd-beograd-palilula",
+   "name": "Banka Poštanska Štedionica, Akcionarsko Društvo, Beograd",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Palilula",
+   "settlement": null,
+   "mb": "07004893",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "drustveno-preduzece-institut-za-primenu-nauke-u-poljoprivredi-beograd-29-novembra-68-b-beograd-palil",
+   "name": "Društveno preduzeće institut za Primenu Nauke u Poljoprivredi Beograd, 29. Novembra 68 B",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Palilula",
+   "settlement": null,
+   "mb": "06196357",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "drustveno-preduzece-za-spoljnu-i-unutrasnju-trgovinu-drvokomerc-beograd-palilula-u-stecaju-beograd-p",
+   "name": "Društveno preduzeće za Spoljnu i Unutrašnju Trgovinu Drvokomerc, Beograd (Palilula) - u Stečaju",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Palilula",
+   "settlement": null,
+   "mb": "07737009",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "drustveno-preduzece-za-proizvodnju-trgovinu-i-usluge-nehaj-beograd-palilula-u-stecaju-beograd-palilu",
+   "name": "Društveno preduzeće za proizvodnju Trgovinu i Usluge Nehaj, Beograd (Palilula) - u Stečaju",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Palilula",
+   "settlement": null,
+   "mb": "07898959",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "javno-vodoprivredno-preduzece-beogradvode-beograd-palilula-beograd-palilula",
+   "name": "Javno Vodoprivredno preduzeće Beogradvode, Beograd (Palilula)",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Palilula",
+   "settlement": null,
+   "mb": "07029110",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "min-vagonka-akconarsko-drustvo-za-proizvodnju-i-remont-sinskih-vozila-i-druge-opreme-nis-u-stecaju-n",
+   "name": "Min Vagonka Akconarsko društvo za proizvodnju i Remont Šinskih Vozila i Druge Opreme Niš - u Stečaju",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Palilula",
+   "settlement": null,
+   "mb": "07402341",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "min-specijalna-vozila-a-d-nis-u-stecaju-nis-palilula",
+   "name": "Min-Specijalna Vozila A.D. NIŠ-U Stečaju",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Palilula",
+   "settlement": null,
+   "mb": "07402376",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "poljoprivredna-avijacija-pkb-mesov-preduzece-za-obavlj-usluga-privr-avijacije-doo-beograd-padinska-s",
+   "name": "Poljoprivredna Avijacija Pkb Mešov.preduzeće za Obavlj.usluga Privr.avijacije DOO Beograd,padinska Skela",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Palilula",
+   "settlement": null,
+   "mb": "17060007",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "poljoprivredna-savetodavna-i-strucna-sluzba-nis-drustvo-s-ogranicenom-odgovornoscu-nis-nis-palilula",
+   "name": "Poljoprivredna Savetodavna i Stručna služba Niš društvo S ograničenom odgovornošću, Niš",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Palilula",
+   "settlement": null,
+   "mb": "07346603",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "preduzece-za-ishranu-smestaj-ugostiteljstvo-trgovinu-odrzavanje-i-prevoz-pim-standard-doo-beograd-be",
+   "name": "Preduzeće za Ishranu, Smeštaj, Ugostiteljstvo, Trgovinu, održavanje i prevoz Pim-Standard DOO Beograd",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Palilula",
+   "settlement": null,
+   "mb": "17248839",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "preduzece-za-spoljnu-i-unutrasnju-trgovinu-progres-autokuca-drustvo-sa-ogranicenom-odgovornoscu-beog",
+   "name": "Preduzeće za Spoljnu i Unutrašnju Trgovinu Progres Autokuća društvo sa ograničenom odgovornošću Beograd",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Palilula",
+   "settlement": null,
+   "mb": "17513346",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privredno-drustvo-za-sport-rekreaciju-rehabilitaciju-i-biznis-eko-zona-ada-huja-d-o-o-beograd-beogra",
+   "name": "Privredno Društvo za Sport, Rekreaciju, Rehabilitaciju i Biznis Eko Zona Ada Huja d.o.o. Beograd",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Palilula",
+   "settlement": null,
+   "mb": "06936458",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privredno-drustvo-za-odrzavanje-i-obezbedjivanje-objekata-imovine-i-druge-usluge-telus-ad-beograd-be",
+   "name": "Privredno društvo za održavanje i Obezbeđivanje Objekata, Imovine i Druge Usluge Telus AD, Beograd",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Palilula",
+   "settlement": null,
+   "mb": "20029684",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "srbijatrans-doo-nis-u-stecaju-nis-palilula",
+   "name": "Srbijatrans DOO, Niš - u Stečaju",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Palilula",
+   "settlement": null,
+   "mb": "07173865",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "telus-pro-d-o-o-beograd-palilula-beograd-palilula",
+   "name": "Telus Pro d.o.o. Beograd-Palilula",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Palilula",
+   "settlement": null,
+   "mb": "21360961",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "vodoprivredno-drustvo-sibnica-drustvo-sa-ogranicenom-odgovornoscu-beograd-beograd-palilula",
+   "name": "Vodoprivredno društvo Sibnica društvo sa ograničenom odgovornošću Beograd",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Palilula",
+   "settlement": null,
+   "mb": "07042965",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "javno-preduzece-za-upravljanje-javnim-putevima-grada-beograda-putevi-beograda-beograd-palilula-beogr",
+   "name": "Javno Preduzeće za Upravljanje Javnim Putevima Grada Beograda Putevi Beograda Beograd-Palilula",
+   "official_name": null,
+   "type": "JP za puteve i izgradnju",
+   "type_slug": "jp-putevi",
+   "place": "Palilula",
+   "settlement": null,
+   "mb": "21297739",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privredno-drustvo-za-izgradnju-elektroenergetskih-objekata-elektroistok-izgradnja-doo-beograd-palilu",
+   "name": "Privredno društvo za izgradnju Elektroenergetskih Objekata Elektroistok-Izgradnja DOO, Beograd (Palilula)",
+   "official_name": null,
+   "type": "JP za puteve i izgradnju",
+   "type_slug": "jp-putevi",
+   "place": "Palilula",
+   "settlement": null,
+   "mb": "20055847",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-branko-radicevic-gabrovac-gabrovac",
+   "name": "Osnovna škola \"Branko Radičević\" Gabrovac",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Palilula",
+   "settlement": "Gabrovac",
+   "mb": "07174519",
+   "website": null,
+   "have": {
+    "address": "Pobede 72",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-bubanjski-heroji-nis-palilula",
+   "name": "Osnovna škola \"Bubanjski Heroji\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Palilula",
+   "settlement": "Niš",
+   "mb": "07174357",
+   "website": null,
+   "have": {
+    "address": "Bubanjski Heroji 1",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-desanka-maksimovic-cokot",
+   "name": "Osnovna škola \"Desanka Maksimović\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Palilula",
+   "settlement": "Čokot",
+   "mb": "07174586",
+   "website": null,
+   "have": {
+    "address": "Maršala Tita 18",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-olga-petrov-beograd",
+   "name": "Osnovna škola \"Olga Petrov\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Palilula",
+   "settlement": "Padinska Skela",
+   "mb": "07004389",
+   "website": null,
+   "have": {
+    "address": "Dejana Smiljkovića 9",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  }
+ ]
+}

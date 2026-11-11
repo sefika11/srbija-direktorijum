@@ -1,0 +1,858 @@
+{
+ "id": "find-101",
+ "kind": "sites",
+ "title": "Priboj, Prijepolje, Prokuplje",
+ "rows": [
+  {
+   "org_slug": "korporacija-fabrika-automobila-priboj-akcionarsko-drustvo-priboj-priboj",
+   "name": "Korporacija Fabrika Automobila Priboj, Akcionarsko društvo Priboj",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Priboj",
+   "settlement": null,
+   "mb": "07210434",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "dom-kulture-pivo-karamatijevic-priboj",
+   "name": "Dom kulture \"Pivo Karamatijević\"",
+   "official_name": null,
+   "type": "Kulturni centar / Dom kulture",
+   "type_slug": "kulturni-centar",
+   "place": "Priboj",
+   "settlement": null,
+   "mb": "07111495",
+   "website": null,
+   "have": {
+    "address": "12. Januar",
+    "phones": "033 2454802; 033 2445395",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "gradska-biblioteka-priboj-priboj",
+   "name": "Gradska biblioteka Priboj",
+   "official_name": null,
+   "type": "Narodna biblioteka",
+   "type_slug": "narodna-biblioteka",
+   "place": "Priboj",
+   "settlement": null,
+   "mb": "17186647",
+   "website": null,
+   "have": {
+    "address": "Vuka Karadžića bb",
+    "phones": "033 2452975",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-9-maj-sastavci-priboj",
+   "name": "Osnovna škola \"9. Maj\" Sastavci",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Priboj",
+   "settlement": "Kasidoli",
+   "mb": "07155751",
+   "website": null,
+   "have": {
+    "address": "SASTAVCI bb",
+    "phones": "033 47208",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-blagoje-polic-kratovo-priboj",
+   "name": "Osnovna škola \"Blagoje Polić\" Kratovo",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Priboj",
+   "settlement": "Kratovo",
+   "mb": "07111444",
+   "website": null,
+   "have": {
+    "address": "Kratovo bb",
+    "phones": "033 46048",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-desanka-maksimovic-priboj",
+   "name": "Osnovna škola \"Desanka Maksimović\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Priboj",
+   "settlement": null,
+   "mb": "07356293",
+   "website": null,
+   "have": {
+    "address": "Limska 24",
+    "phones": "033 445553",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-nikola-tesla-banja",
+   "name": "Osnovna škola \"Nikola Tesla\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Priboj",
+   "settlement": "Mažići",
+   "mb": "07111487",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-vuk-karadzic-priboj",
+   "name": "Osnovna škola \"Vuk Karadžić\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Priboj",
+   "settlement": null,
+   "mb": "07111479",
+   "website": null,
+   "have": {
+    "address": "Nemanjina 35",
+    "phones": "033 452087",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "deciji-dispanzer-priboj-n2778658394",
+   "name": "Dečiji dispanzer",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Priboj",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Limska 22",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "ginekoloska-ordinacija-kovacevic-priboj-n13797035623",
+   "name": "Ginekološka Ordinacija Kovačević",
+   "official_name": null,
+   "type": "Privatna ordinacija / klinika",
+   "type_slug": "privatna-ordinacija",
+   "place": "Priboj",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "gradska-sportska-dvorana-doo-priboj-priboj",
+   "name": "Gradska sportska Dvorana DOO Priboj",
+   "official_name": null,
+   "type": "Sportski centar",
+   "type_slug": "sportski-centar",
+   "place": "Priboj",
+   "settlement": null,
+   "mb": "17288938",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "ustanova-za-fizicku-kulturu-sportski-centar-priboj",
+   "name": "Ustanova za Fizičku kulturu \"sportski centar \"",
+   "official_name": null,
+   "type": "Sportski centar",
+   "type_slug": "sportski-centar",
+   "place": "Priboj",
+   "settlement": null,
+   "mb": "07717261",
+   "website": null,
+   "have": {
+    "address": "Radmila Lavrenčića 1",
+    "phones": "033 2452076",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "drustvo-sa-ogranicenom-odgovornoscu-za-ugostiteljsku-delatnost-fap-lim-doo-priboj-u-stecaju-priboj",
+   "name": "Društvo sa ograničenom odgovornošću za Ugostiteljsku delatnost Fap Lim DOO, Priboj - u Stečaju",
+   "official_name": null,
+   "type": "Srednja škola / Gimnazija",
+   "type_slug": "srednja-skola",
+   "place": "Priboj",
+   "settlement": null,
+   "mb": "07657765",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "ugostiteljsko-preduzece-bic-priboj-u-stecaju-priboj",
+   "name": "Ugostiteljsko preduzeće Bić Priboj - u Stečaju",
+   "official_name": null,
+   "type": "Srednja škola / Gimnazija",
+   "type_slug": "srednja-skola",
+   "place": "Priboj",
+   "settlement": null,
+   "mb": "07190557",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "maric-priboj-n2765033530",
+   "name": "Marić",
+   "official_name": null,
+   "type": "Stomatološka ordinacija",
+   "type_slug": "stomatoloska-ordinacija",
+   "place": "Priboj",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "usluga-socijalne-zastite-ustanova-centar-za-razvoj-usluga-socijalne-zastite",
+   "name": "Ustanova-centar ZA Razvoj Usluga Socijalne Zaštite Opštine Priboj",
+   "official_name": null,
+   "type": "Usluga socijalne zaštite",
+   "type_slug": "usluga-socijalne-zastite",
+   "place": "Priboj",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "12. januara br. 5",
+    "phones": "060 5626554",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "centar-za-razvoj-usluga-socijalne-zastite-opstine-priboj-priboj",
+   "name": "Centar za razvoj Usluga socijalne zaštite opštine Priboj",
+   "official_name": null,
+   "type": "Javna ustanova",
+   "type_slug": "ustanova",
+   "place": "Priboj",
+   "settlement": null,
+   "mb": "18377675",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "strujic-priboj-n2767078800",
+   "name": "Strujić",
+   "official_name": null,
+   "type": "Veterinarska stanica / ambulanta",
+   "type_slug": "veterinarska-stanica",
+   "place": "Priboj",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "apoteka-privatna-praksa-tilia-m-prijepolje",
+   "name": "Apoteka privatna praksa \"Tilia M\"",
+   "official_name": null,
+   "type": "Apotekarska ustanova",
+   "type_slug": "apoteka",
+   "place": "Prijepolje",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Vladimira Perića Valtera bb",
+    "phones": "033 712968",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "dom-kulture-prijepolje-prijepolje",
+   "name": "Dom kulture Prijepolje",
+   "official_name": null,
+   "type": "Kulturni centar / Dom kulture",
+   "type_slug": "kulturni-centar",
+   "place": "Prijepolje",
+   "settlement": null,
+   "mb": "07283105",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "muzej-u-prijepolju-prijepolje",
+   "name": "Muzej u Prijepolju",
+   "official_name": null,
+   "type": "Muzej / Arhiv",
+   "type_slug": "muzej",
+   "place": "Prijepolje",
+   "settlement": null,
+   "mb": "07347324",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-muzicka-skola-prijepolje-prijepolje",
+   "name": "Osnovna muzička škola Prijepolje",
+   "official_name": null,
+   "type": "Muzička ili baletska škola",
+   "type_slug": "muzicka-skola",
+   "place": "Prijepolje",
+   "settlement": null,
+   "mb": "17049054",
+   "website": null,
+   "have": {
+    "address": "Sandžačkih Brigada 2",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "biblioteka-vuk-karadzic-prijepolje",
+   "name": "Biblioteka \"Vuk Karadžić\"",
+   "official_name": null,
+   "type": "Narodna biblioteka",
+   "type_slug": "narodna-biblioteka",
+   "place": "Prijepolje",
+   "settlement": null,
+   "mb": "07188285",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-bosko-buha-ivanje-prijepolje",
+   "name": "Osnovna škola \"Boško Buha\" Ivanje",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Prijepolje",
+   "settlement": "Ivanje",
+   "mb": "07111266",
+   "website": null,
+   "have": {
+    "address": "Ivanje bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-dusan-tomasevic-cirko-prijepolje",
+   "name": "Osnovna škola \"Dušan Tomašević-Ćirko\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Prijepolje",
+   "settlement": "Kovačevac",
+   "mb": "07111240",
+   "website": null,
+   "have": {
+    "address": "Paraći bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-mihailo-bakovic-prijepolje",
+   "name": "Osnovna škola \"Mihailo Baković\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Prijepolje",
+   "settlement": "Seljašnica",
+   "mb": "07111312",
+   "website": null,
+   "have": {
+    "address": "Seljašnica bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-milosav-stikovic-prijepolje",
+   "name": "Osnovna škola \"Milosav Stiković\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Prijepolje",
+   "settlement": null,
+   "mb": "07110944",
+   "website": null,
+   "have": {
+    "address": "Pionirska 1",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-sveti-sava-prijepolje-prijepolje",
+   "name": "Osnovna škola \"Sveti Sava\" Prijepolje",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Prijepolje",
+   "settlement": null,
+   "mb": "07320566",
+   "website": null,
+   "have": {
+    "address": "Lole Ribara 1",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-svetozar-markovic-prijepolje",
+   "name": "Osnovna škola \"Svetozar Marković\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Prijepolje",
+   "settlement": "Brodarevo",
+   "mb": "07111231",
+   "website": null,
+   "have": {
+    "address": "Pionirska 1",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-vladimir-peric-valter-prijepolje",
+   "name": "Osnovna škola \"Vladimir Perić-Valter\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Prijepolje",
+   "settlement": null,
+   "mb": "07111304",
+   "website": null,
+   "have": {
+    "address": "Sandžačkih Brigada 13",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "ekonomsko-trgovinska-skola-prijepolje-prijepolje",
+   "name": "Ekonomsko-Trgovinska škola Prijepolje",
+   "official_name": null,
+   "type": "Srednja škola / Gimnazija",
+   "type_slug": "srednja-skola",
+   "place": "Prijepolje",
+   "settlement": null,
+   "mb": "07575122",
+   "website": null,
+   "have": {
+    "address": "4.Decembra 3",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "prijepoljska-gimnazija-prijepolje",
+   "name": "Prijepoljska gimnazija",
+   "official_name": null,
+   "type": "Srednja škola / Gimnazija",
+   "type_slug": "srednja-skola",
+   "place": "Prijepolje",
+   "settlement": null,
+   "mb": "07341423",
+   "website": null,
+   "have": {
+    "address": "4 Decembar 3",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "dentist-prijepolje-n6066186927",
+   "name": "Dentist+",
+   "official_name": null,
+   "type": "Stomatološka ordinacija",
+   "type_slug": "stomatoloska-ordinacija",
+   "place": "Prijepolje",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "usluga-socijalne-zastite-centar-za-socijalni-rad-prijepolje-prijepolje",
+   "name": "Centar ZA Socijalni Rad \"prijepolje\"",
+   "official_name": null,
+   "type": "Usluga socijalne zaštite",
+   "type_slug": "usluga-socijalne-zastite",
+   "place": "Prijepolje",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Sandžačkih brigada br. 11",
+    "phones": "033 712033; 033 716029; 064 8979012",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "ustanova-za-sport-i-omladinu-prijepolje-prijepolje",
+   "name": "Ustanova za sport i omladinu Prijepolje",
+   "official_name": null,
+   "type": "Javna ustanova",
+   "type_slug": "ustanova",
+   "place": "Prijepolje",
+   "settlement": null,
+   "mb": "18828243",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "veterinarska-radnja-vet-ars-prijepolje-n9818219086",
+   "name": "Veterinarska radnja „Vet.Ars”",
+   "official_name": null,
+   "type": "Veterinarska stanica / ambulanta",
+   "type_slug": "veterinarska-stanica",
+   "place": "Prijepolje",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "agencija-za-zaposljavanje-projob-partners-kp-doo-prokuplje-prokuplje",
+   "name": "ProJob Partners KP DOO Prokuplje",
+   "official_name": null,
+   "type": "Agencija za zapošljavanje",
+   "type_slug": "agencija-za-zaposljavanje",
+   "place": "Prokuplje",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Knez Mihajlova br.19",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "apoteka-privatna-praksa-lek-prokuplje",
+   "name": "Apoteka privatna praksa \"Lek\"",
+   "official_name": null,
+   "type": "Apotekarska ustanova",
+   "type_slug": "apoteka",
+   "place": "Prokuplje",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Ratka Pavlovića bb",
+    "phones": "027 323317",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "zdravstvena-ustanova-apoteka-prokuplje-prokuplje",
+   "name": "Zdravstvena ustanova apoteka \"Prokuplje\"",
+   "official_name": null,
+   "type": "Apotekarska ustanova",
+   "type_slug": "apoteka",
+   "place": "Prokuplje",
+   "settlement": null,
+   "mb": "17217607",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": "027 321449",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "dom-za-stare-dom-za-smestaj-i-negu-starih-lica-prokulje-prokuplje",
+   "name": "Dom ZA Smeštaj I Negu Starih Lica \"prokulje\"",
+   "official_name": null,
+   "type": "Gerontološki centar / ustanova socijalne zaštite",
+   "type_slug": "gerontoloski-centar",
+   "place": "Prokuplje",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Arsenija Čarnojevića br.51",
+    "phones": "027 8150109; 062 319661",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  }
+ ]
+}

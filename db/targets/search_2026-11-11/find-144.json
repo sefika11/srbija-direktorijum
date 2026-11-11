@@ -1,0 +1,859 @@
+{
+ "id": "find-144",
+ "kind": "sites",
+ "title": "Ćuprija, Čajetina, Ćićevac",
+ "rows": [
+  {
+   "org_slug": "obivet-beograd-n9024856194",
+   "name": "Obivet",
+   "official_name": null,
+   "type": "Veterinarska stanica / ambulanta",
+   "type_slug": "veterinarska-stanica",
+   "place": "Zvezdara",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": "064 1885215",
+    "hours": "Mo-Fr 11:00-20:00; Sa 12:00-18:00"
+   },
+   "need": [
+    "address",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "veterinarska-ambulanta-beograd-n11732313312",
+   "name": "Veterinarska ambulanta",
+   "official_name": null,
+   "type": "Veterinarska stanica / ambulanta",
+   "type_slug": "veterinarska-stanica",
+   "place": "Zvezdara",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "akademija-strukovnih-studija-politehnika-beograd-zvezdara",
+   "name": "Akademija Strukovnih Studija Politehnika",
+   "official_name": null,
+   "type": "Visoka škola / akademija strukovnih studija",
+   "type_slug": "visoka-skola",
+   "place": "Zvezdara",
+   "settlement": "Beograd",
+   "mb": "18376717",
+   "website": null,
+   "have": {
+    "address": "Katarine Ambrozić 3",
+    "phones": "011 6410990",
+    "hours": "Pon-Pet 07:00-15:00"
+   },
+   "need": [
+    "website"
+   ]
+  },
+  {
+   "org_slug": "drustveno-preduzece-za-poljoprivrednu-proizvoodnju-i-promet-stalac-sa-potpunom-odgovornoscu-u-stecaj",
+   "name": "Društveno preduzeće za Poljoprivrednu Proizvoodnju i Promet Stalać sa Potpunom odgovornošću- u Stečaju",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Ćićevac",
+   "settlement": "Stalać",
+   "mb": "07191545",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-stambeno-preduzece-razvitak-cicevac-cicevac",
+   "name": "Javno Komunalno-Stambeno preduzeće Razvitak, Ćićevac",
+   "official_name": null,
+   "type": "JKP Čistoća / Komunalac",
+   "type_slug": "jkp-cistoca",
+   "place": "Ćićevac",
+   "settlement": null,
+   "mb": "07175019",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": "037 811137; 037 811384; 037 812971",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "jp-putevi-cicevac-cicevac-cicevac",
+   "name": "JP Putevi Ćićevac, Ćićevac",
+   "official_name": null,
+   "type": "JP za puteve i izgradnju",
+   "type_slug": "jp-putevi",
+   "place": "Ćićevac",
+   "settlement": null,
+   "mb": "17258940",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "narodna-biblioteka-cicevac-cicevac",
+   "name": "Narodna biblioteka \"Ćićevac\"",
+   "official_name": null,
+   "type": "Narodna biblioteka",
+   "type_slug": "narodna-biblioteka",
+   "place": "Ćićevac",
+   "settlement": null,
+   "mb": "17778927",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-dositej-obradovic-cicevac",
+   "name": "Osnovna škola \"Dositej Obradović\"",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Ćićevac",
+   "settlement": null,
+   "mb": "07175051",
+   "website": null,
+   "have": {
+    "address": "Đure Daničića 6",
+    "phones": "037 811761",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-vojvoda-prijezda-stalac-cicevac",
+   "name": "Osnovna škola \"Vojvoda Prijezda\" Stalać",
+   "official_name": null,
+   "type": "Osnovna škola",
+   "type_slug": "osnovna-skola",
+   "place": "Ćićevac",
+   "settlement": "Stalać",
+   "mb": "07175027",
+   "website": null,
+   "have": {
+    "address": "Stevana Sinđelića 4",
+    "phones": "037 806105",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-carolija-cicevac",
+   "name": "Predškolska ustanova \"Čarolija\"",
+   "official_name": null,
+   "type": "Predškolska ustanova (vrtić)",
+   "type_slug": "predskolska-ustanova",
+   "place": "Ćićevac",
+   "settlement": null,
+   "mb": "07291825",
+   "website": null,
+   "have": {
+    "address": "Jove Kursule 3",
+    "phones": "037 811354",
+    "hours": "06:00-16:00"
+   },
+   "need": [
+    "website"
+   ]
+  },
+  {
+   "org_slug": "javna-ustanova-sportski-centar-stalac-grad-stalac-cicevac",
+   "name": "Javna ustanova \"sportski centar\" Stalać-Grad Stalać",
+   "official_name": null,
+   "type": "Sportski centar",
+   "type_slug": "sportski-centar",
+   "place": "Ćićevac",
+   "settlement": null,
+   "mb": "17876937",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "sportski-centar-cicevac-cicevac",
+   "name": "Sportski centar Ćićevac",
+   "official_name": null,
+   "type": "Sportski centar",
+   "type_slug": "sportski-centar",
+   "place": "Ćićevac",
+   "settlement": null,
+   "mb": "17120875",
+   "website": null,
+   "have": {
+    "address": "Đure Daničića bb",
+    "phones": "037 811795; 037 812123",
+    "hours": "07:00-00:00"
+   },
+   "need": [
+    "address",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "heroldo-cuprija-n6805694590",
+   "name": "Heroldo",
+   "official_name": null,
+   "type": "Agencija za nekretnine",
+   "type_slug": "agencija-za-nekretnine",
+   "place": "Ćuprija",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "winner-team-cuprija-n14096736846",
+   "name": "Winner Team",
+   "official_name": null,
+   "type": "Agencija za nekretnine",
+   "type_slug": "agencija-za-nekretnine",
+   "place": "Ćuprija",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "agencija-za-privremeno-zaposljavanje-daik-doo-cuprija-cuprija",
+   "name": "Agencija ZA Privremeno Zapošljavanje Daik DOO Ćuprija",
+   "official_name": null,
+   "type": "Agencija za zapošljavanje",
+   "type_slug": "agencija-za-zaposljavanje",
+   "place": "Ćuprija",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Dositeja Obradovića 9",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-cuprija-cuprija",
+   "name": "Dom zdravlja Ćuprija",
+   "official_name": null,
+   "type": "Dom zdravlja",
+   "type_slug": "dom-zdravlja",
+   "place": "Ćuprija",
+   "settlement": null,
+   "mb": "17688421",
+   "website": null,
+   "have": {
+    "address": "Kneza Miloša bb",
+    "phones": "035 8473315",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-plava-laguna-cuprija",
+   "name": "Plava laguna",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Ćuprija",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Ravanička 4",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "drustveno-preduzece-za-promet-trgovinskom-robom-na-veliko-i-malo-angropromet-cuprija-u-stecaju-cupri",
+   "name": "Društveno preduzeće za Promet Trgovinskom Robom na Veliko i Malo Angropromet Ćuprija - u Stečaju",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Ćuprija",
+   "settlement": null,
+   "mb": "07165552",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "preduzece-za-inzenjering-i-projektovanje-mip-inzenjering-doo-cuprija-u-stecaju-cuprija",
+   "name": "Preduzeće za Inženjering i Projektovanje Mip-Inženjering DOO Ćuprija - u Stečaju",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Ćuprija",
+   "settlement": null,
+   "mb": "07840322",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "veterinarska-ustanova-napredak-cuprija",
+   "name": "Veterinarska ustanova \"Napredak\"",
+   "official_name": null,
+   "type": "Javno preduzeće / društvo",
+   "type_slug": "javno-preduzece",
+   "place": "Ćuprija",
+   "settlement": null,
+   "mb": "17366343",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "javna-agencija-za-zoohigijenu-u-likvidaciji-cuprija",
+   "name": "Javna agencija za Zoohigijenu- u Likvidaciji",
+   "official_name": null,
+   "type": "JKP Čistoća / Komunalac",
+   "type_slug": "jkp-cistoca",
+   "place": "Ćuprija",
+   "settlement": null,
+   "mb": "17862804",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "javno-preduzece-za-obavljanje-komunalne-delatnosti-zoohigijene-zoohigijena-cuprija-cuprija-cuprija",
+   "name": "Javno Preduzeće za Obavljanje Komunalne Delatnosti Zoohigijene Zoohigijena Ćuprija Ćuprija",
+   "official_name": null,
+   "type": "JKP Čistoća / Komunalac",
+   "type_slug": "jkp-cistoca",
+   "place": "Ćuprija",
+   "settlement": null,
+   "mb": "21122742",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "j-p-direkcija-za-izgradnju-i-uredjenje-opstine-cuprija-cuprija-u-likvidaciji-cuprija",
+   "name": "J.P. direkcija za izgradnju i Uređenje opštine Ćuprija Ćuprija - u Likvidaciji",
+   "official_name": null,
+   "type": "JP Urbanizam / Direkcija za izgradnju",
+   "type_slug": "jp-urbanizam",
+   "place": "Ćuprija",
+   "settlement": null,
+   "mb": "17122762",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "usluga-socijalne-zastite-udruzenje-gradjana-herz-24-cuprija-cuprija",
+   "name": "Udruženje Građana ''herz 24'' Ćuprija",
+   "official_name": null,
+   "type": "Usluga socijalne zaštite",
+   "type_slug": "usluga-socijalne-zastite",
+   "place": "Ćuprija",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Karađorđeva 49",
+    "phones": "035 8871473; 063 1226239; 062 405077",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "centar-za-porodicni-smestaj-i-usvojenje-cuprija-cuprija",
+   "name": "Centar za Porodični Smeštaj i Usvojenje Ćuprija",
+   "official_name": null,
+   "type": "Javna ustanova",
+   "type_slug": "ustanova",
+   "place": "Ćuprija",
+   "settlement": null,
+   "mb": "17820583",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "kazneno-popravni-zavod-u-cupriji-cuprija",
+   "name": "Kazneno-Popravni zavod u Ćupriji",
+   "official_name": null,
+   "type": "Javna ustanova",
+   "type_slug": "ustanova",
+   "place": "Ćuprija",
+   "settlement": null,
+   "mb": "17621432",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "ustanova-kulture-cuprija-cuprija",
+   "name": "Ustanova kulture \"Ćuprija\"",
+   "official_name": null,
+   "type": "Javna ustanova",
+   "type_slug": "ustanova",
+   "place": "Ćuprija",
+   "settlement": null,
+   "mb": "17877143",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "apotekarska-ustanova-iva-zlatibor",
+   "name": "Apotekarska ustanova \"Iva\"",
+   "official_name": null,
+   "type": "Apotekarska ustanova",
+   "type_slug": "apoteka",
+   "place": "Čajetina",
+   "settlement": null,
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Tržni centar Jezero bb",
+    "phones": "031 846263",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-cajetina-cajetina",
+   "name": "Centar za socijalni rad Čajetina",
+   "official_name": null,
+   "type": "Centar za socijalni rad",
+   "type_slug": "centar-za-socijalni-rad",
+   "place": "Čajetina",
+   "settlement": null,
+   "mb": "07401841",
+   "website": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-agape-zlatibor-zlatibor",
+   "name": "Agape Zlatibor",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Čajetina",
+   "settlement": "Zlatibor",
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Sportova bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-bor-zlatibor",
+   "name": "Bor",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Čajetina",
+   "settlement": "Zlatibor",
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Drinske Divizije 40",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-buket-zlatibor",
+   "name": "Buket",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Čajetina",
+   "settlement": "Zlatibor",
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Strahinje Popovića 3",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-grand-tornik-zlatibor",
+   "name": "Grand Tornik",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Čajetina",
+   "settlement": "Zlatibor",
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Alekse Popovića 2",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-iris-zlatibor",
+   "name": "Iris",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Čajetina",
+   "settlement": "Zlatibor",
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Ćaldov Put bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-mir-zlatibor",
+   "name": "Mir",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Čajetina",
+   "settlement": "Zlatibor",
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Jovanke Jeftanović 125",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-mona-plaza-zlatibor",
+   "name": "Mona Plaza",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Čajetina",
+   "settlement": "Zlatibor",
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Miladina Pećinara 26",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-mons-sa-depandansom-zlatibor",
+   "name": "Mons sa depandansom",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Čajetina",
+   "settlement": "Zlatibor",
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Ćaldov Put bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-mountain-resort-spa-zlatibor",
+   "name": "Mountain Resort & Spa",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Čajetina",
+   "settlement": "Zlatibor",
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Miladina Pećinara 31a",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-olimp-zlatibor",
+   "name": "Olimp",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Čajetina",
+   "settlement": "Zlatibor",
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Miladina Pećinara 1",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-palisad-zlatibor",
+   "name": "Palisad",
+   "official_name": null,
+   "type": "Hotel (kategorisani smeštaj)",
+   "type_slug": "hotel",
+   "place": "Čajetina",
+   "settlement": "Zlatibor",
+   "mb": null,
+   "website": null,
+   "have": {
+    "address": "Zlatibor bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  }
+ ]
+}
