@@ -259,3 +259,9 @@ we do not hold yet).
 - Still open: 3,459 institutions with no known site and no register (small pharmacies, public enterprises, local bodies,
   private practices), 3,888 community offices, village school and kindergarten units (the page shows the seat's contact),
   exchange offices and geodetic firms (registers give an address only), 102 official branches to import.
+- Hours parser (`importers/common/normalize.py: parse_hours`) kept only the first range of a text, so "pon-pet 07-20; sub 07-14"
+  lost Saturday and "Tu,Th 08-11" was stored as Monday to Friday. It now reads every part (weekend parts, day lists, map-data
+  days, closed days), keeps the main hours when a later part is a sub-service ("rad sa novcem"), and parses nothing when
+  parts contradict each other or name no weekday (seasons, departments): the text is shown instead. `tools/reach/reparse_hours.py`
+  re-read 2,708 stored locations whose rows were exactly the old parser's output (2,361 gained days, 281 corrected, 66 now
+  show their text); before-state in `db/fixes/reparsed_hours_2026-11-11_*.json`.
