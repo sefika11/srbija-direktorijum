@@ -1,0 +1,69 @@
+{
+ "chunk": "pu-61",
+ "institutions": [
+  {
+   "org_slug": "predskolska-ustanova-crvenkapa-mali-zvornik",
+   "name": "Predškolska ustanova \"Crvenkapa\"",
+   "type": "predskolska-ustanova",
+   "website": null,
+   "municipality": "Mali Zvornik",
+   "seat_address": "Drinska 7",
+   "seat_phone": null,
+   "units": [
+    {
+     "location_id": 46283,
+     "name": "Objekat \"Cvrčak\" u Donjem Naselju",
+     "municipality": "Mali Zvornik"
+    }
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-poletarac-svrljig",
+   "name": "Predškolska ustanova \"Poletarac\"",
+   "type": "predskolska-ustanova",
+   "website": null,
+   "municipality": "Svrljig",
+   "seat_address": "Gordane Todorović 1",
+   "seat_phone": null,
+   "units": [
+    {
+     "location_id": 45503,
+     "name": "Predškolska ustanova Poletarac - Drajinac",
+     "municipality": "Svrljig"
+    }
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-moravski-cvet-zabari",
+   "name": "Predškolska ustanova \"Moravski Cvet\"",
+   "type": "predskolska-ustanova",
+   "website": null,
+   "municipality": "Žabari",
+   "seat_address": "Dragoslava Vesića 12",
+   "seat_phone": null,
+   "units": [
+    {
+     "location_id": 45878,
+     "name": "\"Pčelica\"",
+     "municipality": "Žabari"
+    }
+   ]
+  },
+  {
+   "org_slug": "privatni-vrtic-predskolska-ustanova-abc-step-by-step-beograd",
+   "name": "Predškolska ustanova „ABC Step by Step“",
+   "type": "privatni-vrtic",
+   "website": null,
+   "municipality": "Beograd",
+   "seat_address": "Pustorečka 7",
+   "seat_phone": null,
+   "units": [
+    {
+     "location_id": 47053,
+     "name": "ABC Step by Step - Novi Beograd",
+     "municipality": "Čukarica"
+    }
+   ]
+  }
+ ]
+}

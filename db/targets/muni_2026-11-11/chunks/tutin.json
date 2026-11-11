@@ -1,0 +1,874 @@
+{
+ "municipality": "Tutin",
+ "municipality_slug": "tutin",
+ "municipality_site": null,
+ "chunk": "tutin",
+ "of": 1,
+ "rows": [
+  {
+   "org_slug": "apoteka-privatna-praksa-s-pharm-tutin",
+   "name": "Apoteka privatna praksa \"S Pharm\"",
+   "official_name": null,
+   "type_slug": "apoteka",
+   "type": "Apotekarska ustanova",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": "Pešterska bb",
+    "phones": null,
+    "email": "spharmapoteka@gmail.com",
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-tutin-tutin",
+   "name": "Centar za socijalni rad Tutin",
+   "official_name": "CENTAR ZA SOCIJALNI RAD TUTIN",
+   "type_slug": "centar-za-socijalni-rad",
+   "type": "Centar za socijalni rad",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-ribarice-ribarice",
+   "name": "Javno komunalno preduzeće , Ribariće",
+   "official_name": "JAVNO KOMUNALNO PREDUZEĆE , RIBARIĆE",
+   "type_slug": "jkp-cistoca",
+   "type": "JKP Čistoća / Komunalac",
+   "website": "https://www.tutin.rs/jkp-ribarice/",
+   "settlement": "Ribariće",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-stambeno-preduzece-gradac-tutin-tutin",
+   "name": "Javno komunalno stambeno preduzeće Gradac Tutin",
+   "official_name": "JAVNO KOMUNALNO STAMBENO PREDUZEĆE GRADAC TUTIN",
+   "type_slug": "jkp-cistoca",
+   "type": "JKP Čistoća / Komunalac",
+   "website": "https://www.tutin.rs/preduzeca/jksp-gradac-tutin-2-2/",
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "kulturni-centar-tutin-tutin",
+   "name": "Kulturni centar Tutin",
+   "official_name": "KULTURNI CENTAR TUTIN",
+   "type_slug": "kulturni-centar",
+   "type": "Kulturni centar / Dom kulture",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "narodna-biblioteka-dr-ejup-musovic-tutin",
+   "name": "Narodna biblioteka \"Dr Ejup Mušović\"",
+   "official_name": "NARODNA BIBLIOTEKA \"DR EJUP MUŠOVIĆ\"",
+   "type_slug": "narodna-biblioteka",
+   "type": "Narodna biblioteka",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstinsko-pravobranilastvo-opstine-tutin-tutin",
+   "name": "Opštinsko Pravobranilaštvo opštine Tutin",
+   "official_name": "OPŠTINSKO PRAVOBRANILAŠTVO OPŠTINE TUTIN",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstinsko-vece-opstine-tutin-tutin",
+   "name": "Opštinsko veće opštine Tutin",
+   "official_name": "OPŠTINSKO VEĆE OPŠTINE TUTIN",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "predsednik-opstine-tutin-tutin",
+   "name": "Predsednik opštine Tutin",
+   "official_name": "PREDSEDNIK OPŠTINE TUTIN",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skupstina-opstine-tutin-tutin",
+   "name": "Skupština opštine Tutin",
+   "official_name": "SKUPŠTINA OPŠTINE TUTIN",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-aleksa-djilas-beca-mojstir-tutin",
+   "name": "Osnovna škola \"Aleksa Đilas-Beća\" Mojstir",
+   "official_name": "OSNOVNA ŠKOLA \"ALEKSA ĐILAS-BEĆA\" MOJSTIR",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-aleksa-santic-crkvine-tutin",
+   "name": "Osnovna škola \"Aleksa Šantić\" Crkvine",
+   "official_name": "OSNOVNA ŠKOLA \"ALEKSA ŠANTIĆ\" CRKVINE",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Crkvine",
+   "have": {
+    "address": "Crkvine bb",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-dr-ibrahim-bakic-leskova-tutin",
+   "name": "Osnovna škola \"Dr Ibrahim Bakić\" Leskova",
+   "official_name": "OSNOVNA ŠKOLA \"DR IBRAHIM BAKIĆ\" LESKOVA",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Leskova",
+   "have": {
+    "address": "Leskova 20",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-mesa-selimovic-ribarice-tutin",
+   "name": "Osnovna škola \"Meša Selimović\" Ribariće",
+   "official_name": "OSNOVNA ŠKOLA \"MEŠA SELIMOVIĆ\" RIBARIĆE",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Ribariće",
+   "have": {
+    "address": "Ribariće bb",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-rifat-burdzovic-trso-tutin",
+   "name": "Osnovna škola \"Rifat Burdžović-Tršo\"",
+   "official_name": "OSNOVNA ŠKOLA \"RIFAT BURDŽOVIĆ-TRŠO\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Tutin",
+   "have": {
+    "address": "Njegoševa 15",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-vuk-karadzic-tutin-tutin",
+   "name": "Osnovna škola \"Vuk Karadžić\" Tutin",
+   "official_name": "OSNOVNA ŠKOLA \"VUK KARADŽIĆ\" TUTIN",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Tutin",
+   "have": {
+    "address": "Njegoševa 13",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-habiba-stocevic-tutin",
+   "name": "Predškolska ustanova \"Habiba Stočević\"",
+   "official_name": "PREDŠKOLSKA USTANOVA \"HABIBA STOČEVIĆ\"",
+   "type_slug": "predskolska-ustanova",
+   "type": "Predškolska ustanova (vrtić)",
+   "website": null,
+   "settlement": "Tutin",
+   "have": {
+    "address": "7.Jula 16",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "gimnazija-tutin-tutin",
+   "name": "Gimnazija Tutin",
+   "official_name": "GIMNAZIJA TUTIN",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Tutin",
+   "have": {
+    "address": "7.Jula 18",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-maticna-skola-25-maj-delimedje-tutin",
+   "name": "Osnovna Matična škola \"25. Maj\" Delimeđe",
+   "official_name": "OSNOVNA MATIČNA ŠKOLA \"25. MAJ\" DELIMEĐE",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "tehnicka-skola-tutin-tutin",
+   "name": "Tehnička škola Tutin",
+   "official_name": "TEHNIČKA ŠKOLA TUTIN",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Tutin",
+   "have": {
+    "address": "7.Jula 18",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "dom-za-lica-mentalno-ometena-u-razvoju-tutin",
+   "name": "Dom za lica Mentalno Ometena u Razvoju",
+   "official_name": "DOM ZA LICA MENTALNO OMETENA U RAZVOJU",
+   "type_slug": "ustanova",
+   "type": "Javna ustanova",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "ustanova-za-omladinu-i-sport-tutin-tutin",
+   "name": "Ustanova za omladinu i sport Tutin",
+   "official_name": "USTANOVA ZA OMLADINU I SPORT TUTIN",
+   "type_slug": "ustanova",
+   "type": "Javna ustanova",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-biohane-tutin",
+   "name": "Mesna zajednica Biohane",
+   "official_name": "MESNA ZAJEDNICA BIOHANE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-bujkovice-tutin",
+   "name": "Mesna zajednica Bujkoviće",
+   "official_name": "MESNA ZAJEDNICA BUJKOVIĆE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-crkvine-tutin",
+   "name": "Mesna zajednica Crkvine",
+   "official_name": "MESNA ZAJEDNICA CRKVINE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-delimedje-tutin",
+   "name": "Mesna zajednica Delimeđe",
+   "official_name": "MESNA ZAJEDNICA DELIMEĐE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-detane-tutin",
+   "name": "Mesna zajednica Detane",
+   "official_name": "MESNA ZAJEDNICA DETANE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-dobrinje-tutin",
+   "name": "Mesna zajednica Dobrinje",
+   "official_name": "MESNA ZAJEDNICA DOBRINJE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-dolovo-tutin",
+   "name": "Mesna zajednica Dolovo",
+   "official_name": "MESNA ZAJEDNICA DOLOVO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-draga-tutin",
+   "name": "Mesna zajednica Draga",
+   "official_name": "MESNA ZAJEDNICA DRAGA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-dubovo-tutin",
+   "name": "Mesna zajednica Dubovo",
+   "official_name": "MESNA ZAJEDNICA DUBOVO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-konice-tutin",
+   "name": "Mesna zajednica Koniče",
+   "official_name": "MESNA ZAJEDNICA KONIČE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-leskova-tutin",
+   "name": "Mesna zajednica Leskova",
+   "official_name": "MESNA ZAJEDNICA LESKOVA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-melaje-tutin",
+   "name": "Mesna zajednica Melaje",
+   "official_name": "MESNA ZAJEDNICA MELAJE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-mojstir-tutin",
+   "name": "Mesna zajednica Mojstir",
+   "official_name": "MESNA ZAJEDNICA MOJSTIR",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-morani-tutin",
+   "name": "Mesna zajednica Morani",
+   "official_name": "MESNA ZAJEDNICA MORANI",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-orlje-tutin",
+   "name": "Mesna zajednica Orlje",
+   "official_name": "MESNA ZAJEDNICA ORLJE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-rezevice-tutin",
+   "name": "Mesna zajednica Reževiće",
+   "official_name": "MESNA ZAJEDNICA REŽEVIĆE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-ribarice-tutin",
+   "name": "Mesna zajednica Ribariće",
+   "official_name": "MESNA ZAJEDNICA RIBARIĆE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-suvi-do-tutin",
+   "name": "Mesna zajednica Suvi do",
+   "official_name": "MESNA ZAJEDNICA SUVI DO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-tutin-tutin",
+   "name": "Mesna zajednica Tutin",
+   "official_name": "MESNA ZAJEDNICA TUTIN",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-zirce-tutin",
+   "name": "Mesna zajednica Žirče",
+   "official_name": "MESNA ZAJEDNICA ŽIRČE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "peta-gradska-mesna-zajednica-tutin",
+   "name": "Peta gradska mesna zajednica",
+   "official_name": "PETA GRADSKA MESNA ZAJEDNICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "prva-mesna-zajednica-tutin-tutin",
+   "name": "Prva mesna zajednica Tutin",
+   "official_name": "PRVA MESNA ZAJEDNICA TUTIN",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "treca-mesna-zajednica-tutin-tutin",
+   "name": "Treća mesna zajednica Tutin",
+   "official_name": "TREĆA MESNA ZAJEDNICA TUTIN",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "cetvrta-mesna-zajednica-tutin-tutin",
+   "name": "Četvrta mesna zajednica Tutin",
+   "official_name": "ČETVRTA MESNA ZAJEDNICA TUTIN",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  }
+ ]
+}

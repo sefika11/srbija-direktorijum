@@ -1,0 +1,972 @@
+{
+ "municipality": "Despotovac",
+ "municipality_slug": "despotovac",
+ "municipality_site": null,
+ "chunk": "despotovac",
+ "of": 1,
+ "rows": [
+  {
+   "org_slug": "centar-za-socijalni-rad-despotovac-despotovac",
+   "name": "Centar za socijalni rad \"Despotovac\"",
+   "official_name": "CENTAR ZA SOCIJALNI RAD \"DESPOTOVAC\"",
+   "type_slug": "centar-za-socijalni-rad",
+   "type": "Centar za socijalni rad",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "javno-preduzece-za-podzemnu-eksploataciju-uglja-resavica-resavica",
+   "name": "Javno preduzeće za Podzemnu Eksploataciju Uglja Resavica",
+   "official_name": "JAVNO PREDUZEĆE ZA PODZEMNU EKSPLOATACIJU UGLJA RESAVICA",
+   "type_slug": "javno-preduzece",
+   "type": "Javno preduzeće / društvo",
+   "website": null,
+   "settlement": "Resavica",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "javno-preduzece-za-zastitu-prirode-razvoj-turizma-i-ugostiteljstvo-resavska-pecina-despotovac-despot",
+   "name": "Javno preduzeće za zaštitu Prirode, razvoj turizma i Ugostiteljstvo, Resavska Pećina, Despotovac",
+   "official_name": "JAVNO PREDUZEĆE ZA ZAŠTITU PRIRODE, RAZVOJ TURIZMA I UGOSTITELJSTVO, RESAVSKA PEĆINA, DESPOTOVAC",
+   "type_slug": "javno-preduzece",
+   "type": "Javno preduzeće / društvo",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "preduzece-zatransportne-usluge-odrzavanje-i-popravku-motornih-vozila-rembas-trans-doo-resavica-resav",
+   "name": "Preduzeće Zatransportne Usluge, održavanje i Popravku Motornih Vozila Rembas Trans DOO Resavica",
+   "official_name": "PREDUZEĆE ZATRANSPORTNE USLUGE, ODRŽAVANJE I POPRAVKU MOTORNIH VOZILA REMBAS TRANS DOO RESAVICA",
+   "type_slug": "javno-preduzece",
+   "type": "Javno preduzeće / društvo",
+   "website": null,
+   "settlement": "Resavica",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "preduzece-za-ugostiteljstvo-povrtarstvo-stocarstvo-proizvodnju-mleka-i-trgovinu-djula-doo-resavica-r",
+   "name": "Preduzeće za Ugostiteljstvo, Povrtarstvo, Stočarstvo, proizvodnju Mleka i Trgovinu Đula DOO Resavica",
+   "official_name": "PREDUZEĆE ZA UGOSTITELJSTVO, POVRTARSTVO, STOČARSTVO, PROIZVODNJU MLEKA I TRGOVINU ĐULA DOO RESAVICA",
+   "type_slug": "javno-preduzece",
+   "type": "Javno preduzeće / društvo",
+   "website": null,
+   "settlement": "Resavica",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "komunalno-stambeno-preduzece-stan-jp-despotovac-despotovac",
+   "name": "Komunalno stambeno preduzeće Stan JP, Despotovac",
+   "official_name": "KOMUNALNO STAMBENO PREDUZEĆE STAN JP, DESPOTOVAC",
+   "type_slug": "jkp-cistoca",
+   "type": "JKP Čistoća / Komunalac",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "centar-za-kulturu-sveti-stefan-despot-srpski-despotovac",
+   "name": "Centar za kulturu \"Sveti Stefan Despot Srpski\"",
+   "official_name": "CENTAR ZA KULTURU \"SVETI STEFAN DESPOT SRPSKI\"",
+   "type_slug": "kulturni-centar",
+   "type": "Kulturni centar / Dom kulture",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstina-despotovac-opstinska-uprava-despotovac",
+   "name": "Opština Despotovac - opštinska uprava",
+   "official_name": "OPŠTINA DESPOTOVAC - OPŠTINSKA UPRAVA",
+   "type_slug": "opstinska-uprava",
+   "type": "Opštinska uprava",
+   "website": "https://www.despotovac.rs/",
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstina-despotovac-opstinsko-vece-despotovac",
+   "name": "Opština Despotovac - Opštinsko veće",
+   "official_name": "OPŠTINA DESPOTOVAC - OPŠTINSKO VEĆE",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstina-despotovac-pravobranilac-opstine-despotovac-despotovac",
+   "name": "Opština Despotovac - Pravobranilac opštine Despotovac",
+   "official_name": "OPŠTINA DESPOTOVAC - PRAVOBRANILAC OPŠTINE DESPOTOVAC",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstina-despotovac-predsednik-opstine-despotovac",
+   "name": "Opština Despotovac - Predsednik opštine",
+   "official_name": "OPŠTINA DESPOTOVAC - PREDSEDNIK OPŠTINE",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstina-despotovac-skupstina-opstine-despotovac",
+   "name": "Opština Despotovac - skupština opštine",
+   "official_name": "OPŠTINA DESPOTOVAC - SKUPŠTINA OPŠTINE",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-despot-stefan-visoki-despotovac",
+   "name": "Osnovna škola \"Despot Stefan Visoki\"",
+   "official_name": "OSNOVNA ŠKOLA \"DESPOT STEFAN VISOKI\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Despotovac",
+   "have": {
+    "address": "Rudnička 10",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-stefan-nemanja-stenjevac-despotovac",
+   "name": "Osnovna škola \"Stefan Nemanja\" Stenjevac",
+   "official_name": "OSNOVNA ŠKOLA \"STEFAN NEMANJA\" STENJEVAC",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-stevan-sindjelic-veliki-popovic-despotovac",
+   "name": "Osnovna škola \"Stevan Sinđelić\" Veliki Popović",
+   "official_name": "OSNOVNA ŠKOLA \"STEVAN SINĐELIĆ\" VELIKI POPOVIĆ",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Veliki Popović",
+   "have": {
+    "address": "Veliki Popović bb",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-vuk-karadzic-resavica-despotovac",
+   "name": "Osnovna škola \"Vuk Karadžić\" Resavica",
+   "official_name": "OSNOVNA ŠKOLA \"VUK KARADŽIĆ\" RESAVICA",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Resavica",
+   "have": {
+    "address": "6 Avgust 21",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-djura-jaksic-plazane-despotovac",
+   "name": "Osnovna škola \"Đura Jakšić\" Plažane",
+   "official_name": "OSNOVNA ŠKOLA \"ĐURA JAKŠIĆ\" PLAŽANE",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Plažane",
+   "have": {
+    "address": "Plažane bb",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-rada-miljkovic-despotovac",
+   "name": "Predškolska ustanova \"rada Miljković\"",
+   "official_name": "PREDŠKOLSKA USTANOVA \"RADA MILJKOVIĆ\"",
+   "type_slug": "predskolska-ustanova",
+   "type": "Predškolska ustanova (vrtić)",
+   "website": null,
+   "settlement": "Despotovac",
+   "have": {
+    "address": "Beljanička 1",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "ustanova-za-sport-sportska-organizacija-despotovac-despotovac",
+   "name": "Ustanova za sport \"sportska organizacija Despotovac\"",
+   "official_name": "USTANOVA ZA SPORT \"SPORTSKA ORGANIZACIJA DESPOTOVAC\"",
+   "type_slug": "sportski-centar",
+   "type": "Sportski centar",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "narodna-biblioteka-resavska-skola-despotovac",
+   "name": "Narodna biblioteka \"Resavska škola\"",
+   "official_name": "NARODNA BIBLIOTEKA \"RESAVSKA ŠKOLA\"",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "tehnicka-skola-despotovac-despotovac",
+   "name": "Tehnička škola Despotovac",
+   "official_name": "TEHNIČKA ŠKOLA DESPOTOVAC",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Despotovac",
+   "have": {
+    "address": "Rudnička 1",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-balajnac-despotovac",
+   "name": "Mesna zajednica Balajnac",
+   "official_name": "MESNA ZAJEDNICA BALAJNAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-beljajka-despotovac",
+   "name": "Mesna zajednica Beljajka",
+   "official_name": "MESNA ZAJEDNICA BELJAJKA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-bogava-despotovac",
+   "name": "Mesna zajednica Bogava",
+   "official_name": "MESNA ZAJEDNICA BOGAVA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-brestovo-despotovac",
+   "name": "Mesna zajednica Brestovo",
+   "official_name": "MESNA ZAJEDNICA BRESTOVO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-bukovac-despotovac",
+   "name": "Mesna zajednica Bukovac",
+   "official_name": "MESNA ZAJEDNICA BUKOVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-despotovac-despotovac",
+   "name": "Mesna zajednica Despotovac",
+   "official_name": "MESNA ZAJEDNICA DESPOTOVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-dvoriste-despotovac",
+   "name": "Mesna zajednica Dvorište",
+   "official_name": "MESNA ZAJEDNICA DVORIŠTE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-grabovica-despotovac",
+   "name": "Mesna zajednica Grabovica",
+   "official_name": "MESNA ZAJEDNICA GRABOVICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-jasenovo-despotovac",
+   "name": "Mesna zajednica Jasenovo",
+   "official_name": "MESNA ZAJEDNICA JASENOVO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-jelovac-despotovac",
+   "name": "Mesna zajednica Jelovac",
+   "official_name": "MESNA ZAJEDNICA JELOVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-jezero-despotovac",
+   "name": "Mesna zajednica Jezero",
+   "official_name": "MESNA ZAJEDNICA JEZERO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-lipovica-despotovac",
+   "name": "Mesna zajednica Lipovica",
+   "official_name": "MESNA ZAJEDNICA LIPOVICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-lomnica-despotovac",
+   "name": "Mesna zajednica Lomnica",
+   "official_name": "MESNA ZAJEDNICA LOMNICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-medvedja-despotovac",
+   "name": "Mesna zajednica Medveđa",
+   "official_name": "MESNA ZAJEDNICA MEDVEĐA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-miliva-despotovac",
+   "name": "Mesna zajednica Miliva",
+   "official_name": "MESNA ZAJEDNICA MILIVA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-naselje-resavica-despotovac",
+   "name": "Mesna zajednica Naselje Resavica",
+   "official_name": "MESNA ZAJEDNICA NASELJE RESAVICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-panjevac-despotovac",
+   "name": "Mesna zajednica Panjevac",
+   "official_name": "MESNA ZAJEDNICA PANJEVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-plazane-despotovac",
+   "name": "Mesna zajednica Plažane",
+   "official_name": "MESNA ZAJEDNICA PLAŽANE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-popovnjak-despotovac",
+   "name": "Mesna zajednica Popovnjak",
+   "official_name": "MESNA ZAJEDNICA POPOVNJAK",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-ravna-reka-despotovac",
+   "name": "Mesna zajednica Ravna Reka",
+   "official_name": "MESNA ZAJEDNICA RAVNA REKA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-selo-resavica-despotovac",
+   "name": "Mesna zajednica Selo Resavica",
+   "official_name": "MESNA ZAJEDNICA SELO RESAVICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-senjski-rudnik-despotovac",
+   "name": "Mesna zajednica Senjski Rudnik",
+   "official_name": "MESNA ZAJEDNICA SENJSKI RUDNIK",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-sladaja-despotovac",
+   "name": "Mesna zajednica Sladaja",
+   "official_name": "MESNA ZAJEDNICA SLADAJA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-stenjevac-despotovac",
+   "name": "Mesna zajednica Stenjevac",
+   "official_name": "MESNA ZAJEDNICA STENJEVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-strmosten-despotovac",
+   "name": "Mesna zajednica Strmosten",
+   "official_name": "MESNA ZAJEDNICA STRMOSTEN",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-trucevac-despotovac",
+   "name": "Mesna zajednica Trućevac",
+   "official_name": "MESNA ZAJEDNICA TRUĆEVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-veliki-popovic-despotovac",
+   "name": "Mesna zajednica Veliki Popović",
+   "official_name": "MESNA ZAJEDNICA VELIKI POPOVIĆ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-vitance-despotovac",
+   "name": "Mesna zajednica Vitance",
+   "official_name": "MESNA ZAJEDNICA VITANCE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-vojnik-despotovac",
+   "name": "Mesna zajednica Vojnik",
+   "official_name": "MESNA ZAJEDNICA VOJNIK",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-zlatovo-despotovac",
+   "name": "Mesna zajednica Zlatovo",
+   "official_name": "MESNA ZAJEDNICA ZLATOVO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  }
+ ]
+}

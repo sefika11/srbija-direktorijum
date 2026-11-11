@@ -1,0 +1,2479 @@
+{
+ "municipality": "Prokuplje",
+ "municipality_slug": "prokuplje",
+ "municipality_site": null,
+ "chunk": "prokuplje",
+ "of": 1,
+ "rows": [
+  {
+   "org_slug": "zdravstvena-ustanova-apoteka-prokuplje-prokuplje",
+   "name": "Zdravstvena ustanova apoteka \"Prokuplje\"",
+   "official_name": "ZDRAVSTVENA USTANOVA APOTEKA \"PROKUPLJE\"",
+   "type_slug": "apoteka",
+   "type": "Apotekarska ustanova",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-toplica-prokuplje-prokuplje",
+   "name": "Centar za socijalni rad \"Toplica\" Prokuplje",
+   "official_name": "CENTAR ZA SOCIJALNI RAD \"TOPLICA\" PROKUPLJE",
+   "type_slug": "centar-za-socijalni-rad",
+   "type": "Centar za socijalni rad",
+   "website": "https://www.csr-prokuplje.rs/",
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "poljoprivredna-strucna-sluzba-prokuplje-drustvo-s-ogranicenom-odgovornoscu-prokuplje-prokuplje",
+   "name": "Poljoprivredna Stručna služba Prokuplje društvo S ograničenom odgovornošću Prokuplje",
+   "official_name": "POLJOPRIVREDNA STRUČNA SLUŽBA PROKUPLJE DRUŠTVO S OGRANIČENOM ODGOVORNOŠĆU PROKUPLJE",
+   "type_slug": "javno-preduzece",
+   "type": "Javno preduzeće / društvo",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-hammeum-prokuplje-u-likvidaciji-prokuplje",
+   "name": "Javno Komunalno Preduzeće Hammeum Prokuplje - u Likvidaciji",
+   "official_name": "Javno komunalno preduzeće HAMMEUM Prokuplje - U LIKVIDACIJI",
+   "type_slug": "jkp-cistoca",
+   "type": "JKP Čistoća / Komunalac",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": "027 321067; 027 322856; 027 324629",
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "javno-preduzece-za-urbanizam-i-uredjenje-grada-prokuplja-prokuplje",
+   "name": "Javno Preduzeće za Urbanizam i Uređenje Grada Prokuplja",
+   "official_name": "Javno preduzeće za urbanizam i uređenje grada Prokuplja",
+   "type_slug": "jp-urbanizam",
+   "type": "JP Urbanizam / Direkcija za izgradnju",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "dom-kulture-radivoj-uvalic-bata-prokuplje",
+   "name": "Dom kulture \"Radivoj Uvalić-Bata\"",
+   "official_name": "DOM KULTURE \"RADIVOJ UVALIĆ-BATA\"",
+   "type_slug": "kulturni-centar",
+   "type": "Kulturni centar / Dom kulture",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "kulturno-obrazovni-centar-toplica-prokuplje-prokuplje",
+   "name": "Kulturno Obrazovni centar \"Toplica\" Prokuplje",
+   "official_name": "KULTURNO OBRAZOVNI CENTAR \"TOPLICA\" PROKUPLJE",
+   "type_slug": "kulturni-centar",
+   "type": "Kulturni centar / Dom kulture",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "policijska-uprava-prokuplje",
+   "name": "Policijska uprava Prokuplje",
+   "official_name": null,
+   "type_slug": "mup-policijska-uprava",
+   "type": "MUP – Policijska uprava / stanica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": "027 324499",
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "istorijski-arhiv-toplica-prokuplje",
+   "name": "Istorijski arhiv \"Toplica\"",
+   "official_name": "ISTORIJSKI ARHIV \"TOPLICA\"",
+   "type_slug": "muzej",
+   "type": "Muzej / Arhiv",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "narodni-muzej-toplice-prokuplje",
+   "name": "Narodni muzej Toplice",
+   "official_name": "NARODNI MUZEJ TOPLICE",
+   "type_slug": "muzej",
+   "type": "Muzej / Arhiv",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-muzicka-skola-kornelije-stankovic-prokuplje",
+   "name": "Osnovna muzička škola \"Kornelije Stanković\"",
+   "official_name": "OSNOVNA MUZIČKA ŠKOLA \"KORNELIJE STANKOVIĆ\"",
+   "type_slug": "muzicka-skola",
+   "type": "Muzička ili baletska škola",
+   "website": null,
+   "settlement": "Prokuplje",
+   "have": {
+    "address": "Vuka Stefanovića Karadžića 1",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "narodna-biblioteka-rade-drainac-prokuplje",
+   "name": "Narodna biblioteka \"Rade Drainac\"",
+   "official_name": "NARODNA BIBLIOTEKA \"RADE DRAINAC\"",
+   "type_slug": "narodna-biblioteka",
+   "type": "Narodna biblioteka",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "grad-prokuplje-gradonacelnik-prokuplje",
+   "name": "Grad Prokuplje-Gradonačelnik",
+   "official_name": "GRAD PROKUPLJE-GRADONAČELNIK",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "grad-prokuplje-gradsko-pravobranilastvo-prokuplje",
+   "name": "Grad Prokuplje-Gradsko Pravobranilaštvo",
+   "official_name": "GRAD PROKUPLJE-GRADSKO PRAVOBRANILAŠTVO",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "grad-prokuplje-gradsko-vece-prokuplje",
+   "name": "Grad Prokuplje-Gradsko veće",
+   "official_name": "GRAD PROKUPLJE-GRADSKO VEĆE",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "grad-prokuplje-skupstina-grada-prokuplje",
+   "name": "Grad Prokuplje-Skupština grada",
+   "official_name": "GRAD PROKUPLJE-SKUPŠTINA GRADA",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-9-oktobar-prokuplje",
+   "name": "Osnovna škola \"9. Oktobar\"",
+   "official_name": "OSNOVNA ŠKOLA \"9. OKTOBAR\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Prokuplje",
+   "have": {
+    "address": "Zmaj Jovina 1",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-milic-rakic-mirko-prokuplje",
+   "name": "Osnovna škola \"Milić Rakić-Mirko\"",
+   "official_name": "OSNOVNA ŠKOLA \"MILIĆ RAKIĆ-MIRKO\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Prokuplje",
+   "have": {
+    "address": "Ratka Pavlovića Ćićka 150",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-nikodije-stojanovic-tatko-prokuplje",
+   "name": "Osnovna škola \"Nikodije Stojanović Tatko\"",
+   "official_name": "OSNOVNA ŠKOLA \"NIKODIJE STOJANOVIĆ TATKO\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Prokuplje",
+   "have": {
+    "address": "Ratka Pavlovića Ćićka 43",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-ratko-pavlovic-cicko-prokuplje",
+   "name": "Osnovna škola \"Ratko Pavlović Ćićko\"",
+   "official_name": "OSNOVNA ŠKOLA \"RATKO PAVLOVIĆ ĆIĆKO\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Prokuplje",
+   "have": {
+    "address": "Miloša Obilića 19",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-sveti-sava-prokuplje",
+   "name": "Osnovna škola \"Sveti Sava\"",
+   "official_name": "OSNOVNA ŠKOLA \"SVETI SAVA\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Prokuplje",
+   "have": {
+    "address": "Miloša Crnjanskog bb",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-svetislav-mirkovic-nenad-mala-plana-prokuplje",
+   "name": "Osnovna škola \"Svetislav Mirković-Nenad\" Mala Plana",
+   "official_name": "OSNOVNA ŠKOLA \"SVETISLAV MIRKOVIĆ-NENAD\" MALA PLANA",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Mala Plana",
+   "have": {
+    "address": "Mala Plana B.B",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-vuk-karadzic-zitni-potok",
+   "name": "Osnovna škola \"Vuk Karadžić\"",
+   "official_name": "OSNOVNA ŠKOLA \"VUK KARADŽIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Žitni Potok",
+   "have": {
+    "address": "Žitni Potok bb",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-za-obrazovanje-odraslih-prokuplje-prokuplje",
+   "name": "Osnovna škola za obrazovanje odraslih Prokuplje",
+   "official_name": "OSNOVNA ŠKOLA ZA OBRAZOVANJE ODRASLIH PROKUPLJE",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-neven-prokuplje",
+   "name": "Predškolska ustanova \"Neven\"",
+   "official_name": "PREDŠKOLSKA USTANOVA \"NEVEN\"",
+   "type_slug": "predskolska-ustanova",
+   "type": "Predškolska ustanova (vrtić)",
+   "website": null,
+   "settlement": "Prokuplje",
+   "have": {
+    "address": "Stevana Nemanje 7",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-tehnicka-skola-petnaesti-maj-prokuplje",
+   "name": "Tehnička Škola 'Petnaesti Maj'",
+   "official_name": null,
+   "type_slug": "skola-za-odrasle",
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "website": null,
+   "settlement": "Prokuplje",
+   "have": {
+    "address": "Ratka Pavlovića Ćićka 194",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skola-za-osnovno-obrazovanje-odraslih-tihomir-stankovic-prokuplje",
+   "name": "Škola za osnovno obrazovanje odraslih \"Tihomir Stanković\"",
+   "official_name": null,
+   "type_slug": "skola-za-odrasle",
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "website": null,
+   "settlement": "Prokuplje",
+   "have": {
+    "address": "Knez Mihajlova 55",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "sportski-centar-prokuplje-u-likvidaciji-prokuplje",
+   "name": "Sportski centar Prokuplje u Likvidaciji",
+   "official_name": "SPORTSKI CENTAR PROKUPLJE U LIKVIDACIJI",
+   "type_slug": "sportski-centar",
+   "type": "Sportski centar",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "gimnazija-u-prokuplju-prokuplje",
+   "name": "Gimnazija u Prokuplju",
+   "official_name": "GIMNAZIJA U PROKUPLJU",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "medicinska-skola-dr-aleksa-savic-prokuplje",
+   "name": "Medicinska škola \"Dr Aleksa Savić\"",
+   "official_name": "MEDICINSKA ŠKOLA \"DR ALEKSA SAVIĆ\"",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Prokuplje",
+   "have": {
+    "address": "Ratka Pavlovića Ćićka 20",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "poljoprivredna-skola-rados-jovanovic-selja-prokuplje",
+   "name": "Poljoprivredna škola \"Radoš Jovanović Selja\"",
+   "official_name": "POLJOPRIVREDNA ŠKOLA \"RADOŠ JOVANOVIĆ SELJA\"",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Prokuplje",
+   "have": {
+    "address": "Vuka Stefanovića Karadžića 1",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "tehnicka-skola-15-maj-prokuplje",
+   "name": "Tehnička škola \"15. Maj\"",
+   "official_name": "TEHNIČKA ŠKOLA \"15. MAJ\"",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Prokuplje",
+   "have": {
+    "address": "Ratka Pavlovića Ćićka 194",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "dr-djukic-prokuplje-w972746656",
+   "name": "Dr Đukić",
+   "official_name": null,
+   "type_slug": "stomatoloska-ordinacija",
+   "type": "Stomatološka ordinacija",
+   "website": "http://drdjukic.co.rs",
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": "027 322120",
+    "email": "dr.zoran.djukic@gmail.com",
+    "hours": "Mo-Fr 09:00-13:00, 17:00-20:00; Sa 09:00-13:00"
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "odeljenje-za-vanredne-situacije-prokuplje",
+   "name": "Odeljenje za vanredne situacije Prokuplje",
+   "official_name": null,
+   "type_slug": "uprava-za-vanredne-situacije",
+   "type": "MUP – Uprava za vanredne situacije (vatrogasci)",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "toplicki-upravni-okrug-prokuplje",
+   "name": "Toplički upravni okrug",
+   "official_name": "TOPLIČKI UPRAVNI OKRUG",
+   "type_slug": "upravni-okrug",
+   "type": "Upravni okrug",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "usluga-socijalne-zastite-udruzenje-za-pomoc-obolelih-od-misicnih-i-neuro",
+   "name": "Udruženje ZA Pomoć Obolelih OD Mišićnih I Neuro-mišićnih Boletsi Topličkog Okruga",
+   "official_name": null,
+   "type_slug": "usluga-socijalne-zastite",
+   "type": "Usluga socijalne zaštite",
+   "website": null,
+   "settlement": "Prokuplje",
+   "have": {
+    "address": null,
+    "phones": "027 322349; 062 8876000",
+    "email": "udrobolelihmiicnih@gmail.com",
+    "hours": null
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "dom-za-smestaj-i-negu-starih-lica-prokuplje-prokuplje",
+   "name": "Dom za Smeštaj i Negu starih lica Prokuplje",
+   "official_name": "DOM ZA SMEŠTAJ I NEGU STARIH LICA PROKUPLJE",
+   "type_slug": "ustanova",
+   "type": "Javna ustanova",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "okruzni-zatvor-u-prokuplju-prokuplje",
+   "name": "Okružni Zatvor u Prokuplju",
+   "official_name": "OKRUŽNI ZATVOR U PROKUPLJU",
+   "type_slug": "ustanova",
+   "type": "Javna ustanova",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "toplicka-akademija-strukovnih-studija-prokuplje-prokuplje",
+   "name": "Toplička Akademija Strukovnih Studija Prokuplje",
+   "official_name": "TOPLIČKA AKADEMIJA STRUKOVNIH STUDIJA PROKUPLJE",
+   "type_slug": "visoka-skola",
+   "type": "Visoka škola / akademija strukovnih studija",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": "Ćirila I Metodija 1",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-bumburek-donja-trnava-prokuplje",
+   "name": "Mesna zajednica \"Bumburek\" Donja Trnava",
+   "official_name": "MESNA ZAJEDNICA \"BUMBUREK\" DONJA TRNAVA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-dragoljub-radosavljevic-toplica-prokuplje",
+   "name": "Mesna zajednica \"Dragoljub Radosavljević-Toplica\"",
+   "official_name": "MESNA ZAJEDNICA \"DRAGOLJUB RADOSAVLJEVIĆ-TOPLICA\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-macina-macina-prokuplje",
+   "name": "Mesna zajednica \"Mačina\" Mačina",
+   "official_name": "MESNA ZAJEDNICA \"MAČINA\" MAČINA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-nikodije-stojanovic-tatko-prokuplje",
+   "name": "Mesna zajednica \"Nikodije Stojanović Tatko\"",
+   "official_name": "MESNA ZAJEDNICA \"NIKODIJE STOJANOVIĆ TATKO\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-rados-jovanovic-selja-prokuplje",
+   "name": "Mesna zajednica \"Radoš Jovanović Selja\"",
+   "official_name": "MESNA ZAJEDNICA \"RADOŠ JOVANOVIĆ SELJA\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-ratko-pavlovic-cicko-prokuplje",
+   "name": "Mesna zajednica \"Ratko Pavlović-Ćićko\"",
+   "official_name": "MESNA ZAJEDNICA \"RATKO PAVLOVIĆ-ĆIĆKO\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-sava-erakovic-strahinja-prokuplje",
+   "name": "Mesna zajednica \"Sava Eraković-Strahinja\"",
+   "official_name": "MESNA ZAJEDNICA \"SAVA ERAKOVIĆ-STRAHINJA\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-slobodan-nestorovic-baja-prekadin-prokuplje",
+   "name": "Mesna zajednica \"Slobodan Nestorović Baja\" Prekadin",
+   "official_name": "MESNA ZAJEDNICA \"SLOBODAN NESTOROVIĆ BAJA\" PREKADIN",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-sreten-mladenovic-mika-prokuplje",
+   "name": "Mesna zajednica \"Sreten Mladenović Mika\"",
+   "official_name": "MESNA ZAJEDNICA \"SRETEN MLADENOVIĆ MIKA\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-vidovacka-ceta-vidovaca-prokuplje",
+   "name": "Mesna zajednica \"Vidovačka Četa\" Vidovača",
+   "official_name": "MESNA ZAJEDNICA \"VIDOVAČKA ČETA\" VIDOVAČA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-zivkovic-milomir-petar-prekasnica-prokuplje",
+   "name": "Mesna zajednica \"Živković Milomir-Petar\" Prekašnica",
+   "official_name": "MESNA ZAJEDNICA \"ŽIVKOVIĆ MILOMIR-PETAR\" PREKAŠNICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-arbanaska-prokuplje",
+   "name": "Mesna zajednica Arbanaška",
+   "official_name": "MESNA ZAJEDNICA ARBANAŠKA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-babin-potok-prokuplje",
+   "name": "Mesna zajednica Babin Potok",
+   "official_name": "MESNA ZAJEDNICA BABIN POTOK",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-babotinac-prokuplje",
+   "name": "Mesna zajednica Babotinac",
+   "official_name": "MESNA ZAJEDNICA BABOTINAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-bace-prokuplje",
+   "name": "Mesna zajednica Bace",
+   "official_name": "MESNA ZAJEDNICA BACE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-bajcince-prokuplje",
+   "name": "Mesna zajednica Bajčince",
+   "official_name": "MESNA ZAJEDNICA BAJČINCE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-balinovac-prokuplje",
+   "name": "Mesna zajednica Balinovac",
+   "official_name": "MESNA ZAJEDNICA BALINOVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-bela-voda-prokuplje",
+   "name": "Mesna zajednica Bela Voda",
+   "official_name": "MESNA ZAJEDNICA BELA VODA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-beli-kamen-prokuplje",
+   "name": "Mesna zajednica Beli Kamen",
+   "official_name": "MESNA ZAJEDNICA BELI KAMEN",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-belogos-prokuplje",
+   "name": "Mesna zajednica Belogoš",
+   "official_name": "MESNA ZAJEDNICA BELOGOŠ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-beloljin-prokuplje",
+   "name": "Mesna zajednica Beloljin",
+   "official_name": "MESNA ZAJEDNICA BELOLJIN",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-berilje-prokuplje",
+   "name": "Mesna zajednica Berilje",
+   "official_name": "MESNA ZAJEDNICA BERILJE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-bregovina-prokuplje",
+   "name": "Mesna zajednica Bregovina",
+   "official_name": "MESNA ZAJEDNICA BREGOVINA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-bresnicic-prokuplje",
+   "name": "Mesna zajednica Bresničić",
+   "official_name": "MESNA ZAJEDNICA BRESNIČIĆ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-bublica-prokuplje",
+   "name": "Mesna zajednica Bublica",
+   "official_name": "MESNA ZAJEDNICA BUBLICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-bulatovac-prokuplje",
+   "name": "Mesna zajednica Bulatovac",
+   "official_name": "MESNA ZAJEDNICA BULATOVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-bucince-prokuplje",
+   "name": "Mesna zajednica Bučince",
+   "official_name": "MESNA ZAJEDNICA BUČINCE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-dobrotic-prokuplje",
+   "name": "Mesna zajednica Dobrotić",
+   "official_name": "MESNA ZAJEDNICA DOBROTIĆ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-donja-bejasnica-prokuplje",
+   "name": "Mesna zajednica Donja Bejašnica",
+   "official_name": "MESNA ZAJEDNICA DONJA BEJAŠNICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-donja-bresnica-prokuplje",
+   "name": "Mesna zajednica Donja Bresnica",
+   "official_name": "MESNA ZAJEDNICA DONJA BRESNICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-donja-konjusa-prokuplje",
+   "name": "Mesna zajednica Donja Konjuša",
+   "official_name": "MESNA ZAJEDNICA DONJA KONJUŠA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-donja-recica-prokuplje",
+   "name": "Mesna zajednica Donja Rečica",
+   "official_name": "MESNA ZAJEDNICA DONJA REČICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-donja-strazava-prokuplje",
+   "name": "Mesna zajednica Donja Stražava",
+   "official_name": "MESNA ZAJEDNICA DONJA STRAŽAVA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-donja-toponica-donja-toponica",
+   "name": "Mesna zajednica Donja Toponica",
+   "official_name": "MESNA ZAJEDNICA DONJA TOPONICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-donja-trnava-prokuplje",
+   "name": "Mesna zajednica Donja Trnava",
+   "official_name": "MESNA ZAJEDNICA DONJA TRNAVA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-donje-kordince-prokuplje",
+   "name": "Mesna zajednica Donje Kordince",
+   "official_name": "MESNA ZAJEDNICA DONJE KORDINCE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-donji-statovac-prokuplje",
+   "name": "Mesna zajednica Donji Statovac",
+   "official_name": "MESNA ZAJEDNICA DONJI STATOVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-dragi-deo-prokuplje",
+   "name": "Mesna zajednica Dragi Deo",
+   "official_name": "MESNA ZAJEDNICA DRAGI DEO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-dzigolj-prokuplje",
+   "name": "Mesna zajednica Džigolj",
+   "official_name": "MESNA ZAJEDNICA DŽIGOLJ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-glasovik-prokuplje",
+   "name": "Mesna zajednica Glasovik",
+   "official_name": "MESNA ZAJEDNICA GLASOVIK",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-gornja-bejasnica-prokuplje",
+   "name": "Mesna zajednica Gornja Bejašnica",
+   "official_name": "MESNA ZAJEDNICA GORNJA BEJAŠNICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-gornja-bresnica-prokuplje",
+   "name": "Mesna zajednica Gornja Bresnica",
+   "official_name": "MESNA ZAJEDNICA GORNJA BRESNICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-gornja-konjusa-prokuplje",
+   "name": "Mesna zajednica Gornja Konjuša",
+   "official_name": "MESNA ZAJEDNICA GORNJA KONJUŠA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-gornja-recica-prokuplje",
+   "name": "Mesna zajednica Gornja Rečica",
+   "official_name": "MESNA ZAJEDNICA GORNJA REČICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-gornja-strazava-prokuplje",
+   "name": "Mesna zajednica Gornja Stražava",
+   "official_name": "MESNA ZAJEDNICA GORNJA STRAŽAVA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-gornja-trnava-prokuplje",
+   "name": "Mesna zajednica Gornja Trnava",
+   "official_name": "MESNA ZAJEDNICA GORNJA TRNAVA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-gornje-kordince-prokuplje",
+   "name": "Mesna zajednica Gornje Kordince",
+   "official_name": "MESNA ZAJEDNICA GORNJE KORDINCE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-gubetin-prokuplje",
+   "name": "Mesna zajednica Gubetin",
+   "official_name": "MESNA ZAJEDNICA GUBETIN",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-jovine-livade-prokuplje",
+   "name": "Mesna zajednica Jovine Livade",
+   "official_name": "MESNA ZAJEDNICA JOVINE LIVADE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-jugovac-prokuplje",
+   "name": "Mesna zajednica Jugovac",
+   "official_name": "MESNA ZAJEDNICA JUGOVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-kaludra-prokuplje",
+   "name": "Mesna zajednica Kaludra",
+   "official_name": "MESNA ZAJEDNICA KALUDRA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-klisurica-prokuplje",
+   "name": "Mesna zajednica Klisurica",
+   "official_name": "MESNA ZAJEDNICA KLISURICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-kondzelj-prokuplje",
+   "name": "Mesna zajednica Kondželj",
+   "official_name": "MESNA ZAJEDNICA KONDŽELJ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-koncic-prokuplje",
+   "name": "Mesna zajednica Končić",
+   "official_name": "MESNA ZAJEDNICA KONČIĆ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-kostenica-prokuplje",
+   "name": "Mesna zajednica Kostenica",
+   "official_name": "MESNA ZAJEDNICA KOSTENICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-kozince-prokuplje",
+   "name": "Mesna zajednica Kožince",
+   "official_name": "MESNA ZAJEDNICA KOŽINCE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-krnjigrad-prokuplje",
+   "name": "Mesna zajednica Krnjigrad",
+   "official_name": "MESNA ZAJEDNICA KRNJIGRAD",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-krusevica-prokuplje",
+   "name": "Mesna zajednica Kruševica",
+   "official_name": "MESNA ZAJEDNICA KRUŠEVICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-mala-plana-prokuplje",
+   "name": "Mesna zajednica Mala Plana",
+   "official_name": "MESNA ZAJEDNICA MALA PLANA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-madjare-prokuplje",
+   "name": "Mesna zajednica Mađare",
+   "official_name": "MESNA ZAJEDNICA MAĐARE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-merovac-prokuplje",
+   "name": "Mesna zajednica Merovac",
+   "official_name": "MESNA ZAJEDNICA MEROVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-mikulovac-prokuplje",
+   "name": "Mesna zajednica Mikulovac",
+   "official_name": "MESNA ZAJEDNICA MIKULOVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-miljkovica-prokuplje",
+   "name": "Mesna zajednica Miljkovica",
+   "official_name": "MESNA ZAJEDNICA MILJKOVICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-mrljak-prokuplje",
+   "name": "Mesna zajednica Mrljak",
+   "official_name": "MESNA ZAJEDNICA MRLJAK",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-mrselj-prokuplje",
+   "name": "Mesna zajednica Mršelj",
+   "official_name": "MESNA ZAJEDNICA MRŠELJ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-nova-bozurna-prokuplje",
+   "name": "Mesna zajednica Nova Božurna",
+   "official_name": "MESNA ZAJEDNICA NOVA BOŽURNA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-novi-djurevac-prokuplje",
+   "name": "Mesna zajednica Novi Đurevac",
+   "official_name": "MESNA ZAJEDNICA NOVI ĐUREVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-novo-selo-prokuplje",
+   "name": "Mesna zajednica Novo Selo",
+   "official_name": "MESNA ZAJEDNICA NOVO SELO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-obrtnice-prokuplje",
+   "name": "Mesna zajednica Obrtnice",
+   "official_name": "MESNA ZAJEDNICA OBRTNICE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-pasjaca-prokuplje",
+   "name": "Mesna zajednica Pasjača",
+   "official_name": "MESNA ZAJEDNICA PASJAČA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-pasinac-prokuplje",
+   "name": "Mesna zajednica Pašinac",
+   "official_name": "MESNA ZAJEDNICA PAŠINAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-petrovac-prokuplje",
+   "name": "Mesna zajednica Petrovac",
+   "official_name": "MESNA ZAJEDNICA PETROVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-plocnik-prokuplje",
+   "name": "Mesna zajednica Pločnik",
+   "official_name": "MESNA ZAJEDNICA PLOČNIK",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-potocic-prokuplje",
+   "name": "Mesna zajednica Potočić",
+   "official_name": "MESNA ZAJEDNICA POTOČIĆ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-prekopuce-prokuplje",
+   "name": "Mesna zajednica Prekopuce",
+   "official_name": "MESNA ZAJEDNICA PREKOPUCE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-reljinac-prokuplje",
+   "name": "Mesna zajednica Reljinac",
+   "official_name": "MESNA ZAJEDNICA RELJINAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-resinac-prokuplje",
+   "name": "Mesna zajednica Resinac",
+   "official_name": "MESNA ZAJEDNICA RESINAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-smrdan-prokuplje",
+   "name": "Mesna zajednica Smrdan",
+   "official_name": "MESNA ZAJEDNICA SMRDAN",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-srednji-statovac-prokuplje",
+   "name": "Mesna zajednica Srednji Statovac",
+   "official_name": "MESNA ZAJEDNICA SREDNJI STATOVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-staro-selo-prokuplje",
+   "name": "Mesna zajednica Staro Selo",
+   "official_name": "MESNA ZAJEDNICA STARO SELO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-tovrljane-prokuplje",
+   "name": "Mesna zajednica Tovrljane",
+   "official_name": "MESNA ZAJEDNICA TOVRLJANE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-trnovi-laz-prokuplje",
+   "name": "Mesna zajednica Trnovi Laz",
+   "official_name": "MESNA ZAJEDNICA TRNOVI LAZ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-tulare-prokuplje",
+   "name": "Mesna zajednica Tulare",
+   "official_name": "MESNA ZAJEDNICA TULARE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-velika-plana-prokuplje",
+   "name": "Mesna zajednica Velika Plana",
+   "official_name": "MESNA ZAJEDNICA VELIKA PLANA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-vica-prokuplje",
+   "name": "Mesna zajednica Viča",
+   "official_name": "MESNA ZAJEDNICA VIČA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-vlasovo-prokuplje",
+   "name": "Mesna zajednica Vlasovo",
+   "official_name": "MESNA ZAJEDNICA VLASOVO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-vodice-prokuplje",
+   "name": "Mesna zajednica Vodice",
+   "official_name": "MESNA ZAJEDNICA VODICE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-zdravinje-prokuplje",
+   "name": "Mesna zajednica Zdravinje",
+   "official_name": "MESNA ZAJEDNICA ZDRAVINJE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-zlata-prokuplje",
+   "name": "Mesna zajednica Zlata",
+   "official_name": "MESNA ZAJEDNICA ZLATA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-cukovac-prokuplje",
+   "name": "Mesna zajednica Ćukovac",
+   "official_name": "MESNA ZAJEDNICA ĆUKOVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-djurevac-prokuplje",
+   "name": "Mesna zajednica Đurevac",
+   "official_name": "MESNA ZAJEDNICA ĐUREVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-zitni-potok-prokuplje",
+   "name": "Mesna zajednica Žitni Potok",
+   "official_name": "MESNA ZAJEDNICA ŽITNI POTOK",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  }
+ ]
+}

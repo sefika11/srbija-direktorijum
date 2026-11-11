@@ -219,3 +219,16 @@ office presidents and any address without a number; then `apply_contacts.py --so
 statements API on data.gov.rs; its company search is single-record. Routes for the private sector: sector registers
 (done for banks, insurers, exchange offices, auditors, hotels, private schools and kindergartens, and more), OSM,
 institutions' own sites, owners adding and claiming their listing, or buying the register extract from APR.
+
+**Results of the 2026-11-11 passes** (all applied to Neon):
+- Municipal contact pass, all 161 chunks plus retries: pilot 451 + wave 2 1,496 + wave 3 1,862 rows applied. About 22.6M Sonnet tokens in total.
+  Near-zero yield where the municipal site was down, blocked or lists community offices only by the president's name
+  (Gadžin Han, Knić, Prijepolje, Preševo, Lučani, Bujanovac, Lebane and others), and in Belgrade for firms in
+  bankruptcy, private adult-education providers and state bodies without a contact page.
+- Preschool units from the institutions' own sites (59 chunks, 2,147 units): 694 units got a street, 489 a phone,
+  99 institutions a seat contact; 6.7M tokens. Not found: preschool groups hosted in schools and village halls (the
+  sites do not list them with an address) and institutions without a working official site.
+- Coverage after everything: 40,841 locations; 20,364 with a street address, 23,222 with a phone, 6,656 with hours.
+  Before the passes: 36,186 locations; 17,285 / 19,472 / 6,220. Units: 4,609, of which 694 have a street.
+- Working files: targets in `db/targets/muni_2026-11-11/chunks/` and `db/targets/pu_units_2026-11-11/`, agent output
+  in `db/contacts/muni_2026-11-11/` and `db/contacts/pu_units_2026-11-11/` (the cleaned `applied/` files are derived).

@@ -1,0 +1,1865 @@
+{
+ "municipality": "Valjevo",
+ "municipality_slug": "valjevo",
+ "municipality_site": null,
+ "chunk": "valjevo",
+ "of": 1,
+ "rows": [
+  {
+   "org_slug": "apotekarska-ustanova-valjevo-valjevo",
+   "name": "Apotekarska ustanova Valjevo",
+   "official_name": "APOTEKARSKA USTANOVA VALJEVO",
+   "type_slug": "apoteka",
+   "type": "Apotekarska ustanova",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-kolubara-valjevo-valjevo",
+   "name": "Centar za socijalni rad \"Kolubara\" Valjevo",
+   "official_name": "CENTAR ZA SOCIJALNI RAD \"KOLUBARA\" VALJEVO",
+   "type_slug": "centar-za-socijalni-rad",
+   "type": "Centar za socijalni rad",
+   "website": "https://csrvaljevo.org.rs/",
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "fakultet-zdravstvenih-i-poslovnih-studija-u-valjevu-valjevo",
+   "name": "Fakultet zdravstvenih i poslovnih studija u Valjevu",
+   "official_name": null,
+   "type_slug": "fakultet",
+   "type": "Fakultet",
+   "website": null,
+   "settlement": "Valjevo",
+   "have": {
+    "address": "Železnička 5",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "drustvo-sa-ogranicenom-odgovornoscu-agrorazvoj-valjevske-doline-valjevo-valjevo",
+   "name": "Društvo sa Ograničenom Odgovornošću Agrorazvoj-Valjevske Doline Valjevo",
+   "official_name": "Društvo sa ograničenom odgovornošću Agrorazvoj-valjevske doline Valjevo",
+   "type_slug": "javno-preduzece",
+   "type": "Javno preduzeće / društvo",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "drustvo-sa-ogranicenom-odgovornoscu-kovacki-centar-valjevo-valjevo",
+   "name": "Društvo sa ograničenom odgovornošću Kovački centar Valjevo",
+   "official_name": "DRUŠTVO SA OGRANIČENOM ODGOVORNOŠĆU KOVAČKI CENTAR VALJEVO",
+   "type_slug": "javno-preduzece",
+   "type": "Javno preduzeće / društvo",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "holding-korporacija-za-metalopreradu-osnivanje-finansiranje-i-upravljanje-krusik-ad-valjevo-valjevo",
+   "name": "Holding Korporacija za Metalopreradu, Osnivanje, Finansiranje i upravljanje Krušik AD Valjevo",
+   "official_name": "HOLDING KORPORACIJA ZA METALOPRERADU, OSNIVANJE, FINANSIRANJE I UPRAVLJANJE KRUŠIK AD VALJEVO",
+   "type_slug": "javno-preduzece",
+   "type": "Javno preduzeće / društvo",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": "Vladike Nikolaja 59",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "javno-preduzece-kolubara-valjevo",
+   "name": "Javno preduzeće \"Kolubara\"",
+   "official_name": "JAVNO PREDUZEĆE \"KOLUBARA\"",
+   "type_slug": "javno-preduzece",
+   "type": "Javno preduzeće / društvo",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "poljoprivredna-savetodavna-i-strucna-sluzba-valjevo-drustvo-sa-ogranicenom-odgovornoscu-valjevo-valj",
+   "name": "Poljoprivredna Savetodavna i Stručna služba Valjevo društvo sa ograničenom odgovornošću, Valjevo",
+   "official_name": "POLJOPRIVREDNA SAVETODAVNA I STRUČNA SLUŽBA VALJEVO DRUŠTVO SA OGRANIČENOM ODGOVORNOŠĆU, VALJEVO",
+   "type_slug": "javno-preduzece",
+   "type": "Javno preduzeće / društvo",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "ustanova-kulture-centar-za-kulturu-valjevo-valjevo",
+   "name": "Ustanova kulture centar za kulturu Valjevo",
+   "official_name": "USTANOVA KULTURE CENTAR ZA KULTURU VALJEVO",
+   "type_slug": "kulturni-centar",
+   "type": "Kulturni centar / Dom kulture",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "policijska-uprava-valjevo",
+   "name": "Policijska uprava Valjevo",
+   "official_name": null,
+   "type_slug": "mup-policijska-uprava",
+   "type": "MUP – Policijska uprava / stanica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": "014 294300",
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "moderna-galerija-valjevo-valjevo",
+   "name": "Moderna galerija \"Valjevo\"",
+   "official_name": "MODERNA GALERIJA \"VALJEVO\"",
+   "type_slug": "muzej",
+   "type": "Muzej / Arhiv",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "narodni-muzej-valjevo-valjevo",
+   "name": "Narodni muzej \"Valjevo\"",
+   "official_name": "NARODNI MUZEJ \"VALJEVO\"",
+   "type_slug": "muzej",
+   "type": "Muzej / Arhiv",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "muzicka-skola-zivorad-grbic-valjevo",
+   "name": "Muzička škola \"Živorad Grbić\"",
+   "official_name": "MUZIČKA ŠKOLA \"ŽIVORAD GRBIĆ\"",
+   "type_slug": "muzicka-skola",
+   "type": "Muzička ili baletska škola",
+   "website": null,
+   "settlement": "Valjevo",
+   "have": {
+    "address": "Karađorđeva 122",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "maticna-biblioteka-ljubomir-nenadovic-valjevo",
+   "name": "Matična biblioteka \"Ljubomir Nenadović\"",
+   "official_name": "MATIČNA BIBLIOTEKA \"LJUBOMIR NENADOVIĆ\"",
+   "type_slug": "narodna-biblioteka",
+   "type": "Narodna biblioteka",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "grad-valjevo-gradonacelnik-valjevo",
+   "name": "Grad Valjevo - Gradonačelnik",
+   "official_name": "GRAD VALJEVO - GRADONAČELNIK",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "grad-valjevo-gradsko-vece-valjevo",
+   "name": "Grad Valjevo - gradsko veće",
+   "official_name": "GRAD VALJEVO - GRADSKO VEĆE",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "grad-valjevo-skupstina-grada-valjeva-valjevo",
+   "name": "Grad Valjevo - skupština grada Valjeva",
+   "official_name": "GRAD VALJEVO - SKUPŠTINA GRADA VALJEVA",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "grad-valjevo-zajednicko-pravobranilastvo-grada-valjeva-i-opstine-osecina-valjevo",
+   "name": "Grad Valjevo-Zajedničko Pravobranilaštvo grada Valjeva i opštine Osečina",
+   "official_name": "GRAD VALJEVO-ZAJEDNIČKO PRAVOBRANILAŠTVO GRADA VALJEVA I OPŠTINE OSEČINA",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-andra-savcic-valjevo",
+   "name": "Osnovna škola \"Andra Savčić\"",
+   "official_name": "OSNOVNA ŠKOLA \"ANDRA SAVČIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Valjevo",
+   "have": {
+    "address": "Jovana Dučića 5",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-desanka-maksimovic-valjevo",
+   "name": "Osnovna škola \"Desanka Maksimović\"",
+   "official_name": "OSNOVNA ŠKOLA \"DESANKA MAKSIMOVIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Valjevo",
+   "have": {
+    "address": "Vladimira Nazora 2",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-dragoljub-ilic-dracic-valjevo",
+   "name": "Osnovna škola \"Dragoljub Ilić\" Dračić",
+   "official_name": "OSNOVNA ŠKOLA \"DRAGOLJUB ILIĆ\" DRAČIĆ",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Dračić",
+   "have": {
+    "address": "Vladike Nikolaja 43",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-ilija-bircanin-valjevo",
+   "name": "Osnovna škola \"Ilija Birčanin\"",
+   "official_name": "OSNOVNA ŠKOLA \"ILIJA BIRČANIN\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Bobova",
+   "have": {
+    "address": "Ilije Birčanina 170",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-milovan-glisic-valjevo",
+   "name": "Osnovna škola \"Milovan Glišić\"",
+   "official_name": "OSNOVNA ŠKOLA \"MILOVAN GLIŠIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-milovan-glisic-valjevska-kamenica-valjevo",
+   "name": "Osnovna škola \"Milovan Glišić\" Valjevska Kamenica",
+   "official_name": "OSNOVNA ŠKOLA \"MILOVAN GLIŠIĆ\" VALJEVSKA KAMENICA",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-milos-markovic-donje-leskovice-valjevo",
+   "name": "Osnovna škola \"Miloš Marković\" Donje Leskovice",
+   "official_name": "OSNOVNA ŠKOLA \"MILOŠ MARKOVIĆ\" DONJE LESKOVICE",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Donje Leskovice",
+   "have": {
+    "address": "Svetog Save bb",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-nada-puric-valjevo",
+   "name": "Osnovna škola \"Nada Purić\"",
+   "official_name": "OSNOVNA ŠKOLA \"NADA PURIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Valjevo",
+   "have": {
+    "address": "Vladike Nikolaja 33",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-prota-mateja-nenadovic-brankovina-valjevo",
+   "name": "Osnovna škola \"Prota Mateja Nenadović\" Brankovina",
+   "official_name": "OSNOVNA ŠKOLA \"PROTA MATEJA NENADOVIĆ\" BRANKOVINA",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Brankovina",
+   "have": {
+    "address": "Prote Mateje Nenadovića bb",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-prva-osnovna-skola-valjevo",
+   "name": "Osnovna škola \"Prva osnovna škola\"",
+   "official_name": "OSNOVNA ŠKOLA \"PRVA OSNOVNA ŠKOLA\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Valjevo",
+   "have": {
+    "address": "Karađorđeva 122",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-sestre-ilic-valjevo",
+   "name": "Osnovna škola \"Sestre Ilić\"",
+   "official_name": "OSNOVNA ŠKOLA \"SESTRE ILIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Valjevo",
+   "have": {
+    "address": "Milovana Glišića 45",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-stevan-filipovic-divci-valjevo",
+   "name": "Osnovna škola \"Stevan Filipović\" Divci",
+   "official_name": "OSNOVNA ŠKOLA \"STEVAN FILIPOVIĆ\" DIVCI",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Divci",
+   "have": {
+    "address": "Đačka 13",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-sveti-sava-popucke-valjevo",
+   "name": "Osnovna škola \"Sveti Sava\" Popučke",
+   "official_name": "OSNOVNA ŠKOLA \"SVETI SAVA\" POPUČKE",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Popučke",
+   "have": {
+    "address": "Školska 9",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-vladika-nikolaj-velimirovic-valjevo",
+   "name": "Osnovna škola \"Vladika Nikolaj Velimirović\"",
+   "official_name": "OSNOVNA ŠKOLA \"VLADIKA NIKOLAJ VELIMIROVIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Valjevo",
+   "have": {
+    "address": "Suvoborska 48",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-zdravko-jovanovic-pocuta-valjevo",
+   "name": "Osnovna škola \"Zdravko Jovanović\" Poćuta",
+   "official_name": "OSNOVNA ŠKOLA \"ZDRAVKO JOVANOVIĆ\" POĆUTA",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-milica-nozica-valjevo",
+   "name": "Predškolska ustanova \"Milica Nožica\"",
+   "official_name": "PREDŠKOLSKA USTANOVA \"MILICA NOŽICA\"",
+   "type_slug": "predskolska-ustanova",
+   "type": "Predškolska ustanova (vrtić)",
+   "website": null,
+   "settlement": "Valjevo",
+   "have": {
+    "address": "Vlade Danilovića 9",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-ld-bezbednost-projekt-institut-loznica",
+   "name": "Ld Bezbednost Projekt Institut",
+   "official_name": null,
+   "type_slug": "skola-za-odrasle",
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "website": null,
+   "settlement": "Loznica",
+   "have": {
+    "address": "Žikice Jovanovića Španca 2/7",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "ekonomska-skola-valjevo-valjevo",
+   "name": "Ekonomska škola \"Valjevo\"",
+   "official_name": "EKONOMSKA ŠKOLA \"VALJEVO\"",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Valjevo",
+   "have": {
+    "address": "Daničićeva 1",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "medicinska-skola-dr-misa-pantic-valjevo",
+   "name": "Medicinska škola \"Dr Miša Pantić\"",
+   "official_name": "MEDICINSKA ŠKOLA \"DR MIŠA PANTIĆ\"",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Valjevo",
+   "have": {
+    "address": "Karađorđeva 118",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "poljoprivredna-skola-sa-domom-ucenika-valjevo-valjevo",
+   "name": "Poljoprivredna škola sa Domom učenika \"Valjevo\"",
+   "official_name": "POLJOPRIVREDNA ŠKOLA SA DOMOM UČENIKA \"VALJEVO\"",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Valjevo",
+   "have": {
+    "address": "Vladike Nikolaja 54",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "tehnicka-skola-valjevo-valjevo",
+   "name": "Tehnička škola Valjevo",
+   "official_name": "TEHNIČKA ŠKOLA VALJEVO",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Valjevo",
+   "have": {
+    "address": "Koste Abraševića 2",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "valjevska-gimnazija-valjevo",
+   "name": "Valjevska gimnazija",
+   "official_name": "VALJEVSKA GIMNAZIJA",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Valjevo",
+   "have": {
+    "address": "Vuka Karadžića 3",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "odeljenje-za-vanredne-situacije-valjevo",
+   "name": "Odeljenje za vanredne situacije Valjevo",
+   "official_name": null,
+   "type_slug": "uprava-za-vanredne-situacije",
+   "type": "MUP – Uprava za vanredne situacije (vatrogasci)",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "kolubarski-upravni-okrug-valjevo",
+   "name": "Kolubarski upravni okrug",
+   "official_name": "KOLUBARSKI UPRAVNI OKRUG",
+   "type_slug": "upravni-okrug",
+   "type": "Upravni okrug",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "centar-za-negovanje-tradicionalne-kulture-abrasevic-valjevo-valjevo",
+   "name": "Centar za Negovanje Tradicionalne kulture \"Abrašević\" Valjevo",
+   "official_name": "CENTAR ZA NEGOVANJE TRADICIONALNE KULTURE \"ABRAŠEVIĆ\" VALJEVO",
+   "type_slug": "ustanova",
+   "type": "Javna ustanova",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "internacionalni-umetnicki-studio-radovan-trnavac-mica-valjevo",
+   "name": "Internacionalni Umetnički Studio \"Radovan Trnavac-Mića\"",
+   "official_name": "INTERNACIONALNI UMETNIČKI STUDIO \"RADOVAN TRNAVAC-MIĆA\"",
+   "type_slug": "ustanova",
+   "type": "Javna ustanova",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "kazneno-popravni-zavod-za-maloletnike-u-valjevu-valjevo",
+   "name": "Kazneno-Popravni zavod za Maloletnike u Valjevu",
+   "official_name": "KAZNENO-POPRAVNI ZAVOD ZA MALOLETNIKE U VALJEVU",
+   "type_slug": "ustanova",
+   "type": "Javna ustanova",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "ustanova-za-fizicku-kulturu-valis-valjevo",
+   "name": "Ustanova za Fizičku kulturu \"Valis\"",
+   "official_name": "USTANOVA ZA FIZIČKU KULTURU \"VALIS\"",
+   "type_slug": "ustanova",
+   "type": "Javna ustanova",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "visi-sud-u-valjevu-valjevo",
+   "name": "Viši sud u Valjevu",
+   "official_name": "VIŠI SUD U VALJEVU",
+   "type_slug": "visi-sud",
+   "type": "Viši sud",
+   "website": "https://www.va.vi.sud.rs",
+   "settlement": null,
+   "have": {
+    "address": "Karađorđeva 48",
+    "phones": null,
+    "email": "uprava@va.vi.sud.rs",
+    "hours": "8:00 - 14:00"
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "zavod-za-zastitu-spomenika-kulture-valjevo-valjevo",
+   "name": "Zavod za zaštitu Spomenika kulture Valjevo",
+   "official_name": "ZAVOD ZA ZAŠTITU SPOMENIKA KULTURE VALJEVO",
+   "type_slug": "zavod-za-zastitu-spomenika",
+   "type": "Zavod za zaštitu spomenika kulture",
+   "website": "http://vaza.co.rs",
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": "014 3519655; 014 3519656",
+    "email": "office@vaza.co.rs",
+    "hours": null
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "grad-valjevo-mesna-zajednica-prijezdic-valjevo",
+   "name": "Grad Valjevo-Mesna zajednica Prijezdić",
+   "official_name": "GRAD VALJEVO-MESNA ZAJEDNICA PRIJEZDIĆ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-andra-savcic-valjevo",
+   "name": "Mesna zajednica \"Andra Savčić\"",
+   "official_name": "MESNA ZAJEDNICA \"ANDRA SAVČIĆ\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-brdjani-valjevo",
+   "name": "Mesna zajednica \"Brđani\"",
+   "official_name": "MESNA ZAJEDNICA \"BRĐANI\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-gradac-valjevo",
+   "name": "Mesna zajednica \"Gradac\"",
+   "official_name": "MESNA ZAJEDNICA \"GRADAC\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-krusik-valjevo",
+   "name": "Mesna zajednica \"Krušik\"",
+   "official_name": "MESNA ZAJEDNICA \"KRUŠIK\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-mrcic-mrcic",
+   "name": "Mesna zajednica \"Mrčić\"",
+   "official_name": "MESNA ZAJEDNICA \"MRČIĆ\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Mrčić",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-nada-puric-valjevo",
+   "name": "Mesna zajednica \"Nada Purić\"",
+   "official_name": "MESNA ZAJEDNICA \"NADA PURIĆ\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-novo-naselje-valjevo",
+   "name": "Mesna zajednica \"Novo Naselje\"",
+   "official_name": "MESNA ZAJEDNICA \"NOVO NASELJE\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-oslobodioci-valjeva-valjevo",
+   "name": "Mesna zajednica \"Oslobodioci Valjeva\"",
+   "official_name": "MESNA ZAJEDNICA \"OSLOBODIOCI VALJEVA\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-popare-valjevo",
+   "name": "Mesna zajednica \"Popare\"",
+   "official_name": "MESNA ZAJEDNICA \"POPARE\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-stari-grad-valjevo",
+   "name": "Mesna zajednica \"Stari grad\"",
+   "official_name": "MESNA ZAJEDNICA \"STARI GRAD\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-zikica-jovanovic-spanac-valjevo",
+   "name": "Mesna zajednica \"Žikica Jovanović Španac\"",
+   "official_name": "MESNA ZAJEDNICA \"ŽIKICA JOVANOVIĆ ŠPANAC\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-babina-luka-valjevo",
+   "name": "Mesna zajednica Babina Luka",
+   "official_name": "MESNA ZAJEDNICA BABINA LUKA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-bacevci-valjevo",
+   "name": "Mesna zajednica Bačevci",
+   "official_name": "MESNA ZAJEDNICA BAČEVCI",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-belosevac-belosevac",
+   "name": "Mesna zajednica Beloševac",
+   "official_name": "MESNA ZAJEDNICA BELOŠEVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Beloševac",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-belosevac-valjevo",
+   "name": "Mesna zajednica Beloševac",
+   "official_name": "MESNA ZAJEDNICA BELOŠEVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-brankovina-valjevo",
+   "name": "Mesna zajednica Brankovina",
+   "official_name": "MESNA ZAJEDNICA BRANKOVINA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-divci-valjevo",
+   "name": "Mesna zajednica Divci",
+   "official_name": "MESNA ZAJEDNICA DIVCI",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-divcibare-valjevo",
+   "name": "Mesna zajednica Divčibare",
+   "official_name": "MESNA ZAJEDNICA DIVČIBARE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-donja-bukovica-valjevo",
+   "name": "Mesna zajednica Donja Bukovica",
+   "official_name": "MESNA ZAJEDNICA DONJA BUKOVICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-donja-grabovica-valjevo",
+   "name": "Mesna zajednica Donja Grabovica",
+   "official_name": "MESNA ZAJEDNICA DONJA GRABOVICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-donji-taor-valjevo",
+   "name": "Mesna zajednica Donji Taor",
+   "official_name": "MESNA ZAJEDNICA DONJI TAOR",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-dracic-valjevo",
+   "name": "Mesna zajednica Dračić",
+   "official_name": "MESNA ZAJEDNICA DRAČIĆ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-dupljaj-valjevo",
+   "name": "Mesna zajednica Dupljaj",
+   "official_name": "MESNA ZAJEDNICA DUPLJAJ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-gola-glava-valjevo",
+   "name": "Mesna zajednica Gola Glava",
+   "official_name": "MESNA ZAJEDNICA GOLA GLAVA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-goric-valjevo",
+   "name": "Mesna zajednica Gorić",
+   "official_name": "MESNA ZAJEDNICA GORIĆ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-gornja-bukovica-valjevo",
+   "name": "Mesna zajednica Gornja Bukovica",
+   "official_name": "MESNA ZAJEDNICA GORNJA BUKOVICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-gornja-grabovica-valjevo",
+   "name": "Mesna zajednica Gornja Grabovica",
+   "official_name": "MESNA ZAJEDNICA GORNJA GRABOVICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-gornji-lukavac-valjevo",
+   "name": "Mesna zajednica Gornji Lukavac",
+   "official_name": "MESNA ZAJEDNICA GORNJI LUKAVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-gornji-taor-valjevo",
+   "name": "Mesna zajednica Gornji Taor",
+   "official_name": "MESNA ZAJEDNICA GORNJI TAOR",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-jablanica-valjevo",
+   "name": "Mesna zajednica Jablanica",
+   "official_name": "MESNA ZAJEDNICA JABLANICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-kamenica-valjevo",
+   "name": "Mesna zajednica Kamenica",
+   "official_name": "MESNA ZAJEDNICA KAMENICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-klanica-valjevo",
+   "name": "Mesna zajednica Klanica",
+   "official_name": "MESNA ZAJEDNICA KLANICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-klinci-valjevo",
+   "name": "Mesna zajednica Klinci",
+   "official_name": "MESNA ZAJEDNICA KLINCI",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-kotesica-valjevo",
+   "name": "Mesna zajednica Kotešica",
+   "official_name": "MESNA ZAJEDNICA KOTEŠICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-lelic-valjevo",
+   "name": "Mesna zajednica Lelić",
+   "official_name": "MESNA ZAJEDNICA LELIĆ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-leskovice-valjevo",
+   "name": "Mesna zajednica Leskovice",
+   "official_name": "MESNA ZAJEDNICA LESKOVICE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-loznica-valjevo",
+   "name": "Mesna zajednica Loznica",
+   "official_name": "MESNA ZAJEDNICA LOZNICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-lukavac-valjevo",
+   "name": "Mesna zajednica Lukavac",
+   "official_name": "MESNA ZAJEDNICA LUKAVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-milicinica-valjevo",
+   "name": "Mesna zajednica Miličinica",
+   "official_name": "MESNA ZAJEDNICA MILIČINICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-ogladjenovac-valjevo",
+   "name": "Mesna zajednica Oglađenovac",
+   "official_name": "MESNA ZAJEDNICA OGLAĐENOVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-paune-valjevo",
+   "name": "Mesna zajednica Paune",
+   "official_name": "MESNA ZAJEDNICA PAUNE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-petnica-valjevo",
+   "name": "Mesna zajednica Petnica",
+   "official_name": "MESNA ZAJEDNICA PETNICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-popucke-valjevo",
+   "name": "Mesna zajednica Popučke",
+   "official_name": "MESNA ZAJEDNICA POPUČKE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-pocuta-tubravic-valjevo",
+   "name": "Mesna zajednica Poćuta Tubravić",
+   "official_name": "MESNA ZAJEDNICA POĆUTA TUBRAVIĆ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-pricevic-valjevo",
+   "name": "Mesna zajednica Pričević",
+   "official_name": "MESNA ZAJEDNICA PRIČEVIĆ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-radjevo-selo-valjevo",
+   "name": "Mesna zajednica Rađevo Selo",
+   "official_name": "MESNA ZAJEDNICA RAĐEVO SELO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-sedlari-valjevo",
+   "name": "Mesna zajednica Sedlari",
+   "official_name": "MESNA ZAJEDNICA SEDLARI",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-stave-valjevo",
+   "name": "Mesna zajednica Stave",
+   "official_name": "MESNA ZAJEDNICA STAVE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-vragocanica-valjevo",
+   "name": "Mesna zajednica Vragočanica",
+   "official_name": "MESNA ZAJEDNICA VRAGOČANICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-zabari-valjevo",
+   "name": "Mesna zajednica Žabari",
+   "official_name": "MESNA ZAJEDNICA ŽABARI",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  }
+ ]
+}

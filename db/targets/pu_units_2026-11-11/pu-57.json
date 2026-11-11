@@ -1,0 +1,89 @@
+{
+ "chunk": "pu-57",
+ "institutions": [
+  {
+   "org_slug": "privatni-vrtic-predskolska-ustanova-gimnazion-cacak",
+   "name": "Predškolska ustanova „Gimnazion“",
+   "type": "privatni-vrtic",
+   "website": null,
+   "municipality": "Čačak",
+   "seat_address": "Gradski Bedem 14a",
+   "seat_phone": null,
+   "units": [
+    {
+     "location_id": 45901,
+     "name": "RJ \"Jug\"",
+     "municipality": "Čačak"
+    },
+    {
+     "location_id": 45848,
+     "name": "RJ \"Sever\"",
+     "municipality": "Čačak"
+    }
+   ]
+  },
+  {
+   "org_slug": "privatni-vrtic-predskolska-ustanova-agnes-viktorija-leskovac",
+   "name": "Predškolska ustanova „Agnes Viktorija“",
+   "type": "privatni-vrtic",
+   "website": null,
+   "municipality": "Leskovac",
+   "seat_address": "Dubočica 4",
+   "seat_phone": null,
+   "units": [
+    {
+     "location_id": 45963,
+     "name": "Agnes Viktorija 2",
+     "municipality": "Leskovac"
+    },
+    {
+     "location_id": 46375,
+     "name": "Agnes Viktorija 3",
+     "municipality": "Leskovac"
+    }
+   ]
+  },
+  {
+   "org_slug": "privatni-vrtic-predskolska-ustanova-moj-ringispil-beograd",
+   "name": "Predškolska ustanova „Moj ringišpil“",
+   "type": "privatni-vrtic",
+   "website": null,
+   "municipality": "Beograd",
+   "seat_address": "Bulevar Oslobođenja 102",
+   "seat_phone": null,
+   "units": [
+    {
+     "location_id": 47323,
+     "name": "Moj Ringišpil izdvojeno odeljenje Ringišpil1",
+     "municipality": "Voždovac"
+    },
+    {
+     "location_id": 47322,
+     "name": "Moj Ringišpil izdvojeno odeljenje Ringišpil2",
+     "municipality": "Voždovac"
+    }
+   ]
+  },
+  {
+   "org_slug": "privatni-vrtic-predskolska-ustanova-dreamland-novi-sad",
+   "name": "Predškolska ustanova „Dreamland“",
+   "type": "privatni-vrtic",
+   "website": null,
+   "municipality": "Novi Sad",
+   "seat_address": "Šumadijska 3",
+   "seat_phone": null,
+   "units": [
+    {
+     "location_id": 47064,
+     "name": "Kindergarten",
+     "municipality": "Novi Sad"
+    },
+    {
+     "location_id": 47065,
+     "name": "Woodland",
+     "municipality": "Novi Sad"
+    }
+   ]
+  }
+ ]
+}

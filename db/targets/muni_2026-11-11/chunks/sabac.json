@@ -1,0 +1,2281 @@
+{
+ "municipality": "Šabac",
+ "municipality_slug": "sabac",
+ "municipality_site": null,
+ "chunk": "sabac",
+ "of": 1,
+ "rows": [
+  {
+   "org_slug": "apoteka-sabac-sabac",
+   "name": "Apoteka \"Šabac\"",
+   "official_name": "APOTEKA \"ŠABAC\"",
+   "type_slug": "apoteka",
+   "type": "Apotekarska ustanova",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "gerontoloski-centar-domsko-odeljenje-sabac-domski-smestaj-za-decu-mlade-i",
+   "name": "DOMSKO ODELJENJE ŠABAC- Domski smeštaj za decu, mlade i odrasle sa intelektualnim teškoćama i teškoćama u komunikaciji pri CENTRU ZA SOCIJALNI RAD ŠABAC",
+   "official_name": null,
+   "type_slug": "gerontoloski-centar",
+   "type": "Gerontološki centar / ustanova socijalne zaštite",
+   "website": null,
+   "settlement": "Šabac",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": "csrsa@ptt.rs",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "gradska-uprava-sabac-sabac",
+   "name": "Gradska uprava Šabac",
+   "official_name": "GRADSKA UPRAVA ŠABAC",
+   "type_slug": "gradska-uprava",
+   "type": "Gradska uprava",
+   "website": "https://sabac.rs",
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": "015 347117",
+    "email": "gradonacelnik@sabac.org",
+    "hours": null
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "akcionarsko-drustvo-robno-transportni-centar-sabac-sabac-misar",
+   "name": "Akcionarsko društvo Robno Transportni centar Šabac, Šabac",
+   "official_name": "AKCIONARSKO DRUŠTVO ROBNO TRANSPORTNI CENTAR ŠABAC, ŠABAC",
+   "type_slug": "javno-preduzece",
+   "type": "Javno preduzeće / društvo",
+   "website": null,
+   "settlement": "Mišar",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "fondacija-za-prom-dem-vrednosti-i-prom-i-unap-kulture-umetnosti-i-obraz-stanislav-vinaver-sabac",
+   "name": "Fondacija za Prom. Dem.vrednosti i Prom. i Unap. kulture, umetnosti i Obraz. \"Stanislav Vinaver\"",
+   "official_name": "FONDACIJA ZA PROM. DEM.VREDNOSTI I PROM. I UNAP. KULTURE, UMETNOSTI I OBRAZ. \"STANISLAV VINAVER\"",
+   "type_slug": "javno-preduzece",
+   "type": "Javno preduzeće / društvo",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "javno-preduzece-infrastruktura-sabac-sabac-sabac",
+   "name": "Javno Preduzeće Infrastruktura Šabac Šabac",
+   "official_name": "Javno preduzeće Infrastruktura Šabac Šabac",
+   "type_slug": "javno-preduzece",
+   "type": "Javno preduzeće / društvo",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "poljoprivredna-savetodavna-i-strucna-sluzba-sabac-drustvo-sa-ogranicenom-odgovornoscu-sabac-sabac",
+   "name": "Poljoprivredna Savetodavna i Stručna služba Šabac društvo sa ograničenom odgovornošću Šabac",
+   "official_name": "POLJOPRIVREDNA SAVETODAVNA I STRUČNA SLUŽBA ŠABAC DRUŠTVO SA OGRANIČENOM ODGOVORNOŠĆU ŠABAC",
+   "type_slug": "javno-preduzece",
+   "type": "Javno preduzeće / društvo",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "privredno-drustvo-za-upravljanje-slobodnom-zonom-slobodna-zona-sabac-doo-sabac-sabac",
+   "name": "Privredno društvo za upravljanje Slobodnom Zonom Slobodna Zona Šabac DOO, Šabac",
+   "official_name": "PRIVREDNO DRUŠTVO ZA UPRAVLJANJE SLOBODNOM ZONOM SLOBODNA ZONA ŠABAC DOO, ŠABAC",
+   "type_slug": "javno-preduzece",
+   "type": "Javno preduzeće / društvo",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "regionalni-centar-za-razvoj-malih-i-srednjih-preduzeca-i-preduzetnistva-doo-sabac-sabac",
+   "name": "Regionalni centar za razvoj Malih i Srednjih preduzeća i Preduzetništva DOO Šabac",
+   "official_name": "REGIONALNI CENTAR ZA RAZVOJ MALIH I SREDNJIH PREDUZEĆA I PREDUZETNIŠTVA DOO ŠABAC",
+   "type_slug": "javno-preduzece",
+   "type": "Javno preduzeće / društvo",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "veterinarski-specijalisticki-institut-sabac-sabac",
+   "name": "Veterinarski Specijalistički institut \"Šabac\"",
+   "official_name": "VETERINARSKI SPECIJALISTIČKI INSTITUT \"ŠABAC\"",
+   "type_slug": "javno-preduzece",
+   "type": "Javno preduzeće / društvo",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "vodoprivredno-drustvo-sava-drustvo-sa-ogranicenom-odgovornoscu-sabac-sabac",
+   "name": "Vodoprivredno Društvo Sava, Društvo sa Ograničenom Odgovornošću Šabac",
+   "official_name": "Vodoprivredno društvo Sava, društvo sa ograničenom odgovornošću Šabac",
+   "type_slug": "javno-preduzece",
+   "type": "Javno preduzeće / društvo",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "zorka-holding-akcionarsko-drustvo-sabac-u-stecaju-sabac",
+   "name": "Zorka-Holding Akcionarsko društvo, Šabac - u Stečaju",
+   "official_name": "ZORKA-HOLDING AKCIONARSKO DRUŠTVO, ŠABAC - U STEČAJU",
+   "type_slug": "javno-preduzece",
+   "type": "Javno preduzeće / društvo",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "zorka-mineralna-djubriva-akcionarsko-drustvo-za-proizvodnju-mineralnih-djubriva-sabac-u-stecaju-saba",
+   "name": "Zorka-Mineralna Đubriva Akcionarsko društvo za proizvodnju Mineralnih Đubriva, Šabac - u Stečaju",
+   "official_name": "ZORKA-MINERALNA ĐUBRIVA AKCIONARSKO DRUŠTVO ZA PROIZVODNJU MINERALNIH ĐUBRIVA, ŠABAC - U STEČAJU",
+   "type_slug": "javno-preduzece",
+   "type": "Javno preduzeće / društvo",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "zorka-obojena-metalurgija-akcionarsko-drustvo-za-proizvodnju-i-preradu-cinka-sabac-u-stecaju-sabac",
+   "name": "Zorka-Obojena Metalurgija Akcionarsko društvo za proizvodnju i Preradu Cinka Šabac - u Stečaju",
+   "official_name": "ZORKA-OBOJENA METALURGIJA AKCIONARSKO DRUŠTVO ZA PROIZVODNJU I PRERADU CINKA ŠABAC - U STEČAJU",
+   "type_slug": "javno-preduzece",
+   "type": "Javno preduzeće / društvo",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "zorka-stan-doo-sabac-u-stecaju-sabac",
+   "name": "Zorka-Stan DOO Šabac - u Stečaju",
+   "official_name": "ZORKA-STAN DOO ŠABAC - U STEČAJU",
+   "type_slug": "javno-preduzece",
+   "type": "Javno preduzeće / društvo",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-regionalna-deponija-srem-macva-sabac-sabac",
+   "name": "Javno komunalno preduzeće regionalna Deponija Srem-Mačva Šabac",
+   "official_name": "JAVNO KOMUNALNO PREDUZEĆE REGIONALNA DEPONIJA SREM-MAČVA ŠABAC",
+   "type_slug": "jkp-cistoca",
+   "type": "JKP Čistoća / Komunalac",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "dom-kulture-prnjavor-sabac",
+   "name": "Dom kulture \"Prnjavor\"",
+   "official_name": "DOM KULTURE \"PRNJAVOR\"",
+   "type_slug": "kulturni-centar",
+   "type": "Kulturni centar / Dom kulture",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "kulturni-centar-sabac-sabac",
+   "name": "Kulturni centar Šabac",
+   "official_name": "KULTURNI CENTAR ŠABAC",
+   "type_slug": "kulturni-centar",
+   "type": "Kulturni centar / Dom kulture",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "sabacko-pozoriste-sabac",
+   "name": "Šabačko pozorište",
+   "official_name": "ŠABAČKO POZORIŠTE",
+   "type_slug": "kulturni-centar",
+   "type": "Kulturni centar / Dom kulture",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "policijska-uprava-sabac",
+   "name": "Policijska uprava Šabac",
+   "official_name": null,
+   "type_slug": "mup-policijska-uprava",
+   "type": "MUP – Policijska uprava / stanica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": "015 220200",
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "narodni-muzej-sabac-sabac",
+   "name": "Narodni muzej Šabac",
+   "official_name": "NARODNI MUZEJ ŠABAC",
+   "type_slug": "muzej",
+   "type": "Muzej / Arhiv",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "muzicka-skola-mihailo-vukdragovic-sabac",
+   "name": "Muzička Škola\"mihailo Vukdragović\"",
+   "official_name": "MUZIČKA ŠKOLA\"MIHAILO VUKDRAGOVIĆ\"",
+   "type_slug": "muzicka-skola",
+   "type": "Muzička ili baletska škola",
+   "website": null,
+   "settlement": "Šabac",
+   "have": {
+    "address": "Masarikova 35",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "biblioteka-sabacka-sabac",
+   "name": "Biblioteka Šabačka",
+   "official_name": "BIBLIOTEKA ŠABAČKA",
+   "type_slug": "narodna-biblioteka",
+   "type": "Narodna biblioteka",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "gradonacelnik-grada-sapca-sabac",
+   "name": "Gradonačelnik grada Šapca",
+   "official_name": "GRADONAČELNIK GRADA ŠAPCA",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "gradsko-javno-pravobranilastvo-sabac-sabac",
+   "name": "Gradsko javno Pravobranilaštvo Šabac",
+   "official_name": "GRADSKO JAVNO PRAVOBRANILAŠTVO ŠABAC",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "gradsko-vece-grada-sapca-sabac",
+   "name": "Gradsko veće grada Šapca",
+   "official_name": "GRADSKO VEĆE GRADA ŠAPCA",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skupstina-grada-sapca-sabac",
+   "name": "Skupština grada Šapca",
+   "official_name": "SKUPŠTINA GRADA ŠAPCA",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-janko-veselinovic-sabac",
+   "name": "Osnovna škola \"Janko Veselinović\"",
+   "official_name": "OSNOVNA ŠKOLA \"JANKO VESELINOVIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Šabac",
+   "have": {
+    "address": "Karađorđeva 48",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-jevrem-obrenovic-sabac",
+   "name": "Osnovna škola \"Jevrem Obrenović\"",
+   "official_name": "OSNOVNA ŠKOLA \"JEVREM OBRENOVIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Šabac",
+   "have": {
+    "address": "Žike Popovića 20",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-jovan-cvijic-zminjak-sabac",
+   "name": "Osnovna škola \"Jovan Cvijić\" Zminjak",
+   "official_name": "OSNOVNA ŠKOLA \"JOVAN CVIJIĆ\" ZMINJAK",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Zminjak",
+   "have": {
+    "address": "Vojvode Mišića 1",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-kralj-aleksandar-karadjordjevic-prnjavor-sabac",
+   "name": "Osnovna škola \"Kralj Aleksandar Karađorđević\" Prnjavor",
+   "official_name": "OSNOVNA ŠKOLA \"KRALJ ALEKSANDAR KARAĐORĐEVIĆ\" PRNJAVOR",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Prnjavor",
+   "have": {
+    "address": "Vojvode Mišića 2",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-laza-k-lazarevic-sabac",
+   "name": "Osnovna škola \"Laza K. Lazarević\"",
+   "official_name": "OSNOVNA ŠKOLA \"LAZA K. LAZAREVIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Šabac",
+   "have": {
+    "address": "Masarikova 136",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-majur-majur-sabac",
+   "name": "Osnovna škola \"Majur\" Majur",
+   "official_name": "OSNOVNA ŠKOLA \"MAJUR\" MAJUR",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Majur",
+   "have": {
+    "address": "Svetog Save 4",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-nata-jelicic-sabac",
+   "name": "Osnovna škola \"Nata Jeličić\"",
+   "official_name": "OSNOVNA ŠKOLA \"NATA JELIČIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Šabac",
+   "have": {
+    "address": "Jele Spiridonović-Savić 5",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-nikolaj-velimirovic-sabac",
+   "name": "Osnovna škola \"Nikolaj Velimirović\"",
+   "official_name": "OSNOVNA ŠKOLA \"NIKOLAJ VELIMIROVIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Šabac",
+   "have": {
+    "address": "Vlade Jovanovića 52",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-stojan-novakovic-sabac",
+   "name": "Osnovna škola \"Stojan Novaković\"",
+   "official_name": "OSNOVNA ŠKOLA \"STOJAN NOVAKOVIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Šabac",
+   "have": {
+    "address": "Vojvode Janka Stojićevića 38",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-sveti-sava-sabac",
+   "name": "Osnovna škola \"Sveti Sava\"",
+   "official_name": "OSNOVNA ŠKOLA \"SVETI SAVA\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-vojvoda-stepa-lipolist-sabac",
+   "name": "Osnovna škola \"Vojvoda Stepa\" Lipolist",
+   "official_name": "OSNOVNA ŠKOLA \"VOJVODA STEPA\" LIPOLIST",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Lipolist",
+   "have": {
+    "address": "Karađorđeva 1",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-vuk-karadzic-sabac",
+   "name": "Osnovna škola \"Vuk Karadžić\"",
+   "official_name": "OSNOVNA ŠKOLA \"VUK KARADŽIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-nase-dete-sabac",
+   "name": "Predškolska ustanova \"Naše Dete\"",
+   "official_name": "PREDŠKOLSKA USTANOVA \"NAŠE DETE\"",
+   "type_slug": "predskolska-ustanova",
+   "type": "Predškolska ustanova (vrtić)",
+   "website": null,
+   "settlement": "Šabac",
+   "have": {
+    "address": "Prote Smiljanića 10",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "in-vitro-lab-sabac-w2384841360",
+   "name": "In vitro Lab",
+   "official_name": null,
+   "type_slug": "privatna-ordinacija",
+   "type": "Privatna ordinacija / klinika",
+   "website": "https://invitrolab.rs/",
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": "015 344711",
+    "email": "office@invitrolab.rs",
+    "hours": "Mo-Fr 08:00-20:00; Sa 09:00-14:00; Su 10:00-12:00"
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-marija-zikic-pr-kozmeticki-studio-mystic-sabac-sabac",
+   "name": "Marija Žikić Pr Kozmetički Studio Mystic Šabac",
+   "official_name": null,
+   "type_slug": "skola-za-odrasle",
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "website": null,
+   "settlement": "Šabac",
+   "have": {
+    "address": "Kralja Aleksandra 33",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-narodni-univerzitet-sabac-sabac",
+   "name": "Narodni Univerzitet Šabac",
+   "official_name": null,
+   "type_slug": "skola-za-odrasle",
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "website": null,
+   "settlement": "Šabac",
+   "have": {
+    "address": "Koste Abraševića 4",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-poslovni-savetnik-doo-sabac-sabac",
+   "name": "Poslovni Savetnik Doo Šabac",
+   "official_name": null,
+   "type_slug": "skola-za-odrasle",
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "website": null,
+   "settlement": "Šabac",
+   "have": {
+    "address": "Kneza Lazara 8",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-udruzenje-svetlost-sabac",
+   "name": "Udruženje Svetlost",
+   "official_name": null,
+   "type_slug": "skola-za-odrasle",
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "website": null,
+   "settlement": "Šabac",
+   "have": {
+    "address": "Sime Katića 1",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "zorka-standard-doo-za-delatnosti-sportskih-arena-i-stadiona-sabac-sabac",
+   "name": "Zorka - Standard DOO za delatnosti Sportskih Arena i Stadiona Šabac",
+   "official_name": "ZORKA - STANDARD DOO ZA DELATNOSTI SPORTSKIH ARENA I STADIONA ŠABAC",
+   "type_slug": "sportski-centar",
+   "type": "Sportski centar",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "ekonomska-skola-stana-milanovic-sabac",
+   "name": "Ekonomska škola \"Stana Milanović\"",
+   "official_name": "EKONOMSKA ŠKOLA \"STANA MILANOVIĆ\"",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Šabac",
+   "have": {
+    "address": "Masarikova 29",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "medicinska-skola-dr-andra-jovanovic-sabac",
+   "name": "Medicinska škola \"Dr Andra Jovanović\"",
+   "official_name": "MEDICINSKA ŠKOLA \"DR ANDRA JOVANOVIĆ\"",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Šabac",
+   "have": {
+    "address": "Cara Dušana 9",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "srednja-poljoprivredna-skola-sa-domom-ucenika-sabac",
+   "name": "Srednja poljoprivredna škola sa Domom učenika",
+   "official_name": "SREDNJA POLJOPRIVREDNA ŠKOLA SA DOMOM UČENIKA",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "strucna-hemijska-i-tekstilna-skola-sabac",
+   "name": "Stručna hemijska i Tekstilna škola",
+   "official_name": "STRUČNA HEMIJSKA I TEKSTILNA ŠKOLA",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Šabac",
+   "have": {
+    "address": "Hajduk Veljkova 10",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "tehnicka-skola-sabac-sabac",
+   "name": "Tehnička škola Šabac",
+   "official_name": "TEHNIČKA ŠKOLA ŠABAC",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Šabac",
+   "have": {
+    "address": "Banjičkih Žrtava 2",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "sabacka-gimnazija-sabac",
+   "name": "Šabačka gimnazija",
+   "official_name": "ŠABAČKA GIMNAZIJA",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Šabac",
+   "have": {
+    "address": "Masarikova 13",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skola-primenjenih-umetnosti-sabac-sabac",
+   "name": "Škola Primenjenih umetnosti Šabac",
+   "official_name": "ŠKOLA PRIMENJENIH UMETNOSTI ŠABAC",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Šabac",
+   "have": {
+    "address": "Dobropoljska 5",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "odeljenje-za-vanredne-situacije-sabac",
+   "name": "Odeljenje za vanredne situacije Šabac",
+   "official_name": null,
+   "type_slug": "uprava-za-vanredne-situacije",
+   "type": "MUP – Uprava za vanredne situacije (vatrogasci)",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "macvanski-upravni-okrug-sabac",
+   "name": "Mačvanski upravni okrug",
+   "official_name": "MAČVANSKI UPRAVNI OKRUG",
+   "type_slug": "upravni-okrug",
+   "type": "Upravni okrug",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "centar-za-strucno-usavrsavanje-sabac",
+   "name": "Centar za Stručno Usavršavanje",
+   "official_name": "CENTAR ZA STRUČNO USAVRŠAVANJE",
+   "type_slug": "ustanova",
+   "type": "Javna ustanova",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": "Nikole Tesle 1",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "gerontoloski-centar-sabac-sabac",
+   "name": "Gerontološki centar Šabac",
+   "official_name": "GERONTOLOŠKI CENTAR ŠABAC",
+   "type_slug": "ustanova",
+   "type": "Javna ustanova",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "kazneno-popravni-zavod-u-sapcu-sabac",
+   "name": "Kazneno-Popravni zavod u Šapcu",
+   "official_name": "KAZNENO-POPRAVNI ZAVOD U ŠAPCU",
+   "type_slug": "ustanova",
+   "type": "Javna ustanova",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "veterinarska-stanica-sabac-sabac-w2384841362",
+   "name": "Veterinarska stanica Šabac",
+   "official_name": null,
+   "type_slug": "veterinarska-stanica",
+   "type": "Veterinarska stanica / ambulanta",
+   "website": "https://vssabac.rs/",
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": "015 341240; 064 8520770",
+    "email": "ambulanta.vssabac@gmail.com",
+    "hours": "Mo-Fr 07:00-19:00; Sa-Su 08:00-13:00,17:00-19:00"
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "akademija-strukovnih-studija-sabac-sabac",
+   "name": "Akademija Strukovnih Studija Šabac",
+   "official_name": "AKADEMIJA STRUKOVNIH STUDIJA ŠABAC",
+   "type_slug": "visoka-skola",
+   "type": "Visoka škola / akademija strukovnih studija",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-bair-sabac",
+   "name": "Mesna zajednica \"Bair\"",
+   "official_name": "MESNA ZAJEDNICA \"BAIR\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-donji-sor-sabac",
+   "name": "Mesna zajednica \"Donji Šor\"",
+   "official_name": "MESNA ZAJEDNICA \"DONJI ŠOR\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-gornja-rumska-rumska-sabac",
+   "name": "Mesna zajednica \"Gornja Rumska\" Rumska",
+   "official_name": "MESNA ZAJEDNICA \"GORNJA RUMSKA\" RUMSKA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-jevremova-sabac",
+   "name": "Mesna zajednica \"Jevremova\"",
+   "official_name": "MESNA ZAJEDNICA \"JEVREMOVA\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-kamenjak-sabac",
+   "name": "Mesna zajednica \"Kamenjak\"",
+   "official_name": "MESNA ZAJEDNICA \"KAMENJAK\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-kamicak-sabac",
+   "name": "Mesna zajednica \"Kamičak\"",
+   "official_name": "MESNA ZAJEDNICA \"KAMIČAK\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-kasarske-livade-sabac",
+   "name": "Mesna zajednica \"Kasarske Livade\"",
+   "official_name": "MESNA ZAJEDNICA \"KASARSKE LIVADE\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-letnjikovac-sabac",
+   "name": "Mesna zajednica \"Letnjikovac\"",
+   "official_name": "MESNA ZAJEDNICA \"LETNJIKOVAC\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-preki-sor-sabac",
+   "name": "Mesna zajednica \"Preki Šor\"",
+   "official_name": "MESNA ZAJEDNICA \"PREKI ŠOR\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-prnjavor-sabac",
+   "name": "Mesna zajednica \"Prnjavor\"",
+   "official_name": "MESNA ZAJEDNICA \"PRNJAVOR\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-sipurske-livade-sabac",
+   "name": "Mesna zajednica \"Šipurske Livade\"",
+   "official_name": "MESNA ZAJEDNICA \"ŠIPURSKE LIVADE\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-zika-popovic-sabac",
+   "name": "Mesna zajednica \"Žika Popović\"",
+   "official_name": "MESNA ZAJEDNICA \"ŽIKA POPOVIĆ\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-bela-reka-sabac",
+   "name": "Mesna zajednica Bela Reka",
+   "official_name": "MESNA ZAJEDNICA BELA REKA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-bogosavac-sabac",
+   "name": "Mesna zajednica Bogosavac",
+   "official_name": "MESNA ZAJEDNICA BOGOSAVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-bojic-sabac",
+   "name": "Mesna zajednica Bojić",
+   "official_name": "MESNA ZAJEDNICA BOJIĆ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-bukor-sabac",
+   "name": "Mesna zajednica Bukor",
+   "official_name": "MESNA ZAJEDNICA BUKOR",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-cerovac-sabac",
+   "name": "Mesna zajednica Cerovac",
+   "official_name": "MESNA ZAJEDNICA CEROVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-culjkovic-sabac",
+   "name": "Mesna zajednica Culjković",
+   "official_name": "MESNA ZAJEDNICA CULJKOVIĆ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-desic-sabac",
+   "name": "Mesna zajednica Desić",
+   "official_name": "MESNA ZAJEDNICA DESIĆ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-dobric-sabac",
+   "name": "Mesna zajednica Dobrić",
+   "official_name": "MESNA ZAJEDNICA DOBRIĆ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-donja-rumska-sabac",
+   "name": "Mesna zajednica Donja Rumska",
+   "official_name": "MESNA ZAJEDNICA DONJA RUMSKA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-drenovac-sabac",
+   "name": "Mesna zajednica Drenovac",
+   "official_name": "MESNA ZAJEDNICA DRENOVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-duvaniste-sabac",
+   "name": "Mesna zajednica Duvanište",
+   "official_name": "MESNA ZAJEDNICA DUVANIŠTE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-dvoriste-sabac",
+   "name": "Mesna zajednica Dvorište",
+   "official_name": "MESNA ZAJEDNICA DVORIŠTE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-gornja-vranjska-sabac",
+   "name": "Mesna zajednica Gornja Vranjska",
+   "official_name": "MESNA ZAJEDNICA GORNJA VRANJSKA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-grusic-sabac",
+   "name": "Mesna zajednica Grušić",
+   "official_name": "MESNA ZAJEDNICA GRUŠIĆ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-jelenca-sabac",
+   "name": "Mesna zajednica Jelenča",
+   "official_name": "MESNA ZAJEDNICA JELENČA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-jevremovac-sabac",
+   "name": "Mesna zajednica Jevremovac",
+   "official_name": "MESNA ZAJEDNICA JEVREMOVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-korman-sabac",
+   "name": "Mesna zajednica Korman",
+   "official_name": "MESNA ZAJEDNICA KORMAN",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-krivaja-sabac",
+   "name": "Mesna zajednica Krivaja",
+   "official_name": "MESNA ZAJEDNICA KRIVAJA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-lipolist-sabac",
+   "name": "Mesna zajednica Lipolist",
+   "official_name": "MESNA ZAJEDNICA LIPOLIST",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-majur-sabac",
+   "name": "Mesna zajednica Majur",
+   "official_name": "MESNA ZAJEDNICA MAJUR",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-mala-vranjska-sabac",
+   "name": "Mesna zajednica Mala Vranjska",
+   "official_name": "MESNA ZAJEDNICA MALA VRANJSKA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-maovi-sabac",
+   "name": "Mesna zajednica Maovi",
+   "official_name": "MESNA ZAJEDNICA MAOVI",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-macvanski-pricinovic-sabac",
+   "name": "Mesna zajednica Mačvanski Pričinović",
+   "official_name": "MESNA ZAJEDNICA MAČVANSKI PRIČINOVIĆ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-metlic-sabac",
+   "name": "Mesna zajednica Metlić",
+   "official_name": "MESNA ZAJEDNICA METLIĆ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-milosevac-sabac",
+   "name": "Mesna zajednica Miloševac",
+   "official_name": "MESNA ZAJEDNICA MILOŠEVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-miokus-sabac",
+   "name": "Mesna zajednica Miokus",
+   "official_name": "MESNA ZAJEDNICA MIOKUS",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-misar-sabac",
+   "name": "Mesna zajednica Mišar",
+   "official_name": "MESNA ZAJEDNICA MIŠAR",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-mrdjenovac-sabac",
+   "name": "Mesna zajednica Mrđenovac",
+   "official_name": "MESNA ZAJEDNICA MRĐENOVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-nakucani-sabac",
+   "name": "Mesna zajednica Nakučani",
+   "official_name": "MESNA ZAJEDNICA NAKUČANI",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-orasac-sabac",
+   "name": "Mesna zajednica Orašac",
+   "official_name": "MESNA ZAJEDNICA ORAŠAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-orid-sabac",
+   "name": "Mesna zajednica Orid",
+   "official_name": "MESNA ZAJEDNICA ORID",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-petkovica-sabac",
+   "name": "Mesna zajednica Petkovica",
+   "official_name": "MESNA ZAJEDNICA PETKOVICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-petlovaca-sabac",
+   "name": "Mesna zajednica Petlovača",
+   "official_name": "MESNA ZAJEDNICA PETLOVAČA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-pocerski-metkovic-sabac",
+   "name": "Mesna zajednica Pocerski Metković",
+   "official_name": "MESNA ZAJEDNICA POCERSKI METKOVIĆ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-pocerski-pricinovic-sabac",
+   "name": "Mesna zajednica Pocerski Pričinović",
+   "official_name": "MESNA ZAJEDNICA POCERSKI PRIČINOVIĆ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-predvorica-sabac",
+   "name": "Mesna zajednica Predvorica",
+   "official_name": "MESNA ZAJEDNICA PREDVORICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-radovasnica-sabac",
+   "name": "Mesna zajednica Radovašnica",
+   "official_name": "MESNA ZAJEDNICA RADOVAŠNICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-ribari-sabac",
+   "name": "Mesna zajednica Ribari",
+   "official_name": "MESNA ZAJEDNICA RIBARI",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-sinosevic-sabac",
+   "name": "Mesna zajednica Sinošević",
+   "official_name": "MESNA ZAJEDNICA SINOŠEVIĆ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-slatina-sabac",
+   "name": "Mesna zajednica Slatina",
+   "official_name": "MESNA ZAJEDNICA SLATINA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-slepcevic-sabac",
+   "name": "Mesna zajednica Slepčević",
+   "official_name": "MESNA ZAJEDNICA SLEPČEVIĆ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-tabanovic-sabac",
+   "name": "Mesna zajednica Tabanović",
+   "official_name": "MESNA ZAJEDNICA TABANOVIĆ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-varna-sabac",
+   "name": "Mesna zajednica Varna",
+   "official_name": "MESNA ZAJEDNICA VARNA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-volujac-sabac",
+   "name": "Mesna zajednica Volujac",
+   "official_name": "MESNA ZAJEDNICA VOLUJAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-zablace-sabac",
+   "name": "Mesna zajednica Zablaće",
+   "official_name": "MESNA ZAJEDNICA ZABLAĆE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-zminjak-sabac",
+   "name": "Mesna zajednica Zminjak",
+   "official_name": "MESNA ZAJEDNICA ZMINJAK",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-sevarice-sabac",
+   "name": "Mesna zajednica Ševarice",
+   "official_name": "MESNA ZAJEDNICA ŠEVARICE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-stitar-sabac",
+   "name": "Mesna zajednica Štitar",
+   "official_name": "MESNA ZAJEDNICA ŠTITAR",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-zabar-sabac",
+   "name": "Mesna zajednica Žabar",
+   "official_name": "MESNA ZAJEDNICA ŽABAR",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  }
+ ]
+}

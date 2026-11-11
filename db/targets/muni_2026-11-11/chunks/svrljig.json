@@ -1,0 +1,899 @@
+{
+ "municipality": "Svrljig",
+ "municipality_slug": "svrljig",
+ "municipality_site": null,
+ "chunk": "svrljig",
+ "of": 1,
+ "rows": [
+  {
+   "org_slug": "centar-za-socijalni-rad-opstine-svrljig-svrljig",
+   "name": "Centar za socijalni rad opštine Svrljig",
+   "official_name": "CENTAR ZA SOCIJALNI RAD OPŠTINE SVRLJIG",
+   "type_slug": "centar-za-socijalni-rad",
+   "type": "Centar za socijalni rad",
+   "website": "https://csrsvrljig.rs/",
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "centar-za-kulturu-prof-dr-sreten-petrovic-ice-svrljig",
+   "name": "Centar za kulturu \"Prof. Dr Sreten Petrović Iče\"",
+   "official_name": "CENTAR ZA KULTURU \"PROF. DR SRETEN PETROVIĆ IČE\"",
+   "type_slug": "kulturni-centar",
+   "type": "Kulturni centar / Dom kulture",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstinsko-vece-opstine-svrljig-svrljig",
+   "name": "Opštinsko veće opštine Svrljig",
+   "official_name": "OPŠTINSKO VEĆE OPŠTINE SVRLJIG",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "pravobranilastvo-opstine-svrljig-svrljig",
+   "name": "Pravobranilaštvo opštine Svrljig",
+   "official_name": "PRAVOBRANILAŠTVO OPŠTINE SVRLJIG",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "predsednik-opstine-svrljig-svrljig",
+   "name": "Predsednik opštine Svrljig",
+   "official_name": "PREDSEDNIK OPŠTINE SVRLJIG",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skupstina-opstine-svrljig-svrljig",
+   "name": "Skupština opštine Svrljig",
+   "official_name": "SKUPŠTINA OPŠTINE SVRLJIG",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-dobrila-stambolic-svrljig",
+   "name": "Osnovna škola \"Dobrila Stambolić\"",
+   "official_name": "OSNOVNA ŠKOLA \"DOBRILA STAMBOLIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Svrljig",
+   "have": {
+    "address": "Radetova 25",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-poletarac-svrljig",
+   "name": "Predškolska ustanova \"Poletarac\"",
+   "official_name": "PREDŠKOLSKA USTANOVA \"POLETARAC\"",
+   "type_slug": "predskolska-ustanova",
+   "type": "Predškolska ustanova (vrtić)",
+   "website": null,
+   "settlement": "Svrljig",
+   "have": {
+    "address": "Gordane Todorović 1",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "strucna-skola-dusan-trivunac-dragos-svrljig",
+   "name": "Stručna škola \"Dušan Trivunac-Dragoš\"",
+   "official_name": "STRUČNA ŠKOLA \"DUŠAN TRIVUNAC-DRAGOŠ\"",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Svrljig",
+   "have": {
+    "address": "Gordane Todorović 2",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-reka-izvor-svrljig",
+   "name": "Mesna zajednica \"Reka\" Izvor",
+   "official_name": "MESNA ZAJEDNICA \"REKA\" IZVOR",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-trojica-cuka-jovinci-izvor-svrljig",
+   "name": "Mesna zajednica \"Trojica, Čuka, Jovinci\" Izvor",
+   "official_name": "MESNA ZAJEDNICA \"TROJICA, ČUKA, JOVINCI\" IZVOR",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-beloinje-svrljig",
+   "name": "Mesna zajednica Beloinje",
+   "official_name": "MESNA ZAJEDNICA BELOINJE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-burdimo-svrljig",
+   "name": "Mesna zajednica Burdimo",
+   "official_name": "MESNA ZAJEDNICA BURDIMO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-bucum-svrljig",
+   "name": "Mesna zajednica Bučum",
+   "official_name": "MESNA ZAJEDNICA BUČUM",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-crnoljevica-svrljig",
+   "name": "Mesna zajednica Crnoljevica",
+   "official_name": "MESNA ZAJEDNICA CRNOLJEVICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-davidovac-svrljig",
+   "name": "Mesna zajednica Davidovac",
+   "official_name": "MESNA ZAJEDNICA DAVIDOVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-drajinac-svrljig",
+   "name": "Mesna zajednica Drajinac",
+   "official_name": "MESNA ZAJEDNICA DRAJINAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-galibabinac-svrljig",
+   "name": "Mesna zajednica Galibabinac",
+   "official_name": "MESNA ZAJEDNICA GALIBABINAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-gojmanovac-svrljig",
+   "name": "Mesna zajednica Gojmanovac",
+   "official_name": "MESNA ZAJEDNICA GOJMANOVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-grbavce-svrljig",
+   "name": "Mesna zajednica Grbavče",
+   "official_name": "MESNA ZAJEDNICA GRBAVČE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-gulijan-svrljig",
+   "name": "Mesna zajednica Gulijan",
+   "official_name": "MESNA ZAJEDNICA GULIJAN",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-gusevac-svrljig",
+   "name": "Mesna zajednica Guševac",
+   "official_name": "MESNA ZAJEDNICA GUŠEVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-izvor-svrljig",
+   "name": "Mesna zajednica Izvor",
+   "official_name": "MESNA ZAJEDNICA IZVOR",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-kopajkosara-svrljig",
+   "name": "Mesna zajednica Kopajkošara",
+   "official_name": "MESNA ZAJEDNICA KOPAJKOŠARA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-labukovo-svrljig",
+   "name": "Mesna zajednica Labukovo",
+   "official_name": "MESNA ZAJEDNICA LABUKOVO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-lalinac-svrljig",
+   "name": "Mesna zajednica Lalinac",
+   "official_name": "MESNA ZAJEDNICA LALINAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-lozan-svrljig",
+   "name": "Mesna zajednica Lozan",
+   "official_name": "MESNA ZAJEDNICA LOZAN",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-lukavica-i-sljivovik-svrljig",
+   "name": "Mesna zajednica Lukavica i Šljivovik",
+   "official_name": "MESNA ZAJEDNICA LUKAVICA I ŠLJIVOVIK",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-lukovo-svrljig",
+   "name": "Mesna zajednica Lukovo",
+   "official_name": "MESNA ZAJEDNICA LUKOVO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-manojlica-svrljig",
+   "name": "Mesna zajednica Manojlica",
+   "official_name": "MESNA ZAJEDNICA MANOJLICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-merdzelat-svrljig",
+   "name": "Mesna zajednica Merdželat",
+   "official_name": "MESNA ZAJEDNICA MERDŽELAT",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-nisevac-svrljig",
+   "name": "Mesna zajednica Niševac",
+   "official_name": "MESNA ZAJEDNICA NIŠEVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-okoliste-svrljig",
+   "name": "Mesna zajednica Okolište",
+   "official_name": "MESNA ZAJEDNICA OKOLIŠTE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-okruglica-svrljig",
+   "name": "Mesna zajednica Okruglica",
+   "official_name": "MESNA ZAJEDNICA OKRUGLICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-palilula-svrljig",
+   "name": "Mesna zajednica Palilula",
+   "official_name": "MESNA ZAJEDNICA PALILULA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-peris-svrljig",
+   "name": "Mesna zajednica Periš",
+   "official_name": "MESNA ZAJEDNICA PERIŠ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-pluzina-svrljig",
+   "name": "Mesna zajednica Plužina",
+   "official_name": "MESNA ZAJEDNICA PLUŽINA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-popsica-svrljig",
+   "name": "Mesna zajednica Popšica",
+   "official_name": "MESNA ZAJEDNICA POPŠICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-prekonoga-svrljig",
+   "name": "Mesna zajednica Prekonoga",
+   "official_name": "MESNA ZAJEDNICA PREKONOGA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-radmirovac-svrljig",
+   "name": "Mesna zajednica Radmirovac",
+   "official_name": "MESNA ZAJEDNICA RADMIROVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-ribare-svrljig",
+   "name": "Mesna zajednica Ribare",
+   "official_name": "MESNA ZAJEDNICA RIBARE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-slivje-svrljig",
+   "name": "Mesna zajednica Slivje",
+   "official_name": "MESNA ZAJEDNICA SLIVJE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-svrljig-svrljig",
+   "name": "Mesna zajednica Svrljig",
+   "official_name": "MESNA ZAJEDNICA SVRLJIG",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-varos-mecji-do-svrljig",
+   "name": "Mesna zajednica Varoš-Mečji do",
+   "official_name": "MESNA ZAJEDNICA VAROŠ-MEČJI DO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-vlahovo-svrljig",
+   "name": "Mesna zajednica Vlahovo",
+   "official_name": "MESNA ZAJEDNICA VLAHOVO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-djurinac-svrljig",
+   "name": "Mesna zajednica Đurinac",
+   "official_name": "MESNA ZAJEDNICA ĐURINAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-zeljevo-svrljig",
+   "name": "Mesna zajednica Željevo",
+   "official_name": "MESNA ZAJEDNICA ŽELJEVO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  }
+ ]
+}

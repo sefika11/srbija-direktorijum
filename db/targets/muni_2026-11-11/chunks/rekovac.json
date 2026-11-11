@@ -1,0 +1,898 @@
+{
+ "municipality": "Rekovac",
+ "municipality_slug": "rekovac",
+ "municipality_site": null,
+ "chunk": "rekovac",
+ "of": 1,
+ "rows": [
+  {
+   "org_slug": "centar-za-socijalni-rad-opstine-rekovac-rekovac",
+   "name": "Centar za socijalni rad opštine Rekovac",
+   "official_name": "CENTAR ZA SOCIJALNI RAD OPŠTINE REKOVAC",
+   "type_slug": "centar-za-socijalni-rad",
+   "type": "Centar za socijalni rad",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "javno-preduzece-glaveja-rekovac-rekovac",
+   "name": "Javno Preduzeće Glaveja Rekovac",
+   "official_name": "Javno preduzeće Glaveja Rekovac",
+   "type_slug": "javno-preduzece",
+   "type": "Javno preduzeće / društvo",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "preduzece-za-pruzanje-pijacnih-usluga-belusic-doo-belusic-belusic",
+   "name": "Preduzeće za Pružanje Pijačnih Usluga Belušić DOO, Belušić",
+   "official_name": "PREDUZEĆE ZA PRUŽANJE PIJAČNIH USLUGA BELUŠIĆ DOO, BELUŠIĆ",
+   "type_slug": "javno-preduzece",
+   "type": "Javno preduzeće / društvo",
+   "website": null,
+   "settlement": "Belušić",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "javno-preduzece-drumski-prevoz-putnika-rekovac-u-likvidaciji-rekovac",
+   "name": "Javno Preduzeće Drumski Prevoz Putnika Rekovac - u Likvidaciji",
+   "official_name": "Javno preduzeće Drumski prevoz putnika Rekovac - U LIKVIDACIJI",
+   "type_slug": "jkp-gradski-prevoz",
+   "type": "JKP / JP Gradski prevoz",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "kulturni-centar-opstine-rekovac-rekovac",
+   "name": "Kulturni centar opštine Rekovac",
+   "official_name": "KULTURNI CENTAR OPŠTINE REKOVAC",
+   "type_slug": "kulturni-centar",
+   "type": "Kulturni centar / Dom kulture",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "narodna-biblioteka-dr-milovan-spasic-rekovac",
+   "name": "Narodna biblioteka \"Dr Milovan Spasić\"",
+   "official_name": "NARODNA BIBLIOTEKA \"DR MILOVAN SPASIĆ\"",
+   "type_slug": "narodna-biblioteka",
+   "type": "Narodna biblioteka",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstina-rekovac-opstinsko-vece-rekovac",
+   "name": "Opština Rekovac - Opštinsko veće",
+   "official_name": "OPŠTINA REKOVAC - OPŠTINSKO VEĆE",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstina-rekovac-predsednik-opstine-rekovac",
+   "name": "Opština Rekovac - Predsednik opštine",
+   "official_name": "OPŠTINA REKOVAC - PREDSEDNIK OPŠTINE",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skupstina-opstine-rekovac-rekovac",
+   "name": "Skupština opštine Rekovac",
+   "official_name": "SKUPŠTINA OPŠTINE REKOVAC",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-dusan-popovic-belusic",
+   "name": "Osnovna škola \"Dušan Popović\"",
+   "official_name": "OSNOVNA ŠKOLA \"DUŠAN POPOVIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Belušić",
+   "have": {
+    "address": "Put Dragovo 2",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-svetozar-markovic-rekovac",
+   "name": "Osnovna škola \"Svetozar Marković\"",
+   "official_name": "OSNOVNA ŠKOLA \"SVETOZAR MARKOVIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Rekovac",
+   "have": {
+    "address": "Svetozara Markovića 4",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-miloje-milojevic-rekovac",
+   "name": "Predškolska ustanova \"Miloje Milojević\"",
+   "official_name": "PREDŠKOLSKA USTANOVA \"MILOJE MILOJEVIĆ\"",
+   "type_slug": "predskolska-ustanova",
+   "type": "Predškolska ustanova (vrtić)",
+   "website": null,
+   "settlement": "Rekovac",
+   "have": {
+    "address": "Svetozara Markovića 4",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "javna-ustanova-sportska-organizacija-opstine-rekovac",
+   "name": "Javna ustanova sportska organizacija opštine",
+   "official_name": "JAVNA USTANOVA SPORTSKA ORGANIZACIJA OPŠTINE",
+   "type_slug": "sportski-centar",
+   "type": "Sportski centar",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "poljoprivredno-veterinarska-skola-sa-domom-ucenika-rekovac",
+   "name": "Poljoprivredno-Veterinarska škola sa Domom učenika",
+   "official_name": "POLJOPRIVREDNO-VETERINARSKA ŠKOLA SA DOMOM UČENIKA",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Rekovac",
+   "have": {
+    "address": "Slađana Lukića 1",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-rekovac-3-rekovac",
+   "name": "Mesna zajednica \"Rekovac 3\"",
+   "official_name": "MESNA ZAJEDNICA \"REKOVAC 3\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-bare-rekovac",
+   "name": "Mesna zajednica Bare",
+   "official_name": "MESNA ZAJEDNICA BARE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-belusic-rekovac",
+   "name": "Mesna zajednica Belušić",
+   "official_name": "MESNA ZAJEDNICA BELUŠIĆ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-beocic-rekovac",
+   "name": "Mesna zajednica Beočić",
+   "official_name": "MESNA ZAJEDNICA BEOČIĆ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-bogalinac-rekovac",
+   "name": "Mesna zajednica Bogalinac",
+   "official_name": "MESNA ZAJEDNICA BOGALINAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-brajnovac-rekovac",
+   "name": "Mesna zajednica Brajnovac",
+   "official_name": "MESNA ZAJEDNICA BRAJNOVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-cikot-rekovac",
+   "name": "Mesna zajednica Cikot",
+   "official_name": "MESNA ZAJEDNICA CIKOT",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-dobroselica-rekovac",
+   "name": "Mesna zajednica Dobroselica",
+   "official_name": "MESNA ZAJEDNICA DOBROSELICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-dragovo-rekovac",
+   "name": "Mesna zajednica Dragovo",
+   "official_name": "MESNA ZAJEDNICA DRAGOVO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-kalenicki-prnjavor-rekovac",
+   "name": "Mesna zajednica Kalenićki Prnjavor",
+   "official_name": "MESNA ZAJEDNICA KALENIĆKI PRNJAVOR",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-kaludra-rekovac",
+   "name": "Mesna zajednica Kaludra",
+   "official_name": "MESNA ZAJEDNICA KALUDRA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-kavadar-rekovac",
+   "name": "Mesna zajednica Kavadar",
+   "official_name": "MESNA ZAJEDNICA KAVADAR",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-komarane-rekovac",
+   "name": "Mesna zajednica Komarane",
+   "official_name": "MESNA ZAJEDNICA KOMARANE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-lepojevic-rekovac",
+   "name": "Mesna zajednica Lepojević",
+   "official_name": "MESNA ZAJEDNICA LEPOJEVIĆ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-lomnica-rekovac",
+   "name": "Mesna zajednica Lomnica",
+   "official_name": "MESNA ZAJEDNICA LOMNICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-locika-rekovac",
+   "name": "Mesna zajednica Loćika",
+   "official_name": "MESNA ZAJEDNICA LOĆIKA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-malesevo-rekovac",
+   "name": "Mesna zajednica Maleševo",
+   "official_name": "MESNA ZAJEDNICA MALEŠEVO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-motric-rekovac",
+   "name": "Mesna zajednica Motrić",
+   "official_name": "MESNA ZAJEDNICA MOTRIĆ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-nadrlje-rekovac",
+   "name": "Mesna zajednica Nadrlje",
+   "official_name": "MESNA ZAJEDNICA NADRLJE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-oparic-rekovac",
+   "name": "Mesna zajednica Oparić",
+   "official_name": "MESNA ZAJEDNICA OPARIĆ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-prevest-rekovac",
+   "name": "Mesna zajednica Prevešt",
+   "official_name": "MESNA ZAJEDNICA PREVEŠT",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-rabenovac-rekovac",
+   "name": "Mesna zajednica Rabenovac",
+   "official_name": "MESNA ZAJEDNICA RABENOVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-ratkovic-rekovac",
+   "name": "Mesna zajednica Ratković",
+   "official_name": "MESNA ZAJEDNICA RATKOVIĆ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-rekovac-rekovac",
+   "name": "Mesna zajednica Rekovac",
+   "official_name": "MESNA ZAJEDNICA REKOVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-sekuric-rekovac",
+   "name": "Mesna zajednica Sekurič",
+   "official_name": "MESNA ZAJEDNICA SEKURIČ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-sibnica-rekovac",
+   "name": "Mesna zajednica Sibnica",
+   "official_name": "MESNA ZAJEDNICA SIBNICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-siljevica-rekovac",
+   "name": "Mesna zajednica Siljevica",
+   "official_name": "MESNA ZAJEDNICA SILJEVICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-tecic-rekovac",
+   "name": "Mesna zajednica Tečić",
+   "official_name": "MESNA ZAJEDNICA TEČIĆ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-ursule-rekovac",
+   "name": "Mesna zajednica Ursule",
+   "official_name": "MESNA ZAJEDNICA URSULE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-velika-krusevica-rekovac",
+   "name": "Mesna zajednica Velika Kruševica",
+   "official_name": "MESNA ZAJEDNICA VELIKA KRUŠEVICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-vukmanovac-rekovac",
+   "name": "Mesna zajednica Vukmanovac",
+   "official_name": "MESNA ZAJEDNICA VUKMANOVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-sljivica-rekovac",
+   "name": "Mesna zajednica Šljivica",
+   "official_name": "MESNA ZAJEDNICA ŠLJIVICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-zupanjevac-rekovac",
+   "name": "Mesna zajednica Županjevac",
+   "official_name": "MESNA ZAJEDNICA ŽUPANJEVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  }
+ ]
+}

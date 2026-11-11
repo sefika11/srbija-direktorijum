@@ -1,0 +1,670 @@
+{
+ "municipality": "Ljubovija",
+ "municipality_slug": "ljubovija",
+ "municipality_site": null,
+ "chunk": "ljubovija",
+ "of": 1,
+ "rows": [
+  {
+   "org_slug": "apotekarska-ustanova-lukic-lek-ljubovija",
+   "name": "Apotekarska ustanova \"Lukić-lek\"",
+   "official_name": null,
+   "type_slug": "apoteka",
+   "type": "Apotekarska ustanova",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": "Karađorđeva broj 8",
+    "phones": null,
+    "email": "lukiclek@gmail.com",
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-ljubovija-ljubovija",
+   "name": "Centar za socijalni rad \"Ljubovija\"",
+   "official_name": "CENTAR ZA SOCIJALNI RAD \"LJUBOVIJA\"",
+   "type_slug": "centar-za-socijalni-rad",
+   "type": "Centar za socijalni rad",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-standard-ljubovija-ljubovija",
+   "name": "Javno komunalno preduzeće Standard, Ljubovija",
+   "official_name": "JAVNO KOMUNALNO PREDUZEĆE STANDARD, LJUBOVIJA",
+   "type_slug": "jkp-cistoca",
+   "type": "JKP Čistoća / Komunalac",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "jp-za-upravljanje-gradjevinskim-zemljistem-i-putevima-ljubovija-sa-potpunom-odgovornoscu-ljubovija-l",
+   "name": "JP za upravljanje Građevinskim Zemljištem i Putevima Ljubovija sa Potpunom odgovornošću, Ljubovija",
+   "official_name": "JP ZA UPRAVLJANJE GRAĐEVINSKIM ZEMLJIŠTEM I PUTEVIMA LJUBOVIJA SA POTPUNOM ODGOVORNOŠĆU, LJUBOVIJA",
+   "type_slug": "jp-putevi",
+   "type": "JP za puteve i izgradnju",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "biblioteka-milovan-glisic-ljubovija",
+   "name": "Biblioteka \"Milovan Glišić\"",
+   "official_name": "BIBLIOTEKA \"MILOVAN GLIŠIĆ\"",
+   "type_slug": "narodna-biblioteka",
+   "type": "Narodna biblioteka",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstinska-uprava-ljubovija-ljubovija",
+   "name": "Opštinska uprava Ljubovija",
+   "official_name": "OPŠTINSKA UPRAVA LJUBOVIJA",
+   "type_slug": "opstinska-uprava",
+   "type": "Opštinska uprava",
+   "website": "https://www.ljubovija.rs/",
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstinsko-vece-opstine-ljubovije-ljubovija",
+   "name": "Opštinsko veće opštine Ljubovije",
+   "official_name": "OPŠTINSKO VEĆE OPŠTINE LJUBOVIJE",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "pravobranilastvo-opstine-ljubovija-ljubovija",
+   "name": "Pravobranilaštvo opštine Ljubovija",
+   "official_name": "PRAVOBRANILAŠTVO OPŠTINE LJUBOVIJA",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "predsednik-opstine-ljubovija-ljubovija",
+   "name": "Predsednik opštine Ljubovija",
+   "official_name": "PREDSEDNIK OPŠTINE LJUBOVIJA",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skupstina-opstine-ljubovija-ljubovija",
+   "name": "Skupština opštine Ljubovija",
+   "official_name": "SKUPŠTINA OPŠTINE LJUBOVIJA",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-sveti-sava-ljubovija",
+   "name": "Osnovna škola \"Sveti Sava\"",
+   "official_name": "OSNOVNA ŠKOLA \"SVETI SAVA\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Ljubovija",
+   "have": {
+    "address": "Jovana Cvijića 1",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-poletarac-ljubovija",
+   "name": "Predškolska ustanova \"Poletarac\"",
+   "official_name": "PREDŠKOLSKA USTANOVA \"POLETARAC\"",
+   "type_slug": "predskolska-ustanova",
+   "type": "Predškolska ustanova (vrtić)",
+   "website": null,
+   "settlement": "Ljubovija",
+   "have": {
+    "address": "Desanke Maksimović 3",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "srednja-skola-vuk-karadzic-ljubovija",
+   "name": "Srednja škola \"Vuk Karadžić\"",
+   "official_name": "SREDNJA ŠKOLA \"VUK KARADŽIĆ\"",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Ljubovija",
+   "have": {
+    "address": "Drinska 1",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-berlovine-ljubovija",
+   "name": "Mesna zajednica Berlovine",
+   "official_name": "MESNA ZAJEDNICA BERLOVINE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-caparic-ljubovija",
+   "name": "Mesna zajednica Caparić",
+   "official_name": "MESNA ZAJEDNICA CAPARIĆ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-crnca-ljubovija",
+   "name": "Mesna zajednica Crnča",
+   "official_name": "MESNA ZAJEDNICA CRNČA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-donja-ljubovidja-ljubovija",
+   "name": "Mesna zajednica Donja Ljuboviđa",
+   "official_name": "MESNA ZAJEDNICA DONJA LJUBOVIĐA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-donja-orovica-ljubovija",
+   "name": "Mesna zajednica Donja Orovica",
+   "official_name": "MESNA ZAJEDNICA DONJA OROVICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-drlace-ljubovija",
+   "name": "Mesna zajednica Drlače",
+   "official_name": "MESNA ZAJEDNICA DRLAČE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-gornja-ljubovidja-ljubovija",
+   "name": "Mesna zajednica Gornja Ljuboviđa",
+   "official_name": "MESNA ZAJEDNICA GORNJA LJUBOVIĐA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-gornja-orovica-ljubovija",
+   "name": "Mesna zajednica Gornja Orovica",
+   "official_name": "MESNA ZAJEDNICA GORNJA OROVICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-gornja-tresnjica-ljubovija",
+   "name": "Mesna zajednica Gornja Trešnjica",
+   "official_name": "MESNA ZAJEDNICA GORNJA TREŠNJICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-gornje-koslje-ljubovija",
+   "name": "Mesna zajednica Gornje Košlje",
+   "official_name": "MESNA ZAJEDNICA GORNJE KOŠLJE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-gracanica-ljubovija",
+   "name": "Mesna zajednica Gračanica",
+   "official_name": "MESNA ZAJEDNICA GRAČANICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-grcic-ljubovija",
+   "name": "Mesna zajednica Grčić",
+   "official_name": "MESNA ZAJEDNICA GRČIĆ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-ljubovija-ljubovija",
+   "name": "Mesna zajednica Ljubovija",
+   "official_name": "MESNA ZAJEDNICA LJUBOVIJA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-orovicka-planina-ljubovija",
+   "name": "Mesna zajednica Orovička Planina",
+   "official_name": "MESNA ZAJEDNICA OROVIČKA PLANINA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-podgaj-ljubovija",
+   "name": "Mesna zajednica Podgaj",
+   "official_name": "MESNA ZAJEDNICA PODGAJ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-podnemic-ljubovija",
+   "name": "Mesna zajednica Podnemić",
+   "official_name": "MESNA ZAJEDNICA PODNEMIĆ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-postenje-ljubovija",
+   "name": "Mesna zajednica Postenje",
+   "official_name": "MESNA ZAJEDNICA POSTENJE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-rujevac-ljubovija",
+   "name": "Mesna zajednica Rujevac",
+   "official_name": "MESNA ZAJEDNICA RUJEVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-savkovic-ljubovija",
+   "name": "Mesna zajednica Savković",
+   "official_name": "MESNA ZAJEDNICA SAVKOVIĆ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-selanac-ljubovija",
+   "name": "Mesna zajednica Selanac",
+   "official_name": "MESNA ZAJEDNICA SELANAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-uzovnica-ljubovija",
+   "name": "Mesna zajednica Uzovnica",
+   "official_name": "MESNA ZAJEDNICA UZOVNICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-vrhpolje-ljubovija",
+   "name": "Mesna zajednica Vrhpolje",
+   "official_name": "MESNA ZAJEDNICA VRHPOLJE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  }
+ ]
+}

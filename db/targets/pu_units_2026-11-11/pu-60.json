@@ -1,0 +1,74 @@
+{
+ "chunk": "pu-60",
+ "institutions": [
+  {
+   "org_slug": "privatni-vrtic-predskolska-ustanova-nase-malo-kraljevstvo-lazarevac",
+   "name": "Predškolska ustanova „Naše malo kraljevstvo“",
+   "type": "privatni-vrtic",
+   "website": null,
+   "municipality": "Beograd",
+   "seat_address": "Igmanska 8",
+   "seat_phone": null,
+   "units": [
+    {
+     "location_id": 47327,
+     "name": "Naše malo kraljevstvo 2",
+     "municipality": "Lazarevac"
+    },
+    {
+     "location_id": 46429,
+     "name": "Naše malo kraljevstvo 3",
+     "municipality": "Lazarevac"
+    }
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-neven-kladovo",
+   "name": "Predškolska ustanova \"Neven\"",
+   "type": "predskolska-ustanova",
+   "website": null,
+   "municipality": "Kladovo",
+   "seat_address": "22.Septembar 54",
+   "seat_phone": null,
+   "units": [
+    {
+     "location_id": 45839,
+     "name": "Predškolska ustanova \"Neven\" Kladovo , objekat 2",
+     "municipality": "Kladovo"
+    }
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-olga-grbic-kosjeric",
+   "name": "Predškolska ustanova \"Olga Grbić\"",
+   "type": "predskolska-ustanova",
+   "website": null,
+   "municipality": "Kosjerić",
+   "seat_address": "Radiše Petronijevića 4",
+   "seat_phone": null,
+   "units": [
+    {
+     "location_id": 46219,
+     "name": "Predškolska ustanova \"Olga Grbić\" Varda",
+     "municipality": "Kosjerić"
+    }
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-leptiric-lajkovac",
+   "name": "Predškolska ustanova \"Leptirić\"",
+   "type": "predskolska-ustanova",
+   "website": null,
+   "municipality": "Lajkovac",
+   "seat_address": "Svetog Save 9",
+   "seat_phone": null,
+   "units": [
+    {
+     "location_id": 46365,
+     "name": "Predškolska grupa – Osnovna škola ,,Dimitrije Tucović'' Jabučje",
+     "municipality": "Lajkovac"
+    }
+   ]
+  }
+ ]
+}

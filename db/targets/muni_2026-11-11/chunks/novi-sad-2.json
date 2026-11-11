@@ -1,0 +1,2204 @@
+{
+ "municipality": "Novi Sad",
+ "municipality_slug": "novi-sad",
+ "municipality_site": null,
+ "chunk": "novi-sad-2",
+ "of": 3,
+ "rows": [
+  {
+   "org_slug": "pravobranilastvo-grada-novog-sada-novi-sad",
+   "name": "Pravobranilaštvo grada Novog Sada",
+   "official_name": "PRAVOBRANILAŠTVO GRADA NOVOG SADA",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skupstina-grada-novog-sada-novi-sad",
+   "name": "Skupština grada Novog Sada",
+   "official_name": "SKUPŠTINA GRADA NOVOG SADA",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "sluzba-izvrsnih-organa-grada-novog-sada-novi-sad",
+   "name": "Služba Izvršnih Organa grada Novog Sada",
+   "official_name": "SLUŽBA IZVRŠNIH ORGANA GRADA NOVOG SADA",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "sluzba-skupstine-grada-novog-sada-novi-sad",
+   "name": "Služba skupštine grada Novog Sada",
+   "official_name": "SLUŽBA SKUPŠTINE GRADA NOVOG SADA",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-aleksa-santic-stepanovicevo",
+   "name": "Osnovna škola \"Aleksa Šantić\"",
+   "official_name": "OSNOVNA ŠKOLA \"ALEKSA ŠANTIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Stepanovićevo",
+   "have": {
+    "address": "Vojvode Putnika 6",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-branko-radicevic-novi-sad",
+   "name": "Osnovna škola \"Branko Radičević\"",
+   "official_name": "OSNOVNA ŠKOLA \"BRANKO RADIČEVIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Novi Sad",
+   "have": {
+    "address": "Futoška 5",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-desanka-maksimovic-futog",
+   "name": "Osnovna škola \"Desanka Maksimović\"",
+   "official_name": "OSNOVNA ŠKOLA \"DESANKA MAKSIMOVIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Futog",
+   "have": {
+    "address": "Carice Milice 1",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-dositej-obradovic-novi-sad",
+   "name": "Osnovna škola \"Dositej Obradović\"",
+   "official_name": "OSNOVNA ŠKOLA \"DOSITEJ OBRADOVIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Novi Sad",
+   "have": {
+    "address": "Filipa Filipovića 3",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-dusan-radovic-novi-sad",
+   "name": "Osnovna škola \"Dušan Radović\"",
+   "official_name": "OSNOVNA ŠKOLA \"DUŠAN RADOVIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Novi Sad",
+   "have": {
+    "address": "Čenejska 61",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-ivan-gundulic-novi-sad",
+   "name": "Osnovna škola \"Ivan Gundulić\"",
+   "official_name": "OSNOVNA ŠKOLA \"IVAN GUNDULIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Novi Sad",
+   "have": {
+    "address": "Gundulićeva 9",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-ivo-andric-budisava",
+   "name": "Osnovna škola \"Ivo Andrić\"",
+   "official_name": "OSNOVNA ŠKOLA \"IVO ANDRIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Budisava",
+   "have": {
+    "address": "Školska 3",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-ivo-lola-ribar-novi-sad",
+   "name": "Osnovna škola \"Ivo Lola Ribar\"",
+   "official_name": "OSNOVNA ŠKOLA \"IVO LOLA RIBAR\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Novi Sad",
+   "have": {
+    "address": "Kraljevića Marka 2a",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-jovan-ducic-petrovaradin",
+   "name": "Osnovna škola \"Jovan Dučić\"",
+   "official_name": "OSNOVNA ŠKOLA \"JOVAN DUČIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Petrovaradin",
+   "have": {
+    "address": "Preradovićeva 6",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-jovan-jovanovic-zmaj-sremska-kamenica",
+   "name": "Osnovna škola \"Jovan Jovanović Zmaj\"",
+   "official_name": "OSNOVNA ŠKOLA \"JOVAN JOVANOVIĆ ZMAJ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-jovan-popovic-novi-sad",
+   "name": "Osnovna škola \"Jovan Popović\"",
+   "official_name": "OSNOVNA ŠKOLA \"JOVAN POPOVIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Novi Sad",
+   "have": {
+    "address": "Ravanička 2",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-jozef-atila-novi-sad",
+   "name": "Osnovna škola \"Jožef Atila\"",
+   "official_name": "OSNOVNA ŠKOLA \"JOŽEF ATILA\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Novi Sad",
+   "have": {
+    "address": "Šarplaninska 28",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-kosta-trifkovic-novi-sad",
+   "name": "Osnovna škola \"Kosta Trifković\"",
+   "official_name": "OSNOVNA ŠKOLA \"KOSTA TRIFKOVIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Novi Sad",
+   "have": {
+    "address": "Berislava Berića 2",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-laza-kostic-kovilj",
+   "name": "Osnovna škola \"Laza Kostić\"",
+   "official_name": "OSNOVNA ŠKOLA \"LAZA KOSTIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Kovilj",
+   "have": {
+    "address": "Laze Kostića 42",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-ljudovit-stur-kisac",
+   "name": "Osnovna škola \"Ljudovit Štur\"",
+   "official_name": "OSNOVNA ŠKOLA \"LJUDOVIT ŠTUR\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Kisač",
+   "have": {
+    "address": "Železnička 3",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-marija-trandafil-veternik",
+   "name": "Osnovna škola \"Marija Trandafil\"",
+   "official_name": "OSNOVNA ŠKOLA \"MARIJA TRANDAFIL\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Veternik",
+   "have": {
+    "address": "Paunova 14",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-mihajlo-pupin-veternik",
+   "name": "Osnovna škola \"Mihajlo Pupin\"",
+   "official_name": "OSNOVNA ŠKOLA \"MIHAJLO PUPIN\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Veternik",
+   "have": {
+    "address": "Kralja Aleksandra 38",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-milos-crnjanski-novi-sad",
+   "name": "Osnovna škola \"Miloš Crnjanski\"",
+   "official_name": "OSNOVNA ŠKOLA \"MILOŠ CRNJANSKI\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Novi Sad",
+   "have": {
+    "address": "Anđe Ranković 2",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-miroslav-antic-futog-futog",
+   "name": "Osnovna škola \"Miroslav Antić\" Futog",
+   "official_name": "OSNOVNA ŠKOLA \"MIROSLAV ANTIĆ\" FUTOG",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Futog",
+   "have": {
+    "address": "Rade Končara 2",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-nikola-tesla-novi-sad",
+   "name": "Osnovna škola \"Nikola Tesla\"",
+   "official_name": "OSNOVNA ŠKOLA \"NIKOLA TESLA\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Novi Sad",
+   "have": {
+    "address": "Futoški Put 25",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-petefi-sandor-novi-sad",
+   "name": "Osnovna škola \"Petefi Šandor\"",
+   "official_name": "OSNOVNA ŠKOLA \"PETEFI ŠANDOR\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Novi Sad",
+   "have": {
+    "address": "Bore Prodanovića 15",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-prva-vojvodjanska-brigada-novi-sad",
+   "name": "Osnovna škola \"Prva Vojvođanska Brigada\"",
+   "official_name": "OSNOVNA ŠKOLA \"PRVA VOJVOĐANSKA BRIGADA\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Novi Sad",
+   "have": {
+    "address": "Seljačkih Buna 51a",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-sonja-marinkovic-novi-sad",
+   "name": "Osnovna škola \"Sonja Marinković\"",
+   "official_name": "OSNOVNA ŠKOLA \"SONJA MARINKOVIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Novi Sad",
+   "have": {
+    "address": "Puškinova 28",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-sveti-sava-rumenka-rumenka",
+   "name": "Osnovna škola \"Sveti Sava\" Rumenka",
+   "official_name": "OSNOVNA ŠKOLA \"SVETI SAVA\" RUMENKA",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Rumenka",
+   "have": {
+    "address": "Jovana Jovanovića Zmaja 24",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-svetozar-markovic-toza-novi-sad",
+   "name": "Osnovna škola \"Svetozar Marković Toza\"",
+   "official_name": "OSNOVNA ŠKOLA \"SVETOZAR MARKOVIĆ TOZA\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Novi Sad",
+   "have": {
+    "address": "Janka Čmelika 89",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-vasa-stajic-novi-sad",
+   "name": "Osnovna škola \"Vasa Stajić\"",
+   "official_name": "OSNOVNA ŠKOLA \"VASA STAJIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Novi Sad",
+   "have": {
+    "address": "Vojvode Knićanina 12",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-veljko-petrovic-begec",
+   "name": "Osnovna škola \"Veljko Petrović\"",
+   "official_name": "OSNOVNA ŠKOLA \"VELJKO PETROVIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Begeč",
+   "have": {
+    "address": "Kralja Petra I 36",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-veljko-vlahovic-novi-sad",
+   "name": "Osnovna škola \"Veljko Vlahović\"",
+   "official_name": "OSNOVNA ŠKOLA \"VELJKO VLAHOVIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Novi Sad",
+   "have": {
+    "address": "Viii 2",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-vuk-karadzic-novi-sad",
+   "name": "Osnovna škola \"Vuk Karadžić\"",
+   "official_name": "OSNOVNA ŠKOLA \"VUK KARADŽIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Novi Sad",
+   "have": {
+    "address": "Radoja Domanovića 24",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-djordje-natosevic-novi-sad",
+   "name": "Osnovna škola \"Đorđe Natošević\"",
+   "official_name": "OSNOVNA ŠKOLA \"ĐORĐE NATOŠEVIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Novi Sad",
+   "have": {
+    "address": "Maksima Gorkog 54",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-djura-danicic-novi-sad",
+   "name": "Osnovna škola \"Đura Daničić\"",
+   "official_name": "OSNOVNA ŠKOLA \"ĐURA DANIČIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Novi Sad",
+   "have": {
+    "address": "Dušana Vasiljeva 19",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-djura-jaksic-kac",
+   "name": "Osnovna škola \"Đura Jakšić\"",
+   "official_name": "OSNOVNA ŠKOLA \"ĐURA JAKŠIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Kać",
+   "have": {
+    "address": "Kralja Petra I 9",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-zarko-zrenjanin-novi-sad",
+   "name": "Osnovna škola \"Žarko Zrenjanin\"",
+   "official_name": "OSNOVNA ŠKOLA \"ŽARKO ZRENJANIN\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Novi Sad",
+   "have": {
+    "address": "Bulevar Despota Stefana 8",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skola-za-osnovno-i-srednje-obrazovanje-milan-petrovic-sa-domom-ucenika-novi-sad",
+   "name": "Škola za osnovno i Srednje obrazovanje \"Milan Petrović\" sa Domom učenika",
+   "official_name": "ŠKOLA ZA OSNOVNO I SREDNJE OBRAZOVANJE \"MILAN PETROVIĆ\" SA DOMOM UČENIKA",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skola-za-osnovno-obrazovanje-i-vaspitanje-odraslih-sveti-sava-novi-sad",
+   "name": "Škola za osnovno obrazovanje i Vaspitanje odraslih \"Sveti Sava\"",
+   "official_name": "ŠKOLA ZA OSNOVNO OBRAZOVANJE I VASPITANJE ODRASLIH \"SVETI SAVA\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Novi Sad",
+   "have": {
+    "address": "Ognjena Price 7",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "pokrajinski-sekretarijat-za-energetiku-gradjevinarstvo-i-saobracaj-novi-sad",
+   "name": "Pokrajinski sekretarijat za Energetiku Građevinarstvo i Saobraćaj",
+   "official_name": "POKRAJINSKI SEKRETARIJAT ZA ENERGETIKU GRAĐEVINARSTVO I SAOBRAĆAJ",
+   "type_slug": "pokrajinski-sekretarijat",
+   "type": "Pokrajinski sekretarijat",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "pokrajinski-sekretarijat-za-finansije-novi-sad",
+   "name": "Pokrajinski sekretarijat za Finansije",
+   "official_name": "POKRAJINSKI SEKRETARIJAT ZA FINANSIJE",
+   "type_slug": "pokrajinski-sekretarijat",
+   "type": "Pokrajinski sekretarijat",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "pokrajinski-sekretarijat-za-poljoprivredu-vodoprivredu-i-sumarstvo-novi-sad",
+   "name": "Pokrajinski sekretarijat za Poljoprivredu Vodoprivredu i Šumarstvo",
+   "official_name": "POKRAJINSKI SEKRETARIJAT ZA POLJOPRIVREDU VODOPRIVREDU I ŠUMARSTVO",
+   "type_slug": "pokrajinski-sekretarijat",
+   "type": "Pokrajinski sekretarijat",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "pokrajinski-sekretarijat-za-privredu-i-turizam-novi-sad",
+   "name": "Pokrajinski sekretarijat za Privredu i Turizam",
+   "official_name": "POKRAJINSKI SEKRETARIJAT ZA PRIVREDU I TURIZAM",
+   "type_slug": "pokrajinski-sekretarijat",
+   "type": "Pokrajinski sekretarijat",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "pokrajinski-sekretarijat-za-visoko-obrazovanje-i-naucno-istrazivacku-delatnost-novi-sad",
+   "name": "Pokrajinski sekretarijat za Visoko obrazovanje i Naučno Istraživačku delatnost",
+   "official_name": "POKRAJINSKI SEKRETARIJAT ZA VISOKO OBRAZOVANJE I NAUČNO ISTRAŽIVAČKU DELATNOST",
+   "type_slug": "pokrajinski-sekretarijat",
+   "type": "Pokrajinski sekretarijat",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "pokrajinski-sekretarijat-za-zdravstvo-novi-sad",
+   "name": "Pokrajinski sekretarijat za Zdravstvo",
+   "official_name": "POKRAJINSKI SEKRETARIJAT ZA ZDRAVSTVO",
+   "type_slug": "pokrajinski-sekretarijat",
+   "type": "Pokrajinski sekretarijat",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "pokrajinski-sekretarijat-za-kulturu-javno-informisanje-i-odnose-s-verskim-zajednicama-novi-sad",
+   "name": "Pokrajinski sekretarijat za kulturu, javno Informisanje i Odnose S Verskim Zajednicama",
+   "official_name": "POKRAJINSKI SEKRETARIJAT ZA KULTURU, JAVNO INFORMISANJE I ODNOSE S VERSKIM ZAJEDNICAMA",
+   "type_slug": "pokrajinski-sekretarijat",
+   "type": "Pokrajinski sekretarijat",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "pokrajinski-sekretarijat-za-obrazovanje-propise-upravu-i-nacionalne-manjine-nacionalne-zajednice-nov",
+   "name": "Pokrajinski sekretarijat za obrazovanje, Propise, upravu i Nacionalne Manjine-Nacionalne zajednice",
+   "official_name": "POKRAJINSKI SEKRETARIJAT ZA OBRAZOVANJE, PROPISE, UPRAVU I NACIONALNE MANJINE-NACIONALNE ZAJEDNICE",
+   "type_slug": "pokrajinski-sekretarijat",
+   "type": "Pokrajinski sekretarijat",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "pokrajinski-sekretarijat-za-regionalni-razvoj-medjuregionalnu-saradnju-i-lokalnu-samoupravu-novi-sad",
+   "name": "Pokrajinski sekretarijat za regionalni razvoj, Međuregionalnu Saradnju i Lokalnu Samoupravu",
+   "official_name": "POKRAJINSKI SEKRETARIJAT ZA REGIONALNI RAZVOJ, MEĐUREGIONALNU SARADNJU I LOKALNU SAMOUPRAVU",
+   "type_slug": "pokrajinski-sekretarijat",
+   "type": "Pokrajinski sekretarijat",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "pokrajinski-sekretarijat-za-socijalnu-politiku-demografiju-i-ravnopravnost-polova-novi-sad",
+   "name": "Pokrajinski sekretarijat za socijalnu Politiku Demografiju i Ravnopravnost Polova",
+   "official_name": "POKRAJINSKI SEKRETARIJAT ZA SOCIJALNU POLITIKU DEMOGRAFIJU I RAVNOPRAVNOST POLOVA",
+   "type_slug": "pokrajinski-sekretarijat",
+   "type": "Pokrajinski sekretarijat",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "pokrajinski-sekretarijat-za-sport-i-omladinu-novi-sad",
+   "name": "Pokrajinski sekretarijat za sport i omladinu",
+   "official_name": "POKRAJINSKI SEKRETARIJAT ZA SPORT I OMLADINU",
+   "type_slug": "pokrajinski-sekretarijat",
+   "type": "Pokrajinski sekretarijat",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "pokrajinski-sekretarijat-za-urbanizam-i-zastitu-zivotne-sredine-novi-sad",
+   "name": "Pokrajinski sekretarijat za urbanizam i zaštitu Životne Sredine",
+   "official_name": "POKRAJINSKI SEKRETARIJAT ZA URBANIZAM I ZAŠTITU ŽIVOTNE SREDINE",
+   "type_slug": "pokrajinski-sekretarijat",
+   "type": "Pokrajinski sekretarijat",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "republicki-zavod-za-sudska-vestacenja-ad-novi-sad-novi-sad",
+   "name": "Republički zavod za Sudska Veštačenja AD Novi Sad",
+   "official_name": "REPUBLIČKI ZAVOD ZA SUDSKA VEŠTAČENJA AD NOVI SAD",
+   "type_slug": "pravosudni-organ",
+   "type": "Pravosudni organ",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-radosno-detinjstvo-novi-sad",
+   "name": "Predškolska ustanova \"Radosno Detinjstvo\"",
+   "official_name": "PREDŠKOLSKA USTANOVA \"RADOSNO DETINJSTVO\"",
+   "type_slug": "predskolska-ustanova",
+   "type": "Predškolska ustanova (vrtić)",
+   "website": null,
+   "settlement": "Novi Sad",
+   "have": {
+    "address": "Pavla Simića 9",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "audiomed-novi-sad-n14079970923",
+   "name": "AudioMed",
+   "official_name": null,
+   "type_slug": "privatna-ordinacija",
+   "type": "Privatna ordinacija / klinika",
+   "website": "https://audiomed.rs",
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": "021 422220",
+    "email": "audiomed@audiobm.rs",
+    "hours": "Mo-Fr 08:00-20:00"
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "biotest-novi-sad-n10853005506",
+   "name": "Biotest",
+   "official_name": null,
+   "type_slug": "privatna-ordinacija",
+   "type": "Privatna ordinacija / klinika",
+   "website": "https://biotest.rs/",
+   "settlement": null,
+   "have": {
+    "address": "Mičurinova 32",
+    "phones": null,
+    "email": null,
+    "hours": "Mo-Fr 07:00-20:00; Sa 07:00-14:00"
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "cardios-poliklinika-novi-sad-n14079970922",
+   "name": "Cardios poliklinika",
+   "official_name": null,
+   "type_slug": "privatna-ordinacija",
+   "type": "Privatna ordinacija / klinika",
+   "website": "https://www.cardiosnovisad.rs/",
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": "021 2300023; 065 2700031",
+    "email": "cardiosnovisad@gmail.com",
+    "hours": "Mo-Fr 08:00-20:00; Sa 08:00-14:00"
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "dr-brano-kovacevic-novi-sad-n10853005505",
+   "name": "Dr Brano Kovaćević",
+   "official_name": null,
+   "type_slug": "privatna-ordinacija",
+   "type": "Privatna ordinacija / klinika",
+   "website": "https://poliklinika-branakovacevic.rs/",
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": "021 510555",
+    "email": null,
+    "hours": "Mo-Fr 07:00-22:00; Sa 08:00-13:00; Su off"
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "galetic-novi-sad-n13776079846",
+   "name": "Galetić",
+   "official_name": null,
+   "type_slug": "privatna-ordinacija",
+   "type": "Privatna ordinacija / klinika",
+   "website": "https://drgaletic.rs/",
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": "021 557211; 062 557211",
+    "email": "poliklinikagaletic@gmail.com",
+    "hours": "Mo-Fr 08:00-20:00; Sa 08:00-15:00"
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "global-prevent-novi-sad-n14274677639",
+   "name": "Global Prevent",
+   "official_name": null,
+   "type_slug": "privatna-ordinacija",
+   "type": "Privatna ordinacija / klinika",
+   "website": "https://globalprevent.rs/",
+   "settlement": null,
+   "have": {
+    "address": "Futoška 57",
+    "phones": null,
+    "email": null,
+    "hours": "Mo-Fr 07:00-21:00; Sa 08:00-14:00"
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "healthmedic-novi-sad-n4031231090",
+   "name": "Healthmedic",
+   "official_name": null,
+   "type_slug": "privatna-ordinacija",
+   "type": "Privatna ordinacija / klinika",
+   "website": "https://www.healthmedic.rs/",
+   "settlement": null,
+   "have": {
+    "address": "Narodnog fronta 73a",
+    "phones": null,
+    "email": null,
+    "hours": "Mo-Fr 08:00-20:00; Sa 08:00-12:00"
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "jug-bogdana-novi-sad-n8393878275",
+   "name": "Jug Bogdana",
+   "official_name": null,
+   "type_slug": "privatna-ordinacija",
+   "type": "Privatna ordinacija / klinika",
+   "website": "https://dzns.rs/objekat/jug-bogdana/",
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": "Mo-Fr 07:00-20:00"
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "jugolab-futog-novi-sad-n3298224554",
+   "name": "Jugolab Futog",
+   "official_name": null,
+   "type_slug": "privatna-ordinacija",
+   "type": "Privatna ordinacija / klinika",
+   "website": "https://jugolab.rs/",
+   "settlement": null,
+   "have": {
+    "address": "Rade Kondića 4",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "jugolab-petrovaradin-novi-sad-n7418900990",
+   "name": "Jugolab Petrovaradin",
+   "official_name": null,
+   "type_slug": "privatna-ordinacija",
+   "type": "Privatna ordinacija / klinika",
+   "website": "https://www.jugolab.rs/",
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": "021 6435166",
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "lekarska-ordinacija-praksis-novi-sad-n10298266609",
+   "name": "Lekarska ordinacija PRAKSIS",
+   "official_name": null,
+   "type_slug": "privatna-ordinacija",
+   "type": "Privatna ordinacija / klinika",
+   "website": "https://hiperbaricnakomora.com/",
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "limana-novi-sad-n8557129891",
+   "name": "Limana",
+   "official_name": null,
+   "type_slug": "privatna-ordinacija",
+   "type": "Privatna ordinacija / klinika",
+   "website": "https://limana.rs",
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": "021 442224",
+    "email": "office@limana.rs",
+    "hours": "Mo-Fr 08:00-20:00; Sa 08:00-12:00; Su off"
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "medlab-novi-sad-n4034272790",
+   "name": "Medlab",
+   "official_name": null,
+   "type_slug": "privatna-ordinacija",
+   "type": "Privatna ordinacija / klinika",
+   "website": "https://www.medlab.rs/",
+   "settlement": null,
+   "have": {
+    "address": "Bulevar oslobođenja 127",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "new-hospital-novi-sad-n13686857680",
+   "name": "New Hospital",
+   "official_name": null,
+   "type_slug": "privatna-ordinacija",
+   "type": "Privatna ordinacija / klinika",
+   "website": "https://newhospital.rs/",
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": "021 3000505; 069 8400505",
+    "email": "info@newhospital.rs",
+    "hours": null
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "orto-md-novi-sad-n14079970926",
+   "name": "Orto MD",
+   "official_name": null,
+   "type_slug": "privatna-ordinacija",
+   "type": "Privatna ordinacija / klinika",
+   "website": "https://ortomd.rs",
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": "021 3822093; 063 1299422",
+    "email": "ortopedijamd@gmail.com",
+    "hours": "Mo-Fr 09:00-20:00; Sa 09:00-12:00"
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "vizim-novi-sad-w2692713370",
+   "name": "Vizim",
+   "official_name": null,
+   "type_slug": "privatna-ordinacija",
+   "type": "Privatna ordinacija / klinika",
+   "website": "https://www.vizim.co.rs/grad/novi-sad/",
+   "settlement": null,
+   "have": {
+    "address": "Futoški put 87",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "aktiva-sistem-novi-sad-n4702053158",
+   "name": "Aktiva Sistem",
+   "official_name": null,
+   "type_slug": "racunovodstvena-agencija",
+   "type": "Računovodstvena agencija",
+   "website": "www.aktivasistem.com",
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": "021 523655",
+    "email": "office@aktivasistem.com",
+    "hours": "Mo-Fr 09:00-12:00, 13:00-16:00; Sa-Su off"
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "produktna-berza-novi-sad-n4034828489",
+   "name": "Produktna berza",
+   "official_name": null,
+   "type_slug": "racunovodstvena-agencija",
+   "type": "Računovodstvena agencija",
+   "website": "https://nscomex.com",
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "revizorska-kuca-kreston-mdm-revizija-doo-beograd-ogranak-novi-sad-novi-sad",
+   "name": "Kreston Mdm Revizija DOO Beograd - Ogranak Novi Sad",
+   "official_name": null,
+   "type_slug": "revizorska-kuca",
+   "type": "Društvo za reviziju",
+   "website": "https://www.krestonmdm.com",
+   "settlement": "Novi Sad",
+   "have": {
+    "address": "Dunavska 6",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "revizorska-kuca-moore-stephens-revizija-i-racunovodstv-bulevar-oslobodjenja-76",
+   "name": "Moore Stephens revizija i računovodstv – Bulevar oslobođenja 76",
+   "official_name": null,
+   "type_slug": "revizorska-kuca",
+   "type": "Društvo za reviziju",
+   "website": "https://www.moore-serbia.rs",
+   "settlement": "Novi Sad",
+   "have": {
+    "address": "Bulevar oslobođenja 76a",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "revizorska-kuca-preduzece-za-reviziju-ecovis-fin-nikole-pasica-16-novi-sad",
+   "name": "PREDUZEĆE ZA REVIZIJU ECOVIS Fin – Nikole Pašića 16",
+   "official_name": null,
+   "type_slug": "revizorska-kuca",
+   "type": "Društvo za reviziju",
+   "website": "https://www.ecovis-serbia.com",
+   "settlement": "Novi Sad",
+   "have": {
+    "address": "Nikole Pašića 16",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "revizorska-kuca-pan-revizija-doo-za-reviziju-i-konsalting-novi-sad",
+   "name": "Pan Revizija DOO ZA Reviziju I Konsalting",
+   "official_name": null,
+   "type_slug": "revizorska-kuca",
+   "type": "Društvo za reviziju",
+   "website": "https://www.panrevizija.co.rs",
+   "settlement": "Novi Sad",
+   "have": {
+    "address": "Tolstojeva 6",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "revizorska-kuca-preduzece-za-reviziju-premium-audit-doo-novi-sad-u-likvidaciji",
+   "name": "Preduzeće za reviziju Premium Audit DOO Novi Sad - U LIKVIDACIJI",
+   "official_name": null,
+   "type_slug": "revizorska-kuca",
+   "type": "Društvo za reviziju",
+   "website": "https://www.revizijaikonsalting.rs",
+   "settlement": "Novi Sad",
+   "have": {
+    "address": "Kisačka 3",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "revizorska-kuca-tibor-matin-novi-sad",
+   "name": "Tibor Matin",
+   "official_name": null,
+   "type_slug": "revizorska-kuca",
+   "type": "Društvo za reviziju",
+   "website": "https://www.panrevizija.co.rs",
+   "settlement": "Novi Sad",
+   "have": {
+    "address": "Tolstojeva 6",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "sekretarijat-pokrajinske-vlade-novi-sad",
+   "name": "Sekretarijat Pokrajinske vlade",
+   "official_name": "SEKRETARIJAT POKRAJINSKE VLADE",
+   "type_slug": "sekretarijat",
+   "type": "Sekretarijat / odeljenje uprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "sluzba-za-internu-reviziju-korisnika-budzetskih-sredstava-autonomne-pokrajine-vojvodine-novi-sad-nov",
+   "name": "Služba za Internu Reviziju Korisnika Budžetskih Sredstava Autonomne Pokrajine Vojvodine,novi Sad",
+   "official_name": "SLUŽBA ZA INTERNU REVIZIJU KORISNIKA BUDŽETSKIH SREDSTAVA AUTONOMNE POKRAJINE VOJVODINE,NOVI SAD",
+   "type_slug": "sekretarijat",
+   "type": "Sekretarijat / odeljenje uprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "sluzba-za-internu-reviziju-grada-novog-sada-novi-sad",
+   "name": "Služba za Internu Reviziju grada Novog Sada",
+   "official_name": "SLUŽBA ZA INTERNU REVIZIJU GRADA NOVOG SADA",
+   "type_slug": "sekretarijat",
+   "type": "Sekretarijat / odeljenje uprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "sluzba-za-realizaciju-programa-razvoja-autonomne-pokrajine-vojvodine-novi-sad",
+   "name": "Služba za Realizaciju Programa Razvoja Autonomne Pokrajine Vojvodine",
+   "official_name": "SLUŽBA ZA REALIZACIJU PROGRAMA RAZVOJA AUTONOMNE POKRAJINE VOJVODINE",
+   "type_slug": "sekretarijat",
+   "type": "Sekretarijat / odeljenje uprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "sluzba-za-zajednicke-poslove-grada-novog-sada-novi-sad",
+   "name": "Služba za Zajedničke Poslove grada Novog Sada",
+   "official_name": "SLUŽBA ZA ZAJEDNIČKE POSLOVE GRADA NOVOG SADA",
+   "type_slug": "sekretarijat",
+   "type": "Sekretarijat / odeljenje uprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "sluzba-za-upravljanje-ljudskim-resursima-novi-sad",
+   "name": "Služba za upravljanje Ljudskim Resursima",
+   "official_name": "SLUŽBA ZA UPRAVLJANJE LJUDSKIM RESURSIMA",
+   "type_slug": "sekretarijat",
+   "type": "Sekretarijat / odeljenje uprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "uprava-za-imovinu-autonomne-pokrajine-vojvodine-novi-sad",
+   "name": "Uprava za Imovinu Autonomne Pokrajine Vojvodine",
+   "official_name": "UPRAVA ZA IMOVINU AUTONOMNE POKRAJINE VOJVODINE",
+   "type_slug": "sekretarijat",
+   "type": "Sekretarijat / odeljenje uprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "uprava-za-kapitalna-ulaganja-autonomne-pokrajine-vojvodine-novi-sad",
+   "name": "Uprava za Kapitalna Ulaganja Autonomne Pokrajine Vojvodine",
+   "official_name": "UPRAVA ZA KAPITALNA ULAGANJA AUTONOMNE POKRAJINE VOJVODINE",
+   "type_slug": "sekretarijat",
+   "type": "Sekretarijat / odeljenje uprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "uprava-za-zajednicke-poslove-pokrajinskih-organa-novi-sad",
+   "name": "Uprava za Zajedničke Poslove Pokrajinskih Organa",
+   "official_name": "UPRAVA ZA ZAJEDNIČKE POSLOVE POKRAJINSKIH ORGANA",
+   "type_slug": "sekretarijat",
+   "type": "Sekretarijat / odeljenje uprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-alexandar-trgovina-na-veliko-i-malo-doo-novi-sad-novi-sad",
+   "name": "Alexandar Trgovina Na Veliko I Malo Doo Novi Sad",
+   "official_name": null,
+   "type_slug": "skola-za-odrasle",
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "website": null,
+   "settlement": "Novi Sad",
+   "have": {
+    "address": "Cara Dušana 69",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-asip-prevent-novi-sad",
+   "name": "Asip Prevent",
+   "official_name": null,
+   "type_slug": "skola-za-odrasle",
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "website": null,
+   "settlement": "Novi Sad",
+   "have": {
+    "address": "Privrednikova 8a",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-atelier-l-k-doo-za-trgovinu-i-usluge-novi-sad-novi-sad",
+   "name": "Atelier L.K. Doo Za Trgovinu I Usluge Novi Sad",
+   "official_name": null,
+   "type_slug": "skola-za-odrasle",
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "website": null,
+   "settlement": "Novi Sad",
+   "have": {
+    "address": "Bulevar Oslobođenja 68",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-cikp-skoplje-novi-sad",
+   "name": "CIKP- Skoplje",
+   "official_name": null,
+   "type_slug": "skola-za-odrasle",
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "website": null,
+   "settlement": "Novi Sad",
+   "have": {
+    "address": "Augusta Cesarca 15",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-centar-za-prevenciju-doo-novi-sad-novi-sad",
+   "name": "Centar Za Prevenciju Doo Novi Sad",
+   "official_name": null,
+   "type_slug": "skola-za-odrasle",
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "website": null,
+   "settlement": "Novi Sad",
+   "have": {
+    "address": "Rakovačka 48",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-centar-za-omladinski-rad-novi-sad",
+   "name": "Centar za omladinski rad",
+   "official_name": null,
+   "type_slug": "skola-za-odrasle",
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "website": null,
+   "settlement": "Novi Sad",
+   "have": {
+    "address": "Svetozara Ćorovića 6",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-doo-institut-za-bezbednost-i-humanizaciju-rada-novi-sad-novi",
+   "name": "Doo Institut Za Bezbednost I Humanizaciju Rada, Novi Sad",
+   "official_name": null,
+   "type_slug": "skola-za-odrasle",
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "website": null,
+   "settlement": "Novi Sad",
+   "have": {
+    "address": "Bulevar Oslobođenja 30",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-doo-institut-za-preventivu-zastitu-na-radu-protivpozarnu",
+   "name": "Doo Institut Za Preventivu, Zaštitu Na Radu, Protivpožarnu Zaštitu I Razvoj, Novi Sad",
+   "official_name": null,
+   "type_slug": "skola-za-odrasle",
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "website": null,
+   "settlement": "Novi Sad",
+   "have": {
+    "address": "Kraljevića Marka 11",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-drustvo-za-istrazivanje-proizvodnju-preradu-distribuciju-i",
+   "name": "Društvo Za Istraživanje, Proizvodnju, Preradu, Distribuciju I Promet Nafte I Naftnih Derivata I Istraživanje I Proizvodnju Prirodnog Gasa Naftna Industrija Srbije A.D. Novi Sad",
+   "official_name": null,
+   "type_slug": "skola-za-odrasle",
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "website": null,
+   "settlement": "Novi Sad",
+   "have": {
+    "address": "Narodnog Fronta 12",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-drustvo-za-unutrasnji-i-spoljno-trgovinski-promet-inked-planet",
+   "name": "Društvo Za Unutrašnji I Spoljno-Trgovinski Promet Inked Planet Doo, Novi Sad",
+   "official_name": null,
+   "type_slug": "skola-za-odrasle",
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "website": null,
+   "settlement": "Novi Sad",
+   "have": {
+    "address": "Futoška 12",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-drustvo-tumaca-i-prevodilaca-za-znakovni-jezik-novi-sad",
+   "name": "Društvo tumača i prevodilaca za znakovni jezik",
+   "official_name": null,
+   "type_slug": "skola-za-odrasle",
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "website": null,
+   "settlement": "Novi Sad",
+   "have": {
+    "address": "Vojvode Putnika 1",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-edukativni-centar-za-obuke-u-profesionalnim-i-radnim-vestinama",
+   "name": "Edukativni Centar Za Obuke U Profesionalnim I Radnim Veštinama Novi Sad",
+   "official_name": null,
+   "type_slug": "skola-za-odrasle",
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "website": null,
+   "settlement": "Novi Sad",
+   "have": {
+    "address": "Industrijska 3",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-institut-za-bezbednost-i-preventivni-inzenjering-drustvo-sa",
+   "name": "Institut Za Bezbednost I Preventivni Inženjering Društvo Sa Ograničenom Odgovornošću Novi Sad",
+   "official_name": null,
+   "type_slug": "skola-za-odrasle",
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "website": null,
+   "settlement": "Novi Sad",
+   "have": {
+    "address": "Vojvode Šupljikca 48",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-iuliia-minligaleeva-pr-skola-za-strane-jezike-jumi-novi-sad",
+   "name": "Iuliia Minligaleeva Pr Škola Za Strane Jezike Jumi Novi Sad",
+   "official_name": null,
+   "type_slug": "skola-za-odrasle",
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "website": null,
+   "settlement": "Novi Sad",
+   "have": {
+    "address": "Futoška 1a",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-kopering-petrovaradin",
+   "name": "Kopering",
+   "official_name": null,
+   "type_slug": "skola-za-odrasle",
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "website": null,
+   "settlement": "Petrovaradin",
+   "have": {
+    "address": "Rada Končara 1",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-naucno-tehnoloski-centar-nis-naftagas-novi-sad",
+   "name": "Naučno-Tehnološki Centar Nis - Naftagas",
+   "official_name": null,
+   "type_slug": "skola-za-odrasle",
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "website": null,
+   "settlement": "Novi Sad",
+   "have": {
+    "address": "Narodnog Fronta 12",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-smart-school-new-d-o-o-novi-sad-novi-sad",
+   "name": "SMART SCHOOL NEW d.o.o. Novi Sad",
+   "official_name": null,
+   "type_slug": "skola-za-odrasle",
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "website": null,
+   "settlement": "Novi Sad",
+   "have": {
+    "address": "Bulevar Oslobođenja 78",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-soze-beauty-doo-novi-sad-novi-sad",
+   "name": "SOŽE beauty doo Novi Sad",
+   "official_name": null,
+   "type_slug": "skola-za-odrasle",
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "website": null,
+   "settlement": "Novi Sad",
+   "have": {
+    "address": "Radnička 16",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-smartlab-021-doo-novi-sad-novi-sad",
+   "name": "Smartlab 021 Doo Novi Sad",
+   "official_name": null,
+   "type_slug": "skola-za-odrasle",
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "website": null,
+   "settlement": "Novi Sad",
+   "have": {
+    "address": "Železnička 4",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-srednja-strucna-skola-krug-novi-sad",
+   "name": "Srednja Stručna Škola 'Krug'",
+   "official_name": null,
+   "type_slug": "skola-za-odrasle",
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "website": null,
+   "settlement": "Novi Sad",
+   "have": {
+    "address": "Suvoborska 6",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-srednja-skola-sveti-nikola-novi-sad-novi-sad",
+   "name": "Srednja Škola 'Sveti Nikola' Novi Sad",
+   "official_name": null,
+   "type_slug": "skola-za-odrasle",
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "website": null,
+   "settlement": "Novi Sad",
+   "have": {
+    "address": "Dečanska 9",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-udruzenje-azbukum-centar-za-srpski-jezik-i-kulturu-novi-sad",
+   "name": "Udruženje Azbukum - Centar za srpski jezik i kulturu",
+   "official_name": null,
+   "type_slug": "skola-za-odrasle",
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "website": null,
+   "settlement": "Novi Sad",
+   "have": {
+    "address": "Dragiše Brašovana 18",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "javno-preduzece-sportski-i-poslovni-centar-vojvodina-novi-sad-novi-sad",
+   "name": "Javno preduzeće sportski i Poslovni centar Vojvodina, Novi Sad",
+   "official_name": "JAVNO PREDUZEĆE SPORTSKI I POSLOVNI CENTAR VOJVODINA, NOVI SAD",
+   "type_slug": "sportski-centar",
+   "type": "Sportski centar",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "pokrajinski-zavod-za-sport-i-medicinu-sporta-novi-sad",
+   "name": "Pokrajinski zavod za sport i Medicinu sporta",
+   "official_name": "POKRAJINSKI ZAVOD ZA SPORT I MEDICINU SPORTA",
+   "type_slug": "sportski-centar",
+   "type": "Sportski centar",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "baletska-skola-u-novom-sadu-novi-sad",
+   "name": "Baletska škola u Novom Sadu",
+   "official_name": "BALETSKA ŠKOLA U NOVOM SADU",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "elektrotehnicka-skola-mihajlo-pupin-novi-sad",
+   "name": "Elektrotehnička škola \"Mihajlo Pupin\"",
+   "official_name": "ELEKTROTEHNIČKA ŠKOLA \"MIHAJLO PUPIN\"",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Novi Sad",
+   "have": {
+    "address": "Futoška 17",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "gimnazija-isidora-sekulic-novi-sad",
+   "name": "Gimnazija \"Isidora Sekulić\"",
+   "official_name": "GIMNAZIJA \"ISIDORA SEKULIĆ\"",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Novi Sad",
+   "have": {
+    "address": "Vladike Platona 2",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "gimnazija-jovan-jovanovic-zmaj-novi-sad",
+   "name": "Gimnazija \"Jovan Jovanović Zmaj\"",
+   "official_name": "GIMNAZIJA \"JOVAN JOVANOVIĆ ZMAJ\"",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Novi Sad",
+   "have": {
+    "address": "Zlatne Grede 4",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "gimnazija-laza-kostic-novi-sad",
+   "name": "Gimnazija \"Laza Kostić\"",
+   "official_name": "GIMNAZIJA \"LAZA KOSTIĆ\"",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Novi Sad",
+   "have": {
+    "address": "Laze Lazarevića 1",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "gimnazija-svetozar-markovic-novi-sad",
+   "name": "Gimnazija \"Svetozar Marković\"",
+   "official_name": "GIMNAZIJA \"SVETOZAR MARKOVIĆ\"",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Novi Sad",
+   "have": {
+    "address": "Njegoševa 22",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "medicinska-skola-sedmi-april-novi-sad",
+   "name": "Medicinska škola \"Sedmi April\"",
+   "official_name": "MEDICINSKA ŠKOLA \"SEDMI APRIL\"",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "poljoprivredna-skola-sa-domom-ucenika-futog-futog",
+   "name": "Poljoprivredna škola sa Domom učenika \"Futog\"",
+   "official_name": "POLJOPRIVREDNA ŠKOLA SA DOMOM UČENIKA \"FUTOG\"",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Futog",
+   "have": {
+    "address": "Carice Milice 2",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "saobracajna-skola-pinki-novi-sad",
+   "name": "Saobraćajna škola \"Pinki\"",
+   "official_name": "SAOBRAĆAJNA ŠKOLA \"PINKI\"",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Novi Sad",
+   "have": {
+    "address": "Šumadijska 12a",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "srednja-masinska-skola-novi-sad-novi-sad",
+   "name": "Srednja mašinska škola Novi Sad",
+   "official_name": "SREDNJA MAŠINSKA ŠKOLA NOVI SAD",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Novi Sad",
+   "have": {
+    "address": "Bulevar Kralja Petra I 38",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  }
+ ]
+}

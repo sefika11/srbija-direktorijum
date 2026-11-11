@@ -1,0 +1,1693 @@
+{
+ "municipality": "Smederevo",
+ "municipality_slug": "smederevo",
+ "municipality_site": null,
+ "chunk": "smederevo",
+ "of": 1,
+ "rows": [
+  {
+   "org_slug": "apotekarska-ustanova-smederevo-smederevo",
+   "name": "Apotekarska ustanova Smederevo",
+   "official_name": "APOTEKARSKA USTANOVA SMEDEREVO",
+   "type_slug": "apoteka",
+   "type": "Apotekarska ustanova",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "grad-smederevo-gradska-uprava-smederevo",
+   "name": "Grad Smederevo - gradska uprava",
+   "official_name": "GRAD SMEDEREVO - GRADSKA UPRAVA",
+   "type_slug": "gradska-uprava",
+   "type": "Gradska uprava",
+   "website": "https://smederevo.ls.gov.rs/",
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "javno-preduzece-smederevska-tvrdjava-smederevo-smederevo",
+   "name": "Javno preduzeće Smederevska Tvrđava Smederevo",
+   "official_name": "JAVNO PREDUZEĆE SMEDEREVSKA TVRĐAVA SMEDEREVO",
+   "type_slug": "javno-preduzece",
+   "type": "Javno preduzeće / društvo",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "poljoprivredna-savetodavna-i-strucna-sluzba-smederevo-drustvo-s-ogranicenom-odgovornoscu-kolari-kola",
+   "name": "Poljoprivredna Savetodavna i Stručna služba Smederevo društvo S ograničenom odgovornošću Kolari",
+   "official_name": "POLJOPRIVREDNA SAVETODAVNA I STRUČNA SLUŽBA SMEDEREVO DRUŠTVO S OGRANIČENOM ODGOVORNOŠĆU KOLARI",
+   "type_slug": "javno-preduzece",
+   "type": "Javno preduzeće / društvo",
+   "website": null,
+   "settlement": "Kolari",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "zelezara-smederevo-doo-u-stecaju-smederevo",
+   "name": "Železara Smederevo DOO - u Stečaju",
+   "official_name": "ŽELEZARA SMEDEREVO DOO - U STEČAJU",
+   "type_slug": "javno-preduzece",
+   "type": "Javno preduzeće / društvo",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-zelenilo-i-groblja-smederevo-smederevo-smederevo",
+   "name": "Javno komunalno preduzeće zelenilo i Groblja Smederevo Smederevo",
+   "official_name": "JAVNO KOMUNALNO PREDUZEĆE ZELENILO I GROBLJA SMEDEREVO SMEDEREVO",
+   "type_slug": "jkp-zelenilo",
+   "type": "JKP Zelenilo",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "javno-preduzece-gradsko-stambeno-smederevo-smederevo",
+   "name": "Javno preduzeće gradsko stambeno, Smederevo",
+   "official_name": "JAVNO PREDUZEĆE GRADSKO STAMBENO, SMEDEREVO",
+   "type_slug": "jp-stambeno",
+   "type": "JP gradsko stambeno",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "javno-preduzece-urbanizam-smederevo-smederevo-smederevo",
+   "name": "Javno Preduzeće Urbanizam Smederevo Smederevo",
+   "official_name": "Javno preduzeće Urbanizam Smederevo Smederevo",
+   "type_slug": "jp-urbanizam",
+   "type": "JP Urbanizam / Direkcija za izgradnju",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "centar-za-kulturu-smederevo-smederevo",
+   "name": "Centar za kulturu Smederevo",
+   "official_name": "CENTAR ZA KULTURU SMEDEREVO",
+   "type_slug": "kulturni-centar",
+   "type": "Kulturni centar / Dom kulture",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "policijska-uprava-smederevo",
+   "name": "Policijska uprava Smederevo",
+   "official_name": null,
+   "type_slug": "mup-policijska-uprava",
+   "type": "MUP – Policijska uprava / stanica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": "026 4544100",
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "muzej-u-smederevu-smederevo",
+   "name": "Muzej u Smederevu",
+   "official_name": "MUZEJ U SMEDEREVU",
+   "type_slug": "muzej",
+   "type": "Muzej / Arhiv",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "narodna-biblioteka-smederevo-smederevo",
+   "name": "Narodna biblioteka Smederevo",
+   "official_name": "NARODNA BIBLIOTEKA SMEDEREVO",
+   "type_slug": "narodna-biblioteka",
+   "type": "Narodna biblioteka",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "grad-smederevo-gradonacelnik-smederevo",
+   "name": "Grad Smederevo - Gradonačelnik",
+   "official_name": "GRAD SMEDEREVO - GRADONAČELNIK",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "grad-smederevo-gradsko-pravobranilastvo-smederevo",
+   "name": "Grad Smederevo - gradsko Pravobranilaštvo",
+   "official_name": "GRAD SMEDEREVO - GRADSKO PRAVOBRANILAŠTVO",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "grad-smederevo-gradsko-vece-smederevo",
+   "name": "Grad Smederevo - gradsko veće",
+   "official_name": "GRAD SMEDEREVO - GRADSKO VEĆE",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "grad-smederevo-skupstina-grada-smederevo",
+   "name": "Grad Smederevo - skupština grada",
+   "official_name": "GRAD SMEDEREVO - SKUPŠTINA GRADA",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-sveti-sava-smederevo-smederevo",
+   "name": "Osnovna škola \" Sveti Sava\" Smederevo",
+   "official_name": "OSNOVNA ŠKOLA \" SVETI SAVA\" SMEDEREVO",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Smederevo",
+   "have": {
+    "address": "Metalurška 8",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-branislav-nusic-smederevo",
+   "name": "Osnovna škola \"Branislav Nušić\"",
+   "official_name": "OSNOVNA ŠKOLA \"BRANISLAV NUŠIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Smederevo",
+   "have": {
+    "address": "Balkanska 31",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-branko-radicevic-smederevo",
+   "name": "Osnovna škola \"Branko Radičević\"",
+   "official_name": "OSNOVNA ŠKOLA \"BRANKO RADIČEVIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-branko-radicevic-lugavcina",
+   "name": "Osnovna škola \"Branko Radičević\"",
+   "official_name": "OSNOVNA ŠKOLA \"BRANKO RADIČEVIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Lugavčina",
+   "have": {
+    "address": "Crvene Armije 142",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-dimitrije-davidovic-smederevo",
+   "name": "Osnovna škola \"Dimitrije Davidović\"",
+   "official_name": "OSNOVNA ŠKOLA \"DIMITRIJE DAVIDOVIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Smederevo",
+   "have": {
+    "address": "Ante Protića 3",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-dositej-obradovic-smederevo",
+   "name": "Osnovna škola \"Dositej Obradović\"",
+   "official_name": "OSNOVNA ŠKOLA \"DOSITEJ OBRADOVIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-dositej-obradovic-smederevo-00925",
+   "name": "Osnovna škola \"Dositej Obradović\"",
+   "official_name": "OSNOVNA ŠKOLA \"DOSITEJ OBRADOVIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-dr-jovan-cvijic-smederevo",
+   "name": "Osnovna škola \"Dr Jovan Cvijić\"",
+   "official_name": "OSNOVNA ŠKOLA \"DR JOVAN CVIJIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Smederevo",
+   "have": {
+    "address": "Dr Jovana Cvijića 9",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-heroj-srba-osipaonica",
+   "name": "Osnovna škola \"Heroj Srba\"",
+   "official_name": "OSNOVNA ŠKOLA \"HEROJ SRBA\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Osipaonica",
+   "have": {
+    "address": "Kneza Mihaila 1",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-heroj-sveta-mladenovic-saraorci",
+   "name": "Osnovna škola \"Heroj Sveta Mladenović\"",
+   "official_name": "OSNOVNA ŠKOLA \"HEROJ SVETA MLADENOVIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Saraorci",
+   "have": {
+    "address": "Kralja Aleksandra 95",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-ilija-milosavljevic-kolarac-kolari",
+   "name": "Osnovna škola \"Ilija Milosavljević-Kolarac\"",
+   "official_name": "OSNOVNA ŠKOLA \"ILIJA MILOSAVLJEVIĆ-KOLARAC\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Kolari",
+   "have": {
+    "address": "Kolarčeva 19",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-ivo-andric-radinac",
+   "name": "Osnovna škola \"Ivo Andrić\"",
+   "official_name": "OSNOVNA ŠKOLA \"IVO ANDRIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Radinac",
+   "have": {
+    "address": "Spasoja Pejanovića bb",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-jovan-jovanovic-zmaj-smederevo",
+   "name": "Osnovna škola \"Jovan Jovanović Zmaj\"",
+   "official_name": "OSNOVNA ŠKOLA \"JOVAN JOVANOVIĆ ZMAJ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Smederevo",
+   "have": {
+    "address": "17.Oktobra 40",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-svetitelj-sava-drugovac",
+   "name": "Osnovna škola \"Svetitelj Sava\"",
+   "official_name": "OSNOVNA ŠKOLA \"SVETITELJ SAVA\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Drugovac",
+   "have": {
+    "address": "Svetog Save 2",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-vozd-karadjordje-smederevo",
+   "name": "Osnovna škola \"Vožd Karađorđe\"",
+   "official_name": "OSNOVNA ŠKOLA \"VOŽD KARAĐORĐE\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Vodanj",
+   "have": {
+    "address": "Petra Kostića 1",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-djura-jaksic-mala-krsna",
+   "name": "Osnovna škola \"Đura Jakšić\"",
+   "official_name": "OSNOVNA ŠKOLA \"ĐURA JAKŠIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Mala Krsna",
+   "have": {
+    "address": "Kralja Petra I 75",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-nasa-radost-smederevo-smederevo",
+   "name": "Predškolska ustanova \"Naša Radost\" Smederevo",
+   "official_name": "PREDŠKOLSKA USTANOVA \"NAŠA RADOST\" SMEDEREVO",
+   "type_slug": "predskolska-ustanova",
+   "type": "Predškolska ustanova (vrtić)",
+   "website": null,
+   "settlement": "Smederevo",
+   "have": {
+    "address": "Vojvode Mišića 4",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-medicinsko-farmaceutska-skola-sv-petka-smederevo",
+   "name": "Medicinsko - Farmaceutska Škola 'Sv. Petka'",
+   "official_name": null,
+   "type_slug": "skola-za-odrasle",
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "website": null,
+   "settlement": "Smederevo",
+   "have": {
+    "address": "Kralja Petra Prvog 12",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-mirjana-milosevic-pr-usluge-i-obuka-sminkanja-kika-media",
+   "name": "Mirjana Milošević Pr Usluge I Obuka Šminkanja Kika Media Studio Smederevo",
+   "official_name": null,
+   "type_slug": "skola-za-odrasle",
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "website": null,
+   "settlement": "Smederevo",
+   "have": {
+    "address": "Ivana Gundulića 8",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-nevena-milenkovic-pr-delatnost-frizerskih-i-kozmetickih-salona",
+   "name": "Nevena Milenković Pr Delatnost Frizerskih I Kozmetičkih Salona Sofisty Smederevo",
+   "official_name": null,
+   "type_slug": "skola-za-odrasle",
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "website": null,
+   "settlement": "Smederevo",
+   "have": {
+    "address": "Miloša Velikog 6",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-pro-tok21-smederevo",
+   "name": "Pro.Tok21",
+   "official_name": null,
+   "type_slug": "skola-za-odrasle",
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "website": null,
+   "settlement": "Smederevo",
+   "have": {
+    "address": "Despota Đurđa 6",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "drustvo-sa-ogranicenom-odgovornoscu-sportska-hala-smederevo-smederevo",
+   "name": "Društvo sa ograničenom odgovornošću sportska Hala-Smederevo",
+   "official_name": "DRUŠTVO SA OGRANIČENOM ODGOVORNOŠĆU SPORTSKA HALA-SMEDEREVO",
+   "type_slug": "sportski-centar",
+   "type": "Sportski centar",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "javno-preduzece-sportski-centar-smederevo-smederevo-smederevo",
+   "name": "Javno Preduzeće Sportski Centar Smederevo Smederevo",
+   "official_name": "Javno preduzeće Sportski centar Smederevo Smederevo",
+   "type_slug": "sportski-centar",
+   "type": "Sportski centar",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "ekonomsko-trgovinska-skola-smederevo",
+   "name": "Ekonomsko-Trgovinska škola",
+   "official_name": "EKONOMSKO-TRGOVINSKA ŠKOLA",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Smederevo",
+   "have": {
+    "address": "Maksima Gorkog 37",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "gimnazija-smederevo-smederevo",
+   "name": "Gimnazija Smederevo",
+   "official_name": "GIMNAZIJA SMEDEREVO",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Smederevo",
+   "have": {
+    "address": "Slobode 3",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "muzicka-skola-kosta-manojlovic-smederevo",
+   "name": "Muzička škola \"Kosta Manojlović\"",
+   "official_name": "MUZIČKA ŠKOLA \"KOSTA MANOJLOVIĆ\"",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Smederevo",
+   "have": {
+    "address": "Miloša Velikog 8",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "tehnicka-skola-smederevo",
+   "name": "Tehnička škola",
+   "official_name": "TEHNIČKA ŠKOLA",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Smederevo",
+   "have": {
+    "address": "Vuka Karadžića 13",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "tekstilno-tehnoloska-i-poljoprivredna-skola-despot-djuradj-smederevo",
+   "name": "Tekstilno - Tehnološka i poljoprivredna škola \"Despot Đurađ\"",
+   "official_name": "TEKSTILNO - TEHNOLOŠKA I POLJOPRIVREDNA ŠKOLA \"DESPOT ĐURAĐ\"",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Smederevo",
+   "have": {
+    "address": "Crvene Armije 156",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "odeljenje-za-vanredne-situacije-smederevo",
+   "name": "Odeljenje za vanredne situacije Smederevo",
+   "official_name": null,
+   "type_slug": "uprava-za-vanredne-situacije",
+   "type": "MUP – Uprava za vanredne situacije (vatrogasci)",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "podunavski-upravni-okrug-smederevo",
+   "name": "Podunavski upravni okrug",
+   "official_name": "PODUNAVSKI UPRAVNI OKRUG",
+   "type_slug": "upravni-okrug",
+   "type": "Upravni okrug",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "usluga-socijalne-zastite-oj-prihvatiliste-za-zrtve-trgovine-ljudima-mala-krsna",
+   "name": "OJ Prihvatilište ZA Žrtve Trgovine Ljudima",
+   "official_name": null,
+   "type_slug": "usluga-socijalne-zastite",
+   "type": "Usluga socijalne zaštite",
+   "website": null,
+   "settlement": "Mala Krsna",
+   "have": {
+    "address": "Kralja Petra Prvog br.1",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "centar-za-pruzanje-usluga-socijalne-zastite-sunce-smederevo",
+   "name": "Centar za Pružanje Usluga socijalne zaštite \"Sunce\"",
+   "official_name": "CENTAR ZA PRUŽANJE USLUGA SOCIJALNE ZAŠTITE \"SUNCE\"",
+   "type_slug": "ustanova",
+   "type": "Javna ustanova",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "dom-za-smestaj-starih-lica-smederevo-smederevo",
+   "name": "Dom za Smeštaj starih lica Smederevo",
+   "official_name": "DOM ZA SMEŠTAJ STARIH LICA SMEDEREVO",
+   "type_slug": "ustanova",
+   "type": "Javna ustanova",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "okruzni-zatvor-u-smederevu-smederevo",
+   "name": "Okružni Zatvor u Smederevu",
+   "official_name": "OKRUŽNI ZATVOR U SMEDEREVU",
+   "type_slug": "ustanova",
+   "type": "Javna ustanova",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "regionalni-centar-za-profesionalni-razvoj-zaposlenih-u-obrazovanju-smederevo-smederevo",
+   "name": "Regionalni centar za Profesionalni razvoj Zaposlenih u Obrazovanju Smederevo",
+   "official_name": "REGIONALNI CENTAR ZA PROFESIONALNI RAZVOJ ZAPOSLENIH U OBRAZOVANJU SMEDEREVO",
+   "type_slug": "ustanova",
+   "type": "Javna ustanova",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "regionalni-zavod-za-zastitu-spomenika-kulture-smederevo-smederevo",
+   "name": "Regionalni zavod za zaštitu Spomenika kulture Smederevo",
+   "official_name": "REGIONALNI ZAVOD ZA ZAŠTITU SPOMENIKA KULTURE SMEDEREVO",
+   "type_slug": "zavod-za-zastitu-spomenika",
+   "type": "Zavod za zaštitu spomenika kulture",
+   "website": "http://spomenicikulture.org.rs",
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": "026 4622309; 026 614010",
+    "email": "office@spomenicikulture.org.rs",
+    "hours": null
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-25-maj-smederevo",
+   "name": "Mesna zajednica \"25. Maj\"",
+   "official_name": "MESNA ZAJEDNICA \"25. MAJ\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-carina-smederevo",
+   "name": "Mesna zajednica \"Carina\"",
+   "official_name": "MESNA ZAJEDNICA \"CARINA\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-karadjordjev-dud-smederevo",
+   "name": "Mesna zajednica \"Karađorđev Dud\"",
+   "official_name": "MESNA ZAJEDNICA \"KARAĐORĐEV DUD\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-ladna-voda-smederevo",
+   "name": "Mesna zajednica \"Ladna Voda\"",
+   "official_name": "MESNA ZAJEDNICA \"LADNA VODA\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-lestar-smederevo",
+   "name": "Mesna zajednica \"Leštar\"",
+   "official_name": "MESNA ZAJEDNICA \"LEŠTAR\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-plavinac-smederevo",
+   "name": "Mesna zajednica \"Plavinac\"",
+   "official_name": "MESNA ZAJEDNICA \"PLAVINAC\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-slavija-smederevo",
+   "name": "Mesna zajednica \"Slavija\"",
+   "official_name": "MESNA ZAJEDNICA \"SLAVIJA\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-sveti-sava-smederevo",
+   "name": "Mesna zajednica \"Sveti Sava\"",
+   "official_name": "MESNA ZAJEDNICA \"SVETI SAVA\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-zlatno-brdo-smederevo",
+   "name": "Mesna zajednica \"Zlatno Brdo\"",
+   "official_name": "MESNA ZAJEDNICA \"ZLATNO BRDO\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-badljevica-badljevica",
+   "name": "Mesna zajednica Badljevica",
+   "official_name": "MESNA ZAJEDNICA BADLJEVICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Badljevica",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-binovac-binovac",
+   "name": "Mesna zajednica Binovac",
+   "official_name": "MESNA ZAJEDNICA BINOVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Binovac",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-dobri-do-dobri-do",
+   "name": "Mesna zajednica Dobri do",
+   "official_name": "MESNA ZAJEDNICA DOBRI DO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-donji-grad-smederevo",
+   "name": "Mesna zajednica Donji grad",
+   "official_name": "MESNA ZAJEDNICA DONJI GRAD",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-drugovac-drugovac",
+   "name": "Mesna zajednica Drugovac",
+   "official_name": "MESNA ZAJEDNICA DRUGOVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Drugovac",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-kolari-kolari",
+   "name": "Mesna zajednica Kolari",
+   "official_name": "MESNA ZAJEDNICA KOLARI",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Kolari",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-kulic-kulic",
+   "name": "Mesna zajednica Kulič",
+   "official_name": "MESNA ZAJEDNICA KULIČ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Kulič",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-landol-landol",
+   "name": "Mesna zajednica Landol",
+   "official_name": "MESNA ZAJEDNICA LANDOL",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Landol",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-lipe-lipe",
+   "name": "Mesna zajednica Lipe",
+   "official_name": "MESNA ZAJEDNICA LIPE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-lugavcina-lugavcina",
+   "name": "Mesna zajednica Lugavčina",
+   "official_name": "MESNA ZAJEDNICA LUGAVČINA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Lugavčina",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-lunjevac-lunjevac",
+   "name": "Mesna zajednica Lunjevac",
+   "official_name": "MESNA ZAJEDNICA LUNJEVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Lunjevac",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-mala-krsna-mala-krsna",
+   "name": "Mesna zajednica Mala Krsna",
+   "official_name": "MESNA ZAJEDNICA MALA KRSNA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Mala Krsna",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-malo-orasje-malo-orasje",
+   "name": "Mesna zajednica Malo Orašje",
+   "official_name": "MESNA ZAJEDNICA MALO ORAŠJE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Malo Orašje",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-mihajlovac-mihajlovac",
+   "name": "Mesna zajednica Mihajlovac",
+   "official_name": "MESNA ZAJEDNICA MIHAJLOVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-osipaonica-osipaonica",
+   "name": "Mesna zajednica Osipaonica",
+   "official_name": "MESNA ZAJEDNICA OSIPAONICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Osipaonica",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-papazovac-smederevo",
+   "name": "Mesna zajednica Papazovac",
+   "official_name": "MESNA ZAJEDNICA PAPAZOVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-petrijevo-petrijevo",
+   "name": "Mesna zajednica Petrijevo",
+   "official_name": "MESNA ZAJEDNICA PETRIJEVO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Petrijevo",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-radinac-radinac",
+   "name": "Mesna zajednica Radinac",
+   "official_name": "MESNA ZAJEDNICA RADINAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Radinac",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-ralja-ralja",
+   "name": "Mesna zajednica Ralja",
+   "official_name": "MESNA ZAJEDNICA RALJA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-saraorci-saraorci",
+   "name": "Mesna zajednica Saraorci",
+   "official_name": "MESNA ZAJEDNICA SARAORCI",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Saraorci",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-seone-seone",
+   "name": "Mesna zajednica Seone",
+   "official_name": "MESNA ZAJEDNICA SEONE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Seone",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-skobalj-skobalj",
+   "name": "Mesna zajednica Skobalj",
+   "official_name": "MESNA ZAJEDNICA SKOBALJ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-suvodol-suvodol",
+   "name": "Mesna zajednica Suvodol",
+   "official_name": "MESNA ZAJEDNICA SUVODOL",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Suvodol",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-udovice-udovice",
+   "name": "Mesna zajednica Udovice",
+   "official_name": "MESNA ZAJEDNICA UDOVICE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Udovice",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-vodanj-vodanj",
+   "name": "Mesna zajednica Vodanj",
+   "official_name": "MESNA ZAJEDNICA VODANJ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Vodanj",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-vranovo-vranovo",
+   "name": "Mesna zajednica Vranovo",
+   "official_name": "MESNA ZAJEDNICA VRANOVO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Vranovo",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-vrbovac-vrbovac",
+   "name": "Mesna zajednica Vrbovac",
+   "official_name": "MESNA ZAJEDNICA VRBOVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-vucak-vucak",
+   "name": "Mesna zajednica Vučak",
+   "official_name": "MESNA ZAJEDNICA VUČAK",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-salinac-salinac",
+   "name": "Mesna zajednica Šalinac",
+   "official_name": "MESNA ZAJEDNICA ŠALINAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Šalinac",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  }
+ ]
+}

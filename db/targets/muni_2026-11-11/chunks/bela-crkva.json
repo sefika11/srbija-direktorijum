@@ -1,0 +1,665 @@
+{
+ "municipality": "Bela Crkva",
+ "municipality_slug": "bela-crkva",
+ "municipality_site": null,
+ "chunk": "bela-crkva",
+ "of": 1,
+ "rows": [
+  {
+   "org_slug": "centar-za-socijalni-rad-8-maj-bela-crkva-bela-crkva",
+   "name": "Centar za socijalni rad \"8. Maj\" Bela Crkva",
+   "official_name": "CENTAR ZA SOCIJALNI RAD \"8. MAJ\" BELA CRKVA",
+   "type_slug": "centar-za-socijalni-rad",
+   "type": "Centar za socijalni rad",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "centar-za-istrazivanje-reka-d-o-o-banatska-palanka-banatska-palanka",
+   "name": "Centar za Istraživanje Reka d.o.o. Banatska Palanka",
+   "official_name": "Centar za istraživanje reka d.o.o. Banatska Palanka",
+   "type_slug": "javno-preduzece",
+   "type": "Javno preduzeće / društvo",
+   "website": null,
+   "settlement": "Banatska Palanka",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "drustveno-javno-usluzno-preduzece-belocrkvanska-jezera-bela-crkva-bela-crkva",
+   "name": "Društveno javno Uslužno preduzeće Belocrkvanska Jezera Bela Crkva",
+   "official_name": "DRUŠTVENO JAVNO USLUŽNO PREDUZEĆE BELOCRKVANSKA JEZERA BELA CRKVA",
+   "type_slug": "javno-preduzece",
+   "type": "Javno preduzeće / društvo",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "nacionalni-savet-ceske-nacionalne-manjine-bela-crkva",
+   "name": "Nacionalni Savet Češke Nacionalne Manjine",
+   "official_name": "NACIONALNI SAVET ČEŠKE NACIONALNE MANJINE",
+   "type_slug": "javno-preduzece",
+   "type": "Javno preduzeće / društvo",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "vodoprivredno-drustvo-usce-doo-bela-crkva-bela-crkva",
+   "name": "Vodoprivredno društvo \"Ušće\" DOO Bela Crkva",
+   "official_name": "VODOPRIVREDNO DRUŠTVO \"UŠĆE\" DOO BELA CRKVA",
+   "type_slug": "javno-preduzece",
+   "type": "Javno preduzeće / društvo",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "centar-za-kulturu-bela-crkva-bela-crkva",
+   "name": "Centar za kulturu \"Bela Crkva\"",
+   "official_name": "CENTAR ZA KULTURU \"BELA CRKVA\"",
+   "type_slug": "kulturni-centar",
+   "type": "Kulturni centar / Dom kulture",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "narodna-biblioteka-bela-crkva-bela-crkva",
+   "name": "Narodna biblioteka Bela Crkva",
+   "official_name": "NARODNA BIBLIOTEKA BELA CRKVA",
+   "type_slug": "narodna-biblioteka",
+   "type": "Narodna biblioteka",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstina-bela-crkva-opstinsko-vece-bela-crkva",
+   "name": "Opština Bela Crkva-Opštinsko veće",
+   "official_name": "OPŠTINA BELA CRKVA-OPŠTINSKO VEĆE",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstina-bela-crkva-predsednik-opstine-bela-crkva",
+   "name": "Opština Bela Crkva-Predsednik opštine",
+   "official_name": "OPŠTINA BELA CRKVA-PREDSEDNIK OPŠTINE",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstina-bela-crkva-skupstina-opstine-bela-crkva",
+   "name": "Opština Bela Crkva-Skupština opštine",
+   "official_name": "OPŠTINA BELA CRKVA-SKUPŠTINA OPŠTINE",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-dositej-obradovic-bela-crkva",
+   "name": "Osnovna škola \"Dositej Obradović\"",
+   "official_name": "OSNOVNA ŠKOLA \"DOSITEJ OBRADOVIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Bela Crkva",
+   "have": {
+    "address": "Miletićeva 6",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-mara-jankovic-kusic-bela-crkva",
+   "name": "Osnovna škola \"Mara Janković\" Kusić",
+   "official_name": "OSNOVNA ŠKOLA \"MARA JANKOVIĆ\" KUSIĆ",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Kusić",
+   "have": {
+    "address": "Trg Palih Boraca 1",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-marko-stojanovic-vracev-gaj-bela-crkva",
+   "name": "Osnovna škola \"Marko Stojanović\" Vračev Gaj",
+   "official_name": "OSNOVNA ŠKOLA \"MARKO STOJANOVIĆ\" VRAČEV GAJ",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Vračev Gaj",
+   "have": {
+    "address": "Marka Stojanovića 222",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-mihail-sadovanu-grebenac-bela-crkva",
+   "name": "Osnovna škola \"Mihail Sadovanu\" Grebenac",
+   "official_name": "OSNOVNA ŠKOLA \"MIHAIL SADOVANU\" GREBENAC",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-sava-muncan-kruscica-bela-crkva",
+   "name": "Osnovna škola \"Sava Munćan\" Kruščica",
+   "official_name": "OSNOVNA ŠKOLA \"SAVA MUNĆAN\" KRUŠČICA",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Kruščica",
+   "have": {
+    "address": "Save Munćana 45",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-djordje-maletic-jasenovo-bela-crkva",
+   "name": "Osnovna škola \"Đorđe Maletić\" Jasenovo",
+   "official_name": "OSNOVNA ŠKOLA \"ĐORĐE MALETIĆ\" JASENOVO",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Jasenovo",
+   "have": {
+    "address": "Maršala Tita 1",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-zarko-zrenjanin-bela-crkva",
+   "name": "Osnovna škola \"Žarko Zrenjanin\"",
+   "official_name": "OSNOVNA ŠKOLA \"ŽARKO ZRENJANIN\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Bela Crkva",
+   "have": {
+    "address": "Žarka Zrenjanina 13",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-andjelka-djuric-bela-crkva",
+   "name": "Predškolska ustanova \"Anđelka Đurić\"",
+   "official_name": "PREDŠKOLSKA USTANOVA \"ANĐELKA ĐURIĆ\"",
+   "type_slug": "predskolska-ustanova",
+   "type": "Predškolska ustanova (vrtić)",
+   "website": null,
+   "settlement": "Bela Crkva",
+   "have": {
+    "address": "1. Oktobar BB",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "belocrkvanska-gimnazija-i-ekonomska-skola-bela-crkva",
+   "name": "Belocrkvanska gimnazija i ekonomska škola",
+   "official_name": "BELOCRKVANSKA GIMNAZIJA I EKONOMSKA ŠKOLA",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Bela Crkva",
+   "have": {
+    "address": "Jovana Cvijića 11",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "tehnicka-skola-sava-muncan-bela-crkva",
+   "name": "Tehnička škola \"Sava Munćan\"",
+   "official_name": "TEHNIČKA ŠKOLA \"SAVA MUNĆAN\"",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Bela Crkva",
+   "have": {
+    "address": "Jovana Cvijića 7",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "dom-za-decu-i-omladinu-vera-radivojevic-bela-crkva-bela-crkva",
+   "name": "Dom za decu i omladinu \"Vera Radivojević\" Bela Crkva",
+   "official_name": "DOM ZA DECU I OMLADINU \"VERA RADIVOJEVIĆ\" BELA CRKVA",
+   "type_slug": "ustanova",
+   "type": "Javna ustanova",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-banatska-palanka-bela-crkva",
+   "name": "Mesna zajednica Banatska Palanka",
+   "official_name": "MESNA ZAJEDNICA BANATSKA PALANKA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-banatska-subotica-bela-crkva",
+   "name": "Mesna zajednica Banatska Subotica",
+   "official_name": "MESNA ZAJEDNICA BANATSKA SUBOTICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-bela-crkva-bela-crkva",
+   "name": "Mesna zajednica Bela Crkva",
+   "official_name": "MESNA ZAJEDNICA BELA CRKVA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-crvena-crkva-bela-crkva",
+   "name": "Mesna zajednica Crvena Crkva",
+   "official_name": "MESNA ZAJEDNICA CRVENA CRKVA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-dobricevo-bela-crkva",
+   "name": "Mesna zajednica Dobričevo",
+   "official_name": "MESNA ZAJEDNICA DOBRIČEVO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-dupljaja-bela-crkva",
+   "name": "Mesna zajednica Dupljaja",
+   "official_name": "MESNA ZAJEDNICA DUPLJAJA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-grebenac-bela-crkva",
+   "name": "Mesna zajednica Grebenac",
+   "official_name": "MESNA ZAJEDNICA GREBENAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-jasenovo-bela-crkva",
+   "name": "Mesna zajednica Jasenovo",
+   "official_name": "MESNA ZAJEDNICA JASENOVO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-kajtasovo-bela-crkva",
+   "name": "Mesna zajednica Kajtasovo",
+   "official_name": "MESNA ZAJEDNICA KAJTASOVO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-kalucerovo-bela-crkva",
+   "name": "Mesna zajednica Kalućerovo",
+   "official_name": "MESNA ZAJEDNICA KALUĆEROVO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-kruscica-bela-crkva",
+   "name": "Mesna zajednica Kruščica",
+   "official_name": "MESNA ZAJEDNICA KRUŠČICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-kusic-bela-crkva",
+   "name": "Mesna zajednica Kusić",
+   "official_name": "MESNA ZAJEDNICA KUSIĆ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-vracev-gaj-bela-crkva",
+   "name": "Mesna zajednica Vračev Gaj",
+   "official_name": "MESNA ZAJEDNICA VRAČEV GAJ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-cesko-selo-bela-crkva",
+   "name": "Mesna zajednica Češko Selo",
+   "official_name": "MESNA ZAJEDNICA ČEŠKO SELO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  }
+ ]
+}

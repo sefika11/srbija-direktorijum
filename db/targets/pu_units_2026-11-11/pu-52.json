@@ -1,0 +1,109 @@
+{
+ "chunk": "pu-52",
+ "institutions": [
+  {
+   "org_slug": "predskolska-ustanova-poletarac-trgoviste",
+   "name": "Predškolska ustanova \"Poletarac\"",
+   "type": "predskolska-ustanova",
+   "website": null,
+   "municipality": "Trgovište",
+   "seat_address": "J.N.A. 24",
+   "seat_phone": null,
+   "units": [
+    {
+     "location_id": 47019,
+     "name": "O.Š. Vuk Karadžić",
+     "municipality": "Trgovište"
+    },
+    {
+     "location_id": 47021,
+     "name": "O.Š. Žarko Zrenjanin Uča",
+     "municipality": "Trgovište"
+    },
+    {
+     "location_id": 46134,
+     "name": "Predškolska grupa – Osnovna Škola Bora Stanković Novo Selo",
+     "municipality": "Trgovište"
+    }
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-vcielka-backi-petrovac",
+   "name": "Predškolska ustanova \"Včielka\"",
+   "type": "predskolska-ustanova",
+   "website": null,
+   "municipality": "Bački Petrovac",
+   "seat_address": "Jarmočna bb",
+   "seat_phone": null,
+   "units": [
+    {
+     "location_id": 47157,
+     "name": "Vrtić \"Včielka\" Gložan",
+     "municipality": "Bački Petrovac"
+    },
+    {
+     "location_id": 47155,
+     "name": "Vrtić \"Včielka\" Kulpin",
+     "municipality": "Bački Petrovac"
+    },
+    {
+     "location_id": 47156,
+     "name": "Vrtić \"Včielka\" Maglić",
+     "municipality": "Bački Petrovac"
+    }
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-petar-pan-mali-idjos",
+   "name": "Predškolska ustanova \"Petar Pan\"",
+   "type": "predskolska-ustanova",
+   "website": null,
+   "municipality": "Mali Iđoš",
+   "seat_address": "2.Rakoci Ferenc 12.",
+   "seat_phone": null,
+   "units": [
+    {
+     "location_id": 45663,
+     "name": "Istureni objekat-Gazdinsko",
+     "municipality": "Mali Iđoš"
+    },
+    {
+     "location_id": 45723,
+     "name": "Istureni objekat-Višnja",
+     "municipality": "Mali Iđoš"
+    },
+    {
+     "location_id": 45702,
+     "name": "Istureni objekat-Zvončica",
+     "municipality": "Mali Iđoš"
+    }
+   ]
+  },
+  {
+   "org_slug": "privatni-vrtic-predskolska-ustanova-bambi-beograd",
+   "name": "Predškolska ustanova „Bambi“",
+   "type": "privatni-vrtic",
+   "website": null,
+   "municipality": "Beograd",
+   "seat_address": "Vojvode Stepe 561",
+   "seat_phone": null,
+   "units": [
+    {
+     "location_id": 47266,
+     "name": "Bambi 4",
+     "municipality": "Voždovac"
+    },
+    {
+     "location_id": 45941,
+     "name": "Bambi 5",
+     "municipality": "Voždovac"
+    },
+    {
+     "location_id": 47265,
+     "name": "Bambi Avala",
+     "municipality": "Voždovac"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,627 @@
+{
+ "municipality": "Alibunar",
+ "municipality_slug": "alibunar",
+ "municipality_site": null,
+ "chunk": "alibunar",
+ "of": 1,
+ "rows": [
+  {
+   "org_slug": "drustvo-sa-ogranicenom-odgovornoscu-kablovska-bk-banatski-karlovac-banatski-karlovac",
+   "name": "Društvo sa ograničenom odgovornošću Kablovska Bk Banatski Karlovac",
+   "official_name": "DRUŠTVO SA OGRANIČENOM ODGOVORNOŠĆU KABLOVSKA BK BANATSKI KARLOVAC",
+   "type_slug": "javno-preduzece",
+   "type": "Javno preduzeće / društvo",
+   "website": null,
+   "settlement": "Banatski Karlovac",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-univerzal-alibunar-alibunar",
+   "name": "Javno komunalno preduzeće Univerzal Alibunar",
+   "official_name": "JAVNO KOMUNALNO PREDUZEĆE UNIVERZAL ALIBUNAR",
+   "type_slug": "jkp-cistoca",
+   "type": "JKP Čistoća / Komunalac",
+   "website": "https://jkpuniverzal.rs/",
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": "013 641333",
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "javno-autotransportno-preduzece-alibunar-alibunar-alibunar",
+   "name": "Javno Autotransportno preduzeće Alibunar Alibunar",
+   "official_name": "JAVNO AUTOTRANSPORTNO PREDUZEĆE ALIBUNAR ALIBUNAR",
+   "type_slug": "jkp-gradski-prevoz",
+   "type": "JKP / JP Gradski prevoz",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "javno-preduzece-za-puteve-i-izgradnju-inzenjering-opstine-alibunar-alibunar-u-likvidaciji-alibunar",
+   "name": "Javno Preduzeće za Puteve i Izgradnju Inženjering opštine Alibunar, Alibunar - u Likvidaciji",
+   "official_name": "Javno preduzeće za puteve i izgradnju INŽENJERING OPŠTINE ALIBUNAR, Alibunar - U LIKVIDACIJI",
+   "type_slug": "jp-putevi",
+   "type": "JP za puteve i izgradnju",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "centar-za-kulturu-opstine-alibunar-alibunar",
+   "name": "Centar za kulturu opštine Alibunar",
+   "official_name": "CENTAR ZA KULTURU OPŠTINE ALIBUNAR",
+   "type_slug": "kulturni-centar",
+   "type": "Kulturni centar / Dom kulture",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "dom-kulture-mladost-alibunar",
+   "name": "Dom kulture \"Mladost\"",
+   "official_name": "DOM KULTURE \"MLADOST\"",
+   "type_slug": "kulturni-centar",
+   "type": "Kulturni centar / Dom kulture",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "dom-kulture-seleus-seleus-alibunar",
+   "name": "Dom kulture \"Seleuš\" Seleuš",
+   "official_name": "DOM KULTURE \"SELEUŠ\" SELEUŠ",
+   "type_slug": "kulturni-centar",
+   "type": "Kulturni centar / Dom kulture",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "dom-kulture-vladimirovac-vladimirovac-alibunar",
+   "name": "Dom kulture \"Vladimirovac\" Vladimirovac",
+   "official_name": "DOM KULTURE \"VLADIMIROVAC\" VLADIMIROVAC",
+   "type_slug": "kulturni-centar",
+   "type": "Kulturni centar / Dom kulture",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "kulturni-centar-d-milutinovic-banatski-karlovac-alibunar",
+   "name": "Kulturni centar \"D. Milutinović\" Banatski Karlovac",
+   "official_name": "KULTURNI CENTAR \"D. MILUTINOVIĆ\" BANATSKI KARLOVAC",
+   "type_slug": "kulturni-centar",
+   "type": "Kulturni centar / Dom kulture",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstinska-biblioteka-vuk-karadzic-alibunar",
+   "name": "Opštinska biblioteka \"Vuk Karadžić\"",
+   "official_name": "OPŠTINSKA BIBLIOTEKA \"VUK KARADŽIĆ\"",
+   "type_slug": "narodna-biblioteka",
+   "type": "Narodna biblioteka",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstinsko-vece-opstine-alibunar-alibunar",
+   "name": "Opštinsko veće opštine Alibunar",
+   "official_name": "OPŠTINSKO VEĆE OPŠTINE ALIBUNAR",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "predsednik-opstine-alibunar-alibunar",
+   "name": "Predsednik opštine Alibunar",
+   "official_name": "PREDSEDNIK OPŠTINE ALIBUNAR",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skupstina-opstine-alibunar-alibunar",
+   "name": "Skupština opštine Alibunar",
+   "official_name": "SKUPŠTINA OPŠTINE ALIBUNAR",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-1-maj-vladimirovac-alibunar",
+   "name": "Osnovna škola \"1. Maj\" Vladimirovac",
+   "official_name": "OSNOVNA ŠKOLA \"1. MAJ\" VLADIMIROVAC",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Vladimirovac",
+   "have": {
+    "address": "Cara Lazara 47",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-2-oktobar-nikolinci-alibunar",
+   "name": "Osnovna škola \"2. Oktobar\" Nikolinci",
+   "official_name": "OSNOVNA ŠKOLA \"2. OKTOBAR\" NIKOLINCI",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Nikolinci",
+   "have": {
+    "address": "Glavna 42",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-3-oktobar-lokve-lokve",
+   "name": "Osnovna škola \"3. Oktobar\" Lokve",
+   "official_name": "OSNOVNA ŠKOLA \"3. OKTOBAR\" LOKVE",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Lokve",
+   "have": {
+    "address": "Lenjinova 95",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-bratstvo-jedinstvo-alibunar-alibunar",
+   "name": "Osnovna škola \"Bratstvo-Jedinstvo\" Alibunar",
+   "official_name": "OSNOVNA ŠKOLA \"BRATSTVO-JEDINSTVO\" ALIBUNAR",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Alibunar",
+   "have": {
+    "address": "Vuka Karadžića 4",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-dusan-jerkovic-banatski-karlovac-alibunar",
+   "name": "Osnovna škola \"Dušan Jerković\" Banatski Karlovac",
+   "official_name": "OSNOVNA ŠKOLA \"DUŠAN JERKOVIĆ\" BANATSKI KARLOVAC",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Banatski Karlovac",
+   "have": {
+    "address": "Žarka Zrenjanina 36",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-milos-crnjanski-ilandza-alibunar",
+   "name": "Osnovna škola \"Miloš Crnjanski\" Ilandža",
+   "official_name": "OSNOVNA ŠKOLA \"MILOŠ CRNJANSKI\" ILANDŽA",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Ilandža",
+   "have": {
+    "address": "Svetozara Markovića 88",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-sava-veljkovic-dobrica-alibunar",
+   "name": "Osnovna škola \"Sava Veljković\" Dobrica",
+   "official_name": "OSNOVNA ŠKOLA \"SAVA VELJKOVIĆ\" DOBRICA",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Dobrica",
+   "have": {
+    "address": "Svetog Save 408",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-t-g-masarik-janosik-alibunar",
+   "name": "Osnovna škola \"t.g. Masarik\" Janošik",
+   "official_name": "OSNOVNA ŠKOLA \"T.G. MASARIK\" JANOŠIK",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-poletarac-alibunar",
+   "name": "Predškolska ustanova \"Poletarac\"",
+   "official_name": "PREDŠKOLSKA USTANOVA \"POLETARAC\"",
+   "type_slug": "predskolska-ustanova",
+   "type": "Predškolska ustanova (vrtić)",
+   "website": null,
+   "settlement": "Alibunar",
+   "have": {
+    "address": "Vuka Karadžića 6",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "ekonomsko-trgovinska-skola-dositej-obradovic-alibunar",
+   "name": "Ekonomsko - trgovinska škola \"Dositej Obradović\"",
+   "official_name": "EKONOMSKO - TRGOVINSKA ŠKOLA \"DOSITEJ OBRADOVIĆ\"",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-alibunar-alibunar",
+   "name": "Mesna zajednica Alibunar",
+   "official_name": "MESNA ZAJEDNICA ALIBUNAR",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-banatski-karlovac-alibunar",
+   "name": "Mesna zajednica Banatski Karlovac",
+   "official_name": "MESNA ZAJEDNICA BANATSKI KARLOVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-dobrica-alibunar",
+   "name": "Mesna zajednica Dobrica",
+   "official_name": "MESNA ZAJEDNICA DOBRICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-ilandza-alibunar",
+   "name": "Mesna zajednica Ilandža",
+   "official_name": "MESNA ZAJEDNICA ILANDŽA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-janosik-janosik",
+   "name": "Mesna zajednica Janošik",
+   "official_name": "MESNA ZAJEDNICA JANOŠIK",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Janošik",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-lokve-alibunar",
+   "name": "Mesna zajednica Lokve",
+   "official_name": "MESNA ZAJEDNICA LOKVE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-nikolinci-alibunar",
+   "name": "Mesna zajednica Nikolinci",
+   "official_name": "MESNA ZAJEDNICA NIKOLINCI",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-novi-kozjak-alibunar",
+   "name": "Mesna zajednica Novi Kozjak",
+   "official_name": "MESNA ZAJEDNICA NOVI KOZJAK",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-seleus-alibunar",
+   "name": "Mesna zajednica Seleuš",
+   "official_name": "MESNA ZAJEDNICA SELEUŠ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-vladimirovac-alibunar",
+   "name": "Mesna zajednica Vladimirovac",
+   "official_name": "MESNA ZAJEDNICA VLADIMIROVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  }
+ ]
+}

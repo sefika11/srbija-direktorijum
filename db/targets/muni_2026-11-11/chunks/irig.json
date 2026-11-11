@@ -1,0 +1,404 @@
+{
+ "municipality": "Irig",
+ "municipality_slug": "irig",
+ "municipality_site": null,
+ "chunk": "irig",
+ "of": 1,
+ "rows": [
+  {
+   "org_slug": "agencija-za-ruralni-razvoj-opstine-irig-doo-irig-irig",
+   "name": "Agencija za Ruralni razvoj opštine Irig DOO Irig",
+   "official_name": "AGENCIJA ZA RURALNI RAZVOJ OPŠTINE IRIG DOO IRIG",
+   "type_slug": "javno-preduzece",
+   "type": "Javno preduzeće / društvo",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "iriska-trgovina-d-o-o-za-trgovinu-na-veliko-i-malo-i-ugostiteljstvo-irig",
+   "name": "Iriška Trgovina d.o.o. za Trgovinu na Veliko i Malo i Ugostiteljstvo",
+   "official_name": "IRIŠKA TRGOVINA d.o.o. za trgovinu na veliko i malo i ugostiteljstvo",
+   "type_slug": "javno-preduzece",
+   "type": "Javno preduzeće / društvo",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "javno-preduzece-komunalac-irig-irig",
+   "name": "Javno preduzeće Komunalac Irig",
+   "official_name": "JAVNO PREDUZEĆE KOMUNALAC IRIG",
+   "type_slug": "jkp-cistoca",
+   "type": "JKP Čistoća / Komunalac",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": "022 461303",
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "opstinsko-pravobranilastvo-opstine-irig-irig",
+   "name": "Opštinsko Pravobranilaštvo opštine Irig",
+   "official_name": "OPŠTINSKO PRAVOBRANILAŠTVO OPŠTINE IRIG",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstinsko-vece-opstine-irig-irig",
+   "name": "Opštinsko veće opštine Irig",
+   "official_name": "OPŠTINSKO VEĆE OPŠTINE IRIG",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "predsednik-opstine-irig-irig",
+   "name": "Predsednik opštine Irig",
+   "official_name": "PREDSEDNIK OPŠTINE IRIG",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skupstina-opstine-irig-irig",
+   "name": "Skupština opštine Irig",
+   "official_name": "SKUPŠTINA OPŠTINE IRIG",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-dositej-obradovic-irig",
+   "name": "Osnovna škola \"Dositej Obradović\"",
+   "official_name": "OSNOVNA ŠKOLA \"DOSITEJ OBRADOVIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Irig",
+   "have": {
+    "address": "Zmaj Jovina 59",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-milica-stojadinovic-srpkinja-vrdnik",
+   "name": "Osnovna škola \"Milica Stojadinović Srpkinja\"",
+   "official_name": "OSNOVNA ŠKOLA \"MILICA STOJADINOVIĆ SRPKINJA\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Vrdnik",
+   "have": {
+    "address": "Boška Sremca bb",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "srednja-strucna-skola-borislav-mihajlovic-mihiz-irig",
+   "name": "Srednja Stručna škola \"Borislav Mihajlović-Mihiz\"",
+   "official_name": "SREDNJA STRUČNA ŠKOLA \"BORISLAV MIHAJLOVIĆ-MIHIZ\"",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Irig",
+   "have": {
+    "address": "Zmaj Jovina 59",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "decija-ustanova-decija-radost-irig",
+   "name": "Dečija ustanova \"Dečija Radost\"",
+   "official_name": "DEČIJA USTANOVA \"DEČIJA RADOST\"",
+   "type_slug": "ustanova",
+   "type": "Javna ustanova",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "srpska-citaonica-u-irigu-irig",
+   "name": "Srpska Čitaonica u Irigu",
+   "official_name": "SRPSKA ČITAONICA U IRIGU",
+   "type_slug": "ustanova",
+   "type": "Javna ustanova",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-irig-irig",
+   "name": "Mesna zajednica Irig",
+   "official_name": "MESNA ZAJEDNICA IRIG",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-jazak-irig",
+   "name": "Mesna zajednica Jazak",
+   "official_name": "MESNA ZAJEDNICA JAZAK",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-krusedol-selo-irig",
+   "name": "Mesna zajednica Krušedol Selo",
+   "official_name": "MESNA ZAJEDNICA KRUŠEDOL SELO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-krusedolski-prnjavor-irig",
+   "name": "Mesna zajednica Krušedolski Prnjavor",
+   "official_name": "MESNA ZAJEDNICA KRUŠEDOLSKI PRNJAVOR",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-mala-remeta-irig",
+   "name": "Mesna zajednica Mala Remeta",
+   "official_name": "MESNA ZAJEDNICA MALA REMETA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-neradin-irig",
+   "name": "Mesna zajednica Neradin",
+   "official_name": "MESNA ZAJEDNICA NERADIN",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-rivica-irig",
+   "name": "Mesna zajednica Rivica",
+   "official_name": "MESNA ZAJEDNICA RIVICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-vrdnik-irig",
+   "name": "Mesna zajednica Vrdnik",
+   "official_name": "MESNA ZAJEDNICA VRDNIK",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-satrinci-irig",
+   "name": "Mesna zajednica Šatrinci",
+   "official_name": "MESNA ZAJEDNICA ŠATRINCI",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  }
+ ]
+}

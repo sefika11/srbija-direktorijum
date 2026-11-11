@@ -1,0 +1,608 @@
+{
+ "municipality": "Bogatić",
+ "municipality_slug": "bogatic",
+ "municipality_site": null,
+ "chunk": "bogatic",
+ "of": 1,
+ "rows": [
+  {
+   "org_slug": "centar-za-socijalni-rad-bogatic-bogatic",
+   "name": "Centar za socijalni rad \"Bogatić\"",
+   "official_name": "CENTAR ZA SOCIJALNI RAD \"BOGATIĆ\"",
+   "type_slug": "centar-za-socijalni-rad",
+   "type": "Centar za socijalni rad",
+   "website": "https://csrbogatic.rs/",
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-bogatic-bogatic-bogatic",
+   "name": "Javno komunalno preduzeće Bogatić, Bogatić",
+   "official_name": "JAVNO KOMUNALNO PREDUZEĆE BOGATIĆ, BOGATIĆ",
+   "type_slug": "jkp-cistoca",
+   "type": "JKP Čistoća / Komunalac",
+   "website": "https://bogatic.rs/vodic/javne-ustanove/jkp-bogatic/",
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "kulturno-obrazovni-centar-bogatic-bogatic",
+   "name": "Kulturno - Obrazovni centar Bogatić",
+   "official_name": "KULTURNO - OBRAZOVNI CENTAR BOGATIĆ",
+   "type_slug": "kulturni-centar",
+   "type": "Kulturni centar / Dom kulture",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "narodna-biblioteka-janko-veselinovic-bogatic",
+   "name": "Narodna biblioteka \"Janko Veselinović\"",
+   "official_name": "NARODNA BIBLIOTEKA \"JANKO VESELINOVIĆ\"",
+   "type_slug": "narodna-biblioteka",
+   "type": "Narodna biblioteka",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstinska-uprava-bogatic-bogatic",
+   "name": "Opštinska uprava Bogatić",
+   "official_name": "OPŠTINSKA UPRAVA BOGATIĆ",
+   "type_slug": "opstinska-uprava",
+   "type": "Opštinska uprava",
+   "website": "https://bogatic.rs/",
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": "015 778626",
+    "email": "upiti@bogatic.ls.gov.rs",
+    "hours": null
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "opstinsko-javno-pravobranilastvo-bogatic",
+   "name": "Opštinsko javno Pravobranilaštvo",
+   "official_name": "OPŠTINSKO JAVNO PRAVOBRANILAŠTVO",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstinsko-vece-opstine-bogatic-bogatic",
+   "name": "Opštinsko veće opštine Bogatić",
+   "official_name": "OPŠTINSKO VEĆE OPŠTINE BOGATIĆ",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "predsednik-opstine-bogatic-bogatic",
+   "name": "Predsednik opštine Bogatić",
+   "official_name": "PREDSEDNIK OPŠTINE BOGATIĆ",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skupstina-opstine-bogatic-bogatic",
+   "name": "Skupština opštine Bogatić",
+   "official_name": "SKUPŠTINA OPŠTINE BOGATIĆ",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-cvetin-brkic-glusci-bogatic",
+   "name": "Osnovna škola \"Cvetin Brkić\" Glušci",
+   "official_name": "OSNOVNA ŠKOLA \"CVETIN BRKIĆ\" GLUŠCI",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Glušci",
+   "have": {
+    "address": "Svetomira Alimpića 3",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-janko-veselinovic-crna-bara-bogatic",
+   "name": "Osnovna škola \"Janko Veselinović\" Crna Bara",
+   "official_name": "OSNOVNA ŠKOLA \"JANKO VESELINOVIĆ\" CRNA BARA",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Crna Bara",
+   "have": {
+    "address": "Miodraga Petrovića-Ujke 54",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-laza-k-lazarevic-klenje-bogatic",
+   "name": "Osnovna škola \"Laza K. Lazarević\" Klenje",
+   "official_name": "OSNOVNA ŠKOLA \"LAZA K. LAZAREVIĆ\" KLENJE",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Klenje",
+   "have": {
+    "address": "Drinska 1",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-mika-mitrovic-bogatic-bogatic",
+   "name": "Osnovna škola \"Mika Mitrović\" Bogatić",
+   "official_name": "OSNOVNA ŠKOLA \"MIKA MITROVIĆ\" BOGATIĆ",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Bogatić",
+   "have": {
+    "address": "Vojvode Stepe 4",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-nikola-tesla-dublje-bogatic",
+   "name": "Osnovna škola \"Nikola Tesla\" Dublje",
+   "official_name": "OSNOVNA ŠKOLA \"NIKOLA TESLA\" DUBLJE",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Dublje",
+   "have": {
+    "address": "Đenerala Draže Mihailovića 8",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-vuk-karadzic-badovinci-bogatic",
+   "name": "Osnovna škola \"Vuk Karadžić\" Badovinci",
+   "official_name": "OSNOVNA ŠKOLA \"VUK KARADŽIĆ\" BADOVINCI",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Badovinci",
+   "have": {
+    "address": "Karađorđeva 1",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-slava-kovic-bogatic",
+   "name": "Predškolska ustanova \"Slava Ković\"",
+   "official_name": "PREDŠKOLSKA USTANOVA \"SLAVA KOVIĆ\"",
+   "type_slug": "predskolska-ustanova",
+   "type": "Predškolska ustanova (vrtić)",
+   "website": null,
+   "settlement": "Bogatić",
+   "have": {
+    "address": "Janka Veselinovića 3",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "macvanska-srednja-skola-bogatic",
+   "name": "\"Mačvanska srednja škola\"",
+   "official_name": "\"MAČVANSKA SREDNJA ŠKOLA\"",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Bogatić",
+   "have": {
+    "address": "Janka Veselinovića 1",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "turisticka-organizacije-opstine-bogatic-bogatic",
+   "name": "Turistička Organizacije opštine Bogatić",
+   "official_name": "TURISTIČKA ORGANIZACIJE OPŠTINE BOGATIĆ",
+   "type_slug": "ustanova",
+   "type": "Javna ustanova",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-badovinci-bogatic",
+   "name": "Mesna zajednica \"Badovinci\"",
+   "official_name": "MESNA ZAJEDNICA \"BADOVINCI\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-banovo-polje-bogatic",
+   "name": "Mesna zajednica Banovo Polje",
+   "official_name": "MESNA ZAJEDNICA BANOVO POLJE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-belotic-macvanski-bogatic",
+   "name": "Mesna zajednica Belotić Mačvanski",
+   "official_name": "MESNA ZAJEDNICA BELOTIĆ MAČVANSKI",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-bogatic-bogatic",
+   "name": "Mesna zajednica Bogatić",
+   "official_name": "MESNA ZAJEDNICA BOGATIĆ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-crna-bara-bogatic",
+   "name": "Mesna zajednica Crna Bara",
+   "official_name": "MESNA ZAJEDNICA CRNA BARA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-dublje-bogatic",
+   "name": "Mesna zajednica Dublje",
+   "official_name": "MESNA ZAJEDNICA DUBLJE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-glogovac-bogatic",
+   "name": "Mesna zajednica Glogovac",
+   "official_name": "MESNA ZAJEDNICA GLOGOVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-glusci-bogatic",
+   "name": "Mesna zajednica Glušci",
+   "official_name": "MESNA ZAJEDNICA GLUŠCI",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-klenje-bogatic",
+   "name": "Mesna zajednica Klenje",
+   "official_name": "MESNA ZAJEDNICA KLENJE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-macvanski-metkovic-bogatic",
+   "name": "Mesna zajednica Mačvanski Metković",
+   "official_name": "MESNA ZAJEDNICA MAČVANSKI METKOVIĆ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-ocage-bogatic",
+   "name": "Mesna zajednica Očage",
+   "official_name": "MESNA ZAJEDNICA OČAGE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-salas-crnobarski-bogatic",
+   "name": "Mesna zajednica Salaš Crnobarski",
+   "official_name": "MESNA ZAJEDNICA SALAŠ CRNOBARSKI",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-sovljak-bogatic",
+   "name": "Mesna zajednica Sovljak",
+   "official_name": "MESNA ZAJEDNICA SOVLJAK",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-uzvece-bogatic",
+   "name": "Mesna zajednica Uzveće",
+   "official_name": "MESNA ZAJEDNICA UZVEĆE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  }
+ ]
+}

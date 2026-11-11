@@ -115,7 +115,7 @@ def main():
     for c in changes: per[c["to_slug"]] = per.get(c["to_slug"], 0) + 1
     print(sorted(per.items(), key=lambda kv: -kv[1]))
     if not a.write: print("dry run: nothing written (use --write)"); return
-    out = f"db/fixes/go_assignment_{datetime.date.today().isoformat()}.json"
+    out = f"db/fixes/go_assignment_{datetime.datetime.now().strftime('%Y-%m-%d_%H%M%S')}.json"   # one undo file per run, never overwritten
     json.dump({"at": datetime.datetime.now().isoformat(timespec="seconds"), "changes": changes}, open(out, "w"), ensure_ascii=False)
     cur.executemany("update locations set territorial_unit_id = %s, updated_at = now() where id = %s and territorial_unit_id = %s", [(c["to"], c["location_id"], c["from"]) for c in changes])
     con.commit(); print("written:", len(changes), "| undo file:", out)

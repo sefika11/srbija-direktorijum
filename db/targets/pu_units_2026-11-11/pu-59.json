@@ -1,0 +1,89 @@
+{
+ "chunk": "pu-59",
+ "institutions": [
+  {
+   "org_slug": "privatni-vrtic-predskolska-ustanova-bejbilend-beograd",
+   "name": "Predškolska ustanova „Bejbilend“",
+   "type": "privatni-vrtic",
+   "website": null,
+   "municipality": "Beograd",
+   "seat_address": "Jurija Gagarina 108",
+   "seat_phone": null,
+   "units": [
+    {
+     "location_id": 46106,
+     "name": "Izdvojeno odeljenje \" Bejbilend 4\"",
+     "municipality": "Novi Beograd"
+    },
+    {
+     "location_id": 46076,
+     "name": "Izdvojeno odeljenje \" Bejbilend junior\"",
+     "municipality": "Novi Beograd"
+    }
+   ]
+  },
+  {
+   "org_slug": "privatni-vrtic-predskolska-ustanova-panda-beograd",
+   "name": "Predškolska ustanova „Panda“",
+   "type": "privatni-vrtic",
+   "website": null,
+   "municipality": "Beograd",
+   "seat_address": "Bistrička 28",
+   "seat_phone": null,
+   "units": [
+    {
+     "location_id": 45280,
+     "name": "PU Panda 3",
+     "municipality": "Palilula"
+    },
+    {
+     "location_id": 47395,
+     "name": "PU Panda 4",
+     "municipality": "Palilula"
+    }
+   ]
+  },
+  {
+   "org_slug": "privatni-vrtic-predskolska-ustanova-petar-pan-kragujevac",
+   "name": "Predškolska ustanova „Petar Pan“",
+   "type": "privatni-vrtic",
+   "website": null,
+   "municipality": "Kragujevac",
+   "seat_address": "Ilindenska 103",
+   "seat_phone": null,
+   "units": [
+    {
+     "location_id": 47281,
+     "name": "Petar Pan 1",
+     "municipality": "Kragujevac"
+    },
+    {
+     "location_id": 47298,
+     "name": "Petar Pan 2",
+     "municipality": "Kragujevac"
+    }
+   ]
+  },
+  {
+   "org_slug": "privatni-vrtic-predskolska-ustanova-futurino-beograd",
+   "name": "Predškolska ustanova „Futurino“",
+   "type": "privatni-vrtic",
+   "website": null,
+   "municipality": "Beograd",
+   "seat_address": "Hercegovačka 19",
+   "seat_phone": null,
+   "units": [
+    {
+     "location_id": 46516,
+     "name": "Futurino 3",
+     "municipality": "Savski venac"
+    },
+    {
+     "location_id": 46515,
+     "name": "Futurino international preschool",
+     "municipality": "Savski venac"
+    }
+   ]
+  }
+ ]
+}

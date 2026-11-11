@@ -1,0 +1,765 @@
+{
+ "municipality": "Bela Palanka",
+ "municipality_slug": "bela-palanka",
+ "municipality_site": null,
+ "chunk": "bela-palanka",
+ "of": 1,
+ "rows": [
+  {
+   "org_slug": "centar-za-socijalni-rad-branko-milovanovic-ciga-bela-palanka",
+   "name": "Centar za socijalni rad \"Branko Milovanović-Ciga\"",
+   "official_name": "CENTAR ZA SOCIJALNI RAD \"BRANKO MILOVANOVIĆ-CIGA\"",
+   "type_slug": "centar-za-socijalni-rad",
+   "type": "Centar za socijalni rad",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-komnis-bela-palanka-bela-palanka",
+   "name": "Javno komunalno preduzeće Komnis Bela Palanka",
+   "official_name": "JAVNO KOMUNALNO PREDUZEĆE KOMNIS BELA PALANKA",
+   "type_slug": "jkp-cistoca",
+   "type": "JKP Čistoća / Komunalac",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "javno-preduzece-direkcija-za-izgradnju-opstine-bela-palanka-bela-palanka-bela-palanka",
+   "name": "Javno preduzeće direkcija za izgradnju opštine Bela Palanka, Bela Palanka",
+   "official_name": "JAVNO PREDUZEĆE DIREKCIJA ZA IZGRADNJU OPŠTINE BELA PALANKA, BELA PALANKA",
+   "type_slug": "jp-urbanizam",
+   "type": "JP Urbanizam / Direkcija za izgradnju",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "narodna-biblioteka-vuk-karadzic-bela-palanka-bela-palanka",
+   "name": "Narodna biblioteka \"Vuk Karadžić\" Bela Palanka",
+   "official_name": "NARODNA BIBLIOTEKA \"VUK KARADŽIĆ\" BELA PALANKA",
+   "type_slug": "narodna-biblioteka",
+   "type": "Narodna biblioteka",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstina-bela-palanka-opstinsko-vece-bela-palanka",
+   "name": "Opština Bela Palanka - Opštinsko veće",
+   "official_name": "OPŠTINA BELA PALANKA - OPŠTINSKO VEĆE",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstina-bela-palanka-predsednik-opstine-bela-palanka",
+   "name": "Opština Bela Palanka - Predsednik opštine",
+   "official_name": "OPŠTINA BELA PALANKA - PREDSEDNIK OPŠTINE",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstina-bela-palanka-skupstina-opstine-bela-palanka",
+   "name": "Opština Bela Palanka - skupština opštine",
+   "official_name": "OPŠTINA BELA PALANKA - SKUPŠTINA OPŠTINE",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-jovan-arandjelovic-crvena-reka-crvena-reka",
+   "name": "Osnovna škola \"Jovan Aranđelović\" Crvena Reka",
+   "official_name": "OSNOVNA ŠKOLA \"JOVAN ARANĐELOVIĆ\" CRVENA REKA",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Crvena Reka",
+   "have": {
+    "address": "Srpskih Vladara 2",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-ljupce-spanac-bela-palanka",
+   "name": "Osnovna škola \"Ljupče Španac\"",
+   "official_name": "OSNOVNA ŠKOLA \"LJUPČE ŠPANAC\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Bela Palanka",
+   "have": {
+    "address": "Karađorđeva bb",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-dragica-lalovic-bela-palanka",
+   "name": "Predškolska ustanova \"Dragica Lalović\"",
+   "official_name": "PREDŠKOLSKA USTANOVA \"DRAGICA LALOVIĆ\"",
+   "type_slug": "predskolska-ustanova",
+   "type": "Predškolska ustanova (vrtić)",
+   "website": null,
+   "settlement": "Bela Palanka",
+   "have": {
+    "address": "Ive Lole Ribara bb",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "ustanova-za-sport-sportski-centar-banjica-bela-palanka",
+   "name": "Ustanova za sport \"sportski centar - Banjica\"",
+   "official_name": "USTANOVA ZA SPORT \"SPORTSKI CENTAR - BANJICA\"",
+   "type_slug": "sportski-centar",
+   "type": "Sportski centar",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "srednja-skola-niketa-remezijanski-bela-palanka-bela-palanka",
+   "name": "Srednja škola \"Niketa Remezijanski\" Bela Palanka",
+   "official_name": "SREDNJA ŠKOLA \"NIKETA REMEZIJANSKI\" BELA PALANKA",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Bela Palanka",
+   "have": {
+    "address": "Deveti Maj 2",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "ustanova-kulture-remezijana-bela-palanka-bela-palanka",
+   "name": "Ustanova kulture \"Remezijana\" Bela Palanka",
+   "official_name": "USTANOVA KULTURE \"REMEZIJANA\" BELA PALANKA",
+   "type_slug": "ustanova",
+   "type": "Javna ustanova",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-babin-kal-babin-kal",
+   "name": "Mesna zajednica Babin Kal",
+   "official_name": "MESNA ZAJEDNICA BABIN KAL",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Babin Kal",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-bela-palanka-1-bela-palanka",
+   "name": "Mesna zajednica Bela Palanka 1",
+   "official_name": "MESNA ZAJEDNICA BELA PALANKA 1",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-bela-palanka-2-bela-palanka",
+   "name": "Mesna zajednica Bela Palanka 2",
+   "official_name": "MESNA ZAJEDNICA BELA PALANKA 2",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-beziste-beziste",
+   "name": "Mesna zajednica Bežište",
+   "official_name": "MESNA ZAJEDNICA BEŽIŠTE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Bežište",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-crnce-crnce",
+   "name": "Mesna zajednica Crnče",
+   "official_name": "MESNA ZAJEDNICA CRNČE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-crvena-reka-crvena-reka",
+   "name": "Mesna zajednica Crvena Reka",
+   "official_name": "MESNA ZAJEDNICA CRVENA REKA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Crvena Reka",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-divljana-divljana",
+   "name": "Mesna zajednica Divljana",
+   "official_name": "MESNA ZAJEDNICA DIVLJANA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Divljana",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-dolac-dolac-selo",
+   "name": "Mesna zajednica Dolac",
+   "official_name": "MESNA ZAJEDNICA DOLAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-donja-koritnica-donja-koritnica",
+   "name": "Mesna zajednica Donja Koritnica",
+   "official_name": "MESNA ZAJEDNICA DONJA KORITNICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Donja Koritnica",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-glogovac-glogovac",
+   "name": "Mesna zajednica Glogovac",
+   "official_name": "MESNA ZAJEDNICA GLOGOVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-gornja-koritnica-gornja-koritnica",
+   "name": "Mesna zajednica Gornja Koritnica",
+   "official_name": "MESNA ZAJEDNICA GORNJA KORITNICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Gornja Koritnica",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-klisura-klisura",
+   "name": "Mesna zajednica Klisura",
+   "official_name": "MESNA ZAJEDNICA KLISURA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-kosmovac-kosmovac",
+   "name": "Mesna zajednica Kosmovac",
+   "official_name": "MESNA ZAJEDNICA KOSMOVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Kosmovac",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-krupac-krupac",
+   "name": "Mesna zajednica Krupac",
+   "official_name": "MESNA ZAJEDNICA KRUPAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-ljubatovica-ljubatovica",
+   "name": "Mesna zajednica Ljubatovica",
+   "official_name": "MESNA ZAJEDNICA LJUBATOVICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Ljubatovica",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-mokliste-mokliste",
+   "name": "Mesna zajednica Moklište",
+   "official_name": "MESNA ZAJEDNICA MOKLIŠTE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Moklište",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-mokra-mokra",
+   "name": "Mesna zajednica Mokra",
+   "official_name": "MESNA ZAJEDNICA MOKRA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Mokra",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-oreovac-oreovac",
+   "name": "Mesna zajednica Oreovac",
+   "official_name": "MESNA ZAJEDNICA OREOVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-pajez-pajez",
+   "name": "Mesna zajednica Pajež",
+   "official_name": "MESNA ZAJEDNICA PAJEŽ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Pajež",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-sinjac-sinjac",
+   "name": "Mesna zajednica Sinjac",
+   "official_name": "MESNA ZAJEDNICA SINJAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Sinjac",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-tamnjanica-tamnjanica",
+   "name": "Mesna zajednica Tamnjanica",
+   "official_name": "MESNA ZAJEDNICA TAMNJANICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Tamnjanica",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-toponica-toponica",
+   "name": "Mesna zajednica Toponica",
+   "official_name": "MESNA ZAJEDNICA TOPONICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-veta-veta",
+   "name": "Mesna zajednica Veta",
+   "official_name": "MESNA ZAJEDNICA VETA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Veta",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-vrandol-vrandol",
+   "name": "Mesna zajednica Vrandol",
+   "official_name": "MESNA ZAJEDNICA VRANDOL",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Vrandol",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-vrgudinac-vrgudinac",
+   "name": "Mesna zajednica Vrgudinac",
+   "official_name": "MESNA ZAJEDNICA VRGUDINAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Vrgudinac",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-ciflik-ciflik",
+   "name": "Mesna zajednica Čiflik",
+   "official_name": "MESNA ZAJEDNICA ČIFLIK",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Čiflik",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-sljivovik-sljivovik",
+   "name": "Mesna zajednica Šljivovik",
+   "official_name": "MESNA ZAJEDNICA ŠLJIVOVIK",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  }
+ ]
+}

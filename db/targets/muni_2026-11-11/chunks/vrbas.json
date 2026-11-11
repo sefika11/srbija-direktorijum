@@ -1,0 +1,734 @@
+{
+ "municipality": "Vrbas",
+ "municipality_slug": "vrbas",
+ "municipality_site": null,
+ "chunk": "vrbas",
+ "of": 1,
+ "rows": [
+  {
+   "org_slug": "apotekarska-ustanova-vrbas-vrbas",
+   "name": "Apotekarska ustanova Vrbas",
+   "official_name": "APOTEKARSKA USTANOVA VRBAS",
+   "type_slug": "apoteka",
+   "type": "Apotekarska ustanova",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "nacionalni-savet-crnogorske-nacionalne-manjine-vrbas",
+   "name": "Nacionalni Savet Crnogorske Nacionalne Manjine",
+   "official_name": "NACIONALNI SAVET CRNOGORSKE NACIONALNE MANJINE",
+   "type_slug": "javno-preduzece",
+   "type": "Javno preduzeće / društvo",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "novinsko-izdavacka-ustanova-vijest-vrbas",
+   "name": "Novinsko Izdavačka ustanova \"Vijest\"",
+   "official_name": "NOVINSKO IZDAVAČKA USTANOVA \"VIJEST\"",
+   "type_slug": "javno-preduzece",
+   "type": "Javno preduzeće / društvo",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "poljoprivredna-savetodavna-i-strucna-sluzba-vrbas-drustvo-sa-ogranicenom-odgovornoscu-vrbas-vrbas",
+   "name": "Poljoprivredna Savetodavna i Stručna služba Vrbas društvo sa ograničenom odgovornošću Vrbas",
+   "official_name": "POLJOPRIVREDNA SAVETODAVNA I STRUČNA SLUŽBA VRBAS DRUŠTVO SA OGRANIČENOM ODGOVORNOŠĆU VRBAS",
+   "type_slug": "javno-preduzece",
+   "type": "Javno preduzeće / društvo",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "javna-agencija-za-zoohigijenu-i-poljoprivredu-opstine-vrbas-vrbas",
+   "name": "Javna agencija za Zoohigijenu i Poljoprivredu opštine Vrbas",
+   "official_name": "JAVNA AGENCIJA ZA ZOOHIGIJENU I POLJOPRIVREDU OPŠTINE VRBAS",
+   "type_slug": "jkp-cistoca",
+   "type": "JKP Čistoća / Komunalac",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-komunalac-vrbas-vrbas",
+   "name": "Javno Komunalno Preduzeće Komunalac Vrbas",
+   "official_name": "Javno komunalno preduzeće Komunalac Vrbas",
+   "type_slug": "jkp-cistoca",
+   "type": "JKP Čistoća / Komunalac",
+   "website": "https://www.komunalacvrbas.rs",
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": "021 706575; 0800 021102; 021 706083; 021 706085; 064 8474308",
+    "email": "office@komunalacvrbas.rs",
+    "hours": null
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-precistac-vrbas-kula-vrbas-vrbas",
+   "name": "Javno Komunalno Preduzeće Prečistač Vrbas-Kula Vrbas",
+   "official_name": "Javno komunalno preduzeće Prečistač Vrbas-Kula Vrbas",
+   "type_slug": "jkp-cistoca",
+   "type": "JKP Čistoća / Komunalac",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "javno-preduzece-vrbas-gas-za-distribuciju-prirodnog-gasa-vrbas-vrbas",
+   "name": "Javno preduzeće Vrbas-Gas za Distribuciju Prirodnog Gasa Vrbas",
+   "official_name": "JAVNO PREDUZEĆE VRBAS-GAS ZA DISTRIBUCIJU PRIRODNOG GASA VRBAS",
+   "type_slug": "jkp-gas",
+   "type": "Distribucija gasa",
+   "website": "http://www.vrbasgas.com",
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": "021 794265",
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "javno-preduzece-za-gradjevinsko-zemljiste-izgradnju-i-puteve-direkcija-za-izgradnju-vrbas-u-likvidac",
+   "name": "Javno preduzeće za Građevinsko Zemljište,izgradnju i puteve direkcija za izgradnju Vrbas - u Likvidaciji",
+   "official_name": "JAVNO PREDUZEĆE ZA GRAĐEVINSKO ZEMLJIŠTE,IZGRADNJU I PUTEVE DIREKCIJA ZA IZGRADNJU VRBAS - U LIKVIDACIJI",
+   "type_slug": "jp-urbanizam",
+   "type": "JP Urbanizam / Direkcija za izgradnju",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "kulturni-centar-vrbasa-vrbas",
+   "name": "Kulturni centar Vrbasa",
+   "official_name": "KULTURNI CENTAR VRBASA",
+   "type_slug": "kulturni-centar",
+   "type": "Kulturni centar / Dom kulture",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-muzicka-skola-vrbas-vrbas",
+   "name": "Osnovna muzička škola Vrbas",
+   "official_name": "OSNOVNA MUZIČKA ŠKOLA VRBAS",
+   "type_slug": "muzicka-skola",
+   "type": "Muzička ili baletska škola",
+   "website": null,
+   "settlement": "Vrbas",
+   "have": {
+    "address": "Maršala Tita 118",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "javna-biblioteka-danilo-kis-vrbas-vrbas",
+   "name": "Javna biblioteka \"Danilo Kiš\" Vrbas",
+   "official_name": "JAVNA BIBLIOTEKA \"DANILO KIŠ\" VRBAS",
+   "type_slug": "narodna-biblioteka",
+   "type": "Narodna biblioteka",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstinsko-vece-opstine-vrbas-vrbas",
+   "name": "Opštinsko veće opštine Vrbas",
+   "official_name": "OPŠTINSKO VEĆE OPŠTINE VRBAS",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "pravobranilastvo-opstine-vrbas-vrbas",
+   "name": "Pravobranilaštvo opštine Vrbas",
+   "official_name": "PRAVOBRANILAŠTVO OPŠTINE VRBAS",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "predsednik-opstine-vrbas-vrbas",
+   "name": "Predsednik opštine Vrbas",
+   "official_name": "PREDSEDNIK OPŠTINE VRBAS",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skupstina-opstine-vrbas-vrbas",
+   "name": "Skupština opštine Vrbas",
+   "official_name": "SKUPŠTINA OPŠTINE VRBAS",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-20-oktobar-vrbas",
+   "name": "Osnovna škola \"20. Oktobar\"",
+   "official_name": "OSNOVNA ŠKOLA \"20. OKTOBAR\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Vrbas",
+   "have": {
+    "address": "Pete Proleterske Brigade 1",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-branko-radicevic-ravno-selo",
+   "name": "Osnovna škola \"Branko Radičević\"",
+   "official_name": "OSNOVNA ŠKOLA \"BRANKO RADIČEVIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Ravno Selo",
+   "have": {
+    "address": "Maršala Tita 112",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-branko-radicevic-savino-selo",
+   "name": "Osnovna škola \"Branko Radičević\"",
+   "official_name": "OSNOVNA ŠKOLA \"BRANKO RADIČEVIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Savino Selo",
+   "have": {
+    "address": "Maršala Tita 112",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-bratstvo-jedinstvo-vrbas",
+   "name": "Osnovna škola \"Bratstvo-Jedinstvo\"",
+   "official_name": "OSNOVNA ŠKOLA \"BRATSTVO-JEDINSTVO\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-bratstvo-jedinstvo-kucura",
+   "name": "Osnovna škola \"Bratstvo-Jedinstvo\"",
+   "official_name": "OSNOVNA ŠKOLA \"BRATSTVO-JEDINSTVO\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Kucura",
+   "have": {
+    "address": "Oslobođenja 6",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-jovan-jovanovic-zmaj-zmajevo",
+   "name": "Osnovna škola \"Jovan Jovanović Zmaj\"",
+   "official_name": "OSNOVNA ŠKOLA \"JOVAN JOVANOVIĆ ZMAJ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Zmajevo",
+   "have": {
+    "address": "Ivana Milutinovića 64",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-petar-petrovic-njegos-vrbas",
+   "name": "Osnovna škola \"Petar Petrović Njegoš\"",
+   "official_name": "OSNOVNA ŠKOLA \"PETAR PETROVIĆ NJEGOŠ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Vrbas",
+   "have": {
+    "address": "Palih Boraca 34",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-svetozar-miletic-vrbas",
+   "name": "Osnovna škola \"Svetozar Miletić\"",
+   "official_name": "OSNOVNA ŠKOLA \"SVETOZAR MILETIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Vrbas",
+   "have": {
+    "address": "Svetozara Markovića 55",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-vuk-karadzic-backo-dobro-polje",
+   "name": "Osnovna škola \"Vuk Karadžić\"",
+   "official_name": "OSNOVNA ŠKOLA \"VUK KARADŽIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Bačko Dobro Polje",
+   "have": {
+    "address": "Maršala Tita 85",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "javna-predskolska-ustanova-bosko-buha-vrbas",
+   "name": "Javna predškolska ustanova \"Boško Buha\"",
+   "official_name": "JAVNA PREDŠKOLSKA USTANOVA \"BOŠKO BUHA\"",
+   "type_slug": "predskolska-ustanova",
+   "type": "Predškolska ustanova (vrtić)",
+   "website": null,
+   "settlement": "Vrbas",
+   "have": {
+    "address": "Dragana Grubića 8",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-milan-milicic-pr-ostalo-obrazovanje-managemant-training-center",
+   "name": "Milan Miličić pr ostalo obrazovanje Managemant Training Center Vrbas",
+   "official_name": null,
+   "type_slug": "skola-za-odrasle",
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "website": null,
+   "settlement": "Bačko Dobro Polje",
+   "have": {
+    "address": "Maršala Tita 12",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-svetozar-markovic-toza-vrbas",
+   "name": "Svetozar Marković-Toza",
+   "official_name": null,
+   "type_slug": "skola-za-odrasle",
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "website": null,
+   "settlement": "Vrbas",
+   "have": {
+    "address": "Maršala Tita 73",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "gimnazija-zarko-zrenjanin-vrbas",
+   "name": "Gimnazija \"Žarko Zrenjanin\"",
+   "official_name": "GIMNAZIJA \"ŽARKO ZRENJANIN\"",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Vrbas",
+   "have": {
+    "address": "Palih Boraca 9",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "srednja-strucna-skola-4-juli-vrbas",
+   "name": "Srednja Stručna škola \"4. Juli\"",
+   "official_name": "SREDNJA STRUČNA ŠKOLA \"4. JULI\"",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Vrbas",
+   "have": {
+    "address": "Svetozara Markovića 53",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "centar-za-fizicku-kulturu-drago-jovovic-vrbas-vrbas",
+   "name": "Centar za Fizičku kulturu \"Drago Jovović\" Vrbas",
+   "official_name": "CENTAR ZA FIZIČKU KULTURU \"DRAGO JOVOVIĆ\" VRBAS",
+   "type_slug": "ustanova",
+   "type": "Javna ustanova",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "druga-mesna-zajednica-vrbas-vrbas",
+   "name": "Druga mesna zajednica Vrbas",
+   "official_name": "DRUGA MESNA ZAJEDNICA VRBAS",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-backo-dobro-polje-backo-dobro-polje",
+   "name": "Mesna zajednica Bačko Dobro Polje",
+   "official_name": "MESNA ZAJEDNICA BAČKO DOBRO POLJE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Bačko Dobro Polje",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-kucura-kucura",
+   "name": "Mesna zajednica Kucura",
+   "official_name": "MESNA ZAJEDNICA KUCURA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Kucura",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-ravno-selo-ravno-selo",
+   "name": "Mesna zajednica Ravno Selo",
+   "official_name": "MESNA ZAJEDNICA RAVNO SELO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Ravno Selo",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-savino-selo-savino-selo",
+   "name": "Mesna zajednica Savino Selo",
+   "official_name": "MESNA ZAJEDNICA SAVINO SELO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Savino Selo",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-zmajevo-zmajevo",
+   "name": "Mesna zajednica Zmajevo",
+   "official_name": "MESNA ZAJEDNICA ZMAJEVO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Zmajevo",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "prva-mesna-zajednica-vrbas",
+   "name": "Prva mesna zajednica",
+   "official_name": "PRVA MESNA ZAJEDNICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "treca-mesna-zajednica-vrbas-vrbas",
+   "name": "Treća mesna zajednica Vrbas",
+   "official_name": "TREĆA MESNA ZAJEDNICA VRBAS",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  }
+ ]
+}

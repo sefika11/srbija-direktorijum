@@ -1,0 +1,345 @@
+{
+ "municipality": "Žabalj",
+ "municipality_slug": "zabalj",
+ "municipality_site": null,
+ "chunk": "zabalj",
+ "of": 1,
+ "rows": [
+  {
+   "org_slug": "javno-komunalno-preduzece-cistoca-zabalj-zabalj",
+   "name": "Javno komunalno preduzeće čistoća Žabalj",
+   "official_name": "JAVNO KOMUNALNO PREDUZEĆE ČISTOĆA ŽABALJ",
+   "type_slug": "jkp-cistoca",
+   "type": "JKP Čistoća / Komunalac",
+   "website": "http://www.cistocazabalj.co.rs/",
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": "021 2100429; 021 2100431",
+    "email": "reklamacije@cistocazabalj.co.rs",
+    "hours": null
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "opstinska-narodna-biblioteka-veljko-petrovic-zabalj",
+   "name": "Opštinska narodna biblioteka \"Veljko Petrović\"",
+   "official_name": "OPŠTINSKA NARODNA BIBLIOTEKA \"VELJKO PETROVIĆ\"",
+   "type_slug": "narodna-biblioteka",
+   "type": "Narodna biblioteka",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstina-zabalj-predsednik-zabalj",
+   "name": "Opština Žabalj - Predsednik",
+   "official_name": "OPŠTINA ŽABALJ - PREDSEDNIK",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstinsko-vece-opstine-zabalj-zabalj",
+   "name": "Opštinsko veće opštine Žabalj",
+   "official_name": "OPŠTINSKO VEĆE OPŠTINE ŽABALJ",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "pravobranilastvo-opstine-zabalj-zabalj",
+   "name": "Pravobranilaštvo opštine Žabalj",
+   "official_name": "PRAVOBRANILAŠTVO OPŠTINE ŽABALJ",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skupstina-opstine-zabalj-zabalj",
+   "name": "Skupština opštine Žabalj",
+   "official_name": "SKUPŠTINA OPŠTINE ŽABALJ",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-milos-crnjanski-zabalj",
+   "name": "Osnovna škola \"Miloš Crnjanski\"",
+   "official_name": "OSNOVNA ŠKOLA \"MILOŠ CRNJANSKI\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Žabalj",
+   "have": {
+    "address": "Trg Svetog Save 4",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-djura-jaksic-curug",
+   "name": "Osnovna škola \"Đura Jakšić\"",
+   "official_name": "OSNOVNA ŠKOLA \"ĐURA JAKŠIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Čurug",
+   "have": {
+    "address": "Trg Slobode 4",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-zarko-zrenjanin-gospodjinci",
+   "name": "Osnovna škola \"Žarko Zrenjanin\"",
+   "official_name": "OSNOVNA ŠKOLA \"ŽARKO ZRENJANIN\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Gospođinci",
+   "have": {
+    "address": "Branka Radičevića 56",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-detinjstvo-zabalj",
+   "name": "Predškolska ustanova \"Detinjstvo\"",
+   "official_name": "PREDŠKOLSKA USTANOVA \"DETINJSTVO\"",
+   "type_slug": "predskolska-ustanova",
+   "type": "Predškolska ustanova (vrtić)",
+   "website": null,
+   "settlement": "Žabalj",
+   "have": {
+    "address": "Nikole Tesle 47",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "javna-ustanova-sportski-objekti-zabalj-zabalj",
+   "name": "Javna ustanova \"sportski Objekti\" Žabalj",
+   "official_name": "JAVNA USTANOVA \"SPORTSKI OBJEKTI\" ŽABALJ",
+   "type_slug": "sportski-centar",
+   "type": "Sportski centar",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "srednja-skola-22-oktobar-zabalj",
+   "name": "Srednja škola \"22. Oktobar\"",
+   "official_name": "SREDNJA ŠKOLA \"22. OKTOBAR\"",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Žabalj",
+   "have": {
+    "address": "Nikole Tesle 78",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "dom-za-dusevno-obolela-lica-curug-curug",
+   "name": "Dom za Duševno Obolela lica \"Čurug\"",
+   "official_name": "DOM ZA DUŠEVNO OBOLELA LICA \"ČURUG\"",
+   "type_slug": "ustanova",
+   "type": "Javna ustanova",
+   "website": null,
+   "settlement": "Čurug",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "kancelarija-za-inkluziju-roma-opstine-zabalj-zabalj",
+   "name": "Kancelarija za Inkluziju Roma opštine Žabalj",
+   "official_name": "KANCELARIJA ZA INKLUZIJU ROMA OPŠTINE ŽABALJ",
+   "type_slug": "ustanova",
+   "type": "Javna ustanova",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-21-maj-gospodjinci-gospodjinci",
+   "name": "Mesna zajednica \"21. Maj\" Gospođinci",
+   "official_name": "MESNA ZAJEDNICA \"21. MAJ\" GOSPOĐINCI",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Gospođinci",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-curug-curug",
+   "name": "Mesna zajednica Čurug",
+   "official_name": "MESNA ZAJEDNICA ČURUG",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Čurug",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-djurdjevo-djurdjevo",
+   "name": "Mesna zajednica Đurđevo",
+   "official_name": "MESNA ZAJEDNICA ĐURĐEVO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-zabalj-zabalj",
+   "name": "Mesna zajednica Žabalj",
+   "official_name": "MESNA ZAJEDNICA ŽABALJ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  }
+ ]
+}

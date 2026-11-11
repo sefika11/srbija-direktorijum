@@ -1,0 +1,499 @@
+{
+ "municipality": "Plandište",
+ "municipality_slug": "plandiste",
+ "municipality_site": null,
+ "chunk": "plandiste",
+ "of": 1,
+ "rows": [
+  {
+   "org_slug": "centar-za-socijalni-rad-plandiste-plandiste",
+   "name": "Centar za socijalni rad Plandište",
+   "official_name": "CENTAR ZA SOCIJALNI RAD PLANDIŠTE",
+   "type_slug": "centar-za-socijalni-rad",
+   "type": "Centar za socijalni rad",
+   "website": "https://csrplandiste.org.rs/",
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "javno-preduzece-polet-plandiste-plandiste",
+   "name": "Javno preduzeće Polet Plandište",
+   "official_name": "JAVNO PREDUZEĆE POLET PLANDIŠTE",
+   "type_slug": "javno-preduzece",
+   "type": "Javno preduzeće / društvo",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "kulturno-obrazovni-centar-vuk-karadzic-plandiste",
+   "name": "Kulturno Obrazovni centar \"Vuk Karadžić\"",
+   "official_name": "KULTURNO OBRAZOVNI CENTAR \"VUK KARADŽIĆ\"",
+   "type_slug": "kulturni-centar",
+   "type": "Kulturni centar / Dom kulture",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "narodna-biblioteka-plandiste-plandiste",
+   "name": "Narodna biblioteka Plandište",
+   "official_name": "NARODNA BIBLIOTEKA PLANDIŠTE",
+   "type_slug": "narodna-biblioteka",
+   "type": "Narodna biblioteka",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstina-plandiste-skupstina-opstine-plandiste",
+   "name": "Opština Plandište - skupština opštine",
+   "official_name": "OPŠTINA PLANDIŠTE - SKUPŠTINA OPŠTINE",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstina-plandiste-opstinsko-vece-plandiste",
+   "name": "Opština Plandište-Opštinsko veće",
+   "official_name": "OPŠTINA PLANDIŠTE-OPŠTINSKO VEĆE",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstina-plandiste-predsednik-opstine-plandiste",
+   "name": "Opština Plandište-Predsednik opštine",
+   "official_name": "OPŠTINA PLANDIŠTE-PREDSEDNIK OPŠTINE",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-dositej-obradovic-plandiste",
+   "name": "Osnovna škola \"Dositej Obradović\"",
+   "official_name": "OSNOVNA ŠKOLA \"DOSITEJ OBRADOVIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Plandište",
+   "have": {
+    "address": "Vojvode Putnika 60",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-jovan-jovanovic-zmaj-hajducica-plandiste",
+   "name": "Osnovna škola \"Jovan Jovanović-Zmaj\" Hajdučica",
+   "official_name": "OSNOVNA ŠKOLA \"JOVAN JOVANOVIĆ-ZMAJ\" HAJDUČICA",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Hajdučica",
+   "have": {
+    "address": "Valentova 3",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-jovan-sterija-popovic-velika-greda-plandiste",
+   "name": "Osnovna škola \"Jovan Sterija Popović\" Velika Greda",
+   "official_name": "OSNOVNA ŠKOLA \"JOVAN STERIJA POPOVIĆ\" VELIKA GREDA",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Velika Greda",
+   "have": {
+    "address": "Maršala Tita 116",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-srecno-detinjstvo-plandiste",
+   "name": "Predškolska ustanova \"Srećno Detinjstvo\"",
+   "official_name": "PREDŠKOLSKA USTANOVA \"SREĆNO DETINJSTVO\"",
+   "type_slug": "predskolska-ustanova",
+   "type": "Predškolska ustanova (vrtić)",
+   "website": null,
+   "settlement": "Plandište",
+   "have": {
+    "address": "Karađorđeva Bez Broja",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "dom-za-dusevno-obolela-lica-1-oktobar-stari-lec",
+   "name": "Dom za Duševno Obolela lica \"1. Oktobar\"",
+   "official_name": "DOM ZA DUŠEVNO OBOLELA LICA \"1. OKTOBAR\"",
+   "type_slug": "ustanova",
+   "type": "Javna ustanova",
+   "website": null,
+   "settlement": "Stari Lec",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-banatski-sokolac-plandiste",
+   "name": "Mesna zajednica Banatski Sokolac",
+   "official_name": "MESNA ZAJEDNICA BANATSKI SOKOLAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-barice-plandiste",
+   "name": "Mesna zajednica Barice",
+   "official_name": "MESNA ZAJEDNICA BARICE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-duzine-plandiste",
+   "name": "Mesna zajednica Dužine",
+   "official_name": "MESNA ZAJEDNICA DUŽINE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-hajducica-plandiste",
+   "name": "Mesna zajednica Hajdučica",
+   "official_name": "MESNA ZAJEDNICA HAJDUČICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-jarmenovci-jermenovci",
+   "name": "Mesna zajednica Jarmenovci",
+   "official_name": "MESNA ZAJEDNICA JARMENOVCI",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Jermenovci",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-jermenovci-plandiste",
+   "name": "Mesna zajednica Jermenovci",
+   "official_name": "MESNA ZAJEDNICA JERMENOVCI",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-kupinik-plandiste",
+   "name": "Mesna zajednica Kupinik",
+   "official_name": "MESNA ZAJEDNICA KUPINIK",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-margita-plandiste",
+   "name": "Mesna zajednica Margita",
+   "official_name": "MESNA ZAJEDNICA MARGITA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-markovicevo-plandiste",
+   "name": "Mesna zajednica Markovićevo",
+   "official_name": "MESNA ZAJEDNICA MARKOVIĆEVO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-mileticevo-plandiste",
+   "name": "Mesna zajednica Miletićevo",
+   "official_name": "MESNA ZAJEDNICA MILETIĆEVO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-plandiste-plandiste",
+   "name": "Mesna zajednica Plandište",
+   "official_name": "MESNA ZAJEDNICA PLANDIŠTE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-stari-lec-plandiste",
+   "name": "Mesna zajednica Stari Lec",
+   "official_name": "MESNA ZAJEDNICA STARI LEC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-velika-greda-plandiste",
+   "name": "Mesna zajednica Velika Greda",
+   "official_name": "MESNA ZAJEDNICA VELIKA GREDA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-veliki-gaj-plandiste",
+   "name": "Mesna zajednica Veliki Gaj",
+   "official_name": "MESNA ZAJEDNICA VELIKI GAJ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  }
+ ]
+}

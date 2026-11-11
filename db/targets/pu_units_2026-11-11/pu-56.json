@@ -1,0 +1,89 @@
+{
+ "chunk": "pu-56",
+ "institutions": [
+  {
+   "org_slug": "privatni-vrtic-predskolska-ustanova-baby-palace-andjela-beograd",
+   "name": "Predškolska ustanova „Baby Palace Andjela“",
+   "type": "privatni-vrtic",
+   "website": null,
+   "municipality": "Beograd",
+   "seat_address": "Bregalnička 9",
+   "seat_phone": null,
+   "units": [
+    {
+     "location_id": 46349,
+     "name": "PU Baby Palace Anđela - objekat BELA KULA",
+     "municipality": "Zvezdara"
+    },
+    {
+     "location_id": 46345,
+     "name": "PU Baby Palace Anđela - objekat VILA LUKS",
+     "municipality": "Zvezdara"
+    }
+   ]
+  },
+  {
+   "org_slug": "privatni-vrtic-predskolska-ustanova-kuca-maste-beograd",
+   "name": "Predškolska ustanova „Kuća mašte“",
+   "type": "privatni-vrtic",
+   "website": null,
+   "municipality": "Beograd",
+   "seat_address": "Generala Mihajla Nedeljkovića 153b",
+   "seat_phone": null,
+   "units": [
+    {
+     "location_id": 46291,
+     "name": "Predškolska ustanova Kuća mašte 2",
+     "municipality": "Novi Beograd"
+    },
+    {
+     "location_id": 46296,
+     "name": "Predškolska ustanova Kuća mašte 3",
+     "municipality": "Novi Beograd"
+    }
+   ]
+  },
+  {
+   "org_slug": "privatni-vrtic-predskolska-ustanova-vrtic-kamicak-i-drugari-beograd",
+   "name": "Predškolska ustanova „Vrtić Kamičak i drugari“",
+   "type": "privatni-vrtic",
+   "website": null,
+   "municipality": "Beograd",
+   "seat_address": "Nehruova 76",
+   "seat_phone": null,
+   "units": [
+    {
+     "location_id": 45874,
+     "name": "Jagodica Bobica",
+     "municipality": "Novi Beograd"
+    },
+    {
+     "location_id": 46159,
+     "name": "Kockalone",
+     "municipality": "Novi Beograd"
+    }
+   ]
+  },
+  {
+   "org_slug": "privatni-vrtic-predskolska-ustanova-mimiland-cacak",
+   "name": "Predškolska ustanova „Mimiland“",
+   "type": "privatni-vrtic",
+   "website": null,
+   "municipality": "Čačak",
+   "seat_address": "Kulinovačko Polje - Potes 4",
+   "seat_phone": null,
+   "units": [
+    {
+     "location_id": 46641,
+     "name": "OJ Bobilend",
+     "municipality": "Čačak"
+    },
+    {
+     "location_id": 46532,
+     "name": "OJ Happyland",
+     "municipality": "Čačak"
+    }
+   ]
+  }
+ ]
+}

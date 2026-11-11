@@ -1,0 +1,823 @@
+{
+ "municipality": "Vladimirci",
+ "municipality_slug": "vladimirci",
+ "municipality_site": null,
+ "chunk": "vladimirci",
+ "of": 1,
+ "rows": [
+  {
+   "org_slug": "centar-za-socijalni-rad-opstine-vladimirci-vladimirci",
+   "name": "Centar za socijalni rad opštine Vladimirci",
+   "official_name": "CENTAR ZA SOCIJALNI RAD OPŠTINE VLADIMIRCI",
+   "type_slug": "centar-za-socijalni-rad",
+   "type": "Centar za socijalni rad",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "veterinarska-stanica-vladimirci-doo-vladimirci-vladimirci",
+   "name": "Veterinarska stanica Vladimirci DOO, Vladimirci",
+   "official_name": "VETERINARSKA STANICA VLADIMIRCI DOO, VLADIMIRCI",
+   "type_slug": "javno-preduzece",
+   "type": "Javno preduzeće / društvo",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "biblioteka-disa-atic-vladimirci",
+   "name": "Biblioteka \"Diša Atić\"",
+   "official_name": "BIBLIOTEKA \"DIŠA ATIĆ\"",
+   "type_slug": "narodna-biblioteka",
+   "type": "Narodna biblioteka",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstina-vladimirci-opstinsko-pravobranilastvo-vladimirci",
+   "name": "Opština Vladimirci -Opštinsko Pravobranilaštvo",
+   "official_name": "OPŠTINA VLADIMIRCI -OPŠTINSKO PRAVOBRANILAŠTVO",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstinsko-vece-opstine-vladimirci-vladimirci",
+   "name": "Opštinsko veće opštine Vladimirci",
+   "official_name": "OPŠTINSKO VEĆE OPŠTINE VLADIMIRCI",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "predsednik-opstine-vladimirci-vladimirci",
+   "name": "Predsednik opštine Vladimirci",
+   "official_name": "PREDSEDNIK OPŠTINE VLADIMIRCI",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skupstina-opstine-vladimirci-vladimirci",
+   "name": "Skupština opštine Vladimirci",
+   "official_name": "SKUPŠTINA OPŠTINE VLADIMIRCI",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-jovan-cvijic-debrc",
+   "name": "Osnovna škola \"Jovan Cvijić\"",
+   "official_name": "OSNOVNA ŠKOLA \"JOVAN CVIJIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Debrc",
+   "have": {
+    "address": "Beogradski Put bb",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-zika-popovic-vladimirci",
+   "name": "Osnovna škola \"Žika Popović\"",
+   "official_name": "OSNOVNA ŠKOLA \"ŽIKA POPOVIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Vladimirci",
+   "have": {
+    "address": "Svetog Save 00",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "posavotamnavska-srednja-skola-sa-domom-ucenika-vladimirci",
+   "name": "Posavotamnavska srednja škola sa Domom učenika",
+   "official_name": "POSAVOTAMNAVSKA SREDNJA ŠKOLA SA DOMOM UČENIKA",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Vladimirci",
+   "have": {
+    "address": "Svetog Save bb",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "ustanova-za-predskolsko-obrazovanje-suncokreti-vladimirci",
+   "name": "Ustanova za Predškolsko obrazovanje \"Suncokreti\"",
+   "official_name": "USTANOVA ZA PREDŠKOLSKO OBRAZOVANJE \"SUNCOKRETI\"",
+   "type_slug": "ustanova",
+   "type": "Javna ustanova",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-gomilica-jalovik-vladimirci",
+   "name": "Mesna zajednica \"Gomilica\" Jalovik",
+   "official_name": "MESNA ZAJEDNICA \"GOMILICA\" JALOVIK",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-lipovica-jazovnik-vladimirci",
+   "name": "Mesna zajednica \"Lipovica\" Jazovnik",
+   "official_name": "MESNA ZAJEDNICA \"LIPOVICA\" JAZOVNIK",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-vlasanica-vladimirci",
+   "name": "Mesna zajednica \"Vlasanica\"",
+   "official_name": "MESNA ZAJEDNICA \"VLASANICA\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-beljin-vladimirci",
+   "name": "Mesna zajednica Beljin",
+   "official_name": "MESNA ZAJEDNICA BELJIN",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-belotic-vladimirci",
+   "name": "Mesna zajednica Belotić",
+   "official_name": "MESNA ZAJEDNICA BELOTIĆ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-bobovik-vladimirci",
+   "name": "Mesna zajednica Bobovik",
+   "official_name": "MESNA ZAJEDNICA BOBOVIK",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-debrc-vladimirci",
+   "name": "Mesna zajednica Debrc",
+   "official_name": "MESNA ZAJEDNICA DEBRC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-dragojevac-vladimirci",
+   "name": "Mesna zajednica Dragojevac",
+   "official_name": "MESNA ZAJEDNICA DRAGOJEVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-jalovik-vladimirci",
+   "name": "Mesna zajednica Jalovik",
+   "official_name": "MESNA ZAJEDNICA JALOVIK",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-jazovnik-vladimirci",
+   "name": "Mesna zajednica Jazovnik",
+   "official_name": "MESNA ZAJEDNICA JAZOVNIK",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-kaona-vladimirci",
+   "name": "Mesna zajednica Kaona",
+   "official_name": "MESNA ZAJEDNICA KAONA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-kozarica-vladimirci",
+   "name": "Mesna zajednica Kozarica",
+   "official_name": "MESNA ZAJEDNICA KOZARICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-krnic-vladimirci",
+   "name": "Mesna zajednica Krnić",
+   "official_name": "MESNA ZAJEDNICA KRNIĆ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-krnule-vladimirci",
+   "name": "Mesna zajednica Krnule",
+   "official_name": "MESNA ZAJEDNICA KRNULE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-kujavica-vladimirci",
+   "name": "Mesna zajednica Kujavica",
+   "official_name": "MESNA ZAJEDNICA KUJAVICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-lojanice-vladimirci",
+   "name": "Mesna zajednica Lojanice",
+   "official_name": "MESNA ZAJEDNICA LOJANICE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-matijevac-vladimirci",
+   "name": "Mesna zajednica Matijevac",
+   "official_name": "MESNA ZAJEDNICA MATIJEVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-mehovine-vladimirci",
+   "name": "Mesna zajednica Mehovine",
+   "official_name": "MESNA ZAJEDNICA MEHOVINE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-mesarci-vladimirci",
+   "name": "Mesna zajednica Mesarci",
+   "official_name": "MESNA ZAJEDNICA MESARCI",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-mrovska-vladimirci",
+   "name": "Mesna zajednica Mrovska",
+   "official_name": "MESNA ZAJEDNICA MROVSKA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-novo-selo-vladimirci",
+   "name": "Mesna zajednica Novo Selo",
+   "official_name": "MESNA ZAJEDNICA NOVO SELO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-pejinovic-vladimirci",
+   "name": "Mesna zajednica Pejinović",
+   "official_name": "MESNA ZAJEDNICA PEJINOVIĆ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-provo-vladimirci",
+   "name": "Mesna zajednica Provo",
+   "official_name": "MESNA ZAJEDNICA PROVO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-ridjake-vladimirci",
+   "name": "Mesna zajednica Riđake",
+   "official_name": "MESNA ZAJEDNICA RIĐAKE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-skupljen-vladimirci",
+   "name": "Mesna zajednica Skupljen",
+   "official_name": "MESNA ZAJEDNICA SKUPLJEN",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-suvo-selo-vladimirci",
+   "name": "Mesna zajednica Suvo Selo",
+   "official_name": "MESNA ZAJEDNICA SUVO SELO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-trbusac-vladimirci",
+   "name": "Mesna zajednica Trbušac",
+   "official_name": "MESNA ZAJEDNICA TRBUŠAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-varosica-vladimirci",
+   "name": "Mesna zajednica Varošica",
+   "official_name": "MESNA ZAJEDNICA VAROŠICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-vladimirci-selo-vladimirci",
+   "name": "Mesna zajednica Vladimirci - Selo",
+   "official_name": "MESNA ZAJEDNICA VLADIMIRCI - SELO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-vukosic-vladimirci",
+   "name": "Mesna zajednica Vukošić",
+   "official_name": "MESNA ZAJEDNICA VUKOŠIĆ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-vucevica-vladimirci",
+   "name": "Mesna zajednica Vučevica",
+   "official_name": "MESNA ZAJEDNICA VUČEVICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-zvezd-vladimirci",
+   "name": "Mesna zajednica Zvezd",
+   "official_name": "MESNA ZAJEDNICA ZVEZD",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  }
+ ]
+}

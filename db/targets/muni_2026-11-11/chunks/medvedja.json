@@ -1,0 +1,933 @@
+{
+ "municipality": "Medveđa",
+ "municipality_slug": "medvedja",
+ "municipality_site": null,
+ "chunk": "medvedja",
+ "of": 1,
+ "rows": [
+  {
+   "org_slug": "javno-komunalno-preduzece-obnova-medvedja-medvedja",
+   "name": "Javno komunalno preduzeće Obnova Medveđa",
+   "official_name": "JAVNO KOMUNALNO PREDUZEĆE OBNOVA MEDVEĐA",
+   "type_slug": "jkp-cistoca",
+   "type": "JKP Čistoća / Komunalac",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "kulturni-centar-opstine-medvedja-medvedja",
+   "name": "Kulturni centar opštine Medveđa",
+   "official_name": "KULTURNI CENTAR OPŠTINE MEDVEĐA",
+   "type_slug": "kulturni-centar",
+   "type": "Kulturni centar / Dom kulture",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "biblioteka-petar-petrovic-njegos-medvedja",
+   "name": "Biblioteka \"Petar Petrović-Njegoš\"",
+   "official_name": "BIBLIOTEKA \"PETAR PETROVIĆ-NJEGOŠ\"",
+   "type_slug": "narodna-biblioteka",
+   "type": "Narodna biblioteka",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstina-medvedja-opstinsko-pravobranilastvo-medvedja-medvedja",
+   "name": "Opština Medveđa - Opštinsko Pravobranilaštvo Medveđa",
+   "official_name": "OPŠTINA MEDVEĐA - OPŠTINSKO PRAVOBRANILAŠTVO MEDVEĐA",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstina-medvedja-opstinsko-vece-medvedja-medvedja",
+   "name": "Opština Medveđa - Opštinsko veće Medveđa",
+   "official_name": "OPŠTINA MEDVEĐA - OPŠTINSKO VEĆE MEDVEĐA",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstina-medvedja-predsednik-opstine-medvedja-medvedja",
+   "name": "Opština Medveđa - Predsednik opštine Medveđa",
+   "official_name": "OPŠTINA MEDVEĐA - PREDSEDNIK OPŠTINE MEDVEĐA",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstina-medvedja-skupstina-opstine-medvedja-medvedja",
+   "name": "Opština Medveđa - skupština opštine Medveđa",
+   "official_name": "OPŠTINA MEDVEĐA - SKUPŠTINA OPŠTINE MEDVEĐA",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-gornja-jablanica-medvedja",
+   "name": "Osnovna škola \"Gornja Jablanica\"",
+   "official_name": "OSNOVNA ŠKOLA \"GORNJA JABLANICA\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Medveđa",
+   "have": {
+    "address": "Kralja Milana 79a",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-partizanski-dom-bucumet-medvedja",
+   "name": "Osnovna škola \"Partizanski dom\" Bučumet",
+   "official_name": "OSNOVNA ŠKOLA \"PARTIZANSKI DOM\" BUČUMET",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Donji Bučumet",
+   "have": {
+    "address": "Vučadelci 116",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-radovan-kovacevic-lece-medvedja",
+   "name": "Osnovna škola \"Radovan Kovačević\" Lece",
+   "official_name": "OSNOVNA ŠKOLA \"RADOVAN KOVAČEVIĆ\" LECE",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Lece",
+   "have": {
+    "address": "Gajtanski Put 213",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-sijarinska-banja-medvedja",
+   "name": "Osnovna škola \"Sijarinska Banja\"",
+   "official_name": "OSNOVNA ŠKOLA \"SIJARINSKA BANJA\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Sijarinska Banja",
+   "have": {
+    "address": "Nikole Tesle 5",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-vladimir-bukilic-tulare-medvedja",
+   "name": "Osnovna škola \"Vladimir Bukilić\" Tulare",
+   "official_name": "OSNOVNA ŠKOLA \"VLADIMIR BUKILIĆ\" TULARE",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Tulare",
+   "have": {
+    "address": "Vladimira Bukilića 9",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-zenelj-hajdini-tupale-medvedja",
+   "name": "Osnovna škola \"Zenelj Hajdini\" Tupale",
+   "official_name": "OSNOVNA ŠKOLA \"ZENELJ HAJDINI\" TUPALE",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-mladost-medvedja",
+   "name": "Predškolska ustanova \"Mladost\"",
+   "official_name": "PREDŠKOLSKA USTANOVA \"MLADOST\"",
+   "type_slug": "predskolska-ustanova",
+   "type": "Predškolska ustanova (vrtić)",
+   "website": null,
+   "settlement": "Medveđa",
+   "have": {
+    "address": "Vojvode Mišića 16",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "srednja-tehnicka-skola-nikola-tesla-medvedja",
+   "name": "Srednja tehnička škola \"Nikola Tesla\"",
+   "official_name": "SREDNJA TEHNIČKA ŠKOLA \"NIKOLA TESLA\"",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Medveđa",
+   "have": {
+    "address": "Njegoševa 17",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-bogunovac-medvedja",
+   "name": "Mesna zajednica Bogunovac",
+   "official_name": "MESNA ZAJEDNICA BOGUNOVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-borovac-medvedja",
+   "name": "Mesna zajednica Borovac",
+   "official_name": "MESNA ZAJEDNICA BOROVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-bucumet-medvedja",
+   "name": "Mesna zajednica Bučumet",
+   "official_name": "MESNA ZAJEDNICA BUČUMET",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-crni-vrh-medvedja",
+   "name": "Mesna zajednica Crni Vrh",
+   "official_name": "MESNA ZAJEDNICA CRNI VRH",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-drence-medvedja",
+   "name": "Mesna zajednica Drence",
+   "official_name": "MESNA ZAJEDNICA DRENCE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-gajtan-medvedja",
+   "name": "Mesna zajednica Gajtan",
+   "official_name": "MESNA ZAJEDNICA GAJTAN",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-gazdare-medvedja",
+   "name": "Mesna zajednica Gazdare",
+   "official_name": "MESNA ZAJEDNICA GAZDARE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-grbavce-medvedja",
+   "name": "Mesna zajednica Grbavce",
+   "official_name": "MESNA ZAJEDNICA GRBAVCE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-gubavce-medvedja",
+   "name": "Mesna zajednica Gubavce",
+   "official_name": "MESNA ZAJEDNICA GUBAVCE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-kapit-medvedja",
+   "name": "Mesna zajednica Kapit",
+   "official_name": "MESNA ZAJEDNICA KAPIT",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-lece-medvedja",
+   "name": "Mesna zajednica Lece",
+   "official_name": "MESNA ZAJEDNICA LECE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-marovac-medvedja",
+   "name": "Mesna zajednica Marovac",
+   "official_name": "MESNA ZAJEDNICA MAROVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-macedonce-medvedja",
+   "name": "Mesna zajednica Maćedonce",
+   "official_name": "MESNA ZAJEDNICA MAĆEDONCE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-medevce-medvedja",
+   "name": "Mesna zajednica Medevce",
+   "official_name": "MESNA ZAJEDNICA MEDEVCE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-medvedja-medvedja",
+   "name": "Mesna zajednica Medveđa",
+   "official_name": "MESNA ZAJEDNICA MEDVEĐA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-mrkonje-medvedja",
+   "name": "Mesna zajednica Mrkonje",
+   "official_name": "MESNA ZAJEDNICA MRKONJE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-negosavlje-medvedja",
+   "name": "Mesna zajednica Negosavlje",
+   "official_name": "MESNA ZAJEDNICA NEGOSAVLJE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-petrilje-medvedja",
+   "name": "Mesna zajednica Petrilje",
+   "official_name": "MESNA ZAJEDNICA PETRILJE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-pusto-silovo-medvedja",
+   "name": "Mesna zajednica Pusto Šilovo",
+   "official_name": "MESNA ZAJEDNICA PUSTO ŠILOVO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-ravna-banja-medvedja",
+   "name": "Mesna zajednica Ravna Banja",
+   "official_name": "MESNA ZAJEDNICA RAVNA BANJA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-retkocer-medvedja",
+   "name": "Mesna zajednica Retkocer",
+   "official_name": "MESNA ZAJEDNICA RETKOCER",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-rujkovac-medvedja",
+   "name": "Mesna zajednica Rujkovac",
+   "official_name": "MESNA ZAJEDNICA RUJKOVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-sijarina-medvedja",
+   "name": "Mesna zajednica Sijarina",
+   "official_name": "MESNA ZAJEDNICA SIJARINA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-sijarinska-banja-medvedja",
+   "name": "Mesna zajednica Sijarinska Banja",
+   "official_name": "MESNA ZAJEDNICA SIJARINSKA BANJA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-sponce-medvedja",
+   "name": "Mesna zajednica Sponce",
+   "official_name": "MESNA ZAJEDNICA SPONCE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-stara-banja-medvedja",
+   "name": "Mesna zajednica Stara Banja",
+   "official_name": "MESNA ZAJEDNICA STARA BANJA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-stubla-medvedja",
+   "name": "Mesna zajednica Stubla",
+   "official_name": "MESNA ZAJEDNICA STUBLA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-svirce-medvedja",
+   "name": "Mesna zajednica Svirce",
+   "official_name": "MESNA ZAJEDNICA SVIRCE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-tulare-medvedja",
+   "name": "Mesna zajednica Tulare",
+   "official_name": "MESNA ZAJEDNICA TULARE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-tupale-medvedja",
+   "name": "Mesna zajednica Tupale",
+   "official_name": "MESNA ZAJEDNICA TUPALE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-velika-braina-medvedja",
+   "name": "Mesna zajednica Velika Braina",
+   "official_name": "MESNA ZAJEDNICA VELIKA BRAINA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-vrapce-medvedja",
+   "name": "Mesna zajednica Vrapce",
+   "official_name": "MESNA ZAJEDNICA VRAPCE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-cokotin-medvedja",
+   "name": "Mesna zajednica Čokotin",
+   "official_name": "MESNA ZAJEDNICA ČOKOTIN",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-djulekare-medvedja",
+   "name": "Mesna zajednica Đulekare",
+   "official_name": "MESNA ZAJEDNICA ĐULEKARE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  }
+ ]
+}

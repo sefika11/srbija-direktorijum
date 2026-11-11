@@ -1,0 +1,89 @@
+{
+ "chunk": "pu-55",
+ "institutions": [
+  {
+   "org_slug": "predskolska-ustanova-lane-kucevo",
+   "name": "Predškolska ustanova \"Lane\"",
+   "type": "predskolska-ustanova",
+   "website": null,
+   "municipality": "Kučevo",
+   "seat_address": "Braće Ivkovića 2",
+   "seat_phone": null,
+   "units": [
+    {
+     "location_id": 45469,
+     "name": "\"Cvrčak\"",
+     "municipality": "Kučevo"
+    },
+    {
+     "location_id": 45468,
+     "name": "\"Maslačak\"",
+     "municipality": "Kučevo"
+    }
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-poletarac-zagubica",
+   "name": "Predškolska ustanova \"Poletarac\"",
+   "type": "predskolska-ustanova",
+   "website": null,
+   "municipality": "Žagubica",
+   "seat_address": "Kamenička 4",
+   "seat_phone": null,
+   "units": [
+    {
+     "location_id": 45694,
+     "name": "PU Poletarac - Bliznak",
+     "municipality": "Žagubica"
+    },
+    {
+     "location_id": 47332,
+     "name": "PU Poletarac - Krepoljin",
+     "municipality": "Žagubica"
+    }
+   ]
+  },
+  {
+   "org_slug": "privatni-vrtic-predskolska-ustanova-deciji-svet-beograd",
+   "name": "Predškolska ustanova „Dečiji svet“",
+   "type": "privatni-vrtic",
+   "website": null,
+   "municipality": "Beograd",
+   "seat_address": "Braće Jerković 112b",
+   "seat_phone": null,
+   "units": [
+    {
+     "location_id": 46166,
+     "name": "Sunašce",
+     "municipality": "Voždovac"
+    },
+    {
+     "location_id": 46164,
+     "name": "Zvezdice",
+     "municipality": "Voždovac"
+    }
+   ]
+  },
+  {
+   "org_slug": "privatni-vrtic-predskolska-ustanova-sinderela-bolec",
+   "name": "Predškolska ustanova „Sinderela“",
+   "type": "privatni-vrtic",
+   "website": null,
+   "municipality": "Beograd",
+   "seat_address": "Dvadesetdevetog Novembra 40",
+   "seat_phone": null,
+   "units": [
+    {
+     "location_id": 46067,
+     "name": "Sinderela Kaluđerica",
+     "municipality": "Grocka"
+    },
+    {
+     "location_id": 47105,
+     "name": "Sinderela Leštane",
+     "municipality": "Grocka"
+    }
+   ]
+  }
+ ]
+}

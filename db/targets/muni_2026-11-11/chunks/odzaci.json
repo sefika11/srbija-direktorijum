@@ -1,0 +1,565 @@
+{
+ "municipality": "Odžaci",
+ "municipality_slug": "odzaci",
+ "municipality_site": null,
+ "chunk": "odzaci",
+ "of": 1,
+ "rows": [
+  {
+   "org_slug": "javno-komunalno-preduzece-brestkom-backi-brestovac-backi-brestovac",
+   "name": "Javno Komunalno Preduzeće Brestkom Bački Brestovac",
+   "official_name": "Javno komunalno preduzeće Brestkom Bački Brestovac",
+   "type_slug": "jkp-cistoca",
+   "type": "JKP Čistoća / Komunalac",
+   "website": null,
+   "settlement": "Bački Brestovac",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-usluga-odzaci-odzaci",
+   "name": "Javno komunalno preduzeće Usluga Odžaci",
+   "official_name": "JAVNO KOMUNALNO PREDUZEĆE USLUGA ODŽACI",
+   "type_slug": "jkp-cistoca",
+   "type": "JKP Čistoća / Komunalac",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "narodna-biblioteka-branko-radicevic-odzaci",
+   "name": "Narodna biblioteka \"Branko Radičević\"",
+   "official_name": "NARODNA BIBLIOTEKA \"BRANKO RADIČEVIĆ\"",
+   "type_slug": "narodna-biblioteka",
+   "type": "Narodna biblioteka",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstinsko-vece-opstine-odzaci-odzaci",
+   "name": "Opštinsko veće opštine Odžaci",
+   "official_name": "OPŠTINSKO VEĆE OPŠTINE ODŽACI",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "predsednik-opstine-odzaci-odzaci",
+   "name": "Predsednik opštine Odžaci",
+   "official_name": "PREDSEDNIK OPŠTINE ODŽACI",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skupstina-opstine-odzaci-odzaci",
+   "name": "Skupština opštine Odžaci",
+   "official_name": "SKUPŠTINA OPŠTINE ODŽACI",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-bora-stankovic-karavukovo-karavukovo",
+   "name": "Osnovna škola \"Bora Stanković\" Karavukovo",
+   "official_name": "OSNOVNA ŠKOLA \"BORA STANKOVIĆ\" KARAVUKOVO",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Karavukovo",
+   "have": {
+    "address": "Žarka Zrenjanina 90",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-branko-radicevic-odzaci",
+   "name": "Osnovna škola \"Branko Radičević\"",
+   "official_name": "OSNOVNA ŠKOLA \"BRANKO RADIČEVIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Odžaci",
+   "have": {
+    "address": "Vase Pelagića 60",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-jozef-atila-bogojevo-bogojevo",
+   "name": "Osnovna škola \"Jožef Atila\" Bogojevo",
+   "official_name": "OSNOVNA ŠKOLA \"JOŽEF ATILA\" BOGOJEVO",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Bogojevo",
+   "have": {
+    "address": "Maršala Tita 11",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-kosta-stamenkovic-srpski-miletic-srpski-miletic",
+   "name": "Osnovna škola \"Kosta Stamenković\" Srpski Miletić",
+   "official_name": "OSNOVNA ŠKOLA \"KOSTA STAMENKOVIĆ\" SRPSKI MILETIĆ",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Srpski Miletić",
+   "have": {
+    "address": "Svetog Save 25",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-marko-oreskovic-backi-gracac-backi-gracac",
+   "name": "Osnovna škola \"Marko Orešković\" Bački Gračac",
+   "official_name": "OSNOVNA ŠKOLA \"MARKO OREŠKOVIĆ\" BAČKI GRAČAC",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Bački Gračac",
+   "have": {
+    "address": "Lička 16",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-miroslav-antic-odzaci",
+   "name": "Osnovna škola \"Miroslav Antić\"",
+   "official_name": "OSNOVNA ŠKOLA \"MIROSLAV ANTIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Odžaci",
+   "have": {
+    "address": "Školska 23",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-nestor-zucni-lalic",
+   "name": "Osnovna škola \"Nestor Žučni\"",
+   "official_name": "OSNOVNA ŠKOLA \"NESTOR ŽUČNI\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Lalić",
+   "have": {
+    "address": "Jugoslovenska 49",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-nikola-tesla-backi-brestovac-backi-brestovac",
+   "name": "Osnovna škola \"Nikola Tesla\" Bački Brestovac",
+   "official_name": "OSNOVNA ŠKOLA \"NIKOLA TESLA\" BAČKI BRESTOVAC",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Bački Brestovac",
+   "have": {
+    "address": "Maršala Tita 81",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-ratko-pavlovic-cicko-ratkovo",
+   "name": "Osnovna škola \"Ratko Pavlović Ćićko\"",
+   "official_name": "OSNOVNA ŠKOLA \"RATKO PAVLOVIĆ ĆIĆKO\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Ratkovo",
+   "have": {
+    "address": "Ratka Pavlovića 2a",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-vuk-karadzic-deronje-deronje",
+   "name": "Osnovna škola \"Vuk Karadžić\" Deronje",
+   "official_name": "OSNOVNA ŠKOLA \"VUK KARADŽIĆ\" DERONJE",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Deronje",
+   "have": {
+    "address": "Svetozara Miletića 25a",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-poletarac-odzaci",
+   "name": "Predškolska ustanova \"Poletarac\"",
+   "official_name": "PREDŠKOLSKA USTANOVA \"POLETARAC\"",
+   "type_slug": "predskolska-ustanova",
+   "type": "Predškolska ustanova (vrtić)",
+   "website": null,
+   "settlement": "Odžaci",
+   "have": {
+    "address": "Žarka Zrenjanina 18a",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "javna-ustanova-sportski-centar-odzaci-odzaci",
+   "name": "Javna ustanova \"sportski centar Odžaci\"",
+   "official_name": "JAVNA USTANOVA \"SPORTSKI CENTAR ODŽACI\"",
+   "type_slug": "sportski-centar",
+   "type": "Sportski centar",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "gimnazija-i-ekonomska-skola-jovan-jovanovic-zmaj-odzaci-odzaci",
+   "name": "Gimnazija i ekonomska škola \"Jovan Jovanović-Zmaj\" Odžaci",
+   "official_name": "GIMNAZIJA I EKONOMSKA ŠKOLA \"JOVAN JOVANOVIĆ-ZMAJ\" ODŽACI",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Odžaci",
+   "have": {
+    "address": "Somborska 18",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "tehnicka-skola-odzaci-odzaci",
+   "name": "Tehnička škola Odžaci",
+   "official_name": "TEHNIČKA ŠKOLA ODŽACI",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Odžaci",
+   "have": {
+    "address": "Školska 20",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "usluga-socijalne-zastite-udruzenje-za-pomoc-mentalno-nedovoljno-zeleznicka-25",
+   "name": "UDRUŽENJE ZA POMOĆ MENTALNO NEDOVOLJNO – Železnička 25, ODŽaci",
+   "official_name": null,
+   "type_slug": "usluga-socijalne-zastite",
+   "type": "Usluga socijalne zaštite",
+   "website": null,
+   "settlement": "ODŽaci",
+   "have": {
+    "address": "Železnička 25",
+    "phones": null,
+    "email": "mnroodzaci@gmail.com",
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-backi-brestovac-backi-brestovac",
+   "name": "Mesna zajednica Bački Brestovac",
+   "official_name": "MESNA ZAJEDNICA BAČKI BRESTOVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Bački Brestovac",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-backi-gracac-backi-gracac",
+   "name": "Mesna zajednica Bački Gračac",
+   "official_name": "MESNA ZAJEDNICA BAČKI GRAČAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Bački Gračac",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-bogojevo-bogojevo",
+   "name": "Mesna zajednica Bogojevo",
+   "official_name": "MESNA ZAJEDNICA BOGOJEVO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Bogojevo",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-deronje-deronje",
+   "name": "Mesna zajednica Deronje",
+   "official_name": "MESNA ZAJEDNICA DERONJE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Deronje",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-karavukovo-karavukovo",
+   "name": "Mesna zajednica Karavukovo",
+   "official_name": "MESNA ZAJEDNICA KARAVUKOVO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Karavukovo",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-lalic-lalic",
+   "name": "Mesna zajednica Lalić",
+   "official_name": "MESNA ZAJEDNICA LALIĆ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Lalić",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-odzaci-odzaci",
+   "name": "Mesna zajednica Odžaci",
+   "official_name": "MESNA ZAJEDNICA ODŽACI",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-ratkovo-ratkovo",
+   "name": "Mesna zajednica Ratkovo",
+   "official_name": "MESNA ZAJEDNICA RATKOVO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Ratkovo",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-srpski-miletic-srpski-miletic",
+   "name": "Mesna zajednica Srpski Miletić",
+   "official_name": "MESNA ZAJEDNICA SRPSKI MILETIĆ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Srpski Miletić",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  }
+ ]
+}

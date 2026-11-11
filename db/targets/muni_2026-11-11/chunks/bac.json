@@ -1,0 +1,365 @@
+{
+ "municipality": "Bač",
+ "municipality_slug": "bac",
+ "municipality_site": null,
+ "chunk": "bac",
+ "of": 1,
+ "rows": [
+  {
+   "org_slug": "javno-komunalno-preduzece-tvrdjava-bac-bac",
+   "name": "Javno komunalno preduzeće Tvrđava, Bač",
+   "official_name": "JAVNO KOMUNALNO PREDUZEĆE TVRĐAVA, BAČ",
+   "type_slug": "jkp-cistoca",
+   "type": "JKP Čistoća / Komunalac",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "narodna-biblioteka-vuk-karadzic-bac",
+   "name": "Narodna biblioteka \"Vuk Karadžić\"",
+   "official_name": "NARODNA BIBLIOTEKA \"VUK KARADŽIĆ\"",
+   "type_slug": "narodna-biblioteka",
+   "type": "Narodna biblioteka",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstina-bac-opstinsko-pravobranilastvo-bac",
+   "name": "Opština Bač - Opštinsko Pravobranilaštvo",
+   "official_name": "OPŠTINA BAČ - OPŠTINSKO PRAVOBRANILAŠTVO",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstina-bac-opstinsko-vece-bac",
+   "name": "Opština Bač - Opštinsko veće",
+   "official_name": "OPŠTINA BAČ - OPŠTINSKO VEĆE",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstina-bac-predsednik-opstine-bac",
+   "name": "Opština Bač - Predsednik opštine",
+   "official_name": "OPŠTINA BAČ - PREDSEDNIK OPŠTINE",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skupstina-opstine-bac-bac",
+   "name": "Skupština opštine Bač",
+   "official_name": "SKUPŠTINA OPŠTINE BAČ",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-aleksa-santic-vajska",
+   "name": "Osnovna škola \"Aleksa Šantić\"",
+   "official_name": "OSNOVNA ŠKOLA \"ALEKSA ŠANTIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Vajska",
+   "have": {
+    "address": "Maršala Tita 33",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-jan-kolar-selenca",
+   "name": "Osnovna škola \"Jan Kolar\"",
+   "official_name": "OSNOVNA ŠKOLA \"JAN KOLAR\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Selenča",
+   "have": {
+    "address": "Vajanskeho 1",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-mosa-pijade-backo-novo-selo",
+   "name": "Osnovna škola \"Moša Pijade\"",
+   "official_name": "OSNOVNA ŠKOLA \"MOŠA PIJADE\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Bačko Novo Selo",
+   "have": {
+    "address": "Vuka Karadžića 4",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-vuk-karadzic-bac-bac",
+   "name": "Osnovna škola \"Vuk Karadžić\" Bač",
+   "official_name": "OSNOVNA ŠKOLA \"VUK KARADŽIĆ\" BAČ",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-kolibri-bac",
+   "name": "Predškolska ustanova \"Kolibri\"",
+   "official_name": "PREDŠKOLSKA USTANOVA \"KOLIBRI\"",
+   "type_slug": "predskolska-ustanova",
+   "type": "Predškolska ustanova (vrtić)",
+   "website": null,
+   "settlement": "Bač",
+   "have": {
+    "address": "Školska 3",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "poljoprivredna-skola-bac-bac",
+   "name": "Poljoprivredna škola Bač",
+   "official_name": "POLJOPRIVREDNA ŠKOLA BAČ",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Bač",
+   "have": {
+    "address": "Školska 1",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "ustanova-za-sport-i-rekreaciju-backa-tvrdjava-bac",
+   "name": "Ustanova za sport i rekreaciju \"Bačka Tvrđava\"",
+   "official_name": "USTANOVA ZA SPORT I REKREACIJU \"BAČKA TVRĐAVA\"",
+   "type_slug": "ustanova",
+   "type": "Javna ustanova",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-bac-bac",
+   "name": "Mesna zajednica Bač",
+   "official_name": "MESNA ZAJEDNICA BAČ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-backo-novo-selo-backo-novo-selo",
+   "name": "Mesna zajednica Bačko Novo Selo",
+   "official_name": "MESNA ZAJEDNICA BAČKO NOVO SELO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Bačko Novo Selo",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-bodjani-bodjani",
+   "name": "Mesna zajednica Bođani",
+   "official_name": "MESNA ZAJEDNICA BOĐANI",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Bođani",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-plavna-plavna",
+   "name": "Mesna zajednica Plavna",
+   "official_name": "MESNA ZAJEDNICA PLAVNA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-selenca-selenca",
+   "name": "Mesna zajednica Selenča",
+   "official_name": "MESNA ZAJEDNICA SELENČA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Selenča",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-vajska-vajska",
+   "name": "Mesna zajednica Vajska",
+   "official_name": "MESNA ZAJEDNICA VAJSKA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Vajska",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  }
+ ]
+}

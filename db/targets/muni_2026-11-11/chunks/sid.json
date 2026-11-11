@@ -1,0 +1,797 @@
+{
+ "municipality": "Šid",
+ "municipality_slug": "sid",
+ "municipality_site": null,
+ "chunk": "sid",
+ "of": 1,
+ "rows": [
+  {
+   "org_slug": "centar-za-socijalni-rad-sid-sid",
+   "name": "Centar za socijalni rad \"Šid\"",
+   "official_name": "CENTAR ZA SOCIJALNI RAD \"ŠID\"",
+   "type_slug": "centar-za-socijalni-rad",
+   "type": "Centar za socijalni rad",
+   "website": "https://csrsid.org.rs/",
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "vojna-ustanova-morovic-morovic",
+   "name": "Vojna ustanova \"Morović\"",
+   "official_name": "VOJNA USTANOVA \"MOROVIĆ\"",
+   "type_slug": "drzavni-organ",
+   "type": "Državni organ / služba",
+   "website": null,
+   "settlement": "Morović",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "socijalno-ekonomski-savet-opstine-sid-sid",
+   "name": "Socijalno-Ekonomski Savet opštine Šid",
+   "official_name": "SOCIJALNO-EKONOMSKI SAVET OPŠTINE ŠID",
+   "type_slug": "javno-preduzece",
+   "type": "Javno preduzeće / društvo",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "javno-preduzece-zavod-za-urbanizam-sid-sid",
+   "name": "Javno preduzeće zavod za urbanizam Šid",
+   "official_name": "JAVNO PREDUZEĆE ZAVOD ZA URBANIZAM ŠID",
+   "type_slug": "jp-urbanizam",
+   "type": "JP Urbanizam / Direkcija za izgradnju",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "kulturno-obrazovni-centar-sid-sid",
+   "name": "Kulturno Obrazovni centar Šid",
+   "official_name": "KULTURNO OBRAZOVNI CENTAR ŠID",
+   "type_slug": "kulturni-centar",
+   "type": "Kulturni centar / Dom kulture",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "galerija-slika-sava-sumanovic-sid",
+   "name": "Galerija Slika \"Sava Šumanović\"",
+   "official_name": "GALERIJA SLIKA \"SAVA ŠUMANOVIĆ\"",
+   "type_slug": "muzej",
+   "type": "Muzej / Arhiv",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "muzej-naivne-umetnosti-ilijanum-sid",
+   "name": "Muzej Naivne umetnosti \"Ilijanum\"",
+   "official_name": "MUZEJ NAIVNE UMETNOSTI \"ILIJANUM\"",
+   "type_slug": "muzej",
+   "type": "Muzej / Arhiv",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-muzicka-skola-filip-visnjic-sid",
+   "name": "Osnovna muzička škola \"Filip Višnjić\"",
+   "official_name": "OSNOVNA MUZIČKA ŠKOLA \"FILIP VIŠNJIĆ\"",
+   "type_slug": "muzicka-skola",
+   "type": "Muzička ili baletska škola",
+   "website": null,
+   "settlement": "Šid",
+   "have": {
+    "address": "Karađorđeva 85",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "narodna-biblioteka-simeon-piscevic-sid",
+   "name": "Narodna biblioteka \"Simeon Piščević\"",
+   "official_name": "NARODNA BIBLIOTEKA \"SIMEON PIŠČEVIĆ\"",
+   "type_slug": "narodna-biblioteka",
+   "type": "Narodna biblioteka",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstinsko-pravobranilastvo-opstine-sid-sid",
+   "name": "Opštinsko Pravobranilaštvo opštine Šid",
+   "official_name": "OPŠTINSKO PRAVOBRANILAŠTVO OPŠTINE ŠID",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstinsko-vece-opstine-sid-sid",
+   "name": "Opštinsko veće opštine Šid",
+   "official_name": "OPŠTINSKO VEĆE OPŠTINE ŠID",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "predsednik-opstine-sid-sid",
+   "name": "Predsednik opštine Šid",
+   "official_name": "PREDSEDNIK OPŠTINE ŠID",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skupstina-opstine-sid-sid",
+   "name": "Skupština opštine Šid",
+   "official_name": "SKUPŠTINA OPŠTINE ŠID",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-branko-radicevic-sid",
+   "name": "Osnovna škola \"Branko Radičević\"",
+   "official_name": "OSNOVNA ŠKOLA \"BRANKO RADIČEVIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Šid",
+   "have": {
+    "address": "Petra Kočića bb",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-filip-visnjic-morovic",
+   "name": "Osnovna škola \"Filip Višnjić\"",
+   "official_name": "OSNOVNA ŠKOLA \"FILIP VIŠNJIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Morović",
+   "have": {
+    "address": "Kralja Petra Prvog 18",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-jovan-jovanovic-zmaj-sid",
+   "name": "Osnovna škola \"Jovan Jovanović-Zmaj\"",
+   "official_name": "OSNOVNA ŠKOLA \"JOVAN JOVANOVIĆ-ZMAJ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Šid",
+   "have": {
+    "address": "Školska 5",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-sava-sumanovic-erdevik-sid",
+   "name": "Osnovna škola \"Sava Šumanović\" Erdevik",
+   "official_name": "OSNOVNA ŠKOLA \"SAVA ŠUMANOVIĆ\" ERDEVIK",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Erdevik",
+   "have": {
+    "address": "Svetog Save 4",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-sremski-front-sid",
+   "name": "Osnovna škola \"Sremski Front\"",
+   "official_name": "OSNOVNA ŠKOLA \"SREMSKI FRONT\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Šid",
+   "have": {
+    "address": "Majke Jevrosime 1",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-vuk-karadzic-adasevci-sid",
+   "name": "Osnovna škola \"Vuk Karadžić\" Adaševci",
+   "official_name": "OSNOVNA ŠKOLA \"VUK KARADŽIĆ\" ADAŠEVCI",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Adaševci",
+   "have": {
+    "address": "Fruškogorska 3",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-jelica-stanivukovic-silja-sid",
+   "name": "Predškolska ustanova \"Jelica Stanivuković-Šilja\"",
+   "official_name": "PREDŠKOLSKA USTANOVA \"JELICA STANIVUKOVIĆ-ŠILJA\"",
+   "type_slug": "predskolska-ustanova",
+   "type": "Predškolska ustanova (vrtić)",
+   "website": null,
+   "settlement": "Šid",
+   "have": {
+    "address": "Cara Lazara 39",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "ustanova-za-fizicku-kulturu-i-sportsku-rekreacijiu-partizan-sid",
+   "name": "Ustanova za Fizičku kulturu i Sportsku Rekreacijiu \"Partizan\"",
+   "official_name": "USTANOVA ZA FIZIČKU KULTURU I SPORTSKU REKREACIJIU \"PARTIZAN\"",
+   "type_slug": "sportski-centar",
+   "type": "Sportski centar",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "gimnazija-sava-sumanovic-sid",
+   "name": "Gimnazija \"Sava Šumanović\"",
+   "official_name": "GIMNAZIJA \"SAVA ŠUMANOVIĆ\"",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Šid",
+   "have": {
+    "address": "Laze Kostić 2",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "tehnicka-skola-nikola-tesla-sid",
+   "name": "Tehnička škola \"Nikola Tesla\"",
+   "official_name": "TEHNIČKA ŠKOLA \"NIKOLA TESLA\"",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Šid",
+   "have": {
+    "address": "Školska 1",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-adasevci-sid",
+   "name": "Mesna zajednica Adaševci",
+   "official_name": "MESNA ZAJEDNICA ADAŠEVCI",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-batrovci-sid",
+   "name": "Mesna zajednica Batrovci",
+   "official_name": "MESNA ZAJEDNICA BATROVCI",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-bacinci-sid",
+   "name": "Mesna zajednica Bačinci",
+   "official_name": "MESNA ZAJEDNICA BAČINCI",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-berkasovo-sid",
+   "name": "Mesna zajednica Berkasovo",
+   "official_name": "MESNA ZAJEDNICA BERKASOVO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-bikic-do-sid",
+   "name": "Mesna zajednica Bikić do",
+   "official_name": "MESNA ZAJEDNICA BIKIĆ DO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-bingula-sid",
+   "name": "Mesna zajednica Bingula",
+   "official_name": "MESNA ZAJEDNICA BINGULA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-erdevik-sid",
+   "name": "Mesna zajednica Erdevik",
+   "official_name": "MESNA ZAJEDNICA ERDEVIK",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-gibarac-sid",
+   "name": "Mesna zajednica Gibarac",
+   "official_name": "MESNA ZAJEDNICA GIBARAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-ilinci-sid",
+   "name": "Mesna zajednica Ilinci",
+   "official_name": "MESNA ZAJEDNICA ILINCI",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-jamena-sid",
+   "name": "Mesna zajednica Jamena",
+   "official_name": "MESNA ZAJEDNICA JAMENA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-kukujevci-sid",
+   "name": "Mesna zajednica Kukujevci",
+   "official_name": "MESNA ZAJEDNICA KUKUJEVCI",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-ljuba-sid",
+   "name": "Mesna zajednica Ljuba",
+   "official_name": "MESNA ZAJEDNICA LJUBA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-molovin-sid",
+   "name": "Mesna zajednica Molovin",
+   "official_name": "MESNA ZAJEDNICA MOLOVIN",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-morovic-sid",
+   "name": "Mesna zajednica Morović",
+   "official_name": "MESNA ZAJEDNICA MOROVIĆ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-privina-glava-sid",
+   "name": "Mesna zajednica Privina Glava",
+   "official_name": "MESNA ZAJEDNICA PRIVINA GLAVA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-sot-sid",
+   "name": "Mesna zajednica Sot",
+   "official_name": "MESNA ZAJEDNICA SOT",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-vasica-sid",
+   "name": "Mesna zajednica Vašica",
+   "official_name": "MESNA ZAJEDNICA VAŠICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-visnjicevo-sid",
+   "name": "Mesna zajednica Višnjićevo",
+   "official_name": "MESNA ZAJEDNICA VIŠNJIĆEVO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-sid-sid",
+   "name": "Mesna zajednica Šid",
+   "official_name": "MESNA ZAJEDNICA ŠID",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  }
+ ]
+}

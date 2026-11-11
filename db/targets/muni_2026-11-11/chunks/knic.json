@@ -1,0 +1,877 @@
+{
+ "municipality": "Knić",
+ "municipality_slug": "knic",
+ "municipality_site": null,
+ "chunk": "knic",
+ "of": 1,
+ "rows": [
+  {
+   "org_slug": "centar-za-socijalni-rad-knic-knic",
+   "name": "Centar za socijalni rad \"Knić\"",
+   "official_name": "CENTAR ZA SOCIJALNI RAD \"KNIĆ\"",
+   "type_slug": "centar-za-socijalni-rad",
+   "type": "Centar za socijalni rad",
+   "website": "https://csrknic.rs/",
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": "office@csrknic.rs",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "veterinarska-stanica-knic-doo-knic-knic",
+   "name": "Veterinarska stanica Knić DOO Knić",
+   "official_name": "VETERINARSKA STANICA KNIĆ DOO KNIĆ",
+   "type_slug": "javno-preduzece",
+   "type": "Javno preduzeće / društvo",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "centar-za-kulturu-i-biblioteka-knic-knic",
+   "name": "\"Centar za kulturu i biblioteka\" Knić",
+   "official_name": "\"CENTAR ZA KULTURU I BIBLIOTEKA\" KNIĆ",
+   "type_slug": "narodna-biblioteka",
+   "type": "Narodna biblioteka",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstinska-uprava-knic",
+   "name": "Opštinska uprava",
+   "official_name": "OPŠTINSKA UPRAVA",
+   "type_slug": "opstinska-uprava",
+   "type": "Opštinska uprava",
+   "website": "https://knic.rs/",
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": "034 510113; 034 510112; 034 510163",
+    "email": "opstina@knic.rs",
+    "hours": "07.00-15.00"
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "opstinsko-pravobranilastvo-knic",
+   "name": "Opštinsko Pravobranilaštvo",
+   "official_name": "OPŠTINSKO PRAVOBRANILAŠTVO",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstinsko-vece-opstine-knic-knic",
+   "name": "Opštinsko veće opštine Knić",
+   "official_name": "OPŠTINSKO VEĆE OPŠTINE KNIĆ",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "predsednik-opstine-knic-knic",
+   "name": "Predsednik opštine Knić",
+   "official_name": "PREDSEDNIK OPŠTINE KNIĆ",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skupstina-opstine-knic-knic",
+   "name": "Skupština opštine Knić",
+   "official_name": "SKUPŠTINA OPŠTINE KNIĆ",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-sveti-sava-toponica-knic",
+   "name": "Osnovna škola \"Sveti Sava\" Toponica",
+   "official_name": "OSNOVNA ŠKOLA \"SVETI SAVA\" TOPONICA",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Toponica",
+   "have": {
+    "address": "Svetog Save 24",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-vuk-karadzic-knic-knic",
+   "name": "Osnovna škola \"Vuk Karadžić\" Knić",
+   "official_name": "OSNOVNA ŠKOLA \"VUK KARADŽIĆ\" KNIĆ",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Knić",
+   "have": {
+    "address": "Vojvode Stevana Knićanina 180",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-rada-subakic-knic",
+   "name": "Osnovna škola \"rada Šubakić\"",
+   "official_name": "OSNOVNA ŠKOLA \"RADA ŠUBAKIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Gruža",
+   "have": {
+    "address": "Despota Stefana 99",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-cvetic-knic",
+   "name": "Predškolska ustanova \"Cvetić\"",
+   "official_name": "PREDŠKOLSKA USTANOVA \"CVETIĆ\"",
+   "type_slug": "predskolska-ustanova",
+   "type": "Predškolska ustanova (vrtić)",
+   "website": null,
+   "settlement": "Knić",
+   "have": {
+    "address": "Dimitrija Mihailovića 14",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "srednja-skola-dobrica-eric-knic",
+   "name": "Srednja škola \"Dobrica Erić\"",
+   "official_name": "SREDNJA ŠKOLA \"DOBRICA ERIĆ\"",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Knić",
+   "have": {
+    "address": "Vojvode Stevana Knićanina 174",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-gruza-grabovac-knic",
+   "name": "Mesna zajednica \"Gruža-Grabovac\"",
+   "official_name": "MESNA ZAJEDNICA \"GRUŽA-GRABOVAC\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-konjusa-brestovac-knic",
+   "name": "Mesna zajednica \"Konjuša-Brestovac\"",
+   "official_name": "MESNA ZAJEDNICA \"KONJUŠA-BRESTOVAC\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-bajcetina-knic",
+   "name": "Mesna zajednica Bajčetina",
+   "official_name": "MESNA ZAJEDNICA BAJČETINA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-balosave-knic",
+   "name": "Mesna zajednica Balosave",
+   "official_name": "MESNA ZAJEDNICA BALOSAVE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-bare-knic",
+   "name": "Mesna zajednica Bare",
+   "official_name": "MESNA ZAJEDNICA BARE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-becevica-knic",
+   "name": "Mesna zajednica Bečevica",
+   "official_name": "MESNA ZAJEDNICA BEČEVICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-borac-knic",
+   "name": "Mesna zajednica Borač",
+   "official_name": "MESNA ZAJEDNICA BORAČ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-brnjica-knic",
+   "name": "Mesna zajednica Brnjica",
+   "official_name": "MESNA ZAJEDNICA BRNJICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-bumbarevo-brdo-knic",
+   "name": "Mesna zajednica Bumbarevo Brdo",
+   "official_name": "MESNA ZAJEDNICA BUMBAREVO BRDO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-dragusica-knic",
+   "name": "Mesna zajednica Dragušica",
+   "official_name": "MESNA ZAJEDNICA DRAGUŠICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-dubrava-knic",
+   "name": "Mesna zajednica Dubrava",
+   "official_name": "MESNA ZAJEDNICA DUBRAVA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-grivac-knic",
+   "name": "Mesna zajednica Grivac",
+   "official_name": "MESNA ZAJEDNICA GRIVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-guberevac-knic",
+   "name": "Mesna zajednica Guberevac",
+   "official_name": "MESNA ZAJEDNICA GUBEREVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-guncati-knic",
+   "name": "Mesna zajednica Guncati",
+   "official_name": "MESNA ZAJEDNICA GUNCATI",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-kikojevac-knic",
+   "name": "Mesna zajednica Kikojevac",
+   "official_name": "MESNA ZAJEDNICA KIKOJEVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-knezevac-knic",
+   "name": "Mesna zajednica Kneževac",
+   "official_name": "MESNA ZAJEDNICA KNEŽEVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-knic-knic",
+   "name": "Mesna zajednica Knić",
+   "official_name": "MESNA ZAJEDNICA KNIĆ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-leskovac-knic",
+   "name": "Mesna zajednica Leskovac",
+   "official_name": "MESNA ZAJEDNICA LESKOVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-lipnica-knic",
+   "name": "Mesna zajednica Lipnica",
+   "official_name": "MESNA ZAJEDNICA LIPNICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-ljubic-knic",
+   "name": "Mesna zajednica Ljubić",
+   "official_name": "MESNA ZAJEDNICA LJUBIĆ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-ljuljaci-knic",
+   "name": "Mesna zajednica Ljuljaci",
+   "official_name": "MESNA ZAJEDNICA LJULJACI",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-oplanic-knic",
+   "name": "Mesna zajednica Oplanić",
+   "official_name": "MESNA ZAJEDNICA OPLANIĆ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-pajsijevic-knic",
+   "name": "Mesna zajednica Pajsijević",
+   "official_name": "MESNA ZAJEDNICA PAJSIJEVIĆ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-pretoke-knic",
+   "name": "Mesna zajednica Pretoke",
+   "official_name": "MESNA ZAJEDNICA PRETOKE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-radmilovic-knic",
+   "name": "Mesna zajednica Radmilović",
+   "official_name": "MESNA ZAJEDNICA RADMILOVIĆ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-raskovic-knic",
+   "name": "Mesna zajednica Rašković",
+   "official_name": "MESNA ZAJEDNICA RAŠKOVIĆ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-sumorovac-knic",
+   "name": "Mesna zajednica Sumorovac",
+   "official_name": "MESNA ZAJEDNICA SUMOROVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-toponica-kusovac-knic",
+   "name": "Mesna zajednica Toponica-Kusovac",
+   "official_name": "MESNA ZAJEDNICA TOPONICA-KUSOVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-vrbeta-knic",
+   "name": "Mesna zajednica Vrbeta",
+   "official_name": "MESNA ZAJEDNICA VRBETA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-vuckovica-knic",
+   "name": "Mesna zajednica Vučkovica",
+   "official_name": "MESNA ZAJEDNICA VUČKOVICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-zabojnica-knic",
+   "name": "Mesna zajednica Zabojnica",
+   "official_name": "MESNA ZAJEDNICA ZABOJNICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-cestin-knic",
+   "name": "Mesna zajednica Čestin",
+   "official_name": "MESNA ZAJEDNICA ČESTIN",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-zunje-knic",
+   "name": "Mesna zajednica Žunje",
+   "official_name": "MESNA ZAJEDNICA ŽUNJE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  }
+ ]
+}

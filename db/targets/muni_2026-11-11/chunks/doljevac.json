@@ -1,0 +1,557 @@
+{
+ "municipality": "Doljevac",
+ "municipality_slug": "doljevac",
+ "municipality_site": null,
+ "chunk": "doljevac",
+ "of": 1,
+ "rows": [
+  {
+   "org_slug": "centar-za-socijalni-rad-doljevac-doljevac",
+   "name": "Centar za socijalni rad Doljevac",
+   "official_name": "CENTAR ZA SOCIJALNI RAD DOLJEVAC",
+   "type_slug": "centar-za-socijalni-rad",
+   "type": "Centar za socijalni rad",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-doljevac-doljevac-doljevac",
+   "name": "Javno komunalno preduzeće Doljevac Doljevac",
+   "official_name": "JAVNO KOMUNALNO PREDUZEĆE DOLJEVAC DOLJEVAC",
+   "type_slug": "jkp-cistoca",
+   "type": "JKP Čistoća / Komunalac",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "javna-biblioteka-doljevac-doljevac",
+   "name": "Javna biblioteka Doljevac",
+   "official_name": "JAVNA BIBLIOTEKA DOLJEVAC",
+   "type_slug": "narodna-biblioteka",
+   "type": "Narodna biblioteka",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstina-doljevac-lokalni-ombudsman-doljevac",
+   "name": "Opština Doljevac - lokalni Ombudsman",
+   "official_name": "OPŠTINA DOLJEVAC - LOKALNI OMBUDSMAN",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstinsko-pravobranilastvo-opstine-doljevac-doljevac",
+   "name": "Opštinsko Pravobranilaštvo opštine Doljevac",
+   "official_name": "OPŠTINSKO PRAVOBRANILAŠTVO OPŠTINE DOLJEVAC",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstinsko-vece-opstine-doljevac-doljevac",
+   "name": "Opštinsko veće opštine Doljevac",
+   "official_name": "OPŠTINSKO VEĆE OPŠTINE DOLJEVAC",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "predsednik-opstine-doljevac-doljevac",
+   "name": "Predsednik opštine Doljevac",
+   "official_name": "PREDSEDNIK OPŠTINE DOLJEVAC",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skupstina-opstine-doljevac-doljevac",
+   "name": "Skupština opštine Doljevac",
+   "official_name": "SKUPŠTINA OPŠTINE DOLJEVAC",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-vuk-karadzic-doljevac",
+   "name": "Osnovna škola \"Vuk Karadžić\"",
+   "official_name": "OSNOVNA ŠKOLA \"VUK KARADŽIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Doljevac",
+   "have": {
+    "address": "Vuka Karadžića 6",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-lane-doljevac",
+   "name": "Predškolska ustanova \"Lane\"",
+   "official_name": "PREDŠKOLSKA USTANOVA \"LANE\"",
+   "type_slug": "predskolska-ustanova",
+   "type": "Predškolska ustanova (vrtić)",
+   "website": null,
+   "settlement": "Doljevac",
+   "have": {
+    "address": "Dr. Mihajla Timotijevića 3",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "srednja-skola-doljevac-doljevac",
+   "name": "Srednja škola \"Doljevac\"",
+   "official_name": "SREDNJA ŠKOLA \"DOLJEVAC\"",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Doljevac",
+   "have": {
+    "address": "Dr. Mihajla Timotijevića 3",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "turisticka-organizacija-opstine-doljevac-doljevac",
+   "name": "Turistička organizacija opštine Doljevac",
+   "official_name": "TURISTIČKA ORGANIZACIJA OPŠTINE DOLJEVAC",
+   "type_slug": "turisticka-organizacija",
+   "type": "Turistička organizacija",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "dom-za-odrasla-invalidna-lica-doljevac-doljevac",
+   "name": "Dom za Odrasla Invalidna lica Doljevac",
+   "official_name": "DOM ZA ODRASLA INVALIDNA LICA DOLJEVAC",
+   "type_slug": "ustanova",
+   "type": "Javna ustanova",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-belotinac-doljevac",
+   "name": "Mesna zajednica Belotinac",
+   "official_name": "MESNA ZAJEDNICA BELOTINAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-doljevac-doljevac",
+   "name": "Mesna zajednica Doljevac",
+   "official_name": "MESNA ZAJEDNICA DOLJEVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-klisura-doljevac",
+   "name": "Mesna zajednica Klisura",
+   "official_name": "MESNA ZAJEDNICA KLISURA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-knezice-doljevac",
+   "name": "Mesna zajednica Knežice",
+   "official_name": "MESNA ZAJEDNICA KNEŽICE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-kocane-doljevac",
+   "name": "Mesna zajednica Kočane",
+   "official_name": "MESNA ZAJEDNICA KOČANE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-malosiste-doljevac",
+   "name": "Mesna zajednica Malošište",
+   "official_name": "MESNA ZAJEDNICA MALOŠIŠTE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-mekis-doljevac",
+   "name": "Mesna zajednica Mekiš",
+   "official_name": "MESNA ZAJEDNICA MEKIŠ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-orljane-doljevac",
+   "name": "Mesna zajednica Orljane",
+   "official_name": "MESNA ZAJEDNICA ORLJANE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-perutina-doljevac",
+   "name": "Mesna zajednica Perutina",
+   "official_name": "MESNA ZAJEDNICA PERUTINA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-pukovac-doljevac",
+   "name": "Mesna zajednica Pukovac",
+   "official_name": "MESNA ZAJEDNICA PUKOVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-rusna-doljevac",
+   "name": "Mesna zajednica Rusna",
+   "official_name": "MESNA ZAJEDNICA RUSNA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-curlina-doljevac",
+   "name": "Mesna zajednica Ćurlina",
+   "official_name": "MESNA ZAJEDNICA ĆURLINA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-capljinac-doljevac",
+   "name": "Mesna zajednica Čapljinac",
+   "official_name": "MESNA ZAJEDNICA ČAPLJINAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-cecina-doljevac",
+   "name": "Mesna zajednica Čečina",
+   "official_name": "MESNA ZAJEDNICA ČEČINA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-sainovac-doljevac",
+   "name": "Mesna zajednica Šainovac",
+   "official_name": "MESNA ZAJEDNICA ŠAINOVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-sarlinac-doljevac",
+   "name": "Mesna zajednica Šarlinac",
+   "official_name": "MESNA ZAJEDNICA ŠARLINAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  }
+ ]
+}

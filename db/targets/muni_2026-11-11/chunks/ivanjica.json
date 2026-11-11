@@ -1,0 +1,738 @@
+{
+ "municipality": "Ivanjica",
+ "municipality_slug": "ivanjica",
+ "municipality_site": null,
+ "chunk": "ivanjica",
+ "of": 1,
+ "rows": [
+  {
+   "org_slug": "centar-za-socijalni-rad-ivanjica-ivanjica",
+   "name": "Centar za socijalni rad Ivanjica",
+   "official_name": "CENTAR ZA SOCIJALNI RAD IVANJICA",
+   "type_slug": "centar-za-socijalni-rad",
+   "type": "Centar za socijalni rad",
+   "website": "https://csr-ivanjica.rs/",
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": "032 661609",
+    "email": "ivanjica.csr@minrzs.gov.rs",
+    "hours": null
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-ivanjica-ivanjica-ivanjica",
+   "name": "Javno Komunalno Preduzeće Ivanjica Ivanjica",
+   "official_name": "Javno komunalno preduzeće Ivanjica Ivanjica",
+   "type_slug": "jkp-cistoca",
+   "type": "JKP Čistoća / Komunalac",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "dom-kulture-ivanjica-ivanjica",
+   "name": "Dom kulture \"Ivanjica\"",
+   "official_name": "DOM KULTURE \"IVANJICA\"",
+   "type_slug": "kulturni-centar",
+   "type": "Kulturni centar / Dom kulture",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "biblioteka-svetislav-vulovic-ivanjica",
+   "name": "Biblioteka \"Svetislav Vulović\"",
+   "official_name": "BIBLIOTEKA \"SVETISLAV VULOVIĆ\"",
+   "type_slug": "narodna-biblioteka",
+   "type": "Narodna biblioteka",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstina-ivanjica-opstinsko-vece-ivanjica",
+   "name": "Opština Ivanjica - Opštinsko veće",
+   "official_name": "OPŠTINA IVANJICA - OPŠTINSKO VEĆE",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstina-ivanjica-predsednik-opstine-ivanjica",
+   "name": "Opština Ivanjica - Predsednik opštine",
+   "official_name": "OPŠTINA IVANJICA - PREDSEDNIK OPŠTINE",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstina-ivanjica-opstinsko-pravobranilastvo-ivanjica",
+   "name": "Opština Ivanjica Opštinsko Pravobranilaštvo",
+   "official_name": "OPŠTINA IVANJICA OPŠTINSKO PRAVOBRANILAŠTVO",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skupstina-opstine-ivanjica-ivanjica",
+   "name": "Skupština opštine Ivanjica",
+   "official_name": "SKUPŠTINA OPŠTINE IVANJICA",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-kirilo-savic-ivanjica",
+   "name": "Osnovna škola \"Kirilo Savić\"",
+   "official_name": "OSNOVNA ŠKOLA \"KIRILO SAVIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Ivanjica",
+   "have": {
+    "address": "Kirila Savića bb",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-major-ilic-kusici-ivanjica",
+   "name": "Osnovna škola \"Major Ilić\" Kušići",
+   "official_name": "OSNOVNA ŠKOLA \"MAJOR ILIĆ\" KUŠIĆI",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Kušići",
+   "have": {
+    "address": "Kušići bb",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-milan-vucicevic-zverac-bratljevo-ivanjica",
+   "name": "Osnovna škola \"Milan Vučićević-Zverac\" Bratljevo",
+   "official_name": "OSNOVNA ŠKOLA \"MILAN VUČIĆEVIĆ-ZVERAC\" BRATLJEVO",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Bratljevo",
+   "have": {
+    "address": "Bratljevo bb",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-milinko-kusic-ivanjica",
+   "name": "Osnovna škola \"Milinko Kušić\"",
+   "official_name": "OSNOVNA ŠKOLA \"MILINKO KUŠIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Ivanjica",
+   "have": {
+    "address": "13.Septembra 54",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-mico-matovic-katici-ivanjica",
+   "name": "Osnovna škola \"Mićo Matović\" Katići",
+   "official_name": "OSNOVNA ŠKOLA \"MIĆO MATOVIĆ\" KATIĆI",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Katići",
+   "have": {
+    "address": "Katići bb",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-profesor-dr-nedeljko-kosanin-devici-ivanjica",
+   "name": "Osnovna škola \"Profesor Dr Nedeljko Košanin\" Devići",
+   "official_name": "OSNOVNA ŠKOLA \"PROFESOR DR NEDELJKO KOŠANIN\" DEVIĆI",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-sreten-lazarevic-prilike",
+   "name": "Osnovna škola \"Sreten Lazarević\"",
+   "official_name": "OSNOVNA ŠKOLA \"SRETEN LAZAREVIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Prilike",
+   "have": {
+    "address": "Prilike bb",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-svetozar-markovic-kovilje-ivanjica",
+   "name": "Osnovna škola \"Svetozar Marković\" Kovilje",
+   "official_name": "OSNOVNA ŠKOLA \"SVETOZAR MARKOVIĆ\" KOVILJE",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Kovilje",
+   "have": {
+    "address": "Kovilje bb",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-vucic-velickovic-medjurecje-ivanjica",
+   "name": "Osnovna škola \"Vučić Veličković\" Međurečje",
+   "official_name": "OSNOVNA ŠKOLA \"VUČIĆ VELIČKOVIĆ\" MEĐUREČJE",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Međurečje",
+   "have": {
+    "address": "Međurečje bb",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-bajka-ivanjica",
+   "name": "Predškolska ustanova \"Bajka\"",
+   "official_name": "PREDŠKOLSKA USTANOVA \"BAJKA\"",
+   "type_slug": "predskolska-ustanova",
+   "type": "Predškolska ustanova (vrtić)",
+   "website": null,
+   "settlement": "Ivanjica",
+   "have": {
+    "address": "Nade Popović 48",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "gimnazija-ivanjica-ivanjica",
+   "name": "Gimnazija Ivanjica",
+   "official_name": "GIMNAZIJA IVANJICA",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Ivanjica",
+   "have": {
+    "address": "13.Septembra 58",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-srednja-reka-ivanjica",
+   "name": "Mesna zajednica srednja Reka",
+   "official_name": "MESNA ZAJEDNICA SREDNJA REKA",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "tehnicka-skola-ivanjica-ivanjica",
+   "name": "Tehnička škola Ivanjica",
+   "official_name": "TEHNIČKA ŠKOLA IVANJICA",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Ivanjica",
+   "have": {
+    "address": "Mića Matovića 2",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-bratljevo-ivanjica",
+   "name": "Mesna zajednica Bratljevo",
+   "official_name": "MESNA ZAJEDNICA BRATLJEVO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-brezova-ivanjica",
+   "name": "Mesna zajednica Brezova",
+   "official_name": "MESNA ZAJEDNICA BREZOVA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-brusnik-ivanjica",
+   "name": "Mesna zajednica Brusnik",
+   "official_name": "MESNA ZAJEDNICA BRUSNIK",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-bukovica-ivanjica",
+   "name": "Mesna zajednica Bukovica",
+   "official_name": "MESNA ZAJEDNICA BUKOVICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-devici-ivanjica",
+   "name": "Mesna zajednica Devići",
+   "official_name": "MESNA ZAJEDNICA DEVIĆI",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-ercege-ivanjica",
+   "name": "Mesna zajednica Erčege",
+   "official_name": "MESNA ZAJEDNICA ERČEGE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-ivanjica-ivanjica",
+   "name": "Mesna zajednica Ivanjica",
+   "official_name": "MESNA ZAJEDNICA IVANJICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-kovilje-ivanjica",
+   "name": "Mesna zajednica Kovilje",
+   "official_name": "MESNA ZAJEDNICA KOVILJE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-kusici-ivanjica",
+   "name": "Mesna zajednica Kušići",
+   "official_name": "MESNA ZAJEDNICA KUŠIĆI",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-lisa-ivanjica",
+   "name": "Mesna zajednica Lisa",
+   "official_name": "MESNA ZAJEDNICA LISA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-luke-ivanjica",
+   "name": "Mesna zajednica Luke",
+   "official_name": "MESNA ZAJEDNICA LUKE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-medjurecje-ivanjica",
+   "name": "Mesna zajednica Međurečje",
+   "official_name": "MESNA ZAJEDNICA MEĐUREČJE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-mocioci-ivanjica",
+   "name": "Mesna zajednica Močioci",
+   "official_name": "MESNA ZAJEDNICA MOČIOCI",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-opaljenik-ivanjica",
+   "name": "Mesna zajednica Opaljenik",
+   "official_name": "MESNA ZAJEDNICA OPALJENIK",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-osonica-ivanjica",
+   "name": "Mesna zajednica Osonica",
+   "official_name": "MESNA ZAJEDNICA OSONICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-ostatija-ivanjica",
+   "name": "Mesna zajednica Ostatija",
+   "official_name": "MESNA ZAJEDNICA OSTATIJA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-pridvorica-ivanjica",
+   "name": "Mesna zajednica Pridvorica",
+   "official_name": "MESNA ZAJEDNICA PRIDVORICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-prilike-ivanjica",
+   "name": "Mesna zajednica Prilike",
+   "official_name": "MESNA ZAJEDNICA PRILIKE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  }
+ ]
+}

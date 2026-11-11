@@ -1,0 +1,99 @@
+{
+ "chunk": "pu-54",
+ "institutions": [
+  {
+   "org_slug": "privatni-vrtic-predskolska-ustanova-duga-kragujevac-kragujevac",
+   "name": "Predškolska ustanova „Duga“ Kragujevac",
+   "type": "privatni-vrtic",
+   "website": null,
+   "municipality": "Kragujevac",
+   "seat_address": "Milana Ilića - Čiče 7",
+   "seat_phone": null,
+   "units": [
+    {
+     "location_id": 46075,
+     "name": "Duga 2",
+     "municipality": "Kragujevac"
+    },
+    {
+     "location_id": 46079,
+     "name": "Duga 3",
+     "municipality": "Kragujevac"
+    },
+    {
+     "location_id": 46204,
+     "name": "Duga 4",
+     "municipality": "Kragujevac"
+    }
+   ]
+  },
+  {
+   "org_slug": "privatni-vrtic-predskolska-ustanova-drugarstvo-kragujevac",
+   "name": "Predškolska ustanova „Drugarstvo“",
+   "type": "privatni-vrtic",
+   "website": null,
+   "municipality": "Kragujevac",
+   "seat_address": "Šumadijska 11",
+   "seat_phone": null,
+   "units": [
+    {
+     "location_id": 46596,
+     "name": "PU Drugarstvo 4",
+     "municipality": "Kragujevac"
+    },
+    {
+     "location_id": 45852,
+     "name": "PU Drugarstvo2",
+     "municipality": "Kragujevac"
+    },
+    {
+     "location_id": 45853,
+     "name": "PU Drugarstvo3",
+     "municipality": "Kragujevac"
+    }
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-decja-radost-bosilegrad-bosilegrad",
+   "name": "Predškolska ustanova \"Dečja Radost\" Bosilegrad",
+   "type": "predskolska-ustanova",
+   "website": null,
+   "municipality": "Bosilegrad",
+   "seat_address": "Mladost 1",
+   "seat_phone": null,
+   "units": [
+    {
+     "location_id": 45572,
+     "name": "Igraonica",
+     "municipality": "Bosilegrad"
+    },
+    {
+     "location_id": 45549,
+     "name": "s. Rajčilovci",
+     "municipality": "Bosilegrad"
+    }
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-8-septembar-dimitrovgrad-dimitrovgrad",
+   "name": "Predškolska ustanova \"8. Septembar\" Dimitrovgrad",
+   "type": "predskolska-ustanova",
+   "website": null,
+   "municipality": "Dimitrovgrad",
+   "seat_address": "Svetosavska 2",
+   "seat_phone": null,
+   "units": [
+    {
+     "location_id": 46540,
+     "name": "\"Kolibri\"",
+     "municipality": "Dimitrovgrad"
+    },
+    {
+     "location_id": 46530,
+     "name": "\"Leptirić\"",
+     "municipality": "Dimitrovgrad"
+    }
+   ]
+  }
+ ]
+}

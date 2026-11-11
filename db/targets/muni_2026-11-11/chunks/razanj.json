@@ -1,0 +1,595 @@
+{
+ "municipality": "Ražanj",
+ "municipality_slug": "razanj",
+ "municipality_site": null,
+ "chunk": "razanj",
+ "of": 1,
+ "rows": [
+  {
+   "org_slug": "javno-preduzece-putevi-razanj-razanj-razanj",
+   "name": "Javno preduzeće Putevi Ražanj Ražanj",
+   "official_name": "JAVNO PREDUZEĆE PUTEVI RAŽANJ RAŽANJ",
+   "type_slug": "jp-putevi",
+   "type": "JP za puteve i izgradnju",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "dom-kulture-sa-p-o-razanj-razanj",
+   "name": "Dom kulture sa p.o. Ražanj",
+   "official_name": "DOM KULTURE SA P.O. RAŽANJ",
+   "type_slug": "kulturni-centar",
+   "type": "Kulturni centar / Dom kulture",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstinsko-vece-opstine-razanj-razanj",
+   "name": "Opštinsko veće opštine Ražanj",
+   "official_name": "OPŠTINSKO VEĆE OPŠTINE RAŽANJ",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "predsednik-opstine-razanj-razanj",
+   "name": "Predsednik opštine Ražanj",
+   "official_name": "PREDSEDNIK OPŠTINE RAŽANJ",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skupstina-opstine-razanj-razanj",
+   "name": "Skupština opštine Ražanj",
+   "official_name": "SKUPŠTINA OPŠTINE RAŽANJ",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-ivan-vusovic-razanj",
+   "name": "Osnovna škola \"Ivan Vušović\"",
+   "official_name": "OSNOVNA ŠKOLA \"IVAN VUŠOVIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Ražanj",
+   "have": {
+    "address": "Novoražanjska 42",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-vuk-karadzic-vitosevac-vitosevac",
+   "name": "Osnovna škola \"Vuk Karadžić\" Vitoševac",
+   "official_name": "OSNOVNA ŠKOLA \"VUK KARADŽIĆ\" VITOŠEVAC",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Vitoševac",
+   "have": {
+    "address": "Omladinska 11",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-leptirici-razanj",
+   "name": "Predškolska ustanova \"Leptirići\"",
+   "official_name": "PREDŠKOLSKA USTANOVA \"LEPTIRIĆI\"",
+   "type_slug": "predskolska-ustanova",
+   "type": "Predškolska ustanova (vrtić)",
+   "website": null,
+   "settlement": "Ražanj",
+   "have": {
+    "address": "Jovana Jovanovića Zmaja 9",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-cerovo-cerovo",
+   "name": "Mesna zajednica \"Cerovo\"",
+   "official_name": "MESNA ZAJEDNICA \"CEROVO\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Cerovo",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-grabovo-grabovo",
+   "name": "Mesna zajednica \"Grabovo\"",
+   "official_name": "MESNA ZAJEDNICA \"GRABOVO\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-lipovac-lipovac",
+   "name": "Mesna zajednica \"Lipovac\"",
+   "official_name": "MESNA ZAJEDNICA \"LIPOVAC\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-podgorac-podgorac",
+   "name": "Mesna zajednica \"Podgorac\"",
+   "official_name": "MESNA ZAJEDNICA \"PODGORAC\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-rujiste-rujiste",
+   "name": "Mesna zajednica \"Rujište\"",
+   "official_name": "MESNA ZAJEDNICA \"RUJIŠTE\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-skorica-skorica",
+   "name": "Mesna zajednica \"Skorica\"",
+   "official_name": "MESNA ZAJEDNICA \"SKORICA\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Skorica",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-varos-varos",
+   "name": "Mesna zajednica \"Varoš\"",
+   "official_name": "MESNA ZAJEDNICA \"VAROŠ\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-braljina-braljina-07015",
+   "name": "Mesna zajednica Braljina",
+   "official_name": "MESNA ZAJEDNICA BRALJINA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-crni-kao-crni-kao",
+   "name": "Mesna zajednica Crni Kao",
+   "official_name": "MESNA ZAJEDNICA CRNI KAO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-maletina-maletina",
+   "name": "Mesna zajednica Maletina",
+   "official_name": "MESNA ZAJEDNICA MALETINA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Maletina",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-macija-macija",
+   "name": "Mesna zajednica Maćija",
+   "official_name": "MESNA ZAJEDNICA MAĆIJA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Maćija",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-madjere-madjere",
+   "name": "Mesna zajednica Mađere",
+   "official_name": "MESNA ZAJEDNICA MAĐERE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-novi-bracin-novi-bracin",
+   "name": "Mesna zajednica Novi Bračin",
+   "official_name": "MESNA ZAJEDNICA NOVI BRAČIN",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Novi Bračin",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-pardik-pardik",
+   "name": "Mesna zajednica Pardik",
+   "official_name": "MESNA ZAJEDNICA PARDIK",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Pardik",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-poslon-poslon",
+   "name": "Mesna zajednica Poslon",
+   "official_name": "MESNA ZAJEDNICA POSLON",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Poslon",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-praskovce-praskovce",
+   "name": "Mesna zajednica Praskovče",
+   "official_name": "MESNA ZAJEDNICA PRASKOVČE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Praskovče",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-pretrkovac-pretrkovac",
+   "name": "Mesna zajednica Pretrkovac",
+   "official_name": "MESNA ZAJEDNICA PRETRKOVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Pretrkovac",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-razanj-razanj",
+   "name": "Mesna zajednica Ražanj",
+   "official_name": "MESNA ZAJEDNICA RAŽANJ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-smilovac-smilovac",
+   "name": "Mesna zajednica Smilovac",
+   "official_name": "MESNA ZAJEDNICA SMILOVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Smilovac",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-stari-bracin-stari-bracin",
+   "name": "Mesna zajednica Stari Bračin",
+   "official_name": "MESNA ZAJEDNICA STARI BRAČIN",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Stari Bračin",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-vitosevac-vitosevac",
+   "name": "Mesna zajednica Vitoševac",
+   "official_name": "MESNA ZAJEDNICA VITOŠEVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Vitoševac",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-cubura-cubura-07034",
+   "name": "Mesna zajednica Čubura",
+   "official_name": "MESNA ZAJEDNICA ČUBURA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-setka-setka",
+   "name": "Mesna zajednica Šetka",
+   "official_name": "MESNA ZAJEDNICA ŠETKA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Šetka",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  }
+ ]
+}

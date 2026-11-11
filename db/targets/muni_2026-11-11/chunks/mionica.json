@@ -1,0 +1,252 @@
+{
+ "municipality": "Mionica",
+ "municipality_slug": "mionica",
+ "municipality_site": null,
+ "chunk": "mionica",
+ "of": 1,
+ "rows": [
+  {
+   "org_slug": "kulturni-centar-mionica-mionica",
+   "name": "Kulturni centar \"Mionica\"",
+   "official_name": "KULTURNI CENTAR \"MIONICA\"",
+   "type_slug": "kulturni-centar",
+   "type": "Kulturni centar / Dom kulture",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "biblioteka-milovan-glisic-mionica",
+   "name": "Biblioteka \"Milovan Glišić\"",
+   "official_name": "BIBLIOTEKA \"MILOVAN GLIŠIĆ\"",
+   "type_slug": "narodna-biblioteka",
+   "type": "Narodna biblioteka",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstina-mionica-opstinsko-vece-mionica",
+   "name": "Opština Mionica - Opštinsko veće",
+   "official_name": "OPŠTINA MIONICA - OPŠTINSKO VEĆE",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstina-mionica-predsednik-opstine-mionica",
+   "name": "Opština Mionica - Predsednik opštine",
+   "official_name": "OPŠTINA MIONICA - PREDSEDNIK OPŠTINE",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstina-mionica-skupstina-opstine-mionica",
+   "name": "Opština Mionica - skupština opštine",
+   "official_name": "OPŠTINA MIONICA - SKUPŠTINA OPŠTINE",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstina-mionica-opstinsko-pravobranilastvo-mionica",
+   "name": "Opština Mionica-Opštinsko Pravobranilaštvo",
+   "official_name": "OPŠTINA MIONICA-OPŠTINSKO PRAVOBRANILAŠTVO",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-milan-rakic-mionica",
+   "name": "Osnovna škola \"Milan Rakić\"",
+   "official_name": "OSNOVNA ŠKOLA \"MILAN RAKIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Mionica",
+   "have": {
+    "address": "Kneza Grbovića 31",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-vojvoda-zivojin-misic-rajkovic",
+   "name": "Osnovna škola \"Vojvoda Živojin Mišić\"",
+   "official_name": "OSNOVNA ŠKOLA \"VOJVODA ŽIVOJIN MIŠIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Rajković",
+   "have": {
+    "address": "Nikole Tesle 8",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-neven-mionica",
+   "name": "Predškolska ustanova \"Neven\"",
+   "official_name": "PREDŠKOLSKA USTANOVA \"NEVEN\"",
+   "type_slug": "predskolska-ustanova",
+   "type": "Predškolska ustanova (vrtić)",
+   "website": null,
+   "settlement": "Mionica",
+   "have": {
+    "address": "Dr Živorada Višića bb",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "sportski-centar-mionica-mionica",
+   "name": "Sportski centar Mionica",
+   "official_name": "SPORTSKI CENTAR MIONICA",
+   "type_slug": "sportski-centar",
+   "type": "Sportski centar",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "srednja-skola-mionica-mionica",
+   "name": "Srednja škola \"Mionica\"",
+   "official_name": "SREDNJA ŠKOLA \"MIONICA\"",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Mionica",
+   "have": {
+    "address": "Kneza Grbovića bb",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "centar-za-obrazovanje-i-razvoj-mionica-mionica-mionica",
+   "name": "Centar za obrazovanje i razvoj \"Mionica\" Mionica",
+   "official_name": "CENTAR ZA OBRAZOVANJE I RAZVOJ \"MIONICA\" MIONICA",
+   "type_slug": "ustanova",
+   "type": "Javna ustanova",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-rakari-mionica",
+   "name": "Mesna zajednica Rakari",
+   "official_name": "MESNA ZAJEDNICA RAKARI",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  }
+ ]
+}

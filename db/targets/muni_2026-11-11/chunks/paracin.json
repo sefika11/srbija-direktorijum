@@ -1,0 +1,1307 @@
+{
+ "municipality": "Paraćin",
+ "municipality_slug": "paracin",
+ "municipality_site": null,
+ "chunk": "paracin",
+ "of": 1,
+ "rows": [
+  {
+   "org_slug": "apoteka-paracin-paracin",
+   "name": "Apoteka Paraćin",
+   "official_name": "APOTEKA PARAĆIN",
+   "type_slug": "apoteka",
+   "type": "Apotekarska ustanova",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "javno-preduzece-za-koriscenje-i-upravljanje-poslovnim-prostorom-poslovni-centar-paracin-paracin-para",
+   "name": "Javno preduzeće za Korišćenje i upravljanje Poslovnim Prostorom Poslovni centar Paraćin, Paraćin",
+   "official_name": "JAVNO PREDUZEĆE ZA KORIŠĆENJE I UPRAVLJANJE POSLOVNIM PROSTOROM POSLOVNI CENTAR PARAĆIN, PARAĆIN",
+   "type_slug": "javno-preduzece",
+   "type": "Javno preduzeće / društvo",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstinska-stambena-agencija-paracin",
+   "name": "Opštinska stambena agencija",
+   "official_name": "OPŠTINSKA STAMBENA AGENCIJA",
+   "type_slug": "javno-preduzece",
+   "type": "Javno preduzeće / društvo",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "kulturni-centar-paracin-paracin",
+   "name": "Kulturni centar \"Paraćin\"",
+   "official_name": "KULTURNI CENTAR \"PARAĆIN\"",
+   "type_slug": "kulturni-centar",
+   "type": "Kulturni centar / Dom kulture",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "pozoriste-paracin-paracin",
+   "name": "Pozorište \"Paraćin\"",
+   "official_name": "POZORIŠTE \"PARAĆIN\"",
+   "type_slug": "kulturni-centar",
+   "type": "Kulturni centar / Dom kulture",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "zavicajni-muzej-paracin-paracin",
+   "name": "Zavičajni muzej Paraćin",
+   "official_name": "ZAVIČAJNI MUZEJ PARAĆIN",
+   "type_slug": "muzej",
+   "type": "Muzej / Arhiv",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-muzicka-skola-milenko-zivkovic-paracin-paracin",
+   "name": "Osnovna muzička škola \"Milenko Živković\" Paraćin",
+   "official_name": "OSNOVNA MUZIČKA ŠKOLA \"MILENKO ŽIVKOVIĆ\" PARAĆIN",
+   "type_slug": "muzicka-skola",
+   "type": "Muzička ili baletska škola",
+   "website": null,
+   "settlement": "Paraćin",
+   "have": {
+    "address": "Branka Krsmanovića 47",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "biblioteka-dr-vicentije-rakic-paracin",
+   "name": "Biblioteka \"Dr Vićentije Rakić\"",
+   "official_name": "BIBLIOTEKA \"DR VIĆENTIJE RAKIĆ\"",
+   "type_slug": "narodna-biblioteka",
+   "type": "Narodna biblioteka",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstinsko-pravobranilastvo-opstine-paracin-paracin",
+   "name": "Opštinsko Pravobranilaštvo opštine Paraćin",
+   "official_name": "OPŠTINSKO PRAVOBRANILAŠTVO OPŠTINE PARAĆIN",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstinsko-vece-opstine-paracin-paracin",
+   "name": "Opštinsko veće opštine Paraćin",
+   "official_name": "OPŠTINSKO VEĆE OPŠTINE PARAĆIN",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "predsednik-opstine-paracin-paracin",
+   "name": "Predsednik opštine Paraćin",
+   "official_name": "PREDSEDNIK OPŠTINE PARAĆIN",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "skupstina-opstine-paracin-paracin",
+   "name": "Skupština opštine Paraćin",
+   "official_name": "SKUPŠTINA OPŠTINE PARAĆIN",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-branko-krsmanovic-sikirica",
+   "name": "Osnovna škola \"Branko Krsmanović\"",
+   "official_name": "OSNOVNA ŠKOLA \"BRANKO KRSMANOVIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Sikirica",
+   "have": {
+    "address": "Branka Krsmanovića bb",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-branko-krsmanovic-donja-mutnica-paracin",
+   "name": "Osnovna škola \"Branko Krsmanović\" Donja Mutnica",
+   "official_name": "OSNOVNA ŠKOLA \"BRANKO KRSMANOVIĆ\" DONJA MUTNICA",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-branko-radicevic-popovac-paracin",
+   "name": "Osnovna škola \"Branko Radičević\" Popovac",
+   "official_name": "OSNOVNA ŠKOLA \"BRANKO RADIČEVIĆ\" POPOVAC",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Popovac",
+   "have": {
+    "address": "Zabreška bb",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-momcilo-popovic-ozren-paracin",
+   "name": "Osnovna škola \"Momčilo Popović Ozren\"",
+   "official_name": "OSNOVNA ŠKOLA \"MOMČILO POPOVIĆ OZREN\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Paraćin",
+   "have": {
+    "address": "Gloždački Venac 23a",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-radoje-domanovic-paracin",
+   "name": "Osnovna škola \"Radoje Domanović\"",
+   "official_name": "OSNOVNA ŠKOLA \"RADOJE DOMANOVIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Paraćin",
+   "have": {
+    "address": "Knjaza Miloša 2",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-stevan-jakovljevic-paracin",
+   "name": "Osnovna škola \"Stevan Jakovljević\"",
+   "official_name": "OSNOVNA ŠKOLA \"STEVAN JAKOVLJEVIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Paraćin",
+   "have": {
+    "address": "Vojvode Bojovića 13",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-vuk-karadzic-potocac-paracin",
+   "name": "Osnovna škola \"Vuk Karadžić\" Potočac",
+   "official_name": "OSNOVNA ŠKOLA \"VUK KARADŽIĆ\" POTOČAC",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Potočac",
+   "have": {
+    "address": "Banovinski Put bb",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-djura-jaksic-paracin",
+   "name": "Osnovna škola \"Đura Jakšić\"",
+   "official_name": "OSNOVNA ŠKOLA \"ĐURA JAKŠIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Paraćin",
+   "have": {
+    "address": "Ravanička 3",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-bambi-paracin-paracin",
+   "name": "Predškolska ustanova \"Bambi\" Paraćin",
+   "official_name": "PREDŠKOLSKA USTANOVA \"BAMBI\" PARAĆIN",
+   "type_slug": "predskolska-ustanova",
+   "type": "Predškolska ustanova (vrtić)",
+   "website": null,
+   "settlement": "Paraćin",
+   "have": {
+    "address": "Nikole Pašića 33",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "sportsko-rekreativni-centar-borac-paracin-paracin",
+   "name": "Sportsko Rekreativni centar \"Borac\" Paraćin",
+   "official_name": "SPORTSKO REKREATIVNI CENTAR \"BORAC\" PARAĆIN",
+   "type_slug": "sportski-centar",
+   "type": "Sportski centar",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "ustanova-sportsko-rekreativni-centar-7-juli-paracin",
+   "name": "Ustanova sportsko Rekreativni centar \"7. Juli\"",
+   "official_name": "USTANOVA SPORTSKO REKREATIVNI CENTAR \"7. JULI\"",
+   "type_slug": "sportski-centar",
+   "type": "Sportski centar",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "ekonomsko-trgovinska-skola-paracin-paracin",
+   "name": "Ekonomsko-Trgovinska škola Paraćin",
+   "official_name": "EKONOMSKO-TRGOVINSKA ŠKOLA PARAĆIN",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Paraćin",
+   "have": {
+    "address": "Dr.Dragoljuba Jovanovića 2",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "gimnazija-paracin-paracin",
+   "name": "Gimnazija Paraćin",
+   "official_name": "GIMNAZIJA PARAĆIN",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Paraćin",
+   "have": {
+    "address": "Branka Krsmanovića 57",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "masinsko-elektrotehnicka-skola-paracin",
+   "name": "Mašinsko-Elektrotehnička škola",
+   "official_name": "MAŠINSKO-ELEKTROTEHNIČKA ŠKOLA",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Paraćin",
+   "have": {
+    "address": "Branka Krsmanovića 57",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "tehnoloska-skola-paracin",
+   "name": "Tehnološka škola",
+   "official_name": "TEHNOLOŠKA ŠKOLA",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Paraćin",
+   "have": {
+    "address": "Dr.Dragoljuba Jovanovića 2",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "dom-omladine-paracin-paracin",
+   "name": "Dom omladine \"Paraćin\"",
+   "official_name": "DOM OMLADINE \"PARAĆIN\"",
+   "type_slug": "ustanova",
+   "type": "Javna ustanova",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-4-juli-paracin",
+   "name": "Mesna zajednica \"4. Juli\"",
+   "official_name": "MESNA ZAJEDNICA \"4. JULI\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-7-juli-paracin",
+   "name": "Mesna zajednica \"7. Juli\"",
+   "official_name": "MESNA ZAJEDNICA \"7. JULI\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-branko-krsmanovic-paracin",
+   "name": "Mesna zajednica \"Branko Krsmanović\"",
+   "official_name": "MESNA ZAJEDNICA \"BRANKO KRSMANOVIĆ\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-glozdak-paracin",
+   "name": "Mesna zajednica \"Gloždak\"",
+   "official_name": "MESNA ZAJEDNICA \"GLOŽDAK\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-vrapcane-paracin",
+   "name": "Mesna zajednica \"Vrapčane\"",
+   "official_name": "MESNA ZAJEDNICA \"VRAPČANE\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-xi-kongres-paracin",
+   "name": "Mesna zajednica \"Xi Kongres\"",
+   "official_name": "MESNA ZAJEDNICA \"XI KONGRES\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-znojac-dankovo-paracin",
+   "name": "Mesna zajednica \"Znojac-Dankovo\"",
+   "official_name": "MESNA ZAJEDNICA \"ZNOJAC-DANKOVO\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-centar-paracin",
+   "name": "Mesna zajednica \"centar\"",
+   "official_name": "MESNA ZAJEDNICA \"CENTAR\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-bosnjane-paracin",
+   "name": "Mesna zajednica Bošnjane",
+   "official_name": "MESNA ZAJEDNICA BOŠNJANE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-buljane-paracin",
+   "name": "Mesna zajednica Buljane",
+   "official_name": "MESNA ZAJEDNICA BULJANE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-busilovac-paracin",
+   "name": "Mesna zajednica Busilovac",
+   "official_name": "MESNA ZAJEDNICA BUSILOVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-davidovac-paracin",
+   "name": "Mesna zajednica Davidovac",
+   "official_name": "MESNA ZAJEDNICA DAVIDOVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-donja-mutnica-paracin",
+   "name": "Mesna zajednica Donja Mutnica",
+   "official_name": "MESNA ZAJEDNICA DONJA MUTNICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-donje-vidovo-paracin",
+   "name": "Mesna zajednica Donje Vidovo",
+   "official_name": "MESNA ZAJEDNICA DONJE VIDOVO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-drenovac-paracin",
+   "name": "Mesna zajednica Drenovac",
+   "official_name": "MESNA ZAJEDNICA DRENOVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-glavica-paracin",
+   "name": "Mesna zajednica Glavica",
+   "official_name": "MESNA ZAJEDNICA GLAVICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-golubovac-paracin",
+   "name": "Mesna zajednica Golubovac",
+   "official_name": "MESNA ZAJEDNICA GOLUBOVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-gornja-mutnica-paracin",
+   "name": "Mesna zajednica Gornja Mutnica",
+   "official_name": "MESNA ZAJEDNICA GORNJA MUTNICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-gornje-vidovo-paracin",
+   "name": "Mesna zajednica Gornje Vidovo",
+   "official_name": "MESNA ZAJEDNICA GORNJE VIDOVO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-izvor-paracin",
+   "name": "Mesna zajednica Izvor",
+   "official_name": "MESNA ZAJEDNICA IZVOR",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-klacevica-paracin",
+   "name": "Mesna zajednica Klačevica",
+   "official_name": "MESNA ZAJEDNICA KLAČEVICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-krezbinac-paracin",
+   "name": "Mesna zajednica Krežbinac",
+   "official_name": "MESNA ZAJEDNICA KREŽBINAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-lebina-paracin",
+   "name": "Mesna zajednica Lebina",
+   "official_name": "MESNA ZAJEDNICA LEBINA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-lesje-paracin",
+   "name": "Mesna zajednica Lešje",
+   "official_name": "MESNA ZAJEDNICA LEŠJE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-mirilovac-paracin",
+   "name": "Mesna zajednica Mirilovac",
+   "official_name": "MESNA ZAJEDNICA MIRILOVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-plana-paracin",
+   "name": "Mesna zajednica Plana",
+   "official_name": "MESNA ZAJEDNICA PLANA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-popovac-paracin",
+   "name": "Mesna zajednica Popovac",
+   "official_name": "MESNA ZAJEDNICA POPOVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-potocac-paracin",
+   "name": "Mesna zajednica Potočac",
+   "official_name": "MESNA ZAJEDNICA POTOČAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-ratare-paracin",
+   "name": "Mesna zajednica Ratare",
+   "official_name": "MESNA ZAJEDNICA RATARE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-rasevica-paracin",
+   "name": "Mesna zajednica Raševica",
+   "official_name": "MESNA ZAJEDNICA RAŠEVICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-sikirica-paracin",
+   "name": "Mesna zajednica Sikirica",
+   "official_name": "MESNA ZAJEDNICA SIKIRICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-sinji-vir-paracin",
+   "name": "Mesna zajednica Sinji Vir",
+   "official_name": "MESNA ZAJEDNICA SINJI VIR",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-striza-paracin",
+   "name": "Mesna zajednica Striža",
+   "official_name": "MESNA ZAJEDNICA STRIŽA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-stubica-paracin",
+   "name": "Mesna zajednica Stubica",
+   "official_name": "MESNA ZAJEDNICA STUBICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-svojnovo-paracin",
+   "name": "Mesna zajednica Svojnovo",
+   "official_name": "MESNA ZAJEDNICA SVOJNOVO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-tekija-paracin",
+   "name": "Mesna zajednica Tekija",
+   "official_name": "MESNA ZAJEDNICA TEKIJA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-tresnjevica-paracin",
+   "name": "Mesna zajednica Trešnjevica",
+   "official_name": "MESNA ZAJEDNICA TREŠNJEVICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-zabrega-paracin",
+   "name": "Mesna zajednica Zabrega",
+   "official_name": "MESNA ZAJEDNICA ZABREGA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-cepure-paracin",
+   "name": "Mesna zajednica Čepure",
+   "official_name": "MESNA ZAJEDNICA ČEPURE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-saludovac-paracin",
+   "name": "Mesna zajednica Šaludovac",
+   "official_name": "MESNA ZAJEDNICA ŠALUDOVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-savac-paracin",
+   "name": "Mesna zajednica Šavac",
+   "official_name": "MESNA ZAJEDNICA ŠAVAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  }
+ ]
+}

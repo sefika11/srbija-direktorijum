@@ -1,0 +1,651 @@
+{
+ "municipality": "Osečina",
+ "municipality_slug": "osecina",
+ "municipality_site": null,
+ "chunk": "osecina",
+ "of": 1,
+ "rows": [
+  {
+   "org_slug": "centar-za-socijalni-rad-napredak-osecina-osecina",
+   "name": "Centar za socijalni rad \"Napredak\" Osečina",
+   "official_name": "CENTAR ZA SOCIJALNI RAD \"NAPREDAK\" OSEČINA",
+   "type_slug": "centar-za-socijalni-rad",
+   "type": "Centar za socijalni rad",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-osecina-osecina-osecina-varosica",
+   "name": "Javno komunalno preduzeće Osečina, Osečina",
+   "official_name": "JAVNO KOMUNALNO PREDUZEĆE OSEČINA, OSEČINA",
+   "type_slug": "jkp-cistoca",
+   "type": "JKP Čistoća / Komunalac",
+   "website": "https://www.jkposecina.rs/",
+   "settlement": "Osečina (Varošica)",
+   "have": {
+    "address": null,
+    "phones": "014 3451847; 014 3451175; 014 451896; 063 1090146",
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "narodna-biblioteka-osecina-osecina",
+   "name": "Narodna biblioteka \"Osečina\"",
+   "official_name": "NARODNA BIBLIOTEKA \"OSEČINA\"",
+   "type_slug": "narodna-biblioteka",
+   "type": "Narodna biblioteka",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstina-osecina-opstinska-uprava-osecina",
+   "name": "Opština Osečina - opštinska uprava",
+   "official_name": "OPŠTINA OSEČINA - OPŠTINSKA UPRAVA",
+   "type_slug": "opstinska-uprava",
+   "type": "Opštinska uprava",
+   "website": "https://www.osecina.ls.gov.rs/",
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": "014 451031; 014 451311",
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "opstina-osecina-opstinsko-vece-osecina",
+   "name": "Opština Osečina - Opštinsko veće",
+   "official_name": "OPŠTINA OSEČINA - OPŠTINSKO VEĆE",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstina-osecina-predsednik-opstine-osecina",
+   "name": "Opština Osečina - Predsednik opštine",
+   "official_name": "OPŠTINA OSEČINA - PREDSEDNIK OPŠTINE",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstina-osecina-skupstina-opstine-osecina",
+   "name": "Opština Osečina - skupština opštine",
+   "official_name": "OPŠTINA OSEČINA - SKUPŠTINA OPŠTINE",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-vojvoda-misic-pecka-osecina",
+   "name": "Osnovna škola \"Vojvoda Mišić\" Pecka",
+   "official_name": "OSNOVNA ŠKOLA \"VOJVODA MIŠIĆ\" PECKA",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Pecka",
+   "have": {
+    "address": "Kralja Petra Prvog 50",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-lane-osecina",
+   "name": "Predškolska ustanova \"Lane\"",
+   "official_name": "PREDŠKOLSKA USTANOVA \"LANE\"",
+   "type_slug": "predskolska-ustanova",
+   "type": "Predškolska ustanova (vrtić)",
+   "website": null,
+   "settlement": "Osečina",
+   "have": {
+    "address": "Hajduk Veljkova 6",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "sportski-centar-osecina-osecina",
+   "name": "Sportski centar \"Osečina\"",
+   "official_name": "SPORTSKI CENTAR \"OSEČINA\"",
+   "type_slug": "sportski-centar",
+   "type": "Sportski centar",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "obrazovno-vaspitni-centar-braca-nedic-osecina",
+   "name": "Obrazovno-Vaspitni Centar\"braća Nedić\"",
+   "official_name": "OBRAZOVNO-VASPITNI CENTAR\"BRAĆA NEDIĆ\"",
+   "type_slug": "ustanova",
+   "type": "Javna ustanova",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-bastav-osecina",
+   "name": "Mesna zajednica \"Bastav\"",
+   "official_name": "MESNA ZAJEDNICA \"BASTAV\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-carina-osecina",
+   "name": "Mesna zajednica \"Carina\"",
+   "official_name": "MESNA ZAJEDNICA \"CARINA\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-gunjaci-osecina",
+   "name": "Mesna zajednica \"Gunjaci\"",
+   "official_name": "MESNA ZAJEDNICA \"GUNJACI\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-varosica-osecina",
+   "name": "Mesna zajednica \"Varošica\"",
+   "official_name": "MESNA ZAJEDNICA \"VAROŠICA\"",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-belotic-osecina",
+   "name": "Mesna zajednica Belotić",
+   "official_name": "MESNA ZAJEDNICA BELOTIĆ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-bratacic-osecina",
+   "name": "Mesna zajednica Bratačić",
+   "official_name": "MESNA ZAJEDNICA BRATAČIĆ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-dragijevica-osecina",
+   "name": "Mesna zajednica Dragijevica",
+   "official_name": "MESNA ZAJEDNICA DRAGIJEVICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-dragodol-osecina",
+   "name": "Mesna zajednica Dragodol",
+   "official_name": "MESNA ZAJEDNICA DRAGODOL",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-gornje-crniljevo-osecina",
+   "name": "Mesna zajednica Gornje Crniljevo",
+   "official_name": "MESNA ZAJEDNICA GORNJE CRNILJEVO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-komiric-osecina",
+   "name": "Mesna zajednica Komirić",
+   "official_name": "MESNA ZAJEDNICA KOMIRIĆ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-konjic-osecina",
+   "name": "Mesna zajednica Konjic",
+   "official_name": "MESNA ZAJEDNICA KONJIC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-konjusa-osecina",
+   "name": "Mesna zajednica Konjuša",
+   "official_name": "MESNA ZAJEDNICA KONJUŠA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-lopatanj-osecina",
+   "name": "Mesna zajednica Lopatanj",
+   "official_name": "MESNA ZAJEDNICA LOPATANJ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-osecina-2-varosica-osecina",
+   "name": "Mesna zajednica Osečina-2 Varošica",
+   "official_name": "MESNA ZAJEDNICA OSEČINA-2 VAROŠICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-osecina-3-varosica-osecina",
+   "name": "Mesna zajednica Osečina-3 Varošica",
+   "official_name": "MESNA ZAJEDNICA OSEČINA-3 VAROŠICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-osecina-4-varosica-osecina",
+   "name": "Mesna zajednica Osečina-4 Varošica",
+   "official_name": "MESNA ZAJEDNICA OSEČINA-4 VAROŠICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-ostruzanj-osecina",
+   "name": "Mesna zajednica Ostružanj",
+   "official_name": "MESNA ZAJEDNICA OSTRUŽANJ",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-pecka-osecina",
+   "name": "Mesna zajednica Pecka",
+   "official_name": "MESNA ZAJEDNICA PECKA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-pluzac-osecina",
+   "name": "Mesna zajednica Plužac",
+   "official_name": "MESNA ZAJEDNICA PLUŽAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-selo-osecina-osecina",
+   "name": "Mesna zajednica Selo Osečina",
+   "official_name": "MESNA ZAJEDNICA SELO OSEČINA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-sirdija-osecina",
+   "name": "Mesna zajednica Sirdija",
+   "official_name": "MESNA ZAJEDNICA SIRDIJA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-skadar-osecina",
+   "name": "Mesna zajednica Skadar",
+   "official_name": "MESNA ZAJEDNICA SKADAR",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-tudjin-osecina",
+   "name": "Mesna zajednica Tuđin",
+   "official_name": "MESNA ZAJEDNICA TUĐIN",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  }
+ ]
+}

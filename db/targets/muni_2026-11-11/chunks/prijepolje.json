@@ -1,0 +1,1039 @@
+{
+ "municipality": "Prijepolje",
+ "municipality_slug": "prijepolje",
+ "municipality_site": null,
+ "chunk": "prijepolje",
+ "of": 1,
+ "rows": [
+  {
+   "org_slug": "centar-za-socijalni-rad-prijepolje-prijepolje",
+   "name": "Centar za socijalni rad \"Prijepolje\"",
+   "official_name": "CENTAR ZA SOCIJALNI RAD \"PRIJEPOLJE\"",
+   "type_slug": "centar-za-socijalni-rad",
+   "type": "Centar za socijalni rad",
+   "website": "https://csrprijepolje.org.rs/",
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-lim-prijepolje-prijepolje",
+   "name": "Javno komunalno preduzeće Lim Prijepolje",
+   "official_name": "JAVNO KOMUNALNO PREDUZEĆE LIM PRIJEPOLJE",
+   "type_slug": "jkp-cistoca",
+   "type": "JKP Čistoća / Komunalac",
+   "website": "http://www.jkplimprijepolje.rs",
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": "033 71233",
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "dom-kulture-prijepolje-prijepolje",
+   "name": "Dom kulture Prijepolje",
+   "official_name": "DOM KULTURE PRIJEPOLJE",
+   "type_slug": "kulturni-centar",
+   "type": "Kulturni centar / Dom kulture",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "policijska-uprava-prijepolje",
+   "name": "Policijska uprava Prijepolje",
+   "official_name": null,
+   "type_slug": "mup-policijska-uprava",
+   "type": "MUP – Policijska uprava / stanica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": "033 711946; 033 711947; 033 711948",
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "muzej-u-prijepolju-prijepolje",
+   "name": "Muzej u Prijepolju",
+   "official_name": "MUZEJ U PRIJEPOLJU",
+   "type_slug": "muzej",
+   "type": "Muzej / Arhiv",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-muzicka-skola-prijepolje-prijepolje",
+   "name": "Osnovna muzička škola Prijepolje",
+   "official_name": "OSNOVNA MUZIČKA ŠKOLA PRIJEPOLJE",
+   "type_slug": "muzicka-skola",
+   "type": "Muzička ili baletska škola",
+   "website": null,
+   "settlement": "Prijepolje",
+   "have": {
+    "address": "Sandžačkih Brigada 2",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "biblioteka-vuk-karadzic-prijepolje",
+   "name": "Biblioteka \"Vuk Karadžić\"",
+   "official_name": "BIBLIOTEKA \"VUK KARADŽIĆ\"",
+   "type_slug": "narodna-biblioteka",
+   "type": "Narodna biblioteka",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstina-prijepolje-opstinska-uprava-prijepolje",
+   "name": "Opština Prijepolje - opštinska uprava",
+   "official_name": "OPŠTINA PRIJEPOLJE - OPŠTINSKA UPRAVA",
+   "type_slug": "opstinska-uprava",
+   "type": "Opštinska uprava",
+   "website": "https://prijepolje.ls.gov.rs",
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": "033 714073; 033 714170",
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "opstina-prijepolje-opstinsko-pravobranilastvo-prijepolje",
+   "name": "Opština Prijepolje - Opštinsko Pravobranilaštvo",
+   "official_name": "OPŠTINA PRIJEPOLJE - OPŠTINSKO PRAVOBRANILAŠTVO",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstina-prijepolje-opstinsko-vece-prijepolje",
+   "name": "Opština Prijepolje Opštinsko veće",
+   "official_name": "OPŠTINA PRIJEPOLJE OPŠTINSKO VEĆE",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstina-prijepolje-predsednik-opstine-prijepolje",
+   "name": "Opština Prijepolje Predsednik opštine",
+   "official_name": "OPŠTINA PRIJEPOLJE PREDSEDNIK OPŠTINE",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "opstina-prijepolje-skupstina-opstine-prijepolje",
+   "name": "Opština Prijepolje skupština opštine",
+   "official_name": "OPŠTINA PRIJEPOLJE SKUPŠTINA OPŠTINE",
+   "type_slug": "organ-jls",
+   "type": "Organ lokalne samouprave",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-bosko-buha-ivanje-prijepolje",
+   "name": "Osnovna škola \"Boško Buha\" Ivanje",
+   "official_name": "OSNOVNA ŠKOLA \"BOŠKO BUHA\" IVANJE",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Ivanje",
+   "have": {
+    "address": "Ivanje bb",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-dusan-tomasevic-cirko-prijepolje",
+   "name": "Osnovna škola \"Dušan Tomašević-Ćirko\"",
+   "official_name": "OSNOVNA ŠKOLA \"DUŠAN TOMAŠEVIĆ-ĆIRKO\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Kovačevac",
+   "have": {
+    "address": "Paraći bb",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-mihailo-bakovic-prijepolje",
+   "name": "Osnovna škola \"Mihailo Baković\"",
+   "official_name": "OSNOVNA ŠKOLA \"MIHAILO BAKOVIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Seljašnica",
+   "have": {
+    "address": "Seljašnica bb",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-milosav-stikovic-prijepolje",
+   "name": "Osnovna škola \"Milosav Stiković\"",
+   "official_name": "OSNOVNA ŠKOLA \"MILOSAV STIKOVIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Prijepolje",
+   "have": {
+    "address": "Pionirska 1",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-sveti-sava-prijepolje-prijepolje",
+   "name": "Osnovna škola \"Sveti Sava\" Prijepolje",
+   "official_name": "OSNOVNA ŠKOLA \"SVETI SAVA\" PRIJEPOLJE",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Prijepolje",
+   "have": {
+    "address": "Lole Ribara 1",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-svetozar-markovic-prijepolje",
+   "name": "Osnovna škola \"Svetozar Marković\"",
+   "official_name": "OSNOVNA ŠKOLA \"SVETOZAR MARKOVIĆ\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Brodarevo",
+   "have": {
+    "address": "Pionirska 1",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-vladimir-peric-valter-prijepolje",
+   "name": "Osnovna škola \"Vladimir Perić-Valter\"",
+   "official_name": "OSNOVNA ŠKOLA \"VLADIMIR PERIĆ-VALTER\"",
+   "type_slug": "osnovna-skola",
+   "type": "Osnovna škola",
+   "website": null,
+   "settlement": "Prijepolje",
+   "have": {
+    "address": "Sandžačkih Brigada 13",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-misa-cvijovic-prijepolje",
+   "name": "Predškolska ustanova \"Miša Cvijović\"",
+   "official_name": "PREDŠKOLSKA USTANOVA \"MIŠA CVIJOVIĆ\"",
+   "type_slug": "predskolska-ustanova",
+   "type": "Predškolska ustanova (vrtić)",
+   "website": null,
+   "settlement": "Prijepolje",
+   "have": {
+    "address": "Sandžačkih Brigada 9",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "ekonomsko-trgovinska-skola-prijepolje-prijepolje",
+   "name": "Ekonomsko-Trgovinska škola Prijepolje",
+   "official_name": "EKONOMSKO-TRGOVINSKA ŠKOLA PRIJEPOLJE",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Prijepolje",
+   "have": {
+    "address": "4.Decembra 3",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "prijepoljska-gimnazija-prijepolje",
+   "name": "Prijepoljska gimnazija",
+   "official_name": "PRIJEPOLJSKA GIMNAZIJA",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Prijepolje",
+   "have": {
+    "address": "4 Decembar 3",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "tehnicka-skola-prijepolje-prijepolje",
+   "name": "Tehnička škola Prijepolje",
+   "official_name": "TEHNIČKA ŠKOLA PRIJEPOLJE",
+   "type_slug": "srednja-skola",
+   "type": "Srednja škola / Gimnazija",
+   "website": null,
+   "settlement": "Prijepolje",
+   "have": {
+    "address": "4 Decembar 3",
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "odeljenje-za-vanredne-situacije-prijepolje",
+   "name": "Odeljenje za vanredne situacije Prijepolje",
+   "official_name": null,
+   "type_slug": "uprava-za-vanredne-situacije",
+   "type": "MUP – Uprava za vanredne situacije (vatrogasci)",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "ustanova-za-sport-i-omladinu-prijepolje-prijepolje",
+   "name": "Ustanova za sport i omladinu Prijepolje",
+   "official_name": "USTANOVA ZA SPORT I OMLADINU PRIJEPOLJE",
+   "type_slug": "ustanova",
+   "type": "Javna ustanova",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-aljinovici-aljinovici",
+   "name": "Mesna zajednica Aljinovići",
+   "official_name": "MESNA ZAJEDNICA ALJINOVIĆI",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Aljinovići",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-babine-donje-babine",
+   "name": "Mesna zajednica Babine",
+   "official_name": "MESNA ZAJEDNICA BABINE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Donje Babine",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-brodarevo-brodarevo",
+   "name": "Mesna zajednica Brodarevo",
+   "official_name": "MESNA ZAJEDNICA BRODAREVO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Brodarevo",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-drenova-prijepolje",
+   "name": "Mesna zajednica Drenova",
+   "official_name": "MESNA ZAJEDNICA DRENOVA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-dzurovo-dzurovo",
+   "name": "Mesna zajednica Džurovo",
+   "official_name": "MESNA ZAJEDNICA DŽUROVO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Džurovo",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-gostun-gostun",
+   "name": "Mesna zajednica Gostun",
+   "official_name": "MESNA ZAJEDNICA GOSTUN",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Gostun",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-hisardzik-hisardzik",
+   "name": "Mesna zajednica Hisardžik",
+   "official_name": "MESNA ZAJEDNICA HISARDŽIK",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Hisardžik",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-ivanje-ivanje",
+   "name": "Mesna zajednica Ivanje",
+   "official_name": "MESNA ZAJEDNICA IVANJE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-jabuka-jabuka-06827",
+   "name": "Mesna zajednica Jabuka",
+   "official_name": "MESNA ZAJEDNICA JABUKA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-kamena-gora-kamena-gora",
+   "name": "Mesna zajednica Kamena Gora",
+   "official_name": "MESNA ZAJEDNICA KAMENA GORA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Kamena Gora",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-kacevo-kacevo",
+   "name": "Mesna zajednica Kaćevo",
+   "official_name": "MESNA ZAJEDNICA KAĆEVO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Kaćevo",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-kolovrat-prijepolje",
+   "name": "Mesna zajednica Kolovrat",
+   "official_name": "MESNA ZAJEDNICA KOLOVRAT",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-kosatica-kosatica",
+   "name": "Mesna zajednica Kosatica",
+   "official_name": "MESNA ZAJEDNICA KOSATICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Kosatica",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-mataruge-mataruge",
+   "name": "Mesna zajednica Mataruge",
+   "official_name": "MESNA ZAJEDNICA MATARUGE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-mijani-mijani",
+   "name": "Mesna zajednica Mijani",
+   "official_name": "MESNA ZAJEDNICA MIJANI",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Mijani",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-milesevo-milesevo",
+   "name": "Mesna zajednica Mileševo",
+   "official_name": "MESNA ZAJEDNICA MILEŠEVO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-milosev-do-milosev-do",
+   "name": "Mesna zajednica Milošev do",
+   "official_name": "MESNA ZAJEDNICA MILOŠEV DO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Milošev do",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-orasac-orasac",
+   "name": "Mesna zajednica Orašac",
+   "official_name": "MESNA ZAJEDNICA ORAŠAC",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-pravosevo-pravosevo",
+   "name": "Mesna zajednica Pravoševo",
+   "official_name": "MESNA ZAJEDNICA PRAVOŠEVO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Pravoševo",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-prijepolje-prijepolje",
+   "name": "Mesna zajednica Prijepolje",
+   "official_name": "MESNA ZAJEDNICA PRIJEPOLJE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-rasno-rasno",
+   "name": "Mesna zajednica Rasno",
+   "official_name": "MESNA ZAJEDNICA RASNO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-sedobro-sedobro",
+   "name": "Mesna zajednica Sedobro",
+   "official_name": "MESNA ZAJEDNICA SEDOBRO",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Sedobro",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-seljasnica-seljasnica",
+   "name": "Mesna zajednica Seljašnica",
+   "official_name": "MESNA ZAJEDNICA SELJAŠNICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Seljašnica",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-slatina-slatina",
+   "name": "Mesna zajednica Slatina",
+   "official_name": "MESNA ZAJEDNICA SLATINA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-sopotnica-sopotnica",
+   "name": "Mesna zajednica Sopotnica",
+   "official_name": "MESNA ZAJEDNICA SOPOTNICA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-stranjani-gornji-stranjani",
+   "name": "Mesna zajednica Stranjani",
+   "official_name": "MESNA ZAJEDNICA STRANJANI",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Gornji Stranjani",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-toci-crkveni-toci",
+   "name": "Mesna zajednica Toci",
+   "official_name": "MESNA ZAJEDNICA TOCI",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Crkveni Toci",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-velika-zupa-kovacevac",
+   "name": "Mesna zajednica Velika Župa",
+   "official_name": "MESNA ZAJEDNICA VELIKA ŽUPA",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-zavinogradje-zavinogradje",
+   "name": "Mesna zajednica Zavinograđe",
+   "official_name": "MESNA ZAJEDNICA ZAVINOGRAĐE",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Zavinograđe",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-zvijezd-zvijezd",
+   "name": "Mesna zajednica Zvijezd",
+   "official_name": "MESNA ZAJEDNICA ZVIJEZD",
+   "type_slug": "mesna-zajednica",
+   "type": "Mesna zajednica",
+   "website": null,
+   "settlement": "Zvijezd",
+   "have": {
+    "address": null,
+    "phones": null,
+    "email": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phone"
+   ]
+  }
+ ]
+}
