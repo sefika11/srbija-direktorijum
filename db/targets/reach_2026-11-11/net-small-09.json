@@ -1,0 +1,632 @@
+{
+ "kind": "network",
+ "title": "Manje mreže",
+ "type": "mixed",
+ "orgs": [
+  {
+   "org_slug": "apotekarska-ustanova-sunce-beograd",
+   "name": "Apotekarska ustanova \"Sunce\"",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 14276,
+     "unit": "SUNCE I",
+     "place": "Beograd",
+     "address": "Resavska 88",
+     "phones": "011 3619081",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14278,
+     "unit": "SUNCE 3",
+     "place": "Beograd",
+     "address": "Zaplanjska 57i",
+     "phones": "011 3962556",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14280,
+     "unit": "SUNCE 5",
+     "place": "Beograd",
+     "address": "Nehruova 51",
+     "phones": "011 2278926",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14282,
+     "unit": "SUNCE 6",
+     "place": "Beograd",
+     "address": "Meštrovićeva 32",
+     "phones": "011 3962627",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14284,
+     "unit": "SUNCE",
+     "place": "Beograd",
+     "address": "Prvomajska 8b",
+     "phones": "060 4242736",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14286,
+     "unit": "SUNCE",
+     "place": "Beograd",
+     "address": "Nikolaja Saltikova 2",
+     "phones": "060 4242735",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14289,
+     "unit": "SUNCE DOBANOVCI",
+     "place": "Beograd",
+     "address": "Dobanovci , Ugrinovačka 65 ,lokal 5 ,TC Sunce",
+     "phones": "060 4242710",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14291,
+     "unit": "SUNCE ARANĐELOVAC",
+     "place": "Aranđelovac",
+     "address": "Knjaza Miloša 263",
+     "phones": "034 715156",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14293,
+     "unit": "SUNCE ARANĐELOVAC 1",
+     "place": "Aranđelovac",
+     "address": "Cara Dušana 15",
+     "phones": "060 4242734",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14295,
+     "unit": "SUNCE AŠANjA",
+     "place": "Beograd",
+     "address": "Ašanja,Karađorđeva 4",
+     "phones": "064 6585920",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14297,
+     "unit": "SUNCE ALTINA",
+     "place": "Beograd",
+     "address": "Pavla Vujisića 24",
+     "phones": "060 4242737",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14299,
+     "unit": "SUNCE 4",
+     "place": "Beograd",
+     "address": "Braničevska 4",
+     "phones": "060 4249009",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14302,
+     "unit": "SUNCE HRTKOVCI 1",
+     "place": "Beograd",
+     "address": "Hrtkovci,Vojvode Mišića 1 , lokal br.2",
+     "phones": "060 4249006",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14304,
+     "unit": "SUNCE ARANĐELOVAC 2",
+     "place": "Aranđelovac",
+     "address": "Ilije Garašanina 26",
+     "phones": "060 4242759",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14306,
+     "unit": "SUNCE ARANĐELOVAC 3",
+     "place": "Aranđelovac",
+     "address": "Knjaza Miloša 234",
+     "phones": "060 0171980",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14308,
+     "unit": "SUNCE 2",
+     "place": "Beograd",
+     "address": "Višnjički venac 1r",
+     "phones": "060 4242704",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14310,
+     "unit": "SUNCE DROGERIJA RADINAC",
+     "place": "Smederevo",
+     "address": "Radinac,Smederevska 4a",
+     "phones": "060 4242720",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14312,
+     "unit": "SUNCE ARANĐELOVAC 4",
+     "place": "Aranđelovac",
+     "address": "Knjaza Miloša 253",
+     "phones": "060 4242727",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14314,
+     "unit": "SUNCE drogerija SMEDEREVO",
+     "place": "Smederevo",
+     "address": "Crvene Armije 176a",
+     "phones": "060 4249019",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14317,
+     "unit": "SUNCE drogerie BULEVAR",
+     "place": "Beograd",
+     "address": "Bulevar Kralja Aleksandra 488a",
+     "phones": "060 4242756",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14319,
+     "unit": "SUNCE drogerija SMEDEREVO 1",
+     "place": "Smederevo",
+     "address": "Petrijevska 56",
+     "phones": "060 4242739",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14321,
+     "unit": "SUNCE LUG",
+     "place": "Beograd",
+     "address": "Smederevski put 3c",
+     "phones": "060 4242714",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14323,
+     "unit": "SUNCE ARANĐELOVAC FORTUNA",
+     "place": "Aranđelovac",
+     "address": "Kneza Mihajla bb",
+     "phones": "065 3636996",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14325,
+     "unit": "SUNCE ARANĐELOVAC 5",
+     "place": "Aranđelovac",
+     "address": "Ilije Garašanina 4",
+     "phones": "060 4249011",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14327,
+     "unit": "SUNCE IMPULS",
+     "place": "Beograd",
+     "address": "Višnjička 91a",
+     "phones": "060 5424210",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "apotekarska-ustanova-tg-pharm-medico-loznica",
+   "name": "Apotekarska ustanova \"TG-Pharm Medico\"",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 11060,
+     "unit": "Melem",
+     "place": "Loznica",
+     "address": "Jovana Cvijića broj 13",
+     "phones": "060 5896355",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11061,
+     "unit": "Zdravlje",
+     "place": "Loznica",
+     "address": "Dr Milenka Marina bb",
+     "phones": "060 5896359",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11062,
+     "unit": "Galen",
+     "place": "Loznica",
+     "address": "Gimnazijska broj 6",
+     "phones": "060 5896356",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11063,
+     "unit": "Menta",
+     "place": "Loznica",
+     "address": "Kralja Petra I broj 10",
+     "phones": "060 5896361",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11064,
+     "unit": "Herba",
+     "place": "Loznica",
+     "address": "Slobodana Penezića broj 59",
+     "phones": "060 5896354",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11065,
+     "unit": "Melisa",
+     "place": "Krupanj",
+     "address": "Vlade Zečevića broj 4",
+     "phones": "060 5896368",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11066,
+     "unit": "Melisa 2",
+     "place": "Krupanj",
+     "address": "Vlade Zečevića broj 68",
+     "phones": "060 5896371",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11067,
+     "unit": "Altea",
+     "place": "Loznica",
+     "address": "Maršala Tita bb",
+     "phones": "060 5896353",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11068,
+     "unit": "Neven",
+     "place": "Ljubovija",
+     "address": "Vojvode Mišića broj 53",
+     "phones": "060 5896365",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11069,
+     "unit": "Kale Pharm 2",
+     "place": "Beograd",
+     "address": "Dimitrija Tucovića",
+     "phones": "060 5896370",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11070,
+     "unit": "Kale Pharm 5",
+     "place": "Ljubovija",
+     "address": "Vojvode Mišića broj 27",
+     "phones": "060 5896363",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11071,
+     "unit": "Kale Pharm 6",
+     "place": "Loznica",
+     "address": "Trg Vuka karadžića bb",
+     "phones": "060 5896358",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11072,
+     "unit": "Kale Pharm 7",
+     "place": "Loznica",
+     "address": "Cerska bb",
+     "phones": "060 5896366",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11073,
+     "unit": "Kale Pharm 9",
+     "place": "Loznica",
+     "address": "Bolnička broj 46",
+     "phones": "060 5896362",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11074,
+     "unit": "Kale Pharm 12",
+     "place": "Beograd",
+     "address": "Masarikov trg broj 11",
+     "phones": "060 5896360",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11075,
+     "unit": "Kale Pharm 1",
+     "place": "Loznica",
+     "address": "Žikice Jovanovića broj 5",
+     "phones": "060 8896350",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11076,
+     "unit": "Kale Pharm 8",
+     "place": "Mali Zvornik",
+     "address": "Kralja Petra I broj 16",
+     "phones": "060 5896346",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11077,
+     "unit": "Kale Pharm 10",
+     "place": "Šabac",
+     "address": "Karađorđeva broj 2",
+     "phones": "060 8896348",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "apotekarska-ustanova-viva-nis",
+   "name": "Apotekarska ustanova \"Viva\"",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 11751,
+     "unit": "Apoteka Viva",
+     "place": "Niš",
+     "address": "Šumadijska bb",
+     "phones": "018 4560818",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11752,
+     "unit": "Apoteka Viva-Nova",
+     "place": "Niš",
+     "address": "Hajduk Veljkova broj 48",
+     "phones": "018 209777",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11753,
+     "unit": "Apoteka Viva-Natura",
+     "place": "Niš",
+     "address": "Dimitrija Tucakovića broj 25",
+     "phones": "018 4100186",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11754,
+     "unit": "Apoteka Viva-Pantelej",
+     "place": "Niš",
+     "address": "Borska broj 2",
+     "phones": "018 4559505",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11755,
+     "unit": "Apoteka Viva-Merošina",
+     "place": "Merošina",
+     "address": "Niška bb",
+     "phones": "018 4891057",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11756,
+     "unit": "Apoteka Viva-Activ",
+     "place": "Niš",
+     "address": "Njegoševa bb",
+     "phones": "018 257218",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11757,
+     "unit": "Apoteka Viva-Bubanj",
+     "place": "Niš",
+     "address": "Vojvode Putnika broj 14",
+     "phones": "018 560303",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11758,
+     "unit": "Apoteka Viva-Vrežina",
+     "place": "Niš",
+     "address": "Kongresa broj 2a",
+     "phones": "018 588658",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11759,
+     "unit": "Apoteka Viva-Kc",
+     "place": "Niš",
+     "address": "Ljube Nenadovića broj 61",
+     "phones": "018 530311",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11760,
+     "unit": "Apoteka Viva-H",
+     "place": "Niš",
+     "address": "Zetska broj 36a",
+     "phones": "065 2400186",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11761,
+     "unit": "Apoteka Viva -Bb",
+     "place": "Niš",
+     "address": "Pavla Sofrića broj 16",
+     "phones": "060 6500667",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  }
+ ],
+ "id": "net-small-09"
+}

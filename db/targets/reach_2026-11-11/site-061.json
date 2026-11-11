@@ -1,0 +1,400 @@
+{
+ "kind": "sites",
+ "title": "Institucije sa sopstvenim sajtom",
+ "rows": [
+  {
+   "org_slug": "parovic-pancevo-n9582325003",
+   "name": "Parović",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Pančevo",
+   "website": "http://www.ordinacijaparovic.rs/",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dental-b-beograd-n7067207999",
+   "name": "Dental B",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Rakovica",
+   "website": "https://www.dentalb.rs",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "063 435333",
+    "hours": "10:00-19:00"
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "gak-narodni-front-beograd-w50963328",
+   "name": "GAK Narodni front",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Savski venac",
+   "website": "http://gakfront.org/",
+   "mb": null,
+   "have": {
+    "address": "Kraljice Natalije 62",
+    "phones": "011 2068250",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "gracia-medica-beograd-n4176314191",
+   "name": "Gracia Medica",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Savski venac",
+   "website": "https://www.graciamedika.com/",
+   "mb": null,
+   "have": {
+    "address": "Koče Popovića 7",
+    "phones": "011 3285140",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "klinika-za-psihijatrijske-bolesti-dr-laza-lazarevic-beograd-w789101908",
+   "name": "Klinika za psihijatrijske bolesti „Dr Laza Lazarević”",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Savski venac",
+   "website": "https://www.lazalazarevic.rs/",
+   "mb": null,
+   "have": {
+    "address": "Višegradska 26",
+    "phones": "011 3636400",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "psihocentrala-beograd-n8809109093",
+   "name": "Psihocentrala",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Savski venac",
+   "website": "https://www.psihocentrala.com/",
+   "mb": null,
+   "have": {
+    "address": "Crnogorska 2",
+    "phones": "064 2288885",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "zzzzr-ergo-sana-beograd-n7193963685",
+   "name": "ZZZZR Ergo Sana",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Savski venac",
+   "website": "https://ergosana.rs",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "011 7850862",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "jugolab-sombor-n3298242022",
+   "name": "Jugolab",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Sombor",
+   "website": "https://jugolab.rs/",
+   "mb": null,
+   "have": {
+    "address": "Mirna 6",
+    "phones": "025 5150059",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "ars-medica-beograd-n13992936087",
+   "name": "Ars medica",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Stari grad",
+   "website": "https://www.arsmedica.rs",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "011 2438116; 065 2399723; 063 239972; 069 2399723",
+    "hours": "Mo-Fr 08:00-20:00; Sa 08:00-15:00"
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "beo-lab-beograd-n9722472302",
+   "name": "Beo-lab",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Stari grad",
+   "website": "https://www.beo-lab.rs/",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "011 3622888",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "beo-lab-beograd-n9722472303",
+   "name": "Beo-lab",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Stari grad",
+   "website": "https://www.beo-lab.rs/",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "011 3622888",
+    "hours": "Mo-Fr 07:00-20:00; Sa 07:00-14:00; Su off"
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "ginekoloska-ordinacija-palmoticeva-beograd-n2625724360",
+   "name": "Ginekološka ordinacija Palmotićeva",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Stari grad",
+   "website": "https://www.palmoticeva.com/",
+   "mb": null,
+   "have": {
+    "address": "Palmotićeva 33",
+    "phones": "011 3226040",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "medicina-rada-stari-grad-beograd-n11953405512",
+   "name": "Medicina rada Stari Grad",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Stari grad",
+   "website": "https://www.dzstarigrad.org/page/medicina-rada-informacije.html",
+   "mb": null,
+   "have": {
+    "address": "Džordža Vašingtona 19",
+    "phones": null,
+    "hours": "Mo-Fr 07:00-15:00"
+   },
+   "need": [
+    "phones"
+   ]
+  },
+  {
+   "org_slug": "orl-centar-beograd-n5283590721",
+   "name": "ORL centar",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Stari grad",
+   "website": "http://www.orlcentar.rs",
+   "mb": null,
+   "have": {
+    "address": "Dobračina 37",
+    "phones": null,
+    "hours": "Mo-Fr 09:00-17:00; Sa 09:00-14:00"
+   },
+   "need": [
+    "phones"
+   ]
+  },
+  {
+   "org_slug": "jugolab-subotica-subotica-n11148195576",
+   "name": "Jugolab Subotica",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Subotica",
+   "website": "https://jugolab.rs/",
+   "mb": null,
+   "have": {
+    "address": "Kumanovska 21",
+    "phones": "024 4150209",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-sveti-djordje-topola-n13138060698",
+   "name": "Dom zdravlja „Sveti Đorđe”",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Topola",
+   "website": "https://dztopola.rs/",
+   "mb": null,
+   "have": {
+    "address": "Kralja Petra prvog 5",
+    "phones": "034 6811504",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "covid-19-uzice-n9370643738",
+   "name": "COVID-19",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Užice",
+   "website": "https://covid19.rs/",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "064 8577507",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "covid-19-uzice-n9379984048",
+   "name": "COVID-19",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Užice",
+   "website": "https://covid19.rs/",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "064 8577507",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "covid-19-uzice-n9507942423",
+   "name": "COVID-19",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Užice",
+   "website": "https://covid19.rs/",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "064 8577507",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "vizim-uzice-n9469799084",
+   "name": "Vizim",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Užice",
+   "website": "https://www.vizim.co.rs/",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "011 7857777",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "beo-lab-beograd-n9722472299",
+   "name": "Beo-lab",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Voždovac",
+   "website": "https://www.beo-lab.rs/",
+   "mb": null,
+   "have": {
+    "address": "Mite Cenića 11",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "beo-lab-beograd-n9722472300",
+   "name": "Beo-lab",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Voždovac",
+   "website": "https://www.beo-lab.rs/",
+   "mb": null,
+   "have": {
+    "address": "Crnotravska 7-9",
+    "phones": "011 3622888",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "talija-lab-beograd-n8593070219",
+   "name": "Talija lab",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Voždovac",
+   "website": "https://www.talijalab.com/",
+   "mb": null,
+   "have": {
+    "address": "Ustanička 170",
+    "phones": null,
+    "hours": "Mo-Fr 07:00-20:00; Sa 08:00-16:00"
+   },
+   "need": [
+    "phones"
+   ]
+  },
+  {
+   "org_slug": "aqualab-beograd-n6790884688",
+   "name": "Aqualab",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Vračar",
+   "website": "https://www.aqualab.rs",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "011 2441551",
+    "hours": "24/7"
+   },
+   "need": [
+    "address"
+   ]
+  }
+ ],
+ "id": "site-061"
+}

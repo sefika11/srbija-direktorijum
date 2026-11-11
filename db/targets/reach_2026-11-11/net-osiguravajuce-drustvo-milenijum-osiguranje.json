@@ -1,0 +1,560 @@
+{
+ "kind": "network",
+ "title": "Milenijum osiguranje",
+ "type": "osiguravajuce-drustvo",
+ "orgs": [
+  {
+   "org_slug": "osiguravajuce-drustvo-milenijum-osiguranje",
+   "name": "Milenijum osiguranje",
+   "website": "https://mios.rs",
+   "rows": [
+    {
+     "location_id": 19521,
+     "unit": "Poslovnica",
+     "place": "Subotica",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 20536,
+     "unit": "Poslovnica",
+     "place": "Užice",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 22033,
+     "unit": "Poslovnica Balkanska 10",
+     "place": "Stari grad",
+     "address": "Balkanska 10",
+     "phones": "011 6351295",
+     "hours": "Radno vreme od 8-16h subotom 9-13h",
+     "need": []
+    },
+    {
+     "location_id": 22697,
+     "unit": "Poslovnica",
+     "place": "Zemun",
+     "address": null,
+     "phones": "011 3731015",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22762,
+     "unit": "Poslovnica Milutina Milankovića 3b",
+     "place": "Novi Beograd",
+     "address": "Milutina Milankovića 3b",
+     "phones": "011 7152300",
+     "hours": "Mo-Fr 08:00-16:00; Sa 09:00-13:00",
+     "need": []
+    },
+    {
+     "location_id": 22777,
+     "unit": "Poslovnica Bulevar oslobođenja 88",
+     "place": "Novi Sad",
+     "address": "Bulevar oslobođenja 88",
+     "phones": "021 6610172",
+     "hours": "Radno vreme 08-16h",
+     "need": []
+    },
+    {
+     "location_id": 23055,
+     "unit": "Poslovnica",
+     "place": "Novi Beograd",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Fr 08:00-16:30",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 23056,
+     "unit": "Poslovnica",
+     "place": "Subotica",
+     "address": null,
+     "phones": "024 555867",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23057,
+     "unit": "Poslovnica",
+     "place": "Čačak",
+     "address": null,
+     "phones": "032 348242; 032 348211",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23058,
+     "unit": "Poslovnica Trg Pavla Stojkovića 5",
+     "place": "Medijana",
+     "address": "Trg Pavla Stojkovića 5",
+     "phones": "018 530640",
+     "hours": "Radno vreme 08-16h",
+     "need": []
+    },
+    {
+     "location_id": 23059,
+     "unit": "Poslovnica",
+     "place": "Kragujevac",
+     "address": null,
+     "phones": "034 354513",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23060,
+     "unit": "Poslovnica",
+     "place": "Kraljevo",
+     "address": null,
+     "phones": "036 5150160",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23061,
+     "unit": "Poslovnica",
+     "place": "Sombor",
+     "address": null,
+     "phones": "025 5150350",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23062,
+     "unit": "Poslovnica",
+     "place": "Čačak",
+     "address": null,
+     "phones": "032 374754",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23063,
+     "unit": "Poslovnica",
+     "place": "Gornji Milanovac",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 23064,
+     "unit": "Poslovnica Kornelija Stankovića 9",
+     "place": "Novi Sad",
+     "address": "Kornelija Stankovića 9",
+     "phones": "063 455363",
+     "hours": "Radnim danima 09-17h Subotom 09-13h",
+     "need": []
+    },
+    {
+     "location_id": 23065,
+     "unit": "Poslovnica Novosadska 401",
+     "place": "Temerin",
+     "address": "Novosadska 401",
+     "phones": "021 851285",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 23066,
+     "unit": "Poslovnica Marije Bursać 32",
+     "place": "Smederevo",
+     "address": "Marije Bursać 32",
+     "phones": "026 4150080",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 23067,
+     "unit": "Poslovnica Knjaza Miloša 53",
+     "place": "Aranđelovac",
+     "address": "Knjaza Miloša 53",
+     "phones": "034 722212",
+     "hours": "Radno vreme 8-16h",
+     "need": []
+    },
+    {
+     "location_id": 23068,
+     "unit": "Poslovnica",
+     "place": "Vršac",
+     "address": null,
+     "phones": "013 821003",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23069,
+     "unit": "Poslovnica",
+     "place": "Kruševac",
+     "address": null,
+     "phones": "037 3155430",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23070,
+     "unit": "Poslovnica",
+     "place": "Čukarica",
+     "address": null,
+     "phones": "011 2507474",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23071,
+     "unit": "Poslovnica",
+     "place": "Šabac",
+     "address": null,
+     "phones": "060 3371158",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23072,
+     "unit": "Poslovnica Miloša Trebinjca 9",
+     "place": "Pančevo",
+     "address": "Miloša Trebinjca 9",
+     "phones": "063 362287",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 23073,
+     "unit": "Poslovnica",
+     "place": "Krupanj",
+     "address": null,
+     "phones": "064 3044852",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23074,
+     "unit": "Poslovnica Zejnel Ajdini 4",
+     "place": "Preševo",
+     "address": "Zejnel Ajdini 4",
+     "phones": "063 453945",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 23075,
+     "unit": "Poslovnica Petra Drapšina 54",
+     "place": "Alibunar",
+     "address": "Petra Drapšina 54",
+     "phones": null,
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 23076,
+     "unit": "Poslovnica Nikole Pašića 2",
+     "place": "Požega",
+     "address": "Nikole Pašića 2",
+     "phones": "064 6153031",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 23077,
+     "unit": "Poslovnica",
+     "place": "Svrljig",
+     "address": null,
+     "phones": "062 8022554",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23078,
+     "unit": "Poslovnica",
+     "place": "Mladenovac",
+     "address": null,
+     "phones": "061 6622679",
+     "hours": "Mo-Fr 08:00-16:00; Sa 08:00-12:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23079,
+     "unit": "Poslovnica Blok Partizan 18",
+     "place": "Bačka Palanka",
+     "address": "Blok Partizan 18",
+     "phones": "064 8527903",
+     "hours": "Radno vreme od 8 do 16h",
+     "need": []
+    },
+    {
+     "location_id": 27324,
+     "unit": "Ekspozitura Beograd",
+     "place": "Novi Beograd",
+     "address": "Bulevar Milutina Milankovića 3b",
+     "phones": "011 7152300",
+     "hours": "Radnim danima 8–16h subotom 9-13h",
+     "need": []
+    },
+    {
+     "location_id": 27325,
+     "unit": "Ekspozitura Subotica",
+     "place": "Subotica",
+     "address": "Karađorđev put 38",
+     "phones": "024 555867",
+     "hours": "Radno vreme 08-16h",
+     "need": []
+    },
+    {
+     "location_id": 27326,
+     "unit": "Ekspozitura Čačak",
+     "place": "Čačak",
+     "address": "Dobračina 12",
+     "phones": "032 348242; 032 348211",
+     "hours": "Radno vreme 08-16h",
+     "need": []
+    },
+    {
+     "location_id": 27327,
+     "unit": "Ekspozitura Kragujevac",
+     "place": "Kragujevac",
+     "address": "Kralja Aleksandra I Karađorđevića 110a",
+     "phones": "034 354513",
+     "hours": "Radno vreme 08-1 6 h",
+     "need": []
+    },
+    {
+     "location_id": 27328,
+     "unit": "Prodajna Kancelarija Kraljevo",
+     "place": "Kraljevo",
+     "address": "Cara Dušana 31",
+     "phones": "036 5150160",
+     "hours": "Radno vreme 08-16h",
+     "need": []
+    },
+    {
+     "location_id": 27329,
+     "unit": "Ekspozitura Sombor",
+     "place": "Sombor",
+     "address": "Venac Radomira Putnika 23",
+     "phones": "025 5150350",
+     "hours": "Radno vreme 08-17h Subotom 09-13h",
+     "need": []
+    },
+    {
+     "location_id": 27330,
+     "unit": "Prodajna kancelarija Beograd (Zemun)",
+     "place": "Zemun",
+     "address": "Geteova 48",
+     "phones": "011 3731015",
+     "hours": "Radnim danima 08-17h Subotom 09-14h",
+     "need": []
+    },
+    {
+     "location_id": 27331,
+     "unit": "Prodajna kancelarija Čačak",
+     "place": "Čačak",
+     "address": "Dr Dragiše Mišovića 68",
+     "phones": "032 374754",
+     "hours": "Radno vreme: 08-16h",
+     "need": []
+    },
+    {
+     "location_id": 27332,
+     "unit": "Prodajna kancelarija Gornji Milanovac",
+     "place": "Gornji Milanovac",
+     "address": "Vojvode Arsenija Lome 14",
+     "phones": null,
+     "hours": "Radno vreme: 08-16h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 27333,
+     "unit": "Prodajna kancelarija Smederevo",
+     "place": "Smederevo",
+     "address": "Đure Jakšića 6",
+     "phones": "026 4150080",
+     "hours": "Radno vreme 08-16h",
+     "need": []
+    },
+    {
+     "location_id": 27334,
+     "unit": "Prodajna kancelarija Vršac",
+     "place": "Vršac",
+     "address": "Stevana Nemanje 33",
+     "phones": "013 821003",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 27335,
+     "unit": "Prodajna kancelarija Niš (Medijana)",
+     "place": "Medijana",
+     "address": "Dušanova ulica 54",
+     "phones": "018 510464",
+     "hours": "Radno vreme 8-16h",
+     "need": []
+    },
+    {
+     "location_id": 27336,
+     "unit": "Prodajna kancelarija Kruševac",
+     "place": "Kruševac",
+     "address": "Balkanska 36",
+     "phones": "037 3155430",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 27337,
+     "unit": "Prodajna kancelarija Beograd",
+     "place": "Čukarica",
+     "address": "Trgovačka 16a",
+     "phones": "011 2507474",
+     "hours": "Radno vreme od 8-16h",
+     "need": []
+    },
+    {
+     "location_id": 27338,
+     "unit": "Prodajna kancelarija Šabac",
+     "place": "Šabac",
+     "address": "Stojana Novakovića 23",
+     "phones": "060 3371158",
+     "hours": "Radno vreme 08-16h",
+     "need": []
+    },
+    {
+     "location_id": 27339,
+     "unit": "Prodajna kancelarija Krupanj",
+     "place": "Krupanj",
+     "address": "Vlade Zečevića 48",
+     "phones": "064 3044852",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 27340,
+     "unit": "Prodajna kancelarija Preševo",
+     "place": "Preševo",
+     "address": "Zenel Ajdini 4",
+     "phones": "063 453945",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 27341,
+     "unit": "Prodajna kancelarija Banatski Karlovac",
+     "place": "Alibunar",
+     "address": "Vojvode Stepe 54",
+     "phones": null,
+     "hours": "Radnim danima 08-16h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 27342,
+     "unit": "Prodajna kancelarija Požega",
+     "place": "Požega",
+     "address": "Nikole Pašića 2/8",
+     "phones": "064 6153031",
+     "hours": "Radno vreme od 8-16h",
+     "need": []
+    },
+    {
+     "location_id": 27343,
+     "unit": "Prodajna kancelarija Svrljig",
+     "place": "Svrljig",
+     "address": "Hadžićeva br. 2",
+     "phones": "062 8022554",
+     "hours": "Radno vreme od 8-16h",
+     "need": []
+    },
+    {
+     "location_id": 27344,
+     "unit": "Prodajna kancelarija Mladenovac",
+     "place": "Mladenovac",
+     "address": "Janka Katića 2/8",
+     "phones": "061 6622679",
+     "hours": "Radno vreme od 8 do 16 radnim danima, subotom od 08 do 12",
+     "need": []
+    },
+    {
+     "location_id": 27345,
+     "unit": "Prodajna kancelarija Bor",
+     "place": "Bor",
+     "address": "Dobrivoja Radosavljevića Bobija 7/24",
+     "phones": null,
+     "hours": "Radno vreme 07-15h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 27346,
+     "unit": "Prodajna kancelarija Vrbas",
+     "place": "Vrbas",
+     "address": "Gustava Krkleca br.14",
+     "phones": null,
+     "hours": "Radno vreme 8 -16 h",
+     "need": [
+      "phones"
+     ]
+    }
+   ]
+  }
+ ],
+ "id": "net-osiguravajuce-drustvo-milenijum-osiguranje"
+}

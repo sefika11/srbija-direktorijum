@@ -1,0 +1,405 @@
+{
+ "kind": "sites",
+ "title": "Institucije sa sopstvenim sajtom",
+ "rows": [
+  {
+   "org_slug": "revizorska-kuca-kpmg-d-o-o-kragujevac",
+   "name": "KPMG d.o.o.",
+   "type": "Društvo za reviziju",
+   "place": "Kragujevac",
+   "website": "https://www.kpmg.com/rs",
+   "mb": null,
+   "have": {
+    "address": "Trg topolivaca 3v",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "revizorska-kuca-institut-za-javne-finansije-i-racunovodstvo-nis-medijana-nis",
+   "name": "Institut ZA Javne Finansije I Računovodstvo Niš-medijana",
+   "type": "Društvo za reviziju",
+   "place": "Niš",
+   "website": "https://www.ijfr.rs",
+   "mb": null,
+   "have": {
+    "address": "Kosančićeva 1",
+    "phones": "018 305724",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "revizorska-kuca-kreston-mdm-revizija-doo-beograd-ogranak-nis-nis",
+   "name": "Kreston Mdm Revizija DOO Beograd - Ogranak Niš",
+   "type": "Društvo za reviziju",
+   "place": "Niš",
+   "website": "https://www.krestonmdm.com",
+   "mb": null,
+   "have": {
+    "address": "Kraljevića Marka 23",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "revizorska-kuca-moore-stephens-revizija-i-racunovodstv-tpc-kalca-obrenoviceva",
+   "name": "Moore Stephens revizija i računovodstv – TPC Kalča Obrenovićeva",
+   "type": "Društvo za reviziju",
+   "place": "Niš",
+   "website": "https://www.moore-serbia.rs",
+   "mb": null,
+   "have": {
+    "address": "TPC Kalča Obrenovićeva bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "revizorska-kuca-privredno-drustvo-za-usluge-i-trgovinu-etilen-doo-beograd-novi",
+   "name": "Privredno Društvo ZA Usluge I Trgovinu Etilen DOO Beograd (novi Beograd).",
+   "type": "Društvo za reviziju",
+   "place": "Novi Beograd",
+   "website": "https://www.revizija-dst.co.rs",
+   "mb": null,
+   "have": {
+    "address": "Bulevar maršala Tolbuhina 38/1",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "revizorska-kuca-finrevizija-doo-beograd-ogranak-novi-pazar-novi-pazar",
+   "name": "Finrevizija DOO Beograd - Ogranak Novi Pazar",
+   "type": "Društvo za reviziju",
+   "place": "Novi Pazar",
+   "website": "https://www.finrevizija.co.rs",
+   "mb": null,
+   "have": {
+    "address": "Rifata Burdževića 15/3",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "revizorska-kuca-aksios-revizija-d-o-o-novi-sad-novi-sad",
+   "name": "Aksios revizija d.o.o. Novi Sad",
+   "type": "Društvo za reviziju",
+   "place": "Novi Sad",
+   "website": "https://www.aksiosrevizija.com",
+   "mb": null,
+   "have": {
+    "address": "Hopovska 2",
+    "phones": "021 417231",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "revizorska-kuca-audit-proteam-doo-novi-sad",
+   "name": "AUDIT ProTeam DOO",
+   "type": "Društvo za reviziju",
+   "place": "Novi Sad",
+   "website": "https://www.auditproteam.rs",
+   "mb": null,
+   "have": {
+    "address": "Karolja Seleša 12",
+    "phones": "063 459299",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "revizorska-kuca-centar-za-reviziju-i-ekonomska-istrazivanja-novi-sad",
+   "name": "Centar ZA Reviziju I Ekonomska Istraživanja",
+   "type": "Društvo za reviziju",
+   "place": "Novi Sad",
+   "website": "https://www.centarzareviziju.rs",
+   "mb": null,
+   "have": {
+    "address": "Narodnog fronta 23d",
+    "phones": "021 3026296",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "revizorska-kuca-invent-revizija-doo-novi-sad-novi-sad",
+   "name": "Invent Revizija DOO Novi Sad",
+   "type": "Društvo za reviziju",
+   "place": "Novi Sad",
+   "website": "https://www.inventrevizija.rs",
+   "mb": null,
+   "have": {
+    "address": "Branimira Ćosića 2/3",
+    "phones": "021 3826939",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "revizorska-kuca-kapital-revizija-doo-novi-sad-novi-sad",
+   "name": "Kapital Revizija DOO Novi Sad",
+   "type": "Društvo za reviziju",
+   "place": "Novi Sad",
+   "website": "https://www.kapitalrevizija.com",
+   "mb": null,
+   "have": {
+    "address": "Vojvode Mišića 1",
+    "phones": "021 4754292",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "revizorska-kuca-kreston-mdm-revizija-doo-beograd-ogranak-novi-sad-novi-sad",
+   "name": "Kreston Mdm Revizija DOO Beograd - Ogranak Novi Sad",
+   "type": "Društvo za reviziju",
+   "place": "Novi Sad",
+   "website": "https://www.krestonmdm.com",
+   "mb": null,
+   "have": {
+    "address": "Dunavska 6",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "revizorska-kuca-libra-audit-doo-novi-sad-novi-sad",
+   "name": "Libra Audit DOO Novi Sad",
+   "type": "Društvo za reviziju",
+   "place": "Novi Sad",
+   "website": "https://www.libraaudit.com",
+   "mb": null,
+   "have": {
+    "address": "Beogradski kej 3",
+    "phones": "021 457613",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "revizorska-kuca-moore-stephens-revizija-i-racunovodstv-bulevar-oslobodjenja-76",
+   "name": "Moore Stephens revizija i računovodstv – Bulevar oslobođenja 76",
+   "type": "Društvo za reviziju",
+   "place": "Novi Sad",
+   "website": "https://www.moore-serbia.rs",
+   "mb": null,
+   "have": {
+    "address": "Bulevar oslobođenja 76a",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "revizorska-kuca-pan-revizija-doo-za-reviziju-i-konsalting-novi-sad",
+   "name": "Pan Revizija DOO ZA Reviziju I Konsalting",
+   "type": "Društvo za reviziju",
+   "place": "Novi Sad",
+   "website": "https://www.panrevizija.co.rs",
+   "mb": null,
+   "have": {
+    "address": "Tolstojeva 6",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "revizorska-kuca-pan-revizija-plus-doo-novi-sad-novi-sad",
+   "name": "Pan Revizija Plus DOO Novi Sad",
+   "type": "Društvo za reviziju",
+   "place": "Novi Sad",
+   "website": "https://www.panrevizija.co.rs",
+   "mb": null,
+   "have": {
+    "address": "Tolstojeva 6",
+    "phones": "021 4746300",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "revizorska-kuca-preduzece-za-reviziju-ecovis-fin-nikole-pasica-16-novi-sad",
+   "name": "PREDUZEĆE ZA REVIZIJU ECOVIS Fin – Nikole Pašića 16",
+   "type": "Društvo za reviziju",
+   "place": "Novi Sad",
+   "website": "https://www.ecovis-serbia.com",
+   "mb": null,
+   "have": {
+    "address": "Nikole Pašića 16",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "revizorska-kuca-preduzece-za-reviziju-premium-audit-doo-novi-sad-u-likvidaciji",
+   "name": "Preduzeće za reviziju Premium Audit DOO Novi Sad - U LIKVIDACIJI",
+   "type": "Društvo za reviziju",
+   "place": "Novi Sad",
+   "website": "https://www.revizijaikonsalting.rs",
+   "mb": null,
+   "have": {
+    "address": "Kisačka 3",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "revizorska-kuca-revizija-i-konsalting-doo-novi-sad-novi-sad",
+   "name": "Revizija i konsalting DOO Novi Sad",
+   "type": "Društvo za reviziju",
+   "place": "Novi Sad",
+   "website": "https://www.revizijaikonsalting.rs",
+   "mb": null,
+   "have": {
+    "address": "Kisačka 3/12",
+    "phones": "064 4211028",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "revizorska-kuca-tibor-matin-novi-sad",
+   "name": "Tibor Matin",
+   "type": "Društvo za reviziju",
+   "place": "Novi Sad",
+   "website": "https://www.panrevizija.co.rs",
+   "mb": null,
+   "have": {
+    "address": "Tolstojeva 6",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "revizorska-kuca-certus-audit-doo-sombor",
+   "name": "Certus Audit DOO",
+   "type": "Društvo za reviziju",
+   "place": "Sombor",
+   "website": "https://www.certus.rs",
+   "mb": null,
+   "have": {
+    "address": "Venac vojvode Živojina Mišića 18",
+    "phones": "064 2326700",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "revizorska-kuca-preduzece-za-reviziju-ecovis-finaudit-doo-beograd-ogranak",
+   "name": "PREDUZEĆE ZA REVIZIJU ECOVIS FinAudit DOO BEOGRAD - OGRANAK ECOVIS FinAudit SOMBOR",
+   "type": "Društvo za reviziju",
+   "place": "Sombor",
+   "website": "https://www.ecovis-serbia.com",
+   "mb": null,
+   "have": {
+    "address": "Mite Popovića 9",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "revizorska-kuca-auditing-doo-vrnjacka-banja-vrnjacka-banja",
+   "name": "Auditing DOO Vrnjačka Banja",
+   "type": "Društvo za reviziju",
+   "place": "Vrnjačka Banja",
+   "website": "https://www.auditing.co.rs",
+   "mb": null,
+   "have": {
+    "address": "Goranska 9",
+    "phones": "036 614771",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "revizorska-kuca-preduzece-za-promet-i-usluge-boki-komerc-d-o-o-vrnjacka-banja",
+   "name": "Preduzeće za promet i usluge \"Boki komerc\" d.o.o.",
+   "type": "Društvo za reviziju",
+   "place": "Vrnjačka Banja",
+   "website": "https://www.auditing.co.rs",
+   "mb": null,
+   "have": {
+    "address": "Goranska 9",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours"
+   ]
+  }
+ ],
+ "id": "site-067"
+}

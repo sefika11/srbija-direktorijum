@@ -1,0 +1,1362 @@
+{
+ "kind": "network",
+ "title": "Carinarnica / carinska ispostava (71 organizacija)",
+ "type": "carinarnica",
+ "orgs": [
+  {
+   "org_slug": "carinarnica-carinski-punkt-depce-depce",
+   "name": "Carinski punkt Depce",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 37272,
+     "unit": "Sedište",
+     "place": "Preševo",
+     "address": null,
+     "phones": null,
+     "hours": "pon-pet 08-20; sub 08-20; ned 08-20",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-punkt-konculj-konculj",
+   "name": "Carinski punkt Končulj",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 37267,
+     "unit": "Sedište",
+     "place": "Bujanovac",
+     "address": null,
+     "phones": null,
+     "hours": "pon-pet 00-24; sub 00-24; ned 00-24",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-punkt-merdare-merdare",
+   "name": "Carinski punkt Merdare",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 37262,
+     "unit": "Sedište",
+     "place": "Kuršumlija",
+     "address": null,
+     "phones": null,
+     "hours": "pon-pet 00-24; sub 00-24; ned 00-24",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-referat-aerodrom-morava-ladjevci",
+   "name": "Carinski referat Aerodrom Morava",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 36925,
+     "unit": "Sedište",
+     "place": "Kraljevo",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-referat-aerodrom-vrsac-vrsac",
+   "name": "Carinski referat Aerodrom Vršac",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 37147,
+     "unit": "Sedište",
+     "place": "Vršac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-referat-apatin-apatin",
+   "name": "Carinski referat Apatin",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 37105,
+     "unit": "Sedište",
+     "place": "Apatin",
+     "address": null,
+     "phones": null,
+     "hours": "pon-pet 08-20; sub 08-20; ned ne radi",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-referat-arandjelovac-arandjelovac",
+   "name": "Carinski referat Aranđelovac",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 37027,
+     "unit": "Sedište",
+     "place": "Aranđelovac",
+     "address": null,
+     "phones": null,
+     "hours": "pon-pet 08-16; sub 08-16; ned ne radi",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-referat-bajina-basta-bajina-basta",
+   "name": "Carinski referat Bajina Bašta",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 36968,
+     "unit": "Sedište",
+     "place": "Bajina Bašta",
+     "address": null,
+     "phones": null,
+     "hours": "pon-pet 00-24; sub 00-24; ned 00-24",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-referat-bajmok-bajmok",
+   "name": "Carinski referat Bajmok",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 37253,
+     "unit": "Sedište",
+     "place": "Subotica",
+     "address": null,
+     "phones": null,
+     "hours": "pon-pet 07-19; sub 07-19; ned 07-19",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-referat-becej-becej",
+   "name": "Carinski referat Bečej",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 37086,
+     "unit": "Sedište",
+     "place": "Bečej",
+     "address": null,
+     "phones": null,
+     "hours": "pon-pet 08-16; sub ne radi; ned ne radi",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-referat-djala-djala",
+   "name": "Carinski referat Đala",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 37249,
+     "unit": "Sedište",
+     "place": "Novi Kneževac",
+     "address": null,
+     "phones": null,
+     "hours": "pon-pet 07-19; sub 07-19; ned 07-19",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-referat-donji-milanovac-donji-milanovac",
+   "name": "Carinski referat Donji Milanovac",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 36902,
+     "unit": "Sedište",
+     "place": "Majdanpek",
+     "address": null,
+     "phones": null,
+     "hours": "pon-pet 07-19; sub 07-19; ned 07-19",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-referat-duvanska-nis-nis",
+   "name": "Carinski referat Duvanska Niš",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 36986,
+     "unit": "Sedište",
+     "place": "Niš",
+     "address": null,
+     "phones": null,
+     "hours": "pon-pet 08-20; sub 08-20; ned ne radi",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-referat-intermodalni-terminal-beograd",
+   "name": "Carinski referat Intermodalni terminal",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 36860,
+     "unit": "Sedište",
+     "place": "Beograd",
+     "address": null,
+     "phones": null,
+     "hours": "pon-pet 08-20; sub 08-20; ned ne radi",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-referat-jagodina-jagodina",
+   "name": "Carinski referat Jagodina",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 37024,
+     "unit": "Sedište",
+     "place": "Jagodina",
+     "address": null,
+     "phones": null,
+     "hours": "pon-pet 08-20; sub 08-16; ned ne radi",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-referat-jamena-jamena",
+   "name": "Carinski referat Jamena",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 37098,
+     "unit": "Sedište",
+     "place": "Šid",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-referat-jasa-tomic-jasa-tomic",
+   "name": "Carinski referat Jaša Tomić",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 37186,
+     "unit": "Sedište",
+     "place": "Sečanj",
+     "address": null,
+     "phones": null,
+     "hours": "pon-pet 07-19; sub 07-19; ned 07-19",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-referat-knjazevac-knjazevac",
+   "name": "Carinski referat Knjaževac",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 36988,
+     "unit": "Sedište",
+     "place": "Knjaževac",
+     "address": null,
+     "phones": null,
+     "hours": "pon-pet 08-16; sub ne radi; ned ne radi",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-referat-lapovo-lapovo",
+   "name": "Carinski referat Lapovo",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 37022,
+     "unit": "Sedište",
+     "place": "Lapovo",
+     "address": null,
+     "phones": null,
+     "hours": "pon-pet 09-17; sub 09-17; ned ne radi",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-referat-ljuba-ljuba",
+   "name": "Carinski referat Ljuba",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 37094,
+     "unit": "Sedište",
+     "place": "Šid",
+     "address": null,
+     "phones": null,
+     "hours": "pon-pet 00-24; sub 00-24; ned 00-24",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-referat-majdanpek-majdanpek",
+   "name": "Carinski referat Majdanpek",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 36898,
+     "unit": "Sedište",
+     "place": "Majdanpek",
+     "address": null,
+     "phones": null,
+     "hours": "pon-pet 08-16; sub ne radi; ned ne radi",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-referat-mladenovac-mladenovac",
+   "name": "Carinski referat Mladenovac",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 37029,
+     "unit": "Sedište",
+     "place": "Mladenovac",
+     "address": null,
+     "phones": null,
+     "hours": "pon-pet 09-17; sub 09-17; ned ne radi",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-referat-nakovo-nakovo",
+   "name": "Carinski referat Nakovo",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 37191,
+     "unit": "Sedište",
+     "place": "Kikinda",
+     "address": null,
+     "phones": null,
+     "hours": "pon-pet 07-19; sub 07-19; ned 07-19",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-referat-nestin-nestin",
+   "name": "Carinski referat Neštin",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 37074,
+     "unit": "Sedište",
+     "place": "Bačka Palanka",
+     "address": null,
+     "phones": null,
+     "hours": "pon-pet 00-24; sub 00-24; ned 00-24",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-referat-novi-pazar-novi-pazar",
+   "name": "Carinski referat Novi Pazar",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 36930,
+     "unit": "Sedište",
+     "place": "Novi Pazar",
+     "address": null,
+     "phones": null,
+     "hours": "pon-pet 08-16; sub 08-16; ned ne radi",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-referat-novi-sad-novi-sad",
+   "name": "Carinski referat Novi Sad",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 37061,
+     "unit": "Sedište",
+     "place": "Novi Sad",
+     "address": null,
+     "phones": null,
+     "hours": "pon-pet 08-16; sub ne radi; ned ne radi",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-referat-paracin-paracin",
+   "name": "Carinski referat Paraćin",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 36945,
+     "unit": "Sedište",
+     "place": "Paraćin",
+     "address": null,
+     "phones": null,
+     "hours": "pon-pet 08-20; sub ne radi; ned ne radi",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-referat-pirot-pirot",
+   "name": "Carinski referat Pirot",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 36911,
+     "unit": "Sedište",
+     "place": "Pirot",
+     "address": null,
+     "phones": null,
+     "hours": "pon-pet 08-16; sub ne radi; ned ne radi",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-referat-posta-nis-nis",
+   "name": "Carinski referat Pošta Niš",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 36981,
+     "unit": "Sedište",
+     "place": "Niš",
+     "address": null,
+     "phones": null,
+     "hours": "pon-pet 07:30-19:30; sub 07:30-19:30; ned ne radi",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-referat-posta-novi-sad-novi-sad",
+   "name": "Carinski referat Pošta Novi Sad",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 37066,
+     "unit": "Sedište",
+     "place": "Novi Sad",
+     "address": null,
+     "phones": null,
+     "hours": "pon-pet 07:30-19:30; sub 07:30-19:30; ned ne radi",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-referat-pozarevac-pozarevac",
+   "name": "Carinski referat Požarevac",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 37032,
+     "unit": "Sedište",
+     "place": "Požarevac",
+     "address": null,
+     "phones": null,
+     "hours": "pon-pet 08-16; sub ne radi; ned ne radi",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-referat-pozega-pozega",
+   "name": "Carinski referat Požega",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 36958,
+     "unit": "Sedište",
+     "place": "Požega",
+     "address": null,
+     "phones": null,
+     "hours": "pon-pet 09-17; sub 09-17; ned ne radi",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-referat-prijepolje-prijepolje",
+   "name": "Carinski referat Prijepolje",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 36960,
+     "unit": "Sedište",
+     "place": "Prijepolje",
+     "address": null,
+     "phones": null,
+     "hours": "pon-pet 08-16; sub 08-16; ned ne radi",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-referat-rabe-rabe",
+   "name": "Carinski referat Rabe",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 37258,
+     "unit": "Sedište",
+     "place": "Novi Kneževac",
+     "address": null,
+     "phones": null,
+     "hours": "pon-pet 07-19; sub 07-19; ned 07-19",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-referat-raska-raska",
+   "name": "Carinski referat Raška",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 36927,
+     "unit": "Sedište",
+     "place": "Raška",
+     "address": null,
+     "phones": null,
+     "hours": "pon-pet 08-16; sub 08-16; ned ne radi",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-referat-rastina-rastina",
+   "name": "Carinski referat Rastina",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 37132,
+     "unit": "Sedište",
+     "place": "Sombor",
+     "address": null,
+     "phones": null,
+     "hours": "pon-pet 07-19; sub 07-19; ned 07-19",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-referat-ribarci-ribarci",
+   "name": "Carinski referat Ribarci",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 37001,
+     "unit": "Sedište",
+     "place": "Bosilegrad",
+     "address": null,
+     "phones": null,
+     "hours": "pon-pet 00-24; sub 00-24; ned 00-24",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-referat-savsko-pristaniste-beograd",
+   "name": "Carinski referat Savsko pristanište",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 36828,
+     "unit": "Sedište",
+     "place": "Beograd",
+     "address": null,
+     "phones": null,
+     "hours": "pon-pet 00-24; sub 00-24; ned 00-24",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-referat-slobodna-zona-kragujevac-kragujevac",
+   "name": "Carinski referat Slobodna zona Kragujevac",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 37017,
+     "unit": "Sedište",
+     "place": "Kragujevac",
+     "address": null,
+     "phones": null,
+     "hours": "pon-pet 08-22; sub 08-16; ned ne radi",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-referat-slobodna-zona-krusevac-krusevac",
+   "name": "Carinski referat Slobodna zona Kruševac",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 36942,
+     "unit": "Sedište",
+     "place": "Kruševac",
+     "address": null,
+     "phones": null,
+     "hours": "pon-pet 08-16; sub ne radi; ned ne radi",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-referat-slobodna-zona-priboj-priboj",
+   "name": "Carinski referat Slobodna zona Priboj",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 36963,
+     "unit": "Sedište",
+     "place": "Priboj",
+     "address": null,
+     "phones": null,
+     "hours": "pon-pet 09-17; sub 09-17; ned ne radi",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-referat-slobodna-zona-smederevo-smederevo",
+   "name": "Carinski referat Slobodna zona Smederevo",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 37041,
+     "unit": "Sedište",
+     "place": "Smederevo",
+     "address": null,
+     "phones": null,
+     "hours": "pon-pet 08-22; sub 08-16; ned ne radi",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-referat-slobodna-zona-uzice-uzice",
+   "name": "Carinski referat Slobodna zona Užice",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 36955,
+     "unit": "Sedište",
+     "place": "Užice",
+     "address": null,
+     "phones": null,
+     "hours": "pon-pet 08-16; sub 08-16; ned ne radi",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-referat-smederevska-palanka-smederevska-palanka",
+   "name": "Carinski referat Smederevska Palanka",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 37039,
+     "unit": "Sedište",
+     "place": "Smederevska Palanka",
+     "address": null,
+     "phones": null,
+     "hours": "pon-pet 08-16; sub ne radi; ned ne radi",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-referat-sot-sot",
+   "name": "Carinski referat Sot",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 37091,
+     "unit": "Sedište",
+     "place": "Šid",
+     "address": null,
+     "phones": null,
+     "hours": "pon-pet 00-24; sub 00-24; ned 00-24",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-referat-strezimirovci-strezimirovci",
+   "name": "Carinski referat Strezimirovci",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 36998,
+     "unit": "Sedište",
+     "place": "Surdulica",
+     "address": null,
+     "phones": null,
+     "hours": "pon-pet 00-24; sub 00-24; ned 00-24",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-referat-svilajnac-svilajnac",
+   "name": "Carinski referat Svilajnac",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 37046,
+     "unit": "Sedište",
+     "place": "Svilajnac",
+     "address": null,
+     "phones": null,
+     "hours": "pon-pet 09-17; sub ne radi; ned ne radi",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-referat-trstenik-trstenik",
+   "name": "Carinski referat Trstenik",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 36947,
+     "unit": "Sedište",
+     "place": "Trstenik",
+     "address": null,
+     "phones": null,
+     "hours": "pon-pet 08-16; sub ne radi; ned ne radi",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-referat-tutin-tutin",
+   "name": "Carinski referat Tutin",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 36935,
+     "unit": "Sedište",
+     "place": "Tutin",
+     "address": null,
+     "phones": null,
+     "hours": "pon-pet 08-16; sub ne radi; ned ne radi",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-referat-vajska-vajska",
+   "name": "Carinski referat Vajska",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 37096,
+     "unit": "Sedište",
+     "place": "Bač",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-referat-velika-plana-velika-plana",
+   "name": "Carinski referat Velika Plana",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 37044,
+     "unit": "Sedište",
+     "place": "Velika Plana",
+     "address": null,
+     "phones": null,
+     "hours": "pon-pet 08-16; sub ne radi; ned ne radi",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-referat-vrbas-vrbas",
+   "name": "Carinski referat Vrbas",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 37076,
+     "unit": "Sedište",
+     "place": "Vrbas",
+     "address": null,
+     "phones": null,
+     "hours": "pon-pet 08-16; sub ne radi; ned ne radi",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-referat-za-metalsku-industriju-zelezara-smederevo",
+   "name": "Carinski referat za metalsku industriju - Železara",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 37036,
+     "unit": "Sedište",
+     "place": "Smederevo",
+     "address": null,
+     "phones": null,
+     "hours": "pon-pet 08-20; sub 08-20; ned ne radi",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-referat-za-recni-saobracaj-novi-sad-novi-sad",
+   "name": "Carinski referat za rečni saobraćaj Novi Sad",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 37059,
+     "unit": "Sedište",
+     "place": "Novi Sad",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-referat-zajecar-zajecar",
+   "name": "Carinski referat Zaječar",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 36900,
+     "unit": "Sedište",
+     "place": "Zaječar",
+     "address": null,
+     "phones": null,
+     "hours": "pon-pet 08-16; sub ne radi; ned ne radi",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-referat-zeleznicka-stanica-bogojevo-bogojevo",
+   "name": "Carinski referat Železnička stanica Bogojevo",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 37114,
+     "unit": "Sedište",
+     "place": "Odžaci",
+     "address": null,
+     "phones": null,
+     "hours": "pon-pet 00-24; sub 00-24; ned 00-24",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-referat-zeleznicka-stanica-kragujevac-kragujevac",
+   "name": "Carinski referat Železnička stanica Kragujevac",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 37014,
+     "unit": "Sedište",
+     "place": "Kragujevac",
+     "address": null,
+     "phones": null,
+     "hours": "pon-pet 08-20; sub ne radi; ned ne radi",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-carinski-referat-zeleznicka-stanica-ristovac-ristovac",
+   "name": "Carinski referat Železnička stanica Ristovac",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 37006,
+     "unit": "Sedište",
+     "place": "Vranje",
+     "address": null,
+     "phones": null,
+     "hours": "pon-pet 00-24; sub 00-24; ned 00-24",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-dimitrovgrad-dimitrovgrad",
+   "name": "Carinarnica Dimitrovgrad",
+   "website": "https://www.carina.rs",
+   "rows": [
+    {
+     "location_id": 36905,
+     "unit": "Sedište",
+     "place": "Dimitrovgrad",
+     "address": null,
+     "phones": null,
+     "hours": "sedište carinarnice radnim danima 07:30-15:30",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-kladovo-kladovo",
+   "name": "Carinarnica Kladovo",
+   "website": "https://www.carina.rs",
+   "rows": [
+    {
+     "location_id": 36885,
+     "unit": "Sedište",
+     "place": "Kladovo",
+     "address": null,
+     "phones": null,
+     "hours": "sedište carinarnice radnim danima 07:30-15:30",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-kragujevac-kragujevac",
+   "name": "Carinarnica Kragujevac",
+   "website": "https://www.carina.rs",
+   "rows": [
+    {
+     "location_id": 37011,
+     "unit": "Sedište",
+     "place": "Kragujevac",
+     "address": null,
+     "phones": null,
+     "hours": "sedište carinarnice radnim danima 07:30-15:30",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-kraljevo-kraljevo",
+   "name": "Carinarnica Kraljevo",
+   "website": "https://www.carina.rs",
+   "rows": [
+    {
+     "location_id": 36915,
+     "unit": "Sedište",
+     "place": "Kraljevo",
+     "address": null,
+     "phones": null,
+     "hours": "sedište carinarnice radnim danima 07:30-15:30",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-krusevac-krusevac",
+   "name": "Carinarnica Kruševac",
+   "website": "https://www.carina.rs",
+   "rows": [
+    {
+     "location_id": 36937,
+     "unit": "Sedište",
+     "place": "Kruševac",
+     "address": null,
+     "phones": null,
+     "hours": "sedište carinarnice radnim danima 07:30-15:30",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-nis-nis",
+   "name": "Carinarnica Niš",
+   "website": "https://www.carina.rs",
+   "rows": [
+    {
+     "location_id": 36975,
+     "unit": "Sedište",
+     "place": "Niš",
+     "address": null,
+     "phones": null,
+     "hours": "sedište carinarnice radnim danima 07:30-15:30",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-novi-sad-novi-sad",
+   "name": "Carinarnica Novi Sad",
+   "website": "https://www.carina.rs",
+   "rows": [
+    {
+     "location_id": 37049,
+     "unit": "Sedište",
+     "place": "Novi Sad",
+     "address": null,
+     "phones": null,
+     "hours": "sedište carinarnice radnim danima 07:30-15:30",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-sabac-sabac",
+   "name": "Carinarnica Šabac",
+   "website": "https://www.carina.rs",
+   "rows": [
+    {
+     "location_id": 36862,
+     "unit": "Sedište",
+     "place": "Šabac",
+     "address": null,
+     "phones": null,
+     "hours": "sedište carinarnice radnim danima 07:30-15:30",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-sombor-sombor",
+   "name": "Carinarnica Sombor",
+   "website": "https://www.carina.rs",
+   "rows": [
+    {
+     "location_id": 37100,
+     "unit": "Sedište",
+     "place": "Sombor",
+     "address": null,
+     "phones": null,
+     "hours": "sedište carinarnice radnim danima 07:30-15:30",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-subotica-subotica",
+   "name": "Carinarnica Subotica",
+   "website": "https://www.carina.rs",
+   "rows": [
+    {
+     "location_id": 37196,
+     "unit": "Sedište",
+     "place": "Subotica",
+     "address": null,
+     "phones": null,
+     "hours": "sedište carinarnice radnim danima 07:30-15:30",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-uzice-uzice",
+   "name": "Carinarnica Užice",
+   "website": "https://www.carina.rs",
+   "rows": [
+    {
+     "location_id": 36950,
+     "unit": "Sedište",
+     "place": "Užice",
+     "address": null,
+     "phones": null,
+     "hours": "sedište carinarnice radnim danima 07:30-15:30",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-vrsac-vrsac",
+   "name": "Carinarnica Vršac",
+   "website": "https://www.carina.rs",
+   "rows": [
+    {
+     "location_id": 37137,
+     "unit": "Sedište",
+     "place": "Vršac",
+     "address": null,
+     "phones": null,
+     "hours": "sedište carinarnice radnim danima 07:30-15:30",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "carinarnica-zrenjanin-zrenjanin",
+   "name": "Carinarnica Zrenjanin",
+   "website": "https://www.carina.rs",
+   "rows": [
+    {
+     "location_id": 37164,
+     "unit": "Sedište",
+     "place": "Zrenjanin",
+     "address": null,
+     "phones": null,
+     "hours": "sedište carinarnice radnim danima 07:30-15:30",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  }
+ ],
+ "id": "net-carinarnica-2"
+}

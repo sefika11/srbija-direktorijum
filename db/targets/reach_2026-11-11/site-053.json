@@ -1,0 +1,393 @@
+{
+ "kind": "sites",
+ "title": "Institucije sa sopstvenim sajtom",
+ "rows": [
+  {
+   "org_slug": "osnovna-skola-paja-jovanovic-vrsac",
+   "name": "Osnovna škola \"Paja Jovanović\"",
+   "type": "Osnovna škola",
+   "place": "Vršac",
+   "website": "http://www.pajajovanovic.edu.rs",
+   "mb": "08010684",
+   "have": {
+    "address": "Školska 3",
+    "phones": "013 839853; 013 838008",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-vuk-karadzic-vrsac",
+   "name": "Osnovna škola \"Vuk Karadžić\"",
+   "type": "Osnovna škola",
+   "place": "Vršac",
+   "website": "http://www.osvukkaradzicvs.rs",
+   "mb": "08010692",
+   "have": {
+    "address": "Dvorska 17",
+    "phones": "013 831701",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "skola-za-osnovno-i-srednje-obrazovanje-jelena-varijaski-vrsac",
+   "name": "Škola za osnovno i Srednje obrazovanje \"Jelena Varijaški\"",
+   "type": "Osnovna škola",
+   "place": "Vršac",
+   "website": "http://www.jelenavarjaski.iz.rs",
+   "mb": "08115281",
+   "have": {
+    "address": "Žarka Zrenjanina 22",
+    "phones": "013 839832; 013 837837; 013 821635",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-radivoj-popovic-beograd-zemun",
+   "name": "Osnovna škola \"Radivoj Popović\"",
+   "type": "Osnovna škola",
+   "place": "Zemun",
+   "website": "https://www.osradivojpopovic.edu.rs/",
+   "mb": "07074263",
+   "have": {
+    "address": "Prizrenska 37",
+    "phones": "011 3076423; 011 3076421; 011 3076402",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-2-oktobar-zrenjanin",
+   "name": "Osnovna škola \"2. Oktobar\"",
+   "type": "Osnovna škola",
+   "place": "Zrenjanin",
+   "website": "http://www.os2oktobar.edu.rs/",
+   "mb": "08116687",
+   "have": {
+    "address": "Marka Oreškovića 48",
+    "phones": "023 542058",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-bratstvo-aradac",
+   "name": "Osnovna škola \"Bratstvo\"",
+   "type": "Osnovna škola",
+   "place": "Zrenjanin",
+   "website": "http://www.osaradac.edu.rs/",
+   "mb": "08116725",
+   "have": {
+    "address": "Maršala Tita 90",
+    "phones": "023 887010",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-djura-jaksic-zrenjanin",
+   "name": "Osnovna škola \"Đura Jakšić\"",
+   "type": "Osnovna škola",
+   "place": "Zrenjanin",
+   "website": "http://www.osdjurajaksic.edu.rs/",
+   "mb": "08002096",
+   "have": {
+    "address": "Cara Dušana 80a",
+    "phones": "023 566208",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-dr-aleksandar-sabovljev-ecka-ecka",
+   "name": "Osnovna škola \"Dr Aleksandar Sabovljev\" Ečka",
+   "type": "Osnovna škola",
+   "place": "Zrenjanin",
+   "website": "http://www.osecka.edu.rs/",
+   "mb": "08116598",
+   "have": {
+    "address": "Maršala Tita 48",
+    "phones": "023 881018",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-dr-jovan-cvijic-zrenjanin",
+   "name": "Osnovna škola \"Dr Jovan Cvijić\"",
+   "type": "Osnovna škola",
+   "place": "Zrenjanin",
+   "website": "http://www.cvijic.edu.rs/",
+   "mb": "08029580",
+   "have": {
+    "address": "7. Jula 10a",
+    "phones": "023 561773; 023 535611",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-jovan-jovanovic-zmaj-zrenjanin",
+   "name": "Osnovna škola \"Jovan Jovanović-Zmaj\"",
+   "type": "Osnovna škola",
+   "place": "Zrenjanin",
+   "website": "http://www.oszmaj.edu.rs/",
+   "mb": "08002142",
+   "have": {
+    "address": "Vidakovićeva 1a",
+    "phones": "023 536875; 023 511960",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-mladost-tomasevac-tomasevac",
+   "name": "Osnovna škola \"Mladost\" Tomaševac",
+   "type": "Osnovna škola",
+   "place": "Zrenjanin",
+   "website": "http://www.ostomasevac.edu.rs/",
+   "mb": "08619824",
+   "have": {
+    "address": "Trg Slobode 8",
+    "phones": "023 871005",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-petar-petrovic-njegos-zrenjanin",
+   "name": "Osnovna škola \"Petar Petrović Njegoš\"",
+   "type": "Osnovna škola",
+   "place": "Zrenjanin",
+   "website": "http://www.ppnjzr.edu.rs/",
+   "mb": "08002088",
+   "have": {
+    "address": "Stražilovska bb",
+    "phones": "023 536376; 023 563840",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-servo-mihalj-zrenjanin",
+   "name": "Osnovna škola \"Servo Mihalj\"",
+   "type": "Osnovna škola",
+   "place": "Zrenjanin",
+   "website": "http://www.osservo.edu.rs/",
+   "mb": "08002134",
+   "have": {
+    "address": "Mađarske Komune 55",
+    "phones": "023 549820; 023 527872",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-sonja-marinkovic-zrenjanin",
+   "name": "Osnovna škola \"Sonja Marinković\"",
+   "type": "Osnovna škola",
+   "place": "Zrenjanin",
+   "website": "http://www.sonjamarinkovic.edu.rs/",
+   "mb": "08057834",
+   "have": {
+    "address": "Slobodana Bursaća 7",
+    "phones": "023 530420",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-vuk-karadzic-zrenjanin-zrenjanin",
+   "name": "Osnovna škola \"Vuk Karadžić\" Zrenjanin",
+   "type": "Osnovna škola",
+   "place": "Zrenjanin",
+   "website": "http://www.vuk.edu.rs/",
+   "mb": "08057842",
+   "have": {
+    "address": "Dr Slavka Županskog 3",
+    "phones": "023 561754",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-zarko-zrenjanin-zrenjanin",
+   "name": "Osnovna škola \"Žarko Zrenjanin\"",
+   "type": "Osnovna škola",
+   "place": "Zrenjanin",
+   "website": "http://www.oszzrenjanin.edu.rs/",
+   "mb": "08221499",
+   "have": {
+    "address": "Đurđa Smederevca 78",
+    "phones": "023 548824",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-13-oktobar-cuprija",
+   "name": "Osnovna škola \"13. Oktobar\"",
+   "type": "Osnovna škola",
+   "place": "Ćuprija",
+   "website": "https://13oktobar.cuprija.edu.rs",
+   "mb": "07166834",
+   "have": {
+    "address": "Alekse Šantića bb",
+    "phones": "035 8476529",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-djura-jaksic-cuprija",
+   "name": "Osnovna škola \"Đura Jakšić\"",
+   "type": "Osnovna škola",
+   "place": "Ćuprija",
+   "website": "https://djurajaksic.cuprija.edu.rs/",
+   "mb": "07166869",
+   "have": {
+    "address": "Karađorđeva 46",
+    "phones": "035 8470555",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-vuk-karadzic-cuprija-cuprija",
+   "name": "Osnovna škola \"Vuk Karadžić\" Ćuprija",
+   "type": "Osnovna škola",
+   "place": "Ćuprija",
+   "website": "https://vuk.cuprija.edu.rs/",
+   "mb": "07166826",
+   "have": {
+    "address": "Kneza Miloša 96",
+    "phones": "035 8472460",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "skola-za-osnovno-muzicko-obrazovanje-dusan-skovran-cuprija",
+   "name": "Škola za osnovno Muzičko obrazovanje \"Dušan Skovran\"",
+   "type": "Osnovna škola",
+   "place": "Ćuprija",
+   "website": "https://skovran.edu.rs",
+   "mb": "07166346",
+   "have": {
+    "address": "Lole Ribara 1",
+    "phones": "035 8471344",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-djura-jaksic-curug",
+   "name": "Osnovna škola \"Đura Jakšić\"",
+   "type": "Osnovna škola",
+   "place": "Žabalj",
+   "website": "https://oscurug.edu.rs/",
+   "mb": "08063613",
+   "have": {
+    "address": "Trg Slobode 4",
+    "phones": "021 2934140; 021 2933017",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-milos-crnjanski-zabalj",
+   "name": "Osnovna škola \"Miloš Crnjanski\"",
+   "type": "Osnovna škola",
+   "place": "Žabalj",
+   "website": "http://oszabalj.edu.rs/",
+   "mb": "08062668",
+   "have": {
+    "address": "Trg Svetog Save 4",
+    "phones": "021 2931377; 021 3848380",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-nikola-tesla-banatsko-karadjordjevo-banatsko-karadjordjevo",
+   "name": "Osnovna škola \"Nikola Tesla\" Banatsko Karađorđevo",
+   "type": "Osnovna škola",
+   "place": "Žitište",
+   "website": "http://osbkaradjordjevo.wixsite.com/ntesla",
+   "mb": "08574758",
+   "have": {
+    "address": "Solunskih Dobrovoljaca 19",
+    "phones": "023 835058",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "penzijski-fond-akcionarsko-drustvo-za-upravljanje-dobrovoljnim-penzijskim",
+   "name": "Akcionarsko društvo za upravljanje dobrovoljnim penzijskim fondom GENERALI Beograd",
+   "type": "Dobrovoljni penzijski fond",
+   "place": "Beograd",
+   "website": "https://www.penzijskifond.rs",
+   "mb": null,
+   "have": {
+    "address": "Španskih boraca 3",
+    "phones": "011 3330505",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  }
+ ],
+ "id": "site-053"
+}

@@ -1,0 +1,393 @@
+{
+ "kind": "sites",
+ "title": "Institucije sa sopstvenim sajtom",
+ "rows": [
+  {
+   "org_slug": "narodni-muzej-sumadije-u-kragujevcu-kragujevac",
+   "name": "Narodni muzej Šumadije u Kragujevcu",
+   "type": "Muzej / Arhiv",
+   "place": "Kragujevac",
+   "website": "https://www.muzej.org.rs",
+   "mb": "07150849",
+   "have": {
+    "address": "Vuka Karadžića 1",
+    "phones": "034 331782; 034 333302; 034 333312",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "narodni-muzej-kraljevo-kraljevo",
+   "name": "Narodni muzej Kraljevo",
+   "type": "Muzej / Arhiv",
+   "place": "Kraljevo",
+   "website": "http://www.nmkv.rs",
+   "mb": "07190921",
+   "have": {
+    "address": "Trg Svetog Save 2",
+    "phones": "036 315350; 036 333004",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "narodni-muzej-krusevac-krusevac",
+   "name": "Narodni muzej Kruševac",
+   "type": "Muzej / Arhiv",
+   "place": "Kruševac",
+   "website": "http://nmks.rs/",
+   "mb": "07676344",
+   "have": {
+    "address": "Stevana Visokog 15",
+    "phones": "037 418540",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "narodni-muzej-leskovac-leskovac",
+   "name": "Narodni muzej Leskovac",
+   "type": "Muzej / Arhiv",
+   "place": "Leskovac",
+   "website": "https://muzejleskovac.rs/",
+   "mb": "07139497",
+   "have": {
+    "address": "Stojana Ljubića 2",
+    "phones": "016 212975",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "galerija-savremene-likovne-umetnosti-nis-ustanova-kulture-od-nacionalnog-znacaja-nis",
+   "name": "Galerija Savremene Likovne umetnosti Niš-Ustanova kulture OD Nacionalnog Značaja",
+   "type": "Muzej / Arhiv",
+   "place": "Niš",
+   "website": "https://gslunis.rs",
+   "mb": "07301715",
+   "have": {
+    "address": "Kej Kola srpskih sestara 1",
+    "phones": "018 512640",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "narodni-muzej-nis-nis",
+   "name": "Narodni muzej Niš",
+   "type": "Muzej / Arhiv",
+   "place": "Niš",
+   "website": "https://narodnimuzejnis.rs",
+   "mb": "07185251",
+   "have": {
+    "address": null,
+    "phones": "018 248189",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "muzej-savremene-umetnosti-novi-beograd",
+   "name": "Muzej Savremene umetnosti",
+   "type": "Muzej / Arhiv",
+   "place": "Novi Beograd",
+   "website": "https://www.msub.org.rs",
+   "mb": "07033281",
+   "have": {
+    "address": "Ušće 10",
+    "phones": "011 3115713",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "muzej-ras-novi-pazar",
+   "name": "Muzej \"Ras\"",
+   "type": "Muzej / Arhiv",
+   "place": "Novi Pazar",
+   "website": "http://www.muzejnp.rs",
+   "mb": "07194056",
+   "have": {
+    "address": "Stevana Nemanje 20",
+    "phones": "020 331681",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "narodni-muzej-pancevo-pancevo",
+   "name": "Narodni muzej Pančevo",
+   "type": "Muzej / Arhiv",
+   "place": "Pančevo",
+   "website": "http://muzejpancevo.rs",
+   "mb": "08006482",
+   "have": {
+    "address": "Trg Kralja Petra I 7",
+    "phones": "013 342666; 013 346471",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "zavicajni-muzej-paracin-paracin",
+   "name": "Zavičajni muzej Paraćin",
+   "type": "Muzej / Arhiv",
+   "place": "Paraćin",
+   "website": "http://www.muzejparacin.rs/",
+   "mb": "07414161",
+   "have": {
+    "address": "Tome Živanovića 17",
+    "phones": "035 562035",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "zavicajni-muzej-petrovac-na-mlavi-petrovac-na-mlavi",
+   "name": "Zavičajni muzej Petrovac na Mlavi",
+   "type": "Muzej / Arhiv",
+   "place": "Petrovac na Mlavi",
+   "website": "http://www.muzej-petrovacnamlavi.org.rs/",
+   "mb": "17275232",
+   "have": {
+    "address": "Srpskih vladara 163",
+    "phones": "012 334808",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "galerija-cedomir-krstic-pirot-pirot",
+   "name": "Galerija \"Čedomir Krstić\" Pirot",
+   "type": "Muzej / Arhiv",
+   "place": "Pirot",
+   "website": "http://www.galerijapirot.com",
+   "mb": "06979904",
+   "have": {
+    "address": "Srpskih vladara bb",
+    "phones": "010 321565",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "muzej-ponisavlja-pirot-pirot",
+   "name": "Muzej Ponišavlja Pirot",
+   "type": "Muzej / Arhiv",
+   "place": "Pirot",
+   "website": "http://www.muzejpirot.com",
+   "mb": "07172486",
+   "have": {
+    "address": "Nikole Pašića 49",
+    "phones": "010 313850",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "zavicajni-muzej-priboj-priboj",
+   "name": "Zavičajni muzej Priboj",
+   "type": "Muzej / Arhiv",
+   "place": "Priboj",
+   "website": "https://muzejpriboj.rs",
+   "mb": "07844433",
+   "have": {
+    "address": "12. Januar 21-25",
+    "phones": "033 2452453",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "istorijski-arhiv-toplica-prokuplje",
+   "name": "Istorijski arhiv \"Toplica\"",
+   "type": "Muzej / Arhiv",
+   "place": "Prokuplje",
+   "website": "https://arhivtoplice.org.rs/",
+   "mb": "17658166",
+   "have": {
+    "address": "Pasjačka 2",
+    "phones": "027 329546",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "narodni-muzej-toplice-prokuplje",
+   "name": "Narodni muzej Toplice",
+   "type": "Muzej / Arhiv",
+   "place": "Prokuplje",
+   "website": "https://muzejtoplice.org.rs/",
+   "mb": "07598165",
+   "have": {
+    "address": "Ratka Pavlovića 31",
+    "phones": "027 321694",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "zavicajni-muzej-ruma-ruma",
+   "name": "Zavičajni muzej Ruma",
+   "type": "Muzej / Arhiv",
+   "place": "Ruma",
+   "website": "https://zavicajnimuzejruma.rs/",
+   "mb": "08229694",
+   "have": {
+    "address": "Glavna 182",
+    "phones": "022 474888",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "narodni-muzej-u-smederevskoj-palanci-smederevska-palanka",
+   "name": "Narodni muzej u Smederevskoj Palanci",
+   "type": "Muzej / Arhiv",
+   "place": "Smederevska Palanka",
+   "website": "http://nmsp.rs/",
+   "mb": "17367315",
+   "have": {
+    "address": "Trg Heroja 5",
+    "phones": "026 311037; 026 314399",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "muzej-srema-sremska-mitrovica",
+   "name": "Muzej Srema",
+   "type": "Muzej / Arhiv",
+   "place": "Sremska Mitrovica",
+   "website": "https://www.muzejsrema.com",
+   "mb": "08015872",
+   "have": {
+    "address": "Vuka Karadžića 3",
+    "phones": "022 621150",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "gradski-muzej-subotica-szabadkai-varosi-muzeum-subotica",
+   "name": "Gradski muzej Subotica - Szabadkai Varosi Muzeum",
+   "type": "Muzej / Arhiv",
+   "place": "Subotica",
+   "website": "https://www.gradskimuzej.subotica.rs",
+   "mb": "08009244",
+   "have": {
+    "address": "Trg sinagoge 3",
+    "phones": "024 555128",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "savremena-galerija-subotica-kortars-galeria-szabadka-suvremena-galerija-subotica-subotica",
+   "name": "Savremena galerija Subotica-Kortars Galeria Szabadka-Suvremena galerija Subotica",
+   "type": "Muzej / Arhiv",
+   "place": "Subotica",
+   "website": "https://www.sgsu.org.rs",
+   "mb": "08084858",
+   "have": {
+    "address": "Park Ferenca Rajhla 5",
+    "phones": "024 553725; 024 552651",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "narodni-muzej-uzice-uzice",
+   "name": "Narodni muzej Užice",
+   "type": "Muzej / Arhiv",
+   "place": "Užice",
+   "website": "http://www.nmuzice.org.rs",
+   "mb": "07156804",
+   "have": {
+    "address": "Dimitrija Tucovića 10",
+    "phones": "031 521360",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "ustanova-gradska-galerija-uzice",
+   "name": "Ustanova \"gradska galerija\"",
+   "type": "Muzej / Arhiv",
+   "place": "Užice",
+   "website": "http://www.galerijauzice.org",
+   "mb": "07594666",
+   "have": {
+    "address": "Slanuška 10",
+    "phones": "031 523299",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "moderna-galerija-valjevo-valjevo",
+   "name": "Moderna galerija \"Valjevo\"",
+   "type": "Muzej / Arhiv",
+   "place": "Valjevo",
+   "website": "http://www.mgva.rs",
+   "mb": "07336713",
+   "have": {
+    "address": "Vuka Karadžića 11",
+    "phones": "014 220878",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  }
+ ],
+ "id": "site-033"
+}

@@ -1,0 +1,396 @@
+{
+ "kind": "sites",
+ "title": "Institucije sa sopstvenim sajtom",
+ "rows": [
+  {
+   "org_slug": "turisticka-organizacija-dragacevo-guca",
+   "name": "Turistička organizacija \"Dragačevo\"",
+   "type": "Turistička organizacija",
+   "place": "Lučani",
+   "website": "http://www.turizamdragacevo.org",
+   "mb": "17834843",
+   "have": {
+    "address": "Trg slobode bb",
+    "phones": "032 855886",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "turisticka-organizacija-majdanpek-doo-majdanpek-donji-milanovac",
+   "name": "Turistička organizacija Majdanpek DOO Majdanpek",
+   "type": "Turistička organizacija",
+   "place": "Majdanpek",
+   "website": "http://www.toom.rs",
+   "mb": "22029754",
+   "have": {
+    "address": "Kralja Petra I bb",
+    "phones": "030 590184",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "turisticka-organizacija-opstine-mali-zvornik-mali-zvornik",
+   "name": "Turistička organizacija opštine Mali Zvornik",
+   "type": "Turistička organizacija",
+   "place": "Mali Zvornik",
+   "website": "http://www.tomalizvornik.rs",
+   "mb": "18378035",
+   "have": {
+    "address": "Ribarska 21",
+    "phones": "015 471477",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "turisticka-organizacija-opstine-malo-crnice-malo-crnice",
+   "name": "Turistička organizacija opštine Malo Crniće",
+   "type": "Turistička organizacija",
+   "place": "Malo Crniće",
+   "website": "http://www.toomc.org",
+   "mb": "17635000",
+   "have": {
+    "address": "Bajlonijeva 119",
+    "phones": "012 280164",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "turisticka-organizacija-opstine-medvedja-sijarinska-banja-medvedja",
+   "name": "Turistička organizacija opštine Medveđa, Sijarinska Banja",
+   "type": "Turistička organizacija",
+   "place": "Medveđa",
+   "website": "http://www.tomedvedja.org.rs",
+   "mb": "17683403",
+   "have": {
+    "address": "Đure Jakšića 4a",
+    "phones": "016 891348",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "turisticka-organizacija-opstine-merosina-merosina",
+   "name": "Turistička organizacija opštine Merošina",
+   "type": "Turistička organizacija",
+   "place": "Merošina",
+   "website": "https://merosinaturizam.rs/",
+   "mb": "17027514",
+   "have": {
+    "address": "Cara Lazara 5",
+    "phones": "062 8033142",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "turisticka-organizacija-mionica-mionica",
+   "name": "Turistička organizacija Mionica",
+   "type": "Turistička organizacija",
+   "place": "Mionica",
+   "website": "https://www.visitmionica.com",
+   "mb": "17863924",
+   "have": {
+    "address": "Jove Aleksića bb",
+    "phones": "014 3422080",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "turisticka-organizacija-opstine-negotin-negotin",
+   "name": "Turistička organizacija opštine Negotin",
+   "type": "Turistička organizacija",
+   "place": "Negotin",
+   "website": "http://www.toon.org.rs",
+   "mb": "17665383",
+   "have": {
+    "address": "Kraljevića Marka 6",
+    "phones": "019 547555",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "turisticka-organizacija-nis-nis",
+   "name": "Turistička organizacija Niš",
+   "type": "Turistička organizacija",
+   "place": "Niš",
+   "website": "http://www.visitnis.org",
+   "mb": "17021117",
+   "have": {
+    "address": "Nade Tomić 15",
+    "phones": "018 510210",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "turisticka-organizacija-opstine-nova-crnja-srpska-crnja",
+   "name": "Turistička organizacija opštine Nova Crnja",
+   "type": "Turistička organizacija",
+   "place": "Nova Crnja",
+   "website": "https://www.toonovacrnja.rs/",
+   "mb": "08904332",
+   "have": {
+    "address": "Kralja Aleksandra 65",
+    "phones": "023 812626",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "turisticka-organizacija-zlatar-nova-varos",
+   "name": "Turistička organizacija \"Zlatar\"",
+   "type": "Turistička organizacija",
+   "place": "Nova Varoš",
+   "website": "http://www.zlatar.org",
+   "mb": "17710516",
+   "have": {
+    "address": "Karađorđeva 36",
+    "phones": "033 2612621",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "turisticka-organizacija-opstine-novi-becej-novi-becej",
+   "name": "Turistička organizacija opštine Novi Bečej",
+   "type": "Turistička organizacija",
+   "place": "Novi Bečej",
+   "website": "http://www.novi-becej.travel",
+   "mb": "08942021",
+   "have": {
+    "address": "Tiski kej bb",
+    "phones": "023 773522",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "turisticka-organizacija-grada-novog-pazara-novi-pazar",
+   "name": "Turistička organizacija grada Novog Pazara",
+   "type": "Turistička organizacija",
+   "place": "Novi Pazar",
+   "website": "https://www.tonp.rs",
+   "mb": "17663666",
+   "have": {
+    "address": "Mitrovačka bb",
+    "phones": "020 338030",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "turisticka-organizacija-grada-novog-sada-novi-sad",
+   "name": "Turistička organizacija grada Novog Sada",
+   "type": "Turistička organizacija",
+   "place": "Novi Sad",
+   "website": "http://www.novisad.travel",
+   "mb": "08903280",
+   "have": {
+    "address": "Trg slobode 3",
+    "phones": "021 6617344",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "turisticka-organizacija-opstine-odzaci-odzaci",
+   "name": "Turistička organizacija opštine Odžaci",
+   "type": "Turistička organizacija",
+   "place": "Odžaci",
+   "website": "http://www.turizamodzaci.rs",
+   "mb": "08858659",
+   "have": {
+    "address": "Knez Mihajlova 28",
+    "phones": "025 5742212",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "turisticka-organizacija-podgorina-osecina",
+   "name": "Turistička organizacija \"Podgorina\"",
+   "type": "Turistička organizacija",
+   "place": "Osečina",
+   "website": "http://www.topodgorina.com",
+   "mb": "17634364",
+   "have": {
+    "address": "Karađorđeva 68",
+    "phones": "014 452311",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "turisticka-organizacija-grada-panceva-pancevo",
+   "name": "Turistička organizacija grada Pančeva",
+   "type": "Turistička organizacija",
+   "place": "Pančevo",
+   "website": "http://www.pancevo.info",
+   "mb": "08658366",
+   "have": {
+    "address": "Vojvode Petra Bojovića 2",
+    "phones": "013 333399",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "turisticka-organizacija-opstine-paracin-paracin",
+   "name": "Turistička organizacija opštine Paraćin",
+   "type": "Turistička organizacija",
+   "place": "Paraćin",
+   "website": "http://www.toparacin.rs",
+   "mb": "17716883",
+   "have": {
+    "address": "Kralja Petra I 69/2",
+    "phones": "035 565814",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "turisticka-organizacija-opstine-petrovac-na-mlavi-petrovac-na-mlavi",
+   "name": "Turistička organizacija opštine Petrovac na Mlavi",
+   "type": "Turistička organizacija",
+   "place": "Petrovac na Mlavi",
+   "website": "https://topetrovacnamlavi.com/",
+   "mb": "17657011",
+   "have": {
+    "address": "Radeta Moskovlića 15",
+    "phones": "012 326343",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "turisticka-organizacija-opstine-pecinci-kupinovo",
+   "name": "Turistička organizacija opštine Pećinci",
+   "type": "Turistička organizacija",
+   "place": "Pećinci",
+   "website": "https://www.visitpecinci.rs",
+   "mb": "08966630",
+   "have": {
+    "address": "Branka Madžarevića 140",
+    "phones": "022 2438060",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javna-ustanova-turisticka-organizacija-pirot-pirot",
+   "name": "Javna ustanova turistička organizacija Pirot",
+   "type": "Turistička organizacija",
+   "place": "Pirot",
+   "website": "http://www.topirot.com",
+   "mb": "17657437",
+   "have": {
+    "address": "Srpskih vladara 77",
+    "phones": "010 320838",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "turisticka-organizacija-grada-pozarevca-pozarevac",
+   "name": "Turistička organizacija grada Požarevca",
+   "type": "Turistička organizacija",
+   "place": "Požarevac",
+   "website": "https://www.togp.rs",
+   "mb": "17273914",
+   "have": {
+    "address": "Tabačka čaršija 1",
+    "phones": "012 221941",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "turisticka-organizacija-pozega-pozega",
+   "name": "Turistička organizacija Požega",
+   "type": "Turistička organizacija",
+   "place": "Požega",
+   "website": "https://www.topoz.org.rs",
+   "mb": "17187112",
+   "have": {
+    "address": "Trg slobode 3",
+    "phones": "031 714650",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "turisticka-organizacija-priboj-priboj",
+   "name": "Turistička organizacija Priboj",
+   "type": "Turistička organizacija",
+   "place": "Priboj",
+   "website": "https://www.topriboj.rs/",
+   "mb": "17636367",
+   "have": {
+    "address": "12. januara 108",
+    "phones": "033 2451599",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  }
+ ],
+ "id": "site-079"
+}

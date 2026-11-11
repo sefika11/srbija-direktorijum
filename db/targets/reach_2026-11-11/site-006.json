@@ -1,0 +1,400 @@
+{
+ "kind": "sites",
+ "title": "Institucije sa sopstvenim sajtom",
+ "rows": [
+  {
+   "org_slug": "centar-za-socijalni-rad-pozega-pozega",
+   "name": "Centar za socijalni rad Požega",
+   "type": "Centar za socijalni rad",
+   "place": "Požega",
+   "website": "https://csrpozega.rs/",
+   "mb": "07112475",
+   "have": {
+    "address": "Nemanjina bb",
+    "phones": "031 3816474; 031 3816475; 031 812572; 031 823135",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-presevo-presevo",
+   "name": "Centar za socijalni rad Preševo",
+   "type": "Centar za socijalni rad",
+   "place": "Preševo",
+   "website": "https://www.csrpresevo.org.rs/",
+   "mb": "07262752",
+   "have": {
+    "address": "Mare Llonçar 26",
+    "phones": "017 869969",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-prijepolje-prijepolje",
+   "name": "Centar za socijalni rad \"Prijepolje\"",
+   "type": "Centar za socijalni rad",
+   "place": "Prijepolje",
+   "website": "https://csrprijepolje.org.rs/",
+   "mb": "07282630",
+   "have": {
+    "address": "Sandžačkih brigada bb",
+    "phones": "033 712033; 033 716029",
+    "hours": "Pon-Pet 07:00-15:00"
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-toplica-prokuplje-prokuplje",
+   "name": "Centar za socijalni rad \"Toplica\" Prokuplje",
+   "type": "Centar za socijalni rad",
+   "place": "Prokuplje",
+   "website": "https://www.csr-prokuplje.rs/",
+   "mb": "07107579",
+   "have": {
+    "address": null,
+    "phones": "027 321591",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-opstine-razanj-razanj",
+   "name": "Centar za socijalni rad opštine Ražanj",
+   "type": "Centar za socijalni rad",
+   "place": "Ražanj",
+   "website": "https://csr-razanj.rs/",
+   "mb": "17681958",
+   "have": {
+    "address": "Novoražanjska 14",
+    "phones": "037 3155170; 037 3155171; 037 3155172; 037 3155173",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-opstine-ruma-ruma",
+   "name": "Centar za socijalni rad opštine Ruma",
+   "type": "Centar za socijalni rad",
+   "place": "Ruma",
+   "website": "https://csr-ruma.rs/",
+   "mb": "08026572",
+   "have": {
+    "address": "Železnička 28",
+    "phones": "022 474281; 022 471980",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-sokobanja-sokobanja",
+   "name": "Centar za socijalni rad \"Sokobanja\"",
+   "type": "Centar za socijalni rad",
+   "place": "Sokobanja",
+   "website": "https://www.csrsokobanja.rs/",
+   "mb": "07992432",
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-sombor-sombor",
+   "name": "Centar za socijalni rad Sombor",
+   "type": "Centar za socijalni rad",
+   "place": "Sombor",
+   "website": "https://www.csrsombor.org.rs/",
+   "mb": "08064431",
+   "have": {
+    "address": "Karađorđeva 4",
+    "phones": "025 482499",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-srbobran-srbobran",
+   "name": "Centar za socijalni rad Srbobran",
+   "type": "Centar za socijalni rad",
+   "place": "Srbobran",
+   "website": "https://srbobrancsr.rs",
+   "mb": "08839638",
+   "have": {
+    "address": "Svetog Save 15",
+    "phones": "021 6230177",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-subotica-subotica",
+   "name": "Centar za socijalni rad Subotica",
+   "type": "Centar za socijalni rad",
+   "place": "Subotica",
+   "website": "https://www.csrsu.org.rs",
+   "mb": "08009350",
+   "have": {
+    "address": "Šantićeva 27",
+    "phones": "024 548220",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-svilajnac-svilajnac",
+   "name": "Centar za socijalni rad \"Svilajnac\"",
+   "type": "Centar za socijalni rad",
+   "place": "Svilajnac",
+   "website": "https://www.csrsvilajnac.org.rs/",
+   "mb": "07322348",
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-opstine-svrljig-svrljig",
+   "name": "Centar za socijalni rad opštine Svrljig",
+   "type": "Centar za socijalni rad",
+   "place": "Svrljig",
+   "website": "https://csrsvrljig.rs/",
+   "mb": "07301740",
+   "have": {
+    "address": null,
+    "phones": "018 821038",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-opstine-temerin-temerin",
+   "name": "Centar za socijalni rad opštine Temerin",
+   "type": "Centar za socijalni rad",
+   "place": "Temerin",
+   "website": "https://www.csrtemerin.rs/",
+   "mb": "08233527",
+   "have": {
+    "address": "Zmaj Jovina 22a",
+    "phones": "021 843511",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-trgoviste-trgoviste",
+   "name": "Centar za socijalni rad Trgovište",
+   "type": "Centar za socijalni rad",
+   "place": "Trgovište",
+   "website": "https://www.csrtrgoviste.rs/",
+   "mb": "07283598",
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-trstenik-trstenik",
+   "name": "Centar za socijalni rad \"Trstenik\"",
+   "type": "Centar za socijalni rad",
+   "place": "Trstenik",
+   "website": "https://csrtrstenik.rs/",
+   "mb": "07155093",
+   "have": {
+    "address": "Svetog Save br. 51",
+    "phones": "037 712320; 037 713189",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-ub-ub",
+   "name": "Centar za socijalni rad \"Ub\"",
+   "type": "Centar za socijalni rad",
+   "place": "Ub",
+   "website": "https://www.csrub.rs/",
+   "mb": "07327994",
+   "have": {
+    "address": "Veljka Vlahovića br. 8",
+    "phones": "014 411849; 014 411612",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-uzice-uzice",
+   "name": "Centar za socijalni rad \"Užice\"",
+   "type": "Centar za socijalni rad",
+   "place": "Užice",
+   "website": "https://csr-uzice.rs/",
+   "mb": "07157681",
+   "have": {
+    "address": "Vidovdanska 32a",
+    "phones": "031 522075; 031 517758",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-kolubara-valjevo-valjevo",
+   "name": "Centar za socijalni rad \"Kolubara\" Valjevo",
+   "type": "Centar za socijalni rad",
+   "place": "Valjevo",
+   "website": "https://csrvaljevo.org.rs/",
+   "mb": "07096780",
+   "have": {
+    "address": "Sinđelićeva 50b",
+    "phones": "014 221114",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-za-opstine-vlasotince-i-crna-trava-vlasotince",
+   "name": "Centar za socijalni rad za opštine Vlasotince i Crna Trava",
+   "type": "Centar za socijalni rad",
+   "place": "Vlasotince",
+   "website": "https://www.csr-vlasotince.rs/",
+   "mb": "07285523",
+   "have": {
+    "address": "Nemanjina 58",
+    "phones": "016 875459",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-vranje-vranje",
+   "name": "Centar za socijalni rad Vranje",
+   "type": "Centar za socijalni rad",
+   "place": "Vranje",
+   "website": "https://www.csr-vranje.rs/",
+   "mb": "07205864",
+   "have": {
+    "address": "Zadarska 2",
+    "phones": "017 423905",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-vrbas-vrbas",
+   "name": "Centar za socijalni rad Vrbas",
+   "type": "Centar za socijalni rad",
+   "place": "Vrbas",
+   "website": "https://www.csrvrbas.rs/",
+   "mb": "08564078",
+   "have": {
+    "address": "Maršala Tita br. 40",
+    "phones": "021 706524",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-opstine-vrnjacka-banja-vrnjacka-banja",
+   "name": "Centar za socijalni rad opštine Vrnjačka Banja",
+   "type": "Centar za socijalni rad",
+   "place": "Vrnjačka Banja",
+   "website": "https://www.csrvrnjackabanja.org.rs/",
+   "mb": "07339275",
+   "have": {
+    "address": "Žike Valjarevića 1",
+    "phones": "036 611120",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-vrsac-vrsac",
+   "name": "Centar za socijalni rad Vršac",
+   "type": "Centar za socijalni rad",
+   "place": "Vršac",
+   "website": "http://www.czsr-vrsac.org.rs",
+   "mb": "08010242",
+   "have": {
+    "address": "Bulevar Žarka Zrenjanina 13",
+    "phones": "013 839689; 013 839696",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-grada-zrenjanina-zrenjanin",
+   "name": "Centar za socijalni rad grada Zrenjanina",
+   "type": "Centar za socijalni rad",
+   "place": "Zrenjanin",
+   "website": "http://csr-zrenjanin.org.rs",
+   "mb": "08002355",
+   "have": {
+    "address": "Narodnog fronta 2",
+    "phones": "023 534148",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  }
+ ],
+ "id": "site-006"
+}

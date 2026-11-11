@@ -1,0 +1,346 @@
+{
+ "kind": "network",
+ "title": "Apotekarska ustanova \"Biopharm\"",
+ "type": "apoteka",
+ "orgs": [
+  {
+   "org_slug": "apotekarska-ustanova-biopharm-valjevo",
+   "name": "Apotekarska ustanova \"Biopharm\"",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 11091,
+     "unit": "Kolubara II",
+     "place": "Valjevo",
+     "address": "Naselje Oslobodioci Valjeva A/5",
+     "phones": "014 228130; 014 244002",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11092,
+     "unit": "Biopharm Borča",
+     "place": "Palilula",
+     "address": "Ivana Milutinovića broj 19",
+     "phones": "011 3320338",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11093,
+     "unit": "Gradac",
+     "place": "Valjevo",
+     "address": "Knez Mihajlova 81",
+     "phones": "014 237228",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11094,
+     "unit": "Centar",
+     "place": "Valjevo",
+     "address": "Karađorđeva 65",
+     "phones": "014 234066",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11095,
+     "unit": "Biopharm Ub",
+     "place": "Ub",
+     "address": "Dobrosava Simića 4",
+     "phones": "014 411701",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11096,
+     "unit": "Kaluđerica",
+     "place": "Beograd",
+     "address": "Smederevski put 22d",
+     "phones": "011 3048973",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11097,
+     "unit": "Šest Kaplara",
+     "place": "Beograd",
+     "address": "Bulevar dr Zorana Đinđića 44",
+     "phones": "011 3122651",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11098,
+     "unit": "Dunav",
+     "place": "Beograd",
+     "address": "Grge Andrijanovića 10",
+     "phones": "011 2710146",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11099,
+     "unit": "Neven",
+     "place": "Beograd",
+     "address": "Zmaj Jovina broj 10",
+     "phones": "011 3169385",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11100,
+     "unit": "Zdravlje",
+     "place": "Lajkovac",
+     "address": "Kralja Petra I broj 1",
+     "phones": "014 3433815",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11101,
+     "unit": "Osečina",
+     "place": "Osečina",
+     "address": "Karađorđeva broj 86",
+     "phones": "014 452476",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11102,
+     "unit": "Zuce",
+     "place": "Beograd",
+     "address": "14. Nova broj 1",
+     "phones": "011 8052261",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11103,
+     "unit": "Grocka",
+     "place": "Beograd",
+     "address": "Srpsko-grčkog prijateljstva broj 6",
+     "phones": "011 8503710",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11104,
+     "unit": "Resnik",
+     "place": "Beograd",
+     "address": "Slavka Miljkovića broj 43",
+     "phones": "011 8042287",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11105,
+     "unit": "Tvrdjava",
+     "place": "Niš",
+     "address": "Anete Andrejević broj 14",
+     "phones": "018 591500",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11106,
+     "unit": "Palilula",
+     "place": "Niš",
+     "address": "Episkopska broj 62",
+     "phones": "018 591600",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11107,
+     "unit": "Lipa",
+     "place": "Valjevo",
+     "address": "Vojvode Mišića broj 107",
+     "phones": "014 220012",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11108,
+     "unit": "Neven Valjevo",
+     "place": "Valjevo",
+     "address": "Dr Pantića broj 3",
+     "phones": "014 242020",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11109,
+     "unit": "Menta",
+     "place": "Lajkovac",
+     "address": "Kralja Petra Prvog broj 5",
+     "phones": "014 3105000",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11110,
+     "unit": "Božur",
+     "place": "Niš",
+     "address": "Obilićev venac broj 87",
+     "phones": "018 232868",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11111,
+     "unit": "Sunce",
+     "place": "Niš",
+     "address": "Marina Držića broj 28",
+     "phones": "018 203116",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11112,
+     "unit": "Zdravlje Niš",
+     "place": "Niš",
+     "address": "Vizantijski bulevar broj 80a",
+     "phones": "018 276004",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11113,
+     "unit": "Ub",
+     "place": "Ub",
+     "address": "Dobrisava Simića broj 1",
+     "phones": "014 416444",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11114,
+     "unit": "Mionica",
+     "place": "Mionica",
+     "address": "Dr Jove Aleksića bb",
+     "phones": "014 3421251",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11115,
+     "unit": "Kod Hrama",
+     "place": "Valjevo",
+     "address": "Vitkovićeva broj 3",
+     "phones": "014 220033",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11116,
+     "unit": "Peti Puk",
+     "place": "Valjevo",
+     "address": "Ljube Kovačevića broj 41",
+     "phones": "014 244881",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11117,
+     "unit": "Dorćol",
+     "place": "Beograd",
+     "address": "Braće Baruh broj 1",
+     "phones": "011 2622884; 011 2630057",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11118,
+     "unit": "Pantelej",
+     "place": "Niš",
+     "address": "Somborska broj 81a/60",
+     "phones": "018 3280097",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11119,
+     "unit": "Centar Grocka",
+     "place": "Beograd",
+     "address": "Hajduk Veljka broj 2",
+     "phones": "011 8503238",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11120,
+     "unit": "Naisus - Palilula",
+     "place": "Niš",
+     "address": "Episkopska broj 56",
+     "phones": "063 658164",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  }
+ ],
+ "id": "net-apotekarska-ustanova-biopharm-valjevo"
+}

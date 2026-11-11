@@ -1,0 +1,301 @@
+{
+ "kind": "sites",
+ "title": "Institucije sa sopstvenim sajtom",
+ "rows": [
+  {
+   "org_slug": "zavod-za-javno-zdravlje-uzice-uzice",
+   "name": "Zavod za javno zdravlje Užice",
+   "type": "Zavod / Institut za javno zdravlje",
+   "place": "Užice",
+   "website": "http://zavodue.org.rs",
+   "mb": "07190298",
+   "have": {
+    "address": "Dr Veselina Marinkovića 4",
+    "phones": "031 563150",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "zavod-za-javno-zdravlje-valjevo-valjevo",
+   "name": "Zavod za javno zdravlje Valjevo",
+   "type": "Zavod / Institut za javno zdravlje",
+   "place": "Valjevo",
+   "website": "http://www.zzjzvaljevo.co.rs",
+   "mb": "17272543",
+   "have": {
+    "address": "Vladike Nikolaja 5",
+    "phones": "014 237056",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "zavod-za-javno-zdravlje-vranje-vranje",
+   "name": "Zavod za javno zdravlje Vranje",
+   "type": "Zavod / Institut za javno zdravlje",
+   "place": "Vranje",
+   "website": "http://www.zjzvranje.org.rs",
+   "mb": "07205830",
+   "have": {
+    "address": "Jovana Jankovića Lunge 1",
+    "phones": "017 421310",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "zavod-za-javno-zdravlje-timok-zajecar-zajecar",
+   "name": "Zavod za javno zdravlje \"Timok\" Zaječar",
+   "type": "Zavod / Institut za javno zdravlje",
+   "place": "Zaječar",
+   "website": "http://www.zavodzajecar.rs",
+   "mb": "07147929",
+   "have": {
+    "address": "Sremska 13",
+    "phones": "019 422477; 019 422543",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "zavod-za-javno-zdravlje-zrenjanin-zrenjanin",
+   "name": "Zavod za javno zdravlje Zrenjanin",
+   "type": "Zavod / Institut za javno zdravlje",
+   "place": "Zrenjanin",
+   "website": "http://www.zastitazdravlja.rs",
+   "mb": "08169454",
+   "have": {
+    "address": "Dr. Emila Gavrila 15",
+    "phones": "023 566345",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "zavod-za-javno-zdravlje-pomoravlje-cuprija-cuprija",
+   "name": "Zavod za javno zdravlje \"Pomoravlje\" Ćuprija",
+   "type": "Zavod / Institut za javno zdravlje",
+   "place": "Ćuprija",
+   "website": "http://zzjzcuprija.com",
+   "mb": "07166923",
+   "have": {
+    "address": "Miodraga Novakovića 48",
+    "phones": "035 8470036; 035 8473289",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "zavod-za-javno-zdravlje-cacak-cacak",
+   "name": "Zavod za javno zdravlje Čačak",
+   "type": "Zavod / Institut za javno zdravlje",
+   "place": "Čačak",
+   "website": "http://www.zdravljecacak.org",
+   "mb": "07271735",
+   "have": {
+    "address": "Veselina Milikića 7",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "zavod-za-javno-zdravlje-sabac-sabac",
+   "name": "Zavod za javno zdravlje Šabac",
+   "type": "Zavod / Institut za javno zdravlje",
+   "place": "Šabac",
+   "website": "http://www.zjz.org.rs",
+   "mb": "07289502",
+   "have": {
+    "address": "Jovana Cvijića 1",
+    "phones": "015 300550",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "zavod-za-zastitu-spomenika-kulture-grada-beograda-beograd",
+   "name": "Zavod za zaštitu Spomenika kulture grada Beograda",
+   "type": "Zavod za zaštitu spomenika kulture",
+   "place": "Beograd",
+   "website": "http://beogradskonasledje.rs",
+   "mb": "07045719",
+   "have": {
+    "address": "Kalemegdan",
+    "phones": "011 3287557; 011 3287420; 011 2631743",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "zavod-za-zastitu-spomenika-kulture-kragujevac-kragujevac",
+   "name": "Zavod za zaštitu Spomenika kulture - Kragujevac",
+   "type": "Zavod za zaštitu spomenika kulture",
+   "place": "Kragujevac",
+   "website": "http://www.kulturnonasledje.com",
+   "mb": "07151411",
+   "have": {
+    "address": null,
+    "phones": "034 335595; 034 335347",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "zavod-za-zastitu-spomenika-kulture-kraljevo-kraljevo",
+   "name": "Zavod za zaštitu Spomenika kulture Kraljevo",
+   "type": "Zavod za zaštitu spomenika kulture",
+   "place": "Kraljevo",
+   "website": "http://zzskv.rs",
+   "mb": "07101104",
+   "have": {
+    "address": "Cara Lazara 24",
+    "phones": "036 331866",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "zavod-za-zastitu-spomenika-kulture-novi-sad-novi-sad",
+   "name": "Zavod za zaštitu spomenika kulture Novi Sad",
+   "type": "Zavod za zaštitu spomenika kulture",
+   "place": "Novi Sad",
+   "website": "http://www.zzskgns.rs",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "021 557060; 021 557061",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "zavod-za-zastitu-spomenika-kulture-pancevo-pancevo",
+   "name": "Zavod za zaštitu spomenika kulture Pančevo",
+   "type": "Zavod za zaštitu spomenika kulture",
+   "place": "Pančevo",
+   "website": "http://www.zzskpancevo.org",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "013 351472; 013 351851",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "regionalni-zavod-za-zastitu-spomenika-kulture-smederevo-smederevo",
+   "name": "Regionalni zavod za zaštitu Spomenika kulture Smederevo",
+   "type": "Zavod za zaštitu spomenika kulture",
+   "place": "Smederevo",
+   "website": "http://spomenicikulture.org.rs",
+   "mb": "07198965",
+   "have": {
+    "address": null,
+    "phones": "026 4622309; 026 614010",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "zavod-za-zastitu-spomenika-kulture-sremska-mitrovica-sremska-mitrovica",
+   "name": "Zavod za zaštitu Spomenika kulture Sremska Mitrovica",
+   "type": "Zavod za zaštitu spomenika kulture",
+   "place": "Sremska Mitrovica",
+   "website": "https://zavodsm.rs",
+   "mb": "08015902",
+   "have": {
+    "address": "Svetog Dimitrija 10",
+    "phones": "022 621568; 022 612708; 022 613794",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "medjuopstinski-zavod-za-zastitu-spomenika-kulture-subotica-subotica",
+   "name": "Međuopštinski zavod za zaštitu Spomenika kulture Subotica",
+   "type": "Zavod za zaštitu spomenika kulture",
+   "place": "Subotica",
+   "website": "http://www.heritage-su.org.rs",
+   "mb": "08137455",
+   "have": {
+    "address": "Trg slobode 1",
+    "phones": "024 557606; 024 556901",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "zavod-za-zastitu-spomenika-kulture-valjevo-valjevo",
+   "name": "Zavod za zaštitu Spomenika kulture Valjevo",
+   "type": "Zavod za zaštitu spomenika kulture",
+   "place": "Valjevo",
+   "website": "http://vaza.co.rs",
+   "mb": "07346956",
+   "have": {
+    "address": "Milovana Glišića 2",
+    "phones": "014 3519655; 014 3519656",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "zavod-za-zastitu-spomenika-kulture-zrenjanin-zrenjanin",
+   "name": "Zavod za zaštitu Spomenika kulture Zrenjanin",
+   "type": "Zavod za zaštitu spomenika kulture",
+   "place": "Zrenjanin",
+   "website": "http://www.zrenjaninheritage.com",
+   "mb": "08804516",
+   "have": {
+    "address": "Trg dr Zorana Đinđića 1",
+    "phones": "023 564366; 023 528730",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  }
+ ],
+ "id": "site-087"
+}

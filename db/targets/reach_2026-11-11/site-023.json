@@ -1,0 +1,396 @@
+{
+ "kind": "sites",
+ "title": "Institucije sa sopstvenim sajtom",
+ "rows": [
+  {
+   "org_slug": "javno-komunalno-preduzece-cistoca-zabalj-zabalj",
+   "name": "Javno komunalno preduzeće čistoća Žabalj",
+   "type": "JKP Čistoća / Komunalac",
+   "place": "Žabalj",
+   "website": "http://www.cistocazabalj.co.rs/",
+   "mb": "20732580",
+   "have": {
+    "address": null,
+    "phones": "021 2100429; 021 2100431",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-stambeno-preduzece-ekos-zitiste-zitiste",
+   "name": "Javno komunalno stambeno preduzeće Ekos Žitište",
+   "type": "JKP Čistoća / Komunalac",
+   "place": "Žitište",
+   "website": "http://ekoszitiste.rs/",
+   "mb": "08031185",
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-zitoradja-zitoradja",
+   "name": "Javno komunalno preduzeće, Žitorađa",
+   "type": "JKP Čistoća / Komunalac",
+   "place": "Žitorađa",
+   "website": "https://jkpzitoradja.rs/",
+   "mb": "17610716",
+   "have": {
+    "address": "Topličkih heroja 51",
+    "phones": "027 8362834",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "drustvo-sa-ogranicenom-odgovornoscu-za-distribuciju-prirodnog-gasa-gas-becej-becej",
+   "name": "Društvo sa ograničenom odgovornošću za Distribuciju Prirodnog Gasa Gas, Bečej",
+   "type": "Distribucija gasa",
+   "place": "Bečej",
+   "website": "http://www.gasbecej.co.rs",
+   "mb": "08793590",
+   "have": {
+    "address": "Čarnojevićeva 2",
+    "phones": "021 6911429; 021 6912945; 021 6914859",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-preduzece-za-distribuciju-gasa-ingas-jp-indjija-indjija",
+   "name": "Javno preduzeće za Distribuciju Gasa Ingas JP , Inđija",
+   "type": "Distribucija gasa",
+   "place": "Inđija",
+   "website": "https://www.ingas.rs/",
+   "mb": "08190135",
+   "have": {
+    "address": "Inđija, Blok 63, Objekat 14/II",
+    "phones": "064 1993302; 0800 252250; 022 560568; 022 552199; 022 552157; 022 560862",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-preduzece-za-poslove-distribucije-gasa-kovin-gas-kovin-kovin",
+   "name": "Javno preduzeće za Poslove Distribucije Gasa Kovin-Gas, Kovin",
+   "type": "Distribucija gasa",
+   "place": "Kovin",
+   "website": "https://www.kovin-gas.co.rs/",
+   "mb": "08646538",
+   "have": {
+    "address": "Svetozara Markovića 15",
+    "phones": "013 745805; 013 745806; 013 744011; 013 745645",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-preduzece-srbijagas-novi-sad-novi-sad",
+   "name": "Javno preduzeće Srbijagas Novi Sad",
+   "type": "Distribucija gasa",
+   "place": "Novi Sad",
+   "website": "https://www.srbijagas.com/",
+   "mb": "20084600",
+   "have": {
+    "address": null,
+    "phones": "0800 220020",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-preduzece-elgas-senta-senta",
+   "name": "Javno preduzeće Elgas Senta",
+   "type": "Distribucija gasa",
+   "place": "Senta",
+   "website": "http://elgas-senta.co.rs",
+   "mb": "08025886",
+   "have": {
+    "address": "Miksat Kalmana 37",
+    "phones": "024 815223",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-preduzece-za-distribuciju-prirodnog-gasa-srem-gas-sremska-mitrovica-sremska-mitrovica",
+   "name": "Javno preduzeće za Distribuciju Prirodnog Gasa Srem-Gas Sremska Mitrovica",
+   "type": "Distribucija gasa",
+   "place": "Sremska Mitrovica",
+   "website": "https://sremgas.rs/",
+   "mb": "08675295",
+   "have": {
+    "address": "Trg vojvođanskih brigada 14",
+    "phones": "064 8894580; 022 610069; 022 621065; 022 624657",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-preduzece-gas-temerin-temerin",
+   "name": "Javno preduzeće Gas Temerin",
+   "type": "Distribucija gasa",
+   "place": "Temerin",
+   "website": "https://www.jpgastemerin.rs",
+   "mb": "08060274",
+   "have": {
+    "address": "Novosadska 421",
+    "phones": "021 843633; 021 843655; 0800 100204; 065 2721709",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-preduzece-vrbas-gas-za-distribuciju-prirodnog-gasa-vrbas-vrbas",
+   "name": "Javno preduzeće Vrbas-Gas za Distribuciju Prirodnog Gasa Vrbas",
+   "type": "Distribucija gasa",
+   "place": "Vrbas",
+   "website": "http://www.vrbasgas.com",
+   "mb": "08666016",
+   "have": {
+    "address": "Kozaračka 3",
+    "phones": "021 794265",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-gradsko-saobracajno-preduzece-novi-sad-novi-sad-novi-sad",
+   "name": "Javno gradsko saobraćajno preduzeće Novi Sad Novi Sad",
+   "type": "JKP / JP Gradski prevoz",
+   "place": "Novi Sad",
+   "website": "https://www.gspns.rs/",
+   "mb": "08041822",
+   "have": {
+    "address": "Futoški put 46",
+    "phones": "021 527399; 021 4896687",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-gradsko-saobracajno-preduzece-beograd-beograd-beograd-stari-grad",
+   "name": "Javno komunalno preduzeće gradsko saobraćajno preduzeće Beograd, Beograd",
+   "type": "JKP / JP Gradski prevoz",
+   "place": "Stari grad",
+   "website": "https://www.gsp.rs",
+   "mb": "07022662",
+   "have": {
+    "address": "Kneginje Ljubice 29",
+    "phones": "011 3664000",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-preduzece-za-prevoz-putnika-u-gradskom-i-prigradskom-saobracaju-subotica-trans-subotica-suboti",
+   "name": "Javno preduzeće za prevoz putnika u Gradskom i Prigradskom Saobraćaju Subotica-Trans Subotica",
+   "type": "JKP / JP Gradski prevoz",
+   "place": "Subotica",
+   "website": "https://www.sutrans.rs",
+   "mb": "08049548",
+   "have": {
+    "address": "Segedinski put 84",
+    "phones": "024 547777",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-preduzece-za-prevoz-putnika-i-transport-robe-novi-autoprevoz-vrnjacka-banja-vrnjacka-banja",
+   "name": "Javno preduzeće za prevoz putnika i Transport Robe Novi Autoprevoz Vrnjačka Banja",
+   "type": "JKP / JP Gradski prevoz",
+   "place": "Vrnjačka Banja",
+   "website": "http://www.noviautoprevoz.rs",
+   "mb": "20932716",
+   "have": {
+    "address": "Vojvođanska 3",
+    "phones": "036 612550",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-parking-servis-nis-nis-medijana",
+   "name": "Javno komunalno preduzeće parking servis Niš",
+   "type": "JKP Parking servis",
+   "place": "Medijana",
+   "website": "https://nisparking.rs",
+   "mb": "20192542",
+   "have": {
+    "address": "Vožda Karađorđa 84a",
+    "phones": "018 517333",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-parking-servis-novi-pazar-novi-pazar",
+   "name": "Javno Komunalno Preduzeće Parking Servis Novi Pazar",
+   "type": "JKP Parking servis",
+   "place": "Novi Pazar",
+   "website": "https://parkingservisnp.rs/",
+   "mb": "21163597",
+   "have": {
+    "address": "36300 Novi Pazar",
+    "phones": "020 319921; 020 322743",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-parking-servis-novi-sad-novi-sad",
+   "name": "Javno komunalno preduzeće parking servis Novi Sad",
+   "type": "JKP Parking servis",
+   "place": "Novi Sad",
+   "website": "https://parkingns.rs/",
+   "mb": "08831149",
+   "have": {
+    "address": "Filipa Višnjića 47",
+    "phones": "021 4724140; 0800 021104; 021 4899117",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-parking-servis-smederevo-smederevo-smederevo",
+   "name": "Javno komunalno preduzeće parking servis Smederevo, Smederevo",
+   "type": "JKP Parking servis",
+   "place": "Smederevo",
+   "website": "https://parkingsd.rs/",
+   "mb": "20782641",
+   "have": {
+    "address": "Goranska bb",
+    "phones": "026 615630; 026 4621631; 026 611451; 0800 200209",
+    "hours": "direkcija PON–PET 07:00–15:00; info centar (Miloša Velikog BB) PON–PET 07:00–20:00, SUB 08:00–13:00"
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-parking-servis-sombor-sombor",
+   "name": "Javno Komunalno Preduzeće Parking Servis Sombor",
+   "type": "JKP Parking servis",
+   "place": "Sombor",
+   "website": "https://parkingsombor.co.rs/",
+   "mb": "20121432",
+   "have": {
+    "address": "Trg Cara Lazara 1",
+    "phones": "025 5460606; 025 423000; 0800 102125",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-parking-subotica-subotica",
+   "name": "Javno komunalno preduzeće parking Subotica",
+   "type": "JKP Parking servis",
+   "place": "Subotica",
+   "website": "https://www.suparking.rs",
+   "mb": "08676089",
+   "have": {
+    "address": "Đure Đakovića 23",
+    "phones": "024 694200",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-parking-sabac-sabac-sabac",
+   "name": "Javno komunalno preduzeće parking- Šabac Šabac",
+   "type": "JKP Parking servis",
+   "place": "Šabac",
+   "website": "http://parkingsabac.rs",
+   "mb": "17429299",
+   "have": {
+    "address": "Jove Kursule br.1 i br.4, 15000 Šabac",
+    "phones": "0800 211211; 015 300850; 015 303690; 015 350904",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-preduzece-za-odrzavanje-pijace-i-pruzanje-usluga-na-njoj-trznica-backa-topola-backa-topola",
+   "name": "Javno preduzeće za održavanje pijace i Pružanje Usluga na Njoj Tržnica, Bačka Topola",
+   "type": "JKP Pijace / Tržnica",
+   "place": "Bačka Topola",
+   "website": "http://www.trznicabt.co.rs",
+   "mb": "08745501",
+   "have": {
+    "address": "Karađorđeva bb",
+    "phones": "024 715198",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "mesna-zajednica-male-pijace-kanjiza",
+   "name": "Mesna zajednica Male pijace",
+   "type": "JKP Pijace / Tržnica",
+   "place": "Kanjiža",
+   "website": "http://www.kispiac.rs",
+   "mb": "08025711",
+   "have": {
+    "address": "Aranj Janoša 3",
+    "phones": "024 882020",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  }
+ ],
+ "id": "site-023"
+}

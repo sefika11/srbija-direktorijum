@@ -1,0 +1,621 @@
+{
+ "kind": "network",
+ "title": "Apotekarska ustanova \"Oaza zdravlja\"",
+ "type": "apoteka",
+ "orgs": [
+  {
+   "org_slug": "apotekarska-ustanova-oaza-zdravlja-beograd",
+   "name": "Apotekarska ustanova \"Oaza zdravlja\"",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 14024,
+     "unit": "Apoteka",
+     "place": "Beograd",
+     "address": "Kanarevo brdo broj 42",
+     "phones": "063 1110439",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14026,
+     "unit": "Ogranak Apoteka\"Oaza zdravlja I\"",
+     "place": "Beograd",
+     "address": "Braće Jerković 123d",
+     "phones": "063 1110452",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14029,
+     "unit": "Ogranak Apoteka\"Oaza zdravlja III\"",
+     "place": "Beograd",
+     "address": "Dragiše Brašovana 1",
+     "phones": "063 1110472",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14031,
+     "unit": "Ogranak Apoteka\"Oaza zdravlja IV\"",
+     "place": "Niš",
+     "address": "Đerdapska 46",
+     "phones": "063 1110479",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14033,
+     "unit": "Ogranak Apoteka\"Majka i dete\"",
+     "place": "Beograd",
+     "address": "Radoja Dakića 6",
+     "phones": "063 1110458",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14035,
+     "unit": "Ogranak Apoteka\"Oaza zdravlja V\"",
+     "place": "Beograd",
+     "address": "22.oktobra 1, Beograd",
+     "phones": "063 1135479",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14037,
+     "unit": "Ogranak Apoteka\"Oaza zdravlja XII\"",
+     "place": "Beograd",
+     "address": "Milutina Milankovića 40",
+     "phones": "063 8601331",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14039,
+     "unit": "Ogranak Apoteka \"Oaza zdravljaXVII\"",
+     "place": "Niš",
+     "address": "Episkopska 37",
+     "phones": "063 8601412",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14041,
+     "unit": "Ogranak Apoteka \"Oaza zdravljaXIX\"",
+     "place": "Beograd",
+     "address": "Crveno barjače 31",
+     "phones": "063 8601359",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14044,
+     "unit": "Ogranak Apoteka \"Oaza zdravljaXX\"",
+     "place": "Beograd",
+     "address": "Ratka Mitrovića 162",
+     "phones": "063 8601420",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14046,
+     "unit": "Ogranak Apoteka \"Oaza zdravljaXXI\"",
+     "place": "Beograd",
+     "address": "Vladetina 2",
+     "phones": "063 8601410",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14048,
+     "unit": "Ogranak Apoteka \"Oaza zdravljaXXIII\"",
+     "place": "Beograd",
+     "address": "Jurija Gagarina 29a",
+     "phones": "063 8601416",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14050,
+     "unit": "Ogranak Apoteka \"Oaza zdravljaXXIV\"",
+     "place": "Beograd",
+     "address": "Serdar Janka Vukotića 1",
+     "phones": "063 8601318",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14052,
+     "unit": "Ogranak Apoteka \"Oaza zdravljaXXVI\"",
+     "place": "Beograd",
+     "address": "Dr.Milutina Ivkovića 2a",
+     "phones": "063 1110327",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14054,
+     "unit": "Ogranak Apoteka \"Oaza zdravljaXXVII\"",
+     "place": "Beograd",
+     "address": "Braće Srnić 23s",
+     "phones": "063 1110365",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14056,
+     "unit": "Ogranak Apoteka \"Oaza zdravljaXXVIII\"",
+     "place": "Beograd",
+     "address": "Ustanička 67",
+     "phones": "063 1110306",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14058,
+     "unit": "Ogranak Apoteka \"Oaza zdravljaXXIX\"",
+     "place": "Beograd",
+     "address": "Vojvode Stepe 116",
+     "phones": "063 8601323",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14060,
+     "unit": "Ogranak Apoteka \"Oaza zdravljaXXX\"",
+     "place": "Beograd",
+     "address": "Mirijevski venac 16a",
+     "phones": "063 1110268",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14062,
+     "unit": "Ogranak Apoteka \"Oaza zdravlja XXXI\"",
+     "place": "Beograd",
+     "address": "Kneza Višeslava 29a",
+     "phones": "063 1135474",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14065,
+     "unit": "Ogranak Apoteka \"Oaza zdravlja XXXII\"",
+     "place": "Beograd",
+     "address": "Patrijarha Joanikija 33",
+     "phones": "063 1130096",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14067,
+     "unit": "Ogranak Apoteka \"Vitalika\"",
+     "place": "Beograd",
+     "address": "Bul.Despota Stefana 59",
+     "phones": "063 8601348",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14069,
+     "unit": "Ogranak Apoteka \"Oaza zdravlja XXXIII\"",
+     "place": "Beograd",
+     "address": "Vladimira Gaćinovića 2b",
+     "phones": "063 1130279",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14071,
+     "unit": "Ogranak Apoteka \"Oaza zdravlja XXXV\"",
+     "place": "Beograd",
+     "address": "Ljubinska 5a",
+     "phones": "063 1130263",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14073,
+     "unit": "Ogranak Apoteka \"Oaza zdravlja XXXVI\"",
+     "place": "Beograd",
+     "address": "Paunova 80",
+     "phones": "063 1133813",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14076,
+     "unit": "Ogranak Apoteka \"Oaza zdravlja XXXVIII\"",
+     "place": "Beograd",
+     "address": "Palmira Toljatija 9",
+     "phones": "063 1135813",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14078,
+     "unit": "Ogranak Apoteka \"Oaza zdravlja XXXIX\"",
+     "place": "Beograd",
+     "address": "Bulevar umetnosti br.1, Beograd",
+     "phones": "063 1131688",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14080,
+     "unit": "Ogranak Apoteka \"Oaza zdravlja XLI\"",
+     "place": "Beograd",
+     "address": "Save Kovačevića 2c",
+     "phones": "063 1135472",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14082,
+     "unit": "Ogranak Apoteka \"Oaza zdravlja XLIII\"",
+     "place": "Beograd",
+     "address": "Ustanicka 170",
+     "phones": "063 1135424",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14084,
+     "unit": "Ogranak Apoteka \"Oaza zdravlja L\"",
+     "place": "Kraljevo",
+     "address": "Jug Bogdanova 112",
+     "phones": "063 1105801",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14086,
+     "unit": "Ogranak Apoteka \"Oaza zdravlja LI\"",
+     "place": "Plandište",
+     "address": "Karadjordjeva 13",
+     "phones": "063 1110661",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14088,
+     "unit": "Ogranak Apoteka \"Ub\"",
+     "place": "Ub",
+     "address": "Kralja Petra I Oslobodioca 54",
+     "phones": "063 1135401",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14091,
+     "unit": "Ogranak Apoteka \"Stepojevac\"",
+     "place": "Beograd",
+     "address": "Dušana Petrovića Šaneta 5",
+     "phones": "063 1115443",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14093,
+     "unit": "Ogranak Apoteka \"Lek\"",
+     "place": "Zaječar",
+     "address": "Nikole Pašića 11",
+     "phones": "019 421120",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14095,
+     "unit": "Ogranak Apoteka \"Zdravlje\"",
+     "place": "Zaječar",
+     "address": "Rasadnička bb",
+     "phones": "019 422076",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14097,
+     "unit": "Ogranak Apoteka \"Eskulap\"",
+     "place": "Knjaževac",
+     "address": "Lole Ribara 2",
+     "phones": "019 731603",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14100,
+     "unit": "Ogranak Apoteka \"Dom Zdravlja\"",
+     "place": "Knjaževac",
+     "address": "4-jula .2, Knjaževac",
+     "phones": "019 731775",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14102,
+     "unit": "Ogranak Apoteka \"Boljevac\"",
+     "place": "Boljevac",
+     "address": "Kralja Aleksandra 3",
+     "phones": "030 463315",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14104,
+     "unit": "Ogranak Apoteka \"Higija\"",
+     "place": "Knjaževac",
+     "address": "Knjaza Miloša 27",
+     "phones": "019 735439",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14106,
+     "unit": "Ogranak Apoteka \"Romulijana\"",
+     "place": "Zaječar",
+     "address": "Dragoslava Srejovića 19",
+     "phones": "019 426242",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14108,
+     "unit": "Ogranak Apoteka \"Vidaković\"",
+     "place": "Čačak",
+     "address": "Gradsko Šetalište 61",
+     "phones": "032 327252",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14110,
+     "unit": "Ogranak Apoteka \"Meljak\"",
+     "place": "Beograd",
+     "address": "Ibarski put 52",
+     "phones": "060 7170821",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14113,
+     "unit": "Ogranak Apoteka \"Karaburma\"",
+     "place": "Beograd",
+     "address": "Višnjička 91",
+     "phones": "060 7170820",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14115,
+     "unit": "Ogranak Apoteka \"Visnjica\"",
+     "place": "Beograd",
+     "address": "Maršala Tita 116",
+     "phones": "060 7170819",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14117,
+     "unit": "Ogranak Apoteka \"Vranovo\"",
+     "place": "Smederevo",
+     "address": "Kralja Petra I 33",
+     "phones": "026 732077",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14119,
+     "unit": "Ogranak Apoteka \"Oaza zdravlja LII\"",
+     "place": "Beograd",
+     "address": "Ustanička 170e",
+     "phones": "060 5000126",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14121,
+     "unit": "Ogranak Apoteka \"Oaza zdravlja LVIII\"",
+     "place": "Beograd",
+     "address": "Gandijeva 106b",
+     "phones": "060 5000125",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14124,
+     "unit": "Ogranak Apoteka \"Batajnica\"",
+     "place": "Beograd",
+     "address": "Majora Zorana Radosavljevića 196",
+     "phones": "060 5000129",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14126,
+     "unit": "Ogranak Apoteka \"Oaza zdravlja LIV\"",
+     "place": "Beograd",
+     "address": "Save Mrkalja 26a",
+     "phones": "060 5000157",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14128,
+     "unit": "Ogranak Apoteka \"Oaza zdravlja LVI\"",
+     "place": "Beograd",
+     "address": "Ratka Mitrovića 185",
+     "phones": "060 5000130",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14130,
+     "unit": "Ogranak Apoteka \"Oaza zdravlja LIII\"",
+     "place": "Beograd",
+     "address": "Mirijevski bulevar 18b",
+     "phones": "060 5000161",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14132,
+     "unit": "Ogranak Apoteka \"Oaza zdravlja LV\"",
+     "place": "Beograd",
+     "address": "Prvomajska 2a",
+     "phones": "060 5000142",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14135,
+     "unit": "Ogranak Apoteka \"Veliki Crljeni\"",
+     "place": "Beograd",
+     "address": "Trećeg oktobra 138a",
+     "phones": "066 6655451",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14137,
+     "unit": "Ogranak Apoteka \"Oaza zdravlja LVII\"",
+     "place": "Beograd",
+     "address": "Borska 11đ, Beograd",
+     "phones": "060 5000164",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14139,
+     "unit": "Ogranak Apoteka \"Batajnica 2\"",
+     "place": "Beograd",
+     "address": "Stanka Tišme 31d",
+     "phones": "060 5000128",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14141,
+     "unit": "Ogranak Apoteka \"Oaza zdravlja LIX\"",
+     "place": "Beograd",
+     "address": "Poručnika Spasića i Mašere 19a",
+     "phones": "060 5000134",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  }
+ ],
+ "id": "net-apotekarska-ustanova-oaza-zdravlja-beograd"
+}

@@ -1,0 +1,5216 @@
+{
+ "kind": "network",
+ "title": "Apotekarska ustanova \"BENU\"",
+ "type": "apoteka",
+ "orgs": [
+  {
+   "org_slug": "apotekarska-ustanova-benu-beograd",
+   "name": "Apotekarska ustanova \"BENU\"",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 12075,
+     "unit": "Sedište AU BENU",
+     "place": "Beograd",
+     "address": "Bore Stankovića 2",
+     "phones": "063 422923",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12076,
+     "unit": "Žarkovo",
+     "place": "Beograd",
+     "address": "Nike Strugara 4a",
+     "phones": "064 6431055",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12077,
+     "unit": "BENU Kosovska",
+     "place": "Beograd",
+     "address": "Kosovska 4",
+     "phones": "064 6431056",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12078,
+     "unit": "Konjarnik",
+     "place": "Beograd",
+     "address": "Olge Alkalaj 2",
+     "phones": "064 6431057",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12079,
+     "unit": "Banovo brdo",
+     "place": "Beograd",
+     "address": "Blagoja Parovića 102g",
+     "phones": "064 8085500",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12080,
+     "unit": "YUBC",
+     "place": "Beograd",
+     "address": "Bulevar Mihaila Pupina 10b",
+     "phones": "064 8085501",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12081,
+     "unit": "Korzo",
+     "place": "Subotica",
+     "address": "Korzo 1",
+     "phones": "064 8085512",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12082,
+     "unit": "Centar",
+     "place": "Subotica",
+     "address": "Trg Žrtava Fašizma 5",
+     "phones": "064 8085513",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12083,
+     "unit": "Rodić",
+     "place": "Subotica",
+     "address": "Segedinski Put bb",
+     "phones": "064 8085514",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12084,
+     "unit": "Bajmok",
+     "place": "Subotica",
+     "address": "Jugoslovenske Narodne Armije 1",
+     "phones": "064 8085515",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12085,
+     "unit": "Bolnica",
+     "place": "Subotica",
+     "address": "Izvorska 1",
+     "phones": "064 8085518",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12086,
+     "unit": "Pijaca",
+     "place": "Subotica",
+     "address": "Somborski put 77",
+     "phones": "064 8085519",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12087,
+     "unit": "Bačka Topola",
+     "place": "Bačka Topola",
+     "address": "Glavna 21",
+     "phones": "064 8085520",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12088,
+     "unit": "Stari Grad 2",
+     "place": "Novi Sad",
+     "address": "Hajduk Veljkova 8",
+     "phones": "064 6431059",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12089,
+     "unit": "Jagodina",
+     "place": "Jagodina",
+     "address": "Radmila Đorđevića 1",
+     "phones": "064 8085507",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12090,
+     "unit": "Sremska Mitrovica",
+     "place": "Sremska Mitrovica",
+     "address": "Timočke divizije 1",
+     "phones": "064 8085505",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12091,
+     "unit": "Blok 62",
+     "place": "Beograd",
+     "address": "Nehruova 56",
+     "phones": "064 8085511",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12092,
+     "unit": "Lazarevac",
+     "place": "Beograd",
+     "address": "Dimitrija Tucovića bb",
+     "phones": "064 8085502",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12093,
+     "unit": "Kragujevac",
+     "place": "Kragujevac",
+     "address": "Josifa Šnersona bb",
+     "phones": "064 8085508",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12094,
+     "unit": "Smederevo",
+     "place": "Smederevo",
+     "address": "Šalinačka bb",
+     "phones": "064 8085504",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12095,
+     "unit": "Pančevo DIS",
+     "place": "Pančevo",
+     "address": "Miloša Obrenovića 12",
+     "phones": "064 8085525",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12096,
+     "unit": "Požarevac",
+     "place": "Požarevac",
+     "address": "Bože Dimitrijevića 26",
+     "phones": "064 8085523",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12097,
+     "unit": "Blok 44",
+     "place": "Beograd",
+     "address": "Nehruova 51",
+     "phones": "064 6431064",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12098,
+     "unit": "Jagodina DIS",
+     "place": "Jagodina",
+     "address": "Filipa Stankovića bb",
+     "phones": "064 8085510",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12099,
+     "unit": "Kruševac DIS",
+     "place": "Kruševac",
+     "address": "Kneza Miloša bb",
+     "phones": "064 6431067",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12100,
+     "unit": "Bački Petrovac",
+     "place": "Bački Petrovac",
+     "address": "Narodne Revolucije 13",
+     "phones": "064 6431052",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12101,
+     "unit": "Novi Sad- Novo Naselje",
+     "place": "Novi Sad",
+     "address": "Mileve Marić 3",
+     "phones": "064 8085506",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12102,
+     "unit": "Temerin DZ",
+     "place": "Temerin",
+     "address": "Narodnog Fronta 117",
+     "phones": "064 8085529",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12103,
+     "unit": "Temerin Centar",
+     "place": "Temerin",
+     "address": "Novosadska 383",
+     "phones": "064 8085530",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12104,
+     "unit": "Novi Sad Liman 3",
+     "place": "Novi Sad",
+     "address": "Bulevar Cara Lazara 57",
+     "phones": "064 8085532",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12105,
+     "unit": "Kanjiža",
+     "place": "Kanjiža",
+     "address": "Trg pijačni 21",
+     "phones": "064 6431053",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12106,
+     "unit": "Pančevo IDEA",
+     "place": "Pančevo",
+     "address": "Dositeja Obradovića 8k",
+     "phones": "064 8085533",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12107,
+     "unit": "TCM Mladenovac",
+     "place": "Beograd",
+     "address": "Braće Badžak 2",
+     "phones": "064 8085536",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12108,
+     "unit": "Mirijevo",
+     "place": "Beograd",
+     "address": "Koste Nađa 10e",
+     "phones": "064 8085537",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12109,
+     "unit": "Beogradska",
+     "place": "Beograd",
+     "address": "Beogradska 50",
+     "phones": "064 6431049",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12110,
+     "unit": "Šid",
+     "place": "Šid",
+     "address": "Karađorđeva 26",
+     "phones": "064 8085543",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12111,
+     "unit": "Niš-DIS",
+     "place": "Niš",
+     "address": "Bulevar Medijana 15",
+     "phones": "064 8085541",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12112,
+     "unit": "Krnjača-METRO",
+     "place": "Beograd",
+     "address": "Zrenjaninski Put 11m",
+     "phones": "064 8085546",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12113,
+     "unit": "Požarevac DIS",
+     "place": "Požarevac",
+     "address": "Đure Đakovića bb",
+     "phones": "064 8085545",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12114,
+     "unit": "Belvil",
+     "place": "Beograd",
+     "address": "Jurija Gagarina 14j",
+     "phones": "064 6431063",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12115,
+     "unit": "DELTA CITY",
+     "place": "Beograd",
+     "address": "Jurija Gagarina br. 16",
+     "phones": "064 8085548",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12116,
+     "unit": "Viline vode-TEMPO",
+     "place": "Beograd",
+     "address": "Viline Vode bb",
+     "phones": "064 8085550",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12117,
+     "unit": "Kvantaš- TEMPO",
+     "place": "Beograd",
+     "address": "Autoput za Zagreb br.35, Beograd",
+     "phones": "064 8085549",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12118,
+     "unit": "Meštrovićeva- MAXI",
+     "place": "Beograd",
+     "address": "Meštrovićeva 32",
+     "phones": "064 8085551",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12119,
+     "unit": "Kikinda- MAXI",
+     "place": "Kikinda",
+     "address": "Svetosavska bb",
+     "phones": "064 8085553",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12120,
+     "unit": "Zrenjanin MAXI",
+     "place": "Zrenjanin",
+     "address": "Junaka Milana Tepića bb",
+     "phones": "064 8085554",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12121,
+     "unit": "Nova Galenika- MAXI",
+     "place": "Beograd",
+     "address": "Nikole Ribarića 3",
+     "phones": "064 8085556",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12122,
+     "unit": "Kruševac- MAXI",
+     "place": "Kruševac",
+     "address": "Nikole Tesle bb",
+     "phones": "064 8085557",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12123,
+     "unit": "TEMPO- Kraljevo",
+     "place": "Kraljevo",
+     "address": "Industrijska bb",
+     "phones": "064 8085558",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12124,
+     "unit": "MAXI-Pančevo",
+     "place": "Pančevo",
+     "address": "Svetog Save 8a",
+     "phones": "064 8085559",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12125,
+     "unit": "DIS-Vrsac",
+     "place": "Vršac",
+     "address": "Žarka Zrenjanina bb",
+     "phones": "064 8085562",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12126,
+     "unit": "DIS- Kraljevo",
+     "place": "Kraljevo",
+     "address": "Dositejeva bb",
+     "phones": "064 8085561",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12127,
+     "unit": "Kragujevac- DELTA PARK",
+     "place": "Kragujevac",
+     "address": "Save Kovačevića br.27, Kragujevac",
+     "phones": "064 8085563",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12128,
+     "unit": "DIS Mladenovac",
+     "place": "Beograd",
+     "address": "Vuka Karadžića 105",
+     "phones": "064 8085567",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12129,
+     "unit": "DIS Smederevska Palanka",
+     "place": "Smederevska Palanka",
+     "address": "Industrijska bb",
+     "phones": "064 8085566",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12130,
+     "unit": "DIS Velika Plana",
+     "place": "Velika Plana",
+     "address": "Kralja Petra I 44",
+     "phones": "064 8085565",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12131,
+     "unit": "Maksima Gorkog",
+     "place": "Beograd",
+     "address": "Maksima Gorkog 50",
+     "phones": "064 8085568",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12132,
+     "unit": "Niš TEMPO",
+     "place": "Niš",
+     "address": "Bulevar 12",
+     "phones": "064 8085574",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12133,
+     "unit": "MAXI Petrovac na Mlavi",
+     "place": "Petrovac na Mlavi",
+     "address": "Vojislava Stokića bb",
+     "phones": "064 8085573",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12134,
+     "unit": "UŠĆE",
+     "place": "Beograd",
+     "address": "Bulevar Mihaila Pupina 6",
+     "phones": "011 3120297",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12135,
+     "unit": "Immo centar",
+     "place": "Beograd",
+     "address": "Gandijeva 21",
+     "phones": "064 8085581",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12136,
+     "unit": "IDEA Bežanijska kosa",
+     "place": "Beograd",
+     "address": "Partizanske Avijacije bb",
+     "phones": "064 8085582",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12137,
+     "unit": "IDEA Jajinci",
+     "place": "Beograd",
+     "address": "Bulevar Oslobođenja 162b",
+     "phones": "064 8085583",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12138,
+     "unit": "IDEA Banovo brdo",
+     "place": "Beograd",
+     "address": "Turgenjeva 10",
+     "phones": "064 8085584",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12139,
+     "unit": "IDEA Novi Sad",
+     "place": "Novi Sad",
+     "address": "Bulevar Vojvode Stepe 32",
+     "phones": "064 8085590",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12140,
+     "unit": "MERCATOR Novi Sad",
+     "place": "Novi Sad",
+     "address": "Bulevar Oslobođenja 102",
+     "phones": "064 8085585",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12141,
+     "unit": "Roda Kragujevac",
+     "place": "Kragujevac",
+     "address": "Save Kovačevića 48a",
+     "phones": "064 8085587",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12142,
+     "unit": "RODA Zrenjanin",
+     "place": "Zrenjanin",
+     "address": "Pere Dobrinovića 35",
+     "phones": "064 8085588",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12143,
+     "unit": "RODA Vrbas",
+     "place": "Vrbas",
+     "address": "Narodnog fronta 74",
+     "phones": "064 8085594",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12144,
+     "unit": "RODA Jagodina",
+     "place": "Jagodina",
+     "address": "Kneza Lazara 74",
+     "phones": "064 8085597",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12145,
+     "unit": "IDEA Senta",
+     "place": "Senta",
+     "address": "Jovana Đorđevića 11",
+     "phones": "064 8083054",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12146,
+     "unit": "RODA Bačka Topola",
+     "place": "Bačka Topola",
+     "address": "Boljai Farkaša 2",
+     "phones": "064 8085596",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12147,
+     "unit": "VIVO PARK Jagodina",
+     "place": "Jagodina",
+     "address": "Vuka Bojovića bb",
+     "phones": "064 8085598",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12148,
+     "unit": "MAXI Sarajevska",
+     "place": "Beograd",
+     "address": "Sarajevska 38a",
+     "phones": "064 8083051",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12149,
+     "unit": "Loznica",
+     "place": "Loznica",
+     "address": "Kneza Miloša 15",
+     "phones": "064 8085593",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12150,
+     "unit": "Subotica DZ",
+     "place": "Subotica",
+     "address": "Evgenija Kumičića 7",
+     "phones": "064 6431066",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12151,
+     "unit": "Borča IDEA",
+     "place": "Beograd",
+     "address": "Zrenjaninski put bb",
+     "phones": "064 8083052",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12152,
+     "unit": "RODA Kruševac",
+     "place": "Kruševac",
+     "address": "Zore Petrović 11a",
+     "phones": "064 6431050",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12153,
+     "unit": "Beograd Resavska 60",
+     "place": "Beograd",
+     "address": "Resavska 60",
+     "phones": "064 8083056",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12154,
+     "unit": "Kikinda Klinika",
+     "place": "Kikinda",
+     "address": "Žarka Zrenjanina 58",
+     "phones": "064 8083057",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12155,
+     "unit": "Novi Sad Petrovaradin",
+     "place": "Novi Sad",
+     "address": "Jože Vlahovića 10",
+     "phones": "064 8083060",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12156,
+     "unit": "Golubac",
+     "place": "Golubac",
+     "address": "Trg Palih Boraca bb",
+     "phones": "064 8083071",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12157,
+     "unit": "Kraljevo London",
+     "place": "Kraljevo",
+     "address": "Omladinska 53",
+     "phones": "064 8083061",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12158,
+     "unit": "Kraljevo Zelengora",
+     "place": "Kraljevo",
+     "address": "Dositejeva 34",
+     "phones": "064 8083063",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12159,
+     "unit": "Kraljevo Trg vojske",
+     "place": "Kraljevo",
+     "address": "Trg Kralja Petra 1",
+     "phones": "064 8083062",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12160,
+     "unit": "Raška",
+     "place": "Raška",
+     "address": "Dr. Jovanovića 9",
+     "phones": "064 8083065",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12161,
+     "unit": "Kragujevac Bubanj",
+     "place": "Kragujevac",
+     "address": "Janka Veselinovića 65",
+     "phones": "064 8083069",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12162,
+     "unit": "Čačak",
+     "place": "Čačak",
+     "address": "Bate Jankovića 47",
+     "phones": "064 8083068",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12163,
+     "unit": "Čačak Avenija",
+     "place": "Čačak",
+     "address": "Bulevar Vuka Karadžića 39b",
+     "phones": "064 8083075",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12164,
+     "unit": "Borča 3",
+     "place": "Beograd",
+     "address": "Bele Bartoka 38",
+     "phones": "064 8083076",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12165,
+     "unit": "Idea Kragujevac",
+     "place": "Kragujevac",
+     "address": "Svetogorska 1",
+     "phones": "063 581930",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12166,
+     "unit": "RODA Čačak",
+     "place": "Čačak",
+     "address": "Braća Spasići bb",
+     "phones": "064 8085586",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12167,
+     "unit": "Aranđelovac",
+     "place": "Aranđelovac",
+     "address": "Kralja Petra Prvog 17a",
+     "phones": "064 8083055",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12168,
+     "unit": "Shoppi Park Subotica",
+     "place": "Subotica",
+     "address": "Segedinski put 88a",
+     "phones": "063 581959",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12169,
+     "unit": "TEMPO Čačak",
+     "place": "Čačak",
+     "address": "Železnička kolonija bb",
+     "phones": "063 581958",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12170,
+     "unit": "DIS Novi Sad",
+     "place": "Novi Sad",
+     "address": "Futoški put 10",
+     "phones": "064 8085589",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12171,
+     "unit": "DIS Nova Pazova",
+     "place": "Stara Pazova",
+     "address": "Kralja Petra Prvog 92",
+     "phones": "064 8083067",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12172,
+     "unit": "MERKATOR Beograd",
+     "place": "Beograd",
+     "address": "Bulevar umetnosti 4",
+     "phones": "063 581957",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12173,
+     "unit": "MAXI Batajnica",
+     "place": "Beograd",
+     "address": "Majora Zorana Radosavljevića 222",
+     "phones": "062 684063",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12174,
+     "unit": "Pančevo Dom Zdravlja",
+     "place": "Pančevo",
+     "address": "Miloša Obrenovića 4",
+     "phones": "062 684341",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12175,
+     "unit": "Obrenovac",
+     "place": "Beograd",
+     "address": "Kneza Mihaila 4",
+     "phones": "062 684199",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12176,
+     "unit": "Kikinda Korzo",
+     "place": "Kikinda",
+     "address": "Trg Srpskih dobrovoljaca 47",
+     "phones": "062 684273",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12177,
+     "unit": "IDEA Inđija",
+     "place": "Inđija",
+     "address": "Novosadska 12",
+     "phones": "062 684134",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12178,
+     "unit": "Bašaid",
+     "place": "Kikinda",
+     "address": "Vojvođanska 53",
+     "phones": "062 422046",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12179,
+     "unit": "Pirot Centar",
+     "place": "Pirot",
+     "address": "Dragoševa 50",
+     "phones": "064 8085547",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12180,
+     "unit": "BIG FASHION Beograd",
+     "place": "Beograd",
+     "address": "Višnjička 84",
+     "phones": "064 8083074",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12181,
+     "unit": "BENU PLAZA Kragujevac",
+     "place": "Kragujevac",
+     "address": "Bulevar Kraljice Marije 56",
+     "phones": "064 8085534",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12182,
+     "unit": "Pančevo Centar",
+     "place": "Pančevo",
+     "address": "Trg Slobode 3",
+     "phones": "062 8077219",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12183,
+     "unit": "Pančevo Oslobođenja",
+     "place": "Pančevo",
+     "address": "Oslobođenja 4a",
+     "phones": "062 8077218",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12184,
+     "unit": "Starčevo",
+     "place": "Pančevo",
+     "address": "Pančevački Put 11",
+     "phones": "062 8077217",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12185,
+     "unit": "Beograd Palilula",
+     "place": "Beograd",
+     "address": "Bulevar Despota Stefana 62",
+     "phones": "062 8077216",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12186,
+     "unit": "Banatsko Novo selo",
+     "place": "Pančevo",
+     "address": "Maršala Tita 52",
+     "phones": "062 8077215",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12187,
+     "unit": "Omoljica",
+     "place": "Pančevo",
+     "address": "Patrijarha Arsenija Čarnojevića 9",
+     "phones": "062 8077214",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12188,
+     "unit": "Alibunar",
+     "place": "Alibunar",
+     "address": "Trg Slobode bb",
+     "phones": "062 8077212",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12189,
+     "unit": "Bavanište",
+     "place": "Kovin",
+     "address": "Trg Zorana Đurđeva br.8, Bavanište",
+     "phones": "062 8077211",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12190,
+     "unit": "Vladimirovac",
+     "place": "Alibunar",
+     "address": "Cara Lazara 41",
+     "phones": "062 8077210",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12191,
+     "unit": "Padina",
+     "place": "Merošina",
+     "address": "Trg Oslobođenja 12",
+     "phones": "062 8077209",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12192,
+     "unit": "Kovin",
+     "place": "Kovin",
+     "address": "Trg Oslobođenja 6",
+     "phones": "062 8077208",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12193,
+     "unit": "Banatski Karlovac",
+     "place": "Alibunar",
+     "address": "Nemanjina 62",
+     "phones": "062 8077207",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12194,
+     "unit": "Kovačica",
+     "place": "Kovačica",
+     "address": "JNA 62",
+     "phones": "062 8077206",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12195,
+     "unit": "Zemun Zagorska",
+     "place": "Beograd",
+     "address": "Blagoja Jovovića 13b",
+     "phones": "062 8077204",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12196,
+     "unit": "Pančevo Tesla",
+     "place": "Pančevo",
+     "address": "Kneza Mihaila Obrenovića 65",
+     "phones": "062 8077203",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12197,
+     "unit": "Kačarevo",
+     "place": "Pančevo",
+     "address": "Maršala Tita 32",
+     "phones": "062 8077202",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12198,
+     "unit": "RODA Đorđa Stanojevića",
+     "place": "Beograd",
+     "address": "Đorđa Stanojevića 35",
+     "phones": "064 8083073",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12199,
+     "unit": "GOMEX Zrenjanin",
+     "place": "Zrenjanin",
+     "address": "Marka Oreškovića bb",
+     "phones": "064 8085516",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12200,
+     "unit": "Smederevo Karađorđeva",
+     "place": "Smederevo",
+     "address": "Karađorđeva 39",
+     "phones": "062 8077661",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12201,
+     "unit": "Smederevo Moše Pijade",
+     "place": "Smederevo",
+     "address": "Slobode 19",
+     "phones": "062 8077662",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12202,
+     "unit": "Smederevo Senjak",
+     "place": "Smederevo",
+     "address": "16. Oktobra 64 , Smederevo",
+     "phones": "062 8077663",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12203,
+     "unit": "Jagodina Sretena Adžića",
+     "place": "Jagodina",
+     "address": "Karađorđeva 2/2",
+     "phones": "062 8077664",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12204,
+     "unit": "Inđija TRADE UNIQUE",
+     "place": "Inđija",
+     "address": "Vojvode Stepe 11",
+     "phones": "062 8077660",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12205,
+     "unit": "Dis Zrenjanin",
+     "place": "Zrenjanin",
+     "address": "Bagljaš- Zapad 5",
+     "phones": "064 8085572",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12206,
+     "unit": "Roda Niš",
+     "place": "Niš",
+     "address": "Vizantijski Bulevar 1a",
+     "phones": "064 8083072",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12207,
+     "unit": "Borča Zrenjaninski put",
+     "place": "Beograd",
+     "address": "Zrenjaninski Put 152",
+     "phones": "063 581892",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12208,
+     "unit": "Pančevo Kotež",
+     "place": "Pančevo",
+     "address": "Oslobođenja 17",
+     "phones": "063 1195609",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12209,
+     "unit": "Pančevo Milorada Bate Mihailovića",
+     "place": "Pančevo",
+     "address": "Milorada Bate Mihailovića 19",
+     "phones": "063 1195618",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12210,
+     "unit": "Pančevo Dr Kasapinovića",
+     "place": "Pančevo",
+     "address": "Dr Svetislava Kasapinovića 5",
+     "phones": "063 1195619",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12211,
+     "unit": "Pančevo Makedonska",
+     "place": "Pančevo",
+     "address": "Makedonska 31a",
+     "phones": "063 1195602",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12212,
+     "unit": "Pančevo Karađorđeva",
+     "place": "Pančevo",
+     "address": "Karađorđeva 6",
+     "phones": "063 1195622",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12213,
+     "unit": "Beograd Nehruova",
+     "place": "Beograd",
+     "address": "Nehruova 51",
+     "phones": "063 1195589",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12214,
+     "unit": "Beograd Piramida",
+     "place": "Beograd",
+     "address": "Jurija Gagarina 155a",
+     "phones": "063 1195563",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12215,
+     "unit": "Beograd Jurija Gagarina",
+     "place": "Beograd",
+     "address": "Jurija Gagarina 155a",
+     "phones": "063 1195545",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12216,
+     "unit": "Beograd Goce Delčeva",
+     "place": "Beograd",
+     "address": "Bul.Maršala Tolbuhina 29",
+     "phones": "063 1195578",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12217,
+     "unit": "Kraljevo Cara Dušana",
+     "place": "Kraljevo",
+     "address": "Cara Dušana 90",
+     "phones": "063 1195584",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12218,
+     "unit": "Kačarevo Narodnog Fronta",
+     "place": "Pančevo",
+     "address": "Narodnog Fronta 29",
+     "phones": "063 1195625",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12219,
+     "unit": "Čačak Veselina Milikića",
+     "place": "Čačak",
+     "address": "Veselina Milikića 7",
+     "phones": "063 1195568",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12220,
+     "unit": "Beograd Kokanova",
+     "place": "Beograd",
+     "address": "Saše Simeunovića 2b",
+     "phones": "063 1195632",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12221,
+     "unit": "Beograd Paunova",
+     "place": "Beograd",
+     "address": "Paunova 6a",
+     "phones": "063 1195633",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12222,
+     "unit": "Beograd Njegoševa",
+     "place": "Beograd",
+     "address": "Njegoševa 90",
+     "phones": "063 1195535",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12223,
+     "unit": "Beograd Katanićeva",
+     "place": "Beograd",
+     "address": "Katanićeva 2",
+     "phones": "063 1195525",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12224,
+     "unit": "Brestovac Maršala Tita",
+     "place": "Pančevo",
+     "address": "Maršala Tita 4",
+     "phones": "063 1195627",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12225,
+     "unit": "RAJIĆEVA Beograd",
+     "place": "Beograd",
+     "address": "Kneza Mihaila 54",
+     "phones": "064 8085552",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12226,
+     "unit": "Roda Rasadnik Kruševac",
+     "place": "Kruševac",
+     "address": "Bruski put 20",
+     "phones": "064 8083058",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12227,
+     "unit": "BENU Jug Bogdanova",
+     "place": "Užice",
+     "address": "Jug Bogdanova 2",
+     "phones": "062 8077222",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12228,
+     "unit": "Airport City Beograd",
+     "place": "Beograd",
+     "address": "Omladinskih brigada 88a",
+     "phones": "062 445392",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12229,
+     "unit": "RODA Pirot",
+     "place": "Pirot",
+     "address": "Lava Tolstoja bb",
+     "phones": "062 430146",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12230,
+     "unit": "Jabuka",
+     "place": "Pančevo",
+     "address": "Ribarska 1",
+     "phones": "062 430357",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12231,
+     "unit": "Resavica",
+     "place": "Despotovac",
+     "address": "6.avgusta br. 5, Resavica",
+     "phones": "062 441849",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12232,
+     "unit": "Beograd BW",
+     "place": "Beograd",
+     "address": "Hercegovačka 14",
+     "phones": "062 445973",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12233,
+     "unit": "Beograd Bulevar Đeram",
+     "place": "Beograd",
+     "address": "Bulevar Kralja Aleksandra 182",
+     "phones": "064 8312448",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12234,
+     "unit": "BENU Apoteka Opovo",
+     "place": "Opovo",
+     "address": "Borisa Kidriča 13",
+     "phones": "064 8312449",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12235,
+     "unit": "Kopaonik",
+     "place": "Raška",
+     "address": "zgrada br.1, 01-5,Kopaonik",
+     "phones": "064 8312450",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12236,
+     "unit": "BENU 207",
+     "place": "Leskovac",
+     "address": "Južnomoravskih brigada br.2,Leskovac",
+     "phones": "064 8312451",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12237,
+     "unit": "BENU 208",
+     "place": "Pančevo",
+     "address": "Oslobodjenja 88",
+     "phones": "064 8441775",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12238,
+     "unit": "Niš 12. februara",
+     "place": "Niš",
+     "address": "Bulevar 12",
+     "phones": "064 8441812",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12239,
+     "unit": "Subotica Matka Vukovića",
+     "place": "Subotica",
+     "address": "Matka Vukovića br. 10",
+     "phones": "064 8441810",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12240,
+     "unit": "Sremska Kamenica",
+     "place": "Petrovaradin",
+     "address": "Trg Zmaj Jove br. 8",
+     "phones": "064 8441814",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12241,
+     "unit": "Kanjiža Sv. Save",
+     "place": "Kanjiža",
+     "address": "Svetog Save br. 2",
+     "phones": "064 8441815",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12242,
+     "unit": "Novi Sad Vojvode Bojovića",
+     "place": "Novi Sad",
+     "address": "Vojvode Bojovića br. 23",
+     "phones": "064 8441816",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12243,
+     "unit": "Subotica Trg",
+     "place": "Subotica",
+     "address": "Trg Jakaba i Komora br. 4",
+     "phones": "064 8441817",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12244,
+     "unit": "Subotica Korzo 2",
+     "place": "Subotica",
+     "address": "Korzo br. 15",
+     "phones": "064 8441818",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12245,
+     "unit": "Kruševac Dragomira Gajića",
+     "place": "Kruševac",
+     "address": "Dušanova br. 13",
+     "phones": "064 8441819",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12246,
+     "unit": "Kruševac Cara Lazara",
+     "place": "Kruševac",
+     "address": "Cara Lazara br. 136",
+     "phones": "064 8441820",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12247,
+     "unit": "Veternik",
+     "place": "Novi Sad",
+     "address": "Kralja Petra I br. 3",
+     "phones": "064 8441823",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12248,
+     "unit": "Novi Sad Cara Dušana",
+     "place": "Novi Sad",
+     "address": "Cara Dušana br. 70",
+     "phones": "064 8441824",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12249,
+     "unit": "Futog",
+     "place": "Novi Sad",
+     "address": "Cara Lazara 21",
+     "phones": "064 8441825",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12250,
+     "unit": "Subotica Trgopromet",
+     "place": "Subotica",
+     "address": "Segedinski put br. 80",
+     "phones": "064 8441827",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12251,
+     "unit": "Beograd Žarkovo",
+     "place": "Beograd",
+     "address": "Ace Joksimovića br. 2",
+     "phones": "064 8441828",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12252,
+     "unit": "Beograd Borča 1",
+     "place": "Beograd",
+     "address": "Ivana Milutinovića br. 20",
+     "phones": "064 8441829",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12253,
+     "unit": "Niš Zona I",
+     "place": "Niš",
+     "address": "Bulevar Nemanjića br. 67",
+     "phones": "064 8441830",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12254,
+     "unit": "Niš Durlan",
+     "place": "Niš",
+     "address": "Knjaževačka br. 118",
+     "phones": "064 8441850",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12255,
+     "unit": "Beograd Njegoševa 2",
+     "place": "Beograd",
+     "address": "Njegoševa br. 31",
+     "phones": "064 8441861",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12256,
+     "unit": "BENU 233",
+     "place": "Užice",
+     "address": "Nikole Pašića br. 12",
+     "phones": "064 8441874",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12257,
+     "unit": "Bačka Topola Omladinska",
+     "place": "Bačka Topola",
+     "address": "Omladinska br. 1",
+     "phones": "064 8441875",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12258,
+     "unit": "Feketić",
+     "place": "Mali Iđoš",
+     "address": "Maršala Tita br. 31",
+     "phones": "064 8441876",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12259,
+     "unit": "Beograd Stari Merkator",
+     "place": "Beograd",
+     "address": "Palmira Toljatija br. 5",
+     "phones": "064 8441882",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12260,
+     "unit": "Ruma",
+     "place": "Ruma",
+     "address": "Glavna br. 142",
+     "phones": "064 8441879",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12261,
+     "unit": "Subotica Rudić",
+     "place": "Subotica",
+     "address": "Rudić ulica br. 3",
+     "phones": "064 8441890",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12262,
+     "unit": "Rumenka",
+     "place": "Novi Sad",
+     "address": "Oslobođenja br. 20",
+     "phones": "064 8441892",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12263,
+     "unit": "Kruševac Milunke Savić",
+     "place": "Kruševac",
+     "address": "Ranka Jovanovića 2",
+     "phones": "064 8441702",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12264,
+     "unit": "Lebane",
+     "place": "Lebane",
+     "address": "Cara Dušana br. 31",
+     "phones": "064 8441703",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12265,
+     "unit": "Kula",
+     "place": "Kula",
+     "address": "Josipa Kramera br. 2",
+     "phones": "064 8441704",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12266,
+     "unit": "Bečej",
+     "place": "Bečej",
+     "address": "Novosadska br. 7",
+     "phones": "064 8441706",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12267,
+     "unit": "Vršac Sterijina",
+     "place": "Vršac",
+     "address": "Sterijina br. 8",
+     "phones": "064 8441707",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12268,
+     "unit": "Aleksinac",
+     "place": "Aleksinac",
+     "address": "Knjaza Miloša br. 50",
+     "phones": "064 8441708",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12269,
+     "unit": "Vrbas Maršala Tita",
+     "place": "Vrbas",
+     "address": "Maršala Tita br. 72",
+     "phones": "064 8441839",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12270,
+     "unit": "Čantavir",
+     "place": "Subotica",
+     "address": "Maršala Tita br. 40",
+     "phones": "064 8441711",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12271,
+     "unit": "BENU 250",
+     "place": "Alibunar",
+     "address": "Žarka Zrenjanina br.1,Alibunar",
+     "phones": "064 8441712",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12272,
+     "unit": "Pirot Trg",
+     "place": "Pirot",
+     "address": "Trg Republike br. 50",
+     "phones": "064 8441743",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12273,
+     "unit": "Subotica Nade Dimić",
+     "place": "Subotica",
+     "address": "Nade Dimić br. 7",
+     "phones": "064 8441745",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12274,
+     "unit": "Ćuprija Kneza Milosa 1",
+     "place": "Ćuprija",
+     "address": "Kneza Miloša B-1, Ćuprija",
+     "phones": "064 8441736",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12275,
+     "unit": "Niš Centar",
+     "place": "Niš",
+     "address": "Generala Milojka Lešjanina br. 2",
+     "phones": "064 8441751",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12276,
+     "unit": "Vranjska Banja",
+     "place": "Vrnjačka Banja",
+     "address": "Kralja Petra 1",
+     "phones": "064 8441752",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12277,
+     "unit": "Palić",
+     "place": "Subotica",
+     "address": "Horgoški put bb",
+     "phones": "064 8441730",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12278,
+     "unit": "Vranje Stefana Prvovenčanog",
+     "place": "Vranje",
+     "address": "Kralja Stefana Prvovenčanog 143",
+     "phones": "064 8441780",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12279,
+     "unit": "Vranje Karađorđeva",
+     "place": "Vranje",
+     "address": "Karađorđeva br. 20",
+     "phones": "064 8441715",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12280,
+     "unit": "Veliki Trnovac",
+     "place": "Bujanovac",
+     "address": "Gaš bb",
+     "phones": "064 8441753",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12281,
+     "unit": "Surdulica",
+     "place": "Surdulica",
+     "address": "Kralja Petra Prvog br. 2",
+     "phones": "064 8441754",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12282,
+     "unit": "Vladičin Han",
+     "place": "Vladičin Han",
+     "address": "Nikole Tesle br. 12",
+     "phones": "064 8441755",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12283,
+     "unit": "Vršac Abraševićeva",
+     "place": "Vršac",
+     "address": "Abraševićeva br. 42",
+     "phones": "064 8441756",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12284,
+     "unit": "Apatin",
+     "place": "Apatin",
+     "address": "Duško Trifunović bb",
+     "phones": "064 8441757",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12285,
+     "unit": "Beograd Vranić",
+     "place": "Beograd",
+     "address": "Trg palih borca 1",
+     "phones": "064 8441759",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12286,
+     "unit": "Beograd Rušanj",
+     "place": "Beograd",
+     "address": "13. septembra br. 58, Beograd",
+     "phones": "064 8441760",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12287,
+     "unit": "Beograd Beli potok",
+     "place": "Beograd",
+     "address": "General Ždanova br. 68",
+     "phones": "064 8441761",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12288,
+     "unit": "Beograd Jajinci",
+     "place": "Beograd",
+     "address": "Bulevar JNA br. 103",
+     "phones": "064 8441762",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12289,
+     "unit": "Beograd Ripanj",
+     "place": "Beograd",
+     "address": "Avalska br. 11",
+     "phones": "064 8441763",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12290,
+     "unit": "Beograd Sremčica",
+     "place": "Beograd",
+     "address": "Beogradska br. 140",
+     "phones": "064 8441764",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12291,
+     "unit": "Vranje Lenjinova",
+     "place": "Vranje",
+     "address": "Lenjinova br. 38",
+     "phones": "064 8441768",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12292,
+     "unit": "Obrenovac Vojvode Misica 2",
+     "place": "Beograd",
+     "address": "Vojvode Mišića br. 210",
+     "phones": "064 8441769",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12293,
+     "unit": "Smederevska Palanka 1",
+     "place": "Smederevska Palanka",
+     "address": "Prvog srpskog ustanka br. 2",
+     "phones": "064 8441770",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12294,
+     "unit": "RODA Smederevo",
+     "place": "Smederevo",
+     "address": "Đure Salaja bb",
+     "phones": "064 8441771",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12295,
+     "unit": "Beograd Tošin bunar",
+     "place": "Beograd",
+     "address": "Tošin bunar br. 172",
+     "phones": "064 8441772",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12296,
+     "unit": "Niš Matejevački put",
+     "place": "Niš",
+     "address": "Matejevački put bb",
+     "phones": "064 8441774",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12297,
+     "unit": "Niš Aleksandrija",
+     "place": "Niš",
+     "address": "Trg Kralja Aleksandra Ujedinitelja br. 2",
+     "phones": "064 8441776",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12298,
+     "unit": "Niš Durlan 2",
+     "place": "Niš",
+     "address": "Knjaževačka br. 118",
+     "phones": "064 8441777",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12299,
+     "unit": "Niš Železnička",
+     "place": "Niš",
+     "address": "Dimitrija Tucovića br. 10",
+     "phones": "064 8441778",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12300,
+     "unit": "Doljevac",
+     "place": "Doljevac",
+     "address": "Dr Mihajla Timotijevića br. 1",
+     "phones": "064 8411680",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12301,
+     "unit": "Prokuplje Centar",
+     "place": "Prokuplje",
+     "address": "Ratka Pavlovića Ćićka br. 15",
+     "phones": "064 8411681",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12302,
+     "unit": "Prokuplje Mala pijaca",
+     "place": "Prokuplje",
+     "address": "Ratka Pavlovića Ćićka br. 105",
+     "phones": "064 8411682",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12303,
+     "unit": "Beograd Vidikovac",
+     "place": "Beograd",
+     "address": "Vidikovački venac 102",
+     "phones": "064 8411684",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12304,
+     "unit": "Merošina",
+     "place": "Merošina",
+     "address": "Cara Lazara br. 5",
+     "phones": "064 8411686",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12305,
+     "unit": "Zrenjanin Dr Vase Savića",
+     "place": "Zrenjanin",
+     "address": "Dr Vase Savića br. 32",
+     "phones": "064 8411688",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12306,
+     "unit": "Zrenjanin Dr Laze Kostića",
+     "place": "Zrenjanin",
+     "address": "Dr Laze Kostića br. 7",
+     "phones": "064 8411689",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12307,
+     "unit": "Niš Crveni pevac 2",
+     "place": "Niš",
+     "address": "Vojvode Tankosića br. 36",
+     "phones": "064 8411691",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12308,
+     "unit": "Šabac Kralja Milutina",
+     "place": "Šabac",
+     "address": "Kralja Milutina br. 5",
+     "phones": "064 8411692",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12309,
+     "unit": "Kisač Železnička",
+     "place": "Novi Sad",
+     "address": "Železnička br. 10",
+     "phones": "064 8411693",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12310,
+     "unit": "BENU 298",
+     "place": "Novi Sad",
+     "address": "Slovačka br. 42",
+     "phones": "064 8411694",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12311,
+     "unit": "Kragujevac Kneza Mihaila 2",
+     "place": "Kragujevac",
+     "address": "Kneza Mihaila 78",
+     "phones": "064 8411695",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12312,
+     "unit": "BENU 301",
+     "place": "Kragujevac",
+     "address": "Atinska br. 81",
+     "phones": "064 8411697",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12313,
+     "unit": "Žitorađa",
+     "place": "Žitorađa",
+     "address": "Toplički heroji br. 49",
+     "phones": "064 8411699",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12314,
+     "unit": "BENU 304",
+     "place": "Beograd",
+     "address": "Milutina Milankovića br. 9",
+     "phones": "064 8312400",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12315,
+     "unit": "Subotica Šandora Petefija",
+     "place": "Subotica",
+     "address": "Šandora Petefia br. 6",
+     "phones": "064 8312401",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12316,
+     "unit": "Subotica Štrosmajerova",
+     "place": "Subotica",
+     "address": "Štrosmajerova br. 8",
+     "phones": "064 8312402",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12317,
+     "unit": "Subotica Mlečna pijaca",
+     "place": "Subotica",
+     "address": "Trg Jakaba i Komora br. 18",
+     "phones": "064 8312403",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12318,
+     "unit": "BENU 310",
+     "place": "Odžaci",
+     "address": "Železnička br. 31",
+     "phones": "064 8312406",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12319,
+     "unit": "Bački Petrovac Revolucija",
+     "place": "Bački Petrovac",
+     "address": "Narodne revolucije br. 14",
+     "phones": "064 8312407",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12320,
+     "unit": "Pivnice",
+     "place": "Bačka Palanka",
+     "address": "Maršala Tita br. 95",
+     "phones": "064 8312408",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12321,
+     "unit": "Veliko Gradište",
+     "place": "Veliko Gradište",
+     "address": "Kneza Lazara br. 50",
+     "phones": "064 8312409",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12322,
+     "unit": "BENU 314",
+     "place": "Bajina Bašta",
+     "address": "Rajka Tadića br. 11",
+     "phones": "064 8312410",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12323,
+     "unit": "Majdanpek",
+     "place": "Majdanpek",
+     "address": "28. marta br. 23, Majdanpek",
+     "phones": "064 8312411",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12324,
+     "unit": "Laćarak 8. marta",
+     "place": "Sremska Mitrovica",
+     "address": "8. marta bb, Laćarak",
+     "phones": "064 8312412",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12325,
+     "unit": "Ilandža",
+     "place": "Alibunar",
+     "address": "Miloša Crnjanskog br. 95",
+     "phones": "064 8312415",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12326,
+     "unit": "BENU 320",
+     "place": "Leskovac",
+     "address": "Nikole Skobajlića br. 53",
+     "phones": "064 8312416",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12327,
+     "unit": "BENU 321",
+     "place": "Šabac",
+     "address": "Pocerska br.12, Šabac",
+     "phones": "064 8312417",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12328,
+     "unit": "BENU 322",
+     "place": "Bor",
+     "address": "Moše Pijade br. 24",
+     "phones": "064 8312418",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12329,
+     "unit": "Kuršumlija",
+     "place": "Kuršumlija",
+     "address": "Nemanjina br. 32",
+     "phones": "064 8312419",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12330,
+     "unit": "BENU 324",
+     "place": "Despotovac",
+     "address": "Saveza boraca 77",
+     "phones": "064 8312421",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12331,
+     "unit": "Despotovac Despota Stefana",
+     "place": "Despotovac",
+     "address": "Despota Stevana Lazarevića br. 105",
+     "phones": "064 8312422",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12332,
+     "unit": "BENU 326",
+     "place": "Leskovac",
+     "address": "Tome Kostića bb",
+     "phones": "064 8312423",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12333,
+     "unit": "Bačka Topola Dom zdravlja",
+     "place": "Bačka Topola",
+     "address": "Svetog Stefana br. 1",
+     "phones": "064 8312424",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12334,
+     "unit": "BENU 328",
+     "place": "Bačka Topola",
+     "address": "Bajšanski put br.2, Stara Moravica",
+     "phones": "064 8312425",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12335,
+     "unit": "BENU 329",
+     "place": "Bačka Topola",
+     "address": "Laze Kostića br. 2",
+     "phones": "064 8312426",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12336,
+     "unit": "BENU 330",
+     "place": "Bačka Topola",
+     "address": "18. oktobra br. 2, Gunaroš",
+     "phones": "064 8312427",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12337,
+     "unit": "Bajša",
+     "place": "Bačka Topola",
+     "address": "Zakina br. 10",
+     "phones": "064 8312428",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12338,
+     "unit": "BENU 332",
+     "place": "Bačka Topola",
+     "address": "JNA br. 18",
+     "phones": "064 8312429",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12339,
+     "unit": "BENU 333",
+     "place": "Bačka Topola",
+     "address": "Glavna br. 7",
+     "phones": "064 8312430",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12340,
+     "unit": "BENU 334",
+     "place": "Ćuprija",
+     "address": "Miodraga Novakovića br. 5",
+     "phones": "064 8312431",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12341,
+     "unit": "Kušiljevo",
+     "place": "Svilajnac",
+     "address": "Kušiljevo bb",
+     "phones": "064 8312432",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12342,
+     "unit": "BENU 336",
+     "place": "Svilajnac",
+     "address": "Kralja Petra Prvog br. 47",
+     "phones": "064 8312433",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12343,
+     "unit": "Svilajnac Svetog Save",
+     "place": "Svilajnac",
+     "address": "Svetog Save br. 9",
+     "phones": "064 8312434",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12344,
+     "unit": "Sedlare",
+     "place": "Svilajnac",
+     "address": "Sedlare bb",
+     "phones": "064 8312435",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12345,
+     "unit": "BENU 339",
+     "place": "Svilajnac",
+     "address": "Vojska bb",
+     "phones": "064 8312436",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12346,
+     "unit": "BENU 340",
+     "place": "Svilajnac",
+     "address": "Bobovo bb",
+     "phones": "064 8312437",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12347,
+     "unit": "Plažane",
+     "place": "Despotovac",
+     "address": "Plažane bb",
+     "phones": "064 8312438",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12348,
+     "unit": "BENU 342",
+     "place": "Despotovac",
+     "address": "Veliki Popović bb",
+     "phones": "064 8312439",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12349,
+     "unit": "BENU 343",
+     "place": "Despotovac",
+     "address": "Stenjevac bb",
+     "phones": "064 8312440",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12350,
+     "unit": "BENU 344",
+     "place": "Ćuprija",
+     "address": "Kneza Miloša br.62, Ćuprija",
+     "phones": "064 8312441",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12351,
+     "unit": "BENU 345",
+     "place": "Knić",
+     "address": "Stevana Sinđelića 60",
+     "phones": "064 8312445",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12352,
+     "unit": "Medveđa",
+     "place": "Medveđa",
+     "address": "Kej bb",
+     "phones": "064 8312442",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12353,
+     "unit": "BENU 347",
+     "place": "Ćuprija",
+     "address": "Kneza Miloša br.2, Mijatovac",
+     "phones": "064 8312444",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12354,
+     "unit": "BENU 348",
+     "place": "Požarevac",
+     "address": "Trg Oslobođenja br.3, Požarevac",
+     "phones": "064 8441832",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12355,
+     "unit": "BENU 350",
+     "place": "Ćuprija",
+     "address": "Miodraga Novakovića Džudže bb",
+     "phones": "064 8411620",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12356,
+     "unit": "BENU 351",
+     "place": "Ćuprija",
+     "address": "Kralja Aleksandra br.75, Jovac",
+     "phones": "064 8441838",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12357,
+     "unit": "BENU 352",
+     "place": "Niš",
+     "address": "Cara Dušana 1",
+     "phones": "064 8441831",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12358,
+     "unit": "BENU 353",
+     "place": "Valjevo",
+     "address": "Uzun Mirkova 2g",
+     "phones": "064 8411607",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12359,
+     "unit": "BENU 354",
+     "place": "Niš",
+     "address": "Bulevar Medijana 21",
+     "phones": "064 8411608",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12360,
+     "unit": "BENU 355",
+     "place": "Šabac",
+     "address": "Jovana Cvijića 1a",
+     "phones": "064 8441813",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12361,
+     "unit": "BENU 356",
+     "place": "Prokuplje",
+     "address": "Jug Bogdanova 59",
+     "phones": "064 8411620",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12362,
+     "unit": "BENU 357",
+     "place": "Jagodina",
+     "address": "Maksima Gorkog br. 13",
+     "phones": "064 8085595",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12363,
+     "unit": "BENU 358",
+     "place": "Beograd",
+     "address": "Resavska br. 8",
+     "phones": "064 8441717",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12364,
+     "unit": "BENU 359",
+     "place": "Plandište",
+     "address": "Hajduk Veljka br.16, Plandište",
+     "phones": "064 8441716",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12365,
+     "unit": "BENU 360",
+     "place": "Beograd",
+     "address": "Prhovačka 3",
+     "phones": "062 590482",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12366,
+     "unit": "BENU 361",
+     "place": "Beograd",
+     "address": "Kostolačka 35",
+     "phones": "062 590474",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12367,
+     "unit": "BENU 362",
+     "place": "Irig",
+     "address": "Nikole Tesle 1",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12368,
+     "unit": "BENU 363",
+     "place": "Beograd",
+     "address": "Jovana Brankovića 3",
+     "phones": "062 590479",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12369,
+     "unit": "BENU 365",
+     "place": "Beograd",
+     "address": "Braće Smiljanića 3",
+     "phones": "062 591542",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12370,
+     "unit": "BENU 366",
+     "place": "Beograd",
+     "address": "Živka Davidovića 4",
+     "phones": "062 591543",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12371,
+     "unit": "BENU 367",
+     "place": "Inđija",
+     "address": "Novosadska 8",
+     "phones": "062 590472",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12372,
+     "unit": "BENU 368",
+     "place": "Beograd",
+     "address": "Jurija Gagarina 81",
+     "phones": "062 591546",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12373,
+     "unit": "BENU 369",
+     "place": "Beograd",
+     "address": "Bertranda Rasela 2",
+     "phones": "062 590465",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12374,
+     "unit": "BENU 370",
+     "place": "Beograd",
+     "address": "Ustanička 226",
+     "phones": "062 591899",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12375,
+     "unit": "BENU 371",
+     "place": "Beograd",
+     "address": "Mike Alasa 26",
+     "phones": "062 590836",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12376,
+     "unit": "BENU 372",
+     "place": "Beograd",
+     "address": "Bojanska 7",
+     "phones": "062 526470",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12377,
+     "unit": "BENU 373",
+     "place": "Inđija",
+     "address": "Lukačeva 1",
+     "phones": "062 590473",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12378,
+     "unit": "BENU 374",
+     "place": "Beograd",
+     "address": "Vožda Karađorđa 8",
+     "phones": "062 590478",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12379,
+     "unit": "BENU 375",
+     "place": "Beograd",
+     "address": "Matrozova bb",
+     "phones": "062 590399",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12380,
+     "unit": "BENU 376",
+     "place": "Stara Pazova",
+     "address": "Patrijarha Pavla 21",
+     "phones": "062 590891",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12381,
+     "unit": "BENU 377",
+     "place": "Beograd",
+     "address": "Bulevar Zorana Đinđića br.95-105, Beograd",
+     "phones": "062 590234",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12382,
+     "unit": "BENU 378",
+     "place": "Inđija",
+     "address": "Cara Dušana 2",
+     "phones": "062 590468",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12383,
+     "unit": "BENU 379",
+     "place": "Beograd",
+     "address": "Bosanska 23",
+     "phones": "062 590450",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12384,
+     "unit": "BENU 380",
+     "place": "Beograd",
+     "address": "Omladinskih Brigada 65",
+     "phones": "062 590384",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12385,
+     "unit": "BENU 381",
+     "place": "Beograd",
+     "address": "Beogradska 4",
+     "phones": "062 590477",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12386,
+     "unit": "BENU 382",
+     "place": "Beograd",
+     "address": "Braće Puhalović 5",
+     "phones": "062 590441",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12387,
+     "unit": "BENU 383",
+     "place": "Ruma",
+     "address": "Ive Lole Ribara 10",
+     "phones": "062 590461",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12388,
+     "unit": "BENU 384",
+     "place": "Beograd",
+     "address": "Prote Jeftimija Ivanovića 73",
+     "phones": "062 590476",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12389,
+     "unit": "BENU 385",
+     "place": "Novi Sad",
+     "address": "Narodnog fronta br.10,Novi Sad",
+     "phones": "064 8441833",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12390,
+     "unit": "BENU 386",
+     "place": "Novi Sad",
+     "address": "Rumenačka br.106,Novi Sad",
+     "phones": "064 8441838",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12391,
+     "unit": "BENU 387",
+     "place": "Novi Sad",
+     "address": "Vršačka br.28 A,Novi Sad",
+     "phones": "064 8441883",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12392,
+     "unit": "BENU 388",
+     "place": "Novi Sad",
+     "address": "Sentandrejski put br.100, Novi Sad",
+     "phones": "064 8441845",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12393,
+     "unit": "BENU 389",
+     "place": "Novi Sad",
+     "address": "Bulevar Oslobodjenja br.41,Novi Sad",
+     "phones": "064 8441834",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12394,
+     "unit": "BENU 390",
+     "place": "Novi Sad",
+     "address": "Cara Lazara br.4,Futog,Novi Sad",
+     "phones": "064 8441841",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12395,
+     "unit": "BENU 391",
+     "place": "Novi Sad",
+     "address": "Slovačka br.51, Kisač,Novi Sad",
+     "phones": "064 8441858",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12396,
+     "unit": "BENU 392",
+     "place": "Novi Sad",
+     "address": "Svetozara Miletića br.3 A,Kovilj, Novi Sad",
+     "phones": "064 8441869",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12397,
+     "unit": "BENU 393",
+     "place": "Petrovaradin",
+     "address": "Vojvode Putnika br.7,Sremska Kamenica",
+     "phones": "064 8441870",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12398,
+     "unit": "BENU 394",
+     "place": "Novi Sad",
+     "address": "Kralja Petra I br.6, Kać",
+     "phones": "064 8441854",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12399,
+     "unit": "BENU 395",
+     "place": "Novi Sad",
+     "address": "Bulevar Patrijarha Pavla br.26 A,Novi Sad",
+     "phones": "064 8441873",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12400,
+     "unit": "BENU 396",
+     "place": "Novi Sad",
+     "address": "Trg mladenaca br.7,Novi Sad",
+     "phones": "064 8441843",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12401,
+     "unit": "BENU 397",
+     "place": "Novi Sad",
+     "address": "Stevana Hladnog br.1,Novi Sad",
+     "phones": "064 8441851",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12402,
+     "unit": "BENU 398",
+     "place": "Novi Sad",
+     "address": "Jože Vlahovića br.8,Petrovaradin,Novi Sad",
+     "phones": "064 8441846",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12403,
+     "unit": "BENU 399",
+     "place": "Novi Sad",
+     "address": "Oslobođenja br.24,Rumenka,Novi Sad",
+     "phones": "064 8441847",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12404,
+     "unit": "BENU 400",
+     "place": "Novi Sad",
+     "address": "VIII br.8,Novi Sad",
+     "phones": "064 8441857",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12405,
+     "unit": "BENU 401",
+     "place": "Novi Sad",
+     "address": "Vojvode Putnika br.16,Stepanovićevo,Novi Sad",
+     "phones": "064 8441867",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12406,
+     "unit": "BENU 402",
+     "place": "Novi Sad",
+     "address": "Partizanska br.1,Čenej,Novi Sad",
+     "phones": "064 8441853",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12407,
+     "unit": "BENU 403",
+     "place": "Novi Sad",
+     "address": "Zmaj Jovina br.12,Ledinci,Novi Sad",
+     "phones": "064 8441880",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12408,
+     "unit": "BENU 404",
+     "place": "Novi Sad",
+     "address": "Školska br.1,Budisava",
+     "phones": "064 8441864",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12409,
+     "unit": "BENU 405",
+     "place": "Novi Sad",
+     "address": "Bulevar Slobodana Jovanovića br.9,Novi Sad",
+     "phones": "064 8441842",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12410,
+     "unit": "BENU 406",
+     "place": "Novi Sad",
+     "address": "Dr Sime Miloševića br.6,Novi Sad",
+     "phones": "064 8441859",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12411,
+     "unit": "BENU 407",
+     "place": "Novi Sad",
+     "address": "Narodnog fronta br.72,Novi Sad",
+     "phones": "064 8441856",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12412,
+     "unit": "BENU 408",
+     "place": "Novi Sad",
+     "address": "Bate Brkića br.9,Novi Sad",
+     "phones": "064 8441852",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12413,
+     "unit": "BENU 409",
+     "place": "Novi Sad",
+     "address": "Bulevar Mihajla Pupina br.9,Novi Sad",
+     "phones": "064 8441806",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12414,
+     "unit": "BENU 411",
+     "place": "Novi Sad",
+     "address": "Kralja Petra I br.44,Begeč",
+     "phones": "064 8441872",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12415,
+     "unit": "BENU 413",
+     "place": "Gornji Milanovac",
+     "address": "Sinđelićeva 4",
+     "phones": "064 8411601",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12416,
+     "unit": "BENU 414",
+     "place": "Gornji Milanovac",
+     "address": "Kneza Aleksandra Karađorđevića 25",
+     "phones": "064 8411602",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12417,
+     "unit": "BENU 416",
+     "place": "Kragujevac",
+     "address": "Crvenog krsta 7",
+     "phones": "065 3370790",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12418,
+     "unit": "BENU 417",
+     "place": "Kragujevac",
+     "address": "Daničićeva 109",
+     "phones": "064 2542845",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12419,
+     "unit": "BENU 418",
+     "place": "Pančevo",
+     "address": "Kralja Petra Prvog br.11, Dolovo",
+     "phones": "064 8441721",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12420,
+     "unit": "BENU 419",
+     "place": "Topola",
+     "address": "Centar br.32, Topola",
+     "phones": "064 8441727",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12421,
+     "unit": "BENU 420",
+     "place": "Leskovac",
+     "address": "Bore Piksle bb",
+     "phones": "064 8441719",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12422,
+     "unit": "BENU 421",
+     "place": "Beograd",
+     "address": "Živka Davidovića 86",
+     "phones": "064 8441720",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12423,
+     "unit": "BENU 422",
+     "place": "Leskovac",
+     "address": "Mlinska br.146, Leskovac",
+     "phones": "064 8441885",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12424,
+     "unit": "BENU 423",
+     "place": "Paraćin",
+     "address": "Kralja Petra I br.73, Paraćin",
+     "phones": "064 8441886",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12425,
+     "unit": "BENU 424",
+     "place": "Beograd",
+     "address": "Vojislava Ilića 141",
+     "phones": "064 8411626",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12426,
+     "unit": "BENU 425",
+     "place": "Svilajnac",
+     "address": "Ustanička 12",
+     "phones": "064 8411627",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12427,
+     "unit": "BENU 426",
+     "place": "Niš",
+     "address": "Bulevar Dr. Zorana Đinđića 31",
+     "phones": "064 8411628",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12428,
+     "unit": "BENU 427",
+     "place": "Beograd",
+     "address": "Vojvode Stepe 345",
+     "phones": "064 8441807",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12429,
+     "unit": "BENU 428",
+     "place": "Valjevo",
+     "address": "Karađorđeva 97",
+     "phones": "064 8441798",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12430,
+     "unit": "BENU 429",
+     "place": "Požarevac",
+     "address": "Moše Pijade 1",
+     "phones": "064 8441729",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12431,
+     "unit": "BENU 430",
+     "place": "Vršac",
+     "address": "Nikole Neškovića 39",
+     "phones": "064 8441862",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12432,
+     "unit": "BENU 431",
+     "place": "Beograd",
+     "address": "Bulevar Vudroa Vilsona 12",
+     "phones": "064 8441884",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12433,
+     "unit": "BENU 432",
+     "place": "Zaječar",
+     "address": "Čupićeva 2",
+     "phones": "064 8312452",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12434,
+     "unit": "BENU 433",
+     "place": "Jagodina",
+     "address": "Kneginje Milice br.16, Jagodina",
+     "phones": "064 8312453",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12435,
+     "unit": "BENU 434",
+     "place": "Niš",
+     "address": "Obrenovićeva 10",
+     "phones": "064 8312454",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12436,
+     "unit": "BENU 435",
+     "place": "Svilajnac",
+     "address": "Svetog Save 87",
+     "phones": "064 8312455",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12437,
+     "unit": "BENU 436",
+     "place": "Niš",
+     "address": "Bulevar Nemanjića 25",
+     "phones": "064 8312456",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12438,
+     "unit": "BENU 437",
+     "place": "Petrovac na Mlavi",
+     "address": "Srpskih vladara 135",
+     "phones": "064 8312457",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12439,
+     "unit": "BENU 438",
+     "place": "Bačka Palanka",
+     "address": "Kralja Petra Prvog br. 22",
+     "phones": "064 8312458",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12440,
+     "unit": "BENU 439",
+     "place": "Zrenjanin",
+     "address": "Bulevar Kralja Aleksandra Prvog Karađorđevića br. 34",
+     "phones": "064 8312459",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12441,
+     "unit": "BENU 440",
+     "place": "Vranje",
+     "address": "Kralja Stefana Prvovenčanog 57",
+     "phones": "064 8312461",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12442,
+     "unit": "BENU 441",
+     "place": "Beograd",
+     "address": "Cvetanova Ćuprija 24",
+     "phones": "064 8312460",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12443,
+     "unit": "BENU 442",
+     "place": "Vrnjačka Banja",
+     "address": "Kneza Miloša 2",
+     "phones": "064 8312462",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12444,
+     "unit": "BENU 443",
+     "place": "Novi Sad",
+     "address": "Sutjeska 2",
+     "phones": "064 8312463",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12445,
+     "unit": "BENU 444",
+     "place": "Loznica",
+     "address": "Maršala Tita bb",
+     "phones": "064 8312464",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12446,
+     "unit": "BENU 445",
+     "place": "Novi Sad",
+     "address": "Bulevar Oslobođenja 95",
+     "phones": "064 8312465",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12447,
+     "unit": "BENU 446",
+     "place": "Arilje",
+     "address": "Stevana Čolovića 3",
+     "phones": "064 8312466",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12448,
+     "unit": "BENU 447",
+     "place": "Beograd",
+     "address": "Vojvode Milenka 8",
+     "phones": "064 8312467",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12449,
+     "unit": "BENU 448",
+     "place": "Niš",
+     "address": "Bulevar Nemanjića br.11b, Niš",
+     "phones": "064 8441773",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12450,
+     "unit": "BENU 449",
+     "place": "Beograd",
+     "address": "Omladinskih brigada br. 86e",
+     "phones": "064 6431054",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12451,
+     "unit": "BENU 450",
+     "place": "Prokuplje",
+     "address": "Elisija Popovskog br.4, Prokuplje",
+     "phones": "064 8411683",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12452,
+     "unit": "BENU 451",
+     "place": "Leskovac",
+     "address": "Koste Stamenkovića br. 21",
+     "phones": "064 8312470",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12453,
+     "unit": "BENU 452",
+     "place": "Kragujevac",
+     "address": "Dragomira Ostojića 1",
+     "phones": "062 246572",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12454,
+     "unit": "BENU 453",
+     "place": "Kragujevac",
+     "address": "27.Marta 12,Kragujevac",
+     "phones": "062 246573",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12455,
+     "unit": "BENU 454",
+     "place": "Kragujevac",
+     "address": "Dr Zorana Đinđića 17",
+     "phones": "062 246575",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12456,
+     "unit": "BENU 455",
+     "place": "Kragujevac",
+     "address": "Dr Jovana Ristića 134",
+     "phones": "062 246578",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12457,
+     "unit": "BENU 456",
+     "place": "Kragujevac",
+     "address": "Kralja Petra Prvog br.32,Kragujevac",
+     "phones": "065 9893590",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12458,
+     "unit": "BENU 457",
+     "place": "Kragujevac",
+     "address": "Partizanskih kurira 69",
+     "phones": "062 246583",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12459,
+     "unit": "BENU 458",
+     "place": "Rekovac",
+     "address": "Kralja Petra Prvog bb",
+     "phones": "065 9893583",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12460,
+     "unit": "BENU 459",
+     "place": "Rekovac",
+     "address": "Belušić bb",
+     "phones": "065 9893582",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12461,
+     "unit": "BENU 460",
+     "place": "Kragujevac",
+     "address": "Svetogorska 1",
+     "phones": "062 246576",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12462,
+     "unit": "BENU 461",
+     "place": "Despotovac",
+     "address": "Veliki Popović bb",
+     "phones": "064 8441887",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12463,
+     "unit": "BENU 462",
+     "place": "Aranđelovac",
+     "address": "Kralja Petra Prvog 62",
+     "phones": "065 9893600",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12464,
+     "unit": "BENU 463",
+     "place": "Aranđelovac",
+     "address": "Knjaza Miloša 291",
+     "phones": "065 9893599",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12465,
+     "unit": "BENU 464",
+     "place": "Aranđelovac",
+     "address": "Knjaza Miloša 219",
+     "phones": "065 9893598",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12466,
+     "unit": "BENU 467",
+     "place": "Aranđelovac",
+     "address": "Kralja Aleksandra 8",
+     "phones": "065 9893597",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12467,
+     "unit": "BENU 468",
+     "place": "Rekovac",
+     "address": "Dr Johana Johanesona bb",
+     "phones": "065 9893596",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12468,
+     "unit": "BENU 469",
+     "place": "Rekovac",
+     "address": "Belušić bb",
+     "phones": "065 9893593",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12469,
+     "unit": "BENU 470",
+     "place": "Kruševac",
+     "address": "Mirka Tomića br. 1",
+     "phones": "064 8312471",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12470,
+     "unit": "BENU 471",
+     "place": "Beograd",
+     "address": "Kneza Milosa 88a",
+     "phones": "064 8312472",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12471,
+     "unit": "BENU 472",
+     "place": "Sombor",
+     "address": "Trg Koste Trifkovića br. 8",
+     "phones": "064 8411698",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12472,
+     "unit": "BENU 473",
+     "place": "Beograd",
+     "address": "Cara Nikolaja II br.59, Beograd",
+     "phones": "064 8411687",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12473,
+     "unit": "BENU 474",
+     "place": "Vranje",
+     "address": "Partizanski put 84",
+     "phones": "064 8312473",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12474,
+     "unit": "BENU 475",
+     "place": "Kraljevo",
+     "address": "Trg Srpskih Ratnika br.5, Kraljevo",
+     "phones": "064 8312474",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12475,
+     "unit": "BENU 476",
+     "place": "Beograd",
+     "address": "Vojvode Stepe 314",
+     "phones": "064 8312478",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12476,
+     "unit": "BENU 477",
+     "place": "Beograd",
+     "address": "Živka Davidovića 81",
+     "phones": "064 8312479",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12477,
+     "unit": "BENU 478",
+     "place": "Beograd",
+     "address": "Antifašističke borbe 21g",
+     "phones": "064 8163195",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12478,
+     "unit": "BENU 479",
+     "place": "Arilje",
+     "address": "Svetog Ahilija 22",
+     "phones": "064 8163184",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12479,
+     "unit": "BENU 480",
+     "place": "Čajetina",
+     "address": "Tržni centar bb",
+     "phones": "064 8163199",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12480,
+     "unit": "BENU 481",
+     "place": "Ivanjica",
+     "address": "Milinka Kušića 53",
+     "phones": "064 8163180",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12481,
+     "unit": "BENU 482",
+     "place": "Lučani",
+     "address": "Republike 69",
+     "phones": "064 8163185",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12482,
+     "unit": "BENU 483",
+     "place": "Ivanjica",
+     "address": "Milinka Kušića 13",
+     "phones": "064 8163159",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12483,
+     "unit": "BENU 485",
+     "place": "Nova Crnja",
+     "address": "Patrijarha Arsenija Čarnojevića 19a",
+     "phones": "064 8163168",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12484,
+     "unit": "BENU 487",
+     "place": "Aleksinac",
+     "address": "Dragoljuba Vujića 26",
+     "phones": "064 8163188",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12485,
+     "unit": "BENU 488",
+     "place": "Ivanjica",
+     "address": "Uroša Stefanovića 3",
+     "phones": "064 8163120",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12486,
+     "unit": "BENU 489",
+     "place": "Sremska Mitrovica",
+     "address": "Kralja Petra Prvog br.49, Sremska Mitrovica",
+     "phones": "064 8312481",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12487,
+     "unit": "BENU 490",
+     "place": "Kruševac",
+     "address": "Kosovska 16",
+     "phones": "064 8312482",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12488,
+     "unit": "BENU 491",
+     "place": "Smederevo",
+     "address": "Knez Mihajlova br.39,Smederevo",
+     "phones": "064 8312483",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12489,
+     "unit": "BENU 492",
+     "place": "Niš",
+     "address": "Bulevar Svetog Pantelejmona 70",
+     "phones": "064 8312484",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12490,
+     "unit": "BENU 493",
+     "place": "Novi Sad",
+     "address": "Narodnog fronta 55a",
+     "phones": "064 8312487",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12491,
+     "unit": "BENU 494",
+     "place": "Kraljevo",
+     "address": "Bosansko Hercegovačka 3",
+     "phones": "064 8312488",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12492,
+     "unit": "BENU 496",
+     "place": "Beograd",
+     "address": "Bulevar kralja Aleksandra br.293, Beograd",
+     "phones": "064 8441891",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12493,
+     "unit": "BENU 497",
+     "place": "Beograd",
+     "address": "Josipa Telarevića br.21, Beograd",
+     "phones": "064 8441894",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12494,
+     "unit": "BENU 498",
+     "place": "Beograd",
+     "address": "Toše Jovanovića br.10, Beograd",
+     "phones": "064 8441889",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12495,
+     "unit": "BENU 499",
+     "place": "Babušnica",
+     "address": "7.juli br.1, Babušnica",
+     "phones": "064 8312490",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12496,
+     "unit": "BENU 501",
+     "place": "Pirot",
+     "address": "Hajduk Veljka br.13, Pirot",
+     "phones": "064 8312491",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12497,
+     "unit": "BENU 502",
+     "place": "Pirot",
+     "address": "Paje Jovanovića 44a",
+     "phones": "064 8312492",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12498,
+     "unit": "BENU 503",
+     "place": "Pirot",
+     "address": "Dragoševa br.18, Pirot",
+     "phones": "064 8312493",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12499,
+     "unit": "BENU 504",
+     "place": "Pirot",
+     "address": "Srpskih vladara br.113, Pirot",
+     "phones": "064 8312494",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12500,
+     "unit": "BENU 505",
+     "place": "Pirot",
+     "address": "Lava Tolstoja bb",
+     "phones": "064 8312495",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12501,
+     "unit": "BENU 506",
+     "place": "Beograd",
+     "address": "Kneza Višeslava 142",
+     "phones": "064 8312497",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12502,
+     "unit": "BENU 507",
+     "place": "Sombor",
+     "address": "Pariska br.1, Sombor",
+     "phones": "064 8312498",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12503,
+     "unit": "BENU 508",
+     "place": "Prijepolje",
+     "address": "Vladimira Perica Valtera 96a",
+     "phones": "064 8312446",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12504,
+     "unit": "BENU 509",
+     "place": "Subotica",
+     "address": "Blaška Rajića 11a",
+     "phones": "064 8312447",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12505,
+     "unit": "BENU 510",
+     "place": "Čačak",
+     "address": "Miloša Obilića 2a",
+     "phones": "064 8441868",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12506,
+     "unit": "BENU 511",
+     "place": "Niš",
+     "address": "Vojvode Gojka 48",
+     "phones": "064 8441723",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12507,
+     "unit": "BENU 512",
+     "place": "Zaječar",
+     "address": "Nikole Pašica 19",
+     "phones": "064 8441723",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12508,
+     "unit": "BENU 513",
+     "place": "Čajetina",
+     "address": "Miladina Pećinara 181",
+     "phones": "064 8441725",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12509,
+     "unit": "BENU 514",
+     "place": "Beograd",
+     "address": "Dunavska 2e",
+     "phones": "064 8441726",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12510,
+     "unit": "BENU 515",
+     "place": "Vranje",
+     "address": "Bore Stankovica 31",
+     "phones": "064 8441728",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12511,
+     "unit": "BENU 516",
+     "place": "Užice",
+     "address": "Dimitrija Tucovica 42",
+     "phones": "064 8441731",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12512,
+     "unit": "BENU 517",
+     "place": "Beograd",
+     "address": "Mirijevski bulevar 86a",
+     "phones": "064 8441733",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12513,
+     "unit": "BENU 518",
+     "place": "Novi Pazar",
+     "address": "28 Novembra br 24, Novi Pazar",
+     "phones": "064 8411654",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12514,
+     "unit": "BENU 519",
+     "place": "Beograd",
+     "address": "Dzona Kenedija 31a",
+     "phones": "064 8411655",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12515,
+     "unit": "BENU 520",
+     "place": "Leskovac",
+     "address": "Stanoja Glavaša 34",
+     "phones": "064 8411657",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12516,
+     "unit": "BENU 521",
+     "place": "Subotica",
+     "address": "Petra Lekovica 3",
+     "phones": "064 8411656",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12517,
+     "unit": "BENU 522",
+     "place": "Beograd",
+     "address": "Narodnih Heroja 30",
+     "phones": "064 8411658",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12518,
+     "unit": "BENU 523",
+     "place": "Beograd",
+     "address": "Milutina Milankovica 34",
+     "phones": "064 8411659",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12519,
+     "unit": "BENU 525",
+     "place": "Niš",
+     "address": "Djuke Dinic 9",
+     "phones": "064 8411661",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12520,
+     "unit": "BENU 526",
+     "place": "Beograd",
+     "address": "Nemanjina 42",
+     "phones": "064 8411662",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12521,
+     "unit": "BENU527",
+     "place": "Beograd",
+     "address": "Kumodraska 178",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12522,
+     "unit": "BENU 529",
+     "place": "Vrbas",
+     "address": "Marsala Tita 63",
+     "phones": "064 8411666",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12523,
+     "unit": "BENU 530",
+     "place": "Bela Crkva",
+     "address": "1. Oktobar broj 72, Bela Crkva",
+     "phones": "064 8441826",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12524,
+     "unit": "BENU 531",
+     "place": "Vranje",
+     "address": "Bulevar Nikole Tesle 20",
+     "phones": "064 8441821",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12525,
+     "unit": "BENU 533",
+     "place": "Kikinda",
+     "address": "Mihajla Pupina br.16, Kikinda",
+     "phones": "064 8441811",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12526,
+     "unit": "BENU 535",
+     "place": "Vladičin Han",
+     "address": "Svetosavska 19",
+     "phones": "064 8085564",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12527,
+     "unit": "BENU 537",
+     "place": "Subotica",
+     "address": "Kireška 90",
+     "phones": "064 8441738",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12528,
+     "unit": "BENU 539",
+     "place": "Varvarin",
+     "address": "Jove Kursule 34",
+     "phones": "064 8441740",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12529,
+     "unit": "BENU 540",
+     "place": "Bor",
+     "address": "Radomira Jovanovića Čočeta 1",
+     "phones": "064 8411667",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12530,
+     "unit": "BENU 541",
+     "place": "Bor",
+     "address": "Moše Pijade 31/3",
+     "phones": "064 8411668",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12531,
+     "unit": "Senje",
+     "place": "Ćuprija",
+     "address": "Karađorđeva br.2, Senje",
+     "phones": "064 8083078",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12532,
+     "unit": "BENU 528",
+     "place": "Niš",
+     "address": "Bulevar Nemanjica 89",
+     "phones": "064 8411665",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12533,
+     "unit": "BENU 532",
+     "place": "Pančevo",
+     "address": "Novoseljanski put 39Đ, Pančevo",
+     "phones": "064 8441735",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12534,
+     "unit": "BENU 542",
+     "place": "Pirot",
+     "address": "Maksima Gorkog br.18,Pirot",
+     "phones": "064 8441741",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12535,
+     "unit": "BENU 544",
+     "place": "Pančevo",
+     "address": "Ul.Borisa Kidriča 7",
+     "phones": "064 8441747",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12536,
+     "unit": "BENU 546",
+     "place": "Negotin",
+     "address": "Srbe Jovanovića bb",
+     "phones": "064 8441750",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12537,
+     "unit": "BENU 538",
+     "place": "Niš",
+     "address": "Bulevar Zorana Đinđića 10",
+     "phones": "064 8441739",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12538,
+     "unit": "BENU 545",
+     "place": "Kragujevac",
+     "address": "Kneza Miloša 1g",
+     "phones": "064 8441749",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12539,
+     "unit": "BENU 547",
+     "place": "Novi Sad",
+     "address": "Preradovićeva 124",
+     "phones": "064 8441758",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12540,
+     "unit": "BENU 548",
+     "place": "Leskovac",
+     "address": "Viljema Pušmana 1",
+     "phones": "016 3103857",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12541,
+     "unit": "BENU 550",
+     "place": "Inđija",
+     "address": "Novosadska 4",
+     "phones": "062 8077213",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12542,
+     "unit": "BENU 552",
+     "place": "Beograd",
+     "address": "Glavna 31",
+     "phones": "064 8441766",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  }
+ ],
+ "id": "net-apotekarska-ustanova-benu-beograd"
+}

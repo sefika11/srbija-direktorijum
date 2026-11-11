@@ -1,0 +1,529 @@
+{
+ "kind": "network",
+ "title": "Manje mreže",
+ "type": "mixed",
+ "orgs": [
+  {
+   "org_slug": "apotekarska-ustanova-milica-vpd-sabac",
+   "name": "Apotekarska ustanova \"Milica VPD\"",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 11030,
+     "unit": "Apoteka Milica 1",
+     "place": "Šabac",
+     "address": "Vojislava Ilića broj 7",
+     "phones": "015 353417",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11031,
+     "unit": "Apoteka Milica 2",
+     "place": "Šabac",
+     "address": "Mitropolita Mihaila Jovanovića 8",
+     "phones": "015 7741651",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11032,
+     "unit": "Apoteka Milica 3",
+     "place": "Šabac",
+     "address": "Vojvode Mišića 84",
+     "phones": "015 7100008",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11033,
+     "unit": "Apoteka Milica 4",
+     "place": "Šabac",
+     "address": "Drinska 2",
+     "phones": "015 270200",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11034,
+     "unit": "Apoteka Milica 5",
+     "place": "Šabac",
+     "address": "Vojvode Mišića 7",
+     "phones": "015 7101038",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11035,
+     "unit": "Apoteka Milica 6",
+     "place": "Šabac",
+     "address": "Baće Trifunovića 3",
+     "phones": "015 7737380",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11036,
+     "unit": "Apoteka Milica 7",
+     "place": "Šabac",
+     "address": "Dr. Arčibalda Rajsa 1",
+     "phones": "015 282642",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11037,
+     "unit": "Apoteka Milica 8",
+     "place": "Loznica",
+     "address": "Kralja Petra I 16",
+     "phones": "015 840036",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11038,
+     "unit": "Apoteka Milica 9",
+     "place": "Loznica",
+     "address": "Jadranska Lešnica bb",
+     "phones": "015 852196",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11039,
+     "unit": "Apoteka Milica 10",
+     "place": "Šabac",
+     "address": "Cara Lazara 9",
+     "phones": "015 375099",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11040,
+     "unit": "Apoteka Milica 11",
+     "place": "Krupanj",
+     "address": "Zavlaka bb",
+     "phones": "066 8061358",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11041,
+     "unit": "Apoteka Milica 12",
+     "place": "Šabac",
+     "address": "Cara Dušana 2",
+     "phones": "015 290185",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11042,
+     "unit": "Apoteka Milica 13",
+     "place": "Šabac",
+     "address": "Kralja Milutina 22",
+     "phones": "015 7100146",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11043,
+     "unit": "Apoteka Milica 14",
+     "place": "Šabac",
+     "address": "Kralja Milutina 22b",
+     "phones": "015 7150116",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11044,
+     "unit": "Apoteka Milica 15",
+     "place": "Bogatić",
+     "address": "Pop Tešina 53",
+     "phones": "015 425666",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11045,
+     "unit": "Apoteka Milica 16",
+     "place": "Šabac",
+     "address": "Karađorđeva 11",
+     "phones": "015 7274240",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11046,
+     "unit": "Apoteka Milica 17",
+     "place": "Šabac",
+     "address": "Jeremije Maksimovića bb",
+     "phones": "015 7160377",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11047,
+     "unit": "Apoteka Milica 18",
+     "place": "Vladimirci",
+     "address": "Svetog Save 18",
+     "phones": "015 7150278",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11048,
+     "unit": "Apoteka Milica 19",
+     "place": "Loznica",
+     "address": "Vladislava Bronjevskog 32",
+     "phones": "015 873836",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11049,
+     "unit": "Apoteka Milica 20",
+     "place": "Šabac",
+     "address": "Masarikova 82",
+     "phones": "015 7150143",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11050,
+     "unit": "Apoteka Milica 21",
+     "place": "Šabac",
+     "address": "Vojislava Ilića 5",
+     "phones": "015 7150115",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11051,
+     "unit": "Apoteka Milica 22",
+     "place": "Koceljeva",
+     "address": "Nemanjina 66",
+     "phones": "015 7150195",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11052,
+     "unit": "Apoteka Milica 23",
+     "place": "Krupanj",
+     "address": "Vlade Zečevića 1",
+     "phones": "015 7150196",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "apotekarska-ustanova-molika-zemun",
+   "name": "Apotekarska ustanova \"Molika\"",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 13937,
+     "unit": "Molika",
+     "place": "Beograd",
+     "address": "Prvomajska broj 6d",
+     "phones": "011 3160733",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13939,
+     "unit": "Melem",
+     "place": "Čukarica",
+     "address": "13.Oktobra 37",
+     "phones": "011 8026077",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13941,
+     "unit": "Molika Ub",
+     "place": "Ub",
+     "address": "Kralja Petra I broj 25",
+     "phones": "014 412409",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13942,
+     "unit": "Molika Valjevo",
+     "place": "Valjevo",
+     "address": "Železnička 16a",
+     "phones": "014 247789",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13945,
+     "unit": "Molika Beograd",
+     "place": "Beograd",
+     "address": "Cara Dušana broj 28",
+     "phones": "011 4083660",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13947,
+     "unit": "Molika Lazarevac",
+     "place": "Beograd",
+     "address": "Dr Đorđa Kovačevića broj 20a",
+     "phones": "011 7704131",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13949,
+     "unit": "Molika Kolubara 2",
+     "place": "Valjevo",
+     "address": "Naselje Oslobodioci Valjeva broj 34",
+     "phones": "014 3106860",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13951,
+     "unit": "Molika Peti Puk",
+     "place": "Valjevo",
+     "address": "Jovana Dučića broj 51a",
+     "phones": "014 3105892",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13953,
+     "unit": "Misa",
+     "place": "Pančevo",
+     "address": "Makedonska 18",
+     "phones": "013 372255",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13955,
+     "unit": "Omoljica",
+     "place": "Pančevo",
+     "address": "Patrijarha Arsenija Čarnojevića 3",
+     "phones": "013 617010",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13958,
+     "unit": "Lek",
+     "place": "Pančevo",
+     "address": "Kikindska 7b",
+     "phones": "013 2113498",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "apotekarska-ustanova-nana-kragujevac",
+   "name": "Apotekarska ustanova \"Nana +\"",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 11362,
+     "unit": "Nana +",
+     "place": "Kragujevac",
+     "address": "Atinska bb",
+     "phones": "034 370323",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11363,
+     "unit": "Nana + 1",
+     "place": "Kragujevac",
+     "address": "Neznanog junaka 18",
+     "phones": "034 372860",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11364,
+     "unit": "Nana + 2",
+     "place": "Kragujevac",
+     "address": "Kraljevačkog bataljona 155",
+     "phones": "034 6393390",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11365,
+     "unit": "Nana + 3",
+     "place": "Kragujevac",
+     "address": "Stojana Protića 70",
+     "phones": "034 341114",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11366,
+     "unit": "Nana + 4",
+     "place": "Kragujevac",
+     "address": "Zmaj Jovina 2/3",
+     "phones": "034 353183",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11367,
+     "unit": "Nana + 5",
+     "place": "Kragujevac",
+     "address": "Dragoslava Srejovića 28/1",
+     "phones": "034 328480",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11368,
+     "unit": "Nana + 6",
+     "place": "Kragujevac",
+     "address": "Gornjomilanovačka 82",
+     "phones": "034 354974",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11369,
+     "unit": "Nana + 7",
+     "place": "Kragujevac",
+     "address": "Desimirovac bb",
+     "phones": "034 561551",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11370,
+     "unit": "Nana + 10",
+     "place": "Kragujevac",
+     "address": "Daničićeva 34/3",
+     "phones": "034 373111",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11371,
+     "unit": "Nana + 8",
+     "place": "Kragujevac",
+     "address": "Partizanskih kurira 42",
+     "phones": "034 6101660",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11372,
+     "unit": "Nana + 11",
+     "place": "Kragujevac",
+     "address": "Tanaska Rajića 68",
+     "phones": "034 302409",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  }
+ ],
+ "id": "net-small-06"
+}

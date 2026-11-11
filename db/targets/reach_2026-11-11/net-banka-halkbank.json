@@ -1,0 +1,718 @@
+{
+ "kind": "network",
+ "title": "Halkbank",
+ "type": "banka",
+ "orgs": [
+  {
+   "org_slug": "banka-halkbank",
+   "name": "Halkbank",
+   "website": "https://www.halkbank.rs",
+   "rows": [
+    {
+     "location_id": 19665,
+     "unit": "Ekspozitura Pivarska 1",
+     "place": "Čačak",
+     "address": "Pivarska 1",
+     "phones": "0800 100111",
+     "hours": "Pon 8:30 - 17:00; Uto-Pet 08:30-16:00, Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 19928,
+     "unit": "Ekspozitura",
+     "place": "Smederevo",
+     "address": null,
+     "phones": null,
+     "hours": "24/7",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 19988,
+     "unit": "Ekspozitura Masarikova 11",
+     "place": "Šabac",
+     "address": "Masarikova 11",
+     "phones": "0800 100111",
+     "hours": "Pon-Pet 08:30-16:00, Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 20059,
+     "unit": "Ekspozitura Milutina Milankovića",
+     "place": "Novi Beograd",
+     "address": "Milutina Milankovića",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 20207,
+     "unit": "Ekspozitura Obrenovićeva 36",
+     "place": "Medijana",
+     "address": "Obrenovićeva 36",
+     "phones": "0800 100111",
+     "hours": "Pon-Pet 08:00-15:30, Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 20221,
+     "unit": "Ekspozitura",
+     "place": "Stari grad",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 20224,
+     "unit": "Ekspozitura Bulevar kralja Aleksandra 108-110",
+     "place": "Vračar",
+     "address": "Bulevar kralja Aleksandra 108-110",
+     "phones": "0800 100111",
+     "hours": "Pon-Pet 08:30-16:00, Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 20265,
+     "unit": "Ekspozitura",
+     "place": "Savski venac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 20274,
+     "unit": "Ekspozitura",
+     "place": "Pančevo",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 20569,
+     "unit": "Ekspozitura",
+     "place": "Užice",
+     "address": null,
+     "phones": "031 510720",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 20641,
+     "unit": "Ekspozitura Skadarska 7",
+     "place": "Čačak",
+     "address": "Skadarska 7",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 21537,
+     "unit": "Ekspozitura",
+     "place": "Zvezdara",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Fr 08:30-16:30",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 21552,
+     "unit": "Ekspozitura",
+     "place": "Subotica",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 21555,
+     "unit": "Ekspozitura",
+     "place": "Subotica",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 21728,
+     "unit": "Ekspozitura",
+     "place": "Zrenjanin",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 21810,
+     "unit": "Ekspozitura",
+     "place": "Novi Sad",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 21959,
+     "unit": "Ekspozitura",
+     "place": "Voždovac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 21977,
+     "unit": "Ekspozitura",
+     "place": "Novi Sad",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 22007,
+     "unit": "Ekspozitura",
+     "place": "Kraljevo",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 22681,
+     "unit": "Ekspozitura",
+     "place": "Valjevo",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 22693,
+     "unit": "Ekspozitura Gospodska 19",
+     "place": "Zemun",
+     "address": "Gospodska 19",
+     "phones": "0800 100111",
+     "hours": "Pon-Pet 08:30-16:00, Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 22790,
+     "unit": "Ekspozitura Milinka Kušića 15",
+     "place": "Ivanjica",
+     "address": "Milinka Kušića 15",
+     "phones": null,
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 22831,
+     "unit": "Ekspozitura",
+     "place": "Vračar",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Fr 08:30-16:30; Sa-Su off",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 23032,
+     "unit": "Ekspozitura",
+     "place": "Sjenica",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23577,
+     "unit": "Ekspozitura",
+     "place": "Pirot",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28669,
+     "unit": "Filijala Aranđelovac",
+     "place": "Aranđelovac",
+     "address": "Knjaza Miloša 152",
+     "phones": "0800 100111",
+     "hours": "Pon-Pet 08:00-15:30, Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28670,
+     "unit": "Filijala Beograd (Centrala)",
+     "place": "Novi Beograd",
+     "address": "Milutina Milankovića 9e",
+     "phones": "0800 100111",
+     "hours": "Pon-Pet 08:30-16:00, Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28671,
+     "unit": "Filijala Beograd",
+     "place": "Stari grad",
+     "address": "Cara Dušana 78",
+     "phones": "0800 100111",
+     "hours": "Pon-Pet 08:30-16:00, Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28672,
+     "unit": "Filijala Beograd (New Mill)",
+     "place": "Savski venac",
+     "address": "Bulevar Vojvode Mišića 15",
+     "phones": "0800 100111",
+     "hours": "Pon-Pet 08:30-16:00, Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28673,
+     "unit": "Filijala Beograd (Novi Beograd)",
+     "place": "Novi Beograd",
+     "address": "Bulevar Zorana Đinđića 144v",
+     "phones": "0800 100111",
+     "hours": "Pon-Pet 08:30-16:00, Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28674,
+     "unit": "Filijala Beograd (Crveni Krst)",
+     "place": "Niš",
+     "address": "Vojvode Šupljikca 51",
+     "phones": "0800 100111",
+     "hours": "Pon-Pet 08:30-16:00, Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28675,
+     "unit": "Filijala Beograd (Makedonska)",
+     "place": "Stari grad",
+     "address": "Makedonska 21",
+     "phones": "0800 100111",
+     "hours": "Pon-Pet 08:30-16:00, Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28676,
+     "unit": "Filijala Beograd (Vojvode Stepe)",
+     "place": "Voždovac",
+     "address": "Vojvode Stepe 93",
+     "phones": "011 7358617; 0800 100111",
+     "hours": "Pon-Pet 08:30-16:00, Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28677,
+     "unit": "Filijala Beograd (Krunska)",
+     "place": "Vračar",
+     "address": "Krunska 6",
+     "phones": "0800 100111",
+     "hours": "Pon-Pet 08:30-16:00, Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28678,
+     "unit": "Filijala Beograd (Savska)",
+     "place": "Savski venac",
+     "address": "Bulevar kralja Aleksandra I Karađorđevića 38",
+     "phones": "0800 100111",
+     "hours": "Pon-Pet 08:30-16:00, Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28679,
+     "unit": "Filijala Beograd (Požeška)",
+     "place": "Čukarica",
+     "address": "Požeška 56",
+     "phones": "0800 100111",
+     "hours": "Pon-Pet 08:30-16:00, Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28680,
+     "unit": "Filijala Beograd (Jurija Gagarina)",
+     "place": "Novi Beograd",
+     "address": "Jurija Gagarina 28",
+     "phones": "0800 100111",
+     "hours": "Pon-Pet 08:30-16:00, Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28681,
+     "unit": "Filijala Beograd Knez Mihailova",
+     "place": "Stari grad",
+     "address": "Knez Mihailova 29",
+     "phones": "0800 100111",
+     "hours": "Pon-Pet 8:30-16:30 (rad blagajne: od 8:30 do 16:00), Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28682,
+     "unit": "Filijala Čačak (Skadarska)",
+     "place": "Čačak",
+     "address": "Skadarska 19",
+     "phones": "0800 100111",
+     "hours": "Pon-Pet 08:00-15:30, Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28683,
+     "unit": "Filijala Čačak (Nemanjina)",
+     "place": "Čačak",
+     "address": "Nemanjina 32a",
+     "phones": "0800 100111",
+     "hours": "Pon-Pet 08:30-16:00, Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28684,
+     "unit": "Filijala Čačak (Auto Čačak)",
+     "place": "Čačak",
+     "address": "Konjevići bb",
+     "phones": "0800 100111",
+     "hours": "Pon-Pet 08:00-15:30, Sub-Ned zatvoreno",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 28685,
+     "unit": "Filijala Gornji Milanovac",
+     "place": "Gornji Milanovac",
+     "address": "Kneza Aleksandra 2",
+     "phones": "0800 100111",
+     "hours": "Pon-Pet 08:00-15:30, Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28686,
+     "unit": "Filijala Ivanjica",
+     "place": "Ivanjica",
+     "address": "Milinka Kušića 14",
+     "phones": "0800 100111",
+     "hours": "Pon-Pet 08:00-15:30, Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28687,
+     "unit": "Filijala Jagodina",
+     "place": "Jagodina",
+     "address": "Nikčevićeva 24",
+     "phones": "0800 100111",
+     "hours": "Pon-Pet 08:00-15:30, Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28688,
+     "unit": "Filijala Kragujevac",
+     "place": "Kragujevac",
+     "address": "Kralja Petra I 10",
+     "phones": "0800 100111",
+     "hours": "Pon-Pet 08:00-15:30, Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28689,
+     "unit": "Filijala Kraljevo",
+     "place": "Kraljevo",
+     "address": "Trg Jovana Sarića 8",
+     "phones": "0800 100111",
+     "hours": "Pon-Pet 08:00-15:30, Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28690,
+     "unit": "Filijala Kruševac",
+     "place": "Kruševac",
+     "address": "Trg Kosturnice 64b",
+     "phones": "0800 100111",
+     "hours": "Pon-Pet 08:00-15:30, Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28691,
+     "unit": "Filijala Leskovac",
+     "place": "Leskovac",
+     "address": "Bulevar oslobođenja 49",
+     "phones": "0800 100111",
+     "hours": "Pon-Pet 08:00-15:30, Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28692,
+     "unit": "Filijala Mladenovac",
+     "place": "Mladenovac",
+     "address": "Kralja Petra I / 274",
+     "phones": "0800 100111",
+     "hours": "Pon-Pet 08:00-15:30, Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28693,
+     "unit": "Filijala Niš",
+     "place": "Medijana",
+     "address": "Nikole Pašića 15",
+     "phones": "0800 100111",
+     "hours": "Pon-Pet 08:00-15:30, Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28694,
+     "unit": "Filijala Novi Pazar",
+     "place": "Novi Pazar",
+     "address": "Stevana Nemanje 68b",
+     "phones": "0800 100111",
+     "hours": "Pon-Pet 08:00-15:30, Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28695,
+     "unit": "Filijala Novi Sad - Dunavski Park",
+     "place": "Novi Sad",
+     "address": "Ignjata Pavlasa 2",
+     "phones": "0800 100111",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 28696,
+     "unit": "Filijala Novi Sad",
+     "place": "Novi Sad",
+     "address": "Bul. Oslobođenja 30",
+     "phones": "0800 100111",
+     "hours": "Pon-Pet 08:00-15:30, Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28697,
+     "unit": "Filijala Pančevo",
+     "place": "Pančevo",
+     "address": "Trg Kralja Petra I 8",
+     "phones": "0800 100111",
+     "hours": "Pon-Pet 08:00-15:30, Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28698,
+     "unit": "Filijala Paraćin",
+     "place": "Paraćin",
+     "address": "Kralja Petra I 32",
+     "phones": "0800 100111",
+     "hours": "Pon-Pet 08:00-15:30, Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28699,
+     "unit": "Filijala Pirot",
+     "place": "Pirot",
+     "address": "Branka Radičevića 20",
+     "phones": "0800 100111",
+     "hours": "Pon-Pet 08:00-15:30, Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28700,
+     "unit": "Filijala Požega",
+     "place": "Požega",
+     "address": "Knjaza Miloša 16",
+     "phones": "0800 100111",
+     "hours": "Pon-Pet 08:00-15:30, Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28701,
+     "unit": "Filijala Prijepolje",
+     "place": "Prijepolje",
+     "address": "Zore Tomašević 4",
+     "phones": "0800 100111",
+     "hours": "Pon-Pet 08:00-15:30, Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28702,
+     "unit": "Ekspozitura Sjenica",
+     "place": "Sjenica",
+     "address": "Kralja Tvrtka Prvog 1",
+     "phones": "020 5150261",
+     "hours": "Pon-Pet 08:00-15:30, Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28703,
+     "unit": "Filijala Smederevo",
+     "place": "Smederevo",
+     "address": "Kralja Petra I 16",
+     "phones": "0800 100111",
+     "hours": "Pon-Pet 08:30-16:00, Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28704,
+     "unit": "Filijala Sremska Mitrovica",
+     "place": "Sremska Mitrovica",
+     "address": "Kralja Petra I 5a",
+     "phones": "0800 100111",
+     "hours": "Pon-Pet 08:00-15:30, Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28705,
+     "unit": "Filijala Stara Pazova",
+     "place": "Stara Pazova",
+     "address": "Zmaj Jovina 8",
+     "phones": "0800 100111",
+     "hours": "Pon-Pet 08:00-15:30, Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28706,
+     "unit": "Filijala Subotica",
+     "place": "Subotica",
+     "address": "Maksima Gorkog 9",
+     "phones": "0800 100111",
+     "hours": "Pon-Pet 08:00-15:30, Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28707,
+     "unit": "Filijala Topola",
+     "place": "Topola",
+     "address": "Bulevar Kralja Aleksandra I 16",
+     "phones": "0800 100111",
+     "hours": "Pon-Pet 08:00-15:30, Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28708,
+     "unit": "Filijala Tutin",
+     "place": "Tutin",
+     "address": "Pešterska 2",
+     "phones": "0800 100111",
+     "hours": "Pon-Pet 08:00-15:30, Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28709,
+     "unit": "Filijala Užice",
+     "place": "Užice",
+     "address": "Dimitrija Tucovića 151",
+     "phones": "0800 100111",
+     "hours": "Pon-Pet 08:00-15:30, Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28710,
+     "unit": "Filijala Valjevo",
+     "place": "Valjevo",
+     "address": "Karađorđeva 32",
+     "phones": "0800 100111",
+     "hours": "Pon-Pet 08:00-15:30, Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28711,
+     "unit": "Filijala Vranje",
+     "place": "Vranje",
+     "address": "Ive Lole Ribara 14",
+     "phones": "0800 100111",
+     "hours": "Pon-Pet 08:00-15:30, Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28712,
+     "unit": "Filijala Vrnjačka Banja",
+     "place": "Vrnjačka Banja",
+     "address": "Kneza Miloša 5",
+     "phones": "0800 100111",
+     "hours": "Pon-Pet 08:00-15:30, Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28713,
+     "unit": "Filijala Zrenjanin",
+     "place": "Zrenjanin",
+     "address": "Kralja Aleksandra I Karađorđevića 17",
+     "phones": "0800 100111",
+     "hours": "Pon-Pet 08:00-15:30, Sub-Ned zatvoreno",
+     "need": []
+    }
+   ]
+  }
+ ],
+ "id": "net-banka-halkbank"
+}

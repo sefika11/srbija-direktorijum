@@ -1,0 +1,400 @@
+{
+ "kind": "sites",
+ "title": "Institucije sa sopstvenim sajtom",
+ "rows": [
+  {
+   "org_slug": "specijalna-bolnica-za-rehabilitaciju-gejzer-sijarinska-banja-sijarinska-banja",
+   "name": "Specijalna bolnica za Rehabilitaciju \"Gejzer\" Sijarinska Banja",
+   "type": "Specijalna bolnica",
+   "place": "Medveđa",
+   "website": "http://www.gejzer.rs",
+   "mb": "07207883",
+   "have": {
+    "address": "Kralja Milana 16",
+    "phones": "016 895152; 016 3895152",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "specijalna-bolnica-za-interne-bolesti-mladenovac-mladenovac",
+   "name": "Specijalna bolnica za Interne Bolesti Mladenovac",
+   "type": "Specijalna bolnica",
+   "place": "Mladenovac",
+   "website": "http://www.sbib.rs",
+   "mb": "07039751",
+   "have": {
+    "address": "Vojvode Mišića 2",
+    "phones": "011 8231988; 011 8230161",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "specijalna-bolnica-za-progresivne-misicne-i-neuromisicne-bolesti-novi-pazar-novi-pazar",
+   "name": "Specijalna bolnica za Progresivne Mišićne i Neuromišićne Bolesti Novi Pazar",
+   "type": "Specijalna bolnica",
+   "place": "Novi Pazar",
+   "website": "http://www.npbanja.com",
+   "mb": "07191987",
+   "have": {
+    "address": "Banjski put bb",
+    "phones": "020 371559; 020 371623",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "specijalna-bolnica-za-reumatske-bolesti-novi-sad-novi-sad",
+   "name": "Specijalna bolnica za Reumatske Bolesti Novi Sad",
+   "type": "Specijalna bolnica",
+   "place": "Novi Sad",
+   "website": "http://www.sbnovisad.co.rs",
+   "mb": "08066396",
+   "have": {
+    "address": "Futoška 68",
+    "phones": "021 547954; 021 547131; 021 547132; 021 547133",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "specijalna-bolnica-za-nespecificne-plucne-bolesti-sokobanja-sokobanja",
+   "name": "Specijalna bolnica za Nespecifične Plućne Bolesti \"Sokobanja\"",
+   "type": "Specijalna bolnica",
+   "place": "Sokobanja",
+   "website": "http://www.soko-banja.rs",
+   "mb": "07248261",
+   "have": {
+    "address": "Vojvode Mišića br. 48",
+    "phones": "018 830144; 018 830104; 018 830124",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "specijalna-bolnica-za-plucne-bolesti-ozren-sokobanja-sokobanja",
+   "name": "Specijalna bolnica za Plućne Bolesti \"Ozren\" Sokobanja",
+   "type": "Specijalna bolnica",
+   "place": "Sokobanja",
+   "website": "https://bolnicaozren.weebly.com/",
+   "mb": "07128541",
+   "have": {
+    "address": "Naselje Ozren bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "specijalna-bolnica-za-interne-bolesti-vrnjacka-banja-vrnjacka-banja",
+   "name": "Specijalna bolnica za Interne Bolesti Vrnjačka Banja",
+   "type": "Specijalna bolnica",
+   "place": "Vrnjačka Banja",
+   "website": "http://www.bolnicavb.org.rs",
+   "mb": "17689134",
+   "have": {
+    "address": "8. Marta 12",
+    "phones": "036 616970",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "specijalna-bolnica-za-psihijatrijske-bolesti-vrsac-vrsac",
+   "name": "Specijalna bolnica za psihijatrijske bolesti Vršac",
+   "type": "Specijalna bolnica",
+   "place": "Vršac",
+   "website": "http://www.spbvrsac.org.rs",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "013 833225; 013 833268",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "specijalna-bolnica-za-rehabilitaciju-gamzigrad-gamzigrad",
+   "name": "Specijalna bolnica za Rehabilitaciju \"Gamzigrad\"",
+   "type": "Specijalna bolnica",
+   "place": "Zaječar",
+   "website": "http://www.gamzigradskabanja.org.rs",
+   "mb": "07268211",
+   "have": {
+    "address": "Banjski trg 12",
+    "phones": "019 450440; 019 450447",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "specijalna-bolnica-za-plucne-bolesti-zrenjanin-zrenjanin",
+   "name": "Specijalna bolnica za plućne bolesti Zrenjanin",
+   "type": "Specijalna bolnica",
+   "place": "Zrenjanin",
+   "website": "http://www.plucna.co.rs",
+   "mb": null,
+   "have": {
+    "address": "Petefijeva 4",
+    "phones": "062 8008636",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "specijalna-bolnica-za-rehabilitaciju-rusanda-melenci",
+   "name": "Specijalna bolnica za Rehabilitaciju \"Rusanda\"",
+   "type": "Specijalna bolnica",
+   "place": "Zrenjanin",
+   "website": "http://www.banjarusanda.rs",
+   "mb": "08062650",
+   "have": {
+    "address": "Banja Rusanda bb",
+    "phones": "023 731050; 060 6513028; 064 5996601",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "specijalna-bolnica-za-bolesti-stitaste-zlezde-i-bolesti-metabolizma-zlatibor-cajetina",
+   "name": "Specijalna bolnica za Bolesti Štitaste Žlezde i Bolesti Metabolizma \"Zlatibor\"",
+   "type": "Specijalna bolnica",
+   "place": "Čajetina",
+   "website": "http://www.cigota.rs",
+   "mb": "07221452",
+   "have": {
+    "address": "Kraljeve Vode 30",
+    "phones": "031 841141; 031 597597",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "ustanova-sportsko-rekreativni-centar-sumadija-arandjelovac",
+   "name": "Ustanova sportsko Rekreativni centar \"Šumadija\"",
+   "type": "Sportski centar",
+   "place": "Aranđelovac",
+   "website": "http://www.srcsumadija.rs",
+   "mb": "07345810",
+   "have": {
+    "address": "Kneza Mihaila 33c/1",
+    "phones": "034 720290; 034 720281",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "ustanova-sportski-centar-bobana-momcilovic-velickovic-u-boru-bor",
+   "name": "Ustanova sportski Centar,,bobana Momčilović Veličković\" u Boru",
+   "type": "Sportski centar",
+   "place": "Bor",
+   "website": "http://www.sportskicentarbor.com/",
+   "mb": "17782126",
+   "have": {
+    "address": null,
+    "phones": "030 432725",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "ustanova-sportsko-rekreativni-centar-gornji-milanovac-gornji-milanovac",
+   "name": "Ustanova \"sportsko - Rekreativni centar\" Gornji Milanovac",
+   "type": "Sportski centar",
+   "place": "Gornji Milanovac",
+   "website": "https://www.srcgm.rs",
+   "mb": "20456108",
+   "have": {
+    "address": "Naselje Miodraga Radovanovića 5a",
+    "phones": "032 712436",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "sportsko-privredno-drustvo-radnicki-d-o-o-kragujevac-kragujevac",
+   "name": "Sportsko privredno društvo Radnički D.O.O. Kragujevac",
+   "type": "Sportski centar",
+   "place": "Kragujevac",
+   "website": "https://spdradnickikragujevac.com",
+   "mb": "07150717",
+   "have": {
+    "address": null,
+    "phones": "034 331958",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "ustanova-sportski-centar-ibar-kraljevo",
+   "name": "Ustanova sportski centar \"Ibar\"",
+   "type": "Sportski centar",
+   "place": "Kraljevo",
+   "website": "http://www.scibarkv.rs",
+   "mb": "07870973",
+   "have": {
+    "address": "Dušana Popovića 41a",
+    "phones": "036 321687; 036 321800",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "turisticko-sportska-organizacija-opstine-krupanj-krupanj",
+   "name": "Turističko-Sportska organizacija opštine Krupanj",
+   "type": "Sportski centar",
+   "place": "Krupanj",
+   "website": "https://www.tookrupanj.org.rs",
+   "mb": "17284045",
+   "have": {
+    "address": "Mačkov Kamen 3",
+    "phones": "015 584094",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "sportski-centar-krusevac-krusevac",
+   "name": "Sportski centar Kruševac",
+   "type": "Sportski centar",
+   "place": "Kruševac",
+   "website": "http://sckrusevac.com/",
+   "mb": "07241712",
+   "have": {
+    "address": "Nikole Tesle 14",
+    "phones": "037 492305",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "sportski-centar-opstine-kula-crvenka",
+   "name": "\"Sportski centar opštine Kula\"",
+   "type": "Sportski centar",
+   "place": "Kula",
+   "website": "https://scopstinekula.rs",
+   "mb": "08859159",
+   "have": {
+    "address": "Moše Pijade 30",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "ustanova-za-sport-sportski-centar-kursumlija-kursumlija",
+   "name": "Ustanova za sport sportski centar \"Kuršumlija\"",
+   "type": "Sportski centar",
+   "place": "Kuršumlija",
+   "website": "https://sckursumlija.rs",
+   "mb": "17390791",
+   "have": {
+    "address": "Toplička bb",
+    "phones": "064 8878192",
+    "hours": "Pon-Ned 08:00-23:00"
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-za-uredjenje-i-odrzavanje-sportskih-terena-i-objekata-mladost-pancevo-panc",
+   "name": "Javno komunalno preduzeće za Uređenje i održavanje Sportskih Terena i Objekata Mladost Pančevo",
+   "type": "Sportski centar",
+   "place": "Pančevo",
+   "website": "http://jkpmladost.rs",
+   "mb": "08077568",
+   "have": {
+    "address": null,
+    "phones": "013 354178; 013 315412; 013 310313",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "sportski-centar-pirot-pirot",
+   "name": "Sportski centar Pirot",
+   "type": "Sportski centar",
+   "place": "Pirot",
+   "website": "http://www.scpirot.rs",
+   "mb": "17721569",
+   "have": {
+    "address": "Takovska 24",
+    "phones": "010 320311",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javna-ustanova-sportski-centar-raska-raska",
+   "name": "Javna ustanova \"sportski centar\" Raška",
+   "type": "Sportski centar",
+   "place": "Raška",
+   "website": "https://sportskicentarraska.rs",
+   "mb": "17904060",
+   "have": {
+    "address": "Nemanjina 1/2",
+    "phones": "036 737806; 036 733897; 036 736100",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  }
+ ],
+ "id": "site-070"
+}

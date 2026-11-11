@@ -1,0 +1,1586 @@
+{
+ "kind": "network",
+ "title": "Erste Bank",
+ "type": "banka",
+ "orgs": [
+  {
+   "org_slug": "banka-erste",
+   "name": "Erste Bank",
+   "website": "https://www.erstebank.rs",
+   "rows": [
+    {
+     "location_id": 19467,
+     "unit": "Erste Bank",
+     "place": "Sombor",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 19490,
+     "unit": "Erste Bank",
+     "place": "Stara Pazova",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 19498,
+     "unit": "Erste Bank",
+     "place": "Stara Pazova",
+     "address": "Vidovdanski Trg 2",
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": []
+    },
+    {
+     "location_id": 19513,
+     "unit": "Erste Bank",
+     "place": "Subotica",
+     "address": "Trg cara Jovana Nenada 15",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 19558,
+     "unit": "Erste Bank",
+     "place": "Novi Sad",
+     "address": "Njegoševa 2",
+     "phones": "060 4848000; 0800 201201; 021 4897460",
+     "hours": "Pon-Pet 07:30-19:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 19619,
+     "unit": "Erste Bank",
+     "place": "Šid",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 19685,
+     "unit": "Erste Bank",
+     "place": "Srbobran",
+     "address": "Jovana Jovanovića Zmaja 16",
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": []
+    },
+    {
+     "location_id": 19687,
+     "unit": "Erste Bank",
+     "place": "Palilula",
+     "address": "Kraljice Marije 10",
+     "phones": "060 4848000; 0800 201201; 011 3033145",
+     "hours": "Pon 09:00-16:30; Uto 09:00-17:00; Sre-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 19704,
+     "unit": "Erste Bank",
+     "place": "Bečej",
+     "address": "Zelena 60",
+     "phones": "060 4848000; 0800 201201; 021 6919580",
+     "hours": "Pon-Pet 08:00-15:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 19756,
+     "unit": "Erste Bank",
+     "place": "Vrbas",
+     "address": "Maršala Tita 95",
+     "phones": "060 4848000; 0800 201201; 021 706504",
+     "hours": "Pon-Pet 08:00-15:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 19769,
+     "unit": "Erste Bank",
+     "place": "Voždovac",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo,We-Fr 09:00-16:30; Tu 09:00-17:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 19772,
+     "unit": "Erste Bank",
+     "place": "Savski venac",
+     "address": "Birčaninova 37",
+     "phones": "060 4848000; 0800 201201; 011 3628107",
+     "hours": "Pon-Pet 09:00-17:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 19792,
+     "unit": "Erste Bank",
+     "place": "Novi Sad",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 09:00-17:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 19796,
+     "unit": "Erste Bank",
+     "place": "Novi Sad",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 19798,
+     "unit": "Erste banka",
+     "place": "Novi Sad",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 07:30-19:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 19812,
+     "unit": "Erste Bank",
+     "place": "Bački Petrovac",
+     "address": "Maršala Tita 7",
+     "phones": "060 4848000; 0800 201201; 021 2070162",
+     "hours": "Pon-Pet 08:00-15:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 19856,
+     "unit": "Erste Bank",
+     "place": "Gornji Milanovac",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 19858,
+     "unit": "Erste Bank",
+     "place": "Kragujevac",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 19877,
+     "unit": "Erste Bank",
+     "place": "Valjevo",
+     "address": "Karađorđeva 77",
+     "phones": "060 4848000; 0800 201201; 014 290820",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 19884,
+     "unit": "Erste Bank",
+     "place": "Novi Sad",
+     "address": "Preradovićeva 38",
+     "phones": "060 4848000; 0800 201201; 021 432425",
+     "hours": "Pon-Pet 08:00-15:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 19918,
+     "unit": "Erste Bank",
+     "place": "Užice",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 19932,
+     "unit": "Erste Bank",
+     "place": "Novi Sad",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 19948,
+     "unit": "Erste Bank",
+     "place": "Čukarica",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo,We-Fr 09:00-16:30; Tu 09:00-17:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 19974,
+     "unit": "Erste Bank",
+     "place": "Novi Sad",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 19987,
+     "unit": "Erste Bank",
+     "place": "Šabac",
+     "address": "Masarikova 16",
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": []
+    },
+    {
+     "location_id": 20019,
+     "unit": "Erste Bank",
+     "place": "Zvezdara",
+     "address": "Bulevar kralja Aleksandra 314",
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": []
+    },
+    {
+     "location_id": 20083,
+     "unit": "Erste Bank",
+     "place": "Svilajnac",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20138,
+     "unit": "Erste Bank",
+     "place": "Stari grad",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 09:00-17:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20175,
+     "unit": "Erste Bank",
+     "place": "Novi Beograd",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo,We-Fr 09:00-16:30; Tu 09:00-17:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20273,
+     "unit": "Erste Bank",
+     "place": "Pančevo",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20376,
+     "unit": "Erste Bank",
+     "place": "Odžaci",
+     "address": "Železnička 26",
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": []
+    },
+    {
+     "location_id": 20444,
+     "unit": "Erste Bank",
+     "place": "Požega",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20451,
+     "unit": "Erste Bank",
+     "place": "Kula",
+     "address": "Lenjinova 2",
+     "phones": "060 4848000; 0800 201201; 025 722844",
+     "hours": "Pon-Pet 08:00-15:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 20452,
+     "unit": "Erste Bank",
+     "place": "Novi Sad",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 07:30-15:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20453,
+     "unit": "Erste banka",
+     "place": "Novi Sad",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 07:30-15:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20454,
+     "unit": "Erste Bank",
+     "place": "Ruma",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20455,
+     "unit": "Erste Bank",
+     "place": "Valjevo",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20456,
+     "unit": "Erste Bank",
+     "place": "Zvezdara",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo,We-Fr 09:00-16:30; Tu 09:00-17:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20457,
+     "unit": "Erste Bank",
+     "place": "Vranje",
+     "address": "Doktora Dimitrija Jovičića 12",
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": []
+    },
+    {
+     "location_id": 20458,
+     "unit": "Erste Bank",
+     "place": "Savski venac",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20459,
+     "unit": "Erste Bank",
+     "place": "Jagodina",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20460,
+     "unit": "Erste Bank",
+     "place": "Velika Plana",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20461,
+     "unit": "Erste Bank",
+     "place": "Ub",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20462,
+     "unit": "Erste Bank",
+     "place": "Temerin",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20463,
+     "unit": "Erste Bank",
+     "place": "Prokuplje",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20464,
+     "unit": "Erste Bank",
+     "place": "Medijana",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20465,
+     "unit": "Erste Bank",
+     "place": "Voždovac",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20466,
+     "unit": "Erste Bank",
+     "place": "Zrenjanin",
+     "address": "Dositeja Obradovića 28",
+     "phones": "060 4848000; 0800 201201; 023 530330",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 20467,
+     "unit": "Erste Bank",
+     "place": "Smederevo",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 09:00-17:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20468,
+     "unit": "Erste Bank",
+     "place": "Novi Sad",
+     "address": "Bulevar patrijarha Pavla 93",
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": []
+    },
+    {
+     "location_id": 20469,
+     "unit": "Erste Bank",
+     "place": "Stari grad",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20470,
+     "unit": "Erste Bank",
+     "place": "Smederevo",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20471,
+     "unit": "Erste Bank",
+     "place": "Inđija",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20472,
+     "unit": "Erste Bank",
+     "place": "Kragujevac",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 08:30-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20473,
+     "unit": "Erste Bank",
+     "place": "Medijana",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 08:30-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20474,
+     "unit": "Erste Bank",
+     "place": "Novi Pazar",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20475,
+     "unit": "Erste Bank",
+     "place": "Lazarevac",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 08:30-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20476,
+     "unit": "Erste Bank",
+     "place": "Beočin",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20477,
+     "unit": "Erste Bank",
+     "place": "Bačka Palanka",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 08:00-19:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20478,
+     "unit": "Erste Bank",
+     "place": "Bač",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20479,
+     "unit": "Erste Bank",
+     "place": "Novi Sad",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20480,
+     "unit": "Erste Bank",
+     "place": "Vršac",
+     "address": "Ive Milutinovića 46",
+     "phones": "060 4848000; 0800 201201; 013 2103431",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 20481,
+     "unit": "Erste Bank",
+     "place": "Pirot",
+     "address": "Branka Radičevića 12",
+     "phones": "060 4848000; 0800 201201; 010 310654",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 20482,
+     "unit": "Erste Bank",
+     "place": "Sremska Mitrovica",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20483,
+     "unit": "Erste Bank",
+     "place": "Požarevac",
+     "address": "Tabačka čaršija",
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20484,
+     "unit": "Erste Bank",
+     "place": "Stara Pazova",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20485,
+     "unit": "Erste Bank",
+     "place": "Čačak",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20486,
+     "unit": "Erste Bank",
+     "place": "Zvezdara",
+     "address": "Vojvode Šupljikca 53-55",
+     "phones": "060 4848000; 0800 201201; 011 3628110",
+     "hours": "Pon 09:00-16:30; Uto 09:00-17:00; Sre-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 20487,
+     "unit": "Erste Bank",
+     "place": "Novi Beograd",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo,We-Fr 09:00-16:30; Tu 09:00-17:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20488,
+     "unit": "Erste Bank",
+     "place": "Zemun",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo,We-Fr 09:00-16:30; Tu 09:00-17:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20490,
+     "unit": "Erste Bank",
+     "place": "Subotica",
+     "address": "Matka Vukovića 1",
+     "phones": "060 4848000; 0800 201201; 024 559181",
+     "hours": "Pon-Sre 09:00-16:30; Čet 09:00-17:30; Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 20491,
+     "unit": "Erste Bank",
+     "place": "Žabalj",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20503,
+     "unit": "Erste Bank",
+     "place": "Smederevo",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 21729,
+     "unit": "Erste Bank",
+     "place": "Zrenjanin",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-We,Fr 08:00-15:30; Th 08:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 21859,
+     "unit": "Erste Bank",
+     "place": "Palilula",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 21860,
+     "unit": "Erste Bank",
+     "place": "Vračar",
+     "address": "Mome Kapora 12",
+     "phones": "060 4848000; 0800 201201; 011 6351728",
+     "hours": "Pon-Pet 09:00-17:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 21945,
+     "unit": "Erste bank",
+     "place": "Kikinda",
+     "address": "Braće Tatić 6",
+     "phones": "0230 402540",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": []
+    },
+    {
+     "location_id": 21958,
+     "unit": "Erste Bank",
+     "place": "Voždovac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 21963,
+     "unit": "Erste Bank",
+     "place": "Obrenovac",
+     "address": "Vuka Karadžića 51",
+     "phones": "060 4848000; 0800 201201; 011 8720820",
+     "hours": "Pon-Pet 08:30-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 22001,
+     "unit": "Erste Bank",
+     "place": "Bačka Palanka",
+     "address": "Kralja Petra prvog 17",
+     "phones": "021 752340",
+     "hours": "Mo-Fr 08:00-19:00; Sa 8:00-12:00",
+     "need": []
+    },
+    {
+     "location_id": 22002,
+     "unit": "Erste Bank",
+     "place": "Kruševac",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22003,
+     "unit": "Erste Bank",
+     "place": "Novi Sad",
+     "address": "Narodnih heroja 3",
+     "phones": "060 4848000; 0800 201201; 021 2155697",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 22004,
+     "unit": "Erste Bank",
+     "place": "Zvezdara",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22081,
+     "unit": "Erste Bank",
+     "place": "Savski venac",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 09:00-17:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22082,
+     "unit": "Erste Bank",
+     "place": "Medijana",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22088,
+     "unit": "Erste Bank",
+     "place": "Kraljevo",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22158,
+     "unit": "Erste Bank",
+     "place": "Sremski Karlovci",
+     "address": "Jovana Jovanovića Zmaja 18b",
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": []
+    },
+    {
+     "location_id": 22161,
+     "unit": "Erste Bank",
+     "place": "Čukarica",
+     "address": "Požeška 65b",
+     "phones": "060 4848000; 0800 201201; 011 3057480",
+     "hours": "Pon 09:00-16:30; Uto 09:00-17:00; Sre-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 22209,
+     "unit": "Erste banka",
+     "place": "Plandište",
+     "address": "Vojvode Putnika 45",
+     "phones": "013 2861490",
+     "hours": "Pon-Pet 08:00-15:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 22395,
+     "unit": "Erste Bank",
+     "place": "Novi Sad",
+     "address": "Bulevar oslobođenja 69",
+     "phones": "021 4802010",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 23784,
+     "unit": "Erste Bank",
+     "place": "Vršac",
+     "address": "Dvorska 4",
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": []
+    },
+    {
+     "location_id": 23916,
+     "unit": "Erste Bank",
+     "place": "Plandište",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 24053,
+     "unit": "Erste Bank",
+     "place": "Novi Beograd",
+     "address": "Milutina Milankovića 3a",
+     "phones": "060 4848000; 0800 201201; 011 2015032",
+     "hours": "Pon 09:00-16:30; Uto 09:00-17:00; Sre-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 24468,
+     "unit": "Erste Bank",
+     "place": "Pančevo",
+     "address": null,
+     "phones": "060 4848000; 0800 201201",
+     "hours": "Mo,Th 09:00-18:30; Tu-We,Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 28221,
+     "unit": "Filijala Bačka Palanka",
+     "place": "Bačka Palanka",
+     "address": "Kralja Petra I 15",
+     "phones": "021 752340",
+     "hours": "Pon-Pet 08:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28222,
+     "unit": "Filijala Bački Petrovac",
+     "place": "Bački Petrovac",
+     "address": "Maršala Tita 5",
+     "phones": "021 2280227",
+     "hours": "Pon-Pet 08:00-15:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28223,
+     "unit": "Filijala Beočin",
+     "place": "Beočin",
+     "address": "Trg Cara Lazara 2",
+     "phones": "021 2972705",
+     "hours": "Pon-Pet 08:00-15:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28224,
+     "unit": "Filijala Ratka Mitrovića",
+     "place": "Čukarica",
+     "address": "Ratka Mitrovića 158",
+     "phones": "011 2369120",
+     "hours": "Pon 09:00-16:30; Uto 09:00-17:00; Sre-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28225,
+     "unit": "Ekspres ekspozitura Cara Dušana",
+     "place": "Stari grad",
+     "address": "Cara Dušana 3",
+     "phones": "011 3282860",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28226,
+     "unit": "Filijala Voždovac",
+     "place": "Voždovac",
+     "address": "Save Maškovića 3",
+     "phones": "011 3098416",
+     "hours": "Pon 09:00-16:30; Uto 09:00-17:00; Sre-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28227,
+     "unit": "Ekspres ekspozitura Vojvode Stepe",
+     "place": "Voždovac",
+     "address": "Vojvode Stepe 95",
+     "phones": "011 6302050",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28228,
+     "unit": "Filijala Madridska",
+     "place": "Zvezdara",
+     "address": "Madridska 8",
+     "phones": "011 7700419",
+     "hours": "Pon 09:00-16:30; Uto 09:00-17:00; Sre-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28229,
+     "unit": "Ekspres ekspozitura Gospodara Vučića",
+     "place": "Zvezdara",
+     "address": "Ravanička 52",
+     "phones": "011 6240002",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28230,
+     "unit": "Ekspres ekspozitura Bulevar Kralja Aleksandra",
+     "place": "Zvezdara",
+     "address": "Bul. Kralja Aleksandra 314",
+     "phones": "011 4059785",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28231,
+     "unit": "Filijala Jurija Gagarina",
+     "place": "Novi Beograd",
+     "address": "Jurija Gagarina 149",
+     "phones": "011 2285201",
+     "hours": "Pon 09:00-16:30; Uto 09:00-17:00; Sre-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28232,
+     "unit": "Ekspres ekspozitura Savska",
+     "place": "Savski venac",
+     "address": "Savska 27",
+     "phones": "011 4040051",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28233,
+     "unit": "Filijala BW Metropolitan",
+     "place": "Savski venac",
+     "address": "Bulevar Vudroa Vilsona, 4a",
+     "phones": "011 7555800",
+     "hours": "Pon-Pet 09:00-17:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28234,
+     "unit": "Filijala Takovska",
+     "place": "Stari grad",
+     "address": "Takovska 36",
+     "phones": "011 4536563",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28235,
+     "unit": "Filijala Knez Mihailova",
+     "place": "Stari grad",
+     "address": "Knez Mihailova 39",
+     "phones": "011 3037026",
+     "hours": "Pon-Pet 09:00-17:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28236,
+     "unit": "Filijala Čačak",
+     "place": "Čačak",
+     "address": "Gradsko šetalište 81",
+     "phones": "032 5150640",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28237,
+     "unit": "Filijala Futog",
+     "place": "Novi Sad",
+     "address": "Cara Lazara 42",
+     "phones": "021 897333",
+     "hours": "Pon-Pet 08:00-15:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28238,
+     "unit": "Ekspres ekspozitura Gornji Milanovac",
+     "place": "Gornji Milanovac",
+     "address": "Vuka Karadžića 1b",
+     "phones": "032 710642",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28239,
+     "unit": "Filijala Inđija",
+     "place": "Inđija",
+     "address": "Vojvode Stepe 14",
+     "phones": "022 561558",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28240,
+     "unit": "Filijala Jagodina",
+     "place": "Jagodina",
+     "address": "Kneginje Milice 65",
+     "phones": "035 254690",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28241,
+     "unit": "Filijala Kikinda",
+     "place": "Kikinda",
+     "address": "Braće Tatića 6",
+     "phones": "0230 402540",
+     "hours": "Pon-Pet 08:00-15:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28242,
+     "unit": "Filijala Kragujevac",
+     "place": "Kragujevac",
+     "address": "Kralja Petra I 23",
+     "phones": "034 300308",
+     "hours": "Pon-Pet 08:30-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28243,
+     "unit": "Filijala Kragujevac 2",
+     "place": "Kragujevac",
+     "address": "Kralja Aleksandra Karađorđevića 34",
+     "phones": "034 328485",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28244,
+     "unit": "Filijala Kraljevo",
+     "place": "Kraljevo",
+     "address": "Hajduk Veljkova 16",
+     "phones": "036 326510",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28245,
+     "unit": "Filijala Kruševac",
+     "place": "Kruševac",
+     "address": "Gazimestanska 14",
+     "phones": "037 444761",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28246,
+     "unit": "Filijala Lazarevac",
+     "place": "Lazarevac",
+     "address": "Branka Radičevića 22",
+     "phones": "011 8127000",
+     "hours": "Pon-Pet 08:30-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28247,
+     "unit": "Filijala Loznica",
+     "place": "Loznica",
+     "address": "Gimnazijska 8",
+     "phones": "015 891123",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28248,
+     "unit": "Ekspres ekspozitura Niš 2",
+     "place": "Medijana",
+     "address": "Obilićev venac 15a",
+     "phones": "018 270333",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28249,
+     "unit": "Filijala Niš",
+     "place": "Medijana",
+     "address": "Sinđelićev trg 20",
+     "phones": "018 295444",
+     "hours": "Pon-Pet 08:30-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28250,
+     "unit": "Ekspres ekspozitura Niš",
+     "place": "Medijana",
+     "address": "Sedmog jula 22",
+     "phones": "018 511340",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28251,
+     "unit": "Filijala Nova Pazova",
+     "place": "Stara Pazova",
+     "address": "Cara Dušana 1",
+     "phones": "022 321001",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28252,
+     "unit": "Filijala Novi Banovci",
+     "place": "Stara Pazova",
+     "address": "Vidovdanski trg bb",
+     "phones": "022 2340486",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 28253,
+     "unit": "Filijala VIG Plaza",
+     "place": "Novi Beograd",
+     "address": "Trešnjinog cveta 1",
+     "phones": "011 3120407",
+     "hours": "Pon 09:00-16:30; Uto 09:00-17:00; Sre-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28254,
+     "unit": "Filijala Novi Pazar",
+     "place": "Novi Pazar",
+     "address": "28. Novembra 49",
+     "phones": "020 332480",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28255,
+     "unit": "Filijala Park City Novi Sad",
+     "place": "Novi Sad",
+     "address": "Narodnog fronta 23",
+     "phones": "021 4809294",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28256,
+     "unit": "Filijala Bulevar Cara Lazara",
+     "place": "Novi Sad",
+     "address": "Bulevar Cara Lazara 19",
+     "phones": "021 4897405",
+     "hours": "Pon-Pet 08:00-19:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28257,
+     "unit": "Šalter Klinički centar",
+     "place": "Novi Sad",
+     "address": "Hajduk Veljkova 1",
+     "phones": "021 529004",
+     "hours": "Pon-Pet 07:30-15:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28258,
+     "unit": "Filijala Bistrica",
+     "place": "Novi Sad",
+     "address": "Jovana Dučića 15",
+     "phones": "021 4897449",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28259,
+     "unit": "Filijala Bulevar Mihajla Pupina",
+     "place": "Novi Sad",
+     "address": "Bulevar Mihaila Pupina 12",
+     "phones": "021 6368812",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28260,
+     "unit": "Filijala Bulevar Oslobođenja 7",
+     "place": "Novi Sad",
+     "address": "Bulevar Oslobođenja 7",
+     "phones": "021 4809648",
+     "hours": "Pon-Pet 07:30-19:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28261,
+     "unit": "Filijala Erste Nova",
+     "place": "Novi Sad",
+     "address": "Industrijska 3j",
+     "phones": "021 2100554",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28262,
+     "unit": "Filijala Odžaci",
+     "place": "Odžaci",
+     "address": "Željeznička 26",
+     "phones": "025 5742222",
+     "hours": "Pon-Pet 08:00-15:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28263,
+     "unit": "Ekspres ekspozitura Pančevo",
+     "place": "Pančevo",
+     "address": "Miloša Obrenovića 12",
+     "phones": "013 333282",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28264,
+     "unit": "Filijala Pančevo",
+     "place": "Pančevo",
+     "address": "Trg Kralja Petra 10",
+     "phones": "013 304860",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28265,
+     "unit": "Filijala Požarevac",
+     "place": "Požarevac",
+     "address": "Tabačka čaršija 8",
+     "phones": "012 544060",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28266,
+     "unit": "Filijala Požega",
+     "place": "Požega",
+     "address": "Kralja Petra I broj 1",
+     "phones": "031 3825209",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28267,
+     "unit": "Ekspres ekspozitura Ruma",
+     "place": "Ruma",
+     "address": "Glavna 163",
+     "phones": "022 430603",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28268,
+     "unit": "Filijala Šabac",
+     "place": "Šabac",
+     "address": "Masarikova 6",
+     "phones": "015 306365",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28269,
+     "unit": "Filijala Šid",
+     "place": "Šid",
+     "address": "Karađorđeva 4",
+     "phones": "022 715765",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28270,
+     "unit": "Filijala Smederevo",
+     "place": "Smederevo",
+     "address": "17. Oktobar 13",
+     "phones": "026 649280",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28271,
+     "unit": "Ekspres ekspozitura Smederevo",
+     "place": "Smederevo",
+     "address": "Karađorđeva 30",
+     "phones": "026 4103141",
+     "hours": "Pon-Pet 08:00-15:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28272,
+     "unit": "Filijala Sombor",
+     "place": "Sombor",
+     "address": "Kralja Petra I br.3",
+     "phones": "025 430700",
+     "hours": "Pon-Pet 08:00-15:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28273,
+     "unit": "Filijala Srbobran",
+     "place": "Srbobran",
+     "address": "Zmaj Jovina 16",
+     "phones": "021 735566",
+     "hours": "Pon-Pet 08:00-15:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28274,
+     "unit": "Šalter Sremska Kamenica Institut",
+     "place": "Petrovaradin",
+     "address": "Institut Sremska Kamenica",
+     "phones": "021 4809364",
+     "hours": "Pon-Pet 07:30-15:00; Sub-Ned zatvoreno",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 28275,
+     "unit": "Filijala Sremska Mitrovica",
+     "place": "Sremska Mitrovica",
+     "address": "Sv.Dimitrija 21",
+     "phones": "022 639278",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28276,
+     "unit": "Filijala Sremski Karlovci",
+     "place": "Sremski Karlovci",
+     "address": "Jovana Jovanovića Zmaja 18",
+     "phones": "021 2984322",
+     "hours": "Pon-Pet 08:00-15:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28277,
+     "unit": "Filijala Stara Pazova",
+     "place": "Stara Pazova",
+     "address": "Kralja Petra I 2",
+     "phones": "022 366226",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28278,
+     "unit": "Filijala Temerin",
+     "place": "Temerin",
+     "address": "Novosadska 385",
+     "phones": "021 6252830",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28279,
+     "unit": "Filijala Ub",
+     "place": "Ub",
+     "address": "Dušana Danilovića 2",
+     "phones": "014 416530",
+     "hours": "Pon-Pet 08:00-15:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28280,
+     "unit": "Filijala Užice",
+     "place": "Užice",
+     "address": "Dimitrija Tucovića 93",
+     "phones": "031 500118",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28281,
+     "unit": "Filijala Velika Plana",
+     "place": "Velika Plana",
+     "address": "Miloša Velikog 99",
+     "phones": "026 540260",
+     "hours": "Pon-Pet 08:00-15:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28282,
+     "unit": "Ekspres ekspozitura Vranje",
+     "place": "Vranje",
+     "address": "Dr Dimitrija Jovčića 12",
+     "phones": "017 420960",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28283,
+     "unit": "Filijala Vršac",
+     "place": "Vršac",
+     "address": "Dvorska 6",
+     "phones": "013 838800",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28284,
+     "unit": "Filijala Žabalj",
+     "place": "Žabalj",
+     "address": "Nikole Tesle 43",
+     "phones": "021 2931073",
+     "hours": "Pon-Pet 08:00-15:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28285,
+     "unit": "Filijala Zemun",
+     "place": "Zemun",
+     "address": "Glavna 42",
+     "phones": "011 2100422",
+     "hours": "Pon 09:00-16:30; Uto 09:00-17:00; Sre-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28286,
+     "unit": "Filijala Zrenjanin",
+     "place": "Zrenjanin",
+     "address": "Kralja Aleksandra 1",
+     "phones": "023 530774",
+     "hours": "Pon-Sre 08:00-15:30; Čet 08:00-16:30; Pet 08:00-15:30; Sub-Ned zatvoreno",
+     "need": []
+    }
+   ]
+  }
+ ],
+ "id": "net-banka-erste"
+}

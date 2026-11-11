@@ -1,0 +1,3893 @@
+{
+ "kind": "register",
+ "title": "Hotel (kategorisani smeštaj)",
+ "type": "hotel",
+ "rows": [
+  {
+   "org_slug": "hotel-miznah-zobnatica",
+   "name": "Miznah",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Bačka Topola",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Salaš Zobnatica 22",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-mlavske-terme-zdrelo",
+   "name": "Mlavske terme",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Petrovac na Mlavi",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Ždrelo bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-mlinarev-san-arilje",
+   "name": "Mlinarev san",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Arilje",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Arilje bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-mona-plaza-beograd",
+   "name": "Mona Plaza",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Cara Uroša 62",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-mona-plaza-zlatibor",
+   "name": "Mona Plaza",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Čajetina",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Miladina Pećinara 26",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-monogram-park-ruma",
+   "name": "Monogram Park",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Ruma",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Veljka Dugoševića 98",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-mons-sa-depandansom-zlatibor",
+   "name": "Mons sa depandansom",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Čajetina",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Ćaldov Put bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-morava-sabac",
+   "name": "Morava",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Šabac",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Kralja Milutina 80",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-moravica-sokobanja",
+   "name": "Moravica",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Sokobanja",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Rudnička 4",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-moskva-beograd",
+   "name": "Moskva",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Balkanska 1",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-motel-mandic-backo-dobro-polje",
+   "name": "Motel Mandic",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Vrbas",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Dr Davida Grubija 115",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-mountain-resort-spa-zlatibor",
+   "name": "Mountain Resort & Spa",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Čajetina",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Miladina Pećinara 31a",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-moxy-belgrade-beograd",
+   "name": "Moxy Belgrade",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Njegoševa 2",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-moxy-belgrade-skadarlija-beograd",
+   "name": "Moxy Belgrade Skadarlija",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Bulevar Despota Stefana 24",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-museum-beograd",
+   "name": "Museum",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Čika-Ljubina 3",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-mv-monogram-maradik",
+   "name": "MV Monogram",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Inđija",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Inđijska 3",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-n-beograd",
+   "name": "N",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Bilećka 57",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-nais-vrtiste",
+   "name": "Nais",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Crveni Krst",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Zaselak Nais 1",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-natalija-residence-beograd",
+   "name": "Natalija Residence",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Žarkovačka 1",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-nebeska-stolica-2-sa-depandansom-nebeska-stolica-1-kopaonik",
+   "name": "Nebeska stolica 2 sa depandansom Nebeska stolica 1",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Raška",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Kopaonik bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-nevski-beograd",
+   "name": "Nevski",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Venizelosova 24a",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-new-belgrade-premium-beograd",
+   "name": "New Belgrade Premium",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Tošin Bunar 222",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-new-city-nis",
+   "name": "New City",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Niš",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Vožda Karađorđa 12",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-nicolo-037-krusevac",
+   "name": "Nicolo-037",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Kruševac",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Jasički Put 76g",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-nis-city-view-nis",
+   "name": "Niš City View",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Zdravke Vučković 44",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-nobel-design-beograd",
+   "name": "Nobel Design",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Balkanska 18",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-nobel-gallery-beograd",
+   "name": "Nobel Gallery",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Višegradska 21",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-nobel-inn-beograd",
+   "name": "Nobel Inn",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Zemunska 23",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-nobel-palace-beograd",
+   "name": "Nobel Palace",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Ruzveltova 23",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-nobel-west-beograd",
+   "name": "Nobel West",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Tošin Bunar 168",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-nobel-zira-beograd",
+   "name": "Nobel Zira",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Ruzveltova 35",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-nordic-guca",
+   "name": "Nordic",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Lučani",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Trg Branka V. Radičevića bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-nota-beograd",
+   "name": "Nota",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Grčića Milenka 8",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-nova-city-beograd",
+   "name": "Nova City",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Husinskih Rudara 9",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-novella-uno-novi-banovci",
+   "name": "Novella Uno",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Stara Pazova",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Svetosavska 187",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-novi-sad-novi-sad",
+   "name": "Novi Sad",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Novi Sad",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Bulevar Jaše Tomića 1",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-o2-tornik-jablanica",
+   "name": "o2-TORNIK",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Čajetina",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Dragana Kondića 23",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-oblacinsko-jezero-oblacina",
+   "name": "Oblačinsko jezero",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Merošina",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Oblačinska 2",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-olimp-zlatibor",
+   "name": "Olimp",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Čajetina",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Miladina Pećinara 1",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-olympic-kosjeric",
+   "name": "Olympic",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Kosjerić",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Karađorđeva 55",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-omni-sa-depandansom-valjevo",
+   "name": "Omni sa depandansom",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Valjevo",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Knez Mihailova 88",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-omorika-kremna",
+   "name": "Omorika",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Užice",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Kremna bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-onyx-sijarinska-banja",
+   "name": "Onyx",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Medveđa",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Zmaj Jovina 5",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-opera-beograd",
+   "name": "Opera",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Braće Jugovića 16",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-oplenac-topola",
+   "name": "Oplenac",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Topola",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Avenija Kralja Petra Prvog 44",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-orasac-beograd",
+   "name": "Orašac",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Luke Vojvodića 25n",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-orasac1-beograd",
+   "name": "Orašac1",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Kraljice Katarine 53",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-orbis-design-hotel-spa-paracin",
+   "name": "Orbis Design Hotel & Spa",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Paraćin",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Svetog Save 2",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-ozon-brzece",
+   "name": "Ozon",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Brus",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Brzeće bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-palace-beograd",
+   "name": "Palace",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Topličin Venac 23",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-palic-resort-sa-depadansom-vila-lago-palic",
+   "name": "Palić Resort sa depadansom Vila Lago",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Subotica",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Jožefa Hegediša 14",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-palisad-zlatibor",
+   "name": "Palisad",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Čajetina",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Zlatibor bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-panorama-lux-nis",
+   "name": "Panorama Lux",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Svetolika Rankovića 51",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-park-ada",
+   "name": "Park",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Ada",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Trg Oslobođenja 1",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-park-ivanjica",
+   "name": "Park",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Ivanjica",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Venijamina Marinkovića 7",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-park-sa-depandansom-jezero-palic",
+   "name": "Park sa depandansom Jezero",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Subotica",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Park Heroja 15",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-park-vrnjacka-banja",
+   "name": "Hotel Park",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Vrnjačka Banja",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Vrnjačka 1",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-passpartu-home-beograd",
+   "name": "Passpartu Home",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Kneginje Ljubice 20",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-passport-beograd",
+   "name": "Passport",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Jurija Gagarina 153a",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-patria-subotica",
+   "name": "Patria",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Subotica",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Đure Đakovića 1a",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-pavilion-boutique-beograd",
+   "name": "Pavilion Boutique",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Dobračina 39",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-pbg-subotica",
+   "name": "Pbg",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Subotica",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Harambašićeva 19",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-pepa-divcibare",
+   "name": "Pepa",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Valjevo",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Crni Vrh bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-petrus-paracin",
+   "name": "Petrus",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Paraćin",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Nikole Pašića 1",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-planeta-inn-novi-sad",
+   "name": "Planeta Inn",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Novi Sad",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Jevrejska 36",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-planinka-kursumlijska-banja",
+   "name": "Planinka",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Kuršumlija",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Nušićeva 18",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-plattner-fontana-backa-palanka",
+   "name": "Plattner Fontana",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Bačka Palanka",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Jugoslovenske Armije 11",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-plava-laguna-cuprija",
+   "name": "Plava laguna",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Ćuprija",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Ravanička 4",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-podrinje-banja-koviljaca",
+   "name": "Podrinje",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Loznica",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "28.slavonske Divizije 18, sprat:",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-pollock-ribarska-banja",
+   "name": "Pollock",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Kruševac",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Kralja Petra Prvog 179",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-pozega-pozega",
+   "name": "Požega",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Požega",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Nikole Pašića 6",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-predejane-predejane",
+   "name": "Predejane",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Leskovac",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Omladinska 33",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-premier-aqua-vrdnik",
+   "name": "Premier Aqua",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Irig",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Martina Klasića 16",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-premier-prezident-sremski-karlovci",
+   "name": "Premier Prezident",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Sremski Karlovci",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Karađorđeva 2",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-premium-novi-sad",
+   "name": "Premium",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Novi Sad",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Beogradski Kej 49",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-president-de-luxe-kragujevac",
+   "name": "President DE Luxe",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Kragujevac",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Janka Veselinovića 52",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-president-zlatibor",
+   "name": "President",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Čajetina",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Alekse Popovića 1",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-prestige-sa-depandansom-beograd",
+   "name": "Prestige sa depandansom",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Bulevar Vojvode Mišića 24a",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-prezident-ivanjica",
+   "name": "Prezident",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Ivanjica",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "181, sprat: /, stan: /",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-prezident-novi-sad",
+   "name": "Prezident",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Novi Sad",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Futoška 109",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-prezident-palace-beograd",
+   "name": "Prezident Palace",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Venizelosova 54",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-prezident-palic",
+   "name": "Prezident",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Subotica",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Olge Penavin 2",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-public-house-hotel-belgrade-beograd",
+   "name": "Public House Hotel Belgrade",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Kneza Miloša 14",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-pupin-novi-sad",
+   "name": "Pupin",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Novi Sad",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Narodnih Heroja 3",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-putnik-inn-belgrade-beograd",
+   "name": "Putnik Inn Belgrade",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Palmira Toljatija 9",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-putnik-kopaonik",
+   "name": "Putnik",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Raška",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Jovana Cvijića 1",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-putnik-novi-sad",
+   "name": "Putnik",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Novi Sad",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Ilije Ognjanovića 24",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-queen-of-zlatibor-zlatibor",
+   "name": "Queen OF Zlatibor",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Čajetina",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Jovanke Jeftanović 117",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-queen-s-astoria-design-hotel-beograd-beograd-savski-venac",
+   "name": "Queen's Astoria Design Hotel Beograd",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Savski venac",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "ulica: Milovana Milovanovića 1",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-radan-prolom",
+   "name": "Radan",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Kuršumlija",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Prolom bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-radisson-collection-hotel-old-mill-beograd-beograd",
+   "name": "Radisson Collection Hotel, Old Mill Beograd",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Bulevar Vojvode Mišića 15",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-radisson-red-belgrade-beograd",
+   "name": "Radisson RED Belgrade",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Takovska 49",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-radmilovac-vinca",
+   "name": "Radmilovac",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Grocka",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Smederevski Put 1",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-radovic-kragujevac",
+   "name": "Radović",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Kragujevac",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Gornjomilanovačka 54",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-ramonda-rtanj",
+   "name": "Ramonda",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Boljevac",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Rudnička 38",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-ras-novi-pazar",
+   "name": "Ras",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Novi Pazar",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Pazarište bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-ravni-gaj-ljubic",
+   "name": "Ravni Gaj",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Knić",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Ljubić bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-rex-beograd",
+   "name": "Rex",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Sarajevska 37",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-ribarsko-ostrvo-novi-sad",
+   "name": "Ribarsko ostrvo",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Novi Sad",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Ribarsko Ostrvo 4",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-rile-men-nis",
+   "name": "Rile Men",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Niš",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Vojvode Mišića 111",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-rodic-jezero-resort-kula",
+   "name": "Rodić Jezero Resort",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Kula",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Industrijska Zona 37",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-royal-crown-subotica",
+   "name": "Royal Crown",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Subotica",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Somborski Put 75",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-royal-drina-mali-zvornik",
+   "name": "Royal Drina",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Mali Zvornik",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Kralja Petra Prvog 26",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-royal-inn-beograd",
+   "name": "Royal Inn",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Kralja Petra 56",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-royal-mountain-divcibare",
+   "name": "Royal Mountain",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Valjevo",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Valjevska 66",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-royal-putnik-vranje",
+   "name": "Royal putnik",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Vranje",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Todora Mišića Španca bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-royal-residence-cacak",
+   "name": "Royal Residence",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Čačak",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Stevana Prvovenčanog bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-royal-senta",
+   "name": "Royal",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Senta",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Glavni Trg 11",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-royal-spa-banja-koviljaca",
+   "name": "Royal spa",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Loznica",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Narodnog Fronta 42",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-rubicon-kragujevac",
+   "name": "Rubicon",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Kragujevac",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Višnjićeva 21",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-rubin-dhs-krusevac",
+   "name": "Rubin DHS",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Kruševac",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Trg Kosovskih Junaka 2",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-rudnik-kucevo",
+   "name": "Rudnik",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Kučevo",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Svetog Save 96",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-s-klub-jakovo",
+   "name": "S Klub",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Surčin",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Jakovačke Desetine 10",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-saint-ten-beograd",
+   "name": "Saint Ten",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Svetog Save 10",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-saradis-krusevac",
+   "name": "Saradis",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Kruševac",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Rasinska bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-sedlo-plesin",
+   "name": "Sedlo",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Raška",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Plešin 43",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-sheraton-novi-sad-novi-sad",
+   "name": "Sheraton Novi Sad",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Novi Sad",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Polgar Andraša 1",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-side-one-desing-beograd",
+   "name": "Side One Desing",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Kej Oslobođenja 19",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-sidro-sa-depandansom-beska",
+   "name": "Sidro sa depandansom",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Inđija",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Dunavska Obala bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-siesta-by-hedonija-uzice",
+   "name": "Siesta BY Hedonija",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Užice",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Banjička 24",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-simpo-przar-vranje",
+   "name": "Simpo Pržar",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Vranje",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Pržarska bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-sin-kom-pirot",
+   "name": "Sin Kom",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Pirot",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Nikole Pašića bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-skala-beograd",
+   "name": "Skala",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Bežanijska 3",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-sky-beograd",
+   "name": "Sky",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Lomina 28",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-sky-panorama-sokobanja",
+   "name": "Sky Panorama",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Sokobanja",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Prevalac 9d",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-slatina-vrnjacka-banja",
+   "name": "Slatina",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Vrnjačka Banja",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Slatinski Venac 16",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-slavija-beograd",
+   "name": "Slavija",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Svetog Save 1",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-slavija-lux-beograd",
+   "name": "Slavija Lux",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Svetog Save 2",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-sloboda-sabac",
+   "name": "Sloboda",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Šabac",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Trg Šabačkih Žrtava bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-slodes-beograd",
+   "name": "Slodes",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Borska 92f",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-sokoterme-sokobanja",
+   "name": "Sokoterme",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Sokobanja",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Kneza Miloša bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-sole-mio-novi-sad",
+   "name": "Sole Mio",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Novi Sad",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Sentandrejski Put 165",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-sole-nis",
+   "name": "Sole",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Niš",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Kralja Stefana Prvovenčanog 11",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-square-nine-beograd",
+   "name": "Square Nine",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Studentski Trg 9",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-srbija-beograd",
+   "name": "Srbija",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Ustanička 127c",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-srbija-lux-stara-pazova",
+   "name": "Srbija Lux",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Stara Pazova",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Fudbalska 1",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-srbija-tis-zajecar",
+   "name": "Srbija-Tis",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Zaječar",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Nikole Pašića 2",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-srbija-vrsac",
+   "name": "Srbija",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Vršac",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Svetosavski Trg 12",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-srebrna-lisica-kopaonik",
+   "name": "Srebrna lisica",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Raška",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Feliksa Kanica 12",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-srem-sremska-mitrovica",
+   "name": "Srem",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Sremska Mitrovica",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Fruškogorska bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-stankovic-secanj",
+   "name": "Stanković",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Sečanj",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Sečanjska 18",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-stara-planina-kalna",
+   "name": "Stara planina",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Knjaževac",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Kalna bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-stari-banat-opovo",
+   "name": "Stari Banat",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Opovo",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Ribarska 2",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-stari-hrast-markovac",
+   "name": "Stari Hrast",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Velika Plana",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "8. Oktobar 1",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-stari-krovovi-veternik",
+   "name": "Stari krovovi",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Novi Sad",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Novosadski Put 115",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-sterling-beograd",
+   "name": "Hotel Sterling",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Pazinska 31",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-stobex-loznica",
+   "name": "Stobex",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Loznica",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "85",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-sucevic-sa-depandansom-beograd",
+   "name": "Sučević sa depandansom",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "1a",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-sumarice-sa-depandansom-sumarice-kragujevac",
+   "name": "Šumarice sa depandansom Šumarice",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Kragujevac",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Desankin Venac bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-sun-loznica-loznica",
+   "name": "Sun Loznica",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Loznica",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Kneza Miloša 15",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-sunce-ribnica",
+   "name": "Sunce",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Kraljevo",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "bb, sprat: pr, stan: bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-sunce-sokobanja",
+   "name": "Sunce",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Sokobanja",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Rudnička 2",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-svetionik-obrenovac",
+   "name": "Svetionik",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Obrenovac",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Zabreških Partizana 30",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-svrljizanka-donja-vrezina",
+   "name": "Svrljižanka",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Pantelej",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Vrežinski Bulevar 22",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-tami-residence-sa-depandansom-nis",
+   "name": "Tami Residence sa depandansom",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Durmitorska 1",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-tamis-spa-pancevo",
+   "name": "Tamiš & Spa",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Pančevo",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Dimitrija Tucovića 17",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-tara-bajina-basta",
+   "name": "Tara",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Bajina Bašta",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Bb bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-tehnograd-kraljevo",
+   "name": "Tehnograd",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Kraljevo",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Kovanlučka 1",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-tepic-temerin",
+   "name": "Tepić",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Temerin",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Nikole Pašića 75",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-terme-36-6-priboj",
+   "name": "Terme 36.6",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Priboj",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "12. Januara 27",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-tesla-beograd",
+   "name": "Tesla",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Šumatovačka 42",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-the-bristol-belgrade-beograd",
+   "name": "The Bristol Belgrade",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Karađorđeva 50",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-the-st-regis-belgrade-beograd",
+   "name": "The St. Regis Belgrade",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Nikolaja Kravcova 1a",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-theater-belgrade-beograd",
+   "name": "Theater Belgrade",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Karađorđeva 9",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-timok-knjazevac",
+   "name": "Timok",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Knjaževac",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Stevana Mokranjca 1",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-tiski-cvet-novi-becej",
+   "name": "Tiski cvet",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Novi Bečej",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Trg Oslobođenja 1",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-tonanti-vrnjacka-banja",
+   "name": "Tonanti",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Vrnjačka Banja",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Svetog Save 2",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-tornik-sky-zlatibor",
+   "name": "Tornik Sky",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Čajetina",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Alekse Popovića 2",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-townhouse27-beograd",
+   "name": "Townhouse27",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Maršala Birjuzova 56",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-trayal-krusevac",
+   "name": "Trayal",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Kruševac",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Kruševac bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-tri-o-kragujevac",
+   "name": "Tri O",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Kragujevac",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Vojislava Kalanovića 3",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-trim-sa-depandansom-mali-trim-beograd",
+   "name": "Trim sa depandansom Mali Trim",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Kneza Višeslava 72",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-turist-bajina-basta",
+   "name": "Turist",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Bajina Bašta",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Svetosavska 95",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-turist-kraljevo",
+   "name": "Turist",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Kraljevo",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Trg Srpskih Ratnika br1",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-ub-aqua-park-ub",
+   "name": "Ub aqua park",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Ub",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Omladinskih Brigada bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-ub-ub",
+   "name": "Ub",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Ub",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Nemanje Matića 4",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-uni-elita-lux-nis",
+   "name": "Uni Elita Lux",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Niš",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Dušana Spasića 25",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-usce-sabac",
+   "name": "Ušće",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Šabac",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Kralja Milutina 3a",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-valoni-biljaca",
+   "name": "Valoni",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Bujanovac",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "bb, sprat: 2, stan: 30",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-veliki-novi-sad",
+   "name": "Veliki",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Novi Sad",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Nikole Pašića 24",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-vetrenjaca-sa-depadansom-vrsac",
+   "name": "vetrenjaca sa depadansom",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Vršac",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Beogradski Put bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-viceroy-kopaonik-serbia-kopaonik",
+   "name": "Viceroy Kopaonik Serbia",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Raška",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Trg Josifa Pančića 12",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-vidikovac-nis",
+   "name": "Vidikovac",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Mokranjčeva 70",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-vigor-novi-sad",
+   "name": "Vigor",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Novi Sad",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Jožef Atile 2",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-vila-drina-perucac-perucac",
+   "name": "Vila Drina Perućac",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Bajina Bašta",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Nikole Tesle bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-vila-majur-kelebija",
+   "name": "Vila Majur",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Subotica",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Put Edvarda Kardelja 445",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-vila-moskva-veternik",
+   "name": "Vila Moskva",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Novi Sad",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Milivoja Živanovića 1",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-vir-velika-plana",
+   "name": "Vir",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Velika Plana",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Mike Jovanovića 5",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-viva-kragujevac",
+   "name": "Viva",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Kragujevac",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Vojvode Mišića 1",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-vizura-sport-beograd",
+   "name": "VIZURA Sport",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Cara Dušana 105",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-vojvoda-putnik-vranje",
+   "name": "Vojvoda Putnik",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Vranje",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Partizanska 1",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-vojvodina-novi-sad",
+   "name": "Vojvodina",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Novi Sad",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Trg Slobode 2",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-vojvodina-stara-pazova",
+   "name": "Vojvodina",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Stara Pazova",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "J. Kamenjara 38",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-vojvodina-zrenjanin",
+   "name": "Vojvodina",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Zrenjanin",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Trg Slobode 3",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-vrbak-novi-pazar",
+   "name": "Vrbak",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Novi Pazar",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Kej 37",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-vrnjacke-terme-vrnjacka-banja",
+   "name": "Vrnjačke Terme",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Vrnjačka Banja",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Žike Valjarevića bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-vrujci-popadic",
+   "name": "Vrujci",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Mionica",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Vrujačka 42",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-xenon-beograd",
+   "name": "Xenon",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Vojislava Ilića 67",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-zavicaj-beograd",
+   "name": "Zavičaj",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Fabrisova 8",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-zeder-beograd",
+   "name": "Zeder",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Željka Mihajlovića 2",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-zelengora-kragujevac",
+   "name": "Zelengora",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Kragujevac",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Branka Radičevića 22",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-zeleni-grad-sokobanja",
+   "name": "Zeleni grad",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Sokobanja",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Vojvode Mišića 18",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-zeleni-vir-deveti-maj",
+   "name": "Zeleni Vir",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Palilula",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Toplički Partizanski Odred bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-zeneva-kragujevac",
+   "name": "Ženeva",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Kragujevac",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Luja Pastera 19",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-zeneva-lux-kragujevac",
+   "name": "Ženeva Lux",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Kragujevac",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Slobode bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-zenit-novi-sad",
+   "name": "Zenit",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Novi Sad",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Zmaj Jovina 8",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-zepter-beograd",
+   "name": "Zepter",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Terazije 10",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-zepter-drina-bajina-basta",
+   "name": "Zepter Drina",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Bajina Bašta",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Vojvode Mišića 5",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-zepter-vrnjacka-banja",
+   "name": "Zepter",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Vrnjačka Banja",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Vrnjačka 12",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-zijin-hotel-beograd-beograd",
+   "name": "Zijin Hotel Beograd",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Bulevar Mihajla Pupina 10k",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-zlatarsko-jezero-vranesa",
+   "name": "Zlatarsko jezero",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Nova Varoš",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Pribojska 6",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-zlatibor-zlatibor",
+   "name": "Zlatibor",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Čajetina",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Miladina Pećinara 31a",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-zlatiborska-noc-sa-depandansom-vila-uzice",
+   "name": "Zlatiborska noć sa depandansom Vila",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Užice",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Užice bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "hotel-zyra-leskovac",
+   "name": "Zyra",
+   "type": "Hotel (kategorisani smeštaj)",
+   "place": "Leskovac",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Trg Revolucije 42a",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  }
+ ],
+ "id": "reg-hotel-2"
+}

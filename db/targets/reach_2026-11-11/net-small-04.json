@@ -1,0 +1,611 @@
+{
+ "kind": "network",
+ "title": "Manje mreže",
+ "type": "mixed",
+ "orgs": [
+  {
+   "org_slug": "apotekarska-ustanova-jasfarm-kraljevo",
+   "name": "Apotekarska ustanova \"Jasfarm\"",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 11596,
+     "unit": "Apoteka",
+     "place": "Kraljevo",
+     "address": "Vojvode Stepe broj 15",
+     "phones": "036 312713",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11597,
+     "unit": "Ogranak Jasfarm 2",
+     "place": "Kraljevo",
+     "address": "Hajduk Veljkova broj 85",
+     "phones": "036 314141",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11598,
+     "unit": "Ogranak Jasfarm 3",
+     "place": "Kraljevo",
+     "address": "Trg vojske broj 1/13",
+     "phones": "036 333560",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11599,
+     "unit": "Ogranak Jasfarm 4",
+     "place": "Kraljevo",
+     "address": "Oktobarskih žrtava broj 34",
+     "phones": "036 322570",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11600,
+     "unit": "Ogranak Jasfarm 5",
+     "place": "Kraljevo",
+     "address": "Izletnička broj 41",
+     "phones": "036 373180",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11601,
+     "unit": "Ogranak Jasfarm 6",
+     "place": "Kraljevo",
+     "address": "Prvomajska broj 24/1",
+     "phones": "036 337280",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11602,
+     "unit": "Ogranak Jasfarm 8",
+     "place": "Kraljevo",
+     "address": "Podunavci bb",
+     "phones": "063 644568",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11603,
+     "unit": "Ogranak Jasfarm 10",
+     "place": "Kraljevo",
+     "address": "Žička broj 59",
+     "phones": "069 5644001",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11604,
+     "unit": "Ogranak Jasfarm 11",
+     "place": "Kraljevo",
+     "address": "Jovana Bojovića broj 84",
+     "phones": "063 614154",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11605,
+     "unit": "Ogranak Jasfarm 12",
+     "place": "Kraljevo",
+     "address": "Lađevci centar bb",
+     "phones": "069 3644948",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11606,
+     "unit": "Ogranak Jasfarm 13",
+     "place": "Kraljevo",
+     "address": "Žička broj 59",
+     "phones": "064 9628163",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11607,
+     "unit": "Ogranak Jasfarm 14",
+     "place": "Kraljevo",
+     "address": "Vojvode Stepe broj 45/2",
+     "phones": "036 361526",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "apotekarska-ustanova-lara-farm-plus-novi-slankamen",
+   "name": "Apotekarska ustanova \"Lara farm plus\"",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 10907,
+     "unit": "Sediste 00",
+     "place": "Inđija",
+     "address": "Novi Slankamen, Cara Dušana 116",
+     "phones": "064 8831724",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10908,
+     "unit": "Ogranak 1- LARA FARM PLUS 2 - DOBANOVCI",
+     "place": "Surčin",
+     "address": "Dobanovci, Zemunska 2",
+     "phones": "064 8831722",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10909,
+     "unit": "Ogranak 2 - LARA FARM PLUS 3 - UGRINOVCI",
+     "place": "Gornji Milanovac",
+     "address": "Ugrinovci, Beogradska 8",
+     "phones": "064 8831723",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10910,
+     "unit": "Ogranak 3 - LARA FARM PLUS 4 - BELEGIS",
+     "place": "Stara Pazova",
+     "address": "Belegiš, Kralja Petra I 36",
+     "phones": "064 8831729",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10911,
+     "unit": "Ogranak 4",
+     "place": "Stara Pazova",
+     "address": "Stara Pazova, Svetosavska 23",
+     "phones": "064 8831727",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10912,
+     "unit": "Ogranak 6 - LARA FARM PLUS 6 - NOVI KARLOVCI",
+     "place": "Inđija",
+     "address": "Novi Karlovci, Glavna 16",
+     "phones": "064 8831774",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10913,
+     "unit": "Ogranak 7 - LARA FARM PLUS 9 - STARA PAZOVA 3",
+     "place": "Stara Pazova",
+     "address": "Stara Pazova, Vladimira Hurbana 7",
+     "phones": "064 8831730",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10914,
+     "unit": "Ogranak 8 - LARA FARM PLUS 7 - NOVI SLANKAMEN 2",
+     "place": "Inđija",
+     "address": "Novi Slankamen, Cara Dušana 138",
+     "phones": "064 8271061",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10915,
+     "unit": "Ogranak 9 - LARA FARM PLUS 8 - STARA PAZOVA 2",
+     "place": "Stara Pazova",
+     "address": "Stara Pazova, Ćirila I Metodija 14",
+     "phones": "064 8269141",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10916,
+     "unit": "Ogranak 10 –LARA FARM PLUS 10 - VOJKA",
+     "place": "Stara Pazova",
+     "address": "Vojka, Cara Dušana 4b",
+     "phones": "064 8831772",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10917,
+     "unit": "Ogranak 11 –LARA FARM PLUS 11- KABLAR",
+     "place": "Stara Pazova",
+     "address": "Novi Banovci, Beogradska 83",
+     "phones": "064 8831778",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10918,
+     "unit": "Ogranak 12 – LARA FARM PLUS 12 - GOLUBINCI",
+     "place": "Stara Pazova",
+     "address": "Golubinci, Putinačka bb",
+     "phones": "064 8831773",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10919,
+     "unit": "Ogranak 13 – LARA FARM PLUS 13 - NOVA PAZOVA 1",
+     "place": "Stara Pazova",
+     "address": "Nova Pazova, Njegoševa 19",
+     "phones": "064 8831777",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10920,
+     "unit": "Ogranak 14 –LARA FARM PLUS 14 - STARA PAZOVA 1",
+     "place": "Stara Pazova",
+     "address": "Stara Pazova, B. Radičevića 12-14",
+     "phones": "064 8831776",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10921,
+     "unit": "Ogranak 15–LARA FARM PLUS 15 - STARI BANOVCI",
+     "place": "Stara Pazova",
+     "address": "Stari Banovci, Grčka 21",
+     "phones": "064 8831775",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10922,
+     "unit": "Ogranak 16 – LARA FARM PLUS 16 - NOVA PAZOVA 2",
+     "place": "Stara Pazova",
+     "address": "Nova Pazova, Kralja Petra I 1",
+     "phones": "064 8831721",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "apotekarska-ustanova-laurus-novi-sad",
+   "name": "Apotekarska ustanova \"Laurus\"",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 10823,
+     "unit": "Apoteka \"Laurus 1\"",
+     "place": "Novi Sad",
+     "address": "Futoška broj 19",
+     "phones": "021 521935",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10824,
+     "unit": "Apoteka \"Laurus 2\"",
+     "place": "Novi Sad",
+     "address": "Futoška broj 4",
+     "phones": "021 4739212",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10825,
+     "unit": "Apoteka \"Laurus 3\"",
+     "place": "Novi Sad",
+     "address": "Bulevar oslobodjenja broj 76a",
+     "phones": "021 426721",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10826,
+     "unit": "Apoteka \"Laurus 4\"",
+     "place": "Beograd",
+     "address": "Katanićeva broj 16",
+     "phones": "011 2419174",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10827,
+     "unit": "Apoteka \"Laurus 5\"",
+     "place": "Novi Sad",
+     "address": "SPENS, Sutjeska broj 2",
+     "phones": "021 6616960",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10828,
+     "unit": "Apoteka \"Laurus 6\"",
+     "place": "Beograd",
+     "address": "Beogradska broj 14",
+     "phones": "011 6305100",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10829,
+     "unit": "Apoteka \"Laurus 7\"",
+     "place": "Beograd",
+     "address": "Cetinjska broj 10",
+     "phones": "011 3345760",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10830,
+     "unit": "Apoteka \"Laurus 8\"",
+     "place": "Novi Sad",
+     "address": "Trg slobode broj 3",
+     "phones": "021 6610144",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10831,
+     "unit": "Apoteka \"Laurus 9\"",
+     "place": "Beograd",
+     "address": "Ruzveltova broj 2",
+     "phones": "011 4037497",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10832,
+     "unit": "Apoteka \"Laurus 10\"",
+     "place": "Novi Sad",
+     "address": "Braće Ribnikar broj 6",
+     "phones": "021 3829892",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10833,
+     "unit": "Apoteka \"Laurus 11\"",
+     "place": "Novi Sad",
+     "address": "Dunavska broj 8",
+     "phones": "021 3029093",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10834,
+     "unit": "Apoteka \"Laurus 12\"",
+     "place": "Beograd",
+     "address": "Nevesinjska broj 19",
+     "phones": "011 6901858",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10835,
+     "unit": "Apoteka \"Laurus 13\"",
+     "place": "Beograd",
+     "address": "Omladinskih brigada broj 65v",
+     "phones": "011 7702663",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10836,
+     "unit": "Apoteka \"Laurus 14\"",
+     "place": "Beograd",
+     "address": "Omladinskih brigada broj 18b",
+     "phones": "069 1136909",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10837,
+     "unit": "Apoteka \"Laurus 17\"",
+     "place": "Beograd",
+     "address": "Paunova broj 34",
+     "phones": "066 8488449",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "apotekarska-ustanova-lirafarma-valjevo",
+   "name": "Apotekarska Ustanova \"Lirafarma\"",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 11124,
+     "unit": "Apoteka",
+     "place": "Valjevo",
+     "address": "Zanatski centar Kolubara 2",
+     "phones": "014 224402",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11125,
+     "unit": "Apoteka \"Lira-Ljig\"",
+     "place": "Ljig",
+     "address": "Karađorđeva 32",
+     "phones": "014 3443769",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11126,
+     "unit": "Apoteka \"Lira-Lajkovac\"",
+     "place": "Lajkovac",
+     "address": "Vladike Nikolaja 1",
+     "phones": "014 3433330",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11127,
+     "unit": "Apoteka \"Lira-Bulevar\"",
+     "place": "Beograd",
+     "address": "Bulevar kralja Aleksandra 318",
+     "phones": "011 3835456",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11128,
+     "unit": "Apoteka \"Lira-kod Vuka\"",
+     "place": "Valjevo",
+     "address": "Vuka Karadžića 39",
+     "phones": "014 220966",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11129,
+     "unit": "Apoteka \"Lira-Magistrala\"",
+     "place": "Valjevo",
+     "address": "Vladike Nikolaja 27",
+     "phones": "014 3513208",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11130,
+     "unit": "Apoteka \"Lira-Vračar\"",
+     "place": "Beograd",
+     "address": "Cara Nikolaja II,br. 30",
+     "phones": "011 3444515",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11131,
+     "unit": "Apoteka \"Lira-Ljig centar\"",
+     "place": "Ljig",
+     "address": "Vojvode Mišića br. 19",
+     "phones": "014 3443896",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11132,
+     "unit": "Apoteka \"Lira-Pantićeva\"",
+     "place": "Valjevo",
+     "address": "dr Pantića br.131A",
+     "phones": "014 3105297",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  }
+ ],
+ "id": "net-small-04"
+}

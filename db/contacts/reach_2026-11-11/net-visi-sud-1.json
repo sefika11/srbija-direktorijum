@@ -1,0 +1,20 @@
+[
+ {
+  "location_id": 43,
+  "hours": "pon-pet 07:30-15:30",
+  "source_url": "https://kv.vi.sud.rs/sekcija/89/radno-vreme.php",
+  "match": "address"
+ },
+ {
+  "location_id": 50,
+  "hours": "pon-pet 07:30-15:30",
+  "source_url": "http://pa.vi.sud.rs/Radnovreme.html",
+  "match": "address"
+ },
+ {
+  "location_id": 39,
+  "address": "Hajduk Veljkova 2, Zaječar",
+  "source_url": "https://za.vi.sud.rs/tekst/274/kontakt-podaci.php",
+  "match": "name"
+ }
+]

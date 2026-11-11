@@ -1,0 +1,460 @@
+{
+ "kind": "network",
+ "title": "Više javno tužilaštvo (25 organizacija)",
+ "type": "vise-javno-tuzilastvo",
+ "orgs": [
+  {
+   "org_slug": "vise-javno-tuzilastvo-u-beogradu-beograd",
+   "name": "Više javno tužilaštvo u Beogradu",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 194,
+     "unit": "Sedište",
+     "place": "Beograd",
+     "address": "Savska 17a",
+     "phones": "011 7451510",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "vise-javno-tuzilastvo-u-cacku-cacak",
+   "name": "Više javno tužilaštvo u Čačku",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 217,
+     "unit": "Sedište",
+     "place": "Čačak",
+     "address": "Cara Dušana 6",
+     "phones": "032 322269",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "vise-javno-tuzilastvo-u-jagodini-jagodina",
+   "name": "Više javno tužilaštvo u Jagodini",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 199,
+     "unit": "Sedište",
+     "place": "Jagodina",
+     "address": "Kneginje Milice 86",
+     "phones": "035 8221363",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "vise-javno-tuzilastvo-u-kragujevcu-kragujevac",
+   "name": "Više javno tužilaštvo u Kragujevcu",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 200,
+     "unit": "Sedište",
+     "place": "Kragujevac",
+     "address": "Trg vojvode Radomira Putnika 4",
+     "phones": "034 334425",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "vise-javno-tuzilastvo-u-kraljevu-kraljevo",
+   "name": "Više javno tužilaštvo u Kraljevu",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 201,
+     "unit": "Sedište",
+     "place": "Kraljevo",
+     "address": "Karađorđeva 5",
+     "phones": "036 314016",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "vise-javno-tuzilastvo-u-krusevcu-krusevac",
+   "name": "Više javno tužilaštvo u Kruševcu",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 202,
+     "unit": "Sedište",
+     "place": "Kruševac",
+     "address": "Trg kosovskih junaka 3",
+     "phones": "037 427503",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "vise-javno-tuzilastvo-u-leskovcu-leskovac",
+   "name": "Više javno tužilaštvo u Leskovcu",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 203,
+     "unit": "Sedište",
+     "place": "Leskovac",
+     "address": "Pana Đukića 13",
+     "phones": "016 253810",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "vise-javno-tuzilastvo-u-negotinu-negotin",
+   "name": "Više javno tužilaštvo u Negotinu",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 204,
+     "unit": "Sedište",
+     "place": "Negotin",
+     "address": "Trg Stevana Mokranjca 1",
+     "phones": "019 542364",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "vise-javno-tuzilastvo-u-nisu-nis",
+   "name": "Više javno tužilaštvo u Nišu",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 205,
+     "unit": "Sedište",
+     "place": "Niš",
+     "address": "Voždova 23",
+     "phones": "018 504175",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "vise-javno-tuzilastvo-u-novom-pazaru-novi-pazar",
+   "name": "Više javno tužilaštvo u Novom Pazaru",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 206,
+     "unit": "Sedište",
+     "place": "Novi Pazar",
+     "address": "Žitni trg bb",
+     "phones": "020 313983",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "vise-javno-tuzilastvo-u-novom-sadu-novi-sad",
+   "name": "Više javno tužilaštvo u Novom Sadu",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 207,
+     "unit": "Sedište",
+     "place": "Novi Sad",
+     "address": "Sutjeska 3",
+     "phones": "021 4876444",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "vise-javno-tuzilastvo-u-pancevu-pancevo",
+   "name": "Više javno tužilaštvo u Pančevu",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 208,
+     "unit": "Sedište",
+     "place": "Pančevo",
+     "address": "Vojvode Radomira Putnika 13",
+     "phones": "013 345482",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "vise-javno-tuzilastvo-u-pirotu-pirot",
+   "name": "Više javno tužilaštvo u Pirotu",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 209,
+     "unit": "Sedište",
+     "place": "Pirot",
+     "address": "Srpskih vladara 126a",
+     "phones": "010 322441",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "vise-javno-tuzilastvo-u-pozarevcu-pozarevac",
+   "name": "Više javno tužilaštvo u Požarevcu",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 210,
+     "unit": "Sedište",
+     "place": "Požarevac",
+     "address": "Jovana Šerbanovića 4",
+     "phones": "012 523789",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "vise-javno-tuzilastvo-u-prokuplju-prokuplje",
+   "name": "Više javno tužilaštvo u Prokuplju",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 211,
+     "unit": "Sedište",
+     "place": "Prokuplje",
+     "address": "21 srpske divizije 1, 18400 Prokuplje",
+     "phones": "027 321612",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "vise-javno-tuzilastvo-u-sapcu-sabac",
+   "name": "Više javno tužilaštvo u Šapcu",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 218,
+     "unit": "Sedište",
+     "place": "Šabac",
+     "address": "Gospodar Jevremova 8",
+     "phones": "015 304916",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "vise-javno-tuzilastvo-u-smederevu-smederevo",
+   "name": "Više javno tužilaštvo u Smederevu",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 212,
+     "unit": "Sedište",
+     "place": "Smederevo",
+     "address": "Trg Republike 2",
+     "phones": "026 621514",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "vise-javno-tuzilastvo-u-somboru-sombor",
+   "name": "Više javno tužilaštvo u Somboru",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 213,
+     "unit": "Sedište",
+     "place": "Sombor",
+     "address": "Njegoševa 4",
+     "phones": "025 412271",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "vise-javno-tuzilastvo-u-sremskoj-mitrovici-sremska-mitrovica",
+   "name": "Više javno tužilaštvo u Sremskoj Mitrovici",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 214,
+     "unit": "Sedište",
+     "place": "Sremska Mitrovica",
+     "address": "Svetog Dimitrija 39",
+     "phones": "022 600161",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "vise-javno-tuzilastvo-u-subotici-subotica",
+   "name": "Više javno tužilaštvo u Subotici",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 215,
+     "unit": "Sedište",
+     "place": "Subotica",
+     "address": "Senćanski put 1",
+     "phones": "024 524449",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "vise-javno-tuzilastvo-u-uzicu-uzice",
+   "name": "Više javno tužilaštvo u Užicu",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 216,
+     "unit": "Sedište",
+     "place": "Užice",
+     "address": "Nade Matić 6",
+     "phones": "031 513257",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "vise-javno-tuzilastvo-u-valjevu-valjevo",
+   "name": "Više javno tužilaštvo u Valjevu",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 195,
+     "unit": "Sedište",
+     "place": "Valjevo",
+     "address": "Vuka Karadžića 5",
+     "phones": "014 291750",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "vise-javno-tuzilastvo-u-vranju-vranje",
+   "name": "Više javno tužilaštvo u Vranju",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 196,
+     "unit": "Sedište",
+     "place": "Vranje",
+     "address": "Stefana Prvovenčanog 1",
+     "phones": "017 422133",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "vise-javno-tuzilastvo-u-zajecaru-zajecar",
+   "name": "Više javno tužilaštvo u Zaječaru",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 197,
+     "unit": "Sedište",
+     "place": "Zaječar",
+     "address": "Generala Gambete bb",
+     "phones": "019 442180",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "vise-javno-tuzilastvo-u-zrenjaninu-zrenjanin",
+   "name": "Više javno tužilaštvo u Zrenjaninu",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 198,
+     "unit": "Sedište",
+     "place": "Zrenjanin",
+     "address": "Kej 2",
+     "phones": "023 563684",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  }
+ ],
+ "id": "net-vise-javno-tuzilastvo-1"
+}

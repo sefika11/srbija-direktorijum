@@ -1,0 +1,1211 @@
+{
+ "kind": "network",
+ "title": "Dom zdravlja \"Savski Venac\"",
+ "type": "dom-zdravlja",
+ "orgs": [
+  {
+   "org_slug": "dom-zdravlja-savski-venac-beograd",
+   "name": "Dom zdravlja \"Savski Venac\"",
+   "website": "http://www.dzsvenac.rs",
+   "rows": [
+    {
+     "location_id": 2477,
+     "unit": "Sedište",
+     "place": "Beograd",
+     "address": "Pasterova 1",
+     "phones": "011 2068800",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 19476,
+     "unit": "Ambulanta Borča",
+     "place": "Palilula",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 19497,
+     "unit": "Ambulanta Hitne pomoći",
+     "place": "Čukarica",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 19655,
+     "unit": "Ambulanta Borča III",
+     "place": "Palilula",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 19823,
+     "unit": "Institut za humanu genetiku",
+     "place": "Savski venac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 19825,
+     "unit": "Institut za fiziologiju",
+     "place": "Savski venac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 19842,
+     "unit": "Institut za anatomiju",
+     "place": "Savski venac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 19850,
+     "unit": "Ambulanta Dubrovačka",
+     "place": "Stari grad",
+     "address": "Dubrovačka 24",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 19896,
+     "unit": "DZ „Zemun” - ambulanta Nova Galenika",
+     "place": "Zemun",
+     "address": null,
+     "phones": "011 6197011",
+     "hours": "Mo-Fr 07:00-20:00; Sa 08:00-14:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 19945,
+     "unit": "MediGroup Dom zdravlja",
+     "place": "Novi Beograd",
+     "address": "Pariske komune 26",
+     "phones": null,
+     "hours": "Mo-Fr 07:00-21:00; Sa 08:00-17:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 20013,
+     "unit": "Dom zdravlja MediGroup Bulevar",
+     "place": "Zvezdara",
+     "address": "Bulevar kralja Aleksandra 294",
+     "phones": "011 4040100",
+     "hours": "Mo-Fr 07:00-21:00; Sa 08:00-17:00",
+     "need": []
+    },
+    {
+     "location_id": 20021,
+     "unit": "Dom zdravlja „Dr Ristić”",
+     "place": "Novi Beograd",
+     "address": "Narodnih heroja 38",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 20057,
+     "unit": "Institut za mikrobiologiju",
+     "place": "Savski venac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 20066,
+     "unit": "Ambulanta Čukarička padina",
+     "place": "Čukarica",
+     "address": "Stevana Đurđevića Trošarinca 3",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 20067,
+     "unit": "Zdravstvena stanica Banjica",
+     "place": "Voždovac",
+     "address": "Bulevar oslobođenja 92-94",
+     "phones": null,
+     "hours": "Mo-Fr 07:00-20:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 20069,
+     "unit": "Zdravstvena stanica „Stepa Stepanović”",
+     "place": "Voždovac",
+     "address": "Šumadijske divizije 10-14",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 20077,
+     "unit": "KBC Zvezdara - Bolnica za ginekologiju i akušerstvo",
+     "place": "Zvezdara",
+     "address": "Preševska",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 20095,
+     "unit": "Dom zdravlja „Jedro”",
+     "place": "Novi Beograd",
+     "address": null,
+     "phones": "011 4040100",
+     "hours": "Mo-Fr 07:00-21:00; Sa 08:00-17:00; Su off",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20097,
+     "unit": "Dom zdravlja „Vizim”",
+     "place": "Stari grad",
+     "address": "Knez Miletina 36",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 20124,
+     "unit": "Institut za medicinsku i kliničku biohemiju",
+     "place": "Savski venac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 20126,
+     "unit": "Dom zdravlja „Dr Ristić”",
+     "place": "Čukarica",
+     "address": "Visoka 16",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 20255,
+     "unit": "Zdravstvena stanica „Topličin venac”",
+     "place": "Stari grad",
+     "address": "Topličin venac 29",
+     "phones": "011 2635344",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 20275,
+     "unit": "Specijalna bolnica za endemsku nefropatiju",
+     "place": "Lazarevac",
+     "address": "Dr Đorđa Kovačevića 27",
+     "phones": "011 8120164; 011 8121882",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 21499,
+     "unit": "Dom Zdravlja Zvezdara - Ambulanta Dalmatinska",
+     "place": "Zvezdara",
+     "address": "Dalmatinska 104",
+     "phones": "011 2401660",
+     "hours": "Mo-Fr 07:00-20:00",
+     "need": []
+    },
+    {
+     "location_id": 21538,
+     "unit": "Zdravstvena stanica Severni bulevar",
+     "place": "Zvezdara",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 21641,
+     "unit": "Ambulanta Kotež",
+     "place": "Palilula",
+     "address": "Slavka Kolara 1B",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 21683,
+     "unit": "Ambulanta Zabrežje",
+     "place": "Obrenovac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 21800,
+     "unit": "KBC Zemun - Bolnica za onkologiju",
+     "place": "Zemun",
+     "address": "Gundulićeva 32a",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 21801,
+     "unit": "KBC Zemun - Bolnica za pedijatriju",
+     "place": "Zemun",
+     "address": "Gundulićeva 32",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 21970,
+     "unit": "Zdravstvena stanica „Bežanijska kosa”",
+     "place": "Novi Beograd",
+     "address": "Dr Teodora Borockog 15",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 21974,
+     "unit": "Zdravstvena stanica „Kumodraž I”",
+     "place": "Voždovac",
+     "address": "Vojvode Stepe 571",
+     "phones": "011 3948382",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 21975,
+     "unit": "Zdravstvena ambulanta „Kumodraž III”,",
+     "place": "Voždovac",
+     "address": "Stara 1",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 22010,
+     "unit": "Zavod za zdravstvenu zaštitu radnika ŽTP-a Beograd",
+     "place": "Savski venac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 22151,
+     "unit": "Školska ambulanta Banjica",
+     "place": "Voždovac",
+     "address": "Bulevar oslobođenja 92",
+     "phones": "011 3983850",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23698,
+     "unit": "Dom zdravlja „MediGrup Kalenić”",
+     "place": "Vračar",
+     "address": "Katanićeva 8",
+     "phones": "011 4040100",
+     "hours": "Mo-Fr 07:00-21:00; Sa 08:00-17:00; Su off",
+     "need": []
+    },
+    {
+     "location_id": 23751,
+     "unit": "Dom zdravlja „Dr Simo Milošević”",
+     "place": "Čukarica",
+     "address": "Požeška 82",
+     "phones": "011 3538481",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23771,
+     "unit": "Institut za patologiju",
+     "place": "Savski venac",
+     "address": "Dr Subotića starijeg 1",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23779,
+     "unit": "Gradski zavod za kožne i venerične bolesti",
+     "place": "Stari grad",
+     "address": "Džordža Vašingtona 17",
+     "phones": "011 3243626; 011 3238115",
+     "hours": "Mo-Fr 07:00-20:00; Sa 07:00-13:00",
+     "need": []
+    },
+    {
+     "location_id": 23810,
+     "unit": "Dom zdravlja Mladenovac",
+     "place": "Mladenovac",
+     "address": "Kraljice Marije 15",
+     "phones": "011 8241500",
+     "hours": "Mo-Fr 07:00-20:00; Sa-Su 07:00-18:00",
+     "need": []
+    },
+    {
+     "location_id": 23840,
+     "unit": "Dom zdravlja Zemun - Služba za zaštitu mentalnog zdravlja odraslih",
+     "place": "Zemun",
+     "address": "Lazara Savatića 3d",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23842,
+     "unit": "Dom zdravlja „Voždovac”",
+     "place": "Voždovac",
+     "address": "Ustanička 16",
+     "phones": "011 3080500; 011 3080520; 011 2443594; 011 2443761",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23844,
+     "unit": "Dom zdravlja Kanarevo Brdo",
+     "place": "Rakovica",
+     "address": "Srpskih udarnih brigada 6",
+     "phones": "011 3052000",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23891,
+     "unit": "Dom zdravlja Novi Beograd",
+     "place": "Novi Beograd",
+     "address": "Bulevar maršala Tolbuhina 30",
+     "phones": "011 2222100",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23899,
+     "unit": "Zdravstvena stanica „Vojvode Stepe”",
+     "place": "Voždovac",
+     "address": "Vojvode Stepe 226",
+     "phones": "011 2492113",
+     "hours": "Mo-Fr 07:00-20:00; Sa 07:00-18:00",
+     "need": []
+    },
+    {
+     "location_id": 23906,
+     "unit": "Dom zdravlja „Dr Milorad Vlajković”",
+     "place": "Barajevo",
+     "address": "Svetosavska 91",
+     "phones": "011 8300186",
+     "hours": "07:00-20:00",
+     "need": []
+    },
+    {
+     "location_id": 23926,
+     "unit": "Zavod za zdravstvenu zaštitu radnika MUP",
+     "place": "Savski venac",
+     "address": null,
+     "phones": "011 3615665; 011 3615684",
+     "hours": "Mo-Fr 07:00-19:00; Sa 07:00-13:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23938,
+     "unit": "Nacionalni Institut za srce i krvne sudove Dedinje",
+     "place": "Savski venac",
+     "address": "Heroja Milana Tepića 1",
+     "phones": "011 3601700; 011 3601714; 011 3601711",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23943,
+     "unit": "Dom zdravlja Sopot - Zdravstvena stanica Ralja",
+     "place": "Sopot",
+     "address": "Bate Mirkovića 17",
+     "phones": "011 8257025",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23947,
+     "unit": "Dom zdravlja Rakovica",
+     "place": "Rakovica",
+     "address": "Kraljice Jelene 22",
+     "phones": "011 3054400",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23948,
+     "unit": "Gradski zavod za hitnu medicinsku pomoć",
+     "place": "Savski venac",
+     "address": "Bulevar Franše d'Eperea 5",
+     "phones": "011 3615001; 011 3614690",
+     "hours": "24/7",
+     "need": []
+    },
+    {
+     "location_id": 23950,
+     "unit": "Institut za onkologiju i radiologiju",
+     "place": "Savski venac",
+     "address": "Pasterova 14",
+     "phones": "011 2067100",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23952,
+     "unit": "Institut za neonatologiju",
+     "place": "Savski venac",
+     "address": "Kralja Milutina 50",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23954,
+     "unit": "Dom zdravlja „Stari grad”",
+     "place": "Stari grad",
+     "address": null,
+     "phones": "011 3215600",
+     "hours": "Mo-Fr 07:00-20:00; Sa,Su 08:00-18:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23957,
+     "unit": "Institut za mentalno zdravlje",
+     "place": "Stari grad",
+     "address": "Milana Kašanina 3",
+     "phones": "011 3307500",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23958,
+     "unit": "Gradski zavod za javno zdravlje Beograd",
+     "place": "Stari grad",
+     "address": "Bulevar despota Stefana 54a",
+     "phones": "011 2078600; 011 2078601; 011 3237351",
+     "hours": "Mo-Fr 07:15-14:00; Sa 07:15-11:00",
+     "need": []
+    },
+    {
+     "location_id": 23959,
+     "unit": "Zavod za zdravstvenu zaštitu studenata",
+     "place": "Vračar",
+     "address": "Krunska 57",
+     "phones": "011 2442389",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23961,
+     "unit": "Dom zdravlja „Savski venac”",
+     "place": "Savski venac",
+     "address": "Pasterova 1",
+     "phones": "011 2068802",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23962,
+     "unit": "Institut za reumatologiju",
+     "place": "Savski venac",
+     "address": "Resavska 69",
+     "phones": "011 3600810",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23970,
+     "unit": "Dom zdravlja „Vračar”",
+     "place": "Vračar",
+     "address": "Velimira Bate Živojinovića 16",
+     "phones": "011 3402522",
+     "hours": "07:00-20:00",
+     "need": []
+    },
+    {
+     "location_id": 23971,
+     "unit": "Specijalna bolnica za urologiju UroAdria",
+     "place": "Savski venac",
+     "address": "Neznanog junaka 17",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23974,
+     "unit": "Ambulanta Savski venac",
+     "place": "Savski venac",
+     "address": "Koste Glavinića 3a",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23977,
+     "unit": "Specijalna bolnica za rehabilitaciju i ortopedsku protetiku",
+     "place": "Savski venac",
+     "address": "Bulevar vojvode Putnika 7",
+     "phones": "011 2650246; 011 2650963",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23982,
+     "unit": "Dom zdravlja Rakovica 2",
+     "place": "Rakovica",
+     "address": "Kraljice Jelene 11",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23985,
+     "unit": "Dom zdravlja Mirijevo",
+     "place": "Zvezdara",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23987,
+     "unit": "Dom zdravlja Zemun",
+     "place": "Zemun",
+     "address": "Rade Končara 46",
+     "phones": "011 2195422",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23988,
+     "unit": "Dom zdravlja Zvezdara",
+     "place": "Zvezdara",
+     "address": "Olge Jovanović 11",
+     "phones": "011 3041400",
+     "hours": "Mo-Fr 07:00-20:00; Sa 08:00-18:00",
+     "need": []
+    },
+    {
+     "location_id": 23999,
+     "unit": "Zdravstvena ambulanta „Kumodraž II”",
+     "place": "Voždovac",
+     "address": "Bulevar Peka Dapčevića 128",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 24003,
+     "unit": "Ambulanta Kotež",
+     "place": "Palilula",
+     "address": "Slavka Kolara 1b",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 24014,
+     "unit": "Dnevna bolnica „Dr Laza Lazarević”",
+     "place": "Savski venac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 24017,
+     "unit": "Hitna pomoć Ada Ciganlija",
+     "place": "Čukarica",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 24019,
+     "unit": "Dom zdravlja Vranić",
+     "place": "Barajevo",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 24034,
+     "unit": "Dom zdravlja Zemun - Ambulanta Kamendin",
+     "place": "Zemun",
+     "address": "Elija Fincija 2",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 24046,
+     "unit": "Dom zdravlja Novi Beograd - Blok 44",
+     "place": "Novi Beograd",
+     "address": "Nehruova 53",
+     "phones": "011 2095200",
+     "hours": "Mo-Fr 07:00-20:00; Sa-Su 08:00-18:00",
+     "need": []
+    },
+    {
+     "location_id": 24062,
+     "unit": "Zdravstvena Stanica Mali Mokri Lug",
+     "place": "Zvezdara",
+     "address": "Bosanska 29",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 24103,
+     "unit": "Ambulanta Rušanj",
+     "place": "Čukarica",
+     "address": "Trinaestog septembra 15a",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 24104,
+     "unit": "Zdravstvena stanica Sremčica",
+     "place": "Čukarica",
+     "address": "Beogradska 150",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 24105,
+     "unit": "Zdravstvena stanica Umka",
+     "place": "Čukarica",
+     "address": "Ilije Babića 9",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 24107,
+     "unit": "Ambulanta Velika Moštanica",
+     "place": "Čukarica",
+     "address": "Desetog oktobra 2",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 24110,
+     "unit": "Ambulanta Veliko Selo",
+     "place": "Palilula",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 24118,
+     "unit": "Dom zdravlja „Dr Simo Milošević” - ogranak Železnik",
+     "place": "Čukarica",
+     "address": "Titova 10",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 24135,
+     "unit": "Zdravstvena stanica „Ledine”",
+     "place": "Novi Beograd",
+     "address": "Rumska 2a",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 24138,
+     "unit": "Zdravstvena stanica Kaluđerica",
+     "place": "Grocka",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 24147,
+     "unit": "Zdravstvena stanica Ugrinovci",
+     "place": "Zemun",
+     "address": "Učitelja Cveje 1",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 24156,
+     "unit": "Dom zdravlja Grocka",
+     "place": "Grocka",
+     "address": "Srpsko-grčkog prijateljstva 17",
+     "phones": "011 8501661",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 24161,
+     "unit": "Dom zdravlja Dr Milutin Ivković - Karaburma",
+     "place": "Palilula",
+     "address": "Pana Đukića",
+     "phones": "011 2771172; 011 2772422; 011 2771930",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 24162,
+     "unit": "Dom zdravlja Dr Milutin Ivković - Zdravstvena stanica Krnjača",
+     "place": "Palilula",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 24163,
+     "unit": "Dom zdravlja „Dr Milutin Ivković” Palilula",
+     "place": "Palilula",
+     "address": "Kneza Danila 16",
+     "phones": "011 3224321",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 24169,
+     "unit": "Zdravstvena stanica „Labudovo brdo”",
+     "place": "Rakovica",
+     "address": "Oplenačka 40",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 24174,
+     "unit": "Ambulanta Veliki Crljeni",
+     "place": "Lazarevac",
+     "address": "Trećeg oktobra 148",
+     "phones": null,
+     "hours": "24/7",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 24179,
+     "unit": "Dom zdravlja Zemun - Ambulanta Boljevci",
+     "place": "Surčin",
+     "address": "Braće Veselinović 4",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 24209,
+     "unit": "Dom zdravlja Obrenovac",
+     "place": "Obrenovac",
+     "address": null,
+     "phones": "011 8721008",
+     "hours": "Mo-Fr 07:00-20:00; Sa-Su 08:00-18:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 24213,
+     "unit": "Institut za rehabilitaciju",
+     "place": "Savski venac",
+     "address": "Sokobanjska 17",
+     "phones": "011 2660266",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 24216,
+     "unit": "Dom zdravlja Surčin",
+     "place": "Surčin",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 24309,
+     "unit": "Dom zdravlja Voždovac – zdravstvena stanica „Jova Ilić”",
+     "place": "Voždovac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 24311,
+     "unit": "Ambulanta Savski venac",
+     "place": "Savski venac",
+     "address": "Dragana Sakana 1",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 24317,
+     "unit": "Dom zdravlja Resnik",
+     "place": "Rakovica",
+     "address": "Edvarda Griga 18",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 24327,
+     "unit": "Specijalna bolnica za internet bolesti Lazarevac",
+     "place": "Mladenovac",
+     "address": "Vojvode Mišića 2",
+     "phones": "011 8231988",
+     "hours": "24/7",
+     "need": []
+    },
+    {
+     "location_id": 24341,
+     "unit": "Dom zdravlja Sopot",
+     "place": "Sopot",
+     "address": "Jelice Milovanović 14",
+     "phones": "011 8251282",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 24393,
+     "unit": "Zdravstvena stanica „Borča”",
+     "place": "Palilula",
+     "address": "Koste Manojlovića 6",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 24436,
+     "unit": "Dom zdravlja Batajnica",
+     "place": "Zemun",
+     "address": "Jovana Brankovića 1",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 24437,
+     "unit": "Gradski zavod za plućne bolesti i tuberkulozu - odeljenje Zemun",
+     "place": "Zemun",
+     "address": "Cara Dušana 178",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 24445,
+     "unit": "Zdravstvena stanica Jajinci",
+     "place": "Voždovac",
+     "address": "Bulevar JNA 86",
+     "phones": "011 3940203",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 24446,
+     "unit": "Dom zdravlja „Šumice”",
+     "place": "Voždovac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 24458,
+     "unit": "Specijalna bolnica za bolesti zavisnosti",
+     "place": "Savski venac",
+     "address": "Teodora Drajzera 44",
+     "phones": "011 3671429; 011 2662727",
+     "hours": "Mo-Fr 07:00-20:00; Sa 07:00-14:00",
+     "need": []
+    }
+   ]
+  }
+ ],
+ "id": "net-dom-zdravlja-savski-venac-beograd"
+}

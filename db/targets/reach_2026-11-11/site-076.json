@@ -1,0 +1,393 @@
+{
+ "kind": "sites",
+ "title": "Institucije sa sopstvenim sajtom",
+ "rows": [
+  {
+   "org_slug": "srednja-poljoprivredna-skola-zrenjanin-zrenjanin",
+   "name": "Srednja poljoprivredna škola Zrenjanin",
+   "type": "Srednja škola / Gimnazija",
+   "place": "Zrenjanin",
+   "website": "http://www.zrpoljoprivredna.edu.rs/",
+   "mb": "08069204",
+   "have": {
+    "address": "Makedonska 2",
+    "phones": "023 562519",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "tehnicka-skola-zrenjanin-zrenjanin",
+   "name": "Tehnička škola Zrenjanin",
+   "type": "Srednja škola / Gimnazija",
+   "place": "Zrenjanin",
+   "website": "http://www.tehnickazr.edu.rs/",
+   "mb": "08069212",
+   "have": {
+    "address": "Stevice Jovanovića 50",
+    "phones": "023 561277",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "zrenjaninska-gimnazija-zrenjanin",
+   "name": "Zrenjaninska gimnazija",
+   "type": "Srednja škola / Gimnazija",
+   "place": "Zrenjanin",
+   "website": "http://www.zrenjaninskagimnazija.edu.rs/",
+   "mb": "08069107",
+   "have": {
+    "address": "Gimnazijska 2",
+    "phones": "023 566022",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "gimnazija-u-cupriji-cuprija",
+   "name": "Gimnazija u Ćupriji",
+   "type": "Srednja škola / Gimnazija",
+   "place": "Ćuprija",
+   "website": "https://gimnazija.cuprija.edu.rs",
+   "mb": "07166877",
+   "have": {
+    "address": "Karađorđeva 57",
+    "phones": "035 8470622",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "medicinska-skola-cuprija-cuprija",
+   "name": "Medicinska škola Ćuprija",
+   "type": "Srednja škola / Gimnazija",
+   "place": "Ćuprija",
+   "website": "https://medicinskaskola.cuprija.edu.rs",
+   "mb": "07166940",
+   "have": {
+    "address": "Rade Končara 3",
+    "phones": "035 8470030",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "tehnicka-skola-cuprija-cuprija",
+   "name": "Tehnička škola Ćuprija",
+   "type": "Srednja škola / Gimnazija",
+   "place": "Ćuprija",
+   "website": "https://tehnickaskola.cuprija.edu.rs/",
+   "mb": "07166907",
+   "have": {
+    "address": "Kneza Miloša bb",
+    "phones": "035 8472466",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "gimnazija-sava-sumanovic-sid",
+   "name": "Gimnazija \"Sava Šumanović\"",
+   "type": "Srednja škola / Gimnazija",
+   "place": "Šid",
+   "website": "https://gimnazijasid.edu.rs",
+   "mb": "08215618",
+   "have": {
+    "address": "Laze Kostić 2",
+    "phones": "022 712529; 022 715768; 022 715520",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dental-studio-milosevic-nis-n10009204816",
+   "name": "Dental studio Milošević",
+   "type": "Stomatološka ordinacija",
+   "place": "Medijana",
+   "website": "https://www.studiomilosevic.rs/",
+   "mb": null,
+   "have": {
+    "address": "Bulevar dr Zorana Đinđića 42b",
+    "phones": "063 661162",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "abdental-beograd-n7728616750",
+   "name": "AbDental",
+   "type": "Stomatološka ordinacija",
+   "place": "Novi Beograd",
+   "website": "https://abdental.rs",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "069 3180628",
+    "hours": "Mo-Fr 10:00-20:00; Sa 09:00-13:00; Su off"
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "bobic-novi-sad-n3025256084",
+   "name": "Bobić",
+   "type": "Stomatološka ordinacija",
+   "place": "Novi Sad",
+   "website": "https://dentalbobic.com/",
+   "mb": null,
+   "have": {
+    "address": "Koste Abraševića 44",
+    "phones": "063 8217839",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "in-dental-novi-sad-n14079970921",
+   "name": "In Dental",
+   "type": "Stomatološka ordinacija",
+   "place": "Novi Sad",
+   "website": "https://indental.rs",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "060 5005031",
+    "hours": "Mo-Fr 08:00-20:00"
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "komnenovic-novi-sad-n8021950886",
+   "name": "Komnenović",
+   "type": "Stomatološka ordinacija",
+   "place": "Novi Sad",
+   "website": "http://stomatolognovisad-komnenovic.in.rs/",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "065 4525755",
+    "hours": "Mo-Fr 12:00-20:00"
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "pro-dental-solution-novi-sad-n11764075043",
+   "name": "Pro Dental Solution",
+   "type": "Stomatološka ordinacija",
+   "place": "Novi Sad",
+   "website": "https://prodentalsolutions.rs/",
+   "mb": null,
+   "have": {
+    "address": "Petefi Šandora 57",
+    "phones": "069 1003030",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "prosmile-novi-sad-n12566588564",
+   "name": "Prosmile",
+   "type": "Stomatološka ordinacija",
+   "place": "Novi Sad",
+   "website": "https://prosmile.rs/",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "063 658637",
+    "hours": "Mo-Fr 08:00-20:00"
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "vermia-dent-novi-sad-n6234270048",
+   "name": "Vermia Dent",
+   "type": "Stomatološka ordinacija",
+   "place": "Novi Sad",
+   "website": "https://vermiadent.com/",
+   "mb": null,
+   "have": {
+    "address": "Petra Drapšina 34",
+    "phones": "021 31035",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "novodent-beograd-n12108801219",
+   "name": "Novodent",
+   "type": "Stomatološka ordinacija",
+   "place": "Palilula",
+   "website": "https://www.novodent.rs",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "011 3318043; 064 1899099",
+    "hours": "Mo-Fr 09:00-21:00; Sa 10:00-20:00"
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "dr-djukic-prokuplje-w972746656",
+   "name": "Dr Đukić",
+   "type": "Stomatološka ordinacija",
+   "place": "Prokuplje",
+   "website": "http://drdjukic.co.rs",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "027 322120",
+    "hours": "Mo-Fr 09:00-13:00, 17:00-20:00; Sa 09:00-13:00"
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "nikodijevic-sokobanja-n8327764012",
+   "name": "Nikodijević",
+   "type": "Stomatološka ordinacija",
+   "place": "Sokobanja",
+   "website": "https://www.stomatologija-nikodijevic.com/",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "018 884700; 063 558336",
+    "hours": "Mo-Sa 08:00-20:00"
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "dr-marjanov-stomatoloska-ordinacija-srbobran-n13974182701",
+   "name": "Dr Marjanov - stomatološka ordinacija",
+   "type": "Stomatološka ordinacija",
+   "place": "Srbobran",
+   "website": "https://drmarjanov.com",
+   "mb": null,
+   "have": {
+    "address": "Karađorđeva 37",
+    "phones": "060 6735226",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "new-dental-svilajnac-n14004345576",
+   "name": "New dental",
+   "type": "Stomatološka ordinacija",
+   "place": "Svilajnac",
+   "website": "https://newdental.rs/",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "064 9103894",
+    "hours": "Mo-Fr 09:00-20:00; Sa 08:00-14:00"
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "2m-ortho-studio-beograd-n13021436690",
+   "name": "2m Ortho Studio",
+   "type": "Stomatološka ordinacija",
+   "place": "Vračar",
+   "website": "https://2morthostudio.rs/",
+   "mb": null,
+   "have": {
+    "address": "Mutapova 32",
+    "phones": "065 8608646",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dr-zoran-aleksic-beograd-n13134566960",
+   "name": "Dr Zoran Aleksić",
+   "type": "Stomatološka ordinacija",
+   "place": "Vračar",
+   "website": "https://dentista-economico.com",
+   "mb": null,
+   "have": {
+    "address": "Molerova 47",
+    "phones": "064 1104082",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "snimanje-zuba-beograd-n11446255952",
+   "name": "Snimanje zuba",
+   "type": "Stomatološka ordinacija",
+   "place": "Vračar",
+   "website": "https://www.snimanjezubabeograd.rs",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": "Mo-Fr 08:00-20:00; Sa 09:00-16:00"
+   },
+   "need": [
+    "address",
+    "phones"
+   ]
+  },
+  {
+   "org_slug": "jgo-stomatoloska-ordinacija-beograd-n11288752494",
+   "name": "JGO stomatološka ordinacija",
+   "type": "Stomatološka ordinacija",
+   "place": "Zemun",
+   "website": "https://maps.app.goo.gl/cj2bdaGx5yQdaaic6",
+   "mb": null,
+   "have": {
+    "address": "Magistratski trg 3r",
+    "phones": "066 5705696",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  }
+ ],
+ "id": "site-076"
+}

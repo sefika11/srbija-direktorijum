@@ -1,0 +1,666 @@
+{
+ "kind": "network",
+ "title": "Manje mreže",
+ "type": "mixed",
+ "orgs": [
+  {
+   "org_slug": "dom-zdravlja-novi-sad-novi-sad",
+   "name": "Dom zdravlja \"Novi Sad\"",
+   "website": "https://dzns.rs",
+   "rows": [
+    {
+     "location_id": 2544,
+     "unit": "Sedište",
+     "place": "Novi Sad",
+     "address": "Bulevar cara Lazara 75",
+     "phones": "021 4879000",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 19847,
+     "unit": "Dom zdravlja Stepanovićevo",
+     "place": "Novi Sad",
+     "address": "Vojvode Putnika 16",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 19925,
+     "unit": "Dom zdravlja „Bulevar”",
+     "place": "Novi Sad",
+     "address": "Bulevar Mihajla Pupina 23",
+     "phones": "021 4879520",
+     "hours": "Mo-Fr 07:00-20:00",
+     "need": []
+    },
+    {
+     "location_id": 20084,
+     "unit": "Dom zdravlja Medigrup dr Cvjetković",
+     "place": "Novi Sad",
+     "address": "Balzakova 44",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 22503,
+     "unit": "Dom Zdravlja „Vizim”",
+     "place": "Novi Sad",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Sa 09:00-21:00",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 22858,
+     "unit": "Ginekološka bolnica Gins",
+     "place": "Novi Sad",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Su 08:00-20:00",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 23761,
+     "unit": "Pasterov zavod",
+     "place": "Novi Sad",
+     "address": "Hajduk Veljkova 1",
+     "phones": "021 6611003; 021 420528",
+     "hours": "Mo-Fr 07:00-15:00",
+     "need": []
+    },
+    {
+     "location_id": 23763,
+     "unit": "Institut za toksikologiju i molekularnu genetiku",
+     "place": "Novi Sad",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23766,
+     "unit": "Institut za zdravstvenu zaštitu dece i omladine Vojvodine",
+     "place": "Novi Sad",
+     "address": "Hajduk Veljkova 10",
+     "phones": "021 4880444",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23786,
+     "unit": "Dom zdravlja Novi Sad",
+     "place": "Novi Sad",
+     "address": "Bulevar cara Lazara 75",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23788,
+     "unit": "Dom zdravlja Novi Sad",
+     "place": "Novi Sad",
+     "address": "Bulevar cara Lazara 75",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23789,
+     "unit": "Ambulanta „Detelinara”",
+     "place": "Novi Sad",
+     "address": "Tarasa Ševčenka 1",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23818,
+     "unit": "Dom zdravlja „Bulevar”",
+     "place": "Novi Sad",
+     "address": "Bulevar Mihajla Pupina 23",
+     "phones": "021 4879520",
+     "hours": "Mo-Fr 07:00-20:00",
+     "need": []
+    },
+    {
+     "location_id": 23826,
+     "unit": "Zavod za zdravstvenu zaštitu studenata Novi Sad",
+     "place": "Novi Sad",
+     "address": "Dr Sime Miloševića 6",
+     "phones": "021 4870571; 021 4870555",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23861,
+     "unit": "Dom zdravlja „Novo Naselje”",
+     "place": "Novi Sad",
+     "address": "Bulevar Slobodana Jovanovića 9",
+     "phones": null,
+     "hours": "Mo-Fr 07:00-20:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 23884,
+     "unit": "Specijalna bolnica Vita",
+     "place": "Novi Sad",
+     "address": "Aleksandra Tišme 7",
+     "phones": null,
+     "hours": "Mo-Fr 08:00-20:00; Sa-Su 09:00-15:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 23889,
+     "unit": "Dom zdravlja „Vršačka”",
+     "place": "Novi Sad",
+     "address": "Vršačka 28",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23903,
+     "unit": "Zavod za hitnu medicinsku pomoć Novi Sad",
+     "place": "Novi Sad",
+     "address": "Bulevar patrijarha Pavla 26a",
+     "phones": "021 6400125; 021 2156310",
+     "hours": "24/7",
+     "need": []
+    },
+    {
+     "location_id": 23904,
+     "unit": "Dom zdravlja Petrovaradin",
+     "place": "Novi Sad",
+     "address": "Jože Vlahovića 8",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23921,
+     "unit": "Dom zdravlja Šangaj",
+     "place": "Novi Sad",
+     "address": "Ulica VIII 4",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23923,
+     "unit": "Dom zdravlja „Klisa”",
+     "place": "Novi Sad",
+     "address": "Sentandrejski put 100",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 24345,
+     "unit": "Dom zdravlja Adice",
+     "place": "Novi Sad",
+     "address": "Smederevska 3",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 24403,
+     "unit": "Dom zdravlja Futog",
+     "place": "Novi Sad",
+     "address": "Proleterska 1",
+     "phones": null,
+     "hours": "Mo-Fr 07:00-20:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 24451,
+     "unit": "Dom zdravlja",
+     "place": "Novi Sad",
+     "address": "Vojvode Putnika 5",
+     "phones": "021 4879000",
+     "hours": "Mo-Fr 07:00-20:00",
+     "need": []
+    },
+    {
+     "location_id": 24465,
+     "unit": "Dom zdravlja Klisa",
+     "place": "Novi Sad",
+     "address": "Aleksandra Nevskog 9",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 24477,
+     "unit": "Dom zdravlja „Jovan Jovanović Zmaj”",
+     "place": "Novi Sad",
+     "address": "Zmaj Ognjena Vuka 19",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 24502,
+     "unit": "Institut za javno zdravlje Vojvodine",
+     "place": "Novi Sad",
+     "address": "Futoška 121",
+     "phones": "021 4897800",
+     "hours": "Mo-Fr 06:30-20:00",
+     "need": []
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-pancevo-pancevo",
+   "name": "Dom zdravlja Pančevo",
+   "website": "https://www.dzpancevo.org",
+   "rows": [
+    {
+     "location_id": 2728,
+     "unit": "Sedište",
+     "place": "Pančevo",
+     "address": "Miloša Obrenovića 2",
+     "phones": "013 331245; 013 317901",
+     "hours": "Понедељак–Петак 07 - 20; Субота нерадни дан; Недеља нерадни дан",
+     "need": []
+    },
+    {
+     "location_id": 19720,
+     "unit": "Ambulanta Strelište",
+     "place": "Pančevo",
+     "address": "Milutina Bojića",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 20336,
+     "unit": "Ambulanta Novi svet",
+     "place": "Pančevo",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Fr 07:00-20:00",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 20337,
+     "unit": "Ambulanta Gornji grad",
+     "place": "Pančevo",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 20338,
+     "unit": "Ambulanta Donji grad",
+     "place": "Pančevo",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 20339,
+     "unit": "Ambulanta Vojlovica",
+     "place": "Pančevo",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 20501,
+     "unit": "Ambulanta Ivanovo",
+     "place": "Pančevo",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 20502,
+     "unit": "Ambulanta Jabuka",
+     "place": "Pančevo",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 20524,
+     "unit": "Ambulanta Omoljica",
+     "place": "Pančevo",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 20545,
+     "unit": "Ambulanta Glogonj",
+     "place": "Pančevo",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 21539,
+     "unit": "Ambulanta Mladost",
+     "place": "Pančevo",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 21591,
+     "unit": "Dom zdravlja Pančevo",
+     "place": "Pančevo",
+     "address": null,
+     "phones": "013 317901",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 21654,
+     "unit": "Ambulanta Banatski Brestovac",
+     "place": "Pančevo",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Fr 07:00-20:00",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 23939,
+     "unit": "Dom zdravlja",
+     "place": "Pančevo",
+     "address": "Vuka Karadžića 44d",
+     "phones": "013 615095",
+     "hours": "Mo-Sa 07:00-20:00; Sa 07:00-13:00; Su 07:00-12:00",
+     "need": []
+    },
+    {
+     "location_id": 24050,
+     "unit": "Zavod za javno zdravlje",
+     "place": "Pančevo",
+     "address": "Miloša Obrenovića 2",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 24399,
+     "unit": "Ambulanta Dolovo",
+     "place": "Pančevo",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-subotica-subotica",
+   "name": "Dom zdravlja Subotica",
+   "website": "http://domzdravlja.org.rs",
+   "rows": [
+    {
+     "location_id": 2711,
+     "unit": "Sedište",
+     "place": "Subotica",
+     "address": "Petefi Šandora 7",
+     "phones": "024 600735",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 19566,
+     "unit": "Dom zdravlja",
+     "place": "Subotica",
+     "address": "Beogradska 30",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 21612,
+     "unit": "Ambulanta 5",
+     "place": "Subotica",
+     "address": "Zmaj Jovina 29",
+     "phones": "024 571735; 065 9155538",
+     "hours": "Mo-Fr 07:00-20:00; Sa[2],Sa[4] 07:00-14:00; PH off",
+     "need": []
+    },
+    {
+     "location_id": 21613,
+     "unit": "Ambulanta 2",
+     "place": "Subotica",
+     "address": "Beogradski put 45",
+     "phones": "024 552587; 065 9155535",
+     "hours": "Mo-Fr 07:00-20:00; Sa[2],Sa[4] 07:00-14:00; PH off",
+     "need": []
+    },
+    {
+     "location_id": 21614,
+     "unit": "Ambulanta 1",
+     "place": "Subotica",
+     "address": "Evgenija Kumičića 4",
+     "phones": "024 527956; 065 9155534",
+     "hours": "Mo-Fr 07:00-20:00; Sa[1],Sa[3] 07:00-14:00; PH off",
+     "need": []
+    },
+    {
+     "location_id": 21615,
+     "unit": "Ambulanta 7",
+     "place": "Subotica",
+     "address": "Harambašićeva 2",
+     "phones": "024 558265; 065 9185585",
+     "hours": "Mo-Fr 07:00-20:00; Sa 07:00-14:00; PH off",
+     "need": []
+    },
+    {
+     "location_id": 21616,
+     "unit": "Ambulanta 8",
+     "place": "Subotica",
+     "address": "Aksentija Marodića",
+     "phones": "024 567356; 065 9155540",
+     "hours": "Mo-Fr 07:00-20:00; Sa[1],Sa[3] 07:00-14:00; PH off",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 21617,
+     "unit": "Ambulanta 4",
+     "place": "Subotica",
+     "address": null,
+     "phones": "024 557154; 065 9155537",
+     "hours": "Mo-Fr 07:00-20:00; Sa 07:00-14:00; PH off",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 21618,
+     "unit": "Ambulanta 3",
+     "place": "Subotica",
+     "address": "Ruđera Boškovića 22",
+     "phones": "024 4562656; 065 9155536",
+     "hours": "Mo-Fr 07:00-20:00; Sa 07:00-14:00; PH off; 2025 closed",
+     "need": []
+    },
+    {
+     "location_id": 22198,
+     "unit": "Ambulanta Prozivka",
+     "place": "Subotica",
+     "address": "Pazinska 4b",
+     "phones": "024 4102215; 065 9185588",
+     "hours": "Mo-Fr 07:00-20:00; Sa 07:00-14:00; PH off",
+     "need": []
+    },
+    {
+     "location_id": 23772,
+     "unit": "Zavod za javno zdravlje „Subotica”",
+     "place": "Subotica",
+     "address": "Zmaj Jovina 30",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 24376,
+     "unit": "Dom zdravlja „Subotica”",
+     "place": "Subotica",
+     "address": "Šandora Petefija 7",
+     "phones": "024 600735",
+     "hours": "Mo-Fr 07:00-14:00; PH off",
+     "need": []
+    },
+    {
+     "location_id": 24415,
+     "unit": "Ambulanta 6",
+     "place": "Subotica",
+     "address": "Segedinski put 42",
+     "phones": "024 546237; 065 9155539",
+     "hours": "Mo-Fr 07:00-20:00; Sa 07:00-14:00; PH off",
+     "need": []
+    },
+    {
+     "location_id": 24493,
+     "unit": "Ambulanta Palić",
+     "place": "Subotica",
+     "address": "Bohinjska 7",
+     "phones": null,
+     "hours": "Mo 13:00-19:00; Tu 07:00-13:00; We 13:00-19:00; Th 07:00-20:00; Fr 07:00-13:00; Sa 07:00-14:00; Su off",
+     "need": [
+      "phones"
+     ]
+    }
+   ]
+  }
+ ],
+ "id": "net-small-12"
+}

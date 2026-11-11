@@ -1,0 +1,990 @@
+{
+"net-apotekarska-ustanova-lilly-drogerie-beograd": {
+"id": "net-apotekarska-ustanova-lilly-drogerie-beograd",
+"rows_written": 0,
+"extra_written": 0,
+"notes": "The organisation's website was null in the target file. The likely official site, lilly.rs, returned a Cloudflare \"Attention Required\" block (HTTP 403) on every page I tried. I did not work around it, per the rules, and no other official source was checked. Both output files are empty arrays.",
+"official_site": "https://lilly.rs"
+},
+"net-apotekarska-ustanova-dr-max-beograd": {
+"id": "net-apotekarska-ustanova-dr-max-beograd",
+"rows_written": 0,
+"extra_written": 0,
+"official_site": "https://www.drmax.rs",
+"notes": "drmax.rs returns a Cloudflare \"Just a moment\" challenge (HTTP 403) to both curl and WebFetch, including the pages /apoteke, /sitemap.xml and the home page. Bypassing a bot check is not allowed, so I read no official branch data and wrote [] to both output files."
+},
+"net-apotekarska-ustanova-benu-beograd": {
+"id": "net-apotekarska-ustanova-benu-beograd",
+"rows_written": 0,
+"extra_written": 0,
+"official_site": "https://benu.rs",
+"notes": "The official branch list (benu.rs/benu-apoteke-radno-vreme-adrese-i-telefoni) returns HTTP 403 with a \"check that you are human\" page to both curl and WebFetch. The rules forbid bypassing bot detection, so I wrote nothing and left both output files as []."
+},
+"reg-education": {
+"id": "reg-education",
+"rows_written": 0,
+"notes": "No official bulk source with school contacts found; wrote []. 0 of 25 samples matched. Checked:\n- opendata.mpn.gov.rs home and the osnovno/srednje/predskolsko/odraslih pages: they link only to Power BI embeds and no data endpoints.\n- data.gov.rs organisation \"Ministarstvo prosvete\": 30 datasets, all opendata.mpn.gov.rs/srv/{Oo,So,PO,Vs,DO}/... JSON. The contact datasets (kontaktPodaciJSON) hold only owner type, district, municipality, maticniBroj, PIB, place, start date and name. PodaciOLOPJSON holds the location name, street, and room and area counts. The other datasets cover curricula, classes, staff counts, languages, students and tuition. None has phone, e-mail or website.\n- data.gov.rs \"Moja srednja skola\" CSV: exam averages only.\n- mit.gov.rs \"Povezane skole\" xlsx (about 1,840 rows): school name, address and municipality, but the phone and e-mail columns are the network vendor's support contacts, not the schools'. Not usable.\n- data.gov.rs city datasets (Subotica, Sombor, Sabac): local lists of schools and preschools, not national. Not downloaded.\n- dositej.mpn.gov.rs: no connection from curl over http or https (code 000), so the public register API could not be inspected.\n- www.mpn.gov.rs (including the skolske uprave and register pages): returned 503.\nPossible next steps: try dositej.mpn.gov.rs from a browser to see its public-search API calls, or the individual skolske uprave sites.",
+"official_site": "https://opendata.mpn.gov.rs"
+},
+"net-banka-banca-intesa": {
+"id": "net-banka-banca-intesa",
+"rows_written": 5,
+"extra_written": 0,
+"official_site": "https://www.bancaintesa.rs",
+"notes": "The official locator API lists 130 branches, but only with street address and today's opening hours, with no phones or weekly hours. I wrote 5 address-only rows (Loznica, Mionica, Trstenik, Zrenjanin, Zlatibor/Čajetina), each matched by exact street. Every other branch is already covered by a row of ours that has an address, so the rows with no address are duplicates of those and I did not force a match; no extras were found."
+},
+"net-osiguravajuce-drustvo-dunav-osiguranje": {
+"id": "net-osiguravajuce-drustvo-dunav-osiguranje",
+"rows_written": 104,
+"extra_written": 1,
+"official_site": "https://www.dunav.com/kontakt/adresar-filijala/",
+"notes": "I read Dunav's official branch directory (dunav.com adresar filijala) and matched rows by the published phone numbers, which gave 104 rows with an address. Row 24021 (Zrenjanin claims centre) got 0800 386 286 and hours 08:00-16:00. Sečanj and Tutin were matched by name only. I left out Čajetina and Bač/Selenča because the official address text has typos. I also dropped seven duplicate rows whose twin already carries the same branch. Row 19799 (Novi Sad, only a 0800 number) and rows 20407 (Apatin, no phone) and 22418 (Vračar) were ambiguous or had no match, so I skipped them. Surdulica is the only extra branch."
+},
+"net-banka-aik": {
+"id": "net-banka-aik",
+"rows_written": 0,
+"extra_written": 0,
+"notes": "The official AikBank locator (https://www.aikbank.rs/data/maps-formated.json) lists 114 branches. It has no phone numbers for any branch, and its addresses add nothing to what we hold. Our rows already carry the same addresses, or the official one is also \"bb\" (Leskovac, Kruševac, Šabac, Svilajnac). All 114 official branches map to existing rows, so there are no extras. The rows missing hours are either duplicates of a branch already matched to another row (Bečej) or have no official counterpart (Balkanska 2). Both output files are [].",
+"official_site": "https://www.aikbank.rs"
+},
+"net-banka-raiffeisen": {
+"id": "net-banka-raiffeisen",
+"rows_written": 3,
+"extra_written": 0,
+"notes": "Read the official Raiffeisen branch locator JSON (103 branches, all with phone 011 3202100). Every official branch is already in our rows (the 278xx rows), so there are no extras. The unaddressed \"Raiffeisen bank\" rows could not be matched to a specific branch without forcing it, because each town's branch is already taken by a 278xx row and big cities have several branches. I wrote 3 safe matches: 20172 (Crnotravska 7-9), 22005 (Zrenjanin, same address) and 20519 (Pančevo, only one branch).",
+"official_site": "https://www.raiffeisenbank.rs"
+},
+"net-banka-otp": {
+"id": "net-banka-otp",
+"rows_written": 97,
+"extra_written": 0,
+"notes": "I read OTP banka's official branch locator (otpbanka.rs/lokacije-ekspozitura-i-bankomata/), which lists 118 ekspozitura with address, email and hours. The 97 matched rows are all address matches. The other 21 branches correspond to rows that already have an address and nothing missing, or are the two Sombor/Novi Bečej branches listed under the same address. Where a row asks for a phone, I gave the bank's central number 011 3011555 from the official contact page, because the locator has no branch phones. Address and hours come from the locator, hours are public-service hours only, and addresses carry no postal code because none is published. I also added each branch's published email. Rows with no street address in Belgrade, Novi Sad and a few other cities were left unmatched rather than guessed; the two Sombor rows were skipped as ambiguous. The extra file is empty because every official branch maps to one of our rows.",
+"official_site": "https://www.otpbanka.rs"
+},
+"net-banka-postanska-stedionica": {
+"id": "net-banka-postanska-stedionica",
+"rows_written": 103,
+"extra_written": 4,
+"official_site": "https://www.posted.co.rs",
+"notes": "Read the official branch list from the bank's own locator API (posted.co.rs/branches_atms.php, 243 units), transliterated from Cyrillic. I matched rows by the bank's published phone number plus place, then wrote the missing address, labelled match \"name\" (match \"address\" for row 20005, whose street was the same). 102 rows got an address and row 20005 got a phone. The target also contains legacy duplicates of the same branches (ids 28xxx); where both copies needed an address I filled only the 28xxx one. Skipped as unmatchable: Subotica 21546 and 22567, the Savski venac rows 21921, 22519 and 24439, Novi Pazar 22659, Novi Sad 23901, Rakovica 21509, and Leskovac, Kraljevo and Vrbas rows with unrecognised phones. Hours were left out for 20005 because the bank lists it as temporarily closed. Extras: four official units not in our rows (Žitište, Niš Nikole Pašića 32a, Padina, Sevojno)."
+},
+"net-republicki-fond-za-zdravstveno-osiguranje-be": {
+"id": "net-republicki-fond-za-zdravstveno-osiguranje-be",
+"rows_written": 158,
+"extra_written": 8,
+"notes": "Parsed the RFZO contact page (rfzo.rs/kontakt), which lists every filijala and ispostava with address, email and hours. Matched 158 rows by name, with address, email and hours (pon-pet 07:30-15:30). No branch phone numbers are published (only fax numbers), so phones are left out. Not found on the page: Sremski Karlovci, Malo Crniće, Pantelej, Crveni Krst. Row 9890 (Palilula) was skipped as ambiguous: the page lists only the Belgrade Palilula branch. The 8 extras are Petrovac na Mlavi, Vranjska Banja and six satellite counters (Donji Milanovac, Guča, Ušće, Brestovac, Grdelica, Vučje). The Kosovo-region units were left out.",
+"official_site": "https://www.rfzo.rs"
+},
+"net-banka-erste": {
+"id": "net-banka-erste",
+"rows_written": 33,
+"extra_written": 0,
+"notes": "Read Erste's official branch feed (87 branches, used by erstebank.rs branch locator). I wrote 33 addresses, matched on place and checked against our published hours. I skipped rows that were ambiguous: Belgrade municipalities, Novi Sad, Stara Pazova (two rows claim one branch), Pančevo 24468, Subotica (our address differs from the official one), Svilajnac and Prokuplje (no branch in the feed). I did not compare the official list against our rows to find missing branches, so the extra file is empty.",
+"official_site": "https://www.erstebank.rs"
+},
+"net-banka-nlb-komercijalna": {
+"id": "net-banka-nlb-komercijalna",
+"rows_written": 0,
+"extra_written": 0,
+"official_site": "https://www.nlb.rs/poslovnice",
+"notes": "I read the full official branch list (129 branches) from nlb.rs/poslovnice (facilities.json endpoint of the branch search component). All 32 rows that need data are either duplicates of a branch already held by another of our rows with an address (e.g. Subotica Korzo 10, Surdulica, Ruma, Leskovac, Jagodina), or Belgrade municipality rows with no unambiguous branch, or places with no NLB branch (Sjenica, Krupanj). I did not force matches, so both output files are []. All official branches are already represented in our rows, so there are no extras."
+},
+"net-banka-unicredit": {
+"id": "net-banka-unicredit",
+"rows_written": 3,
+"extra_written": 0,
+"notes": "The official branch PDF on unicreditbank.rs (dated 04.11.2026) lists 81 branches with address and hours only. It has no phones or postal codes. Almost all of those branches are already held by our address-bearing rows, so the null-address rows are duplicates and none could be matched one-to-one. I wrote 3 address confirmations (27923, 27926, 27930) and no extras. Novi Pazar differs: the PDF has AVNOJ-a 10, our row has Stevana Nemanje 1. That could be the same branch or a different one, so I did not force a match or add an extra.",
+"official_site": "https://www.unicreditbank.rs"
+},
+"net-dom-zdravlja-savski-venac-beograd": {
+"id": "net-dom-zdravlja-savski-venac-beograd",
+"rows_written": 4,
+"extra_written": 4,
+"notes": "Only 4 of the ~100 rows belong to DZ Savski venac; the rest are other institutions, so I left them alone. Source is dzsvenac.rs/index.php/contact-us (hours and phones). 2477 and 23961 got general hours, 23974 and 24311 got phones. Per-ambulance hours are only published as doctor rosters, so I skipped them. Extras are Lomina 39, Vojvode Milenka 4, Vojvode Milenka 35 and Resavska 69. I skipped Gornjačka because the site gives 20 and 39 for it, and Lopudska because it may be the same site as Dragana Sakana 1.",
+"official_site": "http://www.dzsvenac.rs"
+},
+"net-mf-uprava-za-trezor-beograd": {
+"id": "net-mf-uprava-za-trezor-beograd",
+"rows_written": 1,
+"extra_written": 0,
+"official_site": "https://www.trezor.gov.rs",
+"notes": "Only the HQ row (286) was filled: Pop Lukina 7-9 and phone 011 3202-300 come from trezor.gov.rs/src/contacts/, and hours pon-pet 07:30-15:30 come from the Informator o radu PDF (October 2026). The official site and Informator list the 34 filijale and about 70 ekspoziture by name only, with no street addresses, phones or branch hours, so the other 100+ rows are left out. The general hours are not copied to branches because that would be inferring. No extras."
+},
+"net-apotekarska-ustanova-nkovic-novi-sad": {
+"id": "net-apotekarska-ustanova-nkovic-novi-sad",
+"rows_written": 154,
+"extra_written": 4,
+"notes": "The official site apotekajankovic.rs publishes per-city branch pages (address, phone, hours), and I matched 154 of our 156 rows to them by street address. Two matches used name only because our street spelling differs: 10809 (Ctaparski/Staparski put 6, Sombor) and 10821 (Braće Čopić/Branka Ćopića 82, Novi Sad). No match for 10697 (Negotin; the site lists Maršala Tita 41 under Bač with no phone or Negotin page) and 10812 (Bačka Topola; no page). Branches whose page shows no phone have no phones field. Hours are included only where they parse cleanly, so irregular schedules (Bač, some Odžaci) are left out. Four extra branches written: Beograd Katanićeva 8-10, Kovin Cara Lazara 76, Novi Sad Bulevar Patrijarha Pavla 24A, Sremska Mitrovica Šećer sokak 24. The Bač Maršala Tita 41 listing was left out as ambiguous. Some phones are mobile numbers the site publishes for the branch. Postal codes are not published, so addresses added for the \"bb\" rows have no postal code.",
+"official_site": "https://www.apotekajankovic.rs"
+},
+"net-uprava-za-vanredne-situacije-2": {
+"id": "net-uprava-za-vanredne-situacije-2",
+"rows_written": 0,
+"extra_written": 0,
+"notes": "No official per-unit directory exists. The MUP site (mup.gov.rs) has only a text description of the Sector for Emergency Situations. Its contacts page links two PDFs, and the one I read lists only police stations and posts, no fire units. The Informator o radu is an external JS app that I did not read. vatrosprem.rs, given as the website for the Belgrade org, is a commercial fire-equipment shop and not an official source. DuckDuckGo search was blocked and no other official source was found, so both output files are empty arrays.",
+"official_site": "https://www.mup.gov.rs"
+},
+"net-mup-policijska-uprava-3": {
+"id": "net-mup-policijska-uprava-3",
+"rows_written": 18,
+"extra_written": 0,
+"notes": "The official MUP PDF (mup.gov.rs, 23 Oct 2026) lists only phone numbers for police directorates, stations and branches. It has no addresses and no opening hours, so I wrote 18 phone-only rows and no address or hours. I skipped rows where several of our rows fit one official branch (Inđija, Sremska Mitrovica, Surdulica, Subotica, Surčin and similar). The extra file is empty because the PDF gives no addresses for unmatched branches.",
+"official_site": "https://www.mup.gov.rs"
+},
+"net-osiguravajuce-drustvo-ddor": {
+"id": "net-osiguravajuce-drustvo-ddor",
+"rows_written": 6,
+"extra_written": 0,
+"official_site": "https://www.ddor.rs/prodajna-mesta/",
+"notes": "Only 6 of ~90 rows had open needs, and all 6 matched by branch name on the official DDOR \"prodajna mesta\" page. Five are address cleanups (Bujanovac, Ljig, Merošina, Paraćin, Pirot) and one is phones for Nova Varoš, published as 033 64451 and 033 64452. Those two numbers are shorter than the usual 033 numbers, so check them. Paraćin and Pirot addresses were transliterated from mixed Cyrillic on the page, and Pirot's \"Trg oslobodioca\" became \"Trg oslobodilaca\", which I did not check. No extra branches: the rows I checked looked to cover the official list, but I did not diff the full list."
+},
+"net-apotekarska-ustanova-filly-farm-velika-plana": {
+"id": "net-apotekarska-ustanova-filly-farm-velika-plana",
+"rows_written": 86,
+"extra_written": 1,
+"notes": "The official site is fillyfarm.rs. Its store locator (https://fillyfarm.rs/apoteke/) publishes 92 branches with hours, and I matched 86 of our 91 rows by branch name plus street. I wrote hours for all 86 and added an address for 3 of them. The output rows carry no phones, because ours were already present. Not matched or not in the locator: Filly 6, 81, 88, 9, 102, Sveti Prokopije, Novi Svet, Jasmin 1/3/5 and Simko pharm. Filly 18, 85, 106, Nana and Mala Plana have a locator entry whose street differs from ours, so I skipped them rather than force a match. One extra branch is listed: Filly 23 in Batajnica.",
+"official_site": "https://fillyfarm.rs"
+},
+"net-apotekarska-ustanova-galen-pharm-beograd": {
+"id": "net-apotekarska-ustanova-galen-pharm-beograd",
+"rows_written": 97,
+"extra_written": 1,
+"notes": "The official site is galenpharm.com, whose city pages list address, phones and hours per pharmacy. I matched 122 of the 140 rows by street and number. Of those, 97 had something to write: 94 have hours, and a few also have addresses. Matches by phone number alone proved unreliable and were dropped. I left out 18 rows that did not match cleanly, and hours with irregular qualifiers such as every second Saturday or split-day schedules. The one-day holiday-hours PDF was not used. One new pharmacy was found, Pasterova 7 in Beograd.",
+"official_site": "https://www.galenpharm.com"
+},
+"net-mup-policijska-uprava-2": {
+"id": "net-mup-policijska-uprava-2",
+"rows_written": 5,
+"extra_written": 0,
+"notes": "The only official source found was the mup.gov.rs PDF of police directorate, station and branch phone numbers (dated 2026-10-23). It has phones only, with no street addresses and no opening hours. So I wrote phones for 5 rows matched by unit name: PU Novi Sad HQ, PI Stari grad (Novi Sad), PI Detelinara (Novi Sad), traffic police Novi Sad, and traffic police Pirot. I left out the generic \"Policijska stanica\" rows (Novi Sad, Požarevac, Prijepolje, Sjenica and others), the two Šabac branch rows (Cerska 444 and Hajduk Veljkova 6), Komunalna policija and the border police, because they could not be matched unambiguously or are not in the PDF. I did not look for addresses or hours elsewhere.",
+"official_site": "https://www.mup.gov.rs"
+},
+"net-osiguravajuce-drustvo-ddor-osiguranje": {
+"id": "net-osiguravajuce-drustvo-ddor-osiguranje",
+"rows_written": 59,
+"extra_written": 1,
+"notes": "I read ddor.rs/prodajna-mesta/ (99 official locations) and matched rows mostly by phone number; the match field is \"place\" for all 59 rows. These got an address, and Ljig also got a phone. Postal codes are not published, so addresses carry none. Skipped as unmatched or ambiguous: Novi Sad 20235 (two official entries share its phone), Sombor 23228, Bogatić 23166 and Vladimirci 23237 (not listed), and Paraćin 23208 (its official address is partly Cyrillic). The one extra is the Centrala at Bulevar Mihajla Pupina 8, Novi Sad.",
+"official_site": "https://www.ddor.rs/"
+},
+"net-banka-halkbank": {
+"id": "net-banka-halkbank",
+"rows_written": 1,
+"extra_written": 1,
+"notes": "The official list on halkbank.rs (mapa-lokacija) has 124 entries, including ATMs, and our \"Filijala\" rows are already complete. One match: Konjevići bb for the Čačak (Auto Čačak) row, address only. Our address-less \"Ekspozitura\" rows could not be matched safely because the official list shows no such units. Skadarska 7 (Čačak) is not on the list, and Ivanjica 14 vs our 15 was not forced. One extra: Preševo. Ruma, Šid and Veternik appear as ATM-only entries and were skipped.",
+"official_site": "https://www.halkbank.rs"
+},
+"net-mup-policijska-uprava-1": {
+"id": "net-mup-policijska-uprava-1",
+"rows_written": 1,
+"extra_written": 0,
+"official_site": "https://www.mup.gov.rs",
+"notes": "mup.gov.rs publishes only a phone list for police directorates, stations and branches (PDF dated 2026-10-23) and a 2016 contact directory. The phone list has no addresses or hours, and the directory covers only the ministry headquarters. I wrote one row: location 2426, the ministry headquarters (Bulevar Mihajla Pupina 2a, 11000 Novi Beograd, 011 274 0000), taken from the 2016 directory. The other rows were not filled. Their phones are already in our data or the PDF lists them only under unit names that don't match ours. Several places also have duplicate rows (Majdanpek, Lučani, Medveđa, Raška), so a phone could not be assigned to one row without guessing. No extra branches were added."
+},
+"net-apotekarska-ustanova-cvejic-cerevic": {
+"id": "net-apotekarska-ustanova-cvejic-cerevic",
+"rows_written": 0,
+"extra_written": 0,
+"notes": "No official website found for Apotekarska ustanova \"Cvejić\". The guessed domains apotekacvejic.com and cvejic.rs are parked Loopia pages, and the others did not resolve. Web search returned only commercial listings, which are not allowed. Both output files are []."
+},
+"net-apotekarska-ustanova-krsenkovic-uzice": {
+"id": "net-apotekarska-ustanova-krsenkovic-uzice",
+"rows_written": 60,
+"extra_written": 4,
+"notes": "Found the official branch list at apotekakrsenkovic.rs/apoteke and matched 60 of our 61 rows by branch number, with the street confirming most. The 61st row, Ogranak 22 in Gornji Milanovac, has no hours published, so its email is the only thing written for it. All rows get hours and email; the five address rows (bb streets) get address plus place. Four branches are extras: Ogranaci 12 (Kraljevo), 48 (Mrčajevci), 64 (Paraćin) and 89 (Prijepolje). The site shows no hours for 12 and 64. Ogranak 30 (Prijepolje, Valterova 119) is also in our rows but has no published hours, so only its email was written. Row 11507 (Ogranak 45, Čačak) is the central warehouse, listed on the site with Mon-Fri 08:00-16:00. Phones were not in need, so none were added.",
+"official_site": "https://apotekakrsenkovic.rs"
+},
+"net-carinarnica-2": {
+"id": "net-carinarnica-2",
+"rows_written": 2,
+"extra_written": 0,
+"notes": "carina.rs publishes no street addresses or per-unit phones for these units; its only unit phones are for the postal-parcel referats. I wrote phones for Pošta Novi Sad and Pošta Niš from the \"Najvažniji kontakti\" page. The working-hours docx gives fixed hours only for units we already have. For Aerodrom Morava, Aerodrom Vršac, Jamena, Vajska and the river-traffic referat in Novi Sad it says only \"on call\" or \"per airport order\", which doesn't fit the hours format, so I left hours out. The per-carinarnica contacts page (kontakti-carinarnica) returned the generic info page, with no unit data. No extras, because no official addresses were found.",
+"official_site": "https://www.carina.rs"
+},
+"net-banka-addiko": {
+"id": "net-banka-addiko",
+"rows_written": 1,
+"extra_written": 0,
+"official_site": "https://www.addiko.rs",
+"notes": "Read the official branch list on addiko.rs (ekspoziture-i-bankomati page). It has about 30 branches, and every one already matches a row of ours by address. I wrote one row: 28206 (Niš Dušanova), address \"Dušanova bb, Niš\", matched by name. The other rows that still need an address have no street. They look like duplicates of branches that already have a row with an address, so I did not force a match. Row 19802 (Novi Sad, Bulevar oslobođenja 18) did not match the official branch at Bul. oslobođenja 29, so I skipped it. No extra branches were found."
+},
+"net-carinarnica-1": {
+"id": "net-carinarnica-1",
+"rows_written": 3,
+"extra_written": 0,
+"official_site": "https://www.carina.rs",
+"notes": "Only 3 phone-only rows found (Pošta Beograd, DHL kurirske pošiljke, Aerodrom Beograd robno) in carina.rs \"Najvažniji kontakti\" docx. The official per-carinarnica contact page (/o-nama/carinarnice/kontakti-carinarnica.html) returns HTTP 500 and the other pages have no branch addresses or phones. No addresses were found. The hours docx has no fixed hours for the two rows that needed them (Niš airport follows an aviation authority order; Terminal Preševo is temporarily closed). Extra file is []."
+},
+"net-apotekarska-ustanova-aptk-rs-beograd-stari-g": {
+"id": "net-apotekarska-ustanova-aptk-rs-beograd-stari-g",
+"rows_written": 56,
+"extra_written": 2,
+"notes": "Read the Maelia pharmacy list at maelia.rs/sr/pharmacies and wrote hours for 56 of 60 rows, plus one address (Leskovac). Four rows have no official match and are left out: Maelia #36 Jagodina Kneza Lazara 74, #50 Gornji Milanovac, #57 Čačak Gradsko šetalište and #16 Bačka Topola. The Bačka Topola row is listed at a different address, Glavna 13, so I put that site in extras instead of forcing the match, along with Leskovac 28. marta 10. The Inđija and Jurija Gagarina rows matched by place only, because the official house number differs (2a vs 1d, 22a vs 22nj), so I gave hours only. No phones or email were added, because the list publishes none.",
+"official_site": "https://maelia.rs"
+},
+"net-small-02": {
+"id": "net-small-02",
+"rows_written": 9,
+"extra_written": 0,
+"official_site": "https://www.apotekabiofarm.rs/apoteke",
+"notes": "Only Biofarm has an official branch page, so 9 of its 10 rows got address and hours, matched by street address (XI Kosmajska, Beograd, is not listed). The Biofarm XII page entry shows the wrong street in its address field, so I used the Svetosavska 19, Perlez heading. Bosfor's site lists its pharmacies with phones only, no addresses or per-branch hours, so nothing was written. Džunić, Bardić, Beladona Bujanovac and Beladona Požarevac have no official site I could find (guessed domains were parked), so they are left out."
+},
+"net-uprava-za-vanredne-situacije-1": {
+"id": "net-uprava-za-vanredne-situacije-1",
+"rows_written": 26,
+"extra_written": 32,
+"notes": "The only official source I could read was the old MUP static site (prezentacije.mup.gov.rs/svs/Reg*.html). It gives one street address per unit and the emergency number 193, with no hours, so I wrote none. mup.gov.rs itself blocks curl. Of the 26 matched rows, 10 matched by address (phone 193 only) and 16 by branch name and place (address, plus 193 except Vrnjačka Banja, which already had a number). I left ambiguous cases out, such as several Pančevo, Čačak, Kruševac and Pirot rows. I also left out cases where the old street differs from ours (Leskovac, Kovin, Negotin). The old page may be stale. The 32 extra units are the official branches not in our rows, each with 193.",
+"official_site": "http://prezentacije.mup.gov.rs/svs/"
+},
+"net-osnovno-javno-tuzilastvo-1": {
+"id": "net-osnovno-javno-tuzilastvo-1",
+"rows_written": 58,
+"extra_written": 0,
+"official_site": "http://www.vrhovnojt.gov.rs (Republic Public Prosecutor list of offices); per-office sites {town}.ojt.rs",
+"notes": "All 58 rows got hours from each office's own site ({town}.ojt.rs): pon-pet 07:30-15:30, except Kuršumlija at 08:30-15:30. The 6 rows missing an address (Brus, Loznica, Novi Pazar, Prijepolje, Trstenik, Zaječar) got \"bb\" addresses with postal codes from the official list on vrhovnojt.gov.rs, which is their source_url. I did not re-check those addresses on the office sites. Phones were not needed. The extra file is empty because the list holds no additional basic-prosecutor offices beyond our rows."
+},
+"net-apotekarska-ustanova-oaza-zdravlja-beograd": {
+"id": "net-apotekarska-ustanova-oaza-zdravlja-beograd",
+"rows_written": 32,
+"extra_written": 1,
+"notes": "The target gave no website, so I found the official site, oazazdravlja.rs. Its pharmacy locator JSON lists 57 branches, but only about 32 of them publish hours. I wrote hours for those 32, all matched by street address. The other rows have no published hours, so I left them out. Row 14095 (Zdravlje, Zaječar) needed an address, but the site gives only \"Rasadnička bb\", which we already have, so I added nothing. One extra: Apoteka Starčevo, Pančevo. Hours for Kanarevo brdo (row 14024) follow the site's text (sat 08:00-17:20), which differs from its structured schedule (sat 08:00-20:00).",
+"official_site": "https://www.oazazdravlja.rs/apoteke"
+},
+"net-banka-3": {
+"id": "net-banka-3",
+"rows_written": 20,
+"extra_written": 0,
+"notes": "Read the 38 branches from 3bank.rs's own store-locator API (wp-json/w2dc/v1/maps/8100/listings). I filled the generic \"3 Banka\" rows by place (match=place), since each has exactly one official branch. Hours for the poslovnice (pon-pet 08:00-16:00) come from the text on https://www.3bank.rs/filijale/, but source_url on those rows points to the branch listing page. The detailed \"Filijala/Poslovnica\" rows already had data and were left untouched, except Novi Pazar and Prijepolje, which were not filled. All 38 official branches already exist in our rows, so extra is [].",
+"official_site": "https://www.3bank.rs"
+},
+"net-small-03": {
+"id": "net-small-03",
+"rows_written": 0,
+"extra_written": 0,
+"notes": "Only Braća Filipović has an official site (bracafilipovic.rs/kontakt/). It lists the branches with addresses and landline numbers, but the only hours are one organisation-wide block (7:30-21:00 on weekdays, 7:30-17:00 Sat, 8:00-14:00 Sun) that is not tied to individual branches, so I did not assign it to rows. The Family Pharm site (familypharm.rs) belongs to an unrelated disinfectant company. Dental and Irisfarm had no findable official site. Both outputs are empty arrays."
+},
+"net-small-12": {
+"id": "net-small-12",
+"rows_written": 17,
+"extra_written": 7,
+"notes": "Pančevo (dzpancevo.org/kontakt): 12 ambulante matched by name with address, landline phones and hours; 5 unmatched ambulante went to extra. Subotica (domzdravlja.org.rs): 2 addresses and the Palić phones; the site's objekti and kontakt pages disagree on several branch names, so ambiguous ones were left out. Novi Sad: dzns.rs/objekti is broken (WordPress error), so only 2 service phone lines from the kontakt page (Vršačka, Zmaj) were used; no hours are published. Sedište duplicates, ZZJZ Subotica and the independent Novi Sad institutes were skipped.",
+"official_site": "https://dzpancevo.org"
+},
+"net-small-01": {
+"id": "net-small-01",
+"rows_written": 0,
+"extra_written": 0,
+"notes": "Five small private pharmacy institutions (Adonis, Alba Graeca Pharm, Aleksandar pharm, Anđela, Apolo) with no website in our data. Searches returned only commercial directories (planplus), which are not allowed as sources, and no official site or state register page with hours. Both output files are written as []."
+},
+"net-osiguravajuce-drustvo-milenijum-osiguranje": {
+"id": "net-osiguravajuce-drustvo-milenijum-osiguranje",
+"rows_written": 15,
+"extra_written": 0,
+"notes": "I filled 15 missing addresses from the branch list on mios.rs/strana/mreza.html (the page's embedded map data). I matched by place plus phone or name and gave no postal codes, since the site doesn't publish them. The 15 are:\n- Zemun\n- Subotica 23056 (Subotica 19521 left unmatched, as the site lists only one Subotica branch)\n- Čačak x2\n- Kragujevac\n- Kraljevo\n- Sombor\n- Gornji Milanovac\n- Vršac\n- Kruševac\n- Čukarica\n- Šabac\n- Krupanj\n- Svrljig\n- Mladenovac\n\nNo hours were found, because the site's hours table loads dynamically and isn't in the page source. No new phones were found: Gornji Milanovac, Alibunar, Bor and Vrbas have none published, and Užice and the Novi Beograd 23055 row have no matching branch. No extra branches, since every official branch already has a row.",
+"official_site": "https://mios.rs"
+},
+"net-small-10": {
+"id": "net-small-10",
+"rows_written": 1,
+"extra_written": 0,
+"official_site": "https://www.adriaticbank.rs",
+"notes": "Only one row could be filled: Adriatic Čačak (28770) address from the official branch list. The two Adriatic rows without addresses (Novi Beograd, Savski venac) were left out because a match would be ambiguous. Alta banka's site shows only a notice page with no branch data. The three pharmacy organisations (Zdravlje lek, Zingiber, Hygia) have no known official site, so nothing was searched or filled."
+},
+"net-small-04": {
+"id": "net-small-04",
+"rows_written": 0,
+"extra_written": 0,
+"notes": "None of the four pharmacy institutions (Jasfarm, Lara farm plus, Laurus, Lirafarma) has an official website or state register page with hours that I could find. Searches returned only planplus.rs and wolt.com, which the rules exclude, so both output files are []. I did not open the pharmacies' own sites directly, so a site that search missed is still possible."
+},
+"net-small-07": {
+"id": "net-small-07",
+"rows_written": 0,
+"extra_written": 0,
+"notes": "The four pharmacy institutions (Neofarm, Neven, Nikolic, Primaks Farm) have no website in the target file. Search engines returned nothing, and the guessed domains either didn't resolve or (apotekaneven.rs) was only a webmail login page. I found no official source for hours or addresses, so both output files are []."
+},
+"net-apotekarska-ustanova-vegafarma-valjevo-valje": {
+"id": "net-apotekarska-ustanova-vegafarma-valjevo-valje",
+"rows_written": 0,
+"extra_written": 0,
+"notes": "The only candidate official site, vegafarma.rs, returns 403 Forbidden to both curl and WebFetch, so I skipped it and did not work around it. Web search turned up only planplus.rs, a commercial directory that the rules exclude. Both output files are written as []."
+},
+"net-small-05": {
+"id": "net-small-05",
+"rows_written": 0,
+"extra_written": 0,
+"notes": "None of the three pharmacy institutions (Livada, Medika, Melisa) has an official website in our data. Web searches returned only commercial directories (planplus, wolt), which are not allowed, so both output files are []."
+},
+"net-small-13": {
+"id": "net-small-13",
+"rows_written": 22,
+"extra_written": 0,
+"official_site": "https://www.grawe.rs/kontakt/",
+"notes": "Wrote addresses for 22 rows from the official Grawe contact page, which lists all sales offices. The page has no opening hours and no phone for Bačka Palanka or Obrenovac, so those fields were left out. Rows without an address were matched by place, with phone numbers confirming the Novi Beograd, Kruševac and Zemun/Batajnica matches. No extra branches."
+},
+"net-small-08": {
+"id": "net-small-08",
+"rows_written": 0,
+"extra_written": 0,
+"notes": "All five orgs are small private pharmacy operators with no known official website. Searches returned only commercial directories (planplus), which the rules exclude, so both output files are empty arrays."
+},
+"net-small-09": {
+"id": "net-small-09",
+"rows_written": 18,
+"extra_written": 1,
+"notes": "Sunce (apotekasunce.rs/sr/o-nama): 18 rows matched by address with hours, plus one address for Fortuna and one extra branch in Smederevo. Skipped Sunce rows 14276, 14299, 14306 and 14304, which the site doesn't list, and 14312, whose opening time is garbled (\"07:0\"). Viva (apotekaviva.rs): the site has no hours, it conflicts on one address (Tucovića 35 vs ours Tucakovića 25), and it gives no street number for the bb addresses, so nothing was written. TG-Pharm Medico: no official site found (apotekamelem.rs is a parked domain), so nothing was written.",
+"official_site": "https://www.apotekasunce.rs"
+},
+"net-osiguravajuce-drustvo-generali": {
+"id": "net-osiguravajuce-drustvo-generali",
+"rows_written": 33,
+"extra_written": 1,
+"official_site": "https://www.generali.rs/kontakt/lokacije.1049.html",
+"notes": "Read the branch list embedded in Generali's official locations page (51 branches) and wrote addresses for 33 of our rows; hours and phones were left out because we already have them. I skipped Smederevo because the published street number is garbled (\"27 11\"). I also skipped Zrenjanin row 23111, since one official branch could only go to row 23112 (phone match), and Bor row 20312, because the only Bor branch is already matched to row 23130 and has no phone. Inđija is the one extra branch. Five rows are marked \"name\" because I matched them on a confirming phone number: Stari grad, Novi Beograd, Čukarica, Medijana and Zrenjanin 23112."
+},
+"net-osiguravajuce-drustvo-globos-osiguranje": {
+"id": "net-osiguravajuce-drustvo-globos-osiguranje",
+"rows_written": 15,
+"extra_written": 0,
+"official_site": "https://www.globos.rs/sr/kontakt",
+"notes": "Globos's contact page lists every branch with street address and phones, but no opening hours, so no hours were written. I wrote 15 addresses: 13 old rows with no address (matched by place; the phones are identical on the page) plus 2 rows (Novi Pazar, Kruševac) whose address was marked as missing. Ivanjica and Vršac list only a mobile number, with no address or hours, so they were left out. No extra branches turned up."
+},
+"net-drzavni-organ-2": {
+"id": "net-drzavni-organ-2",
+"rows_written": 0,
+"extra_written": 0,
+"notes": "I wrote no rows. All 36 orgs are single Belgrade headquarters, and 33 of them have no website. For the 3 that do, the only hours I found were the Komisija za zaštitu konkurencije (kzk.gov.rs/kontakt) registry-office hours, \"08:30 do 14:30\", with no days given. I left it out because a day range would be a guess and it is the filing office, not general public hours. The ujn.gov.rs and parlament.gov.rs pages returned no hours, and the kim.gov.rs contact page was an empty shell.",
+"official_site": "https://www.kzk.gov.rs"
+},
+"net-osiguravajuce-drustvo-wiener-stadtische": {
+"id": "net-osiguravajuce-drustvo-wiener-stadtische",
+"rows_written": 25,
+"extra_written": 1,
+"notes": "Addresses for 25 rows come from the official per-branch pages on wiener.co.rs (41 branches). Subotica row 19522 was not matched: the official site has only one Subotica branch (Korzo 12) and it went to row 21547 by phone. Jagodina is the only branch we lack, so it is the one extra. Kragujevac has no published postal code.",
+"official_site": "https://wiener.co.rs/servisi/mreza-poslovnica/"
+},
+"net-banka-procredit": {
+"id": "net-banka-procredit",
+"rows_written": 16,
+"extra_written": 0,
+"official_site": "https://www.procreditbank.rs/lokacije",
+"notes": "Official locator lists 16 ekspoziture, all with a street address, plus a training centre that is not a public branch. I wrote the central contact-centre phones (011 2057000; 0700 700000) for the 15 street-address rows, a Niš address for 28728 and the Zrenjanin address for 21747. I left out the place-only rows (Sombor, Subotica, Šabac, Kragujevac, Novi Beograd, Medijana and others) because their branch is already matched to an address row and the match would be forced. Bečej and Valjevo have no official branch."
+},
+"net-apotekarska-ustanova-lekofarma-sabac": {
+"id": "net-apotekarska-ustanova-lekofarma-sabac",
+"rows_written": 43,
+"extra_written": 4,
+"notes": "The official site, apotekaflos.rs, has one /apoteke page listing every Flos unit with address, phone and hours. 43 of our 44 rows are matched. Matching was by street address (Flos 38-41 sit in Obrenovac, which our rows label Beograd). Rows that lacked an address (Flos 5, 6, 15, 18, 19 and 20) were matched by unit name and place; Flos 20 gets the official Šabačka 5, Varna. Flos 46 is not on the official page, so it has no output. Phones were not output, because none were needed. The extras are Flos 47 (Šabac), Flos 48 (Ub), Flos 49 (Obrenovac) and Tilia COR 2 (Beograd). The central warehouse was left out because it is not a pharmacy.",
+"official_site": "https://www.apotekaflos.rs/apoteke"
+},
+"net-osiguravajuce-drustvo-uniqa": {
+"id": "net-osiguravajuce-drustvo-uniqa",
+"rows_written": 0,
+"extra_written": 0,
+"notes": "uniqa.rs returned HTTP 403 to both curl and WebFetch on every page I tried. Per the no-workaround rule I skipped it, and no other official source was checked. Both output files contain [].",
+"official_site": "https://www.uniqa.rs"
+},
+"net-small-11": {
+"id": "net-small-11",
+"rows_written": 9,
+"extra_written": 9,
+"notes": "Found official lists for Zrenjanin (kontakt page, which has addresses and phones for the ambulante), Niš (adresar page, which has addresses, phones and hours) and Kragujevac (radno-vreme page, which has hours only). Kragujevac publishes no street addresses, so only hours and the HQ address (Kralja Milutina 1, Ogranak Stanovo) were filled. Rows with generic \"Ambulanta\" names and no address were not matched. Niš hours are published without weekdays, so they are written as \"07:00-20:00\". The 9 extras are the Zrenjanin city ambulante (I, II, II-a, III, IV, V, VI, VII, X); a few may duplicate our unnamed \"Ambulanta\" rows.",
+"official_site": "https://www.dzzrenjanin.rs/"
+},
+"net-drzavni-organ-1": {
+"id": "net-drzavni-organ-1",
+"rows_written": 1,
+"extra_written": 0,
+"notes": "Only Fiskalni savet (Nemanjina 17) got a phone, 011 3338205, from its own kontakt page. Most orgs have no website and are single headquarters rows. AERS publishes no office hours. DRI's contact page is behind a bot-protection wall. ALIMS lists only per-service desk hours and named-person lines, so I left those out. Fiskalni savet's 7.30-15.30 hours belong to a registry office at a different address, so I left them out too.",
+"official_site": "https://www.fiskalnisavet.rs"
+},
+"net-osiguravajuce-drustvo-sava-osiguranje": {
+"id": "net-osiguravajuce-drustvo-sava-osiguranje",
+"rows_written": 2,
+"extra_written": 0,
+"notes": "The official branch list (20 branches, from the sava-osiguranje.rs network page) gave addresses for 2 rows: 27164 Novi Pazar and 27172 Vladičin Han. Eight other rows also lack an address (Bor, Šabac, Subotica, Užice, Vršac, Bela Crkva, Preševo, Vladičin Han). I left out 23252, 23254, 23255, 23257, 23258, 23260 and 23261. Each duplicates a named Ekspozitura or Šalter row that already has an address, and one official branch goes to one row. Bor has no entry on the official list, so I left it out too. No extra branches were found, and no phone or hours updates were needed.",
+"official_site": "https://www.sava-osiguranje.rs"
+},
+"net-apotekarska-ustanova-zalfija-svrljig": {
+"id": "net-apotekarska-ustanova-zalfija-svrljig",
+"rows_written": 0,
+"extra_written": 0,
+"notes": "No official website found for Apotekarska ustanova Žalfija: guessed domains returned nothing and a web search only turned up a commercial directory (planplus), which is not allowed. No hours or addresses could be verified, so both output files are []. Nothing was guessed."
+},
+"net-osiguravajuce-drustvo-triglav": {
+"id": "net-osiguravajuce-drustvo-triglav",
+"rows_written": 14,
+"extra_written": 0,
+"official_site": "https://www.triglav.rs/korisno/mreza-poslovnica",
+"notes": "Read Triglav's official offices JSON (30 branches) and wrote street addresses for 14 rows that lacked one, matched by name and place. Savski venac (22916) is matched to Beograd 2 (Hercegovačka 19) by phone and hours. I skipped Novi Sad 19726 (Veselina Masleše 54-56), Subotica 21583 and Niš 24212 (7. juli 25a): the official list has no clear match for them. Only the Beograd branch has a published postal code, so no other address carries one. No extra branches."
+},
+"net-small-06": {
+"id": "net-small-06",
+"rows_written": 2,
+"extra_written": 0,
+"official_site": "https://www.apotekamilica.rs",
+"notes": "Milica VPD: the official branch pages have addresses and phones but no per-branch hours (the 8-14 in the footer is online-shop support), so I wrote only 2 postal-code addresses (Jadranska Lešnica, Petlovača). Krupanj (Zavlaka) is not listed on the site. Molika's site (apotekamolika.rs) is a placeholder, and Nana+ has no findable official site, so those two get nothing. No extras: the official list is 20 branches and all but Milica 24 (Loznica, Bronjevskog 28) match our rows by phone, and that one I left out because the street number differs."
+},
+"net-drzavni-organ-3": {
+"id": "net-drzavni-organ-3",
+"rows_written": 2,
+"extra_written": 1,
+"notes": "Filled 2 of the 30 rows: Poverenik za zaštitu ravnopravnosti (address, 2 phones, hours) and REM (hours). The Poverenik's Novi Pazar office went to the extra file. Predsednik, RAS, RATEL, Hidmet, Statistika and Pokrajinska vlada contact pages had no usable hours or phones. The other 20 rows have no website and I did not search for them.",
+"official_site": "https://ravnopravnost.gov.rs"
+},
+"net-apotekarska-ustanova-biopharm-valjevo": {
+"id": "net-apotekarska-ustanova-biopharm-valjevo",
+"rows_written": 0,
+"extra_written": 0,
+"notes": "No official branch list or hours were found. The pharmacy's own domain (apotekabiopharm.rs) shows only an \"U pripremi\" placeholder, and the other Biopharm sites (biopharm.rs, biopharm.co.rs) belong to a separate distributor, Biopharm d.o.o. Both output files are written as [].",
+"official_site": "https://www.apotekabiopharm.rs"
+},
+"net-osnovni-sud-1": {
+"id": "net-osnovni-sud-1",
+"rows_written": 27,
+"extra_written": 3,
+"notes": "I wrote 27 matches, all taken from the courts' own sites on sud.rs. Most are working hours (\"pon-pet 07:30-15:30\"). Senta uses its party hours (08:00-12:00) and Šid uses 08:00-14:00. Two address fixes: Brus is \"Mike Đorđevića 11\" (we had \"bb\") and Trstenik is \"Dr Milunovića 3, 37240 Trstenik\" (we had \"Doktora Milunovića bb\"). I added the three branch courts as extras: Vladičin Han and Bosilegrad (Surdulica court) and Aleksandrovac (Brus court). Matches are by place, since each row is that court's seat. Not found: Majdanpek, Mladenovac, Obrenovac, Kuršumlija and Petrovac na Mlavi (no hours page found, or the site did not load), and Trstenik hours. Loznica's address and Sjenica's address were not changed, because the official page matches ours or I did not verify it."
+},
+"net-vise-javno-tuzilastvo-1": {
+"id": "net-vise-javno-tuzilastvo-1",
+"rows_written": 25,
+"extra_written": 2,
+"notes": "Each office's own site (city.vjt.rs) gave hours and the uprava@ email for all 25 rows. Novi Pazar and Zaječar addresses were also filled from those pages. Novi Sad and Zrenjanin use the published public-reception hours (12:00-14:00). The rest use the general office hours (Vranje 08:30-15:30, others 07:30-15:30). Two anti-corruption departments (Novi Sad, Kraljevo) went to extra.",
+"official_site": "https://portal.sud.rs/sr/javna-tuzilastva"
+},
+"net-prekrsajni-sud-1": {
+"id": "net-prekrsajni-sud-1",
+"rows_written": 14,
+"extra_written": 9,
+"notes": "I wrote 14 matched rows and 9 extra courts. The hours come from each court's own \"rad sa strankama\" page and the addresses and Požega's phone from the Prekršajni apelacioni sud address book (pkap.sud.rs/psudovi.html). Where a court publishes both court hours and desk hours, I used the desk hours open to the public. Lazarevac (158) is skipped because la.pk.sud.rs has a TLS certificate error that I did not bypass. The extra courts are Beograd, Gornji Milanovac, Kikinda, Negotin, Niš, Obrenovac, Paraćin, Smederevo and Zaječar. Their rows have address and phones but no hours, and all use the shared org_slug \"prekrsajni-sud\".",
+"official_site": "http://pkap.sud.rs/psudovi.html"
+},
+"net-visi-sud-1": {
+"id": "net-visi-sud-1",
+"rows_written": 3,
+"extra_written": 0,
+"notes": "Read the official court sites (kv/za/pa.vi.sud.rs). Wrote hours for Kraljevo (43) and Pančevo (50), and the address for Zaječar (39). The Zaječar site lists Hajduk Veljkova 2, which differs from our \"Generala Gambete bb\". I matched that row on name only, so check it before applying. Novi Sad and Sremska Mitrovica needed nothing. No extra branches found.",
+"official_site": "https://za.vi.sud.rs"
+},
+"net-osnovni-sud-2": {
+"id": "net-osnovni-sud-2",
+"rows_written": 2,
+"extra_written": 0,
+"official_site": "https://www.treci.os.sud.rs",
+"notes": "Wrote 2 rows. Veliko Gradište got its address (Žitni trg 3, 12220) from its Kontakt page. Treći osnovni sud got hours (pon-pet 07:30-15:30) from its radno-vreme page, which says the court is closed at weekends. Prvi osnovni and Velika Plana publish 07:30-15:30 (Velika Plana also lists a 09:00-13:00 pisarnica window) but name no weekdays, so I left their hours out. Zaječar and Veliko Gradište publish no hours at all. No extra branches: each org is a single seat."
+},
+"reg-geodetska-agencija-1": {
+"id": "reg-geodetska-agencija-1",
+"rows_written": 0,
+"notes": "The official register is RGZ's public \"Registar licenci za rad geodetskih organizacija\". It has 615 entries, pulled from https://rgo.rgz.gov.rs/api/JavniPristup/registar-licenci-za-rad-go-get-all (page https://rgo.rgz.gov.rs/registar-licenci-za-rad-public). It lists only name, place, street address, authorised person, licence types and a map link. It has no phones, hours, website or email. Our rows need phones, hours and website, so the register supplies nothing for them. Seven rows also need an address; the register shows the same \"bb\" street address we already hold (no new information), so I wrote []. No register entries link to institution websites, so I opened no sites. I checked https://www.rgz.gov.rs/ and data.gov.rs, which has no geodetic-organisation dataset.",
+"official_site": "https://rgo.rgz.gov.rs/registar-licenci-za-rad-public"
+},
+"reg-geodetska-agencija-2": {
+"id": "reg-geodetska-agencija-2",
+"rows_written": 0,
+"notes": "Found the official Republic Geodetic Authority (RGZ) register of licensed geodetic organisations. It has 615 entries, served by the public API https://rgo.rgz.gov.rs/api/JavniPristup/registar-licenci-za-rad-go-get-all. Each entry has only name, place, address, authorised person and licence types. It has no phones, hours, website or email, and our rows already hold the address. No missing field could be filled, so I wrote []. The other pages I checked were https://www.rgz.gov.rs/регистар-лиценци-за-рад-геодетских-организација and https://a3.geosrbija.rs/geodetske_organizacije, both without contact data.",
+"official_site": "https://rgo.rgz.gov.rs/registar-licenci-za-rad-public",
+"extra_written": 0
+},
+"reg-hotel-2": {
+"id": "reg-hotel-2",
+"rows_written": 0,
+"notes": "No public official register with contact data found; wrote []. The Ministry of Tourism's eTurista system holds the national register, but it is a logged-in system, and mto.gov.rs returns 403 or bot protection on file paths. Checked: mto.gov.rs, data.gov.rs (API search for smeštaj/turizam/hotel returned 0 datasets; only a local Sombor list of private rooms, not hotels), apr.gov.rs/registri/turizam (covers travel agencies only), mto.gov.rs/tekst/sr/308 (Sektor za turizam, no list).",
+"official_site": "https://mto.gov.rs"
+},
+"reg-usluga-socijalne-zastite-1": {
+"id": "reg-usluga-socijalne-zastite-1",
+"rows_written": 6,
+"notes": "Used the Ministry of Labour's register of issued licences for social-care providers (an xlsx from 2019, so dated). It lists name, address, email and sometimes phone or website, but never hours. It gave 6 clear matches: 1 address (Čika Matina 5, Kragujevac), 1 phone (Ekumenska Humanitarna Organizacija, Novi Sad) and 4 websites. I opened csr-leskovac.rs, gerontns.co.rs and gerontoloskileskovac.com looking for hours and found none; ognjista.rs did not load. Most \"bb\" addresses the register repeats unchanged, and a few conflict with ours (Golubac, Babušnica), so I skipped them.",
+"official_site": "https://www.minrzs.gov.rs/srb-lat/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu",
+"extra_written": 0
+},
+"reg-veterinarska-stanica-1": {
+"id": "reg-veterinarska-stanica-1",
+"rows_written": 0,
+"notes": "No official register with contact data exists for veterinary stations and ambulances, so I wrote []. The Veterinary Directorate registers page (https://www.vet.minpolj.gov.rs/registri/) lists only these registers: shelters, kennels, boarding facilities, zoos, animal-marking producers and markers, and animal-testing facilities. It has no register of veterinary stations or ambulances. The Veterinary Chamber site (vetkomora.org.rs) returned an empty response, so I could not check it. I found no official website for any of our rows.",
+"official_site": "https://www.vet.minpolj.gov.rs/registri/"
+},
+"reg-auto-skola-1": {
+"id": "reg-auto-skola-1",
+"rows_written": 0,
+"notes": "No usable official register found, so I wrote []. The MUP list of driving schools (mup.gov.rs/wps/portal/sr/gradjani/saobracaj/auto-skole) sits behind bot protection and returned only a script shell. I did not try to bypass it. The data.gov.rs API returned 0 datasets for queries on auto-škola, autoskole, vozač, obuka vozača and mup. Nothing was matched or guessed.",
+"official_site": "https://www.mup.gov.rs"
+},
+"reg-agencija-za-zaposljavanje-1": {
+"id": "reg-agencija-za-zaposljavanje-1",
+"rows_written": 9,
+"notes": "Source: the labour ministry's \"Registar agencija za zapošljavanje\" (xls, Oct 2026), which has a contact column with phones and sometimes a website. The sibling register of temporary-employment agencies (xlsx, state 30.10.2026) lists only addresses and MB/PIB, with no contact data. I matched on name tokens plus street and number, and wrote 9 rows: 8 with landline phones and 1 with a website (dekra.rs). Mobile (06x) numbers and email addresses were left out on purpose. The register has no hours, and none of our rows carry an MB, so matching relied on name and address only. Most of the 244 rows are temporary-employment agencies absent from the xls, or already had phones. The three rows missing an address (Kid 2022, Divia, Đerdap) only show \"bb\" street addresses, which we already hold, so nothing was added. No institution websites were opened.",
+"official_site": "https://www.minrzs.gov.rs/sr/registri/sektor-za-rad-i-zaposljavanje"
+},
+"reg-hotel-1": {
+"id": "reg-hotel-1",
+"rows_written": 0,
+"notes": "The official register is the Ministry of Tourism and Youth's monthly list \"Kategorisani objekti za smeštaj Republika Srbija - oktobar 2026\" (https://mto.gov.rs/extfile/sr/8205/oktobar2026.xlsx, linked from https://mto.gov.rs/tekst/308/sektor-za-turizam.php). It has 434 objects with operator, object name, municipality, place, street and number, type, category and capacity. It has no phone, email, website or hours. I matched 152 of our 220 rows by exact name and place. For the 42 matched rows that need an address, the register gives only the same street plus \"bb\" or \"Nema ulice, bb\" that we already hold, so I added nothing. The other mto.gov.rs files I checked (tourist places and tourist-traffic statistics) have no contacts. The registry hosts registar.mto.gov.rs and turizam.gov.rs did not respond. data.gov.rs has no matching dataset. I wrote [] and did not open any hotel websites.",
+"official_site": "https://mto.gov.rs"
+},
+"site-001": {
+"id": "site-001",
+"rows_written": 14,
+"notes": "Found needed fields for 14 of 24 institutions on their own sites. Skipped: 3 dead or unreachable (Jovanovic, Hedonia, Sm&Sax), Colliers (global site), A nekretnine (empty shell), and Proagent, Arena, Advantage and Best Real Estate (no hours published). Beli grad left out because its listed addresses are Belgrade branches, which is ambiguous for a Pančevo record."
+},
+"reg-dom-za-stare-1": {
+"id": "reg-dom-za-stare-1",
+"rows_written": 144,
+"notes": "Source: Ministry of Labour (minrzs.gov.rs) licensed-provider spreadsheets for domski smestaj odraslih i starijih (July 2026 files 2-6). Matched 144 of 190 rows by quoted name and place; skipped providers marked as ceased. Wrote landline phones (102 rows, mobiles excluded) and registered emails; websites only where the register lists one (few). Hours are not in the register, so none were written. Ambiguous names (numbered or roman-numeral variants) were skipped. No external sites were opened.",
+"official_site": "https://www.minrzs.gov.rs/sr/registri/sektor-za-brigu-o-porodici-i-socialnu-zastitu"
+},
+"site-003": {
+"id": "site-003",
+"rows_written": 14,
+"notes": "I found hours for 12 archives and an address for 2 driving schools, all read from the institutions' own pages. For Corolla (Niš), the hours and the address are both on the home page. I skipped Smederevo and Vranje, because the pages give hours without days, and Valjevo (the 09:00-13:00 hours are for the registry office, with no days given). Senta's published hours belong to its Bečej branch. Niš, Sremska Mitrovica, Subotica, Čačak, Šabac and Prokuplje had no hours I could read."
+},
+"site-006": {
+"id": "site-006",
+"rows_written": 9,
+"notes": "Found hours for 7 centers (Ražanj, Preševo, Sombor, Srbobran, Subotica, Vrbas, Zrenjanin), plus Prijepolje address and Požega address with postal code. Skipped parked or blocked sites (Sokobanja, Trgovište, Svrljig 403, Prokuplje, Valjevo, Svilajnac) and sites that publish no hours (Temerin, Ub, Užice, Vranje, Vlasotince, Vrnjačka Banja, Vršac, Trstenik). Subotica hours have no days published, so none were added."
+},
+"site-005": {
+"id": "site-005",
+"rows_written": 8,
+"notes": "I found at least one needed field for 8 of the 24 centres. That is 7 hours entries and 1 address (Doljevac), each read from the centre's own contact page. No phones were found for Požarevac, Knić or Plandište. The other 16 had nothing new: no published hours, or the site was dead, blank or parked (Loznica, Plandište, Kruševac, Kragujevac, Knić). I ran the 24 fetches as a script instead of reading pages one by one.",
+"extra_written": 0
+},
+"site-004": {
+"id": "site-004",
+"rows_written": 10,
+"notes": "Wrote 10 rows from the institutions' own sites: addresses, phones and hours where an official page showed them. Skipped MM Jane (both rows) and FairCoop because their sites returned nothing. Left out CSR hours (Bač, Blace, Bečej) because the pages give times but no days. No hours were found for the banks, Start or Uroš. Alunno's pages carried injected spam links, but the contact data looked genuine. Grin auto's site is for a technical inspection and registration service, so I kept only its phones."
+},
+"net-ministarstvo-1": {
+"id": "net-ministarstvo-1",
+"rows_written": 22,
+"extra_written": 0,
+"notes": "I wrote data for 22 of the 28 ministry seats, all read from official ministry sites. Phones are the cabinet, duty, info-centre or main-line numbers each site publishes, and hours came from only 3 sites. Not found: zdravlje.gov.rs has no readable contact page. mre.gov.rs and kultura.gov.rs gave no address or main line (kultura gave only a mailing address). The sites for Nauka, Sport, Unutrašnja i spoljna trgovina and Javna ulaganja did not load, so those four are missing. Weak spots: mgsi and mod gave an address without a postal code, and the mduls.gov.rs footer data came from a page that returned a 404 code. The extra file is [].",
+"official_site": "https://www.srbija.gov.rs"
+},
+"site-007": {
+"id": "site-007",
+"rows_written": 3,
+"notes": "Found hours on 3 of 24 sites. Čačak CSR and Učenički centar Beograd publish \"07:00-15:00\" with no weekdays stated, so I wrote them without days. Jagodina dom lists non-stop (00-24). The other sites showed no hours on the home or contact page by text scan. Šid and Kraljevo returned empty responses. I did not fetch the Ćićevac, Bosilegrad, Jelica Milovanović, Milutin Milanković, Ivanjica, Kragujevac or Leskovac contact pages by hand."
+},
+"site-002": {
+"id": "site-002",
+"rows_written": 7,
+"notes": "7 of 24 institutions got a needed field: 1 address (Požarevac) and 6 hours (Subotica, Vranje, Šumadije archive, Državni arhiv reading room, Kikinda archive reading room, APR). For Kikinda I used the reading-room hours and for APR a footer line without days. Skipped Valjevo (its site shows a different MB), Kraljevo archive (hours only for its depot) and the agencies (no hours, or 404). Pirot was a blog. Seven sites were unreachable, blocked or empty: Apelacioni sud Niš, Arhiv Jugoslavije, Gornji Milanovac, Kraljevo pharmacy, Paraćin, and the Jagodina and Bela Crkva archives.",
+"official_site": "https://www.apr.gov.rs"
+},
+"site-010": {
+"id": "site-010",
+"rows_written": 4,
+"notes": "Found 4 of 24: addresses for Kuršumlija, Lučani (Guča) and Ljig, and general hours for Obrenovac. Most sites publish only per-service or shift hours, or were dead or empty (Kula, Mali Iđoš, Srpska Crnja, Novi Bečej), so those were left out. Lajkovac's address was not found."
+},
+"site-008": {
+"id": "site-008",
+"rows_written": 2,
+"notes": "Checked home and contact pages of all 24 sites. Only 2 yielded needed fields: Cuprija address (Kneza Milosa bb) and Alibunar hours (pon-pet 00-24). Most sites publish no general hours. Apatin lists only per-department hours, so I skipped it. Surdulica is unreadable (windows-1251, no text). Moja Kuca returned nothing. Backa Topola returned a shell. Zajecar and Bela Crkva contact pages had no usable address."
+},
+"site-009": {
+"id": "site-009",
+"rows_written": 2,
+"notes": "Of 24 institutions, 2 rows written. Bujanovac: hours, address and phone from its radno-vreme and contact pages (the site's address and phone differ from ours). Golubac: address with postal code only. Many sites were under construction, dead (Bojnik, Bosilegrad, Gadžin Han, Koceljeva returned nothing) or had no hours on the pages read. Stari Grad showed two conflicting hour lines, so it was skipped. Kovin's hours are in an image-only PDF, so none were written."
+},
+"site-012": {
+"id": "site-012",
+"rows_written": 4,
+"notes": "Wrote 4 rows: two addresses (Vladičin Han, Vršac) and two hours (Čačak, Žitorađa). Most sites publish no general hours, only per-service hours or none. Skipped Vrbas because its site shows a different address and phone from ours, so it may belong to someone else. Varvarin, Ćićevac, Čoka, Žabari and Kraljevo returned empty, dead or blocked pages. Elektrodistribucija showed no address or hours on the pages fetched."
+},
+"site-014": {
+"id": "site-014",
+"rows_written": 0,
+"notes": "Checked the home, contact and site-search pages of ni.rs, novisad.rs, pancevo.rs, pozarevac.rs and pirot.rs, in Latin and Cyrillic. None publishes office hours (radno vreme) in the HTML, so the output is []. The Pirot contacts PDF could not be read because there is no PDF text tool here."
+},
+"site-011": {
+"id": "site-011",
+"rows_written": 4,
+"notes": "Found data for 4 of 24: Rača hours (00-24), Preševo hours (07-20 weekdays, 08-18 weekends), Senta address plus general-medicine hours, Rekovac address without postal code. Most other sites publish no general hours. Ruma's site is a dead hosting stub and Pećinci's subpages return 404. The Sečanj hours on its site are for a pharmacy, so I left them out."
+},
+"site-016": {
+"id": "site-016",
+"rows_written": 5,
+"notes": "Found data for 5 of 24 institutions: hours for NP Tara (no days stated, so \"07:00-15:00\"), BB Term and JP Dom Leskovac, address for Zoo Bor, and address plus hours for Zoo Jagodina. The Zoo Jagodina address (Dragana Markovića Palme 15) differs from the one we hold. Zoo Bor and Golubac publish only monthly seasonal hours, so I left those out. The other sites showed no hours or no address, or timed out."
+},
+"site-013": {
+"id": "site-013",
+"rows_written": 7,
+"notes": "Found hours or address for 7 of 24 institutions: TF Zrenjanin, GC Sombor, GC Novi Sad, Kruševac (2 rows), Kraljevo and Leskovac. Hours were not found on the Bor, Jagodina (5 rows), Loznica, Niš (2 rows), TIMS, TF Novi Sad or Aleksinac pages, nor on the Kula, Ljubovija and Pančevo home pages. FTN publishes only a \"11.00-13.00\" student counter with no days, so it was left out. Užice faculty's TLS failed and I did not bypass it. Kruševac's page lists \"Radno vreme Gradske uprave 07:30-15:30\" with no days, and I wrote it as pon-pet."
+},
+"site-018": {
+"id": "site-018",
+"rows_written": 6,
+"notes": "Wrote hours for 4 institutions (Stan Užice, Eko Agrar, Bukulja, Tvrđava Bač) and addresses for 2 (Aleksinac, Aleksandrovac). Aleksandrovac's address comes from the municipality site, which hosts its page. Most sites publish no hours, and the Palić, Dečije odmaralište, Bogatić and Bor pages gave nothing or were unreachable. Tvrđava's hours are given without days because the page states none."
+},
+"site-017": {
+"id": "site-017",
+"rows_written": 5,
+"notes": "Found hours for Zoo Vrt, Jugoinspekt and Vode Vojvodine, and addresses for Ljubičevo and NP Kopaonik, all from official sites. Most others publish no hours. Sava Centar publishes no phone. gsanis.co.rs, osapazova.co.rs and koridorisrbije.rs returned no data to curl, so they were skipped. Badnjevo's only hours were for its consumer call line, so I left them out."
+},
+"site-015": {
+"id": "site-015",
+"rows_written": 2,
+"notes": "I wrote 2 rows. Sombor gets hours (pon-pet 08:00-15:00, the Service Centre's published hours). Rzav Arilje gets its address (Čačanska bb, 31230 Arilje). For Rzav I left out hours: the site only gives 24/7 for its control centre and plants, not public hours. The other 22 city-administration rows found no published hours within the fetch limit. Smederevo's site returned a bot-challenge page, so I skipped it. Vršac returned 403/404. Šabac's pages gave no address or hours. Sremska Mitrovica's site gave no usable contact or hours content."
+},
+"net-upravni-okrug-1": {
+"id": "net-upravni-okrug-1",
+"rows_written": 18,
+"extra_written": 0,
+"official_site": "https://nis.okrug.gov.rs (each district has its own <name>.okrug.gov.rs site)",
+"notes": "I wrote 18 of 23 rows, all matched by place because each district has one seat. Address and phones came from each district's own okrug.gov.rs site (Pomoravski via puo.rs). Hours were published only for Mačvanski (pon-pet 07:30-15:30), Šumadijski (07:30-15:30) and Toplički (07:00-15:00); the last two state no days, so I left them out. The Šumadijski and Toplički phone/address gaps were filled where the site gave them. Nothing was found for Borski, Podunavski or Pirotski (site is a \"coming soon\" page), and no hours for Kolubarski or Nišavski, so I left those rows out. The extra file is []."
+},
+"site-021": {
+"id": "site-021",
+"rows_written": 2,
+"notes": "Checked home and contact pages for all 24 institutions. Found Prostor Sombor office hours (pon-pet 07:00-15:00) and Stara Pazova Čistoća address. The other sites publish no office hours. Smederevska Palanka, Sečanj and Tutin sites show only the municipality's address, so I left those out. Recycling-yard hours (Komunalije) are for a facility, not the office, so I left them out too."
+},
+"site-022": {
+"id": "site-022",
+"rows_written": 6,
+"notes": "Found data for 6 of 24 institutions: Duboko (address, hours), KJP Zlatibor (hours), Zoohigijena Čajetina (address, phone, hours), Ravno 2014 (address), Stari grad Šabac (address), Infostan (phone 11011). Most other sites publish no working hours. Polet Valjevo and Varvarin sites returned nothing. Komunalac Vrbas's own site is only a software-vendor shell with no address or hours."
+},
+"site-026": {
+"id": "site-026",
+"rows_written": 6,
+"notes": "6 of 24 institutions had a needed field on their own official site: Bezdan address, and hours for Užice, Beogradski vodovod (Kneza Miloša 27 center), Zelenilo Sombor, Bačka Topola JP and Kraljevo JP. The rest of the 24 publish no hours or address on their sites, or the site was dead or parked (Bor, Bosilegrad, Kragujevac, Subotica). The weekday hours for Bačka Topola, Kraljevo and Užice are published as Mon-Fri or \"every working day\", so I wrote them as pon-pet."
+},
+"site-024": {
+"id": "site-024",
+"rows_written": 12,
+"notes": "I wrote 12 of the 24 institutions to the output file, each with at least one needed field read from its own site. The other 12 got nothing. Beočin, Bečej, Niš toplana and Knjaževac gave no readable data. Niš tržnica, Subotica pijace, Leskovac pijaca, Leskovac toplana, Kosjerić and Požarevac published no regular hours. Novi Pazar lists two conflicting schedules, so I skipped it. The Priboj website is the municipality's, not the toplana's. Jagodina's \"07:00-15:00\" and Kraljevo pijaca's seasonal hours are published without weekdays, so they carry none. Pogrebno Subotica's hours are the office's."
+},
+"site-023": {
+"id": "site-023",
+"rows_written": 6,
+"notes": "Found 6 of 24: hours for Inđija gas, Novi Pazar, Subotica and Novi Sad parking; addresses for Smederevo parking and Bačka Topola tržnica. Žabalj, Žitište, Žitorađa, Kanjiža and Subotica-Trans returned empty or blocked pages, and many other sites publish no office hours on the pages I read."
+},
+"site-019": {
+"id": "site-019",
+"rows_written": 6,
+"notes": "Found 6 of 24 on the institutions' own sites. Four addresses (Bor, Kruševac, Donji Milanovac, plus Gornji Milanovac and Grdelica with them) and hours for Gornji Milanovac, Grdelica and Loznica (pon-pet 07:00-15:00). Most other sites publish no hours on their contact pages. Knić's site only says \"bb\", so no new address, and Merošina has no phone. Bor's only hours were for the parking service, so I left them out."
+},
+"site-027": {
+"id": "site-027",
+"rows_written": 5,
+"notes": "Found hours for Majdanpek, Subotica (public hours), Kraljevo (no days published), Niš direkcija, and Kragujevac (also address, transliterated from Cyrillic). Skipped Pančevo (reception hours have no days stated), IMRS (only ambulatory intake hours), Priboj (site returned nothing), and the clinics, which publish no general hours. Novi Sad phones were not found on the site."
+},
+"site-025": {
+"id": "site-025",
+"rows_written": 5,
+"notes": "Found hours for Aleksinac (plus address Dušana Trivunca 7), Niš Naissus, Pančevo, Pećinci and Inđija (contact-centre hours). Valjevo and Prokuplje sites returned nothing. Kraljevo, Kruševac, Pirot and Crvenka are JS shells. The other sites publish no hours."
+},
+"site-020": {
+"id": "site-020",
+"rows_written": 3,
+"notes": "I wrote 3 of 24 institutions: pon-pet 07:30-15:30 for JKP Beogradski park, pon-pet 07:00-22:00 plus sub-ned 07:00-15:00 for JKP Veterina Beograd, and \"Bate Bulića bb, 12300 Petrovac na Mlavi\" for KJP Izvor. I left out the rest because their sites do not publish office hours. Four cases were ambiguous or not usable:\n- Čistoća Novi Sad: the only hours on the site sit under the landfill reception zone, so I skipped them.\n- Osečina: the contact page and the \"o nama\" page give two different street addresses.\n- Priboj and Rača: the sites are municipality sites, not the JKP's own."
+},
+"site-028": {
+"id": "site-028",
+"rows_written": 2,
+"notes": "Hours found on official contact pages for UKC Srbije and UKC Nis only. Most other sites had no readable hours. bkosa.edu.rs is a webmail login, kc-kg.rs and onk.ns.ac.rs returned empty, and the Google Sites page needs a login. Zvezdara's hours page lists hours per department, so I left it out."
+},
+"site-031": {
+"id": "site-031",
+"rows_written": 3,
+"notes": "Hours found on official pages for 3 of 24: Zaječar theatre, Alta Leasing, Užice theatre. The Užice figure is the box office, \"radnim danima\" read as pon-pet. Left out: Valjevo cinema box office, Subotica box office (performance days only) and Vršac KC (no days stated). The rest publish no hours."
+},
+"site-037": {
+"id": "site-037",
+"rows_written": 2,
+"notes": "Checked 24 hospital sites; most publish no general hours. Found Pirot address (pibolnica.rs/kontakt.html) and Kikinda 24h hours (obki.rs). Skipped Termal Vrdnik, Ribarska Banja and Smederevo, which publish only pool, cafe or unit-level hours; Novi Kneževac's hours belong to a different institution. Majdanpek, Negotin and Petrovac sites returned nothing, and Loznica, Prokuplje and Smederevska Palanka returned only a stub page."
+},
+"site-029": {
+"id": "site-029",
+"rows_written": 5,
+"notes": "I wrote 5 rows: addresses for Dadov, Bor and Kragujevac, and box-office hours for JDP and Zvezdara Teatar. Those hours are for blagajna (tickets), not the whole institution. Zvezdara's weekend hours vary by show, so I recorded weekdays only. The other 19 institutions publish no regular hours I could read. KCB's only hours notice was for the 11 Nov holiday, so I left it out. Ribnica lists several locations and no clear head-office address, so I skipped its address.",
+"official_site": "https://www.jdp.rs",
+"extra_written": 0
+},
+"site-033": {
+"id": "site-033",
+"rows_written": 10,
+"notes": "Wrote 10 rows (hours for 9 institutions, plus address and hours for Narodni muzej Niš, and address only for Galerija Pirot). Skipped: Leskovac and Muzej Ponišavlja Pirot (the site gives conflicting hours), Kruševac and Kraljevo (no public hours for the main museum, only for annexes or administration), Kragujevac (no hours found), Paraćin (site hijacked by spam), and Novi Pazar, Petrovac na Mlavi, Ruma and Sremska Mitrovica (site blocked, down or empty). The remaining sites (Arhiv Toplica, Narodni muzej Toplice, Gradska galerija Užice, GSLU Niš) had no hours. The Pančevo row includes both the summer and winter schedules as the site publishes them."
+},
+"site-030": {
+"id": "site-030",
+"rows_written": 5,
+"notes": "Found hours for 5 of 24: Leskovacki kulturni centar, Narodno pozoriste Leskovac (box office), Dečiji centar Niš, Narodno pozoriste Niš (box office), Dom kulture Srbobran. Skipped Sirmiumart (placeholder-looking phone, different address), Pančevo (gallery-only hours), KCNS (gallery/venue-specific hours), Novi Bečej (hours without days). Pozega and Sremska Mitrovica theatre sites returned nothing. No hours found on the other sites' home or contact pages. No address fills found."
+},
+"site-032": {
+"id": "site-032",
+"rows_written": 8,
+"notes": "Found hours for 7 museums (Kinoteka, Jugoslavije, Tesla, MPUS, Bor, Gornji Milanovac, Kovačica), the Bor address, and one landline for Muzej grada Beograda, all from their own sites. Left out the leasing firms (no hours with days), the Novi Sad tax office, Etnografski (ambiguous hours), MPU (two conflicting hours pages), Aleksandrovac, Bački Petrovac, Bačka Topola (500 error) and Bečej (empty page).",
+"extra_written": 0
+},
+"site-034": {
+"id": "site-034",
+"rows_written": 6,
+"notes": "Found hours for 6 of 24 institutions (Zaječar, Zrenjanin museum, Šid gallery, Sremska Mitrovica music school, Ada library, Bačka Palanka library). The other 18 sites published no hours in the pages I read, were unreachable, or only gave temporary exhibition hours (Ćuprija museum, skipped)."
+},
+"site-038": {
+"id": "site-038",
+"rows_written": 4,
+"notes": "Found 4 missing addresses (Vrbas, Vršac, Zaječar, Aleksinac) on the institutions' own sites. No working hours were published on any of the 24 sites, so none were added. Sremska Mitrovica, Praktična and Belа Crkva/Ada kontakt pages were dead or blocked (403/406); no hours were guessed."
+},
+"site-043": {
+"id": "site-043",
+"rows_written": 6,
+"notes": "Wrote 6 rows: full address with postal code for the 2 Majdanpek bodies (majdanpek.rs/contact) and 4 Medijana bodies (Pariske komune 2A, 18108 Niš, from medijana.rs/kontakt). Left out the Crveni Krst, Palilula, Pantelej and Niška Banja bodies, because medijana.rs is another municipality's site and gives no address for them. Mionica publishes no opening hours on its home or contact page, so those 4 rows have no data."
+},
+"site-036": {
+"id": "site-036",
+"rows_written": 10,
+"notes": "I wrote 10 institutions: 9 with hours, 2 with an address (Vranje and Bukovička Banja have both), and Titel with an address only. Several sites were dead or empty (Sremska Mitrovica, Valjevo, Subotica showing a demo page, Bor returning 403). Topola, Bela Crkva, Dedinje and Gornji Milanovac had no hours on the pages I checked, and Titel's hours had no days. Vladimirci, Šid, Vrnjačka Banja, Žitište, Aranđelovac ZC and Aleksinac gave only unusable hours or none (director-only, day-less or non-official SEO text), so they are left out."
+},
+"site-042": {
+"id": "site-042",
+"rows_written": 2,
+"notes": "Only the 2 Majdanpek rows got a needed field (address \"Svetog Save bb, Majdanpek\", from majdanpek.rs/contact; no postal code published). The hours the other 22 rows needed were not published on the pages I read (Aranđelovac, Kostolac, Lučani, Lajkovac contact pages, Kovačica and Kraljevo home pages). Bosilegrad's Kontakt and Informator pages returned 404. I did not check Kovačica's or Kraljevo's contact pages for hours."
+},
+"site-044": {
+"id": "site-044",
+"rows_written": 0,
+"notes": "No needed field was found on an official page, so the output is []. The Niška Banja site (medijana.rs) belongs to a different municipality, so it was skipped. Pančevo, Požarevac, Rača, Rekovac and Nova Crnja publish contact pages with no working hours. Preševo's site returned only a shell, and its contact URLs returned 404. Raška's site is a Joomla page with no readable contact page."
+},
+"site-045": {
+"id": "site-045",
+"rows_written": 3,
+"notes": "Only Trstenik publishes working hours (07:00-15:00 every working day on trstenik.rs/kontakt-2/); wrote it for its 3 bodies. Sokobanja, Sremski Karlovci, Temerin, Titel, Velika Plana and Žabalj sites show no hours on home or contact pages (Temerin contact pages returned nothing), so they were left out."
+},
+"site-046": {
+"id": "site-046",
+"rows_written": 3,
+"notes": "Wrote 3 rows: Argo address, Merkur phones and email (Beograd/Novi Sad numbers, no Kragujevac address or hours published), Safe Life address. None of the schools or the other insurers publish hours on their pages. Byroja Kosovare is a Prishtina body with a +383 number, so I left it out. The AMS and Jozef Marcok sites returned no usable content."
+},
+"site-039": {
+"id": "site-039",
+"rows_written": 3,
+"notes": "Found hours for Bela Palanka (pon-pet 07:00-15:00) and Ivanjica (radnim danima 07:00-15:00, break not included), and Knić address (Centar bb, 34240 Knić). The other municipal sites publish no hours on the pages checked; Kuršumlija's site returned empty (skipped); Despotovac returned a near-empty shell."
+},
+"site-048": {
+"id": "site-048",
+"rows_written": 2,
+"notes": "Checked home and Kontakt pages of all 24 school sites. Only two publish working hours: Varda (pon-pet 07:00-14:00) and Mito Igumanović (pon-pet 08:00-17:00). The other schools' sites show no hours (the Kladovo page only has a bell schedule), or were empty or blocked."
+},
+"site-047": {
+"id": "site-047",
+"rows_written": 1,
+"notes": "Fetched all 24 sites and their contact pages with curl. Only OS \"Veljko Dugošević\" publishes hours (pon-pet 08:00-19:00) on its Kontakt page. The other 23 publish no hours or address on the pages I read. The Bor \"Dušan Radović\" site returned an empty response. The Mika Mitrović contact page rendered no text. I did not use curl -k, which the sandbox blocked, so sites with broken certificates may have been missed."
+},
+"site-040": {
+"id": "site-040",
+"rows_written": 3,
+"notes": "Found hours for Lapovo, Majdanpek (plus address) and Medveđa on their own contact pages. Most other municipal sites do not publish working hours on their home or contact pages, and Prijepolje and Preševo showed no address or phone. Those were left out. Mionica's only hours were for its free legal aid office, so I skipped them."
+},
+"site-049": {
+"id": "site-049",
+"rows_written": 2,
+"notes": "Found hours for 2 of 24 schools: Kosta Đukić (contact page, pon-pet 08:00-20:00) and Slobodan Penezić-Krcun (home page header, pon-pet 07:30-14:00). Four sites were dead or unreachable (Miloje Zakić, Branko Radičević, Vera Radosavljević, Karavukovo had almost no content). Guča publishes only staff and administration hours, so I skipped it. The rest showed no public hours on the pages I fetched."
+},
+"site-041": {
+"id": "site-041",
+"rows_written": 4,
+"notes": "Hours found on the official sites of 4 of 24 municipalities: Trstenik, Ćuprija, Veliko Gradište and Ćićevac. The other 20 sites publish no opening hours on the pages I checked, or are dead (Vladičin Han, Žitište). The Aleksinac Skupština page has no address, so that one is not filled.",
+"extra_written": 0
+},
+"site-053": {
+"id": "site-053",
+"rows_written": 1,
+"notes": "Only one hours field was clearly published (OŠ Vuk Karadžić Zrenjanin: pon-pet 07:00-19:00). Most school sites publish no working hours (only bell schedules), several were dead or unreachable, and the pension fund's hours were ambiguous so they were left out."
+},
+"site-035": {
+"id": "site-035",
+"rows_written": 18,
+"notes": "Wrote 18 rows (17 with hours, plus Bor and Ljubovija addresses). Skipped Doljevac, Jagodina, Kragujevac, Prokuplje (no hours found), Novi Pazar (only per-department hours, no address), Ruma (JS-only site) and Petrovac na Mlavi (site unreachable). Bogatić and Kula publish hours without days, so those two are written without day names."
+},
+"site-054": {
+"id": "site-054",
+"rows_written": 5,
+"notes": "Found hours for 5 of 24 institutions (DDOR Garant, Dunav Union, Led Pay, TransferNova, Ustavni sud). The Ustavni sud entry is the court-filing counter hours (pon-pet 09:00-14:00) from a 2008 official decision; staff hours are 08:30-16:30. Raiffeisen Future publishes only a phone-line window (09-17h) with no days, so it was left out. The other sites show no hours on their home or contact pages; a few pages are JS-rendered or returned nothing (Tenfore, Poletarac, Bambi)."
+},
+"site-051": {
+"id": "site-051",
+"rows_written": 0,
+"notes": "I scanned the home pages and contact/about pages of all 24 school sites. None published working hours, and neither of the two address gaps could be filled. Four sites returned nothing (Tatko, Žitni Potok, Grabovci, Narod's page was a stub), so I left them out. I wrote an empty array, since a partial correct file beats a shaky one."
+},
+"site-052": {
+"id": "site-052",
+"rows_written": 7,
+"notes": "Found 7 addresses (no hours) on the schools' own contact pages. None of the 24 sites publishes opening hours; Nada Matić lists only school shift times, which I left out. Kneginja Milica and Kuštilj sites gave nothing, and the Sremska Mitrovica, Karlovci, Stara Pazova Pinki and Svrljig sites were dead or blocked."
+},
+"site-050": {
+"id": "site-050",
+"rows_written": 4,
+"notes": "Found hours for Mika Antić (Pančevo), Mara Mandić and Momčilo Popović Ozren, plus Popovac's address. Most schools publish no hours; Zmaj, Sveti Sava Pančevo and Đura Jakšić Paraćin sites returned nothing. Branko Krsmanović's old site shows \"7-15\" with no days and no street, so I left it out.",
+"official_site": "https://osmantic.edu.rs"
+},
+"site-055": {
+"id": "site-055",
+"rows_written": 6,
+"notes": "I found data for 6 of 24 institutions: 5 hours entries (Palilula, Vračar, Rakovica, Savski Venac, Boljevac) and 1 address (Bački Petrovac, \"Jarmočna 11\", which differs from the \"Jarmočna bb\" we hold). Some hours lack stated days, so they have no day prefix. For Rakovica, I used the administrative-services public hours. For Savski Venac and Boljevac, I used the kindergarten's general opening hours. The other 18 sites had no readable hours, or were dead, empty or JS-only (Gadžin Han, Kosjerić, Bor). For Čukarica, the site gave no central phone number.",
+"official_site": "institutions' own websites"
+},
+"site-056": {
+"id": "site-056",
+"rows_written": 4,
+"notes": "Found 4 of 24: address with postal code for Kovačica and Mionica, address and weekday hours for Niš Pčelica, hours for Majdanpek. Most kindergarten sites publish no general opening hours. I skipped Merošina because its pages gave two conflicting hour ranges. I skipped Kovin because its page gives hours with no days, and 11. April because its page only gives enrolment-committee hours. Lazarevac and Medveđa returned nothing usable."
+},
+"site-058": {
+"id": "site-058",
+"rows_written": 5,
+"notes": "Found hours for 4 kindergartens (Tutin, Vrnjačka Banja, Vršac, Žabalj) and a postal-code address for Ćuprija. Skipped the rest: Užice, Šabac and Veliko Gradište publish only shifts or hours without days. Valjevo's page shows city administration hours, not the kindergarten's. Medigroup showed no hours. The remaining sites showed no hours in 1-2 fetches. IMRS hours are institute-wide, not for the lab, so I left them out."
+},
+"site-057": {
+"id": "site-057",
+"rows_written": 3,
+"notes": "I checked all 24 kindergarten sites and found 3 usable fields. Prijepolje (pon-pet 06:00-20:30) and Svilajnac (pon-pet 07:00-18:00) have hours, and Raška has an address with postal code. Most sites publish no hours. Pančevo and Novi Banovci returned nothing, and Pirot returned almost nothing. I skipped Priboj because its page lists the municipality's hours, not the kindergarten's. I skipped Požega because its 5:30-17:30 times name no days. Sečanj and Novi Banovci needed an address; I found none, and Novi Banovci's site gave no content."
+},
+"site-060": {
+"id": "site-060",
+"rows_written": 12,
+"notes": "12 of 24 institutions got at least one field, all read from the organisation's own site. Skipped: Medilab, Medigroup Palilula and Beo-lab (3 rows and Pančevo), because the sites list many locations and none can be tied to our row. Dr Cvjetković was skipped because the site shows Cara Dušana 26, not our Balzakova. Motus and Pulmo centar were skipped because their sites were blocked or broken. Balkan Eye and Gerontološki centar had no public hours (only visiting hours at the latter). New Hospital had no hours."
+},
+"site-062": {
+"id": "site-062",
+"rows_written": 12,
+"notes": "12 of 24 institutions got at least one needed field, read from their own sites. I left out the rest: Laboratorija Bulevar's site is dead. For Bel Prime, Dr Vorobjev, Centar za prevenciju (Batut) and Beo-lab (Resavska branch) the site shows a different address than ours, so I did not add data that might belong to another branch. For Cardio plus, Damiba, Komnenović, LaserFocus, Ortho Expert and Ćuprija the site publishes no hours. For Terazije the site gives hours without weekdays.",
+"official_site": "institutions' own websites"
+},
+"site-059": {
+"id": "site-059",
+"rows_written": 12,
+"notes": "12 of 24 institutions filled from their own sites: 8 with hours, 4 with a missing address or phones. The other 12 were skipped. Dead or blocked sites: mslab.rs, cardiopraxis.rs, analiza.co.rs, mediagroup.rs, povezise.weebly.com. No usable page: Konzilijum, Human, In Balance. Beo-lab publishes only date-specific hours. Jugolab Apatin lists a different address from ours. The two Lazarevac entries (Hemikal, Aqualab) have no Lazarevac listing on their sites."
+},
+"site-064": {
+"id": "site-064",
+"rows_written": 3,
+"notes": "Only three of the 24 institutions yielded needed fields: the DST-Revizija hours and the CONEO hours (two rows), plus the CONEO Consulting phone. The other sites publish no opening hours; crowe.rs is behind a bot check, fineks-sj.rs returns nothing, and auditor.rs has no contact page, so I skipped those."
+},
+"site-065": {
+"id": "site-065",
+"rows_written": 2,
+"notes": "Found published hours for 2 of 24 firms (I&V Audit, Most Revizija) on their own contact pages. The other sites publish no hours or phones, or are JS-only or blocked (Finrevizija and MC Global returned nothing), so those were left out."
+},
+"site-063": {
+"id": "site-063",
+"rows_written": 7,
+"notes": "Found 7 rows (phones, hours or address) on the institutions' own sites. Skipped: the three privredni sudovi (sites refuse connections), Pametnica (site belongs to a Maarif school in Sjenica), and Preporod, Trezor, Becky and Belex (no data returned). No hours published for Futurino, Happy kids, Educa, Biro M, Rades, Vračarac or ACA. The Aktiva Sistem address is the Novi Sad office, published without a postal code."
+},
+"site-066": {
+"id": "site-066",
+"rows_written": 4,
+"notes": "Found DST (phones, hours) and three TPA entities (hours, plus the phone for two). Most other audit firm sites publish no hours. Skipped the second Privredni savetnik row and Profit PlusWest because the site shows a different company or address. PwC, Sigma and Roedl returned shells or generic pages."
+},
+"site-061": {
+"id": "site-061",
+"rows_written": 12,
+"notes": "12 of 24 institutions filled from their own sites (addresses, phones, hours). Skipped: dentalb.rs and covid19.rs (dead), talijalab.com (hijacked by an unrelated site), the Beo-lab Stari grad branches and Vizim (branch ambiguous), and Laza Lazarević, GAK, Psihocentrala and Topola (no hours published or readable). Aqualab address (Kneginje Zorke 30) was matched by phone because the site lists two Kneginje Zorke addresses."
+},
+"site-068": {
+"id": "site-068",
+"rows_written": 2,
+"notes": "Found addresses for the two Belgrade secretariats that lacked them (javne prihode, javni prevoz) on beograd.rs. No working hours were published on any beograd.rs secretariat page, the UIS contact page, or Bojić. Vizura's domain is a parked hosting page; Moore's site has no Zrenjanin contact details or hours. Postal codes were not published, so addresses end in \", Beograd\".",
+"official_site": "https://www.beograd.rs"
+},
+"site-072": {
+"id": "site-072",
+"rows_written": 1,
+"notes": "Checked all 24 school sites (home and contact pages). Only the Kostolac technical school published anything we needed: its full address and an email. No other school publishes opening hours. The Zemun and Bečej economics school sites returned near-empty pages, so I skipped them."
+},
+"site-067": {
+"id": "site-067",
+"rows_written": 4,
+"notes": "Found hours for 4 firms (ijfr, DST/Etilen, AUDIT ProTeam, Centar za reviziju) plus 3 landline phones for DST; other sites gave no hours, or only head-office/other-branch data for branches (Kreston, Ecovis, Finrevizija, Moore), or were dead/blocked (Auditing, Kapital hours absent, KPMG, Moore)."
+},
+"site-071": {
+"id": "site-071",
+"rows_written": 4,
+"notes": "Found 4 of 24: Soko Sombor hours, Veliki Park Užice address/phone/email, Vrnjačka Banja SC address and hours, Peta beogradska gimnazija admin hours. Most school sites publish no office hours (only class bell schedules, which I did not use). Tehnička škola Apatin and Bela Palanka sites did not load, so I skipped them. The Zrenjanin site has no address or hours on its pages."
+},
+"site-074": {
+"id": "site-074",
+"rows_written": 3,
+"notes": "I found at least one needed field for 3 of the 24 schools. Most sites don't publish working hours on their contact pages. Gimnazija Raška has an address on its contact page that differs from ours (Miluna Ivanovića 2, not Omladinska bb). Kraljica Jelena has an address (Omladinski centar bb, 36350 Raška). Sečanj publishes hours as 07:00-15:00 with no weekdays given, so I left the days out. I skipped the Ruma \"Branko Radičević\" address because the site gives only the same \"Partizanska bb\" we already hold. The Prokuplje gimnazija site returned nothing."
+},
+"site-075": {
+"id": "site-075",
+"rows_written": 3,
+"notes": "Found published hours for 3 of 24 schools (Srbobran office 08:00-14:00, Vršac HMS 07:00-19:30, Zrenjanin Uroš Predić pon-pet 08:00-20:00). The first two sites state no weekdays, so hours are given without days. Other sites showed no hours in a keyword scan of the home page and contact-like pages (not read by hand). Vladimirci address not found on site. Vladičin Han site returned nothing."
+},
+"site-076": {
+"id": "site-076",
+"rows_written": 7,
+"notes": "Found 7 of 24: 4 addresses (Tehnička Ćuprija, AbDental, In Dental, Prosmile) and 3 hours (Bobić, Marjanov, Milošević), all read on the institutions' own sites. Not found: most school sites publish no hours, several dental sites were unreachable (Komnenović, Pro Dental, Novodent, Dr Đukić, New Dental, 2m Ortho), Nikodijević's domain is hijacked with spam, Medicinska Ćuprija returns 500, and JGO's only website is a Google Maps link (not allowed)."
+},
+"site-070": {
+"id": "site-070",
+"rows_written": 5,
+"notes": "I wrote 5 rows: Gejzer hours (00-24), addresses for Novi Pazar, Kragujevac Radnicki, Kursumlija and Pancevo Mladost. I found no hours on most sites. Pirot's contact page lists conflicting hours (pon-pet 09-17 on one block, pon-ned 07-22 in the footer, two different street numbers), so I left it out. Novi Sad rheumatology shows 6.30-14.30 with no days, so I skipped it. Ozren's site is dead, and Rusanda's and Bor's contact pages had no address. Kula's contact page has no phone or hours."
+},
+"site-078": {
+"id": "site-078",
+"rows_written": 6,
+"notes": "Hours found for 6 of 24 (Irig, Knić, Knjaževac, Kovin, Kraljevo, Lebane) from their own sites. Skipped Jagodina (no days given) and Kruševac (hours only for the separate info centre). Knić and Leskovac addresses were not published in a usable form. The other sites had no readable hours."
+},
+"site-073": {
+"id": "site-073",
+"rows_written": 0,
+"notes": "I fetched all 24 school sites (home pages, then contact and about pages) and found no published opening hours on any of them. I searched the text for hour patterns and for \"radno vreme\" and \"rad sa strankama\". I also spot-checked four contact pages by hand and saw no hours there either. Hours were the only field needed. The output is an empty array \"[]\"."
+},
+"site-069": {
+"id": "site-069",
+"rows_written": 4,
+"notes": "Found 4 of 24: Vinča phone, addresses for Junaković, Kanjiža and Agens, and Agens hours (00-24). No other institution published public hours as text. Hours were not found for the rest, and a Ribarska Banja address was not found. Banja Koviljača links its hours as an image-only PDF that I could not read without OCR. Bujanovac's site returns 403, Ivanjica's is suspended, and Bukovička Banja publishes only a weekly director's slot, which I did not use."
+},
+"site-081": {
+"id": "site-081",
+"rows_written": 4,
+"notes": "Wrote 4 of 24: hours for Vranje, Šid and Žabalj, and hours plus postal-code address for Čačak. Vlasotince publishes 07:00-15:00 but gives no days, so I left it out. Zapadna Srbija (Užice) returned nothing. Most other sites showed no hours in the fetched home or contact pages. I checked only the home page and one contact page per site, with no deeper crawl."
+},
+"site-077": {
+"id": "site-077",
+"rows_written": 7,
+"notes": "Found published hours on 7 of 24 sites (Bač, Bačka Topola, Bački Petrovac, Brus, Crna Trava, Golubac, Gornji Milanovac). Skipped Aleksandrovac (hours given without days) and Bela Crkva (the published hours belong to the separate info centre, not the office). The other 15 sites showed no hours, or were JS-only or empty (Alibunar)."
+},
+"site-082": {
+"id": "site-082",
+"rows_written": 6,
+"notes": "Found hours for 6 of 24 institutions: Univerzitetska biblioteka (unilib.rs), GO Zemun uprava, and the four GO Lazarevac rows (sharing one page). Zemun phones were not on the site. The rest published no readable hours or had no contact page. I did not use the Lazarevac call-centre hours (7-14:30) because they are not the municipality's public hours.",
+"extra_written": 0
+},
+"site-086": {
+"id": "site-086",
+"rows_written": 6,
+"notes": "6 of 24 institutions had a needed field published on their own sites: 2 addresses (Pet Vet Care, Zootopija) and 4 public-health institute hours (Kraljevo, Sombor, Sremska Mitrovica, Subotica). Skipped Bikovo vet (site shows a different clinic name and address), Sirmijum (hours with no days), Kikinda and Kragujevac (only lab or sample-intake hours), and Pirot, Šabac, Požarevac and the rest (nothing found, or dead site). Zootopija's address came from the site's JS bundle, not a visible page."
+},
+"site-084": {
+"id": "site-084",
+"rows_written": 6,
+"notes": "Found 6 of 24: addresses for 4, hours for 4. Most other sites list no hours, or only visiting or staff hours with no days. Several sites were dead, unreachable, or 429-limited (uzsnp.rs, centarlokalnihuslugakv.rs, ustanovakoracikg.rs). Bash curl was denied by the auto-mode classifier, so I used WebFetch only. Dom omladine returned no content."
+},
+"site-080": {
+"id": "site-080",
+"rows_written": 6,
+"notes": "Found hours for Raška, Ražanj, Sjenica (plus corrected address), Sremski Karlovci, Subotica and Trstenik. Skipped Smederevo (conflicting hours across pages) and Sremska Mitrovica (hours belong to the info centre, not the organisation). Ruma and Tutin sites returned nothing; the rest publish no hours."
+},
+"site-083": {
+"id": "site-083",
+"rows_written": 5,
+"notes": "Found 5 of 24: 2 addresses (IES, Institut za šumarstvo) and 3 hours (Lasta Kovin, Ustanova za sport Kovin, Teatar Vuk box office). Most institute sites publish no hours. IMSI and CEO contact pages were 404 and the Abrašević site returned empty. The Sport Kovin site gives no weekdays, so its hours are written without days."
+},
+"site-079": {
+"id": "site-079",
+"rows_written": 5,
+"notes": "Found hours for Merošina, Novi Sad, Paraćin and Požega, and a full address with postal code for Novi Pazar. The other 19 sites had no published hours or address on the pages checked. Three sites (Mali Zvornik, Nova Crnja, Odžaci/Zlatar) returned empty or dead responses."
+},
+"site-085": {
+"id": "site-085",
+"rows_written": 4,
+"notes": "Found 3 addresses (Atletski stadion, Kolevka, Vranje CSZ) and Suncokreti hours (no weekdays published, so none given). Most sites publish no hours. Zoo Palić shows only a dynamic \"today\" time, so it was skipped. Sites for Srem, Abrašević, Trnavac and Dom omladine Vršac were unreachable; Titelski Breg is under construction; pvcb.rs is parked."
+},
+"site-087": {
+"id": "site-087",
+"rows_written": 6,
+"notes": "The file has 6 of the 18 institutions: Užice (hours), Čačak (phone), Beograd monument institute (address, hours), Kragujevac (address), Kraljevo (hours), Pančevo (address, hours). The Užice and Beograd pages give hours without naming days, so those two have no \"pon-pet\" prefix. The 12 others are left out. Novi Sad's site is now a spam site. Smederevo, Valjevo ZZJZ and Zrenjanin ZZJZ returned no usable page, the last behind a Cloudflare check. Šabac publishes hours only per department. The remaining sites show no hours or address."
+}
+}

@@ -1,0 +1,373 @@
+{
+ "kind": "network",
+ "title": "Apotekarska ustanova \"Žalfija\"",
+ "type": "apoteka",
+ "orgs": [
+  {
+   "org_slug": "apotekarska-ustanova-zalfija-svrljig",
+   "name": "Apotekarska ustanova \"Žalfija\"",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 11762,
+     "unit": "Sedište Apoteka Žalfija",
+     "place": "Svrljig",
+     "address": "Hadžićeva broj 2",
+     "phones": "018 822768; 060 4551181",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11763,
+     "unit": "Apoteka Alfapharm",
+     "place": "Knjaževac",
+     "address": "Trg Oslobođenja broj 41",
+     "phones": "019 737711; 060 4551191",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11764,
+     "unit": "Apoteka Alfapharm Centar",
+     "place": "Knjaževac",
+     "address": "Knjaza Miloša broj 4",
+     "phones": "019 737027; 060 4551192",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11765,
+     "unit": "Apoteka Alfapharm Boljevac",
+     "place": "Boljevac",
+     "address": "Kneza Miloša broj 1",
+     "phones": "030 461590; 060 4551193",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11766,
+     "unit": "Apoteka Alfapharm Bor",
+     "place": "Bor",
+     "address": "3. oktobar broj 10",
+     "phones": "030 459400; 060 4551195",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11767,
+     "unit": "Apoteka Žalfija Bela Palanka",
+     "place": "Bela Palanka",
+     "address": "Srpskih vladara broj 34",
+     "phones": "018 856946; 060 4551184",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11768,
+     "unit": "Apoteka Alfapharm Zaječar",
+     "place": "Zaječar",
+     "address": "Ljube Nešića broj 117",
+     "phones": "019 431258; 060 4551196",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11769,
+     "unit": "Apoteka Žalfija DZ Niš",
+     "place": "Niš",
+     "address": "Vojvode Tankosića broj 28",
+     "phones": "018 4201495; 060 4551182",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11770,
+     "unit": "Apoteka Žalfija Brus",
+     "place": "Brus",
+     "address": "Kralja Petra I broj 52",
+     "phones": "037 826513; 060 4551183",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11771,
+     "unit": "Apoteka Alfapharm Zaječar 3",
+     "place": "Zaječar",
+     "address": "Dobrivoja Bobija Radosavljevića bb",
+     "phones": "019 424744; 060 4551198",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11772,
+     "unit": "Apoteka Žalfija Svrljig 2",
+     "place": "Svrljig",
+     "address": "Hadžićeva broj 40",
+     "phones": "060 4551103",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11773,
+     "unit": "Apoteka Žalfija Arilje",
+     "place": "Arilje",
+     "address": "Braće Mihajlović broj 8",
+     "phones": "031 892620; 060 4559300",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11774,
+     "unit": "Apoteka Žalfija Brus 2",
+     "place": "Brus",
+     "address": "Kralja Petra Prvog broj 9",
+     "phones": "037 825250; 060 4551173",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11775,
+     "unit": "Apoteka Žalfija Bela Palanka 2",
+     "place": "Bela Palanka",
+     "address": "Branislava Nušića broj 3",
+     "phones": "018 85405406",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11776,
+     "unit": "Apoteka Žalfija Prijepolje",
+     "place": "Prijepolje",
+     "address": "Izeta Čavića broj 30",
+     "phones": "060 4551121",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11777,
+     "unit": "Apoteka Žalfija Priboj",
+     "place": "Priboj",
+     "address": "Nemanjina broj 53",
+     "phones": "060 4551170",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11778,
+     "unit": "Apoteka Alfapharm 2",
+     "place": "Knjaževac",
+     "address": "Knjaza Miloša bb",
+     "phones": "060 4551120",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11779,
+     "unit": "Apoteka Žalfija Bor 2",
+     "place": "Bor",
+     "address": "Zeleni bulevar broj 1",
+     "phones": "030 42215006",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11780,
+     "unit": "Apoteka Žalfija Prijepolje 2",
+     "place": "Prijepolje",
+     "address": "Dimitrija Tucovića 7",
+     "phones": "033 78041406",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11781,
+     "unit": "Apoteka Žalfija Ivanjica",
+     "place": "Ivanjica",
+     "address": "Venjamina Marinkovića 192",
+     "phones": "032 66005106",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11782,
+     "unit": "Apoteka Žalfija Niš 2",
+     "place": "Niš",
+     "address": "Bulevar Nemanjića broj 33",
+     "phones": "060 4551104",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11783,
+     "unit": "Apoteka Žalfija Ivanjica 2",
+     "place": "Ivanjica",
+     "address": "Uroša Stefanovića broj 15",
+     "phones": "060 4551108",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11784,
+     "unit": "Apoteka Žalfija Prijepolje 3",
+     "place": "Prijepolje",
+     "address": "Izeta Čavića broj 4",
+     "phones": "060 4551102",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11785,
+     "unit": "Apoteka Žalfija Boljevac",
+     "place": "Boljevac",
+     "address": "Obilićeva broj 1",
+     "phones": "060 4551125",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11786,
+     "unit": "Apoteka Žalfija Knjaževac",
+     "place": "Knjaževac",
+     "address": "4. juli bb",
+     "phones": "060 4551127",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11787,
+     "unit": "Apoteka Žalfija Arilje 2",
+     "place": "Arilje",
+     "address": "Trg bratstva jedinstva bb",
+     "phones": "060 4551128",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11788,
+     "unit": "Apoteka Žalfija Pirot",
+     "place": "Pirot",
+     "address": "Dragoševa broj 140",
+     "phones": "060 4551126",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11789,
+     "unit": "Apoteka Žalfija Požega",
+     "place": "Požega",
+     "address": "Trg slobode broj 2",
+     "phones": "060 4551134",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11790,
+     "unit": "Apoteka Žalfija Niš 3",
+     "place": "Niš",
+     "address": "Sinđelićev trg broj 26",
+     "phones": "060 4551135",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11791,
+     "unit": "Apoteka Žalfija Brodarevo",
+     "place": "Prijepolje",
+     "address": "Bratstva jedinstva bb",
+     "phones": "060 4559311",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11792,
+     "unit": "Apoteka Žalfija Raška",
+     "place": "Raška",
+     "address": "Železnička bb",
+     "phones": "060 4746040",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11793,
+     "unit": "Apoteka Žalfija Tutin",
+     "place": "Tutin",
+     "address": "Revolucije bb",
+     "phones": "060 4744849",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    }
+   ]
+  }
+ ],
+ "id": "net-apotekarska-ustanova-zalfija-svrljig"
+}

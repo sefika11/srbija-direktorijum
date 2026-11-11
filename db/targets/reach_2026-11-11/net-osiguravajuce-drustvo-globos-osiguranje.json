@@ -1,0 +1,425 @@
+{
+ "kind": "network",
+ "title": "Globos osiguranje",
+ "type": "osiguravajuce-drustvo",
+ "orgs": [
+  {
+   "org_slug": "osiguravajuce-drustvo-globos-osiguranje",
+   "name": "Globos osiguranje",
+   "website": "https://www.globos.rs",
+   "rows": [
+    {
+     "location_id": 21730,
+     "unit": "Poslovnica",
+     "place": "Pančevo",
+     "address": null,
+     "phones": "013 2155877; 013 2155878",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23319,
+     "unit": "Poslovnica",
+     "place": "Novi Beograd",
+     "address": null,
+     "phones": "011 3636958",
+     "hours": "Mo-Fr 08:30-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23320,
+     "unit": "Poslovnica Bulevar Mihajla Pupina 14",
+     "place": "Novi Sad",
+     "address": "Bulevar Mihajla Pupina 14",
+     "phones": "021 520043",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 23321,
+     "unit": "Poslovnica",
+     "place": "Medijana",
+     "address": null,
+     "phones": "018 4150125; 018 4150124",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23322,
+     "unit": "Poslovnica",
+     "place": "Kragujevac",
+     "address": null,
+     "phones": "034 6170161",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23323,
+     "unit": "Poslovnica",
+     "place": "Novi Pazar",
+     "address": null,
+     "phones": "020 5150202",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23324,
+     "unit": "Poslovnica",
+     "place": "Valjevo",
+     "address": null,
+     "phones": "014 3155128",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23325,
+     "unit": "Poslovnica",
+     "place": "Kruševac",
+     "address": null,
+     "phones": "037 3150152",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23326,
+     "unit": "Poslovnica",
+     "place": "Šabac",
+     "address": null,
+     "phones": "015 7150013",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23327,
+     "unit": "Poslovnica Devet Jugovića 23",
+     "place": "Čačak",
+     "address": "Devet Jugovića 23",
+     "phones": "032 343675",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 23328,
+     "unit": "Poslovnica Kralja Petra I 28",
+     "place": "Sremska Mitrovica",
+     "address": "Kralja Petra I 28",
+     "phones": "022 610755",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 23329,
+     "unit": "Poslovnica",
+     "place": "Zrenjanin",
+     "address": null,
+     "phones": "023 3150229",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23330,
+     "unit": "Poslovnica",
+     "place": "Smederevo",
+     "address": null,
+     "phones": "026 4155063",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23331,
+     "unit": "Poslovnica",
+     "place": "Vranje",
+     "address": null,
+     "phones": "017 7150231; 017 7150232",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23332,
+     "unit": "Poslovnica Dr Voje Dulića 39",
+     "place": "Požarevac",
+     "address": "Dr Voje Dulića 39",
+     "phones": "012 7160196; 012 7160197",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 23333,
+     "unit": "Poslovnica",
+     "place": "Subotica",
+     "address": null,
+     "phones": "024 4545250",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23334,
+     "unit": "Poslovnica",
+     "place": "Ub",
+     "address": null,
+     "phones": "014 3150551",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23335,
+     "unit": "Poslovnica Stojana Ljubića 12",
+     "place": "Leskovac",
+     "address": "Stojana Ljubića 12",
+     "phones": "016 3150332",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 23336,
+     "unit": "Poslovnica Venac vojvode Radomira Putnika 41",
+     "place": "Sombor",
+     "address": "Venac vojvode Radomira Putnika 41",
+     "phones": "025 5150597; 025 5150598",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27347,
+     "unit": "Globos osiguranje Beograd",
+     "place": "Beograd",
+     "address": "Milutina Milankovića 23",
+     "phones": "011 6550628; 011 6550129; 011 6550631; 011 6550117; 011 4501304; 011 6550627",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 27348,
+     "unit": "Globos osiguranje Novi Sad",
+     "place": "Novi Sad",
+     "address": "Bulevar Mihajla Pupina 14",
+     "phones": "021 520043",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 27349,
+     "unit": "Globos osiguranje Niš",
+     "place": "Niš",
+     "address": "7. jula 6a",
+     "phones": "018 4150125; 018 4150124",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 27350,
+     "unit": "Globos osiguranje Kragujevac",
+     "place": "Kragujevac",
+     "address": "Karađorđeva 34",
+     "phones": "034 6170161",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 27351,
+     "unit": "Globos osiguranje Novi Pazar",
+     "place": "Novi Pazar",
+     "address": "Stevana Nemanje bb",
+     "phones": "020 5150202",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 27352,
+     "unit": "Globos osiguranje Valjevo",
+     "place": "Valjevo",
+     "address": "Vuka Karadžića 23",
+     "phones": "014 3155128",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 27353,
+     "unit": "Globos osiguranje Kruševac",
+     "place": "Kruševac",
+     "address": "Bruski put bb",
+     "phones": "037 3150152",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 27354,
+     "unit": "Globos osiguranje Šabac",
+     "place": "Šabac",
+     "address": "Kneza Miloša 1",
+     "phones": "015 7150013",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 27355,
+     "unit": "Globos osiguranje Zrenjanin",
+     "place": "Zrenjanin",
+     "address": "Pupinova 15",
+     "phones": "023 3150229",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 27356,
+     "unit": "Globos osiguranje Smederevo",
+     "place": "Smederevo",
+     "address": "Miloša Velikog 11",
+     "phones": "026 4155063",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 27357,
+     "unit": "Globos osiguranje Vranje",
+     "place": "Vranje",
+     "address": "Oca Justina Popovića 3",
+     "phones": "017 7150231; 017 7150232",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 27358,
+     "unit": "Globos osiguranje Požarevac",
+     "place": "Požarevac",
+     "address": "Voje Dulića 29",
+     "phones": "012 7160196; 012 7160197",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 27359,
+     "unit": "Globos osiguranje Subotica",
+     "place": "Subotica",
+     "address": "Cara Dušana 6",
+     "phones": "024 4545250",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 27360,
+     "unit": "Globos osiguranje Pančevo",
+     "place": "Pančevo",
+     "address": "Dimitrija Tucovića 1a",
+     "phones": "013 2155877; 013 2155878",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 27361,
+     "unit": "Globos osiguranje Ub",
+     "place": "Ub",
+     "address": "Kralja Petra I Oslobodioca 50/3",
+     "phones": "014 3150551",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 27362,
+     "unit": "Globos osiguranje Sombor",
+     "place": "Sombor",
+     "address": "Venac Radomira Putnika 41",
+     "phones": "025 5150597; 025 5150598",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 27363,
+     "unit": "Globos osiguranje Ivanjica",
+     "place": "Ivanjica",
+     "address": null,
+     "phones": "060 6652228",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 27364,
+     "unit": "Globos osiguranje Vršac",
+     "place": "Vršac",
+     "address": null,
+     "phones": "066 8282663",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 27365,
+     "unit": "Globos osiguranje Savograd",
+     "place": "Beograd",
+     "address": "Milentija Popovića 5b",
+     "phones": "066 8282704",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  }
+ ],
+ "id": "net-osiguravajuce-drustvo-globos-osiguranje"
+}

@@ -1,0 +1,802 @@
+{
+ "kind": "network",
+ "title": "MUP – Uprava za vanredne situacije (vatrogasci) (14 organizacija)",
+ "type": "uprava-za-vanredne-situacije",
+ "orgs": [
+  {
+   "org_slug": "odeljenje-za-vanredne-situacije-bor",
+   "name": "Odeljenje za vanredne situacije Bor",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 12661,
+     "unit": "Sedište",
+     "place": "Bor",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13028,
+     "unit": "Vatrogasni dom",
+     "place": "Negotin",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13076,
+     "unit": "Bor",
+     "place": "Bor",
+     "address": "Trg oslobođenja 9",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13167,
+     "unit": "Vatrogasna stanica Majdanpek",
+     "place": "Majdanpek",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13311,
+     "unit": "Vatrogasno-spasilačko odeljenje",
+     "place": "Negotin",
+     "address": "Dunavska 1",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "odeljenje-za-vanredne-situacije-cacak",
+   "name": "Odeljenje za vanredne situacije Čačak",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 12665,
+     "unit": "Sedište",
+     "place": "Čačak",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12977,
+     "unit": "Vatrogasna stanica Čačak",
+     "place": "Čačak",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13070,
+     "unit": "Vatrogasna stanica",
+     "place": "Gornji Milanovac",
+     "address": "Miloša Velikog 2",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "odeljenje-za-vanredne-situacije-jagodina",
+   "name": "Odeljenje za vanredne situacije Jagodina",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 12668,
+     "unit": "Sedište",
+     "place": "Jagodina",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13466,
+     "unit": "Vatrogasni dom",
+     "place": "Svilajnac",
+     "address": "Vračarska 2a",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "odeljenje-za-vanredne-situacije-kikinda",
+   "name": "Odeljenje za vanredne situacije Kikinda",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 12671,
+     "unit": "Sedište",
+     "place": "Kikinda",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12882,
+     "unit": "Vatrogasni dom",
+     "place": "Novi Kneževac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13092,
+     "unit": "Vatrogasni dom",
+     "place": "Kikinda",
+     "address": "Glavna 94",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13114,
+     "unit": "Dobrovoljno Vatrogasno Društvo",
+     "place": "Kikinda",
+     "address": "Marka Kraljevića 4",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13202,
+     "unit": "ÖTT Tornyos",
+     "place": "Senta",
+     "address": "Petefi Šandor 13",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13219,
+     "unit": "Vatrogasno-spasilačka jedinica",
+     "place": "Kanjiža",
+     "address": "Karađorđeva 31",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13221,
+     "unit": "Vatrogasno društvo Senta",
+     "place": "Senta",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "odeljenje-za-vanredne-situacije-kraljevo",
+   "name": "Odeljenje za vanredne situacije Kraljevo",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 12678,
+     "unit": "Sedište",
+     "place": "Kraljevo",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12896,
+     "unit": "Vatrogasna služba",
+     "place": "Vrnjačka Banja",
+     "address": null,
+     "phones": "036 611123",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "odeljenje-za-vanredne-situacije-krusevac",
+   "name": "Odeljenje za vanredne situacije Kruševac",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 12681,
+     "unit": "Sedište",
+     "place": "Kruševac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13021,
+     "unit": "Vatrogasna stanica",
+     "place": "Ćićevac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13438,
+     "unit": "Vatrogasni dom Kruševac",
+     "place": "Kruševac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "odeljenje-za-vanredne-situacije-leskovac",
+   "name": "Odeljenje za vanredne situacije Leskovac",
+   "website": "http://prezentacije.mup.gov.rs/svs/RegLE.html",
+   "rows": [
+    {
+     "location_id": 12684,
+     "unit": "Sedište",
+     "place": "Leskovac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12870,
+     "unit": "Vatrogasno spasilačka jedinica Leskovac",
+     "place": "Leskovac",
+     "address": "Sutjeska 14",
+     "phones": "016 53283",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13332,
+     "unit": "Vatrogasna jedinica Vlasotince",
+     "place": "Vlasotince",
+     "address": "29. novembra",
+     "phones": "016 876170",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "odeljenje-za-vanredne-situacije-novi-pazar",
+   "name": "Odeljenje za vanredne situacije Novi Pazar",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 12691,
+     "unit": "Sedište",
+     "place": "Novi Pazar",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "odeljenje-za-vanredne-situacije-pancevo",
+   "name": "Odeljenje za vanredne situacije Pančevo",
+   "website": "https://www.facebook.com/vatrogasci.plocica/",
+   "rows": [
+    {
+     "location_id": 12697,
+     "unit": "Sedište",
+     "place": "Pančevo",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12757,
+     "unit": "Vatrogasni dom",
+     "place": "Kovačica",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12807,
+     "unit": "DVD 1901 Pločica",
+     "place": "Kovin",
+     "address": "Kralja Petra prvog 75",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12845,
+     "unit": "Vatrogasno-spasilačka jedinica",
+     "place": "Kovin",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12851,
+     "unit": "Vatrogasno-spasilačka jedinica",
+     "place": "Pančevo",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12855,
+     "unit": "Vatrogasno-spasilačka jedinica",
+     "place": "Pančevo",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12863,
+     "unit": "DVD Plandište",
+     "place": "Plandište",
+     "address": "Karađorđeva 24",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12864,
+     "unit": "DVD Deliblato",
+     "place": "Kovin",
+     "address": "Paje Marganovića 74",
+     "phones": "013 765005",
+     "hours": "24/7",
+     "need": []
+    },
+    {
+     "location_id": 12900,
+     "unit": "Vatrogasni dom",
+     "place": "Pančevo",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13101,
+     "unit": "Vatrogasna stanica Kovin",
+     "place": "Kovin",
+     "address": "1. maja 11",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13259,
+     "unit": "Vatrogasno spasilacka jedinica Bela Crkva",
+     "place": "Bela Crkva",
+     "address": "1",
+     "phones": "013 851023",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13271,
+     "unit": "Vatrogasna jedinica Vršac",
+     "place": "Vršac",
+     "address": "Drugi oktobar 37",
+     "phones": "013 839537",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13330,
+     "unit": "Vatrogasna jedinica Alibunar",
+     "place": "Alibunar",
+     "address": "Mlinska 30",
+     "phones": "013 641221",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "odeljenje-za-vanredne-situacije-pirot",
+   "name": "Odeljenje za vanredne situacije Pirot",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 12700,
+     "unit": "Sedište",
+     "place": "Pirot",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12843,
+     "unit": "Vatrogasno-spasilačka jedinica",
+     "place": "Babušnica",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13004,
+     "unit": "Vatrogasno-spasilačka jedinica",
+     "place": "Pirot",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "odeljenje-za-vanredne-situacije-pozarevac",
+   "name": "Odeljenje za vanredne situacije Požarevac",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 12704,
+     "unit": "Sedište",
+     "place": "Požarevac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12949,
+     "unit": "Vatrogasno-spasilačka jedinica",
+     "place": "Kostolac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13023,
+     "unit": "Vatrogasna stanica",
+     "place": "Žabari",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13048,
+     "unit": "Vatrogasno-spasilačka jedinica",
+     "place": "Veliko Gradište",
+     "address": "Voje Bogdanovića 39",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13240,
+     "unit": "Vatrogasna jedinica Požarevac",
+     "place": "Požarevac",
+     "address": "Partizanska 3",
+     "phones": "012 555247",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "odeljenje-za-vanredne-situacije-prijepolje",
+   "name": "Odeljenje za vanredne situacije Prijepolje",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 12707,
+     "unit": "Sedište",
+     "place": "Prijepolje",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12919,
+     "unit": "Vatrogasno-spasilačka jedinica",
+     "place": "Priboj",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12936,
+     "unit": "Vatrogasna stanica",
+     "place": "Sjenica",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13420,
+     "unit": "Vatrogasno-spasilačka jedinica",
+     "place": "Prijepolje",
+     "address": "Dušana M. Dučića 3",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13427,
+     "unit": "Vatrogasno spasilačka jedinica Brodarevo",
+     "place": "Prijepolje",
+     "address": null,
+     "phones": "033 776007",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "odeljenje-za-vanredne-situacije-prokuplje",
+   "name": "Odeljenje za vanredne situacije Prokuplje",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 12710,
+     "unit": "Sedište",
+     "place": "Prokuplje",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13184,
+     "unit": "Vatrogasno-spasilačka jedinica",
+     "place": "Kuršumlija",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "odeljenje-za-vanredne-situacije-sabac",
+   "name": "Odeljenje za vanredne situacije Šabac",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 12725,
+     "unit": "Sedište",
+     "place": "Šabac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13208,
+     "unit": "Vatrogasno-spasilačka jedinica",
+     "place": "Loznica",
+     "address": "Vojvode Putnika 61",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  }
+ ],
+ "id": "net-uprava-za-vanredne-situacije-1"
+}

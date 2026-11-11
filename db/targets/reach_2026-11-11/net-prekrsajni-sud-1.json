@@ -1,0 +1,601 @@
+{
+ "kind": "network",
+ "title": "Prekršajni sud (35 organizacija)",
+ "type": "prekrsajni-sud",
+ "orgs": [
+  {
+   "org_slug": "prekrsajni-sud-u-arandjelovcu-arandjelovac",
+   "name": "Prekršajni sud u Aranđelovcu",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 143,
+     "unit": "Sedište",
+     "place": "Aranđelovac",
+     "address": "Knjaza Miloša 102",
+     "phones": "034 723908",
+     "hours": "07:30 - 15:30",
+     "need": []
+    }
+   ]
+  },
+  {
+   "org_slug": "prekrsajni-sud-u-backoj-palanci-backa-palanka",
+   "name": "Prekršajni sud u Bačkoj Palanci",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 144,
+     "unit": "Sedište",
+     "place": "Bačka Palanka",
+     "address": "Kralja Petra Prvog 18",
+     "phones": "021 751098; 021 6040266",
+     "hours": "07:30 - 15:30",
+     "need": []
+    }
+   ]
+  },
+  {
+   "org_slug": "prekrsajni-sud-u-beceju-becej",
+   "name": "Prekršajni sud u Bečeju",
+   "website": "https://www.bc.pk.sud.rs",
+   "rows": [
+    {
+     "location_id": 146,
+     "unit": "Sedište",
+     "place": "Bečej",
+     "address": "Danila Kiša 8",
+     "phones": "021 6912329; 021 6912463",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "prekrsajni-sud-u-cacku-cacak",
+   "name": "Prekršajni sud u Čačku",
+   "website": "https://www.ca.pk.sud.rs",
+   "rows": [
+    {
+     "location_id": 185,
+     "unit": "Sedište",
+     "place": "Čačak",
+     "address": "Kralja Petra I bb",
+     "phones": "032 325273; 032 349270",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "prekrsajni-sud-u-jagodini-jagodina",
+   "name": "Prekršajni sud u Jagodini",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 153,
+     "unit": "Sedište",
+     "place": "Jagodina",
+     "address": "Kneginje Milice 15",
+     "phones": "035 245304",
+     "hours": "07:30 - 15:30",
+     "need": []
+    }
+   ]
+  },
+  {
+   "org_slug": "prekrsajni-sud-u-kragujevcu-kragujevac",
+   "name": "Prekršajni sud u Kragujevcu",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 155,
+     "unit": "Sedište",
+     "place": "Kragujevac",
+     "address": "Slobode 4",
+     "phones": "034 330290",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "prekrsajni-sud-u-kraljevu-kraljevo",
+   "name": "Prekršajni sud u Kraljevu",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 156,
+     "unit": "Sedište",
+     "place": "Kraljevo",
+     "address": "Trg Jovana Sarića 1",
+     "phones": "036 321591; 036 306116",
+     "hours": "07:30 - 15:30",
+     "need": []
+    }
+   ]
+  },
+  {
+   "org_slug": "prekrsajni-sud-u-krusevcu-krusevac",
+   "name": "Prekršajni sud u Kruševcu",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 157,
+     "unit": "Sedište",
+     "place": "Kruševac",
+     "address": "Stevana Sinđelića 1",
+     "phones": "037 423723",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "prekrsajni-sud-u-lazarevcu-lazarevac",
+   "name": "Prekršajni sud u Lazarevcu",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 158,
+     "unit": "Sedište",
+     "place": "Lazarevac",
+     "address": "Karađorđeva 19",
+     "phones": "011 8120636",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "prekrsajni-sud-u-leskovcu-leskovac",
+   "name": "Prekršajni sud u Leskovcu",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 159,
+     "unit": "Sedište",
+     "place": "Leskovac",
+     "address": "Pana Đukića 18",
+     "phones": "016 213304; 016 215879",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "prekrsajni-sud-u-loznici-loznica",
+   "name": "Prekršajni sud u Loznici",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 160,
+     "unit": "Sedište",
+     "place": "Loznica",
+     "address": "Jovana Cvijića 20",
+     "phones": "015 882262; 015 882305",
+     "hours": "07:30 - 15:30",
+     "need": []
+    }
+   ]
+  },
+  {
+   "org_slug": "prekrsajni-sud-u-mladenovcu-mladenovac-selo",
+   "name": "Prekršajni sud u Mladenovcu",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 161,
+     "unit": "Sedište",
+     "place": "Mladenovac",
+     "address": "Kralja Aleksandra Obrenovića 76",
+     "phones": "011 8230240",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "prekrsajni-sud-u-novom-pazaru-novi-pazar",
+   "name": "Prekršajni sud u Novom Pazaru",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 164,
+     "unit": "Sedište",
+     "place": "Novi Pazar",
+     "address": "Žitni Trg 16",
+     "phones": "020 311820; 020 313680; 020 634604",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "prekrsajni-sud-u-novom-sadu-novi-sad",
+   "name": "Prekršajni sud u Novom Sadu",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 165,
+     "unit": "Sedište",
+     "place": "Novi Sad",
+     "address": "Bulevar oslobođenja 58",
+     "phones": "021 4896100",
+     "hours": "07:30 - 15:30",
+     "need": []
+    }
+   ]
+  },
+  {
+   "org_slug": "prekrsajni-sud-u-pancevu-pancevo",
+   "name": "Prekršajni sud u Pančevu",
+   "website": "https://www.prekrsajnisudpa.rs",
+   "rows": [
+    {
+     "location_id": 167,
+     "unit": "Sedište",
+     "place": "Pančevo",
+     "address": "Stevana Šupljikca bb",
+     "phones": "013 2156360",
+     "hours": "07:30 - 15:30",
+     "need": [
+      "address"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "prekrsajni-sud-u-pirotu-pirot",
+   "name": "Prekršajni sud u Pirotu",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 169,
+     "unit": "Sedište",
+     "place": "Pirot",
+     "address": "Srpskih vladara 126",
+     "phones": "010 320412",
+     "hours": "07:30 - 15:30",
+     "need": []
+    }
+   ]
+  },
+  {
+   "org_slug": "prekrsajni-sud-u-pozarevcu-pozarevac",
+   "name": "Prekršajni sud u Požarevcu",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 170,
+     "unit": "Sedište",
+     "place": "Požarevac",
+     "address": "Porečka 2a",
+     "phones": "012 532343",
+     "hours": "07:30 - 15:30",
+     "need": []
+    }
+   ]
+  },
+  {
+   "org_slug": "prekrsajni-sud-u-pozegi-pozega",
+   "name": "Prekršajni sud u Požegi",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 171,
+     "unit": "Sedište",
+     "place": "Požega",
+     "address": "Uče Dimitrijevića 6",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "prekrsajni-sud-u-presevu-presevo",
+   "name": "Prekršajni sud u Preševu",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 172,
+     "unit": "Sedište",
+     "place": "Preševo",
+     "address": "Maršala Tita bb",
+     "phones": "017 668966",
+     "hours": "07:30 - 15:30",
+     "need": [
+      "address"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "prekrsajni-sud-u-prijepolju-prijepolje",
+   "name": "Prekršajni sud u Prijepolju",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 173,
+     "unit": "Sedište",
+     "place": "Prijepolje",
+     "address": "Valterova 173",
+     "phones": "033 712355",
+     "hours": "07:30 - 15:30",
+     "need": []
+    }
+   ]
+  },
+  {
+   "org_slug": "prekrsajni-sud-u-prokuplju-prokuplje",
+   "name": "Prekršajni sud u Prokuplju",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 174,
+     "unit": "Sedište",
+     "place": "Prokuplje",
+     "address": "Tatkova 1",
+     "phones": "027 324215",
+     "hours": "12:00 - 14:00",
+     "need": []
+    }
+   ]
+  },
+  {
+   "org_slug": "prekrsajni-sud-u-raski-raska",
+   "name": "Prekršajni sud u Raški",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 175,
+     "unit": "Sedište",
+     "place": "Raška",
+     "address": "Miluna Ivanovića bb",
+     "phones": "036 737570; 036 736243",
+     "hours": "07:30 - 15:30",
+     "need": [
+      "address"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "prekrsajni-sud-u-rumi-ruma",
+   "name": "Prekršajni sud u Rumi",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 176,
+     "unit": "Sedište",
+     "place": "Ruma",
+     "address": "Železnička 13",
+     "phones": "022 474324",
+     "hours": "07:30 - 15:30",
+     "need": []
+    }
+   ]
+  },
+  {
+   "org_slug": "prekrsajni-sud-u-sapcu-sabac",
+   "name": "Prekršajni sud u Šapcu",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 186,
+     "unit": "Sedište",
+     "place": "Šabac",
+     "address": "Pop Lukina 2",
+     "phones": "015 349794; 015 314355",
+     "hours": "07:30 - 15:30",
+     "need": []
+    }
+   ]
+  },
+  {
+   "org_slug": "prekrsajni-sud-u-senti-senta",
+   "name": "Prekršajni sud u Senti",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 177,
+     "unit": "Sedište",
+     "place": "Senta",
+     "address": "Glavni Trg 2",
+     "phones": "024 811580",
+     "hours": "07:30 - 15:30",
+     "need": []
+    }
+   ]
+  },
+  {
+   "org_slug": "prekrsajni-sud-u-sjenici-sjenica",
+   "name": "Prekršajni sud u Sjenici",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 178,
+     "unit": "Sedište",
+     "place": "Sjenica",
+     "address": "Ivana Vasojevića Vasketa bb",
+     "phones": "020 5741099",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "prekrsajni-sud-u-somboru-sombor",
+   "name": "Prekršajni sud u Somboru",
+   "website": "https://www.so.pk.sud.rs",
+   "rows": [
+    {
+     "location_id": 180,
+     "unit": "Sedište",
+     "place": "Sombor",
+     "address": "Trg cara Uroša 1",
+     "phones": "025 421494; 025 421351",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "prekrsajni-sud-u-sremskoj-mitrovici-sremska-mitrovica",
+   "name": "Prekršajni sud u Sremskoj Mitrovici",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 181,
+     "unit": "Sedište",
+     "place": "Sremska Mitrovica",
+     "address": "Svetog Dimitrija 39",
+     "phones": "022 600191",
+     "hours": "07:30 - 15:30",
+     "need": []
+    }
+   ]
+  },
+  {
+   "org_slug": "prekrsajni-sud-u-subotici-subotica",
+   "name": "Prekršajni sud u Subotici",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 182,
+     "unit": "Sedište",
+     "place": "Subotica",
+     "address": "Trg Lazara Nešića 1",
+     "phones": "024 554955",
+     "hours": "07:00 - 15:00",
+     "need": []
+    }
+   ]
+  },
+  {
+   "org_slug": "prekrsajni-sud-u-trsteniku-trstenik",
+   "name": "Prekršajni sud u Trsteniku",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 183,
+     "unit": "Sedište",
+     "place": "Trstenik",
+     "address": "Dr Milunovića 3",
+     "phones": "037 712195",
+     "hours": "08:00 - 15:30",
+     "need": []
+    }
+   ]
+  },
+  {
+   "org_slug": "prekrsajni-sud-u-uzicu-uzice",
+   "name": "Prekršajni sud u Užicu",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 184,
+     "unit": "Sedište",
+     "place": "Užice",
+     "address": "Marije Mage Magazinović 11",
+     "phones": "031 517590",
+     "hours": "07:30 - 15:30",
+     "need": []
+    }
+   ]
+  },
+  {
+   "org_slug": "prekrsajni-sud-u-valjevu-valjevo",
+   "name": "Prekršajni sud u Valjevu",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 147,
+     "unit": "Sedište",
+     "place": "Valjevo",
+     "address": "Vuka Karadžića 5",
+     "phones": "014 221680; 014 221377; 014 222374; 014 220454",
+     "hours": "07:30 - 15:30",
+     "need": []
+    }
+   ]
+  },
+  {
+   "org_slug": "prekrsajni-sud-u-vranju-vranje",
+   "name": "Prekršajni sud u Vranju",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 148,
+     "unit": "Sedište",
+     "place": "Vranje",
+     "address": "Bore Stankovića 19",
+     "phones": "017 423504",
+     "hours": "07:30 - 15:00",
+     "need": []
+    }
+   ]
+  },
+  {
+   "org_slug": "prekrsajni-sud-u-vrscu-vrsac",
+   "name": "Prekršajni sud u Vršcu",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 149,
+     "unit": "Sedište",
+     "place": "Vršac",
+     "address": "Vaska Pope 7",
+     "phones": "013 836433",
+     "hours": "07:30 - 15:30",
+     "need": []
+    }
+   ]
+  },
+  {
+   "org_slug": "prekrsajni-sud-u-zrenjaninu-zrenjanin",
+   "name": "Prekršajni sud u Zrenjaninu",
+   "website": "https://www.zr.pk.sud.rs",
+   "rows": [
+    {
+     "location_id": 152,
+     "unit": "Sedište",
+     "place": "Zrenjanin",
+     "address": "Žitni trg bb",
+     "phones": "023 525253; 023 548452; 023 543259; 023 525249",
+     "hours": "07:30 - 15:30",
+     "need": [
+      "address"
+     ]
+    }
+   ]
+  }
+ ],
+ "id": "net-prekrsajni-sud-1"
+}

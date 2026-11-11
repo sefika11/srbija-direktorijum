@@ -1,0 +1,394 @@
+{
+ "kind": "sites",
+ "title": "Institucije sa sopstvenim sajtom",
+ "rows": [
+  {
+   "org_slug": "univerzitetska-biblioteka-svetozar-markovic-beograd",
+   "name": "Univerzitetska biblioteka \"Svetozar Marković\"",
+   "type": "Univerzitet",
+   "place": "Beograd",
+   "website": "https://www.unilib.rs",
+   "mb": "07032714",
+   "have": {
+    "address": "Bulevar kralja Aleksandra 71",
+    "phones": "011 3370509",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "univerzitetska-decja-klinika-beograd",
+   "name": "Univerzitetska Dečja Klinika",
+   "type": "Univerzitet",
+   "place": "Beograd",
+   "website": "https://www.tirsova.rs",
+   "mb": "07031246",
+   "have": {
+    "address": "Tiršova 10",
+    "phones": "011 2060600",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "univerzitet-u-nisu-nis",
+   "name": "Univerzitet u Nišu",
+   "type": "Univerzitet",
+   "place": "Niš",
+   "website": "https://www.ni.ac.rs",
+   "mb": "07185286",
+   "have": {
+    "address": "Univerzitetski trg 2",
+    "phones": "018 257970; 018 257956",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "drzavni-univerzitet-u-novom-pazaru-novi-pazar",
+   "name": "Državni Univerzitet u Novom Pazaru",
+   "type": "Univerzitet",
+   "place": "Novi Pazar",
+   "website": "http://www.np.ac.rs",
+   "mb": "17663640",
+   "have": {
+    "address": "Vuka Karadžića 66",
+    "phones": "020 317754",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javna-ustanova-narodni-univerzitet-vranje-vranje",
+   "name": "Javna ustanova narodni Univerzitet Vranje",
+   "type": "Univerzitet",
+   "place": "Vranje",
+   "website": "https://narodniuniverzitetvranje.edu.rs",
+   "mb": "07138270",
+   "have": {
+    "address": "Kneza Miloša 26",
+    "phones": "017 422367; 017 412319",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "gradska-opstina-cukarica-predsednik-go-cukarica-beograd",
+   "name": "Gradska opština Čukarica - Predsednik GO Čukarica",
+   "type": "Uprava gradske opštine",
+   "place": "Beograd",
+   "website": "https://cukarica.rs",
+   "mb": null,
+   "have": {
+    "address": "Šumadijski trg 2",
+    "phones": "011 3052111",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "gradska-opstina-cukarica-skupstina-gradske-opstine-cukarica-beograd",
+   "name": "Gradska opština Čukarica-Skupština gradske opštine Čukarica",
+   "type": "Uprava gradske opštine",
+   "place": "Beograd",
+   "website": "https://cukarica.rs",
+   "mb": null,
+   "have": {
+    "address": "Šumadijski trg 2",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "gradska-opstina-cukarica-uprava-gradske-opstine-beograd",
+   "name": "Gradska opština Čukarica - uprava gradske opštine",
+   "type": "Uprava gradske opštine",
+   "place": "Beograd",
+   "website": "https://cukarica.rs",
+   "mb": null,
+   "have": {
+    "address": "Šumadijski trg 2",
+    "phones": "011 3052111",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "gradska-opstina-cukarica-vece-gradske-opstine-cukarica-beograd",
+   "name": "Gradska opština Čukarica-Veće gradske opštine Čukarica",
+   "type": "Uprava gradske opštine",
+   "place": "Beograd",
+   "website": "https://cukarica.rs",
+   "mb": null,
+   "have": {
+    "address": "Šumadijski trg 2",
+    "phones": "011 3052120",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "gradska-opstina-stari-grad-skupstina-gradske-opstine-beograd",
+   "name": "Gradska opština Stari grad - skupština gradske opštine",
+   "type": "Uprava gradske opštine",
+   "place": "Beograd",
+   "website": "https://www.starigrad.org.rs",
+   "mb": null,
+   "have": {
+    "address": "Makedonska 42",
+    "phones": "0800 077775",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "gradska-opstina-stari-grad-uprava-gradske-opstine-beograd",
+   "name": "Gradska opština Stari grad - uprava gradske opštine",
+   "type": "Uprava gradske opštine",
+   "place": "Beograd",
+   "website": "https://www.starigrad.org.rs",
+   "mb": null,
+   "have": {
+    "address": "Makedonska 42",
+    "phones": "0800 077775",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "gradska-opstina-lazarevac-opstinska-uprava-lazarevac",
+   "name": "Gradska opština Lazarevac - opštinska uprava",
+   "type": "Uprava gradske opštine",
+   "place": "Lazarevac",
+   "website": "https://lazarevac.rs",
+   "mb": null,
+   "have": {
+    "address": "Karađorđeva 42",
+    "phones": "011 8123191",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "gradska-opstina-lazarevac-predsednik-gradske-opstine-lazarevac",
+   "name": "Gradska opština Lazarevac Predsednik gradske opštine",
+   "type": "Uprava gradske opštine",
+   "place": "Lazarevac",
+   "website": "https://lazarevac.rs",
+   "mb": null,
+   "have": {
+    "address": "Karađorđeva 42",
+    "phones": "011 8123191",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "gradska-opstina-lazarevac-skupstina-go-lazarevac-lazarevac",
+   "name": "Gradska opština Lazarevac- skupština GO Lazarevac",
+   "type": "Uprava gradske opštine",
+   "place": "Lazarevac",
+   "website": "https://lazarevac.rs",
+   "mb": null,
+   "have": {
+    "address": "Karađorđeva 42",
+    "phones": "011 8123191",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "gradska-opstina-lazarevac-vece-gradske-opstine-lazarevac",
+   "name": "Gradska opština Lazarevac- veće gradske opštine",
+   "type": "Uprava gradske opštine",
+   "place": "Lazarevac",
+   "website": "https://lazarevac.rs",
+   "mb": null,
+   "have": {
+    "address": "Karađorđeva 42",
+    "phones": "011 8123191",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "grad-beograd-gradska-opstina-sopot-uprava-gradske-opstine-sopot",
+   "name": "Grad Beograd - gradska opština Sopot - uprava gradske opštine",
+   "type": "Uprava gradske opštine",
+   "place": "Sopot",
+   "website": "https://sopot.org.rs",
+   "mb": null,
+   "have": {
+    "address": "Kosmajski trg 5",
+    "phones": "011 8251155; 011 8251255; 011 8251379",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "gradska-opstina-zemun-opstinska-uprava-zemun",
+   "name": "Gradska opština Zemun - opštinska uprava",
+   "type": "Uprava gradske opštine",
+   "place": "Zemun",
+   "website": "https://zemun.rs",
+   "mb": null,
+   "have": {
+    "address": "Magistratski trg 1",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "agencija-za-imovinu-opstine-arandjelovac-arandjelovac",
+   "name": "Agencija za Imovinu opštine Aranđelovac",
+   "type": "Javna ustanova",
+   "place": "Aranđelovac",
+   "website": "http://www.imovinaarandjelovac.rs",
+   "mb": "17821733",
+   "have": {
+    "address": "Knjaza Miloša 73/1",
+    "phones": "034 726789; 034 726797",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "ustanova-kultura-bajina-basta-bajina-basta",
+   "name": "Ustanova \"Kultura Bajina Bašta\"",
+   "type": "Javna ustanova",
+   "place": "Bajina Bašta",
+   "website": "http://www.ustanovakulturabb.rs",
+   "mb": "17768417",
+   "have": {
+    "address": "Vuka Karadžića 13",
+    "phones": "031 866840",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "ustanova-za-sport-i-rekreaciju-tikvara-backa-palanka-backa-palanka",
+   "name": "Ustanova za sport i rekreaciju \"Tikvara\" Bačka Palanka",
+   "type": "Javna ustanova",
+   "place": "Bačka Palanka",
+   "website": "http://www.tikvara.net",
+   "mb": "08963576",
+   "have": {
+    "address": "Šetalište Milana Janića 5",
+    "phones": "021 6041333",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "akreditaciono-telo-srbije-beograd",
+   "name": "Akreditaciono Telo srbije",
+   "type": "Javna ustanova",
+   "place": "Beograd",
+   "website": "https://www.ats.rs",
+   "mb": "17675338",
+   "have": {
+    "address": "Vlajkovićeva 3",
+    "phones": "011 3130373",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "ansambl-narodnih-igara-i-pesama-srbije-kolo-beograd",
+   "name": "Ansambl Narodnih Igara i Pesama srbije \"Kolo\"",
+   "type": "Javna ustanova",
+   "place": "Beograd",
+   "website": "https://www.kolo.rs",
+   "mb": "07032773",
+   "have": {
+    "address": "Mitropolita Petra 8",
+    "phones": "011 2763144",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "beogradska-filharmonija-beograd",
+   "name": "Beogradska Filharmonija",
+   "type": "Javna ustanova",
+   "place": "Beograd",
+   "website": "https://www.bgf.rs",
+   "mb": "07023901",
+   "have": {
+    "address": "Studentski trg 11",
+    "phones": "011 3282977",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-omladine-beograda-beograd",
+   "name": "Dom omladine Beograda",
+   "type": "Javna ustanova",
+   "place": "Beograd",
+   "website": "https://domomladine.org",
+   "mb": "07023855",
+   "have": {
+    "address": "Makedonska 22",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours"
+   ]
+  }
+ ],
+ "id": "site-082"
+}

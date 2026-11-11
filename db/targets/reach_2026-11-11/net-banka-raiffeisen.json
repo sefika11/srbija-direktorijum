@@ -1,0 +1,1794 @@
+{
+ "kind": "network",
+ "title": "Raiffeisen banka",
+ "type": "banka",
+ "orgs": [
+  {
+   "org_slug": "banka-raiffeisen",
+   "name": "Raiffeisen banka",
+   "website": "https://www.raiffeisenbank.rs",
+   "rows": [
+    {
+     "location_id": 19470,
+     "unit": "Raiffeisen bank",
+     "place": "Sombor",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 19492,
+     "unit": "Raiffeisen bank",
+     "place": "Stara Pazova",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 19503,
+     "unit": "Raiffeisen bank",
+     "place": "Novi Sad",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Fr 09:00-17:00",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 19509,
+     "unit": "Raiffeisen bank",
+     "place": "Subotica",
+     "address": null,
+     "phones": "024 670981",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 19510,
+     "unit": "Raiffeisen bank",
+     "place": "Subotica",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 19538,
+     "unit": "Raiffeisen bank",
+     "place": "Bor",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 19542,
+     "unit": "Raiffeisen bank",
+     "place": "Leskovac",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 19595,
+     "unit": "Raiffeisen bank",
+     "place": "Novi Beograd",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 19693,
+     "unit": "Ekspozitura",
+     "place": "Palilula",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 19728,
+     "unit": "Halkbank",
+     "place": "Novi Beograd",
+     "address": "Jurija Gagarina 28",
+     "phones": "011 3202100",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": []
+    },
+    {
+     "location_id": 19729,
+     "unit": "Raiffeisen bank",
+     "place": "Šid",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 19780,
+     "unit": "Raiffeisen bank",
+     "place": "Novi Sad",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 19869,
+     "unit": "Raiffeisen bank",
+     "place": "Stari grad",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 19961,
+     "unit": "Raiffeisen bank",
+     "place": "Novi Beograd",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 19978,
+     "unit": "Raiffeisen bank",
+     "place": "Palilula",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 19982,
+     "unit": "Raiffeisen bank",
+     "place": "Šabac",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 20015,
+     "unit": "Raiffeisen bank",
+     "place": "Novi Beograd",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 20041,
+     "unit": "Raiffeisen bank",
+     "place": "Bačka Topola",
+     "address": "Glavna 1",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 20055,
+     "unit": "Raiffeisen bank",
+     "place": "Stari grad",
+     "address": "Dobračina 50",
+     "phones": null,
+     "hours": "Mo-Fr 09:00-16:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 20058,
+     "unit": "Raiffeisen bank",
+     "place": "Savski venac",
+     "address": "Resavska",
+     "phones": null,
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 20062,
+     "unit": "Raiffeisen bank",
+     "place": "Zvezdara",
+     "address": "Ruzveltova 12",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 20107,
+     "unit": "Raiffeisen bank",
+     "place": "Novi Beograd",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Su 09:00-22:00",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 20128,
+     "unit": "Raiffeisen bank",
+     "place": "Vračar",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 20162,
+     "unit": "Raiffeisen bank",
+     "place": "Vračar",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Su 09:00-16:30",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 20167,
+     "unit": "Raiffeisen bank",
+     "place": "Rakovica",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 20172,
+     "unit": "Raiffeisen bank",
+     "place": "Voždovac",
+     "address": "Crnotravska 7-9",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 20176,
+     "unit": "Raiffeisen bank",
+     "place": "Novi Beograd",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 20184,
+     "unit": "Raiffeisen bank",
+     "place": "Kragujevac",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 20208,
+     "unit": "Raiffeisen bank",
+     "place": "Medijana",
+     "address": "Trg kralja Milana 13",
+     "phones": null,
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 20216,
+     "unit": "Raiffeisen bank",
+     "place": "Vračar",
+     "address": "Resavska 3",
+     "phones": null,
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 20218,
+     "unit": "Raiffeisen bank",
+     "place": "Stari grad",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 20236,
+     "unit": "Raiffeisen bank",
+     "place": "Voždovac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 20241,
+     "unit": "Raiffeisen bank",
+     "place": "Novi Beograd",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 20327,
+     "unit": "Raiffeisen bank",
+     "place": "Bor",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Fr 09:00-16:00",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 20519,
+     "unit": "Raiffeisen bank",
+     "place": "Pančevo",
+     "address": "Generala Petra Aračića",
+     "phones": null,
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 20555,
+     "unit": "Raiffeisen bank",
+     "place": "Užice",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 20557,
+     "unit": "Raiffeisen bank",
+     "place": "Užice",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 21563,
+     "unit": "Raiffeisen bank",
+     "place": "Subotica",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 21578,
+     "unit": "Raiffeisen bank",
+     "place": "Zaječar",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 21622,
+     "unit": "Raiffeisen bank",
+     "place": "Vračar",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 21638,
+     "unit": "Raiffeisen bank",
+     "place": "Čukarica",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 21769,
+     "unit": "Raiffeisen bank",
+     "place": "Novi Beograd",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Su 13:00-20:00",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 21789,
+     "unit": "Ekspozitura Jurija Gagarina 76m",
+     "place": "Novi Beograd",
+     "address": "Jurija Gagarina 76m",
+     "phones": null,
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 21839,
+     "unit": "Raiffeisen bank",
+     "place": "Loznica",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 21904,
+     "unit": "Raiffeisen bank",
+     "place": "Kragujevac",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 21916,
+     "unit": "Raiffeisen bank",
+     "place": "Loznica",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 21960,
+     "unit": "Raiffeisen bank",
+     "place": "Obrenovac",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 21976,
+     "unit": "Raiffeisen bank",
+     "place": "Zemun",
+     "address": "Dubrovačka 1",
+     "phones": null,
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 22005,
+     "unit": "Raiffeisen bank",
+     "place": "Zrenjanin",
+     "address": "Kralja Aleksandra I Karađorđevića 41",
+     "phones": null,
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 22021,
+     "unit": "Raiffeisen bank",
+     "place": "Zvezdara",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Fr 09:00-16:30; Sa-Su off",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 22047,
+     "unit": "Raiffeisen bank",
+     "place": "Novi Sad",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 22096,
+     "unit": "Raiffeisen bank",
+     "place": "Požega",
+     "address": "Nikole Pašića 2",
+     "phones": null,
+     "hours": "Mo-Fr 09:00-16:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 22118,
+     "unit": "Raiffeisen bank",
+     "place": "Arilje",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 22214,
+     "unit": "Raiffeisen bank",
+     "place": "Čukarica",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 22415,
+     "unit": "Raiffeisen bank",
+     "place": "Novi Beograd",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 22709,
+     "unit": "Raiffeisen bank",
+     "place": "Trstenik",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 22765,
+     "unit": "Raiffeisen bank",
+     "place": "Ćuprija",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 22767,
+     "unit": "Raiffeisen bank",
+     "place": "Vršac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 22928,
+     "unit": "Raiffeisen bank",
+     "place": "Novi Sad",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 23263,
+     "unit": "Raiffeisen bank",
+     "place": "Medijana",
+     "address": null,
+     "phones": "011 13202100",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23571,
+     "unit": "Raiffeisen bank",
+     "place": "Ćuprija",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 23575,
+     "unit": "Raiffeisen bank",
+     "place": "Medijana",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 23587,
+     "unit": "Raiffeisen bank",
+     "place": "Jagodina",
+     "address": "Kneginje Milice 16",
+     "phones": null,
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 23588,
+     "unit": "Raiffeisen bank",
+     "place": "Bačka Palanka",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 23615,
+     "unit": "Raiffeisen bank",
+     "place": "Temerin",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 23713,
+     "unit": "Raiffeisen bank",
+     "place": "Gornji Milanovac",
+     "address": "Vojvode Milana Obrenovića 25",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23720,
+     "unit": "Raiffeisen bank",
+     "place": "Požarevac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23791,
+     "unit": "Raiffeisen bank",
+     "place": "Novi Sad",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 23823,
+     "unit": "Raiffeisen bank",
+     "place": "Novi Sad",
+     "address": "Bulevar oslobođenja 56a",
+     "phones": "011 3202100",
+     "hours": "Mo-Fr 08:00-19:00;Sa 09:00-13:00",
+     "need": []
+    },
+    {
+     "location_id": 23924,
+     "unit": "Kineska radnja",
+     "place": "Valjevo",
+     "address": "Karađorđeva 114",
+     "phones": null,
+     "hours": "Mo-Su 09:00-18:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 24413,
+     "unit": "Raiffeisen bank",
+     "place": "Sremska Mitrovica",
+     "address": "Kralja Petra I 30",
+     "phones": "011 3202100",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": []
+    },
+    {
+     "location_id": 24501,
+     "unit": "Raiffeisen bank",
+     "place": "Savski venac",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Su 10:00-22:00",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 27820,
+     "unit": "Paraćin",
+     "place": "Paraćin",
+     "address": "Vožda Karađorđa 31",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27821,
+     "unit": "Subotica",
+     "place": "Subotica",
+     "address": "Trg republike 12",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27822,
+     "unit": "Jurija Gagarina 76",
+     "place": "Novi Beograd",
+     "address": "Jurija Gagarina 76",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27824,
+     "unit": "Stara Pazova",
+     "place": "Stara Pazova",
+     "address": "Kralja Petra I 1",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27825,
+     "unit": "Banovo brdo",
+     "place": "Čukarica",
+     "address": "Požeška 81a",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27826,
+     "unit": "Resavska 1",
+     "place": "Savski venac",
+     "address": "Resavska 1",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27827,
+     "unit": "Svilajnac",
+     "place": "Svilajnac",
+     "address": "Ustanička 1",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27828,
+     "unit": "Trstenik",
+     "place": "Trstenik",
+     "address": "Kneginje Milice 12",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27829,
+     "unit": "Kikinda",
+     "place": "Kikinda",
+     "address": "Trg srpskih dobrovoljaca 28",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27830,
+     "unit": "Kragujevac",
+     "place": "Kragujevac",
+     "address": "Trg narodnih heroja 2",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27831,
+     "unit": "Kraljevo",
+     "place": "Kraljevo",
+     "address": "Cara Lazara 31",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27832,
+     "unit": "Inđija",
+     "place": "Inđija",
+     "address": "Novosadska 1",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27833,
+     "unit": "Stari Merkator",
+     "place": "Novi Beograd",
+     "address": "Bulevar Mihaila Pupina 181",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27834,
+     "unit": "Futoški put",
+     "place": "Novi Sad",
+     "address": "Futoški put 42",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27835,
+     "unit": "BEO centar-Denkova bašta",
+     "place": "Zvezdara",
+     "address": "Vojislava Ilića 141",
+     "phones": "011 3202100",
+     "hours": "Pon-Ned 10:00-22:00",
+     "need": []
+    },
+    {
+     "location_id": 27836,
+     "unit": "Nis III",
+     "place": "Medijana",
+     "address": "Obrenovićeva 35",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27837,
+     "unit": "Rakovica",
+     "place": "Rakovica",
+     "address": "Patrijarha Dimitrija 14",
+     "phones": "011 3202100",
+     "hours": "Pon-Sub 10:00-22:00; Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27838,
+     "unit": "Galerija BW",
+     "place": "Savski venac",
+     "address": "Vudro Vilson 12",
+     "phones": "011 3202100",
+     "hours": "Pon-Ned 10:00-22:00",
+     "need": []
+    },
+    {
+     "location_id": 27839,
+     "unit": "Banjica",
+     "place": "Voždovac",
+     "address": "Crnotravska 7",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27840,
+     "unit": "Subotica",
+     "place": "Subotica",
+     "address": "Trg slobode 5",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27841,
+     "unit": "Slavija",
+     "place": "Vračar",
+     "address": "Bulevar oslobođenja 7",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27842,
+     "unit": "Bezistan",
+     "place": "Stari grad",
+     "address": "Terazije 27",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27844,
+     "unit": "Prijepolje",
+     "place": "Prijepolje",
+     "address": "Vladimira Perića Valtera 22",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27845,
+     "unit": "Bežanija",
+     "place": "Novi Beograd",
+     "address": "Partizanske avijacije 12",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27846,
+     "unit": "Karaburma",
+     "place": "Palilula",
+     "address": "Marijane Gregoran 58",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27847,
+     "unit": "Vrbas",
+     "place": "Vrbas",
+     "address": "Maršala Tita 91",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27848,
+     "unit": "Ns-apolo",
+     "place": "Novi Sad",
+     "address": "Pozorišni trg 3",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27849,
+     "unit": "Kralja Petra",
+     "place": "Stari grad",
+     "address": "Kralja Petra 14",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27850,
+     "unit": "Ns-maxton",
+     "place": "Novi Sad",
+     "address": "Bulevar cara Lazara bb",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 27851,
+     "unit": "Vidikovac",
+     "place": "Rakovica",
+     "address": "Vidikovački venac 80b",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27852,
+     "unit": "Kalenić",
+     "place": "Vračar",
+     "address": "Kursulina 41",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27853,
+     "unit": "Obrenovac",
+     "place": "Obrenovac",
+     "address": "Kneza Mihaila 6",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27854,
+     "unit": "Smederevska Palanka",
+     "place": "Smederevska Palanka",
+     "address": "Prvog srpskog ustanka 89",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27855,
+     "unit": "Leštane",
+     "place": "Grocka",
+     "address": "Smederevski put 3v",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27856,
+     "unit": "Gtc",
+     "place": "Novi Beograd",
+     "address": "Bulevar Zorana Đinđića 64a",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27857,
+     "unit": "Novi Pazar",
+     "place": "Novi Pazar",
+     "address": "AVNOJ-a 7/3",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27858,
+     "unit": "Knjaževac",
+     "place": "Knjaževac",
+     "address": "Knjaza Miloša 41",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27859,
+     "unit": "Makenzijeva",
+     "place": "Vračar",
+     "address": "Makenzijeva 37",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27860,
+     "unit": "Ada Mall",
+     "place": "Čukarica",
+     "address": "Radnička 9",
+     "phones": "011 3202100",
+     "hours": "Pon-Ned 10:00-22:00",
+     "need": []
+    },
+    {
+     "location_id": 27861,
+     "unit": "Borča",
+     "place": "Palilula",
+     "address": "Ivana Milutinovića 54",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27862,
+     "unit": "Loznica",
+     "place": "Loznica",
+     "address": "Kneza Miloša 2",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27863,
+     "unit": "Park City",
+     "place": "Novi Sad",
+     "address": "Narodnog fronta 25d",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27864,
+     "unit": "Navigator",
+     "place": "Novi Beograd",
+     "address": "Milutina Milankovića 1ž",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27865,
+     "unit": "Ušće",
+     "place": "Novi Beograd",
+     "address": "Bulevar Mihaila Pupina 4",
+     "phones": "011 3202100",
+     "hours": "Pon-Ned 10:00-22:00",
+     "need": []
+    },
+    {
+     "location_id": 27866,
+     "unit": "Smederevo",
+     "place": "Smederevo",
+     "address": "Vojvode Đuše 13",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27867,
+     "unit": "Bor",
+     "place": "Bor",
+     "address": "Nikole Pašića 30",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27868,
+     "unit": "Ruzveltova",
+     "place": "Zvezdara",
+     "address": "Ruzveltova 10",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27869,
+     "unit": "Piramida",
+     "place": "Novi Beograd",
+     "address": "Jurija Gagarina 151",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27870,
+     "unit": "Ustanička",
+     "place": "Voždovac",
+     "address": "Ustanička 64a",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27871,
+     "unit": "Užice",
+     "place": "Užice",
+     "address": "Dimitrija Tucovića 91",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27872,
+     "unit": "Trgovačka",
+     "place": "Čukarica",
+     "address": "Trgovačka 5",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27873,
+     "unit": "Čačak II",
+     "place": "Čačak",
+     "address": "Gradsko šetalište bb",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 27874,
+     "unit": "Bečej",
+     "place": "Bečej",
+     "address": "Zelena 52",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27875,
+     "unit": "Nemanjići",
+     "place": "Medijana",
+     "address": "Bulevar Nemanjića 30",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27876,
+     "unit": "Novi Sad. Detelinara",
+     "place": "Novi Sad",
+     "address": "Veselina Masleše 30",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27877,
+     "unit": "Prokuplje",
+     "place": "Prokuplje",
+     "address": "Jug Bogdanova 100",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27878,
+     "unit": "Pančevo",
+     "place": "Pančevo",
+     "address": "Generala Petra Aračića 4",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27879,
+     "unit": "Ruma",
+     "place": "Ruma",
+     "address": "Orlovićeva 4",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27880,
+     "unit": "Head Office",
+     "place": "Novi Beograd",
+     "address": "Đorđa Stanojevića 16",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27881,
+     "unit": "Aleksinac",
+     "place": "Aleksinac",
+     "address": "Knjaza Miloša 153",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27882,
+     "unit": "Zaječar",
+     "place": "Zaječar",
+     "address": "Nikole Pašića 1",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27883,
+     "unit": "Mercator BG",
+     "place": "Novi Beograd",
+     "address": "Bulevar umetnosti 4",
+     "phones": "011 3202100",
+     "hours": "Pon-Ned 09:00-22:00",
+     "need": []
+    },
+    {
+     "location_id": 27884,
+     "unit": "Cara Dušana",
+     "place": "Stari grad",
+     "address": "Cara Dušana 78",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27885,
+     "unit": "Leskovac",
+     "place": "Leskovac",
+     "address": "Koste Stamenkovića 2",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27886,
+     "unit": "Vršac",
+     "place": "Vršac",
+     "address": "Trg Svetog Teodora Vršačkog 37",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27887,
+     "unit": "Šabac",
+     "place": "Šabac",
+     "address": "Cara Dušana 1",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27888,
+     "unit": "Južni bulevar",
+     "place": "Vračar",
+     "address": "Maksima Gorkog 75",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27889,
+     "unit": "Niš I",
+     "place": "Medijana",
+     "address": "Balkanska 13",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27890,
+     "unit": "27.marta",
+     "place": "Palilula",
+     "address": "27.marta 31",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27891,
+     "unit": "Kragujevac",
+     "place": "Kragujevac",
+     "address": "Kralja Petra I 7",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27892,
+     "unit": "Bačka Palanka",
+     "place": "Bačka Palanka",
+     "address": "Kralja Petra I 19",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27893,
+     "unit": "Lazarevac",
+     "place": "Lazarevac",
+     "address": "Dimitrija Tucovica 1b",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27894,
+     "unit": "Aranđelovac",
+     "place": "Aranđelovac",
+     "address": "Knjaza Miloša 259",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27895,
+     "unit": "Požega",
+     "place": "Požega",
+     "address": "Knjaza Miloša 3",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27896,
+     "unit": "Lion",
+     "place": "Zvezdara",
+     "address": "Bulevar kralja Aleksandra 332",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27897,
+     "unit": "Bulevar kralja Aleksandra 518",
+     "place": "Zvezdara",
+     "address": "Bulevar kralja Aleksandra 518",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27898,
+     "unit": "Valjevo",
+     "place": "Valjevo",
+     "address": "Karađorđeva 123",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27899,
+     "unit": "Sombor",
+     "place": "Sombor",
+     "address": "Avrama Mrazovića 1",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27900,
+     "unit": "Jagodina",
+     "place": "Jagodina",
+     "address": "Kneginje Milice 16a",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27901,
+     "unit": "Kruševac",
+     "place": "Kruševac",
+     "address": "Čolak Antina 1v",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27902,
+     "unit": "Ćuprija",
+     "place": "Ćuprija",
+     "address": "Kneza Miloša 24",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27903,
+     "unit": "Temerin",
+     "place": "Temerin",
+     "address": "Novosadska 326",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27904,
+     "unit": "Pirot",
+     "place": "Pirot",
+     "address": "Srpskih vladara 70b",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27905,
+     "unit": "Bulevar",
+     "place": "Zvezdara",
+     "address": "Bulevar kralja Aleksandra 171",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27906,
+     "unit": "Vojvode Milenka",
+     "place": "Savski venac",
+     "address": "Vojvode Milenka 38",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27907,
+     "unit": "Mirijevo",
+     "place": "Zvezdara",
+     "address": "Mirijevski venac 27",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27908,
+     "unit": "Zrenjanin",
+     "place": "Zrenjanin",
+     "address": "Kralja Aleksandra Karađorđevića 41",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27909,
+     "unit": "Arilje",
+     "place": "Arilje",
+     "address": "Svetog Ahilija 20",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27910,
+     "unit": "Mercator Čačak",
+     "place": "Čačak",
+     "address": "Avaldžinica 1",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27911,
+     "unit": "Požarevac",
+     "place": "Požarevac",
+     "address": "Moše Pijade 10",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27912,
+     "unit": "Zemun II",
+     "place": "Zemun",
+     "address": "Prvomajska 101",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27913,
+     "unit": "Voždovac",
+     "place": "Voždovac",
+     "address": "Vojvode Stepe 71",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27914,
+     "unit": "Velika Plana",
+     "place": "Velika Plana",
+     "address": "Miloša Velikog 79",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27915,
+     "unit": "Vojvode Stepe",
+     "place": "Voždovac",
+     "address": "Vojvode Stepe 214",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27916,
+     "unit": "Mladenovac",
+     "place": "Mladenovac",
+     "address": "Kralja Petra I 241a",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27917,
+     "unit": "Zemun",
+     "place": "Zemun",
+     "address": "Glavna 21",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27918,
+     "unit": "Surčin",
+     "place": "Surčin",
+     "address": "Vojvođanska 100",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27919,
+     "unit": "Merkator Niš",
+     "place": "Medijana",
+     "address": "Vizantijski bulevar 1",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27920,
+     "unit": "Sremska Mitrovica",
+     "place": "Sremska Mitrovica",
+     "address": "Kralja Petra I 20",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27921,
+     "unit": "Mihajla Pupina",
+     "place": "Novi Sad",
+     "address": "Narodnih heroja 3",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 09:00-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 27922,
+     "unit": "Vranje",
+     "place": "Vranje",
+     "address": "Stefana Prvovenčanog 58",
+     "phones": "011 3202100",
+     "hours": "Pon-Pet 08:30-16:00; Sub-Ned zatvoreno",
+     "need": []
+    }
+   ]
+  }
+ ],
+ "id": "net-banka-raiffeisen"
+}

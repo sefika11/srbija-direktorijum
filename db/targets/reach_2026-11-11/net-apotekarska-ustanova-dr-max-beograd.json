@@ -1,0 +1,3231 @@
+{
+ "kind": "network",
+ "title": "Apotekarska ustanova \"Dr.Max\"",
+ "type": "apoteka",
+ "orgs": [
+  {
+   "org_slug": "apotekarska-ustanova-dr-max-beograd",
+   "name": "Apotekarska ustanova \"Dr.Max\"",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 12561,
+     "unit": "APOTEKA DR.MAX 13 sedište",
+     "place": "Beograd",
+     "address": "Miloša Pocerca 25",
+     "phones": "011 2656121",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12562,
+     "unit": "OGRANAK APOTEKA DR.MAX 2",
+     "place": "Beograd",
+     "address": "Požeška 67a",
+     "phones": "011 3548907",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12563,
+     "unit": "OGRANAK APOTEKA DR.MAX 3",
+     "place": "Beograd",
+     "address": "Majke Jugovića 11",
+     "phones": "011 8488432",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12564,
+     "unit": "OGRANAK APOTEKA DR.MAX 4",
+     "place": "Beograd",
+     "address": "Cvijićeva 77",
+     "phones": "011 2761821",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12565,
+     "unit": "OGRANAK APOTEKA DR.MAX 5",
+     "place": "Beograd",
+     "address": "Bul. kralja Aleksandra 297",
+     "phones": "011 2421151",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12566,
+     "unit": "OGRANAK APOTEKA DR.MAX 7",
+     "place": "Beograd",
+     "address": "Prvomajska 8",
+     "phones": "011 3077370",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12567,
+     "unit": "OGRANAK APOTEKA DR.MAX 8",
+     "place": "Beograd",
+     "address": "Stevana Hristića 1",
+     "phones": "011 2086003",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12568,
+     "unit": "OGRANAK APOTEKA DR.MAX 9",
+     "place": "Raška",
+     "address": "Konak Zvečan, Lamela V1, lok.16",
+     "phones": "036 5471349",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12569,
+     "unit": "OGRANAK APOTEKA DR.MAX 10",
+     "place": "Beograd",
+     "address": "Kosmajska 56",
+     "phones": "011 2362161",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12570,
+     "unit": "OGRANAK APOTEKA DR.MAX 11",
+     "place": "Beograd",
+     "address": "Davidovićeva 5",
+     "phones": "011 2191898",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12571,
+     "unit": "OGRANAK APOTEKA DR.MAX 12",
+     "place": "Beograd",
+     "address": "Slavka Kolara 1a",
+     "phones": "011 2721338",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12572,
+     "unit": "OGRANAK APOTEKA DR.MAX 15",
+     "place": "Kruševac",
+     "address": "Poručnika Božidara bb",
+     "phones": "037 3502102",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12573,
+     "unit": "OGRANAK APOTEKA DR.MAX 16",
+     "place": "Kruševac",
+     "address": "Mirka Tomića 35",
+     "phones": "037 3502099",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12574,
+     "unit": "OGRANAK APOTEKA DR.MAX 19",
+     "place": "Kraljevo",
+     "address": "Glavaševa 1",
+     "phones": "036 377104",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12575,
+     "unit": "OGRANAK APOTEKA DR.MAX 20",
+     "place": "Novi Sad",
+     "address": "Balzakova 2",
+     "phones": "021 467831",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12576,
+     "unit": "OGRANAK APOTEKA DR.MAX 21",
+     "place": "Ljig",
+     "address": "Alimpija Vasiljevića bb",
+     "phones": "014 3443900",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12577,
+     "unit": "OGRANAK APOTEKA DR.MAX 22",
+     "place": "Beograd",
+     "address": "Maršala Tolbuhina 18",
+     "phones": "011 2605624",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12578,
+     "unit": "OGRANAK APOTEKA DR.MAX 26",
+     "place": "Novi Sad",
+     "address": "Bulevar Slobodana Jovanovića 13",
+     "phones": "021 400433",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12579,
+     "unit": "OGRANAK APOTEKA DR.MAX 29",
+     "place": "Pančevo",
+     "address": "Zmaj Jovina 5",
+     "phones": "013 343535",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12580,
+     "unit": "OGRANAK APOTEKA DR.MAX 32",
+     "place": "Beograd",
+     "address": "Pilota Mihajla Petrovića 7",
+     "phones": "011 3565121",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12581,
+     "unit": "OGRANAK APOTEKA DR.MAX 33",
+     "place": "Raška",
+     "address": "Železnička bb",
+     "phones": "036 734667",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12582,
+     "unit": "OGRANAK APOTEKA DR.MAX 34",
+     "place": "Beograd",
+     "address": "Ruzveltova 41",
+     "phones": "011 2750287",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12583,
+     "unit": "OGRANAK APOTEKA DR.MAX 35",
+     "place": "Beograd",
+     "address": "Sarajevska 6",
+     "phones": "011 2641427",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12584,
+     "unit": "OGRANAK APOTEKA DR.MAX 36",
+     "place": "Beograd",
+     "address": "Kralja Milutina 32",
+     "phones": "011 2682142",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12585,
+     "unit": "OGRANAK APOTEKA DR.MAX 38",
+     "place": "Subotica",
+     "address": "Izvorska 3",
+     "phones": "024 555243",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12586,
+     "unit": "OGRANAK APOTEKA DR.MAX 41",
+     "place": "Beograd",
+     "address": "Ustanička 194",
+     "phones": "011 2881398",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12587,
+     "unit": "OGRANAK APOTEKA DR.MAX 44",
+     "place": "Beograd",
+     "address": "Pijaca Zeleni venac, lokal 29",
+     "phones": "011 3036112",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12588,
+     "unit": "OGRANAK APOTEKA DR.MAX 45",
+     "place": "Beograd",
+     "address": "Titova 6",
+     "phones": "011 2581411",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12589,
+     "unit": "OGRANAK APOTEKA DR.MAX 46",
+     "place": "Beograd",
+     "address": "Koste Dragićevića 35",
+     "phones": "011 7166229",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12590,
+     "unit": "OGRANAK APOTEKA DR.MAX 48",
+     "place": "Zrenjanin",
+     "address": "Miletićeva 86",
+     "phones": "023 521499",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12591,
+     "unit": "OGRANAK APOTEKA DR.MAX 50",
+     "place": "Beograd",
+     "address": "Šumadijska 20",
+     "phones": "065 8692711",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12592,
+     "unit": "OGRANAK APOTEKA DR.MAX 51",
+     "place": "Beograd",
+     "address": "Francuska 37a",
+     "phones": "011 8122108",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12593,
+     "unit": "OGRANAK APOTEKA DR.MAX 52",
+     "place": "Beograd",
+     "address": "Simina 16",
+     "phones": "011 3282300",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12594,
+     "unit": "OGRANAK APOTEKA DR.MAX 53",
+     "place": "Beograd",
+     "address": "Grge Andrijanovića 8g",
+     "phones": "011 2722721",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12595,
+     "unit": "OGRANAK APOTEKA DR.MAX 54",
+     "place": "Beograd",
+     "address": "Kralja Milutina 77",
+     "phones": "011 3616510",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12596,
+     "unit": "OGRANAK APOTEKA DR.MAX 55",
+     "place": "Beograd",
+     "address": "Veljka Dugoševića 19",
+     "phones": "011 6791520",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12597,
+     "unit": "OGRANAK APOTEKA DR.MAX 56- KEDROVIĆ",
+     "place": "Kruševac",
+     "address": "Vidovdanska 17",
+     "phones": "037 429711",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12598,
+     "unit": "OGRANAK APOTEKA DR.MAX 57",
+     "place": "Kruševac",
+     "address": "Vojvode Putnika 4",
+     "phones": "037 420582",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12599,
+     "unit": "OGRANAK APOTEKA DR.MAX 58",
+     "place": "Kruševac",
+     "address": "Dositejeva 2",
+     "phones": "037 417740",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12600,
+     "unit": "OGRANAK APOTEKA DR.MAX 59",
+     "place": "Kruševac",
+     "address": "Gazimestanska 34",
+     "phones": "037 429299",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12601,
+     "unit": "OGRANAK APOTEKA DR.MAX 61",
+     "place": "Brus",
+     "address": "Kralja Petra I 1",
+     "phones": "037 825295",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12602,
+     "unit": "OGRANAK APOTEKA DR.MAX 62",
+     "place": "Varvarin",
+     "address": "Slobode bb",
+     "phones": "037 788852",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12603,
+     "unit": "OGRANAK APOTEKA DR.MAX 63",
+     "place": "Trstenik",
+     "address": "Knjeginje Milice 2",
+     "phones": "037 712363",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12604,
+     "unit": "OGRANAK APOTEKA DR.MAX 64",
+     "place": "Ćićevac",
+     "address": "Karađorđeva bb",
+     "phones": "037 811187",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12605,
+     "unit": "OGRANAK APOTEKA DR.MAX 65",
+     "place": "Kruševac",
+     "address": "Parunovačka 12",
+     "phones": "037 886617",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12606,
+     "unit": "OGRANAK APOTEKA DR.MAX 66",
+     "place": "Kruševac",
+     "address": "Cara Lazara 224",
+     "phones": "037 421183",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12607,
+     "unit": "OGRANAK APOTEKA DR.MAX 68",
+     "place": "Kruševac",
+     "address": "Ćirila i Metodija 34",
+     "phones": "037 427572",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12608,
+     "unit": "OGRANAK APOTEKA DR.MAX 69",
+     "place": "Kruševac",
+     "address": "Ribarska banja bb",
+     "phones": "037 3150260",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12609,
+     "unit": "OGRANAK APOTEKA DR.MAX 70",
+     "place": "Varvarin",
+     "address": "Bačina bb",
+     "phones": "037 3150151",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12610,
+     "unit": "OGRANAK APOTEKA DR.MAX 72",
+     "place": "Varvarin",
+     "address": "Bošnjane bb",
+     "phones": "037 798023",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12611,
+     "unit": "OGRANAK APOTEKA DR.MAX 73",
+     "place": "Ćićevac",
+     "address": "Stalać bb",
+     "phones": "037 806885",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12612,
+     "unit": "OGRANAK APOTEKA DR.MAX 74",
+     "place": "Trstenik",
+     "address": "Stopanja bb",
+     "phones": "037 3150152",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12613,
+     "unit": "OGRANAK APOTEKA DR.MAX 75",
+     "place": "Medveđa",
+     "address": "Medveđa bb",
+     "phones": "037 3150153",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12614,
+     "unit": "OGRANAK APOTEKA DR.MAX 76",
+     "place": "Gornji Milanovac",
+     "address": "Drenova bb",
+     "phones": "063 1068296",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12615,
+     "unit": "OGRANAK APOTEKA DR.MAX 77",
+     "place": "Kruševac",
+     "address": "Dvorane bb",
+     "phones": "037 3150154",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12616,
+     "unit": "OGRANAK APOTEKA DR.MAX 78",
+     "place": "Kruševac",
+     "address": "Šiljegovac bb",
+     "phones": "037 851155",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12617,
+     "unit": "OGRANAK APOTEKA DR.MAX 79",
+     "place": "Kruševac",
+     "address": "II dalmatinske proleterske brigade 22",
+     "phones": "037 493388",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12618,
+     "unit": "OGRANAK APOTEKA DR.MAX 80",
+     "place": "Kruševac",
+     "address": "Zdravinje bb",
+     "phones": "063 1068348",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12619,
+     "unit": "OGRANAK APOTEKA DR.MAX 81",
+     "place": "Kruševac",
+     "address": "Kaonik bb",
+     "phones": "063 1068349",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12620,
+     "unit": "OGRANAK APOTEKA DR.MAX 83",
+     "place": "Kruševac",
+     "address": "Vidovdanska 86",
+     "phones": "063 1068244",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12621,
+     "unit": "OGRANAK APOTEKA DR.MAX 84",
+     "place": "Subotica",
+     "address": "Vatroslava Lisinskog 2",
+     "phones": "063 1068583",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12622,
+     "unit": "OGRANAK APOTEKA DR.MAX 85",
+     "place": "Užice",
+     "address": "Kralja Petra I 4",
+     "phones": "063 1068587",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12623,
+     "unit": "OGRANAK APOTEKA DR.MAX 86",
+     "place": "Preševo",
+     "address": "15.novembra 121, lokal 6",
+     "phones": "063 1068593",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12624,
+     "unit": "OGRANAK APOTEKA DR.MAX 87",
+     "place": "Jagodina",
+     "address": "Karađorđeva bb",
+     "phones": "063 1060094",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12625,
+     "unit": "OGRANAK APOTEKA DR.MAX 88",
+     "place": "Jagodina",
+     "address": "Nikčevićeva 1",
+     "phones": "063 1060132",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12626,
+     "unit": "OGRANAK APOTEKA DR.MAX 90",
+     "place": "Knjaževac",
+     "address": "Glogovac bb",
+     "phones": "063 1060159",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12627,
+     "unit": "OGRANAK APOTEKA DR.MAX 92",
+     "place": "Jagodina",
+     "address": "Bagrdan bb",
+     "phones": "063 1060637",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12628,
+     "unit": "OGRANAK APOTEKA DR.MAX 93",
+     "place": "Niš",
+     "address": "Dr Mihajla Mike Markovića 1",
+     "phones": "018 4287823",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12629,
+     "unit": "OGRANAK APOTEKA DR.MAX 94",
+     "place": "Leskovac",
+     "address": "Južnomoravskih brigada 106",
+     "phones": "016 243551",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12630,
+     "unit": "OGRANAK APOTEKA DR.MAX 95",
+     "place": "Novi Sad",
+     "address": "Bulevar oslobođenja 105",
+     "phones": "021 6622334",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12631,
+     "unit": "OGRANAK APOTEKA DR.MAX 96",
+     "place": "Novi Sad",
+     "address": "Kisačka 27",
+     "phones": "021 500950",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12632,
+     "unit": "OGRANAK APOTEKA DR.MAX 97",
+     "place": "Novi Sad",
+     "address": "Kralja Petra I 18",
+     "phones": "021 821200",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12633,
+     "unit": "OGRANAK APOTEKA DR.MAX 98",
+     "place": "Novi Sad",
+     "address": "Bulevar oslobođenja 57a",
+     "phones": "021 6621211",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12634,
+     "unit": "OGRANAK APOTEKA DR.MAX 99",
+     "place": "Sremski Karlovci",
+     "address": "Trg patrijarha Brankovića 6",
+     "phones": "021 883500",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12635,
+     "unit": "OGRANAK APOTEKA DR.MAX 100",
+     "place": "Beograd",
+     "address": "Kralja Petra I 230",
+     "phones": "011 6558377",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12636,
+     "unit": "OGRANAK APOTEKA DR.MAX 102",
+     "place": "Beograd",
+     "address": "Kraljice Marije 18",
+     "phones": "011 8231286",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12637,
+     "unit": "OGRANAK APOTEKA DR.MAX 103",
+     "place": "Beograd",
+     "address": "Kralja Aleksandra Obrenovića 55a",
+     "phones": "011 8232141",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12638,
+     "unit": "OGRANAK APOTEKA DR.MAX 106",
+     "place": "Grocka",
+     "address": "29.novembra 12",
+     "phones": "011 6558379",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12639,
+     "unit": "OGRANAK APOTEKA DR.MAX 107",
+     "place": "Mladenovac",
+     "address": "Dolina Šešira 4",
+     "phones": "011 8215659",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12640,
+     "unit": "OGRANAK APOTEKA DR.MAX 108",
+     "place": "Sopot",
+     "address": "Kosmajski trg 5",
+     "phones": "011 8256686",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12641,
+     "unit": "OGRANAK APOTEKA DR.MAX 109",
+     "place": "Aranđelovac",
+     "address": "Čegarska 39",
+     "phones": "034 6170027",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12642,
+     "unit": "OGRANAK APOTEKA DR.MAX 110",
+     "place": "Lučani",
+     "address": "Kosmajska 68",
+     "phones": "011 8255014",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12643,
+     "unit": "OGRANAK APOTEKA DR.MAX 114",
+     "place": "Ub",
+     "address": "Kralja Petra I oslobodioca 60/2",
+     "phones": "014 414714",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12644,
+     "unit": "OGRANAK APOTEKA DR.MAX 116",
+     "place": "Obrenovac",
+     "address": "Barička reka 27",
+     "phones": "011 8774421",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12645,
+     "unit": "OGRANAK APOTEKA DR.MAX 117",
+     "place": "Beograd",
+     "address": "Vojvode Mišića 105",
+     "phones": "011 8728193",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12646,
+     "unit": "OGRANAK APOTEKA DR.MAX 119",
+     "place": "Beograd",
+     "address": "Vojvode Mišića 192",
+     "phones": "011 8725550",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12647,
+     "unit": "OGRANAK APOTEKA DR.MAX 121",
+     "place": "Vladimirci",
+     "address": "Provo bb",
+     "phones": "015 7799130",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12648,
+     "unit": "OGRANAK APOTEKA DR.MAX 124",
+     "place": "Beograd",
+     "address": "Vojvode Mišića 202a",
+     "phones": "011 6304855",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12649,
+     "unit": "OGRANAK APOTEKA DR.MAX 125",
+     "place": "Beograd",
+     "address": "Knez Danilova 7",
+     "phones": "011 6304340",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12650,
+     "unit": "OGRANAK APOTEKA DR.MAX 127",
+     "place": "Beograd",
+     "address": "Janka Stajčića 4a",
+     "phones": "066 8074631",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12651,
+     "unit": "OGRANAK APOTEKA DR.MAX 128",
+     "place": "Niš",
+     "address": "Bulevar Nemanjića 92",
+     "phones": "018 552212",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12652,
+     "unit": "OGRANAK APOTEKA DR.MAX 129",
+     "place": "Niš",
+     "address": "Bulevar Nemanjića 15",
+     "phones": "018 4235262",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12653,
+     "unit": "OGRANAK APOTEKA DR.MAX 130",
+     "place": "Niš",
+     "address": "Bulevar Dr Zorana Đinđića 8",
+     "phones": "018 202071",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12654,
+     "unit": "OGRANAK APOTEKA DR.MAX 131",
+     "place": "Niš",
+     "address": "Vrežinski bulevar 3",
+     "phones": "018 573533",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12655,
+     "unit": "OGRANAK APOTEKA DR.MAX 132",
+     "place": "Niš",
+     "address": "Marina Držića 5",
+     "phones": "018 274265",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12656,
+     "unit": "OGRANAK APOTEKA DR.MAX 133",
+     "place": "Niš",
+     "address": "Jovana Ristića 23",
+     "phones": "018 4550340",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12659,
+     "unit": "OGRANAK APOTEKA DR.MAX 134",
+     "place": "Preševo",
+     "address": "15.novembra 80",
+     "phones": "017 860006",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12662,
+     "unit": "OGRANAK APOTEKA DR.MAX 135",
+     "place": "Beograd",
+     "address": "Vidikovački venac 92f",
+     "phones": "011 2321712",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12664,
+     "unit": "OGRANAK APOTEKA DR.MAX 136",
+     "place": "Beograd",
+     "address": "Titova 8",
+     "phones": "011 2580596",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12666,
+     "unit": "OGRANAK APOTEKA DR.MAX 137",
+     "place": "Beograd",
+     "address": "Starih ratnika 14a",
+     "phones": "011 2580067",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12669,
+     "unit": "OGRANAK APOTEKA DR.MAX 138",
+     "place": "Voždovac",
+     "address": "Avalska 17",
+     "phones": "011 8651168",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12672,
+     "unit": "OGRANAK APOTEKA DR.MAX 139",
+     "place": "Beograd",
+     "address": "Svetosavska 89",
+     "phones": "011 8304666",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12674,
+     "unit": "OGRANAK APOTEKA DR.MAX 140",
+     "place": "Beograd",
+     "address": "Darinke Radović 26",
+     "phones": "011 2580186",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12677,
+     "unit": "OGRANAK APOTEKA DR.MAX 141",
+     "place": "Beograd",
+     "address": "Paunova 40",
+     "phones": "011 3676186",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12679,
+     "unit": "OGRANAK APOTEKA DR.MAX 142",
+     "place": "Beograd",
+     "address": "Vojvode Stepe 222",
+     "phones": "011 3286657",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12682,
+     "unit": "OGRANAK APOTEKA DR.MAX 143",
+     "place": "Beograd",
+     "address": "Vojvode Stepe 2a",
+     "phones": "011 3970331",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12685,
+     "unit": "OGRANAK APOTEKA DR.MAX 145",
+     "place": "Grocka",
+     "address": "Kralja Petra I 3",
+     "phones": "011 3414941",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12687,
+     "unit": "OGRANAK APOTEKA DR.MAX 146",
+     "place": "Beograd",
+     "address": "General Ždanova 163",
+     "phones": "011 3908007",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12689,
+     "unit": "OGRANAK APOTEKA DR.MAX 147",
+     "place": "Paraćin",
+     "address": "Vožda Karađorđa 20",
+     "phones": "035 569616",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12692,
+     "unit": "OGRANAK APOTEKA DR.MAX 148",
+     "place": "Paraćin",
+     "address": "Majora Marka 35",
+     "phones": "035 568182",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12695,
+     "unit": "OGRANAK APOTEKA DR.MAX 150",
+     "place": "Kragujevac",
+     "address": "Kralja Milutina bb",
+     "phones": "034 332907",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12698,
+     "unit": "OGRANAK APOTEKA DR.MAX 151",
+     "place": "Paraćin",
+     "address": "Kralja Petra I 10",
+     "phones": "035 569585",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12701,
+     "unit": "OGRANAK APOTEKA DR.MAX 153",
+     "place": "Knić",
+     "address": "Knić bb",
+     "phones": "034 510930",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12703,
+     "unit": "OGRANAK APOTEKA DR.MAX 154",
+     "place": "Bor",
+     "address": "Nikole Pašića bb",
+     "phones": "030 421707",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12706,
+     "unit": "OGRANAK APOTEKA DR.MAX 155",
+     "place": "Kragujevac",
+     "address": "Svetozara Markovića 32",
+     "phones": "034 205620",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12709,
+     "unit": "OGRANAK APOTEKA DR.MAX 156",
+     "place": "Kragujevac",
+     "address": "Čegarska 39",
+     "phones": "034 209867",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12712,
+     "unit": "OGRANAK APOTEKA DR.MAX 157",
+     "place": "Bor",
+     "address": "Zeleni bulevar bb",
+     "phones": "030 435779",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12715,
+     "unit": "OGRANAK APOTEKA DR.MAX 158",
+     "place": "Bor",
+     "address": "Moše Pijade 17",
+     "phones": "030 421779",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12718,
+     "unit": "OGRANAK APOTEKA DR.MAX 159",
+     "place": "Kragujevac",
+     "address": "Vojvode Putnika 58b",
+     "phones": "063 1052463",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12721,
+     "unit": "OGRANAK APOTEKA DR.MAX 160",
+     "place": "Zaječar",
+     "address": "Nikole Pašića 33",
+     "phones": "069 1218210",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12723,
+     "unit": "OGRANAK APOTEKA DR.MAX 161",
+     "place": "Zaječar",
+     "address": "LJube Nešića 86a",
+     "phones": "065 8692704",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12726,
+     "unit": "OGRANAK APOTEKA DR.MAX 162",
+     "place": "Paraćin",
+     "address": "Bore Petrovića bb",
+     "phones": "035 569881",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12729,
+     "unit": "OGRANAK APOTEKA DR.MAX 163",
+     "place": "Negotin",
+     "address": "Badnjevska broj 4",
+     "phones": "019 546444",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12732,
+     "unit": "OGRANAK APOTEKA DR.MAX 164",
+     "place": "Negotin",
+     "address": "Srbe Jovanovića bb",
+     "phones": "019 542144",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12735,
+     "unit": "OGRANAK APOTEKA DR.MAX 165",
+     "place": "Bor",
+     "address": "Moše Pijade 51",
+     "phones": "030 422322",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12738,
+     "unit": "OGRANAK APOTEKA DR.MAX 166",
+     "place": "Majdanpek",
+     "address": "Trg oslobođenja bb",
+     "phones": "030 584322",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12741,
+     "unit": "OGRANAK APOTEKA DR.MAX 167",
+     "place": "Majdanpek",
+     "address": "Kapetanska 30",
+     "phones": "030 584333",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12743,
+     "unit": "OGRANAK APOTEKA DR.MAX 168",
+     "place": "Negotin",
+     "address": "Trg Đorđa Stanojevića 82",
+     "phones": "019 548554",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12746,
+     "unit": "OGRANAK APOTEKA DR.MAX 170",
+     "place": "Bor",
+     "address": "Kralja Petra bb",
+     "phones": "030 441331",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12748,
+     "unit": "OGRANAK APOTEKA DR.MAX 171",
+     "place": "Kragujevac",
+     "address": "Zmaj Jovina broj 1",
+     "phones": "034 370919",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12750,
+     "unit": "OGRANAK APOTEKA DR.MAX 172",
+     "place": "Negotin",
+     "address": "Naselje Zelena pijaca 6",
+     "phones": "019 549209",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12752,
+     "unit": "OGRANAK APOTEKA DR.MAX 174",
+     "place": "Leskovac",
+     "address": "Bulevar oslobođenja bb",
+     "phones": "016 3101911",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12753,
+     "unit": "OGRANAK APOTEKA DR.MAX 175",
+     "place": "Pirot",
+     "address": "Srpskih vladara 75",
+     "phones": "010 320300",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12755,
+     "unit": "OGRANAK APOTEKA DR.MAX 176",
+     "place": "Beograd",
+     "address": "Matice srpske 111",
+     "phones": "011 4387367",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12758,
+     "unit": "OGRANAK APOTEKA DR.MAX 177",
+     "place": "Beograd",
+     "address": "Ibarski put 66",
+     "phones": "011 7871025",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12760,
+     "unit": "OGRANAK APOTEKA DR.MAX 178",
+     "place": "Beograd",
+     "address": "Radnička 63b",
+     "phones": "064 8692427",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12762,
+     "unit": "OGRANAK APOTEKA DR.MAX 179",
+     "place": "Ub",
+     "address": "Svete Popovića 19",
+     "phones": "014 3100401",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12764,
+     "unit": "OGRANAK APOTEKA DR.MAX 180",
+     "place": "Aleksinac",
+     "address": "Knjaza Miloša 70",
+     "phones": "018 4103100",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12766,
+     "unit": "OGRANAK APOTEKA DR.MAX 182",
+     "place": "Žagubica",
+     "address": "Cara Dušana bb",
+     "phones": "063 1060146",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12768,
+     "unit": "OGRANAK APOTEKA DR.MAX 183",
+     "place": "Kula",
+     "address": "Moše Pijade 57",
+     "phones": "025 730225",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12770,
+     "unit": "OGRANAK APOTEKA DR.MAX 184",
+     "place": "Sombor",
+     "address": "Pariska 6",
+     "phones": "025 442666",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12772,
+     "unit": "OGRANAK APOTEKA DR.MAX 185",
+     "place": "Sombor",
+     "address": "XII Vojvođanske udarne brigade 107",
+     "phones": "025 451005",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12775,
+     "unit": "OGRANAK APOTEKA DR.MAX 186",
+     "place": "Apatin",
+     "address": "Branka Radičevića 3",
+     "phones": "025 779349",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12777,
+     "unit": "OGRANAK APOTEKA DR.MAX 187",
+     "place": "Sombor",
+     "address": "Sportska 3",
+     "phones": "025 444955",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12779,
+     "unit": "OGRANAK APOTEKA DR.MAX 188",
+     "place": "Sombor",
+     "address": "Oslobođenja 75",
+     "phones": "025 832004",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12781,
+     "unit": "OGRANAK APOTEKA DR.MAX 189",
+     "place": "Odžaci",
+     "address": "Knez Mihajlova 23",
+     "phones": "025 5744555",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12783,
+     "unit": "OGRANAK APOTEKA DR.MAX 190",
+     "place": "Kula",
+     "address": "Maršala Tita 240",
+     "phones": "025 728111",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12785,
+     "unit": "OGRANAK APOTEKA DR.MAX 191",
+     "place": "Odžaci",
+     "address": "Trg oslobođenja 18",
+     "phones": "025 5875177",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12787,
+     "unit": "OGRANAK APOTEKA SUPER DR.MAX 192",
+     "place": "Beograd",
+     "address": "Makedonska 12",
+     "phones": "062 8012642",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12789,
+     "unit": "OGRANAK APOTEKA DR.MAX 193",
+     "place": "Beograd",
+     "address": "Požeška 42",
+     "phones": "069 2220204",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12791,
+     "unit": "OGRANAK APOTEKA DR.MAX 194",
+     "place": "Beograd",
+     "address": "Velimira Bate Živojinovića 15",
+     "phones": "063 1038035",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12793,
+     "unit": "OGRANAK APOTEKA DR.MAX 195",
+     "place": "Vlasotince",
+     "address": "Dušanova 8",
+     "phones": "063 1037932",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12795,
+     "unit": "OGRANAK APOTEKA DR.MAX 196",
+     "place": "Beograd",
+     "address": "Kralja Petra Prvog 9ž",
+     "phones": "062 285716",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12798,
+     "unit": "OGRANAK APOTEKA DR.MAX 197",
+     "place": "Beograd",
+     "address": "Jelice Milovanović 5",
+     "phones": "064 6599688",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12800,
+     "unit": "OGRANAK APOTEKA SUPER DR.MAX 199",
+     "place": "Niš",
+     "address": "Bulevar Medijane 21",
+     "phones": "062 8012644",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12802,
+     "unit": "OGRANAK APOTEKA DR.MAX 200",
+     "place": "Beograd",
+     "address": "Milutina Milankovića 34",
+     "phones": "064 8692427",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12804,
+     "unit": "OGRANAK APOTEKA DR.MAX 201",
+     "place": "Negotin",
+     "address": "Save Dragojevića 2",
+     "phones": "064 8093412",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12806,
+     "unit": "OGRANAK APOTEKA DR.MAX 203",
+     "place": "Veliko Gradište",
+     "address": "Mladena Miloradovića 5",
+     "phones": "012 663047",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12808,
+     "unit": "OGRANAK APOTEKA DR.MAX 204",
+     "place": "Kučevo",
+     "address": "Vidovdanska 9",
+     "phones": "012 885007",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12810,
+     "unit": "OGRANAK APOTEKA DR.MAX 205",
+     "place": "Beograd",
+     "address": "Kralja Petra 62",
+     "phones": "011 3286540",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12812,
+     "unit": "OGRANAK APOTEKA DR.MAX 206",
+     "place": "Beograd",
+     "address": "Neznanog junaka 47",
+     "phones": "011 3674192",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12815,
+     "unit": "OGRANAK APOTEKA DR.MAX 207",
+     "place": "Beograd",
+     "address": "Bulevar Mihaila Pupina 181",
+     "phones": "011 3196522",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12817,
+     "unit": "OGRANAK APOTEKA DR.MAX 208",
+     "place": "Beograd",
+     "address": "Grge Andrijanovića ul.2 br. 15",
+     "phones": "011 2712344",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12818,
+     "unit": "OGRANAK APOTEKA DR.MAX 209",
+     "place": "Beograd",
+     "address": "Trg Politike 7",
+     "phones": "011 3373105",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12820,
+     "unit": "OGRANAK APOTEKA DR.MAX 210",
+     "place": "Palilula",
+     "address": "Ivana Milutinovića 23",
+     "phones": "011 3328831",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12823,
+     "unit": "OGRANAK APOTEKA DR.MAX 211",
+     "place": "Beograd",
+     "address": "Oplenačka 42a",
+     "phones": "011 4320794",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12825,
+     "unit": "OGRANAK APOTEKA DR.MAX 212",
+     "place": "Beograd",
+     "address": "Pavla Vujisića 61g",
+     "phones": "011 4320793",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12827,
+     "unit": "OGRANAK APOTEKA DR.MAX 213",
+     "place": "Beograd",
+     "address": "Miloša Pocerca 25",
+     "phones": "011 7703695",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12829,
+     "unit": "OGRANAK APOTEKA DR.MAX 214",
+     "place": "Beograd",
+     "address": "Titova 6",
+     "phones": "011 2571142",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12831,
+     "unit": "OGRANAK APOTEKA DR.MAX 216",
+     "place": "Pančevo",
+     "address": "NikoleTesle 3",
+     "phones": "013 342637",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12833,
+     "unit": "OGRANAK APOTEKA DR.MAX 218",
+     "place": "Pančevo",
+     "address": "Veljka Vlahovića 11a",
+     "phones": "013 331131",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12835,
+     "unit": "OGRANAK APOTEKA DR.MAX 219",
+     "place": "Pančevo",
+     "address": "Svetog Save 109",
+     "phones": "013 347013",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12837,
+     "unit": "OGRANAK APOTEKA DR.MAX 220",
+     "place": "Pančevo",
+     "address": "Pančevački put 9",
+     "phones": "013 633512",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12840,
+     "unit": "OGRANAK APOTEKA DR.MAX 221",
+     "place": "Pančevo",
+     "address": "Makedonska 115a",
+     "phones": "013 370419",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12842,
+     "unit": "OGRANAK APOTEKA DR.MAX 222",
+     "place": "Pančevo",
+     "address": "Vojvođanski bulevar 30a",
+     "phones": "062 8881236",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12844,
+     "unit": "OGRANAK APOTEKA DR.MAX 223",
+     "place": "Leskovac",
+     "address": "Trg slobode 13a",
+     "phones": "016 782444",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12846,
+     "unit": "OGRANAK APOTEKA DR.MAX 224",
+     "place": "Bojnik",
+     "address": "Trg slobode 48",
+     "phones": "016 3100488",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12848,
+     "unit": "OGRANAK APOTEKA DR.MAX 225",
+     "place": "Leskovac",
+     "address": "Bulevar Nikole Pašića 76",
+     "phones": "016 220888",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12850,
+     "unit": "OGRANAK APOTEKA DR.MAX 227",
+     "place": "Knić",
+     "address": "Guberevac bb",
+     "phones": "016 3488035",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12852,
+     "unit": "OGRANAK APOTEKA DR.MAX 230",
+     "place": "Beograd",
+     "address": "Dubljanska 66",
+     "phones": "011 2450286",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12854,
+     "unit": "OGRANAK APOTEKA DR.MAX 232",
+     "place": "Beograd",
+     "address": "Kanarevo brdo 4a",
+     "phones": "011 3591274",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12856,
+     "unit": "OGRANAK APOTEKA DR.MAX 233",
+     "place": "Beograd",
+     "address": "Ovčanski put 55a",
+     "phones": "011 4285068",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12858,
+     "unit": "OGRANAK APOTEKA DR.MAX 234",
+     "place": "Medveđa",
+     "address": "Kej bb",
+     "phones": "016 891597",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12860,
+     "unit": "OGRANAK APOTEKA DR.MAX 236",
+     "place": "Novi Pazar",
+     "address": "AVNOJ-a 3/70",
+     "phones": "020 313590",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12862,
+     "unit": "OGRANAK APOTEKA DR.MAX 237",
+     "place": "Novi Pazar",
+     "address": "Generala Živkovića bb",
+     "phones": "020 386910",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12865,
+     "unit": "OGRANAK APOTEKA DR.MAX 240",
+     "place": "Beograd",
+     "address": "Braće Jerković 108",
+     "phones": "011 3970014",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12867,
+     "unit": "OGRANAK APOTEKA DR.MAX 241",
+     "place": "Beograd",
+     "address": "Braće Srnić 23a",
+     "phones": "011 4045599",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12869,
+     "unit": "OGRANAK APOTEKA DR.MAX 242",
+     "place": "Beograd",
+     "address": "Ravan 5a",
+     "phones": "011 4057304",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12871,
+     "unit": "OGRANAK APOTEKA SUPER DR.MAX 243",
+     "place": "Bor",
+     "address": "Nikole Pašića 21",
+     "phones": "064 2811301",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12872,
+     "unit": "OGRANAK APOTEKA DR.MAX 245",
+     "place": "Vranje",
+     "address": "Bore Stankovića 1",
+     "phones": "066 8444782",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12874,
+     "unit": "OGRANAK APOTEKA DR.MAX 246",
+     "place": "Vranje",
+     "address": "Kralja Stefana Prvovenčanog 182",
+     "phones": "066 8877772",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12876,
+     "unit": "OGRANAK APOTEKA DR.MAX 247",
+     "place": "Ćuprija",
+     "address": "Miodraga Novakovića 6",
+     "phones": "069 8082838",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12878,
+     "unit": "OGRANAK APOTEKA DR.MAX 248",
+     "place": "Niš",
+     "address": "Vojvode Tankosića 40",
+     "phones": "069 617894",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12881,
+     "unit": "OGRANAK APOTEKA DR.MAX 249",
+     "place": "Beograd",
+     "address": "Braće Puhalović 9",
+     "phones": "069 8082889",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12883,
+     "unit": "OGRANAK APOTEKA SUPER DR.MAX 250",
+     "place": "Novi Sad",
+     "address": "Sentandrejski put 11",
+     "phones": "069 8122965",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12885,
+     "unit": "OGRANAK APOTEKA DR.MAX 251",
+     "place": "Knjaževac",
+     "address": "Knjaza Miloša 43",
+     "phones": "064 8692465",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12887,
+     "unit": "OGRANAK APOTEKA DR.MAX 252",
+     "place": "Čačak",
+     "address": "Gavrila Principa 3",
+     "phones": "065 8048908",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12889,
+     "unit": "OGRANAK APOTEKA DR.MAX 253",
+     "place": "Čačak",
+     "address": "Svetozara Markovića 64",
+     "phones": "065 8048909",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12891,
+     "unit": "OGRANAK APOTEKA DR.MAX 262",
+     "place": "Niš",
+     "address": "Trg Pavla Stojkovića 13a",
+     "phones": "062 371757",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12893,
+     "unit": "OGRANAK APOTEKA DR.MAX 263",
+     "place": "Niš",
+     "address": "Jovana Ristića 5",
+     "phones": "062 371758",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12895,
+     "unit": "OGRANAK APOTEKA DR.MAX 264",
+     "place": "Niš",
+     "address": "Nikole Pašića 63",
+     "phones": "062 371762",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12897,
+     "unit": "OGRANAK APOTEKA DR.MAX 265",
+     "place": "Niš",
+     "address": "Vožda Karađorđa 7ž",
+     "phones": "062 371759",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12899,
+     "unit": "OGRANAK APOTEKA DR.MAX 331",
+     "place": "Zaječar",
+     "address": "Dragoslava Srejovića 8",
+     "phones": "019 420212",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12902,
+     "unit": "OGRANAK APOTEKA DR.MAX 332",
+     "place": "Zaječar",
+     "address": "Hajduk Veljkova 4",
+     "phones": "019 428804",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12904,
+     "unit": "OGRANAK APOTEKA DR.MAX 333",
+     "place": "Zaječar",
+     "address": "Ljube Nešića 44",
+     "phones": "019 422043",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12906,
+     "unit": "OGRANAK APOTEKA DR.MAX 334",
+     "place": "Zaječar",
+     "address": "Nikole Pašića 80",
+     "phones": "019 423212",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12908,
+     "unit": "OGRANAK APOTEKA DR.MAX 335",
+     "place": "Zaječar",
+     "address": "Čipićeva 15",
+     "phones": "019 424212",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12910,
+     "unit": "OGRANAK APOTEKA DR.MAX 336",
+     "place": "Žabalj",
+     "address": "Nikole Tesle 80",
+     "phones": "021 2930280",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12912,
+     "unit": "OGRANAK APOTEKA DR.MAX 337",
+     "place": "Žabalj",
+     "address": "Svetog Save 116",
+     "phones": "021 6933099",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12914,
+     "unit": "OGRANAK APOTEKA DR.MAX 338",
+     "place": "Žabalj",
+     "address": "Kralja Petra I 27",
+     "phones": "021 2937083",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12916,
+     "unit": "OGRANAK APOTEKA DR.MAX 340",
+     "place": "Novi Sad",
+     "address": "Bulevar Evrope 22",
+     "phones": "021 2700265",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12918,
+     "unit": "OGRANAK APOTEKA DR.MAX 341",
+     "place": "Novi Sad",
+     "address": "Janka Čmelika 2",
+     "phones": "021 3832200",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12921,
+     "unit": "OGRANAK APOTEKA DR.MAX 342",
+     "place": "Beograd",
+     "address": "Ratka Mitrovića 100",
+     "phones": "011 2393237",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12923,
+     "unit": "OGRANAK APOTEKA DR.MAX 343",
+     "place": "Beograd",
+     "address": "Borska 70a",
+     "phones": "011 3515344",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12925,
+     "unit": "OGRANAK APOTEKA DR.MAX 344",
+     "place": "Beograd",
+     "address": "Prvoboraca 30b",
+     "phones": "011 6320467",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12927,
+     "unit": "OGRANAK APOTEKA DR.MAX 345",
+     "place": "Beograd",
+     "address": "Čelebićka 13",
+     "phones": "011 3512008",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12929,
+     "unit": "OGRANAK APOTEKA DR.MAX 346",
+     "place": "Beograd",
+     "address": "Andre Nikolića 7",
+     "phones": "011 3670700",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12931,
+     "unit": "OGRANAK APOTEKA DR.MAX 347",
+     "place": "Beograd",
+     "address": "Luke Vojvodića 77a",
+     "phones": "011 6301506",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12933,
+     "unit": "OGRANAK APOTEKA DR.MAX 348",
+     "place": "Beograd",
+     "address": "Pariske komune 26",
+     "phones": "069 8102211",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12935,
+     "unit": "OGRANAK APOTEKA DR.MAX 349",
+     "place": "Beograd",
+     "address": "Narodnih heroja 23",
+     "phones": "069 8102212",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12938,
+     "unit": "OGRANAK APOTEKA DR.MAX 350",
+     "place": "Beograd",
+     "address": "Milutina Milankovića 3",
+     "phones": "069 8102213",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12940,
+     "unit": "OGRANAK APOTEKA DR.MAX 351",
+     "place": "Beograd",
+     "address": "Bulevar oslobođenja 321",
+     "phones": "069 8102214",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12942,
+     "unit": "OGRANAK APOTEKA DR.MAX 352",
+     "place": "Beograd",
+     "address": "Bulevar kralja Aleksandra 294",
+     "phones": "069 8102215",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12944,
+     "unit": "OGRANAK APOTEKA DR.MAX 353",
+     "place": "Beograd",
+     "address": "Cara Dušana 58",
+     "phones": "069 8102216",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12946,
+     "unit": "OGRANAK APOTEKA DR.MAX 354",
+     "place": "Novi Sad",
+     "address": "Cara Dušana 26",
+     "phones": "069 8102217",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12948,
+     "unit": "OGRANAK APOTEKA DR.MAX 355",
+     "place": "Subotica",
+     "address": "Jugoslovenske narodne armije 7",
+     "phones": "069 8122945",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12950,
+     "unit": "OGRANAK APOTEKA DR.MAX 356",
+     "place": "Sopot",
+     "address": "Socijalističkog saveza 2",
+     "phones": "064 6470289",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12953,
+     "unit": "OGRANAK APOTEKA DR.MAX 357",
+     "place": "Pančevo",
+     "address": "Miloša Obrenovića 5a",
+     "phones": "064 8692489",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12955,
+     "unit": "OGRANAK APOTEKA SUPER DR.MAX 361",
+     "place": "Beograd",
+     "address": "Astrid Lindgren 29",
+     "phones": "065 8048911",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12957,
+     "unit": "OGRANAK APOTEKA SUPER DR.MAX 362",
+     "place": "Beograd",
+     "address": "Radnička 9",
+     "phones": "065 8692691",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12959,
+     "unit": "OGRANAK APOTEKA DR.MAX 364",
+     "place": "Beograd",
+     "address": "Vuka Karadžića 84",
+     "phones": "011 8721945",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12961,
+     "unit": "OGRANAK APOTEKA DR.MAX 365",
+     "place": "Beograd",
+     "address": "Vojvode Mišića 223",
+     "phones": "011 8727361",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12963,
+     "unit": "OGRANAK APOTEKA DR.MAX 366",
+     "place": "Beograd",
+     "address": "Miloša Obrenovića 50",
+     "phones": "011 8727456",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12965,
+     "unit": "OGRANAK APOTEKA DR.MAX 367",
+     "place": "Čukarica",
+     "address": "Trinaestog oktobra 41",
+     "phones": "011 8725650",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12968,
+     "unit": "OGRANAK APOTEKA DR.MAX 368",
+     "place": "Obrenovac",
+     "address": "Rodoljuba 8",
+     "phones": "011 8720220",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12970,
+     "unit": "OGRANAK APOTEKA DR.MAX 369",
+     "place": "Obrenovac",
+     "address": "Stubline 481a",
+     "phones": "011 8721160",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12972,
+     "unit": "OGRANAK APOTEKA DR.MAX 370",
+     "place": "Obrenovac",
+     "address": "Obrenovački put 115",
+     "phones": "011 8728499",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12974,
+     "unit": "OGRANAK APOTEKA SUPER DR.MAX 371",
+     "place": "Loznica",
+     "address": "Filipa Kljajića 3",
+     "phones": "064 5680701",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12976,
+     "unit": "OGRANAK APOTEKA SUPER DR.MAX 372",
+     "place": "Kruševac",
+     "address": "Železnička 42",
+     "phones": "065 8692591",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12978,
+     "unit": "OGRANAK APOTEKA SUPER DR.MAX 373",
+     "place": "Paraćin",
+     "address": "Tome Živanovića 56",
+     "phones": "060 5565900",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12980,
+     "unit": "OGRANAK APOTEKA SUPER DR.MAX 374",
+     "place": "Kraljevo",
+     "address": "Adranska 111",
+     "phones": "069 8122965",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12982,
+     "unit": "OGRANAK APOTEKA DR.MAX 377",
+     "place": "Nova Varoš",
+     "address": "Svetog Save 29a",
+     "phones": "062 8006850",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12984,
+     "unit": "OGRANAK APOTEKA DR.MAX 378",
+     "place": "Bujanovac",
+     "address": "Karađorđa Petrovića 203",
+     "phones": "062 8006851",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12986,
+     "unit": "OGRANAK APOTEKA DR.MAX 379",
+     "place": "Boljevac",
+     "address": "Obilićeva 1b",
+     "phones": "062 8006852",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12988,
+     "unit": "OGRANAK APOTEKA DR.MAX 380",
+     "place": "Bajina Bašta",
+     "address": "Kneza Milana Obrenovića 26",
+     "phones": "062 8006853",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12991,
+     "unit": "OGRANAK APOTEKA DR.MAX 381",
+     "place": "Gornji Milanovac",
+     "address": "Vojvode Milana Obrenovića 50",
+     "phones": "063 581086",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12993,
+     "unit": "OGRANAK APOTEKA DR.MAX 382",
+     "place": "Vrbas",
+     "address": "Maršala Tita 102",
+     "phones": "069 618042",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12995,
+     "unit": "OGRANAK APOTEKA DR.MAX 383",
+     "place": "Sremska Mitrovica",
+     "address": "Šećer sokak 74",
+     "phones": "063 1037998",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12997,
+     "unit": "OGRANAK APOTEKA DR.MAX 384",
+     "place": "Obrenovac",
+     "address": "Kralja Milana 36",
+     "phones": "060 3725558",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12999,
+     "unit": "OGRANAK APOTEKA DR.MAX 385",
+     "place": "Sombor",
+     "address": "Toze Markovića 6v",
+     "phones": "062 285027",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13001,
+     "unit": "OGRANAK APOTEKA DR.MAX 395",
+     "place": "Leskovac",
+     "address": "Dr Rade Svilara 41",
+     "phones": "063 1061664",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13003,
+     "unit": "OGRANAK APOTEKA SUPER DR.MAX 396",
+     "place": "Subotica",
+     "address": "Bajnatska bb",
+     "phones": "062 8006854",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13005,
+     "unit": "OGRANAK APOTEKA DR.MAX 386",
+     "place": "Beograd",
+     "address": "Lazarevački drum 3",
+     "phones": "063 361379",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13007,
+     "unit": "OGRANAK APOTEKA DR.MAX 387",
+     "place": "Beograd",
+     "address": "Resavska 76",
+     "phones": "062 537451",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13009,
+     "unit": "OGRANAK APOTEKA DR.MAX 388",
+     "place": "Beograd",
+     "address": "Mirijevski venac 23",
+     "phones": "063 362811",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13011,
+     "unit": "OGRANAK APOTEKA DR.MAX 389",
+     "place": "Beograd",
+     "address": "Ilije Garašanina 5",
+     "phones": "063 362253",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13013,
+     "unit": "OGRANAK APOTEKA DR.MAX 390",
+     "place": "Beograd",
+     "address": "Obrenovački drum 3",
+     "phones": "063 362201",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13016,
+     "unit": "OGRANAK APOTEKA DR.MAX 391",
+     "place": "Beograd",
+     "address": "Bulevar Zorana Djindjića 64a",
+     "phones": "063 658504",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13018,
+     "unit": "OGRANAK APOTEKA DR.MAX 392",
+     "place": "Beograd",
+     "address": "Cara Dušana 70",
+     "phones": "062 356746",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13020,
+     "unit": "OGRANAK APOTEKA DR.MAX 393",
+     "place": "Beograd",
+     "address": "Maksima Gorkog 75",
+     "phones": "063 8619131",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13022,
+     "unit": "OGRANAK APOTEKA SUPER DR.MAX 421",
+     "place": "Beograd",
+     "address": "Gandijeva 21",
+     "phones": "064 2576560",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13024,
+     "unit": "OGRANAK APOTEKA SUPER DR.MAX 375",
+     "place": "Leskovac",
+     "address": "Viljema Pušmana bb",
+     "phones": "063 1061254",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13027,
+     "unit": "OGRANAK APOTEKA DR.MAX 417",
+     "place": "Šid",
+     "address": "Karađorđeva 11",
+     "phones": "069 8122988",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13029,
+     "unit": "OGRANAK APOTEKA DR.MAX 422",
+     "place": "Surdulica",
+     "address": "Kralja Petra Prvog bb",
+     "phones": "062 8881231",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13031,
+     "unit": "OGRANAK APOTEKA DR.MAX 423",
+     "place": "Sjenica",
+     "address": "Čaršija 5",
+     "phones": "066 6012081",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13033,
+     "unit": "OGRANAK APOTEKA DR.MAX 424",
+     "place": "Ljig",
+     "address": "Vojvode Mišića 12",
+     "phones": "063 1038150",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13035,
+     "unit": "OGRANAK APOTEKA SUPER DR.MAX 420",
+     "place": "Šabac",
+     "address": "Vojvode Janka Stojićevića 3",
+     "phones": "063 1061664",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13037,
+     "unit": "OGRANAK APOTEKA DR.MAX 397",
+     "place": "Valjevo",
+     "address": "Sinđelićeva 37",
+     "phones": "069 2291461",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13039,
+     "unit": "OGRANAK APOTEKA DR.MAX 398",
+     "place": "Valjevo",
+     "address": "Dr Pantića 61",
+     "phones": "069 2291462",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13041,
+     "unit": "OGRANAK APOTEKA DR.MAX 399",
+     "place": "Valjevo",
+     "address": "Naselje oslobodioca Valjeva 32",
+     "phones": "069 2291463",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13043,
+     "unit": "OGRANAK APOTEKA DR.MAX 400",
+     "place": "Koceljeva",
+     "address": "Nemanjina 108",
+     "phones": "069 2291469",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13045,
+     "unit": "OGRANAK APOTEKA DR.MAX 401",
+     "place": "Velika Plana",
+     "address": "Miloša velikog 99",
+     "phones": "069 2291471",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13047,
+     "unit": "OGRANAK APOTEKA DR.MAX 402",
+     "place": "Beograd",
+     "address": "Trgovačka 12",
+     "phones": "064 6438066",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13049,
+     "unit": "OGRANAK APOTEKA DR.MAX 403",
+     "place": "Valjevo",
+     "address": "Karađorđeva 137",
+     "phones": "064 6438067",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13051,
+     "unit": "OGRANAK APOTEKA DR.MAX 404",
+     "place": "Svilajnac",
+     "address": "Svetog Save bb",
+     "phones": "064 6438068",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13053,
+     "unit": "OGRANAK APOTEKA DR.MAX 405",
+     "place": "Bor",
+     "address": "Kralja Petra I 18",
+     "phones": "064 6438069",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13056,
+     "unit": "OGRANAK APOTEKA DR.MAX 406",
+     "place": "Smederevska Palanka",
+     "address": "Prvog srpskog ustanka 99",
+     "phones": "064 6464061",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13058,
+     "unit": "OGRANAK APOTEKA DR.MAX 407",
+     "place": "Batočina",
+     "address": "Kralja PetraI 15",
+     "phones": "064 6464059",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13060,
+     "unit": "OGRANAK APOTEKA DR.MAX 408",
+     "place": "Aranđelovac",
+     "address": "Knjaza Miloša230/5",
+     "phones": "064 6464058",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13062,
+     "unit": "OGRANAK APOTEKA DR.MAX 409",
+     "place": "Ub",
+     "address": "Kralja Petra prvog oslobodioca 36",
+     "phones": "064 6464060",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13064,
+     "unit": "OGRANAK APOTEKA DR.MAX 410",
+     "place": "Mionica",
+     "address": "Vojvode Mišića 57",
+     "phones": "064 8247158",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13066,
+     "unit": "OGRANAK APOTEKA DR.MAX 411",
+     "place": "Jagodina",
+     "address": "Kneza Lazara 37",
+     "phones": "064 8247165",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13068,
+     "unit": "OGRANAK APOTEKA DR.MAX 412",
+     "place": "Ćuprija",
+     "address": "Karađorđeva 65",
+     "phones": "064 8413898",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13071,
+     "unit": "OGRANAK APOTEKADR.MAX 413",
+     "place": "Valjevo",
+     "address": "Kneza Miloša 59",
+     "phones": "064 8247160",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13073,
+     "unit": "OGRANAK APOTEKADR.MAX 414",
+     "place": "Kragujevac",
+     "address": "27.marta 2a",
+     "phones": "064 8247163",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13075,
+     "unit": "OGRANAK APOTEKADR.MAX 415",
+     "place": "Despotovac",
+     "address": "Despota Stefana Lazarevića 75",
+     "phones": "066 8068450",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13077,
+     "unit": "OGRANAK APOTEKADR.MAX 416",
+     "place": "Smederevska Palanka",
+     "address": "Prvog srpskog ustanka 130",
+     "phones": "066 8068451",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13079,
+     "unit": "OGRANAK APOTEKADR.MAX 419",
+     "place": "Valjevo",
+     "address": "Sinđelićeva 37a",
+     "phones": "066 8118370",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13081,
+     "unit": "OGRANAK APOTEKA SUPER DR.MAX 418",
+     "place": "Smederevo",
+     "address": "Crvene armije 65d",
+     "phones": "063 1061263",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  }
+ ],
+ "id": "net-apotekarska-ustanova-dr-max-beograd"
+}

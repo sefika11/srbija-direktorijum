@@ -232,3 +232,30 @@ institutions' own sites, owners adding and claiming their listing, or buying the
   Before the passes: 36,186 locations; 17,285 / 19,472 / 6,220. Units: 4,609, of which 694 have a street.
 - Working files: targets in `db/targets/muni_2026-11-11/chunks/` and `db/targets/pu_units_2026-11-11/`, agent output
   in `db/contacts/muni_2026-11-11/` and `db/contacts/pu_units_2026-11-11/` (the cleaned `applied/` files are derived).
+
+## 11. Reach pass: hours, phone, address and website in one sweep (2026-11-11)
+
+Goal set by Nick: every institution has a phone, a street address, a website and opening hours. Measured first, then one
+pass over everything that has an official place to read it from. Tools in `tools/reach/` (`build_targets.py`, `clean.py`,
+`merge_map_duplicates.py`), targets in `db/targets/reach_2026-11-11/`, agent output in `db/contacts/reach_2026-11-11/`
+(`_clean.json` is what was applied, `_summaries.json` holds each agent's notes, `_extra_all.json` the official branches
+we do not hold yet).
+
+- Three kinds of agent (167 Sonnet agents, 8 at a time, 18.2M tokens, 35 minutes): `net-*` one national system or chain
+  per agent, the official branch list matched to our locations (70 files, 6,559 locations); `reg-*` one official national
+  register per agent (10 files); `site-*` institutions whose own site we know, 24 per agent (87 files, 2,082 institutions).
+- Applied: 1,961 locations touched; 1,146 hours, 765 street addresses, 417 phones, 464 e-mails, 17 websites.
+- What official sources do not publish (so it stays empty, nothing is inferred): Benu, Dr.Max, Lilly and Vegafarma answer
+  automated requests with a bot check (about 1,050 pharmacy branches); mup.gov.rs gives a phone list only, no addresses or
+  hours for stations; the treasury lists branches by name only; the hotel list and the geodetic register carry no phone,
+  hours or site; the ministry of education has no bulk source of school phones or sites; of 2,082 known sites only 448
+  yielded a missing field (most publish no office hours, about one in ten is dead or parked).
+- Duplicates: banks and insurers were loaded twice, from OpenStreetMap and from each company's own branch list. 787 map
+  rows were merged into their official twin (status `merged`, `moved_to_location_id`; within 30 m, within 150 m unless the
+  map row names another street, or same street and number). Undo file: `db/fixes/merged_map_rows_2026-11-11.json`.
+- Coverage after the pass, institutions only (30,334 locations; natural persons are counted apart): hours 6,808 (22%),
+  street address 18,274 (60%), phone 13,394 (44%), website known 11,335 (37%). Persons (9,720): phone 9,497, no street
+  by rule.
+- Still open: 3,459 institutions with no known site and no register (small pharmacies, public enterprises, local bodies,
+  private practices), 3,888 community offices, village school and kindergarten units (the page shows the seat's contact),
+  exchange offices and geodetic firms (registers give an address only), 102 official branches to import.

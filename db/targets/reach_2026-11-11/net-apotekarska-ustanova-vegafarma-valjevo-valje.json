@@ -1,0 +1,602 @@
+{
+ "kind": "network",
+ "title": "Apotekarska ustanova \"Vegafarma\" Valjevo",
+ "type": "apoteka",
+ "orgs": [
+  {
+   "org_slug": "apotekarska-ustanova-vegafarma-valjevo-valjevo",
+   "name": "Apotekarska ustanova \"Vegafarma\" Valjevo",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 11136,
+     "unit": "Apoteka",
+     "place": "Valjevo",
+     "address": "Železnička broj 16",
+     "phones": "014 291005",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11137,
+     "unit": "Vega - Koceljeva",
+     "place": "Valjevo",
+     "address": "Nemanjina 61",
+     "phones": "015 556377",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11138,
+     "unit": "Vega - Miljakovac",
+     "place": "Beograd",
+     "address": "Vukasovićeva 57",
+     "phones": "011 3513710",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11139,
+     "unit": "Vega - Lazarevac",
+     "place": "Beograd",
+     "address": "Đorđa Kovačevića 18",
+     "phones": "011 8110764",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11140,
+     "unit": "Vega - Kod Bolnicce",
+     "place": "Valjevo",
+     "address": "Obrena Nikolića 4",
+     "phones": "014 233749",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11141,
+     "unit": "Vega - Ruzveltova",
+     "place": "Beograd",
+     "address": "Ruzveltova 23a",
+     "phones": "011 3291105",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11142,
+     "unit": "Vega - Mionica",
+     "place": "Mionica",
+     "address": "Vojvode Mišića 45",
+     "phones": "014 3422626",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11143,
+     "unit": "Vega - Gandijeva",
+     "place": "Beograd",
+     "address": "Gandijeva 3",
+     "phones": "011 2289091",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11144,
+     "unit": "Vega - Čukarica",
+     "place": "Beograd",
+     "address": "Obalskih radnika 39",
+     "phones": "011 3548633",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11145,
+     "unit": "Vega - izvor",
+     "place": "Aranđelovac",
+     "address": "Darosava bb",
+     "phones": "034 6741055",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11146,
+     "unit": "Vega - Pančevo",
+     "place": "Pančevo",
+     "address": "Lava Tolstoja 2",
+     "phones": "013 333233",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11147,
+     "unit": "Vega - Osečina",
+     "place": "Osečina",
+     "address": "Karađorđeva 82",
+     "phones": "014 452111",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11148,
+     "unit": "Vega - 27. mart",
+     "place": "Beograd",
+     "address": "27. marta broj27",
+     "phones": "011 3228050",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11149,
+     "unit": "Vega - Aranđelovac",
+     "place": "Aranđelovac",
+     "address": "Vidovdanska 2",
+     "phones": "034 723411",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11150,
+     "unit": "Vega - Jarak",
+     "place": "Sremska Mitrovica",
+     "address": "Školska 8",
+     "phones": "022 2100525",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11151,
+     "unit": "Vega - Bogatić Centar",
+     "place": "Bogatić",
+     "address": "Mike Vitomirovića 2",
+     "phones": "015 7786152",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11152,
+     "unit": "Vega - Sremska Mitrovica I",
+     "place": "Sremska Mitrovica",
+     "address": "Trg Ćire Milekića 10",
+     "phones": "022 636313",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11153,
+     "unit": "Vega - Sremska Mitrovica II",
+     "place": "Sremska Mitrovica",
+     "address": "Železnička 23",
+     "phones": "022 614562",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11154,
+     "unit": "Vega - Sremska Mitrovica III",
+     "place": "Sremska Mitrovica",
+     "address": "Radnička 66",
+     "phones": "022 631774",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11155,
+     "unit": "Vega - Kuzmin",
+     "place": "Sremska Mitrovica",
+     "address": "Savska 1",
+     "phones": "022 2100822",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11156,
+     "unit": "Vega - koceljeva Dom Zdravlja",
+     "place": "Koceljeva",
+     "address": "Nemanjina 8",
+     "phones": "015 556120",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11157,
+     "unit": "Vega - Lajkovac II",
+     "place": "Lajkovac",
+     "address": "Vojvode Mišića 8",
+     "phones": "014 3433830",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11158,
+     "unit": "Vega - Nova Pazova",
+     "place": "Stara Pazova",
+     "address": "Njegoševa 21",
+     "phones": "022 321028",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11159,
+     "unit": "Vega - Stapar",
+     "place": "Sombor",
+     "address": "Karađorđev plac 177",
+     "phones": "025 5827500",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11160,
+     "unit": "Vega - Altina",
+     "place": "Beograd",
+     "address": "Dobanovački put 89",
+     "phones": "011 6553959",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11161,
+     "unit": "Vega - Sirig",
+     "place": "Temerin",
+     "address": "Novosadska 29",
+     "phones": "021 849136",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11162,
+     "unit": "Vega - Banatsko Novo Selo",
+     "place": "Pančevo",
+     "address": "Maršala Tita 92",
+     "phones": "013 615655",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11163,
+     "unit": "Vega - Baroševac",
+     "place": "Beograd",
+     "address": "Ivanjdanska 1",
+     "phones": "011 8158088",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11164,
+     "unit": "Vega - Dolovo",
+     "place": "Pančevo",
+     "address": "Kralja Petra I 34",
+     "phones": "013 2580066",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11165,
+     "unit": "Vega - Vojvode Vlahovića",
+     "place": "Beograd",
+     "address": "Vojvode Vlahovića 43k",
+     "phones": "011 4002524",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11166,
+     "unit": "Vega - Banatski Karlovac",
+     "place": "Alibunar",
+     "address": "Kneza Miloša 34b",
+     "phones": "013 652011",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11167,
+     "unit": "Vega - Borča",
+     "place": "Beograd",
+     "address": "Zrenjaninski put 152",
+     "phones": "011 3320073",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11168,
+     "unit": "Vega - Bajina Bašta I",
+     "place": "Bajina Bašta",
+     "address": "Kneza Milana Obrenovića 54",
+     "phones": "031 869402",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11169,
+     "unit": "Vega - Banja Vrujci",
+     "place": "Mionica",
+     "address": "Selo Berkovac",
+     "phones": "014 3100740",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11170,
+     "unit": "Vega - Pecka",
+     "place": "Osečina",
+     "address": "Dr Cvetka Tomića 1",
+     "phones": "014 3455200",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11171,
+     "unit": "Vega - Mionica Dom zdravlja",
+     "place": "Mionica",
+     "address": "Kneza Grbovića 27",
+     "phones": "014 3423589",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11172,
+     "unit": "Vega - Jagodina",
+     "place": "Jagodina",
+     "address": "Zelena pijaca bb",
+     "phones": "035 243023",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11173,
+     "unit": "Vega - Gornji Milanovac",
+     "place": "Gornji Milanovac",
+     "address": "Heroja Draževića 10d",
+     "phones": "032 710160",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11174,
+     "unit": "Vega - Sirogojno",
+     "place": "Čajetina",
+     "address": "Zgrada zadužnog doma bb",
+     "phones": "031 3802700",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11175,
+     "unit": "Vega - Jagodina Centar",
+     "place": "Jagodina",
+     "address": "Knjeginje Milice Auto Park lokal 5",
+     "phones": "035 8100177",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11176,
+     "unit": "Vega - Jurija Gagarina",
+     "place": "Beograd",
+     "address": "Jurija Gagarina 229/108",
+     "phones": "011 7180026",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11177,
+     "unit": "Vega - Gandijeva 76A",
+     "place": "Beograd",
+     "address": "Gandijeva 76a",
+     "phones": "011 2287919",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11178,
+     "unit": "Vega - Zemun",
+     "place": "Beograd",
+     "address": "Gornjogradska 11a",
+     "phones": "011 3342412",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11179,
+     "unit": "Vega - Daničićeva",
+     "place": "Kragujevac",
+     "address": "Daničićeva 101",
+     "phones": "034 324174",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11180,
+     "unit": "Vega - Kragujevac Socijalno",
+     "place": "Kragujevac",
+     "address": "Kralja Petra I 4",
+     "phones": "034 208130",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11181,
+     "unit": "Vega - Kragujevac Grošnica",
+     "place": "Kragujevac",
+     "address": "Oktobarskih Žrtava 167",
+     "phones": "034 204191",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11182,
+     "unit": "Vega - Kragujevac Aerodrom",
+     "place": "Kragujevac",
+     "address": "Atinska 103",
+     "phones": "034 204191",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11183,
+     "unit": "Vega - Ruski Krstur",
+     "place": "Kula",
+     "address": "Maršala Tita 66",
+     "phones": "025 703322",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11184,
+     "unit": "Vega - Smederevska Palanka",
+     "place": "Smederevska Palanka",
+     "address": "Prvog srpskog ustanka 134",
+     "phones": "064 8529924",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11185,
+     "unit": "Vega - Inđija 2",
+     "place": "Inđija",
+     "address": "Novosadska 9",
+     "phones": "063 1135470",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11186,
+     "unit": "Vega – 101",
+     "place": "Valjevo",
+     "address": "Karadjordjeva 101",
+     "phones": "066 8665971",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11187,
+     "unit": "Vega - Kod gimnazije",
+     "place": "Valjevo",
+     "address": "Vuka Karadzica 4",
+     "phones": "066 8665972",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11188,
+     "unit": "Vega - Kod doma zdravlja II",
+     "place": "Valjevo",
+     "address": "Železnička 12a",
+     "phones": "066 8665970",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  }
+ ],
+ "id": "net-apotekarska-ustanova-vegafarma-valjevo-valje"
+}

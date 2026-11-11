@@ -1,0 +1,393 @@
+{
+ "kind": "sites",
+ "title": "Institucije sa sopstvenim sajtom",
+ "rows": [
+  {
+   "org_slug": "pet-vet-care-beograd-n6145525946",
+   "name": "Pet Vet Care",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Savski venac",
+   "website": "https://petvetcare.rs/",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "065 3003052",
+    "hours": "Pon-Pet 09:00-22:00, vikend 09:00-21:00"
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "veterinarska-stanica-bikovo-subotica-n8733310745",
+   "name": "Veterinarska stanica Bikovo",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Subotica",
+   "website": "https://veterinarsubotica.rs/",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "063 533963",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "zootopija-beograd-n13922850299",
+   "name": "Zootopija",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Čukarica",
+   "website": "https://zootopija.rs/",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "069 6060621",
+    "hours": "Mo-Fr 09:00-12:00,16:00-20:00; Sa 10:00-14:00"
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "veterinarska-stanica-sabac-sabac-w2384841362",
+   "name": "Veterinarska stanica Šabac",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Šabac",
+   "website": "https://vssabac.rs/",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "015 341240; 064 8520770",
+    "hours": "Mo-Fr 07:00-19:00; Sa-Su 08:00-13:00,17:00-19:00"
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "akademija-strukovnih-studija-sumadija-kragujevac",
+   "name": "Akademija Strukovnih Studija Šumadija",
+   "type": "Visoka škola / akademija strukovnih studija",
+   "place": "Kragujevac",
+   "website": "https://asss.edu.rs/",
+   "mb": "17923013",
+   "have": {
+    "address": "Trg topolivaca 4",
+    "phones": "034 300990",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "visoka-skola-strukovnih-studija-biznisa-biznis-nis",
+   "name": "Visoka škola strukovnih studija biznisa \"BIZNIS\"",
+   "type": "Visoka škola / akademija strukovnih studija",
+   "place": "Niš",
+   "website": "https://vsb.edu.rs",
+   "mb": null,
+   "have": {
+    "address": "Obrenovićeva 23",
+    "phones": "018 581222",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "visoka-skola-strukovnih-studija-za-kriminalistiku-i-bezbednost-nis-nis",
+   "name": "Visoka škola strukovnih studija za kriminalistiku i bezbednost Niš",
+   "type": "Visoka škola / akademija strukovnih studija",
+   "place": "Niš",
+   "website": "https://kib.edu.rs",
+   "mb": null,
+   "have": {
+    "address": "Bulevar Svetog Cara Konstantina 80",
+    "phones": "018 297222",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "akademija-strukovnih-studija-sirmijum-sremska-mitrovica",
+   "name": "Akademija Strukovnih Studija Sirmijum",
+   "type": "Visoka škola / akademija strukovnih studija",
+   "place": "Sremska Mitrovica",
+   "website": "https://www.sm-vaspitac.edu.rs",
+   "mb": "08015813",
+   "have": {
+    "address": "Zmaj Jovina 29",
+    "phones": "022 621864",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "visoka-tehnicka-skola-strukovnih-studija-u-zrenjaninu-zrenjanin",
+   "name": "Visoka tehnička škola Strukovnih Studija u Zrenjaninu",
+   "type": "Visoka škola / akademija strukovnih studija",
+   "place": "Zrenjanin",
+   "website": "http://www.vts-zr.edu.rs/",
+   "mb": "08220611",
+   "have": {
+    "address": "Đorđa Stratimirovića 23",
+    "phones": "023 565896",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "gradski-zavod-za-javno-zdravlje-beograd-beograd",
+   "name": "Gradski zavod za javno zdravlje Beograd",
+   "type": "Zavod / Institut za javno zdravlje",
+   "place": "Beograd",
+   "website": "http://www.zdravlje.org.rs",
+   "mb": "07041152",
+   "have": {
+    "address": "Stari grad Bulevar despota Stefana 54a",
+    "phones": "011 2078600",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "institut-za-javno-zdravlje-srbije-dr-milan-jovanovic-batut-beograd",
+   "name": "Institut za javno zdravlje srbije \"Dr Milan Jovanović-Batut\"",
+   "type": "Zavod / Institut za javno zdravlje",
+   "place": "Beograd",
+   "website": "http://www.batut.org.rs",
+   "mb": "07036027",
+   "have": {
+    "address": "dr Subotića 5",
+    "phones": "011 2684566",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "zavod-za-javno-zdravlje-kikinda-kikinda",
+   "name": "Zavod za javno zdravlje Kikinda",
+   "type": "Zavod / Institut za javno zdravlje",
+   "place": "Kikinda",
+   "website": "http://www.zavodki.org.rs",
+   "mb": "08561834",
+   "have": {
+    "address": "Kralja Petra Prvog 70",
+    "phones": "0230 421102",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "institut-za-javno-zdravlje-kragujevac-kragujevac",
+   "name": "Institut za javno zdravlje Kragujevac",
+   "type": "Zavod / Institut za javno zdravlje",
+   "place": "Kragujevac",
+   "website": "http://www.izjzkg.rs",
+   "mb": "07150369",
+   "have": {
+    "address": "Nikole Pašića 1",
+    "phones": "034 504501",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "zavod-za-javno-zdravlje-kraljevo-kraljevo",
+   "name": "Zavod za javno zdravlje Kraljevo",
+   "type": "Zavod / Institut za javno zdravlje",
+   "place": "Kraljevo",
+   "website": "http://www.zjzkv.org.rs",
+   "mb": "07191162",
+   "have": {
+    "address": "Slobodana Penezića 16",
+    "phones": "036 392336",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "zavod-za-javno-zdravlje-krusevac-krusevac",
+   "name": "Zavod za javno zdravlje Kruševac",
+   "type": "Zavod / Institut za javno zdravlje",
+   "place": "Kruševac",
+   "website": "http://www.zavodks.rs",
+   "mb": "07145764",
+   "have": {
+    "address": "Vojvode Putnika 2",
+    "phones": "037 422951",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "zavod-za-javno-zdravlje-leskovac-leskovac",
+   "name": "Zavod za javno zdravlje Leskovac",
+   "type": "Zavod / Institut za javno zdravlje",
+   "place": "Leskovac",
+   "website": "http://www.zzjzle.org.rs",
+   "mb": "07138695",
+   "have": {
+    "address": "Maksima Kovačevića 11",
+    "phones": "016 245219",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "institut-za-javno-zdravlje-nis-nis",
+   "name": "Institut za javno zdravlje Niš",
+   "type": "Zavod / Institut za javno zdravlje",
+   "place": "Niš",
+   "website": "http://www.izjz-nis.org.rs",
+   "mb": "07199520",
+   "have": {
+    "address": "Bulevar dr Zorana Đinđića 50",
+    "phones": "018 4226448",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "institut-za-javno-zdravlje-vojvodine-novi-sad",
+   "name": "Institut za javno zdravlje Vojvodine",
+   "type": "Zavod / Institut za javno zdravlje",
+   "place": "Novi Sad",
+   "website": "http://www.izjzv.org.rs",
+   "mb": "08246912",
+   "have": {
+    "address": "Futoška 121",
+    "phones": "021 4897800",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "zavod-za-javno-zdravlje-pancevo-pancevo",
+   "name": "Zavod za javno zdravlje Pančevo",
+   "type": "Zavod / Institut za javno zdravlje",
+   "place": "Pančevo",
+   "website": "http://www.zjzpa.org.rs",
+   "mb": "08259330",
+   "have": {
+    "address": "Pasterova 2",
+    "phones": "013 322965",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "zavod-za-javno-zdravlje-pirot-pirot",
+   "name": "Zavod za javno zdravlje Pirot",
+   "type": "Zavod / Institut za javno zdravlje",
+   "place": "Pirot",
+   "website": "http://www.zzjzpirot.org.rs",
+   "mb": "07414285",
+   "have": {
+    "address": "Kej bb",
+    "phones": "010 343994",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "zavod-za-javno-zdravlje-pozarevac-pozarevac",
+   "name": "Zavod za javno zdravlje Požarevac",
+   "type": "Zavod / Institut za javno zdravlje",
+   "place": "Požarevac",
+   "website": "http://www.javnozdravljepo.nadlanu.com",
+   "mb": "07160259",
+   "have": {
+    "address": "Jovana Serbanovića 14",
+    "phones": "012 222568",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "zavod-za-javno-zdravlje-sombor-sombor",
+   "name": "Zavod za javno zdravlje Sombor",
+   "type": "Zavod / Institut za javno zdravlje",
+   "place": "Sombor",
+   "website": "http://www.zzjzsombor.org",
+   "mb": "08333092",
+   "have": {
+    "address": "Vojvođanska 47",
+    "phones": "025 412888",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "zavod-za-javno-zdravlje-sremska-mitrovica-sremska-mitrovica",
+   "name": "Zavod za javno zdravlje Sremska Mitrovica",
+   "type": "Zavod / Institut za javno zdravlje",
+   "place": "Sremska Mitrovica",
+   "website": "http://www.zdravlje-sm.org.rs",
+   "mb": "08039801",
+   "have": {
+    "address": "Stari šor 47",
+    "phones": "022 610511",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "zavod-za-javno-zdravlje-subotica-subotica",
+   "name": "Zavod za javno zdravlje Subotica",
+   "type": "Zavod / Institut za javno zdravlje",
+   "place": "Subotica",
+   "website": "http://www.zjzs.org.rs",
+   "mb": "08064105",
+   "have": {
+    "address": "Zmaj Jovina 30",
+    "phones": "024 571300",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  }
+ ],
+ "id": "site-086"
+}

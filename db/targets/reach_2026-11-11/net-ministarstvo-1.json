@@ -1,0 +1,568 @@
+{
+ "kind": "network",
+ "title": "Ministarstvo (28 organizacija)",
+ "type": "ministarstvo",
+ "orgs": [
+  {
+   "org_slug": "ministarstvo-drzavne-uprave-i-lokalne-samouprave-beograd",
+   "name": "Ministarstvo Državne uprave i Lokalne Samouprave",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 297,
+     "unit": "Sedište",
+     "place": "Beograd",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "ministarstvo-finansija-beograd",
+   "name": "Ministarstvo finansija",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 2425,
+     "unit": "Sedište",
+     "place": "Beograd",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "ministarstvo-finansija-uprava-carina-beograd-novi-beograd",
+   "name": "Ministarstvo finansija - uprava Carina",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 284,
+     "unit": "Sedište",
+     "place": "Novi Beograd",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "ministarstvo-gradjevinarstva-saobracaja-i-infrastrukture-beograd",
+   "name": "Ministarstvo Građevinarstva, Saobraćaja i Infrastrukture",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 2431,
+     "unit": "Sedište",
+     "place": "Beograd",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "ministarstvo-gradjevinarstva-saobracaja-i-infrastrukture-direkcija-za-vodne-puteve-beograd",
+   "name": "Ministarstvo Građevinarstva, Saobraćaja i Infrastrukture - direkcija za Vodne puteve",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 303,
+     "unit": "Sedište",
+     "place": "Beograd",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "ministarstvo-informisanja-i-telekomunikacija-beograd",
+   "name": "Ministarstvo informisanja i telekomunikacija",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 2430,
+     "unit": "Sedište",
+     "place": "Beograd",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "ministarstvo-kulture-beograd",
+   "name": "Ministarstvo kulture",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 2141,
+     "unit": "Sedište",
+     "place": "Beograd",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "ministarstvo-nauke-tehnoloskog-razvoja-i-inovacija-beograd",
+   "name": "Ministarstvo Nauke, Tehnološkog Razvoja i Inovacija",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 2428,
+     "unit": "Sedište",
+     "place": "Beograd",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "ministarstvo-odbrane-beograd",
+   "name": "Ministarstvo odbrane",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 296,
+     "unit": "Sedište",
+     "place": "Beograd",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "ministarstvo-poljoprivrede-sumarstva-i-vodoprivrede-beograd",
+   "name": "Ministarstvo poljoprivrede, šumarstva i vodoprivrede",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 339,
+     "unit": "Sedište",
+     "place": "Beograd",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "ministarstvo-pravde-beograd",
+   "name": "Ministarstvo pravde",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 304,
+     "unit": "Sedište",
+     "place": "Beograd",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "ministarstvo-privrede-beograd",
+   "name": "Ministarstvo privrede",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 298,
+     "unit": "Sedište",
+     "place": "Beograd",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "ministarstvo-privrede-direkcija-za-mere-i-dragocene-metale-beograd",
+   "name": "Ministarstvo privrede - direkcija za Mere i Dragocene Metale",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 299,
+     "unit": "Sedište",
+     "place": "Beograd",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "ministarstvo-prosvete-beograd",
+   "name": "Ministarstvo prosvete",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 350,
+     "unit": "Sedište",
+     "place": "Beograd",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "ministarstvo-rudarstva-i-energetike-beograd",
+   "name": "Ministarstvo rudarstva i energetike",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 2138,
+     "unit": "Sedište",
+     "place": "Beograd",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "ministarstvo-spoljnih-poslova-beograd",
+   "name": "Ministarstvo Spoljnih poslova",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 293,
+     "unit": "Sedište",
+     "place": "Beograd",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "ministarstvo-sporta-beograd",
+   "name": "Ministarstvo sporta",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 2377,
+     "unit": "Sedište",
+     "place": "Beograd",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "ministarstvo-turizma-i-omladine-beograd",
+   "name": "Ministarstvo turizma i omladine",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 2429,
+     "unit": "Sedište",
+     "place": "Beograd",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "ministarstvo-unutrasnje-i-spoljne-trgovine-beograd",
+   "name": "Ministarstvo Unutrašnje i Spoljne trgovine",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 2380,
+     "unit": "Sedište",
+     "place": "Beograd",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "ministarstvo-za-brigu-o-porodici-i-demografiju-beograd",
+   "name": "Ministarstvo za Brigu o Porodici i Demografiju",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 2382,
+     "unit": "Sedište",
+     "place": "Beograd",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "ministarstvo-za-brigu-o-selu-beograd",
+   "name": "Ministarstvo za Brigu o Selu",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 2383,
+     "unit": "Sedište",
+     "place": "Beograd",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "ministarstvo-za-evropske-integracije-beograd",
+   "name": "Ministarstvo za Evropske Integracije",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 2433,
+     "unit": "Sedište",
+     "place": "Beograd",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "ministarstvo-za-javna-ulaganja-beograd",
+   "name": "Ministarstvo za javna Ulaganja",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 2386,
+     "unit": "Sedište",
+     "place": "Beograd",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "ministarstvo-za-ljudska-i-manjinska-prava-i-drustveni-dijalog-beograd",
+   "name": "Ministarstvo za Ljudska i Manjinska Prava i Društveni Dijalog",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 2381,
+     "unit": "Sedište",
+     "place": "Beograd",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "ministarstvo-za-rad-zaposljavanje-boracka-i-socijalna-pitanja-beograd",
+   "name": "Ministarstvo za rad, zapošljavanje, Boračka i Socijalna Pitanja",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 2172,
+     "unit": "Sedište",
+     "place": "Beograd",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "ministarstvo-zastite-zivotne-sredine-agencija-za-zastitu-zivotne-sredine-beograd",
+   "name": "Ministarstvo zaštite Životne Sredine - agencija za zaštitu Životne Sredine",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 348,
+     "unit": "Sedište",
+     "place": "Beograd",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "ministarstvo-zastite-zivotne-sredine-beograd",
+   "name": "Ministarstvo zaštite Životne Sredine",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 347,
+     "unit": "Sedište",
+     "place": "Beograd",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "ministarstvo-zdravlja-beograd",
+   "name": "Ministarstvo zdravlja",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 2136,
+     "unit": "Sedište",
+     "place": "Beograd",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  }
+ ],
+ "id": "net-ministarstvo-1"
+}

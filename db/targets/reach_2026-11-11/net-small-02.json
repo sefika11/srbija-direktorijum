@@ -1,0 +1,696 @@
+{
+ "kind": "network",
+ "title": "Manje mreže",
+ "type": "mixed",
+ "orgs": [
+  {
+   "org_slug": "apotekarska-ustanova-apoteka-dzunic-leskovac",
+   "name": "Apotekarska Ustanova \"Apoteka Džunic\"",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 11860,
+     "unit": "Apoteka \"Dzunic\" 3",
+     "place": "Leskovac",
+     "address": "Koste Stamenkovica p+4/9",
+     "phones": "016 214073",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11861,
+     "unit": "Apoteka \"Dzunic\" 1",
+     "place": "Leskovac",
+     "address": "Stojana Ljubica bb",
+     "phones": "016 259160; 016 251969",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11862,
+     "unit": "Apoteka \"Dzunic\" 4",
+     "place": "Leskovac",
+     "address": "Rade Svilara bb",
+     "phones": "016 214361",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11863,
+     "unit": "Apoteka \"Dzunic\" 5",
+     "place": "Leskovac",
+     "address": "Svetozara Markovica broj 55",
+     "phones": "016 241532",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11864,
+     "unit": "Apoteka \"Dzunic\" 6",
+     "place": "Leskovac",
+     "address": "Bulevar oslobodjenja broj 180",
+     "phones": "016 260765",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11865,
+     "unit": "Apoteka \"Dzunic\" 7",
+     "place": "Leskovac",
+     "address": "Juznomoravskih brigada broj 74",
+     "phones": "016 212960",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11866,
+     "unit": "Apoteka \"Dzunic\" 8",
+     "place": "Leskovac",
+     "address": "Nikole Skobaljica broj 88",
+     "phones": "016 260105",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11867,
+     "unit": "Apoteka \"Dzunic\" 9",
+     "place": "Leskovac",
+     "address": "Djure Salaja broj 1",
+     "phones": "016 3440520",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11868,
+     "unit": "Apoteka \"Dzunic\" 10",
+     "place": "Leskovac",
+     "address": "Bulevar Nikole Pasica broj 56",
+     "phones": "016 220777",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11869,
+     "unit": "Apoteka \"Dzunic\" 11",
+     "place": "Leskovac",
+     "address": "Svetozara Markovica broj 110",
+     "phones": "016 3440188",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11870,
+     "unit": "Apoteka \"Dzunic\" 12",
+     "place": "Leskovac",
+     "address": "29 Novembra BB",
+     "phones": "016 3426588",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11871,
+     "unit": "Apoteka \"Dzunic\" 13",
+     "place": "Leskovac",
+     "address": "Strahinjica Bana broj 34",
+     "phones": "016 3101144",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11872,
+     "unit": "Apoteka \"Dzunic\" 14",
+     "place": "Leskovac",
+     "address": "Kralja Petra I broj 7",
+     "phones": "016 260650",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11873,
+     "unit": "Apoteka \"Dzunic\" 15",
+     "place": "Leskovac",
+     "address": "Ucitelja Josifa broj 25",
+     "phones": "016 3100301",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "apotekarska-ustanova-bardic-leskovac",
+   "name": "Apotekarska ustanova \"Bardić\"",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 11844,
+     "unit": "Ogranak 1",
+     "place": "Leskovac",
+     "address": "Stojana Ljubica bb",
+     "phones": "064 1100777",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11845,
+     "unit": "Ogranak 3",
+     "place": "Leskovac",
+     "address": "Marsala Tita bb",
+     "phones": "064 1100777",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11846,
+     "unit": "Ogranak 4",
+     "place": "Leskovac",
+     "address": "Strojkovce bb",
+     "phones": "064 1100777",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11847,
+     "unit": "Ogranak 6",
+     "place": "Vlasotince",
+     "address": "Svetozara Markovica broj 28",
+     "phones": "064 1100777",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11848,
+     "unit": "Ogranak 7",
+     "place": "Vlasotince",
+     "address": "Dragoljuba Petrovica 1",
+     "phones": "064 1100777",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11849,
+     "unit": "Ogranak 10",
+     "place": "Leskovac",
+     "address": "Bunuski Cifluk bb",
+     "phones": "064 1100777",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11850,
+     "unit": "Ogranak 11",
+     "place": "Leskovac",
+     "address": "Južnomoravska broj 123",
+     "phones": "064 1100777",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11851,
+     "unit": "Ogranak 12",
+     "place": "Leskovac",
+     "address": "Svetoilijska broj 1",
+     "phones": "064 1100777",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "apotekarska-ustanova-beladona-bujanovac",
+   "name": "Apotekarska ustanova \"Beladona\"",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 11927,
+     "unit": "Beladona",
+     "place": "Bujanovac",
+     "address": "Karađorđa Petrovića broj 215",
+     "phones": "017 853285",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11928,
+     "unit": "Anis",
+     "place": "Vranje",
+     "address": "Proleterskih brigada broj 5",
+     "phones": "017 419374",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11929,
+     "unit": "Beladona 2",
+     "place": "Bujanovac",
+     "address": "Karađorđa Petrovića broj 312",
+     "phones": "017 853133",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11930,
+     "unit": "VMC",
+     "place": "Niš",
+     "address": "Kej kola srpskih sestara broj 35/2",
+     "phones": "018 528300",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11931,
+     "unit": "Arena",
+     "place": "Beograd",
+     "address": "Antifašističke borbe broj 23v",
+     "phones": "011 3122853",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11932,
+     "unit": "Adonis",
+     "place": "Niš",
+     "address": "Vojvode Tankosića broj 32",
+     "phones": "018 528855",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11933,
+     "unit": "Altea",
+     "place": "Vranje",
+     "address": "Kralja Stefana Prvovenčanog broj 39",
+     "phones": "017 420866",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11934,
+     "unit": "Aloja",
+     "place": "Niš",
+     "address": "Zetska broj 4",
+     "phones": "018 4558577",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11935,
+     "unit": "Ahilea",
+     "place": "Niš",
+     "address": "Kosovke devojke broj 37",
+     "phones": "060 5509021",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "apotekarska-ustanova-beladona-pozarevac",
+   "name": "Apotekarska ustanova \"Beladona\"",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 11311,
+     "unit": "Ogranak Beladona",
+     "place": "Požarevac",
+     "address": "Braničevska broj 12",
+     "phones": "012 532848",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11312,
+     "unit": "Ogranak Beladona 1",
+     "place": "Požarevac",
+     "address": "Porečka broj 2",
+     "phones": "012 241222",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11313,
+     "unit": "Ogranak Beladona 2",
+     "place": "Požarevac",
+     "address": "Prvomajska broj 4a",
+     "phones": "012 7100511",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11314,
+     "unit": "Ogranak Beladona 3",
+     "place": "Požarevac",
+     "address": "Veljka Dugoševića broj 8",
+     "phones": "012 530848",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11315,
+     "unit": "Ogranak Beladona 4",
+     "place": "Požarevac",
+     "address": "Maršala Tita broj 112",
+     "phones": "012 7102333",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11316,
+     "unit": "Ogranak Beladona 5",
+     "place": "Požarevac",
+     "address": "Đure Jakšića broj 1",
+     "phones": "012 566007",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11317,
+     "unit": "Ogranak Beladona 6",
+     "place": "Požarevac",
+     "address": "Bože Dimitrijevića broj 4a",
+     "phones": "012 403805",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11318,
+     "unit": "Ogranak Beladona 7",
+     "place": "Malo Crniće",
+     "address": "Cara Lazara- Čaršija broj 17",
+     "phones": "062 241842",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11319,
+     "unit": "Ogranak Beladona 9",
+     "place": "Požarevac",
+     "address": "Dunavska 33",
+     "phones": "062 241229",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "apotekarska-ustanova-biofarm-titel",
+   "name": "Apotekarska ustanova \"Biofarm\"",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 10530,
+     "unit": "Au Biofarm sedište",
+     "place": "Titel",
+     "address": "Glavna broj 34",
+     "phones": "021 2960196",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10531,
+     "unit": "Biofarm I",
+     "place": "Novi Sad",
+     "address": "Laze Kostića broj 105",
+     "phones": "021 2989964",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10532,
+     "unit": "Biofarm II",
+     "place": "Zrenjanin",
+     "address": "Ljubljanska bb",
+     "phones": "023 3881318",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10533,
+     "unit": "Biofarm III",
+     "place": "Novi Sad",
+     "address": "Gogoljeva broj 13",
+     "phones": "021 545103",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10534,
+     "unit": "Biofarm V",
+     "place": "Petrovaradin",
+     "address": "Karađorđeva broj 93",
+     "phones": "021 826721",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10535,
+     "unit": "Biofarm VII",
+     "place": "Novi Sad",
+     "address": "Orlovića Pavla broj 36",
+     "phones": "021 6310675",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10536,
+     "unit": "Biofarm VIII",
+     "place": "Novi Sad",
+     "address": "Bulevar Patrijarha Pavla broj 85",
+     "phones": "021 3830832",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10537,
+     "unit": "Biofarm X",
+     "place": "Zrenjanin",
+     "address": "Gundulićeva broj 6",
+     "phones": "023 633926",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10538,
+     "unit": "Biofarm XI",
+     "place": "Beograd",
+     "address": "Kosmajska broj 60a",
+     "phones": "011 7707684",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10539,
+     "unit": "Biofarm XII",
+     "place": "Zrenjanin",
+     "address": "Svetosavska broj 19",
+     "phones": "023 3814252",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "apotekarska-ustanova-bosfor-novi-pazar",
+   "name": "Apotekarska ustanova \"Bosfor\"",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 14488,
+     "unit": "Bosfor sediste",
+     "place": "Novi Pazar",
+     "address": "Veljka Vlahovica bb",
+     "phones": "020 385805",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14490,
+     "unit": "Bosfor ogranak 1",
+     "place": "Novi Pazar",
+     "address": "Kej 12",
+     "phones": "020 322220",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14492,
+     "unit": "Bosfor ogranak 3",
+     "place": "Novi Pazar",
+     "address": "Stevana Nemanje broj 156",
+     "phones": "020 321567",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14494,
+     "unit": "Bosfor ogranak 4",
+     "place": "Novi Pazar",
+     "address": "Generala Zivkovica broj 57",
+     "phones": "020 386330",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14496,
+     "unit": "Bosfor ogranak 5",
+     "place": "Novi Pazar",
+     "address": "Sjenicka broj 112",
+     "phones": "020 321630",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14498,
+     "unit": "Bosfor ogranak 6",
+     "place": "Novi Pazar",
+     "address": "Visegradska broj 10",
+     "phones": "020 319888",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14500,
+     "unit": "Bosfor ogranak 7",
+     "place": "Novi Pazar",
+     "address": "Rudjera Boskovica broj 87",
+     "phones": "020 634140",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14502,
+     "unit": "Bosfor ogranak 8",
+     "place": "Novi Pazar",
+     "address": "Kragujevacka broj 1",
+     "phones": "020 634150",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  }
+ ],
+ "id": "net-small-02"
+}

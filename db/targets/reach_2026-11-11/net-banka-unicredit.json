@@ -1,0 +1,1360 @@
+{
+ "kind": "network",
+ "title": "UniCredit Bank",
+ "type": "banka",
+ "orgs": [
+  {
+   "org_slug": "banka-unicredit",
+   "name": "UniCredit Bank",
+   "website": "https://www.unicreditbank.rs",
+   "rows": [
+    {
+     "location_id": 19543,
+     "unit": "UniCredit Bank",
+     "place": "Leskovac",
+     "address": null,
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 19613,
+     "unit": "Ekspozitura Bulevar oslobođenja 30",
+     "place": "Novi Sad",
+     "address": "Bulevar oslobođenja 30",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 19735,
+     "unit": "Ekspozitura",
+     "place": "Aleksinac",
+     "address": null,
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 19736,
+     "unit": "UniCredit Bank",
+     "place": "Bačka Palanka",
+     "address": "Kralja Petra prvog 3",
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 19737,
+     "unit": "UniCredit Bank",
+     "place": "Bečej",
+     "address": "Zelena 65a",
+     "phones": "021 6919991",
+     "hours": "Mo-Fr 09:00-16:30; Th 09:00-18:00",
+     "need": []
+    },
+    {
+     "location_id": 19738,
+     "unit": "UniCredit Bank",
+     "place": "Palilula",
+     "address": null,
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 09:00-17:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 19739,
+     "unit": "UniCredit Bank",
+     "place": "Vračar",
+     "address": "Kneginje Zorke 2",
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 09:00-17:00; Sa-Su off",
+     "need": []
+    },
+    {
+     "location_id": 19740,
+     "unit": "Ekspozitura",
+     "place": "Novi Beograd",
+     "address": null,
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 09:00-17:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 19741,
+     "unit": "UniCredit Bank",
+     "place": "Čukarica",
+     "address": null,
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 09:00-17:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 19742,
+     "unit": "UniCredit Bank",
+     "place": "Čukarica",
+     "address": null,
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 09:00-17:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 19743,
+     "unit": "UniCredit Bank",
+     "place": "Stari grad",
+     "address": "Rajićeva 27",
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 09:00-17:00",
+     "need": []
+    },
+    {
+     "location_id": 19744,
+     "unit": "UniCredit Bank",
+     "place": "Vračar",
+     "address": null,
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 09:00-17:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 19745,
+     "unit": "Ekspozitura Španskih boraca 3",
+     "place": "Novi Beograd",
+     "address": "Španskih boraca 3",
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 09:00-17:00",
+     "need": []
+    },
+    {
+     "location_id": 19746,
+     "unit": "UniCredit Bank",
+     "place": "Vračar",
+     "address": "Trnska 2",
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 09:00-17:00",
+     "need": []
+    },
+    {
+     "location_id": 19747,
+     "unit": "Ekspozitura",
+     "place": "Voždovac",
+     "address": null,
+     "phones": "011 3471644",
+     "hours": "Mo-Fr 09:00-16:30; Th 09:00-18:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 19748,
+     "unit": "UniCredit Bank",
+     "place": "Voždovac",
+     "address": null,
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 09:00-17:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 19749,
+     "unit": "UniCredit Bank",
+     "place": "Zvezdara",
+     "address": null,
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 09:00-17:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 19786,
+     "unit": "Ekspozitura",
+     "place": "Novi Sad",
+     "address": null,
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 19967,
+     "unit": "UniCredit Bank",
+     "place": "Zvezdara",
+     "address": null,
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 09:00-17:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 19992,
+     "unit": "UniCredit Bank",
+     "place": "Šabac",
+     "address": null,
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 19997,
+     "unit": "Ekspozitura",
+     "place": "Smederevo",
+     "address": null,
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20115,
+     "unit": "UniCredit Bank",
+     "place": "Novi Beograd",
+     "address": null,
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 09:00-17:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20144,
+     "unit": "UniCredit Bank",
+     "place": "Stari grad",
+     "address": null,
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 09:00-17:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20205,
+     "unit": "UniCredit Bank",
+     "place": "Medijana",
+     "address": "Nikole Pašića 63",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 20240,
+     "unit": "UniCredit Bank",
+     "place": "Stara Pazova",
+     "address": null,
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20301,
+     "unit": "UniCredit Bank",
+     "place": "Zrenjanin",
+     "address": "Kralja Aleksandra I Karađorđevića 1",
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 20388,
+     "unit": "UniCredit Bank",
+     "place": "Kragujevac",
+     "address": null,
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20517,
+     "unit": "UniCredit Bank",
+     "place": "Pančevo",
+     "address": null,
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20554,
+     "unit": "UniCredit Bank",
+     "place": "Užice",
+     "address": null,
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20591,
+     "unit": "UniCredit Bank",
+     "place": "Aranđelovac",
+     "address": null,
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20592,
+     "unit": "UniCredit Bank",
+     "place": "Bečej",
+     "address": null,
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20593,
+     "unit": "UniCredit Bank",
+     "place": "Palilula",
+     "address": null,
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 09:00-17:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20594,
+     "unit": "UniCredit Bank",
+     "place": "Sremska Mitrovica",
+     "address": "Svetog Dimitrija 19",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 20595,
+     "unit": "Ekspozitura",
+     "place": "Vršac",
+     "address": null,
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20596,
+     "unit": "UniCredit Bank",
+     "place": "Kruševac",
+     "address": "Trg kosturnica 16v",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 20597,
+     "unit": "UniCredit Bank",
+     "place": "Požarevac",
+     "address": "Trg Radomira Vujovića 12",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 20598,
+     "unit": "UniCredit Bank",
+     "place": "Medijana",
+     "address": "Vizantijski bulevar 80",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 20599,
+     "unit": "Ekspozitura",
+     "place": "Kikinda",
+     "address": null,
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20600,
+     "unit": "Ekspozitura Stevana Nemanje 1",
+     "place": "Novi Pazar",
+     "address": "Stevana Nemanje 1",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 20601,
+     "unit": "Ekspozitura",
+     "place": "Medijana",
+     "address": null,
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20602,
+     "unit": "Ekspozitura",
+     "place": "Inđija",
+     "address": null,
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20603,
+     "unit": "UniCredit Bank",
+     "place": "Ub",
+     "address": null,
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20604,
+     "unit": "Ekspozitura",
+     "place": "Loznica",
+     "address": null,
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20605,
+     "unit": "UniCredit Bank",
+     "place": "Jagodina",
+     "address": null,
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20606,
+     "unit": "Ekspozitura Bulevar dr Zorana Đinđića 15",
+     "place": "Medijana",
+     "address": "Bulevar dr Zorana Đinđića 15",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 20607,
+     "unit": "UniCredit Bank",
+     "place": "Lazarevac",
+     "address": null,
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20608,
+     "unit": "Ekspozitura",
+     "place": "Novi Beograd",
+     "address": null,
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 09:00-17:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20609,
+     "unit": "Ekspozitura",
+     "place": "Ćuprija",
+     "address": null,
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20610,
+     "unit": "Ekspozitura",
+     "place": "Vrnjačka Banja",
+     "address": null,
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20611,
+     "unit": "UniCredit Bank",
+     "place": "Knjaževac",
+     "address": "Knjaza Miloša 72",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 20612,
+     "unit": "Ekspozitura",
+     "place": "Požega",
+     "address": null,
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20613,
+     "unit": "Ekspozitura",
+     "place": "Paraćin",
+     "address": null,
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20614,
+     "unit": "Ekspozitura",
+     "place": "Vranje",
+     "address": null,
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20615,
+     "unit": "Ekspozitura",
+     "place": "Čačak",
+     "address": null,
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20616,
+     "unit": "Ekspozitura Maršala Tita 93",
+     "place": "Vrbas",
+     "address": "Maršala Tita 93",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 20617,
+     "unit": "UniCredit Bank",
+     "place": "Senta",
+     "address": "Narodne bašte 2",
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 20618,
+     "unit": "UniCredit Bank",
+     "place": "Novi Sad",
+     "address": null,
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 09:00-17:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20619,
+     "unit": "Ekspozitura",
+     "place": "Novi Sad",
+     "address": null,
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20620,
+     "unit": "UniCredit Bank",
+     "place": "Kraljevo",
+     "address": "Oktobarskih žrtava 22",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 21564,
+     "unit": "UniCredit Bank",
+     "place": "Subotica",
+     "address": null,
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 21898,
+     "unit": "UniCredit Bank",
+     "place": "Trstenik",
+     "address": "Vuka Karadžića 32",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 21985,
+     "unit": "UniCredit Bank",
+     "place": "Pirot",
+     "address": "Srpskih vladara 70",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 22028,
+     "unit": "UniCredit Bank",
+     "place": "Negotin",
+     "address": "JNA 1",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 22499,
+     "unit": "Ekspozitura",
+     "place": "Sombor",
+     "address": null,
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22501,
+     "unit": "Ekspozitura",
+     "place": "Novi Beograd",
+     "address": null,
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22502,
+     "unit": "UniCredit Bank",
+     "place": "Savski venac",
+     "address": null,
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 09:00-17:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22504,
+     "unit": "UniCredit Bank",
+     "place": "Obrenovac",
+     "address": "Vuka Karadžića 39",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 22505,
+     "unit": "UniCredit Bank",
+     "place": "Šabac",
+     "address": null,
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22506,
+     "unit": "UniCredit Bank",
+     "place": "Valjevo",
+     "address": "Karađorđeva 32",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 22507,
+     "unit": "UniCredit Bank",
+     "place": "Smederevska Palanka",
+     "address": null,
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22508,
+     "unit": "UniCredit Bank",
+     "place": "Ćuprija",
+     "address": "Kneza Miloša 24",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 22509,
+     "unit": "UniCredit Bank",
+     "place": "Čačak",
+     "address": "Kursulina 1",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 22510,
+     "unit": "UniCredit Bank",
+     "place": "Prijepolje",
+     "address": "Vladimira Perića Valtera 108",
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 22511,
+     "unit": "UniCredit Bank",
+     "place": "Vranje",
+     "address": null,
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22680,
+     "unit": "UniCredit Bank",
+     "place": "Valjevo",
+     "address": null,
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23041,
+     "unit": "Ekspozitura Bulevar kralja Aleksandra 142i",
+     "place": "Vračar",
+     "address": "Bulevar kralja Aleksandra 142i",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 09:00-17:00",
+     "need": []
+    },
+    {
+     "location_id": 23539,
+     "unit": "UniCredit Bank",
+     "place": "Zaječar",
+     "address": "Nikole Pašića 68",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 23561,
+     "unit": "UniCredit Bank",
+     "place": "Novi Sad",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23648,
+     "unit": "UniCredit Bank",
+     "place": "Zemun",
+     "address": null,
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 09:00-17:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23656,
+     "unit": "UniCredit Bank",
+     "place": "Kragujevac",
+     "address": null,
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23792,
+     "unit": "Ekspozitura Narodnog fronta 21",
+     "place": "Novi Sad",
+     "address": "Narodnog fronta 21",
+     "phones": "011 3777888",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27923,
+     "unit": "Ekspozitura Bulevar oslobođenja bb",
+     "place": "Leskovac",
+     "address": "Bulevar oslobođenja bb",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 27924,
+     "unit": "Ekspozitura Kralja Stefana Prvovenčanog 270",
+     "place": "Vranje",
+     "address": "Kralja Stefana Prvovenčanog 270",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27925,
+     "unit": "Ekspozitura Valterova 108",
+     "place": "Prijepolje",
+     "address": "Valterova 108",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27926,
+     "unit": "Ekspozitura Trg kralja Milana bb",
+     "place": "Medijana",
+     "address": "Trg kralja Milana bb",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 27927,
+     "unit": "Ekspozitura Dimitrija Tucovića 97",
+     "place": "Užice",
+     "address": "Dimitrija Tucovića 97",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27928,
+     "unit": "Ekspozitura Kralja Aleksandra 2",
+     "place": "Požega",
+     "address": "Kralja Aleksandra 2",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27929,
+     "unit": "Ekspozitura Kneza Miloša 13",
+     "place": "Vrnjačka Banja",
+     "address": "Kneza Miloša 13",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27930,
+     "unit": "Ekspozitura Kralja Petra I bb",
+     "place": "Paraćin",
+     "address": "Kralja Petra I bb",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 27931,
+     "unit": "Ekspozitura Kneza Lazara 1",
+     "place": "Jagodina",
+     "address": "Kneza Lazara 1",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27932,
+     "unit": "Ekspozitura Kneza Miloša 44",
+     "place": "Aleksinac",
+     "address": "Kneza Miloša 44",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27933,
+     "unit": "Ekspozitura Dule Karaklajića 3",
+     "place": "Lazarevac",
+     "address": "Dule Karaklajića 3",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27934,
+     "unit": "Ekspozitura Radnička 3",
+     "place": "Ub",
+     "address": "Radnička 3",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27935,
+     "unit": "Ekspozitura Kneza Aleksandra 6",
+     "place": "Gornji Milanovac",
+     "address": "Kneza Aleksandra 6",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27936,
+     "unit": "Ekspozitura Svetog Save 5-9",
+     "place": "Smederevska Palanka",
+     "address": "Svetog Save 5",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27937,
+     "unit": "Ekspozitura Kosovska 4",
+     "place": "Kragujevac",
+     "address": "Kosovska 4",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27938,
+     "unit": "Ekspozitura Knjaza Miloša 212",
+     "place": "Aranđelovac",
+     "address": "Knjaza Miloša 212",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27939,
+     "unit": "Ekspozitura Srete Mladenovića 2, Kragujevac 34000",
+     "place": "Kragujevac",
+     "address": "Srete Mladenovića 2",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27940,
+     "unit": "Ekspozitura Kralja Petra I 23",
+     "place": "Kragujevac",
+     "address": "Kralja Petra I 23",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27941,
+     "unit": "Ekspozitura Bulevar kralja Aleksandra I Karadjordjevica 43",
+     "place": "Kragujevac",
+     "address": "Bulevar kralja Aleksandra I Karadjordjevica 43",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27942,
+     "unit": "Ekspozitura Kneza Miloša 2",
+     "place": "Loznica",
+     "address": "Kneza Miloša 2",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27943,
+     "unit": "Ekspozitura Gospodar Jevremova 42",
+     "place": "Šabac",
+     "address": "Gospodar Jevremova 42",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27944,
+     "unit": "Ekspozitura Višnjićeva 18",
+     "place": "Stari grad",
+     "address": "Višnjićeva 18",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 09:00-17:00",
+     "need": []
+    },
+    {
+     "location_id": 27946,
+     "unit": "Ekspozitura Kralja Petra I 20",
+     "place": "Stara Pazova",
+     "address": "Kralja Petra I 20",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27947,
+     "unit": "Ekspozitura Požeška 83a - Banovo brdo",
+     "place": "Čukarica",
+     "address": "Požeška 83a",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 09:00-17:00",
+     "need": []
+    },
+    {
+     "location_id": 27948,
+     "unit": "Ekspozitura Bulevar Vudroa Vilsona 8V",
+     "place": "Savski venac",
+     "address": "Bulevar Vudroa Vilsona 8v",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 09:00-17:00",
+     "need": []
+    },
+    {
+     "location_id": 27949,
+     "unit": "Ekspozitura Vodjvođanska 95",
+     "place": "Surčin",
+     "address": "Vodjvođanska 95",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 09:00-17:00",
+     "need": []
+    },
+    {
+     "location_id": 27950,
+     "unit": "Ekspozitura Resavska 28",
+     "place": "Vračar",
+     "address": "Resavska 28",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 09:00-17:00",
+     "need": []
+    },
+    {
+     "location_id": 27952,
+     "unit": "Ekspozitura Jurija Gagarina 12",
+     "place": "Novi Beograd",
+     "address": "Jurija Gagarina 12",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 09:00-17:00",
+     "need": []
+    },
+    {
+     "location_id": 27953,
+     "unit": "Ekspozitura Gospodska 31 - Zemun",
+     "place": "Zemun",
+     "address": "Gospodska 31",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 09:00-17:00",
+     "need": []
+    },
+    {
+     "location_id": 27954,
+     "unit": "Ekspozitura Jurija Gagarina 30b",
+     "place": "Novi Beograd",
+     "address": "Jurija Gagarina 30b",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 09:00-17:00",
+     "need": []
+    },
+    {
+     "location_id": 27956,
+     "unit": "Ekspozitura Đušina 2 - Paliluska pijaca",
+     "place": "Palilula",
+     "address": "Đušina 2",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 09:00-17:00",
+     "need": []
+    },
+    {
+     "location_id": 27957,
+     "unit": "Ekspozitura Bulevar maršala Tolbuhina, 36",
+     "place": "Novi Beograd",
+     "address": "Bulevar maršala Tolbuhina, 36",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 09:00-17:00",
+     "need": []
+    },
+    {
+     "location_id": 27958,
+     "unit": "Ekspozitura Ivana Milutinovića 22",
+     "place": "Palilula",
+     "address": "Ivana Milutinovića 22",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 09:00-17:00",
+     "need": []
+    },
+    {
+     "location_id": 27959,
+     "unit": "Ekspozitura Ratka Mitrovića 160 - Cerak Vinogradi",
+     "place": "Čukarica",
+     "address": "Ratka Mitrovića 160",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 09:00-17:00",
+     "need": []
+    },
+    {
+     "location_id": 27960,
+     "unit": "Ekspozitura Francuska 6",
+     "place": "Stari grad",
+     "address": "Francuska 6",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 09:00-17:00",
+     "need": []
+    },
+    {
+     "location_id": 27961,
+     "unit": "Ekspozitura Trgovačka 15",
+     "place": "Čukarica",
+     "address": "Trgovačka 15",
+     "phones": "011 3777888",
+     "hours": "Pon-Ned 09:00-17:00",
+     "need": []
+    },
+    {
+     "location_id": 27962,
+     "unit": "Ekspozitura Vojvode Stepe 74",
+     "place": "Voždovac",
+     "address": "Vojvode Stepe 74",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 09:00-17:00",
+     "need": []
+    },
+    {
+     "location_id": 27964,
+     "unit": "Ekspozitura Save Maškovića 2",
+     "place": "Voždovac",
+     "address": "Save Maškovića 2",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 09:00-17:00",
+     "need": []
+    },
+    {
+     "location_id": 27965,
+     "unit": "Ekspozitura Španskih Boraca 75",
+     "place": "Novi Beograd",
+     "address": "Španskih Boraca 75",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27966,
+     "unit": "Ekspozitura Vojvode Radomira Putnika 22",
+     "place": "Pančevo",
+     "address": "Vojvode Radomira Putnika 22",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27967,
+     "unit": "Ekspozitura Kralja Petra I 2",
+     "place": "Smederevo",
+     "address": "Kralja Petra I 2",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27968,
+     "unit": "Ekspozitura Uralska 3",
+     "place": "Palilula",
+     "address": "Uralska 3",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-17:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 27969,
+     "unit": "Ekspozitura Ustanička 262",
+     "place": "Zvezdara",
+     "address": "Ustanička 262",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 09:00-17:00",
+     "need": []
+    },
+    {
+     "location_id": 27970,
+     "unit": "Ekspozitura Rableova 1",
+     "place": "Zvezdara",
+     "address": "Rableova 1",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 09:00-17:00",
+     "need": []
+    },
+    {
+     "location_id": 27971,
+     "unit": "Ekspozitura Kralja Petra I 3",
+     "place": "Bačka Palanka",
+     "address": "Kralja Petra I 3",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27972,
+     "unit": "Ekspozitura Katolička porta 2",
+     "place": "Novi Sad",
+     "address": "Katolička porta 2",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27973,
+     "unit": "Ekspozitura Narodnih heroja 3",
+     "place": "Novi Sad",
+     "address": "Narodnih heroja 3",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 09:00-17:00",
+     "need": []
+    },
+    {
+     "location_id": 27975,
+     "unit": "Ekspozitura Braće Popovića 3G",
+     "place": "Novi Sad",
+     "address": "Braće Popovića 3g",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27976,
+     "unit": "Ekspozitura Vojvode Stepe 16",
+     "place": "Inđija",
+     "address": "Vojvode Stepe 16",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27977,
+     "unit": "Ekspozitura Aleksandra I Karađorđevića 1",
+     "place": "Zrenjanin",
+     "address": "Aleksandra I Karađorđevića 1",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27978,
+     "unit": "Ekspozitura Sterijina 22",
+     "place": "Vršac",
+     "address": "Sterijina 22",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27979,
+     "unit": "Ekspozitura Venac vojvode Stepe Stepanovića 20",
+     "place": "Sombor",
+     "address": "Venac vojvode Stepe Stepanovića 20",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27980,
+     "unit": "Ekspozitura Novosadska 1a",
+     "place": "Bečej",
+     "address": "Novosadska 1a",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27981,
+     "unit": "Ekspozitura Trg srpskih dobrovoljaca 28",
+     "place": "Kikinda",
+     "address": "Trg srpskih dobrovoljaca 28",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27982,
+     "unit": "Ekspozitura Narodne bašte 4",
+     "place": "Senta",
+     "address": "Narodne bašte 4",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27983,
+     "unit": "Ekspozitura Park Rajhla Ferenca 7",
+     "place": "Subotica",
+     "address": "Park Rajhla Ferenca 7",
+     "phones": "011 3777888",
+     "hours": "Pon-Pet 08:00-16:00",
+     "need": []
+    }
+   ]
+  }
+ ],
+ "id": "net-banka-unicredit"
+}

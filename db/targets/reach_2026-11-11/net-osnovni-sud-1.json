@@ -1,0 +1,639 @@
+{
+ "kind": "network",
+ "title": "Osnovni sud (35 organizacija)",
+ "type": "osnovni-sud",
+ "orgs": [
+  {
+   "org_slug": "osnovni-sud-u-aleksincu-aleksinac",
+   "name": "Osnovni sud u Aleksincu",
+   "website": "https://www.al.os.sud.rs",
+   "rows": [
+    {
+     "location_id": 93,
+     "unit": "Sedište",
+     "place": "Aleksinac",
+     "address": "Ace Milojevića 2",
+     "phones": "018 804821",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "osnovni-sud-u-beceju-becej",
+   "name": "Osnovni sud u Bečeju",
+   "website": "https://www.bc.os.sud.rs",
+   "rows": [
+    {
+     "location_id": 98,
+     "unit": "Sedište",
+     "place": "Bečej",
+     "address": "Glavna 6",
+     "phones": "021 6911751",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "osnovni-sud-u-boru-bor",
+   "name": "Osnovni sud u Boru",
+   "website": "https://www.bo.os.sud.rs",
+   "rows": [
+    {
+     "location_id": 62,
+     "unit": "Sedište",
+     "place": "Bor",
+     "address": "Moše Pijade 5",
+     "phones": "030 458490",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "osnovni-sud-u-brusu-brus",
+   "name": "Osnovni sud u Brusu",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 99,
+     "unit": "Sedište",
+     "place": "Brus",
+     "address": "Mike Đorđevića bb",
+     "phones": "037 825190",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "osnovni-sud-u-bujanovcu-bujanovac",
+   "name": "Osnovni sud u Bujanovcu",
+   "website": "https://www.bu.os.sud.rs",
+   "rows": [
+    {
+     "location_id": 100,
+     "unit": "Sedište",
+     "place": "Bujanovac",
+     "address": "Trg Karađorđa Petrovića 115",
+     "phones": "017 851021",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "osnovni-sud-u-dimitrovgradu-dimitrovgrad",
+   "name": "Osnovni sud u Dimitrovgradu",
+   "website": "https://dg.os.sud.rs",
+   "rows": [
+    {
+     "location_id": 106,
+     "unit": "Sedište",
+     "place": "Dimitrovgrad",
+     "address": "Trg Dr Zorana Đinđića 2",
+     "phones": "010 363171",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "osnovni-sud-u-gornjem-milanovcu-gornji-milanovac",
+   "name": "Osnovni sud u Gornjem Milanovcu",
+   "website": "https://www.gm.os.sud.rs",
+   "rows": [
+    {
+     "location_id": 104,
+     "unit": "Sedište",
+     "place": "Gornji Milanovac",
+     "address": "Kneza Aleksandra Karađorđevića 29",
+     "phones": "032 710217; 032 713960; 032 716615",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "osnovni-sud-u-ivanjici-ivanjica",
+   "name": "Osnovni sud u Ivanjici",
+   "website": "https://www.ic.os.sud.rs",
+   "rows": [
+    {
+     "location_id": 107,
+     "unit": "Sedište",
+     "place": "Ivanjica",
+     "address": "Boška Petrovića 9",
+     "phones": "032 662390",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "osnovni-sud-u-kikindi-kikinda",
+   "name": "Osnovni sud u Kikindi",
+   "website": "https://www.ki.os.sud.rs",
+   "rows": [
+    {
+     "location_id": 69,
+     "unit": "Sedište",
+     "place": "Kikinda",
+     "address": "Svetozara Miletića 1",
+     "phones": "0230 423746; 0230 423015",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "osnovni-sud-u-knjazevcu-knjazevac",
+   "name": "Osnovni sud u Knjaževcu",
+   "website": "https://www.kz.os.sud.rs",
+   "rows": [
+    {
+     "location_id": 108,
+     "unit": "Sedište",
+     "place": "Knjaževac",
+     "address": "Kej Dimitrija Tucovića 5",
+     "phones": "019 731402",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "osnovni-sud-u-krusevcu-krusevac",
+   "name": "Osnovni sud u Kruševcu",
+   "website": "https://www.ks.os.sud.rs",
+   "rows": [
+    {
+     "location_id": 72,
+     "unit": "Sedište",
+     "place": "Kruševac",
+     "address": "Trg Kosovskih junaka 3",
+     "phones": "037 413608; 037 413615; 037 413689; 037 413616",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "osnovni-sud-u-kursumliji-kursumlija",
+   "name": "Osnovni sud u Kuršumliji",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 109,
+     "unit": "Sedište",
+     "place": "Kuršumlija",
+     "address": "Palih boraca 37",
+     "phones": "027 381702",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "osnovni-sud-u-lazarevcu-lazarevac",
+   "name": "Osnovni sud u Lazarevcu",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 110,
+     "unit": "Sedište",
+     "place": "Lazarevac",
+     "address": "Karađorđeva 19",
+     "phones": "011 8123167; 011 8123277",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "osnovni-sud-u-loznici-loznica",
+   "name": "Osnovni sud u Loznici",
+   "website": "https://www.lo.os.sud.rs",
+   "rows": [
+    {
+     "location_id": 74,
+     "unit": "Sedište",
+     "place": "Loznica",
+     "address": "Jovana Cvijića bb",
+     "phones": "015 893308; 015 878135; 015 882314",
+     "hours": "07:30 - 15:30",
+     "need": [
+      "address"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "osnovni-sud-u-majdanpeku-majdanpek",
+   "name": "Osnovni sud u Majdanpeku",
+   "website": "https://www.ma.os.sud.rs",
+   "rows": [
+    {
+     "location_id": 112,
+     "unit": "Sedište",
+     "place": "Majdanpek",
+     "address": "Trg oslobođenja 9a",
+     "phones": "030 581332",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "osnovni-sud-u-mionici-mionica",
+   "name": "Osnovni sud u Mionici",
+   "website": "https://www.mi.os.sud.rs",
+   "rows": [
+    {
+     "location_id": 113,
+     "unit": "Sedište",
+     "place": "Mionica",
+     "address": "Vojvode Mišića 28",
+     "phones": "014 3421225",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "osnovni-sud-u-mladenovcu-mladenovac",
+   "name": "Osnovni sud u Mladenovcu",
+   "website": "https://www.ml.os.sud.rs",
+   "rows": [
+    {
+     "location_id": 114,
+     "unit": "Sedište",
+     "place": "Mladenovac",
+     "address": "Kralja Aleksandra Obrenovića 76",
+     "phones": "011 8231144",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "osnovni-sud-u-negotinu-negotin",
+   "name": "Osnovni sud u Negotinu",
+   "website": "https://www.ne.os.sud.rs",
+   "rows": [
+    {
+     "location_id": 75,
+     "unit": "Sedište",
+     "place": "Negotin",
+     "address": "Trg Stevana Mokranjca 1",
+     "phones": "019 542158",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "osnovni-sud-u-novom-pazaru-novi-pazar",
+   "name": "Osnovni sud u Novom Pazaru",
+   "website": "https://www.np.os.sud.rs",
+   "rows": [
+    {
+     "location_id": 77,
+     "unit": "Sedište",
+     "place": "Novi Pazar",
+     "address": "Žitni trg 16",
+     "phones": "020 312511",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "osnovni-sud-u-obrenovcu-obrenovac",
+   "name": "Osnovni sud u Obrenovcu",
+   "website": "https://www.ob.os.sud.rs",
+   "rows": [
+    {
+     "location_id": 115,
+     "unit": "Sedište",
+     "place": "Obrenovac",
+     "address": "Aleksandra Ace Simovića 9a",
+     "phones": "011 8727627; 011 8727628; 011 8720174",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "osnovni-sud-u-petrovcu-na-mlavi-petrovac-na-mlavi",
+   "name": "Osnovni sud u Petrovcu na Mlavi",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 116,
+     "unit": "Sedište",
+     "place": "Petrovac na Mlavi",
+     "address": "Srpskih Vladara 159",
+     "phones": "012 331260; 012 333131",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "osnovni-sud-u-priboju-priboj",
+   "name": "Osnovni sud u Priboju",
+   "website": "https://pb.os.sud.rs",
+   "rows": [
+    {
+     "location_id": 117,
+     "unit": "Sedište",
+     "place": "Priboj",
+     "address": "Vuka Karadžića 28",
+     "phones": "033 2445171",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "osnovni-sud-u-raskoj-raska",
+   "name": "Osnovni sud u Raškoj",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 118,
+     "unit": "Sedište",
+     "place": "Raška",
+     "address": "Ratka Lukovića 23",
+     "phones": "036 736109",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "osnovni-sud-u-rumi-ruma",
+   "name": "Osnovni sud u Rumi",
+   "website": "https://www.ru.os.sud.rs",
+   "rows": [
+    {
+     "location_id": 119,
+     "unit": "Sedište",
+     "place": "Ruma",
+     "address": "Železnička 10",
+     "phones": "022 478333",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "osnovni-sud-u-senti-senta",
+   "name": "Osnovni sud u Senti",
+   "website": "https://www.se.os.sud.rs",
+   "rows": [
+    {
+     "location_id": 120,
+     "unit": "Sedište",
+     "place": "Senta",
+     "address": "Glavni Trg 2",
+     "phones": "024 814081; 024 811094; 024 811105; 024 812674",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "osnovni-sud-u-sidu-sid",
+   "name": "Osnovni sud u Šidu",
+   "website": "https://www.si.os.sud.rs",
+   "rows": [
+    {
+     "location_id": 126,
+     "unit": "Sedište",
+     "place": "Šid",
+     "address": "Cara Dušana 4",
+     "phones": "022 712126",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "osnovni-sud-u-sjenici-sjenica",
+   "name": "Osnovni sud u Sjenici",
+   "website": "https://www.sj.os.sud.rs",
+   "rows": [
+    {
+     "location_id": 121,
+     "unit": "Sedište",
+     "place": "Sjenica",
+     "address": "Ivana Vasojevića Vasketa bb",
+     "phones": "020 5741223",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "osnovni-sud-u-somboru-sombor",
+   "name": "Osnovni sud u Somboru",
+   "website": "https://www.so.os.sud.rs",
+   "rows": [
+    {
+     "location_id": 87,
+     "unit": "Sedište",
+     "place": "Sombor",
+     "address": "Venac Vojvode Stepe Stepanovića 13",
+     "phones": "025 414806; 025 412221",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "osnovni-sud-u-sremskoj-mitrovici-sremska-mitrovica",
+   "name": "Osnovni sud u Sremskoj Mitrovici",
+   "website": "https://www.sm.os.sud.rs",
+   "rows": [
+    {
+     "location_id": 88,
+     "unit": "Sedište",
+     "place": "Sremska Mitrovica",
+     "address": "Trg Svetog Dimitrija 39",
+     "phones": "022 600100",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "osnovni-sud-u-staroj-pazovi-stara-pazova",
+   "name": "Osnovni sud u Staroj Pazovi",
+   "website": "https://www.st.os.sud.rs",
+   "rows": [
+    {
+     "location_id": 122,
+     "unit": "Sedište",
+     "place": "Stara Pazova",
+     "address": "Karađorđeva 3",
+     "phones": "022 310571; 022 310583; 022 310701; 022 310453",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "osnovni-sud-u-surdulici-surdulica",
+   "name": "Osnovni sud u Surdulici",
+   "website": "https://www.sc.os.sud.rs",
+   "rows": [
+    {
+     "location_id": 123,
+     "unit": "Sedište",
+     "place": "Surdulica",
+     "address": "Srpskih Vladara 9",
+     "phones": "017 825020; 017 7150365; 017 825083",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "osnovni-sud-u-trsteniku-trstenik",
+   "name": "Osnovni sud u Trsteniku",
+   "website": "https://www.ts.os.sud.rs",
+   "rows": [
+    {
+     "location_id": 124,
+     "unit": "Sedište",
+     "place": "Trstenik",
+     "address": "Doktora Milunovića bb",
+     "phones": "037 713057",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "osnovni-sud-u-ubu-ub",
+   "name": "Osnovni sud u Ubu",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 125,
+     "unit": "Sedište",
+     "place": "Ub",
+     "address": "3. oktobra 4, 14210 Ub",
+     "phones": "014 411315",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "osnovni-sud-u-uzicu-uzice",
+   "name": "Osnovni sud u Užicu",
+   "website": "https://www.ue.os.sud.rs",
+   "rows": [
+    {
+     "location_id": 90,
+     "unit": "Sedište",
+     "place": "Užice",
+     "address": "Nade Matić 6",
+     "phones": "031 513105",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "osnovni-sud-u-valjevu-valjevo",
+   "name": "Osnovni sud u Valjevu",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 63,
+     "unit": "Sedište",
+     "place": "Valjevo",
+     "address": "Karađorđeva 50",
+     "phones": "014 221615",
+     "hours": "07:30 - 15:30",
+     "need": []
+    }
+   ]
+  }
+ ],
+ "id": "net-osnovni-sud-1"
+}

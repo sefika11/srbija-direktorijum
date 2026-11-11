@@ -1,0 +1,359 @@
+{
+ "kind": "network",
+ "title": "Sava osiguranje",
+ "type": "osiguravajuce-drustvo",
+ "orgs": [
+  {
+   "org_slug": "osiguravajuce-drustvo-sava-osiguranje",
+   "name": "Sava osiguranje",
+   "website": "https://www.sava-osiguranje.rs",
+   "rows": [
+    {
+     "location_id": 20134,
+     "unit": "Poslovnica Bulevar Crvene armije 11b",
+     "place": "Novi Beograd",
+     "address": "Bulevar Crvene armije 11b",
+     "phones": "011 6555074",
+     "hours": "Mo-Fr 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 23243,
+     "unit": "Poslovnica",
+     "place": "Bor",
+     "address": null,
+     "phones": "030 2150085",
+     "hours": "Mo-Fr 08:30-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23244,
+     "unit": "Poslovnica Braće Glišića 5",
+     "place": "Čačak",
+     "address": "Braće Glišića 5",
+     "phones": "032 342880",
+     "hours": "pon-pet: 08.30 - 16.30",
+     "need": []
+    },
+    {
+     "location_id": 23245,
+     "unit": "Poslovnica Dr Zorana Đinđića 2",
+     "place": "Kragujevac",
+     "address": "Dr Zorana Đinđića 2",
+     "phones": "034 501157",
+     "hours": "Mo-Fr 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 23246,
+     "unit": "Poslovnica Čolak Antina 24",
+     "place": "Kruševac",
+     "address": "Čolak Antina 24",
+     "phones": "037 3501040",
+     "hours": "pon-pet: 08.30 - 16.30",
+     "need": []
+    },
+    {
+     "location_id": 23247,
+     "unit": "Poslovnica Bulevar oslobođenja 157",
+     "place": "Leskovac",
+     "address": "Bulevar oslobođenja 157",
+     "phones": "016 218272",
+     "hours": "pon-pet: 08.30 - 16.30",
+     "need": []
+    },
+    {
+     "location_id": 23248,
+     "unit": "Poslovnica Trg Pavla Stojkovića 7a",
+     "place": "Medijana",
+     "address": "Trg Pavla Stojkovića 7a",
+     "phones": "018 250088",
+     "hours": "pon-pet: 08.30 - 16.30",
+     "need": []
+    },
+    {
+     "location_id": 23249,
+     "unit": "Poslovnica Ruđera Boškovića 63",
+     "place": "Novi Pazar",
+     "address": "Ruđera Boškovića 63",
+     "phones": "020 318402",
+     "hours": "Mo-Fr 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 23250,
+     "unit": "Poslovnica Hajduk Veljkova 11",
+     "place": "Novi Sad",
+     "address": "Hajduk Veljkova 11",
+     "phones": "021 444955",
+     "hours": "Mo-Fr 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 23251,
+     "unit": "Poslovnica Veljka Vlahovića 1",
+     "place": "Prijepolje",
+     "address": "Veljka Vlahovića 1",
+     "phones": "033 711040",
+     "hours": "Mo-Fr 07:00-15:00",
+     "need": []
+    },
+    {
+     "location_id": 23252,
+     "unit": "Poslovnica",
+     "place": "Šabac",
+     "address": null,
+     "phones": "015 314375",
+     "hours": "Mo-Fr 08:30-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23253,
+     "unit": "Poslovnica Glavni trg 8",
+     "place": "Senta",
+     "address": "Glavni trg 8",
+     "phones": "024 815526",
+     "hours": "pon-pet: 08.30 - 16.30",
+     "need": []
+    },
+    {
+     "location_id": 23254,
+     "unit": "Poslovnica",
+     "place": "Subotica",
+     "address": null,
+     "phones": "024 552662",
+     "hours": "Mo-Fr 08:30-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23255,
+     "unit": "Poslovnica",
+     "place": "Užice",
+     "address": null,
+     "phones": "031 525360",
+     "hours": "Mo-Fr 08:30-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23256,
+     "unit": "Poslovnica Uzun Mirkova 2b",
+     "place": "Valjevo",
+     "address": "Uzun Mirkova 2b",
+     "phones": "014 224801",
+     "hours": "Mo-Fr 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 23257,
+     "unit": "Poslovnica",
+     "place": "Vršac",
+     "address": null,
+     "phones": "013 830619",
+     "hours": "Mo-Fr 08:30-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23258,
+     "unit": "Poslovnica",
+     "place": "Bela Crkva",
+     "address": null,
+     "phones": "066 8026001",
+     "hours": "Mo-Fr 08:30-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23259,
+     "unit": "Poslovnica Vojvode Stepe 10",
+     "place": "Kraljevo",
+     "address": "Vojvode Stepe 10",
+     "phones": "036 5150185",
+     "hours": "Mo-Fr 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 23260,
+     "unit": "Poslovnica",
+     "place": "Preševo",
+     "address": null,
+     "phones": "017 860114",
+     "hours": "Mo-Fr 08:30-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23261,
+     "unit": "Poslovnica",
+     "place": "Vladičin Han",
+     "address": null,
+     "phones": "017 474739",
+     "hours": "Mo-Fr 08:30-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23975,
+     "unit": "Poslovnica Bulevar vojvode Mišića 51",
+     "place": "Savski venac",
+     "address": "Bulevar vojvode Mišića 51",
+     "phones": "011 7773939",
+     "hours": "Mo-Fr 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27160,
+     "unit": "Ekspozitura Beograd Belville",
+     "place": "Novi Beograd",
+     "address": "Bulevar Crvene armije br. 11b",
+     "phones": "011 6555074",
+     "hours": "pon-pet: 08.30 - 16.30",
+     "need": []
+    },
+    {
+     "location_id": 27161,
+     "unit": "Sedište - Beograd",
+     "place": "Savski venac",
+     "address": "Bul. vojvode Mišića 51",
+     "phones": "011 7773939; 011 3644888",
+     "hours": "pon-pet: 08.30 - 16.30",
+     "need": []
+    },
+    {
+     "location_id": 27162,
+     "unit": "Ekspozitura Kragujevac",
+     "place": "Kragujevac",
+     "address": "Zorana Đinđića 2",
+     "phones": "034 501157",
+     "hours": "pon-pet: 08.30 - 16.30",
+     "need": []
+    },
+    {
+     "location_id": 27163,
+     "unit": "Šalter Kraljevo",
+     "place": "Kraljevo",
+     "address": "Vojvode Stepe 10",
+     "phones": "036 5150185",
+     "hours": "pon-pet: 08.30 - 16.30",
+     "need": []
+    },
+    {
+     "location_id": 27164,
+     "unit": "Ekspozitura Novi Pazar",
+     "place": "Novi Pazar",
+     "address": "AVNOJ-a bb",
+     "phones": "020 318402",
+     "hours": "pon-pet: 08.30 - 16.30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 27165,
+     "unit": "Ekspozitura Novi Sad",
+     "place": "Novi Sad",
+     "address": "Hajduk Veljkova 11",
+     "phones": "021 444955",
+     "hours": "pon-pet: 08.30 - 16.30",
+     "need": []
+    },
+    {
+     "location_id": 27166,
+     "unit": "Šalter Preševo",
+     "place": "Preševo",
+     "address": "15. novembar 68-pr",
+     "phones": "017 860114",
+     "hours": "pon-pet: 08.30 - 16.30",
+     "need": []
+    },
+    {
+     "location_id": 27167,
+     "unit": "Ekspozitura Prijepolje",
+     "place": "Prijepolje",
+     "address": "Stadion lamela 10",
+     "phones": "033 711040",
+     "hours": "pon-pet: 07.00 - 15.00",
+     "need": []
+    },
+    {
+     "location_id": 27168,
+     "unit": "Ekspozitura Subotica",
+     "place": "Subotica",
+     "address": "Matije Korvina 17",
+     "phones": "024 552662",
+     "hours": "pon-pet: 08.30 - 16.30",
+     "need": []
+    },
+    {
+     "location_id": 27169,
+     "unit": "Ekspozitura Šabac",
+     "place": "Šabac",
+     "address": "Gospodar Jevremova 9",
+     "phones": "015 314375",
+     "hours": "pon-pet: 08.30 - 16.30",
+     "need": []
+    },
+    {
+     "location_id": 27170,
+     "unit": "Ekspozitura Užice",
+     "place": "Užice",
+     "address": "Kneza Lazara 5",
+     "phones": "031 525360",
+     "hours": "pon-pet: 08.30 - 16.30",
+     "need": []
+    },
+    {
+     "location_id": 27171,
+     "unit": "Ekspozitura Valjevo",
+     "place": "Valjevo",
+     "address": "Oslobodioci Valjeva B4",
+     "phones": "014 224801",
+     "hours": "pon-pet: 08.30 - 16.30",
+     "need": []
+    },
+    {
+     "location_id": 27172,
+     "unit": "Šalter Vladičin Han",
+     "place": "Vladičin Han",
+     "address": "Slobodana Penezića bb",
+     "phones": "017 474739",
+     "hours": "pon-pet: 08.30 - 16.30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 27173,
+     "unit": "Ekspozitura Vršac",
+     "place": "Vršac",
+     "address": "Dositejeva 11",
+     "phones": "013 830619",
+     "hours": "pon-pet: 08.30 - 16.30",
+     "need": []
+    },
+    {
+     "location_id": 27174,
+     "unit": "Šalter Bela Crkva",
+     "place": "Bela Crkva",
+     "address": "Mihajla Pupina 19",
+     "phones": "066 8026001",
+     "hours": "pon-pet: 08.30 - 16.30",
+     "need": []
+    }
+   ]
+  }
+ ],
+ "id": "net-osiguravajuce-drustvo-sava-osiguranje"
+}

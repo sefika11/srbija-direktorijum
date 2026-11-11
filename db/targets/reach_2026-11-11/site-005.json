@@ -1,0 +1,396 @@
+{
+ "kind": "sites",
+ "title": "Institucije sa sopstvenim sajtom",
+ "rows": [
+  {
+   "org_slug": "centar-za-socijalni-rad-despotovac-despotovac",
+   "name": "Centar za socijalni rad \"Despotovac\"",
+   "type": "Centar za socijalni rad",
+   "place": "Despotovac",
+   "website": "http://czsr-despotovac.rs",
+   "mb": "07332912",
+   "have": {
+    "address": "Moravska 28",
+    "phones": "035 611394",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-doljevac-doljevac",
+   "name": "Centar za socijalni rad Doljevac",
+   "type": "Centar za socijalni rad",
+   "place": "Doljevac",
+   "website": "https://csrdoljevac.org",
+   "mb": "07336373",
+   "have": {
+    "address": "Doljevac bb",
+    "phones": "018 870304; 018 870072",
+    "hours": "Pon-Pet 08:00-16:00"
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-dunav-indjija-indjija",
+   "name": "Centar za socijalni rad \"Dunav\" Inđija",
+   "type": "Centar za socijalni rad",
+   "place": "Inđija",
+   "website": "http://www.csrdunav.org.rs",
+   "mb": "08150524",
+   "have": {
+    "address": "Vojvode Stepe 42",
+    "phones": "022 560526; 022 560303",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-ivanjica-ivanjica",
+   "name": "Centar za socijalni rad Ivanjica",
+   "type": "Centar za socijalni rad",
+   "place": "Ivanjica",
+   "website": "https://csr-ivanjica.rs/",
+   "mb": "07271115",
+   "have": {
+    "address": "Branislava Nušića 12",
+    "phones": "032 661609",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-knic-knic",
+   "name": "Centar za socijalni rad \"Knić\"",
+   "type": "Centar za socijalni rad",
+   "place": "Knić",
+   "website": "https://csrknic.rs/",
+   "mb": "17273256",
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-kovin-kovin",
+   "name": "Centar za socijalni rad \"Kovin\"",
+   "type": "Centar za socijalni rad",
+   "place": "Kovin",
+   "website": "https://csrkovin.org.rs/",
+   "mb": "08171343",
+   "have": {
+    "address": "Trg Žarka Zrenjanina 8",
+    "phones": "013 742985",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-solidarnost-kragujevac-kragujevac",
+   "name": "Centar za socijalni rad \"Solidarnost\" Kragujevac",
+   "type": "Centar za socijalni rad",
+   "place": "Kragujevac",
+   "website": "https://solidarnost.org.rs",
+   "mb": "07151616",
+   "have": {
+    "address": null,
+    "phones": "034 332627",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-kraljevo-kraljevo",
+   "name": "Centar za socijalni rad Kraljevo",
+   "type": "Centar za socijalni rad",
+   "place": "Kraljevo",
+   "website": "http://www.scrkv.co.rs/",
+   "mb": "07154127",
+   "have": {
+    "address": "Naselje Moše Pijade 28",
+    "phones": "036 331744; 036 331490; 036 314850",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-krusevac-krusevac",
+   "name": "Centar za socijalni rad Kruševac",
+   "type": "Centar za socijalni rad",
+   "place": "Kruševac",
+   "website": "http://www.csrkrusevac.rs/",
+   "mb": "07144539",
+   "have": {
+    "address": "Majke Jugovića 46",
+    "phones": "037 416980",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-kula-kula",
+   "name": "Centar za socijalni rad Kula",
+   "type": "Centar za socijalni rad",
+   "place": "Kula",
+   "website": "http://www.csrkula.org",
+   "mb": "08005362",
+   "have": {
+    "address": "S. Markovića 6a",
+    "phones": "025 722269; 025 729900",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-leskovac-leskovac",
+   "name": "Centar za socijalni rad Leskovac",
+   "type": "Centar za socijalni rad",
+   "place": "Leskovac",
+   "website": "https://csr-leskovac.rs/",
+   "mb": "07139896",
+   "have": {
+    "address": "Koste Stamenkovića 6",
+    "phones": "016 252494; 016 216855; 016 3155155; 065 2524949",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-ljubovija-ljubovija",
+   "name": "Centar za socijalni rad \"Ljubovija\"",
+   "type": "Centar za socijalni rad",
+   "place": "Ljubovija",
+   "website": "https://czsrljubovija.blogspot.com",
+   "mb": "07209177",
+   "have": {
+    "address": "Milana Tešića 28",
+    "phones": "015 561782",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-loznica-loznica",
+   "name": "Centar za socijalni rad Loznica",
+   "type": "Centar za socijalni rad",
+   "place": "Loznica",
+   "website": "https://csrloznica.org.rs",
+   "mb": "07122632",
+   "have": {
+    "address": "Bulevar Dositeja Obradovića 3",
+    "phones": "015 7889412",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-lucani-guca",
+   "name": "Centar za socijalni rad Lučani",
+   "type": "Centar za socijalni rad",
+   "place": "Lučani",
+   "website": "https://csrlucani.rs/",
+   "mb": "07296959",
+   "have": {
+    "address": "Republike br.18, 32230 Guča",
+    "phones": "032 854370",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-medvedja-medvedja",
+   "name": "Centar za socijalni rad Medveđa",
+   "type": "Centar za socijalni rad",
+   "place": "Medveđa",
+   "website": "https://csrmedvedja.rs/",
+   "mb": "07324316",
+   "have": {
+    "address": "Lička 12",
+    "phones": "016 3891340",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-sveti-sava-nis-nis",
+   "name": "Centar za socijalni rad \"Sveti Sava\" Niš",
+   "type": "Centar za socijalni rad",
+   "place": "Niš",
+   "website": "https://csr-nis.rs/",
+   "mb": "07187882",
+   "have": {
+    "address": "Svetozara Markovića 41",
+    "phones": "018 244881",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-sa-domskim-odeljenjem-i-dnev-centrom-za-smest-starih-i-penzionera-novi-kneze",
+   "name": "Centar za socijalni rad sa Domskim Odeljenjem i Dnev. Centrom za Smešt. starih i Penzionera Novi Kneževac",
+   "type": "Centar za socijalni rad",
+   "place": "Novi Kneževac",
+   "website": "https://csrnoviknezevac.rs",
+   "mb": "08787891",
+   "have": {
+    "address": "Svetog Save 1",
+    "phones": "0230 381822; 0230 383332",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-novi-pazar-novi-pazar",
+   "name": "Centar za socijalni rad Novi Pazar",
+   "type": "Centar za socijalni rad",
+   "place": "Novi Pazar",
+   "website": "https://csrnovipazar.org.rs/",
+   "mb": "07191383",
+   "have": {
+    "address": "Stevana Nemanje 198",
+    "phones": "020 312633; 020 5311807",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-solidarnost-pancevo-pancevo",
+   "name": "Centar za socijalni rad \"Solidarnost\" Pančevo",
+   "type": "Centar za socijalni rad",
+   "place": "Pančevo",
+   "website": "https://www.csrpancevo.rs/",
+   "mb": "08006610",
+   "have": {
+    "address": "Filipa Višnjića 16",
+    "phones": "013 319843; 013 331777; 013 311889",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-paracin-paracin",
+   "name": "Centar za socijalni rad \"Paraćin\"",
+   "type": "Centar za socijalni rad",
+   "place": "Paraćin",
+   "website": "https://www.csrparacin.rs/",
+   "mb": "07301278",
+   "have": {
+    "address": "Kragujevačka 4",
+    "phones": "035 563739",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-pecinci-pecinci",
+   "name": "Centar za socijalni rad \"Pećinci\"",
+   "type": "Centar za socijalni rad",
+   "place": "Pećinci",
+   "website": "https://csr-pecinci.org.rs/",
+   "mb": "08217017",
+   "have": {
+    "address": "Slobodana Bajića 5",
+    "phones": "022 2436028; 022 2435240",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-pirot-pirot",
+   "name": "Centar za socijalni rad Pirot",
+   "type": "Centar za socijalni rad",
+   "place": "Pirot",
+   "website": "https://www.csrpirot.rs/",
+   "mb": "17651285",
+   "have": {
+    "address": "Srpskih vladara br. 126a",
+    "phones": "010 311203; 010 311205",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-plandiste-plandiste",
+   "name": "Centar za socijalni rad Plandište",
+   "type": "Centar za socijalni rad",
+   "place": "Plandište",
+   "website": "https://csrplandiste.org.rs/",
+   "mb": "08843031",
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-pozarevac-pozarevac",
+   "name": "Centar za socijalni rad Požarevac",
+   "type": "Centar za socijalni rad",
+   "place": "Požarevac",
+   "website": "http://czsrpozarevac.rs/",
+   "mb": "07160992",
+   "have": {
+    "address": "Moše Pijade 2",
+    "phones": null,
+    "hours": "Pon-Pet 08:00-16:00"
+   },
+   "need": [
+    "phones"
+   ]
+  }
+ ],
+ "id": "site-005"
+}

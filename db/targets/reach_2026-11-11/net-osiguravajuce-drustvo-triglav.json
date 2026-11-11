@@ -1,0 +1,348 @@
+{
+ "kind": "network",
+ "title": "Triglav",
+ "type": "osiguravajuce-drustvo",
+ "orgs": [
+  {
+   "org_slug": "osiguravajuce-drustvo-triglav",
+   "name": "Triglav",
+   "website": "https://www.triglav.rs/",
+   "rows": [
+    {
+     "location_id": 19726,
+     "unit": "Poslovnica Veselina Masleše 54-56",
+     "place": "Novi Sad",
+     "address": "Veselina Masleše 54-56",
+     "phones": "021 2100360",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 19727,
+     "unit": "Poslovnica Milutina Milankovića 7a",
+     "place": "Novi Beograd",
+     "address": "Milutina Milankovića 7a",
+     "phones": "011 3305150",
+     "hours": "Mo-Fr 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 20315,
+     "unit": "Poslovnica",
+     "place": "Bor",
+     "address": null,
+     "phones": "030 2496980",
+     "hours": "Mo-Fr 08:30-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20540,
+     "unit": "Poslovnica",
+     "place": "Užice",
+     "address": null,
+     "phones": "031 3150043",
+     "hours": "Mo-Fr 08:30-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 21583,
+     "unit": "Poslovnica",
+     "place": "Subotica",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 22916,
+     "unit": "Poslovnica",
+     "place": "Savski venac",
+     "address": null,
+     "phones": "011 7452000",
+     "hours": "Mo-Fr 09:00-20:00; Sa 09:00-14:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22946,
+     "unit": "Poslovnica Novosadska 3",
+     "place": "Bečej",
+     "address": "Novosadska 3",
+     "phones": "021 2107384",
+     "hours": "Mo-Fr 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 23027,
+     "unit": "Poslovnica",
+     "place": "Pirot",
+     "address": null,
+     "phones": "010 2150021",
+     "hours": "Mo-Fr 08:30-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23080,
+     "unit": "Poslovnica Matije Korvina 18a",
+     "place": "Subotica",
+     "address": "Matije Korvina 18a",
+     "phones": "024 694550",
+     "hours": "Mo-Fr 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 23081,
+     "unit": "Poslovnica Arsenija Čarnojevića 5",
+     "place": "Sombor",
+     "address": "Arsenija Čarnojevića 5",
+     "phones": "025 5150260",
+     "hours": "Mo-Fr 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 23082,
+     "unit": "Poslovnica",
+     "place": "Kikinda",
+     "address": null,
+     "phones": "0230 316017",
+     "hours": "Mo-Fr 08:30-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23083,
+     "unit": "Poslovnica",
+     "place": "Zrenjanin",
+     "address": null,
+     "phones": "023 3150482",
+     "hours": "Mo-Fr 08:30-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23084,
+     "unit": "Poslovnica Vojvođanskih brigada 26",
+     "place": "Novi Sad",
+     "address": "Vojvođanskih brigada 26",
+     "phones": "021 2100360",
+     "hours": "Mo-Fr 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 23085,
+     "unit": "Poslovnica Anđe Ranković 2",
+     "place": "Vršac",
+     "address": "Anđe Ranković 2",
+     "phones": "066 5555103",
+     "hours": "Mo-Fr 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 23086,
+     "unit": "Poslovnica",
+     "place": "Pančevo",
+     "address": null,
+     "phones": "013 2190178",
+     "hours": "Mo-Fr 08:30-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23087,
+     "unit": "Poslovnica Pavla Orlovića 1",
+     "place": "Bogatić",
+     "address": "Pavla Orlovića 1",
+     "phones": "015 77871588",
+     "hours": "Mo-Fr 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 23088,
+     "unit": "Poslovnica Gospodar Jevremova 35",
+     "place": "Šabac",
+     "address": "Gospodar Jevremova 35",
+     "phones": "015 345419",
+     "hours": "Mo-Fr 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 23089,
+     "unit": "Poslovnica",
+     "place": "Loznica",
+     "address": null,
+     "phones": "015 892983",
+     "hours": "Mo-Fr 08:30-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23090,
+     "unit": "Poslovnica Karađorđeva 36a",
+     "place": "Valjevo",
+     "address": "Karađorđeva 36a",
+     "phones": "014 222018",
+     "hours": "Mo-Fr 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 23091,
+     "unit": "Poslovnica Hadži Melentija 3",
+     "place": "Bajina Bašta",
+     "address": "Hadži Melentija 3",
+     "phones": "066 5555964",
+     "hours": "Mo-Fr 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 23092,
+     "unit": "Poslovnica Izeta Čavića 15",
+     "place": "Prijepolje",
+     "address": "Izeta Čavića 15",
+     "phones": "033 2150070",
+     "hours": "Mo-Fr 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 23093,
+     "unit": "Poslovnica Njegoševa 4",
+     "place": "Novi Pazar",
+     "address": "Njegoševa 4",
+     "phones": "020 332640",
+     "hours": "Mo-Fr 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 23094,
+     "unit": "Poslovnica",
+     "place": "Požega",
+     "address": null,
+     "phones": "031 3150160",
+     "hours": "Mo-Fr 08:30-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23095,
+     "unit": "Poslovnica Braće Glišića 10",
+     "place": "Čačak",
+     "address": "Braće Glišića 10",
+     "phones": "032 310955",
+     "hours": "Mo-Fr 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 23096,
+     "unit": "Poslovnica",
+     "place": "Kraljevo",
+     "address": null,
+     "phones": "066 5555640",
+     "hours": "Mo-Fr 08:30-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23097,
+     "unit": "Poslovnica",
+     "place": "Kragujevac",
+     "address": null,
+     "phones": "034 300710",
+     "hours": "Mo-Fr 08:30-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23098,
+     "unit": "Poslovnica Vuka Karadžića 15",
+     "place": "Jagodina",
+     "address": "Vuka Karadžića 15",
+     "phones": "035 8228900",
+     "hours": "Mo-Fr 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 23099,
+     "unit": "Poslovnica",
+     "place": "Kruševac",
+     "address": null,
+     "phones": "037 3418730",
+     "hours": "Mo-Fr 08:30-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23100,
+     "unit": "Poslovnica",
+     "place": "Negotin",
+     "address": null,
+     "phones": "019 542660",
+     "hours": "Mo-Fr 08:30-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23101,
+     "unit": "Poslovnica",
+     "place": "Medijana",
+     "address": null,
+     "phones": "018 4150471",
+     "hours": "Mo-Fr 08:30-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23102,
+     "unit": "Poslovnica Bulevar oslobođenja 92",
+     "place": "Leskovac",
+     "address": "Bulevar oslobođenja 92",
+     "phones": "016 3150181",
+     "hours": "Mo-Fr 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 23103,
+     "unit": "Poslovnica Dr Dimitrija Jovčića 14",
+     "place": "Vranje",
+     "address": "Dr Dimitrija Jovčića 14",
+     "phones": "017 421144",
+     "hours": "Mo-Fr 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 24212,
+     "unit": "Poslovnica 7. juli 25a",
+     "place": "Medijana",
+     "address": "7. juli 25a",
+     "phones": "018 244001",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  }
+ ],
+ "id": "net-osiguravajuce-drustvo-triglav"
+}

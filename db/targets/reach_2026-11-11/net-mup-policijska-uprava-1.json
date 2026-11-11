@@ -1,0 +1,964 @@
+{
+ "kind": "network",
+ "title": "MUP – Policijska uprava / stanica (10 organizacija)",
+ "type": "mup-policijska-uprava",
+ "orgs": [
+  {
+   "org_slug": "ministarstvo-unutrasnjih-poslova-beograd-novi-beograd",
+   "name": "Ministarstvo unutrašnjih poslova",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 2426,
+     "unit": "Sedište",
+     "place": "Novi Beograd",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "policijska-uprava-bor",
+   "name": "Policijska uprava Bor",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 12660,
+     "unit": "Sedište",
+     "place": "Bor",
+     "address": null,
+     "phones": "030 427234",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12834,
+     "unit": "Policijska stanica Kladovo",
+     "place": "Kladovo",
+     "address": "Kralja Aleksandra 35",
+     "phones": "019 801444; 019 805300",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12877,
+     "unit": "Policijska stanica Majdanpek",
+     "place": "Majdanpek",
+     "address": null,
+     "phones": "030 455100; 030 581544",
+     "hours": "24/7",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 12983,
+     "unit": "Policijska stanica",
+     "place": "Majdanpek",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13182,
+     "unit": "Policijska stanica Negotin",
+     "place": "Negotin",
+     "address": "Trg Đorđa Stanojevića 7",
+     "phones": "019 542955; 019 542956; 019 805240",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14644,
+     "unit": "Policijska ispostava Bor",
+     "place": "Bor",
+     "address": null,
+     "phones": "030 455009; 030 455160",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "policijska-uprava-cacak",
+   "name": "Policijska uprava Čačak",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 12663,
+     "unit": "Sedište",
+     "place": "Čačak",
+     "address": null,
+     "phones": "032 363000",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12813,
+     "unit": "Saobraćajna policija",
+     "place": "Čačak",
+     "address": null,
+     "phones": "032 363005",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12917,
+     "unit": "Policijska stanica Lučani u Guči",
+     "place": "Lučani",
+     "address": null,
+     "phones": "032 363023",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13069,
+     "unit": "Policijska stanica Gornji Milanovac",
+     "place": "Gornji Milanovac",
+     "address": "Kneza Aleksandra Karađorđevića 27",
+     "phones": "032 363024",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13212,
+     "unit": "Policijska stanica",
+     "place": "Lučani",
+     "address": "Jugoslovenske armije 11a",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13230,
+     "unit": "Policijska stanica",
+     "place": "Lučani",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13488,
+     "unit": "MUP",
+     "place": "Čačak",
+     "address": "Cara Dušana 8",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13490,
+     "unit": "Policijska uprava Čačak",
+     "place": "Čačak",
+     "address": "Cara Dušana 3",
+     "phones": "032 363136",
+     "hours": "24/7",
+     "need": []
+    },
+    {
+     "location_id": 14683,
+     "unit": "Policijska stanica Ivanjica",
+     "place": "Ivanjica",
+     "address": null,
+     "phones": "032 363019",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "policijska-uprava-jagodina",
+   "name": "Policijska uprava Jagodina",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 12667,
+     "unit": "Sedište",
+     "place": "Jagodina",
+     "address": null,
+     "phones": "035 201100; 035 201144",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13128,
+     "unit": "Policijska stanica Paraćin",
+     "place": "Paraćin",
+     "address": "Tome Živanovića 10a",
+     "phones": "035 561105; 035 562863",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13313,
+     "unit": "Policijska stanica Svilajnac",
+     "place": "Svilajnac",
+     "address": null,
+     "phones": "035 312340; 035 312298",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14651,
+     "unit": "Policijska ispostava Jagodina",
+     "place": "Jagodina",
+     "address": null,
+     "phones": "035 201140; 035 8225120",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14652,
+     "unit": "Policijska stanica Ćuprija",
+     "place": "Ćuprija",
+     "address": null,
+     "phones": "035 8871092; 035 8871349",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14653,
+     "unit": "Policijska stanica Despotovac",
+     "place": "Despotovac",
+     "address": null,
+     "phones": "035 611036; 035 611143",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14654,
+     "unit": "Policijska stanica Rekovac",
+     "place": "Rekovac",
+     "address": null,
+     "phones": "035 8411088; 035 8411050",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "policijska-uprava-kikinda",
+   "name": "Policijska uprava Kikinda",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 12670,
+     "unit": "Sedište",
+     "place": "Kikinda",
+     "address": "Braće Tatić 5",
+     "phones": "0230 412100",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12788,
+     "unit": "Policijska stanica Senta",
+     "place": "Senta",
+     "address": null,
+     "phones": "024 625300",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12794,
+     "unit": "Policijska stanica Ada",
+     "place": "Ada",
+     "address": null,
+     "phones": "024 625380",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12985,
+     "unit": "Policijska stanica Kanjiža",
+     "place": "Kanjiža",
+     "address": null,
+     "phones": "024 625350",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13116,
+     "unit": "Policijska Uprava Kikinda",
+     "place": "Kikinda",
+     "address": "Braće Tatić 5",
+     "phones": "0230 412100",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13451,
+     "unit": "Policijska stanica",
+     "place": "Kikinda",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14655,
+     "unit": "Policijska stanica Čoka",
+     "place": "Čoka",
+     "address": null,
+     "phones": "0230 412260",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14656,
+     "unit": "Policijska stanica Novi Kneževac",
+     "place": "Novi Kneževac",
+     "address": null,
+     "phones": "0230 412280",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "policijska-uprava-kragujevac",
+   "name": "Policijska uprava Kragujevac",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 12673,
+     "unit": "Sedište",
+     "place": "Kragujevac",
+     "address": null,
+     "phones": "034 378200",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13025,
+     "unit": "Saobraćajna policijska stanica",
+     "place": "Kragujevac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13135,
+     "unit": "Policijska stanica Topola",
+     "place": "Topola",
+     "address": "Bulevar kralja Aleksandra 11",
+     "phones": "034 811122; 034 6811122; 034 6102192",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13156,
+     "unit": "Policijska ispostava Kragujevac",
+     "place": "Kragujevac",
+     "address": "Svetozara Markovića 41",
+     "phones": "034 378067; 034 324426",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13185,
+     "unit": "Policijska stanica Lapovo",
+     "place": "Lapovo",
+     "address": "Njegoševa 11a",
+     "phones": "034 853728",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13225,
+     "unit": "Policijska stanica Batočina",
+     "place": "Batočina",
+     "address": "Kralja Petra I 28",
+     "phones": "034 6843266",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14657,
+     "unit": "Policijska stanica Aranđelovac",
+     "place": "Aranđelovac",
+     "address": null,
+     "phones": "034 710113; 034 724981",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14658,
+     "unit": "Policijska stanica Rača",
+     "place": "Rača",
+     "address": null,
+     "phones": "034 751838",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14659,
+     "unit": "Policijska stanica Knić",
+     "place": "Knić",
+     "address": null,
+     "phones": "034 510122; 034 510102",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "policijska-uprava-kraljevo",
+   "name": "Policijska uprava Kraljevo",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 12676,
+     "unit": "Sedište",
+     "place": "Kraljevo",
+     "address": null,
+     "phones": "036 364000",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12894,
+     "unit": "Policijska stanica Vrnjačka Banja",
+     "place": "Vrnjačka Banja",
+     "address": null,
+     "phones": "036 611122; 036 364042; 036 364103",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12956,
+     "unit": "Policijska stanica Raška",
+     "place": "Raška",
+     "address": null,
+     "phones": "036 364067; 036 364133; 036 364065; 036 364087",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13010,
+     "unit": "Policijska stanica",
+     "place": "Raška",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13055,
+     "unit": "Policijska ispostava Kraljevo",
+     "place": "Kraljevo",
+     "address": "Vojvode Putnika 3",
+     "phones": "036 364019; 036 364083; 036 364014",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13196,
+     "unit": "Saobraćajna policija",
+     "place": "Kraljevo",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13362,
+     "unit": "Policijska stanica Raška",
+     "place": "Raška",
+     "address": "Predraga Vilimonovića 10",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "policijska-uprava-krusevac",
+   "name": "Policijska uprava Kruševac",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 12680,
+     "unit": "Sedište",
+     "place": "Kruševac",
+     "address": null,
+     "phones": "037 427459",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12920,
+     "unit": "Policijska ispostava Kruševac",
+     "place": "Kruševac",
+     "address": null,
+     "phones": "037 427459; 037 442087",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13050,
+     "unit": "Policijska stanica Brus",
+     "place": "Brus",
+     "address": null,
+     "phones": "037 3825162",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13072,
+     "unit": "Policijska stanica Kruševac",
+     "place": "Kruševac",
+     "address": "Stevana Sinđelića 1",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13189,
+     "unit": "Policijska stanica Ćićevac",
+     "place": "Ćićevac",
+     "address": "Karađorđeva 100",
+     "phones": "037 811079",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14660,
+     "unit": "Policijska stanica Aleksandrovac",
+     "place": "Aleksandrovac",
+     "address": null,
+     "phones": "037 3552133",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14661,
+     "unit": "Policijska stanica Trstenik",
+     "place": "Trstenik",
+     "address": null,
+     "phones": "037 712593",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "policijska-uprava-leskovac",
+   "name": "Policijska uprava Leskovac",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 12683,
+     "unit": "Sedište",
+     "place": "Leskovac",
+     "address": null,
+     "phones": "016 250554",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12774,
+     "unit": "Saobraćajna policijska ispostava Leskovac",
+     "place": "Leskovac",
+     "address": null,
+     "phones": "016 200283; 016 243936",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12981,
+     "unit": "Policijska stanica Medveđa",
+     "place": "Medveđa",
+     "address": null,
+     "phones": "016 892252",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12994,
+     "unit": "Policiska stanica",
+     "place": "Leskovac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13099,
+     "unit": "Policija",
+     "place": "Crna Trava",
+     "address": "Gorana Mladenovića 4",
+     "phones": "016 811222",
+     "hours": "24/7",
+     "need": []
+    },
+    {
+     "location_id": 13158,
+     "unit": "Policijska stanica Vlasotince",
+     "place": "Vlasotince",
+     "address": "Trg oslobođenja 11",
+     "phones": "016 875120",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13178,
+     "unit": "Policijska stanica",
+     "place": "Medveđa",
+     "address": "Milunke Savić 1",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13440,
+     "unit": "Policijska stanica Lebane",
+     "place": "Lebane",
+     "address": null,
+     "phones": "016 843122",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14662,
+     "unit": "Policijska stanica Bojnik",
+     "place": "Bojnik",
+     "address": null,
+     "phones": "016 821106",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "policijska-uprava-nis",
+   "name": "Policijska uprava Niš",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 12686,
+     "unit": "Sedište",
+     "place": "Niš",
+     "address": null,
+     "phones": "018 511222",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12747,
+     "unit": "Policijska stanica Žitkovac",
+     "place": "Aleksinac",
+     "address": null,
+     "phones": "018 4101660; 018 4101670; 018 4101680",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12773,
+     "unit": "Policijska stanica Ražanj",
+     "place": "Ražanj",
+     "address": null,
+     "phones": "037 3841108",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13078,
+     "unit": "Policijska stanica",
+     "place": "Aleksinac",
+     "address": null,
+     "phones": null,
+     "hours": "24/7",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 13147,
+     "unit": "Policijska ispostava Crveni Krst",
+     "place": "Crveni Krst",
+     "address": "Bulevar dvanaesti februar 89",
+     "phones": "018 503242; 018 503280; 018 212222; 018 581689; 018 503170; 018 503171",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13238,
+     "unit": "Policijska stanica Svrljig",
+     "place": "Svrljig",
+     "address": "Radetova 2",
+     "phones": "018 821025; 018 503311; 018 503348",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13248,
+     "unit": "Policijska stanica",
+     "place": "Medijana",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13297,
+     "unit": "Policijska stanica Doljevac",
+     "place": "Doljevac",
+     "address": "Nikole Tesle 47",
+     "phones": "018 870122",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13479,
+     "unit": "Glavna policijska stanica Niš",
+     "place": "Medijana",
+     "address": "Nade Tomić 14",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14663,
+     "unit": "Policijska ispostava Palilula",
+     "place": "Beograd",
+     "address": null,
+     "phones": "018 503484",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14664,
+     "unit": "Policijska stanica Merošina",
+     "place": "Merošina",
+     "address": null,
+     "phones": "018 4892086; 018 4892159",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14665,
+     "unit": "Policijska stanica Gadžin Han",
+     "place": "Gadžin Han",
+     "address": null,
+     "phones": "018 850102",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    }
+   ]
+  }
+ ],
+ "id": "net-mup-policijska-uprava-1"
+}

@@ -1,0 +1,393 @@
+{
+ "kind": "network",
+ "title": "Uniqa",
+ "type": "osiguravajuce-drustvo",
+ "orgs": [
+  {
+   "org_slug": "osiguravajuce-drustvo-uniqa",
+   "name": "Uniqa",
+   "website": "https://www.uniqa.rs",
+   "rows": [
+    {
+     "location_id": 19511,
+     "unit": "Poslovnica",
+     "place": "Subotica",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 20177,
+     "unit": "Poslovnica",
+     "place": "Novi Beograd",
+     "address": null,
+     "phones": "011 2026009",
+     "hours": "Mo-Fr 10:00-17:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 21686,
+     "unit": "Poslovnica Zmaj Jove Jovanovića 5a",
+     "place": "Pančevo",
+     "address": "Zmaj Jove Jovanovića 5a",
+     "phones": "013 332467; 013 335550; 013 335551",
+     "hours": "Mo-Fr 09:00-15:00",
+     "need": []
+    },
+    {
+     "location_id": 22066,
+     "unit": "Poslovnica",
+     "place": "Novi Sad",
+     "address": null,
+     "phones": "021 2100260",
+     "hours": "Mo-Fr 08:00-20:00; Sa 09:00-14:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22132,
+     "unit": "Poslovnica Valjevskog odreda 80",
+     "place": "Palilula",
+     "address": "Valjevskog odreda 80",
+     "phones": "011 3328219",
+     "hours": "Mo-Fr 09:00-17:00",
+     "need": []
+    },
+    {
+     "location_id": 22677,
+     "unit": "Poslovnica",
+     "place": "Novi Beograd",
+     "address": null,
+     "phones": "011 2024100",
+     "hours": "Mo-Fr 08:00-18:00; Sa 09:00-14:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23289,
+     "unit": "Poslovnica",
+     "place": "Aranđelovac",
+     "address": null,
+     "phones": "034 700033",
+     "hours": "Mo-Fr 10:00-14:00; Sa 10:00-13:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23290,
+     "unit": "Poslovnica",
+     "place": "Rakovica",
+     "address": null,
+     "phones": "011 2561898",
+     "hours": "Mo-Fr 09:00-17:00; Sa 09:00-14:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23291,
+     "unit": "Poslovnica",
+     "place": "Vračar",
+     "address": null,
+     "phones": "011 3861743; 011 2026000",
+     "hours": "Mo-Fr 09:00-17:00; Sa 09:00-14:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23292,
+     "unit": "Poslovnica",
+     "place": "Zvezdara",
+     "address": null,
+     "phones": "011 7434151; 011 2026116",
+     "hours": "Mo-Fr 09:00-17:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23293,
+     "unit": "Poslovnica",
+     "place": "Stari grad",
+     "address": null,
+     "phones": "011 2026098; 011 2025012",
+     "hours": "Mo-Fr 10:00-17:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23294,
+     "unit": "Poslovnica",
+     "place": "Voždovac",
+     "address": null,
+     "phones": "011 3671098",
+     "hours": "Mo-Fr 09:00-19:00; Sa 09:00-14:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23295,
+     "unit": "Poslovnica",
+     "place": "Voždovac",
+     "address": null,
+     "phones": "011 3477642",
+     "hours": "Mo-Fr 09:00-17:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23296,
+     "unit": "Poslovnica",
+     "place": "Voždovac",
+     "address": null,
+     "phones": "011 3989365",
+     "hours": "Mo-Fr 09:00-17:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23297,
+     "unit": "Poslovnica Trgovačka 7a",
+     "place": "Čukarica",
+     "address": "Trgovačka 7a",
+     "phones": "011 2026174",
+     "hours": "Mo-Fr 09:00-17:00",
+     "need": []
+    },
+    {
+     "location_id": 23298,
+     "unit": "Poslovnica",
+     "place": "Čukarica",
+     "address": null,
+     "phones": "011 3057338",
+     "hours": "Mo-Fr 09:00-17:00; Sa 09:00-14:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23299,
+     "unit": "Poslovnica",
+     "place": "Novi Beograd",
+     "address": null,
+     "phones": "011 2026183",
+     "hours": "Mo-Fr 09:00-17:00; Sa 09:00-14:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23300,
+     "unit": "Poslovnica",
+     "place": "Zemun",
+     "address": null,
+     "phones": "011 2107418",
+     "hours": "Mo-Fr 09:00-17:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23301,
+     "unit": "Poslovnica",
+     "place": "Zvezdara",
+     "address": null,
+     "phones": "011 2026171",
+     "hours": "Mo-Fr 09:00-17:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23302,
+     "unit": "Poslovnica",
+     "place": "Čačak",
+     "address": null,
+     "phones": "064 8919454",
+     "hours": "Mo-Fr 08:00-16:00; Sa 09:00-14:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23303,
+     "unit": "Poslovnica Jug Bogdanova 3",
+     "place": "Jagodina",
+     "address": "Jug Bogdanova 3",
+     "phones": "035 240137",
+     "hours": "Mo-Fr 09:00-14:00; Sa 09:00-13:00",
+     "need": []
+    },
+    {
+     "location_id": 23304,
+     "unit": "Poslovnica",
+     "place": "Kragujevac",
+     "address": null,
+     "phones": "034 501501",
+     "hours": "Mo-Fr 09:00-17:00; Sa 09:00-14:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23305,
+     "unit": "Poslovnica 4. kraljevački bataljon 31",
+     "place": "Kraljevo",
+     "address": "4. kraljevački bataljon 31",
+     "phones": "036 311387; 036 328750",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 23306,
+     "unit": "Poslovnica Cara Dušana 54",
+     "place": "Medijana",
+     "address": "Cara Dušana 54",
+     "phones": "018 520172",
+     "hours": "Mo-Fr 08:00-16:00; Sa 09:00-14:00",
+     "need": []
+    },
+    {
+     "location_id": 23307,
+     "unit": "Poslovnica",
+     "place": "Medijana",
+     "address": null,
+     "phones": "018 530510",
+     "hours": "Mo-Fr 08:00-16:00; Sa 09:00-14:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23308,
+     "unit": "Poslovnica Knjaževačka 118",
+     "place": "Pantelej",
+     "address": "Knjaževačka 118",
+     "phones": "018 577104",
+     "hours": "Mo-Fr 08:00-16:00; Sa 09:00-14:00",
+     "need": []
+    },
+    {
+     "location_id": 23309,
+     "unit": "Poslovnica",
+     "place": "Novi Pazar",
+     "address": null,
+     "phones": "066 8819282",
+     "hours": "Mo-Fr 08:30-16:30; Sa 10:00-14:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23310,
+     "unit": "Poslovnica Žitni trg 9",
+     "place": "Novi Sad",
+     "address": "Žitni trg 9",
+     "phones": "021 513975",
+     "hours": "Mo-Fr 09:00-19:00; Sa 09:00-14:00",
+     "need": []
+    },
+    {
+     "location_id": 23311,
+     "unit": "Poslovnica",
+     "place": "Obrenovac",
+     "address": null,
+     "phones": "011 2024165; 011 2024166",
+     "hours": "Mo-Fr 09:00-17:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23312,
+     "unit": "Poslovnica",
+     "place": "Pirot",
+     "address": null,
+     "phones": "010 324000",
+     "hours": "Mo-Fr 09:00-15:00; Sa 10:00-14:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23313,
+     "unit": "Poslovnica",
+     "place": "Požarevac",
+     "address": null,
+     "phones": "012 541275",
+     "hours": "Mo-Fr 09:00-16:00; Sa 09:00-13:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23314,
+     "unit": "Poslovnica",
+     "place": "Ruma",
+     "address": null,
+     "phones": "022 431808",
+     "hours": "Mo-Fr 09:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23315,
+     "unit": "Poslovnica Masarikova 10",
+     "place": "Šabac",
+     "address": "Masarikova 10",
+     "phones": "015 347044",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 23316,
+     "unit": "Poslovnica",
+     "place": "Sombor",
+     "address": null,
+     "phones": "025 480999",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23317,
+     "unit": "Poslovnica",
+     "place": "Valjevo",
+     "address": null,
+     "phones": "014 247700",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23318,
+     "unit": "Poslovnica Nikole Pašića 3",
+     "place": "Zrenjanin",
+     "address": "Nikole Pašića 3",
+     "phones": "023 582210; 023 511810; 023 512810",
+     "hours": "Mo-Fr 09:00-17:00",
+     "need": []
+    }
+   ]
+  }
+ ],
+ "id": "net-osiguravajuce-drustvo-uniqa"
+}

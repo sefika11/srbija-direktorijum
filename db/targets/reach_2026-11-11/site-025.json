@@ -1,0 +1,394 @@
+{
+ "kind": "sites",
+ "title": "Institucije sa sopstvenim sajtom",
+ "rows": [
+  {
+   "org_slug": "javno-komunalno-preduzece-toplifikacija-sremska-mitrovica",
+   "name": "Javno komunalno preduzeće \"Toplifikacija\"",
+   "type": "JKP Toplana / Gradska toplana",
+   "place": "Sremska Mitrovica",
+   "website": "https://smtoplana.rs/",
+   "mb": "08198969",
+   "have": {
+    "address": "Zmaj Jovina 26",
+    "phones": "062 670415; 022 610584; 022 639272",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-gradska-toplana-uzice-uzice",
+   "name": "Javno komunalno preduzeće gradska toplana Užice",
+   "type": "JKP Toplana / Gradska toplana",
+   "place": "Užice",
+   "website": "https://toplanauzice.rs",
+   "mb": "07317743",
+   "have": {
+    "address": "Trg partizana 26",
+    "phones": "0800 031038; 031 517168; 031 513101",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-toplana-valjevo-valjevo-valjevo",
+   "name": "Javno komunalno preduzeće Toplana-Valjevo Valjevo",
+   "type": "JKP Toplana / Gradska toplana",
+   "place": "Valjevo",
+   "website": "http://www.toplana-valjevo.rs",
+   "mb": "07357494",
+   "have": {
+    "address": "Obilazni put bb",
+    "phones": "014 3511916",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-gradska-toplana-velika-plana-velika-plana",
+   "name": "Javno komunalno preduzeće gradska toplana Velika Plana",
+   "type": "JKP Toplana / Gradska toplana",
+   "place": "Velika Plana",
+   "website": "https://toplanavp.rs",
+   "mb": "20491388",
+   "have": {
+    "address": "Despota Stefana 46a",
+    "phones": "026 514315",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-preduzece-za-grejanje-i-odrzavanje-stambenih-zgrada-i-poslovnih-prostorija-novi-dom-vranje-vra",
+   "name": "Javno preduzeće za Grejanje i održavanje stambenih Zgrada i Poslovnih Prostorija Novi dom, Vranje",
+   "type": "JKP Toplana / Gradska toplana",
+   "place": "Vranje",
+   "website": "https://www.novidomvranje.co.rs/",
+   "mb": "07204981",
+   "have": {
+    "address": "Kralja Stefana Prvovenčanog 99",
+    "phones": "017 416054",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-za-grejanje-cacak-cacak-cacak",
+   "name": "Javno komunalno preduzeće za Grejanje Čačak Čačak",
+   "type": "JKP Toplana / Gradska toplana",
+   "place": "Čačak",
+   "website": "https://jkpcacak.rs",
+   "mb": "07576382",
+   "have": {
+    "address": "Skadarska 17",
+    "phones": "032 320666; 0800 102032; 032 322618",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-za-proizvodnju-i-distrubuciju-toplotne-energije-toplana-sabac-sabac-sabac",
+   "name": "Javno komunalno preduzeće za proizvodnju i Distrubuciju toplotne energije Toplana-Šabac, Šabac",
+   "type": "JKP Toplana / Gradska toplana",
+   "place": "Šabac",
+   "website": "https://toplanasabac.rs",
+   "mb": "07335393",
+   "have": {
+    "address": "Đure Jakšića 1",
+    "phones": "015 311300; 015 342977; 015 342976; 0800 010015",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-vodovod-i-kanalizacija-aleksinac-aleksinac",
+   "name": "Javno komunalno preduzeće vodovod i kanalizacija Aleksinac",
+   "type": "JKP Vodovod i kanalizacija",
+   "place": "Aleksinac",
+   "website": "http://www.vodovodal.rs",
+   "mb": "20274301",
+   "have": {
+    "address": null,
+    "phones": "018 804149; 018 804122",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-preduzece-vodokanal-becej-becej",
+   "name": "Javno preduzeće Vodokanal Bečej",
+   "type": "JKP Vodovod i kanalizacija",
+   "place": "Bečej",
+   "website": "http://www.vodokanal-becej.rs",
+   "mb": "08069921",
+   "have": {
+    "address": "Danila Kisa 8a",
+    "phones": "021 6912930",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-vodovod-bor-bor",
+   "name": "Javno komunalno preduzeće vodovod, Bor",
+   "type": "JKP Vodovod i kanalizacija",
+   "place": "Bor",
+   "website": "https://vodovodbor.com/",
+   "mb": "07183453",
+   "have": {
+    "address": "Radomira Jovanovića Čoče 16",
+    "phones": "030 421234; 030 421150; 0800 200220",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-vodovod-i-kanalizacija-indjija",
+   "name": "Javno komunalno preduzeće vodovod i kanalizacija",
+   "type": "JKP Vodovod i kanalizacija",
+   "place": "Inđija",
+   "website": "https://www.vodovodindjija.co.rs/",
+   "mb": "08584885",
+   "have": {
+    "address": "Vojvode Stepe 48",
+    "phones": "0800 102033; 022 560842",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-vodovod-i-kanalizacija-kragujevac-kragujevac",
+   "name": "Javno komunalno preduzeće vodovod i kanalizacija, Kragujevac",
+   "type": "JKP Vodovod i kanalizacija",
+   "place": "Kragujevac",
+   "website": "https://www.jkpvik-kg.com/",
+   "mb": "07165439",
+   "have": {
+    "address": "34000 Kragujevac (Kralja Aleksandra I Karađorđevića 48 per third-party listing)",
+    "phones": "034 323034; 0800 009008; 034 335745; 034 335742; 034 335746",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-vodovod-kraljevo-kraljevo",
+   "name": "Javno Komunalno Preduzeće Vodovod Kraljevo",
+   "type": "JKP Vodovod i kanalizacija",
+   "place": "Kraljevo",
+   "website": "http://www.vodovodkv.co.rs",
+   "mb": "07190891",
+   "have": {
+    "address": "27. marta br. 2, 36000 Kraljevo",
+    "phones": "036 307155; 036 307100; 036 307110",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-za-vodovod-i-kanalizaciju-vodovod-krusevac-krusevac-krusevac",
+   "name": "Javno komunalno preduzeće za vodovod i kanalizaciju Vodovod-Kruševac, Kruševac",
+   "type": "JKP Vodovod i kanalizacija",
+   "place": "Kruševac",
+   "website": "https://vodovodks.rs/sr",
+   "mb": "07145837",
+   "have": {
+    "address": "Dušanova 46",
+    "phones": "037 422057",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-vodovod-crvenka-crvenka",
+   "name": "Javno komunalno preduzeće vodovod Crvenka",
+   "type": "JKP Vodovod i kanalizacija",
+   "place": "Kula",
+   "website": "https://jkpvodovodcrvenka.rs/",
+   "mb": "08005079",
+   "have": {
+    "address": "Petra Drapšina 1",
+    "phones": "025 731412",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-preduzece-vodovod-i-kanalizacija-loznica-loznica",
+   "name": "Javno preduzeće vodovod i kanalizacija, Loznica",
+   "type": "JKP Vodovod i kanalizacija",
+   "place": "Loznica",
+   "website": "https://www.vikloznica.rs/",
+   "mb": "07168861",
+   "have": {
+    "address": "Georgija Jakšića br. 9",
+    "phones": "015 7195150; 0800 100501; 015 7884660; 015 7884661",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-za-vodovod-i-kanalizaciju-naissus-nis-nis-medijana",
+   "name": "Javno Komunalno Preduzeće za Vodovod i Kanalizaciju Naissus Niš",
+   "type": "JKP Vodovod i kanalizacija",
+   "place": "Medijana",
+   "website": "https://jkpnaissus.co.rs/",
+   "mb": "07211856",
+   "have": {
+    "address": "Kneginje Ljubice 1",
+    "phones": "018 502618; 018 239774; 018 502777; 0800 323320",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-vodovod-mionica-mionica-varosica-mionica-varosica",
+   "name": "Javno komunalno preduzeće vodovod Mionica, Mionica (Varošica)",
+   "type": "JKP Vodovod i kanalizacija",
+   "place": "Mionica",
+   "website": "https://www.vodovodmionica.rs/",
+   "mb": "07134657",
+   "have": {
+    "address": "Vojvode Mišića 23",
+    "phones": "014 3422259; 014 3421021; 0800 505055",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-vodovod-i-kanalizacija-novi-pazar-novi-pazar",
+   "name": "Javno komunalno preduzeće vodovod i kanalizacija Novi Pazar",
+   "type": "JKP Vodovod i kanalizacija",
+   "place": "Novi Pazar",
+   "website": "https://vodovodnp.rs/",
+   "mb": "07194129",
+   "have": {
+    "address": "28. Novembra 35",
+    "phones": "020 311785; 0800 208020",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-vodovod-i-kanalizacija-pancevo-pancevo",
+   "name": "Javno Komunalno Preduzeće Vodovod i Kanalizacija Pančevo",
+   "type": "JKP Vodovod i kanalizacija",
+   "place": "Pančevo",
+   "website": "https://www.vodovodpa.rs/",
+   "mb": "08487502",
+   "have": {
+    "address": "Oslobođenja 15",
+    "phones": "013 341161; 013 345377; 0800 111146; 013 347155",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-vodovod-i-kanalizacija-pecinci-pecinci",
+   "name": "Javno komunalno preduzeće vodovod i kanalizacija, Pećinci",
+   "type": "JKP Vodovod i kanalizacija",
+   "place": "Pećinci",
+   "website": "http://www.vikpecinci.rs/",
+   "mb": "20585439",
+   "have": {
+    "address": "Jove Neguševića 1",
+    "phones": "022 2435174; 022 2435252; 022 2436020",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-preduzece-vodovod-i-kanalizacija-pirot-pirot",
+   "name": "Javno preduzeće vodovod i kanalizacija Pirot",
+   "type": "JKP Vodovod i kanalizacija",
+   "place": "Pirot",
+   "website": "https://www.pivoda.rs/",
+   "mb": "07131518",
+   "have": {
+    "address": "Vojvode Mišića 36",
+    "phones": "010 343388",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-gradski-vodovod-prokuplje-prokuplje",
+   "name": "Javno Komunalno Preduzeće Gradski Vodovod Prokuplje",
+   "type": "JKP Vodovod i kanalizacija",
+   "place": "Prokuplje",
+   "website": "https://gradskivodovodpk.rs/",
+   "mb": "21830445",
+   "have": {
+    "address": "Braće Stojanovića 14",
+    "phones": "027 321788",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-preduzece-vodovod-ruma-ruma",
+   "name": "Javno preduzeće vodovod Ruma",
+   "type": "JKP Vodovod i kanalizacija",
+   "place": "Ruma",
+   "website": "https://www.vodovod-ruma.co.rs/",
+   "mb": "08099545",
+   "have": {
+    "address": "Orlovićeva bb",
+    "phones": "022 479202; 064 8755375; 022 479622; 022 479218; 0800 050552",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  }
+ ],
+ "id": "site-025"
+}

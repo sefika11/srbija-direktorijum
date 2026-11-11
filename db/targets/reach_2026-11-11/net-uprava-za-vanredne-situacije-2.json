@@ -1,0 +1,1559 @@
+{
+ "kind": "network",
+ "title": "MUP – Uprava za vanredne situacije (vatrogasci) (13 organizacija)",
+ "type": "uprava-za-vanredne-situacije",
+ "orgs": [
+  {
+   "org_slug": "odeljenje-za-vanredne-situacije-smederevo",
+   "name": "Odeljenje za vanredne situacije Smederevo",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 12713,
+     "unit": "Sedište",
+     "place": "Smederevo",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12814,
+     "unit": "Vatrogasno-spasilačka jedinica",
+     "place": "Smederevo",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12990,
+     "unit": "Vatrogasno-spasilačka jedinica",
+     "place": "Smederevska Palanka",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13494,
+     "unit": "Vatrogasna jedinica",
+     "place": "Velika Plana",
+     "address": "Vojvode Mišića 83",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "odeljenje-za-vanredne-situacije-sombor",
+   "name": "Odeljenje za vanredne situacije Sombor",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 12716,
+     "unit": "Sedište",
+     "place": "Sombor",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12824,
+     "unit": "Vatrogasno-spasilačka jedinica",
+     "place": "Sombor",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12826,
+     "unit": "Vatrogasno-spasilačka jedinica",
+     "place": "Sombor",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12828,
+     "unit": "Vatrogasno-spasilačka jedinica",
+     "place": "Sombor",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12830,
+     "unit": "Vatrogasno-spasilačka jedinica",
+     "place": "Sombor",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12832,
+     "unit": "Vatrogasno-spasilačka jedinica",
+     "place": "Sombor",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12861,
+     "unit": "DVD Kupusina",
+     "place": "Apatin",
+     "address": "Apatinski put 6",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12868,
+     "unit": "Vatrogasno-spasilačka jedinica",
+     "place": "Sombor",
+     "address": "Arsenija Čarnojevića 4",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12901,
+     "unit": "Szilágyi tűzoltó otthon",
+     "place": "Apatin",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13015,
+     "unit": "DVD Bački Monoštor",
+     "place": "Sombor",
+     "address": "Ivana Gorana Kovačića",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13046,
+     "unit": "Vatrogasno-spasilačka jedinica",
+     "place": "Odžaci",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13096,
+     "unit": "Opštinska vatrogasna jedinica",
+     "place": "Odžaci",
+     "address": "Jurija Gagarina 31",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13398,
+     "unit": "Vatrogasna stanica",
+     "place": "Apatin",
+     "address": "Nova 148a",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13477,
+     "unit": "Vatrogasni dom",
+     "place": "Odžaci",
+     "address": "Svetog Save 15",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "odeljenje-za-vanredne-situacije-sremska-mitrovica",
+   "name": "Odeljenje za vanredne situacije Sremska Mitrovica",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 12719,
+     "unit": "Sedište",
+     "place": "Sremska Mitrovica",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12771,
+     "unit": "Vatrogasni dom",
+     "place": "Inđija",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12913,
+     "unit": "Vatrogasno-spasilačka jedinica",
+     "place": "Šid",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13210,
+     "unit": "Vatrogasna stanica Ruma",
+     "place": "Ruma",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13252,
+     "unit": "Vatrogasno-spasilačka jedinica",
+     "place": "Inđija",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13286,
+     "unit": "Vatrogasno-spasilačka jedinica",
+     "place": "Pećinci",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13368,
+     "unit": "Vatrogasna stanica",
+     "place": "Sremska Mitrovica",
+     "address": "Rumski drum 10",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "odeljenje-za-vanredne-situacije-subotica",
+   "name": "Odeljenje za vanredne situacije Subotica",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 12722,
+     "unit": "Sedište",
+     "place": "Subotica",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12765,
+     "unit": "Vatrogasno-spasilačka jedinica",
+     "place": "Bačka Topola",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12836,
+     "unit": "Vatrogasno-spasilačka jedinica",
+     "place": "Subotica",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12853,
+     "unit": "Vatrogasno-spasilačka jedinica",
+     "place": "Bačka Topola",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12857,
+     "unit": "Vatrogasno-spasilačka jedinica",
+     "place": "Bačka Topola",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12880,
+     "unit": "Vatrogasci Subotica",
+     "place": "Subotica",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12969,
+     "unit": "DVD",
+     "place": "Subotica",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13061,
+     "unit": "Önkéntes tűzoltó egyesület",
+     "place": "Bačka Topola",
+     "address": "Zakina",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13319,
+     "unit": "Vatrogasno-spasilačka jedinica",
+     "place": "Bačka Topola",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "odeljenje-za-vanredne-situacije-uzice",
+   "name": "Odeljenje za vanredne situacije Užice",
+   "website": "https://www.dvd-bajnabasta.org/",
+   "rows": [
+    {
+     "location_id": 12728,
+     "unit": "Sedište",
+     "place": "Užice",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13109,
+     "unit": "Vatrogasna stanica Bajina Bašta",
+     "place": "Bajina Bašta",
+     "address": "Rajka Tadića 37",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13165,
+     "unit": "Vatrogasna stanica",
+     "place": "Arilje",
+     "address": "Braće Mihailovića 22",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13346,
+     "unit": "Vatrogasna stanica „Užice”",
+     "place": "Užice",
+     "address": "Omladinska 1",
+     "phones": "031 518661",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13353,
+     "unit": "Vatrogasno-spasilačka jedinica",
+     "place": "Sevojno",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "odeljenje-za-vanredne-situacije-valjevo",
+   "name": "Odeljenje za vanredne situacije Valjevo",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 12731,
+     "unit": "Sedište",
+     "place": "Valjevo",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13171,
+     "unit": "Vatrogasni dom Valjevo",
+     "place": "Valjevo",
+     "address": "Jovana Dučića 72",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13334,
+     "unit": "Vatrogasci Ub",
+     "place": "Ub",
+     "address": "Svete Popovića 112",
+     "phones": "014 411093",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13396,
+     "unit": "Vatrogasno-spasilačka jedinica",
+     "place": "Valjevo",
+     "address": "Ljubiše Miloševića 1",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "odeljenje-za-vanredne-situacije-vranje",
+   "name": "Odeljenje za vanredne situacije Vranje",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 12734,
+     "unit": "Sedište",
+     "place": "Vranje",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12744,
+     "unit": "Vatrogasno-spasilačka jedinica",
+     "place": "Preševo",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12839,
+     "unit": "Vatrogasno-spasilačka jedinica",
+     "place": "Surdulica",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13160,
+     "unit": "Vatrogasna stanica",
+     "place": "Vranje",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "odeljenje-za-vanredne-situacije-zajecar",
+   "name": "Odeljenje za vanredne situacije Zaječar",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 12737,
+     "unit": "Sedište",
+     "place": "Zaječar",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13204,
+     "unit": "Vatrogasno-spasilačka jedinica",
+     "place": "Zaječar",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13206,
+     "unit": "Vatrogasno-spasilačka jedinica",
+     "place": "Zaječar",
+     "address": "Hajduk Veljkova 127",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "odeljenje-za-vanredne-situacije-zrenjanin",
+   "name": "Odeljenje za vanredne situacije Zrenjanin",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 12740,
+     "unit": "Sedište",
+     "place": "Zrenjanin",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12805,
+     "unit": "Vatrogasni dom",
+     "place": "Nova Crnja",
+     "address": "Partizanska 52",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12821,
+     "unit": "Vatrogasno-spasilačka jedinica",
+     "place": "Zrenjanin",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12928,
+     "unit": "DVD Melenci",
+     "place": "Zrenjanin",
+     "address": "Srpskih vladara 87",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12939,
+     "unit": "DVD „Sava Budišin”",
+     "place": "Novi Bečej",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12998,
+     "unit": "DVD Aradac",
+     "place": "Zrenjanin",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13080,
+     "unit": "Vatrogasna služba Zrenjanin",
+     "place": "Zrenjanin",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13087,
+     "unit": "Dobrovoljno vatrogasno društvo Mužlja",
+     "place": "Zrenjanin",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13148,
+     "unit": "DVD Torak",
+     "place": "Žitište",
+     "address": "Bratstva jedinstva 44",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "uprava-za-vanredne-situacije-u-beogradu",
+   "name": "Uprava za vanredne situacije u Beogradu",
+   "website": "https://vatrosprem.rs/",
+   "rows": [
+    {
+     "location_id": 12658,
+     "unit": "Sedište",
+     "place": "Beograd",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12761,
+     "unit": "Vatrogasno-spasilačka jedinica",
+     "place": "Mladenovac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12782,
+     "unit": "Vatrogasna stanica Železnik",
+     "place": "Čukarica",
+     "address": "Jugoslovenska 2",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12799,
+     "unit": "Vatrogasno-spasilačka jedinica",
+     "place": "Zemun",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12873,
+     "unit": "Vatrogasno-spasilačka jedinica Sopot",
+     "place": "Sopot",
+     "address": "Rada Jovanovića 2",
+     "phones": "011 2834798",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12875,
+     "unit": "Vatrogasni dom Obrenovac",
+     "place": "Obrenovac",
+     "address": "Vojvode Mišića 140",
+     "phones": "011 7721123",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12958,
+     "unit": "Gasop",
+     "place": "Rakovica",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12996,
+     "unit": "DVD „Matica”",
+     "place": "Zemun",
+     "address": "Dvadeset drugog oktobra 27",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13006,
+     "unit": "Vatrosprem",
+     "place": "Voždovac",
+     "address": "Bulevar Peka Dapčevića 32",
+     "phones": "011 2466934",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13107,
+     "unit": "Vatrogasno-spasilačka jedinica",
+     "place": "Lazarevac",
+     "address": "Stanislava Sremčevića Crnog",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13139,
+     "unit": "Vatrogasna stanica Grocka",
+     "place": "Grocka",
+     "address": "Hajduk Veljka 27",
+     "phones": "011 8501544",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13215,
+     "unit": "Vatrogasno-spasilačka jedinica Novi Beograd",
+     "place": "Novi Beograd",
+     "address": "Đorđa Stanojevića 29",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13242,
+     "unit": "Vatrogasni dom Obrenovac",
+     "place": "Obrenovac",
+     "address": "Vojvode Mišića 140",
+     "phones": "011 7721123",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13255,
+     "unit": "Vatrogasna stanica",
+     "place": "Surčin",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13267,
+     "unit": "Vatrogasna stanica „Beograd na vodi”",
+     "place": "Savski venac",
+     "address": "Ideja 3",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13324,
+     "unit": "Vatrogasna brigada Košutnjak",
+     "place": "Čukarica",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13336,
+     "unit": "Vatrogasno-spasilačka jedinica Sopot",
+     "place": "Sopot",
+     "address": "Rada Jovanovića 2",
+     "phones": "011 2834798",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13350,
+     "unit": "Vatrogasni savez Beograd",
+     "place": "Zvezdara",
+     "address": "Mije Kovačevića 2",
+     "phones": "060 4080561",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13377,
+     "unit": "Vatrogasna stanica „Voždovac”",
+     "place": "Voždovac",
+     "address": "Stefana Prvovenčanog 1",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13410,
+     "unit": "Vatrogasna služba Barajevo",
+     "place": "Barajevo",
+     "address": "Desetog oktobra 3",
+     "phones": "011 8300153",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13442,
+     "unit": "Vatrogasno-spasilačka jedinica",
+     "place": "Surčin",
+     "address": "Oračka 1a",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13468,
+     "unit": "Vatrogasno-spasilačka jedinica",
+     "place": "Čukarica",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13475,
+     "unit": "Vatrogasna stanica",
+     "place": "Lazarevac",
+     "address": "Kolubarski trg 4",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13481,
+     "unit": "DVD „Rakovica”",
+     "place": "Voždovac",
+     "address": "Bojana Stupice 15",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13496,
+     "unit": "Vatrogasni dom Batajnica",
+     "place": "Zemun",
+     "address": "Jovana Brankovića 8",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "uprava-za-vanredne-situacije-u-kragujevacu",
+   "name": "Uprava za vanredne situacije u Kragujevacu",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 12675,
+     "unit": "Sedište",
+     "place": "Kragujevac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13273,
+     "unit": "Vatrogasna jedinica Aranđelovac",
+     "place": "Aranđelovac",
+     "address": "Obilićeva 3",
+     "phones": "034 725160",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13296,
+     "unit": "Vatrogasno-spasilačka jedinica",
+     "place": "Kragujevac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13453,
+     "unit": "Vatrogasno-spasilačka jedinica",
+     "place": "Kragujevac",
+     "address": "Miloja Pavlovića 1",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "uprava-za-vanredne-situacije-u-nisu",
+   "name": "Uprava za vanredne situacije u Nišu",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 12688,
+     "unit": "Sedište",
+     "place": "Niš",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12849,
+     "unit": "Vatrogasno-spasilačka jedinica",
+     "place": "Doljevac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12964,
+     "unit": "Vatrogasni dom",
+     "place": "Medijana",
+     "address": "Vojvode Mišića 56",
+     "phones": "018 527656",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13090,
+     "unit": "Vatrogasna stanica",
+     "place": "Aleksinac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13263,
+     "unit": "Vatrogasno-spasilačko odeljenje Aleksinac",
+     "place": "Aleksinac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13299,
+     "unit": "Vatrogasno-spasilačka jedinica",
+     "place": "Svrljig",
+     "address": "Vase Albanca 169a",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "uprava-za-vanredne-situacije-u-novi-sadu",
+   "name": "Uprava za vanredne situacije u Novi Sadu",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 12694,
+     "unit": "Sedište",
+     "place": "Novi Sad",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12797,
+     "unit": "Vatrogasno-spasilačka jedinica",
+     "place": "Novi Sad",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12847,
+     "unit": "Vatrogasno-spasilačka jedinica",
+     "place": "Novi Sad",
+     "address": null,
+     "phones": "021 3017705",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12859,
+     "unit": "Vatrogasno-spasilačka jedinica",
+     "place": "Novi Sad",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12886,
+     "unit": "Vatrogasni dom",
+     "place": "Novi Sad",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12890,
+     "unit": "Dobrovoljno vatrogasno društvo",
+     "place": "Novi Sad",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12905,
+     "unit": "Vatrogasna stanica",
+     "place": "Vrbas",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12930,
+     "unit": "Dobrovoljno Vatrogasno Društvo",
+     "place": "Bečej",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12937,
+     "unit": "Vatrogasno-spasilačka jedinica",
+     "place": "Vrbas",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12973,
+     "unit": "Vatrogasna stanica",
+     "place": "Bački Petrovac",
+     "address": "Kolarova 11",
+     "phones": "021 780551",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12987,
+     "unit": "DVD Despotovo",
+     "place": "Bačka Palanka",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12989,
+     "unit": "DVD Gospođinci",
+     "place": "Žabalj",
+     "address": "Branka Radičevića",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13026,
+     "unit": "DVD Pivnice",
+     "place": "Bačka Palanka",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13054,
+     "unit": "Vatrogasna brigada Novi Sad",
+     "place": "Novi Sad",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13065,
+     "unit": "Vatrogasno-spasilačka jedinica",
+     "place": "Žabalj",
+     "address": "Čuruška 1a",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13111,
+     "unit": "Vatrogasno-spasilačka jedinica",
+     "place": "Bač",
+     "address": "Bratstva jedinstva 12",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13133,
+     "unit": "Vatrogasno-spasilačka jedinica",
+     "place": "Temerin",
+     "address": "Novosadska 291b",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13143,
+     "unit": "Vatrogasni dom Bačka Palanka",
+     "place": "Bačka Palanka",
+     "address": "Branka Bajića 76",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13232,
+     "unit": "Vatrogasno-spasilačka jedinica",
+     "place": "Sremski Karlovci",
+     "address": "Karlovačkog mira 4",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13244,
+     "unit": "Vatrogasni dom Futog",
+     "place": "Novi Sad",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13278,
+     "unit": "Vatrogasno-spasilačka jedinica",
+     "place": "Žabalj",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13366,
+     "unit": "Vatrogasni dom",
+     "place": "Srbobran",
+     "address": "Miloša Obilića 19",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13406,
+     "unit": "DVD Petrovaradin",
+     "place": "Novi Sad",
+     "address": "Pavla Jurišića Šturma 4",
+     "phones": "021 6431135",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  }
+ ],
+ "id": "net-uprava-za-vanredne-situacije-2"
+}

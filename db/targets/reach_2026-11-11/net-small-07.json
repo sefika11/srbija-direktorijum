@@ -1,0 +1,626 @@
+{
+ "kind": "network",
+ "title": "Manje mreže",
+ "type": "mixed",
+ "orgs": [
+  {
+   "org_slug": "apotekarska-ustanova-neofarm-coka",
+   "name": "Apotekarska ustanova \"Neofarm\"",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 10429,
+     "unit": "Sedište",
+     "place": "Čoka",
+     "address": "Maršala Tita 3",
+     "phones": "0230 472242",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10430,
+     "unit": "Ogranak 2",
+     "place": "Novi Kneževac",
+     "address": "Kralja Petra I Karađorđevića broj 29",
+     "phones": "0230 82626",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10431,
+     "unit": "Ogranak 3",
+     "place": "Kanjiža",
+     "address": "Bartok Bele broj 1",
+     "phones": "024 4100567",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10432,
+     "unit": "Ogranak 4",
+     "place": "Senta",
+     "address": "Poštanska broj 7",
+     "phones": "024 812077",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10433,
+     "unit": "Ogranak 5",
+     "place": "Kanjiža",
+     "address": "Karađorđeva broj 53",
+     "phones": "024 4150012",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10434,
+     "unit": "Ogranak 6",
+     "place": "Kanjiža",
+     "address": "Horvat Janoša broj 8",
+     "phones": "024 4150024",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10435,
+     "unit": "Ogranak 7",
+     "place": "Kanjiža",
+     "address": "Svetozara Markovića broj 3",
+     "phones": "024 4150026",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10436,
+     "unit": "Ogranak 8",
+     "place": "Kanjiža",
+     "address": "Veliki put broj 165",
+     "phones": "024 4150027",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10437,
+     "unit": "Ogranak 9",
+     "place": "Kanjiža",
+     "address": "Aranj Janoša broj 6",
+     "phones": "024 882011",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10438,
+     "unit": "Ogranak 10",
+     "place": "Kanjiža",
+     "address": "Železnička broj 3",
+     "phones": "024 4150028",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10439,
+     "unit": "Ogranak 11",
+     "place": "Ada",
+     "address": "Lenjinova broj 10",
+     "phones": "024 4150009",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10440,
+     "unit": "Ogranak 12",
+     "place": "Novi Kneževac",
+     "address": "Kralja Petra Prvog Karađorđevića broj 10",
+     "phones": "0230 81114",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10441,
+     "unit": "Ogranak 13",
+     "place": "Novi Kneževac",
+     "address": "Partizanska broj 58",
+     "phones": "0230 315001",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10442,
+     "unit": "Ogranak 14",
+     "place": "Novi Kneževac",
+     "address": "Svetog Save broj 87",
+     "phones": "0230 315002",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10443,
+     "unit": "Ogranak 15",
+     "place": "Čoka",
+     "address": "Senćanska broj 3",
+     "phones": "0230 471055",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10444,
+     "unit": "Ogranak 16",
+     "place": "Čoka",
+     "address": "Miletićeva broj 58",
+     "phones": "0230 77070",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10445,
+     "unit": "Ogranak 17",
+     "place": "Čoka",
+     "address": "Oslobođenja broj 22",
+     "phones": "0230 75035",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10446,
+     "unit": "Ogranak 18",
+     "place": "Kikinda",
+     "address": "Svetozara Miletića broj 2",
+     "phones": "0230 503703",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10447,
+     "unit": "Ogranak 19",
+     "place": "Kikinda",
+     "address": "Svetosavska broj 49",
+     "phones": "0230 502902",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10448,
+     "unit": "Ogranak 20",
+     "place": "Beograd",
+     "address": "Paunova broj 3g",
+     "phones": "011 7777202",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10449,
+     "unit": "Ogranak 21",
+     "place": "Beograd",
+     "address": "Nikolaja Gogolja broj 32",
+     "phones": "063 8011886",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10450,
+     "unit": "Ogranak 22",
+     "place": "Beograd",
+     "address": "Vojvode Stepe broj 353",
+     "phones": "063 8011886",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "apotekarska-ustanova-neven-kragujevac",
+   "name": "Apotekarska ustanova \"Neven\"",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 11373,
+     "unit": "Apoteka",
+     "place": "Kragujevac",
+     "address": "Zmaj Jovina broj 43",
+     "phones": "034 6364296",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11374,
+     "unit": "Ogranak \"Neven +2\"",
+     "place": "Žitorađa",
+     "address": "Toponica bb",
+     "phones": "034 519186",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11375,
+     "unit": "Ogranak \"Neven +3\"",
+     "place": "Knić",
+     "address": "Gruža bb",
+     "phones": "060 3634282",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11376,
+     "unit": "Ogranak \"Neven +4\"",
+     "place": "Kragujevac",
+     "address": "Stragari bb",
+     "phones": "034 6522284",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11377,
+     "unit": "Ogranak \"Neven +5\"",
+     "place": "Svilajnac",
+     "address": "Karađorđeva broj 41",
+     "phones": "060 3634288",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11378,
+     "unit": "Ogranak \"Neven +6\"",
+     "place": "Kragujevac",
+     "address": "Ljubiše Bogdanovića broj 86",
+     "phones": "034 250281",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11379,
+     "unit": "Neven 11",
+     "place": "Kragujevac",
+     "address": "Blaže Hadživukovića bb",
+     "phones": "060 3634289",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11380,
+     "unit": "Ogranak \"Gral\"",
+     "place": "Gornji Milanovac",
+     "address": "Narodnog heroja Dragomira Draževića 16",
+     "phones": "032 710775",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "apotekarska-ustanova-nikolic-cacak",
+   "name": "Apotekarska ustanova \"Nikolić\"",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 11574,
+     "unit": "Apoteka",
+     "place": "Čačak",
+     "address": "Skadarska broj 18",
+     "phones": "065 9900461",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11575,
+     "unit": "ogranak 2",
+     "place": "Čačak",
+     "address": "Dragana Bojevića broj 72",
+     "phones": "065 9900462",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11576,
+     "unit": "ogranak 3",
+     "place": "Čačak",
+     "address": "Mršinci bb",
+     "phones": "065 9900463",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11577,
+     "unit": "ogranak 4",
+     "place": "Čačak",
+     "address": "Republike broj 20",
+     "phones": "065 9900464",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11578,
+     "unit": "ogranak 5",
+     "place": "Čačak",
+     "address": "V.N.Velimirovića broj 46",
+     "phones": "065 9900465",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11579,
+     "unit": "ogranak 6",
+     "place": "Čačak",
+     "address": "Nemanjina brpj 3",
+     "phones": "065 9900466",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11580,
+     "unit": "ogranak 7",
+     "place": "Čačak",
+     "address": "Jugoslovenske armije broj 11",
+     "phones": "065 9900467",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11581,
+     "unit": "ogranak 9",
+     "place": "Čačak",
+     "address": "Kotraža bb",
+     "phones": "065 9900469",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11582,
+     "unit": "ogranak 10",
+     "place": "Čačak",
+     "address": "Bulevar oslobodjenja broj 30",
+     "phones": "065 9900460",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11583,
+     "unit": "ogranak 11",
+     "place": "Čačak",
+     "address": "Milenka Nikšića broj 32",
+     "phones": "065 9900471",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "apotekarska-ustanova-primaks-farm-beograd",
+   "name": "Apotekarska ustanova \"Primaks Farm\"",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 14173,
+     "unit": "Apoteka",
+     "place": "Beograd",
+     "address": "Pilota Mihaila Petrovića broj 70",
+     "phones": "011 3051300; 011 2346616",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14176,
+     "unit": "Prima 1",
+     "place": "Beograd",
+     "address": "Aleksandra Glišića 1",
+     "phones": "011 3610999",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14178,
+     "unit": "Prima 3",
+     "place": "Beograd",
+     "address": "Bulevar kralja Aleksandra 82",
+     "phones": "011 3085583",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14180,
+     "unit": "Prima 8",
+     "place": "Beograd",
+     "address": "Požeška 81b",
+     "phones": "011 3547141",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14182,
+     "unit": "Prima Žarkovo 2",
+     "place": "Beograd",
+     "address": "Ratka Mitrovića 121",
+     "phones": "011 2393923",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14184,
+     "unit": "Prima Resavska",
+     "place": "Beograd",
+     "address": "Resavska 66",
+     "phones": "011 3618126",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14186,
+     "unit": "Prima Galerija",
+     "place": "Beograd",
+     "address": "Bulevar Vudroa Vilsona 12",
+     "phones": "064 8898120",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14188,
+     "unit": "Prima Blok 63",
+     "place": "Beograd",
+     "address": "Jurija Gagarina 30v",
+     "phones": "011 3601225",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14190,
+     "unit": "Prima Vodovodska",
+     "place": "Beograd",
+     "address": "Vodovodska 4",
+     "phones": "064 8898023",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14193,
+     "unit": "Prima Vrtovi Ceraka",
+     "place": "Beograd",
+     "address": "Kneza Višeslava 49",
+     "phones": "011 8898100",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14195,
+     "unit": "Prima Železnik",
+     "place": "Beograd",
+     "address": "Lole Ribara 154g",
+     "phones": "064 8898097",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14197,
+     "unit": "Prima Banovo brdo 5",
+     "place": "Beograd",
+     "address": "Požeška bb",
+     "phones": "064 8898094",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14199,
+     "unit": "Prima Vidikovac 2",
+     "place": "Beograd",
+     "address": "Pilota Mihaila Petrovića 57",
+     "phones": "064 8898096",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  }
+ ],
+ "id": "net-small-07"
+}

@@ -1,0 +1,900 @@
+{
+ "kind": "network",
+ "title": "Ddor",
+ "type": "osiguravajuce-drustvo",
+ "orgs": [
+  {
+   "org_slug": "osiguravajuce-drustvo-ddor",
+   "name": "Ddor",
+   "website": "https://www.ddor.rs",
+   "rows": [
+    {
+     "location_id": 27063,
+     "unit": "Centrala",
+     "place": "Novi Sad",
+     "address": "Bulevar Mihajla Pupina 8",
+     "phones": "021 4802222; 0800 303301",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27064,
+     "unit": "Korisnički centar DDOR",
+     "place": "Novi Sad",
+     "address": "Železnička 5",
+     "phones": "021 4802222; 0800 303301; 021 4871000; 021 525647",
+     "hours": "pon-pet 08:30-16:30; sub 08:30-13:00",
+     "need": []
+    },
+    {
+     "location_id": 27065,
+     "unit": "Filijala Novi Sad- Prodajno mesto \"MUP\"",
+     "place": "Novi Sad",
+     "address": "Bulevar Kralja Petra I 11",
+     "phones": "021 6612025",
+     "hours": "pon-pet 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27066,
+     "unit": "Centrala",
+     "place": "Novi Sad",
+     "address": "Narodnog fronta 1",
+     "phones": "021 4883400",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27067,
+     "unit": "Filijala Beograd",
+     "place": "Savski venac",
+     "address": "Vojvode Milenka 6",
+     "phones": "011 3622004; 011 3629875; 011 2646828",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27068,
+     "unit": "Filijala Beograd",
+     "place": "Novi Beograd",
+     "address": "Antifašističke borbe 13a",
+     "phones": "011 2027018",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27069,
+     "unit": "Ekspozitura Ada",
+     "place": "Ada",
+     "address": "Lenjinova 8",
+     "phones": "024 852215",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27070,
+     "unit": "Poslovno mesto Aleksinac",
+     "place": "Aleksinac",
+     "address": "Momčila Popovića 12",
+     "phones": "018 804857",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27071,
+     "unit": "Poslovno mesto Alibunar",
+     "place": "Alibunar",
+     "address": "Trg. Bratstva Jedinstva 5",
+     "phones": "013 641955; 013 641248",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27072,
+     "unit": "Lokalna kancelarija Apatin",
+     "place": "Apatin",
+     "address": "Trg Nikole Tesle 1",
+     "phones": "025 773163; 025 772206",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27073,
+     "unit": "Poslovno mesto Aranđelovac",
+     "place": "Aranđelovac",
+     "address": "Vojvode Stepe 6",
+     "phones": "034 710391",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27074,
+     "unit": "Ekspozitura Bač",
+     "place": "Bač",
+     "address": "Maršala Tita 7",
+     "phones": "021 6070192",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27075,
+     "unit": "Filijala Bačka Palanka",
+     "place": "Bačka Palanka",
+     "address": "Žarka Zrenjanina 45",
+     "phones": "021 6040260",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27076,
+     "unit": "Ekspozitura Bačka Topola",
+     "place": "Bačka Topola",
+     "address": "Maršala Tita 40",
+     "phones": "024 711570; 024 711624; 024 715572; 024 711625",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27077,
+     "unit": "Lokalna kancelarija Bački Petrovac",
+     "place": "Bački Petrovac",
+     "address": "Kolarova 29",
+     "phones": "021 2280184",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27078,
+     "unit": "Poslovno mesto Bajina Bašta",
+     "place": "Bajina Bašta",
+     "address": "Hadži Milentija 2",
+     "phones": "031 866899",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27079,
+     "unit": "Filijala Bečej",
+     "place": "Bečej",
+     "address": "Novosadska 1",
+     "phones": "021 6912790; 021 6912241",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27080,
+     "unit": "Lokalna kancelarija Bela Crkva",
+     "place": "Bela Crkva",
+     "address": "1 oktobra 56",
+     "phones": "013 853656; 013 853563",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27081,
+     "unit": "Poslovno mesto Beočin",
+     "place": "Beočin",
+     "address": "Dositeja Obradovića 12",
+     "phones": "021 2970444",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27082,
+     "unit": "Poslovno mesto Boljevac",
+     "place": "Boljevac",
+     "address": "Kralja Aleksandra 17",
+     "phones": "030 461884",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27083,
+     "unit": "Poslovno mesto Bor",
+     "place": "Bor",
+     "address": "Đorđa Vajferta 3",
+     "phones": "030 421303",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27084,
+     "unit": "Lokalna kancelarija Bujanovac",
+     "place": "Bujanovac",
+     "address": "Karađorđa Petrovića bb",
+     "phones": "017 852546",
+     "hours": "pon-pet 08:30-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 27085,
+     "unit": "Ekspozitura Čačak",
+     "place": "Čačak",
+     "address": "Rajićeva 5",
+     "phones": "032 327608; 032 327609",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27086,
+     "unit": "Poslovno mesto Čoka",
+     "place": "Čoka",
+     "address": "Potiska 10",
+     "phones": "0230 471070",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27087,
+     "unit": "Lokalna kancelarija Ćuprija",
+     "place": "Ćuprija",
+     "address": "Karadjordjeva 57",
+     "phones": "035 8871669",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27088,
+     "unit": "Ekspozitura Gornji Milanovac",
+     "place": "Gornji Milanovac",
+     "address": "Karađorđeva 5",
+     "phones": "032 710778; 032 714085",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27089,
+     "unit": "Ekspozitura Inđija",
+     "place": "Inđija",
+     "address": "Vojvode Stepe 23",
+     "phones": "022 553262; 022 553252",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27090,
+     "unit": "Lokalna kancelarija Irig",
+     "place": "Irig",
+     "address": "Borislava Mihajlovića Mihiza 31",
+     "phones": "022 461315",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27091,
+     "unit": "Lokalna kancelarija Ivanjica",
+     "place": "Ivanjica",
+     "address": "Milinka Kušića 39",
+     "phones": "032 665244",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27092,
+     "unit": "Filijala Jagodina",
+     "place": "Jagodina",
+     "address": "Knjeginje Milice 3",
+     "phones": "035 245421; 035 245422; 035 251742",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27093,
+     "unit": "Ekspozitura Kanjiža",
+     "place": "Kanjiža",
+     "address": "Glavna 5",
+     "phones": "024 4874567",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27094,
+     "unit": "Filijala Kikinda",
+     "place": "Kikinda",
+     "address": "Braće Tatić 2",
+     "phones": "0230 421502; 0230 421503; 0230 422325",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27095,
+     "unit": "Poslovno mesto Kladovo",
+     "place": "Kladovo",
+     "address": "Dunavska 34/7",
+     "phones": "019 801519",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27096,
+     "unit": "Poslovno mesto Knjaževac",
+     "place": "Knjaževac",
+     "address": "Stevana Mokranjca 2",
+     "phones": "019 731898",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27097,
+     "unit": "Lokalna kancelarija Kovačica",
+     "place": "Kovačica",
+     "address": "JNA 65",
+     "phones": "013 662627",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27098,
+     "unit": "Lokalna kancelarija Kovin",
+     "place": "Kovin",
+     "address": "Sterije Popovića 10",
+     "phones": "013 741191; 013 744040",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27099,
+     "unit": "Filijala Kragujevac",
+     "place": "Kragujevac",
+     "address": "Dr. Zorana Djindjića 22",
+     "phones": "034 300315; 034 300310",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27100,
+     "unit": "Ekspozitura Kraljevo",
+     "place": "Kraljevo",
+     "address": "IV Kraljevački Bataljon 11",
+     "phones": "036 317540; 036 317544; 036 235701",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27101,
+     "unit": "Lokalna kancelarija Kruševac",
+     "place": "Kruševac",
+     "address": "Veselina Nikolića br.5 (lokal 1)",
+     "phones": "037 411011",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27102,
+     "unit": "Lokalna kancelarija Kruševac",
+     "place": "Kruševac",
+     "address": "Kosančićeva 74",
+     "phones": "037 3501567; 037 3501568",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27103,
+     "unit": "Poslovno mesto Kučevo",
+     "place": "Kučevo",
+     "address": "Slobodana Jovića 18",
+     "phones": "012 851917",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27104,
+     "unit": "Ekspozitura Kula",
+     "place": "Kula",
+     "address": "Maršala Tita 248",
+     "phones": "025 722625; 025 722343; 025 722377",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27105,
+     "unit": "Poslovno mesto Kuršumlija",
+     "place": "Kuršumlija",
+     "address": "Palih Boraca 67",
+     "phones": "027 382160",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27106,
+     "unit": "Lokalna kancelarija Lazarevac",
+     "place": "Lazarevac",
+     "address": "Karađorđeva 1",
+     "phones": "011 8122949",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27107,
+     "unit": "Ekspozitura Leskovac",
+     "place": "Leskovac",
+     "address": "Masarikov Trg 30",
+     "phones": "016 231720; 016 212382",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27108,
+     "unit": "Poslovno mesto Ljig",
+     "place": "Ljig",
+     "address": "Hadži Ruvimova bb",
+     "phones": "014 3443361",
+     "hours": "pon-pet 08:30-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 27109,
+     "unit": "Lokalna kancelarija Ljubovija",
+     "place": "Ljubovija",
+     "address": "Vojvode Mišića 43",
+     "phones": "015 562860; 015 562744; 015 561861",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27110,
+     "unit": "Ekspozitura Loznica",
+     "place": "Loznica",
+     "address": "Vojvode Mišića 4",
+     "phones": "015 877755",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27111,
+     "unit": "Poslovno mesto Majdanpek",
+     "place": "Majdanpek",
+     "address": "Svetog Save 53/3",
+     "phones": "030 588315",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27112,
+     "unit": "Poslovno mesto Merošina",
+     "place": "Merošina",
+     "address": "Niška bb",
+     "phones": "018 4891601",
+     "hours": "pon-pet 08:30-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 27113,
+     "unit": "Poslovno mesto Mladenovac",
+     "place": "Mladenovac",
+     "address": "Kralja Petra I 249",
+     "phones": "011 8234440",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27114,
+     "unit": "Poslovno mesto Negotin",
+     "place": "Negotin",
+     "address": "Jna 9",
+     "phones": "019 541538",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27115,
+     "unit": "Filijala Niš",
+     "place": "Medijana",
+     "address": "Generala Milojka Lešjanina 1/2",
+     "phones": "018 255274",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27116,
+     "unit": "Filijala Niš",
+     "place": "Medijana",
+     "address": "Dušanova 90",
+     "phones": "018 296800; 018 296801; 018 244096; 018 295996",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27117,
+     "unit": "Regionalni centar za štete",
+     "place": "Medijana",
+     "address": "Dragiše Cvetkovića 2",
+     "phones": "018 296900",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27118,
+     "unit": "Poslovno mesto Nova Varoš",
+     "place": "Nova Varoš",
+     "address": "Oslobodilaca 13",
+     "phones": null,
+     "hours": "pon-pet 08:30-16:30",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 27119,
+     "unit": "Ekspozitura Novi Bečej",
+     "place": "Novi Bečej",
+     "address": "Sonje Marinković 1",
+     "phones": "023 771055; 023 771176",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27120,
+     "unit": "Lokalna kancelarija Novi Kneževac",
+     "place": "Novi Kneževac",
+     "address": "Zmaj Jovina 1",
+     "phones": "0230 82459",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27121,
+     "unit": "Filijala Novi Pazar",
+     "place": "Novi Pazar",
+     "address": "28. novembra 49/I",
+     "phones": "020 331414; 020 331413; 020 331411; 020 331410; 020 337350",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27122,
+     "unit": "Lokalna kancelarija Obrenovac",
+     "place": "Obrenovac",
+     "address": "Miloša Obrenovića 139",
+     "phones": "011 8724098",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27123,
+     "unit": "Ekspozitura Odžaci",
+     "place": "Odžaci",
+     "address": "Kneza Mihaila 27",
+     "phones": "025 5744709",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27124,
+     "unit": "Poslovno mesto Opovo",
+     "place": "Opovo",
+     "address": "Borisa Kidriča 13",
+     "phones": "013 681313",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27125,
+     "unit": "Filijala Pančevo",
+     "place": "Pančevo",
+     "address": "Miladina Popovića 18",
+     "phones": "013 344989; 013 354076",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27126,
+     "unit": "Lokalna kancelarija Paraćin",
+     "place": "Paraćin",
+     "address": "TC KOCKA. Kralja Petra I bb",
+     "phones": "035 567226; 035 570273",
+     "hours": "pon-pet 08:30-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 27127,
+     "unit": "Ekspozitura Pirot",
+     "place": "Pirot",
+     "address": "Trg oslobodioca b b",
+     "phones": "010 347288; 010 311398; 010 313969",
+     "hours": "pon-pet 08:30-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 27128,
+     "unit": "Lokalna kancelarija Plandište",
+     "place": "Plandište",
+     "address": "Karađorđeva 11",
+     "phones": "013 861331",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27129,
+     "unit": "Lokalna kancelarija Požarevac",
+     "place": "Požarevac",
+     "address": "Braničevska 2",
+     "phones": "012 523226",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27130,
+     "unit": "Lokalna kancelarija Priboj",
+     "place": "Priboj",
+     "address": "Nemanjina 50",
+     "phones": "033 454424; 033 455744; 033 454456",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27131,
+     "unit": "Lokalna kancelarija Prijepolje",
+     "place": "Prijepolje",
+     "address": "Valterova 43",
+     "phones": "033 710015; 033 712642",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27132,
+     "unit": "Poslovno mesto Prokuplje",
+     "place": "Prokuplje",
+     "address": "Darinke Nestorović 9",
+     "phones": "027 334010",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27133,
+     "unit": "Poslovno mesto Raška",
+     "place": "Raška",
+     "address": "Nemanjina 1",
+     "phones": "036 736611",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27134,
+     "unit": "Filijala Ruma",
+     "place": "Ruma",
+     "address": "Glavna 111",
+     "phones": "022 479777",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27135,
+     "unit": "Poslovno mesto Šabac",
+     "place": "Šabac",
+     "address": "Cara Dušana 36",
+     "phones": "015 347153",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27136,
+     "unit": "Lokalna kancelarija Sečanj",
+     "place": "Sečanj",
+     "address": "Vožda Karađorđa 74",
+     "phones": "023 3841012; 023 3841151",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27137,
+     "unit": "Ekspozitura Senta",
+     "place": "Senta",
+     "address": "Poštanska 16",
+     "phones": "024 815501",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27138,
+     "unit": "Filijala Šid",
+     "place": "Šid",
+     "address": "Školska 1",
+     "phones": "022 712508; 022 712552",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27139,
+     "unit": "Filijala Smederevo",
+     "place": "Smederevo",
+     "address": "Branka Radičevića 8",
+     "phones": "026 619219; 026 231079; 026 642991",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27140,
+     "unit": "Ekspozitura Smederevska Palanka",
+     "place": "Smederevska Palanka",
+     "address": "Dr. Rajsa 3b",
+     "phones": "026 314490",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27141,
+     "unit": "Filijala Sombor",
+     "place": "Sombor",
+     "address": "Trg Koste Trifkovića 1",
+     "phones": "025 416440; 025 416483; 025 418908; 025 419346",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27142,
+     "unit": "Lokalna kancelarija Srbobran",
+     "place": "Srbobran",
+     "address": "Svetog Save 9",
+     "phones": "021 6230022",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27143,
+     "unit": "Filijala Srem",
+     "place": "Sremska Mitrovica",
+     "address": "Svetog Dimitrija 6",
+     "phones": "022 610422; 022 610544",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27144,
+     "unit": "Poslovno mesto Stara Moravica",
+     "place": "Bačka Topola",
+     "address": "Svetog Stevana 13",
+     "phones": "066 8811500",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27145,
+     "unit": "Filijala Stara Pazova",
+     "place": "Stara Pazova",
+     "address": "Kralja Petra I Karađorđevića 6",
+     "phones": "022 312070; 022 310070",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27146,
+     "unit": "Filijala Subotica",
+     "place": "Subotica",
+     "address": "Đure Đakovića 2",
+     "phones": "024 621300; 024 555044",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27147,
+     "unit": "Poslovno mesto Svilajnac",
+     "place": "Svilajnac",
+     "address": "Ustanička 19",
+     "phones": "035 8815226",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27148,
+     "unit": "Lokalna kancelarija Temerin",
+     "place": "Temerin",
+     "address": "Učiteljska 2",
+     "phones": "021 842838",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27149,
+     "unit": "Poslovno mesto Titel",
+     "place": "Titel",
+     "address": "Mihajla Krestića 9",
+     "phones": "021 2960354",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27150,
+     "unit": "Filijala Užice",
+     "place": "Užice",
+     "address": "Vukole Dabića 11",
+     "phones": "031 510002; 031 510402",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27151,
+     "unit": "Filijala Valjevo",
+     "place": "Valjevo",
+     "address": "Uzun Mirkova 5",
+     "phones": "014 291099; 014 233265",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27152,
+     "unit": "Poslovno mesto Veliko Gradište",
+     "place": "Veliko Gradište",
+     "address": "Kneza Lazara 21a",
+     "phones": "012 662104",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27153,
+     "unit": "Poslovno mesto Vladičin Han",
+     "place": "Vladičin Han",
+     "address": "Svetosavska 8",
+     "phones": "017 471355",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27154,
+     "unit": "Filijala Vranje",
+     "place": "Vranje",
+     "address": "Kralja Stefana Prvovenčanog 46",
+     "phones": "017 400925; 017 400926; 017 400927",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27155,
+     "unit": "Filijala Vrbas",
+     "place": "Vrbas",
+     "address": "Marsala Tita 45",
+     "phones": "021 706409",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27156,
+     "unit": "Filijala Vršac",
+     "place": "Vršac",
+     "address": "Đure Jakšića 8",
+     "phones": "013 802303; 013 802306; 013 802315",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27157,
+     "unit": "Lokalna kancelarija Žabalj",
+     "place": "Žabalj",
+     "address": "Nikole Tesle 43a",
+     "phones": "021 2932797",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27158,
+     "unit": "Poslovno mesto Zaječar",
+     "place": "Zaječar",
+     "address": "Krfska 20",
+     "phones": "019 426106; 019 426555",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    },
+    {
+     "location_id": 27159,
+     "unit": "Filijala Zrenjanin",
+     "place": "Zrenjanin",
+     "address": "Kralja Petra I 2",
+     "phones": "023 566535; 023 564377",
+     "hours": "pon-pet 08:30-16:30",
+     "need": []
+    }
+   ]
+  }
+ ],
+ "id": "net-osiguravajuce-drustvo-ddor"
+}

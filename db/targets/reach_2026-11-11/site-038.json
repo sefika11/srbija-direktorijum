@@ -1,0 +1,395 @@
+{
+ "kind": "sites",
+ "title": "Institucije sa sopstvenim sajtom",
+ "rows": [
+  {
+   "org_slug": "zdravstveni-centar-sremska-mitrovica-sremska-mitrovica",
+   "name": "Zdravstveni centar Sremska Mitrovica",
+   "type": "Opšta bolnica / Klinički centar",
+   "place": "Sremska Mitrovica",
+   "website": "http://www.obsm.rs",
+   "mb": "26002494",
+   "have": {
+    "address": "Stari šor 65",
+    "phones": "022 610222",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "opsta-bolnica-subotica-subotica",
+   "name": "Opšta bolnica Subotica",
+   "type": "Opšta bolnica / Klinički centar",
+   "place": "Subotica",
+   "website": "http://www.bolnicasubotica.com",
+   "mb": "08881308",
+   "have": {
+    "address": "Izvorska 3",
+    "phones": "024 555222; 024 625500",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "zdravstveni-centar-uzice-uzice",
+   "name": "Zdravstveni centar Užice",
+   "type": "Opšta bolnica / Klinički centar",
+   "place": "Užice",
+   "website": "http://www.zcue.rs",
+   "mb": "07414455",
+   "have": {
+    "address": "Miloša Obrenovića 17",
+    "phones": "031 561255",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "zdravstveni-centar-valjevo-valjevo",
+   "name": "Zdravstveni centar Valjevo",
+   "type": "Opšta bolnica / Klinički centar",
+   "place": "Valjevo",
+   "website": "http://www.zcvaljevo.rs",
+   "mb": "26001145",
+   "have": {
+    "address": "Sinđelićeva 62",
+    "phones": "014 295295",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "specijalna-bolnica-za-rehabilitaciju-vranjska-banja-vranjska-banja",
+   "name": "Specijalna bolnica za Rehabilitaciju \"Vranjska Banja\"",
+   "type": "Opšta bolnica / Klinički centar",
+   "place": "Vranjska Banja",
+   "website": "http://www.vranjskabanja.co.rs",
+   "mb": "07214383",
+   "have": {
+    "address": "Kralja Petra I 7",
+    "phones": "017 546428",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "opsta-bolnica-vrbas-vrbas",
+   "name": "Opšta bolnica Vrbas",
+   "type": "Opšta bolnica / Klinički centar",
+   "place": "Vrbas",
+   "website": "http://www.obvs.rs",
+   "mb": "08888752",
+   "have": {
+    "address": "Milana Čekića",
+    "phones": "021 7954500",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "merkur-specijalna-bolnica-za-lecenje-i-rehabilitaciju-vrnjacka-banja",
+   "name": "\"Merkur\" specijalna bolnica za Lečenje i Rehabilitaciju",
+   "type": "Opšta bolnica / Klinički centar",
+   "place": "Vrnjačka Banja",
+   "website": "http://www.vrnjcispa.rs",
+   "mb": "07177402",
+   "have": {
+    "address": "Bulevar srpskih ratnika 18",
+    "phones": "036 5155150; 036 5155151",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "opsta-bolnica-vrsac-vrsac",
+   "name": "Opšta bolnica Vršac",
+   "type": "Opšta bolnica / Klinički centar",
+   "place": "Vršac",
+   "website": "http://www.obvrsac.com",
+   "mb": "08904944",
+   "have": {
+    "address": "Abraševićeva bb",
+    "phones": "013 832425; 013 839911",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "specijalna-bolnica-za-psihijatrijske-bolesti-dr-slavoljub-bakalovic-vrsac",
+   "name": "Specijalna bolnica za Psihijatrijske Bolesti \"Dr Slavoljub Bakalović\"",
+   "type": "Opšta bolnica / Klinički centar",
+   "place": "Vršac",
+   "website": "http://www.spbvrsac.org.rs",
+   "mb": "08044821",
+   "have": {
+    "address": "26300 Vršac",
+    "phones": "013 833336; 013 833283; 013 833268",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "zdravstveni-centar-zajecar-zajecar",
+   "name": "Zdravstveni centar Zaječar",
+   "type": "Opšta bolnica / Klinički centar",
+   "place": "Zaječar",
+   "website": "http://www.zczajecar.com",
+   "mb": "07201885",
+   "have": {
+    "address": "Rasadnička bb",
+    "phones": "019 445600",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "opsta-bolnica-djordje-joanovic-zrenjanin",
+   "name": "Opšta bolnica \"Đorđe Joanović\"",
+   "type": "Opšta bolnica / Klinički centar",
+   "place": "Zrenjanin",
+   "website": "http://www.bolnica.org.rs",
+   "mb": "08887535",
+   "have": {
+    "address": "Dr Vase Savića 5",
+    "phones": "023 513200",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "specijalna-bolnica-za-plucne-bolesti-dr-vasa-savic-zrenjanin",
+   "name": "Specijalna bolnica za Plućne Bolesti \"Dr Vasa Savić\"",
+   "type": "Opšta bolnica / Klinički centar",
+   "place": "Zrenjanin",
+   "website": "http://www.plucna.co.rs",
+   "mb": "08671923",
+   "have": {
+    "address": "Petefijeva 4",
+    "phones": "023 534368",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "opsta-bolnica-cuprija-cuprija",
+   "name": "Opšta bolnica Ćuprija",
+   "type": "Opšta bolnica / Klinički centar",
+   "place": "Ćuprija",
+   "website": "http://bolnicacuprija.com",
+   "mb": "17729969",
+   "have": {
+    "address": "Miodraga Novakovića 78",
+    "phones": "035 8470775",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "opsta-bolnica-cacak-cacak",
+   "name": "Opšta bolnica Čačak",
+   "type": "Opšta bolnica / Klinički centar",
+   "place": "Čačak",
+   "website": "http://www.zccacak.rs",
+   "mb": "17878735",
+   "have": {
+    "address": "dr Dragiše Mišović 205",
+    "phones": "032 307000",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "zdravstveni-centar-sabac-sabac",
+   "name": "Zdravstveni centar Šabac",
+   "type": "Opšta bolnica / Klinički centar",
+   "place": "Šabac",
+   "website": "http://www.bolnica015.org.rs",
+   "mb": "26002168",
+   "have": {
+    "address": "Popa Karana 4",
+    "phones": "015 363300",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "opstinska-uprava-opstine-ada-ada",
+   "name": "Opštinska uprava opštine Ada",
+   "type": "Opštinska uprava",
+   "place": "Ada",
+   "website": "https://www1.ada.org.rs/",
+   "mb": null,
+   "have": {
+    "address": "Trg oslobodjenja 1",
+    "phones": "024 852106",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "opstinska-uprava-aleksandrovac-aleksandrovac",
+   "name": "Opštinska uprava Aleksandrovac",
+   "type": "Opštinska uprava",
+   "place": "Aleksandrovac",
+   "website": "https://www.aleksandrovac.rs/",
+   "mb": null,
+   "have": {
+    "address": "Jaše Petrovića 26",
+    "phones": "037 3751029; 037 3751297",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "opstinska-uprava-aleksinac-aleksinac",
+   "name": "Opštinska uprava Aleksinac",
+   "type": "Opštinska uprava",
+   "place": "Aleksinac",
+   "website": "https://www.aleksinac.org",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "018 809000",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "opstinska-uprava-alibunar-alibunar",
+   "name": "Opštinska uprava Alibunar",
+   "type": "Opštinska uprava",
+   "place": "Alibunar",
+   "website": "https://alibunar.org.rs/",
+   "mb": null,
+   "have": {
+    "address": "Trg slobode 4",
+    "phones": "013 642105; 013 641146",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "opstinska-uprava-babusnica-babusnica",
+   "name": "Opštinska uprava Babušnica",
+   "type": "Opštinska uprava",
+   "place": "Babušnica",
+   "website": "https://www.babusnica.rs/",
+   "mb": null,
+   "have": {
+    "address": "Ratka Pavlovica 1",
+    "phones": "010 385112; 010 383025; 010 385052; 010 385191",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "opstinska-uprava-batocina-batocina",
+   "name": "Opštinska uprava Batočina",
+   "type": "Opštinska uprava",
+   "place": "Batočina",
+   "website": "https://www.sobatocina.org.rs/",
+   "mb": null,
+   "have": {
+    "address": "Kralja Petra I 37",
+    "phones": "034 6842118; 034 6842314",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "opstinska-uprava-bac-bac",
+   "name": "Opštinska uprava Bač",
+   "type": "Opštinska uprava",
+   "place": "Bač",
+   "website": "https://www.bac.rs/",
+   "mb": null,
+   "have": {
+    "address": "Trg Dr Zorana Djindjica 2",
+    "phones": "021 6070075; 021 6070330",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "opstinska-uprava-backa-palanka-backa-palanka",
+   "name": "Opštinska uprava Bačka Palanka",
+   "type": "Opštinska uprava",
+   "place": "Bačka Palanka",
+   "website": "https://www.backapalanka.rs",
+   "mb": null,
+   "have": {
+    "address": "21400 Bačka Palanka",
+    "phones": "021 2101117",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "opstinska-uprava-bela-crkva-bela-crkva",
+   "name": "Opštinska uprava Bela Crkva",
+   "type": "Opštinska uprava",
+   "place": "Bela Crkva",
+   "website": "https://belacrkva.rs/",
+   "mb": null,
+   "have": {
+    "address": "Mileticeva 2",
+    "phones": "013 851224; 013 851346",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  }
+ ],
+ "id": "site-038"
+}

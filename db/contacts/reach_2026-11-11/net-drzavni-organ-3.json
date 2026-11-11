@@ -1,0 +1,19 @@
+[
+ {
+  "location_id": 280,
+  "address": "Bulevar kralja Aleksandra 84, Beograd",
+  "phones": [
+   "011 2438020",
+   "011 2436464"
+  ],
+  "hours": "pon-pet 08:30-16:30",
+  "source_url": "https://ravnopravnost.gov.rs/kontakt/",
+  "match": "name"
+ },
+ {
+  "location_id": 2799,
+  "hours": "pon-pet 07:30-15:30",
+  "source_url": "https://www.rem.rs/sr/kontakt",
+  "match": "address"
+ }
+]

@@ -1,0 +1,2404 @@
+{
+ "kind": "network",
+ "title": "AIK banka",
+ "type": "banka",
+ "orgs": [
+  {
+   "org_slug": "banka-aik",
+   "name": "AIK banka",
+   "website": "https://www.aikbank.rs",
+   "rows": [
+    {
+     "location_id": 19493,
+     "unit": "AIK banka",
+     "place": "Stara Pazova",
+     "address": null,
+     "phones": "0800 101172; 0800 101305",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 19554,
+     "unit": "AIK banka",
+     "place": "Vršac",
+     "address": null,
+     "phones": "0800 101015",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 19646,
+     "unit": "AIK banka",
+     "place": "Zemun",
+     "address": "Glavna 7",
+     "phones": null,
+     "hours": "Mo-Fr 09:00-17:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 19651,
+     "unit": "AikBank",
+     "place": "Voždovac",
+     "address": "Vojvode Stepe 35",
+     "phones": "0800 101172",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": []
+    },
+    {
+     "location_id": 19709,
+     "unit": "AIK banka",
+     "place": "Bečej",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 19722,
+     "unit": "AIK banka",
+     "place": "Valjevo",
+     "address": "Karađorđeva 127",
+     "phones": "0800 101015",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": []
+    },
+    {
+     "location_id": 19751,
+     "unit": "AIK banka",
+     "place": "Stari grad",
+     "address": "Balkanska 2",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 19758,
+     "unit": "AIK banka",
+     "place": "Zemun",
+     "address": "Majora Zorana Radosavljevića 175",
+     "phones": "0800 101015",
+     "hours": "Mo-Fr 09:00-16:30; We 10:30-18:00",
+     "need": []
+    },
+    {
+     "location_id": 19783,
+     "unit": "AIK banka",
+     "place": "Novi Sad",
+     "address": null,
+     "phones": "0800 101172; 0800 101303",
+     "hours": "Mo-We,Fr 08:00-15:30; Th 10:00-17:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 19804,
+     "unit": "AikBank",
+     "place": "Novi Sad",
+     "address": "Bulevar oslobođenja 95",
+     "phones": "0800 101015",
+     "hours": "Mo-Fr 09:00-16:30; Sa,Su off",
+     "need": []
+    },
+    {
+     "location_id": 19845,
+     "unit": "AIK banka",
+     "place": "Valjevo",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 19931,
+     "unit": "AikBank",
+     "place": "Novi Sad",
+     "address": "Bulevar Evrope 22",
+     "phones": "0800 101172; 0800 101304",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": []
+    },
+    {
+     "location_id": 19949,
+     "unit": "AIK banka",
+     "place": "Prokuplje",
+     "address": "Trg topličkih junaka 1",
+     "phones": null,
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 19991,
+     "unit": "AIK banka",
+     "place": "Šabac",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 20082,
+     "unit": "AIK banka",
+     "place": "Svilajnac",
+     "address": "Kriva čaršija 31",
+     "phones": "0800 101015",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": []
+    },
+    {
+     "location_id": 20093,
+     "unit": "AIK banka",
+     "place": "Voždovac",
+     "address": null,
+     "phones": "0800 101015",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20106,
+     "unit": "AIK banka",
+     "place": "Zvezdara",
+     "address": "Bulevar kralja Aleksandra 334",
+     "phones": "0800 101015",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": []
+    },
+    {
+     "location_id": 20129,
+     "unit": "AIK banka",
+     "place": "Stari grad",
+     "address": null,
+     "phones": "0800 101015",
+     "hours": "Mo-Tu,Th-Fr 09:00-16:30; Sa-Su off; We 10:30-18:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20136,
+     "unit": "AIK banka",
+     "place": "Stari grad",
+     "address": null,
+     "phones": "0800 101015",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20141,
+     "unit": "AIK banka",
+     "place": "Vračar",
+     "address": null,
+     "phones": "0800 101172; 0800 101299",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20181,
+     "unit": "Ekspozitura",
+     "place": "Kragujevac",
+     "address": null,
+     "phones": "0800 101015",
+     "hours": "Mo-We,Fr 08:30-16:00; Th 09:30-17:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20219,
+     "unit": "AIK banka",
+     "place": "Stari grad",
+     "address": null,
+     "phones": "0800 101172; 0800 101295",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20238,
+     "unit": "AIK banka",
+     "place": "Novi Sad",
+     "address": null,
+     "phones": "0800 101015",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20259,
+     "unit": "AIK banka",
+     "place": "Novi Beograd",
+     "address": "Partizanske avijacije 10",
+     "phones": "0800 101015",
+     "hours": "Mo-Tu,Th-Fr 09:00-16:30; We 10:30-18:00",
+     "need": []
+    },
+    {
+     "location_id": 20346,
+     "unit": "AikBank",
+     "place": "Novi Beograd",
+     "address": null,
+     "phones": "0800 101015",
+     "hours": "Mo-Fr 08:30-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20373,
+     "unit": "AIK banka",
+     "place": "Apatin",
+     "address": null,
+     "phones": "0800 101015",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20389,
+     "unit": "AIK banka",
+     "place": "Užice",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 20437,
+     "unit": "AikBank",
+     "place": "Užice",
+     "address": null,
+     "phones": "0800 101015",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20668,
+     "unit": "AIK banka",
+     "place": "Surčin",
+     "address": "Trg Zorana Đinđića 2",
+     "phones": "0800 101015",
+     "hours": "Mo-Tu,Th-Fr 08:30-16:00; We 10:30-18:00",
+     "need": []
+    },
+    {
+     "location_id": 21520,
+     "unit": "AIK banka",
+     "place": "Stari grad",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 21523,
+     "unit": "AIK banka",
+     "place": "Novi Beograd",
+     "address": "Otona Župančiča 1",
+     "phones": "0800 101015; 0800 101172",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": []
+    },
+    {
+     "location_id": 21533,
+     "unit": "AikBank",
+     "place": "Pantelej",
+     "address": null,
+     "phones": "0800 101015",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 21553,
+     "unit": "AIK banka",
+     "place": "Subotica",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 21620,
+     "unit": "AIK banka",
+     "place": "Pančevo",
+     "address": null,
+     "phones": "0800 101015",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 21682,
+     "unit": "AikBank",
+     "place": "Savski venac",
+     "address": null,
+     "phones": "0800 101015",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 21757,
+     "unit": "AIK banka",
+     "place": "Zrenjanin",
+     "address": null,
+     "phones": "0800 101015",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 21816,
+     "unit": "AikBank",
+     "place": "Loznica",
+     "address": null,
+     "phones": "0800 101015",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 21817,
+     "unit": "AIK banka",
+     "place": "Priboj",
+     "address": null,
+     "phones": "0800 101015",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 21828,
+     "unit": "AIK banka",
+     "place": "Stari grad",
+     "address": "Kralja Milana 10",
+     "phones": "0800 101015",
+     "hours": "Mo,We-Fr 09:00-16:30; Tu 10:00-17:30",
+     "need": []
+    },
+    {
+     "location_id": 21829,
+     "unit": "AikBank",
+     "place": "Novi Beograd",
+     "address": null,
+     "phones": "0800 101015",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22022,
+     "unit": "AIK banka",
+     "place": "Zvezdara",
+     "address": null,
+     "phones": "0800 101172; 0800 101297",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22025,
+     "unit": "AikBank",
+     "place": "Negotin",
+     "address": null,
+     "phones": "0800 101015",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22119,
+     "unit": "AIK banka",
+     "place": "Arilje",
+     "address": null,
+     "phones": "0800 101015",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22129,
+     "unit": "AikBank",
+     "place": "Palilula",
+     "address": "Ranka Miljića 3",
+     "phones": "0800 101015",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": []
+    },
+    {
+     "location_id": 22147,
+     "unit": "AIK banka",
+     "place": "Šabac",
+     "address": "Trg Šabačkih žrtava",
+     "phones": "0800 101015",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22162,
+     "unit": "AikBank",
+     "place": "Mionica",
+     "address": null,
+     "phones": "0800 101015",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22227,
+     "unit": "AikBank",
+     "place": "Leskovac",
+     "address": null,
+     "phones": "0800 101015",
+     "hours": "Mo-Tu,Th-Fr 08:00-15:30; We 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22228,
+     "unit": "AikBank",
+     "place": "Užice",
+     "address": null,
+     "phones": "0800 101015; 0800 101172",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22229,
+     "unit": "AIK banka",
+     "place": "Medijana",
+     "address": null,
+     "phones": "0800 101015; 0800 101172",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22230,
+     "unit": "AIK banka",
+     "place": "Zemun",
+     "address": null,
+     "phones": "0800 101015; 0800 101172",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22231,
+     "unit": "AIK banka",
+     "place": "Novi Beograd",
+     "address": null,
+     "phones": "0800 101015; 0800 101172",
+     "hours": "Mo-Tu,Th-Fr 09:00-16:30; We 10:00-17:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22232,
+     "unit": "AIK banka",
+     "place": "Subotica",
+     "address": null,
+     "phones": "0800 101015; 0800 101172",
+     "hours": "Mo-We,Fr 08:00-15:30; Th 10:00-17:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22233,
+     "unit": "AIK banka",
+     "place": "Sremska Mitrovica",
+     "address": null,
+     "phones": "0800 101172; 0800 101306",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22234,
+     "unit": "AIK banka",
+     "place": "Čačak",
+     "address": null,
+     "phones": "0800 101015; 0800 101172",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22235,
+     "unit": "AIK banka",
+     "place": "Čukarica",
+     "address": null,
+     "phones": "0800 101015; 0800 101172",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22236,
+     "unit": "AIK banka",
+     "place": "Novi Pazar",
+     "address": null,
+     "phones": "0800 101015; 0800 101172",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22237,
+     "unit": "AikBank",
+     "place": "Požarevac",
+     "address": null,
+     "phones": "0800 101015",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22238,
+     "unit": "AikBank",
+     "place": "Rakovica",
+     "address": null,
+     "phones": "0800 101172; 0800 101298",
+     "hours": "Mo-Fr 09:30-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22239,
+     "unit": "AikBank",
+     "place": "Novi Beograd",
+     "address": null,
+     "phones": "0800 101015",
+     "hours": "Mo-Fr 09:30-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22240,
+     "unit": "AikBank",
+     "place": "Vračar",
+     "address": null,
+     "phones": "0800 101015; 0800 101172",
+     "hours": "Mo-We,Fr 09:30-16:30; Th 10:00-17:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22241,
+     "unit": "AIK banka",
+     "place": "Novi Sad",
+     "address": null,
+     "phones": "0800 101015; 0800 101172",
+     "hours": "Mo-Fr 09:30-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22242,
+     "unit": "AIK banka",
+     "place": "Medijana",
+     "address": null,
+     "phones": "0800 101172; 0800 101307",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22243,
+     "unit": "AIK banka",
+     "place": "Savski venac",
+     "address": null,
+     "phones": "0800 101172; 0800 101381",
+     "hours": "Mo-Su 10:00-22:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22244,
+     "unit": "AikBank",
+     "place": "Medijana",
+     "address": null,
+     "phones": "0800 101015; 0800 101172",
+     "hours": "Mo-We,Fr 09:00-16:30; Th 10:00-17:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22245,
+     "unit": "AikBank",
+     "place": "Kruševac",
+     "address": null,
+     "phones": "0800 101077; 0800 101172",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22246,
+     "unit": "AIK banka",
+     "place": "Jagodina",
+     "address": null,
+     "phones": "0800 101015; 0800 101172",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22247,
+     "unit": "AIK banka",
+     "place": "Gornji Milanovac",
+     "address": null,
+     "phones": "0800 101015; 0800 101172",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22248,
+     "unit": "AikBank",
+     "place": "Vranje",
+     "address": null,
+     "phones": "0800 101015; 0800 101172",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22249,
+     "unit": "AIK banka",
+     "place": "Zaječar",
+     "address": null,
+     "phones": "0800 101016; 0800 101172",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22250,
+     "unit": "AikBank",
+     "place": "Novi Beograd",
+     "address": null,
+     "phones": "0800 101172; 0800 101382",
+     "hours": "Mo-Su 10:00-20:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22251,
+     "unit": "AIK banka",
+     "place": "Pirot",
+     "address": null,
+     "phones": "0800 101015; 0800 101172",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22252,
+     "unit": "AIK banka",
+     "place": "Inđija",
+     "address": null,
+     "phones": "0800 101015; 0800 101172",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22253,
+     "unit": "AikBank",
+     "place": "Prijepolje",
+     "address": null,
+     "phones": "0800 101127; 0800 101172",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22254,
+     "unit": "AIK banka",
+     "place": "Voždovac",
+     "address": null,
+     "phones": "0800 101015; 0800 101172",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22255,
+     "unit": "AIK banka",
+     "place": "Novi Beograd",
+     "address": null,
+     "phones": "0800 101356",
+     "hours": "24/7",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22256,
+     "unit": "AIK banka",
+     "place": "Prijepolje",
+     "address": "Sandžačkih brigada 19",
+     "phones": "0800 101015",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": []
+    },
+    {
+     "location_id": 22268,
+     "unit": "AIK banka",
+     "place": "Palilula",
+     "address": null,
+     "phones": "0800 101015",
+     "hours": "Mo-Tu,Th-Fr 08:30-16:00; We 10:30-18:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22269,
+     "unit": "AikBank",
+     "place": "Čukarica",
+     "address": null,
+     "phones": "0800 101015",
+     "hours": "Mo-Tu,Th-Fr 09:00-16:30; We 10:30-18:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22270,
+     "unit": "AIK banka",
+     "place": "Obrenovac",
+     "address": null,
+     "phones": "0800 101015",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22271,
+     "unit": "AIK banka",
+     "place": "Mladenovac",
+     "address": null,
+     "phones": "0800 101015",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22272,
+     "unit": "AikBank",
+     "place": "Sopot",
+     "address": null,
+     "phones": "0800 101015",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22273,
+     "unit": "AIK banka",
+     "place": "Lazarevac",
+     "address": null,
+     "phones": "0800 101015",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22274,
+     "unit": "AikBank",
+     "place": "Savski venac",
+     "address": null,
+     "phones": "0800 101015",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22275,
+     "unit": "AikBank",
+     "place": "Zvezdara",
+     "address": null,
+     "phones": "0800 101015",
+     "hours": "Mo-Tu,Th-Fr 09:00-16:30; We 10:30-18:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22276,
+     "unit": "AIK banka",
+     "place": "Čukarica",
+     "address": null,
+     "phones": "0800 101015",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22277,
+     "unit": "AikBank",
+     "place": "Zemun",
+     "address": null,
+     "phones": "0800 101015",
+     "hours": "Mo-Tu,Th-Fr 09:00-16:30; We 10:30-18:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22278,
+     "unit": "AikBank",
+     "place": "Palilula",
+     "address": null,
+     "phones": "0800 101015",
+     "hours": "Mo-Tu,Th-Fr 09:00-16:30; We 10:30-18:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22279,
+     "unit": "AikBank",
+     "place": "Zemun",
+     "address": null,
+     "phones": "0800 101015",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22280,
+     "unit": "AIK banka",
+     "place": "Smederevo",
+     "address": null,
+     "phones": "0800 101015",
+     "hours": "Mo-Fr 08:30-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22281,
+     "unit": "AIK banka",
+     "place": "Rakovica",
+     "address": "Pilota Mihaila Petrovića 72",
+     "phones": "0800 101015",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": []
+    },
+    {
+     "location_id": 22282,
+     "unit": "AIK banka",
+     "place": "Smederevska Palanka",
+     "address": "Prvog srpskog ustanka 15",
+     "phones": "0800 101015",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": []
+    },
+    {
+     "location_id": 22283,
+     "unit": "AIK banka",
+     "place": "Aranđelovac",
+     "address": null,
+     "phones": "0800 101015",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22284,
+     "unit": "AIK banka",
+     "place": "Rača",
+     "address": null,
+     "phones": "0800 101015",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22285,
+     "unit": "AIK banka",
+     "place": "Batočina",
+     "address": "Kralja Petra I 27",
+     "phones": "0800 101015",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": []
+    },
+    {
+     "location_id": 22286,
+     "unit": "AIK banka",
+     "place": "Vrnjačka Banja",
+     "address": null,
+     "phones": "011 2023353",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22287,
+     "unit": "AIK banka",
+     "place": "Nova Varoš",
+     "address": null,
+     "phones": "0800 101015",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22288,
+     "unit": "AIK banka",
+     "place": "Ivanjica",
+     "address": "Milinka Kušića 23a",
+     "phones": "0800 101015",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": []
+    },
+    {
+     "location_id": 22289,
+     "unit": "AIK banka",
+     "place": "Novi Pazar",
+     "address": null,
+     "phones": "0800 101172",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22290,
+     "unit": "AikBank",
+     "place": "Medijana",
+     "address": null,
+     "phones": "0800 101015",
+     "hours": "Mo-Tu,Th-Fr 09:00-16:30; We 10:30-18:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22291,
+     "unit": "AIK banka",
+     "place": "Kruševac",
+     "address": "Vidovdanska 11",
+     "phones": "0800 101015",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": []
+    },
+    {
+     "location_id": 22292,
+     "unit": "AIK banka",
+     "place": "Ćuprija",
+     "address": null,
+     "phones": "0800 101015",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22293,
+     "unit": "AIK banka",
+     "place": "Paraćin",
+     "address": "Svetog Save 2a",
+     "phones": "0800 101015",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": []
+    },
+    {
+     "location_id": 22294,
+     "unit": "AIK banka",
+     "place": "Leskovac",
+     "address": null,
+     "phones": "0800 101015",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22295,
+     "unit": "AikBank",
+     "place": "Novi Sad",
+     "address": null,
+     "phones": "0800 101015",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22296,
+     "unit": "AIK banka",
+     "place": "Sombor",
+     "address": "Staparski put 6a",
+     "phones": "0800 101015",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": []
+    },
+    {
+     "location_id": 22297,
+     "unit": "AikBank",
+     "place": "Vrbas",
+     "address": null,
+     "phones": "0800 101015",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22298,
+     "unit": "AIK banka",
+     "place": "Ruma",
+     "address": null,
+     "phones": "0800 101015",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22306,
+     "unit": "Ekspozitura",
+     "place": "Kragujevac",
+     "address": null,
+     "phones": "0800 101015",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22319,
+     "unit": "AikBank",
+     "place": "Savski venac",
+     "address": null,
+     "phones": "0800 101015",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22333,
+     "unit": "AIK banka",
+     "place": "Stari grad",
+     "address": null,
+     "phones": "0800 101015",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22691,
+     "unit": "AIK banka",
+     "place": "Bačka Palanka",
+     "address": null,
+     "phones": "0800 101015",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22692,
+     "unit": "Ekspozitura",
+     "place": "Kragujevac",
+     "address": null,
+     "phones": "0800 101015",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22907,
+     "unit": "AIK banka",
+     "place": "Subotica",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23037,
+     "unit": "AIK banka",
+     "place": "Čajetina",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 23054,
+     "unit": "AIK banka",
+     "place": "Požega",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 23242,
+     "unit": "AIK banka",
+     "place": "Medijana",
+     "address": "Nikole Pašića 42",
+     "phones": "0800 101172",
+     "hours": "Mo,Tu,Th,Fr 08:30-16:00; We 10:00-17:30",
+     "need": []
+    },
+    {
+     "location_id": 23548,
+     "unit": "AIK banka",
+     "place": "Požarevac",
+     "address": "Trg Radomira Vujovića 12",
+     "phones": null,
+     "hours": "Mo-Fr 08:30-15:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 23660,
+     "unit": "AIK banka",
+     "place": "Surdulica",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 24419,
+     "unit": "AIK banka",
+     "place": "Medijana",
+     "address": "Obrenovićeva 33",
+     "phones": "0800 101015",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": []
+    },
+    {
+     "location_id": 24499,
+     "unit": "AIK banka",
+     "place": "Savski venac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 28087,
+     "unit": "Filijala Bulevar Mihajla Pupina 115đ Grawe",
+     "place": "Novi Beograd",
+     "address": "Bulevar Mihajla Pupina 115đ",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 09:00h-16:30h Blagajna: Ponedeljak - Petak: 09:00h-14:00h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28089,
+     "unit": "Filijala Požeška 66",
+     "place": "Čukarica",
+     "address": "Požeška 66",
+     "phones": null,
+     "hours": "Ponedeljak –Petak 09h-16:30h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28090,
+     "unit": "Filijala Vojvode Stepe 2L",
+     "place": "Voždovac",
+     "address": "Vojvode Stepe 2l",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 09h-16:30h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28091,
+     "unit": "Filijala Bulevar kralja Aleksandra 18",
+     "place": "Vračar",
+     "address": "Bulevar kralja Aleksandra 18",
+     "phones": null,
+     "hours": "Ponedeljak: 09h-16:30h Utorak: 09h-16:30h Sreda: 09h-16:30h Četvrtak: 10h-17:30h Petak: 09h-16:30h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28094,
+     "unit": "Filijala Vlade Jovanovića 22",
+     "place": "Šabac",
+     "address": "Vlade Jovanovića 22",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 08h-15:30h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28095,
+     "unit": "Filijala Kuželjeva 2",
+     "place": "Čačak",
+     "address": "Kuželjeva 2",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 08h-15:30h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28096,
+     "unit": "Filijala Kneza Aleksandra 11",
+     "place": "Gornji Milanovac",
+     "address": "Kneza Aleksandra 11",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 08h-15:30h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28097,
+     "unit": "Filijala Trg Radomira Putnika 3",
+     "place": "Kragujevac",
+     "address": "Trg Radomira Putnika 3",
+     "phones": null,
+     "hours": "Ponedeljak: 08:30h-16h Utorak: 08:30h-16h Sreda: 08:30h-16h Četvrtak: 09:30h-17h Petak: 08:30h-16h Blagajna Ponedeljak - Petak 8:30h–13.30h, Četvrtak: 9:30h – 13.30h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28098,
+     "unit": "Filijala Miloša Velikog 44",
+     "place": "Kraljevo",
+     "address": "Miloša Velikog 44",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 08h-15:30h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28099,
+     "unit": "Filijala Dimitrija Tucovića 42",
+     "place": "Užice",
+     "address": "Dimitrija Tucovića 42",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 08h-15:30h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28100,
+     "unit": "Filijala Đorđa Vajferta 21",
+     "place": "Bor",
+     "address": "Đorđa Vajferta 21",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 08h-15:30h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28101,
+     "unit": "Filijala Kneginje Milice 73",
+     "place": "Jagodina",
+     "address": "Kneginje Milice 73",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 08h-15:30h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28102,
+     "unit": "Filijala Bulevar oslobođenja bb",
+     "place": "Leskovac",
+     "address": "Bulevar oslobođenja bb",
+     "phones": null,
+     "hours": "Ponedeljak: 08h-15:30h Utorak: 08h-15:30h Sreda: 09h-16:30h Četvrtak: 08h-15:30h Petak: 08h-15:30h",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28104,
+     "unit": "Filijala Bulevar Dr Zorana Đinđića 4",
+     "place": "Medijana",
+     "address": "Bulevar Dr Zorana Đinđića 4",
+     "phones": null,
+     "hours": "Ponedeljak: 09h-16:30h Utorak: 09h-16:30h Sreda: 09h-16:30h Četvrtak: 10h-17:30h Petak: 09h-16:30h Radno vreme blagajne do 14h Blagajna Ponedeljak - Petak: 09:00h – 14:00h, Četvrtak: 10h -14:00h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28105,
+     "unit": "Filijala Save Kovačevića 7",
+     "place": "Pirot",
+     "address": "Save Kovačevića 7",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 08h-15:30h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28106,
+     "unit": "Filijala Kralja Stefana Prvovenčanog 169",
+     "place": "Vranje",
+     "address": "Kralja Stefana Prvovenčanog 169",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 09h-16:30h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28107,
+     "unit": "Filijala Vojvode Stepe 13",
+     "place": "Inđija",
+     "address": "Vojvode Stepe 13",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 08h-15:30h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28108,
+     "unit": "Filijala Korzo 6",
+     "place": "Subotica",
+     "address": "Korzo 6",
+     "phones": null,
+     "hours": "Ponedeljak: 08h-15:30h Utorak: 08h-15:30h Sreda: 08h-15:30h Četvrtak: 10h-17:30h Petak: 08h-15:30h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28109,
+     "unit": "Filijala Kralja Aleksandra I Karađorđevića 8",
+     "place": "Zrenjanin",
+     "address": "Kralja Aleksandra I Karađorđevića 8",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 08h-15:30h Bezgotovinska filijala",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28110,
+     "unit": "Filijala Bulevar Mihajla Pupina 2",
+     "place": "Novi Sad",
+     "address": "Bulevar Mihajla Pupina 2",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 09h-16:30h Blagajna Ponedeljak - Petak: 09:00h-14:00h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28111,
+     "unit": "Filijala Glavna 37",
+     "place": "Zemun",
+     "address": "Glavna 37",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 09h-16:30h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28112,
+     "unit": "Filijala Jurija Gagarina 32",
+     "place": "Novi Beograd",
+     "address": "Jurija Gagarina 32",
+     "phones": null,
+     "hours": "Ponedeljak: 09h-16:30h Utorak: 09h-16:30h Sreda: 10h-17:30h Četvrtak: 09h-16:30h Petak: 09h-16:30h Blagajna: Ponedeljak – Petak: 09:00h-14:00h Sreda: 10:00h-14:00h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28113,
+     "unit": "Filijala Gazimestanska bb",
+     "place": "Kruševac",
+     "address": "Gazimestanska bb",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 8h - 15:30h Radno vreme blagajne: 8h - 13h",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28114,
+     "unit": "Filijala Pjarona de Mondezira 4",
+     "place": "Stari grad",
+     "address": "Pjarona de Mondezira 4",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 09h-16:30h Bezgotovinska filijala",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28115,
+     "unit": "Filijala Topličkih junaka 1",
+     "place": "Prokuplje",
+     "address": "Topličkih junaka 1",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 08h-15:30h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28117,
+     "unit": "Filijala Dečanska 4",
+     "place": "Stari grad",
+     "address": "Dečanska 4",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 09h-16:30h Blagajna: Ponedeljak - Petak: 09h-14h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28118,
+     "unit": "Filijala Ustanička 264",
+     "place": "Zvezdara",
+     "address": "Ustanička 264",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 09h-16:30h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28119,
+     "unit": "Filijala Borska 44",
+     "place": "Rakovica",
+     "address": "Borska 44",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 09h-16:30h, Radno vreme blagajne do 14h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28120,
+     "unit": "Filijala Petrogradska 1",
+     "place": "Vračar",
+     "address": "Petrogradska 1",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 09h-16:30h Blagajna Ponedeljak - Petak: 09:00h-14:00h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28121,
+     "unit": "Filijala Bulevar Mihaila Pupina 165g",
+     "place": "Novi Beograd",
+     "address": "Bulevar Mihaila Pupina 165g",
+     "phones": null,
+     "hours": "Ponedeljak –Petak 09h-16:30h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28122,
+     "unit": "Filijala Dvorska 2",
+     "place": "Vršac",
+     "address": "Dvorska 2",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 08h-15:30h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28123,
+     "unit": "Filijala Futoška 1a",
+     "place": "Novi Sad",
+     "address": "Futoška 1a",
+     "phones": null,
+     "hours": "Ponedeljak: 08h-15:30h Utorak: 08h-15:30h Sreda: 08h-15:30h Četvrtak: 10h-17:30h Petak: 08h-15:30h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28124,
+     "unit": "Filijala Teodora Pavlovića 36",
+     "place": "Novi Sad",
+     "address": "Teodora Pavlovića 36",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 08h-15:30h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28125,
+     "unit": "Filijala Kralja Petra I 9",
+     "place": "Sremska Mitrovica",
+     "address": "Kralja Petra I 9",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 08h-15:30h Blagajna: Ponedeljak - Petak: 8:00h – 13:00h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28126,
+     "unit": "Filijala Bulevar Nemanjića 25",
+     "place": "Medijana",
+     "address": "Bulevar Nemanjića 25",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 08h-15:30h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28127,
+     "unit": "Filijala Galerija - Vudroa Vilsona 14",
+     "place": "Savski venac",
+     "address": "Galerija - Vudroa Vilsona 14",
+     "phones": null,
+     "hours": "Ponedeljak-Nedelja: 10h-22h *Bezgotovinska filijala",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28129,
+     "unit": "Filijala Bulevar Arsenija Čarnojevića 59A",
+     "place": "Novi Beograd",
+     "address": "Bulevar Arsenija Čarnojevića 59a",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 09h - 16:30h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28130,
+     "unit": "Filijala Krfska 16",
+     "place": "Zaječar",
+     "address": "Krfska 16",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 08h - 15:30h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28131,
+     "unit": "Filijala Neznanog junaka 23",
+     "place": "Savski venac",
+     "address": "Neznanog junaka 23",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 09h-16:30h Blagajna: Ponedeljak - Petak: 09h-14:00h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28132,
+     "unit": "Filijala Palata nauke, Kralja Milana 11-Digital spot",
+     "place": "Vračar",
+     "address": "Palata nauke, Kralja Milana 11-Digital spot",
+     "phones": null,
+     "hours": "Ponedeljak – neradan dan UTO-PET – 10-18h VIKEND – 11-19h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28133,
+     "unit": "Filijala Ulica generala Petra Aračića 2",
+     "place": "Pančevo",
+     "address": "generala Petra Aračića 2",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 08h - 15:30h, blagajna radi do 13h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28134,
+     "unit": "Filijala Trg Republike 16",
+     "place": "Subotica",
+     "address": "Trg Republike 16",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 09h – 16:30h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28135,
+     "unit": "Filijala Petefi Šandora 7",
+     "place": "Apatin",
+     "address": "Petefi Šandora 7",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 08:30h-16h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28136,
+     "unit": "Filijala Maršala Tita 57",
+     "place": "Vrbas",
+     "address": "Maršala Tita 57",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 08:30h-16h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28137,
+     "unit": "Filijala Orlovićeva 2",
+     "place": "Ruma",
+     "address": "Orlovićeva 2",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 08:30h-16h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28139,
+     "unit": "Filijala Kralja Petra I 7",
+     "place": "Bačka Palanka",
+     "address": "Kralja Petra I 7",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 08:30h-16h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28140,
+     "unit": "Filijala Bulevar Jovana Dučića 5.",
+     "place": "Novi Sad",
+     "address": "Bulevar Jovana Dučića 5",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 09h –16:30h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28141,
+     "unit": "Filijala Bulevar Mihajla Pupina 14",
+     "place": "Novi Sad",
+     "address": "Bulevar Mihajla Pupina 14",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 09h - 16:30h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28142,
+     "unit": "Filijala Kralja Petra I Karađorđevića 1a",
+     "place": "Stara Pazova",
+     "address": "Kralja Petra I Karađorđevića 1a",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 08h –15:30h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28143,
+     "unit": "Filijala Trg srpskih dobrovoljaca 6",
+     "place": "Kikinda",
+     "address": "Trg srpskih dobrovoljaca 6",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 08:30h-16h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28144,
+     "unit": "Filijala Bulevar Oslobođenja 97",
+     "place": "Novi Sad",
+     "address": "Bulevar Oslobođenja 97",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 09h-16:30h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28145,
+     "unit": "Filijala Trg šabačkih žrtava bb",
+     "place": "Šabac",
+     "address": "Trg šabačkih žrtava bb",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 08:30h-16h",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28146,
+     "unit": "Filijala Pašićeva 8",
+     "place": "Loznica",
+     "address": "Pašićeva 8",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 08:30h-16h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28147,
+     "unit": "Filijala Trg Revolucije 15",
+     "place": "Leskovac",
+     "address": "Trg Revolucije 15",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 08h-15:30h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28148,
+     "unit": "Filijala 5 septembra 2",
+     "place": "Surdulica",
+     "address": "5 septembra 2",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 08:30h-16h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28149,
+     "unit": "Filijala Knjaževačka 11",
+     "place": "Pantelej",
+     "address": "Knjaževačka 11",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 09h-16:30h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28151,
+     "unit": "Filijala Karađorđeva 37",
+     "place": "Ćuprija",
+     "address": "Karađorđeva 37",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 08:30h-16h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28152,
+     "unit": "Filijala Trg Stevana Sinđelića bb",
+     "place": "Svilajnac",
+     "address": "Trg Stevana Sinđelića bb",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 08:30h-16h",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28153,
+     "unit": "Filijala Vidovdanska bb",
+     "place": "Kruševac",
+     "address": "Vidovdanska bb",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 09h – 16:30h",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28154,
+     "unit": "Filijala Trg Đorđa Stanojevića 68/1",
+     "place": "Negotin",
+     "address": "Trg Đorđa Stanojevića 68/1",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 08:30h-16h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28155,
+     "unit": "Filijala Nade Tomić 25",
+     "place": "Medijana",
+     "address": "Nade Tomić 25",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 09h-16:30h Sreda: 10:30h-18h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28157,
+     "unit": "Filijala Stevana Nemanje 148a",
+     "place": "Novi Pazar",
+     "address": "Stevana Nemanje 148a",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 09h – 16:30h Blagajna: Ponedeljak - Petak: 09h-14h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28158,
+     "unit": "Filijala Milinka Kušića 23",
+     "place": "Ivanjica",
+     "address": "Milinka Kušića 23",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 08:30h-16h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28159,
+     "unit": "Filijala Svetog Ahilija 24",
+     "place": "Arilje",
+     "address": "Svetog Ahilija 24",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 08:30h-16h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28160,
+     "unit": "Filijala Petra Ćelovića 2",
+     "place": "Užice",
+     "address": "Petra Ćelovića 2",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 09h – 16:30h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28161,
+     "unit": "Filijala Trg FAP-a 1",
+     "place": "Priboj",
+     "address": "Trg FAP-a 1",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 08:30h-16h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28162,
+     "unit": "Filijala Solunskih boraca 16",
+     "place": "Nova Varoš",
+     "address": "Solunskih boraca 16",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 08:30h-16h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28163,
+     "unit": "Filijala Nemanjina 2",
+     "place": "Vrnjačka Banja",
+     "address": "Nemanjina 2",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 08:30h-16h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28164,
+     "unit": "Filijala Karađorđeva 44",
+     "place": "Rača",
+     "address": "Karađorđeva 44",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 08h-15:30h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28165,
+     "unit": "Filijala Kralja Petra I 10",
+     "place": "Batočina",
+     "address": "Kralja Petra I 10",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 08h-15:30h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28166,
+     "unit": "Filijala Knjaza Miloša 230",
+     "place": "Aranđelovac",
+     "address": "Knjaza Miloša 230",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 08h-15:30h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28167,
+     "unit": "Filijala Kneza Miloša 2",
+     "place": "Kragujevac",
+     "address": "Kneza Miloša 2",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 08h-15:30h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28168,
+     "unit": "Filijala Kralja Petra I 26",
+     "place": "Kragujevac",
+     "address": "Kralja Petra I 26",
+     "phones": null,
+     "hours": "Ponedelja -petak 9h-16:30h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28169,
+     "unit": "Filijala I srpskog ustanka 17",
+     "place": "Smederevska Palanka",
+     "address": "I srpskog ustanka 17",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 08:30h-16h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28170,
+     "unit": "Filijala Vojvode Mišića 52",
+     "place": "Mionica",
+     "address": "Vojvode Mišića 52",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 09h – 16:30h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28173,
+     "unit": "Filijala Balkanska 49",
+     "place": "Savski venac",
+     "address": "Balkanska 49",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 09h – 16:30h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28174,
+     "unit": "Filijala Cara Dušana 58",
+     "place": "Stari grad",
+     "address": "Cara Dušana 58",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 09h – 16:30h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28175,
+     "unit": "Filijala Uroša Martinovića 19N",
+     "place": "Novi Beograd",
+     "address": "Uroša Martinovića 19n",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 08:00h – 15:30h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28176,
+     "unit": "Filijala Bulevar despota Stefana 102",
+     "place": "Palilula",
+     "address": "Bulevar despota Stefana 102",
+     "phones": null,
+     "hours": "Ponedeljak – Petak: 08:30h – 16:00h Sreda: 10:30 – 18:00h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28177,
+     "unit": "Filijala Prvomajska 86",
+     "place": "Zemun",
+     "address": "Prvomajska 86",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 09h – 16:30h Sreda: 10:30h-18h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28179,
+     "unit": "Filijala Paunova 9",
+     "place": "Voždovac",
+     "address": "Paunova 9",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 09h – 16:30h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28180,
+     "unit": "Filijala Ive Lole Ribara 154a",
+     "place": "Čukarica",
+     "address": "Ive Lole Ribara 154a",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 09h – 16:30h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28181,
+     "unit": "Filijala Vuka Karadžića 10",
+     "place": "Stari grad",
+     "address": "Vuka Karadžića 10",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 09h – 16:30h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28182,
+     "unit": "Filijala Resavska 49",
+     "place": "Savski venac",
+     "address": "Resavska 49",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 08:30h-16h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28183,
+     "unit": "Filijala Karađorđeva 58",
+     "place": "Lazarevac",
+     "address": "Karađorđeva 58",
+     "phones": null,
+     "hours": "Ponedeljak - petak: 08:30h- 16h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28184,
+     "unit": "Filijala Kneza Miloša 39",
+     "place": "Sopot",
+     "address": "Kneza Miloša 39",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 08:30h-16h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28185,
+     "unit": "Filijala Kralja Petra I 239",
+     "place": "Mladenovac",
+     "address": "Kralja Petra I 239",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 08:30h-16h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28186,
+     "unit": "Filijala 27 marta 26-28",
+     "place": "Palilula",
+     "address": "27 marta 26-28",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 08:30h-16h Sreda: 10:30h-18h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28188,
+     "unit": "Filijala Miloša Obrenovića 109",
+     "place": "Obrenovac",
+     "address": "Miloša Obrenovića 109",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 08:30h-16h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28190,
+     "unit": "Filijala Trgovačka 9",
+     "place": "Čukarica",
+     "address": "Trgovačka 9",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 09h – 16:30h Sreda: 10:30h-18h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28191,
+     "unit": "Filijala Terazije 7-9",
+     "place": "Stari grad",
+     "address": "Terazije 7",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 09h – 16:30h Sreda: 10:30h-18h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28192,
+     "unit": "Filijala Trg Republike 12",
+     "place": "Smederevo",
+     "address": "Trg Republike 12",
+     "phones": null,
+     "hours": "Ponedeljak – Petak: 08:00h – 15:30h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28193,
+     "unit": "Filijala Ustanička 182A",
+     "place": "Zvezdara",
+     "address": "Ustanička 182a",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 09h – 16:30h Sreda: 10:30h-18h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28194,
+     "unit": "Filijala Nikole Pašića 12",
+     "place": "Zrenjanin",
+     "address": "Nikole Pašića 12",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 08h-15:30h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28195,
+     "unit": "Filijala Rujanska 2",
+     "place": "Čajetina",
+     "address": "Rujanska 2",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 09h-16:30h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28196,
+     "unit": "Filijala Nikole Pašića 6",
+     "place": "Požega",
+     "address": "Nikole Pašića 6",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 08h-15:30h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28197,
+     "unit": "Filijala Miluna Ivanovića 13",
+     "place": "Raška",
+     "address": "Miluna Ivanovića 13",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 08h-15:30h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28198,
+     "unit": "Filijala Zelena 54-54A",
+     "place": "Bečej",
+     "address": "Zelena 54",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 08h-15:30h",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28199,
+     "unit": "Filijala Generala Milojka Lešjanina 19",
+     "place": "Medijana",
+     "address": "Generala Milojka Lešjanina 19",
+     "phones": null,
+     "hours": "Ponedeljak - Petak: 08h-15:30h",
+     "need": [
+      "phones"
+     ]
+    }
+   ]
+  }
+ ],
+ "id": "net-banka-aik"
+}

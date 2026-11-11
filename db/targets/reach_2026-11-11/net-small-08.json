@@ -1,0 +1,598 @@
+{
+ "kind": "network",
+ "title": "Manje mreže",
+ "type": "mixed",
+ "orgs": [
+  {
+   "org_slug": "apotekarska-ustanova-remedia-nis",
+   "name": "Apotekarska ustanova \"Remedia\"",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 11738,
+     "unit": "\"GRADSKA APOTEKA\"",
+     "place": "Niš",
+     "address": "Obrenovićeva broj 2",
+     "phones": "060 3301579",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11739,
+     "unit": "\"REMEDIA SUNCE\"",
+     "place": "Niš",
+     "address": "Hajduk Veljkova broj 51a",
+     "phones": "060 3307579",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11740,
+     "unit": "\"VILIN GRAD\"",
+     "place": "Niš",
+     "address": "Vojvode Tankosića broj 36a/2",
+     "phones": "060 3302579",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11741,
+     "unit": "\"REMEDIA PLUS\"",
+     "place": "Niš",
+     "address": "Njegoševa broj 10i",
+     "phones": "065 3001579",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11742,
+     "unit": "\"REMEDIA ČARNOJEVIĆ\"",
+     "place": "Niš",
+     "address": "Čarnojevića broj 5a",
+     "phones": "060 3330579",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11743,
+     "unit": "\"REMEDIA TROŠARINA\"",
+     "place": "Niš",
+     "address": "Bojana Mitrovića broj 20",
+     "phones": "060 3303579",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11744,
+     "unit": "\"REMEDIA ČAIR\"",
+     "place": "Niš",
+     "address": "Prvomajska broj 2",
+     "phones": "065 3331579",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11745,
+     "unit": "\"REMEDIA NKC\"",
+     "place": "Niš",
+     "address": "Bulevar dr Zorana Ðinđića broj 48",
+     "phones": "065 8278700",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11746,
+     "unit": "\"REMEDIA SVRLJIG 1\"",
+     "place": "Svrljig",
+     "address": "Hadžićeva broj 43",
+     "phones": "060 3309579",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "apotekarska-ustanova-seki-tilia-petrovac-na-mlavi",
+   "name": "Apotekarska ustanova \"Šeki - Tilia\"",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 11337,
+     "unit": "SEDIŠTE - OGRANAK",
+     "place": "Petrovac na Mlavi",
+     "address": "Srpskih vladara broj 304",
+     "phones": "012 327507",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11338,
+     "unit": "OGRANAK BROJ 2",
+     "place": "Žagubica",
+     "address": "Nikole Pašića broj 1",
+     "phones": "012 7643030",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11339,
+     "unit": "OGRANAK BROJ 3",
+     "place": "Majdanpek",
+     "address": "Nikole Pašića bb",
+     "phones": "030 590333",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11340,
+     "unit": "OGRANAK BROJ 4",
+     "place": "Žagubica",
+     "address": "Cara Lazara broj 17",
+     "phones": "012 7642102",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11341,
+     "unit": "OGRANAK BROJ 5",
+     "place": "Aleksandrovac",
+     "address": "Kralja Aleksandra Obrenovića broj 51",
+     "phones": "012 7101745",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11342,
+     "unit": "OGRANAK PETROVAC 2",
+     "place": "Petrovac na Mlavi",
+     "address": "Moravska broj 2",
+     "phones": "012 328090",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11343,
+     "unit": "OGRANAK BROJ 7",
+     "place": "Majdanpek",
+     "address": "Rudna Glava bb",
+     "phones": "030 2585666",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11344,
+     "unit": "OGRANAK BROJ 8",
+     "place": "Majdanpek",
+     "address": "Kralja Petra I bb",
+     "phones": "030 590168",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11345,
+     "unit": "OGRANAK BROJ 9",
+     "place": "Kladovo",
+     "address": "22.septembra broj 8",
+     "phones": "019 803160",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11346,
+     "unit": "OGRANAK BROJ 10",
+     "place": "Bor",
+     "address": "Prvomajska broj 1",
+     "phones": "030 2150033",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11347,
+     "unit": "OGRANAK BROJ 14",
+     "place": "Velika Plana",
+     "address": "Trg Prvoboraca broj 26",
+     "phones": "026 4150093",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11348,
+     "unit": "OGRANAK BROJ 15",
+     "place": "Požarevac",
+     "address": "Kosovska broj 29",
+     "phones": "012 7160030",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11349,
+     "unit": "OGRANAK BROJ 16",
+     "place": "Bor",
+     "address": "Nikole Kopernika broj 2",
+     "phones": "030 2101036",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11350,
+     "unit": "OGRANAK BROJ 17",
+     "place": "Petrovac na Mlavi",
+     "address": "Petra Dobrnjca broj 54",
+     "phones": "062 346776",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "apotekarska-ustanova-sopharmacy-beograd",
+   "name": "Apotekarska ustanova \"Sopharmacy\"",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 14236,
+     "unit": "Apoteka",
+     "place": "Beograd",
+     "address": "Bulevar Maršala Tolbuhina broj 29",
+     "phones": "062 271165",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14238,
+     "unit": "Ogranak Sopharmacy 02 Pašino brdo",
+     "place": "Beograd",
+     "address": "Bačvanska 21",
+     "phones": "062 271263",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14240,
+     "unit": "Ogranak Sopharmacy 03 Blok A",
+     "place": "Beograd",
+     "address": "Jurija Gagarina 20h",
+     "phones": "062 271284",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14243,
+     "unit": "Ogranak Sopharmacy 04 Požeška",
+     "place": "Beograd",
+     "address": "Požeška 98a",
+     "phones": "062 271323",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14245,
+     "unit": "Ogranak Sopharmacy 05 Kragujevac",
+     "place": "Kragujevac",
+     "address": "Zmaj Jovina 55",
+     "phones": "063 623246",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14247,
+     "unit": "Ogranak Sopharmacy Sopharmacy 06 Prokuplje",
+     "place": "Prokuplje",
+     "address": "Vuka Stefanovića Karađžića 3g",
+     "phones": "062 271309",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14249,
+     "unit": "Ogranak Sopharmacy 08 Sviljanac",
+     "place": "Svilajnac",
+     "address": "Visokog Stevana bb",
+     "phones": "062 271317",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14251,
+     "unit": "Ogranak Sopharmacy 07 Niš",
+     "place": "Niš",
+     "address": "Blagoja Parovića 1i",
+     "phones": "062 271262",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14253,
+     "unit": "Ogranak Sopharmacy 09 Čika Ljubina",
+     "place": "Beograd",
+     "address": "Čika Ljubina 11",
+     "phones": "062 270142",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "apotekarska-ustanova-sopharmacy-nova-loznica",
+   "name": "Apotekarska ustanova \"Sopharmacy Nova \"",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 10947,
+     "unit": "Apoteka",
+     "place": "Loznica",
+     "address": "Vojvode Mišića broj 34",
+     "phones": "063 422224",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10948,
+     "unit": "Оgranak ''SOPHARMACY NOVA CRVENI KRST KV 01 ''",
+     "place": "Kraljevo",
+     "address": "MILOŠA VELIKOG bb",
+     "phones": "036 315640",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10949,
+     "unit": "Оgranak ''SOPHARMACY NOVA ZDRAVLJE KV 02 ''",
+     "place": "Kraljevo",
+     "address": "TRG SRPSKIH RATNIKA broj 14",
+     "phones": "036 315630; 036 315633",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10950,
+     "unit": "Оgranak ''SOPHARMACY NOVA RIBNICA KV 03 А''",
+     "place": "Kraljevo",
+     "address": "IZLETNIČKA broj 2",
+     "phones": "036 371151",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10951,
+     "unit": "Оgranak ''SOPHARMACY NOVA CENTAR RAŠKA 06 ''",
+     "place": "Raška",
+     "address": "MILUNA IVANOVIĆA broj 12",
+     "phones": "036 738080",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10952,
+     "unit": "Оgranak ''SOPHARMACY NOVA DR JOVANOVIĆA RAŠKA 07 ''",
+     "place": "Raška",
+     "address": "DR.JOVANOVIĆA broj 4",
+     "phones": "036 736080",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10953,
+     "unit": "Оgranak ''SOPHARMACY NOVA MERKUR VB 11 ''",
+     "place": "Vrnjačka Banja",
+     "address": "Nemanjina broj 1",
+     "phones": "036 613888",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10954,
+     "unit": "Оgranak ''SOPHARMACY NOVA VOJVODE PUTNIKA KV 13 ''",
+     "place": "Kraljevo",
+     "address": "Vojvode Stepe broj 16",
+     "phones": "036 313057",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "apotekarska-ustanova-stesa-lek-kikinda",
+   "name": "Apotekarska ustanova \"Stesa-lek\"",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 10453,
+     "unit": "Apoteka",
+     "place": "Kikinda",
+     "address": "Generala Drapšina broj 1",
+     "phones": "0230 421832",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10454,
+     "unit": "Ogranak",
+     "place": "Kikinda",
+     "address": "Svetosavska broj 119a",
+     "phones": "0230 401810",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10455,
+     "unit": "Ogranak 2",
+     "place": "Kikinda",
+     "address": "Trg srpskih dobrovoljaca broj 17",
+     "phones": "0230 439413",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10456,
+     "unit": "Ogranak 3",
+     "place": "Kikinda",
+     "address": "Svetosavska broj 54",
+     "phones": "0230 436492",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10457,
+     "unit": "Ogranak 4",
+     "place": "Kikinda",
+     "address": "Vojvode Putnika broj 21/1",
+     "phones": "0230 316108",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10458,
+     "unit": "Ogranak 5",
+     "place": "Kikinda",
+     "address": "Svetog Save broj 77",
+     "phones": "0230 316107",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10459,
+     "unit": "Ogranak 6",
+     "place": "Kikinda",
+     "address": "Svetosavska broj 17",
+     "phones": "0230 504434",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10460,
+     "unit": "Ogranak 7",
+     "place": "Beograd",
+     "address": "Admirala Geprata broj 8",
+     "phones": "011 4017145",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10461,
+     "unit": "Ogranak 8",
+     "place": "Beograd",
+     "address": "Ravanička broj 33",
+     "phones": "011 6182311",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10462,
+     "unit": "Ogranak 9",
+     "place": "Kikinda",
+     "address": "Braće Tatić broj 3",
+     "phones": "0230 305941",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  }
+ ],
+ "id": "net-small-08"
+}

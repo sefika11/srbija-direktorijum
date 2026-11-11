@@ -1,0 +1,2849 @@
+{
+ "kind": "network",
+ "title": "OTP banka",
+ "type": "banka",
+ "orgs": [
+  {
+   "org_slug": "banka-otp",
+   "name": "OTP banka",
+   "website": "https://www.otpbanka.rs",
+   "rows": [
+    {
+     "location_id": 19468,
+     "unit": "OTP banka",
+     "place": "Sombor",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 19472,
+     "unit": "OTP banka",
+     "place": "Sombor",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 19502,
+     "unit": "OTP banka",
+     "place": "Novi Sad",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 19525,
+     "unit": "OTP banka",
+     "place": "Subotica",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 19535,
+     "unit": "OTP banka",
+     "place": "Bačka Topola",
+     "address": "Maršala Tita 48b",
+     "phones": "011 3011555",
+     "hours": "Pon-Pet 08:00-15:30; rad sa novcem Pon-Pet 08:00-12:00",
+     "need": []
+    },
+    {
+     "location_id": 19537,
+     "unit": "OTP banka",
+     "place": "Bor",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 19568,
+     "unit": "OTP banka",
+     "place": "Novi Sad",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 19614,
+     "unit": "OTP banka",
+     "place": "Prijepolje",
+     "address": "Sandžačkih brigada 15",
+     "phones": "011 3011555",
+     "hours": "Pon-Pet 08:00-15:30; rad sa novcem Pon-Pet 08:00-12:00",
+     "need": []
+    },
+    {
+     "location_id": 19618,
+     "unit": "OTP banka",
+     "place": "Šid",
+     "address": "Svetog Save 8",
+     "phones": "011 3011555",
+     "hours": "Pon-Pet 08:00-15:30",
+     "need": []
+    },
+    {
+     "location_id": 19652,
+     "unit": "OTP banka",
+     "place": "Voždovac",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 00:00-24:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 19667,
+     "unit": "OTP banka",
+     "place": "Apatin",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 19708,
+     "unit": "OTP banka",
+     "place": "Bečej",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 19759,
+     "unit": "OTP banka",
+     "place": "Čoka",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 19787,
+     "unit": "OTP banka",
+     "place": "Novi Sad",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 19811,
+     "unit": "OTP banka",
+     "place": "Novi Sad",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 19870,
+     "unit": "OTP banka",
+     "place": "Savski venac",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 19889,
+     "unit": "OTP banka",
+     "place": "Voždovac",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 19894,
+     "unit": "OTP banka",
+     "place": "Velika Plana",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 19927,
+     "unit": "OTP banka",
+     "place": "Smederevo",
+     "address": "Trg republike 11",
+     "phones": "011 3011555",
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-14:00",
+     "need": []
+    },
+    {
+     "location_id": 19936,
+     "unit": "OTP banka",
+     "place": "Pirot",
+     "address": "Trg oslobodioca Pirota 6",
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": []
+    },
+    {
+     "location_id": 19937,
+     "unit": "OTP banka",
+     "place": "Dimitrovgrad",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 19950,
+     "unit": "OTP Bank",
+     "place": "Prokuplje",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 19970,
+     "unit": "OTP banka",
+     "place": "Zrenjanin",
+     "address": "Bulevar Veljka Vlahovića 14p",
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": []
+    },
+    {
+     "location_id": 19973,
+     "unit": "OTP banka",
+     "place": "Odžaci",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 19983,
+     "unit": "OTP banka",
+     "place": "Šabac",
+     "address": "Karađorđeva 42",
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": []
+    },
+    {
+     "location_id": 20000,
+     "unit": "OTP banka",
+     "place": "Stari grad",
+     "address": "Kralja Petra 21",
+     "phones": "011 3011555",
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-12:00",
+     "need": []
+    },
+    {
+     "location_id": 20007,
+     "unit": "OTP banka",
+     "place": "Stari grad",
+     "address": "Trg Nikole Pašića 5a",
+     "phones": "011 3011555",
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-12:00",
+     "need": []
+    },
+    {
+     "location_id": 20010,
+     "unit": "OTP banka",
+     "place": "Zvezdara",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20011,
+     "unit": "OTP banka",
+     "place": "Zvezdara",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Fr 09:00-17:00",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 20036,
+     "unit": "OTP banka",
+     "place": "Savski venac",
+     "address": "Andre Nikolića 2a",
+     "phones": "011 3011555",
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-12:00",
+     "need": []
+    },
+    {
+     "location_id": 20063,
+     "unit": "OTP banka",
+     "place": "Zvezdara",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 20143,
+     "unit": "OTP banka",
+     "place": "Vračar",
+     "address": "Maksima Gorkog 73",
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": []
+    },
+    {
+     "location_id": 20148,
+     "unit": "OTP banka",
+     "place": "Voždovac",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20163,
+     "unit": "OTP banka",
+     "place": "Savski venac",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20179,
+     "unit": "OTP banka",
+     "place": "Kragujevac",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20188,
+     "unit": "OTP banka",
+     "place": "Kragujevac",
+     "address": "Kralja Petra prvog 11",
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": []
+    },
+    {
+     "location_id": 20211,
+     "unit": "OTP banka",
+     "place": "Medijana",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20212,
+     "unit": "OTP banka",
+     "place": "Medijana",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20214,
+     "unit": "OTP banka",
+     "place": "Medijana",
+     "address": "Nikole Pašića 28a",
+     "phones": "011 3011555",
+     "hours": "Pon-Pet 08:00-15:30",
+     "need": []
+    },
+    {
+     "location_id": 20243,
+     "unit": "OTP banka",
+     "place": "Zemun",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20258,
+     "unit": "OTP banka",
+     "place": "Novi Beograd",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20264,
+     "unit": "OTP banka",
+     "place": "Rakovica",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 20304,
+     "unit": "OTP banka",
+     "place": "Zrenjanin",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20401,
+     "unit": "OTP banka",
+     "place": "Užice",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20404,
+     "unit": "OTP banka",
+     "place": "Užice",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 20442,
+     "unit": "OTP banka",
+     "place": "Vlasotince",
+     "address": "Trg oslobođenja 18",
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": []
+    },
+    {
+     "location_id": 20643,
+     "unit": "OTP banka",
+     "place": "Voždovac",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20660,
+     "unit": "OTP banka",
+     "place": "Sečanj",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20669,
+     "unit": "OTP banka",
+     "place": "Surčin",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20891,
+     "unit": "OTP banka",
+     "place": "Kuršumlija",
+     "address": "Palih boraca 8",
+     "phones": "011 3011555",
+     "hours": "Pon-Pet 08:00-15:30; rad sa novcem Pon-Pet 08:00-12:00",
+     "need": []
+    },
+    {
+     "location_id": 21536,
+     "unit": "OTP banka",
+     "place": "Zvezdara",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 21543,
+     "unit": "OTP banka",
+     "place": "Rakovica",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 21545,
+     "unit": "OTP banka",
+     "place": "Zrenjanin",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 21549,
+     "unit": "OTP banka",
+     "place": "Subotica",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 21557,
+     "unit": "OTP banka",
+     "place": "Subotica",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 21727,
+     "unit": "OTP banka",
+     "place": "Raška",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 21746,
+     "unit": "OTP banka",
+     "place": "Novi Beograd",
+     "address": "Jurija Gagarina 76n",
+     "phones": null,
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 21814,
+     "unit": "OTP banka",
+     "place": "Vršac",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 21852,
+     "unit": "OTP banka",
+     "place": "Zaječar",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 21855,
+     "unit": "OTP banka",
+     "place": "Bela Palanka",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 21896,
+     "unit": "OTP banka",
+     "place": "Mali Iđoš",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 21900,
+     "unit": "OTP banka",
+     "place": "Trstenik",
+     "address": "Miodrag Čajetinac Čajka 1",
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": []
+    },
+    {
+     "location_id": 21909,
+     "unit": "OTP banka",
+     "place": "Kragujevac",
+     "address": "Kralja Aleksandra I Karađorđevića 25",
+     "phones": "011 3011555",
+     "hours": "Pon-Pet 08:00-15:30",
+     "need": []
+    },
+    {
+     "location_id": 21922,
+     "unit": "OTP banka",
+     "place": "Stara Pazova",
+     "address": "Svetosavska 2",
+     "phones": "011 3011555",
+     "hours": "Pon-Pet 08:30-16:00; rad sa novcem Pon-Pet 08:30-12:00",
+     "need": []
+    },
+    {
+     "location_id": 21964,
+     "unit": "OTP banka",
+     "place": "Obrenovac",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22041,
+     "unit": "OTP banka",
+     "place": "Palilula",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22053,
+     "unit": "OTP banka",
+     "place": "Vračar",
+     "address": "Katanićeva 18",
+     "phones": "011 3011555",
+     "hours": "Pon-Pet 09:00-16:30",
+     "need": []
+    },
+    {
+     "location_id": 22097,
+     "unit": "OTP banka",
+     "place": "Požega",
+     "address": "Knjaza Miloša 1",
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": []
+    },
+    {
+     "location_id": 22111,
+     "unit": "OTP banka",
+     "place": "Novi Sad",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22146,
+     "unit": "OTP banka",
+     "place": "Palilula",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22157,
+     "unit": "OTP banka",
+     "place": "Vračar",
+     "address": "Kralja Milana 33",
+     "phones": "011 3011555",
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-12:00",
+     "need": []
+    },
+    {
+     "location_id": 22174,
+     "unit": "OTP banka",
+     "place": "Bujanovac",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 22176,
+     "unit": "OTP banka",
+     "place": "Vranje",
+     "address": "Kralja Stefana Prvovenčanog 61",
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": []
+    },
+    {
+     "location_id": 22190,
+     "unit": "OTP banka",
+     "place": "Aleksinac",
+     "address": "Momčila Popovića 40",
+     "phones": "011 3011555",
+     "hours": "Pon-Pet 08:00-15:30; rad sa novcem Pon-Pet 08:00-12:00",
+     "need": []
+    },
+    {
+     "location_id": 22192,
+     "unit": "OTP banka",
+     "place": "Pančevo",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 22257,
+     "unit": "OTP banka",
+     "place": "Kruševac",
+     "address": "Trg kosturnica 64a",
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": []
+    },
+    {
+     "location_id": 22315,
+     "unit": "OTP banka",
+     "place": "Ruma",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22413,
+     "unit": "OTP banka",
+     "place": "Novi Beograd",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22414,
+     "unit": "OTP banka",
+     "place": "Novi Beograd",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 08:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22423,
+     "unit": "OTP banka",
+     "place": "Subotica",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22424,
+     "unit": "OTP banka",
+     "place": "Kula",
+     "address": "Moše Pijade 57",
+     "phones": "011 3011555",
+     "hours": "Pon-Pet 08:00-15:30",
+     "need": []
+    },
+    {
+     "location_id": 22425,
+     "unit": "OTP banka",
+     "place": "Vrbas",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22426,
+     "unit": "OTP banka",
+     "place": "Bačka Palanka",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22427,
+     "unit": "OTP banka",
+     "place": "Kula",
+     "address": "Maršala Tita 244",
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": []
+    },
+    {
+     "location_id": 22428,
+     "unit": "OTP banka",
+     "place": "Novi Sad",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22431,
+     "unit": "OTP banka",
+     "place": "Kanjiža",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22432,
+     "unit": "OTP banka",
+     "place": "Senta",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22433,
+     "unit": "OTP banka",
+     "place": "Ada",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22434,
+     "unit": "OTP banka",
+     "place": "Novi Bečej",
+     "address": "Sonje Marinković 1",
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": []
+    },
+    {
+     "location_id": 22435,
+     "unit": "OTP banka",
+     "place": "Nova Crnja",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22436,
+     "unit": "OTP banka",
+     "place": "Zrenjanin",
+     "address": "Srpskih vladara 54a",
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": []
+    },
+    {
+     "location_id": 22437,
+     "unit": "OTP banka",
+     "place": "Žitište",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22438,
+     "unit": "OTP banka",
+     "place": "Plandište",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22439,
+     "unit": "OTP banka",
+     "place": "Alibunar",
+     "address": "Nemanjina 58",
+     "phones": "011 3011555",
+     "hours": "Pon-Pet 08:00-15:30; rad sa novcem Pon-Pet 08:00-12:00",
+     "need": []
+    },
+    {
+     "location_id": 22440,
+     "unit": "OTP banka",
+     "place": "Kovin",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22441,
+     "unit": "OTP banka",
+     "place": "Novi Sad",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22442,
+     "unit": "OTP banka",
+     "place": "Novi Sad",
+     "address": "Bulevar oslobođenja 60",
+     "phones": "011 3011555",
+     "hours": "Pon-Pet 09:00-16:30",
+     "need": []
+    },
+    {
+     "location_id": 22443,
+     "unit": "OTP banka",
+     "place": "Novi Sad",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22444,
+     "unit": "OTP banka",
+     "place": "Irig",
+     "address": "Nikole Tesle 6",
+     "phones": "011 3011555",
+     "hours": "Pon-Pet 08:00-15:30",
+     "need": []
+    },
+    {
+     "location_id": 22445,
+     "unit": "OTP banka",
+     "place": "Zemun",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22446,
+     "unit": "OTP banka",
+     "place": "Pećinci",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22447,
+     "unit": "OTP banka",
+     "place": "Inđija",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22448,
+     "unit": "OTP banka",
+     "place": "Zemun",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22449,
+     "unit": "OTP banka",
+     "place": "Novi Beograd",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22450,
+     "unit": "OTP banka",
+     "place": "Novi Beograd",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22451,
+     "unit": "OTP banka",
+     "place": "Palilula",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22452,
+     "unit": "OTP banka",
+     "place": "Voždovac",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22453,
+     "unit": "OTP banka",
+     "place": "Zvezdara",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22454,
+     "unit": "OTP banka",
+     "place": "Zvezdara",
+     "address": "Rableova 19",
+     "phones": "011 3011555",
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-12:00",
+     "need": []
+    },
+    {
+     "location_id": 22455,
+     "unit": "OTP banka",
+     "place": "Čukarica",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22456,
+     "unit": "OTP banka",
+     "place": "Čukarica",
+     "address": "Požeška 156",
+     "phones": "011 3011555",
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-12:00",
+     "need": []
+    },
+    {
+     "location_id": 22457,
+     "unit": "OTP banka",
+     "place": "Čukarica",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22458,
+     "unit": "OTP banka",
+     "place": "Valjevo",
+     "address": "Karađorđeva 57",
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": []
+    },
+    {
+     "location_id": 22459,
+     "unit": "OTP banka",
+     "place": "Valjevo",
+     "address": "Vuka Karadžića 30",
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": []
+    },
+    {
+     "location_id": 22460,
+     "unit": "OTP banka",
+     "place": "Loznica",
+     "address": "Vojvode Mišića 4",
+     "phones": "011 3011555",
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-12:00",
+     "need": []
+    },
+    {
+     "location_id": 22461,
+     "unit": "OTP banka",
+     "place": "Šabac",
+     "address": "Masarikova 7",
+     "phones": "011 3011555",
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-12:00",
+     "need": []
+    },
+    {
+     "location_id": 22462,
+     "unit": "OTP banka",
+     "place": "Šabac",
+     "address": "Karađorđeva 20",
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": []
+    },
+    {
+     "location_id": 22463,
+     "unit": "OTP banka",
+     "place": "Mladenovac",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22464,
+     "unit": "OTP banka",
+     "place": "Lazarevac",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22465,
+     "unit": "OTP banka",
+     "place": "Aranđelovac",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22466,
+     "unit": "OTP banka",
+     "place": "Požarevac",
+     "address": "Tabačka čaršija 3",
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": []
+    },
+    {
+     "location_id": 22467,
+     "unit": "OTP banka",
+     "place": "Smederevska Palanka",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22468,
+     "unit": "OTP banka",
+     "place": "Despotovac",
+     "address": "Moravska 24",
+     "phones": "011 3011555",
+     "hours": "Pon-Pet 08:00-15:30",
+     "need": []
+    },
+    {
+     "location_id": 22469,
+     "unit": "OTP banka",
+     "place": "Svilajnac",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22470,
+     "unit": "OTP banka",
+     "place": "Paraćin",
+     "address": "Kralja Petra prvog 67",
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": []
+    },
+    {
+     "location_id": 22471,
+     "unit": "OTP banka",
+     "place": "Ćuprija",
+     "address": "Cara Lazara 2",
+     "phones": "011 3011555",
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-12:00",
+     "need": []
+    },
+    {
+     "location_id": 22472,
+     "unit": "OTP banka",
+     "place": "Čačak",
+     "address": "Župana Stracimira 8",
+     "phones": "011 3011555",
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-12:00",
+     "need": []
+    },
+    {
+     "location_id": 22473,
+     "unit": "OTP banka",
+     "place": "Čačak",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22474,
+     "unit": "OTP banka",
+     "place": "Jagodina",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22475,
+     "unit": "OTP banka",
+     "place": "Bajina Bašta",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22476,
+     "unit": "OTP banka",
+     "place": "Kragujevac",
+     "address": "Bulevar kraljice Marije 54b",
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": []
+    },
+    {
+     "location_id": 22477,
+     "unit": "OTP banka",
+     "place": "Gornji Milanovac",
+     "address": "Kneza Aleksandra Karađorđevića 1",
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": []
+    },
+    {
+     "location_id": 22480,
+     "unit": "OTP banka",
+     "place": "Priboj",
+     "address": "Nemanjina 47",
+     "phones": "011 3011555",
+     "hours": "Pon-Pet 08:30-16:00; rad sa novcem Pon-Pet 08:30-12:00",
+     "need": []
+    },
+    {
+     "location_id": 22481,
+     "unit": "OTP banka",
+     "place": "Ivanjica",
+     "address": "Perse Rajević 5",
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": []
+    },
+    {
+     "location_id": 22482,
+     "unit": "OTP banka",
+     "place": "Nova Varoš",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22483,
+     "unit": "OTP banka",
+     "place": "Sjenica",
+     "address": "Rifata Burdžovića Trše 23",
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": []
+    },
+    {
+     "location_id": 22484,
+     "unit": "OTP banka",
+     "place": "Novi Pazar",
+     "address": "Stevana Nemanje 110",
+     "phones": "011 3011555",
+     "hours": "Pon-Pet 08:00-15:30; rad sa novcem Pon-Pet 08:00-12:00",
+     "need": []
+    },
+    {
+     "location_id": 22485,
+     "unit": "OTP banka",
+     "place": "Kraljevo",
+     "address": "Trg Srpskih ratnika 48",
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": []
+    },
+    {
+     "location_id": 22486,
+     "unit": "OTP banka",
+     "place": "Aleksandrovac",
+     "address": "29. novembra 21",
+     "phones": "011 3011555",
+     "hours": "Pon-Pet 08:30-16:00; rad sa novcem Pon-Pet 08:30-12:00",
+     "need": []
+    },
+    {
+     "location_id": 22487,
+     "unit": "OTP banka",
+     "place": "Svrljig",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22488,
+     "unit": "OTP banka",
+     "place": "Sokobanja",
+     "address": "Alekse Markišića 9",
+     "phones": "011 3011555",
+     "hours": "Pon-Pet 08:00-15:30",
+     "need": []
+    },
+    {
+     "location_id": 22489,
+     "unit": "OTP banka",
+     "place": "Medijana",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22490,
+     "unit": "OTP banka",
+     "place": "Medijana",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22491,
+     "unit": "OTP banka",
+     "place": "Bujanovac",
+     "address": "Trg Karađorđa Petrovića 18",
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": []
+    },
+    {
+     "location_id": 22492,
+     "unit": "OTP banka",
+     "place": "Babušnica",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22493,
+     "unit": "OTP banka",
+     "place": "Prokuplje",
+     "address": "21. srpske divizije 1",
+     "phones": "011 3011555",
+     "hours": "Pon-Pet 08:00-15:30; rad sa novcem Pon-Pet 08:00-12:00",
+     "need": []
+    },
+    {
+     "location_id": 22495,
+     "unit": "OTP banka",
+     "place": "Leskovac",
+     "address": "Bulevar oslobođenja 73",
+     "phones": "011 3011555",
+     "hours": "Pon-Pet 08:30-16:00",
+     "need": []
+    },
+    {
+     "location_id": 22496,
+     "unit": "OTP banka",
+     "place": "Leskovac",
+     "address": "Bulevar oslobođenja 25",
+     "phones": "011 3011555",
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-12:00",
+     "need": []
+    },
+    {
+     "location_id": 22497,
+     "unit": "OTP banka",
+     "place": "Surdulica",
+     "address": "Srpskih vladara 25",
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": []
+    },
+    {
+     "location_id": 22716,
+     "unit": "OTP banka",
+     "place": "Pančevo",
+     "address": null,
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23601,
+     "unit": "OTP banka",
+     "place": "Novi Beograd",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23662,
+     "unit": "OTP banka (Srbija)",
+     "place": "Vranje",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23695,
+     "unit": "OTP banka",
+     "place": "Temerin",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23704,
+     "unit": "OTP Banka",
+     "place": "Grocka",
+     "address": "Kralja Petra prvog 1",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23752,
+     "unit": "OTP banka",
+     "place": "Novi Beograd",
+     "address": "Bulevar Mihajla Pupina 111",
+     "phones": "011 3011555",
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-12:00",
+     "need": []
+    },
+    {
+     "location_id": 23806,
+     "unit": "OTP banka",
+     "place": "Vrnjačka Banja",
+     "address": "Kneza Miloša 17",
+     "phones": "011 3011555",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": []
+    },
+    {
+     "location_id": 23809,
+     "unit": "OTP banka",
+     "place": "Novi Beograd",
+     "address": "Bulevar Zorana Đinđića 50a",
+     "phones": "011 3011555",
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-12:00",
+     "need": []
+    },
+    {
+     "location_id": 23855,
+     "unit": "OTP banka",
+     "place": "Sremska Mitrovica",
+     "address": "Trg vojvođanskih brigada 1",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23966,
+     "unit": "OTP banka",
+     "place": "Stari grad",
+     "address": "Cara Dušana 37a",
+     "phones": "011 3011555",
+     "hours": "Pon-Pet 09:00-16:30",
+     "need": []
+    },
+    {
+     "location_id": 23989,
+     "unit": "OTP banka",
+     "place": "Novi Beograd",
+     "address": "Bulevar maršala Tolbuhina",
+     "phones": null,
+     "hours": "Mo,Tu 09:00-16:30; We 10:30-18:00; Th 09:00-16:30; Fr 09:00-16:30",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 24154,
+     "unit": "OTP banka",
+     "place": "Temerin",
+     "address": "Novosadska 324",
+     "phones": "011 3011555",
+     "hours": "Pon-Pet 08:00-15:30; rad sa novcem Pon-Pet 08:00-12:00",
+     "need": []
+    },
+    {
+     "location_id": 24388,
+     "unit": "OTP banka",
+     "place": "Lebane",
+     "address": "Cara Dušana 93",
+     "phones": "011 3011555",
+     "hours": "Pon-Pet 08:30-16:00",
+     "need": []
+    },
+    {
+     "location_id": 24500,
+     "unit": "OTP banka",
+     "place": "Savski venac",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Su 10:00-22:00",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28287,
+     "unit": "Ekspozitura Novi Sad Bulevar oslobođenja 80",
+     "place": "Novi Sad",
+     "address": "Bulevar oslobođenja 80",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28288,
+     "unit": "Ekspozitura Vranje Stefana Prvovenčanog 61",
+     "place": "Vranje",
+     "address": "Stefana Prvovenčanog 61",
+     "phones": null,
+     "hours": "Pon-Pet 08:30-16:00; rad sa novcem Pon-Pet 08:30-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28289,
+     "unit": "Ekspozitura Paraćin Kralja Petra I 67",
+     "place": "Paraćin",
+     "address": "Kralja Petra I 67",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28290,
+     "unit": "Ekspozitura Velika Plana Miloša Velikog 107",
+     "place": "Velika Plana",
+     "address": "Miloša Velikog 107",
+     "phones": null,
+     "hours": "Pon-Pet 08:00-15:30; rad sa novcem Pon-Pet 08:00-14:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28291,
+     "unit": "Ekspozitura Bela Palanka Srpskih vladara 60-2",
+     "place": "Bela Palanka",
+     "address": "Srpskih vladara 60",
+     "phones": null,
+     "hours": "Pon-Pet 08:00-15:30",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28292,
+     "unit": "Ekspozitura Svrljig Radetova 5",
+     "place": "Svrljig",
+     "address": "Radetova 5",
+     "phones": null,
+     "hours": "Pon-Pet 08:00-15:30; rad sa novcem Pon-Pet 08:00-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28293,
+     "unit": "Ekspozitura Niš Bulevar Zorana Đinđića 35",
+     "place": "Medijana",
+     "address": "Bulevar Zorana Đinđića 35",
+     "phones": null,
+     "hours": "Pon-Pet 08:00-15:30; rad sa novcem Pon-Pet 08:00-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28294,
+     "unit": "Ekspozitura Niš Bulevar Nemanjića 67a",
+     "place": "Medijana",
+     "address": "Bulevar Nemanjića 67a",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28295,
+     "unit": "„Biznis centar Bulevar“ Beograd Južni bulevar 39",
+     "place": "Beograd",
+     "address": "Južni bulevar 39",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28296,
+     "unit": "Ekspozitura Babušnica Živojina Nikolića Brke 20",
+     "place": "Babušnica",
+     "address": "Živojina Nikolića Brke 20",
+     "phones": null,
+     "hours": "Pon-Pet 08:00-15:30; rad sa novcem Pon-Pet 08:00-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28297,
+     "unit": "Ekspozitura Apatin Srpskih vladara 7",
+     "place": "Apatin",
+     "address": "Srpskih vladara 7",
+     "phones": null,
+     "hours": "Pon-Pet 08:00-15:30; rad sa novcem Pon-Pet 08:00-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28298,
+     "unit": "Ekspozitura Bačka Palanka Kralja Petra I 13",
+     "place": "Bačka Palanka",
+     "address": "Kralja Petra I 13",
+     "phones": null,
+     "hours": "Pon-Pet 08:30-16:00; rad sa novcem Pon-Pet 08:30-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28299,
+     "unit": "Ekspozitura Zrenjanin Bulevar Veljka Vlahovića 14",
+     "place": "Zrenjanin",
+     "address": "Bulevar Veljka Vlahovića 14",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-16:30",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28300,
+     "unit": "Ekspozitura Bajina Bašta Trg Dušana Jerkovića 2",
+     "place": "Bajina Bašta",
+     "address": "Trg Dušana Jerkovića 2",
+     "phones": null,
+     "hours": "Pon-Pet 08:00-15:30; rad sa novcem Pon-Pet 08:00-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28301,
+     "unit": "Ekspozitura Bajmok JNA 16",
+     "place": "Subotica",
+     "address": "JNA 16",
+     "phones": null,
+     "hours": "Pon-Pet 08:00-15:30; rad sa novcem Pon-Pet 08:00-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28302,
+     "unit": "Ekspozitura Bečej Novosadska 1a",
+     "place": "Bečej",
+     "address": "Novosadska 1a",
+     "phones": null,
+     "hours": "Pon-Pet 08:00-15:30; rad sa novcem Pon-Pet 08:00-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28303,
+     "unit": "Ekspozitura Beograd Jurija Gagarina 153a",
+     "place": "Novi Beograd",
+     "address": "Jurija Gagarina 153a",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28304,
+     "unit": "Ekspozitura za fizička lica Beograd Vojislava Ilića 94b",
+     "place": "Voždovac",
+     "address": "Vojislava Ilića 94b",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-16:30",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28305,
+     "unit": "Ekspozitura za fizička lica Beograd Bulevar despota Stefana 112",
+     "place": "Palilula",
+     "address": "Bulevar despota Stefana 112",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-16:30",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28306,
+     "unit": "Ekspozitura za fizička lica Beograd Bulevar Zorana Đinđića 141",
+     "place": "Novi Beograd",
+     "address": "Bulevar Zorana Đinđića 141",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-16:30",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28307,
+     "unit": "Ekspozitura Čoka Maršala Tita 22",
+     "place": "Čoka",
+     "address": "Maršala Tita 22",
+     "phones": null,
+     "hours": "Pon-Pet 08:00-15:30; rad sa novcem Pon-Pet 08:00-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28308,
+     "unit": "Ekspozitura Inđija Vojvode Stepe 16",
+     "place": "Inđija",
+     "address": "Vojvode Stepe 16",
+     "phones": null,
+     "hours": "Pon-Pet 08:30-16:00; rad sa novcem Pon-Pet 08:30-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28309,
+     "unit": "Ekspozitura Ivanjica Perse Rajević 2",
+     "place": "Ivanjica",
+     "address": "Perse Rajević 2",
+     "phones": null,
+     "hours": "Pon-Pet 08:00-15:30",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28310,
+     "unit": "Ekspozitura Jagodina Kneginje Milice 80",
+     "place": "Jagodina",
+     "address": "Kneginje Milice 80",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28311,
+     "unit": "Ekspozitura Kać Kralja Petra I 9a",
+     "place": "Novi Sad",
+     "address": "Kralja Petra I 9a",
+     "phones": null,
+     "hours": "Pon-Pet 08:00-15:30; rad sa novcem Pon-Pet 08:00-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28312,
+     "unit": "Ekspozitura Kanjiža Glavna 13",
+     "place": "Kanjiža",
+     "address": "Glavna 13",
+     "phones": null,
+     "hours": "Pon-Pet 08:00-15:30; rad sa novcem Pon-Pet 08:00-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28313,
+     "unit": "Ekspozitura Kikinda Trg srpskih dobrovoljaca 14",
+     "place": "Kikinda",
+     "address": "Trg srpskih dobrovoljaca 14",
+     "phones": null,
+     "hours": "Pon-Pet 08:30-16:00; rad sa novcem Pon-Pet 08:30-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28314,
+     "unit": "Ekspozitura Kovin Cara Lazara 92",
+     "place": "Kovin",
+     "address": "Cara Lazara 92",
+     "phones": null,
+     "hours": "Pon-Pet 08:00-15:30; rad sa novcem Pon-Pet 08:00-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28315,
+     "unit": "Ekspozitura Kragujevac Kralja Petra I 46",
+     "place": "Kragujevac",
+     "address": "Kralja Petra I 46",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28316,
+     "unit": "Ekspozitura Kragujevac Atinska bb",
+     "place": "Kragujevac",
+     "address": "Atinska bb",
+     "phones": null,
+     "hours": "Pon-Pet 08:30-16:00; rad sa novcem Pon-Pet 08:30-12:00",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28317,
+     "unit": "Ekspozitura Kraljevo Trg srpskih ratnika 30",
+     "place": "Kraljevo",
+     "address": "Trg srpskih ratnika 30",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28318,
+     "unit": "Ekspozitura Kruševac Trg kosturnica bb",
+     "place": "Kruševac",
+     "address": "Trg kosturnica bb",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-12:00",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28320,
+     "unit": "Ekspozitura Nova Varoš Svetog Save 38",
+     "place": "Nova Varoš",
+     "address": "Svetog Save 38",
+     "phones": null,
+     "hours": "Pon-Pet 08:00-15:30",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28322,
+     "unit": "Ekspozitura za fizička lica Novi Sad Rumenačka 1",
+     "place": "Novi Sad",
+     "address": "Rumenačka 1",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-16:30",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28323,
+     "unit": "Ekspozitura za fizička lica Novi Sad Slobodana Jovanovića 15",
+     "place": "Novi Sad",
+     "address": "Slobodana Jovanovića 15",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28324,
+     "unit": "Ekspozitura Novi Sad Trg slobode 5",
+     "place": "Novi Sad",
+     "address": "Trg slobode 5",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28325,
+     "unit": "Ekspozitura Obrenovac Karađorđeva 6",
+     "place": "Obrenovac",
+     "address": "Karađorđeva 6",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-14:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28326,
+     "unit": "Ekspozitura Odžaci Železnička 26",
+     "place": "Odžaci",
+     "address": "Železnička 26",
+     "phones": null,
+     "hours": "Pon-Pet 08:00-15:30; rad sa novcem Pon-Pet 08:00-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28327,
+     "unit": "Ekspozitura Pančevo Trg kralja Petra I 11",
+     "place": "Pančevo",
+     "address": "Trg kralja Petra I 11",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-14:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28328,
+     "unit": "Ekspozitura Pećinci Slobodana Bajića 3",
+     "place": "Pećinci",
+     "address": "Slobodana Bajića 3",
+     "phones": null,
+     "hours": "Pon-Pet 08:00-15:30",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28329,
+     "unit": "Ekspozitura Plandište Vojvode Putnika 45",
+     "place": "Plandište",
+     "address": "Vojvode Putnika 45",
+     "phones": null,
+     "hours": "Pon-Pet 08:00-15:30",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28330,
+     "unit": "Ekspozitura Požarevac Trg oslobođenja 4",
+     "place": "Požarevac",
+     "address": "Trg oslobođenja 4",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28331,
+     "unit": "Ekspozitura Požega Knjaza Miloša Obrenovića 1",
+     "place": "Požega",
+     "address": "Knjaza Miloša Obrenovića 1",
+     "phones": null,
+     "hours": "Pon-Pet 08:00-15:30; rad sa novcem Pon-Pet 08:00-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28332,
+     "unit": "Ekspozitura Raška Nemanjina 13",
+     "place": "Raška",
+     "address": "Nemanjina 13",
+     "phones": null,
+     "hours": "Pon-Pet 08:00-15:30",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28333,
+     "unit": "Ekspozitura Ruma Železnička 5-7",
+     "place": "Ruma",
+     "address": "Železnička 5",
+     "phones": null,
+     "hours": "Pon-Pet 08:30-16:00; rad sa novcem Pon-Pet 08:30-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28334,
+     "unit": "Ekspozitura Sečanj Vožda Karađorđa 74",
+     "place": "Sečanj",
+     "address": "Vožda Karađorđa 74",
+     "phones": null,
+     "hours": "Pon-Pet 08:00-15:30; rad sa novcem Pon-Pet 08:00-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28335,
+     "unit": "Ekspozitura Senta Glavni trg 7-9",
+     "place": "Senta",
+     "address": "Glavni trg 7",
+     "phones": null,
+     "hours": "Pon-Pet 08:00-15:30; rad sa novcem Pon-Pet 08:00-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28336,
+     "unit": "Ekspozitura Sjenica Milorada Jovanovića bb",
+     "place": "Sjenica",
+     "address": "Milorada Jovanovića bb",
+     "phones": null,
+     "hours": "Pon-Pet 08:00-15:30; rad sa novcem Pon-Pet 08:00-12:00",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28337,
+     "unit": "Ekspozitura Sremska Mitrovica Trg vojvođanskih brigada bb",
+     "place": "Sremska Mitrovica",
+     "address": "Trg vojvođanskih brigada bb",
+     "phones": null,
+     "hours": "Pon-Pet 08:30-16:00; rad sa novcem Pon-Pet 08:30-12:00",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28338,
+     "unit": "Ekspozitura Srpska Crnja Patrijarha Arsenija Čarnojevića bb",
+     "place": "Nova Crnja",
+     "address": "Patrijarha Arsenija Čarnojevića bb",
+     "phones": null,
+     "hours": "Pon-Pet 08:00-15:30",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28339,
+     "unit": "Ekspozitura Subotica Trg Lazara Nešića 3",
+     "place": "Subotica",
+     "address": "Trg Lazara Nešića 3",
+     "phones": null,
+     "hours": "Pon-Pet 08:30-16:00; rad sa novcem Pon-Pet 08:30-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28340,
+     "unit": "Ekspozitura Subotica 1 Trg slobode 1",
+     "place": "Subotica",
+     "address": "Trg slobode 1",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28341,
+     "unit": "Ekspozitura Trstenik Miodraga Čajetinca Čajke 1",
+     "place": "Trstenik",
+     "address": "Miodraga Čajetinca Čajke 1",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28342,
+     "unit": "Ekspozitura Užice Trg Svetog Save 7",
+     "place": "Užice",
+     "address": "Trg Svetog Save 7",
+     "phones": null,
+     "hours": "Pon-Pet 08:30-16:00; rad sa novcem Pon-Pet 08:30-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28343,
+     "unit": "Ekspozitura Vrbas Maršala Tita 79",
+     "place": "Vrbas",
+     "address": "Maršala Tita 79",
+     "phones": null,
+     "hours": "Pon-Pet 08:00-15:30; rad sa novcem Pon-Pet 08:00-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28344,
+     "unit": "Ekspozitura Vršac Dositejeva 2",
+     "place": "Vršac",
+     "address": "Dositejeva 2",
+     "phones": null,
+     "hours": "Pon-Pet 08:30-16:00; rad sa novcem Pon-Pet 08:30-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28345,
+     "unit": "„Biznis centar Zemun“ Zemun Magistratski trg 16",
+     "place": "Zemun",
+     "address": "Magistratski trg 16",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28346,
+     "unit": "Ekspozitura Zrenjanin Trg dr Zorana Đinđića bb",
+     "place": "Zrenjanin",
+     "address": "Trg dr Zorana Đinđića bb",
+     "phones": null,
+     "hours": "Pon-Pet 08:30-16:00; rad sa novcem Pon-Pet 08:30-12:00",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28347,
+     "unit": "Ekspozitura Žitište Cara Dušana 6",
+     "place": "Žitište",
+     "address": "Cara Dušana 6",
+     "phones": null,
+     "hours": "Pon-Pet 08:00-15:30",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28348,
+     "unit": "Ekspozitura Ada Lenjinova 6",
+     "place": "Ada",
+     "address": "Lenjinova 6",
+     "phones": null,
+     "hours": "Pon-Pet 08:00-15:30",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28349,
+     "unit": "Ekspozitura za fizička lica Zemun Glavna 46",
+     "place": "Zemun",
+     "address": "Glavna 46",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28350,
+     "unit": "Ekspozitura Surčin Trg Zorana Đinđića 2",
+     "place": "Surčin",
+     "address": "Trg Zorana Đinđića 2",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28351,
+     "unit": "Ekspozitura Beograd Partizanske avijacije 10",
+     "place": "Novi Beograd",
+     "address": "Partizanske avijacije 10",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28352,
+     "unit": "Ekspozitura za fizička lica Beograd Omladinskih brigada 88b",
+     "place": "Novi Beograd",
+     "address": "Omladinskih brigada 88b",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-16:30",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28353,
+     "unit": "Ekspozitura Batajnica Milenka Pavlovića 12",
+     "place": "Zemun",
+     "address": "Milenka Pavlovića 12",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28354,
+     "unit": "Ekspozitura za fizička lica Beograd Bulevar Maršala Tolbuhina 10-12",
+     "place": "Novi Beograd",
+     "address": "Bulevar Maršala Tolbuhina 10",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-16:30",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28355,
+     "unit": "Ekspozitura za fizička lica Beograd Ustanička 128",
+     "place": "Voždovac",
+     "address": "Ustanička 128",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28356,
+     "unit": "Ekspozitura Beograd Vidikovački venac 80b",
+     "place": "Rakovica",
+     "address": "Vidikovački venac 80b",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28357,
+     "unit": "Ekspozitura za fizička lica Beograd Trgovačka 9",
+     "place": "Čukarica",
+     "address": "Trgovačka 9",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28358,
+     "unit": "Ekspozitura Beograd Ive Lole Ribara 149",
+     "place": "Čukarica",
+     "address": "Ive Lole Ribara 149",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28359,
+     "unit": "Ekspozitura Beograd Neznanog junaka 5",
+     "place": "Savski venac",
+     "address": "Neznanog junaka 5",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28360,
+     "unit": "Ekspozitura Pančevo Trg Kralja Petra 6",
+     "place": "Pančevo",
+     "address": "Trg Kralja Petra 6",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28361,
+     "unit": "Ekspozitura Beograd Kralja Petra I 1",
+     "place": "Grocka",
+     "address": "Kralja Petra I 1",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28362,
+     "unit": "Ekspozitura za fizička lica Beograd Bulevar kralja Aleksandra 223",
+     "place": "Zvezdara",
+     "address": "Bulevar kralja Aleksandra 223",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28363,
+     "unit": "Ekspozitura Beograd Kraljice Marije 14",
+     "place": "Palilula",
+     "address": "Kraljice Marije 14",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28364,
+     "unit": "Ekspozitura Beograd Bratstva i jedinstva 73",
+     "place": "Palilula",
+     "address": "Bratstva i jedinstva 73",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28365,
+     "unit": "Ekspozitura Bujanovac Karađorđa Petrovića bb",
+     "place": "Bujanovac",
+     "address": "Karađorđa Petrovića bb",
+     "phones": null,
+     "hours": "Pon-Pet 08:30-16:00; rad sa novcem Pon-Pet 08:30-12:00",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28366,
+     "unit": "Ekspozitura Surdulica Srpskih vladara bb",
+     "place": "Surdulica",
+     "address": "Srpskih vladara bb",
+     "phones": null,
+     "hours": "Pon-Pet 08:30-16:00",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28367,
+     "unit": "Ekspozitura Vlasotince Lole Ribara 2",
+     "place": "Vlasotince",
+     "address": "Lole Ribara 2",
+     "phones": null,
+     "hours": "Pon-Pet 08:30-16:00; rad sa novcem Pon-Pet 08:30-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28368,
+     "unit": "Ekspozitura Niš 2 Trg kralja Milana bb",
+     "place": "Medijana",
+     "address": "Trg kralja Milana bb",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-12:00",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28369,
+     "unit": "Ekspozitura Zaječar Svetozara Markovića 1",
+     "place": "Zaječar",
+     "address": "Svetozara Markovića 1",
+     "phones": null,
+     "hours": "Pon-Pet 08:00-15:30; rad sa novcem Pon-Pet 08:00-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28370,
+     "unit": "Ekspozitura Pirot Trg Dobrice Milutinovića bb",
+     "place": "Pirot",
+     "address": "Trg Dobrice Milutinovića bb",
+     "phones": null,
+     "hours": "Pon-Pet 08:00-15:30; rad sa novcem Pon-Pet 08:00-12:00",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28371,
+     "unit": "Ekspozitura Bor Đorđa Vajferta 5",
+     "place": "Bor",
+     "address": "Đorđa Vajferta 5",
+     "phones": null,
+     "hours": "Pon-Pet 08:00-15:30; rad sa novcem Pon-Pet 08:00-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28372,
+     "unit": "Ekspozitura Lazarevac Karađorđeva 2",
+     "place": "Lazarevac",
+     "address": "Karađorđeva 2",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-14:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28373,
+     "unit": "Ekspozitura Kragujevac Kraljice Marije 54b",
+     "place": "Kragujevac",
+     "address": "Kraljice Marije 54b",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-16:30",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28374,
+     "unit": "Ekspozitura Mladenovac Kralja Aleksandra Obrenovića 52",
+     "place": "Mladenovac",
+     "address": "Kralja Aleksandra Obrenovića 52",
+     "phones": null,
+     "hours": "Pon-Pet 08:30-16:00; rad sa novcem Pon-Pet 08:30-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28375,
+     "unit": "Ekspozitura Smederevska Palanka Svetog Save 25",
+     "place": "Smederevska Palanka",
+     "address": "Svetog Save 25",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28376,
+     "unit": "Ekspozitura Svilajnac Svetog Save bb",
+     "place": "Svilajnac",
+     "address": "Svetog Save bb",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-12:00",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28377,
+     "unit": "Ekspozitura Novi Sad Radnička 2",
+     "place": "Novi Sad",
+     "address": "Radnička 2",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28378,
+     "unit": "„Biznis centar“ Novi Sad Hajduk Veljkova 11",
+     "place": "Novi Sad",
+     "address": "Hajduk Veljkova 11",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28379,
+     "unit": "Ekspozitura Subotica Korzo 12",
+     "place": "Subotica",
+     "address": "Korzo 12",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-16:30",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28380,
+     "unit": "Ekspozitura Zrenjanin Kralja Aleksandra I Karađorđevića 2",
+     "place": "Zrenjanin",
+     "address": "Kralja Aleksandra I Karađorđevića 2",
+     "phones": null,
+     "hours": "Pon-Pet 08:00-15:30; rad sa novcem Pon-Pet 08:00-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28381,
+     "unit": "Ekspozitura Čačak Gospodar Jovanova 26",
+     "place": "Čačak",
+     "address": "Gospodar Jovanova 26",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28382,
+     "unit": "Ekspozitura Gornji Milanovac Kneza Aleksandra 1",
+     "place": "Gornji Milanovac",
+     "address": "Kneza Aleksandra 1",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28383,
+     "unit": "Ekspozitura za fizička lica Beograd Bulevar Vudroa Vilsona 14",
+     "place": "Savski venac",
+     "address": "Bulevar Vudroa Vilsona 14",
+     "phones": null,
+     "hours": "Pon-Ned 10:00-22:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28384,
+     "unit": "Partner ekspozitura Beograd Bulevar Vojvode Mišića 41",
+     "place": "Savski venac",
+     "address": "Bulevar Vojvode Mišića 41",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-16:30",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28385,
+     "unit": "Partner ekspozitura Novi Sad Narodnog fronta 12",
+     "place": "Novi Sad",
+     "address": "Narodnog fronta 12",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-16:30",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28386,
+     "unit": "Ekspozitura Aranđelovac Knjaza Miloša 229",
+     "place": "Aranđelovac",
+     "address": "Knjaza Miloša 229",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28387,
+     "unit": "Ekspozitura za fizička lica Beograd Jurija Gagarina 76",
+     "place": "Novi Beograd",
+     "address": "Jurija Gagarina 76",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-16:30",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28389,
+     "unit": "„Biznis centar Zvezdara“ Beograd Ustanička 262",
+     "place": "Zvezdara",
+     "address": "Ustanička 262",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28390,
+     "unit": "„Biznis centar Novi Beograd“ Beograd Vladimira Popovića 8a",
+     "place": "Novi Beograd",
+     "address": "Vladimira Popovića 8a",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28391,
+     "unit": "Ekspozitura Beograd Save Mašković 2a",
+     "place": "Voždovac",
+     "address": "Save Mašković 2a",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-12:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28392,
+     "unit": "Ekspozitura Valjevo Karađorđeva 181a",
+     "place": "Valjevo",
+     "address": "Karađorđeva 181a",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-16:30; rad sa novcem Pon-Pet 09:00-12:00",
+     "need": [
+      "phones"
+     ]
+    }
+   ]
+  }
+ ],
+ "id": "net-banka-otp"
+}

@@ -1,0 +1,586 @@
+{
+ "kind": "network",
+ "title": "Manje mreže",
+ "type": "mixed",
+ "orgs": [
+  {
+   "org_slug": "apotekarska-ustanova-livada-beograd",
+   "name": "Apotekarska ustanova \"Livada\"",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 13810,
+     "unit": "Apoteka",
+     "place": "Beograd",
+     "address": "Vojvode Stepe broj 144",
+     "phones": "066 8031241",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13811,
+     "unit": "Ogranak Apoteke Livada 2",
+     "place": "Inđija",
+     "address": "Novosadska 2",
+     "phones": "066 8031242",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13812,
+     "unit": "Ogranak Apoteke Livada 3",
+     "place": "Požarevac",
+     "address": "Bratstva Jedinstva 152",
+     "phones": "066 8031243",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13813,
+     "unit": "Ogranak Apoteke Livada 4",
+     "place": "Leskovac",
+     "address": "Đorđa Andrejević-Kuna 8a",
+     "phones": "066 8031244",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13814,
+     "unit": "Ogranak Apoteke Livada 5",
+     "place": "Leskovac",
+     "address": "Južnomoravskih Brigada bb",
+     "phones": "066 8031245",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13815,
+     "unit": "Ogranak Apoteke Livada 6",
+     "place": "Leskovac",
+     "address": "Mlinska 10",
+     "phones": "066 8031246",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13816,
+     "unit": "Ogranak Apoteke Livada 7",
+     "place": "Vranje",
+     "address": "Bore Stanković 13",
+     "phones": "066 8031247",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13817,
+     "unit": "Ogranak Apoteke Livada 8",
+     "place": "Gornji Milanovac",
+     "address": "Kneza Aleksandra 1",
+     "phones": "066 8031248",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13818,
+     "unit": "Ogranak Apoteke Livada 9",
+     "place": "Gornji Milanovac",
+     "address": "Kneza Aleksandra 47",
+     "phones": "066 8031249",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13819,
+     "unit": "Ogranak Apoteke Livada 10",
+     "place": "Ivanjica",
+     "address": "Uroša Stefanovića 1",
+     "phones": "066 8031240",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13820,
+     "unit": "Ogranak Apoteke Livada 11",
+     "place": "Kraljevo",
+     "address": "Cara Dušana 35b",
+     "phones": "066 8031251",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13821,
+     "unit": "Ogranak Apoteke Livada 12",
+     "place": "Jagodina",
+     "address": "Gradska tržnica e19 lok 19",
+     "phones": "066 8031252",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13822,
+     "unit": "Ogranak Apoteke Livada 15",
+     "place": "Kragujevac",
+     "address": "Čegarska 37a",
+     "phones": "066 8031250",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13823,
+     "unit": "Ogranak Apoteke Livada 16",
+     "place": "Kragujevac",
+     "address": "Svetozara Marković 36",
+     "phones": "034 332871",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13824,
+     "unit": "Ogranak Apoteke Livada 17",
+     "place": "Beograd",
+     "address": "Radnička 59",
+     "phones": "011 3540556",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13825,
+     "unit": "Ogranak Apoteke Livada 18",
+     "place": "Beograd",
+     "address": "Zrenjaninski put 27b",
+     "phones": "011 2492856",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13826,
+     "unit": "Ogranak Apoteke Livada 19",
+     "place": "Pećinci",
+     "address": "Slobodana Bajića 6",
+     "phones": "022 551376",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13827,
+     "unit": "Ogranak Apoteke Livada 20",
+     "place": "Aleksandrovac",
+     "address": "29.Novembra 12",
+     "phones": "037 3554915",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13828,
+     "unit": "Ogranak Apoteke Livada 21",
+     "place": "Lebane",
+     "address": "Bošnjace",
+     "phones": "064 6427680",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13829,
+     "unit": "Ogranak Apoteke Livada 22",
+     "place": "Čačak",
+     "address": "Miloša Obilića 9",
+     "phones": "032 717241",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13830,
+     "unit": "Ogranak Apoteke Livada 24",
+     "place": "Vrnjačka Banja",
+     "address": "Kneza Milosa 6",
+     "phones": "064 6427680",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13831,
+     "unit": "Ogranak Apoteke Livada 23",
+     "place": "Sremska Mitrovica",
+     "address": "Dr Dušana Popovića 24",
+     "phones": "022 621999",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13832,
+     "unit": "Ogranak Apoteke Livada 25",
+     "place": "Leskovac",
+     "address": "Sanoja Glavasa 32",
+     "phones": "066 8031240",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13833,
+     "unit": "Ogranak Apoteke Livada 26",
+     "place": "Leskovac",
+     "address": "Radnička 7a",
+     "phones": "066 8031251",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13834,
+     "unit": "Ogranak Apoteke Livada 27",
+     "place": "Niš",
+     "address": "Ucitelj Milina br 1",
+     "phones": "066 8031252",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "apotekarska-ustanova-medika-leskovac",
+   "name": "Apotekarska ustanova \"Medika\"",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 11887,
+     "unit": "Apoteka",
+     "place": "Leskovac",
+     "address": "Bulevar oslobođenja broj 53a",
+     "phones": "016 213960",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11888,
+     "unit": "Ogranak 1",
+     "place": "Leskovac",
+     "address": "Bulevar oslobođenja broj 162a",
+     "phones": "016 265851",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11889,
+     "unit": "Ogranak 2",
+     "place": "Leskovac",
+     "address": "Bore Pešića broj 4",
+     "phones": "063 1115480",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11890,
+     "unit": "Ogranak 3",
+     "place": "Leskovac",
+     "address": "Ratka Pavlovića broj 4",
+     "phones": "016 602676",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11891,
+     "unit": "Ogranak 4",
+     "place": "Leskovac",
+     "address": "29.Novembra bb",
+     "phones": "016 36426566",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11892,
+     "unit": "Ogranak 5",
+     "place": "Leskovac",
+     "address": "Niška broj 61",
+     "phones": "016 631185",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11893,
+     "unit": "Ogranak 6",
+     "place": "Leskovac",
+     "address": "Vlade Đorđevića broj 7",
+     "phones": "060 0115906",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11894,
+     "unit": "Ogranak 7",
+     "place": "Leskovac",
+     "address": "Južnomoravskig brigada broj 156",
+     "phones": "016 225522",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "apotekarska-ustanova-melisa-majur",
+   "name": "Apotekarska ustanova \"Melisa\"",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 11013,
+     "unit": "Apoteka",
+     "place": "Šabac",
+     "address": "Vojvode Putnika broj 4",
+     "phones": "015 377368",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11014,
+     "unit": "Apoteka Beladona",
+     "place": "Šabac",
+     "address": "Gospodar Jevremova broj 9",
+     "phones": "015 348025",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11015,
+     "unit": "Apoteka Menta",
+     "place": "Šabac",
+     "address": "Vojvode Mišića broj 16",
+     "phones": "015 344307",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11016,
+     "unit": "Apoteka Sveti Nikola",
+     "place": "Šabac",
+     "address": "Vojvode Mišića broj 95",
+     "phones": "015 334582",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11017,
+     "unit": "Apoteka Cer",
+     "place": "Šabac",
+     "address": "Pocerska bb",
+     "phones": "015 385791",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11018,
+     "unit": "Apoteka Heba",
+     "place": "Šabac",
+     "address": "Popa Karana broj 31",
+     "phones": "015 345508",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11019,
+     "unit": "Apoteka Mali park",
+     "place": "Šabac",
+     "address": "Koste Abrašević broj 14",
+     "phones": "015 314035",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11020,
+     "unit": "Apoteka Vitalis",
+     "place": "Šabac",
+     "address": "Vojislava Ilića broj 9",
+     "phones": "015 346304",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11021,
+     "unit": "Apoteka Mačvanka",
+     "place": "Bogatić",
+     "address": "Mije Jovanovića broj 38",
+     "phones": "015 7787416",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11022,
+     "unit": "Apoteka Srem",
+     "place": "Šid",
+     "address": "Alekse Šantića bb",
+     "phones": "022 711867",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11023,
+     "unit": "Apoteka Niš",
+     "place": "Niš",
+     "address": "Nikole Pašića broj 34",
+     "phones": "018 251050",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11024,
+     "unit": "Apoteka Šašinci",
+     "place": "Sremska Mitrovica",
+     "address": "Zmaj Jovina broj 1",
+     "phones": "022 684555",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11025,
+     "unit": "Apoteka Melisa 2",
+     "place": "Šabac",
+     "address": "Vojvode Putnika broj 2",
+     "phones": "015 375225",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11026,
+     "unit": "Apoteka Lipolist",
+     "place": "Šabac",
+     "address": "Stari Lipolist bb",
+     "phones": "015 274266",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11027,
+     "unit": "Apoteka Dobrić",
+     "place": "Šabac",
+     "address": "Dobrić bb",
+     "phones": "015 295234",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11028,
+     "unit": "Apoteka Dr Marin",
+     "place": "Loznica",
+     "address": "Dr Marin bb",
+     "phones": "015 892634",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11029,
+     "unit": "Apoteka Evropa",
+     "place": "Novi Sad",
+     "address": "Tihomira Ostojića 1",
+     "phones": "021 6395800",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  }
+ ],
+ "id": "net-small-05"
+}

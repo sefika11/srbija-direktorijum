@@ -1,0 +1,2143 @@
+{
+ "kind": "network",
+ "title": "Republički fond za zdravstveno osiguranje",
+ "type": "rfzo",
+ "orgs": [
+  {
+   "org_slug": "republicki-fond-za-zdravstveno-osiguranje-beograd",
+   "name": "Republički fond za zdravstveno osiguranje",
+   "website": "https://www.rfzo.rs",
+   "rows": [
+    {
+     "location_id": 2447,
+     "unit": "Sedište",
+     "place": "Beograd",
+     "address": "Jovana Marinovića 2",
+     "phones": "011 2053830",
+     "hours": "Pon-Pet 07:30-15:30",
+     "need": []
+    },
+    {
+     "location_id": 9777,
+     "unit": "Filijala za Severnobački okrug",
+     "place": "Subotica",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9778,
+     "unit": "Ispostava Bačka Topola",
+     "place": "Bačka Topola",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9779,
+     "unit": "Ispostava Mali Iđoš",
+     "place": "Mali Iđoš",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9780,
+     "unit": "Filijala za Srednjebanatski okrug",
+     "place": "Zrenjanin",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9781,
+     "unit": "Ispostava Novi Bečej",
+     "place": "Novi Bečej",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9782,
+     "unit": "Ispostava Nova Crnja",
+     "place": "Nova Crnja",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9783,
+     "unit": "Ispostava Žitište",
+     "place": "Žitište",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9784,
+     "unit": "Ispostava Sečanj",
+     "place": "Sečanj",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9785,
+     "unit": "Filijala za Severnobanatski okrug",
+     "place": "Kikinda",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9786,
+     "unit": "Ispostava Kanjiža",
+     "place": "Kanjiža",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9787,
+     "unit": "Ispostava Senta",
+     "place": "Senta",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9788,
+     "unit": "Ispostava Ada",
+     "place": "Ada",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9789,
+     "unit": "Ispostava Čoka",
+     "place": "Čoka",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9790,
+     "unit": "Ispostava Novi Kneževac",
+     "place": "Novi Kneževac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9791,
+     "unit": "Filijala za Južnobanatski okrug",
+     "place": "Pančevo",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9792,
+     "unit": "Ispostava Opovo",
+     "place": "Opovo",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9793,
+     "unit": "Ispostava Kovačica",
+     "place": "Kovačica",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9794,
+     "unit": "Ispostava Alibunar",
+     "place": "Alibunar",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9795,
+     "unit": "Ispostava Kovin",
+     "place": "Kovin",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9796,
+     "unit": "Filijala za Zapadnobački okrug",
+     "place": "Sombor",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9797,
+     "unit": "Ispostava Apatin",
+     "place": "Apatin",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9798,
+     "unit": "Ispostava Odžaci",
+     "place": "Odžaci",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9799,
+     "unit": "Ispostava Kula",
+     "place": "Kula",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9800,
+     "unit": "Filijala za Južnobački okrug",
+     "place": "Novi Sad",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9801,
+     "unit": "Ispostava Srbobran",
+     "place": "Srbobran",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9802,
+     "unit": "Ispostava Bečej",
+     "place": "Bečej",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9803,
+     "unit": "Ispostava Vrbas",
+     "place": "Vrbas",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9804,
+     "unit": "Ispostava Bačka Palanka",
+     "place": "Bačka Palanka",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9805,
+     "unit": "Ispostava Bački Petrovac",
+     "place": "Bački Petrovac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9806,
+     "unit": "Ispostava Žabalj",
+     "place": "Žabalj",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9807,
+     "unit": "Ispostava Titel",
+     "place": "Titel",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9808,
+     "unit": "Ispostava Temerin",
+     "place": "Temerin",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9809,
+     "unit": "Ispostava Beočin",
+     "place": "Beočin",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9810,
+     "unit": "Ispostava Bač",
+     "place": "Bač",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9811,
+     "unit": "Ispostava Sremski Karlovci",
+     "place": "Sremski Karlovci",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9812,
+     "unit": "Filijala za Sremski okrug",
+     "place": "Sremska Mitrovica",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9813,
+     "unit": "Ispostava Šid",
+     "place": "Šid",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9814,
+     "unit": "Ispostava Inđija",
+     "place": "Inđija",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9815,
+     "unit": "Ispostava Irig",
+     "place": "Irig",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9816,
+     "unit": "Ispostava Ruma",
+     "place": "Ruma",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9817,
+     "unit": "Ispostava Stara Pazova",
+     "place": "Stara Pazova",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9818,
+     "unit": "Ispostava Pećinci",
+     "place": "Pećinci",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9819,
+     "unit": "Filijala za Mačvanski okrug",
+     "place": "Šabac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9820,
+     "unit": "Ispostava Bogatić",
+     "place": "Bogatić",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9821,
+     "unit": "Ispostava Loznica",
+     "place": "Loznica",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9822,
+     "unit": "Ispostava Vladimirci",
+     "place": "Vladimirci",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9823,
+     "unit": "Ispostava Koceljeva",
+     "place": "Koceljeva",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9824,
+     "unit": "Ispostava Mali Zvornik",
+     "place": "Mali Zvornik",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9825,
+     "unit": "Ispostava Krupanj",
+     "place": "Krupanj",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9826,
+     "unit": "Ispostava Ljubovija",
+     "place": "Ljubovija",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9827,
+     "unit": "Filijala za Kolubarski okrug",
+     "place": "Valjevo",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9828,
+     "unit": "Ispostava Osečina",
+     "place": "Osečina",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9829,
+     "unit": "Ispostava Ub",
+     "place": "Ub",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9830,
+     "unit": "Ispostava Lajkovac",
+     "place": "Lajkovac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9831,
+     "unit": "Ispostava Mionica",
+     "place": "Mionica",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9832,
+     "unit": "Ispostava Ljig",
+     "place": "Ljig",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9833,
+     "unit": "Filijala za Podunavski okrug",
+     "place": "Smederevo",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9834,
+     "unit": "Ispostava Smederevska Palanka",
+     "place": "Smederevska Palanka",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9835,
+     "unit": "Ispostava Velika Plana",
+     "place": "Velika Plana",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9836,
+     "unit": "Filijala za Braničevski okrug",
+     "place": "Požarevac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9837,
+     "unit": "Ispostava Veliko Gradište",
+     "place": "Veliko Gradište",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9838,
+     "unit": "Ispostava Golubac",
+     "place": "Golubac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9839,
+     "unit": "Ispostava Malo Crniće",
+     "place": "Malo Crniće",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9840,
+     "unit": "Ispostava Žabari",
+     "place": "Žabari",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9841,
+     "unit": "Ispostava Kučevo",
+     "place": "Kučevo",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9842,
+     "unit": "Ispostava Žagubica",
+     "place": "Žagubica",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9843,
+     "unit": "Filijala za Šumadijski okrug",
+     "place": "Kragujevac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9844,
+     "unit": "Ispostava Aranđelovac",
+     "place": "Aranđelovac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9845,
+     "unit": "Ispostava Topola",
+     "place": "Topola",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9846,
+     "unit": "Ispostava Rača",
+     "place": "Rača",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9847,
+     "unit": "Ispostava Batočina",
+     "place": "Batočina",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9848,
+     "unit": "Ispostava Knić",
+     "place": "Knić",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9849,
+     "unit": "Ispostava Lapovo",
+     "place": "Lapovo",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9850,
+     "unit": "Filijala za Pomoravski okrug",
+     "place": "Jagodina",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9851,
+     "unit": "Ispostava Ćuprija",
+     "place": "Ćuprija",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9852,
+     "unit": "Ispostava Paraćin",
+     "place": "Paraćin",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9853,
+     "unit": "Ispostava Svilajnac",
+     "place": "Svilajnac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9854,
+     "unit": "Ispostava Despotovac",
+     "place": "Despotovac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9855,
+     "unit": "Ispostava Rekovac",
+     "place": "Rekovac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9856,
+     "unit": "Filijala za Borski okrug",
+     "place": "Bor",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9857,
+     "unit": "Ispostava Majdanpek",
+     "place": "Majdanpek",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9858,
+     "unit": "Filijala za Zaječarski okrug, bez opštine Sokobanja",
+     "place": "Zaječar",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9859,
+     "unit": "Ispostava Boljevac",
+     "place": "Boljevac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9860,
+     "unit": "Ispostava Knjaževac",
+     "place": "Knjaževac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9861,
+     "unit": "Filijala za Zlatiborski okrug",
+     "place": "Užice",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9862,
+     "unit": "Ispostava Bajina Bašta",
+     "place": "Bajina Bašta",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9863,
+     "unit": "Ispostava Kosjerić",
+     "place": "Kosjerić",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9864,
+     "unit": "Ispostava Arilje",
+     "place": "Arilje",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9865,
+     "unit": "Ispostava Požega",
+     "place": "Požega",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9866,
+     "unit": "Ispostava Čajetina",
+     "place": "Čajetina",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9867,
+     "unit": "Filijala za Moravički okrug",
+     "place": "Čačak",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9868,
+     "unit": "Ispostava Gornji Milanovac",
+     "place": "Gornji Milanovac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9869,
+     "unit": "Ispostava Lučani",
+     "place": "Lučani",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9870,
+     "unit": "Ispostava Ivanjica",
+     "place": "Ivanjica",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9871,
+     "unit": "Filijala za Raški okrug",
+     "place": "Kraljevo",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9872,
+     "unit": "Ispostava Vrnjačka Banja",
+     "place": "Vrnjačka Banja",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9873,
+     "unit": "Ispostava Raška",
+     "place": "Raška",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9874,
+     "unit": "Filijala za okrug Novog Pazara",
+     "place": "Novi Pazar",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9875,
+     "unit": "Ispostava Tutin",
+     "place": "Tutin",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9876,
+     "unit": "Filijala za Rasinski okrug",
+     "place": "Kruševac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9877,
+     "unit": "Ispostava Varvarin",
+     "place": "Varvarin",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9878,
+     "unit": "Ispostava Trstenik",
+     "place": "Trstenik",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9879,
+     "unit": "Ispostava Ćićevac",
+     "place": "Ćićevac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9880,
+     "unit": "Ispostava Aleksandrovac",
+     "place": "Aleksandrovac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9881,
+     "unit": "Ispostava Brus",
+     "place": "Brus",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9882,
+     "unit": "Filijala za Nišavski okrug",
+     "place": "Niš",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9883,
+     "unit": "Ispostava Aleksinac",
+     "place": "Aleksinac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9884,
+     "unit": "Ispostava Svrljig",
+     "place": "Svrljig",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9885,
+     "unit": "Ispostava Merošina",
+     "place": "Merošina",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9886,
+     "unit": "Ispostava Doljevac",
+     "place": "Doljevac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9887,
+     "unit": "Ispostava Gadžin Han",
+     "place": "Gadžin Han",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9888,
+     "unit": "Ispostava Sokobanja",
+     "place": "Sokobanja",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9889,
+     "unit": "Ispostava Ražanj",
+     "place": "Ražanj",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9890,
+     "unit": "Ispostava Palilula",
+     "place": "Palilula",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9891,
+     "unit": "Ispostava Pantelej",
+     "place": "Pantelej",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9892,
+     "unit": "Ispostava Crveni Krst",
+     "place": "Crveni Krst",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9893,
+     "unit": "Filijala za Toplički okrug",
+     "place": "Prokuplje",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9894,
+     "unit": "Ispostava Blace",
+     "place": "Blace",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9895,
+     "unit": "Ispostava Kuršumlija",
+     "place": "Kuršumlija",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9896,
+     "unit": "Ispostava Žitorađa",
+     "place": "Žitorađa",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9897,
+     "unit": "Filijala za Pirotski okrug",
+     "place": "Pirot",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9898,
+     "unit": "Ispostava Bela Palanka",
+     "place": "Bela Palanka",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9899,
+     "unit": "Ispostava Babušnica",
+     "place": "Babušnica",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9900,
+     "unit": "Ispostava Dimitrovgrad",
+     "place": "Dimitrovgrad",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9901,
+     "unit": "Filijala za Jablanički okrug",
+     "place": "Leskovac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9902,
+     "unit": "Ispostava Bojnik",
+     "place": "Bojnik",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9903,
+     "unit": "Ispostava Lebane",
+     "place": "Lebane",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9904,
+     "unit": "Ispostava Medveđa",
+     "place": "Medveđa",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9905,
+     "unit": "Ispostava Vlasotince",
+     "place": "Vlasotince",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9906,
+     "unit": "Ispostava Crna Trava",
+     "place": "Crna Trava",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9907,
+     "unit": "Filijala za Pčinjski okrug",
+     "place": "Vranje",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9908,
+     "unit": "Ispostava Vladičin Han",
+     "place": "Vladičin Han",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9909,
+     "unit": "Ispostava Surdulica",
+     "place": "Surdulica",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9910,
+     "unit": "Ispostava Bosilegrad",
+     "place": "Bosilegrad",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9911,
+     "unit": "Ispostava Trgovište",
+     "place": "Trgovište",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9912,
+     "unit": "Ispostava Bujanovac",
+     "place": "Bujanovac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9913,
+     "unit": "Ispostava Preševo",
+     "place": "Preševo",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9914,
+     "unit": "Filijala za grad Beograd",
+     "place": "Beograd",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9915,
+     "unit": "Ispostava Voždovac",
+     "place": "Voždovac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9916,
+     "unit": "Ispostava Vračar",
+     "place": "Vračar",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9917,
+     "unit": "Ispostava Zvezdara",
+     "place": "Zvezdara",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9918,
+     "unit": "Ispostava Grocka",
+     "place": "Grocka",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9919,
+     "unit": "Ispostava Zemun",
+     "place": "Zemun",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9920,
+     "unit": "Ispostava Lazarevac",
+     "place": "Lazarevac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9921,
+     "unit": "Ispostava Mladenovac",
+     "place": "Mladenovac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9922,
+     "unit": "Ispostava Novi Beograd",
+     "place": "Novi Beograd",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9924,
+     "unit": "Ispostava Rakovica",
+     "place": "Rakovica",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9925,
+     "unit": "Ispostava Obrenovac",
+     "place": "Obrenovac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9926,
+     "unit": "Ispostava Savski venac",
+     "place": "Savski venac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9927,
+     "unit": "Ispostava Sopot",
+     "place": "Sopot",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9928,
+     "unit": "Ispostava Stari grad",
+     "place": "Stari grad",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9929,
+     "unit": "Ispostava Čukarica",
+     "place": "Čukarica",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9930,
+     "unit": "Ispostava Barajevo",
+     "place": "Barajevo",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9931,
+     "unit": "Ispostava Surčin",
+     "place": "Surčin",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9932,
+     "unit": "Filijala Vršac",
+     "place": "Vršac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9933,
+     "unit": "Ispostava Plandište",
+     "place": "Plandište",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9934,
+     "unit": "Ispostava Bela Crkva",
+     "place": "Bela Crkva",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9935,
+     "unit": "Filijala Negotin",
+     "place": "Negotin",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9936,
+     "unit": "Ispostava Kladovo",
+     "place": "Kladovo",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9937,
+     "unit": "Filijala Prijepolje",
+     "place": "Prijepolje",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9938,
+     "unit": "Ispostava Priboj",
+     "place": "Priboj",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9939,
+     "unit": "Ispostava Nova Varoš",
+     "place": "Nova Varoš",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9940,
+     "unit": "Ispostava Sjenica",
+     "place": "Sjenica",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  }
+ ],
+ "id": "net-republicki-fond-za-zdravstveno-osiguranje-be"
+}

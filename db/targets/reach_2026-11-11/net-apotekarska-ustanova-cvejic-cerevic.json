@@ -1,0 +1,681 @@
+{
+ "kind": "network",
+ "title": "Apotekarska ustanova \"Cvejić\"",
+ "type": "apoteka",
+ "orgs": [
+  {
+   "org_slug": "apotekarska-ustanova-cvejic-cerevic",
+   "name": "Apotekarska ustanova \"Cvejić\"",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 10553,
+     "unit": "Apoteka",
+     "place": "Beočin",
+     "address": "Jovana Grčića Milenka broj 35",
+     "phones": "021 2976911",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10554,
+     "unit": "Ogranak apoteka Beočin",
+     "place": "Beočin",
+     "address": "Svetosavska broj 4b",
+     "phones": "021 2707996",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10555,
+     "unit": "Ogranak apoteka Sremska Kamenica",
+     "place": "Petrovaradin",
+     "address": "Trg Zmaj Jove broj 6",
+     "phones": "021 6617870",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10556,
+     "unit": "Ogranak apoteka Erdevik",
+     "place": "Šid",
+     "address": "Pionirski park broj 11",
+     "phones": "022 752811",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10557,
+     "unit": "Ogranak apoteka Avenija Novi Sad",
+     "place": "Novi Sad",
+     "address": "Balzakova broj 36",
+     "phones": "021 466737",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10558,
+     "unit": "Ogranak apoteka Novi Sad",
+     "place": "Novi Sad",
+     "address": "Temerinska broj 171",
+     "phones": "021 6338256",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10559,
+     "unit": "Ogranak apoteka Sombor 1",
+     "place": "Sombor",
+     "address": "Kneza Miloša broj 7",
+     "phones": "025 301102",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10560,
+     "unit": "Ogranak apoteka Sombor 2",
+     "place": "Sombor",
+     "address": "Batinska broj 54",
+     "phones": "025 444448",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10561,
+     "unit": "Ogranak apoteka Laćarak",
+     "place": "Sremska Mitrovica",
+     "address": "1. Novembra broj 241",
+     "phones": "022 671222",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10562,
+     "unit": "Ogranak apoteka Bački Monoštor",
+     "place": "Sombor",
+     "address": "Ivana Gorana Kovačića broj 36",
+     "phones": "025 807558",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10563,
+     "unit": "Ogranak apoteka Novi Sad 3",
+     "place": "Novi Sad",
+     "address": "Jug Bogdana broj 7",
+     "phones": "021 2709287",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10564,
+     "unit": "Ogranak apoteka Bezdan",
+     "place": "Sombor",
+     "address": "Somborski put broj 1",
+     "phones": "025 811555",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10565,
+     "unit": "Ogranak apoteka Novi Sad 4",
+     "place": "Novi Sad",
+     "address": "Vršačka broj 37",
+     "phones": "021 6611577",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10566,
+     "unit": "Ogranak apoteka Bačka Palanka",
+     "place": "Bačka Palanka",
+     "address": "Trg oslobođenja broj 10",
+     "phones": "021 6041464",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10567,
+     "unit": "Ogranak apoteka Irig",
+     "place": "Irig",
+     "address": "Vojvode Putnika broj 5",
+     "phones": "022 461071",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10568,
+     "unit": "Ogranak apoteka Vrdnik",
+     "place": "Irig",
+     "address": "Trg Cara Lazara broj 1",
+     "phones": "022 466370",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10569,
+     "unit": "Ogranak apoteka Novi Sad 5",
+     "place": "Novi Sad",
+     "address": "Futoška broj 52",
+     "phones": "021 546466",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10570,
+     "unit": "Ogranak apoteka Kikinda 1",
+     "place": "Kikinda",
+     "address": "Braće Tatić broj Ga4/1",
+     "phones": "0230 422208",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10571,
+     "unit": "Ogranak apoteka Kikinda 3",
+     "place": "Kikinda",
+     "address": "Svetosavska broj 53",
+     "phones": "0230 422352",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10572,
+     "unit": "Ogranak apoteka Kikinda 9",
+     "place": "Kikinda",
+     "address": "Trg srpskih dobrovoljaca broj 36",
+     "phones": "0230 433551",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10573,
+     "unit": "Ogranak apoteka Kikinda 13",
+     "place": "Kikinda",
+     "address": "Sterije Popović bb",
+     "phones": "0230 442484",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10574,
+     "unit": "Ogranak apoteka Kikinda 15",
+     "place": "Kikinda",
+     "address": "Kralja Petra Prvog broj 106",
+     "phones": "0230 432399",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10575,
+     "unit": "Ogranak apoteka Mokrin",
+     "place": "Kikinda",
+     "address": "Svetog Save broj 75",
+     "phones": "0230 61182",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10576,
+     "unit": "Ogranak apoteka Novi Kozarci",
+     "place": "Kikinda",
+     "address": "Kralja Petra Prvog bb",
+     "phones": "0230 356009",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10577,
+     "unit": "Ogranak apoteka Nakovo",
+     "place": "Kikinda",
+     "address": "Slavka Rodića bb",
+     "phones": "0230 454302",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10578,
+     "unit": "Ogranak apoteka Banatsko veliko selo",
+     "place": "Kikinda",
+     "address": "Sime Šolaje bb",
+     "phones": "0230 451427",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10579,
+     "unit": "Ogranak apoteka Rusko selo",
+     "place": "Kikinda",
+     "address": "Bratstva jedinstva broj 160",
+     "phones": "0230 458945",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10580,
+     "unit": "Ogranak apoteka Iđoš",
+     "place": "Kikinda",
+     "address": "Karađorđeva broj 3",
+     "phones": "0230 65766",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10581,
+     "unit": "Ogranak apoteka Sajan",
+     "place": "Kikinda",
+     "address": "Velika ulica broj 94",
+     "phones": "0230 66106",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10582,
+     "unit": "Ogranak apoteka Bašaid",
+     "place": "Kikinda",
+     "address": "Vojvođanska broj 57",
+     "phones": "0230 468014",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10583,
+     "unit": "Ogranak apoteka Banatska topola",
+     "place": "Kikinda",
+     "address": "Nikole Tesle broj 2",
+     "phones": "0230 67002",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10584,
+     "unit": "Ogranak apoteka Novi Sad 6",
+     "place": "Novi Sad",
+     "address": "Bulevar Patrijarha Pavla broj 51",
+     "phones": "021 6622020",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10585,
+     "unit": "Ogranak apoteka Sremska Mitrovica 2",
+     "place": "Sremska Mitrovica",
+     "address": "Planinska broj 36",
+     "phones": "022 631650",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10586,
+     "unit": "Ogranak apoteka Sremska Mitrovica 3",
+     "place": "Sremska Mitrovica",
+     "address": "Stari most broj 1",
+     "phones": "022 620013",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10587,
+     "unit": "Ogranak apoteka Novi Sad 7",
+     "place": "Novi Sad",
+     "address": "Bate Brkić broj 8",
+     "phones": "021 6311000",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10588,
+     "unit": "Ogranak apoteka Novi Sad 8",
+     "place": "Novi Sad",
+     "address": "Futoška broj 52",
+     "phones": "021 2704100",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10589,
+     "unit": "Ogranak apoteka Novi Sad 11",
+     "place": "Novi Sad",
+     "address": "Desanke Maksimović broj 56",
+     "phones": "021 3026779",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10590,
+     "unit": "Ogranak apoteka Petrovaradin",
+     "place": "Novi Sad",
+     "address": "Okrugićeva broj 17",
+     "phones": "021 2704929",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10591,
+     "unit": "Ogranak apoteka Beočin 2",
+     "place": "Beočin",
+     "address": "Svetosavska broj 8b",
+     "phones": "021 872838",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10592,
+     "unit": "Ogranak apoteka Susek",
+     "place": "Beočin",
+     "address": "Nikole Tesle broj 75",
+     "phones": "021 2978244",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10593,
+     "unit": "Ogranak apoteka Ruma",
+     "place": "Ruma",
+     "address": "Glavna broj 143",
+     "phones": "022 2101627",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10594,
+     "unit": "Ogranak apoteka Batajnica",
+     "place": "Beograd",
+     "address": "Pukovnika Milenka Pavlovića broj 1",
+     "phones": "011 8480133",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10595,
+     "unit": "Ogranak apoteka Stara Pazova",
+     "place": "Stara Pazova",
+     "address": "Trg Zorana Đinđića bb",
+     "phones": "022 2101719",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10596,
+     "unit": "Ogranak apoteka Borča",
+     "place": "Palilula",
+     "address": "Bratstva i jedinstva broj 2g",
+     "phones": "011 6906479",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10597,
+     "unit": "Ogranak apoteka Nova Pazova",
+     "place": "Stara Pazova",
+     "address": "Kralja Petra Prvog Karađorđevića broj 7",
+     "phones": "022 323341",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10598,
+     "unit": "Ogranak apoteka Petrovaradin 2",
+     "place": "Novi Sad",
+     "address": "Beogradska broj 7",
+     "phones": "021 431399",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10599,
+     "unit": "Ogranak apoteka Niš",
+     "place": "Niš",
+     "address": "Kej kola srpskih sestara broj 35/4",
+     "phones": "018 291856",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10600,
+     "unit": "Ogranak apoteka Zemun",
+     "place": "Beograd",
+     "address": "Gornjogradska broj 34",
+     "phones": "011 3168091",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10601,
+     "unit": "Ogranak apoteka Senta",
+     "place": "Senta",
+     "address": "Tančić Mihalja broj 2a",
+     "phones": "024 4150219",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10602,
+     "unit": "Ogranak apoteka Tornjoš",
+     "place": "Senta",
+     "address": "Petefi Šandora broj 2",
+     "phones": "024 4841056",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10603,
+     "unit": "Ogranak apoteka Gornji breg",
+     "place": "Senta",
+     "address": "Petefi Šandora broj 4",
+     "phones": "024 4150252",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10604,
+     "unit": "Ogranak apoteka Požarevac",
+     "place": "Požarevac",
+     "address": "Stari korzo broj 45",
+     "phones": "012 7100741",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10605,
+     "unit": "Ogranak apoteka Lazarevac",
+     "place": "Beograd",
+     "address": "Voke Savić broj 6",
+     "phones": "011 6240848",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10606,
+     "unit": "Ogranak apoteka Novi Sad 13",
+     "place": "Novi Sad",
+     "address": "Aranj Janoša bb",
+     "phones": "021 2711063",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10607,
+     "unit": "Ogranak apoteka Novi Sad 14",
+     "place": "Novi Sad",
+     "address": "Rumenačka broj 49",
+     "phones": "021 2713751",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10608,
+     "unit": "Ogranak apoteka Bačka Palanka 2",
+     "place": "Bačka Palanka",
+     "address": "Kralja Petra Prvog broj 28",
+     "phones": "066 333169",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10609,
+     "unit": "Ogranak apoteka Niš 2",
+     "place": "Niš",
+     "address": "Bulevar Nemanjića broj 33l",
+     "phones": "018 4223659",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10610,
+     "unit": "Ogranak apoteka Niš 3",
+     "place": "Niš",
+     "address": "Toplički partizanskih odreda broj 75a",
+     "phones": "018 4286010",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10611,
+     "unit": "Ogranak apoteka Niš 4",
+     "place": "Doljevac",
+     "address": "Svetog Ilije broj 10",
+     "phones": "018 4227060",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10612,
+     "unit": "Ogranak apoteka Niš 5",
+     "place": "Žitorađa",
+     "address": "Toplički heroji broj 53",
+     "phones": "027 8362444",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  }
+ ],
+ "id": "net-apotekarska-ustanova-cvejic-cerevic"
+}

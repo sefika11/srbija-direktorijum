@@ -1,0 +1,70 @@
+[
+ {
+  "location_id": 19875,
+  "address": "Koste Abraševića bb, Zrenjanin",
+  "phones": [
+   "023 532232"
+  ],
+  "hours": "pon-ned 06:30-20:00",
+  "source_url": "https://www.dzzrenjanin.rs/kontakt/",
+  "match": "name"
+ },
+ {
+  "location_id": 24072,
+  "address": "Reves Antala bb, Mužlja",
+  "phones": [
+   "023 549821"
+  ],
+  "hours": "pon-pet 06:30-20:00; sub 08:00-12:00",
+  "source_url": "https://www.dzzrenjanin.rs/kontakt/",
+  "match": "address"
+ },
+ {
+  "location_id": 23775,
+  "address": "Kralja Milutina 1, 34000 Kragujevac",
+  "source_url": "https://dzkg.rs/organizacija/",
+  "match": "name"
+ },
+ {
+  "location_id": 24186,
+  "hours": "pon-pet 07:00-20:00; sub 08:00-18:00",
+  "source_url": "https://dzkg.rs/radno-vreme/",
+  "match": "name"
+ },
+ {
+  "location_id": 24435,
+  "hours": "pon-pet 07:00-20:00; sub 08:00-18:00; ned 08:00-18:00",
+  "source_url": "https://dzkg.rs/radno-vreme/",
+  "match": "name"
+ },
+ {
+  "location_id": 2514,
+  "hours": "07:00-20:00",
+  "source_url": "https://www.domzdravljanis.co.rs/adresar-i-kontakt-telefoni-zdravstvenih-stanica-i-ambulanta/",
+  "match": "address"
+ },
+ {
+  "location_id": 19610,
+  "hours": "07:00-20:00",
+  "source_url": "https://www.domzdravljanis.co.rs/adresar-i-kontakt-telefoni-zdravstvenih-stanica-i-ambulanta/",
+  "match": "address"
+ },
+ {
+  "location_id": 23835,
+  "phones": [
+   "018 580095"
+  ],
+  "hours": "07:00-20:00",
+  "source_url": "https://www.domzdravljanis.co.rs/adresar-i-kontakt-telefoni-zdravstvenih-stanica-i-ambulanta/",
+  "match": "address"
+ },
+ {
+  "location_id": 24215,
+  "phones": [
+   "018 4235988"
+  ],
+  "hours": "07:00-20:00",
+  "source_url": "https://www.domzdravljanis.co.rs/adresar-i-kontakt-telefoni-zdravstvenih-stanica-i-ambulanta/",
+  "match": "address"
+ }
+]

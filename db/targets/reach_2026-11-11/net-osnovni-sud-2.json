@@ -1,0 +1,99 @@
+{
+ "kind": "network",
+ "title": "Osnovni sud (5 organizacija)",
+ "type": "osnovni-sud",
+ "orgs": [
+  {
+   "org_slug": "osnovni-sud-u-velikoj-plani-velika-plana",
+   "name": "Osnovni sud u Velikoj Plani",
+   "website": "https://www.vp.os.sud.rs",
+   "rows": [
+    {
+     "location_id": 101,
+     "unit": "Sedište",
+     "place": "Velika Plana",
+     "address": "Momira Gajića 7",
+     "phones": "026 516205",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "osnovni-sud-u-velikom-gradistu-veliko-gradiste",
+   "name": "Osnovni sud u Velikom Gradištu",
+   "website": "https://www.vg.os.sud.rs",
+   "rows": [
+    {
+     "location_id": 102,
+     "unit": "Sedište",
+     "place": "Veliko Gradište",
+     "address": "Žitni Trg bb",
+     "phones": "012 662151; 012 662152",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "osnovni-sud-u-zajecaru-zajecar",
+   "name": "Osnovni sud u Zaječaru",
+   "website": "https://www.osudzajecar.rs",
+   "rows": [
+    {
+     "location_id": 66,
+     "unit": "Sedište",
+     "place": "Zaječar",
+     "address": "Trg Oslobođenja 30",
+     "phones": "019 420466; 019 421585; 019 422165; 019 422804",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "prvi-osnovni-sud-u-beogradu-beograd",
+   "name": "Prvi osnovni sud u Beogradu",
+   "website": "https://prvi.os.sud.rs",
+   "rows": [
+    {
+     "location_id": 61,
+     "unit": "Sedište",
+     "place": "Beograd",
+     "address": "Katanićeva 15",
+     "phones": "011 6553700; 011 6354124",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "treci-osnovni-sud-u-beogradu-beograd",
+   "name": "Treći osnovni sud u Beogradu",
+   "website": "https://www.treci.os.sud.rs",
+   "rows": [
+    {
+     "location_id": 97,
+     "unit": "Sedište",
+     "place": "Beograd",
+     "address": "Savska 17a",
+     "phones": "011 2018200",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  }
+ ],
+ "id": "net-osnovni-sud-2"
+}

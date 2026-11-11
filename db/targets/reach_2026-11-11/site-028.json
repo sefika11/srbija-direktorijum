@@ -1,0 +1,394 @@
+{
+ "kind": "sites",
+ "title": "Institucije sa sopstvenim sajtom",
+ "rows": [
+  {
+   "org_slug": "institut-za-transfuziju-krvi-srbije-beograd",
+   "name": "Institut za Transfuziju Krvi srbije",
+   "type": "Klinički centar, klinika ili institut",
+   "place": "Beograd",
+   "website": "http://www.nbti.org.rs",
+   "mb": "07019025",
+   "have": {
+    "address": "Svetog Save 39",
+    "phones": "011 3812700; 011 2442651",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "institut-za-virusologiju-vakcine-i-serume-torlak-beograd",
+   "name": "Institut za Virusologiju, Vakcine i Serume \"Torlak\"",
+   "type": "Klinički centar, klinika ili institut",
+   "place": "Beograd",
+   "website": "http://www.torlakinstitut.com",
+   "mb": "17078712",
+   "have": {
+    "address": "Vojvode Stepe 458",
+    "phones": "011 3976674",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "klinicko-bolnicki-centar-bezanijska-kosa-beograd",
+   "name": "Kliničko Bolnički centar \"Bežanijska Kosa\"",
+   "type": "Klinički centar, klinika ili institut",
+   "place": "Beograd",
+   "website": "http://www.bkosa.edu.rs",
+   "mb": "07039743",
+   "have": {
+    "address": "Bežanijska kosa bb",
+    "phones": "011 2606080; 011 3010700",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "klinicko-bolnicki-centar-dr-dragisa-misovic-dedinje-beograd",
+   "name": "Kliničko-Bolnički centar \"Dr Dragiša Mišović-Dedinje\"",
+   "type": "Klinički centar, klinika ili institut",
+   "place": "Beograd",
+   "website": "http://www.dragisamisovic.bg.ac.rs",
+   "mb": "07044445",
+   "have": {
+    "address": "Heroja Milana Tepića 1",
+    "phones": "011 3630600",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "klinicko-bolnicki-centar-zvezdara-beograd",
+   "name": "Kliničko-Bolnički centar \"Zvezdara\"",
+   "type": "Klinički centar, klinika ili institut",
+   "place": "Beograd",
+   "website": "http://www.kbczvezdara.rs",
+   "mb": "07017073",
+   "have": {
+    "address": "Dimitrija Tucovića 161",
+    "phones": "011 3806969; 011 3806333",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "klinika-institut-institut-za-kardiovaskularne-bolesti-dedinje-beograd",
+   "name": "Institut za kardiovaskularne bolesti Dedinje",
+   "type": "Klinički centar, klinika ili institut",
+   "place": "Beograd",
+   "website": "http://www.ikvbd.com",
+   "mb": null,
+   "have": {
+    "address": "Heroja Milana Tepića 1",
+    "phones": "011 3601700",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "klinika-institut-vojnomedicinska-akademija-beograd",
+   "name": "Vojnomedicinska akademija",
+   "type": "Klinički centar, klinika ili institut",
+   "place": "Beograd",
+   "website": "http://www.vma.mod.gov.rs",
+   "mb": null,
+   "have": {
+    "address": "Crnotravska 17",
+    "phones": "011 2661122",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "univerzitetski-klinicki-centar-srbije-beograd",
+   "name": "Univerzitetski klinički centar srbije",
+   "type": "Klinički centar, klinika ili institut",
+   "place": "Beograd",
+   "website": "http://www.kcs.ac.rs",
+   "mb": "07089503",
+   "have": {
+    "address": "Pasterova 2",
+    "phones": "011 3617777; 011 3618444",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "univerzitetski-klinicki-centar-kragujevac-kragujevac",
+   "name": "Univerzitetski klinički centar Kragujevac",
+   "type": "Klinički centar, klinika ili institut",
+   "place": "Kragujevac",
+   "website": "http://www.kc-kg.rs",
+   "mb": "07253958",
+   "have": {
+    "address": "Zmaj Jovina 30",
+    "phones": "034 505050",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "institut-za-rehabilitaciju-mladenovac-selo",
+   "name": "Institut za Rehabilitaciju",
+   "type": "Klinički centar, klinika ili institut",
+   "place": "Mladenovac",
+   "website": "http://www.rehabilitacija.rs",
+   "mb": "07050844",
+   "have": {
+    "address": "Sokobanjska 13",
+    "phones": "011 2062500",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "univerzitetski-klinicki-centar-nis-nis",
+   "name": "Univerzitetski klinički centar Niš",
+   "type": "Klinički centar, klinika ili institut",
+   "place": "Niš",
+   "website": "http://www.kcnis.rs",
+   "mb": "07370989",
+   "have": {
+    "address": "Bulevar dr Zorana Đinđića 48",
+    "phones": "018 506900; 018 506906",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "institut-za-lecenje-i-rehabilitaciju-niska-banja-niska-banja",
+   "name": "Institut za Lečenje i Rehabilitaciju \"Niška Banja\"",
+   "type": "Klinički centar, klinika ili institut",
+   "place": "Niška Banja",
+   "website": "http://www.radonnb.co.rs",
+   "mb": "07210582",
+   "have": {
+    "address": "Srpskih junaka 2",
+    "phones": "018 502000",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "institut-za-zdravstvenu-zastitu-majke-i-deteta-srbije-dr-vukan-cupic-beograd",
+   "name": "Institut za Zdravstvenu zaštitu Majke i Deteta srbije \"Dr Vukan Čupić\"",
+   "type": "Klinički centar, klinika ili institut",
+   "place": "Novi Beograd",
+   "website": "http://www.imd.org.rs",
+   "mb": "07046219",
+   "have": {
+    "address": "Radoja Dakica 6",
+    "phones": "011 3108108",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "institut-za-zdravstvenu-zastitu-dece-i-omladine-vojvodine-novi-sad",
+   "name": "Institut za Zdravstvenu zaštitu dece i omladine Vojvodine",
+   "type": "Klinički centar, klinika ili institut",
+   "place": "Novi Sad",
+   "website": "http://www.izzzdiovns.rs",
+   "mb": "08008353",
+   "have": {
+    "address": "Hajduk Veljkova 10",
+    "phones": "021 4880444",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "univerzitetski-klinicki-centar-vojvodine-novi-sad",
+   "name": "Univerzitetski klinički centar Vojvodine",
+   "type": "Klinički centar, klinika ili institut",
+   "place": "Novi Sad",
+   "website": "http://www.kcv.rs",
+   "mb": "08664161",
+   "have": {
+    "address": "Hajduk Veljkova 1",
+    "phones": "021 4843484",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "institut-za-kardiovaskularne-bolesti-vojvodine-sremska-kamenica",
+   "name": "Institut za Kardiovaskularne Bolesti Vojvodine",
+   "type": "Klinički centar, klinika ili institut",
+   "place": "Petrovaradin",
+   "website": "http://www.ikvbv.ns.ac.rs",
+   "mb": "08113645",
+   "have": {
+    "address": "Put doktora Goldmana 4",
+    "phones": "021 4805755; 021 4805100",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "institut-za-onkologiju-vojvodine-sremska-kamenica",
+   "name": "Institut za Onkologiju Vojvodine",
+   "type": "Klinički centar, klinika ili institut",
+   "place": "Petrovaradin",
+   "website": "http://www.onk.ns.ac.rs",
+   "mb": "08054983",
+   "have": {
+    "address": "Put doktora Goldmana 4",
+    "phones": "021 4805100",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "institut-za-plucne-bolesti-vojvodine-sremska-kamenica",
+   "name": "\"Institut za Plućne Bolesti Vojvodine\"",
+   "type": "Klinički centar, klinika ili institut",
+   "place": "Petrovaradin",
+   "website": "http://www.ipb-ild.edu.rs",
+   "mb": "08042462",
+   "have": {
+    "address": "Put doktora Goldmana 4",
+    "phones": "021 4805100",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "klinika-za-neurologiju-i-psihijatriju-za-decu-i-omladinu-beograd-savski-venac",
+   "name": "Klinika za Neurologiju i Psihijatriju za decu i omladinu",
+   "type": "Klinički centar, klinika ili institut",
+   "place": "Savski venac",
+   "website": "https://sites.google.com/site/decijaneuropsihijatrija/",
+   "mb": "07035802",
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "klinicko-bolnicki-centar-zemun-beograd",
+   "name": "Kliničko Bolnički centar Zemun",
+   "type": "Klinički centar, klinika ili institut",
+   "place": "Zemun",
+   "website": "http://www.kbczemun.rs",
+   "mb": "07030100",
+   "have": {
+    "address": "Vukova 9",
+    "phones": "011 3772696; 011 3772666",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-kulturu-arandjelovac-arandjelovac",
+   "name": "Centar za kulturu Aranđelovac",
+   "type": "Kulturni centar / Dom kulture",
+   "place": "Aranđelovac",
+   "website": "http://centarzakulturuarandjelovac.rs/",
+   "mb": "17265423",
+   "have": {
+    "address": "Knjaza Miloša 293",
+    "phones": "034 723731; 034 711035",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "ustanova-kulturni-centar-backa-palanka-backa-palanka",
+   "name": "Ustanova - kulturni centar Bačka Palanka",
+   "type": "Kulturni centar / Dom kulture",
+   "place": "Bačka Palanka",
+   "website": "https://kcbp.rs/",
+   "mb": "08234361",
+   "have": {
+    "address": "Jugoslovenske armije 19",
+    "phones": "021 6041644",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-kulture-opstine-backa-topola-backa-topola",
+   "name": "Dom kulture opštine Bačka Topola",
+   "type": "Kulturni centar / Dom kulture",
+   "place": "Bačka Topola",
+   "website": "http://domkulturebt.org/sr/",
+   "mb": "08241139",
+   "have": {
+    "address": "Glavna 12",
+    "phones": "024 713515",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "slovacko-vojvodjansko-pozoriste-backi-petrovac",
+   "name": "Slovačko Vojvođansko pozorište",
+   "type": "Kulturni centar / Dom kulture",
+   "place": "Bački Petrovac",
+   "website": "http://svdivadlo.wix.com/divadlo",
+   "mb": "08650438",
+   "have": {
+    "address": "Kolarova 2",
+    "phones": "021 2280040",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  }
+ ],
+ "id": "site-028"
+}

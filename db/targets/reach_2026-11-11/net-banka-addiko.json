@@ -1,0 +1,614 @@
+{
+ "kind": "network",
+ "title": "Addiko Bank",
+ "type": "banka",
+ "orgs": [
+  {
+   "org_slug": "banka-addiko",
+   "name": "Addiko Bank",
+   "website": "https://www.addiko.rs",
+   "rows": [
+    {
+     "location_id": 19483,
+     "unit": "Addiko Bank",
+     "place": "Sombor",
+     "address": null,
+     "phones": "0800 303303",
+     "hours": "Mo-We 08:00-15:30; Th 09:00-16:30; Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 19520,
+     "unit": "Addiko Bank",
+     "place": "Subotica",
+     "address": "Korzo 15",
+     "phones": "0800 303303",
+     "hours": "Uto/sre/čet/pet 08:30-16:00 Pon 09:30-17:00",
+     "need": []
+    },
+    {
+     "location_id": 19555,
+     "unit": "Addiko Bank",
+     "place": "Vršac",
+     "address": "Dvorska 1",
+     "phones": "013 835505",
+     "hours": "Uto/sre/čet/pet: 08:00-15:30 Pon 09:00-16:30",
+     "need": []
+    },
+    {
+     "location_id": 19649,
+     "unit": "Addiko Bank",
+     "place": "Vračar",
+     "address": null,
+     "phones": "0800 303303",
+     "hours": "Mo-Tu 09:00-16:45; We 10:00-17:45; Th-Fr 09:00-16:45; Sa-Su off",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 19705,
+     "unit": "Addiko Bank",
+     "place": "Bečej",
+     "address": "Trg oslobođenja 3",
+     "phones": "0800 303303",
+     "hours": "Pon/Pet 08:00-15:30",
+     "need": []
+    },
+    {
+     "location_id": 19802,
+     "unit": "Addiko Bank",
+     "place": "Novi Sad",
+     "address": "Bulevar oslobođenja 18",
+     "phones": null,
+     "hours": "Mo-Fr 09:00-17:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 19853,
+     "unit": "Addiko Bank",
+     "place": "Zrenjanin",
+     "address": null,
+     "phones": "0800 303303",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 19985,
+     "unit": "Addiko Bank",
+     "place": "Šabac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 20104,
+     "unit": "Addiko Bank",
+     "place": "Novi Beograd",
+     "address": null,
+     "phones": "0800 303303",
+     "hours": "Mo-Fr 09:00-18:30; Sa 09:00-13:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20187,
+     "unit": "Addiko Bank",
+     "place": "Kragujevac",
+     "address": null,
+     "phones": "0800 303303",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20206,
+     "unit": "Addiko Bank",
+     "place": "Medijana",
+     "address": null,
+     "phones": "0800 303303",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20217,
+     "unit": "Addiko Bank",
+     "place": "Novi Beograd",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 20271,
+     "unit": "Addiko Bank",
+     "place": "Zemun",
+     "address": null,
+     "phones": "0800 303303",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20390,
+     "unit": "Addiko Bank",
+     "place": "Užice",
+     "address": null,
+     "phones": "0800 303303",
+     "hours": "Mo 08:30-16:00; We-Fr 08:30-16:00; Th 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20443,
+     "unit": "Addiko Bank",
+     "place": "Vračar",
+     "address": null,
+     "phones": "0800 303303",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 21246,
+     "unit": "Addiko Bank",
+     "place": "Pančevo",
+     "address": null,
+     "phones": "0800 303303",
+     "hours": "Mo, We-Fr 08:00-15:30; Tu 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 21518,
+     "unit": "Addiko Bank",
+     "place": "Vračar",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Fr 09:00-16:45",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 21776,
+     "unit": "Addiko Bank",
+     "place": "Palilula",
+     "address": "Bulevar despota Stefana 95",
+     "phones": "0800 303303",
+     "hours": "Pon/Pet 09:00-16:30",
+     "need": []
+    },
+    {
+     "location_id": 21944,
+     "unit": "Addiko Bank",
+     "place": "Kikinda",
+     "address": null,
+     "phones": "0800 303303",
+     "hours": "Mo-Fr 08:00-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22018,
+     "unit": "Addiko Bank",
+     "place": "Stari grad",
+     "address": null,
+     "phones": "0800 303303",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22184,
+     "unit": "Addiko Bank",
+     "place": "Novi Sad",
+     "address": null,
+     "phones": "0800 303303",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22929,
+     "unit": "Addiko Bank",
+     "place": "Novi Sad",
+     "address": "Narodnog fronta 25a",
+     "phones": "0800 303303",
+     "hours": "Pon/Pet 08:30-16:00",
+     "need": []
+    },
+    {
+     "location_id": 23498,
+     "unit": "Addiko Bank",
+     "place": "Bačka Palanka",
+     "address": "Kralja Petra prvog 33",
+     "phones": "0800 303303",
+     "hours": "Mo-We 08:00-15:00; Th 09:00-16:30; Fr 08:00-15:30",
+     "need": []
+    },
+    {
+     "location_id": 23499,
+     "unit": "Addiko Bank",
+     "place": "Novi Beograd",
+     "address": null,
+     "phones": "0800 303303",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23500,
+     "unit": "Addiko Bank",
+     "place": "Stari grad",
+     "address": null,
+     "phones": "0800 303303",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23501,
+     "unit": "Addiko Bank",
+     "place": "Novi Beograd",
+     "address": null,
+     "phones": "0800 303303",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23502,
+     "unit": "Addiko Bank",
+     "place": "Čačak",
+     "address": "Pivarska 2",
+     "phones": "0800 303303",
+     "hours": "Pon/Pet 08:30-16:00",
+     "need": []
+    },
+    {
+     "location_id": 23503,
+     "unit": "Addiko Bank",
+     "place": "Jagodina",
+     "address": null,
+     "phones": "0800 303303",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23504,
+     "unit": "Addiko Bank",
+     "place": "Kraljevo",
+     "address": "Omladinska 6",
+     "phones": "0800 303303",
+     "hours": "Pon/Pet 08:30-16:00",
+     "need": []
+    },
+    {
+     "location_id": 23505,
+     "unit": "Addiko Bank",
+     "place": "Kruševac",
+     "address": "Trg kosovskih junaka 1",
+     "phones": "0800 303303",
+     "hours": "Pon/Pet 08:30-16:00",
+     "need": []
+    },
+    {
+     "location_id": 23506,
+     "unit": "Addiko Bank",
+     "place": "Lazarevac",
+     "address": null,
+     "phones": "0800 303303",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23507,
+     "unit": "Addiko Bank",
+     "place": "Leskovac",
+     "address": "Bulevar oslobođenja 53",
+     "phones": "0800 303303",
+     "hours": "Pon/Pet 08:30-16:00",
+     "need": []
+    },
+    {
+     "location_id": 23508,
+     "unit": "Addiko Bank",
+     "place": "Medijana",
+     "address": null,
+     "phones": "0800 303303",
+     "hours": "Mo-Fr 09:00-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23509,
+     "unit": "Addiko Bank",
+     "place": "Obrenovac",
+     "address": null,
+     "phones": "011 8724660",
+     "hours": "Mo-Fr 08:30-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23510,
+     "unit": "Addiko Bank",
+     "place": "Šabac",
+     "address": "Karađorđeva 39",
+     "phones": "0800 303303",
+     "hours": "Pon/Pet 08:30-16:00",
+     "need": []
+    },
+    {
+     "location_id": 23511,
+     "unit": "Addiko Bank",
+     "place": "Sremska Mitrovica",
+     "address": "Kralja Petra I 19",
+     "phones": "0800 303303",
+     "hours": "Pon/Pet 08:00-15:30",
+     "need": []
+    },
+    {
+     "location_id": 23512,
+     "unit": "Addiko Bank",
+     "place": "Novi Beograd",
+     "address": null,
+     "phones": "011 2226000",
+     "hours": "24/7",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23815,
+     "unit": "Addiko Bank",
+     "place": "Čukarica",
+     "address": "Trgovačka 2",
+     "phones": "0800 303303",
+     "hours": "Pon/Pet 09:00-16:30",
+     "need": []
+    },
+    {
+     "location_id": 24504,
+     "unit": "Addiko Bank",
+     "place": "Voždovac",
+     "address": null,
+     "phones": "0800 303303",
+     "hours": "Mo-Fr 09:00-18:30; Sa 09:00-13:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 28200,
+     "unit": "Ekspozitura Airport City",
+     "place": "Novi Beograd",
+     "address": "Omladinskih brigada 90g",
+     "phones": "0800 303303",
+     "hours": "Pon/Pet 09:00-16:30",
+     "need": []
+    },
+    {
+     "location_id": 28201,
+     "unit": "Ekspozitura Nušićeva",
+     "place": "Stari grad",
+     "address": "Nušićeva 27",
+     "phones": "0800 303303",
+     "hours": "Pon/Pet 09:00-16:30h",
+     "need": []
+    },
+    {
+     "location_id": 28202,
+     "unit": "Ekspozitura Bulevar Kralja Aleksandra",
+     "place": "Vračar",
+     "address": "Bulevar Kralja Aleksandra 134",
+     "phones": "0800 303303",
+     "hours": "Pon/Pet 09:00-16:30",
+     "need": []
+    },
+    {
+     "location_id": 28203,
+     "unit": "Ekspozitura Užice",
+     "place": "Užice",
+     "address": "Dimitrija Tucovića 38",
+     "phones": "0800 303303",
+     "hours": "Pon/sre/čet/pet: 08:30-16:00 Uto 09:00-16:30",
+     "need": []
+    },
+    {
+     "location_id": 28204,
+     "unit": "Ekspozitura Jagodina",
+     "place": "Jagodina",
+     "address": "Kneginje Milice 15",
+     "phones": "0800 303303",
+     "hours": "Pon/Pet 08:30-16:00",
+     "need": []
+    },
+    {
+     "location_id": 28205,
+     "unit": "Ekspozitura Niš Zorana Đinđića",
+     "place": "Medijana",
+     "address": "Bulevar Dr Zorana Đinđića 25",
+     "phones": "0800 303303",
+     "hours": "Pon/Pet 09:00-16:30",
+     "need": []
+    },
+    {
+     "location_id": 28206,
+     "unit": "Ekspozitura Niš Dušanova",
+     "place": "Medijana",
+     "address": "Dušanova bb",
+     "phones": "0800 303303",
+     "hours": "Pon/Pet 08:30-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 28207,
+     "unit": "Ekspozitura Kragujevac",
+     "place": "Kragujevac",
+     "address": "Kralja Petra I 11b",
+     "phones": "0800 303303",
+     "hours": "Pon/Pet 09:00-16:30",
+     "need": []
+    },
+    {
+     "location_id": 28208,
+     "unit": "Ekspozitura Lazarevac",
+     "place": "Lazarevac",
+     "address": "Karađorđeva 45",
+     "phones": "0800 303303",
+     "hours": "Pon/Pet 08:30-16:00",
+     "need": []
+    },
+    {
+     "location_id": 28209,
+     "unit": "Ekspozitura Obrenovac",
+     "place": "Obrenovac",
+     "address": "Miloša Obrenovića 120",
+     "phones": "011 8724660",
+     "hours": "Pon/Pet 08:30-16:00",
+     "need": []
+    },
+    {
+     "location_id": 28210,
+     "unit": "Ekspozitura Sombor",
+     "place": "Sombor",
+     "address": "Kralja Petra I 24",
+     "phones": "0800 303303",
+     "hours": "Pon/uto/sre/pet: 08:00-15:30 Čet 09:00-16:30",
+     "need": []
+    },
+    {
+     "location_id": 28211,
+     "unit": "Ekspozitura Zrenjanin",
+     "place": "Zrenjanin",
+     "address": "Svetozara Markovića 2",
+     "phones": "0800 303303",
+     "hours": "Pon/Pet 08:00-15:30",
+     "need": []
+    },
+    {
+     "location_id": 28212,
+     "unit": "Ekspozitura Kikinda",
+     "place": "Kikinda",
+     "address": "Generala Drapšina 13",
+     "phones": "0800 303303",
+     "hours": "Pon/Pet 08:00-15:30",
+     "need": []
+    },
+    {
+     "location_id": 28213,
+     "unit": "Ekspozitura Bačka Palanka",
+     "place": "Bačka Palanka",
+     "address": "Kralja Petra I 33",
+     "phones": "0800 303303",
+     "hours": "Pon/uto/sre/pet: 08:00-15:30 Čet 09:00-16:30",
+     "need": []
+    },
+    {
+     "location_id": 28214,
+     "unit": "Ekspozitura Pančevo",
+     "place": "Pančevo",
+     "address": "Generala Petra Aračića 5",
+     "phones": "0800 303303",
+     "hours": "Pon/sre/čet/pet:08:00-15:30 Uto:09:00-16:30",
+     "need": []
+    },
+    {
+     "location_id": 28215,
+     "unit": "Ekspozitura Novi Sad",
+     "place": "Novi Sad",
+     "address": "Bul. oslobođenja 29",
+     "phones": "0800 303303",
+     "hours": "Pon/pet: 09:00-16:30",
+     "need": []
+    },
+    {
+     "location_id": 28216,
+     "unit": "Ekspozitura Zaplanjska",
+     "place": "Voždovac",
+     "address": "Zaplanjska 32",
+     "phones": "0800 303303",
+     "hours": "Pon/Pet 09:00-18:30 Sub 09:00-13:30",
+     "need": []
+    },
+    {
+     "location_id": 28217,
+     "unit": "Ekspozitura Cara Dušana",
+     "place": "Savski venac",
+     "address": "Cara Dušana 84",
+     "phones": "0800 303303",
+     "hours": "Pon/Pet 08:30 - 16:00",
+     "need": []
+    },
+    {
+     "location_id": 28218,
+     "unit": "Ekspozitura Immocentar",
+     "place": "Novi Beograd",
+     "address": "Blok 64",
+     "phones": "0800 303303",
+     "hours": "Pon/Pet 09:00-18:30 Sub 09:00-13:30",
+     "need": []
+    },
+    {
+     "location_id": 28219,
+     "unit": "Ekspozitura Gramšijeva",
+     "place": "Novi Beograd",
+     "address": "Gramšijeva 9",
+     "phones": "0800 303303",
+     "hours": "Pon/Pet 08:30 - 16:00",
+     "need": []
+    },
+    {
+     "location_id": 28220,
+     "unit": "Ekspozitura Zemun",
+     "place": "Zemun",
+     "address": "Gospodska 11",
+     "phones": "0800 303303",
+     "hours": "Pon/Pet 09:00-16:30",
+     "need": []
+    }
+   ]
+  }
+ ],
+ "id": "net-banka-addiko"
+}

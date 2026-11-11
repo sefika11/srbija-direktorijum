@@ -1,0 +1,1567 @@
+{
+ "kind": "network",
+ "title": "Apotekarska ustanova \"Galen pharm\"",
+ "type": "apoteka",
+ "orgs": [
+  {
+   "org_slug": "apotekarska-ustanova-galen-pharm-beograd",
+   "name": "Apotekarska ustanova \"Galen pharm\"",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 13188,
+     "unit": "Galen Pharm",
+     "place": "Zemun",
+     "address": "Beogradska br.8, Beograd,Zemun",
+     "phones": "064 6479468",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13190,
+     "unit": "Galen Pharm 4",
+     "place": "Čukarica",
+     "address": "Dvoržakova br.4, Sremčica,Čukarica",
+     "phones": "064 6479471",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13193,
+     "unit": "Galen Pharm 5",
+     "place": "Beograd",
+     "address": "Kirovljeva br. 37a",
+     "phones": "064 6479473",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13195,
+     "unit": "Galen Pharm 6",
+     "place": "Beograd",
+     "address": "Paunova br. 24",
+     "phones": "064 6479474",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13197,
+     "unit": "Galen Pharm 7",
+     "place": "Novi Beograd",
+     "address": "Jurija Gagarina br.221, Beograd,Novi Beograd",
+     "phones": "064 6479477",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13199,
+     "unit": "Galen Pharm 10",
+     "place": "Beograd",
+     "address": "Zaplanjska br. 32",
+     "phones": "064 6479480",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13201,
+     "unit": "Galen Pharm 11",
+     "place": "Beograd",
+     "address": "Bačvanska br. 21",
+     "phones": "066 6479486",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13203,
+     "unit": "Galen Pharm 13",
+     "place": "Vrbas",
+     "address": "Maršala Tita br. 97",
+     "phones": "064 6470001",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13205,
+     "unit": "Galen Pharm 15",
+     "place": "Kula",
+     "address": "Maršala Tita br. 114",
+     "phones": "064 6470003",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13207,
+     "unit": "Galen Pharm 14",
+     "place": "Kula",
+     "address": "Maršala Tita br. 248",
+     "phones": "064 6470002",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13209,
+     "unit": "Galen Pharm 16",
+     "place": "Beograd",
+     "address": "Požeška br. 138a",
+     "phones": "064 6470006",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13211,
+     "unit": "Galen Pharm 17",
+     "place": "Bečej",
+     "address": "Glavna br. 8",
+     "phones": "064 6470007",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13214,
+     "unit": "Galen Pharm 20",
+     "place": "Beograd",
+     "address": "Beogradska br. 41",
+     "phones": "066 6479482",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13216,
+     "unit": "Galen Pharm 22",
+     "place": "Beograd",
+     "address": "Maršala Tita br. 32",
+     "phones": "066 6479484",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13218,
+     "unit": "Galen Pharm 19",
+     "place": "Beograd",
+     "address": "Kralja Milana br. 15",
+     "phones": "066 6479481",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13220,
+     "unit": "Galen Pharm 21",
+     "place": "Beograd",
+     "address": "Maksima Gorkog br. 30",
+     "phones": "066 6479483",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13222,
+     "unit": "Galen Pharm 24",
+     "place": "Smederevo",
+     "address": "17.oktobra br.16, Smederevo",
+     "phones": "064 6470112",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13224,
+     "unit": "Galen Pharm 25",
+     "place": "Smederevo",
+     "address": "Karađorđev dud 1e",
+     "phones": "064 6470113",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13227,
+     "unit": "Galen Pharm 26",
+     "place": "Aranđelovac",
+     "address": "Knjaza Miloša br. 271/21",
+     "phones": "064 6470114",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13229,
+     "unit": "Galen Pharm 27",
+     "place": "Vršac",
+     "address": "Stanoja Glavaša br. 46",
+     "phones": "066 6479487",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13231,
+     "unit": "Galen Pharm 28",
+     "place": "Vršac",
+     "address": "Gavrila Principa br. 8",
+     "phones": "066 6479488",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13233,
+     "unit": "Galen Pharm 29",
+     "place": "Plandište",
+     "address": "Maršala Tita br. 72",
+     "phones": "064 6410654",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13235,
+     "unit": "Galen Pharm 30",
+     "place": "Novi Beograd",
+     "address": "Jurija Gagarina br.155a, Beograd,Novi Beograd",
+     "phones": "064 6418728",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13237,
+     "unit": "Galen Pharm 31",
+     "place": "Beograd",
+     "address": "Srpskohusarskog puka 57b",
+     "phones": "064 6479186",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13239,
+     "unit": "Galen Pharm 33",
+     "place": "Pančevo",
+     "address": "Kneza Mihajla Obrenovića 65",
+     "phones": "064 6479188",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13241,
+     "unit": "Galen Pharm 32",
+     "place": "Kula",
+     "address": "Maršala Tita br. 183",
+     "phones": "064 6479190",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13243,
+     "unit": "Galen Pharm 34",
+     "place": "Aranđelovac",
+     "address": "Knjaza Miloša br. 94",
+     "phones": "064 6479189",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13245,
+     "unit": "Galen Pharm 36",
+     "place": "Sombor",
+     "address": "Štrosmajerova br.28, Sombor",
+     "phones": "066 6479493",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13247,
+     "unit": "Galen Pharm 37",
+     "place": "Rakovica",
+     "address": "Patrijarha Dimitrija br.14, Beograd,Rakovica",
+     "phones": "066 6479494",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13249,
+     "unit": "Galen Pharm 40",
+     "place": "Apatin",
+     "address": "Vuka Karadžića bb",
+     "phones": "064 6445799",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13251,
+     "unit": "Galen Pharm 39",
+     "place": "Velika Plana",
+     "address": "Somborski put br.3, Kupusina,Apatin",
+     "phones": "064 6445798",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13253,
+     "unit": "Galen Pharm 38",
+     "place": "Apatin",
+     "address": "Nušićeva bb",
+     "phones": "064 6445796",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13256,
+     "unit": "Galen Pharm 42",
+     "place": "Apatin",
+     "address": "Nine Marakovića br.48, Prigrevica,Apatin",
+     "phones": "064 6445800",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13258,
+     "unit": "Galen Pharm 41",
+     "place": "Apatin",
+     "address": "Glavna bb",
+     "phones": "064 6445797",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13260,
+     "unit": "Galen Pharm 43",
+     "place": "Pančevo",
+     "address": "Maršala Tita br.64,Banatsko Novo Selo, Pančevo",
+     "phones": "066 8820823",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13262,
+     "unit": "Galen Pharm 51",
+     "place": "Sombor",
+     "address": "Dositeja Obradovića br. 1",
+     "phones": "066 8820792",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13264,
+     "unit": "Galen Pharm 59",
+     "place": "Sombor",
+     "address": "Jugoslovenska br. 19",
+     "phones": "066 8820791",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13266,
+     "unit": "Galen Pharm 44",
+     "place": "Sombor",
+     "address": "Hajduk Veljka br. 2",
+     "phones": "066 8820786",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13268,
+     "unit": "Galen Pharm 45",
+     "place": "Sombor",
+     "address": "Kralja Petra I br. 36",
+     "phones": "066 8820784",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13270,
+     "unit": "Galen Pharm 55",
+     "place": "Sombor",
+     "address": "Ivana Gorana Kovačića br.11/a, Bački Monoštor,Sombor",
+     "phones": "066 8820781",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13272,
+     "unit": "Galen Pharm 57",
+     "place": "Sombor",
+     "address": "Trg Boraca br. 12",
+     "phones": "066 8820788",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13274,
+     "unit": "Galen Pharm 46",
+     "place": "Sombor",
+     "address": "Prvomajski bulevar br.19A, Sombor",
+     "phones": "066 8820787",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13276,
+     "unit": "Galen Pharm 56",
+     "place": "Sombor",
+     "address": "Šipoša Đerđa br. 1",
+     "phones": "066 8820795",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13279,
+     "unit": "Galen Pharm 48",
+     "place": "Sombor",
+     "address": "Žrtava fašizma br. 9",
+     "phones": "066 8588896",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13281,
+     "unit": "Galen Pharm 49",
+     "place": "Valjevo",
+     "address": "Karađorđev plac br. 95",
+     "phones": "066 8588899",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13283,
+     "unit": "Galen Pharm 61",
+     "place": "Sombor",
+     "address": "Dušana Ćubića br.28, Sombor",
+     "phones": "066 8588895",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13285,
+     "unit": "Galen Pharm 58",
+     "place": "Sombor",
+     "address": "Feher Ferenca br. 1",
+     "phones": "066 8820789",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13287,
+     "unit": "Galen Pharm 50",
+     "place": "Sombor",
+     "address": "Kralja Petra I br. 29",
+     "phones": "066 8820782",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13289,
+     "unit": "Galen Pharm 52",
+     "place": "Sombor",
+     "address": "Oslobođenja br. 81",
+     "phones": "066 8820785",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13291,
+     "unit": "Galen Pharm 60",
+     "place": "Sombor",
+     "address": "Školska br. 13",
+     "phones": "066 8820790",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13293,
+     "unit": "Galen pharm 54",
+     "place": "Sombor",
+     "address": "Nikole Tesle br. 41",
+     "phones": "066 8820794",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13295,
+     "unit": "Galen pharm 53",
+     "place": "Sombor",
+     "address": "Svetog Save br. 52",
+     "phones": "066 8820793",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13298,
+     "unit": "Galen Pharm 62",
+     "place": "Aranđelovac",
+     "address": "Vožda Karađorđa br.15, Aranđelovac",
+     "phones": "066 8103081",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13300,
+     "unit": "Galen Pharm 64",
+     "place": "Sombor",
+     "address": "Kralja Petra I br.62, Gakovo, Sombor",
+     "phones": "066 8820845",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13302,
+     "unit": "Galen Pharm 75",
+     "place": "Novi Sad",
+     "address": "Bulevar Oslobođenja br.119, Novi Sad",
+     "phones": "066 8820849",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13304,
+     "unit": "Galen Pharm 76",
+     "place": "Kula",
+     "address": "Lenjinova br.4, Kula",
+     "phones": "066 8820857",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13306,
+     "unit": "Galen Pharm 81",
+     "place": "Kula",
+     "address": "Maršala Tita br.44, Lipar,Kula",
+     "phones": "066 8820855",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13308,
+     "unit": "Galen Pharm 78",
+     "place": "Kula",
+     "address": "Maršala Tita br.199, Sivac, Kula",
+     "phones": "066 8820852",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13310,
+     "unit": "Galen Pharm 77",
+     "place": "Kula",
+     "address": "Moše Pijade br.51, Crvenka,Kula",
+     "phones": "066 8820851",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13312,
+     "unit": "Galen Pharm 80",
+     "place": "Kula",
+     "address": "Vladimira Nazora br.28, Kruščić, Kula",
+     "phones": "066 8820854",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13314,
+     "unit": "Galen Pharm 82",
+     "place": "Čukarica",
+     "address": "Ratka Mitrovića br.187, Beograd,Čukarica",
+     "phones": "066 8820858",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13316,
+     "unit": "Galen Pharm 65",
+     "place": "Novi Sad",
+     "address": "Bulevar Oslobođenja br.65a, Novi Sad",
+     "phones": "066 8820861",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13318,
+     "unit": "Galen Pharm 66",
+     "place": "Novi Sad",
+     "address": "Bulevar Oslobođenja br.103, Novi Sad",
+     "phones": "066 8820862",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13320,
+     "unit": "Galen Pharm 69",
+     "place": "Novi Sad",
+     "address": "Bulevar Oslobođenja br.18, Novi Sad",
+     "phones": "066 8820865",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13322,
+     "unit": "Galen Pharm 72",
+     "place": "Novi Sad",
+     "address": "Braće Dronjak br.16-18, Novi Sad",
+     "phones": "066 8820868",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13325,
+     "unit": "Galen Pharm 70",
+     "place": "Novi Sad",
+     "address": "Sentandrejski put bb",
+     "phones": "066 8820866",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13327,
+     "unit": "Galen Pharm 79",
+     "place": "Kula",
+     "address": "Fruškogorska br.49, Ruski Krstur,Kula",
+     "phones": "066 8820853",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13329,
+     "unit": "Galen Pharm 73",
+     "place": "Sombor",
+     "address": "Moše Pijade br.32, Kljajićevo, Sombor",
+     "phones": "066 8820856",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13331,
+     "unit": "Galen Pharm 83",
+     "place": "Čukarica",
+     "address": "Radnička br.9, Beograd, Čukarica",
+     "phones": "066 8820860",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13333,
+     "unit": "Galen Pharm 84",
+     "place": "Sremska Mitrovica",
+     "address": "Bulevar Konstantina Velikog br.21, Sremska Mitrovica",
+     "phones": "064 6470008",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13335,
+     "unit": "Galen Pharm 85",
+     "place": "Plandište",
+     "address": "Hajduk Veljka br.13a, Plandište",
+     "phones": "066 8820928",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13337,
+     "unit": "Galen Pharm 92",
+     "place": "Čukarica",
+     "address": "Trgovačka br.6, Beograd, Čukarica",
+     "phones": "066 8820931",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13339,
+     "unit": "Galen Pharm 91",
+     "place": "Alibunar",
+     "address": "Maršala Tita br.100, Lokve, Alibunar",
+     "phones": "066 8820930",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13341,
+     "unit": "Galen Pharm 86",
+     "place": "Novi Sad",
+     "address": "Kraljevića Marka br.26, Novi Sad",
+     "phones": "066 8820929",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13343,
+     "unit": "Galen Pharm 88",
+     "place": "Topola",
+     "address": "Vojvode Živojina Mišića br.18, Topola",
+     "phones": "065 8000261",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13345,
+     "unit": "Galen Pharm 95",
+     "place": "Požarevac",
+     "address": "Đure Đakovića bb",
+     "phones": "066 8820934",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13347,
+     "unit": "Galen Pharm 87",
+     "place": "Topola",
+     "address": "Bulevar Vožda Karađorđa br. 32",
+     "phones": "064 5964400",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13349,
+     "unit": "Galen Pharm 93",
+     "place": "Beograd",
+     "address": "Višnjička br 84",
+     "phones": "066 8820933",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13351,
+     "unit": "Galen Pharm 89",
+     "place": "Topola",
+     "address": "Donja Šatornja bb",
+     "phones": "065 8000264",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13352,
+     "unit": "Galen Pharm 94",
+     "place": "Beograd",
+     "address": "Janka Katića bb",
+     "phones": "066 8820937",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13354,
+     "unit": "Galen Pharm 96",
+     "place": "Jagodina",
+     "address": "Kneginje Milice br.61/2, Jagodina",
+     "phones": "066 8820938",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13356,
+     "unit": "Galen Pharm 98",
+     "place": "Jagodina",
+     "address": "Maksima Gorkog br.6/2, Jagodina",
+     "phones": "066 8820940",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13359,
+     "unit": "Galen Pharm 100",
+     "place": "Novi Beograd",
+     "address": "Bulevar Zorana Đinđića br.125b, Beograd,Novi Beograd",
+     "phones": "066 8820943",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13361,
+     "unit": "Galen Pharm 101",
+     "place": "Ruma",
+     "address": "Glavna br.127, Ruma",
+     "phones": "066 8820944",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13363,
+     "unit": "Galen Pharm 103",
+     "place": "Bačka Topola",
+     "address": "Glavna br.9, Bačka Topola",
+     "phones": "066 8820946",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13365,
+     "unit": "Galen Pharm 104",
+     "place": "Novi Sad",
+     "address": "Pasterova br.18, Novi Sad",
+     "phones": "066 8820948",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13367,
+     "unit": "Galen Pharm 105",
+     "place": "Požarevac",
+     "address": "Kosovska br.37, Požarevac",
+     "phones": "066 8820947",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13369,
+     "unit": "Galen Pharm 110",
+     "place": "Subotica",
+     "address": "Starine Novaka bb",
+     "phones": "066 8820954",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13371,
+     "unit": "Galen Pharm 111",
+     "place": "Subotica",
+     "address": "Sutjeska br.82, Subotica",
+     "phones": "066 8820955",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13374,
+     "unit": "Galen Pharm 112",
+     "place": "Subotica",
+     "address": "Franje Kluza br.2, Subotica",
+     "phones": "066 8820956",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13376,
+     "unit": "Galen Pharm 113",
+     "place": "Subotica",
+     "address": "Aleja Maršala Tita br.31, Subotica",
+     "phones": "066 8820957",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13378,
+     "unit": "Galen Pharm 114",
+     "place": "Subotica",
+     "address": "Đure Đakovića br.14, Subotica",
+     "phones": "066 8820958",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13380,
+     "unit": "Galen Pharm 115",
+     "place": "Subotica",
+     "address": "Borisa Kidriča br.19f, Subotica,Hajdukovo",
+     "phones": "066 8820959",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13382,
+     "unit": "Galen Pharm 116",
+     "place": "Subotica",
+     "address": "Ilije Lubarde bb",
+     "phones": "066 8820960",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13384,
+     "unit": "Galen Pharm 117",
+     "place": "Subotica",
+     "address": "Vladimira Nazora br.1, Subotica, Stari Žednik",
+     "phones": "066 8820961",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13386,
+     "unit": "Galen Pharm 118",
+     "place": "Subotica",
+     "address": "JNA br.6,Subotica,Bajmok",
+     "phones": "066 8820962",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13388,
+     "unit": "Galen Pharm 119",
+     "place": "Subotica",
+     "address": "Trg Jakaba i Komora br.4, Subotica",
+     "phones": "066 8820963",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13391,
+     "unit": "Galen Pharm 120",
+     "place": "Subotica",
+     "address": "Horgoški put br.78, Subotica, Palić",
+     "phones": "066 8820964",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13393,
+     "unit": "Galen Pharm 121",
+     "place": "Subotica",
+     "address": "Prvomajska br.43, Subotica,Čantavir",
+     "phones": "066 8820965",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13395,
+     "unit": "Galen Pharm 122",
+     "place": "Subotica",
+     "address": "Segedinski put br.25, Subotica",
+     "phones": "066 8820966",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13397,
+     "unit": "Galen Pharm 123",
+     "place": "Subotica",
+     "address": "Beogradski put br.43, Subotica",
+     "phones": "066 8820967",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13399,
+     "unit": "Galen Pharm 124",
+     "place": "Subotica",
+     "address": "Marka Oreškovića br.11, Subotica,Donji Tavankut",
+     "phones": "066 8820968",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13401,
+     "unit": "Galen Pharm 125",
+     "place": "Subotica",
+     "address": "Majšanski put bb",
+     "phones": "066 8820969",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13403,
+     "unit": "Galen Pharm 126",
+     "place": "Subotica",
+     "address": "Šabačka br.7b, Subotica",
+     "phones": "066 8820970",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13405,
+     "unit": "Galen Pharm 127",
+     "place": "Subotica",
+     "address": "Karađorđev put br.57, Subotica",
+     "phones": "066 8820971",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13407,
+     "unit": "Galen Pharm 128",
+     "place": "Subotica",
+     "address": "Trg Slobode br.1,Subotica",
+     "phones": "066 8820972",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13409,
+     "unit": "Galen Pharm 129",
+     "place": "Subotica",
+     "address": "Trg žrtava fašizma br.5, Subotica",
+     "phones": "066 8820973",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13411,
+     "unit": "Galen Pharm 130",
+     "place": "Sremska Mitrovica",
+     "address": "Trg Svetog Stefana br.28, Sremska Mitrovica",
+     "phones": "066 8820871",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13413,
+     "unit": "Galen Pharm 131",
+     "place": "Sremska Mitrovica",
+     "address": "Maršala Tita br.21, Sremska Mitrovica,Veliki Radinci",
+     "phones": "066 8820872",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13415,
+     "unit": "Galen Pharm 132",
+     "place": "Sremska Mitrovica",
+     "address": "Sremska br.4, Sremska Mitrovica,Martinci",
+     "phones": "066 8820873",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13417,
+     "unit": "Galen Pharm 135",
+     "place": "Sremska Mitrovica",
+     "address": "Maršala Tita br.28,Sremska Mitrovica,Kuzmin",
+     "phones": "066 8820876",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13419,
+     "unit": "Galen Pharm 137",
+     "place": "Sremska Mitrovica",
+     "address": "Radinački put br.89/a, Sremska Mitrovica",
+     "phones": "066 8820878",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13422,
+     "unit": "Galen Pharm 138",
+     "place": "Sremska Mitrovica",
+     "address": "Pinkijeva bb",
+     "phones": "066 8820879",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13424,
+     "unit": "Galen Pharm 141",
+     "place": "Sremska Mitrovica",
+     "address": "Stojana Pandurevića br.19, Sremska Mitrovica,Noćaj",
+     "phones": "066 8820881",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13426,
+     "unit": "Galen Pharm 142",
+     "place": "Obrenovac",
+     "address": "Kralja Aleksandra Prvog br.157, Obrenovac",
+     "phones": "064 8997290",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13428,
+     "unit": "Galen Pharm 143",
+     "place": "Mali Iđoš",
+     "address": "Glavna br.5, Mali Iđoš",
+     "phones": "064 8997292",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13430,
+     "unit": "Galen Pharm 144",
+     "place": "Kragujevac",
+     "address": "Kralja Aleksandra I Karađorđevića br.75/A, Kragujevac",
+     "phones": "064 8997293",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13432,
+     "unit": "Galen Pharm 145",
+     "place": "Voždovac",
+     "address": "Astrid Lindgren br.21, Beograd,Voždovac",
+     "phones": "064 8997294",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13434,
+     "unit": "Galen Pharm 148",
+     "place": "Kruševac",
+     "address": "Milunke Savić br.32, Kruševac,Jasika",
+     "phones": "064 8997298",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13437,
+     "unit": "Galen Pharm 150",
+     "place": "Sremska Mitrovica",
+     "address": "Pobeda bb",
+     "phones": "066 8820974",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13439,
+     "unit": "Galen Pharm 151",
+     "place": "Novi Sad",
+     "address": "Carice Milice br.10-12, Novi Sad,Futog",
+     "phones": "066 8820951",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13441,
+     "unit": "Galen Pharm 152",
+     "place": "Srbobran",
+     "address": "Jovana Popovića br.22, Srbobran",
+     "phones": "066 8820843",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13443,
+     "unit": "Galen Pharm 153",
+     "place": "Beograd",
+     "address": "Dubrovačka br.3a, Surčin,Beograd",
+     "phones": "064 6470111",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13445,
+     "unit": "Galen Pharm 155",
+     "place": "Rakovica",
+     "address": "Oplenačka br.44b, Beograd,Rakovica",
+     "phones": "060 7010235",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13447,
+     "unit": "Galen Pharm 156",
+     "place": "Čukarica",
+     "address": "Palisadska br.7a, Beograd, Čukarica",
+     "phones": "060 7010236",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13450,
+     "unit": "Galen Pharm 157",
+     "place": "Rakovica",
+     "address": "Edvarda Griga br.7, Beograd,Rakovica",
+     "phones": "060 7010237",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13452,
+     "unit": "Galen Pharm 158",
+     "place": "Rakovica",
+     "address": "Aleksandra Vojinovića br.67g,Beograd,Rakovica",
+     "phones": "060 7010237",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13454,
+     "unit": "Galen Pharm 160",
+     "place": "Kosjerić",
+     "address": "Karađorđeva br.74, Kosjerić",
+     "phones": "060 7010276",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13456,
+     "unit": "Galen Pharm 161",
+     "place": "Novi Beograd",
+     "address": "Milentija Popovića br.9, Beograd, Novi Beograd",
+     "phones": "066 8820850",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13458,
+     "unit": "Galen Pharm 163",
+     "place": "Kragujevac",
+     "address": "Kralja Petra Prvog br.22, Kragujevac",
+     "phones": "066 8820932",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13460,
+     "unit": "Galen Pharm 164",
+     "place": "Vršac",
+     "address": "Miloša Obilića br.93a , Vršac",
+     "phones": "066 8820952",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13463,
+     "unit": "Galen Pharm 165",
+     "place": "Sremska Mitrovica",
+     "address": "Miloša Obilića br.70, Sremska Mitrovica",
+     "phones": "066 8820880",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13465,
+     "unit": "Galen Pharm 162",
+     "place": "Novi Beograd",
+     "address": "Španskih boraca br.75,Beograd, Novi Beograd",
+     "phones": "066 8820952",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13467,
+     "unit": "Galen Pharm 166",
+     "place": "Ub",
+     "address": "Stublenička prva 40r",
+     "phones": "064 6479478",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13469,
+     "unit": "Galen Pharm 167",
+     "place": "Subotica",
+     "address": "Bajnatska br.21G, lokal 5, Subotica 24000",
+     "phones": "066 8820949",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13471,
+     "unit": "Galen Pharm 168",
+     "place": "Srbobran",
+     "address": "Dositeja Obradovića 6",
+     "phones": "064 6470004",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13473,
+     "unit": "Galen Pharm 169",
+     "place": "Beograd",
+     "address": "Železnička 4",
+     "phones": "066 8820939",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13476,
+     "unit": "Galen Pharm 170",
+     "place": "Novi Sad",
+     "address": "Bulevar cara Lazara br.90, Novi Sad",
+     "phones": "066 8820864",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13478,
+     "unit": "Galen Pharm 171",
+     "place": "Smederevska Palanka",
+     "address": "Veljka Vlahovića br. 11a",
+     "phones": "066 8820945",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13480,
+     "unit": "Galen Pharm 172",
+     "place": "Šid",
+     "address": "Sremskog Fronta br.1N lokal 15, Šid",
+     "phones": "066 8820783",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  }
+ ],
+ "id": "net-apotekarska-ustanova-galen-pharm-beograd"
+}

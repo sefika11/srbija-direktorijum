@@ -1,0 +1,399 @@
+{
+ "kind": "sites",
+ "title": "Institucije sa sopstvenim sajtom",
+ "rows": [
+  {
+   "org_slug": "centar-za-obrazovanje-kragujevac-kragujevac",
+   "name": "Centar za obrazovanje Kragujevac",
+   "type": "Javna ustanova",
+   "place": "Kragujevac",
+   "website": "https://centarzaobrazovanjekg.edu.rs",
+   "mb": "17821717",
+   "have": {
+    "address": null,
+    "phones": "034 201303",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-razvoj-usluga-socijalne-zastite-kneginja-ljubica-kragujevac",
+   "name": "Centar za razvoj Usluga socijalne zaštite \"Kneginja Ljubica\"",
+   "type": "Javna ustanova",
+   "place": "Kragujevac",
+   "website": "https://kneginjaljubica.org.rs",
+   "mb": "17820605",
+   "have": {
+    "address": null,
+    "phones": "034 355485",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-omladine-kragujevac-kragujevac",
+   "name": "Dom omladine \"Kragujevac\"",
+   "type": "Javna ustanova",
+   "place": "Kragujevac",
+   "website": "https://domomladine.com",
+   "mb": "17183923",
+   "have": {
+    "address": null,
+    "phones": "034 302427",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "knjazevsko-srpski-teatar-kragujevac",
+   "name": "Knjaževsko-Srpski Teatar",
+   "type": "Javna ustanova",
+   "place": "Kragujevac",
+   "website": "https://joakimvujic.com",
+   "mb": "07225962",
+   "have": {
+    "address": "Daničićeva 3",
+    "phones": "034 6170500; 034 332063",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "muzicki-centar-kragujevac-kragujevac",
+   "name": "Muzički centar Kragujevac",
+   "type": "Javna ustanova",
+   "place": "Kragujevac",
+   "website": "https://muzickicentar.rs",
+   "mb": "17809130",
+   "have": {
+    "address": null,
+    "phones": "034 334264",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "spomen-park-kragujevacki-oktobar-kragujevac",
+   "name": "Spomen-Park \"Kragujevački Oktobar\"",
+   "type": "Javna ustanova",
+   "place": "Kragujevac",
+   "website": "https://www.spomenpark.rs",
+   "mb": "07151438",
+   "have": {
+    "address": "Desankin venac bb",
+    "phones": "034 335607",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "ustanova-kulture-koraci-kragujevac",
+   "name": "Ustanova kulture \"Koraci\"",
+   "type": "Javna ustanova",
+   "place": "Kragujevac",
+   "website": "https://ustanovakoracikg.rs/",
+   "mb": "17907859",
+   "have": {
+    "address": "Save Kovačevića 5",
+    "phones": "034 301480",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-lokalnih-usluga-grada-kraljeva-kraljevo",
+   "name": "\"Centar Lokalnih Usluga grada Kraljeva\"",
+   "type": "Javna ustanova",
+   "place": "Kraljevo",
+   "website": "http://www.centarlokalnihuslugakv.rs",
+   "mb": "17916513",
+   "have": {
+    "address": "Zelena gora 37a",
+    "phones": "036 338770",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "decije-odmaraliste-goc-kraljevo",
+   "name": "Dečije Odmaralište Goč",
+   "type": "Javna ustanova",
+   "place": "Kraljevo",
+   "website": "http://www.odmaralistegoc.rs",
+   "mb": "07191278",
+   "have": {
+    "address": "Beogradska 44č",
+    "phones": "036 5317670; 036 5325210",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-strucno-usavrsavanje-krusevac-krusevac",
+   "name": "Centar za Stručno Usavršavanje Kruševac",
+   "type": "Javna ustanova",
+   "place": "Kruševac",
+   "website": "https://csu.edu.rs/",
+   "mb": "17782916",
+   "have": {
+    "address": "Balkanska 63/5",
+    "phones": "037 445735; 037 445736",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-za-decu-i-omladinu-jefimija-krusevac-krusevac",
+   "name": "Dom za decu i omladinu \"Jefimija\" Kruševac",
+   "type": "Javna ustanova",
+   "place": "Kruševac",
+   "website": "http://jefimija.org.rs/",
+   "mb": "07144458",
+   "have": {
+    "address": "Veselina Nikolića 51",
+    "phones": "037 421027",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "ustanova-za-fizicku-kulturu-lagator-loznica",
+   "name": "Ustanova za Fizičku kulturu \"Lagator\"",
+   "type": "Javna ustanova",
+   "place": "Loznica",
+   "website": "http://www.ufklagator.com/",
+   "mb": "07659393",
+   "have": {
+    "address": "Miloša Pocerca 58",
+    "phones": "015 873111",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-strucno-usavrsavanje-nis",
+   "name": "Centar za Stručno Usavršavanje",
+   "type": "Javna ustanova",
+   "place": "Niš",
+   "website": "https://rcnis.edu.rs",
+   "mb": "17610821",
+   "have": {
+    "address": "Pariske Komune bb",
+    "phones": "018 202300",
+    "hours": "Pon-Pet 08:00-17:00"
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "regionalni-centar-za-profesionalni-razvoj-zaposlenih-u-obrazovanju-novi-pazar-novi-pazar",
+   "name": "Regionalni centar za Profesionalni razvoj Zaposlenih u Obrazovanju Novi Pazar",
+   "type": "Javna ustanova",
+   "place": "Novi Pazar",
+   "website": "http://www.rcnp.rs",
+   "mb": "17827367",
+   "have": {
+    "address": "Kej 37",
+    "phones": "020 322822",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "ustanova-za-sport-novi-pazar",
+   "name": "Ustanova za sport",
+   "type": "Javna ustanova",
+   "place": "Novi Pazar",
+   "website": "http://www.uzsnp.rs",
+   "mb": "17834215",
+   "have": {
+    "address": "Mitrovačka bb",
+    "phones": "020 312233",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "institut-za-ratarstvo-i-povrtarstvo-novi-sad",
+   "name": "Institut za Ratarstvo i Povrtarstvo",
+   "type": "Javna ustanova",
+   "place": "Novi Sad",
+   "website": "https://www.nsseme.rs",
+   "mb": "08055092",
+   "have": {
+    "address": "Maksima Gorkog 30",
+    "phones": "021 4898100",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-za-decu-i-omladinu-spomenak-pancevo-pancevo",
+   "name": "Dom za decu i omladinu \"Spomenak\" Pančevo",
+   "type": "Javna ustanova",
+   "place": "Pančevo",
+   "website": "http://spomenak.rs",
+   "mb": "08219184",
+   "have": {
+    "address": "Kneza Mihajla Obrenovića 6",
+    "phones": "013 2318464; 013 2323992; 013 2313027",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-za-lica-sa-ostecenim-vidom-zbrinjavanje-pancevo-pancevo",
+   "name": "Dom za lica sa Oštećenim Vidom \"Zbrinjavanje\" Pančevo",
+   "type": "Javna ustanova",
+   "place": "Pančevo",
+   "website": "http://domzbrinjavanje.co.rs",
+   "mb": "08006601",
+   "have": {
+    "address": "Bavanišanski put bb",
+    "phones": "013 2310780; 013 2320996",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "gerontoloski-centar-pancevo-pancevo",
+   "name": "Gerontološki centar Pančevo",
+   "type": "Javna ustanova",
+   "place": "Pančevo",
+   "website": "http://gcpancevo.rs",
+   "mb": "08247404",
+   "have": {
+    "address": "Vojvođanski bulevar 1",
+    "phones": "013 310111",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "regionalni-centar-za-talente-iz-prirodnih-i-tehnickih-nauka-mihajlo-pupin-pancevo",
+   "name": "Regionalni centar za Talente iz Prirodnih i Tehničkih Nauka \"Mihajlo Pupin\"",
+   "type": "Javna ustanova",
+   "place": "Pančevo",
+   "website": "http://rctpupin.edu.rs",
+   "mb": "08695849",
+   "have": {
+    "address": "Savska 8",
+    "phones": "013 334867",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "gradski-zenski-hor-barili-pozarevac",
+   "name": "Gradski Ženski Hor \"Barili\"",
+   "type": "Javna ustanova",
+   "place": "Požarevac",
+   "website": "https://horbarili.rs/",
+   "mb": "17188283",
+   "have": {
+    "address": "Drinska 2",
+    "phones": "012 539715",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "gerontoloski-centar-srem-ruma-ruma",
+   "name": "Gerontološki centar \"Srem\" Ruma",
+   "type": "Javna ustanova",
+   "place": "Ruma",
+   "website": "http://www.gcsrem.co.rs",
+   "mb": "08026548",
+   "have": {
+    "address": "Pavlovačka 126",
+    "phones": "022 472699; 022 478588; 022 478539",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "institut-za-ispitivanje-materijala-akcionarsko-drustvo-beograd-savski-venac-beograd-savski-venac",
+   "name": "Institut za Ispitivanje Materijala Akcionarsko društvo Beograd (Savski Venac)",
+   "type": "Javna ustanova",
+   "place": "Savski venac",
+   "website": "https://institutims.rs",
+   "mb": "07008139",
+   "have": {
+    "address": "Bulevar vojvode Mišića 43",
+    "phones": "011 2650322",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-fizicku-kulturu-rekreaciju-i-turizam-srbobran-srbobran",
+   "name": "Centar za Fizičku kulturu, rekreaciju i Turizam Srbobran",
+   "type": "Javna ustanova",
+   "place": "Srbobran",
+   "website": "http://www.cst.org.rs/",
+   "mb": "08761370",
+   "have": {
+    "address": "Trg Mladosti bb",
+    "phones": "021 731279; 021 732888",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  }
+ ],
+ "id": "site-084"
+}

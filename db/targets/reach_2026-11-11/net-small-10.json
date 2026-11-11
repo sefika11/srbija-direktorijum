@@ -1,0 +1,636 @@
+{
+ "kind": "network",
+ "title": "Manje mreže",
+ "type": "mixed",
+ "orgs": [
+  {
+   "org_slug": "apotekarska-ustanova-zdravlje-lek-beograd",
+   "name": "Apotekarska ustanova \"Zdravlje lek\"",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 14424,
+     "unit": "ZDRAVLJE LEK",
+     "place": "Beograd",
+     "address": "Prvomajska broj 100",
+     "phones": "069 666888",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14426,
+     "unit": "ZDRAVLJE LEK 2",
+     "place": "Čačak",
+     "address": "Knićaninova 2/4",
+     "phones": "069 666888",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14428,
+     "unit": "ZDRAVLJE LEK 3",
+     "place": "Kragujevac",
+     "address": "Avalska 44",
+     "phones": "069 666888",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14431,
+     "unit": "ZDRAVLJE LEK 4",
+     "place": "Kragujevac",
+     "address": "Zmaj Jovina 1",
+     "phones": "069 666888",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14433,
+     "unit": "ZDRAVLJE LEK 5",
+     "place": "Topola",
+     "address": "Bulevar Vožda Karađorđa 88",
+     "phones": "069 666888",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14435,
+     "unit": "ZDRAVLJE LEK 6",
+     "place": "Kragujevac",
+     "address": "Dr Jovana Ristića 126",
+     "phones": "069 666888",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14437,
+     "unit": "ZDRAVLJE LEK 7",
+     "place": "Kragujevac",
+     "address": "19.Oktobra 65",
+     "phones": "069 666888",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14439,
+     "unit": "ZDRAVLJE LEK 8",
+     "place": "Kragujevac",
+     "address": "Kraljevačkog bataljona 3",
+     "phones": "069 666888",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14441,
+     "unit": "ZDRAVLJE LEK 9",
+     "place": "Kragujevac",
+     "address": "Braće Hadžića 58",
+     "phones": "069 666888",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14444,
+     "unit": "ZDRAVLJE LEK 10",
+     "place": "Rekovac",
+     "address": "Kralja Petra Prvog 113",
+     "phones": "069 666888",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14446,
+     "unit": "ZDRAVLJE LEK 11",
+     "place": "Rekovac",
+     "address": "Znanje imanje bb",
+     "phones": "069 666888",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14448,
+     "unit": "ZDRAVLJE LEK 12",
+     "place": "Beograd",
+     "address": "Franje Krča 5a",
+     "phones": "069 666888",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14450,
+     "unit": "ZDRAVLJE LEK 13",
+     "place": "Kragujevac",
+     "address": "Kosovska 31",
+     "phones": "069 666888",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14452,
+     "unit": "ZDRAVLJE LEK 14",
+     "place": "Beograd",
+     "address": "Zeleni Venac 14",
+     "phones": "069 666888",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "apotekarska-ustanova-zingiber-pancevo",
+   "name": "Apotekarska ustanova \"Zingiber\"",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 10497,
+     "unit": "\"Zingiber \" Pančevo",
+     "place": "Pančevo",
+     "address": "Veljka Petrovića broj 11a",
+     "phones": "013 365366",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10498,
+     "unit": "\"Zingiber 2 \" Jabuka",
+     "place": "Pančevo",
+     "address": "Maršala Tita broj 7",
+     "phones": "062 392367",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10499,
+     "unit": "\"Zingiber 3 \" Opovo",
+     "place": "Opovo",
+     "address": "Ribarska broj 4",
+     "phones": "013 681032",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10500,
+     "unit": "\"Zingiber 4 \" Beograd",
+     "place": "Beograd",
+     "address": "Dr Dragiše Mišovića broj 7a",
+     "phones": "011 3319565",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10501,
+     "unit": "\"Zingiber 5 \" Pančevo",
+     "place": "Pančevo",
+     "address": "Šandora Petefija broj 103",
+     "phones": "013 301400",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10502,
+     "unit": "\"Zingiber 6 \" Glogonj",
+     "place": "Pančevo",
+     "address": "Beogradska bb",
+     "phones": "013 627444",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10503,
+     "unit": "\"Zingiber 7 \" Pančevo",
+     "place": "Pančevo",
+     "address": "Kozarača broj 160",
+     "phones": "013 372072",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10504,
+     "unit": "\"Zingiber 8 \" Pančevo",
+     "place": "Pančevo",
+     "address": "Svetog Save broj 41a",
+     "phones": "013 370070",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "apotekrska-ustanova-hygia-novi-pazar",
+   "name": "Apotekrska ustanova \"Hygia\"",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 14528,
+     "unit": "Apoteka",
+     "place": "Novi Pazar",
+     "address": "28. novembra broj 40",
+     "phones": "020 311248",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14530,
+     "unit": "Apoteka HYGIA II",
+     "place": "Novi Pazar",
+     "address": "Jaćima Ristovića broj 3",
+     "phones": "020 372130",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14532,
+     "unit": "Apoteka HYGIA IV",
+     "place": "Beograd",
+     "address": "Sarajevska broj 14",
+     "phones": "011 2644080",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14534,
+     "unit": "Apoteka HYGIA VI",
+     "place": "Novi Pazar",
+     "address": "Dositejeva 43g",
+     "phones": "020 381278",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14536,
+     "unit": "Apoteka HYGIA VII",
+     "place": "Beograd",
+     "address": "Cara Nikolaja II broj 63",
+     "phones": "011 3446315",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14539,
+     "unit": "Apoteka HYGIA VIII",
+     "place": "Novi Pazar",
+     "address": "Ruđera Boškovića broj 30a",
+     "phones": "020 381044",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14540,
+     "unit": "Apoteka HYGIA IX",
+     "place": "Novi Pazar",
+     "address": "Sopoćanska broj 10",
+     "phones": "020 620165",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 14543,
+     "unit": "Apoteka HYGIA X",
+     "place": "Tutin",
+     "address": "Ribariće bb",
+     "phones": "063 399958",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "banka-adriatic",
+   "name": "Adriatic Bank",
+   "website": "https://www.adriaticbank.rs",
+   "rows": [
+    {
+     "location_id": 20150,
+     "unit": "Adriatic Bank",
+     "place": "Novi Beograd",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 22714,
+     "unit": "Adriatic Bank",
+     "place": "Savski venac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23737,
+     "unit": "Adriatic Bank",
+     "place": "Palilula",
+     "address": "Dalmatinska 22",
+     "phones": "011 3814176; 011 3306451",
+     "hours": "Pon-Pet 08:00-18:00; Sub 08:00-12:00; Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28766,
+     "unit": "Filijala Novi Beograd",
+     "place": "Beograd",
+     "address": "Bulevar Mihajla Pupina 16d",
+     "phones": "011 3739642; 011 3739644",
+     "hours": "Pon-Pet 09:00-17:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28767,
+     "unit": "Filijala Skyline",
+     "place": "Beograd",
+     "address": "Kneza Miloša 88",
+     "phones": "011 3814101; 011 3814102; 011 3814103",
+     "hours": "Pon-Pet 09:00-17:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28768,
+     "unit": "Filijala Novi Sad",
+     "place": "Novi Sad",
+     "address": "Braće Ribnikar 4",
+     "phones": "021 2700778; 021 2700779",
+     "hours": "Pon-Pet 08:30-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28769,
+     "unit": "Filijala Niš",
+     "place": "Niš",
+     "address": "Blagoja Parovića 1j",
+     "phones": "018 511070; 018 522598",
+     "hours": "Pon-Pet 08:30-16:30; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28770,
+     "unit": "Filijala Čačak",
+     "place": "Čačak",
+     "address": "Gradsko šetalište bb",
+     "phones": "032 310008",
+     "hours": "Pon-Pet 08:30-16:30; Sub-Ned zatvoreno",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 28771,
+     "unit": "Filijala Šabac",
+     "place": "Šabac",
+     "address": "Masarikova 9",
+     "phones": "015 345934",
+     "hours": "Pon-Pet 08:30-16:30; Sub-Ned zatvoreno",
+     "need": []
+    }
+   ]
+  },
+  {
+   "org_slug": "banka-alta",
+   "name": "Alta banka",
+   "website": "https://altabanka.rs/",
+   "rows": [
+    {
+     "location_id": 19662,
+     "unit": "Alta banka",
+     "place": "Stari grad",
+     "address": "Trg Nikole Pašića 2",
+     "phones": "011 2205500",
+     "hours": "Mo-Fr 08:00-20:00; Sa 09:00-17:00",
+     "need": []
+    },
+    {
+     "location_id": 20209,
+     "unit": "Alta banka",
+     "place": "Medijana",
+     "address": "Vožda Karađorđa 2",
+     "phones": "011 2205500",
+     "hours": "Mo-Fr 08:00-20:00; Sa 08:00-17:00",
+     "need": []
+    },
+    {
+     "location_id": 21764,
+     "unit": "Alta banka",
+     "place": "Novi Sad",
+     "address": "Bulevar oslobođenja 81",
+     "phones": "011 2205500",
+     "hours": "Mo-Fr 08:00-20:00; Sa 09:00-17:00",
+     "need": []
+    },
+    {
+     "location_id": 22078,
+     "unit": "Alta banka",
+     "place": "Stara Pazova",
+     "address": "Ćirila i Metodija 3",
+     "phones": "011 2205500",
+     "hours": "Mo-Fr 08:00-20:00; Sa 08:00-14:00",
+     "need": []
+    },
+    {
+     "location_id": 22156,
+     "unit": "Alta Banka",
+     "place": "Subotica",
+     "address": null,
+     "phones": "011 2205500",
+     "hours": "Mo-Fr 08:00-20:00; Sa 09:00-15:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22914,
+     "unit": "Alta banka",
+     "place": "Novi Beograd",
+     "address": null,
+     "phones": "011 2205500",
+     "hours": "Mo-Su 10:00-22:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22915,
+     "unit": "Alta banka",
+     "place": "Savski venac",
+     "address": "Hercegovačka 19",
+     "phones": "011 2205500",
+     "hours": "Mo-Fr 08:00-20:00; Sa 09:00-17:00",
+     "need": []
+    },
+    {
+     "location_id": 23046,
+     "unit": "Alta banka",
+     "place": "Čačak",
+     "address": null,
+     "phones": "011 2205500",
+     "hours": "Mo-Fr 08:00-20:00; Sa 09:00-17:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23047,
+     "unit": "Alta banka",
+     "place": "Zemun",
+     "address": "Ugrinovačka 212",
+     "phones": "011 2205500",
+     "hours": "Mo-Fr 08:00-20:00; Sa 08:00-14:00",
+     "need": []
+    },
+    {
+     "location_id": 23048,
+     "unit": "Alta banka",
+     "place": "Vračar",
+     "address": null,
+     "phones": "011 2205500",
+     "hours": "Mo-Fr 08:00-20:00; Sa 09:00-17:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23049,
+     "unit": "Alta banka",
+     "place": "Kraljevo",
+     "address": "Omladinska 45",
+     "phones": "011 2205500",
+     "hours": "Mo-Fr 08:00-20:00; Sa 09:00-17:00",
+     "need": []
+    },
+    {
+     "location_id": 23050,
+     "unit": "Alta banka",
+     "place": "Lučani",
+     "address": null,
+     "phones": "011 2205500",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23051,
+     "unit": "Alta banka",
+     "place": "Novi Pazar",
+     "address": null,
+     "phones": "011 2205500",
+     "hours": "Mo-Fr 08:00-20:00; Sa 09:00-17:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23052,
+     "unit": "Alta banka",
+     "place": "Vršac",
+     "address": null,
+     "phones": "011 2205500",
+     "hours": "Mo-Fr 08:30-16:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23053,
+     "unit": "Alta banka",
+     "place": "Šabac",
+     "address": "Karađorđeva 32",
+     "phones": "011 2205500",
+     "hours": "Mo-Fr 08:00-20:00; Sa 09:00-17:00",
+     "need": []
+    },
+    {
+     "location_id": 23944,
+     "unit": "ALTA banka",
+     "place": "Novi Beograd",
+     "address": "Bulevar Zorana Đinđića 121",
+     "phones": "011 2205669",
+     "hours": "Mo-Fr 08:00-20:00; Sa 09:00-17:00",
+     "need": []
+    },
+    {
+     "location_id": 24408,
+     "unit": "Alta banka",
+     "place": "Savski venac",
+     "address": null,
+     "phones": "011 2205500",
+     "hours": "Mo-Su 10:00-22:00",
+     "need": [
+      "address"
+     ]
+    }
+   ]
+  }
+ ],
+ "id": "net-small-10"
+}

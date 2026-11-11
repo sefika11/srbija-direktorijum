@@ -1,0 +1,394 @@
+{
+ "kind": "sites",
+ "title": "Institucije sa sopstvenim sajtom",
+ "rows": [
+  {
+   "org_slug": "centar-za-kulturu-stefan-nemanja-lapovo-lapovo",
+   "name": "Centar za kulturu \"Stefan Nemanja\" Lapovo",
+   "type": "Kulturni centar / Dom kulture",
+   "place": "Lapovo",
+   "website": "http://www.ktclapovo.rs",
+   "mb": "07652038",
+   "have": {
+    "address": "Njegoševa 33",
+    "phones": "034 6851361",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "leskovacki-kulturni-centar-leskovac",
+   "name": "Leskovački kulturni centar",
+   "type": "Kulturni centar / Dom kulture",
+   "place": "Leskovac",
+   "website": "https://lkc.org.rs/",
+   "mb": "07139543",
+   "have": {
+    "address": "Bulevar oslobođenja 101",
+    "phones": "016 232961",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "narodno-pozoriste-leskovac-leskovac",
+   "name": "Narodno pozorište Leskovac",
+   "type": "Kulturni centar / Dom kulture",
+   "place": "Leskovac",
+   "website": "https://npl.org.rs/",
+   "mb": "07139560",
+   "have": {
+    "address": "Koste Stamenkovića 22",
+    "phones": "016 236333",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-kulturu-vuk-karadzic-loznica-loznica",
+   "name": "Centar za kulturu \"Vuk Karadžić\" Loznica",
+   "type": "Kulturni centar / Dom kulture",
+   "place": "Loznica",
+   "website": "http://www.ckvkaradzic.org.rs/",
+   "mb": "17225634",
+   "have": {
+    "address": "Save Kovačevića 1",
+    "phones": "015 882718",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-kulture-stevan-mokranjac-negotin",
+   "name": "Dom kulture \"Stevan Mokranjac\"",
+   "type": "Kulturni centar / Dom kulture",
+   "place": "Negotin",
+   "website": "https://domkulture-negotin.rs",
+   "mb": "17046616",
+   "have": {
+    "address": "Trg Đorđa Stanojevića 5",
+    "phones": "019 543676",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "deciji-kulturno-rekreativni-centar-nis-nis",
+   "name": "Dečiji kulturno Rekreativni centar Niš",
+   "type": "Kulturni centar / Dom kulture",
+   "place": "Niš",
+   "website": "https://decijicentarnis.org.rs",
+   "mb": "26200083",
+   "have": {
+    "address": "IX Brigade 10",
+    "phones": "018 514748",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "narodno-pozoriste-nis-nis",
+   "name": "Narodno pozorište Niš",
+   "type": "Kulturni centar / Dom kulture",
+   "place": "Niš",
+   "website": "https://narodnopozoristenis.rs",
+   "mb": "07174764",
+   "have": {
+    "address": "Sinđelićev trg bb",
+    "phones": "018 527371; 018 245441",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "niski-kulturni-centar-nis",
+   "name": "Niški kulturni centar",
+   "type": "Kulturni centar / Dom kulture",
+   "place": "Niš",
+   "website": "https://nkc.rs",
+   "mb": "17254839",
+   "have": {
+    "address": "Stanoja Bunuševca bb",
+    "phones": "018 595740",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-kulture-opstine-novi-becej-novi-becej",
+   "name": "Dom kulture opštine Novi Bečej",
+   "type": "Kulturni centar / Dom kulture",
+   "place": "Novi Bečej",
+   "website": "http://www.domkulturenb.com",
+   "mb": "08810117",
+   "have": {
+    "address": "Trg Oslobođenja bb",
+    "phones": "023 771330",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "kulturni-centar-novi-pazar-novi-pazar",
+   "name": "Kulturni centar Novi Pazar",
+   "type": "Kulturni centar / Dom kulture",
+   "place": "Novi Pazar",
+   "website": "http://www.kcnovipazar.com",
+   "mb": "07191979",
+   "have": {
+    "address": "Stevana Nemanje 2",
+    "phones": "020 313069",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "kulturni-centar-novog-sada-novi-sad",
+   "name": "\"Kulturni centar Novog Sada\"",
+   "type": "Kulturni centar / Dom kulture",
+   "place": "Novi Sad",
+   "website": "https://www.kcns.org.rs/",
+   "mb": "08162778",
+   "have": {
+    "address": "Katolička porta 5",
+    "phones": "021 528972",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "kulturni-centar-panceva-pancevo",
+   "name": "\"Kulturni centar Pančeva\"",
+   "type": "Kulturni centar / Dom kulture",
+   "place": "Pančevo",
+   "website": "http://kulturnicentarpanceva.rs",
+   "mb": "08073767",
+   "have": {
+    "address": "Vojvode Živojina Mišića 4",
+    "phones": "013 440940",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "kulturni-centar-paracin-paracin",
+   "name": "Kulturni centar \"Paraćin\"",
+   "type": "Kulturni centar / Dom kulture",
+   "place": "Paraćin",
+   "website": "http://www.kcp.org.rs/",
+   "mb": "17582062",
+   "have": {
+    "address": "Branka Krsmanovića 45",
+    "phones": "035 565832",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-kulture-pirot-pirot",
+   "name": "Dom kulture Pirot",
+   "type": "Kulturni centar / Dom kulture",
+   "place": "Pirot",
+   "website": "http://www.dkpirot.rs",
+   "mb": "07346280",
+   "have": {
+    "address": "Srpskih vladara 77",
+    "phones": "010 321666",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "narodno-pozoriste-pirot-pirot",
+   "name": "Narodno pozorište Pirot",
+   "type": "Kulturni centar / Dom kulture",
+   "place": "Pirot",
+   "website": "http://www.narodnopozoristepirot.rs",
+   "mb": "07131011",
+   "have": {
+    "address": "Branka Radičevića 1",
+    "phones": "010 322677",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-kulturu-pozarevac-pozarevac",
+   "name": "Centar za kulturu Požarevac",
+   "type": "Kulturni centar / Dom kulture",
+   "place": "Požarevac",
+   "website": "https://czkpo.rs/",
+   "mb": "17314955",
+   "have": {
+    "address": "Jovana Šerbanovića 1",
+    "phones": "012 522481; 012 524851",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "kulturni-centar-pozega-pozega",
+   "name": "Kulturni centar Požega",
+   "type": "Kulturni centar / Dom kulture",
+   "place": "Požega",
+   "website": "https://www.skcpozega.rs",
+   "mb": "17910418",
+   "have": {
+    "address": "Knjaza Miloša 8",
+    "phones": "031 3825551; 031 812421",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-kulture-radivoj-uvalic-bata-prokuplje",
+   "name": "Dom kulture \"Radivoj Uvalić-Bata\"",
+   "type": "Kulturni centar / Dom kulture",
+   "place": "Prokuplje",
+   "website": "https://domkulturepk.com/",
+   "mb": "07598173",
+   "have": {
+    "address": "Koste Vojinovića 1",
+    "phones": "027 321002",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "kulturni-centar-brana-crncevic-ruma",
+   "name": "Kulturni centar \"Brana Crnčević\"",
+   "type": "Kulturni centar / Dom kulture",
+   "place": "Ruma",
+   "website": "http://www.kcruma.co.rs",
+   "mb": "08164193",
+   "have": {
+    "address": "Veljka Dugoševića 102",
+    "phones": "022 471212",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "kulturni-centar-sokobanja-sokobanja-sokobanja",
+   "name": "Kulturni centar \"Sokobanja\" Sokobanja",
+   "type": "Kulturni centar / Dom kulture",
+   "place": "Sokobanja",
+   "website": "https://kcsokobanja.rs",
+   "mb": "26200008",
+   "have": {
+    "address": "Vrelska 12",
+    "phones": "066 8311820",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "ustanova-za-kulturu-dom-kulture-srbobran-srbobran",
+   "name": "Ustanova za kulturu dom kulture Srbobran",
+   "type": "Kulturni centar / Dom kulture",
+   "place": "Srbobran",
+   "website": "https://dk-srbobran.rs/",
+   "mb": "08118892",
+   "have": {
+    "address": "Cara Lazara 6",
+    "phones": "021 731919",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-kulturu-sirmijumart-sremska-mitrovica",
+   "name": "Centar za kulturu \"Sirmijumart\"",
+   "type": "Kulturni centar / Dom kulture",
+   "place": "Sremska Mitrovica",
+   "website": "https://www.sirmiumart.com",
+   "mb": "08015945",
+   "have": {
+    "address": "Vuka Karadžića 10",
+    "phones": "022 621194",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "pozoriste-dobrica-milutinovic-sremska-mitrovica",
+   "name": "Pozorište \"Dobrica Milutinović\"",
+   "type": "Kulturni centar / Dom kulture",
+   "place": "Sremska Mitrovica",
+   "website": "https://www.pozoristedm.com",
+   "mb": "08016089",
+   "have": {
+    "address": "Gradski park 2",
+    "phones": "022 615115",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "decje-pozoriste-subotica-szabadkai-gyermekszinhaz-djecje-kazaliste-subotica-subotica",
+   "name": "Dečje pozorište Subotica Szabadkai Gyermekszinhaz Dječje Kazalište Subotica",
+   "type": "Kulturni centar / Dom kulture",
+   "place": "Subotica",
+   "website": "https://www.suteatarzadecu.rs",
+   "mb": "08082154",
+   "have": {
+    "address": "Lenjinov park 12",
+    "phones": "024 555715",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  }
+ ],
+ "id": "site-030"
+}

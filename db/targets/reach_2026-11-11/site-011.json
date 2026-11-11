@@ -1,0 +1,395 @@
+{
+ "kind": "sites",
+ "title": "Institucije sa sopstvenim sajtom",
+ "rows": [
+  {
+   "org_slug": "dom-zdravlja-osecina-osecina",
+   "name": "Dom zdravlja Osečina",
+   "type": "Dom zdravlja",
+   "place": "Osečina",
+   "website": "https://dzosecina.rs",
+   "mb": "17815415",
+   "have": {
+    "address": "Pilota Milenka Pavlovića 13",
+    "phones": "014 3150014",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-petrovac-na-mlavi-petrovac-na-mlavi",
+   "name": "Dom zdravlja Petrovac na Mlavi",
+   "type": "Dom zdravlja",
+   "place": "Petrovac na Mlavi",
+   "website": "https://www.domzdravljapetrovac.rs",
+   "mb": "17862847",
+   "have": {
+    "address": "Moravska 2",
+    "phones": "012 331199",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-dr-dragan-funduk-pecinci",
+   "name": "Dom zdravlja \"Dr Dragan Funduk\"",
+   "type": "Dom zdravlja",
+   "place": "Pećinci",
+   "website": "https://dzpecinci.rs/",
+   "mb": "08073210",
+   "have": {
+    "address": "Jove Neguševića 5",
+    "phones": "022 2152255; 022 2152293",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-pirot-pirot",
+   "name": "Dom zdravlja Pirot",
+   "type": "Dom zdravlja",
+   "place": "Pirot",
+   "website": "https://dzpirot.rs",
+   "mb": "17817795",
+   "have": {
+    "address": "Vojvode Momčila b.b, 18300 Pirot",
+    "phones": "010 312823",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-1-oktobar-plandiste",
+   "name": "Dom zdravlja \"1. Oktobar\"",
+   "type": "Dom zdravlja",
+   "place": "Plandište",
+   "website": "https://www.dzplandiste.rs/",
+   "mb": "08044899",
+   "have": {
+    "address": "Karađorđeva br. 13",
+    "phones": "013 861230",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-presevo-presevo",
+   "name": "Dom zdravlja Preševo",
+   "type": "Dom zdravlja",
+   "place": "Preševo",
+   "website": "http://sr.dzpresevo.org",
+   "mb": "17710192",
+   "have": {
+    "address": "15 Novembar 88",
+    "phones": "017 669195",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-prijepolje-prijepolje",
+   "name": "Dom zdravlja Prijepolje",
+   "type": "Dom zdravlja",
+   "place": "Prijepolje",
+   "website": "https://zcue.rs/dom-zdravlja-prijepolje/",
+   "mb": "17870254",
+   "have": {
+    "address": "Rajka Divca 2",
+    "phones": "033 711186; 033 712602; 033 711005",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-miloje-hadzic-sule-raca",
+   "name": "Dom zdravlja \"Miloje Hadžić-Šule\"",
+   "type": "Dom zdravlja",
+   "place": "Rača",
+   "website": "https://dzraca.rs",
+   "mb": "17211943",
+   "have": {
+    "address": "34210 Rača (Kragujevačka) – Radoja Domanovića 25",
+    "phones": "034 751076; 034 751024; 034 751093",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-raska-raska",
+   "name": "Dom zdravlja Raška",
+   "type": "Dom zdravlja",
+   "place": "Raška",
+   "website": "https://www.dzraska.rs",
+   "mb": "17185888",
+   "have": {
+    "address": "Ul.Dr Jovanovića br.4",
+    "phones": "036 736127; 036 736664",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-dr-milorad-mihajlovic-razanj",
+   "name": "Dom zdravlja \"Dr Milorad Mihajlović\"",
+   "type": "Dom zdravlja",
+   "place": "Ražanj",
+   "website": "https://dzrazanj.rs",
+   "mb": "07215380",
+   "have": {
+    "address": "dr Milorada Mihajlovića 5",
+    "phones": "037 3841151",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-rekovac-rekovac",
+   "name": "Dom zdravlja Rekovac",
+   "type": "Dom zdravlja",
+   "place": "Rekovac",
+   "website": "http://www.dzrekovac.rs",
+   "mb": "17667394",
+   "have": {
+    "address": "Johana Johanesona bb",
+    "phones": "035 8100124; 035 8410024",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-ruma-ruma",
+   "name": "Dom zdravlja \"Ruma\"",
+   "type": "Dom zdravlja",
+   "place": "Ruma",
+   "website": "http://www.dzruma.rs",
+   "mb": "08026521",
+   "have": {
+    "address": "Orlovićeva",
+    "phones": "022 471220",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-senta-senta",
+   "name": "Dom zdravlja Senta",
+   "type": "Dom zdravlja",
+   "place": "Senta",
+   "website": "http://www.zdravstvosenta.rs",
+   "mb": "08923485",
+   "have": {
+    "address": "Boška Jugovića",
+    "phones": "024 814570",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-secanj-secanj",
+   "name": "Dom zdravlja Sečanj",
+   "type": "Dom zdravlja",
+   "place": "Sečanj",
+   "website": "http://www.domzdravljasecanj.rs",
+   "mb": "08018863",
+   "have": {
+    "address": "Partizanski put bb",
+    "phones": "023 841017",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-smederevska-palanka-smederevska-palanka",
+   "name": "Dom zdravlja Smederevska Palanka",
+   "type": "Dom zdravlja",
+   "place": "Smederevska Palanka",
+   "website": "https://www.dzsmedpalanka.rs",
+   "mb": "17273019",
+   "have": {
+    "address": "Kneza Miloša 4",
+    "phones": "026 310864; 026 319933; 026 317209; 026 310991; 026 319094",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-sokobanja-sokobanja",
+   "name": "Dom zdravlja Sokobanja",
+   "type": "Dom zdravlja",
+   "place": "Sokobanja",
+   "website": "https://www.dzsokobanja.com",
+   "mb": "06962203",
+   "have": {
+    "address": "Mitropolita Mihaila 23",
+    "phones": "018 830118; 018 830214",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-dr-djordje-lazic-sombor",
+   "name": "Dom zdravlja \"Dr Đorđe Lazić\"",
+   "type": "Dom zdravlja",
+   "place": "Sombor",
+   "website": "https://dzsombor.rs",
+   "mb": "08906165",
+   "have": {
+    "address": "Mirna 3",
+    "phones": "025 483566; 025 412466; 025 414228; 025 412566; 025 413537; 025 416736; 025 413665; 025 438748; 025 415636; 025 462278; 025 415494; 025 413756",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-dr-djordje-bastic-srbobran",
+   "name": "Dom zdravlja \"Dr Đorđe Bastić\"",
+   "type": "Dom zdravlja",
+   "place": "Srbobran",
+   "website": "https://dzsrbobran.rs/",
+   "mb": "08160252",
+   "have": {
+    "address": "Jovana Popovića 25/1",
+    "phones": "021 6230600; 021 730600",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-dr-jovan-jovanovic-zmaj-stara-pazova",
+   "name": "Dom zdravlja \"Dr Jovan Jovanović-Zmaj\"",
+   "type": "Dom zdravlja",
+   "place": "Stara Pazova",
+   "website": "http://www.dzspazova.rs",
+   "mb": "08010714",
+   "have": {
+    "address": "Vladimira Hurbana 2",
+    "phones": "022 310024",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-temerin-temerin",
+   "name": "Dom zdravlja \"Temerin\"",
+   "type": "Dom zdravlja",
+   "place": "Temerin",
+   "website": "https://dztemerin.rs",
+   "mb": "08071829",
+   "have": {
+    "address": "Narodnog fronta 82",
+    "phones": "021 2102225; 021 2102226",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-titel-titel",
+   "name": "Dom zdravlja Titel",
+   "type": "Dom zdravlja",
+   "place": "Titel",
+   "website": "https://dztitel.rs",
+   "mb": "08050503",
+   "have": {
+    "address": "Glavna 22",
+    "phones": "021 2960124; 021 2960074; 064 8010431; 021 860124",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-sveti-djordje-topola",
+   "name": "Dom zdravlja \"Sveti Đorđe\"",
+   "type": "Dom zdravlja",
+   "place": "Topola",
+   "website": "https://dztopola.rs",
+   "mb": "17210548",
+   "have": {
+    "address": "Bulevar Vožda Karađorđa 67",
+    "phones": "034 6811504",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-trgoviste-trgoviste",
+   "name": "Dom zdravlja Trgovište",
+   "type": "Dom zdravlja",
+   "place": "Trgovište",
+   "website": "http://www.domzdravljatrgoviste.rs",
+   "mb": "17863070",
+   "have": {
+    "address": "Kralja Petra I Karađorđevića broj 81",
+    "phones": "017 452210; 017 452294",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-dr-sava-stanojevic-trstenik",
+   "name": "Dom zdravlja \"Dr Sava Stanojević\"",
+   "type": "Dom zdravlja",
+   "place": "Trstenik",
+   "website": "https://dztrstenik.rs",
+   "mb": "17185390",
+   "have": {
+    "address": "Svetog Save 49",
+    "phones": "037 712020",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  }
+ ],
+ "id": "site-011"
+}

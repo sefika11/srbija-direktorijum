@@ -1,0 +1,397 @@
+{
+ "kind": "sites",
+ "title": "Institucije sa sopstvenim sajtom",
+ "rows": [
+  {
+   "org_slug": "medilab-beograd-n11978955710",
+   "name": "MediLab",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Čukarica",
+   "website": "https://www.medigroup.rs/lokacije/laboratorije/laboratorija-medigroup-zarkovo/",
+   "mb": null,
+   "have": {
+    "address": "Trgovačka 15",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "in-vitro-lab-sabac-w2384841360",
+   "name": "In vitro Lab",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Šabac",
+   "website": "https://invitrolab.rs/",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "015 344711",
+    "hours": "Mo-Fr 08:00-20:00; Sa 09:00-14:00; Su 10:00-12:00"
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "privatni-vrtic-predskolska-ustanova-futurino-beograd",
+   "name": "Predškolska ustanova „Futurino“",
+   "type": "Privatni vrtić",
+   "place": "Beograd",
+   "website": "https://vrticfuturino.com",
+   "mb": "17922505",
+   "have": {
+    "address": "Hercegovačka 19",
+    "phones": "069 5155001",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "privatni-vrtic-predskolska-ustanova-happy-kids-beograd",
+   "name": "Predškolska ustanova „Happy kids“",
+   "type": "Privatni vrtić",
+   "place": "Beograd",
+   "website": "https://happykidsvrtic.rs/",
+   "mb": "17836226",
+   "have": {
+    "address": "Jaše Prodanovića 13",
+    "phones": "060 0440492",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "privatni-vrtic-predskolska-ustanova-macak-garfild-beograd",
+   "name": "Predškolska ustanova „Mačak Garfild“",
+   "type": "Privatni vrtić",
+   "place": "Beograd",
+   "website": "https://vrticmacakgarfild.co.rs/",
+   "mb": "17848585",
+   "have": {
+    "address": "Šejkina 45",
+    "phones": "060 0800252",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "privatni-vrtic-predskolska-ustanova-pametnica-diplomat-beograd",
+   "name": "Predškolska ustanova „Pametnica Diplomat“",
+   "type": "Privatni vrtić",
+   "place": "Beograd",
+   "website": "https://vrticpametnica.rs/",
+   "mb": "17854135",
+   "have": {
+    "address": "Kneza Višeslava 44",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "privatni-vrtic-predskolska-ustanova-panda-beograd",
+   "name": "Predškolska ustanova „Panda“",
+   "type": "Privatni vrtić",
+   "place": "Beograd",
+   "website": "https://vrticpanda.rs",
+   "mb": "17881345",
+   "have": {
+    "address": "Bistrička 28",
+    "phones": "011 7290070",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "privatni-vrtic-predskolska-ustanova-educa-center-kraljevo",
+   "name": "Predškolska ustanova „EDUCA CENTER“",
+   "type": "Privatni vrtić",
+   "place": "Kraljevo",
+   "website": "https://www.educacenter.rs",
+   "mb": "18379163",
+   "have": {
+    "address": "Olge Jovičić - Rite 6",
+    "phones": "065 2633523",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "privatni-vrtic-predskolska-ustanova-mazza-nis",
+   "name": "Predškolska ustanova „Mazza“",
+   "type": "Privatni vrtić",
+   "place": "Niš",
+   "website": "https://vrticmazza.rs",
+   "mb": "07589883",
+   "have": {
+    "address": "Despota Đurđa 65",
+    "phones": "018 217619",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "privredni-sud-u-somboru-sombor",
+   "name": "Privredni sud u Somboru",
+   "type": "Privredni sud",
+   "place": "Sombor",
+   "website": "https://www.so.pr.sud.rs",
+   "mb": "08864446",
+   "have": {
+    "address": "Sombor, Sombor",
+    "phones": "025 415822",
+    "hours": "07:30 - 15:30"
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "privredni-sud-u-subotici-subotica",
+   "name": "Privredni sud u Subotici",
+   "type": "Privredni sud",
+   "place": "Subotica",
+   "website": "https://www.su.pr.sud.rs",
+   "mb": "08895902",
+   "have": {
+    "address": "Sen, Subotica",
+    "phones": "024 524861",
+    "hours": "07:30 - 15:30"
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "privredni-sud-u-uzicu-uzice",
+   "name": "Privredni sud u Užicu",
+   "type": "Privredni sud",
+   "place": "Užice",
+   "website": "https://www.ue.pr.sud.rs",
+   "mb": "17773437",
+   "have": {
+    "address": "Marije Mage Magazinović, Užice",
+    "phones": "031 513931; 031 3150011",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "preporod-nis-n9713356980",
+   "name": "Preporod",
+   "type": "Računovodstvena agencija",
+   "place": "Medijana",
+   "website": "www.preporod.co.rs",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "018 520320",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "beogradska-berza-beograd-n6658013906",
+   "name": "Beogradska berza",
+   "type": "Računovodstvena agencija",
+   "place": "Novi Beograd",
+   "website": "https://www.belex.rs/",
+   "mb": null,
+   "have": {
+    "address": "Omladinskih brigada 1",
+    "phones": "011 3117311; 011 3117297",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "aktiva-sistem-novi-sad-n4702053158",
+   "name": "Aktiva Sistem",
+   "type": "Računovodstvena agencija",
+   "place": "Novi Sad",
+   "website": "www.aktivasistem.com",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "021 523655",
+    "hours": "Mo-Fr 09:00-12:00, 13:00-16:00; Sa-Su off"
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "produktna-berza-novi-sad-n4034828489",
+   "name": "Produktna berza",
+   "type": "Računovodstvena agencija",
+   "place": "Novi Sad",
+   "website": "https://nscomex.com",
+   "mb": null,
+   "have": {
+    "address": "Bulevar oslobođenja 5",
+    "phones": "021 442935",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "becky-beograd-n13131148165",
+   "name": "Becky",
+   "type": "Računovodstvena agencija",
+   "place": "Vračar",
+   "website": "https://becky.works/",
+   "mb": null,
+   "have": {
+    "address": "Makenzijeva 57",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "biro-m-beograd-n13133972571",
+   "name": "Biro M",
+   "type": "Računovodstvena agencija",
+   "place": "Vračar",
+   "website": "https://biro-m.co.rs/",
+   "mb": null,
+   "have": {
+    "address": "Molerova 39",
+    "phones": "065 2444026; 069 5514541",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "rades-beograd-n13072182157",
+   "name": "Rades",
+   "type": "Računovodstvena agencija",
+   "place": "Vračar",
+   "website": "https://rades.rs/",
+   "mb": null,
+   "have": {
+    "address": "Ivana Đaje 12",
+    "phones": "011 2452666; 069 2226382",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "udruzenje-banaka-srbije-beograd-n8026732641",
+   "name": "Udruženje banaka Srbije",
+   "type": "Računovodstvena agencija",
+   "place": "Vračar",
+   "website": "https://www.ubs-asb.com/",
+   "mb": null,
+   "have": {
+    "address": "Bulevar kralja Aleksandra 86",
+    "phones": "011 3020760",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "vracarac-konto-beograd-n13069550087",
+   "name": "Vračarac Konto",
+   "type": "Računovodstvena agencija",
+   "place": "Vračar",
+   "website": "https://vracarac.com/",
+   "mb": null,
+   "have": {
+    "address": "Kursulina 20",
+    "phones": "063 1070703",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "uprava-za-trezor-filijala-zajecar-zajecar-n10271226365",
+   "name": "Uprava za trezor - Filijala Zaječar",
+   "type": "Računovodstvena agencija",
+   "place": "Zaječar",
+   "website": "trezor.gov.rs",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "019 423320",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "knjigovodstvena-agencija-best-economy-beograd-n8202228758",
+   "name": "Knjigovodstvena agencija Best Economy",
+   "type": "Računovodstvena agencija",
+   "place": "Zvezdara",
+   "website": "https://www.best-economy.com/",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "011 4081713",
+    "hours": "Mo-Fr 08:00-16:00"
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "revizorska-kuca-aca-professional-audit-company-d-o-o-beograd",
+   "name": "ACA PROFESSIONAL AUDIT COMPANY d.o.o.",
+   "type": "Društvo za reviziju",
+   "place": "Beograd",
+   "website": "https://www.professional-audit.com",
+   "mb": null,
+   "have": {
+    "address": "Cerski venac 7",
+    "phones": "011 2399714; 063 660656",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  }
+ ],
+ "id": "site-063"
+}

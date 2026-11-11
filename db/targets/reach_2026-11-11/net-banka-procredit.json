@@ -1,0 +1,417 @@
+{
+ "kind": "network",
+ "title": "ProCredit banka",
+ "type": "banka",
+ "orgs": [
+  {
+   "org_slug": "banka-procredit",
+   "name": "ProCredit banka",
+   "website": "https://www.procreditbank.rs",
+   "rows": [
+    {
+     "location_id": 19471,
+     "unit": "ProCredit banka",
+     "place": "Sombor",
+     "address": null,
+     "phones": "011 2057000; 0700 700000",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 19599,
+     "unit": "ProCredit banka",
+     "place": "Novi Beograd",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 19707,
+     "unit": "ProCredit banka",
+     "place": "Bečej",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 19794,
+     "unit": "ProCredit banka",
+     "place": "Novi Sad",
+     "address": null,
+     "phones": "011 2057000; 0700 700000",
+     "hours": "Mo-Fr 08:00-17:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 19844,
+     "unit": "ProCredit banka",
+     "place": "Valjevo",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 19890,
+     "unit": "ProCredit banka",
+     "place": "Medijana",
+     "address": null,
+     "phones": "011 2057000; 0700 700000",
+     "hours": "Mo-Fr 08:00-17:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 19924,
+     "unit": "ProCredit banka",
+     "place": "Palilula",
+     "address": null,
+     "phones": "011 2057000; 0700 700000",
+     "hours": "Mo-We,Fr 09:00-17:00; Th 10:00-18:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 19968,
+     "unit": "Ekspozitura",
+     "place": "Čukarica",
+     "address": null,
+     "phones": "011 2057000; 0700 700000",
+     "hours": "Mo-We,Fr 09:00-17:00; Th 10:00-18:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 19986,
+     "unit": "ProCredit banka",
+     "place": "Šabac",
+     "address": null,
+     "phones": "011 2057000; 0700 700000",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20131,
+     "unit": "ProCredit banka",
+     "place": "Vračar",
+     "address": null,
+     "phones": "011 2057000; 0700 700000",
+     "hours": "Mo-We,Fr 09:00-17:00; Th 10:00-18:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20199,
+     "unit": "ProCredit bank",
+     "place": "Kragujevac",
+     "address": null,
+     "phones": "011 2057000; 0700 700000",
+     "hours": "Mo-Su 09:00-17:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 21559,
+     "unit": "ProCredit banka",
+     "place": "Subotica",
+     "address": null,
+     "phones": "011 2057000; 0700 700000",
+     "hours": "Mo-We,Fr 08:00-17:00; Th 08:00-18:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 21657,
+     "unit": "ProCredit banka",
+     "place": "Pančevo",
+     "address": null,
+     "phones": "011 2057000; 0700 700000",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 21747,
+     "unit": "ProCredit banka",
+     "place": "Zrenjanin",
+     "address": null,
+     "phones": "011 2057000; 0700 700000",
+     "hours": "24/7",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 21861,
+     "unit": "ProCredit banka",
+     "place": "Medijana",
+     "address": null,
+     "phones": "011 2057000; 0700 700000",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 21862,
+     "unit": "Ekspozitura",
+     "place": "Voždovac",
+     "address": null,
+     "phones": "011 2057000; 0700 700000",
+     "hours": "24/7",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 21863,
+     "unit": "ProCredit banka",
+     "place": "Čačak",
+     "address": null,
+     "phones": "011 2057000; 0700 700000",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 21864,
+     "unit": "ProCredit banka",
+     "place": "Zemun",
+     "address": null,
+     "phones": "011 2057000; 0700 700000",
+     "hours": "Mo-We,Fr 09:00-17:00; Th 10:00-18:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22807,
+     "unit": "ProCredit banka",
+     "place": "Kragujevac",
+     "address": null,
+     "phones": "011 2057000; 0700 700000",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23814,
+     "unit": "ProCredit banka",
+     "place": "Novi Beograd",
+     "address": "Milutina Milankovića 17",
+     "phones": "011 2057000; 0700 700000",
+     "hours": "Mo-Fr 09:00-18:00",
+     "need": []
+    },
+    {
+     "location_id": 23929,
+     "unit": "ProCredit banka",
+     "place": "Medijana",
+     "address": "Vizantijski bulevar 21",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 28714,
+     "unit": "Ekspozitura Bulevar Cara Lazara 7b",
+     "place": "Novi Sad",
+     "address": "Bulevar Cara Lazara 7b",
+     "phones": null,
+     "hours": "Pon-Pet 08:00-17:00; Sub-Ned zatvoreno",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28715,
+     "unit": "Ekspozitura Bulevar despota Stefana 68c",
+     "place": "Palilula",
+     "address": "Bulevar despota Stefana 68c",
+     "phones": null,
+     "hours": "Pon-Sre 09:00-17:00; Čet 10:00-18:00; Pet 09:00-17:00; Sub-Ned zatvoreno",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28716,
+     "unit": "Ekspozitura Bulevar Milutina Milankovića 17",
+     "place": "Novi Beograd",
+     "address": "Bulevar Milutina Milankovića 17",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-18:00; Sub-Ned zatvoreno",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28717,
+     "unit": "Ekspozitura Cara Dušana 3",
+     "place": "Subotica",
+     "address": "Cara Dušana 3",
+     "phones": null,
+     "hours": "Pon-Pet 08:00-17:00; Sub-Ned zatvoreno",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28718,
+     "unit": "Ekspozitura Gospodar Jevremova 28b",
+     "place": "Šabac",
+     "address": "Gospodar Jevremova 28b",
+     "phones": null,
+     "hours": "Pon-Pet 08:00-16:00; Sub-Ned zatvoreno",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28719,
+     "unit": "Ekspozitura Gospodar Jovanova 12",
+     "place": "Čačak",
+     "address": "Gospodar Jovanova 12",
+     "phones": null,
+     "hours": "Pon-Pet 08:00-16:00; Sub-Ned zatvoreno",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28720,
+     "unit": "Ekspozitura Kalenićeva 2",
+     "place": "Vračar",
+     "address": "Kalenićeva 2",
+     "phones": null,
+     "hours": "Pon-Sre 09:00-17:00; Čet 10:00-18:00; Pet 09:00-17:00; Sub-Ned zatvoreno",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28721,
+     "unit": "Ekspozitura Miodraga Vlajića Šuke 14",
+     "place": "Kragujevac",
+     "address": "Miodraga Vlajića Šuke 14",
+     "phones": null,
+     "hours": "Pon-Pet 08:00-16:00; Sub-Ned zatvoreno",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28722,
+     "unit": "Ekspozitura Kralja Petra I 36",
+     "place": "Kragujevac",
+     "address": "Kralja Petra I 36",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-17:00; Sub-Ned zatvoreno",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28723,
+     "unit": "Ekspozitura Miloša Obrenovića 19",
+     "place": "Pančevo",
+     "address": "Miloša Obrenovića 19",
+     "phones": null,
+     "hours": "Pon-Pet 08:00-16:00; Sub-Ned zatvoreno",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28724,
+     "unit": "Ekspozitura Požeška 42a",
+     "place": "Čukarica",
+     "address": "Požeška 42a",
+     "phones": null,
+     "hours": "Pon-Sre 09:00-17:00; Čet 10:00-18:00; Pet 09:00-17:00; Sub-Ned zatvoreno",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28725,
+     "unit": "Ekspozitura Trg Nikole Pašića 32b",
+     "place": "Medijana",
+     "address": "Trg Nikole Pašića 32b",
+     "phones": null,
+     "hours": "Pon-Pet 09:00-17:00; Sub-Ned zatvoreno",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28726,
+     "unit": "Ekspozitura Ulica Glavna 47",
+     "place": "Zemun",
+     "address": "Glavna 47",
+     "phones": null,
+     "hours": "Pon-Sre 09:00-17:00; Čet 10:00-18:00; Pet 09:00-17:00; Sub-Ned zatvoreno",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28727,
+     "unit": "Ekspozitura Venac Radomira Putnika 24",
+     "place": "Sombor",
+     "address": "Venac Radomira Putnika 24",
+     "phones": null,
+     "hours": "Pon-Pet 08:00-16:00; Sub-Ned zatvoreno",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28728,
+     "unit": "Ekspozitura Vizantijski bulevar bb",
+     "place": "Medijana",
+     "address": "Vizantijski bulevar bb",
+     "phones": null,
+     "hours": "Pon-Pet 08:00-16:00; Sub-Ned zatvoreno",
+     "need": [
+      "address",
+      "phones"
+     ]
+    }
+   ]
+  }
+ ],
+ "id": "net-banka-procredit"
+}

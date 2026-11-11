@@ -1,0 +1,402 @@
+{
+ "kind": "sites",
+ "title": "Institucije sa sopstvenim sajtom",
+ "rows": [
+  {
+   "org_slug": "medigroup-laboratorija-beograd-n13325994381",
+   "name": "MediGroup Laboratorija",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Novi Beograd",
+   "website": "https://www.medigroup.rs/lokacije/laboratorije/laboratorija-medigroup-pariske-komune/",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "medilab-beograd-n7728594727",
+   "name": "Medilab",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Novi Beograd",
+   "website": "https://medigroup.rs",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "011 4040111",
+    "hours": "Mo-Fr 07:00-14:00; Sa 08:00-12:00; Su off"
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "pulmo-centar-beograd-n11940253158",
+   "name": "Pulmo centar",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Novi Beograd",
+   "website": "https://pulmocentar.rs",
+   "mb": null,
+   "have": {
+    "address": "Bulevar Crvene armije 11",
+    "phones": "060 5556676",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "puls-beograd-n7834497266",
+   "name": "Puls",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Novi Beograd",
+   "website": "https://pulskardioloskicentar.rs/",
+   "mb": null,
+   "have": {
+    "address": "Jurija Gagarina 22m",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "biotest-novi-sad-n10853005506",
+   "name": "Biotest",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Novi Sad",
+   "website": "https://biotest.rs/",
+   "mb": null,
+   "have": {
+    "address": "Mičurinova 32",
+    "phones": null,
+    "hours": "Mo-Fr 07:00-20:00; Sa 07:00-14:00"
+   },
+   "need": [
+    "phones"
+   ]
+  },
+  {
+   "org_slug": "dr-cvjetkovic-novi-sad-n8228565585",
+   "name": "Dr Cvjetković",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Novi Sad",
+   "website": "https://www.medigroup.rs/dom-zdravlja-dr-cvjetkovic-novi-sad",
+   "mb": null,
+   "have": {
+    "address": "Balzakova",
+    "phones": "021 6622340",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "global-prevent-novi-sad-n14274677639",
+   "name": "Global Prevent",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Novi Sad",
+   "website": "https://globalprevent.rs/",
+   "mb": null,
+   "have": {
+    "address": "Futoška 57",
+    "phones": null,
+    "hours": "Mo-Fr 07:00-21:00; Sa 08:00-14:00"
+   },
+   "need": [
+    "phones"
+   ]
+  },
+  {
+   "org_slug": "lekarska-ordinacija-praksis-novi-sad-n10298266609",
+   "name": "Lekarska ordinacija PRAKSIS",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Novi Sad",
+   "website": "https://hiperbaricnakomora.com/",
+   "mb": null,
+   "have": {
+    "address": "dr Milana Petrovića 15",
+    "phones": "021 548240; 021 548238",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "new-hospital-novi-sad-n13686857680",
+   "name": "New Hospital",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Novi Sad",
+   "website": "https://newhospital.rs/",
+   "mb": null,
+   "have": {
+    "address": "Alberta Ajnštajna 1",
+    "phones": "021 3000505; 069 8400505",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "scolio-centar-novi-sad-n8228234568",
+   "name": "Scolio Centar",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Novi Sad",
+   "website": "https://www.skoliozacentar.rs/",
+   "mb": null,
+   "have": {
+    "address": "Futoški put 1",
+    "phones": "062 1516330",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "studio-motus-novi-sad-n8228234570",
+   "name": "Studio Motus",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Novi Sad",
+   "website": "https://motus.rs/",
+   "mb": null,
+   "have": {
+    "address": "Bulevar Evrope 20",
+    "phones": "063 1286007; 069 1310897",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "vizim-novi-sad-w2692713370",
+   "name": "Vizim",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Novi Sad",
+   "website": "https://www.vizim.co.rs/grad/novi-sad/",
+   "mb": null,
+   "have": {
+    "address": "Futoški put 87",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "vmr-centar-novi-sad-w588063018",
+   "name": "VMR centar",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Novi Sad",
+   "website": "http://www.vmr-centar.com",
+   "mb": null,
+   "have": {
+    "address": "Hajduk Veljkova",
+    "phones": "021 424777; 021 424888; 063 424573",
+    "hours": "Mo-Fr 07:00-21:00; Su 08:00-13:00"
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "balkan-eye-center-beograd-n11984177770",
+   "name": "Balkan Eye Center",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Palilula",
+   "website": "https://balkaneyehospital.rs/",
+   "mb": null,
+   "have": {
+    "address": "Bratstva i jedinstva 89",
+    "phones": "060 6966555",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "beo-lab-beograd-n9722472308",
+   "name": "Beo-lab",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Palilula",
+   "website": "https://www.beo-lab.rs/",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "011 3622888",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "beo-lab-beograd-n9722472309",
+   "name": "Beo-lab",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Palilula",
+   "website": "https://www.beo-lab.rs/",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "011 3622888",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "beo-lab-beograd-n9722472310",
+   "name": "Beo-lab",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Palilula",
+   "website": "https://www.beo-lab.rs/",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": "Mo-Fr 07:00-20:00; Sa 07:00-14:00; Su off"
+   },
+   "need": [
+    "address",
+    "phones"
+   ]
+  },
+  {
+   "org_slug": "biomedia-beograd-n9064445850",
+   "name": "BioMedia",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Palilula",
+   "website": "https://www.biomedicazavod.rs/",
+   "mb": null,
+   "have": {
+    "address": "Marijane Gregoran 50",
+    "phones": null,
+    "hours": "Mo-Fr 07:00-19:00; Sa 08:00-15:00"
+   },
+   "need": [
+    "phones"
+   ]
+  },
+  {
+   "org_slug": "euromedik-beograd-n10134422140",
+   "name": "Euromedik",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Palilula",
+   "website": "https://euromedic.rs/",
+   "mb": null,
+   "have": {
+    "address": "Cvijićeva 42",
+    "phones": null,
+    "hours": "Mo-Fr 07:00-21:00; Sa 07:00-15:00"
+   },
+   "need": [
+    "phones"
+   ]
+  },
+  {
+   "org_slug": "medigroup-beograd-n11982163214",
+   "name": "Medigroup",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Palilula",
+   "website": "https://medigroup.rs",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "011 4040100",
+    "hours": "Mo-Fr 07:00-19:00; Sa 08:00-13:00"
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "pro-femine-beograd-n9077731741",
+   "name": "Pro Femine",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Palilula",
+   "website": "https://www.profemine.co.rs/",
+   "mb": null,
+   "have": {
+    "address": "Bulevar despota Stefana 204Z",
+    "phones": "011 2764147; 065 2764147",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "beo-lab-pancevo-n9626668490",
+   "name": "Beo-lab",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Pančevo",
+   "website": "https://www.beo-lab.rs/",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": "Mo-Fr 07:00-20:00; Sa 07:00-14:00"
+   },
+   "need": [
+    "address",
+    "phones"
+   ]
+  },
+  {
+   "org_slug": "gerontoloski-centar-pancevo-n11861850641",
+   "name": "Gerontološki centar",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Pančevo",
+   "website": "https://gcpancevo.rs/",
+   "mb": null,
+   "have": {
+    "address": "Vojvođanski bulevar 1",
+    "phones": "013 310111",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "pancevac-pancevo-n9920943420",
+   "name": "Pančevac",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Pančevo",
+   "website": "https://www.zavodpancevac.rs/o-nama/",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours"
+   ]
+  }
+ ],
+ "id": "site-060"
+}

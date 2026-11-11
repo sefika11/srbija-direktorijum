@@ -1,0 +1,645 @@
+{
+ "kind": "network",
+ "title": "Manje mreže",
+ "type": "mixed",
+ "orgs": [
+  {
+   "org_slug": "apotekarska-ustanova-braca-filipovic-paracin",
+   "name": "Apotekarska ustanova \"Braća Filipović\"",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 11408,
+     "unit": "Apoteka",
+     "place": "Paraćin",
+     "address": "Majora Marka broj 32",
+     "phones": "069 650996",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11409,
+     "unit": "Ogranak 1",
+     "place": "Paraćin",
+     "address": "Bore Petrovića bb",
+     "phones": "069 650997",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11410,
+     "unit": "Ogranak 2",
+     "place": "Paraćin",
+     "address": "Vožda Karađorđa broj 19",
+     "phones": "069 5562594",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11411,
+     "unit": "Ogranak 3",
+     "place": "Paraćin",
+     "address": "Vojvode Mišića broj 76",
+     "phones": "062 568606",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11412,
+     "unit": "Ogranak 4",
+     "place": "Ćićevac",
+     "address": "Karađorđeva broj 128",
+     "phones": "069 650882",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11413,
+     "unit": "Ogranak",
+     "place": "Aleksandrovac",
+     "address": "29. Novembra broj 47",
+     "phones": "069 651139",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11414,
+     "unit": "Ogranak 6",
+     "place": "Kruševac",
+     "address": "JNA broj 28",
+     "phones": "060 5646002",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11415,
+     "unit": "Ogranak 7",
+     "place": "Brus",
+     "address": "Kralja Petra Prvog broj 18",
+     "phones": "060 5646003",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11416,
+     "unit": "Ogranak 9",
+     "place": "Užice",
+     "address": "Dimitrija Tucovića broj 45",
+     "phones": "060 6669246",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "apotekarska-ustanova-dental-kursumlija",
+   "name": "Apotekarska ustanova \"Dental\"",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 11794,
+     "unit": "Apoteka",
+     "place": "Kuršumlija",
+     "address": "Nemanjina broj 14",
+     "phones": "027 384277",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11795,
+     "unit": "Dental Ogranak 1",
+     "place": "Niš",
+     "address": "Pribojska broj 58",
+     "phones": "018 512748",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11796,
+     "unit": "Dental Ogranak 2",
+     "place": "Niš",
+     "address": "Knjaževačka bb",
+     "phones": "018 4201300",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11797,
+     "unit": "Dental Ogranak 5",
+     "place": "Niš",
+     "address": "Bubanjski heroji broj 63",
+     "phones": "018 515513",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11798,
+     "unit": "Dental Ogranak 6",
+     "place": "Prokuplje",
+     "address": "Ćirila i Metodija broj 4",
+     "phones": "027 8101888",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11799,
+     "unit": "Dental Ogranak 7",
+     "place": "Niš",
+     "address": "Bulevar Nemanjića broj 37b",
+     "phones": "027 8101888",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11800,
+     "unit": "Dental Ogranak 8",
+     "place": "Niš",
+     "address": "Matejevački put broj 15",
+     "phones": "018 511146",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11801,
+     "unit": "Dental Ogranak 9",
+     "place": "Prokuplje",
+     "address": "Partizanska broj 8",
+     "phones": "027 8101888",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11802,
+     "unit": "Dental Ogranak 11 DZ Maja",
+     "place": "Niš",
+     "address": "Vizantijski bulevar broj 39",
+     "phones": "066 6600303",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11803,
+     "unit": "Dental Apoteka 12",
+     "place": "Kuršumlija",
+     "address": "Toplička 73",
+     "phones": "027 8101007",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "apotekarska-ustanova-family-pharm-beograd",
+   "name": "Apotekarska ustanova \"Family Pharm\"",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 13106,
+     "unit": "Family Pharm 01",
+     "place": "Beograd",
+     "address": "Obrenovačka 2b",
+     "phones": "064 1139704",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13108,
+     "unit": "Family Pharm 04",
+     "place": "Čukarica",
+     "address": "10.Oktobar 7",
+     "phones": "064 8796500",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13110,
+     "unit": "Family Pharm 07",
+     "place": "Loznica",
+     "address": "Vojovde Putnika 4",
+     "phones": "064 8796509",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13113,
+     "unit": "Family Pharm 08",
+     "place": "Beograd",
+     "address": "Kruševacka 40b",
+     "phones": "064 8015614",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13115,
+     "unit": "Family Pharm 13",
+     "place": "Ljubovija",
+     "address": "Vojvode Misića 59",
+     "phones": "064 8796506",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13117,
+     "unit": "Family Pharm 12",
+     "place": "Loznica",
+     "address": "Pašićeva 9",
+     "phones": "064 8796564",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13119,
+     "unit": "Family Pharm 15",
+     "place": "Kovačica",
+     "address": "Šturova 42",
+     "phones": "064 8796565",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13121,
+     "unit": "Family Pharm 16",
+     "place": "Kovačica",
+     "address": "Servo Mihalja 37",
+     "phones": "064 8796221",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13123,
+     "unit": "Family Pharm 18",
+     "place": "Merošina",
+     "address": "Trg Oslobodjenja 26",
+     "phones": "064 8796547",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13125,
+     "unit": "Family Pharm 19",
+     "place": "Kovačica",
+     "address": "Maršala Tita 30",
+     "phones": "064 8796223",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13127,
+     "unit": "Family Pharm 21",
+     "place": "Kovačica",
+     "address": "Tudora Vladimireskua 178",
+     "phones": "064 8796224",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13130,
+     "unit": "Family Pharm 22",
+     "place": "Gornji Milanovac",
+     "address": "Vojvode Milana 37",
+     "phones": "064 8955596",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13132,
+     "unit": "Family Pharm 23",
+     "place": "Gornji Milanovac",
+     "address": "Tihomira Matijevića 1",
+     "phones": "064 8955597",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13134,
+     "unit": "Family Pharm24",
+     "place": "Gornji Milanovac",
+     "address": "Pranjani bb",
+     "phones": "064 8796225",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13136,
+     "unit": "Family Pharm 25",
+     "place": "Gornji Milanovac",
+     "address": "Karadjordjeva bb",
+     "phones": "064 8796548",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13138,
+     "unit": "Family Pharm 5A",
+     "place": "Beograd",
+     "address": "Surčinska 225a",
+     "phones": "064 8216971",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13140,
+     "unit": "Family Pharm 9A",
+     "place": "Krupanj",
+     "address": "Vlade Zečevića 61",
+     "phones": "064 8216970",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13142,
+     "unit": "Family Pharm 10A",
+     "place": "Gornji Milanovac",
+     "address": "Miloša Velikog 5",
+     "phones": "064 8216973",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13144,
+     "unit": "Family Pharm 11A",
+     "place": "Beograd",
+     "address": "Surčinska 9e",
+     "phones": "064 8796505",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13146,
+     "unit": "Family Pharm 20A",
+     "place": "Mali Zvornik",
+     "address": "Vuka Karadzića 1",
+     "phones": "064 8955829",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13149,
+     "unit": "Family Pharm 2A",
+     "place": "Loznica",
+     "address": "Jovana Cvijića 1/37",
+     "phones": "064 8114035",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13151,
+     "unit": "Family Pharm 3A",
+     "place": "Loznica",
+     "address": "Maršala Tita 126",
+     "phones": "064 8955827",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13153,
+     "unit": "Family Pharm 26",
+     "place": "Loznica",
+     "address": "Vladislava Bronjevskog 34",
+     "phones": "064 1327971",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13155,
+     "unit": "Family Pharm 27",
+     "place": "Loznica",
+     "address": "Maršala Tita 30",
+     "phones": "064 8956577",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 13157,
+     "unit": "Family Pharm 14",
+     "place": "Beograd",
+     "address": "Vojvođanska 498g",
+     "phones": "064 8796507",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "apotekarska-ustanova-irisfarm-sajkas",
+   "name": "Apotekarska ustanova \"Irisfarm\"",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 10645,
+     "unit": "Šajkaš",
+     "place": "Titel",
+     "address": "Nikole Tesle broj 20",
+     "phones": "021 2964345",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10646,
+     "unit": "Ogranak Kać",
+     "place": "Novi Sad",
+     "address": "Kralja Petra I broj 10",
+     "phones": "021 6211535",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10647,
+     "unit": "Ogranak NS-3",
+     "place": "Novi Sad",
+     "address": "Janka Veselinovića broj 12",
+     "phones": "021 513744",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10648,
+     "unit": "Ogranak Futog",
+     "place": "Novi Sad",
+     "address": "Cara Lazara broj 7",
+     "phones": "021 892117",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10649,
+     "unit": "Ogranak NS-1",
+     "place": "Novi Sad",
+     "address": "Rumenačka broj 13",
+     "phones": "021 544515",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10650,
+     "unit": "Ogranak NS-5",
+     "place": "Novi Sad",
+     "address": "Feješ Klare broj 52a",
+     "phones": "021 506691",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10651,
+     "unit": "Ogranak Veternik",
+     "place": "Novi Sad",
+     "address": "Kralja Petra I broj 7a",
+     "phones": "021 824944",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10652,
+     "unit": "Ogranak Mošorin",
+     "place": "Titel",
+     "address": "Svetozara Miletića broj 64",
+     "phones": "021 2969111",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10653,
+     "unit": "Ogranak NS-6",
+     "place": "Novi Sad",
+     "address": "Dr Svetislava Kasapinovića broj 21",
+     "phones": "021 6311066",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10654,
+     "unit": "Ogranak NS-7",
+     "place": "Novi Sad",
+     "address": "Bulevar Cara Lazara broj 76",
+     "phones": "021 6360620",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10655,
+     "unit": "Ogranak NS-8",
+     "place": "Novi Sad",
+     "address": "Pavla Ivića broj 9",
+     "phones": "021 2710569",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  }
+ ],
+ "id": "net-small-03"
+}

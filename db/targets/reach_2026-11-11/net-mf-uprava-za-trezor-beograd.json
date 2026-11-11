@@ -1,0 +1,1770 @@
+{
+ "kind": "network",
+ "title": "MF - uprava za trezor",
+ "type": "uprava-za-trezor",
+ "orgs": [
+  {
+   "org_slug": "mf-uprava-za-trezor-beograd",
+   "name": "MF - uprava za trezor",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 286,
+     "unit": "Sedište",
+     "place": "Beograd",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9643,
+     "unit": "Organizaciona jedinica Stari grad",
+     "place": "Stari grad",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9644,
+     "unit": "Organizaciona jedinica Novi Beograd",
+     "place": "Novi Beograd",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9645,
+     "unit": "Organizaciona jedinica Palilula",
+     "place": "Palilula",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9646,
+     "unit": "Organizaciona jedinica Kragujevac",
+     "place": "Kragujevac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9647,
+     "unit": "Organizaciona jedinica Niš",
+     "place": "Niš",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9648,
+     "unit": "Organizaciona jedinica Novi Sad",
+     "place": "Novi Sad",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9649,
+     "unit": "Organizaciona jedinica Valjevo",
+     "place": "Valjevo",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9650,
+     "unit": "Organizaciona jedinica Vranje",
+     "place": "Vranje",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9651,
+     "unit": "Organizaciona jedinica Zaječar",
+     "place": "Zaječar",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9652,
+     "unit": "Organizaciona jedinica Zrenjanin",
+     "place": "Zrenjanin",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9653,
+     "unit": "Organizaciona jedinica Jagodina",
+     "place": "Jagodina",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9654,
+     "unit": "Organizaciona jedinica Kraljevo",
+     "place": "Kraljevo",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9655,
+     "unit": "Organizaciona jedinica Kruševac",
+     "place": "Kruševac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9656,
+     "unit": "Organizaciona jedinica Leskovac",
+     "place": "Leskovac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9657,
+     "unit": "Organizaciona jedinica Negotin",
+     "place": "Negotin",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9658,
+     "unit": "Organizaciona jedinica Novi Pazar",
+     "place": "Novi Pazar",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9659,
+     "unit": "Organizaciona jedinica Pančevo",
+     "place": "Pančevo",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9660,
+     "unit": "Organizaciona jedinica Pirot",
+     "place": "Pirot",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9661,
+     "unit": "Organizaciona jedinica Požarevac",
+     "place": "Požarevac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9662,
+     "unit": "Organizaciona jedinica Prokuplje",
+     "place": "Prokuplje",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9663,
+     "unit": "Organizaciona jedinica Smederevo",
+     "place": "Smederevo",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9664,
+     "unit": "Organizaciona jedinica Sombor",
+     "place": "Sombor",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9665,
+     "unit": "Organizaciona jedinica Srem. Mitrovica",
+     "place": "Sremska Mitrovica",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9666,
+     "unit": "Organizaciona jedinica Subotica",
+     "place": "Subotica",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9667,
+     "unit": "Organizaciona jedinica Užice",
+     "place": "Užice",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9668,
+     "unit": "Organizaciona jedinica Čačak",
+     "place": "Čačak",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9669,
+     "unit": "Organizaciona jedinica Šabac",
+     "place": "Šabac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9670,
+     "unit": "Organizaciona jedinica Bor",
+     "place": "Bor",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9671,
+     "unit": "Organizaciona jedinica Vršac",
+     "place": "Vršac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9672,
+     "unit": "Organizaciona jedinica Kikinda",
+     "place": "Kikinda",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9673,
+     "unit": "Organizaciona jedinica Loznica",
+     "place": "Loznica",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9674,
+     "unit": "Organizaciona jedinica Paraćin",
+     "place": "Paraćin",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9675,
+     "unit": "Organizaciona jedinica Požega",
+     "place": "Požega",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9676,
+     "unit": "Organizaciona jedinica Prijepolje",
+     "place": "Prijepolje",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9677,
+     "unit": "Organizaciona jedinica Aleksinac",
+     "place": "Aleksinac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9678,
+     "unit": "Organizaciona jedinica Aranđelovac",
+     "place": "Aranđelovac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9679,
+     "unit": "Organizaciona jedinica Bačka Palanka",
+     "place": "Bačka Palanka",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9680,
+     "unit": "Organizaciona jedinica Bečej",
+     "place": "Bečej",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9681,
+     "unit": "Organizaciona jedinica Brus",
+     "place": "Brus",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9682,
+     "unit": "Organizaciona jedinica Bujanovac",
+     "place": "Bujanovac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9683,
+     "unit": "Organizaciona jedinica Velika Plana",
+     "place": "Velika Plana",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9684,
+     "unit": "Organizaciona jedinica Veliko Gradište",
+     "place": "Veliko Gradište",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9685,
+     "unit": "Organizaciona jedinica Vrbas",
+     "place": "Vrbas",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9686,
+     "unit": "Organizaciona jedinica Despotovac",
+     "place": "Despotovac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9687,
+     "unit": "Organizaciona jedinica Dimitrovgrad",
+     "place": "Dimitrovgrad",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9688,
+     "unit": "Organizaciona jedinica Ivanjica",
+     "place": "Ivanjica",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9689,
+     "unit": "Organizaciona jedinica Knjaževac",
+     "place": "Knjaževac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9690,
+     "unit": "Organizaciona jedinica Kuršumlija",
+     "place": "Kuršumlija",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9691,
+     "unit": "Organizaciona jedinica Lazarevac",
+     "place": "Lazarevac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9692,
+     "unit": "Organizaciona jedinica Lebane",
+     "place": "Lebane",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9693,
+     "unit": "Organizaciona jedinica Majdanpek",
+     "place": "Majdanpek",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9694,
+     "unit": "Organizaciona jedinica Mionica",
+     "place": "Mionica",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9695,
+     "unit": "Organizaciona jedinica Mladenovac",
+     "place": "Mladenovac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9696,
+     "unit": "Organizaciona jedinica Obrenovac",
+     "place": "Obrenovac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9697,
+     "unit": "Organizaciona jedinica Raška",
+     "place": "Raška",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9698,
+     "unit": "Organizaciona jedinica Ruma",
+     "place": "Ruma",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9699,
+     "unit": "Organizaciona jedinica Senta",
+     "place": "Senta",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9700,
+     "unit": "Organizaciona jedinica Sjenica",
+     "place": "Sjenica",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9701,
+     "unit": "Organizaciona jedinica Stara Pazova",
+     "place": "Stara Pazova",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9702,
+     "unit": "Organizaciona jedinica Surdulica",
+     "place": "Surdulica",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9703,
+     "unit": "Organizaciona jedinica Trstenik",
+     "place": "Trstenik",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9704,
+     "unit": "Organizaciona jedinica Ub",
+     "place": "Ub",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9705,
+     "unit": "Organizaciona jedinica Šid",
+     "place": "Šid",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9706,
+     "unit": "Organizaciona jedinica Preševo",
+     "place": "Preševo",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9707,
+     "unit": "Organizaciona jedinica Voždovac",
+     "place": "Voždovac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9708,
+     "unit": "Organizaciona jedinica Vladičin Han",
+     "place": "Vladičin Han",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9709,
+     "unit": "Organizaciona jedinica Čukarica",
+     "place": "Čukarica",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9710,
+     "unit": "Organizaciona jedinica Ćuprija",
+     "place": "Ćuprija",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9711,
+     "unit": "Organizaciona jedinica Grocka",
+     "place": "Grocka",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9712,
+     "unit": "Organizaciona jedinica Barajevo",
+     "place": "Barajevo",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9713,
+     "unit": "Organizaciona jedinica Inđija",
+     "place": "Inđija",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9714,
+     "unit": "Organizaciona jedinica Sopot",
+     "place": "Sopot",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9715,
+     "unit": "Organizaciona jedinica Lučani",
+     "place": "Lučani",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9716,
+     "unit": "Organizaciona jedinica Guča",
+     "place": "Lučani",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9717,
+     "unit": "Organizaciona jedinica Rača",
+     "place": "Rača",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9718,
+     "unit": "Organizaciona jedinica Batočina",
+     "place": "Batočina",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9719,
+     "unit": "Organizaciona jedinica Topola",
+     "place": "Topola",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9720,
+     "unit": "Organizaciona jedinica Knić",
+     "place": "Knić",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9721,
+     "unit": "Organizaciona jedinica Vrnjačka Banja",
+     "place": "Vrnjačka Banja",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9722,
+     "unit": "Organizaciona jedinica Varvarin",
+     "place": "Varvarin",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9723,
+     "unit": "Organizaciona jedinica Aleksandrovac",
+     "place": "Aleksandrovac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9724,
+     "unit": "Organizaciona jedinica Vlasotince",
+     "place": "Vlasotince",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9725,
+     "unit": "Organizaciona jedinica Bojnik",
+     "place": "Bojnik",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9726,
+     "unit": "Organizaciona jedinica Medveđa",
+     "place": "Medveđa",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9727,
+     "unit": "Organizaciona jedinica Mali Zvornik",
+     "place": "Mali Zvornik",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9728,
+     "unit": "Organizaciona jedinica Ljubovija",
+     "place": "Ljubovija",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9729,
+     "unit": "Organizaciona jedinica Krupanj",
+     "place": "Krupanj",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9730,
+     "unit": "Organizaciona jedinica Bela Palanka",
+     "place": "Bela Palanka",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9731,
+     "unit": "Organizaciona jedinica Svrljig",
+     "place": "Svrljig",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9732,
+     "unit": "Organizaciona jedinica Ražanj",
+     "place": "Ražanj",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9733,
+     "unit": "Organizaciona jedinica Tutin",
+     "place": "Tutin",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9734,
+     "unit": "Organizaciona jedinica Babušnica",
+     "place": "Babušnica",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9735,
+     "unit": "Organizaciona jedinica Žagubica",
+     "place": "Žagubica",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9736,
+     "unit": "Organizaciona jedinica Kučevo",
+     "place": "Kučevo",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9737,
+     "unit": "Organizaciona jedinica Golubac",
+     "place": "Golubac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9738,
+     "unit": "Organizaciona jedinica Žabari",
+     "place": "Žabari",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9739,
+     "unit": "Organizaciona jedinica Nova Varoš",
+     "place": "Nova Varoš",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9740,
+     "unit": "Organizaciona jedinica Blace",
+     "place": "Blace",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9741,
+     "unit": "Organizaciona jedinica Smed. Palanka",
+     "place": "Smederevska Palanka",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9742,
+     "unit": "Organizaciona jedinica Svilajnac",
+     "place": "Svilajnac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9743,
+     "unit": "Organizaciona jedinica Rekovac",
+     "place": "Rekovac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9744,
+     "unit": "Organizaciona jedinica Bogatić",
+     "place": "Bogatić",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9745,
+     "unit": "Organizaciona jedinica Vladimirci",
+     "place": "Vladimirci",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9746,
+     "unit": "Organizaciona jedinica Koceljeva",
+     "place": "Koceljeva",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9747,
+     "unit": "Organizaciona jedinica Arilje",
+     "place": "Arilje",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9748,
+     "unit": "Organizaciona jedinica Čajetina",
+     "place": "Čajetina",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9749,
+     "unit": "Organizaciona jedinica Bajina Bašta",
+     "place": "Bajina Bašta",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9750,
+     "unit": "Organizaciona jedinica Kosjerić",
+     "place": "Kosjerić",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9751,
+     "unit": "Organizaciona jedinica Osečina",
+     "place": "Osečina",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9752,
+     "unit": "Organizaciona jedinica Lajkovac",
+     "place": "Lajkovac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9753,
+     "unit": "Organizaciona jedinica Ljig",
+     "place": "Ljig",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9754,
+     "unit": "Organizaciona jedinica Trgovište",
+     "place": "Trgovište",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9755,
+     "unit": "Organizaciona jedinica Bosilegrad",
+     "place": "Bosilegrad",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9756,
+     "unit": "Organizaciona jedinica Boljevac",
+     "place": "Boljevac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9757,
+     "unit": "Organizaciona jedinica Kladovo",
+     "place": "Kladovo",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9758,
+     "unit": "Organizaciona jedinica Donji Milanovac",
+     "place": "Majdanpek",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9759,
+     "unit": "Organizaciona jedinica Novi Kneževac",
+     "place": "Novi Kneževac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9760,
+     "unit": "Organizaciona jedinica Bački Petrovac",
+     "place": "Bački Petrovac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9761,
+     "unit": "Organizaciona jedinica Temerin",
+     "place": "Temerin",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9762,
+     "unit": "Organizaciona jedinica Titel",
+     "place": "Titel",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9763,
+     "unit": "Organizaciona jedinica Bač",
+     "place": "Bač",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9764,
+     "unit": "Organizaciona jedinica Alibunar",
+     "place": "Alibunar",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9765,
+     "unit": "Organizaciona jedinica Kovin",
+     "place": "Kovin",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9766,
+     "unit": "Organizaciona jedinica Apatin",
+     "place": "Apatin",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9767,
+     "unit": "Organizaciona jedinica Odžaci",
+     "place": "Odžaci",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9768,
+     "unit": "Organizaciona jedinica Pećinci",
+     "place": "Pećinci",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9769,
+     "unit": "Organizaciona jedinica Kanjiža",
+     "place": "Kanjiža",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9770,
+     "unit": "Organizaciona jedinica Bačka Topola",
+     "place": "Bačka Topola",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9771,
+     "unit": "Organizaciona jedinica Kula",
+     "place": "Kula",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9772,
+     "unit": "Organizaciona jedinica Bela Crkva",
+     "place": "Bela Crkva",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9773,
+     "unit": "Organizaciona jedinica Novi Bečej",
+     "place": "Novi Bečej",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9774,
+     "unit": "Organizaciona jedinica Sečanj",
+     "place": "Sečanj",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9775,
+     "unit": "Organizaciona jedinica Nova Crnja",
+     "place": "Nova Crnja",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 9776,
+     "unit": "Organizaciona jedinica Žitište",
+     "place": "Žitište",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  }
+ ],
+ "id": "net-mf-uprava-za-trezor-beograd"
+}

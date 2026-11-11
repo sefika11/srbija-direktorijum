@@ -1,0 +1,397 @@
+{
+ "kind": "sites",
+ "title": "Institucije sa sopstvenim sajtom",
+ "rows": [
+  {
+   "org_slug": "mf-uprava-za-javni-dug-beograd",
+   "name": "MF-Uprava za javni Dug",
+   "type": "Sekretarijat / odeljenje uprave",
+   "place": "Beograd",
+   "website": "https://www.javnidug.gov.rs",
+   "mb": null,
+   "have": {
+    "address": "Balkanska 53",
+    "phones": "011 7652742",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "mf-uprava-za-slobodne-zone-beograd",
+   "name": "MF-Uprava za Slobodne Zone",
+   "type": "Sekretarijat / odeljenje uprave",
+   "place": "Beograd",
+   "website": "https://www.usz.gov.rs",
+   "mb": null,
+   "have": {
+    "address": "Balkanska 53",
+    "phones": "011 7652831; 011 7652832",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "mf-uprava-za-sprecavanje-pranja-novca-beograd",
+   "name": "MF-Uprava za Sprečavanje Pranja Novca",
+   "type": "Sekretarijat / odeljenje uprave",
+   "place": "Beograd",
+   "website": "https://www.apml.gov.rs",
+   "mb": null,
+   "have": {
+    "address": "Resavska 24",
+    "phones": "011 7359070; 011 7359054",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "republicki-sekretarijat-za-javne-politike-beograd",
+   "name": "Republički sekretarijat za javne Politike",
+   "type": "Sekretarijat / odeljenje uprave",
+   "place": "Beograd",
+   "website": "https://rsjp.gov.rs",
+   "mb": "17855719",
+   "have": {
+    "address": "Vlajkovićeva 10",
+    "phones": "011 3349818",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "uprava-za-zajednicke-poslove-republickih-organa-beograd",
+   "name": "Uprava za Zajedničke Poslove Republičkih Organa",
+   "type": "Sekretarijat / odeljenje uprave",
+   "place": "Beograd",
+   "website": "https://www.uzzpro.gov.rs",
+   "mb": "07001401",
+   "have": {
+    "address": "Nemanjina 26",
+    "phones": "011 3616615",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-institut-za-nuklearne-nauke-vinca-vinca",
+   "name": "Institut Za Nuklearne Nauke 'Vinča'",
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "place": "Grocka",
+   "website": "https://www.vin.bg.ac.rs",
+   "mb": null,
+   "have": {
+    "address": "Mike Petrovića-Alasa 12",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-forum-of-civil-action-forca-pozega",
+   "name": "Forum of civil action FORCA",
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "place": "Požega",
+   "website": "https://forca.rs",
+   "mb": null,
+   "have": {
+    "address": "Karađorđeva 3",
+    "phones": "031 825000",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-ustanova-studentski-centar-beograd-beograd-savski-venac",
+   "name": "Ustanova Studentski Centar Beograd",
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "place": "Savski venac",
+   "website": "https://www.sc.rs",
+   "mb": null,
+   "have": {
+    "address": "Svetozara Markovića 56",
+    "phones": "011 3637200; 011 3637222",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "specijalna-bolnica-za-rehabilitaciju-junakovic-prigrevica",
+   "name": "Specijalna bolnica za Rehabilitaciju \"Junaković\"",
+   "type": "Specijalna bolnica",
+   "place": "Apatin",
+   "website": "http://banja-junakovic.rs",
+   "mb": "08913773",
+   "have": {
+    "address": "Prigrevačka bb",
+    "phones": "025 772477",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "specijalna-bolnica-za-rehabilitaciju-bukovicka-banja-arandjelovac-arandjelovac",
+   "name": "Specijalna bolnica za rehabilitaciju Bukovička banja Aranđelovac",
+   "type": "Specijalna bolnica",
+   "place": "Aranđelovac",
+   "website": "https://www.bukovickabanja.co.rs",
+   "mb": null,
+   "have": {
+    "address": "Mišarska 1",
+    "phones": "034 725250; 034 725251",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "specijalna-bolnica-za-plucne-bolesti-bela-crkva-bela-crkva",
+   "name": "Specijalna bolnica za plućne bolesti Bela Crkva",
+   "type": "Specijalna bolnica",
+   "place": "Bela Crkva",
+   "website": "http://www.spbbelacrkva.org",
+   "mb": null,
+   "have": {
+    "address": "Miletićeva 55",
+    "phones": "013 851241",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "specijalna-bolnica-za-cerebralnu-paralizu-i-razvojnu-neurologiju-beograd-beograd",
+   "name": "Specijalna bolnica za cerebralnu paralizu i razvojnu neurologiju Beograd",
+   "type": "Specijalna bolnica",
+   "place": "Beograd",
+   "website": "http://www.sbcprn.com",
+   "mb": null,
+   "have": {
+    "address": "Sokobanjska 17a",
+    "phones": "011 2667755",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "specijalna-bolnica-za-cerebrovaskularne-bolesti-sveti-sava-beograd",
+   "name": "Specijalna bolnica za Cerebrovaskularne Bolesti \"Sveti Sava\"",
+   "type": "Specijalna bolnica",
+   "place": "Beograd",
+   "website": "http://www.svetisava.rs",
+   "mb": "07030908",
+   "have": {
+    "address": "Nemanjina 2",
+    "phones": "011 2066800",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "specijalna-bolnica-za-rehabilitaciju-i-ortopedsku-protetiku-beograd",
+   "name": "Specijalna bolnica za Rehabilitaciju i Ortopedsku Protetiku",
+   "type": "Specijalna bolnica",
+   "place": "Beograd",
+   "website": "http://www.zop.rs",
+   "mb": "07036124",
+   "have": {
+    "address": "Bulevar Vojvode Putnika 7",
+    "phones": "011 3690069",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "specijalna-bolnica-za-rehabilitaciju-ribarska-banja-krusevac-ribarska-banja",
+   "name": "Specijalna bolnica za rehabilitaciju Ribarska Banja Kruševac",
+   "type": "Specijalna bolnica",
+   "place": "Blace",
+   "website": "http://www.ribarskabanja.rs",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "037 865120",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "specijalna-bolnica-za-rehabilitaciju-bujanovac-bujanovac",
+   "name": "Specijalna bolnica za Rehabilitaciju Bujanovac",
+   "type": "Specijalna bolnica",
+   "place": "Bujanovac",
+   "website": "http://www.specijalnabolnicabujanovackabanja.co.rs",
+   "mb": "17686542",
+   "have": {
+    "address": "Bujanovačka banja",
+    "phones": "017 651292",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "specijalna-bolnica-za-psihijatrijske-bolesti-gornja-toponica-nis-nis",
+   "name": "Specijalna bolnica za Psihijatrijske Bolesti \"Gornja Toponica\", Niš",
+   "type": "Specijalna bolnica",
+   "place": "Crveni Krst",
+   "website": "http://www.spbtoponica.rs",
+   "mb": "07185367",
+   "have": {
+    "address": "Stevana Sinđelića 39",
+    "phones": "018 4601111",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "specijalna-bolnica-za-neuroloska-i-posttraumatska-stanja-stari-slankamen-stari",
+   "name": "Specijalna bolnica za neurološka i posttraumatska stanja Stari Slankamen",
+   "type": "Specijalna bolnica",
+   "place": "Inđija",
+   "website": "http://www.bolnicaslankamen.co.rs",
+   "mb": null,
+   "have": {
+    "address": "Dr Borivoja Gnjatića 50",
+    "phones": "022 2591077",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "specijalna-bolnica-za-rehabilitaciju-vrdnik-vrdnik",
+   "name": "Specijalna bolnica za rehabilitaciju Vrdnik",
+   "type": "Specijalna bolnica",
+   "place": "Irig",
+   "website": "http://www.termal-vrdnik.com",
+   "mb": null,
+   "have": {
+    "address": "Karađorđeva 6",
+    "phones": "069 755736; 069 755727",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "specijalna-bolnica-za-rehabilitaciju-ivanjica-ivanjica",
+   "name": "Specijalna bolnica za Rehabilitaciju Ivanjica",
+   "type": "Specijalna bolnica",
+   "place": "Ivanjica",
+   "website": "http://www.zavodivanjica.rs",
+   "mb": "07219750",
+   "have": {
+    "address": "13. Septembar br 78",
+    "phones": "032 662260; 032 662261",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "specijalna-bolnica-za-rehabilitaciju-banja-kanjiza-kanjiza",
+   "name": "Specijalna bolnica za Rehabilitaciju \"Banja Kanjiža\"",
+   "type": "Specijalna bolnica",
+   "place": "Kanjiža",
+   "website": "http://banja-kanjiza.com",
+   "mb": "08026084",
+   "have": {
+    "address": "Narodni park bb",
+    "phones": "024 875163",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "specijalna-bolnica-za-psihijatrijske-bolesti-kovin-kovin",
+   "name": "Specijalna bolnica za Psihijatrijske Bolesti \"Kovin\"",
+   "type": "Specijalna bolnica",
+   "place": "Kovin",
+   "website": "http://www.sbpb.kovin.info",
+   "mb": "08012270",
+   "have": {
+    "address": "Cara Lazara 253",
+    "phones": "013 741234; 013 302222",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "specijalna-bolnica-za-rehabilitaciju-agens-mataruska-banja",
+   "name": "Specijalna bolnica za Rehabilitaciju \"Agens\"",
+   "type": "Specijalna bolnica",
+   "place": "Kraljevo",
+   "website": "http://www.agensmb.rs",
+   "mb": "07101066",
+   "have": {
+    "address": "Žička bb",
+    "phones": "036 5411022; 036 5411042",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "specijalna-bolnica-za-rehabilitaciju-banja-koviljaca-banja-koviljaca",
+   "name": "Specijalna bolnica za Rehabilitaciju \"Banja Koviljača\"",
+   "type": "Specijalna bolnica",
+   "place": "Loznica",
+   "website": "http://www.banjakoviljaca.rs",
+   "mb": "07122314",
+   "have": {
+    "address": "Park br.4 4",
+    "phones": "015 818270",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  }
+ ],
+ "id": "site-069"
+}

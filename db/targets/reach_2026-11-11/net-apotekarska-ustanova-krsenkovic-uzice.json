@@ -1,0 +1,680 @@
+{
+ "kind": "network",
+ "title": "Apotekarska ustanova \"Kršenković\"",
+ "type": "apoteka",
+ "orgs": [
+  {
+   "org_slug": "apotekarska-ustanova-krsenkovic-uzice",
+   "name": "Apotekarska ustanova \"Kršenković\"",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 11470,
+     "unit": "Apotekarska ustanova \"Kršenković\"",
+     "place": "Užice",
+     "address": "Užice, Dimitrija Tucovića 98",
+     "phones": "031 525055",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11471,
+     "unit": "Ogranak \"Kršenković 1\" Užice",
+     "place": "Užice",
+     "address": "Dimitrija Tucovića broj 38",
+     "phones": "031 525056",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11472,
+     "unit": "Ogranak \"Kršenković 2\" Čajetina",
+     "place": "Čajetina",
+     "address": "Serdara Mićića broj 1",
+     "phones": "031 3831999",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11473,
+     "unit": "Ogranak \"Kršenković 3\" Nova Varoš",
+     "place": "Nova Varoš",
+     "address": "Karađorđeva broj 2",
+     "phones": "033 63514",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11474,
+     "unit": "Ogranak \"Kršenković 4\" Bajina Bašta",
+     "place": "Bajina Bašta",
+     "address": "Kneza Milana Obrenovića broj 3",
+     "phones": "031 866055",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11475,
+     "unit": "Ogranak \"Kršenković 5\" Sevojno",
+     "place": "Užice",
+     "address": "Aleksandra Vučkovića bb",
+     "phones": "031 525266",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11476,
+     "unit": "Ogranak \"Kršenković 6\" Užice",
+     "place": "Užice",
+     "address": "Slanuška broj 7",
+     "phones": "031 525054",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11477,
+     "unit": "Ogranak \"Kršenković 7\" Raška",
+     "place": "Raška",
+     "address": "Todora Milićevića broj 16",
+     "phones": "036 733136",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11478,
+     "unit": "Ogranak \"Kršenković 8\" Kraljevo",
+     "place": "Kraljevo",
+     "address": "Karađorđeva broj 12",
+     "phones": "036 333233",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11479,
+     "unit": "Ogranak \"Kršenković 9\" Priboj",
+     "place": "Priboj",
+     "address": "Nemanjina broj 40",
+     "phones": "033 448003",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11480,
+     "unit": "Ogranak \"Kršenković 10\" Čačak",
+     "place": "Čačak",
+     "address": "Milenka Nikšića broj 47",
+     "phones": "032 351901",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11481,
+     "unit": "Ogranak \"Kršenković 11\" Kragujevac",
+     "place": "Kragujevac",
+     "address": "27. marta broj 5",
+     "phones": "034 354641",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11482,
+     "unit": "Ogranak \"Kršenković 13\" Arilje",
+     "place": "Arilje",
+     "address": "Miloša Glišića broj 14",
+     "phones": "031 3892333",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11483,
+     "unit": "Ogranak \"Kršenković 14\" Ivanjica",
+     "place": "Ivanjica",
+     "address": "Majora Ilića broj 1",
+     "phones": "032 660102",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11484,
+     "unit": "Ogranak \"Kršenković 15\" Kragujevac",
+     "place": "Kragujevac",
+     "address": "Kopitareva broj 5/3",
+     "phones": "034 6393428",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11485,
+     "unit": "Ogranak \"Kršenković 16\" Beograd",
+     "place": "Beograd",
+     "address": "Nehruova broj 51",
+     "phones": "011 2160788",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11486,
+     "unit": "Ogranak \"Kršenković 17\" Kraljevo",
+     "place": "Kraljevo",
+     "address": "Miloša Velikog broj 1",
+     "phones": "036 333238",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11487,
+     "unit": "Ogranak \"Kršenković 18\" Gornji Milanovac",
+     "place": "Gornji Milanovac",
+     "address": "Heroja Draževića- Lamela 4",
+     "phones": "032 716101",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11488,
+     "unit": "Ogranak \"Kršenković 19\" Kraljevo",
+     "place": "Kraljevo",
+     "address": "Vojvode Stepe broj 31",
+     "phones": "036 333239",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11489,
+     "unit": "Ogranak \"Kršenković 21\" Kragujevac",
+     "place": "Kragujevac",
+     "address": "Stojana Protića broj 67",
+     "phones": "034 354510",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11490,
+     "unit": "Ogranak \"Kršenković 22\" Gornji Milanovac",
+     "place": "Gornji Milanovac",
+     "address": "Kneza Aleksandra Karađorđevića broj 23",
+     "phones": "032 710405",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11491,
+     "unit": "Ogranak \"Kršenković 23\" Čačak",
+     "place": "Čačak",
+     "address": "Skadarska bb",
+     "phones": "032 311013",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11492,
+     "unit": "Ogranak \"Kršenković 24\" Kraljevo",
+     "place": "Kraljevo",
+     "address": "Hajduk Veljkova broj 57",
+     "phones": "036 333220",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11493,
+     "unit": "Ogranak \"Kršenković 25\" Kragujevac",
+     "place": "Kragujevac",
+     "address": "Kralja Aleksandra I Karađorđevića broj 63",
+     "phones": "034 354054",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11494,
+     "unit": "Ogranak \"Kršenković 26\" Zlatibor",
+     "place": "Čajetina",
+     "address": "Zlatibor,Čajetina, Miladina Pećinara 103",
+     "phones": "031 848303",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11495,
+     "unit": "Ogranak \"Kršenković 27\" Užice",
+     "place": "Užice",
+     "address": "Dimitrija Tucovića broj 36",
+     "phones": "031 515315",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11496,
+     "unit": "Ogranak \"Kršenković 30\" Prijepolje",
+     "place": "Prijepolje",
+     "address": "Valterova broj 119",
+     "phones": "033 711909",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11497,
+     "unit": "Ogranak \"Kršenković 31\" Čačak",
+     "place": "Čačak",
+     "address": "Gradsko šetalište bb",
+     "phones": "032 311045",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11498,
+     "unit": "Ogranak \"Kršenković 32\" Beograd",
+     "place": "Beograd",
+     "address": "Vojvode Stepe broj 37",
+     "phones": "011 3962432",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11499,
+     "unit": "Ogranak \"Kršenković 33\" Užice",
+     "place": "Užice",
+     "address": "Miloša Obrenovića broj 13",
+     "phones": "031 565225",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11500,
+     "unit": "Ogranak \"Kršenković 37\" Požarevac",
+     "place": "Požarevac",
+     "address": "Trg oslobođenja broj 2",
+     "phones": "012 532332",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11501,
+     "unit": "Ogranak \"Kršenković 38\" Beograd",
+     "place": "Beograd",
+     "address": "Jurija Gagarina broj 227",
+     "phones": "011 7138225",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11502,
+     "unit": "Ogranak \"Kršenković 39\" Požarevac",
+     "place": "Požarevac",
+     "address": "Veljka Dugoševića broj 33",
+     "phones": "012 531378",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11503,
+     "unit": "Ogranak \"Kršenković 40\" Čačak",
+     "place": "Čačak",
+     "address": "Svetozara Markovića broj 7",
+     "phones": "032 344146",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11504,
+     "unit": "Ogranak \"Kršenković 41\" Kruševac",
+     "place": "Kruševac",
+     "address": "Vidovdanska broj 97",
+     "phones": "037 440290",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11505,
+     "unit": "Ogranak \"Kršenković 42\" Kruševac",
+     "place": "Kruševac",
+     "address": "Kosovska broj 81",
+     "phones": "037 440090",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11506,
+     "unit": "Ogranak \"Kršenković 43\" Požega",
+     "place": "Požega",
+     "address": "1300 kaplara broj 12",
+     "phones": "031 825505",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11507,
+     "unit": "Ogranak \"Kršenković 45\" Čačak",
+     "place": "Čačak",
+     "address": "Milutina Mandića bb",
+     "phones": "032 5150289",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11508,
+     "unit": "Ogranak \"Kršenković 46\" Požega",
+     "place": "Požega",
+     "address": "Zelena pijaca broj 1",
+     "phones": "031 812049",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11509,
+     "unit": "Ogranak \"Kršenković 47\" Čačak",
+     "place": "Čačak",
+     "address": "Dr Dragiše Mišovića broj 154",
+     "phones": "032 365404",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11510,
+     "unit": "Ogranak \"Kršenković 49\" Vrnjačka Banja",
+     "place": "Vrnjačka Banja",
+     "address": "Nemanjina bb",
+     "phones": "036 622896",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11511,
+     "unit": "Ogranak \"Kršenković 50\" Kruševac",
+     "place": "Kruševac",
+     "address": "Vece Korčagina broj 78",
+     "phones": "037 3523619",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11512,
+     "unit": "Ogranak \"Kršenković 51\" Niš",
+     "place": "Medijana",
+     "address": "Obrenovićeva broj 86",
+     "phones": "018 511343",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11513,
+     "unit": "Ogranak \"Kršenković 53\" Bajina Bašta",
+     "place": "Bajina Bašta",
+     "address": "Kneza Milana Obrenovića broj 41",
+     "phones": "031 866101",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11514,
+     "unit": "Ogranak \"Kršenković 54\" Beograd",
+     "place": "Beograd",
+     "address": "Gavrila Principa broj 60",
+     "phones": "011 6681181",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11515,
+     "unit": "Ogranak \"Kršenković 56\" Niš",
+     "place": "Crveni Krst",
+     "address": "Anete Andrejević broj 14",
+     "phones": "018 595601",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11516,
+     "unit": "Ogranak \"Kršenković 59\" Beograd",
+     "place": "Beograd",
+     "address": "Sremska broj 2",
+     "phones": "011 3284650",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11517,
+     "unit": "Ogranak \"Kršenković 60\" Kosjerić",
+     "place": "Kosjerić",
+     "address": "Karađorđevabroj 36",
+     "phones": "031 784333",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11518,
+     "unit": "Ogranak \"Kršenković 62\" Trstenik",
+     "place": "Trstenik",
+     "address": "Cara Dušana broj 1",
+     "phones": "037 715023",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11519,
+     "unit": "Ogranak \"Kršenković 66\" Kraljevo",
+     "place": "Kraljevo",
+     "address": "Miloša Velikog broj 12",
+     "phones": "036 307111",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11520,
+     "unit": "Ogranak \"Kršenković 67\" Niš",
+     "place": "Medijana",
+     "address": "Vožda Karađorđa broj 10",
+     "phones": "018 4151201",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11521,
+     "unit": "Ogranak \"Kršenković 71\" Kragujevac",
+     "place": "Kragujevac",
+     "address": "Nikole Pašića broj 3",
+     "phones": "034 6170414",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11522,
+     "unit": "Ogranak \"Kršenković 74\" Trstenik",
+     "place": "Trstenik",
+     "address": "Kneginje Milica broj 45",
+     "phones": "037 3150132",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11523,
+     "unit": "Ogranak \"Kršenković 75\" Prijepolje",
+     "place": "Prijepolje",
+     "address": "Polimska broj 10",
+     "phones": "033 215002",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11524,
+     "unit": "Ogranak \"Kršenković 77\" Užice",
+     "place": "Užice",
+     "address": "Dimitrija Tucovića broj 64/1",
+     "phones": "031 3152226",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11525,
+     "unit": "Ogranak \"Kršenković 78\" Kragujevac",
+     "place": "Kragujevac",
+     "address": "Daničićeva broj 99",
+     "phones": "034 6170093",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11526,
+     "unit": "Ogranak \"Kršenković 79\" Kragujevac",
+     "place": "Kragujevac",
+     "address": "Svetogorska broj 1a",
+     "phones": "034 6170094",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11527,
+     "unit": "Ogranak \"Kršenković 83\" Kraljevo",
+     "place": "Kraljevo",
+     "address": "Žička broj 38",
+     "phones": "036 5150198",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11528,
+     "unit": "Ogranak \"Kršenković 87\" Zlatibor",
+     "place": "Čajetina",
+     "address": "Miladina Pećinara broj 149",
+     "phones": "031 3150155",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11529,
+     "unit": "Ogranak \"Kršenković 88\" Zlatibor",
+     "place": "Čajetina",
+     "address": "Miladina Pećinara broj127",
+     "phones": "031 3150097",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  }
+ ],
+ "id": "net-apotekarska-ustanova-krsenkovic-uzice"
+}

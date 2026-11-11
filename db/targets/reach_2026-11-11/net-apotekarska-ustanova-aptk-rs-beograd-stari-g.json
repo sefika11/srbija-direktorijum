@@ -1,0 +1,676 @@
+{
+ "kind": "network",
+ "title": "Apotekarska ustanova \"APTK.RS\"",
+ "type": "apoteka",
+ "orgs": [
+  {
+   "org_slug": "apotekarska-ustanova-aptk-rs-beograd-stari-grad",
+   "name": "Apotekarska ustanova \"APTK.RS\"",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 11999,
+     "unit": "Apoteka",
+     "place": "Beograd",
+     "address": "Čika Ljubina 7",
+     "phones": "011 7654517",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12000,
+     "unit": "Terazije",
+     "place": "Beograd",
+     "address": "Terazije 12",
+     "phones": "011 4560845",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12001,
+     "unit": "Maelia #1",
+     "place": "Beograd",
+     "address": "Bulevar Kralja Aleksandra 100",
+     "phones": "011 4388318",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12002,
+     "unit": "Maelia #2",
+     "place": "Beograd",
+     "address": "Bulevar Kralja Aleksandra 30",
+     "phones": "011 6181456",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12003,
+     "unit": "Maelia #3",
+     "place": "Beograd",
+     "address": "Nušićeva 10",
+     "phones": "011 6305741",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12004,
+     "unit": "Maelia #4",
+     "place": "Pančevo",
+     "address": "Karađorđeva 8",
+     "phones": "011 3407251",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12005,
+     "unit": "Maelia #5",
+     "place": "Novi Sad",
+     "address": "Bulevar Oslobođenja 38",
+     "phones": "021 3025117",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12006,
+     "unit": "Maelia #6",
+     "place": "Beograd",
+     "address": "Zmaj Jovina 25",
+     "phones": "011 7343382",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12007,
+     "unit": "Maelia #7",
+     "place": "Niš",
+     "address": "Bulevar dr Zorana Đinđića 25",
+     "phones": "069 4393883",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12008,
+     "unit": "Maelia #8",
+     "place": "Kruševac",
+     "address": "Vidovdanska 187",
+     "phones": "069 4390514",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12009,
+     "unit": "Maelia #9",
+     "place": "Beograd",
+     "address": "Jurija Gagarina 22nj",
+     "phones": "011 4525411",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12010,
+     "unit": "Maelia #10",
+     "place": "Beograd",
+     "address": "Dobračina 43",
+     "phones": "011 4046226",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12011,
+     "unit": "Maelia #11",
+     "place": "Beograd",
+     "address": "Vojvođanska 379a",
+     "phones": "069 4393882",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12012,
+     "unit": "Maelia #12",
+     "place": "Niš",
+     "address": "Obrenovićeva 36",
+     "phones": "069 4393884",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12013,
+     "unit": "Maelia #13",
+     "place": "Požarevac",
+     "address": "Tabačka čaršija 2",
+     "phones": "069 4390515",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12014,
+     "unit": "Maelia #14",
+     "place": "Beograd",
+     "address": "Karađorđeva 6",
+     "phones": "011 7346828",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12015,
+     "unit": "Maelia #15",
+     "place": "Beograd",
+     "address": "Terazije 26",
+     "phones": "011 4574171",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12016,
+     "unit": "Maelia #16",
+     "place": "Bačka Topola",
+     "address": "Nikole Tesle 1",
+     "phones": "063 439475",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12017,
+     "unit": "Maelia #17",
+     "place": "Subotica",
+     "address": "Blaška Rajića 11",
+     "phones": "024 201568",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12018,
+     "unit": "Maelia #18",
+     "place": "Inđija",
+     "address": "Novosadska 1d",
+     "phones": "022 2103303",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12019,
+     "unit": "Maelia #19",
+     "place": "Kragujevac",
+     "address": "Nikole Pašića 7a",
+     "phones": "069 4390065",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12020,
+     "unit": "Maelia #20",
+     "place": "Beograd",
+     "address": "Milentija Popovića 32a",
+     "phones": "011 6242535",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12021,
+     "unit": "Maelia #21",
+     "place": "Novi Sad",
+     "address": "Janka Veselinovića 2",
+     "phones": "021 3017167",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12022,
+     "unit": "Maelia #22",
+     "place": "Leskovac",
+     "address": "Bulevar Oslobođenja bb",
+     "phones": "016 601168",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12023,
+     "unit": "Maelia #23",
+     "place": "Beograd",
+     "address": "Požeška 138",
+     "phones": "011 4550554",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12024,
+     "unit": "Maelia #24",
+     "place": "Smederevo",
+     "address": "Radosava Mirkovića 1a",
+     "phones": "026 4105452",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12025,
+     "unit": "Maelia #25",
+     "place": "Užice",
+     "address": "Dimitrija Tucovića 93",
+     "phones": "031 3106189",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12026,
+     "unit": "Maelia #26",
+     "place": "Beograd",
+     "address": "Bulevar Vudroa Vilsona 21",
+     "phones": "011 7706690",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12027,
+     "unit": "Maelia #27",
+     "place": "Beograd",
+     "address": "Slanački put 76i",
+     "phones": "011 7644137",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12028,
+     "unit": "Maelia #28",
+     "place": "Beograd",
+     "address": "Kolarčeva 4",
+     "phones": "011 4237765",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12029,
+     "unit": "Maelia #29",
+     "place": "Sremska Mitrovica",
+     "address": "Kralja Petra I 80",
+     "phones": "022 2103004",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12030,
+     "unit": "Maelia #30",
+     "place": "Ruma",
+     "address": "Pavlovačka 2a",
+     "phones": "022 834750",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12031,
+     "unit": "Maelia #31",
+     "place": "Novi Sad",
+     "address": "Branka Bajića 9j",
+     "phones": "021 3829663",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12032,
+     "unit": "Maelia #32",
+     "place": "Beograd",
+     "address": "Sarajevska 25",
+     "phones": "011 6180905",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12033,
+     "unit": "Maelia #33",
+     "place": "Novi Sad",
+     "address": "Jevrejska 33",
+     "phones": "021 3036882",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12034,
+     "unit": "Maelia #34",
+     "place": "Kragujevac",
+     "address": "Grada Karare 2t",
+     "phones": "034 257560",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12035,
+     "unit": "Maelia #35",
+     "place": "Kikinda",
+     "address": "Đoke Radaka 8",
+     "phones": "0230 305903",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12036,
+     "unit": "Maelia #36",
+     "place": "Beograd",
+     "address": "Bulevar Kralja Aleksandra 129",
+     "phones": "011 3230971",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12037,
+     "unit": "Maelia #38",
+     "place": "Beograd",
+     "address": "Stefana Musića 19",
+     "phones": "011 4381060",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12038,
+     "unit": "Maelia #40",
+     "place": "Subotica",
+     "address": "Arsenija Čarnojevića 58",
+     "phones": "024 4102280",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12039,
+     "unit": "Maelia #41",
+     "place": "Čačak",
+     "address": "Svetozara Markovića 43",
+     "phones": "032 5381235",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12040,
+     "unit": "Maelia #42",
+     "place": "Beograd",
+     "address": "Vojvođanska 77",
+     "phones": "011 4291923",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12041,
+     "unit": "Maelia #43",
+     "place": "Pirot",
+     "address": "Srpskih vladara 54",
+     "phones": "010 2101980",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12042,
+     "unit": "Maelia #44",
+     "place": "Pirot",
+     "address": "Knjaza Miloša 52",
+     "phones": "010 530271",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12043,
+     "unit": "Maelia #45",
+     "place": "Valjevo",
+     "address": "Bulevar Palih boraca 91",
+     "phones": "014 500422",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12044,
+     "unit": "Maelia #46",
+     "place": "Jagodina",
+     "address": "Kneza Lazara 74",
+     "phones": "035 8103615",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12045,
+     "unit": "Maelia #47",
+     "place": "Šabac",
+     "address": "Cvetni trg 1",
+     "phones": "015 7108682",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12046,
+     "unit": "Maelia #48",
+     "place": "Pančevo",
+     "address": "Dimitrija Tucovića 1a",
+     "phones": "013 2113831",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12047,
+     "unit": "Maelia #49",
+     "place": "Beograd",
+     "address": "Kralja Milana 25",
+     "phones": "011 4539255",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12048,
+     "unit": "Maelia #50",
+     "place": "Gornji Milanovac",
+     "address": "Kneza Aleksandra Karađorđevića 13",
+     "phones": "063 330033",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12049,
+     "unit": "Maelia #51",
+     "place": "Smederevo",
+     "address": "Trg Republike 1",
+     "phones": "026 4103077",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12050,
+     "unit": "Maelia #52",
+     "place": "Beograd",
+     "address": "Bulevar Vudroa Vilsona 14",
+     "phones": "011 6304685",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12051,
+     "unit": "Maelia #53",
+     "place": "Čajetina",
+     "address": "Rujanska 2",
+     "phones": "063 330033",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12052,
+     "unit": "Maelia #54",
+     "place": "Subotica",
+     "address": "Aleja Maršala Tita 13a",
+     "phones": "024 4106979",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12053,
+     "unit": "Maelia #56",
+     "place": "Jagodina",
+     "address": "Živorada Kostića 17a",
+     "phones": "063 330033",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12054,
+     "unit": "Maelia #55",
+     "place": "Beograd",
+     "address": "Maksima Gorkog 75",
+     "phones": "063 330033",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12055,
+     "unit": "Maelia #57",
+     "place": "Čačak",
+     "address": "Gradsko šetalište 11",
+     "phones": "063 330033",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12056,
+     "unit": "Maelia #58",
+     "place": "Bajina Bašta",
+     "address": "Kneza Milana Obrenovića 23b",
+     "phones": "063 330033",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12057,
+     "unit": "Maelia #37",
+     "place": "Beograd",
+     "address": "Luke Ćelovića Trebinjca 23",
+     "phones": "063 330033",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 12058,
+     "unit": "Maelia #59",
+     "place": "Beograd",
+     "address": "Vojislava Ilića 49",
+     "phones": "063 330033",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  }
+ ],
+ "id": "net-apotekarska-ustanova-aptk-rs-beograd-stari-g"
+}

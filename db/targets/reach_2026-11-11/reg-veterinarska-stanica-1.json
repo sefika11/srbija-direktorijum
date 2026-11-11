@@ -1,0 +1,1621 @@
+{
+ "kind": "register",
+ "title": "Veterinarska stanica / ambulanta",
+ "type": "veterinarska-stanica",
+ "rows": [
+  {
+   "org_slug": "5ambulanta-beograd-n11913876869",
+   "name": "5Ambulanta",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Novi Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "060 3389232",
+    "hours": "09:00-20:00"
+   },
+   "need": [
+    "address",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "a-z-vet-beograd-n7834497264",
+   "name": "A-Z Vet",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Novi Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Jurija Gagarina 22l",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "animus-beograd-n9091313045",
+   "name": "Animus",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Stari grad",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "anubis-uzice-n8401641578",
+   "name": "Anubis",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Užice",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "beba-novi-pazar-n13070940501",
+   "name": "Beba",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Novi Pazar",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": "Mo-Fr 08:00-17:00; Sa 09:00-16:00; Su 10:00-13:00"
+   },
+   "need": [
+    "address",
+    "phones",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "begood-uzice-n13978561887",
+   "name": "BeGood",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Užice",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "beovet-beograd-n11622299482",
+   "name": "Beovet",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Stari grad",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "besermenji-vlado-backa-topola-n3176970261",
+   "name": "Besermenji Vlado",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Bačka Topola",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "024 723063",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "demivet-bela-palanka-n11832522116",
+   "name": "Demivet",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Bela Palanka",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "familyvet-novi-sad-n11478763573",
+   "name": "FamilyVet",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Novi Sad",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "ivan-vet-leskovac-n462178861",
+   "name": "Ivan-Vet",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Leskovac",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "kokovet-beograd-n13922519342",
+   "name": "Kokovet",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Zemun",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "laura-pet-uzice-n13754647094",
+   "name": "Laura pet",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Užice",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "lazarevic-beograd-w848625444",
+   "name": "Lazarević",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Palilula",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Zrenjaninski put 30",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "leo-novi-sad-n4592442093",
+   "name": "Leo",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Novi Sad",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "021 540676",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "mama-beograd-n4311570397",
+   "name": "Mama",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Palilula",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": "Mo-Fr 10:00-18:00; Sa,Su 10:00-14:00"
+   },
+   "need": [
+    "address",
+    "phones",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "marjanov-beograd-n13077495164",
+   "name": "Marjanov",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Zemun",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "063 239880",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "meda-vet-beograd-n11944231113",
+   "name": "Meda Vet",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Novi Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "066 089451",
+    "hours": "Mo-Fr 10:00-19:30; Sa 10:00-13:00"
+   },
+   "need": [
+    "address",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "milovanovic-arandjelovac-n13919967066",
+   "name": "Milovanović",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Aranđelovac",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "034 720351",
+    "hours": "Mo-Fr 07:00-20:00; Sa 07:00-14:00"
+   },
+   "need": [
+    "address",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "mimi-vet-beograd-n10863755055",
+   "name": "Mimi Vet",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Voždovac",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Vojvode Stepe 304",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "minic-pancevo-n8926110704",
+   "name": "Minić",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Pančevo",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "mondo-animale-pancevo-n2063220521",
+   "name": "Mondo Animale",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Pančevo",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "my-vet-beograd-n11540007614",
+   "name": "My Vet",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Zvezdara",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": "Mo-Fr 09:00-19:00; Sa 10:00-14:00; Su off"
+   },
+   "need": [
+    "address",
+    "phones",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "nas-veterinar-mionica-n13152338204",
+   "name": "Naš veterinar",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Mionica",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "nikolasev-beograd-n10108178176",
+   "name": "Nikolašev",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Savski venac",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": "Mo-Fr 10:00-18:00; Sa 10:00-13:00; PH closed"
+   },
+   "need": [
+    "address",
+    "phones",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "nomovet-beograd-n11248540237",
+   "name": "NomoVet",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Voždovac",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "obivet-beograd-n9024856194",
+   "name": "Obivet",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Zvezdara",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "064 1885215",
+    "hours": "Mo-Fr 11:00-20:00; Sa 12:00-18:00"
+   },
+   "need": [
+    "address",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "panajotovic-beograd-n10152091447",
+   "name": "Panajotović",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Vračar",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "pet-clinic-dr-maja-ilic-beograd-n11383371869",
+   "name": "Pet Clinic Dr Maja Ilic",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Novi Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "pet-vet-beograd-n10103709324",
+   "name": "Pet Vet",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Lazarevac",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "petspot-beograd-n14062044047",
+   "name": "PetSpot",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Savski venac",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "pluton-beograd-n7667640243",
+   "name": "Pluton",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Vračar",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "pompomvet-pancevo-n7917548919",
+   "name": "PomPomVet",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Pančevo",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "prima-aleksinac-n13038994236",
+   "name": "Prima",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Aleksinac",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "primus-veterinus-pancevo-n8381770844",
+   "name": "Primus Veterinus",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Pančevo",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Zadružna 5",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "radibratovic-cacak-w576236678",
+   "name": "radibratovic",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Čačak",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Put za Mrčajevce 3",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "radovic-sremska-mitrovica-n10130084521",
+   "name": "Radovic",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Sremska Mitrovica",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Vladimira Matijevića 48",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "rot-ambulanta-beograd-n10111536215",
+   "name": "ROT Ambulanta",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Vračar",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "samostalna-veterinarska-ambulanta-petrovac-beograd-r15283699",
+   "name": "Samostalna veterinarska ambulanta Petrovac",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Palilula",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Borčanskih žrtava 1914. 92/1",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "sava-sremska-mitrovica-n13810587096",
+   "name": "Sava",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Sremska Mitrovica",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "star-farm-aleksinac-n10309163436",
+   "name": "Star farm",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Aleksinac",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "strujic-priboj-n2767078800",
+   "name": "Strujić",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Priboj",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "testudo-vet-beograd-n11964216869",
+   "name": "Testudo Vet",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Voždovac",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "060 7617097",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "tommy-beograd-n7527259436",
+   "name": "Tommy",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Novi Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "trivet-vrbas-n2260939645",
+   "name": "Trivet",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Vrbas",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Ive Lole Ribara",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "vet-apoteka-beograd-n6782874985",
+   "name": "Vet apoteka",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Stari grad",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": "Mo-Fr 09:00-20:00; Sa 09:00-16:00"
+   },
+   "need": [
+    "address",
+    "phones",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "vet-med-037-krusevac-n13932029763",
+   "name": "Vet med 037",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Kruševac",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "061 4279743",
+    "hours": "Mo-Fr 07:30-20:00; Sa 09:00-17:00"
+   },
+   "need": [
+    "address",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "vet-princess-beograd-n10111698079",
+   "name": "Vet Princess",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Stari grad",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "063 639521",
+    "hours": "Mo-Su 08:00-21:00; PH off"
+   },
+   "need": [
+    "address",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "vet-united-beograd-n6751142267",
+   "name": "Vet United",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Novi Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": "Mo-Fr 08:30-20:00; Sa 08:30-15:30; Su 08:30-13:30"
+   },
+   "need": [
+    "address",
+    "phones",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "veta-zabalj-n13916841287",
+   "name": "Veta",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Žabalj",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "021 2932564",
+    "hours": "Mo-Fr 07:30-19:30; Sa 10:00-12:00"
+   },
+   "need": [
+    "address",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "vetalfa-beograd-w858705738",
+   "name": "VetAlfa",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Palilula",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Valjevskog odreda 29",
+    "phones": null,
+    "hours": "Mo-Fr 09:00-19:00; Sa 09:00-14:00"
+   },
+   "need": [
+    "phones",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "veterinar-kursumlija-n9872784946",
+   "name": "Veterinar",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Kuršumlija",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "veterinarska-ambulanta-beca-beograd-n6143687342",
+   "name": "Veterinarska ambulanta Beca",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Savski venac",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Generala Save Grujića 2",
+    "phones": null,
+    "hours": "Mo-Fr 10:00-18:00; Sa 10:00-14:00; Su 11:00-14:00"
+   },
+   "need": [
+    "phones",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "veterinarska-ambulanta-beograd-n11732313312",
+   "name": "Veterinarska ambulanta",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Zvezdara",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "veterinarska-ambulanta-dr-dejan-krusevac-n8065239995",
+   "name": "Veterinarska ambulanta Dr Dejan",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Kruševac",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "veterinarska-ambulanta-kaludjerica-beograd-n14081165002",
+   "name": "Veterinarska ambulanta Kaluđerica",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Grocka",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Dvadesetog oktobra 22a",
+    "phones": "060 5004015",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "veterinarska-ambulanta-sondavet-becej-n3791147243",
+   "name": "Veterinarska Ambulanta Sondavet",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Bečej",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "veterinarska-ambulanta-stara-pazova-n5013922464",
+   "name": "Veterinarska ambulanta",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Stara Pazova",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Svetosavska 70",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "veterinarska-apoteka-bor-n7644432271",
+   "name": "Veterinarska apoteka",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Bor",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "veterinarska-klinika-novi-sad-w445665284",
+   "name": "Veterinarska klinika",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Novi Sad",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "veterinarska-radnja-vet-ars-prijepolje-n9818219086",
+   "name": "Veterinarska radnja „Vet.Ars”",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Prijepolje",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "veterinarska-stanica-aleksandrovac-aleksandrovac-w1240272896",
+   "name": "Veterinarska stanica Aleksandrovac",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Aleksandrovac",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Kruševačka 15",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "veterinarska-stanica-dimitrovgrad-n2363113367",
+   "name": "Veterinarska stanica",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Dimitrovgrad",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "veterinarska-stanica-grocka-beograd-n13663436674",
+   "name": "Veterinarska stanica Grocka",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Grocka",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Štrosmajerova 5",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "veterinarska-stanica-krusevac-krusevac-n4206543189",
+   "name": "Veterinarska stanica Kruševac",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Kruševac",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "veterinarska-stanica-lapovo-lapovo-w960354400",
+   "name": "Veterinarska stanica Lapovo",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Lapovo",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Kajmakčalanska 2a",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "veterinarska-stanica-nis-w1380288398",
+   "name": "Veterinarska stanica",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Palilula",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Ivana Milutinovića 63b",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "veterinarska-stanica-novi-sad-novi-sad-w596439296",
+   "name": "Veterinarska stanica Novi Sad",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Novi Sad",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Futoški put 13",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "veterinarska-stanica-pinosava-beograd-w1489169924",
+   "name": "Veterinarska stanica Pinosava",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Voždovac",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Đurđije Cvetić 37",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "veterinarska-stanica-pobeda-bela-palanka-w1280632536",
+   "name": "Veterinarska stanica „Pobeda”",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Bela Palanka",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Srpskih vladara 112",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "veterinarska-stanica-sjenica-n3504941138",
+   "name": "Veterinarska stanica",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Sjenica",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "veterinarska-stanica-srbobran-w462999820",
+   "name": "Veterinarska stanica",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Srbobran",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Svetog Save 80",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "veterinarska-stanica-taurus-zrenjanin-n5310930623",
+   "name": "Veterinarska stanica Taurus",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Zrenjanin",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Elemirski drum",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "veterinarska-stanica-tutin-n13668814918",
+   "name": "Veterinarska stanica",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Tutin",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": "Mo-Fr 07:30-15:30"
+   },
+   "need": [
+    "address",
+    "phones",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "veterinarska-stanica-valjevo-w605001436",
+   "name": "Veterinarska stanica",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Valjevo",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Suvoborska 5",
+    "phones": "014 223300",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "veterinarska-stanica-velika-plana-w2901245194",
+   "name": "Veterinarska stanica",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Velika Plana",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "veterinarska-stanica-veliko-gradiste-veliko-gradiste-n13289373115",
+   "name": "Veterinarska stanica Veliko Gradište",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Veliko Gradište",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "veterinarska-stanica-zlot-bor-w2133779358",
+   "name": "Veterinarska stanica Zlot",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Bor",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Petra Jokanovića 7",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "veterinarska-stanica-zrenjanin-n3004614869",
+   "name": "Veterinarska stanica",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Zrenjanin",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "vetevet-beograd-n10111672444",
+   "name": "Vetevet",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Palilula",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": "Mo-Fr 09:00-13:00,17:00-20:00,10:00-13:00"
+   },
+   "need": [
+    "address",
+    "phones",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "vinis-vet-kikinda-n11205463615",
+   "name": "Vinis vet",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Kikinda",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Generala Drapšina 66",
+    "phones": null,
+    "hours": "Mo-Fr 08:00-16:00; Sa 08:00-13:00; Su off"
+   },
+   "need": [
+    "phones",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "volarev-novi-sad-n4592466089",
+   "name": "Volarev",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Novi Sad",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "021 2410101",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "vrh-vranje-n13943933974",
+   "name": "Vrh",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Vranje",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": "Mo-Fr 08:30-20:00; Sa 07:30-15:30; Su off"
+   },
+   "need": [
+    "address",
+    "phones",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "zarvel-vet-becej-n14174939401",
+   "name": "Žarvel Vet",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Bečej",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Milosa Crnjanskog 43",
+    "phones": null,
+    "hours": "Mo-Fr 09:00-19:00; Sa 09:00-14:00"
+   },
+   "need": [
+    "phones",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "zeleni-venac-beograd-n10111735319",
+   "name": "Zeleni Venac",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Savski venac",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "ziva-vet-pancevo-n8439282364",
+   "name": "Ziva Vet",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Pančevo",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Mihajla Petrovića-Alasa 3",
+    "phones": null,
+    "hours": "Mo-Su 09:00-21:00"
+   },
+   "need": [
+    "phones",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "zoo-vet-uzice-n8395215328",
+   "name": "Zoo-vet",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Užice",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "zoovet-osecina-n3509586860",
+   "name": "Zoovet",
+   "type": "Veterinarska stanica / ambulanta",
+   "place": "Osečina",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  }
+ ],
+ "id": "reg-veterinarska-stanica-1"
+}

@@ -1,0 +1,463 @@
+{
+ "kind": "network",
+ "title": "Upravni okrug (23 organizacija)",
+ "type": "upravni-okrug",
+ "orgs": [
+  {
+   "org_slug": "borski-upravni-okrug-bor",
+   "name": "Borski upravni okrug",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 2408,
+     "unit": "Sedište",
+     "place": "Bor",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "branicevski-upravni-okrug-pozarevac",
+   "name": "Braničevski upravni okrug",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 2405,
+     "unit": "Sedište",
+     "place": "Požarevac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "jablanicki-upravni-okrug-leskovac",
+   "name": "Jablanički upravni okrug",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 2417,
+     "unit": "Sedište",
+     "place": "Leskovac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "juznobacki-upravni-okrug-novi-sad",
+   "name": "Južnobački upravni okrug",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 2401,
+     "unit": "Sedište",
+     "place": "Novi Sad",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "juznobanatski-upravni-okrug-pancevo",
+   "name": "Južnobanatski upravni okrug",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 2398,
+     "unit": "Sedište",
+     "place": "Pančevo",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "kolubarski-upravni-okrug-valjevo",
+   "name": "Kolubarski upravni okrug",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 2403,
+     "unit": "Sedište",
+     "place": "Valjevo",
+     "address": "Karađorđeva 31",
+     "phones": "014 221469",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "macvanski-upravni-okrug-sabac",
+   "name": "Mačvanski upravni okrug",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 2402,
+     "unit": "Sedište",
+     "place": "Šabac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "moravicki-upravni-okrug-cacak",
+   "name": "Moravički upravni okrug",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 2411,
+     "unit": "Sedište",
+     "place": "Čačak",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "nisavski-upravni-okrug-nis",
+   "name": "Nišavski upravni okrug",
+   "website": "https://nis.okrug.gov.rs",
+   "rows": [
+    {
+     "location_id": 2414,
+     "unit": "Sedište",
+     "place": "Niš",
+     "address": "Strahinjića Bana 1b",
+     "phones": "018 505136; 018 523154; 018 523434",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "pcinjski-upravni-okrug-vranje",
+   "name": "Pčinjski upravni okrug",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 2418,
+     "unit": "Sedište",
+     "place": "Vranje",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "pirotski-upravni-okrug-pirot",
+   "name": "Pirotski upravni okrug",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 2416,
+     "unit": "Sedište",
+     "place": "Pirot",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "podunavski-upravni-okrug-smederevo",
+   "name": "Podunavski upravni okrug",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 2404,
+     "unit": "Sedište",
+     "place": "Smederevo",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "pomoravski-upravni-okrug-jagodina",
+   "name": "Pomoravski upravni okrug",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 2407,
+     "unit": "Sedište",
+     "place": "Jagodina",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "rasinski-upravni-okrug-krusevac",
+   "name": "Rasinski upravni okrug",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 2413,
+     "unit": "Sedište",
+     "place": "Kruševac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "raski-upravni-okrug-kraljevo",
+   "name": "Raški upravni okrug",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 2412,
+     "unit": "Sedište",
+     "place": "Kraljevo",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "severnobacki-upravni-okrug-subotica",
+   "name": "Severnobački upravni okrug",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 2395,
+     "unit": "Sedište",
+     "place": "Subotica",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "severnobanatski-upravni-okrug-kikinda",
+   "name": "Severnobanatski upravni okrug",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 2397,
+     "unit": "Sedište",
+     "place": "Kikinda",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "srednjobanatski-upravni-okrug-zrenjanin",
+   "name": "Srednjobanatski upravni okrug",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 2396,
+     "unit": "Sedište",
+     "place": "Zrenjanin",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "sremski-upravni-okrug-sremska-mitrovica",
+   "name": "Sremski upravni okrug",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 2400,
+     "unit": "Sedište",
+     "place": "Sremska Mitrovica",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "sumadijski-upravni-okrug-kragujevac",
+   "name": "Šumadijski upravni okrug",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 2406,
+     "unit": "Sedište",
+     "place": "Kragujevac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "toplicki-upravni-okrug-prokuplje",
+   "name": "Toplički upravni okrug",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 2415,
+     "unit": "Sedište",
+     "place": "Prokuplje",
+     "address": null,
+     "phones": "027 324316",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "zajecarski-upravni-okrug-zajecar",
+   "name": "Zaječarski upravni okrug",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 2409,
+     "unit": "Sedište",
+     "place": "Zaječar",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "zapadnobacki-upravni-okrug-sombor",
+   "name": "Zapadnobački upravni okrug",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 2399,
+     "unit": "Sedište",
+     "place": "Sombor",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  }
+ ],
+ "id": "net-upravni-okrug-1"
+}

@@ -1,0 +1,393 @@
+{
+ "kind": "sites",
+ "title": "Institucije sa sopstvenim sajtom",
+ "rows": [
+  {
+   "org_slug": "fakultet-za-sport-i-psihologiju-tims-novi-sad-novi-sad",
+   "name": "Fakultet za sport i psihologiju TIMS Novi Sad",
+   "type": "Fakultet",
+   "place": "Novi Sad",
+   "website": "https://www.tims.edu.rs",
+   "mb": null,
+   "have": {
+    "address": "Radnička 30a",
+    "phones": "021 530633; 021 530231",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "univerzitet-u-novom-sadu-fakultet-tehnickih-nauka-novi-sad",
+   "name": "Univerzitet u Novom Sadu - Fakultet Tehničkih Nauka",
+   "type": "Fakultet",
+   "place": "Novi Sad",
+   "website": "https://www.ftn.uns.ac.rs/",
+   "mb": "08067104",
+   "have": {
+    "address": "Trg Dositeja Obradovića 6",
+    "phones": "021 450810; 021 6350413",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "univerzitet-u-novom-sadu-tehnoloski-fakultet-novi-sad",
+   "name": "Univerzitet u Novom Sadu - Tehnološki Fakultet",
+   "type": "Fakultet",
+   "place": "Novi Sad",
+   "website": "https://www.tf.uns.ac.rs",
+   "mb": "08055203",
+   "have": {
+    "address": "Bulevar cara Lazara 1",
+    "phones": "021 4853619",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "univerzitet-u-kragujevcu-pedagoski-fakultet-u-uzicu-uzice",
+   "name": "Univerzitet u Kragujevcu - Pedagoški Fakultet u Užicu",
+   "type": "Fakultet",
+   "place": "Užice",
+   "website": "https://pfu.kg.ac.rs",
+   "mb": "06942016",
+   "have": {
+    "address": "Trg Svetog Save 36",
+    "phones": "031 521952",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "tehnicki-fakultet-mihajlo-pupin-zrenjanin",
+   "name": "Tehnički Fakultet \"Mihajlo Pupin\"",
+   "type": "Fakultet",
+   "place": "Zrenjanin",
+   "website": "http://www.tfzr.uns.ac.rs",
+   "mb": "08166161",
+   "have": {
+    "address": "Đure Đakovića bb",
+    "phones": "023 550515",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "gerontoloski-centar-jelenac-aleksinac-aleksinac",
+   "name": "Gerontološki centar \"Jelenac\" Aleksinac",
+   "type": "Gerontološki centar / ustanova socijalne zaštite",
+   "place": "Aleksinac",
+   "website": "www.gcjelenac.com",
+   "mb": "07187556",
+   "have": {
+    "address": "Mome Popovića br.156",
+    "phones": "018 4804012; 018 4800176; 018 4845049",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-za-stare-i-penzionere-kula-kula",
+   "name": "Dom za stare i Penzionere Kula",
+   "type": "Gerontološki centar / ustanova socijalne zaštite",
+   "place": "Kula",
+   "website": "www.domzastarekula.com",
+   "mb": "08171556",
+   "have": {
+    "address": "M. Tita br.99",
+    "phones": "025 728150",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-za-stare-centar-za-socijalni-rad-ljubovija-ustanova-za-odrasle-i-starije",
+   "name": "Centar ZA Socijalni Rad Ljubovija Ustanova ZA Odrasle I Starije ''ljubovija''",
+   "type": "Gerontološki centar / ustanova socijalne zaštite",
+   "place": "Ljubovija",
+   "website": "http://czsrljubovija.blogspot.rs/",
+   "mb": null,
+   "have": {
+    "address": "Vojvode Mišića br. 65",
+    "phones": "015 560060",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "ustanova-socijalne-zastite-gerontoloski-centar-novi-sad-novi-sad",
+   "name": "Ustanova socijalne zaštite Gerontološki centar \"Novi Sad\"",
+   "type": "Gerontološki centar / ustanova socijalne zaštite",
+   "place": "Novi Sad",
+   "website": "www.gerontns.co.rs",
+   "mb": "08066191",
+   "have": {
+    "address": "Fruškogorska br.32",
+    "phones": "021 450266",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "gerontoloski-centar-ustanova-za-smestaj-i-zbrinjavanje-starih-lica-gerontoloski",
+   "name": "Ustanova ZA Smeštaj I Zbrinjavanje Starih Lica ''gerontološki Centar''",
+   "type": "Gerontološki centar / ustanova socijalne zaštite",
+   "place": "Pančevo",
+   "website": "www.gcpancevo.rs",
+   "mb": null,
+   "have": {
+    "address": "Vojvođanski bulevar br.1",
+    "phones": "013 310111; 013 331050",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "gerontoloski-centar-ustanova-socijalne-zastite-gerontoloski-centar-sombor-rj",
+   "name": "Ustanova Socijalne Zaštite Gerontološki Centar ''sombor'' RJ ''dom Penzionera''",
+   "type": "Gerontološki centar / ustanova socijalne zaštite",
+   "place": "Sombor",
+   "website": "www.gcsombor.org.rs",
+   "mb": null,
+   "have": {
+    "address": "Prvomajski bulevar bb",
+    "phones": "025 440540; 025 442021",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "grad-bor-gradska-uprava-bor",
+   "name": "Grad Bor-Gradska uprava",
+   "type": "Gradska uprava",
+   "place": "Bor",
+   "website": "https://www.bor.rs",
+   "mb": null,
+   "have": {
+    "address": "Moše Pijade 3",
+    "phones": "030 423255",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "gradska-uprava-za-drustvene-delatnosti-opste-normativne-i-zajednicke-poslove-jagodina",
+   "name": "Gradska uprava za Društvene Delatnosti,opšte,normativne i Zajedničke Poslove",
+   "type": "Gradska uprava",
+   "place": "Jagodina",
+   "website": "https://www.jagodina.org.rs/",
+   "mb": null,
+   "have": {
+    "address": "Kralja Petra I br. 6",
+    "phones": "035 8150540; 035 8150532; 035 8150533; 035 8150597",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "gradska-uprava-za-finansije-privredu-komunalne-delatnosti-i-investicije-jagodina",
+   "name": "Gradska uprava za Finansije,privredu,komunalne delatnosti i Investicije",
+   "type": "Gradska uprava",
+   "place": "Jagodina",
+   "website": "https://www.jagodina.org.rs/",
+   "mb": null,
+   "have": {
+    "address": "Kralja Petra I br. 6",
+    "phones": "035 8150507; 035 8150520; 035 8150567; 035 8150597",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "gradska-uprava-za-javne-prihode-zastitu-zivotne-sredine-i-inspekcijski-nadzor-jagodina",
+   "name": "Gradska uprava za javne Prihode, zaštitu Životne Sredine i Inspekcijski Nadžor",
+   "type": "Gradska uprava",
+   "place": "Jagodina",
+   "website": "https://www.jagodina.org.rs/",
+   "mb": null,
+   "have": {
+    "address": "Kralja Petra I br. 6",
+    "phones": "035 8150584; 035 8150594; 035 8150595; 035 8150312; 035 8150597",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "gradska-uprava-za-poslove-organa-grada-jagodina",
+   "name": "Gradska uprava za Poslove Organa grada",
+   "type": "Gradska uprava",
+   "place": "Jagodina",
+   "website": "https://www.jagodina.org.rs/",
+   "mb": null,
+   "have": {
+    "address": "Kralja Petra I br. 6",
+    "phones": "035 8150597; 035 8150501; 035 8150500",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "gradska-uprava-za-urbannizam-gradjevinske-stambene-i-imovinsko-pravne-poslove-jagodina",
+   "name": "Gradska uprava za Urbannizam,građevinske,stambene i Imovinsko Pravne Poslove",
+   "type": "Gradska uprava",
+   "place": "Jagodina",
+   "website": "https://www.jagodina.org.rs/",
+   "mb": null,
+   "have": {
+    "address": "Kralja Petra I br. 6",
+    "phones": "035 8150587; 035 8150588; 035 8150589; 035 8150600; 035 8150597",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "gradska-uprava-grada-kraljeva-kraljevo",
+   "name": "Gradska uprava grada Kraljeva",
+   "type": "Gradska uprava",
+   "place": "Kraljevo",
+   "website": "https://www.kraljevo.rs",
+   "mb": null,
+   "have": {
+    "address": "Trg Jovana Sarića 1",
+    "phones": "036 306000",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "grad-krusevac-gradska-uprava-krusevac",
+   "name": "Grad Kruševac -gradska uprava",
+   "type": "Gradska uprava",
+   "place": "Kruševac",
+   "website": "https://www.krusevac.rs",
+   "mb": null,
+   "have": {
+    "address": "Gazimestanska 1",
+    "phones": "037 414700",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "gradska-uprava-zastitnik-gradjana-krusevac",
+   "name": "Gradska Uprava-Zaštitnik Građana",
+   "type": "Gradska uprava",
+   "place": "Kruševac",
+   "website": "https://www.krusevac.rs",
+   "mb": null,
+   "have": {
+    "address": "Gazimestanska 1",
+    "phones": "037 414700",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "grad-leskovac-gradska-uprava-leskovac",
+   "name": "Grad Leskovac - gradska uprava",
+   "type": "Gradska uprava",
+   "place": "Leskovac",
+   "website": "https://gradleskovac.org/",
+   "mb": null,
+   "have": {
+    "address": "16000 Leskovac",
+    "phones": "016 213213; 016 200804; 016 200807; 016 252522",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "gradska-uprava-loznica-loznica",
+   "name": "Gradska uprava Loznica",
+   "type": "Gradska uprava",
+   "place": "Loznica",
+   "website": "https://loznica.rs",
+   "mb": null,
+   "have": {
+    "address": "Karađorđeva 2",
+    "phones": "015 879200",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "grad-nis-gradska-uprava-za-lokalni-ekonomski-razvoj-i-investicije-nis-medijana",
+   "name": "Grad Niš-Gradska uprava za lokalni ekonomski razvoj i Investicije",
+   "type": "Gradska uprava",
+   "place": "Medijana",
+   "website": "https://www.ni.rs",
+   "mb": null,
+   "have": {
+    "address": "Gradska kuća, 7. jul 2, 18105 Niš",
+    "phones": "018 504411",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "grad-nis-gradska-uprava-za-finansije-i-lokalne-javne-prihode-nis",
+   "name": "Grad Niš-Gradska uprava za Finansije i Lokalne javne Prihode",
+   "type": "Gradska uprava",
+   "place": "Niš",
+   "website": "https://www.ni.rs",
+   "mb": null,
+   "have": {
+    "address": "Gradska kuća, 7. jul 2, 18105 Niš",
+    "phones": "018 504411",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  }
+ ],
+ "id": "site-013"
+}

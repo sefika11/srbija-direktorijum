@@ -1,0 +1,394 @@
+{
+ "kind": "sites",
+ "title": "Institucije sa sopstvenim sajtom",
+ "rows": [
+  {
+   "org_slug": "centar-za-socijalni-rad-za-opstine-varvarin-i-cicevac-cicevac",
+   "name": "Centar za socijalni rad za opštine Varvarin i Ćićevac",
+   "type": "Centar za socijalni rad",
+   "place": "Ćićevac",
+   "website": "https://www.csrcicevac.rs/",
+   "mb": "07413335",
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-cuprija-cuprija",
+   "name": "Centar za socijalni rad \"Ćuprija\"",
+   "type": "Centar za socijalni rad",
+   "place": "Ćuprija",
+   "website": "https://csrcuprija.rs/",
+   "mb": "07166893",
+   "have": {
+    "address": "Cara Lazara 89",
+    "phones": "035 8470533",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-cacak-cacak",
+   "name": "Centar za socijalni rad Čačak",
+   "type": "Centar za socijalni rad",
+   "place": "Čačak",
+   "website": "https://csrcacak.rs/",
+   "mb": "07181809",
+   "have": {
+    "address": "Kneza Miloša 1",
+    "phones": "032 341233",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-sid-sid",
+   "name": "Centar za socijalni rad \"Šid\"",
+   "type": "Centar za socijalni rad",
+   "place": "Šid",
+   "website": "https://csrsid.org.rs/",
+   "mb": "08133581",
+   "have": {
+    "address": "Laze Kostića 1",
+    "phones": "022 712823; 022 710721",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-opstine-zabalj-i-titel-solidarnost-zabalj",
+   "name": "Centar za socijalni rad opštine Žabalj i Titel \"Solidarnost\"",
+   "type": "Centar za socijalni rad",
+   "place": "Žabalj",
+   "website": "https://csrzabalj.org.rs/",
+   "mb": "08467242",
+   "have": {
+    "address": "Nikole Tesle 34",
+    "phones": "021 831260",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-ucenika-srednjih-skola-mladost-aleksinac-aleksinac",
+   "name": "Dom učenika Srednjih škola \"Mladost\" Aleksinac",
+   "type": "Dom učenika",
+   "place": "Aleksinac",
+   "website": "https://www.dommladost.rs",
+   "mb": "07153333",
+   "have": {
+    "address": "Bucekova 2",
+    "phones": "018 807688; 018 804736; 018 808600",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-ucenika-srednjih-skola-jelica-milovanovic-beograd-beograd",
+   "name": "Dom učenika Srednjih škola \"Jelica Milovanović\" Beograd",
+   "type": "Dom učenika",
+   "place": "Beograd",
+   "website": "https://www.jelicamilovanovic.edu.rs",
+   "mb": "07444028",
+   "have": {
+    "address": "Krunska 8",
+    "phones": "011 3304802",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-ucenika-srednjih-skola-milutin-milankovic-beograd",
+   "name": "Dom učenika Srednjih škola \"Milutin Milanković\"",
+   "type": "Dom učenika",
+   "place": "Beograd",
+   "website": "https://www.dommilutinmilankovic.edu.rs",
+   "mb": "17459147",
+   "have": {
+    "address": "Zdravka Čelara 16",
+    "phones": "011 2070090",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-ucenika-srednjih-skola-patrijarh-pavle-beograd-beograd",
+   "name": "\"Dom učenika Srednjih škola Patrijarh Pavle-Beograd\"",
+   "type": "Dom učenika",
+   "place": "Beograd",
+   "website": "https://www.domucenika.com",
+   "mb": "07077718",
+   "have": {
+    "address": "Zdravka Čelara 14",
+    "phones": "011 2072600; 011 2072602",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "ucenicki-centar-beograd-beograd",
+   "name": "Učenički centar Beograd",
+   "type": "Dom učenika",
+   "place": "Beograd",
+   "website": "https://www.ucenickicentar-bg.rs",
+   "mb": "07453906",
+   "have": {
+    "address": "Radoja Domanovića 27",
+    "phones": "011 7154043; 011 7154042; 011 7154050",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-ucenika-srednjih-skola-bosilegrad-bosilegrad",
+   "name": "Dom učenika srednjih škola – Bosilegrad",
+   "type": "Dom učenika",
+   "place": "Bosilegrad",
+   "website": "https://www.dussbosilegrad.edu.rs",
+   "mb": null,
+   "have": {
+    "address": "Ivo Lola Ribar bb",
+    "phones": "017 878493",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-ucenika-srednjih-skola-ivanjica-ivanjica",
+   "name": "Dom učenika Srednjih škola Ivanjica",
+   "type": "Dom učenika",
+   "place": "Ivanjica",
+   "website": "https://www.domucenika.edu.rs",
+   "mb": "07111738",
+   "have": {
+    "address": "Milinka Kušića 112",
+    "phones": "032 661513",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-ucenika-srednjih-skola-jagodina-jagodina",
+   "name": "Dom učenika Srednjih škola \"Jagodina\"",
+   "type": "Dom učenika",
+   "place": "Jagodina",
+   "website": "https://www.duja.edu.rs",
+   "mb": "07127308",
+   "have": {
+    "address": "Branka Radičevića 1",
+    "phones": "035 8223488",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-ucenika-srednjih-skola-nikola-vojvodic-kikinda",
+   "name": "Dom učenika Srednjih škola \"Nikola Vojvodić\"",
+   "type": "Dom učenika",
+   "place": "Kikinda",
+   "website": "https://www.dukikinda.edu.rs",
+   "mb": "08021031",
+   "have": {
+    "address": "Branka Vujina 13",
+    "phones": "0230 436212; 0230 436230",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-ucenika-srednjih-skola-kragujevac-kragujevac",
+   "name": "Dom učenika Srednjih škola Kragujevac",
+   "type": "Dom učenika",
+   "place": "Kragujevac",
+   "website": "https://www.artem.edu.rs",
+   "mb": "07151586",
+   "have": {
+    "address": "Save Kovačevića 23",
+    "phones": "034 303400; 034 303401; 034 303404",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-ucenika-srednjih-skola-kraljevo-kraljevo",
+   "name": "Dom učenika Srednjih škola Kraljevo",
+   "type": "Dom učenika",
+   "place": "Kraljevo",
+   "website": "https://www.domucenikakraljevo.rs",
+   "mb": "07101040",
+   "have": {
+    "address": "Karađorđeva 262",
+    "phones": "036 352663; 036 352964",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-ucenika-srednjih-skola-pane-djukic-limar-krusevac-krusevac",
+   "name": "Dom učenika Srednjih škola \"Pane Đukić-Limar\" Kruševac",
+   "type": "Dom učenika",
+   "place": "Kruševac",
+   "website": "https://www.internat-krusevac.org.rs",
+   "mb": "07144512",
+   "have": {
+    "address": "Ćirila i Metodija 11",
+    "phones": "037 411700",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-ucenika-srednjih-skola-leskovac-leskovac",
+   "name": "Dom učenika Srednjih škola Leskovac",
+   "type": "Dom učenika",
+   "place": "Leskovac",
+   "website": "https://www.domucenikale.rs",
+   "mb": "07213468",
+   "have": {
+    "address": "Kajmakčalanska 24",
+    "phones": "016 242172; 016 260250",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-ucenika-srednjih-skola-nis",
+   "name": "Dom učenika Srednjih škola",
+   "type": "Dom učenika",
+   "place": "Niš",
+   "website": "https://www.domnis.edu.rs",
+   "mb": "07174845",
+   "have": {
+    "address": "Kosovke devojke 6",
+    "phones": "018 4576920; 018 4212051; 018 290776",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-ucenika-srednjih-skola-brankovo-kolo-novi-sad",
+   "name": "Dom učenika Srednjih škola \"Brankovo Kolo\"",
+   "type": "Dom učenika",
+   "place": "Novi Sad",
+   "website": "https://www.dombrankovokolo.rs",
+   "mb": "08066213",
+   "have": {
+    "address": "Episkopa Visariona 3",
+    "phones": "021 528263; 021 425441; 021 422784",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "srednjoskolski-dom-novi-sad-novi-sad",
+   "name": "Srednjoškolski dom Novi Sad",
+   "type": "Dom učenika",
+   "place": "Novi Sad",
+   "website": "https://www.srednjoskolskidom.edu.rs",
+   "mb": "08066221",
+   "have": {
+    "address": "Nikolajevska 1",
+    "phones": "021 523636; 021 423664",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-ucenika-srednjih-skola-prokuplje-prokuplje",
+   "name": "Dom učenika Srednjih škola Prokuplje",
+   "type": "Dom učenika",
+   "place": "Prokuplje",
+   "website": "https://www.domucenikapk.edu.rs",
+   "mb": "07204370",
+   "have": {
+    "address": "Vuka Karadžića 10",
+    "phones": "027 8150022; 027 330154; 027 334066",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-ucenika-srednjih-skola-sombor-sombor",
+   "name": "Dom učenika Srednjih škola Sombor",
+   "type": "Dom učenika",
+   "place": "Sombor",
+   "website": "https://www.domucenikasombor.rs",
+   "mb": "08130205",
+   "have": {
+    "address": "Staparski put 1a",
+    "phones": "025 433660",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-ucenika-srednjih-skola-sremska-mitrovica-sremska-mitrovica",
+   "name": "Dom učenika Srednjih škola Sremska Mitrovica",
+   "type": "Dom učenika",
+   "place": "Sremska Mitrovica",
+   "website": "https://www.domucenika-sm.edu.rs",
+   "mb": "08016011",
+   "have": {
+    "address": "Planinska 1",
+    "phones": "022 631722",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  }
+ ],
+ "id": "site-007"
+}

@@ -1,0 +1,398 @@
+{
+ "kind": "sites",
+ "title": "Institucije sa sopstvenim sajtom",
+ "rows": [
+  {
+   "org_slug": "javno-preduzece-komunalac-razanj-razanj",
+   "name": "Javno preduzeće Komunalac Ražanj",
+   "type": "JKP Čistoća / Komunalac",
+   "place": "Ražanj",
+   "website": "https://komunalac-razanj.rs",
+   "mb": "07675216",
+   "have": {
+    "address": "Ivana Vušovića 8",
+    "phones": "037 3841116",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-preduzece-komunalac-u-rumi-ruma-ruma",
+   "name": "Javno preduzeće Komunalac u Rumi, Ruma",
+   "type": "JKP Čistoća / Komunalac",
+   "place": "Ruma",
+   "website": "https://komunalacruma.rs/",
+   "mb": "08099553",
+   "have": {
+    "address": "Jelenačka 2",
+    "phones": "0800 100105",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-secanj-secanj-secanj",
+   "name": "Javno komunalno preduzeće Sečanj Sečanj",
+   "type": "JKP Čistoća / Komunalac",
+   "place": "Sečanj",
+   "website": "https://secanj.ls.gov.rs",
+   "mb": "08150346",
+   "have": {
+    "address": "Prvomajska bb",
+    "phones": "023 3841331",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-palanka-2020-smederevska-palanka-smederevska-palanka",
+   "name": "Javno Komunalno Preduzeće Palanka 2020 Smederevska Palanka",
+   "type": "JKP Čistoća / Komunalac",
+   "place": "Smederevska Palanka",
+   "website": "https://www.smederevskapalanka.rs",
+   "mb": "20888288",
+   "have": {
+    "address": "Mike Golubovića bb",
+    "phones": "026 310563; 026 310564",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-palanka-servis-smederevska-palanka-smederevska-palanka-u-stecaju-smederevs",
+   "name": "Javno komunalno preduzeće Palanka servis Smederevska Palanka Smederevska Palanka - u Stečaju",
+   "type": "JKP Čistoća / Komunalac",
+   "place": "Smederevska Palanka",
+   "website": "https://www.smederevskapalanka.rs",
+   "mb": "20448784",
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-napredak-sokobanja-sokobanja",
+   "name": "Javno komunalno preduzeće Napredak Sokobanja",
+   "type": "JKP Čistoća / Komunalac",
+   "place": "Sokobanja",
+   "website": "https://www.jkpnapredak.rs",
+   "mb": "07254814",
+   "have": {
+    "address": "Hajduk Veljkova 22",
+    "phones": "018 830670; 018 833222; 0800 018801",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-cistoca-sombor-sombor",
+   "name": "Javno komunalno preduzeće \"čistoća \" Sombor",
+   "type": "JKP Čistoća / Komunalac",
+   "place": "Sombor",
+   "website": "https://www.cistoca.co.rs/",
+   "mb": "08046816",
+   "have": {
+    "address": "Rade Drakulića 12",
+    "phones": "025 415788; 025 422099; 025 440141; 063 548748",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-prostor-sombor-sombor",
+   "name": "Javno komunalno preduzeće \"Prostor\" Sombor",
+   "type": "JKP Čistoća / Komunalac",
+   "place": "Sombor",
+   "website": "https://prostorsombor.rs/",
+   "mb": "20935430",
+   "have": {
+    "address": "Trg cara Lazara 1",
+    "phones": "025 5150100; 025 5150090; 0800 222001",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-vodokanal-sombor-sombor",
+   "name": "Javno komunalno preduzeće \"Vodokanal\" Sombor",
+   "type": "JKP Čistoća / Komunalac",
+   "place": "Sombor",
+   "website": "https://vodokanal.co.rs/",
+   "mb": "08046751",
+   "have": {
+    "address": "Belog goluba 5",
+    "phones": "025 464222; 0800 332233",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-graditelj-srbobran-srbobran",
+   "name": "Javno komunalno preduzeće Graditelj, Srbobran",
+   "type": "JKP Čistoća / Komunalac",
+   "place": "Srbobran",
+   "website": "https://www.jkpgraditelj.rs",
+   "mb": "08067546",
+   "have": {
+    "address": "Dositeja Obradovića 2",
+    "phones": "021 6230158; 021 6230012; 021 6230321; 0800 110210; 021 6230175",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-komunalije-sremska-mitrovica-sremska-mitrovica",
+   "name": "Javno komunalno preduzeće Komunalije, Sremska Mitrovica",
+   "type": "JKP Čistoća / Komunalac",
+   "place": "Sremska Mitrovica",
+   "website": "https://komunalije.co.rs/",
+   "mb": "08234752",
+   "have": {
+    "address": "Stari Šor 114",
+    "phones": "022 624500",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-belilo-sremski-karlovci-sremski-karlovci",
+   "name": "Javno komunalno preduzeće Belilo Sremski Karlovci",
+   "type": "JKP Čistoća / Komunalac",
+   "place": "Sremski Karlovci",
+   "website": "https://jkpbelilo.rs",
+   "mb": "20627522",
+   "have": {
+    "address": "Trg Branka Radičevića 1",
+    "phones": "021 6853021; 021 6853019; 0800 151510",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-cistoca-jp-stara-pazova-stara-pazova",
+   "name": "Javno komunalno preduzeće čistoća JP Stara Pazova",
+   "type": "JKP Čistoća / Komunalac",
+   "place": "Stara Pazova",
+   "website": "https://www.cistocasp.rs/",
+   "mb": "08591148",
+   "have": {
+    "address": "Zmaj Jovina bb",
+    "phones": "022 310150; 0800 322320",
+    "hours": "pon-pet 07:00-15:00"
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "jkp-za-upravljanje-kontrolu-i-logistiku-javnog-prevoza-putnika-u-beogradu-upravljanje-javnim-prevozo",
+   "name": "JKP za upravljanje kontrolu i logistiku javnog prevoza putnika u Beogradu-Upravljanje Javnim Prevozom Beo",
+   "type": "JKP Čistoća / Komunalac",
+   "place": "Stari grad",
+   "website": "https://upravljanjejp.rs/",
+   "mb": "21860638",
+   "have": {
+    "address": "Trg Republike 5",
+    "phones": "0800 110011",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "fondacija-mentalne-higijene-expecto-subotica",
+   "name": "Fondacija Mentalne Higijene \"Expecto\"",
+   "type": "JKP Čistoća / Komunalac",
+   "place": "Subotica",
+   "website": "https://www.exspecto.org.rs",
+   "mb": "08855528",
+   "have": {
+    "address": "Alekse Šantića 27",
+    "phones": "024 687620; 024 687621",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-stadion-subotica-subotica",
+   "name": "Javno komunalno preduzeće Stadion, Subotica",
+   "type": "JKP Čistoća / Komunalac",
+   "place": "Subotica",
+   "website": "https://jkp-stadion.rs/",
+   "mb": "08547718",
+   "have": {
+    "address": "Šep Ferenca 3",
+    "phones": "024 552800",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-suboticagas-subotica-subotica",
+   "name": "Javno komunalno preduzeće Suboticagas Subotica",
+   "type": "JKP Čistoća / Komunalac",
+   "place": "Subotica",
+   "website": "https://suboticagas.co.rs/",
+   "mb": "20114223",
+   "have": {
+    "address": "Jovana Mikića 58",
+    "phones": "024 641211; 064 1142896; 024 641200",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-za-obavljanje-dimnicarskih-usluga-dimnicar-subotica",
+   "name": "Javno komunalno preduzeće za Obavljanje Dimničarskih Usluga \"Dimničar\"",
+   "type": "JKP Čistoća / Komunalac",
+   "place": "Subotica",
+   "website": "https://www.dimnicar.co.rs/",
+   "mb": "08681767",
+   "have": {
+    "address": "Braće Radića 50",
+    "phones": "062 793383",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-komunalac-titel-titel",
+   "name": "Javno komunalno preduzeće Komunalac Titel",
+   "type": "JKP Čistoća / Komunalac",
+   "place": "Titel",
+   "website": "https://jkpkomunalactitel.rs",
+   "mb": "08050449",
+   "have": {
+    "address": "Glavna 14a",
+    "phones": "021 2960200; 0800 303133",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-stambeno-preduzece-topola-topola-topola-varosica",
+   "name": "Javno komunalno stambeno preduzeće Topola, Topola",
+   "type": "JKP Čistoća / Komunalac",
+   "place": "Topola",
+   "website": "https://www.jksptopola.com",
+   "mb": "07123582",
+   "have": {
+    "address": "Milivoja Petrovića Blaznavca 6",
+    "phones": "034 6811075; 034 6812075; 0800 001003",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-preduzece-komunalac-trgoviste-trgoviste",
+   "name": "Javno preduzeće \"Komunalac\" Trgovište",
+   "type": "JKP Čistoća / Komunalac",
+   "place": "Trgovište",
+   "website": "https://www.trgoviste.rs/preduzeca_ustanove",
+   "mb": "07366612",
+   "have": {
+    "address": "Kralja Petra I Karađorđevića 4",
+    "phones": "017 452214; 069 2951914",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-preduzece-ribarice-ribarice",
+   "name": "Javno komunalno preduzeće , Ribariće",
+   "type": "JKP Čistoća / Komunalac",
+   "place": "Tutin",
+   "website": "https://www.tutin.rs/jkp-ribarice/",
+   "mb": "17579606",
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javno-komunalno-stambeno-preduzece-gradac-tutin-tutin",
+   "name": "Javno komunalno stambeno preduzeće Gradac Tutin",
+   "type": "JKP Čistoća / Komunalac",
+   "place": "Tutin",
+   "website": "https://www.tutin.rs/preduzeca/jksp-gradac-tutin-2-2/",
+   "mb": "07386346",
+   "have": {
+    "address": null,
+    "phones": "020 812980",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "komunalno-javno-preduzece-djunis-ub-ub",
+   "name": "Komunalno javno preduzeće Đunis, Ub",
+   "type": "JKP Čistoća / Komunalac",
+   "place": "Ub",
+   "website": "https://www.djunis.rs",
+   "mb": "07098499",
+   "have": {
+    "address": "Veljka Vlahovića 6",
+    "phones": "0800 115114; 014 411107; 014 411787; 014 411143; 014 412358",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  }
+ ],
+ "id": "site-021"
+}

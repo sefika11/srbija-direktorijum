@@ -1,0 +1,400 @@
+{
+ "kind": "sites",
+ "title": "Institucije sa sopstvenim sajtom",
+ "rows": [
+  {
+   "org_slug": "privatna-laboratorija-vesna-cemerikic-martinovic-pr-poliklinika-beo-lab-plus",
+   "name": "Vesna Čemerikić Martinović PR, Poliklinika Beo-lab Plus Beograd",
+   "type": "Privatna laboratorija",
+   "place": "Beograd",
+   "website": "http://www.beo-lab.rs/",
+   "mb": null,
+   "have": {
+    "address": "Resavska br. 58",
+    "phones": "011 3622888",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "privatna-laboratorija-zavod-za-laboratorijsku-dijagnostiku-biomedica-beograd",
+   "name": "Zavod za laboratorijsku dijagnostiku „BIOMEDICA“",
+   "type": "Privatna laboratorija",
+   "place": "Beograd",
+   "website": "http://www.biomedicazavod.rs/",
+   "mb": null,
+   "have": {
+    "address": "Požeška 67a",
+    "phones": "011 3449717",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "privatna-laboratorija-zavod-za-laboratorijsku-dijagnostiku-konzilijum-beograd",
+   "name": "Zavod za laboratorijsku dijagnostiku “KONZILIJUM”, Beograd",
+   "type": "Privatna laboratorija",
+   "place": "Beograd",
+   "website": "http://www.medigroup.rs/",
+   "mb": null,
+   "have": {
+    "address": "Svetog Save 28",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "privatna-laboratorija-dragan-milenkovic-pr-poliklinika-za-oblast-interne",
+   "name": "Dragan Milenković PR, Poliklinika ZA Oblast Interne Medicine, Laboratorije ZA Medicinsku Biohemiju, Laboratorije ZA Mikrobiologiju I Laboratorije ZA Patohistologiju Human",
+   "type": "Privatna laboratorija",
+   "place": "Niš",
+   "website": "http://www.poliklinikahuman.rs/",
+   "mb": null,
+   "have": {
+    "address": "Petra Seratlića 21",
+    "phones": "018 538889",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "privatna-laboratorija-zdravstvena-ustanova-jugolab-zavod-za-laboratorijsku",
+   "name": "Zdravstvena ustanova „Jugolab“, Zavod za laboratorijsku dijagnostiku",
+   "type": "Privatna laboratorija",
+   "place": "Novi Sad",
+   "website": "http://www.jugolab.rs/",
+   "mb": null,
+   "have": {
+    "address": "Cara Dušana 67",
+    "phones": "021 466804; 021 4740204",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "privatna-laboratorija-zdravstvena-ustanova-medlab-zavod-za-laboratorijsku",
+   "name": "Zdravstvena ustanova \"MEDLAB\", Zavod za laboratorijsku dijagnostiku",
+   "type": "Privatna laboratorija",
+   "place": "Novi Sad",
+   "website": "http://www.medlab.rs/",
+   "mb": null,
+   "have": {
+    "address": "Ilije Ognjanovića 1",
+    "phones": "021 422332",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "jugolab-apatin-w644034884",
+   "name": "Jugolab",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Apatin",
+   "website": "https://jugolab.rs/",
+   "mb": null,
+   "have": {
+    "address": "Svetozara Miletića 5",
+    "phones": "025 5150078",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "jugolab-becej-becej-n3298233264",
+   "name": "Jugolab Bečej",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Bečej",
+   "website": "https://www.jugolab.rs/",
+   "mb": null,
+   "have": {
+    "address": "Zelena 68",
+    "phones": "021 6915341",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "in-balance-bor-n12620258289",
+   "name": "In Balance",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Bor",
+   "website": "https://www.inbalancecenter.rs/",
+   "mb": null,
+   "have": {
+    "address": "Radnička 23/L1",
+    "phones": "060 5070790",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "medilab-bor-n7644417081",
+   "name": "Medilab",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Bor",
+   "website": "https://www.mediagroup.rs/",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "011 4040111",
+    "hours": "Mo-Fr 07:30-15:30; Sa 08:00-13:00"
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "fizioterapeut-global-fizio-indjija-w2414884362",
+   "name": "Fizioterapeut Global fizio",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Inđija",
+   "website": "https://globalfizio.rs/",
+   "mb": null,
+   "have": {
+    "address": "Zanatlijska 1",
+    "phones": "062 1678388",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "pedijatrijska-ordinacija-liberino-indjija-w2431544796",
+   "name": "Pedijatrijska ordinacija Liberino",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Inđija",
+   "website": "http://www.liberino.co.rs/",
+   "mb": null,
+   "have": {
+    "address": "Maksima Gorkog 10",
+    "phones": "063 8054585",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "povezi-se-kikinda-n11248542508",
+   "name": "Poveži se",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Kikinda",
+   "website": "www.povezise.weebly.com",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "069 4352686",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "euromedik-kragujevac-w2583126336",
+   "name": "Euromedik",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Kragujevac",
+   "website": "https://euromedic.rs",
+   "mb": null,
+   "have": {
+    "address": "Kneza Mihaila 7",
+    "phones": "034 6170887",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "ms-laboratorija-kragujevac-n8548563655",
+   "name": "MS laboratorija",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Kragujevac",
+   "website": "https://www.mslab.rs/",
+   "mb": null,
+   "have": {
+    "address": "Bulevar kraljice Marije 54i",
+    "phones": "034 256868",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "aqualab-beograd-n9178425520",
+   "name": "Aqualab",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Lazarevac",
+   "website": "https://aqualab.rs/",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "011 8111683",
+    "hours": "Mo-Fr 07:00-20:00; Sa 07:00-14:00"
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "hemikal-beograd-n9056596813",
+   "name": "Hemikal",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Lazarevac",
+   "website": "https://www.hemikal.com",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "akugin-beograd-n9896721408",
+   "name": "Akugin",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Novi Beograd",
+   "website": "https://www.akugin.rs/",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": "Mo 09:00-17:00; Tu-Th 13:00-20:00; Fr 09:00-17:00"
+   },
+   "need": [
+    "address",
+    "phones"
+   ]
+  },
+  {
+   "org_slug": "aqua-lab-beograd-n12279370291",
+   "name": "Aqua Lab",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Novi Beograd",
+   "website": "https://aqualab.rs/",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": "Mo-Fr 07:00-20:00, Sa 07:00-14:00, Su 08:00-14:00"
+   },
+   "need": [
+    "address",
+    "phones"
+   ]
+  },
+  {
+   "org_slug": "ars-medica-beograd-n13992936086",
+   "name": "Ars medica",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Novi Beograd",
+   "website": "https://www.arsmedica.rs",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "011 2438116; 065 2399723; 063 239972; 069 2399723",
+    "hours": "Mo-Fr 08:00-20:00; Sa 08:00-15:00"
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "biomedica-beograd-n14089254604",
+   "name": "Biomedica",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Novi Beograd",
+   "website": "https://www.biomedicazavod.rs/laboratorije/novi-beograd",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "011 3194219; 062 233214",
+    "hours": "Mo-Fr 07:00-19:00; Sa 08:00-15:00; Su 08:00-14:00"
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "cardio-praxis-beograd-n6797531108",
+   "name": "Cardio praxis",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Novi Beograd",
+   "website": "https://cardiopraxis.rs",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "064 9340450",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "euromedik-beograd-n5910429879",
+   "name": "Euromedik",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Novi Beograd",
+   "website": "https://euromedic.rs/",
+   "mb": null,
+   "have": {
+    "address": "Pariske komune 22",
+    "phones": null,
+    "hours": "Mo-Fr 07:00-21:00; Sa 07:00-15:00"
+   },
+   "need": [
+    "phones"
+   ]
+  },
+  {
+   "org_slug": "laboratorija-analiza-beograd-n2112218400",
+   "name": "Laboratorija „Analiza”",
+   "type": "Privatna ordinacija / klinika",
+   "place": "Novi Beograd",
+   "website": "http://www.analiza.co.rs/",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours"
+   ]
+  }
+ ],
+ "id": "site-059"
+}

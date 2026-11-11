@@ -1,0 +1,590 @@
+{
+ "kind": "network",
+ "title": "3 Banka",
+ "type": "banka",
+ "orgs": [
+  {
+   "org_slug": "banka-3",
+   "name": "3 Banka",
+   "website": "https://www.3bank.rs",
+   "rows": [
+    {
+     "location_id": 19791,
+     "unit": "3 Banka",
+     "place": "Novi Sad",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Fr 08:00-17:00; Sa,Su off",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 19876,
+     "unit": "3 Banka",
+     "place": "Valjevo",
+     "address": null,
+     "phones": "014 291035",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 20118,
+     "unit": "3 Banka",
+     "place": "Novi Beograd",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Fr 09:00-17:00",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 20191,
+     "unit": "3 Banka",
+     "place": "Kragujevac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 21542,
+     "unit": "3 Banka",
+     "place": "Aleksinac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 21888,
+     "unit": "3 Banka",
+     "place": "Velika Plana",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 21953,
+     "unit": "3 Banka",
+     "place": "Kikinda",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 21961,
+     "unit": "3 Banka",
+     "place": "Obrenovac",
+     "address": "Vuka Karadžića 26",
+     "phones": "011 4422096",
+     "hours": "Pon-Pet 08:00-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 21994,
+     "unit": "3 Banka",
+     "place": "Stara Pazova",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 22403,
+     "unit": "3 Banka",
+     "place": "Užice",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 22404,
+     "unit": "3 Banka",
+     "place": "Pirot",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 22405,
+     "unit": "3 Banka",
+     "place": "Žabalj",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 22406,
+     "unit": "3 Banka",
+     "place": "Leskovac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 22407,
+     "unit": "3 Banka",
+     "place": "Loznica",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 22408,
+     "unit": "3 Banka",
+     "place": "Subotica",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 22409,
+     "unit": "3 Banka",
+     "place": "Sombor",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 22410,
+     "unit": "3 Banka",
+     "place": "Vranje",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 22411,
+     "unit": "3 Banka",
+     "place": "Zaječar",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 22947,
+     "unit": "3 Banka",
+     "place": "Zrenjanin",
+     "address": null,
+     "phones": null,
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 28729,
+     "unit": "Filijala Beograd Voždovac",
+     "place": "Voždovac",
+     "address": "Save Maškovića 2a",
+     "phones": "011 6666710",
+     "hours": "Pon-Pet 09:00-17:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28730,
+     "unit": "Filijala Novi Sad",
+     "place": "Novi Sad",
+     "address": "Bulevar oslobođenja 2a",
+     "phones": "021 3405070; 021 4893123",
+     "hours": "Pon-Pet 09:00-17:00 (šalter); Pon-Pet 08:00-16:00 (krediti); Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28731,
+     "unit": "Filijala Novi Beograd",
+     "place": "Novi Beograd",
+     "address": "Jurija Gagarina 30g",
+     "phones": "011 2699114",
+     "hours": "Pon-Pet 09:00-17:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28732,
+     "unit": "Filijala Niš",
+     "place": "Medijana",
+     "address": "Cara Dušana 86",
+     "phones": "018 514728; 018 514729",
+     "hours": "Pon-Pet 08:30-16:00 (šalter); Pon-Pet 08:00-16:00 (krediti); Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28733,
+     "unit": "Filijala Kragujevac",
+     "place": "Kragujevac",
+     "address": "Nikole Pašića 9",
+     "phones": "034 300855; 034 300856",
+     "hours": "Pon-Pet 08:30-16:00 (šalter); Pon-Pet 08:00-16:00 (krediti); Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28734,
+     "unit": "Poslovnica Aleksinac",
+     "place": "Aleksinac",
+     "address": "Vojske Jugoslavije 1",
+     "phones": "018 3409913; 018 55555",
+     "hours": "Pon-Pet 08:00-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28735,
+     "unit": "Poslovnica Bačka Palanka",
+     "place": "Bačka Palanka",
+     "address": "Žarka Zrenjanina 94",
+     "phones": "021 3401450",
+     "hours": "Pon-Pet 08:00-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28736,
+     "unit": "Poslovnica Čačak",
+     "place": "Čačak",
+     "address": "Devet Jugovića 23",
+     "phones": "032 330044; 032 330043",
+     "hours": "Pon-Pet 08:00-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28737,
+     "unit": "Poslovnica Ivanjica",
+     "place": "Ivanjica",
+     "address": "13. Septembra 24",
+     "phones": "032 440800",
+     "hours": "Pon-Pet 08:00-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28738,
+     "unit": "Poslovnica Jagodina",
+     "place": "Jagodina",
+     "address": "Kralja Petra I br. 3",
+     "phones": "035 245030; 035 245468",
+     "hours": "Pon-Pet 08:00-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28739,
+     "unit": "Poslovnica Kikinda",
+     "place": "Kikinda",
+     "address": "Svetosavska 110",
+     "phones": "0230 315015",
+     "hours": "Pon-Pet 08:00-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28740,
+     "unit": "Poslovnica Kraljevo",
+     "place": "Kraljevo",
+     "address": "Trg Kralja Petra I 2/7",
+     "phones": "036 327270",
+     "hours": "Pon-Pet 08:00-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28741,
+     "unit": "Poslovnica Kruševac",
+     "place": "Kruševac",
+     "address": "Trg Kosturnica 2",
+     "phones": "037 448120; 037 448121",
+     "hours": "Pon-Pet 08:00-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28742,
+     "unit": "Poslovnica Leskovac",
+     "place": "Leskovac",
+     "address": "Masarikov trg 21",
+     "phones": "016 234551; 016 234552",
+     "hours": "Pon-Pet 08:00-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28743,
+     "unit": "Poslovnica Loznica",
+     "place": "Loznica",
+     "address": "Banjska 14",
+     "phones": "015 640250; 015 640251",
+     "hours": "Pon-Pet 08:00-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28744,
+     "unit": "Poslovnica Mladenovac",
+     "place": "Mladenovac",
+     "address": "Kralja Aleksandra Obrenovića 81",
+     "phones": "011 7555022",
+     "hours": "Pon-Pet 08:00-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28745,
+     "unit": "Poslovnica Novi Pazar",
+     "place": "Novi Pazar",
+     "address": "Stane Bačanin bb",
+     "phones": "020 5150117",
+     "hours": "Pon-Pet 08:00-16:00; Sub-Ned zatvoreno",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 28746,
+     "unit": "Poslovnica Pančevo",
+     "place": "Pančevo",
+     "address": "Braće Jovanović 40",
+     "phones": "013 440920; 013 440921",
+     "hours": "Pon-Pet 08:00-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28747,
+     "unit": "Poslovnica Paraćin",
+     "place": "Paraćin",
+     "address": "Tome Živanovića 20",
+     "phones": "035 8151200",
+     "hours": "Pon-Pet 08:00-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28748,
+     "unit": "Poslovnica Pirot",
+     "place": "Pirot",
+     "address": "Ćirila i Metodija 3",
+     "phones": "010 321818; 010 321819",
+     "hours": "Pon-Pet 08:00-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28749,
+     "unit": "Poslovnica Požarevac",
+     "place": "Požarevac",
+     "address": "Bratstva i jedinstva 7",
+     "phones": "012 7160112",
+     "hours": "Pon-Pet 08:00-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28750,
+     "unit": "Poslovnica Prijepolje",
+     "place": "Prijepolje",
+     "address": "Vladimira Perića Valtera bb",
+     "phones": "033 2150000",
+     "hours": "Pon-Pet 08:00-16:00; Sub-Ned zatvoreno",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 28751,
+     "unit": "Poslovnica Šabac",
+     "place": "Šabac",
+     "address": "Kralja Milutina 22b",
+     "phones": "015 7336213",
+     "hours": "Pon-Pet 08:00-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28752,
+     "unit": "Poslovnica Smederevo",
+     "place": "Smederevo",
+     "address": "Đure Jakšića 6",
+     "phones": "026 4155445",
+     "hours": "Pon-Pet 08:00-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28753,
+     "unit": "Poslovnica Sombor",
+     "place": "Sombor",
+     "address": "Arsenija Čarnojevića 10",
+     "phones": "025 431590; 025 431591",
+     "hours": "Pon-Pet 08:00-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28754,
+     "unit": "Poslovnica Sremska Mitrovica",
+     "place": "Sremska Mitrovica",
+     "address": "Masarikova 9",
+     "phones": "022 850145",
+     "hours": "Pon-Pet 08:00-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28755,
+     "unit": "Poslovnica Stara Pazova",
+     "place": "Stara Pazova",
+     "address": "Ćirila i Metodija 23",
+     "phones": "022 850147",
+     "hours": "Pon-Pet 08:00-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28756,
+     "unit": "Poslovnica Subotica",
+     "place": "Subotica",
+     "address": "Matije Gupca 9a",
+     "phones": "024 671855; 024 671856",
+     "hours": "Pon-Pet 08:00-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28757,
+     "unit": "Poslovnica Topola",
+     "place": "Topola",
+     "address": "Vožda Karađorđa 76",
+     "phones": "034 240340; 034 240341",
+     "hours": "Pon-Pet 08:00-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28758,
+     "unit": "Poslovnica Užice",
+     "place": "Užice",
+     "address": "Kneza Lazara 27",
+     "phones": "031 500335; 031 500735",
+     "hours": "Pon-Pet 08:00-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28759,
+     "unit": "Poslovnica Valjevo",
+     "place": "Valjevo",
+     "address": "Karađorđeva 153",
+     "phones": "014 291035; 014 291036",
+     "hours": "Pon-Pet 08:00-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28760,
+     "unit": "Poslovnica Velika Plana",
+     "place": "Velika Plana",
+     "address": "Svetosavska 11",
+     "phones": "026 4150170; 026 4150171",
+     "hours": "Pon-Pet 08:00-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28761,
+     "unit": "Poslovnica Vranje",
+     "place": "Vranje",
+     "address": "Dunavska 5",
+     "phones": "017 7150072",
+     "hours": "Pon-Pet 08:00-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28762,
+     "unit": "Poslovnica Vršac",
+     "place": "Vršac",
+     "address": "Đure Jakšića 3",
+     "phones": "013 2300400",
+     "hours": "Pon-Pet 08:00-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28763,
+     "unit": "Poslovnica Zaječar",
+     "place": "Zaječar",
+     "address": "Nikole Pašića 71",
+     "phones": "019 3150022",
+     "hours": "Pon-Pet 08:00-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28764,
+     "unit": "Poslovnica Zrenjanin",
+     "place": "Zrenjanin",
+     "address": "Jug Bogdana 4",
+     "phones": "023 582660; 023 582661",
+     "hours": "Pon-Pet 08:00-16:00; Sub-Ned zatvoreno",
+     "need": []
+    },
+    {
+     "location_id": 28765,
+     "unit": "Poslovnica Žabalj",
+     "place": "Žabalj",
+     "address": "Svetog Nikole 45a",
+     "phones": "021 2300630",
+     "hours": "Pon-Pet 08:00-16:00; Sub-Ned zatvoreno",
+     "need": []
+    }
+   ]
+  }
+ ],
+ "id": "net-banka-3"
+}

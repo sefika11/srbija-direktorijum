@@ -1,0 +1,94 @@
+{
+ "kind": "network",
+ "title": "Viši sud (5 organizacija)",
+ "type": "visi-sud",
+ "orgs": [
+  {
+   "org_slug": "visi-sud-u-kraljevu-kraljevo",
+   "name": "Viši sud u Kraljevu",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 43,
+     "unit": "Sedište",
+     "place": "Kraljevo",
+     "address": "Karađorđeva br 5",
+     "phones": "036 313350",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "visi-sud-u-novom-sadu-novi-sad",
+   "name": "Viši sud u Novom Sadu",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 49,
+     "unit": "Sedište",
+     "place": "Novi Sad",
+     "address": "Sutjeska 3",
+     "phones": "021 4876100; 021 4876481",
+     "hours": "07:30 - 15:30",
+     "need": []
+    }
+   ]
+  },
+  {
+   "org_slug": "visi-sud-u-pancevu-pancevo",
+   "name": "Viši sud u Pančevu",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 50,
+     "unit": "Sedište",
+     "place": "Pančevo",
+     "address": "Vojvode Radomira Putnika 13",
+     "phones": "013 344366",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "visi-sud-u-sremskoj-mitrovici-sremska-mitrovica",
+   "name": "Viši sud u Sremskoj Mitrovici",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 56,
+     "unit": "Sedište",
+     "place": "Sremska Mitrovica",
+     "address": "Svetog Dimitrija 39",
+     "phones": "022 600100",
+     "hours": "07:30 - 15:30",
+     "need": []
+    }
+   ]
+  },
+  {
+   "org_slug": "visi-sud-u-zajecaru-zajecar",
+   "name": "Viši sud u Zaječaru",
+   "website": "https://za.vi.sud.rs",
+   "rows": [
+    {
+     "location_id": 39,
+     "unit": "Sedište",
+     "place": "Zaječar",
+     "address": "Generala Gambete bb",
+     "phones": "019 421111; 019 422133",
+     "hours": "07:30 - 15:30",
+     "need": [
+      "address"
+     ]
+    }
+   ]
+  }
+ ],
+ "id": "net-visi-sud-1"
+}

@@ -1,0 +1,7604 @@
+[
+{
+"location_id": 19467,
+"into": 28272,
+"org": "banka-erste",
+"by": "street (entry rebuilt from the database)",
+"from": "Erste Bank | Kralja Petra I 3",
+"to": "Filijala Sombor | Kralja Petra I br.3"
+},
+{
+"location_id": 19470,
+"into": 27899,
+"org": "banka-raiffeisen",
+"by": "distance",
+"m": 7,
+"from": "Raiffeisen bank | None",
+"to": "Sombor | Avrama Mrazovića 1",
+"carry_hours": false
+},
+{
+"location_id": 19471,
+"into": 28727,
+"org": "banka-procredit",
+"by": "distance",
+"m": 30,
+"from": "ProCredit banka | None",
+"to": "Ekspozitura Venac Radomira Putnika 24 | Venac Radomira Putnika 24",
+"carry_hours": false
+},
+{
+"location_id": 19481,
+"into": 27997,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 16,
+"from": "Banka Inteza | None",
+"to": "Ekspozitura Rumenačka 33 (SBO HUB) | Rumenačka 33",
+"carry_hours": false
+},
+{
+"location_id": 19483,
+"into": 28210,
+"org": "banka-addiko",
+"by": "distance",
+"m": 9,
+"from": "Addiko Bank | None",
+"to": "Ekspozitura Sombor | Kralja Petra I 24",
+"carry_hours": false
+},
+{
+"location_id": 19489,
+"into": 28648,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 8,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Stara Pazova 1 | Svetosavska 10/1",
+"carry_hours": false
+},
+{
+"location_id": 19490,
+"into": 28277,
+"org": "banka-erste",
+"by": "distance",
+"m": 5,
+"from": "Erste Bank | None",
+"to": "Filijala Stara Pazova | Kralja Petra I 2",
+"carry_hours": false
+},
+{
+"location_id": 19491,
+"into": 28009,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 37,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Ćirila i Metodija 2 | Ćirila i Metodija 2",
+"carry_hours": false
+},
+{
+"location_id": 19492,
+"into": 27824,
+"org": "banka-raiffeisen",
+"by": "distance",
+"m": 53,
+"from": "Raiffeisen bank | None",
+"to": "Stara Pazova | Kralja Petra I 1",
+"carry_hours": false
+},
+{
+"location_id": 19493,
+"into": 28142,
+"org": "banka-aik",
+"by": "distance",
+"m": 7,
+"from": "AIK banka | None",
+"to": "Filijala Kralja Petra I Karađorđevića 1a | Kralja Petra I Karađorđevića 1a",
+"carry_hours": false
+},
+{
+"location_id": 19498,
+"into": 28252,
+"org": "banka-erste",
+"by": "distance",
+"m": 14,
+"from": "Erste Bank | Vidovdanski Trg 2",
+"to": "Filijala Novi Banovci | Vidovdanski trg bb",
+"carry_hours": false
+},
+{
+"location_id": 19502,
+"into": 28324,
+"org": "banka-otp",
+"by": "distance",
+"m": 13,
+"from": "OTP banka | None",
+"to": "Ekspozitura Novi Sad Trg slobode 5 | Trg slobode 5",
+"carry_hours": false
+},
+{
+"location_id": 19503,
+"into": 27848,
+"org": "banka-raiffeisen",
+"by": "distance",
+"m": 10,
+"from": "Raiffeisen bank | None",
+"to": "Ns-apolo | Pozorišni trg 3",
+"carry_hours": false
+},
+{
+"location_id": 19509,
+"into": 27840,
+"org": "banka-raiffeisen",
+"by": "distance",
+"m": 6,
+"from": "Raiffeisen bank | None",
+"to": "Subotica | Trg slobode 5",
+"carry_hours": false
+},
+{
+"location_id": 19519,
+"into": 28402,
+"org": "banka-nlb-komercijalna",
+"by": "distance",
+"m": 7,
+"from": "NLB Komercijalna banka | None",
+"to": "Ekspozitura Subotica Korzo 10 | Korzo 10",
+"carry_hours": false
+},
+{
+"location_id": 19525,
+"into": 28379,
+"org": "banka-otp",
+"by": "distance",
+"m": 18,
+"from": "OTP banka | None",
+"to": "Ekspozitura Subotica Korzo 12 | Korzo 12",
+"carry_hours": false
+},
+{
+"location_id": 19530,
+"into": 28561,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 7,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Kovačica 1 | Maršala Tita 40",
+"carry_hours": false
+},
+{
+"location_id": 19537,
+"into": 28371,
+"org": "banka-otp",
+"by": "distance",
+"m": 20,
+"from": "OTP banka | None",
+"to": "Ekspozitura Bor Đorđa Vajferta 5 | Đorđa Vajferta 5",
+"carry_hours": false
+},
+{
+"location_id": 19539,
+"into": 28076,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 38,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Đorđa Vajferta 3 | Đorđa Vajferta 3",
+"carry_hours": false
+},
+{
+"location_id": 19543,
+"into": 27923,
+"org": "banka-unicredit",
+"by": "distance",
+"m": 12,
+"from": "UniCredit Bank | None",
+"to": "Ekspozitura Bulevar oslobođenja bb | Bulevar oslobođenja bb",
+"carry_hours": false
+},
+{
+"location_id": 19554,
+"into": 28122,
+"org": "banka-aik",
+"by": "distance",
+"m": 13,
+"from": "AIK banka | None",
+"to": "Filijala Dvorska 2 | Dvorska 2",
+"carry_hours": false
+},
+{
+"location_id": 19557,
+"into": 27998,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 14,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Bulevar Cara Lazara 79a | Bulevar Cara Lazara 79a",
+"carry_hours": false
+},
+{
+"location_id": 19562,
+"into": 28404,
+"org": "banka-nlb-komercijalna",
+"by": "distance",
+"m": 19,
+"from": "NLB Komercijalna banka | None",
+"to": "Ekspozitura Novi Sad Ilije Ognjanovića 24 | Ilije Ognjanovića 24",
+"carry_hours": false
+},
+{
+"location_id": 19569,
+"into": 28018,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 100,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Gornjogradska 38 | Gornjogradska 38",
+"carry_hours": false
+},
+{
+"location_id": 19573,
+"into": 28049,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 2,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Ustanička 69 | Ustanička 69",
+"carry_hours": false
+},
+{
+"location_id": 19577,
+"into": 28401,
+"org": "banka-nlb-komercijalna",
+"by": "distance",
+"m": 5,
+"from": "NLB Komercijalna banka | Smederevski put 3g",
+"to": "Ekspozitura Beograd Smederevski put 101 (Leštane) | Smederevski put 101",
+"carry_hours": false
+},
+{
+"location_id": 19581,
+"into": 28064,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 23,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Cara Lazara 73 | Cara Lazara 73",
+"carry_hours": false
+},
+{
+"location_id": 19588,
+"into": 27984,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 14,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Petefi Šandora 2 | Petefi Šandora 2",
+"carry_hours": false
+},
+{
+"location_id": 19592,
+"into": 28616,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 137,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Pančevo 4 - Kotež 2 | Vojvođanski bulevar 30a",
+"carry_hours": false
+},
+{
+"location_id": 19595,
+"into": 27856,
+"org": "banka-raiffeisen",
+"by": "distance",
+"m": 4,
+"from": "Raiffeisen bank | None",
+"to": "Gtc | Bulevar Zorana Đinđića 64a",
+"carry_hours": false
+},
+{
+"location_id": 19619,
+"into": 28269,
+"org": "banka-erste",
+"by": "street (entry rebuilt from the database)",
+"from": "Erste Bank | Karađorđeva 4",
+"to": "Filijala Šid | Karađorđeva 4"
+},
+{
+"location_id": 19626,
+"into": 28604,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 5,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Novi Sad 2 - Novo Naselje | Đorđa Nikšića Johana 16",
+"carry_hours": false
+},
+{
+"location_id": 19634,
+"into": 27986,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 31,
+"from": "Ekspozitura Dimitrija Tucovića 2a | Dimitrija Tucovića 2a",
+"to": "Ekspozitura Dimitrija Tucovića 2 | Dimitrija Tucovića 2",
+"carry_hours": false
+},
+{
+"location_id": 19635,
+"into": 27987,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 23,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Štrosmajerova 6 | Štrosmajerova 6",
+"carry_hours": false
+},
+{
+"location_id": 19636,
+"into": 28491,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 8,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Beograd 11 -Karaburma | Drenovačka 11",
+"carry_hours": false
+},
+{
+"location_id": 19637,
+"into": 28023,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 24,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Omladinskih brigada 90 | Omladinskih brigada 90",
+"carry_hours": false
+},
+{
+"location_id": 19639,
+"into": 28438,
+"org": "banka-nlb-komercijalna",
+"by": "distance",
+"m": 20,
+"from": "NLB Komercijalna banka | Dvdesetosmog marta 2",
+"to": "Ekspozitura Majdanpek 28. marta 2 | 28. marta 2",
+"carry_hours": false
+},
+{
+"location_id": 19645,
+"into": 28020,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 18,
+"from": "Ekspozitura Jurija Gagarina 36 | Jurija Gagarina 36",
+"to": "Ekspozitura Jurija Gagarina 36b | Jurija Gagarina 36b",
+"carry_hours": false
+},
+{
+"location_id": 19648,
+"into": 28395,
+"org": "banka-nlb-komercijalna",
+"by": "distance",
+"m": 15,
+"from": "NLB Komercijalna banka | None",
+"to": "Ekspozitura Beograd Ustanička 63 | Ustanička 63",
+"carry_hours": false
+},
+{
+"location_id": 19652,
+"into": 28304,
+"org": "banka-otp",
+"by": "distance",
+"m": 16,
+"from": "OTP banka | None",
+"to": "Ekspozitura za fizička lica Beograd Vojislava Ilića 94b | Vojislava Ilića 94b",
+"carry_hours": false
+},
+{
+"location_id": 19657,
+"into": 28048,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 6,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Južni Bulevar 84 | Južni Bulevar 84",
+"carry_hours": false
+},
+{
+"location_id": 19664,
+"into": 28059,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 2,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Kuželjeva 1 | Kuželjeva 1",
+"carry_hours": false
+},
+{
+"location_id": 19667,
+"into": 28297,
+"org": "banka-otp",
+"by": "distance",
+"m": 17,
+"from": "OTP banka | None",
+"to": "Ekspozitura Apatin Srpskih vladara 7 | Srpskih vladara 7",
+"carry_hours": false
+},
+{
+"location_id": 19676,
+"into": 28002,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 20,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Fruškogorska 10 | Fruškogorska 10",
+"carry_hours": false
+},
+{
+"location_id": 19685,
+"into": 28273,
+"org": "banka-erste",
+"by": "distance",
+"m": 28,
+"from": "Erste Bank | Jovana Jovanovića Zmaja 16",
+"to": "Filijala Srbobran | Zmaj Jovina 16",
+"carry_hours": false
+},
+{
+"location_id": 19689,
+"into": 28493,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 26,
+"from": "Ekspozitura Kraljice Marije 3 | Kraljice Marije 3",
+"to": "Samostalni šalter Beograd 8 | Kraljice Marije 1a",
+"carry_hours": false
+},
+{
+"location_id": 19708,
+"into": 28302,
+"org": "banka-otp",
+"by": "distance",
+"m": 17,
+"from": "OTP banka | None",
+"to": "Ekspozitura Bečej Novosadska 1a | Novosadska 1a",
+"carry_hours": false
+},
+{
+"location_id": 19709,
+"into": 28198,
+"org": "banka-aik",
+"by": "distance",
+"m": 97,
+"from": "AIK banka | None",
+"to": "Filijala Zelena 54-54A | Zelena 54",
+"carry_hours": false
+},
+{
+"location_id": 19710,
+"into": 28515,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 43,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Bečej 1 | Trg oslobođenja 1",
+"carry_hours": false
+},
+{
+"location_id": 19725,
+"into": 28075,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 16,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Vidovdanska 4 | Vidovdanska 4",
+"carry_hours": false
+},
+{
+"location_id": 19735,
+"into": 27932,
+"org": "banka-unicredit",
+"by": "distance",
+"m": 23,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Kneza Miloša 44 | Kneza Miloša 44",
+"carry_hours": false
+},
+{
+"location_id": 19736,
+"into": 27971,
+"org": "banka-unicredit",
+"by": "distance",
+"m": 6,
+"from": "UniCredit Bank | Kralja Petra prvog 3",
+"to": "Ekspozitura Kralja Petra I 3 | Kralja Petra I 3",
+"carry_hours": false
+},
+{
+"location_id": 19738,
+"into": 27958,
+"org": "banka-unicredit",
+"by": "distance",
+"m": 28,
+"from": "UniCredit Bank | None",
+"to": "Ekspozitura Ivana Milutinovića 22 | Ivana Milutinovića 22",
+"carry_hours": false
+},
+{
+"location_id": 19741,
+"into": 27947,
+"org": "banka-unicredit",
+"by": "distance",
+"m": 15,
+"from": "UniCredit Bank | None",
+"to": "Ekspozitura Požeška 83a - Banovo brdo | Požeška 83a",
+"carry_hours": false
+},
+{
+"location_id": 19742,
+"into": 27959,
+"org": "banka-unicredit",
+"by": "distance",
+"m": 79,
+"from": "UniCredit Bank | None",
+"to": "Ekspozitura Ratka Mitrovića 160 - Cerak Vinogradi | Ratka Mitrovića 160",
+"carry_hours": false
+},
+{
+"location_id": 19744,
+"into": 27950,
+"org": "banka-unicredit",
+"by": "distance",
+"m": 27,
+"from": "UniCredit Bank | None",
+"to": "Ekspozitura Resavska 28 | Resavska 28",
+"carry_hours": false
+},
+{
+"location_id": 19748,
+"into": 27962,
+"org": "banka-unicredit",
+"by": "distance",
+"m": 11,
+"from": "UniCredit Bank | None",
+"to": "Ekspozitura Vojvode Stepe 74 | Vojvode Stepe 74",
+"carry_hours": false
+},
+{
+"location_id": 19755,
+"into": 27988,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 31,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Maršala Tita 66 | Maršala Tita 66",
+"carry_hours": false
+},
+{
+"location_id": 19759,
+"into": 28307,
+"org": "banka-otp",
+"by": "distance",
+"m": 20,
+"from": "OTP banka | None",
+"to": "Ekspozitura Čoka Maršala Tita 22 | Maršala Tita 22",
+"carry_hours": false
+},
+{
+"location_id": 19769,
+"into": 28226,
+"org": "banka-erste",
+"by": "distance",
+"m": 7,
+"from": "Erste Bank | None",
+"to": "Filijala Voždovac | Save Maškovića 3",
+"carry_hours": false
+},
+{
+"location_id": 19771,
+"into": 28046,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 2,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Vukasovićeva 50a | Vukasovićeva 50a",
+"carry_hours": false
+},
+{
+"location_id": 19779,
+"into": 28031,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 3,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Milentija Popovića 7b | Milentija Popovića 7b",
+"carry_hours": false
+},
+{
+"location_id": 19781,
+"into": 27999,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 18,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Bulevar Oslobođenja 76a | Bulevar Oslobođenja 76a",
+"carry_hours": false
+},
+{
+"location_id": 19783,
+"into": 28123,
+"org": "banka-aik",
+"by": "distance",
+"m": 7,
+"from": "AIK banka | None",
+"to": "Filijala Futoška 1a | Futoška 1a",
+"carry_hours": false
+},
+{
+"location_id": 19787,
+"into": 28287,
+"org": "banka-otp",
+"by": "distance",
+"m": 4,
+"from": "OTP banka | None",
+"to": "Ekspozitura Novi Sad Bulevar oslobođenja 80 | Bulevar oslobođenja 80",
+"carry_hours": false
+},
+{
+"location_id": 19792,
+"into": 28256,
+"org": "banka-erste",
+"by": "distance",
+"m": 29,
+"from": "Erste Bank | None",
+"to": "Filijala Bulevar Cara Lazara | Bulevar Cara Lazara 19",
+"carry_hours": false
+},
+{
+"location_id": 19793,
+"into": 28601,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 19,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Novi Sad 3 - Liman | Bulevar Cara Lazara 7a",
+"carry_hours": false
+},
+{
+"location_id": 19794,
+"into": 28714,
+"org": "banka-procredit",
+"by": "distance",
+"m": 13,
+"from": "ProCredit banka | None",
+"to": "Ekspozitura Bulevar Cara Lazara 7b | Bulevar Cara Lazara 7b",
+"carry_hours": false
+},
+{
+"location_id": 19796,
+"into": 28255,
+"org": "banka-erste",
+"by": "distance",
+"m": 1,
+"from": "Erste Bank | None",
+"to": "Filijala Park City Novi Sad | Narodnog fronta 23",
+"carry_hours": false
+},
+{
+"location_id": 19798,
+"into": 28260,
+"org": "banka-erste",
+"by": "distance",
+"m": 7,
+"from": "Erste banka | None",
+"to": "Filijala Bulevar Oslobođenja 7 | Bulevar Oslobođenja 7",
+"carry_hours": false
+},
+{
+"location_id": 19802,
+"into": 28215,
+"org": "banka-addiko",
+"by": "distance",
+"m": 143,
+"from": "Addiko Bank | Bulevar oslobođenja 18",
+"to": "Ekspozitura Novi Sad | Bul. oslobođenja 29",
+"carry_hours": false
+},
+{
+"location_id": 19804,
+"into": 28144,
+"org": "banka-aik",
+"by": "distance",
+"m": 28,
+"from": "AikBank | Bulevar oslobođenja 95",
+"to": "Filijala Bulevar Oslobođenja 97 | Bulevar Oslobođenja 97",
+"carry_hours": false
+},
+{
+"location_id": 19811,
+"into": 28322,
+"org": "banka-otp",
+"by": "distance",
+"m": 55,
+"from": "OTP banka | None",
+"to": "Ekspozitura za fizička lica Novi Sad Rumenačka 1 | Rumenačka 1",
+"carry_hours": false
+},
+{
+"location_id": 19812,
+"into": 28222,
+"org": "banka-erste",
+"by": "street (entry rebuilt from the database)",
+"from": "Erste Bank | Maršala Tita 7",
+"to": "Filijala Bački Petrovac | Maršala Tita 5"
+},
+{
+"location_id": 19815,
+"into": 28001,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 11,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Bulevar Mihajla Pupina 4 | Bulevar Mihajla Pupina 4",
+"carry_hours": false
+},
+{
+"location_id": 19831,
+"into": 28495,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 22,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Beograd 6 - Miljakovac | Bogdana Žerajića 24a",
+"carry_hours": false
+},
+{
+"location_id": 19853,
+"into": 28211,
+"org": "banka-addiko",
+"by": "distance",
+"m": 105,
+"from": "Addiko Bank | None",
+"to": "Ekspozitura Zrenjanin | Svetozara Markovića 2",
+"carry_hours": false
+},
+{
+"location_id": 19856,
+"into": 28238,
+"org": "banka-erste",
+"by": "distance",
+"m": 6,
+"from": "Erste Bank | None",
+"to": "Ekspres ekspozitura Gornji Milanovac | Vuka Karadžića 1b",
+"carry_hours": false
+},
+{
+"location_id": 19858,
+"into": 28243,
+"org": "banka-erste",
+"by": "street (entry rebuilt from the database)",
+"from": "Erste Bank | Kralja Aleksandra Karađorđevića 34",
+"to": "Filijala Kragujevac 2 | Kralja Aleksandra Karađorđevića 34"
+},
+{
+"location_id": 19869,
+"into": 27849,
+"org": "banka-raiffeisen",
+"by": "distance",
+"m": 7,
+"from": "Raiffeisen bank | None",
+"to": "Kralja Petra | Kralja Petra 14",
+"carry_hours": false
+},
+{
+"location_id": 19870,
+"into": 28359,
+"org": "banka-otp",
+"by": "distance",
+"m": 9,
+"from": "OTP banka | None",
+"to": "Ekspozitura Beograd Neznanog junaka 5 | Neznanog junaka 5",
+"carry_hours": false
+},
+{
+"location_id": 19871,
+"into": 28041,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 18,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Vidikovački venac 80b | Vidikovački venac 80b",
+"carry_hours": false
+},
+{
+"location_id": 19876,
+"into": 28759,
+"org": "banka-3",
+"by": "street (entry rebuilt from the database)",
+"from": "3 Banka | Karađorđeva 153",
+"to": "Poslovnica Valjevo | Karađorđeva 153"
+},
+{
+"location_id": 19879,
+"into": 28013,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 51,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Železnička 7 | Železnička 7",
+"carry_hours": false
+},
+{
+"location_id": 19885,
+"into": 28053,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 10,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Braće Jerković 137b | Braće Jerković 137b",
+"carry_hours": false
+},
+{
+"location_id": 19890,
+"into": 28725,
+"org": "banka-procredit",
+"by": "distance",
+"m": 8,
+"from": "ProCredit banka | None",
+"to": "Ekspozitura Trg Nikole Pašića 32b | Trg Nikole Pašića 32b",
+"carry_hours": false
+},
+{
+"location_id": 19894,
+"into": 28290,
+"org": "banka-otp",
+"by": "distance",
+"m": 6,
+"from": "OTP banka | None",
+"to": "Ekspozitura Velika Plana Miloša Velikog 107 | Miloša Velikog 107",
+"carry_hours": false
+},
+{
+"location_id": 19895,
+"into": 28067,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 9,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Momira Gajića 2 | Momira Gajića 2",
+"carry_hours": false
+},
+{
+"location_id": 19904,
+"into": 28589,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 109,
+"from": "Ekspozitura Kralja Petra prvog | Kralja Petra prvog",
+"to": "Ekspozitura Donji Milanovac 1 | Kralja Petra I 77",
+"carry_hours": false
+},
+{
+"location_id": 19918,
+"into": 28280,
+"org": "banka-erste",
+"by": "street (entry rebuilt from the database)",
+"from": "Erste Bank | Dimitrija Tucovića 93",
+"to": "Filijala Užice | Dimitrija Tucovića 93"
+},
+{
+"location_id": 19924,
+"into": 28715,
+"org": "banka-procredit",
+"by": "distance",
+"m": 15,
+"from": "ProCredit banka | None",
+"to": "Ekspozitura Bulevar despota Stefana 68c | Bulevar despota Stefana 68c",
+"carry_hours": false
+},
+{
+"location_id": 19928,
+"into": 28703,
+"org": "banka-halkbank",
+"by": "distance",
+"m": 19,
+"from": "Ekspozitura | None",
+"to": "Filijala Smederevo | Kralja Petra I 16",
+"carry_hours": false
+},
+{
+"location_id": 19932,
+"into": 28258,
+"org": "banka-erste",
+"by": "distance",
+"m": 41,
+"from": "Erste Bank | None",
+"to": "Filijala Bistrica | Jovana Dučića 15",
+"carry_hours": false
+},
+{
+"location_id": 19936,
+"into": 28370,
+"org": "banka-otp",
+"by": "distance",
+"m": 2,
+"from": "OTP banka | Trg oslobodioca Pirota 6",
+"to": "Ekspozitura Pirot Trg Dobrice Milutinovića bb | Trg Dobrice Milutinovića bb",
+"carry_hours": false
+},
+{
+"location_id": 19947,
+"into": 28024,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 10,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Bulevar maršala Tolbuhina 34 | Bulevar maršala Tolbuhina 34",
+"carry_hours": false
+},
+{
+"location_id": 19948,
+"into": 28224,
+"org": "banka-erste",
+"by": "distance",
+"m": 8,
+"from": "Erste Bank | None",
+"to": "Filijala Ratka Mitrovića | Ratka Mitrovića 158",
+"carry_hours": false
+},
+{
+"location_id": 19949,
+"into": 28115,
+"org": "banka-aik",
+"by": "street",
+"m": 192,
+"from": "AIK banka | Trg topličkih junaka 1",
+"to": "Filijala Topličkih junaka 1 | Topličkih junaka 1",
+"carry_hours": false
+},
+{
+"location_id": 19960,
+"into": 28022,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 4,
+"from": "Ekspozitura Milutina Milankovića 134a | Milutina Milankovića 134a",
+"to": "Ekspozitura Milutina Milankovića 134g | Milutina Milankovića 134g",
+"carry_hours": false
+},
+{
+"location_id": 19962,
+"into": 28054,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 27,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Mirijevski venac 23 | Mirijevski venac 23",
+"carry_hours": false
+},
+{
+"location_id": 19967,
+"into": 27969,
+"org": "banka-unicredit",
+"by": "distance",
+"m": 18,
+"from": "UniCredit Bank | None",
+"to": "Ekspozitura Ustanička 262 | Ustanička 262",
+"carry_hours": false
+},
+{
+"location_id": 19968,
+"into": 28724,
+"org": "banka-procredit",
+"by": "distance",
+"m": 2,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Požeška 42a | Požeška 42a",
+"carry_hours": false
+},
+{
+"location_id": 19969,
+"into": 28480,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 30,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Beograd 18 -Carina Beograd Novi Beograd | Narodnih Heroja 63",
+"carry_hours": false
+},
+{
+"location_id": 19970,
+"into": 28299,
+"org": "banka-otp",
+"by": "distance",
+"m": 97,
+"from": "OTP banka | Bulevar Veljka Vlahovića 14p",
+"to": "Ekspozitura Zrenjanin Bulevar Veljka Vlahovića 14 | Bulevar Veljka Vlahovića 14",
+"carry_hours": false
+},
+{
+"location_id": 19973,
+"into": 28326,
+"org": "banka-otp",
+"by": "distance",
+"m": 11,
+"from": "OTP banka | None",
+"to": "Ekspozitura Odžaci Železnička 26 | Železnička 26",
+"carry_hours": false
+},
+{
+"location_id": 19978,
+"into": 27890,
+"org": "banka-raiffeisen",
+"by": "distance",
+"m": 6,
+"from": "Raiffeisen bank | None",
+"to": "27.marta | 27.marta 31",
+"carry_hours": false
+},
+{
+"location_id": 19982,
+"into": 27887,
+"org": "banka-raiffeisen",
+"by": "distance",
+"m": 14,
+"from": "Raiffeisen bank | None",
+"to": "Šabac | Cara Dušana 1",
+"carry_hours": false
+},
+{
+"location_id": 19986,
+"into": 28718,
+"org": "banka-procredit",
+"by": "distance",
+"m": 24,
+"from": "ProCredit banka | None",
+"to": "Ekspozitura Gospodar Jevremova 28b | Gospodar Jevremova 28b",
+"carry_hours": false
+},
+{
+"location_id": 19997,
+"into": 27967,
+"org": "banka-unicredit",
+"by": "distance",
+"m": 18,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Kralja Petra I 2 | Kralja Petra I 2",
+"carry_hours": false
+},
+{
+"location_id": 19998,
+"into": 27023,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Kralja Petra I 7",
+"to": "Dunav osiguranje Smederevo | Kralja Petra I br. 7"
+},
+{
+"location_id": 20010,
+"into": 28362,
+"org": "banka-otp",
+"by": "distance",
+"m": 9,
+"from": "OTP banka | None",
+"to": "Ekspozitura za fizička lica Beograd Bulevar kralja Aleksandra 223 | Bulevar kralja Aleksandra 223",
+"carry_hours": false
+},
+{
+"location_id": 20015,
+"into": 27833,
+"org": "banka-raiffeisen",
+"by": "distance",
+"m": 44,
+"from": "Raiffeisen bank | None",
+"to": "Stari Merkator | Bulevar Mihaila Pupina 181",
+"carry_hours": false
+},
+{
+"location_id": 20016,
+"into": 28397,
+"org": "banka-nlb-komercijalna",
+"by": "distance",
+"m": 10,
+"from": "NLB Komercijalna banka | None",
+"to": "Ekspozitura Beograd Bulevar Maršala Tolbuhina 36 | Bulevar Maršala Tolbuhina 36",
+"carry_hours": false
+},
+{
+"location_id": 20019,
+"into": 28230,
+"org": "banka-erste",
+"by": "street",
+"m": 172,
+"from": "Erste Bank | Bulevar kralja Aleksandra 314",
+"to": "Ekspres ekspozitura Bulevar Kralja Aleksandra | Bul. Kralja Aleksandra 314",
+"carry_hours": false
+},
+{
+"location_id": 20037,
+"into": 28036,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 1,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Vase Pelagića 48b | Vase Pelagića 48b",
+"carry_hours": false
+},
+{
+"location_id": 20039,
+"into": 28421,
+"org": "banka-nlb-komercijalna",
+"by": "distance",
+"m": 28,
+"from": "NLB Komercijalna banka | None",
+"to": "Ekspozitura Prijepolje Polimska 21 | Polimska 21",
+"carry_hours": false
+},
+{
+"location_id": 20055,
+"into": 27884,
+"org": "banka-raiffeisen",
+"by": "distance",
+"m": 27,
+"from": "Raiffeisen bank | Dobračina 50",
+"to": "Cara Dušana | Cara Dušana 78",
+"carry_hours": false
+},
+{
+"location_id": 20058,
+"into": 27906,
+"org": "banka-raiffeisen",
+"by": "distance",
+"m": 1,
+"from": "Raiffeisen bank | Resavska",
+"to": "Vojvode Milenka | Vojvode Milenka 38",
+"carry_hours": false
+},
+{
+"location_id": 20059,
+"into": 28670,
+"org": "banka-halkbank",
+"by": "distance",
+"m": 10,
+"from": "Ekspozitura Milutina Milankovića | Milutina Milankovića",
+"to": "Filijala Beograd (Centrala) | Milutina Milankovića 9e",
+"carry_hours": false
+},
+{
+"location_id": 20060,
+"into": 28047,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 19,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Bulevar Kralja Aleksandra 79 | Bulevar Kralja Aleksandra 79",
+"carry_hours": false
+},
+{
+"location_id": 20062,
+"into": 27868,
+"org": "banka-raiffeisen",
+"by": "distance",
+"m": 2,
+"from": "Raiffeisen bank | Ruzveltova 12",
+"to": "Ruzveltova | Ruzveltova 10",
+"carry_hours": false
+},
+{
+"location_id": 20065,
+"into": 28051,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 79,
+"from": "Ekspozitura Kumodraška | Kumodraška",
+"to": "Ekspozitura Kumodraška 174 | Kumodraška 174",
+"carry_hours": false
+},
+{
+"location_id": 20082,
+"into": 28152,
+"org": "banka-aik",
+"by": "distance",
+"m": 25,
+"from": "AIK banka | Kriva čaršija 31",
+"to": "Filijala Trg Stevana Sinđelića bb | Trg Stevana Sinđelića bb",
+"carry_hours": false
+},
+{
+"location_id": 20093,
+"into": 28179,
+"org": "banka-aik",
+"by": "distance",
+"m": 7,
+"from": "AIK banka | None",
+"to": "Filijala Paunova 9 | Paunova 9",
+"carry_hours": false
+},
+{
+"location_id": 20096,
+"into": 28027,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 3,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Jurija Gagarina 14 | Jurija Gagarina 14",
+"carry_hours": false
+},
+{
+"location_id": 20101,
+"into": 28038,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 28,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Kraljev trg bb | Kraljev trg bb",
+"carry_hours": false
+},
+{
+"location_id": 20104,
+"into": 28218,
+"org": "banka-addiko",
+"by": "distance",
+"m": 13,
+"from": "Addiko Bank | None",
+"to": "Ekspozitura Immocentar | Blok 64",
+"carry_hours": false
+},
+{
+"location_id": 20107,
+"into": 27883,
+"org": "banka-raiffeisen",
+"by": "distance",
+"m": 43,
+"from": "Raiffeisen bank | None",
+"to": "Mercator BG | Bulevar umetnosti 4",
+"carry_hours": false
+},
+{
+"location_id": 20112,
+"into": 28477,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 80,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Beograd 4 - Blok 62 | Nehruova 56a",
+"carry_hours": false
+},
+{
+"location_id": 20115,
+"into": 27954,
+"org": "banka-unicredit",
+"by": "distance",
+"m": 18,
+"from": "UniCredit Bank | None",
+"to": "Ekspozitura Jurija Gagarina 30b | Jurija Gagarina 30b",
+"carry_hours": false
+},
+{
+"location_id": 20118,
+"into": 28731,
+"org": "banka-3",
+"by": "distance",
+"m": 51,
+"from": "3 Banka | None",
+"to": "Filijala Novi Beograd | Jurija Gagarina 30g",
+"carry_hours": false
+},
+{
+"location_id": 20129,
+"into": 28191,
+"org": "banka-aik",
+"by": "distance",
+"m": 3,
+"from": "AIK banka | None",
+"to": "Filijala Terazije 7-9 | Terazije 7",
+"carry_hours": false
+},
+{
+"location_id": 20131,
+"into": 28720,
+"org": "banka-procredit",
+"by": "distance",
+"m": 19,
+"from": "ProCredit banka | None",
+"to": "Ekspozitura Kalenićeva 2 | Kalenićeva 2",
+"carry_hours": false
+},
+{
+"location_id": 20134,
+"into": 27160,
+"org": "osiguravajuce-drustvo-sava-osiguranje",
+"by": "distance",
+"m": 11,
+"from": "Poslovnica Bulevar Crvene armije 11b | Bulevar Crvene armije 11b",
+"to": "Ekspozitura Beograd Belville | Bulevar Crvene armije br. 11b",
+"carry_hours": false
+},
+{
+"location_id": 20136,
+"into": 28181,
+"org": "banka-aik",
+"by": "distance",
+"m": 6,
+"from": "AIK banka | None",
+"to": "Filijala Vuka Karadžića 10 | Vuka Karadžića 10",
+"carry_hours": false
+},
+{
+"location_id": 20138,
+"into": 28235,
+"org": "banka-erste",
+"by": "distance",
+"m": 6,
+"from": "Erste Bank | None",
+"to": "Filijala Knez Mihailova | Knez Mihailova 39",
+"carry_hours": false
+},
+{
+"location_id": 20141,
+"into": 28120,
+"org": "banka-aik",
+"by": "distance",
+"m": 25,
+"from": "AIK banka | None",
+"to": "Filijala Petrogradska 1 | Petrogradska 1",
+"carry_hours": false
+},
+{
+"location_id": 20144,
+"into": 27960,
+"org": "banka-unicredit",
+"by": "distance",
+"m": 113,
+"from": "UniCredit Bank | None",
+"to": "Ekspozitura Francuska 6 | Francuska 6",
+"carry_hours": false
+},
+{
+"location_id": 20149,
+"into": 28459,
+"org": "banka-postanska-stedionica",
+"by": "street (entry rebuilt from the database)",
+"from": "Ekspozitura | Vojvode Stepe 81",
+"to": "Ekspozitura Beograd 21 - Vojvode Stepe | Vojvode Stepe 81"
+},
+{
+"location_id": 20162,
+"into": 27841,
+"org": "banka-raiffeisen",
+"by": "distance",
+"m": 13,
+"from": "Raiffeisen bank | None",
+"to": "Slavija | Bulevar oslobođenja 7",
+"carry_hours": false
+},
+{
+"location_id": 20163,
+"into": 28384,
+"org": "banka-otp",
+"by": "distance",
+"m": 8,
+"from": "OTP banka | None",
+"to": "Partner ekspozitura Beograd Bulevar Vojvode Mišića 41 | Bulevar Vojvode Mišića 41",
+"carry_hours": false
+},
+{
+"location_id": 20167,
+"into": 27851,
+"org": "banka-raiffeisen",
+"by": "distance",
+"m": 3,
+"from": "Raiffeisen bank | None",
+"to": "Vidikovac | Vidikovački venac 80b",
+"carry_hours": false
+},
+{
+"location_id": 20172,
+"into": 27839,
+"org": "banka-raiffeisen",
+"by": "distance",
+"m": 14,
+"from": "Raiffeisen bank | Crnotravska 7-9",
+"to": "Banjica | Crnotravska 7",
+"carry_hours": false
+},
+{
+"location_id": 20175,
+"into": 28231,
+"org": "banka-erste",
+"by": "distance",
+"m": 7,
+"from": "Erste Bank | None",
+"to": "Filijala Jurija Gagarina | Jurija Gagarina 149",
+"carry_hours": false
+},
+{
+"location_id": 20176,
+"into": 27869,
+"org": "banka-raiffeisen",
+"by": "distance",
+"m": 17,
+"from": "Raiffeisen bank | None",
+"to": "Piramida | Jurija Gagarina 151",
+"carry_hours": false
+},
+{
+"location_id": 20179,
+"into": 28316,
+"org": "banka-otp",
+"by": "distance",
+"m": 10,
+"from": "OTP banka | None",
+"to": "Ekspozitura Kragujevac Atinska bb | Atinska bb",
+"carry_hours": false
+},
+{
+"location_id": 20181,
+"into": 28097,
+"org": "banka-aik",
+"by": "distance",
+"m": 11,
+"from": "Ekspozitura | None",
+"to": "Filijala Trg Radomira Putnika 3 | Trg Radomira Putnika 3",
+"carry_hours": false
+},
+{
+"location_id": 20184,
+"into": 27830,
+"org": "banka-raiffeisen",
+"by": "distance",
+"m": 45,
+"from": "Raiffeisen bank | None",
+"to": "Kragujevac | Trg narodnih heroja 2",
+"carry_hours": false
+},
+{
+"location_id": 20187,
+"into": 28207,
+"org": "banka-addiko",
+"by": "distance",
+"m": 64,
+"from": "Addiko Bank | None",
+"to": "Ekspozitura Kragujevac | Kralja Petra I 11b",
+"carry_hours": false
+},
+{
+"location_id": 20188,
+"into": 28315,
+"org": "banka-otp",
+"by": "distance",
+"m": 9,
+"from": "OTP banka | Kralja Petra prvog 11",
+"to": "Ekspozitura Kragujevac Kralja Petra I 46 | Kralja Petra I 46",
+"carry_hours": false
+},
+{
+"location_id": 20196,
+"into": 28070,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 47,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Save Kovačevića 12b | Save Kovačevića 12b",
+"carry_hours": false
+},
+{
+"location_id": 20199,
+"into": 28722,
+"org": "banka-procredit",
+"by": "distance",
+"m": 20,
+"from": "ProCredit bank | None",
+"to": "Ekspozitura Kralja Petra I 36 | Kralja Petra I 36",
+"carry_hours": false
+},
+{
+"location_id": 20206,
+"into": 28206,
+"org": "banka-addiko",
+"by": "distance",
+"m": 10,
+"from": "Addiko Bank | None",
+"to": "Ekspozitura Niš Dušanova | Dušanova bb",
+"carry_hours": false
+},
+{
+"location_id": 20208,
+"into": 27889,
+"org": "banka-raiffeisen",
+"by": "distance",
+"m": 5,
+"from": "Raiffeisen bank | Trg kralja Milana 13",
+"to": "Niš I | Balkanska 13",
+"carry_hours": false
+},
+{
+"location_id": 20212,
+"into": 28293,
+"org": "banka-otp",
+"by": "distance",
+"m": 13,
+"from": "OTP banka | None",
+"to": "Ekspozitura Niš Bulevar Zorana Đinđića 35 | Bulevar Zorana Đinđića 35",
+"carry_hours": false
+},
+{
+"location_id": 20218,
+"into": 27842,
+"org": "banka-raiffeisen",
+"by": "distance",
+"m": 54,
+"from": "Raiffeisen bank | None",
+"to": "Bezistan | Terazije 27",
+"carry_hours": false
+},
+{
+"location_id": 20219,
+"into": 28117,
+"org": "banka-aik",
+"by": "distance",
+"m": 8,
+"from": "AIK banka | None",
+"to": "Filijala Dečanska 4 | Dečanska 4",
+"carry_hours": false
+},
+{
+"location_id": 20221,
+"into": 28675,
+"org": "banka-halkbank",
+"by": "distance",
+"m": 11,
+"from": "Ekspozitura | None",
+"to": "Filijala Beograd (Makedonska) | Makedonska 21",
+"carry_hours": false
+},
+{
+"location_id": 20223,
+"into": 28470,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 11,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Beograd 31 - Đeram pijaca | Bulevar Kralja Aleksandra 158",
+"carry_hours": false
+},
+{
+"location_id": 20226,
+"into": 28039,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 12,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Knez Mihailova 30 | Knez Mihailova 30",
+"carry_hours": false
+},
+{
+"location_id": 20230,
+"into": 27989,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 54,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Maršala Tita 4 | Maršala Tita 4",
+"carry_hours": false
+},
+{
+"location_id": 20233,
+"into": 28407,
+"org": "banka-nlb-komercijalna",
+"by": "distance",
+"m": 12,
+"from": "NLB Komercijalna banka | Kralja Petra Oslobodioca 22",
+"to": "Ekspozitura Stara Pazova Kralja Petra I Karađorđevića 22 | Kralja Petra I Karađorđevića 22",
+"carry_hours": false
+},
+{
+"location_id": 20238,
+"into": 28140,
+"org": "banka-aik",
+"by": "distance",
+"m": 19,
+"from": "AIK banka | None",
+"to": "Filijala Bulevar Jovana Dučića 5. | Bulevar Jovana Dučića 5",
+"carry_hours": false
+},
+{
+"location_id": 20240,
+"into": 27946,
+"org": "banka-unicredit",
+"by": "distance",
+"m": 37,
+"from": "UniCredit Bank | None",
+"to": "Ekspozitura Kralja Petra I 20 | Kralja Petra I 20",
+"carry_hours": false
+},
+{
+"location_id": 20241,
+"into": 27864,
+"org": "banka-raiffeisen",
+"by": "distance",
+"m": 5,
+"from": "Raiffeisen bank | None",
+"to": "Navigator | Milutina Milankovića 1ž",
+"carry_hours": false
+},
+{
+"location_id": 20243,
+"into": 28345,
+"org": "banka-otp",
+"by": "distance",
+"m": 22,
+"from": "OTP banka | None",
+"to": "„Biznis centar Zemun“ Zemun Magistratski trg 16 | Magistratski trg 16",
+"carry_hours": false
+},
+{
+"location_id": 20258,
+"into": 28351,
+"org": "banka-otp",
+"by": "distance",
+"m": 11,
+"from": "OTP banka | None",
+"to": "Ekspozitura Beograd Partizanske avijacije 10 | Partizanske avijacije 10",
+"carry_hours": false
+},
+{
+"location_id": 20264,
+"into": 28356,
+"org": "banka-otp",
+"by": "distance",
+"m": 144,
+"from": "OTP banka | None",
+"to": "Ekspozitura Beograd Vidikovački venac 80b | Vidikovački venac 80b",
+"carry_hours": false
+},
+{
+"location_id": 20265,
+"into": 28672,
+"org": "banka-halkbank",
+"by": "distance",
+"m": 4,
+"from": "Ekspozitura | None",
+"to": "Filijala Beograd (New Mill) | Bulevar Vojvode Mišića 15",
+"carry_hours": false
+},
+{
+"location_id": 20268,
+"into": 27996,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 7,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Bate Brkića 10a | Bate Brkića 10a",
+"carry_hours": false
+},
+{
+"location_id": 20273,
+"into": 28264,
+"org": "banka-erste",
+"by": "distance",
+"m": 5,
+"from": "Erste Bank | None",
+"to": "Filijala Pančevo | Trg Kralja Petra 10",
+"carry_hours": false
+},
+{
+"location_id": 20274,
+"into": 28697,
+"org": "banka-halkbank",
+"by": "distance",
+"m": 9,
+"from": "Ekspozitura | None",
+"to": "Filijala Pančevo | Trg Kralja Petra I 8",
+"carry_hours": false
+},
+{
+"location_id": 20276,
+"into": 28021,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 8,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Glavna 30 | Glavna 30",
+"carry_hours": false
+},
+{
+"location_id": 20301,
+"into": 27977,
+"org": "banka-unicredit",
+"by": "distance",
+"m": 12,
+"from": "UniCredit Bank | Kralja Aleksandra I Karađorđevića 1",
+"to": "Ekspozitura Aleksandra I Karađorđevića 1 | Aleksandra I Karađorđevića 1",
+"carry_hours": false
+},
+{
+"location_id": 20304,
+"into": 28346,
+"org": "banka-otp",
+"by": "distance",
+"m": 27,
+"from": "OTP banka | None",
+"to": "Ekspozitura Zrenjanin Trg dr Zorana Đinđića bb | Trg dr Zorana Đinđića bb",
+"carry_hours": false
+},
+{
+"location_id": 20308,
+"into": 28512,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 9,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Beograd 27 -Železnik | Darinke Radović 21",
+"carry_hours": false
+},
+{
+"location_id": 20317,
+"into": 28520,
+"org": "banka-postanska-stedionica",
+"by": "street (entry rebuilt from the database)",
+"from": "Ekspozitura | Nikole Pašića 35",
+"to": "Ekspozitura Bor 1 | Nikole Pašića 35"
+},
+{
+"location_id": 20327,
+"into": 27867,
+"org": "banka-raiffeisen",
+"by": "distance",
+"m": 22,
+"from": "Raiffeisen bank | None",
+"to": "Bor | Nikole Pašića 30",
+"carry_hours": false
+},
+{
+"location_id": 20346,
+"into": 28175,
+"org": "banka-aik",
+"by": "distance",
+"m": 9,
+"from": "AikBank | None",
+"to": "Filijala Uroša Martinovića 19N | Uroša Martinovića 19n",
+"carry_hours": false
+},
+{
+"location_id": 20373,
+"into": 28135,
+"org": "banka-aik",
+"by": "distance",
+"m": 6,
+"from": "AIK banka | None",
+"to": "Filijala Petefi Šandora 7 | Petefi Šandora 7",
+"carry_hours": false
+},
+{
+"location_id": 20375,
+"into": 28403,
+"org": "banka-nlb-komercijalna",
+"by": "distance",
+"m": 13,
+"from": "NLB Komercijalna banka | Trg Nikole Tesle 13",
+"to": "Ekspozitura Apatin Petefi Šandora 2 | Petefi Šandora 2",
+"carry_hours": false
+},
+{
+"location_id": 20376,
+"into": 28262,
+"org": "banka-erste",
+"by": "distance",
+"m": 17,
+"from": "Erste Bank | Železnička 26",
+"to": "Filijala Odžaci | Željeznička 26",
+"carry_hours": false
+},
+{
+"location_id": 20388,
+"into": 27940,
+"org": "banka-unicredit",
+"by": "distance",
+"m": 22,
+"from": "UniCredit Bank | None",
+"to": "Ekspozitura Kralja Petra I 23 | Kralja Petra I 23",
+"carry_hours": false
+},
+{
+"location_id": 20389,
+"into": 28099,
+"org": "banka-aik",
+"by": "distance",
+"m": 147,
+"from": "AIK banka | None",
+"to": "Filijala Dimitrija Tucovića 42 | Dimitrija Tucovića 42",
+"carry_hours": false
+},
+{
+"location_id": 20390,
+"into": 28203,
+"org": "banka-addiko",
+"by": "distance",
+"m": 48,
+"from": "Addiko Bank | None",
+"to": "Ekspozitura Užice | Dimitrija Tucovića 38",
+"carry_hours": false
+},
+{
+"location_id": 20401,
+"into": 28342,
+"org": "banka-otp",
+"by": "distance",
+"m": 3,
+"from": "OTP banka | None",
+"to": "Ekspozitura Užice Trg Svetog Save 7 | Trg Svetog Save 7",
+"carry_hours": false
+},
+{
+"location_id": 20404,
+"into": 28342,
+"org": "banka-otp",
+"by": "distance",
+"m": 146,
+"from": "OTP banka | None",
+"to": "Ekspozitura Užice Trg Svetog Save 7 | Trg Svetog Save 7",
+"carry_hours": false
+},
+{
+"location_id": 20414,
+"into": 28660,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 37,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Užice 1 | Slanuška 7",
+"carry_hours": false
+},
+{
+"location_id": 20432,
+"into": 28660,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 6,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Užice 1 | Slanuška 7",
+"carry_hours": false
+},
+{
+"location_id": 20436,
+"into": 28420,
+"org": "banka-nlb-komercijalna",
+"by": "distance",
+"m": 8,
+"from": "NLB Komercijalna banka | None",
+"to": "Ekspozitura Užice Petra Ćelovića 4 | Petra Ćelovića 4",
+"carry_hours": false
+},
+{
+"location_id": 20437,
+"into": 28160,
+"org": "banka-aik",
+"by": "distance",
+"m": 6,
+"from": "AikBank | None",
+"to": "Filijala Petra Ćelovića 2 | Petra Ćelovića 2",
+"carry_hours": false
+},
+{
+"location_id": 20442,
+"into": 28367,
+"org": "banka-otp",
+"by": "distance",
+"m": 9,
+"from": "OTP banka | Trg oslobođenja 18",
+"to": "Ekspozitura Vlasotince Lole Ribara 2 | Lole Ribara 2",
+"carry_hours": false
+},
+{
+"location_id": 20443,
+"into": 28202,
+"org": "banka-addiko",
+"by": "distance",
+"m": 0,
+"from": "Addiko Bank | None",
+"to": "Ekspozitura Bulevar Kralja Aleksandra | Bulevar Kralja Aleksandra 134",
+"carry_hours": false
+},
+{
+"location_id": 20452,
+"into": 28274,
+"org": "banka-erste",
+"by": "distance",
+"m": 99,
+"from": "Erste Bank | None",
+"to": "Šalter Sremska Kamenica Institut | Institut Sremska Kamenica",
+"carry_hours": false
+},
+{
+"location_id": 20453,
+"into": 28257,
+"org": "banka-erste",
+"by": "distance",
+"m": 56,
+"from": "Erste banka | None",
+"to": "Šalter Klinički centar | Hajduk Veljkova 1",
+"carry_hours": false
+},
+{
+"location_id": 20454,
+"into": 28267,
+"org": "banka-erste",
+"by": "distance",
+"m": 29,
+"from": "Erste Bank | None",
+"to": "Ekspres ekspozitura Ruma | Glavna 163",
+"carry_hours": false
+},
+{
+"location_id": 20456,
+"into": 28228,
+"org": "banka-erste",
+"by": "distance",
+"m": 30,
+"from": "Erste Bank | None",
+"to": "Filijala Madridska | Madridska 8",
+"carry_hours": false
+},
+{
+"location_id": 20457,
+"into": 28282,
+"org": "banka-erste",
+"by": "distance",
+"m": 52,
+"from": "Erste Bank | Doktora Dimitrija Jovičića 12",
+"to": "Ekspres ekspozitura Vranje | Dr Dimitrija Jovčića 12",
+"carry_hours": false
+},
+{
+"location_id": 20458,
+"into": 28232,
+"org": "banka-erste",
+"by": "distance",
+"m": 18,
+"from": "Erste Bank | None",
+"to": "Ekspres ekspozitura Savska | Savska 27",
+"carry_hours": false
+},
+{
+"location_id": 20459,
+"into": 28240,
+"org": "banka-erste",
+"by": "distance",
+"m": 0,
+"from": "Erste Bank | None",
+"to": "Filijala Jagodina | Kneginje Milice 65",
+"carry_hours": false
+},
+{
+"location_id": 20460,
+"into": 28281,
+"org": "banka-erste",
+"by": "distance",
+"m": 11,
+"from": "Erste Bank | None",
+"to": "Filijala Velika Plana | Miloša Velikog 99",
+"carry_hours": false
+},
+{
+"location_id": 20461,
+"into": 28279,
+"org": "banka-erste",
+"by": "distance",
+"m": 0,
+"from": "Erste Bank | None",
+"to": "Filijala Ub | Dušana Danilovića 2",
+"carry_hours": false
+},
+{
+"location_id": 20462,
+"into": 28278,
+"org": "banka-erste",
+"by": "distance",
+"m": 43,
+"from": "Erste Bank | None",
+"to": "Filijala Temerin | Novosadska 385",
+"carry_hours": false
+},
+{
+"location_id": 20464,
+"into": 28248,
+"org": "banka-erste",
+"by": "distance",
+"m": 4,
+"from": "Erste Bank | None",
+"to": "Ekspres ekspozitura Niš 2 | Obilićev venac 15a",
+"carry_hours": false
+},
+{
+"location_id": 20467,
+"into": 28271,
+"org": "banka-erste",
+"by": "distance",
+"m": 8,
+"from": "Erste Bank | None",
+"to": "Ekspres ekspozitura Smederevo | Karađorđeva 30",
+"carry_hours": false
+},
+{
+"location_id": 20469,
+"into": 28225,
+"org": "banka-erste",
+"by": "distance",
+"m": 46,
+"from": "Erste Bank | None",
+"to": "Ekspres ekspozitura Cara Dušana | Cara Dušana 3",
+"carry_hours": false
+},
+{
+"location_id": 20470,
+"into": 28270,
+"org": "banka-erste",
+"by": "distance",
+"m": 7,
+"from": "Erste Bank | None",
+"to": "Filijala Smederevo | 17. Oktobar 13",
+"carry_hours": false
+},
+{
+"location_id": 20471,
+"into": 28239,
+"org": "banka-erste",
+"by": "distance",
+"m": 9,
+"from": "Erste Bank | None",
+"to": "Filijala Inđija | Vojvode Stepe 14",
+"carry_hours": false
+},
+{
+"location_id": 20472,
+"into": 28242,
+"org": "banka-erste",
+"by": "distance",
+"m": 10,
+"from": "Erste Bank | None",
+"to": "Filijala Kragujevac | Kralja Petra I 23",
+"carry_hours": false
+},
+{
+"location_id": 20473,
+"into": 28249,
+"org": "banka-erste",
+"by": "distance",
+"m": 7,
+"from": "Erste Bank | None",
+"to": "Filijala Niš | Sinđelićev trg 20",
+"carry_hours": false
+},
+{
+"location_id": 20474,
+"into": 28254,
+"org": "banka-erste",
+"by": "distance",
+"m": 0,
+"from": "Erste Bank | None",
+"to": "Filijala Novi Pazar | 28. Novembra 49",
+"carry_hours": false
+},
+{
+"location_id": 20475,
+"into": 28246,
+"org": "banka-erste",
+"by": "distance",
+"m": 13,
+"from": "Erste Bank | None",
+"to": "Filijala Lazarevac | Branka Radičevića 22",
+"carry_hours": false
+},
+{
+"location_id": 20476,
+"into": 28223,
+"org": "banka-erste",
+"by": "distance",
+"m": 0,
+"from": "Erste Bank | None",
+"to": "Filijala Beočin | Trg Cara Lazara 2",
+"carry_hours": false
+},
+{
+"location_id": 20479,
+"into": 28259,
+"org": "banka-erste",
+"by": "distance",
+"m": 0,
+"from": "Erste Bank | None",
+"to": "Filijala Bulevar Mihajla Pupina | Bulevar Mihaila Pupina 12",
+"carry_hours": false
+},
+{
+"location_id": 20482,
+"into": 28275,
+"org": "banka-erste",
+"by": "distance",
+"m": 0,
+"from": "Erste Bank | None",
+"to": "Filijala Sremska Mitrovica | Sv.Dimitrija 21",
+"carry_hours": false
+},
+{
+"location_id": 20483,
+"into": 28265,
+"org": "banka-erste",
+"by": "street",
+"m": 406,
+"from": "Erste Bank | Tabačka čaršija",
+"to": "Filijala Požarevac | Tabačka čaršija 8",
+"carry_hours": false
+},
+{
+"location_id": 20484,
+"into": 28251,
+"org": "banka-erste",
+"by": "distance",
+"m": 90,
+"from": "Erste Bank | None",
+"to": "Filijala Nova Pazova | Cara Dušana 1",
+"carry_hours": false
+},
+{
+"location_id": 20485,
+"into": 28236,
+"org": "banka-erste",
+"by": "distance",
+"m": 7,
+"from": "Erste Bank | None",
+"to": "Filijala Čačak | Gradsko šetalište 81",
+"carry_hours": false
+},
+{
+"location_id": 20487,
+"into": 28253,
+"org": "banka-erste",
+"by": "distance",
+"m": 18,
+"from": "Erste Bank | None",
+"to": "Filijala VIG Plaza | Trešnjinog cveta 1",
+"carry_hours": false
+},
+{
+"location_id": 20488,
+"into": 28285,
+"org": "banka-erste",
+"by": "distance",
+"m": 3,
+"from": "Erste Bank | None",
+"to": "Filijala Zemun | Glavna 42",
+"carry_hours": false
+},
+{
+"location_id": 20489,
+"into": 28012,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 18,
+"from": "Ekspozitura Kralja Aleksandra I Karađorđevića 3 | Kralja Aleksandra I Karađorđevića 3",
+"to": "Ekspozitura Kralja Aleksandra I Karađorđevića bb | Kralja Aleksandra I Karađorđevića bb",
+"carry_hours": false
+},
+{
+"location_id": 20491,
+"into": 28284,
+"org": "banka-erste",
+"by": "distance",
+"m": 26,
+"from": "Erste Bank | None",
+"to": "Filijala Žabalj | Nikole Tesle 43",
+"carry_hours": false
+},
+{
+"location_id": 20503,
+"into": 28271,
+"org": "banka-erste",
+"by": "street (entry rebuilt from the database)",
+"from": "Erste Bank | Karađorđeva 30",
+"to": "Ekspres ekspozitura Smederevo | Karađorđeva 30"
+},
+{
+"location_id": 20517,
+"into": 27966,
+"org": "banka-unicredit",
+"by": "distance",
+"m": 10,
+"from": "UniCredit Bank | None",
+"to": "Ekspozitura Vojvode Radomira Putnika 22 | Vojvode Radomira Putnika 22",
+"carry_hours": false
+},
+{
+"location_id": 20518,
+"into": 26923,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street",
+"m": 75,
+"from": "Poslovnica Knjaza Miloša 117 | Knjaza Miloša 117",
+"to": "Dunav osiguranje Aleksinac | Knjaza Miloša br. 117",
+"carry_hours": false
+},
+{
+"location_id": 20519,
+"into": 27878,
+"org": "banka-raiffeisen",
+"by": "distance",
+"m": 15,
+"from": "Raiffeisen bank | Generala Petra Aračića",
+"to": "Pančevo | Generala Petra Aračića 4",
+"carry_hours": false
+},
+{
+"location_id": 20520,
+"into": 28055,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 28,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Miloša Crnjanskog 1 | Miloša Crnjanskog 1",
+"carry_hours": false
+},
+{
+"location_id": 20523,
+"into": 28619,
+"org": "banka-postanska-stedionica",
+"by": "street (entry rebuilt from the database)",
+"from": "Ekspozitura | Vojvode Živojina Mišića 2",
+"to": "Samostalni šalter Omoljica | Vojvode Živojina Mišića 2"
+},
+{
+"location_id": 20554,
+"into": 27927,
+"org": "banka-unicredit",
+"by": "distance",
+"m": 42,
+"from": "UniCredit Bank | None",
+"to": "Ekspozitura Dimitrija Tucovića 97 | Dimitrija Tucovića 97",
+"carry_hours": false
+},
+{
+"location_id": 20555,
+"into": 27871,
+"org": "banka-raiffeisen",
+"by": "distance",
+"m": 40,
+"from": "Raiffeisen bank | None",
+"to": "Užice | Dimitrija Tucovića 91",
+"carry_hours": false
+},
+{
+"location_id": 20556,
+"into": 28045,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 19,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Dimitrija Tucovića 129 | Dimitrija Tucovića 129",
+"carry_hours": false
+},
+{
+"location_id": 20557,
+"into": 27871,
+"org": "banka-raiffeisen",
+"by": "distance",
+"m": 14,
+"from": "Raiffeisen bank | None",
+"to": "Užice | Dimitrija Tucovića 91",
+"carry_hours": false
+},
+{
+"location_id": 20569,
+"into": 28709,
+"org": "banka-halkbank",
+"by": "distance",
+"m": 18,
+"from": "Ekspozitura | None",
+"to": "Filijala Užice | Dimitrija Tucovića 151",
+"carry_hours": false
+},
+{
+"location_id": 20591,
+"into": 27938,
+"org": "banka-unicredit",
+"by": "distance",
+"m": 19,
+"from": "UniCredit Bank | None",
+"to": "Ekspozitura Knjaza Miloša 212 | Knjaza Miloša 212",
+"carry_hours": false
+},
+{
+"location_id": 20592,
+"into": 27980,
+"org": "banka-unicredit",
+"by": "distance",
+"m": 4,
+"from": "UniCredit Bank | None",
+"to": "Ekspozitura Novosadska 1a | Novosadska 1a",
+"carry_hours": false
+},
+{
+"location_id": 20593,
+"into": 27968,
+"org": "banka-unicredit",
+"by": "distance",
+"m": 39,
+"from": "UniCredit Bank | None",
+"to": "Ekspozitura Uralska 3 | Uralska 3",
+"carry_hours": false
+},
+{
+"location_id": 20595,
+"into": 27978,
+"org": "banka-unicredit",
+"by": "distance",
+"m": 23,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Sterijina 22 | Sterijina 22",
+"carry_hours": false
+},
+{
+"location_id": 20599,
+"into": 27981,
+"org": "banka-unicredit",
+"by": "distance",
+"m": 29,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Trg srpskih dobrovoljaca 28 | Trg srpskih dobrovoljaca 28",
+"carry_hours": false
+},
+{
+"location_id": 20601,
+"into": 27926,
+"org": "banka-unicredit",
+"by": "distance",
+"m": 28,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Trg kralja Milana bb | Trg kralja Milana bb",
+"carry_hours": false
+},
+{
+"location_id": 20602,
+"into": 27976,
+"org": "banka-unicredit",
+"by": "distance",
+"m": 4,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Vojvode Stepe 16 | Vojvode Stepe 16",
+"carry_hours": false
+},
+{
+"location_id": 20603,
+"into": 27934,
+"org": "banka-unicredit",
+"by": "distance",
+"m": 141,
+"from": "UniCredit Bank | None",
+"to": "Ekspozitura Radnička 3 | Radnička 3",
+"carry_hours": false
+},
+{
+"location_id": 20604,
+"into": 27942,
+"org": "banka-unicredit",
+"by": "distance",
+"m": 40,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Kneza Miloša 2 | Kneza Miloša 2",
+"carry_hours": false
+},
+{
+"location_id": 20605,
+"into": 27931,
+"org": "banka-unicredit",
+"by": "distance",
+"m": 14,
+"from": "UniCredit Bank | None",
+"to": "Ekspozitura Kneza Lazara 1 | Kneza Lazara 1",
+"carry_hours": false
+},
+{
+"location_id": 20607,
+"into": 27933,
+"org": "banka-unicredit",
+"by": "distance",
+"m": 29,
+"from": "UniCredit Bank | None",
+"to": "Ekspozitura Dule Karaklajića 3 | Dule Karaklajića 3",
+"carry_hours": false
+},
+{
+"location_id": 20608,
+"into": 27952,
+"org": "banka-unicredit",
+"by": "distance",
+"m": 11,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Jurija Gagarina 12 | Jurija Gagarina 12",
+"carry_hours": false
+},
+{
+"location_id": 20610,
+"into": 27929,
+"org": "banka-unicredit",
+"by": "distance",
+"m": 42,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Kneza Miloša 13 | Kneza Miloša 13",
+"carry_hours": false
+},
+{
+"location_id": 20612,
+"into": 27928,
+"org": "banka-unicredit",
+"by": "distance",
+"m": 0,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Kralja Aleksandra 2 | Kralja Aleksandra 2",
+"carry_hours": false
+},
+{
+"location_id": 20613,
+"into": 27930,
+"org": "banka-unicredit",
+"by": "distance",
+"m": 0,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Kralja Petra I bb | Kralja Petra I bb",
+"carry_hours": false
+},
+{
+"location_id": 20614,
+"into": 27924,
+"org": "banka-unicredit",
+"by": "distance",
+"m": 9,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Kralja Stefana Prvovenčanog 270 | Kralja Stefana Prvovenčanog 270",
+"carry_hours": false
+},
+{
+"location_id": 20615,
+"into": 22509,
+"org": "banka-unicredit",
+"by": "distance",
+"m": 4,
+"from": "Ekspozitura | None",
+"to": "UniCredit Bank | Kursulina 1",
+"carry_hours": false
+},
+{
+"location_id": 20617,
+"into": 27982,
+"org": "banka-unicredit",
+"by": "distance",
+"m": 13,
+"from": "UniCredit Bank | Narodne bašte 2",
+"to": "Ekspozitura Narodne bašte 4 | Narodne bašte 4",
+"carry_hours": false
+},
+{
+"location_id": 20618,
+"into": 27973,
+"org": "banka-unicredit",
+"by": "distance",
+"m": 44,
+"from": "UniCredit Bank | None",
+"to": "Ekspozitura Narodnih heroja 3 | Narodnih heroja 3",
+"carry_hours": false
+},
+{
+"location_id": 20641,
+"into": 28682,
+"org": "banka-halkbank",
+"by": "distance",
+"m": 18,
+"from": "Ekspozitura Skadarska 7 | Skadarska 7",
+"to": "Filijala Čačak (Skadarska) | Skadarska 19",
+"carry_hours": false
+},
+{
+"location_id": 20655,
+"into": 28398,
+"org": "banka-nlb-komercijalna",
+"by": "distance",
+"m": 6,
+"from": "NLB Komercijalna banka | None",
+"to": "Ekspozitura Beograd Partizanske avijacije 4a | Partizanske avijacije 4a",
+"carry_hours": false
+},
+{
+"location_id": 20660,
+"into": 28334,
+"org": "banka-otp",
+"by": "distance",
+"m": 36,
+"from": "OTP banka | None",
+"to": "Ekspozitura Sečanj Vožda Karađorđa 74 | Vožda Karađorđa 74",
+"carry_hours": false
+},
+{
+"location_id": 20669,
+"into": 28350,
+"org": "banka-otp",
+"by": "distance",
+"m": 7,
+"from": "OTP banka | None",
+"to": "Ekspozitura Surčin Trg Zorana Đinđića 2 | Trg Zorana Đinđića 2",
+"carry_hours": false
+},
+{
+"location_id": 20673,
+"into": 28473,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 11,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Beograd 24 -beograd Zemun (Muhar) | Trg Branka Radičevića 4",
+"carry_hours": false
+},
+{
+"location_id": 20675,
+"into": 28052,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 63,
+"from": "Ekspozitura Marijane Gregoran 58 | Marijane Gregoran 58",
+"to": "Ekspozitura Marijane Gregoran 60 | Marijane Gregoran 60",
+"carry_hours": false
+},
+{
+"location_id": 20676,
+"into": 28069,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 22,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Dr Zorana Đinđića 11a | Dr Zorana Đinđića 11a",
+"carry_hours": false
+},
+{
+"location_id": 21246,
+"into": 28214,
+"org": "banka-addiko",
+"by": "distance",
+"m": 28,
+"from": "Addiko Bank | None",
+"to": "Ekspozitura Pančevo | Generala Petra Aračića 5",
+"carry_hours": false
+},
+{
+"location_id": 21500,
+"into": 28017,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 11,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Miloša Obrenovića 133-135 | Miloša Obrenovića 133",
+"carry_hours": false
+},
+{
+"location_id": 21509,
+"into": 28496,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 96,
+"from": "Ekspozitura Vidikovački venac | Vidikovački venac",
+"to": "Ekspozitura Beograd 20 - Vidikovac | Vidikovački venac 79",
+"carry_hours": false
+},
+{
+"location_id": 21511,
+"into": 27990,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 13,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Trg Vuka Karadžića bb | Trg Vuka Karadžića bb",
+"carry_hours": false
+},
+{
+"location_id": 21520,
+"into": 28174,
+"org": "banka-aik",
+"by": "distance",
+"m": 19,
+"from": "AIK banka | None",
+"to": "Filijala Cara Dušana 58 | Cara Dušana 58",
+"carry_hours": false
+},
+{
+"location_id": 21533,
+"into": 28149,
+"org": "banka-aik",
+"by": "distance",
+"m": 9,
+"from": "AikBank | None",
+"to": "Filijala Knjaževačka 11 | Knjaževačka 11",
+"carry_hours": false
+},
+{
+"location_id": 21537,
+"into": 28674,
+"org": "banka-halkbank",
+"by": "distance",
+"m": 9,
+"from": "Ekspozitura | None",
+"to": "Filijala Beograd (Crveni Krst) | Vojvode Šupljikca 51",
+"carry_hours": false
+},
+{
+"location_id": 21543,
+"into": 28356,
+"org": "banka-otp",
+"by": "distance",
+"m": 13,
+"from": "OTP banka | None",
+"to": "Ekspozitura Beograd Vidikovački venac 80b | Vidikovački venac 80b",
+"carry_hours": false
+},
+{
+"location_id": 21545,
+"into": 28380,
+"org": "banka-otp",
+"by": "distance",
+"m": 26,
+"from": "OTP banka | None",
+"to": "Ekspozitura Zrenjanin Kralja Aleksandra I Karađorđevića 2 | Kralja Aleksandra I Karađorđevića 2",
+"carry_hours": false
+},
+{
+"location_id": 21549,
+"into": 28340,
+"org": "banka-otp",
+"by": "distance",
+"m": 7,
+"from": "OTP banka | None",
+"to": "Ekspozitura Subotica 1 Trg slobode 1 | Trg slobode 1",
+"carry_hours": false
+},
+{
+"location_id": 21550,
+"into": 27030,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Štrosmajerova 24",
+"to": "Dunav osiguranje Subotica | Štrosmajerova br. 24"
+},
+{
+"location_id": 21553,
+"into": 28134,
+"org": "banka-aik",
+"by": "distance",
+"m": 143,
+"from": "AIK banka | None",
+"to": "Filijala Trg Republike 16 | Trg Republike 16",
+"carry_hours": false
+},
+{
+"location_id": 21555,
+"into": 28706,
+"org": "banka-halkbank",
+"by": "distance",
+"m": 22,
+"from": "Ekspozitura | None",
+"to": "Filijala Subotica | Maksima Gorkog 9",
+"carry_hours": false
+},
+{
+"location_id": 21557,
+"into": 28339,
+"org": "banka-otp",
+"by": "distance",
+"m": 28,
+"from": "OTP banka | None",
+"to": "Ekspozitura Subotica Trg Lazara Nešića 3 | Trg Lazara Nešića 3",
+"carry_hours": false
+},
+{
+"location_id": 21559,
+"into": 28717,
+"org": "banka-procredit",
+"by": "distance",
+"m": 34,
+"from": "ProCredit banka | None",
+"to": "Ekspozitura Cara Dušana 3 | Cara Dušana 3",
+"carry_hours": false
+},
+{
+"location_id": 21563,
+"into": 27821,
+"org": "banka-raiffeisen",
+"by": "distance",
+"m": 37,
+"from": "Raiffeisen bank | None",
+"to": "Subotica | Trg republike 12",
+"carry_hours": false
+},
+{
+"location_id": 21564,
+"into": 27983,
+"org": "banka-unicredit",
+"by": "distance",
+"m": 30,
+"from": "UniCredit Bank | None",
+"to": "Ekspozitura Park Rajhla Ferenca 7 | Park Rajhla Ferenca 7",
+"carry_hours": false
+},
+{
+"location_id": 21575,
+"into": 28550,
+"org": "banka-postanska-stedionica",
+"by": "street",
+"m": 504,
+"from": "Ekspozitura Vojvode Petra Bojovića 2 | Vojvode Petra Bojovića 2",
+"to": "Ekspozitura Zrenjanin 1 | Vojvode Petra Bojovića 2a",
+"carry_hours": false
+},
+{
+"location_id": 21578,
+"into": 27882,
+"org": "banka-raiffeisen",
+"by": "distance",
+"m": 21,
+"from": "Raiffeisen bank | None",
+"to": "Zaječar | Nikole Pašića 1",
+"carry_hours": false
+},
+{
+"location_id": 21620,
+"into": 28133,
+"org": "banka-aik",
+"by": "distance",
+"m": 7,
+"from": "AIK banka | None",
+"to": "Filijala Ulica generala Petra Aračića 2 | generala Petra Aračića 2",
+"carry_hours": false
+},
+{
+"location_id": 21622,
+"into": 27888,
+"org": "banka-raiffeisen",
+"by": "distance",
+"m": 17,
+"from": "Raiffeisen bank | None",
+"to": "Južni bulevar | Maksima Gorkog 75",
+"carry_hours": false
+},
+{
+"location_id": 21638,
+"into": 27872,
+"org": "banka-raiffeisen",
+"by": "distance",
+"m": 43,
+"from": "Raiffeisen bank | None",
+"to": "Trgovačka | Trgovačka 5",
+"carry_hours": false
+},
+{
+"location_id": 21639,
+"into": 28521,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 82,
+"from": "Ekspozitura | None",
+"to": "Samostalni šalter Zlot | Trg Petra Radovanovića bb",
+"carry_hours": false
+},
+{
+"location_id": 21645,
+"into": 28019,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 6,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Partizanske avijacije 14 | Partizanske avijacije 14",
+"carry_hours": false
+},
+{
+"location_id": 21655,
+"into": 28056,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 58,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Karađorđeva 2-4 | Karađorđeva 2",
+"carry_hours": false
+},
+{
+"location_id": 21657,
+"into": 28723,
+"org": "banka-procredit",
+"by": "distance",
+"m": 7,
+"from": "ProCredit banka | None",
+"to": "Ekspozitura Miloša Obrenovića 19 | Miloša Obrenovića 19",
+"carry_hours": false
+},
+{
+"location_id": 21682,
+"into": 28173,
+"org": "banka-aik",
+"by": "distance",
+"m": 9,
+"from": "AikBank | None",
+"to": "Filijala Balkanska 49 | Balkanska 49",
+"carry_hours": false
+},
+{
+"location_id": 21727,
+"into": 28332,
+"org": "banka-otp",
+"by": "distance",
+"m": 2,
+"from": "OTP banka | None",
+"to": "Ekspozitura Raška Nemanjina 13 | Nemanjina 13",
+"carry_hours": false
+},
+{
+"location_id": 21728,
+"into": 28713,
+"org": "banka-halkbank",
+"by": "distance",
+"m": 10,
+"from": "Ekspozitura | None",
+"to": "Filijala Zrenjanin | Kralja Aleksandra I Karađorđevića 17",
+"carry_hours": false
+},
+{
+"location_id": 21729,
+"into": 28286,
+"org": "banka-erste",
+"by": "distance",
+"m": 92,
+"from": "Erste Bank | None",
+"to": "Filijala Zrenjanin | Kralja Aleksandra 1",
+"carry_hours": false
+},
+{
+"location_id": 21730,
+"into": 27360,
+"org": "osiguravajuce-drustvo-globos-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Dimitrija Tucovića 1a",
+"to": "Globos osiguranje Pančevo | Dimitrija Tucovića 1a"
+},
+{
+"location_id": 21746,
+"into": 28387,
+"org": "banka-otp",
+"by": "distance",
+"m": 26,
+"from": "OTP banka | Jurija Gagarina 76n",
+"to": "Ekspozitura za fizička lica Beograd Jurija Gagarina 76 | Jurija Gagarina 76",
+"carry_hours": false
+},
+{
+"location_id": 21754,
+"into": 28608,
+"org": "banka-postanska-stedionica",
+"by": "street (entry rebuilt from the database)",
+"from": "Ekspozitura | Kralja Petra I 1",
+"to": "Samostalni šalter Begeč | Kralja Petra I 1"
+},
+{
+"location_id": 21755,
+"into": 28078,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 128,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura 22. septembra 9 | 22. septembra 9",
+"carry_hours": false
+},
+{
+"location_id": 21757,
+"into": 28109,
+"org": "banka-aik",
+"by": "distance",
+"m": 14,
+"from": "AIK banka | None",
+"to": "Filijala Kralja Aleksandra I Karađorđevića 8 | Kralja Aleksandra I Karađorđevića 8",
+"carry_hours": false
+},
+{
+"location_id": 21766,
+"into": 28510,
+"org": "banka-postanska-stedionica",
+"by": "street (entry rebuilt from the database)",
+"from": "Ekspozitura | Kirovljeva 5",
+"to": "Ekspozitura Beograd 1 - Banovo brdo | Kirovljeva 5"
+},
+{
+"location_id": 21769,
+"into": 27865,
+"org": "banka-raiffeisen",
+"by": "distance",
+"m": 64,
+"from": "Raiffeisen bank | None",
+"to": "Ušće | Bulevar Mihaila Pupina 4",
+"carry_hours": false
+},
+{
+"location_id": 21780,
+"into": 28503,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 5,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Beograd 32 - Dorćol | Cara Dušana 6",
+"carry_hours": false
+},
+{
+"location_id": 21789,
+"into": 27822,
+"org": "banka-raiffeisen",
+"by": "distance",
+"m": 139,
+"from": "Ekspozitura Jurija Gagarina 76m | Jurija Gagarina 76m",
+"to": "Jurija Gagarina 76 | Jurija Gagarina 76",
+"carry_hours": false
+},
+{
+"location_id": 21793,
+"into": 28476,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 12,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Lazarevac 1 | Branka Radičevića 8",
+"carry_hours": false
+},
+{
+"location_id": 21810,
+"into": 28696,
+"org": "banka-halkbank",
+"by": "distance",
+"m": 29,
+"from": "Ekspozitura | None",
+"to": "Filijala Novi Sad | Bul. Oslobođenja 30",
+"carry_hours": false
+},
+{
+"location_id": 21814,
+"into": 28344,
+"org": "banka-otp",
+"by": "distance",
+"m": 22,
+"from": "OTP banka | None",
+"to": "Ekspozitura Vršac Dositejeva 2 | Dositejeva 2",
+"carry_hours": false
+},
+{
+"location_id": 21816,
+"into": 28146,
+"org": "banka-aik",
+"by": "distance",
+"m": 5,
+"from": "AikBank | None",
+"to": "Filijala Pašićeva 8 | Pašićeva 8",
+"carry_hours": false
+},
+{
+"location_id": 21817,
+"into": 28161,
+"org": "banka-aik",
+"by": "distance",
+"m": 14,
+"from": "AIK banka | None",
+"to": "Filijala Trg FAP-a 1 | Trg FAP-a 1",
+"carry_hours": false
+},
+{
+"location_id": 21823,
+"into": 28654,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 24,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Topola 1 | Princa Tomislava Karađorđevića 2",
+"carry_hours": false
+},
+{
+"location_id": 21824,
+"into": 28061,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 141,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Tomislava Karađorđevića 3 | Tomislava Karađorđevića 3",
+"carry_hours": false
+},
+{
+"location_id": 21829,
+"into": 28121,
+"org": "banka-aik",
+"by": "distance",
+"m": 44,
+"from": "AikBank | None",
+"to": "Filijala Bulevar Mihaila Pupina 165g | Bulevar Mihaila Pupina 165g",
+"carry_hours": false
+},
+{
+"location_id": 21831,
+"into": 28556,
+"org": "banka-postanska-stedionica",
+"by": "street (entry rebuilt from the database)",
+"from": "Ekspozitura | Trg oslobođenja 18",
+"to": "Ekspozitura Knjaževac 1 | Trg oslobođenja 18"
+},
+{
+"location_id": 21852,
+"into": 28369,
+"org": "banka-otp",
+"by": "distance",
+"m": 16,
+"from": "OTP banka | None",
+"to": "Ekspozitura Zaječar Svetozara Markovića 1 | Svetozara Markovića 1",
+"carry_hours": false
+},
+{
+"location_id": 21855,
+"into": 28291,
+"org": "banka-otp",
+"by": "distance",
+"m": 8,
+"from": "OTP banka | None",
+"to": "Ekspozitura Bela Palanka Srpskih vladara 60-2 | Srpskih vladara 60",
+"carry_hours": false
+},
+{
+"location_id": 21861,
+"into": 28728,
+"org": "banka-procredit",
+"by": "distance",
+"m": 19,
+"from": "ProCredit banka | None",
+"to": "Ekspozitura Vizantijski bulevar bb | Vizantijski bulevar bb",
+"carry_hours": false
+},
+{
+"location_id": 21863,
+"into": 28719,
+"org": "banka-procredit",
+"by": "distance",
+"m": 53,
+"from": "ProCredit banka | None",
+"to": "Ekspozitura Gospodar Jovanova 12 | Gospodar Jovanova 12",
+"carry_hours": false
+},
+{
+"location_id": 21864,
+"into": 28726,
+"org": "banka-procredit",
+"by": "distance",
+"m": 9,
+"from": "ProCredit banka | None",
+"to": "Ekspozitura Ulica Glavna 47 | Glavna 47",
+"carry_hours": false
+},
+{
+"location_id": 21888,
+"into": 28760,
+"org": "banka-3",
+"by": "distance",
+"m": 30,
+"from": "3 Banka | None",
+"to": "Poslovnica Velika Plana | Svetosavska 11",
+"carry_hours": false
+},
+{
+"location_id": 21889,
+"into": 28527,
+"org": "banka-postanska-stedionica",
+"by": "street (entry rebuilt from the database)",
+"from": "Ekspozitura | Miloša Velikog 34",
+"to": "Ekspozitura Velika Plana 1 | Miloša Velikog 34"
+},
+{
+"location_id": 21892,
+"into": 28525,
+"org": "banka-postanska-stedionica",
+"by": "street (entry rebuilt from the database)",
+"from": "Ekspozitura | dr Pantića 99",
+"to": "Ekspozitura Valjevo 1 | dr Pantića 99"
+},
+{
+"location_id": 21900,
+"into": 28341,
+"org": "banka-otp",
+"by": "distance",
+"m": 52,
+"from": "OTP banka | Miodrag Čajetinac Čajka 1",
+"to": "Ekspozitura Trstenik Miodraga Čajetinca Čajke 1 | Miodraga Čajetinca Čajke 1",
+"carry_hours": false
+},
+{
+"location_id": 21901,
+"into": 28656,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 4,
+"from": "Ekspozitura Miodrag Čajetinac Čajka 11 | Miodrag Čajetinac Čajka 11",
+"to": "Ekspozitura Trstenik 1 | Miodraga Čajetinca Čajke 11",
+"carry_hours": false
+},
+{
+"location_id": 21904,
+"into": 27891,
+"org": "banka-raiffeisen",
+"by": "distance",
+"m": 30,
+"from": "Raiffeisen bank | None",
+"to": "Kragujevac | Kralja Petra I 7",
+"carry_hours": false
+},
+{
+"location_id": 21910,
+"into": 28511,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 8,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Beograd 10 - Filmski Grad | Kneza Višeslava 136",
+"carry_hours": false
+},
+{
+"location_id": 21915,
+"into": 26993,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Kneza Miloša 3",
+"to": "Dunav osiguranje Loznica | Kneza Miloša br. 3"
+},
+{
+"location_id": 21916,
+"into": 27862,
+"org": "banka-raiffeisen",
+"by": "distance",
+"m": 33,
+"from": "Raiffeisen bank | None",
+"to": "Loznica | Kneza Miloša 2",
+"carry_hours": false
+},
+{
+"location_id": 21921,
+"into": 28500,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 115,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Beograd 33 - Beograd na vodi | Hercegovačka 19",
+"carry_hours": false
+},
+{
+"location_id": 21944,
+"into": 28212,
+"org": "banka-addiko",
+"by": "distance",
+"m": 17,
+"from": "Addiko Bank | None",
+"to": "Ekspozitura Kikinda | Generala Drapšina 13",
+"carry_hours": false
+},
+{
+"location_id": 21945,
+"into": 28241,
+"org": "banka-erste",
+"by": "distance",
+"m": 30,
+"from": "Erste bank | Braće Tatić 6",
+"to": "Filijala Kikinda | Braće Tatića 6",
+"carry_hours": false
+},
+{
+"location_id": 21953,
+"into": 28739,
+"org": "banka-3",
+"by": "distance",
+"m": 17,
+"from": "3 Banka | None",
+"to": "Poslovnica Kikinda | Svetosavska 110",
+"carry_hours": false
+},
+{
+"location_id": 21958,
+"into": 28227,
+"org": "banka-erste",
+"by": "distance",
+"m": 3,
+"from": "Erste Bank | None",
+"to": "Ekspres ekspozitura Vojvode Stepe | Vojvode Stepe 95",
+"carry_hours": false
+},
+{
+"location_id": 21959,
+"into": 28676,
+"org": "banka-halkbank",
+"by": "distance",
+"m": 6,
+"from": "Ekspozitura | None",
+"to": "Filijala Beograd (Vojvode Stepe) | Vojvode Stepe 93",
+"carry_hours": false
+},
+{
+"location_id": 21960,
+"into": 27853,
+"org": "banka-raiffeisen",
+"by": "distance",
+"m": 26,
+"from": "Raiffeisen bank | None",
+"to": "Obrenovac | Kneza Mihaila 6",
+"carry_hours": false
+},
+{
+"location_id": 21964,
+"into": 28325,
+"org": "banka-otp",
+"by": "distance",
+"m": 23,
+"from": "OTP banka | None",
+"to": "Ekspozitura Obrenovac Karađorđeva 6 | Karađorđeva 6",
+"carry_hours": false
+},
+{
+"location_id": 21967,
+"into": 28499,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 24,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Beograd 23 - Prokop | Zorana Žunkovića 15",
+"carry_hours": false
+},
+{
+"location_id": 21977,
+"into": 28695,
+"org": "banka-halkbank",
+"by": "distance",
+"m": 24,
+"from": "Ekspozitura | None",
+"to": "Filijala Novi Sad - Dunavski Park | Ignjata Pavlasa 2",
+"carry_hours": false
+},
+{
+"location_id": 21983,
+"into": 27029,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Kralja Petra I 6",
+"to": "Dunav osiguranje Stara Pazova | Kralja Petra I br. 6"
+},
+{
+"location_id": 22001,
+"into": 28221,
+"org": "banka-erste",
+"by": "distance",
+"m": 20,
+"from": "Erste Bank | Kralja Petra prvog 17",
+"to": "Filijala Bačka Palanka | Kralja Petra I 15",
+"carry_hours": false
+},
+{
+"location_id": 22002,
+"into": 28245,
+"org": "banka-erste",
+"by": "street (entry rebuilt from the database)",
+"from": "Erste Bank | Gazimestanska 14",
+"to": "Filijala Kruševac | Gazimestanska 14"
+},
+{
+"location_id": 22004,
+"into": 28229,
+"org": "banka-erste",
+"by": "distance",
+"m": 13,
+"from": "Erste Bank | None",
+"to": "Ekspres ekspozitura Gospodara Vučića | Ravanička 52",
+"carry_hours": false
+},
+{
+"location_id": 22005,
+"into": 27908,
+"org": "banka-raiffeisen",
+"by": "distance",
+"m": 75,
+"from": "Raiffeisen bank | Kralja Aleksandra I Karađorđevića 41",
+"to": "Zrenjanin | Kralja Aleksandra Karađorđevića 41",
+"carry_hours": false
+},
+{
+"location_id": 22007,
+"into": 28689,
+"org": "banka-halkbank",
+"by": "distance",
+"m": 16,
+"from": "Ekspozitura | None",
+"to": "Filijala Kraljevo | Trg Jovana Sarića 8",
+"carry_hours": false
+},
+{
+"location_id": 22018,
+"into": 28201,
+"org": "banka-addiko",
+"by": "distance",
+"m": 12,
+"from": "Addiko Bank | None",
+"to": "Ekspozitura Nušićeva | Nušićeva 27",
+"carry_hours": false
+},
+{
+"location_id": 22021,
+"into": 27897,
+"org": "banka-raiffeisen",
+"by": "distance",
+"m": 72,
+"from": "Raiffeisen bank | None",
+"to": "Bulevar kralja Aleksandra 518 | Bulevar kralja Aleksandra 518",
+"carry_hours": false
+},
+{
+"location_id": 22022,
+"into": 28118,
+"org": "banka-aik",
+"by": "distance",
+"m": 11,
+"from": "AIK banka | None",
+"to": "Filijala Ustanička 264 | Ustanička 264",
+"carry_hours": false
+},
+{
+"location_id": 22024,
+"into": 28085,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 48,
+"from": "Ekspozitura Trg Đorđa Stanojevića 70a | Trg Đorđa Stanojevića 70a",
+"to": "Ekspozitura Trg Đorđa Stanojevića 70/II | Trg Đorđa Stanojevića 70",
+"carry_hours": false
+},
+{
+"location_id": 22025,
+"into": 28154,
+"org": "banka-aik",
+"by": "distance",
+"m": 2,
+"from": "AikBank | None",
+"to": "Filijala Trg Đorđa Stanojevića 68/1 | Trg Đorđa Stanojevića 68/1",
+"carry_hours": false
+},
+{
+"location_id": 22026,
+"into": 28437,
+"org": "banka-nlb-komercijalna",
+"by": "distance",
+"m": 5,
+"from": "NLB Komercijalna banka | None",
+"to": "Ekspozitura Negotin Trg Đorđa Stanojevića 11-3 | Trg Đorđa Stanojevića 11",
+"carry_hours": false
+},
+{
+"location_id": 22030,
+"into": 28042,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 3,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Kolarčeva 5 Magnifica CENTAR | Kolarčeva 5",
+"carry_hours": false
+},
+{
+"location_id": 22041,
+"into": 28364,
+"org": "banka-otp",
+"by": "distance",
+"m": 4,
+"from": "OTP banka | None",
+"to": "Ekspozitura Beograd Bratstva i jedinstva 73 | Bratstva i jedinstva 73",
+"carry_hours": false
+},
+{
+"location_id": 22047,
+"into": 27921,
+"org": "banka-raiffeisen",
+"by": "distance",
+"m": 23,
+"from": "Raiffeisen bank | None",
+"to": "Mihajla Pupina | Narodnih heroja 3",
+"carry_hours": false
+},
+{
+"location_id": 22081,
+"into": 28233,
+"org": "banka-erste",
+"by": "distance",
+"m": 19,
+"from": "Erste Bank | None",
+"to": "Filijala BW Metropolitan | Bulevar Vudroa Vilsona, 4a",
+"carry_hours": false
+},
+{
+"location_id": 22082,
+"into": 28250,
+"org": "banka-erste",
+"by": "distance",
+"m": 15,
+"from": "Erste Bank | None",
+"to": "Ekspres ekspozitura Niš | Sedmog jula 22",
+"carry_hours": false
+},
+{
+"location_id": 22085,
+"into": 28646,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 22,
+"from": "Ekspozitura Trg Patrijarha Brankovića 6 | Trg Patrijarha Brankovića 6",
+"to": "Samostalni šalter Sremski Karlovci | Trg patrijarha Brankovića bb",
+"carry_hours": false
+},
+{
+"location_id": 22088,
+"into": 28244,
+"org": "banka-erste",
+"by": "distance",
+"m": 28,
+"from": "Erste Bank | None",
+"to": "Filijala Kraljevo | Hajduk Veljkova 16",
+"carry_hours": false
+},
+{
+"location_id": 22094,
+"into": 28425,
+"org": "banka-nlb-komercijalna",
+"by": "distance",
+"m": 39,
+"from": "NLB Komercijalna banka | None",
+"to": "Ekspozitura Niš Trg kralja Aleksandra 2 (PC Aleksandrija) | Trg kralja Aleksandra 2",
+"carry_hours": false
+},
+{
+"location_id": 22095,
+"into": 28626,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 4,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Požega 1 | Nikole Pašića 2",
+"carry_hours": false
+},
+{
+"location_id": 22097,
+"into": 28331,
+"org": "banka-otp",
+"by": "distance",
+"m": 10,
+"from": "OTP banka | Knjaza Miloša 1",
+"to": "Ekspozitura Požega Knjaza Miloša Obrenovića 1 | Knjaza Miloša Obrenovića 1",
+"carry_hours": false
+},
+{
+"location_id": 22111,
+"into": 28378,
+"org": "banka-otp",
+"by": "distance",
+"m": 9,
+"from": "OTP banka | None",
+"to": "„Biznis centar“ Novi Sad Hajduk Veljkova 11 | Hajduk Veljkova 11",
+"carry_hours": false
+},
+{
+"location_id": 22118,
+"into": 27909,
+"org": "banka-raiffeisen",
+"by": "distance",
+"m": 18,
+"from": "Raiffeisen bank | None",
+"to": "Arilje | Svetog Ahilija 20",
+"carry_hours": false
+},
+{
+"location_id": 22119,
+"into": 28159,
+"org": "banka-aik",
+"by": "distance",
+"m": 5,
+"from": "AIK banka | None",
+"to": "Filijala Svetog Ahilija 24 | Svetog Ahilija 24",
+"carry_hours": false
+},
+{
+"location_id": 22120,
+"into": 28451,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 21,
+"from": "Ekspozitura Braće Mihailovića 23 | Braće Mihailovića 23",
+"to": "Ekspozitura Arilje 1 | Braće Mihajlović 23",
+"carry_hours": false
+},
+{
+"location_id": 22121,
+"into": 28035,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 10,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Trgovačka 15 | Trgovačka 15",
+"carry_hours": false
+},
+{
+"location_id": 22125,
+"into": 26956,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Bratstva i Jedinstva 2",
+"to": "Dunav osiguranje Borča | Bratstva i Jedinstva 2"
+},
+{
+"location_id": 22146,
+"into": 28363,
+"org": "banka-otp",
+"by": "distance",
+"m": 11,
+"from": "OTP banka | None",
+"to": "Ekspozitura Beograd Kraljice Marije 14 | Kraljice Marije 14",
+"carry_hours": false
+},
+{
+"location_id": 22147,
+"into": 28145,
+"org": "banka-aik",
+"by": "distance",
+"m": 59,
+"from": "AIK banka | Trg Šabačkih žrtava",
+"to": "Filijala Trg šabačkih žrtava bb | Trg šabačkih žrtava bb",
+"carry_hours": false
+},
+{
+"location_id": 22150,
+"into": 28478,
+"org": "banka-postanska-stedionica",
+"by": "street (entry rebuilt from the database)",
+"from": "Ekspozitura | Omladinskih brigada 65v",
+"to": "Ekspozitura Beograd 3 - Blok 70a | Omladinskih brigada 65v"
+},
+{
+"location_id": 22158,
+"into": 28276,
+"org": "banka-erste",
+"by": "distance",
+"m": 4,
+"from": "Erste Bank | Jovana Jovanovića Zmaja 18b",
+"to": "Filijala Sremski Karlovci | Jovana Jovanovića Zmaja 18",
+"carry_hours": false
+},
+{
+"location_id": 22160,
+"into": 28474,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 4,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Beograd 9 - Batajnica | ul.Majora Zorana Radosavljevića 96",
+"carry_hours": false
+},
+{
+"location_id": 22162,
+"into": 28170,
+"org": "banka-aik",
+"by": "distance",
+"m": 5,
+"from": "AikBank | None",
+"to": "Filijala Vojvode Mišića 52 | Vojvode Mišića 52",
+"carry_hours": false
+},
+{
+"location_id": 22171,
+"into": 28439,
+"org": "banka-nlb-komercijalna",
+"by": "distance",
+"m": 150,
+"from": "NLB Komercijalna banka | 22. septembar 11",
+"to": "Ekspozitura Kladovo 22. septembra 11 | 22. septembra 11",
+"carry_hours": false
+},
+{
+"location_id": 22173,
+"into": 28433,
+"org": "banka-nlb-komercijalna",
+"by": "distance",
+"m": 8,
+"from": "NLB Komercijalna banka | None",
+"to": "Ekspozitura Bujanovac Trg Karađorđa Petrovića bb | Trg Karađorđa Petrovića bb",
+"carry_hours": false
+},
+{
+"location_id": 22174,
+"into": 28365,
+"org": "banka-otp",
+"by": "distance",
+"m": 2,
+"from": "OTP banka | None",
+"to": "Ekspozitura Bujanovac Karađorđa Petrovića bb | Karađorđa Petrovića bb",
+"carry_hours": false
+},
+{
+"location_id": 22176,
+"into": 28288,
+"org": "banka-otp",
+"by": "distance",
+"m": 149,
+"from": "OTP banka | Kralja Stefana Prvovenčanog 61",
+"to": "Ekspozitura Vranje Stefana Prvovenčanog 61 | Stefana Prvovenčanog 61",
+"carry_hours": false
+},
+{
+"location_id": 22182,
+"into": 28029,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 8,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Požeška 65b | Požeška 65b",
+"carry_hours": false
+},
+{
+"location_id": 22184,
+"into": 28215,
+"org": "banka-addiko",
+"by": "distance",
+"m": 55,
+"from": "Addiko Bank | None",
+"to": "Ekspozitura Novi Sad | Bul. oslobođenja 29",
+"carry_hours": false
+},
+{
+"location_id": 22185,
+"into": 28082,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 89,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Sinđelićev trg 18 | Sinđelićev trg 18",
+"carry_hours": false
+},
+{
+"location_id": 22186,
+"into": 28079,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 7,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Milojka Lešjanina 1 | Milojka Lešjanina 1",
+"carry_hours": false
+},
+{
+"location_id": 22187,
+"into": 28083,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 5,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Bulevar Nemanjića 28-32 | Bulevar Nemanjića 28",
+"carry_hours": false
+},
+{
+"location_id": 22188,
+"into": 28084,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 8,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Vizantijski bulevar 21 | Vizantijski bulevar 21",
+"carry_hours": false
+},
+{
+"location_id": 22192,
+"into": 28360,
+"org": "banka-otp",
+"by": "distance",
+"m": 118,
+"from": "OTP banka | None",
+"to": "Ekspozitura Pančevo Trg Kralja Petra 6 | Trg Kralja Petra 6",
+"carry_hours": false
+},
+{
+"location_id": 22207,
+"into": 28424,
+"org": "banka-nlb-komercijalna",
+"by": "distance",
+"m": 138,
+"from": "NLB Komercijalna banka | Nikole Pašića 41",
+"to": "Ekspozitura Niš Nikole Pašića 32b | Nikole Pašića 32b",
+"carry_hours": false
+},
+{
+"location_id": 22214,
+"into": 27860,
+"org": "banka-raiffeisen",
+"by": "distance",
+"m": 59,
+"from": "Raiffeisen bank | None",
+"to": "Ada Mall | Radnička 9",
+"carry_hours": false
+},
+{
+"location_id": 22228,
+"into": 28099,
+"org": "banka-aik",
+"by": "distance",
+"m": 45,
+"from": "AikBank | None",
+"to": "Filijala Dimitrija Tucovića 42 | Dimitrija Tucovića 42",
+"carry_hours": false
+},
+{
+"location_id": 22229,
+"into": 28199,
+"org": "banka-aik",
+"by": "distance",
+"m": 95,
+"from": "AIK banka | None",
+"to": "Filijala Generala Milojka Lešjanina 19 | Generala Milojka Lešjanina 19",
+"carry_hours": false
+},
+{
+"location_id": 22230,
+"into": 28111,
+"org": "banka-aik",
+"by": "distance",
+"m": 7,
+"from": "AIK banka | None",
+"to": "Filijala Glavna 37 | Glavna 37",
+"carry_hours": false
+},
+{
+"location_id": 22231,
+"into": 28112,
+"org": "banka-aik",
+"by": "distance",
+"m": 9,
+"from": "AIK banka | None",
+"to": "Filijala Jurija Gagarina 32 | Jurija Gagarina 32",
+"carry_hours": false
+},
+{
+"location_id": 22232,
+"into": 28134,
+"org": "banka-aik",
+"by": "distance",
+"m": 82,
+"from": "AIK banka | None",
+"to": "Filijala Trg Republike 16 | Trg Republike 16",
+"carry_hours": false
+},
+{
+"location_id": 22233,
+"into": 28125,
+"org": "banka-aik",
+"by": "distance",
+"m": 4,
+"from": "AIK banka | None",
+"to": "Filijala Kralja Petra I 9 | Kralja Petra I 9",
+"carry_hours": false
+},
+{
+"location_id": 22234,
+"into": 28095,
+"org": "banka-aik",
+"by": "distance",
+"m": 11,
+"from": "AIK banka | None",
+"to": "Filijala Kuželjeva 2 | Kuželjeva 2",
+"carry_hours": false
+},
+{
+"location_id": 22235,
+"into": 28089,
+"org": "banka-aik",
+"by": "distance",
+"m": 6,
+"from": "AIK banka | None",
+"to": "Filijala Požeška 66 | Požeška 66",
+"carry_hours": false
+},
+{
+"location_id": 22238,
+"into": 28119,
+"org": "banka-aik",
+"by": "distance",
+"m": 8,
+"from": "AikBank | None",
+"to": "Filijala Borska 44 | Borska 44",
+"carry_hours": false
+},
+{
+"location_id": 22239,
+"into": 28129,
+"org": "banka-aik",
+"by": "distance",
+"m": 35,
+"from": "AikBank | None",
+"to": "Filijala Bulevar Arsenija Čarnojevića 59A | Bulevar Arsenija Čarnojevića 59a",
+"carry_hours": false
+},
+{
+"location_id": 22240,
+"into": 28091,
+"org": "banka-aik",
+"by": "distance",
+"m": 12,
+"from": "AikBank | None",
+"to": "Filijala Bulevar kralja Aleksandra 18 | Bulevar kralja Aleksandra 18",
+"carry_hours": false
+},
+{
+"location_id": 22241,
+"into": 28110,
+"org": "banka-aik",
+"by": "distance",
+"m": 7,
+"from": "AIK banka | None",
+"to": "Filijala Bulevar Mihajla Pupina 2 | Bulevar Mihajla Pupina 2",
+"carry_hours": false
+},
+{
+"location_id": 22242,
+"into": 28126,
+"org": "banka-aik",
+"by": "distance",
+"m": 12,
+"from": "AIK banka | None",
+"to": "Filijala Bulevar Nemanjića 25 | Bulevar Nemanjića 25",
+"carry_hours": false
+},
+{
+"location_id": 22243,
+"into": 28127,
+"org": "banka-aik",
+"by": "distance",
+"m": 24,
+"from": "AIK banka | None",
+"to": "Filijala Galerija - Vudroa Vilsona 14 | Galerija - Vudroa Vilsona 14",
+"carry_hours": false
+},
+{
+"location_id": 22244,
+"into": 28104,
+"org": "banka-aik",
+"by": "distance",
+"m": 20,
+"from": "AikBank | None",
+"to": "Filijala Bulevar Dr Zorana Đinđića 4 | Bulevar Dr Zorana Đinđića 4",
+"carry_hours": false
+},
+{
+"location_id": 22245,
+"into": 28113,
+"org": "banka-aik",
+"by": "distance",
+"m": 6,
+"from": "AikBank | None",
+"to": "Filijala Gazimestanska bb | Gazimestanska bb",
+"carry_hours": false
+},
+{
+"location_id": 22246,
+"into": 28101,
+"org": "banka-aik",
+"by": "distance",
+"m": 48,
+"from": "AIK banka | None",
+"to": "Filijala Kneginje Milice 73 | Kneginje Milice 73",
+"carry_hours": false
+},
+{
+"location_id": 22248,
+"into": 28106,
+"org": "banka-aik",
+"by": "distance",
+"m": 18,
+"from": "AikBank | None",
+"to": "Filijala Kralja Stefana Prvovenčanog 169 | Kralja Stefana Prvovenčanog 169",
+"carry_hours": false
+},
+{
+"location_id": 22249,
+"into": 28130,
+"org": "banka-aik",
+"by": "distance",
+"m": 32,
+"from": "AIK banka | None",
+"to": "Filijala Krfska 16 | Krfska 16",
+"carry_hours": false
+},
+{
+"location_id": 22251,
+"into": 28105,
+"org": "banka-aik",
+"by": "distance",
+"m": 0,
+"from": "AIK banka | None",
+"to": "Filijala Save Kovačevića 7 | Save Kovačevića 7",
+"carry_hours": false
+},
+{
+"location_id": 22252,
+"into": 28107,
+"org": "banka-aik",
+"by": "distance",
+"m": 0,
+"from": "AIK banka | None",
+"to": "Filijala Vojvode Stepe 13 | Vojvode Stepe 13",
+"carry_hours": false
+},
+{
+"location_id": 22254,
+"into": 28090,
+"org": "banka-aik",
+"by": "distance",
+"m": 19,
+"from": "AIK banka | None",
+"to": "Filijala Vojvode Stepe 2L | Vojvode Stepe 2l",
+"carry_hours": false
+},
+{
+"location_id": 22255,
+"into": 28087,
+"org": "banka-aik",
+"by": "distance",
+"m": 11,
+"from": "AIK banka | None",
+"to": "Filijala Bulevar Mihajla Pupina 115đ Grawe | Bulevar Mihajla Pupina 115đ",
+"carry_hours": false
+},
+{
+"location_id": 22257,
+"into": 28318,
+"org": "banka-otp",
+"by": "distance",
+"m": 17,
+"from": "OTP banka | Trg kosturnica 64a",
+"to": "Ekspozitura Kruševac Trg kosturnica bb | Trg kosturnica bb",
+"carry_hours": false
+},
+{
+"location_id": 22268,
+"into": 28186,
+"org": "banka-aik",
+"by": "distance",
+"m": 60,
+"from": "AIK banka | None",
+"to": "Filijala 27 marta 26-28 | 27 marta 26-28",
+"carry_hours": false
+},
+{
+"location_id": 22269,
+"into": 28190,
+"org": "banka-aik",
+"by": "distance",
+"m": 3,
+"from": "AikBank | None",
+"to": "Filijala Trgovačka 9 | Trgovačka 9",
+"carry_hours": false
+},
+{
+"location_id": 22270,
+"into": 28188,
+"org": "banka-aik",
+"by": "distance",
+"m": 6,
+"from": "AIK banka | None",
+"to": "Filijala Miloša Obrenovića 109 | Miloša Obrenovića 109",
+"carry_hours": false
+},
+{
+"location_id": 22271,
+"into": 28185,
+"org": "banka-aik",
+"by": "distance",
+"m": 25,
+"from": "AIK banka | None",
+"to": "Filijala Kralja Petra I 239 | Kralja Petra I 239",
+"carry_hours": false
+},
+{
+"location_id": 22272,
+"into": 28184,
+"org": "banka-aik",
+"by": "distance",
+"m": 12,
+"from": "AikBank | None",
+"to": "Filijala Kneza Miloša 39 | Kneza Miloša 39",
+"carry_hours": false
+},
+{
+"location_id": 22273,
+"into": 28183,
+"org": "banka-aik",
+"by": "distance",
+"m": 29,
+"from": "AIK banka | None",
+"to": "Filijala Karađorđeva 58 | Karađorđeva 58",
+"carry_hours": false
+},
+{
+"location_id": 22274,
+"into": 28182,
+"org": "banka-aik",
+"by": "distance",
+"m": 21,
+"from": "AikBank | None",
+"to": "Filijala Resavska 49 | Resavska 49",
+"carry_hours": false
+},
+{
+"location_id": 22276,
+"into": 28180,
+"org": "banka-aik",
+"by": "distance",
+"m": 85,
+"from": "AIK banka | None",
+"to": "Filijala Ive Lole Ribara 154a | Ive Lole Ribara 154a",
+"carry_hours": false
+},
+{
+"location_id": 22277,
+"into": 28177,
+"org": "banka-aik",
+"by": "distance",
+"m": 14,
+"from": "AikBank | None",
+"to": "Filijala Prvomajska 86 | Prvomajska 86",
+"carry_hours": false
+},
+{
+"location_id": 22278,
+"into": 28176,
+"org": "banka-aik",
+"by": "distance",
+"m": 4,
+"from": "AikBank | None",
+"to": "Filijala Bulevar despota Stefana 102 | Bulevar despota Stefana 102",
+"carry_hours": false
+},
+{
+"location_id": 22280,
+"into": 28192,
+"org": "banka-aik",
+"by": "distance",
+"m": 32,
+"from": "AIK banka | None",
+"to": "Filijala Trg Republike 12 | Trg Republike 12",
+"carry_hours": false
+},
+{
+"location_id": 22282,
+"into": 28169,
+"org": "banka-aik",
+"by": "distance",
+"m": 11,
+"from": "AIK banka | Prvog srpskog ustanka 15",
+"to": "Filijala I srpskog ustanka 17 | I srpskog ustanka 17",
+"carry_hours": false
+},
+{
+"location_id": 22283,
+"into": 28166,
+"org": "banka-aik",
+"by": "distance",
+"m": 15,
+"from": "AIK banka | None",
+"to": "Filijala Knjaza Miloša 230 | Knjaza Miloša 230",
+"carry_hours": false
+},
+{
+"location_id": 22284,
+"into": 28164,
+"org": "banka-aik",
+"by": "distance",
+"m": 13,
+"from": "AIK banka | None",
+"to": "Filijala Karađorđeva 44 | Karađorđeva 44",
+"carry_hours": false
+},
+{
+"location_id": 22286,
+"into": 28163,
+"org": "banka-aik",
+"by": "distance",
+"m": 5,
+"from": "AIK banka | None",
+"to": "Filijala Nemanjina 2 | Nemanjina 2",
+"carry_hours": false
+},
+{
+"location_id": 22287,
+"into": 28162,
+"org": "banka-aik",
+"by": "distance",
+"m": 5,
+"from": "AIK banka | None",
+"to": "Filijala Solunskih boraca 16 | Solunskih boraca 16",
+"carry_hours": false
+},
+{
+"location_id": 22288,
+"into": 28158,
+"org": "banka-aik",
+"by": "distance",
+"m": 33,
+"from": "AIK banka | Milinka Kušića 23a",
+"to": "Filijala Milinka Kušića 23 | Milinka Kušića 23",
+"carry_hours": false
+},
+{
+"location_id": 22289,
+"into": 28157,
+"org": "banka-aik",
+"by": "distance",
+"m": 3,
+"from": "AIK banka | None",
+"to": "Filijala Stevana Nemanje 148a | Stevana Nemanje 148a",
+"carry_hours": false
+},
+{
+"location_id": 22290,
+"into": 28155,
+"org": "banka-aik",
+"by": "distance",
+"m": 10,
+"from": "AikBank | None",
+"to": "Filijala Nade Tomić 25 | Nade Tomić 25",
+"carry_hours": false
+},
+{
+"location_id": 22291,
+"into": 28153,
+"org": "banka-aik",
+"by": "distance",
+"m": 1,
+"from": "AIK banka | Vidovdanska 11",
+"to": "Filijala Vidovdanska bb | Vidovdanska bb",
+"carry_hours": false
+},
+{
+"location_id": 22292,
+"into": 28151,
+"org": "banka-aik",
+"by": "distance",
+"m": 2,
+"from": "AIK banka | None",
+"to": "Filijala Karađorđeva 37 | Karađorđeva 37",
+"carry_hours": false
+},
+{
+"location_id": 22294,
+"into": 28147,
+"org": "banka-aik",
+"by": "distance",
+"m": 17,
+"from": "AIK banka | None",
+"to": "Filijala Trg Revolucije 15 | Trg Revolucije 15",
+"carry_hours": false
+},
+{
+"location_id": 22295,
+"into": 28141,
+"org": "banka-aik",
+"by": "distance",
+"m": 1,
+"from": "AikBank | None",
+"to": "Filijala Bulevar Mihajla Pupina 14 | Bulevar Mihajla Pupina 14",
+"carry_hours": false
+},
+{
+"location_id": 22297,
+"into": 28136,
+"org": "banka-aik",
+"by": "distance",
+"m": 9,
+"from": "AikBank | None",
+"to": "Filijala Maršala Tita 57 | Maršala Tita 57",
+"carry_hours": false
+},
+{
+"location_id": 22298,
+"into": 28137,
+"org": "banka-aik",
+"by": "distance",
+"m": 3,
+"from": "AIK banka | None",
+"to": "Filijala Orlovićeva 2 | Orlovićeva 2",
+"carry_hours": false
+},
+{
+"location_id": 22306,
+"into": 28167,
+"org": "banka-aik",
+"by": "distance",
+"m": 16,
+"from": "Ekspozitura | None",
+"to": "Filijala Kneza Miloša 2 | Kneza Miloša 2",
+"carry_hours": false
+},
+{
+"location_id": 22307,
+"into": 28615,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 60,
+"from": "Ekspozitura Trg slobode 2a | Trg slobode 2a",
+"to": "Ekspozitura Pančevo 1 - Centar | Trg Slobode 2",
+"carry_hours": false
+},
+{
+"location_id": 22315,
+"into": 28333,
+"org": "banka-otp",
+"by": "distance",
+"m": 47,
+"from": "OTP banka | None",
+"to": "Ekspozitura Ruma Železnička 5-7 | Železnička 5",
+"carry_hours": false
+},
+{
+"location_id": 22316,
+"into": 28409,
+"org": "banka-nlb-komercijalna",
+"by": "distance",
+"m": 14,
+"from": "NLB Komercijalna banka | None",
+"to": "Ekspozitura Ruma Poslovni centar bb | Poslovni centar bb",
+"carry_hours": false
+},
+{
+"location_id": 22319,
+"into": 28131,
+"org": "banka-aik",
+"by": "distance",
+"m": 64,
+"from": "AikBank | None",
+"to": "Filijala Neznanog junaka 23 | Neznanog junaka 23",
+"carry_hours": false
+},
+{
+"location_id": 22320,
+"into": 28071,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 37,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Kruševačka 1 | Kruševačka 1",
+"carry_hours": false
+},
+{
+"location_id": 22333,
+"into": 28114,
+"org": "banka-aik",
+"by": "distance",
+"m": 47,
+"from": "AIK banka | None",
+"to": "Filijala Pjarona de Mondezira 4 | Pjarona de Mondezira 4",
+"carry_hours": false
+},
+{
+"location_id": 22340,
+"into": 28406,
+"org": "banka-nlb-komercijalna",
+"by": "distance",
+"m": 5,
+"from": "NLB Komercijalna banka | Trg bratstva jedinstva 32",
+"to": "Ekspozitura Bačka Palanka Trg Bratstva i jedinstva 30-32 | Trg Bratstva i jedinstva 30",
+"carry_hours": false
+},
+{
+"location_id": 22344,
+"into": 28400,
+"org": "banka-nlb-komercijalna",
+"by": "distance",
+"m": 7,
+"from": "NLB Komercijalna banka | None",
+"to": "Ekspozitura Beograd Majora Zorana Radosavljevića 252 (Batajnica) | Majora Zorana Radosavljevića 252",
+"carry_hours": false
+},
+{
+"location_id": 22346,
+"into": 28413,
+"org": "banka-nlb-komercijalna",
+"by": "distance",
+"m": 10,
+"from": "NLB Komercijalna banka | 1. oktobar 50",
+"to": "Ekspozitura Bela Crkva 1. oktobra 50 | 1. oktobra 50",
+"carry_hours": false
+},
+{
+"location_id": 22357,
+"into": 28396,
+"org": "banka-nlb-komercijalna",
+"by": "distance",
+"m": 16,
+"from": "NLB Komercijalna banka | None",
+"to": "Ekspozitura Beograd Beogradska 167a (Sremčica) | Beogradska 167a",
+"carry_hours": false
+},
+{
+"location_id": 22361,
+"into": 28440,
+"org": "banka-nlb-komercijalna",
+"by": "distance",
+"m": 66,
+"from": "NLB Komercijalna banka | Trg bratstva jedinstva 6",
+"to": "Ekspozitura Kostolac Trg Bratstva i jedinstva 6 | Trg Bratstva i jedinstva 6",
+"carry_hours": false
+},
+{
+"location_id": 22365,
+"into": 28415,
+"org": "banka-nlb-komercijalna",
+"by": "distance",
+"m": 7,
+"from": "NLB Komercijalna banka | Dimitrija Tucovića 1g",
+"to": "Ekspozitura Lazarevac Dimitrija Tucovića 1 | Dimitrija Tucovića 1",
+"carry_hours": false
+},
+{
+"location_id": 22368,
+"into": 28419,
+"org": "banka-nlb-komercijalna",
+"by": "distance",
+"m": 10,
+"from": "NLB Komercijalna banka | None",
+"to": "Ekspozitura Gornji Milanovac Karađorđeva 5 | Karađorđeva 5",
+"carry_hours": false
+},
+{
+"location_id": 22380,
+"into": 28435,
+"org": "banka-nlb-komercijalna",
+"by": "distance",
+"m": 9,
+"from": "NLB Komercijalna banka | None",
+"to": "Ekspozitura Jagodina Skver narodne omladine bb | Skver narodne omladine bb",
+"carry_hours": false
+},
+{
+"location_id": 22381,
+"into": 28436,
+"org": "banka-nlb-komercijalna",
+"by": "distance",
+"m": 15,
+"from": "NLB Komercijalna banka | Karađorđeva 71",
+"to": "Ekspozitura Ćuprija Karađorđeva 67 | Karađorđeva 67",
+"carry_hours": false
+},
+{
+"location_id": 22383,
+"into": 28422,
+"org": "banka-nlb-komercijalna",
+"by": "distance",
+"m": 5,
+"from": "NLB Komercijalna banka | None",
+"to": "Ekspozitura Vrnjačka Banja Nemanjina 11 | Nemanjina 11",
+"carry_hours": false
+},
+{
+"location_id": 22385,
+"into": 28427,
+"org": "banka-nlb-komercijalna",
+"by": "distance",
+"m": 3,
+"from": "NLB Komercijalna banka | Ratka Pavlovića Ćićka 15",
+"to": "Ekspozitura Prokuplje Ratka Pavlovića 15 | Ratka Pavlovića 15",
+"carry_hours": false
+},
+{
+"location_id": 22386,
+"into": 28428,
+"org": "banka-nlb-komercijalna",
+"by": "distance",
+"m": 9,
+"from": "NLB Komercijalna banka | None",
+"to": "Ekspozitura Kuršumlija Svete Ane 10 | Svete Ane 10",
+"carry_hours": false
+},
+{
+"location_id": 22390,
+"into": 28429,
+"org": "banka-nlb-komercijalna",
+"by": "distance",
+"m": 12,
+"from": "NLB Komercijalna banka | None",
+"to": "Ekspozitura Leskovac Bulevar oslobođenja bb | Bulevar oslobođenja bb",
+"carry_hours": false
+},
+{
+"location_id": 22391,
+"into": 28431,
+"org": "banka-nlb-komercijalna",
+"by": "distance",
+"m": 8,
+"from": "NLB Komercijalna banka | Trg oslobodioca Pirota 15",
+"to": "Ekspozitura Pirot Trg pirotskih oslobodilaca 15a | Trg pirotskih oslobodilaca 15a",
+"carry_hours": false
+},
+{
+"location_id": 22392,
+"into": 28432,
+"org": "banka-nlb-komercijalna",
+"by": "distance",
+"m": 4,
+"from": "NLB Komercijalna banka | None",
+"to": "Ekspozitura Surdulica V septembar bb | V septembar bb",
+"carry_hours": false
+},
+{
+"location_id": 22393,
+"into": 28434,
+"org": "banka-nlb-komercijalna",
+"by": "distance",
+"m": 15,
+"from": "NLB Komercijalna banka | Sava Kovačević 2",
+"to": "Ekspozitura Preševo Save Kovačevića 2 | Save Kovačevića 2",
+"carry_hours": false
+},
+{
+"location_id": 22394,
+"into": 28426,
+"org": "banka-nlb-komercijalna",
+"by": "distance",
+"m": 24,
+"from": "NLB banka | Vidovdanska 101",
+"to": "Ekspozitura Kruševac Trg fontana 1 | Trg fontana 1",
+"carry_hours": false
+},
+{
+"location_id": 22400,
+"into": 27047,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Žikice Jovanovića Španca 1",
+"to": "Dunav osiguranje Vranje | Žikice Jovanovića Španca br. 1"
+},
+{
+"location_id": 22405,
+"into": 28765,
+"org": "banka-3",
+"by": "distance",
+"m": 73,
+"from": "3 Banka | None",
+"to": "Poslovnica Žabalj | Svetog Nikole 45a",
+"carry_hours": false
+},
+{
+"location_id": 22407,
+"into": 28743,
+"org": "banka-3",
+"by": "distance",
+"m": 68,
+"from": "3 Banka | None",
+"to": "Poslovnica Loznica | Banjska 14",
+"carry_hours": false
+},
+{
+"location_id": 22410,
+"into": 28761,
+"org": "banka-3",
+"by": "distance",
+"m": 80,
+"from": "3 Banka | None",
+"to": "Poslovnica Vranje | Dunavska 5",
+"carry_hours": false
+},
+{
+"location_id": 22411,
+"into": 28763,
+"org": "banka-3",
+"by": "distance",
+"m": 20,
+"from": "3 Banka | None",
+"to": "Poslovnica Zaječar | Nikole Pašića 71",
+"carry_hours": false
+},
+{
+"location_id": 22413,
+"into": 28352,
+"org": "banka-otp",
+"by": "distance",
+"m": 35,
+"from": "OTP banka | None",
+"to": "Ekspozitura za fizička lica Beograd Omladinskih brigada 88b | Omladinskih brigada 88b",
+"carry_hours": false
+},
+{
+"location_id": 22414,
+"into": 28303,
+"org": "banka-otp",
+"by": "distance",
+"m": 63,
+"from": "OTP banka | None",
+"to": "Ekspozitura Beograd Jurija Gagarina 153a | Jurija Gagarina 153a",
+"carry_hours": false
+},
+{
+"location_id": 22415,
+"into": 27865,
+"org": "banka-raiffeisen",
+"by": "distance",
+"m": 27,
+"from": "Raiffeisen bank | None",
+"to": "Ušće | Bulevar Mihaila Pupina 4",
+"carry_hours": false
+},
+{
+"location_id": 22423,
+"into": 28301,
+"org": "banka-otp",
+"by": "distance",
+"m": 9,
+"from": "OTP banka | None",
+"to": "Ekspozitura Bajmok JNA 16 | JNA 16",
+"carry_hours": false
+},
+{
+"location_id": 22426,
+"into": 28298,
+"org": "banka-otp",
+"by": "distance",
+"m": 131,
+"from": "OTP banka | None",
+"to": "Ekspozitura Bačka Palanka Kralja Petra I 13 | Kralja Petra I 13",
+"carry_hours": false
+},
+{
+"location_id": 22428,
+"into": 28311,
+"org": "banka-otp",
+"by": "distance",
+"m": 53,
+"from": "OTP banka | None",
+"to": "Ekspozitura Kać Kralja Petra I 9a | Kralja Petra I 9a",
+"carry_hours": false
+},
+{
+"location_id": 22431,
+"into": 28312,
+"org": "banka-otp",
+"by": "distance",
+"m": 5,
+"from": "OTP banka | None",
+"to": "Ekspozitura Kanjiža Glavna 13 | Glavna 13",
+"carry_hours": false
+},
+{
+"location_id": 22432,
+"into": 28335,
+"org": "banka-otp",
+"by": "distance",
+"m": 67,
+"from": "OTP banka | None",
+"to": "Ekspozitura Senta Glavni trg 7-9 | Glavni trg 7",
+"carry_hours": false
+},
+{
+"location_id": 22433,
+"into": 28348,
+"org": "banka-otp",
+"by": "distance",
+"m": 32,
+"from": "OTP banka | None",
+"to": "Ekspozitura Ada Lenjinova 6 | Lenjinova 6",
+"carry_hours": false
+},
+{
+"location_id": 22435,
+"into": 28338,
+"org": "banka-otp",
+"by": "distance",
+"m": 44,
+"from": "OTP banka | None",
+"to": "Ekspozitura Srpska Crnja Patrijarha Arsenija Čarnojevića bb | Patrijarha Arsenija Čarnojevića bb",
+"carry_hours": false
+},
+{
+"location_id": 22437,
+"into": 28347,
+"org": "banka-otp",
+"by": "distance",
+"m": 23,
+"from": "OTP banka | None",
+"to": "Ekspozitura Žitište Cara Dušana 6 | Cara Dušana 6",
+"carry_hours": false
+},
+{
+"location_id": 22438,
+"into": 28329,
+"org": "banka-otp",
+"by": "distance",
+"m": 11,
+"from": "OTP banka | None",
+"to": "Ekspozitura Plandište Vojvode Putnika 45 | Vojvode Putnika 45",
+"carry_hours": false
+},
+{
+"location_id": 22441,
+"into": 28323,
+"org": "banka-otp",
+"by": "distance",
+"m": 14,
+"from": "OTP banka | None",
+"to": "Ekspozitura za fizička lica Novi Sad Slobodana Jovanovića 15 | Slobodana Jovanovića 15",
+"carry_hours": false
+},
+{
+"location_id": 22443,
+"into": 28377,
+"org": "banka-otp",
+"by": "distance",
+"m": 24,
+"from": "OTP banka | None",
+"to": "Ekspozitura Novi Sad Radnička 2 | Radnička 2",
+"carry_hours": false
+},
+{
+"location_id": 22445,
+"into": 28353,
+"org": "banka-otp",
+"by": "distance",
+"m": 31,
+"from": "OTP banka | None",
+"to": "Ekspozitura Batajnica Milenka Pavlovića 12 | Milenka Pavlovića 12",
+"carry_hours": false
+},
+{
+"location_id": 22446,
+"into": 28328,
+"org": "banka-otp",
+"by": "distance",
+"m": 32,
+"from": "OTP banka | None",
+"to": "Ekspozitura Pećinci Slobodana Bajića 3 | Slobodana Bajića 3",
+"carry_hours": false
+},
+{
+"location_id": 22447,
+"into": 28308,
+"org": "banka-otp",
+"by": "distance",
+"m": 5,
+"from": "OTP banka | None",
+"to": "Ekspozitura Inđija Vojvode Stepe 16 | Vojvode Stepe 16",
+"carry_hours": false
+},
+{
+"location_id": 22448,
+"into": 28349,
+"org": "banka-otp",
+"by": "distance",
+"m": 6,
+"from": "OTP banka | None",
+"to": "Ekspozitura za fizička lica Zemun Glavna 46 | Glavna 46",
+"carry_hours": false
+},
+{
+"location_id": 22449,
+"into": 28354,
+"org": "banka-otp",
+"by": "distance",
+"m": 25,
+"from": "OTP banka | None",
+"to": "Ekspozitura za fizička lica Beograd Bulevar Maršala Tolbuhina 10-12 | Bulevar Maršala Tolbuhina 10",
+"carry_hours": false
+},
+{
+"location_id": 22450,
+"into": 28306,
+"org": "banka-otp",
+"by": "distance",
+"m": 30,
+"from": "OTP banka | None",
+"to": "Ekspozitura za fizička lica Beograd Bulevar Zorana Đinđića 141 | Bulevar Zorana Đinđića 141",
+"carry_hours": false
+},
+{
+"location_id": 22451,
+"into": 28305,
+"org": "banka-otp",
+"by": "distance",
+"m": 2,
+"from": "OTP banka | None",
+"to": "Ekspozitura za fizička lica Beograd Bulevar despota Stefana 112 | Bulevar despota Stefana 112",
+"carry_hours": false
+},
+{
+"location_id": 22452,
+"into": 28355,
+"org": "banka-otp",
+"by": "distance",
+"m": 101,
+"from": "OTP banka | None",
+"to": "Ekspozitura za fizička lica Beograd Ustanička 128 | Ustanička 128",
+"carry_hours": false
+},
+{
+"location_id": 22453,
+"into": 28389,
+"org": "banka-otp",
+"by": "distance",
+"m": 48,
+"from": "OTP banka | None",
+"to": "„Biznis centar Zvezdara“ Beograd Ustanička 262 | Ustanička 262",
+"carry_hours": false
+},
+{
+"location_id": 22455,
+"into": 28357,
+"org": "banka-otp",
+"by": "distance",
+"m": 34,
+"from": "OTP banka | None",
+"to": "Ekspozitura za fizička lica Beograd Trgovačka 9 | Trgovačka 9",
+"carry_hours": false
+},
+{
+"location_id": 22457,
+"into": 28358,
+"org": "banka-otp",
+"by": "distance",
+"m": 29,
+"from": "OTP banka | None",
+"to": "Ekspozitura Beograd Ive Lole Ribara 149 | Ive Lole Ribara 149",
+"carry_hours": false
+},
+{
+"location_id": 22464,
+"into": 28372,
+"org": "banka-otp",
+"by": "distance",
+"m": 12,
+"from": "OTP banka | None",
+"to": "Ekspozitura Lazarevac Karađorđeva 2 | Karađorđeva 2",
+"carry_hours": false
+},
+{
+"location_id": 22465,
+"into": 28386,
+"org": "banka-otp",
+"by": "distance",
+"m": 11,
+"from": "OTP banka | None",
+"to": "Ekspozitura Aranđelovac Knjaza Miloša 229 | Knjaza Miloša 229",
+"carry_hours": false
+},
+{
+"location_id": 22467,
+"into": 28375,
+"org": "banka-otp",
+"by": "distance",
+"m": 7,
+"from": "OTP banka | None",
+"to": "Ekspozitura Smederevska Palanka Svetog Save 25 | Svetog Save 25",
+"carry_hours": false
+},
+{
+"location_id": 22469,
+"into": 28376,
+"org": "banka-otp",
+"by": "distance",
+"m": 26,
+"from": "OTP banka | None",
+"to": "Ekspozitura Svilajnac Svetog Save bb | Svetog Save bb",
+"carry_hours": false
+},
+{
+"location_id": 22470,
+"into": 28289,
+"org": "banka-otp",
+"by": "distance",
+"m": 8,
+"from": "OTP banka | Kralja Petra prvog 67",
+"to": "Ekspozitura Paraćin Kralja Petra I 67 | Kralja Petra I 67",
+"carry_hours": false
+},
+{
+"location_id": 22473,
+"into": 28381,
+"org": "banka-otp",
+"by": "distance",
+"m": 23,
+"from": "OTP banka | None",
+"to": "Ekspozitura Čačak Gospodar Jovanova 26 | Gospodar Jovanova 26",
+"carry_hours": false
+},
+{
+"location_id": 22474,
+"into": 28310,
+"org": "banka-otp",
+"by": "distance",
+"m": 10,
+"from": "OTP banka | None",
+"to": "Ekspozitura Jagodina Kneginje Milice 80 | Kneginje Milice 80",
+"carry_hours": false
+},
+{
+"location_id": 22475,
+"into": 28300,
+"org": "banka-otp",
+"by": "distance",
+"m": 14,
+"from": "OTP banka | None",
+"to": "Ekspozitura Bajina Bašta Trg Dušana Jerkovića 2 | Trg Dušana Jerkovića 2",
+"carry_hours": false
+},
+{
+"location_id": 22476,
+"into": 28373,
+"org": "banka-otp",
+"by": "distance",
+"m": 9,
+"from": "OTP banka | Bulevar kraljice Marije 54b",
+"to": "Ekspozitura Kragujevac Kraljice Marije 54b | Kraljice Marije 54b",
+"carry_hours": false
+},
+{
+"location_id": 22477,
+"into": 28382,
+"org": "banka-otp",
+"by": "distance",
+"m": 11,
+"from": "OTP banka | Kneza Aleksandra Karađorđevića 1",
+"to": "Ekspozitura Gornji Milanovac Kneza Aleksandra 1 | Kneza Aleksandra 1",
+"carry_hours": false
+},
+{
+"location_id": 22481,
+"into": 28309,
+"org": "banka-otp",
+"by": "distance",
+"m": 32,
+"from": "OTP banka | Perse Rajević 5",
+"to": "Ekspozitura Ivanjica Perse Rajević 2 | Perse Rajević 2",
+"carry_hours": false
+},
+{
+"location_id": 22482,
+"into": 28320,
+"org": "banka-otp",
+"by": "distance",
+"m": 34,
+"from": "OTP banka | None",
+"to": "Ekspozitura Nova Varoš Svetog Save 38 | Svetog Save 38",
+"carry_hours": false
+},
+{
+"location_id": 22483,
+"into": 28336,
+"org": "banka-otp",
+"by": "distance",
+"m": 9,
+"from": "OTP banka | Rifata Burdžovića Trše 23",
+"to": "Ekspozitura Sjenica Milorada Jovanovića bb | Milorada Jovanovića bb",
+"carry_hours": false
+},
+{
+"location_id": 22485,
+"into": 28317,
+"org": "banka-otp",
+"by": "distance",
+"m": 24,
+"from": "OTP banka | Trg Srpskih ratnika 48",
+"to": "Ekspozitura Kraljevo Trg srpskih ratnika 30 | Trg srpskih ratnika 30",
+"carry_hours": false
+},
+{
+"location_id": 22487,
+"into": 28292,
+"org": "banka-otp",
+"by": "distance",
+"m": 46,
+"from": "OTP banka | None",
+"to": "Ekspozitura Svrljig Radetova 5 | Radetova 5",
+"carry_hours": false
+},
+{
+"location_id": 22489,
+"into": 28368,
+"org": "banka-otp",
+"by": "distance",
+"m": 74,
+"from": "OTP banka | None",
+"to": "Ekspozitura Niš 2 Trg kralja Milana bb | Trg kralja Milana bb",
+"carry_hours": false
+},
+{
+"location_id": 22490,
+"into": 28294,
+"org": "banka-otp",
+"by": "distance",
+"m": 4,
+"from": "OTP banka | None",
+"to": "Ekspozitura Niš Bulevar Nemanjića 67a | Bulevar Nemanjića 67a",
+"carry_hours": false
+},
+{
+"location_id": 22491,
+"into": 28365,
+"org": "banka-otp",
+"by": "distance",
+"m": 140,
+"from": "OTP banka | Trg Karađorđa Petrovića 18",
+"to": "Ekspozitura Bujanovac Karađorđa Petrovića bb | Karađorđa Petrovića bb",
+"carry_hours": false
+},
+{
+"location_id": 22492,
+"into": 28296,
+"org": "banka-otp",
+"by": "distance",
+"m": 81,
+"from": "OTP banka | None",
+"to": "Ekspozitura Babušnica Živojina Nikolića Brke 20 | Živojina Nikolića Brke 20",
+"carry_hours": false
+},
+{
+"location_id": 22494,
+"into": 28077,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 26,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura 9. oktobra 6 | 9. oktobra 6",
+"carry_hours": false
+},
+{
+"location_id": 22497,
+"into": 28366,
+"org": "banka-otp",
+"by": "distance",
+"m": 24,
+"from": "OTP banka | Srpskih vladara 25",
+"to": "Ekspozitura Surdulica Srpskih vladara bb | Srpskih vladara bb",
+"carry_hours": false
+},
+{
+"location_id": 22499,
+"into": 27979,
+"org": "banka-unicredit",
+"by": "distance",
+"m": 30,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Venac vojvode Stepe Stepanovića 20 | Venac vojvode Stepe Stepanovića 20",
+"carry_hours": false
+},
+{
+"location_id": 22501,
+"into": 27965,
+"org": "banka-unicredit",
+"by": "distance",
+"m": 100,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Španskih Boraca 75 | Španskih Boraca 75",
+"carry_hours": false
+},
+{
+"location_id": 22502,
+"into": 27948,
+"org": "banka-unicredit",
+"by": "distance",
+"m": 52,
+"from": "UniCredit Bank | None",
+"to": "Ekspozitura Bulevar Vudroa Vilsona 8V | Bulevar Vudroa Vilsona 8v",
+"carry_hours": false
+},
+{
+"location_id": 22505,
+"into": 27943,
+"org": "banka-unicredit",
+"by": "distance",
+"m": 22,
+"from": "UniCredit Bank | None",
+"to": "Ekspozitura Gospodar Jevremova 42 | Gospodar Jevremova 42",
+"carry_hours": false
+},
+{
+"location_id": 22507,
+"into": 27936,
+"org": "banka-unicredit",
+"by": "distance",
+"m": 44,
+"from": "UniCredit Bank | None",
+"to": "Ekspozitura Svetog Save 5-9 | Svetog Save 5",
+"carry_hours": false
+},
+{
+"location_id": 22510,
+"into": 27925,
+"org": "banka-unicredit",
+"by": "distance",
+"m": 64,
+"from": "UniCredit Bank | Vladimira Perića Valtera 108",
+"to": "Ekspozitura Valterova 108 | Valterova 108",
+"carry_hours": false
+},
+{
+"location_id": 22511,
+"into": 27924,
+"org": "banka-unicredit",
+"by": "distance",
+"m": 59,
+"from": "UniCredit Bank | None",
+"to": "Ekspozitura Kralja Stefana Prvovenčanog 270 | Kralja Stefana Prvovenčanog 270",
+"carry_hours": false
+},
+{
+"location_id": 22514,
+"into": 28464,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 146,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Beograd 7 - Južni Bulevar | Južni bulevar 116",
+"carry_hours": false
+},
+{
+"location_id": 22515,
+"into": 28468,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 6,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Beograd 13 -Konjarnik | Ustanička 240",
+"carry_hours": false
+},
+{
+"location_id": 22519,
+"into": 28498,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 49,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Beograd 16 -vma | Crnotravska 17",
+"carry_hours": false
+},
+{
+"location_id": 22520,
+"into": 28461,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 23,
+"from": "Ekspozitura Saše Simeunovića 22 | Saše Simeunovića 22",
+"to": "Samostalni šalter Banjica | Crnotravska 13a",
+"carry_hours": false
+},
+{
+"location_id": 22521,
+"into": 28481,
+"org": "banka-postanska-stedionica",
+"by": "street (entry rebuilt from the database)",
+"from": "Ekspozitura | Ljubinke Bobić 28",
+"to": "Ekspozitura Beograd 2 -Bežanijska Kosa | Ljubinke Bobić 28"
+},
+{
+"location_id": 22522,
+"into": 28472,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 8,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Beograd 5 -beograd Zemun | Milana Uzelca 23a",
+"carry_hours": false
+},
+{
+"location_id": 22523,
+"into": 28479,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 123,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Beograd 12 - Yu Biznis Centar | Bulevar M.Pupina 10",
+"carry_hours": false
+},
+{
+"location_id": 22524,
+"into": 28485,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 39,
+"from": "Ekspozitura | None",
+"to": "Samostalni šalter Goce Delčeva | Bulevar Maršala Tolbuhina 46",
+"carry_hours": false
+},
+{
+"location_id": 22525,
+"into": 28483,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 20,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Beograd 25 - Šest kaplara | Bulevar M.Pupina 3",
+"carry_hours": false
+},
+{
+"location_id": 22526,
+"into": 28508,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 140,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Dobanovci 1 | Maršala Tita 2",
+"carry_hours": false
+},
+{
+"location_id": 22527,
+"into": 28513,
+"org": "banka-postanska-stedionica",
+"by": "street (entry rebuilt from the database)",
+"from": "Ekspozitura | Beogradska 98",
+"to": "Ekspozitura Beograd 28 -Sremčica | Beogradska 98"
+},
+{
+"location_id": 22528,
+"into": 28453,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 114,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Barajevo 1 | Svetosavska 56",
+"carry_hours": false
+},
+{
+"location_id": 22531,
+"into": 28539,
+"org": "banka-postanska-stedionica",
+"by": "street (entry rebuilt from the database)",
+"from": "Ekspozitura | Vučka Milićevića 5",
+"to": "Ekspozitura Grocka 1 | Vučka Milićevića 5"
+},
+{
+"location_id": 22532,
+"into": 28659,
+"org": "banka-postanska-stedionica",
+"by": "street (entry rebuilt from the database)",
+"from": "Ekspozitura | Prvog maja 11",
+"to": "Ekspozitura Ub 1 | Prvog maja 11"
+},
+{
+"location_id": 22533,
+"into": 28667,
+"org": "banka-postanska-stedionica",
+"by": "street (entry rebuilt from the database)",
+"from": "Ekspozitura | Pop Lukina 10",
+"to": "Ekspozitura Šabac 1 | Pop Lukina 10"
+},
+{
+"location_id": 22535,
+"into": 28584,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 90,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Banja Koviljača 1 | Maršala Tita 146ž",
+"carry_hours": false
+},
+{
+"location_id": 22537,
+"into": 28575,
+"org": "banka-postanska-stedionica",
+"by": "street (entry rebuilt from the database)",
+"from": "Ekspozitura | Maršala Tita 16",
+"to": "Ekspozitura Krupanj 1 | Maršala Tita 16"
+},
+{
+"location_id": 22538,
+"into": 28566,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 2,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Koceljeva 1 | Nemanjina 99",
+"carry_hours": false
+},
+{
+"location_id": 22539,
+"into": 28592,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 32,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Mali Zvornik 1 | Kralja Petra I 26b",
+"carry_hours": false
+},
+{
+"location_id": 22541,
+"into": 28530,
+"org": "banka-postanska-stedionica",
+"by": "street (entry rebuilt from the database)",
+"from": "Ekspozitura | Svetog Save 46",
+"to": "Ekspozitura Vladimirci 1 | Svetog Save 46"
+},
+{
+"location_id": 22543,
+"into": 28463,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 3,
+"from": "Ekspozitura | None",
+"to": "Samostalni šalter Infostan | Ustanička 53",
+"carry_hours": false
+},
+{
+"location_id": 22544,
+"into": 28471,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 4,
+"from": "Ekspozitura | None",
+"to": "Samostalni šalter Infostan | Subotička 16",
+"carry_hours": false
+},
+{
+"location_id": 22550,
+"into": 28514,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 20,
+"from": "Ekspozitura | None",
+"to": "Samostalni šalter Infostan Beograd Čukarica | Šumadijski trg 6",
+"carry_hours": false
+},
+{
+"location_id": 22551,
+"into": 28497,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 36,
+"from": "Ekspozitura | None",
+"to": "Samostalni šalter Infostan Beograd Rakovica | Miška Kranjca 12",
+"carry_hours": false
+},
+{
+"location_id": 22553,
+"into": 28487,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 21,
+"from": "Ekspozitura | None",
+"to": "Samostalni šalter Infostan Beograd Novi Beograd 2 | Dušana Vukasovića 31",
+"carry_hours": false
+},
+{
+"location_id": 22554,
+"into": 28475,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 1,
+"from": "Ekspozitura | None",
+"to": "Samostalni šalter Infostan | dr Nedeljka Ercegovca 27",
+"carry_hours": false
+},
+{
+"location_id": 22555,
+"into": 28486,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 18,
+"from": "Ekspozitura | None",
+"to": "Samostalni šalter Infostan | Narodnih heroja 30",
+"carry_hours": false
+},
+{
+"location_id": 22559,
+"into": 28610,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 54,
+"from": "Ekspozitura | None",
+"to": "Samostalni šalter Klisa | Temerinska 173",
+"carry_hours": false
+},
+{
+"location_id": 22560,
+"into": 28605,
+"org": "banka-postanska-stedionica",
+"by": "street (entry rebuilt from the database)",
+"from": "Ekspozitura | Železnička 1",
+"to": "Ekspozitura Novi Sad 4-S.Kamenica | Železnička 1"
+},
+{
+"location_id": 22562,
+"into": 28602,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 3,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Novi Sad 5 - Centar (Dunavska) | Dunavska 5",
+"carry_hours": false
+},
+{
+"location_id": 22569,
+"into": 28638,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 2,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Senta 1 | Glavni trg 4",
+"carry_hours": false
+},
+{
+"location_id": 22571,
+"into": 28611,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 10,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Odžaci 1 | Želznička 26",
+"carry_hours": false
+},
+{
+"location_id": 22574,
+"into": 28651,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 15,
+"from": "Ekspozitura Atile Jožefa 1a | Atile Jožefa 1a",
+"to": "Samostalni šalter Čantavir | Jožefa Atile 1a",
+"carry_hours": false
+},
+{
+"location_id": 22577,
+"into": 28599,
+"org": "banka-postanska-stedionica",
+"by": "street (entry rebuilt from the database)",
+"from": "Ekspozitura | Kralja Petra I Karađorđevića 8",
+"to": "Ekspozitura Novi Kneževac 1 | Kralja Petra I Karađorđevića 8"
+},
+{
+"location_id": 22579,
+"into": 28635,
+"org": "banka-postanska-stedionica",
+"by": "street (entry rebuilt from the database)",
+"from": "Ekspozitura | Glavna 188",
+"to": "Ekspozitura Ruma 1 | Glavna 188"
+},
+{
+"location_id": 22580,
+"into": 28554,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 4,
+"from": "Ekspozitura | None",
+"to": "Samostalni šalter Beška | Kneza Miloša 21",
+"carry_hours": false
+},
+{
+"location_id": 22585,
+"into": 28647,
+"org": "banka-postanska-stedionica",
+"by": "street (entry rebuilt from the database)",
+"from": "Ekspozitura | Cara Dušana 2",
+"to": "Ekspozitura Nova Pazova 1 | Cara Dušana 2"
+},
+{
+"location_id": 22586,
+"into": 28618,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 46,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Pančevo 3 - Tesla | Kralja Milana Obrenovića 7",
+"carry_hours": false
+},
+{
+"location_id": 22589,
+"into": 28562,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 54,
+"from": "Ekspozitura | None",
+"to": "Samostalni šalter Crepaja | Trg oslobođenja 5",
+"carry_hours": false
+},
+{
+"location_id": 22594,
+"into": 28536,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 21,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Vršac 1 | Sterijina 19",
+"carry_hours": false
+},
+{
+"location_id": 22596,
+"into": 28598,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 136,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Nova Varoš 1 | Solunskih boraca 14",
+"carry_hours": false
+},
+{
+"location_id": 22598,
+"into": 28663,
+"org": "banka-postanska-stedionica",
+"by": "street",
+"m": 2975,
+"from": "Ekspozitura Rujanska | Rujanska",
+"to": "Samostalni šalter Zlatibor | Rujanska b.b.",
+"carry_hours": false
+},
+{
+"location_id": 22599,
+"into": 28443,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 30,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Ljig 1 | Karađorđeva 7",
+"carry_hours": false
+},
+{
+"location_id": 22600,
+"into": 28594,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 50,
+"from": "Ekspozitura Dr Jove Aleksića 2 | Dr Jove Aleksića 2",
+"to": "Ekspozitura Mionica 1 | dr.Jove Aleksić 12",
+"carry_hours": false
+},
+{
+"location_id": 22602,
+"into": 28614,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 87,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Osečina 1 | Karađorđeva 152",
+"carry_hours": false
+},
+{
+"location_id": 22603,
+"into": 28600,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 44,
+"from": "Ekspozitura AVNOJ-a 49 | AVNOJ-a 49",
+"to": "Ekspozitura Novi Pazar 1 | AVNOJ-a 31",
+"carry_hours": false
+},
+{
+"location_id": 22604,
+"into": 28628,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 5,
+"from": "Ekspozitura Meše Selimovića 5 | Meše Selimovića 5",
+"to": "Ekspozitura Priboj 1 | Meše Selimovića 2",
+"carry_hours": false
+},
+{
+"location_id": 22609,
+"into": 28597,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 74,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Niš 4 -Naselje Durlan | Knjaževačka 112",
+"carry_hours": false
+},
+{
+"location_id": 22612,
+"into": 28630,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 109,
+"from": "Ekspozitura Trg Svetog Save 23 | Trg Svetog Save 23",
+"to": "Ekspozitura Ražanj 1 | Trg Svetog Save 23/3",
+"carry_hours": false
+},
+{
+"location_id": 22614,
+"into": 28543,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 7,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Doljevac 1 | Nikole Tesle 97",
+"carry_hours": false
+},
+{
+"location_id": 22619,
+"into": 28524,
+"org": "banka-postanska-stedionica",
+"by": "street (entry rebuilt from the database)",
+"from": "Ekspozitura | Karađorđa Petrovića 103",
+"to": "Ekspozitura Bujanovac 1 | Karađorđa Petrovića 103"
+},
+{
+"location_id": 22620,
+"into": 28583,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 27,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Leskovac 1 | Trg Revolucije 33",
+"carry_hours": false
+},
+{
+"location_id": 22624,
+"into": 28655,
+"org": "banka-postanska-stedionica",
+"by": "street (entry rebuilt from the database)",
+"from": "Ekspozitura | Kralja Petra I Karađorđevića 1",
+"to": "Ekspozitura Trgovište 1 | Kralja Petra I Karađorđevića 1"
+},
+{
+"location_id": 22625,
+"into": 28522,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 85,
+"from": "Ekspozitura | None",
+"to": "Samostalni šalter Bosilegrad | Georgi Dimitrova 74",
+"carry_hours": false
+},
+{
+"location_id": 22628,
+"into": 28569,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 23,
+"from": "Ekspozitura | None",
+"to": "Samostalni šalter Aerodrom Morava | Aerodrom Morava, Tavnik bb, Lađevci",
+"carry_hours": false
+},
+{
+"location_id": 22629,
+"into": 28532,
+"org": "banka-postanska-stedionica",
+"by": "street (entry rebuilt from the database)",
+"from": "Ekspozitura | Beogradska 7",
+"to": "Ekspozitura Vrnjačka Banja 1 | Beogradska 7"
+},
+{
+"location_id": 22630,
+"into": 28631,
+"org": "banka-postanska-stedionica",
+"by": "street (entry rebuilt from the database)",
+"from": "Ekspozitura | Savatija Miloševića 14",
+"to": "Ekspozitura Kosovska Mitrovica 1 | Savatija Miloševića 14"
+},
+{
+"location_id": 22632,
+"into": 28571,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 15,
+"from": "Ekspozitura | None",
+"to": "Samostalni šalter Kraljevo 2 | Vojvode Stepe 45",
+"carry_hours": false
+},
+{
+"location_id": 22633,
+"into": 28633,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 21,
+"from": "Ekspozitura | None",
+"to": "Samostalni šalter Kopaonik | Jat Apartmani Kopaonik, Nikole Tesle 1",
+"carry_hours": false
+},
+{
+"location_id": 22640,
+"into": 28588,
+"org": "banka-postanska-stedionica",
+"by": "street (entry rebuilt from the database)",
+"from": "Ekspozitura | Dositejeva 1",
+"to": "Ekspozitura Lučani 1 | Dositejeva 1"
+},
+{
+"location_id": 22642,
+"into": 28636,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 5,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Svilajnac 1 | Svetog Save 10",
+"carry_hours": false
+},
+{
+"location_id": 22643,
+"into": 28541,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 6,
+"from": "Ekspozitura Despota Stefana Lazarevića | Despota Stefana Lazarevića",
+"to": "Ekspozitura Despotovac 1 | Despota Stefana Lazarevića 49",
+"carry_hours": false
+},
+{
+"location_id": 22647,
+"into": 28620,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 3,
+"from": "Ekspozitura Kralja Petra prvog 53a | Kralja Petra prvog 53a",
+"to": "Ekspozitura Paraćin 1 | Kralja Petra I 53",
+"carry_hours": false
+},
+{
+"location_id": 22648,
+"into": 28560,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 11,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Knić 1 | Dimitrija Mihailovića 1",
+"carry_hours": false
+},
+{
+"location_id": 22651,
+"into": 28576,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 9,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Kruševac 1 | Stevana Sinđelića 2",
+"carry_hours": false
+},
+{
+"location_id": 22652,
+"into": 28528,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 20,
+"from": "Ekspozitura | None",
+"to": "Samostalni šalter Veliki Šiljegovac | Glavi put bb",
+"carry_hours": false
+},
+{
+"location_id": 22656,
+"into": 28523,
+"org": "banka-postanska-stedionica",
+"by": "street (entry rebuilt from the database)",
+"from": "Ekspozitura | Kralja Petra I 41",
+"to": "Ekspozitura Brus 1 | Kralja Petra I 41"
+},
+{
+"location_id": 22657,
+"into": 28526,
+"org": "banka-postanska-stedionica",
+"by": "street",
+"m": 576,
+"from": "Ekspozitura Slobode | Slobode",
+"to": "Ekspozitura Varvarin 1 | Trg slobode b.b.",
+"carry_hours": false
+},
+{
+"location_id": 22662,
+"into": 28625,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 14,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Požarevac 2- Čede Vasovića | Čede Vasovića 36",
+"carry_hours": false
+},
+{
+"location_id": 22666,
+"into": 28581,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 104,
+"from": "Ekspozitura Svetog Save 78 | Svetog Save 78",
+"to": "Ekspozitura Kučevo 1 | Svetog Save broj 78",
+"carry_hours": false
+},
+{
+"location_id": 22668,
+"into": 28639,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 117,
+"from": "Ekspozitura Trg Karađorđev dud 1 | Trg Karađorđev dud 1",
+"to": "Ekspozitura Smederevo 1 | Karađorđev dud E-1",
+"carry_hours": false
+},
+{
+"location_id": 22674,
+"into": 28559,
+"org": "banka-postanska-stedionica",
+"by": "street (entry rebuilt from the database)",
+"from": "Ekspozitura | Ivana Kosančića 7b",
+"to": "Ekspozitura Kladovo 1 | Ivana Kosančića 7b"
+},
+{
+"location_id": 22675,
+"into": 28591,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 4,
+"from": "Ekspozitura | None",
+"to": "Samostalni šalter Rudna Glava | Rudna Glava bb",
+"carry_hours": false
+},
+{
+"location_id": 22691,
+"into": 28139,
+"org": "banka-aik",
+"by": "distance",
+"m": 19,
+"from": "AIK banka | None",
+"to": "Filijala Kralja Petra I 7 | Kralja Petra I 7",
+"carry_hours": false
+},
+{
+"location_id": 22692,
+"into": 28168,
+"org": "banka-aik",
+"by": "distance",
+"m": 122,
+"from": "Ekspozitura | None",
+"to": "Filijala Kralja Petra I 26 | Kralja Petra I 26",
+"carry_hours": false
+},
+{
+"location_id": 22697,
+"into": 27330,
+"org": "osiguravajuce-drustvo-milenijum-osiguranje",
+"by": "distance",
+"m": 23,
+"from": "Poslovnica | None",
+"to": "Prodajna kancelarija Beograd (Zemun) | Geteova 48",
+"carry_hours": false
+},
+{
+"location_id": 22709,
+"into": 27828,
+"org": "banka-raiffeisen",
+"by": "distance",
+"m": 20,
+"from": "Raiffeisen bank | None",
+"to": "Trstenik | Kneginje Milice 12",
+"carry_hours": false
+},
+{
+"location_id": 22716,
+"into": 28360,
+"org": "banka-otp",
+"by": "distance",
+"m": 12,
+"from": "OTP banka | None",
+"to": "Ekspozitura Pančevo Trg Kralja Petra 6 | Trg Kralja Petra 6",
+"carry_hours": false
+},
+{
+"location_id": 22762,
+"into": 27324,
+"org": "osiguravajuce-drustvo-milenijum-osiguranje",
+"by": "distance",
+"m": 30,
+"from": "Poslovnica Milutina Milankovića 3b | Milutina Milankovića 3b",
+"to": "Ekspozitura Beograd | Bulevar Milutina Milankovića 3b",
+"carry_hours": false
+},
+{
+"location_id": 22767,
+"into": 27886,
+"org": "banka-raiffeisen",
+"by": "distance",
+"m": 44,
+"from": "Raiffeisen bank | None",
+"to": "Vršac | Trg Svetog Teodora Vršačkog 37",
+"carry_hours": false
+},
+{
+"location_id": 22774,
+"into": 28025,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 55,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Dr Jove Aleksića bb | Dr Jove Aleksića bb",
+"carry_hours": false
+},
+{
+"location_id": 22790,
+"into": 28686,
+"org": "banka-halkbank",
+"by": "distance",
+"m": 10,
+"from": "Ekspozitura Milinka Kušića 15 | Milinka Kušića 15",
+"to": "Filijala Ivanjica | Milinka Kušića 14",
+"carry_hours": false
+},
+{
+"location_id": 22807,
+"into": 28721,
+"org": "banka-procredit",
+"by": "distance",
+"m": 46,
+"from": "ProCredit banka | None",
+"to": "Ekspozitura Miodraga Vlajića Šuke 14 | Miodraga Vlajića Šuke 14",
+"carry_hours": false
+},
+{
+"location_id": 22831,
+"into": 28677,
+"org": "banka-halkbank",
+"by": "distance",
+"m": 29,
+"from": "Ekspozitura | None",
+"to": "Filijala Beograd (Krunska) | Krunska 6",
+"carry_hours": false
+},
+{
+"location_id": 22907,
+"into": 28108,
+"org": "banka-aik",
+"by": "distance",
+"m": 9,
+"from": "AIK banka | None",
+"to": "Filijala Korzo 6 | Korzo 6",
+"carry_hours": false
+},
+{
+"location_id": 22928,
+"into": 27863,
+"org": "banka-raiffeisen",
+"by": "distance",
+"m": 64,
+"from": "Raiffeisen bank | None",
+"to": "Park City | Narodnog fronta 25d",
+"carry_hours": false
+},
+{
+"location_id": 23029,
+"into": 26934,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Srpskih vladara 60",
+"to": "Dunav osiguranje Bela palanka | Srpskih vladara br.60"
+},
+{
+"location_id": 23054,
+"into": 28196,
+"org": "banka-aik",
+"by": "distance",
+"m": 13,
+"from": "AIK banka | None",
+"to": "Filijala Nikole Pašića 6 | Nikole Pašića 6",
+"carry_hours": false
+},
+{
+"location_id": 23055,
+"into": 27324,
+"org": "osiguravajuce-drustvo-milenijum-osiguranje",
+"by": "distance",
+"m": 146,
+"from": "Poslovnica | None",
+"to": "Ekspozitura Beograd | Bulevar Milutina Milankovića 3b",
+"carry_hours": false
+},
+{
+"location_id": 23056,
+"into": 27325,
+"org": "osiguravajuce-drustvo-milenijum-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Karađorđev put 38",
+"to": "Ekspozitura Subotica | Karađorđev put 38"
+},
+{
+"location_id": 23057,
+"into": 27326,
+"org": "osiguravajuce-drustvo-milenijum-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Dobračina 12",
+"to": "Ekspozitura Čačak | Dobračina 12"
+},
+{
+"location_id": 23059,
+"into": 27327,
+"org": "osiguravajuce-drustvo-milenijum-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Kralja Aleksandra I Karađorđevića 110a",
+"to": "Ekspozitura Kragujevac | Kralja Aleksandra I Karađorđevića 110a"
+},
+{
+"location_id": 23060,
+"into": 27328,
+"org": "osiguravajuce-drustvo-milenijum-osiguranje",
+"by": "distance",
+"m": 22,
+"from": "Poslovnica | None",
+"to": "Prodajna Kancelarija Kraljevo | Cara Dušana 31",
+"carry_hours": false
+},
+{
+"location_id": 23061,
+"into": 27329,
+"org": "osiguravajuce-drustvo-milenijum-osiguranje",
+"by": "distance",
+"m": 29,
+"from": "Poslovnica | None",
+"to": "Ekspozitura Sombor | Venac Radomira Putnika 23",
+"carry_hours": false
+},
+{
+"location_id": 23062,
+"into": 27331,
+"org": "osiguravajuce-drustvo-milenijum-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Dr Dragiše Mišovića 68",
+"to": "Prodajna kancelarija Čačak | Dr Dragiše Mišovića 68"
+},
+{
+"location_id": 23066,
+"into": 27333,
+"org": "osiguravajuce-drustvo-milenijum-osiguranje",
+"by": "distance",
+"m": 10,
+"from": "Poslovnica Marije Bursać 32 | Marije Bursać 32",
+"to": "Prodajna kancelarija Smederevo | Đure Jakšića 6",
+"carry_hours": false
+},
+{
+"location_id": 23068,
+"into": 27334,
+"org": "osiguravajuce-drustvo-milenijum-osiguranje",
+"by": "distance",
+"m": 31,
+"from": "Poslovnica | None",
+"to": "Prodajna kancelarija Vršac | Stevana Nemanje 33",
+"carry_hours": true
+},
+{
+"location_id": 23069,
+"into": 27336,
+"org": "osiguravajuce-drustvo-milenijum-osiguranje",
+"by": "distance",
+"m": 27,
+"from": "Poslovnica | None",
+"to": "Prodajna kancelarija Kruševac | Balkanska 36",
+"carry_hours": true
+},
+{
+"location_id": 23070,
+"into": 27337,
+"org": "osiguravajuce-drustvo-milenijum-osiguranje",
+"by": "distance",
+"m": 20,
+"from": "Poslovnica | None",
+"to": "Prodajna kancelarija Beograd | Trgovačka 16a",
+"carry_hours": false
+},
+{
+"location_id": 23071,
+"into": 27338,
+"org": "osiguravajuce-drustvo-milenijum-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Stojana Novakovića 23",
+"to": "Prodajna kancelarija Šabac | Stojana Novakovića 23"
+},
+{
+"location_id": 23073,
+"into": 27339,
+"org": "osiguravajuce-drustvo-milenijum-osiguranje",
+"by": "distance",
+"m": 19,
+"from": "Poslovnica | None",
+"to": "Prodajna kancelarija Krupanj | Vlade Zečevića 48",
+"carry_hours": true
+},
+{
+"location_id": 23074,
+"into": 27340,
+"org": "osiguravajuce-drustvo-milenijum-osiguranje",
+"by": "distance",
+"m": 37,
+"from": "Poslovnica Zejnel Ajdini 4 | Zejnel Ajdini 4",
+"to": "Prodajna kancelarija Preševo | Zenel Ajdini 4",
+"carry_hours": true
+},
+{
+"location_id": 23076,
+"into": 27342,
+"org": "osiguravajuce-drustvo-milenijum-osiguranje",
+"by": "street",
+"m": 75,
+"from": "Poslovnica Nikole Pašića 2 | Nikole Pašića 2",
+"to": "Prodajna kancelarija Požega | Nikole Pašića 2/8",
+"carry_hours": false
+},
+{
+"location_id": 23077,
+"into": 27343,
+"org": "osiguravajuce-drustvo-milenijum-osiguranje",
+"by": "distance",
+"m": 21,
+"from": "Poslovnica | None",
+"to": "Prodajna kancelarija Svrljig | Hadžićeva br. 2",
+"carry_hours": false
+},
+{
+"location_id": 23078,
+"into": 27344,
+"org": "osiguravajuce-drustvo-milenijum-osiguranje",
+"by": "distance",
+"m": 82,
+"from": "Poslovnica | None",
+"to": "Prodajna kancelarija Mladenovac | Janka Katića 2/8",
+"carry_hours": false
+},
+{
+"location_id": 23245,
+"into": 27162,
+"org": "osiguravajuce-drustvo-sava-osiguranje",
+"by": "street",
+"m": 171,
+"from": "Poslovnica Dr Zorana Đinđića 2 | Dr Zorana Đinđića 2",
+"to": "Ekspozitura Kragujevac | Zorana Đinđića 2",
+"carry_hours": false
+},
+{
+"location_id": 23250,
+"into": 27165,
+"org": "osiguravajuce-drustvo-sava-osiguranje",
+"by": "street",
+"m": 596,
+"from": "Poslovnica Hajduk Veljkova 11 | Hajduk Veljkova 11",
+"to": "Ekspozitura Novi Sad | Hajduk Veljkova 11",
+"carry_hours": false
+},
+{
+"location_id": 23259,
+"into": 27163,
+"org": "osiguravajuce-drustvo-sava-osiguranje",
+"by": "distance",
+"m": 17,
+"from": "Poslovnica Vojvode Stepe 10 | Vojvode Stepe 10",
+"to": "Šalter Kraljevo | Vojvode Stepe 10",
+"carry_hours": false
+},
+{
+"location_id": 23263,
+"into": 27875,
+"org": "banka-raiffeisen",
+"by": "distance",
+"m": 39,
+"from": "Raiffeisen bank | None",
+"to": "Nemanjići | Bulevar Nemanjića 30",
+"carry_hours": false
+},
+{
+"location_id": 23320,
+"into": 27348,
+"org": "osiguravajuce-drustvo-globos-osiguranje",
+"by": "street",
+"m": 75,
+"from": "Poslovnica Bulevar Mihajla Pupina 14 | Bulevar Mihajla Pupina 14",
+"to": "Globos osiguranje Novi Sad | Bulevar Mihajla Pupina 14",
+"carry_hours": true
+},
+{
+"location_id": 23322,
+"into": 27350,
+"org": "osiguravajuce-drustvo-globos-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Karađorđeva 34",
+"to": "Globos osiguranje Kragujevac | Karađorđeva 34"
+},
+{
+"location_id": 23324,
+"into": 27352,
+"org": "osiguravajuce-drustvo-globos-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Vuka Karadžića 23",
+"to": "Globos osiguranje Valjevo | Vuka Karadžića 23"
+},
+{
+"location_id": 23326,
+"into": 27354,
+"org": "osiguravajuce-drustvo-globos-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Kneza Miloša 1",
+"to": "Globos osiguranje Šabac | Kneza Miloša 1"
+},
+{
+"location_id": 23329,
+"into": 27355,
+"org": "osiguravajuce-drustvo-globos-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Pupinova 15",
+"to": "Globos osiguranje Zrenjanin | Pupinova 15"
+},
+{
+"location_id": 23330,
+"into": 27356,
+"org": "osiguravajuce-drustvo-globos-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Miloša Velikog 11",
+"to": "Globos osiguranje Smederevo | Miloša Velikog 11"
+},
+{
+"location_id": 23331,
+"into": 27357,
+"org": "osiguravajuce-drustvo-globos-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Oca Justina Popovića 3",
+"to": "Globos osiguranje Vranje | Oca Justina Popovića 3"
+},
+{
+"location_id": 23333,
+"into": 27359,
+"org": "osiguravajuce-drustvo-globos-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Cara Dušana 6",
+"to": "Globos osiguranje Subotica | Cara Dušana 6"
+},
+{
+"location_id": 23334,
+"into": 27361,
+"org": "osiguravajuce-drustvo-globos-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Kralja Petra I Oslobodioca 50/3",
+"to": "Globos osiguranje Ub | Kralja Petra I Oslobodioca 50/3"
+},
+{
+"location_id": 23376,
+"into": 28394,
+"org": "banka-nlb-komercijalna",
+"by": "distance",
+"m": 8,
+"from": "NLB Komercijalna banka | None",
+"to": "Ekspozitura Beograd Starine Novaka 25 | Starine Novaka 25",
+"carry_hours": false
+},
+{
+"location_id": 23377,
+"into": 28010,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 71,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Svetosavska 19a | Svetosavska 19a",
+"carry_hours": false
+},
+{
+"location_id": 23378,
+"into": 26921,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Maršala Tita 1",
+"to": "Dunav osiguranje Ada | Maršala Tita br. 1"
+},
+{
+"location_id": 23379,
+"into": 26922,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | 29 novembar 69",
+"to": "Dunav osiguranje Aleksandrovac | 29 novembar 69"
+},
+{
+"location_id": 23380,
+"into": 26924,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Trg Slobode 16",
+"to": "Dunav osiguranje Alibunar | Trg Slobode br. 16"
+},
+{
+"location_id": 23382,
+"into": 26925,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Trg Nikole Tesle 6",
+"to": "Dunav osiguranje Apatin | Trg Nikole Tesle 6"
+},
+{
+"location_id": 23383,
+"into": 26926,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Kneza Miloša 212",
+"to": "Dunav osiguranje Aranđelovac | Kneza Miloša br. 212"
+},
+{
+"location_id": 23384,
+"into": 26927,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Vojvode Stepe 4",
+"to": "Dunav osiguranje Arilje | Vojvode Stepe br.4"
+},
+{
+"location_id": 23385,
+"into": 26928,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | S. Draginac 41b",
+"to": "Dunav osiguranje Babušnica | S. Draginac 41b"
+},
+{
+"location_id": 23386,
+"into": 26929,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Svetosavska 19",
+"to": "Dunav osiguranje Bajina Bašta | Svetosavska 19"
+},
+{
+"location_id": 23387,
+"into": 26930,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Kralja Petra I 84",
+"to": "Dunav osiguranje Batočina | Kralja Petra I 84"
+},
+{
+"location_id": 23388,
+"into": 26931,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street",
+"m": 75,
+"from": "Poslovnica Žarka Zrenjanina 80 | Žarka Zrenjanina 80",
+"to": "Dunav osiguranje Bačka Palanka | Žarka Zrenjanina br. 80",
+"carry_hours": false
+},
+{
+"location_id": 23389,
+"into": 26932,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Maršala Tita 47",
+"to": "Dunav osiguranje Bačka Topola | Maršala Tita br. 47"
+},
+{
+"location_id": 23390,
+"into": 26933,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | 1. Oktobar 49",
+"to": "Dunav osiguranje Bela crkva | 1. Oktobar br.49"
+},
+{
+"location_id": 23396,
+"into": 26951,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Novosadska 1",
+"to": "Dunav osiguranje Bečej | Novosadska 1"
+},
+{
+"location_id": 23398,
+"into": 26953,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Pavla Orlovića 22",
+"to": "Dunav osiguranje Bogatić | Pavla Orlovića br. 22"
+},
+{
+"location_id": 23399,
+"into": 26954,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street",
+"m": 75,
+"from": "Poslovnica Kralja Aleksandra 12 | Kralja Aleksandra 12",
+"to": "Dunav osiguranje Boljevac | Kralja Aleksandra I br. 12/1",
+"carry_hours": false
+},
+{
+"location_id": 23400,
+"into": 26955,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Nikole Pašica 58",
+"to": "Dunav osiguranje Bor | Nikole Pašica br. 58"
+},
+{
+"location_id": 23402,
+"into": 26959,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street",
+"m": 75,
+"from": "Poslovnica Moravska 20 | Moravska 20",
+"to": "Dunav osiguranje Despotovac | Moravska br. 20",
+"carry_hours": false
+},
+{
+"location_id": 23404,
+"into": 26961,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Kneza Aleksandra 33",
+"to": "Dunav osiguranje Gornji Milanovac | Kneza Aleksandra 33"
+},
+{
+"location_id": 23405,
+"into": 26962,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Bulevar Oslobođenja 55a",
+"to": "Dunav osiguranje Grocka | Bulevar Oslobođenja 55a"
+},
+{
+"location_id": 23406,
+"into": 26963,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Republike 62",
+"to": "Dunav osiguranje Guča | Republike br.62"
+},
+{
+"location_id": 23407,
+"into": 26964,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Golubački Trg 1",
+"to": "Dunav osiguranje Golubac | Golubački Trg 1"
+},
+{
+"location_id": 23408,
+"into": 26965,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Vojvode Stepe 8",
+"to": "Dunav osiguranje Inđija | Vojvode Stepe br. 8"
+},
+{
+"location_id": 23410,
+"into": 26967,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Knjeginje Milice 24",
+"to": "Dunav osiguranje Jagodina | Knjeginje Milice br. 24"
+},
+{
+"location_id": 23411,
+"into": 26968,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Glavna 4",
+"to": "Dunav osiguranje Kanjiža | Glavna br. 4"
+},
+{
+"location_id": 23412,
+"into": 26969,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street",
+"m": 75,
+"from": "Poslovnica Svetosavska 26 | Svetosavska 26",
+"to": "Dunav osiguranje Kikinda | Svetosavska br. 26",
+"carry_hours": false
+},
+{
+"location_id": 23413,
+"into": 26970,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | 22. Septembar 18",
+"to": "Dunav osiguranje Kladovo | 22. Septembar br. 18"
+},
+{
+"location_id": 23415,
+"into": 26972,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Cara Dušana 31",
+"to": "Dunav osiguranje Knjaževac | Cara Dušana br. 31"
+},
+{
+"location_id": 23416,
+"into": 26973,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Nemanjina 111",
+"to": "Dunav osiguranje Koceljeva | Nemanjina br.111"
+},
+{
+"location_id": 23417,
+"into": 26974,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street",
+"m": 75,
+"from": "Poslovnica Radiše Petronijevića | Radiše Petronijevića",
+"to": "Dunav osiguranje Kosjerić | Radiše Petronijevića bb",
+"carry_hours": false
+},
+{
+"location_id": 23418,
+"into": 26975,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Trg Bratstva i jedinstva 9",
+"to": "Dunav osiguranje Kostolac | Trg Bratstva i jedinstva br. 9"
+},
+{
+"location_id": 23419,
+"into": 26976,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Masarikova 65",
+"to": "Dunav osiguranje Kovačica | Masarikova br. 65"
+},
+{
+"location_id": 23420,
+"into": 26977,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | JNA 2",
+"to": "Dunav osiguranje Kovin | JNA br. 2"
+},
+{
+"location_id": 23421,
+"into": 26979,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street",
+"m": 75,
+"from": "Poslovnica Oktobarskih žrtava 14 | Oktobarskih žrtava 14",
+"to": "Dunav osiguranje Kraljevo | Oktobarskih žrtava br. 14",
+"carry_hours": false
+},
+{
+"location_id": 23422,
+"into": 26980,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | 4 Juli 2",
+"to": "Dunav osiguranje Krupanj | 4 Juli br. 2"
+},
+{
+"location_id": 23423,
+"into": 26981,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street",
+"m": 75,
+"from": "Poslovnica Trg fontana 4 | Trg fontana 4",
+"to": "Dunav osiguranje Kruševac | Trg Fontana br. 4",
+"carry_hours": false
+},
+{
+"location_id": 23424,
+"into": 26982,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Lenjinova 27",
+"to": "Dunav osiguranje Kula | Lenjinova br. 27"
+},
+{
+"location_id": 23425,
+"into": 26983,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street",
+"m": 75,
+"from": "Poslovnica Palih boraca 27 | Palih boraca 27",
+"to": "Dunav osiguranje Kuršumlija | Palih boraca br. 27",
+"carry_hours": false
+},
+{
+"location_id": 23426,
+"into": 26984,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street",
+"m": 75,
+"from": "Poslovnica Trg Veljka Dugoševića 4 | Trg Veljka Dugoševića 4",
+"to": "Dunav osiguranje Kučevo | Veljka Dugoševića br. 4",
+"carry_hours": false
+},
+{
+"location_id": 23427,
+"into": 26985,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Vladike Nikolaja Velimirovića 5",
+"to": "Dunav osiguranje Lajkovac | Vladike Nikolaja Velimirovića br. 5"
+},
+{
+"location_id": 23428,
+"into": 26986,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Njegoševa 5",
+"to": "Dunav osiguranje Lapovo | Njegoševa br.5"
+},
+{
+"location_id": 23429,
+"into": 26988,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Kralja Petra 25",
+"to": "Dunav osiguranje Lazarevac | Kralja Petra br. 25"
+},
+{
+"location_id": 23430,
+"into": 26987,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street",
+"m": 75,
+"from": "Poslovnica Karađorđeva 39 | Karađorđeva 39",
+"to": "Dunav osiguranje Lazarevac | Karađorđeva br. 39",
+"carry_hours": false
+},
+{
+"location_id": 23433,
+"into": 26992,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Karađorđeva 12",
+"to": "Dunav osiguranje Ljubovija | Karađorđeva br. 12"
+},
+{
+"location_id": 23434,
+"into": 26994,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Jugoslovenske Armije 13",
+"to": "Dunav osiguranje Lučani | Jugoslovenske Armije br.13"
+},
+{
+"location_id": 23436,
+"into": 26996,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Jove Aleksića 12",
+"to": "Dunav osiguranje Mionica | Jove Aleksića br. 12"
+},
+{
+"location_id": 23438,
+"into": 26998,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Vojvode Mišića 9",
+"to": "Dunav osiguranje Negotin | Vojvode Mišića 9"
+},
+{
+"location_id": 23439,
+"into": 27000,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Svetog Save 78",
+"to": "Dunav osiguranje Nova Varoš | Svetog Save 78"
+},
+{
+"location_id": 23441,
+"into": 27001,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Danila Kiša 3",
+"to": "Dunav osiguranje Novi Sad - Prodaja | Danila Kiša br. 3"
+},
+{
+"location_id": 23442,
+"into": 27003,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Karađorđeva 17",
+"to": "Dunav osiguranje Obrenovac | Karađorđeva br. 17"
+},
+{
+"location_id": 23443,
+"into": 27004,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Železnička 22a",
+"to": "Dunav osiguranje Odžaci | Železnička br. 22a"
+},
+{
+"location_id": 23444,
+"into": 27005,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Borisa Kidriča 9",
+"to": "Dunav osiguranje Opovo | Borisa Kidriča br. 9"
+},
+{
+"location_id": 23445,
+"into": 27006,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Karađorđeva 112",
+"to": "Dunav osiguranje Osečina | Karađorđeva br. 112"
+},
+{
+"location_id": 23446,
+"into": 27007,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Masarikova 4",
+"to": "Dunav osiguranje Pančevo | Masarikova br. 4"
+},
+{
+"location_id": 23449,
+"into": 27009,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Ćirila i Metodija 1",
+"to": "Dunav osiguranje Pirot | Ćirila i Metodija br. 1"
+},
+{
+"location_id": 23450,
+"into": 27010,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Lole Ribara 9",
+"to": "Dunav osiguranje Požarevac | Lole Ribara br. 9"
+},
+{
+"location_id": 23451,
+"into": 27011,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Nikole Pašića 2",
+"to": "Dunav osiguranje Požega | Nikole Pašića br. 2"
+},
+{
+"location_id": 23452,
+"into": 27012,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street",
+"m": 75,
+"from": "Poslovnica Nemanjina 64 | Nemanjina 64",
+"to": "Dunav osiguranje Priboj | Nemanjina br. 64",
+"carry_hours": false
+},
+{
+"location_id": 23453,
+"into": 27013,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Vladimira Perića Valtera 171",
+"to": "Dunav osiguranje Prijepolje | Vladimira Perića Valtera 171"
+},
+{
+"location_id": 23454,
+"into": 27014,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Ratka Pavlovića 2",
+"to": "Dunav osiguranje Prokuplje | Ratka Pavlovića br. 2"
+},
+{
+"location_id": 23455,
+"into": 27015,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street",
+"m": 75,
+"from": "Poslovnica Karađorđeva 71 | Karađorđeva 71",
+"to": "Dunav osiguranje Rača | Karađorđeva br. 71",
+"carry_hours": false
+},
+{
+"location_id": 23458,
+"into": 27016,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Kralja Petra Prvog 36",
+"to": "Dunav osiguranje Rekovac | Kralja Petra Prvog br. 36"
+},
+{
+"location_id": 23459,
+"into": 27017,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Veljka Dugoševića 92",
+"to": "Dunav osiguranje Ruma | Veljka Dugoševića br. 92"
+},
+{
+"location_id": 23460,
+"into": 27018,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Orlovićeva 2",
+"to": "Dunav osiguranje Ruma | Orlovićeva br. 2"
+},
+{
+"location_id": 23462,
+"into": 27020,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Glavni trg 1",
+"to": "Dunav osiguranje Senta | Glavni trg br. 1"
+},
+{
+"location_id": 23463,
+"into": 27021,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Partizanski put 46",
+"to": "Dunav osiguranje Sečanj | Partizanski put br. 46"
+},
+{
+"location_id": 23465,
+"into": 27025,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street",
+"m": 75,
+"from": "Poslovnica 27. marta 23 | 27. marta 23",
+"to": "Dunav osiguranje Sokobanja | 27. Marta br 23",
+"carry_hours": false
+},
+{
+"location_id": 23466,
+"into": 27026,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street",
+"m": 75,
+"from": "Poslovnica Avrama Mrazovića 3 | Avrama Mrazovića 3",
+"to": "Dunav osiguranje Sombor | Avrama Mrazovića br. 3",
+"carry_hours": false
+},
+{
+"location_id": 23467,
+"into": 27027,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Kosmajski trg 15",
+"to": "Dunav osiguranje Sopot | Kosmajski trg 15"
+},
+{
+"location_id": 23468,
+"into": 27028,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Kralja Petra I 4",
+"to": "Dunav osiguranje Sremska Mitrovica | Kralja Petra I br. 4"
+},
+{
+"location_id": 23469,
+"into": 27031,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Vojvođanska 154",
+"to": "Dunav osiguranje Surčin | Vojvođanska 154"
+},
+{
+"location_id": 23470,
+"into": 27032,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Svetog Save 1",
+"to": "Dunav osiguranje Svilajnac | Svetog Save br. 1"
+},
+{
+"location_id": 23471,
+"into": 27033,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Hadžićeva 2",
+"to": "Dunav osiguranje Svrljig | Hadžićeva br. 2"
+},
+{
+"location_id": 23472,
+"into": 27034,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Petefi Šandora 2",
+"to": "Dunav osiguranje Temerin | Petefi Šandora br. 2"
+},
+{
+"location_id": 23473,
+"into": 27035,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Glavna 36",
+"to": "Dunav osiguranje Titel | Glavna br. 36"
+},
+{
+"location_id": 23474,
+"into": 27036,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Knjeginje Zorke 13",
+"to": "Dunav osiguranje Topola | Knjeginje Zorke br. 13"
+},
+{
+"location_id": 23475,
+"into": 27037,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Cara Dušana 4/5",
+"to": "Dunav osiguranje Trstenik | Cara Dušana br. 4/5"
+},
+{
+"location_id": 23476,
+"into": 27039,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Kralja Petra I Oslobodioca 41",
+"to": "Dunav osiguranje Ub | Kralja Petra I Oslobodioca br. 41"
+},
+{
+"location_id": 23477,
+"into": 27041,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Karađorđeva 48a",
+"to": "Dunav osiguranje Valjevo | Karađorđeva br. 48a"
+},
+{
+"location_id": 23478,
+"into": 27042,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Slobode 30",
+"to": "Dunav osiguranje Varvarin | Slobode 30"
+},
+{
+"location_id": 23479,
+"into": 27043,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Miloša Velikoga vr. 83a",
+"to": "Dunav osiguranje Velika Plana | Miloša Velikoga vr. 83a"
+},
+{
+"location_id": 23480,
+"into": 27044,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Kneza Lazara 2",
+"to": "Dunav osiguranje Veliko Gradište | Kneza Lazara br. 2"
+},
+{
+"location_id": 23481,
+"into": 27045,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Slobodana Penezića 1",
+"to": "Dunav osiguranje Vladičin Han | Slobodana Penezića br. 1"
+},
+{
+"location_id": 23482,
+"into": 27046,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street",
+"m": 75,
+"from": "Poslovnica Dušanova 7 | Dušanova 7",
+"to": "Dunav osiguranje Vlasotince | Dušanova br. 7",
+"carry_hours": false
+},
+{
+"location_id": 23483,
+"into": 27048,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street",
+"m": 75,
+"from": "Poslovnica Maršala Tita 105 | Maršala Tita 105",
+"to": "Dunav osiguranje Vrbas | Maršala Tita br. 105",
+"carry_hours": false
+},
+{
+"location_id": 23484,
+"into": 27049,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Vrnjačka 1",
+"to": "Dunav osiguranje Vrnjačka Banja | Vrnjačka br. 1"
+},
+{
+"location_id": 23485,
+"into": 27050,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Miloša Obilića 12",
+"to": "Dunav osiguranje Vršac | Miloša Obilića br. 12"
+},
+{
+"location_id": 23486,
+"into": 27051,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Nikole Pašića 66",
+"to": "Dunav osiguranje Zaječar | Nikole Pašića br. 66"
+},
+{
+"location_id": 23487,
+"into": 27052,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Kralja Aleksandra I Karađorđevića 28",
+"to": "Dunav osiguranje Zrenjanin | Kralja Aleksandra I Karađorđevića br. 28"
+},
+{
+"location_id": 23488,
+"into": 27053,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Karađorđeva 102",
+"to": "Dunav osiguranje Ćićevac | Karađorđeva br. 102"
+},
+{
+"location_id": 23491,
+"into": 27056,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street",
+"m": 75,
+"from": "Poslovnica Skadarska 15 | Skadarska 15",
+"to": "Dunav osiguranje Čačak | Skadarska br.15",
+"carry_hours": false
+},
+{
+"location_id": 23492,
+"into": 27057,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Maršala Tita 4",
+"to": "Dunav osiguranje Čoka | Maršala Tita br.4"
+},
+{
+"location_id": 23493,
+"into": 27058,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street",
+"m": 75,
+"from": "Poslovnica Kneza Miloša 2 | Kneza Miloša 2",
+"to": "Dunav osiguranje Šabac | Kneza Miloša br. 2",
+"carry_hours": false
+},
+{
+"location_id": 23494,
+"into": 27059,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Kneza Miloša 64",
+"to": "Dunav osiguranje Šid | Kneza Miloša 64"
+},
+{
+"location_id": 23495,
+"into": 27060,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street",
+"m": 75,
+"from": "Poslovnica Kneza Miloša 56 | Kneza Miloša 56",
+"to": "Dunav osiguranje Žabari | Kneza Miloša br. 56",
+"carry_hours": false
+},
+{
+"location_id": 23496,
+"into": 27061,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street",
+"m": 75,
+"from": "Poslovnica Trg Jovana Šerbanovića 1 | Trg Jovana Šerbanovića 1",
+"to": "Dunav osiguranje Žagubica | Trg Jovana Šerbanovića br. 1",
+"carry_hours": false
+},
+{
+"location_id": 23497,
+"into": 27062,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Cara Dušana 17",
+"to": "Dunav osiguranje Žitište | Cara Dušana 17"
+},
+{
+"location_id": 23498,
+"into": 28213,
+"org": "banka-addiko",
+"by": "distance",
+"m": 98,
+"from": "Addiko Bank | Kralja Petra prvog 33",
+"to": "Ekspozitura Bačka Palanka | Kralja Petra I 33",
+"carry_hours": false
+},
+{
+"location_id": 23501,
+"into": 28219,
+"org": "banka-addiko",
+"by": "distance",
+"m": 34,
+"from": "Addiko Bank | None",
+"to": "Ekspozitura Gramšijeva | Gramšijeva 9",
+"carry_hours": false
+},
+{
+"location_id": 23509,
+"into": 28209,
+"org": "banka-addiko",
+"by": "distance",
+"m": 26,
+"from": "Addiko Bank | None",
+"to": "Ekspozitura Obrenovac | Miloša Obrenovića 120",
+"carry_hours": false
+},
+{
+"location_id": 23516,
+"into": 28044,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 13,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Bulevar oslobođenja 3 | Bulevar oslobođenja 3",
+"carry_hours": false
+},
+{
+"location_id": 23517,
+"into": 28073,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 15,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Cara Dušana bb | Cara Dušana bb",
+"carry_hours": false
+},
+{
+"location_id": 23519,
+"into": 28086,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 17,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Dr Dimitrija Jovčića 2 | Dr Dimitrija Jovčića 2",
+"carry_hours": false
+},
+{
+"location_id": 23520,
+"into": 28063,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 12,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Dr Jovana Cvijića 3 | Dr Jovana Cvijića 3",
+"carry_hours": false
+},
+{
+"location_id": 23522,
+"into": 28003,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 14,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Glavna 3 | Glavna 3",
+"carry_hours": false
+},
+{
+"location_id": 23523,
+"into": 28004,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 9,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Gospodar Jevremova 44 | Gospodar Jevremova 44",
+"carry_hours": false
+},
+{
+"location_id": 23524,
+"into": 28037,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 36,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Hercegovačka 21 | Hercegovačka 21",
+"carry_hours": false
+},
+{
+"location_id": 23525,
+"into": 28043,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 7,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Ilije Garašanina 4 | Ilije Garašanina 4",
+"carry_hours": false
+},
+{
+"location_id": 23526,
+"into": 28032,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 51,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Ivana Milutinovića 73 | Ivana Milutinovića 73",
+"carry_hours": false
+},
+{
+"location_id": 23527,
+"into": 28050,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 41,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Karađorđeva 41 | Karađorđeva 41",
+"carry_hours": false
+},
+{
+"location_id": 23528,
+"into": 28072,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 13,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Kneza Lazara 5-6 | Kneza Lazara 5",
+"carry_hours": false
+},
+{
+"location_id": 23529,
+"into": 28074,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 25,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Kralja Petra I 4 | Kralja Petra I 4",
+"carry_hours": false
+},
+{
+"location_id": 23531,
+"into": 27995,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 6,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Kralja Petra I 7a | Kralja Petra I 7a",
+"carry_hours": false
+},
+{
+"location_id": 23532,
+"into": 28014,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 4,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Majke Jugovića 1 | Majke Jugovića 1",
+"carry_hours": false
+},
+{
+"location_id": 23534,
+"into": 28034,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 31,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura (SBO HUB) Vladimira Popovića 8 | Vladimira Popovića 8",
+"carry_hours": false
+},
+{
+"location_id": 23540,
+"into": 28008,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 102,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Nikole Tesle 47 | Nikole Tesle 47",
+"carry_hours": false
+},
+{
+"location_id": 23541,
+"into": 28000,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 15,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Novosadska 403 | Novosadska 403",
+"carry_hours": false
+},
+{
+"location_id": 23542,
+"into": 28080,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 27,
+"from": "Ekspozitura Obrenovićeva 82a | Obrenovićeva 82a",
+"to": "Ekspozitura Obrenovićeva 82/2 | Obrenovićeva 82/2",
+"carry_hours": false
+},
+{
+"location_id": 23544,
+"into": 28065,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 12,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Sterijina 19a | Sterijina 19a",
+"carry_hours": false
+},
+{
+"location_id": 23545,
+"into": 27993,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 22,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Svetog Dimitrija 2 | Svetog Dimitrija 2",
+"carry_hours": false
+},
+{
+"location_id": 23546,
+"into": 28068,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 28,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Trg Jovana Sarića 8 | Trg Jovana Sarića 8",
+"carry_hours": false
+},
+{
+"location_id": 23549,
+"into": 28066,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 57,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Drinska 17 | Drinska 17",
+"carry_hours": false
+},
+{
+"location_id": 23551,
+"into": 28006,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 61,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Vojvode Mišića 44 | Vojvode Mišića 44",
+"carry_hours": false
+},
+{
+"location_id": 23552,
+"into": 28026,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 28,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Vojvode Mišića 84 | Vojvode Mišića 84",
+"carry_hours": false
+},
+{
+"location_id": 23553,
+"into": 27991,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 87,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Vojvode Stepe 35 | Vojvode Stepe 35",
+"carry_hours": false
+},
+{
+"location_id": 23554,
+"into": 28016,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 77,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Vojvođanska 85 | Vojvođanska 85",
+"carry_hours": false
+},
+{
+"location_id": 23561,
+"into": 27973,
+"org": "banka-unicredit",
+"by": "distance",
+"m": 11,
+"from": "UniCredit Bank | None",
+"to": "Ekspozitura Narodnih heroja 3 | Narodnih heroja 3",
+"carry_hours": false
+},
+{
+"location_id": 23571,
+"into": 27902,
+"org": "banka-raiffeisen",
+"by": "distance",
+"m": 21,
+"from": "Raiffeisen bank | None",
+"to": "Ćuprija | Kneza Miloša 24",
+"carry_hours": false
+},
+{
+"location_id": 23575,
+"into": 27836,
+"org": "banka-raiffeisen",
+"by": "distance",
+"m": 11,
+"from": "Raiffeisen bank | None",
+"to": "Nis III | Obrenovićeva 35",
+"carry_hours": false
+},
+{
+"location_id": 23577,
+"into": 28699,
+"org": "banka-halkbank",
+"by": "distance",
+"m": 23,
+"from": "Ekspozitura | None",
+"to": "Filijala Pirot | Branka Radičevića 20",
+"carry_hours": false
+},
+{
+"location_id": 23587,
+"into": 27900,
+"org": "banka-raiffeisen",
+"by": "distance",
+"m": 72,
+"from": "Raiffeisen bank | Kneginje Milice 16",
+"to": "Jagodina | Kneginje Milice 16a",
+"carry_hours": false
+},
+{
+"location_id": 23588,
+"into": 27892,
+"org": "banka-raiffeisen",
+"by": "distance",
+"m": 29,
+"from": "Raiffeisen bank | None",
+"to": "Bačka Palanka | Kralja Petra I 19",
+"carry_hours": false
+},
+{
+"location_id": 23601,
+"into": 28390,
+"org": "banka-otp",
+"by": "distance",
+"m": 19,
+"from": "OTP banka | None",
+"to": "„Biznis centar Novi Beograd“ Beograd Vladimira Popovića 8a | Vladimira Popovića 8a",
+"carry_hours": false
+},
+{
+"location_id": 23615,
+"into": 27903,
+"org": "banka-raiffeisen",
+"by": "distance",
+"m": 32,
+"from": "Raiffeisen bank | None",
+"to": "Temerin | Novosadska 326",
+"carry_hours": false
+},
+{
+"location_id": 23648,
+"into": 27953,
+"org": "banka-unicredit",
+"by": "distance",
+"m": 17,
+"from": "UniCredit Bank | None",
+"to": "Ekspozitura Gospodska 31 - Zemun | Gospodska 31",
+"carry_hours": false
+},
+{
+"location_id": 23656,
+"into": 27941,
+"org": "banka-unicredit",
+"by": "distance",
+"m": 11,
+"from": "UniCredit Bank | None",
+"to": "Ekspozitura Bulevar kralja Aleksandra I Karadjordjevica 43 | Bulevar kralja Aleksandra I Karadjordjevica 43",
+"carry_hours": false
+},
+{
+"location_id": 23657,
+"into": 26978,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Branka Radičevića 3",
+"to": "Dunav osiguranje Kragujevac | Branka Radičevića br. 3"
+},
+{
+"location_id": 23662,
+"into": 28288,
+"org": "banka-otp",
+"by": "distance",
+"m": 38,
+"from": "OTP banka (Srbija) | None",
+"to": "Ekspozitura Vranje Stefana Prvovenčanog 61 | Stefana Prvovenčanog 61",
+"carry_hours": false
+},
+{
+"location_id": 23695,
+"into": 24154,
+"org": "banka-otp",
+"by": "distance",
+"m": 15,
+"from": "OTP banka | None",
+"to": "OTP banka | Novosadska 324",
+"carry_hours": false
+},
+{
+"location_id": 23704,
+"into": 28361,
+"org": "banka-otp",
+"by": "distance",
+"m": 12,
+"from": "OTP Banka | Kralja Petra prvog 1",
+"to": "Ekspozitura Beograd Kralja Petra I 1 | Kralja Petra I 1",
+"carry_hours": false
+},
+{
+"location_id": 23720,
+"into": 27911,
+"org": "banka-raiffeisen",
+"by": "distance",
+"m": 25,
+"from": "Raiffeisen bank | None",
+"to": "Požarevac | Moše Pijade 10",
+"carry_hours": false
+},
+{
+"location_id": 23791,
+"into": 27850,
+"org": "banka-raiffeisen",
+"by": "distance",
+"m": 19,
+"from": "Raiffeisen bank | None",
+"to": "Ns-maxton | Bulevar cara Lazara bb",
+"carry_hours": false
+},
+{
+"location_id": 23814,
+"into": 28716,
+"org": "banka-procredit",
+"by": "distance",
+"m": 20,
+"from": "ProCredit banka | Milutina Milankovića 17",
+"to": "Ekspozitura Bulevar Milutina Milankovića 17 | Bulevar Milutina Milankovića 17",
+"carry_hours": false
+},
+{
+"location_id": 23854,
+"into": 27992,
+"org": "banka-banca-intesa",
+"by": "distance",
+"m": 29,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Kralja Petra I 6 (SBO HUB) | Kralja Petra I 6",
+"carry_hours": false
+},
+{
+"location_id": 23901,
+"into": 28610,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 87,
+"from": "Ekspozitura Temerinska 159 | Temerinska 159",
+"to": "Samostalni šalter Klisa | Temerinska 173",
+"carry_hours": false
+},
+{
+"location_id": 23916,
+"into": 22209,
+"org": "banka-erste",
+"by": "distance",
+"m": 10,
+"from": "Erste Bank | None",
+"to": "Erste banka | Vojvode Putnika 45",
+"carry_hours": false
+},
+{
+"location_id": 23924,
+"into": 27898,
+"org": "banka-raiffeisen",
+"by": "distance",
+"m": 67,
+"from": "Kineska radnja | Karađorđeva 114",
+"to": "Valjevo | Karađorđeva 123",
+"carry_hours": false
+},
+{
+"location_id": 23975,
+"into": 27161,
+"org": "osiguravajuce-drustvo-sava-osiguranje",
+"by": "street",
+"m": 172,
+"from": "Poslovnica Bulevar vojvode Mišića 51 | Bulevar vojvode Mišića 51",
+"to": "Sedište - Beograd | Bul. vojvode Mišića 51",
+"carry_hours": false
+},
+{
+"location_id": 23989,
+"into": 28354,
+"org": "banka-otp",
+"by": "distance",
+"m": 127,
+"from": "OTP banka | Bulevar maršala Tolbuhina",
+"to": "Ekspozitura za fizička lica Beograd Bulevar Maršala Tolbuhina 10-12 | Bulevar Maršala Tolbuhina 10",
+"carry_hours": false
+},
+{
+"location_id": 24004,
+"into": 26990,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street",
+"m": 75,
+"from": "Poslovnica Moše Pijade 12 | Moše Pijade 12",
+"to": "Dunav osiguranje Leskovac | Moše Pijade br. 12",
+"carry_hours": false
+},
+{
+"location_id": 24099,
+"into": 28412,
+"org": "banka-nlb-komercijalna",
+"by": "distance",
+"m": 44,
+"from": "NLB Komercijalna banka | JNA 28",
+"to": "Ekspozitura Kovin JNA 26 | JNA 26",
+"carry_hours": false
+},
+{
+"location_id": 24181,
+"into": 27040,
+"org": "osiguravajuce-drustvo-dunav-osiguranje",
+"by": "street (entry rebuilt from the database)",
+"from": "Poslovnica | Nikole Pašića 22",
+"to": "Dunav osiguranje Užice | Nikole Pašića br. 22"
+},
+{
+"location_id": 24386,
+"into": 28441,
+"org": "banka-nlb-komercijalna",
+"by": "distance",
+"m": 8,
+"from": "NLB Komercijalna banka | Kneza Lazara 43",
+"to": "Ekspozitura Veliko Gradište Kneza Lazara 47 | Kneza Lazara 47",
+"carry_hours": false
+},
+{
+"location_id": 24387,
+"into": 28430,
+"org": "banka-nlb-komercijalna",
+"by": "distance",
+"m": 34,
+"from": "NLB Komercijalna banka | None",
+"to": "Ekspozitura Lebane Cara Dušana 12 | Cara Dušana 12",
+"carry_hours": false
+},
+{
+"location_id": 24413,
+"into": 27920,
+"org": "banka-raiffeisen",
+"by": "distance",
+"m": 65,
+"from": "Raiffeisen bank | Kralja Petra I 30",
+"to": "Sremska Mitrovica | Kralja Petra I 20",
+"carry_hours": false
+},
+{
+"location_id": 24439,
+"into": 28499,
+"org": "banka-postanska-stedionica",
+"by": "distance",
+"m": 28,
+"from": "Ekspozitura | None",
+"to": "Ekspozitura Beograd 23 - Prokop | Zorana Žunkovića 15",
+"carry_hours": false
+},
+{
+"location_id": 24468,
+"into": 28263,
+"org": "banka-erste",
+"by": "distance",
+"m": 8,
+"from": "Erste Bank | None",
+"to": "Ekspres ekspozitura Pančevo | Miloša Obrenovića 12",
+"carry_hours": false
+},
+{
+"location_id": 24499,
+"into": 28127,
+"org": "banka-aik",
+"by": "distance",
+"m": 132,
+"from": "AIK banka | None",
+"to": "Filijala Galerija - Vudroa Vilsona 14 | Galerija - Vudroa Vilsona 14",
+"carry_hours": false
+},
+{
+"location_id": 24500,
+"into": 28383,
+"org": "banka-otp",
+"by": "distance",
+"m": 13,
+"from": "OTP banka | None",
+"to": "Ekspozitura za fizička lica Beograd Bulevar Vudroa Vilsona 14 | Bulevar Vudroa Vilsona 14",
+"carry_hours": false
+},
+{
+"location_id": 24501,
+"into": 27838,
+"org": "banka-raiffeisen",
+"by": "distance",
+"m": 35,
+"from": "Raiffeisen bank | None",
+"to": "Galerija BW | Vudro Vilson 12",
+"carry_hours": false
+}
+]

@@ -1,0 +1,398 @@
+{
+ "kind": "sites",
+ "title": "Institucije sa sopstvenim sajtom",
+ "rows": [
+  {
+   "org_slug": "dom-zdravlja-tutin-tutin",
+   "name": "Dom zdravlja Tutin",
+   "type": "Dom zdravlja",
+   "place": "Tutin",
+   "website": "https://dztutin.rs",
+   "mb": "17253859",
+   "have": {
+    "address": "Bogoljuba Čukića 12",
+    "phones": "020 811129; 020 820520",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-dr-vlastimir-godic-varvarin",
+   "name": "Dom zdravlja \"Dr Vlastimir Godić\"",
+   "type": "Dom zdravlja",
+   "place": "Varvarin",
+   "website": "http://www.dz-varvarin.com",
+   "mb": "17670069",
+   "have": {
+    "address": "Slobode bb",
+    "phones": "037 787124",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-dr-milan-bane-djordjevic-velika-plana",
+   "name": "Dom zdravlja \"Dr Milan-Bane Đorđević\"",
+   "type": "Dom zdravlja",
+   "place": "Velika Plana",
+   "website": "https://www.dzvelikaplana.rs",
+   "mb": "17272993",
+   "have": {
+    "address": "Miloša Velikog 110",
+    "phones": "026 541110",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-veliko-gradiste-veliko-gradiste",
+   "name": "Dom zdravlja Veliko Gradište",
+   "type": "Dom zdravlja",
+   "place": "Veliko Gradište",
+   "website": "https://www.dzvg.rs",
+   "mb": "17185918",
+   "have": {
+    "address": "Vojvode Putnika 28",
+    "phones": "012 7160700; 012 662591",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-vladicin-han-vladicin-han",
+   "name": "Dom zdravlja Vladičin Han",
+   "type": "Dom zdravlja",
+   "place": "Vladičin Han",
+   "website": "https://dzvladicinhan.rs/",
+   "mb": "17652109",
+   "have": {
+    "address": "Nikole Tesle bb",
+    "phones": "017 472678; 017 473054; 017 471285; 017 473021",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-veljko-vlahovic-vrbas",
+   "name": "Dom zdravlja \"Veljko Vlahović\"",
+   "type": "Dom zdravlja",
+   "place": "Vrbas",
+   "website": "http://www.dzvrbas.co.rs",
+   "mb": "08888779",
+   "have": {
+    "address": "Palih boraca 20",
+    "phones": "021 7954400",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-dr-nikola-dzamic-vrnjacka-banja",
+   "name": "Dom zdravlja \"Dr Nikola Džamić\"",
+   "type": "Dom zdravlja",
+   "place": "Vrnjačka Banja",
+   "website": "http://dzvbanja.org.rs",
+   "mb": "17670581",
+   "have": {
+    "address": "Kraljevačka 21",
+    "phones": "036 601600",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-vrsac-vrsac",
+   "name": "Dom zdravlja Vršac",
+   "type": "Dom zdravlja",
+   "place": "Vršac",
+   "website": "http://www.dzvrsac.co.rs",
+   "mb": "08884102",
+   "have": {
+    "address": "Abraševićeva bb",
+    "phones": "013 832458",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-cicevac-cicevac",
+   "name": "Dom zdravlja Ćićevac",
+   "type": "Dom zdravlja",
+   "place": "Ćićevac",
+   "website": "http://www.dzcicevac.com",
+   "mb": "17669915",
+   "have": {
+    "address": "Svetog save 19",
+    "phones": "037 811343",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-cacak-cacak-cacak",
+   "name": "Dom zdravlja \"Čačak\" Čačak",
+   "type": "Dom zdravlja",
+   "place": "Čačak",
+   "website": "https://domzdravljacacak.rs",
+   "mb": "17870017",
+   "have": {
+    "address": "Veselina Milikića 9",
+    "phones": "032 325717",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-coka-coka",
+   "name": "Dom zdravlja Čoka",
+   "type": "Dom zdravlja",
+   "place": "Čoka",
+   "website": "http://www.dzcoka.com",
+   "mb": "08150648",
+   "have": {
+    "address": "Senćanska 3",
+    "phones": "0230 71066",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-sid-sid",
+   "name": "Dom zdravlja \"Šid\"",
+   "type": "Dom zdravlja",
+   "place": "Šid",
+   "website": "http://www.domzdravljasid.org.rs",
+   "mb": "08017298",
+   "have": {
+    "address": "Alekse Šantića 1",
+    "phones": "022 712522",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-zabalj-zabalj",
+   "name": "Dom zdravlja Žabalj",
+   "type": "Dom zdravlja",
+   "place": "Žabalj",
+   "website": "https://dzzabalj.rs",
+   "mb": "08062463",
+   "have": {
+    "address": "Nikole Tesle 66",
+    "phones": "021 2931054",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-zabari-zabari",
+   "name": "Dom zdravlja Žabari",
+   "type": "Dom zdravlja",
+   "place": "Žabari",
+   "website": "http://dzzabari.150m.com",
+   "mb": "17669893",
+   "have": {
+    "address": "Kneza Miloša bb",
+    "phones": "012 250163",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-zitiste-zitiste",
+   "name": "Dom zdravlja Žitište",
+   "type": "Dom zdravlja",
+   "place": "Žitište",
+   "website": "http://www.dzzitiste.rs",
+   "mb": "08030553",
+   "have": {
+    "address": "Ive Lole Ribara 16",
+    "phones": "023 821010",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-zitoradja-zitoradja",
+   "name": "Dom zdravlja Žitorađa",
+   "type": "Dom zdravlja",
+   "place": "Žitorađa",
+   "website": "http://www.dzzitoradja.com",
+   "mb": "17716409",
+   "have": {
+    "address": "Topličkih heroja 55",
+    "phones": "027 8362025",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "elektrodistribucija-srbije-d-o-o-beograd-beograd-novi-beograd",
+   "name": "Elektrodistribucija Srbije d.o.o. Beograd",
+   "type": "Elektrodistribucija Srbije (ogranak)",
+   "place": "Novi Beograd",
+   "website": "https://www.elektrodistribucija.rs/",
+   "mb": "07005466",
+   "have": {
+    "address": null,
+    "phones": "0800 360300; 011 3470710",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "akcionarsko-drustvo-elektroprivreda-srbije-beograd-beograd-stari-grad",
+   "name": "Akcionarsko Društvo Elektroprivreda Srbije, Beograd",
+   "type": "Elektrodistribucija Srbije (ogranak)",
+   "place": "Stari grad",
+   "website": "https://www.elektrodistribucija.rs/",
+   "mb": "20053658",
+   "have": {
+    "address": "Toplice Milana bb",
+    "phones": "0800 360300; 011 3470710",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "fakultet-likovnih-umetnosti-beograd",
+   "name": "Fakultet Likovnih umetnosti",
+   "type": "Fakultet",
+   "place": "Beograd",
+   "website": "https://www.flu.bg.ac.rs",
+   "mb": "07014562",
+   "have": {
+    "address": "Pariska 16",
+    "phones": "011 2181214",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "fakultet-muzicke-umetnosti-beograd",
+   "name": "Fakultet Muzičke umetnosti",
+   "type": "Fakultet",
+   "place": "Beograd",
+   "website": "https://www.fmu.bg.ac.rs",
+   "mb": "07002084",
+   "have": {
+    "address": "Kralja Milana 50",
+    "phones": "011 2659887; 011 2659466",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "tehnicki-fakultet-u-boru-bor",
+   "name": "Tehnički Fakultet u Boru",
+   "type": "Fakultet",
+   "place": "Bor",
+   "website": "http://www.tfbor.bg.ac.rs/",
+   "mb": "07130210",
+   "have": {
+    "address": "Vojske Jugoslavije 12",
+    "phones": "030 424555; 030 424556",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "univerzitet-u-kragujevcu-fakultet-za-masinstvo-i-gradjevinarstvo-u-kraljevu-kraljevo",
+   "name": "Univerzitet u Kragujevcu - Fakultet za Mašinstvo i Građevinarstvo u Kraljevu",
+   "type": "Fakultet",
+   "place": "Kraljevo",
+   "website": "https://mfkv.kg.ac.rs",
+   "mb": "07316291",
+   "have": {
+    "address": "Dositejeva 19",
+    "phones": "036 383378; 036 383379; 036 383380",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "poljoprivredni-fakultet-u-krusevcu-univerziteta-u-nisu-krusevac",
+   "name": "Poljoprivredni Fakultet u Kruševcu Univerziteta u Nišu",
+   "type": "Fakultet",
+   "place": "Kruševac",
+   "website": "https://poljfak.ni.ac.rs/",
+   "mb": "17906674",
+   "have": {
+    "address": "Kosančićeva 4",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "fakultet-za-ekonomiju-i-inzenjerski-menadzment-novi-sad",
+   "name": "Fakultet za ekonomiju i inženjerski menadžment",
+   "type": "Fakultet",
+   "place": "Novi Sad",
+   "website": "https://www.fimek.edu.rs",
+   "mb": null,
+   "have": {
+    "address": "Cvećarska 2",
+    "phones": "021 400484",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  }
+ ],
+ "id": "site-012"
+}

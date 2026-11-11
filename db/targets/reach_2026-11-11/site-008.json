@@ -1,0 +1,396 @@
+{
+ "kind": "sites",
+ "title": "Institucije sa sopstvenim sajtom",
+ "rows": [
+  {
+   "org_slug": "dom-ucenika-srednjih-skola-subotica-subotica",
+   "name": "Dom učenika Srednjih škola Subotica",
+   "type": "Dom učenika",
+   "place": "Subotica",
+   "website": "https://www.internatsu.edu.rs",
+   "mb": "08580855",
+   "have": {
+    "address": "Harambašićeva 22",
+    "phones": "024 555510",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-ucenika-srednjih-skola-surdulica-surdulica",
+   "name": "Dom učenika Srednjih škola Surdulica",
+   "type": "Dom učenika",
+   "place": "Surdulica",
+   "website": "https://www.domsurdulica.edu.rs",
+   "mb": "07179944",
+   "have": {
+    "address": "Naselje Belo Polje bb",
+    "phones": "017 825255; 017 822012",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-ucenika-srednjih-skola-trstenik-trstenik",
+   "name": "Dom učenika Srednjih škola Trstenik",
+   "type": "Dom učenika",
+   "place": "Trstenik",
+   "website": "https://www.domucenikatrstenik.edu.rs",
+   "mb": "07352603",
+   "have": {
+    "address": "Kneginje Milice 72a",
+    "phones": "037 711865",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-ucenika-srednjih-skola-uzice-uzice",
+   "name": "Dom učenika Srednjih škola Užice",
+   "type": "Dom učenika",
+   "place": "Užice",
+   "website": "https://www.domucenika.rs",
+   "mb": "07156855",
+   "have": {
+    "address": "Užičke republike 116",
+    "phones": "031 552645",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-ucenika-srednjih-skola-vranje-vranje",
+   "name": "Dom učenika Srednjih škola Vranje",
+   "type": "Dom učenika",
+   "place": "Vranje",
+   "website": "https://www.domucenikavr.co.rs",
+   "mb": "07139055",
+   "have": {
+    "address": "Milunke Savić 41",
+    "phones": "017 422035",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-ucenika-srednjih-skola-vrsac-vrsac",
+   "name": "Dom učenika Srednjih škola Vršac",
+   "type": "Dom učenika",
+   "place": "Vršac",
+   "website": "https://www.internat-vrsac.edu.rs",
+   "mb": "08114838",
+   "have": {
+    "address": "Stevana Nemanje 9",
+    "phones": "013 830466; 013 838011",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-ucenika-srednjih-skola-zajecar-zajecar",
+   "name": "Dom učenika Srednjih škola Zaječar",
+   "type": "Dom učenika",
+   "place": "Zaječar",
+   "website": "https://www.internatza.edu.rs",
+   "mb": "07147961",
+   "have": {
+    "address": "Skopljanska bb",
+    "phones": "019 430915",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-ucenika-srednjih-skola-angelina-kojic-gina-zrenjanin-zrenjanin",
+   "name": "Dom učenika Srednjih škola \"Angelina Kojić-Gina\" Zrenjanin",
+   "type": "Dom učenika",
+   "place": "Zrenjanin",
+   "website": "https://www.zrint.edu.rs",
+   "mb": "08002339",
+   "have": {
+    "address": "Cara Dušana 4",
+    "phones": "023 561467; 023 561498",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-ucenika-srednjih-skola-srecno-cuprija-cuprija",
+   "name": "Dom učenika Srednjih škola \"Srećno\" - Ćuprija",
+   "type": "Dom učenika",
+   "place": "Ćuprija",
+   "website": "https://www.dus.rs",
+   "mb": "17769367",
+   "have": {
+    "address": "Kneza Miloša bb",
+    "phones": "035 8871950",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-ucenika-srednjih-skola-cacak-cacak",
+   "name": "Dom učenika Srednjih škola Čačak",
+   "type": "Dom učenika",
+   "place": "Čačak",
+   "website": "https://www.domucenika-cacak.org.rs",
+   "mb": "07181639",
+   "have": {
+    "address": "Učiteljska 8",
+    "phones": "032 341695; 032 322326",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-za-stare-dom-za-stare-i-penzionere-moja-kuca-beograd",
+   "name": "Dom ZA Stare I Penzionere ''moja Kuća''",
+   "type": "Dom za stare",
+   "place": "Beograd",
+   "website": "http://www.moja.kuca.co.rs",
+   "mb": null,
+   "have": {
+    "address": "Majevička br. 2n",
+    "phones": "011 3196316",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-dr-dobrivoje-ger-popovic-aleksandrovac",
+   "name": "Dom zdravlja \"Dr Dobrivoje Ger Popović\"",
+   "type": "Dom zdravlja",
+   "place": "Aleksandrovac",
+   "website": "https://dzaleksandrovac.org.rs/",
+   "mb": "17669877",
+   "have": {
+    "address": "Dr Milana Mirkovića 6",
+    "phones": "037 3751148",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-alibunar-alibunar",
+   "name": "Dom zdravlja \"Alibunar\"",
+   "type": "Dom zdravlja",
+   "place": "Alibunar",
+   "website": "https://dzalibunar.rs",
+   "mb": "08072361",
+   "have": {
+    "address": "Trg slobode br. 8",
+    "phones": "013 641201",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-apatin-apatin",
+   "name": "Dom zdravlja Apatin",
+   "type": "Dom zdravlja",
+   "place": "Apatin",
+   "website": "http://domzdravljaapatin.rs",
+   "mb": "08023247",
+   "have": {
+    "address": "Nušićeva bb",
+    "phones": "025 773722",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-dr-milorad-vlajkovic-barajevo",
+   "name": "Dom zdravlja \"Dr Milorad Vlajković\"",
+   "type": "Dom zdravlja",
+   "place": "Barajevo",
+   "website": "https://www.dzbarajevo.com",
+   "mb": "07001266",
+   "have": {
+    "address": "Svetosavska 91",
+    "phones": "011 8300186",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-batocina-batocina",
+   "name": "Dom zdravlja Batočina",
+   "type": "Dom zdravlja",
+   "place": "Batočina",
+   "website": "https://dzbatocina.rs",
+   "mb": "17210408",
+   "have": {
+    "address": "Kneza Miloša Obrenovića 1",
+    "phones": "034 6841130; 034 6841209; 034 6841557",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-bac-bac",
+   "name": "Dom zdravlja Bač",
+   "type": "Dom zdravlja",
+   "place": "Bač",
+   "website": "https://dzbac.rs",
+   "mb": "08051372",
+   "have": {
+    "address": "Bačka 2",
+    "phones": "021 6070037; 021 770055; 021 770052; 021 6070124",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-dr-mladen-stojanovic-backa-palanka",
+   "name": "Dom zdravlja \"Dr Mladen Stojanović\"",
+   "type": "Dom zdravlja",
+   "place": "Bačka Palanka",
+   "website": "http://www.dzbacpal.org.rs",
+   "mb": "08106452",
+   "have": {
+    "address": "Kralja Petra I 26a",
+    "phones": "021 7550329",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-dr-janos-hadzi-backa-topola-sa-stacionarom-backa-topola",
+   "name": "Dom zdravlja \"Dr Janoš Hadži\" Bačka Topola (sa Stacionarom)",
+   "type": "Dom zdravlja",
+   "place": "Bačka Topola",
+   "website": "http://www.dzbt.co.rs",
+   "mb": "08061858",
+   "have": {
+    "address": "Svetog Stefana 1",
+    "phones": "024 715425",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-backi-petrovac-backi-petrovac",
+   "name": "Dom zdravlja Bački Petrovac",
+   "type": "Dom zdravlja",
+   "place": "Bački Petrovac",
+   "website": "https://dzbackipetrovac.rs",
+   "mb": "08054185",
+   "have": {
+    "address": "M. Tita 6",
+    "phones": "021 2280094; 021 2280124",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-bela-crkva-bela-crkva",
+   "name": "Dom zdravlja Bela Crkva",
+   "type": "Dom zdravlja",
+   "place": "Bela Crkva",
+   "website": "http://www.dzbc.rs",
+   "mb": "08031428",
+   "have": {
+    "address": "Jovana Popovića bb",
+    "phones": "013 853020",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-bela-palanka-bela-palanka",
+   "name": "Dom zdravlja Bela Palanka",
+   "type": "Dom zdravlja",
+   "place": "Bela Palanka",
+   "website": "http://www.dzbelapalanka.org.rs",
+   "mb": "07186827",
+   "have": {
+    "address": "Branislava Nušića 2",
+    "phones": "018 855311",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-dr-milutin-ivkovic-beograd",
+   "name": "Dom zdravlja \"Dr Milutin Ivković\"",
+   "type": "Dom zdravlja",
+   "place": "Beograd",
+   "website": "https://dzpalilula.org.rs",
+   "mb": "07036965",
+   "have": {
+    "address": "Knez Danilova 16",
+    "phones": "011 3224321",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-rakovica-beograd",
+   "name": "Dom zdravlja Rakovica",
+   "type": "Dom zdravlja",
+   "place": "Beograd",
+   "website": "https://dzrakovica.rs",
+   "mb": "07009801",
+   "have": {
+    "address": "Kraljice Jelene 22",
+    "phones": "011 3054400; 011 3564446",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  }
+ ],
+ "id": "site-008"
+}

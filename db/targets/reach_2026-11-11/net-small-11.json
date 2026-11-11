@@ -1,0 +1,532 @@
+{
+ "kind": "network",
+ "title": "Manje mreže",
+ "type": "mixed",
+ "orgs": [
+  {
+   "org_slug": "dom-zdravlja-dr-bosko-vrebalov-zrenjanin",
+   "name": "Dom zdravlja \"Dr Boško Vrebalov\"",
+   "website": "https://www.dzzrenjanin.rs/",
+   "rows": [
+    {
+     "location_id": 2614,
+     "unit": "Sedište",
+     "place": "Zrenjanin",
+     "address": "Svetosavska 31",
+     "phones": "023 563020; 023 530820; 023 536251",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 19875,
+     "unit": "IX zdravstvena stanica",
+     "place": "Zrenjanin",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 19958,
+     "unit": "Dom zdravlja „Dr Boško Vrebalov”",
+     "place": "Zrenjanin",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 21609,
+     "unit": "Dom zdravlja „Dr Boško Verbalov” Zrenjanin",
+     "place": "Zrenjanin",
+     "address": null,
+     "phones": "023 530820",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 21803,
+     "unit": "Dom zdravlja „Dr Boško Vrebalov”",
+     "place": "Zrenjanin",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 21832,
+     "unit": "Dom zdravlja „Dr Boško Vrebalov” Zrenjanin",
+     "place": "Zrenjanin",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 21835,
+     "unit": "Dom zdravlja „Dr Boško Vrebalov”",
+     "place": "Zrenjanin",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23600,
+     "unit": "Ambulanta",
+     "place": "Zrenjanin",
+     "address": null,
+     "phones": null,
+     "hours": "24/7",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 23606,
+     "unit": "Ambulanta",
+     "place": "Zrenjanin",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23607,
+     "unit": "Ambulanta",
+     "place": "Zrenjanin",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23608,
+     "unit": "Ambulanta",
+     "place": "Zrenjanin",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23609,
+     "unit": "Ambulanta",
+     "place": "Zrenjanin",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 24059,
+     "unit": "Zavod za javno zdravlje Zrenjanin",
+     "place": "Zrenjanin",
+     "address": "Dr Emila Gavrila 13",
+     "phones": "023 566345",
+     "hours": "Mo-Fr 06:30-14:30",
+     "need": []
+    },
+    {
+     "location_id": 24068,
+     "unit": "Dom zdravlja „Doktor Boško Vrebalov”",
+     "place": "Zrenjanin",
+     "address": "Koče Kolarova 59",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 24072,
+     "unit": "Dom zdravlja „Dr Boško Verbalov” Zrenjanin",
+     "place": "Zrenjanin",
+     "address": "Reves Antala 4a",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 24173,
+     "unit": "Dom zdravlja Dr Boško Vrebalov",
+     "place": "Zrenjanin",
+     "address": "Svetosavska 15",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-kragujevac-kragujevac",
+   "name": "Dom zdravlja Kragujevac",
+   "website": "https://dzkg.rs",
+   "rows": [
+    {
+     "location_id": 2500,
+     "unit": "Sedište",
+     "place": "Kragujevac",
+     "address": "Kralja Milutina br. 1",
+     "phones": "034 500100",
+     "hours": "Call center weekdays 07:00 to 20:00",
+     "need": []
+    },
+    {
+     "location_id": 20193,
+     "unit": "Dom Zdravlja Ultrazvuk",
+     "place": "Kragujevac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 20639,
+     "unit": "Zdravstvena ambulanta br. 3",
+     "place": "Kragujevac",
+     "address": "Cara Dušana",
+     "phones": "034 382751; 034 500100",
+     "hours": "Mo-Fr 07:00-20:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 21586,
+     "unit": "Dom zdravlja Kragujevac - ogranak Aerodrom",
+     "place": "Kragujevac",
+     "address": "Svetogorska",
+     "phones": "034 370058; 034 500100",
+     "hours": "Mo-Fr 07:00-20:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 21590,
+     "unit": "Zdravstvena ambulanta br. 1",
+     "place": "Kragujevac",
+     "address": "Radoja Domanovića 6",
+     "phones": "034 334740; 034 500100",
+     "hours": "Mo-Fr 07:00-20:00",
+     "need": []
+    },
+    {
+     "location_id": 21605,
+     "unit": "Zavod za stomatologiju Kragujevac",
+     "place": "Kragujevac",
+     "address": "Zmaj Jovina 32",
+     "phones": "034 725250",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23775,
+     "unit": "Dom zdravlja Stanovo",
+     "place": "Kragujevac",
+     "address": null,
+     "phones": "034 500100; 034 6170065",
+     "hours": "Mo-Fr 07:00-20:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23781,
+     "unit": "Dom zdravlja Kragujevac",
+     "place": "Kragujevac",
+     "address": "Zmaj Jovina",
+     "phones": "034 500100",
+     "hours": "Mo-Fr 07:00-20:00; Sa 08:00-18:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23793,
+     "unit": "Zastavina ambulanta",
+     "place": "Kragujevac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23794,
+     "unit": "Dom zdravlja Bresnica",
+     "place": "Kragujevac",
+     "address": "Čegarska 62",
+     "phones": "034 381401; 034 500100",
+     "hours": "Mo-Fr 07:00-20:00",
+     "need": []
+    },
+    {
+     "location_id": 23795,
+     "unit": "Dom zdravlja Kragujevac - ogranak Erdoglija",
+     "place": "Kragujevac",
+     "address": "Čiče od Romanije 1",
+     "phones": "034 323476; 034 500100",
+     "hours": "Mo-Fr 07:00-20:00",
+     "need": []
+    },
+    {
+     "location_id": 23882,
+     "unit": "Vojna bolnica",
+     "place": "Kragujevac",
+     "address": "Majora Svetomira Trifunovića 2",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23908,
+     "unit": "Zdravstvena ambulanta br. 2",
+     "place": "Kragujevac",
+     "address": "Ratinčeva 2",
+     "phones": "034 325425; 034 500100",
+     "hours": "Mo-Fr 07:00-20:00",
+     "need": []
+    },
+    {
+     "location_id": 23925,
+     "unit": "Institut za javno zdravlje Kragujevac",
+     "place": "Kragujevac",
+     "address": null,
+     "phones": "034 504501",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 24186,
+     "unit": "Dom zdravlja Kragujevac - Zdravstvena zaštita žena",
+     "place": "Kragujevac",
+     "address": "Svetozara Markovića 23",
+     "phones": "034 335610; 034 500100",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 24396,
+     "unit": "Zavod za urgentnu medicinu Kragujevac",
+     "place": "Kragujevac",
+     "address": "Slobode",
+     "phones": "034 6370090",
+     "hours": "24/7",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 24435,
+     "unit": "Dom zdravlja Kragujevac - Zdravstvena stanica br. 4",
+     "place": "Kragujevac",
+     "address": null,
+     "phones": "034 335610; 034 333667",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-nis-nis",
+   "name": "Dom zdravlja Niš",
+   "website": "https://www.domzdravljanis.co.rs",
+   "rows": [
+    {
+     "location_id": 2514,
+     "unit": "Sedište",
+     "place": "Niš",
+     "address": "Vojvode Tankosića 15",
+     "phones": "018 503666; 0700 303503",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 19610,
+     "unit": "Zdravstvena stanica Delijski vis",
+     "place": "Palilula",
+     "address": "Bojana Mitrovića 34а",
+     "phones": "018 274444",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23835,
+     "unit": "Ambulanta „Branko Bjegović”",
+     "place": "Crveni Krst",
+     "address": "Inžinjera Birviša 48",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23852,
+     "unit": "Zdravstvena stanica Duvanište",
+     "place": "Medijana",
+     "address": "Majakovskog 20g",
+     "phones": "018 553444",
+     "hours": "Mo-Fr 07:00-20:00",
+     "need": []
+    },
+    {
+     "location_id": 23860,
+     "unit": "Dom zdravlja Niš",
+     "place": "Medijana",
+     "address": "Vojvode Tankosića 13",
+     "phones": "018 503503",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23871,
+     "unit": "Zavod za urgentnu medicinu Niš",
+     "place": "Medijana",
+     "address": "Dr Miodraga Lazića 21",
+     "phones": "018 529001",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23875,
+     "unit": "Ambulante Klinike za onkologiju",
+     "place": "Medijana",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23880,
+     "unit": "Specijalističke ambulante",
+     "place": "Medijana",
+     "address": "Bulevar dr Zorana Đinđića 48",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23986,
+     "unit": "Zdravstvena stanica Rasadnik",
+     "place": "Palilula",
+     "address": "Starca Vujadina 1",
+     "phones": "018 240199",
+     "hours": "Mo-Fr 07:00-20:00",
+     "need": []
+    },
+    {
+     "location_id": 24029,
+     "unit": "Zavod za zdravstvenu zaštitu studenata Niš",
+     "place": "Medijana",
+     "address": "Katićeva 21",
+     "phones": "018 4234155",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 24215,
+     "unit": "Zdravstvena ambulanta „Čair”",
+     "place": "Medijana",
+     "address": "Zetska 12",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    }
+   ]
+  }
+ ],
+ "id": "net-small-11"
+}

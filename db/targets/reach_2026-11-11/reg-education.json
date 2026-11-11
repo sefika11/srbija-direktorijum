@@ -1,0 +1,465 @@
+{
+ "kind": "register-raw",
+ "title": "Škole i vrtići (registar ministarstva)",
+ "types": [
+  "osnovna-skola",
+  "srednja-skola",
+  "muzicka-skola",
+  "privatna-skola",
+  "skola-za-odrasle",
+  "privatni-vrtic",
+  "predskolska-ustanova"
+ ],
+ "missing_orgs": 2176,
+ "sample": [
+  {
+   "org_slug": "baletska-skola-lujo-davico-beograd",
+   "name": "Baletska škola \"Lujo Davičo\"",
+   "type": "Muzička ili baletska škola",
+   "place": "Beograd",
+   "website": null,
+   "mb": "07003013",
+   "have": {
+    "address": "Knez-Miletina 8",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-6-oktobar-kikinda",
+   "name": "Osnovna škola \"6. Oktobar\"",
+   "type": "Osnovna škola",
+   "place": "Kikinda",
+   "website": null,
+   "mb": "08020949",
+   "have": {
+    "address": "Dositejeva 53",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-branko-radicevic-golubac",
+   "name": "Osnovna škola \"Branko Radičević\"",
+   "type": "Osnovna škola",
+   "place": "Golubac",
+   "website": null,
+   "mb": "07159056",
+   "have": {
+    "address": "Rudnička 9",
+    "phones": "012 678129",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-djura-jaksic-mala-krsna",
+   "name": "Osnovna škola \"Đura Jakšić\"",
+   "type": "Osnovna škola",
+   "place": "Smederevo",
+   "website": null,
+   "mb": "07164769",
+   "have": {
+    "address": "Kralja Petra I 75",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-filip-filipovic-cacak",
+   "name": "Osnovna škola \"Filip Filipović\"",
+   "type": "Osnovna škola",
+   "place": "Čačak",
+   "website": null,
+   "mb": "07182015",
+   "have": {
+    "address": "Svetozara Markovića 68",
+    "phones": "032 222303",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-jovan-jovanovic-zmaj-razdaginja",
+   "name": "Osnovna škola \"Jovan Jovanović-Zmaj\"",
+   "type": "Osnovna škola",
+   "place": "Sjenica",
+   "website": null,
+   "mb": "07192126",
+   "have": {
+    "address": "Raždaginjska 108",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-marija-trandafil-veternik",
+   "name": "Osnovna škola \"Marija Trandafil\"",
+   "type": "Osnovna škola",
+   "place": "Novi Sad",
+   "website": null,
+   "mb": "08907498",
+   "have": {
+    "address": "Paunova 14",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-mora-karolj-sajan-kikinda",
+   "name": "Osnovna škola \"Mora Karolj\" Sajan",
+   "type": "Osnovna škola",
+   "place": "Kikinda",
+   "website": null,
+   "mb": "08020922",
+   "have": {
+    "address": "Velika 71",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-radoje-domanovic-nis",
+   "name": "Osnovna škola \"Radoje Domanović\"",
+   "type": "Osnovna škola",
+   "place": "Niš",
+   "website": null,
+   "mb": "07174438",
+   "have": {
+    "address": "Generala Milojka Lešjanina 49a",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-stojan-ljubic-kosancic-bojnik",
+   "name": "Osnovna škola \"Stojan Ljubić\" Kosančić",
+   "type": "Osnovna škola",
+   "place": "Bojnik",
+   "website": null,
+   "mb": "07104022",
+   "have": {
+    "address": "Vuka Karadžića bb",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-veljko-vlahovic-novi-sad",
+   "name": "Osnovna škola \"Veljko Vlahović\"",
+   "type": "Osnovna škola",
+   "place": "Novi Sad",
+   "website": null,
+   "mb": "08055211",
+   "have": {
+    "address": "Viii 2",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-za-obrazovanje-odraslih-cacak-cacak",
+   "name": "Osnovna škola za obrazovanje odraslih Čačak",
+   "type": "Osnovna škola",
+   "place": "Čačak",
+   "website": null,
+   "mb": "17689096",
+   "have": {
+    "address": "Župana Stracimira 9",
+    "phones": "032 322650",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-nasa-radost-surdulica",
+   "name": "Predškolska ustanova \"Naša Radost\"",
+   "type": "Predškolska ustanova (vrtić)",
+   "place": "Surdulica",
+   "website": null,
+   "mb": "07179987",
+   "have": {
+    "address": "Jugoslovenska bb",
+    "phones": "017 823996; 017 825714",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatna-skola-srednja-skola-desanka-bogavac-mladenovac",
+   "name": "Srednja škola \"Desanka Bogavac\"",
+   "type": "Privatna škola",
+   "place": "Mladenovac",
+   "website": null,
+   "mb": "18827689",
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatni-vrtic-predskolska-ustanova-big-bird-beograd",
+   "name": "Predškolska ustanova „BIG BIRD”",
+   "type": "Privatni vrtić",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Jove Ilića 4",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatni-vrtic-predskolska-ustanova-dolina-suncokreta-novi-sad",
+   "name": "Predškolska ustanova „Dolina suncokreta“",
+   "type": "Privatni vrtić",
+   "place": "Novi Sad",
+   "website": null,
+   "mb": "08970653",
+   "have": {
+    "address": "Jastrebačka 43",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatni-vrtic-predskolska-ustanova-macak-u-cizmama-kraljevo",
+   "name": "Predškolska ustanova „Mačak u čizmama“",
+   "type": "Privatni vrtić",
+   "place": "Kraljevo",
+   "website": null,
+   "mb": "18379074",
+   "have": {
+    "address": "Hajduk Veljkova 109",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatni-vrtic-predskolska-ustanova-pametni-patuljak-beograd",
+   "name": "Predškolska ustanova „Pametni patuljak“",
+   "type": "Privatni vrtić",
+   "place": "Beograd",
+   "website": null,
+   "mb": "17881515",
+   "have": {
+    "address": "Arčibalda Rajsa 16",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatni-vrtic-predskolska-ustanova-svemirko-beograd",
+   "name": "Predškolska ustanova „Svemirko“",
+   "type": "Privatni vrtić",
+   "place": "Beograd",
+   "website": null,
+   "mb": "18379295",
+   "have": {
+    "address": "Tadeuša Košćuška 63",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "privatni-vrtic-privatna-predskolska-ustanova-bajka-beograd",
+   "name": "Privatna predškolska ustanova „Bajka”",
+   "type": "Privatni vrtić",
+   "place": "Beograd",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Četvrta 13",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-drustvo-za-usluge-u-oblasti-zastite-tehpro-doo-beograd",
+   "name": "Društvo Za Usluge U Oblasti Zaštite Tehpro Doo Beograd (Čukarica)",
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "place": "Čukarica",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Lole Ribara 120",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "skola-za-odrasle-srednja-skola-sveti-nikola-novi-sad-novi-sad",
+   "name": "Srednja Škola 'Sveti Nikola' Novi Sad",
+   "type": "Obrazovanje odraslih (škola ili priznati organizator)",
+   "place": "Novi Sad",
+   "website": null,
+   "mb": null,
+   "have": {
+    "address": "Dečanska 9",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "gimnazija-krusevac-krusevac",
+   "name": "Gimnazija Kruševac",
+   "type": "Srednja škola / Gimnazija",
+   "place": "Kruševac",
+   "website": null,
+   "mb": "07102968",
+   "have": {
+    "address": "Topličina 1",
+    "phones": "037 419400; 037 427208",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "politehnicka-skola-subotica",
+   "name": "Politehnička škola",
+   "type": "Srednja škola / Gimnazija",
+   "place": "Subotica",
+   "website": null,
+   "mb": "08122245",
+   "have": {
+    "address": "Maksima Gorkog 38",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours",
+    "website"
+   ]
+  },
+  {
+   "org_slug": "srednja-skola-zitoradja-zitoradja",
+   "name": "Srednja škola Žitorađa",
+   "type": "Srednja škola / Gimnazija",
+   "place": "Žitorađa",
+   "website": null,
+   "mb": "07314124",
+   "have": {
+    "address": "Svetosavska 23",
+    "phones": "027 8362020",
+    "hours": null
+   },
+   "need": [
+    "hours",
+    "website"
+   ]
+  }
+ ],
+ "rows": [],
+ "id": "reg-education"
+}

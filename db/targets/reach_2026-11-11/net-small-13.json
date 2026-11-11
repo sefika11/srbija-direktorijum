@@ -1,0 +1,612 @@
+{
+ "kind": "network",
+ "title": "Manje mreže",
+ "type": "mixed",
+ "orgs": [
+  {
+   "org_slug": "osiguravajuce-drustvo-grawe",
+   "name": "Grawe",
+   "website": "https://www.grawe.rs/",
+   "rows": [
+    {
+     "location_id": 20256,
+     "unit": "Poslovnica Bulevar kralja Aleksandra 171",
+     "place": "Zvezdara",
+     "address": "Bulevar kralja Aleksandra 171",
+     "phones": "011 2092651; 011 4234189",
+     "hours": "Mo-Th 07:30-16:00; Fr 07:30-13:30",
+     "need": []
+    },
+    {
+     "location_id": 21938,
+     "unit": "Poslovnica",
+     "place": "Kikinda",
+     "address": null,
+     "phones": "0230 507835; 0230 507834",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 22417,
+     "unit": "Poslovnica",
+     "place": "Novi Beograd",
+     "address": null,
+     "phones": "011 2092600; 066 8607500",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22878,
+     "unit": "Poslovnica Golsvordijeva 36",
+     "place": "Vračar",
+     "address": "Golsvordijeva 36",
+     "phones": "011 4072012; 011 4072198",
+     "hours": "Mo-Th 09:00-16:00; Fr 07:30-13:30; Sa,Su,PH off",
+     "need": []
+    },
+    {
+     "location_id": 23268,
+     "unit": "Poslovnica",
+     "place": "Novi Beograd",
+     "address": null,
+     "phones": "011 7658219",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23269,
+     "unit": "Poslovnica",
+     "place": "Voždovac",
+     "address": null,
+     "phones": "011 2092650; 011 4514129; 011 4514130",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23270,
+     "unit": "Poslovnica",
+     "place": "Zemun",
+     "address": null,
+     "phones": "011 4043319; 011 4043318; 011 2092765",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23271,
+     "unit": "Poslovnica",
+     "place": "Stara Pazova",
+     "address": null,
+     "phones": "022 321090",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23272,
+     "unit": "Poslovnica",
+     "place": "Bačka Palanka",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23273,
+     "unit": "Poslovnica",
+     "place": "Vranje",
+     "address": null,
+     "phones": "017 421888",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23274,
+     "unit": "Poslovnica",
+     "place": "Zaječar",
+     "address": null,
+     "phones": "019 420056",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23275,
+     "unit": "Poslovnica",
+     "place": "Zrenjanin",
+     "address": null,
+     "phones": "023 521666",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23276,
+     "unit": "Poslovnica Kralja Petra I 8a",
+     "place": "Jagodina",
+     "address": "Kralja Petra I 8a",
+     "phones": "035 8201213; 035 8201212",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23277,
+     "unit": "Poslovnica",
+     "place": "Kragujevac",
+     "address": null,
+     "phones": "034 254553; 034 254548",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23278,
+     "unit": "Poslovnica",
+     "place": "Kraljevo",
+     "address": null,
+     "phones": "036 205190; 036 205189",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23279,
+     "unit": "Poslovnica",
+     "place": "Kruševac",
+     "address": null,
+     "phones": "037 205527",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23280,
+     "unit": "Poslovnica",
+     "place": "Kruševac",
+     "address": null,
+     "phones": "037 203334",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23281,
+     "unit": "Poslovnica",
+     "place": "Leskovac",
+     "address": null,
+     "phones": "016 218220",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23282,
+     "unit": "Poslovnica",
+     "place": "Medijana",
+     "address": null,
+     "phones": "018 240115; 018 240114",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23283,
+     "unit": "Poslovnica",
+     "place": "Obrenovac",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23284,
+     "unit": "Poslovnica",
+     "place": "Pančevo",
+     "address": null,
+     "phones": "013 333737; 013 333367",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23285,
+     "unit": "Poslovnica",
+     "place": "Subotica",
+     "address": null,
+     "phones": "024 4100438",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23286,
+     "unit": "Poslovnica",
+     "place": "Čačak",
+     "address": null,
+     "phones": "032 349490; 032 311151",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23287,
+     "unit": "Poslovnica",
+     "place": "Šabac",
+     "address": null,
+     "phones": "015 347063",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 23684,
+     "unit": "GRAWE osiguranje a.d.o.",
+     "place": "Novi Sad",
+     "address": "Narodnog fronta 50a",
+     "phones": "021 4727908; 021 4727909",
+     "hours": "Mo-Fr 07:30-18:00; Sa-Su off",
+     "need": []
+    }
+   ]
+  },
+  {
+   "org_slug": "osiguravajuce-drustvo-grawe-osiguranje",
+   "name": "GRAWE osiguranje",
+   "website": "https://www.grawe.rs",
+   "rows": [
+    {
+     "location_id": 27297,
+     "unit": "GRAWE prodajna kancelarija Beograd",
+     "place": "Beograd",
+     "address": "Bul. Mihajla Pupina 115d",
+     "phones": "011 2092600",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 27298,
+     "unit": "GRAWE prodajna kancelarija Beograd - Novi Beograd",
+     "place": "Beograd",
+     "address": "Nehruova 51a",
+     "phones": "011 7658219",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 27299,
+     "unit": "GRAWE prodajna kancelarija Beograd - Zvezdara",
+     "place": "Beograd",
+     "address": "Bulevar kralja Aleksandra 171",
+     "phones": "011 2092651; 011 4234189",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 27300,
+     "unit": "GRAWE prodajna kancelarija Beograd - Vračar",
+     "place": "Beograd",
+     "address": "Golsvordijeva 36",
+     "phones": "011 4072012; 011 4072198",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 27301,
+     "unit": "GRAWE prodajna kancelarija Beograd - Voždovac",
+     "place": "Beograd",
+     "address": "Vojvode Stepe 74",
+     "phones": "011 2092650; 011 4514129; 011 4514130",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 27302,
+     "unit": "GRAWE prodajna kancelarija Beograd - Batajnica",
+     "place": "Beograd",
+     "address": "Majora Zorana Radosavljevića 66",
+     "phones": "011 4043319; 011 4043318; 011 2092765",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 27303,
+     "unit": "GRAWE prodajna kancelarija Nova Pazova",
+     "place": "Stara Pazova",
+     "address": "Kneza Mihaila 16",
+     "phones": "022 321090",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 27304,
+     "unit": "GRAWE prodajna kancelarija Bačka Palanka",
+     "place": "Bačka Palanka",
+     "address": "Milana Kurepe br. 15",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 27305,
+     "unit": "GRAWE prodajna kancelarija Vranje",
+     "place": "Vranje",
+     "address": "Vula Antića 1",
+     "phones": "017 421888",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 27306,
+     "unit": "GRAWE prodajna kancelarija Zaječar",
+     "place": "Zaječar",
+     "address": "Trg Oslobođenja bb",
+     "phones": "019 420056",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 27307,
+     "unit": "GRAWE prodajna kancelarija Zrenjanin",
+     "place": "Zrenjanin",
+     "address": "Saveznička 5",
+     "phones": "023 521666",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 27308,
+     "unit": "GRAWE prodajna kancelarija Jagodina",
+     "place": "Jagodina",
+     "address": "Kralja Petra I 8a",
+     "phones": "035 8201213; 035 8201212",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 27309,
+     "unit": "GRAWE prodajna kancelarija Kikinda",
+     "place": "Kikinda",
+     "address": "Jovana Jovnovića Zmaja 11",
+     "phones": "0230 507835; 0230 507834",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 27310,
+     "unit": "GRAWE prodajna kancelarija Kragujevac",
+     "place": "Kragujevac",
+     "address": "Kralja Aleksandra I Karađorđevića 59",
+     "phones": "034 254553; 034 254548",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 27311,
+     "unit": "GRAWE prodajna kancelarija Kraljevo",
+     "place": "Kraljevo",
+     "address": "Hajduk Veljkova 26",
+     "phones": "036 205190; 036 205189",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 27312,
+     "unit": "GRAWE prodajna kancelarija Kruševac",
+     "place": "Kruševac",
+     "address": "Nemanjina 12",
+     "phones": "037 205527",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 27313,
+     "unit": "GRAWE prodajna kancelarija Kruševac",
+     "place": "Kruševac",
+     "address": "Nemanjina 29",
+     "phones": "037 204729",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 27314,
+     "unit": "GRAWE prodajna kancelarija Kruševac",
+     "place": "Kruševac",
+     "address": "Nemanjina 27b",
+     "phones": "037 203334",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 27315,
+     "unit": "GRAWE prodajna kancelarija Leskovac",
+     "place": "Leskovac",
+     "address": "Južnomoravskih brigada 149",
+     "phones": "016 218220",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 27316,
+     "unit": "GRAWE prodajna kancelarija Niš",
+     "place": "Niš",
+     "address": "Nikole Pašića 30/3",
+     "phones": "018 240115; 018 240114",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 27317,
+     "unit": "GRAWE prodajna kancelarija Novi Sad",
+     "place": "Novi Sad",
+     "address": "Branimira Ćosića 13",
+     "phones": "021 4727908; 021 4727909",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 27318,
+     "unit": "GRAWE prodajna kancelarija Novi Sad",
+     "place": "Novi Sad",
+     "address": "Narodnog fronta 50a",
+     "phones": "021 4727905; 021 4727904",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 27319,
+     "unit": "GRAWE prodajna kancelarija Obrenovac",
+     "place": "Obrenovac",
+     "address": "Miloša Obrenovića 87",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 27320,
+     "unit": "GRAWE prodajna kancelarija Pančevo",
+     "place": "Pančevo",
+     "address": "Karađorđeva 2",
+     "phones": "013 333737; 013 333367",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 27321,
+     "unit": "GRAWE prodajna kancelarija Subotica",
+     "place": "Subotica",
+     "address": "Matije Korvina 18",
+     "phones": "024 4100438",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 27322,
+     "unit": "GRAWE prodajna kancelarija Čačak",
+     "place": "Čačak",
+     "address": "Lomina 25",
+     "phones": "032 349490; 032 311151",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 27323,
+     "unit": "GRAWE prodajna kancelarija Šabac",
+     "place": "Šabac",
+     "address": "Zanatlijska 15",
+     "phones": "015 347063",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  }
+ ],
+ "id": "net-small-13"
+}

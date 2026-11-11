@@ -1,0 +1,1155 @@
+{
+ "kind": "network",
+ "title": "Apotekarska ustanova \"Filly Farm\"",
+ "type": "apoteka",
+ "orgs": [
+  {
+   "org_slug": "apotekarska-ustanova-filly-farm-velika-plana",
+   "name": "Apotekarska ustanova \"Filly Farm\"",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 11190,
+     "unit": "Filly 0",
+     "place": "Velika Plana",
+     "address": "Miloša Velikog bb",
+     "phones": "026 512901",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11191,
+     "unit": "Filly 3",
+     "place": "Svilajnac",
+     "address": "Ustanička bb",
+     "phones": "035 323278",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11192,
+     "unit": "Filly 5",
+     "place": "Beograd",
+     "address": "Bulevar Mihaila Pupina 199b",
+     "phones": "011 2604390",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11193,
+     "unit": "Filly 6",
+     "place": "Požega",
+     "address": "Dragiše Lapčevića 1",
+     "phones": "031 713723",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11194,
+     "unit": "Filly 7",
+     "place": "Ćuprija",
+     "address": "Anđe Rankovića bb",
+     "phones": "035 474682",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11195,
+     "unit": "Filly 11",
+     "place": "Čačak",
+     "address": "Milenka Nikšića 21",
+     "phones": "032 375884",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11196,
+     "unit": "Filly 12",
+     "place": "Aranđelovac",
+     "address": "Kralja Petra I 145",
+     "phones": "034 724960",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11197,
+     "unit": "Filly 14",
+     "place": "Beograd",
+     "address": "Strugarska 1a",
+     "phones": "011 2520047",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11198,
+     "unit": "Filly 17",
+     "place": "Priboj",
+     "address": "Nemanjina 46",
+     "phones": "033 445766",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11199,
+     "unit": "Filly 18",
+     "place": "Jagodina",
+     "address": "Nušićeva bb",
+     "phones": "035 221905",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11200,
+     "unit": "Filly 19",
+     "place": "Velika Plana",
+     "address": "Nikole Pašića 16",
+     "phones": "026 821231",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11201,
+     "unit": "Filly 20",
+     "place": "Beograd",
+     "address": "Krajiška 71a",
+     "phones": "011 3730151",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11202,
+     "unit": "Filly 25",
+     "place": "Sombor",
+     "address": "Venac Stepe Stepanovića 24",
+     "phones": "025 449377",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11203,
+     "unit": "Filly 26a",
+     "place": "Subotica",
+     "address": "Jo Lajoša 73",
+     "phones": "024 530115",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11204,
+     "unit": "Filly 27a",
+     "place": "Apatin",
+     "address": "Srpskih vladara 9",
+     "phones": "025 773437",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11205,
+     "unit": "Filly 28",
+     "place": "Ćuprija",
+     "address": "Kneza Miloša lamela b2",
+     "phones": "035 472398",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11206,
+     "unit": "Filly 29",
+     "place": "Pančevo",
+     "address": "Borisa Kidriča 6",
+     "phones": "013 2634790",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11207,
+     "unit": "Filly 34",
+     "place": "Beograd",
+     "address": "Milorada Draškovića 28",
+     "phones": "011 2370073",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11208,
+     "unit": "Filly 37",
+     "place": "Velika Plana",
+     "address": "8. oktobra bb",
+     "phones": "026 4861999",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11209,
+     "unit": "Filly 38",
+     "place": "Beograd",
+     "address": "Ugirnovačka 1",
+     "phones": "011 3140102",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11210,
+     "unit": "Filly 39",
+     "place": "Svilajnac",
+     "address": "Svetog Save 75",
+     "phones": "035 324101",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11211,
+     "unit": "Filly 40",
+     "place": "Beograd",
+     "address": "Bulevar Zorana Đinđića 12ž lok.10",
+     "phones": "011 3115834",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11212,
+     "unit": "Filly 41",
+     "place": "Ruma",
+     "address": "Veljka Dugoševića 175",
+     "phones": "022 470575",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11213,
+     "unit": "Filly 43",
+     "place": "Smederevska Palanka",
+     "address": "Prvog srpskog ustanka 1",
+     "phones": "026 318310",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11214,
+     "unit": "Filly 44",
+     "place": "Jagodina",
+     "address": "Karađorđeva bb",
+     "phones": "026 318310",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11215,
+     "unit": "Filly 45",
+     "place": "Vrnjačka Banja",
+     "address": "Nemanjina 22",
+     "phones": "036 615366",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11216,
+     "unit": "Filly 49",
+     "place": "Aleksandrovac",
+     "address": "29. novembra 110 lok.4",
+     "phones": "037 3556323",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11217,
+     "unit": "Filly 52",
+     "place": "Svilajnac",
+     "address": "Stevana Sinđelića bb",
+     "phones": "035 323444",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11218,
+     "unit": "Filly 53",
+     "place": "Ćuprija",
+     "address": "Miodraga Novakovića 78",
+     "phones": "035 8870760",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11219,
+     "unit": "Filly 54",
+     "place": "Jagodina",
+     "address": "Knezan Lazara 17",
+     "phones": "035 228576",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11220,
+     "unit": "Filly 55",
+     "place": "Jagodina",
+     "address": "Kragujevački oktobar bb",
+     "phones": "035 252723",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11221,
+     "unit": "Filly 56",
+     "place": "Batočina",
+     "address": "Kralja Petra I 17",
+     "phones": "034 6843500",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11222,
+     "unit": "Filly 59",
+     "place": "Beograd",
+     "address": "Crveno barjače 27",
+     "phones": "011 2362290",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11223,
+     "unit": "Filly 61",
+     "place": "Beograd",
+     "address": "Jurija Gagarina bb",
+     "phones": "011 2280630",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11224,
+     "unit": "Filly 62",
+     "place": "Brus",
+     "address": "Kralja Petra I 1",
+     "phones": "037 827019",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11225,
+     "unit": "Filly 65",
+     "place": "Velika Plana",
+     "address": "Miloša Velikog 122b",
+     "phones": "026 513008",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11226,
+     "unit": "Filly 66",
+     "place": "Smederevo",
+     "address": "Kralja Aleksandra 124",
+     "phones": "026 781088",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11227,
+     "unit": "Filly 68",
+     "place": "Jagodina",
+     "address": "Knjeginje Milice 10",
+     "phones": "035 8820773",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11228,
+     "unit": "Filly 69",
+     "place": "Velika Plana",
+     "address": "Miloša Velikog 108",
+     "phones": "026 512545",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11229,
+     "unit": "Filly 70",
+     "place": "Apatin",
+     "address": "Miloša Obilića 1",
+     "phones": "025 779117",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11230,
+     "unit": "Filly 72",
+     "place": "Bačka Palanka",
+     "address": "Kralja Petra I 25",
+     "phones": "021 6040040",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11231,
+     "unit": "Filly 73",
+     "place": "Niš",
+     "address": "Toplički partizanski odred 73",
+     "phones": "018 4289900",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11232,
+     "unit": "Filly 75",
+     "place": "Trstenik",
+     "address": "Milutovac bb",
+     "phones": "037 3502390",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11233,
+     "unit": "Filly 76",
+     "place": "Rača",
+     "address": "Karađorđeva 33",
+     "phones": "034 751111",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11234,
+     "unit": "Filly 77",
+     "place": "Nova Varoš",
+     "address": "Svetog Save 28",
+     "phones": "033 614746",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11235,
+     "unit": "Filly 78",
+     "place": "Priboj",
+     "address": "Pribojske čete bb",
+     "phones": "033 2448300",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11236,
+     "unit": "Filly 79",
+     "place": "Vršac",
+     "address": "Abraševićeva 38",
+     "phones": "013 417277",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11237,
+     "unit": "Filly 80",
+     "place": "Smederevska Palanka",
+     "address": "Dimitrija Tucovića bb",
+     "phones": "026 317330",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11238,
+     "unit": "Filly 81",
+     "place": "Lapovo",
+     "address": "Njegoševa 20",
+     "phones": "034 6852950",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11239,
+     "unit": "Filly 82a",
+     "place": "Subotica",
+     "address": "Arsenija Čarnojevića 38",
+     "phones": "024 571433",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11240,
+     "unit": "Filly 83",
+     "place": "Topola",
+     "address": "Bulevar vožda Karađorđa bb",
+     "phones": "034 814017",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11241,
+     "unit": "Filly 84",
+     "place": "Velika Plana",
+     "address": "Trg jedinstva bb",
+     "phones": "026 801708",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11242,
+     "unit": "Filly 85",
+     "place": "Čačak",
+     "address": "Miloja Stojanovića bb",
+     "phones": "032 801004",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11243,
+     "unit": "Filly 86",
+     "place": "Smederevska Palanka",
+     "address": "Kućni broj 38",
+     "phones": "026 372000",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11244,
+     "unit": "Filly 87",
+     "place": "Smederevo",
+     "address": "Bulevar Maršala Tita 99",
+     "phones": "026 4761870",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11245,
+     "unit": "Filly 88",
+     "place": "Despotovac",
+     "address": "Despota Stefana Lazarevića 52",
+     "phones": "035 612860",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11246,
+     "unit": "Filly 89",
+     "place": "Smederevska Palanka",
+     "address": "Vuka Karadžića bb",
+     "phones": "026 310510",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11247,
+     "unit": "Filly 90",
+     "place": "Novi Sad",
+     "address": "Bulevar cara Lazara 50",
+     "phones": "021 6363035",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11248,
+     "unit": "Filly 91",
+     "place": "Novi Sad",
+     "address": "Jevrejska 42",
+     "phones": "021 6363039",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11249,
+     "unit": "Filly 93",
+     "place": "Velika Plana",
+     "address": "Miloša Velikog 38",
+     "phones": "026 512598",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11250,
+     "unit": "Filly 95",
+     "place": "Aleksinac",
+     "address": "Kneza Miloša 68",
+     "phones": "018 800789",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11251,
+     "unit": "Filly 97",
+     "place": "Velika Plana",
+     "address": "Vožda Karađorđa 53",
+     "phones": "026 885500",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11252,
+     "unit": "Filly 98",
+     "place": "Smederevo",
+     "address": "Kralja Petra I 45",
+     "phones": "026 731599",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11253,
+     "unit": "Filly 100",
+     "place": "Beograd",
+     "address": "Prvomajska 8k",
+     "phones": "011 4067506",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11254,
+     "unit": "filly 104",
+     "place": "Jagodina",
+     "address": "Kneza Lazara 1",
+     "phones": "035 790103",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11255,
+     "unit": "Filly 106",
+     "place": "Smederevo",
+     "address": "Srpskih junaka 1",
+     "phones": "026 751318",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11256,
+     "unit": "Filly 1",
+     "place": "Beograd",
+     "address": "Ljubinke Bobić 28k",
+     "phones": "011 3180377",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11257,
+     "unit": "Filly 108",
+     "place": "Bela Crkva",
+     "address": "Jovana Popovića 58",
+     "phones": "013 851273",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11258,
+     "unit": "Filly 109",
+     "place": "Trstenik",
+     "address": "Živadina Apostolovića 29",
+     "phones": "037 716001",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11259,
+     "unit": "Filly Gradska apoteka",
+     "place": "Prokuplje",
+     "address": "Ratka Pavlovića Ćićka 1",
+     "phones": "027 321441",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11260,
+     "unit": "Filly Apoteka Zdravlje",
+     "place": "Kuršumlija",
+     "address": "Palih boraca 2",
+     "phones": "027 381683",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11261,
+     "unit": "Filly Apoteka Blace",
+     "place": "Blace",
+     "address": "Karađorđeva 171",
+     "phones": "027 371711",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11262,
+     "unit": "Filly Apoteka Žitorađa",
+     "place": "Žitorađa",
+     "address": "Vojvode Mišića 49b",
+     "phones": "027 8361910",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11263,
+     "unit": "Filly Jedinica Mala Plana",
+     "place": "Prokuplje",
+     "address": "Prostorije Dom Zdravlja Mala Plana",
+     "phones": "027 344122",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11264,
+     "unit": "Filly 4",
+     "place": "Smederevska Palanka",
+     "address": "Radomira Lazića 7",
+     "phones": "026 301588",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11265,
+     "unit": "Filly Jedinica Zdravlje",
+     "place": "Kuršumlija",
+     "address": "Dr.Melgarda 1",
+     "phones": "027 389094",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11266,
+     "unit": "Filly Jedinica Sveti Prokopije",
+     "place": "Prokuplje",
+     "address": "29. novembra 2",
+     "phones": "027 334424",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11267,
+     "unit": "Filly Jedinica Šumarice",
+     "place": "Blace",
+     "address": "Braće Vuksanovića bb",
+     "phones": "027 370505",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11268,
+     "unit": "Filly 9",
+     "place": "Prokuplje",
+     "address": "Ratka Pavlovića Ćićka 139",
+     "phones": "027 323959",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11269,
+     "unit": "Filly 10",
+     "place": "Bela Crkva",
+     "address": "1. oktobra 55a",
+     "phones": "013 851253",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11270,
+     "unit": "Filly 22",
+     "place": "Velika Plana",
+     "address": "Miloša Velikog 110",
+     "phones": "026 4104430",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11271,
+     "unit": "Filly 33",
+     "place": "Smederevska Palanka",
+     "address": "Prvog srpskog ustanka 70",
+     "phones": "026 320061",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11272,
+     "unit": "Filly 48",
+     "place": "Velika Plana",
+     "address": "Nemanjina bb",
+     "phones": "026 871578",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11273,
+     "unit": "Filly Apoteka Higija",
+     "place": "Pančevo",
+     "address": "Miloša Obrenovića 2",
+     "phones": "013 333535",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11274,
+     "unit": "Filly Apoteka Kotež",
+     "place": "Pančevo",
+     "address": "Braće Jovanovića 109",
+     "phones": "013 2110786",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11275,
+     "unit": "Filly Novi Svet",
+     "place": "Pančevo",
+     "address": "Serdar Janka Vukotića 6",
+     "phones": "013 2110721",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11276,
+     "unit": "Filly Apoteka Starčevo",
+     "place": "Pančevo",
+     "address": "Pančevački put 2",
+     "phones": "013 631101",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11277,
+     "unit": "Filly Narodna Apoteka Banatsko Novo selo",
+     "place": "Pančevo",
+     "address": "Maršala Tita 54",
+     "phones": "013 615227",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11278,
+     "unit": "Filly Apoteka Mali Iđoš",
+     "place": "Mali Iđoš",
+     "address": "Glavna br. 40",
+     "phones": "024 4730200",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11279,
+     "unit": "Filly Apoteka Lovćenac",
+     "place": "Mali Iđoš",
+     "address": "Maršala Tita 37a",
+     "phones": "024 4735157",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11280,
+     "unit": "Filly Apoteka Feketić",
+     "place": "Mali Iđoš",
+     "address": "Maršala Tita 23",
+     "phones": "024 4738011",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11281,
+     "unit": "Filly 15",
+     "place": "Velika Plana",
+     "address": "Nikole Pašića 2",
+     "phones": "026 230856",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11282,
+     "unit": "Filly 36",
+     "place": "Jagodina",
+     "address": "Dragana Simijonovića Šikija 54",
+     "phones": "035 8821963",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11283,
+     "unit": "Filly 50",
+     "place": "Smederevo",
+     "address": "Smederevska 3",
+     "phones": "026 701636",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11284,
+     "unit": "Filly 102",
+     "place": "Prokuplje",
+     "address": "Jug Bogdana 9",
+     "phones": "027 328463",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11285,
+     "unit": "Filly Apoteka Omoljica",
+     "place": "Pančevo",
+     "address": "Arsenija Čarnojevića 2",
+     "phones": "013 619200",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11286,
+     "unit": "Filly 24",
+     "place": "Vrnjačka Banja",
+     "address": "Kraljevačka 21",
+     "phones": "036 612160",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11287,
+     "unit": "Jasmin",
+     "place": "Beograd",
+     "address": "Dragice Končar 39b",
+     "phones": "011 3960314",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11288,
+     "unit": "Jasmin 3",
+     "place": "Beograd",
+     "address": "Slavka Kolara br. 1",
+     "phones": "011 3318586",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11289,
+     "unit": "Jasmin 5",
+     "place": "Beograd",
+     "address": "Rade Končara br. 99",
+     "phones": "011 4233811",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11290,
+     "unit": "Filly Apoteka Nana",
+     "place": "Prokuplje",
+     "address": "Ćirila i Metodija br. 3",
+     "phones": "062 8019262",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11291,
+     "unit": "Simko pharm",
+     "place": "Vrnjačka Banja",
+     "address": "Nemanjina br.2",
+     "phones": "036 616390",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  }
+ ],
+ "id": "net-apotekarska-ustanova-filly-farm-velika-plana"
+}

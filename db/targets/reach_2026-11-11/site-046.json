@@ -1,0 +1,398 @@
+{
+ "kind": "sites",
+ "title": "Institucije sa sopstvenim sajtom",
+ "rows": [
+  {
+   "org_slug": "osiguravajuce-drustvo-otp-osiguranje",
+   "name": "OTP osiguranje",
+   "type": "Osiguranje",
+   "place": "Beograd",
+   "website": "https://www.otposiguranje.rs",
+   "mb": null,
+   "have": {
+    "address": "Bulevar Zorana Đinđića 50a",
+    "phones": "011 2608665; 011 2608734",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "osiguravajuce-drustvo-merkur-osiguranje",
+   "name": "Merkur osiguranje",
+   "type": "Osiguranje",
+   "place": "Kragujevac",
+   "website": "https://www.merkur.rs",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "osiguravajuce-drustvo-ams-osiguranje-o",
+   "name": "AMS Osiguranje a.d.o.",
+   "type": "Osiguranje",
+   "place": "Novi Beograd",
+   "website": "https://www.ams.co.rs/",
+   "mb": null,
+   "have": {
+    "address": "Tošin bunar 270đ",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "osiguravajuce-drustvo-safe-life",
+   "name": "Safe Life",
+   "type": "Osiguranje",
+   "place": "Novi Beograd",
+   "website": "https://www.safelife.rs/",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "011 7853848",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "osiguravajuce-drustvo-byroja-kosovare-e-sigurimit",
+   "name": "Byroja Kosovare e Sigurimit",
+   "type": "Osiguranje",
+   "place": "Raška",
+   "website": "https://bks-ks.org/",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": "24/7"
+   },
+   "need": [
+    "address",
+    "phones"
+   ]
+  },
+  {
+   "org_slug": "osiguravajuce-drustvo-argo",
+   "name": "Argo",
+   "type": "Osiguranje",
+   "place": "Voždovac",
+   "website": "http://www.argo.co.rs",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "011 4090003",
+    "hours": "Mo-Fr 08:00-18:00"
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-mladost-prigrevica-prigrevica",
+   "name": "Osnovna škola \"Mladost\" Prigrevica",
+   "type": "Osnovna škola",
+   "place": "Apatin",
+   "website": "https://osmladostprigrevica.edu.rs",
+   "mb": "08063010",
+   "have": {
+    "address": "Vuka Karadžića 6",
+    "phones": "025 822766",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-zarko-zrenjanin-apatin",
+   "name": "Osnovna škola \"Žarko Zrenjanin\"",
+   "type": "Osnovna škola",
+   "place": "Apatin",
+   "website": "https://www.zarko.edu.rs",
+   "mb": "08063028",
+   "have": {
+    "address": "Srpskih Vladara 25",
+    "phones": "025 773316",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-ratko-jovanovic-kruscica-arilje",
+   "name": "Osnovna škola \"Ratko Jovanović\" Kruščica",
+   "type": "Osnovna škola",
+   "place": "Arilje",
+   "website": "https://www.oskruscica.edu.rs",
+   "mb": "07110871",
+   "have": {
+    "address": "Kruščička 14",
+    "phones": "031 3898006",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-stevan-colovic-arilje",
+   "name": "Osnovna škola \"Stevan Čolović\"",
+   "type": "Osnovna škola",
+   "place": "Arilje",
+   "website": "https://osstevancolovic.edu.rs",
+   "mb": "07216912",
+   "have": {
+    "address": "Braće Mihailović 8",
+    "phones": "031 3891341; 031 3891953; 031 3893810",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-dusan-jerkovic-kostojevici-bajina-basta",
+   "name": "Osnovna škola \"Dušan Jerković\" Kostojevići",
+   "type": "Osnovna škola",
+   "place": "Bajina Bašta",
+   "website": "https://osdjerkovic.edu.rs",
+   "mb": "07155115",
+   "have": {
+    "address": "Kostojevići bb",
+    "phones": "031 3860081",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-rajak-pavicevic-bajina-basta",
+   "name": "Osnovna škola \"Rajak Pavićević\"",
+   "type": "Osnovna škola",
+   "place": "Bajina Bašta",
+   "website": "http://osrpavicevic.edu.rs",
+   "mb": "07155107",
+   "have": {
+    "address": "Rajka Tadića 10",
+    "phones": "031 865174; 031 863785",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-stevan-joksimovic-rogacica-bajina-basta",
+   "name": "Osnovna škola \"Stevan Joksimović\" Rogačica",
+   "type": "Osnovna škola",
+   "place": "Bajina Bašta",
+   "website": "https://stevanjoksimovic.edu.rs",
+   "mb": "07155123",
+   "have": {
+    "address": "Rogačica bb",
+    "phones": "031 3850440",
+    "hours": "Pon-Pet 08:00-14:00"
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-caki-lajos-backa-topola",
+   "name": "Osnovna škola \"Čaki Lajoš\"",
+   "type": "Osnovna škola",
+   "place": "Bačka Topola",
+   "website": "http://www.caki.edu.rs",
+   "mb": "08061807",
+   "have": {
+    "address": "Svetosavska 9",
+    "phones": "024 715443",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-doza-djerdj-gunaros-backa-topola",
+   "name": "Osnovna škola \"Doža Đerđ\" Gunaroš",
+   "type": "Osnovna škola",
+   "place": "Bačka Topola",
+   "website": "http://www.osdoza.edu.rs",
+   "mb": "08032939",
+   "have": {
+    "address": "Maršala Tita 29",
+    "phones": "024 4726006",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-jan-amos-komenski-kulpin",
+   "name": "Osnovna škola \"Jan Amos Komenski\"",
+   "type": "Osnovna škola",
+   "place": "Bački Petrovac",
+   "website": "http://www.jak.edu.rs",
+   "mb": "08054126",
+   "have": {
+    "address": "Maršala Tita 76",
+    "phones": "021 2287013; 021 2700110",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-jan-cajak-backi-petrovac",
+   "name": "Osnovna škola \"Jan Čajak\"",
+   "type": "Osnovna škola",
+   "place": "Bački Petrovac",
+   "website": "http://www.jancajak.edu.rs",
+   "mb": "08054118",
+   "have": {
+    "address": "Sladkovičova 2",
+    "phones": "021 2280039; 021 2281370",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-jozef-marcok-dragutin-glozan",
+   "name": "Osnovna škola \"Jozef Marčok Dragutin\"",
+   "type": "Osnovna škola",
+   "place": "Bački Petrovac",
+   "website": "http://www.jmdragutin.edu.rs/",
+   "mb": "08055599",
+   "have": {
+    "address": "Jozefa Marčoka Dragutina bb",
+    "phones": "021 2288014",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-jovan-arandjelovic-crvena-reka-crvena-reka",
+   "name": "Osnovna škola \"Jovan Aranđelović\" Crvena Reka",
+   "type": "Osnovna škola",
+   "place": "Bela Palanka",
+   "website": "http://www.jovanarandjelovic.edu.rs/",
+   "mb": "07106513",
+   "have": {
+    "address": "Srpskih Vladara 2",
+    "phones": "018 4858806",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-ilija-bircanin-beograd",
+   "name": "Osnovna škola \"Ilija Birčanin\"",
+   "type": "Osnovna škola",
+   "place": "Beograd",
+   "website": "https://www.ilijabircanin.edu.rs/",
+   "mb": "07021178",
+   "have": {
+    "address": "Braće Krnješevac 2",
+    "phones": "011 3753816",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-ivan-milutinovic-beograd",
+   "name": "Osnovna škola \"Ivan Milutinović\"",
+   "type": "Osnovna škola",
+   "place": "Beograd",
+   "website": "https://osivanmilutinovic.edu.rs/",
+   "mb": "07049846",
+   "have": {
+    "address": "Maršala Tita 101",
+    "phones": "011 2773965",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-janko-veselinovic-beograd",
+   "name": "Osnovna škola \"Janko Veselinović\"",
+   "type": "Osnovna škola",
+   "place": "Beograd",
+   "website": "https://www.osjankoveselinovic.edu.rs",
+   "mb": "07017227",
+   "have": {
+    "address": "Umčarska 2",
+    "phones": "011 2893913",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-jovan-cvijic-beograd",
+   "name": "Osnovna škola \"Jovan Cvijić\"",
+   "type": "Osnovna škola",
+   "place": "Beograd",
+   "website": "https://osjovancvijic.edu.rs/",
+   "mb": "07004435",
+   "have": {
+    "address": "Danila Ilića 1",
+    "phones": "011 2764558",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "osnovna-skola-jovan-ducic-beograd",
+   "name": "Osnovna škola \"Jovan Dučić\"",
+   "type": "Osnovna škola",
+   "place": "Beograd",
+   "website": "https://jovanducic.edu.rs/",
+   "mb": "07029730",
+   "have": {
+    "address": "Milentija Popovića 16",
+    "phones": "011 2142537",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  }
+ ],
+ "id": "site-046"
+}

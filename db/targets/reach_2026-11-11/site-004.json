@@ -1,0 +1,403 @@
+{
+ "kind": "sites",
+ "title": "Institucije sa sopstvenim sajtom",
+ "rows": [
+  {
+   "org_slug": "alunno-novi-sad-n7555783569",
+   "name": "Alunno",
+   "type": "Auto-škola",
+   "place": "Novi Sad",
+   "website": "https://alunno.rs/",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "auto-skola-gazela-novi-sad-n12216647805",
+   "name": "Auto-škola Gazela",
+   "type": "Auto-škola",
+   "place": "Novi Sad",
+   "website": "https://autoskolagazela.com/",
+   "mb": null,
+   "have": {
+    "address": "Pasterova 14",
+    "phones": null,
+    "hours": "Mo-Fr 08:30-19:00; Sa 09:00-13:00; Su off"
+   },
+   "need": [
+    "phones"
+   ]
+  },
+  {
+   "org_slug": "grin-auto-novi-sad-n9917018355",
+   "name": "Grin auto",
+   "type": "Auto-škola",
+   "place": "Novi Sad",
+   "website": "https://www.grinauto.net/",
+   "mb": null,
+   "have": {
+    "address": "Branka Ilića 3",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "uros-beograd-n11984177793",
+   "name": "Uroš",
+   "type": "Auto-škola",
+   "place": "Palilula",
+   "website": "https://www.autoskolauros.rs",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "011 4244178; 060 4072016",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "start-stara-pazova-n5012608849",
+   "name": "Start",
+   "type": "Auto-škola",
+   "place": "Stara Pazova",
+   "website": "https://startsb.rs/",
+   "mb": null,
+   "have": {
+    "address": "Pilota Milenka Pavlovića 8",
+    "phones": "022 348001; 066 348001",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "petrovic-plus-beograd-n14314305017",
+   "name": "Petrović plus",
+   "type": "Auto-škola",
+   "place": "Zemun",
+   "website": "https://www.aspetrovicplus.rs",
+   "mb": null,
+   "have": {
+    "address": "Rade Končara 47",
+    "phones": "011 3165624; 065 3165624",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "mm-jane-beograd-n12787720705",
+   "name": "MM Jane",
+   "type": "Auto-škola",
+   "place": "Čukarica",
+   "website": "https://autoskolammjane.com/",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "011 3421424; 064 1117069",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "mm-jane-beograd-n13258949971",
+   "name": "MM Jane",
+   "type": "Auto-škola",
+   "place": "Čukarica",
+   "website": "https://autoskolammjane.com/",
+   "mb": null,
+   "have": {
+    "address": "Avalska 2a",
+    "phones": "011 2572842; 063 8731882",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "banka-bank-of-china-srbija",
+   "name": "Bank of China Srbija",
+   "type": "Banka",
+   "place": "Novi Beograd",
+   "website": "https://www.bankofchina.com/rs/",
+   "mb": null,
+   "have": {
+    "address": "Bulevar Zorana Đinđića 2a",
+    "phones": "011 6351000",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "banka-kfw",
+   "name": "KFW",
+   "type": "Banka",
+   "place": "Novi Beograd",
+   "website": "https://www.kfw-entwicklungsbank.de",
+   "mb": null,
+   "have": {
+    "address": "Milutina Milankovića 3v",
+    "phones": "011 6359720",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "banka-mirabank",
+   "name": "Mirabank",
+   "type": "Banka",
+   "place": "Novi Beograd",
+   "website": "https://www.mirabankserbia.com",
+   "mb": null,
+   "have": {
+    "address": "Španskih boraca 1",
+    "phones": "011 6355400",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "banka-yettel",
+   "name": "Yettel bank",
+   "type": "Banka",
+   "place": "Novi Beograd",
+   "website": "https://www.yettelbank.rs",
+   "mb": null,
+   "have": {
+    "address": "Omladinskih brigada 88",
+    "phones": null,
+    "hours": "Mo-Fr 09:00-17:00"
+   },
+   "need": [
+    "phones"
+   ]
+  },
+  {
+   "org_slug": "banka-faircoop",
+   "name": "FairCoop",
+   "type": "Banka",
+   "place": "Novi Sad",
+   "website": "https://fair.coop",
+   "mb": null,
+   "have": {
+    "address": "Jasmina 65",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "banka-srpska",
+   "name": "Srpska banka",
+   "type": "Banka",
+   "place": "Savski venac",
+   "website": "https://www.srpskabanka.rs",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "011 3607200",
+    "hours": "Mo-Fr 08:00-16:30"
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "banka-vtb",
+   "name": "VTB",
+   "type": "Banka",
+   "place": "Savski venac",
+   "website": "http://www.vtbbanka.rs/",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "011 7856328",
+    "hours": "Mo-Fr 09:00-17:00"
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-ada-ada",
+   "name": "Centar za socijalni rad Ada",
+   "type": "Centar za socijalni rad",
+   "place": "Ada",
+   "website": "https://csr-ada.rs/",
+   "mb": "08154724",
+   "have": {
+    "address": null,
+    "phones": "024 851039; 024 854477; 063 1023792",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-opstine-aleksinac-aleksinac",
+   "name": "Centar za socijalni rad opštine Aleksinac",
+   "type": "Centar za socijalni rad",
+   "place": "Aleksinac",
+   "website": "https://csraleksinac.rs/",
+   "mb": "07106831",
+   "have": {
+    "address": null,
+    "phones": "018 804507; 018 804245",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-1-mart-alibunar-alibunar",
+   "name": "Centar za socijalni rad \"1. Mart\" Alibunar",
+   "type": "Centar za socijalni rad",
+   "place": "Alibunar",
+   "website": "https://csralibunar.rs/",
+   "mb": "08271950",
+   "have": {
+    "address": "Save Munćana 3",
+    "phones": "013 641167",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-opstine-bac-bac",
+   "name": "Centar za socijalni rad opštine Bač",
+   "type": "Centar za socijalni rad",
+   "place": "Bač",
+   "website": "https://csrbac.org.rs/",
+   "mb": "08281599",
+   "have": {
+    "address": "Bačka 4",
+    "phones": "021 6070251",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-becej-becej",
+   "name": "Centar za socijalni rad Bečej",
+   "type": "Centar za socijalni rad",
+   "place": "Bečej",
+   "website": "http://www.csrbecej.org",
+   "mb": "08144303",
+   "have": {
+    "address": "Zelena 80",
+    "phones": "021 6918420",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-blace-blace",
+   "name": "Centar za socijalni rad \"Blace\"",
+   "type": "Centar za socijalni rad",
+   "place": "Blace",
+   "website": "https://csrblace.rs/",
+   "mb": "07341342",
+   "have": {
+    "address": "Svetog Save 4",
+    "phones": "027 371042; 027 371317",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-bogatic-bogatic",
+   "name": "Centar za socijalni rad \"Bogatić\"",
+   "type": "Centar za socijalni rad",
+   "place": "Bogatić",
+   "website": "https://csrbogatic.rs/",
+   "mb": "07345054",
+   "have": {
+    "address": null,
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "address",
+    "phones",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-bosilegrad-bosilegrad",
+   "name": "Centar za socijalni rad Bosilegrad",
+   "type": "Centar za socijalni rad",
+   "place": "Bosilegrad",
+   "website": "https://csrbosilegrad.rs/",
+   "mb": "17548549",
+   "have": {
+    "address": "Georgi Dimitrova bb",
+    "phones": "017 877106",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "centar-za-socijalni-rad-brus-brus",
+   "name": "Centar za socijalni rad Brus",
+   "type": "Centar za socijalni rad",
+   "place": "Brus",
+   "website": "https://csrbrus.org.rs/",
+   "mb": "07327366",
+   "have": {
+    "address": "Oslobodilačka bb",
+    "phones": "037 3825665; 037 3827008; 037 3827750",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  }
+ ],
+ "id": "site-004"
+}

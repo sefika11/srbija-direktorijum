@@ -1,0 +1,393 @@
+{
+ "kind": "sites",
+ "title": "Institucije sa sopstvenim sajtom",
+ "rows": [
+  {
+   "org_slug": "istorijski-arhiv-nis-nis",
+   "name": "Istorijski arhiv Niš",
+   "type": "Arhiv",
+   "place": "Niš",
+   "website": "https://www.arhivnis.rs",
+   "mb": "07215231",
+   "have": {
+    "address": "Tvrđava b.b.",
+    "phones": "018 515608",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "istorijski-arhiv-beograda-novi-beograd",
+   "name": "Istorijski arhiv Beograda",
+   "type": "Arhiv",
+   "place": "Novi Beograd",
+   "website": "https://www.arhiv-beograda.org",
+   "mb": "07033290",
+   "have": {
+    "address": "Palmira Toljatija 1",
+    "phones": "011 2606336",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "istorijski-arhiv-ras-novi-pazar",
+   "name": "Istorijski arhiv \"Ras\"",
+   "type": "Arhiv",
+   "place": "Novi Pazar",
+   "website": "https://www.arhivrasnovipazar.com",
+   "mb": "07294026",
+   "have": {
+    "address": "Oslobođenja 41",
+    "phones": "020 318282",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "arhiv-vojvodine-novi-sad",
+   "name": "Arhiv Vojvodine",
+   "type": "Arhiv",
+   "place": "Novi Sad",
+   "website": "https://www.arhivvojvodine.org.rs",
+   "mb": "08080968",
+   "have": {
+    "address": "Žarka Vasiljevića 2a",
+    "phones": "021 4891800",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "istorijski-arhiv-grada-novog-sada-novi-sad",
+   "name": "Istorijski arhiv grada Novog Sada",
+   "type": "Arhiv",
+   "place": "Novi Sad",
+   "website": "https://www.arhivns.rs",
+   "mb": "08080976",
+   "have": {
+    "address": "Filipa Višnjića 2a",
+    "phones": "021 6432214",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "istorijski-arhiv-u-pancevu-pancevo",
+   "name": "Istorijski arhiv u Pančevu",
+   "type": "Arhiv",
+   "place": "Pančevo",
+   "website": "https://www.arhivpancevo.org.rs",
+   "mb": "08006504",
+   "have": {
+    "address": "Nemanjina 7",
+    "phones": "013 317344",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "istorijski-arhiv-u-pirotu-pirot",
+   "name": "Istorijski arhiv u Pirotu",
+   "type": "Arhiv",
+   "place": "Pirot",
+   "website": "https://arhivpirot.rs",
+   "mb": "17038478",
+   "have": {
+    "address": "Srpskih vladara 130",
+    "phones": "010 320952",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "istorijski-arhiv-pozarevac-pozarevac",
+   "name": "Istorijski arhiv Požarevac",
+   "type": "Arhiv",
+   "place": "Požarevac",
+   "website": "https://www.arhivpozarevac.org.rs",
+   "mb": "06961282",
+   "have": {
+    "address": "Dr Vojislava Dulića 10",
+    "phones": "012 223082",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "arhiv-istorijski-arhiv-toplice-prokuplje-prokuplje",
+   "name": "Istorijski arhiv „Toplice\" Prokuplje",
+   "type": "Arhiv",
+   "place": "Prokuplje",
+   "website": "https://arhivtoplice.org.rs",
+   "mb": null,
+   "have": {
+    "address": "Pasjačka 2",
+    "phones": "027 329546",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "istorijski-arhiv-senta-senta",
+   "name": "Istorijski arhiv Senta",
+   "type": "Arhiv",
+   "place": "Senta",
+   "website": "https://www.zentarhiv.rs",
+   "mb": "08052115",
+   "have": {
+    "address": "Glavni trg 1",
+    "phones": "024 811037",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "istorijski-arhiv-u-smederevu-smederevo",
+   "name": "Istorijski arhiv u Smederevu",
+   "type": "Arhiv",
+   "place": "Smederevo",
+   "website": "https://arhiv.org.rs",
+   "mb": "06120881",
+   "have": {
+    "address": "Kralja Petra Prvog 2",
+    "phones": "026 4629279",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "arhiv-veroslava-veljasevic-smederevska-palanka-smederevska-palanka",
+   "name": "Arhiv „Veroslava Veljašević“ Smederevska Palanka",
+   "type": "Arhiv",
+   "place": "Smederevska Palanka",
+   "website": "https://www.arhivpalanka.rs",
+   "mb": null,
+   "have": {
+    "address": "Omladinska 13",
+    "phones": "026 317235",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "istorijski-arhiv-sombor-sombor",
+   "name": "Istorijski arhiv Sombor",
+   "type": "Arhiv",
+   "place": "Sombor",
+   "website": "https://www.arhivsombor.org.rs",
+   "mb": "08047111",
+   "have": {
+    "address": "Trg Cara Lazara 7",
+    "phones": "025 416292",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "istorijski-arhiv-srem-sremska-mitrovica",
+   "name": "Istorijski arhiv \"Srem\"",
+   "type": "Arhiv",
+   "place": "Sremska Mitrovica",
+   "website": "https://www.arhivsrem.org.rs",
+   "mb": "08015899",
+   "have": {
+    "address": "Vuka Karadžića 4",
+    "phones": "022 613592",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "istorijski-arhiv-subotica-subotica",
+   "name": "Istorijski arhiv Subotica",
+   "type": "Arhiv",
+   "place": "Subotica",
+   "website": "https://www.suarhiv.co.rs",
+   "mb": "08009279",
+   "have": {
+    "address": "Trg Slobode 1",
+    "phones": "024 626889",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "istorijski-arhiv-uzice-uzice",
+   "name": "Istorijski arhiv Užice",
+   "type": "Arhiv",
+   "place": "Užice",
+   "website": "https://www.arhivue.org.rs",
+   "mb": "07156812",
+   "have": {
+    "address": "Žička 17",
+    "phones": "031 513484",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "medjuopstinski-istorijski-arhiv-valjevo-valjevo",
+   "name": "Međuopštinski istorijski arhiv Valjevo",
+   "type": "Arhiv",
+   "place": "Valjevo",
+   "website": "https://www.istorijskiarhiv.rs",
+   "mb": "07096968",
+   "have": {
+    "address": "Pop Lukina 52",
+    "phones": "014 221028",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javna-ustanova-istorijski-arhiv-31-januar-vranje-vranje",
+   "name": "Javna ustanova istorijski arhiv 31. Januar Vranje",
+   "type": "Arhiv",
+   "place": "Vranje",
+   "website": "https://www.vranjearhiv.com",
+   "mb": "07196776",
+   "have": {
+    "address": "Partizanska 17",
+    "phones": "017 423334",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "istorijski-arhiv-timocka-krajina-zajecar",
+   "name": "Istorijski arhiv \"Timočka Krajina\"",
+   "type": "Arhiv",
+   "place": "Zaječar",
+   "website": "https://www.arhivzajecar.org.rs",
+   "mb": "07218656",
+   "have": {
+    "address": "Nikole Pašića 160",
+    "phones": "019 420285",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "istorijski-arhiv-zrenjanin-zrenjanin",
+   "name": "Istorijski arhiv Zrenjanin",
+   "type": "Arhiv",
+   "place": "Zrenjanin",
+   "website": "https://arhivzrenjanin.rs/",
+   "mb": "08002207",
+   "have": {
+    "address": "Trg Slobode 10",
+    "phones": "023 564322",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "arhiv-medjuopstinski-istorijski-arhiv-za-grad-cacak-i-opstine-gornji-milanovac",
+   "name": "Međuopštinski istorijski arhiv za grad Čačak i opštine Gornji Milanovac i Lučani",
+   "type": "Arhiv",
+   "place": "Čačak",
+   "website": "https://www.arhivcacak.org.rs",
+   "mb": null,
+   "have": {
+    "address": "Gospodar Jovanova 2",
+    "phones": "032 222729",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "medjuopstinski-istorijski-arhiv-sabac-sabac",
+   "name": "Međuopštinski istorijski arhiv Šabac",
+   "type": "Arhiv",
+   "place": "Šabac",
+   "website": "https://www.arhivsabac.org.rs",
+   "mb": "07120559",
+   "have": {
+    "address": "Vojvode Mišića 18",
+    "phones": "015 354992",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "sale-apatin-n7923656065",
+   "name": "Sale",
+   "type": "Auto-škola",
+   "place": "Apatin",
+   "website": "https://www.autoskolasale.com/",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "025 774714",
+    "hours": "Mo-Fr 09:00-17:00; Sa 09:00-13:00"
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "corolla-nis-n12506638888",
+   "name": "Corolla",
+   "type": "Auto-škola",
+   "place": "Medijana",
+   "website": "https://autoskolacorolla.co.rs/",
+   "mb": null,
+   "have": {
+    "address": null,
+    "phones": "018 522551; 064 8899222",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  }
+ ],
+ "id": "site-003"
+}

@@ -1,0 +1,396 @@
+{
+ "kind": "sites",
+ "title": "Institucije sa sopstvenim sajtom",
+ "rows": [
+  {
+   "org_slug": "narodna-biblioteka-becej-nepkonyvtar-becze-becej",
+   "name": "Narodna biblioteka Bečej-Nepkonyvtar Becze",
+   "type": "Narodna biblioteka",
+   "place": "Bečej",
+   "website": "http://www.narodnabiblioteka-becej.rs",
+   "mb": "08069719",
+   "have": {
+    "address": "Glavna 11",
+    "phones": "021 6912747",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "narodna-biblioteka-janko-veselinovic-bogatic",
+   "name": "Narodna biblioteka \"Janko Veselinović\"",
+   "type": "Narodna biblioteka",
+   "place": "Bogatić",
+   "website": "http://www.bibliotekajanko.rs",
+   "mb": "17817418",
+   "have": {
+    "address": "Mike Vitomirovića 6",
+    "phones": null,
+    "hours": null
+   },
+   "need": [
+    "phones",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "narodna-biblioteka-bor-bor",
+   "name": "Narodna biblioteka Bor",
+   "type": "Narodna biblioteka",
+   "place": "Bor",
+   "website": "http://www.biblioteka-bor.org.rs/",
+   "mb": "07130309",
+   "have": {
+    "address": null,
+    "phones": "030 458120",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "javna-biblioteka-doljevac-doljevac",
+   "name": "Javna biblioteka Doljevac",
+   "type": "Narodna biblioteka",
+   "place": "Doljevac",
+   "website": "https://bibliotekadoljevac.org",
+   "mb": "17035746",
+   "have": {
+    "address": "Nikole Tesle 28",
+    "phones": "018 870840; 018 870814",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "biblioteka-braca-nastasijevic-gornji-milanovac",
+   "name": "Biblioteka \"Braća Nastasijević\"",
+   "type": "Narodna biblioteka",
+   "place": "Gornji Milanovac",
+   "website": "http://www.bibliotekagm.com",
+   "mb": "17020471",
+   "have": {
+    "address": "Trg Kneza Mihaila 1",
+    "phones": "032 712267; 032 713324",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "narodna-biblioteka-radislav-nikcevic-jagodina",
+   "name": "Narodna biblioteka \"Radislav Nikčević\"",
+   "type": "Narodna biblioteka",
+   "place": "Jagodina",
+   "website": "http://www.jabooka.org.rs",
+   "mb": "07127227",
+   "have": {
+    "address": "Kneginje Milice 2",
+    "phones": "035 245480",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "narodna-biblioteka-njegos-knjazevac",
+   "name": "Narodna biblioteka \"Njegoš\"",
+   "type": "Narodna biblioteka",
+   "place": "Knjaževac",
+   "website": "http://www.biblio-knjazevac.org",
+   "mb": "07127847",
+   "have": {
+    "address": "Branka Radičevića 1",
+    "phones": "019 733157",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "narodna-biblioteka-vuk-karadzic-kragujevac",
+   "name": "Narodna biblioteka \"Vuk Karadžić\"",
+   "type": "Narodna biblioteka",
+   "place": "Kragujevac",
+   "website": "https://nbkg.rs",
+   "mb": "07150156",
+   "have": {
+    "address": null,
+    "phones": "034 300160",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "narodna-biblioteka-stefan-prvovencani-kraljevo",
+   "name": "Narodna biblioteka \"Stefan Prvovenčani\"",
+   "type": "Narodna biblioteka",
+   "place": "Kraljevo",
+   "website": "http://www.kv-biblio.org.rs/",
+   "mb": "07191014",
+   "have": {
+    "address": "Cara Lazara 36",
+    "phones": "036 321377; 036 319750",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "biblioteka-politika-krupanj",
+   "name": "Biblioteka \"Politika\"",
+   "type": "Narodna biblioteka",
+   "place": "Krupanj",
+   "website": "https://www.bibliotekakrupanj.org.rs",
+   "mb": "07223358",
+   "have": {
+    "address": "Mačkov Kamen 3",
+    "phones": "015 581203; 015 581033",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "narodna-biblioteka-krusevac-krusevac",
+   "name": "Narodna biblioteka Kruševac",
+   "type": "Narodna biblioteka",
+   "place": "Kruševac",
+   "website": "http://nbks.org.rs/",
+   "mb": "07144016",
+   "have": {
+    "address": "Trg Kosovskih junaka 1",
+    "phones": "037 429224; 037 443168",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "narodna-biblioteka-kula-kula",
+   "name": "Narodna biblioteka Kula",
+   "type": "Narodna biblioteka",
+   "place": "Kula",
+   "website": "https://bibliotekakula.rs",
+   "mb": "08005257",
+   "have": {
+    "address": "Lenjinova 23",
+    "phones": "025 722231; 025 729710",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "narodna-biblioteka-radoje-domanovic-leskovac",
+   "name": "Narodna biblioteka \"Radoje Domanović\"",
+   "type": "Narodna biblioteka",
+   "place": "Leskovac",
+   "website": "https://www.nbleskovac.rs/",
+   "mb": "07139900",
+   "have": {
+    "address": "Bulevar oslobođenja 61",
+    "phones": "016 3150083",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "biblioteka-milovan-glisic-ljubovija",
+   "name": "Biblioteka \"Milovan Glišić\"",
+   "type": "Narodna biblioteka",
+   "place": "Ljubovija",
+   "website": "https://www.biblioteka-ljubovija.org.rs",
+   "mb": "17047876",
+   "have": {
+    "address": "Trg Vojvode Mišića bb",
+    "phones": "015 561842; 015 561529",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "biblioteka-vukovog-zavicaja-loznica",
+   "name": "Biblioteka Vukovog Zavičaja",
+   "type": "Narodna biblioteka",
+   "place": "Loznica",
+   "website": "http://www.bibliotekaloznica.org.rs/",
+   "mb": "07347626",
+   "have": {
+    "address": "Svetog Save 5",
+    "phones": "015 7882123",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "narodna-biblioteka-dositej-novakovic-negotin",
+   "name": "Narodna biblioteka \"Dositej Novaković\"",
+   "type": "Narodna biblioteka",
+   "place": "Negotin",
+   "website": "http://www.bibliotekanegotin.org.rs",
+   "mb": "07129262",
+   "have": {
+    "address": "JNA 2",
+    "phones": "019 548665; 019 542380; 019 543390",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "narodna-biblioteka-stevan-sremac-nis",
+   "name": "Narodna biblioteka \"Stevan Sremac\"",
+   "type": "Narodna biblioteka",
+   "place": "Niš",
+   "website": "https://nbss.rs",
+   "mb": "07185278",
+   "have": {
+    "address": "Borivoja Gojkovića 9",
+    "phones": "018 511403",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "narodna-biblioteka-dositej-obradovic-novi-pazar",
+   "name": "Narodna biblioteka \"Dositej Obradović\"",
+   "type": "Narodna biblioteka",
+   "place": "Novi Pazar",
+   "website": "http://www.biblioteka-np.org.rs",
+   "mb": "07326203",
+   "have": {
+    "address": "Gradski park bb",
+    "phones": "020 331010",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "biblioteka-dr-vicentije-rakic-paracin",
+   "name": "Biblioteka \"Dr Vićentije Rakić\"",
+   "type": "Narodna biblioteka",
+   "place": "Paraćin",
+   "website": "http://nbvrakic.org.rs/",
+   "mb": "07116071",
+   "have": {
+    "address": "Branka Krsmanovića 47",
+    "phones": "062 634244",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "narodna-biblioteka-djura-jaksic-petrovac-na-mlavi",
+   "name": "Narodna biblioteka \"Đura Jakšić\"",
+   "type": "Narodna biblioteka",
+   "place": "Petrovac na Mlavi",
+   "website": "http://biblioteka-djurajaksic.org.rs/",
+   "mb": "07164963",
+   "have": {
+    "address": "Radeta Moskovlića 17",
+    "phones": "012 331082",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "narodna-biblioteka-pirot-pirot",
+   "name": "Narodna biblioteka Pirot",
+   "type": "Narodna biblioteka",
+   "place": "Pirot",
+   "website": "http://www.nbpi.org.rs",
+   "mb": "07211660",
+   "have": {
+    "address": "Branka Radičevića 10",
+    "phones": "010 313744",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "narodna-biblioteka-pozega-pozega",
+   "name": "Narodna biblioteka Požega",
+   "type": "Narodna biblioteka",
+   "place": "Požega",
+   "website": "https://www.bibliotekapozega.org.rs",
+   "mb": "07112815",
+   "have": {
+    "address": "Kralja Aleksandra 8",
+    "phones": "031 825119; 031 811525",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "narodna-biblioteka-rade-drainac-prokuplje",
+   "name": "Narodna biblioteka \"Rade Drainac\"",
+   "type": "Narodna biblioteka",
+   "place": "Prokuplje",
+   "website": "https://www.bibliotekaprokuplje.org.rs/",
+   "mb": "07598157",
+   "have": {
+    "address": "21. srpske divizije bb",
+    "phones": "027 321671",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "gradska-biblioteka-atanasije-stojkovic-ruma",
+   "name": "Gradska biblioteka \"Atanasije Stojković\"",
+   "type": "Narodna biblioteka",
+   "place": "Ruma",
+   "website": "http://www.bibliotekaruma.rs",
+   "mb": "08390860",
+   "have": {
+    "address": "Glavna 114",
+    "phones": "022 490047",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  }
+ ],
+ "id": "site-035"
+}

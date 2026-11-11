@@ -1,0 +1,393 @@
+{
+ "kind": "sites",
+ "title": "Institucije sa sopstvenim sajtom",
+ "rows": [
+  {
+   "org_slug": "dom-zdravlja-kula-kula",
+   "name": "Dom zdravlja Kula",
+   "type": "Dom zdravlja",
+   "place": "Kula",
+   "website": "http://kula.dz.rfzo.rs",
+   "mb": "08005281",
+   "have": {
+    "address": "Trg Oslobođenja 9",
+    "phones": "025 723048",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-kursumlija-kursumlija",
+   "name": "Dom zdravlja Kuršumlija",
+   "type": "Dom zdravlja",
+   "place": "Kuršumlija",
+   "website": "https://dzkursumlija.rs",
+   "mb": "17209795",
+   "have": {
+    "address": "Dr. Melgarda bb",
+    "phones": "027 381335; 027 381222; 027 385854",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-kucevo-kucevo",
+   "name": "Dom zdravlja Kučevo",
+   "type": "Dom zdravlja",
+   "place": "Kučevo",
+   "website": "http://www.dzkucevo.co.rs/",
+   "mb": "17814290",
+   "have": {
+    "address": "Žike Popovića 48",
+    "phones": "012 852300",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-lajkovac-lajkovac",
+   "name": "Dom zdravlja Lajkovac",
+   "type": "Dom zdravlja",
+   "place": "Lajkovac",
+   "website": "https://dzlajkovac.rs",
+   "mb": "17253506",
+   "have": {
+    "address": "Svetog Save bb",
+    "phones": "014 3433395; 014 3431684; 014 3431237; 014 3431124",
+    "hours": "Weekdays 7:00-20:00 (two shifts), Saturdays 7:00-15:00; urgent care 24h"
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-lapovo-lapovo",
+   "name": "Dom zdravlja Lapovo",
+   "type": "Dom zdravlja",
+   "place": "Lapovo",
+   "website": "https://dzlapovo.rs",
+   "mb": "17211986",
+   "have": {
+    "address": "Ive Andrića br. 9",
+    "phones": "034 853349; 034 853911",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-lebane-lebane",
+   "name": "Dom zdravlja Lebane",
+   "type": "Dom zdravlja",
+   "place": "Lebane",
+   "website": "http://www.dzlebane.co.rs",
+   "mb": "17277618",
+   "have": {
+    "address": "Cara Dušana 70",
+    "phones": "016 843030",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-leskovac-leskovac",
+   "name": "Dom zdravlja Leskovac",
+   "type": "Dom zdravlja",
+   "place": "Leskovac",
+   "website": "http://www.dzleskovac.com",
+   "mb": "17710214",
+   "have": {
+    "address": "Svetozara Markovića 116",
+    "phones": "016 233701",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-ljig-ljig",
+   "name": "Dom zdravlja Ljig",
+   "type": "Dom zdravlja",
+   "place": "Ljig",
+   "website": "https://domzdravljaljig.rs",
+   "mb": "17817302",
+   "have": {
+    "address": "Alimpija Vasiljevića bb",
+    "phones": "014 3445994; 014 3445004",
+    "hours": "Прва смена: 07.00 – 14.30 ч; Друга смена: 14.30 – 22.00 ч; Трећа смена: 22.00 – 07.00 ч"
+   },
+   "need": [
+    "address"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-ljubovija-ljubovija",
+   "name": "Dom zdravlja Ljubovija",
+   "type": "Dom zdravlja",
+   "place": "Ljubovija",
+   "website": "http://www.dzljubovija.com",
+   "mb": "17255908",
+   "have": {
+    "address": "Vojvode Mišića 58",
+    "phones": "015 561826",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-lucani-guca",
+   "name": "Dom zdravlja Lučani",
+   "type": "Dom zdravlja",
+   "place": "Lučani",
+   "website": "https://dzlucani.rs",
+   "mb": "17870025",
+   "have": {
+    "address": "Republike bb",
+    "phones": "032 817124",
+    "hours": null
+   },
+   "need": [
+    "address",
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-dr-veroljub-cakic-majdanpek",
+   "name": "Dom zdravlja \"Dr Veroljub Cakić\"",
+   "type": "Dom zdravlja",
+   "place": "Majdanpek",
+   "website": "http://dzmpek.org.rs",
+   "mb": "17665537",
+   "have": {
+    "address": "Kapetanska 30",
+    "phones": "030 581229",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-dr-marton-sandor-mali-idjos",
+   "name": "Dom zdravlja \"Dr Marton Šandor\"",
+   "type": "Dom zdravlja",
+   "place": "Mali Iđoš",
+   "website": "http://www.dzmi.rs",
+   "mb": "08051224",
+   "have": {
+    "address": "Zanatlijska 1",
+    "phones": "024 730236",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-mali-zvornik-mali-zvornik",
+   "name": "Dom zdravlja \"Mali Zvornik\"",
+   "type": "Dom zdravlja",
+   "place": "Mali Zvornik",
+   "website": "http://www.dzmalizvornik.org.rs",
+   "mb": "17813820",
+   "have": {
+    "address": "Ribarska 25",
+    "phones": "015 472211; 015 472058",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-malo-crnice-malo-crnice",
+   "name": "Dom zdravlja Malo Crniće",
+   "type": "Dom zdravlja",
+   "place": "Malo Crniće",
+   "website": "https://www.dzmcrnice.rs",
+   "mb": "17815377",
+   "have": {
+    "address": "Maršala Tita 97",
+    "phones": "012 280326; 012 280445",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-medvedja-medvedja",
+   "name": "Dom zdravlja Medveđa",
+   "type": "Dom zdravlja",
+   "place": "Medveđa",
+   "website": "http://www.dzmedvedja.com",
+   "mb": "17682547",
+   "have": {
+    "address": "Nikole Tesle 4",
+    "phones": "016 891236; 016 891237",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-merosina-merosina",
+   "name": "Dom zdravlja Merošina",
+   "type": "Dom zdravlja",
+   "place": "Merošina",
+   "website": "https://dzmerosina.info",
+   "mb": "06374506",
+   "have": {
+    "address": "Cara Lazara 11",
+    "phones": "018 4891101; 018 4892775; 018 4891470; 018 4899001; 018 4895095; 018 4892220",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-srpska-crnja-srpska-crnja",
+   "name": "Dom zdravlja Srpska Crnja",
+   "type": "Dom zdravlja",
+   "place": "Nova Crnja",
+   "website": "http://www.dzsrpskacrnja.rs",
+   "mb": "08061939",
+   "have": {
+    "address": "Patrijarha Arsenija Čarnojevića br.15",
+    "phones": "023 811022",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-novi-beograd-novi-beograd",
+   "name": "Dom zdravlja \"Novi Beograd\"",
+   "type": "Dom zdravlja",
+   "place": "Novi Beograd",
+   "website": "http://www.dznbgd.com",
+   "mb": "07033397",
+   "have": {
+    "address": "Goce Delčeva 30",
+    "phones": "011 2222100",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-novi-becej-novi-becej",
+   "name": "Dom zdravlja Novi Bečej",
+   "type": "Dom zdravlja",
+   "place": "Novi Bečej",
+   "website": "http://www.dznb.co.rs",
+   "mb": "08020337",
+   "have": {
+    "address": "Trg Oslobođenja 2",
+    "phones": "023 773600",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-novi-knezevac-novi-knezevac",
+   "name": "Dom zdravlja Novi Kneževac",
+   "type": "Dom zdravlja",
+   "place": "Novi Kneževac",
+   "website": "http://www.dznk.org.rs",
+   "mb": "08246734",
+   "have": {
+    "address": "Kralja Petra I Karađorđevića br.85, Novi Kneževac",
+    "phones": "0230 81152",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-novi-pazar-novi-pazar",
+   "name": "Dom zdravlja Novi Pazar",
+   "type": "Dom zdravlja",
+   "place": "Novi Pazar",
+   "website": "https://dznovipazar.rs",
+   "mb": "17828312",
+   "have": {
+    "address": "Generala Živkovića br.1",
+    "phones": "020 311765; 020 311764; 020 322302",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-obrenovac-obrenovac",
+   "name": "Dom zdravlja Obrenovac",
+   "type": "Dom zdravlja",
+   "place": "Obrenovac",
+   "website": "https://domzdravljaobrenovac.com",
+   "mb": "07038950",
+   "have": {
+    "address": "Vojvode Mišića broj 231",
+    "phones": "011 8721008; 011 3534906; 011 3534907",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-odzaci-sa-stacionarom-odzaci",
+   "name": "Dom zdravlja Odžaci (Sa Stacionarom)",
+   "type": "Dom zdravlja",
+   "place": "Odžaci",
+   "website": "https://dzodzaci.org.rs",
+   "mb": "08007632",
+   "have": {
+    "address": "Mostonga 25",
+    "phones": "025 5742575; 025 5742131",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-opovo-opovo",
+   "name": "Dom zdravlja Opovo",
+   "type": "Dom zdravlja",
+   "place": "Opovo",
+   "website": "https://dzopovo.rs",
+   "mb": "08072370",
+   "have": {
+    "address": "Borisa Kidriča 6",
+    "phones": "013 681104; 013 681108",
+    "hours": null
+   },
+   "need": [
+    "hours"
+   ]
+  }
+ ],
+ "id": "site-010"
+}

@@ -1,0 +1,643 @@
+{
+ "kind": "network",
+ "title": "Manje mreže",
+ "type": "mixed",
+ "orgs": [
+  {
+   "org_slug": "apotekarska-ustanova-adonis-sokobanja",
+   "name": "Apotekarska ustanova \"Adonis\"",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 11668,
+     "unit": "Apoteka",
+     "place": "Sokobanja",
+     "address": "Mitropilita Mihaila broj 27a",
+     "phones": "018 830881",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11669,
+     "unit": "Ogranak Adonis 2",
+     "place": "Sokobanja",
+     "address": "Svetog Save broj 5",
+     "phones": "018 833881",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11670,
+     "unit": "Ogranak Adonis 3",
+     "place": "Aleksinac",
+     "address": "Kneza Miloša broj 63",
+     "phones": "018 800010",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11671,
+     "unit": "Ogranak Adonis 4",
+     "place": "Aleksinac",
+     "address": "Dragoljuba Vujića broj 13",
+     "phones": "018 887272",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11672,
+     "unit": "Ogranak Adonis 5",
+     "place": "Aleksinac",
+     "address": "Dušana Trivunca broj 27",
+     "phones": "018 800720",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11673,
+     "unit": "Ogranak Adonis 6",
+     "place": "Zaječar",
+     "address": "Gremička broj 3",
+     "phones": "019 415034",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11674,
+     "unit": "Ogranak Adonis 7",
+     "place": "Sokobanja",
+     "address": "Kneza Miloša broj 2",
+     "phones": "018 833360",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11675,
+     "unit": "Ogranak Adonis 8",
+     "place": "Zaječar",
+     "address": "Hajduk Veljkova broj 16",
+     "phones": "019 435234",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11676,
+     "unit": "Ogranak Adonis 9",
+     "place": "Boljevac",
+     "address": "Kralja Aleksandra broj 4",
+     "phones": "030 2100700",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11677,
+     "unit": "Ogranak Adonis 10",
+     "place": "Niš",
+     "address": "Bulevar Dr Zorana Đinđića broj 33",
+     "phones": "018 4103409",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11678,
+     "unit": "Ogranak Adonis 11",
+     "place": "Niš",
+     "address": "Trg Kralja Aleksandra Ujedinitelja 1",
+     "phones": "018 4105675",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11679,
+     "unit": "Ogranak Adonis 12",
+     "place": "Sokobanja",
+     "address": "Mitropolita Mihaila broj 23",
+     "phones": "018 4106270",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11680,
+     "unit": "Ogranak Adonis 13",
+     "place": "Zaječar",
+     "address": "Ljube Nešića bb",
+     "phones": "019 3101010",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "apotekarska-ustanova-alba-graeca-pharm-beograd",
+   "name": "Apotekarska ustanova \"Alba Graeca Pharm\"",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 11977,
+     "unit": "Apoteka",
+     "place": "Beograd",
+     "address": "Ulofa Palmea 3",
+     "phones": "011 3431280",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11978,
+     "unit": "Ogranak apoteke \"Alba Graeca 2\" Beograd",
+     "place": "Beograd",
+     "address": "Generala Štefanika broj 19",
+     "phones": "011 6307384",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11979,
+     "unit": "Alba Graeca pharm III",
+     "place": "Beograd",
+     "address": "Matice Srpske broj 43",
+     "phones": "011 3434493",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11980,
+     "unit": "Alba Graeca pharm IV",
+     "place": "Beograd",
+     "address": "Beograd, Spasenovićeva broj 4",
+     "phones": "011 2363146",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11981,
+     "unit": "Alba Graeca pharm V",
+     "place": "Beograd",
+     "address": "Matice Srpske broj 43",
+     "phones": "011 3434491",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11982,
+     "unit": "Alba Graeca pharm VI",
+     "place": "Beograd",
+     "address": "Dinitrija Tucovića broj 74",
+     "phones": "011 2405155",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11983,
+     "unit": "Alba Graeca pharm VII",
+     "place": "Beograd",
+     "address": "Kneza Višeslava broj 31a",
+     "phones": "011 3562066",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11984,
+     "unit": "Alba Graeca pharm VIII",
+     "place": "Beograd",
+     "address": "Brane Crnčevića broj 1",
+     "phones": "011 2424224",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11985,
+     "unit": "Alba Graeca pharm IX",
+     "place": "Beograd",
+     "address": "Zeleni Venac broj 4",
+     "phones": "011 3286270",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11986,
+     "unit": "Alba Graeca pharm XI",
+     "place": "Beograd",
+     "address": "Bulevar Kralja Aleksandra broj 293",
+     "phones": "011 7498865",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11987,
+     "unit": "Alba Graeca pharm XIII",
+     "place": "Beograd",
+     "address": "Marka Oreškovića 27",
+     "phones": "011 7650617",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11988,
+     "unit": "Alba Graeca pharm XII",
+     "place": "Beograd",
+     "address": "Borska 43i",
+     "phones": "011 7751136",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "apotekarska-ustanova-aleksandar-pharm-trstenik",
+   "name": "Apotekarska ustanova \"Aleksandar pharm\"",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 11620,
+     "unit": "Apoteka",
+     "place": "Trstenik",
+     "address": "Vuka Karadžića 29",
+     "phones": "037 203077",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11621,
+     "unit": "Aleksandar pharm",
+     "place": "Vrnjačka Banja",
+     "address": "Kraljevačka 18",
+     "phones": "036 622627",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11622,
+     "unit": "Marija pharm 3",
+     "place": "Trstenik",
+     "address": "Živadina Apostolovića 7",
+     "phones": "037 714221",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11623,
+     "unit": "Neda pharm",
+     "place": "Jagodina",
+     "address": "Dr Miloša Miša Janićijevića 29a",
+     "phones": "065 8018284",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11624,
+     "unit": "Marija pharm",
+     "place": "Trstenik",
+     "address": "Kneginje Milice bb",
+     "phones": "037 714630",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11625,
+     "unit": "Aleksandar pharm 2",
+     "place": "Vrnjačka Banja",
+     "address": "Velibora Markovića 2",
+     "phones": "036 611443",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11626,
+     "unit": "Aleksandar pharm 3",
+     "place": "Vrnjačka Banja",
+     "address": "Novo Selo bb",
+     "phones": "036 631571",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11627,
+     "unit": "Marija pharm plus",
+     "place": "Trstenik",
+     "address": "Medvedja bb",
+     "phones": "037 3723559",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11628,
+     "unit": "Aleksandar pharm 10",
+     "place": "Vrnjačka Banja",
+     "address": "Hajduk Veljkova 2",
+     "phones": "036 5100383",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "apotekarska-ustanova-andjela-krusevac",
+   "name": "Apotekarska ustanova \"Anđela\"",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 11635,
+     "unit": "Andjela 1",
+     "place": "Kruševac",
+     "address": "Dostojevskog 61",
+     "phones": "064 8848085",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11636,
+     "unit": "Andjela 2",
+     "place": "Kruševac",
+     "address": "Cara Lazara broj 212",
+     "phones": "064 8848084",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11637,
+     "unit": "Andjela 4",
+     "place": "Kruševac",
+     "address": "Balkanska broj 12",
+     "phones": "064 8848081",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11638,
+     "unit": "Andjela 6",
+     "place": "Kruševac",
+     "address": "Jaksiceva broj 4",
+     "phones": "060 8848111",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11639,
+     "unit": "Andjela 7",
+     "place": "Trstenik",
+     "address": "Velika Drenova bb",
+     "phones": "060 8848104",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11640,
+     "unit": "Andjela 8",
+     "place": "Kruševac",
+     "address": "Brijanova broj 19",
+     "phones": "060 8848101",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11641,
+     "unit": "Andjela 9",
+     "place": "Ćićevac",
+     "address": "Karadjordjeva broj 211",
+     "phones": "060 8848109",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11642,
+     "unit": "Andjela 10",
+     "place": "Kruševac",
+     "address": "Veliki Siljegovac bb",
+     "phones": "060 8848116",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11643,
+     "unit": "Andjela 11",
+     "place": "Kruševac",
+     "address": "Aerodromska broj 14",
+     "phones": "060 8848117",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11644,
+     "unit": "Andjela 12",
+     "place": "Vrnjačka Banja",
+     "address": "Ugao M.Obilića i Olimpijske, lokal 14",
+     "phones": "060 0848119",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11645,
+     "unit": "Andjela 13",
+     "place": "Vrnjačka Banja",
+     "address": "Nemanjina broj 15",
+     "phones": "060 0848122",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11646,
+     "unit": "Andjela 14",
+     "place": "Kruševac",
+     "address": "Parunovačka broj 54",
+     "phones": "060 8848114",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  },
+  {
+   "org_slug": "apotekarska-ustanova-apolo-mol",
+   "name": "Apotekarska ustanova \"Apolo\"",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 10413,
+     "unit": "Sedište",
+     "place": "Ada",
+     "address": "Jugoslovenske Narodne Armije broj 58a",
+     "phones": "024 861242",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10414,
+     "unit": "Ogranak 1 Ada",
+     "place": "Ada",
+     "address": "Lenjinova broj 5",
+     "phones": "024 853412",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10415,
+     "unit": "Ogranak 2 Bačko Petrovo Selo",
+     "place": "Bečej",
+     "address": "Dr Imrea Kiša broj 39",
+     "phones": "021 6902010",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10416,
+     "unit": "Ogranak 3 Senta",
+     "place": "Senta",
+     "address": "Senta, Tornjoški put 20",
+     "phones": "024 821408",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10417,
+     "unit": "Ogranak 4 Ada",
+     "place": "Ada",
+     "address": "Jožef Atile broj 9",
+     "phones": "024 851132",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10418,
+     "unit": "Ogranak 5 Utrine",
+     "place": "Ada",
+     "address": "Edvarda Kardelja broj 2",
+     "phones": "024 866114",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10419,
+     "unit": "Ogranak 6 Senta",
+     "place": "Senta",
+     "address": "Poštanska broj 11",
+     "phones": "024 816813",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10420,
+     "unit": "Ogranak 7 Senta",
+     "place": "Senta",
+     "address": "Topartska broj 96",
+     "phones": "024 263474",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  }
+ ],
+ "id": "net-small-01"
+}

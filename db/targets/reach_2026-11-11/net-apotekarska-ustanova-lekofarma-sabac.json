@@ -1,0 +1,505 @@
+{
+ "kind": "network",
+ "title": "Apotekarska ustanova \"Lekofarma\"",
+ "type": "apoteka",
+ "orgs": [
+  {
+   "org_slug": "apotekarska-ustanova-lekofarma-sabac",
+   "name": "Apotekarska ustanova \"Lekofarma\"",
+   "website": null,
+   "rows": [
+    {
+     "location_id": 10958,
+     "unit": "Flos 1",
+     "place": "Šabac",
+     "address": "Popa Karana broj 13",
+     "phones": "066 8888582",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10959,
+     "unit": "Flos 2",
+     "place": "Šabac",
+     "address": "Vjvode Mišića broj 16",
+     "phones": "069 1022502",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10960,
+     "unit": "Flos 3",
+     "place": "Šabac",
+     "address": "Vuka Karadžića broj 1",
+     "phones": "069 1022503",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10961,
+     "unit": "Badovinci",
+     "place": "Bogatić",
+     "address": "Karađorđeva broj 4",
+     "phones": "069 1022505",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10962,
+     "unit": "Flos 4",
+     "place": "Šabac",
+     "address": "Janka Stojićevića broj 91",
+     "phones": "069 1022504",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10963,
+     "unit": "Flos 5",
+     "place": "Ruma",
+     "address": "Železnička bb",
+     "phones": "069 1022509",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10964,
+     "unit": "Flos 6",
+     "place": "Šabac",
+     "address": "Beogradska bb",
+     "phones": "069 1022501",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10965,
+     "unit": "Flos 7",
+     "place": "Šabac",
+     "address": "Cara Dušana broj 14",
+     "phones": "069 1022511",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10966,
+     "unit": "Flos 8",
+     "place": "Aleksinac",
+     "address": "Miodraga Petrovića broj 37",
+     "phones": "069 1022512",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10967,
+     "unit": "Nada Flos 9",
+     "place": "Vladimirci",
+     "address": "Svetog Save broj 18",
+     "phones": "069 1022515",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10968,
+     "unit": "Flos 10",
+     "place": "Pećinci",
+     "address": "Školska broj 2",
+     "phones": "069 1022514",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10969,
+     "unit": "Flos 14",
+     "place": "Batočina",
+     "address": "Njegoševa broj 4",
+     "phones": "066 8888580",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10970,
+     "unit": "Flos 15",
+     "place": "Šabac",
+     "address": "Volujac bb",
+     "phones": "066 8888581",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10971,
+     "unit": "Flos 16",
+     "place": "Ruma",
+     "address": "Mačvanska broj 1",
+     "phones": "069 1022517",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10972,
+     "unit": "Flos 18",
+     "place": "Vladimirci",
+     "address": "Debrc bb",
+     "phones": "066 8885881",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10973,
+     "unit": "Flos 19",
+     "place": "Koceljeva",
+     "address": "Draginje bb",
+     "phones": "066 8885880",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10974,
+     "unit": "Flos 20",
+     "place": "Šabac",
+     "address": "Varna bb",
+     "phones": "069 1022518",
+     "hours": null,
+     "need": [
+      "address",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10975,
+     "unit": "Dr. Kosta Nikolić",
+     "place": "Šabac",
+     "address": "Vojislava Ilića broj 2",
+     "phones": "066 8888584",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10976,
+     "unit": "Vladimirci Flos",
+     "place": "Vladimirci",
+     "address": "Svetog Save broj 11",
+     "phones": "069 1022516",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10977,
+     "unit": "Flos 22",
+     "place": "Šabac",
+     "address": "Nikole Pašića broj 13",
+     "phones": "066 8885883",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10978,
+     "unit": "Aqua Flos",
+     "place": "Beograd",
+     "address": "Ismeta Mujezinovića broj 23",
+     "phones": "066 8884890",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10979,
+     "unit": "Flos 29",
+     "place": "Ruma",
+     "address": "Orlovićeva broj 29",
+     "phones": "066 8022591",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10980,
+     "unit": "Flos 23",
+     "place": "Sremska Mitrovica",
+     "address": "Ratarska broj 17",
+     "phones": "066 8022596",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10981,
+     "unit": "Flos 24",
+     "place": "Sremska Mitrovica",
+     "address": "Bul. A.Čarnijevića broj 16/8",
+     "phones": "066 8022594",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10982,
+     "unit": "Flos 27",
+     "place": "Ruma",
+     "address": "Glavna broj 129",
+     "phones": "066 8022595",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10983,
+     "unit": "Flos 25",
+     "place": "Sremska Mitrovica",
+     "address": "Petra Preradovića broj 123",
+     "phones": "066 8022597",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10984,
+     "unit": "Flos 26",
+     "place": "Sremska Mitrovica",
+     "address": "Kralja Petra broj 1",
+     "phones": "066 8022593",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10985,
+     "unit": "Flos 31",
+     "place": "Bogatić",
+     "address": "Mije Jovanovića broj 38",
+     "phones": "066 8888586",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10986,
+     "unit": "Flos 32",
+     "place": "Bogatić",
+     "address": "Pavla Orlovića broj 1",
+     "phones": "066 8888587",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10987,
+     "unit": "Flos 30",
+     "place": "Ruma",
+     "address": "JNA broj 162",
+     "phones": "066 8022710",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10988,
+     "unit": "Flos 33",
+     "place": "Kragujevac",
+     "address": "Kralja Milana IV broj 48",
+     "phones": "066 8022709",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10989,
+     "unit": "Flos 34",
+     "place": "Šabac",
+     "address": "Stefana Prvovenčanog broj 8",
+     "phones": "066 8888479",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10990,
+     "unit": "Flos 36",
+     "place": "Šabac",
+     "address": "Karađorđeva broj 27",
+     "phones": "066 8888746",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10991,
+     "unit": "Flos 35",
+     "place": "Beograd",
+     "address": "Venizelosova broj 29f",
+     "phones": "066 8888745",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10992,
+     "unit": "Flos 37",
+     "place": "Kragujevac",
+     "address": "Internacionalnih brigada broj 11",
+     "phones": "066 8888747",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10993,
+     "unit": "Flos 38",
+     "place": "Beograd",
+     "address": "Aleksandra Ace Simovića broj 3",
+     "phones": "066 8888286",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10994,
+     "unit": "Flos 39",
+     "place": "Beograd",
+     "address": "Nemanjina broj 5",
+     "phones": "066 8888283",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10995,
+     "unit": "Flos 40",
+     "place": "Beograd",
+     "address": "Cara Dušana broj 24a",
+     "phones": "066 8888284",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10996,
+     "unit": "Flos 41",
+     "place": "Beograd",
+     "address": "Karađorđeva broj 10",
+     "phones": "066 8888285",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10997,
+     "unit": "Flos 42",
+     "place": "Beograd",
+     "address": "Makedonska broj 16",
+     "phones": "066 8884891",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10998,
+     "unit": "Julifarm-Flos 43",
+     "place": "Šabac",
+     "address": "Prote Smiljanića broj 58",
+     "phones": "015 312082",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 10999,
+     "unit": "Thea-Flos 44",
+     "place": "Ruma",
+     "address": "Orlovićeva broj 50",
+     "phones": "066 8022592",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11000,
+     "unit": "Flos 45",
+     "place": "Beograd",
+     "address": "Gospodska broj 11",
+     "phones": "064 8091479",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    },
+    {
+     "location_id": 11001,
+     "unit": "Flos 46",
+     "place": "Beograd",
+     "address": "Obilićev venac broj 15",
+     "phones": "066 8388752",
+     "hours": null,
+     "need": [
+      "hours"
+     ]
+    }
+   ]
+  }
+ ],
+ "id": "net-apotekarska-ustanova-lekofarma-sabac"
+}

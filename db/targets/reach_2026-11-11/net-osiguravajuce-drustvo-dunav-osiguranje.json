@@ -1,0 +1,2829 @@
+{
+ "kind": "network",
+ "title": "Dunav osiguranje",
+ "type": "osiguravajuce-drustvo",
+ "orgs": [
+  {
+   "org_slug": "osiguravajuce-drustvo-dunav-osiguranje",
+   "name": "Dunav osiguranje",
+   "website": "https://www.dunav.com",
+   "rows": [
+    {
+     "location_id": 19799,
+     "unit": "Poslovnica",
+     "place": "Novi Sad",
+     "address": null,
+     "phones": "0800 386286",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 19998,
+     "unit": "Poslovnica",
+     "place": "Smederevo",
+     "address": null,
+     "phones": "026 672633",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20105,
+     "unit": "Poslovnica Bulevar kralja Aleksandra 316",
+     "place": "Zvezdara",
+     "address": "Bulevar kralja Aleksandra 316",
+     "phones": "011 2423912",
+     "hours": "08:00-18:00, subotom: 08:00-13:00",
+     "need": []
+    },
+    {
+     "location_id": 20237,
+     "unit": "Poslovnica",
+     "place": "Voždovac",
+     "address": null,
+     "phones": "011 3472233; 011 3470122",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 20407,
+     "unit": "Poslovnica",
+     "place": "Apatin",
+     "address": null,
+     "phones": null,
+     "hours": null,
+     "need": [
+      "address",
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 20518,
+     "unit": "Poslovnica Knjaza Miloša 117",
+     "place": "Aleksinac",
+     "address": "Knjaza Miloša 117",
+     "phones": "018 804414",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 21550,
+     "unit": "Poslovnica",
+     "place": "Subotica",
+     "address": null,
+     "phones": "024 553941",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 21784,
+     "unit": "Poslovnica Bulevar despota Stefana 64",
+     "place": "Palilula",
+     "address": "Bulevar despota Stefana 64",
+     "phones": "011 3292394",
+     "hours": "Mo-Fr 08:00-18:00; Sa 09:00-14:00",
+     "need": []
+    },
+    {
+     "location_id": 21821,
+     "unit": "Poslovnica Kralja Tvrtka prvog 1",
+     "place": "Sjenica",
+     "address": "Kralja Tvrtka prvog 1",
+     "phones": "020 741261",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 21915,
+     "unit": "Poslovnica",
+     "place": "Loznica",
+     "address": null,
+     "phones": "015 873021",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 21983,
+     "unit": "Poslovnica",
+     "place": "Stara Pazova",
+     "address": null,
+     "phones": "022 312652",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22019,
+     "unit": "Poslovnica",
+     "place": "Stari grad",
+     "address": null,
+     "phones": "011 3224754; 011 3227911",
+     "hours": "Mo-Fr 08:00-18:00; Sa 08:00-14:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22125,
+     "unit": "Poslovnica",
+     "place": "Palilula",
+     "address": null,
+     "phones": "011 3325863",
+     "hours": "Mo-Fr 09:00-18:00; Sa 09:00-14:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22154,
+     "unit": "Poslovnica Jurija Gagarina 22đ",
+     "place": "Novi Beograd",
+     "address": "Jurija Gagarina 22đ",
+     "phones": "011 6240224; 011 6241502; 011 2670099",
+     "hours": "Mo-Fr 08:30-18:30; Sa 09:00-14:00",
+     "need": []
+    },
+    {
+     "location_id": 22163,
+     "unit": "Poslovnica Magistratski trg 11",
+     "place": "Zemun",
+     "address": "Magistratski trg 11",
+     "phones": "011 2610281; 011 3160952",
+     "hours": "Mo-Fr 09:00-18:30; Sa 09:00-14:00",
+     "need": []
+    },
+    {
+     "location_id": 22204,
+     "unit": "Poslovnica Dobračina 1",
+     "place": "Stari grad",
+     "address": "Dobračina 1",
+     "phones": "011 2622979; 011 2637366; 011 2634846",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 22400,
+     "unit": "Poslovnica",
+     "place": "Vranje",
+     "address": null,
+     "phones": "017 423970; 017 421287",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22418,
+     "unit": "Poslovnica",
+     "place": "Vračar",
+     "address": null,
+     "phones": "011 3441725",
+     "hours": "Mo-Fr 08:00-16:00; Sa-Su off; PH off",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 22557,
+     "unit": "Poslovnica Jurija Gagarina 1a",
+     "place": "Novi Beograd",
+     "address": "Jurija Gagarina 1a",
+     "phones": "011 6555916",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 23029,
+     "unit": "Poslovnica",
+     "place": "Bela Palanka",
+     "address": null,
+     "phones": "018 855055",
+     "hours": "Mo-Fr 07:30-15:30",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23241,
+     "unit": "Poslovnica",
+     "place": "Medijana",
+     "address": null,
+     "phones": "018 248733",
+     "hours": "Mo-Fr 07:30-16:00; Sa 07:30-14:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23378,
+     "unit": "Poslovnica",
+     "place": "Ada",
+     "address": null,
+     "phones": "024 854181",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23379,
+     "unit": "Poslovnica",
+     "place": "Aleksandrovac",
+     "address": null,
+     "phones": "037 3552229",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23380,
+     "unit": "Poslovnica",
+     "place": "Alibunar",
+     "address": null,
+     "phones": "013 641040; 013 642040",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23382,
+     "unit": "Poslovnica",
+     "place": "Apatin",
+     "address": null,
+     "phones": "025 772433",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23383,
+     "unit": "Poslovnica",
+     "place": "Aranđelovac",
+     "address": null,
+     "phones": "034 713455",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23384,
+     "unit": "Poslovnica",
+     "place": "Arilje",
+     "address": null,
+     "phones": "031 3891191",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23385,
+     "unit": "Poslovnica",
+     "place": "Babušnica",
+     "address": null,
+     "phones": "010 385003",
+     "hours": "Mo-Fr 07:00-15:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23386,
+     "unit": "Poslovnica",
+     "place": "Bajina Bašta",
+     "address": null,
+     "phones": "031 865649",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23387,
+     "unit": "Poslovnica",
+     "place": "Batočina",
+     "address": null,
+     "phones": "034 6841087",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23388,
+     "unit": "Poslovnica Žarka Zrenjanina 80",
+     "place": "Bačka Palanka",
+     "address": "Žarka Zrenjanina 80",
+     "phones": "021 6043949",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 23389,
+     "unit": "Poslovnica",
+     "place": "Bačka Topola",
+     "address": null,
+     "phones": "024 715747",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23390,
+     "unit": "Poslovnica",
+     "place": "Bela Crkva",
+     "address": null,
+     "phones": "013 851401",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23391,
+     "unit": "Poslovnica Zorana Žunkovića 11",
+     "place": "Savski venac",
+     "address": "Zorana Žunkovića 11",
+     "phones": "011 7060000; 0800 386286",
+     "hours": "08:00 - 16:00",
+     "need": []
+    },
+    {
+     "location_id": 23392,
+     "unit": "Poslovnica Blagoja Parovića 19a",
+     "place": "Čukarica",
+     "address": "Blagoja Parovića 19a",
+     "phones": "011 3549166; 011 3549167",
+     "hours": "08:00-19:00; subotom: 08-13",
+     "need": []
+    },
+    {
+     "location_id": 23393,
+     "unit": "Poslovnica",
+     "place": "Novi Beograd",
+     "address": null,
+     "phones": "011 2608259; 011 2674883; 011 2606342; 011 2603952",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23394,
+     "unit": "Poslovnica",
+     "place": "Vračar",
+     "address": null,
+     "phones": "011 3837275; 011 3837351",
+     "hours": "Mo-Fr 09:00-18:30; Sa 09:00-14:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23395,
+     "unit": "Poslovnica",
+     "place": "Rakovica",
+     "address": null,
+     "phones": "011 2346922",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23396,
+     "unit": "Poslovnica",
+     "place": "Bečej",
+     "address": null,
+     "phones": "021 6916588",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23397,
+     "unit": "Poslovnica",
+     "place": "Blace",
+     "address": null,
+     "phones": "027 371150",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23398,
+     "unit": "Poslovnica",
+     "place": "Bogatić",
+     "address": null,
+     "phones": "015 7786421",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23399,
+     "unit": "Poslovnica Kralja Aleksandra 12",
+     "place": "Boljevac",
+     "address": "Kralja Aleksandra 12",
+     "phones": "030 463829",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 23400,
+     "unit": "Poslovnica",
+     "place": "Bor",
+     "address": null,
+     "phones": "030 442863; 030 442363",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23401,
+     "unit": "Poslovnica",
+     "place": "Brus",
+     "address": null,
+     "phones": "037 825281; 037 827110",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23402,
+     "unit": "Poslovnica Moravska 20",
+     "place": "Despotovac",
+     "address": "Moravska 20",
+     "phones": "035 611098; 035 613008",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 23403,
+     "unit": "Poslovnica Balkanska 6",
+     "place": "Dimitrovgrad",
+     "address": "Balkanska 6",
+     "phones": "010 363598",
+     "hours": "Mo-Fr 07:00-15:00",
+     "need": []
+    },
+    {
+     "location_id": 23404,
+     "unit": "Poslovnica",
+     "place": "Gornji Milanovac",
+     "address": null,
+     "phones": "032 720185",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23405,
+     "unit": "Poslovnica",
+     "place": "Grocka",
+     "address": null,
+     "phones": "011 8501483",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23406,
+     "unit": "Poslovnica",
+     "place": "Lučani",
+     "address": null,
+     "phones": "032 854230",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23407,
+     "unit": "Poslovnica",
+     "place": "Golubac",
+     "address": null,
+     "phones": "012 678502",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23408,
+     "unit": "Poslovnica",
+     "place": "Inđija",
+     "address": null,
+     "phones": "022 561238",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23409,
+     "unit": "Poslovnica Perse Rajević 5",
+     "place": "Ivanjica",
+     "address": "Perse Rajević 5",
+     "phones": "032 660170; 032 661018",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 23410,
+     "unit": "Poslovnica",
+     "place": "Jagodina",
+     "address": null,
+     "phones": "035 8221070",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23411,
+     "unit": "Poslovnica",
+     "place": "Kanjiža",
+     "address": null,
+     "phones": "024 4873034",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23412,
+     "unit": "Poslovnica Svetosavska 26",
+     "place": "Kikinda",
+     "address": "Svetosavska 26",
+     "phones": "0230 439393; 0230 439199",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 23413,
+     "unit": "Poslovnica",
+     "place": "Kladovo",
+     "address": null,
+     "phones": "019 801426",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23414,
+     "unit": "Poslovnica Vojvode Stevana Knićanina 109",
+     "place": "Knić",
+     "address": "Vojvode Stevana Knićanina 109",
+     "phones": "034 510177",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 23415,
+     "unit": "Poslovnica",
+     "place": "Knjaževac",
+     "address": null,
+     "phones": "019 730265; 019 731501",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23416,
+     "unit": "Poslovnica",
+     "place": "Koceljeva",
+     "address": null,
+     "phones": "015 556864",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23417,
+     "unit": "Poslovnica Radiše Petronijevića",
+     "place": "Kosjerić",
+     "address": "Radiše Petronijevića",
+     "phones": "031 781330; 031 781529",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23418,
+     "unit": "Poslovnica",
+     "place": "Kostolac",
+     "address": null,
+     "phones": "012 241873",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23419,
+     "unit": "Poslovnica",
+     "place": "Kovačica",
+     "address": null,
+     "phones": "013 661904; 013 661058",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23420,
+     "unit": "Poslovnica",
+     "place": "Kovin",
+     "address": null,
+     "phones": "013 742219",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23421,
+     "unit": "Poslovnica Oktobarskih žrtava 14",
+     "place": "Kraljevo",
+     "address": "Oktobarskih žrtava 14",
+     "phones": "036 334366; 036 314301; 036 334985",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 23422,
+     "unit": "Poslovnica",
+     "place": "Krupanj",
+     "address": null,
+     "phones": "015 581351",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23423,
+     "unit": "Poslovnica Trg fontana 4",
+     "place": "Kruševac",
+     "address": "Trg fontana 4",
+     "phones": "037 415100",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 23424,
+     "unit": "Poslovnica",
+     "place": "Kula",
+     "address": null,
+     "phones": "025 726844",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23425,
+     "unit": "Poslovnica Palih boraca 27",
+     "place": "Kuršumlija",
+     "address": "Palih boraca 27",
+     "phones": "027 381657",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 23426,
+     "unit": "Poslovnica Trg Veljka Dugoševića 4",
+     "place": "Kučevo",
+     "address": "Trg Veljka Dugoševića 4",
+     "phones": "012 852277",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 23427,
+     "unit": "Poslovnica",
+     "place": "Lajkovac",
+     "address": null,
+     "phones": "014 3431005",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23428,
+     "unit": "Poslovnica",
+     "place": "Lapovo",
+     "address": null,
+     "phones": "034 6852745",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23429,
+     "unit": "Poslovnica",
+     "place": "Lazarevac",
+     "address": null,
+     "phones": "011 8126226; 011 8121873",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23430,
+     "unit": "Poslovnica Karađorđeva 39",
+     "place": "Lazarevac",
+     "address": "Karađorđeva 39",
+     "phones": "011 8123282; 011 8123151",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 23431,
+     "unit": "Poslovnica",
+     "place": "Lebane",
+     "address": null,
+     "phones": "016 843908",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23432,
+     "unit": "Poslovnica",
+     "place": "Ljig",
+     "address": null,
+     "phones": "014 3445171",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23433,
+     "unit": "Poslovnica",
+     "place": "Ljubovija",
+     "address": null,
+     "phones": "015 561226",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23434,
+     "unit": "Poslovnica",
+     "place": "Lučani",
+     "address": null,
+     "phones": "032 818080",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23435,
+     "unit": "Poslovnica 28. marta 6",
+     "place": "Majdanpek",
+     "address": "28. marta 6",
+     "phones": "030 582236",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 23436,
+     "unit": "Poslovnica",
+     "place": "Mionica",
+     "address": null,
+     "phones": "014 3421600",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23437,
+     "unit": "Poslovnica Kralja Petra prvog 233",
+     "place": "Mladenovac",
+     "address": "Kralja Petra prvog 233",
+     "phones": "011 8231264; 011 8230260",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 23438,
+     "unit": "Poslovnica",
+     "place": "Negotin",
+     "address": null,
+     "phones": "019 542128",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23439,
+     "unit": "Poslovnica",
+     "place": "Nova Varoš",
+     "address": null,
+     "phones": "033 61342",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23440,
+     "unit": "Poslovnica Stevana Nemanje 89g",
+     "place": "Novi Pazar",
+     "address": "Stevana Nemanje 89g",
+     "phones": "020 312994",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 23441,
+     "unit": "Poslovnica",
+     "place": "Novi Sad",
+     "address": null,
+     "phones": "021 6736766; 021 445922; 021 4770128",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23442,
+     "unit": "Poslovnica",
+     "place": "Obrenovac",
+     "address": null,
+     "phones": "011 8721237; 011 8723660; 011 8726071",
+     "hours": "Mo-Fr 08:00-18:00; Sa 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23443,
+     "unit": "Poslovnica",
+     "place": "Odžaci",
+     "address": null,
+     "phones": "025 5743998",
+     "hours": "Mo-Fr 07:00-15:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23444,
+     "unit": "Poslovnica",
+     "place": "Opovo",
+     "address": null,
+     "phones": "013 681073",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23445,
+     "unit": "Poslovnica",
+     "place": "Osečina",
+     "address": null,
+     "phones": "014 51445; 014 3451475",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23446,
+     "unit": "Poslovnica",
+     "place": "Pančevo",
+     "address": null,
+     "phones": "013 315776",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23447,
+     "unit": "Poslovnica Svetolika Marjanovića Belca 1a",
+     "place": "Paraćin",
+     "address": "Svetolika Marjanovića Belca 1a",
+     "phones": "035 563467",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 23448,
+     "unit": "Poslovnica Bate Bulića 45",
+     "place": "Petrovac na Mlavi",
+     "address": "Bate Bulića 45",
+     "phones": "012 331364",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 23449,
+     "unit": "Poslovnica",
+     "place": "Pirot",
+     "address": null,
+     "phones": "010 311277; 010 343256",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23450,
+     "unit": "Poslovnica",
+     "place": "Požarevac",
+     "address": null,
+     "phones": "012 539400",
+     "hours": "Mo-Fr 08:00-16:00; Sa 08:00-13:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23451,
+     "unit": "Poslovnica",
+     "place": "Požega",
+     "address": null,
+     "phones": "031 811529; 031 811350",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23452,
+     "unit": "Poslovnica Nemanjina 64",
+     "place": "Priboj",
+     "address": "Nemanjina 64",
+     "phones": "033 453684",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 23453,
+     "unit": "Poslovnica",
+     "place": "Prijepolje",
+     "address": null,
+     "phones": "033 712193; 033 712163",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23454,
+     "unit": "Poslovnica",
+     "place": "Prokuplje",
+     "address": null,
+     "phones": "027 321400; 027 321975; 027 321178",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23455,
+     "unit": "Poslovnica Karađorđeva 71",
+     "place": "Rača",
+     "address": "Karađorđeva 71",
+     "phones": "034 751227",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 23456,
+     "unit": "Poslovnica",
+     "place": "Raška",
+     "address": null,
+     "phones": "036 736276",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23457,
+     "unit": "Poslovnica Trg Svetog Save 23",
+     "place": "Ražanj",
+     "address": "Trg Svetog Save 23",
+     "phones": "037 3840170",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 23458,
+     "unit": "Poslovnica",
+     "place": "Rekovac",
+     "address": null,
+     "phones": "035 8710040; 035 8710041",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23459,
+     "unit": "Poslovnica",
+     "place": "Ruma",
+     "address": null,
+     "phones": "022 2100179",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23460,
+     "unit": "Poslovnica",
+     "place": "Ruma",
+     "address": null,
+     "phones": "022 472922",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23461,
+     "unit": "Poslovnica",
+     "place": "Bač",
+     "address": null,
+     "phones": "021 774637",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23462,
+     "unit": "Poslovnica",
+     "place": "Senta",
+     "address": null,
+     "phones": "024 813298",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23463,
+     "unit": "Poslovnica",
+     "place": "Sečanj",
+     "address": null,
+     "phones": "011 6555916",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23464,
+     "unit": "Poslovnica",
+     "place": "Smederevska Palanka",
+     "address": null,
+     "phones": "026 317837",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23465,
+     "unit": "Poslovnica 27. marta 23",
+     "place": "Sokobanja",
+     "address": "27. marta 23",
+     "phones": "018 880040",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 23466,
+     "unit": "Poslovnica Avrama Mrazovića 3",
+     "place": "Sombor",
+     "address": "Avrama Mrazovića 3",
+     "phones": "025 464100",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 23467,
+     "unit": "Poslovnica",
+     "place": "Sopot",
+     "address": null,
+     "phones": "011 2834199",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23468,
+     "unit": "Poslovnica",
+     "place": "Sremska Mitrovica",
+     "address": null,
+     "phones": "022 610315",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23469,
+     "unit": "Poslovnica",
+     "place": "Surčin",
+     "address": null,
+     "phones": "011 8440031",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23470,
+     "unit": "Poslovnica",
+     "place": "Svilajnac",
+     "address": null,
+     "phones": "035 312410",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23471,
+     "unit": "Poslovnica",
+     "place": "Svrljig",
+     "address": null,
+     "phones": "018 821005",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23472,
+     "unit": "Poslovnica",
+     "place": "Temerin",
+     "address": null,
+     "phones": "021 3847724",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23473,
+     "unit": "Poslovnica",
+     "place": "Titel",
+     "address": null,
+     "phones": "021 2962175",
+     "hours": "Mo-Fr 07:00-15:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23474,
+     "unit": "Poslovnica",
+     "place": "Topola",
+     "address": null,
+     "phones": "034 6814331",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23475,
+     "unit": "Poslovnica",
+     "place": "Trstenik",
+     "address": null,
+     "phones": "037 711787",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23476,
+     "unit": "Poslovnica",
+     "place": "Ub",
+     "address": null,
+     "phones": "014 411309; 014 411695",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23477,
+     "unit": "Poslovnica",
+     "place": "Valjevo",
+     "address": null,
+     "phones": "014 221065; 014 221045",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23478,
+     "unit": "Poslovnica",
+     "place": "Varvarin",
+     "address": null,
+     "phones": "037 788423",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23479,
+     "unit": "Poslovnica",
+     "place": "Velika Plana",
+     "address": null,
+     "phones": "026 516416",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23480,
+     "unit": "Poslovnica",
+     "place": "Veliko Gradište",
+     "address": null,
+     "phones": "012 662909",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23481,
+     "unit": "Poslovnica",
+     "place": "Vladičin Han",
+     "address": null,
+     "phones": "017 472193",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23482,
+     "unit": "Poslovnica Dušanova 7",
+     "place": "Vlasotince",
+     "address": "Dušanova 7",
+     "phones": "016 234720",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 23483,
+     "unit": "Poslovnica Maršala Tita 105",
+     "place": "Vrbas",
+     "address": "Maršala Tita 105",
+     "phones": "021 704816",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 23484,
+     "unit": "Poslovnica",
+     "place": "Vrnjačka Banja",
+     "address": null,
+     "phones": "036 611114; 036 640740",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23485,
+     "unit": "Poslovnica",
+     "place": "Vršac",
+     "address": null,
+     "phones": "013 832256",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23486,
+     "unit": "Poslovnica",
+     "place": "Zaječar",
+     "address": null,
+     "phones": "019 423322",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23487,
+     "unit": "Poslovnica",
+     "place": "Zrenjanin",
+     "address": null,
+     "phones": "023 511515",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23488,
+     "unit": "Poslovnica",
+     "place": "Ćićevac",
+     "address": null,
+     "phones": "037 811374",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23489,
+     "unit": "Poslovnica",
+     "place": "Ćuprija",
+     "address": null,
+     "phones": "035 8870845; 035 8870846",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23490,
+     "unit": "Poslovnica",
+     "place": "Čajetina",
+     "address": null,
+     "phones": "031 3831331",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23491,
+     "unit": "Poslovnica Skadarska 15",
+     "place": "Čačak",
+     "address": "Skadarska 15",
+     "phones": "032 302500",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 23492,
+     "unit": "Poslovnica",
+     "place": "Čoka",
+     "address": null,
+     "phones": "0230 471119",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23493,
+     "unit": "Poslovnica Kneza Miloša 2",
+     "place": "Šabac",
+     "address": "Kneza Miloša 2",
+     "phones": "015 346331",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 23494,
+     "unit": "Poslovnica",
+     "place": "Šid",
+     "address": null,
+     "phones": "022 712550",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23495,
+     "unit": "Poslovnica Kneza Miloša 56",
+     "place": "Žabari",
+     "address": "Kneza Miloša 56",
+     "phones": "012 250187",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 23496,
+     "unit": "Poslovnica Trg Jovana Šerbanovića 1",
+     "place": "Žagubica",
+     "address": "Trg Jovana Šerbanovića 1",
+     "phones": "012 643117",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 23497,
+     "unit": "Poslovnica",
+     "place": "Žitište",
+     "address": null,
+     "phones": "023 3821130",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 23657,
+     "unit": "Poslovnica",
+     "place": "Kragujevac",
+     "address": null,
+     "phones": "034 335663",
+     "hours": "Mo-Fr 08:00-16:00; Sa 08:00-13:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 24004,
+     "unit": "Poslovnica Moše Pijade 12",
+     "place": "Leskovac",
+     "address": "Moše Pijade 12",
+     "phones": "016 250335; 016 241160; 016 254991",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 24021,
+     "unit": "Poslovnica Brigadira Ristića 6",
+     "place": "Zrenjanin",
+     "address": "Brigadira Ristića 6",
+     "phones": null,
+     "hours": null,
+     "need": [
+      "phones",
+      "hours"
+     ]
+    },
+    {
+     "location_id": 24181,
+     "unit": "Poslovnica",
+     "place": "Užice",
+     "address": null,
+     "phones": "031 517133",
+     "hours": "Mo-Fr 08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 26921,
+     "unit": "Dunav osiguranje Ada",
+     "place": "Ada",
+     "address": "Maršala Tita br. 1",
+     "phones": "024 854181",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26922,
+     "unit": "Dunav osiguranje Aleksandrovac",
+     "place": "Aleksandrovac",
+     "address": "29 novembar 69",
+     "phones": "037 3552229",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26923,
+     "unit": "Dunav osiguranje Aleksinac",
+     "place": "Aleksinac",
+     "address": "Knjaza Miloša br. 117",
+     "phones": "018 804414",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26924,
+     "unit": "Dunav osiguranje Alibunar",
+     "place": "Alibunar",
+     "address": "Trg Slobode br. 16",
+     "phones": "013 641040; 013 642040",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26925,
+     "unit": "Dunav osiguranje Apatin",
+     "place": "Apatin",
+     "address": "Trg Nikole Tesle 6",
+     "phones": "025 772433",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26926,
+     "unit": "Dunav osiguranje Aranđelovac",
+     "place": "Aranđelovac",
+     "address": "Kneza Miloša br. 212",
+     "phones": "034 713455",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26927,
+     "unit": "Dunav osiguranje Arilje",
+     "place": "Arilje",
+     "address": "Vojvode Stepe br.4",
+     "phones": "031 3891191",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26928,
+     "unit": "Dunav osiguranje Babušnica",
+     "place": "Babušnica",
+     "address": "S. Draginac 41b",
+     "phones": "010 385003",
+     "hours": "07:00-15:00",
+     "need": []
+    },
+    {
+     "location_id": 26929,
+     "unit": "Dunav osiguranje Bajina Bašta",
+     "place": "Bajina Bašta",
+     "address": "Svetosavska 19",
+     "phones": "031 865649",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26930,
+     "unit": "Dunav osiguranje Batočina",
+     "place": "Batočina",
+     "address": "Kralja Petra I 84",
+     "phones": "034 6841087",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26931,
+     "unit": "Dunav osiguranje Bačka Palanka",
+     "place": "Bačka Palanka",
+     "address": "Žarka Zrenjanina br. 80",
+     "phones": "021 6043949",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26932,
+     "unit": "Dunav osiguranje Bačka Topola",
+     "place": "Bačka Topola",
+     "address": "Maršala Tita br. 47",
+     "phones": "024 715747",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26933,
+     "unit": "Dunav osiguranje Bela crkva",
+     "place": "Bela Crkva",
+     "address": "1. Oktobar br.49",
+     "phones": "013 851401",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26934,
+     "unit": "Dunav osiguranje Bela palanka",
+     "place": "Bela Palanka",
+     "address": "Srpskih vladara br.60",
+     "phones": "018 855055",
+     "hours": "07:30-15:30",
+     "need": []
+    },
+    {
+     "location_id": 26935,
+     "unit": "Dunav osiguranje Beograd",
+     "place": "Beograd",
+     "address": "Makedonska 32",
+     "phones": "011 3224754; 011 3227911",
+     "hours": "08:00-16:00; subotom: 08:00-14:00",
+     "need": []
+    },
+    {
+     "location_id": 26936,
+     "unit": "Dunav osiguranje Beograd",
+     "place": "Beograd",
+     "address": "Zorana Žunkovića 11",
+     "phones": "011 7060000",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26937,
+     "unit": "Dunav osiguranje Beograd",
+     "place": "Beograd",
+     "address": "Bulevar despota Stefana 62",
+     "phones": "011 3292394",
+     "hours": "08:00-18:00; subotom: 09:00-14:00",
+     "need": []
+    },
+    {
+     "location_id": 26938,
+     "unit": "Dunav osiguranje Beograd - Osiguranje imovine pravnih lica",
+     "place": "Beograd",
+     "address": "Bulevar Kralja Aleksandra br 18",
+     "phones": "011 2637366",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26939,
+     "unit": "Dunav osiguranje Beograd",
+     "place": "Beograd",
+     "address": "Bulevar maršala Tolbuhina 46",
+     "phones": "011 2608259",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26940,
+     "unit": "Dunav osiguranje Beograd - Odeljenje interne prodaje GFO Beograd 1",
+     "place": "Beograd",
+     "address": "Bulevar maršala Tolbuhina 46",
+     "phones": "011 2603952",
+     "hours": "08:00 -16:00",
+     "need": []
+    },
+    {
+     "location_id": 26941,
+     "unit": "Dunav osiguranje Beograd - Prodaja polisa",
+     "place": "Beograd",
+     "address": "Ustanička br.128",
+     "phones": "011 3472233; 011 3470122; 0800 386286",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26942,
+     "unit": "Dunav osiguranje Beograd",
+     "place": "Beograd",
+     "address": "Magistratski trg br.11",
+     "phones": "011 2610281; 011 3160952",
+     "hours": "09:00-18:30; subotom 09-14",
+     "need": []
+    },
+    {
+     "location_id": 26943,
+     "unit": "Dunav osiguranje Beograd",
+     "place": "Beograd",
+     "address": "Makenzijeva br.65",
+     "phones": "0800 386286",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26944,
+     "unit": "Dunav osiguranje Beograd",
+     "place": "Beograd",
+     "address": "Cara Nikolaja 69",
+     "phones": "011 3837275; 011 3837351",
+     "hours": "09:00-18:30; subotom 09-14",
+     "need": []
+    },
+    {
+     "location_id": 26945,
+     "unit": "Dunav osiguranje Beograd",
+     "place": "Beograd",
+     "address": "Zorana Žunkovića 11",
+     "phones": "011 7060414",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26946,
+     "unit": "Dunav osiguranje Beograd - Služba za naknadu šteta motornih vozila Košum; Služba za naknadu šteta sa elementom inostrano",
+     "place": "Beograd",
+     "address": "Ustanička 128",
+     "phones": "0800 386286",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26947,
+     "unit": "Dunav osiguranje Beograd - Sektor za naknadu šteta životnih i zdravstvenih osiguranja",
+     "place": "Beograd",
+     "address": "Makenzijeva 65",
+     "phones": "0800 386286",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26948,
+     "unit": "Dunav osiguranje Beograd",
+     "place": "Beograd",
+     "address": "Patrijarha Joanikija 28b",
+     "phones": "011 2346922",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26949,
+     "unit": "Dunav osiguranje Beograd - Sektor za podršku, Direkcija za naknadu šteta",
+     "place": "Beograd",
+     "address": "Novi Beograd, Bulevar Maršala Tolbuhina 46/II",
+     "phones": "011 2690436",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26950,
+     "unit": "Dunav osiguranje Beograd",
+     "place": "Beograd",
+     "address": "Bulevar maršala Tolbuhina 46",
+     "phones": "011 2670099",
+     "hours": "08:30-18:30; subota 09:00-14:00",
+     "need": []
+    },
+    {
+     "location_id": 26951,
+     "unit": "Dunav osiguranje Bečej",
+     "place": "Bečej",
+     "address": "Novosadska 1",
+     "phones": "021 6916588",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26952,
+     "unit": "Dunav osiguranje Blace",
+     "place": "Blace",
+     "address": "Vuka Karadžića bb",
+     "phones": "027 371150",
+     "hours": "08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 26953,
+     "unit": "Dunav osiguranje Bogatić",
+     "place": "Bogatić",
+     "address": "Pavla Orlovića br. 22",
+     "phones": "015 7786421",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26954,
+     "unit": "Dunav osiguranje Boljevac",
+     "place": "Boljevac",
+     "address": "Kralja Aleksandra I br. 12/1",
+     "phones": "030 463829",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26955,
+     "unit": "Dunav osiguranje Bor",
+     "place": "Bor",
+     "address": "Nikole Pašica br. 58",
+     "phones": "030 442863; 030 442363",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26956,
+     "unit": "Dunav osiguranje Borča",
+     "place": "Palilula",
+     "address": "Bratstva i Jedinstva 2",
+     "phones": "011 3325863",
+     "hours": "09:00-18:00; subotom: 09:00-14:00",
+     "need": []
+    },
+    {
+     "location_id": 26957,
+     "unit": "Dunav osiguranje Brus",
+     "place": "Brus",
+     "address": "Kralja Petra I bb",
+     "phones": "037 825281; 037 827110",
+     "hours": "08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 26958,
+     "unit": "Dunav osiguranje Bujanovac",
+     "place": "Bujanovac",
+     "address": "Karađorđa Petrovića, Tržni centar Balkan lok.br. 1",
+     "phones": "017 850150",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26959,
+     "unit": "Dunav osiguranje Despotovac",
+     "place": "Despotovac",
+     "address": "Moravska br. 20",
+     "phones": "035 611098; 035 613008",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26960,
+     "unit": "Dunav osiguranje Dimitrovgrad",
+     "place": "Dimitrovgrad",
+     "address": "Balkasnka br. 6",
+     "phones": "010 363598",
+     "hours": "07:00-15:00",
+     "need": []
+    },
+    {
+     "location_id": 26961,
+     "unit": "Dunav osiguranje Gornji Milanovac",
+     "place": "Gornji Milanovac",
+     "address": "Kneza Aleksandra 33",
+     "phones": "032 720185",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26962,
+     "unit": "Dunav osiguranje Grocka",
+     "place": "Grocka",
+     "address": "Bulevar Oslobođenja 55a",
+     "phones": "011 8501483",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26963,
+     "unit": "Dunav osiguranje Guča",
+     "place": "Lučani",
+     "address": "Republike br.62",
+     "phones": "032 854230",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26964,
+     "unit": "Dunav osiguranje Golubac",
+     "place": "Golubac",
+     "address": "Golubački Trg 1",
+     "phones": "012 678502",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26965,
+     "unit": "Dunav osiguranje Inđija",
+     "place": "Inđija",
+     "address": "Vojvode Stepe br. 8",
+     "phones": "022 561238",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26966,
+     "unit": "Dunav osiguranje Ivanjica",
+     "place": "Ivanjica",
+     "address": "Perse Rajević br. 2",
+     "phones": "032 660170; 032 661018",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26967,
+     "unit": "Dunav osiguranje Jagodina",
+     "place": "Jagodina",
+     "address": "Knjeginje Milice br. 24",
+     "phones": "035 8221070",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26968,
+     "unit": "Dunav osiguranje Kanjiža",
+     "place": "Kanjiža",
+     "address": "Glavna br. 4",
+     "phones": "024 4873034",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26969,
+     "unit": "Dunav osiguranje Kikinda",
+     "place": "Kikinda",
+     "address": "Svetosavska br. 26",
+     "phones": "0230 439393; 0230 439199",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26970,
+     "unit": "Dunav osiguranje Kladovo",
+     "place": "Kladovo",
+     "address": "22. Septembar br. 18",
+     "phones": "019 801426",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26971,
+     "unit": "Dunav osiguranje Knić",
+     "place": "Knić",
+     "address": "Glavna bb",
+     "phones": "034 510177",
+     "hours": "08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 26972,
+     "unit": "Dunav osiguranje Knjaževac",
+     "place": "Knjaževac",
+     "address": "Cara Dušana br. 31",
+     "phones": "019 730265; 019 731501",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26973,
+     "unit": "Dunav osiguranje Koceljeva",
+     "place": "Koceljeva",
+     "address": "Nemanjina br.111",
+     "phones": "015 556864",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26974,
+     "unit": "Dunav osiguranje Kosjerić",
+     "place": "Kosjerić",
+     "address": "Radiše Petronijevića bb",
+     "phones": "031 781330; 031 781529",
+     "hours": "08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 26975,
+     "unit": "Dunav osiguranje Kostolac",
+     "place": "Kostolac",
+     "address": "Trg Bratstva i jedinstva br. 9",
+     "phones": "012 241873",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26976,
+     "unit": "Dunav osiguranje Kovačica",
+     "place": "Kovačica",
+     "address": "Masarikova br. 65",
+     "phones": "013 661904; 013 661058",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26977,
+     "unit": "Dunav osiguranje Kovin",
+     "place": "Kovin",
+     "address": "JNA br. 2",
+     "phones": "013 742219",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26978,
+     "unit": "Dunav osiguranje Kragujevac",
+     "place": "Kragujevac",
+     "address": "Branka Radičevića br. 3",
+     "phones": "034 335663",
+     "hours": "08:00-16:00; šalteri do 18:00; subotom: 08:00-13:00",
+     "need": []
+    },
+    {
+     "location_id": 26979,
+     "unit": "Dunav osiguranje Kraljevo",
+     "place": "Kraljevo",
+     "address": "Oktobarskih žrtava br. 14",
+     "phones": "036 334366; 036 314301; 036 334985",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26980,
+     "unit": "Dunav osiguranje Krupanj",
+     "place": "Krupanj",
+     "address": "4 Juli br. 2",
+     "phones": "015 581351",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26981,
+     "unit": "Dunav osiguranje Kruševac",
+     "place": "Kruševac",
+     "address": "Trg Fontana br. 4",
+     "phones": "037 415100",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26982,
+     "unit": "Dunav osiguranje Kula",
+     "place": "Kula",
+     "address": "Lenjinova br. 27",
+     "phones": "025 726844",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26983,
+     "unit": "Dunav osiguranje Kuršumlija",
+     "place": "Kuršumlija",
+     "address": "Palih boraca br. 27",
+     "phones": "027 381657",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26984,
+     "unit": "Dunav osiguranje Kučevo",
+     "place": "Kučevo",
+     "address": "Veljka Dugoševića br. 4",
+     "phones": "012 852277",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26985,
+     "unit": "Dunav osiguranje Lajkovac",
+     "place": "Lajkovac",
+     "address": "Vladike Nikolaja Velimirovića br. 5",
+     "phones": "014 3431005",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26986,
+     "unit": "Dunav osiguranje Lapovo",
+     "place": "Lapovo",
+     "address": "Njegoševa br.5",
+     "phones": "034 6852745",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26987,
+     "unit": "Dunav osiguranje Lazarevac",
+     "place": "Lazarevac",
+     "address": "Karađorđeva br. 39",
+     "phones": "011 8123282; 011 8123151",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26988,
+     "unit": "Dunav osiguranje Lazarevac",
+     "place": "Lazarevac",
+     "address": "Kralja Petra br. 25",
+     "phones": "011 8126226; 011 8121873",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26989,
+     "unit": "Dunav osiguranje Lebane",
+     "place": "Lebane",
+     "address": "Cara Dušana bb",
+     "phones": "016 843908",
+     "hours": "08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 26990,
+     "unit": "Dunav osiguranje Leskovac",
+     "place": "Leskovac",
+     "address": "Moše Pijade br. 12",
+     "phones": "016 250335; 016 241160; 016 254991",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26991,
+     "unit": "Dunav osiguranje Ljig",
+     "place": "Ljig",
+     "address": "Vojvode Mišića bb",
+     "phones": "014 3445171; 017 822715",
+     "hours": "08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 26992,
+     "unit": "Dunav osiguranje Ljubovija",
+     "place": "Ljubovija",
+     "address": "Karađorđeva br. 12",
+     "phones": "015 561226",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26993,
+     "unit": "Dunav osiguranje Loznica",
+     "place": "Loznica",
+     "address": "Kneza Miloša br. 3",
+     "phones": "015 873021",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26994,
+     "unit": "Dunav osiguranje Lučani",
+     "place": "Lučani",
+     "address": "Jugoslovenske Armije br.13",
+     "phones": "032 818080",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26995,
+     "unit": "Dunav osiguranje Majdanpek",
+     "place": "Majdanpek",
+     "address": "28. Mart br. 6",
+     "phones": "030 582236",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26996,
+     "unit": "Dunav osiguranje Mionica",
+     "place": "Mionica",
+     "address": "Jove Aleksića br. 12",
+     "phones": "014 3421600",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26997,
+     "unit": "Dunav osiguranje Mladenovac",
+     "place": "Mladenovac",
+     "address": "Kralja Petra I br. 233",
+     "phones": "011 8231264; 011 8230260",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26998,
+     "unit": "Dunav osiguranje Negotin",
+     "place": "Negotin",
+     "address": "Vojvode Mišića 9",
+     "phones": "019 542128",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 26999,
+     "unit": "Dunav osiguranje Niš",
+     "place": "Niš",
+     "address": "Nikole Pašića br. 32a",
+     "phones": "018 248733",
+     "hours": "07:30-16:00; šalteri do 19:30; subotom: 07:30-14:00",
+     "need": []
+    },
+    {
+     "location_id": 27000,
+     "unit": "Dunav osiguranje Nova Varoš",
+     "place": "Nova Varoš",
+     "address": "Svetog Save 78",
+     "phones": null,
+     "hours": "08:00-16:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 27001,
+     "unit": "Dunav osiguranje Novi Sad - Prodaja",
+     "place": "Novi Sad",
+     "address": "Danila Kiša br. 3",
+     "phones": "021 6736766; 021 445922; 021 4770128",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27002,
+     "unit": "Dunav osiguranje Novi Sad",
+     "place": "Novi Sad",
+     "address": "Bulevar Oslobođenja br. 3",
+     "phones": "021 2101500",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27003,
+     "unit": "Dunav osiguranje Obrenovac",
+     "place": "Obrenovac",
+     "address": "Karađorđeva br. 17",
+     "phones": "011 8721237; 011 8723660; 011 8726071",
+     "hours": "08:00-18:00, subotom 09:00-13:00 prodaja; 08:00-16:00 prijem odštetnih zahteva",
+     "need": []
+    },
+    {
+     "location_id": 27004,
+     "unit": "Dunav osiguranje Odžaci",
+     "place": "Odžaci",
+     "address": "Železnička br. 22a",
+     "phones": "025 5743998",
+     "hours": "07:00-15:00",
+     "need": []
+    },
+    {
+     "location_id": 27005,
+     "unit": "Dunav osiguranje Opovo",
+     "place": "Opovo",
+     "address": "Borisa Kidriča br. 9",
+     "phones": "013 681073",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27006,
+     "unit": "Dunav osiguranje Osečina",
+     "place": "Osečina",
+     "address": "Karađorđeva br. 112",
+     "phones": "014 3451475",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27007,
+     "unit": "Dunav osiguranje Pančevo",
+     "place": "Pančevo",
+     "address": "Masarikova br. 4",
+     "phones": "013 315776",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27008,
+     "unit": "Dunav osiguranje Paraćin",
+     "place": "Paraćin",
+     "address": "Belčeva bb",
+     "phones": "035 563467",
+     "hours": "08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 27009,
+     "unit": "Dunav osiguranje Pirot",
+     "place": "Pirot",
+     "address": "Ćirila i Metodija br. 1",
+     "phones": "010 311277; 010 343256",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27010,
+     "unit": "Dunav osiguranje Požarevac",
+     "place": "Požarevac",
+     "address": "Lole Ribara br. 9",
+     "phones": "012 539400",
+     "hours": "08:00-16:00 08:00-13:00 subota prodaja",
+     "need": []
+    },
+    {
+     "location_id": 27011,
+     "unit": "Dunav osiguranje Požega",
+     "place": "Požega",
+     "address": "Nikole Pašića br. 2",
+     "phones": "031 811529; 031 811350",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27012,
+     "unit": "Dunav osiguranje Priboj",
+     "place": "Priboj",
+     "address": "Nemanjina br. 64",
+     "phones": "033 453684",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27013,
+     "unit": "Dunav osiguranje Prijepolje",
+     "place": "Prijepolje",
+     "address": "Vladimira Perića Valtera 171",
+     "phones": "033 712193; 033 712163",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27014,
+     "unit": "Dunav osiguranje Prokuplje",
+     "place": "Prokuplje",
+     "address": "Ratka Pavlovića br. 2",
+     "phones": "027 321400; 027 321975; 027 321178",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27015,
+     "unit": "Dunav osiguranje Rača",
+     "place": "Rača",
+     "address": "Karađorđeva br. 71",
+     "phones": "034 751227",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27016,
+     "unit": "Dunav osiguranje Rekovac",
+     "place": "Rekovac",
+     "address": "Kralja Petra Prvog br. 36",
+     "phones": "035 8710040; 035 8710041",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27017,
+     "unit": "Dunav osiguranje Ruma",
+     "place": "Ruma",
+     "address": "Veljka Dugoševića br. 92",
+     "phones": "022 2100179",
+     "hours": "08:00- 16:00",
+     "need": []
+    },
+    {
+     "location_id": 27018,
+     "unit": "Dunav osiguranje Ruma",
+     "place": "Ruma",
+     "address": "Orlovićeva br. 2",
+     "phones": "022 472922",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27019,
+     "unit": "Dunav osiguranje Selenča",
+     "place": "Bač",
+     "address": "Maršala Tira br 106",
+     "phones": "021 774637",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27020,
+     "unit": "Dunav osiguranje Senta",
+     "place": "Senta",
+     "address": "Glavni trg br. 1",
+     "phones": "024 813298",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27021,
+     "unit": "Dunav osiguranje Sečanj",
+     "place": "Sečanj",
+     "address": "Partizanski put br. 46",
+     "phones": null,
+     "hours": "08:00-16:00",
+     "need": [
+      "phones"
+     ]
+    },
+    {
+     "location_id": 27022,
+     "unit": "Dunav osiguranje Sjenica",
+     "place": "Sjenica",
+     "address": "Trg Svetozara Markovića bb",
+     "phones": "020 741261",
+     "hours": "08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 27023,
+     "unit": "Dunav osiguranje Smederevo",
+     "place": "Smederevo",
+     "address": "Kralja Petra I br. 7",
+     "phones": "026 672633",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27024,
+     "unit": "Dunav osiguranje Smederevska Palanka",
+     "place": "Smederevska Palanka",
+     "address": "Dr. Rajsa bb",
+     "phones": "026 317837",
+     "hours": "08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 27025,
+     "unit": "Dunav osiguranje Sokobanja",
+     "place": "Sokobanja",
+     "address": "27. Marta br 23",
+     "phones": "018 880040",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27026,
+     "unit": "Dunav osiguranje Sombor",
+     "place": "Sombor",
+     "address": "Avrama Mrazovića br. 3",
+     "phones": "025 464100",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27027,
+     "unit": "Dunav osiguranje Sopot",
+     "place": "Sopot",
+     "address": "Kosmajski trg 15",
+     "phones": "011 2834199",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27028,
+     "unit": "Dunav osiguranje Sremska Mitrovica",
+     "place": "Sremska Mitrovica",
+     "address": "Kralja Petra I br. 4",
+     "phones": "022 610315",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27029,
+     "unit": "Dunav osiguranje Stara Pazova",
+     "place": "Stara Pazova",
+     "address": "Kralja Petra I br. 6",
+     "phones": "022 312652",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27030,
+     "unit": "Dunav osiguranje Subotica",
+     "place": "Subotica",
+     "address": "Štrosmajerova br. 24",
+     "phones": "024 553941",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27031,
+     "unit": "Dunav osiguranje Surčin",
+     "place": "Surčin",
+     "address": "Vojvođanska 154",
+     "phones": "011 8440031",
+     "hours": "08:00 – 16:00",
+     "need": []
+    },
+    {
+     "location_id": 27032,
+     "unit": "Dunav osiguranje Svilajnac",
+     "place": "Svilajnac",
+     "address": "Svetog Save br. 1",
+     "phones": "035 312410",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27033,
+     "unit": "Dunav osiguranje Svrljig",
+     "place": "Svrljig",
+     "address": "Hadžićeva br. 2",
+     "phones": "018 821005",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27034,
+     "unit": "Dunav osiguranje Temerin",
+     "place": "Temerin",
+     "address": "Petefi Šandora br. 2",
+     "phones": "021 3847724",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27035,
+     "unit": "Dunav osiguranje Titel",
+     "place": "Titel",
+     "address": "Glavna br. 36",
+     "phones": "021 2962175",
+     "hours": "07:00-15:00",
+     "need": []
+    },
+    {
+     "location_id": 27036,
+     "unit": "Dunav osiguranje Topola",
+     "place": "Topola",
+     "address": "Knjeginje Zorke br. 13",
+     "phones": "034 6814331",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27037,
+     "unit": "Dunav osiguranje Trstenik",
+     "place": "Trstenik",
+     "address": "Cara Dušana br. 4/5",
+     "phones": "037 711787",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27038,
+     "unit": "Dunav osiguranje Tutin",
+     "place": "Tutin",
+     "address": "Ibarska bb",
+     "phones": null,
+     "hours": "08:00-16:00",
+     "need": [
+      "address",
+      "phones"
+     ]
+    },
+    {
+     "location_id": 27039,
+     "unit": "Dunav osiguranje Ub",
+     "place": "Ub",
+     "address": "Kralja Petra I Oslobodioca br. 41",
+     "phones": "014 411309; 014 411695",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27040,
+     "unit": "Dunav osiguranje Užice",
+     "place": "Užice",
+     "address": "Nikole Pašića br. 22",
+     "phones": "031 517133",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27041,
+     "unit": "Dunav osiguranje Valjevo",
+     "place": "Valjevo",
+     "address": "Karađorđeva br. 48a",
+     "phones": "014 221065; 014 221045",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27042,
+     "unit": "Dunav osiguranje Varvarin",
+     "place": "Varvarin",
+     "address": "Slobode 30",
+     "phones": "037 788423",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27043,
+     "unit": "Dunav osiguranje Velika Plana",
+     "place": "Velika Plana",
+     "address": "Miloša Velikoga vr. 83a",
+     "phones": "026 516416",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27044,
+     "unit": "Dunav osiguranje Veliko Gradište",
+     "place": "Veliko Gradište",
+     "address": "Kneza Lazara br. 2",
+     "phones": "012 662909",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27045,
+     "unit": "Dunav osiguranje Vladičin Han",
+     "place": "Vladičin Han",
+     "address": "Slobodana Penezića br. 1",
+     "phones": "017 472193",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27046,
+     "unit": "Dunav osiguranje Vlasotince",
+     "place": "Vlasotince",
+     "address": "Dušanova br. 7",
+     "phones": "016 234720",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27047,
+     "unit": "Dunav osiguranje Vranje",
+     "place": "Vranje",
+     "address": "Žikice Jovanovića Španca br. 1",
+     "phones": "017 423970; 017 421287",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27048,
+     "unit": "Dunav osiguranje Vrbas",
+     "place": "Vrbas",
+     "address": "Maršala Tita br. 105",
+     "phones": "021 704816",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27049,
+     "unit": "Dunav osiguranje Vrnjačka Banja",
+     "place": "Vrnjačka Banja",
+     "address": "Vrnjačka br. 1",
+     "phones": "036 611114; 036 640740",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27050,
+     "unit": "Dunav osiguranje Vršac",
+     "place": "Vršac",
+     "address": "Miloša Obilića br. 12",
+     "phones": "013 832256",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27051,
+     "unit": "Dunav osiguranje Zaječar",
+     "place": "Zaječar",
+     "address": "Nikole Pašića br. 66",
+     "phones": "019 423322",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27052,
+     "unit": "Dunav osiguranje Zrenjanin",
+     "place": "Zrenjanin",
+     "address": "Kralja Aleksandra I Karađorđevića br. 28",
+     "phones": "023 511515",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27053,
+     "unit": "Dunav osiguranje Ćićevac",
+     "place": "Ćićevac",
+     "address": "Karađorđeva br. 102",
+     "phones": "037 811374",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27054,
+     "unit": "Dunav osiguranje Ćuprija",
+     "place": "Ćuprija",
+     "address": "Miodraga Novakovića bb",
+     "phones": "035 8870845; 035 8870846",
+     "hours": "08:00-16:00",
+     "need": [
+      "address"
+     ]
+    },
+    {
+     "location_id": 27055,
+     "unit": "Dunav osiguranje Čajetina",
+     "place": "Čajetina",
+     "address": "Kralja Aleksandra Karađirđevića 28",
+     "phones": "031 3831331",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27056,
+     "unit": "Dunav osiguranje Čačak",
+     "place": "Čačak",
+     "address": "Skadarska br.15",
+     "phones": "032 302500",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27057,
+     "unit": "Dunav osiguranje Čoka",
+     "place": "Čoka",
+     "address": "Maršala Tita br.4",
+     "phones": "0230 471119",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27058,
+     "unit": "Dunav osiguranje Šabac",
+     "place": "Šabac",
+     "address": "Kneza Miloša br. 2",
+     "phones": "015 346331",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27059,
+     "unit": "Dunav osiguranje Šid",
+     "place": "Šid",
+     "address": "Kneza Miloša 64",
+     "phones": "022 712550",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27060,
+     "unit": "Dunav osiguranje Žabari",
+     "place": "Žabari",
+     "address": "Kneza Miloša br. 56",
+     "phones": "012 250187",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27061,
+     "unit": "Dunav osiguranje Žagubica",
+     "place": "Žagubica",
+     "address": "Trg Jovana Šerbanovića br. 1",
+     "phones": "012 643117",
+     "hours": "08:00-16:00",
+     "need": []
+    },
+    {
+     "location_id": 27062,
+     "unit": "Dunav osiguranje Žitište",
+     "place": "Žitište",
+     "address": "Cara Dušana 17",
+     "phones": "023 3821130",
+     "hours": "08:00-16:00",
+     "need": []
+    }
+   ]
+  }
+ ],
+ "id": "net-osiguravajuce-drustvo-dunav-osiguranje"
+}
