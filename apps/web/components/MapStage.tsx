@@ -40,7 +40,7 @@ export function StaticMap({ features, context, fit, cls }: { features: Feature3D
       <svg viewBox={vb} className="absolute inset-0 w-full h-full p-3" preserveAspectRatio="xMidYMid meet" role="img">
         {context.map((c) => <path key={c.key} d={c.d} fill="var(--surface-2)" stroke="var(--line-strong)" strokeWidth={fs * .06} />)}
         {features.map((f) => (
-          <Link key={f.key} href={f.href}>
+          <Link key={f.key} href={f.href} aria-label={f.label ?? f.name}>
             <path d={f.d} className="m3-static-unit" style={{ fill: `color-mix(in oklab, var(--accent) ${Math.round(10 + Math.sqrt(f.count / max) * 45)}%, var(--surface))` }} stroke="var(--ink)" strokeWidth={fs * .08} strokeLinejoin="round" />
             <text x={f.cx} y={f.cy} textAnchor="middle" fontSize={fs} fontFamily="var(--font-mono)" fill="var(--ink)" paintOrder="stroke" stroke="var(--surface)" strokeWidth={fs * .28} strokeLinejoin="round">{(f.label ?? f.name).toUpperCase()}</text>
           </Link>

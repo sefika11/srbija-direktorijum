@@ -32,7 +32,7 @@ export function LeadForm({ locale, vertical, context }: {
         <p className="mt-3 text-[14px] text-moss font-medium">{d.thanks}</p>
       ) : (
         <>
-          {!open && <button type="button" onClick={() => setOpen(true)} className="sm:hidden mt-3 w-full rounded-md bg-moss text-white py-2.5 text-[14px] font-medium">{d.sendRequest}</button>}
+          {!open && <button type="button" onClick={() => setOpen(true)} className="sm:hidden mt-3 w-full rounded-md bg-moss !text-white py-2.5 text-[14px] font-medium">{d.sendRequest}</button>}
           <form onSubmit={submit} className={`${open ? "" : "hidden sm:block"} mt-3`}>
             <div className="grid sm:grid-cols-2 gap-2">
               <input name="ime" required placeholder={d.nameLabel} className="rounded-md border border-line bg-surface px-3 py-2 text-[14px]" />
@@ -50,7 +50,7 @@ export function LeadForm({ locale, vertical, context }: {
             <input type="text" name="website_url" tabIndex={-1} autoComplete="off" className="hidden" aria-hidden />
             <label className="flex items-start gap-2 mt-3 text-[12.5px] text-muted"><input type="checkbox" name="viber" value="1" className="mt-0.5" /> {d.viber}</label>
             <label className="flex items-start gap-2 mt-1.5 text-[12.5px] text-muted"><input type="checkbox" name="consent" required className="mt-0.5" /> <span>{d.consent} <a href={href(locale, "/privatnost")}>{d.privacy}</a></span></label>
-            <button type="submit" disabled={state === "sending"} className="mt-3 rounded-md bg-moss text-white px-4 py-2 text-[14px] font-medium disabled:opacity-60">{d.sendRequest}</button>
+            <button type="submit" disabled={state === "sending"} className="mt-3 rounded-md bg-moss !text-white px-4 py-2 text-[14px] font-medium disabled:opacity-60">{d.sendRequest}</button>
             {state === "error" && <span className="ml-3 text-[13px] text-brick">{pick(locale, "Greška, pokušajte ponovo.", "Something went wrong, please try again.", "Ошибка, попробуйте ещё раз.", "Fehler, bitte versuchen Sie es erneut.")}</span>}
           </form>
         </>
