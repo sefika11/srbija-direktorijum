@@ -334,3 +334,29 @@ Nick's direction: accuracy first; hours may also come from maps, or from strong 
   one; the sites give no separate address for the unit. Not added: Negotin (its "Dom zdravlja" page is empty) and Surdulica
   (zcsurdulica.rs did not answer). The Negotin centre's website was corrected to zcnegotin.rs (the old host is gone).
   Open: the four centres in Kosovo have no location.
+
+## 14. Remaining registers (2026-11-11, night)
+
+What the scout list (§12) still held after checking it against what was already loaded. Two of its sources were NOT new:
+the social-protection licence files (`minrzs_licence`, 191 homes and 236 services loaded on 2026-11-10) and the RFZO
+contracted-pharmacy list (`rfzo_apoteke`, 3,405 rows). Before proposing a source, check `data_sources` and `db/imports/`.
+
+- **Animal shelters** (new type `prihvatiliste-za-zivotinje`, group javna_preduzeca): Veterinary Directorate register
+  (Registar-prihvatilista.xls, 131 rows), `tools/reach/animal_shelters.py`. 118 imported (3 register duplicates folded),
+  98 with a street; no phones in the register. Left out: 8 run by a natural person or a sole proprietor, 2 whose place
+  could not be told. The operator and its office address are in the description, never used as the shelter's address.
+  Not imported from the same directorate: breeders (mostly natural persons), pet boarding (mostly sole proprietors with a
+  private mobile), authorised animal markers (natural persons).
+- **CPC training centres** (new type `cpc-centar`): ABS list (15971_spisak-centara-za-obuku-cpc.pdf, 33 centres, not 65),
+  `tools/reach/cpc_centres.py`. 33 imported with street and phone. E-mails and sites are not taken: the PDF breaks them
+  across cells.
+- **Health-tourism clinics**: the Ministry of Health lists 56 (44 dental, 12 plastic surgery) with name and site only.
+  Two Haiku agents read the clinics' own sites (39 answered; 17 sites dead, blocked or parked), every value was checked
+  against the cited page by `verify_pages.py` (70 phones kept, 1 address and 6 hours dropped), then
+  `tools/reach/health_tourism.py`: 29 new clinics imported, 5 were already held (map-sourced rows), 5 had no checked street.
+  About 250,000 Haiku tokens.
+- City municipalities re-assigned after the imports: 124 locations (`db/fixes/go_assignment_2026-11-11_191148.json`).
+- Types and source in `db/seed_patch_022_register_types.sql`; search words in `search-lexicon-extra.json`.
+- Still unused, by choice: MTO register of associations (2,136 with an address; associations are not a type we hold),
+  APR companies and NGO files (no address), housing communities.
+
