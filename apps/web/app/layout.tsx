@@ -27,9 +27,9 @@ export const viewport: Viewport = { themeColor: [{ media: "(prefers-color-scheme
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="sr-Latn" suppressHydrationWarning>
+    <html lang="sr-Latn" data-theme="light" suppressHydrationWarning>
       {/* Home, first visit of the session: raise the paper curtain before the first paint so the page never shows under the opener. */}
-      <head><script dangerouslySetInnerHTML={{ __html: `(function(){try{var th=localStorage.getItem("gdi-theme");if(th==="light"||th==="dark")document.documentElement.setAttribute("data-theme",th)}catch(e){}})();(function(){try{var p=location.pathname;if(p.length>1&&p.charAt(p.length-1)==="/")p=p.slice(0,-1);if(["","/","/en","/ru","/de"].indexOf(p)<0)return;if(sessionStorage.getItem("gdi-opener")==="1")return;if(matchMedia("(prefers-reduced-motion: reduce)").matches)return;document.documentElement.classList.add("opener-pending","has-opener")}catch(e){}})()` }} /></head>
+      <head><script dangerouslySetInnerHTML={{ __html: `(function(){var th="light";try{if(localStorage.getItem("gdi-theme")==="dark")th="dark"}catch(e){}document.documentElement.setAttribute("data-theme",th)})();(function(){try{var p=location.pathname;if(p.length>1&&p.charAt(p.length-1)==="/")p=p.slice(0,-1);if(["","/","/en","/ru","/de"].indexOf(p)<0)return;if(sessionStorage.getItem("gdi-opener")==="1")return;if(matchMedia("(prefers-reduced-motion: reduce)").matches)return;document.documentElement.classList.add("opener-pending","has-opener")}catch(e){}})()` }} /></head>
       <body><Heritage /><Motion />{children}</body>
     </html>
   );
