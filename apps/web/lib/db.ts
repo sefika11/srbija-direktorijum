@@ -263,7 +263,7 @@ export type ServingRow = LocRow & { org_slug: string; org_name_lat: string; org_
 export const getServing = (jlsId: number, typeSlug: string) =>
   sql<ServingRow[]>`select ${LOC_COLS} from v_location_page where location_id in (select id from locations_serving(${jlsId}, ${typeSlug}))
                     and location_status = 'active'
-                    order by (address_display is not null) desc, is_primary desc, unit_kind = 'filijala' desc, (unit_name_lat ilike 'policijska stanica%' or unit_name_lat ilike 'policijska uprava%' or unit_name_lat ilike 'vatrogasn%') desc, unit_name_lat limit 8`;
+                    order by (address_display is not null) desc, is_primary desc, unit_kind = 'filijala' desc, (unit_name_lat ilike 'policijska stanica%' or unit_name_lat ilike 'policijska uprava%' or unit_name_lat ilike 'vatrogasn%') desc, unit_name_lat limit 12`;
 /** All locations of a national-network type, for hub pages where one organization has many branches. */
 /** every active location of a type (seats, branches, buildings): shown next to the institution count when it is much larger */
 export const countLocationsOfType = (typeSlug: string) =>

@@ -106,8 +106,13 @@ export async function GuidePage({ locale, guide, jlsSlug, path }: { locale: Loca
     guide.lead_vertical_id ? db.getVerticalById(guide.lead_vertical_id) : Promise.resolve(null),
     db.getGuides(),
   ]);
+  // a long stack of full cards buries the rest of the guide: two in full, the others as one compact list
   const ids = serving.map((s) => s.location_id);
   const [contacts, hours] = await Promise.all([db.getContacts(ids), db.getHours(ids)]);
+  // the seat and the offices one can actually reach (address, phone) lead; ties keep the query's order
+  const reach = (s: db.ServingRow) => (s.is_primary || s.unit_name_lat.trim().toLowerCase() === s.org_name_lat.trim().toLowerCase() ? 2 : 0) + (s.address_display ? 1 : 0) + (contacts.some((x) => x.location_id === s.location_id && (x.kind === "phone" || x.kind === "mobile")) ? 1 : 0);
+  const ranked = serving.map((s, i) => ({ s, i, r: reach(s) })).sort((x, y) => y.r - x.r || x.i - y.i).map((x) => x.s);
+  const lead = ranked.length > 3 ? ranked.slice(0, 2) : ranked; const rest = ranked.slice(lead.length);
   const basePath = href(locale, `/vodic/${guide.slug}`);
   const title = c.title ?? guide.name_lat;
   const faqLd = c.faq?.length ? { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: c.faq.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) } : null;
@@ -168,8 +173,9 @@ export async function GuidePage({ locale, guide, jlsSlug, path }: { locale: Loca
             <SectionTitle>{L.whereToGo}</SectionTitle>
             {c.where_note && <p className="text-[14.5px] mb-3">{c.where_note}</p>}
             {jls && serving.length > 0 ? (
+              <>
               <ul className="grid gap-3">
-                {serving.map((s, i) => { const ph = contacts.filter((x) => x.location_id === s.location_id && (x.kind === "phone" || x.kind === "mobile")); const hr = compactHours(hours.filter((h) => h.location_id === s.location_id), locale); const url = href(locale, `/${s.org_type_slug}/${s.org_slug}/${s.location_slug}`); return (
+                {lead.map((s, i) => { const ph = contacts.filter((x) => x.location_id === s.location_id && (x.kind === "phone" || x.kind === "mobile")); const hr = compactHours(hours.filter((h) => h.location_id === s.location_id), locale); const url = href(locale, `/${s.org_type_slug}/${s.org_slug}/${s.location_slug}`); return (
                   <li key={s.location_id} data-reveal data-fx={i % 2 ? "wing-r" : "wing-l"} style={{ "--d": `${i * 90}ms` } as React.CSSProperties} className="card stack is-contact p-4 sm:p-5 grid sm:grid-cols-[minmax(0,1fr)_auto] gap-4">
                     <div className="min-w-0">
                       {/* a school's only office is called "Sedište": the institution's own name is the useful title then */}
@@ -185,6 +191,17 @@ export async function GuidePage({ locale, guide, jlsSlug, path }: { locale: Loca
                     <div className="flex sm:flex-col gap-2 shrink-0">{ph[0] && <a href={`tel:${ph[0].value}`} className="btn-primary">{L.call}</a>}<Link href={url} className="quick-chip justify-center">{L.open} →</Link></div>
                   </li>); })}
               </ul>
+              {rest.length > 0 && <div className="card p-4 sm:p-5 mt-3 serving-more" data-reveal>
+                <div className="eyebrow mb-1">{pick(locale, "Ostale lokacije", "Other locations", "Другие адреса", "Weitere Standorte")}</div>
+                <ul>{rest.map((s) => { const ph = contacts.find((x) => x.location_id === s.location_id && (x.kind === "phone" || x.kind === "mobile")); const seat = /^sedi[sš]te$/i.test(s.unit_name_lat); return (
+                  <li key={s.location_id}>
+                    <Link href={href(locale, `/${s.org_type_slug}/${s.org_slug}/${s.location_slug}`)} className="no-underline text-ink hover:text-accent font-medium">{seat ? s.org_name_lat : s.unit_name_lat}</Link>
+                    <span>{s.address_display ?? s.jls_name_lat}</span>
+                    {ph && <a href={`tel:${ph.value}`} className="tabular">{ph.value_display ?? ph.value}</a>}
+                  </li>); })}</ul>
+                {primaryType && <Link href={`${href(locale, `/${primaryType}`)}?mesto=${jls.slug}#lista`} className="quick-chip mt-3">{L.allLocations} →</Link>}
+              </div>}
+              </>
             ) : (
               <div className="card p-5 text-[14px]">
                 <p className="text-muted">{jls ? L.noServing : L.pickHint}</p>
