@@ -365,4 +365,12 @@ contracted-pharmacy list (`rfzo_apoteke`, 3,405 rows). Before proposing a source
   3 others). Each number carries the label `OpenStreetMap` in `location_contacts.label`; OrgPage prints one line naming the
   source. Schools and public bodies take landlines only. Ids in `db/fixes/osm_phones_2026-11-11_191720.json`.
   The map has little more to give: 10,023 of our 10,159 phone-less locations of those kinds have no map twin with a phone.
+- **Youth associations** (new type `omladinsko-udruzenje`, asked for by Nick 2026-11-11): Ministry of Tourism and Youth
+  register (072026.xlsx, 2,136 rows), `tools/reach/youth_associations.py`. Kept only when the business registry's open file
+  (openapi.apr.gov.rs/api/opendata/ngo, cut-off 2026-10-31) still lists the registry number: 1,759 kept, 373 dissolved or
+  marked deleted dropped. 1,739 imported with a street (15 places not resolved, 5 listed twice); no phones or sites in the
+  register. Registry number, tax number, form, founding year and field of work are in the description.
+  `tools/reach/assign_go_from_import.py` then filed 756 of them under the city municipality the register names
+  (`db/fixes/go_from_import_2026-11-11_202652.json`); the loader files such rows under the city.
+  The page marks them up as schema.org NGO (animal shelters as AnimalShelter).
 

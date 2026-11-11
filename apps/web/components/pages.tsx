@@ -691,7 +691,7 @@ export async function OrgPage({ locale, org, locSlug, path }: { locale: Locale; 
   const DOW = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
   const openRows = hours.filter((h) => h.hours_type === "rad_sa_strankama").length ? hours.filter((h) => h.hours_type === "rad_sa_strankama") : hours.filter((h) => h.hours_type === "radno_vreme");
   const orgLd = {
-    "@context": "https://schema.org", "@type": PERSON_TYPES.has(org.type_slug) ? "ProfessionalService" : org.is_private ? "LocalBusiness" : "GovernmentOffice",
+    "@context": "https://schema.org", "@type": PERSON_TYPES.has(org.type_slug) ? "ProfessionalService" : org.type_slug === "omladinsko-udruzenje" ? "NGO" : org.type_slug === "prihvatiliste-za-zivotinje" ? "AnimalShelter" : org.is_private ? "LocalBusiness" : "GovernmentOffice",
     name: title, ...(org.official_name_lat && org.official_name_lat !== org.name_lat ? { legalName: org.official_name_lat } : {}), url: siteUrl() + path, description: `${typeSing}${jls ? `, ${jls.name_lat}` : ""}`,
     ...(loc && (loc.address_display || loc.tu_name_lat) ? { address: { "@type": "PostalAddress", ...(loc.address_display ? { streetAddress: loc.address_display } : {}), addressLocality: loc.settlement_name_lat ?? loc.tu_name_lat, ...(loc.postal_code ? { postalCode: loc.postal_code } : {}), ...(okrug ? { addressRegion: okrug.name_lat } : {}), addressCountry: "RS" } } : {}),
     ...(loc?.lat != null && loc?.lng != null && !PERSON_TYPES.has(org.type_slug) ? { geo: { "@type": "GeoCoordinates", latitude: loc.lat, longitude: loc.lng } } : {}),

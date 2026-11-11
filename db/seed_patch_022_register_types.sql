@@ -11,3 +11,9 @@ values
   ('cpc-centar', 'privatne_usluge', 'Centar za obuku profesionalnih vozača (CPC)', 'Центар за обуку професионалних возача (CPC)', 'Centri za obuku profesionalnih vozača (CPC)', 'jls', 'ostalo', false, false, 'truck', 392, true,
    'Professional driver training centres (CPC)', 'Центры подготовки профессиональных водителей (CPC)', 'Schulungszentren für Berufskraftfahrer (CPC)')
 on conflict (slug) do nothing;
+
+-- Youth associations (Ministry of Tourism and Youth register, source code mto_registri).
+insert into org_types (slug, "group", name_lat, name_cyr, name_plural_lat, default_jurisdiction, default_legal_form, one_per_jls, national_network, icon, sort_order, is_active, name_en, name_ru, name_de)
+values ('omladinsko-udruzenje', 'privatne_usluge', 'Omladinsko udruženje', 'Омладинско удружење', 'Omladinska udruženja', 'jls', 'ostalo', false, false, 'users', 900, true,
+        'Youth associations', 'Молодёжные объединения', 'Jugendvereine')
+on conflict (slug) do nothing;
