@@ -265,3 +265,7 @@ we do not hold yet).
   parts contradict each other or name no weekday (seasons, departments): the text is shown instead. `tools/reach/reparse_hours.py`
   re-read 2,708 stored locations whose rows were exactly the old parser's output (2,361 gained days, 281 corrected, 66 now
   show their text); before-state in `db/fixes/reparsed_hours_2026-11-11_*.json`.
+- Follow-up the same day: 400 local bodies (assemblies, councils, mayors, ombudsmen) took the official site of their
+  municipality's administration (`_municipal_sites.json`); 87 official branches from `_extra_all.json` were imported with
+  `tools/reach/import_branches.py` (31 fire units, 19 clinics, 15 fund counters, 15 pharmacy branches, 7 bank counters;
+  ids in `db/fixes/imported_branches_2026-11-11_141017.json`). Short emergency numbers (193) are not stored as contacts.
