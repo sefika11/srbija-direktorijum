@@ -91,7 +91,9 @@ export async function metaFor(path: string[], query: Query): Promise<Metadata> {
       const place = mesto ? await db.getTU(mesto.includes("/") ? mesto.split("/")[1] : mesto, mesto.includes("/") ? "gradska_opstina" : "jls").catch(() => null) : null;
       const name = tn(r.type, locale);
       // a page number past the last page shows the last page again: that address is a duplicate, so it stays out of the index
-      const pastEnd = strana > 1 && strana > Math.max(1, Math.ceil((await db.countOrgsOfType(r.type.slug, { jls: place ? mesto : null }).catch(() => 0)) / 60));
+      // a place of a multi-building type pages through its buildings (see OrgTypeHub), so the last page is counted the same way
+      const byLoc = strana > 1 && !!place && (await db.getMultiTypes().catch(() => new Set<string>())).has(r.type.slug);
+      const pastEnd = strana > 1 && strana > Math.max(1, Math.ceil((await (byLoc ? db.countLocationsOfTypeIn(r.type.slug, { jls: mesto }) : db.countOrgsOfType(r.type.slug, { jls: place ? mesto : null })).catch(() => 0)) / 60));
       const qs = [place ? `mesto=${encodeURIComponent(mesto!)}` : "", brend ? `brend=${encodeURIComponent(brend)}` : "", strana > 1 && !pastEnd ? `strana=${strana}` : ""].filter(Boolean).join("&");
       const pageTail = strana > 1 ? ` – ${d.page} ${strana}` : "";
       const title = place ? `${name} – ${place.name_lat}${pageTail}` : `${name} – ${P("spisak po gradovima", "by city", "по городам", "nach Stadt")}${pageTail}`;

@@ -202,15 +202,21 @@ export async function smartSearch(q: string, locale: Locale): Promise<SmartResul
   ]);
   let best: Best | null = null;
   const jlsId = det ? await jlsIdFor(det.place) : null;
+  // "vrtić zemun": the ones standing in the city municipality first; the whole city only when it has none of its own
+  const serve = async (typeSlug: string) => {
+    if (!jlsId) return [] as db.ServingRow[];
+    const inside = det && det.place.level === "gradska_opstina" && placePath ? await db.getServing(jlsId, typeSlug, placePath) : [];
+    return inside.length ? inside : db.getServing(jlsId, typeSlug);
+  };
   const gTop = guides[0] ? guides[0].score + ((syn.guide.get(guides[0].slug) ?? 0) >= 1.8 ? 0.65 : 0) : 0, tTop = types[0]?.score ?? 0;
   if (guides[0] && gTop >= 1.0 && gTop >= tTop) {
     const typeSlug = guides[0].org_type_slugs[0];
-    const serving = jlsId && typeSlug ? await db.getServing(jlsId, typeSlug) : [];
+    const serving = typeSlug ? await serve(typeSlug) : [];
     const ids = serving.map((s) => s.location_id);
     const [contacts, hours] = await Promise.all([db.getContacts(ids), db.getHours(ids)]);
     best = { kind: "guide", guide: guides[0], serving, contacts, hours };
   } else if (types[0] && tTop >= 1.0 && jlsId) {
-    const serving = await db.getServing(jlsId, types[0].slug);
+    const serving = await serve(types[0].slug);
     const ids = serving.map((s) => s.location_id);
     const [contacts, hours] = await Promise.all([db.getContacts(ids), db.getHours(ids)]);
     best = { kind: "type", type: types[0], serving, contacts, hours };

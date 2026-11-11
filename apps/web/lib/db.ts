@@ -265,10 +265,10 @@ export const getGuide = (slug: string) => sql<GuideRow[]>`${GUIDE_SELECT} where 
 const LOC_COLS = sql`location_id, location_slug, unit_name_lat, unit_kind, is_primary, address_display, address_extra, postal_code, settlement_name_lat, lat, lng, hours_text, notes_md,
   verification, verified_at::text, last_seen_at::text, tu_slug, tu_name_lat, tu_level::text, jls_slug, jls_name_lat, okrug_name_lat, org_slug, org_name_lat, org_type_slug`;
 export type ServingRow = LocRow & { org_slug: string; org_name_lat: string; org_type_slug: string };
-/** The location(s) of a given institution type that serve a municipality: explicit coverage first, else seated inside it. */
-export const getServing = (jlsId: number, typeSlug: string) =>
+/** The location(s) of a given institution type that serve a municipality: explicit coverage first, else seated inside it. `within` keeps only those standing inside one unit (a city municipality). */
+export const getServing = (jlsId: number, typeSlug: string, within: string | null = null) =>
   sql<ServingRow[]>`select ${LOC_COLS} from v_location_page where location_id in (select id from locations_serving(${jlsId}, ${typeSlug}))
-                    and location_status = 'active'
+                    and location_status = 'active' ${within ? sql`and tu_path <@ ${within}::ltree` : sql``}
                     order by (address_display is not null) desc, is_primary desc, unit_kind = 'filijala' desc, (unit_name_lat ilike 'policijska stanica%' or unit_name_lat ilike 'policijska uprava%' or unit_name_lat ilike 'vatrogasn%') desc, unit_name_lat limit 12`;
 /** All locations of a national-network type, for hub pages where one organization has many branches. */
 /** every active location of a type (seats, branches, buildings): shown next to the institution count when it is much larger */
@@ -277,6 +277,29 @@ export const countLocationsOfType = (typeSlug: string) =>
 export const getLocationsOfType = (typeSlug: string) =>
   sql<ServingRow[]>`select ${LOC_COLS} from v_location_page where org_type_slug = ${typeSlug} and location_status = 'active'
                     order by okrug_name_lat nulls last, jls_name_lat, unit_kind = 'filijala' desc, unit_name_lat limit 6000`;
+// ---- types where one institution runs several buildings (preschools, schools with satellite classes, pharmacies, health centres) ----
+/**
+ * Types whose active locations outnumber their institutions by a quarter or more, national networks aside. For these a
+ * place counts and lists buildings: Belgrade has 18 public preschool institutions but about 400 kindergartens and nurseries.
+ */
+export const getMultiTypes = () =>
+  sql<{ slug: string }[]>`select t.slug from org_types t join organizations o on o.org_type_id = t.id and o.status = 'active' left join locations l on l.org_id = o.id and l.status = 'active'
+    where not t.national_network group by t.slug having count(l.id) >= 1.25 * count(distinct o.id)`.then((r) => new Set(r.map((x) => x.slug)));
+/** active locations physically inside a unit, per type (the unit itself or anything below it) */
+export const countLocationsInUnitByType = (path: string) =>
+  sql<{ slug: string; n: number }[]>`select t.slug, count(*)::int as n from locations l join organizations o on o.id = l.org_id and o.status = 'active' join org_types t on t.id = o.org_type_id
+    join territorial_units u on u.id = l.territorial_unit_id where l.status = 'active' and u.path <@ ${path}::ltree group by t.slug`;
+const locFilter = (typeSlug: string, o: TypeFilter) => sql`
+  from v_location_page where org_type_slug = ${typeSlug} and location_status = 'active' and org_id in (select id from organizations where status = 'active')
+  ${o.jls ? (o.jls.includes("/") ? sql`and jls_slug = ${o.jls.split("/")[0]} and tu_slug = ${o.jls.split("/")[1]} and tu_level = 'gradska_opstina'` : sql`and jls_slug = ${o.jls}`) : sql``}
+  ${o.q ? sql`and (f_unaccent(lower(org_name_lat)) like '%' || f_unaccent(lower(${o.q})) || '%' or f_unaccent(lower(unit_name_lat)) like '%' || f_unaccent(lower(${o.q})) || '%')` : sql``}`;
+export const countLocationsOfTypeIn = (typeSlug: string, o: TypeFilter) => sql<{ n: number }[]>`select count(*)::int as n ${locFilter(typeSlug, o)}`.then((r) => r[0]?.n ?? 0);
+export const getLocationsOfTypePaged = (typeSlug: string, o: TypeFilter, limit: number, offset: number) =>
+  sql<ServingRow[]>`select ${LOC_COLS} ${locFilter(typeSlug, o)} order by tu_name_lat, org_name_lat, is_primary desc, unit_name_lat, location_id limit ${limit} offset ${offset}`;
+/** municipalities that have at least one location of the type, with location counts (the place filter of a multi-building type) */
+export const getLocPlacesOfType = (typeSlug: string) =>
+  sql<{ slug: string; name_lat: string; n: number }[]>`select jls_slug as slug, jls_name_lat as name_lat, count(*)::int as n from v_location_page
+    where org_type_slug = ${typeSlug} and location_status = 'active' and jls_slug is not null and org_id in (select id from organizations where status = 'active') group by 1, 2 order by 2`;
 export const getVerticalById = (id: number) =>
   sql<{ id: number; slug: string; name_lat: string; pitch_lat: string | null; form_schema: unknown }[]>`select id, slug, name_lat, pitch_lat, form_schema from lead_verticals where id = ${id} and is_active`.then((r) => r[0] ?? null);
 

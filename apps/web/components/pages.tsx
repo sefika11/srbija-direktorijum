@@ -356,9 +356,13 @@ export async function UnitHub({ locale, unit, parent }: { locale: Locale; unit: 
   // Big cities hold thousands of institutions: the page shows every type that is small here in full and one tile per
   // large type (with its count) that opens the filtered, paged list. Nothing is listed by the thousand.
   const PER_TYPE = 12;
-  const [orgs, unitTotal, gos, ancestors, types, vital, allGuides] = await Promise.all([db.getOrgsInUnitTop(unit.path, PER_TYPE), db.countOrgsInUnit(unit.path), unit.level === "jls" ? db.getChildrenGO(unit.id) : Promise.resolve([]), db.getAncestors(unit.path), db.getOrgTypes(), db.getVitalForUnit(unit.path, VITAL_TYPES), db.getGuides().catch(() => [] as db.GuideRow[])]);
+  const [orgs, unitTotal, gos, ancestors, types, vital, allGuides, multiTypes, locCounts] = await Promise.all([db.getOrgsInUnitTop(unit.path, PER_TYPE), db.countOrgsInUnit(unit.path), unit.level === "jls" ? db.getChildrenGO(unit.id) : Promise.resolve([]), db.getAncestors(unit.path), db.getOrgTypes(), db.getVitalForUnit(unit.path, VITAL_TYPES), db.getGuides().catch(() => [] as db.GuideRow[]), db.getMultiTypes().catch(() => new Set<string>()), db.countLocationsInUnitByType(unit.path).catch(() => [] as { slug: string; n: number }[])]);
   const hubGuides = allGuides.filter((g) => g.status === "full").slice(0, 7);
   const typeN = new Map<string, number>(); for (const o of orgs) typeN.set(o.type_slug, o.type_n);
+  // A type whose institutions run several buildings counts the buildings that stand here (kindergartens, school buildings,
+  // pharmacies), which also shows the ones run by an institution seated in another place. Those types are always a tile.
+  const byLoc = new Set<string>();
+  for (const c of locCounts) if (multiTypes.has(c.slug) && !PERSON_TYPES.has(c.slug) && c.n > (typeN.get(c.slug) ?? 0)) { byLoc.add(c.slug); typeN.set(c.slug, c.n); }
   const typeBy = new Map(types.map((x) => [x.slug, x]));
   const placeParam = unit.level === "gradska_opstina" && parent ? `${parent.slug}/${unit.slug}` : unit.slug;
   const okrugAll = ancestors.find((a) => a.level === "okrug");
@@ -409,11 +413,12 @@ export async function UnitHub({ locale, unit, parent }: { locale: Locale; unit: 
           )}
           {GROUPS.map((g, i) => {
             const inGroup = orgs.filter((o) => o.group === g);
-            if (!inGroup.length && g !== "republicki_organi") return null;
-            const slugs = [...new Set(inGroup.map((o) => o.type_slug))].sort((a, b) => (typeBy.get(a)?.sort_order ?? 999) - (typeBy.get(b)?.sort_order ?? 999));
+            const locOnly = [...byLoc].filter((sl) => typeBy.get(sl)?.group === g);
+            if (!inGroup.length && !locOnly.length && g !== "republicki_organi") return null;
+            const slugs = [...new Set([...inGroup.map((o) => o.type_slug), ...locOnly])].sort((a, b) => (typeBy.get(a)?.sort_order ?? 999) - (typeBy.get(b)?.sort_order ?? 999));
             const groupTotal = slugs.reduce((n, sl) => n + (typeN.get(sl) ?? 0), 0);
-            const bigTypes = slugs.filter((sl) => (typeN.get(sl) ?? 0) > PER_TYPE);
-            const small = inGroup.filter((o) => o.type_n <= PER_TYPE).sort((a, b) => (typeBy.get(a.type_slug)?.sort_order ?? 999) - (typeBy.get(b.type_slug)?.sort_order ?? 999) || a.name_lat.localeCompare(b.name_lat, "sr-Latn"));
+            const bigTypes = slugs.filter((sl) => byLoc.has(sl) || (typeN.get(sl) ?? 0) > PER_TYPE);
+            const small = inGroup.filter((o) => o.type_n <= PER_TYPE && !byLoc.has(o.type_slug)).sort((a, b) => (typeBy.get(a.type_slug)?.sort_order ?? 999) - (typeBy.get(b.type_slug)?.sort_order ?? 999) || a.name_lat.localeCompare(b.name_lat, "sr-Latn"));
             const list = { length: groupTotal };
             const mz = g === "lokalna_samouprava" ? small.filter((o) => o.type_slug === "mesna-zajednica") : [];
             const main = g === "lokalna_samouprava" ? small.filter((o) => o.type_slug !== "mesna-zajednica") : small;
@@ -439,7 +444,7 @@ export async function UnitHub({ locale, unit, parent }: { locale: Locale; unit: 
                       <li key={sl}><a href={`${href(locale, `/${sl}`)}?mesto=${placeParam}#lista`} className="type-tile card card-hover no-underline text-ink">
                         <Glyph3D icon={emblemFor(sl, ty?.icon)} size={44} className="type-tile-img" />
                         <span className="min-w-0"><span className="type-tile-name">{ty ? tn(ty, locale) : sl}</span></span>
-                        <span className="type-tile-n tabular">{n.toLocaleString(locale === "sr" ? "sr-Latn" : locale)} →</span>
+                        <span className="type-tile-n tabular">{n.toLocaleString(locale === "sr" ? "sr-Latn" : locale)}{byLoc.has(sl) ? ` ${LOC_WORD[locale]}` : ""} →</span>
                       </a></li>); })}
                   </ul>
                 )}
@@ -493,6 +498,7 @@ const TYPE_FACET: Record<string, { key: string; label: Record<Locale, string> }>
   "sudski-vestak": { key: "oblasti", label: { sr: "Sve oblasti", en: "All fields", ru: "Все области", de: "Alle Fachgebiete" } },
 };
 const PAGE_SIZE = 60, PAGED_FROM = 250;
+const LOC_WORD: Record<Locale, string> = { sr: "lokacija", en: "locations", ru: "адресов", de: "Standorte" };
 /** types whose entries are licensed people, not institutions (wording only) */
 const PERSON_TYPES = new Set(["sudski-vestak", "medijator", "stecajni-upravnik", "procenitelj-nepokretnosti", "sudski-prevodilac", "javni-beleznik", "javni-izvrsitelj", "advokat"]);
 const PG: Record<Locale, { name: string; allPlaces: string; show: string; reset: string; shown: (a: number, b: number, n: number) => string; prev: string; next: string; page: string; none: string }> = {
@@ -514,18 +520,23 @@ export async function OrgTypeHub({ locale, type, brand = null, place = null, que
   const chain = type.national_network || (allOrgs.length > 0 && allOrgs.every((o) => !o.place_name));
   // paged list: always for big types; for a small type when a place or a name is asked for (a link from a city page), unless it is a chain (those filter their branches)
   const paged = big || (filtered && !chain);
+  const unitCount = await db.countLocationsOfType(type.slug).catch(() => 0);
+  // One institution, many buildings (a preschool institution runs dozens of kindergartens and nurseries): the type counts its
+  // buildings, and a place lists the buildings that stand in it, not the legal entities seated there.
+  const multi = !type.national_network && !chain && !PERSON_TYPES.has(type.slug) && unitCount >= total * 1.25;
+  const locMode = paged && multi && !!filter.jls && !filter.facet;
   const [matchCount, placeOptions0, facetValues, goUnit] = paged
-    ? await Promise.all([filtered ? db.countOrgsOfType(type.slug, filter) : Promise.resolve(total), db.getPlacesOfType(type.slug), facetDef ? db.getFacetValues(type.slug, facetDef.key) : Promise.resolve([] as { v: string; n: number }[]), place?.includes("/") ? db.getTU(place.split("/")[1], "gradska_opstina") : Promise.resolve(null)])
+    ? await Promise.all([locMode ? db.countLocationsOfTypeIn(type.slug, filter) : filtered ? db.countOrgsOfType(type.slug, filter) : Promise.resolve(total), multi ? db.getLocPlacesOfType(type.slug) : db.getPlacesOfType(type.slug), facetDef ? db.getFacetValues(type.slug, facetDef.key) : Promise.resolve([] as { v: string; n: number }[]), place?.includes("/") ? db.getTU(place.split("/")[1], "gradska_opstina") : Promise.resolve(null)])
     : [total, [] as { slug: string; name_lat: string; n: number }[], [] as { v: string; n: number }[], null];
   const placeOptions = place?.includes("/") ? [{ slug: place, name_lat: goUnit?.name_lat ?? place.split("/")[1], n: matchCount }, ...placeOptions0] : placeOptions0;
   // a page number past the end shows the last page, never an empty one
   const pageNo = Math.min(Math.max(1, Math.floor(query.page ?? 1)), Math.max(1, Math.ceil(matchCount / PAGE_SIZE)));
-  const pageRows = paged ? await db.getOrgsOfTypePaged(type.slug, filter, PAGE_SIZE, (pageNo - 1) * PAGE_SIZE) : [];
+  const pageRows = paged && !locMode ? await db.getOrgsOfTypePaged(type.slug, filter, PAGE_SIZE, (pageNo - 1) * PAGE_SIZE) : [];
+  const pageLocs = locMode ? await db.getLocationsOfTypePaged(type.slug, filter, PAGE_SIZE, (pageNo - 1) * PAGE_SIZE) : [];
   const orgs = paged ? pageRows : allOrgs;
   // National networks (RFZO, PIO, Poreska uprava...) are one organization with many branches: list the branches by okrug.
   // Chains (national networks, banks, insurers) are few organisations with many branches and no primary seat: list the branches by district.
   const branchMode = !paged && chain;
-  const unitCount = await db.countLocationsOfType(type.slug).catch(() => 0);
   const [branches, featured, typeGuides] = await Promise.all([branchMode ? db.getLocationsOfType(type.slug) : Promise.resolve([] as db.ServingRow[]), db.getFeatured(type.slug, null).catch(() => [] as db.FeaturedRow[]), db.getGuidesForType(type.slug).catch(() => [] as db.GuideRow[])]);
   const groups = new Map<string, db.OrgRow[]>();
   const OTHER = locale === "sr" ? "Ostalo" : locale === "en" ? "Other" : locale === "ru" ? "Прочее" : "Sonstige";
@@ -551,7 +562,7 @@ export async function OrgTypeHub({ locale, type, brand = null, place = null, que
         <Breadcrumbs locale={locale} items={[{ href: href(locale, "/"), label: d.home }, { label: d.groups[type.group] }, { label: tn(type, locale) }]} />
         <div className="eyebrow mt-4">{d.groups[type.group]}</div>
         <h1 className="font-serif text-[30px] sm:text-[38px] font-semibold leading-tight">{tn(type, locale)}</h1>
-        <p className="text-muted mt-2 tabular">{count.toLocaleString(locale === "sr" ? "sr-Latn" : locale)} {branchMode ? (locale === "sr" ? "lokacija" : locale === "en" ? "locations" : locale === "ru" ? "адресов" : "Standorte") : PERSON_TYPES.has(type.slug) ? (locale === "sr" ? "upisanih u registar" : locale === "en" ? "listed in the register" : locale === "ru" ? "в реестре" : "im Register") : d.institutions}{!branchMode && unitCount > count * 1.3 ? ` · ${unitCount.toLocaleString(locale === "sr" ? "sr-Latn" : locale)} ${pick(locale, "objekata i jedinica", "buildings and units", "зданий и подразделений", "Gebäude und Stellen")}` : ""} · {placesCount(places, locale)}</p>
+        <p className="text-muted mt-2 tabular">{multi ? `${unitCount.toLocaleString(locale === "sr" ? "sr-Latn" : locale)} ${LOC_WORD[locale]} · ` : ""}{count.toLocaleString(locale === "sr" ? "sr-Latn" : locale)} {branchMode ? LOC_WORD[locale] : PERSON_TYPES.has(type.slug) ? (locale === "sr" ? "upisanih u registar" : locale === "en" ? "listed in the register" : locale === "ru" ? "в реестре" : "im Register") : d.institutions}{!branchMode && !multi && unitCount > count * 1.3 ? ` · ${unitCount.toLocaleString(locale === "sr" ? "sr-Latn" : locale)} ${pick(locale, "objekata i jedinica", "buildings and units", "зданий и подразделений", "Gebäude und Stellen")}` : ""} · {placesCount(places, locale)}</p>
         {type.description_md && <div className="prose max-w-3xl mt-3 text-[15px] text-muted">{tx(type.description_md, locale)}</div>}
         <GuideLinks locale={locale} guides={typeGuides} />
         </div>
@@ -601,6 +612,16 @@ export async function OrgTypeHub({ locale, type, brand = null, place = null, que
                   labels={{ name: P.name, allPlaces: P.allPlaces, allFields: facetDef?.label[locale] ?? "", show: P.show, reset: P.reset }} />
                 <p className="text-[13px] text-muted tabular" aria-live="polite">{matchCount ? P.shown(from, to, matchCount) : P.none}</p>
                 {orgs.length > 0 && <OrgList orgs={orgs} locale={locale} dense byPlace />}
+                {pageLocs.length > 0 && (
+                  <ul className="grid sm:grid-cols-2 gap-3">
+                    {pageLocs.map((b) => { const seat = /^sedi[sš]te$/i.test(b.unit_name_lat.trim()) || sameName(b.unit_name_lat, b.org_name_lat); return (
+                      <li key={b.location_id} className="card card-hover p-4">
+                        <div className="eyebrow">{seat ? (UNIT_KIND[b.unit_kind]?.[locale] ?? b.unit_kind) : b.org_name_lat}</div>
+                        <Link href={href(locale, `/${b.org_type_slug}/${b.org_slug}/${b.location_slug}`)} className="hit font-serif text-[17px] font-semibold no-underline text-ink hover:text-accent">{seat ? b.org_name_lat : unitName(b.unit_name_lat, locale)}</Link>
+                        <div className="text-[13px] text-muted mt-1">{b.address_display ? `${b.address_display}, ` : ""}{b.tu_name_lat}</div>
+                      </li>); })}
+                  </ul>
+                )}
                 {pages > 1 && (
                   <nav className="pager" aria-label={P.page}>
                     {cur > 1 ? <a href={link(cur - 1)} rel="prev" className="pager-step">← {P.prev}</a> : <span className="pager-step is-off" aria-disabled="true">← {P.prev}</span>}
