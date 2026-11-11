@@ -327,5 +327,10 @@ Nick's direction: accuracy first; hours may also come from maps, or from strong 
   21 directory rows (19 health centres, the Priboj and Prijepolje hospitals) stay as pages of their own, linked as units of
   their centre (`parent_org_id`). First use of organisation status 'merged': `getOrg` reads active rows only and the old
   address answers 308 to the successor (`getOrgSuccessor`, `kind: "moved"` in the catch-all).
-  Open: Aranđelovac, Kladovo, Knjaževac, Negotin, Surdulica and Vranje have a centre and no health-centre row, so the
-  "Dom zdravlja" list is empty there; the four centres in Kosovo have no location.
+  Six towns had a centre and no health-centre row. Four were added from the centre's own site as units of the centre
+  (`db/imports/dom_zdravlja_u_centrima_2026-11-11.json`, ids in `db/fixes/health_centre_units_2026-11-11_180743.json`):
+  Aranđelovac (own site domzdravlja-ar.org.rs: address, phone, hours), Vranje (hours and card-index phone from zcvranje.com),
+  Knjaževac (information desk phone) and Kladovo (appointment phone). For the last three the address is the centre's published
+  one; the sites give no separate address for the unit. Not added: Negotin (its "Dom zdravlja" page is empty) and Surdulica
+  (zcsurdulica.rs did not answer). The Negotin centre's website was corrected to zcnegotin.rs (the old host is gone).
+  Open: the four centres in Kosovo have no location.

@@ -1,0 +1,62 @@
+{
+ "source": {
+  "name": "Sajtovi zdravstvenih centara – organizaciona jedinica Dom zdravlja",
+  "url": "https://www.zcvranje.com/",
+  "fetched_at": "2026-11-11"
+ },
+ "rows": [
+  {
+   "name": "Dom zdravlja Aranđelovac",
+   "type_slug": "dom-zdravlja",
+   "town": "Aranđelovac",
+   "municipality": "Aranđelovac",
+   "address": "Kralja Petra Prvog 62",
+   "phones": [
+    "034/711-917"
+   ],
+   "website": "https://www.domzdravlja-ar.org.rs",
+   "hours": "pon-pet 07:00-20:00; sub-ned 08:00-18:00",
+   "source_url": "https://www.domzdravlja-ar.org.rs/kontakt/"
+  },
+  {
+   "name": "Dom zdravlja Kladovo",
+   "type_slug": "dom-zdravlja",
+   "town": "Kladovo",
+   "municipality": "Kladovo",
+   "address": "Dunavska 1-3",
+   "phones": [
+    "019/801-458",
+    "019/801-455"
+   ],
+   "website": "https://www.zckladovo.co.rs/index-1.html",
+   "source_url": "https://www.zckladovo.co.rs/index-1.html"
+  },
+  {
+   "name": "Dom zdravlja Knjaževac",
+   "type_slug": "dom-zdravlja",
+   "town": "Knjaževac",
+   "municipality": "Knjaževac",
+   "address": "4. jul 2",
+   "phones": [
+    "019/730-003",
+    "019/731-526"
+   ],
+   "website": "https://www.zcknjazevac.rs",
+   "source_url": "https://www.zcknjazevac.rs/kontakt.html"
+  },
+  {
+   "name": "Dom zdravlja Vranje",
+   "type_slug": "dom-zdravlja",
+   "town": "Vranje",
+   "municipality": "Vranje",
+   "address": "Jovana Jankovića Lunge 1",
+   "phones": [
+    "017/405-391",
+    "017/7155-301"
+   ],
+   "website": "https://www.zcvranje.com/o-nama/organizacione-jedinice",
+   "hours": "pon-pet 07:00-20:00; sub-ned 08:00-18:00",
+   "source_url": "https://www.zcvranje.com/"
+  }
+ ]
+}

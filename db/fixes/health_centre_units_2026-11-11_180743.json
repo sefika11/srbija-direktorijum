@@ -1,0 +1,38 @@
+[
+ {
+  "action": "created_unit",
+  "org_id": 33966,
+  "org_slug": "dom-zdravlja-arandjelovac-arandjelovac",
+  "parent_org_id": 2708,
+  "parent_slug": "zdravstveni-centar-arandjelovac-arandjelovac"
+ },
+ {
+  "action": "created_unit",
+  "org_id": 33967,
+  "org_slug": "dom-zdravlja-kladovo-kladovo",
+  "parent_org_id": 2742,
+  "parent_slug": "zdravstveni-centar-kladovo-kladovo"
+ },
+ {
+  "action": "created_unit",
+  "org_id": 33968,
+  "org_slug": "dom-zdravlja-knjazevac-knjazevac",
+  "parent_org_id": 2741,
+  "parent_slug": "zdravstveni-centar-knjazevac-knjazevac"
+ },
+ {
+  "action": "created_unit",
+  "org_id": 33969,
+  "org_slug": "dom-zdravlja-vranje-vranje",
+  "parent_org_id": 2738,
+  "parent_slug": "zdravstveni-centar-vranje-vranje"
+ },
+ {
+  "action": "website",
+  "org_id": 2808,
+  "contact_id": 31184,
+  "before": "http://negotin.zc.rfzo.rs",
+  "after": "https://zcnegotin.rs",
+  "why": "old host no longer resolves; zcnegotin.rs carries the centre's name, address and registry number 17261487"
+ }
+]
