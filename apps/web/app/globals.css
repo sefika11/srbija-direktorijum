@@ -1412,3 +1412,11 @@ html:root .quick-chip.is-on .text-muted, html:root .quick-chip[aria-selected="tr
 .org-card-contact > a { position: relative; z-index: 2; display: inline-flex; align-items: center; gap: 4px; color: var(--accent-ink); text-decoration: none; font-weight: 500; white-space: nowrap; min-height: 24px; }
 .org-card-contact > a:hover { text-decoration: underline; }
 .org-card-contact svg { width: 13px; height: 13px; flex: none; }
+
+/* ── §60 Units of an institution (kindergarten buildings, branch schools) ───────────────────────────── */
+.unit-list > summary { cursor: pointer; font-weight: 500; font-size: 14px; list-style: none; display: flex; align-items: center; gap: 8px; }
+.unit-list > summary::before { content: "+"; display: inline-grid; place-items: center; width: 20px; height: 20px; border-radius: 6px; border: 1px solid var(--line); font-size: 13px; color: var(--muted); }
+.unit-list[open] > summary::before { content: "–"; }
+.unit-list ul { margin: 12px 0 0; padding: 0; list-style: none; columns: 2 260px; column-gap: 24px; font-size: 13.5px; }
+.unit-list li { break-inside: avoid; padding: 4px 0; border-bottom: 1px solid color-mix(in oklab, var(--line) 60%, transparent); }
+.unit-list li span { color: var(--muted); font-size: 12.5px; }

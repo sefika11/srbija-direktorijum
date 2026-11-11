@@ -523,6 +523,7 @@ export async function OrgTypeHub({ locale, type, brand = null, place = null, que
   // National networks (RFZO, PIO, Poreska uprava...) are one organization with many branches: list the branches by okrug.
   // Chains (national networks, banks, insurers) are few organisations with many branches and no primary seat: list the branches by district.
   const branchMode = !paged && chain;
+  const unitCount = await db.countLocationsOfType(type.slug).catch(() => 0);
   const [branches, featured, typeGuides] = await Promise.all([branchMode ? db.getLocationsOfType(type.slug) : Promise.resolve([] as db.ServingRow[]), db.getFeatured(type.slug, null).catch(() => [] as db.FeaturedRow[]), db.getGuidesForType(type.slug).catch(() => [] as db.GuideRow[])]);
   const groups = new Map<string, db.OrgRow[]>();
   const OTHER = locale === "sr" ? "Ostalo" : locale === "en" ? "Other" : locale === "ru" ? "Прочее" : "Sonstige";
@@ -548,7 +549,7 @@ export async function OrgTypeHub({ locale, type, brand = null, place = null, que
         <Breadcrumbs locale={locale} items={[{ href: href(locale, "/"), label: d.home }, { label: d.groups[type.group] }, { label: tn(type, locale) }]} />
         <div className="eyebrow mt-4">{d.groups[type.group]}</div>
         <h1 className="font-serif text-[30px] sm:text-[38px] font-semibold leading-tight">{tn(type, locale)}</h1>
-        <p className="text-muted mt-2 tabular">{count.toLocaleString(locale === "sr" ? "sr-Latn" : locale)} {branchMode ? (locale === "sr" ? "lokacija" : locale === "en" ? "locations" : locale === "ru" ? "адресов" : "Standorte") : PERSON_TYPES.has(type.slug) ? (locale === "sr" ? "upisanih u registar" : locale === "en" ? "listed in the register" : locale === "ru" ? "в реестре" : "im Register") : d.institutions} · {placesCount(places, locale)}</p>
+        <p className="text-muted mt-2 tabular">{count.toLocaleString(locale === "sr" ? "sr-Latn" : locale)} {branchMode ? (locale === "sr" ? "lokacija" : locale === "en" ? "locations" : locale === "ru" ? "адресов" : "Standorte") : PERSON_TYPES.has(type.slug) ? (locale === "sr" ? "upisanih u registar" : locale === "en" ? "listed in the register" : locale === "ru" ? "в реестре" : "im Register") : d.institutions}{!branchMode && unitCount > count * 1.3 ? ` · ${unitCount.toLocaleString(locale === "sr" ? "sr-Latn" : locale)} ${pick(locale, "objekata i jedinica", "buildings and units", "зданий и подразделений", "Gebäude und Stellen")}` : ""} · {placesCount(places, locale)}</p>
         {type.description_md && <div className="prose max-w-3xl mt-3 text-[15px] text-muted">{tx(type.description_md, locale)}</div>}
         <GuideLinks locale={locale} guides={typeGuides} />
         </div>
@@ -656,12 +657,18 @@ export async function OrgPage({ locale, org, locSlug, path }: { locale: Locale; 
   const type = types.find((x) => x.slug === org.type_slug)!;
   const loc = (locSlug ? locations.find((l) => l.location_slug === locSlug) : null) ?? locations.find((l) => l.is_primary) ?? locations[0] ?? null;
   const ids = loc ? [loc.location_id] : [];
-  const [contacts, hours, coverage, ancestors, sponsor] = await Promise.all([
-    db.getContacts(ids), db.getHours(ids), db.getCoverage(ids),
+  // a unit (a kindergarten building, a branch school) often has no contact of its own in the register: the seat's is shown, said as such
+  const seat = locations.find((l) => l.is_primary) ?? null;
+  const isUnit = !!loc && !loc.is_primary && !!seat && seat.location_id !== loc.location_id;
+  const [contactsAll, hours, coverage, ancestors, sponsor] = await Promise.all([
+    db.getContacts(isUnit ? [...ids, seat!.location_id] : ids), db.getHours(ids), db.getCoverage(ids),
     loc ? db.getAncestors((await db.sql<{ path: string }[]>`select path::text from territorial_units where slug = ${loc.tu_slug} limit 1`)[0]?.path ?? "") : Promise.resolve([]),
     loc ? db.getSponsorship("loc_after_address_native", (await db.sql<{ id: number }[]>`select id from territorial_units where slug = ${loc.tu_slug} limit 1`)[0]?.id ?? 0, type.id, org.id, loc.location_id) : Promise.resolve(null),
   ]);
   const jls = ancestors.find((a) => a.level === "jls"); const okrug = ancestors.find((a) => a.level === "okrug");
+  const own = contactsAll.filter((c) => !loc || c.location_id === loc.location_id);
+  const viaSeat = isUnit && !own.some((c) => ["phone", "mobile"].includes(c.kind));
+  const contacts = viaSeat ? contactsAll.filter((c) => c.location_id === seat!.location_id) : own;
   const phones = contacts.filter((c) => ["phone", "mobile"].includes(c.kind)); const emails = contacts.filter((c) => c.kind === "email"); const sites = contacts.filter((c) => c.kind === "website");
   const site = org.website ?? sites[0]?.value ?? null;
   const placeLine = loc ? [loc.address_display, loc.address_extra, [loc.postal_code, loc.settlement_name_lat ?? loc.tu_name_lat].filter(Boolean).join(" ")].filter(Boolean).join(", ") : null;
@@ -721,6 +728,7 @@ export async function OrgPage({ locale, org, locSlug, path }: { locale: Locale; 
               <dt className="text-muted">{d.website}</dt><dd className="break-all">{site ? <a href={site.startsWith("http") ? site : `https://${site}`} rel="noopener">{site.replace(/^https?:\/\//, "")}</a> : <span className="text-muted">—</span>}</dd>
               {regLine && <><dt className="text-muted">{d.registry}</dt><dd className="font-mono text-[12.5px] text-muted">{regLine}</dd></>}
             </dl>
+            {viaSeat && <p className="text-[13px] text-muted mt-3">{pick(locale, "Ova jedinica nema svoj telefon u registru; prikazan je kontakt sedišta ustanove:", "This unit has no phone of its own in the register; the contact shown is the institution's seat:", "У этого подразделения нет своего телефона в реестре; показан контакт головного учреждения:", "Diese Stelle hat im Register kein eigenes Telefon; angezeigt wird der Kontakt des Sitzes:")} <Link href={orgHref(locale, org)}>{org.name_lat}</Link>{seat?.address_display ? `, ${seat.address_display}${seat.settlement_name_lat ? `, ${seat.settlement_name_lat}` : ""}` : ""}.</p>}
             {regFacts.length > 0 && (
               <dl className="reg-facts">
                 {regFacts.map((f) => <Fragment key={f.label}><dt>{f.label}</dt><dd>{f.value}</dd></Fragment>)}
@@ -743,7 +751,10 @@ export async function OrgPage({ locale, org, locSlug, path }: { locale: Locale; 
             <section data-reveal data-fx="flip" className="card p-4 sm:p-5 mt-5">
               <SectionTitle>{d.jurisdiction}</SectionTitle>
               {coverage.length > 0 && <p className="text-[14px]">{d.coveredAreas}: <span className="inline-flex flex-wrap gap-1.5 align-middle">{coverage.map((c) => <Link key={c.slug} href={tuHref(locale, c)} className="rounded-full border border-line bg-surface px-2.5 py-0.5 text-[12.5px] no-underline text-ink">{c.name_lat}</Link>)}</span></p>}
-              {locations.length > 1 && <div className="mt-3 text-[14px]"><span className="text-muted">{d.units}:</span> {locations.filter((l) => !loc || l.location_id !== loc.location_id).slice(0, 40).map((l, i) => <span key={l.location_id}>{i > 0 && " · "}<Link href={href(locale, `/${org.type_slug}/${org.slug}/${l.location_slug}`)}>{unitName(l.unit_name_lat, locale)}</Link></span>)}{locations.length > 41 ? ` … (${locations.length})` : ""}</div>}
+              {locations.length > 1 && locations.length <= 13 && <div className="mt-3 text-[14px]"><span className="text-muted">{d.units}:</span> {locations.filter((l) => !loc || l.location_id !== loc.location_id).map((l, i) => <span key={l.location_id}>{i > 0 && " · "}<Link href={href(locale, `/${org.type_slug}/${org.slug}/${l.location_slug}`)}>{unitName(l.unit_name_lat, locale)}</Link></span>)}</div>}
+              {/* many units (a preschool institution with dozens of kindergartens): every one is listed, by name */}
+              {locations.length > 13 && <details className="mt-3 unit-list" open={!isUnit}><summary>{d.units} <span className="text-muted tabular font-normal">({(locations.length - 1).toLocaleString(locale === "sr" ? "sr-Latn" : locale)})</span></summary>
+                <ul>{locations.filter((l) => !loc || l.location_id !== loc.location_id).sort((x, y) => Number(y.is_primary) - Number(x.is_primary) || x.unit_name_lat.localeCompare(y.unit_name_lat, "sr-Latn")).map((l) => <li key={l.location_id}><Link href={href(locale, `/${org.type_slug}/${org.slug}/${l.location_slug}`)}>{unitName(l.unit_name_lat, locale)}</Link>{l.address_display ? <span> · {l.address_display}</span> : l.settlement_name_lat && !l.unit_name_lat.includes(l.settlement_name_lat) ? <span> · {l.settlement_name_lat}</span> : null}</li>)}</ul></details>}
               {org.parent_name && org.parent_slug && org.parent_type_slug && <div className="mt-3 text-[14px]"><span className="text-muted">{d.parentUnit}:</span> <Link href={href(locale, `/${org.parent_type_slug}/${org.parent_slug}`)}>{org.parent_name}</Link></div>}
               {children.length > 0 && <div className="mt-3 text-[14px]"><span className="text-muted">{pick(locale, "U sastavu", "Subordinate bodies", "Подчинённые органы", "Nachgeordnete Stellen")}:</span> {children.slice(0, 30).map((c, i) => <span key={c.id}>{i > 0 && " · "}<Link href={orgHref(locale, c)}>{c.name_lat}</Link></span>)}{children.length > 30 ? ` … (${children.length})` : ""}</div>}
             </section>

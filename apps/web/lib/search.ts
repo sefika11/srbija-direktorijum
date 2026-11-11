@@ -292,6 +292,18 @@ async function matchBrandBranches(q: string, placePath: string | null, limit: nu
       and (f_unaccent(lower(o.name_lat)) % qq.q or o.search @@ plainto_tsquery('simple', qq.q))
     order by similarity(f_unaccent(lower(o.name_lat)), qq.q) desc, (l.address_display is not null) desc, (select count(*) from location_contacts c where c.location_id = l.id) desc limit ${limit}`;
 }
+/** A unit by its own name: the kindergarten "Čarobni šešir", the branch school in Belut. Non-seat locations only (the seat is found through its institution). */
+async function matchUnits(q: string, placePath: string | null, limit: number): Promise<BranchHit[]> {
+  if (q.length < 4) return [];
+  return sql<BranchHit[]>`
+    with qq as (select f_unaccent(lower(${q})) as q)
+    select similarity(f_unaccent(lower(l.unit_name_lat)), qq.q)::float as sim, o.slug as org_slug, o.name_lat as org_name, t.slug as type_slug, t.icon, l.slug as location_slug, l.unit_name_lat as unit_name,
+           coalesce(l.address_display, l.settlement_name_lat, tu.name_lat) as address, null::text as phone
+    from locations l join organizations o on o.id = l.org_id join org_types t on t.id = o.org_type_id join territorial_units tu on tu.id = l.territorial_unit_id, qq
+    where l.status = 'active' and o.status = 'active' and not l.is_primary and l.search @@ plainto_tsquery('simple', qq.q)
+      ${placePath ? sql`and tu.path <@ ${placePath}::ltree` : sql``}
+    order by sim desc limit ${limit}`;
+}
 /** How many institutions (or branches) of each type sit inside a place: decides whether "apoteka Niš" can open the list for Niš. */
 async function typeCountsIn(typeSlugs: string[], placePath: string | null): Promise<Record<string, number>> {
   if (!typeSlugs.length || !placePath) return {};
@@ -324,7 +336,7 @@ export async function suggest(q: string, locale: Locale, scopeSlug?: string | nu
   const placePath = det?.place.path ?? null;
   // many city institutions are filed under the city, not its municipality: "banka Zemun" then falls back to Belgrade
   const isGO = det?.place.level === "gradska_opstina"; const cityPath = isGO ? det!.place.path.split(".").slice(0, -1).join(".") : null;
-  const [places, orgs, countries, icons, typeBranches, brandBranches, inPlace, inCity] = await Promise.all([
+  const [places, orgs, countries, icons, typeBranches, brandBranches, inPlace, inCity, unitHits] = await Promise.all([
     det && !scopeSlug ? Promise.resolve([det.place]) : scopeSlug ? Promise.resolve([] as Place[]) : placesLike(tokens, 3),
     intent ? matchOrgs(intent, placePath, scopeSlug ? 10 : 6, locale).catch(() => []) : Promise.resolve([]),
     scopeSlug ? Promise.resolve([]) : matchCountries(intentTokens, locale, 3).catch(() => []), typeIcons(),
@@ -332,6 +344,8 @@ export async function suggest(q: string, locale: Locale, scopeSlug?: string | nu
     intent && det ? matchBrandBranches(intent, det.place.path, 6).catch(() => [] as BranchHit[]) : Promise.resolve([] as BranchHit[]),
     typeCountsIn(branchTypes, placePath).catch(() => ({} as Record<string, number>)),
     typeCountsIn(branchTypes, cityPath).catch(() => ({} as Record<string, number>)),
+    // only when the words contain a name: "vrtić" alone is a need (the guide and the type answer it), "vrtić Palčić" names a unit
+    intent && intentTokens.some((t) => t.length >= 4 && !isVocabulary(t)) ? matchUnits(intent, placePath, 4).catch(() => [] as BranchHit[]) : Promise.resolve([] as BranchHit[]),
   ]);
   const cityName = isGO ? (await units()).find((u) => u.id === det!.place.parent_id)?.name_lat ?? null : null;
   type Ranked = Suggestion & { rank: number };
@@ -377,6 +391,11 @@ export async function suggest(q: string, locale: Locale, scopeSlug?: string | nu
     const generic = /^(ekspozitura|poslovnica|filijala|ispostava|sediste|sedište|ambulanta|pošta|posta)$/i.test(b.unit_name.trim()); const key = `${b.org_name}|${b.address ?? ""}|${generic ? "" : b.unit_name}`;
     if (seenBranch.has(key)) continue; seenBranch.add(key); const h = `/${b.type_slug}/${b.org_slug}/${b.location_slug}`; seen.add(h);
     out.push({ rank: brandKeys.has(`${b.org_slug}/${b.location_slug}`) ? (justAType ? 1.8 : 2.6 + 2.6 * (b.sim ?? 0.2)) : 1.5, kind: "org", href: href(locale, h), title: generic || b.unit_name.toLowerCase().includes(b.org_name.toLowerCase()) ? b.org_name : `${b.org_name} · ${b.unit_name}`, sub: [b.address, det?.place.name_lat].filter(Boolean).join(", ") || (generic ? `${b.unit_name} · ${det?.place.name_lat ?? ""}` : null), icon: b.icon, phone: b.phone });
+  }
+  // a unit named (nearly) as typed is an answer; one that merely shares a common word ("vrtić") is left to the type row
+  for (const b of unitHits) {
+    if ((b.sim ?? 0) < 0.45) continue; const h = `/${b.type_slug}/${b.org_slug}/${b.location_slug}`; if (seen.has(h)) continue; seen.add(h);
+    out.push({ rank: 1.6 + 2.6 * (b.sim ?? 0), kind: "org", href: href(locale, h), title: b.unit_name, sub: [b.org_name, b.address].filter(Boolean).join(" · "), icon: b.icon ?? icons[b.type_slug] ?? null, phone: null });
   }
   for (const o of orgs) {
     const h = `/${o.type_slug}/${o.slug}`; if (seen.has(h)) continue; seen.add(h);

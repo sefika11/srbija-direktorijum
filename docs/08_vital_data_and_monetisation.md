@@ -183,3 +183,39 @@ schools, mediators) is not listed on one page: `/<type>?q=<name>&mesto=<municipa
 `getFacetValues` in `apps/web/lib/db.ts`). The form is a plain GET form, so it works without JavaScript and every
 result page has its own address. The field filter is configured per type in `TYPE_FACET` (`components/pages.tsx`);
 today only court experts have one (the main field of expertise, values with at least 30 experts).
+
+## 10. Units of institutions and the municipal contact pass (2026-11-11)
+
+**Units (buildings and branch schools).** The directory held one row per institution: 171 state preschool
+institutions, 1,247 primary schools. The kindergarten in your street and the branch school in the village were missing.
+Source: Ministry of Education open data, `https://opendata.mpn.gov.rs/srv/{PO,Oo,So}/PodaciOLOPJSON` (one row per
+building) joined to `kontaktPodaciJSON` (registration number). Job: `importers/jobs/load_education_units.py`
+(dry run by default, `--write` to apply, idempotent).
+- Institutions are matched by registration number; private ones (we had no number) by name + municipality, and their
+  number is filled in. Institutions in the registry that we do not hold are listed in
+  `db/imports/education_unmatched_<date>.json` (77 on the first run), not created.
+- **The file repeats the seat's street on every row.** A unit therefore gets its name and municipality (a branch
+  school also its village, when the name gives it) and NO street. Their own addresses must come from each
+  institution's site (next scrape: 171 preschool institutions list their buildings on one page each).
+- On the site a unit page shows the seat's contact, said as such; the institution page lists every unit; the type page
+  shows the unit count beside the institution count; the search finds a unit by its own name.
+
+**City municipalities.** `importers/jobs/assign_city_municipality.py` moves locations filed under a city to the city
+municipality from coordinates (OSM boundaries), settlement name or address tail. 3,123 of 13,534 moved on the first
+run; re-run after every import. Undo file in `db/fixes/`.
+
+**Municipal contact pass (agents, official sites only).** Targets per municipality in
+`db/targets/muni_2026-11-11/chunks/` (161 chunks, 9,206 institutions lacking an address or a phone; private practices
+without a website of their own are left out, there is no official source for them). One Sonnet agent per chunk reads
+the municipality's site, its Informator o radu and the institutions' own sites; output per chunk in
+`db/contacts/muni_2026-11-11/`. Before applying, a clean-up drops private mobiles and private e-mails of community
+office presidents and any address without a number; then `apply_contacts.py --source institution_site --confidence 0.75`.
+- Pilot (14 chunks): 451 applied. Wave 2 (40 chunks): 1,496 applied. Yield about 37% of rows; best where the city
+  publishes list pages (Čačak 111/139, Leskovac 102/120), worst in Belgrade (state bodies, firms without sites, and a
+  fetch rate limit with 16 agents at once; wave 3 runs eight at a time and tells agents to fall back to curl).
+- Cost: about 120,000 tokens per chunk.
+
+**No free bulk source for every private business.** The business register (APR) publishes only the financial
+statements API on data.gov.rs; its company search is single-record. Routes for the private sector: sector registers
+(done for banks, insurers, exchange offices, auditors, hotels, private schools and kindergartens, and more), OSM,
+institutions' own sites, owners adding and claiming their listing, or buying the register extract from APR.

@@ -265,6 +265,9 @@ export const getServing = (jlsId: number, typeSlug: string) =>
                     and location_status = 'active'
                     order by (address_display is not null) desc, is_primary desc, unit_kind = 'filijala' desc, (unit_name_lat ilike 'policijska stanica%' or unit_name_lat ilike 'policijska uprava%' or unit_name_lat ilike 'vatrogasn%') desc, unit_name_lat limit 8`;
 /** All locations of a national-network type, for hub pages where one organization has many branches. */
+/** every active location of a type (seats, branches, buildings): shown next to the institution count when it is much larger */
+export const countLocationsOfType = (typeSlug: string) =>
+  sql<{ n: number }[]>`select count(*)::int as n from locations l join organizations o on o.id = l.org_id join org_types t on t.id = o.org_type_id where l.status = 'active' and o.status = 'active' and t.slug = ${typeSlug}`.then((r) => r[0]?.n ?? 0);
 export const getLocationsOfType = (typeSlug: string) =>
   sql<ServingRow[]>`select ${LOC_COLS} from v_location_page where org_type_slug = ${typeSlug} and location_status = 'active'
                     order by okrug_name_lat nulls last, jls_name_lat, unit_kind = 'filijala' desc, unit_name_lat limit 6000`;
