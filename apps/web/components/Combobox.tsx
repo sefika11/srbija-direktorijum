@@ -2,6 +2,8 @@
 /**
  * Combobox — one picker for the whole site: type to filter, or open the list and pick. Keyboard: ↓↑ move, Enter picks,
  * Esc closes, Backspace on a picked value clears it. Cyrillic and diacritics fold so "nemacka" finds "Nemačka".
+ * An open list holds EVERY option (scrolling), never the first few: a reader who does not type must still reach "Zrenjanin".
+ * Only a list longer than `maxItems` (600) is cut, and then its last row says how many more typing would find.
  * The list is rendered into <body> at a fixed position under (or, without room, above) the field, so no card, deck or
  * section with overflow/contain can ever cut it off, and it always sits above the page.
  */
@@ -13,7 +15,7 @@ export type ComboOption = { value: string; label: string; sub?: string; icon?: R
 const CYR: Record<string, string> = { а: "a", б: "b", в: "v", г: "g", д: "d", ђ: "dj", е: "e", ж: "z", з: "z", и: "i", ј: "j", к: "k", л: "l", љ: "lj", м: "m", н: "n", њ: "nj", о: "o", п: "p", р: "r", с: "s", т: "t", ћ: "c", у: "u", ф: "f", х: "h", ц: "c", ч: "c", џ: "dz", ш: "s" };
 export const fold = (s: string) => s.toLowerCase().replace(/[а-яђјљњћџ]/g, (c) => CYR[c] ?? c).normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/đ/g, "dj");
 
-export default function Combobox({ options, value, onChange, placeholder, label, disabled, className = "", inputClassName = "", maxItems = 12, emptyText = "—", size = "md" }: {
+export default function Combobox({ options, value, onChange, placeholder, label, disabled, className = "", inputClassName = "", maxItems = 600, emptyText = "—", size = "md" }: {
   options: ComboOption[]; value: string | null; onChange: (value: string | null, option: ComboOption | null) => void;
   placeholder: string; label: string; disabled?: boolean; className?: string; inputClassName?: string; maxItems?: number; emptyText?: string; size?: "md" | "lg";
 }) {
@@ -21,21 +23,23 @@ export default function Combobox({ options, value, onChange, placeholder, label,
   const selected = useMemo(() => options.find((o) => o.value === value) ?? null, [options, value]);
   const [q, setQ] = useState(""); const [open, setOpen] = useState(false); const [active, setActive] = useState(0); const [typing, setTyping] = useState(false);
   const root = useRef<HTMLDivElement>(null); const input = useRef<HTMLInputElement>(null); const list = useRef<HTMLUListElement>(null);
-  const shown = useMemo(() => {
+  const [shown, more] = useMemo((): [ComboOption[], number] => {
     const f = fold(q.trim());
-    if (!f) return options.slice(0, maxItems);
+    if (!f) return [options.slice(0, maxItems), Math.max(0, options.length - maxItems)];
     const starts: ComboOption[] = [], has: ComboOption[] = [];
-    for (const o of options) { const l = fold(o.label), k = o.keywords ? fold(o.keywords) : ""; if (l.startsWith(f) || k.split(/\s+/).some((w) => w.startsWith(f))) starts.push(o); else if (l.includes(f) || k.includes(f)) has.push(o); if (starts.length >= maxItems) break; }
-    return [...starts, ...has].slice(0, maxItems);
+    for (const o of options) { const l = fold(o.label), k = o.keywords ? fold(o.keywords) : ""; if (l.startsWith(f) || k.split(/\s+/).some((w) => w.startsWith(f))) starts.push(o); else if (l.includes(f) || k.includes(f)) has.push(o); }
+    const all = [...starts, ...has];
+    return [all.slice(0, maxItems), Math.max(0, all.length - maxItems)];
   }, [q, options, maxItems]);
-  useEffect(() => { setActive(0); }, [q, open]);
-  useEffect(() => { const el = list.current?.children[active] as HTMLElement | undefined; el?.scrollIntoView?.({ block: "nearest" }); }, [active, shown]);
+  // opening the list starts at the picked option (so it is in view), typing starts at the best match
+  useEffect(() => { const at = !q && value ? shown.findIndex((o) => o.value === value) : -1; setActive(at >= 0 ? at : 0); }, [q, open]); // eslint-disable-line react-hooks/exhaustive-deps
   useEffect(() => { if (!open) return; const off = (e: PointerEvent) => { const t = e.target as Node; if (!root.current?.contains(t) && !list.current?.contains(t)) { setOpen(false); setTyping(false); setQ(""); } }; document.addEventListener("pointerdown", off); return () => document.removeEventListener("pointerdown", off); }, [open]);
   // where the list goes: glued to the field, below it when there is room (at least 200 px), otherwise above
   const [box, setBox] = useState<{ left: number; width: number; top?: number; bottom?: number; maxHeight: number } | null>(null);
   useLayoutEffect(() => {
     if (!open) { setBox(null); return; }
-    const place = () => {
+    const place = (e?: Event) => {
+      if (e && e.target === list.current) return;   // the list's own scrolling does not move the field
       const r = root.current?.getBoundingClientRect(); if (!r) return;
       const below = window.innerHeight - r.bottom - 14, above = r.top - 14; const up = below < 200 && above > below;
       const w = Math.min(Math.max(260, r.width), window.innerWidth - 16);
@@ -44,6 +48,8 @@ export default function Combobox({ options, value, onChange, placeholder, label,
     place(); window.addEventListener("scroll", place, { passive: true, capture: true }); window.addEventListener("resize", place);
     return () => { window.removeEventListener("scroll", place, { capture: true } as EventListenerOptions); window.removeEventListener("resize", place); };
   }, [open]);
+  const ready = !!box;   // the list exists from the first placement on; scrolling inside it must not snap back to the active row
+  useEffect(() => { const el = list.current?.children[active] as HTMLElement | undefined; el?.scrollIntoView?.({ block: "nearest" }); }, [active, shown, ready]);
   const pick = (o: ComboOption | null) => { onChange(o?.value ?? null, o); setQ(""); setTyping(false); setOpen(false); };
   const shownValue = typing ? q : selected?.label ?? "";
   return (
@@ -51,7 +57,7 @@ export default function Combobox({ options, value, onChange, placeholder, label,
       {selected?.icon && !typing && <span className="cbx-icon" aria-hidden>{selected.icon}</span>}
       <input ref={input} id={id} type="text" role="combobox" aria-expanded={open} aria-controls={`${id}-list`} aria-autocomplete="list" aria-label={label} autoComplete="off" spellCheck={false} disabled={disabled}
         className={`cbx-input ${inputClassName}`} placeholder={placeholder} value={shownValue}
-        onFocus={() => setOpen(true)} onClick={() => setOpen(true)}
+        onFocus={(e) => { setOpen(true); if (!typing && selected) e.currentTarget.select(); }} onClick={(e) => { setOpen(true); if (!typing && selected) e.currentTarget.select(); }}
         onChange={(e) => { setTyping(true); setQ(e.target.value); setOpen(true); }}
         onKeyDown={(e) => {
           if (e.key === "ArrowDown") { e.preventDefault(); setOpen(true); setActive((a) => Math.min(shown.length - 1, a + 1)); }
@@ -75,6 +81,7 @@ export default function Combobox({ options, value, onChange, placeholder, label,
               {o.sub && <span className="cbx-sub">{o.sub}</span>}
             </li>
           ))}
+          {more > 0 && <li className="cbx-empty" aria-live="polite">+ {more.toLocaleString()} …</li>}
         </ul>, document.body
       )}
     </div>

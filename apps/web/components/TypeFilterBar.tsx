@@ -16,8 +16,8 @@ export default function TypeFilterBar({ base, q, place, facet, places, facets, l
   return (
     <form className={`type-filter card p-3.5 ${facets.length ? "has-facet" : ""}`} role="search" action={base} method="get" onSubmit={(e) => { e.preventDefault(); go(name, pl, fc); }}>
       <input type="search" name="q" value={name} onChange={(e) => setName(e.target.value)} placeholder={labels.name} aria-label={labels.name} maxLength={60} />
-      <Combobox label={labels.allPlaces} placeholder={labels.allPlaces} value={pl} options={places} maxItems={60} onChange={(v) => { setPl(v); go(name, v, fc); }} />
-      {facets.length > 0 && <Combobox label={labels.allFields} placeholder={labels.allFields} value={fc} options={facets} maxItems={40} onChange={(v) => { setFc(v); go(name, pl, v); }} />}
+      <Combobox label={labels.allPlaces} placeholder={labels.allPlaces} value={pl} options={places} onChange={(v) => { setPl(v); go(name, v, fc); }} />
+      {facets.length > 0 && <Combobox label={labels.allFields} placeholder={labels.allFields} value={fc} options={facets} onChange={(v) => { setFc(v); go(name, pl, v); }} />}
       <button type="submit" className="btn-primary">{labels.show}</button>
       {filtered && <a href={base} className="type-filter-reset">{labels.reset}</a>}
     </form>
