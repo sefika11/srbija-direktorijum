@@ -359,4 +359,10 @@ contracted-pharmacy list (`rfzo_apoteke`, 3,405 rows). Before proposing a source
 - Types and source in `db/seed_patch_022_register_types.sql`; search words in `search-lexicon-extra.json`.
 - Still unused, by choice: MTO register of associations (2,136 with an address; associations are not a type we hold),
   APR companies and NGO files (no address), housing communities.
+- **Phones from OpenStreetMap** (Nick's go-ahead 2026-11-11; `tools/reach/osm_phones.py`, extract `.cache/osm/phones_rs.json`,
+  15,320 named elements with a phone, 5,257 of a kind we hold). 136 locations without a phone got one: 80 matched by street
+  and number, 56 seats by an identical distinctive name inside the municipality (66 hotels, 52 schools, 15 kindergartens,
+  3 others). Each number carries the label `OpenStreetMap` in `location_contacts.label`; OrgPage prints one line naming the
+  source. Schools and public bodies take landlines only. Ids in `db/fixes/osm_phones_2026-11-11_191720.json`.
+  The map has little more to give: 10,023 of our 10,159 phone-less locations of those kinds have no map twin with a phone.
 
