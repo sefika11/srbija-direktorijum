@@ -69,9 +69,9 @@ function OrgList({ orgs, locale, dense = false, compact = false, byPlace = false
   // very large types (thousands of rows): one light line per institution, plain anchors, so the page stays a sane size
   if (compact) return <ul className="org-compact">{orgs.map((o) => <li key={o.id}><a href={orgHref(locale, o)}>{o.name_lat}</a>{o.place_name && <span>{o.place_name}</span>}</li>)}</ul>;
   return (
-    <ul className={`grid gap-2 ${dense ? "sm:grid-cols-2 lg:grid-cols-3" : "sm:grid-cols-2"}`}>
+    <ul className={`grid grid-cols-1 gap-2 ${dense ? "sm:grid-cols-2 lg:grid-cols-3" : "sm:grid-cols-2"}`}>
       {orgs.map((o) => (
-        <li key={o.id} className="card card-hover spot px-3.5 py-2.5">
+        <li key={o.id} className="card card-hover spot px-3.5 py-2.5 min-w-0">
           <Link href={orgHref(locale, o)} className="hit no-underline text-ink font-medium text-[14px] leading-snug block hover:text-accent">{o.name_lat}</Link>
           <div className="text-[12px] text-muted mt-0.5 truncate">{o.is_private && <span className="inline-block rounded-full bg-surface-2 px-1.5 py-px text-[10.5px] uppercase tracking-wider font-semibold mr-1.5 align-middle">{locale === "sr" ? "privatno" : locale === "en" ? "private" : locale === "ru" ? "частное" : "privat"}</span>}{byPlace ? (o.place_name ?? o.founder_name ?? rowType(o, locale)) : <>{rowType(o, locale)}{o.place_name && o.place_name !== o.founder_name ? ` · ${o.place_name}` : ""}</>}</div>
         </li>

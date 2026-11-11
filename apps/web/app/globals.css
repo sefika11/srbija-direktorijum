@@ -1404,3 +1404,5 @@ html:root .quick-chip.is-on .text-muted, html:root .quick-chip[aria-selected="tr
 .road-group-n { font-size: 13.5px; font-weight: 500; color: var(--accent-ink); white-space: nowrap; }
 .road-group-head { display: flex; align-items: center; gap: 12px; margin-bottom: 14px; font-family: var(--font-display); font-weight: 400; font-size: 22px; letter-spacing: -.02em; }
 .road-group-head .tabular { font-family: var(--font-sans); font-size: 14px; color: var(--muted); }
+/* phone: a row that scrolls sideways shows it (the quick links under the home search fade at the right edge) */
+@media (max-width: 639px) { .hero-popular { -webkit-mask-image: linear-gradient(90deg, #000 calc(100% - 34px), transparent); mask-image: linear-gradient(90deg, #000 calc(100% - 34px), transparent); padding-right: 26px; scrollbar-width: none; } }
