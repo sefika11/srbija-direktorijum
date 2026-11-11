@@ -374,3 +374,27 @@ contracted-pharmacy list (`rfzo_apoteke`, 3,405 rows). Before proposing a source
   (`db/fixes/go_from_import_2026-11-11_202652.json`); the loader files such rows under the city.
   The page marks them up as schema.org NGO (animal shelters as AnimalShelter).
 
+## 15. Buildings, not legal entities, and what the open map still holds (2026-11-12)
+
+- **Counts by building.** Nick: "no way there are only 17 vrtići in Belgrade". The site counted legal entities: 18 public
+  preschool institutions in Belgrade run 398 kindergartens and nurseries. Rule now in `lib/db.ts` (`getMultiTypes`): a type
+  whose active locations are at least 1.25 times its institutions, national networks aside, is counted and listed by
+  location in a place (apoteka, osnovna-skola, predskolska-ustanova, privatni-vrtic, dom-zdravlja, muzicka-skola, insurers).
+  City pages show a tile with the location count (also for buildings run by an institution seated elsewhere), and
+  `/<type>?mesto=<place>` pages through the buildings. Search for a type in a city municipality shows that municipality's
+  own places first. Still open: 807 pharmacy, 385 exchange-office and 309 private-kindergarten locations in Belgrade are
+  filed under the city, so the city-municipality lists miss them.
+- **Map census** (`tools/reach/osm_census_extract.py`, `tools/reach/osm_census.py`; Geofabrik extract of 2026-11-09). The
+  whole map of Serbia has 48,454 named service places (10,776 more without a name).
+  - Kinds the site holds: 14,959 named, 11,086 already held (4,607 the same map element, 1,892 same address, 571 same point,
+    4,022 same name in the municipality), 3,873 unmatched. Unmatched is an upper bound: 101 are Dr. Max pharmacies the map
+    lists without an address. Only 482 of the unmatched have both a phone and a street; 1,952 have a phone, a street or a site.
+  - Service kinds the site does not hold: 10,457 (fuel stations 1,413, of which 990 with a phone and 1,253 with hours;
+    other companies' offices 1,850; hairdressers and beauty 1,129; betting shops 1,010; accommodation other than hotels 948;
+    car repair, tyres, car wash 811; car dealers, parts, rental 614; trades 557; gyms and leisure 449; opticians 292; travel
+    agencies 150). 1,977 have both a phone and a street, 6,501 at least one contact.
+  - Shops, restaurants and cafes: 22,593 (not institutions).
+  - Conclusion: the map cannot supply the private long tail. It is worth an import only for sectors where it is strong
+    (fuel stations, vehicle inspection, opticians, travel agencies, gyms, car services). Not imported; waits for Nick.
+- Found in passing: the map import of 2026-11-09 attached every Belgrade ambulanta to one health centre, so
+  "Dom zdravlja Vračar" appears as a unit of Dom zdravlja "Savski venac".
