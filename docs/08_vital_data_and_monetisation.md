@@ -382,8 +382,21 @@ contracted-pharmacy list (`rfzo_apoteke`, 3,405 rows). Before proposing a source
   location in a place (apoteka, osnovna-skola, predskolska-ustanova, privatni-vrtic, dom-zdravlja, muzicka-skola, insurers).
   City pages show a tile with the location count (also for buildings run by an institution seated elsewhere), and
   `/<type>?mesto=<place>` pages through the buildings. Search for a type in a city municipality shows that municipality's
-  own places first. Still open: 807 pharmacy, 385 exchange-office and 309 private-kindergarten locations in Belgrade are
-  filed under the city, so the city-municipality lists miss them.
+  own places first.
+- **City municipality from the street** (`tools/reach/city_streets_extract.py`, `tools/reach/assign_go_by_street.py`). 5,704
+  locations with a street were filed under one of the six cities because their register gives only "street number, Beograd".
+  The map holds 553,166 address points and 15,311 named streets inside those cities; a row moves only when the street (or
+  that house number on it) lies in one municipality, no look-alike street name with that number lies in another, and the
+  row does not name a place elsewhere. The rules were first run on 3,846 locations whose municipality was already known:
+  1,530 agreed, 31 disagreed, and most of the 31 are wrong existing filings (units that inherited their seat's
+  municipality, youth associations filed by the register's column). Known residual error: a street renamed since the
+  register was written ("Goce Delčeva" in Novi Beograd, now "Aleksinačkih rudara") matches its namesake elsewhere.
+  Written 2026-11-12: 2,397 moved (2,041 Beograd, 345 Niš, 11 others; `db/fixes/go_by_street_2026-11-12_004320.json`).
+  Belgrade pharmacies under the city 807 -> 143, exchange offices 385 -> 95, private kindergartens 309 -> 85; Zemun went
+  from 1 pharmacy to 62. Left under the city: 657 rows whose street and number exist in two municipalities, 481 whose
+  street the map does not have under that spelling, 223 with a look-alike name elsewhere. Novi Sad is untouched: the
+  boundary file has no shapes for its two city municipalities. Re-run after each import (dry run first, `--check` to
+  re-measure).
 - **Map census** (`tools/reach/osm_census_extract.py`, `tools/reach/osm_census.py`; Geofabrik extract of 2026-11-09). The
   whole map of Serbia has 48,454 named service places (10,776 more without a name).
   - Kinds the site holds: 14,959 named, 11,086 already held (4,607 the same map element, 1,892 same address, 571 same point,
