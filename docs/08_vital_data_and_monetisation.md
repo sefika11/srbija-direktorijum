@@ -312,3 +312,8 @@ Nick's direction: accuracy first; hours may also come from maps, or from strong 
 - Coverage at the end of 2026-11-11, institutions only (31,459 locations of 18,557 institutions; natural persons apart):
   street address 19,652 (62%), phone 15,314 (48%), website known 14,904 (47%), hours 7,915 (25%).
   Morning of the same day: 30,334 locations; 60% / 44% / 37% / 22%.
+- Ministry of Health directory of public health institutions (zdravlje.gov.rs/tekst/333549, 341 entries, `tools/reach/health_directory.py`):
+  238 matched to ours (43 street addresses, 23 phones, 16 websites added); 33 imported as new. The ministry lists the health
+  centre and the general hospital separately in towns where we still hold one older "Zdravstveni centar" row (Valjevo, Šabac,
+  Užice, Bor, Smederevo ...): those combined rows are probably outdated and need a check before they are retired.
+  Not matched and not imported: 30 public pharmacies (named differently from ours), 14 other institutes, ambiguous rows.
