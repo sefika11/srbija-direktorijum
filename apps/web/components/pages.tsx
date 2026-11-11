@@ -74,6 +74,8 @@ function OrgList({ orgs, locale, dense = false, compact = false, byPlace = false
         <li key={o.id} className="card card-hover spot px-3.5 py-2.5 min-w-0">
           <Link href={orgHref(locale, o)} className="hit no-underline text-ink font-medium text-[14px] leading-snug block hover:text-accent">{o.name_lat}</Link>
           <div className="text-[12px] text-muted mt-0.5 truncate">{o.is_private && <span className="inline-block rounded-full bg-surface-2 px-1.5 py-px text-[10.5px] uppercase tracking-wider font-semibold mr-1.5 align-middle">{locale === "sr" ? "privatno" : locale === "en" ? "private" : locale === "ru" ? "частное" : "privat"}</span>}{byPlace ? (o.place_name ?? o.founder_name ?? rowType(o, locale)) : <>{rowType(o, locale)}{o.place_name && o.place_name !== o.founder_name ? ` · ${o.place_name}` : ""}</>}</div>
+          {/* what a visitor came for, without opening the page: the street and a number to tap */}
+          {(o.addr || o.phone) && <div className="org-card-contact">{o.addr && <span className="truncate"><Icon.pin /> {o.addr}</span>}{o.phone && <a href={`tel:${o.phone_raw ?? o.phone}`} className="tabular"><Icon.phone /> {o.phone}</a>}</div>}
         </li>
       ))}
     </ul>
