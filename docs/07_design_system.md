@@ -524,17 +524,3 @@ The site went from 15,000 to 28,000 entries in a day and pages that listed "ever
   database round. A query that rests in the box without a best match is logged (`/api/suggest?miss=1`);
   `tools/search/misses.py` lists them so the word can be added to `search-lexicon-extra.json`.
 - **Database use is a cost.** Run the search case files and page sweeps only when a change needs them, not as a habit.
-
-## 32. Static by default (2026-11-11, after the Neon quota outage)
-
-- **A page view must not cost database time.** Canonical pages (`/beograd`, `/banka`, `/vodic/pasos`, an institution,
-  a roadmap) are static: `app/[...path]/page.tsx` is `force-static` with `revalidate = 86400`, made on the first visit
-  and re-made once a day. Query parameters and cookies arrive empty there.
-- **Request-time views go through the twin.** `middleware.ts` rewrites a request that has a view parameter
-  (`q`, `mesto`, `strana`, `brend`, `oblast`, `opstina`), and a guide visit with a remembered municipality cookie, to
-  `app/dyn/[...path]/page.tsx`, which renders the same page on demand. The address bar does not change; a direct visit
-  to `/dyn/...` redirects to the real address; robots disallows `/dyn/`.
-- **Adding a view parameter:** add it to `VIEW_PARAMS` in `middleware.ts`, or the static page will ignore it.
-- Why: on 2026-11-11 the database plan quota ran out and every page returned 500, because every view queried the
-  database. With static pages the database wakes for searches, filtered views, the daily re-make and imports only.
-- Data changes show within a day. After a large import, redeploy (or add on-demand revalidation) to show it at once.
