@@ -123,6 +123,8 @@ export async function Home({ locale }: { locale: Locale }) {
   const allGuides = locale === "sr" ? "Svi vodiči" : locale === "en" ? "All guides" : locale === "ru" ? "Все инструкции" : "Alle Anleitungen";
   const typesLabel = locale === "sr" ? "vrsta institucija" : locale === "en" ? "institution types" : locale === "ru" ? "типов учреждений" : "Einrichtungsarten";
   const mapTitle = locale === "sr" ? "25 okruga, 145 gradova i opština" : locale === "en" ? "25 districts, 145 cities and municipalities" : locale === "ru" ? "25 округов, 145 городов и общин" : "25 Bezirke, 145 Städte und Gemeinden";
+  const locWord = pick(locale, "lokacija", "locations", "адресов", "Standorte");
+  const locLabelLong = pick(locale, "lokacija javnih i privatnih institucija", "locations of public and private institutions", "адресов государственных и частных учреждений", "Standorte öffentlicher und privater Einrichtungen");
   const popular = locale === "sr" ? "Najčešće traženo" : locale === "en" ? "Most searched" : locale === "ru" ? "Часто ищут" : "Häufig gesucht";
   const byGroupAll = GROUPS.map((g) => ({ g, types: types.filter((x) => x.group === g && x.org_count > 0), total: types.filter((x) => x.group === g).reduce((n, x) => n + x.org_count, 0) }));
   const maxGroup = Math.max(1, ...byGroupAll.map((x) => x.total));
@@ -135,7 +137,7 @@ export async function Home({ locale }: { locale: Locale }) {
   return (
     <main id="main">
       {siteLd(locale, d.tagline).map((x, i) => <script key={i} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(x) }} />)}
-      <Opener words={d.siteName.split(" ")} eyebrow={`${pick(locale, "Republika Srbija", "Republic of Serbia", "Республика Сербия", "Republik Serbien")} · ${new Date().getFullYear()}`} count={stats.orgs} countLabel={d.openerLabel} />
+      <Opener words={d.siteName.split(" ")} eyebrow={`${pick(locale, "Republika Srbija", "Republic of Serbia", "Республика Сербия", "Republik Serbien")} · ${new Date().getFullYear()}`} count={stats.locations} countLabel={locLabelLong} />
       <HeroFX />
       {/* Opening: the search and the 3D map are the centrepiece */}
       <section className="hero-open hero-map border-b border-line">
@@ -162,7 +164,7 @@ export async function Home({ locale }: { locale: Locale }) {
           </div>
           {/* index tabs: the three areas below hang off the map; each tab opens its dossier */}
           <nav className="hero-index" aria-label={T.browse}>
-            {[{ id: "vodici", n: guides.length, l: guidesWord, t: guidesTitle }, { id: "putokaz", n: ROADMAPS.length, l: ROAD_LABELS[locale].count, t: T.bySituation }, { id: "vrste", n: stats.orgs, l: d.institutions, t: d.browseByCategory }, { id: "okruzi", n: stats.jls, l: d.municipalities, t: d.browseByRegion }].map((x, i) => (
+            {[{ id: "vodici", n: guides.length, l: guidesWord, t: guidesTitle }, { id: "putokaz", n: ROADMAPS.length, l: ROAD_LABELS[locale].count, t: T.bySituation }, { id: "vrste", n: stats.locations, l: locWord, t: d.browseByCategory }, { id: "okruzi", n: stats.jls, l: d.municipalities, t: d.browseByRegion }].map((x, i) => (
               <a key={x.id} href={`#${x.id}`} className="hero-index-card" style={{ "--i": i } as React.CSSProperties}>
                 <span className="tab" aria-hidden>{String(i + 1).padStart(2, "0")}</span>
                 <span className="num" data-count={x.n}>{x.n.toLocaleString(locale === "sr" ? "sr-Latn" : locale)}</span>
@@ -210,7 +212,7 @@ export async function Home({ locale }: { locale: Locale }) {
             </div>,
             <div key="vrste" className="band tex-mesh dossier">
               <div className="section-head">
-                <div><h2 className="display-sm">{stats.orgs.toLocaleString(locale === "sr" ? "sr-Latn" : locale)} {d.institutions}, {stats.types} {typesLabel}</h2></div>
+                <div><h2 className="display-sm">{stats.orgs.toLocaleString(locale === "sr" ? "sr-Latn" : locale)} {d.institutions}, {stats.locations.toLocaleString(locale === "sr" ? "sr-Latn" : locale)} {locWord}</h2><p className="text-muted mt-2 text-[14.5px]">{stats.types} {typesLabel}. {pick(locale, "Lokacija je svako mesto na koje možete otići: sedište, filijala, ispostava, vrtić, područna škola.", "A location is every place you can go to: a seat, a branch, an office, a kindergarten, a branch school.", "Адрес: любое место, куда можно прийти: главный офис, филиал, отделение, детский сад, филиал школы.", "Ein Standort ist jeder Ort, den Sie aufsuchen können: Sitz, Filiale, Außenstelle, Kindergarten, Zweigschule.")}</p></div>
               </div>
               <div className="bento">
                 {byGroupAll.filter((x) => x.total > 0).map(({ g, types: ts, total }, i) => { return (
