@@ -160,7 +160,13 @@ export const getFacetValues = (typeSlug: string, key: string, min = 30) =>
     where o.status = 'active' and t.slug = ${typeSlug} group by 1 having count(distinct o.id) >= ${min} order by 2 desc limit 40`;
 
 export const getOrg = (typeSlug: string, orgSlug: string) =>
-  sql<OrgRow[]>`${ORG_SELECT} where o.slug = ${orgSlug} and t.slug = ${typeSlug} limit 1`.then((r) => r[0] ?? null);
+  sql<OrgRow[]>`${ORG_SELECT} where o.slug = ${orgSlug} and t.slug = ${typeSlug} and o.status = 'active' limit 1`.then((r) => r[0] ?? null);
+/** Where the page of a retired organisation went: the active organisation it was merged into. */
+export const getOrgSuccessor = (typeSlug: string, orgSlug: string) =>
+  sql<{ type_slug: string; slug: string }[]>`
+    select t2.slug as type_slug, o2.slug from organizations o join org_types t on t.id = o.org_type_id
+    join organizations o2 on o2.id = o.merged_into_org_id and o2.status = 'active' join org_types t2 on t2.id = o2.org_type_id
+    where o.slug = ${orgSlug} and t.slug = ${typeSlug} and o.status = 'merged' limit 1`.then((r) => r[0] ?? null);
 
 export const getOrgExtras = (orgId: number) =>
   sql<{ description_md: string | null; sources: string[] }[]>`

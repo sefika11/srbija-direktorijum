@@ -313,7 +313,19 @@ Nick's direction: accuracy first; hours may also come from maps, or from strong 
   street address 19,652 (62%), phone 15,314 (48%), website known 14,904 (47%), hours 7,915 (25%).
   Morning of the same day: 30,334 locations; 60% / 44% / 37% / 22%.
 - Ministry of Health directory of public health institutions (zdravlje.gov.rs/tekst/333549, 341 entries, `tools/reach/health_directory.py`):
-  238 matched to ours (43 street addresses, 23 phones, 16 websites added); 33 imported as new. The ministry lists the health
-  centre and the general hospital separately in towns where we still hold one older "Zdravstveni centar" row (Valjevo, Šabac,
-  Užice, Bor, Smederevo ...): those combined rows are probably outdated and need a check before they are retired.
+  238 matched to ours (43 street addresses, 23 phones, 16 websites added); 33 imported as new.
   Not matched and not imported: 30 public pharmacies (named differently from ours), 14 other institutes, ambiguous rows.
+- Combined health centres, checked the same evening (`tools/reach/health_centres.py`, undo `db/fixes/health_centres_2026-11-11_174314.json`).
+  The first reading was wrong: the "Zdravstveni centar" rows are NOT outdated. The Treasury's register of public-fund users
+  (Spisak KJS, 2026-10-31) lists each of them as the legal body with its own registry number and lists no separate
+  "Dom zdravlja X" or "Opšta bolnica X" in those towns; the centres' own sites say the same (Smederevo: "Opšta bolnica i Dom
+  zdravlja na jednom mestu"; Užice names ten health centres as its units). The ministry's directory lists the parts.
+  Rule for health bodies: the Treasury register decides which institution exists; the ministry directory gives addresses and phones.
+  Done: 11 hospital rows from the directory that sat at the centre's own address with its phone were merged into the
+  Treasury-listed row (10 into their centre; in Čačak the directory's "Zdravstveni centar dr Dragiša Mišović" into "Opšta
+  bolnica Čačak", which is what the Treasury lists). The merged name is kept as `short_name`, so search still finds it.
+  21 directory rows (19 health centres, the Priboj and Prijepolje hospitals) stay as pages of their own, linked as units of
+  their centre (`parent_org_id`). First use of organisation status 'merged': `getOrg` reads active rows only and the old
+  address answers 308 to the successor (`getOrgSuccessor`, `kind: "moved"` in the catch-all).
+  Open: Aranđelovac, Kladovo, Knjaževac, Negotin, Surdulica and Vranje have a centre and no health-centre row, so the
+  "Dom zdravlja" list is empty there; the four centres in Kosovo have no location.

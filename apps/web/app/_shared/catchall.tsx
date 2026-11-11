@@ -1,6 +1,6 @@
 // Shared by the static catch-all page and its request-time twin (app/dyn): resolving a path, its head tags and its body.
 import type { Metadata } from "next";
-import { notFound, redirect } from "next/navigation";
+import { notFound, permanentRedirect, redirect } from "next/navigation";
 import { Header, Footer } from "@/components/chrome";
 import { Home, OkrugHub, UnitHub, OrgTypeHub, OrgPage, ForForeigners, StaticPage, tuLabel } from "@/components/pages";
 import { GuidesHub, GuidePage, GUIDE_LABELS, content as guideContent } from "@/components/guides";
@@ -21,7 +21,8 @@ type Resolved =
   | { kind: "type"; type: db.OrgType } | { kind: "org"; org: db.OrgRow; type: db.OrgType; locSlug?: string }
   | { kind: "guides" } | { kind: "guide"; guide: db.GuideRow }
   | { kind: "visa" } | { kind: "country"; country: db.CountryRow }
-  | { kind: "roadmaps" } | { kind: "roadmap"; road: Roadmap };
+  | { kind: "roadmaps" } | { kind: "roadmap"; road: Roadmap }
+  | { kind: "moved"; to: string };
 
 async function resolve(rest: string[]): Promise<Resolved | null> {
   if (rest.length === 0) return { kind: "home" };
@@ -46,7 +47,8 @@ async function resolve(rest: string[]): Promise<Resolved | null> {
   if (!type) return null;
   if (rest.length === 1) return { kind: "type", type };
   const org = await db.getOrg(a, b);
-  if (!org) return null;
+  // an organisation merged into another one keeps its address: the old page leads to the new one
+  if (!org) { const next = await db.getOrgSuccessor(a, b); return next ? { kind: "moved", to: `/${next.type_slug}/${next.slug}` } : null; }
   if (rest.length === 2) return { kind: "org", org, type };
   if (rest.length === 3) return { kind: "org", org, type, locSlug: c };
   return null;
@@ -56,7 +58,7 @@ async function resolve(rest: string[]): Promise<Resolved | null> {
 export async function metaFor(path: string[], query: Query): Promise<Metadata> {
   const [locale, rest] = splitLocale(path);
   const r = await resolve(rest);
-  if (!r) return {};
+  if (!r || r.kind === "moved") return {};
   const d = t(locale);
   const plain = "/" + rest.join("/");
   const P = <T,>(sr: T, en: T, ru: T, de: T) => pick(locale, sr, en, ru, de);
@@ -103,6 +105,7 @@ export async function renderPage(path: string[], sp: Query, rememberedPlace: str
   const [locale, rest] = splitLocale(path);
   const r = await resolve(rest);
   if (!r) notFound();
+  if (r.kind === "moved") permanentRedirect(href(locale, r.to));
   const plain = "/" + rest.join("/");
   let body: React.ReactNode;
   switch (r.kind) {

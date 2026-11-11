@@ -1,0 +1,273 @@
+{
+ "basis": "https://www.trezor.gov.rs/files/services/kjs/arhiva/2026/Spisak%20KJS_2026_10_31.xls",
+ "entries": [
+  {
+   "action": "merge",
+   "org_id": 33934,
+   "org_slug": "opsta-bolnica-sremska-mitrovica-sremska-mitrovica",
+   "into_org_id": 2650,
+   "into_slug": "zdravstveni-centar-sremska-mitrovica-sremska-mitrovica",
+   "location_ids": [
+    51118
+   ],
+   "short_name_before": null
+  },
+  {
+   "action": "merge",
+   "org_id": 33937,
+   "org_slug": "opsta-bolnica-dr-laza-k-lazarevic-sabac-sabac",
+   "into_org_id": 2893,
+   "into_slug": "zdravstveni-centar-sabac-sabac",
+   "location_ids": [
+    51121
+   ],
+   "short_name_before": null
+  },
+  {
+   "action": "merge",
+   "org_id": 33938,
+   "org_slug": "opsta-bolnica-loznica-loznica",
+   "into_org_id": 2885,
+   "into_slug": "zdravstveni-centar-loznica-loznica",
+   "location_ids": [
+    51122
+   ],
+   "short_name_before": null
+  },
+  {
+   "action": "merge",
+   "org_id": 33940,
+   "org_slug": "opsta-bolnica-valjevo-valjevo",
+   "into_org_id": 2884,
+   "into_slug": "zdravstveni-centar-valjevo-valjevo",
+   "location_ids": [
+    51124
+   ],
+   "short_name_before": null
+  },
+  {
+   "action": "merge",
+   "org_id": 33942,
+   "org_slug": "opsta-bolnica-sveti-luka-smederevo-smederevo",
+   "into_org_id": 2892,
+   "into_slug": "zdravstveni-centar-smederevo-smederevo",
+   "location_ids": [
+    51126
+   ],
+   "short_name_before": null
+  },
+  {
+   "action": "merge",
+   "org_id": 33944,
+   "org_slug": "opsta-bolnica-bor-bor",
+   "into_org_id": 2648,
+   "into_slug": "zdravstveni-centar-bor-bor",
+   "location_ids": [
+    51128
+   ],
+   "short_name_before": null
+  },
+  {
+   "action": "merge",
+   "org_id": 33947,
+   "org_slug": "opsta-bolnica-zajecar-zajecar",
+   "into_org_id": 2807,
+   "into_slug": "zdravstveni-centar-zajecar-zajecar",
+   "location_ids": [
+    51131
+   ],
+   "short_name_before": null
+  },
+  {
+   "action": "merge",
+   "org_id": 33960,
+   "org_slug": "opsta-bolnica-zdravstveni-centar-dr-dragisa-misovic-cacak-cacak",
+   "into_org_id": 2987,
+   "into_slug": "opsta-bolnica-cacak-cacak",
+   "location_ids": [
+    51144
+   ],
+   "short_name_before": null
+  },
+  {
+   "action": "merge",
+   "org_id": 33961,
+   "org_slug": "opsta-bolnica-gornji-milanovac-gornji-milanovac",
+   "into_org_id": 2891,
+   "into_slug": "zdravstveni-centar-gornji-milanovac-gornji-milanovac",
+   "location_ids": [
+    51145
+   ],
+   "short_name_before": null
+  },
+  {
+   "action": "merge",
+   "org_id": 33963,
+   "org_slug": "opsta-bolnica-aleksinac-aleksinac",
+   "into_org_id": 2888,
+   "into_slug": "zdravstveni-centar-aleksinac-aleksinac",
+   "location_ids": [
+    51147
+   ],
+   "short_name_before": null
+  },
+  {
+   "action": "merge",
+   "org_id": 33965,
+   "org_slug": "opsta-bolnica-dr-aleksa-savic-prokuplje-prokuplje",
+   "into_org_id": 2886,
+   "into_slug": "zdravstveni-centar-prokuplje-prokuplje",
+   "location_ids": [
+    51149
+   ],
+   "short_name_before": null
+  },
+  {
+   "action": "parent",
+   "org_id": 33933,
+   "org_slug": "dom-zdravlja-sremska-mitrovica-sremska-mitrovica",
+   "parent_org_id": 2650,
+   "parent_slug": "zdravstveni-centar-sremska-mitrovica-sremska-mitrovica"
+  },
+  {
+   "action": "parent",
+   "org_id": 33935,
+   "org_slug": "dom-zdravlja-sabac-sabac",
+   "parent_org_id": 2893,
+   "parent_slug": "zdravstveni-centar-sabac-sabac"
+  },
+  {
+   "action": "parent",
+   "org_id": 33936,
+   "org_slug": "dom-zdravlja-dr-milenko-marin-loznica-loznica",
+   "parent_org_id": 2885,
+   "parent_slug": "zdravstveni-centar-loznica-loznica"
+  },
+  {
+   "action": "parent",
+   "org_id": 33939,
+   "org_slug": "dom-zdravlja-valjevo-valjevo",
+   "parent_org_id": 2884,
+   "parent_slug": "zdravstveni-centar-valjevo-valjevo"
+  },
+  {
+   "action": "parent",
+   "org_id": 33941,
+   "org_slug": "dom-zdravlja-smederevo-smederevo",
+   "parent_org_id": 2892,
+   "parent_slug": "zdravstveni-centar-smederevo-smederevo"
+  },
+  {
+   "action": "parent",
+   "org_id": 33945,
+   "org_slug": "dom-zdravlja-bor-bor",
+   "parent_org_id": 2648,
+   "parent_slug": "zdravstveni-centar-bor-bor"
+  },
+  {
+   "action": "parent",
+   "org_id": 33946,
+   "org_slug": "dom-zdravlja-zajecar-zajecar",
+   "parent_org_id": 2807,
+   "parent_slug": "zdravstveni-centar-zajecar-zajecar"
+  },
+  {
+   "action": "parent",
+   "org_id": 33948,
+   "org_slug": "dom-zdravlja-priboj-priboj",
+   "parent_org_id": 2735,
+   "parent_slug": "zdravstveni-centar-uzice-uzice"
+  },
+  {
+   "action": "parent",
+   "org_id": 33949,
+   "org_slug": "dom-zdravlja-cajetina-cajetina",
+   "parent_org_id": 2735,
+   "parent_slug": "zdravstveni-centar-uzice-uzice"
+  },
+  {
+   "action": "parent",
+   "org_id": 33950,
+   "org_slug": "dom-zdravlja-arilje-arilje",
+   "parent_org_id": 2735,
+   "parent_slug": "zdravstveni-centar-uzice-uzice"
+  },
+  {
+   "action": "parent",
+   "org_id": 33951,
+   "org_slug": "dom-zdravlja-bajina-basta-bajina-basta",
+   "parent_org_id": 2735,
+   "parent_slug": "zdravstveni-centar-uzice-uzice"
+  },
+  {
+   "action": "parent",
+   "org_id": 33952,
+   "org_slug": "dom-zdravlja-uzice-uzice",
+   "parent_org_id": 2735,
+   "parent_slug": "zdravstveni-centar-uzice-uzice"
+  },
+  {
+   "action": "parent",
+   "org_id": 33953,
+   "org_slug": "dom-zdravlja-kosjeric-kosjeric",
+   "parent_org_id": 2735,
+   "parent_slug": "zdravstveni-centar-uzice-uzice"
+  },
+  {
+   "action": "parent",
+   "org_id": 33954,
+   "org_slug": "dom-zdravlja-pozega-pozega",
+   "parent_org_id": 2735,
+   "parent_slug": "zdravstveni-centar-uzice-uzice"
+  },
+  {
+   "action": "parent",
+   "org_id": 33955,
+   "org_slug": "dom-zdravlja-sjenica-sjenica",
+   "parent_org_id": 2735,
+   "parent_slug": "zdravstveni-centar-uzice-uzice"
+  },
+  {
+   "action": "parent",
+   "org_id": 33956,
+   "org_slug": "dom-zdravlja-nova-varos-nova-varos",
+   "parent_org_id": 2735,
+   "parent_slug": "zdravstveni-centar-uzice-uzice"
+  },
+  {
+   "action": "parent",
+   "org_id": 33959,
+   "org_slug": "dom-zdravlja-gornji-milanovac-gornji-milanovac",
+   "parent_org_id": 2891,
+   "parent_slug": "zdravstveni-centar-gornji-milanovac-gornji-milanovac"
+  },
+  {
+   "action": "parent",
+   "org_id": 33962,
+   "org_slug": "dom-zdravlja-aleksinac-aleksinac",
+   "parent_org_id": 2888,
+   "parent_slug": "zdravstveni-centar-aleksinac-aleksinac"
+  },
+  {
+   "action": "parent",
+   "org_id": 33964,
+   "org_slug": "dom-zdravlja-prokuplje-prokuplje",
+   "parent_org_id": 2886,
+   "parent_slug": "zdravstveni-centar-prokuplje-prokuplje"
+  },
+  {
+   "action": "parent",
+   "org_id": 33957,
+   "org_slug": "opsta-bolnica-priboj-priboj",
+   "parent_org_id": 2735,
+   "parent_slug": "zdravstveni-centar-uzice-uzice"
+  },
+  {
+   "action": "parent",
+   "org_id": 33958,
+   "org_slug": "opsta-bolnica-prijepolje-prijepolje",
+   "parent_org_id": 2735,
+   "parent_slug": "zdravstveni-centar-uzice-uzice"
+  }
+ ]
+}
