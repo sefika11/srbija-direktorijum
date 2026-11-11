@@ -68,7 +68,9 @@ export async function metaFor(path: string[], query: Query): Promise<Metadata> {
     case "home": return m(P("Gde da idem? – sve institucije Srbije", "Gde da idem? – every public and private institution in Serbia", "Gde da idem? – все учреждения Сербии", "Gde da idem? – alle Einrichtungen Serbiens"), d.tagline, { absolute: true });
     case "search": return m(d.search, null, { noindex: true });
     case "foreigners": return m(d.forForeigners, d.forForeignersLead);
-    case "static": return m(r.slug === "partneri" ? d.becomePartner : r.slug === "o-sajtu" ? d.aboutSite : d.privacy, r.slug === "o-sajtu" ? d.tagline : null);
+    case "static": return m(r.slug === "partneri" ? d.becomePartner : r.slug === "o-sajtu" ? d.aboutSite : d.privacy, r.slug === "o-sajtu" ? d.tagline
+      : r.slug === "partneri" ? P("Sponzorsko mesto na stranama institucija u vašem gradu i upiti korisnika iz vaše oblasti: kako se oglasiti na sajtu Gde da idem?", "A sponsor spot on institution pages in your city and enquiries from users in your field: how to advertise on Gde da idem?", "Спонсорское место на страницах учреждений вашего города и запросы пользователей в вашей сфере: как разместить рекламу на Gde da idem?", "Ein Sponsorenplatz auf den Seiten der Einrichtungen Ihrer Stadt und Anfragen von Nutzern aus Ihrer Branche: so werben Sie auf Gde da idem?")
+      : P("Koje podatke sajt Gde da idem? prikuplja, kako se koriste upiti iz obrasca, kolačići i kako da zatražite ispravku ili brisanje.", "What data Gde da idem? collects, how enquiry-form data is used, cookies, and how to ask for a correction or deletion.", "Какие данные собирает Gde da idem?, как используются запросы из формы, файлы cookie и как запросить исправление или удаление.", "Welche Daten Gde da idem? erhebt, wie Anfragen aus dem Formular verwendet werden, Cookies und wie Sie Berichtigung oder Löschung verlangen."));
     case "guides": return m(GUIDE_LABELS[locale].guides, GUIDE_LABELS[locale].guidesLead);
     case "roadmaps": return m(ROAD_LABELS[locale].title, ROAD_LABELS[locale].lead);
     case "roadmap": return m(`${r.road.title[locale]} – ${lc(ROAD_LABELS[locale].nav)}`, r.road.lead[locale]);
@@ -88,11 +90,13 @@ export async function metaFor(path: string[], query: Query): Promise<Metadata> {
       const mesto = one("mesto"), brend = one("brend"), strana = Math.max(1, Number.parseInt(one("strana") ?? "1", 10) || 1), search = !!(one("q") || one("oblast"));
       const place = mesto ? await db.getTU(mesto.includes("/") ? mesto.split("/")[1] : mesto, mesto.includes("/") ? "gradska_opstina" : "jls").catch(() => null) : null;
       const name = tn(r.type, locale);
-      const qs = [place ? `mesto=${encodeURIComponent(mesto!)}` : "", brend ? `brend=${encodeURIComponent(brend)}` : "", strana > 1 ? `strana=${strana}` : ""].filter(Boolean).join("&");
+      // a page number past the last page shows the last page again: that address is a duplicate, so it stays out of the index
+      const pastEnd = strana > 1 && strana > Math.max(1, Math.ceil((await db.countOrgsOfType(r.type.slug, { jls: place ? mesto : null }).catch(() => 0)) / 60));
+      const qs = [place ? `mesto=${encodeURIComponent(mesto!)}` : "", brend ? `brend=${encodeURIComponent(brend)}` : "", strana > 1 && !pastEnd ? `strana=${strana}` : ""].filter(Boolean).join("&");
       const pageTail = strana > 1 ? ` – ${d.page} ${strana}` : "";
       const title = place ? `${name} – ${place.name_lat}${pageTail}` : `${name} – ${P("spisak po gradovima", "by city", "по городам", "nach Stadt")}${pageTail}`;
       const where = place ? place.name_lat : P("Srbiji", "Serbia", "Сербии", "Serbien");
-      return m(title, P(`${name} u ${where}: adresa, telefon, radno vreme i sajt. Spisak iz zvaničnih registara.`, `${name} in ${where}: address, phone, opening hours and website. Listed from official registers.`, `${name} в ${where}: адрес, телефон, часы работы и сайт. Список из официальных реестров.`, `${name} in ${where}: Adresse, Telefon, Öffnungszeiten und Website. Aus amtlichen Registern.`), { query: qs, noindex: search });
+      return m(title, P(`${name} u ${where}: adresa, telefon, radno vreme i sajt. Spisak iz zvaničnih registara.`, `${name} in ${where}: address, phone, opening hours and website. Listed from official registers.`, `${name} в ${where}: адрес, телефон, часы работы и сайт. Список из официальных реестров.`, `${name} in ${where}: Adresse, Telefon, Öffnungszeiten und Website. Aus amtlichen Registern.`), { query: qs, noindex: search || pastEnd });
     }
     case "org": { const n = r.org.name_lat; const place = r.org.place_name && !n.includes(r.org.place_name) ? r.org.place_name : null;
       return m(`${n}${place ? `, ${place}` : ""} – ${P("adresa, telefon, radno vreme", "address, phone, opening hours", "адрес, телефон, часы работы", "Adresse, Telefon, Öffnungszeiten")}`,

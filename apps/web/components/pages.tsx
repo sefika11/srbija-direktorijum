@@ -603,9 +603,9 @@ export async function OrgTypeHub({ locale, type, brand = null, place = null, que
                 {orgs.length > 0 && <OrgList orgs={orgs} locale={locale} dense byPlace />}
                 {pages > 1 && (
                   <nav className="pager" aria-label={P.page}>
-                    {cur > 1 ? <a href={link(cur - 1)} rel="prev" className="pager-step">← {P.prev}</a> : <span className="pager-step is-off">← {P.prev}</span>}
+                    {cur > 1 ? <a href={link(cur - 1)} rel="prev" className="pager-step">← {P.prev}</a> : <span className="pager-step is-off" aria-disabled="true">← {P.prev}</span>}
                     <span className="pager-nums">{windowed.map((n, i) => <Fragment key={n}>{i > 0 && n - windowed[i - 1] > 1 && <span className="pager-gap" aria-hidden>…</span>}{n === cur ? <span className="pager-n is-on" aria-current="page">{n}</span> : <a href={link(n)} className="pager-n">{n}</a>}</Fragment>)}</span>
-                    {cur < pages ? <a href={link(cur + 1)} rel="next" className="pager-step">{P.next} →</a> : <span className="pager-step is-off">{P.next} →</span>}
+                    {cur < pages ? <a href={link(cur + 1)} rel="next" className="pager-step">{P.next} →</a> : <span className="pager-step is-off" aria-disabled="true">{P.next} →</span>}
                   </nav>
                 )}
               </section>

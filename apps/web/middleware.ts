@@ -13,6 +13,9 @@ export function middleware(req: NextRequest) {
   if (u.pathname === "/dyn" || u.pathname.startsWith("/dyn/")) {          // the twin is internal: a direct visit goes to the real address
     const to = u.clone(); to.pathname = u.pathname.slice(4) || "/"; return NextResponse.redirect(to, 308);
   }
+  if (u.pathname === "/sr" || u.pathname.startsWith("/sr/")) {            // Serbian has no prefix: one address per page
+    const to = u.clone(); to.pathname = u.pathname.slice(3) || "/"; return NextResponse.redirect(to, 308);
+  }
   const hasView = VIEW_PARAMS.some((k) => u.searchParams.has(k));
   const rememberedPlace = /^\/(?:(?:en|ru|de)\/)?vodic\/[^/]+$/.test(u.pathname) && req.cookies.has("opstina");
   if (!hasView && !rememberedPlace) return NextResponse.next();

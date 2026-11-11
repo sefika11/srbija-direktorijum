@@ -170,9 +170,9 @@ const HUES: Record<string, string> = {
   scale: "#1f2a5b", gavel: "#8a6a3a", languages: "#2f52ea", globe: "#2f7fd0", tooth: "#f6f3ea", paw: "#8a6a3a", star: "#c9a84a",
 };
 
-export default function Glyph3D({ icon, size = 64, className, title }: { icon: string | null | undefined; size?: number; className?: string; title?: string }) {
+export default function Glyph3D({ icon, size = 64, className, title, eager = false }: { icon: string | null | undefined; size?: number; className?: string; title?: string; eager?: boolean }) {
   if (icon && EMBLEMS.has(icon)) {
-    return <img src={`/emblems/${icon}${size <= 128 ? "@256" : ""}.png`} srcSet={`/emblems/${icon}@256.png 256w, /emblems/${icon}.png 1024w`} sizes={`${size}px`} width={size} height={size} alt={title ?? ""} aria-hidden={title ? undefined : true} loading="lazy" decoding="async" className={`g3 g3-live g3-img ${className ?? ""}`} draggable={false} style={{ display: "block", objectFit: "contain" }} />;
+    return <img src={`/emblems/${icon}${size <= 128 ? "@256" : ""}.png`} srcSet={`/emblems/${icon}@256.png 256w, /emblems/${icon}.png 1024w`} sizes={`${size}px`} width={size} height={size} alt={title ?? ""} aria-hidden={title ? undefined : true} loading={eager ? "eager" : "lazy"} fetchPriority={eager ? "high" : undefined} decoding="async" className={`g3 g3-live g3-img ${className ?? ""}`} draggable={false} style={{ display: "block", objectFit: "contain" }} />;
   }
   const key = icon && SCENES[icon] ? icon : "default";
   uid = 0; // deterministic ids per render for stable SSR/CSR markup

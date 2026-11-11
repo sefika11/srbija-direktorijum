@@ -15,6 +15,7 @@ export async function generateSitemaps() {
 
 export default async function sitemap({ id: rawId }: { id: number | string }): Promise<MetadataRoute.Sitemap> {
   const id = Number(rawId);
+  if (!Number.isInteger(id) || id < 0) return [];   // /sitemap/abc.xml: an empty sitemap, not a server error
   const out: MetadataRoute.Sitemap = [];
   const push = (path: string, lastModified?: string | null, priority = 0.5) =>
     out.push({ url: `${base()}${path}`, lastModified: lastModified ? new Date(lastModified) : undefined, priority,

@@ -53,7 +53,7 @@ export function SponsorCard({ label, sponsor, compact = false, locale = "sr" }: 
     return (
       <div className={`relative rounded-lg border border-dashed border-brick/40 bg-brick-soft/50 p-4 min-h-[96px] grid place-items-center text-center`}>
         <span className="absolute -top-2 left-3 bg-surface px-1.5 text-[10px] uppercase tracking-wider text-brick">{label}</span>
-        <div className="text-[13px] text-brick/80">{pick(locale, "Ovo mesto je slobodno za lokalnog sponzora.", "This spot is open for a local sponsor.", "Это место свободно для местного спонсора.", "Dieser Platz ist für einen lokalen Sponsor frei.")}<br /><Link href={href(locale, "/partneri")} className="text-brick underline">{pick(locale, "Saznajte više", "Learn more", "Узнать больше", "Mehr erfahren")}</Link></div>
+        <div className="text-[13px] text-brick">{pick(locale, "Ovo mesto je slobodno za lokalnog sponzora.", "This spot is open for a local sponsor.", "Это место свободно для местного спонсора.", "Dieser Platz ist für einen lokalen Sponsor frei.")}<br /><Link href={href(locale, "/partneri")} className="text-brick underline">{pick(locale, "Saznajte više", "Learn more", "Узнать больше", "Mehr erfahren")}</Link></div>
       </div>
     );
   }

@@ -22,7 +22,7 @@ export default function EmblemStage({ emblem, title, size = 400, cls, hue, inter
   }, [emblem, hue, interactive]);
   return (
     <div ref={host} className={`estage ${live ? "is-live" : ""} ${cls ?? ""}`} role="img" aria-label={title}>
-      <div className="estage-poster"><Glyph3D icon={emblem} size={size} className="estage-img" /></div>
+      <div className="estage-poster">{/* the emblem at the top of a page is its largest picture: fetched first, not when it scrolls into view */}<Glyph3D icon={emblem} size={size} className="estage-img" eager /></div>
       <canvas ref={canvas} aria-hidden />
     </div>
   );

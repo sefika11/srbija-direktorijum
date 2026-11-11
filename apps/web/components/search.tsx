@@ -29,11 +29,12 @@ function ServingList({ serving, contacts, hours, locale }: { serving: db.Serving
   const s = L[locale];
   return (
     <ul className="grid gap-2 mt-3">
-      {serving.slice(0, 3).map((x) => { const ph = contacts.filter((c) => c.location_id === x.location_id && (c.kind === "phone" || c.kind === "mobile")); const hl = hoursLine(hours.filter((h) => h.location_id === x.location_id), locale); return (
+      {serving.slice(0, 3).map((x) => { const ph = contacts.filter((c) => c.location_id === x.location_id && (c.kind === "phone" || c.kind === "mobile")); const hl = hoursLine(hours.filter((h) => h.location_id === x.location_id), locale); const seat = /^sedi[sš]te$/i.test(x.unit_name_lat.trim()); return (
         <li key={x.location_id} className="rounded-xl border border-line bg-surface p-3.5 grid sm:grid-cols-[minmax(0,1fr)_auto] gap-3">
           <div className="min-w-0">
-            <div className="eyebrow">{x.org_name_lat}</div>
-            <Link href={href(locale, `/${x.org_type_slug}/${x.org_slug}/${x.location_slug}`)} className="font-serif text-[17px] font-semibold no-underline text-ink hover:text-accent">{x.unit_name_lat}</Link>
+            {/* a head office has no name of its own: the institution is the title, "Head office" the label above it */}
+            <div className="eyebrow">{seat ? pick(locale, "Sedište", "Head office", "Главный офис", "Hauptsitz") : x.org_name_lat}</div>
+            <Link href={href(locale, `/${x.org_type_slug}/${x.org_slug}/${x.location_slug}`)} className="font-serif text-[17px] font-semibold no-underline text-ink hover:text-accent">{seat ? x.org_name_lat : x.unit_name_lat}</Link>
             <div className="text-[13px] text-muted mt-1 flex flex-wrap gap-x-4 gap-y-0.5">
               <span className="inline-flex items-center gap-1"><Icon.pin /> {x.address_display ? `${x.address_display}, ${x.jls_name_lat ?? ""}` : `${x.jls_name_lat ?? ""} · ${s.noAddress}`}</span>
               <span className="inline-flex items-center gap-1 tabular"><Icon.phone /> {ph[0] ? <a href={`tel:${ph[0].value}`}>{ph[0].value_display ?? ph[0].value}</a> : s.noPhone}</span>
