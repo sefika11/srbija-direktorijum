@@ -44,6 +44,8 @@ with db.conn() as c, c.cursor() as cur:
             stats["already held"] += 1; skipped.append((r["org_slug"], r["name"], "already held")); continue
         kinds = collections.Counter(h["unit_kind"] for h in have if h["unit_kind"] and h["unit_kind"] != "sediste")
         kind = kinds.most_common(1)[0][0] if kinds else "ispostava"
+        first = fold(r["name"]).split()[0] if fold(r["name"]).split() else ""
+        kind = {"filijala": "filijala", "ekspozitura": "ekspozitura", "ispostava": "ispostava", "sluzba": "ispostava"}.get(first, kind)
         stats["to import"] += 1
         cur.execute("select name_lat from territorial_units where id = %s", (tu,)); plan.append((r["name"], r.get("place"), cur.fetchone()["name_lat"], kind))
         if not WRITE: continue

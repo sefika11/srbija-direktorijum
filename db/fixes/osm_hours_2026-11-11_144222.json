@@ -1,0 +1,940 @@
+[
+{
+"location_id": 12232,
+"hours": "pon-pet 08:30-20:30; sub 07:00-17:00; ned 09:00-15:00",
+"osm": "https://www.openstreetmap.org/node/5777916135",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 12367,
+"hours": "pon-pet 07:00-20:00; sub 08:00-16:00; ned 08:00-12:00",
+"osm": "https://www.openstreetmap.org/node/13929334104",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 12085,
+"hours": "pon-pet 07:30-19:30; sub 08:00-14:00",
+"osm": "https://www.openstreetmap.org/node/9370195893",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 12078,
+"hours": "pon-pet 08:00-20:30; sub 08:00-15:00",
+"osm": "https://www.openstreetmap.org/node/4797052023",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 38657,
+"hours": "pon-pet 09:00-17:00",
+"osm": "https://www.openstreetmap.org/node/13175063801",
+"org": "Fakultet za inženjerski menadžment",
+"osm_name": "Univerzitet Beopolis"
+},
+{
+"location_id": 12487,
+"hours": "pon-pet 08:00-20:30; sub 08:00-15:00",
+"osm": "https://www.openstreetmap.org/node/13932029726",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 8078,
+"hours": "pon-čet 08:00-14:00; sub 08:00-12:00",
+"osm": "https://www.openstreetmap.org/node/13326941401",
+"org": "Narodna biblioteka \"Đura Jakšić\" Srpska Crnja",
+"osm_name": "Narodnna biblioteka Đura Jakšić"
+},
+{
+"location_id": 2589,
+"hours": "pon-ned 00:00-24:00",
+"osm": "https://www.openstreetmap.org/way/55942888",
+"org": "Kliničko-Bolnički centar \"Zvezdara\"",
+"osm_name": "Клиничко-болнички центар „Звездара”"
+},
+{
+"location_id": 12535,
+"hours": "pon-pet 07:00-20:00; sub 08:00-15:00; ned 08:00-14:00",
+"osm": "https://www.openstreetmap.org/node/13930624891",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 12100,
+"hours": "pon-pet 07:00-20:00; sub 08:00-19:00; ned 08:00-13:00",
+"osm": "https://www.openstreetmap.org/node/13920294855",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 35073,
+"hours": "pon-ned 00:00-24:00",
+"osm": "https://www.openstreetmap.org/node/9017133913",
+"org": "Heritage",
+"osm_name": "Heritage"
+},
+{
+"location_id": 34987,
+"hours": "pon-ned 00:00-24:00",
+"osm": "https://www.openstreetmap.org/way/203161795",
+"org": "Crowne Plaza",
+"osm_name": "Краун Плаза Београд"
+},
+{
+"location_id": 12079,
+"hours": "pon-pet 07:30-20:30; sub 08:00-15:00",
+"osm": "https://www.openstreetmap.org/node/5504268822",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 2149,
+"hours": "pon-sub 11:00-19:00",
+"osm": "https://www.openstreetmap.org/node/9282405523",
+"org": "Muzej Primenjene umetnosti",
+"osm_name": "Музеј примењене уметности"
+},
+{
+"location_id": 46038,
+"hours": "pon-pet 05:40-16:40",
+"osm": "https://www.openstreetmap.org/node/13137937082",
+"org": "Predškolska ustanova \"Naša Radost\"",
+"osm_name": "Вртић Ластавица"
+},
+{
+"location_id": 12361,
+"hours": "pon-pet 08:00-20:30; sub 08:00-15:00",
+"osm": "https://www.openstreetmap.org/node/13983557620",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 2776,
+"hours": "pon-pet 07:30-15:30",
+"osm": "https://www.openstreetmap.org/node/3731546747",
+"org": "Razvojna agencija srbije",
+"osm_name": "Привредна комора Београда"
+},
+{
+"location_id": 12489,
+"hours": "pon-sub 08:00-21:00; ned 08:00-15:00",
+"osm": "https://www.openstreetmap.org/node/13958590330",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 26746,
+"hours": "pon-pet 07:00-17:00",
+"osm": "https://www.openstreetmap.org/node/9737602680",
+"org": "Predškolska ustanova „Bambini“",
+"osm_name": "Бамбини"
+},
+{
+"location_id": 756,
+"hours": "pon-pet 08:00-19:00",
+"osm": "https://www.openstreetmap.org/way/619055181",
+"org": "Osnovna škola \"Vožd Karađorđe\"",
+"osm_name": "Вожд Карађорђе"
+},
+{
+"location_id": 13577,
+"hours": "pon-sub 08:00-21:00; ned 08:00-14:00",
+"osm": "https://www.openstreetmap.org/node/5031641088",
+"org": "Apotekarska ustanova ''Lilly Drogerie''",
+"osm_name": "Lilly"
+},
+{
+"location_id": 12528,
+"hours": "pon-pet 07:30-20:00; sub-ned 07:30-15:30",
+"osm": "https://www.openstreetmap.org/node/14004589919",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 4478,
+"hours": "pon-pet 08:00-15:00, sub-ned 09:00-17:00",
+"osm": "https://www.openstreetmap.org/way/282699715",
+"org": "Muzej Srema",
+"osm_name": "Музеј Срема"
+},
+{
+"location_id": 27318,
+"hours": "pon-pet 07:30-18:00",
+"osm": "https://www.openstreetmap.org/node/13989576403",
+"org": "GRAWE osiguranje",
+"osm_name": "GRAWE osiguranje a.d.o."
+},
+{
+"location_id": 3201,
+"hours": "pon-pet 08:00-19:00; sub 09:00-14:00",
+"osm": "https://www.openstreetmap.org/way/1346161851",
+"org": "Gradska biblioteka \"Vladislav Petković-Dis\"",
+"osm_name": "Градска библиотека „Владислав Петковић Дис”"
+},
+{
+"location_id": 49935,
+"hours": "pon-pet 08:00-20:30; ned 08:00-14:30",
+"osm": "https://www.openstreetmap.org/node/13866361633",
+"org": "Apotekarska ustanova \"Galen pharm\"",
+"osm_name": "Galen pharm"
+},
+{
+"location_id": 12482,
+"hours": "pon-pet 08:00-20:00; sub 08:00-15:00",
+"osm": "https://www.openstreetmap.org/node/13069253901",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 14379,
+"hours": "pon-pet 07:30-21:00; sub 09:00-17:00; ned 09:00-15:00",
+"osm": "https://www.openstreetmap.org/node/6779719487",
+"org": "Apotekarska ustanova \"Valerijana Vujadinović farm\"",
+"osm_name": "Valerijana"
+},
+{
+"location_id": 12193,
+"hours": "pon-pet 07:00-20:00; sub 08:00-17:00; ned 08:00-14:00",
+"osm": "https://www.openstreetmap.org/node/13920294876",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 12208,
+"hours": "pon-pet 07:00-21:00; sub-ned 07:30-21:00",
+"osm": "https://www.openstreetmap.org/node/13727163234",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 26539,
+"hours": "pon-pet 07:00-18:00",
+"osm": "https://www.openstreetmap.org/node/11739155620",
+"org": "Predškolska ustanova „Mala akademija“",
+"osm_name": "Mala Akademija"
+},
+{
+"location_id": 2510,
+"hours": "pon-ned 00:00-24:00",
+"osm": "https://www.openstreetmap.org/way/332943575",
+"org": "Dom zdravlja Lebane",
+"osm_name": "Дом здравља Лебане"
+},
+{
+"location_id": 13536,
+"hours": "pon-pet 08:00-20:00; sub 08:00-15:00",
+"osm": "https://www.openstreetmap.org/node/7072706038",
+"org": "Apotekarska Ustanova \"Kamilica\"",
+"osm_name": "Kamilica"
+},
+{
+"location_id": 12542,
+"hours": "pon-pet 08:00-21:00; sub-ned 08:00-15:00",
+"osm": "https://www.openstreetmap.org/node/13751729362",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 8187,
+"hours": "pon-pet 08:00-20:00, sub 08:00-13:00",
+"osm": "https://www.openstreetmap.org/way/1135493725",
+"org": "Gradska biblioteka \"Atanasije Stojković\"",
+"osm_name": "Градска библиотека „Атанасије Стојковић”"
+},
+{
+"location_id": 35228,
+"hours": "pon-ned 07:00-23:00",
+"osm": "https://www.openstreetmap.org/way/144930623",
+"org": "Novi Sad",
+"osm_name": "Нови Сад"
+},
+{
+"location_id": 12507,
+"hours": "pon-sub 07:00-21:00; ned 08:00-14:00",
+"osm": "https://www.openstreetmap.org/node/13699220194",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 12446,
+"hours": "pon-pet 07:30-20:30; sub 07:30-14:00",
+"osm": "https://www.openstreetmap.org/node/11841204483",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 12104,
+"hours": "pon-pet 07:30-20:00; sub 07:30-15:00; ned 07:30-14:00",
+"osm": "https://www.openstreetmap.org/node/4031335089",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 12538,
+"hours": "pon,sre-pet 08:00-21:00; uto 08:00-16:00; sub-ned 08:00-16:00",
+"osm": "https://www.openstreetmap.org/node/13931265240",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 13647,
+"hours": "pon-sub 08:00-21:00; ned 09:00-15:00",
+"osm": "https://www.openstreetmap.org/node/9091313437",
+"org": "Apotekarska ustanova ''Lilly Drogerie''",
+"osm_name": "Lilly"
+},
+{
+"location_id": 13164,
+"hours": "00:00-24:00",
+"osm": "https://www.openstreetmap.org/node/1018369369",
+"org": "Apotekarska ustanova \"Farma prima\"",
+"osm_name": "Прима"
+},
+{
+"location_id": 13811,
+"hours": "pon-sub 07:00-22:00; ned 08:00-16:00",
+"osm": "https://www.openstreetmap.org/node/13853991882",
+"org": "Apotekarska ustanova \"Livada\"",
+"osm_name": "Livada"
+},
+{
+"location_id": 12157,
+"hours": "pon-sub 08:00-21:00; ned 08:00-15:00",
+"osm": "https://www.openstreetmap.org/node/13932029242",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 12141,
+"hours": "pon-ned 08:00-21:00",
+"osm": "https://www.openstreetmap.org/node/6796945690",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 12441,
+"hours": "pon-sub 08:00-21:00",
+"osm": "https://www.openstreetmap.org/node/14004772121",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 11039,
+"hours": "pon-sub 08:00-20:00; ned 08:00-14:00",
+"osm": "https://www.openstreetmap.org/way/1106172972",
+"org": "Apotekarska ustanova \"Milica VPD\"",
+"osm_name": "Милица"
+},
+{
+"location_id": 4631,
+"hours": "pon-pet 08:30-19:00; sub 08:30-12:30",
+"osm": "https://www.openstreetmap.org/node/7600197795",
+"org": "Savremena galerija Umetničke Kolonije \"Ečka\"",
+"osm_name": "Народни музеј Зрењанин"
+},
+{
+"location_id": 2154,
+"hours": "uto-ned 12:00-20:00",
+"osm": "https://www.openstreetmap.org/node/635725488",
+"org": "Muzej Žrtava Genocida",
+"osm_name": "Историјски музеј Србије"
+},
+{
+"location_id": 12464,
+"hours": "pon-pet 07:30-21:00; sub 07:30-15:00; ned 08:00-15:00",
+"osm": "https://www.openstreetmap.org/node/9554119606",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 12158,
+"hours": "pon-pet 07:30-21:00; sub 08:00-18:00; ned 08:00-15:00",
+"osm": "https://www.openstreetmap.org/node/13932029245",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 13701,
+"hours": "pon-pet 08:00-21:00, sub 08:00-18:00, ned 08:00-15:00",
+"osm": "https://www.openstreetmap.org/node/13657100899",
+"org": "Apotekarska ustanova ''Lilly Drogerie''",
+"osm_name": "Lilly Drogerie Apoteka 197"
+},
+{
+"location_id": 12222,
+"hours": "pon-pet 08:00-20:30; sub 08:00-16:00; ned 08:00-15:00",
+"osm": "https://www.openstreetmap.org/node/13021204513",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 13660,
+"hours": "pon-pet 08:00-21:00; sub 08:00-18:00; ned 08:00-14:00",
+"osm": "https://www.openstreetmap.org/node/6812666787",
+"org": "Apotekarska ustanova ''Lilly Drogerie''",
+"osm_name": "Lilly"
+},
+{
+"location_id": 14276,
+"hours": "pon-pet 07:30-20:30; sub 08:00-16:00",
+"osm": "https://www.openstreetmap.org/node/11736809462",
+"org": "Apotekarska ustanova \"Sunce\"",
+"osm_name": "Sunce"
+},
+{
+"location_id": 12108,
+"hours": "pon-pet 07:30-20:30; sub 08:00-15:00",
+"osm": "https://www.openstreetmap.org/node/13925916512",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 2526,
+"hours": "pon-ned 00:00-00:00",
+"osm": "https://www.openstreetmap.org/way/1018352794",
+"org": "Dom zdravlja Veliko Gradište",
+"osm_name": "Дом здравља Велико Градиште"
+},
+{
+"location_id": 47149,
+"hours": "pon-pet 06:00-17:00",
+"osm": "https://www.openstreetmap.org/way/377729409",
+"org": "Predškolska ustanova \"Čika Jova Zmaj\"",
+"osm_name": "Вртић „Сестре Букумировић”"
+},
+{
+"location_id": 34708,
+"hours": "pon-ned 00:00-24:00",
+"osm": "https://www.openstreetmap.org/way/528130920",
+"org": "MV Monogram",
+"osm_name": "МВ Монограм"
+},
+{
+"location_id": 1312,
+"hours": "pon-pet 07:30-18:30",
+"osm": "https://www.openstreetmap.org/node/5590987423",
+"org": "Osnovna škola \"20. Oktobar\"",
+"osm_name": "OŠ „20. Oktobar”"
+},
+{
+"location_id": 13868,
+"hours": "pon-pet 07:30-21:00; sub 08:00-20:00; ned 08:00-14:00",
+"osm": "https://www.openstreetmap.org/node/13912583353",
+"org": "Apotekarska ustanova \"Meduza\"",
+"osm_name": "Apoteka Meduza 7"
+},
+{
+"location_id": 1323,
+"hours": "pon-pet 07:30-18:30",
+"osm": "https://www.openstreetmap.org/node/5590987424",
+"org": "Osnovna škola \"Svetozar Miletić\"",
+"osm_name": "OŠ „Svetozar Miletić”"
+},
+{
+"location_id": 1931,
+"hours": "pon-pet 7:00-15:00",
+"osm": "https://www.openstreetmap.org/node/4659630191",
+"org": "Hemijsko-Prehrambena srednja škola",
+"osm_name": "Хемијско-прехрамбена средња школа"
+},
+{
+"location_id": 27300,
+"hours": "pon-čet 09:00-16:00; pet 07:30-13:30; sub,ned,",
+"osm": "https://www.openstreetmap.org/node/13173190924",
+"org": "GRAWE osiguranje",
+"osm_name": "Grawe"
+},
+{
+"location_id": 12384,
+"hours": "pon-pet 08:00-20:30; sub 08:00-15:00; ned 08:00-14:00",
+"osm": "https://www.openstreetmap.org/node/11948173872",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 12501,
+"hours": "pon-pet 08:00-20:00; sub 08:00-15:00",
+"osm": "https://www.openstreetmap.org/node/11371475649",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 2615,
+"hours": "pon-ned 00:00-24:00",
+"osm": "https://www.openstreetmap.org/way/418275689",
+"org": "Opšta bolnica \"Đorđe Joanović\"",
+"osm_name": "Општа болница „Ђорђе Јоановић”"
+},
+{
+"location_id": 2523,
+"hours": "pon-pet 00:00-24:00",
+"osm": "https://www.openstreetmap.org/way/1041414238",
+"org": "Dom zdravlja \"Dr Milorad Mihajlović\"",
+"osm_name": "Дом здравља „Др Милорад Михајловић”"
+},
+{
+"location_id": 2495,
+"hours": "pon-sub 07:00-19:30; 24/7",
+"osm": "https://www.openstreetmap.org/way/1025490825",
+"org": "Dom zdravlja \"Dr Jovan Jovanović-Zmaj\"",
+"osm_name": "Дом здравља „Др Јован Јовановић Змај”"
+},
+{
+"location_id": 12224,
+"hours": "pon-pet 07:30-17:00; sub 07:00-14:00; ned 08:00-12:30",
+"osm": "https://www.openstreetmap.org/node/9885526000",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 4882,
+"hours": "pon-pet 07:00-15:00",
+"osm": "https://www.openstreetmap.org/way/985170980",
+"org": "Opštinska uprava Babušnica",
+"osm_name": "Општинска управа"
+},
+{
+"location_id": 14010,
+"hours": "pon-pet 08:00-21:00; sub 08:00-18:00; ned 09:00-16:00",
+"osm": "https://www.openstreetmap.org/node/6335733096",
+"org": "Apotekarska ustanova \"Norapharm\"",
+"osm_name": "Norapharm"
+},
+{
+"location_id": 26700,
+"hours": "pon-pet 07:00-18:00",
+"osm": "https://www.openstreetmap.org/node/6855957081",
+"org": "Predškolska ustanova „Futurino“",
+"osm_name": "Вртић Футурино"
+},
+{
+"location_id": 2621,
+"hours": "pon-ned 00:00-24:00",
+"osm": "https://www.openstreetmap.org/way/399313742",
+"org": "Institut za Rehabilitaciju",
+"osm_name": "Клиника за рехабилитацију „Др Мирослав Зотовић”"
+},
+{
+"location_id": 1322,
+"hours": "pon-pet 07:30-18:15",
+"osm": "https://www.openstreetmap.org/way/663197748",
+"org": "Osnovna škola \"Petar Petrović Njegoš\"",
+"osm_name": "OŠ Petar II Petrović Njegoš"
+},
+{
+"location_id": 12175,
+"hours": "pon-pet 08:00-20:00; sub 08:00-15:00",
+"osm": "https://www.openstreetmap.org/node/13972034664",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 2593,
+"hours": "pon-ned 00:00-24:00",
+"osm": "https://www.openstreetmap.org/way/1009622841",
+"org": "Specijalna bolnica za Interne Bolesti Mladenovac",
+"osm_name": "Specijalna bolnica za internet bolesti Lazarevac"
+},
+{
+"location_id": 26598,
+"hours": "pon-pet 06:30-17:00",
+"osm": "https://www.openstreetmap.org/node/13226688295",
+"org": "Predškolska ustanova „Winnieland“",
+"osm_name": "Vrtić Winnieland"
+},
+{
+"location_id": 12223,
+"hours": "pon-pet 08:00-20:30; sub 08:00-18:00; ned 08:00-15:00",
+"osm": "https://www.openstreetmap.org/node/6838107993",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 12311,
+"hours": "pon-pet 07:30-21:00; sub 08:00-20:00; ned 08:00-14:00",
+"osm": "https://www.openstreetmap.org/node/6799097796",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 12505,
+"hours": "pon-sub 08:00-21:00; ned 08:00-15:00",
+"osm": "https://www.openstreetmap.org/node/13928617296",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 2534,
+"hours": "pon-ned 00:00-24:00",
+"osm": "https://www.openstreetmap.org/way/172228755",
+"org": "Zdravstveni centar Užice",
+"osm_name": "Општа болница „Ужице”"
+},
+{
+"location_id": 13829,
+"hours": "pon-pet 08:00-20:00; sub 08:00-16:00",
+"osm": "https://www.openstreetmap.org/node/13853994466",
+"org": "Apotekarska ustanova \"Livada\"",
+"osm_name": "Livada"
+},
+{
+"location_id": 12161,
+"hours": "pon-pet 07:00-20:00; sub 08:00-16:00",
+"osm": "https://www.openstreetmap.org/node/6802719011",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 12186,
+"hours": "pon-pet 07:00-20:00; sub 08:00-17:00; ned 08:00-14:00",
+"osm": "https://www.openstreetmap.org/node/13920294889",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 12509,
+"hours": "pon-pet 08:00-20:30; sub 09:00-20:00",
+"osm": "https://www.openstreetmap.org/node/13462276277",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 13805,
+"hours": "pon-pet 07:00-21:00; sub 08:00-21:00; ned 08:00-14:00",
+"osm": "https://www.openstreetmap.org/node/11540007636",
+"org": "Apotekarska ustanova \"Lipa lek\"",
+"osm_name": "Липа Лек"
+},
+{
+"location_id": 12225,
+"hours": "pon-ned 09:00-22:00",
+"osm": "https://www.openstreetmap.org/node/10759926832",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 47239,
+"hours": "pon-pet 06:00-18:00",
+"osm": "https://www.openstreetmap.org/way/317727709",
+"org": "Predškolska ustanova \"11. April\"",
+"osm_name": "Вртић „Тесла-наука за живот”"
+},
+{
+"location_id": 26606,
+"hours": "pon-pet 07:00-17:30",
+"osm": "https://www.openstreetmap.org/node/13226688293",
+"org": "Predškolska ustanova „Dambo“",
+"osm_name": "Вртић Дамбо"
+},
+{
+"location_id": 13824,
+"hours": "pon-pet 07:30-20:30; sub 08:00-17:00",
+"osm": "https://www.openstreetmap.org/node/13853994469",
+"org": "Apotekarska ustanova \"Livada\"",
+"osm_name": "Livada"
+},
+{
+"location_id": 12436,
+"hours": "pon-pet 07:00-21:00; sub 07:30-21:00; ned 08:00-14:00",
+"osm": "https://www.openstreetmap.org/node/14004357902",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 12278,
+"hours": "pon-pet 07:30-21:00; sub-ned 08:00-15:00",
+"osm": "https://www.openstreetmap.org/node/14004772118",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 13491,
+"hours": "pon-pet 08:00-20:00; sub 08:00-15:00",
+"osm": "https://www.openstreetmap.org/node/13916853428",
+"org": "Apotekarska ustanova \"Galena lab\"",
+"osm_name": "Galena vera"
+},
+{
+"location_id": 27299,
+"hours": "pon-čet 07:30-16:00; pet 07:30-13:30",
+"osm": "https://www.openstreetmap.org/node/7072918359",
+"org": "GRAWE osiguranje",
+"osm_name": "Grawe"
+},
+{
+"location_id": 12512,
+"hours": "pon-pet 08:00-20:00; sub 08:00-16:00",
+"osm": "https://www.openstreetmap.org/node/13923212423",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 12476,
+"hours": "pon-pet 07:30-21:00; sub 08:00-15:00",
+"osm": "https://www.openstreetmap.org/node/13928617265",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 12201,
+"hours": "pon-pet 08:00-20:00; sub 07:30-14:30; ned 08:00-13:00",
+"osm": "https://www.openstreetmap.org/node/13998325693",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 12383,
+"hours": "pon-pet 07:00-20:00; sub 08:00-17:00",
+"osm": "https://www.openstreetmap.org/node/13859908238",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 12426,
+"hours": "pon-pet 07:00-20:00; sub 07:00-17:00",
+"osm": "https://www.openstreetmap.org/node/14004357901",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 12539,
+"hours": "pon-pet 07:30-20:30; sub 07:30-14:30",
+"osm": "https://www.openstreetmap.org/node/13784717399",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 2575,
+"hours": "pon-ned 00:00-24:00",
+"osm": "https://www.openstreetmap.org/way/618343067",
+"org": "Dom zdravlja Žitište",
+"osm_name": "Dom zdravlja Žitište"
+},
+{
+"location_id": 4619,
+"hours": "pon-pet 07:30-14:30",
+"osm": "https://www.openstreetmap.org/way/463524759",
+"org": "Gradska uprava Zrenjanin",
+"osm_name": "Град Зрењанин градска управа"
+},
+{
+"location_id": 37815,
+"hours": "pon-pet 08:00-22:00; sub-ned 09:00-22:00",
+"osm": "https://www.openstreetmap.org/node/13625551801",
+"org": "OŠ \"Intellectum Academy\"",
+"osm_name": "Intellectum Academy"
+},
+{
+"location_id": 12185,
+"hours": "pon-sub 08:00-21:00; ned 08:00-14:00",
+"osm": "https://www.openstreetmap.org/node/3723968542",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 2721,
+"hours": "pon-ned 00:00-24:00",
+"osm": "https://www.openstreetmap.org/relation/9394193",
+"org": "Opšta bolnica Vrbas",
+"osm_name": "Општа болница Врбас"
+},
+{
+"location_id": 11268,
+"hours": "pon-sub 07:00-21:00; ned 08:00-14:00",
+"osm": "https://www.openstreetmap.org/node/13720269410",
+"org": "Apotekarska ustanova \"Filly Farm\"",
+"osm_name": "Filly"
+},
+{
+"location_id": 3204,
+"hours": "uto-pet 09:00-17:00; sub-ned 09:00-13:00",
+"osm": "https://www.openstreetmap.org/way/447922040",
+"org": "Narodni muzej Čačak",
+"osm_name": "Господар Јованов конак"
+},
+{
+"location_id": 109,
+"hours": "pon-sub 07:30-15:30",
+"osm": "https://www.openstreetmap.org/way/961281054",
+"org": "Osnovni sud u Kuršumliji",
+"osm_name": "Основни суд у Куршумлији"
+},
+{
+"location_id": 14299,
+"hours": "pon-pet 07:30-21:00; sub-ned 08:00-16:00",
+"osm": "https://www.openstreetmap.org/node/6325943805",
+"org": "Apotekarska ustanova \"Sunce\"",
+"osm_name": "Sunce"
+},
+{
+"location_id": 2823,
+"hours": "pon-pet 08:00-16:00",
+"osm": "https://www.openstreetmap.org/node/6183674399",
+"org": "Pokrajinski Zaštitnik Građana - Ombudsman",
+"osm_name": "Покрајински заштитник грађана - омбудсман"
+},
+{
+"location_id": 13820,
+"hours": "pon-sub 07:30-21:00; ned 11:00-15:00",
+"osm": "https://www.openstreetmap.org/node/13853994379",
+"org": "Apotekarska ustanova \"Livada\"",
+"osm_name": "Livada"
+},
+{
+"location_id": 12428,
+"hours": "pon-pet 08:00-21:00; sub 08:00-16:00; ned 09:00-15:00",
+"osm": "https://www.openstreetmap.org/node/8989440101",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 12221,
+"hours": "pon-sub 08:00-21:00; ned 08:00-15:00",
+"osm": "https://www.openstreetmap.org/node/9091313471",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 2492,
+"hours": "07:00-20:00",
+"osm": "https://www.openstreetmap.org/way/318990068",
+"org": "Dom zdravlja \"Dr Milorad Vlajković\"",
+"osm_name": "Дом здравља „Др Милорад Влајковић”"
+},
+{
+"location_id": 12504,
+"hours": "pon-pet 07:30-20:00; sub 08:00-14:00",
+"osm": "https://www.openstreetmap.org/node/14003498524",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 12465,
+"hours": "pon-sub 07:30-21:00",
+"osm": "https://www.openstreetmap.org/node/13919967069",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 12455,
+"hours": "pon-pet 07:30-21:00; sub 08:00-16:00",
+"osm": "https://www.openstreetmap.org/node/6802142585",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 12084,
+"hours": "pon-pet 07:00-20:00; sub 07:00-14:00",
+"osm": "https://www.openstreetmap.org/node/13920294856",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 12418,
+"hours": "pon-sub 07:00-21:00; ned 07:00-16:00",
+"osm": "https://www.openstreetmap.org/node/8273693958",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 13652,
+"hours": "pon-pet 08:00-21:00; sub 08:00-18:00; ned 08:00-14:00",
+"osm": "https://www.openstreetmap.org/way/312047357",
+"org": "Apotekarska ustanova ''Lilly Drogerie''",
+"osm_name": "Lilly"
+},
+{
+"location_id": 12417,
+"hours": "pon-pet 07:00-21:00; sub 08:00-20:00; ned 08:00-16:00",
+"osm": "https://www.openstreetmap.org/node/1500122650",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 26639,
+"hours": "pon-pet 07:30-17:30",
+"osm": "https://www.openstreetmap.org/node/6576383844",
+"org": "Predškolska ustanova „Nojeva barka“",
+"osm_name": "Vrtić „Nojeva barka”"
+},
+{
+"location_id": 5993,
+"hours": "pon-sub 08:00-16:00",
+"osm": "https://www.openstreetmap.org/way/960163614",
+"org": "Zavičajni muzej Knjaževac",
+"osm_name": "Завичајни музеј Књажевац"
+},
+{
+"location_id": 12167,
+"hours": "pon-pet 07:30-20:00; sub-ned 07:30-14:30",
+"osm": "https://www.openstreetmap.org/node/13919967061",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 35368,
+"hours": "pon-ned 00:00-24:00",
+"osm": "https://www.openstreetmap.org/node/10540046309",
+"org": "Tesla",
+"osm_name": "Tesla Hotel"
+},
+{
+"location_id": 35464,
+"hours": "pon-ned 00:00-24:00",
+"osm": "https://www.openstreetmap.org/way/23787977",
+"org": "Hyatt Regency Beograd",
+"osm_name": "Hyatt Regency Belgrade"
+},
+{
+"location_id": 46016,
+"hours": "pon-pet 07:00-12:00",
+"osm": "https://www.openstreetmap.org/node/13275743284",
+"org": "Predškolska ustanova \"Naša Radost\"",
+"osm_name": "Вртић Бамби – Мала Босна"
+},
+{
+"location_id": 10404,
+"hours": "pon-sub 07:30-19:30; ned 08:00-11:00",
+"osm": "https://www.openstreetmap.org/node/13787377547",
+"org": "Apotekarska ustanova \"Demetra\"",
+"osm_name": "Demetra"
+},
+{
+"location_id": 12178,
+"hours": "pon-pet 07:30-17:30; sub 07:30-13:30",
+"osm": "https://www.openstreetmap.org/node/13922519315",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 12162,
+"hours": "pon-pet 07:30-21:00; sub 08:00-20:00; ned 08:00-15:00",
+"osm": "https://www.openstreetmap.org/node/13928617298",
+"org": "Apotekarska ustanova \"BENU\"",
+"osm_name": "Benu"
+},
+{
+"location_id": 46499,
+"hours": "pon-pet 06:00-17:00",
+"osm": "https://www.openstreetmap.org/way/627355344",
+"org": "Predškolska ustanova \"Lane\"",
+"osm_name": "Lane - Bucekova"
+},
+{
+"location_id": 35263,
+"hours": "pon-ned 00:00-24:00",
+"osm": "https://www.openstreetmap.org/node/11388513280",
+"org": "Planeta Inn",
+"osm_name": "Garni hotel Planeta Inn"
+},
+{
+"location_id": 2530,
+"hours": "07:00-20:00",
+"osm": "https://www.openstreetmap.org/way/1030350941",
+"org": "Dom zdravlja \"Dr Milan-Bane Đorđević\"",
+"osm_name": "Дом здравља „Др Милан - Бане Ђорђевић” Велика Плана"
+}
+]

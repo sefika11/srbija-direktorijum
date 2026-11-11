@@ -269,3 +269,24 @@ we do not hold yet).
   municipality's administration (`_municipal_sites.json`); 87 official branches from `_extra_all.json` were imported with
   `tools/reach/import_branches.py` (31 fire units, 19 clinics, 15 fund counters, 15 pharmacy branches, 7 bank counters;
   ids in `db/fixes/imported_branches_2026-11-11_141017.json`). Short emergency numbers (193) are not stored as contacts.
+
+## 12. Beyond official pages: registers, the open map, and hours by rule (2026-11-11, afternoon)
+
+Nick's direction: accuracy first; hours may also come from maps, or from strong assumptions that are backed up. What was done:
+- Vojvodina's provincial school register (skolevojvodine.vojvodina.gov.rs, 568 entries, `tools/reach/vojvodina_schools.py`):
+  478 matched to ours; 213 phones, 308 websites, 21 streets. 90 unmatched kept in `_vojvodina_schools_unmatched.json`.
+- OpenStreetMap opening hours (`tools/reach/osm_hours.py`, Overpass extract in `.cache/osm/opening_hours_rs.json`): 134 locations,
+  matched only where kind, street, number and municipality agree on both sides and (for traded kinds) the names share a word.
+  Google Maps is not used: its pages are behind bot checks and its terms forbid scraping; the Places API would need Nick's key.
+- Hours by rule (`tools/reach/rule_hours.py`): 203 state-administration locations 07:30-15:30 (Government decision of 1 May 2014),
+  150 professional fire units 00-24. Every such row carries `opening_hours.note` and the page prints one line saying where
+  the hours come from (`po propisu`, `dežurna služba`, `OpenStreetMap`). Nothing is assumed for hotels, police counters,
+  municipal offices or schools.
+- Register scout (one Sonnet agent, /tmp/scout/registers.md copied into this section's working notes): 12 verified sources.
+  Imported: 417 technical inspection stations (ABS list of 23.07.2024; hours only where days and times are both published),
+  149 theatres and cinemas (new types `pozoriste`, `bioskop`) and 77 other culture institutions from the Ministry of Culture
+  open data, plus contacts for 383 culture institutions we held; branch networks of NSZ, PIO and the tax administration
+  (`_branches_*.json`, via `tools/reach/import_branches.py`; units in Kosovo are skipped, no municipality to place them in).
+- Not imported: APR's open company and NGO files (name, municipality and activity code, no address or phone).
+- Loader lesson: `load_orgs_json` derives the slug from type + name + town cut at 80 characters, so long operator names with the
+  street at the end collapse into one row. Put the distinguishing part first.

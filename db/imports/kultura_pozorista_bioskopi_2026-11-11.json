@@ -1,0 +1,3900 @@
+{
+ "source": {
+  "name": "Ministarstvo kulture – ustanove kulture (data.gov.rs)",
+  "url": "https://data.gov.rs/sr/datasets/ustanove-kulture-pozorishta/",
+  "fetched_at": "2026-11-11"
+ },
+ "rows": [
+  {
+   "name": "Bioskop - KC „Drainac”",
+   "type_slug": "bioskop",
+   "town": "Blace",
+   "municipality": "Blace",
+   "address": "Kralja Petra I 70",
+   "phones": [
+    "018 371 709",
+    "064 8099 444"
+   ],
+   "emails": [
+    "k.c.drainac@gmail.com"
+   ],
+   "extra": {
+    "lat": 43.29591,
+    "lng": 21.2933
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop „Stenli Kjubrik”",
+   "type_slug": "bioskop",
+   "town": "Mokra Gora",
+   "municipality": "Užice",
+   "address": "Mećavnik /",
+   "phones": [
+    "031 800 686",
+    "064 8830 212"
+   ],
+   "emails": [
+    "info@mecavnik.info"
+   ],
+   "extra": {
+    "lat": 43.79542,
+    "lng": 19.50754
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Cineplexx Niš",
+   "type_slug": "bioskop",
+   "town": "Niš",
+   "municipality": "Niš",
+   "address": "Bulevar Medijana 21",
+   "phones": [
+    "018 300 340",
+    "064 8279 739"
+   ],
+   "emails": [
+    "bioskop@cineplexx.rs"
+   ],
+   "website": "https://www.cineplexx.rs/center/cineplexx-nis",
+   "extra": {
+    "lat": 43.31127,
+    "lng": 21.93576
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Cineplexx BEO Shopping Center",
+   "type_slug": "bioskop",
+   "town": "Ljubovija",
+   "municipality": "Beograd - Zvezdara",
+   "address": "Vojislava Ilića 141",
+   "phones": [
+    "011 4231 110",
+    "064 8279 739"
+   ],
+   "emails": [
+    "bioskop@cineplexx.rs"
+   ],
+   "website": "https://www.cineplexx.rs",
+   "extra": {
+    "lat": 44.78645,
+    "lng": 20.50227
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Cineplexx BIG Beograd",
+   "type_slug": "bioskop",
+   "town": "Beograd - Palilula",
+   "municipality": "Beograd - Palilula",
+   "address": "Višnjička 84",
+   "phones": [
+    "011 4040 780",
+    "064 8279 739"
+   ],
+   "emails": [
+    "bioskop@cineplexx.rs"
+   ],
+   "website": "https://www.cineplexx.rs/center/cineplexx-big-beograd/",
+   "extra": {
+    "lat": 44.81694,
+    "lng": 20.50757
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Cineplexx Galerija Belgrade",
+   "type_slug": "bioskop",
+   "town": "Beograd - Savski venac",
+   "municipality": "Beograd - Savski venac",
+   "address": "Bulevar Vudroa Vilsona 12",
+   "phones": [
+    "011 4500 999",
+    "064 8279 739"
+   ],
+   "emails": [
+    "bioskop@cineplexx.rs"
+   ],
+   "website": "https://www.cineplexx.rs",
+   "extra": {
+    "lat": 44.80368,
+    "lng": 20.44789
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Cineplexx Promenada",
+   "type_slug": "bioskop",
+   "town": "Novi Sad",
+   "municipality": "Novi Sad",
+   "address": "Bulevar oslobođenja 119",
+   "phones": [
+    "021 3833 999",
+    "064 8279 739"
+   ],
+   "emails": [
+    "bioskop@cineplexx.rs"
+   ],
+   "website": "https://www.cineplexx.rs",
+   "extra": {
+    "lat": 45.24493,
+    "lng": 19.84242
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "CineStar 4DX Beograd Ada Mall",
+   "type_slug": "bioskop",
+   "town": "Beograd - Čukarica",
+   "municipality": "Beograd - Čukarica",
+   "address": "Radnička 9",
+   "phones": [
+    "011 7565 721",
+    "066 22 80 22"
+   ],
+   "emails": [
+    "aleksandar.jovic@cinestarcinemas.eu"
+   ],
+   "website": "https://www.cinestarcinemas.rs",
+   "extra": {
+    "lat": 44.78775,
+    "lng": 20.41821
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - Dom kulture „Studentski grad“",
+   "type_slug": "bioskop",
+   "town": "Beograd - Novi Beograd",
+   "municipality": "Beograd - Novi Beograd",
+   "address": "Bulevar Zorana Đinđića 179",
+   "phones": [
+    "011 2691442",
+    "064 8667 173"
+   ],
+   "emails": [
+    "office@dksg.rs"
+   ],
+   "website": "https://www.dksg.rs",
+   "extra": {
+    "lat": 44.82355,
+    "lng": 20.40408
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - Opštinski kulturni centar Apatin",
+   "type_slug": "bioskop",
+   "town": "Apatin",
+   "municipality": "Apatin",
+   "address": "Trg Nikole Tesle 12",
+   "phones": [
+    "025 773 923"
+   ],
+   "emails": [
+    "info@kulturaapatin.com"
+   ],
+   "website": "https://www.kulturaapatin.com",
+   "extra": {
+    "lat": 45.67375,
+    "lng": 18.9791
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Arena Cinepleh",
+   "type_slug": "bioskop",
+   "town": "Beograd - Čukarica",
+   "municipality": "Beograd - Čukarica",
+   "address": "Požeška 83a",
+   "phones": [
+    "011 3545 925",
+    "062 250 565"
+   ],
+   "emails": [
+    "office@artvista.rs"
+   ],
+   "extra": {
+    "lat": 44.77417,
+    "lng": 20.41436
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop Fontana",
+   "type_slug": "bioskop",
+   "town": "Beograd - Novi Beograd",
+   "municipality": "Beograd - Novi Beograd",
+   "address": "Pariske komune 13",
+   "phones": [
+    "011 2672 004",
+    "063 8424 690"
+   ],
+   "emails": [
+    "info@artandpopcorn.com"
+   ],
+   "website": "https://www.bioskopfontana.rs",
+   "extra": {
+    "lat": 44.82567,
+    "lng": 20.4089
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Cineplexx Delta City",
+   "type_slug": "bioskop",
+   "town": "Beograd - Novi Beograd",
+   "municipality": "Beograd - Novi Beograd",
+   "address": "Jurija Gagarina 16",
+   "phones": [
+    "011 2203 400",
+    "064 8279 739"
+   ],
+   "emails": [
+    "bioskop@cineplexx.rs"
+   ],
+   "website": "https://www.cineplexx.rs",
+   "extra": {
+    "lat": 44.80492,
+    "lng": 20.40468
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Cineplexx Kragujevac Plaza",
+   "type_slug": "bioskop",
+   "town": "Kragujevac",
+   "municipality": "Kragujevac",
+   "address": "Bulevar Kraljice Marije 23",
+   "phones": [
+    "034 6195 030",
+    "064 8279 739"
+   ],
+   "emails": [
+    "bioskop@cineplexx.rs"
+   ],
+   "website": "https://www.cineplexx.rs/center/cineplexx-kragujevac-plaza",
+   "extra": {
+    "lat": 44.01339,
+    "lng": 20.9005
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Cineplexx Ušće Shopping Center",
+   "type_slug": "bioskop",
+   "town": "Beograd - Novi Beograd",
+   "municipality": "Beograd - Novi Beograd",
+   "address": "Bulevar Mihajla Pupina 4",
+   "phones": [
+    "011 3113 370",
+    "064 8279 739"
+   ],
+   "emails": [
+    "bioskop@cineplexx.rs"
+   ],
+   "website": "https://www.cineplexx.rs",
+   "extra": {
+    "lat": 44.81543,
+    "lng": 20.436
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "CineStar Novi Sad",
+   "type_slug": "bioskop",
+   "town": "Novi Sad",
+   "municipality": "Novi Sad",
+   "address": "BIG CEE Novi sad, Sentandrejski put 11",
+   "phones": [
+    "021 2156 602",
+    "063 302 454",
+    "065 2156 602"
+   ],
+   "emails": [
+    "jelena.zecevic@cinestarcinemas.eu"
+   ],
+   "website": "https://www.cinestarcinemas.rs",
+   "extra": {
+    "lat": 45.27475,
+    "lng": 19.82879
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "CineStar Pančevo",
+   "type_slug": "bioskop",
+   "town": "Pančevo",
+   "municipality": "Pančevo",
+   "address": "Aviv park, Miloša Obrenovića 12",
+   "phones": [
+    "013 2155 504",
+    "063 302 454",
+    "065 21 555 04"
+   ],
+   "emails": [
+    "zoran.stulic@cinestarcinemas.eu"
+   ],
+   "website": "https://www.cinestarcinemas.rs",
+   "extra": {
+    "lat": 44.86946,
+    "lng": 20.66061
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "CineStar Zrenjanin",
+   "type_slug": "bioskop",
+   "town": "Zrenjanin",
+   "municipality": "Zrenjanin",
+   "address": "Aviv park, Bagljaš Zapad 5",
+   "phones": [
+    "023 3155 161",
+    "063 302 454",
+    "065 3155 161"
+   ],
+   "emails": [
+    "ivana.siljanovski@cinestarcinemas.rs"
+   ],
+   "website": "https://www.cinestarcinemas.rs",
+   "extra": {
+    "lat": 45.37817,
+    "lng": 20.3549
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Tuckwood",
+   "type_slug": "bioskop",
+   "town": "Beograd - Vračar",
+   "municipality": "Beograd - Vračar",
+   "address": "Kneza Miloša 7a",
+   "phones": [
+    "011 3236 517",
+    "064 120 98 78"
+   ],
+   "emails": [
+    "office@tuckwood.rs"
+   ],
+   "website": "https://www.tuck.rs",
+   "extra": {
+    "lat": 44.80964,
+    "lng": 20.46534
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "ART BIOSKOP „Aleksandar Lifka” Subotica",
+   "type_slug": "bioskop",
+   "town": "Subotica",
+   "municipality": "Subotica",
+   "address": "Trg žrtava fašizma 5",
+   "phones": [
+    "024 527 110",
+    "069 5271 105"
+   ],
+   "emails": [
+    "lifka.cinema@gmail.com"
+   ],
+   "website": "https://www.alifka.org",
+   "extra": {
+    "lat": 46.09804,
+    "lng": 19.65985
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "ART bioskop Muzeum",
+   "type_slug": "bioskop",
+   "town": "Beograd - Stari grad",
+   "municipality": "Beograd - Stari grad",
+   "address": "Uzun Mirkova 2",
+   "phones": [
+    "011 3281 888"
+   ],
+   "emails": [
+    "info@etnografskimuzej.rs"
+   ],
+   "extra": {
+    "lat": 44.81993,
+    "lng": 20.45605
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - „Ekran\" doo",
+   "type_slug": "bioskop",
+   "town": "Sombor",
+   "municipality": "Sombor",
+   "address": "Kralja Petra I/4",
+   "phones": [
+    "025 412 056",
+    "063 389 940"
+   ],
+   "emails": [
+    "bioskop.so@gmail.com"
+   ],
+   "website": "https://www.bioskopsombor.com",
+   "extra": {
+    "lat": 45.77428,
+    "lng": 19.11409
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - Akademija 28",
+   "type_slug": "bioskop",
+   "town": "Beograd - Savski venac",
+   "municipality": "Beograd - Savski venac",
+   "address": "Nemanjina 28",
+   "phones": [
+    "011 3621 787",
+    "063 423 657"
+   ],
+   "emails": [
+    "akademija28@yahoo.com"
+   ],
+   "website": "https://www.akademija28.com",
+   "extra": {
+    "lat": 44.8036,
+    "lng": 20.46331
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - Biblioteka „Milovan Glišić”",
+   "type_slug": "bioskop",
+   "town": "Ljubovija",
+   "municipality": "Ljubovija",
+   "address": "Trg Vojvode Mišića bb",
+   "phones": [
+    "015 561 842",
+    "062 8871 200"
+   ],
+   "emails": [
+    "office@biblioteka-ljubovija.org.rs"
+   ],
+   "extra": {
+    "lat": 44.18786,
+    "lng": 19.37292
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - Biblioteka „Politika”",
+   "type_slug": "bioskop",
+   "town": "Krupanj",
+   "municipality": "Krupanj",
+   "address": "Mačkov kamen 3",
+   "phones": [
+    "015 581 033",
+    "015 581 203",
+    "064 3169 788"
+   ],
+   "emails": [
+    "bibliotekapolitikakrupanj@gmail.com"
+   ],
+   "extra": {
+    "lat": 44.3638,
+    "lng": 19.3631
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - Dvorana Kulturnog centra Beograda",
+   "type_slug": "bioskop",
+   "town": "Beograd - Stari grad",
+   "municipality": "Beograd - Stari grad",
+   "address": "Kolarčeva 6",
+   "phones": [
+    "011 2632 534",
+    "062 8005 812"
+   ],
+   "emails": [
+    "bioskop@kcb.rs"
+   ],
+   "website": "https://www.kcb.org.rs/category/filmski-program/?script=cir",
+   "extra": {
+    "lat": 44.81542,
+    "lng": 20.4603
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - Dom kulture „Vuk Karadžić”",
+   "type_slug": "bioskop",
+   "town": "Omoljica",
+   "municipality": "Pančevo",
+   "address": "Trg Svetog Save 1",
+   "phones": [
+    "026 617 005",
+    "061 515 0981"
+   ],
+   "emails": [
+    "dkomoljica@gmail.com"
+   ],
+   "website": "https://www.zisel.rs",
+   "extra": {
+    "lat": 44.75778,
+    "lng": 20.73659
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - Dom kulture „Jovan Tomić”",
+   "type_slug": "bioskop",
+   "town": "Nova Varoš",
+   "municipality": "Nova Varoš",
+   "address": "Trg vojvode Petra Bojovića 5",
+   "phones": [
+    "033 61 130"
+   ],
+   "emails": [
+    "domkulturenv@gmail.com"
+   ],
+   "extra": {
+    "lat": 43.46063,
+    "lng": 19.81524
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - Dom kulture „Mihajlo Pupin”",
+   "type_slug": "bioskop",
+   "town": "Idvor",
+   "municipality": "Kovačica",
+   "address": "Ive Lole Ribara 47",
+   "phones": [
+    "026 676 240",
+    "062 256 341"
+   ],
+   "emails": [
+    "domkultureidvor@gmail.com"
+   ],
+   "website": "https://www.muzejpupina.rs",
+   "extra": {
+    "lat": 45.11455,
+    "lng": 20.62616
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - Dom kulture „Radan”",
+   "type_slug": "bioskop",
+   "town": "Lebane",
+   "municipality": "Lebane",
+   "address": "Cara Dušana 79",
+   "phones": [
+    "016 843 920"
+   ],
+   "emails": [
+    "domkultureradan@gmail.com"
+   ],
+   "extra": {
+    "lat": 42.91761,
+    "lng": 21.73773
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - Dom kulture Bačka Topola",
+   "type_slug": "bioskop",
+   "town": "Bačka Topola",
+   "municipality": "Bačka Topola",
+   "address": "Glavna 12",
+   "phones": [
+    "024 713 515"
+   ],
+   "emails": [
+    "kultura@stcable.net"
+   ],
+   "extra": {
+    "lat": 45.81305,
+    "lng": 19.63136
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - Dom kulture Ivanjica",
+   "type_slug": "bioskop",
+   "town": "Ivanjica",
+   "municipality": "Ivanjica",
+   "address": "Venijamina Marinkovića bb",
+   "phones": [
+    "032 661 087",
+    "065 2606 229"
+   ],
+   "emails": [
+    "domkultureivanjica@mts.rs"
+   ],
+   "extra": {
+    "lat": 43.58055,
+    "lng": 20.23111
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - Dom kulture Knjaževac",
+   "type_slug": "bioskop",
+   "town": "Knjaževac",
+   "municipality": "Knjaževac",
+   "address": "Branka Radičevića 1",
+   "phones": [
+    "019 731 804",
+    "064 8992 732"
+   ],
+   "emails": [
+    "dkknjaz@mts.rs"
+   ],
+   "extra": {
+    "lat": 43.56869,
+    "lng": 22.25549
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - Dom kulture Prijepolje",
+   "type_slug": "bioskop",
+   "town": "Prijepolje",
+   "municipality": "Prijepolje",
+   "address": "Sandžačkih brigada 2",
+   "phones": [
+    "031 711 566",
+    "064 8560 415"
+   ],
+   "emails": [
+    "domkulturepp@gmail.com"
+   ],
+   "extra": {
+    "lat": 43.3913,
+    "lng": 19.64815
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - Dom kulture Čačak",
+   "type_slug": "bioskop",
+   "town": "Čačak",
+   "municipality": "Čačak",
+   "address": "Trg narodnog ustanka 2",
+   "phones": [
+    "032 325 073",
+    "064 80 40 240"
+   ],
+   "emails": [
+    "d.jerotijevic@domkulturecacak.org"
+   ],
+   "website": "https://www.domkulturecacak.org",
+   "extra": {
+    "lat": 43.892,
+    "lng": 20.3498
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - Dom omladine",
+   "type_slug": "bioskop",
+   "town": "Beograd - Stari grad",
+   "municipality": "Beograd - Stari grad",
+   "address": "Makedonska 22/4",
+   "phones": [
+    "011 3220 127"
+   ],
+   "emails": [
+    "dobinfo@domomladine.org"
+   ],
+   "website": "https://www.domomladine.org",
+   "extra": {
+    "lat": 44.81553,
+    "lng": 20.46282
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - Javna biblioteka Opštine Doljevac",
+   "type_slug": "bioskop",
+   "town": "Doljevac",
+   "municipality": "Doljevac",
+   "address": "Nikole Tesle 28",
+   "phones": [
+    "018 870 814"
+   ],
+   "emails": [
+    "n.bibliotekadoljevac@yahoo.com"
+   ],
+   "website": "https://www.bibliotekadoljevac.org",
+   "extra": {
+    "lat": 43.19779,
+    "lng": 21.83381
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - JP Sava Centar",
+   "type_slug": "bioskop",
+   "town": "Beograd - Novi Beograd",
+   "municipality": "Beograd - Novi Beograd",
+   "address": "Milentija Popovića 9",
+   "phones": [
+    "011 2206 768",
+    "064 8229 326"
+   ],
+   "emails": [
+    "film@savacentar.net"
+   ],
+   "extra": {
+    "lat": 44.80927,
+    "lng": 20.43191
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - Kulturni centar ,,Svetozar Marković”",
+   "type_slug": "bioskop",
+   "town": "Jagodina",
+   "municipality": "Jagodina",
+   "address": "Kneginje Milice 25",
+   "phones": [
+    "035 221 921",
+    "065 2529 843"
+   ],
+   "emails": [
+    "kultcentar@gmail.com"
+   ],
+   "website": "https://kcjagodina.rs",
+   "extra": {
+    "lat": 43.97769,
+    "lng": 21.26215
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - Kulturni centar „Brana Crnčević” Ruma",
+   "type_slug": "bioskop",
+   "town": "Ruma",
+   "municipality": "Ruma",
+   "address": "Veljka Dugoševića 102",
+   "phones": [
+    "022 471 212",
+    "069 715 765"
+   ],
+   "emails": [
+    "kulturnicentarruma@gmail.com"
+   ],
+   "website": "https://www.kcruma.co.rs",
+   "extra": {
+    "lat": 45.00913,
+    "lng": 19.82074
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - Kulturni centar Vršac",
+   "type_slug": "bioskop",
+   "town": "Vršac",
+   "municipality": "Vršac",
+   "address": "Sterijina 62",
+   "phones": [
+    "026 839 190",
+    "026 830 900",
+    "606050623"
+   ],
+   "emails": [
+    "office@kulcentar.com"
+   ],
+   "website": "https://www.kulcentar.com",
+   "extra": {
+    "lat": 45.11611,
+    "lng": 21.29859
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - Kulturni centar Inđija",
+   "type_slug": "bioskop",
+   "town": "Inđija",
+   "municipality": "Inđija",
+   "address": "Vojvode Stepe 40a",
+   "phones": [
+    "022 2150 148",
+    "646491049"
+   ],
+   "emails": [
+    "kci@indjija.net"
+   ],
+   "website": "https://www.kcindjija.com",
+   "extra": {
+    "lat": 45.051,
+    "lng": 20.08652
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - Kulturni centar Mladenovac",
+   "type_slug": "bioskop",
+   "town": "Beograd - Mladenovac",
+   "municipality": "Beograd - Mladenovac",
+   "address": "Vojvode Putnika 7",
+   "phones": [
+    "011 8231 230"
+   ],
+   "emails": [
+    "info@ckm.co.rs"
+   ],
+   "website": "https://www.ckm.co.rs",
+   "extra": {
+    "lat": 44.44121,
+    "lng": 20.69334
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - Kulturni centar Novi Sad",
+   "type_slug": "bioskop",
+   "town": "Novi Sad",
+   "municipality": "Novi Sad",
+   "address": "Katolička porta 5",
+   "phones": [
+    "021 528 346",
+    "064 1635 251"
+   ],
+   "emails": [
+    "filmkcns@gmail.com"
+   ],
+   "website": "https://www.kcns.org.rs",
+   "extra": {
+    "lat": 45.2563,
+    "lng": 19.84529
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - Kulturni centar opštine Beočin",
+   "type_slug": "bioskop",
+   "town": "Beočin",
+   "municipality": "Beočin",
+   "address": "Trg Cara Lazara 1",
+   "phones": [
+    "021 870 230",
+    "065 8054 203"
+   ],
+   "emails": [
+    "kcentar1@mts.rs"
+   ],
+   "website": "https://kcobeocin.rs",
+   "extra": {
+    "lat": 45.20755,
+    "lng": 19.72274
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - Kulturno obrazovni centar Boljevac",
+   "type_slug": "bioskop",
+   "town": "Boljevac",
+   "municipality": "Boljevac",
+   "address": "Kneza Miloša 4",
+   "phones": [
+    "019 463 737"
+   ],
+   "emails": [
+    "kultura@beotel.rs"
+   ],
+   "extra": {
+    "lat": 43.82991,
+    "lng": 21.95868
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - KC Vrnjačka Banja",
+   "type_slug": "bioskop",
+   "town": "Vrnjačka Banja",
+   "municipality": "Vrnjačka Banja",
+   "address": "Vrnjačka 20",
+   "phones": [
+    "036 611 153",
+    "064 8854 282"
+   ],
+   "emails": [
+    "kulturnicentar.vb@gmail.com"
+   ],
+   "extra": {
+    "lat": 43.61944,
+    "lng": 20.89324
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - KC Pančevo",
+   "type_slug": "bioskop",
+   "town": "Pančevo",
+   "municipality": "Pančevo",
+   "address": "Vojvode Živojina Mišića 4",
+   "phones": [
+    "013 440 940",
+    "062 8008 780"
+   ],
+   "emails": [
+    "kcp@kcp.rs"
+   ],
+   "extra": {
+    "lat": 44.87027,
+    "lng": 20.64227
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - UKD Centar za kulturu",
+   "type_slug": "bioskop",
+   "town": "Bela Crkva",
+   "municipality": "Bela Crkva",
+   "address": "Proleterska 4",
+   "phones": [
+    "026 851 173",
+    "060 3851 439"
+   ],
+   "emails": [
+    "ukdczk@gmail.com"
+   ],
+   "extra": {
+    "lat": 44.90292,
+    "lng": 21.42374
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - KC Požega",
+   "type_slug": "bioskop",
+   "town": "Požega",
+   "municipality": "Požega",
+   "address": "Knjaza Miloša 8",
+   "phones": [
+    "031 3825 551",
+    "031 812 421",
+    "069 750 849"
+   ],
+   "emails": [
+    "skcpozega@gmail.com"
+   ],
+   "extra": {
+    "lat": 43.84611,
+    "lng": 20.03693
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - Multimedijalni centar „MR Kvart”",
+   "type_slug": "bioskop",
+   "town": "Kraljevo",
+   "municipality": "Kraljevo",
+   "address": "Cara Lazara 34",
+   "phones": [
+    "036 312 227"
+   ],
+   "emails": [
+    "mmckvart@gmail.com"
+   ],
+   "website": "https://www.kvart.rs",
+   "extra": {
+    "lat": 43.72445,
+    "lng": 20.6874
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - Narodna biblioteka \"Vuk Karadžić\" Bač",
+   "type_slug": "bioskop",
+   "town": "Bač",
+   "municipality": "Bač",
+   "address": "Trg dr Zorana Đinđića 4",
+   "phones": [
+    "0216070 777",
+    "0216070 063",
+    "064 8511 903"
+   ],
+   "emails": [
+    "bibliotekabac@gmail.com"
+   ],
+   "extra": {
+    "lat": 45.39267,
+    "lng": 19.22978
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - Narodna biblioteka Arilje",
+   "type_slug": "bioskop",
+   "town": "Arilje",
+   "municipality": "Arilje",
+   "address": "Svetog Ahilija 33",
+   "phones": [
+    "031 3895 269",
+    "064 8497 369"
+   ],
+   "emails": [
+    "bibliotekaariljska@gmail.com"
+   ],
+   "website": "https://www.visitarilje.com",
+   "extra": {
+    "lat": 43.75153,
+    "lng": 20.09913
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - Narodna biblioteka Žitorađa",
+   "type_slug": "bioskop",
+   "town": "Žitorađa",
+   "municipality": "Žitorađa",
+   "address": "Toplički heroji 53a",
+   "phones": [
+    "018 8362 074",
+    "062 8824 167"
+   ],
+   "emails": [
+    "nbzito@mts.rs"
+   ],
+   "extra": {
+    "lat": 43.18926,
+    "lng": 21.71099
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - Narodna biblioteka Osečina",
+   "type_slug": "bioskop",
+   "town": "Osečina (Varošica)",
+   "municipality": "Osečina",
+   "address": "Braće Nedić 18",
+   "phones": [
+    "014 451 111",
+    "064 3467 383"
+   ],
+   "emails": [
+    "bibliotekaosecina@gmail.com"
+   ],
+   "website": "https://biblioteka-osecina.org",
+   "extra": {
+    "lat": 44.37336,
+    "lng": 19.60174
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - Narodna biblioteka Ćićevac",
+   "type_slug": "bioskop",
+   "town": "Ćićevac",
+   "municipality": "Ćićevac",
+   "address": "Karađorđeva 108",
+   "phones": [
+    "037 811 117"
+   ],
+   "emails": [
+    "bibliotekacicevac@gmail.com"
+   ],
+   "extra": {
+    "lat": 43.72037,
+    "lng": 21.4404
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - Narodni univerzitet Trstenik",
+   "type_slug": "bioskop",
+   "town": "Trstenik",
+   "municipality": "Trstenik",
+   "address": "Kneginje Milice 16",
+   "phones": [
+    "037 712 065",
+    "069 607 530"
+   ],
+   "emails": [
+    "narodnits.kultura@sbb.rs"
+   ],
+   "website": "https://www.narodnits.rs",
+   "extra": {
+    "lat": 43.61979,
+    "lng": 20.99936
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - Obrazovno kulturni centar Sečanj",
+   "type_slug": "bioskop",
+   "town": "Sečanj",
+   "municipality": "Sečanj",
+   "address": "Vožda Karađorđa 94",
+   "phones": [
+    "023 3841471"
+   ],
+   "emails": [
+    "okcsecanj@beotel.net"
+   ],
+   "extra": {
+    "lat": 45.36423,
+    "lng": 20.77178
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - Sportsko-kulturni centar Obrenovac",
+   "type_slug": "bioskop",
+   "town": "Beograd - Obrenovac",
+   "municipality": "Beograd - Obrenovac",
+   "address": "Kralja Aleksandra I 63",
+   "phones": [
+    "011 8721 361"
+   ],
+   "emails": [
+    "info@obrenovac-info.co.rs"
+   ],
+   "extra": {
+    "lat": 44.6581,
+    "lng": 20.20015
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - Surdulički kulturni centar",
+   "type_slug": "bioskop",
+   "town": "Surdulica",
+   "municipality": "Surdulica",
+   "address": "Omladinska 1",
+   "phones": [
+    "017 815 018",
+    "064 8431 681"
+   ],
+   "emails": [
+    "surdulica.kc@gmail.com"
+   ],
+   "website": "https://www.surdulickikulturnicentar.rs",
+   "extra": {
+    "lat": 42.69159,
+    "lng": 22.17104
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - Ustanova za kulturu Ub",
+   "type_slug": "bioskop",
+   "town": "Ub",
+   "municipality": "Ub",
+   "address": "Vuka Karadžića 19",
+   "phones": [
+    "014 411 111",
+    "064 8198 848"
+   ],
+   "emails": [
+    "ksc_ub@yahoo.com"
+   ],
+   "website": "https://www.kulturnicentarub.rs",
+   "extra": {
+    "lat": 44.45592,
+    "lng": 20.07285
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - Ustanova kulture",
+   "type_slug": "bioskop",
+   "town": "Sjenica",
+   "municipality": "Sjenica",
+   "address": "Kralja Tvrtka Prvog 5",
+   "phones": [
+    "036 741 047"
+   ],
+   "emails": [
+    "ustanovakulture@live.com"
+   ],
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - Centar za kulturne delatnosti, turizam i bibliotekarstvo",
+   "type_slug": "bioskop",
+   "town": "Vladičin Han",
+   "municipality": "Vladičin han",
+   "address": "Nikole Tesle 2",
+   "phones": [
+    "017 473 824",
+    "063 623 041"
+   ],
+   "emails": [
+    "centarkulturevhan@gmail.com"
+   ],
+   "extra": {
+    "lat": 42.70608,
+    "lng": 22.06154
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - Centar za kulturu Bor, bioskop „ZVEZDA”",
+   "type_slug": "bioskop",
+   "town": "Bor",
+   "municipality": "Bor",
+   "address": "Đure Đakovića 1",
+   "phones": [
+    "030 421 259",
+    "063 8380 786"
+   ],
+   "emails": [
+    "bioskopzvezdabor@gmail.com"
+   ],
+   "extra": {
+    "lat": 44.07855,
+    "lng": 22.0979
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - Centar za kulturu Valjevo",
+   "type_slug": "bioskop",
+   "town": "Valjevo",
+   "municipality": "Valjevo",
+   "address": "Čika Ljubina 5",
+   "phones": [
+    "014 223 219",
+    "014 221 660"
+   ],
+   "emails": [
+    "sladjanamarkovic@yahoo.com"
+   ],
+   "extra": {
+    "lat": 44.26923,
+    "lng": 19.88738
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - Centar za kulturu Gradac",
+   "type_slug": "bioskop",
+   "town": "Raška",
+   "municipality": "Raška",
+   "address": "Ibarska 6",
+   "phones": [
+    "036 736 273",
+    "065 9766 615"
+   ],
+   "emails": [
+    "ckgradac@ptt.rs"
+   ],
+   "extra": {
+    "lat": 43.28852,
+    "lng": 20.61415
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - Centar za kulturu i obrazovanje opštine Aranđelovac",
+   "type_slug": "bioskop",
+   "town": "Aranđelovac",
+   "municipality": "Aranđelovac",
+   "address": "Knjaza Miloša 293",
+   "phones": [
+    "034 711 035",
+    "034 711 118",
+    "064 8669 250"
+   ],
+   "emails": [
+    "arcult.ar@gmail.com"
+   ],
+   "website": "https://www.arkultura.rs",
+   "extra": {
+    "lat": 44.30758,
+    "lng": 20.55743
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - Centar za kulturu i sport opštine Lučani u Guči",
+   "type_slug": "bioskop",
+   "town": "Guča (Varošica)",
+   "municipality": "Lučani",
+   "address": "Trg slobode 1 bb",
+   "phones": [
+    "032 854 110"
+   ],
+   "emails": [
+    "info@kcguca.rs"
+   ],
+   "website": "https://www.cksguca.rs",
+   "extra": {
+    "lat": 43.77693,
+    "lng": 20.22723
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - Centar za kulturu i umetnost",
+   "type_slug": "bioskop",
+   "town": "Aleksinac",
+   "municipality": "Aleksinac",
+   "address": "Dušana Trivunca 15",
+   "phones": [
+    "018 804 618",
+    "018 804 822",
+    "064 8115 057"
+   ],
+   "emails": [
+    "office@ckualeksinac.rs"
+   ],
+   "website": "https://www.centarzakulturu.aleksinac.org",
+   "extra": {
+    "lat": 43.54043,
+    "lng": 21.70802
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - Centar za kulturu Kovin",
+   "type_slug": "bioskop",
+   "town": "Kovin",
+   "municipality": "Kovin",
+   "address": "Cara Lazara 85",
+   "phones": [
+    "026 742 592"
+   ],
+   "emails": [
+    "kulturakovin@gmail.com"
+   ],
+   "website": "https://www.kulturakovin.rs",
+   "extra": {
+    "lat": 44.74162,
+    "lng": 20.97818
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - Centar za kulturu Lazarevac",
+   "type_slug": "bioskop",
+   "town": "Beograd - Lazarevac",
+   "municipality": "Beograd - Lazarevac",
+   "address": "Hilandarska 2",
+   "phones": [
+    "011 8123 344",
+    "060 6767 629"
+   ],
+   "emails": [
+    "kinooperativa@gmail.com"
+   ],
+   "website": "https://www.czklazarevac.rs",
+   "extra": {
+    "lat": 44.38142,
+    "lng": 20.26225
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - Centar za kulturu Požarevac",
+   "type_slug": "bioskop",
+   "town": "Požarevac",
+   "municipality": "Požarevac",
+   "address": "Jovana Šerbanovića 1",
+   "phones": [
+    "012 522 481",
+    "012 541 350",
+    "012 526 988"
+   ],
+   "emails": [
+    "centarpozarevac@gmail.com"
+   ],
+   "website": "https://www.czkpo.rs",
+   "extra": {
+    "lat": 44.61906,
+    "lng": 21.18763
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - Centar za kulturu Smederevo",
+   "type_slug": "bioskop",
+   "town": "Smederevo",
+   "municipality": "Smederevo",
+   "address": "Karađorđeva 5-7",
+   "phones": [
+    "011 640 360",
+    "064 8295 334"
+   ],
+   "emails": [
+    "centar@sdkultura.org.rs"
+   ],
+   "website": "https://www.sdkultura.org.rs",
+   "extra": {
+    "lat": 44.66417,
+    "lng": 20.92496
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - Centar za kulturu Sopot",
+   "type_slug": "bioskop",
+   "town": "Beograd - Sopot",
+   "municipality": "Beograd - Sopot",
+   "address": "Kosmajski trg 7",
+   "phones": [
+    "011 8251 238",
+    "063 256 599"
+   ],
+   "emails": [
+    "czksopot@gmail.com"
+   ],
+   "extra": {
+    "lat": 44.51921,
+    "lng": 20.57702
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - CK „Vuk Karadžić”",
+   "type_slug": "bioskop",
+   "town": "Loznica",
+   "municipality": "Loznica",
+   "address": "Save Kovačevića 1",
+   "phones": [
+    "015 875 871",
+    "015 882 718",
+    "015 882 327"
+   ],
+   "emails": [
+    "centarkultureloznica@gmail.com"
+   ],
+   "website": "https://www.ckvkaradzic.org.rs",
+   "extra": {
+    "lat": 44.53089,
+    "lng": 19.2251
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop - CK Stara Pazova",
+   "type_slug": "bioskop",
+   "town": "Stara Pazova",
+   "municipality": "Stara Pazova",
+   "address": "Ćirila i Metodija 11",
+   "phones": [
+    "022 311 022",
+    "022 311 104",
+    "063 552 381"
+   ],
+   "emails": [
+    "centarzakulturu.starapazova@gmail.com"
+   ],
+   "website": "https://www.czkstarapazova.com",
+   "extra": {
+    "lat": 44.9842,
+    "lng": 20.15735
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop „Kultura” - OKU „Cnesa” KANJIŽA",
+   "type_slug": "bioskop",
+   "town": "Kanjiža",
+   "municipality": "Kanjiža",
+   "address": "Glavni trg 9",
+   "phones": [
+    "024 873 043",
+    "063 80 82 550"
+   ],
+   "emails": [
+    "cnesa@cnesa.rs"
+   ],
+   "website": "https://www.cnesa.rs",
+   "extra": {
+    "lat": 46.06547,
+    "lng": 20.05949
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop „Mika Đorđević” - Centar za kulturu Brus",
+   "type_slug": "bioskop",
+   "town": "Brus",
+   "municipality": "Brus",
+   "address": "Bratislave Petrović 15",
+   "phones": [
+    "037 3825 254"
+   ],
+   "emails": [
+    "centarzakulturu2013@gmail.com"
+   ],
+   "extra": {
+    "lat": 43.38317,
+    "lng": 21.03249
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop Apolo",
+   "type_slug": "bioskop",
+   "town": "Pančevo",
+   "municipality": "Pančevo",
+   "address": "Svetog Save 10",
+   "phones": [
+    "013 311315",
+    "060 4656 663"
+   ],
+   "emails": [
+    "info@domomladinepancevo.rs"
+   ],
+   "website": "https://www.domomladinepancevo.rs",
+   "extra": {
+    "lat": 44.87332,
+    "lng": 20.64663
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop Vilin Grad d.o.o",
+   "type_slug": "bioskop",
+   "town": "Niš",
+   "municipality": "Niš",
+   "address": "Obrenovićeva 19",
+   "phones": [
+    "018 251 520",
+    "064 8279 722"
+   ],
+   "emails": [
+    "vilingrad.nis@vilingrad.rs"
+   ],
+   "website": "https://www.vilingrad.rs",
+   "extra": {
+    "lat": 43.31902,
+    "lng": 21.89512
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop Jadran - JU „Kulturni centar”",
+   "type_slug": "bioskop",
+   "town": "Veliko Gradište",
+   "municipality": "Veliko Gradište",
+   "address": "Kneza Lazara 28",
+   "phones": [
+    "012 661 179"
+   ],
+   "emails": [
+    "kulturnicentarvg@gmail.com"
+   ],
+   "extra": {
+    "lat": 44.76546,
+    "lng": 21.51783
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop Krajina - Dom kulture „Stevan Mokranjac”",
+   "type_slug": "bioskop",
+   "town": "Negotin",
+   "municipality": "Negotin",
+   "address": "Trg Đorđa Stanojevića 5",
+   "phones": [
+    "019 543 676"
+   ],
+   "emails": [
+    "dkmokranjac@gmail.com"
+   ],
+   "extra": {
+    "lat": 44.228,
+    "lng": 22.53016
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop Leskovačkog kulturnog centra",
+   "type_slug": "bioskop",
+   "town": "Leskovac",
+   "municipality": "Leskovac",
+   "address": "Bulevar oslobođenja 101",
+   "phones": [
+    "016 248 302",
+    "064 876 33 88"
+   ],
+   "emails": [
+    "lkc@lkc.org.rs"
+   ],
+   "website": "https://www.lkc.org.rs",
+   "extra": {
+    "lat": 42.99607,
+    "lng": 21.95177
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Bioskop SC Čajetina",
+   "type_slug": "bioskop",
+   "town": "Čajetina",
+   "municipality": "Čajetina",
+   "address": "Aleksandra Karađorđevića 3",
+   "phones": [
+    "031 3832 014",
+    "031 3832 256",
+    "031 3831 160"
+   ],
+   "emails": [
+    "ksc.cajetina@gmail.com"
+   ],
+   "extra": {
+    "lat": 43.75207,
+    "lng": 19.71919
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Velika sala za digitalne projekcije u zgradi Jugoslovenske kinoteke",
+   "type_slug": "bioskop",
+   "town": "Beograd - Stari grad",
+   "municipality": "Beograd - Stari grad",
+   "address": "Uzun Mirkova 1",
+   "phones": [
+    "011 2622 555",
+    "011 2622 434",
+    "011 2622 587"
+   ],
+   "emails": [
+    "kinoteka@kinoteka.org.rs"
+   ],
+   "website": "https://www.kinoteka.org.rs",
+   "extra": {
+    "lat": 44.81963,
+    "lng": 20.45594
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Kombank dvorana",
+   "type_slug": "bioskop",
+   "town": "Beograd - Stari grad",
+   "municipality": "Beograd - Stari grad",
+   "address": "Dečanska 14",
+   "phones": [
+    "011 7821 227",
+    "064 6105 517"
+   ],
+   "emails": [
+    "info@mcf.rs"
+   ],
+   "website": "https://www.kombankdvorana.rs",
+   "extra": {
+    "lat": 44.81348,
+    "lng": 20.46288
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Kulturni centar Gornji Milanovac - Bioskop",
+   "type_slug": "bioskop",
+   "town": "Gornji Milanovac",
+   "municipality": "Gornji Milanovac",
+   "address": "Knez Mihailov trg 1",
+   "phones": [
+    "032 711 118"
+   ],
+   "emails": [
+    "office@kcgm.org.rs"
+   ],
+   "website": "https://www.kcgm.org.rs",
+   "extra": {
+    "lat": 44.0242,
+    "lng": 20.45907
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "LM Bioskop Šabac",
+   "type_slug": "bioskop",
+   "town": "Šabac",
+   "municipality": "Šabac",
+   "address": "Koste Abraševića 2",
+   "phones": [
+    "015 344 141",
+    "063 8985 038"
+   ],
+   "emails": [
+    "marica.lazarevic@gmail.com"
+   ],
+   "extra": {
+    "lat": 44.75582,
+    "lng": 19.69179
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Muzej Jugoslovenske kinoteke - Bioskop",
+   "type_slug": "bioskop",
+   "town": "Beograd - Stari grad",
+   "municipality": "Beograd - Stari grad",
+   "address": "Kosovska 11",
+   "phones": [
+    "011 3248 250",
+    "063 1057 414"
+   ],
+   "emails": [
+    "kinoteka@kinoteka.org.rs"
+   ],
+   "website": "https://www.kinoteka.org.rs",
+   "extra": {
+    "lat": 44.81405,
+    "lng": 20.46394
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Otvoreni univerzitet Subotica - Bioskop Eurosinema",
+   "type_slug": "bioskop",
+   "town": "Subotica",
+   "municipality": "Subotica",
+   "address": "Trg cara Jovana Nenada 15",
+   "phones": [
+    "024 554 600"
+   ],
+   "emails": [
+    "еva@openunsubotica.rs"
+   ],
+   "website": "https://www.eurocinema.rs",
+   "extra": {
+    "lat": 46.10193,
+    "lng": 19.66511
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Preduzeće „ART” doo",
+   "type_slug": "bioskop",
+   "town": "Užice",
+   "municipality": "Užice",
+   "address": "Petra Ćelovića 4",
+   "phones": [
+    "031 515 181",
+    "064 1614 005"
+   ],
+   "emails": [
+    "arti@mts.rs"
+   ],
+   "website": "https://www.bioskopart.rs",
+   "extra": {
+    "lat": 43.85665,
+    "lng": 19.84114
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Roda Cinepleh",
+   "type_slug": "bioskop",
+   "town": "Beograd - Čukarica",
+   "municipality": "Beograd - Čukarica",
+   "address": "Požeška 83a",
+   "phones": [
+    "011 3545 925",
+    "062 250 565"
+   ],
+   "emails": [
+    "office@artvista.rs"
+   ],
+   "website": "https://www.rodacineplex.com",
+   "extra": {
+    "lat": 44.77417,
+    "lng": 20.41436
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%91%D0%B8%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D0%B8&f=json&user=opendata"
+  },
+  {
+   "name": "Amatersko pozorište - KUD „Petefi Šandor” Kupusina",
+   "type_slug": "pozoriste",
+   "town": "Apatin",
+   "municipality": "Apatin",
+   "address": "Petefi Šandora 4",
+   "phones": [
+    "063 8027 269"
+   ],
+   "emails": [
+    "kudpsme@citromail.hu"
+   ],
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Teatar 34",
+   "type_slug": "pozoriste",
+   "town": "Novi Sad",
+   "municipality": "Novi Sad",
+   "address": "Vojvode Bojovića 3",
+   "phones": [
+    "021 6613 328",
+    "065 2131 215"
+   ],
+   "emails": [
+    "teatar34@gmail.com"
+   ],
+   "website": "https://www.teatar34.com",
+   "extra": {
+    "lat": 45.25811,
+    "lng": 19.84125
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Slovačko pozorište VHV",
+   "type_slug": "pozoriste",
+   "town": "Stara Pazova",
+   "municipality": "Stara Pazova",
+   "address": "Ćirila i Metodija 11",
+   "phones": [
+    "022 310676",
+    "063 509 153"
+   ],
+   "emails": [
+    "skushjs96@gmail.com"
+   ],
+   "website": "https://www.slovackizavod.org.rs/sr/pozoriste/scene/2001",
+   "extra": {
+    "lat": 44.98421,
+    "lng": 20.15735
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Pozorište PAB – Sklonište u teatru",
+   "type_slug": "pozoriste",
+   "town": "Beograd - Zemun",
+   "municipality": "Beograd - Zemun",
+   "address": "Ivana Senkovića 11a",
+   "phones": [
+    "063 8020 456"
+   ],
+   "emails": [
+    "milan.miki.jokic@gmail.com"
+   ],
+   "extra": {
+    "lat": 44.89768,
+    "lng": 20.28637
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Gradsko pozorište Čačak",
+   "type_slug": "pozoriste",
+   "town": "Čačak",
+   "municipality": "Čačak",
+   "address": "Sinđelićeva 24",
+   "phones": [
+    "065 3343 012"
+   ],
+   "emails": [
+    "gradskopozoristecacak@gmail.com"
+   ],
+   "website": "https://www.gradskopozoristecacak.rs",
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Pozorište - Dom kulture Ivanjica",
+   "type_slug": "pozoriste",
+   "town": "Ivanjica",
+   "municipality": "Ivanjica",
+   "address": "Venijamina Marinkovića 7",
+   "phones": [
+    "032 661 087",
+    "063 661 207"
+   ],
+   "emails": [
+    "pravnasluzba@domkultureivanjica.rs"
+   ],
+   "website": "https://www.domkultureivanjica.rs",
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Opera&Theatre Madlenianum Beograd",
+   "type_slug": "pozoriste",
+   "town": "Beograd - Zemun",
+   "municipality": "Beograd - Zemun",
+   "address": "Glavna 32",
+   "phones": [
+    "011 3162 533",
+    "064 1951 869"
+   ],
+   "emails": [
+    "mad.oper@madlenianum.rs"
+   ],
+   "website": "https://www.madlenianum.rs",
+   "extra": {
+    "lat": 44.84549,
+    "lng": 20.41068
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Akademsko pozorište - AKUD „Branko Krsmanović”",
+   "type_slug": "pozoriste",
+   "town": "Beograd - Stari grad",
+   "municipality": "Beograd - Stari grad",
+   "address": "Balkanska 4",
+   "phones": [
+    "011 3613 451"
+   ],
+   "emails": [
+    "office@krsmanovic.rs"
+   ],
+   "website": "https://www.krsmanovic.rs",
+   "extra": {
+    "lat": 44.81245,
+    "lng": 20.46018
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Akademsko pozorište SKC-a",
+   "type_slug": "pozoriste",
+   "town": "Kragujevac",
+   "municipality": "Kragujevac",
+   "address": "Radoja Domanovića 12",
+   "phones": [
+    "034 336 122"
+   ],
+   "emails": [
+    "chicha@skckg.com"
+   ],
+   "website": "https://www.skckg.com",
+   "extra": {
+    "lat": 44.01752,
+    "lng": 20.90754
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Aleksinačko amatersko pozorište",
+   "type_slug": "pozoriste",
+   "town": "Aleksinac",
+   "municipality": "Aleksinac",
+   "address": "Partizanska 20",
+   "phones": [
+    "018 802 584",
+    "064 2087 988"
+   ],
+   "emails": [
+    "milospaovic@yahoo.com"
+   ],
+   "extra": {
+    "lat": 45.66551,
+    "lng": 18.97495
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Amatersko pozorište „Homo Ludens” Mionica",
+   "type_slug": "pozoriste",
+   "town": "Mionica (Varošica)",
+   "municipality": "Mionica",
+   "address": "Dr Jove Aleksića 12",
+   "phones": [
+    "014 61 157",
+    "014 62 270"
+   ],
+   "emails": [
+    "kcmionica@gmail.com"
+   ],
+   "website": "https://www.misicevidani.org.rs",
+   "extra": {
+    "lat": 44.25323,
+    "lng": 20.08082
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Amatersko pozorište „Madach” Zrenjanin",
+   "type_slug": "pozoriste",
+   "town": "Zrenjanin",
+   "municipality": "Zrenjanin",
+   "address": "Trg slobode 7",
+   "phones": [
+    "023 561 626",
+    "063 1544 679"
+   ],
+   "emails": [
+    "madach@zrlocal.net"
+   ],
+   "extra": {
+    "lat": 45.37989,
+    "lng": 20.39047
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Amatersko pozorište „Bata Bulić” Petrovac na Mlavi",
+   "type_slug": "pozoriste",
+   "town": "Petrovac Na Mlavi",
+   "municipality": "Petrovac na Mlavi",
+   "address": "Petra Dobrnjca 179",
+   "phones": [
+    "012 331 065",
+    "064 8679 960"
+   ],
+   "emails": [
+    "kpcpetrovac@gmail.com"
+   ],
+   "extra": {
+    "lat": 44.3765,
+    "lng": 21.4227
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Amatersko pozorište „Branislav Nušić”",
+   "type_slug": "pozoriste",
+   "town": "Turija",
+   "municipality": "Srbobran",
+   "address": "Svetog Save 39",
+   "phones": [
+    "021 2238 001",
+    "021 2237 555",
+    "065 2238 001"
+   ],
+   "emails": [
+    "tatika.srdanov5@gmail.com"
+   ],
+   "extra": {
+    "lat": 45.5379,
+    "lng": 19.85708
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Amatersko pozorište „Velimir Sandić-Veljko”",
+   "type_slug": "pozoriste",
+   "town": "Kula",
+   "municipality": "Kula",
+   "address": "Maršala Tita 195",
+   "phones": [
+    "025 711 055",
+    "061 1460 656"
+   ],
+   "emails": [
+    "domkulture.sivac@gmail.com"
+   ],
+   "website": "https://www.domkulture-sivac.net",
+   "extra": {
+    "lat": 45.70139,
+    "lng": 19.38152
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Amatersko pozorište „Vladimir Kurban Vladimirov” Bački Petrovac",
+   "type_slug": "pozoriste",
+   "town": "Bački Petrovac",
+   "municipality": "Bački Petrovac",
+   "address": "Kolarova 4",
+   "phones": [
+    "021 780 034",
+    "063 8856 040"
+   ],
+   "emails": [
+    "vhvpetrovec@gmail.com"
+   ],
+   "extra": {
+    "lat": 45.3597,
+    "lng": 19.59162
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Amatersko pozorište „Vladimir hurban Vladimirov” Kovačica",
+   "type_slug": "pozoriste",
+   "town": "Kovačica",
+   "municipality": "Kovačica",
+   "address": "Maršala Tita 46",
+   "phones": [
+    "026 661 112",
+    "062 3564 764"
+   ],
+   "emails": [
+    "dkulture@gmail.com"
+   ],
+   "extra": {
+    "lat": 45.11173,
+    "lng": 20.61943
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "OKUD „Gradimir” Beograd",
+   "type_slug": "pozoriste",
+   "town": "Beograd - Vračar",
+   "municipality": "Beograd - Vračar",
+   "address": "Mileševska 42a",
+   "phones": [
+    "011 3086 549"
+   ],
+   "emails": [
+    "gradimir@beotel.net"
+   ],
+   "extra": {
+    "lat": 44.7985,
+    "lng": 20.48193
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Amatersko pozorište „Janko Čeman” Pivnice",
+   "type_slug": "pozoriste",
+   "town": "Pivnice",
+   "municipality": "Bačka Palanka",
+   "address": "Vojvođanska 25",
+   "phones": [
+    "021 756 550",
+    "064 3037 802"
+   ],
+   "emails": [
+    "jceman@eunet.rs"
+   ],
+   "website": "https://www.dida.co.rs",
+   "extra": {
+    "lat": 45.46712,
+    "lng": 19.4571
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Amatersko pozorište „Mara” Bačka Topola",
+   "type_slug": "pozoriste",
+   "town": "Bačka Topola",
+   "municipality": "Bačka Topola",
+   "address": "Glavna 12",
+   "phones": [
+    "024 713 515",
+    "024 712 252",
+    "063 110 9024"
+   ],
+   "emails": [
+    "s_karesz@yahoo.com"
+   ],
+   "extra": {
+    "lat": 45.81297,
+    "lng": 19.6314
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Amatersko pozorište „Milivoje Živanović” Požarevac",
+   "type_slug": "pozoriste",
+   "town": "Požarevac",
+   "municipality": "Požarevac",
+   "address": "Jovana Šerbanovića 1",
+   "phones": [
+    "012 522 481",
+    "012 526 745"
+   ],
+   "emails": [
+    "centarpozarevac@gmail.com"
+   ],
+   "extra": {
+    "lat": 44.61906,
+    "lng": 21.18763
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Amatersko pozorište „Radoje Domanović” Rača",
+   "type_slug": "pozoriste",
+   "town": "Rača",
+   "municipality": "Rača",
+   "address": "Karađorđeva 60",
+   "phones": [
+    "034 751 275",
+    "069 8084 193",
+    "069 8084 191"
+   ],
+   "emails": [
+    "kcraca@gmail.com"
+   ],
+   "website": "https://www.tor.rs/sr/racansko-amatersko-pozoriste/",
+   "extra": {
+    "lat": 44.22723,
+    "lng": 20.9789
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Amatersko pozorište „Resava” Despotovac",
+   "type_slug": "pozoriste",
+   "town": "Despotovac",
+   "municipality": "Despotovac",
+   "address": "Despota Stevana Lazarevića 2",
+   "phones": [
+    "035 611 047",
+    "065 6110 474"
+   ],
+   "emails": [
+    "sv.stefandespotovac@gmail.com"
+   ],
+   "website": "https://www.despotovac.rs",
+   "extra": {
+    "lat": 44.09518,
+    "lng": 21.43693
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Amatersko pozorište „Todor Krecu-Toša“ Uzdin",
+   "type_slug": "pozoriste",
+   "town": "Uzdin",
+   "municipality": "Kovačica",
+   "address": "Tudor Vladimiresku 168",
+   "phones": [
+    "026 673 102"
+   ],
+   "emails": [
+    "ccdoinauzdin@yahoo.com"
+   ],
+   "extra": {
+    "lat": 45.20672,
+    "lng": 20.62137
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Amatersko pozorište „Hranislav Dragutinović”, Prokuplje",
+   "type_slug": "pozoriste",
+   "town": "Prokuplje",
+   "municipality": "Prokuplje",
+   "address": "Koste Vojinovića 1",
+   "phones": [
+    "018 321 002"
+   ],
+   "website": "https://www.domkulturepk.comindex.php?option=com_content&view=article&id=1&Itemid=102",
+   "extra": {
+    "lat": 43.23141,
+    "lng": 21.58315
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Amatersko pozorište Ada",
+   "type_slug": "pozoriste",
+   "town": "Ada",
+   "municipality": "Ada",
+   "address": "Trg oslobođenja 3a",
+   "phones": [
+    "024 851 115 851 600"
+   ],
+   "extra": {
+    "lat": 45.79673,
+    "lng": 20.13262
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Amatersko pozorište Debeljača",
+   "type_slug": "pozoriste",
+   "town": "Debeljača",
+   "municipality": "Kovačica",
+   "address": "Trg Maršala Tita 18",
+   "phones": [
+    "026 665 264",
+    "062 758 920"
+   ],
+   "emails": [
+    "dk.debeljaca@yahoo.de"
+   ],
+   "extra": {
+    "lat": 45.06854,
+    "lng": 20.60129
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Amatersko pozorište Kovin",
+   "type_slug": "pozoriste",
+   "town": "Kovin",
+   "municipality": "Kovin",
+   "address": "Cara Lazara 87",
+   "phones": [
+    "064 4025 556"
+   ],
+   "emails": [
+    "jadrankab.7@gmail.com"
+   ],
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Amatersko pozorište Kula",
+   "type_slug": "pozoriste",
+   "town": "Kula",
+   "municipality": "Kula",
+   "address": "Josipa Kramera 3",
+   "phones": [
+    "025 722 477"
+   ],
+   "emails": [
+    "kulturnicentarkula@yahoo.com"
+   ],
+   "extra": {
+    "lat": 45.60839,
+    "lng": 19.53124
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Amatersko pozorište Nova Varoš",
+   "type_slug": "pozoriste",
+   "town": "Nova Varoš",
+   "municipality": "Nova Varoš",
+   "address": "Trg Vojvode Bojovića 5",
+   "phones": [
+    "033 61 130"
+   ],
+   "emails": [
+    "domkulturenv@gmail.com"
+   ],
+   "extra": {
+    "lat": 43.46063,
+    "lng": 19.81524
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Amatersko pozorište Priboj",
+   "type_slug": "pozoriste",
+   "town": "Priboj",
+   "municipality": "Priboj",
+   "address": "12. januara 86",
+   "phones": [
+    "031 2454 802",
+    "031 2445 395"
+   ],
+   "emails": [
+    "dkulturepb@gmail.com"
+   ],
+   "extra": {
+    "lat": 43.58242,
+    "lng": 19.52596
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Amatersko pozorište Prijepolje",
+   "type_slug": "pozoriste",
+   "town": "Prijepolje",
+   "municipality": "Prijepolje",
+   "address": "Sandžačkih brigada 2",
+   "phones": [
+    "031 711 566",
+    "031 710 125"
+   ],
+   "emails": [
+    "domkulture@mts.rs"
+   ],
+   "extra": {
+    "lat": 43.3913,
+    "lng": 19.64815
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Amatersko pozorište Futog",
+   "type_slug": "pozoriste",
+   "town": "Futog",
+   "municipality": "Novi Sad",
+   "address": "Cara Lazara 42",
+   "phones": [
+    "021 895 350",
+    "021 895 588"
+   ],
+   "emails": [
+    "kicfutog@gmail.com"
+   ],
+   "extra": {
+    "lat": 45.23738,
+    "lng": 19.70605
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Belocrkvansko amatersko pozorište - BAP",
+   "type_slug": "pozoriste",
+   "town": "Bela Crkva",
+   "municipality": "Bela Crkva",
+   "address": "1. oktobar 88",
+   "phones": [
+    "026 852 852",
+    "064 3879 258"
+   ],
+   "emails": [
+    "bcflesh@gmail.com"
+   ],
+   "extra": {
+    "lat": 44.89968,
+    "lng": 21.42379
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Beogradsko dramsko pozorište Beograd",
+   "type_slug": "pozoriste",
+   "town": "Beograd - Vračar",
+   "municipality": "Beograd - Vračar",
+   "address": "Mileševska 64a",
+   "phones": [
+    "011 2835 111",
+    "063 317 698"
+   ],
+   "emails": [
+    "ana.jelic@bdp.rs"
+   ],
+   "website": "https://www.bdp.rs",
+   "extra": {
+    "lat": 44.79727,
+    "lng": 20.48578
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "BITEF teatar Beograd",
+   "type_slug": "pozoriste",
+   "town": "Beograd - Stari grad",
+   "municipality": "Beograd - Stari grad",
+   "address": "Knez-Miletina 2 29/1",
+   "phones": [
+    "011 3243 108",
+    "011 3243 109",
+    "060 5040 570"
+   ],
+   "emails": [
+    "bitef@bitef.rs"
+   ],
+   "website": "https://www.bitef.rs",
+   "extra": {
+    "lat": 44.81815,
+    "lng": 20.46835
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Vesela kornjača",
+   "type_slug": "pozoriste",
+   "town": "Novi Sad",
+   "municipality": "Novi Sad",
+   "address": "Nikole Pašića 34",
+   "phones": [
+    "021 6613 328",
+    "065 2131 215"
+   ],
+   "emails": [
+    "veselakornjaca@gmail.com"
+   ],
+   "website": "https://www.teatar34.comvesela-kornjaca",
+   "extra": {
+    "lat": 45.25884,
+    "lng": 19.84557
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Gradsko amatersko pozorište Svilajnac",
+   "type_slug": "pozoriste",
+   "town": "Svilajnac",
+   "municipality": "Svilajnac",
+   "address": "Svetog Save 58",
+   "phones": [
+    "035 321 048"
+   ],
+   "emails": [
+    "czksvilajnac@gmail.com"
+   ],
+   "extra": {
+    "lat": 44.23174,
+    "lng": 21.19594
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Gradsko pozorište „Abrašević”",
+   "type_slug": "pozoriste",
+   "town": "Valjevo",
+   "municipality": "Valjevo",
+   "address": "Čika Ljubina 5",
+   "phones": [
+    "014 220 282",
+    "063 8119 102"
+   ],
+   "emails": [
+    "abrasevicva@mts.rs"
+   ],
+   "extra": {
+    "lat": 44.26926,
+    "lng": 19.88734
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Gradsko pozorište „Teatar 91” Aleksinac",
+   "type_slug": "pozoriste",
+   "town": "Aleksinac",
+   "municipality": "Aleksinac",
+   "address": "Dušana Trivunca 15",
+   "phones": [
+    "018 801 722",
+    "064 8966 201"
+   ],
+   "emails": [
+    "teatar91@gmail.com"
+   ],
+   "website": "https://www.gradskopozoriste.com",
+   "extra": {
+    "lat": 43.54062,
+    "lng": 21.70817
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Gradsko pozorište Bečej",
+   "type_slug": "pozoriste",
+   "town": "Bečej",
+   "municipality": "Bečej",
+   "address": "Gerberovih 2",
+   "phones": [
+    "021 6915 336",
+    "064 8959 305"
+   ],
+   "emails": [
+    "pozorist@yahoo.com"
+   ],
+   "website": "https://www.pozoristebecej.rs",
+   "extra": {
+    "lat": 45.61557,
+    "lng": 20.04987
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Gradsko pozorište Jagodina",
+   "type_slug": "pozoriste",
+   "town": "Jagodina",
+   "municipality": "Jagodina",
+   "address": "Kneginje Milice 25",
+   "phones": [
+    "035 231 244"
+   ],
+   "emails": [
+    "pozoristejagodina@gmail.com"
+   ],
+   "website": "https://www.pozoristejagodina.com",
+   "extra": {
+    "lat": 43.97762,
+    "lng": 21.26217
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Gradsko pozorište Jagodina - dečija scena",
+   "type_slug": "pozoriste",
+   "town": "Jagodina",
+   "municipality": "Jagodina",
+   "address": "Kneginje Milice 25",
+   "phones": [
+    "035 231 244",
+    "064 5467 299"
+   ],
+   "emails": [
+    "pozoristejagodina@gmail.com"
+   ],
+   "website": "https://www.pozoristejagodina.com",
+   "extra": {
+    "lat": 43.97762,
+    "lng": 21.26217
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Dah teatar - Centar za pozorišna istraživanja Beograd",
+   "type_slug": "pozoriste",
+   "town": "Beograd - Vračar",
+   "municipality": "Beograd - Vračar",
+   "address": "Marulićeva 8",
+   "phones": [
+    "011 2441 680"
+   ],
+   "website": "https://www.dahteatarcentar.com",
+   "extra": {
+    "lat": 44.79485,
+    "lng": 20.48073
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Dečije pozorište „Čarapa”",
+   "type_slug": "pozoriste",
+   "town": "Beograd - Novi Beograd",
+   "municipality": "Beograd - Novi Beograd",
+   "address": "Španskih boraca 24",
+   "phones": [
+    "011 3133 673",
+    "060 6185 241"
+   ],
+   "emails": [
+    "pozoristecarapa@gmail.com"
+   ],
+   "website": "https://www.pozoristecarapa.com",
+   "extra": {
+    "lat": 44.8149,
+    "lng": 20.41925
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Dečje pozorište Subotica",
+   "type_slug": "pozoriste",
+   "town": "Subotica",
+   "municipality": "Subotica",
+   "address": "Park Rajhl Ferenca 12a",
+   "phones": [
+    "024 555 715",
+    "063 1077 734"
+   ],
+   "emails": [
+    "decjepozoriste.su@mts.rs"
+   ],
+   "website": "https://www.suteatarzadecu.rs",
+   "extra": {
+    "lat": 46.10122,
+    "lng": 19.67058
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Dramski studio",
+   "type_slug": "pozoriste",
+   "town": "Beograd - Obrenovac",
+   "municipality": "Beograd - Obrenovac",
+   "address": "Kralja Aleksandra I 63 bb",
+   "phones": [
+    "011 8721 361",
+    "064 837 4324"
+   ],
+   "emails": [
+    "info@obrenovac-info.co.rs"
+   ],
+   "extra": {
+    "lat": 44.6581,
+    "lng": 20.20015
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Zvezdara teatar Beograd",
+   "type_slug": "pozoriste",
+   "town": "Beograd - Zvezdara",
+   "municipality": "Beograd - Zvezdara",
+   "address": "Milana Rakića 38",
+   "phones": [
+    "011 2414 524",
+    "011 2419 664",
+    "011 2411 484"
+   ],
+   "emails": [
+    "office@zvezdarateatar.rs"
+   ],
+   "website": "https://www.zvezdarateatar.rs",
+   "extra": {
+    "lat": 44.79773,
+    "lng": 20.49776
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Ister teatar",
+   "type_slug": "pozoriste",
+   "town": "Beograd - Zemun",
+   "municipality": "Beograd - Zemun",
+   "address": "Karlovačka 26",
+   "phones": [
+    "011 2619 705",
+    "069 1654 421"
+   ],
+   "emails": [
+    "isterteatar@gmail.com"
+   ],
+   "extra": {
+    "lat": 44.85234,
+    "lng": 20.38536
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Jugoslovensko dramsko pozorište Beograd",
+   "type_slug": "pozoriste",
+   "town": "Beograd - Savski venac",
+   "municipality": "Beograd - Savski venac",
+   "address": "Kralja Milana 50",
+   "phones": [
+    "011 3061 900",
+    "063 595 684"
+   ],
+   "emails": [
+    "jdp@jdp.rs"
+   ],
+   "website": "https://www.jdp.rs",
+   "extra": {
+    "lat": 44.80561,
+    "lng": 20.46474
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Kamerna scena „Miroslav Antić” Senta",
+   "type_slug": "pozoriste",
+   "town": "Senta",
+   "municipality": "Senta",
+   "address": "Glavni trg 2",
+   "phones": [
+    "024 815 847",
+    "065 8159 350"
+   ],
+   "emails": [
+    "klub@mikaantic.org.rs"
+   ],
+   "website": "https://www.mikaantic.org.rs",
+   "extra": {
+    "lat": 45.93034,
+    "lng": 20.08962
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Katarza Lebane",
+   "type_slug": "pozoriste",
+   "town": "Lebane",
+   "municipality": "Lebane",
+   "address": "Cara Dušana 79",
+   "phones": [
+    "016 843 920",
+    "064 309 6646"
+   ],
+   "extra": {
+    "lat": 42.91763,
+    "lng": 21.73772
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Knjaževsko-srpski teatar Kragujevac",
+   "type_slug": "pozoriste",
+   "town": "Kragujevac",
+   "municipality": "Kragujevac",
+   "address": "Daničićeva 3",
+   "phones": [
+    "034 6170 500",
+    "065 3358 233"
+   ],
+   "emails": [
+    "pozoristetjv@mts.rs"
+   ],
+   "website": "https://www.joakimvujic.com",
+   "extra": {
+    "lat": 44.01071,
+    "lng": 20.91029
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "KPGT Beograd",
+   "type_slug": "pozoriste",
+   "town": "Beograd - Čukarica",
+   "municipality": "Beograd - Čukarica",
+   "address": "Radnička 3",
+   "phones": [
+    "011 3055 070",
+    "011 3055 082",
+    "066 9773 129"
+   ],
+   "emails": [
+    "kpgtyu@gmail.com"
+   ],
+   "website": "https://www.kpgtyu.org",
+   "extra": {
+    "lat": 44.78819,
+    "lng": 20.42403
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Kruševačko pozorište",
+   "type_slug": "pozoriste",
+   "town": "Kruševac",
+   "municipality": "Kruševac",
+   "address": "Vidovdanska 26",
+   "phones": [
+    "037 410 810",
+    "037 442 990"
+   ],
+   "emails": [
+    "krusevackopozoriste@gmail.com"
+   ],
+   "website": "https://www.krusevackopozoriste.com",
+   "extra": {
+    "lat": 43.58078,
+    "lng": 21.32929
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Kult Teatar",
+   "type_slug": "pozoriste",
+   "town": "Beograd - Zvezdara",
+   "municipality": "Beograd - Zvezdara",
+   "address": "Bulevar Kralja Aleksandra 77a",
+   "phones": [
+    "011 2424 860",
+    "066 290 168"
+   ],
+   "emails": [
+    "info@ukvuk.org.rs"
+   ],
+   "website": "https://www.ukvuk.org.rs",
+   "extra": {
+    "lat": 44.80356,
+    "lng": 20.48111
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Malo pozorište „Duško Radović”",
+   "type_slug": "pozoriste",
+   "town": "Beograd - Palilula",
+   "municipality": "Beograd - Palilula",
+   "address": "Aberdareva 1",
+   "phones": [
+    "011 7858 439",
+    "011 7858 430",
+    "063 242 524"
+   ],
+   "emails": [
+    "info@malopozoriste.co.rs"
+   ],
+   "website": "https://www.malopozoriste.co.rs",
+   "extra": {
+    "lat": 44.811,
+    "lng": 20.46943
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Milanovačko amatersko pozorište",
+   "type_slug": "pozoriste",
+   "town": "Gornji Milanovac",
+   "municipality": "Gornji Milanovac",
+   "address": "Karađorđeva 21",
+   "phones": [
+    "032 711 136",
+    "060 6711 777",
+    "060 0777 796"
+   ],
+   "emails": [
+    "pedja.losic@gmail.com"
+   ],
+   "website": "https://www.milanovackopozoriste.rs",
+   "extra": {
+    "lat": 44.02459,
+    "lng": 20.45716
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Narodno pozorište „Sterija” Vršac",
+   "type_slug": "pozoriste",
+   "town": "Vršac",
+   "municipality": "Vršac",
+   "address": "Svetosavski trg 6",
+   "phones": [
+    "026 833 122",
+    "026 828.1110"
+   ],
+   "emails": [
+    "npsterija@mts.rs"
+   ],
+   "website": "https://www.npsterija.rs",
+   "extra": {
+    "lat": 45.1184,
+    "lng": 21.29779
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Narodno pozorište „Toša Jovanović” Zrenjanin",
+   "type_slug": "pozoriste",
+   "town": "Zrenjanin",
+   "municipality": "Zrenjanin",
+   "address": "Trg Slobode 7",
+   "phones": [
+    "023 530 493",
+    "066 8660 002"
+   ],
+   "emails": [
+    "info@tosajovanovic.org.rs"
+   ],
+   "website": "https://www.tosajovanovic.org.rs",
+   "extra": {
+    "lat": 45.37988,
+    "lng": 20.39045
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Narodno pozorište „Toša Jovanović” Zrenjanin - lutkarska scena",
+   "type_slug": "pozoriste",
+   "town": "Zrenjanin",
+   "municipality": "Zrenjanin",
+   "address": "Trg slobode 7",
+   "phones": [
+    "023 560 136",
+    "064 8116 991"
+   ],
+   "emails": [
+    "info@tosajovanovic.org.rs"
+   ],
+   "website": "https://www.tosajovanovic.org.rs",
+   "extra": {
+    "lat": 45.37988,
+    "lng": 20.39045
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Narodno pozorište -Narodno kazalište-Népszínház Subotica",
+   "type_slug": "pozoriste",
+   "town": "Subotica",
+   "municipality": "Subotica",
+   "address": "Senćanski put 71",
+   "phones": [
+    "024 554 700"
+   ],
+   "emails": [
+    "npnkn@npnkn.org"
+   ],
+   "website": "https://www.suteatar.org",
+   "extra": {
+    "lat": 46.09246,
+    "lng": 19.67861
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Narodno pozorište Beograd",
+   "type_slug": "pozoriste",
+   "town": "Beograd - Stari grad",
+   "municipality": "Beograd - Stari grad",
+   "address": "Francuska 3",
+   "phones": [
+    "011 3284 473",
+    "011 3281 333"
+   ],
+   "emails": [
+    "uprava@narodnopozoriste.rs"
+   ],
+   "website": "https://www.narodnopozoriste.rs",
+   "extra": {
+    "lat": 44.81676,
+    "lng": 20.46053
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Narodno pozorište Kikinda",
+   "type_slug": "pozoriste",
+   "town": "Kikinda",
+   "municipality": "Kikinda",
+   "address": "Trg srpskih dobrovoljaca 28",
+   "phones": [
+    "023 422 638",
+    "063 7748 045"
+   ],
+   "emails": [
+    "pozoristenarodno@yahoo.com"
+   ],
+   "website": "https://www.pozoristekikinda.rs",
+   "extra": {
+    "lat": 45.83044,
+    "lng": 20.46656
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Narodno pozorište Leskovac",
+   "type_slug": "pozoriste",
+   "town": "Leskovac",
+   "municipality": "Leskovac",
+   "address": "Koste Stamenkovića 28 22",
+   "phones": [
+    "016 236 333",
+    "066.8222.060"
+   ],
+   "emails": [
+    "narodnopozoriste.leskovac@gmail.com"
+   ],
+   "website": "https://www.npl.org.rs",
+   "extra": {
+    "lat": 42.99375,
+    "lng": 21.94796
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Narodno pozorište Niš",
+   "type_slug": "pozoriste",
+   "town": "Niš",
+   "municipality": "Niš",
+   "address": "Sinđelićev trg 1 bb",
+   "phones": [
+    "018 209 220",
+    "069 2832 349"
+   ],
+   "emails": [
+    "npnis@narodnopozoristenis.rs"
+   ],
+   "website": "https://www.narodnopozoristenis.rs",
+   "extra": {
+    "lat": 43.32012,
+    "lng": 21.8998
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Narodno pozorište Pirot",
+   "type_slug": "pozoriste",
+   "town": "Pirot",
+   "municipality": "Pirot",
+   "address": "Branka Radičevića 1",
+   "phones": [
+    "010 321 587",
+    "063 1796 744"
+   ],
+   "emails": [
+    "pozoristepi@gmail.com"
+   ],
+   "website": "https://www.narodnopozoristepirot.rs",
+   "extra": {
+    "lat": 43.15585,
+    "lng": 22.5857
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Narodno pozorište Sombor",
+   "type_slug": "pozoriste",
+   "town": "Sombor",
+   "municipality": "Sombor",
+   "address": "Koste Trifkovića 2",
+   "phones": [
+    "025 437 666",
+    "025 414 174",
+    "025 414 966"
+   ],
+   "emails": [
+    "sombornationaltheatre@gmail.com"
+   ],
+   "website": "https://www.npozoristeso.co.rs",
+   "extra": {
+    "lat": 45.77227,
+    "lng": 19.112
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Narodno pozorište Užice",
+   "type_slug": "pozoriste",
+   "town": "Užice",
+   "municipality": "Užice",
+   "address": "Kralja Petra I 12",
+   "phones": [
+    "031 519 966"
+   ],
+   "emails": [
+    "pozoristeuzice@mts.rs"
+   ],
+   "website": "https://www.uzickopozoriste.rs",
+   "extra": {
+    "lat": 43.85753,
+    "lng": 19.83991
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Novosadsko pozorište „Újvidéki Színház”",
+   "type_slug": "pozoriste",
+   "town": "Novi Sad",
+   "municipality": "Novi Sad",
+   "address": "Jovana Subotića 3-5",
+   "phones": [
+    "021 525 793",
+    "063 661 707"
+   ],
+   "emails": [
+    "ujvidekiszinhaz@yahoo.com"
+   ],
+   "website": "https://www.uvszinhaz.com",
+   "extra": {
+    "lat": 45.25758,
+    "lng": 19.84169
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Omladinsko dramsko dečji front „Žar ptica”",
+   "type_slug": "pozoriste",
+   "town": "Surdulica",
+   "municipality": "Surdulica",
+   "address": "Omladinska 1",
+   "phones": [
+    "017 815 018",
+    "066 5078 007"
+   ],
+   "emails": [
+    "surdulica.kc@gmail.com"
+   ],
+   "website": "https://www.surdulickikutlrunicentra.rs",
+   "extra": {
+    "lat": 42.69159,
+    "lng": 22.17104
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Omladinsko pozorište „Dadov” Beograd",
+   "type_slug": "pozoriste",
+   "town": "Beograd - Vračar",
+   "municipality": "Beograd - Vračar",
+   "address": "Desanke Maksimović 6a",
+   "phones": [
+    "011 3243 9679",
+    "063 239 803"
+   ],
+   "emails": [
+    "info@dadov.rs"
+   ],
+   "website": "https://www.dadov.rs",
+   "extra": {
+    "lat": 44.80699,
+    "lng": 20.46961
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "PATOS, Pokretni alternativni teatar omladine Smederevo",
+   "type_slug": "pozoriste",
+   "town": "Smederevo",
+   "municipality": "Smederevo",
+   "address": "Karađorđeva 5",
+   "phones": [
+    "011 224 805",
+    "011 640 363"
+   ],
+   "emails": [
+    "patos@patos.org.rs"
+   ],
+   "website": "https://www.patos.org.rs",
+   "extra": {
+    "lat": 44.66417,
+    "lng": 20.92496
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Plavo pozorište",
+   "type_slug": "pozoriste",
+   "town": "Beograd - Savski venac",
+   "municipality": "Beograd - Savski venac",
+   "address": "Senjačka 3",
+   "phones": [
+    "011 2651 877",
+    "061 1927 909"
+   ],
+   "emails": [
+    "plavopozoriste@hotmail.com"
+   ],
+   "website": "https://www.plavopozoriste.org",
+   "extra": {
+    "lat": 44.79392,
+    "lng": 20.44176
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Pozorište „Lane”",
+   "type_slug": "pozoriste",
+   "town": "Kikinda",
+   "municipality": "Kikinda",
+   "address": "Kralja Petra Prvog 42",
+   "phones": [
+    "023 422 248",
+    "064 1589 314",
+    "060 0247 048"
+   ],
+   "emails": [
+    "pozoristelane@gmail.com"
+   ],
+   "extra": {
+    "lat": 45.8327,
+    "lng": 20.47032
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Pozorištance „Puž” Beograd",
+   "type_slug": "pozoriste",
+   "town": "Beograd - Vračar",
+   "municipality": "Beograd - Vračar",
+   "address": "Radoslava Grujića 21",
+   "phones": [
+    "011 2443 332",
+    "063 8898 728"
+   ],
+   "emails": [
+    "pozoristepuz@mts.rs"
+   ],
+   "website": "https://www.pozoristancepuz.com",
+   "extra": {
+    "lat": 44.80023,
+    "lng": 20.47999
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Pozorište - Dom kulture „Studentski grad”",
+   "type_slug": "pozoriste",
+   "town": "Beograd - Novi Beograd",
+   "municipality": "Beograd - Novi Beograd",
+   "address": "Bulevar Zorana Đinđića 179",
+   "phones": [
+    "011 2691 442"
+   ],
+   "emails": [
+    "teatar@dksg.rs"
+   ],
+   "website": "https://www.dksg.rs",
+   "extra": {
+    "lat": 44.8251,
+    "lng": 20.40039
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Pozorište „Kosztolányi Desző” Subotica",
+   "type_slug": "pozoriste",
+   "town": "Subotica",
+   "municipality": "Subotica",
+   "address": "Trg Žrtava Fašizma 5",
+   "phones": [
+    "024 557 471"
+   ],
+   "emails": [
+    "info@kosztolanyi.org"
+   ],
+   "website": "https://www.kosztolanyi.org",
+   "extra": {
+    "lat": 46.09708,
+    "lng": 19.65991
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Pozorište „Abrašević”",
+   "type_slug": "pozoriste",
+   "town": "Beograd - Savski venac",
+   "municipality": "Beograd - Savski venac",
+   "address": "Resavska 76",
+   "website": "https://www.abrasevicbeograd.rs/pozoriste/index.php",
+   "extra": {
+    "lat": 44.80133,
+    "lng": 20.4577
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Pozorište „Bakine bajke”",
+   "type_slug": "pozoriste",
+   "town": "Beograd - Savski venac",
+   "municipality": "Beograd - Savski venac",
+   "address": "Jurija Gagarina 169",
+   "phones": [
+    "063 7444 684"
+   ],
+   "emails": [
+    "bakineprice@gmail.com"
+   ],
+   "extra": {
+    "lat": 44.79947,
+    "lng": 20.38184
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Pozorište „Bora Stanković” Vranje",
+   "type_slug": "pozoriste",
+   "town": "Vranje",
+   "municipality": "Vranje",
+   "address": "Narodnog heroja 1",
+   "phones": [
+    "017 400 009",
+    "064 8872 582"
+   ],
+   "emails": [
+    "pozoristeborastankovic@gmail.com"
+   ],
+   "website": "https://www.pozoriste-vranje.rs",
+   "extra": {
+    "lat": 42.55598,
+    "lng": 21.89707
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Pozorište „Dobrica Milutinović” Sremska Mitrovica",
+   "type_slug": "pozoriste",
+   "town": "Sremska Mitrovica",
+   "municipality": "Sremska Mitrovica",
+   "address": "Gradski park 2",
+   "phones": [
+    "022 621 979"
+   ],
+   "emails": [
+    "pozoristedm@gmail.com"
+   ],
+   "website": "https://www.pozoristesm.com",
+   "extra": {
+    "lat": 44.96789,
+    "lng": 19.60733
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Pozorište „Masuka” Velika Plana",
+   "type_slug": "pozoriste",
+   "town": "Velika Plana",
+   "municipality": "Velika Plana",
+   "address": "Branka Radičevića 1",
+   "phones": [
+    "026 514 761",
+    "064 2527 597"
+   ],
+   "emails": [
+    "pozoristemasuka@gmail.com"
+   ],
+   "extra": {
+    "lat": 44.33237,
+    "lng": 21.07509
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Pozorište „Raša Plaović”",
+   "type_slug": "pozoriste",
+   "town": "Ub",
+   "municipality": "Ub",
+   "address": "Vuka Karadžića 19",
+   "phones": [
+    "014 411 111",
+    "064 8160 754"
+   ],
+   "emails": [
+    "tamnavske@yahoo.com"
+   ],
+   "extra": {
+    "lat": 44.45592,
+    "lng": 20.07285
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Pozorište „Hristo Botev” Dimitrovgrad",
+   "type_slug": "pozoriste",
+   "town": "Dimitrovgrad",
+   "municipality": "Dimitrovgrad",
+   "address": "dr Zorana Đinđića 2",
+   "phones": [
+    "018 362 177",
+    "018 362 707"
+   ],
+   "emails": [
+    "kulturadim@ptt.rs"
+   ],
+   "extra": {
+    "lat": 43.01596,
+    "lng": 22.77803
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Pozorište Atelje 212",
+   "type_slug": "pozoriste",
+   "town": "Beograd - Stari grad",
+   "municipality": "Beograd - Stari grad",
+   "address": "Svetogorska 21",
+   "phones": [
+    "011 3246 146",
+    "063 214 292"
+   ],
+   "emails": [
+    "masa.mihailovic@gmail.com"
+   ],
+   "website": "https://www.atelje212.rs",
+   "extra": {
+    "lat": 44.81411,
+    "lng": 20.468
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Pozorište Boško Buha - Večernja scena, Beograd",
+   "type_slug": "pozoriste",
+   "town": "Beograd - Stari grad",
+   "municipality": "Beograd - Stari grad",
+   "address": "Trg Republike 3",
+   "phones": [
+    "011 2632 855"
+   ],
+   "emails": [
+    "marketing@buha-theater.com"
+   ],
+   "website": "https://buha.rs",
+   "extra": {
+    "lat": 44.81629,
+    "lng": 20.45956
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Pozorište Boško Buha, Beograd",
+   "type_slug": "pozoriste",
+   "town": "Beograd - Stari grad",
+   "municipality": "Beograd - Stari grad",
+   "address": "Trg Republike 3",
+   "phones": [
+    "011 2632 855",
+    "2632 855"
+   ],
+   "emails": [
+    "marketing@buha.rs"
+   ],
+   "website": "https://buha.rs",
+   "extra": {
+    "lat": 44.81629,
+    "lng": 20.45956
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Pozorište za decu Kragujevac",
+   "type_slug": "pozoriste",
+   "town": "Kragujevac",
+   "municipality": "Kragujevac",
+   "address": "Trg slobode 1",
+   "phones": [
+    "034 333 518",
+    "065 3143 939",
+    "064 8157 531"
+   ],
+   "emails": [
+    "pozoristezadecu@gmail.com"
+   ],
+   "website": "https://www.pzdkg.org",
+   "extra": {
+    "lat": 44.01378,
+    "lng": 20.91903
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Pozorište lutaka „Pinokio” Beograd",
+   "type_slug": "pozoriste",
+   "town": "Beograd - Novi Beograd",
+   "municipality": "Beograd - Novi Beograd",
+   "address": "Goce Delčeva 1",
+   "phones": [
+    "011 2691 715",
+    "061.2016.247"
+   ],
+   "emails": [
+    "pinokio@pinokio.rs"
+   ],
+   "website": "https://www.pinokio.rs",
+   "extra": {
+    "lat": 44.83016,
+    "lng": 20.41192
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Pozorište lutaka Niš",
+   "type_slug": "pozoriste",
+   "town": "Niš",
+   "municipality": "Niš",
+   "address": "Bulevar dr Zorana Đinđića 7",
+   "phones": [
+    "018 253 962",
+    "018 526 913",
+    "063 1089 901"
+   ],
+   "emails": [
+    "pozlutaka@medianis.net"
+   ],
+   "website": "https://www.nispuppets.org.rs",
+   "extra": {
+    "lat": 43.31979,
+    "lng": 21.907
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Pozorište mladih Novi Sad - Dramska scena",
+   "type_slug": "pozoriste",
+   "town": "Novi Sad",
+   "municipality": "Novi Sad",
+   "address": "Ignjata Pavlasa 4",
+   "phones": [
+    "021 525 884",
+    "063 459 334"
+   ],
+   "emails": [
+    "office@pozoristemladih.co.rs"
+   ],
+   "website": "https://www.pozoristemladih.co.rs",
+   "extra": {
+    "lat": 45.25517,
+    "lng": 19.84891
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Pozorište na Terazijama Beograd",
+   "type_slug": "pozoriste",
+   "town": "Beograd - Stari grad",
+   "municipality": "Beograd - Stari grad",
+   "address": "Trg Nikole Pašića 1/3",
+   "phones": [
+    "011 3302 621",
+    "011 3302 650"
+   ],
+   "emails": [
+    "office@pozoristeterazije.com"
+   ],
+   "website": "https://www.pozoristeterazije.com",
+   "extra": {
+    "lat": 44.81266,
+    "lng": 20.46172
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Pozorište PAN Teatar",
+   "type_slug": "pozoriste",
+   "town": "Beograd - Zvezdara",
+   "municipality": "Beograd - Zvezdara",
+   "address": "Bulevar kralja Aleksandra 298",
+   "phones": [
+    "011 2418 524",
+    "060 3050 171"
+   ],
+   "emails": [
+    "panteatar@yahoo.com"
+   ],
+   "website": "https://www.panteatar.rs",
+   "extra": {
+    "lat": 44.79563,
+    "lng": 20.49793
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Pozorište Slavija Beograd",
+   "type_slug": "pozoriste",
+   "town": "Beograd - Vračar",
+   "municipality": "Beograd - Vračar",
+   "address": "Svetog Save 16-18",
+   "phones": [
+    "011 2436 995",
+    "011 2437 395"
+   ],
+   "emails": [
+    "p.slavija@gmail.com"
+   ],
+   "website": "https://www.pozoriste-slavija.co.rs",
+   "extra": {
+    "lat": 44.80092,
+    "lng": 20.46736
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Regionalno pozorište Novi Pazar",
+   "type_slug": "pozoriste",
+   "town": "Novi Pazar",
+   "municipality": "Novi Pazar",
+   "address": "Stevana Nemanje 2",
+   "phones": [
+    "036 322 819",
+    "064 8907 278"
+   ],
+   "emails": [
+    "regionalnopozoristenp@gmail.com"
+   ],
+   "extra": {
+    "lat": 43.14053,
+    "lng": 20.51836
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Rusinsko narodno pozorište „Petro Riznič Đađa” Ruski Krstur",
+   "type_slug": "pozoriste",
+   "town": "Ruski Krstur",
+   "municipality": "Kula",
+   "address": "Rusinska 75",
+   "phones": [
+    "025 704 605"
+   ],
+   "emails": [
+    "rnt.djadja@gmail.com"
+   ],
+   "extra": {
+    "lat": 45.56245,
+    "lng": 19.41667
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Slovačko vojvođansko pozorište - Slovenské vojvodinské divadlo",
+   "type_slug": "pozoriste",
+   "town": "Bački Petrovac",
+   "municipality": "Bački Petrovac",
+   "address": "Kolarova 4",
+   "phones": [
+    "021 780 040",
+    "021 780 168"
+   ],
+   "emails": [
+    "svdivadlo@stcable.net"
+   ],
+   "extra": {
+    "lat": 45.36022,
+    "lng": 19.59089
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Srpsko narodno pozorište Novi Sad",
+   "type_slug": "pozoriste",
+   "town": "Novi Sad",
+   "municipality": "Novi Sad",
+   "address": "Pozorišni trg 1",
+   "phones": [
+    "021 528 894",
+    "021 426 407",
+    "021 427 975"
+   ],
+   "emails": [
+    "marketing@snp.org.rs"
+   ],
+   "website": "https://www.snp.org.rs",
+   "extra": {
+    "lat": 45.2551,
+    "lng": 19.84295
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Studio „Pozorište Dečja zemlja”",
+   "type_slug": "pozoriste",
+   "town": "Smederevo",
+   "municipality": "Smederevo",
+   "address": "Miloša Velikog 14",
+   "phones": [
+    "063 8902 398"
+   ],
+   "emails": [
+    "pozoriste@decja-zemlja.com"
+   ],
+   "website": "https://www.decja-zemlja.com",
+   "extra": {
+    "lat": 44.66432,
+    "lng": 20.93083
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Teatar „Des”",
+   "type_slug": "pozoriste",
+   "town": "Beograd - Novi Beograd",
+   "municipality": "Beograd - Novi Beograd",
+   "address": "Tošin bunar 153",
+   "phones": [
+    "011 2673 649"
+   ],
+   "emails": [
+    "info@spanac.rs"
+   ],
+   "website": "https://www.spanac.rs/pozoriste.html",
+   "extra": {
+    "lat": 44.824,
+    "lng": 20.3986
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Teatar „Mimart” Beograd",
+   "type_slug": "pozoriste",
+   "town": "Beograd - Novi Beograd",
+   "municipality": "Beograd - Novi Beograd",
+   "address": "Gandijeva 11",
+   "phones": [
+    "011 3176 188",
+    "063 8075 810"
+   ],
+   "emails": [
+    "mimart_na@hotmail.com"
+   ],
+   "website": "https://www.teatarmimart.org.rs",
+   "extra": {
+    "lat": 44.80917,
+    "lng": 20.38418
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Teatar „Oko”",
+   "type_slug": "pozoriste",
+   "town": "Beograd - Palilula",
+   "municipality": "Beograd - Palilula",
+   "address": "Husinskih rudara 6/18",
+   "phones": [
+    "064 5549 526"
+   ],
+   "emails": [
+    "teataroko@sbb.rs"
+   ],
+   "website": "https://www.okoorg.rs",
+   "extra": {
+    "lat": 44.81437,
+    "lng": 20.51837
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Teatar „Sunce” Kraljevo",
+   "type_slug": "pozoriste",
+   "town": "Kraljevo",
+   "municipality": "Kraljevo",
+   "address": "Toplice Milana 11",
+   "phones": [
+    "036 313 203",
+    "064 4526 773"
+   ],
+   "emails": [
+    "boratosic@gmail.com"
+   ],
+   "extra": {
+    "lat": 43.72241,
+    "lng": 20.68641
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Teatar Levo",
+   "type_slug": "pozoriste",
+   "town": "Beograd - Vračar",
+   "municipality": "Beograd - Vračar",
+   "address": "Resavska 11",
+   "phones": [
+    "011 3233 002"
+   ],
+   "emails": [
+    "sekretarijat1-lola@sbb.rs"
+   ],
+   "website": "https://www.teatarlevo.com",
+   "extra": {
+    "lat": 44.8087,
+    "lng": 20.46702
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Trsteničko pozorište",
+   "type_slug": "pozoriste",
+   "town": "Trstenik",
+   "municipality": "Trstenik",
+   "address": "Kneginje Milice 16",
+   "phones": [
+    "037 712 070",
+    "069 607 530"
+   ],
+   "emails": [
+    "narodnits@sbb.rs"
+   ],
+   "website": "https://www.narodnits.rs",
+   "extra": {
+    "lat": 43.61979,
+    "lng": 20.99936
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Ustanova Kulturni centar - amatersko pozorište",
+   "type_slug": "pozoriste",
+   "town": "Smederevska Palanka",
+   "municipality": "Smederevska Palanka",
+   "address": "Trg heroja 1",
+   "phones": [
+    "011 317 749",
+    "069 8701 880"
+   ],
+   "emails": [
+    "kcpozoristepalanka@hotmail.com"
+   ],
+   "website": "https://www.kcpalanka.rs/pozoriste/pozoriste.html",
+   "extra": {
+    "lat": 44.36576,
+    "lng": 20.95628
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Ustanova Narodno pozorište Timočke Krajine – Centar za kulturu „Zoran Radmilović“ u Zaječaru",
+   "type_slug": "pozoriste",
+   "town": "Zaječar",
+   "municipality": "Zaječar",
+   "address": "Timočke bune 16",
+   "phones": [
+    "019 421 733",
+    "062 8838 494"
+   ],
+   "emails": [
+    "info@zoranradmilovic.rs"
+   ],
+   "website": "https://www.zoranradmilovic.org.rs",
+   "extra": {
+    "lat": 43.90113,
+    "lng": 22.27495
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  },
+  {
+   "name": "Šabačko pozorište, Šabac",
+   "type_slug": "pozoriste",
+   "town": "Šabac",
+   "municipality": "Šabac",
+   "address": "Karađorđeva 22",
+   "phones": [
+    "015 353 959",
+    "062 8802 248"
+   ],
+   "emails": [
+    "pozoristesabacko@gmail.com"
+   ],
+   "website": "https://www.sabackopozoriste.rs",
+   "extra": {
+    "lat": 44.7556,
+    "lng": 19.69586
+   },
+   "source_url": "https://opendata.geosrbija.rs/ustanovekulture?tip=%D0%9F%D0%BE%D0%B7%D0%BE%D1%80%D0%B8%D1%88%D1%82%D0%B0&f=json&user=opendata"
+  }
+ ]
+}

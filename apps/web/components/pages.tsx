@@ -744,10 +744,16 @@ export async function OrgPage({ locale, org, locSlug, path }: { locale: Locale; 
               <table className="text-[14px] tabular w-full max-w-md"><tbody>
                 {["rad_sa_strankama", "radno_vreme"].map((ht) => hours.filter((h) => h.hours_type === ht)).filter((x) => x.length).map((rows) => (
                   <tr key={rows[0].hours_type} className="align-top"><th className="text-left font-medium text-muted pr-4 py-1">{rows[0].hours_type === "rad_sa_strankama" ? d.radSaStrankama : d.hours}</th>
-                    <td className="py-1">{rows.map((h) => <div key={h.day_of_week}>{DAYS[h.day_of_week - 1]} {h.opens.slice(0, 5)}–{h.closes.slice(0, 5)}{h.note ? ` (${h.note})` : ""}</div>)}</td></tr>
+                    <td className="py-1">{rows.map((h) => <div key={h.day_of_week}>{DAYS[h.day_of_week - 1]} {h.opens.slice(0, 5)}–{h.closes.slice(0, 5)}</div>)}</td></tr>
                 ))}</tbody></table>
             ) : loc?.hours_text ? <p className="text-[14px]">{loc.hours_text}</p>
               : <p className="text-[14px] text-muted">{pick(locale, "Radno vreme još nije uneto. Ako ga znate, ", "Opening hours not yet entered. If you know them, ", "Часы работы пока не указаны. Если вы их знаете, ", "Öffnungszeiten noch nicht erfasst. Wenn Sie sie kennen, ")}<a href="#izmeni">{d.editData.toLowerCase()}</a>.</p>}
+            {/* hours that do not come from the institution's own page say so: a rule, an emergency service, or the open map */}
+            {[...new Set(hours.map((h) => h.note).filter(Boolean))].map((n) => <p key={n} className="text-[12.5px] text-muted mt-2">{
+              n === "po propisu" ? pick(locale, "Radno vreme organa državne uprave po odluci Vlade; ovaj organ ga nije posebno objavio. Proverite pre dolaska.", "Working hours of state administration bodies under the Government's decision; this body has not published its own. Check before you go.", "Часы работы органов государственного управления по решению правительства; сам орган их не публикует. Уточните перед визитом.", "Arbeitszeit der Staatsverwaltung laut Regierungsbeschluss; die Stelle selbst veröffentlicht keine. Bitte vorab prüfen.")
+              : n === "dežurna služba" ? pick(locale, "Dežurna služba radi neprekidno. Hitni poziv: 193.", "The duty service works around the clock. Emergency call: 193.", "Дежурная служба работает круглосуточно. Экстренный вызов: 193.", "Der Bereitschaftsdienst arbeitet rund um die Uhr. Notruf: 193.")
+              : n === "OpenStreetMap" ? pick(locale, "Izvor radnog vremena: OpenStreetMap (otvorena mapa koju dopunjuju korisnici). Proverite pre dolaska.", "Source of these hours: OpenStreetMap (an open map edited by its users). Check before you go.", "Источник часов работы: OpenStreetMap (открытая карта, которую дополняют пользователи). Уточните перед визитом.", "Quelle der Öffnungszeiten: OpenStreetMap (offene, von Nutzern gepflegte Karte). Bitte vorab prüfen.")
+              : n}</p>)}
           </section>
           {(coverage.length > 0 || locations.length > 1 || org.parent_name || children.length > 0) && (
             <section data-reveal data-fx="flip" className="card p-4 sm:p-5 mt-5">

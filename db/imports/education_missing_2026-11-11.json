@@ -1,0 +1,53 @@
+{
+ "source": {
+  "name": "Ministarstvo prosvete – otvoreni podaci",
+  "url": "https://opendata.mpn.gov.rs/",
+  "fetched_at": "2026-11-11"
+ },
+ "rows": [
+  {
+   "name": "Predškolska ustanova \"Mala Višnja\"",
+   "type_slug": "predskolska-ustanova",
+   "town": "Beograd",
+   "municipality": "Palilula",
+   "extra": {
+    "matični broj": "17852957",
+    "PIB": "108395005"
+   },
+   "source_url": "https://opendata.mpn.gov.rs/"
+  },
+  {
+   "name": "Predškolska ustanova \"Čarobna kuća\"",
+   "type_slug": "predskolska-ustanova",
+   "town": "Novi Sad",
+   "municipality": "Novi Sad",
+   "extra": {
+    "matični broj": "08963371",
+    "PIB": "109695966"
+   },
+   "source_url": "https://opendata.mpn.gov.rs/"
+  },
+  {
+   "name": "Osnovna škola \"Miloš Gajić\"",
+   "type_slug": "osnovna-skola",
+   "town": "Amajić",
+   "municipality": "Mali Zvornik",
+   "extra": {
+    "matični broj": "17042149",
+    "PIB": "101362347"
+   },
+   "source_url": "https://opendata.mpn.gov.rs/"
+  },
+  {
+   "name": "Škola za osnovno obrazovanje odraslih \"Radnički univerzitet\" Priština sa privremenim sedištem u Štrpcu",
+   "type_slug": "skola-za-odrasle",
+   "town": "Štrpce",
+   "municipality": "Štrpce",
+   "extra": {
+    "matični broj": "09018794",
+    "PIB": "100056061"
+   },
+   "source_url": "https://opendata.mpn.gov.rs/"
+  }
+ ]
+}
