@@ -1,0 +1,169 @@
+{
+ "id": "dz-08",
+ "rows": [
+  {
+   "org_slug": "dom-zdravlja-dr-milenko-marin-loznica-loznica",
+   "name": "Dom zdravlja \"Dr Milenko Marin\" Loznica",
+   "municipality": "Loznica",
+   "website": "https://dzloznica.co.rs",
+   "held_branches": []
+  },
+  {
+   "org_slug": "dom-zdravlja-lucani-guca",
+   "name": "Dom zdravlja Lučani",
+   "municipality": "Lučani",
+   "website": "https://dzlucani.rs",
+   "held_branches": []
+  },
+  {
+   "org_slug": "dom-zdravlja-dr-veroljub-cakic-majdanpek",
+   "name": "Dom zdravlja \"Dr Veroljub Cakić\"",
+   "municipality": "Majdanpek",
+   "website": "http://dzmpek.org.rs",
+   "held_branches": [
+    {
+     "location_id": 23785,
+     "name": "Dom zdravlja „Dr Veroljub Cakić” Majdanpek",
+     "settlement": null,
+     "address": "Kapetanska 30",
+     "phones": null,
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-dr-marton-sandor-mali-idjos",
+   "name": "Dom zdravlja \"Dr Marton Šandor\"",
+   "municipality": "Mali Iđoš",
+   "website": "http://www.dzmi.rs",
+   "held_branches": []
+  },
+  {
+   "org_slug": "dom-zdravlja-mali-zvornik-mali-zvornik",
+   "name": "Dom zdravlja \"Mali Zvornik\"",
+   "municipality": "Mali Zvornik",
+   "website": "http://www.dzmalizvornik.org.rs",
+   "held_branches": [
+    {
+     "location_id": 24496,
+     "name": "Dom zdravlja Mali Zvornik",
+     "settlement": null,
+     "address": "Ribarska 25",
+     "phones": "015 472211",
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-malo-crnice-malo-crnice",
+   "name": "Dom zdravlja Malo Crniće",
+   "municipality": "Malo Crniće",
+   "website": "https://www.dzmcrnice.rs",
+   "held_branches": [
+    {
+     "location_id": 24352,
+     "name": "Dom zdravlja Malo Crniće",
+     "settlement": null,
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-nis-nis",
+   "name": "Dom zdravlja Niš",
+   "municipality": "Medijana",
+   "website": "https://www.domzdravljanis.co.rs",
+   "held_branches": [
+    {
+     "location_id": 23835,
+     "name": "Ambulanta „Branko Bjegović”",
+     "settlement": null,
+     "address": "Inžinjera Birviša 48",
+     "phones": "018 580095",
+     "has_hours": true
+    },
+    {
+     "location_id": 23875,
+     "name": "Ambulante Klinike za onkologiju",
+     "settlement": null,
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 23860,
+     "name": "Dom zdravlja Niš",
+     "settlement": null,
+     "address": "Vojvode Tankosića 13",
+     "phones": "018 503503",
+     "has_hours": false
+    },
+    {
+     "location_id": 23880,
+     "name": "Specijalističke ambulante",
+     "settlement": null,
+     "address": "Bulevar dr Zorana Đinđića 48",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 23871,
+     "name": "Zavod za urgentnu medicinu Niš",
+     "settlement": null,
+     "address": "Dr Miodraga Lazića 21",
+     "phones": "018 529001",
+     "has_hours": false
+    },
+    {
+     "location_id": 24029,
+     "name": "Zavod za zdravstvenu zaštitu studenata Niš",
+     "settlement": null,
+     "address": "Katićeva 21",
+     "phones": "018 4234155",
+     "has_hours": false
+    },
+    {
+     "location_id": 24215,
+     "name": "Zdravstvena ambulanta „Čair”",
+     "settlement": null,
+     "address": "Zetska 12",
+     "phones": "018 4235988",
+     "has_hours": true
+    },
+    {
+     "location_id": 19610,
+     "name": "Zdravstvena stanica Delijski vis",
+     "settlement": null,
+     "address": "Bojana Mitrovića 34а",
+     "phones": "018 274444",
+     "has_hours": true
+    },
+    {
+     "location_id": 23852,
+     "name": "Zdravstvena stanica Duvanište",
+     "settlement": null,
+     "address": "Majakovskog 20g",
+     "phones": "018 553444",
+     "has_hours": true
+    },
+    {
+     "location_id": 23986,
+     "name": "Zdravstvena stanica Rasadnik",
+     "settlement": null,
+     "address": "Starca Vujadina 1",
+     "phones": "018 240199",
+     "has_hours": true
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-medvedja-medvedja",
+   "name": "Dom zdravlja Medveđa",
+   "municipality": "Medveđa",
+   "website": "http://www.dzmedvedja.com",
+   "held_branches": []
+  }
+ ]
+}

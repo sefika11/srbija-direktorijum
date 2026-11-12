@@ -1,0 +1,139 @@
+{
+ "id": "dz-03",
+ "rows": [
+  {
+   "org_slug": "dom-zdravlja-becej-becej",
+   "name": "Dom zdravlja \"Bečej\"",
+   "municipality": "Bečej",
+   "website": "https://dzbecej.rs/",
+   "held_branches": [
+    {
+     "location_id": 19695,
+     "name": "Ambulanta",
+     "settlement": null,
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 24308,
+     "name": "Dom zdravlja Bečej",
+     "settlement": null,
+     "address": "Braće Tan 3",
+     "phones": "021 6912660",
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-blace-blace",
+   "name": "Dom zdravlja Blace",
+   "municipality": "Blace",
+   "website": "https://dzblace.org.rs/",
+   "held_branches": [
+    {
+     "location_id": 24042,
+     "name": "Dom zdravlja Blace",
+     "settlement": null,
+     "address": "Braće Vuksanović 55",
+     "phones": "027 371253; 027 371153",
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-bogatic-bogatic",
+   "name": "Dom zdravlja \"Bogatić\"",
+   "municipality": "Bogatić",
+   "website": "https://dzbogatic.org.rs",
+   "held_branches": [
+    {
+     "location_id": 24351,
+     "name": "Dom zdravlja Bogatić",
+     "settlement": null,
+     "address": null,
+     "phones": "015 7786306",
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-bojnik-bojnik",
+   "name": "Dom zdravlja Bojnik",
+   "municipality": "Bojnik",
+   "website": "https://dzbojnik.org.rs",
+   "held_branches": []
+  },
+  {
+   "org_slug": "dom-zdravlja-boljevac-boljevac",
+   "name": "Dom zdravlja Boljevac",
+   "municipality": "Boljevac",
+   "website": "https://dzboljevac.rs",
+   "held_branches": [
+    {
+     "location_id": 24088,
+     "name": "Ambulanta Bogovina",
+     "settlement": null,
+     "address": "Grabovac 2 23",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 24205,
+     "name": "Dom zdravlja Boljevac",
+     "settlement": null,
+     "address": null,
+     "phones": "030 463774; 030 463387",
+     "has_hours": false
+    },
+    {
+     "location_id": 21748,
+     "name": "Zdravstvena ambulanta Osnić",
+     "settlement": null,
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-bor-bor",
+   "name": "Dom zdravlja Bor",
+   "municipality": "Bor",
+   "website": "https://domzdravljabor.org.rs",
+   "held_branches": []
+  },
+  {
+   "org_slug": "dom-zdravlja-bosilegrad-bosilegrad",
+   "name": "Dom zdravlja Bosilegrad",
+   "municipality": "Bosilegrad",
+   "website": "http://www.dzbosilegrad.org.rs",
+   "held_branches": [
+    {
+     "location_id": 24202,
+     "name": "Dom zdravlja sa stacionarom Bosilegrad",
+     "settlement": null,
+     "address": "Porodin 11",
+     "phones": "017 878811",
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-brus-brus",
+   "name": "Dom zdravlja Brus",
+   "municipality": "Brus",
+   "website": "https://dzbrus.org.rs",
+   "held_branches": [
+    {
+     "location_id": 24370,
+     "name": "Dom zdravlja Brus",
+     "settlement": null,
+     "address": "Kralja Petra prvog 9",
+     "phones": "037 826645",
+     "has_hours": false
+    }
+   ]
+  }
+ ]
+}

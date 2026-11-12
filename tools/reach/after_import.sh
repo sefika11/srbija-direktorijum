@@ -1,5 +1,5 @@
 #!/bin/sh
-# The four rules to re-run after every import, in this order. Run from the repo root:
+# The four rules to re-run after every import, in this order, then the data rules (a FAIL there is a bug to fix first). Run from the repo root:
 #   set -a && . apps/web/.env.local; set +a; sh tools/reach/after_import.sh
 # Each step writes its own undo file to db/fixes/. Never run a schema change while an import is open (see load_in_batches.py).
 set -e
@@ -12,3 +12,5 @@ echo "3/4 trust badge from the source"
 $PY tools/reach/relabel_verification.py --write | tail -2
 echo "4/4 map points from address data"
 $PY -m tools.reach.geocode_from_map --write | tail -7
+echo "data rules"
+$PY tools/ops/check_data.py

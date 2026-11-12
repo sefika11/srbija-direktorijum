@@ -1,0 +1,88 @@
+{
+ "id": "dz-16",
+ "rows": [
+  {
+   "org_slug": "dom-zdravlja-vladicin-han-vladicin-han",
+   "name": "Dom zdravlja Vladičin Han",
+   "municipality": "Vladičin Han",
+   "website": "https://dzvladicinhan.rs/",
+   "held_branches": []
+  },
+  {
+   "org_slug": "dom-zdravlja-vlasotince-vlasotince",
+   "name": "Dom zdravlja Vlasotince",
+   "municipality": "Vlasotince",
+   "website": "https://dzvlasotince.rs",
+   "held_branches": [
+    {
+     "location_id": 24189,
+     "name": "Dom zdravlja Vlasotince",
+     "settlement": null,
+     "address": "Moše Pijade 2",
+     "phones": "016 875270",
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-vozdovac-beograd",
+   "name": "Dom zdravlja \"Voždovac\"",
+   "municipality": "Voždovac",
+   "website": "http://www.dzvozdovac.rs",
+   "held_branches": []
+  },
+  {
+   "org_slug": "dom-zdravlja-vranje-vranje",
+   "name": "Dom zdravlja Vranje",
+   "municipality": "Vranje",
+   "website": "https://www.zcvranje.com/o-nama/organizacione-jedinice",
+   "held_branches": []
+  },
+  {
+   "org_slug": "dom-zdravlja-vracar-beograd",
+   "name": "Dom zdravlja \"Vračar\"",
+   "municipality": "Vračar",
+   "website": "https://dzvracar.org.rs",
+   "held_branches": []
+  },
+  {
+   "org_slug": "dom-zdravlja-veljko-vlahovic-vrbas",
+   "name": "Dom zdravlja \"Veljko Vlahović\"",
+   "municipality": "Vrbas",
+   "website": "http://www.dzvrbas.co.rs",
+   "held_branches": [
+    {
+     "location_id": 24378,
+     "name": "Dom zdravlja „Veljko Vlahović”",
+     "settlement": null,
+     "address": "Palih boraca 20",
+     "phones": "021 7954400",
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-dr-nikola-dzamic-vrnjacka-banja",
+   "name": "Dom zdravlja \"Dr Nikola Džamić\"",
+   "municipality": "Vrnjačka Banja",
+   "website": "http://dzvbanja.org.rs",
+   "held_branches": []
+  },
+  {
+   "org_slug": "dom-zdravlja-vrsac-vrsac",
+   "name": "Dom zdravlja Vršac",
+   "municipality": "Vršac",
+   "website": "http://www.dzvrsac.co.rs",
+   "held_branches": [
+    {
+     "location_id": 21592,
+     "name": "Dom zdravlja Vršac",
+     "settlement": null,
+     "address": "Abraševićeva",
+     "phones": "013 830078; 013 838902; 013 809000",
+     "has_hours": false
+    }
+   ]
+  }
+ ]
+}

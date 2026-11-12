@@ -9,6 +9,7 @@ import "@fontsource-variable/commissioner";
 import "@fontsource-variable/jetbrains-mono";
 import "./globals.css";
 import Motion from "@/components/Motion";
+import { Analytics } from "@vercel/analytics/next";   // cookie-less visit counts; shows data once Web Analytics is switched on in the Vercel project
 
 const SITE = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3100";
 const DESC = "Sve javne i privatne institucije Srbije na jednom mestu: adresa, telefon, radno vreme i ko je nadležan za vašu opštinu.";
@@ -30,7 +31,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="sr-Latn" data-theme="light" suppressHydrationWarning>
       {/* Home, first visit of the session: raise the paper curtain before the first paint so the page never shows under the opener. */}
       <head><script dangerouslySetInnerHTML={{ __html: `(function(){var m=/^\\/(en|ru|de)(\\/|$)/.exec(location.pathname);if(m)document.documentElement.lang=m[1]})();(function(){var th="light";try{if(localStorage.getItem("gdi-theme")==="dark")th="dark"}catch(e){}document.documentElement.setAttribute("data-theme",th)})();(function(){try{var p=location.pathname;if(p.length>1&&p.charAt(p.length-1)==="/")p=p.slice(0,-1);if(["","/","/en","/ru","/de"].indexOf(p)<0)return;if(sessionStorage.getItem("gdi-opener")==="1")return;if(matchMedia("(prefers-reduced-motion: reduce)").matches)return;document.documentElement.classList.add("opener-pending","has-opener")}catch(e){}})()` }} /></head>
-      <body><Heritage /><Motion />{children}</body>
+      <body><Heritage /><Motion />{children}<Analytics /></body>
     </html>
   );
 }

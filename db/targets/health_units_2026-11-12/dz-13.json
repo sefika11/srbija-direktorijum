@@ -1,0 +1,154 @@
+{
+ "id": "dz-13",
+ "rows": [
+  {
+   "org_slug": "dom-zdravlja-smederevo-smederevo",
+   "name": "Dom zdravlja Smederevo",
+   "municipality": "Smederevo",
+   "website": "https://domzdravljasd.rs",
+   "held_branches": []
+  },
+  {
+   "org_slug": "dom-zdravlja-smederevska-palanka-smederevska-palanka",
+   "name": "Dom zdravlja Smederevska Palanka",
+   "municipality": "Smederevska Palanka",
+   "website": "https://www.dzsmedpalanka.rs",
+   "held_branches": [
+    {
+     "location_id": 23983,
+     "name": "Ambulanta",
+     "settlement": null,
+     "address": "Nikole Tesle 27",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 24353,
+     "name": "Dom zdravlja Smederevska Palanka",
+     "settlement": null,
+     "address": null,
+     "phones": "026 321864",
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-sokobanja-sokobanja",
+   "name": "Dom zdravlja Sokobanja",
+   "municipality": "Sokobanja",
+   "website": "https://www.dzsokobanja.com",
+   "held_branches": [
+    {
+     "location_id": 23838,
+     "name": "Dom zdravlja Sokobanja",
+     "settlement": null,
+     "address": "Mitropolita Mihaila 31",
+     "phones": null,
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-dr-djordje-lazic-sombor",
+   "name": "Dom zdravlja \"Dr Đorđe Lazić\"",
+   "municipality": "Sombor",
+   "website": "https://dzsombor.rs",
+   "held_branches": [
+    {
+     "location_id": 24488,
+     "name": "Dom zdravlja",
+     "settlement": null,
+     "address": "Žrtava fašizma 64",
+     "phones": null,
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-sopot-sopot",
+   "name": "Dom zdravlja Sopot",
+   "municipality": "Sopot",
+   "website": "https://dzsopot.rs",
+   "held_branches": []
+  },
+  {
+   "org_slug": "dom-zdravlja-dr-djordje-bastic-srbobran",
+   "name": "Dom zdravlja \"Dr Đorđe Bastić\"",
+   "municipality": "Srbobran",
+   "website": "https://dzsrbobran.rs/",
+   "held_branches": [
+    {
+     "location_id": 24380,
+     "name": "Dom zdravlja „Dr Đorđe Bastić”",
+     "settlement": null,
+     "address": "Jovana Popovića 25",
+     "phones": "021 730600",
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-sremska-mitrovica-sremska-mitrovica",
+   "name": "Dom zdravlja Sremska Mitrovica",
+   "municipality": "Sremska Mitrovica",
+   "website": "https://www.dzsm.rs",
+   "held_branches": []
+  },
+  {
+   "org_slug": "dom-zdravlja-dr-jovan-jovanovic-zmaj-stara-pazova",
+   "name": "Dom zdravlja \"Dr Jovan Jovanović-Zmaj\"",
+   "municipality": "Stara Pazova",
+   "website": "http://www.dzspazova.rs",
+   "held_branches": [
+    {
+     "location_id": 21304,
+     "name": "Ambulanta",
+     "settlement": null,
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 19921,
+     "name": "Ambulanta Grujić",
+     "settlement": null,
+     "address": "Dositeja Obradovića",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 20051,
+     "name": "Ambulanta Surduk",
+     "settlement": null,
+     "address": "Cara Lazara 2",
+     "phones": null,
+     "has_hours": true
+    },
+    {
+     "location_id": 19913,
+     "name": "Dom zdravlja Novi Banovci",
+     "settlement": null,
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 24052,
+     "name": "Dom zdravlja Stari Banovci",
+     "settlement": null,
+     "address": "Grčka 21",
+     "phones": "022 351215",
+     "has_hours": false
+    },
+    {
+     "location_id": 24336,
+     "name": "Dom zdravlja „Dr Jovan Jovanović Zmaj”",
+     "settlement": null,
+     "address": "Vladimira Hurbana 2",
+     "phones": "022 310520",
+     "has_hours": true
+    }
+   ]
+  }
+ ]
+}

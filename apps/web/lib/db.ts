@@ -90,6 +90,11 @@ export const getAncestors = (path: string) =>
   sql<TU[]>`select id, slug, level, name_lat, name_cyr, official_name_lat, jls_kind, parent_id, path::text, seat_name_lat, okrug_seat, population_2022, website, in_kosovo
             from territorial_units where path @> ${path}::ltree order by nlevel(path)`;
 
+/** An organisation page worth a search engine's visit: the organisation has a site, or one of its places has a street, a contact or hours. */
+export const hasSubstance = sql`(coalesce(o.website, '') <> '' or exists (select 1 from locations l where l.org_id = o.id and l.status = 'active'
+  and (coalesce(l.street, '') <> '' or coalesce(l.hours_text, '') <> '' or exists (select 1 from location_contacts c where c.location_id = l.id) or exists (select 1 from opening_hours h where h.location_id = l.id))))`;
+export const orgHasSubstance = (orgId: number) => sql<{ ok: boolean }[]>`select ${hasSubstance} as ok from organizations o where o.id = ${orgId}`.then((r) => r[0]?.ok ?? true);
+
 export const getOrgTypes = () =>
   sql<(OrgType & { org_count: number })[]>`
     select t.id, t.slug, t."group", t.name_lat, t.name_cyr, t.name_plural_lat, t.name_en, t.name_ru, t.name_de, t.description_md, t.faq_md, t.icon, t.sort_order, t.one_per_jls, t.national_network,

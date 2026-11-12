@@ -1,0 +1,122 @@
+{
+ "id": "dz-11",
+ "rows": [
+  {
+   "org_slug": "dom-zdravlja-dr-dragan-funduk-pecinci",
+   "name": "Dom zdravlja \"Dr Dragan Funduk\"",
+   "municipality": "Pećinci",
+   "website": "https://dzpecinci.rs/",
+   "held_branches": [
+    {
+     "location_id": 24338,
+     "name": "Dom zdravlja Pećinci",
+     "settlement": null,
+     "address": null,
+     "phones": "022 436266",
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-pirot-pirot",
+   "name": "Dom zdravlja Pirot",
+   "municipality": "Pirot",
+   "website": "https://dzpirot.rs",
+   "held_branches": [
+    {
+     "location_id": 24082,
+     "name": "Dom zdravlja Pirot",
+     "settlement": null,
+     "address": "Prva 10",
+     "phones": "010 305408",
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-1-oktobar-plandiste",
+   "name": "Dom zdravlja \"1. Oktobar\"",
+   "municipality": "Plandište",
+   "website": "https://www.dzplandiste.rs/",
+   "held_branches": [
+    {
+     "location_id": 24498,
+     "name": "Dom zdravlja „1. oktobar” Plandište",
+     "settlement": null,
+     "address": "Karađorđeva 13",
+     "phones": "013 861230",
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-pozarevac-pozarevac",
+   "name": "Dom zdravlja Požarevac",
+   "municipality": "Požarevac",
+   "website": "https://www.dzpozarevac.rs",
+   "held_branches": [
+    {
+     "location_id": 20029,
+     "name": "Ambulanta",
+     "settlement": null,
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-presevo-presevo",
+   "name": "Dom zdravlja Preševo",
+   "municipality": "Preševo",
+   "website": "http://sr.dzpresevo.org",
+   "held_branches": []
+  },
+  {
+   "org_slug": "dom-zdravlja-prijepolje-prijepolje",
+   "name": "Dom zdravlja Prijepolje",
+   "municipality": "Prijepolje",
+   "website": "https://zcue.rs/dom-zdravlja-prijepolje/",
+   "held_branches": [
+    {
+     "location_id": 23858,
+     "name": "Ambulanta",
+     "settlement": null,
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 23911,
+     "name": "Dom zdravlja Brodarevo",
+     "settlement": null,
+     "address": "Bratstva jedinstva 85",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 21585,
+     "name": "Dom zdravlja Prijepolje",
+     "settlement": null,
+     "address": null,
+     "phones": "033 711186",
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-prokuplje-prokuplje",
+   "name": "Dom zdravlja Prokuplje",
+   "municipality": "Prokuplje",
+   "website": "https://www.domzdravljaprokuplje.rs",
+   "held_branches": []
+  },
+  {
+   "org_slug": "dom-zdravlja-rakovica-beograd",
+   "name": "Dom zdravlja Rakovica",
+   "municipality": "Rakovica",
+   "website": "https://dzrakovica.rs",
+   "held_branches": []
+  }
+ ]
+}

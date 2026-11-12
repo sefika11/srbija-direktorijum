@@ -1,0 +1,272 @@
+{
+ "id": "dz-17",
+ "rows": [
+  {
+   "org_slug": "dom-zdravlja-zajecar-zajecar",
+   "name": "Dom zdravlja Zaječar",
+   "municipality": "Zaječar",
+   "website": "https://domzdravlja.zczajecar.com",
+   "held_branches": []
+  },
+  {
+   "org_slug": "dom-zdravlja-zemun-zemun",
+   "name": "Dom zdravlja Zemun",
+   "municipality": "Zemun",
+   "website": "https://dzzemun.org.rs",
+   "held_branches": []
+  },
+  {
+   "org_slug": "dom-zdravlja-dr-bosko-vrebalov-zrenjanin",
+   "name": "Dom zdravlja \"Dr Boško Vrebalov\"",
+   "municipality": "Zrenjanin",
+   "website": "https://www.dzzrenjanin.rs/",
+   "held_branches": [
+    {
+     "location_id": 23600,
+     "name": "Ambulanta",
+     "settlement": null,
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 23609,
+     "name": "Ambulanta",
+     "settlement": null,
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 23608,
+     "name": "Ambulanta",
+     "settlement": null,
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 23607,
+     "name": "Ambulanta",
+     "settlement": null,
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 23606,
+     "name": "Ambulanta",
+     "settlement": null,
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 24173,
+     "name": "Dom zdravlja Dr Boško Vrebalov",
+     "settlement": null,
+     "address": "Svetosavska 15",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 49969,
+     "name": "Dom zdravlja Zrenjanin - I ambulanta",
+     "settlement": "Zrenjanin",
+     "address": "Trg Dositeja Obradovića bb",
+     "phones": "023 541645",
+     "has_hours": false
+    },
+    {
+     "location_id": 49970,
+     "name": "Dom zdravlja Zrenjanin - II ambulanta",
+     "settlement": "Zrenjanin",
+     "address": "Miletićeva 92",
+     "phones": "023 547113",
+     "has_hours": false
+    },
+    {
+     "location_id": 49971,
+     "name": "Dom zdravlja Zrenjanin - II-a ambulanta",
+     "settlement": "Zrenjanin",
+     "address": "Baranjska 18",
+     "phones": "023 540120",
+     "has_hours": false
+    },
+    {
+     "location_id": 49972,
+     "name": "Dom zdravlja Zrenjanin - III ambulanta",
+     "settlement": "Zrenjanin",
+     "address": "Bulevar Milutina Milankovića 5",
+     "phones": "023 563020",
+     "has_hours": false
+    },
+    {
+     "location_id": 49973,
+     "name": "Dom zdravlja Zrenjanin - IV ambulanta",
+     "settlement": "Zrenjanin",
+     "address": "Patrijarha Pavla 46",
+     "phones": "023 562298",
+     "has_hours": false
+    },
+    {
+     "location_id": 49974,
+     "name": "Dom zdravlja Zrenjanin - V ambulanta",
+     "settlement": "Zrenjanin",
+     "address": "Cara Dušana 107",
+     "phones": "023 565633",
+     "has_hours": false
+    },
+    {
+     "location_id": 49975,
+     "name": "Dom zdravlja Zrenjanin - VI ambulanta",
+     "settlement": "Zrenjanin",
+     "address": "Toplička 15",
+     "phones": "023 536928",
+     "has_hours": false
+    },
+    {
+     "location_id": 49976,
+     "name": "Dom zdravlja Zrenjanin - VII ambulanta",
+     "settlement": "Zrenjanin",
+     "address": "Mihajla Predića 19",
+     "phones": "023 3549402",
+     "has_hours": false
+    },
+    {
+     "location_id": 49977,
+     "name": "Dom zdravlja Zrenjanin - X ambulanta",
+     "settlement": "Zrenjanin",
+     "address": "Gundulićeva 19",
+     "phones": "023 560216",
+     "has_hours": false
+    },
+    {
+     "location_id": 24068,
+     "name": "Dom zdravlja „Doktor Boško Vrebalov”",
+     "settlement": null,
+     "address": "Koče Kolarova 59",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 24072,
+     "name": "Dom zdravlja „Dr Boško Verbalov” Zrenjanin",
+     "settlement": null,
+     "address": "Reves Antala 4a",
+     "phones": "023 549821",
+     "has_hours": true
+    },
+    {
+     "location_id": 21609,
+     "name": "Dom zdravlja „Dr Boško Verbalov” Zrenjanin",
+     "settlement": null,
+     "address": null,
+     "phones": "023 530820",
+     "has_hours": false
+    },
+    {
+     "location_id": 21803,
+     "name": "Dom zdravlja „Dr Boško Vrebalov”",
+     "settlement": null,
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 19958,
+     "name": "Dom zdravlja „Dr Boško Vrebalov”",
+     "settlement": null,
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 21835,
+     "name": "Dom zdravlja „Dr Boško Vrebalov”",
+     "settlement": null,
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 21832,
+     "name": "Dom zdravlja „Dr Boško Vrebalov” Zrenjanin",
+     "settlement": null,
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 19875,
+     "name": "IX zdravstvena stanica",
+     "settlement": null,
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 24059,
+     "name": "Zavod za javno zdravlje Zrenjanin",
+     "settlement": null,
+     "address": "Dr Emila Gavrila 13",
+     "phones": "023 566345",
+     "has_hours": true
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-zvezdara-beograd",
+   "name": "Dom zdravlja \"Zvezdara\"",
+   "municipality": "Zvezdara",
+   "website": "https://dzzvezdara.rs",
+   "held_branches": []
+  },
+  {
+   "org_slug": "dom-zdravlja-cicevac-cicevac",
+   "name": "Dom zdravlja Ćićevac",
+   "municipality": "Ćićevac",
+   "website": "http://www.dzcicevac.com",
+   "held_branches": [
+    {
+     "location_id": 24372,
+     "name": "Dom zdravlja Ćićevac",
+     "settlement": null,
+     "address": "Svetog Save 19a",
+     "phones": "037 811343",
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-cacak-cacak-cacak",
+   "name": "Dom zdravlja \"Čačak\" Čačak",
+   "municipality": "Čačak",
+   "website": "https://domzdravljacacak.rs",
+   "held_branches": [
+    {
+     "location_id": 24016,
+     "name": "Dom zdravlja Čačak",
+     "settlement": null,
+     "address": "Veselina Milikića 9",
+     "phones": "032 225717",
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-coka-coka",
+   "name": "Dom zdravlja Čoka",
+   "municipality": "Čoka",
+   "website": "http://www.dzcoka.com",
+   "held_branches": []
+  },
+  {
+   "org_slug": "dom-zdravlja-dr-simo-milosevic-beograd",
+   "name": "Dom zdravlja \"Dr Simo Milošević\"",
+   "municipality": "Čukarica",
+   "website": "https://dzcukarica.rs",
+   "held_branches": []
+  }
+ ]
+}

@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { sql } from "@/lib/db";
+import { sql, hasSubstance } from "@/lib/db";
 import { LOCALES, href } from "@/lib/i18n";
 import { ROADMAPS } from "@/lib/roadmaps";
 
@@ -36,7 +36,7 @@ export default async function sitemap({ id: rawId }: { id: number | string }): P
   }
   const orgs = await sql<{ slug: string; type_slug: string; updated_at: string }[]>`
     select o.slug, t.slug as type_slug, o.updated_at::text from organizations o join org_types t on t.id = o.org_type_id
-    where o.status = 'active' and exists (select 1 from locations l where l.org_id = o.id)
+    where o.status = 'active' and exists (select 1 from locations l where l.org_id = o.id) and ${hasSubstance}
     order by o.id limit ${CHUNK} offset ${(id - 1) * CHUNK}`;
   for (const o of orgs) push(`/${o.type_slug}/${o.slug}`, o.updated_at, 0.6);
   return out;

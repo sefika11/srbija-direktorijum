@@ -1,0 +1,139 @@
+{
+ "id": "dz-15",
+ "rows": [
+  {
+   "org_slug": "dom-zdravlja-trgoviste-trgoviste",
+   "name": "Dom zdravlja Trgovište",
+   "municipality": "Trgovište",
+   "website": "http://www.domzdravljatrgoviste.rs",
+   "held_branches": []
+  },
+  {
+   "org_slug": "dom-zdravlja-dr-sava-stanojevic-trstenik",
+   "name": "Dom zdravlja \"Dr Sava Stanojević\"",
+   "municipality": "Trstenik",
+   "website": "https://dztrstenik.rs",
+   "held_branches": [
+    {
+     "location_id": 24319,
+     "name": "Dom zdravlja „Dr Sava Stanojević” Trstenik",
+     "settlement": null,
+     "address": null,
+     "phones": "037 712020",
+     "has_hours": false
+    },
+    {
+     "location_id": 24497,
+     "name": "Zdravstvena stanica Stopanja",
+     "settlement": null,
+     "address": "Stopanja 300",
+     "phones": null,
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-tutin-tutin",
+   "name": "Dom zdravlja Tutin",
+   "municipality": "Tutin",
+   "website": "https://dztutin.rs",
+   "held_branches": [
+    {
+     "location_id": 24000,
+     "name": "Ambulanta Leskova",
+     "settlement": null,
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-ub-ub",
+   "name": "Dom zdravlja Ub",
+   "municipality": "Ub",
+   "website": "https://dzub.rs",
+   "held_branches": [
+    {
+     "location_id": 21582,
+     "name": "Ambulanta Banjani",
+     "settlement": null,
+     "address": "Banjani",
+     "phones": "014 461108",
+     "has_hours": true
+    },
+    {
+     "location_id": 21584,
+     "name": "Ambulanta Pambukovica",
+     "settlement": null,
+     "address": null,
+     "phones": "014 481102",
+     "has_hours": true
+    },
+    {
+     "location_id": 24347,
+     "name": "Dom zdravlja Ub",
+     "settlement": null,
+     "address": "Dobrosava Simića 1",
+     "phones": "014 411165; 014 414094; 014 416566",
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-valjevo-valjevo",
+   "name": "Dom zdravlja Valjevo",
+   "municipality": "Valjevo",
+   "website": "https://www.dzvaljevo.rs",
+   "held_branches": []
+  },
+  {
+   "org_slug": "dom-zdravlja-dr-vlastimir-godic-varvarin",
+   "name": "Dom zdravlja \"Dr Vlastimir Godić\"",
+   "municipality": "Varvarin",
+   "website": "http://www.dz-varvarin.com",
+   "held_branches": [
+    {
+     "location_id": 24371,
+     "name": "Dom zdravlja Varvarin",
+     "settlement": null,
+     "address": null,
+     "phones": "037 787124",
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-dr-milan-bane-djordjevic-velika-plana",
+   "name": "Dom zdravlja \"Dr Milan-Bane Đorđević\"",
+   "municipality": "Velika Plana",
+   "website": "https://www.dzvelikaplana.rs",
+   "held_branches": [
+    {
+     "location_id": 24350,
+     "name": "Dom zdravlja „Dr Milan - Bane Đorđević” Velika Plana",
+     "settlement": null,
+     "address": "Miloša Velikog 110",
+     "phones": "026 541110",
+     "has_hours": true
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-veliko-gradiste-veliko-gradiste",
+   "name": "Dom zdravlja Veliko Gradište",
+   "municipality": "Veliko Gradište",
+   "website": "https://www.dzvg.rs",
+   "held_branches": [
+    {
+     "location_id": 24332,
+     "name": "Dom zdravlja Veliko Gradište",
+     "settlement": null,
+     "address": "Vojvode Putnika 28",
+     "phones": "012 662240",
+     "has_hours": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,114 @@
+{
+ "id": "dz-01",
+ "rows": [
+  {
+   "org_slug": "dom-zdravlja-ada-ada",
+   "name": "Dom zdravlja Ada",
+   "municipality": "Ada",
+   "website": "https://dzada.co.rs/",
+   "held_branches": [
+    {
+     "location_id": 24360,
+     "name": "Dom zdravlja Ada",
+     "settlement": null,
+     "address": "Jožef Atile 9",
+     "phones": "024 851272",
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-dr-dobrivoje-ger-popovic-aleksandrovac",
+   "name": "Dom zdravlja \"Dr Dobrivoje Ger Popović\"",
+   "municipality": "Aleksandrovac",
+   "website": "https://dzaleksandrovac.org.rs/",
+   "held_branches": [
+    {
+     "location_id": 24084,
+     "name": "Dom zdravlja „Dr Dobrivoje Ger. Popović”",
+     "settlement": null,
+     "address": null,
+     "phones": "037 751158",
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-aleksinac-aleksinac",
+   "name": "Dom zdravlja Aleksinac",
+   "municipality": "Aleksinac",
+   "website": "https://dzaleksinac.co.rs",
+   "held_branches": []
+  },
+  {
+   "org_slug": "dom-zdravlja-alibunar-alibunar",
+   "name": "Dom zdravlja \"Alibunar\"",
+   "municipality": "Alibunar",
+   "website": "https://dzalibunar.rs",
+   "held_branches": [
+    {
+     "location_id": 19926,
+     "name": "Dom zdravlja",
+     "settlement": null,
+     "address": "Trg oslobođenja 4",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 23782,
+     "name": "Dom zdravlja Alibunar",
+     "settlement": null,
+     "address": "Trg slobode 8",
+     "phones": "013 641201",
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-apatin-apatin",
+   "name": "Dom zdravlja Apatin",
+   "municipality": "Apatin",
+   "website": "http://domzdravljaapatin.rs",
+   "held_branches": [
+    {
+     "location_id": 24492,
+     "name": "Dom zdravlja",
+     "settlement": null,
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-arandjelovac-arandjelovac",
+   "name": "Dom zdravlja Aranđelovac",
+   "municipality": "Aranđelovac",
+   "website": "https://www.domzdravlja-ar.org.rs",
+   "held_branches": []
+  },
+  {
+   "org_slug": "dom-zdravlja-dr-milorad-vlajkovic-barajevo",
+   "name": "Dom zdravlja \"Dr Milorad Vlajković\"",
+   "municipality": "Barajevo",
+   "website": "https://www.dzbarajevo.com",
+   "held_branches": []
+  },
+  {
+   "org_slug": "dom-zdravlja-batocina-batocina",
+   "name": "Dom zdravlja Batočina",
+   "municipality": "Batočina",
+   "website": "https://dzbatocina.rs",
+   "held_branches": [
+    {
+     "location_id": 24354,
+     "name": "Dom zdravlja Batočina",
+     "settlement": null,
+     "address": "Kneza Miloša Obrenovića 1",
+     "phones": "034 6841130",
+     "has_hours": false
+    }
+   ]
+  }
+ ]
+}

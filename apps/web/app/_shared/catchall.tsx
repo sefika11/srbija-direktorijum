@@ -2,7 +2,7 @@
 import type { Metadata } from "next";
 import { notFound, permanentRedirect, redirect } from "next/navigation";
 import { Header, Footer } from "@/components/chrome";
-import { Home, OkrugHub, UnitHub, OrgTypeHub, OrgPage, ForForeigners, StaticPage, tuLabel, unitTitle } from "@/components/pages";
+import { Home, OkrugHub, UnitHub, OrgTypeHub, OrgPage, ForForeigners, StaticPage, tuLabel, unitTitle, PERSON_TYPES } from "@/components/pages";
 import { GuidesHub, GuidePage, GUIDE_LABELS, content as guideContent } from "@/components/guides";
 import { SmartSearchPage } from "@/components/search";
 import { PartnersPage } from "@/components/partners";
@@ -109,8 +109,13 @@ export async function metaFor(path: string[], query: Query): Promise<Metadata> {
           `${full}${town ? `, ${town}` : ""}${unit.address_display ? `, ${unit.address_display}` : ""}: ${lc(d.contactAndAddress)}, ${lc(d.hours)}. ${tn(r.type, locale)}.`);
       }
       const n = r.org.name_lat; const place = r.org.place_name && !n.includes(r.org.place_name) ? r.org.place_name : null;
+      // a page that holds only a name and a town is kept out of search engines until it has something to offer
+      const noindex = !(await db.orgHasSubstance(r.org.id).catch(() => true));
+      if (PERSON_TYPES.has(r.type.slug))   // a listed person: the kind and the contact, not "address, phone, opening hours"
+      { const kind = lc(locale === "sr" ? r.type.name_lat : tn(r.type, locale));   // Serbian has the singular ("sudski veštak")
+        return m(`${n}${place ? `, ${place}` : ""} – ${kind}, ${P("kontakt", "contact", "контакты", "Kontakt")}`, `${n}${place ? `, ${place}` : ""}: ${kind}, ${lc(d.contactAndAddress)}.`, { noindex }); }
       return m(`${n}${place ? `, ${place}` : ""} – ${P("adresa, telefon, radno vreme", "address, phone, opening hours", "адрес, телефон, часы работы", "Adresse, Telefon, Öffnungszeiten")}`,
-        `${n}${place ? `, ${place}` : ""}: ${lc(d.contactAndAddress)}, ${lc(d.hours)}, ${lc(d.jurisdiction)}. ${tn(r.type, locale)}.`); }
+        `${n}${place ? `, ${place}` : ""}: ${lc(d.contactAndAddress)}, ${lc(d.hours)}, ${lc(d.jurisdiction)}. ${tn(r.type, locale)}.`, { noindex }); }
   }
 }
 

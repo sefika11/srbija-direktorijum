@@ -1,0 +1,140 @@
+{
+ "id": "dz-04",
+ "rows": [
+  {
+   "org_slug": "dom-zdravlja-bujanovac-bujanovac",
+   "name": "Dom zdravlja Bujanovac",
+   "municipality": "Bujanovac",
+   "website": "http://www.dzbujanovac.org.rs",
+   "held_branches": [
+    {
+     "location_id": 19882,
+     "name": "Ambulanta",
+     "settlement": null,
+     "address": null,
+     "phones": null,
+     "has_hours": true
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-despotovac-despotovac",
+   "name": "Dom zdravlja Despotovac",
+   "municipality": "Despotovac",
+   "website": "https://dzdespotovac.rs",
+   "held_branches": [
+    {
+     "location_id": 23843,
+     "name": "Dom zdravlja „Despotovac”",
+     "settlement": null,
+     "address": "Savez boraca 77",
+     "phones": "035 611276",
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-dimitrovgrad-sa-stacionarom-dimitrovgrad",
+   "name": "Dom zdravlja Dimitrovgrad (sa Stacionarom)",
+   "municipality": "Dimitrovgrad",
+   "website": "https://www.dzdmg.rs/",
+   "held_branches": [
+    {
+     "location_id": 23922,
+     "name": "Ambulanta Smilovci",
+     "settlement": null,
+     "address": "Smilovci 156",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 23956,
+     "name": "Dom zdravlja Dimitrovgrad",
+     "settlement": null,
+     "address": "Hriste Smirnenskog 2",
+     "phones": "010 361966",
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-doljevac-doljevac",
+   "name": "Dom zdravlja Doljevac",
+   "municipality": "Doljevac",
+   "website": "https://dzdoljevac.org.rs/",
+   "held_branches": [
+    {
+     "location_id": 24201,
+     "name": "Dom zdravlja Doljevac",
+     "settlement": null,
+     "address": null,
+     "phones": "018 810219",
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-gadzin-han-gadzin-han",
+   "name": "Dom zdravlja \"Gadžin Han\"",
+   "municipality": "Gadžin Han",
+   "website": "http://www.dz.gadzinhan.rs",
+   "held_branches": [
+    {
+     "location_id": 24143,
+     "name": "Dom zdravlja Gadžin Han",
+     "settlement": null,
+     "address": null,
+     "phones": "018 850155",
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-golubac-golubac",
+   "name": "Dom zdravlja Golubac",
+   "municipality": "Golubac",
+   "website": "http://www.domzdravljagolubac.rs",
+   "held_branches": [
+    {
+     "location_id": 24366,
+     "name": "Dom zdravlja Golubac",
+     "settlement": null,
+     "address": "Trg Palih Boraca",
+     "phones": "012 678113",
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-grocka-grocka",
+   "name": "Dom zdravlja Grocka",
+   "municipality": "Grocka",
+   "website": "https://dzgrocka.rs",
+   "held_branches": []
+  },
+  {
+   "org_slug": "dom-zdravlja-dr-milorad-m-pavlovic-indjija",
+   "name": "Dom zdravlja \"Dr Milorad M. Pavlović\"",
+   "municipality": "Inđija",
+   "website": "https://dzindjija.rs",
+   "held_branches": [
+    {
+     "location_id": 24422,
+     "name": "Dom zdravlja",
+     "settlement": null,
+     "address": "Cara Dušana 110",
+     "phones": "022 591403",
+     "has_hours": true
+    },
+    {
+     "location_id": 23839,
+     "name": "Dom zdravlja Dr Milorad Mika Pavlović",
+     "settlement": null,
+     "address": null,
+     "phones": "022 561282",
+     "has_hours": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,131 @@
+{
+ "id": "dz-02",
+ "rows": [
+  {
+   "org_slug": "dom-zdravlja-bac-bac",
+   "name": "Dom zdravlja Bač",
+   "municipality": "Bač",
+   "website": "https://dzbac.rs",
+   "held_branches": [
+    {
+     "location_id": 19609,
+     "name": "Ambulanta",
+     "settlement": null,
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 24120,
+     "name": "Dom zdravlja Bač",
+     "settlement": null,
+     "address": "Bačka 2",
+     "phones": "021 770055",
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-dr-mladen-stojanovic-backa-palanka",
+   "name": "Dom zdravlja \"Dr Mladen Stojanović\"",
+   "municipality": "Bačka Palanka",
+   "website": "http://www.dzbacpal.org.rs",
+   "held_branches": [
+    {
+     "location_id": 24208,
+     "name": "Dom zdravlja „Dr Mladen Stojanović”",
+     "settlement": null,
+     "address": "Kralja Petra prvog 26a",
+     "phones": null,
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-dr-janos-hadzi-backa-topola-sa-stacionarom-backa-topola",
+   "name": "Dom zdravlja \"Dr Janoš Hadži\" Bačka Topola (sa Stacionarom)",
+   "municipality": "Bačka Topola",
+   "website": "http://www.dzbt.co.rs",
+   "held_branches": []
+  },
+  {
+   "org_slug": "dom-zdravlja-backi-petrovac-backi-petrovac",
+   "name": "Dom zdravlja Bački Petrovac",
+   "municipality": "Bački Petrovac",
+   "website": "https://dzbackipetrovac.rs",
+   "held_branches": [
+    {
+     "location_id": 24491,
+     "name": "Dom zdravlja",
+     "settlement": null,
+     "address": "Maršala Tita 112",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 24474,
+     "name": "Dom zdravlja Bački Petrovac",
+     "settlement": null,
+     "address": "Maršala Tita 6",
+     "phones": "021 780094; 021 2280094",
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-bela-crkva-bela-crkva",
+   "name": "Dom zdravlja Bela Crkva",
+   "municipality": "Bela Crkva",
+   "website": "http://www.dzbc.rs",
+   "held_branches": [
+    {
+     "location_id": 24369,
+     "name": "Dom zdravlja Bela Crkva",
+     "settlement": null,
+     "address": "Jovana Popovića 58",
+     "phones": null,
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-bela-palanka-bela-palanka",
+   "name": "Dom zdravlja Bela Palanka",
+   "municipality": "Bela Palanka",
+   "website": "http://www.dzbelapalanka.org.rs",
+   "held_branches": [
+    {
+     "location_id": 24092,
+     "name": "Dom zdravlja Bela Palanka",
+     "settlement": null,
+     "address": null,
+     "phones": "018 855311",
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-dr-milutin-ivkovic-beograd",
+   "name": "Dom zdravlja \"Dr Milutin Ivković\"",
+   "municipality": "Beograd",
+   "website": "https://dzpalilula.org.rs",
+   "held_branches": []
+  },
+  {
+   "org_slug": "dom-zdravlja-dr-dusan-savic-doda-beocin",
+   "name": "Dom zdravlja \"Dr Dušan Savić-Doda\"",
+   "municipality": "Beočin",
+   "website": "https://dzbeocin.rs",
+   "held_branches": [
+    {
+     "location_id": 24139,
+     "name": "Dom zdravlja „Dr Dušan Savić Doda”",
+     "settlement": null,
+     "address": "Svetosavska 8b",
+     "phones": "021 870055",
+     "has_hours": false
+    }
+   ]
+  }
+ ]
+}

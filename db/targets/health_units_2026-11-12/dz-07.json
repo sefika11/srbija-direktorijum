@@ -1,0 +1,156 @@
+{
+ "id": "dz-07",
+ "rows": [
+  {
+   "org_slug": "dom-zdravlja-kursumlija-kursumlija",
+   "name": "Dom zdravlja Kuršumlija",
+   "municipality": "Kuršumlija",
+   "website": "https://dzkursumlija.rs",
+   "held_branches": [
+    {
+     "location_id": 24222,
+     "name": "Dom zdravlja Kuršumlija",
+     "settlement": null,
+     "address": "Doktora Melgarda",
+     "phones": null,
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-lajkovac-lajkovac",
+   "name": "Dom zdravlja Lajkovac",
+   "municipality": "Lajkovac",
+   "website": "https://dzlajkovac.rs",
+   "held_branches": [
+    {
+     "location_id": 24339,
+     "name": "Dom zdravlja Lajkovac",
+     "settlement": null,
+     "address": "Svetog Save 7",
+     "phones": "014 3431237; 014 3433395",
+     "has_hours": true
+    },
+    {
+     "location_id": 24342,
+     "name": "Dom zdravlja Lajkovac-Ambulanta Jabučje",
+     "settlement": null,
+     "address": "Staro selo 220a",
+     "phones": "014 434331",
+     "has_hours": true
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-lapovo-lapovo",
+   "name": "Dom zdravlja Lapovo",
+   "municipality": "Lapovo",
+   "website": "https://dzlapovo.rs",
+   "held_branches": [
+    {
+     "location_id": 24323,
+     "name": "Dom zdravlja Lapovo",
+     "settlement": null,
+     "address": null,
+     "phones": "034 853911",
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-dr-djordje-kovacevic-lazarevac",
+   "name": "Dom zdravlja \"Dr Đorđe Kovačević\"",
+   "municipality": "Lazarevac",
+   "website": "https://dzlazarevac.rs",
+   "held_branches": []
+  },
+  {
+   "org_slug": "dom-zdravlja-lebane-lebane",
+   "name": "Dom zdravlja Lebane",
+   "municipality": "Lebane",
+   "website": "http://www.dzlebane.co.rs",
+   "held_branches": [
+    {
+     "location_id": 23914,
+     "name": "Dom zdravlja Lebane",
+     "settlement": null,
+     "address": "Cara Dušana 70",
+     "phones": "016 843030",
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-leskovac-leskovac",
+   "name": "Dom zdravlja Leskovac",
+   "municipality": "Leskovac",
+   "website": "http://www.dzleskovac.com",
+   "held_branches": [
+    {
+     "location_id": 20100,
+     "name": "Ambulanta Strojkovce",
+     "settlement": null,
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 24191,
+     "name": "Dom zdravlja Leskovac",
+     "settlement": null,
+     "address": "Svetozara Markovića 116",
+     "phones": "016 251244; 016 252383; 016 250508",
+     "has_hours": false
+    },
+    {
+     "location_id": 24192,
+     "name": "Zavod za javno zdravlje Leskovac",
+     "settlement": null,
+     "address": null,
+     "phones": "016 245219",
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-ljig-ljig",
+   "name": "Dom zdravlja Ljig",
+   "municipality": "Ljig",
+   "website": "https://domzdravljaljig.rs",
+   "held_branches": [
+    {
+     "location_id": 24367,
+     "name": "Ambulanta Belanovica",
+     "settlement": null,
+     "address": "Karađorđeva 28",
+     "phones": "014 89238",
+     "has_hours": true
+    },
+    {
+     "location_id": 24358,
+     "name": "Dom zdravlja Ljig",
+     "settlement": null,
+     "address": "Alimpija Vasiljevića ББ",
+     "phones": "014 3445004; 014 84909",
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-ljubovija-ljubovija",
+   "name": "Dom zdravlja Ljubovija",
+   "municipality": "Ljubovija",
+   "website": "http://www.dzljubovija.com",
+   "held_branches": [
+    {
+     "location_id": 24318,
+     "name": "Dom zdravlja Ljubovija",
+     "settlement": null,
+     "address": "Vojvode Mišića 58",
+     "phones": "015 561826",
+     "has_hours": false
+    }
+   ]
+  }
+ ]
+}

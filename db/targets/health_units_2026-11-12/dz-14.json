@@ -1,0 +1,235 @@
+{
+ "id": "dz-14",
+ "rows": [
+  {
+   "org_slug": "dom-zdravlja-stari-grad-beograd",
+   "name": "Dom zdravlja \"Stari grad\"",
+   "municipality": "Stari grad",
+   "website": "http://dzstarigrad.org",
+   "held_branches": []
+  },
+  {
+   "org_slug": "dom-zdravlja-subotica-subotica",
+   "name": "Dom zdravlja Subotica",
+   "municipality": "Subotica",
+   "website": "http://domzdravlja.org.rs",
+   "held_branches": [
+    {
+     "location_id": 21614,
+     "name": "Ambulanta 1",
+     "settlement": null,
+     "address": "Evgenija Kumičića 4",
+     "phones": "024 527956; 065 9155534",
+     "has_hours": true
+    },
+    {
+     "location_id": 21613,
+     "name": "Ambulanta 2",
+     "settlement": null,
+     "address": "Beogradski put 45",
+     "phones": "024 552587; 065 9155535",
+     "has_hours": true
+    },
+    {
+     "location_id": 21618,
+     "name": "Ambulanta 3",
+     "settlement": null,
+     "address": "Ruđera Boškovića 22",
+     "phones": "024 4562656; 065 9155536",
+     "has_hours": true
+    },
+    {
+     "location_id": 21617,
+     "name": "Ambulanta 4",
+     "settlement": "Subotica",
+     "address": "Karađorđev put 55",
+     "phones": "024 557154; 065 9155537",
+     "has_hours": true
+    },
+    {
+     "location_id": 21612,
+     "name": "Ambulanta 5",
+     "settlement": null,
+     "address": "Zmaj Jovina 29",
+     "phones": "024 571735; 065 9155538",
+     "has_hours": true
+    },
+    {
+     "location_id": 24415,
+     "name": "Ambulanta 6",
+     "settlement": null,
+     "address": "Segedinski put 42",
+     "phones": "024 546237; 065 9155539",
+     "has_hours": true
+    },
+    {
+     "location_id": 21615,
+     "name": "Ambulanta 7",
+     "settlement": null,
+     "address": "Harambašićeva 2",
+     "phones": "024 558265; 065 9185585",
+     "has_hours": true
+    },
+    {
+     "location_id": 21616,
+     "name": "Ambulanta 8",
+     "settlement": "Subotica",
+     "address": "Aksentija Marodića bb",
+     "phones": "024 567356; 065 9155540",
+     "has_hours": true
+    },
+    {
+     "location_id": 49983,
+     "name": "Ambulanta Graničar (Hajdukovo)",
+     "settlement": "Hajdukovo",
+     "address": "Borisa Kidriča 21",
+     "phones": "024 4758013",
+     "has_hours": false
+    },
+    {
+     "location_id": 24493,
+     "name": "Ambulanta Palić",
+     "settlement": null,
+     "address": "Bohinjska 7",
+     "phones": "024 753070; 024 645591; 024 645599",
+     "has_hours": true
+    },
+    {
+     "location_id": 22198,
+     "name": "Ambulanta Prozivka",
+     "settlement": null,
+     "address": "Pazinska 4b",
+     "phones": "024 4102215; 065 9185588",
+     "has_hours": true
+    },
+    {
+     "location_id": 49984,
+     "name": "Ambulanta Čantavir",
+     "settlement": "Čantavir",
+     "address": "Jožefa Atile 13",
+     "phones": "024 782179",
+     "has_hours": false
+    },
+    {
+     "location_id": 19566,
+     "name": "Dom zdravlja",
+     "settlement": null,
+     "address": "Beogradska 30",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 24376,
+     "name": "Dom zdravlja „Subotica”",
+     "settlement": null,
+     "address": "Šandora Petefija 7",
+     "phones": "024 600735",
+     "has_hours": true
+    },
+    {
+     "location_id": 23772,
+     "name": "Zavod za javno zdravlje „Subotica”",
+     "settlement": null,
+     "address": "Zmaj Jovina 30",
+     "phones": null,
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-surcin-surcin",
+   "name": "Dom zdravlja \"Surčin\"",
+   "municipality": "Surčin",
+   "website": "https://dzsurcin.rs/",
+   "held_branches": []
+  },
+  {
+   "org_slug": "dom-zdravlja-svilajnac-sa-stacionarom-svilajnac",
+   "name": "Dom zdravlja Svilajnac (sa Stacionarom)",
+   "municipality": "Svilajnac",
+   "website": "https://dzsvilajnac.com",
+   "held_branches": [
+    {
+     "location_id": 24087,
+     "name": "Ambulanta",
+     "settlement": null,
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-dr-ljubinko-djordjevic-svrljig-svrljig",
+   "name": "Dom zdravlja \"Dr Ljubinko Đorđević\" Svrljig",
+   "municipality": "Svrljig",
+   "website": "https://dzsvrljig.org.rs",
+   "held_branches": [
+    {
+     "location_id": 24093,
+     "name": "Ambulanta Izvor",
+     "settlement": null,
+     "address": "Nikole Tesle 23",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 24012,
+     "name": "Dom zdravlja „Dr Ljubinko Đorđević” Svrljig",
+     "settlement": null,
+     "address": "Hadžićeva 40",
+     "phones": "018 821523",
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-temerin-temerin",
+   "name": "Dom zdravlja \"Temerin\"",
+   "municipality": "Temerin",
+   "website": "https://dztemerin.rs",
+   "held_branches": [
+    {
+     "location_id": 23936,
+     "name": "Dom zdravlja Temerin",
+     "settlement": null,
+     "address": "Narodnog fronta 82",
+     "phones": "021 843902; 028 44118; 021 842661",
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-titel-titel",
+   "name": "Dom zdravlja Titel",
+   "municipality": "Titel",
+   "website": "https://dztitel.rs",
+   "held_branches": [
+    {
+     "location_id": 24379,
+     "name": "Dom zdravlja Titel",
+     "settlement": null,
+     "address": "Glavna 22",
+     "phones": "021 860124",
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-sveti-djordje-topola",
+   "name": "Dom zdravlja \"Sveti Đorđe\"",
+   "municipality": "Topola",
+   "website": "https://dztopola.rs",
+   "held_branches": [
+    {
+     "location_id": 23837,
+     "name": "Dom zdravlja „Sveti Đorđe”",
+     "settlement": null,
+     "address": null,
+     "phones": "034 811504",
+     "has_hours": false
+    }
+   ]
+  }
+ ]
+}

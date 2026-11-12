@@ -1,0 +1,124 @@
+{
+ "id": "dz-18",
+ "rows": [
+  {
+   "org_slug": "dom-zdravlja-sabac-sabac",
+   "name": "Dom zdravlja Šabac",
+   "municipality": "Šabac",
+   "website": "https://www.dzsabac.org.rs",
+   "held_branches": []
+  },
+  {
+   "org_slug": "dom-zdravlja-sid-sid",
+   "name": "Dom zdravlja \"Šid\"",
+   "municipality": "Šid",
+   "website": "http://www.domzdravljasid.org.rs",
+   "held_branches": [
+    {
+     "location_id": 23859,
+     "name": "Ambulanta",
+     "settlement": null,
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 24340,
+     "name": "Dom zdravlja Šid",
+     "settlement": null,
+     "address": "Alekse Šantića 1",
+     "phones": "022 712522",
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-zabalj-zabalj",
+   "name": "Dom zdravlja Žabalj",
+   "municipality": "Žabalj",
+   "website": "https://dzzabalj.rs",
+   "held_branches": [
+    {
+     "location_id": 24377,
+     "name": "Dom zdravlja Žabalj",
+     "settlement": null,
+     "address": "Nikole Tesle 66",
+     "phones": "021 831054",
+     "has_hours": false
+    },
+    {
+     "location_id": 24056,
+     "name": "Zdravstvena stanica „Dr Jovan Tucakov”",
+     "settlement": null,
+     "address": "Svetog Save 83",
+     "phones": null,
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-zabari-zabari",
+   "name": "Dom zdravlja Žabari",
+   "municipality": "Žabari",
+   "website": "http://dzzabari.150m.com",
+   "held_branches": [
+    {
+     "location_id": 24364,
+     "name": "Dom zdravlja Žabari",
+     "settlement": null,
+     "address": "Kneza Miloša 1đ",
+     "phones": "012 250163",
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-zagubica-zagubica",
+   "name": "Dom zdravlja Žagubica",
+   "municipality": "Žagubica",
+   "website": "https://dzzagubica.rs",
+   "held_branches": [
+    {
+     "location_id": 24015,
+     "name": "Dom zdravlja",
+     "settlement": null,
+     "address": "Nikole Pašića 22",
+     "phones": "012 643140",
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-zitiste-zitiste",
+   "name": "Dom zdravlja Žitište",
+   "municipality": "Žitište",
+   "website": "http://www.dzzitiste.rs",
+   "held_branches": [
+    {
+     "location_id": 24083,
+     "name": "Dom zdravlja Žitište",
+     "settlement": null,
+     "address": "Ive Lole Ribara 16",
+     "phones": "023 821010; 023 821032; 023 822020",
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-zitoradja-zitoradja",
+   "name": "Dom zdravlja Žitorađa",
+   "municipality": "Žitorađa",
+   "website": "http://www.dzzitoradja.com",
+   "held_branches": [
+    {
+     "location_id": 23863,
+     "name": "Dom zdravlja Žitorađa",
+     "settlement": null,
+     "address": null,
+     "phones": "027 8362025",
+     "has_hours": true
+    }
+   ]
+  }
+ ]
+}

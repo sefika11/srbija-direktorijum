@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { notifyEditor } from "@/lib/notify";
 import { createHash } from "node:crypto";
 import { insertLead } from "@/lib/db";
 
@@ -15,5 +16,6 @@ export async function POST(req: Request) {
   await insertLead({ vertical_slug: String(b.vertical), page_path: String(b.page_path ?? "").slice(0, 300), location_id: b.location_id ? Number(b.location_id) : null,
     territorial_unit_id: b.territorial_unit_id ? Number(b.territorial_unit_id) : null, payload, contact_phone: phone, contact_email: payload.email ? String(payload.email) : null,
     dedupe_hash, consent_version: "2026-11-v1", ip_hash, user_agent: req.headers.get("user-agent")?.slice(0, 300) ?? null, honeypot });
+  await notifyEditor("upit", typeof b.page_path === "string" ? b.page_path.slice(0, 300) : null);
   return NextResponse.json({ ok: true });
 }

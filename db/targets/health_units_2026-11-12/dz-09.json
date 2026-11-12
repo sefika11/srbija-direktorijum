@@ -1,0 +1,105 @@
+{
+ "id": "dz-09",
+ "rows": [
+  {
+   "org_slug": "dom-zdravlja-merosina-merosina",
+   "name": "Dom zdravlja Merošina",
+   "municipality": "Merošina",
+   "website": "https://dzmerosina.info",
+   "held_branches": [
+    {
+     "location_id": 24167,
+     "name": "Dom zdravlja Merošina",
+     "settlement": null,
+     "address": "Cara Lazara 13",
+     "phones": "018 4892110",
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-mionica-mionica",
+   "name": "Dom zdravlja Mionica",
+   "municipality": "Mionica",
+   "website": "https://dzmionica.rs",
+   "held_branches": [
+    {
+     "location_id": 24356,
+     "name": "Dom zdravlja Mionica",
+     "settlement": null,
+     "address": null,
+     "phones": "014 3421124",
+     "has_hours": true
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-mladenovac-mladenovac",
+   "name": "Dom zdravlja Mladenovac",
+   "municipality": "Mladenovac",
+   "website": "https://dzmladenovac.rs",
+   "held_branches": []
+  },
+  {
+   "org_slug": "dom-zdravlja-srpska-crnja-srpska-crnja",
+   "name": "Dom zdravlja Srpska Crnja",
+   "municipality": "Nova Crnja",
+   "website": "http://www.dzsrpskacrnja.rs",
+   "held_branches": []
+  },
+  {
+   "org_slug": "dom-zdravlja-novi-beograd-novi-beograd",
+   "name": "Dom zdravlja \"Novi Beograd\"",
+   "municipality": "Novi Beograd",
+   "website": "http://www.dznbgd.com",
+   "held_branches": []
+  },
+  {
+   "org_slug": "dom-zdravlja-novi-becej-novi-becej",
+   "name": "Dom zdravlja Novi Bečej",
+   "municipality": "Novi Bečej",
+   "website": "http://www.dznb.co.rs",
+   "held_branches": [
+    {
+     "location_id": 23913,
+     "name": "Ambulanta Novo Miloševo",
+     "settlement": null,
+     "address": "Maršala Tita 9",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 22309,
+     "name": "Dom zdravlja Novi Bečej",
+     "settlement": null,
+     "address": null,
+     "phones": "023 773600; 023 773623; 023 773625; 023 773637; 023 773657; 023 772155",
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-novi-knezevac-novi-knezevac",
+   "name": "Dom zdravlja Novi Kneževac",
+   "municipality": "Novi Kneževac",
+   "website": "http://www.dznk.org.rs",
+   "held_branches": [
+    {
+     "location_id": 23796,
+     "name": "Dom zdravlja Novi Kneževac",
+     "settlement": null,
+     "address": "Kralja Petra 1. Karađorđevića 85",
+     "phones": "0230 81152",
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-novi-pazar-novi-pazar",
+   "name": "Dom zdravlja Novi Pazar",
+   "municipality": "Novi Pazar",
+   "website": "https://dznovipazar.rs",
+   "held_branches": []
+  }
+ ]
+}

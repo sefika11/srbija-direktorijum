@@ -1,0 +1,146 @@
+{
+ "id": "dz-05",
+ "rows": [
+  {
+   "org_slug": "dom-zdravlja-irig-irig",
+   "name": "Dom zdravlja \"Irig\"",
+   "municipality": "Irig",
+   "website": "https://dzirig.rs",
+   "held_branches": [
+    {
+     "location_id": 24210,
+     "name": "Dom zdravlja Irig",
+     "settlement": null,
+     "address": "Borislava Mihajlovića Mihiza 6",
+     "phones": "022 469030",
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-ivanjica-ivanjica",
+   "name": "Dom zdravlja Ivanjica",
+   "municipality": "Ivanjica",
+   "website": "https://dzivanjica.rs",
+   "held_branches": []
+  },
+  {
+   "org_slug": "dom-zdravlja-jagodina-jagodina",
+   "name": "Dom zdravlja Jagodina",
+   "municipality": "Jagodina",
+   "website": "http://www.domzdravljajagodina.autentik.net",
+   "held_branches": [
+    {
+     "location_id": 24348,
+     "name": "Ambulanta Elmos",
+     "settlement": null,
+     "address": "Bagrdanska ББ",
+     "phones": "035 8820597",
+     "has_hours": false
+    },
+    {
+     "location_id": 24155,
+     "name": "Dom zdravlja Jagodina",
+     "settlement": null,
+     "address": "Karađorđeva 4",
+     "phones": "035 8150033",
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-kanjiza-kanjiza",
+   "name": "Dom zdravlja Kanjiža",
+   "municipality": "Kanjiža",
+   "website": "http://www.dzkanjiza.org.rs",
+   "held_branches": [
+    {
+     "location_id": 23935,
+     "name": "Dom zdravlja",
+     "settlement": null,
+     "address": "Bartok Bele 7",
+     "phones": "024 792005",
+     "has_hours": false
+    },
+    {
+     "location_id": 24361,
+     "name": "Dom zdravlja Kanjiža",
+     "settlement": null,
+     "address": "Karađorđeva 53",
+     "phones": "024 874105",
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-kikinda-kikinda",
+   "name": "Dom zdravlja Kikinda",
+   "municipality": "Kikinda",
+   "website": "https://dzki.rs",
+   "held_branches": [
+    {
+     "location_id": 24197,
+     "name": "Dečja ambulanta u Mikronaselju",
+     "settlement": null,
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 21929,
+     "name": "Dom zdravlja Kikinda",
+     "settlement": null,
+     "address": "Kralja Petra prvog 79",
+     "phones": null,
+     "has_hours": true
+    },
+    {
+     "location_id": 21934,
+     "name": "Dom zdravlja Kikinda - Medicina rada",
+     "settlement": null,
+     "address": "Generala Drapšina 68",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 21930,
+     "name": "Zavod za javno zdravlje",
+     "settlement": null,
+     "address": "Kralja Petra prvog 70",
+     "phones": null,
+     "has_hours": true
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-kladovo-kladovo",
+   "name": "Dom zdravlja Kladovo",
+   "municipality": "Kladovo",
+   "website": "https://www.zckladovo.co.rs/index-1.html",
+   "held_branches": []
+  },
+  {
+   "org_slug": "dom-zdravlja-dr-danica-i-kosta-samanovic-knic",
+   "name": "Dom zdravlja \"Dr Danica i Kosta Šamanović\"",
+   "municipality": "Knić",
+   "website": "https://dzknic.rs",
+   "held_branches": [
+    {
+     "location_id": 24207,
+     "name": "Dom zdravlja „Danica i Kosta Šimanović",
+     "settlement": null,
+     "address": null,
+     "phones": "034 510107",
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "dom-zdravlja-knjazevac-knjazevac",
+   "name": "Dom zdravlja Knjaževac",
+   "municipality": "Knjaževac",
+   "website": "https://www.zcknjazevac.rs",
+   "held_branches": []
+  }
+ ]
+}
