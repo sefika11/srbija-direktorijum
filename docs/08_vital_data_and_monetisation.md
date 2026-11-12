@@ -443,3 +443,90 @@ Nick's go-ahead after the census of §15: import the sectors where the map is st
   ("Lukoil – Požega"), which also ends the shared title of all bank branch pages.
 - Not imported: vehicle inspection stations on the map (the official list is already held and 145 map rows did not match it;
   merging needs its own pass), betting shops, hairdressers, accommodation, trades, shops and restaurants.
+
+## 17. Quality pass after the first full measurement (2026-11-12, afternoon)
+
+Measured before the pass (institutions only, 35,812 locations; listed persons apart): street 69%, phone 47%, website 41%,
+hours 27%, all four 12%, nothing but a name and a town 15% (5,659); a map point on 18% of all locations.
+Nick: "run everything in order as needed so we fix all weaknesses".
+
+**Read `db/contacts/reach_2026-11-11/_summaries.json` before proposing a source, not only §10–§16.** Three of the steps
+proposed after the measurement had already been tried and found closed there: customs (carina.rs prints no unit addresses or
+phones, its per-unit contact page answers 500), veterinary stations (the Veterinary Directorate keeps no such register) and
+driving schools (the MUP list sits behind a bot check).
+
+- **Trust badge** (`tools/reach/relabel_verification.py`, re-run after every import). The loaders write `unverified` for every
+  new row, so 17,776 organisations read from ministries' registers (court experts, exchange offices, hotels, embassies,
+  customs, youth associations) said "Nepotvrđeno" on a page that named the ministry as the source. The badge now follows the
+  source: an organisation with a register in its provenance, and its seat, are `auto_verified`; a location known only from
+  the open map stays `unverified` (6,368 after the run: post offices, fuel stations, car services, map-only practices).
+  Undo `db/fixes/relabel_verification_2026-11-12_135256.json`.
+- **Map points** (`tools/reach/geocode_from_map.py`). A location with a street and a number takes the address point of the
+  map extract (the state address register, via OpenStreetMap) when the point lies in its own municipality (the city
+  municipality when known), in its named settlement when that has a boundary, and all such points lie within 250 m.
+  Measured first on 4,428 locations that already had a point: median 6 m, 93% within 100 m, 97% within 300 m, 40 over 1 km
+  (some of those are wrong old points). Written: 12,984 locations. Not placed: 1,054 no such address point, 958 the same
+  address in two places, 945 address not in the municipality we file it under, 431 not in the named settlement.
+- **Registry offices and local tax offices** (types that had 0 and 2 entries). Targets: 172 municipalities and city
+  municipalities with their official site (`tools/reach/build_office_targets.py`, `db/targets/offices_2026-11-12/`). 20 Haiku
+  agents (2.65M tokens, 9 minutes) read each official site; `tools/reach/check_offices.py` then kept a value only when the
+  cited page is on the unit's own site, names the office and carries the value (phones beside the office's name on pages
+  with many numbers). Of 157 rows 136 passed (59 phones, 10 addresses, 12 hours dropped as not on the page).
+  `tools/reach/import_offices.py`: 66 "Matična služba <unit>", 70 "Lokalna poreska administracija <unit>", each a unit of
+  the municipality's administration; 106 with a phone, 101 with an address, 29 with hours. The raw agent files are kept out
+  of git (`.cache/offices_raw_2026-11-12/`); the checked rows are in `db/contacts/offices_2026-11-12/_checked.json`.
+  The other municipalities print nothing specific for these offices on their sites.
+- **Cadastre offices.** RGZ publishes no address, phone or hours per office anywhere (site map of 284 pages, Informator,
+  info-centar; one Sonnet agent). Its scheduling app lists the offices by name: 160 imported as units of RGZ in their
+  municipality (Belgrade's 17 under their city municipalities), source `rgz_sluzbe`. The page shows the Authority's contact
+  and says so.
+- **Tax administration and health fund** (one Sonnet agent). purs.gov.rs prints branch names and addresses only; the only
+  phones are the national contact centre's. rfzo.rs/kontakt prints an address, a branch mailbox and hours per branch, and a
+  landline for one branch (Čačak); the other numbers are faxes. Applied: 159 branch e-mails, 2 phones, 1 hours row.
+  These two networks stay without branch phones because the bodies do not publish any.
+- **Institutions without a town** (`tools/reach/place_placeless.py`). 443 Treasury rows had no location (the loader could not
+  resolve "BEOGRAD, ZEMUN" or a village name shared by several municipalities). 147 got a seat from the place and the
+  Treasury unit that serves it; 296 are in Kosovo and stay out.
+- **Same name twice.** The 75 "duplicate" groups of the measurement were mostly not duplicates: small fuel brands with two
+  stations in a town, namesake schools in two villages. Real findings: one school carried its namesake's street (cleared,
+  `db/fixes/school_address_cleared_*.json`); three more pairs of namesake schools share one street and could not be told
+  apart from the map (Vrbas: "Branko Radičević" Ravno Selo / Savino Selo, "Bratstvo-jedinstvo" Vrbas / Kucura; Sremska
+  Mitrovica: two "Jovan Jovanović-Zmaj"). Open.
+- **Site.** A kind with no organisation has no page and is not listed (`getOrgType`, `getOrgTypes`): `/projektni-biro` and
+  `/agencija-za-selidbe` answer 404. A listed person's page drops the empty opening-hours block, calls the description
+  "Podaci iz registra" and asks "Da li je ovo vaša stranica?".
+- **Daily job** (`apps/web/app/api/cron/daily`, `vercel.json` crons, 03:30 UTC; `db/schema_patch_025_website_checks.sql`).
+  Enquiries past `purge_after` lose the person's contact, message, IP hash and user agent. 400 organisation websites a day are
+  looked at again, oldest check first, and the status is stored (`website_status`, 0 = no answer); the first run found 51 of
+  320 not answering. The job records only; nothing is hidden yet. Set `CRON_SECRET` in Vercel so only Vercel can call it.
+  Claims (`listing_claims`) are not purged by it.
+- **Incident, 2026-11-12 about 14:10–14:16.** A schema change (two new columns on `organizations`) was started while a
+  register load held one long transaction. The change waited for the load and every new query on the table waited behind
+  the change: search and other request-time pages did not answer for about five minutes (cached pages did). Cleared by
+  stopping the load. Rules since: `tools/reach/load_in_batches.py` for any large file (small transactions), schema changes
+  only with `set lock_timeout` and never during a load.
+- **After every import:** `sh tools/reach/after_import.sh` (city municipality by coordinates, by street, badge, map points).
+- **Lawyers** (one Sonnet agent; about 460 requests, one a second, robots.txt obeyed, no login or CAPTCHA). The bar's public
+  directory imenik.aks.org.rs (bars of Beograd, Niš, Kragujevac, Čačak, Zaječar, Požarevac, Šabac: 10,605 records) and the
+  Vojvodina bar's table at akv.org.rs/akv-imenik (3,080). 13,685 records; 13,338 loaded (347 name a place that does not
+  resolve), 9,769 phones and 10,526 e-mails as the bars publish them, office street on 99% (Nick's decision of §16: office
+  addresses stay public). Source `aks_imenik`. Lawyers who share a name in one town carry the street in the name (621).
+  Vojvodina's names come surname first and are left as published. No sites, hours or fields of practice are published.
+  107 of the 183 lawyers known only from the map were folded into their bar entry (`tools/reach/merge_map_into_register.py`,
+  the map point and map phone move over; the old address redirects).
+- **Estate agents** (one Sonnet agent, one request). The ministry's Registar posrednika u prometu i zakupu nepokretnosti
+  (registar.must.gov.rs): 1,374 registered brokers (808 sole proprietors, 566 companies); 1,361 loaded, 97% with a phone,
+  98% with the seat's street, 45% with a site; owners' and agents' names and ID numbers were not taken. Source
+  `must_posrednici`. 7 of 75 map entries folded into their register entry.
+- The two register files are not in git: they hold contact data of named persons. They live in `.cache/registers_2026-11-12/`
+  and `tools/reach/registers/` holds the scripts and the commands that fetch them again.
+- **Coverage at the end of 2026-11-12.** 46,666 organisations, 60,558 locations (morning: 31,947 and 45,532).
+  Institutions (37,608 locations, listed persons apart): street 69%, phone 49%, website 41%, hours 26%, all four 12%,
+  nothing but a name and a town 15% (5,806), a map point 60% (morning 23%). Persons: 22,950. Entries with the map-only
+  badge: 6,256 locations. The pass fixed trust labels, map points, the missing local offices and two private registers; it
+  did not move phones and hours much, because the remaining gaps are bodies that publish neither (tax, health fund,
+  Treasury, customs, cadastre, community offices, village school units).
+- **Still open after the pass:** branch phones for the five state networks above (not published; would need each body to
+  supply them or owners to claim the page); 106 registry offices and 100 local tax offices whose municipal sites print
+  nothing; 296 Kosovo institutions without a place; three pairs of namesake schools sharing a street; Novi Sad city
+  municipalities; the dead websites the daily job is now recording (no page uses the result yet).
