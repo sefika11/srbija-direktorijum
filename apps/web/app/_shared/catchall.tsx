@@ -2,7 +2,7 @@
 import type { Metadata } from "next";
 import { notFound, permanentRedirect, redirect } from "next/navigation";
 import { Header, Footer } from "@/components/chrome";
-import { Home, OkrugHub, UnitHub, OrgTypeHub, OrgPage, ForForeigners, StaticPage, tuLabel } from "@/components/pages";
+import { Home, OkrugHub, UnitHub, OrgTypeHub, OrgPage, ForForeigners, StaticPage, tuLabel, unitTitle } from "@/components/pages";
 import { GuidesHub, GuidePage, GUIDE_LABELS, content as guideContent } from "@/components/guides";
 import { SmartSearchPage } from "@/components/search";
 import { PartnersPage } from "@/components/partners";
@@ -100,7 +100,15 @@ export async function metaFor(path: string[], query: Query): Promise<Metadata> {
       const where = place ? place.name_lat : P("Srbiji", "Serbia", "Сербии", "Serbien");
       return m(title, P(`${name} u ${where}: adresa, telefon, radno vreme i sajt. Spisak iz zvaničnih registara.`, `${name} in ${where}: address, phone, opening hours and website. Listed from official registers.`, `${name} в ${where}: адрес, телефон, часы работы и сайт. Список из официальных реестров.`, `${name} in ${where}: Adresse, Telefon, Öffnungszeiten und Website. Aus amtlichen Registern.`), { query: qs, noindex: search || pastEnd });
     }
-    case "org": { const n = r.org.name_lat; const place = r.org.place_name && !n.includes(r.org.place_name) ? r.org.place_name : null;
+    case "org": {
+      // a branch page is titled by the branch ("Lukoil – Požega", "Banka X – Ekspozitura Zemun, Beograd"), not by the organisation alone: hundreds of branches would share one title
+      const unit = r.locSlug ? (await db.getLocations(r.org.id).catch(() => [])).find((l) => l.location_slug === r.locSlug && !l.is_primary && !/^sedi[sš]te$/i.test(l.unit_name_lat.trim())) : null;
+      if (unit) {
+        const full = unitTitle(r.org.name_lat, unit.unit_name_lat); const town = unit.jls_name_lat && !full.includes(unit.jls_name_lat) ? unit.jls_name_lat : null;
+        return m(`${full}${town ? `, ${town}` : ""} – ${P("adresa, telefon, radno vreme", "address, phone, opening hours", "адрес, телефон, часы работы", "Adresse, Telefon, Öffnungszeiten")}`,
+          `${full}${town ? `, ${town}` : ""}${unit.address_display ? `, ${unit.address_display}` : ""}: ${lc(d.contactAndAddress)}, ${lc(d.hours)}. ${tn(r.type, locale)}.`);
+      }
+      const n = r.org.name_lat; const place = r.org.place_name && !n.includes(r.org.place_name) ? r.org.place_name : null;
       return m(`${n}${place ? `, ${place}` : ""} – ${P("adresa, telefon, radno vreme", "address, phone, opening hours", "адрес, телефон, часы работы", "Adresse, Telefon, Öffnungszeiten")}`,
         `${n}${place ? `, ${place}` : ""}: ${lc(d.contactAndAddress)}, ${lc(d.hours)}, ${lc(d.jurisdiction)}. ${tn(r.type, locale)}.`); }
   }

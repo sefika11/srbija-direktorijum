@@ -411,3 +411,30 @@ contracted-pharmacy list (`rfzo_apoteke`, 3,405 rows). Before proposing a source
     (fuel stations, vehicle inspection, opticians, travel agencies, gyms, car services). Not imported; waits for Nick.
 - Found in passing: the map import of 2026-11-09 attached every Belgrade ambulanta to one health centre, so
   "Dom zdravlja Vračar" appears as a unit of Dom zdravlja "Savski venac".
+
+## 16. Five service kinds from the open map (2026-11-12)
+
+Nick's go-ahead after the census of §15: import the sectors where the map is strong, as entries labelled with their source.
+
+- Types (`db/seed_patch_023_map_service_types.sql`): `benzinska-stanica`, `auto-servis` (repair, tyres, car wash; the kind is
+  a "- vrsta:" line and a filter on the type page), `optika`, `turisticka-agencija`, `teretana`. Group `privatne_usluge`.
+- Importer `importers/sources/osm_services.py` (input `.cache/osm/all_named_rows.json`, Geofabrik extract of 2026-11-09).
+  2,923 named map elements; 2,408 locations imported under 1,282 organisations (40 brands with four or more places, such
+  as NIS Petrol 294, Knez Petrol 113, Lukoil 112, MOL 79, Sani Optik 74; 1,242 single places): 1,401 fuel stations, 532 car
+  services, 196 opticians, 102 travel agencies, 177 gyms. 1,519 have a phone, 1,224 a street, 1,951 hours, 1,360 a website.
+  Left out: 452 with nothing but a name, 26 named only after a person, 23 second map elements of one place, 11 outside a
+  municipality boundary, 2 public tourist organisations. Ids in `db/fixes/osm_services_2026-11-12_014644.json`.
+- Labelling: organisations and locations are `unverified` (chip "Nepotvrđeno"); phones carry the label and hours the note
+  `OpenStreetMap`; the "O instituciji" text says the data comes from the open map and is not an official register; e-mail
+  addresses are not taken. A place held only by its map point gets directions to the point.
+- Judgement call to revisit if Nick disagrees: car services and small shops include sole-proprietor businesses. They are
+  listed at their shop address as the map shows it (premises open to the public), like the exchange offices and pharmacies
+  already held; only entries whose name is nothing but a person's name were left out.
+- Same day: 1,294 organisations from the map import of 2026-11-09 (private practices, dentists, lawyers, vets, driving
+  schools, estate agents, accountants) carried `auto_verified`, shown as "Iz zvaničnog registra". Set to `unverified`
+  (`db/fixes/map_only_unverified_2026-11-12_014743.json`). City municipalities by coordinates after the import: 737
+  (`db/fixes/go_assignment_2026-11-12_014746.json`).
+- Site: search words for the five kinds in `search-lexicon-extra.json`; a branch page is titled and headed by the branch
+  ("Lukoil – Požega"), which also ends the shared title of all bank branch pages.
+- Not imported: vehicle inspection stations on the map (the official list is already held and 145 map rows did not match it;
+  merging needs its own pass), betting shops, hairdressers, accommodation, trades, shops and restaurants.

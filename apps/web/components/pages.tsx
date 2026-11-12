@@ -486,6 +486,8 @@ function GuideLinks({ locale, guides, jlsSlug, stacked = false }: { locale: Loca
 
 // ---------------------------------------------------------------- Org type hub
 /** A branch whose only name is "Sedište" (head office) is a label, not a proper name: say it in the page's language. */
+/** Heading of a branch page: "Banka X – Ekspozitura Zemun", but a unit that already carries the name stays as it is ("Lukoil – Požega"). */
+export const unitTitle = (org: string, unit: string) => (unit.toLowerCase().startsWith(org.toLowerCase()) ? unit : `${org} – ${unit}`);
 const unitName = (u: string, locale: Locale) => (/^sedi[sš]te$/i.test(u.trim()) ? pick(locale, "Sedište", "Head office", "Главный офис", "Hauptsitz") : u);
 const foldName = (x: string) => x.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/\b(banka|bank|a\.?d\.?|ad|d\.?o\.?o\.?|srbija|beograd)\b/g, "").replace(/[^a-z0-9]/g, "");
 /** "Raiffeisen bank" as the branch name of Raiffeisen banka says nothing: the same name written twice. */
@@ -496,6 +498,7 @@ const branchPlace = (b: db.ServingRow) => { const u = b.unit_name_lat.trim(); co
 /** which line of an institution's facts works as the "field" filter on a paged type page */
 const TYPE_FACET: Record<string, { key: string; label: Record<Locale, string> }> = {
   "sudski-vestak": { key: "oblasti", label: { sr: "Sve oblasti", en: "All fields", ru: "Все области", de: "Alle Fachgebiete" } },
+  "auto-servis": { key: "vrsta", label: { sr: "Sve vrste", en: "All kinds", ru: "Все виды", de: "Alle Arten" } },
 };
 const PAGE_SIZE = 60, PAGED_FROM = 250;
 const LOC_WORD: Record<Locale, string> = { sr: "lokacija", en: "locations", ru: "адресов", de: "Standorte" };
@@ -614,9 +617,9 @@ export async function OrgTypeHub({ locale, type, brand = null, place = null, que
                 {orgs.length > 0 && <OrgList orgs={orgs} locale={locale} dense byPlace />}
                 {pageLocs.length > 0 && (
                   <ul className="grid sm:grid-cols-2 gap-3">
-                    {pageLocs.map((b) => { const seat = /^sedi[sš]te$/i.test(b.unit_name_lat.trim()) || sameName(b.unit_name_lat, b.org_name_lat); return (
+                    {pageLocs.map((b) => { const seat = /^sedi[sš]te$/i.test(b.unit_name_lat.trim()); const own = seat || sameName(b.unit_name_lat, b.org_name_lat); /* "Gazprom – Preljina" already names its brand */ return (
                       <li key={b.location_id} className="card card-hover p-4">
-                        <div className="eyebrow">{seat ? (UNIT_KIND[b.unit_kind]?.[locale] ?? b.unit_kind) : b.org_name_lat}</div>
+                        <div className="eyebrow">{own ? (UNIT_KIND[b.unit_kind]?.[locale] ?? b.unit_kind) : b.org_name_lat}</div>
                         <Link href={href(locale, `/${b.org_type_slug}/${b.org_slug}/${b.location_slug}`)} className="hit font-serif text-[17px] font-semibold no-underline text-ink hover:text-accent">{seat ? b.org_name_lat : unitName(b.unit_name_lat, locale)}</Link>
                         <div className="text-[13px] text-muted mt-1">{b.address_display ? `${b.address_display}, ` : ""}{b.tu_name_lat}</div>
                       </li>); })}
@@ -654,6 +657,7 @@ export async function OrgTypeHub({ locale, type, brand = null, place = null, que
 // ---------------------------------------------------------------- Institution page (Part 2 layout)
 /** Register facts stored with an institution ("- key: value" lines). Label per key; keys not listed here are technical and stay hidden. */
 const FACT_LABEL: Record<string, Record<Locale, string>> = {
+  vrsta: { sr: "Vrsta", en: "Kind", ru: "Вид", de: "Art" },
   oblasti: { sr: "Oblasti veštačenja", en: "Fields of expertise", ru: "Области экспертизы", de: "Fachgebiete" }, zvanje: { sr: "Zvanje", en: "Title", ru: "Квалификация", de: "Titel" },
   sud: { sr: "Sud", en: "Court", ru: "Суд", de: "Gericht" }, court: { sr: "Sud", en: "Court", ru: "Суд", de: "Gericht" }, languages: { sr: "Jezici", en: "Languages", ru: "Языки", de: "Sprachen" },
   licenca: { sr: "Licenca", en: "Licence", ru: "Лицензия", de: "Lizenz" }, licence: { sr: "Licenca", en: "Licence", ru: "Лицензия", de: "Lizenz" }, licence_no: { sr: "Broj licence", en: "Licence no.", ru: "Номер лицензии", de: "Lizenznummer" },
@@ -695,8 +699,9 @@ export async function OrgPage({ locale, org, locSlug, path }: { locale: Locale; 
   const phones = contacts.filter((c) => ["phone", "mobile"].includes(c.kind)); const emails = contacts.filter((c) => c.kind === "email"); const sites = contacts.filter((c) => c.kind === "website");
   const site = org.website ?? sites[0]?.value ?? null;
   const placeLine = loc ? [loc.address_display, loc.address_extra, [loc.postal_code, loc.settlement_name_lat ?? loc.tu_name_lat].filter(Boolean).join(" ")].filter(Boolean).join(", ") : null;
-  const mapsQ = encodeURIComponent(`${org.name_lat} ${placeLine ?? ""}`.trim());
-  const title = loc && !loc.is_primary ? `${org.name_lat} – ${unitName(loc.unit_name_lat, locale)}` : org.name_lat;
+  // a place we hold only by its map point (a fuel station on a road, with no street address) gets directions to the point itself
+  const mapsQ = !loc?.address_display && loc?.lat != null && loc?.lng != null && !PERSON_TYPES.has(org.type_slug) ? `${loc.lat},${loc.lng}` : encodeURIComponent(`${org.name_lat} ${placeLine ?? ""}`.trim());
+  const title = loc && !loc.is_primary ? unitTitle(org.name_lat, unitName(loc.unit_name_lat, locale)) : org.name_lat;
   const related = jls ? await db.sql<db.OrgRow[]>`select o.id, o.slug, o.name_lat, o.name_cyr, o.official_name_lat, t.slug as type_slug, t.name_lat as type_name, t.name_en as type_name_en, t.name_ru as type_name_ru, t.name_de as type_name_de, t."group" as group, o.jurisdiction, null::text as founder_slug, null::text as founder_name, null::text as place_name, null::text as place_slug, o.verification, null::text as mb, null::text as pib, null::text as jbkjs, o.website, null::bigint as parent_id, null::text as parent_name, null::text as parent_slug, null::text as parent_type_slug, null::text as last_seen_at
       from organizations o join org_types t on t.id = o.org_type_id join territorial_units f on f.id = o.founder_unit_id
       where t."group" = ${org.group} and o.id <> ${org.id} and o.status = 'active' and f.path <@ ${jls.path}::ltree and t.slug <> 'mesna-zajednica' order by t.sort_order, o.name_lat limit 8` : [];
@@ -706,6 +711,7 @@ export async function OrgPage({ locale, org, locSlug, path }: { locale: Locale; 
   // budget users (they have a JBKJS): for everyone else the "founder" column only says which municipality they are in.
   const extras = await db.getOrgExtras(org.id);
   const sourceNames = extras.sources.length ? extras.sources : org.jbkjs ? ["Uprava za trezor – Spisak korisnika javnih sredstava"] : [];
+  const mapOnly = sourceNames.length > 0 && sourceNames.every((n) => n === "OpenStreetMap");   // the open map is a source, not an official one: the page says so
   const regFacts = facts(extras.description_md, locale);
   const showFounder = !!org.jbkjs && !!org.founder_name;
   const typeSing = locale === "sr" ? type.name_lat : tn(type, locale); // singular Serbian name; translated names are plural
@@ -794,7 +800,7 @@ export async function OrgPage({ locale, org, locSlug, path }: { locale: Locale; 
             <SectionTitle>{d.about}</SectionTitle>
             <div className="prose text-[14.5px]">
               {type.description_md ? <p>{tx(type.description_md, locale)}</p> : (
-                <p>{org.name_lat} {locale === "sr" ? `je ${type.name_lat.toLowerCase()}` : locale === "en" ? `is listed under: ${tn(type, locale)}` : locale === "ru" ? `— категория: ${tn(type, locale)}` : `ist eingetragen unter: ${tn(type, locale)}`}{showFounder ? ` (${d.founder.toLowerCase()}: ${org.founder_name})` : ""}{jls ? `, ${jls.name_lat}${okrug ? `, ${okrug.name_lat}` : ""}` : ""}. {sourceNames.length
+                <p>{org.name_lat} {locale === "sr" ? `je ${type.name_lat.toLowerCase()}` : locale === "en" ? `is listed under: ${tn(type, locale)}` : locale === "ru" ? `— категория: ${tn(type, locale)}` : `ist eingetragen unter: ${tn(type, locale)}`}{showFounder ? ` (${d.founder.toLowerCase()}: ${org.founder_name})` : ""}{jls ? `, ${jls.name_lat}${okrug ? `, ${okrug.name_lat}` : ""}` : ""}. {mapOnly ? pick(locale, "Podaci potiču sa OpenStreetMap, otvorene mape koju dopunjuju korisnici; ovo nije zvanični registar. Proverite ih pre dolaska, a ispravku možete poslati sa ove stranice.", "The data comes from OpenStreetMap, an open map edited by its users; this is not an official register. Check before you go, and send a correction from this page if something is wrong.", "Данные взяты из OpenStreetMap, открытой карты, которую дополняют пользователи; это не официальный реестр. Уточните их перед визитом, исправление можно отправить с этой страницы.", "Die Daten stammen aus OpenStreetMap, einer offenen, von Nutzern gepflegten Karte; dies ist kein amtliches Register. Bitte vorab prüfen; eine Korrektur können Sie von dieser Seite senden.") : sourceNames.length
                   ? (locale === "sr" ? `Podaci potiču iz zvaničnog izvora: ${sourceNames.join("; ")}. Adresu, telefon i radno vreme dopunjujemo iz zvaničnih sajtova i prijava korisnika.` : locale === "en" ? `The data comes from an official source: ${sourceNames.join("; ")}. Address, phone and hours are completed from official sites and user reports.` : locale === "ru" ? `Данные взяты из официального источника: ${sourceNames.join("; ")}. Адрес, телефон и часы работы дополняются по официальным сайтам и сообщениям пользователей.` : `Die Daten stammen aus einer offiziellen Quelle: ${sourceNames.join("; ")}. Adresse, Telefon und Öffnungszeiten werden aus offiziellen Websites und Nutzerhinweisen ergänzt.`)
                   : (locale === "sr" ? "Podatke dopunjujemo iz zvaničnih sajtova i prijava korisnika." : locale === "en" ? "Details are completed from official sites and user reports." : locale === "ru" ? "Данные дополняются по официальным сайтам и сообщениям пользователей." : "Die Angaben werden aus offiziellen Websites und Nutzerhinweisen ergänzt.")}</p>
               )}
