@@ -94,10 +94,11 @@ export const getOrgTypes = () =>
   sql<(OrgType & { org_count: number })[]>`
     select t.id, t.slug, t."group", t.name_lat, t.name_cyr, t.name_plural_lat, t.name_en, t.name_ru, t.name_de, t.description_md, t.faq_md, t.icon, t.sort_order, t.one_per_jls, t.national_network,
            (select count(*) from organizations o where o.org_type_id = t.id and o.status = 'active')::int as org_count
-    from org_types t where t.is_active order by t.sort_order`;
+    from org_types t where t.is_active and exists (select 1 from organizations o where o.org_type_id = t.id and o.status = 'active') order by t.sort_order`;
 
 export const getOrgType = (slug: string) =>
-  sql<OrgType[]>`select id, slug, "group", name_lat, name_cyr, name_plural_lat, name_en, name_ru, name_de, description_md, faq_md, icon, sort_order, one_per_jls, national_network from org_types where slug = ${slug}`.then((r) => r[0] ?? null);
+  sql<OrgType[]>`select id, slug, "group", name_lat, name_cyr, name_plural_lat, name_en, name_ru, name_de, description_md, faq_md, icon, sort_order, one_per_jls, national_network from org_types t where slug = ${slug}
+    and exists (select 1 from organizations o where o.org_type_id = t.id and o.status = 'active')`.then((r) => r[0] ?? null);   // a kind with nothing in it has no page
 
 const ORG_SELECT = sql`
   select o.id, o.slug, o.name_lat, o.name_cyr, o.official_name_lat, t.slug as type_slug, t.name_lat as type_name, t.name_en as type_name_en, t.name_ru as type_name_ru, t.name_de as type_name_de, t."group" as group, o.jurisdiction,

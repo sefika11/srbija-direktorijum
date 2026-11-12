@@ -658,6 +658,10 @@ export async function OrgTypeHub({ locale, type, brand = null, place = null, que
 /** Register facts stored with an institution ("- key: value" lines). Label per key; keys not listed here are technical and stay hidden. */
 const FACT_LABEL: Record<string, Record<Locale, string>> = {
   vrsta: { sr: "Vrsta", en: "Kind", ru: "Вид", de: "Art" },
+  komora: { sr: "Komora", en: "Bar association", ru: "Коллегия адвокатов", de: "Anwaltskammer" },
+  broj_u_registru: { sr: "Broj u Registru posrednika", en: "Number in the brokers' register", ru: "Номер в реестре посредников", de: "Nummer im Maklerregister" },
+  datum_upisa: { sr: "Upisan u registar", en: "Registered on", ru: "Дата внесения в реестр", de: "Eingetragen am" },
+  oblik: { sr: "Oblik", en: "Legal form", ru: "Форма", de: "Rechtsform" },
   oblasti: { sr: "Oblasti veštačenja", en: "Fields of expertise", ru: "Области экспертизы", de: "Fachgebiete" }, zvanje: { sr: "Zvanje", en: "Title", ru: "Квалификация", de: "Titel" },
   sud: { sr: "Sud", en: "Court", ru: "Суд", de: "Gericht" }, court: { sr: "Sud", en: "Court", ru: "Суд", de: "Gericht" }, languages: { sr: "Jezici", en: "Languages", ru: "Языки", de: "Sprachen" },
   licenca: { sr: "Licenca", en: "Licence", ru: "Лицензия", de: "Lizenz" }, licence: { sr: "Licenca", en: "Licence", ru: "Лицензия", de: "Lizenz" }, licence_no: { sr: "Broj licence", en: "Licence no.", ru: "Номер лицензии", de: "Lizenznummer" },
@@ -766,7 +770,8 @@ export async function OrgPage({ locale, org, locSlug, path }: { locale: Locale; 
             )}
           </section>
           {sponsor && <div className="my-5"><SponsorCard locale={locale} label={d.sponsor} sponsor={sponsor} /></div>}
-          <section data-reveal data-fx="flip" className="card ledger p-4 sm:p-5">
+          {/* a listed person keeps no opening hours: the empty section is left out */}
+          {(!PERSON_TYPES.has(org.type_slug) || hours.length > 0 || !!loc?.hours_text) && <section data-reveal data-fx="flip" className="card ledger p-4 sm:p-5">
             <SectionTitle>{d.hours}</SectionTitle>
             {hours.length ? (
               <table className="text-[14px] tabular w-full max-w-md"><tbody>
@@ -782,7 +787,7 @@ export async function OrgPage({ locale, org, locSlug, path }: { locale: Locale; 
               : n === "dežurna služba" ? pick(locale, "Dežurna služba radi neprekidno. Hitni poziv: 193.", "The duty service works around the clock. Emergency call: 193.", "Дежурная служба работает круглосуточно. Экстренный вызов: 193.", "Der Bereitschaftsdienst arbeitet rund um die Uhr. Notruf: 193.")
               : n === "OpenStreetMap" ? pick(locale, "Izvor radnog vremena: OpenStreetMap (otvorena mapa koju dopunjuju korisnici). Proverite pre dolaska.", "Source of these hours: OpenStreetMap (an open map edited by its users). Check before you go.", "Источник часов работы: OpenStreetMap (открытая карта, которую дополняют пользователи). Уточните перед визитом.", "Quelle der Öffnungszeiten: OpenStreetMap (offene, von Nutzern gepflegte Karte). Bitte vorab prüfen.")
               : n}</p>)}
-          </section>
+          </section>}
           {(coverage.length > 0 || locations.length > 1 || org.parent_name || children.length > 0) && (
             <section data-reveal data-fx="flip" className="card p-4 sm:p-5 mt-5">
               <SectionTitle>{d.jurisdiction}</SectionTitle>
@@ -797,7 +802,7 @@ export async function OrgPage({ locale, org, locSlug, path }: { locale: Locale; 
           )}
           {vertical && <LeadForm locale={locale} vertical={{ ...vertical, name_lat: tx(vertical.name_lat, locale), pitch_lat: tx(vertical.pitch_lat, locale) }} context={{ page_path: path, location_id: loc?.location_id ?? null, territorial_unit_id: jls?.id ?? null }} />}
           <section data-reveal data-fx="flip" className="card p-4 sm:p-5">
-            <SectionTitle>{d.about}</SectionTitle>
+            <SectionTitle>{PERSON_TYPES.has(org.type_slug) ? pick(locale, "Podaci iz registra", "Register entry", "Запись в реестре", "Registereintrag") : d.about}</SectionTitle>
             <div className="prose text-[14.5px]">
               {type.description_md ? <p>{tx(type.description_md, locale)}</p> : (
                 <p>{org.name_lat} {locale === "sr" ? `je ${type.name_lat.toLowerCase()}` : locale === "en" ? `is listed under: ${tn(type, locale)}` : locale === "ru" ? `— категория: ${tn(type, locale)}` : `ist eingetragen unter: ${tn(type, locale)}`}{showFounder ? ` (${d.founder.toLowerCase()}: ${org.founder_name})` : ""}{jls ? `, ${jls.name_lat}${okrug ? `, ${okrug.name_lat}` : ""}` : ""}. {mapOnly ? pick(locale, "Podaci potiču sa OpenStreetMap, otvorene mape koju dopunjuju korisnici; ovo nije zvanični registar. Proverite ih pre dolaska, a ispravku možete poslati sa ove stranice.", "The data comes from OpenStreetMap, an open map edited by its users; this is not an official register. Check before you go, and send a correction from this page if something is wrong.", "Данные взяты из OpenStreetMap, открытой карты, которую дополняют пользователи; это не официальный реестр. Уточните их перед визитом, исправление можно отправить с этой страницы.", "Die Daten stammen aus OpenStreetMap, einer offenen, von Nutzern gepflegten Karte; dies ist kein amtliches Register. Bitte vorab prüfen; eine Korrektur können Sie von dieser Seite senden.") : sourceNames.length
@@ -815,7 +820,7 @@ export async function OrgPage({ locale, org, locSlug, path }: { locale: Locale; 
             </section>
           )}
           <CorrectionBlock locale={locale} entityType={loc ? "location" : "organization"} entityId={loc?.location_id ?? org.id} pagePath={path} lastChecked={loc?.last_seen_at ?? org.last_seen_at} sources={sourceNames.length ? sourceNames : [pick(locale, "zvanični sajt institucije", "the institution's official site", "официальный сайт учреждения", "offizielle Website der Einrichtung")]} />
-          <ClaimBlock locale={locale} orgId={org.id} locationId={loc?.location_id ?? null} />
+          <ClaimBlock locale={locale} orgId={org.id} locationId={loc?.location_id ?? null} person={PERSON_TYPES.has(org.type_slug)} />
         </div>
         <aside className="lg:sticky lg:top-20 grid gap-5">
           {country && (

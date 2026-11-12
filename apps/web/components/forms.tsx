@@ -99,8 +99,9 @@ const CLAIM_L: Record<Locale, { title: string; body: string; cta: string; name: 
   ru: { title: "Это ваше учреждение?", body: "Получите доступ к странице: исправления часов работы, телефонов и описания публикуются сразу, а рядом с названием появляется отметка «Подтверждено учреждением». Бесплатно.", cta: "Получить доступ", name: "Имя и фамилия", role: "Роль (директор, владелец, PR)", email: "Служебный e-mail", phone: "Телефон (необязательно)", message: "Что исправить (необязательно)", send: "Отправить", done: "Спасибо. Мы проверим запрос и ответим на служебный e-mail в течение 2 рабочих дней.", note: "Запрос проверяет редактор; данные используются только для подтверждения." },
   de: { title: "Ist das Ihre Einrichtung?", body: "Übernehmen Sie die Seite: Korrekturen an Öffnungszeiten, Telefon und Beschreibung gehen sofort online, und Ihr Name trägt die Marke „Von der Einrichtung bestätigt“. Kostenlos.", cta: "Seite übernehmen", name: "Vor- und Nachname", role: "Rolle (z. B. Leitung, Inhaber, PR)", email: "Dienstliche E-Mail", phone: "Telefon (optional)", message: "Was korrigiert werden soll (optional)", send: "Anfrage senden", done: "Danke. Wir prüfen die Anfrage und antworten innerhalb von 2 Werktagen an die dienstliche E-Mail.", note: "Eine Redaktion prüft die Anfrage; die Daten dienen nur der Bestätigung." },
 };
-export function ClaimBlock({ locale, orgId, locationId }: { locale: Locale; orgId: number; locationId?: number | null }) {
-  const L = CLAIM_L[locale];
+const CLAIM_PERSON: Record<Locale, string> = { sr: "Da li je ovo vaša stranica?", en: "Is this your page?", ru: "Это ваша страница?", de: "Ist das Ihre Seite?" };
+export function ClaimBlock({ locale, orgId, locationId, person }: { locale: Locale; orgId: number; locationId?: number | null; person?: boolean }) {
+  const L = person ? { ...CLAIM_L[locale], title: CLAIM_PERSON[locale] } : CLAIM_L[locale];
   const [mode, setMode] = useState<"idle" | "form" | "done">("idle");
   async function submit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault(); const fd = new FormData(e.currentTarget);
