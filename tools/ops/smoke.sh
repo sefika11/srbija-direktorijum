@@ -28,6 +28,7 @@ check /robots.txt 200 "/urednik"
 check /api/health 200 '"ok":true'
 check /projektni-biro 404 ""
 check /ovo-ne-postoji 404 ""
-# an organisation page with nothing but a name and a town is kept out of search engines
-check /mesna-zajednica/mesna-zajednica-veliko-polje-veliko-polje 200 "noindex"
+# an organisation page with nothing but a name and a town is kept out of search engines. The example must be a page that
+# holds no site, street, contact or hours (a Kosovo court without a seat); when it gains data, pick another one
+check /visi-sud/visi-sud-u-kosovskoj-mitrovici-zvecan 200 "noindex"
 [ "$FAIL" = "0" ] && echo "all good" || { echo "smoke test failed"; exit 1; }
