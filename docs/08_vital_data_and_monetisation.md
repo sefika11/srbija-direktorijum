@@ -538,3 +538,5 @@ driving schools (the MUP list sits behind a bot check).
   for a branch). Banks, flagged as a network, lost their 1,207 self-coverage rows instead
   (`db/fixes/bank_self_coverage_removed_*.json`). Checked: "advokat zemun" lists Zemun lawyers, Belgrade serves 6,105
   lawyers, 434 bank branches, 7 tax units.
+- **Decided by Nick, 2026-11-12 ("Keep them"):** lawyers' phones (mostly mobiles) and e-mails stay on their pages as the bar
+  directories publish them, the same way court experts are shown.
