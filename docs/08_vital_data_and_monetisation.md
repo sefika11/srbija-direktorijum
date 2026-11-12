@@ -540,3 +540,60 @@ driving schools (the MUP list sits behind a bot check).
   lawyers, 434 bank branches, 7 tax units.
 - **Decided by Nick, 2026-11-12 ("Keep them"):** lawyers' phones (mostly mobiles) and e-mails stay on their pages as the bar
   directories publish them, the same way court experts are shown.
+
+## 18. Solidifying pass (2026-11-12, evening)
+
+Nick: "Start from the top, work downwards until we sort it all out from what we can solidify."
+
+**What visitors send now reaches someone.**
+- Corrections (`edit_suggestions`), page claims (`listing_claims`) and enquiries (`leads`) were written to tables that no screen
+  read and no message announced. `/urednik` (apps/web/app/urednik) lists what is waiting and records the decision (accepted,
+  rejected, needs more, duplicate, spam). It is closed (404) until `EDITOR_TOKEN` (16 characters or more) is set in Vercel;
+  the token is typed once per browser. Marking an item only records the decision: a correction is applied to the data by hand.
+- `lib/notify.ts`: an e-mail with no personal data ("something arrived, open /urednik") when `RESEND_API_KEY` and
+  `EDITOR_EMAIL` are set. Without them nothing is sent and the item waits in `/urednik`.
+- The enquiry form no longer promises "odgovor u roku od 24h": no partner answers enquiries yet. The consent line says the
+  editor reads the enquiry and may pass it to one partner.
+- `/privatnost` rewritten in four languages: where the data comes from (registers, chambers' directories, the open map), that
+  people from professional directories are shown only with the business contact the directory publishes, how to ask for a
+  correction or removal, the right to complain to the Commissioner, what happens to form data. It no longer claims analytics
+  or an EU consent choice that did not exist. Not legal advice; a lawyer should read it.
+
+**Operations** (`tools/ops/`).
+- `backup.sh`: full dump to `.cache/dumps/` (outside git, keeps eight). First run 2026-11-12 16:01, 14.7 MB. Run before every
+  large import and weekly. The old `db/dumps/srbdir_2026-11-09_kjs.sql.gz` is in git and predates every person register.
+- `check_data.py`: nine hard rules (no place under a retired organisation, one primary place, merged rows point somewhere,
+  no street on listed persons without an office, no empty contact, hours in order, map points inside Serbia) and seven
+  counts to watch. `tools/reach/after_import.sh` runs it last. All nine pass.
+- `mark_unseen.py <source> <day>`: after a register is pulled and loaded again, entries the register no longer lists become
+  `inactive` (page answers 404, undo file written). Refuses when more than 8% would go. Monthly routine per register:
+  pull, prepare, `load_in_batches`, `mark_unseen`, `after_import.sh`. Not yet run: no register has been pulled twice.
+- `smoke.sh [base]`: 19 checks of the pages a visitor depends on (status and a phrase each), no form submitted. Live: all pass.
+- `/api/health`: 200 with counts when the database answers, 503 when not, for any uptime monitor.
+- Visit counts: `@vercel/analytics` in the layout (no cookies). Shows data once Web Analytics is switched on in Vercel.
+- Still not done: imports write to the live database. The safe way is a Neon branch (import there, check, then apply to
+  production); until then: `backup.sh` first, `load_in_batches` for anything large, never a schema change during a load.
+
+**Search engines.** An organisation page with only a name and a town (no site, street, contact or hours anywhere) is
+`noindex` and left out of the sitemap: 4,403 pages (`db.hasSubstance`). It returns by itself when data arrives. Pages of
+listed persons are titled "Ime, Mesto – sudski veštak, kontakt", not "adresa, telefon, radno vreme".
+
+**Health-centre branches** (village clinics). Targets: 143 health centres with a known site and the 350 branches held
+(`tools/reach/build_health_unit_targets.py`). 18 Haiku agents (2.18M tokens, 7 minutes) wrote 632 rows; raw files in
+`.cache/health_units_raw_2026-11-12/`. `tools/reach/check_units.py` kept a row only on the centre's own site, on a page that
+names the village, with each value found on the page (dropped: 101 phones not beside the village's name, 69 pages that do not
+name the village, 51 addresses and 44 hours not on the page). `tools/reach/units_dedupe_by_point.py` then removed 15 branches
+we already held from the map (the village read from the map point). Imported with `import_branches` (now takes
+`in_own_municipality` and `kind`): 398 branches, 173 with a phone, 120 with a street, 149 with hours; 25 held branches gained
+a field. A branch with only a name and a village shows the centre's contact, said as such.
+
+**Informator o radu** (informator.poverenik.rs, the Commissioner's unified system; never used before: earlier agents skipped
+it as "a portal"). Scout (one Sonnet agent, notes in `tools/reach/informator/NOTES.md`): open to anonymous reading over the
+same calls the public page makes, no login or bot check, no robots.txt, no terms-of-use text. 7,519 bodies with a published
+booklet (about 2,335 community offices, 1,216 primary schools). Each booklet gives the body's street, postal code, registry
+number, tax number, official e-mail, website and working hours as free text. It has NO general phone: phones are only those
+of named officers and heads, which we do not take. `fetch_all.py` reads every body once (one call a second, about four
+hours, resumable, body fields only) into `.cache/informator/bodies.jsonl`; `apply_bodies.py` matches by registry number and
+fills gaps only (website, e-mail without a person's name, street, hours: a single short range becomes Monday to Friday with
+the note "Informator o radu", which the page explains; longer text is shown as text). On the 30-body sample: 26 matched,
+11 hours, 8 e-mails, 4 websites, 2 streets. Source `informator_poverenik` (`db/seed_patch_027`).

@@ -3,7 +3,7 @@
   python -m tools.reach.import_branches <extra.json>            # dry run
   python -m tools.reach.import_branches <extra.json> --write
 
-Rows: {org_slug, name, address, place, phones?, hours?, source_url}. A row is skipped when the organisation is unknown, the
+Rows: {org_slug, name, address, place, phones?, hours?, source_url, in_own_municipality?, kind?}. A row is skipped when the organisation is unknown, the
 place cannot be resolved to a municipality, or the organisation already has a location on that street (or with that name)
 there. New units take the unit kind the organisation's other branches use. Written ids go to db/fixes/imported_branches_<stamp>.json.
 """
@@ -30,8 +30,10 @@ with db.conn() as c, c.cursor() as cur:
         if not o: stats["unknown organisation"] += 1; skipped.append((r.get("org_slug"), r.get("name"), "unknown organisation")); continue
         tail = (r.get("address") or "").split(",")[-1]
         tu = None
+        if r.get("in_own_municipality"):   # a branch of a local body lies in that body's own municipality; the village name alone may exist in several
+            cur.execute("select territorial_unit_id from locations where org_id = %s and is_primary and status = 'active' limit 1", (o["id"],)); x = cur.fetchone(); tu = x["territorial_unit_id"] if x else None
         for cand in (PLACE_OF.get(r.get("place") or ""), r.get("place"), re.sub(r"\b\d{5}\b", "", tail).strip()):
-            if cand:
+            if cand and not tu:
                 tu = resolver.resolve(cand)
                 if tu: break
         if not tu:
@@ -46,6 +48,7 @@ with db.conn() as c, c.cursor() as cur:
         kind = kinds.most_common(1)[0][0] if kinds else "ispostava"
         first = fold(r["name"]).split()[0] if fold(r["name"]).split() else ""
         kind = {"filijala": "filijala", "ekspozitura": "ekspozitura", "ispostava": "ispostava", "sluzba": "ispostava"}.get(first, kind)
+        kind = r.get("kind") or kind
         stats["to import"] += 1
         cur.execute("select name_lat from territorial_units where id = %s", (tu,)); plan.append((r["name"], r.get("place"), cur.fetchone()["name_lat"], kind))
         if not WRITE: continue
