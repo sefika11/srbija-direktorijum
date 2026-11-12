@@ -530,3 +530,11 @@ driving schools (the MUP list sits behind a bot check).
   supply them or owners to claim the page); 106 registry offices and 100 local tax offices whose municipal sites print
   nothing; 296 Kosovo institutions without a place; three pairs of namesake schools sharing a street; Novi Sad city
   municipalities; the dead websites the daily job is now recording (no page uses the result yet).
+- **Found while checking the lawyers live: `locations_serving` hid places.** The function returned a location inside the
+  municipality only when no location of that kind carried an explicit coverage row. The map imports wrote such rows for
+  their own entries, so 25 map lawyers hid 6,000 Belgrade lawyers in the search's best answer, and 839 bank branches without
+  a row were hidden behind 561 with one. `db/schema_patch_026_locations_serving.sql`: for kinds that are not one national
+  network, covering and sitting inside both count; national networks keep the old rule (the head office does not answer
+  for a branch). Banks, flagged as a network, lost their 1,207 self-coverage rows instead
+  (`db/fixes/bank_self_coverage_removed_*.json`). Checked: "advokat zemun" lists Zemun lawyers, Belgrade serves 6,105
+  lawyers, 434 bank branches, 7 tax units.
