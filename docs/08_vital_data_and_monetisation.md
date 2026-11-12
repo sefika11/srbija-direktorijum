@@ -454,6 +454,8 @@ Nick: "run everything in order as needed so we fix all weaknesses".
 proposed after the measurement had already been tried and found closed there: customs (carina.rs prints no unit addresses or
 phones, its per-unit contact page answers 500), veterinary stations (the Veterinary Directorate keeps no such register) and
 driving schools (the MUP list sits behind a bot check).
+Also search these docs for the kind in English ("preschool", "kindergarten", "health centre"), not only the Serbian word: the
+kindergarten pass of 2026-11-11 was proposed again on 2026-11-12 because a search for "vrtić" did not find its note in §10.
 
 - **Trust badge** (`tools/reach/relabel_verification.py`, re-run after every import). The loaders write `unverified` for every
   new row, so 17,776 organisations read from ministries' registers (court experts, exchange offices, hotels, embassies,
@@ -621,3 +623,26 @@ buildings (2,060 buildings of 158 institutions, 1,379 without a street, 1,586 wi
 same method as the health-centre branches) is the one sizeable pass an open source can still fill. School branch buildings
 (2,198) rarely have a phone or address of their own. Pharmacy hours (2,772 missing) sit behind the chains' bot checks.
 Exchange offices and youth associations have an address only and no open source for more.
+
+**Kindergarten buildings, second look (2026-11-12, late night).** Proposed as "the one sizeable pass left" on the count of
+1,379 buildings without a street. That was wrong: §10 already records the pass of 2026-11-11 over the institutions' own
+sites (694 streets, 489 phones). Splitting what it left (`tools/reach/build_kindergarten_targets.py`): 678 buildings are
+village groups named after their village, 284 are groups hosted in a school or a hall, and 417 are named buildings in
+towns. Only the last group has an address a site would print. Lesson, added to the rule in §17: before proposing a pass,
+search the docs for the KIND in English as well ("preschool", "kindergarten"), not only for the Serbian word.
+- Free fix first: `tools/reach/units_village_from_name.py` gives a unit its village when exactly one settlement of its own
+  municipality stands in the unit's name outside quotation marks. Written for 653 kindergarten groups, 964 primary-school
+  branches and 2 secondary ones (`db/fixes/units_village_from_name_2026-11-12_231741.json`). The page's address line now
+  says "Bela Reka", not only "Šabac".
+- Agents: 57 institutions with a site and three or more fillable buildings (561 buildings; a large city network gets a
+  file of its own), ten Haiku agents, 1.31M tokens, 5 minutes, 311 rows; raw files in `.cache/kindergartens_raw_2026-11-12/`.
+  `tools/reach/check_kindergartens.py` keeps a value only on the institution's own site BESIDE the building's own name
+  (200 characters before to 700 after), or on a page about that one building. Dropped: 41 phones and 32 addresses not on
+  the page, 24 pages without the building's name, 12 addresses that are the seat's own, 6 without a house number or cut
+  short, 4 in Hungarian form (Kanjiža), 5 switchboard numbers. A local number gets the seat's area code.
+- Applied (`apply_contacts`, backup `srbdir_2026-11-12_2324` first): 102 held buildings gained a field: 48 a street, 77 a
+  phone, 35 hours. Two new buildings imported after a hand review of eight (Beočin's four are the held buildings under
+  their village names; one Subotica and one Šabac row doubled a held building).
+- Gave nothing: sites that render in the browser only (Lazarevac), and sites that print one contact for the whole
+  institution. Kindergarten buildings now: 2,062, without a street 1,331, without a phone 1,511, with a village or town 1,351.
+  What is left has no open source: village groups and hosted groups have no address of their own.

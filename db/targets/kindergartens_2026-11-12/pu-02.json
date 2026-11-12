@@ -1,0 +1,574 @@
+{
+ "id": "pu-02",
+ "rows": [
+  {
+   "org_slug": "predskolska-ustanova-radosno-detinjstvo-novi-sad",
+   "name": "Predškolska ustanova \"Radosno Detinjstvo\"",
+   "municipality": "Novi Sad",
+   "website": "https://predskolska.rs/",
+   "fillable": 79,
+   "held_buildings": [
+    {
+     "location_id": 47009,
+     "name": "Bajka",
+     "address": "Stevana Hristića 15",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46879,
+     "name": "Bambi",
+     "address": "Karađorđeva 55",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 47002,
+     "name": "Biberče",
+     "address": "Vojvođe Mišića bb",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46976,
+     "name": "Bistričak 1",
+     "address": "Seljačkih Buna 63",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46978,
+     "name": "Bistričak 2",
+     "address": "Seljačkih Buna 65",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46998,
+     "name": "Bubamara",
+     "address": "Čenejska 50",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46924,
+     "name": "Bubica",
+     "address": "Pap Pavla 9",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 47000,
+     "name": "Centralna Kuhinja",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 47003,
+     "name": "Crvenkapa",
+     "address": "Proleterska 2",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46923,
+     "name": "Cvrčak",
+     "address": "Palmotićeva 1",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 47006,
+     "name": "Cvrčak I Mrav",
+     "address": "Trg Majke Jevrosime 2",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46822,
+     "name": "Detelina SA 4 Lista",
+     "address": "Kalmana Langa 2",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46996,
+     "name": "Duga",
+     "address": "VIII ulica br. 6",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 47004,
+     "name": "Dunavski Cvet",
+     "address": "Ćirila i Metodija 69",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46750,
+     "name": "Guliver",
+     "address": "Bate Brkića 1a",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 47010,
+     "name": "Izvorčić",
+     "address": "V. Karadžića 63",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46087,
+     "name": "Ježeva Kućica",
+     "address": "Kolo srpskih sestara 14",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46794,
+     "name": "Kalimero",
+     "address": "Dragiše Brašovana 16",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 47100,
+     "name": "Kamičak",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46987,
+     "name": "Kockica",
+     "address": "Karlovačkih đaka 31a",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46774,
+     "name": "Kolibri",
+     "address": "Bulevar Jaše Tomića 3",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46990,
+     "name": "Krcko Oraščić",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 47001,
+     "name": "Lane",
+     "address": "Heroja Pinkija 25",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46997,
+     "name": "Lasta",
+     "address": "Partizanska 2",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46760,
+     "name": "Leptirić",
+     "address": "Braće Krkljuš 15",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46882,
+     "name": "Lienka",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46919,
+     "name": "Maslačak",
+     "address": "Narodnog fronta 42",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46898,
+     "name": "Meda",
+     "address": "Radnička 47",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46817,
+     "name": "Mrvica",
+     "address": "Jirečekova 9",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46886,
+     "name": "Neven",
+     "address": "Vojvođanskih brigada 14",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46752,
+     "name": "Novosađanče",
+     "address": "Banović Strahinje bb",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 47106,
+     "name": "Objekat Tehničke Službe",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 47107,
+     "name": "Objekat U Polgar Andraša",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46755,
+     "name": "Palčica",
+     "address": "Branimira Ćosića 40",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46920,
+     "name": "Panda",
+     "address": "Nikole Tesle 4",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46808,
+     "name": "Petar Pan",
+     "address": "Janka Čmelika 87",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46751,
+     "name": "Pinokio",
+     "address": "Kralja Petra I 45",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 47099,
+     "name": "Plava Zvezda",
+     "address": "Sajlovo 37",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46896,
+     "name": "Plavi Zec",
+     "address": "Miletićeva 22",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46984,
+     "name": "Plavi Čuperak",
+     "address": "S. Miletića bb",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46926,
+     "name": "Poletarac",
+     "address": "Puškinova 19",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46783,
+     "name": "Pužić",
+     "address": "Vršačka 23",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46894,
+     "name": "Pčelica",
+     "address": "Laze Kostića 5",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46718,
+     "name": "Radosnica",
+     "address": "S. Šolaje bb",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46921,
+     "name": "Različak",
+     "address": "Narodnog Fronta 45",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46776,
+     "name": "Roda",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46737,
+     "name": "Sigridrug",
+     "address": "Almaška 24",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46742,
+     "name": "Spomenak",
+     "address": "Antona Urbana 2",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46970,
+     "name": "Srna",
+     "address": "Radoja Domanovića 24",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46793,
+     "name": "Sunce",
+     "address": "Gagarinova 10",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46727,
+     "name": "Suncokret",
+     "address": "Alekse Šantića 32",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 47007,
+     "name": "Svitac",
+     "address": "Stojana Novakovića bb",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46756,
+     "name": "Vendi",
+     "address": "Braće Dronjak bb",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46948,
+     "name": "Veseli Patuljci",
+     "address": "P. Šandora 25",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46810,
+     "name": "Veseli Vozić",
+     "address": "Janka Čmelika 110",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46796,
+     "name": "Veseli Vrtić",
+     "address": "Dr Ilije Đuričića 2",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46991,
+     "name": "Veseljko",
+     "address": "Trg Komenskog 9",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46778,
+     "name": "Veverica",
+     "address": "Visarionova 4a",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46777,
+     "name": "Vidovdanski Zvončić",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46781,
+     "name": "Vila",
+     "address": "Vojvođanskih Brigada 14",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46932,
+     "name": "Vilenjak",
+     "address": "Radnička 20",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46765,
+     "name": "Zeka Budisava",
+     "address": "Vuka Karadžića 101",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46773,
+     "name": "Zeka Bukovac",
+     "address": "Vidovdanska 8",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46800,
+     "name": "Zlatna Greda",
+     "address": "Zlatne Grede 6",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46900,
+     "name": "Zlatna Ribica",
+     "address": "Marodićeva 4a",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46775,
+     "name": "Zlatokosa",
+     "address": "Kralja Aleksandra 62",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46983,
+     "name": "Zmaj",
+     "address": "23. Oktobra 2",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46975,
+     "name": "Zvezdan",
+     "address": "Seljačkih Buna 51",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 47008,
+     "name": "Zvezdani Gaj",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46968,
+     "name": "Zvončica",
+     "address": "Save Kovačevića 14",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46880,
+     "name": "Zvončić",
+     "address": "Save Maleševa bb",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46989,
+     "name": "Čarobni Breg",
+     "address": "Klisanski put 165",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 45426,
+     "name": "Čarobni Šešir",
+     "address": "Desanke Maksimović br. 80",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46922,
+     "name": "Čarobnjak",
+     "address": "Đurđevdanska 1",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46980,
+     "name": "Čarolija",
+     "address": "Sonje Marinković 1",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46818,
+     "name": "Čigra",
+     "address": "Jože Vlahovića bb",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46985,
+     "name": "Čika Jova",
+     "address": "Zmajevac 2",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46969,
+     "name": "Čuperak",
+     "address": "Save Kovačevića 7",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46753,
+     "name": "Đurđevak",
+     "address": "Beogradski kej 37",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46815,
+     "name": "Švrća",
+     "address": "Jerneja Kopitara 1",
+     "phones": null,
+     "has_hours": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,938 @@
+{
+ "id": "pu-06",
+ "rows": [
+  {
+   "org_slug": "predskolska-ustanova-bambi-kula",
+   "name": "Predškolska ustanova \"Bambi\"",
+   "municipality": "Kula",
+   "website": "http://www.pubambi-kula.com",
+   "fillable": 10,
+   "held_buildings": [
+    {
+     "location_id": 45384,
+     "name": "vrtić \"Bubamara\"",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 45378,
+     "name": "vrtić \"Kolibri\"",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 45391,
+     "name": "vrtić \"Neven\"",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 45388,
+     "name": "vrtić \"Veverica\"",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 45393,
+     "name": "vrtić \"Vrtuljak\"",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 45390,
+     "name": "vrtić \"Čuvari osmeha\"",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 45386,
+     "name": "vrtić \"Šećerko\"",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 45395,
+     "name": "vrtić\" Roda\"",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 45392,
+     "name": "vrtić\"Ciciban\"",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 45380,
+     "name": "vrtić\"Maslačak\"",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-sunce-kursumlija",
+   "name": "Predškolska ustanova \"Sunce\"",
+   "municipality": "Kuršumlija",
+   "website": "https://vrticsunce.rs",
+   "fillable": 4,
+   "held_buildings": [
+    {
+     "location_id": 46510,
+     "name": "Izdvojeno odeljenje van sedišta \"Maštalica\"",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 47080,
+     "name": "Izdvojeno odeljenje van sedišta \"Rača\"",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46598,
+     "name": "Izdvojeno odeljenje van sedišta \"Svitac\"",
+     "address": "Vuka Karadžića 54",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46374,
+     "name": "Izdvojeno odeljenje van sedišta \"Zvezdica\"",
+     "address": "Toplička 14",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46373,
+     "name": "Radna jedinica \"Čarolija\"",
+     "address": "Mihajla Pupina 1",
+     "phones": null,
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-kaja-ljig",
+   "name": "Predškolska ustanova \"Kaja\"",
+   "municipality": "Ljig",
+   "website": "https://www.pukaja.rs/",
+   "fillable": 5,
+   "held_buildings": [
+    {
+     "location_id": 46635,
+     "name": "Belanovica OŠ \"Sestre Pavlović\"-izdvojeno odeljenje Predškolske ustanove \"Kaja\"",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 45830,
+     "name": "PU \" Kaja\" izdvojeno odeljenje u Kadinoj Luci",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 45724,
+     "name": "PU \"Kaja\" izdvojeno odeljenje u Bau",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 45725,
+     "name": "PU \"Kaja\" izdvojeno odeljenje u Poljanicama",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46636,
+     "name": "PU\"Kaja 2\" izdvojeno odeljenje u Ljigu",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46141,
+     "name": "PU\"Kaja\"izdvojeno odeljenje u Slavkovici",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-petar-pan-mali-idjos",
+   "name": "Predškolska ustanova \"Petar Pan\"",
+   "municipality": "Mali Iđoš",
+   "website": "https://www.petarpan.edu.rs",
+   "fillable": 3,
+   "held_buildings": [
+    {
+     "location_id": 45663,
+     "name": "Istureni objekat-Gazdinsko",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 45723,
+     "name": "Istureni objekat-Višnja",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 45702,
+     "name": "Istureni objekat-Zvončica",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-14-oktobar-malo-crnice",
+   "name": "Predškolska ustanova \"14. Oktobar\"",
+   "municipality": "Malo Crniće",
+   "website": "https://predskolskaustanova14oktobar.mojaskola.org/",
+   "fillable": 7,
+   "held_buildings": [
+    {
+     "location_id": 47352,
+     "name": "Vaspitna grupa ,,Bubamara\"",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 45281,
+     "name": "Vaspitna grupa ,,Crvenkapa\"",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 47353,
+     "name": "Vaspitna grupa ,,Cvetić\"",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 47354,
+     "name": "Vaspitna grupa ,,Miki''",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 45887,
+     "name": "Vaspitna grupa ,,Mini\"",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 47351,
+     "name": "Vaspitna grupa ,,Pepeljuga\"",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 47350,
+     "name": "Vaspitna grupa ,,Zmaj\"",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-jelica-obradovic-mladenovac",
+   "name": "Predškolska ustanova \"Jelica Obradović\"",
+   "municipality": "Mladenovac",
+   "website": "https://pujelicaobradovic.edu.rs/",
+   "fillable": 4,
+   "held_buildings": [
+    {
+     "location_id": 46260,
+     "name": "Objekat \"Breze\"",
+     "address": "Kralja Petra I 370",
+     "phones": "011 8231904",
+     "has_hours": true
+    },
+    {
+     "location_id": 46655,
+     "name": "Objekat \"Izvorčić\"",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46274,
+     "name": "Objekat \"Plavi čuperak\"",
+     "address": "Trg Ljubomira Ivanovića Gedže 8",
+     "phones": "011 8215201",
+     "has_hours": true
+    },
+    {
+     "location_id": 46142,
+     "name": "Objekat \"Pčelica\"",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46256,
+     "name": "Objekat \"Sunce\"",
+     "address": "Spasoja Pavlovića bb",
+     "phones": "011 8231293",
+     "has_hours": true
+    },
+    {
+     "location_id": 46266,
+     "name": "Objekat \"Zvezdica\"",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 45640,
+     "name": "Objekat \"Šeširić\" u Velikoj Krsni",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46143,
+     "name": "Pripremna predškolska grupa pri OŠ \"Momčilo Živojinović\" u Šepšinu",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 45816,
+     "name": "Pripremna predškolska grupa pri OŠ \"Sveti Sava\" u Selo Mladenovcu",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 45629,
+     "name": "pripremna predškolska grupa pri OŠ \"Bora Lazić\" u Ameriću",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 45632,
+     "name": "pripremna predškolska grupa pri OŠ \"Bora Lazić\" u Senaji",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 45631,
+     "name": "pripremna predškolska grupa pri OŠ \"Bora Lazić\" u Vlaškoj",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 45633,
+     "name": "pripremna predškolska grupa pri OŠ \"Kosta Đukić\" u Koraćici",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 45634,
+     "name": "pripremna predškolska grupa pri OŠ \"Kosta Đukić\" u Markovcu",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 45637,
+     "name": "pripremna predškolska grupa pri OŠ \"Kosta Đukić\" u Međulužju",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 45635,
+     "name": "pripremna predškolska grupa pri OŠ \"Kosta Đukić\" u Pružatovcu",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 45636,
+     "name": "pripremna predškolska grupa pri OŠ \"Kosta Đukić\" u Velikoj Ivanči",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 45641,
+     "name": "pripremna predškolska grupa pri OŠ \"Milica Milošević\" u Jagnjilu",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 45642,
+     "name": "pripremna predškolska grupa pri OŠ \"Milica Milošević\" u Rabrovcu",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 45638,
+     "name": "pripremna predškolska grupa pri OŠ \"Momčilo Živojinović\" u Duboni",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "javna-predskolska-ustanova-pcelica-nis-nis",
+   "name": "Javna predškolska ustanova \"Pčelica\" Niš",
+   "municipality": "Niš",
+   "website": "https://pcelica.edu.rs",
+   "fillable": 7,
+   "held_buildings": [
+    {
+     "location_id": 47104,
+     "name": "Sektor ,,Mladost\"",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46680,
+     "name": "Vrtić Bajka",
+     "address": "Salvadora Aljendea bb",
+     "phones": "018 4262933",
+     "has_hours": false
+    },
+    {
+     "location_id": 46679,
+     "name": "Vrtić Bambi",
+     "address": "Bulevar Nemanjića 14",
+     "phones": "018 4255083",
+     "has_hours": false
+    },
+    {
+     "location_id": 46681,
+     "name": "Vrtić Biser",
+     "address": "Prosvetina bb",
+     "phones": "018 4286020",
+     "has_hours": false
+    },
+    {
+     "location_id": 47102,
+     "name": "Vrtić Brodić",
+     "address": "Pavla Sofrića 48a",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46703,
+     "name": "Vrtić Bubamara",
+     "address": "Kosovke devojke 1",
+     "phones": "018 4577097",
+     "has_hours": false
+    },
+    {
+     "location_id": 46692,
+     "name": "Vrtić Crvenkapa",
+     "address": "Mokranjčeva bb",
+     "phones": "018 591215",
+     "has_hours": false
+    },
+    {
+     "location_id": 47103,
+     "name": "Vrtić Cvetić",
+     "address": "Naselje 9",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 47098,
+     "name": "Vrtić Cvrčak",
+     "address": "Bulevar Nemanjića bb",
+     "phones": "018 232355",
+     "has_hours": false
+    },
+    {
+     "location_id": 46706,
+     "name": "Vrtić Kolibri",
+     "address": "Dragiše Miškovića 2",
+     "phones": "018 215629",
+     "has_hours": false
+    },
+    {
+     "location_id": 46683,
+     "name": "Vrtić Lane",
+     "address": "Rasadnik bb",
+     "phones": "018 590080",
+     "has_hours": false
+    },
+    {
+     "location_id": 46684,
+     "name": "Vrtić Leptirić",
+     "address": "Južnomoravskih brigada bb",
+     "phones": "018 222808",
+     "has_hours": false
+    },
+    {
+     "location_id": 46685,
+     "name": "Vrtić Maslačak",
+     "address": "Sokolska bb",
+     "phones": "018 4513284",
+     "has_hours": false
+    },
+    {
+     "location_id": 46686,
+     "name": "Vrtić Neven",
+     "address": "Katićeva bb",
+     "phones": "018 4253863",
+     "has_hours": false
+    },
+    {
+     "location_id": 46697,
+     "name": "Vrtić Pahuljica",
+     "address": "Zaplanjska bb",
+     "phones": "018 542141",
+     "has_hours": false
+    },
+    {
+     "location_id": 46695,
+     "name": "Vrtić Palčić",
+     "address": "Nade Tomić 23",
+     "phones": "018 253845",
+     "has_hours": false
+    },
+    {
+     "location_id": 46699,
+     "name": "Vrtić Panda",
+     "address": "Pribojska bb",
+     "phones": "018 580410",
+     "has_hours": false
+    },
+    {
+     "location_id": 46690,
+     "name": "Vrtić Pepeljuga",
+     "address": "Marina Držića 48",
+     "phones": "018 533481",
+     "has_hours": false
+    },
+    {
+     "location_id": 46693,
+     "name": "Vrtić Petar Pan",
+     "address": "Đerdapska bb",
+     "phones": "018 207030",
+     "has_hours": false
+    },
+    {
+     "location_id": 46689,
+     "name": "Vrtić Pinokio",
+     "address": "Sestre Baković 17",
+     "phones": "018 4246999",
+     "has_hours": false
+    },
+    {
+     "location_id": 46687,
+     "name": "Vrtić Plavi čuperak",
+     "address": "Boška Buhe bb",
+     "phones": "018 537723",
+     "has_hours": false
+    },
+    {
+     "location_id": 46704,
+     "name": "Vrtić Popaj",
+     "address": null,
+     "phones": "018 4651433",
+     "has_hours": false
+    },
+    {
+     "location_id": 46691,
+     "name": "Vrtić Slavuj",
+     "address": "Dr. Milutina Ivkovića bb",
+     "phones": "018 537214",
+     "has_hours": false
+    },
+    {
+     "location_id": 46107,
+     "name": "Vrtić Srna",
+     "address": "Bulevar Nemanjića 26",
+     "phones": "018 523444",
+     "has_hours": false
+    },
+    {
+     "location_id": 46701,
+     "name": "Vrtić Sunce",
+     "address": "Bulevar 12",
+     "phones": "018 584484",
+     "has_hours": false
+    },
+    {
+     "location_id": 46696,
+     "name": "Vrtić Svitac",
+     "address": "Ratka Jovića bb",
+     "phones": "018 580475",
+     "has_hours": false
+    },
+    {
+     "location_id": 46538,
+     "name": "Vrtić Trupko",
+     "address": "Nišavska 4",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46705,
+     "name": "Vrtić Vilin grad",
+     "address": "Timočka bb",
+     "phones": "018 570524",
+     "has_hours": false
+    },
+    {
+     "location_id": 46588,
+     "name": "Vrtić Višnjica",
+     "address": "Franca Vintera 4",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46702,
+     "name": "Vrtić Zeka",
+     "address": "Dimitrija Tucovića 50",
+     "phones": "018 283083",
+     "has_hours": false
+    },
+    {
+     "location_id": 46682,
+     "name": "Vrtić Zvončići",
+     "address": "Romanijska bb",
+     "phones": "018 239796",
+     "has_hours": false
+    },
+    {
+     "location_id": 46700,
+     "name": "Vrtić Švrća",
+     "address": null,
+     "phones": "018 4601232",
+     "has_hours": false
+    }
+   ]
+  },
+  {
+   "org_slug": "predskolska-ustanova-11-april-novi-beograd",
+   "name": "Predškolska ustanova \"11. April\"",
+   "municipality": "Novi Beograd",
+   "website": "https://11april-nbgd.edu.rs",
+   "fillable": 5,
+   "held_buildings": [
+    {
+     "location_id": 47209,
+     "name": "Objekat Bajka",
+     "address": "Tošin bunar 134",
+     "phones": "011 2601941",
+     "has_hours": false
+    },
+    {
+     "location_id": 47221,
+     "name": "Objekat Balončići",
+     "address": "Rumska 2",
+     "phones": "011 2277144",
+     "has_hours": false
+    },
+    {
+     "location_id": 47218,
+     "name": "Objekat Bambi",
+     "address": "Zemunska 3b",
+     "phones": "011 2165441; 011 2165386",
+     "has_hours": false
+    },
+    {
+     "location_id": 47228,
+     "name": "Objekat Biser",
+     "address": "Omladinskih brigada 106",
+     "phones": "011 2152673; 011 2154762",
+     "has_hours": false
+    },
+    {
+     "location_id": 47242,
+     "name": "Objekat Dragan Laković",
+     "address": "Vojvođanska 109",
+     "phones": "011 3180009; 011 3180017",
+     "has_hours": false
+    },
+    {
+     "location_id": 47250,
+     "name": "Objekat Iskrica",
+     "address": "Marka Čelebanovića 75",
+     "phones": "011 6704774",
+     "has_hours": false
+    },
+    {
+     "location_id": 47222,
+     "name": "Objekat Istok",
+     "address": "Jurija Gagarina 168",
+     "phones": "011 2160911; 011 2156851",
+     "has_hours": false
+    },
+    {
+     "location_id": 47207,
+     "name": "Objekat Izvorčić",
+     "address": "Bul. Mihajla Pupina 175",
+     "phones": "011 2690406; 011 2693713",
+     "has_hours": false
+    },
+    {
+     "location_id": 47216,
+     "name": "Objekat Lane",
+     "address": "Bul. Arsenija Čarnojevića 143",
+     "phones": "011 2143956; 011 2143958",
+     "has_hours": false
+    },
+    {
+     "location_id": 47217,
+     "name": "Objekat Lastavica",
+     "address": "Milutina Milankovića 186",
+     "phones": "011 6146126; 011 6132980",
+     "has_hours": false
+    },
+    {
+     "location_id": 47197,
+     "name": "Objekat Leptirić",
+     "address": "Milentija Popovića 34",
+     "phones": "011 2133013; 011 2139199",
+     "has_hours": false
+    },
+    {
+     "location_id": 47220,
+     "name": "Objekat Ljubičica",
+     "address": "Vojvođanska 72",
+     "phones": "011 6279064",
+     "has_hours": false
+    },
+    {
+     "location_id": 47206,
+     "name": "Objekat Maja",
+     "address": "Gramšijeva 2a",
+     "phones": "011 2698501; 011 2698108",
+     "has_hours": false
+    },
+    {
+     "location_id": 47208,
+     "name": "Objekat Maslačak",
+     "address": "Otona Župančiča 39",
+     "phones": "011 2605955",
+     "has_hours": false
+    },
+    {
+     "location_id": 47244,
+     "name": "Objekat Mileve Marić Ajnštajn",
+     "address": "Mileve Marić Ajnštajn 88b",
+     "phones": "011 6300808",
+     "has_hours": false
+    },
+    {
+     "location_id": 47214,
+     "name": "Objekat Naša Radost",
+     "address": "Bul. Zorana Đinđića 114",
+     "phones": "011 2601568",
+     "has_hours": false
+    },
+    {
+     "location_id": 47210,
+     "name": "Objekat Petlić",
+     "address": "Studentska 2",
+     "phones": "011 2691995",
+     "has_hours": false
+    },
+    {
+     "location_id": 47215,
+     "name": "Objekat Poletarac",
+     "address": "Narodnih heroja 19a",
+     "phones": "011 3111457; 011 2134480",
+     "has_hours": false
+    },
+    {
+     "location_id": 47198,
+     "name": "Objekat Pčelica",
+     "address": "Antifašističke borbe 75",
+     "phones": "011 6132026; 011 6131179",
+     "has_hours": false
+    },
+    {
+     "location_id": 47203,
+     "name": "Objekat Slavuj SA Centralnom Kuhinjom Maja",
+     "address": "Bul. umetnosti 31",
+     "phones": "011 2131943; 011 2130242",
+     "has_hours": false
+    },
+    {
+     "location_id": 47213,
+     "name": "Objekat Srećko",
+     "address": "Pariske komune 31",
+     "phones": "011 2604250",
+     "has_hours": false
+    },
+    {
+     "location_id": 47226,
+     "name": "Objekat Srna SA Centralnom Kuhinjom Lane",
+     "address": "Omladinskih brigada 136",
+     "phones": "011 6151091; 011 7188886",
+     "has_hours": false
+    },
+    {
+     "location_id": 47225,
+     "name": "Objekat Sunce SA Centralnom Kuhinjom Sunce",
+     "address": "Nehruova 126",
+     "phones": "011 6277208",
+     "has_hours": false
+    },
+    {
+     "location_id": 47205,
+     "name": "Objekat Suncokret",
+     "address": "Palmira Toljatija 26a",
+     "phones": "011 2692891; 011 2693524",
+     "has_hours": false
+    },
+    {
+     "location_id": 47239,
+     "name": "Objekat Tesla-nauka ZA Život",
+     "address": "Bul. Crvene armije 1",
+     "phones": "011 3120049",
+     "has_hours": true
+    },
+    {
+     "location_id": 47201,
+     "name": "Objekat Vesna SA Centralnom Kuhinjom Vesna",
+     "address": "Bul. Zorana Đinđića 42",
+     "phones": "011 3115435",
+     "has_hours": false
+    },
+    {
+     "location_id": 47246,
+     "name": "Objekat Vrabac",
+     "address": "Danila Lekića Španca 2",
+     "phones": "011 2280047",
+     "has_hours": false
+    },
+    {
+     "location_id": 47200,
+     "name": "Objekat Zeka",
+     "address": "Bul. Zorana Đinđića 55",
+     "phones": "011 6141783; 011 6142622",
+     "has_hours": false
+    },
+    {
+     "location_id": 47238,
+     "name": "Objekat Zvezdana Prašina",
+     "address": "Nede Spasojević 14",
+     "phones": "011 2280640",
+     "has_hours": false
+    },
+    {
+     "location_id": 47224,
+     "name": "Objekat Zvončići",
+     "address": "Jurija Gagarina 215",
+     "phones": "011 6155879; 011 6155876",
+     "has_hours": false
+    },
+    {
+     "location_id": 47237,
+     "name": "Objekat Čarolija",
+     "address": "Bul. Zorana Đinđića 123",
+     "phones": "011 3120099",
+     "has_hours": false
+    },
+    {
+     "location_id": 47204,
+     "name": "Objekat Čigra",
+     "address": "Bul. umetnosti 25",
+     "phones": "011 2135506; 011 2135633",
+     "has_hours": false
+    },
+    {
+     "location_id": 47202,
+     "name": "Objekat Čuperak",
+     "address": "Bul. Mihajla Pupina 45",
+     "phones": "011 2138835; 011 3113941",
+     "has_hours": false
+    },
+    {
+     "location_id": 47236,
+     "name": "Objekat Đurđevak",
+     "address": "Jurija Gagarina 221",
+     "phones": "011 6160472",
+     "has_hours": false
+    },
+    {
+     "location_id": 47212,
+     "name": "Objekat Šećerko",
+     "address": "Pariske komune 33a",
+     "phones": "011 2674276",
+     "has_hours": false
+    },
+    {
+     "location_id": 47230,
+     "name": "Objekat Švrća 1 Depadansi",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 47231,
+     "name": "Objekat Švrća 2 Depadansi",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 47233,
+     "name": "Objekat Švrća 3 Depadansi",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 47234,
+     "name": "Objekat Švrća 4 Depadansi",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 47235,
+     "name": "Objekat Švrća 5 Depadansi",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    }
+   ]
+  }
+ ]
+}

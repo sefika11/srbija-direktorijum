@@ -1,0 +1,406 @@
+{
+ "id": "pu-03",
+ "rows": [
+  {
+   "org_slug": "predskolska-ustanova-nasa-radost-subotica",
+   "name": "Predškolska ustanova \"Naša Radost\"",
+   "municipality": "Subotica",
+   "website": "https://www.nasaradost.edu.rs",
+   "fillable": 56,
+   "held_buildings": [
+    {
+     "location_id": 46044,
+     "name": "Alisa",
+     "address": "A Marodića 39",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 45983,
+     "name": "Balončići",
+     "address": "Kosmajska 32",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46016,
+     "name": "Bambi",
+     "address": "Subotička 37",
+     "phones": null,
+     "has_hours": true
+    },
+    {
+     "location_id": 45966,
+     "name": "Bubamara",
+     "address": "Ivana Brlić Mažuranić 2",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46034,
+     "name": "Ciciban",
+     "address": "Igmanska 1",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46018,
+     "name": "Cvetići",
+     "address": "M. Gubec 147/6",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 45995,
+     "name": "Cvrčak",
+     "address": "Ivana Sarića 51",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46002,
+     "name": "Delfin",
+     "address": "Vladimira Nazora 7c",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 45984,
+     "name": "Duga",
+     "address": "Omladinske brigade 29",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 45982,
+     "name": "Hajdi",
+     "address": "Ivana Sarića 32",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46011,
+     "name": "Jagodica",
+     "address": "Veljka Vlahovića 10",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46039,
+     "name": "Kalimero",
+     "address": "Marka Oreškovića 21",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46057,
+     "name": "Kekec",
+     "address": "Pala Papa 14",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46013,
+     "name": "Klara",
+     "address": "Petra Drapšina 51",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46005,
+     "name": "Kockica",
+     "address": "JNA 27",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46033,
+     "name": "Kolibri",
+     "address": "I. G. Kovačića 9",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46081,
+     "name": "Labud",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46056,
+     "name": "Lane",
+     "address": "Baje Pivljanina 23",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46038,
+     "name": "Lastavica",
+     "address": "Dragiše Mišovića 21",
+     "phones": null,
+     "has_hours": true
+    },
+    {
+     "location_id": 46020,
+     "name": "Leptirići",
+     "address": "Edvarda Kardelja 114",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 45997,
+     "name": "Loptica",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46000,
+     "name": "Mak Đerđ",
+     "address": "Čikoš Bela 2",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46045,
+     "name": "Mala Alisa",
+     "address": "A. Marodića bb",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46043,
+     "name": "Mala Sirena",
+     "address": "Mohačka 33",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46069,
+     "name": "Mali Princ",
+     "address": "Sutjeska 82",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46036,
+     "name": "Mandarina",
+     "address": "Arsenija Čarnojevića 41",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46063,
+     "name": "Marija Petković",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46032,
+     "name": "Marija Petković - Biser",
+     "address": "Starine Novaka 58",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 45919,
+     "name": "Marijai Marija",
+     "address": "Karla Bitermana 20",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 45985,
+     "name": "Maslačak",
+     "address": "Cara Lazara 13",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46024,
+     "name": "Maštalica",
+     "address": "Majšanski put 95",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46004,
+     "name": "Morska Zvezda",
+     "address": "Vladimira Nazora bb",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 45920,
+     "name": "Naš Biser",
+     "address": "Edvarda Rusijana bb",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46030,
+     "name": "Neven",
+     "address": "Rade Končara 25",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46008,
+     "name": "Palčica",
+     "address": "Tolstojeva 8",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 45986,
+     "name": "Pepeljuga",
+     "address": "Nikole Tesla 6",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46042,
+     "name": "Pera Detlić",
+     "address": "Beogradski put 47",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46022,
+     "name": "Petar Pan",
+     "address": "I. L. Ribara bb",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 45979,
+     "name": "Pinokio",
+     "address": "Bratstva jedinstva bb",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46019,
+     "name": "Plavi Zec",
+     "address": "Bajski put 22",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46006,
+     "name": "Poletarac",
+     "address": "Matije Gupca 31",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 45998,
+     "name": "Pčelica",
+     "address": "Aksentija Marodića bb",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46035,
+     "name": "Sanda Marjanović",
+     "address": "Pazinska 4",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46061,
+     "name": "Senica",
+     "address": "Omladinskih brigada 29",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 45994,
+     "name": "Snežana",
+     "address": "S. P. Krcuna 5",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46001,
+     "name": "Sunce",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46052,
+     "name": "Suncokret",
+     "address": "Ludoška bb",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 45996,
+     "name": "Sunčica",
+     "address": null,
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46007,
+     "name": "Veverica",
+     "address": "Zrinjskog i Frankopana 13",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 45971,
+     "name": "Visibaba",
+     "address": "Trogirska bb",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46031,
+     "name": "Zeka",
+     "address": "Gundulićeva 39",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 45987,
+     "name": "Zlatna Ribica",
+     "address": "Doroslovačka 22",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46021,
+     "name": "Zvezdice",
+     "address": "Šabačka 7b",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 46058,
+     "name": "Zvončica",
+     "address": "Bajski Put 25",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 45836,
+     "name": "Šumica",
+     "address": "Banijska bb",
+     "phones": null,
+     "has_hours": false
+    },
+    {
+     "location_id": 45960,
+     "name": "Šumica - Jasle",
+     "address": "Banijska bb",
+     "phones": null,
+     "has_hours": false
+    }
+   ]
+  }
+ ]
+}
