@@ -162,7 +162,8 @@ travel agencies (register behind a CAPTCHA). Pharmacies were not reloaded: the R
 
 Rules that came out of it:
 - **Natural persons** (experts, mediators, administrators, appraisers): name, town, phone, e-mail and field as the
-  register publishes them; the street address is not republished.
+  register publishes them; the street address is not republished. Offices and shops open to the public are the
+  exception, see the decision of 2026-11-12 in §16.
 - **Public institutions are matched before loading.** Same municipality and same normalised name means the existing
   organisation is re-typed and gets the contacts; it is never inserted twice. Rows that match two existing
   organisations are skipped (the database already holds a duplicate to clean up).
@@ -427,9 +428,13 @@ Nick's go-ahead after the census of §15: import the sectors where the map is st
 - Labelling: organisations and locations are `unverified` (chip "Nepotvrđeno"); phones carry the label and hours the note
   `OpenStreetMap`; the "O instituciji" text says the data comes from the open map and is not an official register; e-mail
   addresses are not taken. A place held only by its map point gets directions to the point.
-- Judgement call to revisit if Nick disagrees: car services and small shops include sole-proprietor businesses. They are
-  listed at their shop address as the map shows it (premises open to the public), like the exchange offices and pharmacies
-  already held; only entries whose name is nothing but a person's name were left out.
+- Car services and small shops include sole-proprietor businesses. They are listed at their shop address as the map
+  shows it (premises open to the public), like the exchange offices and pharmacies already held; only entries whose
+  name is nothing but a person's name were left out.
+- **Decided by Nick, 2026-11-12 ("keep all"):** office and shop addresses stay public. That covers these sole-proprietor
+  shops, notaries (228), enforcement officers (213) and the 83 lawyers whose office street came from the map. The rule of
+  §9 keeps applying to persons listed without an office of their own: court experts, mediators, administrators,
+  appraisers, interpreters. Open point inside the kept set: one enforcement officer's address reads "stan br. 2".
 - Same day: 1,294 organisations from the map import of 2026-11-09 (private practices, dentists, lawyers, vets, driving
   schools, estate agents, accountants) carried `auto_verified`, shown as "Iz zvaničnog registra". Set to `unverified`
   (`db/fixes/map_only_unverified_2026-11-12_014743.json`). City municipalities by coordinates after the import: 737
