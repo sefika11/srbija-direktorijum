@@ -5,11 +5,11 @@
 
 Each body published its own booklet, so the values are the body's own. Only gaps are filled, on the organisation's seat:
   website   when we hold none and the value is a plain ASCII domain
-  e-mail    when the seat has none; an address in a person's name (ime.prezime@) is left out
+  e-mail    when the seat has none; a first.last@ mailbox is left out unless one half is a role word or an abbreviation
   hours     when the seat has none. A short text with one time range ("07.30-15.30") becomes Monday to Friday with the note
             "Informator o radu" (the page says where the hours come from); a longer text up to 220 characters is shown as
             text; "24 hours", shift descriptions and anything longer are left out
-  street    when the seat has none and the booklet gives a street with a number
+  street    when the seat has none and the booklet gives one street with a number ("ul.", "br.", "broj" are dropped)
 Nothing we already hold is overwritten. Commits every 200 organisations. Ids go to db/fixes/informator_applied_<stamp>.json.
 """
 import collections, json, os, re, sys, time
@@ -29,11 +29,17 @@ def site(s):
     if not s or not s.isascii() or " " in s or "." not in s or "@" in s: return None
     s = s if re.match(r"^https?://", s, re.I) else "http://" + s
     return s if re.match(r"^https?://[a-z0-9.-]+\.[a-z]{2,}(/\S*)?$", s, re.I) else None
+ROLE = set("""info office kontakt opstina grad uprava skola os dz mz jkp jp pu csr kabinet sekretar sekretarijat direktor direkcija biblioteka centar muzej
+pisarnica racunovodstvo pravna sluzba vrtic gimnazija arhiv sud tuzilastvo dom zavod institut fakultet turizam kultura sport apoteka bolnica""".split())
 def mail(s):
-    s = (s or "").strip().lower()
-    if not re.match(r"^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$", s): return None
-    if re.match(r"^[a-z]+\.[a-z]+@", s) and not re.match(r"^(info|office|kontakt|opstina|grad|uprava|skola|os|dz|mz|jkp|jp|pu)\b", s): return None
-    return s
+    """The first usable address. A first.last@ mailbox is left out unless one half is a role word or an abbreviation (csr, mz, kv)."""
+    for part in re.split(r"[;,\s]+", (s or "").strip().lower()):
+        part = part.strip("-–.")
+        if not re.match(r"^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$", part): continue
+        m = re.match(r"^([a-z]+)\.([a-z]+)$", part.split("@")[0])
+        if m and not (set(m.groups()) & ROLE or min(len(x) for x in m.groups()) <= 3): continue
+        return part
+    return None
 def hours(s):
     """-> ("rows", opens, closes) | ("text", latin text) | None"""
     t = val(s)
@@ -47,7 +53,12 @@ def street(s, city):
     t = val(s)
     if not t or re.match(r"^nema ", t, re.I) or t.lower() == (val(city) or "").lower(): return None
     t = t.split(",")[0].strip()
+    if len(t) > 45 or re.search(r"[:;(]| i ulica |\bdeo\b|^\d{5}\b", t, re.I): return None   # two addresses, a remark or a postal code, not one street
+    t = re.sub(r"^(ulica|ul)\b\.?\s*", "", t, flags=re.I)
+    t = re.sub(r"\s*\b(broj|br)(?:\b[\s.]*|(?=\d))(?=\d|bb\b)", " ", t, flags=re.I)
+    t = re.sub(r"\s{2,}", " ", re.sub(r"[.\s]+$", "", t)).strip()
     if t == t.upper(): t = " ".join(w[:1] + w[1:].lower() for w in t.split())
+    t = t[:1].upper() + t[1:]
     return t if re.search(r"\d|\bbb\b", t) and re.search(r"[A-Za-zČĆŠŽĐčćšžđ]{3}", t) else None
 
 stats = collections.Counter(); log = []

@@ -597,3 +597,27 @@ hours, resumable, body fields only) into `.cache/informator/bodies.jsonl`; `appl
 fills gaps only (website, e-mail without a person's name, street, hours: a single short range becomes Monday to Friday with
 the note "Informator o radu", which the page explains; longer text is shown as text). On the 30-body sample: 26 matched,
 11 hours, 8 e-mails, 4 websites, 2 streets. Source `informator_poverenik` (`db/seed_patch_027`).
+
+**Informator, full read and apply (2026-11-12, night).** `fetch_all.py` read all 7,519 bodies in 301 minutes, no errors.
+`apply_bodies.py` matched 6,247 by registry number (149 booklets carry no number; 1,123 are bodies we do not hold, mostly
+municipal councils, assemblies, mayors' offices and election commissions, which share no counter with the public and are
+not imported; 112 matched bodies have no seat with us, mostly Kosovo rows). Written, gaps only, backup taken first
+(`srbdir_2026-11-12_2121`): 5,316 organisations gained a field: hours as Monday-to-Friday rows 3,749, hours as text 632,
+official e-mail 2,974, website 1,533, street 1,288. Log and undo ids: `db/fixes/informator_applied_2026-11-12_222241.json`.
+Two cleaning faults were found on a sample before the write and fixed in the script: a street kept "br." / "broj" / "ul."
+("Kneginje Milice broj"), and a body's mailbox such as `brus.csr@…` was dropped as if it were a person's (a first.last@
+mailbox is now left out only when neither half is a role word or an abbreviation). A street longer than 45 characters, with
+a remark, two addresses or a leading postal code is not taken. Known limits: a community office often gives its
+municipality's website as its own, and a village address is "<village> bb". After-import pass: 27 locations filed under a
+city municipality, 530 new map points, all nine data rules pass.
+
+Measured after it (38,006 institution locations, listed persons apart): street 73.7% (was 70%), phone 49.1% (unchanged: the
+portal has no general phones), website 53.4% (was 42%), hours 38.0% (was 26%), e-mail 37.3%, all four of street, phone,
+website and hours 21.9%. Organisation pages with only a name and a town: 3,143 (was 4,403). Seats with a street now:
+community offices 1,727 of 3,855, primary schools 1,137 of 1,143, public companies 259 of 706.
+
+**What is left for coverage** (checked against §10–§18, `data_sources`, `db/imports/` and the agents' summaries): kindergarten
+buildings (2,060 buildings of 158 institutions, 1,379 without a street, 1,586 without a phone; 118 institutions have a site;
+same method as the health-centre branches) is the one sizeable pass an open source can still fill. School branch buildings
+(2,198) rarely have a phone or address of their own. Pharmacy hours (2,772 missing) sit behind the chains' bot checks.
+Exchange offices and youth associations have an address only and no open source for more.
