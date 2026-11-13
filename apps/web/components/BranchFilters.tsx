@@ -1,6 +1,6 @@
 "use client";
 /** Branch hubs (banks, insurers, telecom shops, national networks): pick your place, narrow to one brand. URL-driven so links are shareable. */
-import Link from "next/link";
+import Link from "@/components/Link";
 import { useRouter } from "next/navigation";
 import Combobox from "./Combobox";
 import type { Locale } from "@/lib/i18n";

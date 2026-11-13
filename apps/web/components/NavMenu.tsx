@@ -1,7 +1,7 @@
 "use client";
 /** Header menu for narrow screens: the links that do not fit in the bar, plus the language choice on phones.
  *  Closes on a link, on Escape and on a press outside. */
-import Link from "next/link";
+import Link from "@/components/Link";
 import { useEffect, useRef, useState } from "react";
 
 export default function NavMenu({ label, items, langs, langLabel }: {

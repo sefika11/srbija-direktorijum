@@ -4,7 +4,7 @@
  *  a static linked SVG on the hubs). The 3D/2D toggle sits bottom-right so it never covers the SVG zoom buttons. */
 import { useEffect, useState, type ReactNode } from "react";
 import dynamic from "next/dynamic";
-import Link from "next/link";
+import Link from "@/components/Link";
 import { pick, type Locale } from "@/lib/i18n";
 import { MAP_VIEWBOX } from "@/lib/serbia-map";
 import type { Feature3D, Context3D, BBox, Labels3D } from "./SerbiaMap3D";

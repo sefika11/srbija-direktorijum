@@ -1439,3 +1439,11 @@ html:root .quick-chip.is-on .text-muted, html:root .quick-chip[aria-selected="tr
 .serving-more li span { color: var(--muted); font-size: 13px; }
 .serving-more li a.tabular { white-space: nowrap; font-size: 13.5px; }
 @media (max-width: 640px) { .serving-more li { grid-template-columns: minmax(0, 1fr) auto; } .serving-more li span { grid-column: 1 / -1; grid-row: 2; } }
+
+/* Serbian letters from a 3 kB file. Fontsource puts č ć đ š ž in each font's whole latin-ext file (Unbounded: 118 kB), and
+   every Serbian page needs them, so every page paid for it. These faces come after Fontsource's and cover only those ten
+   letters; where ranges overlap the last face wins, so the big file is fetched only for a page that carries another
+   latin-ext letter (a Hungarian or Slovak name). Cut with pyftsubset from the same Fontsource files; weight axis kept. */
+@font-face { font-family: 'Unbounded Variable'; font-style: normal; font-display: swap; font-weight: 200 900; src: url(./fonts/unbounded-sr-wght-normal.woff2) format('woff2-variations'); unicode-range: U+0106-0107, U+010C-010D, U+0110-0111, U+0160-0161, U+017D-017E; }
+@font-face { font-family: 'Commissioner Variable'; font-style: normal; font-display: swap; font-weight: 100 900; src: url(./fonts/commissioner-sr-wght-normal.woff2) format('woff2-variations'); unicode-range: U+0106-0107, U+010C-010D, U+0110-0111, U+0160-0161, U+017D-017E; }
+@font-face { font-family: 'JetBrains Mono Variable'; font-style: normal; font-display: swap; font-weight: 100 800; src: url(./fonts/jetbrains-mono-sr-wght-normal.woff2) format('woff2-variations'); unicode-range: U+0106-0107, U+010C-010D, U+0110-0111, U+0160-0161, U+017D-017E; }

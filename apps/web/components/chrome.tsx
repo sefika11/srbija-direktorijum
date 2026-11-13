@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/Link";
 import HtmlLang from "./HtmlLang";
 import type { Locale } from "@/lib/i18n";
 import { t, href, pick, LOCALES, LOCALE_LABEL } from "@/lib/i18n";

@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/Link";
 import { ROADMAPS, ROAD_LABELS } from "@/lib/roadmaps";
 import { catName } from "@/lib/guide-cats";
 import * as db from "@/lib/db";

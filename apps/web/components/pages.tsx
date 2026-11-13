@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 import { tx } from "@/lib/content-i18n";
 import { catName } from "@/lib/guide-cats";
-import Link from "next/link";
+import Link from "@/components/Link";
 import type { Locale } from "@/lib/i18n";
 import { t, href, tn, pick } from "@/lib/i18n";
 import * as db from "@/lib/db";

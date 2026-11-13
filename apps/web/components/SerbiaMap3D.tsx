@@ -7,7 +7,7 @@
  * so the hover glow is material colour plus a normal-blended halo under the unit.
  */
 import { useEffect, useMemo, useRef, useState } from "react";
-import Link from "next/link";
+import Link from "@/components/Link";
 import { useRouter } from "next/navigation";
 import * as THREE from "three";
 import { MAP_W, MAP_H, MAP_VIEWBOX } from "@/lib/serbia-map";

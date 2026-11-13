@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/Link";
 import type { Locale } from "@/lib/i18n";
 import { t, href, tn, pick } from "@/lib/i18n";
 import * as db from "@/lib/db";

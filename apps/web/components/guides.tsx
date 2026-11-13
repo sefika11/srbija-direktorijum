@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/Link";
 import { tx } from "@/lib/content-i18n";
 import { catName } from "@/lib/guide-cats";
 import * as db from "@/lib/db";

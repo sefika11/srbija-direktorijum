@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/Link";
 import { Header, Footer } from "@/components/chrome";
 import SearchBox from "@/components/SearchBox";
 export const metadata = { title: "Stranica nije pronađena · Page not found" };

@@ -1,6 +1,6 @@
 "use client";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import Link from "next/link";
+import Link from "@/components/Link";
 import { useRouter } from "next/navigation";
 import { MAP_H, MAP_W, OKRUG_SHAPES } from "@/lib/serbia-map";
 import type { JlsShape } from "@/lib/serbia-map-jls";

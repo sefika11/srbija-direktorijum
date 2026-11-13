@@ -3,7 +3,7 @@
  * each roadmap is one numbered road with a card per step that opens the verified guide, the institution type or the
  * visa pages. Server-rendered, no client code.
  */
-import Link from "next/link";
+import Link from "@/components/Link";
 import * as db from "@/lib/db";
 import { href, t, tn, type Locale } from "@/lib/i18n";
 import { Breadcrumbs } from "./ui";

@@ -566,3 +566,20 @@ kinds, the three forms up to the submit button) found no page that scrolls sidew
 
 Left as it is, noted for later: the national list of a branch network is long on a phone (health centres: 86 screens;
 the place filter is at the top), eyebrow labels are 10 px, and the ad placeholder names the desktop size.
+
+## 34. Page speed on phones (2026-11-13)
+
+Measured with Lighthouse 12 (mobile, simulated slow 4G, 4x CPU slowdown) on nine live page types. Before: home 43;
+institution page 83; list pages 88 and 99; Belgrade 84; guide 82; search 99; visas 72; roadmaps 99. No layout shift anywhere.
+
+- **Serbian letters come from 3 kB files.** Fontsource keeps č ć đ š ž in each font's whole latin-ext file (Unbounded:
+  118 kB), so every page fetched 160 kB of fonts for ten letters. `app/fonts/*-sr-wght-normal.woff2` hold only those
+  letters (cut with `pyftsubset` from the Fontsource files, weight axis kept) and the `@font-face` rules at the end of
+  `globals.css` come last, so they win. The full latin-ext file loads only on a page with another latin-ext letter.
+  To re-cut after a font update: `pyftsubset <latin-ext file> --unicodes="U+0106,U+0107,U+010C,U+010D,U+0110,U+0111,U+0160,U+0161,U+017D,U+017E" --flavor=woff2 --layout-features='*'`.
+- **Links do not prefetch.** `components/Link.tsx` is `next/link` with `prefetch={false}`; every component imports it
+  instead of `next/link`. A directory page has hundreds of links and each one in view was fetched: Belgrade pulled 380 kB
+  of other pages, and every prefetch is a request against the hosting plan. Pass `prefetch` to turn it on for one link.
+- **Open, Nick's call.** The home intro curtain keeps anything readable off the screen for about 3.6 s on a first visit
+  (up to 4 s blank on a slow phone before it gives up). The visa page loads the 3D globe on phones too (172 kB of
+  script, about 2 s of processor time on a mid-range phone).
