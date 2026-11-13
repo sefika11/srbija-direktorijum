@@ -666,3 +666,20 @@ search the docs for the KIND in English as well ("preschool", "kindergarten"), n
   bolesti "Dr Laza Lazarević" exists twice). A pass over map-made entries whose name equals a held institution in the
   same city would merge them.
 - UI faults from the same walkthrough: `docs/07` §33.
+
+**Map-made second entries folded into the held institution** (2026-11-13).
+- `tools/reach/merge_map_into_register.py` (2026-11-12) folds a map entry into a register entry of the same kind. Left
+  over were map entries filed under another kind than the institution we hold: the map import files a clinic as
+  "privatna ordinacija", so public clinics and institutes from the Treasury list had a second entry.
+- `tools/reach/merge_map_into_held.py` (dry run by default, `--write`; undo `db/fixes/merged_map_into_held_2026-11-13_135410.json`):
+  a map entry is folded into an entry from any other source in the same city when, without legal-form words and the
+  town's name, the two names are the same words. A two-word name also needs the same door or map points within 150 m.
+  A person's register entry is never a target. Ten pairs the rule misses are decided by hand in `BY_HAND`.
+- Of 1,323 map-made entries: 24 folded (18 merged into the held seat, 6 moved in as a unit of it), 4 two-word names left
+  for want of a shared place, 527 names too short to match (one word), 768 with no held twin. Two held seats took a
+  street from the map (Veterinarski specijalistički institut Niš, Klinika za dentalnu medicinu Niš).
+- Correction to the block above: two of the nine entries made in the clinic fix were already held under a longer name
+  (the health institutes of the Ministry of Interior and of the railways). They are among the 18 merged, so the clinic
+  fix leaves seven new entries, not nine. Lesson: a check for "do we hold it" must not cap its result list.
+- Left by reading: "Juhas Nekretnine" and "Veterinarska stanica Bikovo" (likely the same business, no proof), "Dental
+  Studio", the "Trange Frange" office filed as an accounting agency. Map entry against map entry was not looked at.
