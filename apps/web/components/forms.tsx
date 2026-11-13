@@ -84,7 +84,7 @@ export function CorrectionBlock({ locale, entityType, entityId, pagePath, lastCh
         <form onSubmit={submit} className="mt-3 grid gap-2">
           <textarea name="message" required rows={3} placeholder={d.whatIsWrong} className="rounded-md border border-line bg-surface px-3 py-2 text-[14px]" />
           <input name="email" type="email" placeholder={d.yourEmailOptional} className="rounded-md border border-line bg-surface px-3 py-2 text-[14px]" />
-          <div><button type="submit" className="rounded-md bg-accent text-white px-4 py-2 text-[14px] font-medium">{d.send}</button></div>
+          <div><button type="submit" className="btn-primary">{d.send}</button></div>
         </form>
       )}
       <p className="text-[12px] text-muted mt-3">{d.reviewNote}</p>
@@ -120,7 +120,7 @@ export function ClaimBlock({ locale, orgId, locationId, person }: { locale: Loca
           <input name="name" required placeholder={L.name} className="rounded-md border border-line bg-surface px-3 py-2 text-[14px]" />
           <input name="role" placeholder={L.role} className="rounded-md border border-line bg-surface px-3 py-2 text-[14px]" />
           <input name="email" type="email" required placeholder={L.email} className="rounded-md border border-line bg-surface px-3 py-2 text-[14px]" />
-          <input name="phone" placeholder={L.phone} className="rounded-md border border-line bg-surface px-3 py-2 text-[14px]" />
+          <input name="phone" type="tel" inputMode="tel" autoComplete="tel" placeholder={L.phone} className="rounded-md border border-line bg-surface px-3 py-2 text-[14px]" />
           <textarea name="message" rows={2} placeholder={L.message} className="rounded-md border border-line bg-surface px-3 py-2 text-[14px] sm:col-span-2" />
           <div className="sm:col-span-2"><button type="submit" className="btn-primary">{L.send}</button></div>
         </form>

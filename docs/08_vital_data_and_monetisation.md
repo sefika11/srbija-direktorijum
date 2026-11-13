@@ -646,3 +646,23 @@ search the docs for the KIND in English as well ("preschool", "kindergarten"), n
 - Gave nothing: sites that render in the browser only (Lazarevac), and sites that print one contact for the whole
   institution. Kindergarten buildings now: 2,062, without a street 1,331, without a phone 1,511, with a village or town 1,351.
   What is left has no open source: village groups and hosted groups have no address of their own.
+
+**Map clinics put where they belong** (2026-11-13, found on the phone walkthrough; first noted in §15).
+- The map import of 2026-11-09 gave every map point named like a public clinic to one health centre per city: 334 rows.
+  In Belgrade 103 hung on Dom zdravlja "Savski venac", among them fifteen other health centres, institutes, hospitals
+  and private clinics.
+- `tools/reach/fix_map_clinics.py` (dry run by default, `--write`; log and undo `db/fixes/map_clinics_2026-11-13_021144.json`):
+  the right institution is the health centre the name starts with, else (in a city with several) the health centre of
+  the row's city municipality, else the institution we hold under that name. Inside it the row merges into a location
+  held at the same address, or moves in as a unit. "Dr Milutin Ivković" is filed under the city, so it takes Palilula,
+  the one city municipality without a health centre of its own.
+- Result: 155 stay, 99 merged into a location the right institution already had (status `merged`), 61 moved, 9 became
+  entries of their own, 2 became units of a new entry, 8 set `inactive` (six institutes of the medical faculty, one
+  toxicology institute, one unclear hospital name). Dom zdravlja "Savski venac" now lists 5 units, all its own.
+- New entries, map-sourced and labelled so: Gradski zavod za hitnu medicinsku pomoć (Belgrade, with two posts), the
+  health institutes of the Ministry of Interior and of the railways, Zavod za stomatologiju Kragujevac, Specijalna bolnica
+  za endemsku nefropatiju, and four private clinics. The rows no rule could place are decided by hand in `BY_HAND`.
+- Seen and left: the map import also made a second entry for some institutions we already held (Klinika za psihijatrijske
+  bolesti "Dr Laza Lazarević" exists twice). A pass over map-made entries whose name equals a held institution in the
+  same city would merge them.
+- UI faults from the same walkthrough: `docs/07` §33.

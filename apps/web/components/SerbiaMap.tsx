@@ -136,6 +136,7 @@ export default function SerbiaMap({ okruzi, jls, locale, labels, variant = "ligh
     } else {
       const dx = e.clientX - p.x, dy = e.clientY - p.y; moved.current += Math.abs(dx) + Math.abs(dy);
       const v = viewRef.current;
+      if (e.pointerType === "touch" && !focused && base.w / v.w < 1.03) { pointers.current.set(e.pointerId, { x: e.clientX, y: e.clientY }); return; }   // whole country on a phone: the finger scrolls the page
       setView(clampView({ x: v.x - dx * (v.w / size.w), y: v.y - dy * (v.h / size.h), w: v.w, h: v.h }));
     }
     pointers.current.set(e.pointerId, { x: e.clientX, y: e.clientY });
@@ -202,7 +203,7 @@ export default function SerbiaMap({ okruzi, jls, locale, labels, variant = "ligh
   );
   return (
     <div className={hero ? "relative grid gap-4" : "grid gap-4 lg:grid-cols-[minmax(0,1fr)_300px] items-stretch"}>
-      <div ref={wrapRef} className={`map-stage relative ${stageH} rounded-2xl overflow-hidden border border-line select-none`} style={{ touchAction: "none" }}>
+      <div ref={wrapRef} className={`map-stage relative ${stageH} rounded-2xl overflow-hidden border border-line select-none`} style={{ touchAction: focused || base.w / view.w >= 1.03 ? "none" : "pan-y" }}>{/* at the whole-country view a finger drag scrolls the page; the map takes the drag once it is zoomed in */}
         <svg ref={svgRef} viewBox={`${view.x} ${view.y} ${view.w} ${view.h}`} className="absolute inset-0 w-full h-full"
              role="img" aria-label={pick(locale, "Mapa Srbije po okruzima i opštinama", "Map of Serbia by district and municipality", "Карта Сербии по округам и общинам", "Karte Serbiens nach Bezirken und Gemeinden")} preserveAspectRatio="xMidYMid meet"
              onPointerDown={onPointerDown} onPointerMove={(e) => { trackIntent(e); onPointerMove(e); }} onPointerUp={onPointerUp} onPointerCancel={onPointerUp} onPointerLeave={dropIntent}

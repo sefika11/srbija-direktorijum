@@ -538,3 +538,31 @@ The site went from 15,000 to 28,000 entries in a day and pages that listed "ever
 - Why: on 2026-11-11 the database plan quota ran out and every page returned 500, because every view queried the
   database. With static pages the database wakes for searches, filtered views, the daily re-make and imports only.
 - Data changes show within a day. After a large import, redeploy (or add on-demand revalidation) to show it at once.
+
+## 33. Phone walkthrough rules (2026-11-13)
+
+A walk through the site at 375 px wide (home, search, menus, 21 structural pages, 28 institution pages of the 20 commonest
+kinds, the three forms up to the submit button) found no page that scrolls sideways. What it did find became rules:
+
+- **A map never traps the page.** `SerbiaMap` sets `touch-action: pan-y` at the whole-country view, so a finger drag
+  that starts on the map scrolls the page; once the map is zoomed in or a district is open it is `none` and the drag
+  moves the map. The home button brings back the whole country and with it page scrolling.
+- **Clip, not hidden, around decoration.** A box with `overflow: hidden` can still be scrolled sideways by focus or by
+  `scrollIntoView`; the home hero slid 140 px that way. Where decoration is wider than a phone (`.hero-open`,
+  `.site-footer`, `.heritage`) the rule is `overflow: hidden; overflow: clip;`.
+- **The action row is one row.** `.act-row` (call, directions, website under the page head) never wraps: below 430 px the
+  word "Pozovi" is left out (the icon and the number say it, the link keeps its `aria-label`), and a longer language
+  scrolls the row sideways. Wrapped, the sticky row and the header took a fifth of the screen.
+- **A label column needs room for its longest word.** Below 480 px `.vital-row` puts the label above its values; the
+  84 px column broke "administracija" in the middle of the word.
+- **Finger sizes.** On a coarse pointer the branch-list toggle is 44 px high, branch rows get 9 px of padding, and form
+  checkboxes are 18 px.
+- **Form buttons are `btn-primary`.** A utility-class button (`bg-accent text-white`) lost its text colour to the global
+  button rule and showed dark text on navy. Phone fields are `type="tel"`.
+- **Related entries are the same kind first.** The "Povezano" list on an institution page orders the same kind first,
+  then the same city municipality; before, a lawyer's page listed exchange offices because they sort first.
+- **No jurisdiction line for a map-sourced private entry**, and its text block is headed "O instituciji", not
+  "Podaci iz registra": the block itself says the data is not from a register.
+
+Left as it is, noted for later: the national list of a branch network is long on a phone (health centres: 86 screens;
+the place filter is at the top), eyebrow labels are 10 px, and the ad placeholder names the desktop size.

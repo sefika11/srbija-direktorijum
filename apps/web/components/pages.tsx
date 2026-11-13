@@ -708,7 +708,7 @@ export async function OrgPage({ locale, org, locSlug, path }: { locale: Locale; 
   const title = loc && !loc.is_primary ? unitTitle(org.name_lat, unitName(loc.unit_name_lat, locale)) : org.name_lat;
   const related = jls ? await db.sql<db.OrgRow[]>`select o.id, o.slug, o.name_lat, o.name_cyr, o.official_name_lat, t.slug as type_slug, t.name_lat as type_name, t.name_en as type_name_en, t.name_ru as type_name_ru, t.name_de as type_name_de, t."group" as group, o.jurisdiction, null::text as founder_slug, null::text as founder_name, null::text as place_name, null::text as place_slug, o.verification, null::text as mb, null::text as pib, null::text as jbkjs, o.website, null::bigint as parent_id, null::text as parent_name, null::text as parent_slug, null::text as parent_type_slug, null::text as last_seen_at
       from organizations o join org_types t on t.id = o.org_type_id join territorial_units f on f.id = o.founder_unit_id
-      where t."group" = ${org.group} and o.id <> ${org.id} and o.status = 'active' and f.path <@ ${jls.path}::ltree and t.slug <> 'mesna-zajednica' order by t.sort_order, o.name_lat limit 8` : [];
+      where t."group" = ${org.group} and o.id <> ${org.id} and o.status = 'active' and f.path <@ ${jls.path}::ltree and t.slug <> 'mesna-zajednica' order by (t.slug = ${org.type_slug}) desc, (f.slug = ${loc?.tu_slug ?? ""}) desc, t.sort_order, o.name_lat limit 8` : [];
   const DAYS = locale === "sr" ? ["Pon", "Uto", "Sre", "Čet", "Pet", "Sub", "Ned"] : locale === "en" ? ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"] : locale === "ru" ? ["Пн", "Вт", "Ср", "Чт", "Пт", "Сб", "Вс"] : ["Mo", "Di", "Mi", "Do", "Fr", "Sa", "So"];
   const regLine = [org.mb && `MB ${org.mb}`, org.pib && `PIB ${org.pib}`, org.jbkjs && `JBKJS ${org.jbkjs}`].filter(Boolean).join(" · ");
   // Where the data really came from, and what the register says about this entry. The founder line is shown only for
@@ -742,8 +742,8 @@ export async function OrgPage({ locale, org, locSlug, path }: { locale: Locale; 
       </div></section>
       <div className="shell">
       <div className="sticky top-[69px] z-10 -mx-4 px-4 py-2.5 bg-bg/95 backdrop-blur border-b border-line lg:static lg:bg-transparent lg:border-0 lg:p-0 lg:m-0 lg:mt-5">
-        <div className="flex flex-wrap items-center gap-2">
-          {phones[0] ? <a href={`tel:${phones[0].value}`} className="btn-primary"><Icon.phone /> {d.call} {phones[0].value_display ?? phones[0].value}</a>
+        <div className="act-row flex items-center gap-1.5 sm:gap-2">
+          {phones[0] ? <a href={`tel:${phones[0].value}`} className="btn-primary" aria-label={`${d.call} ${phones[0].value_display ?? phones[0].value}`}><Icon.phone /> <span className="max-[430px]:hidden">{d.call}</span> {phones[0].value_display ?? phones[0].value}</a>
                      : <span className="inline-flex items-center gap-1.5 rounded-[10px] bg-surface-2 text-muted px-3.5 py-2 text-[13.5px]"><Icon.phone /> {pick(locale, "Telefon nije poznat", "Phone unknown", "Телефон неизвестен", "Telefon unbekannt")}</span>}
           <a href={`https://www.google.com/maps/search/?api=1&query=${mapsQ}`} rel="noopener nofollow" target="_blank" className="quick-chip !py-2 !rounded-[10px] font-medium"><Icon.pin /> {d.directions}</a>
           {site && <a href={site.startsWith("http") ? site : `https://${site}`} rel="noopener" target="_blank" className="quick-chip !py-2 !rounded-[10px] font-medium">{d.website} ↗</a>}
@@ -789,10 +789,10 @@ export async function OrgPage({ locale, org, locSlug, path }: { locale: Locale; 
               : n === "Informator o radu" ? pick(locale, "Radno vreme koje je organ sam objavio u svom Informatoru o radu. Rad sa strankama može biti kraći; proverite pre dolaska.", "Working hours as the body itself published them in its information booklet (Informator o radu). Counter hours for the public may be shorter; check before you go.", "Часы работы, которые орган сам опубликовал в своём информаторе (Informator o radu). Приём граждан может быть короче; уточните перед визитом.", "Arbeitszeit, wie die Stelle sie selbst in ihrem Informationsblatt (Informator o radu) veröffentlicht hat. Der Parteienverkehr kann kürzer sein; bitte vorher prüfen.")
               : n}</p>)}
           </section>}
-          {(coverage.length > 0 || locations.length > 1 || org.parent_name || children.length > 0) && (
+          {((coverage.length > 0 && !mapOnly) || locations.length > 1 || org.parent_name || children.length > 0) && (
             <section data-reveal data-fx="flip" className="card p-4 sm:p-5 mt-5">
               <SectionTitle>{d.jurisdiction}</SectionTitle>
-              {coverage.length > 0 && <p className="text-[14px]">{d.coveredAreas}: <span className="inline-flex flex-wrap gap-1.5 align-middle">{coverage.map((c) => <Link key={c.slug} href={tuHref(locale, c)} className="rounded-full border border-line bg-surface px-2.5 py-0.5 text-[12.5px] no-underline text-ink">{c.name_lat}</Link>)}</span></p>}
+              {coverage.length > 0 && !mapOnly && <p className="text-[14px]">{d.coveredAreas}: <span className="inline-flex flex-wrap gap-1.5 align-middle">{coverage.map((c) => <Link key={c.slug} href={tuHref(locale, c)} className="rounded-full border border-line bg-surface px-2.5 py-0.5 text-[12.5px] no-underline text-ink">{c.name_lat}</Link>)}</span></p>}
               {locations.length > 1 && locations.length <= 13 && <div className="mt-3 text-[14px]"><span className="text-muted">{d.units}:</span> {locations.filter((l) => !loc || l.location_id !== loc.location_id).map((l, i) => <span key={l.location_id}>{i > 0 && " · "}<Link href={href(locale, `/${org.type_slug}/${org.slug}/${l.location_slug}`)}>{unitName(l.unit_name_lat, locale)}</Link></span>)}</div>}
               {/* many units (a preschool institution with dozens of kindergartens): every one is listed, by name */}
               {locations.length > 13 && <details className="mt-3 unit-list" open={!isUnit}><summary>{d.units} <span className="text-muted tabular font-normal">({(locations.length - 1).toLocaleString(locale === "sr" ? "sr-Latn" : locale)})</span></summary>
@@ -803,7 +803,7 @@ export async function OrgPage({ locale, org, locSlug, path }: { locale: Locale; 
           )}
           {vertical && <LeadForm locale={locale} vertical={{ ...vertical, name_lat: tx(vertical.name_lat, locale), pitch_lat: tx(vertical.pitch_lat, locale) }} context={{ page_path: path, location_id: loc?.location_id ?? null, territorial_unit_id: jls?.id ?? null }} />}
           <section data-reveal data-fx="flip" className="card p-4 sm:p-5">
-            <SectionTitle>{PERSON_TYPES.has(org.type_slug) ? pick(locale, "Podaci iz registra", "Register entry", "Запись в реестре", "Registereintrag") : d.about}</SectionTitle>
+            <SectionTitle>{PERSON_TYPES.has(org.type_slug) && !mapOnly ? pick(locale, "Podaci iz registra", "Register entry", "Запись в реестре", "Registereintrag") : d.about}</SectionTitle>
             <div className="prose text-[14.5px]">
               {type.description_md ? <p>{tx(type.description_md, locale)}</p> : (
                 <p>{org.name_lat} {locale === "sr" ? `je ${type.name_lat.toLowerCase()}` : locale === "en" ? `is listed under: ${tn(type, locale)}` : locale === "ru" ? `— категория: ${tn(type, locale)}` : `ist eingetragen unter: ${tn(type, locale)}`}{showFounder ? ` (${d.founder.toLowerCase()}: ${org.founder_name})` : ""}{jls ? `, ${jls.name_lat}${okrug ? `, ${okrug.name_lat}` : ""}` : ""}. {mapOnly ? pick(locale, "Podaci potiču sa OpenStreetMap, otvorene mape koju dopunjuju korisnici; ovo nije zvanični registar. Proverite ih pre dolaska, a ispravku možete poslati sa ove stranice.", "The data comes from OpenStreetMap, an open map edited by its users; this is not an official register. Check before you go, and send a correction from this page if something is wrong.", "Данные взяты из OpenStreetMap, открытой карты, которую дополняют пользователи; это не официальный реестр. Уточните их перед визитом, исправление можно отправить с этой страницы.", "Die Daten stammen aus OpenStreetMap, einer offenen, von Nutzern gepflegten Karte; dies ist kein amtliches Register. Bitte vorab prüfen; eine Korrektur können Sie von dieser Seite senden.") : sourceNames.length

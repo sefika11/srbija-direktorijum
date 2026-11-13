@@ -598,7 +598,7 @@ h1.font-serif, .font-serif.text-\[40px\], .font-serif.sm\:text-\[40px\], .font-s
 
 /* ---------- 32. Heritage background: layered Serbian motifs with depth (replaces the flat lattice) ---------- */
 body::before { display: none; }
-.heritage { position: fixed; inset: 0; z-index: 0; pointer-events: none; overflow: hidden; --hx: 0; --hy: 0; --hs: 0; color: var(--ink); }
+.heritage { position: fixed; inset: 0; z-index: 0; pointer-events: none; overflow: hidden; overflow: clip; --hx: 0; --hy: 0; --hs: 0; color: var(--ink); }
 .heritage .hz { position: absolute; will-change: transform; }
 /* far: the cross with four firesteels, sparse */
 .hz-far { inset: -10%; opacity: .05; background-repeat: repeat; background-size: 260px 260px; transform: translate3d(calc(var(--hx) * -10px), calc(var(--hy) * -10px - var(--hs) * .04px), 0);
@@ -670,7 +670,7 @@ a { color: var(--accent); }
 @media (prefers-color-scheme: light) { :root:not([data-theme="dark"]) .band-primary::after, :root:not([data-theme="dark"]) .hero-light::after { filter: none; opacity: .5; } }
 .band-primary > *, .hero-light > * { position: relative; z-index: 1; }
 /* the home hero: paper with a tricolour ribbon stack floating top-right (three skewed planes, each with its own shadow) */
-.hero-open { background: var(--bg); overflow: hidden; }
+.hero-open { background: var(--bg); overflow: hidden; overflow: clip; }   /* clip, not hidden: a hidden box can still be scrolled sideways by focus or scrollIntoView, and the decoration is wider than a phone */
 .hero-open::after { content: ""; position: absolute; top: -22%; right: -10%; width: 46%; height: 150%; z-index: 0; pointer-events: none; transform: skewX(-10deg) translate3d(calc(var(--x, .5) * 10px - 5px), calc(var(--y, .5) * 8px - 4px), 0); transition: transform .6s var(--ease-out);
   background: linear-gradient(90deg, transparent 0 34%, color-mix(in oklab, var(--red) 70%, var(--bg)) 34% 44%, var(--surface) 44% 54%, color-mix(in oklab, var(--accent) 70%, var(--bg)) 54% 64%, transparent 64%); opacity: .55;
   filter: drop-shadow(-18px 24px 28px rgb(23 24 28 / .18)); mask-image: linear-gradient(to bottom, #000 0%, #000 70%, transparent 100%); -webkit-mask-image: linear-gradient(to bottom, #000 0%, #000 70%, transparent 100%); }
@@ -1031,7 +1031,7 @@ main { overflow-x: clip; }
 /* ---------- 43. Footer: its own material in the site's heritage language (docs/07 §21) ----------
    field = the page's diamond lattice with the cross and four firesteels (ocila) in every diamond, light on dark felt;
    top edge = a woven kilim band of stepped diamonds; behind the brand a large embossed cross with firesteels. */
-.site-footer { position: relative; margin-top: 96px; font-size: 14px; color: #e9e6df; border-top: 0; overflow: hidden;
+.site-footer { position: relative; margin-top: 96px; font-size: 14px; color: #e9e6df; border-top: 0; overflow: hidden; overflow: clip;
   background: radial-gradient(90% 130% at 18% 0%, rgb(255 255 255 / .045), transparent 62%), url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cg fill='none' stroke='%23fff' stroke-linecap='round'%3E%3Cpath d='M0 60L60 0L120 60L60 120Z' stroke-opacity='.05'/%3E%3Cpath d='M60 45v30M45 60h30' stroke-opacity='.11' stroke-width='1.6'/%3E%3Cpath d='M54 48.5l-2.2 1.5a5 5 0 1 1 0 7l2.2 1.5M66 48.5l2.2 1.5a5 5 0 1 0 0 7l-2.2 1.5M54 62.5l-2.2 1.5a5 5 0 1 1 0 7l2.2 1.5M66 62.5l2.2 1.5a5 5 0 1 0 0 7l-2.2 1.5' stroke-opacity='.1' stroke-width='1.4'/%3E%3Cpath d='M0 -5L5 0L0 5L-5 0ZM120 -5L125 0L120 5L115 0ZM0 115L5 120L0 125L-5 120ZM120 115L125 120L120 125L115 120Z' stroke-opacity='.09'/%3E%3C/g%3E%3C/svg%3E") 0 16px / 120px 120px, #17181c; }
 .footer-edge { position: absolute; left: 0; right: 0; top: 0; height: 16px; pointer-events: none; z-index: 2; background: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='16' viewBox='0 0 32 16' shape-rendering='crispEdges'%3E%3Crect width='32' height='16' fill='%2320222a'/%3E%3Crect width='32' height='1' fill='%23e9e2d0' fill-opacity='.55'/%3E%3Crect y='15' width='32' height='1' fill='%23e9e2d0' fill-opacity='.35'/%3E%3Cg fill='%23b8393f'%3E%3Crect x='14' y='2' width='4' height='2'/%3E%3Crect x='12' y='4' width='8' height='2'/%3E%3Crect x='10' y='6' width='12' height='4'/%3E%3Crect x='12' y='10' width='8' height='2'/%3E%3Crect x='14' y='12' width='4' height='2'/%3E%3C/g%3E%3Crect x='14' y='6' width='4' height='4' fill='%23e9e2d0'/%3E%3Crect x='15' y='7' width='2' height='2' fill='%2320222a'/%3E%3Cg fill='%234f7fc4'%3E%3Crect x='0' y='6' width='2' height='4'/%3E%3Crect x='2' y='7' width='2' height='2'/%3E%3Crect x='30' y='6' width='2' height='4'/%3E%3Crect x='28' y='7' width='2' height='2'/%3E%3C/g%3E%3Cg fill='%23e9e2d0' fill-opacity='.7'%3E%3Crect x='5' y='3' width='2' height='2'/%3E%3Crect x='25' y='3' width='2' height='2'/%3E%3Crect x='5' y='11' width='2' height='2'/%3E%3Crect x='25' y='11' width='2' height='2'/%3E%3C/g%3E%3C/svg%3E") repeat-x 50% 0 / 32px 16px; box-shadow: 0 2px 6px rgb(0 0 0 / .35); }
 .site-footer::after { content: ""; position: absolute; z-index: 0; pointer-events: none; right: -56px; bottom: -40px; width: 360px; height: 360px; opacity: .5; background: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 200 200'%3E%3Cg fill='none' stroke-linecap='round' stroke-linejoin='round' stroke-width='5'%3E%3Cpath d='M92 30h16v62h62v16h-62v62h-16v-62h-62v-16h62zM160 38l-8 6a22 22 0 1 0 0 36l8 6M40 38l8 6a22 22 0 1 1 0 36l-8 6M160 114l-8 6a22 22 0 1 0 0 36l8 6M40 114l8 6a22 22 0 1 1 0 36l-8 6' stroke='%23000' stroke-opacity='.5' transform='translate(1.6 1.8)'/%3E%3Cpath d='M92 30h16v62h62v16h-62v62h-16v-62h-62v-16h62zM160 38l-8 6a22 22 0 1 0 0 36l8 6M40 38l8 6a22 22 0 1 1 0 36l-8 6M160 114l-8 6a22 22 0 1 0 0 36l8 6M40 114l8 6a22 22 0 1 1 0 36l-8 6' stroke='%23fff' stroke-opacity='.1' transform='translate(-1 -1)'/%3E%3Cpath d='M92 30h16v62h62v16h-62v62h-16v-62h-62v-16h62zM160 38l-8 6a22 22 0 1 0 0 36l8 6M40 38l8 6a22 22 0 1 1 0 36l-8 6M160 114l-8 6a22 22 0 1 0 0 36l8 6M40 114l8 6a22 22 0 1 1 0 36l-8 6' stroke='%232a2c35'/%3E%3C/g%3E%3C/svg%3E") center / contain no-repeat; }
@@ -1363,6 +1363,7 @@ html[data-theme] { color-scheme: light; } html[data-theme="dark"] { color-scheme
 .vital-col { break-inside: avoid; margin-bottom: 14px; }
 .vital-val > a:first-child { white-space: normal; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; line-height: 1.3; }
 .vital-row { grid-template-columns: 84px minmax(0, 1fr); }
+@media (max-width: 479px) { .vital-row { grid-template-columns: minmax(0, 1fr); gap: 3px; } .vital-lbl { font-size: 12.5px; font-weight: 500; } }   /* on a phone the 84px label column broke long labels mid-word ("administracij-a"): the label goes above its values */
 .vital-kids a b { color: var(--ink); }
 .type-tile { min-height: 60px; }
 
@@ -1427,6 +1428,9 @@ html:root .quick-chip.is-on .text-muted, html:root .quick-chip[aria-selected="tr
 .unit-list ul { margin: 12px 0 0; padding: 0; list-style: none; columns: 2 260px; column-gap: 24px; font-size: 13.5px; }
 .unit-list li { break-inside: avoid; padding: 4px 0; border-bottom: 1px solid color-mix(in oklab, var(--line) 60%, transparent); }
 .unit-list li span { color: var(--muted); font-size: 12.5px; }
+@media (pointer: coarse) { .unit-list > summary { min-height: 44px; } .unit-list li { padding: 9px 0; } form input[type="checkbox"] { width: 18px; height: 18px; flex: none; } }   /* a finger needs more than a 21px line */
+/* the call / directions / website row under the page head: one row at every width; it scrolls sideways rather than wrap and eat the screen */
+.act-row { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; } .act-row::-webkit-scrollbar { display: none; } .act-row > * { flex: none; white-space: nowrap; }
 
 /* ── §61 Guide: the other serving locations as one compact list (a long stack of full cards buried the guide) ── */
 .serving-more ul { margin: 0; padding: 0; list-style: none; font-size: 14px; }
