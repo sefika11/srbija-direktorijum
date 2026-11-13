@@ -429,8 +429,8 @@ export async function UnitHub({ locale, unit, parent }: { locale: Locale; unit: 
                   <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 mb-3">
                     {serving.map(({ type, rows }) => (
                       <li key={type.id} className="card card-hover px-3.5 py-2.5 min-w-0 [overflow-wrap:anywhere]">
-                        <Link href={href(locale, `/${type.slug}`)} className="font-medium text-[14px] no-underline text-ink hover:text-accent">{tn(type, locale)}</Link>
-                        <div className="text-[12.5px] text-muted mt-0.5">
+                        <Link href={href(locale, `/${type.slug}`)} className="inline-block py-1 font-medium text-[14px] no-underline text-ink hover:text-accent">{tn(type, locale)}</Link>
+                        <div className="text-[12.5px] text-muted [&_a]:inline-block [&_a]:py-[3px]">
                           {rows.length ? rows.map((r, k) => <span key={r.id}>{k > 0 && ", "}<Link href={href(locale, `/${type.slug}/${r.org_slug}/${r.slug}`)}>{/^sedi[sš]te$/i.test(r.unit_name_lat.trim()) ? (r.tu_name || type.name_lat) : r.unit_name_lat}</Link></span>) : <span>{d.noData}</span>}
                         </div>
                       </li>

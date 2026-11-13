@@ -20,8 +20,9 @@ export default function VisaCountryStage({ iso2, name, label, homeLabel, legend 
   const setOpen = (fn: (o: boolean) => boolean) => { const next = fn(open); setArmed(next); if (next) setForced(true); };
   return (
     <div className={`vcstage ${open ? "is-open" : ""}`}>
-      <button type="button" className="vcstage-passport" onClick={() => setOpen((o) => !o)} aria-pressed={open} aria-label={`${name} · ${label}`}>
-        <Passport iso2={iso2} name={name} size={200} label={label} />
+      <button type="button" className="vcstage-passport" onClick={() => setOpen((o) => !o)} aria-pressed={open}>
+        <span className="sr-only">{`${name} · ${label}`}</span>
+        <span aria-hidden><Passport iso2={iso2} name={name} size={200} label={label} /></span>
       </button>
       <div className="vcstage-globe deskframe">{globe && <Globe3D iso2={iso2} label={legend ?? name} homeLabel={homeLabel} onReady={() => setReady(true)} />}</div>
     </div>

@@ -140,8 +140,10 @@ export default function Doc3D({ spec, labels }: { spec: DocSpec; labels: Labels 
   const hint = spec.form === "card" ? labels.flip : spec.form === "booklet" ? labels.open : labels.stamp;
   return (
     <div ref={root} className={`doc3 doc3-${spec.form} ${on ? "is-on" : ""}`} style={{ "--c": spec.c, "--c2": ("c2" in spec && spec.c2) || spec.c } as React.CSSProperties}>
-      <div role="button" tabIndex={0} className="doc3-hit" onClick={() => setOn((v) => !v)} onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); setOn((v) => !v); } }} aria-pressed={on} aria-label={`${spec.title}. ${on && spec.form !== "paper" ? labels.close : hint}`}>
-        <div className="doc3-enter"><div className="doc3-float"><div className="doc3-tilt">
+      <div role="button" tabIndex={0} className="doc3-hit" onClick={() => setOn((v) => !v)} onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); setOn((v) => !v); } }} aria-pressed={on}>
+        {/* the drawn document is a picture, hidden from assistive technology; the button's name is this line */}
+        <span className="sr-only">{`${spec.title}. ${on && spec.form !== "paper" ? labels.close : hint}`}</span>
+        <div className="doc3-enter" aria-hidden><div className="doc3-float"><div className="doc3-tilt">
           {spec.form === "card" ? <Card s={spec} back={labels.back} /> : spec.form === "booklet" ? <Booklet s={spec} /> : <Paper s={spec} />}
         </div></div></div>
         <div className="doc3-shadow" aria-hidden />

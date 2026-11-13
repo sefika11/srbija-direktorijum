@@ -1428,7 +1428,8 @@ html:root .quick-chip.is-on .text-muted, html:root .quick-chip[aria-selected="tr
 .unit-list ul { margin: 12px 0 0; padding: 0; list-style: none; columns: 2 260px; column-gap: 24px; font-size: 13.5px; }
 .unit-list li { break-inside: avoid; padding: 4px 0; border-bottom: 1px solid color-mix(in oklab, var(--line) 60%, transparent); }
 .unit-list li span { color: var(--muted); font-size: 12.5px; }
-@media (pointer: coarse) { .unit-list > summary { min-height: 44px; } .unit-list li { padding: 9px 0; } form input[type="checkbox"] { width: 18px; height: 18px; flex: none; } }   /* a finger needs more than a 21px line */
+@media (pointer: coarse) { main dd a[href^="tel:"], main dd a[href^="mailto:"] { display: inline-block; padding: 4px 0; } .vital-vals { gap: 10px; } .vital-val { row-gap: 6px; }   /* a 17px line of link is under the 24px a finger needs: taller links, or more room between them where the link clamps its text */
+  .unit-list > summary { min-height: 44px; } .unit-list li { padding: 9px 0; } form input[type="checkbox"] { width: 18px; height: 18px; flex: none; } }   /* a finger needs more than a 21px line */
 /* the call / directions / website row under the page head: one row at every width; it scrolls sideways rather than wrap and eat the screen */
 .act-row { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; } .act-row::-webkit-scrollbar { display: none; } .act-row > * { flex: none; white-space: nowrap; }
 

@@ -588,3 +588,19 @@ institution page 83; list pages 88 and 99; Belgrade 84; guide 82; search 99; vis
   visas 94, roadmaps 100; pages are 200 to 500 kB lighter.
 - **Open, Nick's call.** The visa page loads the 3D globe on phones too (172 kB of script, about 2 s of processor time
   on a mid-range phone).
+
+## 35. Accessibility and search-engine check (2026-11-13)
+
+Lighthouse 12 (accessibility, SEO, best practices) on fourteen live pages. Before: accessibility 95 to 100, SEO 100
+everywhere except the search page (58, by design: results are `noindex` and carry no description), best practices 96.
+
+- **A tablist holds tabs only.** In the home card deck each card holds its tab and its panel, so the wrapper cannot be
+  the tablist. An empty `sr-only` element with `role="tablist"` owns the four tab buttons through `aria-owns`.
+- **A picture button is named by hidden text, not `aria-label`.** The drawn document (`Doc3D`) and the passport on a
+  country page are `aria-hidden`; the button's name is an `sr-only` line inside it. With `aria-label` the checker
+  compares the label with the text printed on the drawing and fails.
+- **Links a finger can hit.** On a coarse pointer, phone and e-mail links in a contact list are 25 px high, rows of the
+  vital-services card are 10 px apart, and the unit links inside a city page's service cards are 25 px high.
+- **Not faults.** Every page logs one console error: the Vercel Web Analytics script answers 404 until Web Analytics is
+  switched on in the dashboard. The visa page prints tiny text on the drawn passport on purpose.
+- **Seen, left:** after an arrow key the deck selects the next tab but keyboard focus stays on the old tab button.

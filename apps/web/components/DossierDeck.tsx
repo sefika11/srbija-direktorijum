@@ -112,7 +112,9 @@ export default function DossierDeck({ tabs, children, labels }: { tabs: DeckTab[
           <button type="button" className="deck-arrow" onClick={() => go(activeRef.current + 1)} aria-label={labels.next}><span aria-hidden>→</span></button>
         </span>
       </div>
-      <div ref={deck} className="deck" role="tablist" aria-label={labels.region} onKeyDown={onKey}>
+      {/* a tablist may hold tabs only, and each card here holds its tab AND its panel: the tablist is this empty element that owns the tab buttons by id */}
+      <div role="tablist" aria-label={labels.region} aria-owns={tabs.map((t) => `tab-${t.id}`).join(" ")} className="sr-only" />
+      <div ref={deck} className="deck" onKeyDown={onKey}>
         {tabs.map((t, i) => (
           <section key={t.id} id={t.id} ref={(el) => { cards.current[i] = el; }} className={`deck-card ${i === active ? "is-front" : ""}`} style={{ "--k": i, "--kn": tabs.length } as React.CSSProperties}
                    onPointerDown={i === active ? onDown : undefined} onPointerMove={i === active ? onMove : undefined} onPointerUp={i === active ? onUp : undefined} onPointerCancel={i === active ? onUp : undefined}
