@@ -2,7 +2,7 @@
 /** Opening sequence for the first home-page visit of a session: paper curtain, wordmark rising word by word,
  *  the tricolour hairline drawing across, the institution count running up, then the curtain parts and the page's
  *  own reveals (headline words, 3D map rise) start. ≤ 2.1 s, skippable by click or key, skipped entirely on
- *  return visits in the same session and under prefers-reduced-motion. Purely presentational: aria-hidden. */
+ *  return visits in the same session, under prefers-reduced-motion and on screens narrower than 768 px. Purely presentational: aria-hidden. */
 import { useLayoutEffect, useState } from "react";
 import { LogoMark } from "./Logo";
 
@@ -21,7 +21,10 @@ export default function Opener({ words, eyebrow, count, countLabel }: { words: s
     // slow connection: the pre-paint curtain gives up after 4 s and shows the page; starting the opener after that would
     // cover a page the visitor is already reading, so it is skipped for this visit
     const late = root.classList.contains("opener-pending") && performance.now() > 3800;
-    if (seen || reduced || late) { if (late) { try { sessionStorage.setItem("gdi-opener", "1"); } catch { /* ignore */ } } setState("done"); root.classList.add("opener-done"); root.classList.remove("opener-pending", "has-opener"); return; }
+    // a phone gets the page at once: the curtain kept anything readable off the screen for about 3.6 s on a first visit,
+    // and up to 4 s blank on a slow connection (measured 2026-11-13). The inline script in the layout head makes the same test.
+    const phone = window.matchMedia("(max-width: 767px)").matches;
+    if (seen || reduced || late || phone) { if (late) { try { sessionStorage.setItem("gdi-opener", "1"); } catch { /* ignore */ } } setState("done"); root.classList.add("opener-done"); root.classList.remove("opener-pending", "has-opener"); return; }
     root.classList.add("has-opener");
     try { sessionStorage.setItem("gdi-opener", "1"); } catch { /* ignore */ }
     setState("play");

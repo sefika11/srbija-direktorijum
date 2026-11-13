@@ -580,6 +580,11 @@ institution page 83; list pages 88 and 99; Belgrade 84; guide 82; search 99; vis
 - **Links do not prefetch.** `components/Link.tsx` is `next/link` with `prefetch={false}`; every component imports it
   instead of `next/link`. A directory page has hundreds of links and each one in view was fetched: Belgrade pulled 380 kB
   of other pages, and every prefetch is a request against the hosting plan. Pass `prefetch` to turn it on for one link.
-- **Open, Nick's call.** The home intro curtain keeps anything readable off the screen for about 3.6 s on a first visit
-  (up to 4 s blank on a slow phone before it gives up). The visa page loads the 3D globe on phones too (172 kB of
-  script, about 2 s of processor time on a mid-range phone).
+- **No intro curtain on phones** (Nick, 2026-11-13). Below 768 px the home page shows at once: the curtain kept anything
+  readable off the screen for about 3.6 s on a first visit, and up to 4 s blank on a slow phone before it gave up. The
+  test is made twice and must stay the same in both places: the inline script in `app/layout.tsx` and `Opener.tsx`.
+  From 768 px up the intro plays as before.
+- **After the first two fixes:** home 85, institution page 96, lists 92 and 97, Belgrade 97, guide 94, search 100,
+  visas 94, roadmaps 100; pages are 200 to 500 kB lighter.
+- **Open, Nick's call.** The visa page loads the 3D globe on phones too (172 kB of script, about 2 s of processor time
+  on a mid-range phone).
